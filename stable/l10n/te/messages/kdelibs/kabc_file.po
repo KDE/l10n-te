@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: 2005-07-11 01:29+0200\n"
+"POT-Creation-Date: 2006-02-23 03:44+0100\n"
 "PO-Revision-Date: 2005-01-10 12:00+0530\n"
 "Last-Translator: Vijay Kiran Kamuju <infyquest@gmail.com>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -12,21 +12,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: resourcefile.cpp:214 resourcefile.cpp:277 resourcefile.cpp:362
+#: resourcefile.cpp:218 resourcefile.cpp:254 resourcefile.cpp:473
 msgid "Unable to open file '%1'."
 msgstr "'%1' దస్త్రాన్ని తెరువలేకపొయాను."
 
-#: resourcefile.cpp:266
+#: resourcefile.cpp:223 resourcefile.cpp:470
+msgid "Problems during parsing file '%1'."
+msgstr "'%1' దస్త్రాన్ని అన్వయిచటంలో సమస్యలు వచ్చాయి."
+
+#: resourcefile.cpp:323 resourcefile.cpp:351
 msgid "Unable to save file '%1'."
 msgstr "'%1' దస్త్రాన్ని దాచలేకపొయాను."
 
-#: resourcefile.cpp:358
+#: resourcefile.cpp:461
 msgid "Download failed in some way!"
 msgstr "డౌన్ లోడ్ ఎందుకనో విఫలం అయినది!"
-
-#: resourcefile.cpp:367
-msgid "Problems during parsing file '%1'."
-msgstr "'%1' దస్త్రాన్ని అన్వయిచటంలో సమస్యలు వచ్చాయి."
 
 #: resourcefileconfig.cpp:45
 msgid "Format:"
