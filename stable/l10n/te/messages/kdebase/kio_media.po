@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: 2006-09-16 02:33+0200\n"
+"POT-Creation-Date: 2006-09-24 02:35+0200\n"
 "PO-Revision-Date: 2006-01-15 16:00+0530\n"
 "Last-Translator: Vijay Kiran Kamuju <infyquest@gmail.com>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -341,35 +341,41 @@ msgstr ""
 msgid "Unknown"
 msgstr "తెలియనిది"
 
-#: mediamanager/fstabbackend.cpp:375
+#: mediamanager/fstabbackend.cpp:104 mediamanager/fstabbackend.cpp:114
+#: mediamanager/halbackend.cpp:1094 mediamanager/halbackend.cpp:1116
+#, c-format
+msgid "No such medium: %1"
+msgstr ""
+
+#: mediamanager/fstabbackend.cpp:398
 msgid "CD Recorder"
 msgstr "సిడీ రికార్డర్"
 
-#: mediamanager/fstabbackend.cpp:381
+#: mediamanager/fstabbackend.cpp:404
 msgid "DVD"
 msgstr "డివిడి"
 
-#: mediamanager/fstabbackend.cpp:392
+#: mediamanager/fstabbackend.cpp:415
 msgid "CD-ROM"
 msgstr "సిడీ-రామ్"
 
-#: mediamanager/fstabbackend.cpp:405
+#: mediamanager/fstabbackend.cpp:428
 msgid "Floppy"
 msgstr "ఫ్లాపి"
 
-#: mediamanager/fstabbackend.cpp:413
+#: mediamanager/fstabbackend.cpp:436
 msgid "Zip Disk"
 msgstr "జిప్ డిస్క్"
 
-#: mediamanager/fstabbackend.cpp:424
+#: mediamanager/fstabbackend.cpp:447
 msgid "Removable Device"
 msgstr ""
 
-#: mediamanager/fstabbackend.cpp:429 mediamanager/fstabbackend.cpp:435
+#: mediamanager/fstabbackend.cpp:452 mediamanager/fstabbackend.cpp:458
 msgid "Remote Share"
 msgstr ""
 
-#: mediamanager/fstabbackend.cpp:440
+#: mediamanager/fstabbackend.cpp:463
 msgid "Hard Disk"
 msgstr "హార్డ్ డిస్క్"
 
@@ -390,17 +396,12 @@ msgstr ""
 msgid "Device is already mounted."
 msgstr ""
 
-#: mediamanager/halbackend.cpp:1094 mediamanager/halbackend.cpp:1116
-#, c-format
-msgid "No such medium: %1"
-msgstr ""
-
 #: mediamanager/halbackend.cpp:1171
 msgid "Device is Busy:"
 msgstr ""
 
-#: mediamanager/mediamanager.cpp:206 mediamanager/mediamanager.cpp:209
-#: mediamanager/mediamanager.cpp:217 mediamanager/mediamanager.cpp:220
+#: mediamanager/mediamanager.cpp:209 mediamanager/mediamanager.cpp:213
+#: mediamanager/mediamanager.cpp:222 mediamanager/mediamanager.cpp:226
 msgid "Feature only available with HAL"
 msgstr ""
 
