@@ -1,7 +1,7 @@
 # translation of konsole.po to Telugu
 # 
-#విజయ్ కిరణ్ కముజు <infyquest@gmail.com>,2007
-#pavithran <pavithran.s@gmail.com>, 2007.
+# విజయ్ కిరణ్ కముజు <infyquest@gmail.com>,2007
+# pavithran <pavithran.s@gmail.com>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
@@ -26,13 +26,17 @@ msgstr "పరిమాణం: %1 x %2"
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
-msgstr "విజయ్ కిరణ్ కముజు\npavithran"
+msgstr ""
+"విజయ్ కిరణ్ కముజు\n"
+"pavithran"
 
 #: _translatorinfo.cpp:3
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
-msgstr "infyquest@gmail.com\npavithran.s@gmail.com"
+msgstr ""
+"infyquest@gmail.com\n"
+"pavithran.s@gmail.com"
 
 #: konsole.cpp:489 konsole_part.cpp:319
 msgid "&Suspend Task"
@@ -371,8 +375,8 @@ msgstr ""
 
 #: konsole.cpp:1196
 msgid ""
-"You have open sessions (besides the current one). These will be killed if "
-"you continue.\n"
+"You have open sessions (besides the current one). These will be killed if you "
+"continue.\n"
 "Are you sure you want to quit?"
 msgstr ""
 
@@ -401,8 +405,8 @@ msgstr ""
 #: konsole.cpp:1809
 msgid ""
 "If you want to use the bitmap fonts distributed with Konsole, they must be "
-"installed.  After installation, you must restart Konsole to use them.  Do "
-"you want to install the fonts listed below into fonts:/Personal?"
+"installed.  After installation, you must restart Konsole to use them.  Do you "
+"want to install the fonts listed below into fonts:/Personal?"
 msgstr ""
 
 #: konsole.cpp:1811
@@ -427,14 +431,14 @@ msgstr ""
 
 #: konsole.cpp:2034
 msgid ""
-"You have chosen one or more Ctrl+<key> combinations to be used as shortcuts. "
-"As a result these key combinations will no longer be passed to the command "
-"shell or to applications that run inside Konsole. This can have the "
-"unintended consequence that functionality that would otherwise be bound to "
-"these key combinations is no longer accessible.\n"
+"You have chosen one or more Ctrl+<key> combinations to be used as shortcuts. As "
+"a result these key combinations will no longer be passed to the command shell "
+"or to applications that run inside Konsole. This can have the unintended "
+"consequence that functionality that would otherwise be bound to these key "
+"combinations is no longer accessible.\n"
 "\n"
-"You may wish to reconsider your choice of keys and use Alt+Ctrl+<key> or "
-"Ctrl+Shift+<key> instead.\n"
+"You may wish to reconsider your choice of keys and use Alt+Ctrl+<key> "
+"or Ctrl+Shift+<key> instead.\n"
 "\n"
 "You are currently using the following Ctrl+<key> combinations:"
 msgstr ""
@@ -539,8 +543,10 @@ msgid "Save History"
 msgstr "చరిత్రను దాచు"
 
 #: konsole.cpp:4040
-msgid "This is not a local file.\n"
-msgstr "ఇది స్థానిక దస్త్రం కాదు.\n"
+msgid ""
+"This is not a local file.\n"
+msgstr ""
+"ఇది స్థానిక దస్త్రం కాదు.\n"
 
 #: konsole.cpp:4050
 msgid ""
@@ -895,11 +901,13 @@ msgid ""
 msgstr ""
 
 #: main.cpp:327
-msgid "You can't use BOTH -ls and -e.\n"
+msgid ""
+"You can't use BOTH -ls and -e.\n"
 msgstr ""
 
 #: main.cpp:454
-msgid "expected --vt_sz <#columns>x<#lines> e.g. 80x40\n"
+msgid ""
+"expected --vt_sz <#columns>x<#lines> e.g. 80x40\n"
 msgstr ""
 
 #: printsettings.cpp:32
@@ -1020,9 +1028,9 @@ msgstr ""
 
 #: session.cpp:137
 msgid ""
-"Konsole is unable to open a PTY (pseudo teletype).  It is likely that this "
-"is due to an incorrect configuration of the PTY devices.  Konsole needs to "
-"have read/write access to the PTY devices."
+"Konsole is unable to open a PTY (pseudo teletype).  It is likely that this is "
+"due to an incorrect configuration of the PTY devices.  Konsole needs to have "
+"read/write access to the PTY devices."
 msgstr ""
 
 #: session.cpp:138
@@ -1078,29 +1086,31 @@ msgid ""
 msgstr ""
 
 #: tips.cpp:13
-msgid "<p>...that the code \\e[8;ROW;COLUMNt will resize Konsole?\n"
+msgid ""
+"<p>...that the code \\e[8;ROW;COLUMNt will resize Konsole?\n"
 msgstr ""
 
 #: tips.cpp:18
 msgid ""
-"<p>...that you can start a new standard session by pressing the \"New\" "
-"button in the tabbar?\n"
+"<p>...that you can start a new standard session by pressing the \"New\" button "
+"in the tabbar?\n"
 msgstr ""
 
 #: tips.cpp:23
 msgid ""
-"<p>...that pressing and holding the \"New\" button on the tabbar will "
-"display a menu of sessions to select?\n"
+"<p>...that pressing and holding the \"New\" button on the tabbar will display a "
+"menu of sessions to select?\n"
 msgstr ""
 
 #: tips.cpp:28
-msgid "<p>...that pressing Ctrl+Alt+N will start a new standard session?\n"
+msgid ""
+"<p>...that pressing Ctrl+Alt+N will start a new standard session?\n"
 msgstr ""
 
 #: tips.cpp:33
 msgid ""
-"<p>...that you can cycle through the Konsole sessions by holding down the "
-"Shift key and\n"
+"<p>...that you can cycle through the Konsole sessions by holding down the Shift "
+"key and\n"
 "pressing the Left or Right Arrow keys?\n"
 msgstr ""
 
@@ -1116,17 +1126,18 @@ msgstr ""
 msgid ""
 "<p>...that you can rename your Konsole sessions by clicking with the right "
 "mouse\n"
-"button and selecting \"Rename session\"? The change will be reflected in "
-"the\n"
+"button and selecting \"Rename session\"? The change will be reflected in the\n"
 "Konsole tabbar, making it easier to remember the content of the session.\n"
 msgstr ""
 
 #: tips.cpp:54
-msgid "<p>...that you can rename a Konsole session by double-clicking its tab?\n"
+msgid ""
+"<p>...that you can rename a Konsole session by double-clicking its tab?\n"
 msgstr ""
 
 #: tips.cpp:59
-msgid "<p>...that you can activate the menu with the Ctrl+Alt+M shortcut?\n"
+msgid ""
+"<p>...that you can activate the menu with the Ctrl+Alt+M shortcut?\n"
 msgstr ""
 
 #: tips.cpp:64
@@ -1150,15 +1161,15 @@ msgstr ""
 
 #: tips.cpp:82
 msgid ""
-"<p>...that you can move a session by holding down the middle mouse button "
-"over the tab?\n"
+"<p>...that you can move a session by holding down the middle mouse button over "
+"the tab?\n"
 "</p>\n"
 msgstr ""
 
 #: tips.cpp:88
 msgid ""
-"<p>...that you can reorder the session tabs with \"View->Move Session "
-"Left/Right\" menu\n"
+"<p>...that you can reorder the session tabs with \"View->"
+"Move Session Left/Right\" menu\n"
 "commands or by holding down the Shift and Ctrl keys and pressing the Left or "
 "Right \n"
 "Arrow keys?\n"
@@ -1167,15 +1178,15 @@ msgstr ""
 
 #: tips.cpp:96
 msgid ""
-"<p>...that you can scroll pagewise in the history by holding down the Shift "
-"key \n"
+"<p>...that you can scroll pagewise in the history by holding down the Shift key "
+"\n"
 "and pressing the Page Up or Page Down keys?\n"
 msgstr ""
 
 #: tips.cpp:102
 msgid ""
-"<p>...that you can scroll linewise in the history by holding down the Shift "
-"key \n"
+"<p>...that you can scroll linewise in the history by holding down the Shift key "
+"\n"
 "and pressing the Up or Down Arrow keys?\n"
 msgstr ""
 
@@ -1199,8 +1210,8 @@ msgstr ""
 
 #: tips.cpp:126
 msgid ""
-"<p>...that you can turn off the terminal size hint under "
-"\"Settings->Configure Konsole...\"?\n"
+"<p>...that you can turn off the terminal size hint under \"Settings->"
+"Configure Konsole...\"?\n"
 msgstr ""
 
 #: tips.cpp:131
@@ -1211,8 +1222,8 @@ msgstr ""
 
 #: tips.cpp:136
 msgid ""
-"<p>...that pressing the Ctrl and Alt keys while selecting text will let "
-"Konsole select columns?\n"
+"<p>...that pressing the Ctrl and Alt keys while selecting text will let Konsole "
+"select columns?\n"
 msgstr ""
 
 #: tips.cpp:141
@@ -1223,33 +1234,28 @@ msgstr ""
 
 #: tips.cpp:147
 msgid ""
-"<p>...that when a program evaluates the left mouse button you can still "
-"select\n"
+"<p>...that when a program evaluates the left mouse button you can still select\n"
 "text while pressing the Shift key?\n"
 msgstr ""
 
 #: tips.cpp:153
 msgid ""
-"<p>...that you can let Konsole set the current directory as the window "
-"title?\n"
-"For Bash, put 'export PS1=$PS1\"\\[\\e]0;\\H:\\w\\a\\]\"' in your ~/.bashrc "
-".\n"
+"<p>...that you can let Konsole set the current directory as the window title?\n"
+"For Bash, put 'export PS1=$PS1\"\\[\\e]0;\\H:\\w\\a\\]\"' in your ~/.bashrc .\n"
 msgstr ""
 
 #: tips.cpp:159
 msgid ""
-"<p>...that you can let Konsole set the current directory as the session "
-"name?\n"
-"For Bash, put 'export PS1=$PS1\"\\[\\e]30;\\H:\\w\\a\\]\"' in your ~/.bashrc "
-".\n"
+"<p>...that you can let Konsole set the current directory as the session name?\n"
+"For Bash, put 'export PS1=$PS1\"\\[\\e]30;\\H:\\w\\a\\]\"' in your ~/.bashrc .\n"
 msgstr ""
 
 #: tips.cpp:165
 msgid ""
-"<p>...that if you let your shell pass the current directory to Konsole "
-"within the prompt\n"
-"variable, e.g. for Bash with 'export PS1=$PS1\"\\[\\e]31;\\w\\a\\]\"' in "
-"your ~/.bashrc, then\n"
+"<p>...that if you let your shell pass the current directory to Konsole within "
+"the prompt\n"
+"variable, e.g. for Bash with 'export PS1=$PS1\"\\[\\e]31;\\w\\a\\]\"' in your "
+"~/.bashrc, then\n"
 "Konsole can bookmark it, and session management will remember your current "
 "working directory\n"
 "on non-Linux systems too?\n"
@@ -1271,8 +1277,8 @@ msgstr ""
 
 #: tips.cpp:187
 msgid ""
-"<p>...that if you drag &amp; drop a URL into a Konsole window you are "
-"presented with a\n"
+"<p>...that if you drag &amp; drop a URL into a Konsole window you are presented "
+"with a\n"
 "menu giving the option to copy or move the specified file into the current "
 "working directory,\n"
 "as well as just pasting the URL as text.\n"
@@ -1281,10 +1287,10 @@ msgstr ""
 
 #: tips.cpp:195
 msgid ""
-"<p>...that the \"Settings->Configure Shortcuts...\" dialog allows you to "
-"define keyboard shortcuts for actions\n"
-"not shown in the menu, like activating menu, changing font and for listing "
-"and switching sessions?\n"
+"<p>...that the \"Settings->Configure Shortcuts...\" dialog allows you to define "
+"keyboard shortcuts for actions\n"
+"not shown in the menu, like activating menu, changing font and for listing and "
+"switching sessions?\n"
 msgstr ""
 
 #: tips.cpp:201
@@ -1297,4 +1303,3 @@ msgstr ""
 #: zmodem_dialog.cpp:28
 msgid "&Stop"
 msgstr "(&S) ఆపు"
-

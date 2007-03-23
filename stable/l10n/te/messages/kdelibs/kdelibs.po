@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 2007-03-16 02:14+0100\n"
+"POT-Creation-Date: 2007-03-23 14:05+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -52,8 +52,11 @@ msgstr "ప్రాధమిక శీఘ్ర మార్గం"
 #. i18n: file ./kdeui/kshortcutdialog_advanced.ui line 155
 #: rc.cpp:21
 #, no-c-format
-msgid "The currently set shortcut or the shortcut you are entering will show up here."
-msgstr "ఇప్పుడు మారుస్తున్నశీఘ్ర మార్గం లేక మీరు వ్రాస్తున్న శీఘ్ర మార్గం ఇక్కడ చూపబడును "
+msgid ""
+"The currently set shortcut or the shortcut you are entering will show up here."
+msgstr ""
+"ఇప్పుడు మారుస్తున్నశీఘ్ర మార్గం లేక మీరు వ్రాస్తున్న శీఘ్ర మార్గం ఇక్కడ "
+"చూపబడును "
 
 #. i18n: file ./kdeui/kshortcutdialog_advanced.ui line 182
 #: rc.cpp:24 rc.cpp:30 rc.cpp:87
@@ -854,7 +857,7 @@ msgstr "విరమించు"
 msgid "&Quit"
 msgstr "(&Q) విరమించు"
 
-#: common_texts.cpp:88 kdecore/kstdaccel.cpp:88 kded/kbuildsycoca.cpp:768
+#: common_texts.cpp:88 kdecore/kstdaccel.cpp:88 kded/kbuildsycoca.cpp:753
 msgid "Reload"
 msgstr "తిరిగి ఎక్కించు"
 
@@ -2328,7 +2331,7 @@ msgstr ""
 msgid "kde-menu"
 msgstr "కెడిఈ-మెను"
 
-#: kded/kbuildsycoca.cpp:739 kded/kbuildsycoca.cpp:740 kded/kde-menu.cpp:119
+#: kded/kbuildsycoca.cpp:724 kded/kbuildsycoca.cpp:725 kded/kde-menu.cpp:119
 #: kded/khostname.cpp:362 kdeui/kaboutdialog.cpp:90
 msgid "Author"
 msgstr "మూలకర్త"
@@ -2360,11 +2363,13 @@ msgid "New hostname"
 msgstr "కొత్త హోస్ట్ పేరు"
 
 #: kded/khostname.cpp:79
-msgid "Error: HOME environment variable not set.\n"
+msgid ""
+"Error: HOME environment variable not set.\n"
 msgstr ""
 
 #: kded/khostname.cpp:88
-msgid "Error: DISPLAY environment variable not set.\n"
+msgid ""
+"Error: DISPLAY environment variable not set.\n"
 msgstr ""
 
 #: kded/khostname.cpp:359
@@ -2387,82 +2392,82 @@ msgstr "కెడిఈ సూత్రధారి"
 msgid "KDE Daemon - triggers Sycoca database updates when needed"
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:498
+#: kded/kbuildsycoca.cpp:483
 msgid ""
 "Error creating database '%1'.\n"
 "Check that the permissions are correct on the directory and the disk is not "
 "full.\n"
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:498 kded/kbuildsycoca.cpp:527
-#: kded/kbuildsycoca.cpp:736
+#: kded/kbuildsycoca.cpp:483 kded/kbuildsycoca.cpp:512
+#: kded/kbuildsycoca.cpp:721
 msgid "KBuildSycoca"
 msgstr "కెబిల్డ్ సైకొక"
 
-#: kded/kbuildsycoca.cpp:527
+#: kded/kbuildsycoca.cpp:512
 msgid ""
 "Error writing database '%1'.\n"
 "Check that the permissions are correct on the directory and the disk is not "
 "full.\n"
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:710
+#: kded/kbuildsycoca.cpp:695
 msgid "Do not signal applications to update"
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:711
+#: kded/kbuildsycoca.cpp:696
 msgid "Disable incremental update, re-read everything"
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:712
+#: kded/kbuildsycoca.cpp:697
 msgid "Check file timestamps"
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:713
+#: kded/kbuildsycoca.cpp:698
 msgid "Disable checking files (dangerous)"
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:714
+#: kded/kbuildsycoca.cpp:699
 msgid "Create global database"
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:715
+#: kded/kbuildsycoca.cpp:700
 msgid "Perform menu generation test run only"
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:716
+#: kded/kbuildsycoca.cpp:701
 msgid "Track menu id for debug purposes"
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:718
+#: kded/kbuildsycoca.cpp:703
 msgid "Silent - work without windows and stderr"
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:719
+#: kded/kbuildsycoca.cpp:704
 msgid "Show progress information (even if 'silent' mode is on)"
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:737
+#: kded/kbuildsycoca.cpp:722
 msgid "Rebuilds the system configuration cache."
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:765
+#: kded/kbuildsycoca.cpp:750
 msgid "Reloading KDE configuration, please wait..."
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:766
+#: kded/kbuildsycoca.cpp:751
 msgid "KDE Configuration Manager"
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:768
+#: kded/kbuildsycoca.cpp:753
 msgid "Do you want to reload KDE configuration?"
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:768
+#: kded/kbuildsycoca.cpp:753
 msgid "Do Not Reload"
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:968
+#: kded/kbuildsycoca.cpp:953
 msgid "Configuration information reloaded successfully."
 msgstr ""
 
@@ -2803,12 +2808,15 @@ msgid "sets the application GUI style"
 msgstr ""
 
 #: kdecore/kapplication.cpp:1438
-msgid "sets the client geometry of the main widget - see man X for the argument format"
+msgid ""
+"sets the client geometry of the main widget - see man X for the argument format"
 msgstr ""
 
 #: kdecore/kapplication.cpp:1478
-msgid "The style %1 was not found\n"
-msgstr "%1 శైలి కనపడలేదు\n"
+msgid ""
+"The style %1 was not found\n"
+msgstr ""
+"%1 శైలి కనపడలేదు\n"
 
 #: kdecore/kapplication.cpp:1940 kstyles/klegacy/klegacystyle.cpp:3044
 #: kstyles/web/webstyle.cpp:1604
@@ -2861,11 +2869,13 @@ msgstr ""
 "%1"
 
 #: kdecore/kapplication.cpp:2599
-msgid "Could not register with DCOP.\n"
+msgid ""
+"Could not register with DCOP.\n"
 msgstr ""
 
 #: kdecore/kapplication.cpp:2631
-msgid "KLauncher could not be reached via DCOP.\n"
+msgid ""
+"KLauncher could not be reached via DCOP.\n"
 msgstr ""
 
 #: kdecore/kwinmodule.cpp:456
@@ -2874,11 +2884,13 @@ msgid "Desktop %1"
 msgstr "రంగస్థలం %1"
 
 #: kdecore/kconfigbackend.cpp:1107 kdecore/kconfigbackend.cpp:1116
-msgid "Will not save configuration.\n"
+msgid ""
+"Will not save configuration.\n"
 msgstr ""
 
 #: kdecore/kconfigbackend.cpp:1109 kdecore/kconfigbackend.cpp:1117
-msgid "Configuration file \"%1\" not writable.\n"
+msgid ""
+"Configuration file \"%1\" not writable.\n"
 msgstr ""
 
 #: kdecore/kconfigbackend.cpp:1124
@@ -2907,12 +2919,16 @@ msgid "This application was written by somebody who wants to remain anonymous."
 msgstr "ఈ కార్యక్రమాన్ని వ్రాసినవారు అజ్ఞాతంగా వుండదలచుకున్నారు"
 
 #: kdecore/kcmdlineargs.cpp:627
-msgid "Please use http://bugs.kde.org to report bugs.\n"
-msgstr "తప్పులను తెలియచేయుటకు http://bugs.kde.orgని వాడండి.\n"
+msgid ""
+"Please use http://bugs.kde.org to report bugs.\n"
+msgstr ""
+"తప్పులను తెలియచేయుటకు http://bugs.kde.orgని వాడండి.\n"
 
 #: kdecore/kcmdlineargs.cpp:630 kdecore/kcmdlineargs.cpp:632
-msgid "Please report bugs to %1.\n"
-msgstr "%1 కు తప్పులను తెలియచేయండి.\n"
+msgid ""
+"Please report bugs to %1.\n"
+msgstr ""
+"%1 కు తప్పులను తెలియచేయండి.\n"
 
 #: kdecore/kcmdlineargs.cpp:658
 msgid "Unexpected argument '%1'."
@@ -2920,7 +2936,8 @@ msgstr "'%1' ఊహించని ఆర్గ్యుమెంట్."
 
 #: kdecore/kcmdlineargs.cpp:763
 msgid "Use --help to get a list of available command line options."
-msgstr "అందుబాటులొ వున్న కమేండ్ లైన్ ఐచ్చికముల జాబితా తెలుసుకొవటానికి --help వాడండి"
+msgstr ""
+"అందుబాటులొ వున్న కమేండ్ లైన్ ఐచ్చికముల జాబితా తెలుసుకొవటానికి --help వాడండి"
 
 #: kdecore/kcmdlineargs.cpp:778
 msgid ""
@@ -2939,8 +2956,10 @@ msgid "[%1-options]"
 msgstr "[%1-ఐచ్ఛికములు]"
 
 #: kdecore/kcmdlineargs.cpp:814
-msgid "Usage: %1 %2\n"
-msgstr "వాడుక: %1 %2\n"
+msgid ""
+"Usage: %1 %2\n"
+msgstr ""
+"వాడుక: %1 %2\n"
 
 #: kdecore/kcmdlineargs.cpp:817
 msgid "Generic options"
@@ -2996,7 +3015,8 @@ msgstr ""
 
 #: kdecore/kcmdlineargs.cpp:1279
 msgid "The files/URLs opened by the application will be deleted after use"
-msgstr "అప్లికేషన్ ద్వారా తెరచిన దస్త్రాలు/యూఆర్ఎల్లు వాడిన తరువాత తీసివేయబడును"
+msgstr ""
+"అప్లికేషన్ ద్వారా తెరచిన దస్త్రాలు/యూఆర్ఎల్లు వాడిన తరువాత తీసివేయబడును"
 
 #: kdecore/ksockaddr.cpp:112
 msgid "<unknown socket>"
@@ -3990,8 +4010,10 @@ msgstr ""
 "ఒకటి కంటే ఎక్కువ జతలు కలవు.\n"
 
 #: kdecore/kcompletion.cpp:644
-msgid "There is no matching item available.\n"
-msgstr "జతైన అంశము దొరకలేదు.\n"
+msgid ""
+"There is no matching item available.\n"
+msgstr ""
+"జతైన అంశము దొరకలేదు.\n"
 
 #: kdecore/kcalendarsystemhebrew.cpp:402
 msgid "Tishrey"
@@ -4468,24 +4490,33 @@ msgid "Unable to create file to upload."
 msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
 
 #: knewstuff/engine.cpp:293
-msgid "The files to be uploaded have been created at:\n"
-msgstr "ఎక్కించుటకు దస్త్రాలను ఇక్కడ సృష్టించబడినవి:\n"
+msgid ""
+"The files to be uploaded have been created at:\n"
+msgstr ""
+"ఎక్కించుటకు దస్త్రాలను ఇక్కడ సృష్టించబడినవి:\n"
 
 #: knewstuff/engine.cpp:294
-msgid "Data file: %1\n"
-msgstr "దత్తాంసపు ఫైలు: %1\n"
+msgid ""
+"Data file: %1\n"
+msgstr ""
+"దత్తాంసపు ఫైలు: %1\n"
 
 #: knewstuff/engine.cpp:296
-msgid "Preview image: %1\n"
+msgid ""
+"Preview image: %1\n"
 msgstr ""
 
 #: knewstuff/engine.cpp:298
-msgid "Content information: %1\n"
-msgstr "విషయ సమాచారం: %1\n"
+msgid ""
+"Content information: %1\n"
+msgstr ""
+"విషయ సమాచారం: %1\n"
 
 #: knewstuff/engine.cpp:299
-msgid "Those files can now be uploaded.\n"
-msgstr "ఆ దస్త్రాలు ఇప్పుడు ఎక్కించవచ్చు.\n"
+msgid ""
+"Those files can now be uploaded.\n"
+msgstr ""
+"ఆ దస్త్రాలు ఇప్పుడు ఎక్కించవచ్చు.\n"
 
 #: knewstuff/engine.cpp:300
 msgid "Beware that any people might have access to them at any time."
@@ -4998,12 +5029,14 @@ msgid ""
 "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> "
 "to report bugs.\n"
 msgstr ""
-"తప్పులను తెలియచేయుటకు <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> ని"
-"వాడండి.\n"
+"తప్పులను తెలియచేయుటకు <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> "
+"నివాడండి.\n"
 
 #: kdeui/kaboutapplication.cpp:121 kdeui/kaboutapplication.cpp:124
-msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
-msgstr "తప్పులను <a href=\"mailto:%1\">%2</a>కు తెలియచేయండి\n"
+msgid ""
+"Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
+msgstr ""
+"తప్పులను <a href=\"mailto:%1\">%2</a>కు తెలియచేయండి\n"
 
 #: kdeui/kaboutapplication.cpp:149
 msgid "&Thanks To"
@@ -5287,7 +5320,8 @@ msgid "Discard changes"
 msgstr "మార్పులను విస్మరించుము"
 
 #: kdeui/kstdguiitem.cpp:121
-msgid "Pressing this button will discard all recent changes made in this dialog"
+msgid ""
+"Pressing this button will discard all recent changes made in this dialog"
 msgstr ""
 
 #: kdeui/kstdguiitem.cpp:127
@@ -5437,6 +5471,11 @@ msgstr "పరీక్ష"
 msgid "&Overwrite"
 msgstr ""
 
+#: kdeui/kjanuswidget.cpp:156
+#, fuzzy
+msgid "Empty Page"
+msgstr "(&L) చివరి పుట"
+
 #: kdeui/ksyntaxhighlighter.cpp:477 kdeui/ksyntaxhighlighter.cpp:586
 msgid "As-you-type spell checking enabled."
 msgstr ""
@@ -5575,7 +5614,8 @@ msgid "Change &Icon..."
 msgstr "(&I) ప్రతిమను మార్చు..."
 
 #: kdeui/kedittoolbar.cpp:991
-msgid "This element will be replaced with all the elements of an embedded component."
+msgid ""
+"This element will be replaced with all the elements of an embedded component."
 msgstr ""
 
 #: kdeui/kedittoolbar.cpp:993
@@ -5867,7 +5907,8 @@ msgid "Submit Bug Report"
 msgstr ""
 
 #: kdeui/kbugreport.cpp:110
-msgid "Your email address. If incorrect, use the Configure Email button to change it"
+msgid ""
+"Your email address. If incorrect, use the Configure Email button to change it"
 msgstr ""
 
 #: kdeui/kbugreport.cpp:111
@@ -6138,8 +6179,10 @@ msgid "Tip of the Day"
 msgstr ""
 
 #: kdeui/ktip.cpp:224
-msgid "Did you know...?\n"
-msgstr "మీకు తెలుసా...?\n"
+msgid ""
+"Did you know...?\n"
+msgstr ""
+"మీకు తెలుసా...?\n"
 
 #: kdeui/ktip.cpp:287
 msgid "&Show tips on startup"
@@ -6484,7 +6527,8 @@ msgid "Add URL to Filter"
 msgstr ""
 
 #: khtml/khtml_ext.cpp:828
-msgid "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
 
 #: khtml/khtml_ext.cpp:828
@@ -7465,12 +7509,16 @@ msgid "Launching %1"
 msgstr "%1 ప్రారంభిస్తున్నా"
 
 #: kinit/klauncher.cpp:1281
-msgid "Unknown protocol '%1'.\n"
-msgstr "తెలియని '%1' ప్రొటోకాల్.\n"
+msgid ""
+"Unknown protocol '%1'.\n"
+msgstr ""
+"తెలియని '%1' ప్రొటోకాల్.\n"
 
 #: kinit/klauncher.cpp:1334
-msgid "Error loading '%1'.\n"
-msgstr "'%1'ఎక్కించుటలో దోషం.\n"
+msgid ""
+"Error loading '%1'.\n"
+msgstr ""
+"'%1'ఎక్కించుటలో దోషం.\n"
 
 #: kconf_update/kconf_update.cpp:43
 msgid "Keep output results from scripts"
@@ -7555,7 +7603,8 @@ msgid ""
 msgstr ""
 
 #: kunittest/modrunner.cpp:44
-msgid "Disables debug capturing. You typically use this option when you use the GUI."
+msgid ""
+"Disables debug capturing. You typically use this option when you use the GUI."
 msgstr ""
 
 #: kunittest/modrunner.cpp:53
@@ -7706,7 +7755,8 @@ msgid ""
 msgstr ""
 
 #: kutils/kfinddialog.cpp:247
-msgid "Enter a pattern to search for, or select a previous pattern from the list."
+msgid ""
+"Enter a pattern to search for, or select a previous pattern from the list."
 msgstr ""
 
 #: kutils/kfinddialog.cpp:250
@@ -8976,12 +9026,16 @@ msgid "UNIX Sockets (specific for both current host and current user)"
 msgstr ""
 
 #: kdecore/kde-config.cpp.in:203
-msgid "%1 - unknown type\n"
-msgstr "%1 - తెలియని రకం\n"
+msgid ""
+"%1 - unknown type\n"
+msgstr ""
+"%1 - తెలియని రకం\n"
 
 #: kdecore/kde-config.cpp.in:228
-msgid "%1 - unknown type of userpath\n"
-msgstr "%1 - తెలియని యూజర్ పాత్\n"
+msgid ""
+"%1 - unknown type of userpath\n"
+msgstr ""
+"%1 - తెలియని యూజర్ పాత్\n"
 
 #: attic/qtmultilineedit.cpp:2129
 msgid "Undo"
@@ -10273,13 +10327,16 @@ msgid ""
 "_: QXml\n"
 "encoding declaration or standalone declaration expected while reading the XML "
 "declaration"
-msgstr "ఎక్స్ ఎమ్ ఎల్ డిక్లరేషన్ చడివేటప్పుడు  ఒంటరి డిక్లరేషన్ కాని ఎన్కోడింగ్  డిక్లరేషన్  ని ఊహిస్తున్నడి"
+msgstr ""
+"ఎక్స్ ఎమ్ ఎల్ డిక్లరేషన్ చడివేటప్పుడు  ఒంటరి డిక్లరేషన్ కాని ఎన్కోడింగ్  "
+"డిక్లరేషన్  ని ఊహిస్తున్నడి"
 
 #: qxml_clean.cpp:66
 msgid ""
 "_: QXml\n"
 "standalone declaration expected while reading the XML declaration"
-msgstr "ఎక్స్ ఎమ్ ఎల్ డిక్లరేషన్ చడివేటప్పుడు  ఒంటరి డిక్లరేషన్ ని ఊహిస్తున్నడి"
+msgstr ""
+"ఎక్స్ ఎమ్ ఎల్ డిక్లరేషన్ చడివేటప్పుడు  ఒంటరి డిక్లరేషన్ ని ఊహిస్తున్నడి"
 
 #: qxml_clean.cpp:67
 msgid ""
@@ -10315,7 +10372,8 @@ msgstr "లొలోపల మాములు ఎంటిటి రిఫరె
 msgid ""
 "_: QXml\n"
 "external parsed general entity reference not allowed in attribute value"
-msgstr "బాహ్య పార్స్ అయిన  మాములు ఎంటిటి రిఫరెన్స్ స్వభావము విలువ  లో అనుమతించబడవు"
+msgstr ""
+"బాహ్య పార్స్ అయిన  మాములు ఎంటిటి రిఫరెన్స్ స్వభావము విలువ  లో అనుమతించబడవు"
 
 #: qxml_clean.cpp:73
 msgid ""
@@ -10340,4 +10398,3 @@ msgid ""
 "_: QXml\n"
 "error in the text declaration of an external entity"
 msgstr "బాహ్య ఎంటిటి ని టెక్స్ట లో తెలియచేసెటప్పుడు దోషం జరిగిండి"
-
