@@ -36,7 +36,7 @@ msgstr "ఈ పేరు 'Tools->External' లో చూపించబడుట
 
 #: app/kateexternaltools.cpp:456
 msgid "S&cript:"
-msgstr ""
+msgstr "(&c) స్క్రిప్ట్:"
 
 #: app/kateexternaltools.cpp:461
 msgid ""
@@ -67,7 +67,7 @@ msgstr ""
 
 #: app/kateexternaltools.cpp:490
 msgid "&Mime types:"
-msgstr ""
+msgstr "(&M) మైమ్ రకాలు:"
 
 #: app/kateexternaltools.cpp:495
 msgid ""
@@ -82,7 +82,7 @@ msgstr ""
 
 #: app/kateexternaltools.cpp:508
 msgid "&Save:"
-msgstr ""
+msgstr "(&S) దాచు:"
 
 #: app/kateexternaltools.cpp:512
 msgid "None"
@@ -90,11 +90,11 @@ msgstr "ఏమి లేవు"
 
 #: app/kateexternaltools.cpp:512
 msgid "Current Document"
-msgstr "ఇప్పటి డాక్యుమెంట్"
+msgstr "ఇప్పటి పత్రం"
 
 #: app/kateexternaltools.cpp:512
 msgid "All Documents"
-msgstr "అన్నీ డాక్యుమెంట్లు"
+msgstr "అన్నీ పత్రాలు"
 
 #: app/kateexternaltools.cpp:516
 msgid ""
@@ -128,7 +128,7 @@ msgstr ""
 
 #: app/kateexternaltools.cpp:568
 msgid "&New..."
-msgstr ""
+msgstr "(&N) కొత్త..."
 
 #: app/kateexternaltools.cpp:576
 msgid "&Edit..."
@@ -145,11 +145,11 @@ msgstr ""
 
 #: app/kateviewspace.cpp:320 app/kateviewspace.cpp:359
 msgid " INS "
-msgstr ""
+msgstr " INS "
 
 #: app/kateviewspace.cpp:325 app/kateviewspace.cpp:363
 msgid " NORM "
-msgstr ""
+msgstr " NORM "
 
 #: app/kateviewspace.cpp:351
 msgid " Line: %1 Col: %2 "
@@ -157,15 +157,15 @@ msgstr ""
 
 #: app/kateviewspace.cpp:355
 msgid " R/O "
-msgstr ""
+msgstr " R/O "
 
 #: app/kateviewspace.cpp:357
 msgid " OVR "
-msgstr ""
+msgstr " OVR "
 
 #: app/kateviewspace.cpp:363
 msgid " BLK "
-msgstr ""
+msgstr " BLK "
 
 #: app/kateconsole.cpp:129
 msgid ""
@@ -183,7 +183,7 @@ msgstr ""
 
 #: app/katemainwindow.cpp:212 app/katesavemodifieddialog.cpp:152
 msgid "Documents"
-msgstr "డాక్యుమెంట్లు"
+msgstr "పత్రాలు"
 
 #: app/katemainwindow.cpp:216
 msgid "Filesystem Browser"
@@ -203,7 +203,7 @@ msgstr ""
 
 #: app/katemainwindow.cpp:243
 msgid "Open an existing document for editing"
-msgstr "ఉన్న డాక్యుమెంట్ ని మార్చటానికి తెరవండి"
+msgstr "ఉన్న పత్రాన్ని మార్చటానికి తెరవండి"
 
 #: app/katemainwindow.cpp:246 app/kwritemain.cpp:151
 msgid ""
@@ -213,7 +213,7 @@ msgstr ""
 
 #: app/katemainwindow.cpp:248
 msgid "Save A&ll"
-msgstr ""
+msgstr "(&l) అన్ని దాచండి"
 
 #: app/katemainwindow.cpp:249
 msgid "Save all open, modified documents to disk."
@@ -221,15 +221,15 @@ msgstr ""
 
 #: app/katemainwindow.cpp:251
 msgid "Close the current document."
-msgstr "ఉన్న డాక్యుమెంట్ ని మూయండి"
+msgstr "ఉన్న పత్రాన్ని ని మూయండి"
 
 #: app/katemainwindow.cpp:253
 msgid "Clos&e All"
-msgstr ""
+msgstr "(&l) అన్ని మూయండి"
 
 #: app/katemainwindow.cpp:254
 msgid "Close all open documents."
-msgstr "అన్నీ తెరిచిన డాక్యుమెంట్లని మూయండి"
+msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
 #: app/katemainwindow.cpp:256
 msgid "Send one or more of the open documents as email attachments."
@@ -254,7 +254,7 @@ msgstr ""
 
 #: app/katemainwindow.cpp:272
 msgid "Open W&ith"
-msgstr ""
+msgstr "(&i) దీనితో తెరువు"
 
 #: app/katemainwindow.cpp:273
 msgid ""
@@ -299,7 +299,7 @@ msgstr ""
 
 #: app/katemainwindow.cpp:308
 msgid "Save &As..."
-msgstr ""
+msgstr "(&A) ఇలా దాచు..."
 
 #: app/katemainwindow.cpp:309
 msgid "&Manage..."
@@ -329,7 +329,7 @@ msgstr ""
 
 #: app/katemainwindow.cpp:621
 msgid "Other..."
-msgstr "వేరే.."
+msgstr "వేరే..."
 
 #: app/katemainwindow.cpp:638
 msgid "Application '%1' not found!"
@@ -364,7 +364,7 @@ msgstr ""
 
 #: app/katemainwindow.cpp:691
 msgid "Save Before Sending?"
-msgstr "పంపే ముందు దాచాలా ?"
+msgstr "పంపే ముందు దాచాలా?"
 
 #: app/katemainwindow.cpp:691
 msgid "Do Not Save"
@@ -457,7 +457,7 @@ msgstr "మార్చిన"
 
 #: app/katemwmodonhddialog.cpp:98
 msgid "Created"
-msgstr "తయారైన"
+msgstr "సృష్టించిన"
 
 #: app/katemwmodonhddialog.cpp:98
 msgid "Deleted"
@@ -479,6 +479,8 @@ msgid ""
 "Could not save the document \n"
 "'%1'"
 msgstr ""
+"%1\n"
+"పత్రాన్ని దాచలేక పోయాను"
 
 #: app/katemwmodonhddialog.cpp:268
 msgid ""
@@ -548,7 +550,7 @@ msgstr ""
 
 #: app/kateconfigdialog.cpp:143
 msgid "Meta-Information"
-msgstr ""
+msgstr "మెటా-సమాచరం"
 
 #: app/kateconfigdialog.cpp:148
 msgid "Keep &meta-information past sessions"
@@ -575,7 +577,7 @@ msgstr "రోఙు(లు)"
 
 #: app/kateconfigdialog.cpp:174
 msgid "Sessions"
-msgstr ""
+msgstr "సెషన్లు"
 
 #: app/kateconfigdialog.cpp:175
 msgid "Session Management"
@@ -617,15 +619,15 @@ msgstr ""
 
 #: app/kateconfigdialog.cpp:220
 msgid "&Do not save session"
-msgstr ""
+msgstr "(&D) సెషన్ను దాచవద్దు"
 
 #: app/kateconfigdialog.cpp:221
 msgid "&Save session"
-msgstr ""
+msgstr "(&S) సెషన్ను దాచు"
 
 #: app/kateconfigdialog.cpp:222
 msgid "&Ask user"
-msgstr ""
+msgstr "(&A) యూజర్ ని అడుగు?"
 
 #: app/kateconfigdialog.cpp:243
 msgid "File Selector"
@@ -637,7 +639,7 @@ msgstr ""
 
 #: app/kateconfigdialog.cpp:252
 msgid "Document List"
-msgstr ""
+msgstr "పత్రాల జాబితా"
 
 #: app/kateconfigdialog.cpp:253
 msgid "Document List Settings"
@@ -645,7 +647,7 @@ msgstr ""
 
 #: app/kateconfigdialog.cpp:260 app/kateconfigdialog.cpp:317
 msgid "Plugins"
-msgstr ""
+msgstr "ప్లగిన్లు"
 
 #: app/kateconfigdialog.cpp:261
 msgid "Plugin Manager"
@@ -669,15 +671,15 @@ msgstr ""
 
 #: app/kategrepdialog.cpp:129
 msgid "Template:"
-msgstr ""
+msgstr "టెంప్లెట్:"
 
 #: app/kategrepdialog.cpp:148
 msgid "Files:"
-msgstr ""
+msgstr "దస్త్రాలు:"
 
 #: app/kategrepdialog.cpp:160
 msgid "Folder:"
-msgstr ""
+msgstr "ఫొల్డర్:"
 
 #: app/kategrepdialog.cpp:178
 msgid "Recursive"
@@ -765,7 +767,7 @@ msgstr ""
 
 #: app/kategrepdialog.cpp:479
 msgid "<strong>Error:</strong><p>"
-msgstr ""
+msgstr "<strong>దొషం:</strong><p>"
 
 #: app/kategrepdialog.cpp:479
 msgid "Grep Tool Error"
@@ -805,7 +807,7 @@ msgstr ""
 
 #: app/katemain.cpp:63
 msgid "Kate"
-msgstr ""
+msgstr "కేట్"
 
 #: app/katemain.cpp:64
 msgid "Kate - Advanced Text Editor"
@@ -813,7 +815,7 @@ msgstr ""
 
 #: app/katemain.cpp:65 app/kwritemain.cpp:552
 msgid "(c) 2000-2005 The Kate Authors"
-msgstr ""
+msgstr "(c) 2000-2005 కేట్ మూలకర్తలు"
 
 #: app/katemain.cpp:67 app/kwritemain.cpp:554
 msgid "Maintainer"
@@ -835,7 +837,7 @@ msgstr ""
 
 #: app/katemain.cpp:73 app/kwritemain.cpp:560
 msgid "Testing, ..."
-msgstr ""
+msgstr "పరిక్షణ, ..."
 
 #: app/katemain.cpp:74 app/kwritemain.cpp:561
 msgid "Former Core Developer"
@@ -907,7 +909,7 @@ msgstr ""
 
 #: app/katemain.cpp:96 app/kwritemain.cpp:582
 msgid "Very nice help"
-msgstr ""
+msgstr "చాలా మంచి సహాయము"
 
 #: app/katemain.cpp:97 app/kwritemain.cpp:583
 msgid "All people who have contributed and I have forgotten to mention"
@@ -917,7 +919,7 @@ msgstr ""
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
-msgstr "పవిత్రన్ శాఖమూరివిజయ్ కిరణ్ కముజు"
+msgstr "పవిత్రన్ శాఖమూరి\nవిజయ్ కిరణ్ కముజు"
 
 #: _translatorinfo.cpp:3 app/katemain.cpp:99 app/kwritemain.cpp:585
 msgid ""
@@ -945,19 +947,19 @@ msgstr ""
 
 #: app/katesession.cpp:78 app/katesession.cpp:102 app/katesession.cpp:252
 msgid "Default Session"
-msgstr ""
+msgstr "అప్రమేయ సెషన్"
 
 #: app/katesession.cpp:82
 msgid "Unnamed Session"
-msgstr ""
+msgstr "పేరు పెట్టని సెషన్"
 
 #: app/katesession.cpp:104
 msgid "Session (%1)"
-msgstr ""
+msgstr "(%1) సెషన్"
 
 #: app/katesession.cpp:384
 msgid "Save Session?"
-msgstr ""
+msgstr "సెషన్ను దాచు?"
 
 #: app/katesession.cpp:391
 msgid "Save current session?"
@@ -981,7 +983,7 @@ msgstr ""
 
 #: app/katesession.cpp:554 app/katesession.cpp:572 app/katesession.cpp:850
 msgid "Session name:"
-msgstr ""
+msgstr "సెషన్ పేరు:"
 
 #: app/katesession.cpp:561
 msgid "To save a new session, you must specify a name."
@@ -1009,11 +1011,11 @@ msgstr ""
 
 #: app/katesession.cpp:624
 msgid "New Session"
-msgstr ""
+msgstr "కొత్త సెషన్"
 
 #: app/katesession.cpp:642 app/katesession.cpp:732 app/katesession.cpp:796
 msgid "Session Name"
-msgstr ""
+msgstr "సెషన్ పేరు"
 
 #: app/katesession.cpp:643 app/katesession.cpp:733 app/katesession.cpp:797
 msgid "Open Documents"
@@ -1049,7 +1051,7 @@ msgstr ""
 
 #: app/katefilelist.cpp:142 app/katefilelist.cpp:579
 msgid "Document Name"
-msgstr ""
+msgstr "పత్రం పేరు"
 
 #: app/katefilelist.cpp:373
 msgid ""
@@ -1173,7 +1175,7 @@ msgstr ""
 
 #: app/kwritemain.cpp:549
 msgid "KWrite"
-msgstr ""
+msgstr "కెవ్రైట్"
 
 #: app/kwritemain.cpp:551
 msgid "KWrite - Text Editor"
@@ -1206,7 +1208,7 @@ msgstr ""
 
 #: app/kateviewmanager.cpp:116
 msgid "Split Ve&rtical"
-msgstr ""
+msgstr "(&r) నిలువుగా విడగొట్టు"
 
 #: app/kateviewmanager.cpp:119
 msgid "Split the currently active view vertically into two views."
@@ -1214,7 +1216,7 @@ msgstr ""
 
 #: app/kateviewmanager.cpp:121
 msgid "Split &Horizontal"
-msgstr ""
+msgstr "(&H) అడ్డంగా విడగొట్టు"
 
 #: app/kateviewmanager.cpp:124
 msgid "Split the currently active view horizontally into two views."
@@ -1267,12 +1269,12 @@ msgstr ""
 #: app/katemdi.cpp:176
 #, c-format
 msgid "Show %1"
-msgstr ""
+msgstr "%1 ను చూపు"
 
 #: app/katemdi.cpp:179
 #, c-format
 msgid "Hide %1"
-msgstr ""
+msgstr "%1 ను దాచు"
 
 #: app/katemdi.cpp:464
 msgid "Behavior"
@@ -1327,11 +1329,11 @@ msgstr ""
 
 #: app/katesavemodifieddialog.cpp:78
 msgid "Save As (%1)"
-msgstr ""
+msgstr "(%1) లా దాచండి"
 
 #: app/katesavemodifieddialog.cpp:129
 msgid "Save Documents"
-msgstr ""
+msgstr "పత్రాలను దాచు"
 
 #: app/katesavemodifieddialog.cpp:132
 msgid "&Save Selected"
@@ -1357,7 +1359,7 @@ msgstr ""
 
 #: app/katesavemodifieddialog.cpp:149
 msgid "Projects"
-msgstr ""
+msgstr "ప్రాజెక్టులు"
 
 #: app/katesavemodifieddialog.cpp:164
 msgid "Se&lect All"
@@ -1437,7 +1439,7 @@ msgstr ""
 
 #: app/katefileselector.cpp:570
 msgid "Session"
-msgstr ""
+msgstr "సెషన్"
 
 #: app/katefileselector.cpp:571
 msgid "Restore loca&tion"
@@ -1489,19 +1491,19 @@ msgstr ""
 #: rc.cpp:9
 #, no-c-format
 msgid "&Document"
-msgstr ""
+msgstr "(&D) పత్రం"
 
 #. i18n: file ./data/kateui.rc line 62
 #: rc.cpp:18
 #, no-c-format
 msgid "Sess&ions"
-msgstr ""
+msgstr "(&i) సెషన్లు"
 
 #. i18n: file ./data/kateui.rc line 85
 #: rc.cpp:24
 #, no-c-format
 msgid "&Window"
-msgstr ""
+msgstr "(&W) విండొ"
 
 #: tips.cpp:3
 msgid ""
