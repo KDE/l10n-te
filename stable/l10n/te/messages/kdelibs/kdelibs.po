@@ -216,6 +216,9 @@ msgid ""
 "<p>Select the language of the document you are proofing here.</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>మీరు సరిచేయు పత్రం యొక్క భాషను ఇక్కడ ఎంచుకోండి.</p>\n"
+"</qt>"
 
 #. i18n: file ./kdeui/kspellui.ui line 88
 #: rc.cpp:122 rc.cpp:340
@@ -426,7 +429,7 @@ msgstr "(&l) ఖాళిచేయుము"
 #: rc.cpp:236
 #, no-c-format
 msgid "Document Information"
-msgstr "దస్తావేజు(పత్రం) వివరములు"
+msgstr "పత్రం(దస్తావేజు) వివరములు"
 
 #. i18n: file ./khtml/htmlpageinfo.ui line 37
 #: rc.cpp:239
@@ -462,7 +465,7 @@ msgstr "దస్తావేజు(పత్ర) సంకేతీకరణం
 #: rc.cpp:254
 #, no-c-format
 msgid "HTTP Headers"
-msgstr "హెచ్టిటిపి  శిరోవాక్యములు"
+msgstr "హెచ్ టిటిపి  శిరోవాక్యములు"
 
 #. i18n: file ./khtml/htmlpageinfo.ui line 197
 #: rc.cpp:257
@@ -563,7 +566,7 @@ msgstr "స్వీయ సవరణ"
 #: rc.cpp:444
 #, no-c-format
 msgid "Additional domains for browsing"
-msgstr ""
+msgstr "బ్రౌజింగ్ కొరకు అదనపు డొమెయిన్లు"
 
 #. i18n: file ./dnssd/kcm_kdnssd.kcfg line 10
 #: rc.cpp:447
@@ -589,7 +592,7 @@ msgstr ""
 #: rc.cpp:456
 #, no-c-format
 msgid "Recursive search for domains"
-msgstr ""
+msgstr "డొమెయిన్ల కొరకు రికర్సివ్ అన్వేషణ"
 
 #. i18n: file ./dnssd/kcm_kdnssd.kcfg line 19
 #: rc.cpp:459
@@ -617,7 +620,7 @@ msgstr ""
 #: rc.cpp:468
 #, no-c-format
 msgid "Name of default publishing domain for WAN"
-msgstr ""
+msgstr "అప్రమేయ ప్రచురించే WAN డొమెయిన్ యొక్క పేరు"
 
 #. i18n: file ./dnssd/kcm_kdnssd.kcfg line 36
 #: rc.cpp:471
@@ -1412,7 +1415,7 @@ msgstr "సంఖ్య సూచన"
 msgid ""
 "_: font style\n"
 "Demi-bold"
-msgstr ""
+msgstr "డెమి-బోల్డ్"
 
 #: common_texts.cpp:258
 msgid ""
@@ -1430,7 +1433,7 @@ msgstr "సన్నటి ఇటాలిక్స్"
 msgid ""
 "_: font style\n"
 "Demi-bold Italic"
-msgstr ""
+msgstr "డెమి-బొల్డ్ ఇటాలిక్స్"
 
 #: common_texts.cpp:263
 msgid ""
@@ -1442,13 +1445,13 @@ msgstr "వక్రము"
 msgid ""
 "_: font style\n"
 "Book"
-msgstr ""
+msgstr "బూక్"
 
 #: common_texts.cpp:265
 msgid ""
 "_: font style\n"
 "Book Oblique"
-msgstr ""
+msgstr "బూక్ వక్రం"
 
 #: common_texts.cpp:268
 msgid ""
@@ -1500,19 +1503,19 @@ msgstr "శూన్య విలువ"
 
 #: kjs/reference.cpp:96
 msgid "Invalid reference base"
-msgstr ""
+msgstr "సరికాని సంబంద మూలం"
 
 #: kjs/reference.cpp:127
 msgid "Can't find variable: "
-msgstr ""
+msgstr "చరాంశం కనబడుటలేదు"
 
 #: kjs/reference.cpp:134
 msgid "Base is not an object"
-msgstr ""
+msgstr "మూలం ఆబ్జెక్ట్ కాదు"
 
 #: kjs/function_object.cpp:290
 msgid "Syntax error in parameter list"
-msgstr ""
+msgstr "గణితరాసి జాబితా లో వ్యాకరణ దొషము"
 
 #: interfaces/ktexteditor/editorchooser.cpp:60
 msgid "System Default (%1)"
@@ -1520,7 +1523,7 @@ msgstr "వ్యవస్థ అప్రమెయం (%1)"
 
 #: interfaces/kscript/scriptmanager.cpp:106
 msgid "Unable to get KScript Runner for type \"%1\"."
-msgstr ""
+msgstr "\"%1\" కొరకు కెస్క్రిప్ట్ రన్నర్ను తీసుకురాలేకపొయాను ."
 
 #: interfaces/kscript/scriptmanager.cpp:106
 #: interfaces/kscript/scriptmanager.cpp:129
@@ -1574,7 +1577,7 @@ msgstr "నిర్దేశితమైన"
 
 #: kabc/key.cpp:136 kabc/secrecy.cpp:80
 msgid "Unknown type"
-msgstr "తెలియని వర్గీకరణము"
+msgstr "తెలియని రకము"
 
 #: kabc/field.cpp:189 kabc/scripts/field.src.cpp:85
 msgid "Unknown Field"
@@ -1633,11 +1636,11 @@ msgstr "కెఏబి నుంచి కెఏబిసీకు మార్
 
 #: kabc/resource.cpp:332
 msgid "Loading resource '%1' failed!"
-msgstr ""
+msgstr "'%1' వనరును ఎక్కించుట సాద్యంకాలేదు!"
 
 #: kabc/resource.cpp:343
 msgid "Saving resource '%1' failed!"
-msgstr ""
+msgstr "'%1' వనరును దాచుట సాద్యంకాలేదు!"
 
 #: kabc/resourceselectdialog.cpp:39 kresources/selectdialog.cpp:42
 msgid "Resource Selection"
@@ -1760,7 +1763,7 @@ msgstr "ఇతర"
 
 #: kabc/distributionlistdialog.cpp:44
 msgid "Configure Distribution Lists"
-msgstr ""
+msgstr "పంపిణి జబితాలను అమర్చం"
 
 #: kabc/distributionlistdialog.cpp:61 kabc/distributionlisteditor.cpp:43
 msgid "Select Email Address"
@@ -1895,7 +1898,7 @@ msgstr "యూజర్:"
 
 #: kabc/ldapconfigwidget.cpp:92
 msgid "Bind DN:"
-msgstr ""
+msgstr "జతపరచు డిఎన్:"
 
 #: kabc/ldapconfigwidget.cpp:101
 msgid "Realm:"
@@ -1937,7 +1940,7 @@ msgstr "డిఎన్:"
 
 #: kabc/ldapconfigwidget.cpp:182 kabc/ldapconfigwidget.cpp:231
 msgid "Query Server"
-msgstr ""
+msgstr "క్వేరి సెర్వర్:"
 
 #: kabc/ldapconfigwidget.cpp:190
 msgid "Filter:"
@@ -1973,19 +1976,19 @@ msgstr "ఎస్ఎఎస్ఎల్"
 
 #: kabc/ldapconfigwidget.cpp:222
 msgid "SASL mechanism:"
-msgstr ""
+msgstr "ఎస్ఎఎస్ఎల్ యంత్రాంగం:"
 
 #: kabc/ldapconfigwidget.cpp:302
 msgid "LDAP Query"
-msgstr ""
+msgstr "ఎల్ డిఏపి క్వేరి"
 
 #: kabc/address.cpp:145
 msgid "Post Office Box"
-msgstr ""
+msgstr "పోస్ట్ ఆఫీసు డబ్బా"
 
 #: kabc/address.cpp:163
 msgid "Extended Address Information"
-msgstr ""
+msgstr "విస్తారమైన చిరునామా సమాచారం"
 
 #: kabc/address.cpp:181
 msgid "Street"
@@ -2077,7 +2080,7 @@ msgstr "ఎన్నుకోబడిన"
 
 #: kabc/addresseedialog.cpp:107
 msgid "Unselect"
-msgstr ""
+msgstr "ఎన్నుకోవద్దు"
 
 #: kabc/distributionlisteditor.cpp:133
 msgid "New List"
@@ -2105,7 +2108,7 @@ msgstr "ఏ వర్ణన దొరకలేదు"
 
 #: kabc/addressee.cpp:311 kabc/scripts/addressee.src.cpp:180
 msgid "Unique Identifier"
-msgstr ""
+msgstr "అసమాన గుర్తు"
 
 #: kab/addressbook.cc:271 kabc/addressee.cpp:348
 msgid "Formatted Name"
@@ -2241,7 +2244,7 @@ msgstr "వ్యాఖ్య"
 
 #: kabc/addressee.cpp:759
 msgid "Product Identifier"
-msgstr ""
+msgstr "ఉత్పత్తి గుర్తు"
 
 #: kabc/addressee.cpp:778
 msgid "Revision Date"
@@ -2249,7 +2252,7 @@ msgstr "సవరణ తేదీ"
 
 #: kabc/addressee.cpp:797
 msgid "Sort String"
-msgstr ""
+msgstr "క్రమపరచు పదం"
 
 #: kabc/addressee.cpp:816 kdeui/kaboutdialog.cpp:92
 msgid "Homepage"
@@ -2348,11 +2351,11 @@ msgstr ""
 
 #: kded/kde-menu.cpp:164
 msgid "No menu item '%1'."
-msgstr ""
+msgstr "'%1' పట్టీ అంశం లేదు."
 
 #: kded/kde-menu.cpp:168
 msgid "Menu item '%1' not found in menu."
-msgstr ""
+msgstr "'%1' పట్టీ అంశం పట్టీలో లేదు."
 
 #: kded/khostname.cpp:41
 msgid "Old hostname"
@@ -2365,24 +2368,24 @@ msgstr "కొత్త హోస్ట్ పేరు"
 #: kded/khostname.cpp:79
 msgid ""
 "Error: HOME environment variable not set.\n"
-msgstr ""
+msgstr "దోషం: HOME పరియావరణ చరాంశం సెట్ చెయబడలేదు.\n"
 
 #: kded/khostname.cpp:88
 msgid ""
 "Error: DISPLAY environment variable not set.\n"
-msgstr ""
+msgstr "దోషం: DISPLAY పరియావరణ చరాంశం సెట్ చెయబడలేదు.\n"
 
 #: kded/khostname.cpp:359
 msgid "KDontChangeTheHostName"
-msgstr ""
+msgstr "కెహొస్ట్ పేరునుమార్చవద్దు"
 
 #: kded/khostname.cpp:360
 msgid "Informs KDE about a change in hostname"
-msgstr ""
+msgstr "హోస్ట్ పేరు మార్పును కెడిఈ కు తెలియపరచును"
 
 #: kded/kded.cpp:721
 msgid "Check Sycoca database only once"
-msgstr ""
+msgstr "ఒక్కసారి మాత్రమే సైకొకా డెటబేస్ తనఖీచేయి"
 
 #: kded/kded.cpp:861
 msgid "KDE Daemon"
@@ -2398,6 +2401,9 @@ msgid ""
 "Check that the permissions are correct on the directory and the disk is not "
 "full.\n"
 msgstr ""
+"'%1' డెటాబేస్ సృష్టించునప్పుడు దోషం కలిగినది.\n"
+"డైరక్టరి మీద అనుమతులు సరిచూడండి మరయూ \n"
+"డిస్క్ పూర్తిగా నిండలేదు.\n"
 
 #: kded/kbuildsycoca.cpp:483 kded/kbuildsycoca.cpp:512
 #: kded/kbuildsycoca.cpp:721
@@ -2410,6 +2416,9 @@ msgid ""
 "Check that the permissions are correct on the directory and the disk is not "
 "full.\n"
 msgstr ""
+"'%1' డెటాబేస్ వ్రాయునప్పుడు దోషం కలిగినది.\n"
+"డైరక్టరి మీద అనుమతులు సరిచూడండి మరయూ \n"
+"డిస్క్ పూర్తిగా నిండలేదు.\n"
 
 #: kded/kbuildsycoca.cpp:695
 msgid "Do not signal applications to update"
@@ -2421,7 +2430,7 @@ msgstr ""
 
 #: kded/kbuildsycoca.cpp:697
 msgid "Check file timestamps"
-msgstr ""
+msgstr "దస్త్రపు సమయమును తనఖిచేయి"
 
 #: kded/kbuildsycoca.cpp:698
 msgid "Disable checking files (dangerous)"
@@ -2429,7 +2438,7 @@ msgstr ""
 
 #: kded/kbuildsycoca.cpp:699
 msgid "Create global database"
-msgstr ""
+msgstr "వసుదైక డెటాబేస్ సృష్టించు"
 
 #: kded/kbuildsycoca.cpp:700
 msgid "Perform menu generation test run only"
@@ -2441,11 +2450,11 @@ msgstr ""
 
 #: kded/kbuildsycoca.cpp:703
 msgid "Silent - work without windows and stderr"
-msgstr ""
+msgstr "నిశ్శబ్డం - విండోలు మరయూ stderr లేకుండా పనిచేయి"
 
 #: kded/kbuildsycoca.cpp:704
 msgid "Show progress information (even if 'silent' mode is on)"
-msgstr ""
+msgstr "పురోగతి సమచారం చూపించు ('నిశ్శబ్ద' స్థితి లోవున్నా సరే)"
 
 #: kded/kbuildsycoca.cpp:722
 msgid "Rebuilds the system configuration cache."
@@ -2473,7 +2482,7 @@ msgstr ""
 
 #: kmdi/kmdi/guiclient.cpp:79 kmdi/kmdiguiclient.cpp:139
 msgid "Tool &Views"
-msgstr "(&V) పనిముట్లు వీక్షణం"
+msgstr "(&V) పనిముట్ల వీక్షణం"
 
 #: kmdi/kmdiguiclient.cpp:142
 msgid "MDI Mode"
@@ -2674,10 +2683,13 @@ msgid ""
 "\n"
 "Please check that the \"dcopserver\" program is running!"
 msgstr ""
+"\n"
+"\n"
+"\"dcopserver\" కార్యక్రమం పనిచేస్తుందొ లేదొ చూడండి!"
 
 #: kdecore/kapplication.cpp:1377
 msgid "DCOP communications error (%1)"
-msgstr ""
+msgstr "డికాప్ సందేశ దోషం (%1)"
 
 #: kdecore/kapplication.cpp:1395
 msgid "Use the X-server display 'displayname'"
@@ -2785,7 +2797,7 @@ msgstr "'ప్రతిమ'ను అప్లికేషన్ ప్రత�
 
 #: kdecore/kapplication.cpp:1432
 msgid "Use 'icon' as the icon in the titlebar"
-msgstr ""
+msgstr "'ప్రతిమ'ను కితాబు పట్టి ప్రతిమగా వాడు "
 
 #: kdecore/kapplication.cpp:1433
 msgid "Use alternative configuration file"
@@ -2872,11 +2884,12 @@ msgstr ""
 msgid ""
 "Could not register with DCOP.\n"
 msgstr ""
+"డికాప్ చే నమోదుకాలేదు.\n"
 
 #: kdecore/kapplication.cpp:2631
 msgid ""
 "KLauncher could not be reached via DCOP.\n"
-msgstr ""
+msgstr "డికాప్ ద్వారా కెలాంచర్ కు చేరలేకపొయాను.\n"
 
 #: kdecore/kwinmodule.cpp:456
 #, c-format
@@ -3038,7 +3051,7 @@ msgstr "<ఖాళి యునిక్స్ సాకెట్>"
 
 #: kdecore/kcheckaccelerators.cpp:148
 msgid "Dr. Klash' Accelerator Diagnosis"
-msgstr ""
+msgstr "డా. క్లాష్ వారి ఎక్సెలరెటర్ కారణనిర్ణయం"
 
 #: kdecore/kcheckaccelerators.cpp:155
 msgid "&Disable automatic checking"
@@ -3046,15 +3059,15 @@ msgstr ""
 
 #: kdecore/kcheckaccelerators.cpp:193
 msgid "<h2>Accelerators changed</h2>"
-msgstr ""
+msgstr "<h2>ఎక్సెలరెటర్లు మార్చబడినవి</h2>"
 
 #: kdecore/kcheckaccelerators.cpp:199
 msgid "<h2>Accelerators removed</h2>"
-msgstr ""
+msgstr "<h2>ఎక్సెలరెటర్లు తీసివేయబడినవి</h2>"
 
 #: kdecore/kcheckaccelerators.cpp:204
 msgid "<h2>Accelerators added (just for your info)</h2>"
-msgstr ""
+msgstr "<h2>ఎక్సెలరెటర్లు కలపడినవి (మీ సమాచారం కొరకు)</h2>"
 
 #: kdecore/kstdaccel.cpp:54
 msgid "New"
@@ -3148,7 +3161,7 @@ msgstr "ముందుకు"
 
 #: kdecore/kstdaccel.cpp:89
 msgid "Popup Menu Context"
-msgstr ""
+msgstr "పాప్ అప్ పట్టి సందర్భం"
 
 #: kdecore/kstdaccel.cpp:90
 msgid "Show Menu Bar"
@@ -3156,11 +3169,11 @@ msgstr "సూచన పట్టీ ని చూపుము"
 
 #: kdecore/kstdaccel.cpp:91
 msgid "Backward Word"
-msgstr ""
+msgstr "వెనుకటి పదం"
 
 #: kdecore/kstdaccel.cpp:92
 msgid "Forward Word"
-msgstr ""
+msgstr "మొందటి పదం"
 
 #: kdecore/kstdaccel.cpp:93
 msgid "Activate Next Tab"
@@ -4079,6 +4092,8 @@ msgid ""
 "<p>For more information on KDE internationalization visit <a "
 "href=\"http://l10n.kde.org\">http://l10n.kde.org</a></p>"
 msgstr ""
+"కెడిఈ తెలుగు అనువాదం జట్టు సమాచారం కొరకు ఈ వెబ్ సైట్ ను చూడండి"
+"<a href=\"http://www.swecha.org\">స్వేచ్ఛ</a>"
 
 #: kdecore/kaboutdata.cpp:444
 msgid ""
@@ -4086,11 +4101,14 @@ msgid ""
 "Please check the documentation or the source for any\n"
 "licensing terms.\n"
 msgstr ""
+"ఈ కార్యక్రమానికి లైసెన్స్ షరతులు పేర్కొనలేవు.\n"
+"దయచేసి లైసెన్స్ షరతుల కొరకు పత్రరచన లేక మూలంను \n"
+"సంప్రదించండి.\n"
 
 #: kdecore/kaboutdata.cpp:451
 #, c-format
 msgid "This program is distributed under the terms of the %1."
-msgstr ""
+msgstr "ఈ కార్యక్రమం %1 షరతుల క్రింద పంచపెట్టడమైనది."
 
 #: kdecore/kcalendarsystem.cpp:124
 msgid ""
@@ -4164,7 +4182,7 @@ msgstr "కెకాన్ఫిగ్ కంపైలర్"
 
 #: kdecore/network/kresolver.cpp:558
 msgid "requested family not supported for this host name"
-msgstr ""
+msgstr "ఈ హోస్ట్ పేరునకు మనవి చెయబడిన కుటుంబం కొరకు సహాయంలేదు"
 
 #: kdecore/network/kresolver.cpp:561
 msgid "invalid flags"
@@ -4172,15 +4190,15 @@ msgstr ""
 
 #: kdecore/network/kresolver.cpp:564
 msgid "requested family not supported"
-msgstr ""
+msgstr "మనవి చెయబడిన కుటుంబం కొరకు సహాయంలేదు"
 
 #: kdecore/network/kresolver.cpp:565
 msgid "requested service not supported for this socket type"
-msgstr ""
+msgstr "ఈ సాకెట్ రకమునకు మనవి చెయబడిన సేవ కొరకు సహాయంలేదు"
 
 #: kdecore/network/kresolver.cpp:566
 msgid "requested socket type not supported"
-msgstr ""
+msgstr "మనవి చెయబడిన సాకెట్ రకము కొరకు సహాయంలేదు"
 
 #: kdecore/network/kresolver.cpp:567
 msgid "unknown error"
@@ -4195,7 +4213,7 @@ msgstr "వ్యవస్థ దోషము: %1"
 
 #: kdecore/network/kresolver.cpp:574
 msgid "request was canceled"
-msgstr "అభ్యర్ధన రద్దుచేయబడినది"
+msgstr "మనవి రద్దుచేయబడినది"
 
 #: kdecore/network/ksocketbase.cpp:172
 msgid ""
@@ -4220,6 +4238,7 @@ msgid ""
 "_: Socket error code AlreadyBound\n"
 "socket is already bound"
 msgstr ""
+"సాకెట్ ముందే జతపరచడమైనది"
 
 #: kdecore/network/ksocketbase.cpp:192
 msgid ""
@@ -4232,6 +4251,7 @@ msgid ""
 "_: Socket error code NotBound\n"
 "socket is not bound"
 msgstr ""
+"సాకెట్ ముందే జతపరచడలేదు"
 
 #: kdecore/network/ksocketbase.cpp:202
 msgid ""
@@ -4244,42 +4264,49 @@ msgid ""
 "_: Socket error code WouldBlock\n"
 "operation would block"
 msgstr ""
+"కార్యం అడ్డు పడగలదు"
 
 #: kdecore/network/ksocketbase.cpp:212
 msgid ""
 "_: Socket error code ConnectionRefused\n"
 "connection actively refused"
 msgstr ""
+"అనుసంధానం నిరకరింపబడినది"
 
 #: kdecore/network/ksocketbase.cpp:217
 msgid ""
 "_: Socket error code ConnectionTimedOut\n"
 "connection timed out"
 msgstr ""
+"అనుసంధానం సమయం అయిపొయినది"
 
 #: kdecore/network/ksocketbase.cpp:222
 msgid ""
 "_: Socket error code InProgress\n"
 "operation is already in progress"
 msgstr ""
+"కార్యం ముందే పురోగతిలొ వుంది"
 
 #: kdecore/network/ksocketbase.cpp:227
 msgid ""
 "_: Socket error code NetFailure\n"
 "network failure occurred"
 msgstr ""
+"నెట్వర్క్ దోషం వచ్చింది "
 
 #: kdecore/network/ksocketbase.cpp:232
 msgid ""
 "_: Socket error code NotSupported\n"
 "operation is not supported"
 msgstr ""
+"కార్యానికి మద్దతు లేదు"
 
 #: kdecore/network/ksocketbase.cpp:237
 msgid ""
 "_: Socket error code Timeout\n"
 "timed operation timed out"
 msgstr ""
+"సమయపు కార్యానికి సమయం అయిపొయినది"
 
 #: kdecore/network/ksocketbase.cpp:242
 msgid ""
@@ -4292,6 +4319,7 @@ msgid ""
 "_: Socket error code RemotelyDisconnected\n"
 "remote host closed connection"
 msgstr ""
+"రిమోట్ హోస్ట్ అనుసంధానం మూసివేసింది"
 
 #: kdecore/network/ksocketaddress.cpp:625
 #, c-format
@@ -4379,7 +4407,7 @@ msgstr "తిరిగి వ్రాయు"
 
 #: knewstuff/provider.cpp:270
 msgid "Error parsing providers list."
-msgstr ""
+msgstr "సిద్దంచెసేవారి జాబితా అన్వయించునప్పుడు దోషంవచ్చింది."
 
 #: knewstuff/downloaddialog.cpp:101 knewstuff/downloaddialog.cpp:108
 #: knewstuff/downloaddialog.cpp:124 knewstuff/downloaddialog.cpp:131
@@ -4455,6 +4483,8 @@ msgid ""
 "Preview: %1\n"
 "Payload: %2\n"
 msgstr ""
+"ముందు వీక్షణం: %1\n"
+"పేలోడ్: %2\n"
 
 #: knewstuff/downloaddialog.cpp:600
 msgid "Installation successful."
@@ -4470,7 +4500,7 @@ msgstr "స్థాపన విఫలము."
 
 #: knewstuff/downloaddialog.cpp:696
 msgid "Preview not available."
-msgstr ""
+msgstr "ముందు వీక్షణం లేదు"
 
 #: knewstuff/knewstuff.cpp:38 knewstuff/knewstuffbutton.cpp:61
 #, c-format
@@ -4505,6 +4535,7 @@ msgstr ""
 msgid ""
 "Preview image: %1\n"
 msgstr ""
+"చిత్ర ముందు వీక్షణం: %1\n"
 
 #: knewstuff/engine.cpp:298
 msgid ""
@@ -4599,7 +4630,7 @@ msgstr ""
 
 #: knewstuff/knewstuffsecure.cpp:137
 msgid "Problematic Resource File"
-msgstr ""
+msgstr "తప్పైన వనరు దస్త్రం"
 
 #: knewstuff/knewstuffsecure.cpp:140
 msgid "<qt>%1<br><br>Press OK to install it.</qt>"
@@ -4607,11 +4638,11 @@ msgstr "<qt>%1<br><br>స్థాపనకు 'సరే' నొక్కండ
 
 #: knewstuff/knewstuffsecure.cpp:140
 msgid "Valid Resource"
-msgstr ""
+msgstr "సరైన వనరు"
 
 #: knewstuff/knewstuffsecure.cpp:190
 msgid "The signing failed for unknown reason."
-msgstr ""
+msgstr "తెలియని కారణం వల్ల సంతకంచేయటం విఫలమైనది."
 
 #: knewstuff/knewstuffsecure.cpp:195
 msgid ""
@@ -4820,7 +4851,7 @@ msgstr ""
 
 #: kdeui/kkeydialog.cpp:1091 kdeui/kkeydialog.cpp:1103
 msgid "Configure Shortcuts"
-msgstr ""
+msgstr "శీఘ్రమార్గాలను అమర్చండి"
 
 #: kdeui/ktabbar.cpp:196
 msgid "Close this tab"
@@ -5562,7 +5593,7 @@ msgstr ""
 
 #: kdeui/kshortcutdialog.cpp:68
 msgid "Configure Shortcut"
-msgstr ""
+msgstr "శీఘ్రమార్గంను అమర్చండి"
 
 #: kdeui/kshortcutdialog.cpp:71
 msgid "Advanced"
@@ -5579,7 +5610,7 @@ msgstr "--- విభాజిక ---"
 #: kdeui/kedittoolbar.cpp:380 kdeui/kedittoolbar.cpp:392
 #: kdeui/kedittoolbar.cpp:402 kdeui/kedittoolbar.cpp:411
 msgid "Configure Toolbars"
-msgstr ""
+msgstr "పనిముట్ల పట్టీలను అమర్చండి"
 
 #: kdeui/kedittoolbar.cpp:447
 msgid ""
@@ -5738,7 +5769,7 @@ msgstr "(&H) గృహము"
 
 #: kdeui/kstdaction.cpp:240
 msgid "Show Menubar<p>Shows the menubar again after it has been hidden"
-msgstr ""
+msgstr "సూచన పట్టిను చూపుము<p>సూచన పట్టి దాగిన తరువాత మరల చూపుము"
 
 #: kdeui/kstdaction.cpp:242
 msgid "Hide &Menubar"
@@ -5805,6 +5836,7 @@ msgstr "పాస్ వర్డులు సరికాలేదు"
 #: kdeui/kpassdlg.cpp:515
 msgid "You entered two different passwords. Please try again."
 msgstr ""
+"మీరు రెండు వేరు పాస్ వర్డులు ఎక్కించారు. మరల ప్రయత్నించండి."
 
 #: kdeui/kpassdlg.cpp:522
 msgid ""
@@ -5831,10 +5863,11 @@ msgid ""
 "_n: Password must be at least 1 character long\n"
 "Password must be at least %n characters long"
 msgstr ""
+"పాస్ వర్డ్ కనీసం %n అక్షరములు వుండాలి"
 
 #: kdeui/kpassdlg.cpp:616
 msgid "Passwords match"
-msgstr "పాస్ వర్డ్ లు సరిపొయాయి"
+msgstr "పాస్ వర్డులు సరిపొయాయి"
 
 #: kdeui/kspelldlg.cpp:53 kspell2/ui/dialog.cpp:62
 msgid "Check Spelling"
@@ -5868,7 +5901,7 @@ msgstr ""
 
 #: kdeui/kdialogbase.cpp:911
 msgid "Accept settings"
-msgstr ""
+msgstr "అమరైకలను అంగీకరించు"
 
 #: kdeui/kdialogbase.cpp:932
 msgid ""
@@ -5879,7 +5912,7 @@ msgstr ""
 
 #: kdeui/kdialogbase.cpp:941
 msgid "Apply settings"
-msgstr ""
+msgstr "అమరికలను వర్తించును"
 
 #: kdeui/kdialogbase.cpp:1130
 msgid "&Details"
@@ -5916,15 +5949,15 @@ msgstr "ఇట్లు:"
 
 #: kdeui/kbugreport.cpp:120
 msgid "Configure Email..."
-msgstr ""
+msgstr "ఈ-మెయిల్ ను అమర్చు..."
 
 #: kdeui/kbugreport.cpp:127
 msgid "The email address this bug report is sent to."
-msgstr ""
+msgstr "ఈ తప్పుల నివేదిక ఈ ఈమెయిల్ చిరునామాకు పంపబడును."
 
 #: kdeui/kbugreport.cpp:128
 msgid "To:"
-msgstr ""
+msgstr "వద్దకు:"
 
 #: kdeui/kbugreport.cpp:135
 msgid "&Send"
@@ -5932,12 +5965,12 @@ msgstr "(&S) పంపు"
 
 #: kdeui/kbugreport.cpp:135
 msgid "Send bug report."
-msgstr ""
+msgstr "తప్పుల నివేదిక పంపు."
 
 #: kdeui/kbugreport.cpp:136
 #, c-format
 msgid "Send this bug report to %1."
-msgstr ""
+msgstr "ఈ తప్పుల నివేదిక %1 కు పంపు."
 
 #: kdeui/kbugreport.cpp:147
 msgid ""
@@ -7006,7 +7039,7 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:7415
 msgid "&Configure JavaScript New Window Policies..."
-msgstr ""
+msgstr "&(C) జావాస్క్రిప్ట్ కొత్త విండొ పాలసీలను అమర్చు..."
 
 #: khtml/khtmlview.cpp:1596
 msgid "Find stopped."
@@ -8862,19 +8895,19 @@ msgstr "(&S) అమరికలు దాచు"
 
 #: kdeui/kstdaction_p.h:100
 msgid "Configure S&hortcuts..."
-msgstr ""
+msgstr "(&h) శీఘ్రమార్గాలను అమర్చు..."
 
 #: kdeui/kstdaction_p.h:101
 msgid "&Configure %1..."
-msgstr "(&C) అమర్చు %1..."
+msgstr "(&C) %1 ను అమర్చు..."
 
 #: kdeui/kstdaction_p.h:102
 msgid "Configure Tool&bars..."
-msgstr ""
+msgstr "(&b) పనిముట్ల పట్టిలను అమర్చు..."
 
 #: kdeui/kstdaction_p.h:103
 msgid "Configure &Notifications..."
-msgstr ""
+msgstr "(&N) ప్రకటనలను అమర్చు..."
 
 #: kdeui/kstdaction_p.h:109
 msgid "What's &This?"
