@@ -5370,7 +5370,7 @@ msgstr "దస్త్రాన్ని ఇంకో పేరుతో దా
 
 #: kdeui/kstdguiitem.cpp:144
 msgid "Apply changes"
-msgstr "మార్పులను పెట్టు"
+msgstr "మార్పులను వర్తించు"
 
 #: kdeui/kstdguiitem.cpp:145
 msgid ""
@@ -5442,7 +5442,7 @@ msgstr "ఒక ఆడుగు ముందుకు వెళ్ళు"
 
 #: kdeui/kstdguiitem.cpp:208
 msgid "Opens the print dialog to print the current document"
-msgstr ""
+msgstr "ప్రస్తుత పత్రం ప్రచురించేందుకు ప్రచురణ డైలాగ్ ను తెరుస్తుంది"
 
 #: kdeui/kstdguiitem.cpp:214
 msgid "C&ontinue"
@@ -5705,6 +5705,8 @@ msgid ""
 "Unable to read X11 RGB color strings. The following file location(s) were "
 "examined:\n"
 msgstr ""
+"X11 RGB రంగుల పదాలను చదవలేకపొయాను. క్రింది దస్త్ర స్థానం(లు) "
+"పరీక్షించాను:\n"
 
 #: kdeui/kcolordialog.cpp:940
 msgid "Select Color"
@@ -5766,7 +5768,7 @@ msgstr "సూచన పట్టిను చూపుము<p>సూచన ప
 
 #: kdeui/kstdaction.cpp:242
 msgid "Hide &Menubar"
-msgstr "(&M) సూచన పట్టి దాచుము"
+msgstr "(&M) సూచన పట్టి చూపించకు"
 
 #: kdeui/kstdaction.cpp:243
 msgid ""
@@ -5774,6 +5776,8 @@ msgid ""
 "<p>Hide the menubar. You can usually get it back using the right mouse button "
 "inside the window itself."
 msgstr ""
+"<p>సూచన పట్టి చూపించకు. మీరు కుడి మౌస్ బటన్ ను విండొ లొపల వాడి "
+"మళ్లి చూడవచ్చు."
 
 #: kdeui/kstdaction.cpp:274 kdeui/kstdaction_p.h:97
 msgid "Show St&atusbar"
@@ -5785,6 +5789,9 @@ msgid ""
 "<p>Shows the statusbar, which is the bar at the bottom of the window used for "
 "status information."
 msgstr ""
+"స్థితి పట్టీ చూపుము"
+"<p>స్థితి పట్టీ చూపుము, ఈ పట్టి స్థితి సమాచారం చూపును "
+"విండొ క్రింద వుంటుంది."
 
 #: kdeui/kstdaction.cpp:278
 msgid "Hide St&atusbar"
@@ -5796,6 +5803,8 @@ msgid ""
 "<p>Hides the statusbar, which is the bar at the bottom of the window used for "
 "status information."
 msgstr ""
+"<p>స్థితి పట్టీ చూపకు, ఈ పట్టి స్థితి సమాచారం చూపును "
+"విండొ క్రింద వుంటుంది."
 
 #: kdeui/kpassdlg.cpp:372
 msgid "&Password:"
@@ -5851,11 +5860,12 @@ msgstr "ఖాళి పాస్ వర్డ్"
 
 #: kdeui/kpassdlg.cpp:614
 #, c-format
-#, fuzzy
 msgid ""
 "_n: Password must be at least 1 character long\n"
 "Password must be at least %n characters long"
-msgstr "పాస్ వర్డ్ కనీసం %n అక్షరములు వుండాలి"
+msgstr ""
+"పాస్ వర్డ్ కనీసం 1 అక్షరంమైనా వుండాలి\n"
+"పాస్ వర్డ్ కనీసం %n అక్షరములు వుండాలి"
 
 #: kdeui/kpassdlg.cpp:616
 msgid "Passwords match"
@@ -5890,6 +5900,8 @@ msgid ""
 "If you press the <b>OK</b> button, all changes\n"
 "you made will be used to proceed."
 msgstr ""
+"మీరు <b>సరే</b> బటన్ ను నొక్కినటైతే,\n"
+"మీరు ఇప్పటి వరకు చేసిన మార్పులు ముందుకు వెళ్ళెందుకు వాడబడును."
 
 #: kdeui/kdialogbase.cpp:911
 msgid "Accept settings"
@@ -5920,20 +5932,21 @@ msgstr "(&A) కలుపు"
 
 #: kdeui/keditlistbox.cpp:148
 msgid "Move &Up"
-msgstr "(&U) పైకి జరుగండి"
+msgstr "(&U) పైకి జరపండి"
 
 #: kdeui/keditlistbox.cpp:153
 msgid "Move &Down"
-msgstr "(&D) కిందకి జరుగండి"
+msgstr "(&D) క్రిందకి జరపండి"
 
 #: kdeui/kbugreport.cpp:70
 msgid "Submit Bug Report"
-msgstr ""
+msgstr "తప్పుల నివెదిక అందించు"
 
 #: kdeui/kbugreport.cpp:110
 msgid ""
 "Your email address. If incorrect, use the Configure Email button to change it"
 msgstr ""
+"మీ ఈమెయిల్ చిరునామా. తప్పైన, 'ఈ-మెయిల్ ను అమర్చు' బటన్ ను వాడి మార్చండి"
 
 #: kdeui/kbugreport.cpp:111
 msgid "From:"
@@ -5982,7 +5995,7 @@ msgstr ""
 
 #: kdeui/kbugreport.cpp:180
 msgid "no version set (programmer error!)"
-msgstr ""
+msgstr "వివరణం లేదు (వికాసకుని దోషం!)"
 
 #: kdeui/kbugreport.cpp:190
 msgid "OS:"
@@ -6012,7 +6025,7 @@ msgstr "సాధారణ"
 
 #: kdeui/kbugreport.cpp:212
 msgid "Wishlist"
-msgstr "కోరికలు"
+msgstr "కోరికల జాబితా"
 
 #: kdeui/kbugreport.cpp:212
 msgid "Translation"
@@ -6029,6 +6042,10 @@ msgid ""
 "If you press \"Send\", a mail message will be sent to the maintainer of this "
 "program.\n"
 msgstr ""
+"మీరు అందించే తప్పుల నివేదిక కొరకు వచనం వ్రాయండి"
+"(సాద్యమైనంత వరకు ఆంగ్లములో).\n"
+"మీరు \"పంపించు\" బటన్ నొక్కిన, ఒక తపాలా సందేశం ఈ కార్యక్రమ సంరక్షకునికి "
+"పంపబడును.\n"
 
 #: kdeui/kbugreport.cpp:252
 msgid ""
@@ -6037,6 +6054,10 @@ msgid ""
 "a form to fill in.\n"
 "The information displayed above will be transferred to that server."
 msgstr ""
+"తప్పుల నివేదిక అందించుటకు, క్రింది బటన్ ను నొక్కండి.\n"
+"ఇది ఒక వెబ్ బ్రౌజర్ విండొను http://bugs.kde.org కు తెరువబడును "
+"అక్కడ మీరు ఒక ఫారంను నింపవసివుంటుది.\n"
+"పైన చూపించబడిన సమాచారం ఆ సెర్వర్ కు పంపబడును."
 
 #: kdeui/kbugreport.cpp:260
 msgid "&Launch Bug Report Wizard"
@@ -6115,7 +6136,7 @@ msgstr ""
 
 #: kdeui/kpixmapregionselectorwidget.cpp:141
 msgid "Image Operations"
-msgstr ""
+msgstr "చిత్ర కార్యాలు"
 
 #: kdeui/kpixmapregionselectorwidget.cpp:143
 msgid "&Rotate Clockwise"
@@ -6174,7 +6195,7 @@ msgstr "(&K) కెడిఈ గురించి"
 
 #: kdeui/kactionclasses.cpp:2072
 msgid "Exit F&ull Screen Mode"
-msgstr ""
+msgstr "(&u) పూర్తి తెర స్థితి నుంచి బయటకు రా"
 
 #: kdeui/kactionclasses.cpp:2077 kdeui/kstdaction_p.h:98
 msgid "F&ull Screen Mode"
@@ -6200,7 +6221,7 @@ msgstr "(&e) అన్వేషణ:"
 
 #: kdeui/ktip.cpp:206
 msgid "Tip of the Day"
-msgstr ""
+msgstr "ఈ రోజు సూచన"
 
 #: kdeui/ktip.cpp:224
 msgid ""
@@ -6210,7 +6231,7 @@ msgstr ""
 
 #: kdeui/ktip.cpp:287
 msgid "&Show tips on startup"
-msgstr ""
+msgstr "(&S) మొదలైనప్పుడు సూచనలను చూపించు"
 
 #: kdeui/ktoolbar.cpp:2040
 msgid "Toolbar Menu"
@@ -6306,7 +6327,7 @@ msgstr "%1 %2, %3"
 
 #: kdeui/kaboutdialog.cpp:1326
 msgid "Other Contributors:"
-msgstr ""
+msgstr "మిగిలిన దాతలు"
 
 #: kdeui/kaboutdialog.cpp:1327
 msgid "(No logo available)"
@@ -6346,7 +6367,7 @@ msgstr "(&s) తరగతి ఆధారిత"
 
 #: kdeui/keditcl2.cpp:730 kdeui/keditcl2.cpp:870 kutils/kfinddialog.cpp:171
 msgid "Find &backwards"
-msgstr ""
+msgstr "(&b) వెనుకనుంచి కనుగొనుట"
 
 #: kdeui/keditcl2.cpp:833
 msgid "Replace &All"
@@ -6374,7 +6395,7 @@ msgstr "అన్ని రంగస్థలాలపైన"
 
 #: kdeui/kwindowlistmenu.cpp:213
 msgid "No Windows"
-msgstr ""
+msgstr "విండోలు వద్దు"
 
 #: kdeui/ktextedit.cpp:231
 msgid "Check Spelling..."
@@ -6435,7 +6456,7 @@ msgstr "%1 (%2x%3 పిక్సెల్స్)"
 
 #: khtml/khtmlimage.cpp:208
 msgid "Image - %1x%2 Pixels"
-msgstr "ప్రతిబింబం - %1x%2 పిక్సెల్స్"
+msgstr "చిత్రం - %1x%2 పిక్సెల్స్"
 
 #: khtml/khtmlimage.cpp:214
 msgid "Done."
@@ -6443,7 +6464,7 @@ msgstr "అయినది."
 
 #: khtml/khtml_ext.cpp:434
 msgid "&Copy Text"
-msgstr ""
+msgstr "(&C) వచనంను నకలు చేయి"
 
 #: khtml/khtml_ext.cpp:480
 msgid "Search for '%1' with %2"
@@ -6459,27 +6480,27 @@ msgstr "%1 తెరువండి"
 
 #: khtml/khtml_ext.cpp:525 khtml/khtml_ext.cpp:582
 msgid "Stop Animations"
-msgstr ""
+msgstr "ఎనిమేషన్లను ఆపు"
 
 #: khtml/khtml_ext.cpp:533
 msgid "Copy Email Address"
-msgstr ""
+msgstr "ఈమెయిల్ చిరునామాను నకలు చేయి"
 
 #: khtml/khtml_ext.cpp:538
 msgid "&Save Link As..."
-msgstr ""
+msgstr "(&S) లింకును ఇలా దాచు..."
 
 #: khtml/khtml_ext.cpp:540
 msgid "Copy &Link Address"
-msgstr ""
+msgstr "(&L) లింకు చిరునామాను నకలు చేయి"
 
 #: khtml/khtml_ext.cpp:550
 msgid "Open in New &Window"
-msgstr ""
+msgstr "(&W) కొత్త విండొలో తెరువు"
 
 #: khtml/khtml_ext.cpp:552
 msgid "Open in &This Window"
-msgstr ""
+msgstr "(&W) ఈ విండొలొనే తెరువు"
 
 #: khtml/khtml_ext.cpp:554
 msgid "Open in &New Tab"
@@ -6495,60 +6516,60 @@ msgstr ""
 
 #: khtml/khtml_ext.cpp:564 khtml/khtml_part.cpp:256
 msgid "View Frame Source"
-msgstr ""
+msgstr "చట్ర మూలాన్ని చూపుము"
 
 #: khtml/khtml_ext.cpp:566
 msgid "View Frame Information"
-msgstr ""
+msgstr "చట్ర సమాచారం చూపుము"
 
 #: khtml/khtml_ext.cpp:570 khtml/khtml_part.cpp:404
 msgid "Print Frame..."
-msgstr ""
+msgstr "చట్రం ప్రచురించు..."
 
 #: khtml/khtml_ext.cpp:571 khtml/khtml_part.cpp:262
 msgid "Save &Frame As..."
-msgstr ""
+msgstr "(&F) చట్రాన్ని ఇలా దాచు..."
 
 #: khtml/khtml_ext.cpp:601
 msgid "Save Image As..."
-msgstr ""
+msgstr "చిత్రాన్ని ఇలా దాచు..."
 
 #: khtml/khtml_ext.cpp:603
 msgid "Send Image..."
-msgstr ""
+msgstr "చిత్రం పంపించు..."
 
 #: khtml/khtml_ext.cpp:608
 msgid "Copy Image"
-msgstr ""
+msgstr "చిత్రం ను నకలు చేయి"
 
 #: khtml/khtml_ext.cpp:613
 msgid "Copy Image Location"
-msgstr ""
+msgstr "చిత్ర స్థానం ను నకలు చేయి"
 
 #: khtml/khtml_ext.cpp:618
 msgid "View Image (%1)"
-msgstr ""
+msgstr "చిత్రాన్ని (%1) చూపుము"
 
 #: khtml/khtml_ext.cpp:623
 msgid "Block Image..."
-msgstr ""
+msgstr "చిత్రాన్ని ఆపివేయి..."
 
 #: khtml/khtml_ext.cpp:629
 #, c-format
 msgid "Block Images From %1"
-msgstr ""
+msgstr "%1 నుంచి చిత్రాలను ఆపివేయి"
 
 #: khtml/khtml_ext.cpp:653
 msgid "Save Link As"
-msgstr ""
+msgstr "లింకును ఇలా దాచు"
 
 #: khtml/khtml_ext.cpp:673
 msgid "Save Image As"
-msgstr ""
+msgstr "చిత్రాన్ని ఇలా దాచు"
 
 #: khtml/khtml_ext.cpp:687 khtml/khtml_ext.cpp:700
 msgid "Add URL to Filter"
-msgstr ""
+msgstr "యు ఆర్ ఎల్ ను గలనికి కలుపు"
 
 #: khtml/khtml_ext.cpp:828
 msgid ""
@@ -6561,7 +6582,7 @@ msgstr ""
 
 #: khtml/khtml_ext.cpp:889 kparts/browserrun.cpp:390
 msgid "The Download Manager (%1) could not be found in your $PATH "
-msgstr ""
+msgstr "మీ $PATH లో డౌన్ లోడ్ అభికర్త (%1) లో కనపడుటలేదు "
 
 #: khtml/khtml_ext.cpp:890 kparts/browserrun.cpp:391
 msgid ""
@@ -6569,11 +6590,14 @@ msgid ""
 "\n"
 "The integration with Konqueror will be disabled!"
 msgstr ""
+"మళ్లి స్థాపించుటకు ప్రయత్నించండి \n"
+"\n"
+"కాంకెరర్ తో "
 
 #: khtml/khtml_ext.cpp:983
 #, no-c-format
 msgid "Default Font Size (100%)"
-msgstr ""
+msgstr "అప్రమేయ అక్షర శైలి పరిమాణం (100%)"
 
 #: khtml/khtml_ext.cpp:996
 #, no-c-format
@@ -6626,19 +6650,19 @@ msgstr ""
 
 #: khtml/khtml_printsettings.cpp:76
 msgid "Print images"
-msgstr ""
+msgstr "చిత్రాలను ప్రచురించు"
 
 #: khtml/khtml_printsettings.cpp:79
 msgid "Print header"
-msgstr ""
+msgstr "హెడర్ను ప్రచురించు"
 
 #: khtml/khtml_part.cpp:255
 msgid "View Do&cument Source"
-msgstr ""
+msgstr "(&c) పత్ర మూలాన్ని చూపు"
 
 #: khtml/khtml_part.cpp:257
 msgid "View Document Information"
-msgstr ""
+msgstr "పత్ర సమాచారం చూపు"
 
 #: khtml/khtml_part.cpp:258
 msgid "Save &Background Image As..."
@@ -6754,11 +6778,11 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:618
 msgid "The fake user-agent '%1' is in use."
-msgstr ""
+msgstr "నకిలి '%1' యూజర్-ఎజెంట్ వాడుకలో వుంది."
 
 #: khtml/khtml_part.cpp:1081
 msgid "This web page contains coding errors."
-msgstr ""
+msgstr "ఈ వెబ్ సైట్ లొ కొడింగ్ దొషాలు కలవు"
 
 #: khtml/khtml_part.cpp:1123
 msgid "&Hide Errors"
@@ -6778,7 +6802,7 @@ msgstr "<b>తప్పు</b>: నోడ్ %1: %2"
 
 #: khtml/khtml_part.cpp:1351
 msgid "Display Images on Page"
-msgstr ""
+msgstr "పుతలొని చిత్రాలను చూపు"
 
 #: khtml/khtml_part.cpp:1539 khtml/khtml_part.cpp:1629
 msgid "Session is secured with %1 bit %2."
@@ -6803,7 +6827,7 @@ msgstr "దోషము:"
 
 #: khtml/khtml_part.cpp:1767
 msgid "The requested operation could not be completed"
-msgstr ""
+msgstr "మనవి చేసిన కార్యం పూర్తి చేయలేక పోయాను"
 
 #: khtml/khtml_part.cpp:1773
 msgid "Technical Reason: "
@@ -6811,7 +6835,7 @@ msgstr "సాంక్యెతిక కారణం:"
 
 #: khtml/khtml_part.cpp:1778
 msgid "Details of the Request:"
-msgstr ""
+msgstr "మనవి వివరాలు:"
 
 #: khtml/khtml_part.cpp:1780
 #, c-format
@@ -6821,7 +6845,7 @@ msgstr "యుఆర్ఎల్: %1"
 #: khtml/khtml_part.cpp:1787
 #, c-format
 msgid "Date and Time: %1"
-msgstr "సమయం మరయూ తేదీ: %1"
+msgstr "తేదీ మరయూ సమయం: %1"
 
 #: khtml/khtml_part.cpp:1789
 #, c-format
@@ -6842,18 +6866,20 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:2135
 msgid "Page loaded."
-msgstr ""
+msgstr "పుట ఎక్కించబడినది."
 
 #: khtml/khtml_part.cpp:2137
+#, fuzzy
 msgid ""
 "_n: %n Image of %1 loaded.\n"
 "%n Images of %1 loaded."
 msgstr ""
+"%1 చిత్రాలలో %n ఎక్కించబడినవి"
 
 #: khtml/khtml_part.cpp:3737 khtml/khtml_part.cpp:3824
 #: khtml/khtml_part.cpp:3835
 msgid " (In new window)"
-msgstr ""
+msgstr " (కొత్త విండొ లొ)"
 
 #: khtml/khtml_part.cpp:3776
 msgid "Symbolic Link"
@@ -6861,7 +6887,7 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:3778
 msgid "%1 (Link)"
-msgstr "%1 (లింక్)"
+msgstr "%1 (లింకు)"
 
 #: khtml/khtml_part.cpp:3798
 msgid "%2 (%1 bytes)"
@@ -6873,7 +6899,7 @@ msgstr "%2 (%1 కె)"
 
 #: khtml/khtml_part.cpp:3837
 msgid " (In other frame)"
-msgstr ""
+msgstr " (ఇంకొక చట్రంలొ)"
 
 #: khtml/khtml_part.cpp:3842
 msgid "Email to: "
@@ -6903,7 +6929,7 @@ msgstr "అనుసరించు"
 
 #: khtml/khtml_part.cpp:4042
 msgid "Frame Information"
-msgstr "చట్రము సమాచారం"
+msgstr "చట్రపు సమాచారం"
 
 #: khtml/khtml_part.cpp:4048
 msgid "   <a href=\"%1\">[Properties]</a>"
@@ -6915,7 +6941,7 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:4215
 msgid "Save Frame As"
-msgstr ""
+msgstr "చట్రాన్ని ఇలా దాచు"
 
 #: khtml/khtml_part.cpp:4255
 msgid "&Find in Frame..."
@@ -6993,7 +7019,7 @@ msgstr "భద్రతా హెచ్చరిక"
 
 #: khtml/khtml_part.cpp:7260
 msgid "The wallet '%1' is open and being used for form data and passwords."
-msgstr ""
+msgstr "'%1' వాలెట్ తెరవబడివున్నది మరయు ఫారం దత్తాంశాలు మరయూ పాస్ వర్డుల కొరకు వాడబడుతుంది."
 
 #: khtml/khtml_part.cpp:7314
 msgid "&Close Wallet"
@@ -7009,7 +7035,7 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:7398
 msgid "Popup Window Blocked"
-msgstr ""
+msgstr "పాప్ అప్ విండొ ఆపివేయడమైనది"
 
 #: khtml/khtml_part.cpp:7398
 msgid ""
@@ -7020,10 +7046,12 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:7412
 #, c-format
+#, fuzzy
 msgid ""
 "_n: &Show Blocked Popup Window\n"
 "Show %n Blocked Popup Windows"
 msgstr ""
+"%n ఆపివేయబడిన పాప్ అప్ విండొలను చూపు"
 
 #: khtml/khtml_part.cpp:7413
 msgid "Show Blocked Window Passive Popup &Notification"
@@ -7047,11 +7075,11 @@ msgstr ""
 
 #: khtml/khtmlview.cpp:1634
 msgid "Link found: \"%1\"."
-msgstr "లింక్ దొరికింది: \"%1\"."
+msgstr "లింకు దొరికింది: \"%1\"."
 
 #: khtml/khtmlview.cpp:1639
 msgid "Link not found: \"%1\"."
-msgstr "లింక్ దొరకలేదు: \"%1\"."
+msgstr "లింకు దొరకలేదు: \"%1\"."
 
 #: khtml/khtmlview.cpp:1647
 msgid "Text found: \"%1\"."
@@ -7080,7 +7108,7 @@ msgstr "పొదగదగ్గ హెచ్టిఎంఎల్ అంశం"
 
 #: khtml/xml/xml_tokenizer.cpp:312
 msgid "the document is not in the correct file format"
-msgstr ""
+msgstr "పత్రం సరైన దస్త్ర ఫార్మేట్ లో లేదు"
 
 #: khtml/xml/xml_tokenizer.cpp:318
 msgid "fatal parsing error: %1 in line %2, column %3"
@@ -7171,6 +7199,8 @@ msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
 msgstr ""
+"ఈ సైట్ జావా స్క్రిప్ట్ ద్వారా కొత్త విండొని తెరువుటకు మనవి కోరుతుంది.\n"
+"అనుమతించ మంటారా?"
 
 #: khtml/ecma/kjs_window.cpp:1568
 msgid ""
@@ -7178,6 +7208,9 @@ msgid ""
 "<p>%1</p>in a new browser window via JavaScript.<br />"
 "Do you want to allow this?</qt>"
 msgstr ""
+"<qt>ఈ సైట్ <p>%1</p>"
+"జావా స్క్రిప్ట్ ద్వారా కొత్త విండొని తెరువుటకు మనవి కోరుతుంది.<br />"
+"అనుమతించ మంటారా?</qt>"
 
 #: khtml/ecma/kjs_html.cpp:2162 khtml/ecma/kjs_window.cpp:1570
 msgid "Allow"
@@ -7256,7 +7289,7 @@ msgstr ""
 
 #: khtml/html/html_formimpl.cpp:357
 msgid "Submit Confirmation"
-msgstr ""
+msgstr "అనుమతి అందించు"
 
 #: khtml/html/html_formimpl.cpp:357
 msgid "&Submit Anyway"
@@ -7389,7 +7422,7 @@ msgstr "ముగిసినది"
 
 #: khtml/java/kjavaappletserver.cpp:650
 msgid "SelfSigned"
-msgstr ""
+msgstr "స్వీయసంతకంచేయబడిన"
 
 #: khtml/java/kjavaappletserver.cpp:652
 msgid "ErrorReadingRoot"
@@ -7517,7 +7550,7 @@ msgstr ""
 
 #: kinit/klauncher.cpp:743
 msgid "KDEInit could not launch '%1'."
-msgstr ""
+msgstr "కెడిఈ '%1' ప్రారంభించలేకపొయింది ."
 
 #: kinit/klauncher.cpp:918 kinit/klauncher.cpp:943 kinit/klauncher.cpp:960
 msgid "Could not find service '%1'."
@@ -7610,7 +7643,7 @@ msgstr ""
 
 #: kstyles/utils/installtheme/main.cpp:40
 msgid "KInstalltheme"
-msgstr ""
+msgstr "కెఇంస్టాల్ థీమ్"
 
 #: kunittest/modrunner.cpp:36
 msgid "A command-line application that can be used to run KUnitTest modules."
@@ -7633,7 +7666,7 @@ msgstr ""
 
 #: kunittest/modrunner.cpp:53
 msgid "KUnitTest ModRunner"
-msgstr ""
+msgstr "కెయూనిట్ టెస్ట్ మాడ్ రన్నర్"
 
 #: kparts/browserextension.cpp:485
 msgid "<qt>Do you want to search the Internet for <b>%1</b>?"
@@ -7660,12 +7693,13 @@ msgid "Close Document"
 msgstr "పత్రం మూసివేయి"
 
 #: kparts/browserrun.cpp:275
+#, fuzzy
 msgid "Do you really want to execute '%1'? "
-msgstr ""
+msgstr "'%1''%1' ను నిజంగా నడపమంటారా?"
 
 #: kparts/browserrun.cpp:276
 msgid "Execute File?"
-msgstr ""
+msgstr "దస్త్రాన్ని నడపమంటారా?"
 
 #: kparts/browserrun.cpp:276
 msgid "Execute"
@@ -7884,15 +7918,15 @@ msgstr "సంఖ్య"
 
 #: kutils/kfinddialog.cpp:510
 msgid "Complete Match"
-msgstr ""
+msgstr "పూర్తి జత"
 
 #: kutils/kfinddialog.cpp:515
 msgid "Captured Text (%1)"
-msgstr ""
+msgstr "బంధించిన వచనం (%1)"
 
 #: kutils/kfinddialog.cpp:523
 msgid "You must enter some text to search for."
-msgstr ""
+msgstr "మీరు అన్వేషించేందుకు కొంత వచనం వ్రాయాలి."
 
 #: kutils/kfinddialog.cpp:534
 msgid "Invalid regular expression."
@@ -7924,7 +7958,7 @@ msgstr ""
 
 #: kutils/kcmoduleloader.cpp:152
 msgid "The module %1 could not be loaded."
-msgstr ""
+msgstr "%1 మాడ్యూల్ ఎక్కించలేకపొయాము."
 
 #: kutils/kcmoduleloader.cpp:171
 msgid "The module %1 is not a valid configuration module."
@@ -7939,7 +7973,7 @@ msgstr ""
 
 #: kutils/kcmoduleloader.cpp:206
 msgid "There was an error loading the module."
-msgstr ""
+msgstr "మాడ్యూల్ ఎక్కించుటలొ దొషం వచ్చింది"
 
 #: kutils/kcmoduleloader.cpp:206 kutils/kcmoduleloader.cpp:274
 msgid ""
@@ -7991,11 +8025,11 @@ msgstr "పత్రం చివరకు వచ్చేసాము"
 
 #: kutils/kreplace.cpp:316
 msgid "Do you want to restart search from the end?"
-msgstr ""
+msgstr "మీరు అన్వేషణ మళ్లి చివర నుంచి మొదలు పెట్టమంటారా?"
 
 #: kutils/kreplace.cpp:317
 msgid "Do you want to restart search at the beginning?"
-msgstr ""
+msgstr "మీరు అన్వేషణ మళ్లి మొదటి నుంచి మొదలు పెట్టమంటారా?"
 
 #: kutils/kreplace.cpp:319
 msgid "Restart"
@@ -8018,6 +8052,20 @@ msgid ""
 "<td><b>License:</b></td>"
 "<td>%4</td></tr></table></qt>"
 msgstr ""
+"<qt>"
+"<table>"
+"<tr>"
+"<td><b>వర్ణన:</b></td>"
+"<td>%1</td></tr>"
+"<tr>"
+"<td><b>మూలకర్త:</b></td>"
+"<td>%2</td></tr>"
+"<tr>"
+"<td><b>వివరణం<:</b></td>"
+"<td>%3</td></tr>"
+"<tr>"
+"<td><b>లైసెన్స్:</b></td>"
+"<td>%4</td></tr></table></qt>"
 
 #: kutils/kpluginselector.cpp:536
 msgid "(This plugin is not configurable)"
@@ -8056,14 +8104,16 @@ msgid ""
 "_n: 1 match found.\n"
 "%n matches found."
 msgstr ""
+"1 జత కనపడింది.\n"
+"%n జతలు కనపడినవి."
 
 #: kutils/kfind.cpp:625
 msgid "<qt>No matches found for '<b>%1</b>'.</qt>"
-msgstr ""
+msgstr "<qt>'<b>%1</b>' కొరకు జతలు కనపడలేదు.</qt>"
 
 #: kutils/kfind.cpp:645
 msgid "No matches found for '<b>%1</b>'."
-msgstr ""
+msgstr "'<b>%1</b>' కొరకు జతలు కనపడలేదు."
 
 #: kutils/kfind.cpp:659
 msgid "Continue from the end?"
@@ -8116,7 +8166,7 @@ msgstr "ఏ వనరు అందుబాటులో లేదు!"
 
 #: kresources/kcmkresources.cpp:44
 msgid "kcmkresources"
-msgstr "కెసిఎమ్కెవనరులు"
+msgstr "కెసిఎంకెవనరులు"
 
 #: kresources/kcmkresources.cpp:45
 msgid "KDE Resources configuration module"
@@ -8133,7 +8183,7 @@ msgstr ""
 
 #: kresources/configdialog.cpp:51
 msgid "General Settings"
-msgstr ""
+msgstr "సాధారణ అమరికలు"
 
 #: kresources/configdialog.cpp:57
 msgid "Read-only"
@@ -8141,11 +8191,11 @@ msgstr "చదువుటకు మాత్రమే"
 
 #: kresources/configdialog.cpp:66
 msgid "%1 Resource Settings"
-msgstr ""
+msgstr "%1 వనరు అమరికలు"
 
 #: kresources/configdialog.cpp:107
 msgid "Please enter a resource name."
-msgstr ""
+msgstr "దయచేసి వనరు పేరు వ్రాయండి."
 
 #: kresources/configpage.cpp:120
 msgid "Type"
@@ -8165,15 +8215,15 @@ msgstr "(&U) ప్రమాణము గా వాడు"
 
 #: kresources/configpage.cpp:283
 msgid "There is no standard resource! Please select one."
-msgstr ""
+msgstr "ప్రమాణమైన వనరు ఏది లేదు! ఒకటి ఎంచుకొండి. "
 
 #: kresources/configpage.cpp:298
 msgid "Please select type of the new resource:"
-msgstr ""
+msgstr "కొత్త వనరు యొక్క రకమును ఎంచుకొనుము."
 
 #: kresources/configpage.cpp:308
 msgid "Unable to create resource of type '%1'."
-msgstr ""
+msgstr "'%1' రకపు వనరును సృష్టించలేకపొయాను."
 
 #: kresources/configpage.cpp:360
 msgid ""
@@ -8253,7 +8303,7 @@ msgstr "ఇంటిపేరు"
 
 #: kab/addressbook.cc:299
 msgid "Talk Addresses"
-msgstr ""
+msgstr "టాక్ చిరునామాలు"
 
 #: kab/addressbook.cc:307
 msgid "Keywords"
@@ -8374,7 +8424,7 @@ msgstr "ఇలాంటి దస్త్రం లేదు."
 
 #: kab/addressbook.cc:622
 msgid "The file \"%1\" cannot be found. Create a new one?"
-msgstr ""
+msgstr "\"%1\" దస్త్రం కనపడుటలేదు. కొత్తది సృష్టించు?"
 
 #: kab/addressbook.cc:624
 msgid "No Such File"
@@ -8382,7 +8432,7 @@ msgstr "ఇలాంటి దస్త్రం లేదు"
 
 #: kab/addressbook.cc:625
 msgid "Create"
-msgstr ""
+msgstr "సృష్టించు"
 
 #: kab/addressbook.cc:629
 msgid "New file."
@@ -8447,6 +8497,8 @@ msgid ""
 "Cannot create the file\n"
 "\""
 msgstr ""
+"దస్త్రాన్ని సృష్టించలేను\n"
+"\""
 
 #: kab/addressbook.cc:1618 kab/addressbook.cc:1627
 msgid "Could not create the new file."
@@ -8519,7 +8571,7 @@ msgstr "తేదీలు"
 
 #: kab/kabapi.cc:134
 msgid "Your new entry could not be added."
-msgstr ""
+msgstr "మీ కొత్త అంశం కలుపలేకపొయాను."
 
 #: arts/kde/kconverttest.cc:23 arts/kde/kiotest.cc:17
 #: arts/kde/kiotestslow.cc:83
@@ -8537,7 +8589,7 @@ msgstr "0.1"
 
 #: arts/kde/kconverttest.cc:58
 msgid "KConvertTest"
-msgstr ""
+msgstr "కెకన్వర్ట్ టెస్ట్"
 
 #: arts/message/artsmessage.cc:45
 msgid "Display error message (default)"
@@ -8589,7 +8641,7 @@ msgstr "(&A) అన్ని దిగుమతిచేయి"
 
 #: kcert/kcertpart.cc:183 kcert/kcertpart.cc:274 kcert/kcertpart.cc:359
 msgid "KDE Secure Certificate Import"
-msgstr ""
+msgstr "కెడిఈ భద్రమైన ప్రమాణ పత్ర దిగుమతి"
 
 #: kcert/kcertpart.cc:184
 msgid "Chain:"
@@ -8669,7 +8721,7 @@ msgstr "(&D) అయినది"
 
 #: kcert/kcertpart.cc:418 kcert/kcertpart.cc:440
 msgid "Save failed."
-msgstr ""
+msgstr "దాచుట విఫలం."
 
 #: kcert/kcertpart.cc:418 kcert/kcertpart.cc:440 kcert/kcertpart.cc:455
 #: kcert/kcertpart.cc:460 kcert/kcertpart.cc:496 kcert/kcertpart.cc:532
@@ -8697,7 +8749,7 @@ msgstr ""
 
 #: kcert/kcertpart.cc:496
 msgid "Try Different"
-msgstr ""
+msgstr "వేరెది ప్రయత్నించండి"
 
 #: kcert/kcertpart.cc:532 kcert/kcertpart.cc:566
 msgid "This file cannot be opened."
@@ -8935,7 +8987,7 @@ msgstr ""
 
 #: kdecore/kde-config.cpp.in:23
 msgid "Compiled in version string for KDE libraries"
-msgstr ""
+msgstr "కెడిఈ లైబ్రరిల కొరకు కంపైల్ చేయబడిన వివరణ పదం"
 
 #: kdecore/kde-config.cpp.in:24
 msgid "Available KDE resource types"
