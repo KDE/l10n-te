@@ -447,7 +447,7 @@ msgstr "యుఆర్ఎల్:"
 #: rc.cpp:245
 #, no-c-format
 msgid "Title:"
-msgstr "కితాబు:"
+msgstr "శీర్షిక:"
 
 #. i18n: file ./khtml/htmlpageinfo.ui line 141
 #: rc.cpp:248
@@ -459,13 +459,13 @@ msgstr "చివరిసారి మార్చబడినది:"
 #: rc.cpp:251
 #, no-c-format
 msgid "Document encoding:"
-msgstr "దస్తావేజు(పత్ర) సంకేతీకరణం:"
+msgstr "పత్ర(దస్తావేజు) సంకేతీకరణం:"
 
 #. i18n: file ./khtml/htmlpageinfo.ui line 188
 #: rc.cpp:254
 #, no-c-format
 msgid "HTTP Headers"
-msgstr "హెచ్ టిటిపి  శిరోవాక్యములు"
+msgstr "హెచ్ టిటిపి  హెడర్లు"
 
 #. i18n: file ./khtml/htmlpageinfo.ui line 197
 #: rc.cpp:257
@@ -560,7 +560,7 @@ msgstr ""
 #: rc.cpp:435
 #, no-c-format
 msgid "Autocorrect"
-msgstr "స్వీయ సవరణ"
+msgstr "దానంతటదే సరి చేయి"
 
 #. i18n: file ./dnssd/kcm_kdnssd.kcfg line 9
 #: rc.cpp:444
@@ -6345,13 +6345,16 @@ msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
 msgstr ""
+"పత్రం చివరకు చేరుకున్నము\n"
+"ప్రారంభం నుంచి మొదలుపెట్టమంటారా?"
 
 #: kdeui/keditcl2.cpp:118 kdeui/keditcl2.cpp:388 kdeui/keditcl2.cpp:467
 msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
 msgstr ""
-
+"పత్రం ప్రారంభానికి చేరుకున్నము\n"
+"చివర నుంచి మొదలుపెట్టమంటారా?"
 #: kdeui/keditcl2.cpp:711 kdeui/keditcl2.cpp:844
 msgid "Find:"
 msgstr "కనుగొను:"
@@ -6378,11 +6381,11 @@ msgstr "ఈ వరుసకు వెళ్ళు:"
 
 #: kdeui/kwindowlistmenu.cpp:129
 msgid "Unclutter Windows"
-msgstr ""
+msgstr "విండొలను క్రమపద్దతిలో అమర్చు"
 
 #: kdeui/kwindowlistmenu.cpp:131
 msgid "Cascade Windows"
-msgstr ""
+msgstr "విండొలను ఒకదాని క్రిందఒకటి అమర్చు"
 
 #: kdeui/kwindowlistmenu.cpp:185
 msgid "On All Desktops"
@@ -6499,15 +6502,15 @@ msgstr "(&W) ఈ విండొలొనే తెరువు"
 
 #: khtml/khtml_ext.cpp:554
 msgid "Open in &New Tab"
-msgstr ""
+msgstr "(&N) కొత్త టాబ్ లో తెరువు"
 
 #: khtml/khtml_ext.cpp:556
 msgid "Reload Frame"
-msgstr ""
+msgstr "చట్రాన్ని మళ్లి ఎక్కించు"
 
 #: khtml/khtml_ext.cpp:561
 msgid "Block IFrame..."
-msgstr ""
+msgstr "IFrame ను అడ్డుకో..."
 
 #: khtml/khtml_ext.cpp:564 khtml/khtml_part.cpp:256
 msgid "View Frame Source"
@@ -6637,7 +6640,7 @@ msgstr ""
 
 #: khtml/khtml_printsettings.cpp:71
 msgid "HTML Settings"
-msgstr "హెచ్టిఎంఎల్ అమరికలు"
+msgstr "హెచ్ టిఎంఎల్ అమరికలు"
 
 #: khtml/khtml_printsettings.cpp:73
 msgid "Printer friendly mode (black text, no background)"
@@ -6704,7 +6707,7 @@ msgstr ""
 msgid ""
 "_: short for Manual Detection\n"
 "Manual"
-msgstr ""
+msgstr "మెన్యువల్"
 
 #: khtml/khtml_part.cpp:357
 msgid "Use S&tylesheet"
@@ -6712,7 +6715,7 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:361
 msgid "Enlarge Font"
-msgstr ""
+msgstr "అక్షరాలను పెద్దవి చేయి"
 
 #: khtml/khtml_part.cpp:363
 msgid ""
@@ -6723,7 +6726,7 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:367
 msgid "Shrink Font"
-msgstr ""
+msgstr "అక్షరాలను చిన్నవి చేయి"
 
 #: khtml/khtml_part.cpp:369
 msgid ""
@@ -6769,7 +6772,7 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:413
 msgid "Toggle Caret Mode"
-msgstr ""
+msgstr "హంసపాదు స్థితిని మార్చు"
 
 #: khtml/khtml_part.cpp:618
 msgid "The fake user-agent '%1' is in use."
@@ -6785,7 +6788,7 @@ msgstr "(&H) దోషములను దాచు"
 
 #: khtml/khtml_part.cpp:1124
 msgid "&Disable Error Reporting"
-msgstr ""
+msgstr "(&D) దొషలను నివేదించటం ఆపు"
 
 #: khtml/khtml_part.cpp:1164
 msgid "<b>Error</b>: %1: %2"
@@ -6801,11 +6804,11 @@ msgstr "పుతలొని చిత్రాలను చూపు"
 
 #: khtml/khtml_part.cpp:1539 khtml/khtml_part.cpp:1629
 msgid "Session is secured with %1 bit %2."
-msgstr ""
+msgstr "%1 బిట్ %2 చే సెషన్ భద్రం చేయడమైనది."
 
 #: khtml/khtml_part.cpp:1540 khtml/khtml_part.cpp:1631
 msgid "Session is not secured."
-msgstr ""
+msgstr "సెషన్ భద్రం కాదు."
 
 #: khtml/khtml_part.cpp:1727
 #, c-format
@@ -6853,11 +6856,11 @@ msgstr "వర్ణన:"
 
 #: khtml/khtml_part.cpp:1797
 msgid "Possible Causes:"
-msgstr ""
+msgstr "సాద్యమైన కారణాలు:"
 
 #: khtml/khtml_part.cpp:1804
 msgid "Possible Solutions:"
-msgstr ""
+msgstr "సాద్యమైన పరిష్కారాలు:"
 
 #: khtml/khtml_part.cpp:2135
 msgid "Page loaded."
@@ -6878,7 +6881,7 @@ msgstr " (కొత్త విండొ లొ)"
 
 #: khtml/khtml_part.cpp:3776
 msgid "Symbolic Link"
-msgstr ""
+msgstr "చిహ్నమైన లింకు"
 
 #: khtml/khtml_part.cpp:3778
 msgid "%1 (Link)"
@@ -6953,7 +6956,7 @@ msgstr ""
 #: khtml/khtml_part.cpp:4765 khtml/khtml_part.cpp:4774
 #: khtml/khtml_part.cpp:4798
 msgid "Network Transmission"
-msgstr ""
+msgstr "నెట్వర్క్ ప్రసారాలు"
 
 #: khtml/khtml_part.cpp:4765 khtml/khtml_part.cpp:4775
 msgid "&Send Unencrypted"
@@ -7028,7 +7031,7 @@ msgstr "(&D) జావాస్క్రిప్ట్ డీబగ్గర్
 
 #: khtml/khtml_part.cpp:7392
 msgid "This page was prevented from opening a new window via JavaScript."
-msgstr ""
+msgstr "జావాస్క్రిప్ట్ ద్వారా కొత్త విండొ తెరవకుండా ఈ పుటను ఆపడమైనది"
 
 #: khtml/khtml_part.cpp:7398
 msgid "Popup Window Blocked"
@@ -7052,7 +7055,7 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:7413
 msgid "Show Blocked Window Passive Popup &Notification"
-msgstr ""
+msgstr "(&N) ఆపిన విండొ లొ వూరికేవున్న పాప్ అప్ ప్రకటనను చూపు"
 
 #: khtml/khtml_part.cpp:7415
 msgid "&Configure JavaScript New Window Policies..."
@@ -7060,7 +7063,7 @@ msgstr "&(C) జావాస్క్రిప్ట్ కొత్త వి�
 
 #: khtml/khtmlview.cpp:1596
 msgid "Find stopped."
-msgstr ""
+msgstr "వెతుకుట ఆగిపొయింది."
 
 #: khtml/khtmlview.cpp:1607
 msgid "Starting -- find links as you type"
@@ -7133,7 +7136,7 @@ msgstr "జావాస్క్రిప్ట్ డీబగ్గర్"
 
 #: khtml/ecma/kjs_debugwin.cpp:383
 msgid "Call stack"
-msgstr ""
+msgstr "కాల్ స్టెక్"
 
 #: khtml/ecma/kjs_debugwin.cpp:418
 msgid "JavaScript console"
@@ -7178,6 +7181,9 @@ msgid ""
 "\n"
 "%1"
 msgstr ""
+"ఈ పుటలొ స్క్రిప్టును నడుపుటకు ప్రయత్నించునప్పుడు దొషం వచ్చింది\n."
+"\n"
+"%1"
 
 #: khtml/ecma/kjs_debugwin.cpp:846
 msgid ""
@@ -7186,10 +7192,14 @@ msgid ""
 "%1 line %2:\n"
 "%3"
 msgstr ""
+"ఈ పుటలొ స్క్రిప్టును నడుపుటకు ప్రయత్నించునప్పుడు దొషం వచ్చింది.\n"
+"\n"
+"%1 వరుస %2:\n"
+"%3"
 
 #: khtml/ecma/kjs_html.cpp:2155 khtml/ecma/kjs_window.cpp:1562
 msgid "Confirmation: JavaScript Popup"
-msgstr ""
+msgstr "దృవపరచు: జావాస్క్రిప్ట్ పాప్ అప్"
 
 #: khtml/ecma/kjs_window.cpp:1565
 msgid ""
@@ -7239,7 +7249,7 @@ msgstr ""
 
 #: khtml/ecma/kjs_window.cpp:2755
 msgid "JavaScript Attempted Bookmark Insert"
-msgstr ""
+msgstr "జావాస్క్రిప్ట్ పేజి గుర్తు చేర్చుట ప్రయత్నించినది"
 
 #: khtml/ecma/kjs_window.cpp:2759
 msgid "Disallow"
@@ -7290,7 +7300,7 @@ msgstr "అనుమతి అందించు"
 
 #: khtml/html/html_formimpl.cpp:357
 msgid "&Submit Anyway"
-msgstr ""
+msgstr "(&S) ఏది ఏమైనా అందించు"
 
 #: khtml/html/html_formimpl.cpp:368
 msgid ""
@@ -7387,11 +7397,11 @@ msgstr "దోషం: జావా కార్యక్రమం కనబడ�
 
 #: khtml/java/kjavaappletserver.cpp:633
 msgid "Signed by (validation: "
-msgstr ""
+msgstr "సంతకం చేసింది (నిరూపణ: "
 
 #: khtml/java/kjavaappletserver.cpp:635
 msgid "Certificate (validation: "
-msgstr ""
+msgstr "ధృవ పత్ర (నిరూపణ: "
 
 #: khtml/java/kjavaappletserver.cpp:638
 msgid "Ok"
@@ -8729,7 +8739,7 @@ msgstr "ప్రమాణ పత్రపు దిగుమతి"
 
 #: kcert/kcertpart.cc:455
 msgid "You do not seem to have compiled KDE with SSL support."
-msgstr ""
+msgstr "మీరు కెడిఈ ని ఎస్ ఎస్ ఎల్ సహాయంతొ కంపైల్ చెసినట్టులేరు"
 
 #: kcert/kcertpart.cc:460
 msgid "Certificate file is empty."
@@ -8737,11 +8747,11 @@ msgstr "ఖాళి ప్రమాణ పత్ర దస్త్రం"
 
 #: kcert/kcertpart.cc:490
 msgid "Certificate Password"
-msgstr "ప్రమాణ పత్ర పాస్ వర్డు"
+msgstr "దృవ పత్ర పాస్ వర్డు"
 
 #: kcert/kcertpart.cc:496
 msgid "The certificate file could not be loaded. Try a different password?"
-msgstr ""
+msgstr "దృవ పత్ర దస్త్రం ఎక్కించలేక పొయాము. ఇంకొక పాస్ వర్డుతో ప్రయత్నించండి?"
 
 #: kcert/kcertpart.cc:496
 msgid "Try Different"
@@ -8749,7 +8759,7 @@ msgstr "వేరెది ప్రయత్నించండి"
 
 #: kcert/kcertpart.cc:532 kcert/kcertpart.cc:566
 msgid "This file cannot be opened."
-msgstr ""
+msgstr "ఈ దస్త్రం తెరువలేము."
 
 #: kcert/kcertpart.cc:599
 msgid "I do not know how to handle this type of file."
@@ -8757,7 +8767,7 @@ msgstr ""
 
 #: kcert/kcertpart.cc:619
 msgid "0 - Site Certificate"
-msgstr ""
+msgstr "0 - సైట్ దృవ పత్రం"
 
 #: kcert/kcertpart.cc:729 kcert/kcertpart.cc:745
 msgid ""
@@ -8779,7 +8789,7 @@ msgstr ""
 
 #: kcert/kcertpart.cc:879
 msgid "KDE Certificate Part"
-msgstr ""
+msgstr "కెడిఈ దృవ పత్రం భాగం"
 
 #: khtml/khtml_settings.cc:152
 msgid "Accept"
@@ -8815,7 +8825,7 @@ msgstr ""
 
 #: kwallet/backend/kwalletbackend.cc:262
 msgid "Corrupt file?"
-msgstr ""
+msgstr "చెడిన దస్త్రం?"
 
 #: kwallet/backend/kwalletbackend.cc:264
 msgid "Error validating wallet integrity. Possibly corrupted."
@@ -8823,7 +8833,7 @@ msgstr ""
 
 #: kwallet/backend/kwalletbackend.cc:268
 msgid "Read error - possibly incorrect password."
-msgstr ""
+msgstr "చదువుట దొషం - తప్పు పాస్ వర్డు కావచ్చు"
 
 #: kwallet/backend/kwalletbackend.cc:270
 msgid "Decryption error."
@@ -8855,7 +8865,7 @@ msgstr "(&A) అన్ని ఎంచుకొనుము"
 
 #: kdeui/kstdaction_p.h:60
 msgid "Dese&lect"
-msgstr ""
+msgstr "(&l) ఎంచుకొవద్దు"
 
 #: kdeui/kstdaction_p.h:64
 msgid "Find Pre&vious"
