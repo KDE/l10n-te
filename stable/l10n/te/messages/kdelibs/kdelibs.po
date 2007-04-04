@@ -310,7 +310,7 @@ msgstr ""
 #: kdeui/keditcl2.cpp:833 kutils/kfinddialog.cpp:231 rc.cpp:162 rc.cpp:401
 #, no-c-format
 msgid "&Replace"
-msgstr "(&R) ప్రతిస్థాపన"
+msgstr "(&R) ప్రతిస్థాపణ"
 
 #. i18n: file ./kdeui/kspellui.ui line 184
 #: rc.cpp:165 rc.cpp:404
@@ -2054,7 +2054,7 @@ msgstr "ఇష్టమైన చిరునామా"
 
 #: kabc/lock.cpp:93
 msgid "Unable to open lock file."
-msgstr ""
+msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
 
 #: kabc/lock.cpp:106
 msgid ""
@@ -2068,7 +2068,7 @@ msgstr ""
 
 #: kabc/stdaddressbook.cpp:152
 msgid "Unable to save to resource '%1'. It is locked."
-msgstr ""
+msgstr "'%1' వనరును దాచ లేకపొయాను. అది తాళం వెయబడింది."
 
 #: kabc/addresseedialog.cpp:60
 msgid "Select Addressee"
@@ -2476,7 +2476,7 @@ msgstr ""
 
 #: kded/kbuildsycoca.cpp:753
 msgid "Do Not Reload"
-msgstr ""
+msgstr "మళ్లి ఎక్కించవద్దు"
 
 #: kded/kbuildsycoca.cpp:953
 msgid "Configuration information reloaded successfully."
@@ -2500,7 +2500,7 @@ msgstr ""
 
 #: kmdi/kmdiguiclient.cpp:144 kmdi/kmdimainfrm.cpp:2596
 msgid "Ta&b Page Mode"
-msgstr ""
+msgstr "(&b) టాబ్ పుట స్థితి"
 
 #: kmdi/kmdiguiclient.cpp:144 kmdi/kmdimainfrm.cpp:2597
 msgid "I&DEAl Mode"
@@ -2528,11 +2528,11 @@ msgstr ""
 
 #: kmdi/kmdi/guiclient.cpp:91 kmdi/kmdiguiclient.cpp:164
 msgid "Previous Tool View"
-msgstr ""
+msgstr "వెనుకటి పనిముట్ల వీక్షణం"
 
 #: kmdi/kmdi/guiclient.cpp:93 kmdi/kmdiguiclient.cpp:166
 msgid "Next Tool View"
-msgstr ""
+msgstr "ముందటి పనిముట్ల వీక్షణం"
 
 #: kdeui/kdockwidget.cpp:2945 kmdi/kmdi/guiclient.cpp:148
 #: kmdi/kmdiguiclient.cpp:260
@@ -2576,15 +2576,15 @@ msgstr "(&M) ఎండిఐ స్థితి"
 
 #: kmdi/kmdimainfrm.cpp:2619
 msgid "&Tile"
-msgstr "(&T) ఫలకం"
+msgstr "(&T) పలకలు"
 
 #: kmdi/kmdimainfrm.cpp:2621
 msgid "Ca&scade Windows"
-msgstr ""
+msgstr "(&s) విండొలను ఒకదాని క్రింద ఒకటి గా పేర్చు"
 
 #: kmdi/kmdimainfrm.cpp:2622
 msgid "Cascade &Maximized"
-msgstr ""
+msgstr "(&M) విండొలను పెద్దవి చేసి ఒకదాని క్రింద ఒకటి గా పేర్చు"
 
 #: kmdi/kmdimainfrm.cpp:2623
 msgid "Expand &Vertically"
@@ -2596,15 +2596,15 @@ msgstr "(&H) అడ్డముగా విస్తరించు "
 
 #: kmdi/kmdimainfrm.cpp:2625
 msgid "Tile &Non-Overlapped"
-msgstr ""
+msgstr "(&N) ఒకదాని మీద ఒకటి లేకుండా పలకలుగా చేయి"
 
 #: kmdi/kmdimainfrm.cpp:2626
 msgid "Tile Overla&pped"
-msgstr ""
+msgstr "(&p) ఒకదాని మీద ఒకటి పలకలుగా చేయి"
 
 #: kmdi/kmdimainfrm.cpp:2627
 msgid "Tile V&ertically"
-msgstr ""
+msgstr "(&e) నిలువు గా పలకలుగా చేయి"
 
 #: kmdi/kmdimainfrm.cpp:2633
 msgid "&Dock/Undock"
@@ -2652,10 +2652,12 @@ msgid ""
 "_: Switch between overlap and side by side mode\n"
 "Overlap"
 msgstr ""
+"ఒకదాని మీద ఒకటి మరయు పక్క పక్క స్థితుల మద్య మార్చు\n"
+"ఒకదాని మీద ఒకటి"
 
 #: kdecore/klibloader.cpp:157
 msgid "The library %1 does not offer an %2 function."
-msgstr ""
+msgstr "లైబ్రరి %1లో %2 ఫంక్షన్ లేదు."
 
 #: kdecore/klibloader.cpp:168
 msgid "The library %1 does not offer a KDE compatible factory."
@@ -2791,7 +2793,7 @@ msgstr ""
 
 #: kdecore/kapplication.cpp:1430
 msgid "Use 'caption' as name in the titlebar"
-msgstr ""
+msgstr "శీర్షిక పట్టి లో 'కెప్షన్' ను పేరు గా వాడు"
 
 #: kdecore/kapplication.cpp:1431
 msgid "Use 'icon' as the application icon"
@@ -3695,7 +3697,7 @@ msgstr "దోషము లేదు"
 
 #: kdecore/netsupp.cpp:891
 msgid "address family for nodename not supported"
-msgstr ""
+msgstr "నొడ్ పేరు కు చిరునామా కుటుంబ సహాయం లేదు"
 
 #: kdecore/netsupp.cpp:892 kdecore/network/kresolver.cpp:559
 msgid "temporary failure in name resolution"
@@ -3703,7 +3705,7 @@ msgstr ""
 
 #: kdecore/netsupp.cpp:893
 msgid "invalid value for 'ai_flags'"
-msgstr ""
+msgstr "'ai_flags' కు తప్పు విలువ"
 
 #: kdecore/netsupp.cpp:894 kdecore/network/kresolver.cpp:560
 msgid "non-recoverable failure in name resolution"
@@ -3711,7 +3713,7 @@ msgstr ""
 
 #: kdecore/netsupp.cpp:895
 msgid "'ai_family' not supported"
-msgstr ""
+msgstr "'ai_family' కి సహాయం లేదు"
 
 #: kdecore/netsupp.cpp:896 kdecore/network/kresolver.cpp:562
 msgid "memory allocation failure"
@@ -3727,11 +3729,11 @@ msgstr "తెలియని పేరు లేక సేవ"
 
 #: kdecore/netsupp.cpp:899
 msgid "servname not supported for ai_socktype"
-msgstr ""
+msgstr "ai_socktype కు సెర్వ్ నేమ్ సహాయం లేదు"
 
 #: kdecore/netsupp.cpp:900
 msgid "'ai_socktype' not supported"
-msgstr ""
+msgstr "'ai_socktype' కు సహాయం లేదు"
 
 #: kdecore/netsupp.cpp:901
 msgid "system error"
@@ -4368,7 +4370,7 @@ msgstr "భాష:"
 
 #: knewstuff/uploaddialog.cpp:99
 msgid "Preview URL:"
-msgstr ""
+msgstr "యూ ఆర్ ఎల్ ముందు వీక్షణం:"
 
 #: knewstuff/uploaddialog.cpp:104
 msgid "Summary:"
@@ -4417,7 +4419,7 @@ msgstr "ఎక్కువ రేటింగ్ కలది"
 
 #: knewstuff/downloaddialog.cpp:260
 msgid "Most Downloads"
-msgstr "చాలా డౌన్లోడ్లు"
+msgstr "చాలా డౌన్ లోడ్లు"
 
 #: knewstuff/downloaddialog.cpp:261
 msgid "Latest"
@@ -4582,23 +4584,23 @@ msgstr "వనరు స్థాపన దోషం"
 
 #: knewstuff/knewstuffsecure.cpp:94
 msgid "No keys were found."
-msgstr ""
+msgstr "ఎలాంటి కీ లూ కనపడలేదు."
 
 #: knewstuff/knewstuffsecure.cpp:99
 msgid "The validation failed for unknown reason."
-msgstr ""
+msgstr "నిరూపణ తెలియని కారణం వల్ల విఫలమైనది"
 
 #: knewstuff/knewstuffsecure.cpp:106
 msgid "The MD5SUM check failed, the archive might be broken."
-msgstr ""
+msgstr "MD5SUM పరీక్ష విఫలం, ఆర్కైవ్ విరిగివుండవచ్చు "
 
 #: knewstuff/knewstuffsecure.cpp:111
 msgid "The signature is bad, the archive might be broken or altered."
-msgstr ""
+msgstr "సంతకం తప్పు, ఆర్కైవ్ విరిగివుండవచ్చు లేక మార్చబడివుండవచ్చు"
 
 #: knewstuff/knewstuffsecure.cpp:121
 msgid "The signature is valid, but untrusted."
-msgstr ""
+msgstr "సంతకం సరైనది, కాని అవిశ్వసనీయం."
 
 #: knewstuff/knewstuffsecure.cpp:127
 msgid "The signature is unknown."
@@ -4666,11 +4668,11 @@ msgstr ""
 
 #: knewstuff/security.cpp:317
 msgid "Select Signing Key"
-msgstr ""
+msgstr "సంతకం చెయుటకు వాడె కీ ని ఎంచుకో"
 
 #: knewstuff/security.cpp:317
 msgid "Key used for signing:"
-msgstr ""
+msgstr "సంతకం చెయుటకు వాడిన కీ:"
 
 #: knewstuff/security.cpp:338
 msgid ""
@@ -4784,7 +4786,7 @@ msgstr "శీఘ్ర మార్గాలు"
 
 #: kdeui/kkeydialog.cpp:536
 msgid "Default key:"
-msgstr ""
+msgstr "అప్రమేయ మీట:"
 
 #: kdeui/kkeybutton.cpp:89 kdeui/kkeydialog.cpp:536 kdeui/klineedit.cpp:889
 msgid "None"
@@ -4798,7 +4800,7 @@ msgstr ""
 
 #: kdeui/kkeydialog.cpp:718
 msgid "Invalid Shortcut Key"
-msgstr ""
+msgstr "తప్పు శీఘ్ర మార్గ మీట"
 
 #: kdeui/kkeydialog.cpp:943
 msgid ""
@@ -5493,7 +5495,7 @@ msgstr "పరీక్ష"
 
 #: kdeui/kstdguiitem.cpp:284
 msgid "&Overwrite"
-msgstr ""
+msgstr "(&O) తిరిగి వ్రాయు"
 
 #: kdeui/kjanuswidget.cpp:156
 msgid "Empty Page"
@@ -6577,7 +6579,7 @@ msgstr ""
 
 #: khtml/khtml_ext.cpp:828
 msgid "Overwrite File?"
-msgstr ""
+msgstr "దస్త్రాలను త్రిగి వ్రాయి?"
 
 #: khtml/khtml_ext.cpp:889 kparts/browserrun.cpp:390
 msgid "The Download Manager (%1) could not be found in your $PATH "
@@ -6682,15 +6684,15 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:270
 msgid "Print Rendering Tree to STDOUT"
-msgstr ""
+msgstr "రెండరింగ్ ట్రీ ను STDOUT కు ప్రచురించు"
 
 #: khtml/khtml_part.cpp:271
 msgid "Print DOM Tree to STDOUT"
-msgstr ""
+msgstr "డామ్ ట్రీ ను STDOUT కు ప్రచురించు"
 
 #: khtml/khtml_part.cpp:272
 msgid "Stop Animated Images"
-msgstr ""
+msgstr "ఎనిమేటెడ్ చిత్రాలను ఆపు"
 
 #: khtml/khtml_part.cpp:274
 msgid "Set &Encoding"
@@ -6758,11 +6760,11 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:388
 msgid "Find Text as You Type"
-msgstr ""
+msgstr "వచనం వ్రాస్తుండగా వెతుకు"
 
 #: khtml/khtml_part.cpp:390
 msgid "Find Links as You Type"
-msgstr ""
+msgstr "లింకులు వ్రాస్తుండగా వెతుకు"
 
 #: khtml/khtml_part.cpp:405
 msgid ""
@@ -6920,7 +6922,8 @@ msgstr "- బిసిసి:"
 msgid ""
 "<qt>This untrusted page links to<BR><B>%1</B>.<BR>Do you want to follow the "
 "link?"
-msgstr ""
+msgstr "<qt>ఈ అవిశ్వసనీయ పుట <BR><B>%1</B> కు లింకు చెయబడింది.<BR>మీరు దానిని "
+"అనుసరించమంటారా?"
 
 #: khtml/khtml_part.cpp:3942
 msgid "Follow"
@@ -6944,7 +6947,7 @@ msgstr "చట్రాన్ని ఇలా దాచు"
 
 #: khtml/khtml_part.cpp:4255
 msgid "&Find in Frame..."
-msgstr ""
+msgstr "(&F) చట్రంలో వెతుకు..."
 
 #: khtml/khtml_part.cpp:4762
 msgid ""
@@ -7010,7 +7013,7 @@ msgstr "భద్రతా హెచ్చరిక"
 
 #: khtml/khtml_part.cpp:6834
 msgid "<qt>Access by untrusted page to<BR><B>%1</B><BR> denied."
-msgstr ""
+msgstr "<qt>అవిశ్వసనీయ పుట <BR><B>%1</B><BR> నుంచి అనుమతి నిరాకరించడమైనది."
 
 #: khtml/java/kjavaappletserver.cpp:784 khtml/khtml_part.cpp:6835
 msgid "Security Alert"
@@ -7068,11 +7071,11 @@ msgstr "వెతుకుట ఆగిపొయింది."
 
 #: khtml/khtmlview.cpp:1607
 msgid "Starting -- find links as you type"
-msgstr ""
+msgstr "మొదలు  - లింకులు వ్రాస్తుండగా వెతుకు"
 
 #: khtml/khtmlview.cpp:1613
 msgid "Starting -- find text as you type"
-msgstr ""
+msgstr "మొదలు - వచనం వ్రాస్తుండగా వెతుకు"
 
 #: khtml/khtmlview.cpp:1634
 msgid "Link found: \"%1\"."
@@ -7454,7 +7457,7 @@ msgstr "తిరస్కరించబడినది"
 
 #: khtml/java/kjavaappletserver.cpp:662
 msgid "PrivateKeyFailed"
-msgstr ""
+msgstr "ప్రైవేట్ కీ విఫలం"
 
 #: khtml/java/kjavaappletserver.cpp:664
 msgid "InvalidHost"
@@ -7615,7 +7618,7 @@ msgstr ""
 
 #: kdewidgets/makekdewidgets.cpp:15
 msgid "Builds Qt widget plugins from an ini style description file."
-msgstr ""
+msgstr "క్యూటి విడ్జెట్ ప్లగిన్లను ini శైలి వర్ణన దస్త్రం నుంచి తయారుచేయబడును."
 
 #: kdewidgets/makekdewidgets.cpp:113
 msgid "Output file"
@@ -7631,7 +7634,7 @@ msgstr ""
 
 #: kdewidgets/makekdewidgets.cpp:116
 msgid "Embed pixmaps from a source directory"
-msgstr ""
+msgstr "మూల డైరక్టరీ లొ వున్న పిక్స్ మేప్ లను పొదుగు"
 
 #: kdewidgets/makekdewidgets.cpp:129
 msgid "makekdewidgets"
@@ -7855,11 +7858,11 @@ msgstr ""
 
 #: kutils/kfinddialog.cpp:267
 msgid "Start searching at the current cursor location rather than at the top."
-msgstr ""
+msgstr "పై నుంచి కాకుండా ప్రస్తుతం ములుకు వున్న స్థానం నుంచి అన్వేషణ మొదలుపెట్టు."
 
 #: kutils/kfinddialog.cpp:269
 msgid "Only search within the current selection."
-msgstr ""
+msgstr "ప్రస్తుత ఎంపిక లోనె అన్వెషించు."
 
 #: kutils/kfinddialog.cpp:271
 msgid ""
@@ -7873,7 +7876,7 @@ msgstr "వెనుక నుంచి అన్వేషించు"
 
 #: kutils/kfinddialog.cpp:276
 msgid "Ask before replacing each match found."
-msgstr ""
+msgstr "కనుగొన్న జతలను ప్రతిస్థాపించే ముందు అడుగు."
 
 #: kutils/kfinddialog.cpp:449
 msgid "Any Character"
@@ -7950,7 +7953,7 @@ msgstr ""
 
 #: kutils/kcmoduleloader.cpp:111
 msgid "The specified library %1 could not be found."
-msgstr ""
+msgstr "ఇవ్వ బడిన లైబ్రరి %1 కనపడలేదు."
 
 #: kutils/kcmoduleloader.cpp:132
 msgid "The module %1 could not be found."
@@ -8124,11 +8127,11 @@ msgstr "'<b>%1</b>' కొరకు జతలు కనపడలేదు."
 
 #: kutils/kfind.cpp:659
 msgid "Continue from the end?"
-msgstr ""
+msgstr "చివరి నుంచి మొదలుపెట్టమంటారా?"
 
 #: kutils/kfind.cpp:660
 msgid "Continue from the beginning?"
-msgstr ""
+msgstr "ప్రారంభం నుంచి మొదలుపెట్టమంటారా?"
 
 #: kutils/kcmoduleproxy.cpp:212
 msgid ""
@@ -8236,15 +8239,16 @@ msgstr "'%1' రకపు వనరును సృష్టించలేక�
 msgid ""
 "You cannot remove your standard resource! Please select a new standard resource "
 "first."
-msgstr ""
+msgstr "మీరు మీ ప్రామాణిక వనరుని తొలగించ లేరు! దయ చేసి కొత్త ప్రామాణిక వనరుని"
+"మొదట ఎంచుకొండి."
 
 #: kresources/configpage.cpp:394 kresources/configpage.cpp:413
 msgid "You cannot use a read-only resource as standard!"
-msgstr ""
+msgstr "మీరు చదువుటకు మాత్రమే వున్న వనరును ప్రమాణంగా వాడలేరు!"
 
 #: kresources/configpage.cpp:418
 msgid "You cannot use an inactive resource as standard!"
-msgstr ""
+msgstr "మీరు వాడుకలో లేని వనరును ప్రమాణంగా వాడలేరు!"
 
 #: kresources/configpage.cpp:498
 msgid ""
@@ -8350,7 +8354,7 @@ msgstr ""
 
 #: kab/addressbook.cc:420 kab/addressbook.cc:1068
 msgid "Out of Memory"
-msgstr ""
+msgstr "మెమొరి అయిపొయింది"
 
 #: kab/addressbook.cc:437
 msgid ""
@@ -8373,10 +8377,12 @@ msgid ""
 "kab has created your standard addressbook in\n"
 "\"%1\""
 msgstr ""
+"కేబ్ మీ ప్రమాణిక చిరునామాపుస్తకంను ఇక్కడ సృష్టించింది\n"
+"\"%1\""
 
 #: kab/addressbook.cc:492
 msgid "Cannot create backup file (permission denied)."
-msgstr ""
+msgstr "బేకప్ దస్త్రాన్ని సృష్టించలేను (అనుమతి లేదు)."
 
 #: kab/addressbook.cc:493 kab/addressbook.cc:500 kab/addressbook.cc:509
 #: kab/addressbook.cc:579 kab/addressbook.cc:587 kab/addressbook.cc:614
@@ -8389,7 +8395,7 @@ msgstr "దస్త్రపు దోషం"
 
 #: kab/addressbook.cc:498
 msgid "Cannot open backup file for writing (permission denied)."
-msgstr ""
+msgstr "బేకప్ దస్త్రాన్ని వ్రాయుటకు తెరువలేను (అనుమతి లేదు)."
 
 #: kab/addressbook.cc:507
 msgid ""
@@ -8411,7 +8417,7 @@ msgstr ""
 
 #: kab/addressbook.cc:583
 msgid "(Safety copy on file error)"
-msgstr ""
+msgstr "(దస్త్ర దొషం వచ్చిన క్షేమంగా నకలు చేయి)"
 
 #: kab/addressbook.cc:586
 msgid "Cannot save the file; will close it now."
@@ -8482,18 +8488,24 @@ msgid ""
 "The file you wanted to change could not be locked.\n"
 "It is probably in use by another application or read-only."
 msgstr ""
+"మీరు మార్చలి అనుకొనే దస్త్రానికి తాళం వేయలేకపొయాను.\n"
+"దానిని వేరె కార్యక్రమం వాడుతుండవచ్చు లేక అది చదువుటకు మాత్రమే."
 
 #: kab/addressbook.cc:1599
 msgid ""
 "Cannot find kab's template file.\n"
 "You cannot create new files."
 msgstr ""
+"కేబ్ యొక్క టెంప్లేట్ దస్త్రాన్ని కనుక్కొలేకపొయాను.\n"
+"మీరు కొత్త దస్త్రాలను సృష్టించలేరు."
 
 #: kab/addressbook.cc:1607
 msgid ""
 "Cannot read kab's template file.\n"
 "You cannot create new files."
 msgstr ""
+"కేబ్ యొక్క టెంప్లేట్ దస్త్రాన్ని చదువలేకపొయాను.\n"
+"మీరు కొత్త దస్త్రాలను సృష్టించలేరు."
 
 #: kab/addressbook.cc:1609
 msgid "Format Error"
@@ -8509,7 +8521,7 @@ msgstr ""
 
 #: kab/addressbook.cc:1618 kab/addressbook.cc:1627
 msgid "Could not create the new file."
-msgstr ""
+msgstr "కొత్త దస్త్రాన్ని సృష్టించలేను."
 
 #: kab/addressbook.cc:1625 kab/addressbook.cc:1677
 msgid ""
@@ -8620,7 +8632,7 @@ msgstr "ఆర్ట్స్ సందేశం"
 
 #: arts/message/artsmessage.cc:55
 msgid "Utility to display aRts error messages"
-msgstr ""
+msgstr "ఆర్ట్స్ దొష సందేశాలను చూపే కార్యక్రమం"
 
 #: arts/message/artsmessage.cc:87
 msgid "Informational"
@@ -8628,11 +8640,11 @@ msgstr "సమాచార"
 
 #: kcert/kcertpart.cc:90 kcert/kcertpart.cc:113
 msgid "Invalid certificate!"
-msgstr "చెల్లని ప్రమాణ పత్రము!"
+msgstr "చెల్లని ధృవ పత్రము!"
 
 #: kcert/kcertpart.cc:160
 msgid "Certificates"
-msgstr "ప్రమాణ పత్రాలు"
+msgstr "ధృవ పత్రాలు"
 
 #: kcert/kcertpart.cc:161
 msgid "Signers"
@@ -8648,7 +8660,7 @@ msgstr "(&A) అన్ని దిగుమతిచేయి"
 
 #: kcert/kcertpart.cc:183 kcert/kcertpart.cc:274 kcert/kcertpart.cc:359
 msgid "KDE Secure Certificate Import"
-msgstr "కెడిఈ భద్రమైన ప్రమాణ పత్ర దిగుమతి"
+msgstr "కెడిఈ భద్రమైన ధృవ పత్ర దిగుమతి"
 
 #: kcert/kcertpart.cc:184
 msgid "Chain:"
@@ -8676,11 +8688,11 @@ msgstr "స్థితి:"
 
 #: kcert/kcertpart.cc:216 kcert/kcertpart.cc:303
 msgid "Valid from:"
-msgstr ""
+msgstr "నుంచి చెల్లుబాటు:"
 
 #: kcert/kcertpart.cc:220 kcert/kcertpart.cc:307
 msgid "Valid until:"
-msgstr ""
+msgstr "వరకు చెల్లుబాటు"
 
 #: kcert/kcertpart.cc:224 kcert/kcertpart.cc:311
 msgid "Serial number:"
@@ -8692,7 +8704,7 @@ msgstr "స్థితి"
 
 #: kcert/kcertpart.cc:236 kcert/kcertpart.cc:323
 msgid "MD5 digest:"
-msgstr ""
+msgstr "ఎండి5 డైజెస్ట్:"
 
 #: kcert/kcertpart.cc:239 kcert/kcertpart.cc:326
 msgid "Signature:"
@@ -8704,15 +8716,15 @@ msgstr "సంతకం"
 
 #: kcert/kcertpart.cc:253 kcert/kcertpart.cc:340
 msgid "Public key:"
-msgstr ""
+msgstr "పబ్లిక్ కీ:"
 
 #: kcert/kcertpart.cc:259 kcert/kcertpart.cc:346
 msgid "Public Key"
-msgstr ""
+msgstr "పబ్లిక్ కీ"
 
 #: kcert/kcertpart.cc:368
 msgid "&Crypto Manager..."
-msgstr ""
+msgstr "(&C) క్రిప్టొ అభికర్త..."
 
 #: kcert/kcertpart.cc:369
 msgid "&Import"
@@ -8736,7 +8748,7 @@ msgstr "దాచుట విఫలం."
 #: kcert/kcertpart.cc:741 kcert/kcertpart.cc:746 kcert/kcertpart.cc:759
 #: kcert/kcertpart.cc:873
 msgid "Certificate Import"
-msgstr "ప్రమాణ పత్రపు దిగుమతి"
+msgstr "ధృవ పత్రపు దిగుమతి"
 
 #: kcert/kcertpart.cc:455
 msgid "You do not seem to have compiled KDE with SSL support."
@@ -8744,15 +8756,15 @@ msgstr "మీరు కెడిఈ ని ఎస్ ఎస్ ఎల్ సహ
 
 #: kcert/kcertpart.cc:460
 msgid "Certificate file is empty."
-msgstr "ఖాళి ప్రమాణ పత్ర దస్త్రం"
+msgstr "ఖాళి ధృవ పత్ర దస్త్రం"
 
 #: kcert/kcertpart.cc:490
 msgid "Certificate Password"
-msgstr "దృవ పత్ర పాస్ వర్డు"
+msgstr "ధృవ పత్ర పాస్ వర్డు"
 
 #: kcert/kcertpart.cc:496
 msgid "The certificate file could not be loaded. Try a different password?"
-msgstr "దృవ పత్ర దస్త్రం ఎక్కించలేక పొయాము. ఇంకొక పాస్ వర్డుతో ప్రయత్నించండి?"
+msgstr "ధృవ పత్ర దస్త్రం ఎక్కించలేక పొయాము. ఇంకొక పాస్ వర్డుతో ప్రయత్నించండి?"
 
 #: kcert/kcertpart.cc:496
 msgid "Try Different"
@@ -8764,11 +8776,11 @@ msgstr "ఈ దస్త్రం తెరువలేము."
 
 #: kcert/kcertpart.cc:599
 msgid "I do not know how to handle this type of file."
-msgstr ""
+msgstr "ఈ రకపు దస్త్రన్ని ఎలా వాడాలొ తెలియదు."
 
 #: kcert/kcertpart.cc:619
 msgid "0 - Site Certificate"
-msgstr "0 - సైట్ దృవ పత్రం"
+msgstr "0 - సైట్ ధృవ పత్రం"
 
 #: kcert/kcertpart.cc:729 kcert/kcertpart.cc:745
 msgid ""
@@ -8806,11 +8818,11 @@ msgstr "గలని దోషము"
 
 #: kwallet/backend/kwalletbackend.cc:252
 msgid "Already open."
-msgstr "ముందే తెరవబడినది"
+msgstr "ముందే తెరవబడినది."
 
 #: kwallet/backend/kwalletbackend.cc:254
 msgid "Error opening file."
-msgstr "దస్త్రం తెరచుటలో దోషము"
+msgstr "దస్త్రం తెరచుటలో దోషము."
 
 #: kwallet/backend/kwalletbackend.cc:256
 msgid "Not a wallet file."
@@ -8818,7 +8830,7 @@ msgstr "ఇది వాలెట్ దస్త్రం కాదు"
 
 #: kwallet/backend/kwalletbackend.cc:258
 msgid "Unsupported file format revision."
-msgstr ""
+msgstr "సహాయము చెయబడని దస్త్ర ఫార్మేట్ పునర్విమర్శ."
 
 #: kwallet/backend/kwalletbackend.cc:260
 msgid "Unknown encryption scheme."
@@ -8846,7 +8858,7 @@ msgstr "(&N) కొత్త"
 
 #: kdeui/kstdaction_p.h:45
 msgid "Re&vert"
-msgstr ""
+msgstr "(&v) మళ్ళించు"
 
 #: kdeui/kstdaction_p.h:48
 msgid "Print Previe&w..."
@@ -8970,7 +8982,7 @@ msgstr "(&D) ఈ రోజు సూచన"
 
 #: kdecore/kde-config.cpp.in:14
 msgid "A little program to output installation paths"
-msgstr ""
+msgstr "స్థాపణ దారులు చూపేందుకు చిన్న కార్యక్రమం"
 
 #: kdecore/kde-config.cpp.in:18
 msgid "expand ${prefix} and ${exec_prefix} in output"
@@ -8978,11 +8990,11 @@ msgstr ""
 
 #: kdecore/kde-config.cpp.in:19
 msgid "Compiled in prefix for KDE libraries"
-msgstr ""
+msgstr "కెడిఈ లైబ్రరీలకు కంపైల్ చేయబడిన ఉపసర్గ"
 
 #: kdecore/kde-config.cpp.in:20
 msgid "Compiled in exec_prefix for KDE libraries"
-msgstr ""
+msgstr "కెడిఈ లైబ్రరీలకు కంపైల్ చేయబడిన exec_prefix"
 
 #: kdecore/kde-config.cpp.in:21
 msgid "Compiled in library path suffix"
@@ -8990,7 +9002,7 @@ msgstr ""
 
 #: kdecore/kde-config.cpp.in:22
 msgid "Prefix in $HOME used to write files"
-msgstr ""
+msgstr "దస్త్రాలు వ్రాయుటకు వాడె $HOME లొని ఉపసర్గ"
 
 #: kdecore/kde-config.cpp.in:23
 msgid "Compiled in version string for KDE libraries"
@@ -8998,7 +9010,7 @@ msgstr "కెడిఈ లైబ్రరిల కొరకు కంపైల
 
 #: kdecore/kde-config.cpp.in:24
 msgid "Available KDE resource types"
-msgstr "అందుబాటులో వున్న కెడిఇ వనరుల రకాలులు"
+msgstr "అందుబాటులో వున్న కెడిఈ వనరుల రకాలులు"
 
 #: kdecore/kde-config.cpp.in:25
 msgid "Search path for resource type"
@@ -9006,11 +9018,11 @@ msgstr "వనరుల రకాలు కోసం పాత్ లో వె�
 
 #: kdecore/kde-config.cpp.in:26
 msgid "User path: desktop|autostart|trash|document"
-msgstr ""
+msgstr "యూజర్ దారి: రంగస్థలం|స్వయం చాలనం|చెత్త బుట్ట|పత్రం"
 
 #: kdecore/kde-config.cpp.in:27
 msgid "Prefix to install resource files to"
-msgstr "వనరుల దస్త్రాలని ప్రవేశపెట్టటానికి ప్రిఫిక్స్"
+msgstr "వనరుల దస్త్రాలని ప్రవేశపెట్టటానికి వాడె ఉపసర్గ"
 
 #: kdecore/kde-config.cpp.in:168
 msgid "Applications menu (.desktop files)"
@@ -9018,11 +9030,11 @@ msgstr "కార్యక్రమాల పట్టీ (.desktop దస్త
 
 #: kdecore/kde-config.cpp.in:169
 msgid "CGIs to run from kdehelp"
-msgstr "కెడిఇ సహాయము నించి నడిచే CGIలు"
+msgstr "కెడిఇ సహాయము నించి నడిచే సిజిఐలు"
 
 #: kdecore/kde-config.cpp.in:170
 msgid "Configuration files"
-msgstr "రూపీకరణ దస్త్రాలు"
+msgstr "రూపకరణ దస్త్రాలు"
 
 #: kdecore/kde-config.cpp.in:171
 msgid "Where applications store data"
@@ -9102,11 +9114,11 @@ msgstr ""
 
 #: kdecore/kde-config.cpp.in:190
 msgid "Temporary files (specific for both current host and current user)"
-msgstr ""
+msgstr "తాత్కాలిక దస్త్రాలు (ప్రస్తుత హోస్ట్ మరయూ ప్రస్తుత యూజర్ కూ సంబంధించినది)"
 
 #: kdecore/kde-config.cpp.in:191
 msgid "UNIX Sockets (specific for both current host and current user)"
-msgstr ""
+msgstr "యూనిక్స్ సాకెట్లు (ప్రస్తుత హోస్ట్ మరయూ ప్రస్తుత యూజర్ కూ సంబంధించినది)"
 
 #: kdecore/kde-config.cpp.in:203
 msgid ""
@@ -9118,7 +9130,7 @@ msgstr ""
 msgid ""
 "%1 - unknown type of userpath\n"
 msgstr ""
-"%1 - తెలియని యూజర్ పాత్\n"
+"%1 - తెలియని యూజర్ దారి\n"
 
 #: attic/qtmultilineedit.cpp:2129
 msgid "Undo"
@@ -9322,7 +9334,7 @@ msgstr "%1, %2 స్పష్టముగా లేవు"
 
 #: kernel/qaccel.cpp:506
 msgid "Ambiguous \"%1\" not handled"
-msgstr "సందిగ్దమైన \"%1\""
+msgstr "సందిగ్దమైన \"%1\" మార్చబడవు"
 
 #: kernel/qapplication.cpp:2896
 msgid ""
@@ -9378,13 +9390,13 @@ msgstr "ఒఘామ్"
 msgid ""
 "_: QFont\n"
 "SpacingModifiers"
-msgstr ""
+msgstr "ఖాళిలు సవరించేవి"
 
 #: kernel/qfontdatabase.cpp:1980
 msgid ""
 "_: QFont\n"
 "CombiningMarks"
-msgstr ""
+msgstr "కలిపే గుర్తులు"
 
 #: kernel/qfontdatabase.cpp:1983
 msgid ""
@@ -9816,7 +9828,7 @@ msgstr "NumLock"
 msgid ""
 "_: QAccel\n"
 "ScrollLock"
-msgstr "ScrollLoack"
+msgstr "ScrollLock"
 
 #: kernel/qkeysequence.cpp:116
 msgid ""
