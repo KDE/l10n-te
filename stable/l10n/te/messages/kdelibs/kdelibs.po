@@ -224,13 +224,13 @@ msgstr ""
 #: rc.cpp:122 rc.cpp:340
 #, no-c-format
 msgid "... the <b>misspelled</b> word shown in context ..."
-msgstr ""
+msgstr "... ఈ సందర్భం లోని పదం లొ <b>అక్షర దొషాలు</b> ..."
 
 #. i18n: file ./kdeui/kspellui.ui line 94
 #: rc.cpp:125 rc.cpp:343
 #, no-c-format
 msgid "Text excerpt showing the unknown word in its context."
-msgstr ""
+msgstr "తెలియని పదాన్ని, సందర్భంలొ చూపించే వచన రచనభాగం."
 
 #. i18n: file ./kdeui/kspellui.ui line 99
 #: rc.cpp:128 rc.cpp:346
@@ -526,7 +526,7 @@ msgstr ""
 #: rc.cpp:296
 #, no-c-format
 msgid "S&kip run-together words"
-msgstr ""
+msgstr "(&k) కలిసి వున్న పదాలను వదులు"
 
 #. i18n: file ./kspell2/ui/configui.ui line 70
 #: rc.cpp:299
@@ -572,7 +572,7 @@ msgstr "బ్రౌజింగ్ కొరకు అదనపు డొమె
 #: rc.cpp:447
 #, no-c-format
 msgid "List of 'wide-area' (non link-local) domains that should be browsed."
-msgstr ""
+msgstr "బ్రౌజ్ చెయవలసిన 'వైడ్-ఎరియా' (నాన్ లింక్ లొకల్) డొమెయిన్ల జాబితా "
 
 #. i18n: file ./dnssd/kcm_kdnssd.kcfg line 13
 #: rc.cpp:450
@@ -587,6 +587,8 @@ msgid ""
 "If true .local domain will be browsed. It is always link-local, using multicast "
 "DNS."
 msgstr ""
+"నిజమైన చొ .local డొమెయిన్ బ్రౌజ్ చెయబడును. ఇది ఎల్లప్పుడు లింక్ లొకల్,"
+"మల్టీ కాస్ట్ డి ఎన్ ఎస్ ను వాడుతుంది"
 
 #. i18n: file ./dnssd/kcm_kdnssd.kcfg line 18
 #: rc.cpp:456
@@ -607,6 +609,8 @@ msgid ""
 "Select publishing in LAN (multicast) or WAN (unicast, needs configured DNS "
 "server)"
 msgstr ""
+"లేన్ (LAN)(మల్టీ కాస్ట్) లేక వేన్ (WAN) (యూనికాస్ట్, దినికి అమర్చిన "
+"డి ఎన్ ఎస్ సెర్వర్ కావాలి) ఎంచుకోండి"
 
 #. i18n: file ./dnssd/kcm_kdnssd.kcfg line 26
 #: rc.cpp:465
@@ -630,6 +634,9 @@ msgid ""
 "match domain specified in /etc/mdnsd.conf. This value is used only if "
 "PublishType is set to WAN.\n"
 msgstr ""
+"ప్రచురించడానికి 'వైడ్-ఎరియా' (సాధారణ డి ఎన్ ఎస్) జీరొ కాన్ఫ్ ద్వారా వాడె డొమెయిన్ పేరు. "
+"ఇది /etc/mdnsd.conf లొని డొమెయిన్ తొ సరిపొవాలి. ఈ విలువ PublishTypeను WANకు పేట్టినప్పుడు"
+"మాత్రమె వాడబడుతుంది.\n"
 
 #: _translatorinfo.cpp:1
 msgid ""
@@ -1618,17 +1625,19 @@ msgstr "అస్పష్టమైన"
 
 #: kabc/kab2kabc.cpp:42
 msgid "Disable automatic startup on login"
-msgstr ""
+msgstr "లాగిన్ అయినప్పుడు దాని అంతట అదే మొదలుపెట్టకు"
 
 #: kabc/kab2kabc.cpp:45
 msgid "Override existing entries"
-msgstr ""
+msgstr "వున్న దఖలులను వాడకు"
 
 #: kabc/kab2kabc.cpp:287
 msgid ""
 "Address book file <b>%1</b> not found! Make sure the old address book is "
 "located there and you have read permission for this file."
 msgstr ""
+"<b>%1</b> చిరునామా పుస్తకపు దస్త్రం కనబడలేదు! పాత చిరునామా పుస్తకం అక్కడ వుండెటట్టు"
+"చూడండి మరయూ ఆ దస్త్రాన్ని చదివే అనుమతి మీకు వుడాలి."
 
 #: kabc/kab2kabc.cpp:435
 msgid "Kab to Kabc Converter"
@@ -1673,11 +1682,11 @@ msgstr "ఈమెయిల్ జాబితా"
 
 #: kabc/locknull.cpp:60
 msgid "LockNull: All locks succeed but no actual locking is done."
-msgstr ""
+msgstr "లాక్ నల్: అన్ని తాళాలు సఫలం గా వెయబడినవి కాని అసలైన తాళం వెయబడటం జరుగలేదు."
 
 #: kabc/locknull.cpp:62
 msgid "LockNull: All locks fail."
-msgstr ""
+msgstr "లాక్ నల్: అన్ని తాళాలు విఫలం."
 
 #: kabc/phonenumber.cpp:147
 msgid ""
@@ -2308,7 +2317,7 @@ msgstr ""
 
 #: kded/kde-menu.cpp:39
 msgid "Highlight the entry in the menu"
-msgstr ""
+msgstr "పట్టి లోని దఖలును హైలైటు చేయి"
 
 #: kded/kde-menu.cpp:40
 msgid "Do not check if sycoca database is up to date"
@@ -2320,7 +2329,7 @@ msgstr ""
 
 #: kded/kde-menu.cpp:99
 msgid "Menu item '%1' could not be highlighted."
-msgstr ""
+msgstr "'%1' పట్టి అంశం ను హైలైట్ చెయలేకపొయాను"
 
 #: kded/kde-menu.cpp:111
 msgid ""
@@ -2332,7 +2341,7 @@ msgstr ""
 
 #: kded/kde-menu.cpp:116
 msgid "kde-menu"
-msgstr "కెడిఈ-మెను"
+msgstr "కెడిఈ-పట్టి"
 
 #: kded/kbuildsycoca.cpp:724 kded/kbuildsycoca.cpp:725 kded/kde-menu.cpp:119
 #: kded/khostname.cpp:362 kdeui/kaboutdialog.cpp:90
@@ -2341,13 +2350,15 @@ msgstr "మూలకర్త"
 
 #: kded/kde-menu.cpp:133
 msgid "You must specify an application-id such as 'kde-konsole.desktop'"
-msgstr ""
+msgstr "మీరు కార్యక్రమపు-ఐడి ఇవ్వాలి ఉదా: 'kde-konsole.desktop'"
 
 #: kded/kde-menu.cpp:142
 msgid ""
 "You must specify at least one of --print-menu-id, --print-menu-name or "
 "--highlight"
 msgstr ""
+"మీరు --print-menu-id, --print-menu-name లేక --highlight ల లొ "
+"ఒకటైనా వాడాలి"
 
 #: kded/kde-menu.cpp:164
 msgid "No menu item '%1'."
@@ -2436,7 +2447,7 @@ msgstr "దస్త్రపు సమయమును తనఖిచేయి"
 
 #: kded/kbuildsycoca.cpp:698
 msgid "Disable checking files (dangerous)"
-msgstr ""
+msgstr "దస్త్రాలను తనఖిచేయకు (ప్రమాదకరం)"
 
 #: kded/kbuildsycoca.cpp:699
 msgid "Create global database"
@@ -2444,11 +2455,11 @@ msgstr "వసుదైక డెటాబేస్ సృష్టించు"
 
 #: kded/kbuildsycoca.cpp:700
 msgid "Perform menu generation test run only"
-msgstr ""
+msgstr "పట్టి సృష్టి పరీక్ష మాత్రమే నిర్వహించు"
 
 #: kded/kbuildsycoca.cpp:701
 msgid "Track menu id for debug purposes"
-msgstr ""
+msgstr "డీబగ్ ప్రయొజనాల కొరకు పట్టి ఐడి ని వెంబడించు"
 
 #: kded/kbuildsycoca.cpp:703
 msgid "Silent - work without windows and stderr"
@@ -2468,11 +2479,11 @@ msgstr ""
 
 #: kded/kbuildsycoca.cpp:751
 msgid "KDE Configuration Manager"
-msgstr ""
+msgstr "కెడిఈ అమరిక అభికర్త"
 
 #: kded/kbuildsycoca.cpp:753
 msgid "Do you want to reload KDE configuration?"
-msgstr ""
+msgstr "కెడిఈ అమరికణూ మళ్లి ఎక్కించమటారా?"
 
 #: kded/kbuildsycoca.cpp:753
 msgid "Do Not Reload"
@@ -2480,7 +2491,7 @@ msgstr "మళ్లి ఎక్కించవద్దు"
 
 #: kded/kbuildsycoca.cpp:953
 msgid "Configuration information reloaded successfully."
-msgstr ""
+msgstr "అమరిక సమాచారం సఫలంగా మళ్లి ఎక్కించడమైనది."
 
 #: kmdi/kmdi/guiclient.cpp:79 kmdi/kmdiguiclient.cpp:139
 msgid "Tool &Views"
@@ -2492,11 +2503,11 @@ msgstr "ఎండిఐ స్థితి"
 
 #: kmdi/kmdiguiclient.cpp:144 kmdi/kmdimainfrm.cpp:2594
 msgid "&Toplevel Mode"
-msgstr ""
+msgstr "(&T) పైన వుండె స్థితి"
 
 #: kmdi/kmdiguiclient.cpp:144 kmdi/kmdimainfrm.cpp:2595
 msgid "C&hildframe Mode"
-msgstr ""
+msgstr "(&h) పిల్ల చట్రపు స్థితి"
 
 #: kmdi/kmdiguiclient.cpp:144 kmdi/kmdimainfrm.cpp:2596
 msgid "Ta&b Page Mode"
@@ -2544,7 +2555,7 @@ msgstr "%1 చూపుము"
 #: kmdi/kmdiguiclient.cpp:265
 #, c-format
 msgid "Hide %1"
-msgstr "%1 దాచుము"
+msgstr "%1 చూపించకు"
 
 #: kmdi/kmdimainfrm.cpp:979
 msgid "Window"
@@ -2661,7 +2672,7 @@ msgstr "లైబ్రరి %1లో %2 ఫంక్షన్ లేదు."
 
 #: kdecore/klibloader.cpp:168
 msgid "The library %1 does not offer a KDE compatible factory."
-msgstr ""
+msgstr "%1 లైబ్రరిలో కెడిఈ కి సరిపడె ఫేక్టరి లేదు"
 
 #: kdecore/klibloader.cpp:425
 msgid "Library files for \"%1\" not found in paths."
@@ -9035,19 +9046,19 @@ msgstr "కార్యక్రమాల పట్టీ (.desktop దస్త
 
 #: kdecore/kde-config.cpp.in:169
 msgid "CGIs to run from kdehelp"
-msgstr "కెడిఇ సహాయము నించి నడిచే సిజిఐలు"
+msgstr "కెడిఈ సహాయము నుంచి నడిచే సిజిఐలు"
 
 #: kdecore/kde-config.cpp.in:170
 msgid "Configuration files"
-msgstr "రూపకరణ దస్త్రాలు"
+msgstr "అమరిక దస్త్రాలు"
 
 #: kdecore/kde-config.cpp.in:171
 msgid "Where applications store data"
-msgstr "కార్యక్షేత్రాలు  దత్తాంశము ని ఎక్కడ దాచుటారు "
+msgstr "కార్యక్షేత్రాలు దత్తాంశము ని ఎక్కడ దాచుటారు "
 
 #: kdecore/kde-config.cpp.in:172
 msgid "Executables in $prefix/bin"
-msgstr "$prefix/bin లో  నిర్వర్తించగల దస్త్ర్రాలు "
+msgstr "$prefix/bin లో  నిర్వర్తించగల దస్త్రాలు "
 
 #: kdecore/kde-config.cpp.in:173
 msgid "HTML documentation"
@@ -9059,7 +9070,7 @@ msgstr "ప్రతిమలు"
 
 #: kdecore/kde-config.cpp.in:175
 msgid "Configuration description files"
-msgstr "రూపీకరణ ని తెలియచేసే దస్త్రాలు"
+msgstr "అమరికను తెలియచేసే దస్త్రాలు"
 
 #: kdecore/kde-config.cpp.in:176
 msgid "Libraries"
@@ -9079,7 +9090,7 @@ msgstr "మైమ్ రకములు"
 
 #: kdecore/kde-config.cpp.in:180
 msgid "Loadable modules"
-msgstr "ఎక్కింపతగిన మాడ్యూల్లు"
+msgstr "ఎక్కింపతగిన మాడ్యూళ్లు"
 
 #: kdecore/kde-config.cpp.in:181
 msgid "Qt plugins"
@@ -9107,15 +9118,15 @@ msgstr "వాల్ పేపర్లు"
 
 #: kdecore/kde-config.cpp.in:187
 msgid "XDG Application menu (.desktop files)"
-msgstr ""
+msgstr "ఎక్స్ డి జి కార్యక్రమపు పట్టి (.desktop దస్త్రాలు)"
 
 #: kdecore/kde-config.cpp.in:188
 msgid "XDG Menu descriptions (.directory files)"
-msgstr ""
+msgstr "ఎక్స్ డి జి పట్టి వర్ణనలు (.directory దస్త్రాలు)"
 
 #: kdecore/kde-config.cpp.in:189
 msgid "XDG Menu layout (.menu files)"
-msgstr ""
+msgstr "ఎక్స్ డి జి పట్టి కూర్పు (.menu దస్త్రాలు)"
 
 #: kdecore/kde-config.cpp.in:190
 msgid "Temporary files (specific for both current host and current user)"
@@ -9403,7 +9414,7 @@ msgstr "ఖాళిలు సవరించేవి"
 msgid ""
 "_: QFont\n"
 "CombiningMarks"
-msgstr "కలిపే గుర్తులు"
+msgstr "కూర్చే గుర్తులు"
 
 #: kernel/qfontdatabase.cpp:1983
 msgid ""
@@ -9871,7 +9882,7 @@ msgstr "ఆగు"
 msgid ""
 "_: QAccel\n"
 "Refresh"
-msgstr ""
+msgstr "Refresh"
 
 #: kernel/qkeysequence.cpp:124
 msgid ""
@@ -10147,7 +10158,7 @@ msgstr "ఎస్కేప్"
 msgid ""
 "_: QAccel\n"
 "System Request"
-msgstr "సిస్టెమ్ రెక్వెస్ట్"
+msgstr "వ్యవస్థ రెక్వెస్ట్"
 
 #: kernel/qkeysequence.cpp:406 kernel/qkeysequence.cpp:484
 msgid "Ctrl"
