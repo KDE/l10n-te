@@ -2070,6 +2070,8 @@ msgid ""
 "The address book '%1' is locked by application '%2'.\n"
 "If you believe this is incorrect, just remove the lock file from '%3'"
 msgstr ""
+"'%1' చిరునామా పుస్తకం '%2' కార్యక్రమంచే తాళంవెయబడింది.\n"
+"మీరు ఇది తప్పని భావించిన, '%3' నుంచి తాళపు దస్త్రాన్ని తొలగించండి"
 
 #: kabc/lock.cpp:146
 msgid "Unlock failed. Lock file is owned by other process: %1 (%2)"
@@ -2325,7 +2327,7 @@ msgstr ""
 
 #: kded/kde-menu.cpp:41
 msgid "The id of the menu entry to locate"
-msgstr ""
+msgstr "కనిపెట్టుటకు పట్టి దఖలు యొక్క ఐడి"
 
 #: kded/kde-menu.cpp:99
 msgid "Menu item '%1' could not be highlighted."
@@ -2475,7 +2477,7 @@ msgstr ""
 
 #: kded/kbuildsycoca.cpp:750
 msgid "Reloading KDE configuration, please wait..."
-msgstr ""
+msgstr "కెడిఈ అమరికను మళ్లి ఎక్కిస్తున్నా, దయచేసి ఆగండి..."
 
 #: kded/kbuildsycoca.cpp:751
 msgid "KDE Configuration Manager"
@@ -2800,7 +2802,7 @@ msgstr ""
 
 #: kdecore/kapplication.cpp:1424
 msgid "mirrors the whole layout of widgets"
-msgstr ""
+msgstr "మొత్తం విడ్జెట్ల కూర్పు ను అద్దంపట్టును"
 
 #: kdecore/kapplication.cpp:1430
 msgid "Use 'caption' as name in the titlebar"
@@ -2916,11 +2918,13 @@ msgstr "రంగస్థలం %1"
 msgid ""
 "Will not save configuration.\n"
 msgstr ""
+"అమరిక దాచబడదు.\n"
 
 #: kdecore/kconfigbackend.cpp:1109 kdecore/kconfigbackend.cpp:1117
 msgid ""
 "Configuration file \"%1\" not writable.\n"
 msgstr ""
+"అమరిక దస్త్రం \"%1\" వ్రాయుటకు వీలుకాదు.\n"
 
 #: kdecore/kconfigbackend.cpp:1124
 msgid "Please contact your system administrator."
@@ -3071,7 +3075,7 @@ msgstr "డా. క్లాష్ వారి ఎక్సెలరెటర�
 
 #: kdecore/kcheckaccelerators.cpp:155
 msgid "&Disable automatic checking"
-msgstr ""
+msgstr "(&D) స్వయం తనఖి చెయకు"
 
 #: kdecore/kcheckaccelerators.cpp:193
 msgid "<h2>Accelerators changed</h2>"
@@ -3193,11 +3197,11 @@ msgstr "మొందటి పదం"
 
 #: kdecore/kstdaccel.cpp:93
 msgid "Activate Next Tab"
-msgstr ""
+msgstr "ముందు టాబ్ ను చైతన్యపరచు"
 
 #: kdecore/kstdaccel.cpp:94
 msgid "Activate Previous Tab"
-msgstr ""
+msgstr "వెనుక టాబ్ ను చైతన్యపరచు"
 
 #: kdecore/kstdaccel.cpp:95
 msgid "Full Screen Mode"
@@ -3221,7 +3225,7 @@ msgstr "తరువాతి పూరణ జత"
 
 #: kdecore/kstdaccel.cpp:103
 msgid "Substring Completion"
-msgstr ""
+msgstr "పదంలో పద పూరణ"
 
 #: kdecore/kstdaccel.cpp:104
 msgid "Previous Item in List"
@@ -3712,7 +3716,7 @@ msgstr "నొడ్ పేరు కు చిరునామా కుటు�
 
 #: kdecore/netsupp.cpp:892 kdecore/network/kresolver.cpp:559
 msgid "temporary failure in name resolution"
-msgstr ""
+msgstr "పేరు నిర్ధారణ లొ తాత్కాలిక వైఫల్యం"
 
 #: kdecore/netsupp.cpp:893
 msgid "invalid value for 'ai_flags'"
@@ -3720,7 +3724,7 @@ msgstr "'ai_flags' కు తప్పు విలువ"
 
 #: kdecore/netsupp.cpp:894 kdecore/network/kresolver.cpp:560
 msgid "non-recoverable failure in name resolution"
-msgstr ""
+msgstr "పేరు నిర్ధారణ లొ కొలులుకొలేని వైఫల్యం"
 
 #: kdecore/netsupp.cpp:895
 msgid "'ai_family' not supported"
@@ -3728,11 +3732,11 @@ msgstr "'ai_family' కి సహాయం లేదు"
 
 #: kdecore/netsupp.cpp:896 kdecore/network/kresolver.cpp:562
 msgid "memory allocation failure"
-msgstr ""
+msgstr "మెమొరి కెటాయింపు వైఫల్యం"
 
 #: kdecore/netsupp.cpp:897
 msgid "no address associated with nodename"
-msgstr ""
+msgstr "నొడ్ పేరు తొ కూడిన చిరునామా లేదు"
 
 #: kdecore/netsupp.cpp:898 kdecore/network/kresolver.cpp:563
 msgid "name or service not known"
@@ -4588,6 +4592,8 @@ msgid ""
 "There was an error with the downloaded resource tarball file. Possible causes "
 "are damaged archive or invalid directory structure in the archive."
 msgstr ""
+"డౌన్ లోడ్ చెయబడిన టార్ బాల్ దస్త్రం లొ దొషం వుంది. పాడైన ఆర్కైవ్ లేక తప్పు ఆర్కవ్ "
+"డైరక్టరి ఏర్పాటు కారణాలు కావచ్చు."
 
 #: knewstuff/knewstuffsecure.cpp:83
 msgid "Resource Installation Error"
@@ -4633,6 +4639,13 @@ msgid ""
 "<br>"
 "<br>Do you want to proceed with the installation?</qt>"
 msgstr ""
+"<qt> మీరు డౌన్ లోడ్ చేసిన వనరుల దస్త్రంలొ దొషం వుంది."
+"దొషాలు :<b>%1</b>"
+"<br>%2"
+"<br>"
+"<br>వనరు స్థాపణ <b>శిఫారసు చెయబడటంలేదు</b>?"
+"<br>"
+"<br>మీరు స్థాపణ తొ ముందుకు వెళ్లమంటారా?</qt>"
 
 #: knewstuff/knewstuffsecure.cpp:137
 msgid "Problematic Resource File"
@@ -4656,6 +4669,9 @@ msgid ""
 "passphrase.\n"
 "Proceed without signing the resource?"
 msgstr ""
+"సంతకం చేయుటకు వాడబడె కీలు లేవు లేక మీరు తప్పు రహస్యపదం "
+"వ్రాసినట్టువున్నరు.\n"
+"వనరును సంతకం చెయకుండా ముందుకు వెళ్లమంటారా?"
 
 #: knewstuff/security.cpp:63
 msgid ""
@@ -4663,13 +4679,16 @@ msgid ""
 "gpg</i> is installed, otherwise verification of downloaded resources will not "
 "be possible.</qt>"
 msgstr ""
+"<qt><i>జిపిజి</i> మొదలుపెట్టలేను మరయూ అందుబాటులొ వున్న కీలను తెలెకపొయాను."
+"<i>జిపిజి</i> స్థాపించబడి వునట్టు చూసుకోండి, లెకపొయిన డౌన్ లోడ్ చెయబడిన వనరుల "
+"సరిచూడలేము.</qt>"
 
 #: knewstuff/security.cpp:177
 msgid ""
 "<qt>Enter passphrase for key <b>0x%1</b>, belonging to"
 "<br><i>%2&lt;%3&gt;</i>:</qt>"
 msgstr ""
-"<qt><i>%2 &lt;%3&gt;</i> చెందిన <i>0x%1</i> కీ సంబంధించిన రహస్య పదం "
+"<qt><i>%2 &lt;%3&gt;</i> చెందిన <i>0x%1</i> కీ సంబంధించిన రహస్యపదం "
 "వ్రాయండి:</qt>"
 
 #: knewstuff/security.cpp:257
@@ -4678,7 +4697,9 @@ msgid ""
 "<i>gpg</i> is installed, otherwise verification of downloaded resources will "
 "not be possible.</qt>"
 msgstr ""
-
+"<qt><i>జిపిజి</i> మొదలుపెట్టలేను మరయూ దస్త్రాన్ని సరిచూడండి."
+"<i>జిపిజి</i> స్థాపించబడి వునట్టు చూసుకోండి, లెకపొయిన డౌన్ లోడ్ చెయబడిన వనరుల "
+"సరిచూడలేము.</qt>"
 #: knewstuff/security.cpp:317
 msgid "Select Signing Key"
 msgstr "సంతకం చెయుటకు వాడె కీ ని ఎంచుకో"
@@ -4692,7 +4713,9 @@ msgid ""
 "<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> "
 "is installed, otherwise signing of the resources will not be possible.</qt>"
 msgstr ""
-
+"<qt><i>జిపిజి</i> మొదలుపెట్టలేను మరయూ దస్త్రాన్ని సంతకం చేయ లెకపొయాను."
+"<i>జిపిజి</i> స్థాపించబడి వునట్టు చూసుకోండి, లెకపొయిన డౌన్ లోడ్ చెయబడిన వనరుల "
+"సరిచూడలేము.</qt>"
 #: knewstuff/ghns.cpp:50
 msgid "Get hot new stuff:"
 msgstr "కొత్తవాటిని తెచ్చుకో:"
@@ -4823,7 +4846,7 @@ msgstr ""
 
 #: kdeui/kkeydialog.cpp:958
 msgid "Conflict with Standard Application Shortcut"
-msgstr ""
+msgstr "ప్రామాణిక కార్యక్రమ శీఘ్రమార్గంతొ ఘర్షణ"
 
 #: kdeui/kkeydialog.cpp:959
 msgid ""
@@ -4834,7 +4857,7 @@ msgstr ""
 
 #: kdeui/kkeydialog.cpp:964
 msgid "Conflict with Global Shortcut"
-msgstr ""
+msgstr "వసుదైక శీఘ్రమార్గంతొ ఘర్షణ"
 
 #: kdeui/kkeydialog.cpp:965
 msgid ""
@@ -4855,7 +4878,7 @@ msgstr ""
 
 #: kdeui/kkeydialog.cpp:977
 msgid "Reassign"
-msgstr ""
+msgstr "మళ్లి నియమించు"
 
 #: kdeui/kkeydialog.cpp:1091 kdeui/kkeydialog.cpp:1103
 msgid "Configure Shortcuts"
@@ -4875,7 +4898,7 @@ msgstr ""
 
 #: kdeui/ksconfig.cpp:102
 msgid "Create &root/affix combinations not in dictionary"
-msgstr ""
+msgstr "(&r) నిఘంటువులొ లేని మూల/ప్రత్యయ మిశ్రమాలను సృష్టించు "
 
 #: kdeui/ksconfig.cpp:107
 msgid "Consider run-together &words as spelling errors"
@@ -5022,11 +5045,11 @@ msgstr "ఎంపిక..."
 
 #: kdeui/kfontrequester.cpp:102
 msgid "Click to select a font"
-msgstr ""
+msgstr "అక్షర రూపాన్ని ఎంచుకొనేందుకు క్లిక్ చెయండి"
 
 #: kdeui/kfontrequester.cpp:109
 msgid "Preview of the selected font"
-msgstr ""
+msgstr "ఎంచుకొన్న అక్షర రూపపు మొందు వీక్షణ"
 
 #: kdeui/kfontrequester.cpp:111
 msgid ""
@@ -5036,7 +5059,7 @@ msgstr ""
 
 #: kdeui/kfontrequester.cpp:117
 msgid "Preview of the \"%1\" font"
-msgstr ""
+msgstr "\"%1\" అక్షర రూపం యొక్క ముందు వీక్షణ"
 
 #: kdeui/kfontrequester.cpp:119
 msgid ""
@@ -5054,6 +5077,8 @@ msgid ""
 "No information available.\n"
 "The supplied KAboutData object does not exist."
 msgstr ""
+"సమాచారం అందుబాటులొ లేదు.\n"
+"అందించిన కెగురించి దత్తంశపు ఆబ్జెక్ట్ లేదు."
 
 #: kdeui/kaboutapplication.cpp:107
 msgid "A&uthor"
@@ -5477,7 +5502,7 @@ msgstr "దస్త్రం తెరువండి"
 
 #: kdeui/kstdguiitem.cpp:233
 msgid "Quit application"
-msgstr ""
+msgstr "కార్యక్రమం మూసివేయి"
 
 #: kdeui/kstdguiitem.cpp:238
 msgid "&Reset"
