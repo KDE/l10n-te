@@ -11,6 +11,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: lock/autologout.cc:39
 msgid "<nobr><qt><b>Automatic Log Out</b></qt><nobr>"
@@ -24,10 +25,10 @@ msgstr ""
 
 #: lock/autologout.cc:80
 #, c-format
-msgid ""
-"_n: <nobr><qt>You will be automatically logged out in 1 second</qt></nobr>\n"
-"<nobr><qt>You will be automatically logged out in %n seconds</qt></nobr>"
-msgstr ""
+msgid "<nobr><qt>You will be automatically logged out in 1 second</qt></nobr>"
+msgid_plural "<nobr><qt>You will be automatically logged out in %1 seconds</qt></nobr>"
+msgstr[0] ""
+msgstr[1] ""
 
 #: lock/lockdlg.cc:82
 msgid "<nobr><b>The session is locked</b><br>"
@@ -88,9 +89,8 @@ msgid "Location"
 msgstr "స్థానం"
 
 #: lock/lockdlg.cc:678
-msgid ""
-"_: session\n"
-"&Activate"
+msgctxt "session"
+msgid "&Activate"
 msgstr ""
 
 #: lock/lockdlg.cc:687
@@ -352,15 +352,13 @@ msgid "KDesktop"
 msgstr "కెరంగస్థలం"
 
 #: _translatorinfo.cpp:1
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
 msgstr "విజయ్ కిరణ్ కముజు"
 
 #: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
 msgstr "infyquest@gmail.com"
 
 #: kdesktopbindings.cpp:20 minicli.cpp:79

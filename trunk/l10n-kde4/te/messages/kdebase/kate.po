@@ -13,6 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: app/kateexternaltools.cpp:276
 msgid "Failed to expand the command '%1'."
@@ -292,9 +293,8 @@ msgid "This shows help files for various available plugins."
 msgstr ""
 
 #: app/katemainwindow.cpp:305
-msgid ""
-"_: Menu entry Session->New\n"
-"&New"
+msgctxt "Menu entry Session->New"
+msgid "&New"
 msgstr ""
 
 #: app/katemainwindow.cpp:308
@@ -318,9 +318,8 @@ msgid "Closing Aborted"
 msgstr ""
 
 #: app/katemainwindow.cpp:489
-msgid ""
-"_: 'document name [*]', [*] means modified\n"
-"%1 [*]"
+msgctxt "'document name [*]', [*] means modified"
+msgid "%1 [*]"
 msgstr ""
 
 #: app/katemainwindow.cpp:611
@@ -916,17 +915,15 @@ msgid "All people who have contributed and I have forgotten to mention"
 msgstr ""
 
 #: _translatorinfo.cpp:1 app/katemain.cpp:99 app/kwritemain.cpp:585
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
 msgstr ""
 "పవిత్రన్ శాఖమూరి\n"
 "విజయ్ కిరణ్ కముజు"
 
 #: _translatorinfo.cpp:3 app/katemain.cpp:99 app/kwritemain.cpp:585
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
 msgstr "pavithran.s@gmail.cominfyquest@gmail.com"
 
 #: app/katedocmanager.cpp:394

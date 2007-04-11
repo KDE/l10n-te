@@ -11,6 +11,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: konsole_mnu.cpp:151
 msgid "New Session at Bookmark"
@@ -18,9 +19,8 @@ msgstr "పేజి గుర్తు వద్ద కొత్త సెష�
 
 #: konsole_mnu.cpp:188
 #, c-format
-msgid ""
-"_: Screen is a program controlling screens!\n"
-"Screen at %1"
+msgctxt "Screen is a program controlling screens!"
+msgid "Screen at %1"
 msgstr ""
 "స్క్రీన్ తెరలను నియంత్రించే కార్యక్రమం!\n"
 "%1 వద్ద తెర"

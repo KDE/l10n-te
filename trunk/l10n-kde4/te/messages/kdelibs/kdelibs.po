@@ -14,6 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. i18n: file ./interfaces/ktexteditor/editorchooser_ui.ui line 16
 #: rc.cpp:3
@@ -112,9 +113,8 @@ msgstr "(&E) సరిదిద్దు"
 #. i18n: file ./kdeui/ui_standards.rc line 80
 #: rc.cpp:54
 #, no-c-format
-msgid ""
-"_: Menu title\n"
-"&Move"
+msgctxt "Menu title"
+msgid "&Move"
 msgstr "(&M) జరుపుము"
 
 #. i18n: file ./kdeui/ui_standards.rc line 97
@@ -639,15 +639,13 @@ msgstr ""
 "PublishTypeను WANకు పేట్టినప్పుడుమాత్రమె వాడబడుతుంది.\n"
 
 #: _translatorinfo.cpp:1
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
 msgstr "విజయ్ కిరణ్ కముజు"
 
 #: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
 msgstr "infyquest@gmail.com"
 
 #: common_texts.cpp:24 kdeui/kconfigdialog.cpp:56 kutils/kcmultidialog.cpp:59
@@ -1118,9 +1116,8 @@ msgid "&Insert"
 msgstr "(&I) చెర్చు"
 
 #: common_texts.cpp:168 kdeui/ktip.cpp:297
-msgid ""
-"_: Opposite to Previous\n"
-"&Next"
+msgctxt "Opposite to Previous"
+msgid "&Next"
 msgstr "(&N) తరువాత"
 
 #: common_texts.cpp:169 kdeui/ktip.cpp:292
@@ -1209,267 +1206,223 @@ msgid "Do not show this message again"
 msgstr "ఈ సందేశము మరల చూపవద్దు"
 
 #: common_texts.cpp:211
-msgid ""
-"_: QAccel\n"
-"Prior"
+msgctxt "QAccel"
+msgid "Prior"
 msgstr "మునుపటి"
 
 #: common_texts.cpp:212
-msgid ""
-"_: QAccel\n"
-"Next"
+msgctxt "QAccel"
+msgid "Next"
 msgstr "తరువాత"
 
 #: common_texts.cpp:213
-msgid ""
-"_: QAccel\n"
-"Shift"
+msgctxt "QAccel"
+msgid "Shift"
 msgstr "Shift"
 
 #: common_texts.cpp:214
-msgid ""
-"_: QAccel\n"
-"Control"
+msgctxt "QAccel"
+msgid "Control"
 msgstr "నియంత్రణ"
 
 #: common_texts.cpp:215
-msgid ""
-"_: QAccel\n"
-"Meta"
+msgctxt "QAccel"
+msgid "Meta"
 msgstr "మెటా"
 
 #: common_texts.cpp:216
-msgid ""
-"_: QAccel\n"
-"Alt"
+msgctxt "QAccel"
+msgid "Alt"
 msgstr "Alt"
 
 #: common_texts.cpp:221
-msgid ""
-"_: QAccel\n"
-"ParenLeft"
+msgctxt "QAccel"
+msgid "ParenLeft"
 msgstr "ParenLeft"
 
 #: common_texts.cpp:222
-msgid ""
-"_: QAccel\n"
-"ParenRight"
+msgctxt "QAccel"
+msgid "ParenRight"
 msgstr "ParenRight"
 
 #: common_texts.cpp:223
-msgid ""
-"_: QAccel\n"
-"Asterisk"
+msgctxt "QAccel"
+msgid "Asterisk"
 msgstr "Asterisk"
 
 #: common_texts.cpp:224
-msgid ""
-"_: QAccel\n"
-"Plus"
+msgctxt "QAccel"
+msgid "Plus"
 msgstr "ప్లస్"
 
 #: common_texts.cpp:225
-msgid ""
-"_: QAccel\n"
-"Comma"
+msgctxt "QAccel"
+msgid "Comma"
 msgstr "కామా"
 
 #: common_texts.cpp:226
-msgid ""
-"_: QAccel\n"
-"Minus"
+msgctxt "QAccel"
+msgid "Minus"
 msgstr "మైనస్"
 
 #: common_texts.cpp:227
-msgid ""
-"_: QAccel\n"
-"Period"
+msgctxt "QAccel"
+msgid "Period"
 msgstr "చుక్క"
 
 #: common_texts.cpp:228
-msgid ""
-"_: QAccel\n"
-"Slash"
+msgctxt "QAccel"
+msgid "Slash"
 msgstr "Slash"
 
 #: common_texts.cpp:229
-msgid ""
-"_: QAccel\n"
-"Colon"
+msgctxt "QAccel"
+msgid "Colon"
 msgstr "Colon"
 
 #: common_texts.cpp:230
-msgid ""
-"_: QAccel\n"
-"Semicolon"
+msgctxt "QAccel"
+msgid "Semicolon"
 msgstr "Semicolon"
 
 #: common_texts.cpp:231
-msgid ""
-"_: QAccel\n"
-"Less"
+msgctxt "QAccel"
+msgid "Less"
 msgstr "తక్కువ"
 
 #: common_texts.cpp:232
-msgid ""
-"_: QAccel\n"
-"Equal"
+msgctxt "QAccel"
+msgid "Equal"
 msgstr "సమానము"
 
 #: common_texts.cpp:233
-msgid ""
-"_: QAccel\n"
-"Greater"
+msgctxt "QAccel"
+msgid "Greater"
 msgstr "ఎక్కువ"
 
 #: common_texts.cpp:234
-msgid ""
-"_: QAccel\n"
-"Question"
+msgctxt "QAccel"
+msgid "Question"
 msgstr "ప్రశ్న"
 
 #: common_texts.cpp:235
-msgid ""
-"_: QAccel\n"
-"BracketLeft"
+msgctxt "QAccel"
+msgid "BracketLeft"
 msgstr "ఎడమ బ్రాకెట్"
 
 #: common_texts.cpp:236
-msgid ""
-"_: QAccel\n"
-"Backslash"
+msgctxt "QAccel"
+msgid "Backslash"
 msgstr "Backslash"
 
 #: common_texts.cpp:237
-msgid ""
-"_: QAccel\n"
-"BracketRight"
+msgctxt "QAccel"
+msgid "BracketRight"
 msgstr "కుడి బ్రాకెట్"
 
 #: common_texts.cpp:238
-msgid ""
-"_: QAccel\n"
-"AsciiCircum"
+msgctxt "QAccel"
+msgid "AsciiCircum"
 msgstr "AsciiCircum"
 
 #: common_texts.cpp:239
-msgid ""
-"_: QAccel\n"
-"Underscore"
+msgctxt "QAccel"
+msgid "Underscore"
 msgstr "Underscore"
 
 #: common_texts.cpp:240
-msgid ""
-"_: QAccel\n"
-"QuoteLeft"
+msgctxt "QAccel"
+msgid "QuoteLeft"
 msgstr "Quoteleft"
 
 #: common_texts.cpp:241
-msgid ""
-"_: QAccel\n"
-"BraceLeft"
+msgctxt "QAccel"
+msgid "BraceLeft"
 msgstr "BraceLeft"
 
 #: common_texts.cpp:242
-msgid ""
-"_: QAccel\n"
-"BraceRight"
+msgctxt "QAccel"
+msgid "BraceRight"
 msgstr "BraceRight"
 
 #: common_texts.cpp:243
-msgid ""
-"_: QAccel\n"
-"AsciiTilde"
+msgctxt "QAccel"
+msgid "AsciiTilde"
 msgstr "AsciiTilde"
 
 #: common_texts.cpp:246
-msgid ""
-"_: QAccel\n"
-"Apostrophe"
+msgctxt "QAccel"
+msgid "Apostrophe"
 msgstr "Apostrophe"
 
 #: common_texts.cpp:247
-msgid ""
-"_: QAccel\n"
-"Ampersand"
+msgctxt "QAccel"
+msgid "Ampersand"
 msgstr "Ampersand"
 
 #: common_texts.cpp:248
-msgid ""
-"_: QAccel\n"
-"Exclam"
+msgctxt "QAccel"
+msgid "Exclam"
 msgstr "ఆశ్చర్యార్ద్దకం"
 
 #: common_texts.cpp:249
-msgid ""
-"_: QAccel\n"
-"Dollar"
+msgctxt "QAccel"
+msgid "Dollar"
 msgstr "డాలర్"
 
 #: common_texts.cpp:250
-msgid ""
-"_: QAccel\n"
-"Percent"
+msgctxt "QAccel"
+msgid "Percent"
 msgstr "శాతం"
 
 #: common_texts.cpp:253
-msgid ""
-"_: QAccel\n"
-"NumberSign"
+msgctxt "QAccel"
+msgid "NumberSign"
 msgstr "సంఖ్య సూచన"
 
 #: common_texts.cpp:257 common_texts.cpp:261
-msgid ""
-"_: font style\n"
-"Demi-bold"
+msgctxt "font style"
+msgid "Demi-bold"
 msgstr "డెమి-బోల్డ్"
 
 #: common_texts.cpp:258
-msgid ""
-"_: font style\n"
-"Light"
+msgctxt "font style"
+msgid "Light"
 msgstr "సన్నము"
 
 #: common_texts.cpp:259
-msgid ""
-"_: font style\n"
-"Light Italic"
+msgctxt "font style"
+msgid "Light Italic"
 msgstr "సన్నటి ఇటాలిక్స్"
 
 #: common_texts.cpp:260 common_texts.cpp:262
-msgid ""
-"_: font style\n"
-"Demi-bold Italic"
+msgctxt "font style"
+msgid "Demi-bold Italic"
 msgstr "డెమి-బొల్డ్ ఇటాలిక్స్"
 
 #: common_texts.cpp:263
-msgid ""
-"_: font style\n"
-"Oblique"
+msgctxt "font style"
+msgid "Oblique"
 msgstr "వక్రము"
 
 #: common_texts.cpp:264
-msgid ""
-"_: font style\n"
-"Book"
+msgctxt "font style"
+msgid "Book"
 msgstr "బూక్"
 
 #: common_texts.cpp:265
-msgid ""
-"_: font style\n"
-"Book Oblique"
+msgctxt "font style"
+msgid "Book Oblique"
 msgstr "బూక్ వక్రం"
 
 #: common_texts.cpp:268
-msgid ""
-"_: window operation\n"
-"Sticky"
+msgctxt "window operation"
+msgid "Sticky"
 msgstr "అంటుకొను"
 
 #: common_texts.cpp:269
-msgid ""
-"_: window operation\n"
-"Un-Sticky"
+msgctxt "window operation"
+msgid "Un-Sticky"
 msgstr "అంటుకోని"
 
 #: kjs/object.cpp:349
@@ -1599,9 +1552,8 @@ msgid "Frequent"
 msgstr "తరచు"
 
 #: kab/addressbook.cc:192 kabc/field.cpp:206 kabc/scripts/field.src.cpp:102
-msgid ""
-"_: street/postal\n"
-"Address"
+msgctxt "street/postal"
+msgid "Address"
 msgstr "చిరునామా"
 
 #: kabc/addresseedialog.cpp:71 kabc/addresseedialog.cpp:101
@@ -1690,21 +1642,18 @@ msgid "LockNull: All locks fail."
 msgstr "లాక్ నల్: అన్ని తాళాలు విఫలం."
 
 #: kabc/phonenumber.cpp:147
-msgid ""
-"_: Preferred phone\n"
-"Preferred"
+msgctxt "Preferred phone"
+msgid "Preferred"
 msgstr "ఇష్టమైన"
 
 #: kabc/phonenumber.cpp:151
-msgid ""
-"_: Home phone\n"
-"Home"
+msgctxt "Home phone"
+msgid "Home"
 msgstr "గృహము"
 
 #: kabc/phonenumber.cpp:154
-msgid ""
-"_: Work phone\n"
-"Work"
+msgctxt "Work phone"
+msgid "Work"
 msgstr "ఉద్యోగము"
 
 #: kabc/phonenumber.cpp:157
@@ -1724,9 +1673,8 @@ msgid "Fax"
 msgstr "ఫ్యాక్స్"
 
 #: kabc/phonenumber.cpp:169
-msgid ""
-"_: Mobile Phone\n"
-"Mobile"
+msgctxt "Mobile Phone"
+msgid "Mobile"
 msgstr "మొబైల్"
 
 #: kabc/phonenumber.cpp:172
@@ -1742,9 +1690,8 @@ msgid "Modem"
 msgstr "మొడెమ్"
 
 #: kabc/phonenumber.cpp:181
-msgid ""
-"_: Car Phone\n"
-"Car"
+msgctxt "Car Phone"
+msgid "Car"
 msgstr "కారు"
 
 #: kabc/addressee.cpp:595 kabc/phonenumber.cpp:184
@@ -1943,9 +1890,8 @@ msgid " sec"
 msgstr " సె"
 
 #: kabc/ldapconfigwidget.cpp:175
-msgid ""
-"_: Distinguished Name\n"
-"DN:"
+msgctxt "Distinguished Name"
+msgid "DN:"
 msgstr "డిఎన్:"
 
 #: kabc/ldapconfigwidget.cpp:182 kabc/ldapconfigwidget.cpp:231
@@ -2025,9 +1971,8 @@ msgid "Delivery Label"
 msgstr "బట్వాడా చీటీ"
 
 #: kabc/address.cpp:287
-msgid ""
-"_: Preferred address\n"
-"Preferred"
+msgctxt "Preferred address"
+msgid "Preferred"
 msgstr "ఇష్టమైన"
 
 #: kabc/address.cpp:291
@@ -2047,15 +1992,13 @@ msgid "Parcel"
 msgstr "మూట"
 
 #: kabc/address.cpp:303
-msgid ""
-"_: Home Address\n"
-"Home"
+msgctxt "Home Address"
+msgid "Home"
 msgstr "గృహము"
 
 #: kabc/address.cpp:306
-msgid ""
-"_: Work Address\n"
-"Work"
+msgctxt "Work Address"
+msgid "Work"
 msgstr "ఉద్యోగము"
 
 #: kabc/address.cpp:309
@@ -2239,15 +2182,13 @@ msgid "Geographic Position"
 msgstr "భౌగోళిక స్థానము"
 
 #: kab/addressbook.cc:263 kabc/addressee.cpp:683
-msgid ""
-"_: person\n"
-"Title"
+msgctxt "person"
+msgid "Title"
 msgstr "కితాబు"
 
 #: kabc/addressee.cpp:702
-msgid ""
-"_: person in organization\n"
-"Role"
+msgctxt "person in organization"
+msgid "Role"
 msgstr "భూమిక"
 
 #: kabc/addressee.cpp:740
@@ -2661,9 +2602,8 @@ msgid "&Undock"
 msgstr "(&U) విడగొట్టు"
 
 #: kmdi/kmdi/dockcontainer.cpp:196 kmdi/kmdidockcontainer.cpp:218
-msgid ""
-"_: Switch between overlap and side by side mode\n"
-"Overlap"
+msgctxt "Switch between overlap and side by side mode"
+msgid "Overlap"
 msgstr ""
 "ఒకదాని మీద ఒకటి మరయు పక్క పక్క స్థితుల మద్య మార్చు\n"
 "ఒకదాని మీద ఒకటి"
@@ -2939,8 +2879,8 @@ msgid "'%1' missing."
 msgstr "%1' కనబడుటలేదు."
 
 #: kdecore/kcmdlineargs.cpp:617
+msgctxt "the 2nd argument is a list of name+address, one on each line"
 msgid ""
-"_: the 2nd argument is a list of name+address, one on each line\n"
 "%1 was written by\n"
 "%2"
 msgstr ""
@@ -3060,9 +3000,8 @@ msgid "<empty>"
 msgstr "<ఖాళీ>"
 
 #: kdecore/ksockaddr.cpp:571
-msgid ""
-"_: 1: hostname, 2: port number\n"
-"%1 port %2"
+msgctxt "1: hostname, 2: port number"
+msgid "%1 port %2"
 msgstr "%1 పోర్ట్ %2"
 
 #: kdecore/ksockaddr.cpp:853
@@ -3128,9 +3067,8 @@ msgid "Navigation"
 msgstr "సంచారము"
 
 #: kdecore/kstdaccel.cpp:75
-msgid ""
-"_: Opposite to End\n"
-"Home"
+msgctxt "Opposite to End"
+msgid "Home"
 msgstr "మొదలు"
 
 #: kdecore/kstdaccel.cpp:76
@@ -3150,9 +3088,8 @@ msgid "Prior"
 msgstr "పూర్వపు"
 
 #: kdecore/kstdaccel.cpp:80
-msgid ""
-"_: Opposite to Prior\n"
-"Next"
+msgctxt "Opposite to Prior"
+msgid "Next"
 msgstr "తరువాత"
 
 #: kdecore/kstdaccel.cpp:81 kdeui/keditcl2.cpp:976
@@ -3436,84 +3373,72 @@ msgid "Yaum al-Ahad"
 msgstr "యౌమ్ అల్ అహద్"
 
 #: kdecore/klocale.cpp:217
-msgid ""
-"_: Dear translator, please do not translate this string in any form, but pick "
+msgctxt ""
+"Dear translator, please do not translate this string in any form, but pick "
 "the _right_ value out of NoPlural/TwoForms/French... If not sure what to do "
 "mail thd@kde.org and coolo@kde.org, they will tell you. Better leave that out "
-"if unsure, the programs will crash!!\n"
-"Definition of PluralForm - to be set by the translator of kdelibs.po"
+"if unsure, the programs will crash!!"
+msgid "Definition of PluralForm - to be set by the translator of kdelibs.po"
 msgstr "TwoForms"
 
 #: kdecore/kcalendarsystemgregorian.cpp:91 kdecore/klocale.cpp:553
-msgid ""
-"_: January\n"
-"Jan"
+msgctxt "January"
+msgid "Jan"
 msgstr "జనవరి"
 
 #: kdecore/kcalendarsystemgregorian.cpp:93 kdecore/klocale.cpp:554
-msgid ""
-"_: February\n"
-"Feb"
+msgctxt "February"
+msgid "Feb"
 msgstr "ఫిభ్రవరి"
 
 #: kdecore/kcalendarsystemgregorian.cpp:95 kdecore/klocale.cpp:555
-msgid ""
-"_: March\n"
-"Mar"
+msgctxt "March"
+msgid "Mar"
 msgstr "మార్చి"
 
 #: kdecore/kcalendarsystemgregorian.cpp:97 kdecore/klocale.cpp:556
-msgid ""
-"_: April\n"
-"Apr"
+msgctxt "April"
+msgid "Apr"
 msgstr "ఏప్రిల్"
 
 #: kdecore/kcalendarsystemgregorian.cpp:99 kdecore/klocale.cpp:557
-msgid ""
-"_: May short\n"
-"May"
+msgctxt "May short"
+msgid "May"
 msgstr "మే"
 
 #: kdecore/kcalendarsystemgregorian.cpp:101 kdecore/klocale.cpp:558
-msgid ""
-"_: June\n"
-"Jun"
+msgctxt "June"
+msgid "Jun"
 msgstr "జూన్"
 
 #: kdecore/kcalendarsystemgregorian.cpp:103 kdecore/klocale.cpp:559
-msgid ""
-"_: July\n"
-"Jul"
+msgctxt "July"
+msgid "Jul"
 msgstr "జులై"
 
 #: kdecore/kcalendarsystemgregorian.cpp:105 kdecore/klocale.cpp:560
-msgid ""
-"_: August\n"
-"Aug"
+msgctxt "August"
+msgid "Aug"
 msgstr "ఆగస్టు"
 
 #: kdecore/kcalendarsystemgregorian.cpp:107 kdecore/klocale.cpp:561
-msgid ""
-"_: September\n"
-"Sep"
+msgctxt "September"
+msgid "Sep"
 msgstr "సెప్టెంబరు"
 
 #: kdecore/kcalendarsystemgregorian.cpp:109 kdecore/klocale.cpp:562
-msgid ""
-"_: October\n"
-"Oct"
+msgctxt "October"
+msgid "Oct"
 msgstr "అక్టొబరు"
 
 #: kdecore/kcalendarsystemgregorian.cpp:111 kdecore/klocale.cpp:563
-msgid ""
-"_: November\n"
-"Nov"
+msgctxt "November"
+msgid "Nov"
 msgstr "నవంబరు"
 
 #: kdecore/kcalendarsystemgregorian.cpp:113 kdecore/klocale.cpp:564
-msgid ""
-"_: December\n"
-"Dec"
+msgctxt "December"
+msgid "Dec"
 msgstr "డిసెంబరు"
 
 #: kdecore/kcalendarsystemgregorian.cpp:119 kdecore/klocale.cpp:569
@@ -3533,9 +3458,8 @@ msgid "April"
 msgstr "ఏప్రిల్"
 
 #: kdecore/kcalendarsystemgregorian.cpp:127 kdecore/klocale.cpp:573
-msgid ""
-"_: May long\n"
-"May"
+msgctxt "May long"
+msgid "May"
 msgstr "మే"
 
 #: kdecore/kcalendarsystemgregorian.cpp:129 kdecore/klocale.cpp:574
@@ -3567,75 +3491,63 @@ msgid "December"
 msgstr "డిసెంబరు"
 
 #: kdecore/kcalendarsystemgregorian.cpp:156 kdecore/klocale.cpp:591
-msgid ""
-"_: of January\n"
-"of Jan"
+msgctxt "of January"
+msgid "of Jan"
 msgstr "జనవరి"
 
 #: kdecore/kcalendarsystemgregorian.cpp:158 kdecore/klocale.cpp:592
-msgid ""
-"_: of February\n"
-"of Feb"
+msgctxt "of February"
+msgid "of Feb"
 msgstr "ఫిభ్రవరి"
 
 #: kdecore/kcalendarsystemgregorian.cpp:160 kdecore/klocale.cpp:593
-msgid ""
-"_: of March\n"
-"of Mar"
+msgctxt "of March"
+msgid "of Mar"
 msgstr "మార్చి"
 
 #: kdecore/kcalendarsystemgregorian.cpp:162 kdecore/klocale.cpp:594
-msgid ""
-"_: of April\n"
-"of Apr"
+msgctxt "of April"
+msgid "of Apr"
 msgstr "ఏప్రిల్"
 
 #: kdecore/kcalendarsystemgregorian.cpp:164 kdecore/klocale.cpp:595
-msgid ""
-"_: of May short\n"
-"of May"
+msgctxt "of May short"
+msgid "of May"
 msgstr "మే"
 
 #: kdecore/kcalendarsystemgregorian.cpp:166 kdecore/klocale.cpp:596
-msgid ""
-"_: of June\n"
-"of Jun"
+msgctxt "of June"
+msgid "of Jun"
 msgstr "జూన్"
 
 #: kdecore/kcalendarsystemgregorian.cpp:168 kdecore/klocale.cpp:597
-msgid ""
-"_: of July\n"
-"of Jul"
+msgctxt "of July"
+msgid "of Jul"
 msgstr "జులై"
 
 #: kdecore/kcalendarsystemgregorian.cpp:170 kdecore/klocale.cpp:598
-msgid ""
-"_: of August\n"
-"of Aug"
+msgctxt "of August"
+msgid "of Aug"
 msgstr "ఆగస్టు"
 
 #: kdecore/kcalendarsystemgregorian.cpp:172 kdecore/klocale.cpp:599
-msgid ""
-"_: of September\n"
-"of Sep"
+msgctxt "of September"
+msgid "of Sep"
 msgstr "సెప్టెంబరు"
 
 #: kdecore/kcalendarsystemgregorian.cpp:174 kdecore/klocale.cpp:600
-msgid ""
-"_: of October\n"
-"of Oct"
+msgctxt "of October"
+msgid "of Oct"
 msgstr "అక్టోబరు"
 
 #: kdecore/kcalendarsystemgregorian.cpp:176 kdecore/klocale.cpp:601
-msgid ""
-"_: of November\n"
-"of Nov"
+msgctxt "of November"
+msgid "of Nov"
 msgstr "నవంబరు"
 
 #: kdecore/kcalendarsystemgregorian.cpp:178 kdecore/klocale.cpp:602
-msgid ""
-"_: of December\n"
-"of Dec"
+msgctxt "of December"
+msgid "of Dec"
 msgstr "డిసెంబరు"
 
 #: kdecore/kcalendarsystemgregorian.cpp:184 kdecore/klocale.cpp:607
@@ -3655,9 +3567,8 @@ msgid "of April"
 msgstr "ఏప్రిల్"
 
 #: kdecore/kcalendarsystemgregorian.cpp:192 kdecore/klocale.cpp:611
-msgid ""
-"_: of May long\n"
-"of May"
+msgctxt "of May long"
+msgid "of May"
 msgstr "మే"
 
 #: kdecore/kcalendarsystemgregorian.cpp:194 kdecore/klocale.cpp:612
@@ -3697,9 +3608,8 @@ msgid "am"
 msgstr "పూర్వాహ్నము"
 
 #: kdecore/klocale.cpp:1956
-msgid ""
-"_: concatenation of dates and time\n"
-"%1 %2"
+msgctxt "concatenation of dates and time"
+msgid "%1 %2"
 msgstr "%1 %2"
 
 #: kdecore/klocale.cpp:2447
@@ -4017,9 +3927,8 @@ msgid "South-Eastern Europe"
 msgstr "ఆగ్నేయ ఐరోపా"
 
 #: kdecore/kcharsets.cpp:516
-msgid ""
-"_: Descriptive Encoding Name\n"
-"%1 ( %2 )"
+msgctxt "Descriptive Encoding Name"
+msgid "%1 ( %2 )"
 msgstr "%1 ( %2 )"
 
 #: kdecore/kglobalsettings.cpp:494
@@ -4105,8 +4014,8 @@ msgid "Adar II"
 msgstr "అదార్ II"
 
 #: kdecore/kaboutdata.cpp:388
+msgctxt "replace this with information about your translation team"
 msgid ""
-"_: replace this with information about your translation team\n"
 "<p>KDE is translated into many languages thanks to the work of the translation "
 "teams all over the world.</p>"
 "<p>For more information on KDE internationalization visit <a "
@@ -4131,45 +4040,38 @@ msgid "This program is distributed under the terms of the %1."
 msgstr "ఈ కార్యక్రమం %1 షరతుల క్రింద పంచపెట్టడమైనది."
 
 #: kdecore/kcalendarsystem.cpp:124
-msgid ""
-"_: Monday\n"
-"Mon"
+msgctxt "Monday"
+msgid "Mon"
 msgstr "సోమ"
 
 #: kdecore/kcalendarsystem.cpp:125
-msgid ""
-"_: Tuesday\n"
-"Tue"
+msgctxt "Tuesday"
+msgid "Tue"
 msgstr "మంగళ"
 
 #: kdecore/kcalendarsystem.cpp:126
-msgid ""
-"_: Wednesday\n"
-"Wed"
+msgctxt "Wednesday"
+msgid "Wed"
 msgstr "బుధ"
 
 #: kdecore/kcalendarsystem.cpp:127
-msgid ""
-"_: Thursday\n"
-"Thu"
+msgctxt "Thursday"
+msgid "Thu"
 msgstr "గురు"
 
 #: kdecore/kcalendarsystem.cpp:128
-msgid ""
-"_: Friday\n"
-"Fri"
+msgctxt "Friday"
+msgid "Fri"
 msgstr "శుక్ర"
 
 #: kdecore/kcalendarsystem.cpp:129
-msgid ""
-"_: Saturday\n"
-"Sat"
+msgctxt "Saturday"
+msgid "Sat"
 msgstr "శని"
 
 #: kdecore/kcalendarsystem.cpp:130
-msgid ""
-"_: Sunday\n"
-"Sun"
+msgctxt "Sunday"
+msgid "Sun"
 msgstr "ఆది"
 
 #: kdecore/ksocks.cpp:135
@@ -4226,9 +4128,8 @@ msgstr "తెలియని దోషము"
 
 #: kdecore/network/kresolver.cpp:569
 #, c-format
-msgid ""
-"_: 1: the i18n'ed system error code, from errno\n"
-"system error: %1"
+msgctxt "1: the i18n'ed system error code, from errno"
+msgid "system error: %1"
 msgstr "వ్యవస్థ దోషము: %1"
 
 #: kdecore/network/kresolver.cpp:574
@@ -4236,106 +4137,89 @@ msgid "request was canceled"
 msgstr "మనవి రద్దుచేయబడినది"
 
 #: kdecore/network/ksocketbase.cpp:172
-msgid ""
-"_: Socket error code NoError\n"
-"no error"
+msgctxt "Socket error code NoError"
+msgid "no error"
 msgstr "దోషము లేదు"
 
 #: kdecore/network/ksocketbase.cpp:177
-msgid ""
-"_: Socket error code LookupFailure\n"
-"name lookup has failed"
+msgctxt "Socket error code LookupFailure"
+msgid "name lookup has failed"
 msgstr "పేరు వెతుకుట విఫలమైనది"
 
 #: kdecore/network/ksocketbase.cpp:182
-msgid ""
-"_: Socket error code AddressInUse\n"
-"address already in use"
+msgctxt "Socket error code AddressInUse"
+msgid "address already in use"
 msgstr "చిరునామా వాడుకలో వుంది"
 
 #: kdecore/network/ksocketbase.cpp:187
-msgid ""
-"_: Socket error code AlreadyBound\n"
-"socket is already bound"
+msgctxt "Socket error code AlreadyBound"
+msgid "socket is already bound"
 msgstr "సాకెట్ ముందే జతపరచడమైనది"
 
 #: kdecore/network/ksocketbase.cpp:192
-msgid ""
-"_: Socket error code AlreadyCreated\n"
-"socket is already created"
+msgctxt "Socket error code AlreadyCreated"
+msgid "socket is already created"
 msgstr "సాకెట్ ముందే సృష్టించబడినది "
 
 #: kdecore/network/ksocketbase.cpp:197
-msgid ""
-"_: Socket error code NotBound\n"
-"socket is not bound"
+msgctxt "Socket error code NotBound"
+msgid "socket is not bound"
 msgstr "సాకెట్ ముందే జతపరచడలేదు"
 
 #: kdecore/network/ksocketbase.cpp:202
-msgid ""
-"_: Socket error code NotCreated\n"
-"socket has not been created"
+msgctxt "Socket error code NotCreated"
+msgid "socket has not been created"
 msgstr "సాకెట్ సృష్టించబడలేదు "
 
 #: kdecore/network/ksocketbase.cpp:207
-msgid ""
-"_: Socket error code WouldBlock\n"
-"operation would block"
+msgctxt "Socket error code WouldBlock"
+msgid "operation would block"
 msgstr "కార్యం అడ్డు పడగలదు"
 
 #: kdecore/network/ksocketbase.cpp:212
-msgid ""
-"_: Socket error code ConnectionRefused\n"
-"connection actively refused"
+msgctxt "Socket error code ConnectionRefused"
+msgid "connection actively refused"
 msgstr "అనుసంధానం నిరకరింపబడినది"
 
 #: kdecore/network/ksocketbase.cpp:217
-msgid ""
-"_: Socket error code ConnectionTimedOut\n"
-"connection timed out"
+msgctxt "Socket error code ConnectionTimedOut"
+msgid "connection timed out"
 msgstr "అనుసంధానం సమయం అయిపొయినది"
 
 #: kdecore/network/ksocketbase.cpp:222
-msgid ""
-"_: Socket error code InProgress\n"
-"operation is already in progress"
+msgctxt "Socket error code InProgress"
+msgid "operation is already in progress"
 msgstr "కార్యం ముందే పురోగతిలొ వుంది"
 
 #: kdecore/network/ksocketbase.cpp:227
-msgid ""
-"_: Socket error code NetFailure\n"
-"network failure occurred"
+msgctxt "Socket error code NetFailure"
+msgid "network failure occurred"
 msgstr "నెట్వర్క్ దోషం వచ్చింది "
 
 #: kdecore/network/ksocketbase.cpp:232
-msgid ""
-"_: Socket error code NotSupported\n"
-"operation is not supported"
+msgctxt "Socket error code NotSupported"
+msgid "operation is not supported"
 msgstr "కార్యానికి మద్దతు లేదు"
 
 #: kdecore/network/ksocketbase.cpp:237
-msgid ""
-"_: Socket error code Timeout\n"
-"timed operation timed out"
+msgctxt "Socket error code Timeout"
+msgid "timed operation timed out"
 msgstr "సమయపు కార్యానికి సమయం అయిపొయినది"
 
 #: kdecore/network/ksocketbase.cpp:242
-msgid ""
-"_: Socket error code UnknownError\n"
-"an unknown/unexpected error has happened"
+msgctxt "Socket error code UnknownError"
+msgid "an unknown/unexpected error has happened"
 msgstr "తెలియని/ఊహించని దోషం వచ్చింది"
 
 #: kdecore/network/ksocketbase.cpp:247
-msgid ""
-"_: Socket error code RemotelyDisconnected\n"
-"remote host closed connection"
+msgctxt "Socket error code RemotelyDisconnected"
+msgid "remote host closed connection"
 msgstr "రిమోట్ హోస్ట్ అనుసంధానం మూసివేసింది"
 
 #: kdecore/network/ksocketaddress.cpp:625
 #, c-format
-msgid ""
-"_: 1: the unknown socket address family number\n"
-"Unknown family %1"
+msgctxt "1: the unknown socket address family number"
+msgid "Unknown family %1"
 msgstr "%1 తెలియని కుటుంబం"
 
 #: knewstuff/uploaddialog.cpp:47
@@ -4777,9 +4661,8 @@ msgid "Shortcut for Selected Action"
 msgstr "ఎంచుకొన్న చర్యకు శీఘ్ర మార్గం"
 
 #: kdeui/kkeydialog.cpp:393
-msgid ""
-"_: no key\n"
-"&None"
+msgctxt "no key"
+msgid "&None"
 msgstr "(&N) ఏదీ వద్దు"
 
 #: kdeui/kkeydialog.cpp:398
@@ -4787,9 +4670,8 @@ msgid "The selected action will not be associated with any key."
 msgstr ""
 
 #: kdeui/kkeydialog.cpp:401
-msgid ""
-"_: default key\n"
-"De&fault"
+msgctxt "default key"
+msgid "De&fault"
 msgstr "(&f) అప్రమేయం"
 
 #: kdeui/kkeydialog.cpp:406
@@ -5012,9 +4894,8 @@ msgid "Hungarian"
 msgstr "హంగేరియన్"
 
 #: kdeui/ksconfig.cpp:358
-msgid ""
-"_: Unknown ispell dictionary\n"
-"Unknown"
+msgctxt "Unknown ispell dictionary"
+msgid "Unknown"
 msgstr "తెలియనిది"
 
 #: kdeui/ksconfig.cpp:440 kdeui/ksconfig.cpp:590
@@ -5022,9 +4903,8 @@ msgid "ISpell Default"
 msgstr "ప్రారంభ ఐస్పెల్"
 
 #: kdeui/ksconfig.cpp:486 kdeui/ksconfig.cpp:636
-msgid ""
-"_: default spelling dictionary\n"
-"Default - %1 [%2]"
+msgctxt "default spelling dictionary"
+msgid "Default - %1 [%2]"
 msgstr "అప్రమెయం - %1 [%2]"
 
 #: kdeui/ksconfig.cpp:506 kdeui/ksconfig.cpp:662
@@ -5033,9 +4913,8 @@ msgstr "ప్రారంభ ఎస్పెల్"
 
 #: kdeui/ksconfig.cpp:569 kdeui/ksconfig.cpp:725
 #, c-format
-msgid ""
-"_: default spelling dictionary\n"
-"Default - %1"
+msgctxt "default spelling dictionary"
+msgid "Default - %1"
 msgstr "అప్రమెయం - %1"
 
 #: kdeui/kfontrequester.cpp:38
@@ -5232,8 +5111,8 @@ msgid "&Selected:"
 msgstr "(&S) ఎన్నుకోబడిన:"
 
 #: kdeui/kcharselect.cpp:366
+msgctxt "Character"
 msgid ""
-"_: Character\n"
 "<qt><font size=\"+4\" face=\"%1\">%2</font>"
 "<br>Unicode code point: U+%3"
 "<br>(In decimal: %4)"
@@ -5365,9 +5244,8 @@ msgid "K Desktop Environment. Release %1"
 msgstr "కె రంగస్థల పర్యావరణం. విడుదల %1"
 
 #: kdeui/kaboutkde.cpp:83
-msgid ""
-"_: About KDE\n"
-"&About"
+msgctxt "About KDE"
+msgid "&About"
 msgstr "(&A) గురించి"
 
 #: kdeui/kaboutkde.cpp:84
@@ -5456,9 +5334,8 @@ msgid "Clear the input in the edit field"
 msgstr "ఎడిట్ ఫీల్ద్ లొవున్న మూలాంశమును చెరిపివేయుము"
 
 #: kdeui/kstdaction.cpp:62 kdeui/kstdguiitem.cpp:168
-msgid ""
-"_: show help\n"
-"&Help"
+msgctxt "show help"
+msgid "&Help"
 msgstr "(&H) సహాయము"
 
 #: kdeui/kstdguiitem.cpp:169
@@ -5474,9 +5351,8 @@ msgid "Reset all items to their default values"
 msgstr ""
 
 #: kdeui/kstdaction.cpp:51 kdeui/kstdguiitem.cpp:188
-msgid ""
-"_: go back\n"
-"&Back"
+msgctxt "go back"
+msgid "&Back"
 msgstr "(&B) వెనుకకు"
 
 #: kdeui/kstdguiitem.cpp:189
@@ -5484,9 +5360,8 @@ msgid "Go back one step"
 msgstr "ఒక అడుగు వెనుకకు వెళ్ళు"
 
 #: kdeui/kstdaction.cpp:56 kdeui/kstdguiitem.cpp:196
-msgid ""
-"_: go forward\n"
-"&Forward"
+msgctxt "go forward"
+msgid "&Forward"
 msgstr "(&F) ముందుకు"
 
 #: kdeui/kstdguiitem.cpp:197
@@ -5526,9 +5401,8 @@ msgid "Reset configuration"
 msgstr ""
 
 #: kdeui/kstdguiitem.cpp:244
-msgid ""
-"_: Verb\n"
-"&Insert"
+msgctxt "Verb"
+msgid "&Insert"
 msgstr "(&I) దూర్చు"
 
 #: kdeui/kstdguiitem.cpp:249
@@ -5714,39 +5588,33 @@ msgid "ActionList: %1"
 msgstr "చర్యలజాబితా: %1"
 
 #: kdeui/kcolordialog.cpp:84
-msgid ""
-"_: palette name\n"
-"* Recent Colors *"
+msgctxt "palette name"
+msgid "* Recent Colors *"
 msgstr "ఇటీవలి రంగులు"
 
 #: kdeui/kcolordialog.cpp:85
-msgid ""
-"_: palette name\n"
-"* Custom Colors *"
+msgctxt "palette name"
+msgid "* Custom Colors *"
 msgstr "నిర్దేశించిన రంగులు"
 
 #: kdeui/kcolordialog.cpp:86
-msgid ""
-"_: palette name\n"
-"Forty Colors"
+msgctxt "palette name"
+msgid "Forty Colors"
 msgstr "నలభై రంగులు"
 
 #: kdeui/kcolordialog.cpp:87
-msgid ""
-"_: palette name\n"
-"Rainbow Colors"
+msgctxt "palette name"
+msgid "Rainbow Colors"
 msgstr "ఇంద్రధనసు రంగులు"
 
 #: kdeui/kcolordialog.cpp:88
-msgid ""
-"_: palette name\n"
-"Royal Colors"
+msgctxt "palette name"
+msgid "Royal Colors"
 msgstr "రాయల్ రంగులు"
 
 #: kdeui/kcolordialog.cpp:89
-msgid ""
-"_: palette name\n"
-"Web Colors"
+msgctxt "palette name"
+msgid "Web Colors"
 msgstr "వెబ్ రంగులు"
 
 #: kdeui/kcolordialog.cpp:563
@@ -5809,9 +5677,8 @@ msgid "-unnamed-"
 msgstr "-పేరు పెట్టని-"
 
 #: kdeui/kstdaction.cpp:61
-msgid ""
-"_: beginning (of line)\n"
-"&Home"
+msgctxt "beginning (of line)"
+msgid "&Home"
 msgstr "(&H) గృహము"
 
 #: kdeui/kstdaction.cpp:240
@@ -5909,12 +5776,10 @@ msgstr "ఖాళి పాస్ వర్డ్"
 
 #: kdeui/kpassdlg.cpp:614
 #, c-format
-msgid ""
-"_n: Password must be at least 1 character long\n"
-"Password must be at least %n characters long"
-msgstr ""
-"పాస్ వర్డ్ కనీసం 1 అక్షరంమైనా వుండాలి\n"
-"పాస్ వర్డ్ కనీసం %n అక్షరములు వుండాలి"
+msgid "Password must be at least 1 character long"
+msgid_plural "Password must be at least %1 characters long"
+msgstr[0] "పాస్ వర్డ్ కనీసం 1 అక్షరంమైనా వుండాలి"
+msgstr[1] "పాస్ వర్డ్ కనీసం %1 అక్షరములు వుండాలి"
 
 #: kdeui/kpassdlg.cpp:616
 msgid "Passwords match"
@@ -6067,9 +5932,8 @@ msgid "Grave"
 msgstr "ముఖ్యమైన"
 
 #: kdeui/kbugreport.cpp:212
-msgid ""
-"_: normal severity\n"
-"Normal"
+msgctxt "normal severity"
+msgid "Normal"
 msgstr "సాధారణ"
 
 #: kdeui/kbugreport.cpp:212
@@ -6112,9 +5976,8 @@ msgid "&Launch Bug Report Wizard"
 msgstr ""
 
 #: kdeui/kbugreport.cpp:298
-msgid ""
-"_: unknown program name\n"
-"unknown"
+msgctxt "unknown program name"
+msgid "unknown"
 msgstr "తెలియని"
 
 #: kdeui/kbugreport.cpp:376
@@ -6195,15 +6058,13 @@ msgid "Rotate &Counterclockwise"
 msgstr "(&C) అపసవ్య దిశలొ తిప్పు"
 
 #: kdeui/kdockwidget.cpp:237
-msgid ""
-"_: Freeze the window geometry\n"
-"Freeze"
+msgctxt "Freeze the window geometry"
+msgid "Freeze"
 msgstr ""
 
 #: kdeui/kdockwidget.cpp:244
-msgid ""
-"_: Dock this window\n"
-"Dock"
+msgctxt "Dock this window"
+msgid "Dock"
 msgstr "జత చేయి"
 
 #: kdeui/kdockwidget.cpp:251
@@ -6215,9 +6076,8 @@ msgid "&Back"
 msgstr "(&B) వెనుకకు"
 
 #: kdeui/kwizard.cpp:49
-msgid ""
-"_: Opposite to Back\n"
-"&Next"
+msgctxt "Opposite to Back"
+msgid "&Next"
 msgstr "(&N) తరువాత"
 
 #: kdeui/khelpmenu.cpp:125 kdeui/kstdaction_p.h:108
@@ -6258,9 +6118,8 @@ msgid "All Visible Columns"
 msgstr "అన్ని కనిపించె నిలువు వరుసలు"
 
 #: kdeui/klistviewsearchline.cpp:260
-msgid ""
-"_: Column number %1\n"
-"Column No. %1"
+msgctxt "Column number %1"
+msgid "Column No. %1"
 msgstr "నిలువు వరుస సం. %1"
 
 #: kdeui/klistviewsearchline.cpp:455
@@ -6286,39 +6145,33 @@ msgid "Toolbar Menu"
 msgstr ""
 
 #: kdeui/ktoolbar.cpp:2043
-msgid ""
-"_: toolbar position string\n"
-"Top"
+msgctxt "toolbar position string"
+msgid "Top"
 msgstr "పైన"
 
 #: kdeui/ktoolbar.cpp:2044
-msgid ""
-"_: toolbar position string\n"
-"Left"
+msgctxt "toolbar position string"
+msgid "Left"
 msgstr "ఎడమ"
 
 #: kdeui/ktoolbar.cpp:2045
-msgid ""
-"_: toolbar position string\n"
-"Right"
+msgctxt "toolbar position string"
+msgid "Right"
 msgstr "కుడి"
 
 #: kdeui/ktoolbar.cpp:2046
-msgid ""
-"_: toolbar position string\n"
-"Bottom"
+msgctxt "toolbar position string"
+msgid "Bottom"
 msgstr "క్రింద"
 
 #: kdeui/ktoolbar.cpp:2048
-msgid ""
-"_: toolbar position string\n"
-"Floating"
+msgctxt "toolbar position string"
+msgid "Floating"
 msgstr "తేలుతు"
 
 #: kdeui/ktoolbar.cpp:2049
-msgid ""
-"_: min toolbar\n"
-"Flat"
+msgctxt "min toolbar"
+msgid "Flat"
 msgstr "చదును"
 
 #: kdeui/ktoolbar.cpp:2052
@@ -6758,9 +6611,8 @@ msgid "Automatic Detection"
 msgstr ""
 
 #: khtml/khtml_part.cpp:302
-msgid ""
-"_: short for Manual Detection\n"
-"Manual"
+msgctxt "short for Manual Detection"
+msgid "Manual"
 msgstr "మెన్యువల్"
 
 #: khtml/khtml_part.cpp:357
@@ -6921,12 +6773,10 @@ msgid "Page loaded."
 msgstr "పుట ఎక్కించబడినది."
 
 #: khtml/khtml_part.cpp:2137
-msgid ""
-"_n: %n Image of %1 loaded.\n"
-"%n Images of %1 loaded."
-msgstr ""
-"%1 చిత్రంలో %n ఎక్కించబడింది.\n"
-"%1 చిత్రాలలో %n ఎక్కించబడినవి"
+msgid "%1 Image of %2 loaded."
+msgid_plural "%1 Images of %2 loaded."
+msgstr[0] "%2 చిత్రంలో %1 ఎక్కించబడింది."
+msgstr[1] "%2 చిత్రాలలో %1 ఎక్కించబడినవి"
 
 #: khtml/khtml_part.cpp:3737 khtml/khtml_part.cpp:3824
 #: khtml/khtml_part.cpp:3835
@@ -7102,12 +6952,10 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:7412
 #, c-format
-msgid ""
-"_n: &Show Blocked Popup Window\n"
-"Show %n Blocked Popup Windows"
-msgstr ""
-"(&S) ఆపివేయబడిన పాప్ అప్ విండొను చూపు\n"
-"%n ఆపివేయబడిన పాప్ అప్ విండొలను చూపు"
+msgid "&Show Blocked Popup Window"
+msgid_plural "Show %1 Blocked Popup Windows"
+msgstr[0] "(&S) ఆపివేయబడిన పాప్ అప్ విండొను చూపు"
+msgstr[1] "%1 ఆపివేయబడిన పాప్ అప్ విండొలను చూపు"
 
 #: khtml/khtml_part.cpp:7413
 msgid "Show Blocked Window Passive Popup &Notification"
@@ -7199,9 +7047,8 @@ msgid "JavaScript console"
 msgstr "జావాస్క్రిప్ట్ కంసోల్"
 
 #: khtml/ecma/kjs_debugwin.cpp:448
-msgid ""
-"_: Next breakpoint\n"
-"&Next"
+msgctxt "Next breakpoint"
+msgid "&Next"
 msgstr "(&N) తర్వాత"
 
 #: khtml/ecma/kjs_debugwin.cpp:450
@@ -7217,9 +7064,8 @@ msgid "&Break at Next Statement"
 msgstr "(&B) తరువాతి ప్రవచనం వద్ద ఆగుము"
 
 #: khtml/ecma/kjs_debugwin.cpp:463
-msgid ""
-"_: Next breakpoint\n"
-"Next"
+msgctxt "Next breakpoint"
+msgid "Next"
 msgstr "తరువాత"
 
 #: khtml/ecma/kjs_debugwin.cpp:464
@@ -8075,12 +7921,10 @@ msgstr "వచనం ప్రతిస్థాపించబడలేదు."
 
 #: kutils/kreplace.cpp:107 kutils/kreplace.cpp:302
 #, c-format
-msgid ""
-"_n: 1 replacement done.\n"
-"%n replacements done."
-msgstr ""
-"1 ప్రతిస్థాపణ జరిగినది.\n"
-"%n ప్రతిస్థాపణలు జరిగినవి."
+msgid "1 replacement done."
+msgid_plural "%1 replacements done."
+msgstr[0] "1 ప్రతిస్థాపణ జరిగినది."
+msgstr[1] "%1 ప్రతిస్థాపణలు జరిగినవి."
 
 #: kutils/kfind.cpp:650 kutils/kreplace.cpp:307
 msgid "Beginning of document reached."
@@ -8144,10 +7988,10 @@ msgstr ""
 
 #: kutils/kreplacedialog.cpp:145
 #, c-format
-msgid ""
-"_n: but your pattern only defines 1 capture.\n"
-"but your pattern only defines %n captures."
-msgstr ""
+msgid "but your pattern only defines 1 capture."
+msgid_plural "but your pattern only defines %1 captures."
+msgstr[0] ""
+msgstr[1] ""
 
 #: kutils/kreplacedialog.cpp:146
 msgid "but your pattern defines no captures."
@@ -8167,12 +8011,10 @@ msgstr ""
 
 #: kutils/kfind.cpp:623 kutils/kfind.cpp:643
 #, c-format
-msgid ""
-"_n: 1 match found.\n"
-"%n matches found."
-msgstr ""
-"1 జత కనపడింది.\n"
-"%n జతలు కనపడినవి."
+msgid "1 match found."
+msgid_plural "%1 matches found."
+msgstr[0] "1 జత కనపడింది."
+msgstr[1] "%1 జతలు కనపడినవి."
 
 #: kutils/kfind.cpp:625
 msgid "<qt>No matches found for '<b>%1</b>'.</qt>"
@@ -8208,9 +8050,8 @@ msgstr ""
 
 #: kutils/kcmoduleproxy.cpp:251
 #, c-format
-msgid ""
-"_: Argument is application name\n"
-"This configuration section is already opened in %1"
+msgctxt "Argument is application name"
+msgid "This configuration section is already opened in %1"
 msgstr ""
 
 #: kutils/kcmoduleproxy.cpp:324
@@ -8347,9 +8188,8 @@ msgid "City"
 msgstr "వూరు"
 
 #: kab/addressbook.cc:208
-msgid ""
-"_: As in addresses\n"
-"State"
+msgctxt "As in addresses"
+msgid "State"
 msgstr "రాష్ట్రము"
 
 #: kab/addressbook.cc:267
@@ -9303,57 +9143,48 @@ msgid "Select Font"
 msgstr "అక్షరరూపము ఎంచుకొనుము"
 
 #: dialogs/qmessagebox.cpp:456
-msgid ""
-"_: QMessageBox\n"
-"OK"
+msgctxt "QMessageBox"
+msgid "OK"
 msgstr "సరే"
 
 #: dialogs/qmessagebox.cpp:457
-msgid ""
-"_: QMessageBox\n"
-"Cancel"
+msgctxt "QMessageBox"
+msgid "Cancel"
 msgstr "రద్దు"
 
 #: dialogs/qmessagebox.cpp:458
-msgid ""
-"_: QMessageBox\n"
-"&Yes"
+msgctxt "QMessageBox"
+msgid "&Yes"
 msgstr "(&Y) ఔను"
 
 #: dialogs/qmessagebox.cpp:459
-msgid ""
-"_: QMessageBox\n"
-"&No"
+msgctxt "QMessageBox"
+msgid "&No"
 msgstr "(&N) కాదు"
 
 #: dialogs/qmessagebox.cpp:460
-msgid ""
-"_: QMessageBox\n"
-"&Abort"
+msgctxt "QMessageBox"
+msgid "&Abort"
 msgstr "(&A) వదిలిపెట్టుము"
 
 #: dialogs/qmessagebox.cpp:461
-msgid ""
-"_: QMessageBox\n"
-"&Retry"
+msgctxt "QMessageBox"
+msgid "&Retry"
 msgstr "(&R) మరల ప్రయత్నించుము"
 
 #: dialogs/qmessagebox.cpp:462
-msgid ""
-"_: QMessageBox\n"
-"&Ignore"
+msgctxt "QMessageBox"
+msgid "&Ignore"
 msgstr "(&I) విస్మరించండి"
 
 #: dialogs/qmessagebox.cpp:463
-msgid ""
-"_: QMessageBox\n"
-"Yes to &All"
+msgctxt "QMessageBox"
+msgid "Yes to &All"
 msgstr "(&A) అన్నిటికీ ఔను"
 
 #: dialogs/qmessagebox.cpp:464
-msgid ""
-"_: QMessageBox\n"
-"N&o to All"
+msgctxt "QMessageBox"
+msgid "N&o to All"
 msgstr "(&o) అన్నిటికీ కాదు"
 
 #: dialogs/qmessagebox.cpp:588
@@ -9405,809 +9236,676 @@ msgid "Ambiguous \"%1\" not handled"
 msgstr "సందిగ్దమైన \"%1\" మార్చబడవు"
 
 #: kernel/qapplication.cpp:2896
+msgctxt "QT_LAYOUT_DIRECTION"
 msgid ""
-"_: QT_LAYOUT_DIRECTION\n"
 "Translate this string to the string 'LTR' in left-to-right languages or to "
 "'RTL' in right-to-left languages (such as Hebrew and Arabic) to get proper "
 "widget layout."
 msgstr "LTR"
 
 #: kernel/qfontdatabase.cpp:1956
-msgid ""
-"_: QFont\n"
-"Latin"
+msgctxt "QFont"
+msgid "Latin"
 msgstr "లాటిన్"
 
 #: kernel/qfontdatabase.cpp:1959
-msgid ""
-"_: QFont\n"
-"Greek"
+msgctxt "QFont"
+msgid "Greek"
 msgstr "గ్రీకు"
 
 #: kernel/qfontdatabase.cpp:1962
-msgid ""
-"_: QFont\n"
-"Cyrillic"
+msgctxt "QFont"
+msgid "Cyrillic"
 msgstr "సిరిల్లిక్"
 
 #: kernel/qfontdatabase.cpp:1965
-msgid ""
-"_: QFont\n"
-"Armenian"
+msgctxt "QFont"
+msgid "Armenian"
 msgstr "అర్మెనియన్"
 
 #: kernel/qfontdatabase.cpp:1968
-msgid ""
-"_: QFont\n"
-"Georgian"
+msgctxt "QFont"
+msgid "Georgian"
 msgstr "జార్జియన్"
 
 #: kernel/qfontdatabase.cpp:1971
-msgid ""
-"_: QFont\n"
-"Runic"
+msgctxt "QFont"
+msgid "Runic"
 msgstr "రూనిక్"
 
 #: kernel/qfontdatabase.cpp:1974
-msgid ""
-"_: QFont\n"
-"Ogham"
+msgctxt "QFont"
+msgid "Ogham"
 msgstr "ఒఘామ్"
 
 #: kernel/qfontdatabase.cpp:1977
-msgid ""
-"_: QFont\n"
-"SpacingModifiers"
+msgctxt "QFont"
+msgid "SpacingModifiers"
 msgstr "ఖాళిలు సవరించేవి"
 
 #: kernel/qfontdatabase.cpp:1980
-msgid ""
-"_: QFont\n"
-"CombiningMarks"
+msgctxt "QFont"
+msgid "CombiningMarks"
 msgstr "కూర్చే గుర్తులు"
 
 #: kernel/qfontdatabase.cpp:1983
-msgid ""
-"_: QFont\n"
-"Hebrew"
+msgctxt "QFont"
+msgid "Hebrew"
 msgstr "హీబ్రూ"
 
 #: kernel/qfontdatabase.cpp:1986
-msgid ""
-"_: QFont\n"
-"Arabic"
+msgctxt "QFont"
+msgid "Arabic"
 msgstr "అరాబిక్"
 
 #: kernel/qfontdatabase.cpp:1989
-msgid ""
-"_: QFont\n"
-"Syriac"
+msgctxt "QFont"
+msgid "Syriac"
 msgstr "సిరియాక్"
 
 #: kernel/qfontdatabase.cpp:1992
-msgid ""
-"_: QFont\n"
-"Thaana"
+msgctxt "QFont"
+msgid "Thaana"
 msgstr "తానా"
 
 #: kernel/qfontdatabase.cpp:1995
-msgid ""
-"_: QFont\n"
-"Devanagari"
+msgctxt "QFont"
+msgid "Devanagari"
 msgstr "దేవనాగరి"
 
 #: kernel/qfontdatabase.cpp:1998
-msgid ""
-"_: QFont\n"
-"Bengali"
+msgctxt "QFont"
+msgid "Bengali"
 msgstr "బెంగాలి"
 
 #: kernel/qfontdatabase.cpp:2001
-msgid ""
-"_: QFont\n"
-"Gurmukhi"
+msgctxt "QFont"
+msgid "Gurmukhi"
 msgstr "గుర్ముఖి"
 
 #: kernel/qfontdatabase.cpp:2004
-msgid ""
-"_: QFont\n"
-"Gujarati"
+msgctxt "QFont"
+msgid "Gujarati"
 msgstr "గుజరాతి"
 
 #: kernel/qfontdatabase.cpp:2007
-msgid ""
-"_: QFont\n"
-"Oriya"
+msgctxt "QFont"
+msgid "Oriya"
 msgstr "ఒరియా"
 
 #: kernel/qfontdatabase.cpp:2010
-msgid ""
-"_: QFont\n"
-"Tamil"
+msgctxt "QFont"
+msgid "Tamil"
 msgstr "తమిళం"
 
 #: kernel/qfontdatabase.cpp:2013
-msgid ""
-"_: QFont\n"
-"Telugu"
+msgctxt "QFont"
+msgid "Telugu"
 msgstr "తెలుగు"
 
 #: kernel/qfontdatabase.cpp:2016
-msgid ""
-"_: QFont\n"
-"Kannada"
+msgctxt "QFont"
+msgid "Kannada"
 msgstr "కన్నడ"
 
 #: kernel/qfontdatabase.cpp:2019
-msgid ""
-"_: QFont\n"
-"Malayalam"
+msgctxt "QFont"
+msgid "Malayalam"
 msgstr "మలయాళం"
 
 #: kernel/qfontdatabase.cpp:2022
-msgid ""
-"_: QFont\n"
-"Sinhala"
+msgctxt "QFont"
+msgid "Sinhala"
 msgstr "సింహళ"
 
 #: kernel/qfontdatabase.cpp:2025
-msgid ""
-"_: QFont\n"
-"Thai"
+msgctxt "QFont"
+msgid "Thai"
 msgstr "థాయి"
 
 #: kernel/qfontdatabase.cpp:2028
-msgid ""
-"_: QFont\n"
-"Lao"
+msgctxt "QFont"
+msgid "Lao"
 msgstr "లాఓ"
 
 #: kernel/qfontdatabase.cpp:2031
-msgid ""
-"_: QFont\n"
-"Tibetan"
+msgctxt "QFont"
+msgid "Tibetan"
 msgstr "టిబెటియన్"
 
 #: kernel/qfontdatabase.cpp:2034
-msgid ""
-"_: QFont\n"
-"Myanmar"
+msgctxt "QFont"
+msgid "Myanmar"
 msgstr "మ్యాన్మార్"
 
 #: kernel/qfontdatabase.cpp:2037
-msgid ""
-"_: QFont\n"
-"Khmer"
+msgctxt "QFont"
+msgid "Khmer"
 msgstr "ఖ్మేర్"
 
 #: kernel/qfontdatabase.cpp:2040
-msgid ""
-"_: QFont\n"
-"Han"
+msgctxt "QFont"
+msgid "Han"
 msgstr "హాణ్"
 
 #: kernel/qfontdatabase.cpp:2043
-msgid ""
-"_: QFont\n"
-"Hiragana"
+msgctxt "QFont"
+msgid "Hiragana"
 msgstr "హిరాగణ"
 
 #: kernel/qfontdatabase.cpp:2046
-msgid ""
-"_: QFont\n"
-"Katakana"
+msgctxt "QFont"
+msgid "Katakana"
 msgstr "కటాకనా"
 
 #: kernel/qfontdatabase.cpp:2049
-msgid ""
-"_: QFont\n"
-"Hangul"
+msgctxt "QFont"
+msgid "Hangul"
 msgstr "హాంగుల్"
 
 #: kernel/qfontdatabase.cpp:2052
-msgid ""
-"_: QFont\n"
-"Bopomofo"
+msgctxt "QFont"
+msgid "Bopomofo"
 msgstr "బొపొమొఫొ"
 
 #: kernel/qfontdatabase.cpp:2055
-msgid ""
-"_: QFont\n"
-"Yi"
+msgctxt "QFont"
+msgid "Yi"
 msgstr "యీ"
 
 #: kernel/qfontdatabase.cpp:2058
-msgid ""
-"_: QFont\n"
-"Ethiopic"
+msgctxt "QFont"
+msgid "Ethiopic"
 msgstr "ఇథియోపిక్"
 
 #: kernel/qfontdatabase.cpp:2061
-msgid ""
-"_: QFont\n"
-"Cherokee"
+msgctxt "QFont"
+msgid "Cherokee"
 msgstr "చెరోకీ"
 
 #: kernel/qfontdatabase.cpp:2064
-msgid ""
-"_: QFont\n"
-"Canadian Aboriginal"
+msgctxt "QFont"
+msgid "Canadian Aboriginal"
 msgstr "ఆదివాసీ కెనేడియన్"
 
 #: kernel/qfontdatabase.cpp:2067
-msgid ""
-"_: QFont\n"
-"Mongolian"
+msgctxt "QFont"
+msgid "Mongolian"
 msgstr "మంగోలియన్"
 
 #: kernel/qfontdatabase.cpp:2071
-msgid ""
-"_: QFont\n"
-"Currency Symbols"
+msgctxt "QFont"
+msgid "Currency Symbols"
 msgstr "డబ్బు చిహ్నాలు"
 
 #: kernel/qfontdatabase.cpp:2075
-msgid ""
-"_: QFont\n"
-"Letterlike Symbols"
+msgctxt "QFont"
+msgid "Letterlike Symbols"
 msgstr "అక్షరాలువంటి చిహ్నాలు"
 
 #: kernel/qfontdatabase.cpp:2079
-msgid ""
-"_: QFont\n"
-"Number Forms"
+msgctxt "QFont"
+msgid "Number Forms"
 msgstr "సంఖ్యా రూపములు"
 
 #: kernel/qfontdatabase.cpp:2083
-msgid ""
-"_: QFont\n"
-"Mathematical Operators"
+msgctxt "QFont"
+msgid "Mathematical Operators"
 msgstr "గణితాత్మక పరికర్తలు"
 
 #: kernel/qfontdatabase.cpp:2087
-msgid ""
-"_: QFont\n"
-"Technical Symbols"
+msgctxt "QFont"
+msgid "Technical Symbols"
 msgstr "సాంక్యేతిక చిహ్నాలు"
 
 #: kernel/qfontdatabase.cpp:2091
-msgid ""
-"_: QFont\n"
-"Geometric Symbols"
+msgctxt "QFont"
+msgid "Geometric Symbols"
 msgstr "జ్యామితీయ చిహ్నాలు"
 
 #: kernel/qfontdatabase.cpp:2095
-msgid ""
-"_: QFont\n"
-"Miscellaneous Symbols"
+msgctxt "QFont"
+msgid "Miscellaneous Symbols"
 msgstr "ఇతర చిహ్నాలు"
 
 #: kernel/qfontdatabase.cpp:2099
-msgid ""
-"_: QFont\n"
-"Enclosed and Square"
+msgctxt "QFont"
+msgid "Enclosed and Square"
 msgstr "చుట్టుకొబడినది మరయూ చతురస్రమైనది"
 
 #: kernel/qfontdatabase.cpp:2103
-msgid ""
-"_: QFont\n"
-"Braille"
+msgctxt "QFont"
+msgid "Braille"
 msgstr "బ్రేయిలి"
 
 #: kernel/qfontdatabase.cpp:2107
-msgid ""
-"_: QFont\n"
-"Unicode"
+msgctxt "QFont"
+msgid "Unicode"
 msgstr "యూనికోడ్"
 
 #: kernel/qfontdatabase.cpp:2111
-msgid ""
-"_: QFont\n"
-"Tagalog"
+msgctxt "QFont"
+msgid "Tagalog"
 msgstr "టగలొగ్"
 
 #: kernel/qfontdatabase.cpp:2115
-msgid ""
-"_: QFont\n"
-"Hanunoo"
+msgctxt "QFont"
+msgid "Hanunoo"
 msgstr "హనునూ"
 
 #: kernel/qfontdatabase.cpp:2119
-msgid ""
-"_: QFont\n"
-"Buhid"
+msgctxt "QFont"
+msgid "Buhid"
 msgstr "బుహీద్"
 
 #: kernel/qfontdatabase.cpp:2123
-msgid ""
-"_: QFont\n"
-"Tagbanwa"
+msgctxt "QFont"
+msgid "Tagbanwa"
 msgstr "టగ్ బన్వా"
 
 #: kernel/qfontdatabase.cpp:2127
-msgid ""
-"_: QFont\n"
-"Katakana Half-Width Forms"
+msgctxt "QFont"
+msgid "Katakana Half-Width Forms"
 msgstr "కటాకనా సగం-వెడల్పు రూపములు"
 
 #: kernel/qfontdatabase.cpp:2131
-msgid ""
-"_: QFont\n"
-"Han (Japanese)"
+msgctxt "QFont"
+msgid "Han (Japanese)"
 msgstr "హాణ్ (జాపనీస్)"
 
 #: kernel/qfontdatabase.cpp:2135
-msgid ""
-"_: QFont\n"
-"Han (Simplified Chinese)"
+msgctxt "QFont"
+msgid "Han (Simplified Chinese)"
 msgstr "హణ్ (సరళించిన చైనీస్)"
 
 #: kernel/qfontdatabase.cpp:2139
-msgid ""
-"_: QFont\n"
-"Han (Traditional Chinese)"
+msgctxt "QFont"
+msgid "Han (Traditional Chinese)"
 msgstr "హణ్ (సాంప్రదాయ చైనీస్)"
 
 #: kernel/qfontdatabase.cpp:2143
-msgid ""
-"_: QFont\n"
-"Han (Korean)"
+msgctxt "QFont"
+msgid "Han (Korean)"
 msgstr "హాణ్ (కొరియన్)"
 
 #: kernel/qfontdatabase.cpp:2147
-msgid ""
-"_: QFont\n"
-"Unknown Script"
+msgctxt "QFont"
+msgid "Unknown Script"
 msgstr "తెలియని లిపి"
 
 #: kernel/qkeysequence.cpp:93
-msgid ""
-"_: QAccel\n"
-"Space"
+msgctxt "QAccel"
+msgid "Space"
 msgstr "ఖాళి"
 
 #: kernel/qkeysequence.cpp:94
-msgid ""
-"_: QAccel\n"
-"Esc"
+msgctxt "QAccel"
+msgid "Esc"
 msgstr "Esc"
 
 #: kernel/qkeysequence.cpp:95
-msgid ""
-"_: QAccel\n"
-"Tab"
+msgctxt "QAccel"
+msgid "Tab"
 msgstr "టాబ్"
 
 #: kernel/qkeysequence.cpp:96
-msgid ""
-"_: QAccel\n"
-"Backtab"
+msgctxt "QAccel"
+msgid "Backtab"
 msgstr "Backtab"
 
 #: kernel/qkeysequence.cpp:97
-msgid ""
-"_: QAccel\n"
-"Backspace"
+msgctxt "QAccel"
+msgid "Backspace"
 msgstr "Backspace"
 
 #: kernel/qkeysequence.cpp:98
-msgid ""
-"_: QAccel\n"
-"Return"
+msgctxt "QAccel"
+msgid "Return"
 msgstr "Return"
 
 #: kernel/qkeysequence.cpp:99
-msgid ""
-"_: QAccel\n"
-"Enter"
+msgctxt "QAccel"
+msgid "Enter"
 msgstr "ఎంటర్"
 
 #: kernel/qkeysequence.cpp:100
-msgid ""
-"_: QAccel\n"
-"Ins"
+msgctxt "QAccel"
+msgid "Ins"
 msgstr "Ins"
 
 #: kernel/qkeysequence.cpp:101
-msgid ""
-"_: QAccel\n"
-"Del"
+msgctxt "QAccel"
+msgid "Del"
 msgstr "Del"
 
 #: kernel/qkeysequence.cpp:102
-msgid ""
-"_: QAccel\n"
-"Pause"
+msgctxt "QAccel"
+msgid "Pause"
 msgstr "Pause"
 
 #: kernel/qkeysequence.cpp:103
-msgid ""
-"_: QAccel\n"
-"Print"
+msgctxt "QAccel"
+msgid "Print"
 msgstr "ప్రచురించు"
 
 #: kernel/qkeysequence.cpp:104
-msgid ""
-"_: QAccel\n"
-"SysReq"
+msgctxt "QAccel"
+msgid "SysReq"
 msgstr "SysReq"
 
 #: kernel/qkeysequence.cpp:105 kernel/qkeysequence.cpp:137
-msgid ""
-"_: QAccel\n"
-"Home"
+msgctxt "QAccel"
+msgid "Home"
 msgstr "Home"
 
 #: kernel/qkeysequence.cpp:106
-msgid ""
-"_: QAccel\n"
-"End"
+msgctxt "QAccel"
+msgid "End"
 msgstr "End"
 
 #: kernel/qkeysequence.cpp:107
-msgid ""
-"_: QAccel\n"
-"Left"
+msgctxt "QAccel"
+msgid "Left"
 msgstr "ఎడమ"
 
 #: kernel/qkeysequence.cpp:108
-msgid ""
-"_: QAccel\n"
-"Up"
+msgctxt "QAccel"
+msgid "Up"
 msgstr "పైన"
 
 #: kernel/qkeysequence.cpp:109
-msgid ""
-"_: QAccel\n"
-"Right"
+msgctxt "QAccel"
+msgid "Right"
 msgstr "కుడి"
 
 #: kernel/qkeysequence.cpp:110
-msgid ""
-"_: QAccel\n"
-"Down"
+msgctxt "QAccel"
+msgid "Down"
 msgstr "క్రింద"
 
 #: kernel/qkeysequence.cpp:111
-msgid ""
-"_: QAccel\n"
-"PgUp"
+msgctxt "QAccel"
+msgid "PgUp"
 msgstr "PgUp"
 
 #: kernel/qkeysequence.cpp:112
-msgid ""
-"_: QAccel\n"
-"PgDown"
+msgctxt "QAccel"
+msgid "PgDown"
 msgstr "PgDown"
 
 #: kernel/qkeysequence.cpp:113
-msgid ""
-"_: QAccel\n"
-"CapsLock"
+msgctxt "QAccel"
+msgid "CapsLock"
 msgstr "CapsLock"
 
 #: kernel/qkeysequence.cpp:114
-msgid ""
-"_: QAccel\n"
-"NumLock"
+msgctxt "QAccel"
+msgid "NumLock"
 msgstr "NumLock"
 
 #: kernel/qkeysequence.cpp:115
-msgid ""
-"_: QAccel\n"
-"ScrollLock"
+msgctxt "QAccel"
+msgid "ScrollLock"
 msgstr "ScrollLock"
 
 #: kernel/qkeysequence.cpp:116
-msgid ""
-"_: QAccel\n"
-"Menu"
+msgctxt "QAccel"
+msgid "Menu"
 msgstr "పట్టీ"
 
 #: kernel/qkeysequence.cpp:117
-msgid ""
-"_: QAccel\n"
-"Help"
+msgctxt "QAccel"
+msgid "Help"
 msgstr "సహాయం"
 
 #: kernel/qkeysequence.cpp:120
-msgid ""
-"_: QAccel\n"
-"Back"
+msgctxt "QAccel"
+msgid "Back"
 msgstr "వెనుక"
 
 #: kernel/qkeysequence.cpp:121
-msgid ""
-"_: QAccel\n"
-"Forward"
+msgctxt "QAccel"
+msgid "Forward"
 msgstr "ముందు"
 
 #: kernel/qkeysequence.cpp:122
-msgid ""
-"_: QAccel\n"
-"Stop"
+msgctxt "QAccel"
+msgid "Stop"
 msgstr "ఆగు"
 
 #: kernel/qkeysequence.cpp:123
-msgid ""
-"_: QAccel\n"
-"Refresh"
+msgctxt "QAccel"
+msgid "Refresh"
 msgstr "రిఫ్రెష్"
 
 #: kernel/qkeysequence.cpp:124
-msgid ""
-"_: QAccel\n"
-"Volume Down"
+msgctxt "QAccel"
+msgid "Volume Down"
 msgstr "శబ్డం తగ్గించు"
 
 #: kernel/qkeysequence.cpp:125
-msgid ""
-"_: QAccel\n"
-"Volume Mute"
+msgctxt "QAccel"
+msgid "Volume Mute"
 msgstr "శబ్డం మ్యూట్"
 
 #: kernel/qkeysequence.cpp:126
-msgid ""
-"_: QAccel\n"
-"Volume Up"
+msgctxt "QAccel"
+msgid "Volume Up"
 msgstr "శబ్డం పెంచు"
 
 #: kernel/qkeysequence.cpp:127
-msgid ""
-"_: QAccel\n"
-"Bass Boost"
+msgctxt "QAccel"
+msgid "Bass Boost"
 msgstr "బాస్ బూస్ట్"
 
 #: kernel/qkeysequence.cpp:128
-msgid ""
-"_: QAccel\n"
-"Bass Up"
+msgctxt "QAccel"
+msgid "Bass Up"
 msgstr "బాస్ పెంచు"
 
 #: kernel/qkeysequence.cpp:129
-msgid ""
-"_: QAccel\n"
-"Bass Down"
+msgctxt "QAccel"
+msgid "Bass Down"
 msgstr "బాస్ తగ్గించు"
 
 #: kernel/qkeysequence.cpp:130
-msgid ""
-"_: QAccel\n"
-"Treble Up"
+msgctxt "QAccel"
+msgid "Treble Up"
 msgstr "ట్రెబిల్ పెంచు"
 
 #: kernel/qkeysequence.cpp:131
-msgid ""
-"_: QAccel\n"
-"Treble Down"
+msgctxt "QAccel"
+msgid "Treble Down"
 msgstr "ట్రెబిల్ తగ్గించు"
 
 #: kernel/qkeysequence.cpp:132
-msgid ""
-"_: QAccel\n"
-"Media Play"
+msgctxt "QAccel"
+msgid "Media Play"
 msgstr "మిడియా ప్లే"
 
 #: kernel/qkeysequence.cpp:133
-msgid ""
-"_: QAccel\n"
-"Media Stop"
+msgctxt "QAccel"
+msgid "Media Stop"
 msgstr "మిడియా ఆపు"
 
 #: kernel/qkeysequence.cpp:134
-msgid ""
-"_: QAccel\n"
-"Media Previous"
+msgctxt "QAccel"
+msgid "Media Previous"
 msgstr "మిడియా వెనుక"
 
 #: kernel/qkeysequence.cpp:135
-msgid ""
-"_: QAccel\n"
-"Media Next"
+msgctxt "QAccel"
+msgid "Media Next"
 msgstr "మిడియా తరువాత"
 
 #: kernel/qkeysequence.cpp:136
-msgid ""
-"_: QAccel\n"
-"Media Record"
+msgctxt "QAccel"
+msgid "Media Record"
 msgstr "మిడియా రికార్డ్"
 
 #: kernel/qkeysequence.cpp:138
-msgid ""
-"_: QAccel\n"
-"Favorites"
+msgctxt "QAccel"
+msgid "Favorites"
 msgstr "ఇష్టములు"
 
 #: kernel/qkeysequence.cpp:139
-msgid ""
-"_: QAccel\n"
-"Search"
+msgctxt "QAccel"
+msgid "Search"
 msgstr "అన్వేషణ"
 
 #: kernel/qkeysequence.cpp:140
-msgid ""
-"_: QAccel\n"
-"Standby"
+msgctxt "QAccel"
+msgid "Standby"
 msgstr "స్టేండ్ బై"
 
 #: kernel/qkeysequence.cpp:141
-msgid ""
-"_: QAccel\n"
-"Open URL"
+msgctxt "QAccel"
+msgid "Open URL"
 msgstr "యూఆర్ ఎల్ తెరువు"
 
 #: kernel/qkeysequence.cpp:142
-msgid ""
-"_: QAccel\n"
-"Launch Mail"
+msgctxt "QAccel"
+msgid "Launch Mail"
 msgstr "తపాలా ప్రారంభించు"
 
 #: kernel/qkeysequence.cpp:143
-msgid ""
-"_: QAccel\n"
-"Launch Media"
+msgctxt "QAccel"
+msgid "Launch Media"
 msgstr "మీడియా ప్రారంభించు"
 
 #: kernel/qkeysequence.cpp:144
-msgid ""
-"_: QAccel\n"
-"Launch (0)"
+msgctxt "QAccel"
+msgid "Launch (0)"
 msgstr "ప్రారంభించు (0)"
 
 #: kernel/qkeysequence.cpp:145
-msgid ""
-"_: QAccel\n"
-"Launch (1)"
+msgctxt "QAccel"
+msgid "Launch (1)"
 msgstr "ప్రారంభించు (1)"
 
 #: kernel/qkeysequence.cpp:146
-msgid ""
-"_: QAccel\n"
-"Launch (2)"
+msgctxt "QAccel"
+msgid "Launch (2)"
 msgstr "ప్రారంభించు (2)"
 
 #: kernel/qkeysequence.cpp:147
-msgid ""
-"_: QAccel\n"
-"Launch (3)"
+msgctxt "QAccel"
+msgid "Launch (3)"
 msgstr "ప్రారంభించు (3)"
 
 #: kernel/qkeysequence.cpp:148
-msgid ""
-"_: QAccel\n"
-"Launch (4)"
+msgctxt "QAccel"
+msgid "Launch (4)"
 msgstr "ప్రారంభించు (4)"
 
 #: kernel/qkeysequence.cpp:149
-msgid ""
-"_: QAccel\n"
-"Launch (5)"
+msgctxt "QAccel"
+msgid "Launch (5)"
 msgstr "ప్రారంభించు (5)"
 
 #: kernel/qkeysequence.cpp:150
-msgid ""
-"_: QAccel\n"
-"Launch (6)"
+msgctxt "QAccel"
+msgid "Launch (6)"
 msgstr "ప్రారంభించు (6)"
 
 #: kernel/qkeysequence.cpp:151
-msgid ""
-"_: QAccel\n"
-"Launch (7)"
+msgctxt "QAccel"
+msgid "Launch (7)"
 msgstr "ప్రారంభించు (7)"
 
 #: kernel/qkeysequence.cpp:152
-msgid ""
-"_: QAccel\n"
-"Launch (8)"
+msgctxt "QAccel"
+msgid "Launch (8)"
 msgstr "ప్రారంభించు (8)"
 
 #: kernel/qkeysequence.cpp:153
-msgid ""
-"_: QAccel\n"
-"Launch (9)"
+msgctxt "QAccel"
+msgid "Launch (9)"
 msgstr "ప్రారంభించు (9)"
 
 #: kernel/qkeysequence.cpp:154
-msgid ""
-"_: QAccel\n"
-"Launch (A)"
+msgctxt "QAccel"
+msgid "Launch (A)"
 msgstr "ప్రారంభించు (A)"
 
 #: kernel/qkeysequence.cpp:155
-msgid ""
-"_: QAccel\n"
-"Launch (B)"
+msgctxt "QAccel"
+msgid "Launch (B)"
 msgstr "ప్రారంభించు (B)"
 
 #: kernel/qkeysequence.cpp:156
-msgid ""
-"_: QAccel\n"
-"Launch (C)"
+msgctxt "QAccel"
+msgid "Launch (C)"
 msgstr "ప్రారంభించు (C)"
 
 #: kernel/qkeysequence.cpp:157
-msgid ""
-"_: QAccel\n"
-"Launch (D)"
+msgctxt "QAccel"
+msgid "Launch (D)"
 msgstr "ప్రారంభించు (D)"
 
 #: kernel/qkeysequence.cpp:158
-msgid ""
-"_: QAccel\n"
-"Launch (E)"
+msgctxt "QAccel"
+msgid "Launch (E)"
 msgstr "ప్రారంభించు (E)"
 
 #: kernel/qkeysequence.cpp:159
-msgid ""
-"_: QAccel\n"
-"Launch (F)"
+msgctxt "QAccel"
+msgid "Launch (F)"
 msgstr "ప్రారంభించు (F)"
 
 #: kernel/qkeysequence.cpp:163
-msgid ""
-"_: QAccel\n"
-"Print Screen"
+msgctxt "QAccel"
+msgid "Print Screen"
 msgstr "స్క్రీన్ ప్రచురించు"
 
 #: kernel/qkeysequence.cpp:164
-msgid ""
-"_: QAccel\n"
-"Page Up"
+msgctxt "QAccel"
+msgid "Page Up"
 msgstr "పుట పైకి"
 
 #: kernel/qkeysequence.cpp:165
-msgid ""
-"_: QAccel\n"
-"Page Down"
+msgctxt "QAccel"
+msgid "Page Down"
 msgstr "పుట క్రిందకు"
 
 #: kernel/qkeysequence.cpp:166
-msgid ""
-"_: QAccel\n"
-"Caps Lock"
+msgctxt "QAccel"
+msgid "Caps Lock"
 msgstr "Caps Lock"
 
 #: kernel/qkeysequence.cpp:167
-msgid ""
-"_: QAccel\n"
-"Num Lock"
+msgctxt "QAccel"
+msgid "Num Lock"
 msgstr "Num Lock"
 
 #: kernel/qkeysequence.cpp:168
-msgid ""
-"_: QAccel\n"
-"Number Lock"
+msgctxt "QAccel"
+msgid "Number Lock"
 msgstr "Number Lock"
 
 #: kernel/qkeysequence.cpp:169
-msgid ""
-"_: QAccel\n"
-"Scroll Lock"
+msgctxt "QAccel"
+msgid "Scroll Lock"
 msgstr "Scroll Lock"
 
 #: kernel/qkeysequence.cpp:170
-msgid ""
-"_: QAccel\n"
-"Insert"
+msgctxt "QAccel"
+msgid "Insert"
 msgstr "చేర్చు"
 
 #: kernel/qkeysequence.cpp:171
-msgid ""
-"_: QAccel\n"
-"Delete"
+msgctxt "QAccel"
+msgid "Delete"
 msgstr "తొలగించు"
 
 #: kernel/qkeysequence.cpp:172
-msgid ""
-"_: QAccel\n"
-"Escape"
+msgctxt "QAccel"
+msgid "Escape"
 msgstr "ఎస్కేప్"
 
 #: kernel/qkeysequence.cpp:173
-msgid ""
-"_: QAccel\n"
-"System Request"
+msgctxt "QAccel"
+msgid "System Request"
 msgstr "వ్యవస్థ రెక్వెస్ట్"
 
 #: kernel/qkeysequence.cpp:406 kernel/qkeysequence.cpp:484
@@ -10261,21 +9959,18 @@ msgid "Delete"
 msgstr "తొలగించు"
 
 #: tools/qfile.cpp:60
-msgid ""
-"_: QFile\n"
-"Unknown error"
+msgctxt "QFile"
+msgid "Unknown error"
 msgstr "తెలియని దోషము"
 
 #: tools/qfile.cpp:61
-msgid ""
-"_: QFile\n"
-"Could not read from the file"
+msgctxt "QFile"
+msgid "Could not read from the file"
 msgstr "దస్త్రం నుంచి చదవలేకపోతున్నా"
 
 #: tools/qfile.cpp:62
-msgid ""
-"_: QFile\n"
-"Could not write to the file"
+msgctxt "QFile"
+msgid "Could not write to the file"
 msgstr "దస్త్రం లో వ్రాయలేకపోతున్నా"
 
 #: widgets/qlineedit.cpp:2136 widgets/qtextedit.cpp:5471
@@ -10420,74 +10115,63 @@ msgid "&Unshade"
 msgstr "(&U) నీడ తొలగించుము"
 
 #: qxml_clean.cpp:54
-msgid ""
-"_: QXml\n"
-"no error occurred"
+msgctxt "QXml"
+msgid "no error occurred"
 msgstr "దోషాలు లేవు"
 
 #: qxml_clean.cpp:55
-msgid ""
-"_: QXml\n"
-"error triggered by consumer"
+msgctxt "QXml"
+msgid "error triggered by consumer"
 msgstr "వినియోగదారుడు వలన కలిగిన దోషం"
 
 #: qxml_clean.cpp:56
-msgid ""
-"_: QXml\n"
-"unexpected end of file"
+msgctxt "QXml"
+msgid "unexpected end of file"
 msgstr "ఊహించని  దస్త్రం ఎండ్"
 
 #: qxml_clean.cpp:57
-msgid ""
-"_: QXml\n"
-"more than one document type definition"
+msgctxt "QXml"
+msgid "more than one document type definition"
 msgstr "ఒకటి కన్న ఎక్కువ డాక్యుమెంట్ రకము నిర్వచనము"
 
 #: qxml_clean.cpp:58
-msgid ""
-"_: QXml\n"
-"error occurred while parsing element"
+msgctxt "QXml"
+msgid "error occurred while parsing element"
 msgstr "ఎలిమెంట్ ని పార్స్ చేసెటప్పుడు దోషం జరిగిండి"
 
 #: qxml_clean.cpp:59
-msgid ""
-"_: QXml\n"
-"tag mismatch"
+msgctxt "QXml"
+msgid "tag mismatch"
 msgstr "టాగ్ కి టాగ్ కుదరలేడు"
 
 #: qxml_clean.cpp:60
-msgid ""
-"_: QXml\n"
-"error occurred while parsing content"
+msgctxt "QXml"
+msgid "error occurred while parsing content"
 msgstr "లోన ఉన్న సమాచారాన్ని పార్స్ చేసేటప్పుడు దోషము జరిగిండి"
 
 #: qxml_clean.cpp:61
-msgid ""
-"_: QXml\n"
-"unexpected character"
+msgctxt "QXml"
+msgid "unexpected character"
 msgstr "ఊహించని అక్షరము"
 
 #: qxml_clean.cpp:62
-msgid ""
-"_: QXml\n"
-"invalid name for processing instruction"
+msgctxt "QXml"
+msgid "invalid name for processing instruction"
 msgstr "నడిచే ఆదేశానికి సరైన పేరు ఇవ్వలేడు"
 
 #: qxml_clean.cpp:63
-msgid ""
-"_: QXml\n"
-"version expected while reading the XML declaration"
+msgctxt "QXml"
+msgid "version expected while reading the XML declaration"
 msgstr "ఎక్స్ ఎమ్ ఎల్ డిక్లరేషన్ చడివేటప్పుడు వర్షన్ ని ఊహిస్తున్నడి"
 
 #: qxml_clean.cpp:64
-msgid ""
-"_: QXml\n"
-"wrong value for standalone declaration"
+msgctxt "QXml"
+msgid "wrong value for standalone declaration"
 msgstr "ఒంటరి డిక్లరేషన్ కి తప్పు విలువ ఇచ్చారు"
 
 #: qxml_clean.cpp:65
+msgctxt "QXml"
 msgid ""
-"_: QXml\n"
 "encoding declaration or standalone declaration expected while reading the XML "
 "declaration"
 msgstr ""
@@ -10495,69 +10179,58 @@ msgstr ""
 "డిక్లరేషన్  ని ఊహిస్తున్నడి"
 
 #: qxml_clean.cpp:66
-msgid ""
-"_: QXml\n"
-"standalone declaration expected while reading the XML declaration"
+msgctxt "QXml"
+msgid "standalone declaration expected while reading the XML declaration"
 msgstr ""
 "ఎక్స్ ఎమ్ ఎల్ డిక్లరేషన్ చడివేటప్పుడు  ఒంటరి డిక్లరేషన్ ని ఊహిస్తున్నడి"
 
 #: qxml_clean.cpp:67
-msgid ""
-"_: QXml\n"
-"error occurred while parsing document type definition"
+msgctxt "QXml"
+msgid "error occurred while parsing document type definition"
 msgstr "డాక్యుమెంట్ రకము నిర్వచనము ని పార్స్ చేసేటప్పుడు  దోషం జరిగిండి"
 
 #: qxml_clean.cpp:68
-msgid ""
-"_: QXml\n"
-"letter is expected"
+msgctxt "QXml"
+msgid "letter is expected"
 msgstr "అక్షరాన్ని ఊహించుతున్నడి"
 
 #: qxml_clean.cpp:69
-msgid ""
-"_: QXml\n"
-"error occurred while parsing comment"
+msgctxt "QXml"
+msgid "error occurred while parsing comment"
 msgstr "వ్యాఖ్యానము ని పార్స్ చేసేటప్పుడు  దోషం జరిగిండి"
 
 #: qxml_clean.cpp:70
-msgid ""
-"_: QXml\n"
-"error occurred while parsing reference"
+msgctxt "QXml"
+msgid "error occurred while parsing reference"
 msgstr "రిఫరెన్స్ ని పార్స్ చేసేటప్పుడు  దోషం జరిగిండి"
 
 #: qxml_clean.cpp:71
-msgid ""
-"_: QXml\n"
-"internal general entity reference not allowed in DTD"
+msgctxt "QXml"
+msgid "internal general entity reference not allowed in DTD"
 msgstr "లొలోపల మాములు ఎంటిటి రిఫరెన్స్ డి టి డి లో అనుమతించబడవు"
 
 #: qxml_clean.cpp:72
-msgid ""
-"_: QXml\n"
-"external parsed general entity reference not allowed in attribute value"
+msgctxt "QXml"
+msgid "external parsed general entity reference not allowed in attribute value"
 msgstr ""
 "బాహ్య పార్స్ అయిన  మాములు ఎంటిటి రిఫరెన్స్ స్వభావము విలువ  లో అనుమతించబడవు"
 
 #: qxml_clean.cpp:73
-msgid ""
-"_: QXml\n"
-"external parsed general entity reference not allowed in DTD"
+msgctxt "QXml"
+msgid "external parsed general entity reference not allowed in DTD"
 msgstr "బాహ్య పార్స్ అయిన  మాములు ఎంటిటి రిఫరెన్స్ డి టి డి లో అనుమతించబడవు"
 
 #: qxml_clean.cpp:74
-msgid ""
-"_: QXml\n"
-"unparsed entity reference in wrong context"
+msgctxt "QXml"
+msgid "unparsed entity reference in wrong context"
 msgstr "పార్స్ కాని ఎంటిటి రిఫరెన్స్ తప్పు కొనటెక్స్ట లో ఉన్నడి"
 
 #: qxml_clean.cpp:75
-msgid ""
-"_: QXml\n"
-"recursive entities"
+msgctxt "QXml"
+msgid "recursive entities"
 msgstr "రికర్సివ్ ఎంటిటీలు"
 
 #: qxml_clean.cpp:76
-msgid ""
-"_: QXml\n"
-"error in the text declaration of an external entity"
+msgctxt "QXml"
+msgid "error in the text declaration of an external entity"
 msgstr "బాహ్య ఎంటిటిని వచనం లో తెలియచేసెటప్పుడు దోషం జరిగిండి"
