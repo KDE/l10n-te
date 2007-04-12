@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: 2006-08-16 04:04+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-04-03 05:45+0200\n"
 "PO-Revision-Date: 2007-03-18 14:57+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -14,73 +15,87 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: _translatorinfo.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "పవిత్రన్ శాఖమూరి"
+#: config.cpp:48
+msgid "Configuration"
+msgstr ""
 
-#: _translatorinfo.cpp:3
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "pavithran.s@gmail.com"
-
-#: config.cpp:49
+#: config.cpp:55
 msgid "Enable window dragging"
 msgstr ""
 
-#: config.cpp:57
+#: config.cpp:63
 msgid "Show name"
 msgstr "పేరు చూపండి"
 
-#: config.cpp:59
+#: config.cpp:65
 msgid "Show number"
 msgstr "అంకె చూపండి"
 
-#: config.cpp:61
+#: config.cpp:67
 msgid "Show background"
 msgstr "పూర్వరంగ చిత్రాన్ని చూపండి"
 
-#: config.cpp:63
+#: config.cpp:69
 msgid "Show windows"
 msgstr "విండోలని చూపండి"
 
-#: config.cpp:66
+#: config.cpp:72
 msgid "Type of Window"
 msgstr "విండో రకము"
 
-#: config.cpp:71
+#: config.cpp:78
 msgid "Plain"
 msgstr "సాదా"
 
-#: config.cpp:72
+#: config.cpp:79
 msgid "Icon"
 msgstr "ప్రతిమ"
 
-#: config.cpp:74
+#: config.cpp:81
 msgid "Pixmap"
 msgstr "పిక్స్ మెప్"
 
-#: config.cpp:80
+#: config.cpp:87
 msgid "Layout"
 msgstr "ఆకారము"
 
-#: config.cpp:84
+#: config.cpp:93
 msgid "Classical"
 msgstr "సాంప్రదాయిక"
 
-#: kpager.cpp:334
-msgid "Mi&nimize"
-msgstr "(&n)చిన్న గా చేయండి"
+#: config.cpp:94
+msgid "Horizontal"
+msgstr ""
 
-#: kpager.cpp:335
-msgid "Ma&ximize"
-msgstr "(&x) పెద్ద గా చేయండి"
+#: config.cpp:95
+msgid "Vertical"
+msgstr ""
 
-#: kpager.cpp:340
+#: kpager.cpp:339
 msgid "&To Desktop"
 msgstr "(&T) రంగస్థలానికి"
 
-#: kpager.cpp:592
+#: kpager.cpp:344
+msgid "Mi&nimize"
+msgstr "(&n)చిన్న గా చేయండి"
+
+#: kpager.cpp:348
+msgid "Ma&ximize"
+msgstr "(&x) పెద్ద గా చేయండి"
+
+#: kpager.cpp:352 kpager.cpp:604
+msgid "&Sticky"
+msgstr ""
+
+#: kpager.cpp:361
+msgid "&Close"
+msgstr ""
+
+#: kpager.cpp:604
+msgid "Un&sticky"
+msgstr ""
+
+#: kpager.cpp:612
 msgid "&All Desktops"
 msgstr "(&A) అన్నీ రంగస్థలాలు"
 
@@ -88,18 +103,28 @@ msgstr "(&A) అన్నీ రంగస్థలాలు"
 msgid "Create pager but keep the window hidden"
 msgstr ""
 
-#: main.cpp:68
+#: main.cpp:69
 msgid "Desktop Overview"
 msgstr ""
 
-#: main.cpp:73
+#: main.cpp:74
 msgid "Original Developer/Maintainer"
 msgstr "అసలైన వికాసకుడు"
 
-#: main.cpp:76 main.cpp:78
+#: main.cpp:77 main.cpp:79
 msgid "Developer"
 msgstr "వికాసకుడు"
 
-#: main.cpp:95
+#: main.cpp:96
 msgid "Desktop Pager"
 msgstr "రంగస్థలం పేజర్"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "పవిత్రన్ శాఖమూరి"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "pavithran.s@gmail.com"

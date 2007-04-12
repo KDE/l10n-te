@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: 2005-09-27 02:32+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-02-13 08:19+0100\n"
 "PO-Revision-Date: 2007-03-13 12:50+0530\n"
 "Last-Translator: Vijay Kiran Kamuju <infyquest@gmail.com>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -13,38 +14,40 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: _translatorinfo.cpp:1
+#: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "విజయ్ కిరణ్ కముజు"
 
-#: _translatorinfo.cpp:3
+#: rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "infyquest@gmail.com"
 
-#: trashapplet.cpp:79
+#: trashapplet.cpp:81
 msgid "Trash Applet"
 msgstr ""
 
-#: trashapplet.cpp:81
+#: trashapplet.cpp:83
 msgid "\"trash:/\" ioslave frontend applet"
 msgstr ""
 
-#: trashapplet.cpp:86
+#: trashapplet.cpp:88
 msgid "Maintainer"
 msgstr "సంరక్షకుడు"
 
-#: trashbutton.cpp:49 trashbutton.cpp:97
+#: trashbutton.cpp:52 trashbutton.cpp:103
 msgid "Trash"
 msgstr "చెత్త బుట్ట"
 
-#: trashbutton.cpp:70
+#: trashbutton.cpp:73
 msgid "Empty"
 msgstr "ఖాళీ"
 
-#: trashbutton.cpp:75
-#, c-format
+#: trashbutton.cpp:78
+#, fuzzy, qt-format
+#| msgid "One item"
+#| msgid_plural "%1 items"
 msgid "One item"
 msgid_plural "%1 items"
 msgstr[0] "ఒక అంశం"

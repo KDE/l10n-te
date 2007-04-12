@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: 2005-06-14 01:24+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-04-03 05:44+0200\n"
 "PO-Revision-Date: 2006-01-10 14:30+0530\n"
 "Last-Translator: Vijay Kiran Kamuju <infyquest@gmail.com>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -12,15 +13,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: insertfileplugin.cpp:79
+#: insertfileplugin.cpp:87
 msgid "Insert File..."
 msgstr "దస్త్రాన్ని దూర్చు..."
 
-#: insertfileplugin.cpp:88
+#: insertfileplugin.cpp:99
 msgid "Choose File to Insert"
 msgstr "దస్త్రాన్ని దూర్చుటకు ఎంచుకొనుము"
 
-#: insertfileplugin.cpp:116
+#: insertfileplugin.cpp:100
+msgid "&Insert"
+msgstr ""
+
+#: insertfileplugin.cpp:129
 msgid ""
 "Failed to load file:\n"
 "\n"
@@ -28,20 +33,28 @@ msgstr ""
 "దస్త్రాన్ని ఎక్కించలేకపొయాను:\n"
 "\n"
 
-#: insertfileplugin.cpp:116 insertfileplugin.cpp:137 insertfileplugin.cpp:159
+#: insertfileplugin.cpp:129 insertfileplugin.cpp:150 insertfileplugin.cpp:172
 msgid "Insert File Error"
 msgstr "దస్త్రాన్ని దూర్చుటలో దోషము"
 
-#: insertfileplugin.cpp:130
+#: insertfileplugin.cpp:143
+#, qt-format
 msgid ""
 "<p>The file <strong>%1</strong> does not exist or is not readable, aborting."
-msgstr ""
-"<p><strong>%1</strong> దస్త్రం లేదు లేక చద్య్వుటకు వీలుకాదు, ఆపివేస్తున్నా"
+msgstr "<p><strong>%1</strong> దస్త్రం లేదు లేక చద్య్వుటకు వీలుకాదు, ఆపివేస్తున్నా"
 
-#: insertfileplugin.cpp:134
+#: insertfileplugin.cpp:147
+#, qt-format
 msgid "<p>Unable to open file <strong>%1</strong>, aborting."
 msgstr "<p><strong>%1</strong>దస్త్రం తెరువలేకపొయాను, ఆపివేస్తున్నా"
 
-#: insertfileplugin.cpp:157
+#: insertfileplugin.cpp:170
+#, qt-format
 msgid "<p>File <strong>%1</strong> had no contents."
 msgstr "<p><strong>%1</strong> దస్త్రం ఖాళిగా వుంది"
+
+#. i18n: tag Text
+#. i18n: file ktexteditor_insertfileui.rc line 4
+#: rc.cpp:3
+msgid "&Tools"
+msgstr ""

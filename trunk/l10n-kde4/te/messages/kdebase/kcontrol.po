@@ -5,7 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: 2007-01-15 02:35+0100\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-04-05 05:36+0200\n"
 "PO-Revision-Date: 2007-03-29 14:00+0530\n"
 "Last-Translator: విజయ్ కిరణ్ కముజు <infyquest@gmail.com>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -14,250 +15,279 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: _translatorinfo.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "విజయ్ కిరణ్ కముజు"
-
-#: _translatorinfo.cpp:3
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "infyquest@gmail.com"
-
-#: aboutwidget.cpp:43 main.cpp:104
+#: aboutwidget.cpp:45 main.cpp:105
 msgid "KDE Control Center"
 msgstr "కెడిఈ నియంత్రణ కేంద్రం"
 
-#: aboutwidget.cpp:45
+#: aboutwidget.cpp:47
 msgid "Configure your desktop environment."
 msgstr ""
 
-#: aboutwidget.cpp:47
+#: aboutwidget.cpp:49
 msgid ""
 "Welcome to the \"KDE Control Center\", a central place to configure your "
 "desktop environment. Select an item from the index on the left to load a "
 "configuration module."
 msgstr ""
 
-#: aboutwidget.cpp:53 main.cpp:108
+#: aboutwidget.cpp:55 main.cpp:109
 msgid "KDE Info Center"
 msgstr "కెడిఈ సహాయ కేంద్రం"
 
-#: aboutwidget.cpp:55
+#: aboutwidget.cpp:57
 msgid "Get system and desktop environment information"
 msgstr ""
 
-#: aboutwidget.cpp:57
+#: aboutwidget.cpp:59
 msgid ""
-"Welcome to the \"KDE Info Center\", a central place to find information about "
-"your computer system."
+"Welcome to the \"KDE Info Center\", a central place to find information "
+"about your computer system."
 msgstr ""
 
-#: aboutwidget.cpp:61
+#: aboutwidget.cpp:63
 msgid ""
-"Use the \"Search\" field if you are unsure where to look for a particular "
-"configuration option."
+"Click on the \"Help\" tab on the left to view help for the active control "
+"module. Use the \"Search\" tab if you are unsure where to look for a "
+"particular configuration option."
 msgstr ""
 
-#: aboutwidget.cpp:64
+#: aboutwidget.cpp:69
 msgid "KDE version:"
 msgstr "కెడిఈ వివరణం:"
 
-#: aboutwidget.cpp:65
+#: aboutwidget.cpp:70
 msgid "User:"
 msgstr "యూజర్:"
 
-#: aboutwidget.cpp:66
+#: aboutwidget.cpp:71
 msgid "Hostname:"
 msgstr "హోస్ట్ పేరు:"
 
-#: aboutwidget.cpp:67
+#: aboutwidget.cpp:72
 msgid "System:"
 msgstr "వ్యవస్థ:"
 
-#: aboutwidget.cpp:68
+#: aboutwidget.cpp:73
 msgid "Release:"
 msgstr "విడుదల:"
 
-#: aboutwidget.cpp:69
+#: aboutwidget.cpp:74
 msgid "Machine:"
 msgstr "యంత్రం:"
 
-#: dockcontainer.cpp:133
+#: dockcontainer.cpp:143
 msgid "<big><b>Loading...</b></big>"
 msgstr "<big><b>ఎక్కిస్తున్నా...</b></big>"
 
-#: dockcontainer.cpp:201 toplevel.cpp:376
+#: dockcontainer.cpp:210 toplevel.cpp:357
 msgid ""
 "There are unsaved changes in the active module.\n"
-"Do you want to apply the changes before running the new module or discard the "
-"changes?"
-msgstr ""
-
-#: dockcontainer.cpp:204 toplevel.cpp:379
-msgid ""
-"There are unsaved changes in the active module.\n"
-"Do you want to apply the changes before exiting the Control Center or discard "
+"Do you want to apply the changes before running the new module or discard "
 "the changes?"
 msgstr ""
 
-#: dockcontainer.cpp:207 toplevel.cpp:382
+#: dockcontainer.cpp:213 toplevel.cpp:360
+msgid ""
+"There are unsaved changes in the active module.\n"
+"Do you want to apply the changes before exiting the Control Center or "
+"discard the changes?"
+msgstr ""
+
+#: dockcontainer.cpp:216 toplevel.cpp:363
 msgid "Unsaved Changes"
 msgstr "దాచని మార్పులు"
 
-#: helpwidget.cpp:44
+#: helpwidget.cpp:64
+#, qt-format
 msgid ""
-"<p>Use the \"What's This?\" (Shift+F1) to get help on specific options.</p>"
-"<p>To read the full manual click <a href=\"%1\">here</a>.</p>"
+"<p>Use the \"Whats This\" (Shift+F1) to get help on specific options.</"
+"p><p>To read the full manual click <a href=\"%1\">here</a>.</p>"
 msgstr ""
 
-#: helpwidget.cpp:51
+#: helpwidget.cpp:72
 msgid ""
 "<h1>KDE Info Center</h1>There is no quick help available for the active info "
-"module."
-"<br>"
-"<br>Click <a href = \"kinfocenter/index.html\">here</a> "
-"to read the general Info Center manual."
+"module.<br><br>Click <a href = \"kinfocenter/index.html\">here</a> to read "
+"the general Info Center manual."
 msgstr ""
 
-#: helpwidget.cpp:56
+#: helpwidget.cpp:77
 msgid ""
 "<h1>KDE Control Center</h1>There is no quick help available for the active "
-"control module."
-"<br>"
-"<br>Click <a href = \"kcontrol/index.html\">here</a> "
-"to read the general Control Center manual."
+"control module.<br><br>Click <a href = \"kcontrol/index.html\">here</a> to "
+"read the general Control Center manual."
 msgstr ""
 
-#: kcrootonly.cpp:30
+#: kcrootonly.cpp:33
 msgid ""
-"<big>You need super user privileges to run this control module.</big>"
-"<br>Click on the \"Administrator Mode\" button below."
+"<big>You need super user privileges to run this control module.</"
+"big><br>Click on the \"Administrator Mode\" button below."
 msgstr ""
 
-#: main.cpp:105
+#: main.cpp:106
 msgid "The KDE Control Center"
 msgstr "కెడిఈ నియంత్రణ కేంద్రం"
 
-#: main.cpp:106 main.cpp:110
+#: main.cpp:107 main.cpp:111
 msgid "(c) 1998-2004, The KDE Control Center Developers"
 msgstr "(c) 1998-2004, కెడిఈ నియంత్రణ కేంద్రం వికాసకులు"
 
-#: main.cpp:109
+#: main.cpp:110
 msgid "The KDE Info Center"
 msgstr "కెడిఈ సమాచార కేంద్రం"
 
-#: main.cpp:128 main.cpp:130
+#: main.cpp:129 main.cpp:131
 msgid "Current Maintainer"
 msgstr "ప్రస్తుత సంరక్షకుడు"
 
-#: modules.cpp:155
+#: moduleiconview.cpp:98
+msgid "Back"
+msgstr ""
+
+#: modules.cpp:170
 msgid "<big>Loading...</big>"
 msgstr "<big>ఎక్కిస్తున్నా...</big>"
 
-#: moduletreeview.cpp:65
+#: moduletreeview.cpp:70
+#, qt-format
+#| msgid "The %1 configuration group. Click to open it."
 msgid "The %1 configuration group. Click to open it."
 msgstr ""
 
-#: moduletreeview.cpp:67
+#: moduletreeview.cpp:72
 msgid ""
 "This treeview displays all available control modules. Click on one of the "
 "modules to receive more detailed information."
 msgstr ""
 
-#: proxywidget.cpp:54
+#: proxywidget.cpp:61
 msgid "The currently loaded configuration module."
 msgstr ""
 
-#: proxywidget.cpp:88
+#: proxywidget.cpp:85
 msgid ""
-"<b>Changes in this module require root access.</b>"
-"<br>Click the \"Administrator Mode\" button to allow modifications in this "
-"module."
+"<b>Changes in this module require root access.</b><br>Click the "
+"\"Administrator Mode\" button to allow modifications in this module."
 msgstr ""
 
-#: proxywidget.cpp:92
+#: proxywidget.cpp:89
 msgid ""
 "This module requires special permissions, probably for system-wide "
-"modifications; therefore, it is required that you provide the root password to "
-"be able to change the module's properties.  If you do not provide the password, "
-"the module will be disabled."
+"modifications; therefore, it is required that you provide the root password "
+"to be able to change the module's properties.  If you do not provide the "
+"password, the module will be disabled."
 msgstr ""
 
-#: proxywidget.cpp:211
-msgid "&Reset"
-msgstr ""
-
-#: proxywidget.cpp:212
+#: proxywidget.cpp:214
 msgid "&Administrator Mode"
 msgstr ""
 
+#. i18n: tag text
+#. i18n: file kcontrolui.rc line 4
+#. i18n: tag text
+#. i18n: file kinfocenterui.rc line 4
+#: rc.cpp:3 rc.cpp:12
+msgid "&View"
+msgstr ""
+
+#. i18n: tag text
 #. i18n: file kcontrolui.rc line 5
+#. i18n: tag text
+#. i18n: file kinfocenterui.rc line 5
 #: rc.cpp:6 rc.cpp:15
-#, no-c-format
 msgid "&Mode"
 msgstr ""
 
+#. i18n: tag text
 #. i18n: file kcontrolui.rc line 9
+#. i18n: tag text
+#. i18n: file kinfocenterui.rc line 9
 #: rc.cpp:9 rc.cpp:18
-#, no-c-format
 msgid "Icon &Size"
 msgstr "(&S) ప్రతిమ పరిమాణం"
 
-#: searchwidget.cpp:78
+#: rc.cpp:19
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "విజయ్ కిరణ్ కముజు"
+
+#: rc.cpp:20
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "infyquest@gmail.com"
+
+#: searchwidget.cpp:84
+#, fuzzy
+#| msgid "Search:"
+msgid "Se&arch:"
+msgstr "అన్వెషణ:"
+
+#: searchwidget.cpp:92
 msgid "&Keywords:"
 msgstr "(&K) కీలక పదాలు:"
 
-#: searchwidget.cpp:85
+#: searchwidget.cpp:100
 msgid "&Results:"
 msgstr "(&R) ఫలితాలు:"
 
-#: toplevel.cpp:105
-msgid "Clear search"
+#: toplevel.cpp:94
+msgid "Choose between Index, Search and Quick Help"
 msgstr ""
 
-#: toplevel.cpp:107
-msgid "Search:"
+#: toplevel.cpp:100
+msgid "&Index"
+msgstr ""
+
+#: toplevel.cpp:111
+#, fuzzy
+#| msgid "Search:"
+msgid "Sear&ch"
 msgstr "అన్వెషణ:"
 
-#: toplevel.cpp:241
+#: toplevel.cpp:115
+msgid "Hel&p"
+msgstr ""
+
+#: toplevel.cpp:217
 msgid "&Icon View"
 msgstr ""
 
-#: toplevel.cpp:246
+#: toplevel.cpp:222
 msgid "&Tree View"
 msgstr ""
 
-#: toplevel.cpp:251
+#: toplevel.cpp:229
 msgid "&Small"
 msgstr "(&S) చిన్న"
 
-#: toplevel.cpp:256
+#: toplevel.cpp:234
 msgid "&Medium"
 msgstr "(&M) మద్యస్తం"
 
-#: toplevel.cpp:261
+#: toplevel.cpp:239
 msgid "&Large"
 msgstr "(&L) పెద్ద"
 
-#: toplevel.cpp:266
+#: toplevel.cpp:244
 msgid "&Huge"
 msgstr "(&H) అతి పెద్ద"
 
-#: toplevel.cpp:270 toplevel.cpp:392 toplevel.cpp:447
+#: toplevel.cpp:250 toplevel.cpp:373 toplevel.cpp:427
 msgid "About Current Module"
 msgstr "ప్రస్తుత మాడ్యూల్ గురించి"
 
-#: toplevel.cpp:281 toplevel.cpp:357
+#: toplevel.cpp:262 toplevel.cpp:338
 msgid "&Report Bug..."
 msgstr ""
 
-#: toplevel.cpp:359
+#: toplevel.cpp:340
+#, qt-format
+#| msgid "Report Bug on Module %1..."
 msgid "Report Bug on Module %1..."
 msgstr ""
 
-#: toplevel.cpp:440
-#, c-format
+#: toplevel.cpp:420
+#, qt-format
 msgctxt "Help menu->about <modulename>"
 msgid "About %1"
 msgstr "%1 గురించి"

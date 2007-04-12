@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_media\n"
-"POT-Creation-Date: 2007-01-26 02:37+0100\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-04-05 05:36+0200\n"
 "PO-Revision-Date: 2007-03-10 13:26+0000\n"
 "Last-Translator: Vijay Kiran Kamuju <infyquest@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -14,15 +15,41 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: _translatorinfo.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "విజయ్ కిరణ్ కముజు"
+#: mediamanager/halbackend.cpp:583
+msgid "Camera"
+msgstr "కెమెరా"
 
-#: _translatorinfo.cpp:3
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "infyquest@gmail.com"
+#: mediamanager/fstabbackend.cpp:375
+msgid "CD Recorder"
+msgstr "సీడీ రికార్డర్"
+
+#: mediamanager/fstabbackend.cpp:381
+msgid "DVD"
+msgstr "డివిడి"
+
+#: mediamanager/fstabbackend.cpp:392
+msgid "CD-ROM"
+msgstr "సిడీ-రామ్"
+
+#: mediamanager/fstabbackend.cpp:405
+msgid "Floppy"
+msgstr "ఫ్లాపి"
+
+#: mediamanager/fstabbackend.cpp:413
+msgid "Zip Disk"
+msgstr "జిప్ డిస్క్"
+
+#: mediamanager/fstabbackend.cpp:424
+msgid "Removable Device"
+msgstr "తీసివేయగల పరికరం"
+
+#: mediamanager/fstabbackend.cpp:429 mediamanager/fstabbackend.cpp:435
+msgid "Remote Share"
+msgstr "రిమొట్ షేర్"
+
+#: mediamanager/fstabbackend.cpp:440
+msgid "Hard Disk"
+msgstr "హార్డ్ డిస్క్"
 
 #: kio_media.cpp:35
 msgid "Protocol name"
@@ -32,453 +59,250 @@ msgstr "ప్రొటోకాల్ పేరు"
 msgid "Socket name"
 msgstr "సాకెట్ పేరు"
 
-#: mediaimpl.cpp:86 mediaimpl.cpp:113 mediaimpl.cpp:139 mediaimpl.cpp:173
-#: mediaimpl.cpp:193 mediaimpl.cpp:214
-#: mounthelper/kio_media_mounthelper.cpp:45
+#: mounthelper/kio_media_mounthelper.cpp:42 mediaimpl.cpp:88 mediaimpl.cpp:114
+#: mediaimpl.cpp:139 mediaimpl.cpp:171 mediaimpl.cpp:201
 msgid "The KDE mediamanager is not running."
 msgstr ""
 
-#: mediaimpl.cpp:183
-msgid "This media name already exists."
-msgstr "ఈ మాద్యమం పేరు ముందేవుంది"
+#: mounthelper/kio_media_mounthelper.cpp:59
+#, qt-format
+msgid "%1 cannot be found."
+msgstr "%1 కనపడుట లేదు"
 
-#: mediaimpl.cpp:226
-msgid "No such medium."
-msgstr "ఇలాంటి మాద్యమం లేదు"
-
-#: mediaimpl.cpp:259 mediamanager/halbackend.cpp:964
-#: mediamanager/halbackend.cpp:973 mediamanager/halbackend.cpp:1272
-#: mediamanager/halbackend.cpp:1283 mounthelper/kio_media_mounthelper.cpp:53
-msgid "Internal Error"
-msgstr "అంతర్గత దోషం"
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 35
-#: rc.cpp:3
-#, no-c-format
-msgid "Generic Mount Options"
+#: mounthelper/kio_media_mounthelper.cpp:66
+#, qt-format
+#| msgid "%1 is not a mountable media."
+msgid "%1 is not a mountable media."
 msgstr ""
 
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 54
-#: rc.cpp:6
-#, no-c-format
-msgid "Read only"
-msgstr "చదువుట మాత్రమే"
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 57
-#: rc.cpp:9
-#, no-c-format
-msgid "Mount the file system read-only."
-msgstr ""
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 65
-#: rc.cpp:12
-#, no-c-format
-msgid "Quiet"
-msgstr "నిశ్శబ్దం"
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 68
-#: rc.cpp:15
-#, no-c-format
+#: mounthelper/kio_media_mounthelper.cpp:129
+#: mounthelper/kio_media_mounthelper.cpp:154
 msgid ""
-"Attempts to chown or chmod files do not return errors, although they fail. Use "
-"with caution!"
+"\n"
+"Please check that the disk is entered correctly."
 msgstr ""
 
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 76
-#: rc.cpp:18
-#, no-c-format
-msgid "Synchronous"
-msgstr "ఏక కాలిక"
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 79
-#: rc.cpp:21
-#, no-c-format
-msgid "All I/O to the file system should be done synchronously."
-msgstr ""
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 87
-#: rc.cpp:24
-#, no-c-format
-msgid "Access time updates"
-msgstr ""
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 90
-#: rc.cpp:27
-#, no-c-format
-msgid "Update inode access time for each access."
-msgstr ""
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 106
-#: rc.cpp:30
-#, no-c-format
-msgid "Mountpoint:"
-msgstr ""
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 112
-#: rc.cpp:33
-#, no-c-format
+#: mounthelper/kio_media_mounthelper.cpp:134
+#: mounthelper/kio_media_mounthelper.cpp:159
 msgid ""
-"Under what directory this file system shall be mounted. Please note that there "
-"is no guarantee that the system will respect your wish. For one the directory "
-"has to be below /media - and it does not yet have to exist."
-msgstr ""
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 130
-#: rc.cpp:37
-#, no-c-format
-msgid "Mount automatically"
-msgstr ""
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 133
-#: rc.cpp:40
-#, no-c-format
-msgid "Mount this file system automatically."
-msgstr ""
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 145
-#: rc.cpp:43
-#, no-c-format
-msgid "Filesystem Specific Mount Options"
-msgstr ""
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 164
-#: rc.cpp:46
-#, no-c-format
-msgid "Flushed IO"
-msgstr ""
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 167
-#: rc.cpp:49
-#, no-c-format
-msgid ""
-"Always flush all data to the hot plug devices immediately and don't cache it."
-msgstr ""
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 175
-#: rc.cpp:52
-#, no-c-format
-msgid "UTF-8 charset"
-msgstr ""
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 178
-#: rc.cpp:55
-#, no-c-format
-msgid ""
-"UTF8 is the filesystem safe 8-bit encoding of Unicode that is used by the "
-"console. It can be be enabled for the filesystem with this option."
-msgstr ""
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 186
-#: rc.cpp:58
-#, no-c-format
-msgid "Mount as user"
-msgstr ""
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 189
-#: rc.cpp:61
-#, no-c-format
-msgid "Mount this file system as user."
-msgstr ""
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 205
-#: rc.cpp:64
-#, no-c-format
-msgid "Journaling:"
-msgstr ""
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 220
-#: rc.cpp:67 rc.cpp:88
-#, no-c-format
-msgid ""
-"<h2>Specifies  the journalling mode for file data. Metadata is always "
-"journaled. </h2>\n"
-"           \n"
-"<h3><b>All Data</b></h3>\n"
-"           All  data  is  committed into the journal prior to being written "
-"into the main file system. This is the slowest variant with the highest data "
-"security.\n"
 "\n"
-"<h3><b>Ordered</b></h3>\n"
-"           All data is forced directly out to the main  file system prior to "
-"its metadata being committed to the journal.\n"
-"\n"
-"<h3><b>Write Back</b></h3>\n"
-"           Data ordering is not preserved - data may be written into the main "
-"file system after its metadata has been committed to the journal.  This is "
-"rumoured to  be the  highest-throughput option.  It guarantees internal file "
-"system integrity,  however it can allow old data to appear in files after  a  "
-"crash  and  journal recovery."
+"Please check that the device is plugged correctly."
 msgstr ""
 
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 226
-#: rc.cpp:79
-#, no-c-format
-msgid "All Data"
-msgstr "సమస్త దత్తాంశాలు"
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 231
-#: rc.cpp:82
-#, no-c-format
-msgid "Ordered"
-msgstr "క్రమమైన"
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 236
-#: rc.cpp:85
-#, no-c-format
-msgid "Write Back"
-msgstr "వెనుక వ్రాయుట"
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 270
-#: rc.cpp:100
-#, no-c-format
-msgid "Short names:"
-msgstr "చిన్న పేరు:"
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 288
-#: rc.cpp:103 rc.cpp:130
-#, no-c-format
-msgid ""
-"<h2>Defines  the  behaviour  for  creation and display of filenames which fit "
-"into 8.3 characters. If a long name for a file exists, it will always be "
-"preferred display.</h2>\n"
-"\n"
-"<h3><b>Lower</b></h3>\n"
-"Force the short name to lower case upon display; store a long name when the "
-"short name is not all upper case.\n"
-"\n"
-"<h3><b>Windows 95</b></h3>\n"
-"Force the short name to upper case upon display; store a long name when the "
-"short name is not all upper case.\n"
-"\n"
-"<h3><b>Windows NT</b></h3>\n"
-"Display the shortname as is; store a long name when the short name is not all "
-"lower case or all upper case.\n"
-"\n"
-"<h3><b>Mixed</b></h3>\n"
-"Display the short name as is; store a long name when the short name is not all "
-"upper case."
+#: mounthelper/kio_media_mounthelper.cpp:184
+msgid "Unmount given URL"
 msgstr ""
 
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 294
-#: rc.cpp:118
-#, no-c-format
-msgid "Lower"
-msgstr "క్రింది"
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 299
-#: rc.cpp:121
-#, no-c-format
-msgid "Windows 95"
-msgstr "విండొస్ 95"
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 304
-#: rc.cpp:124
-#, no-c-format
-msgid "Windows NT"
-msgstr "విండొస్ ఎన్ టి"
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 309
-#: rc.cpp:127
-#, no-c-format
-msgid "Mixed"
-msgstr "మిళిత"
-
-#. i18n: file propsdlgplugin/propertiespagegui.ui line 342
-#: rc.cpp:145
-#, no-c-format
-msgid "Filesystem: iso9660"
+#: mounthelper/kio_media_mounthelper.cpp:185
+msgid "Mount given URL (default)"
 msgstr ""
 
-#: kfile-plugin/kfilemediaplugin.cpp:173
-msgid "Medium Information"
-msgstr "మాధ్యమ సమాచారం"
-
-#: kfile-plugin/kfilemediaplugin.cpp:176
-msgid "Free"
-msgstr "ఖాళి"
-
-#: kfile-plugin/kfilemediaplugin.cpp:179
-msgid "Used"
-msgstr "వాడినది"
-
-#: kfile-plugin/kfilemediaplugin.cpp:182
-msgid "Total"
-msgstr "మొత్తం"
-
-#: kfile-plugin/kfilemediaplugin.cpp:185
-msgid "Base URL"
-msgstr "మూల యూఆర్ ఎల్"
-
-#: kfile-plugin/kfilemediaplugin.cpp:186
-msgid "Mount Point"
+#: mounthelper/kio_media_mounthelper.cpp:186
+msgid "Eject given URL via kdeeject"
 msgstr ""
 
-#: kfile-plugin/kfilemediaplugin.cpp:187
-msgid "Device Node"
+#: mounthelper/kio_media_mounthelper.cpp:187
+msgid "Unmount and Eject given URL (necessary for some USB devices)"
 msgstr ""
 
-#: kfile-plugin/kfilemediaplugin.cpp:189
-msgid "Medium Summary"
-msgstr "మాద్యమ సారాంశం"
-
-#: kfile-plugin/kfilemediaplugin.cpp:191
-msgid "Usage"
-msgstr "వాడుక"
-
-#: kfile-plugin/kfilemediaplugin.cpp:193
-msgid "Bar Graph"
+#: mounthelper/kio_media_mounthelper.cpp:188
+msgid "media:/ URL to mount/unmount/eject/remove"
 msgstr ""
+
+#: kcmodule/managermodule.cpp:40
+msgid "No support for HAL on this system"
+msgstr ""
+
+#: kcmodule/managermodule.cpp:47
+msgid "No support for CD polling on this system"
+msgstr ""
+
+#: kcmodule/main.cpp:54
+msgid "&Notifications"
+msgstr ""
+
+#: kcmodule/main.cpp:60
+msgid "&Advanced"
+msgstr ""
+
+#: kcmodule/main.cpp:67
+msgid "Storage Media"
+msgstr ""
+
+#: kcmodule/main.cpp:69
+msgid "Storage Media Control Panel Module"
+msgstr ""
+
+#: kcmodule/main.cpp:71
+msgid "(c) 2005 Jean-Remy Falleri"
+msgstr ""
+
+#: kcmodule/main.cpp:72
+msgid "Maintainer"
+msgstr ""
+
+#: kcmodule/main.cpp:74
+msgid "Help for the application design"
+msgstr ""
+
+#: kcmodule/main.cpp:104
+msgid "FIXME : Write me..."
+msgstr ""
+
+#: kcmodule/serviceconfigdialog.cpp:44
+msgid "Edit Service"
+msgstr ""
+
+#: kcmodule/notifiermodule.cpp:51
+msgid "All Mime Types"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "విజయ్ కిరణ్ కముజు"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "infyquest@gmail.com"
 
 #: libmediacommon/actionlistboxitem.cpp:34
 msgid "Auto Action"
 msgstr ""
 
-#: libmediacommon/notifiernothingaction.cpp:28
-msgid "Do Nothing"
-msgstr "ఏమీ చేయకు"
-
 #: libmediacommon/notifieropenaction.cpp:28
 msgid "Open in New Window"
 msgstr ""
+
+#: libmediacommon/notifiernothingaction.cpp:28
+#, fuzzy
+#| msgid "Do Nothing"
+msgid "Do nothing"
+msgstr "ఏమీ చేయకు"
 
 #: libmediacommon/notifierserviceaction.cpp:33
 msgid "Unknown"
 msgstr "తెలియనిది"
 
-#: mediamanager/fstabbackend.cpp:104 mediamanager/fstabbackend.cpp:114
-#: mediamanager/halbackend.cpp:1205 mediamanager/halbackend.cpp:1227
-#, c-format
-msgid "No such medium: %1"
-msgstr "%1 : ఇలాంటి మాద్యమం లేదు"
+#: mediaimpl.cpp:181
+msgid "This media name already exists."
+msgstr "ఈ మాద్యమం పేరు ముందేవుంది"
 
-#: mediamanager/fstabbackend.cpp:398
-msgid "CD Recorder"
-msgstr "సీడీ రికార్డర్"
+#: mediaimpl.cpp:213
+msgid "No such medium."
+msgstr "ఇలాంటి మాద్యమం లేదు"
 
-#: mediamanager/fstabbackend.cpp:404
-msgid "DVD"
-msgstr "డివిడి"
+#: kfile-plugin/kfilemediaplugin.cpp:190
+msgid "Medium Information"
+msgstr "మాధ్యమ సమాచారం"
 
-#: mediamanager/fstabbackend.cpp:415
-msgid "CD-ROM"
-msgstr "సిడీ-రామ్"
+#: kfile-plugin/kfilemediaplugin.cpp:193
+msgid "Free"
+msgstr "ఖాళి"
 
-#: mediamanager/fstabbackend.cpp:428
-msgid "Floppy"
-msgstr "ఫ్లాపి"
+#: kfile-plugin/kfilemediaplugin.cpp:196
+msgid "Used"
+msgstr "వాడినది"
 
-#: mediamanager/fstabbackend.cpp:436
-msgid "Zip Disk"
-msgstr "జిప్ డిస్క్"
+#: kfile-plugin/kfilemediaplugin.cpp:199
+msgid "Total"
+msgstr "మొత్తం"
 
-#: mediamanager/fstabbackend.cpp:447
-msgid "Removable Device"
-msgstr "తీసివేయగల పరికరం"
+#: kfile-plugin/kfilemediaplugin.cpp:202
+msgid "Base URL"
+msgstr "మూల యూఆర్ ఎల్"
 
-#: mediamanager/fstabbackend.cpp:452 mediamanager/fstabbackend.cpp:458
-msgid "Remote Share"
-msgstr "రిమొట్ షేర్"
-
-#: mediamanager/fstabbackend.cpp:463
-msgid "Hard Disk"
-msgstr "హార్డ్ డిస్క్"
-
-#: mediamanager/halbackend.cpp:733
-msgid "Camera"
-msgstr "కెమెరా"
-
-#: mediamanager/halbackend.cpp:984
-msgid "Invalid filesystem type"
+#: kfile-plugin/kfilemediaplugin.cpp:203
+msgid "Mount Point"
 msgstr ""
 
-#: mediamanager/halbackend.cpp:986 mediamanager/halbackend.cpp:1133
-#: mediamanager/halbackend.cpp:1304
-msgid "Permissions denied"
+#: kfile-plugin/kfilemediaplugin.cpp:204
+msgid "Device Node"
 msgstr ""
 
-#: mediamanager/halbackend.cpp:988
-msgid "Device is already mounted."
+#: kfile-plugin/kfilemediaplugin.cpp:206
+msgid "Medium Summary"
+msgstr "మాద్యమ సారాంశం"
+
+#: kfile-plugin/kfilemediaplugin.cpp:208
+msgid "Usage"
+msgstr "వాడుక"
+
+#: kfile-plugin/kfilemediaplugin.cpp:210
+msgid "Bar Graph"
 msgstr ""
 
-#: mediamanager/halbackend.cpp:1034
+#: medianotifier/notificationdialog.cpp:58
+msgid "<b>Medium Type:</b>"
+msgstr ""
+
+#: medianotifier/notificationdialog.cpp:71
+msgid "Configure"
+msgstr ""
+
+#: medianotifier/medianotifier.cpp:173
+#, qt-format
 msgid ""
-"Moreover, programs still using the device have been detected. They are listed "
-"below. You have to close them or change their working directory before "
-"attempting to unmount the device again."
+"An autorun file as been found on your '%1'. Do you want to execute it?\n"
+"Note that executing a file on a medium may compromise your system's security"
 msgstr ""
 
-#: mediamanager/halbackend.cpp:1057 mediamanager/halbackend.cpp:1293
+#: medianotifier/medianotifier.cpp:177
+#, qt-format
+msgid "Autorun - %1"
+msgstr ""
+
+#: medianotifier/medianotifier.cpp:246
+#, qt-format
 msgid ""
-"Unfortunately, the device <b>%1</b> (%2) named <b>'%3'</b> "
-"and currently mounted at <b>%4</b> could not be unmounted. "
+"An autoopen file as been found on your '%1'. Do you want to open '%2'?\n"
+"Note that opening a file on a medium may compromise your system's security"
 msgstr ""
 
-#: mediamanager/halbackend.cpp:1063
-msgid "The following error was returned by umount command:"
+#: medianotifier/medianotifier.cpp:250
+#, qt-format
+msgid "Autoopen - %1"
 msgstr ""
 
-#: mediamanager/halbackend.cpp:1299
-msgid "Unmounting failed due to the following error:"
-msgstr ""
+#~ msgid "Internal Error"
+#~ msgstr "అంతర్గత దోషం"
 
-#: mediamanager/halbackend.cpp:1301
-msgid "Device is Busy:"
-msgstr ""
+#~ msgid "Read only"
+#~ msgstr "చదువుట మాత్రమే"
 
-#: mediamanager/mediamanager.cpp:213 mediamanager/mediamanager.cpp:217
-#: mediamanager/mediamanager.cpp:226 mediamanager/mediamanager.cpp:230
-msgid "Feature only available with HAL"
-msgstr ""
+#~ msgid "Quiet"
+#~ msgstr "నిశ్శబ్దం"
 
-#: mounthelper/kio_media_mounthelper.cpp:74
-msgid "%1 cannot be found."
-msgstr "%1 కనపడుట లేదు"
+#~ msgid "Synchronous"
+#~ msgstr "ఏక కాలిక"
 
-#: mounthelper/kio_media_mounthelper.cpp:81
-msgid "%1 is not a mountable media."
-msgstr ""
+#~ msgid "All Data"
+#~ msgstr "సమస్త దత్తాంశాలు"
 
-#: mounthelper/kio_media_mounthelper.cpp:162
-msgid "The device was successfully unmounted, but the tray could not be opened"
-msgstr ""
+#~ msgid "Ordered"
+#~ msgstr "క్రమమైన"
 
-#: mounthelper/kio_media_mounthelper.cpp:164
-msgid "The device was successfully unmounted, but could not be ejected"
-msgstr ""
+#~ msgid "Write Back"
+#~ msgstr "వెనుక వ్రాయుట"
 
-#: mounthelper/kio_media_mounthelper.cpp:178
-msgid "Unmount given URL"
-msgstr ""
+#~ msgid "Short names:"
+#~ msgstr "చిన్న పేరు:"
 
-#: mounthelper/kio_media_mounthelper.cpp:179
-msgid "Mount given URL (default)"
-msgstr ""
+#~ msgid "Lower"
+#~ msgstr "క్రింది"
 
-#: mounthelper/kio_media_mounthelper.cpp:180
-msgid "Eject given URL via kdeeject"
-msgstr ""
+#~ msgid "Windows 95"
+#~ msgstr "విండొస్ 95"
 
-#: mounthelper/kio_media_mounthelper.cpp:181
-msgid "Unmount and Eject given URL (necessary for some USB devices)"
-msgstr ""
+#~ msgid "Windows NT"
+#~ msgstr "విండొస్ ఎన్ టి"
 
-#: mounthelper/kio_media_mounthelper.cpp:182
-msgid "media:/ URL to mount/unmount/eject/remove"
-msgstr ""
+#~ msgid "Mixed"
+#~ msgstr "మిళిత"
 
-#: propsdlgplugin/propertiespage.cpp:137
-#, c-format
-msgid "Filesystem: %1"
-msgstr ""
+#~ msgid "No such medium: %1"
+#~ msgstr "%1 : ఇలాంటి మాద్యమం లేదు"
 
-#: propsdlgplugin/propertiespage.cpp:196
-msgid "Mountpoint has to be below /media"
-msgstr ""
-
-#: propsdlgplugin/propertiespage.cpp:211
-msgid "Saving the changes failed"
-msgstr "మార్పులను దాచుటలో విఫలమైనది"
-
-#: propsdlgplugin/propsdlgshareplugin.cpp:67
-msgid "&Mounting"
-msgstr ""
+#~ msgid "Saving the changes failed"
+#~ msgstr "మార్పులను దాచుటలో విఫలమైనది"

@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: 2005-05-18 21:24+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2006-10-02 07:52+0200\n"
 "PO-Revision-Date: 2007-03-29 14:30+0530\n"
 "Last-Translator: Vijay Kiran Kamuju <infyquest@gmail.com>\n"
 "Language-Team: Telugu <LL@li.org>\n"
@@ -60,75 +61,77 @@ msgstr "కెప్రింటర్"
 msgid "A printer tool for KDE"
 msgstr "కెడిఈ కొరకు ప్రచురణ పనిముట్టు"
 
-#: printwrapper.cpp:61
+#: printwrapper.cpp:64
 msgid "Print Information"
 msgstr "ప్రచురణ సమాచారం"
 
-#: printwrapper.cpp:62
+#: printwrapper.cpp:65
 msgid "Print Warning"
 msgstr "ప్రచురణ హెచ్చరిక"
 
-#: printwrapper.cpp:63
+#: printwrapper.cpp:66
 msgid "Print Error"
 msgstr "ప్రచురణ దోషం"
 
-#: printwrapper.cpp:69
+#: printwrapper.cpp:72
 msgid "Print info"
 msgstr "ప్రచురణ సమచారం"
 
-#: printwrapper.cpp:69
+#: printwrapper.cpp:72
 msgid "Print warning"
 msgstr "ప్రచురణ హెచ్చరిక"
 
-#: printwrapper.cpp:69
+#: printwrapper.cpp:72
 msgid "Print error"
 msgstr "ప్రచురణ దోషం"
 
-#: printwrapper.cpp:190
+#: printwrapper.cpp:188
 msgid ""
 "A file has been specified on the command line. Printing from STDIN will be "
 "disabled."
 msgstr ""
 
-#: printwrapper.cpp:196
+#: printwrapper.cpp:194
 msgid ""
-"When using '--nodialog', you must at least specify one file to print or use the "
-"'--stdin' flag."
+"When using '--nodialog', you must at least specify one file to print or use "
+"the '--stdin' flag."
 msgstr ""
 
-#: printwrapper.cpp:245
+#: printwrapper.cpp:243
 msgid "The specified printer or the default printer could not be found."
 msgstr "నిర్దెశించిన ప్రింటర్ లేక అప్రమేయ ప్రింటర్ ను దొరకలేదు:"
 
-#: printwrapper.cpp:247
+#: printwrapper.cpp:245
 msgid "Operation aborted."
 msgstr "పని వదిలేయటమైనది"
 
-#: printwrapper.cpp:276
+#: printwrapper.cpp:275
 msgid "Unable to construct the print dialog."
 msgstr "ప్రచురణ డైలాగ్ ను తయారు చేయలేకపొయాను."
 
-#: printwrapper.cpp:317
+#: printwrapper.cpp:316
+#, qt-format
 msgid "Multiple files (%1)"
 msgstr "ఎక్కువ దస్త్రాలు (%1)"
 
-#: printwrapper.cpp:324
+#: printwrapper.cpp:323
 msgid "Nothing to print."
 msgstr "ప్రచురించేందుకు ఏమి లేదు."
 
-#: printwrapper.cpp:349
+#: printwrapper.cpp:348
 msgid "Unable to open temporary file."
 msgstr "తాత్కాలిక దస్త్రాన్ని తెరువలేకపోయాను."
 
-#: printwrapper.cpp:364
+#: printwrapper.cpp:363
 msgid "Stdin is empty, no job sent."
 msgstr "ఖాళీ STDIN, ఏ పని పంపించలేదు."
 
-#: printwrapper.cpp:376
-#, c-format
+#: printwrapper.cpp:375
+#, qt-format
+#| msgid "Unable to copy file %1."
 msgid "Unable to copy file %1."
 msgstr ""
 
-#: printwrapper.cpp:393
+#: printwrapper.cpp:392
 msgid "Error while printing files"
 msgstr "దస్త్రాలను ప్రచురించునప్పుడు దోషం వచ్చింది"

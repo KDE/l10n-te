@@ -5,7 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nsplugin\n"
-"POT-Creation-Date: 2006-09-29 02:33+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-04-03 05:45+0200\n"
 "PO-Revision-Date: 2007-04-03 19:54+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -15,78 +16,81 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: _translatorinfo.cpp:1
+#: nspluginloader.cpp:72
+msgid "Start Plugin"
+msgstr "ప్లగిన్ ని మొదలు పెట్టండి"
+
+#: plugin_part.cpp:167
+msgid "plugin"
+msgstr "ప్లగిన్"
+
+#: plugin_part.cpp:195
+msgid "&Save As..."
+msgstr "(&S) ఇలా దాచు"
+
+#: plugin_part.cpp:274
+#, qt-format
+msgid "Loading Netscape plugin for %1"
+msgstr "%1 కొరకు నెట్ స్కేప్ ప్లగిన్ ను ఎక్కించు"
+
+#: plugin_part.cpp:285
+#, qt-format
+msgid "Unable to load Netscape plugin for %1"
+msgstr "%1 కి నెట్ స్కేప్  ప్లగిన్ ఎక్కించ చేయలేక పోయాము"
+
+#: pluginscan.cpp:186
+msgid "Netscape plugin mimeinfo"
+msgstr "నెట్స్కేప్  ప్లగిన్ యొక్క మైమ్ సమాచారం"
+
+#: pluginscan.cpp:221
+msgid "Unnamed plugin"
+msgstr "పేరులేని ప్లగిన్"
+
+#: pluginscan.cpp:489 pluginscan.cpp:492
+msgid "Netscape plugin viewer"
+msgstr "నెట్స్కేప్ యొక్క ప్లగిన్ చూసే కార్యక్షేత్రం"
+
+#: pluginscan.cpp:542
+msgid "Show progress output for GUI"
+msgstr ""
+
+#: pluginscan.cpp:549
+msgid "nspluginscan"
+msgstr "ఎన్ ఎస్ ప్లగిన్ స్కాన్ "
+
+#. i18n: tag text
+#. i18n: file nspluginpart.rc line 4
+#. i18n: tag text
+#. i18n: file ./test/testnsplugin.rc line 5
+#. i18n: tag text
+#. i18n: file ./nspluginpart.rc line 4
+#: rc.cpp:3 rc.cpp:8 rc.cpp:11
+msgid "&File"
+msgstr ""
+
+#: rc.cpp:4
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 "పవిత్రన్ శాఖమూరి\n"
 "విజయ్ కిరణ్ కముజు"
 
-#: _translatorinfo.cpp:3
+#: rc.cpp:5
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 "pavithran.s@gmail.com\n"
 "infyquest@gmail.com"
 
-#: nspluginloader.cpp:66
-msgid "Start Plugin"
-msgstr "ప్లగిన్ ని మొదలు పెట్టండి"
-
-#: plugin_part.cpp:196
-msgid "plugin"
-msgstr "ప్లగిన్"
-
-#: plugin_part.cpp:220
-msgid "&Save As..."
-msgstr "(&S) ఇలా దాచు"
-
-#: plugin_part.cpp:301
-#, c-format
-msgid "Loading Netscape plugin for %1"
-msgstr "%1 కొరకు నెట్ స్కేప్ ప్లగిన్ ను ఎక్కించు"
-
-#: plugin_part.cpp:309
-#, c-format
-msgid "Unable to load Netscape plugin for %1"
-msgstr "%1 కి నెట్ స్కేప్  ప్లగిన్ ఎక్కించ చేయలేక పోయాము"
-
-#: pluginscan.cpp:198
-msgid "Netscape plugin mimeinfo"
-msgstr "నెట్స్కేప్  ప్లగిన్ యొక్క మైమ్ సమాచారం"
-
-#: pluginscan.cpp:233
-msgid "Unnamed plugin"
-msgstr "పేరులేని ప్లగిన్"
-
-#: pluginscan.cpp:504 pluginscan.cpp:507
-msgid "Netscape plugin viewer"
-msgstr "నెట్స్కేప్ యొక్క ప్లగిన్ చూసే కార్యక్షేత్రం"
-
-#: pluginscan.cpp:557
-msgid "Show progress output for GUI"
-msgstr ""
-
-#: pluginscan.cpp:564
-msgid "nspluginscan"
-msgstr "ఎన్ ఎస్ ప్లగిన్ స్కాన్ "
-
-#: viewer/nsplugin.cpp:805
-#, c-format
+#: viewer/nsplugin.cpp:814
+#, qt-format
 msgid "Submitting data to %1"
 msgstr "%1 కి సమాచారం సమర్పించుతున్నాము"
 
-#: viewer/nsplugin.cpp:824
-#, c-format
+#: viewer/nsplugin.cpp:833
+#, qt-format
 msgid "Requesting %1"
 msgstr "%1 ని కోరుచున్నాము"
 
-#: viewer/viewer.cpp:278
-msgid ""
-"There was an error connecting to the Desktop communications server. Please make "
-"sure that the 'dcopserver' process has been started, and then try again."
-msgstr ""
-
-#: viewer/viewer.cpp:282
-msgid "Error Connecting to DCOP Server"
-msgstr "డికాప్ సర్వర్  తో బంధం ఏర్పరచుటలో దోషం"
+#~ msgid "Error Connecting to DCOP Server"
+#~ msgstr "డికాప్ సర్వర్  తో బంధం ఏర్పరచుటలో దోషం"
