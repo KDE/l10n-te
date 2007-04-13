@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-12 05:45+0200\n"
+"POT-Creation-Date: 2007-04-13 06:07+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -2764,42 +2764,42 @@ msgstr "పూర్వాహ్నము"
 msgid "pm"
 msgstr "మధ్యాహ్నము"
 
-#: kdecore/util/klibloader.cpp:196
+#: kdecore/util/klibloader.cpp:195
 #, qt-format
 msgid "The library %1 does not offer an %2 function."
 msgstr "లైబ్రరి %1లో %2 ఫంక్షన్ లేదు."
 
-#: kdecore/util/klibloader.cpp:210
+#: kdecore/util/klibloader.cpp:209
 #, qt-format
 msgid "The library %1 does not offer a KDE compatible factory."
 msgstr "%1 లైబ్రరిలో కెడిఈ కి సరిపడె ఫేక్టరి లేదు"
 
-#: kdecore/util/klibloader.cpp:521
+#: kdecore/util/klibloader.cpp:520
 #, qt-format
 msgid "Library files for \"%1\" not found in paths."
 msgstr "\"%1\" కొరకు లైబ్రరి దస్త్రాలు దారులలొ దొరకలేదు."
 
-#: kdecore/util/klibloader.cpp:669
+#: kdecore/util/klibloader.cpp:668
 msgid "No service matching the requirements was found"
 msgstr ""
 
-#: kdecore/util/klibloader.cpp:671
+#: kdecore/util/klibloader.cpp:670
 msgid ""
 "The service provides no library, the Library key is missing in the .desktop "
 "file"
 msgstr ""
 
-#: kdecore/util/klibloader.cpp:675
+#: kdecore/util/klibloader.cpp:674
 #, fuzzy
 #| msgid "The library %1 does not offer an %2 function."
 msgid "The library does not export a factory for creating components"
 msgstr "లైబ్రరి %1లో %2 ఫంక్షన్ లేదు."
 
-#: kdecore/util/klibloader.cpp:677
+#: kdecore/util/klibloader.cpp:676
 msgid "The factory does not support creating components of the specified type"
 msgstr ""
 
-#: kdecore/util/klibloader.cpp:679
+#: kdecore/util/klibloader.cpp:678
 #, fuzzy
 #| msgid "Unknown error"
 msgid "KLibLoader: Unknown error"
@@ -4335,7 +4335,6 @@ msgstr "(&R) పునరుద్ధరణ"
 
 #: kdeui/util/ksystemtrayicon.cpp:186
 #, qt-format
-#| msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr ""
 
@@ -4844,10 +4843,6 @@ msgstr ""
 
 #: kdeui/dialogs/kshortcutsdialog.cpp:609
 #, qt-format
-#| msgid ""
-#| "The '%1' key combination has already been allocated to the \"%2\" "
-#| "action.\n"
-#| "Do you want to reassign it from that action to the current one?"
 msgid ""
 "The '%1' key combination has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
@@ -4970,8 +4965,8 @@ msgstr ""
 msgid "Reset ToolBars"
 msgstr "పనిముట్ల పట్టీలు"
 
-#: kdeui/dialogs/kedittoolbar.cpp:467 khtml/khtmlview.cpp:2682
-#: khtml/khtmlview.cpp:2715 khtml/html/html_formimpl.cpp:2162
+#: kdeui/dialogs/kedittoolbar.cpp:467 khtml/khtmlview.cpp:2670
+#: khtml/khtmlview.cpp:2703 khtml/html/html_formimpl.cpp:2162
 msgid "Reset"
 msgstr ""
 
@@ -5315,9 +5310,6 @@ msgstr "\"%1\" అక్షర రూపం యొక్క ముందు వ�
 
 #: kdeui/fonts/kfontrequester.cpp:169
 #, qt-format
-#| msgid ""
-#| "This is a preview of the \"%1\" font. You can change it by clicking the "
-#| "\"Choose...\" button."
 msgid ""
 "This is a preview of the \"%1\" font. You can change it by clicking the "
 "\"Choose...\" button."
@@ -5707,15 +5699,11 @@ msgstr "మరల మొదలుపెట్టు"
 
 #: kdeui/findreplace/kreplacedialog.cpp:145
 #, qt-format
-#| msgid ""
-#| "Your replacement string is referencing a capture greater than '\\%1', "
 msgid "Your replacement string is referencing a capture greater than '\\%1', "
 msgstr ""
 
 #: kdeui/findreplace/kreplacedialog.cpp:147
 #, qt-format
-#| msgid "but your pattern only defines 1 capture."
-#| msgid_plural "but your pattern only defines %1 captures."
 msgid "but your pattern only defines 1 capture."
 msgid_plural "but your pattern only defines %1 captures."
 msgstr[0] ""
@@ -5739,7 +5727,6 @@ msgstr "తర్వాతది కనుగొను"
 
 #: kdeui/findreplace/kfind.cpp:57
 #, qt-format
-#| msgid "<qt>Find next occurrence of '<b>%1</b>'?</qt>"
 msgid "<qt>Find next occurrence of '<b>%1</b>'?</qt>"
 msgstr ""
 
@@ -5791,10 +5778,6 @@ msgstr "వసుదైక శీఘ్రమార్గంతొ ఘర్ష�
 
 #: kdeui/shortcuts/kglobalaccel.cpp:336
 #, qt-format
-#| msgid ""
-#| "The '%1' key combination has already been allocated to the global action "
-#| "\"%2\".\n"
-#| "Do you want to reassign it from that action to the current one?"
 msgid ""
 "The '%1' key combination has already been allocated to the global action \"%2"
 "\".\n"
@@ -7918,15 +7901,12 @@ msgstr "(&S) ఈమెయిల్ పంపించు"
 
 #: khtml/khtml_part.cpp:4806
 #, qt-format
-#| msgid ""
-#| "<qt>The form will be submitted to <BR><B>%1</B><BR>on your local "
-#| "filesystem.<BR>Do you want to submit the form?"
 msgid ""
 "<qt>The form will be submitted to <BR><B>%1</B><BR>on your local filesystem."
 "<BR>Do you want to submit the form?"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4807 khtml/khtmlview.cpp:2668 khtml/khtmlview.cpp:2710
+#: khtml/khtml_part.cpp:4807 khtml/khtmlview.cpp:2656 khtml/khtmlview.cpp:2698
 #: khtml/html/html_formimpl.cpp:1559 khtml/html/html_formimpl.cpp:2170
 msgid "Submit"
 msgstr "అందించు"
@@ -8050,43 +8030,43 @@ msgstr "(&G) వరుసకు వెళ్ళు..."
 msgid "Remove from ignores..."
 msgstr ""
 
-#: khtml/khtmlview.cpp:1690
+#: khtml/khtmlview.cpp:1678
 msgid "Find stopped."
 msgstr "వెతుకుట ఆగిపొయింది."
 
-#: khtml/khtmlview.cpp:1701
+#: khtml/khtmlview.cpp:1689
 msgid "Starting -- find links as you type"
 msgstr "మొదలు  - లింకులు వ్రాస్తుండగా వెతుకు"
 
-#: khtml/khtmlview.cpp:1707
+#: khtml/khtmlview.cpp:1695
 msgid "Starting -- find text as you type"
 msgstr "మొదలు - వచనం వ్రాస్తుండగా వెతుకు"
 
-#: khtml/khtmlview.cpp:1730
+#: khtml/khtmlview.cpp:1718
 #, qt-format
 msgid "Link found: \"%1\"."
 msgstr "లింకు దొరికింది: \"%1\"."
 
-#: khtml/khtmlview.cpp:1735
+#: khtml/khtmlview.cpp:1723
 #, qt-format
 msgid "Link not found: \"%1\"."
 msgstr "లింకు దొరకలేదు: \"%1\"."
 
-#: khtml/khtmlview.cpp:1743
+#: khtml/khtmlview.cpp:1731
 #, qt-format
 msgid "Text found: \"%1\"."
 msgstr "వచనం దొరికింది: \"%1\""
 
-#: khtml/khtmlview.cpp:1748
+#: khtml/khtmlview.cpp:1736
 #, qt-format
 msgid "Text not found: \"%1\"."
 msgstr "వచనం దొరకలేదు: \"%1\""
 
-#: khtml/khtmlview.cpp:1794
+#: khtml/khtmlview.cpp:1782
 msgid "Access Keys activated"
 msgstr ""
 
-#: khtml/khtmlview.cpp:2890
+#: khtml/khtmlview.cpp:2878
 #, qt-format
 msgid "Print %1"
 msgstr "%1 ప్రచురించు"
@@ -8245,9 +8225,6 @@ msgstr "అనుమతి కావాలి"
 
 #: khtml/ecma/kjs_window.cpp:2826
 #, qt-format
-#| msgid ""
-#| "Do you want a bookmark pointing to the location \"%1\" to be added to "
-#| "your collection?"
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
@@ -8255,9 +8232,6 @@ msgstr ""
 
 #: khtml/ecma/kjs_window.cpp:2829
 #, qt-format
-#| msgid ""
-#| "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to "
-#| "be added to your collection?"
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
@@ -8284,10 +8258,6 @@ msgstr ""
 
 #: khtml/ecma/kjs_html.cpp:2111
 #, qt-format
-#| msgid ""
-#| "<qt>This site is submitting a form which will open <p>%1</p> in a new "
-#| "browser window via JavaScript.<br />Do you want to allow the form to be "
-#| "submitted?</qt>"
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
 "browser window via JavaScript.<br />Do you want to allow the form to be "
@@ -8401,11 +8371,6 @@ msgstr ""
 
 #: khtml/html/html_formimpl.cpp:646
 #, qt-format
-#| msgid ""
-#| "Konqueror has the ability to store the password in an encrypted wallet. "
-#| "When the wallet is unlocked, it can then automatically restore the login "
-#| "information next time you visit %1. Do you want to store the information "
-#| "now?"
 msgid ""
 "Konqueror has the ability to store the password in an encrypted wallet. When "
 "the wallet is unlocked, it can then automatically restore the login "
@@ -9057,11 +9022,6 @@ msgstr "(&O) దీనితో తెరువండి"
 
 #: kutils/kcmoduleloader.cpp:97
 #, qt-format
-#| msgid ""
-#| "<qt>There was an error when loading the module '%1'.<br><br>The desktop "
-#| "file (%2) as well as the library (%3) was found but yet the module could "
-#| "not be loaded properly. Most likely the factory declaration was wrong, or "
-#| "the create_* function was missing.</qt>"
 msgid ""
 "<qt>There was an error when loading the module '%1'.<br><br>The desktop file "
 "(%2) as well as the library (%3) was found but yet the module could not be "
@@ -9120,13 +9080,6 @@ msgstr "మాడ్యూల్ ఎక్కించుటలొ దొషం 
 
 #: kutils/kcmoduleloader.cpp:182 kutils/kcmoduleloader.cpp:197
 #, qt-format
-#| msgid ""
-#| "<qt><p>The diagnostics is:<br>%1<p>Possible reasons:</p><ul><li>An error "
-#| "occurred during your last KDE upgrade leaving an orphaned control "
-#| "module<li>You have old third party modules lying around.</ul><p>Check "
-#| "these points carefully and try to remove the module mentioned in the "
-#| "error message. If this fails, consider contacting your distributor or "
-#| "packager.</p></qt>"
 msgid ""
 "<qt><p>The diagnostics is:<br>%1<p>Possible reasons:</p><ul><li>An error "
 "occurred during your last KDE upgrade leaving an orphaned control "
@@ -9205,8 +9158,6 @@ msgstr ""
 
 #: kutils/kcmoduleproxy.cpp:195
 #, qt-format
-#| msgctxt "Argument is application name"
-#| msgid "This configuration section is already opened in %1"
 msgctxt "Argument is application name"
 msgid "This configuration section is already opened in %1"
 msgstr ""
@@ -9260,37 +9211,42 @@ msgstr ""
 msgid "Incorrect number of arguments."
 msgstr ""
 
-#: kjsembed/kjsembed/qobject_binding.cpp:407
+#: kjsembed/kjsembed/qobject_binding.cpp:408
 #, qt-format
 msgid ""
 "The slot sked for %1 arguments but there are only %2 arguments available."
 msgstr ""
 
-#: kjsembed/kjsembed/qobject_binding.cpp:474
+#: kjsembed/kjsembed/qobject_binding.cpp:555
 #, qt-format
-msgid "Cast failure %1 value Type %2"
+msgid "Failure to cast to %1 value from Type %2 (%3)"
 msgstr ""
 
-#: kjsembed/kjsembed/qobject_binding.cpp:514
+#: kjsembed/kjsembed/qobject_binding.cpp:590
 #, fuzzy, qt-format
 #| msgid "No menu item '%1'."
 msgid "No such method '%1'."
 msgstr "'%1' పట్టీ అంశం లేదు."
 
-#: kjsembed/kjsembed/qobject_binding.cpp:541
+#: kjsembed/kjsembed/qobject_binding.cpp:605
+#, qt-format
+msgid "Call to method '%1' failed, unable to get argument %2: %3"
+msgstr ""
+
+#: kjsembed/kjsembed/qobject_binding.cpp:620
 #, fuzzy, qt-format
 #| msgid "Installation failed."
 msgid "Call to '%1' failed."
 msgstr "స్థాపన విఫలము."
 
-#: kjsembed/kjsembed/qobject_binding.cpp:616
+#: kjsembed/kjsembed/qobject_binding.cpp:695
 #: kjsembed/kjsembed/object_binding.h:217
 #, fuzzy, qt-format
 #| msgid "Base is not an object"
 msgid "%1 is not an Object type"
 msgstr "మూలం ఆబ్జెక్ట్ కాదు"
 
-#: kjsembed/kjsembed/qobject_binding.cpp:622
+#: kjsembed/kjsembed/qobject_binding.cpp:701
 #, fuzzy
 #| msgid "Could not load the file."
 msgid "Could not construct value"
