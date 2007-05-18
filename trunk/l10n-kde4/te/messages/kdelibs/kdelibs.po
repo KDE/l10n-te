@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-16 05:45+0200\n"
+"POT-Creation-Date: 2007-05-18 05:51+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -4619,6 +4619,7 @@ msgid "Front"
 msgstr "ముందర"
 
 #: kdeui/util/kkeyserver_x11.cpp:114 kdeui/shortcuts/kstandardshortcut.cpp:75
+#: kfile/kurlbutton.cpp:85
 msgid "Copy"
 msgstr "నకలు"
 
@@ -4627,6 +4628,7 @@ msgid "Open"
 msgstr "తెరువండి"
 
 #: kdeui/util/kkeyserver_x11.cpp:116 kdeui/shortcuts/kstandardshortcut.cpp:76
+#: kfile/kurlbutton.cpp:89
 msgid "Paste"
 msgstr "అతికించు"
 
@@ -6685,31 +6687,31 @@ msgstr "ప్రతిమ పరిమాణము"
 msgid "Unknown View"
 msgstr "తెలియని క్షేత్రం"
 
-#: kfile/kfileplacesview.cpp:116
+#: kfile/kfileplacesview.cpp:119
 #, fuzzy
 #| msgid "&Edit..."
 msgid "&Edit Entry..."
 msgstr "(&E) సరిదిద్దు..."
 
-#: kfile/kfileplacesview.cpp:121
+#: kfile/kfileplacesview.cpp:124
 #, fuzzy
 #| msgid "Add Entry"
 msgid "&Hide Entry"
 msgstr "దఖలు చేయండి"
 
-#: kfile/kfileplacesview.cpp:128
+#: kfile/kfileplacesview.cpp:131
 #, fuzzy
 #| msgid "Show all options"
 msgid "&Show All Entries"
 msgstr "అన్ని ఐచ్చికములు చూపుము"
 
-#: kfile/kfileplacesview.cpp:135
+#: kfile/kfileplacesview.cpp:138
 #, fuzzy
 #| msgid "Add Entry"
 msgid "&Add Entry..."
 msgstr "దఖలు చేయండి"
 
-#: kfile/kfileplacesview.cpp:139
+#: kfile/kfileplacesview.cpp:142
 #, fuzzy
 #| msgid "Remove Entry"
 msgid "&Remove Entry"
@@ -7327,6 +7329,16 @@ msgstr "అక్షర రూపాన్ని ఎంచుకొనేంద�
 #| msgid "Click to select a font"
 msgid "Click to Edit Location"
 msgstr "అక్షర రూపాన్ని ఎంచుకొనేందుకు క్లిక్ చెయండి"
+
+#: kfile/kurlbutton.cpp:96 kross/ui/view.cpp:525
+msgid "Edit"
+msgstr "సరిదిద్దు"
+
+#: kfile/kurlbutton.cpp:99
+#, fuzzy
+#| msgid "Navigation"
+msgid "Navigate"
+msgstr "సంచారము"
 
 #: khtml/khtml_run.cpp:84 khtml/khtml_part.cpp:3907 khtml/khtml_part.cpp:4121
 #: khtml/khtml_part.cpp:4442 kparts/browserrun.cpp:403
@@ -8691,10 +8703,6 @@ msgstr "(&C) క్రిప్టొ అభికర్త..."
 #: kross/ui/view.cpp:348
 msgid "Script Manager to configure scripts."
 msgstr ""
-
-#: kross/ui/view.cpp:525
-msgid "Edit"
-msgstr "సరిదిద్దు"
 
 #: kross/core/interpreter.cpp:132
 #, fuzzy, qt-format
@@ -11987,9 +11995,6 @@ msgstr "%1 - తెలియని యూజర్ దారి\n"
 
 #~ msgid "<empty UNIX socket>"
 #~ msgstr "<ఖాళి యునిక్స్ సాకెట్>"
-
-#~ msgid "Navigation"
-#~ msgstr "సంచారము"
 
 #~ msgctxt ""
 #~ "Dear translator, please do not translate this string in any form, but "
