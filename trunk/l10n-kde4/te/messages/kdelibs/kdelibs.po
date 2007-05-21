@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-19 05:48+0200\n"
+"POT-Creation-Date: 2007-05-21 05:45+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -1384,7 +1384,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 90
 #: rc.cpp:633 rc.cpp:935 kdeui/util/kstandardguiitem.cpp:265
-#: kdeui/util/kkeyserver_x11.cpp:109 kdeui/findreplace/kreplace.cpp:324
+#: kdeui/util/kkeyserver_x11.cpp:109 kdeui/findreplace/kreplace.cpp:329
 #: khtml/ecma/kjs_debugwin.cpp:483 khtml/ecma/debugger/debugwindow.cpp:177
 #: kross/ui/view.cpp:309
 msgid "Stop"
@@ -4645,7 +4645,7 @@ msgstr "కత్తిరించు"
 msgid "Print"
 msgstr "ప్రచురణ"
 
-#: kdeui/util/kcompletion.cpp:628
+#: kdeui/util/kcompletion.cpp:662
 msgid ""
 "You reached the end of the list\n"
 "of matching items.\n"
@@ -4653,7 +4653,7 @@ msgstr ""
 "మీరు జత కుదిరన అంశాల\n"
 "జాబితా చివరకు వచ్చెసారు.\n"
 
-#: kdeui/util/kcompletion.cpp:634
+#: kdeui/util/kcompletion.cpp:668
 msgid ""
 "The completion is ambiguous, more than one\n"
 "match is available.\n"
@@ -4661,7 +4661,7 @@ msgstr ""
 "పూరణ సంగ్దిదమైనది, \n"
 "ఒకటి కంటే ఎక్కువ జతలు కలవు.\n"
 
-#: kdeui/util/kcompletion.cpp:640
+#: kdeui/util/kcompletion.cpp:674
 msgid "There is no matching item available.\n"
 msgstr "జతైన అంశము దొరకలేదు.\n"
 
@@ -5670,11 +5670,11 @@ msgstr "(&S) దాటు"
 msgid "Replace '%1' with '%2'?"
 msgstr "'%1' ను '%2' తో ప్రతిస్థాపించనా?"
 
-#: kdeui/findreplace/kreplace.cpp:110 kdeui/findreplace/kreplace.cpp:305
+#: kdeui/findreplace/kreplace.cpp:115 kdeui/findreplace/kreplace.cpp:310
 msgid "No text was replaced."
 msgstr "వచనం ప్రతిస్థాపించబడలేదు."
 
-#: kdeui/findreplace/kreplace.cpp:112 kdeui/findreplace/kreplace.cpp:307
+#: kdeui/findreplace/kreplace.cpp:117 kdeui/findreplace/kreplace.cpp:312
 #, fuzzy, qt-format
 #| msgid "1 replacement done."
 #| msgid_plural "%1 replacements done."
@@ -5683,23 +5683,23 @@ msgid_plural "%1 replacements done."
 msgstr[0] "1 ప్రతిస్థాపణ జరిగినది."
 msgstr[1] "%1 ప్రతిస్థాపణలు జరిగినవి."
 
-#: kdeui/findreplace/kreplace.cpp:312 kdeui/findreplace/kfind.cpp:667
+#: kdeui/findreplace/kreplace.cpp:317 kdeui/findreplace/kfind.cpp:667
 msgid "Beginning of document reached."
 msgstr "పత్రం మొదటికి వచ్చేసాము"
 
-#: kdeui/findreplace/kreplace.cpp:314 kdeui/findreplace/kfind.cpp:669
+#: kdeui/findreplace/kreplace.cpp:319 kdeui/findreplace/kfind.cpp:669
 msgid "End of document reached."
 msgstr "పత్రం చివరకు వచ్చేసాము"
 
-#: kdeui/findreplace/kreplace.cpp:321
+#: kdeui/findreplace/kreplace.cpp:326
 msgid "Do you want to restart search from the end?"
 msgstr "మీరు అన్వేషణ మళ్లి చివర నుంచి మొదలు పెట్టమంటారా?"
 
-#: kdeui/findreplace/kreplace.cpp:322
+#: kdeui/findreplace/kreplace.cpp:327
 msgid "Do you want to restart search at the beginning?"
 msgstr "మీరు అన్వేషణ మళ్లి మొదటి నుంచి మొదలు పెట్టమంటారా?"
 
-#: kdeui/findreplace/kreplace.cpp:324
+#: kdeui/findreplace/kreplace.cpp:329
 msgid "Restart"
 msgstr "మరల మొదలుపెట్టు"
 
@@ -5992,7 +5992,7 @@ msgctxt ""
 msgid "LTR"
 msgstr ""
 
-#: kdeui/kernel/kapplication.cpp:829
+#: kdeui/kernel/kapplication.cpp:834
 #, qt-format
 msgid "The style %1 was not found\n"
 msgstr "%1 శైలి కనపడలేదు\n"
@@ -9116,52 +9116,110 @@ msgid ""
 "p></qt>"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:62 kutils/kpluginselector.cpp:85
+#: kutils/kpluginselector.cpp:184
+msgid ""
+"Automatically changes have been performed in order to satisfy plugin "
+"dependencies:\n"
+msgstr ""
+
+#: kutils/kpluginselector.cpp:188
 #, qt-format
 msgid ""
-"<qt><table><tr><td><b>Description:</b></td><td>%1</td></tr><tr><td><b>Author:"
-"</b></td><td>%2</td></tr><tr><td><b>Version:</b></td><td>%3</td></"
-"tr><tr><td><b>License:</b></td><td>%4</td></tr></table></qt>"
-msgstr ""
-"<qt><table><tr><td><b>వర్ణన:</b></td><td>%1</td></tr><tr><td><b>మూలకర్త:</b></"
-"td><td>%2</td></tr><tr><td><b>వివరణం<:</b></td><td>%3</td></"
-"tr><tr><td><b>లైసెన్స్:</b></td><td>%4</td></tr></table></qt>"
-
-#: kutils/kpluginselector.cpp:195
-#, fuzzy
-#| msgid "No provider selected."
-msgid "No item selected"
-msgstr "ఏ ఒక సిద్దంచెసేవారినీ ఎన్నుకోలేదు."
-
-#: kutils/kpluginselector.cpp:207
-msgid "This plugin is not configurable"
+"\n"
+"    %1 plugin has been automatically checked because the dependency of %2 "
+"plugin"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:388
-msgid "<b>Error while retrieving plugin configuration dialog</b>"
-msgstr ""
-
-#: kutils/kpluginselector.cpp:389
+#: kutils/kpluginselector.cpp:190
 #, qt-format
 msgid ""
-"A error ocurred while trying to load the configuration dialog of the current "
-"plugin (<b>%1</b>) in the library <b>%2</b>"
+"\n"
+"    %1 plugin has been automatically unchecked becase its dependency on %2 "
+"plugin"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:486
+#: kutils/kpluginselector.cpp:192
+msgid "Dependency Check"
+msgstr ""
+
+#: kutils/kpluginselector.cpp:210
 #, qt-format
-msgid "Category: <b>%1</b>"
+msgid "%1 plugin added"
+msgid_plural "%1 plugins added"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kutils/kpluginselector.cpp:213
+msgid ", "
 msgstr ""
 
-#: kutils/kpluginselector.cpp:493
-msgid "You can navigate through category items by selecting them on the tree"
+#: kutils/kpluginselector.cpp:216
+#, qt-format
+msgid "%1 plugin removed"
+msgid_plural "%1 plugins removed"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kutils/kpluginselector.cpp:219
+msgid " since the last time you asked for details"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:541 kutils/kpluginselector_p.h:64
+#: kutils/kpluginselector.cpp:681 kutils/kpluginselector.cpp:920
 #, fuzzy
-#| msgid "Expand &Vertically"
-msgid "Expand all"
-msgstr "(&V) నిలువుగా విస్తరించు"
+#| msgid "Options"
+msgid "More Options"
+msgstr "ఇష్టములు"
+
+#: kutils/kpluginselector.cpp:682 kutils/kpluginselector.cpp:923
+#: kutils/kpluginselector.cpp:1075
+msgid "About"
+msgstr "గురించి"
+
+#: kutils/kpluginselector.cpp:1060
+#, fuzzy, qt-format
+#| msgid "Description:"
+msgid ""
+"Description:\n"
+"\t%1"
+msgstr "వర్ణన:"
+
+#: kutils/kpluginselector.cpp:1061
+#, fuzzy, qt-format
+#| msgid "Author:"
+msgid ""
+"Author:\n"
+"\t%1"
+msgstr "మూలకర్త:"
+
+#: kutils/kpluginselector.cpp:1062
+#, qt-format
+msgid ""
+"E-Mail:\n"
+"\t%1"
+msgstr ""
+
+#: kutils/kpluginselector.cpp:1063
+#, qt-format
+msgid ""
+"Website:\n"
+"\t%1"
+msgstr ""
+
+#: kutils/kpluginselector.cpp:1064
+#, fuzzy, qt-format
+#| msgid "Version:"
+msgid ""
+"Version:\n"
+"\t%1"
+msgstr "వివరణం:"
+
+#: kutils/kpluginselector.cpp:1065
+#, fuzzy, qt-format
+#| msgid "License:"
+msgid ""
+"License:\n"
+"\t%1"
+msgstr "లైసెన్స్:"
 
 #: kutils/kcmoduleproxy.cpp:168
 #, fuzzy
@@ -10283,12 +10341,6 @@ msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br>యూనికోడ్ కోడ్ పాయింట్: U+%3<br>(దశాంశం "
 "లో: %4)<br>(అక్షరం: %5)</qt>"
 
-#: kutils/kpluginselector_p.h:65
-#, fuzzy
-#| msgid "&Close Wallet"
-msgid "Collapse all"
-msgstr "(&C) వాలెట్ ముసివేయి"
-
 #: kdecore/kde-config.cpp.in:21
 msgid "A little program to output installation paths"
 msgstr "స్థాపణ దారులు చూపేందుకు చిన్న కార్యక్రమం"
@@ -10466,6 +10518,31 @@ msgstr "%1 - తెలియని రకం\n"
 #, qt-format
 msgid "%1 - unknown type of userpath\n"
 msgstr "%1 - తెలియని యూజర్ దారి\n"
+
+#~ msgid ""
+#~ "<qt><table><tr><td><b>Description:</b></td><td>%1</td></"
+#~ "tr><tr><td><b>Author:</b></td><td>%2</td></tr><tr><td><b>Version:</b></"
+#~ "td><td>%3</td></tr><tr><td><b>License:</b></td><td>%4</td></tr></table></"
+#~ "qt>"
+#~ msgstr ""
+#~ "<qt><table><tr><td><b>వర్ణన:</b></td><td>%1</td></tr><tr><td><b>మూలకర్త:</"
+#~ "b></td><td>%2</td></tr><tr><td><b>వివరణం<:</b></td><td>%3</td></"
+#~ "tr><tr><td><b>లైసెన్స్:</b></td><td>%4</td></tr></table></qt>"
+
+#, fuzzy
+#~| msgid "No provider selected."
+#~ msgid "No item selected"
+#~ msgstr "ఏ ఒక సిద్దంచెసేవారినీ ఎన్నుకోలేదు."
+
+#, fuzzy
+#~| msgid "Expand &Vertically"
+#~ msgid "Expand all"
+#~ msgstr "(&V) నిలువుగా విస్తరించు"
+
+#, fuzzy
+#~| msgid "&Close Wallet"
+#~ msgid "Collapse all"
+#~ msgstr "(&C) వాలెట్ ముసివేయి"
 
 #~ msgid "Hide &Menubar"
 #~ msgstr "(&M) సూచన పట్టి చూపించకు"
@@ -11106,9 +11183,6 @@ msgstr "%1 - తెలియని యూజర్ దారి\n"
 
 #~ msgid "Contents"
 #~ msgstr "విషయములు"
-
-#~ msgid "About"
-#~ msgstr "గురించి"
 
 #~ msgid "A&bout"
 #~ msgstr "(&b) గురించి"
