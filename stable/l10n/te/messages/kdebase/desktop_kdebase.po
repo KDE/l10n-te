@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-28 00:20+0000\n"
+"POT-Creation-Date: 2007-05-30 00:19+0000\n"
 "PO-Revision-Date: 2007-03-22 13:41+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -13,6 +13,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
+
+#: applnk/.directory:2 l10n/C/entry.desktop:2
+msgid "Name=Default"
+msgstr "Name=అప్రమెయం"
 
 #: applnk/compat/battery.desktop:3 applnk/compat/bwarning.desktop:3
 #: applnk/compat/cwarning.desktop:3 applnk/compat/power.desktop:3
@@ -3083,7 +3087,7 @@ msgstr "Name=సీడీ-రామ్ సమాచారం"
 msgid "Comment=CD/DVD Drive Capabilites"
 msgstr "Comment=సీడి/డివిడి డ్రైవ్ సామర్ద్యాలు"
 
-#: kcontrol/info/cdinfo.desktop:115
+#: kcontrol/info/cdinfo.desktop:116
 msgid "Keywords=CD-ROM Information,CD-ROM,CD,CD Drive,Writer Capabilities"
 msgstr ""
 
@@ -4042,7 +4046,7 @@ msgstr ""
 msgid "GenericName=Screen Resize & Rotate"
 msgstr ""
 
-#: kcontrol/randr/krandrtray.desktop:71
+#: kcontrol/randr/krandrtray.desktop:72
 msgid "Comment=Resize and rotate X screens."
 msgstr ""
 
@@ -4269,7 +4273,7 @@ msgid "Comment=Printer Model"
 msgstr ""
 
 #: kdesktop/init/Home.desktop:3
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1078
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1109
 #: konqueror/Home.desktop:8
 msgid "Name=Home"
 msgstr "Name=ఇల్లు"
@@ -4414,7 +4418,7 @@ msgstr "Name=స్వయంచాలన"
 msgid "Name=Templates"
 msgstr "Name=టెంప్లెటులు"
 
-#: kdesktop/init/directory.trash:7 kicker/applets/trash/trashapplet.desktop:57
+#: kdesktop/init/directory.trash:7 kicker/applets/trash/trashapplet.desktop:58
 #: kioslave/system/entries/trash.desktop:7
 msgid "Name=Trash"
 msgstr "Name=చెత్త బుట్ట"
@@ -4874,7 +4878,7 @@ msgstr ""
 msgid "Name=Circles"
 msgstr "Name=వృత్తాలు"
 
-#: kdm/kfrontend/themes/circles/GdmGreeterTheme.desktop:63
+#: kdm/kfrontend/themes/circles/GdmGreeterTheme.desktop:64
 msgid "Description=Theme with blue circles"
 msgstr ""
 
@@ -4894,11 +4898,11 @@ msgstr "Name=సహాయం"
 msgid "Name=Index"
 msgstr "Name=సూచిక"
 
-#: khelpcenter/htmlsearch/htmlsearch.desktop:87
+#: khelpcenter/htmlsearch/htmlsearch.desktop:88
 msgid "Comment=Index generation"
 msgstr "Comment=సూచిక ను తయారుచెయుట"
 
-#: khelpcenter/htmlsearch/htmlsearch.desktop:165
+#: khelpcenter/htmlsearch/htmlsearch.desktop:167
 msgid "Keywords=Help,HTML,Search,Index,htdig,htsearch,htmerge,Scope,Language"
 msgstr ""
 "Keywords=సహాయం,హెచ్ టి ఎంఎల్,అన్వెషణ, సూచిక, హెచ్ టి డిగ్,హెచ్ టి అన్వెషణ,హెచ్ "
@@ -4908,11 +4912,11 @@ msgstr ""
 msgid "Name=Help Index"
 msgstr "Name=సహాయ సూచిక"
 
-#: khelpcenter/kcmhelpcenter.desktop:89
+#: khelpcenter/kcmhelpcenter.desktop:90
 msgid "Comment=Help center search index configuration and generation"
 msgstr "Comment=సహాయ కేంద్ర అన్వెషణ సూచి అమరిక మరయూ తయారుచెయుట"
 
-#: khelpcenter/kcmhelpcenter.desktop:161
+#: khelpcenter/kcmhelpcenter.desktop:163
 msgid "Keywords=khelpcenter,help,index,search"
 msgstr "Keywords=కెసహాయకేంద్రం,సహాయం,సూచిక, అన్వెషణ"
 
@@ -4920,9 +4924,19 @@ msgstr "Keywords=కెసహాయకేంద్రం,సహాయం,సూ�
 msgid "Name=KHelpCenter"
 msgstr "Name=కెసహాయ కేంద్రం"
 
-#: khelpcenter/khelpcenter.desktop:43
+#: khelpcenter/khelpcenter.desktop:44
 msgid "Comment=The KDE Help Center"
 msgstr "Comment=కెడిఈ సహాయ కేంద్రం"
+
+#: khelpcenter/plugins/Applications/.directory:3
+#, fuzzy
+msgid "Name=Application Manuals"
+msgstr "Name=అప్లెట్ మెన్యువళ్లు"
+
+#: khelpcenter/plugins/Manpages/.directory:2
+#, fuzzy
+msgid "Name=UNIX manual pages"
+msgstr "Name=చిత్రాలు"
 
 #: khelpcenter/plugins/Manpages/man1.desktop:2
 msgid "Name=(1) User Commands"
@@ -4964,11 +4978,26 @@ msgstr "Name=(9) కెర్నెల్"
 msgid "Name=(n) New"
 msgstr "Name=(n) కొత్త"
 
+#: khelpcenter/plugins/Scrollkeeper/.directory:2
+#, fuzzy
+msgid "Name=Scrollkeeper"
+msgstr "Name=స్క్రీన్ సేవర్"
+
+#: khelpcenter/plugins/Tutorials/.directory:3
+#, fuzzy
+msgid "Name=Tutorials"
+msgstr "Name=ఆస్ట్రియా"
+
+#: khelpcenter/plugins/Tutorials/.directory:74
+#, fuzzy
+msgid "Comment=Tutorial and introduction documents."
+msgstr "Comment=తప్పు ఆదేశం."
+
 #: khelpcenter/plugins/Tutorials/quickstart.desktop:4
 msgid "Name=Quickstart Guide"
 msgstr ""
 
-#: khelpcenter/plugins/Tutorials/quickstart.desktop:80
+#: khelpcenter/plugins/Tutorials/quickstart.desktop:81
 msgid "Comment=KDE quickstart guide."
 msgstr ""
 
@@ -4976,7 +5005,7 @@ msgstr ""
 msgid "Name=A Visual Guide to KDE"
 msgstr ""
 
-#: khelpcenter/plugins/Tutorials/visualdict.desktop:77
+#: khelpcenter/plugins/Tutorials/visualdict.desktop:78
 msgid "Comment=Guide to KDE widgets"
 msgstr ""
 
@@ -5052,22 +5081,22 @@ msgstr "Name=ఉదాహరణలు"
 #: khotkeys/data/kde32b1.khotkeys:560 khotkeys/data/kde32b1.khotkeys:588
 #: khotkeys/data/kde32b1.khotkeys:613 khotkeys/data/kde32b1.khotkeys:641
 #: khotkeys/data/kde32b1.khotkeys:666 khotkeys/data/kde32b1.khotkeys:726
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:256
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:356
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:454
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:559
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:664
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:707
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:811
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:914
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1021
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1167
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1270
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1373
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1526
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1631
-#: khotkeys/data/printscreen.khotkeys:67
-#: khotkeys/data/printscreen.khotkeys:125
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:263
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:366
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:467
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:575
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:683
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:727
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:834
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:940
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1050
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1198
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1304
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1410
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1565
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1673
+#: khotkeys/data/printscreen.khotkeys:69
+#: khotkeys/data/printscreen.khotkeys:128
 msgid "Comment="
 msgstr "Comment="
 
@@ -5092,7 +5121,7 @@ msgstr "Comment=కెసిర్క్"
 #: khotkeys/data/kde32b1.khotkeys:102 khotkeys/data/kde32b1.khotkeys:154
 #: khotkeys/data/kde32b1.khotkeys:207 khotkeys/data/kde32b1.khotkeys:323
 #: khotkeys/data/kde32b1.khotkeys:409 khotkeys/data/kde32b1.khotkeys:730
-#: khotkeys/data/printscreen.khotkeys:129
+#: khotkeys/data/printscreen.khotkeys:132
 msgid "Comment=Simple_action"
 msgstr ""
 
@@ -5211,52 +5240,52 @@ msgid "Name=Konqi Gestures"
 msgstr "Name=కాంక్వి సంజ్ఞలు"
 
 #: khotkeys/data/kde32b1.khotkeys:450
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:71
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:73
 msgid "Comment=Konqueror window"
 msgstr "Comment=కాంకెరర్ విండొ"
 
 #: khotkeys/data/kde32b1.khotkeys:467 khotkeys/data/kde32b1.khotkeys:473
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:108
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:117
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:111
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:120
 msgid "Comment=Konqueror"
 msgstr "Comment=కాంకెరర్"
 
 #: khotkeys/data/kde32b1.khotkeys:484
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:157
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:161
 msgid "Name=Back"
 msgstr "Name=వెనుకకు"
 
 #: khotkeys/data/kde32b1.khotkeys:511 khotkeys/data/kde32b1.khotkeys:564
 #: khotkeys/data/kde32b1.khotkeys:617 khotkeys/data/kde32b1.khotkeys:670
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:260
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:360
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:458
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:563
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:668
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:711
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:815
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:918
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1025
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1171
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1274
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1377
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1530
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1635
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:267
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:370
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:471
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:579
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:687
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:731
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:838
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:944
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1054
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1202
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1308
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1414
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1569
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1677
 msgid "Comment=Gesture_triggers"
 msgstr "Comment=సంజ్ఞ_ట్రిగ్గర్లు"
 
 #: khotkeys/data/kde32b1.khotkeys:537
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:978
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1006
 msgid "Name=Forward"
 msgstr "Name=ముందుకు"
 
 #: khotkeys/data/kde32b1.khotkeys:590
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:313
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:322
 msgid "Name=Up"
 msgstr "Name=పైకి"
 
 #: khotkeys/data/kde32b1.khotkeys:643
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1588
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1629
 msgid "Name=Reload"
 msgstr "Name=మళ్లి ఎక్కించు"
 
@@ -5275,112 +5304,112 @@ msgstr "Name=కెడిఈ వెబ్ సైట్ కు వెళ్లం
 msgid "Comment=Basic Konqueror gestures."
 msgstr "Comment=సాధారణ కాంకెరర్ సంజ్ఞలు"
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:37
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:38
 msgid "Name=Konqueror Gestures"
 msgstr "Name=కాంకెరర్ సంజ్ఞలు"
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:129
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:132
 msgid "Comment=Press, move left, release."
 msgstr ""
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:192
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:197
 msgid ""
 "Comment=Opera-style: Press, move up, release.\\nNOTE: Conflicts with 'New Tab', "
 "and as such is disabled by default."
 msgstr ""
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:214
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:220
 msgid "Name=Stop Loading"
 msgstr "Name=ఎక్కించడం ఆపు"
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:291
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:299
 msgid ""
 "Comment=Going up in URL/directory structure.\\nMozilla-style: Press, move up, "
 "move left, move up, release."
 msgstr ""
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:391
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:402
 msgid ""
 "Comment=Going up in URL/directory structure.\\nOpera-style: Press, move up, "
 "move left, move up, release.\\nNOTE: Conflicts with  \"Activate Previous Tab\", "
 "and as such is disabled by default."
 msgstr ""
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:412
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:424
 msgid "Name=Up #2"
 msgstr "Name=పైకి #2"
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:489
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:503
 msgid "Comment=Press, move up, move right, release."
 msgstr ""
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:517
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:532
 msgid "Name=Activate Next Tab"
 msgstr ""
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:594
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:611
 msgid "Comment=Press, move up, move left, release."
 msgstr ""
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:622
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:640
 msgid "Name=Activate Previous Tab"
 msgstr ""
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:742
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:763
 msgid "Comment=Press, move down, move up, move down, release."
 msgstr ""
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:770
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:792
 msgid "Name=Duplicate Tab"
 msgstr ""
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:846
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:870
 msgid "Comment=Press, move down, move up, release."
 msgstr ""
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:874
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:899
 msgid "Name=Duplicate Window"
 msgstr ""
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:949
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:976
 msgid "Comment=Press, move right, release."
 msgstr ""
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1056
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1086
 msgid ""
 "Comment=Press, move down, move half up, move right, move down, "
 "release.\\n(Drawing a lowercase 'h'.)"
 msgstr ""
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1206
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1238
 msgid ""
 "Comment=Press, move right, move down, move right, release.\\nMozilla-style: "
 "Press, move down, move right, release."
 msgstr ""
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1227
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1260
 msgid "Name=Close Tab"
 msgstr "Name=టాబ్ ను ముసివెయి"
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1309
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1344
 msgid ""
 "Comment=Press, move up, release.\\nConflicts with Opera-style 'Up #2', which is "
 "disabled by default."
 msgstr ""
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1330
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1366
 msgid "Name=New Tab"
 msgstr "Name=కొత్త టాబ్"
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1408
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1446
 msgid "Comment=Press, move down, release."
 msgstr ""
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1435 kwin/eventsrc:3004
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1474 kwin/eventsrc:3004
 msgid "Name=New Window"
 msgstr "Name=కొత్త విండొ"
 
-#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1561
+#: khotkeys/data/konqueror_gestures_kde321.khotkeys:1601
 msgid "Comment=Press, move up, move down, release."
 msgstr ""
 
@@ -5388,15 +5417,15 @@ msgstr ""
 msgid "Comment=This group contains actions that are set up by default."
 msgstr ""
 
-#: khotkeys/data/printscreen.khotkeys:33
+#: khotkeys/data/printscreen.khotkeys:34
 msgid "Name=Preset Actions"
 msgstr ""
 
-#: khotkeys/data/printscreen.khotkeys:71
+#: khotkeys/data/printscreen.khotkeys:73
 msgid "Comment=Launches KSnapShot when PrintScrn is pressed."
 msgstr ""
 
-#: khotkeys/data/printscreen.khotkeys:98
+#: khotkeys/data/printscreen.khotkeys:101
 msgid "Name=PrintScreen"
 msgstr "Name=తెర ప్రచురించు"
 
@@ -5404,11 +5433,11 @@ msgstr "Name=తెర ప్రచురించు"
 msgid "Name=Input Actions"
 msgstr "Name=ములాంశ చర్యలు"
 
-#: khotkeys/kcontrol/khotkeys.desktop:73
+#: khotkeys/kcontrol/khotkeys.desktop:74
 msgid "Comment=Configure Hotkey settings"
 msgstr ""
 
-#: khotkeys/kcontrol/khotkeys.desktop:137
+#: khotkeys/kcontrol/khotkeys.desktop:139
 msgid "Keywords=Keys,Global key bindings,Key bindings,Gestures,Mouse gestures"
 msgstr ""
 
@@ -5424,7 +5453,7 @@ msgstr "Comment=ఎనాలాగ్ మరయూ డిజిటల్ గడ�
 msgid "Name=Quick Launcher"
 msgstr "Name=త్వరగా మొదలుపెట్టెది"
 
-#: kicker/applets/launcher/quicklauncher.desktop:81
+#: kicker/applets/launcher/quicklauncher.desktop:82
 msgid "Comment=Directly access your frequently used applications"
 msgstr ""
 
@@ -5432,7 +5461,7 @@ msgstr ""
 msgid "Name=Lock/Logout Buttons"
 msgstr "Name=తాళం వెయి/లాగౌట్ బటన్లు"
 
-#: kicker/applets/lockout/lockout.desktop:62
+#: kicker/applets/lockout/lockout.desktop:63
 msgid "Comment=Adds buttons for locking screen and session logout"
 msgstr ""
 
@@ -5440,7 +5469,7 @@ msgstr ""
 msgid "Comment=Directly access your storage media"
 msgstr ""
 
-#: kicker/applets/media/mediaapplet.desktop:60
+#: kicker/applets/media/mediaapplet.desktop:61
 #: kioslave/media/kcmodule/media.desktop:13
 #: kioslave/system/entries/media.desktop:6
 #: konqueror/sidebar/trees/init/services/media.desktop:6
@@ -5451,7 +5480,7 @@ msgstr ""
 msgid "Name=Menu"
 msgstr "Name=పట్టి"
 
-#: kicker/applets/menu/menuapplet.desktop:60
+#: kicker/applets/menu/menuapplet.desktop:61
 msgid "Comment=Applet embedding standalone menubars"
 msgstr ""
 
@@ -5467,7 +5496,7 @@ msgstr "Comment=ముందు వీక్షణ, ఎక్కువ మిధ
 msgid "Name=Runaway Process Catcher"
 msgstr ""
 
-#: kicker/applets/naughty/naughtyapplet.desktop:76
+#: kicker/applets/naughty/naughtyapplet.desktop:77
 msgid "Comment=Detect and end broken processes which consume too much CPU time"
 msgstr ""
 
@@ -5475,7 +5504,7 @@ msgstr ""
 msgid "Name=Run Command"
 msgstr ""
 
-#: kicker/applets/run/runapplet.desktop:69
+#: kicker/applets/run/runapplet.desktop:70
 msgid "Comment=Launch single commands without a terminal window"
 msgstr ""
 
@@ -5483,7 +5512,7 @@ msgstr ""
 msgid "Name=Swallow Applet"
 msgstr "Name=స్వాలొ అప్లేట్"
 
-#: kicker/applets/swallow/swallowapplet.desktop:71
+#: kicker/applets/swallow/swallowapplet.desktop:72
 msgid "Comment=The swallow panel applet"
 msgstr ""
 
@@ -5491,7 +5520,7 @@ msgstr ""
 msgid "Name=System Tray"
 msgstr "Name=వ్యవస్థ ట్రె"
 
-#: kicker/applets/systemtray/systemtrayapplet.desktop:81
+#: kicker/applets/systemtray/systemtrayapplet.desktop:82
 msgid "Comment=The system tray panel applet"
 msgstr ""
 
@@ -5507,7 +5536,7 @@ msgstr ""
 msgid "Name=Dock Application Bar"
 msgstr ""
 
-#: kicker/extensions/dockbar/dockbarextension.desktop:74
+#: kicker/extensions/dockbar/dockbarextension.desktop:75
 msgid "Comment=Dock application bar extension."
 msgstr ""
 
@@ -5523,7 +5552,7 @@ msgstr ""
 msgid "Name=Universal Sidebar"
 msgstr ""
 
-#: kicker/extensions/sidebar/sidebarextension.desktop:71
+#: kicker/extensions/sidebar/sidebarextension.desktop:72
 msgid "Comment=Wrapper around Konqueror's navigation panel"
 msgstr ""
 
@@ -5531,7 +5560,7 @@ msgstr ""
 msgid "Name=External Taskbar"
 msgstr ""
 
-#: kicker/extensions/taskbar/taskbarextension.desktop:79
+#: kicker/extensions/taskbar/taskbarextension.desktop:80
 msgid "Comment=External taskbar panel extension"
 msgstr ""
 
@@ -5539,7 +5568,7 @@ msgstr ""
 msgid "Name=Bookmarks Menu"
 msgstr "Name=పేజి గుర్తుల పట్టి"
 
-#: kicker/kicker/buttons/bookmarks.desktop:64
+#: kicker/kicker/buttons/bookmarks.desktop:65
 msgid "Comment=Your Konqueror bookmarks"
 msgstr "Comment=మీ కాంకెరర్ పేజి గుర్తులు"
 
@@ -5547,7 +5576,7 @@ msgstr "Comment=మీ కాంకెరర్ పేజి గుర్తు�
 msgid "Name=Quick File Browser"
 msgstr ""
 
-#: kicker/kicker/buttons/browser.desktop:60
+#: kicker/kicker/buttons/browser.desktop:61
 msgid "Comment=A menu that lists files in a given folder"
 msgstr ""
 
@@ -5555,7 +5584,7 @@ msgstr ""
 msgid "Name=Show Desktop"
 msgstr "Name=రంగస్థలాన్ని చూపు"
 
-#: kicker/kicker/buttons/desktop.desktop:64
+#: kicker/kicker/buttons/desktop.desktop:65
 msgid "Comment=A button that gives quick access to the desktop when pressed"
 msgstr ""
 
@@ -5563,7 +5592,7 @@ msgstr ""
 msgid "Name=Non-KDE Application Launcher"
 msgstr ""
 
-#: kicker/kicker/buttons/exec.desktop:62
+#: kicker/kicker/buttons/exec.desktop:63
 msgid "Comment=A launcher for programs not in the K Menu"
 msgstr ""
 
@@ -5571,7 +5600,7 @@ msgstr ""
 msgid "Name=K Menu"
 msgstr "Name=కె పట్టి"
 
-#: kicker/kicker/buttons/kmenu.desktop:64
+#: kicker/kicker/buttons/kmenu.desktop:65
 msgid "Comment=Applications and common actions"
 msgstr ""
 
@@ -5579,7 +5608,7 @@ msgstr ""
 msgid "Name=Window List Menu"
 msgstr "Name=విండొల జాబితా పట్టి"
 
-#: kicker/kicker/buttons/windowlist.desktop:64
+#: kicker/kicker/buttons/windowlist.desktop:65
 msgid "Comment=A menu that lists all open windows"
 msgstr ""
 
@@ -5587,7 +5616,7 @@ msgstr ""
 msgid "Name=Panel"
 msgstr "Name=పెనల్"
 
-#: kicker/kicker/core/childpanelextension.desktop:60
+#: kicker/kicker/core/childpanelextension.desktop:61
 msgid "Comment=Child panel extension."
 msgstr ""
 
@@ -5619,7 +5648,7 @@ msgstr "Name=వెబ్ అన్వెషణ"
 msgid "Name=Kate Session Menu"
 msgstr "Name=కేట్ సెషన్ పట్టీ"
 
-#: kicker/menuext/kate/katesessionmenu.desktop:47
+#: kicker/menuext/kate/katesessionmenu.desktop:48
 msgid ""
 "Comment=Allows you to open Kate with a specified session, or create a new one"
 msgstr ""
@@ -5637,7 +5666,7 @@ msgstr "Comment=ప్రచురణ వ్యవస్థ కొరకు ప�
 msgid "Name=Konqueror Profiles"
 msgstr "Name=కాంకెరర్ ప్రొఫైల్లు"
 
-#: kicker/menuext/konq-profiles/konquerormenu.desktop:71
+#: kicker/menuext/konq-profiles/konquerormenu.desktop:72
 msgid "Comment=Menu for accessing the Konqueror profiles"
 msgstr "Comment=కాంకెరర్ ప్రొఫైల్లు చూసెందుకు కొరకు పట్టి"
 
@@ -5645,7 +5674,7 @@ msgstr "Comment=కాంకెరర్ ప్రొఫైల్లు చూ�
 msgid "Name=Terminal Sessions"
 msgstr "Name=టెర్మినల్ సెషన్లు"
 
-#: kicker/menuext/konsole/konsolemenu.desktop:78
+#: kicker/menuext/konsole/konsolemenu.desktop:79
 msgid ""
 "Comment=Menu for starting a terminal emulator with a session or bookmark"
 msgstr ""
@@ -5658,7 +5687,7 @@ msgstr ""
 msgid "Name=Recent Documents"
 msgstr ""
 
-#: kicker/menuext/recentdocs/recentdocs.desktop:77
+#: kicker/menuext/recentdocs/recentdocs.desktop:78
 msgid "Comment=Menu of documents you have used recently"
 msgstr ""
 
@@ -5666,7 +5695,7 @@ msgstr ""
 msgid "Name=Network Folders"
 msgstr "Name=నెట్వర్క్ ఫొల్డర్లు"
 
-#: kicker/menuext/remote/remotemenu.desktop:68
+#: kicker/menuext/remote/remotemenu.desktop:69
 msgid "Comment=Menu of network folders"
 msgstr ""
 
@@ -5674,7 +5703,7 @@ msgstr ""
 msgid "Name=System Menu"
 msgstr "Name=వ్యవస్థ పట్టి"
 
-#: kicker/menuext/system/systemmenu.desktop:63
+#: kicker/menuext/system/systemmenu.desktop:64
 msgid "Comment=Menu of important system places"
 msgstr ""
 
@@ -5690,11 +5719,11 @@ msgstr ""
 msgid "Name=CGI Scripts"
 msgstr "Name=సిజిఐ స్క్రిప్ట్లు"
 
-#: kioslave/cgi/kcmcgi/kcmcgi.desktop:84
+#: kioslave/cgi/kcmcgi/kcmcgi.desktop:85
 msgid "Comment=Configure the CGI KIO slave"
 msgstr ""
 
-#: kioslave/cgi/kcmcgi/kcmcgi.desktop:157
+#: kioslave/cgi/kcmcgi/kcmcgi.desktop:159
 msgid "Keywords=CGI,KIO,Slave,Paths"
 msgstr "Keywords=సిజిఐ,కెఐఒ,బానిస,దారులు"
 
@@ -5722,11 +5751,11 @@ msgstr "Comment=పొదగదగ్గ ట్రాఫ్ వీక్షి�
 msgid "Name=KManPart"
 msgstr "Name=కెమేన్ భాగం"
 
-#: kioslave/media/kcmodule/media.desktop:77
+#: kioslave/media/kcmodule/media.desktop:78
 msgid "Comment=Configure Storage Media"
 msgstr ""
 
-#: kioslave/media/kcmodule/media.desktop:136
+#: kioslave/media/kcmodule/media.desktop:138
 msgid "Keywords=storage,media,usb,cdrom,device"
 msgstr ""
 
@@ -5738,7 +5767,7 @@ msgstr "Name=మాధ్యమ సమాచారం"
 msgid "Name=KDED Media Manager"
 msgstr "Name=కెడిఈడి మాధ్యమ అభికర్త"
 
-#: kioslave/media/mediamanager/mediamanager.desktop:68
+#: kioslave/media/mediamanager/mediamanager.desktop:69
 msgid "Comment=Keep track of media activities and allow to (un)mount (media:/)"
 msgstr ""
 
@@ -5746,7 +5775,7 @@ msgstr ""
 msgid "Name=Media Notifier Daemon"
 msgstr ""
 
-#: kioslave/media/medianotifier/medianotifier.desktop:62
+#: kioslave/media/medianotifier/medianotifier.desktop:63
 msgid "Comment=A media plugged notifier"
 msgstr ""
 
@@ -5870,7 +5899,7 @@ msgstr ""
 msgid "Name=Media Properties Page"
 msgstr "Name=మాధ్యమ గుణాల పుట"
 
-#: kioslave/media/propsdlgplugin/media_propsdlgplugin.desktop:51
+#: kioslave/media/propsdlgplugin/media_propsdlgplugin.desktop:52
 msgid "Comment=Konqueror properties dialog plugin to configure mount behaviour"
 msgstr ""
 
@@ -5976,7 +6005,7 @@ msgstr "Name=క్లిప్పర్"
 msgid "GenericName=Clipboard Tool"
 msgstr "GenericName=క్లిప్ బోర్డ్ పనిముట్టు"
 
-#: klipper/klipper.desktop:107
+#: klipper/klipper.desktop:108
 msgid "Comment=A cut & paste history utility"
 msgstr ""
 
@@ -5992,16 +6021,16 @@ msgstr ""
 msgid "Description=Web-URL"
 msgstr "Description=వెబ్ యూ ఆర్ ఎల్"
 
-#: klipper/klipperrc.desktop:229 klipper/klipperrc.desktop:1596
+#: klipper/klipperrc.desktop:229 klipper/klipperrc.desktop:1597
 msgid "Description=Open with &Konqueror"
 msgstr "Description=(&K) కాంకెరర్ తొ తెరువు"
 
-#: klipper/klipperrc.desktop:311 klipper/klipperrc.desktop:1758
+#: klipper/klipperrc.desktop:311 klipper/klipperrc.desktop:1759
 msgid "Description=Open with &Mozilla"
 msgstr "Description=(&M) మొజిల్లా తొ తెరువు"
 
-#: klipper/klipperrc.desktop:392 klipper/klipperrc.desktop:1160
-#: klipper/klipperrc.desktop:1377 klipper/klipperrc.desktop:1839
+#: klipper/klipperrc.desktop:392 klipper/klipperrc.desktop:1161
+#: klipper/klipperrc.desktop:1378 klipper/klipperrc.desktop:1840
 msgid "Description=Send &URL"
 msgstr "Description=(&U) యూ ఆర్ ఎల్ పంపించు"
 
@@ -6009,52 +6038,52 @@ msgstr "Description=(&U) యూ ఆర్ ఎల్ పంపించు"
 msgid "Description=Open with &Firefox"
 msgstr "Description=(&F) మొజిల్లా తొ తెరువు"
 
-#: klipper/klipperrc.desktop:534
+#: klipper/klipperrc.desktop:535
 msgid "Description=Send &Page"
 msgstr "Description=(&P) పుట ను పంపించు"
 
-#: klipper/klipperrc.desktop:613
+#: klipper/klipperrc.desktop:614
 msgid "Description=Mail-URL"
 msgstr "Description=యూ ఆర్ ఎల్ ను మెయిల్ చెయ్యి"
 
-#: klipper/klipperrc.desktop:686
+#: klipper/klipperrc.desktop:687
 msgid "Description=Launch &Kmail"
 msgstr ""
 
-#: klipper/klipperrc.desktop:765
+#: klipper/klipperrc.desktop:766
 msgid "Description=Launch &mutt"
 msgstr ""
 
-#: klipper/klipperrc.desktop:843
+#: klipper/klipperrc.desktop:844
 msgid "Description=Text File"
 msgstr "Description=వచన దస్త్రం"
 
-#: klipper/klipperrc.desktop:925
+#: klipper/klipperrc.desktop:926
 msgid "Description=Launch K&Edit"
 msgstr ""
 
-#: klipper/klipperrc.desktop:1003
+#: klipper/klipperrc.desktop:1004
 msgid "Description=Launch K&Write"
 msgstr ""
 
-#: klipper/klipperrc.desktop:1080
+#: klipper/klipperrc.desktop:1081
 msgid "Description=Local file URL"
 msgstr "Description=స్థానిక దస్త్ర యూ ఆర్ ఎల్"
 
-#: klipper/klipperrc.desktop:1238 klipper/klipperrc.desktop:1455
-#: klipper/klipperrc.desktop:1917
+#: klipper/klipperrc.desktop:1239 klipper/klipperrc.desktop:1456
+#: klipper/klipperrc.desktop:1918
 msgid "Description=Send &File"
 msgstr "Description=(&F) దస్త్రాన్ని పంపించు"
 
-#: klipper/klipperrc.desktop:1317
+#: klipper/klipperrc.desktop:1318
 msgid "Description=Gopher URL"
 msgstr "Description=గొఫర్ యూ ఆర్ ఎల్"
 
-#: klipper/klipperrc.desktop:1534
+#: klipper/klipperrc.desktop:1535
 msgid "Description=ftp URL"
 msgstr "Description=ఎఫ్ టి పి యూ ఆర్ ఎల్"
 
-#: klipper/klipperrc.desktop:1677
+#: klipper/klipperrc.desktop:1678
 msgid "Description=Open with &Netscape"
 msgstr "Description=(&N) నెట్ స్కేప్ తొ తెరువు"
 
@@ -6246,12 +6275,23 @@ msgid "Comment=This folder contains your personal files"
 msgstr ""
 
 #: konqueror/sidebar/trees/init/remote.desktop:3
+#: konqueror/sidebar/trees/init/remote/.directory:2
 msgid "Name=Network"
 msgstr "Name=నెట్ వర్క్"
+
+#: konqueror/sidebar/trees/init/remote/ftp/.directory:2
+#, fuzzy
+msgid "Name=FTP Archives"
+msgstr "Name=ఫ్రీసివ్"
 
 #: konqueror/sidebar/trees/init/remote/ftp/kde_ftp.desktop:6
 msgid "Name=KDE Official FTP"
 msgstr "Name=కెడిఈ అధికారిక ఎఫ్ టి పి"
+
+#: konqueror/sidebar/trees/init/remote/web/.directory:2
+#, fuzzy
+msgid "Name=Web Sites"
+msgstr "Name=వెబ్ అన్వెషణ"
 
 #: konqueror/sidebar/trees/init/remote/web/apps_web.desktop:5
 msgid "Name=KDE Applications"
@@ -6278,6 +6318,7 @@ msgid "Comment=This is the root of the filesystem"
 msgstr ""
 
 #: konqueror/sidebar/trees/init/services.desktop:5
+#: konqueror/sidebar/trees/init/services/.directory:3
 msgid "Name=Services"
 msgstr "Name=సేవలు"
 
@@ -7020,10 +7061,6 @@ msgstr ""
 #: kxkb/kxkb.desktop:4
 msgid "Name=Keyboard Map Tool"
 msgstr ""
-
-#: l10n/C/entry.desktop:2
-msgid "Name=Default"
-msgstr "Name=అప్రమెయం"
 
 #: l10n/ad/entry.desktop:2
 msgid "Name=Andorra"
