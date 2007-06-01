@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"Report-Msgid-Bugs-To: kde-i18n-doc@kde.org\n"
-"POT-Creation-Date: 2007-05-29 05:55+0200\n"
+"Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
+"POT-Creation-Date: 2007-06-01 05:56+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -210,6 +210,13 @@ msgstr "సమతల దిశ"
 msgid "Remove"
 msgstr "తొలగించు"
 
+#: gui/dialogs/qdialog.cpp:334 gui/dialogs/qdialog.cpp:595
+#, fuzzy
+#| msgid "Help"
+msgctxt "QMessageBox"
+msgid "Help"
+msgstr "సహాయము"
+
 #: gui/dialogs/qdialog.cpp:500 gui/kernel/qwhatsthis.cpp:496
 msgid "What's This?"
 msgstr "ఇది ఎమిటి?"
@@ -326,6 +333,13 @@ msgstr "మచ్చు"
 msgid "Wr&iting System"
 msgstr ""
 
+#: gui/itemviews/qdirmodel.cpp:833
+#, fuzzy
+#| msgid "Compiler:"
+msgctxt "QFileDialog"
+msgid "My Computer"
+msgstr "కంపైలర్"
+
 #: gui/itemviews/qitemeditorfactory.cpp:525 qt3support/sql/q3datatable.cpp:264
 msgid "False"
 msgstr "అసత్యము"
@@ -333,6 +347,28 @@ msgstr "అసత్యము"
 #: gui/itemviews/qitemeditorfactory.cpp:526 qt3support/sql/q3datatable.cpp:263
 msgid "True"
 msgstr "సత్యము"
+
+#: gui/itemviews/qfileiconprovider.cpp:342
+#, fuzzy
+#| msgid "Hide %1"
+msgctxt "QFileDialog"
+msgid "Drive"
+msgstr "%1 చూపించకు"
+
+#: gui/itemviews/qfileiconprovider.cpp:345
+#: gui/itemviews/qfileiconprovider.cpp:346
+#, fuzzy
+#| msgid "File"
+msgctxt "QFileDialog"
+msgid "File"
+msgstr "దస్త్రం"
+
+#: gui/itemviews/qfileiconprovider.cpp:375
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "QFileDialog"
+msgid "Unknown"
+msgstr "తెలియని"
 
 #: gui/accessible/qaccessibleobject.cpp:356
 #, fuzzy
@@ -1487,6 +1523,41 @@ msgstr "%1 - [%2]"
 msgid "&Unshade"
 msgstr "(&U) నీడ తొలగించుము"
 
+#: sql/drivers/odbc/qsql_odbc.cpp:757 sql/drivers/odbc/qsql_odbc.cpp:1067
+msgctxt "QODBCResult"
+msgid ""
+"QODBCResult::reset: Unable to set 'SQL_CURSOR_STATIC' as statement "
+"attribute. Please check your ODBC driver configuration"
+msgstr ""
+
+#: sql/drivers/odbc/qsql_odbc.cpp:774 sql/drivers/odbc/qsql_odbc.cpp:1329
+#, fuzzy
+#| msgid "Unable to open lock file."
+msgctxt "QODBCResult"
+msgid "Unable to execute statement"
+msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
+
+#: sql/drivers/odbc/qsql_odbc.cpp:832
+#, fuzzy
+#| msgid "Unable to create file to upload."
+msgctxt "QODBCResult"
+msgid "Unable to fetch next"
+msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
+
+#: sql/drivers/odbc/qsql_odbc.cpp:1085
+#, fuzzy
+#| msgid "Unable to open lock file."
+msgctxt "QODBCResult"
+msgid "Unable to prepare statement"
+msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
+
+#: sql/drivers/odbc/qsql_odbc.cpp:1320
+#, fuzzy
+#| msgid "Can't find variable: "
+msgctxt "QODBCResult"
+msgid "Unable to bind variable"
+msgstr "చరాంశం కనబడుటలేదు"
+
 #: sql/drivers/odbc/qsql_odbc.cpp:1530 sql/drivers/psql/qsql_psql.cpp:558
 #: sql/drivers/mysql/qsql_mysql.cpp:1110
 msgid "Unable to connect"
@@ -1514,6 +1585,13 @@ msgstr ""
 #: sql/drivers/odbc/qsql_odbc.cpp:1789
 msgid "Unable to enable autocommit"
 msgstr ""
+
+#: sql/drivers/psql/qsql_psql.cpp:150
+#, fuzzy
+#| msgid "Unable to create file to upload."
+msgctxt "QPSQLResult"
+msgid "Unable to create query"
+msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
 
 #: sql/drivers/psql/qsql_psql.cpp:597
 msgid "Could not begin transaction"
@@ -1669,6 +1747,69 @@ msgctxt "QIBaseDriver"
 msgid "Unable to rollback transaction"
 msgstr ""
 
+#: sql/drivers/mysql/qsql_mysql.cpp:454
+#, fuzzy
+#| msgid "Unable to open lock file."
+msgctxt "QMYSQLResult"
+msgid "Unable to fetch data"
+msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
+
+#: sql/drivers/mysql/qsql_mysql.cpp:604
+#, fuzzy
+#| msgid "Unable to create file to upload."
+msgctxt "QMYSQLResult"
+msgid "Unable to execute query"
+msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
+
+#: sql/drivers/mysql/qsql_mysql.cpp:610
+#, fuzzy
+#| msgid "Unable to open lock file."
+msgctxt "QMYSQLResult"
+msgid "Unable to store result"
+msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
+
+#: sql/drivers/mysql/qsql_mysql.cpp:732 sql/drivers/mysql/qsql_mysql.cpp:741
+#, fuzzy
+#| msgid "Unable to open lock file."
+msgctxt "QMYSQLResult"
+msgid "Unable to prepare statement"
+msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
+
+#: sql/drivers/mysql/qsql_mysql.cpp:772
+#, fuzzy
+#| msgid "Unable to open lock file."
+msgctxt "QMYSQLResult"
+msgid "Unable to reset statement"
+msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
+
+#: sql/drivers/mysql/qsql_mysql.cpp:859
+#, fuzzy
+#| msgid "Undefined value"
+msgctxt "QMYSQLResult"
+msgid "Unable to bind value"
+msgstr "అస్పష్టమైన విలువ"
+
+#: sql/drivers/mysql/qsql_mysql.cpp:870
+#, fuzzy
+#| msgid "Unable to open lock file."
+msgctxt "QMYSQLResult"
+msgid "Unable to execute statement"
+msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
+
+#: sql/drivers/mysql/qsql_mysql.cpp:884 sql/drivers/mysql/qsql_mysql.cpp:905
+#, fuzzy
+#| msgid "Undefined value"
+msgctxt "QMYSQLResult"
+msgid "Unable to bind outvalues"
+msgstr "అస్పష్టమైన విలువ"
+
+#: sql/drivers/mysql/qsql_mysql.cpp:893
+#, fuzzy
+#| msgid "Unable to open lock file."
+msgctxt "QMYSQLResult"
+msgid "Unable to store statement results"
+msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
+
 #: sql/drivers/mysql/qsql_mysql.cpp:1103
 #, fuzzy
 #| msgid "Unable to open lock file."
@@ -1681,12 +1822,60 @@ msgstr "తాళపు దస్త్రాన్ని తెరువలే�
 msgid "Unable to begin transaction"
 msgstr ""
 
+#: sql/drivers/sqlite2/qsql_sqlite2.cpp:128
+#, fuzzy
+#| msgid "Unable to create file to upload."
+msgctxt "QSQLite2Result"
+msgid "Unable to fetch results"
+msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
+
+#: sql/drivers/sqlite2/qsql_sqlite2.cpp:261
+#, fuzzy
+#| msgid "Unable to open lock file."
+msgctxt "QSQLite2Result"
+msgid "Unable to execute statement"
+msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
+
 #: sql/drivers/sqlite2/qsql_sqlite2.cpp:356
 msgid "Error to open database"
 msgstr ""
 
 #: sql/drivers/sqlite2/qsql_sqlite2.cpp:431
 msgid "Unable to rollback Transaction"
+msgstr ""
+
+#: sql/drivers/sqlite/qsql_sqlite.cpp:215
+#: sql/drivers/sqlite/qsql_sqlite.cpp:223
+#, fuzzy
+#| msgid "Unable to create file to upload."
+msgctxt "QSQLiteResult"
+msgid "Unable to fetch row"
+msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
+
+#: sql/drivers/sqlite/qsql_sqlite.cpp:275
+#, fuzzy
+#| msgid "Unable to open lock file."
+msgctxt "QSQLiteResult"
+msgid "Unable to execute statement"
+msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
+
+#: sql/drivers/sqlite/qsql_sqlite.cpp:294
+#, fuzzy
+#| msgid "Unable to open lock file."
+msgctxt "QSQLiteResult"
+msgid "Unable to reset statement"
+msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
+
+#: sql/drivers/sqlite/qsql_sqlite.cpp:338
+#, fuzzy
+#| msgid "Syntax error in parameter list"
+msgctxt "QSQLiteResult"
+msgid "Unable to bind parameters"
+msgstr "గణితరాసి జాబితా లో వ్యాకరణ దొషము"
+
+#: sql/drivers/sqlite/qsql_sqlite.cpp:345
+msgctxt "QSQLiteResult"
+msgid "Parameter count mismatch"
 msgstr ""
 
 #: sql/drivers/sqlite/qsql_sqlite.cpp:471
@@ -2108,6 +2297,76 @@ msgstr "చేర్చు"
 #: qt3support/sql/q3datatable.cpp:777
 msgid "Update"
 msgstr "కొత్త మార్పులు"
+
+#: qt3support/sql/q3sqlmanager_p.cpp:880
+#, fuzzy
+#| msgid "Delete"
+msgctxt "QSql"
+msgid "Delete"
+msgstr "తొలగించు"
+
+#: qt3support/sql/q3sqlmanager_p.cpp:881
+#, fuzzy
+#| msgid "Delete All"
+msgctxt "QSql"
+msgid "Delete this record?"
+msgstr "అన్ని తొలగించుము"
+
+#: qt3support/sql/q3sqlmanager_p.cpp:882 qt3support/sql/q3sqlmanager_p.cpp:898
+#: qt3support/sql/q3sqlmanager_p.cpp:934
+#, fuzzy
+#| msgid "Yes"
+msgctxt "QSql"
+msgid "Yes"
+msgstr "ఔను"
+
+#: qt3support/sql/q3sqlmanager_p.cpp:883 qt3support/sql/q3sqlmanager_p.cpp:899
+#: qt3support/sql/q3sqlmanager_p.cpp:935
+#, fuzzy
+#| msgid "No"
+msgctxt "QSql"
+msgid "No"
+msgstr "కాదు"
+
+#: qt3support/sql/q3sqlmanager_p.cpp:891
+#, fuzzy
+#| msgid "Insert"
+msgctxt "QSql"
+msgid "Insert"
+msgstr "చేర్చు"
+
+#: qt3support/sql/q3sqlmanager_p.cpp:893
+#, fuzzy
+#| msgid "Update"
+msgctxt "QSql"
+msgid "Update"
+msgstr "కొత్త మార్పులు"
+
+#: qt3support/sql/q3sqlmanager_p.cpp:897
+#, fuzzy
+#| msgid "Save data"
+msgctxt "QSql"
+msgid "Save edits?"
+msgstr "దత్తంసాలను దాచు"
+
+#: qt3support/sql/q3sqlmanager_p.cpp:900
+#, fuzzy
+#| msgid "Cancel"
+msgctxt "QSql"
+msgid "Cancel"
+msgstr "రద్దు"
+
+#: qt3support/sql/q3sqlmanager_p.cpp:932
+#, fuzzy
+#| msgid "Configure"
+msgctxt "QSql"
+msgid "Confirm"
+msgstr "అమర్చు"
+
+#: qt3support/sql/q3sqlmanager_p.cpp:933
+msgctxt "QSql"
+msgid "Cancel your edits?"
+msgstr ""
 
 #: qt3support/text/q3textedit.cpp:5446
 msgid "Clear"
@@ -2894,9 +3153,6 @@ msgstr ""
 #~| msgid "Window"
 #~ msgid "MainWindow"
 #~ msgstr "విండొ"
-
-#~ msgid "File"
-#~ msgstr "దస్త్రం"
 
 #, fuzzy
 #~| msgid "Scr&ipt"
@@ -4419,9 +4675,6 @@ msgstr ""
 #~ msgid "&Save"
 #~ msgstr "(&S) దాచు"
 
-#~ msgid "Save data"
-#~ msgstr "దత్తంసాలను దాచు"
-
 #, fuzzy
 #~| msgid "Don't save data"
 #~ msgid "Do not save data"
@@ -4806,9 +5059,6 @@ msgstr ""
 
 #~ msgid "OS:"
 #~ msgstr "నిర్వహణా వ్యవస్థ:"
-
-#~ msgid "Compiler:"
-#~ msgstr "కంపైలర్"
 
 #~ msgid "Se&verity"
 #~ msgstr "(&v) ఉధృతి"
@@ -5494,9 +5744,6 @@ msgstr ""
 #~ msgid "Separator, Space"
 #~ msgstr "ప్రతిస్థాపణ మొదలుపెట్టు"
 
-#~ msgid "Unknown"
-#~ msgstr "తెలియని"
-
 #, fuzzy
 #~| msgid "Input file"
 #~ msgctxt "What the user inputs now will be taken as the new shortcut"
@@ -5701,11 +5948,6 @@ msgstr ""
 #~ msgstr "(&e) ఇప్పటి చర్యలు:"
 
 #, fuzzy
-#~| msgid "Hide %1"
-#~ msgid "Drive: %1"
-#~ msgstr "%1 చూపించకు"
-
-#, fuzzy
 #~| msgid "Desktop %1"
 #~ msgid "Desktop: %1"
 #~ msgstr "రంగస్థలం %1"
@@ -5803,11 +6045,6 @@ msgstr ""
 #~ "<qt>Do you really want to delete\n"
 #~ " <b>'%1'</b>?</qt>"
 #~ msgstr "'%1' ను నిజంగా నడపమంటారా?"
-
-#, fuzzy
-#~| msgid "Delete All"
-#~ msgid "Delete File"
-#~ msgstr "అన్ని తొలగించుము"
 
 #, fuzzy
 #~| msgid "Do you really want to execute '%1'? "
@@ -8330,17 +8567,8 @@ msgstr ""
 #~ msgid "No default value"
 #~ msgstr "ప్రారంభ విలువ లేదు"
 
-#~ msgid "Undefined value"
-#~ msgstr "అస్పష్టమైన విలువ"
-
 #~ msgid "Null value"
 #~ msgstr "శూన్య విలువ"
-
-#~ msgid "Can't find variable: "
-#~ msgstr "చరాంశం కనబడుటలేదు"
-
-#~ msgid "Syntax error in parameter list"
-#~ msgstr "గణితరాసి జాబితా లో వ్యాకరణ దొషము"
 
 #~ msgid "KScript Error"
 #~ msgstr "కెస్క్రిప్ట్ దోషం"
