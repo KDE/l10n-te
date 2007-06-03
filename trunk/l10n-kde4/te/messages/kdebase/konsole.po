@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-02 05:51+0200\n"
+"POT-Creation-Date: 2007-06-03 05:47+0200\n"
 "PO-Revision-Date: 2007-03-22 20:26+0530\n"
 "Last-Translator: Vijay Kiran Kamuju <infyquest@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -255,7 +255,7 @@ msgstr ""
 msgid "Print &header"
 msgstr ""
 
-#: Profile.cpp:100
+#: Profile.cpp:114
 #, fuzzy
 #| msgid "&Bell"
 msgid "Shell"
@@ -269,57 +269,57 @@ msgstr ""
 msgid "Connect"
 msgstr ""
 
-#: Session.cpp:160
+#: Session.cpp:161
 msgid ""
 "Konsole is unable to open a PTY (pseudo teletype). It is likely that this is "
 "due to an incorrect configuration of the PTY devices.  Konsole needs to have "
 "read/write access to the PTY devices."
 msgstr ""
 
-#: Session.cpp:164
+#: Session.cpp:165
 msgid "A Fatal Error Has Occurred"
 msgstr ""
 
-#: Session.cpp:394
+#: Session.cpp:403
 #, qt-format
 msgid "Silence in session '%1'"
 msgstr "%1 సెషన్ లో నిశబ్దం"
 
-#: Session.cpp:411
+#: Session.cpp:420
 #, qt-format
 msgid "Bell in session '%1'"
 msgstr "%1 సెషన్ లో గంట"
 
-#: Session.cpp:422
+#: Session.cpp:431
 #, qt-format
 msgid "Activity in session '%1'"
 msgstr ""
 
-#: Session.cpp:513
-msgid "<Finished>"
-msgstr ""
-
 #: Session.cpp:522
-#, qt-format
-msgid "Session '%1' exited with status %2."
-msgstr ""
-
-#: Session.cpp:526
-#, qt-format
-msgid "Session '%1' exited with signal %2 and dumped core."
-msgstr ""
-
-#: Session.cpp:528
-#, qt-format
-msgid "Session '%1' exited with signal %2."
+msgid "<Finished>"
 msgstr ""
 
 #: Session.cpp:531
 #, qt-format
+msgid "Session '%1' exited with status %2."
+msgstr ""
+
+#: Session.cpp:535
+#, qt-format
+msgid "Session '%1' exited with signal %2 and dumped core."
+msgstr ""
+
+#: Session.cpp:537
+#, qt-format
+msgid "Session '%1' exited with signal %2."
+msgstr ""
+
+#: Session.cpp:540
+#, qt-format
 msgid "Session '%1' exited unexpectedly."
 msgstr ""
 
-#: Session.cpp:737
+#: Session.cpp:746
 msgid "ZModem Progress"
 msgstr ""
 
