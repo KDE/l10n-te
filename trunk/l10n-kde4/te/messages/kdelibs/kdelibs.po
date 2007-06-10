@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-09 05:38+0200\n"
+"POT-Creation-Date: 2007-06-10 05:16+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -4779,7 +4779,7 @@ msgstr ""
 
 #: kdeui/dialogs/kshortcutsdialog.cpp:615
 #: kdeui/dialogs/kshortcutsdialog.cpp:643
-#: kdeui/dialogs/kshortcutsdialog.cpp:659 kdeui/shortcuts/kglobalaccel.cpp:444
+#: kdeui/dialogs/kshortcutsdialog.cpp:659 kdeui/shortcuts/kglobalaccel.cpp:446
 msgid "Reassign"
 msgstr "మళ్లి నియమించు"
 
@@ -5703,11 +5703,11 @@ msgstr "అన్ని కనిపించె నిలువు వరుస
 msgid "S&earch:"
 msgstr "(&e) అన్వేషణ:"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:438
+#: kdeui/shortcuts/kglobalaccel.cpp:440
 msgid "Conflict with Global Shortcut"
 msgstr "వసుదైక శీఘ్రమార్గంతొ ఘర్షణ"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:439
+#: kdeui/shortcuts/kglobalaccel.cpp:441
 #, qt-format
 msgid ""
 "The '%1' key combination has already been allocated to the global action \"%2"
@@ -5982,6 +5982,7 @@ msgid ""
 msgstr ""
 "స్థితి పట్టీ చూపుము<p>స్థితి పట్టీ చూపుము, ఈ పట్టి స్థితి సమాచారం చూపును విండొ క్రింద వుంటుంది."
 
+#: kdeui/windowmanagement/kwindowsystem_qws.cpp:179
 #: kdeui/windowmanagement/kwindowsystem_x11.cpp:831
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:178
 #: kdeui/windowmanagement/kwindowsystem_win.cpp:179
@@ -8108,11 +8109,11 @@ msgstr "జావాస్క్రిప్ట్"
 msgid "&Abort"
 msgstr "(&A) విడిచిపెట్టుము"
 
-#: khtml/ecma/kjs_window.cpp:1582 khtml/ecma/kjs_html.cpp:2107
+#: khtml/ecma/kjs_window.cpp:1562 khtml/ecma/kjs_html.cpp:2107
 msgid "Confirmation: JavaScript Popup"
 msgstr "దృవపరచు: జావాస్క్రిప్ట్ పాప్ అప్"
 
-#: khtml/ecma/kjs_window.cpp:1585
+#: khtml/ecma/kjs_window.cpp:1565
 msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
@@ -8120,7 +8121,7 @@ msgstr ""
 "ఈ సైట్ జావా స్క్రిప్ట్ ద్వారా కొత్త విండొని తెరువుటకు మనవి కోరుతుంది.\n"
 "అనుమతించ మంటారా?"
 
-#: khtml/ecma/kjs_window.cpp:1588
+#: khtml/ecma/kjs_window.cpp:1568
 #, qt-format
 msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
@@ -8129,45 +8130,45 @@ msgstr ""
 "<qt>ఈ సైట్ <p>%1</p>జావా స్క్రిప్ట్ ద్వారా కొత్త విండొని తెరువుటకు మనవి కోరుతుంది.<br />అనుమతించ "
 "మంటారా?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2114
+#: khtml/ecma/kjs_window.cpp:1570 khtml/ecma/kjs_html.cpp:2114
 msgid "Allow"
 msgstr "అనుమతించు"
 
-#: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2114
+#: khtml/ecma/kjs_window.cpp:1570 khtml/ecma/kjs_html.cpp:2114
 msgid "Do Not Allow"
 msgstr "అనుమతించవద్దు"
 
-#: khtml/ecma/kjs_window.cpp:1881
+#: khtml/ecma/kjs_window.cpp:1861
 msgid "Close window?"
 msgstr "విండొ మూసివేయవచ్చునా?"
 
-#: khtml/ecma/kjs_window.cpp:1881
+#: khtml/ecma/kjs_window.cpp:1861
 msgid "Confirmation Required"
 msgstr "అనుమతి కావాలి"
 
-#: khtml/ecma/kjs_window.cpp:2831
+#: khtml/ecma/kjs_window.cpp:2811
 #, qt-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2834
+#: khtml/ecma/kjs_window.cpp:2814
 #, qt-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2842
+#: khtml/ecma/kjs_window.cpp:2822
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "జావాస్క్రిప్ట్ పేజి గుర్తు చేర్చుట ప్రయత్నించినది"
 
-#: khtml/ecma/kjs_window.cpp:2846
+#: khtml/ecma/kjs_window.cpp:2826
 msgid "Insert"
 msgstr "చేర్చు"
 
-#: khtml/ecma/kjs_window.cpp:2846
+#: khtml/ecma/kjs_window.cpp:2826
 msgid "Disallow"
 msgstr "నిషెధించు"
 
