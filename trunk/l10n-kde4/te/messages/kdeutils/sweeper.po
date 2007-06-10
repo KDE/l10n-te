@@ -5,7 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: privacy\n"
-"POT-Creation-Date: 2006-08-23 02:32+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-04-28 05:47+0200\n"
 "PO-Revision-Date: 2007-04-01 12:09+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -15,337 +16,324 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: _translatorinfo.cpp:1
+#: main.cpp:28
+msgid "Sweeper"
+msgstr ""
+
+#: main.cpp:29
+msgid "Helps clean unwanted traces the user leaves on the system."
+msgstr ""
+
+#: main.cpp:32
+msgid "Original author"
+msgstr ""
+
+#: main.cpp:33
+msgid "Maintainer"
+msgstr ""
+
+#: main.cpp:34
+msgid "Thumbnail Cache"
+msgstr ""
+
+#: privacyfunctions.cpp:50 privacyfunctions.cpp:59 privacyfunctions.cpp:68
+msgid "A thumbnail could not be removed."
+msgstr ""
+
+#: privacyfunctions.cpp:132
+msgid "The file exists but could not be removed."
+msgstr ""
+
+#: privacyfunctions.cpp:212
+msgid "A favicon could not be removed."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 19
+#: rc.cpp:3 sweeper.cpp:43
+msgid "Privacy Settings"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 35
+#: rc.cpp:6
+msgid "Network privacy level:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 57
+#: rc.cpp:9
+msgid "Low"
+msgstr "తక్కువ"
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 62
+#: rc.cpp:12
+msgid "Medium"
+msgstr "మధ్యమ"
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 67
+#: rc.cpp:15
+msgid "High"
+msgstr "ఎక్కువ"
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 72
+#: rc.cpp:18
+msgid "Custom"
+msgstr "నిర్దెశించిన"
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 80
+#: rc.cpp:21
+msgid "Financial Information"
+msgstr "ఆర్ధిక సమాచారం"
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 89
+#: rc.cpp:24
+msgid ""
+"Warn me when I visit a site that uses my financial or purchase information:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 99
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 135
+#: rc.cpp:27 rc.cpp:39
+msgid "For marketing or advertising purposes"
+msgstr "విక్రయ లేక ప్రకటనల అవసరాల కొరకు"
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 106
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 142
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 178
+#: rc.cpp:30 rc.cpp:42 rc.cpp:54
+msgid "To share with other companies"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 116
+#: rc.cpp:33
+msgid "Health Information"
+msgstr "ఆరొగ్య సమాచారం"
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 125
+#: rc.cpp:36
+msgid ""
+"Warn me when I visit a site that uses my health or medical information: "
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 152
+#: rc.cpp:45
+msgid "Demographics"
+msgstr "జనాభా లెక్కలు"
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 161
+#: rc.cpp:48
+msgid ""
+"Warn me when I visit a site that uses my non-personally identifiable "
+"information:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 171
+#: rc.cpp:51
+msgid "To determine my interests, habits or general behavior"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 188
+#: rc.cpp:57
+msgid ""
+"Warn me when I visit a site that shares my personal information with other "
+"companies"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 195
+#: rc.cpp:60
+msgid ""
+"Warn me when I visit a site that does not let me know what information they "
+"have about me"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 202
+#: rc.cpp:63
+msgid "Personal Information"
+msgstr "వ్యక్తిగత సమాచారం"
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 211
+#: rc.cpp:66
+msgid ""
+"Warn me when I visit a site that may contact me about other products or "
+"services:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 221
+#: rc.cpp:69
+msgid "Warn me when I visit a site that may use my personal information to:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 231
+#: rc.cpp:72
+msgid "Determine my habits, interests or general behavior"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 243
+#: rc.cpp:75
+msgid "Via telephone"
+msgstr "టెలిఫొన్ ద్వారా"
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 250
+#: rc.cpp:78
+msgid "Via mail"
+msgstr "మెయిల్ ద్వారా"
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 264
+#: rc.cpp:81
+msgid "Via email"
+msgstr "ఈమెయిల్ ద్వారా"
+
+#. i18n: tag string
+#. i18n: file kprivacysettings.ui line 271
+#: rc.cpp:84
+msgid "And do not allow me to remove my contact information"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file sweeperdialog.ui line 16
+#: rc.cpp:87
+msgid "Form1"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file sweeperdialog.ui line 32
+#: rc.cpp:90
+#, fuzzy
+#| msgid "Select None"
+msgid "Select &All"
+msgstr "ఎమీ ఎంచుకోకు"
+
+#. i18n: tag string
+#. i18n: file sweeperdialog.ui line 35
+#: rc.cpp:93
+msgid "Alt+A"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file sweeperdialog.ui line 42
+#: rc.cpp:96
+#, fuzzy
+#| msgid "Select None"
+msgid "Select &None"
+msgstr "ఎమీ ఎంచుకోకు"
+
+#. i18n: tag string
+#. i18n: file sweeperdialog.ui line 45
+#: rc.cpp:99
+msgid "Alt+N"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file sweeperdialog.ui line 70
+#: rc.cpp:102
+msgid "&Clean Up"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file sweeperdialog.ui line 73
+#: rc.cpp:105
+msgid "Alt+C"
+msgstr ""
+
+#: rc.cpp:106
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 "pavithran\n"
 "విజయ్ కిరణ్ కముజు"
 
-#: _translatorinfo.cpp:3
+#: rc.cpp:107
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 "pavithran.s@gmail.com\n"
 "infyquest@gmail.com"
 
-#: privacy.cpp:43
-msgid ""
-"The privacy module allows a user to erase traces which KDE leaves on the "
-"system, such as command histories or browser caches."
-msgstr ""
-
-#: privacy.cpp:49
-msgid "kcm_privacy"
-msgstr "కెసిఎం_ప్రైవసి"
-
-#: privacy.cpp:49
-msgid "KDE Privacy Control Module"
-msgstr ""
-
-#: privacy.cpp:51
-msgid "(c) 2003 Ralf Hoelzer"
-msgstr "(c) ౨౦౦౩ రాల్ఫ్ హొఎల్జర్"
-
-#: privacy.cpp:54 privacy.cpp:92
-msgid "Thumbnail Cache"
-msgstr ""
-
-#. i18n: file kprivacysettings.ui line 21
-#: privacy.cpp:76 rc.cpp:16
-#, no-c-format
-msgid "Privacy Settings"
-msgstr ""
-
-#: privacy.cpp:77
+#: sweeper.cpp:44
 msgid "Description"
 msgstr "వర్ణన"
 
-#: privacy.cpp:85
+#: sweeper.cpp:54
 msgid "General"
 msgstr "సాధారణ"
 
-#: privacy.cpp:86
+#: sweeper.cpp:55
 msgid "Web Browsing"
 msgstr "వెబ్ బ్రౌజింగ్"
 
-#: privacy.cpp:94
-msgid "Run Command History"
-msgstr ""
-
-#: privacy.cpp:96
-msgid "Cookies"
-msgstr "కుకీలు"
-
-#: privacy.cpp:98
-msgid "Saved Clipboard Contents"
-msgstr ""
-
-#: privacy.cpp:100
-msgid "Web History"
-msgstr "వెబ్ చరిత్ర"
-
-#: privacy.cpp:102
-msgid "Web Cache"
-msgstr ""
-
-#: privacy.cpp:104
-msgid "Form Completion Entries"
-msgstr ""
-
-#: privacy.cpp:106
-msgid "Recent Documents"
-msgstr "ఇంతకుముందు వాడిన పత్రాలు"
-
-#: privacy.cpp:108
-msgid "Quick Start Menu"
-msgstr ""
-
-#: privacy.cpp:110
-msgid "Favorite Icons"
-msgstr "ఇష్టమైన ప్రతిమలు"
-
-#: privacy.cpp:112
+#: sweeper.cpp:60
 msgid ""
-"Check all cleanup actions you would like to perform. These will be executed by "
-"pressing the button below"
+"Check all cleanup actions you would like to perform. These will be executed "
+"by pressing the button below"
 msgstr ""
 
-#: privacy.cpp:113
+#: sweeper.cpp:61
 msgid "Immediately performs the cleanup actions selected above"
 msgstr ""
 
-#: privacy.cpp:115
-msgid "Clears all cached thumbnails"
-msgstr ""
-
-#: privacy.cpp:116
-msgid ""
-"Clears the history of commands run through the Run Command tool on the desktop"
-msgstr ""
-
-#: privacy.cpp:117
-msgid "Clears all stored cookies set by websites"
-msgstr ""
-
-#: privacy.cpp:118
-msgid "Clears the history of visited websites"
-msgstr ""
-
-#: privacy.cpp:119
-msgid "Clears the clipboard contents stored by Klipper"
-msgstr ""
-
-#: privacy.cpp:120
-msgid "Clears the temporary cache of websites visited"
-msgstr ""
-
-#: privacy.cpp:121
-msgid "Clears values which were entered into forms on websites"
-msgstr ""
-
-#: privacy.cpp:122
-msgid ""
-"Clears the list of recently used documents from the KDE applications menu"
-msgstr ""
-
-#: privacy.cpp:123
-msgid "Clears the entries from the list of recently started applications"
-msgstr ""
-
-#: privacy.cpp:124
-msgid "Clears the FavIcons cached from visited websites"
-msgstr ""
-
-#: privacy.cpp:251
+#: sweeper.cpp:142
 msgid ""
 "You are deleting data that is potentially valuable to you. Are you sure?"
 msgstr ""
 
-#: privacy.cpp:254
+#: sweeper.cpp:147
 msgid "Starting cleanup..."
 msgstr ""
 
-#: privacy.cpp:263
+#: sweeper.cpp:153
+#, qt-format
+#| msgid "Clearing %1..."
 msgid "Clearing %1..."
 msgstr ""
 
-#: privacy.cpp:298
-msgid "Clearing of %1 failed"
+#: sweeper.cpp:158
+#, qt-format
+msgid "Clearing of %1 failed: %2"
 msgstr ""
 
-#: privacy.cpp:305
+#: sweeper.cpp:164
 msgid "Clean up finished."
 msgstr ""
 
-#. i18n: file kcmprivacydialog.ui line 37
-#: rc.cpp:3
-#, no-c-format
-msgid "Privacy"
-msgstr ""
+#~ msgid "kcm_privacy"
+#~ msgstr "కెసిఎం_ప్రైవసి"
 
-#. i18n: file kcmprivacydialog.ui line 150
-#: rc.cpp:10
-#, no-c-format
-msgid "Select None"
-msgstr "ఎమీ ఎంచుకోకు"
+#~ msgid "(c) 2003 Ralf Hoelzer"
+#~ msgstr "(c) ౨౦౦౩ రాల్ఫ్ హొఎల్జర్"
 
-#. i18n: file kcmprivacydialog.ui line 189
-#: rc.cpp:13
-#, no-c-format
-msgid "Clean Up"
-msgstr ""
+#~ msgid "Cookies"
+#~ msgstr "కుకీలు"
 
-#. i18n: file kprivacysettings.ui line 46
-#: rc.cpp:19
-#, no-c-format
-msgid "Network privacy level:"
-msgstr ""
+#~ msgid "Web History"
+#~ msgstr "వెబ్ చరిత్ర"
 
-#. i18n: file kprivacysettings.ui line 55
-#: rc.cpp:22
-#, no-c-format
-msgid "Low"
-msgstr "తక్కువ"
+#~ msgid "Recent Documents"
+#~ msgstr "ఇంతకుముందు వాడిన పత్రాలు"
 
-#. i18n: file kprivacysettings.ui line 60
-#: rc.cpp:25
-#, no-c-format
-msgid "Medium"
-msgstr "మధ్యమ"
-
-#. i18n: file kprivacysettings.ui line 65
-#: rc.cpp:28
-#, no-c-format
-msgid "High"
-msgstr "ఎక్కువ"
-
-#. i18n: file kprivacysettings.ui line 70
-#: rc.cpp:31
-#, no-c-format
-msgid "Custom"
-msgstr "నిర్దెశించిన"
-
-#. i18n: file kprivacysettings.ui line 90
-#: rc.cpp:34
-#, no-c-format
-msgid "Financial Information"
-msgstr "ఆర్ధిక సమాచారం"
-
-#. i18n: file kprivacysettings.ui line 101
-#: rc.cpp:37
-#, no-c-format
-msgid ""
-"Warn me when I visit a site that uses my financial or purchase information:"
-msgstr ""
-
-#. i18n: file kprivacysettings.ui line 109
-#: rc.cpp:40 rc.cpp:52
-#, no-c-format
-msgid "For marketing or advertising purposes"
-msgstr "విక్రయ లేక ప్రకటనల అవసరాల కొరకు"
-
-#. i18n: file kprivacysettings.ui line 117
-#: rc.cpp:43 rc.cpp:55 rc.cpp:67
-#, no-c-format
-msgid "To share with other companies"
-msgstr ""
-
-#. i18n: file kprivacysettings.ui line 127
-#: rc.cpp:46
-#, no-c-format
-msgid "Health Information"
-msgstr "ఆరొగ్య సమాచారం"
-
-#. i18n: file kprivacysettings.ui line 138
-#: rc.cpp:49
-#, no-c-format
-msgid ""
-"Warn me when I visit a site that uses my health or medical information: "
-msgstr ""
-
-#. i18n: file kprivacysettings.ui line 164
-#: rc.cpp:58
-#, no-c-format
-msgid "Demographics"
-msgstr "జనాభా లెక్కలు"
-
-#. i18n: file kprivacysettings.ui line 175
-#: rc.cpp:61
-#, no-c-format
-msgid ""
-"Warn me when I visit a site that uses my non-personally identifiable "
-"information:"
-msgstr ""
-
-#. i18n: file kprivacysettings.ui line 183
-#: rc.cpp:64
-#, no-c-format
-msgid "To determine my interests, habits or general behavior"
-msgstr ""
-
-#. i18n: file kprivacysettings.ui line 201
-#: rc.cpp:70
-#, no-c-format
-msgid ""
-"Warn me when I visit a site that shares my personal information with other "
-"companies"
-msgstr ""
-
-#. i18n: file kprivacysettings.ui line 209
-#: rc.cpp:73
-#, no-c-format
-msgid ""
-"Warn me when I visit a site that does not let me know what information they "
-"have about me"
-msgstr ""
-
-#. i18n: file kprivacysettings.ui line 217
-#: rc.cpp:76
-#, no-c-format
-msgid "Personal Information"
-msgstr "వ్యక్తిగత సమాచారం"
-
-#. i18n: file kprivacysettings.ui line 228
-#: rc.cpp:79
-#, no-c-format
-msgid ""
-"Warn me when I visit a site that may contact me about other products or "
-"services:"
-msgstr ""
-
-#. i18n: file kprivacysettings.ui line 236
-#: rc.cpp:82
-#, no-c-format
-msgid "Warn me when I visit a site that may use my personal information to:"
-msgstr ""
-
-#. i18n: file kprivacysettings.ui line 244
-#: rc.cpp:85
-#, no-c-format
-msgid "Determine my habits, interests or general behavior"
-msgstr ""
-
-#. i18n: file kprivacysettings.ui line 260
-#: rc.cpp:88
-#, no-c-format
-msgid "Via telephone"
-msgstr "టెలిఫొన్ ద్వారా"
-
-#. i18n: file kprivacysettings.ui line 268
-#: rc.cpp:91
-#, no-c-format
-msgid "Via mail"
-msgstr "మెయిల్ ద్వారా"
-
-#. i18n: file kprivacysettings.ui line 286
-#: rc.cpp:94
-#, no-c-format
-msgid "Via email"
-msgstr "ఈమెయిల్ ద్వారా"
-
-#. i18n: file kprivacysettings.ui line 294
-#: rc.cpp:97
-#, no-c-format
-msgid "And do not allow me to remove my contact information"
-msgstr ""
+#~ msgid "Favorite Icons"
+#~ msgstr "ఇష్టమైన ప్రతిమలు"

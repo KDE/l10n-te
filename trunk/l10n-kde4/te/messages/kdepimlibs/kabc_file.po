@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: 2006-06-20 03:54+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-03-23 18:05+0100\n"
 "PO-Revision-Date: 2005-01-10 12:00+0530\n"
 "Last-Translator: Vijay Kiran Kamuju <infyquest@gmail.com>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -12,23 +13,30 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: resourcefile.cpp:218
+#: resourcefile.cpp:222 resourcefile.cpp:256 resourcefile.cpp:473
+#, qt-format
 msgid "Unable to open file '%1'."
 msgstr "'%1' దస్త్రాన్ని తెరువలేకపొయాను."
 
-#: resourcefile.cpp:297 resourcefile.cpp:382
-msgid "Unable to save file '%1'."
-msgstr "'%1' దస్త్రాన్ని దాచలేకపొయాను."
-
-#: resourcefile.cpp:392
+#: resourcefile.cpp:227 resourcefile.cpp:470
+#, qt-format
 msgid "Problems during parsing file '%1'."
 msgstr "'%1' దస్త్రాన్ని అన్వయిచటంలో సమస్యలు వచ్చాయి."
 
-#: resourcefileconfig.cpp:45
+#: resourcefile.cpp:325 resourcefile.cpp:352
+#, qt-format
+msgid "Unable to save file '%1'."
+msgstr "'%1' దస్త్రాన్ని దాచలేకపొయాను."
+
+#: resourcefile.cpp:461
+msgid "Download failed, could not create temporary file"
+msgstr ""
+
+#: resourcefileconfig.cpp:44
 msgid "Format:"
 msgstr "ఫార్మేట్:"
 
-#: resourcefileconfig.cpp:51
+#: resourcefileconfig.cpp:50
 msgid "Location:"
 msgstr "స్థానం:"
 
