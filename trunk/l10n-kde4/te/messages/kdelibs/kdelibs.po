@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-11 06:07+0200\n"
+"POT-Creation-Date: 2007-06-11 14:46+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -1927,6 +1927,29 @@ msgstr "%1 - తెలియని రకం\n"
 #, qt-format
 msgid "%1 - unknown type of userpath\n"
 msgstr "%1 - తెలియని యూజర్ దారి\n"
+
+#: kdecore/io/kptydevice.cpp:260
+#, fuzzy
+#| msgid "ErrorReadingRoot"
+msgid "Error reading from PTY"
+msgstr "రూట్ ను చదువుటలో దోషం"
+
+#: kdecore/io/kptydevice.cpp:294
+msgid "Error writing to PTY"
+msgstr ""
+
+#: kdecore/io/kptydevice.cpp:379
+#, fuzzy
+#| msgctxt "Socket error code Timeout"
+#| msgid "timed operation timed out"
+msgid "PTY operation timed out"
+msgstr "సమయపు కార్యానికి సమయం అయిపొయినది"
+
+#: kdecore/io/kptydevice.cpp:421
+#, fuzzy
+#| msgid "Error opening file."
+msgid "Error opening PTY"
+msgstr "దస్త్రం తెరచుటలో దోషము."
 
 #: kdecore/io/ksavefile.cpp:83
 msgid "No target filename has been given."
