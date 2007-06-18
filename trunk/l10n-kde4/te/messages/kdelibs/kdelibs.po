@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-17 05:23+0200\n"
+"POT-Creation-Date: 2007-06-18 05:28+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -4348,7 +4348,7 @@ msgstr "చాలా డౌన్ లోడ్లు"
 msgid "Unsorted"
 msgstr "నమ్మకమైనది కాదు"
 
-#: knewstuff/knewstuff2/core/security.cpp:70
+#: knewstuff/knewstuff2/core/security.cpp:78
 msgid ""
 "<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure that "
 "<i>gpg</i> is installed, otherwise verification of downloaded resources will "
@@ -4357,7 +4357,7 @@ msgstr ""
 "<qt><i>జిపిజి</i> మొదలుపెట్టలేను మరయూ అందుబాటులొ వున్న కీలను తెలెకపొయాను.<i>జిపిజి</i> స్థాపించబడి "
 "వునట్టు చూసుకోండి, లెకపొయిన డౌన్ లోడ్ చెయబడిన వనరుల సరిచూడలేము.</qt>"
 
-#: knewstuff/knewstuff2/core/security.cpp:184
+#: knewstuff/knewstuff2/core/security.cpp:216
 #, qt-format
 msgid ""
 "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br><i>%2&lt;%3&gt;</"
@@ -4365,7 +4365,7 @@ msgid ""
 msgstr ""
 "<qt><i>%2 &lt;%3&gt;</i> చెందిన <i>0x%1</i> కీ సంబంధించిన రహస్యపదం వ్రాయండి:</qt>"
 
-#: knewstuff/knewstuff2/core/security.cpp:263
+#: knewstuff/knewstuff2/core/security.cpp:304
 msgid ""
 "<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
 "that <i>gpg</i> is installed, otherwise verification of downloaded resources "
@@ -4374,15 +4374,15 @@ msgstr ""
 "<qt><i>జిపిజి</i> మొదలుపెట్టలేను మరయూ దస్త్రాన్ని సరిచూడండి.<i>జిపిజి</i> స్థాపించబడి వునట్టు "
 "చూసుకోండి, లెకపొయిన డౌన్ లోడ్ చెయబడిన వనరుల సరిచూడలేము.</qt>"
 
-#: knewstuff/knewstuff2/core/security.cpp:323
+#: knewstuff/knewstuff2/core/security.cpp:365
 msgid "Select Signing Key"
 msgstr "సంతకం చెయుటకు వాడె కీ ని ఎంచుకో"
 
-#: knewstuff/knewstuff2/core/security.cpp:323
+#: knewstuff/knewstuff2/core/security.cpp:365
 msgid "Key used for signing:"
 msgstr "సంతకం చెయుటకు వాడిన కీ:"
 
-#: knewstuff/knewstuff2/core/security.cpp:344
+#: knewstuff/knewstuff2/core/security.cpp:399
 msgid ""
 "<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> is "
 "installed, otherwise signing of the resources will not be possible.</qt>"
@@ -4555,7 +4555,7 @@ msgstr "(&O) సరే"
 msgid "&Cancel"
 msgstr "(&C) రద్దు"
 
-#: kdeui/util/kstandardguiitem.cpp:116 khtml/java/kjavaappletserver.cpp:850
+#: kdeui/util/kstandardguiitem.cpp:116 khtml/java/kjavaappletserver.cpp:849
 msgid "&Yes"
 msgstr "(&Y) ఔను"
 
@@ -4563,7 +4563,7 @@ msgstr "(&Y) ఔను"
 msgid "Yes"
 msgstr "ఔను"
 
-#: kdeui/util/kstandardguiitem.cpp:121 khtml/java/kjavaappletserver.cpp:843
+#: kdeui/util/kstandardguiitem.cpp:121 khtml/java/kjavaappletserver.cpp:842
 msgid "&No"
 msgstr "(&N) కాదు"
 
@@ -5192,15 +5192,15 @@ msgstr "అమర్చు"
 msgid "&Try"
 msgstr "(&T) ప్రయత్నించుము"
 
-#: kdeui/dialogs/kdialog.cpp:466 kstyles/web/webstyle.cpp:1604
+#: kdeui/dialogs/kdialog.cpp:473 kstyles/web/webstyle.cpp:1604
 msgid "modified"
 msgstr "మార్చబడినది"
 
-#: kdeui/dialogs/kdialog.cpp:841
+#: kdeui/dialogs/kdialog.cpp:848
 msgid "&Details"
 msgstr "(&D) వివరములు"
 
-#: kdeui/dialogs/kdialog.cpp:981
+#: kdeui/dialogs/kdialog.cpp:988
 msgid "Get help..."
 msgstr "సహాయం పొందండి..."
 
@@ -6762,7 +6762,7 @@ msgstr ""
 msgid "Separator, Space"
 msgstr "ప్రతిస్థాపణ మొదలుపెట్టు"
 
-#: kdeui/widgets/kcharselectdata.cpp:531 khtml/java/kjavaappletserver.cpp:698
+#: kdeui/widgets/kcharselectdata.cpp:531 khtml/java/kjavaappletserver.cpp:697
 msgid "Unknown"
 msgstr "తెలియని"
 
@@ -8213,7 +8213,7 @@ msgstr "భద్రతా హెచ్చరిక"
 msgid "<qt>Access by untrusted page to<BR><B>%1</B><BR> denied."
 msgstr "<qt>అవిశ్వసనీయ పుట <BR><B>%1</B><BR> నుంచి అనుమతి నిరాకరించడమైనది."
 
-#: khtml/khtml_part.cpp:6820 khtml/java/kjavaappletserver.cpp:824
+#: khtml/khtml_part.cpp:6820 khtml/java/kjavaappletserver.cpp:823
 msgid "Security Alert"
 msgstr "భద్రతా హెచ్చరిక"
 
@@ -8707,83 +8707,83 @@ msgstr "అప్లెట్ ను ఎక్కిస్తున్నా"
 msgid "Error: java executable not found"
 msgstr "దోషం: జావా కార్యక్రమం కనబడుటలేదు"
 
-#: khtml/java/kjavaappletserver.cpp:664
+#: khtml/java/kjavaappletserver.cpp:663
 msgid "Signed by (validation: "
 msgstr "సంతకం చేసింది (నిరూపణ: "
 
-#: khtml/java/kjavaappletserver.cpp:666
+#: khtml/java/kjavaappletserver.cpp:665
 msgid "Certificate (validation: "
 msgstr "ధృవ పత్ర (నిరూపణ: "
 
-#: khtml/java/kjavaappletserver.cpp:669
+#: khtml/java/kjavaappletserver.cpp:668
 msgid "Ok"
 msgstr "సరె"
 
-#: khtml/java/kjavaappletserver.cpp:671
+#: khtml/java/kjavaappletserver.cpp:670
 msgid "NoCARoot"
 msgstr "సిఏరూట్ లేదు"
 
-#: khtml/java/kjavaappletserver.cpp:673
+#: khtml/java/kjavaappletserver.cpp:672
 msgid "InvalidPurpose"
 msgstr "చెల్లని ప్రయొజనం"
 
-#: khtml/java/kjavaappletserver.cpp:675
+#: khtml/java/kjavaappletserver.cpp:674
 msgid "PathLengthExceeded"
 msgstr "పాత్ పొడవును మించినది"
 
-#: khtml/java/kjavaappletserver.cpp:677
+#: khtml/java/kjavaappletserver.cpp:676
 msgid "InvalidCA"
 msgstr "చెల్లని సిఏ"
 
-#: khtml/java/kjavaappletserver.cpp:679
+#: khtml/java/kjavaappletserver.cpp:678
 msgid "Expired"
 msgstr "ముగిసినది"
 
-#: khtml/java/kjavaappletserver.cpp:681
+#: khtml/java/kjavaappletserver.cpp:680
 msgid "SelfSigned"
 msgstr "స్వీయసంతకంచేయబడిన"
 
-#: khtml/java/kjavaappletserver.cpp:683
+#: khtml/java/kjavaappletserver.cpp:682
 msgid "ErrorReadingRoot"
 msgstr "రూట్ ను చదువుటలో దోషం"
 
-#: khtml/java/kjavaappletserver.cpp:685
+#: khtml/java/kjavaappletserver.cpp:684
 msgid "Revoked"
 msgstr "కొట్టివేయబడినది"
 
-#: khtml/java/kjavaappletserver.cpp:687
+#: khtml/java/kjavaappletserver.cpp:686
 msgid "Untrusted"
 msgstr "నమ్మకమైనది కాదు"
 
-#: khtml/java/kjavaappletserver.cpp:689
+#: khtml/java/kjavaappletserver.cpp:688
 msgid "SignatureFailed"
 msgstr "సంతకం తప్పు"
 
-#: khtml/java/kjavaappletserver.cpp:691
+#: khtml/java/kjavaappletserver.cpp:690
 msgid "Rejected"
 msgstr "తిరస్కరించబడినది"
 
-#: khtml/java/kjavaappletserver.cpp:693
+#: khtml/java/kjavaappletserver.cpp:692
 msgid "PrivateKeyFailed"
 msgstr "ప్రైవేట్ కీ విఫలం"
 
-#: khtml/java/kjavaappletserver.cpp:695
+#: khtml/java/kjavaappletserver.cpp:694
 msgid "InvalidHost"
 msgstr "చెల్లని హోస్ట్"
 
-#: khtml/java/kjavaappletserver.cpp:831
+#: khtml/java/kjavaappletserver.cpp:830
 msgid "Do you grant Java applet with certificate(s):"
 msgstr "ధృవపత్రాలతొ కూడిన జావా అప్లెట్ ను అనుమతించమంటారా:"
 
-#: khtml/java/kjavaappletserver.cpp:833
+#: khtml/java/kjavaappletserver.cpp:832
 msgid "the following permission"
 msgstr "ఈ క్రింది అనుమతి"
 
-#: khtml/java/kjavaappletserver.cpp:847
+#: khtml/java/kjavaappletserver.cpp:846
 msgid "&Reject All"
 msgstr "(&R) అన్ని తిరస్కరించు"
 
-#: khtml/java/kjavaappletserver.cpp:853
+#: khtml/java/kjavaappletserver.cpp:852
 msgid "&Grant All"
 msgstr "(&G) అన్నిఅనుమతించు"
 
@@ -9942,11 +9942,11 @@ msgctxt "Opposite to Back"
 msgid "&Next"
 msgstr "(&N) తరువాత"
 
-#: kde3support/kdeui/k3spell.cpp:1177
+#: kde3support/kdeui/k3spell.cpp:1205
 msgid "You have to restart the dialog for changes to take effect"
 msgstr ""
 
-#: kde3support/kdeui/k3spell.cpp:1403
+#: kde3support/kdeui/k3spell.cpp:1431
 msgid "Spell Checker"
 msgstr ""
 
