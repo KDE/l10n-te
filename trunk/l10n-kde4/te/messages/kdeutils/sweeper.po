@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: privacy\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-28 05:47+0200\n"
+"POT-Creation-Date: 2007-06-24 05:31+0200\n"
 "PO-Revision-Date: 2007-04-01 12:09+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -32,7 +32,7 @@ msgstr ""
 msgid "Maintainer"
 msgstr ""
 
-#: main.cpp:34
+#: main.cpp:34 privacyfunctions.h:66
 msgid "Thumbnail Cache"
 msgstr ""
 
@@ -319,20 +319,97 @@ msgstr ""
 msgid "Clean up finished."
 msgstr ""
 
+#: privacyfunctions.h:38
+msgid "Cookies"
+msgstr "కుకీలు"
+
+#: privacyfunctions.h:39
+msgid "Clears all stored cookies set by websites"
+msgstr ""
+
+#: privacyfunctions.h:48
+#, fuzzy
+#| msgid "Cookies"
+msgid "Cookie Policies"
+msgstr "కుకీలు"
+
+#: privacyfunctions.h:49
+msgid "Clears the cookie policies for all visited websites"
+msgstr ""
+
+#: privacyfunctions.h:57
+msgid "Saved Clipboard Contents"
+msgstr ""
+
+#: privacyfunctions.h:58
+msgid "Clears the clipboard contents stored by Klipper"
+msgstr ""
+
+#: privacyfunctions.h:67
+msgid "Clears all cached thumbnails"
+msgstr ""
+
+#: privacyfunctions.h:75
+msgid "Run Command History"
+msgstr ""
+
+#: privacyfunctions.h:76
+msgid ""
+"Clears the history of commands run through the Run Command tool on the "
+"desktop"
+msgstr ""
+
+#: privacyfunctions.h:84
+msgid "Form Completion Entries"
+msgstr ""
+
+#: privacyfunctions.h:85
+msgid "Clears values which were entered into forms on websites"
+msgstr ""
+
+#: privacyfunctions.h:93
+msgid "Web History"
+msgstr "వెబ్ చరిత్ర"
+
+#: privacyfunctions.h:94
+msgid "Clears the history of visited websites"
+msgstr ""
+
+#: privacyfunctions.h:102
+msgid "Web Cache"
+msgstr ""
+
+#: privacyfunctions.h:103
+msgid "Clears the temporary cache of websites visited"
+msgstr ""
+
+#: privacyfunctions.h:111
+msgid "Quick Start Menu"
+msgstr ""
+
+#: privacyfunctions.h:112
+msgid "Clears the entries from the list of recently started applications"
+msgstr ""
+
+#: privacyfunctions.h:120
+msgid "Recent Documents"
+msgstr "ఇంతకుముందు వాడిన పత్రాలు"
+
+#: privacyfunctions.h:121
+msgid ""
+"Clears the list of recently used documents from the KDE applications menu"
+msgstr ""
+
+#: privacyfunctions.h:129
+msgid "Favorite Icons"
+msgstr "ఇష్టమైన ప్రతిమలు"
+
+#: privacyfunctions.h:130
+msgid "Clears the FavIcons cached from visited websites"
+msgstr ""
+
 #~ msgid "kcm_privacy"
 #~ msgstr "కెసిఎం_ప్రైవసి"
 
 #~ msgid "(c) 2003 Ralf Hoelzer"
 #~ msgstr "(c) ౨౦౦౩ రాల్ఫ్ హొఎల్జర్"
-
-#~ msgid "Cookies"
-#~ msgstr "కుకీలు"
-
-#~ msgid "Web History"
-#~ msgstr "వెబ్ చరిత్ర"
-
-#~ msgid "Recent Documents"
-#~ msgstr "ఇంతకుముందు వాడిన పత్రాలు"
-
-#~ msgid "Favorite Icons"
-#~ msgstr "ఇష్టమైన ప్రతిమలు"
