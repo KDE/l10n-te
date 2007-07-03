@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nsplugin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-18 05:29+0200\n"
+"POT-Creation-Date: 2007-07-03 05:05+0200\n"
 "PO-Revision-Date: 2007-04-03 19:54+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -50,13 +50,17 @@ msgstr "పేరులేని ప్లగిన్"
 msgid "Netscape plugin viewer"
 msgstr "నెట్స్కేప్ యొక్క ప్లగిన్ చూసే కార్యక్షేత్రం"
 
-#: pluginscan.cpp:542
-msgid "Show progress output for GUI"
-msgstr ""
-
-#: pluginscan.cpp:549
+#: pluginscan.cpp:543 pluginscan.cpp:544
 msgid "nspluginscan"
 msgstr "ఎన్ ఎస్ ప్లగిన్ స్కాన్ "
+
+#: pluginscan.cpp:545
+msgid "(c) 2000,2001 by Stefan Schimanski"
+msgstr ""
+
+#: pluginscan.cpp:550
+msgid "Show progress output for GUI"
+msgstr ""
 
 #. i18n: tag text
 #. i18n: file nspluginpart.rc line 4
@@ -91,6 +95,12 @@ msgstr "%1 కి సమాచారం సమర్పించుతున్�
 #, qt-format
 msgid "Requesting %1"
 msgstr "%1 ని కోరుచున్నాము"
+
+#: viewer/viewer.cpp:124
+#, fuzzy
+#| msgid "Netscape plugin viewer"
+msgid "nspluginviewer"
+msgstr "నెట్స్కేప్ యొక్క ప్లగిన్ చూసే కార్యక్షేత్రం"
 
 #~ msgid "Error Connecting to DCOP Server"
 #~ msgstr "డికాప్ సర్వర్  తో బంధం ఏర్పరచుటలో దోషం"
