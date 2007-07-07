@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-06 05:13+0200\n"
+"POT-Creation-Date: 2007-07-07 05:00+0200\n"
 "PO-Revision-Date: 2007-03-09 14:17+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -218,74 +218,74 @@ msgstr "'%1' అప్లికేషన్ దొరకలేదు"
 msgid "Application not found!"
 msgstr "అప్లికేషన్ దొరకలేదు!"
 
-#: app/katemwmodonhddialog.cpp:65
+#: app/katemwmodonhddialog.cpp:67
 msgid "Documents Modified on Disk"
 msgstr ""
 
-#: app/katemwmodonhddialog.cpp:67
+#: app/katemwmodonhddialog.cpp:69
 msgid "&Ignore"
 msgstr ""
 
-#: app/katemwmodonhddialog.cpp:69
+#: app/katemwmodonhddialog.cpp:71
 msgid "&Reload"
 msgstr ""
 
-#: app/katemwmodonhddialog.cpp:76
+#: app/katemwmodonhddialog.cpp:78
 msgid ""
 "Removes the modified flag from the selected documents and closes the dialog "
 "if there are no more unhandled documents."
 msgstr ""
 
-#: app/katemwmodonhddialog.cpp:79
+#: app/katemwmodonhddialog.cpp:81
 msgid ""
 "Overwrite selected documents, discarding the disk changes and closes the "
 "dialog if there are no more unhandled documents."
 msgstr ""
 
-#: app/katemwmodonhddialog.cpp:82
+#: app/katemwmodonhddialog.cpp:84
 msgid ""
 "Reloads the selected documents from disk and closes the dialog if there are "
 "no more unhandled documents."
 msgstr ""
 
-#: app/katemwmodonhddialog.cpp:96
+#: app/katemwmodonhddialog.cpp:98
 msgid ""
 "<qt>The documents listed below has changed on disk.<p>Select one or more at "
 "the time and press an action button until the list is empty.</qt>"
 msgstr ""
 
-#: app/katemwmodonhddialog.cpp:103
+#: app/katemwmodonhddialog.cpp:105
 msgid "Filename"
 msgstr "దస్త్రం పేరు"
 
-#: app/katemwmodonhddialog.cpp:103
+#: app/katemwmodonhddialog.cpp:105
 msgid "Status on Disk"
 msgstr ""
 
-#: app/katemwmodonhddialog.cpp:108
+#: app/katemwmodonhddialog.cpp:110
 msgid "Modified"
 msgstr "మార్చిన"
 
-#: app/katemwmodonhddialog.cpp:108
+#: app/katemwmodonhddialog.cpp:110
 msgid "Created"
 msgstr "సృష్టించిన"
 
-#: app/katemwmodonhddialog.cpp:108
+#: app/katemwmodonhddialog.cpp:110
 msgid "Deleted"
 msgstr "తీసివేసిన"
 
-#: app/katemwmodonhddialog.cpp:120
+#: app/katemwmodonhddialog.cpp:122
 msgid "&View Difference"
 msgstr ""
 
-#: app/katemwmodonhddialog.cpp:123
+#: app/katemwmodonhddialog.cpp:125
 msgid ""
 "Calculates the difference between the the editor contents and the disk file "
 "for the selected document, and shows the difference with the default "
 "application. Requires diff(1)."
 msgstr ""
 
-#: app/katemwmodonhddialog.cpp:174
+#: app/katemwmodonhddialog.cpp:184
 #, qt-format
 msgid ""
 "Could not save the document \n"
@@ -294,21 +294,21 @@ msgstr ""
 "%1\n"
 "పత్రాన్ని దాచలేక పోయాను"
 
-#: app/katemwmodonhddialog.cpp:256
+#: app/katemwmodonhddialog.cpp:282
 msgid ""
 "The diff command failed. Please make sure that diff(1) is installed and in "
 "your PATH."
 msgstr ""
 
-#: app/katemwmodonhddialog.cpp:258
+#: app/katemwmodonhddialog.cpp:284
 msgid "Error Creating Diff"
 msgstr ""
 
-#: app/katemwmodonhddialog.cpp:279
+#: app/katemwmodonhddialog.cpp:293
 msgid "Besides white space changes, the files are identical."
 msgstr ""
 
-#: app/katemwmodonhddialog.cpp:280
+#: app/katemwmodonhddialog.cpp:294
 msgid "Diff Output"
 msgstr ""
 
@@ -809,15 +809,15 @@ msgid ""
 "Session name:"
 msgstr ""
 
-#: app/katesession.cpp:570 app/katesession.cpp:897
+#: app/katesession.cpp:570 app/katesession.cpp:889
 msgid "Session name:"
 msgstr "సెషన్ పేరు:"
 
-#: app/katesession.cpp:577 app/katesession.cpp:904
+#: app/katesession.cpp:577 app/katesession.cpp:896
 msgid "To save a session, you must specify a name."
 msgstr ""
 
-#: app/katesession.cpp:577 app/katesession.cpp:904
+#: app/katesession.cpp:577 app/katesession.cpp:896
 msgid "Missing Session Name"
 msgstr ""
 
@@ -825,7 +825,7 @@ msgstr ""
 msgid "Session Chooser"
 msgstr ""
 
-#: app/katesession.cpp:627 app/katesession.cpp:753
+#: app/katesession.cpp:627 app/katesession.cpp:745
 msgid "Open Session"
 msgstr ""
 
@@ -833,12 +833,12 @@ msgstr ""
 msgid "New Session"
 msgstr "కొత్త సెషన్"
 
-#: app/katesession.cpp:652 app/katesession.cpp:773 app/katesession.cpp:841
+#: app/katesession.cpp:652 app/katesession.cpp:765 app/katesession.cpp:833
 #: kicker/sessionmenu/katesessionmenu.cpp:112
 msgid "Session Name"
 msgstr "సెషన్ పేరు"
 
-#: app/katesession.cpp:653 app/katesession.cpp:774 app/katesession.cpp:842
+#: app/katesession.cpp:653 app/katesession.cpp:766 app/katesession.cpp:834
 #, fuzzy
 #| msgid "Save Documents"
 msgctxt "The number of open documents"
@@ -846,43 +846,37 @@ msgid "Open Documents"
 msgstr "పత్రాలను దాచు"
 
 #: app/katesession.cpp:664
-#, fuzzy
-#| msgid "&Save session"
-msgid "Empty session"
-msgstr "(&S) సెషన్ను దాచు"
-
-#: app/katesession.cpp:666
 msgid "Use selected session as template"
 msgstr ""
 
-#: app/katesession.cpp:678
+#: app/katesession.cpp:676
 msgid "&Always use this choice"
 msgstr ""
 
-#: app/katesession.cpp:757 app/katesession.cpp:827
+#: app/katesession.cpp:749 app/katesession.cpp:819
 msgid "&Open"
 msgstr ""
 
-#: app/katesession.cpp:824
+#: app/katesession.cpp:816
 msgid "Manage Sessions"
 msgstr ""
 
-#: app/katesession.cpp:856
+#: app/katesession.cpp:848
 msgid "&Rename..."
 msgstr ""
 
-#: app/katesession.cpp:897
+#: app/katesession.cpp:889
 msgid "Specify New Name for Session"
 msgstr ""
 
-#: app/katesession.cpp:911
+#: app/katesession.cpp:903
 #, qt-format
 msgid ""
 "The session could not be renamed to \"%1\", there already exists another "
 "session with the same name"
 msgstr ""
 
-#: app/katesession.cpp:911
+#: app/katesession.cpp:903
 #, fuzzy
 #| msgid "Session name:"
 msgid "Session Renaming"
@@ -2839,6 +2833,11 @@ msgstr ""
 #: plugins/snippets/plugin_katesnippets.cpp:141
 msgid "Snippets"
 msgstr ""
+
+#, fuzzy
+#~| msgid "&Save session"
+#~ msgid "Empty session"
+#~ msgstr "(&S) సెషన్ను దాచు"
 
 #~ msgid "Default Session"
 #~ msgstr "అప్రమేయ సెషన్"
