@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-07 04:58+0200\n"
+"POT-Creation-Date: 2007-07-09 04:53+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -4419,6 +4419,7 @@ msgid "Please describe your upload."
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:80 kross/ui/view.cpp:151
+#: kdeui/colors/kcolordialog.cpp:1156
 msgid "Name:"
 msgstr "పేరు:"
 
@@ -10659,6 +10660,118 @@ msgstr "కెయూనిట్ టెస్ట్ మాడ్ రన్నర
 msgid "(C) 2005 Jeroen Wijnhout"
 msgstr ""
 
+#: kdeui/colors/kcolordialog.cpp:93
+msgctxt "palette name"
+msgid "* Recent Colors *"
+msgstr "ఇటీవలి రంగులు"
+
+#: kdeui/colors/kcolordialog.cpp:94
+msgctxt "palette name"
+msgid "* Custom Colors *"
+msgstr "నిర్దేశించిన రంగులు"
+
+#: kdeui/colors/kcolordialog.cpp:95
+msgctxt "palette name"
+msgid "Forty Colors"
+msgstr "నలభై రంగులు"
+
+#: kdeui/colors/kcolordialog.cpp:96
+msgctxt "palette name"
+msgid "Rainbow Colors"
+msgstr "ఇంద్రధనసు రంగులు"
+
+#: kdeui/colors/kcolordialog.cpp:97
+msgctxt "palette name"
+msgid "Royal Colors"
+msgstr "రాయల్ రంగులు"
+
+#: kdeui/colors/kcolordialog.cpp:98
+msgctxt "palette name"
+msgid "Web Colors"
+msgstr "వెబ్ రంగులు"
+
+#: kdeui/colors/kcolordialog.cpp:483
+msgid "Named Colors"
+msgstr "పేరువున్న రంగులు"
+
+#: kdeui/colors/kcolordialog.cpp:642
+msgid ""
+"Unable to read X11 RGB color strings. The following file location(s) were "
+"examined:\n"
+msgstr "X11 RGB రంగుల పదాలను చదవలేకపొయాను. క్రింది దస్త్ర స్థానం(లు) పరీక్షించాను:\n"
+
+#: kdeui/colors/kcolordialog.cpp:947
+#, fuzzy
+#| msgid "Select Color"
+msgid "Select Color"
+msgstr "రంగు ఎంచుకొనుము"
+
+#: kdeui/colors/kcolordialog.cpp:1016
+#, fuzzy
+#| msgid "H:"
+msgid "Hue:"
+msgstr "హెచ్:"
+
+#: kdeui/colors/kcolordialog.cpp:1026
+#, fuzzy
+#| msgid "Saturday"
+msgid "Saturation:"
+msgstr "శనివారం"
+
+#: kdeui/colors/kcolordialog.cpp:1036
+#, fuzzy
+#| msgid "Value"
+msgid "Value:"
+msgstr "విలువ"
+
+#: kdeui/colors/kcolordialog.cpp:1050
+#, fuzzy
+#| msgid "Redo"
+msgid "Red:"
+msgstr "పునరాచరణ"
+
+#: kdeui/colors/kcolordialog.cpp:1059
+#, fuzzy
+#| msgid "Greek"
+msgid "Green:"
+msgstr "గ్రీకు"
+
+#: kdeui/colors/kcolordialog.cpp:1069
+#, fuzzy
+#| msgid "Value"
+msgid "Blue:"
+msgstr "విలువ"
+
+#: kdeui/colors/kcolordialog.cpp:1126
+#, fuzzy
+#| msgctxt "palette name"
+#| msgid "* Custom Colors *"
+msgid "&Add to Custom Colors"
+msgstr "నిర్దేశించిన రంగులు"
+
+#: kdeui/colors/kcolordialog.cpp:1163
+msgid "HTML:"
+msgstr "హెచ్ టిఎంఎల్:"
+
+#: kdeui/colors/kcolordialog.cpp:1246
+msgid "Default color"
+msgstr "అప్రమేయ రంగు"
+
+#: kdeui/colors/kcolordialog.cpp:1330
+msgid "-default-"
+msgstr "-అప్రమేయ-"
+
+#: kdeui/colors/kcolordialog.cpp:1642
+msgid "-unnamed-"
+msgstr "-పేరు పెట్టని-"
+
+#: kdeui/colors/kcolorcombo.cpp:354
+#, fuzzy
+#| msgid "Custom..."
+msgctxt "Custom color"
+msgid "Custom..."
+msgstr "నిర్దేశితమైన..."
+
 #: interfaces/terminal/test/main.cc:34
 #, fuzzy
 #| msgid "Test"
@@ -12994,41 +13107,6 @@ msgstr ""
 #~ msgid "--- line separator ---"
 #~ msgstr "--- వరుస విభాజిక ---"
 
-#~ msgctxt "palette name"
-#~ msgid "* Recent Colors *"
-#~ msgstr "ఇటీవలి రంగులు"
-
-#~ msgctxt "palette name"
-#~ msgid "* Custom Colors *"
-#~ msgstr "నిర్దేశించిన రంగులు"
-
-#~ msgctxt "palette name"
-#~ msgid "Forty Colors"
-#~ msgstr "నలభై రంగులు"
-
-#~ msgctxt "palette name"
-#~ msgid "Rainbow Colors"
-#~ msgstr "ఇంద్రధనసు రంగులు"
-
-#~ msgctxt "palette name"
-#~ msgid "Royal Colors"
-#~ msgstr "రాయల్ రంగులు"
-
-#~ msgctxt "palette name"
-#~ msgid "Web Colors"
-#~ msgstr "వెబ్ రంగులు"
-
-#~ msgid "Named Colors"
-#~ msgstr "పేరువున్న రంగులు"
-
-#~ msgid ""
-#~ "Unable to read X11 RGB color strings. The following file location(s) were "
-#~ "examined:\n"
-#~ msgstr "X11 RGB రంగుల పదాలను చదవలేకపొయాను. క్రింది దస్త్ర స్థానం(లు) పరీక్షించాను:\n"
-
-#~ msgid "H:"
-#~ msgstr "హెచ్:"
-
 #~ msgid "S:"
 #~ msgstr "ఎస్:"
 
@@ -13040,18 +13118,6 @@ msgstr ""
 
 #~ msgid "B:"
 #~ msgstr "బి:"
-
-#~ msgid "HTML:"
-#~ msgstr "హెచ్ టిఎంఎల్:"
-
-#~ msgid "Default color"
-#~ msgstr "అప్రమేయ రంగు"
-
-#~ msgid "-default-"
-#~ msgstr "-అప్రమేయ-"
-
-#~ msgid "-unnamed-"
-#~ msgstr "-పేరు పెట్టని-"
 
 #~ msgid "&Browse..."
 #~ msgstr "(&B) పరిశీలించు..."
@@ -13068,9 +13134,6 @@ msgstr ""
 
 #~ msgid "Apply settings"
 #~ msgstr "అమరికలను వర్తించును"
-
-#~ msgid "Custom..."
-#~ msgstr "నిర్దేశితమైన..."
 
 #~ msgctxt "min toolbar"
 #~ msgid "Flat"
