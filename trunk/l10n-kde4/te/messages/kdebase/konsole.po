@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-14 05:32+0200\n"
+"POT-Creation-Date: 2007-07-15 05:31+0200\n"
 "PO-Revision-Date: 2007-03-22 20:26+0530\n"
 "Last-Translator: Vijay Kiran Kamuju <infyquest@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -224,7 +224,7 @@ msgstr ""
 msgid "Copy Email Address"
 msgstr ""
 
-#: HistorySizeDialog.cpp:49 SessionController.cpp:493
+#: HistorySizeDialog.cpp:49
 #, fuzzy
 #| msgid "Save History"
 msgid "Scrollback Options"
@@ -404,46 +404,46 @@ msgstr ""
 msgid "Connect"
 msgstr ""
 
-#: Session.cpp:387
+#: Session.cpp:415
 #, qt-format
 msgid "Silence in session '%1'"
 msgstr "%1 సెషన్ లో నిశబ్దం"
 
-#: Session.cpp:404
+#: Session.cpp:432
 #, qt-format
 msgid "Bell in session '%1'"
 msgstr "%1 సెషన్ లో గంట"
 
-#: Session.cpp:415
+#: Session.cpp:443
 #, qt-format
 msgid "Activity in session '%1'"
 msgstr ""
 
-#: Session.cpp:514
+#: Session.cpp:542
 msgid "<Finished>"
 msgstr ""
 
-#: Session.cpp:523
+#: Session.cpp:551
 #, qt-format
 msgid "Session '%1' exited with status %2."
 msgstr ""
 
-#: Session.cpp:527
+#: Session.cpp:555
 #, qt-format
 msgid "Session '%1' exited with signal %2 and dumped core."
 msgstr ""
 
-#: Session.cpp:529
+#: Session.cpp:557
 #, qt-format
 msgid "Session '%1' exited with signal %2."
 msgstr ""
 
-#: Session.cpp:532
+#: Session.cpp:560
 #, qt-format
 msgid "Session '%1' exited unexpectedly."
 msgstr ""
 
-#: Session.cpp:731
+#: Session.cpp:759
 msgid "ZModem Progress"
 msgstr ""
 
@@ -504,64 +504,70 @@ msgstr ""
 #: SessionController.cpp:467
 #, fuzzy
 #| msgid "Clear &History"
-msgid "Search Output..."
+msgid "Search Output"
 msgstr "(&H) చరిత్రను చెరపివెయి"
 
-#: SessionController.cpp:475
+#: SessionController.cpp:476
 #, fuzzy
 #| msgid "Find"
 msgid "Find Next"
 msgstr "వెతుకు"
 
-#: SessionController.cpp:482
+#: SessionController.cpp:483
 msgid "Find Previous"
 msgstr ""
 
-#: SessionController.cpp:488
+#: SessionController.cpp:489
 #, fuzzy
 #| msgid "Save History"
 msgid "Save Output..."
 msgstr "చరిత్రను దాచు"
 
-#: SessionController.cpp:498
+#: SessionController.cpp:494
+#, fuzzy
+#| msgid "Save History"
+msgid "Scrollback Options..."
+msgstr "చరిత్రను దాచు"
+
+#: SessionController.cpp:499
 msgid "Clear Scrollback"
 msgstr ""
 
-#: SessionController.cpp:502
+#: SessionController.cpp:503
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Clear Scrollback && Reset"
 msgstr "(&H) చరిత్రను చెరపివెయి"
 
-#: SessionController.cpp:508
+#: SessionController.cpp:509
 msgid "Edit Current Profile..."
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file ../desktop/sessionui.rc line 57
-#: SessionController.cpp:511 rc.cpp:417
+#: SessionController.cpp:512 rc.cpp:417
 msgid "Change Profile"
 msgstr ""
 
-#: SessionController.cpp:593
+#: SessionController.cpp:594
 msgid "Rename Tab"
 msgstr ""
 
-#: SessionController.cpp:594
+#: SessionController.cpp:595
 msgid "Enter new tab text:"
 msgstr ""
 
-#: SessionController.cpp:977
+#: SessionController.cpp:978
 #, qt-format
 msgid "Save Output from %1"
 msgstr ""
 
-#: SessionController.cpp:988
+#: SessionController.cpp:989
 #, qt-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 
-#: SessionController.cpp:1077
+#: SessionController.cpp:1078
 #, qt-format
 msgid ""
 "A problem occurred when saving the output.\n"
