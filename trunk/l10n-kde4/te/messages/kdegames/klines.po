@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klines\n"
-"POT-Creation-Date: 2005-07-03 01:31+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-07-27 05:45+0200\n"
 "PO-Revision-Date: 2007-07-14 14:15+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -13,231 +14,211 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: _translatorinfo.cpp:1
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
-msgstr "వి నరేష్ కుమార్\nవిజయ్ కిరణ్ కముజు"
-
-#: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
-msgstr "cyan_00391@yahoo.co.in\ninfyquest@gmail.com"
-
-#: ballpainter.cpp:69
-msgid "Unable to find graphics. Check your installation."
-msgstr ""
-
-#: klines.cpp:52
-msgid "Very Easy"
-msgstr "చాలా తేలిక"
-
-#: klines.cpp:52
-msgid "Easy"
-msgstr "తేలిక"
-
-#: klines.cpp:52
-msgid "Normal"
-msgstr "సాధారణం"
-
-#: klines.cpp:52
-msgid "Hard"
-msgstr "కష్టము"
-
-#: klines.cpp:53
-msgid "Very Hard"
-msgstr "చాలా కష్టము"
-
-#: klines.cpp:78
-msgid " Score:"
+#: klines.cpp:51
+#, fuzzy
+#| msgid " Score:"
+msgid "Score:"
 msgstr "స్కోరు:"
 
-#: klines.cpp:80
-msgid " Level: "
-msgstr "స్థాయి:"
-
-#: klines.cpp:109 klines.cpp:206 klines.cpp:377
-msgid "Start &Tutorial"
-msgstr "(&T) పాఠం మొదలుపెట్టు"
-
-#: klines.cpp:113
-msgid "&Show Next"
+#: klines.cpp:76
+msgid "Show next"
 msgstr ""
 
-#: klines.cpp:115
-msgid "Hide Next"
-msgstr ""
-
-#: klines.cpp:116
-msgid "&Use Numbered Balls"
-msgstr ""
-
-#: klines.cpp:131
-msgid "Move Left"
-msgstr "ఎడమవైపు జరుపు"
-
-#: klines.cpp:132
-msgid "Move Right"
-msgstr "కుడివైపు జరుపు"
-
-#: klines.cpp:133
-msgid "Move Up"
-msgstr "పైకి జరుపు"
-
-#: klines.cpp:134
-msgid "Move Down"
-msgstr "కిందకి జరుపు"
-
-#: klines.cpp:135
-msgid "Move Ball"
-msgstr "బంతిని జరుపు"
-
-#: klines.cpp:167 klines.cpp:186 klines.cpp:205 klines.cpp:422 klines.cpp:431
-#, c-format
-msgid " Level: %1"
-msgstr "స్థాయి: %1"
-
-#: klines.cpp:182
-msgid "Stop &Tutorial"
-msgstr "(&T) పాఠం ఆపు"
-
-#: klines.cpp:185
-msgid "Tutorial"
-msgstr "పాఠం"
-
-#: klines.cpp:205
-msgid "Tutorial - Stopped"
-msgstr "పాఠం - ఆగిపోయినది"
-
-#: klines.cpp:225
-msgid ""
-"The goal of the game is to put\n"
-"5 balls of the same color in line."
-msgstr ""
-
-#: klines.cpp:234
-msgid ""
-"You can make horizontal, vertical\n"
-"and diagonal lines."
-msgstr ""
-
-#: klines.cpp:243
-msgid "Each turn, three new balls are placed on the board."
-msgstr "ప్రతీ సారి మూడు కొత్త బంతులు పలక పైన పెట్టబడతాయి"
-
-#: klines.cpp:251
-msgid "Every turn, you can move one ball."
-msgstr "ప్రతీ సారి మీరు ఒక బంతిని కదపవచ్చు"
-
-#: klines.cpp:260
-msgid ""
-"To move a ball, click on it with the mouse,\n"
-"then click where you want the ball to go."
-msgstr ""
-
-#: klines.cpp:275
-msgid "You just moved the blue ball!"
-msgstr "మీరు నీలపు బంతిని కదిపారు"
-
-#: klines.cpp:283
-msgid ""
-"Balls can be moved to every position on the board,\n"
-"as long as there are no other balls in their way."
-msgstr ""
-
-#: klines.cpp:299
-msgid "Now we only need one more blue ball."
-msgstr "ఇప్పుడు ఒకే ఒక్క నీలపు బంతి కావాలి"
-
-#: klines.cpp:307
-msgid "It seems to be our lucky day!"
-msgstr "ఈ రోజు మీకు శుభ దినము!"
-
-#: klines.cpp:322
-msgid ""
-"Hurray! And away they go!\n"
-"Now lets try the green balls."
-msgstr ""
-
-#: klines.cpp:343
-msgid ""
-"Now you try!\n"
-"Click on the green ball and move it to the others!"
-msgstr ""
-
-#: klines.cpp:355
-msgid "Almost, try again!"
-msgstr ""
-
-#: klines.cpp:360
-msgid "Very good!"
-msgstr "చాలా మంచిది!"
-
-#: klines.cpp:364
-msgid "Whenever you complete a line you get an extra turn."
-msgstr ""
-
-#: klines.cpp:368
-msgid ""
-"This is the end of this tutorial.\n"
-"Feel free to finish the game!"
-msgstr ""
-
-#: klines.cpp:422
-msgid "Tutorial - Paused"
-msgstr "పాఠము - విరామము"
-
-#: klines.cpp:531
-#, c-format
-msgid " Score: %1"
+#: klines.cpp:95
+#, fuzzy, qt-format
+#| msgid " Score: %1"
+msgid "Score: %1"
 msgstr "స్కోరు : %1"
 
-#: linesboard.cpp:229
-msgid "Game Over"
-msgstr "ఆట అయిపోయింది"
+#: klines.cpp:156
+msgid "Theme"
+msgstr ""
 
-#: main.cpp:30
+#: klines.cpp:165
+#, qt-format
+msgid "Failed to load \"%1\" theme. Please check your installation."
+msgstr ""
+
+#: main.cpp:31
 msgid "Kolor Lines - a little game about balls and how to get rid of them"
 msgstr ""
 
-#: main.cpp:35
-msgid ""
-"_: Menu title\n"
-"&Move"
-msgstr "(&M) జరుపు"
+#: main.cpp:36
+#, fuzzy
+#| msgid "Move Up"
+msgctxt "Menu title"
+msgid "&Move"
+msgstr "పైకి జరుపు"
 
-#: main.cpp:39
+#: main.cpp:40
 msgid "Kolor Lines"
 msgstr ""
 
-#: main.cpp:41
+#: main.cpp:42
+msgid "Roman Merzlyakov"
+msgstr ""
+
+#: main.cpp:42
 msgid "Original author"
 msgstr "అసలు మూలకర్త"
 
-#: main.cpp:42
+#: main.cpp:43
+msgid "Roman Razilov"
+msgstr ""
+
+#: main.cpp:43
 msgid "Rewrite and Extension"
 msgstr ""
 
-#: mwidget.cpp:37
-msgid "Next balls:"
-msgstr "తరువాతి బంతులు:"
-
-#. i18n: file klines.kcfg line 9
-#: rc.cpp:6
-#, no-c-format
-msgid "Difficulty level"
+#: main.cpp:44
+msgid "Dmitry Suzdalev"
 msgstr ""
 
+#: main.cpp:44
+msgid "Rewrite to use QGraphicsView. Current maintainer"
+msgstr ""
+
+#: main.cpp:45
+msgid "Eugene Trounev"
+msgstr ""
+
+#: main.cpp:45
+msgid "New SVG artwork for KDE4 version of the game"
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file klines.kcfg line 9
+#: rc.cpp:3
+msgid "The graphical theme to be used."
+msgstr ""
+
+#. i18n: tag label
 #. i18n: file klines.kcfg line 15
-#: rc.cpp:9
-#, no-c-format
+#: rc.cpp:6
 msgid "Whether to show the next set of balls."
 msgstr ""
 
+#. i18n: tag label
 #. i18n: file klines.kcfg line 19
-#: rc.cpp:12
-#, no-c-format
-msgid "Whether to use numbered balls."
+#: rc.cpp:9
+msgid "Width of saved background"
 msgstr ""
 
+#. i18n: tag label
+#. i18n: file klines.kcfg line 23
+#: rc.cpp:12
+msgid "Height of saved background"
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file klinesui.rc line 10
+#. i18n: tag text
+#. i18n: file klinesui.rc line 27
+#: rc.cpp:15 rc.cpp:18
+msgid "Navigation"
+msgstr ""
+
+#: rc.cpp:19
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:20
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: scene.cpp:268
+msgid "Selected ball can not be moved to this cell"
+msgstr ""
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr ""
+#~ "వి నరేష్ కుమార్\n"
+#~ "విజయ్ కిరణ్ కముజు"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr ""
+#~ "cyan_00391@yahoo.co.in\n"
+#~ "infyquest@gmail.com"
+
+#~ msgid "Very Easy"
+#~ msgstr "చాలా తేలిక"
+
+#~ msgid "Easy"
+#~ msgstr "తేలిక"
+
+#~ msgid "Normal"
+#~ msgstr "సాధారణం"
+
+#~ msgid "Hard"
+#~ msgstr "కష్టము"
+
+#~ msgid "Very Hard"
+#~ msgstr "చాలా కష్టము"
+
+#~ msgid " Level: "
+#~ msgstr "స్థాయి:"
+
+#~ msgid "Start &Tutorial"
+#~ msgstr "(&T) పాఠం మొదలుపెట్టు"
+
+#~ msgid "Move Left"
+#~ msgstr "ఎడమవైపు జరుపు"
+
+#~ msgid "Move Right"
+#~ msgstr "కుడివైపు జరుపు"
+
+#~ msgid "Move Down"
+#~ msgstr "కిందకి జరుపు"
+
+#~ msgid "Move Ball"
+#~ msgstr "బంతిని జరుపు"
+
+#~ msgid " Level: %1"
+#~ msgstr "స్థాయి: %1"
+
+#~ msgid "Stop &Tutorial"
+#~ msgstr "(&T) పాఠం ఆపు"
+
+#~ msgid "Tutorial"
+#~ msgstr "పాఠం"
+
+#~ msgid "Tutorial - Stopped"
+#~ msgstr "పాఠం - ఆగిపోయినది"
+
+#~ msgid "Each turn, three new balls are placed on the board."
+#~ msgstr "ప్రతీ సారి మూడు కొత్త బంతులు పలక పైన పెట్టబడతాయి"
+
+#~ msgid "Every turn, you can move one ball."
+#~ msgstr "ప్రతీ సారి మీరు ఒక బంతిని కదపవచ్చు"
+
+#~ msgid "You just moved the blue ball!"
+#~ msgstr "మీరు నీలపు బంతిని కదిపారు"
+
+#~ msgid "Now we only need one more blue ball."
+#~ msgstr "ఇప్పుడు ఒకే ఒక్క నీలపు బంతి కావాలి"
+
+#~ msgid "It seems to be our lucky day!"
+#~ msgstr "ఈ రోజు మీకు శుభ దినము!"
+
+#~ msgid "Very good!"
+#~ msgstr "చాలా మంచిది!"
+
+#~ msgid "Tutorial - Paused"
+#~ msgstr "పాఠము - విరామము"
+
+#~ msgid "Game Over"
+#~ msgstr "ఆట అయిపోయింది"
+
+#~ msgid ""
+#~ "_: Menu title\n"
+#~ "&Move"
+#~ msgstr "(&M) జరుపు"
+
+#~ msgid "Next balls:"
+#~ msgstr "తరువాతి బంతులు:"

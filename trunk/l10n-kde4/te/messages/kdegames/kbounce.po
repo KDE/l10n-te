@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kbounce\n"
-"POT-Creation-Date: 2005-07-01 01:32+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-07-03 05:06+0200\n"
 "PO-Revision-Date: 2007-07-17 18:54+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -13,125 +14,200 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: _translatorinfo.cpp:1
+#: gamewidget.cpp:338
 msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
-msgstr "వి నరేష్ కుమార్\nవిజయ్ కిరణ్ కముజు"
-
-#: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
-msgstr "cyan_00391@yahoo.co.in\ninfyquest@gmail.com"
-
-#: highscores.cpp:9
-msgid "Level"
-msgstr "స్ధాయి"
-
-#: kbounce.cpp:63
-msgid "Level:"
-msgstr "స్ధాయి:"
-
-#: kbounce.cpp:68
-msgid "Score:"
-msgstr "స్కోరు:"
-
-#: kbounce.cpp:75
-msgid "Filled area:"
-msgstr "నిండిఉన్న స్థలము:"
-
-#: kbounce.cpp:80
-msgid "Lives:"
-msgstr "ఛాన్సులు:"
-
-#: kbounce.cpp:85
-msgid "Time:"
-msgstr "సమయం:"
-
-#: kbounce.cpp:102
-msgid "Press %1 to start a game!"
-msgstr "ఆట మొదలుపెట్టటానికి %1 ను నొక్కండి"
-
-#: kbounce.cpp:135
-msgid "&Select Background Folder..."
+"Welcome to KBounce.\n"
+" Press Ctrl+N or space to start a game"
 msgstr ""
 
-#: kbounce.cpp:138
-msgid "Show &Backgrounds"
-msgstr "(&B) పూర్వరంగ చిత్రాన్ని చూపండి"
-
-#: kbounce.cpp:140
-msgid "Hide &Backgrounds"
-msgstr "(&B) పూర్వరంగ చిత్రాన్ని చూపించవద్దు"
-
-#: kbounce.cpp:144
-msgid "&Play Sounds"
-msgstr "(&P) శబ్ధాలను వాడండి"
-
-#: kbounce.cpp:180
-msgid "Do you really want to close the running game?"
-msgstr "ఈ ఆటని నిజంగా ఆపెయ్యమంటారా?"
-
-#: kbounce.cpp:200
-msgid "Game paused."
-msgstr "ఆటకు విరామము."
-
-#: kbounce.cpp:231
-#, c-format
-msgid "Game Over! Score: %1"
-msgstr "ఆట అయ్యిపోయింది! మీ స్కోరు: %1"
-
-#: kbounce.cpp:232
-msgid "Game over. Press <Space> for a new game"
-msgstr "ఆట అయ్యిపోయింది. కొత్త ఆట కొరకు <space> నొక్కండి"
-
-#: kbounce.cpp:259
-msgid "Select Background Image Folder"
+#: gamewidget.cpp:341
+msgid "Paused"
 msgstr ""
 
-#: kbounce.cpp:279
-msgid "You may now turn on background images."
+#: gamewidget.cpp:344
+#, qt-format
+msgid "You have successfully cleared more than %1% of the board\n"
 msgstr ""
 
-#: kbounce.cpp:335
-msgid "Game suspended"
-msgstr "ఆట నిలిపివేయబడినది"
-
-#: kbounce.cpp:463
-#, c-format
-msgid "You have successfully cleared more than 75% of the board.\n"
-msgstr ""
-
-#: kbounce.cpp:464
-msgid "%1 points: 15 points per remaining life\n"
+#: gamewidget.cpp:345
+#, fuzzy, qt-format
+#| msgid "%1 points: 15 points per remaining life\n"
+msgid "%1 points: %2 points per remaining life\n"
 msgstr "%1 పాయింట్లు: మిగిలిన ప్రతీ ఛాన్సుకు 15 పాయింట్లు\n"
 
-#: kbounce.cpp:465
+#: gamewidget.cpp:346
+#, qt-format
 msgid "%1 points: Bonus\n"
 msgstr "%1 పాయింట్ల బహుమానము\n"
 
-#: kbounce.cpp:466
+#: gamewidget.cpp:347
+#, qt-format
 msgid "%1 points: Total score for this level\n"
 msgstr "ఈ స్థాయిలో మీ స్కోరు: %1 పాయింట్లు\n"
 
-#: kbounce.cpp:467
+#: gamewidget.cpp:348
+#, qt-format
 msgid "On to level %1. Remember you get %2 lives this time!"
 msgstr "%1 వ స్థాయికి వెళ్తున్నాము. ఇప్పుడు మీకు %2 ఛాన్సులు ఉన్నాయి."
 
-#: main.cpp:38
+#: gamewidget.cpp:351
+#, fuzzy
+#| msgid "Game paused."
+msgid "Game over."
+msgstr "ఆటకు విరామము."
+
+#: main.cpp:30
 msgid "KDE Bounce Ball Game"
 msgstr "కెడిఈ బవున్స్ బంతి ఆట"
 
-#: main.cpp:45
+#: main.cpp:35
 msgid "KBounce"
 msgstr "కెబవున్స్"
 
-#: main.cpp:49
+#: main.cpp:37
+msgid "(c) 2000-2005, Stefan Schimanski"
+msgstr ""
+
+#: main.cpp:39
+msgid "Stefan Schimanski"
+msgstr ""
+
+#: main.cpp:39
 msgid "Original author"
 msgstr "అసలు మూలకర్త"
 
-#: main.cpp:51
+#: main.cpp:40
+msgid "Sandro Sigala"
+msgstr ""
+
+#: main.cpp:40
+msgid "Highscore"
+msgstr ""
+
+#: main.cpp:41
+msgid "Benjamin Meyer"
+msgstr ""
+
+#: main.cpp:41
 msgid "Contributions"
 msgstr ""
 
+#: main.cpp:43
+msgid "Dmitry Suzdalev"
+msgstr ""
+
+#: main.cpp:43
+msgid "Port to QGraphicsView framework"
+msgstr ""
+
+#: main.cpp:44
+msgid "Tomasz Boczkowski"
+msgstr ""
+
+#: mainwindow.cpp:97
+msgid "&Play Sounds"
+msgstr "(&P) శబ్ధాలను వాడండి"
+
+#: mainwindow.cpp:134
+msgid "Do you really want to close the running game?"
+msgstr "ఈ ఆటని నిజంగా ఆపెయ్యమంటారా?"
+
+#: mainwindow.cpp:148 mainwindow.cpp:238
+msgid "Game over. Press <Space> for a new game"
+msgstr "ఆట అయ్యిపోయింది. కొత్త ఆట కొరకు <space> నొక్కండి"
+
+#: mainwindow.cpp:178
+#, fuzzy
+#| msgid "Time:"
+msgid "Theme"
+msgstr "సమయం:"
+
+#: mainwindow.cpp:202
+#, fuzzy, qt-format
+#| msgid "Level:"
+msgid "Level: %1"
+msgstr "స్ధాయి:"
+
+#: mainwindow.cpp:207
+#, fuzzy, qt-format
+#| msgid "Score:"
+msgid "Score: %1"
+msgstr "స్కోరు:"
+
+#: mainwindow.cpp:212
+#, fuzzy, qt-format
+#| msgid "Filled area:"
+msgid "Filled: %1%"
+msgstr "నిండిఉన్న స్థలము:"
+
+#: mainwindow.cpp:217
+#, fuzzy, qt-format
+#| msgid "Lives:"
+msgid "Lives: %1"
+msgstr "ఛాన్సులు:"
+
+#: mainwindow.cpp:222
+#, fuzzy, qt-format
+#| msgid "Time:"
+msgid "Time: %1"
+msgstr "సమయం:"
+
+#. i18n: tag label
+#. i18n: file kbounce.kcfg line 9
+#: rc.cpp:3
+msgid "The graphical theme to be used."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file kbounce.kcfg line 14
+#: rc.cpp:6
+msgid "Whether game sounds are played."
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file kbounceui.rc line 13
+#: rc.cpp:9
+msgid "Main Toolbar"
+msgstr ""
+
+#: rc.cpp:10
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:11
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr ""
+#~ "వి నరేష్ కుమార్\n"
+#~ "విజయ్ కిరణ్ కముజు"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr ""
+#~ "cyan_00391@yahoo.co.in\n"
+#~ "infyquest@gmail.com"
+
+#~ msgid "Level"
+#~ msgstr "స్ధాయి"
+
+#~ msgid "Press %1 to start a game!"
+#~ msgstr "ఆట మొదలుపెట్టటానికి %1 ను నొక్కండి"
+
+#~ msgid "Show &Backgrounds"
+#~ msgstr "(&B) పూర్వరంగ చిత్రాన్ని చూపండి"
+
+#~ msgid "Hide &Backgrounds"
+#~ msgstr "(&B) పూర్వరంగ చిత్రాన్ని చూపించవద్దు"
+
+#~ msgid "Game Over! Score: %1"
+#~ msgstr "ఆట అయ్యిపోయింది! మీ స్కోరు: %1"
+
+#~ msgid "Game suspended"
+#~ msgstr "ఆట నిలిపివేయబడినది"

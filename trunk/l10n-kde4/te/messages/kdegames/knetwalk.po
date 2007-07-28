@@ -4,7 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knetwalk\n"
-"POT-Creation-Date: 2006-12-21 02:39+0100\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-07-07 04:59+0200\n"
 "PO-Revision-Date: 2007-07-17 17:32+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -13,31 +14,35 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 
+#. i18n: tag label
 #. i18n: file knetwalk.kcfg line 9
-#: rc.cpp:6
-#, no-c-format
+#: rc.cpp:3
 msgid "Default user name"
 msgstr "ఆటగాడి పేరు"
 
+#. i18n: tag label
 #. i18n: file knetwalk.kcfg line 13
-#: rc.cpp:9
-#, no-c-format
+#: rc.cpp:6
 msgid "Default difficulty level"
 msgstr ""
 
-#: _translatorinfo.cpp:1
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
-msgstr "వి నరేష్ కుమార్\nవిజయ్ కిరణ్ కముజు"
+#. i18n: tag text
+#. i18n: file knetwalkui.rc line 5
+#: rc.cpp:9
+msgid "Main Toolbar"
+msgstr ""
 
-#: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
-msgstr "cyan_00391@yahoo.co.in\ninfyquest@gmail.com"
+#: rc.cpp:10
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
 
-#: highscores.cpp:69
+#: rc.cpp:11
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: highscores.cpp:72
 msgid "anonymous"
 msgstr ""
 
@@ -46,56 +51,83 @@ msgid "KNetWalk, a game for system administrators."
 msgstr ""
 
 #: main.cpp:33
-msgid "Start in novice mode"
-msgstr ""
-
-#: main.cpp:34
-msgid "Start in normal mode"
-msgstr ""
-
-#: main.cpp:35
-msgid "Start in expert mode"
-msgstr ""
-
-#: main.cpp:36
-msgid "Start in master mode"
-msgstr ""
-
-#: main.cpp:42
-msgid "knetwalk"
+#, fuzzy
+#| msgid "knetwalk"
+msgid "KNetWalk"
 msgstr "కెనెట్ వాక్"
 
-#: main.cpp:43
+#: main.cpp:34
 msgid "(C) 2004, 2005 Andi Peredri, ported to KDE by Thomas Nagy"
 msgstr ""
 
+#: main.cpp:36
+msgid "Andi Peredri"
+msgstr ""
+
+#: main.cpp:37
+msgid "Thomas Nagy"
+msgstr ""
+
+#: main.cpp:42
+msgid "Start in novice mode"
+msgstr ""
+
+#: main.cpp:43
+msgid "Start in normal mode"
+msgstr ""
+
+#: main.cpp:44
+msgid "Start in expert mode"
+msgstr ""
+
+#: main.cpp:45
+msgid "Start in master mode"
+msgstr ""
+
 #: mainwindow.cpp:75
+msgid ""
+"<h3>Rules of Game</h3><p>You are the system administrator and your goal is "
+"to connect each computer to the central server.</p><p>Click the right "
+"mouse's button for turning the cable in a clockwise direction, and left "
+"mouse's button for turning the cable in a counter-clockwise direction.</"
+"p><p>Start the LAN with as few turns as possible!</p>"
+msgstr ""
+
+#: mainwindow.cpp:133
 msgid "Novice"
 msgstr ""
 
-#: mainwindow.cpp:76
+#: mainwindow.cpp:134
 msgid "Normal"
 msgstr "సాధారణ"
 
-#: mainwindow.cpp:77
+#: mainwindow.cpp:135
 msgid "Expert"
 msgstr ""
 
-#: mainwindow.cpp:78
+#: mainwindow.cpp:136
 msgid "Master"
 msgstr ""
 
-#: mainwindow.cpp:89
-msgid ""
-"<h3>Rules of the Game</h3><p>You are the system administrator and your goal "
-"is to connect each computer to the central server.<p>Click the right mouse "
-"button to turn the cable in a clockwise direction, and the left mouse button "
-"to turn it in a counter-clockwise direction.<p>Start the LAN with as few "
-"turns as possible!"
-msgstr ""
-
-#: mainwindow.cpp:151 mainwindow.cpp:372
-#, c-format
+#: mainwindow.cpp:173 mainwindow.cpp:396
+#, qt-format
 msgid "Click: %1"
 msgstr "క్లిక్ :%1"
 
+#: mainwindow.cpp:176
+msgid "New Game"
+msgstr ""
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr ""
+#~ "వి నరేష్ కుమార్\n"
+#~ "విజయ్ కిరణ్ కముజు"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr ""
+#~ "cyan_00391@yahoo.co.in\n"
+#~ "infyquest@gmail.com"
