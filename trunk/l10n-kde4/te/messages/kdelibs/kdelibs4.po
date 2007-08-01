@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-31 05:12+0200\n"
+"POT-Creation-Date: 2007-08-01 04:46+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -491,7 +491,7 @@ msgstr "భాష ఎంపిక"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 189
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 240
-#: rc.cpp:212 rc.cpp:877 kde3support/kdeui/k3sconfig.cpp:313
+#: rc.cpp:212 rc.cpp:877
 msgid "English"
 msgstr "ఆంగ్లము"
 
@@ -2978,28 +2978,31 @@ msgstr "అదార్ II"
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Georgian"
+msgctxt "@item Calendar system"
 msgid "Gregorian"
 msgstr "జార్జియన్"
 
 #: kdecore/date/kcalendarsystem.cpp:73
-#: kdecore/localization/kencodingdetector.cpp:1122
-#: kdecore/localization/kencodingdetector.cpp:1190
-#: kdecore/localization/kcharsets.cpp:198 kde3support/kdeui/k3sconfig.cpp:255
-#: kde3support/kdeui/k3sconfig.cpp:415 kde3support/kdeui/k3sconfig.cpp:670
+#, fuzzy
+#| msgid "Hebrew"
+msgctxt "@item Calendar system"
 msgid "Hebrew"
 msgstr "హిబ్రూ"
 
 #: kdecore/date/kcalendarsystem.cpp:76
+msgctxt "@item Calendar system"
 msgid "Hijri"
 msgstr ""
 
 #: kdecore/date/kcalendarsystem.cpp:79
+msgctxt "@item Calendar system"
 msgid "Jalali"
 msgstr ""
 
 #: kdecore/date/kcalendarsystem.cpp:81
 #, fuzzy
 #| msgid "Invalid reference base"
+msgctxt "@item Calendar system"
 msgid "Invalid Calendar Type"
 msgstr "సరికాని సంబంద మూలం"
 
@@ -3778,75 +3781,122 @@ msgstr ""
 #: kdecore/localization/kencodingdetector.cpp:1112
 #: kdecore/localization/kencodingdetector.cpp:1214
 #: kdecore/localization/kcharsets.cpp:206
+#, fuzzy
+#| msgid "Unicode"
+msgctxt "@item Text character set"
 msgid "Unicode"
 msgstr "యూనికోడ్"
 
 #: kdecore/localization/kencodingdetector.cpp:1114
 #: kdecore/localization/kencodingdetector.cpp:1184
 #: kdecore/localization/kcharsets.cpp:173
+#, fuzzy
+#| msgid "Cyrillic"
+msgctxt "@item Text character set"
 msgid "Cyrillic"
 msgstr "సిరిల్లిక్"
 
 #: kdecore/localization/kencodingdetector.cpp:1116
 #: kdecore/localization/kencodingdetector.cpp:1199
 #: kdecore/localization/kcharsets.cpp:155
+#, fuzzy
+#| msgid "Western European"
+msgctxt "@item Text character set"
 msgid "Western European"
 msgstr "పడమటి ఐరోపా"
 
 #: kdecore/localization/kencodingdetector.cpp:1118
 #: kdecore/localization/kencodingdetector.cpp:1181
 #: kdecore/localization/kcharsets.cpp:161
+#, fuzzy
+#| msgid "Central European"
+msgctxt "@item Text character set"
 msgid "Central European"
 msgstr "మధ్య ఐరోపా"
 
 #: kdecore/localization/kencodingdetector.cpp:1120
 #: kdecore/localization/kencodingdetector.cpp:1187
 #: kdecore/localization/kcharsets.cpp:192
+#, fuzzy
+#| msgid "Greek"
+msgctxt "@item Text character set"
 msgid "Greek"
 msgstr "గ్రీకు"
 
+#: kdecore/localization/kencodingdetector.cpp:1122
+#: kdecore/localization/kencodingdetector.cpp:1190
+#: kdecore/localization/kcharsets.cpp:198
+#, fuzzy
+#| msgid "Hebrew"
+msgctxt "@item Text character set"
+msgid "Hebrew"
+msgstr "హిబ్రూ"
+
 #: kdecore/localization/kencodingdetector.cpp:1124
 #: kdecore/localization/kencodingdetector.cpp:1196
-#: kdecore/localization/kcharsets.cpp:170 kde3support/kdeui/k3sconfig.cpp:260
-#: kde3support/kdeui/k3sconfig.cpp:420 kde3support/kdeui/k3sconfig.cpp:675
+#: kdecore/localization/kcharsets.cpp:170
+#, fuzzy
+#| msgid "Turkish"
+msgctxt "@item Text character set"
 msgid "Turkish"
 msgstr "టర్కిష్"
 
 #: kdecore/localization/kencodingdetector.cpp:1126
 #: kdecore/localization/kencodingdetector.cpp:1193
 #: kdecore/localization/kcharsets.cpp:188
+#, fuzzy
+#| msgid "Japanese"
+msgctxt "@item Text character set"
 msgid "Japanese"
 msgstr "జాపనీస్"
 
 #: kdecore/localization/kencodingdetector.cpp:1128
 #: kdecore/localization/kencodingdetector.cpp:1178
 #: kdecore/localization/kcharsets.cpp:164
+#, fuzzy
+#| msgid "Baltic"
+msgctxt "@item Text character set"
 msgid "Baltic"
 msgstr "బాల్టిక్"
 
 #: kdecore/localization/kencodingdetector.cpp:1130
 #: kdecore/localization/kencodingdetector.cpp:1175
 #: kdecore/localization/kcharsets.cpp:195
+#, fuzzy
+#| msgid "Arabic"
+msgctxt "@item Text character set"
 msgid "Arabic"
 msgstr "అరబిక్"
 
 #: kdecore/localization/kencodingdetector.cpp:1202
 #: kdecore/localization/kcharsets.cpp:179
+#, fuzzy
+#| msgid "Chinese Traditional"
+msgctxt "@item Text character set"
 msgid "Chinese Traditional"
 msgstr "సాంప్రదాయక చైనీస్"
 
 #: kdecore/localization/kencodingdetector.cpp:1205
 #: kdecore/localization/kcharsets.cpp:182
+#, fuzzy
+#| msgid "Chinese Simplified"
+msgctxt "@item Text character set"
 msgid "Chinese Simplified"
 msgstr "సరళమైన చైనీస్"
 
 #: kdecore/localization/kencodingdetector.cpp:1208
 #: kdecore/localization/kcharsets.cpp:186
+#, fuzzy
+#| msgid "Korean"
+msgctxt "@item Text character set"
 msgid "Korean"
 msgstr "కొరియన్"
 
 #: kdecore/localization/kencodingdetector.cpp:1211
 #: kdecore/localization/kcharsets.cpp:203
+#, fuzzy
+#| msgid "Thai"
+msgctxt "@item Text character set"
 msgid "Thai"
 msgstr "థాయ్"
 
@@ -3925,32 +3975,49 @@ msgid "%1 %2"
 msgstr "%1 %2"
 
 #: kdecore/localization/kcharsets.cpp:167
+#, fuzzy
+#| msgid "South-Eastern Europe"
+msgctxt "@item Text character set"
 msgid "South-Eastern Europe"
 msgstr "ఆగ్నేయ ఐరోపా"
 
 #: kdecore/localization/kcharsets.cpp:212
+#, fuzzy
+#| msgid "Northern Saami"
+msgctxt "@item Text character set"
 msgid "Northern Saami"
 msgstr "ఉత్తర సామి"
 
 #: kdecore/localization/kcharsets.cpp:214
+#: kdecore/localization/kcharsets.cpp:651
+#, fuzzy
+#| msgid "Other"
+msgctxt "@item Text character set"
 msgid "Other"
 msgstr "ఇతర"
 
-#: kdecore/localization/kcharsets.cpp:651
-msgid "Other encoding"
-msgstr "ఇతర సంకేతీకరణం:"
-
 #: kdecore/localization/kcharsets.cpp:660
-#: kdecore/localization/kcharsets.cpp:688
-#, qt-format
-msgctxt "Descriptive Encoding Name"
+#, fuzzy, qt-format
+#| msgctxt "Descriptive Encoding Name"
+#| msgid "%1 ( %2 )"
+msgctxt "@item %1 character set, %2 encoding"
 msgid "%1 ( %2 )"
 msgstr "%1 ( %2 )"
 
-#: kdecore/localization/kcharsets.cpp:662
-#, qt-format
+#: kdecore/localization/kcharsets.cpp:663
+#, fuzzy, qt-format
+#| msgid "Other encoding (%1)"
+msgctxt "@item"
 msgid "Other encoding (%1)"
 msgstr "ఇతర సంకేతీకరణం (%1)"
+
+#: kdecore/localization/kcharsets.cpp:689
+#, fuzzy, qt-format
+#| msgctxt "Descriptive Encoding Name"
+#| msgid "%1 ( %2 )"
+msgctxt "@item Text encoding: %1 character set, %2 encoding"
+msgid "%1 ( %2 )"
+msgstr "%1 ( %2 )"
 
 #. i18n: The following messages, with msgctxt "@tag/modifier",
 #. are KUIT patterns for formatting the text found inside semantic tags.
@@ -10475,147 +10542,258 @@ msgstr "ఖాళి పాస్ వర్డ్"
 #: kde3support/kdeui/k3sconfig.cpp:109
 #, fuzzy
 #| msgid "Check Spelling"
+msgctxt "@option:check"
 msgid "Do SpellChecking"
 msgstr "అచ్చుతప్పులు సరిచూడు"
 
-#: kde3support/kdeui/k3sconfig.cpp:112
+#: kde3support/kdeui/k3sconfig.cpp:113
+#, fuzzy
+#| msgid "Create &root/affix combinations not in dictionary"
+msgctxt "@option:check"
 msgid "Create &root/affix combinations not in dictionary"
 msgstr "(&r) నిఘంటువులొ లేని మూల/ప్రత్యయ మిశ్రమాలను సృష్టించు "
 
-#: kde3support/kdeui/k3sconfig.cpp:119
+#: kde3support/kdeui/k3sconfig.cpp:120
+#, fuzzy
+#| msgid "Consider run-together &words as spelling errors"
+msgctxt "@option:check"
 msgid "Consider run-together &words as spelling errors"
 msgstr "(&w) కలిసివున్న పదాలను అక్షర దొషాలుగా పరిగణించు"
 
 #: kde3support/kdeui/k3sconfig.cpp:132
+#, fuzzy
+#| msgid "&Dictionary:"
+msgctxt "@label:listbox"
 msgid "&Dictionary:"
 msgstr "(&D) నిఘంటువు:"
 
 #: kde3support/kdeui/k3sconfig.cpp:159
+#, fuzzy
+#| msgid "&Encoding:"
+msgctxt "@label:listbox"
 msgid "&Encoding:"
 msgstr "(&E) సంకేతీకరణ:"
 
 #: kde3support/kdeui/k3sconfig.cpp:166
-msgid "International Ispell"
-msgstr "అంతర్జాతీయ ఐస్పెల్"
+msgctxt "@item:inlistbox Spell checker"
+msgid "International <application>Ispell</application>"
+msgstr ""
 
 #: kde3support/kdeui/k3sconfig.cpp:167
-msgid "Aspell"
-msgstr "ఎస్పెల్"
+msgctxt "@item:inlistbox Spell checker"
+msgid "<application>Aspell</application>"
+msgstr ""
 
 #: kde3support/kdeui/k3sconfig.cpp:168
-msgid "Hspell"
-msgstr "హెచ్ స్పెల్"
+msgctxt "@item:inlistbox Spell checker"
+msgid "<application>Hspell</application>"
+msgstr ""
 
 #: kde3support/kdeui/k3sconfig.cpp:169
-msgid "Zemberek"
-msgstr "జెంబెరెక్"
+msgctxt "@item:inlistbox Spell checker"
+msgid "<application>Zemberek</application>"
+msgstr ""
 
 #: kde3support/kdeui/k3sconfig.cpp:174
+#, fuzzy
+#| msgid "&Client:"
+msgctxt "@label:listbox"
 msgid "&Client:"
 msgstr "(&C) క్లయింటు"
 
+#: kde3support/kdeui/k3sconfig.cpp:255 kde3support/kdeui/k3sconfig.cpp:415
+#: kde3support/kdeui/k3sconfig.cpp:673
+#, fuzzy
+#| msgid "Hebrew"
+msgctxt "@item Spelling dictionary"
+msgid "Hebrew"
+msgstr "హిబ్రూ"
+
+#: kde3support/kdeui/k3sconfig.cpp:260 kde3support/kdeui/k3sconfig.cpp:420
+#: kde3support/kdeui/k3sconfig.cpp:678
+#, fuzzy
+#| msgid "Turkish"
+msgctxt "@item Spelling dictionary"
+msgid "Turkish"
+msgstr "టర్కిష్"
+
+#: kde3support/kdeui/k3sconfig.cpp:313
+#, fuzzy
+#| msgid "English"
+msgctxt "@item Spelling dictionary"
+msgid "English"
+msgstr "ఆంగ్లము"
+
 #: kde3support/kdeui/k3sconfig.cpp:316
+#, fuzzy
+#| msgid "Spanish"
+msgctxt "@item Spelling dictionary"
 msgid "Spanish"
 msgstr "స్పానిష్"
 
 #: kde3support/kdeui/k3sconfig.cpp:319
+#, fuzzy
+#| msgid "Danish"
+msgctxt "@item Spelling dictionary"
 msgid "Danish"
 msgstr "డెనిష్"
 
 #: kde3support/kdeui/k3sconfig.cpp:322
+#, fuzzy
+#| msgid "German"
+msgctxt "@item Spelling dictionary"
 msgid "German"
 msgstr "జెర్మన్"
 
 #: kde3support/kdeui/k3sconfig.cpp:325
+#, fuzzy
+#| msgid "German (new spelling)"
+msgctxt "@item Spelling dictionary"
 msgid "German (new spelling)"
 msgstr "జెర్మన్ (కొత్త వర్ణక్రమం)"
 
 #: kde3support/kdeui/k3sconfig.cpp:328
+#, fuzzy
+#| msgid "Brazilian Portuguese"
+msgctxt "@item Spelling dictionary"
 msgid "Brazilian Portuguese"
 msgstr "బ్రాజిలియన్ పోర్ట్యూగీస్"
 
 #: kde3support/kdeui/k3sconfig.cpp:331
+#, fuzzy
+#| msgid "Portuguese"
+msgctxt "@item Spelling dictionary"
 msgid "Portuguese"
 msgstr "పోర్ట్యూగీస్"
 
 #: kde3support/kdeui/k3sconfig.cpp:334
+#, fuzzy
+#| msgid "Esperanto"
+msgctxt "@item Spelling dictionary"
 msgid "Esperanto"
 msgstr "ఎస్పరాంటొ"
 
 #: kde3support/kdeui/k3sconfig.cpp:337
+#, fuzzy
+#| msgid "Norwegian"
+msgctxt "@item Spelling dictionary"
 msgid "Norwegian"
 msgstr "నార్వేజియన్"
 
 #: kde3support/kdeui/k3sconfig.cpp:340
+#, fuzzy
+#| msgid "Polish"
+msgctxt "@item Spelling dictionary"
 msgid "Polish"
 msgstr "పోలిష్"
 
 #: kde3support/kdeui/k3sconfig.cpp:343
+#, fuzzy
+#| msgid "Russian"
+msgctxt "@item Spelling dictionary"
 msgid "Russian"
 msgstr "రష్యన్"
 
 #: kde3support/kdeui/k3sconfig.cpp:346
+#, fuzzy
+#| msgid "Slovenian"
+msgctxt "@item Spelling dictionary"
 msgid "Slovenian"
 msgstr "స్లొవేనియన్"
 
 #: kde3support/kdeui/k3sconfig.cpp:349
+#, fuzzy
+#| msgid "Slovak"
+msgctxt "@item Spelling dictionary"
 msgid "Slovak"
 msgstr "స్లోవాక్"
 
 #: kde3support/kdeui/k3sconfig.cpp:352
+#, fuzzy
+#| msgid "Czech"
+msgctxt "@item Spelling dictionary"
 msgid "Czech"
 msgstr "చెక్"
 
 #: kde3support/kdeui/k3sconfig.cpp:355
+#, fuzzy
+#| msgid "Swedish"
+msgctxt "@item Spelling dictionary"
 msgid "Swedish"
 msgstr "స్వీడిష్"
 
 #: kde3support/kdeui/k3sconfig.cpp:358
+#, fuzzy
+#| msgid "Swiss German"
+msgctxt "@item Spelling dictionary"
 msgid "Swiss German"
 msgstr "స్విస్ జెర్మన్"
 
 #: kde3support/kdeui/k3sconfig.cpp:361
+#, fuzzy
+#| msgid "Ukrainian"
+msgctxt "@item Spelling dictionary"
 msgid "Ukrainian"
 msgstr "ఉక్రేనియన్"
 
 #: kde3support/kdeui/k3sconfig.cpp:364
+#, fuzzy
+#| msgid "Lithuanian"
+msgctxt "@item Spelling dictionary"
 msgid "Lithuanian"
 msgstr "లితువెనియన్"
 
 #: kde3support/kdeui/k3sconfig.cpp:367
+#, fuzzy
+#| msgid "French"
+msgctxt "@item Spelling dictionary"
 msgid "French"
 msgstr "ఫ్రెంచి"
 
 #: kde3support/kdeui/k3sconfig.cpp:370
+#, fuzzy
+#| msgid "Belarusian"
+msgctxt "@item Spelling dictionary"
 msgid "Belarusian"
 msgstr "బెలారష్యన్"
 
 #: kde3support/kdeui/k3sconfig.cpp:373
+#, fuzzy
+#| msgid "Hungarian"
+msgctxt "@item Spelling dictionary"
 msgid "Hungarian"
 msgstr "హంగేరియన్"
 
 #: kde3support/kdeui/k3sconfig.cpp:377
-msgctxt "Unknown ispell dictionary"
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "@item Spelling dictionary"
 msgid "Unknown"
-msgstr "తెలియనిది"
+msgstr "తెలియని"
 
-#: kde3support/kdeui/k3sconfig.cpp:460 kde3support/kdeui/k3sconfig.cpp:610
-msgid "ISpell Default"
-msgstr "ప్రారంభ ఐస్పెల్"
+#: kde3support/kdeui/k3sconfig.cpp:461 kde3support/kdeui/k3sconfig.cpp:613
+msgctxt "@item Spelling dictionary"
+msgid "<application>ISpell</application> Default"
+msgstr ""
 
-#: kde3support/kdeui/k3sconfig.cpp:506 kde3support/kdeui/k3sconfig.cpp:656
-#, qt-format
-msgctxt "default spelling dictionary"
+#: kde3support/kdeui/k3sconfig.cpp:507 kde3support/kdeui/k3sconfig.cpp:659
+#, fuzzy, qt-format
+#| msgctxt "default spelling dictionary"
+#| msgid "Default - %1 [%2]"
+msgctxt "@item Spelling dictionary: %1 dictionary name, %2 file name"
 msgid "Default - %1 [%2]"
 msgstr "అప్రమెయం - %1 [%2]"
 
-#: kde3support/kdeui/k3sconfig.cpp:526 kde3support/kdeui/k3sconfig.cpp:682
-msgid "ASpell Default"
-msgstr "ప్రారంభ ఎస్పెల్"
+#: kde3support/kdeui/k3sconfig.cpp:528 kde3support/kdeui/k3sconfig.cpp:686
+msgctxt "@item Spelling dictionary"
+msgid "<application>ASpell</application> Default"
+msgstr ""
 
-#: kde3support/kdeui/k3sconfig.cpp:589 kde3support/kdeui/k3sconfig.cpp:745
-#, qt-format
-msgctxt "default spelling dictionary"
+#: kde3support/kdeui/k3sconfig.cpp:591 kde3support/kdeui/k3sconfig.cpp:749
+#, fuzzy, qt-format
+#| msgctxt "default spelling dictionary"
+#| msgid "Default - %1"
+msgctxt "@item Spelling dictionary: %1 dictionary name"
 msgid "Default - %1"
 msgstr "అప్రమెయం - %1"
 
@@ -11073,6 +11251,31 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br>యూనికోడ్ కోడ్ పాయింట్: U+%3<br>(దశాంశం "
 "లో: %4)<br>(అక్షరం: %5)</qt>"
+
+#~ msgid "Other encoding"
+#~ msgstr "ఇతర సంకేతీకరణం:"
+
+#~ msgid "International Ispell"
+#~ msgstr "అంతర్జాతీయ ఐస్పెల్"
+
+#~ msgid "Aspell"
+#~ msgstr "ఎస్పెల్"
+
+#~ msgid "Hspell"
+#~ msgstr "హెచ్ స్పెల్"
+
+#~ msgid "Zemberek"
+#~ msgstr "జెంబెరెక్"
+
+#~ msgctxt "Unknown ispell dictionary"
+#~ msgid "Unknown"
+#~ msgstr "తెలియనిది"
+
+#~ msgid "ISpell Default"
+#~ msgstr "ప్రారంభ ఐస్పెల్"
+
+#~ msgid "ASpell Default"
+#~ msgstr "ప్రారంభ ఎస్పెల్"
 
 #~ msgid "&Certificate"
 #~ msgstr "(&C) ధ్రువపత్రము"
