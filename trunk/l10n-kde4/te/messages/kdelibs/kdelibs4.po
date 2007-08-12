@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-10 05:29+0200\n"
+"POT-Creation-Date: 2007-08-12 05:34+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -733,7 +733,7 @@ msgstr "పత్రం(దస్తావేజు) వివరములు"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 36
-#: rc.cpp:333 kross/ui/view.cpp:512
+#: rc.cpp:333 kross/ui/view.cpp:511
 msgid "General"
 msgstr "సాధారణ"
 
@@ -815,7 +815,7 @@ msgstr "(&l) ఖాళిచేయుము"
 
 #. i18n: tag string
 #. i18n: file ./kross/test/testguiform.ui line 44
-#: rc.cpp:381 kross/ui/view.cpp:209
+#: rc.cpp:381 kross/ui/view.cpp:208
 msgid "File:"
 msgstr "దస్త్రం:"
 
@@ -1300,7 +1300,7 @@ msgstr "కార్యక్రమం మూసివేయి..."
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/console/jsconsole.ui line 197
-#: rc.cpp:621 kross/ui/view.cpp:302
+#: rc.cpp:621 kross/ui/view.cpp:301
 msgid "Run"
 msgstr "నడుపు"
 
@@ -1341,7 +1341,7 @@ msgstr ""
 #: rc.cpp:639 rc.cpp:880 kdeui/util/kstandardguiitem.cpp:265
 #: kdeui/util/kkeyserver_x11.cpp:109 kdeui/findreplace/kreplace.cpp:342
 #: khtml/ecma/kjs_debugwin.cpp:483 khtml/ecma/debugger/debugwindow.cpp:176
-#: kross/ui/view.cpp:309
+#: kross/ui/view.cpp:308
 msgid "Stop"
 msgstr "ఆగు"
 
@@ -3005,47 +3005,47 @@ msgstr "మధ్యాహ్నము"
 msgid "The library %1 does not offer an %2 function."
 msgstr "లైబ్రరి %1లో %2 ఫంక్షన్ లేదు."
 
-#: kdecore/util/klibloader.cpp:209
+#: kdecore/util/klibloader.cpp:210
 #, qt-format
 msgid "The library %1 does not offer a KDE compatible factory."
 msgstr "%1 లైబ్రరిలో కెడిఈ కి సరిపడె ఫేక్టరి లేదు"
 
-#: kdecore/util/klibloader.cpp:227
+#: kdecore/util/klibloader.cpp:228
 #, fuzzy, qt-format
 #| msgid "The library %1 does not offer an %2 function."
-msgid "The library %1 does not offer an qt_plugin_instance function."
+msgid "The library %1 does not offer a qt_plugin_instance function."
 msgstr "లైబ్రరి %1లో %2 ఫంక్షన్ లేదు."
 
-#: kdecore/util/klibloader.cpp:242
+#: kdecore/util/klibloader.cpp:243
 #, fuzzy, qt-format
 #| msgid "The library %1 does not offer a KDE compatible factory."
 msgid "The library %1 does not offer a KDE 4 compatible factory."
 msgstr "%1 లైబ్రరిలో కెడిఈ కి సరిపడె ఫేక్టరి లేదు"
 
-#: kdecore/util/klibloader.cpp:503
+#: kdecore/util/klibloader.cpp:504
 #, qt-format
 msgid "Library files for \"%1\" not found in paths."
 msgstr "\"%1\" కొరకు లైబ్రరి దస్త్రాలు దారులలొ దొరకలేదు."
 
-#: kdecore/util/klibloader.cpp:651
+#: kdecore/util/klibloader.cpp:652
 msgid "No service matching the requirements was found"
 msgstr ""
 
-#: kdecore/util/klibloader.cpp:653
+#: kdecore/util/klibloader.cpp:654
 msgid ""
 "The service provides no library, the Library key is missing in the .desktop "
 "file"
 msgstr ""
 
-#: kdecore/util/klibloader.cpp:657
+#: kdecore/util/klibloader.cpp:658
 msgid "The library does not export a factory for creating components"
 msgstr ""
 
-#: kdecore/util/klibloader.cpp:659
+#: kdecore/util/klibloader.cpp:660
 msgid "The factory does not support creating components of the specified type"
 msgstr ""
 
-#: kdecore/util/klibloader.cpp:661
+#: kdecore/util/klibloader.cpp:662
 msgid "KLibLoader: Unknown error"
 msgstr "కెలిబ్ లొడర్: తెలియని దోషము"
 
@@ -3748,12 +3748,10 @@ msgstr "%1 [%2]"
 #: kdecore/services/kmimetype.cpp:58
 #, fuzzy, qt-format
 #| msgid "Could not find service '%1'."
-msgid ""
-"Could not find mime type:\n"
-"%2"
+msgid "Could not find mime type <resource>%2</resource>"
 msgid_plural ""
-"Could not fine mime types:\n"
-"%2"
+"Could not find mime types:\n"
+"<resource>%2</resource>"
 msgstr[0] "'%1' సేవ కనపడలేదు."
 msgstr[1] "'%1' సేవ కనపడలేదు."
 
@@ -4509,7 +4507,7 @@ msgstr "ఈమెయిల్ చిరునామా:"
 msgid "Please describe your upload."
 msgstr ""
 
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:80 kross/ui/view.cpp:151
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:80 kross/ui/view.cpp:150
 #: kdeui/colors/kcolordialog.cpp:1171
 msgid "Name:"
 msgstr "పేరు:"
@@ -5329,7 +5327,7 @@ msgid "Add"
 msgstr "కలుపు"
 
 #: kdeui/util/kstandardguiitem.cpp:275
-#: kdeui/dialogs/kswitchlanguagedialog.cpp:292 kross/ui/view.cpp:330
+#: kdeui/dialogs/kswitchlanguagedialog.cpp:292 kross/ui/view.cpp:329
 msgid "Remove"
 msgstr "తొలగించు"
 
@@ -8222,7 +8220,7 @@ msgstr "అక్షర రూపాన్ని ఎంచుకొనేంద�
 msgid "Click to Edit Location"
 msgstr "అక్షర రూపాన్ని ఎంచుకొనేందుకు క్లిక్ చెయండి"
 
-#: kfile/kurlbutton.cpp:97 kross/ui/view.cpp:505
+#: kfile/kurlbutton.cpp:97 kross/ui/view.cpp:504
 msgid "Edit"
 msgstr "సరిదిద్దు"
 
@@ -9578,114 +9576,96 @@ msgstr ""
 "కెలాంచర్: ఈ కార్యక్రమం మెన్యువల్ గా మొదలుపెట్టకూడదు.\n"
 "కెలాంచర్: ఇది కెడిఈఐనిట్ ద్వారా మొదలుపెట్టబడును.\n"
 
-#: kinit/klauncher_win.cpp:500 kinit/klauncher.cpp:463
+#: kinit/klauncher_win.cpp:500 kinit/klauncher.cpp:462
 #, qt-format
 msgid "KDEInit could not launch '%1'."
 msgstr "కెడిఈ '%1' ప్రారంభించలేకపొయింది ."
 
 #: kinit/klauncher_win.cpp:637 kinit/klauncher_win.cpp:663
-#: kinit/klauncher_win.cpp:679 kinit/klauncher.cpp:594 kinit/klauncher.cpp:619
-#: kinit/klauncher.cpp:634
+#: kinit/klauncher_win.cpp:679 kinit/klauncher.cpp:593 kinit/klauncher.cpp:618
+#: kinit/klauncher.cpp:633
 #, qt-format
 msgid "Could not find service '%1'."
 msgstr "'%1' సేవ కనపడలేదు."
 
 #: kinit/klauncher_win.cpp:696 kinit/klauncher_win.cpp:732
-#: kinit/klauncher.cpp:650 kinit/klauncher.cpp:686
+#: kinit/klauncher.cpp:649 kinit/klauncher.cpp:685
 #, qt-format
 msgid "Service '%1' is malformatted."
 msgstr "'%1' సేవ తప్పుగా ఫార్మేట్ చేయబడినది."
 
-#: kinit/klauncher_win.cpp:934 kinit/klauncher.cpp:962
+#: kinit/klauncher_win.cpp:934 kinit/klauncher.cpp:961
 #, qt-format
 msgid "Unknown protocol '%1'.\n"
 msgstr "తెలియని '%1' ప్రొటోకాల్.\n"
 
-#: kinit/klauncher_win.cpp:970 kinit/klauncher.cpp:1013
+#: kinit/klauncher_win.cpp:970 kinit/klauncher.cpp:1012
 #, qt-format
 msgid "Error loading '%1'.\n"
 msgstr "'%1'ఎక్కించుటలో దోషం.\n"
 
-#: kinit/klauncher.cpp:758
+#: kinit/klauncher.cpp:757
 #, qt-format
 msgid "Launching %1"
 msgstr "%1 ప్రారంభిస్తున్నా"
 
-#: kross/ui/guiclient.cpp:64
-#, fuzzy
-#| msgid "Scr&ipt"
-msgid "Scripts"
-msgstr "(&i) లిపి"
-
-#: kross/ui/guiclient.cpp:69
-#, fuzzy
-#| msgid "Execute File?"
-msgid "Execute Script File..."
-msgstr "దస్త్రాన్ని నడపమంటారా?"
-
-#: kross/ui/guiclient.cpp:271
-#, fuzzy
-#| msgid "Execute File?"
-msgid "Execute Script File"
-msgstr "దస్త్రాన్ని నడపమంటారా?"
-
-#: kross/ui/view.cpp:159
+#: kross/ui/view.cpp:158
 #, fuzzy
 #| msgid "Test"
 msgid "Text:"
 msgstr "పరీక్ష"
 
-#: kross/ui/view.cpp:166
+#: kross/ui/view.cpp:165
 #, fuzzy
 #| msgid "Comment"
 msgid "Comment:"
 msgstr "వ్యాఖ్య"
 
-#: kross/ui/view.cpp:173
+#: kross/ui/view.cpp:172
 #, fuzzy
 #| msgid "Icons"
 msgid "Icon:"
 msgstr "ప్రతిమలు"
 
-#: kross/ui/view.cpp:194
+#: kross/ui/view.cpp:193
 #, fuzzy
 #| msgid "Internet Search"
 msgid "Interpreter:"
 msgstr "ఇంటర్ నెట్ అన్వెషణ"
 
-#: kross/ui/view.cpp:304
+#: kross/ui/view.cpp:303
 #, fuzzy
 #| msgid "Preview of the selected font"
 msgid "Execute the selected script."
 msgstr "ఎంచుకొన్న అక్షర రూపపు ముందు వీక్షణ"
 
-#: kross/ui/view.cpp:311
+#: kross/ui/view.cpp:310
 #, fuzzy
 #| msgid "Preview of the selected font"
 msgid "Stop execution of the selected script."
 msgstr "ఎంచుకొన్న అక్షర రూపపు ముందు వీక్షణ"
 
-#: kross/ui/view.cpp:316
+#: kross/ui/view.cpp:315
 #, fuzzy
 #| msgid "&Edit..."
 msgid "Edit..."
 msgstr "(&E) సరిదిద్దు..."
 
-#: kross/ui/view.cpp:318
+#: kross/ui/view.cpp:317
 msgid "Edit selected script."
 msgstr ""
 
-#: kross/ui/view.cpp:323
+#: kross/ui/view.cpp:322
 #, fuzzy
 #| msgid "&Add..."
 msgid "Add..."
 msgstr "(&A) కలుపు..."
 
-#: kross/ui/view.cpp:325
+#: kross/ui/view.cpp:324
 msgid "Add a new script."
 msgstr ""
 
-#: kross/ui/view.cpp:332
+#: kross/ui/view.cpp:331
 msgid "Remove selected script."
 msgstr ""
 
@@ -11234,6 +11214,21 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br>యూనికోడ్ కోడ్ పాయింట్: U+%3<br>(దశాంశం "
 "లో: %4)<br>(అక్షరం: %5)</qt>"
+
+#, fuzzy
+#~| msgid "Scr&ipt"
+#~ msgid "Scripts"
+#~ msgstr "(&i) లిపి"
+
+#, fuzzy
+#~| msgid "Execute File?"
+#~ msgid "Execute Script File..."
+#~ msgstr "దస్త్రాన్ని నడపమంటారా?"
+
+#, fuzzy
+#~| msgid "Execute File?"
+#~ msgid "Execute Script File"
+#~ msgstr "దస్త్రాన్ని నడపమంటారా?"
 
 #~ msgid "Other encoding"
 #~ msgstr "ఇతర సంకేతీకరణం:"
