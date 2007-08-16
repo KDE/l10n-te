@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 2007-07-16 01:12+0200\n"
+"POT-Creation-Date: 2007-08-16 01:12+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -147,7 +147,7 @@ msgstr "(&T) పనిముట్లు"
 msgid "&Settings"
 msgstr "(&S) అమరికలు"
 
-#. i18n: file ./kdeui/ui_standards.rc line 184
+#. i18n: file ./kdeui/ui_standards.rc line 186
 #: common_texts.cpp:254 rc.cpp:78 rc.cpp:275
 #, no-c-format
 msgid "Main Toolbar"
@@ -961,6 +961,7 @@ msgid "Sorry"
 msgstr "క్షమించండి"
 
 #: common_texts.cpp:119 kdeui/kstdguiitem.cpp:269
+#: kdeui/kswitchlanguagedialog.cpp:304
 msgid "Remove"
 msgstr "తొలగించు"
 
@@ -4895,6 +4896,59 @@ msgstr "చిత్రంలొ ప్రదేశాన్ని ఎంచు�
 msgid "Please click and drag on the image to select the region of interest:"
 msgstr ""
 
+#: kdeui/kswitchlanguagedialog.cpp:90
+#, fuzzy
+msgid "Switch application language"
+msgstr "కార్యక్రమ పేరును పెట్టును"
+
+#: kdeui/kswitchlanguagedialog.cpp:96
+msgid "Please choose language which should be used for this application"
+msgstr ""
+
+#: kdeui/kswitchlanguagedialog.cpp:123
+#, fuzzy
+msgid "Add fallback language"
+msgstr "అప్రమేయ భాష:"
+
+#: kdeui/kswitchlanguagedialog.cpp:124
+msgid ""
+"Adds one more language which will be used if other translations do not contain "
+"proper translation"
+msgstr ""
+
+#: kdeui/kswitchlanguagedialog.cpp:222
+msgid ""
+"Language for this application has been changed. The change will take effect "
+"upon next start of application"
+msgstr ""
+
+#: kdeui/kswitchlanguagedialog.cpp:223
+#, fuzzy
+msgid "Application language changed"
+msgstr "కార్యక్రమపు శబ్దములు"
+
+#: kdeui/kswitchlanguagedialog.cpp:282
+#, fuzzy
+msgid "Primary language:"
+msgstr "అప్రమేయ భాష:"
+
+#: kdeui/kswitchlanguagedialog.cpp:282
+#, fuzzy
+msgid "Fallback language:"
+msgstr "అప్రమేయ భాష:"
+
+#: kdeui/kswitchlanguagedialog.cpp:316
+msgid ""
+"This is main application language which will be used first before any other "
+"languages"
+msgstr ""
+
+#: kdeui/kswitchlanguagedialog.cpp:320
+msgid ""
+"This is language which will be used if any previous languages does not contain "
+"proper translation"
+msgstr ""
+
 #: kdeui/ksconfig.cpp:102
 msgid "Create &root/affix combinations not in dictionary"
 msgstr "(&r) నిఘంటువులొ లేని మూల/ప్రత్యయ మిశ్రమాలను సృష్టించు "
@@ -5262,7 +5316,7 @@ msgstr "ప్రశ్న"
 msgid "Do not ask again"
 msgstr "మరల అడుగవద్దు"
 
-#: kdeui/kaboutdialog.cpp:1535 kdeui/khelpmenu.cpp:213
+#: kdeui/kaboutdialog.cpp:1535 kdeui/khelpmenu.cpp:226
 #: kdeui/kmessagebox.cpp:975
 #, c-format
 msgid "About %1"
@@ -6220,24 +6274,29 @@ msgid ""
 "&Next"
 msgstr "(&N) తరువాత"
 
-#: kdeui/khelpmenu.cpp:125 kdeui/kstdaction_p.h:108
+#: kdeui/khelpmenu.cpp:129 kdeui/kstdaction_p.h:108
 msgid "%1 &Handbook"
 msgstr "(&H) %1 చేతిపుస్తకం"
 
-#: kdeui/khelpmenu.cpp:134
+#: kdeui/khelpmenu.cpp:138
 msgid "What's &This"
 msgstr "(&T) ఇది ఎమిటి"
 
-#: kdeui/khelpmenu.cpp:145 kdeui/kstdaction_p.h:111
+#: kdeui/khelpmenu.cpp:149 kdeui/kstdaction_p.h:111
 msgid "&Report Bug..."
 msgstr "(&R) తప్పును తెలియచేయండి..."
 
-#: kdeui/khelpmenu.cpp:156 kdeui/kstdaction_p.h:112
+#: kdeui/khelpmenu.cpp:158 kdeui/kstdaction_p.h:112
+#, fuzzy
+msgid "Switch application &language..."
+msgstr "కార్యక్రమ పేరును పెట్టును"
+
+#: kdeui/khelpmenu.cpp:169 kdeui/kstdaction_p.h:113
 #, c-format
 msgid "&About %1"
 msgstr "(&A) %1 గురించి"
 
-#: kdeui/khelpmenu.cpp:162 kdeui/kstdaction_p.h:113
+#: kdeui/khelpmenu.cpp:175 kdeui/kstdaction_p.h:114
 msgid "About &KDE"
 msgstr "(&K) కెడిఈ గురించి"
 
