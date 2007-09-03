@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-02 05:40+0200\n"
+"POT-Creation-Date: 2007-09-03 05:36+0200\n"
 "PO-Revision-Date: 2007-03-09 14:17+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -371,8 +371,10 @@ msgid " INS "
 msgstr " INS "
 
 #: app/kateviewspace.cpp:292 app/kateviewspace.cpp:377
-msgid " NORM "
-msgstr " NORM "
+#, fuzzy
+#| msgid " INS "
+msgid " LINE "
+msgstr " INS "
 
 #: app/kateviewspace.cpp:368
 #, qt-format
@@ -380,7 +382,9 @@ msgid " Line: %1 Col: %2 "
 msgstr ""
 
 #: app/kateviewspace.cpp:377
-msgid " BLK "
+#, fuzzy
+#| msgid " BLK "
+msgid " BLOCK "
 msgstr " BLK "
 
 #: app/katemainwindow.cpp:223
@@ -1458,6 +1462,9 @@ msgstr ""
 #| msgid "Sessions"
 msgid "Session exists"
 msgstr "సెషన్లు"
+
+#~ msgid " NORM "
+#~ msgstr " NORM "
 
 #~ msgid "Folder:"
 #~ msgstr "ఫొల్డర్:"
