@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-10 05:30+0200\n"
+"POT-Creation-Date: 2007-09-11 05:33+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -3090,13 +3090,13 @@ msgid "Invalid Calendar Type"
 msgstr "సరికాని సంబంద మూలం"
 
 #: kdecore/date/kdatetime.cpp:1464 kdecore/date/kdatetime.cpp:1474
-#: kdecore/date/kdatetime.cpp:2811 kdecore/localization/klocale.cpp:1719
-#: kdecore/localization/klocale.cpp:1845
+#: kdecore/date/kdatetime.cpp:2811 kdecore/localization/klocale.cpp:1708
+#: kdecore/localization/klocale.cpp:1834
 msgid "am"
 msgstr "పూర్వాహ్నము"
 
-#: kdecore/date/kdatetime.cpp:2819 kdecore/localization/klocale.cpp:1710
-#: kdecore/localization/klocale.cpp:1843
+#: kdecore/date/kdatetime.cpp:2819 kdecore/localization/klocale.cpp:1699
+#: kdecore/localization/klocale.cpp:1832
 msgid "pm"
 msgstr "మధ్యాహ్నము"
 
@@ -3131,7 +3131,7 @@ msgstr "\"%1\" కొరకు లైబ్రరి దస్త్రాలు
 msgid "No service matching the requirements was found"
 msgstr ""
 
-#: kdecore/util/klibloader.cpp:649 kdecore/util/kpluginloader.cpp:114
+#: kdecore/util/klibloader.cpp:649
 msgid ""
 "The service provides no library, the Library key is missing in the .desktop "
 "file"
@@ -3148,6 +3148,13 @@ msgstr ""
 #: kdecore/util/klibloader.cpp:657
 msgid "KLibLoader: Unknown error"
 msgstr "కెలిబ్ లొడర్: తెలియని దోషము"
+
+#: kdecore/util/kpluginloader.cpp:114
+#, qt-format
+msgid ""
+"The service '%1' provides no library or the Library key is missing in the ."
+"desktop file"
+msgstr ""
 
 #: kdecore/util/kpluginloader.cpp:175
 #, qt-format
@@ -3879,7 +3886,7 @@ msgid_plural ""
 msgstr[0] "'%1' సేవ కనపడలేదు."
 msgstr[1] "'%1' సేవ కనపడలేదు."
 
-#: kdecore/services/kmimetype.cpp:131
+#: kdecore/services/kmimetype.cpp:121
 msgid "No mime types installed."
 msgstr ""
 
@@ -4005,75 +4012,75 @@ msgctxt "@item Text character set"
 msgid "Thai"
 msgstr "థాయ్"
 
-#: kdecore/localization/klocale.cpp:1178
+#: kdecore/localization/klocale.cpp:1167
 #, qt-format
 msgid "%1 TiB"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1180
+#: kdecore/localization/klocale.cpp:1169
 #, qt-format
 msgid "%1 GiB"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1186
+#: kdecore/localization/klocale.cpp:1175
 #, qt-format
 msgid "%1 MiB"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1192
+#: kdecore/localization/klocale.cpp:1181
 #, qt-format
 msgid "%1 KiB"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1197
+#: kdecore/localization/klocale.cpp:1186
 #, qt-format
 msgid "%1 B"
 msgstr "%1 బి"
 
-#: kdecore/localization/klocale.cpp:1202
+#: kdecore/localization/klocale.cpp:1191
 msgid "0 B"
 msgstr "0 బి"
 
-#: kdecore/localization/klocale.cpp:1210
+#: kdecore/localization/klocale.cpp:1199
 #, qt-format
 msgid "%1 days"
 msgstr "%1 రొజులు"
 
-#: kdecore/localization/klocale.cpp:1213
+#: kdecore/localization/klocale.cpp:1202
 #, qt-format
 msgid "%1 hours"
 msgstr "%1 గంటలు"
 
-#: kdecore/localization/klocale.cpp:1216
+#: kdecore/localization/klocale.cpp:1205
 #, qt-format
 msgid "%1 minutes"
 msgstr "%1 నిమిషాలు"
 
-#: kdecore/localization/klocale.cpp:1219
+#: kdecore/localization/klocale.cpp:1208
 #, qt-format
 msgid "%1 seconds"
 msgstr "%1 సెకనులు"
 
-#: kdecore/localization/klocale.cpp:1222
+#: kdecore/localization/klocale.cpp:1211
 #, qt-format
 msgid "%1 milliseconds"
 msgstr "%1 మిల్లిసెకనులు"
 
-#: kdecore/localization/klocale.cpp:1312
+#: kdecore/localization/klocale.cpp:1301
 msgid "Today"
 msgstr "ఈరొజు"
 
-#: kdecore/localization/klocale.cpp:1314
+#: kdecore/localization/klocale.cpp:1303
 msgid "Yesterday"
 msgstr "నిన్న"
 
-#: kdecore/localization/klocale.cpp:1883
+#: kdecore/localization/klocale.cpp:1872
 #, qt-format
 msgctxt "concatenation of dates and time"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: kdecore/localization/klocale.cpp:1944
+#: kdecore/localization/klocale.cpp:1933
 #, qt-format
 msgctxt "concatenation of date/time and time zone"
 msgid "%1 %2"
@@ -10525,11 +10532,11 @@ msgstr "జావాస్క్రిప్ట్"
 msgid "&Abort"
 msgstr "(&A) విడిచిపెట్టుము"
 
-#: khtml/ecma/kjs_window.cpp:1565 khtml/ecma/kjs_html.cpp:2108
+#: khtml/ecma/kjs_window.cpp:1564 khtml/ecma/kjs_html.cpp:2107
 msgid "Confirmation: JavaScript Popup"
 msgstr "దృవపరచు: జావాస్క్రిప్ట్ పాప్ అప్"
 
-#: khtml/ecma/kjs_window.cpp:1568
+#: khtml/ecma/kjs_window.cpp:1567
 msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
@@ -10537,7 +10544,7 @@ msgstr ""
 "ఈ సైట్ జావా స్క్రిప్ట్ ద్వారా కొత్త విండొని తెరువుటకు మనవి కోరుతుంది.\n"
 "అనుమతించ మంటారా?"
 
-#: khtml/ecma/kjs_window.cpp:1571
+#: khtml/ecma/kjs_window.cpp:1570
 #, qt-format
 msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
@@ -10546,56 +10553,56 @@ msgstr ""
 "<qt>ఈ సైట్ <p>%1</p>జావా స్క్రిప్ట్ ద్వారా కొత్త విండొని తెరువుటకు మనవి కోరుతుంది.<br />అనుమతించ "
 "మంటారా?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1573 khtml/ecma/kjs_html.cpp:2115
+#: khtml/ecma/kjs_window.cpp:1572 khtml/ecma/kjs_html.cpp:2114
 msgid "Allow"
 msgstr "అనుమతించు"
 
-#: khtml/ecma/kjs_window.cpp:1573 khtml/ecma/kjs_html.cpp:2115
+#: khtml/ecma/kjs_window.cpp:1572 khtml/ecma/kjs_html.cpp:2114
 msgid "Do Not Allow"
 msgstr "అనుమతించవద్దు"
 
-#: khtml/ecma/kjs_window.cpp:1865
+#: khtml/ecma/kjs_window.cpp:1864
 msgid "Close window?"
 msgstr "విండొ మూసివేయవచ్చునా?"
 
-#: khtml/ecma/kjs_window.cpp:1865
+#: khtml/ecma/kjs_window.cpp:1864
 msgid "Confirmation Required"
 msgstr "అనుమతి కావాలి"
 
-#: khtml/ecma/kjs_window.cpp:2815
+#: khtml/ecma/kjs_window.cpp:2814
 #, qt-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2818
+#: khtml/ecma/kjs_window.cpp:2817
 #, qt-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2826
+#: khtml/ecma/kjs_window.cpp:2825
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "జావాస్క్రిప్ట్ పేజి గుర్తు చేర్చుట ప్రయత్నించినది"
 
-#: khtml/ecma/kjs_window.cpp:2830
+#: khtml/ecma/kjs_window.cpp:2829
 msgid "Insert"
 msgstr "చేర్చు"
 
-#: khtml/ecma/kjs_window.cpp:2830
+#: khtml/ecma/kjs_window.cpp:2829
 msgid "Disallow"
 msgstr "నిషెధించు"
 
-#: khtml/ecma/kjs_html.cpp:2110
+#: khtml/ecma/kjs_html.cpp:2109
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
 "Do you want to allow the form to be submitted?"
 msgstr ""
 
-#: khtml/ecma/kjs_html.cpp:2113
+#: khtml/ecma/kjs_html.cpp:2112
 #, qt-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -11224,7 +11231,7 @@ msgstr ""
 msgid "Daniel Molkentin"
 msgstr ""
 
-#: nepomuk/core/ui/kratingwidget.cpp:227
+#: nepomuk/core/ui/kratingwidget.cpp:228
 #, fuzzy
 #| msgid "Properties"
 msgid "Not yet rated"
@@ -11481,13 +11488,13 @@ msgstr[1] ""
 msgid " since the last time you asked for details"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:1620
+#: kutils/kpluginselector.cpp:1625
 #, fuzzy, qt-format
 #| msgid "About %1"
 msgid "About %1 plugin"
 msgstr "%1 గురించి"
 
-#: kutils/kpluginselector.cpp:1630
+#: kutils/kpluginselector.cpp:1635
 #, fuzzy, qt-format
 #| msgid "Description:"
 msgid ""
@@ -11495,7 +11502,7 @@ msgid ""
 "\t%1"
 msgstr "వర్ణన:"
 
-#: kutils/kpluginselector.cpp:1637
+#: kutils/kpluginselector.cpp:1642
 #, fuzzy, qt-format
 #| msgid "Author:"
 msgid ""
@@ -11503,17 +11510,17 @@ msgid ""
 "\t%1"
 msgstr "మూలకర్త:"
 
-#: kutils/kpluginselector.cpp:1644
+#: kutils/kpluginselector.cpp:1649
 #, fuzzy
 #| msgid "Email:"
 msgid "E-Mail:"
 msgstr "ఈమెయిల్:"
 
-#: kutils/kpluginselector.cpp:1665
+#: kutils/kpluginselector.cpp:1670
 msgid "Website:"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:1686
+#: kutils/kpluginselector.cpp:1691
 #, fuzzy, qt-format
 #| msgid "Version:"
 msgid ""
@@ -11521,7 +11528,7 @@ msgid ""
 "\t%1"
 msgstr "వివరణం:"
 
-#: kutils/kpluginselector.cpp:1694
+#: kutils/kpluginselector.cpp:1699
 #, fuzzy, qt-format
 #| msgid "License:"
 msgid ""
@@ -12416,6 +12423,11 @@ msgstr "డీక్రిప్షన్ దొషం."
 #| msgid "Latest"
 msgid "qttest"
 msgstr "తాజా"
+
+#: kdecore/services/kservice.h:509
+#, qt-format
+msgid "The service '%1' does not provide an interface '%2' with keyword '%3'"
+msgstr ""
 
 #: kdeui/actions/kstandardaction_p.h:43
 msgid "&New"
