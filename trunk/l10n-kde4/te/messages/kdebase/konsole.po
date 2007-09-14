@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-13 05:33+0200\n"
+"POT-Creation-Date: 2007-09-14 05:33+0200\n"
 "PO-Revision-Date: 2007-03-22 20:26+0530\n"
 "Last-Translator: Vijay Kiran Kamuju <infyquest@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -451,127 +451,131 @@ msgstr ""
 msgid "ZModem Progress"
 msgstr ""
 
-#: SessionController.cpp:400
+#: SessionController.cpp:402
 msgid "&Close Tab"
 msgstr ""
 
-#: SessionController.cpp:407
+#: SessionController.cpp:408
+msgid "Open Browser Here"
+msgstr ""
+
+#: SessionController.cpp:415
 #, fuzzy
 #| msgid "&Top"
 msgid "&Copy"
 msgstr "(&T) పైన"
 
-#: SessionController.cpp:411
+#: SessionController.cpp:419
 msgid "&Paste"
 msgstr ""
 
-#: SessionController.cpp:425
+#: SessionController.cpp:433
 msgid "&Rename Tab..."
 msgstr ""
 
-#: SessionController.cpp:430
+#: SessionController.cpp:438
 msgid "Send Input to All"
 msgstr ""
 
-#: SessionController.cpp:436
+#: SessionController.cpp:444
 #, fuzzy
 #| msgid "Clear &History"
 msgid "C&lear Display"
 msgstr "(&H) చరిత్రను చెరపివెయి"
 
-#: SessionController.cpp:440
+#: SessionController.cpp:448
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Clear && Reset"
 msgstr "(&H) చరిత్రను చెరపివెయి"
 
-#: SessionController.cpp:445
+#: SessionController.cpp:453
 msgid "Monitor for &Activity"
 msgstr ""
 
-#: SessionController.cpp:450
+#: SessionController.cpp:458
 msgid "Monitor for &Silence"
 msgstr ""
 
-#: SessionController.cpp:456
+#: SessionController.cpp:464
 msgid "Set Character Encoding"
 msgstr ""
 
-#: SessionController.cpp:463
+#: SessionController.cpp:471
 msgid "Increase Text Size"
 msgstr ""
 
-#: SessionController.cpp:469
+#: SessionController.cpp:477
 msgid "Decrease Text Size"
 msgstr ""
 
-#: SessionController.cpp:475
+#: SessionController.cpp:483
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Search Output"
 msgstr "(&H) చరిత్రను చెరపివెయి"
 
-#: SessionController.cpp:484
+#: SessionController.cpp:492
 #, fuzzy
 #| msgid "Find"
 msgid "Find Next"
 msgstr "వెతుకు"
 
-#: SessionController.cpp:491
+#: SessionController.cpp:499
 msgid "Find Previous"
 msgstr ""
 
-#: SessionController.cpp:497
+#: SessionController.cpp:505
 #, fuzzy
 #| msgid "Save History"
 msgid "Save Output..."
 msgstr "చరిత్రను దాచు"
 
-#: SessionController.cpp:502
+#: SessionController.cpp:510
 #, fuzzy
 #| msgid "Save History"
 msgid "Scrollback Options..."
 msgstr "చరిత్రను దాచు"
 
-#: SessionController.cpp:507
+#: SessionController.cpp:515
 msgid "Clear Scrollback"
 msgstr ""
 
-#: SessionController.cpp:511
+#: SessionController.cpp:519
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Clear Scrollback && Reset"
 msgstr "(&H) చరిత్రను చెరపివెయి"
 
-#: SessionController.cpp:517
+#: SessionController.cpp:525
 msgid "Edit Current Profile..."
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file ../desktop/sessionui.rc line 57
-#: SessionController.cpp:520 rc.cpp:408
+#. i18n: file ../desktop/sessionui.rc line 59
+#: SessionController.cpp:528 rc.cpp:408
 msgid "Change Profile"
 msgstr ""
 
-#: SessionController.cpp:602
+#: SessionController.cpp:610
 msgid "Rename Tab"
 msgstr ""
 
-#: SessionController.cpp:603
+#: SessionController.cpp:611
 msgid "Enter new tab text:"
 msgstr ""
 
-#: SessionController.cpp:992
+#: SessionController.cpp:1006
 #, qt-format
 msgid "Save Output from %1"
 msgstr ""
 
-#: SessionController.cpp:1003
+#: SessionController.cpp:1017
 #, qt-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 
-#: SessionController.cpp:1092
+#: SessionController.cpp:1106
 #, qt-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -1686,7 +1690,7 @@ msgid "Set as Default"
 msgstr "(&S) అప్రమేయంలా దాచు"
 
 #. i18n: tag text
-#. i18n: file ../desktop/sessionui.rc line 41
+#. i18n: file ../desktop/sessionui.rc line 42
 #: rc.cpp:405
 msgid "Debug"
 msgstr ""
