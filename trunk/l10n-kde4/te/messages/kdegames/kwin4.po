@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-04 05:38+0200\n"
+"POT-Creation-Date: 2007-09-27 05:41+0200\n"
 "PO-Revision-Date: 2007-07-19 15:17+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -241,19 +241,22 @@ msgstr ""
 
 #. i18n: tag label
 #. i18n: file kwin4.kcfg line 9
-#: rc.cpp:3
+#: rc.cpp:4
+#, no-c-format
 msgid "Network connection port"
 msgstr "నెట్వర్క్ పోర్ట్"
 
 #. i18n: tag label
 #. i18n: file kwin4.kcfg line 13
-#: rc.cpp:6
+#: rc.cpp:8
+#, no-c-format
 msgid "Game name"
 msgstr "ఆట పేరు"
 
 #. i18n: tag label
 #. i18n: file kwin4.kcfg line 16
-#: rc.cpp:9
+#: rc.cpp:12
+#, no-c-format
 msgid "Network connection host"
 msgstr "నెట్వర్క్ కంప్యూటర్ పేరు"
 
@@ -261,69 +264,79 @@ msgstr "నెట్వర్క్ కంప్యూటర్ పేరు"
 #. i18n: file kwin4.kcfg line 20
 #. i18n: tag string
 #. i18n: file settings.ui line 50
-#: rc.cpp:12 rc.cpp:33
+#: rc.cpp:16 rc.cpp:44
+#, no-c-format
 msgid "Change the strength of the computer player."
 msgstr "కంప్యూటర్ ఆటగాడి బలాన్ని మార్చు"
 
 #. i18n: tag label
 #. i18n: file kwin4.kcfg line 27
-#: rc.cpp:15
+#: rc.cpp:20
+#, no-c-format
 msgid "Player 1 name"
 msgstr "మొదటి ఆటగాడి పేరు"
 
 #. i18n: tag label
 #. i18n: file kwin4.kcfg line 31
-#: rc.cpp:18
+#: rc.cpp:24
+#, no-c-format
 msgid "Player 2 name"
 msgstr "రెండవ ఆటగాడి పేరు"
 
 #. i18n: tag text
 #. i18n: file kwin4ui.rc line 6
-#: rc.cpp:21
-#, fuzzy
+#: rc.cpp:28
+#, fuzzy, no-c-format
 #| msgid "Name"
 msgid "&Game"
 msgstr "పేరు"
 
 #. i18n: tag text
 #. i18n: file kwin4ui.rc line 13
-#: rc.cpp:24
+#: rc.cpp:32
+#, no-c-format
 msgid "&Settings"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file kwin4ui.rc line 19
-#: rc.cpp:27
+#: rc.cpp:36
+#, no-c-format
 msgid "Main Toolbar"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file settings.ui line 38
-#: rc.cpp:30
+#: rc.cpp:40
+#, no-c-format
 msgid "Computer Difficulty"
 msgstr "కంప్యూటర్ ప్రతిబంధకం"
 
 #. i18n: tag string
 #. i18n: file settings.ui line 83
-#: rc.cpp:36
+#: rc.cpp:48
+#, no-c-format
 msgid "Easy"
 msgstr "తేలిక"
 
 #. i18n: tag string
 #. i18n: file settings.ui line 90
-#: rc.cpp:39
+#: rc.cpp:52
+#, no-c-format
 msgid "Hard"
 msgstr "కష్టము"
 
 #. i18n: tag string
 #. i18n: file settings.ui line 102
-#: rc.cpp:42
+#: rc.cpp:56
+#, no-c-format
 msgid "Use AI learning"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file settings.ui line 112
-#: rc.cpp:45
+#: rc.cpp:60
+#, no-c-format
 msgid "Red Plays With"
 msgstr "ఎరుపు ఆటగాడు వాడేది"
 
@@ -331,7 +344,8 @@ msgstr "ఎరుపు ఆటగాడు వాడేది"
 #. i18n: file settings.ui line 132
 #. i18n: tag string
 #. i18n: file settings.ui line 181
-#: rc.cpp:48 rc.cpp:60
+#: rc.cpp:64 rc.cpp:80
+#, no-c-format
 msgid "Mouse"
 msgstr "మౌస్"
 
@@ -339,7 +353,8 @@ msgstr "మౌస్"
 #. i18n: file settings.ui line 142
 #. i18n: tag string
 #. i18n: file settings.ui line 191
-#: rc.cpp:51 rc.cpp:63
+#: rc.cpp:68 rc.cpp:84
+#, no-c-format
 msgid "Keyboard"
 msgstr "కీబోర్డ్"
 
@@ -347,57 +362,65 @@ msgstr "కీబోర్డ్"
 #. i18n: file settings.ui line 149
 #. i18n: tag string
 #. i18n: file settings.ui line 198
-#: rc.cpp:54 rc.cpp:66
+#: rc.cpp:72 rc.cpp:88
+#, no-c-format
 msgid "Computer"
 msgstr "కంప్యూటర్"
 
 #. i18n: tag string
 #. i18n: file settings.ui line 161
-#: rc.cpp:57
-#, fuzzy
+#: rc.cpp:76
+#, fuzzy, no-c-format
 #| msgid "Red Plays With"
 msgid "Black Plays With"
 msgstr "ఎరుపు ఆటగాడు వాడేది"
 
 #. i18n: tag string
 #. i18n: file settings.ui line 218
-#: rc.cpp:69
+#: rc.cpp:92
+#, no-c-format
 msgid "Player Names"
 msgstr "ఆటగాళ్ల పేర్లు"
 
 #. i18n: tag string
 #. i18n: file settings.ui line 244
-#: rc.cpp:72
+#: rc.cpp:96
+#, no-c-format
 msgid "Player 1:"
 msgstr "మొదటి ఆటగాడు:"
 
 #. i18n: tag string
 #. i18n: file settings.ui line 251
-#: rc.cpp:75
+#: rc.cpp:100
+#, no-c-format
 msgid "Player 2:"
 msgstr "రెండవ ఆటగాడు:"
 
 #. i18n: tag string
 #. i18n: file settings.ui line 271
-#: rc.cpp:78
+#: rc.cpp:104
+#, no-c-format
 msgid "Starting Player Color"
 msgstr "మొదటి ఆటగాడు ఎంచుకున్న రంగు"
 
 #. i18n: tag string
 #. i18n: file settings.ui line 291
-#: rc.cpp:81
+#: rc.cpp:108
+#, no-c-format
 msgid "Red"
 msgstr "ఎరుపు"
 
 #. i18n: tag string
 #. i18n: file settings.ui line 301
-#: rc.cpp:84
+#: rc.cpp:112
+#, no-c-format
 msgid "Black"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file statistics.ui line 16
-#: rc.cpp:87
+#: rc.cpp:116
+#, no-c-format
 msgid "Statistics"
 msgstr "గణాంకాలు"
 
@@ -405,49 +428,57 @@ msgstr "గణాంకాలు"
 #. i18n: file statistics.ui line 60
 #. i18n: tag string
 #. i18n: file statuswidget.ui line 116
-#: rc.cpp:90 rc.cpp:135
+#: rc.cpp:120 rc.cpp:180
+#, no-c-format
 msgid "Player 1"
 msgstr "మొదటి ఆటగాడు"
 
 #. i18n: tag string
 #. i18n: file statistics.ui line 67
-#: rc.cpp:93
+#: rc.cpp:124
+#, no-c-format
 msgid "Name"
 msgstr "పేరు"
 
 #. i18n: tag string
 #. i18n: file statistics.ui line 77
-#: rc.cpp:96
+#: rc.cpp:128
+#, no-c-format
 msgid "Won"
 msgstr "గెలిచినవి"
 
 #. i18n: tag string
 #. i18n: file statistics.ui line 90
-#: rc.cpp:99
+#: rc.cpp:132
+#, no-c-format
 msgid "Lost"
 msgstr "ఓడిపోయినవి"
 
 #. i18n: tag string
 #. i18n: file statistics.ui line 106
-#: rc.cpp:102
+#: rc.cpp:136
+#, no-c-format
 msgid "Sum"
 msgstr "మొత్తము"
 
 #. i18n: tag string
 #. i18n: file statistics.ui line 116
-#: rc.cpp:105
+#: rc.cpp:140
+#, no-c-format
 msgid "Aborted"
 msgstr "ఆపివేయబడినది"
 
 #. i18n: tag string
 #. i18n: file statistics.ui line 134
-#: rc.cpp:108
+#: rc.cpp:144
+#, no-c-format
 msgid "Clear All Statistics"
 msgstr "గణాంకాలను చెరిపివేయండి"
 
 #. i18n: tag string
 #. i18n: file statistics.ui line 157
-#: rc.cpp:111
+#: rc.cpp:148
+#, no-c-format
 msgid "&Close"
 msgstr ""
 
@@ -455,52 +486,59 @@ msgstr ""
 #. i18n: file statistics.ui line 169
 #. i18n: tag string
 #. i18n: file statuswidget.ui line 223
-#: rc.cpp:114 rc.cpp:138
+#: rc.cpp:152 rc.cpp:184
+#, no-c-format
 msgid "Player 2"
 msgstr "రెండవ ఆటగాడు"
 
 #. i18n: tag string
 #. i18n: file statistics.ui line 179
-#: rc.cpp:117
+#: rc.cpp:156
+#, no-c-format
 msgid "Drawn"
 msgstr "ఉభయత్ర గెలుపులేని ఆట"
 
 #. i18n: tag string
 #. i18n: file statuswidget.ui line 66
-#: rc.cpp:120
+#: rc.cpp:160
+#, no-c-format
 msgid "W"
 msgstr "W"
 
 #. i18n: tag string
 #. i18n: file statuswidget.ui line 76
-#: rc.cpp:123
+#: rc.cpp:164
+#, no-c-format
 msgid "D"
 msgstr "D"
 
 #. i18n: tag string
 #. i18n: file statuswidget.ui line 86
-#: rc.cpp:126
+#: rc.cpp:168
+#, no-c-format
 msgid "L"
 msgstr "L"
 
 #. i18n: tag string
 #. i18n: file statuswidget.ui line 96
-#: rc.cpp:129
+#: rc.cpp:172
+#, no-c-format
 msgid "No"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file statuswidget.ui line 106
-#: rc.cpp:132
+#: rc.cpp:176
+#, no-c-format
 msgid "Bk"
 msgstr "Bk"
 
-#: rc.cpp:139
+#: rc.cpp:185
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: rc.cpp:140
+#: rc.cpp:186
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""

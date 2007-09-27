@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kbounce\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-03 05:06+0200\n"
+"POT-Creation-Date: 2007-09-27 05:41+0200\n"
 "PO-Revision-Date: 2007-07-17 18:54+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -105,6 +105,36 @@ msgstr ""
 msgid "Tomasz Boczkowski"
 msgstr ""
 
+#: mainwindow.cpp:47
+#, fuzzy
+#| msgid "Level:"
+msgid "Level: XX"
+msgstr "స్ధాయి:"
+
+#: mainwindow.cpp:48
+#, fuzzy
+#| msgid "Score:"
+msgid "Score: XXXXXX"
+msgstr "స్కోరు:"
+
+#: mainwindow.cpp:49
+#, fuzzy
+#| msgid "Filled area:"
+msgid "Filled: XX"
+msgstr "నిండిఉన్న స్థలము:"
+
+#: mainwindow.cpp:50
+#, fuzzy
+#| msgid "Lives:"
+msgid "Lives: XX"
+msgstr "ఛాన్సులు:"
+
+#: mainwindow.cpp:51
+#, fuzzy
+#| msgid "Time:"
+msgid "Time: XXX"
+msgstr "సమయం:"
+
 #: mainwindow.cpp:97
 msgid "&Play Sounds"
 msgstr "(&P) శబ్ధాలను వాడండి"
@@ -155,28 +185,31 @@ msgstr "సమయం:"
 
 #. i18n: tag label
 #. i18n: file kbounce.kcfg line 9
-#: rc.cpp:3
+#: rc.cpp:4
+#, no-c-format
 msgid "The graphical theme to be used."
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file kbounce.kcfg line 14
-#: rc.cpp:6
+#: rc.cpp:8
+#, no-c-format
 msgid "Whether game sounds are played."
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file kbounceui.rc line 13
-#: rc.cpp:9
+#: rc.cpp:12
+#, no-c-format
 msgid "Main Toolbar"
 msgstr ""
 
-#: rc.cpp:10
+#: rc.cpp:13
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: rc.cpp:11
+#: rc.cpp:14
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
