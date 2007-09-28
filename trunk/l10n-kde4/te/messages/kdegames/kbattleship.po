@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kbattleship\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-27 05:41+0200\n"
+"POT-Creation-Date: 2007-09-28 05:50+0200\n"
 "PO-Revision-Date: 2007-07-17 17:57+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -83,15 +83,25 @@ msgstr "తగిలినవి"
 msgid "Misses"
 msgstr ""
 
-#: playfield.cpp:149
+#: playfield.cpp:151
 msgid "You win!"
 msgstr ""
 
-#: playfield.cpp:152
+#: playfield.cpp:154
 #, fuzzy
 #| msgid "You lost the game. :("
 msgid "You lose."
 msgstr "మీరు ఆట ఓడిపోయారు :("
+
+#: playfield.cpp:172
+#, fuzzy
+#| msgid "Restart"
+msgid "Restart game"
+msgstr "మరల మొదలుపెట్టు"
+
+#: playfield.cpp:173
+msgid "Your opponent has requested to restart the game. Do you accept?"
+msgstr ""
 
 #. i18n: tag label
 #. i18n: file kbattleship.kcfg line 9
@@ -230,9 +240,6 @@ msgstr ""
 
 #~ msgid "Do you want to restart the game?"
 #~ msgstr "ఈ ఆటని మరల మొదలుపెట్టాలా?"
-
-#~ msgid "Restart"
-#~ msgstr "మరల మొదలుపెట్టు"
 
 #~ msgid "Do Not Restart"
 #~ msgstr "ఈ ఆటను సాగనివ్వండి"
