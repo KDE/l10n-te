@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kbattleship\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-28 05:50+0200\n"
+"POT-Creation-Date: 2007-10-08 05:49+0200\n"
 "PO-Revision-Date: 2007-07-17 17:57+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -15,36 +15,176 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: main.cpp:22
+#: main.cpp:24
 msgid "KBattleship"
 msgstr ""
 
-#: main.cpp:22
+#: main.cpp:25
 msgid "The KDE Battleship clone"
 msgstr ""
 
-#: main.cpp:22
-msgid "(c) 2007  Paolo Capriotti"
+#: main.cpp:26
+msgid ""
+"(c) 2000-2005  Nikolas Zimmermann, Daniel Molkentin\n"
+"(c) 2007 Paolo Capriotti"
 msgstr ""
 
-#: simplemenu.cpp:45
+#: main.cpp:29
+msgid "Paolo Capriotti"
+msgstr ""
+
+#: main.cpp:29
+msgid "Current maintainer"
+msgstr ""
+
+#: main.cpp:30
+msgid "Nikolas Zimmermann"
+msgstr ""
+
+#: main.cpp:30
+msgid "Project Founder, GUI Handling, Client/Server"
+msgstr ""
+
+#: main.cpp:31
+msgid "Daniel Molkentin"
+msgstr ""
+
+#: main.cpp:31
+msgid "Dialog Stuff, Client/Server"
+msgstr ""
+
+#: main.cpp:32
+msgid "Kevin Krammer"
+msgstr ""
+
+#: main.cpp:32
+#, fuzzy
+#| msgid "Computer Player"
+msgid "Computer Player"
+msgstr "కంప్యుటర్ ఆటగాడు"
+
+#: main.cpp:34
+msgid "Johann Ollivier Lapeyre"
+msgstr ""
+
+#: main.cpp:34
+msgid "Game artwork"
+msgstr ""
+
+#: main.cpp:35
+msgid "Eugene Trounev"
+msgstr ""
+
+#: main.cpp:35
+msgid "Background"
+msgstr ""
+
+#: main.cpp:36
+msgid "Robert Wadley"
+msgstr ""
+
+#: main.cpp:36
+msgid "Artwork for some of the ships"
+msgstr ""
+
+#: main.cpp:37
+msgid "Riccardo Iaconelli"
+msgstr ""
+
+#: main.cpp:37
+msgid "Welcome screen"
+msgstr ""
+
+#: main.cpp:38
+msgid "Benjamin Adler"
+msgstr ""
+
+#: main.cpp:38
+msgid "Icon"
+msgstr "ప్రతిమ"
+
+#: main.cpp:39
+msgid "Nils Trzebin"
+msgstr ""
+
+#: main.cpp:39
+msgid "Sounds"
+msgstr "శబ్దాలు"
+
+#: main.cpp:40
+msgid "Elmar Hoefner"
+msgstr ""
+
+#: main.cpp:40
+msgid "GFX"
+msgstr "జి ఎఫ్ ఎక్స్"
+
+#: main.cpp:41
+msgid "Lukas Tinkl"
+msgstr ""
+
+#: main.cpp:41
+msgid "Non-Latin1 Support"
+msgstr ""
+
+#: main.cpp:42
+msgid "Malte Starostik"
+msgstr ""
+
+#: main.cpp:42
+msgid "Various improvements"
+msgstr ""
+
+#: main.cpp:43
+msgid "Albert Astals Cid"
+msgstr ""
+
+#: main.cpp:43 main.cpp:44
+msgid "Various improvements and bugfixes"
+msgstr ""
+
+#: main.cpp:44
+msgid "John Tapsell"
+msgstr ""
+
+#: main.cpp:45
+msgid "Inge Wallin"
+msgstr ""
+
+#: main.cpp:45
+msgid "Bugfixes and refactoring"
+msgstr ""
+
+#: main.cpp:46
+msgid "Jakub Stachowski"
+msgstr ""
+
+#: main.cpp:46
+msgid "DNS-SD discovery"
+msgstr ""
+
+#: simplemenu.cpp:49
 #, fuzzy
 #| msgid "S&ingle Player"
 msgid "Single player"
 msgstr "(&i) ఒకే ఆటగాడు"
 
-#: simplemenu.cpp:46
+#: simplemenu.cpp:50
 msgid "Host network game"
 msgstr ""
 
-#: simplemenu.cpp:47
+#: simplemenu.cpp:51
 msgid "Connect to network game"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file preferences.ui line 25
-#: networkdialog.cpp:50 rc.cpp:32
-#, fuzzy, no-c-format
+#: simplemenu.cpp:127 simplemenu.cpp:144
+#, fuzzy
+#| msgid "S&ingle Player"
+msgid "Remote player"
+msgstr "(&i) ఒకే ఆటగాడు"
+
+#: networkdialog.cpp:50
+#, fuzzy
 #| msgid "&Nick name:"
 msgid "&Nickname:"
 msgstr "(&N) ముద్దు పేరు:"
@@ -57,50 +197,93 @@ msgstr ""
 msgid "&Port:"
 msgstr "(&P) పోర్ట్:"
 
-#: networkdialog.cpp:141
+#: networkdialog.cpp:92
+msgid "Network parameters"
+msgstr ""
+
+#: networkdialog.cpp:142
 msgid "Connecting to remote host..."
 msgstr ""
 
-#: networkdialog.cpp:148
+#: networkdialog.cpp:149
 #, fuzzy
 #| msgid "Waiting for an answer..."
 msgid "Waiting for an incoming connection..."
 msgstr "సమాధానం కొరకు వేచియున్నాను ..."
 
-#: networkdialog.cpp:169
+#: networkdialog.cpp:170
 msgid "Could not connect to host"
 msgstr ""
 
-#: playfield.cpp:69
+#: playfield.cpp:71
 msgid "Shots"
 msgstr "పేలుళ్లు"
 
-#: playfield.cpp:70
+#: playfield.cpp:72
 msgid "Hits"
 msgstr "తగిలినవి"
 
-#: playfield.cpp:71
+#: playfield.cpp:73
 msgid "Misses"
 msgstr ""
 
-#: playfield.cpp:151
+#: playfield.cpp:193
 msgid "You win!"
 msgstr ""
 
-#: playfield.cpp:154
+#: playfield.cpp:196
 #, fuzzy
 #| msgid "You lost the game. :("
 msgid "You lose."
 msgstr "మీరు ఆట ఓడిపోయారు :("
 
-#: playfield.cpp:172
+#: playfield.cpp:226
 #, fuzzy
 #| msgid "Restart"
 msgid "Restart game"
 msgstr "మరల మొదలుపెట్టు"
 
-#: playfield.cpp:173
+#: playfield.cpp:227
 msgid "Your opponent has requested to restart the game. Do you accept?"
+msgstr ""
+
+#: playfield.cpp:236
+msgid ""
+"Your opponent is using pre-KDE4 version of KBattleship. Note that, according "
+"to the rules enforced by old clients, ships cannot be placed adjacent to one "
+"another."
+msgstr ""
+
+#: playfield.cpp:249
+#, fuzzy
+#| msgid "Enemy has shot. Shoot now."
+msgid "Enemy has shot. Shoot now!"
+msgstr "సెత్రువు పేల్చడు. ఇప్పుడు మీరే పేల్చాలి"
+
+#: playfield.cpp:253
+#, fuzzy
+#| msgid "Waiting for an answer..."
+msgid "Waiting for enemy to shoot..."
+msgstr "సమాధానం కొరకు వేచియున్నాను ..."
+
+#: playfield.cpp:262
+msgid "Ships placed. Now shoot on the enemy field!"
+msgstr ""
+
+#: playfield.cpp:265
+#, fuzzy
+#| msgid "Waiting for a player..."
+msgid "Waiting for other player to start the game..."
+msgstr "ఆటగాడి కొరకు వేచియున్నాను..."
+
+#: playfield.cpp:269
+#, fuzzy
+#| msgid "Waiting for a player..."
+msgid "Waiting for other player to place his ships..."
+msgstr "ఆటగాడి కొరకు వేచియున్నాను..."
+
+#: playfield.cpp:278
+msgid "Place your ships. Use the right mouse button to rotate them."
 msgstr ""
 
 #. i18n: tag label
@@ -128,74 +311,76 @@ msgstr ""
 #. i18n: file kbattleship.kcfg line 22
 #: rc.cpp:16
 #, no-c-format
-msgid "Wheter sound effects should be played."
+msgid "Whether sound effects should be played."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file kbattleship.kcfg line 26
+#: rc.cpp:20
+#, no-c-format
+msgid "Game difficulty."
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file kbattleshipui.rc line 6
-#: rc.cpp:20
-#, fuzzy, no-c-format
-#| msgid "&Game name:"
-msgid "&Game"
-msgstr "(&G) ఆట పేరు:"
-
-#. i18n: tag text
-#. i18n: file kbattleshipui.rc line 10
+#. i18n: file kbattleshipui.rc line 20
 #: rc.cpp:24
 #, no-c-format
-msgid "&Settings"
+msgid "Game Toolbar"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file preferences.ui line 16
-#: rc.cpp:28
-#, no-c-format
-msgid "Enable &sounds"
-msgstr ""
-
-#: rc.cpp:33
+#: rc.cpp:25
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: rc.cpp:34
+#: rc.cpp:26
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: controller.cpp:47
+#: controller.cpp:50
 #, fuzzy
 #| msgid "Computer Player"
 msgid "Computer"
 msgstr "కంప్యుటర్ ఆటగాడు"
 
-#: mainwindow.cpp:77
-msgid "Main page"
+#: mainwindow.cpp:75
+#, fuzzy
+#| msgid "S&ingle Player"
+msgid "&Single Player"
+msgstr "(&i) ఒకే ఆటగాడు"
+
+#: mainwindow.cpp:78
+msgid "&Host Game..."
 msgstr ""
 
-#: playerentity.cpp:86
-msgid "Place your ships. Use the right mouse button to rotate them."
+#: mainwindow.cpp:81
+msgid "&Connect to game..."
 msgstr ""
 
-#: playerentity.cpp:169
+#: mainwindow.cpp:84
+msgid "Change &nickname..."
+msgstr ""
+
+#: mainwindow.cpp:87
+#, fuzzy
+#| msgid "&Play Sounds"
+msgid "&Play sounds"
+msgstr "(&P) శబ్ధాలను వాడండి"
+
+#: playerentity.cpp:167
 #, qt-format
 msgid "Your opponent is now known as %1"
 msgstr ""
 
-#: playerentity.cpp:179
-msgid "Ships placed. Now shoot on the enemy field!"
-msgstr ""
-
-#: playerentity.cpp:184
+#: playerentity.cpp:172
 msgid "Your opponent disconnected from the game"
 msgstr ""
 
-#: playerentity.cpp:196
-msgid ""
-"Your opponent is using pre-KDE4 version of KBattleship. Note that, according "
-"to the rules enforced by old clients, ships cannot be placed adjacent to one "
-"another."
-msgstr ""
+#, fuzzy
+#~| msgid "&Game name:"
+#~ msgid "&Game"
+#~ msgstr "(&G) ఆట పేరు:"
 
 #~ msgid ""
 #~ "_: NAME OF TRANSLATORS\n"
@@ -228,9 +413,6 @@ msgstr ""
 
 #~ msgid "&Enemy Info"
 #~ msgstr "(&E) శత్రువు సమచారం"
-
-#~ msgid "&Play Sounds"
-#~ msgstr "(&P) శబ్ధాలను వాడండి"
 
 #~ msgid "Sending Message..."
 #~ msgstr "సందేశాన్ని పంపుతున్నాను..."
@@ -268,9 +450,6 @@ msgstr ""
 #~ msgid "&Stop server"
 #~ msgstr "(&S) సెర్వర్ ను ఆపివేయి"
 
-#~ msgid "Waiting for a player..."
-#~ msgstr "ఆటగాడి కొరకు వేచియున్నాను..."
-
 #~ msgid "Start Game"
 #~ msgstr "ఆటను మొదలుపెట్టు"
 
@@ -279,9 +458,6 @@ msgstr ""
 
 #~ msgid "&Stop game"
 #~ msgstr "(&S) ఆటను ఆపివేయి"
-
-#~ msgid "Enemy has shot. Shoot now."
-#~ msgstr "సెత్రువు పేల్చడు. ఇప్పుడు మీరే పేల్చాలి"
 
 #~ msgid "The connection broke down!"
 #~ msgstr "సంబంధం తెగిపోయినది!"
@@ -303,15 +479,6 @@ msgstr ""
 
 #~ msgid "Start Server"
 #~ msgstr "సెర్వర్ ను మొదలుపెట్టు"
-
-#~ msgid "Icon"
-#~ msgstr "ప్రతిమ"
-
-#~ msgid "Sounds"
-#~ msgstr "శబ్దాలు"
-
-#~ msgid "GFX"
-#~ msgstr "జి ఎఫ్ ఎక్స్"
 
 #~ msgid "Enter a message here"
 #~ msgstr "ఇక్కడ సందేశం వ్రాయండి"
