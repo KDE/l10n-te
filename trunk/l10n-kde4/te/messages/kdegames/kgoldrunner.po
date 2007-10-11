@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kgoldrunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-10 05:31+0200\n"
+"POT-Creation-Date: 2007-10-11 05:40+0200\n"
 "PO-Revision-Date: 2007-07-14 13:32+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1883,12 +1883,14 @@ msgid "   Level: "
 msgstr "   స్థాయి: "
 
 #: src/kgoldrunner.cpp:675
-#, qt-format
+#, kde-format
+#| msgid "Press \"%1\" to RESUME"
 msgid "Press \"%1\" to RESUME"
 msgstr ""
 
 #: src/kgoldrunner.cpp:678
-#, qt-format
+#, kde-format
+#| msgid "Press \"%1\" to PAUSE"
 msgid "Press \"%1\" to PAUSE"
 msgstr ""
 
@@ -1916,28 +1918,40 @@ msgid "Get Folders"
 msgstr ""
 
 #: src/kgoldrunner.cpp:958
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Cannot find documentation sub-folder 'en/%1/' in area '%2' of the KDE "
+#| "folder ($KDEDIRS)."
 msgid ""
 "Cannot find documentation sub-folder 'en/%1/' in area '%2' of the KDE folder "
 "($KDEDIRS)."
 msgstr ""
 
 #: src/kgoldrunner.cpp:970
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Cannot find system games sub-folder '%1/system/' in area '%2' of the KDE "
+#| "folder ($KDEDIRS)."
 msgid ""
 "Cannot find system games sub-folder '%1/system/' in area '%2' of the KDE "
 "folder ($KDEDIRS)."
 msgstr ""
 
 #: src/kgoldrunner.cpp:983
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Cannot find or create user games sub-folder '%1/user/' in area '%2' of "
+#| "the KDE user area ($KDEHOME)."
 msgid ""
 "Cannot find or create user games sub-folder '%1/user/' in area '%2' of the "
 "KDE user area ($KDEHOME)."
 msgstr ""
 
 #: src/kgoldrunner.cpp:992
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Cannot find or create 'levels/' folder in sub-folder '%1/user/' in the "
+#| "KDE user area ($KDEHOME)."
 msgid ""
 "Cannot find or create 'levels/' folder in sub-folder '%1/user/' in the KDE "
 "user area ($KDEHOME)."
@@ -2133,14 +2147,14 @@ msgid "Championship"
 msgstr ""
 
 #: src/kgrdialog.cpp:373
-#, qt-format
+#, kde-format
 msgid "1 level, uses KGoldrunner rules."
 msgid_plural "%1 levels, uses KGoldrunner rules."
 msgstr[0] ""
 msgstr[1] ""
 
 #: src/kgrdialog.cpp:376
-#, qt-format
+#, kde-format
 msgid "1 level, uses Traditional rules."
 msgid_plural "%1 levels, uses Traditional rules."
 msgstr[0] ""
@@ -2290,7 +2304,7 @@ msgid "Create Game"
 msgstr ""
 
 #: src/kgrdialog.cpp:638
-#, qt-format
+#, kde-format
 msgid "1 level"
 msgid_plural "%1 levels"
 msgstr[0] ""
@@ -2333,7 +2347,10 @@ msgid "&Finish"
 msgstr "(&M) అర్ద రాత్రి"
 
 #: src/kgrgame.cpp:227
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<b>CONGRATULATIONS !!!!</b><p>You have conquered the last level in the <b>"
+#| "\"%1\"</b> game !!</p>"
 msgid ""
 "<b>CONGRATULATIONS !!!!</b><p>You have conquered the last level in the <b>\"%"
 "1\"</b> game !!</p>"
@@ -2344,7 +2361,8 @@ msgid "Start Tutorial"
 msgstr ""
 
 #: src/kgrgame.cpp:430
-#, qt-format
+#, kde-format
+#| msgid "Cannot find the tutorial game (file-prefix '%1') in the '%2' files."
 msgid "Cannot find the tutorial game (file-prefix '%1') in the '%2' files."
 msgstr ""
 
@@ -2361,18 +2379,21 @@ msgid "Read Level Data"
 msgstr ""
 
 #: src/kgrgame.cpp:555
-#, qt-format
+#, kde-format
+#| msgid "Cannot find file '%1'."
 msgid "Cannot find file '%1'."
 msgstr ""
 
 #: src/kgrgame.cpp:560 src/kgrgame.cpp:863 src/kgrgame.cpp:928
 #: src/kgrgame.cpp:1042 src/kgrgame.cpp:1243 src/kgrgame.cpp:2599
-#, qt-format
+#, kde-format
+#| msgid "Cannot open file '%1' for read-only."
 msgid "Cannot open file '%1' for read-only."
 msgstr ""
 
 #: src/kgrgame.cpp:564
-#, qt-format
+#, kde-format
+#| msgid "Reached end of file '%1' without finding level data."
 msgid "Reached end of file '%1' without finding level data."
 msgstr ""
 
@@ -2386,7 +2407,10 @@ msgid "Save Game"
 msgstr ""
 
 #: src/kgrgame.cpp:825
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Sorry, you cannot save your game play while you are editing. Please try "
+#| "menu item \"%1\"."
 msgid ""
 "Sorry, you cannot save your game play while you are editing. Please try menu "
 "item \"%1\"."
@@ -2400,7 +2424,8 @@ msgstr ""
 
 #: src/kgrgame.cpp:853 src/kgrgame.cpp:1081 src/kgrgame.cpp:1683
 #: src/kgrgame.cpp:2640
-#, qt-format
+#, kde-format
+#| msgid "Cannot open file '%1' for output."
 msgid "Cannot open file '%1' for output."
 msgstr ""
 
@@ -2417,12 +2442,14 @@ msgid "Rename File"
 msgstr ""
 
 #: src/kgrgame.cpp:899
-#, qt-format
+#, kde-format
+#| msgid "Cannot delete previous version of file '%1'."
 msgid "Cannot delete previous version of file '%1'."
 msgstr ""
 
 #: src/kgrgame.cpp:906
-#, qt-format
+#, kde-format
+#| msgid "Cannot rename file '%1' to '%2'."
 msgid "Cannot rename file '%1' to '%2'."
 msgstr ""
 
@@ -2435,7 +2462,8 @@ msgid "Sorry, there are no saved games."
 msgstr ""
 
 #: src/kgrgame.cpp:979
-#, qt-format
+#, kde-format
+#| msgid "Cannot find the game with prefix '%1'."
 msgid "Cannot find the game with prefix '%1'."
 msgstr ""
 
@@ -2471,12 +2499,16 @@ msgid "Sorry, we do not keep high scores for tutorial games."
 msgstr ""
 
 #: src/kgrgame.cpp:1234
-#, qt-format
+#, kde-format
+#| msgid "Sorry, there are no high scores for the \"%1\" game yet."
 msgid "Sorry, there are no high scores for the \"%1\" game yet."
 msgstr ""
 
 #: src/kgrgame.cpp:1258
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<center><h2>KGoldrunner Hall of Fame</h2></center><center><h3>\"%1\" "
+#| "Game</h3></center>"
 msgid ""
 "<center><h2>KGoldrunner Hall of Fame</h2></center><center><h3>\"%1\" Game</"
 "h3></center>"
@@ -2570,7 +2602,9 @@ msgid "Editor"
 msgstr ""
 
 #: src/kgrgame.cpp:1738
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "You must first load a level to be moved. Use the \"%1\" or \"%2\" menu."
 msgid "You must first load a level to be moved. Use the \"%1\" or \"%2\" menu."
 msgstr ""
 
@@ -2603,7 +2637,8 @@ msgid "&Delete Level"
 msgstr ""
 
 #: src/kgrgame.cpp:1876
-#, qt-format
+#, kde-format
+#| msgid "Cannot find file '%1' to be deleted."
 msgid "Cannot find file '%1' to be deleted."
 msgstr ""
 
@@ -2630,7 +2665,8 @@ msgid "The filename prefix should be all alphabetic characters."
 msgstr ""
 
 #: src/kgrgame.cpp:1980
-#, qt-format
+#, kde-format
+#| msgid "The filename prefix '%1' is already in use."
 msgid "The filename prefix '%1' is already in use."
 msgstr ""
 
@@ -2663,7 +2699,8 @@ msgid "Sorry, you can only edit the game information on your own games."
 msgstr ""
 
 #: src/kgrgame.cpp:2283
-#, qt-format
+#, kde-format
+#| msgid "There is no level %1 in %2, so you cannot play or edit it."
 msgid "There is no level %1 in %2, so you cannot play or edit it."
 msgstr ""
 
@@ -2673,29 +2710,37 @@ msgid "Check Games & Levels"
 msgstr ""
 
 #: src/kgrgame.cpp:2512
-#, qt-format
+#, kde-format
+#| msgid "There is no folder '%1' to hold levels for the '%2' game."
 msgid "There is no folder '%1' to hold levels for the '%2' game."
 msgstr ""
 
 #: src/kgrgame.cpp:2524
-#, qt-format
+#, kde-format
+#| msgid "There are no files '%1/%2???.grl' for the %3 game."
 msgid "There are no files '%1/%2???.grl' for the %3 game."
 msgstr ""
 
 #: src/kgrgame.cpp:2548
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "File '%1' is beyond the highest level for the %2 game and cannot be "
+#| "played."
 msgid ""
 "File '%1' is beyond the highest level for the %2 game and cannot be played."
 msgstr ""
 
 #: src/kgrgame.cpp:2561
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "File '%1' is before the lowest level for the %2 game and cannot be played."
 msgid ""
 "File '%1' is before the lowest level for the %2 game and cannot be played."
 msgstr ""
 
 #: src/kgrgame.cpp:2570
-#, qt-format
+#, kde-format
+#| msgid "Cannot find file '%1' for the %2 game."
 msgid "Cannot find file '%1' for the %2 game."
 msgstr ""
 
@@ -2704,12 +2749,14 @@ msgid "Load Game Info"
 msgstr ""
 
 #: src/kgrgame.cpp:2592
-#, qt-format
+#, kde-format
+#| msgid "Cannot find game info file '%1'."
 msgid "Cannot find game info file '%1'."
 msgstr ""
 
 #: src/kgrgame.cpp:2604
-#, qt-format
+#, kde-format
+#| msgid "Reached end of file '%1' before finding end of game-data."
 msgid "Reached end of file '%1' before finding end of game-data."
 msgstr ""
 

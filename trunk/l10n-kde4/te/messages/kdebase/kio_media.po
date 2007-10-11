@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_media\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-06 05:38+0200\n"
+"POT-Creation-Date: 2007-10-11 05:40+0200\n"
 "PO-Revision-Date: 2007-03-10 13:26+0000\n"
 "Last-Translator: Vijay Kiran Kamuju <infyquest@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -65,12 +65,13 @@ msgid "The KDE mediamanager is not running."
 msgstr ""
 
 #: mounthelper/kio_media_mounthelper.cpp:59
-#, qt-format
+#, kde-format
 msgid "%1 cannot be found."
 msgstr "%1 కనపడుట లేదు"
 
 #: mounthelper/kio_media_mounthelper.cpp:66
-#, qt-format
+#, kde-format
+#| msgid "%1 is not a mountable media."
 msgid "%1 is not a mountable media."
 msgstr ""
 
@@ -258,26 +259,35 @@ msgid "Configure"
 msgstr ""
 
 #: medianotifier/medianotifier.cpp:207
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "An autorun file as been found on your '%1'. Do you want to execute it?\n"
+#| "Note that executing a file on a medium may compromise your system's "
+#| "security"
 msgid ""
 "An autorun file as been found on your '%1'. Do you want to execute it?\n"
 "Note that executing a file on a medium may compromise your system's security"
 msgstr ""
 
 #: medianotifier/medianotifier.cpp:211
-#, qt-format
+#, kde-format
+#| msgid "Autorun - %1"
 msgid "Autorun - %1"
 msgstr ""
 
 #: medianotifier/medianotifier.cpp:276
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "An autoopen file as been found on your '%1'. Do you want to open '%2'?\n"
+#| "Note that opening a file on a medium may compromise your system's security"
 msgid ""
 "An autoopen file as been found on your '%1'. Do you want to open '%2'?\n"
 "Note that opening a file on a medium may compromise your system's security"
 msgstr ""
 
 #: medianotifier/medianotifier.cpp:280
-#, qt-format
+#, kde-format
+#| msgid "Autoopen - %1"
 msgid "Autoopen - %1"
 msgstr ""
 

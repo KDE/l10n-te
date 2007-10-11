@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kbackgammon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-10 05:31+0200\n"
+"POT-Creation-Date: 2007-10-11 05:40+0200\n"
 "PO-Revision-Date: 2007-07-16 20:18+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -143,7 +143,11 @@ msgid "Save settings on exit"
 msgstr ""
 
 #: kbg.cpp:642
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Event notification of %1 is configured as part of the system-wide "
+#| "notification process. Click here, and you will be able to configure "
+#| "system sounds, etc."
 msgid ""
 "Event notification of %1 is configured as part of the system-wide "
 "notification process. Click here, and you will be able to configure system "
@@ -155,7 +159,7 @@ msgid "Click here to configure the event notification"
 msgstr ""
 
 #: kbg.cpp:723
-#, qt-format
+#, kde-format
 msgid "Print %1"
 msgstr "%1 ప్రచురించు"
 
@@ -296,7 +300,7 @@ msgid ""
 msgstr ""
 
 #: engines/fibs/kbgfibschat.cpp:212
-#, qt-format
+#, kde-format
 msgid "%1 user"
 msgstr "%1 యూజర్"
 
@@ -414,64 +418,64 @@ msgstr "(&P) ఆటగాళ్ళ జాబితా"
 
 #: engines/fibs/kbgfibschat.cpp:484 engines/fibs/kbgfibschat.cpp:510
 #: engines/fibs/kplayerlist.cpp:603
-#, qt-format
+#, kde-format
 msgid "Talk to %1"
 msgstr "%1 తొ మాట్లాడు"
 
 #: engines/fibs/kbgfibschat.cpp:587
-#, qt-format
+#, kde-format
 msgid "<u>%1 tells you:</u> %2"
 msgstr "<u>%1 చెబుతున్నడు:</u> %2"
 
 #: engines/fibs/kbgfibschat.cpp:596
-#, qt-format
+#, kde-format
 msgid "<u>%1 shouts:</u> %2"
 msgstr "<u>%1 అరుస్తున్నాడు:</u> %2"
 
 #: engines/fibs/kbgfibschat.cpp:604
-#, qt-format
+#, kde-format
 msgid "<u>%1 whispers:</u> %2"
 msgstr "<u>%1 గుస గుసలాడుతున్నాడు</u> %2"
 
 #: engines/fibs/kbgfibschat.cpp:613
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "<u>%1 whispers:</u> %2"
 msgid "<u>%1 kibitzes:</u> %2"
 msgstr "<u>%1 గుస గుసలాడుతున్నాడు</u> %2"
 
 #: engines/fibs/kbgfibschat.cpp:621
-#, qt-format
+#, kde-format
 msgid "<u>You tell %1:</u> %2"
 msgstr "<u>మీరు చెబుతున్నరు %1:</u> %2"
 
 #: engines/fibs/kbgfibschat.cpp:628
-#, qt-format
+#, kde-format
 msgid "<u>You shout:</u> %1"
 msgstr "<u>మీరు అరుస్తున్నారు:</u> %1"
 
 #: engines/fibs/kbgfibschat.cpp:635
-#, qt-format
+#, kde-format
 msgid "<u>You whisper:</u> %1"
 msgstr "<u>మీరు గుస గుసలాడుతున్నాడు</u> %1"
 
 #: engines/fibs/kbgfibschat.cpp:642
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "<u>You shout:</u> %1"
 msgid "<u>You kibitz:</u> %1"
 msgstr "<u>మీరు అరుస్తున్నారు:</u> %1"
 
 #: engines/fibs/kbgfibschat.cpp:653
-#, qt-format
+#, kde-format
 msgid "<u>User %1 left a message at %2</u>: %3"
 msgstr "<u>యూజర్ %1 సందేశం %2 లొ పెట్టాడు</u>: %3"
 
 #: engines/fibs/kbgfibschat.cpp:660
-#, qt-format
+#, kde-format
 msgid "Your message for %1 has been delivered."
 msgstr "%1 కొరకు మీ సందేశం అందించడమైనది"
 
 #: engines/fibs/kbgfibschat.cpp:667
-#, qt-format
+#, kde-format
 msgid "Your message for %1 has been saved."
 msgstr "%1 కొరకు మీ సందేశం దాచబడింది"
 
@@ -484,13 +488,13 @@ msgid "The gag list is now empty."
 msgstr ""
 
 #: engines/fibs/kbgfibschat.cpp:780
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "You will not hear what people shout."
 msgid "You will not hear what %1 says and shouts."
 msgstr "ఎవరు ఏమి అరిచిన మీకు వినబడదు."
 
 #: engines/fibs/kbgfibschat.cpp:802
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "You will not hear what people shout."
 msgid "You will again hear what %1 says and shouts."
 msgstr "ఎవరు ఏమి అరిచిన మీకు వినబడదు."
@@ -630,7 +634,12 @@ msgid "Keep connections alive"
 msgstr ""
 
 #: engines/fibs/kbgfibs.cpp:355
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Usually, FIBS drops the connection after one hour of inactivity. When you "
+#| "check this box, %1 will try to keep the connection alive, even if you are "
+#| "not actually playing or chatting. Use this with caution if you do not "
+#| "have flat-rate Internet access."
 msgid ""
 "Usually, FIBS drops the connection after one hour of inactivity. When you "
 "check this box, %1 will try to keep the connection alive, even if you are "
@@ -649,33 +658,42 @@ msgid "&Buddy List"
 msgstr "(&B) స్నేహితుల జాబితా"
 
 #: engines/fibs/kbgfibs.cpp:449
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "%1 vs. %2"
 msgctxt "R means resume"
 msgid "%1 (R)"
 msgstr "%1 vs. %2"
 
 #: engines/fibs/kbgfibs.cpp:450
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "%1 (experience %2, rating %3) wants to resume a saved match with you. If "
+#| "you want to play, use the corresponding menu entry to join (or type 'join "
+#| "%4')."
 msgid ""
 "%1 (experience %2, rating %3) wants to resume a saved match with you. If you "
 "want to play, use the corresponding menu entry to join (or type 'join %4')."
 msgstr ""
 
 #: engines/fibs/kbgfibs.cpp:453
-#, qt-format
+#, kde-format
+#| msgid "%1 wants to resume a saved match with you"
 msgid "%1 wants to resume a saved match with you"
 msgstr ""
 
 #: engines/fibs/kbgfibs.cpp:456
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "%1 vs. %2"
 msgctxt "U means unlimited"
 msgid "%1 (U)"
 msgstr "%1 vs. %2"
 
 #: engines/fibs/kbgfibs.cpp:457
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "%1 (experience %2, rating %3) wants to play an unlimited match with you. "
+#| "If you want to play, use the corresponding menu entry to join (or type "
+#| "'join %4')."
 msgid ""
 "%1 (experience %2, rating %3) wants to play an unlimited match with you. If "
 "you want to play, use the corresponding menu entry to join (or type 'join %"
@@ -683,13 +701,13 @@ msgid ""
 msgstr ""
 
 #: engines/fibs/kbgfibs.cpp:460
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "%1 has invited you for a %2 point match"
 msgid "%1 has invited you to an unlimited match"
 msgstr "%2 పాయింట్ల ఆటకు %1 మిమ్మలని ఆహ్వానించాడు"
 
 #: engines/fibs/kbgfibs.cpp:465
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "%1 vs. %2"
 msgctxt ""
 "If the format of the (U) and (R) strings is changed, it should also be "
@@ -698,7 +716,11 @@ msgid "%1 (%2)"
 msgstr "%1 vs. %2"
 
 #: engines/fibs/kbgfibs.cpp:466
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "%1 (experience %2, rating %3) wants to play a %4 point match with you. If "
+#| "you want to play, use the corresponding menu entry to join (or type 'join "
+#| "%5')."
 msgid ""
 "%1 (experience %2, rating %3) wants to play a %4 point match with you. If "
 "you want to play, use the corresponding menu entry to join (or type 'join %"
@@ -706,7 +728,7 @@ msgid ""
 msgstr ""
 
 #: engines/fibs/kbgfibs.cpp:469
-#, qt-format
+#, kde-format
 msgid "%1 has invited you for a %2 point match"
 msgstr "%2 పాయింట్ల ఆటకు %1 మిమ్మలని ఆహ్వానించాడు"
 
@@ -735,12 +757,12 @@ msgid ""
 msgstr ""
 
 #: engines/fibs/kbgfibs.cpp:901
-#, qt-format
+#, kde-format
 msgid "Looking up %1"
 msgstr "%1 కొరకు వెతుకుతున్నా"
 
 #: engines/fibs/kbgfibs.cpp:912
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "Wrong Login/Password"
 msgid "Connecting to %1"
 msgstr "తప్పు లాగిన్/పాస్ వర్డు"
@@ -789,7 +811,14 @@ msgid ""
 msgstr ""
 
 #: engines/fibs/kbgfibs.cpp:1099
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Enter the login you would like to use on the server %1. The login may "
+#| "not\n"
+#| "contain spaces or colons. If the login you choose is not available, "
+#| "you'll later be\n"
+#| "given the opportunity to pick another one.\n"
+#| "\n"
 msgid ""
 "Enter the login you would like to use on the server %1. The login may not\n"
 "contain spaces or colons. If the login you choose is not available, you'll "
@@ -799,7 +828,11 @@ msgid ""
 msgstr ""
 
 #: engines/fibs/kbgfibs.cpp:1105
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Enter your login on the server %1. If you do not have a login, you\n"
+#| "should create one using the corresponding menu option.\n"
+#| "\n"
 msgid ""
 "Enter your login on the server %1. If you do not have a login, you\n"
 "should create one using the corresponding menu option.\n"
@@ -815,7 +848,11 @@ msgid "The login may not contain spaces or colons!"
 msgstr ""
 
 #: engines/fibs/kbgfibs.cpp:1129
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Enter the password you would like to use with the login %1\n"
+#| "on the server %2. It may not contain colons.\n"
+#| "\n"
 msgid ""
 "Enter the password you would like to use with the login %1\n"
 "on the server %2. It may not contain colons.\n"
@@ -823,7 +860,10 @@ msgid ""
 msgstr ""
 
 #: engines/fibs/kbgfibs.cpp:1135
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Enter the password for the login %1 on the server %2.\n"
+#| "\n"
 msgid ""
 "Enter the password for the login %1 on the server %2.\n"
 "\n"
@@ -856,7 +896,8 @@ msgid "Reconnect"
 msgstr "తిరస్కరించు"
 
 #: engines/fibs/kbgfibs.cpp:1468
-#, qt-format
+#, kde-format
+#| msgid "%1, last logged in from %2 at %3."
 msgid "%1, last logged in from %2 at %3."
 msgstr ""
 
@@ -884,7 +925,11 @@ msgid ""
 msgstr ""
 
 #: engines/fibs/kbgfibs.cpp:1641
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Your account has been created. Your new login is <u>%1</u>. To fully "
+#| "activate this account, I will now close the connection. Once you "
+#| "reconnect, you can start playing backgammon on FIBS."
 msgid ""
 "Your account has been created. Your new login is <u>%1</u>. To fully "
 "activate this account, I will now close the connection. Once you reconnect, "
@@ -892,18 +937,18 @@ msgid ""
 msgstr ""
 
 #: engines/fibs/kbgfibs.cpp:1769
-#, qt-format
+#, kde-format
 msgid "%1 (%2) vs. %3 (%4) - game over"
 msgstr "%1 (%2) vs. %3 (%4) - ఆట అయిపొయింది."
 
 #: engines/fibs/kbgfibs.cpp:1772
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "%1 (%2) vs. %3 (%4) - %5 point match"
 msgid "%1 (%2) vs. %3 (%4) - unlimited match"
 msgstr "%1 (%2) vs. %3 (%4) - %5 పాయింట్ల ఆట"
 
 #: engines/fibs/kbgfibs.cpp:1775
-#, qt-format
+#, kde-format
 msgid "%1 (%2) vs. %3 (%4) - %5 point match"
 msgstr "%1 (%2) vs. %3 (%4) - %5 పాయింట్ల ఆట"
 
@@ -1145,48 +1190,51 @@ msgid "&Playerlist"
 msgstr "(&P) ఆటగాళ్ళ జాబిత"
 
 #: engines/fibs/kplayerlist.cpp:602
-#, qt-format
+#, kde-format
 msgid "Info on %1"
 msgstr "%1 గురించిన సమాచారం"
 
 #: engines/fibs/kplayerlist.cpp:604
-#, qt-format
+#, kde-format
 msgid "Email to %1"
 msgstr "%1 కు ఈమెయిల్ పంపించు"
 
 #: engines/fibs/kplayerlist.cpp:605
-#, qt-format
+#, kde-format
 msgid "Look at %1"
 msgstr "%1 ను చూడు"
 
 #: engines/fibs/kplayerlist.cpp:606
-#, qt-format
+#, kde-format
+#| msgid "Watch %1"
 msgid "Watch %1"
 msgstr ""
 
 #: engines/fibs/kplayerlist.cpp:607
-#, qt-format
+#, kde-format
+#| msgid "Update %1"
 msgid "Update %1"
 msgstr ""
 
 #: engines/fibs/kplayerlist.cpp:620
-#, qt-format
+#, kde-format
 msgid "Invite %1"
 msgstr "%1 ఆహ్వానం"
 
 #: engines/fibs/kplayerlist.cpp:628
-#, qt-format
+#, kde-format
+#| msgid "Unblind %1"
 msgid "Unblind %1"
 msgstr ""
 
 #: engines/fibs/kplayerlist.cpp:628
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "Blind"
 msgid "Blind %1"
 msgstr "గుడ్డి"
 
 #: engines/fibs/kplayerlist.cpp:919
-#, qt-format
+#, kde-format
 msgid "Player List - %1 - %2/%3"
 msgstr "ఆటగాళ్ళ జాబిత - %1 - %2/%3"
 
@@ -1213,7 +1261,8 @@ msgid ""
 msgstr ""
 
 #: engines/gnubg/kbggnubg.cpp:129
-#, qt-format
+#, kde-format
+#| msgid "gnubg doubles the cube to %1."
 msgid "gnubg doubles the cube to %1."
 msgstr ""
 
@@ -1242,7 +1291,7 @@ msgid "Please roll."
 msgstr ""
 
 #: engines/gnubg/kbggnubg.cpp:197
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "Players are %1 and %2"
 msgid "You roll %1 and %2."
 msgstr "ఆటగాళ్లు %1 మరియు %2"
@@ -1252,12 +1301,14 @@ msgid "Please move 1 piece."
 msgstr ""
 
 #: engines/gnubg/kbggnubg.cpp:206
-#, qt-format
+#, kde-format
+#| msgid "Please move %1 pieces."
 msgid "Please move %1 pieces."
 msgstr ""
 
 #: engines/gnubg/kbggnubg.cpp:218
-#, qt-format
+#, kde-format
+#| msgid "gnubg rolls %1 and %2."
 msgid "gnubg rolls %1 and %2."
 msgstr ""
 
@@ -1267,7 +1318,7 @@ msgstr ""
 
 #: engines/gnubg/kbggnubg.cpp:234 engines/offline/kbgoffline.cpp:414
 #: engines/offline/kbgoffline.cpp:927
-#, qt-format
+#, kde-format
 msgid "%1 vs. %2"
 msgstr "%1 vs. %2"
 
@@ -1313,6 +1364,8 @@ msgid ""
 msgstr ""
 
 #: engines/gnubg/kbggnubg.cpp:536
+#, kde-format
+#| msgid "The GNU Backgammon process (%1) has exited wit code %1"
 msgid "The GNU Backgammon process (%1) has exited wit code %1"
 msgstr ""
 
@@ -1349,12 +1402,14 @@ msgid "Port Number"
 msgstr ""
 
 #: engines/nextgen/kbgng.cpp:156
-#, qt-format
+#, kde-format
+#| msgid "Now waiting for incoming connections on port %1."
 msgid "Now waiting for incoming connections on port %1."
 msgstr ""
 
 #: engines/nextgen/kbgng.cpp:159
-#, qt-format
+#, kde-format
+#| msgid "Failed to offer connections on port %1."
 msgid "Failed to offer connections on port %1."
 msgstr ""
 
@@ -1371,30 +1426,36 @@ msgid "Server Name"
 msgstr "సెర్వర్ పేరు:"
 
 #: engines/nextgen/kbgng.cpp:173
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Type the port number on %1 you want to connect to.\n"
+#| "The number should be between 1024 and 65535."
 msgid ""
 "Type the port number on %1 you want to connect to.\n"
 "The number should be between 1024 and 65535."
 msgstr ""
 
 #: engines/nextgen/kbgng.cpp:192
-#, qt-format
+#, kde-format
+#| msgid "Now connected to %1:%2."
 msgid "Now connected to %1:%2."
 msgstr ""
 
 #: engines/nextgen/kbgng.cpp:195
-#, qt-format
+#, kde-format
+#| msgid "Failed to connect to %1:%2."
 msgid "Failed to connect to %1:%2."
 msgstr ""
 
 #: engines/nextgen/kbgng.cpp:216 engines/nextgen/kbgng.cpp:217
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "Player %1 has changed the name to %2."
 msgid "Player %1 (%2) has joined the game."
 msgstr "%1 ఆటగాడి పేరు %2 కు మార్చుకున్నాడు"
 
 #: engines/nextgen/kbgng.cpp:225
-#, qt-format
+#, kde-format
+#| msgid "creating player. virtual=%1"
 msgid "creating player. virtual=%1"
 msgstr ""
 
@@ -1407,7 +1468,7 @@ msgid "two"
 msgstr "రెండు"
 
 #: engines/nextgen/kbgng.cpp:513
-#, qt-format
+#, kde-format
 msgid "Player %1 has changed the name to %2."
 msgstr "%1 ఆటగాడి పేరు %2 కు మార్చుకున్నాడు"
 
@@ -1426,7 +1487,7 @@ msgid "Type the name of the second player:"
 msgstr "రెండవ ఆటగాడి పేరు టైప్ చెయ్యండి"
 
 #: engines/nextgen/kbgng.cpp:574
-#, qt-format
+#, kde-format
 msgid "Players are %1 and %2"
 msgstr "ఆటగాళ్లు %1 మరియు %2"
 
@@ -1499,12 +1560,14 @@ msgid "A game is currently in progress.Starting a new one will terminate it."
 msgstr ""
 
 #: engines/offline/kbgoffline.cpp:393
-#, qt-format
+#, kde-format
+#| msgid "%1 rolls %2, %3 rolls %4."
 msgid "%1 rolls %2, %3 rolls %4."
 msgstr ""
 
 #: engines/offline/kbgoffline.cpp:398 engines/offline/kbgoffline.cpp:401
-#, qt-format
+#, kde-format
+#| msgid "%1 makes the first move."
 msgid "%1 makes the first move."
 msgstr ""
 
@@ -1528,24 +1591,26 @@ msgstr "(&P) ఆటగాళ్ల పేర్లు"
 
 #: engines/offline/kbgoffline.cpp:509 engines/offline/kbgoffline.cpp:772
 #: engines/offline/kbgoffline.cpp:783
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "1 Point Match"
 msgid "%1 wins the game. Congratulations!"
 msgstr "1 పాయింటు ఆట"
 
 #: engines/offline/kbgoffline.cpp:512
-#, qt-format
+#, kde-format
+#| msgid "Score: %1 to %2 of %3"
 msgid "Score: %1 to %2 of %3"
 msgstr ""
 
 #: engines/offline/kbgoffline.cpp:519
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "1 Point Match"
 msgid "%1 wins the match!"
 msgstr "1 పాయింటు ఆట"
 
 #: engines/offline/kbgoffline.cpp:538
-#, qt-format
+#, kde-format
+#| msgid "%1, please roll or double."
 msgid "%1, please roll or double."
 msgstr ""
 
@@ -1560,24 +1625,27 @@ msgid "Game over!"
 msgstr "ఆట అయిపోయింది!"
 
 #: engines/offline/kbgoffline.cpp:721
-#, qt-format
+#, kde-format
+#| msgid "%1, you cannot move."
 msgid "%1, you cannot move."
 msgstr ""
 
 #: engines/offline/kbgoffline.cpp:736
-#, qt-format
+#, kde-format
 msgid ", please move 1 piece."
 msgid_plural ", please move %1 pieces."
 msgstr[0] ""
 msgstr[1] ""
 
 #: engines/offline/kbgoffline.cpp:742
-#, qt-format
+#, kde-format
+#| msgid "%1 rolls %2, %3, and moves %4."
 msgid "%1 rolls %2, %3, and moves %4."
 msgstr ""
 
 #: engines/offline/kbgoffline.cpp:765
-#, qt-format
+#, kde-format
+#| msgid "%1 has doubled. %2, do you accept the double?"
 msgid "%1 has doubled. %2, do you accept the double?"
 msgstr ""
 
@@ -1586,12 +1654,14 @@ msgid "Doubling"
 msgstr "రెట్టింపు అయ్యింది"
 
 #: engines/offline/kbgoffline.cpp:775 engines/offline/kbgoffline.cpp:786
-#, qt-format
+#, kde-format
+#| msgid "Score: %1 to %2"
 msgid "Score: %1 to %2"
 msgstr ""
 
 #: engines/offline/kbgoffline.cpp:790
-#, qt-format
+#, kde-format
+#| msgid "%1 has accepted the double. The game continues."
 msgid "%1 has accepted the double. The game continues."
 msgstr ""
 
@@ -1600,12 +1670,14 @@ msgid "In the middle of a game. Really quit?"
 msgstr ""
 
 #: engines/offline/kbgoffline.cpp:853
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Text commands are not yet working. The command '%1' has been ignored."
 msgid "Text commands are not yet working. The command '%1' has been ignored."
 msgstr ""
 
 #: engines/offline/kbgoffline.cpp:923
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "%1 vs. %2"
 msgid "%1 vs. %2 - Edit Mode"
 msgstr "%1 vs. %2"
