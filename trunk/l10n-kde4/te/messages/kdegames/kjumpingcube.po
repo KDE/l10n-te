@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kjumpingcube\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-11 05:40+0200\n"
+"POT-Creation-Date: 2007-10-13 05:34+0200\n"
 "PO-Revision-Date: 2007-07-14 13:51+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -19,49 +19,59 @@ msgstr ""
 msgid "Current player:"
 msgstr "ప్రస్తుత ఆటగాడు:"
 
-#: kjumpingcube.cpp:107
-msgid "Stop &Thinking"
-msgstr "(&T) ఆలోచించటం ఆపు"
+#: kjumpingcube.cpp:108
+msgid "Stop"
+msgstr ""
 
-#: kjumpingcube.cpp:122
+#: kjumpingcube.cpp:109
+msgid "Force the computer to move immediately"
+msgstr ""
+
+#: kjumpingcube.cpp:111
+msgid ""
+"Stop the computer's calculation of its current move and force it to move "
+"immediately"
+msgstr ""
+
+#: kjumpingcube.cpp:128
 msgid "New Game"
 msgstr ""
 
-#: kjumpingcube.cpp:148
+#: kjumpingcube.cpp:154
 #, kde-format
 msgid ""
 "The file %1 exists.\n"
 "Do you want to overwrite it?"
 msgstr ""
 
-#: kjumpingcube.cpp:150
+#: kjumpingcube.cpp:156
 msgid "Overwrite"
 msgstr ""
 
-#: kjumpingcube.cpp:171
+#: kjumpingcube.cpp:177
 #, kde-format
 msgid "game saved as %1"
 msgstr ""
 
-#: kjumpingcube.cpp:176
+#: kjumpingcube.cpp:182
 #, kde-format
 msgid ""
 "There was an error in saving file\n"
 "%1"
 msgstr ""
 
-#: kjumpingcube.cpp:192
+#: kjumpingcube.cpp:198
 #, kde-format
 msgid "The file %1 does not exist!"
 msgstr "%1 దస్త్రం కనపడుట లేదు"
 
-#: kjumpingcube.cpp:206
+#: kjumpingcube.cpp:212
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist!"
 msgid "The file %1 is not a KJumpingCube gamefile!"
 msgstr "%1 దస్త్రం కనపడుట లేదు"
 
-#: kjumpingcube.cpp:221
+#: kjumpingcube.cpp:227
 #, kde-format
 msgid ""
 "There was an error loading file\n"
@@ -70,28 +80,28 @@ msgstr ""
 "దస్త్రం ఎక్కించుటలొ దొషం వచ్చింది\n"
 "%1"
 
-#: kjumpingcube.cpp:232
+#: kjumpingcube.cpp:238
 msgid "stopped activity"
 msgstr ""
 
-#: kjumpingcube.cpp:255
+#: kjumpingcube.cpp:261
 #, kde-format
 msgid "Winner is Player %1!"
 msgstr "%1 గెలిచాడు!"
 
-#: kjumpingcube.cpp:256
+#: kjumpingcube.cpp:262
 msgid "Winner"
 msgstr "గెలిచినవాడు"
 
-#: kjumpingcube.cpp:272
+#: kjumpingcube.cpp:278
 msgid "Performing move."
 msgstr ""
 
-#: kjumpingcube.cpp:278
+#: kjumpingcube.cpp:284
 msgid "Computing next move."
 msgstr ""
 
-#: kjumpingcube.cpp:290
+#: kjumpingcube.cpp:296
 msgid "General"
 msgstr "సామాన్యమైన"
 
@@ -199,7 +209,9 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file settings.ui line 58
 #: rc.cpp:30
-msgid "Board Color"
+#, fuzzy
+#| msgid "Board Color"
+msgid "Players' Colors"
 msgstr "పలక రంగు"
 
 #. i18n: tag string
@@ -301,6 +313,9 @@ msgstr ""
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
+
+#~ msgid "Stop &Thinking"
+#~ msgstr "(&T) ఆలోచించటం ఆపు"
 
 #~ msgid ""
 #~ "_: NAME OF TRANSLATORS\n"

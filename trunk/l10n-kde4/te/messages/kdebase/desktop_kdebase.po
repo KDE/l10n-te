@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-12 03:48+0000\n"
+"POT-Creation-Date: 2007-10-13 03:39+0000\n"
 "PO-Revision-Date: 2007-03-22 13:41+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -2566,7 +2566,6 @@ msgstr ""
 
 #: apps/konqueror/settings/konq/fileappearance.desktop:12
 #: apps/konqueror/settings/konq/webappearance.desktop:13
-#: workspace/kicker/settings/kicker_config_appearance.desktop:14
 #: workspace/systemsettings/categories/settings-appearance.desktop:9
 msgctxt "Name"
 msgid "Appearance"
@@ -2882,7 +2881,6 @@ msgstr "ఆడియొ సిడి బ్రౌజర్"
 
 #: apps/konqueror/sidebar/trees/init/services/media.desktop:6
 #: runtime/kioslave/media/kcmodule/media.desktop:14
-#: workspace/kicker/applets/media/mediaapplet.desktop:30
 msgctxt "Name"
 msgid "Storage Media"
 msgstr ""
@@ -2893,7 +2891,6 @@ msgid "Print System Browser"
 msgstr "ప్రచురణ వ్యవస్థ బ్రౌజర్"
 
 #: apps/konqueror/sidebar/trees/init/services/settings.desktop:6
-#: workspace/kicker/menuext/prefmenu/prefmenu.desktop:3
 #: workspace/menu/desktop/kde-settingsmenu.directory:4
 msgctxt "Name"
 msgid "Settings"
@@ -2901,7 +2898,6 @@ msgstr "అమరికలు"
 
 #: apps/konqueror/sidebar/trees/init/system.desktop:6
 #: workspace/kcontrol/krdb/kcs/System.kcsrc:19
-#: workspace/kicker/menuext/system/systemmenu.desktop:3
 #: workspace/menu/desktop/kde-system.directory:4
 #: workspace/systemsettings/categories/settings-system.desktop:9
 msgctxt "Name"
@@ -7549,7 +7545,6 @@ msgid ""
 msgstr ""
 
 #: workspace/kcontrol/taskbar/kcmtaskbar.desktop:14
-#: workspace/kicker/applets/taskbar/taskbarapplet.desktop:4
 msgctxt "Name"
 msgid "Taskbar"
 msgstr ""
@@ -8510,361 +8505,6 @@ msgstr ""
 #: workspace/khotkeys/kcontrol/khotkeys.desktop:72
 msgctxt "Comment"
 msgid "Configure Hotkey settings"
-msgstr ""
-
-#: workspace/kicker/applets/lockout/lockout.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Lock/Logout Buttons"
-msgctxt "Name"
-msgid "Lock/Logout Applet"
-msgstr "తాళం వెయి/లాగౌట్ బటన్లు"
-
-#: workspace/kicker/applets/lockout/lockout.desktop:32
-msgctxt "Comment"
-msgid "Adds buttons for locking screen and session logout"
-msgstr ""
-
-#: workspace/kicker/applets/media/mediaapplet.desktop:4
-msgctxt "Comment"
-msgid "A panel applet that displays your storage media"
-msgstr ""
-
-#: workspace/kicker/applets/menu/menuapplet.desktop:5
-msgctxt "Name"
-msgid "Menu"
-msgstr ""
-
-#: workspace/kicker/applets/menu/menuapplet.desktop:56
-msgctxt "Comment"
-msgid "Applet embedding standalone menubars"
-msgstr ""
-
-#: workspace/kicker/applets/minipager/minipagerapplet.desktop:4
-msgctxt "Name"
-msgid "Desktop Preview & Pager"
-msgstr "రంగస్థల ముందు వీక్షణం & పెజర్"
-
-#: workspace/kicker/applets/minipager/minipagerapplet.desktop:60
-msgctxt "Comment"
-msgid "A virtual desktop switching panel applet"
-msgstr ""
-
-#: workspace/kicker/applets/naughty/naughtyapplet.desktop:4
-msgctxt "Name"
-msgid "Runaway Process Catcher"
-msgstr ""
-
-#: workspace/kicker/applets/naughty/naughtyapplet.desktop:63
-msgctxt "Comment"
-msgid "Runaway process catcher for the KDE panel"
-msgstr ""
-
-#: workspace/kicker/applets/run/runapplet.desktop:4
-msgctxt "Name"
-msgid "Run Command"
-msgstr ""
-
-#: workspace/kicker/applets/run/runapplet.desktop:66
-msgctxt "Comment"
-msgid "A command line applet"
-msgstr ""
-
-#: workspace/kicker/applets/systemtray/systemtrayapplet.desktop:4
-msgctxt "Name"
-msgid "System Tray"
-msgstr "వ్యవస్థ ట్రె"
-
-#: workspace/kicker/applets/systemtray/systemtrayapplet.desktop:69
-msgctxt "Comment"
-msgid "The system tray panel applet"
-msgstr ""
-
-#: workspace/kicker/applets/taskbar/taskbarapplet.desktop:69
-msgctxt "Comment"
-msgid "The default taskbar panel applet"
-msgstr ""
-
-#: workspace/kicker/applets/trash/trashapplet.desktop:4
-msgctxt "Comment"
-msgid "Displays the trashbin and allows dropping files on it"
-msgstr ""
-
-#: workspace/kicker/applets/trash/trashapplet.desktop:30
-msgctxt "Name"
-msgid "Trash"
-msgstr "చెత్త బుట్ట"
-
-#: workspace/kicker/extensions/dockbar/dockbarextension.desktop:3
-msgctxt "Name"
-msgid "Dock Application Bar"
-msgstr ""
-
-#: workspace/kicker/extensions/dockbar/dockbarextension.desktop:62
-msgctxt "Comment"
-msgid "Dock application bar extension."
-msgstr ""
-
-#: workspace/kicker/extensions/kasbar/kasbarextension.desktop:3
-msgctxt "Name"
-msgid "KasBar"
-msgstr "కాస్ బార్"
-
-#: workspace/kicker/extensions/kasbar/kasbarextension.desktop:26
-msgctxt "Comment"
-msgid "An alternative taskbar panel applet."
-msgstr ""
-
-#: workspace/kicker/extensions/sidebar/sidebarextension.desktop:3
-msgctxt "Name"
-msgid "Universal Sidebar"
-msgstr ""
-
-#: workspace/kicker/extensions/sidebar/sidebarextension.desktop:64
-msgctxt "Comment"
-msgid "Wrapper around Konqueror's navigation panel"
-msgstr ""
-
-#: workspace/kicker/extensions/taskbar/taskbarextension.desktop:3
-msgctxt "Name"
-msgid "External Taskbar"
-msgstr ""
-
-#: workspace/kicker/extensions/taskbar/taskbarextension.desktop:68
-msgctxt "Comment"
-msgid "External taskbar panel extension."
-msgstr ""
-
-#: workspace/kicker/kicker/buttons/bookmarks.desktop:3
-msgctxt "Name"
-msgid "Bookmarks Menu"
-msgstr ""
-
-#: workspace/kicker/kicker/buttons/bookmarks.desktop:61
-msgctxt "Comment"
-msgid "Your Konqueror bookmarks"
-msgstr "మీ కాంకెరర్ పేజి గుర్తులు"
-
-#: workspace/kicker/kicker/buttons/browser.desktop:3
-msgctxt "Name"
-msgid "Quick File Browser"
-msgstr ""
-
-#: workspace/kicker/kicker/buttons/browser.desktop:58
-msgctxt "Comment"
-msgid "A menu that lists files in a given folder"
-msgstr ""
-
-#: workspace/kicker/kicker/buttons/desktop.desktop:3
-msgctxt "Name"
-msgid "Show Desktop"
-msgstr "రంగస్థలాన్ని చూపు"
-
-#: workspace/kicker/kicker/buttons/desktop.desktop:61
-msgctxt "Comment"
-msgid "A button that gives quick access to the desktop when pressed"
-msgstr ""
-
-#: workspace/kicker/kicker/buttons/exec.desktop:3
-msgctxt "Name"
-msgid "Non-KDE Application Launcher"
-msgstr ""
-
-#: workspace/kicker/kicker/buttons/exec.desktop:60
-msgctxt "Comment"
-msgid "A launcher for programs not in the K Menu"
-msgstr ""
-
-#: workspace/kicker/kicker/buttons/kmenu.desktop:3
-msgctxt "Name"
-msgid "K Menu"
-msgstr ""
-
-#: workspace/kicker/kicker/buttons/kmenu.desktop:61
-msgctxt "Comment"
-msgid "Applications and common actions"
-msgstr ""
-
-#: workspace/kicker/kicker/buttons/windowlist.desktop:3
-msgctxt "Name"
-msgid "Window List Menu"
-msgstr ""
-
-#: workspace/kicker/kicker/buttons/windowlist.desktop:61
-msgctxt "Comment"
-msgid "A menu that lists all open windows"
-msgstr ""
-
-#: workspace/kicker/kicker/core/childpanelextension.desktop:3
-#: workspace/plasma/containments/panel/plasma-containment-panel.desktop:3
-msgctxt "Name"
-msgid "Panel"
-msgstr ""
-
-#: workspace/kicker/kicker/core/childpanelextension.desktop:53
-msgctxt "Comment"
-msgid "Child panel extension."
-msgstr ""
-
-#: workspace/kicker/kicker/kcmkicker.desktop:10
-msgctxt "Name"
-msgid "Configure the Panel"
-msgstr ""
-
-#: workspace/kicker/kicker/panel.desktop:4
-msgctxt "Name"
-msgid "KDE Panel"
-msgstr ""
-
-#: workspace/kicker/menuext/find/find.desktop:3
-msgctxt "Name"
-msgid "Find"
-msgstr "వెతుకు"
-
-#: workspace/kicker/menuext/find/find.desktop:66
-msgctxt "Comment"
-msgid "Quickly start a file or web search"
-msgstr ""
-
-#: workspace/kicker/menuext/find/kfind.desktop:9
-msgctxt "Name"
-msgid "Find Files"
-msgstr "దస్త్రాలను వెతుకు"
-
-#: workspace/kicker/menuext/find/websearch.desktop:8
-msgctxt "Name"
-msgid "Web Search"
-msgstr "వెబ్ అన్వెషణ"
-
-#: workspace/kicker/menuext/kdeprint/printmenu.desktop:3
-msgctxt "Name"
-msgid "Print System"
-msgstr "ప్రచురణ వ్యవస్థ"
-
-#: workspace/kicker/menuext/kdeprint/printmenu.desktop:69
-msgctxt "Comment"
-msgid "Easy access to the print system"
-msgstr ""
-
-#: workspace/kicker/menuext/konq-profiles/konquerormenu.desktop:3
-msgctxt "Name"
-msgid "Konqueror Profiles"
-msgstr "కాంకెరర్ ప్రొఫైల్లు"
-
-#: workspace/kicker/menuext/konq-profiles/konquerormenu.desktop:66
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Konqueror Profiles"
-msgctxt "Comment"
-msgid "Easy access to the Konqueror profiles"
-msgstr "కాంకెరర్ ప్రొఫైల్లు"
-
-#: workspace/kicker/menuext/konsole/konsolemenu.desktop:3
-msgctxt "Name"
-msgid "Terminal Sessions"
-msgstr "టెర్మినల్ సెషన్లు"
-
-#: workspace/kicker/menuext/konsole/konsolemenu.desktop:68
-msgctxt "Comment"
-msgid "Directly start terminal emulator with a session or bookmark"
-msgstr ""
-
-#: workspace/kicker/menuext/prefmenu/prefmenu.desktop:68
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Control Center Modules"
-msgctxt "Comment"
-msgid "Easy access to the Control Center modules"
-msgstr "నియంత్రణా కేంద్రం మాడ్యూళ్లు"
-
-#: workspace/kicker/menuext/recentdocs/recentdocs.desktop:3
-msgctxt "Name"
-msgid "Recent Documents"
-msgstr ""
-
-#: workspace/kicker/menuext/recentdocs/recentdocs.desktop:67
-msgctxt "Comment"
-msgid "Recent documents you have used"
-msgstr ""
-
-#: workspace/kicker/menuext/remote/remotemenu.desktop:3
-msgctxt "Name"
-msgid "Network Folders"
-msgstr "నెట్వర్క్ ఫొల్డర్లు"
-
-#: workspace/kicker/menuext/remote/remotemenu.desktop:65
-msgctxt "Comment"
-msgid "Easy access to network folders"
-msgstr ""
-
-#: workspace/kicker/menuext/system/systemmenu.desktop:63
-msgctxt "Comment"
-msgid "Easy access to system places"
-msgstr ""
-
-#: workspace/kicker/settings/kicker_config.desktop:14
-msgctxt "Name"
-msgid "Layout"
-msgstr "కూర్పు"
-
-#: workspace/kicker/settings/kicker_config.desktop:76
-#: workspace/kicker/settings/kicker_config_arrangement.desktop:73
-msgctxt "Comment"
-msgid "You can configure the arrangement of the panel here"
-msgstr ""
-
-#: workspace/kicker/settings/kicker_config.desktop:140
-#: workspace/kicker/settings/kicker_config_appearance.desktop:143
-#: workspace/kicker/settings/kicker_config_arrangement.desktop:136
-#: workspace/kicker/settings/kicker_config_hiding.desktop:130
-#: workspace/kicker/settings/kicker_config_menus.desktop:129
-#: workspace/kicker/settings/panel.desktop:140
-msgctxt "Keywords"
-msgid ""
-"kicker,panel,kpanel,taskbar,startbar,launchbar,location,size,auto hide,hide,"
-"buttons,animation,background,themes,menu cache,cache,hidden,K-Menu,bookmarks,"
-"recent documents,quickbrowser,browser menu,menu,icons,tiles,applets,startup,"
-"highlight,handles,zooming icons"
-msgstr ""
-
-#: workspace/kicker/settings/kicker_config_appearance.desktop:79
-msgctxt "Comment"
-msgid "You can configure the appearance of the panel here"
-msgstr ""
-
-#: workspace/kicker/settings/kicker_config_arrangement.desktop:13
-msgctxt "Name"
-msgid "Arrangement"
-msgstr "క్రమం"
-
-#: workspace/kicker/settings/kicker_config_hiding.desktop:12
-msgctxt "Name"
-msgid "Hiding"
-msgstr "దాగిన"
-
-#: workspace/kicker/settings/kicker_config_hiding.desktop:73
-msgctxt "Comment"
-msgid "You can configure the hiding of the panel here"
-msgstr ""
-
-#: workspace/kicker/settings/kicker_config_menus.desktop:13
-msgctxt "Name"
-msgid "Menus"
-msgstr "జాబితాలు"
-
-#: workspace/kicker/settings/kicker_config_menus.desktop:70
-msgctxt "Comment"
-msgid "You can configure the menus of the panel here"
-msgstr ""
-
-#: workspace/kicker/settings/panel.desktop:12
-msgctxt "Name"
-msgid "Panels"
-msgstr ""
-
-#: workspace/kicker/settings/panel.desktop:77
-msgctxt "Comment"
-msgid "Configure the arrangement of the panel"
 msgstr ""
 
 #: workspace/klipper/klipper.desktop:3
@@ -10459,6 +10099,11 @@ msgctxt "Name"
 msgid "Task Manager"
 msgstr "దస్త్రాల అభికర్త"
 
+#: workspace/plasma/containments/panel/plasma-containment-panel.desktop:3
+msgctxt "Name"
+msgid "Panel"
+msgstr ""
+
 #: workspace/plasma/containments/panel/plasma-containment-panel.desktop:53
 msgctxt "Comment"
 msgid "A containment for a panel"
@@ -10516,7 +10161,7 @@ msgctxt "Name"
 msgid "Places Data Engine"
 msgstr "ఎక్స్ సోల్డ్జర్"
 
-#: workspace/plasma/dataengines/places/plasma-engine-places.desktop:9
+#: workspace/plasma/dataengines/places/plasma-engine-places.desktop:10
 msgctxt "Comment"
 msgid "Places data for Plasmoids"
 msgstr ""
@@ -10996,6 +10641,95 @@ msgstr "వాన తరువాత సూర్యరశ్మి"
 msgctxt "Name"
 msgid "Triple Gears"
 msgstr "మూడు గేర్లు"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Lock/Logout Buttons"
+#~ msgctxt "Name"
+#~ msgid "Lock/Logout Applet"
+#~ msgstr "తాళం వెయి/లాగౌట్ బటన్లు"
+
+#~ msgctxt "Name"
+#~ msgid "Desktop Preview & Pager"
+#~ msgstr "రంగస్థల ముందు వీక్షణం & పెజర్"
+
+#~ msgctxt "Name"
+#~ msgid "System Tray"
+#~ msgstr "వ్యవస్థ ట్రె"
+
+#~ msgctxt "Name"
+#~ msgid "Trash"
+#~ msgstr "చెత్త బుట్ట"
+
+#~ msgctxt "Name"
+#~ msgid "KasBar"
+#~ msgstr "కాస్ బార్"
+
+#~ msgctxt "Comment"
+#~ msgid "Your Konqueror bookmarks"
+#~ msgstr "మీ కాంకెరర్ పేజి గుర్తులు"
+
+#~ msgctxt "Name"
+#~ msgid "Show Desktop"
+#~ msgstr "రంగస్థలాన్ని చూపు"
+
+#~ msgctxt "Name"
+#~ msgid "Find"
+#~ msgstr "వెతుకు"
+
+#~ msgctxt "Name"
+#~ msgid "Find Files"
+#~ msgstr "దస్త్రాలను వెతుకు"
+
+#~ msgctxt "Name"
+#~ msgid "Web Search"
+#~ msgstr "వెబ్ అన్వెషణ"
+
+#~ msgctxt "Name"
+#~ msgid "Print System"
+#~ msgstr "ప్రచురణ వ్యవస్థ"
+
+#~ msgctxt "Name"
+#~ msgid "Konqueror Profiles"
+#~ msgstr "కాంకెరర్ ప్రొఫైల్లు"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Konqueror Profiles"
+#~ msgctxt "Comment"
+#~ msgid "Easy access to the Konqueror profiles"
+#~ msgstr "కాంకెరర్ ప్రొఫైల్లు"
+
+#~ msgctxt "Name"
+#~ msgid "Terminal Sessions"
+#~ msgstr "టెర్మినల్ సెషన్లు"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Control Center Modules"
+#~ msgctxt "Comment"
+#~ msgid "Easy access to the Control Center modules"
+#~ msgstr "నియంత్రణా కేంద్రం మాడ్యూళ్లు"
+
+#~ msgctxt "Name"
+#~ msgid "Network Folders"
+#~ msgstr "నెట్వర్క్ ఫొల్డర్లు"
+
+#~ msgctxt "Name"
+#~ msgid "Layout"
+#~ msgstr "కూర్పు"
+
+#~ msgctxt "Name"
+#~ msgid "Arrangement"
+#~ msgstr "క్రమం"
+
+#~ msgctxt "Name"
+#~ msgid "Hiding"
+#~ msgstr "దాగిన"
+
+#~ msgctxt "Name"
+#~ msgid "Menus"
+#~ msgstr "జాబితాలు"
 
 #, fuzzy
 #~| msgctxt "Name"
