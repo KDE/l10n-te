@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-13 03:39+0000\n"
+"POT-Creation-Date: 2007-10-16 03:37+0000\n"
 "PO-Revision-Date: 2007-03-22 13:41+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -2880,7 +2880,6 @@ msgid "Audio CD Browser"
 msgstr "ఆడియొ సిడి బ్రౌజర్"
 
 #: apps/konqueror/sidebar/trees/init/services/media.desktop:6
-#: runtime/kioslave/media/kcmodule/media.desktop:14
 msgctxt "Name"
 msgid "Storage Media"
 msgstr ""
@@ -3723,64 +3722,6 @@ msgstr "పొదగదగ్గ ట్రాఫ్ వీక్షిణి"
 msgctxt "Name"
 msgid "KManPart"
 msgstr "కెమేన్ భాగం"
-
-#: runtime/kioslave/media/kcmodule/media.desktop:76
-msgctxt "Comment"
-msgid "Configure Storage Media"
-msgstr ""
-
-#: runtime/kioslave/media/kcmodule/media.desktop:135
-msgctxt "Keywords"
-msgid "storage,media,usb,cdrom,device"
-msgstr ""
-
-#: runtime/kioslave/media/kfile-plugin/kfile_media.desktop:4
-msgctxt "Name"
-msgid "Medium Information"
-msgstr "మాధ్యమ సమాచారం"
-
-#: runtime/kioslave/media/mediamanager/mediamanager.desktop:4
-msgctxt "Name"
-msgid "KDED Media Manager"
-msgstr "కెడిఈడి మాధ్యమ అభికర్త"
-
-#: runtime/kioslave/media/mediamanager/mediamanager.desktop:64
-msgctxt "Comment"
-msgid "Keep track of media activities and allow to (un)mount (media:/)"
-msgstr ""
-
-#: runtime/kioslave/media/medianotifier/medianotifier.desktop:9
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Media Properties Page"
-msgctxt "Name"
-msgid "Media Notifier Daemon"
-msgstr "మాధ్యమ గుణాల పుట"
-
-#: runtime/kioslave/media/medianotifier/medianotifier.desktop:34
-msgctxt "Comment"
-msgid "A media plugged notifier"
-msgstr ""
-
-#: runtime/kioslave/media/services/media_eject.desktop:9
-msgctxt "Name"
-msgid "Eject"
-msgstr "ఎజెక్ట్"
-
-#: runtime/kioslave/media/services/media_mount.desktop:9
-msgctxt "Name"
-msgid "Mount"
-msgstr ""
-
-#: runtime/kioslave/media/services/media_safelyremove.desktop:9
-msgctxt "Name"
-msgid "Safely Remove"
-msgstr "జాగరత్తగా తియి"
-
-#: runtime/kioslave/media/services/media_unmount.desktop:9
-msgctxt "Name"
-msgid "Unmount"
-msgstr ""
 
 #: runtime/kioslave/remote/kdedmodule/remotedirnotify.desktop:4
 msgctxt "Name"
@@ -10054,7 +9995,7 @@ msgctxt "Name"
 msgid "Digital Clock"
 msgstr "డిజిటల్ సిడిఈ"
 
-#: workspace/plasma/applets/digital-clock/plasma-clock-digital.desktop:11
+#: workspace/plasma/applets/digital-clock/plasma-clock-digital.desktop:12
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "An analog and digital clock"
@@ -10084,11 +10025,8 @@ msgid "Pager"
 msgstr "ఎంప్లెయర్"
 
 #: workspace/plasma/applets/systemtray/plasma-applet-systemtray.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "System Tray"
 msgctxt "Name"
-msgid "System tray"
+msgid "System Tray"
 msgstr "వ్యవస్థ ట్రె"
 
 #: workspace/plasma/applets/tasks/plasma-tasks-default.desktop:2
@@ -10148,7 +10086,7 @@ msgctxt "Name"
 msgid "Mouse Data Engine"
 msgstr "ఎక్స్ సోల్డ్జర్"
 
-#: workspace/plasma/dataengines/mouse/plasma-engine-mouse.desktop:9
+#: workspace/plasma/dataengines/mouse/plasma-engine-mouse.desktop:10
 msgctxt "Comment"
 msgid "Mouse data for Plasmoids"
 msgstr ""
@@ -10161,7 +10099,7 @@ msgctxt "Name"
 msgid "Places Data Engine"
 msgstr "ఎక్స్ సోల్డ్జర్"
 
-#: workspace/plasma/dataengines/places/plasma-engine-places.desktop:10
+#: workspace/plasma/dataengines/places/plasma-engine-places.desktop:11
 msgctxt "Comment"
 msgid "Places data for Plasmoids"
 msgstr ""
@@ -10173,6 +10111,19 @@ msgstr ""
 msgctxt "Name"
 msgid "Powermanagement Data Engine"
 msgstr "దస్త్ర నిర్వహణ"
+
+#: workspace/plasma/dataengines/soliddevice/plasma-engine-soliddevice.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "XSoldier"
+msgctxt "Name"
+msgid "SolidDevice Data Engine"
+msgstr "ఎక్స్ సోల్డ్జర్"
+
+#: workspace/plasma/dataengines/soliddevice/plasma-engine-soliddevice.desktop:11
+msgctxt "Comment"
+msgid "SolidDevice data for Plasmoids"
+msgstr ""
 
 #: workspace/plasma/dataengines/tasks/plasma-engine-tasks.desktop:2
 #, fuzzy
@@ -10281,7 +10232,7 @@ msgctxt "Name"
 msgid "Webshortcut runner"
 msgstr ""
 
-#: workspace/plasma/runners/webshortcuts/plasma-runner-webshortcuts.desktop:9
+#: workspace/plasma/runners/webshortcuts/plasma-runner-webshortcuts.desktop:10
 msgctxt "Comment"
 msgid "Webshortcut runner"
 msgstr ""
@@ -10642,6 +10593,36 @@ msgctxt "Name"
 msgid "Triple Gears"
 msgstr "మూడు గేర్లు"
 
+#~ msgctxt "Name"
+#~ msgid "Medium Information"
+#~ msgstr "మాధ్యమ సమాచారం"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Media Manager"
+#~ msgstr "కెడిఈడి మాధ్యమ అభికర్త"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Media Properties Page"
+#~ msgctxt "Name"
+#~ msgid "Media Notifier Daemon"
+#~ msgstr "మాధ్యమ గుణాల పుట"
+
+#~ msgctxt "Name"
+#~ msgid "Eject"
+#~ msgstr "ఎజెక్ట్"
+
+#~ msgctxt "Name"
+#~ msgid "Safely Remove"
+#~ msgstr "జాగరత్తగా తియి"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "System Tray"
+#~ msgctxt "Name"
+#~ msgid "System tray"
+#~ msgstr "వ్యవస్థ ట్రె"
+
 #, fuzzy
 #~| msgctxt "Name"
 #~| msgid "Lock/Logout Buttons"
@@ -10652,10 +10633,6 @@ msgstr "మూడు గేర్లు"
 #~ msgctxt "Name"
 #~ msgid "Desktop Preview & Pager"
 #~ msgstr "రంగస్థల ముందు వీక్షణం & పెజర్"
-
-#~ msgctxt "Name"
-#~ msgid "System Tray"
-#~ msgstr "వ్యవస్థ ట్రె"
 
 #~ msgctxt "Name"
 #~ msgid "Trash"
