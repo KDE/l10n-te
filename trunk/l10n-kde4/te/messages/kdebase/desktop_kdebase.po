@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-24 04:17+0000\n"
+"POT-Creation-Date: 2007-10-25 04:24+0000\n"
 "PO-Revision-Date: 2007-03-22 13:41+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -8842,9 +8842,12 @@ msgid "kwin,window,manager,compositing,effect"
 msgstr ""
 
 #: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "WindowMaker"
 msgctxt "Name"
-msgid "Window Decorations"
-msgstr ""
+msgid "Windows"
+msgstr "విండొమెకర్"
 
 #: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:78
 msgctxt "Comment"
@@ -8942,7 +8945,7 @@ msgstr ""
 
 #: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:14
 msgctxt "Name"
-msgid "Window-Specific Settings"
+msgid "Window-Specific"
 msgstr ""
 
 #: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:73
@@ -9525,6 +9528,62 @@ msgctxt "Comment"
 msgid "Scripting language extension for Plasma"
 msgstr ""
 
+#: workspace/libs/solid/control/backends/fakebluetooth/solid_fakebluetooth.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Dark Blue"
+msgctxt "Name"
+msgid "Fake Bluetooth"
+msgstr "ముదురు నీలం"
+
+#: workspace/libs/solid/control/backends/fakebluetooth/solid_fakebluetooth.desktop:33
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "File Management"
+msgctxt "Comment"
+msgid "Fake Bluetooth Management"
+msgstr "దస్త్ర నిర్వహణ"
+
+#: workspace/libs/solid/control/backends/fakenet/solid_fakenet.desktop:8
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Fish Net"
+msgctxt "Name"
+msgid "Fake Net"
+msgstr "చేపల వల"
+
+#: workspace/libs/solid/control/backends/fakenet/solid_fakenet.desktop:32
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Network Analyzer"
+msgctxt "Comment"
+msgid "Fake Network Management"
+msgstr "నెట్వర్క్ ను పరిశీలించె కార్యక్రమం"
+
+#: workspace/libs/solid/control/solidbluetoothmanager.desktop:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "File Management"
+msgctxt "Comment"
+msgid "Bluetooth Management Backend"
+msgstr "దస్త్ర నిర్వహణ"
+
+#: workspace/libs/solid/control/solidnetworkmanager.desktop:6
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Network Analyzer"
+msgctxt "Comment"
+msgid "Network Management Backend"
+msgstr "నెట్వర్క్ ను పరిశీలించె కార్యక్రమం"
+
+#: workspace/libs/solid/control/solidpowermanager.desktop:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "File Management"
+msgctxt "Comment"
+msgid "Power Management Backend"
+msgstr "దస్త్ర నిర్వహణ"
+
 #: workspace/menu/desktop/hidden.directory:4
 msgctxt "Name"
 msgid "Internal Services"
@@ -9776,7 +9835,7 @@ msgctxt "Name"
 msgid "New Device Notifier"
 msgstr "కొత్త ఎంఓ పరికరం"
 
-#: workspace/plasma/applets/devicenotifier/plasma-applet-devicenotifier.desktop:4
+#: workspace/plasma/applets/devicenotifier/plasma-applet-devicenotifier.desktop:10
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Media Properties Page"
@@ -9808,7 +9867,7 @@ msgctxt "Name"
 msgid "Application Launcher"
 msgstr "అప్లెట్ మెన్యువళ్లు"
 
-#: workspace/plasma/applets/kickoff/applet/plasma-launcher-applet.desktop:9
+#: workspace/plasma/applets/kickoff/applet/plasma-launcher-applet.desktop:12
 msgctxt "Comment"
 msgid "Launcher to start applications"
 msgstr ""
@@ -9930,7 +9989,7 @@ msgctxt "Name"
 msgid "SolidDevice Data Engine"
 msgstr "ఎక్స్ సోల్డ్జర్"
 
-#: workspace/plasma/dataengines/soliddevice/plasma-engine-soliddevice.desktop:12
+#: workspace/plasma/dataengines/soliddevice/plasma-engine-soliddevice.desktop:13
 msgctxt "Comment"
 msgid "SolidDevice data for Plasmoids"
 msgstr ""
@@ -10059,62 +10118,6 @@ msgstr "బ్లూఫిష్"
 msgctxt "Comment"
 msgid "Bluetooth management using the BlueZ stack"
 msgstr ""
-
-#: workspace/solid/control/backends/fakebluetooth/solid_fakebluetooth.desktop:8
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Dark Blue"
-msgctxt "Name"
-msgid "Fake Bluetooth"
-msgstr "ముదురు నీలం"
-
-#: workspace/solid/control/backends/fakebluetooth/solid_fakebluetooth.desktop:33
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "File Management"
-msgctxt "Comment"
-msgid "Fake Bluetooth Management"
-msgstr "దస్త్ర నిర్వహణ"
-
-#: workspace/solid/control/backends/fakenet/solid_fakenet.desktop:8
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Fish Net"
-msgctxt "Name"
-msgid "Fake Net"
-msgstr "చేపల వల"
-
-#: workspace/solid/control/backends/fakenet/solid_fakenet.desktop:32
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Network Analyzer"
-msgctxt "Comment"
-msgid "Fake Network Management"
-msgstr "నెట్వర్క్ ను పరిశీలించె కార్యక్రమం"
-
-#: workspace/solid/control/solid/control/solidbluetoothmanager.desktop:6
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "File Management"
-msgctxt "Comment"
-msgid "Bluetooth Management Backend"
-msgstr "దస్త్ర నిర్వహణ"
-
-#: workspace/solid/control/solid/control/solidnetworkmanager.desktop:6
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Network Analyzer"
-msgctxt "Comment"
-msgid "Network Management Backend"
-msgstr "నెట్వర్క్ ను పరిశీలించె కార్యక్రమం"
-
-#: workspace/solid/control/solid/control/solidpowermanager.desktop:6
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "File Management"
-msgctxt "Comment"
-msgid "Power Management Backend"
-msgstr "దస్త్ర నిర్వహణ"
 
 #: workspace/solid/hal/solid_hal_power.desktop:7
 msgctxt "Name"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-24 06:11+0200\n"
+"POT-Creation-Date: 2007-10-25 06:18+0200\n"
 "PO-Revision-Date: 2007-03-09 14:17+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -543,11 +543,11 @@ msgstr ""
 msgid "&Quick Open"
 msgstr ""
 
-#: app/katemainwindow.cpp:422 app/katedocmanager.cpp:437
+#: app/katemainwindow.cpp:422 app/katedocmanager.cpp:445
 msgid "New file opened while trying to close Kate, closing aborted."
 msgstr ""
 
-#: app/katemainwindow.cpp:423 app/katedocmanager.cpp:438
+#: app/katemainwindow.cpp:423 app/katedocmanager.cpp:446
 msgid "Closing Aborted"
 msgstr ""
 
@@ -801,19 +801,19 @@ msgstr "పత్రాల జాబితా"
 msgid "Document List Settings"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:242
+#: app/kateconfigdialog.cpp:243
 msgid "Plugins"
 msgstr "ప్లగిన్లు"
 
-#: app/kateconfigdialog.cpp:243
+#: app/kateconfigdialog.cpp:244
 msgid "Plugin Manager"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:257
+#: app/kateconfigdialog.cpp:258
 msgid "Editor Component"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:259
+#: app/kateconfigdialog.cpp:260
 msgid "Editor Component Options"
 msgstr ""
 
@@ -1074,45 +1074,45 @@ msgstr ""
 msgid "Document to open"
 msgstr ""
 
-#: app/katedocmanager.cpp:291
+#: app/katedocmanager.cpp:299
 #, kde-format
 msgid ""
 "The supposedly temporary file %1 has been modified. Do you want to delete it "
 "anyway?"
 msgstr ""
 
-#: app/katedocmanager.cpp:293
+#: app/katedocmanager.cpp:301
 #, fuzzy
 #| msgid "Deleted"
 msgid "Delete File?"
 msgstr "తీసివేసిన"
 
-#: app/katedocmanager.cpp:402
+#: app/katedocmanager.cpp:410
 #, kde-format
 msgid ""
 "<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
 "save your changes or discard them?</p>"
 msgstr ""
 
-#: app/katedocmanager.cpp:404
+#: app/katedocmanager.cpp:412
 msgid "Close Document"
 msgstr ""
 
-#: app/katedocmanager.cpp:411
+#: app/katedocmanager.cpp:419
 #, fuzzy
 #| msgid "Save &As..."
 msgid "Save As"
 msgstr "(&A) ఇలా దాచు..."
 
-#: app/katedocmanager.cpp:482
+#: app/katedocmanager.cpp:490
 msgid "Starting Up"
 msgstr ""
 
-#: app/katedocmanager.cpp:483
+#: app/katedocmanager.cpp:491
 msgid "Reopening files from the last session..."
 msgstr ""
 
-#: app/katedocmanager.cpp:684
+#: app/katedocmanager.cpp:692
 msgid "Errors/Warnings while opening documents"
 msgstr ""
 
@@ -1228,24 +1228,61 @@ msgstr ""
 msgid "Session Renaming"
 msgstr "సెషన్ పేరు:"
 
-#: app/katefilelist.cpp:38
+#: app/katefilelist.cpp:51
 msgid "Sort &By"
 msgstr ""
 
-#: app/katefilelist.cpp:42
+#: app/katefilelist.cpp:55 app/katefilelist.cpp:179
 msgid "Opening Order"
 msgstr ""
 
-#: app/katefilelist.cpp:42
+#: app/katefilelist.cpp:55 app/katefilelist.cpp:180
 msgid "Document Name"
 msgstr "పత్రం పేరు"
 
-#: app/katefilelist.cpp:42
+#: app/katefilelist.cpp:55
 msgid "URL"
 msgstr "యూ ఆర్ ఎల్"
 
-#: app/katefilelist.cpp:42
+#: app/katefilelist.cpp:55 app/katefilelist.cpp:182
 msgid "Custom"
+msgstr ""
+
+#: app/katefilelist.cpp:153
+msgid "Background Shading"
+msgstr ""
+
+#: app/katefilelist.cpp:162
+msgid "&Viewed documents' shade:"
+msgstr ""
+
+#: app/katefilelist.cpp:167
+msgid "&Modified documents' shade:"
+msgstr ""
+
+#: app/katefilelist.cpp:174
+msgid "&Sort by:"
+msgstr ""
+
+#: app/katefilelist.cpp:181
+msgid "Url"
+msgstr ""
+
+#: app/katefilelist.cpp:187
+msgid ""
+"When background shading is enabled, documents that have been viewed or "
+"edited within the current session will have a shaded background. The most "
+"recent documents have the strongest shade."
+msgstr ""
+
+#: app/katefilelist.cpp:191
+msgid "Set the color for shading viewed documents."
+msgstr ""
+
+#: app/katefilelist.cpp:193
+msgid ""
+"Set the color for modified documents. This color is blended into the color "
+"for viewed files. The most recently edited documents get most of this color."
 msgstr ""
 
 #: app/kateviewmanager.cpp:117
