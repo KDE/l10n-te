@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-21 05:59+0100\n"
+"POT-Creation-Date: 2007-11-22 05:53+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -3186,7 +3186,7 @@ msgstr ""
 msgid "Please contact your system administrator."
 msgstr "మి వ్యవస్థ పాలకుడిని కలవండి"
 
-#: kdecore/network/k3socketaddress.cpp:621
+#: kdecore/network/k3socketaddress.cpp:623
 #, kde-format
 msgctxt "1: the unknown socket address family number"
 msgid "Unknown family %1"
@@ -5662,7 +5662,7 @@ msgstr ""
 msgid "Default:"
 msgstr "అప్రమేయం"
 
-#: kdeui/dialogs/kshortcutsdialog.cpp:368 kdeui/widgets/klineedit.cpp:1048
+#: kdeui/dialogs/kshortcutsdialog.cpp:368 kdeui/widgets/klineedit.cpp:1078
 msgid "None"
 msgstr "ఏదీ వద్దు"
 
@@ -5824,7 +5824,7 @@ msgid "Reset ToolBars"
 msgstr "పనిముట్ల పట్టీలు"
 
 #: kdeui/dialogs/kedittoolbar.cpp:505 khtml/khtmlview.cpp:2796
-#: khtml/khtmlview.cpp:2829 khtml/html/html_formimpl.cpp:2169
+#: khtml/khtmlview.cpp:2829 khtml/html/html_formimpl.cpp:2166
 msgid "Reset"
 msgstr ""
 
@@ -7309,7 +7309,7 @@ msgstr "(&u) పూర్తి తెర స్థితి"
 msgid "Exit F&ull Screen Mode"
 msgstr "(&u) పూర్తి తెర స్థితి నుంచి బయటకు రా"
 
-#: kdeui/actions/kcodecaction.cpp:93 kdeui/widgets/klineedit.cpp:1075
+#: kdeui/actions/kcodecaction.cpp:93 kdeui/widgets/klineedit.cpp:1105
 #: kdeui/widgets/ktoolbar.cpp:276
 msgid "Default"
 msgstr "అప్రమేయం"
@@ -8552,33 +8552,33 @@ msgctxt "KCharselect unicode block name"
 msgid "Specials"
 msgstr ""
 
-#: kdeui/widgets/klineedit.cpp:183
+#: kdeui/widgets/klineedit.cpp:212
 #, fuzzy
 #| msgid "Clear shortcut"
 msgid "Clear text"
 msgstr "శీఘ్ర మార్గం తొలగించుము"
 
-#: kdeui/widgets/klineedit.cpp:1041
+#: kdeui/widgets/klineedit.cpp:1071
 msgid "Text Completion"
 msgstr "వచన పూరణ"
 
-#: kdeui/widgets/klineedit.cpp:1049
+#: kdeui/widgets/klineedit.cpp:1079
 msgid "Manual"
 msgstr "మేన్యువల్"
 
-#: kdeui/widgets/klineedit.cpp:1050
+#: kdeui/widgets/klineedit.cpp:1080
 msgid "Automatic"
 msgstr "స్వీయచలిత"
 
-#: kdeui/widgets/klineedit.cpp:1051
+#: kdeui/widgets/klineedit.cpp:1081
 msgid "Dropdown List"
 msgstr ""
 
-#: kdeui/widgets/klineedit.cpp:1052
+#: kdeui/widgets/klineedit.cpp:1082
 msgid "Short Automatic"
 msgstr "చిన్న స్వీయచలిత"
 
-#: kdeui/widgets/klineedit.cpp:1053
+#: kdeui/widgets/klineedit.cpp:1083
 msgid "Dropdown List && Automatic"
 msgstr ""
 
@@ -8993,25 +8993,25 @@ msgstr ""
 msgid "Unknown View"
 msgstr "తెలియని క్షేత్రం"
 
-#: kfile/kfileplacesview.cpp:366
+#: kfile/kfileplacesview.cpp:365
 #, fuzzy, kde-format
 #| msgid "&Edit..."
 msgid "&Edit '%1'..."
 msgstr "(&E) సరిదిద్దు..."
 
-#: kfile/kfileplacesview.cpp:369
+#: kfile/kfileplacesview.cpp:368
 #, fuzzy, kde-format
 #| msgid "Hide %1"
 msgid "&Hide '%1'"
 msgstr "%1 చూపించకు"
 
-#: kfile/kfileplacesview.cpp:376
+#: kfile/kfileplacesview.cpp:375
 #, fuzzy
 #| msgid "Show all options"
 msgid "&Show All Entries"
 msgstr "అన్ని ఐచ్చికములు చూపుము"
 
-#: kfile/kfileplacesview.cpp:387
+#: kfile/kfileplacesview.cpp:386
 #, fuzzy, kde-format
 #| msgid "&Remove"
 msgid "&Remove '%1'"
@@ -10195,7 +10195,7 @@ msgid ""
 msgstr ""
 
 #: khtml/khtml_part.cpp:4724 khtml/khtmlview.cpp:2782 khtml/khtmlview.cpp:2824
-#: khtml/html/html_formimpl.cpp:1566 khtml/html/html_formimpl.cpp:2177
+#: khtml/html/html_formimpl.cpp:1563 khtml/html/html_formimpl.cpp:2174
 msgid "Submit"
 msgstr "అందించు"
 
@@ -10257,7 +10257,7 @@ msgstr ""
 #| msgid "&Show Blocked Popup Window"
 #| msgid_plural "Show %1 Blocked Popup Windows"
 msgid "&Show Blocked Popup Window"
-msgid_plural "Show %1 Blocked Popup Windows"
+msgid_plural "&Show %1 Blocked Popup Windows"
 msgstr[0] "(&S) ఆపివేయబడిన పాప్ అప్ విండొను చూపు"
 msgstr[1] "%1 ఆపివేయబడిన పాప్ అప్ విండొలను చూపు"
 
@@ -10506,11 +10506,11 @@ msgstr "జావాస్క్రిప్ట్"
 msgid "&Abort"
 msgstr "(&A) విడిచిపెట్టుము"
 
-#: khtml/ecma/kjs_window.cpp:1570 khtml/ecma/kjs_html.cpp:2117
+#: khtml/ecma/kjs_window.cpp:1566 khtml/ecma/kjs_html.cpp:2109
 msgid "Confirmation: JavaScript Popup"
 msgstr "దృవపరచు: జావాస్క్రిప్ట్ పాప్ అప్"
 
-#: khtml/ecma/kjs_window.cpp:1573
+#: khtml/ecma/kjs_window.cpp:1569
 msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
@@ -10518,7 +10518,7 @@ msgstr ""
 "ఈ సైట్ జావా స్క్రిప్ట్ ద్వారా కొత్త విండొని తెరువుటకు మనవి కోరుతుంది.\n"
 "అనుమతించ మంటారా?"
 
-#: khtml/ecma/kjs_window.cpp:1576
+#: khtml/ecma/kjs_window.cpp:1572
 #, kde-format
 msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
@@ -10527,56 +10527,56 @@ msgstr ""
 "<qt>ఈ సైట్ <p>%1</p>జావా స్క్రిప్ట్ ద్వారా కొత్త విండొని తెరువుటకు మనవి కోరుతుంది.<br />అనుమతించ "
 "మంటారా?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1578 khtml/ecma/kjs_html.cpp:2124
+#: khtml/ecma/kjs_window.cpp:1574 khtml/ecma/kjs_html.cpp:2116
 msgid "Allow"
 msgstr "అనుమతించు"
 
-#: khtml/ecma/kjs_window.cpp:1578 khtml/ecma/kjs_html.cpp:2124
+#: khtml/ecma/kjs_window.cpp:1574 khtml/ecma/kjs_html.cpp:2116
 msgid "Do Not Allow"
 msgstr "అనుమతించవద్దు"
 
-#: khtml/ecma/kjs_window.cpp:1870
+#: khtml/ecma/kjs_window.cpp:1866
 msgid "Close window?"
 msgstr "విండొ మూసివేయవచ్చునా?"
 
-#: khtml/ecma/kjs_window.cpp:1870
+#: khtml/ecma/kjs_window.cpp:1866
 msgid "Confirmation Required"
 msgstr "అనుమతి కావాలి"
 
-#: khtml/ecma/kjs_window.cpp:2820
+#: khtml/ecma/kjs_window.cpp:2816
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2823
+#: khtml/ecma/kjs_window.cpp:2819
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2831
+#: khtml/ecma/kjs_window.cpp:2827
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "జావాస్క్రిప్ట్ పేజి గుర్తు చేర్చుట ప్రయత్నించినది"
 
-#: khtml/ecma/kjs_window.cpp:2835
+#: khtml/ecma/kjs_window.cpp:2831
 msgid "Insert"
 msgstr "చేర్చు"
 
-#: khtml/ecma/kjs_window.cpp:2835
+#: khtml/ecma/kjs_window.cpp:2831
 msgid "Disallow"
 msgstr "నిషెధించు"
 
-#: khtml/ecma/kjs_html.cpp:2119
+#: khtml/ecma/kjs_html.cpp:2111
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
 "Do you want to allow the form to be submitted?"
 msgstr ""
 
-#: khtml/ecma/kjs_html.cpp:2122
+#: khtml/ecma/kjs_html.cpp:2114
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -10700,52 +10700,52 @@ msgstr "వరుస పైన"
 msgid "This is a searchable index. Enter search keywords: "
 msgstr "ఇది అన్వేషింతగిన సూచిక. కీలక పదాలు వ్రాయండి:"
 
-#: khtml/html/html_formimpl.cpp:370
+#: khtml/html/html_formimpl.cpp:367
 msgid ""
 "The following files will not be uploaded because they could not be found.\n"
 "Do you want to continue?"
 msgstr ""
 
-#: khtml/html/html_formimpl.cpp:374
+#: khtml/html/html_formimpl.cpp:371
 msgid "Submit Confirmation"
 msgstr "అనుమతి అందించు"
 
-#: khtml/html/html_formimpl.cpp:374
+#: khtml/html/html_formimpl.cpp:371
 msgid "&Submit Anyway"
 msgstr "(&S) ఏది ఏమైనా అందించు"
 
-#: khtml/html/html_formimpl.cpp:385
+#: khtml/html/html_formimpl.cpp:382
 msgid ""
 "You are about to transfer the following files from your local computer to "
 "the Internet.\n"
 "Do you really want to continue?"
 msgstr ""
 
-#: khtml/html/html_formimpl.cpp:389
+#: khtml/html/html_formimpl.cpp:386
 msgid "Send Confirmation"
 msgstr "అనుమతి పంపించు"
 
-#: khtml/html/html_formimpl.cpp:389
+#: khtml/html/html_formimpl.cpp:386
 msgid "&Send Files"
 msgstr "(&S) దస్త్రములు పంపు"
 
-#: khtml/html/html_formimpl.cpp:631
+#: khtml/html/html_formimpl.cpp:628
 msgid "Save Login Information"
 msgstr "లాగిన్ సమాచారం దాచు"
 
-#: khtml/html/html_formimpl.cpp:633
+#: khtml/html/html_formimpl.cpp:630
 msgid "Store"
 msgstr "దాచు"
 
-#: khtml/html/html_formimpl.cpp:634
+#: khtml/html/html_formimpl.cpp:631
 msgid "Ne&ver for This Site"
 msgstr "(&v) ఈ సైటుకు ఎప్పుడు వద్దు"
 
-#: khtml/html/html_formimpl.cpp:635
+#: khtml/html/html_formimpl.cpp:632
 msgid "Do Not Store"
 msgstr "దాచవద్దు"
 
-#: khtml/html/html_formimpl.cpp:644
+#: khtml/html/html_formimpl.cpp:641
 msgid ""
 "Konqueror has the ability to store the password in an encrypted wallet. When "
 "the wallet is unlocked, it can then automatically restore the login "
@@ -10753,7 +10753,7 @@ msgid ""
 "information now?"
 msgstr ""
 
-#: khtml/html/html_formimpl.cpp:649
+#: khtml/html/html_formimpl.cpp:646
 #, kde-format
 msgid ""
 "Konqueror has the ability to store the password in an encrypted wallet. When "
@@ -10761,7 +10761,7 @@ msgid ""
 "information next time you visit %1. Do you want to store the information now?"
 msgstr ""
 
-#: khtml/html/html_formimpl.cpp:2558
+#: khtml/html/html_formimpl.cpp:2555
 #, fuzzy
 #| msgid "General"
 msgid "Key Generator"
