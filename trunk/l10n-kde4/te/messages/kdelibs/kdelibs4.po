@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-25 05:57+0100\n"
+"POT-Creation-Date: 2007-11-26 06:00+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -4607,19 +4607,35 @@ msgstr "Ctrl"
 
 #: kdecore/localization/kuitsemantics.cpp:824
 #, fuzzy
+#| msgctxt "QAccel"
+#| msgid "Del"
+msgctxt "keyboard-key-name"
+msgid "Del"
+msgstr "Del"
+
+#: kdecore/localization/kuitsemantics.cpp:825
+#, fuzzy
 #| msgid "Delete"
 msgctxt "keyboard-key-name"
 msgid "Delete"
 msgstr "తొలగించు"
 
-#: kdecore/localization/kuitsemantics.cpp:825
+#: kdecore/localization/kuitsemantics.cpp:826
+#, fuzzy
+#| msgctxt "QAccel"
+#| msgid "Down"
+msgctxt "keyboard-key-name"
+msgid "Down"
+msgstr "క్రింద"
+
+#: kdecore/localization/kuitsemantics.cpp:827
 #, fuzzy
 #| msgid "End"
 msgctxt "keyboard-key-name"
 msgid "End"
 msgstr "ముగింపు"
 
-#: kdecore/localization/kuitsemantics.cpp:826
+#: kdecore/localization/kuitsemantics.cpp:828
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Enter"
@@ -4627,7 +4643,22 @@ msgctxt "keyboard-key-name"
 msgid "Enter"
 msgstr "ఎంటర్"
 
-#: kdecore/localization/kuitsemantics.cpp:827
+#: kdecore/localization/kuitsemantics.cpp:829
+#, fuzzy
+#| msgctxt "QAccel"
+#| msgid "Esc"
+msgctxt "keyboard-key-name"
+msgid "Esc"
+msgstr "Esc"
+
+#: kdecore/localization/kuitsemantics.cpp:830
+#, fuzzy
+#| msgid "Escape"
+msgctxt "keyboard-key-name"
+msgid "Escape"
+msgstr "ఎస్కేప్"
+
+#: kdecore/localization/kuitsemantics.cpp:831
 #, fuzzy
 #| msgctxt "Home phone"
 #| msgid "Home"
@@ -4635,21 +4666,36 @@ msgctxt "keyboard-key-name"
 msgid "Home"
 msgstr "గృహము"
 
-#: kdecore/localization/kuitsemantics.cpp:828
+#: kdecore/localization/kuitsemantics.cpp:832
 #, fuzzy
 #| msgid "Type"
 msgctxt "keyboard-key-name"
 msgid "Hyper"
 msgstr "రకము"
 
-#: kdecore/localization/kuitsemantics.cpp:829
+#: kdecore/localization/kuitsemantics.cpp:833
+#, fuzzy
+#| msgctxt "QAccel"
+#| msgid "Ins"
+msgctxt "keyboard-key-name"
+msgid "Ins"
+msgstr "Ins"
+
+#: kdecore/localization/kuitsemantics.cpp:834
 #, fuzzy
 #| msgid "Insert"
 msgctxt "keyboard-key-name"
 msgid "Insert"
 msgstr "చేర్చు"
 
-#: kdecore/localization/kuitsemantics.cpp:830
+#: kdecore/localization/kuitsemantics.cpp:835
+#, fuzzy
+#| msgid "Left"
+msgctxt "keyboard-key-name"
+msgid "Left"
+msgstr "ఎడమ"
+
+#: kdecore/localization/kuitsemantics.cpp:836
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Menu"
@@ -4657,42 +4703,65 @@ msgctxt "keyboard-key-name"
 msgid "Menu"
 msgstr "పట్టీ"
 
-#: kdecore/localization/kuitsemantics.cpp:831
+#: kdecore/localization/kuitsemantics.cpp:837
 #, fuzzy
 #| msgid "Meta"
 msgctxt "keyboard-key-name"
 msgid "Meta"
 msgstr "మెటా"
 
-#: kdecore/localization/kuitsemantics.cpp:832
+#: kdecore/localization/kuitsemantics.cpp:838
 #, fuzzy
 #| msgid "NumLock"
 msgctxt "keyboard-key-name"
 msgid "NumLock"
 msgstr "NumLock"
 
-#: kdecore/localization/kuitsemantics.cpp:833
+#: kdecore/localization/kuitsemantics.cpp:839
 #, fuzzy
 #| msgid "PageDown"
 msgctxt "keyboard-key-name"
 msgid "PageDown"
 msgstr "PageDown"
 
-#: kdecore/localization/kuitsemantics.cpp:834
+#: kdecore/localization/kuitsemantics.cpp:840
 #, fuzzy
 #| msgid "PageUp"
 msgctxt "keyboard-key-name"
 msgid "PageUp"
 msgstr "PageUp"
 
-#: kdecore/localization/kuitsemantics.cpp:835
+#: kdecore/localization/kuitsemantics.cpp:841
+#, fuzzy
+#| msgctxt "QAccel"
+#| msgid "PgDown"
+msgctxt "keyboard-key-name"
+msgid "PgDown"
+msgstr "PgDown"
+
+#: kdecore/localization/kuitsemantics.cpp:842
+#, fuzzy
+#| msgctxt "QAccel"
+#| msgid "PgUp"
+msgctxt "keyboard-key-name"
+msgid "PgUp"
+msgstr "PgUp"
+
+#: kdecore/localization/kuitsemantics.cpp:843
+#, fuzzy
+#| msgid "Pause"
+msgctxt "keyboard-key-name"
+msgid "Pause"
+msgstr "పాజ్"
+
+#: kdecore/localization/kuitsemantics.cpp:844
 #, fuzzy
 #| msgid "Pause"
 msgctxt "keyboard-key-name"
 msgid "PauseBreak"
 msgstr "పాజ్"
 
-#: kdecore/localization/kuitsemantics.cpp:836
+#: kdecore/localization/kuitsemantics.cpp:845
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Print Screen"
@@ -4700,7 +4769,7 @@ msgctxt "keyboard-key-name"
 msgid "PrintScreen"
 msgstr "స్క్రీన్ ప్రచురించు"
 
-#: kdecore/localization/kuitsemantics.cpp:837
+#: kdecore/localization/kuitsemantics.cpp:846
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Print Screen"
@@ -4708,7 +4777,7 @@ msgctxt "keyboard-key-name"
 msgid "PrtScr"
 msgstr "స్క్రీన్ ప్రచురించు"
 
-#: kdecore/localization/kuitsemantics.cpp:838
+#: kdecore/localization/kuitsemantics.cpp:847
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Return"
@@ -4716,21 +4785,28 @@ msgctxt "keyboard-key-name"
 msgid "Return"
 msgstr "Return"
 
-#: kdecore/localization/kuitsemantics.cpp:839
+#: kdecore/localization/kuitsemantics.cpp:848
+#, fuzzy
+#| msgid "Right"
+msgctxt "keyboard-key-name"
+msgid "Right"
+msgstr "కుడి"
+
+#: kdecore/localization/kuitsemantics.cpp:849
 #, fuzzy
 #| msgid "ScrollLock"
 msgctxt "keyboard-key-name"
 msgid "ScrollLock"
 msgstr "ScrollLock"
 
-#: kdecore/localization/kuitsemantics.cpp:840
+#: kdecore/localization/kuitsemantics.cpp:850
 #, fuzzy
 #| msgid "Shift"
 msgctxt "keyboard-key-name"
 msgid "Shift"
 msgstr "Shift"
 
-#: kdecore/localization/kuitsemantics.cpp:841
+#: kdecore/localization/kuitsemantics.cpp:851
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Space"
@@ -4738,28 +4814,35 @@ msgctxt "keyboard-key-name"
 msgid "Space"
 msgstr "ఖాళి"
 
-#: kdecore/localization/kuitsemantics.cpp:842
+#: kdecore/localization/kuitsemantics.cpp:852
 #, fuzzy
 #| msgid "Sound"
 msgctxt "keyboard-key-name"
 msgid "Super"
 msgstr "శబ్దము"
 
-#: kdecore/localization/kuitsemantics.cpp:843
+#: kdecore/localization/kuitsemantics.cpp:853
 #, fuzzy
 #| msgid "SysReq"
 msgctxt "keyboard-key-name"
 msgid "SysReq"
 msgstr "SysReq"
 
-#: kdecore/localization/kuitsemantics.cpp:844
+#: kdecore/localization/kuitsemantics.cpp:854
 #, fuzzy
 #| msgid "Sab"
 msgctxt "keyboard-key-name"
 msgid "Tab"
 msgstr "సబ్"
 
-#: kdecore/localization/kuitsemantics.cpp:845
+#: kdecore/localization/kuitsemantics.cpp:855
+#, fuzzy
+#| msgid "Up"
+msgctxt "keyboard-key-name"
+msgid "Up"
+msgstr "పైకి"
+
+#: kdecore/localization/kuitsemantics.cpp:856
 #, fuzzy
 #| msgid "Win"
 msgctxt "keyboard-key-name"
@@ -5778,6 +5861,7 @@ msgid "Default:"
 msgstr "అప్రమేయం"
 
 #: kdeui/dialogs/kshortcutsdialog.cpp:368 kdeui/widgets/klineedit.cpp:1078
+#: kdeui/widgets/kkeysequencewidget.cpp:355
 msgid "None"
 msgstr "ఏదీ వద్దు"
 
@@ -9441,14 +9525,14 @@ msgstr ""
 msgid "Select Folder"
 msgstr "రంగు ఎంచుకొనుము"
 
-#: kfile/kdirselectdialog.cpp:224 kfile/kdirselectdialog.cpp:262
+#: kfile/kdirselectdialog.cpp:224 kfile/kdirselectdialog.cpp:260
 #: kfile/kdiroperator.cpp:1488
 #, fuzzy
 #| msgid "New file."
 msgid "New Folder..."
 msgstr "కొత్త దస్త్రం"
 
-#: kfile/kdirselectdialog.cpp:269
+#: kfile/kdirselectdialog.cpp:267
 msgid "Show Hidden Folders"
 msgstr ""
 
@@ -13578,12 +13662,6 @@ msgstr ""
 #~ msgid "Spacing"
 #~ msgstr "ఖాళి"
 
-#~ msgid "Right"
-#~ msgstr "కుడి"
-
-#~ msgid "Left"
-#~ msgstr "ఎడమ"
-
 #~ msgid "Top"
 #~ msgstr "పైన"
 
@@ -15223,24 +15301,12 @@ msgstr ""
 #~ msgstr "తెలియని లిపి"
 
 #~ msgctxt "QAccel"
-#~ msgid "Esc"
-#~ msgstr "Esc"
-
-#~ msgctxt "QAccel"
 #~ msgid "Backtab"
 #~ msgstr "Backtab"
 
 #~ msgctxt "QAccel"
 #~ msgid "Backspace"
 #~ msgstr "Backspace"
-
-#~ msgctxt "QAccel"
-#~ msgid "Ins"
-#~ msgstr "Ins"
-
-#~ msgctxt "QAccel"
-#~ msgid "Del"
-#~ msgstr "Del"
 
 #~ msgctxt "QAccel"
 #~ msgid "Print"
@@ -15269,18 +15335,6 @@ msgstr ""
 #~ msgctxt "QAccel"
 #~ msgid "Right"
 #~ msgstr "కుడి"
-
-#~ msgctxt "QAccel"
-#~ msgid "Down"
-#~ msgstr "క్రింద"
-
-#~ msgctxt "QAccel"
-#~ msgid "PgUp"
-#~ msgstr "PgUp"
-
-#~ msgctxt "QAccel"
-#~ msgid "PgDown"
-#~ msgstr "PgDown"
 
 #~ msgctxt "QAccel"
 #~ msgid "CapsLock"
