@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-03 06:04+0100\n"
+"POT-Creation-Date: 2007-12-04 06:03+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -534,7 +534,7 @@ msgstr "(&M) జరుపుము"
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 100
 #. i18n: tag text
 #. i18n: file ./khtml/khtml_browser.rc line 20
-#: rc.cpp:228 rc.cpp:372 kfile/kdiroperator.cpp:1571
+#: rc.cpp:228 rc.cpp:372 kfile/kdiroperator.cpp:1572
 msgid "&View"
 msgstr "(&V) చూడు"
 
@@ -1692,8 +1692,8 @@ msgstr "హోస్ట్ పేరు మార్పును కెడిఈ
 msgid "(c) 2001 Waldo Bastian"
 msgstr ""
 
-#: kded/khostname.cpp:221 kded/kbuildsycoca.cpp:709
-#: khtml/khtml_factory.cpp:171 kconf_update/kconf_update.cpp:964
+#: kded/khostname.cpp:221 kded/kbuildsycoca.cpp:709 khtml/khtml_global.cpp:198
+#: kconf_update/kconf_update.cpp:964
 msgid "Waldo Bastian"
 msgstr ""
 
@@ -3505,7 +3505,7 @@ msgstr "అప్లికేషన్:"
 msgid "Qt"
 msgstr "విరమించు"
 
-#: kdecore/kernel/kcmdlineargs.cpp:486 khtml/khtml_part.cpp:4773
+#: kdecore/kernel/kcmdlineargs.cpp:486 khtml/khtml_part.cpp:4774
 msgid "KDE"
 msgstr "కెడిఈ"
 
@@ -5674,7 +5674,7 @@ msgstr "తొలగించు"
 msgid "Test"
 msgstr "పరీక్ష"
 
-#: kdeui/util/kstandardguiitem.cpp:285 kfile/kdiroperator.cpp:1565
+#: kdeui/util/kstandardguiitem.cpp:285 kfile/kdiroperator.cpp:1566
 msgid "Properties"
 msgstr "గుణములు"
 
@@ -5992,80 +5992,80 @@ msgstr "(&D) వివరములు"
 msgid "Get help..."
 msgstr "సహాయం పొందండి..."
 
-#: kdeui/dialogs/kedittoolbar.cpp:52
+#: kdeui/dialogs/kedittoolbar.cpp:53
 msgid "--- separator ---"
 msgstr "--- విభాజిక ---"
 
-#: kdeui/dialogs/kedittoolbar.cpp:456
+#: kdeui/dialogs/kedittoolbar.cpp:457
 #, fuzzy
 #| msgid "Configure Toolbars"
 msgid "Configure Toolbars"
 msgstr "పనిముట్ల పట్టీలను అమర్చండి"
 
-#: kdeui/dialogs/kedittoolbar.cpp:505
+#: kdeui/dialogs/kedittoolbar.cpp:506
 msgid ""
 "Do you really want to reset all toolbars of this application to their "
 "default? The changes will be applied immediately."
 msgstr ""
 
-#: kdeui/dialogs/kedittoolbar.cpp:505
+#: kdeui/dialogs/kedittoolbar.cpp:506
 #, fuzzy
 #| msgid "Toolbars"
 msgid "Reset ToolBars"
 msgstr "పనిముట్ల పట్టీలు"
 
-#: kdeui/dialogs/kedittoolbar.cpp:505 khtml/khtmlview.cpp:2798
+#: kdeui/dialogs/kedittoolbar.cpp:506 khtml/khtmlview.cpp:2798
 #: khtml/khtmlview.cpp:2831 khtml/html/html_formimpl.cpp:2163
 msgid "Reset"
 msgstr ""
 
-#: kdeui/dialogs/kedittoolbar.cpp:813
+#: kdeui/dialogs/kedittoolbar.cpp:820
 #, fuzzy
 #| msgid "&Toolbar:"
 msgid "&Toolbar:"
 msgstr "&పనిముట్ల పట్టీ:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:829
+#: kdeui/dialogs/kedittoolbar.cpp:836
 msgid "A&vailable actions:"
 msgstr "(&v) అందుబాటులో వున్న చర్యలు:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:848
+#: kdeui/dialogs/kedittoolbar.cpp:855
 msgid "Curr&ent actions:"
 msgstr "(&e) ఇప్పటి చర్యలు:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:869
+#: kdeui/dialogs/kedittoolbar.cpp:876
 msgid "Change &Icon..."
 msgstr "(&I) ప్రతిమను మార్చు..."
 
 #. i18n filtering message for action names
-#: kdeui/dialogs/kedittoolbar.cpp:1023
+#: kdeui/dialogs/kedittoolbar.cpp:1030
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
 msgstr "%1%"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1044
+#: kdeui/dialogs/kedittoolbar.cpp:1051
 msgid ""
 "This element will be replaced with all the elements of an embedded component."
 msgstr ""
 
-#: kdeui/dialogs/kedittoolbar.cpp:1046
+#: kdeui/dialogs/kedittoolbar.cpp:1053
 msgid "<Merge>"
 msgstr "<కలుపు>"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1048
+#: kdeui/dialogs/kedittoolbar.cpp:1055
 #, kde-format
 msgid "<Merge %1>"
 msgstr "<కలుపు %1>"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1054
+#: kdeui/dialogs/kedittoolbar.cpp:1061
 msgid ""
 "This is a dynamic list of actions. You can move it, but if you remove it you "
 "will not be able to re-add it."
 msgstr ""
 
-#: kdeui/dialogs/kedittoolbar.cpp:1055
+#: kdeui/dialogs/kedittoolbar.cpp:1062
 #, kde-format
 msgid "ActionList: %1"
 msgstr "చర్యలజాబితా: %1"
@@ -9510,25 +9510,25 @@ msgid "Custom Path"
 msgstr "నిర్దేశితమైన"
 
 #: kfile/kdirselectdialog.cpp:114 kfile/kdirselectdialog.cpp:118
-#: kfile/kdiroperator.cpp:629 kfile/kdiroperator.cpp:637
+#: kfile/kdiroperator.cpp:630 kfile/kdiroperator.cpp:638
 #, fuzzy
 #| msgid "New file."
 msgid "New Folder"
 msgstr "కొత్త దస్త్రం"
 
-#: kfile/kdirselectdialog.cpp:119 kfile/kdiroperator.cpp:638
+#: kfile/kdirselectdialog.cpp:119 kfile/kdiroperator.cpp:639
 #, kde-format
 msgid ""
 "Create new folder in:\n"
 "%1"
 msgstr ""
 
-#: kfile/kdirselectdialog.cpp:142 kfile/kdiroperator.cpp:664
+#: kfile/kdirselectdialog.cpp:142 kfile/kdiroperator.cpp:665
 #, kde-format
 msgid "A file or folder named %1 already exists."
 msgstr ""
 
-#: kfile/kdirselectdialog.cpp:146 kfile/kdiroperator.cpp:667
+#: kfile/kdirselectdialog.cpp:146 kfile/kdiroperator.cpp:668
 msgid "You do not have permission to create that folder."
 msgstr ""
 
@@ -9539,7 +9539,7 @@ msgid "Select Folder"
 msgstr "రంగు ఎంచుకొనుము"
 
 #: kfile/kdirselectdialog.cpp:224 kfile/kdirselectdialog.cpp:260
-#: kfile/kdiroperator.cpp:1494
+#: kfile/kdiroperator.cpp:1495
 #, fuzzy
 #| msgid "New file."
 msgid "New Folder..."
@@ -9600,15 +9600,15 @@ msgid ""
 "entry will be available in all applications.</qt>"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:682
+#: kfile/kdiroperator.cpp:683
 msgid "You did not select a file to delete."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:683
+#: kfile/kdiroperator.cpp:684
 msgid "Nothing to Delete"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:704
+#: kfile/kdiroperator.cpp:705
 #, fuzzy, kde-format
 #| msgid "Do you really want to execute '%1'? "
 msgid ""
@@ -9616,13 +9616,13 @@ msgid ""
 " <b>'%1'</b>?</qt>"
 msgstr "'%1' ను నిజంగా నడపమంటారా?"
 
-#: kfile/kdiroperator.cpp:706
+#: kfile/kdiroperator.cpp:707
 #, fuzzy
 #| msgid "Delete All"
 msgid "Delete File"
 msgstr "అన్ని తొలగించుము"
 
-#: kfile/kdiroperator.cpp:711
+#: kfile/kdiroperator.cpp:712
 #, fuzzy, kde-format
 #| msgid "Do you really want to execute '%1'? "
 msgid "Do you really want to delete this item?"
@@ -9630,21 +9630,21 @@ msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] "'%1' ను నిజంగా నడపమంటారా?"
 msgstr[1] "'%1' ను నిజంగా నడపమంటారా?"
 
-#: kfile/kdiroperator.cpp:713
+#: kfile/kdiroperator.cpp:714
 #, fuzzy
 #| msgid "Delete item(s)"
 msgid "Delete Files"
 msgstr "అంశాలను తీసివేయండి"
 
-#: kfile/kdiroperator.cpp:744
+#: kfile/kdiroperator.cpp:745
 msgid "You did not select a file to trash."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:745
+#: kfile/kdiroperator.cpp:746
 msgid "Nothing to Trash"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:762
+#: kfile/kdiroperator.cpp:763
 #, fuzzy, kde-format
 #| msgid "Do you really want to execute '%1'? "
 msgid ""
@@ -9652,118 +9652,118 @@ msgid ""
 " <b>'%1'</b>?</qt>"
 msgstr "'%1' ను నిజంగా నడపమంటారా?"
 
-#: kfile/kdiroperator.cpp:764
+#: kfile/kdiroperator.cpp:765
 #, fuzzy
 #| msgid "Trash"
 msgid "Trash File"
 msgstr "చెత్త బుట్ట"
 
-#: kfile/kdiroperator.cpp:765 kfile/kdiroperator.cpp:772
+#: kfile/kdiroperator.cpp:766 kfile/kdiroperator.cpp:773
 #, fuzzy
 #| msgid "Trash"
 msgctxt "to trash"
 msgid "&Trash"
 msgstr "చెత్త బుట్ట"
 
-#: kfile/kdiroperator.cpp:769
+#: kfile/kdiroperator.cpp:770
 #, kde-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kfile/kdiroperator.cpp:771
+#: kfile/kdiroperator.cpp:772
 #, fuzzy
 #| msgid "Files"
 msgid "Trash Files"
 msgstr "దస్త్రములు"
 
-#: kfile/kdiroperator.cpp:894 kfile/kdiroperator.cpp:1007
+#: kfile/kdiroperator.cpp:895 kfile/kdiroperator.cpp:1008
 msgid "The specified folder does not exist or was not readable."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1477
+#: kfile/kdiroperator.cpp:1478
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Menu"
 msgid "Menu"
 msgstr "పట్టీ"
 
-#: kfile/kdiroperator.cpp:1481
+#: kfile/kdiroperator.cpp:1482
 #, fuzzy
 #| msgid "Print header"
 msgid "Parent Folder"
 msgstr "హెడర్ను ప్రచురించు"
 
-#: kfile/kdiroperator.cpp:1488
+#: kfile/kdiroperator.cpp:1489
 #, fuzzy
 #| msgid "Home Phone"
 msgid "Home Folder"
 msgstr "ఇంటి ఫోను"
 
-#: kfile/kdiroperator.cpp:1491
+#: kfile/kdiroperator.cpp:1492
 msgid "Reload"
 msgstr "తిరిగి ఎక్కించు"
 
-#: kfile/kdiroperator.cpp:1499
+#: kfile/kdiroperator.cpp:1500
 msgid "Move to Trash"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1505
+#: kfile/kdiroperator.cpp:1506
 msgid "Delete"
 msgstr "తొలగించు"
 
-#: kfile/kdiroperator.cpp:1512
+#: kfile/kdiroperator.cpp:1513
 #, fuzzy
 #| msgid "Sort String"
 msgid "Sorting"
 msgstr "క్రమపరచు పదం"
 
-#: kfile/kdiroperator.cpp:1515
+#: kfile/kdiroperator.cpp:1516
 #, fuzzy
 #| msgid "Name"
 msgid "By Name"
 msgstr "పేరు"
 
-#: kfile/kdiroperator.cpp:1519
+#: kfile/kdiroperator.cpp:1520
 #, fuzzy
 #| msgid "Size"
 msgid "By Size"
 msgstr "పరిమాణము"
 
-#: kfile/kdiroperator.cpp:1523
+#: kfile/kdiroperator.cpp:1524
 #, fuzzy
 #| msgid "Dates"
 msgid "By Date"
 msgstr "తేదీలు"
 
-#: kfile/kdiroperator.cpp:1527
+#: kfile/kdiroperator.cpp:1528
 #, fuzzy
 #| msgid "Type"
 msgid "By Type"
 msgstr "రకము"
 
-#: kfile/kdiroperator.cpp:1531
+#: kfile/kdiroperator.cpp:1532
 msgid "Descending"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1541
+#: kfile/kdiroperator.cpp:1542
 msgid "Short View"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1546
+#: kfile/kdiroperator.cpp:1547
 #, fuzzy
 #| msgid "Details"
 msgid "Detailed View"
 msgstr "వివరములు"
 
-#: kfile/kdiroperator.cpp:1555
+#: kfile/kdiroperator.cpp:1556
 #, fuzzy
 #| msgid "&Send Files"
 msgid "Show Hidden Files"
 msgstr "(&S) దస్త్రములు పంపు"
 
-#: kfile/kdiroperator.cpp:1559
+#: kfile/kdiroperator.cpp:1560
 msgid "Show Preview"
 msgstr ""
 
@@ -9789,24 +9789,24 @@ msgstr "సరిదిద్దు"
 msgid "Navigate"
 msgstr "సంచారము"
 
-#: khtml/testkhtml.cpp:39
+#: khtml/testkhtml.cpp:37
 #, fuzzy
 #| msgid "URL to open"
 msgid "url to open"
 msgstr "యూఆర్ఎల్ తెరువు"
 
-#: khtml/testkhtml.cpp:41
+#: khtml/testkhtml.cpp:39
 #, fuzzy
 #| msgid "Test"
 msgid "Testkhtml"
 msgstr "పరీక్ష"
 
-#: khtml/testkhtml.cpp:42
+#: khtml/testkhtml.cpp:40
 msgid "a basic web browser using the KHTML library"
 msgstr ""
 
-#: khtml/khtml_run.cpp:86 khtml/khtml_part.cpp:3822 khtml/khtml_part.cpp:4038
-#: khtml/khtml_part.cpp:4364 kparts/browserrun.cpp:434
+#: khtml/khtml_run.cpp:86 khtml/khtml_part.cpp:3823 khtml/khtml_part.cpp:4039
+#: khtml/khtml_part.cpp:4365 kparts/browserrun.cpp:434
 msgid "Save As"
 msgstr "ఇలా దాచు"
 
@@ -9888,6 +9888,46 @@ msgstr "ప్రాంతము"
 msgid "Regression tester for khtml"
 msgstr ""
 
+#: khtml/khtml_global.cpp:193
+msgid "KHTML"
+msgstr "కెహెచ్టిఎంఎల్"
+
+#: khtml/khtml_global.cpp:194
+msgid "Embeddable HTML component"
+msgstr "పొదగదగ్గ హెచ్టిఎంఎల్ అంశం"
+
+#: khtml/khtml_global.cpp:196
+msgid "Lars Knoll"
+msgstr ""
+
+#: khtml/khtml_global.cpp:197
+msgid "Antti Koivisto"
+msgstr ""
+
+#: khtml/khtml_global.cpp:199
+msgid "Dirk Mueller"
+msgstr ""
+
+#: khtml/khtml_global.cpp:200
+msgid "Peter Kelly"
+msgstr ""
+
+#: khtml/khtml_global.cpp:201
+msgid "Torben Weis"
+msgstr ""
+
+#: khtml/khtml_global.cpp:202
+msgid "Martin Jones"
+msgstr ""
+
+#: khtml/khtml_global.cpp:203
+msgid "Simon Hausmann"
+msgstr ""
+
+#: khtml/khtml_global.cpp:204
+msgid "Tobias Anton"
+msgstr ""
+
 #: khtml/khtml_ext.cpp:431
 msgid "&Copy Text"
 msgstr "(&C) వచనంను నకలు చేయి"
@@ -9935,15 +9975,15 @@ msgstr "(&N) కొత్త టాబ్ లో తెరువు"
 msgid "Reload Frame"
 msgstr "చట్రాన్ని మళ్లి ఎక్కించు"
 
-#: khtml/khtml_ext.cpp:590 khtml/khtml_part.cpp:393
+#: khtml/khtml_ext.cpp:590 khtml/khtml_part.cpp:394
 msgid "Print Frame..."
 msgstr "చట్రం ప్రచురించు..."
 
-#: khtml/khtml_ext.cpp:596 khtml/khtml_part.cpp:279
+#: khtml/khtml_ext.cpp:596 khtml/khtml_part.cpp:280
 msgid "Save &Frame As..."
 msgstr "(&F) చట్రాన్ని ఇలా దాచు..."
 
-#: khtml/khtml_ext.cpp:601 khtml/khtml_part.cpp:261
+#: khtml/khtml_ext.cpp:601 khtml/khtml_part.cpp:262
 msgid "View Frame Source"
 msgstr "చట్ర మూలాన్ని చూపుము"
 
@@ -10095,238 +10135,238 @@ msgstr "చిత్రాలను ప్రచురించు"
 msgid "Print header"
 msgstr "హెడర్ను ప్రచురించు"
 
-#: khtml/khtml_part.cpp:256
+#: khtml/khtml_part.cpp:257
 msgid "View Do&cument Source"
 msgstr "(&c) పత్ర మూలాన్ని చూపు"
 
-#: khtml/khtml_part.cpp:265
+#: khtml/khtml_part.cpp:266
 msgid "View Document Information"
 msgstr "పత్ర సమాచారం చూపు"
 
-#: khtml/khtml_part.cpp:270
+#: khtml/khtml_part.cpp:271
 msgid "Save &Background Image As..."
 msgstr ""
 
-#: khtml/khtml_part.cpp:283
+#: khtml/khtml_part.cpp:284
 msgid "Print Rendering Tree to STDOUT"
 msgstr "రెండరింగ్ ట్రీ ను STDOUT కు ప్రచురించు"
 
-#: khtml/khtml_part.cpp:287
+#: khtml/khtml_part.cpp:288
 msgid "Print DOM Tree to STDOUT"
 msgstr "డామ్ ట్రీ ను STDOUT కు ప్రచురించు"
 
-#: khtml/khtml_part.cpp:291
+#: khtml/khtml_part.cpp:292
 msgid "Stop Animated Images"
 msgstr "ఎనిమేటెడ్ చిత్రాలను ఆపు"
 
-#: khtml/khtml_part.cpp:295
+#: khtml/khtml_part.cpp:296
 msgid "Set &Encoding"
 msgstr ""
 
-#: khtml/khtml_part.cpp:334
+#: khtml/khtml_part.cpp:335
 msgid "Use S&tylesheet"
 msgstr ""
 
-#: khtml/khtml_part.cpp:339
+#: khtml/khtml_part.cpp:340
 msgid "Enlarge Font"
 msgstr "అక్షరాలను పెద్దవి చేయి"
 
-#: khtml/khtml_part.cpp:343
+#: khtml/khtml_part.cpp:344
 msgid ""
 "Enlarge Font<br /><br />Make the font in this window bigger. Click and hold "
 "down the mouse button for a menu with all available font sizes."
 msgstr ""
 
-#: khtml/khtml_part.cpp:347
+#: khtml/khtml_part.cpp:348
 msgid "Shrink Font"
 msgstr "అక్షరాలను చిన్నవి చేయి"
 
-#: khtml/khtml_part.cpp:351
+#: khtml/khtml_part.cpp:352
 msgid ""
 "Shrink Font<br /><br />Make the font in this window smaller. Click and hold "
 "down the mouse button for a menu with all available font sizes."
 msgstr ""
 
-#: khtml/khtml_part.cpp:357
+#: khtml/khtml_part.cpp:358
 msgid ""
 "Find text<br /><br />Shows a dialog that allows you to find text on the "
 "displayed page."
 msgstr ""
 
-#: khtml/khtml_part.cpp:361
+#: khtml/khtml_part.cpp:362
 msgid ""
 "Find next<br /><br />Find the next occurrence of the text that you have "
 "found using the <b>Find Text</b> function"
 msgstr ""
 
-#: khtml/khtml_part.cpp:367
+#: khtml/khtml_part.cpp:368
 msgid ""
 "Find previous<br /><br />Find the previous occurrence of the text that you "
 "have found using the <b>Find Text</b> function"
 msgstr ""
 
-#: khtml/khtml_part.cpp:371
+#: khtml/khtml_part.cpp:372
 msgid "Find Text as You Type"
 msgstr "వచనం వ్రాస్తుండగా వెతుకు"
 
-#: khtml/khtml_part.cpp:376
+#: khtml/khtml_part.cpp:377
 msgid "Find Links as You Type"
 msgstr "లింకులు వ్రాస్తుండగా వెతుకు"
 
-#: khtml/khtml_part.cpp:397
+#: khtml/khtml_part.cpp:398
 msgid ""
 "Print Frame<br /><br />Some pages have several frames. To print only a "
 "single frame, click on it and then use this function."
 msgstr ""
 
-#: khtml/khtml_part.cpp:406
+#: khtml/khtml_part.cpp:407
 msgid "Toggle Caret Mode"
 msgstr "హంసపాదు స్థితిని మార్చు"
 
-#: khtml/khtml_part.cpp:611
+#: khtml/khtml_part.cpp:612
 #, kde-format
 msgid "The fake user-agent '%1' is in use."
 msgstr "నకిలి '%1' యూజర్-ఎజెంట్ వాడుకలో వుంది."
 
-#: khtml/khtml_part.cpp:1096
+#: khtml/khtml_part.cpp:1097
 msgid "This web page contains coding errors."
 msgstr "ఈ వెబ్ సైట్ లొ కొడింగ్ దొషాలు కలవు"
 
-#: khtml/khtml_part.cpp:1138
+#: khtml/khtml_part.cpp:1139
 msgid "&Hide Errors"
 msgstr "(&H) దోషములను దాచు"
 
-#: khtml/khtml_part.cpp:1139
+#: khtml/khtml_part.cpp:1140
 msgid "&Disable Error Reporting"
 msgstr "(&D) దొషలను నివేదించటం ఆపు"
 
-#: khtml/khtml_part.cpp:1182
+#: khtml/khtml_part.cpp:1183
 #, kde-format
 msgid "<b>Error</b>: %1: %2"
 msgstr "<b>తప్పు</b>: %1: %2"
 
-#: khtml/khtml_part.cpp:1229
+#: khtml/khtml_part.cpp:1230
 #, kde-format
 msgid "<b>Error</b>: node %1: %2"
 msgstr "<b>తప్పు</b>: నోడ్ %1: %2"
 
-#: khtml/khtml_part.cpp:1362
+#: khtml/khtml_part.cpp:1363
 msgid "Display Images on Page"
 msgstr "పుతలొని చిత్రాలను చూపు"
 
-#: khtml/khtml_part.cpp:1697
+#: khtml/khtml_part.cpp:1698
 #, kde-format
 msgid "Error while loading %1"
 msgstr "%1 ఎక్కించునప్పుడు దోషము"
 
-#: khtml/khtml_part.cpp:1699
+#: khtml/khtml_part.cpp:1700
 #, kde-format
 msgid "An error occurred while loading <B>%1</B>:"
 msgstr "<B>%1<B> ఎక్కించునప్పుడు దోషము వచ్చినది:"
 
-#: khtml/khtml_part.cpp:1734
+#: khtml/khtml_part.cpp:1735
 msgid "Error: "
 msgstr "దోషము:"
 
-#: khtml/khtml_part.cpp:1737
+#: khtml/khtml_part.cpp:1738
 msgid "The requested operation could not be completed"
 msgstr "మనవి చేసిన కార్యం పూర్తి చేయలేక పోయాను"
 
-#: khtml/khtml_part.cpp:1743
+#: khtml/khtml_part.cpp:1744
 msgid "Technical Reason: "
 msgstr "సాంక్యెతిక కారణం:"
 
-#: khtml/khtml_part.cpp:1748
+#: khtml/khtml_part.cpp:1749
 msgid "Details of the Request:"
 msgstr "మనవి వివరాలు:"
 
-#: khtml/khtml_part.cpp:1750
+#: khtml/khtml_part.cpp:1751
 #, kde-format
 msgid "URL: %1"
 msgstr "యుఆర్ఎల్: %1"
 
-#: khtml/khtml_part.cpp:1757
+#: khtml/khtml_part.cpp:1758
 #, kde-format
 msgid "Date and Time: %1"
 msgstr "తేదీ మరయూ సమయం: %1"
 
-#: khtml/khtml_part.cpp:1759
+#: khtml/khtml_part.cpp:1760
 #, kde-format
 msgid "Additional Information: %1"
 msgstr "అదనపు సమాచారం: %1"
 
-#: khtml/khtml_part.cpp:1761
+#: khtml/khtml_part.cpp:1762
 msgid "Description:"
 msgstr "వర్ణన:"
 
-#: khtml/khtml_part.cpp:1767
+#: khtml/khtml_part.cpp:1768
 msgid "Possible Causes:"
 msgstr "సాద్యమైన కారణాలు:"
 
-#: khtml/khtml_part.cpp:1774
+#: khtml/khtml_part.cpp:1775
 msgid "Possible Solutions:"
 msgstr "సాద్యమైన పరిష్కారాలు:"
 
-#: khtml/khtml_part.cpp:2115
+#: khtml/khtml_part.cpp:2116
 msgid "Page loaded."
 msgstr "పుట ఎక్కించబడినది."
 
-#: khtml/khtml_part.cpp:2117
+#: khtml/khtml_part.cpp:2118
 #, kde-format
 msgid "%1 Image of %2 loaded."
 msgid_plural "%1 Images of %2 loaded."
 msgstr[0] "%2 చిత్రంలో %1 ఎక్కించబడింది."
 msgstr[1] "%2 చిత్రాలలో %1 ఎక్కించబడినవి"
 
-#: khtml/khtml_part.cpp:2278
+#: khtml/khtml_part.cpp:2279
 msgid "Automatic Detection"
 msgstr ""
 
-#: khtml/khtml_part.cpp:3630 khtml/khtml_part.cpp:3717
-#: khtml/khtml_part.cpp:3728
+#: khtml/khtml_part.cpp:3631 khtml/khtml_part.cpp:3718
+#: khtml/khtml_part.cpp:3729
 msgid " (In new window)"
 msgstr " (కొత్త విండొ లొ)"
 
-#: khtml/khtml_part.cpp:3669
+#: khtml/khtml_part.cpp:3670
 msgid "Symbolic Link"
 msgstr "చిహ్నమైన లింకు"
 
-#: khtml/khtml_part.cpp:3671
+#: khtml/khtml_part.cpp:3672
 #, kde-format
 msgid "%1 (Link)"
 msgstr "%1 (లింకు)"
 
-#: khtml/khtml_part.cpp:3691
+#: khtml/khtml_part.cpp:3692
 #, kde-format
 msgid "%2 (%1 bytes)"
 msgstr "%2 (%1 బైట్లు)"
 
-#: khtml/khtml_part.cpp:3695
+#: khtml/khtml_part.cpp:3696
 #, kde-format
 msgid "%2 (%1 K)"
 msgstr "%2 (%1 కె)"
 
-#: khtml/khtml_part.cpp:3730
+#: khtml/khtml_part.cpp:3731
 msgid " (In other frame)"
 msgstr " (ఇంకొక చట్రంలొ)"
 
-#: khtml/khtml_part.cpp:3735
+#: khtml/khtml_part.cpp:3736
 msgid "Email to: "
 msgstr "ఈమెయిల్ చెయి:"
 
-#: khtml/khtml_part.cpp:3741
+#: khtml/khtml_part.cpp:3742
 msgid " - Subject: "
 msgstr "- విషయము:"
 
-#: khtml/khtml_part.cpp:3743
+#: khtml/khtml_part.cpp:3744
 msgid " - CC: "
 msgstr "- సిసి:"
 
-#: khtml/khtml_part.cpp:3745
+#: khtml/khtml_part.cpp:3746
 msgid " - BCC: "
 msgstr "- బిసిసి:"
 
-#: khtml/khtml_part.cpp:3827
+#: khtml/khtml_part.cpp:3828
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>This untrusted page links to<BR><B>%1</B>.<BR>Do you want to follow "
@@ -10337,36 +10377,36 @@ msgid ""
 msgstr ""
 "<qt>ఈ అవిశ్వసనీయ పుట <BR><B>%1</B> కు లింకు చెయబడింది.<BR>మీరు దానిని అనుసరించమంటారా?"
 
-#: khtml/khtml_part.cpp:3828
+#: khtml/khtml_part.cpp:3829
 msgid "Follow"
 msgstr "అనుసరించు"
 
-#: khtml/khtml_part.cpp:3935
+#: khtml/khtml_part.cpp:3936
 msgid "Frame Information"
 msgstr "చట్రపు సమాచారం"
 
-#: khtml/khtml_part.cpp:3941
+#: khtml/khtml_part.cpp:3942
 #, kde-format
 msgid "   <a href=\"%1\">[Properties]</a>"
 msgstr " <a href=\"%1\">[గుణములు]</a>"
 
-#: khtml/khtml_part.cpp:4026
+#: khtml/khtml_part.cpp:4027
 msgid "Save Background Image As"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4110
+#: khtml/khtml_part.cpp:4111
 msgid "Save Frame As"
 msgstr "చట్రాన్ని ఇలా దాచు"
 
-#: khtml/khtml_part.cpp:4152
+#: khtml/khtml_part.cpp:4153
 msgid "&Find in Frame..."
 msgstr "(&F) చట్రంలో వెతుకు..."
 
-#: khtml/khtml_part.cpp:4154 kdeui/actions/kstandardaction_p.h:64
+#: khtml/khtml_part.cpp:4155 kdeui/actions/kstandardaction_p.h:64
 msgid "&Find..."
 msgstr "(&F) కనుగొను..."
 
-#: khtml/khtml_part.cpp:4664
+#: khtml/khtml_part.cpp:4665
 msgid ""
 "Warning:  This is a secure form but it is attempting to send your data back "
 "unencrypted.\n"
@@ -10374,98 +10414,98 @@ msgid ""
 "Are you sure you wish to continue?"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4667 khtml/khtml_part.cpp:4676
-#: khtml/khtml_part.cpp:4700
+#: khtml/khtml_part.cpp:4668 khtml/khtml_part.cpp:4677
+#: khtml/khtml_part.cpp:4701
 msgid "Network Transmission"
 msgstr "నెట్వర్క్ ప్రసారాలు"
 
-#: khtml/khtml_part.cpp:4667 khtml/khtml_part.cpp:4677
+#: khtml/khtml_part.cpp:4668 khtml/khtml_part.cpp:4678
 msgid "&Send Unencrypted"
 msgstr "(&S) ఎన్ క్రిప్ట్ చేయకుండా పంపించు"
 
-#: khtml/khtml_part.cpp:4674
+#: khtml/khtml_part.cpp:4675
 msgid ""
 "Warning: Your data is about to be transmitted across the network "
 "unencrypted.\n"
 "Are you sure you wish to continue?"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4698
+#: khtml/khtml_part.cpp:4699
 msgid ""
 "This site is attempting to submit form data via email.\n"
 "Do you want to continue?"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4701
+#: khtml/khtml_part.cpp:4702
 msgid "&Send Email"
 msgstr "(&S) ఈమెయిల్ పంపించు"
 
-#: khtml/khtml_part.cpp:4723
+#: khtml/khtml_part.cpp:4724
 #, kde-format
 msgid ""
 "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
 "filesystem.<br />Do you want to submit the form?</qt>"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4724 khtml/khtmlview.cpp:2784 khtml/khtmlview.cpp:2826
+#: khtml/khtml_part.cpp:4725 khtml/khtmlview.cpp:2784 khtml/khtmlview.cpp:2826
 #: khtml/html/html_formimpl.cpp:1563 khtml/html/html_formimpl.cpp:2171
 msgid "Submit"
 msgstr "అందించు"
 
-#: khtml/khtml_part.cpp:4773
+#: khtml/khtml_part.cpp:4774
 msgid ""
 "This site attempted to attach a file from your computer in the form "
 "submission. The attachment was removed for your protection."
 msgstr ""
 
-#: khtml/khtml_part.cpp:5723
+#: khtml/khtml_part.cpp:5724
 #, kde-format
 msgid "(%1/s)"
 msgstr "(%1/s)"
 
-#: khtml/khtml_part.cpp:6770
+#: khtml/khtml_part.cpp:6771
 msgid "Security Warning"
 msgstr "భద్రతా హెచ్చరిక"
 
-#: khtml/khtml_part.cpp:6776
+#: khtml/khtml_part.cpp:6777
 #, fuzzy, kde-format
 #| msgid "<qt>Access by untrusted page to<BR><B>%1</B><BR> denied."
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr "<qt>అవిశ్వసనీయ పుట <BR><B>%1</B><BR> నుంచి అనుమతి నిరాకరించడమైనది."
 
-#: khtml/khtml_part.cpp:6777 khtml/java/kjavaappletserver.cpp:823
+#: khtml/khtml_part.cpp:6778 khtml/java/kjavaappletserver.cpp:823
 msgid "Security Alert"
 msgstr "భద్రతా హెచ్చరిక"
 
-#: khtml/khtml_part.cpp:7124
+#: khtml/khtml_part.cpp:7125
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr "'%1' వాలెట్ తెరవబడివున్నది మరయు ఫారం దత్తాంశాలు మరయూ పాస్ వర్డుల కొరకు వాడబడుతుంది."
 
-#: khtml/khtml_part.cpp:7181
+#: khtml/khtml_part.cpp:7182
 msgid "&Close Wallet"
 msgstr "(&C) వాలెట్ ముసివేయి"
 
-#: khtml/khtml_part.cpp:7224
+#: khtml/khtml_part.cpp:7225
 msgid "JavaScript &Debugger"
 msgstr "(&D) జావాస్క్రిప్ట్ డీబగ్గర్"
 
-#: khtml/khtml_part.cpp:7257
+#: khtml/khtml_part.cpp:7258
 msgid "This page was prevented from opening a new window via JavaScript."
 msgstr "జావాస్క్రిప్ట్ ద్వారా కొత్త విండొ తెరవకుండా ఈ పుటను ఆపడమైనది"
 
-#: khtml/khtml_part.cpp:7263
+#: khtml/khtml_part.cpp:7264
 msgid "Popup Window Blocked"
 msgstr "పాప్ అప్ విండొ ఆపివేయడమైనది"
 
-#: khtml/khtml_part.cpp:7263
+#: khtml/khtml_part.cpp:7264
 msgid ""
 "This page has attempted to open a popup window but was blocked.\n"
 "You can click on this icon in the status bar to control this behavior\n"
 "or to open the popup."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7276
+#: khtml/khtml_part.cpp:7277
 #, fuzzy, kde-format
 #| msgid "&Show Blocked Popup Window"
 #| msgid_plural "Show %1 Blocked Popup Windows"
@@ -10474,11 +10514,11 @@ msgid_plural "&Show %1 Blocked Popup Windows"
 msgstr[0] "(&S) ఆపివేయబడిన పాప్ అప్ విండొను చూపు"
 msgstr[1] "%1 ఆపివేయబడిన పాప్ అప్ విండొలను చూపు"
 
-#: khtml/khtml_part.cpp:7277
+#: khtml/khtml_part.cpp:7278
 msgid "Show Blocked Window Passive Popup &Notification"
 msgstr "(&N) ఆపిన విండొ లొ వూరికేవున్న పాప్ అప్ ప్రకటనను చూపు"
 
-#: khtml/khtml_part.cpp:7279
+#: khtml/khtml_part.cpp:7280
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "&(C) జావాస్క్రిప్ట్ కొత్త విండొ పాలసీలను అమర్చు..."
 
@@ -10570,46 +10610,6 @@ msgstr ""
 
 #: khtml/test_regression_gui_main.cpp:35
 msgid "GUI for the khtml regression tester"
-msgstr ""
-
-#: khtml/khtml_factory.cpp:166
-msgid "KHTML"
-msgstr "కెహెచ్టిఎంఎల్"
-
-#: khtml/khtml_factory.cpp:167
-msgid "Embeddable HTML component"
-msgstr "పొదగదగ్గ హెచ్టిఎంఎల్ అంశం"
-
-#: khtml/khtml_factory.cpp:169
-msgid "Lars Knoll"
-msgstr ""
-
-#: khtml/khtml_factory.cpp:170
-msgid "Antti Koivisto"
-msgstr ""
-
-#: khtml/khtml_factory.cpp:172
-msgid "Dirk Mueller"
-msgstr ""
-
-#: khtml/khtml_factory.cpp:173
-msgid "Peter Kelly"
-msgstr ""
-
-#: khtml/khtml_factory.cpp:174
-msgid "Torben Weis"
-msgstr ""
-
-#: khtml/khtml_factory.cpp:175
-msgid "Martin Jones"
-msgstr ""
-
-#: khtml/khtml_factory.cpp:176
-msgid "Simon Hausmann"
-msgstr ""
-
-#: khtml/khtml_factory.cpp:177
-msgid "Tobias Anton"
 msgstr ""
 
 #: khtml/xml/xml_tokenizer.cpp:315
@@ -11404,7 +11404,7 @@ msgstr "విడిచిపెట్టుము"
 msgid "Configure Notifications"
 msgstr "(&N) ప్రకటనలను అమర్చు..."
 
-#: knotify/config/knotifyeventlist.cpp:95
+#: knotify/config/knotifyeventlist.cpp:93
 #, fuzzy
 #| msgctxt "person"
 #| msgid "Title"
@@ -11412,14 +11412,14 @@ msgctxt "Title of the notified event"
 msgid "Title"
 msgstr "కితాబు"
 
-#: knotify/config/knotifyeventlist.cpp:95
+#: knotify/config/knotifyeventlist.cpp:93
 #, fuzzy
 #| msgid "Description"
 msgctxt "Description of the notified event"
 msgid "Description"
 msgstr "వర్ణన"
 
-#: knotify/config/knotifyeventlist.cpp:95
+#: knotify/config/knotifyeventlist.cpp:93
 #, fuzzy
 #| msgid "State"
 msgctxt "State of the notified event"
@@ -12657,15 +12657,15 @@ msgstr "నిర్దేశితమైన..."
 msgid "TETest"
 msgstr "పరీక్ష"
 
-#: khtml/khtml_settings.cc:151
+#: khtml/khtml_settings.cc:152
 msgid "Accept"
 msgstr "అంగీకరించు"
 
-#: khtml/khtml_settings.cc:152
+#: khtml/khtml_settings.cc:153
 msgid "Reject"
 msgstr "తిరస్కరించు"
 
-#: khtml/khtml_settings.cc:778
+#: khtml/khtml_settings.cc:779
 msgid "Filter error"
 msgstr "గలని దోషము"
 
