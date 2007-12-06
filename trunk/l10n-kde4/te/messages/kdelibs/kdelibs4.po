@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-05 05:57+0100\n"
+"POT-Creation-Date: 2007-12-06 06:00+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -658,7 +658,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 206
-#: rc.cpp:291 kutils/kpluginselector.cpp:62
+#: rc.cpp:291 kutils/kpluginselector.cpp:63
 msgid "Settings"
 msgstr "అమరికలు"
 
@@ -4868,7 +4868,7 @@ msgstr "కొత్తవాటిని పంచుకో"
 msgid "Please give some information about yourself."
 msgstr ""
 
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:67
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:67 kutils/kpluginselector.cpp:1671
 msgid "Author:"
 msgstr "మూలకర్త:"
 
@@ -4886,11 +4886,11 @@ msgid "Name:"
 msgstr "పేరు:"
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:85
-#: kdeui/dialogs/kbugreport.cpp:205
+#: kdeui/dialogs/kbugreport.cpp:205 kutils/kpluginselector.cpp:1715
 msgid "Version:"
 msgstr "వివరణం:"
 
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:90
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:90 kutils/kpluginselector.cpp:1724
 msgid "License:"
 msgstr "లైసెన్స్:"
 
@@ -5980,15 +5980,15 @@ msgstr "అమర్చు"
 msgid "&Try"
 msgstr "(&T) ప్రయత్నించుము"
 
-#: kdeui/dialogs/kdialog.cpp:453
+#: kdeui/dialogs/kdialog.cpp:458
 msgid "modified"
 msgstr "మార్చబడినది"
 
-#: kdeui/dialogs/kdialog.cpp:833
+#: kdeui/dialogs/kdialog.cpp:838
 msgid "&Details"
 msgstr "(&D) వివరములు"
 
-#: kdeui/dialogs/kdialog.cpp:981
+#: kdeui/dialogs/kdialog.cpp:986
 msgid "Get help..."
 msgstr "సహాయం పొందండి..."
 
@@ -6014,8 +6014,8 @@ msgstr ""
 msgid "Reset ToolBars"
 msgstr "పనిముట్ల పట్టీలు"
 
-#: kdeui/dialogs/kedittoolbar.cpp:506 khtml/khtmlview.cpp:2798
-#: khtml/khtmlview.cpp:2831 khtml/html/html_formimpl.cpp:2163
+#: kdeui/dialogs/kedittoolbar.cpp:506 khtml/khtmlview.cpp:2801
+#: khtml/khtmlview.cpp:2834 khtml/html/html_formimpl.cpp:2163
 msgid "Reset"
 msgstr ""
 
@@ -10289,7 +10289,7 @@ msgstr "తేదీ మరయూ సమయం: %1"
 msgid "Additional Information: %1"
 msgstr "అదనపు సమాచారం: %1"
 
-#: khtml/khtml_part.cpp:1762
+#: khtml/khtml_part.cpp:1762 kutils/kpluginselector.cpp:1661
 msgid "Description:"
 msgstr "వర్ణన:"
 
@@ -10441,7 +10441,7 @@ msgid ""
 "filesystem.<br />Do you want to submit the form?</qt>"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4725 khtml/khtmlview.cpp:2784 khtml/khtmlview.cpp:2826
+#: khtml/khtml_part.cpp:4725 khtml/khtmlview.cpp:2787 khtml/khtmlview.cpp:2829
 #: khtml/html/html_formimpl.cpp:1563 khtml/html/html_formimpl.cpp:2171
 msgid "Submit"
 msgstr "అందించు"
@@ -10562,39 +10562,39 @@ msgstr "(&G) వరుసకు వెళ్ళు..."
 msgid "Remove from ignores..."
 msgstr ""
 
-#: khtml/khtmlview.cpp:1754
+#: khtml/khtmlview.cpp:1757
 msgid "Find stopped."
 msgstr "వెతుకుట ఆగిపొయింది."
 
-#: khtml/khtmlview.cpp:1765
+#: khtml/khtmlview.cpp:1768
 msgid "Starting -- find links as you type"
 msgstr "మొదలు  - లింకులు వ్రాస్తుండగా వెతుకు"
 
-#: khtml/khtmlview.cpp:1771
+#: khtml/khtmlview.cpp:1774
 msgid "Starting -- find text as you type"
 msgstr "మొదలు - వచనం వ్రాస్తుండగా వెతుకు"
 
-#: khtml/khtmlview.cpp:1794
+#: khtml/khtmlview.cpp:1797
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "లింకు దొరికింది: \"%1\"."
 
-#: khtml/khtmlview.cpp:1799
+#: khtml/khtmlview.cpp:1802
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "లింకు దొరకలేదు: \"%1\"."
 
-#: khtml/khtmlview.cpp:1807
+#: khtml/khtmlview.cpp:1810
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "వచనం దొరికింది: \"%1\""
 
-#: khtml/khtmlview.cpp:1812
+#: khtml/khtmlview.cpp:1815
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "వచనం దొరకలేదు: \"%1\""
 
-#: khtml/khtmlview.cpp:1858
+#: khtml/khtmlview.cpp:1861
 msgid "Access Keys activated"
 msgstr ""
 
@@ -11685,21 +11685,21 @@ msgid ""
 "contacting your distributor or packager.</p></qt>"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:63
+#: kutils/kpluginselector.cpp:64
 msgid "About"
 msgstr "గురించి"
 
-#: kutils/kpluginselector.cpp:157
+#: kutils/kpluginselector.cpp:158
 msgid "Automatic changes have been performed due to plugin dependencies"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:224
+#: kutils/kpluginselector.cpp:225
 msgid ""
 "Automatically changes have been performed in order to satisfy plugin "
 "dependencies:\n"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:228
+#: kutils/kpluginselector.cpp:229
 #, kde-format
 msgid ""
 "\n"
@@ -11707,7 +11707,7 @@ msgid ""
 "plugin"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:230
+#: kutils/kpluginselector.cpp:231
 #, kde-format
 msgid ""
 "\n"
@@ -11715,79 +11715,47 @@ msgid ""
 "plugin"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:232
+#: kutils/kpluginselector.cpp:233
 msgid "Dependency Check"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:250
+#: kutils/kpluginselector.cpp:251
 #, kde-format
 msgid "%1 plugin added"
 msgid_plural "%1 plugins added"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kutils/kpluginselector.cpp:253
+#: kutils/kpluginselector.cpp:254
 msgid ", "
 msgstr ""
 
-#: kutils/kpluginselector.cpp:256
+#: kutils/kpluginselector.cpp:257
 #, kde-format
 msgid "%1 plugin removed"
 msgid_plural "%1 plugins removed"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kutils/kpluginselector.cpp:259
+#: kutils/kpluginselector.cpp:260
 msgid " since the last time you asked for details"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:1634
+#: kutils/kpluginselector.cpp:1646
 #, fuzzy, kde-format
 #| msgid "About %1"
 msgid "About %1 plugin"
 msgstr "%1 గురించి"
 
-#: kutils/kpluginselector.cpp:1642
-#, fuzzy, kde-format
-#| msgid "Description:"
-msgid ""
-"Description:\n"
-"\t%1"
-msgstr "వర్ణన:"
-
-#: kutils/kpluginselector.cpp:1647
-#, fuzzy, kde-format
-#| msgid "Author:"
-msgid ""
-"Author:\n"
-"\t%1"
-msgstr "మూలకర్త:"
-
-#: kutils/kpluginselector.cpp:1652
+#: kutils/kpluginselector.cpp:1679
 #, fuzzy
 #| msgid "Email:"
 msgid "E-Mail:"
 msgstr "ఈమెయిల్:"
 
-#: kutils/kpluginselector.cpp:1658
+#: kutils/kpluginselector.cpp:1697
 msgid "Website:"
 msgstr ""
-
-#: kutils/kpluginselector.cpp:1664
-#, fuzzy, kde-format
-#| msgid "Version:"
-msgid ""
-"Version:\n"
-"\t%1"
-msgstr "వివరణం:"
-
-#: kutils/kpluginselector.cpp:1669
-#, fuzzy, kde-format
-#| msgid "License:"
-msgid ""
-"License:\n"
-"\t%1"
-msgstr "లైసెన్స్:"
 
 #: kutils/kprintpreview.cpp:123
 #, fuzzy
@@ -12894,6 +12862,34 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br>యూనికోడ్ కోడ్ పాయింట్: U+%3<br>(దశాంశం "
 "లో: %4)<br>(అక్షరం: %5)</qt>"
+
+#, fuzzy
+#~| msgid "Description:"
+#~ msgid ""
+#~ "Description:\n"
+#~ "\t%1"
+#~ msgstr "వర్ణన:"
+
+#, fuzzy
+#~| msgid "Author:"
+#~ msgid ""
+#~ "Author:\n"
+#~ "\t%1"
+#~ msgstr "మూలకర్త:"
+
+#, fuzzy
+#~| msgid "Version:"
+#~ msgid ""
+#~ "Version:\n"
+#~ "\t%1"
+#~ msgstr "వివరణం:"
+
+#, fuzzy
+#~| msgid "License:"
+#~ msgid ""
+#~ "License:\n"
+#~ "\t%1"
+#~ msgstr "లైసెన్స్:"
 
 #, fuzzy
 #~| msgid "Popup Menu Context"
