@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-12 06:07+0100\n"
+"POT-Creation-Date: 2007-12-13 06:07+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -7516,14 +7516,28 @@ msgid "No entries"
 msgstr "గుణములు"
 
 #: kdeui/actions/ktogglefullscreenaction.cpp:48
-#: kdeui/actions/ktogglefullscreenaction.cpp:54
-#: kdeui/actions/ktogglefullscreenaction.cpp:82
+#: kdeui/actions/ktogglefullscreenaction.cpp:55
+#: kdeui/actions/ktogglefullscreenaction.cpp:85
 #: kdeui/actions/kstandardaction_p.h:99
 msgid "F&ull Screen Mode"
 msgstr "(&u) పూర్తి తెర స్థితి"
 
-#: kdeui/actions/ktogglefullscreenaction.cpp:79
+#: kdeui/actions/ktogglefullscreenaction.cpp:51
+#: kdeui/actions/ktogglefullscreenaction.cpp:58
+#: kdeui/actions/ktogglefullscreenaction.cpp:86
+#, fuzzy
+#| msgid "Full Screen Mode"
+msgid "Full Screen"
+msgstr "పూర్తి తెర స్థితి"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:81
 msgid "Exit F&ull Screen Mode"
+msgstr "(&u) పూర్తి తెర స్థితి నుంచి బయటకు రా"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:82
+#, fuzzy
+#| msgid "Exit F&ull Screen Mode"
+msgid "Exit Full Screen"
 msgstr "(&u) పూర్తి తెర స్థితి నుంచి బయటకు రా"
 
 #: kdeui/actions/kcodecaction.cpp:93 kdeui/widgets/klineedit.cpp:1107
@@ -11503,40 +11517,40 @@ msgstr ""
 msgid "Daniel Molkentin"
 msgstr ""
 
-#: nepomuk/core/ui/kratingwidget.cpp:271
+#: nepomuk/core/ui/kratingwidget.cpp:273
 #, fuzzy
 #| msgid "Properties"
 msgid "Not yet rated"
 msgstr "గుణములు"
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:171
+#: nepomuk/core/ui/kmetadatatagwidget.cpp:170
 #, fuzzy
 #| msgid "resource"
 msgid "Tag resource..."
 msgstr "వనరు"
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:184
+#: nepomuk/core/ui/kmetadatatagwidget.cpp:183
 msgid "Create new tag..."
 msgstr ""
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:189
+#: nepomuk/core/ui/kmetadatatagwidget.cpp:188
 #, fuzzy
 #| msgid "New Game"
 msgid "New Tag"
 msgstr "కొత్త ఆట"
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:189
+#: nepomuk/core/ui/kmetadatatagwidget.cpp:188
 #, fuzzy
 #| msgid "Please select type of the new resource:"
 msgid "Please insert the name of the new tag"
 msgstr "కొత్త వనరు యొక్క రకమును ఎంచుకొనుము."
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:198
+#: nepomuk/core/ui/kmetadatatagwidget.cpp:197
 #, kde-format
 msgid "The tag %1 already exists"
 msgstr ""
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:198
+#: nepomuk/core/ui/kmetadatatagwidget.cpp:197
 #, fuzzy
 #| msgid "Test"
 msgid "Tag exists"
@@ -11546,23 +11560,23 @@ msgstr "పరీక్ష"
 msgid "tagcloudtest"
 msgstr ""
 
-#: nepomuk/core/generated/resource.cpp:265
+#: nepomuk/core/generated/resource.cpp:297
 msgid "Success"
 msgstr ""
 
-#: nepomuk/core/generated/resource.cpp:267
+#: nepomuk/core/generated/resource.cpp:299
 #, fuzzy
 #| msgid "Configuration"
 msgid "Communication error"
 msgstr "అమరిక"
 
-#: nepomuk/core/generated/resource.cpp:269
+#: nepomuk/core/generated/resource.cpp:301
 #, fuzzy
 #| msgid "Invalid certificate!"
 msgid "Invalid type in Database"
 msgstr "చెల్లని ధృవ పత్రము!"
 
-#: nepomuk/core/generated/resource.cpp:271
+#: nepomuk/core/generated/resource.cpp:303
 #, fuzzy
 #| msgctxt "QFile"
 #| msgid "Unknown error"
