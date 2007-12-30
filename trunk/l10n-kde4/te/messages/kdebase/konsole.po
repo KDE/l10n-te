@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-29 06:14+0100\n"
+"POT-Creation-Date: 2007-12-30 06:20+0100\n"
 "PO-Revision-Date: 2007-03-22 20:26+0530\n"
 "Last-Translator: Vijay Kiran Kamuju <infyquest@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -124,11 +124,11 @@ msgstr ""
 msgid "Color 8 (Intense)"
 msgstr ""
 
-#: ColorScheme.cpp:281
+#: ColorScheme.cpp:279
 msgid "Un-named Color Scheme"
 msgstr ""
 
-#: ColorScheme.cpp:387
+#: ColorScheme.cpp:385
 msgid "Accessible Color Scheme"
 msgstr ""
 
@@ -142,63 +142,63 @@ msgstr ""
 msgid "Color"
 msgstr "విం రంగులు"
 
-#: EditProfileDialog.cpp:64
+#: EditProfileDialog.cpp:65
 msgid "Edit Profile"
 msgstr ""
 
-#: EditProfileDialog.cpp:122
+#: EditProfileDialog.cpp:127
 #, kde-format
 msgid "Edit Profile \"%1\""
 msgstr ""
 
-#: EditProfileDialog.cpp:242
+#: EditProfileDialog.cpp:247
 msgid "Edit Environment"
 msgstr ""
 
-#: EditProfileDialog.cpp:268
+#: EditProfileDialog.cpp:273
 msgid "Always hide tab bar"
 msgstr ""
 
-#: EditProfileDialog.cpp:269
+#: EditProfileDialog.cpp:274
 msgid "Show tab bar when needed"
 msgstr ""
 
-#: EditProfileDialog.cpp:270
+#: EditProfileDialog.cpp:275
 msgid "Always show tab bar"
 msgstr ""
 
-#: EditProfileDialog.cpp:275
+#: EditProfileDialog.cpp:280
 msgid "Below terminal displays"
 msgstr ""
 
-#: EditProfileDialog.cpp:276
+#: EditProfileDialog.cpp:281
 msgid "Above terminal displays"
 msgstr ""
 
-#: EditProfileDialog.cpp:363
+#: EditProfileDialog.cpp:368
 msgid "Select Initial Directory"
 msgstr ""
 
-#: EditProfileDialog.cpp:426
+#: EditProfileDialog.cpp:431
 #, fuzzy, kde-format
 #| msgctxt "abbreviation of number"
 #| msgid "%1 No. %2"
 msgid "%1, size %2"
 msgstr "%1 నం. %2"
 
-#: EditProfileDialog.cpp:629 EditProfileDialog.cpp:638
+#: EditProfileDialog.cpp:634 EditProfileDialog.cpp:643
 msgid "New Color Scheme"
 msgstr ""
 
-#: EditProfileDialog.cpp:631
+#: EditProfileDialog.cpp:636
 msgid "Edit Color Scheme"
 msgstr ""
 
-#: EditProfileDialog.cpp:766 EditProfileDialog.cpp:777
+#: EditProfileDialog.cpp:771 EditProfileDialog.cpp:782
 msgid "New Key Binding List"
 msgstr ""
 
-#: EditProfileDialog.cpp:768
+#: EditProfileDialog.cpp:773
 msgid "Edit Key Binding List"
 msgstr ""
 
@@ -342,7 +342,7 @@ msgstr ""
 msgid "Show Menu Bar"
 msgstr ""
 
-#: MainWindow.cpp:232
+#: MainWindow.cpp:232 Part.cpp:104
 msgid "Manage Profiles..."
 msgstr ""
 
@@ -437,131 +437,133 @@ msgstr ""
 msgid "ZModem Progress"
 msgstr ""
 
-#: SessionController.cpp:416
+#: SessionController.cpp:422
 msgid "&Close Tab"
 msgstr ""
 
-#: SessionController.cpp:422
+#: SessionController.cpp:428
 msgid "Open Browser Here"
 msgstr ""
 
-#: SessionController.cpp:429
+#: SessionController.cpp:435
 #, fuzzy
 #| msgid "&Top"
 msgid "&Copy"
 msgstr "(&T) పైన"
 
-#: SessionController.cpp:433
+#: SessionController.cpp:439
 msgid "&Paste"
 msgstr ""
 
-#: SessionController.cpp:446
+#: SessionController.cpp:452
 msgid "Paste Selection"
 msgstr ""
 
-#: SessionController.cpp:452
+#: SessionController.cpp:458
 msgid "&Rename Tab..."
 msgstr ""
 
-#: SessionController.cpp:467
+#: SessionController.cpp:473
 #, fuzzy
 #| msgid "Clear &History"
 msgid "C&lear Display"
 msgstr "(&H) చరిత్రను చెరపివెయి"
 
-#: SessionController.cpp:472
+#: SessionController.cpp:478
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Clear && Reset"
 msgstr "(&H) చరిత్రను చెరపివెయి"
 
-#: SessionController.cpp:477
+#: SessionController.cpp:483
 msgid "Monitor for &Activity"
 msgstr ""
 
-#: SessionController.cpp:482
+#: SessionController.cpp:488
 msgid "Monitor for &Silence"
 msgstr ""
 
-#: SessionController.cpp:488
+#: SessionController.cpp:494
 msgid "Set Character Encoding"
 msgstr ""
 
-#: SessionController.cpp:495
+#: SessionController.cpp:501
 msgid "Increase Text Size"
 msgstr ""
 
-#: SessionController.cpp:501
+#: SessionController.cpp:507
 msgid "Decrease Text Size"
 msgstr ""
 
-#: SessionController.cpp:507
+#: SessionController.cpp:513
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Search Output"
 msgstr "(&H) చరిత్రను చెరపివెయి"
 
-#: SessionController.cpp:516
+#: SessionController.cpp:522
 #, fuzzy
 #| msgid "Find"
 msgid "Find Next"
 msgstr "వెతుకు"
 
-#: SessionController.cpp:523
+#: SessionController.cpp:529
 msgid "Find Previous"
 msgstr ""
 
-#: SessionController.cpp:529
+#: SessionController.cpp:535
 #, fuzzy
 #| msgid "Save History"
 msgid "Save Output..."
 msgstr "చరిత్రను దాచు"
 
-#: SessionController.cpp:534
+#: SessionController.cpp:540
 #, fuzzy
 #| msgid "Save History"
 msgid "Scrollback Options..."
 msgstr "చరిత్రను దాచు"
 
-#: SessionController.cpp:539
+#: SessionController.cpp:545
 msgid "Clear Scrollback"
 msgstr ""
 
-#: SessionController.cpp:543
+#: SessionController.cpp:549
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Clear Scrollback && Reset"
 msgstr "(&H) చరిత్రను చెరపివెయి"
 
-#: SessionController.cpp:549
+#: SessionController.cpp:555
 msgid "Edit Current Profile..."
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file ../desktop/sessionui.rc line 59
-#: SessionController.cpp:553 rc.cpp:800
+#. i18n: tag text
+#. i18n: file ../desktop/partui.rc line 26
+#: SessionController.cpp:559 rc.cpp:800 rc.cpp:806
 msgid "Change Profile"
 msgstr ""
 
-#: SessionController.cpp:635
+#: SessionController.cpp:641
 msgid "Rename Tab"
 msgstr ""
 
-#: SessionController.cpp:636
+#: SessionController.cpp:642
 msgid "Enter new tab text:"
 msgstr ""
 
-#: SessionController.cpp:1056
+#: SessionController.cpp:1062
 #, kde-format
 msgid "Save Output from %1"
 msgstr ""
 
-#: SessionController.cpp:1067
+#: SessionController.cpp:1073
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 
-#: SessionController.cpp:1156
+#: SessionController.cpp:1162
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -1966,48 +1968,50 @@ msgid "Debug"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file ../desktop/konsoleui.rc line 5
-#: rc.cpp:803
-msgid "File"
-msgstr ""
-
-#. i18n: tag text
-#. i18n: file ../desktop/konsoleui.rc line 15
-#: rc.cpp:806
-#, fuzzy
-#| msgid "&Edit..."
-msgid "Edit"
-msgstr "(&E) మార్చు..."
-
+#. i18n: file ../desktop/partui.rc line 8
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 18
-#: rc.cpp:809
+#: rc.cpp:803 rc.cpp:815
 #, fuzzy
 #| msgid "Save History"
 msgid "Scrollback"
 msgstr "చరిత్రను దాచు"
 
 #. i18n: tag text
-#. i18n: file ../desktop/konsoleui.rc line 21
+#. i18n: file ../desktop/konsoleui.rc line 5
+#: rc.cpp:809
+msgid "File"
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file ../desktop/konsoleui.rc line 15
 #: rc.cpp:812
+#, fuzzy
+#| msgid "&Edit..."
+msgid "Edit"
+msgstr "(&E) మార్చు..."
+
+#. i18n: tag text
+#. i18n: file ../desktop/konsoleui.rc line 21
+#: rc.cpp:818
 msgid "View"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 22
-#: rc.cpp:815
+#: rc.cpp:821
 msgid "Split View"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 40
-#: rc.cpp:818
+#: rc.cpp:824
 msgid "Settings"
 msgstr "అమరికలు"
 
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 47
-#: rc.cpp:821
+#: rc.cpp:827
 msgid "Help"
 msgstr ""
 
