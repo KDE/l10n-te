@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kgoldrunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-18 07:59+0100\n"
+"POT-Creation-Date: 2008-01-19 08:57+0100\n"
 "PO-Revision-Date: 2007-07-14 13:32+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1724,7 +1724,7 @@ msgid ""
 "is a steady hand."
 msgstr ""
 
-#: src/kgoldrunner.cpp:203 src/kgrgame.cpp:152
+#: src/kgoldrunner.cpp:203 src/kgrgame.cpp:181
 msgid "&New Game..."
 msgstr "(&N) కొత్త ఆట"
 
@@ -1782,7 +1782,7 @@ msgstr "(&E) ఏ స్థాయినైనా మార్చు..."
 msgid "Edit any level..."
 msgstr "(&E) ఏ స్థాయినైనా మార్చు..."
 
-#: src/kgoldrunner.cpp:283 src/kgrgame.cpp:964
+#: src/kgoldrunner.cpp:283 src/kgrgame.cpp:986
 msgid "&Save Edits..."
 msgstr ""
 
@@ -2333,7 +2333,7 @@ msgstr ""
 msgid "Play Level"
 msgstr ""
 
-#: src/kgrdialog.cpp:176 src/kgrgame.cpp:1666 src/kgrgame.cpp:1678
+#: src/kgrdialog.cpp:176 src/kgrgame.cpp:1688 src/kgrgame.cpp:1700
 msgid "Edit Level"
 msgstr ""
 
@@ -2345,8 +2345,8 @@ msgstr ""
 msgid "Save Change"
 msgstr ""
 
-#: src/kgrdialog.cpp:185 src/kgrgame.cpp:1974 src/kgrgame.cpp:1996
-#: src/kgrgame.cpp:2013
+#: src/kgrdialog.cpp:185 src/kgrgame.cpp:1996 src/kgrgame.cpp:2018
+#: src/kgrgame.cpp:2035
 msgid "Delete Level"
 msgstr ""
 
@@ -2355,7 +2355,7 @@ msgid "Move To..."
 msgstr ""
 
 #: src/kgrdialog.cpp:191 src/kgrdialog.cpp:565 src/kgrdialog.cpp:627
-#: src/kgrgame.cpp:2407
+#: src/kgrgame.cpp:2429
 msgid "Edit Game Info"
 msgstr ""
 
@@ -2406,8 +2406,8 @@ msgstr[1] ""
 msgid "Sorry, there is no further information about this game."
 msgstr ""
 
-#: src/kgrdialog.cpp:412 src/kgrgame.cpp:2395 src/kgrgame.cpp:2401
-#: src/kgrgame.cpp:2421
+#: src/kgrdialog.cpp:412 src/kgrgame.cpp:2417 src/kgrgame.cpp:2423
+#: src/kgrgame.cpp:2443
 msgid "Select Level"
 msgstr ""
 
@@ -2556,469 +2556,469 @@ msgstr ""
 msgid "Game                       Level/Lives/Score   Day    Date     Time  "
 msgstr ""
 
-#: src/kgrgame.cpp:141
+#: src/kgrgame.cpp:170
 msgctxt "Button text: start playing a game"
 msgid "&PLAY"
 msgstr ""
 
-#: src/kgrgame.cpp:142
+#: src/kgrgame.cpp:171
 msgid "Start playing this level"
 msgstr ""
 
-#: src/kgrgame.cpp:144
+#: src/kgrgame.cpp:173
 msgid ""
 "Set up to start playing the game and level being shown, as soon as you "
 "click, move the mouse or press a key"
 msgstr ""
 
-#: src/kgrgame.cpp:148
+#: src/kgrgame.cpp:177
 msgid "&Quit"
 msgstr ""
 
-#: src/kgrgame.cpp:149
+#: src/kgrgame.cpp:178
 msgid "Close KGoldrunner"
 msgstr ""
 
-#: src/kgrgame.cpp:154
+#: src/kgrgame.cpp:183
 msgid "Start a different game or level"
 msgstr ""
 
-#: src/kgrgame.cpp:156
+#: src/kgrgame.cpp:185
 msgid ""
 "Use the Select Game dialog box to choose a different game or level and start "
 "playing it"
 msgstr ""
 
-#: src/kgrgame.cpp:160
+#: src/kgrgame.cpp:189
 msgid "&Use Menu"
 msgstr ""
 
-#: src/kgrgame.cpp:162
+#: src/kgrgame.cpp:191
 msgid "Use the menus to choose other actions"
 msgstr ""
 
-#: src/kgrgame.cpp:164
+#: src/kgrgame.cpp:193
 msgid ""
 "Before playing, use the menus to choose other actions, such as loading a "
 "saved game or changing the theme"
 msgstr ""
 
-#: src/kgrgame.cpp:200
+#: src/kgrgame.cpp:229
 msgid "Game Paused"
 msgstr ""
 
-#: src/kgrgame.cpp:201
+#: src/kgrgame.cpp:230
 msgid ""
 "The game is halted. You will need to press the Pause key (default P or Esc) "
 "when you are ready to play."
 msgstr ""
 
-#: src/kgrgame.cpp:272
+#: src/kgrgame.cpp:301
 msgid "GAME OVER !!!"
 msgstr ""
 
-#: src/kgrgame.cpp:277
+#: src/kgrgame.cpp:306
 #, fuzzy
 #| msgid "&Create Level"
 msgid "Retry Level?"
 msgstr "(&C) స్థాయిని సృష్టించు"
 
-#: src/kgrgame.cpp:278
+#: src/kgrgame.cpp:307
 msgid "Would you like to try this level again?"
 msgstr ""
 
-#: src/kgrgame.cpp:279
+#: src/kgrgame.cpp:308
 msgid "&Try Again"
 msgstr ""
 
-#: src/kgrgame.cpp:279
+#: src/kgrgame.cpp:308
 #, fuzzy
 #| msgid "&Midnight"
 msgid "&Finish"
 msgstr "(&M) అర్ద రాత్రి"
 
-#: src/kgrgame.cpp:343
+#: src/kgrgame.cpp:372
 #, kde-format
 msgid ""
 "<b>CONGRATULATIONS !!!!</b><p>You have conquered the last level in the <b>\"%"
 "1\"</b> game !!</p>"
 msgstr ""
 
-#: src/kgrgame.cpp:553
+#: src/kgrgame.cpp:575
 msgid "Start Tutorial"
 msgstr ""
 
-#: src/kgrgame.cpp:554
+#: src/kgrgame.cpp:576
 #, kde-format
 msgid "Cannot find the tutorial game (file-prefix '%1') in the '%2' files."
 msgstr ""
 
-#: src/kgrgame.cpp:563
+#: src/kgrgame.cpp:585
 msgid "Hint"
 msgstr ""
 
-#: src/kgrgame.cpp:569
+#: src/kgrgame.cpp:591
 msgid "Sorry, there is no hint for this level."
 msgstr ""
 
-#: src/kgrgame.cpp:691 src/kgrgame.cpp:696 src/kgrgame.cpp:700
+#: src/kgrgame.cpp:713 src/kgrgame.cpp:718 src/kgrgame.cpp:722
 msgid "Read Level Data"
 msgstr ""
 
-#: src/kgrgame.cpp:692
+#: src/kgrgame.cpp:714
 #, kde-format
 msgid "Cannot find file '%1'."
 msgstr ""
 
-#: src/kgrgame.cpp:697 src/kgrgame.cpp:1000 src/kgrgame.cpp:1065
-#: src/kgrgame.cpp:1180 src/kgrgame.cpp:1381 src/kgrgame.cpp:2738
+#: src/kgrgame.cpp:719 src/kgrgame.cpp:1022 src/kgrgame.cpp:1087
+#: src/kgrgame.cpp:1202 src/kgrgame.cpp:1403 src/kgrgame.cpp:2737
 #, kde-format
 msgid "Cannot open file '%1' for read-only."
 msgstr ""
 
-#: src/kgrgame.cpp:701
+#: src/kgrgame.cpp:723
 #, kde-format
 msgid "Reached end of file '%1' without finding level data."
 msgstr ""
 
-#: src/kgrgame.cpp:867
+#: src/kgrgame.cpp:889
 msgid "New Level"
 msgstr ""
 
-#: src/kgrgame.cpp:961 src/kgrgame.cpp:967 src/kgrgame.cpp:989
-#: src/kgrgame.cpp:999 src/kgrgame.cpp:1017 src/kgrgame.cpp:1021
+#: src/kgrgame.cpp:983 src/kgrgame.cpp:989 src/kgrgame.cpp:1011
+#: src/kgrgame.cpp:1021 src/kgrgame.cpp:1039 src/kgrgame.cpp:1043
 msgid "Save Game"
 msgstr ""
 
-#: src/kgrgame.cpp:962
+#: src/kgrgame.cpp:984
 #, kde-format
 msgid ""
 "Sorry, you cannot save your game play while you are editing. Please try menu "
 "item \"%1\"."
 msgstr ""
 
-#: src/kgrgame.cpp:968
+#: src/kgrgame.cpp:990
 msgid ""
 "Please note: for reasons of simplicity, your saved game position and score "
 "will be as they were at the start of this level, not as they are now."
 msgstr ""
 
-#: src/kgrgame.cpp:990 src/kgrgame.cpp:1219 src/kgrgame.cpp:1821
-#: src/kgrgame.cpp:2779
+#: src/kgrgame.cpp:1012 src/kgrgame.cpp:1241 src/kgrgame.cpp:1843
+#: src/kgrgame.cpp:2778
 #, kde-format
 msgid "Cannot open file '%1' for output."
 msgstr ""
 
-#: src/kgrgame.cpp:1018
+#: src/kgrgame.cpp:1040
 msgid "Your game has been saved."
 msgstr ""
 
-#: src/kgrgame.cpp:1022
+#: src/kgrgame.cpp:1044
 msgid "Error: Failed to save your game."
 msgstr ""
 
-#: src/kgrgame.cpp:1035 src/kgrgame.cpp:1042
+#: src/kgrgame.cpp:1057 src/kgrgame.cpp:1064
 msgid "Rename File"
 msgstr ""
 
-#: src/kgrgame.cpp:1036
+#: src/kgrgame.cpp:1058
 #, kde-format
 msgid "Cannot delete previous version of file '%1'."
 msgstr ""
 
-#: src/kgrgame.cpp:1043
+#: src/kgrgame.cpp:1065
 #, kde-format
 msgid "Cannot rename file '%1' to '%2'."
 msgstr ""
 
-#: src/kgrgame.cpp:1058 src/kgrgame.cpp:1064 src/kgrgame.cpp:1116
+#: src/kgrgame.cpp:1080 src/kgrgame.cpp:1086 src/kgrgame.cpp:1138
 msgid "Load Game"
 msgstr ""
 
-#: src/kgrgame.cpp:1059
+#: src/kgrgame.cpp:1081
 msgid "Sorry, there are no saved games."
 msgstr ""
 
-#: src/kgrgame.cpp:1117
+#: src/kgrgame.cpp:1139
 #, kde-format
 msgid "Cannot find the game with prefix '%1'."
 msgstr ""
 
-#: src/kgrgame.cpp:1161
+#: src/kgrgame.cpp:1183
 msgid "Unknown"
 msgstr ""
 
-#: src/kgrgame.cpp:1179 src/kgrgame.cpp:1218
+#: src/kgrgame.cpp:1201 src/kgrgame.cpp:1240
 msgid "Check for High Score"
 msgstr ""
 
-#: src/kgrgame.cpp:1236
+#: src/kgrgame.cpp:1258
 msgid ""
 "<html><b>Congratulations !!!</b><br>You have achieved a high score in this "
 "game.<br>Please enter your name so that it may be enshrined<br>in the "
 "KGoldrunner Hall of Fame.</html>"
 msgstr ""
 
-#: src/kgrgame.cpp:1248 src/kgrgame.cpp:1335
+#: src/kgrgame.cpp:1270 src/kgrgame.cpp:1357
 msgid "Save High Score"
 msgstr ""
 
-#: src/kgrgame.cpp:1336
+#: src/kgrgame.cpp:1358
 msgid "Error: Failed to save your high score."
 msgstr ""
 
-#: src/kgrgame.cpp:1348 src/kgrgame.cpp:1371 src/kgrgame.cpp:1380
+#: src/kgrgame.cpp:1370 src/kgrgame.cpp:1393 src/kgrgame.cpp:1402
 msgid "Show High Scores"
 msgstr ""
 
-#: src/kgrgame.cpp:1349
+#: src/kgrgame.cpp:1371
 msgid "Sorry, we do not keep high scores for tutorial games."
 msgstr ""
 
-#: src/kgrgame.cpp:1372
+#: src/kgrgame.cpp:1394
 #, kde-format
 msgid "Sorry, there are no high scores for the \"%1\" game yet."
 msgstr ""
 
-#: src/kgrgame.cpp:1396
+#: src/kgrgame.cpp:1418
 #, kde-format
 msgid ""
 "<center><h2>KGoldrunner Hall of Fame</h2></center><center><h3>\"%1\" Game</"
 "h3></center>"
 msgstr ""
 
-#: src/kgrgame.cpp:1406
+#: src/kgrgame.cpp:1428
 msgctxt "1, 2, 3 etc."
 msgid "Rank"
 msgstr ""
 
-#: src/kgrgame.cpp:1407
+#: src/kgrgame.cpp:1429
 msgctxt "Person"
 msgid "Name"
 msgstr ""
 
-#: src/kgrgame.cpp:1408
+#: src/kgrgame.cpp:1430
 #, fuzzy
 #| msgid "Five Levels"
 msgctxt "Game level reached"
 msgid "Level"
 msgstr "ఐదు స్థాయిలు"
 
-#: src/kgrgame.cpp:1409
+#: src/kgrgame.cpp:1431
 #, fuzzy
 #| msgid "   Score: "
 msgid "Score"
 msgstr "   స్కొరు: "
 
-#: src/kgrgame.cpp:1410
+#: src/kgrgame.cpp:1432
 msgid "Date"
 msgstr ""
 
-#: src/kgrgame.cpp:1413
+#: src/kgrgame.cpp:1435
 msgid "High Scores"
 msgstr ""
 
-#: src/kgrgame.cpp:1619
+#: src/kgrgame.cpp:1641
 msgid "Create Level"
 msgstr ""
 
-#: src/kgrgame.cpp:1620
+#: src/kgrgame.cpp:1642
 msgid ""
 "You cannot create and save a level until you have created a game to hold it. "
 "Try menu item \"Create Game\"."
 msgstr ""
 
-#: src/kgrgame.cpp:1667
+#: src/kgrgame.cpp:1689
 msgid ""
 "You cannot edit and save a level until you have created a game and a level. "
 "Try menu item \"Create Game\"."
 msgstr ""
 
-#: src/kgrgame.cpp:1679
+#: src/kgrgame.cpp:1701
 msgid ""
 "It is OK to edit a system level, but you MUST save the level in one of your "
 "own games. You are not just taking a peek at the hidden ladders and fall-"
 "through bricks, are you? :-)"
 msgstr ""
 
-#: src/kgrgame.cpp:1765 src/kgrgame.cpp:1802 src/kgrgame.cpp:1820
+#: src/kgrgame.cpp:1787 src/kgrgame.cpp:1824 src/kgrgame.cpp:1842
 msgid "Save Level"
 msgstr ""
 
-#: src/kgrgame.cpp:1766
+#: src/kgrgame.cpp:1788
 msgid "Inappropriate action: you are not editing a level."
 msgstr ""
 
-#: src/kgrgame.cpp:1803
+#: src/kgrgame.cpp:1825
 msgid "Do you want to insert a level and move existing levels up by one?"
 msgstr ""
 
-#: src/kgrgame.cpp:1805
+#: src/kgrgame.cpp:1827
 msgid "&Insert Level"
 msgstr ""
 
-#: src/kgrgame.cpp:1805 src/kgrgame.cpp:1999
+#: src/kgrgame.cpp:1827 src/kgrgame.cpp:2021
 msgid "&Cancel"
 msgstr ""
 
-#: src/kgrgame.cpp:1875 src/kgrgame.cpp:1890 src/kgrgame.cpp:1898
-#: src/kgrgame.cpp:1912
+#: src/kgrgame.cpp:1897 src/kgrgame.cpp:1912 src/kgrgame.cpp:1920
+#: src/kgrgame.cpp:1934
 msgid "Move Level"
 msgstr ""
 
-#: src/kgrgame.cpp:1878
+#: src/kgrgame.cpp:1900
 msgid "Game"
 msgstr ""
 
-#: src/kgrgame.cpp:1878 src/kgrgame.cpp:2167
+#: src/kgrgame.cpp:1900 src/kgrgame.cpp:2189
 msgid "Editor"
 msgstr ""
 
-#: src/kgrgame.cpp:1876
+#: src/kgrgame.cpp:1898
 #, kde-format
 msgid "You must first load a level to be moved. Use the \"%1\" or \"%2\" menu."
 msgstr ""
 
-#: src/kgrgame.cpp:1891
+#: src/kgrgame.cpp:1913
 msgid ""
 "You cannot move a level until you have created a game and at least two "
 "levels. Try menu item \"Create Game\"."
 msgstr ""
 
-#: src/kgrgame.cpp:1899
+#: src/kgrgame.cpp:1921
 msgid "Sorry, you cannot move a system level."
 msgstr ""
 
-#: src/kgrgame.cpp:1913
+#: src/kgrgame.cpp:1935
 msgid "You must change the level or the game or both."
 msgstr ""
 
-#: src/kgrgame.cpp:1975
+#: src/kgrgame.cpp:1997
 msgid ""
 "You cannot delete a level until you have created a game and a level. Try "
 "menu item \"Create Game\"."
 msgstr ""
 
-#: src/kgrgame.cpp:1997
+#: src/kgrgame.cpp:2019
 msgid "Do you want to delete a level and move higher levels down by one?"
 msgstr ""
 
-#: src/kgrgame.cpp:1999
+#: src/kgrgame.cpp:2021
 msgid "&Delete Level"
 msgstr ""
 
-#: src/kgrgame.cpp:2014
+#: src/kgrgame.cpp:2036
 #, kde-format
 msgid "Cannot find file '%1' to be deleted."
 msgstr ""
 
-#: src/kgrgame.cpp:2071 src/kgrgame.cpp:2081 src/kgrgame.cpp:2086
-#: src/kgrgame.cpp:2100 src/kgrgame.cpp:2118 src/kgrgame.cpp:2767
-#: src/kgrgame.cpp:2778
+#: src/kgrgame.cpp:2093 src/kgrgame.cpp:2103 src/kgrgame.cpp:2108
+#: src/kgrgame.cpp:2122 src/kgrgame.cpp:2140 src/kgrgame.cpp:2766
+#: src/kgrgame.cpp:2777
 msgid "Save Game Info"
 msgstr ""
 
-#: src/kgrgame.cpp:2072
+#: src/kgrgame.cpp:2094
 msgid "You must enter a name for the game."
 msgstr ""
 
-#: src/kgrgame.cpp:2082
+#: src/kgrgame.cpp:2104
 msgid "You must enter a filename prefix for the game."
 msgstr ""
 
-#: src/kgrgame.cpp:2087
+#: src/kgrgame.cpp:2109
 msgid "The filename prefix should not be more than 5 characters."
 msgstr ""
 
-#: src/kgrgame.cpp:2101
+#: src/kgrgame.cpp:2123
 msgid "The filename prefix should be all alphabetic characters."
 msgstr ""
 
-#: src/kgrgame.cpp:2119
+#: src/kgrgame.cpp:2141
 #, kde-format
 msgid "The filename prefix '%1' is already in use."
 msgstr ""
 
-#: src/kgrgame.cpp:2155
+#: src/kgrgame.cpp:2177
 msgid "&Go on editing"
 msgstr ""
 
-#: src/kgrgame.cpp:2168
+#: src/kgrgame.cpp:2190
 msgid "You have not saved your work. Do you want to save it now?"
 msgstr ""
 
-#: src/kgrgame.cpp:2170
+#: src/kgrgame.cpp:2192
 msgid "&Save"
 msgstr ""
 
-#: src/kgrgame.cpp:2170
+#: src/kgrgame.cpp:2192
 msgid "&Do Not Save"
 msgstr ""
 
-#: src/kgrgame.cpp:2396
+#: src/kgrgame.cpp:2418
 msgid "Sorry, you can only save or move into one of your own games."
 msgstr ""
 
-#: src/kgrgame.cpp:2402
+#: src/kgrgame.cpp:2424
 msgid "Sorry, you can only delete a level from one of your own games."
 msgstr ""
 
-#: src/kgrgame.cpp:2408
+#: src/kgrgame.cpp:2430
 msgid "Sorry, you can only edit the game information on your own games."
 msgstr ""
 
-#: src/kgrgame.cpp:2422
+#: src/kgrgame.cpp:2444
 #, kde-format
 msgid "There is no level %1 in %2, so you cannot play or edit it."
 msgstr ""
 
-#: src/kgrgame.cpp:2650 src/kgrgame.cpp:2662 src/kgrgame.cpp:2686
-#: src/kgrgame.cpp:2699 src/kgrgame.cpp:2708
+#: src/kgrgame.cpp:2649 src/kgrgame.cpp:2661 src/kgrgame.cpp:2685
+#: src/kgrgame.cpp:2698 src/kgrgame.cpp:2707
 msgid "Check Games & Levels"
 msgstr ""
 
-#: src/kgrgame.cpp:2651
+#: src/kgrgame.cpp:2650
 #, kde-format
 msgid "There is no folder '%1' to hold levels for the '%2' game."
 msgstr ""
 
-#: src/kgrgame.cpp:2663
+#: src/kgrgame.cpp:2662
 #, kde-format
 msgid "There are no files '%1/%2???.grl' for the %3 game."
 msgstr ""
 
-#: src/kgrgame.cpp:2687
+#: src/kgrgame.cpp:2686
 #, kde-format
 msgid ""
 "File '%1' is beyond the highest level for the %2 game and cannot be played."
 msgstr ""
 
-#: src/kgrgame.cpp:2700
+#: src/kgrgame.cpp:2699
 #, kde-format
 msgid ""
 "File '%1' is before the lowest level for the %2 game and cannot be played."
 msgstr ""
 
-#: src/kgrgame.cpp:2709
+#: src/kgrgame.cpp:2708
 #, kde-format
 msgid "Cannot find file '%1' for the %2 game."
 msgstr ""
 
-#: src/kgrgame.cpp:2730 src/kgrgame.cpp:2737 src/kgrgame.cpp:2742
+#: src/kgrgame.cpp:2729 src/kgrgame.cpp:2736 src/kgrgame.cpp:2741
 msgid "Load Game Info"
 msgstr ""
 
-#: src/kgrgame.cpp:2731
+#: src/kgrgame.cpp:2730
 #, kde-format
 msgid "Cannot find game info file '%1'."
 msgstr ""
 
-#: src/kgrgame.cpp:2743
+#: src/kgrgame.cpp:2742
 #, kde-format
 msgid "Reached end of file '%1' before finding end of game-data."
 msgstr ""
 
-#: src/kgrgame.cpp:2768
+#: src/kgrgame.cpp:2767
 msgid "You can only modify user games."
 msgstr ""
 
