@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-20 08:03+0000\n"
+"POT-Creation-Date: 2008-01-21 06:49+0000\n"
 "PO-Revision-Date: 2007-03-22 13:41+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -2758,47 +2758,47 @@ msgctxt "Name"
 msgid "Bell in Visible Session"
 msgstr "టెర్మినల్ సెషన్లు"
 
-#: apps/konsole/desktop/konsole.notifyrc:44
+#: apps/konsole/desktop/konsole.notifyrc:45
 msgctxt "Comment"
 msgid "Bell emitted within a visible session"
 msgstr ""
 
-#: apps/konsole/desktop/konsole.notifyrc:103
+#: apps/konsole/desktop/konsole.notifyrc:104
 msgctxt "Name"
 msgid "Bell in Non-visible session"
 msgstr ""
 
-#: apps/konsole/desktop/konsole.notifyrc:114
+#: apps/konsole/desktop/konsole.notifyrc:116
 msgctxt "Comment"
 msgid "Bell emitted within a non-visible session"
 msgstr ""
 
-#: apps/konsole/desktop/konsole.notifyrc:173
+#: apps/konsole/desktop/konsole.notifyrc:175
 msgctxt "Name"
 msgid "Activity in Monitored Session"
 msgstr ""
 
-#: apps/konsole/desktop/konsole.notifyrc:184
+#: apps/konsole/desktop/konsole.notifyrc:187
 msgctxt "Comment"
 msgid "Activity detected in a monitored session"
 msgstr ""
 
-#: apps/konsole/desktop/konsole.notifyrc:243
+#: apps/konsole/desktop/konsole.notifyrc:246
 msgctxt "Name"
 msgid "Silence in Monitored Session"
 msgstr ""
 
-#: apps/konsole/desktop/konsole.notifyrc:254
+#: apps/konsole/desktop/konsole.notifyrc:258
 msgctxt "Comment"
 msgid "Silence detected in a monitored session"
 msgstr ""
 
-#: apps/konsole/desktop/konsole.notifyrc:312
+#: apps/konsole/desktop/konsole.notifyrc:316
 msgctxt "Name"
 msgid "Session Finished With Non-zero Status"
 msgstr ""
 
-#: apps/konsole/desktop/konsole.notifyrc:323
+#: apps/konsole/desktop/konsole.notifyrc:328
 msgctxt "Comment"
 msgid "A session has exited with non-zero status"
 msgstr ""
@@ -3033,17 +3033,27 @@ msgctxt "Comment"
 msgid "Configure the browser plugins"
 msgstr ""
 
+#: runtime/drkonqi/debuggers/gdbrc:2
+msgctxt "Name"
+msgid "GNU Debugger"
+msgstr "గ్నూ డీబగ్గర్"
+
+#: runtime/drkonqi/debuggers/gdbrc:5
+msgctxt "Comment"
+msgid "Text based debugger from GNU in a konsole"
+msgstr "కాన్సొల్ లో వచన ఆధారిత గ్నుడిబగ్గర్ "
+
 #: runtime/drkonqi/presets/developerrc:2
 msgctxt "Name"
 msgid "Developer"
 msgstr "డెవలపర్"
 
-#: runtime/drkonqi/presets/developerrc:5
+#: runtime/drkonqi/presets/developerrc:22
 msgctxt "Comment"
 msgid "Settings preferred for developers"
 msgstr "డెవలపర్లకు నచ్చె అమరికలు"
 
-#: runtime/drkonqi/presets/developerrc:17
+#: runtime/drkonqi/presets/developerrc:52
 msgctxt "Name"
 msgid ""
 "The application %progname (%appname), pid %pid, crashed and caused the "
@@ -3052,12 +3062,12 @@ msgstr ""
 "ఈ కార్యక్రమం %progname (%appname), పిఐడి %pid, క్రాష్ అయినది మరయూ  %signum (%signame) "
 "సిగ్నల్ ను కలుగచేసింది"
 
-#: runtime/drkonqi/presets/developerrc:23
+#: runtime/drkonqi/presets/developerrc:76
 msgctxt "Name"
 msgid "You might want to fix your program. Take a look at the backtrace tab."
 msgstr "మీరు మీ కార్యక్రమాన్ని సరిదిద్దగలరు. బేక్ ట్రెస్ టాబ్ ను చూడండి"
 
-#: runtime/drkonqi/presets/developerrc:28 runtime/drkonqi/presets/enduserrc:28
+#: runtime/drkonqi/presets/developerrc:98 runtime/drkonqi/presets/enduserrc:95
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "SIGILL"
@@ -3065,17 +3075,18 @@ msgctxt "Name"
 msgid "SIGILL"
 msgstr "SIGILL"
 
-#: runtime/drkonqi/presets/developerrc:30
+#: runtime/drkonqi/presets/developerrc:99
 msgctxt "Comment"
 msgid "Illegal instruction."
 msgstr "తప్పు ఆదేశం."
 
-#: runtime/drkonqi/presets/developerrc:35 runtime/drkonqi/presets/enduserrc:35
+#: runtime/drkonqi/presets/developerrc:122
+#: runtime/drkonqi/presets/enduserrc:118
 msgctxt "Name"
 msgid "SIGABRT"
 msgstr "SIGABRT"
 
-#: runtime/drkonqi/presets/developerrc:37
+#: runtime/drkonqi/presets/developerrc:123
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Aborted."
@@ -3083,32 +3094,35 @@ msgctxt "Comment"
 msgid "Aborted."
 msgstr "విడిచిపెట్టడమైనది."
 
-#: runtime/drkonqi/presets/developerrc:42 runtime/drkonqi/presets/enduserrc:42
+#: runtime/drkonqi/presets/developerrc:126
+#: runtime/drkonqi/presets/enduserrc:140
 msgctxt "Name"
 msgid "SIGFPE"
 msgstr "SIGFPE"
 
-#: runtime/drkonqi/presets/developerrc:44
+#: runtime/drkonqi/presets/developerrc:127
 msgctxt "Comment"
 msgid "Floating point exception."
 msgstr ""
 
-#: runtime/drkonqi/presets/developerrc:49 runtime/drkonqi/presets/enduserrc:49
+#: runtime/drkonqi/presets/developerrc:146
+#: runtime/drkonqi/presets/enduserrc:163
 msgctxt "Name"
 msgid "SIGSEGV"
 msgstr "SIGSEGV"
 
-#: runtime/drkonqi/presets/developerrc:51
+#: runtime/drkonqi/presets/developerrc:147
 msgctxt "Comment"
 msgid "Invalid memory reference."
 msgstr "తప్పుడు మెమొరి సంబంధం."
 
-#: runtime/drkonqi/presets/developerrc:56 runtime/drkonqi/presets/enduserrc:56
+#: runtime/drkonqi/presets/developerrc:169
+#: runtime/drkonqi/presets/enduserrc:186
 msgctxt "Name"
 msgid "Unknown"
 msgstr "తెలియని"
 
-#: runtime/drkonqi/presets/developerrc:59
+#: runtime/drkonqi/presets/developerrc:190
 msgctxt "Comment"
 msgid "This signal is unknown."
 msgstr "తెలియని సిగ్నల్"
@@ -3118,56 +3132,56 @@ msgctxt "Name"
 msgid "End user"
 msgstr "చివరి యూజర్"
 
-#: runtime/drkonqi/presets/enduserrc:5
+#: runtime/drkonqi/presets/enduserrc:23
 msgctxt "Comment"
 msgid "Settings preferred for end users"
 msgstr "చివరి యూజర్లకు ఇష్టమైన అమరికలు"
 
-#: runtime/drkonqi/presets/enduserrc:17
+#: runtime/drkonqi/presets/enduserrc:53
 msgctxt "Name"
 msgid ""
 "The application %progname (%appname) crashed and caused the signal %signum (%"
 "signame)."
 msgstr "ఈ కార్యక్రమం %progname (%appname) క్రాష్ అయినది మరయూ %signum సిగ్నల్ నూ కలుగ చేసింది"
 
-#: runtime/drkonqi/presets/enduserrc:23
+#: runtime/drkonqi/presets/enduserrc:77
 msgctxt "Name"
 msgid ""
-"You might want to send a bug report for this application. Check if it is "
-"listed on http://bugs.kde.org, otherwise mail the author. Please include as "
-"much information as possible, maybe the original documents. If you have a "
-"way to reproduce the error, include this also."
+"Please help us improving this application by reporting this error at <a href="
+"\"http://bugs.kde.org\">http://bugs.kde.org</a>. Please include as much "
+"information as possible, maybe the original documents. If you have a way to "
+"reproduce the error, include this also."
 msgstr ""
 
-#: runtime/drkonqi/presets/enduserrc:30
+#: runtime/drkonqi/presets/enduserrc:96
 msgctxt "Comment"
 msgid ""
 "An application mostly receives the SIGILL signal due to a bug in the "
 "application. The application was asked to save its documents."
 msgstr ""
 
-#: runtime/drkonqi/presets/enduserrc:37
+#: runtime/drkonqi/presets/enduserrc:119
 msgctxt "Comment"
 msgid ""
 "An application terminates with a SIGABRT signal when it detects an internal "
 "inconsistency caused by a bug in the program."
 msgstr ""
 
-#: runtime/drkonqi/presets/enduserrc:44
+#: runtime/drkonqi/presets/enduserrc:141
 msgctxt "Comment"
 msgid ""
 "An application mostly receives the SIGFPE signal due to a bug in the "
 "application. The application was asked to save its documents."
 msgstr ""
 
-#: runtime/drkonqi/presets/enduserrc:51
+#: runtime/drkonqi/presets/enduserrc:164
 msgctxt "Comment"
 msgid ""
 "An application mostly receives the SIGSEGV signal due to a bug in the "
 "application. The application was asked to save its documents."
 msgstr ""
 
-#: runtime/drkonqi/presets/enduserrc:59
+#: runtime/drkonqi/presets/enduserrc:207
 msgctxt "Comment"
 msgid "Sorry, I do not know this signal."
 msgstr "క్షమించండి, నాకు ఈ సిగ్నల్ తెలియదు"
@@ -3673,52 +3687,52 @@ msgctxt "Name"
 msgid "Trash: Emptied"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:63
+#: runtime/knotify/kde.notifyrc:64
 msgctxt "Comment"
 msgid "The trash has been emptied"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:112
+#: runtime/knotify/kde.notifyrc:113
 msgctxt "Name"
 msgid "Textcompletion: Rotation"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:123
+#: runtime/knotify/kde.notifyrc:125
 msgctxt "Comment"
 msgid "The end of the list of matches has been reached"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:170
+#: runtime/knotify/kde.notifyrc:172
 msgctxt "Name"
 msgid "Textcompletion: No Match"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:181
+#: runtime/knotify/kde.notifyrc:184
 msgctxt "Comment"
 msgid "No matching completion was found"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:230
+#: runtime/knotify/kde.notifyrc:233
 msgctxt "Name"
 msgid "Textcompletion: Partial Match"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:241
+#: runtime/knotify/kde.notifyrc:245
 msgctxt "Comment"
 msgid "There is more than one possible match"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:289
+#: runtime/knotify/kde.notifyrc:293
 msgctxt "Name"
 msgid "Fatal Error"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:335
+#: runtime/knotify/kde.notifyrc:339
 msgctxt "Comment"
 msgid "There was a serious error causing the program to exit"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:383
+#: runtime/knotify/kde.notifyrc:387
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Applications"
@@ -3726,12 +3740,12 @@ msgctxt "Name"
 msgid "Notification"
 msgstr "కార్యక్రమాలు"
 
-#: runtime/knotify/kde.notifyrc:432
+#: runtime/knotify/kde.notifyrc:436
 msgctxt "Comment"
 msgid "Something special happened in the program"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:480
+#: runtime/knotify/kde.notifyrc:484
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Spain"
@@ -3739,22 +3753,22 @@ msgctxt "Name"
 msgid "Warning"
 msgstr "స్పెయిన్"
 
-#: runtime/knotify/kde.notifyrc:530
+#: runtime/knotify/kde.notifyrc:534
 msgctxt "Comment"
 msgid "There was an error in the program which may cause problems"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:577
+#: runtime/knotify/kde.notifyrc:581
 msgctxt "Name"
 msgid "Catastrophe"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:620
+#: runtime/knotify/kde.notifyrc:624
 msgctxt "Comment"
 msgid "A very serious error occurred, at least causing the program to exit"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:667 workspace/kwin/effects/login.desktop:2
+#: runtime/knotify/kde.notifyrc:671 workspace/kwin/effects/login.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Links"
@@ -3762,12 +3776,12 @@ msgctxt "Name"
 msgid "Login"
 msgstr "లింక్స్"
 
-#: runtime/knotify/kde.notifyrc:714
+#: runtime/knotify/kde.notifyrc:718
 msgctxt "Comment"
 msgid "KDE is starting up"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:764 workspace/kwin/effects/logout.desktop:2
+#: runtime/knotify/kde.notifyrc:768 workspace/kwin/effects/logout.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Layout"
@@ -3775,22 +3789,22 @@ msgctxt "Name"
 msgid "Logout"
 msgstr "కూర్పు"
 
-#: runtime/knotify/kde.notifyrc:811
+#: runtime/knotify/kde.notifyrc:815
 msgctxt "Comment"
 msgid "KDE is exiting"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:861
+#: runtime/knotify/kde.notifyrc:865
 msgctxt "Name"
 msgid "Logout Canceled"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:905
+#: runtime/knotify/kde.notifyrc:909
 msgctxt "Comment"
 msgid "KDE logout was canceled"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:952
+#: runtime/knotify/kde.notifyrc:956
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Paint Program"
@@ -3798,12 +3812,12 @@ msgctxt "Name"
 msgid "Print Error"
 msgstr "పెయింట్ కార్యక్రమం "
 
-#: runtime/knotify/kde.notifyrc:999
+#: runtime/knotify/kde.notifyrc:1003
 msgctxt "Comment"
 msgid "A print error has occurred"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:1047
+#: runtime/knotify/kde.notifyrc:1051
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Information"
@@ -3811,12 +3825,12 @@ msgctxt "Name"
 msgid "Information Message"
 msgstr "సమాచారం"
 
-#: runtime/knotify/kde.notifyrc:1094
+#: runtime/knotify/kde.notifyrc:1098
 msgctxt "Comment"
 msgid "An information message is being shown"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:1143
+#: runtime/knotify/kde.notifyrc:1147
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "File Manager"
@@ -3824,32 +3838,32 @@ msgctxt "Name"
 msgid "Warning Message"
 msgstr "దస్త్రాల అభికర్త"
 
-#: runtime/knotify/kde.notifyrc:1190
+#: runtime/knotify/kde.notifyrc:1194
 msgctxt "Comment"
 msgid "A warning message is being shown"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:1238
+#: runtime/knotify/kde.notifyrc:1242
 msgctxt "Name"
 msgid "Critical Message"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:1281
+#: runtime/knotify/kde.notifyrc:1285
 msgctxt "Comment"
 msgid "A critical message is being shown"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:1328
+#: runtime/knotify/kde.notifyrc:1332
 msgctxt "Name"
 msgid "Question"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:1374
+#: runtime/knotify/kde.notifyrc:1378
 msgctxt "Comment"
 msgid "A question is being asked"
 msgstr ""
 
-#: runtime/knotify/kde.notifyrc:1424
+#: runtime/knotify/kde.notifyrc:1428
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Sweep"
@@ -3857,7 +3871,7 @@ msgctxt "Name"
 msgid "Beep"
 msgstr "స్వీప్"
 
-#: runtime/knotify/kde.notifyrc:1466
+#: runtime/knotify/kde.notifyrc:1470
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Sound"
@@ -4907,7 +4921,7 @@ msgctxt "Name"
 msgid "Qt3 Online Documentation"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/qt3.desktop:29
+#: runtime/kurifilter-plugins/ikws/searchproviders/qt3.desktop:30
 msgctxt "Query"
 msgid "http://doc.trolltech.com/3.3/\\\\{@}.html"
 msgstr "http://doc.trolltech.com/3.3/\\\\{@}.html"
@@ -8018,13 +8032,13 @@ msgctxt "Description"
 msgid "Launch &Gwenview"
 msgstr ""
 
-#: workspace/klipper/klipperrc.desktop:91
+#: workspace/klipper/klipperrc.desktop:92
 msgctxt "Description"
 msgid "Web-URL"
 msgstr "వెబ్ యూ ఆర్ ఎల్"
 
-#: workspace/klipper/klipperrc.desktop:154
-#: workspace/klipper/klipperrc.desktop:1367
+#: workspace/klipper/klipperrc.desktop:155
+#: workspace/klipper/klipperrc.desktop:1369
 #, fuzzy
 #| msgctxt "Description"
 #| msgid "Open with &Netscape"
@@ -8032,79 +8046,79 @@ msgctxt "Description"
 msgid "Open with &default Browser"
 msgstr "(&N) నెట్ స్కేప్ తొ తెరువు"
 
-#: workspace/klipper/klipperrc.desktop:169
-#: workspace/klipper/klipperrc.desktop:1382
+#: workspace/klipper/klipperrc.desktop:171
+#: workspace/klipper/klipperrc.desktop:1385
 msgctxt "Description"
 msgid "Open with &Konqueror"
 msgstr "(&K) కాంకెరర్ తొ తెరువు"
 
-#: workspace/klipper/klipperrc.desktop:243
-#: workspace/klipper/klipperrc.desktop:1455
+#: workspace/klipper/klipperrc.desktop:245
+#: workspace/klipper/klipperrc.desktop:1458
 msgctxt "Description"
 msgid "Open with &Mozilla"
 msgstr "(&M) మొజిల్లా తొ తెరువు"
 
-#: workspace/klipper/klipperrc.desktop:316
-#: workspace/klipper/klipperrc.desktop:961
-#: workspace/klipper/klipperrc.desktop:1163
-#: workspace/klipper/klipperrc.desktop:1528
+#: workspace/klipper/klipperrc.desktop:318
+#: workspace/klipper/klipperrc.desktop:963
+#: workspace/klipper/klipperrc.desktop:1165
+#: workspace/klipper/klipperrc.desktop:1531
 msgctxt "Description"
 msgid "Send &URL"
 msgstr "(&U) యూ ఆర్ ఎల్ పంపించు"
 
-#: workspace/klipper/klipperrc.desktop:390
+#: workspace/klipper/klipperrc.desktop:392
 msgctxt "Description"
 msgid "Open with &Firefox"
 msgstr "(&F) మొజిల్లా తొ తెరువు"
 
-#: workspace/klipper/klipperrc.desktop:459
+#: workspace/klipper/klipperrc.desktop:461
 msgctxt "Description"
 msgid "Send &Page"
 msgstr "(&P) పుట ను పంపించు"
 
-#: workspace/klipper/klipperrc.desktop:533
+#: workspace/klipper/klipperrc.desktop:535
 msgctxt "Description"
 msgid "Mail-URL"
 msgstr "యూ ఆర్ ఎల్ ను మెయిల్ చెయ్యి"
 
-#: workspace/klipper/klipperrc.desktop:598
+#: workspace/klipper/klipperrc.desktop:600
 msgctxt "Description"
 msgid "Launch &Kmail"
 msgstr ""
 
-#: workspace/klipper/klipperrc.desktop:670
+#: workspace/klipper/klipperrc.desktop:672
 msgctxt "Description"
 msgid "Launch &mutt"
 msgstr ""
 
-#: workspace/klipper/klipperrc.desktop:741
+#: workspace/klipper/klipperrc.desktop:743
 msgctxt "Description"
 msgid "Text File"
 msgstr "వచన దస్త్రం"
 
-#: workspace/klipper/klipperrc.desktop:817
+#: workspace/klipper/klipperrc.desktop:819
 msgctxt "Description"
 msgid "Launch K&Write"
 msgstr ""
 
-#: workspace/klipper/klipperrc.desktop:887
+#: workspace/klipper/klipperrc.desktop:889
 msgctxt "Description"
 msgid "Local file URL"
 msgstr "స్థానిక దస్త్ర యూ ఆర్ ఎల్"
 
-#: workspace/klipper/klipperrc.desktop:1034
-#: workspace/klipper/klipperrc.desktop:1236
-#: workspace/klipper/klipperrc.desktop:1601
+#: workspace/klipper/klipperrc.desktop:1036
+#: workspace/klipper/klipperrc.desktop:1238
+#: workspace/klipper/klipperrc.desktop:1604
 msgctxt "Description"
 msgid "Send &File"
 msgstr "(&F) దస్త్రాన్ని పంపించు"
 
-#: workspace/klipper/klipperrc.desktop:1108
+#: workspace/klipper/klipperrc.desktop:1110
 msgctxt "Description"
 msgid "Gopher URL"
 msgstr "గొఫర్ యూ ఆర్ ఎల్"
 
-#: workspace/klipper/klipperrc.desktop:1310
+#: workspace/klipper/klipperrc.desktop:1312
 msgctxt "Description"
 msgid "ftp URL"
 msgstr "ఎఫ్ టి పి యూ ఆర్ ఎల్"
@@ -8136,8 +8150,8 @@ msgctxt "Name"
 msgid "Display in Specified Window"
 msgstr ""
 
-#: workspace/kscreensaver/kblank_screensaver/kblank.desktop:221
-#: workspace/kscreensaver/krandom_screensaver/krandom.desktop:222
+#: workspace/kscreensaver/kblank_screensaver/kblank.desktop:222
+#: workspace/kscreensaver/krandom_screensaver/krandom.desktop:223
 msgctxt "Name"
 msgid "Display in Root Window"
 msgstr ""
@@ -8175,17 +8189,17 @@ msgctxt "Name"
 msgid "Pattern Matched"
 msgstr ""
 
-#: workspace/ksysguard/example/ksysguard.notifyrc:103
+#: workspace/ksysguard/example/ksysguard.notifyrc:104
 msgctxt "Comment"
 msgid "Search pattern matched"
 msgstr ""
 
-#: workspace/ksysguard/example/ksysguard.notifyrc:156
+#: workspace/ksysguard/example/ksysguard.notifyrc:158
 msgctxt "Name"
 msgid "Sensor Alarm"
 msgstr ""
 
-#: workspace/ksysguard/example/ksysguard.notifyrc:195
+#: workspace/ksysguard/example/ksysguard.notifyrc:197
 msgctxt "Comment"
 msgid "Sensor exceeded critical limit"
 msgstr ""
@@ -8277,7 +8291,7 @@ msgctxt "Name"
 msgid "Blur"
 msgstr "బ్లూఫిష్"
 
-#: workspace/kwin/effects/blur.desktop:45
+#: workspace/kwin/effects/blur.desktop:46
 msgctxt "Comment"
 msgid "Blurs background of semi-transparent windows"
 msgstr ""
@@ -8287,7 +8301,7 @@ msgctxt "Name"
 msgid "Box Switch"
 msgstr ""
 
-#: workspace/kwin/effects/boxswitch.desktop:38
+#: workspace/kwin/effects/boxswitch.desktop:39
 msgctxt "Comment"
 msgid "Improved Alt-tab window switcher"
 msgstr ""
@@ -8301,7 +8315,7 @@ msgctxt "Name"
 msgid "Desktop Grid"
 msgstr "రంగస్ఠలం"
 
-#: workspace/kwin/effects/desktopgrid.desktop:49
+#: workspace/kwin/effects/desktopgrid.desktop:50
 msgctxt "Comment"
 msgid "Desktop switcher that lays the desktops out in a grid"
 msgstr ""
@@ -8314,7 +8328,7 @@ msgctxt "Name"
 msgid "Dialog Parent"
 msgstr "డైలాగ్ ఎడిటర్"
 
-#: workspace/kwin/effects/dialogparent.desktop:49
+#: workspace/kwin/effects/dialogparent.desktop:50
 msgctxt "Comment"
 msgid "Darkens parent windows of active dialogs"
 msgstr ""
@@ -8325,7 +8339,7 @@ msgctxt "Name"
 msgid "Dim Inactive"
 msgstr ""
 
-#: workspace/kwin/effects/diminactive.desktop:44
+#: workspace/kwin/effects/diminactive.desktop:45
 msgctxt "Comment"
 msgid "Darkens inactive windows"
 msgstr ""
@@ -8348,7 +8362,7 @@ msgctxt "Name"
 msgid "Fade"
 msgstr "ఫెసెస్"
 
-#: workspace/kwin/effects/fade.desktop:48
+#: workspace/kwin/effects/fade.desktop:49
 msgctxt "Comment"
 msgid "Makes windows smoothly fade in/out when they're shown or hidden"
 msgstr ""
@@ -8372,7 +8386,7 @@ msgctxt "Name"
 msgid "Invert"
 msgstr "ఇంటర్నెట్"
 
-#: workspace/kwin/effects/invert.desktop:48
+#: workspace/kwin/effects/invert.desktop:49
 msgctxt "Comment"
 msgid "Inverts (negates) colors of the desktop"
 msgstr ""
@@ -8409,7 +8423,7 @@ msgctxt "Name"
 msgid "Magnifier"
 msgstr ""
 
-#: workspace/kwin/effects/magnifier.desktop:49
+#: workspace/kwin/effects/magnifier.desktop:50
 msgctxt "Comment"
 msgid "Magnifies the part of the screen that is under the mouse"
 msgstr ""
@@ -8436,7 +8450,7 @@ msgctxt "Name"
 msgid "Minimize Animation"
 msgstr "మాధ్యమ సమాచారం"
 
-#: workspace/kwin/effects/minimizeanimation.desktop:49
+#: workspace/kwin/effects/minimizeanimation.desktop:50
 msgctxt "Comment"
 msgid "Animates minimizing of windows"
 msgstr ""
@@ -8450,7 +8464,7 @@ msgctxt "Name"
 msgid "Mouse Mark"
 msgstr "మౌస్"
 
-#: workspace/kwin/effects/mousemark.desktop:47
+#: workspace/kwin/effects/mousemark.desktop:48
 msgctxt "Comment"
 msgid "Lets you draw lines onto your desktop"
 msgstr ""
@@ -8491,7 +8505,7 @@ msgctxt "Name"
 msgid "Shadow"
 msgstr "చాద్"
 
-#: workspace/kwin/effects/shadow.desktop:50
+#: workspace/kwin/effects/shadow.desktop:51
 msgctxt "Comment"
 msgid "Adds shadow under the windows"
 msgstr ""
@@ -8542,7 +8556,7 @@ msgctxt "Name"
 msgid "Snow"
 msgstr "చాద్"
 
-#: workspace/kwin/effects/snow.desktop:14
+#: workspace/kwin/effects/snow.desktop:16
 msgctxt "Comment"
 msgid "Let it snow on the desktop"
 msgstr ""
@@ -8552,7 +8566,7 @@ msgctxt "Name"
 msgid "Taskbar Thumbnails"
 msgstr ""
 
-#: workspace/kwin/effects/taskbarthumbnail.desktop:42
+#: workspace/kwin/effects/taskbarthumbnail.desktop:43
 msgctxt "Comment"
 msgid "Shows window thumbnails when cursor is on their taskbar entry"
 msgstr ""
@@ -9977,7 +9991,7 @@ msgctxt "Name"
 msgid "Locations runner"
 msgstr "అప్లెట్ మెన్యువళ్లు"
 
-#: workspace/plasma/runners/locations/plasma-runner-locations.desktop:34
+#: workspace/plasma/runners/locations/plasma-runner-locations.desktop:35
 msgctxt "Comment"
 msgid "File and URL opener"
 msgstr ""
@@ -10930,14 +10944,6 @@ msgstr "అమరికలు"
 #~ msgctxt "Comment"
 #~ msgid "Screen saver demos"
 #~ msgstr "స్క్రీన్ సేవర్ డెమొలు"
-
-#~ msgctxt "Name"
-#~ msgid "GNU Debugger"
-#~ msgstr "గ్నూ డీబగ్గర్"
-
-#~ msgctxt "Comment"
-#~ msgid "Text based debugger from GNU in a konsole"
-#~ msgstr "కాన్సొల్ లో వచన ఆధారిత గ్నుడిబగ్గర్ "
 
 #~ msgctxt "Query"
 #~ msgid ""
