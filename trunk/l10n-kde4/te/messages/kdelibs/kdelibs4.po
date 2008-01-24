@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-23 08:57+0100\n"
+"POT-Creation-Date: 2008-01-24 10:42+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -4882,6 +4882,18 @@ msgctxt "keyboard-key-name"
 msgid "F%1"
 msgstr "F%1"
 
+#: knewstuff/knewstuff2/ui/itemsview.cpp:311
+#, fuzzy
+#| msgid "Rating"
+msgid "Rating: "
+msgstr "రేటింగు"
+
+#: knewstuff/knewstuff2/ui/itemsview.cpp:316
+#, fuzzy
+#| msgid "Downloads"
+msgid "Downloads: "
+msgstr "డౌన్ లొడులు"
+
 #: knewstuff/knewstuff2/ui/kdxstranslation.cpp:35
 msgid "Translate this entry"
 msgstr "ఈ దఖలును అనువదించు"
@@ -7671,7 +7683,7 @@ msgstr ""
 "స్థితి పట్టీ చూపుము<p>స్థితి పట్టీ చూపుము, ఈ పట్టి స్థితి సమాచారం చూపును విండొ క్రింద వుంటుంది."
 
 #: kdeui/windowmanagement/kwindowsystem_qws.cpp:163
-#: kdeui/windowmanagement/kwindowsystem_x11.cpp:850
+#: kdeui/windowmanagement/kwindowsystem_x11.cpp:859
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:168
 #: kdeui/windowmanagement/kwindowsystem_win.cpp:245
 #, kde-format
@@ -10862,7 +10874,7 @@ msgstr "జావాస్క్రిప్ట్"
 msgid "&Abort"
 msgstr "(&A) విడిచిపెట్టుము"
 
-#: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2109
+#: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2110
 msgid "Confirmation: JavaScript Popup"
 msgstr "దృవపరచు: జావాస్క్రిప్ట్ పాప్ అప్"
 
@@ -10883,11 +10895,11 @@ msgstr ""
 "<qt>ఈ సైట్ <p>%1</p>జావా స్క్రిప్ట్ ద్వారా కొత్త విండొని తెరువుటకు మనవి కోరుతుంది.<br />అనుమతించ "
 "మంటారా?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1598 khtml/ecma/kjs_html.cpp:2116
+#: khtml/ecma/kjs_window.cpp:1598 khtml/ecma/kjs_html.cpp:2117
 msgid "Allow"
 msgstr "అనుమతించు"
 
-#: khtml/ecma/kjs_window.cpp:1598 khtml/ecma/kjs_html.cpp:2116
+#: khtml/ecma/kjs_window.cpp:1598 khtml/ecma/kjs_html.cpp:2117
 msgid "Do Not Allow"
 msgstr "అనుమతించవద్దు"
 
@@ -10925,14 +10937,14 @@ msgstr "చేర్చు"
 msgid "Disallow"
 msgstr "నిషెధించు"
 
-#: khtml/ecma/kjs_html.cpp:2111
+#: khtml/ecma/kjs_html.cpp:2112
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
 "Do you want to allow the form to be submitted?"
 msgstr ""
 
-#: khtml/ecma/kjs_html.cpp:2114
+#: khtml/ecma/kjs_html.cpp:2115
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -13004,9 +13016,6 @@ msgstr ""
 #~ "'%1' లైబ్రరీ ని తెరువలేకపోయాను.\n"
 #~ "%2"
 
-#~ msgid "Rating"
-#~ msgstr "రేటింగు"
-
 #, fuzzy
 #~| msgid "Most Downloads"
 #~ msgid "Most downloads"
@@ -14775,9 +14784,6 @@ msgstr ""
 
 #~ msgid "Welcome"
 #~ msgstr "స్వాగతం"
-
-#~ msgid "Downloads"
-#~ msgstr "డౌన్ లొడులు"
 
 #~ msgid "Release Date"
 #~ msgstr "విడుదల తేదీ"
