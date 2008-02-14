@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2007-12-06 06:06+0100\n"
+"POT-Creation-Date: 2008-02-14 10:22+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -17,48 +17,104 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: gui/text/qtextcontrol.cpp:1885 gui/text/qtextcontrol.cpp:1886
-#: gui/widgets/qlineedit.cpp:2526 qt3support/text/q3textedit.cpp:5447
+#: gui/text/qtextcontrol.cpp:1951 gui/text/qtextcontrol.cpp:1952
+#: gui/widgets/qlineedit.cpp:2562 qt3support/text/q3textedit.cpp:5432
 msgid "&Undo"
 msgstr "(&U) సరిచేయు"
 
-#: gui/text/qtextcontrol.cpp:1888 gui/widgets/qlineedit.cpp:2528
-#: qt3support/text/q3textedit.cpp:5448
+#: gui/text/qtextcontrol.cpp:1954 gui/widgets/qlineedit.cpp:2564
+#: qt3support/text/q3textedit.cpp:5433
 msgid "&Redo"
 msgstr "(&R) పునరాచరణ"
 
-#: gui/text/qtextcontrol.cpp:1892 gui/widgets/qlineedit.cpp:2532
-#: qt3support/text/q3textedit.cpp:5453
+#: gui/text/qtextcontrol.cpp:1958 gui/widgets/qlineedit.cpp:2568
+#: qt3support/text/q3textedit.cpp:5438
 msgid "Cu&t"
 msgstr "(&t) కత్తిరించండి"
 
-#: gui/text/qtextcontrol.cpp:1897 gui/widgets/qlineedit.cpp:2534
-#: qt3support/text/q3textedit.cpp:5454
+#: gui/text/qtextcontrol.cpp:1963 gui/widgets/qlineedit.cpp:2570
+#: qt3support/text/q3textedit.cpp:5439
 msgid "&Copy"
 msgstr "(&C) నకలు"
 
-#: gui/text/qtextcontrol.cpp:1904
+#: gui/text/qtextcontrol.cpp:1970
 #, fuzzy
 #| msgid "Copy Image Location"
 msgid "Copy &Link Location"
 msgstr "చిత్ర స్థానం ను నకలు చేయి"
 
-#: gui/text/qtextcontrol.cpp:1910 gui/widgets/qlineedit.cpp:2536
-#: qt3support/text/q3textedit.cpp:5456
+#: gui/text/qtextcontrol.cpp:1976 gui/widgets/qlineedit.cpp:2572
+#: qt3support/text/q3textedit.cpp:5441
 msgid "&Paste"
 msgstr "(&P) అతికించండి"
 
-#: gui/text/qtextcontrol.cpp:1913 gui/widgets/qlineedit.cpp:2539
-#: qt3support/sql/q3datatable.cpp:791
+#: gui/text/qtextcontrol.cpp:1979 gui/widgets/qlineedit.cpp:2575
+#: qt3support/sql/q3datatable.cpp:793
 msgid "Delete"
 msgstr "తొలగించు"
 
-#: gui/text/qtextcontrol.cpp:1920 gui/widgets/qlineedit.cpp:2542
-#: qt3support/text/q3textedit.cpp:5463 qt3support/text/q3textedit.cpp:5465
+#: gui/text/qtextcontrol.cpp:1986 gui/widgets/qlineedit.cpp:2578
+#: qt3support/text/q3textedit.cpp:5448 qt3support/text/q3textedit.cpp:5450
 msgid "Select All"
 msgstr "అన్నిటినీ ఎంచుకొనుము"
 
-#: gui/text/qfontdatabase.cpp:83 gui/text/qfontdatabase.cpp:1256
+#: gui/text/qtextcontrol.cpp:2834
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "LRM Left-to-right mark"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:2835
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "RLM Right-to-left mark"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:2836
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "ZWJ Zero width joiner"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:2837
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "ZWNJ Zero width non-joiner"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:2838
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "ZWSP Zero width space"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:2839
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "LRE Start of left-to-right embedding"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:2840
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "RLE Start of right-to-left embedding"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:2841
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "LRO Start of left-to-right override"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:2842
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "RLO Start of right-to-left override"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:2843
+#, fuzzy
+#| msgid "Additional Information: %1"
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "PDF Pop directional formatting"
+msgstr "అదనపు సమాచారం: %1"
+
+#: gui/text/qtextcontrol.cpp:2849
+msgid "Insert Unicode control character"
+msgstr ""
+
+#: gui/text/qfontdatabase.cpp:92 gui/text/qfontdatabase.cpp:1272
 #, fuzzy
 #| msgctxt "normal severity"
 #| msgid "Normal"
@@ -66,15 +122,15 @@ msgctxt "QFontDatabase"
 msgid "Normal"
 msgstr "సాధారణ"
 
-#: gui/text/qfontdatabase.cpp:86 gui/text/qfontdatabase.cpp:98
-#: gui/text/qfontdatabase.cpp:1244
+#: gui/text/qfontdatabase.cpp:95 gui/text/qfontdatabase.cpp:107
+#: gui/text/qfontdatabase.cpp:1260
 #, fuzzy
 #| msgid "Bold"
 msgctxt "QFontDatabase"
 msgid "Bold"
 msgstr "లావుగా"
 
-#: gui/text/qfontdatabase.cpp:89 gui/text/qfontdatabase.cpp:1246
+#: gui/text/qfontdatabase.cpp:98 gui/text/qfontdatabase.cpp:1262
 #, fuzzy
 #| msgctxt "font style"
 #| msgid "Demi-bold"
@@ -82,22 +138,22 @@ msgctxt "QFontDatabase"
 msgid "Demi Bold"
 msgstr "డెమి-బోల్డ్"
 
-#: gui/text/qfontdatabase.cpp:92 gui/text/qfontdatabase.cpp:110
-#: gui/text/qfontdatabase.cpp:1242
+#: gui/text/qfontdatabase.cpp:101 gui/text/qfontdatabase.cpp:119
+#: gui/text/qfontdatabase.cpp:1258
 #, fuzzy
 #| msgid "Back"
 msgctxt "QFontDatabase"
 msgid "Black"
 msgstr "వెనుకకు"
 
-#: gui/text/qfontdatabase.cpp:100
+#: gui/text/qfontdatabase.cpp:109
 #, fuzzy
 #| msgid "Dei"
 msgctxt "QFontDatabase"
 msgid "Demi"
 msgstr "దె"
 
-#: gui/text/qfontdatabase.cpp:106 gui/text/qfontdatabase.cpp:1248
+#: gui/text/qfontdatabase.cpp:115 gui/text/qfontdatabase.cpp:1264
 #, fuzzy
 #| msgctxt "font style"
 #| msgid "Light"
@@ -105,14 +161,14 @@ msgctxt "QFontDatabase"
 msgid "Light"
 msgstr "సన్నము"
 
-#: gui/text/qfontdatabase.cpp:247 gui/text/qfontdatabase.cpp:1251
+#: gui/text/qfontdatabase.cpp:256 gui/text/qfontdatabase.cpp:1267
 #, fuzzy
 #| msgid "Italic"
 msgctxt "QFontDatabase"
 msgid "Italic"
 msgstr "ఇటాలిక్స్"
 
-#: gui/text/qfontdatabase.cpp:250 gui/text/qfontdatabase.cpp:1253
+#: gui/text/qfontdatabase.cpp:259 gui/text/qfontdatabase.cpp:1269
 #, fuzzy
 #| msgctxt "font style"
 #| msgid "Oblique"
@@ -120,33 +176,33 @@ msgctxt "QFontDatabase"
 msgid "Oblique"
 msgstr "వక్రము"
 
-#: gui/text/qfontdatabase.cpp:1932
+#: gui/text/qfontdatabase.cpp:1974
 msgctxt "QFontDatabase"
 msgid "Any"
 msgstr ""
 
-#: gui/text/qfontdatabase.cpp:1935
+#: gui/text/qfontdatabase.cpp:1977
 #, fuzzy
 #| msgid "Rating"
 msgctxt "QFontDatabase"
 msgid "Latin"
 msgstr "రేటింగు"
 
-#: gui/text/qfontdatabase.cpp:1938
+#: gui/text/qfontdatabase.cpp:1980
 #, fuzzy
 #| msgid "Greek"
 msgctxt "QFontDatabase"
 msgid "Greek"
 msgstr "గ్రీకు"
 
-#: gui/text/qfontdatabase.cpp:1941
+#: gui/text/qfontdatabase.cpp:1983
 #, fuzzy
 #| msgid "Cyrillic"
 msgctxt "QFontDatabase"
 msgid "Cyrillic"
 msgstr "సిరిల్లిక్"
 
-#: gui/text/qfontdatabase.cpp:1944
+#: gui/text/qfontdatabase.cpp:1986
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Armenian"
@@ -154,21 +210,21 @@ msgctxt "QFontDatabase"
 msgid "Armenian"
 msgstr "అర్మెనియన్"
 
-#: gui/text/qfontdatabase.cpp:1947
+#: gui/text/qfontdatabase.cpp:1989
 #, fuzzy
 #| msgid "Hebrew"
 msgctxt "QFontDatabase"
 msgid "Hebrew"
 msgstr "హిబ్రూ"
 
-#: gui/text/qfontdatabase.cpp:1950
+#: gui/text/qfontdatabase.cpp:1992
 #, fuzzy
 #| msgid "Arabic"
 msgctxt "QFontDatabase"
 msgid "Arabic"
 msgstr "అరబిక్"
 
-#: gui/text/qfontdatabase.cpp:1953
+#: gui/text/qfontdatabase.cpp:1995
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Syriac"
@@ -176,7 +232,7 @@ msgctxt "QFontDatabase"
 msgid "Syriac"
 msgstr "సిరియాక్"
 
-#: gui/text/qfontdatabase.cpp:1956
+#: gui/text/qfontdatabase.cpp:1998
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Thaana"
@@ -184,7 +240,7 @@ msgctxt "QFontDatabase"
 msgid "Thaana"
 msgstr "తానా"
 
-#: gui/text/qfontdatabase.cpp:1959
+#: gui/text/qfontdatabase.cpp:2001
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Devanagari"
@@ -192,7 +248,7 @@ msgctxt "QFontDatabase"
 msgid "Devanagari"
 msgstr "దేవనాగరి"
 
-#: gui/text/qfontdatabase.cpp:1962
+#: gui/text/qfontdatabase.cpp:2004
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Bengali"
@@ -200,7 +256,7 @@ msgctxt "QFontDatabase"
 msgid "Bengali"
 msgstr "బెంగాలి"
 
-#: gui/text/qfontdatabase.cpp:1965
+#: gui/text/qfontdatabase.cpp:2007
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Gurmukhi"
@@ -208,7 +264,7 @@ msgctxt "QFontDatabase"
 msgid "Gurmukhi"
 msgstr "గుర్ముఖి"
 
-#: gui/text/qfontdatabase.cpp:1968
+#: gui/text/qfontdatabase.cpp:2010
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Gujarati"
@@ -216,7 +272,7 @@ msgctxt "QFontDatabase"
 msgid "Gujarati"
 msgstr "గుజరాతి"
 
-#: gui/text/qfontdatabase.cpp:1971
+#: gui/text/qfontdatabase.cpp:2013
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Oriya"
@@ -224,14 +280,14 @@ msgctxt "QFontDatabase"
 msgid "Oriya"
 msgstr "ఒరియా"
 
-#: gui/text/qfontdatabase.cpp:1974
+#: gui/text/qfontdatabase.cpp:2016
 #, fuzzy
 #| msgid "Tamil"
 msgctxt "QFontDatabase"
 msgid "Tamil"
 msgstr "తమిళం"
 
-#: gui/text/qfontdatabase.cpp:1977
+#: gui/text/qfontdatabase.cpp:2019
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Telugu"
@@ -239,7 +295,7 @@ msgctxt "QFontDatabase"
 msgid "Telugu"
 msgstr "తెలుగు"
 
-#: gui/text/qfontdatabase.cpp:1980
+#: gui/text/qfontdatabase.cpp:2022
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Kannada"
@@ -247,7 +303,7 @@ msgctxt "QFontDatabase"
 msgid "Kannada"
 msgstr "కన్నడ"
 
-#: gui/text/qfontdatabase.cpp:1983
+#: gui/text/qfontdatabase.cpp:2025
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Malayalam"
@@ -255,7 +311,7 @@ msgctxt "QFontDatabase"
 msgid "Malayalam"
 msgstr "మలయాళం"
 
-#: gui/text/qfontdatabase.cpp:1986
+#: gui/text/qfontdatabase.cpp:2028
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Sinhala"
@@ -263,14 +319,14 @@ msgctxt "QFontDatabase"
 msgid "Sinhala"
 msgstr "సింహళ"
 
-#: gui/text/qfontdatabase.cpp:1989
+#: gui/text/qfontdatabase.cpp:2031
 #, fuzzy
 #| msgid "Thai"
 msgctxt "QFontDatabase"
 msgid "Thai"
 msgstr "థాయ్"
 
-#: gui/text/qfontdatabase.cpp:1992
+#: gui/text/qfontdatabase.cpp:2034
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Lao"
@@ -278,7 +334,7 @@ msgctxt "QFontDatabase"
 msgid "Lao"
 msgstr "లాఓ"
 
-#: gui/text/qfontdatabase.cpp:1995
+#: gui/text/qfontdatabase.cpp:2037
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Tibetan"
@@ -286,7 +342,7 @@ msgctxt "QFontDatabase"
 msgid "Tibetan"
 msgstr "టిబెటియన్"
 
-#: gui/text/qfontdatabase.cpp:1998
+#: gui/text/qfontdatabase.cpp:2040
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Myanmar"
@@ -294,7 +350,7 @@ msgctxt "QFontDatabase"
 msgid "Myanmar"
 msgstr "మ్యాన్మార్"
 
-#: gui/text/qfontdatabase.cpp:2001
+#: gui/text/qfontdatabase.cpp:2043
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Georgian"
@@ -302,7 +358,7 @@ msgctxt "QFontDatabase"
 msgid "Georgian"
 msgstr "జార్జియన్"
 
-#: gui/text/qfontdatabase.cpp:2004
+#: gui/text/qfontdatabase.cpp:2046
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Khmer"
@@ -310,7 +366,7 @@ msgctxt "QFontDatabase"
 msgid "Khmer"
 msgstr "ఖ్మేర్"
 
-#: gui/text/qfontdatabase.cpp:2007
+#: gui/text/qfontdatabase.cpp:2049
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Han (Simplified Chinese)"
@@ -318,7 +374,7 @@ msgctxt "QFontDatabase"
 msgid "Simplified Chinese"
 msgstr "హణ్ (సరళించిన చైనీస్)"
 
-#: gui/text/qfontdatabase.cpp:2010
+#: gui/text/qfontdatabase.cpp:2052
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Han (Traditional Chinese)"
@@ -326,28 +382,28 @@ msgctxt "QFontDatabase"
 msgid "Traditional Chinese"
 msgstr "హణ్ (సాంప్రదాయ చైనీస్)"
 
-#: gui/text/qfontdatabase.cpp:2013
+#: gui/text/qfontdatabase.cpp:2055
 #, fuzzy
 #| msgid "Japanese"
 msgctxt "QFontDatabase"
 msgid "Japanese"
 msgstr "జాపనీస్"
 
-#: gui/text/qfontdatabase.cpp:2016
+#: gui/text/qfontdatabase.cpp:2058
 #, fuzzy
 #| msgid "Korean"
 msgctxt "QFontDatabase"
 msgid "Korean"
 msgstr "కొరియన్"
 
-#: gui/text/qfontdatabase.cpp:2019
+#: gui/text/qfontdatabase.cpp:2061
 #, fuzzy
 #| msgid "Vietnamese"
 msgctxt "QFontDatabase"
 msgid "Vietnamese"
 msgstr "వియత్నామీస్"
 
-#: gui/text/qfontdatabase.cpp:2022
+#: gui/text/qfontdatabase.cpp:2064
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Currency Symbols"
@@ -355,7 +411,7 @@ msgctxt "QFontDatabase"
 msgid "Symbol"
 msgstr "డబ్బు చిహ్నాలు"
 
-#: gui/text/qfontdatabase.cpp:2025
+#: gui/text/qfontdatabase.cpp:2067
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Ogham"
@@ -363,7 +419,7 @@ msgctxt "QFontDatabase"
 msgid "Ogham"
 msgstr "ఒఘామ్"
 
-#: gui/text/qfontdatabase.cpp:2028
+#: gui/text/qfontdatabase.cpp:2070
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Runic"
@@ -371,49 +427,60 @@ msgctxt "QFontDatabase"
 msgid "Runic"
 msgstr "రూనిక్"
 
-#: gui/util/qundoview.cpp:94
+#: gui/util/qundoview.cpp:103
 msgid "<empty>"
 msgstr "<ఖాళీ>"
 
-#: gui/util/qundostack.cpp:839 gui/util/qundogroup.cpp:364
+#: gui/util/qundostack.cpp:832 gui/util/qundogroup.cpp:373
 msgid "Undo"
 msgstr "సరిచేయు"
 
-#: gui/util/qundostack.cpp:866 gui/util/qundogroup.cpp:392
+#: gui/util/qundostack.cpp:859 gui/util/qundogroup.cpp:401
 msgid "Redo"
 msgstr "పునరాచరణ"
 
-#: gui/util/qdesktopservices_mac.cpp:170
+#: gui/util/qdesktopservices_mac.cpp:183
 #, fuzzy
 #| msgctxt "Home phone"
 #| msgid "Home"
 msgid "Home"
 msgstr "గృహము"
 
-#: gui/dialogs/qmessagebox.cpp:105
+#: gui/dialogs/qmessagebox.cpp:124
 #, fuzzy
 #| msgid "Details"
 msgid "Show Details..."
 msgstr "వివరములు"
 
-#: gui/dialogs/qmessagebox.cpp:106
+#: gui/dialogs/qmessagebox.cpp:125
 #, fuzzy
 #| msgid "Details"
 msgid "Hide Details..."
 msgstr "వివరములు"
 
-#: gui/dialogs/qmessagebox.cpp:1473 gui/widgets/qmenu_mac.cpp:381
-msgid "About Qt"
-msgstr "క్యుటీ గురించి"
-
-#: gui/dialogs/qmessagebox.cpp:1617 gui/dialogs/qmessagebox.cpp:2072
-#: gui/dialogs/qpagesetupdialog_unix.cpp:178
-#: qt3support/dialogs/q3tabdialog.cpp:182
-#: qt3support/dialogs/q3tabdialog.cpp:996
+#: gui/dialogs/qmessagebox.cpp:447 gui/dialogs/qmessagebox.cpp:1164
+msgctxt "QMessageBox"
 msgid "OK"
 msgstr "సరే"
 
-#: gui/dialogs/qmessagebox.cpp:1642
+#: gui/dialogs/qmessagebox.cpp:1165
+#, fuzzy
+#| msgid "Help"
+msgctxt "QMessageBox"
+msgid "Help"
+msgstr "సహాయము"
+
+#: gui/dialogs/qmessagebox.cpp:1534 gui/widgets/qmenu_mac.cpp:396
+msgid "About Qt"
+msgstr "క్యుటీ గురించి"
+
+#: gui/dialogs/qmessagebox.cpp:1682 gui/dialogs/qmessagebox.cpp:2134
+#: qt3support/dialogs/q3tabdialog.cpp:191
+#: qt3support/dialogs/q3tabdialog.cpp:1005
+msgid "OK"
+msgstr "సరే"
+
+#: gui/dialogs/qmessagebox.cpp:1707
 #, qt-format
 msgid ""
 "<h3>About Qt</h3>%1<p>Qt is a C++ toolkit for cross-platform application "
@@ -424,12 +491,12 @@ msgid ""
 "trolltech.com/qt/</a> for more information.</p>"
 msgstr ""
 
-#: gui/dialogs/qmessagebox.cpp:1653
+#: gui/dialogs/qmessagebox.cpp:1718
 #, qt-format
 msgid "<p>This program uses Qt version %1.</p>"
 msgstr ""
 
-#: gui/dialogs/qmessagebox.cpp:1655
+#: gui/dialogs/qmessagebox.cpp:1720
 #, qt-format
 msgid ""
 "<p>This program uses Qt Open Source Edition version %1.</p><p>Qt Open Source "
@@ -440,268 +507,534 @@ msgid ""
 "licensing.</p>"
 msgstr ""
 
-#: gui/dialogs/qwizard.cpp:577
+#: gui/dialogs/qwizard.cpp:136
 #, fuzzy
 #| msgid "Back"
 msgid "Go Back"
 msgstr "వెనుకకు"
 
-#: gui/dialogs/qwizard.cpp:578
+#: gui/dialogs/qwizard.cpp:136 qt3support/dialogs/q3wizard.cpp:180
+msgid "< &Back"
+msgstr "(&B) < వెనుకకు"
+
+#: gui/dialogs/qwizard.cpp:139
 msgid "Continue"
 msgstr "కొనసాగించు"
 
-#: gui/dialogs/qwizard.cpp:579 gui/dialogs/qwizard.cpp:588
+#: gui/dialogs/qwizard.cpp:141
+msgid "&Next"
+msgstr "&తరువాత"
+
+#: gui/dialogs/qwizard.cpp:141 qt3support/dialogs/q3wizard.cpp:181
+msgid "&Next >"
+msgstr "(&N) తరువాత >"
+
+#: gui/dialogs/qwizard.cpp:143
 #, fuzzy
 #| msgid "Comment"
 msgid "Commit"
 msgstr "వ్యాఖ్య"
 
-#: gui/dialogs/qwizard.cpp:580
+#: gui/dialogs/qwizard.cpp:145 gui/dialogs/qdialog.cpp:441
 #, fuzzy
 #| msgid "Done."
 msgid "Done"
 msgstr "అయినది."
 
-#: gui/dialogs/qwizard.cpp:581 gui/widgets/qmenu_mac.cpp:343
-msgid "Quit"
-msgstr "విరమించు"
-
-#: gui/dialogs/qwizard.cpp:582 qt3support/dialogs/q3tabdialog.cpp:683
-msgid "Help"
-msgstr "సహాయము"
-
-#: gui/dialogs/qwizard.cpp:584 qt3support/dialogs/q3wizard.cpp:170
-msgid "< &Back"
-msgstr "(&B) < వెనుకకు"
-
-#: gui/dialogs/qwizard.cpp:587
-msgid "&Next"
-msgstr "&తరువాత"
-
-#: gui/dialogs/qwizard.cpp:587 qt3support/dialogs/q3wizard.cpp:171
-msgid "&Next >"
-msgstr "(&N) తరువాత >"
-
-#: gui/dialogs/qwizard.cpp:589 qt3support/dialogs/q3wizard.cpp:172
+#: gui/dialogs/qwizard.cpp:145 qt3support/dialogs/q3wizard.cpp:182
 #, fuzzy
 #| msgid "&Finish"
 msgid "&Finish"
 msgstr "(&F) ముగింపు"
 
-#: gui/dialogs/qwizard.cpp:590 gui/dialogs/qpagesetupdialog_unix.cpp:179
-#: gui/dialogs/qprogressdialog.cpp:170 qt3support/dialogs/q3tabdialog.cpp:778
-#: qt3support/dialogs/q3progressdialog.cpp:254
-#: qt3support/dialogs/q3progressdialog.cpp:315
+#: gui/dialogs/qwizard.cpp:147 gui/widgets/qmenu_mac.cpp:358
+msgid "Quit"
+msgstr "విరమించు"
+
+#: gui/dialogs/qwizard.cpp:147 gui/dialogs/qprogressdialog.cpp:179
+#: qt3support/dialogs/q3tabdialog.cpp:787
+#: qt3support/dialogs/q3progressdialog.cpp:226
+#: qt3support/dialogs/q3progressdialog.cpp:287
 msgid "Cancel"
 msgstr "రద్దు"
 
-#: gui/dialogs/qwizard.cpp:591 qt3support/dialogs/q3wizard.cpp:173
-msgid "&Help"
-msgstr "(&H) సహాయము"
-
-#: gui/dialogs/qpagesetupdialog_unix.cpp:153
-msgid "Page size:"
-msgstr ""
-
-#: gui/dialogs/qpagesetupdialog_unix.cpp:158
-#, fuzzy
-#| msgid "Orientation"
-msgid "Orientation:"
-msgstr "దిశ"
-
-#: gui/dialogs/qpagesetupdialog_unix.cpp:164
-#, fuzzy
-#| msgid "resource"
-msgid "Paper source:"
-msgstr "వనరు"
-
-#: gui/dialogs/qpagesetupdialog_unix.cpp:199
-msgid "Portrait"
-msgstr "నిలువు దిశ"
-
-#: gui/dialogs/qpagesetupdialog_unix.cpp:200
-msgid "Landscape"
-msgstr "సమతల దిశ"
-
-#: gui/dialogs/qsidebar.cpp:399
-msgid "Remove"
-msgstr "తొలగించు"
-
-#: gui/dialogs/qdialog.cpp:355 gui/dialogs/qdialog.cpp:616
-#, fuzzy
-#| msgid "Help"
-msgctxt "QMessageBox"
+#: gui/dialogs/qwizard.cpp:149 gui/widgets/qmdisubwindow.cpp:345
+#: qt3support/dialogs/q3tabdialog.cpp:692
 msgid "Help"
 msgstr "సహాయము"
 
-#: gui/dialogs/qdialog.cpp:521 gui/kernel/qwhatsthis.cpp:509
+#: gui/dialogs/qwizard.cpp:149 qt3support/dialogs/q3wizard.cpp:183
+msgid "&Help"
+msgstr "(&H) సహాయము"
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:72
+msgid "A0"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:73
+msgid "A1"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:74
+msgid "A2"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:75
+msgid "A3"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:76
+msgid "A4"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:77
+msgid "A5"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:78
+msgid "A6"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:79
+msgid "A7"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:80
+msgid "A8"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:81
+msgid "A9"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:82
+msgid "B0"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:83
+msgid "B1"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:84
+msgid "B2"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:85
+msgid "B3"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:86
+msgid "B4"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:87
+msgid "B5"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:88
+msgid "B6"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:89
+msgid "B7"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:90
+msgid "B8"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:91
+msgid "B9"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:92
+msgid "B10"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:93
+msgid "C5E"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:94
+#, fuzzy
+#| msgid "KDE"
+msgid "DLE"
+msgstr "కెడిఈ"
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:95
+#, fuzzy
+#| msgid "Execute"
+msgid "Executive"
+msgstr "నడుపు"
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:96
+#, fuzzy
+#| msgid "Follow"
+msgid "Folio"
+msgstr "అనుసరించు"
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:97
+#, fuzzy
+#| msgid "Left"
+msgid "Ledger"
+msgstr "ఎడమ"
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:98
+#, fuzzy
+#| msgctxt "QFont"
+#| msgid "Bengali"
+msgid "Legal"
+msgstr "బెంగాలి"
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:99
+#, fuzzy
+#| msgid "Center"
+msgid "Letter"
+msgstr "మధ్య"
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:100
+#, fuzzy
+#| msgid "Table:"
+msgid "Tabloid"
+msgstr "పట్టిక:"
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:101
+msgid "US Common #10 Envelope"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:102
+#, fuzzy
+#| msgid "C&ustom"
+msgid "Custom"
+msgstr "(&u) నిర్దేశితమైన"
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:265
+msgid "Centimeters (cm)"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:265
+msgid "Millimeters (mm)"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:265
+msgid "Inches (in)"
+msgstr ""
+
+#: gui/dialogs/qpagesetupdialog_unix.cpp:265
+msgid "Points (pt)"
+msgstr ""
+
+#: gui/dialogs/qsidebar.cpp:418
+msgid "Remove"
+msgstr "తొలగించు"
+
+#: gui/dialogs/qdialog.cpp:547 gui/kernel/qwhatsthis.cpp:514
 msgid "What's This?"
 msgstr "ఇది ఎమిటి?"
 
-#: gui/dialogs/qfilesystemmodel.cpp:562
+#: gui/dialogs/qfilesystemmodel.cpp:707
 #, fuzzy, qt-format
 #| msgctxt "concatenation of dates and time"
 #| msgid "%1 %2"
 msgid "%1 TB"
 msgstr "%1 %2"
 
-#: gui/dialogs/qfilesystemmodel.cpp:564
+#: gui/dialogs/qfilesystemmodel.cpp:709
 #, fuzzy, qt-format
 #| msgctxt "concatenation of dates and time"
 #| msgid "%1 %2"
 msgid "%1 GB"
 msgstr "%1 %2"
 
-#: gui/dialogs/qfilesystemmodel.cpp:566
+#: gui/dialogs/qfilesystemmodel.cpp:711
 #, fuzzy, qt-format
 #| msgctxt "concatenation of dates and time"
 #| msgid "%1 %2"
 msgid "%1 MB"
 msgstr "%1 %2"
 
-#: gui/dialogs/qfilesystemmodel.cpp:568
+#: gui/dialogs/qfilesystemmodel.cpp:713
 #, fuzzy, qt-format
 #| msgctxt "concatenation of dates and time"
 #| msgid "%1 %2"
 msgid "%1 KB"
 msgstr "%1 %2"
 
-#: gui/dialogs/qfilesystemmodel.cpp:569
+#: gui/dialogs/qfilesystemmodel.cpp:714
 #, fuzzy, qt-format
 #| msgid "%2 (%1 bytes)"
 msgid "%1 bytes"
 msgstr "%2 (%1 బైట్లు)"
 
-#: gui/dialogs/qfilesystemmodel.cpp:645
+#: gui/dialogs/qfilesystemmodel.cpp:791
 #, fuzzy
 #| msgid "Invalid reference base"
 msgid "Invalid filename"
 msgstr "సరికాని సంబంద మూలం"
 
-#: gui/dialogs/qfilesystemmodel.cpp:646
+#: gui/dialogs/qfilesystemmodel.cpp:792
 #, qt-format
 msgid ""
 "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer "
 "characters or no punctuations marks."
 msgstr ""
 
-#: gui/dialogs/qfilesystemmodel.cpp:715 gui/itemviews/qdirmodel.cpp:442
+#: gui/dialogs/qfilesystemmodel.cpp:862 gui/itemviews/qdirmodel.cpp:448
 msgid "Name"
 msgstr "పేరు"
 
-#: gui/dialogs/qfilesystemmodel.cpp:717 gui/itemviews/qdirmodel.cpp:443
+#: gui/dialogs/qfilesystemmodel.cpp:864 gui/itemviews/qdirmodel.cpp:449
 msgid "Size"
 msgstr "పరిమాణము"
 
-#: gui/dialogs/qfilesystemmodel.cpp:721 gui/itemviews/qdirmodel.cpp:446
+#: gui/dialogs/qfilesystemmodel.cpp:868 gui/itemviews/qdirmodel.cpp:452
 #, fuzzy
 #| msgid "Find"
 msgctxt "Match OS X Finder"
 msgid "Kind"
 msgstr "కనుగొను"
 
-#: gui/dialogs/qfilesystemmodel.cpp:723 gui/itemviews/qdirmodel.cpp:448
+#: gui/dialogs/qfilesystemmodel.cpp:870 gui/itemviews/qdirmodel.cpp:454
 #, fuzzy
 #| msgid "Type"
 msgctxt "All other platforms"
 msgid "Type"
 msgstr "రకము"
 
-#: gui/dialogs/qfilesystemmodel.cpp:730 gui/itemviews/qdirmodel.cpp:454
+#: gui/dialogs/qfilesystemmodel.cpp:877 gui/itemviews/qdirmodel.cpp:460
 #, fuzzy
 #| msgid "Last modified:"
 msgid "Date Modified"
 msgstr "చివరిసారి మార్చబడినది:"
 
-#: gui/dialogs/qfontdialog.cpp:473
+#: gui/dialogs/qfontdialog.cpp:448
 msgid "Select Font"
 msgstr "అక్షరరూపము ఎంచుకొనుము"
 
-#: gui/dialogs/qfontdialog.cpp:810
+#: gui/dialogs/qfontdialog.cpp:785
 msgid "&Font"
 msgstr "(&F) అక్షర రూపము"
 
-#: gui/dialogs/qfontdialog.cpp:811
+#: gui/dialogs/qfontdialog.cpp:786
 msgid "Font st&yle"
 msgstr "(&y) అక్షర శైలి"
 
-#: gui/dialogs/qfontdialog.cpp:812 gui/widgets/qworkspace.cpp:1089
-#: gui/widgets/qmdisubwindow.cpp:943
+#: gui/dialogs/qfontdialog.cpp:787 gui/widgets/qworkspace.cpp:1091
+#: gui/widgets/qmdisubwindow.cpp:1046
 msgid "&Size"
 msgstr "(&S) పరిమాణము"
 
-#: gui/dialogs/qfontdialog.cpp:813
+#: gui/dialogs/qfontdialog.cpp:788
 msgid "Effects"
 msgstr "ప్రభావములు"
 
-#: gui/dialogs/qfontdialog.cpp:814
+#: gui/dialogs/qfontdialog.cpp:789
 msgid "Stri&keout"
 msgstr "(&k) కొట్టివేత"
 
-#: gui/dialogs/qfontdialog.cpp:815
+#: gui/dialogs/qfontdialog.cpp:790
 msgid "&Underline"
 msgstr "(&U) క్రింది గీత"
 
-#: gui/dialogs/qfontdialog.cpp:816
+#: gui/dialogs/qfontdialog.cpp:791
 msgid "Sample"
 msgstr "మచ్చు"
 
-#: gui/dialogs/qfontdialog.cpp:817
+#: gui/dialogs/qfontdialog.cpp:792
 msgid "Wr&iting System"
 msgstr ""
 
-#: gui/itemviews/qdirmodel.cpp:846
+#: gui/dialogs/qprintpreviewdialog.cpp:334
+#, fuzzy
+#| msgid "Print Previe&w..."
+msgctxt "QPrintPreviewDialog"
+msgid "Print Preview"
+msgstr "(&w) ప్రచురణ ముందస్తు వీక్షణం"
+
+#: gui/dialogs/qprintpreviewdialog.cpp:356
+#, fuzzy
+#| msgid "&Next Page"
+msgctxt "QPrintPreviewDialog"
+msgid "Next page"
+msgstr "(&N) తరువాత పుట"
+
+#: gui/dialogs/qprintpreviewdialog.cpp:357
+#, fuzzy
+#| msgid "&Previous Page"
+msgctxt "QPrintPreviewDialog"
+msgid "Previous page"
+msgstr "(&P) ముందరి పుట"
+
+#: gui/dialogs/qprintpreviewdialog.cpp:358
+#, fuzzy
+#| msgid "&First Page"
+msgctxt "QPrintPreviewDialog"
+msgid "First page"
+msgstr "(&F) మొదటి పుట"
+
+#: gui/dialogs/qprintpreviewdialog.cpp:359
+#, fuzzy
+#| msgid "&Last Page"
+msgctxt "QPrintPreviewDialog"
+msgid "Last page"
+msgstr "(&L) చివరి పుట"
+
+#: gui/dialogs/qprintpreviewdialog.cpp:368
+msgctxt "QPrintPreviewDialog"
+msgid "Fit width"
+msgstr ""
+
+#: gui/dialogs/qprintpreviewdialog.cpp:369
+#, fuzzy
+#| msgid "&First Page"
+msgctxt "QPrintPreviewDialog"
+msgid "Fit page"
+msgstr "(&F) మొదటి పుట"
+
+#: gui/dialogs/qprintpreviewdialog.cpp:380
+#, fuzzy
+#| msgid "Zoom In"
+msgctxt "QPrintPreviewDialog"
+msgid "Zoom in"
+msgstr "సమీప వీక్షణం"
+
+#: gui/dialogs/qprintpreviewdialog.cpp:381
+#, fuzzy
+#| msgid "Zoom Out"
+msgctxt "QPrintPreviewDialog"
+msgid "Zoom out"
+msgstr "దూర వీక్షణం"
+
+#: gui/dialogs/qprintpreviewdialog.cpp:387
+#, fuzzy
+#| msgid "Portrait"
+msgctxt "QPrintPreviewDialog"
+msgid "Portrait"
+msgstr "నిలువు దిశ"
+
+#: gui/dialogs/qprintpreviewdialog.cpp:388
+#, fuzzy
+#| msgid "Landscape"
+msgctxt "QPrintPreviewDialog"
+msgid "Landscape"
+msgstr "సమతల దిశ"
+
+#: gui/dialogs/qprintpreviewdialog.cpp:398
+msgctxt "QPrintPreviewDialog"
+msgid "Show single page"
+msgstr ""
+
+#: gui/dialogs/qprintpreviewdialog.cpp:399
+msgctxt "QPrintPreviewDialog"
+msgid "Show facing pages"
+msgstr ""
+
+#: gui/dialogs/qprintpreviewdialog.cpp:400
+msgctxt "QPrintPreviewDialog"
+msgid "Show overview of all pages"
+msgstr ""
+
+#: gui/dialogs/qprintpreviewdialog.cpp:415
+#, fuzzy
+#| msgid "Print"
+msgctxt "QPrintPreviewDialog"
+msgid "Print"
+msgstr "ప్రచురణ"
+
+#: gui/dialogs/qprintpreviewdialog.cpp:416
+#, fuzzy
+#| msgctxt "QAccel"
+#| msgid "Page Up"
+msgctxt "QPrintPreviewDialog"
+msgid "Page setup"
+msgstr "పుట పైకి"
+
+#: gui/dialogs/qprintpreviewdialog.cpp:417
+#, fuzzy
+#| msgid "Close"
+msgctxt "QPrintPreviewDialog"
+msgid "Close"
+msgstr "మూసివెయుము"
+
+#: gui/dialogs/qprintpreviewdialog.cpp:576
+#, fuzzy
+#| msgctxt "QAccel"
+#| msgid "Page Up"
+msgctxt "QPrintPreviewDialog"
+msgid "Page Setup"
+msgstr "పుట పైకి"
+
+#: gui/painting/qprinterinfo_unix.cpp:111
+msgid "locally connected"
+msgstr "స్థానికంగా అనుసంధానమైనది"
+
+#: gui/painting/qprinterinfo_unix.cpp:132
+#: gui/painting/qprinterinfo_unix.cpp:354
+#, fuzzy, qt-format
+#| msgid "Please enter name:"
+msgid "Aliases: %1"
+msgstr "పేరును వ్రాయండి:"
+
+#: gui/painting/qprinterinfo_unix.cpp:573
+#: gui/painting/qprinterinfo_unix.cpp:770
+#, fuzzy
+#| msgctxt "unknown program name"
+#| msgid "unknown"
+msgid "unknown"
+msgstr "తెలియని"
+
+#: gui/itemviews/qdirmodel.cpp:858
 #, fuzzy
 #| msgid "Compiler:"
 msgctxt "QFileDialog"
 msgid "My Computer"
 msgstr "కంపైలర్"
 
-#: gui/itemviews/qitemeditorfactory.cpp:538 qt3support/sql/q3datatable.cpp:277
+#: gui/itemviews/qitemeditorfactory.cpp:533 qt3support/sql/q3datatable.cpp:286
 msgid "False"
 msgstr "అసత్యము"
 
-#: gui/itemviews/qitemeditorfactory.cpp:539 qt3support/sql/q3datatable.cpp:276
+#: gui/itemviews/qitemeditorfactory.cpp:534 qt3support/sql/q3datatable.cpp:285
 msgid "True"
 msgstr "సత్యము"
 
-#: gui/itemviews/qfileiconprovider.cpp:355
+#: gui/itemviews/qfileiconprovider.cpp:409
 #, fuzzy
 #| msgid "Hide %1"
 msgctxt "QFileDialog"
 msgid "Drive"
 msgstr "%1 చూపించకు"
 
-#: gui/itemviews/qfileiconprovider.cpp:358
-#: gui/itemviews/qfileiconprovider.cpp:359
+#: gui/itemviews/qfileiconprovider.cpp:412
+#: gui/itemviews/qfileiconprovider.cpp:413
 #, fuzzy
 #| msgid "File"
 msgctxt "QFileDialog"
 msgid "File"
 msgstr "దస్త్రం"
 
-#: gui/itemviews/qfileiconprovider.cpp:388
+#: gui/itemviews/qfileiconprovider.cpp:442
 #, fuzzy
 #| msgid "Unknown"
 msgctxt "QFileDialog"
 msgid "Unknown"
 msgstr "తెలియని"
 
-#: gui/accessible/qaccessibleobject.cpp:369
+#: gui/accessible/qaccessibleobject.cpp:378
 #, fuzzy
 #| msgid "Activate Next Tab"
 msgid "Activate"
 msgstr "ముందు టాబ్ ను చైతన్యపరచు"
 
-#: gui/accessible/qaccessibleobject.cpp:371
+#: gui/accessible/qaccessibleobject.cpp:380
 msgid "Activates the program's main window"
 msgstr ""
 
-#: gui/kernel/qwidget.cpp:4226
+#: gui/kernel/qwidget.cpp:4727
 msgid "*"
 msgstr ""
 
-#: gui/kernel/qkeysequence.cpp:311
+#: gui/kernel/qkeysequence.cpp:312
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Space"
@@ -709,7 +1042,7 @@ msgctxt "QShortcut"
 msgid "Space"
 msgstr "ఖాళి"
 
-#: gui/kernel/qkeysequence.cpp:312
+#: gui/kernel/qkeysequence.cpp:313
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Esc"
@@ -717,7 +1050,7 @@ msgctxt "QShortcut"
 msgid "Esc"
 msgstr "Esc"
 
-#: gui/kernel/qkeysequence.cpp:313
+#: gui/kernel/qkeysequence.cpp:314
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Tab"
@@ -725,7 +1058,7 @@ msgctxt "QShortcut"
 msgid "Tab"
 msgstr "టాబ్"
 
-#: gui/kernel/qkeysequence.cpp:314
+#: gui/kernel/qkeysequence.cpp:315
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Backtab"
@@ -733,14 +1066,14 @@ msgctxt "QShortcut"
 msgid "Backtab"
 msgstr "Backtab"
 
-#: gui/kernel/qkeysequence.cpp:315
+#: gui/kernel/qkeysequence.cpp:316
 #, fuzzy
 #| msgid "Backspace"
 msgctxt "QShortcut"
 msgid "Backspace"
 msgstr "Backspace"
 
-#: gui/kernel/qkeysequence.cpp:316
+#: gui/kernel/qkeysequence.cpp:317
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Return"
@@ -748,7 +1081,7 @@ msgctxt "QShortcut"
 msgid "Return"
 msgstr "Return"
 
-#: gui/kernel/qkeysequence.cpp:317
+#: gui/kernel/qkeysequence.cpp:318
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Enter"
@@ -756,7 +1089,7 @@ msgctxt "QShortcut"
 msgid "Enter"
 msgstr "ఎంటర్"
 
-#: gui/kernel/qkeysequence.cpp:318
+#: gui/kernel/qkeysequence.cpp:319
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Ins"
@@ -764,7 +1097,7 @@ msgctxt "QShortcut"
 msgid "Ins"
 msgstr "Ins"
 
-#: gui/kernel/qkeysequence.cpp:319
+#: gui/kernel/qkeysequence.cpp:320
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Del"
@@ -772,7 +1105,7 @@ msgctxt "QShortcut"
 msgid "Del"
 msgstr "Del"
 
-#: gui/kernel/qkeysequence.cpp:320
+#: gui/kernel/qkeysequence.cpp:321
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Pause"
@@ -780,21 +1113,21 @@ msgctxt "QShortcut"
 msgid "Pause"
 msgstr "Pause"
 
-#: gui/kernel/qkeysequence.cpp:321
+#: gui/kernel/qkeysequence.cpp:322
 #, fuzzy
 #| msgid "Print"
 msgctxt "QShortcut"
 msgid "Print"
 msgstr "ప్రచురణ"
 
-#: gui/kernel/qkeysequence.cpp:322
+#: gui/kernel/qkeysequence.cpp:323
 #, fuzzy
 #| msgid "SysReq"
 msgctxt "QShortcut"
 msgid "SysReq"
 msgstr "SysReq"
 
-#: gui/kernel/qkeysequence.cpp:323
+#: gui/kernel/qkeysequence.cpp:324
 #, fuzzy
 #| msgctxt "Home phone"
 #| msgid "Home"
@@ -802,35 +1135,35 @@ msgctxt "QShortcut"
 msgid "Home"
 msgstr "గృహము"
 
-#: gui/kernel/qkeysequence.cpp:324
+#: gui/kernel/qkeysequence.cpp:325
 #, fuzzy
 #| msgid "End"
 msgctxt "QShortcut"
 msgid "End"
 msgstr "ముగింపు"
 
-#: gui/kernel/qkeysequence.cpp:325
+#: gui/kernel/qkeysequence.cpp:326
 #, fuzzy
 #| msgid "Left"
 msgctxt "QShortcut"
 msgid "Left"
 msgstr "ఎడమ"
 
-#: gui/kernel/qkeysequence.cpp:326
+#: gui/kernel/qkeysequence.cpp:327
 #, fuzzy
 #| msgid "Up"
 msgctxt "QShortcut"
 msgid "Up"
 msgstr "పైకి"
 
-#: gui/kernel/qkeysequence.cpp:327
+#: gui/kernel/qkeysequence.cpp:328
 #, fuzzy
 #| msgid "Right"
 msgctxt "QShortcut"
 msgid "Right"
 msgstr "కుడి"
 
-#: gui/kernel/qkeysequence.cpp:328
+#: gui/kernel/qkeysequence.cpp:329
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Down"
@@ -838,7 +1171,7 @@ msgctxt "QShortcut"
 msgid "Down"
 msgstr "క్రింద"
 
-#: gui/kernel/qkeysequence.cpp:329
+#: gui/kernel/qkeysequence.cpp:330
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "PgUp"
@@ -846,7 +1179,7 @@ msgctxt "QShortcut"
 msgid "PgUp"
 msgstr "PgUp"
 
-#: gui/kernel/qkeysequence.cpp:330
+#: gui/kernel/qkeysequence.cpp:331
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "PgDown"
@@ -854,28 +1187,28 @@ msgctxt "QShortcut"
 msgid "PgDown"
 msgstr "PgDown"
 
-#: gui/kernel/qkeysequence.cpp:331
+#: gui/kernel/qkeysequence.cpp:332
 #, fuzzy
 #| msgid "CapsLock"
 msgctxt "QShortcut"
 msgid "CapsLock"
 msgstr "CapsLock"
 
-#: gui/kernel/qkeysequence.cpp:332
+#: gui/kernel/qkeysequence.cpp:333
 #, fuzzy
 #| msgid "NumLock"
 msgctxt "QShortcut"
 msgid "NumLock"
 msgstr "NumLock"
 
-#: gui/kernel/qkeysequence.cpp:333
+#: gui/kernel/qkeysequence.cpp:334
 #, fuzzy
 #| msgid "ScrollLock"
 msgctxt "QShortcut"
 msgid "ScrollLock"
 msgstr "ScrollLock"
 
-#: gui/kernel/qkeysequence.cpp:334
+#: gui/kernel/qkeysequence.cpp:335
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Menu"
@@ -883,35 +1216,35 @@ msgctxt "QShortcut"
 msgid "Menu"
 msgstr "పట్టీ"
 
-#: gui/kernel/qkeysequence.cpp:335
+#: gui/kernel/qkeysequence.cpp:336
 #, fuzzy
 #| msgid "Help"
 msgctxt "QShortcut"
 msgid "Help"
 msgstr "సహాయము"
 
-#: gui/kernel/qkeysequence.cpp:338
+#: gui/kernel/qkeysequence.cpp:339
 #, fuzzy
 #| msgid "Back"
 msgctxt "QShortcut"
 msgid "Back"
 msgstr "వెనుకకు"
 
-#: gui/kernel/qkeysequence.cpp:339
+#: gui/kernel/qkeysequence.cpp:340
 #, fuzzy
 #| msgid "Forward"
 msgctxt "QShortcut"
 msgid "Forward"
 msgstr "ముందుకు"
 
-#: gui/kernel/qkeysequence.cpp:340
+#: gui/kernel/qkeysequence.cpp:341
 #, fuzzy
 #| msgid "Stop"
 msgctxt "QShortcut"
 msgid "Stop"
 msgstr "ఆగు"
 
-#: gui/kernel/qkeysequence.cpp:341
+#: gui/kernel/qkeysequence.cpp:342
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Refresh"
@@ -919,7 +1252,7 @@ msgctxt "QShortcut"
 msgid "Refresh"
 msgstr "రిఫ్రెష్"
 
-#: gui/kernel/qkeysequence.cpp:342
+#: gui/kernel/qkeysequence.cpp:343
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Volume Down"
@@ -927,7 +1260,7 @@ msgctxt "QShortcut"
 msgid "Volume Down"
 msgstr "శబ్డం తగ్గించు"
 
-#: gui/kernel/qkeysequence.cpp:343
+#: gui/kernel/qkeysequence.cpp:344
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Volume Mute"
@@ -935,7 +1268,7 @@ msgctxt "QShortcut"
 msgid "Volume Mute"
 msgstr "శబ్డం మ్యూట్"
 
-#: gui/kernel/qkeysequence.cpp:344
+#: gui/kernel/qkeysequence.cpp:345
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Volume Up"
@@ -943,7 +1276,7 @@ msgctxt "QShortcut"
 msgid "Volume Up"
 msgstr "శబ్డం పెంచు"
 
-#: gui/kernel/qkeysequence.cpp:345
+#: gui/kernel/qkeysequence.cpp:346
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Bass Boost"
@@ -951,7 +1284,7 @@ msgctxt "QShortcut"
 msgid "Bass Boost"
 msgstr "బాస్ బూస్ట్"
 
-#: gui/kernel/qkeysequence.cpp:346
+#: gui/kernel/qkeysequence.cpp:347
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Bass Up"
@@ -959,7 +1292,7 @@ msgctxt "QShortcut"
 msgid "Bass Up"
 msgstr "బాస్ పెంచు"
 
-#: gui/kernel/qkeysequence.cpp:347
+#: gui/kernel/qkeysequence.cpp:348
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Bass Down"
@@ -967,7 +1300,7 @@ msgctxt "QShortcut"
 msgid "Bass Down"
 msgstr "బాస్ తగ్గించు"
 
-#: gui/kernel/qkeysequence.cpp:348
+#: gui/kernel/qkeysequence.cpp:349
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Treble Up"
@@ -975,7 +1308,7 @@ msgctxt "QShortcut"
 msgid "Treble Up"
 msgstr "ట్రెబిల్ పెంచు"
 
-#: gui/kernel/qkeysequence.cpp:349
+#: gui/kernel/qkeysequence.cpp:350
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Treble Down"
@@ -983,7 +1316,7 @@ msgctxt "QShortcut"
 msgid "Treble Down"
 msgstr "ట్రెబిల్ తగ్గించు"
 
-#: gui/kernel/qkeysequence.cpp:350
+#: gui/kernel/qkeysequence.cpp:351
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Media Play"
@@ -991,7 +1324,7 @@ msgctxt "QShortcut"
 msgid "Media Play"
 msgstr "మిడియా ప్లే"
 
-#: gui/kernel/qkeysequence.cpp:351
+#: gui/kernel/qkeysequence.cpp:352
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Media Stop"
@@ -999,7 +1332,7 @@ msgctxt "QShortcut"
 msgid "Media Stop"
 msgstr "మిడియా ఆపు"
 
-#: gui/kernel/qkeysequence.cpp:352
+#: gui/kernel/qkeysequence.cpp:353
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Media Previous"
@@ -1007,7 +1340,7 @@ msgctxt "QShortcut"
 msgid "Media Previous"
 msgstr "మిడియా వెనుక"
 
-#: gui/kernel/qkeysequence.cpp:353
+#: gui/kernel/qkeysequence.cpp:354
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Media Next"
@@ -1015,7 +1348,7 @@ msgctxt "QShortcut"
 msgid "Media Next"
 msgstr "మిడియా తరువాత"
 
-#: gui/kernel/qkeysequence.cpp:354
+#: gui/kernel/qkeysequence.cpp:355
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Media Record"
@@ -1023,14 +1356,14 @@ msgctxt "QShortcut"
 msgid "Media Record"
 msgstr "మిడియా రికార్డ్"
 
-#: gui/kernel/qkeysequence.cpp:355
+#: gui/kernel/qkeysequence.cpp:356
 #, fuzzy
 #| msgid "Homepage"
 msgctxt "QShortcut"
 msgid "Home Page"
 msgstr "హొమ్ పేజ్"
 
-#: gui/kernel/qkeysequence.cpp:356
+#: gui/kernel/qkeysequence.cpp:357
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Favorites"
@@ -1038,7 +1371,7 @@ msgctxt "QShortcut"
 msgid "Favorites"
 msgstr "ఇష్టములు"
 
-#: gui/kernel/qkeysequence.cpp:357
+#: gui/kernel/qkeysequence.cpp:358
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Search"
@@ -1046,7 +1379,7 @@ msgctxt "QShortcut"
 msgid "Search"
 msgstr "అన్వేషణ"
 
-#: gui/kernel/qkeysequence.cpp:358
+#: gui/kernel/qkeysequence.cpp:359
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Standby"
@@ -1054,7 +1387,7 @@ msgctxt "QShortcut"
 msgid "Standby"
 msgstr "స్టేండ్ బై"
 
-#: gui/kernel/qkeysequence.cpp:359
+#: gui/kernel/qkeysequence.cpp:360
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Open URL"
@@ -1062,7 +1395,7 @@ msgctxt "QShortcut"
 msgid "Open URL"
 msgstr "యూఆర్ ఎల్ తెరువు"
 
-#: gui/kernel/qkeysequence.cpp:360
+#: gui/kernel/qkeysequence.cpp:361
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Launch Mail"
@@ -1070,7 +1403,7 @@ msgctxt "QShortcut"
 msgid "Launch Mail"
 msgstr "తపాలా ప్రారంభించు"
 
-#: gui/kernel/qkeysequence.cpp:361
+#: gui/kernel/qkeysequence.cpp:362
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Launch Media"
@@ -1078,7 +1411,7 @@ msgctxt "QShortcut"
 msgid "Launch Media"
 msgstr "మీడియా ప్రారంభించు"
 
-#: gui/kernel/qkeysequence.cpp:362
+#: gui/kernel/qkeysequence.cpp:363
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Launch (0)"
@@ -1086,7 +1419,7 @@ msgctxt "QShortcut"
 msgid "Launch (0)"
 msgstr "ప్రారంభించు (0)"
 
-#: gui/kernel/qkeysequence.cpp:363
+#: gui/kernel/qkeysequence.cpp:364
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Launch (1)"
@@ -1094,7 +1427,7 @@ msgctxt "QShortcut"
 msgid "Launch (1)"
 msgstr "ప్రారంభించు (1)"
 
-#: gui/kernel/qkeysequence.cpp:364
+#: gui/kernel/qkeysequence.cpp:365
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Launch (2)"
@@ -1102,7 +1435,7 @@ msgctxt "QShortcut"
 msgid "Launch (2)"
 msgstr "ప్రారంభించు (2)"
 
-#: gui/kernel/qkeysequence.cpp:365
+#: gui/kernel/qkeysequence.cpp:366
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Launch (3)"
@@ -1110,7 +1443,7 @@ msgctxt "QShortcut"
 msgid "Launch (3)"
 msgstr "ప్రారంభించు (3)"
 
-#: gui/kernel/qkeysequence.cpp:366
+#: gui/kernel/qkeysequence.cpp:367
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Launch (4)"
@@ -1118,7 +1451,7 @@ msgctxt "QShortcut"
 msgid "Launch (4)"
 msgstr "ప్రారంభించు (4)"
 
-#: gui/kernel/qkeysequence.cpp:367
+#: gui/kernel/qkeysequence.cpp:368
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Launch (5)"
@@ -1126,7 +1459,7 @@ msgctxt "QShortcut"
 msgid "Launch (5)"
 msgstr "ప్రారంభించు (5)"
 
-#: gui/kernel/qkeysequence.cpp:368
+#: gui/kernel/qkeysequence.cpp:369
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Launch (6)"
@@ -1134,7 +1467,7 @@ msgctxt "QShortcut"
 msgid "Launch (6)"
 msgstr "ప్రారంభించు (6)"
 
-#: gui/kernel/qkeysequence.cpp:369
+#: gui/kernel/qkeysequence.cpp:370
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Launch (7)"
@@ -1142,7 +1475,7 @@ msgctxt "QShortcut"
 msgid "Launch (7)"
 msgstr "ప్రారంభించు (7)"
 
-#: gui/kernel/qkeysequence.cpp:370
+#: gui/kernel/qkeysequence.cpp:371
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Launch (8)"
@@ -1150,7 +1483,7 @@ msgctxt "QShortcut"
 msgid "Launch (8)"
 msgstr "ప్రారంభించు (8)"
 
-#: gui/kernel/qkeysequence.cpp:371
+#: gui/kernel/qkeysequence.cpp:372
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Launch (9)"
@@ -1158,7 +1491,7 @@ msgctxt "QShortcut"
 msgid "Launch (9)"
 msgstr "ప్రారంభించు (9)"
 
-#: gui/kernel/qkeysequence.cpp:372
+#: gui/kernel/qkeysequence.cpp:373
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Launch (A)"
@@ -1166,7 +1499,7 @@ msgctxt "QShortcut"
 msgid "Launch (A)"
 msgstr "ప్రారంభించు (A)"
 
-#: gui/kernel/qkeysequence.cpp:373
+#: gui/kernel/qkeysequence.cpp:374
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Launch (B)"
@@ -1174,7 +1507,7 @@ msgctxt "QShortcut"
 msgid "Launch (B)"
 msgstr "ప్రారంభించు (B)"
 
-#: gui/kernel/qkeysequence.cpp:374
+#: gui/kernel/qkeysequence.cpp:375
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Launch (C)"
@@ -1182,7 +1515,7 @@ msgctxt "QShortcut"
 msgid "Launch (C)"
 msgstr "ప్రారంభించు (C)"
 
-#: gui/kernel/qkeysequence.cpp:375
+#: gui/kernel/qkeysequence.cpp:376
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Launch (D)"
@@ -1190,7 +1523,7 @@ msgctxt "QShortcut"
 msgid "Launch (D)"
 msgstr "ప్రారంభించు (D)"
 
-#: gui/kernel/qkeysequence.cpp:376
+#: gui/kernel/qkeysequence.cpp:377
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Launch (E)"
@@ -1198,7 +1531,7 @@ msgctxt "QShortcut"
 msgid "Launch (E)"
 msgstr "ప్రారంభించు (E)"
 
-#: gui/kernel/qkeysequence.cpp:377
+#: gui/kernel/qkeysequence.cpp:378
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Launch (F)"
@@ -1206,7 +1539,7 @@ msgctxt "QShortcut"
 msgid "Launch (F)"
 msgstr "ప్రారంభించు (F)"
 
-#: gui/kernel/qkeysequence.cpp:381
+#: gui/kernel/qkeysequence.cpp:382
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Print Screen"
@@ -1214,7 +1547,7 @@ msgctxt "QShortcut"
 msgid "Print Screen"
 msgstr "స్క్రీన్ ప్రచురించు"
 
-#: gui/kernel/qkeysequence.cpp:382
+#: gui/kernel/qkeysequence.cpp:383
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Page Up"
@@ -1222,7 +1555,7 @@ msgctxt "QShortcut"
 msgid "Page Up"
 msgstr "పుట పైకి"
 
-#: gui/kernel/qkeysequence.cpp:383
+#: gui/kernel/qkeysequence.cpp:384
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Page Down"
@@ -1230,7 +1563,7 @@ msgctxt "QShortcut"
 msgid "Page Down"
 msgstr "పుట క్రిందకు"
 
-#: gui/kernel/qkeysequence.cpp:384
+#: gui/kernel/qkeysequence.cpp:385
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Caps Lock"
@@ -1238,7 +1571,7 @@ msgctxt "QShortcut"
 msgid "Caps Lock"
 msgstr "Caps Lock"
 
-#: gui/kernel/qkeysequence.cpp:385
+#: gui/kernel/qkeysequence.cpp:386
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Num Lock"
@@ -1246,7 +1579,7 @@ msgctxt "QShortcut"
 msgid "Num Lock"
 msgstr "Num Lock"
 
-#: gui/kernel/qkeysequence.cpp:386
+#: gui/kernel/qkeysequence.cpp:387
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Num Lock"
@@ -1254,7 +1587,7 @@ msgctxt "QShortcut"
 msgid "Number Lock"
 msgstr "Num Lock"
 
-#: gui/kernel/qkeysequence.cpp:387
+#: gui/kernel/qkeysequence.cpp:388
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Scroll Lock"
@@ -1262,28 +1595,28 @@ msgctxt "QShortcut"
 msgid "Scroll Lock"
 msgstr "Scroll Lock"
 
-#: gui/kernel/qkeysequence.cpp:388
+#: gui/kernel/qkeysequence.cpp:389
 #, fuzzy
 #| msgid "Insert"
 msgctxt "QShortcut"
 msgid "Insert"
 msgstr "చేర్చు"
 
-#: gui/kernel/qkeysequence.cpp:389
+#: gui/kernel/qkeysequence.cpp:390
 #, fuzzy
 #| msgid "Delete"
 msgctxt "QShortcut"
 msgid "Delete"
 msgstr "తొలగించు"
 
-#: gui/kernel/qkeysequence.cpp:390
+#: gui/kernel/qkeysequence.cpp:391
 #, fuzzy
 #| msgid "Escape"
 msgctxt "QShortcut"
 msgid "Escape"
 msgstr "ఎస్కేప్"
 
-#: gui/kernel/qkeysequence.cpp:391
+#: gui/kernel/qkeysequence.cpp:392
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "System Request"
@@ -1291,63 +1624,63 @@ msgctxt "QShortcut"
 msgid "System Request"
 msgstr "వ్యవస్థ రెక్వెస్ట్"
 
-#: gui/kernel/qkeysequence.cpp:395
+#: gui/kernel/qkeysequence.cpp:396
 #, fuzzy
 #| msgid "Selected"
 msgctxt "QShortcut"
 msgid "Select"
 msgstr "ఎన్నుకోబడిన"
 
-#: gui/kernel/qkeysequence.cpp:396
+#: gui/kernel/qkeysequence.cpp:397
 #, fuzzy
 #| msgid "Yes"
 msgctxt "QShortcut"
 msgid "Yes"
 msgstr "ఔను"
 
-#: gui/kernel/qkeysequence.cpp:397
+#: gui/kernel/qkeysequence.cpp:398
 #, fuzzy
 #| msgid "No"
 msgctxt "QShortcut"
 msgid "No"
 msgstr "కాదు"
 
-#: gui/kernel/qkeysequence.cpp:401
+#: gui/kernel/qkeysequence.cpp:402
 #, fuzzy
 #| msgid "Contents"
 msgctxt "QShortcut"
 msgid "Context1"
 msgstr "విషయములు"
 
-#: gui/kernel/qkeysequence.cpp:402
+#: gui/kernel/qkeysequence.cpp:403
 #, fuzzy
 #| msgid "Contents"
 msgctxt "QShortcut"
 msgid "Context2"
 msgstr "విషయములు"
 
-#: gui/kernel/qkeysequence.cpp:403
+#: gui/kernel/qkeysequence.cpp:404
 #, fuzzy
 #| msgid "Contents"
 msgctxt "QShortcut"
 msgid "Context3"
 msgstr "విషయములు"
 
-#: gui/kernel/qkeysequence.cpp:404
+#: gui/kernel/qkeysequence.cpp:405
 #, fuzzy
 #| msgid "Contents"
 msgctxt "QShortcut"
 msgid "Context4"
 msgstr "విషయములు"
 
-#: gui/kernel/qkeysequence.cpp:405
+#: gui/kernel/qkeysequence.cpp:406
 #, fuzzy
 #| msgid "Install"
 msgctxt "QShortcut"
 msgid "Call"
 msgstr "స్థాపించు"
 
-#: gui/kernel/qkeysequence.cpp:406
+#: gui/kernel/qkeysequence.cpp:407
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Han"
@@ -1355,37 +1688,37 @@ msgctxt "QShortcut"
 msgid "Hangup"
 msgstr "హాణ్"
 
-#: gui/kernel/qkeysequence.cpp:407
+#: gui/kernel/qkeysequence.cpp:408
 msgctxt "QShortcut"
 msgid "Flip"
 msgstr ""
 
-#: gui/kernel/qkeysequence.cpp:931 gui/kernel/qkeysequence.cpp:1043
+#: gui/kernel/qkeysequence.cpp:930 gui/kernel/qkeysequence.cpp:1042
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: gui/kernel/qkeysequence.cpp:932 gui/kernel/qkeysequence.cpp:1047
+#: gui/kernel/qkeysequence.cpp:931 gui/kernel/qkeysequence.cpp:1046
 msgid "Shift"
 msgstr "Shift"
 
-#: gui/kernel/qkeysequence.cpp:933 gui/kernel/qkeysequence.cpp:1045
+#: gui/kernel/qkeysequence.cpp:932 gui/kernel/qkeysequence.cpp:1044
 msgid "Alt"
 msgstr "Alt"
 
-#: gui/kernel/qkeysequence.cpp:934 gui/kernel/qkeysequence.cpp:1041
+#: gui/kernel/qkeysequence.cpp:933 gui/kernel/qkeysequence.cpp:1040
 msgid "Meta"
 msgstr "మెటా"
 
-#: gui/kernel/qkeysequence.cpp:1016
+#: gui/kernel/qkeysequence.cpp:1015
 msgid "+"
 msgstr "+"
 
-#: gui/kernel/qkeysequence.cpp:1062
+#: gui/kernel/qkeysequence.cpp:1061
 #, qt-format
 msgid "F%1"
 msgstr "F%1"
 
-#: gui/kernel/qapplication.cpp:2038
+#: gui/kernel/qapplication.cpp:2113
 msgctxt ""
 "Translate this string to the string 'LTR' in left-to-right languages or to "
 "'RTL' in right-to-left languages (such as Hebrew and Arabic) to get proper "
@@ -1393,265 +1726,209 @@ msgctxt ""
 msgid "QT_LAYOUT_DIRECTION"
 msgstr ""
 
-#: gui/inputmethod/qinputcontextfactory.cpp:225
+#: gui/inputmethod/qinputcontextfactory.cpp:234
 msgid "XIM"
 msgstr ""
 
-#: gui/inputmethod/qinputcontextfactory.cpp:248
+#: gui/inputmethod/qinputcontextfactory.cpp:257
 msgid "XIM input method"
 msgstr ""
 
-#: gui/inputmethod/qinputcontextfactory.cpp:252
+#: gui/inputmethod/qinputcontextfactory.cpp:261
 msgid "Windows input method"
 msgstr ""
 
-#: gui/inputmethod/qinputcontextfactory.cpp:256
+#: gui/inputmethod/qinputcontextfactory.cpp:265
 msgid "Mac OS X input method"
 msgstr ""
 
-#: gui/widgets/qdatetimeedit.cpp:2078
+#: gui/widgets/qdatetimeedit.cpp:2227
 msgid "AM"
 msgstr ""
 
-#: gui/widgets/qdatetimeedit.cpp:2078
+#: gui/widgets/qdatetimeedit.cpp:2227
 msgid "am"
 msgstr "పూర్వాహ్నము"
 
-#: gui/widgets/qdatetimeedit.cpp:2080
+#: gui/widgets/qdatetimeedit.cpp:2229
 msgid "PM"
 msgstr ""
 
-#: gui/widgets/qdatetimeedit.cpp:2080
+#: gui/widgets/qdatetimeedit.cpp:2229
 msgid "pm"
 msgstr "మధ్యాహ్నము"
 
-#: gui/widgets/qscrollbar.cpp:419
+#: gui/widgets/qscrollbar.cpp:445
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Scroll Lock"
 msgid "Scroll here"
 msgstr "Scroll Lock"
 
-#: gui/widgets/qscrollbar.cpp:422
+#: gui/widgets/qscrollbar.cpp:448
 #, fuzzy
 #| msgid "Left"
 msgid "Left edge"
 msgstr "ఎడమ"
 
-#: gui/widgets/qscrollbar.cpp:422
+#: gui/widgets/qscrollbar.cpp:448
 msgid "Top"
 msgstr "పైన"
 
-#: gui/widgets/qscrollbar.cpp:424
+#: gui/widgets/qscrollbar.cpp:450
 #, fuzzy
 #| msgid "Right"
 msgid "Right edge"
 msgstr "కుడి"
 
-#: gui/widgets/qscrollbar.cpp:424
+#: gui/widgets/qscrollbar.cpp:450
 msgid "Bottom"
 msgstr "క్రింద"
 
-#: gui/widgets/qscrollbar.cpp:427
-#: plugins/accessible/widgets/rangecontrols.cpp:712
+#: gui/widgets/qscrollbar.cpp:453
+#: plugins/accessible/widgets/rangecontrols.cpp:722
 #, fuzzy
 #| msgid "Page loaded."
 msgid "Page left"
 msgstr "పుట ఎక్కించబడినది."
 
-#: gui/widgets/qscrollbar.cpp:427
-#: plugins/accessible/widgets/rangecontrols.cpp:555
-#: plugins/accessible/widgets/rangecontrols.cpp:712
+#: gui/widgets/qscrollbar.cpp:453
+#: plugins/accessible/widgets/rangecontrols.cpp:565
+#: plugins/accessible/widgets/rangecontrols.cpp:722
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Page Up"
 msgid "Page up"
 msgstr "పుట పైకి"
 
-#: gui/widgets/qscrollbar.cpp:429
-#: plugins/accessible/widgets/rangecontrols.cpp:717
+#: gui/widgets/qscrollbar.cpp:455
+#: plugins/accessible/widgets/rangecontrols.cpp:727
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "ParenRight"
 msgid "Page right"
 msgstr "ParenRight"
 
-#: gui/widgets/qscrollbar.cpp:429
-#: plugins/accessible/widgets/rangecontrols.cpp:559
-#: plugins/accessible/widgets/rangecontrols.cpp:717
+#: gui/widgets/qscrollbar.cpp:455
+#: plugins/accessible/widgets/rangecontrols.cpp:569
+#: plugins/accessible/widgets/rangecontrols.cpp:727
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Page Down"
 msgid "Page down"
 msgstr "పుట క్రిందకు"
 
-#: gui/widgets/qscrollbar.cpp:432
+#: gui/widgets/qscrollbar.cpp:458
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Scroll Lock"
 msgid "Scroll left"
 msgstr "Scroll Lock"
 
-#: gui/widgets/qscrollbar.cpp:432
+#: gui/widgets/qscrollbar.cpp:458
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Scroll Lock"
 msgid "Scroll up"
 msgstr "Scroll Lock"
 
-#: gui/widgets/qscrollbar.cpp:434
+#: gui/widgets/qscrollbar.cpp:460
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Scroll Lock"
 msgid "Scroll right"
 msgstr "Scroll Lock"
 
-#: gui/widgets/qscrollbar.cpp:434
+#: gui/widgets/qscrollbar.cpp:460
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Scroll Lock"
 msgid "Scroll down"
 msgstr "Scroll Lock"
 
-#: gui/widgets/qtextedit.cpp:2688
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "LRM Left-to-right mark"
-msgstr ""
-
-#: gui/widgets/qtextedit.cpp:2689
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "RLM Right-to-left mark"
-msgstr ""
-
-#: gui/widgets/qtextedit.cpp:2690
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "ZWJ Zero width joiner"
-msgstr ""
-
-#: gui/widgets/qtextedit.cpp:2691
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "ZWNJ Zero width non-joiner"
-msgstr ""
-
-#: gui/widgets/qtextedit.cpp:2692
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "ZWSP Zero width space"
-msgstr ""
-
-#: gui/widgets/qtextedit.cpp:2693
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "LRE Start of left-to-right embedding"
-msgstr ""
-
-#: gui/widgets/qtextedit.cpp:2694
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "RLE Start of right-to-left embedding"
-msgstr ""
-
-#: gui/widgets/qtextedit.cpp:2695
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "LRO Start of left-to-right override"
-msgstr ""
-
-#: gui/widgets/qtextedit.cpp:2696
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "RLO Start of right-to-left override"
-msgstr ""
-
-#: gui/widgets/qtextedit.cpp:2697
+#: gui/widgets/qdialogbuttonbox.cpp:555
 #, fuzzy
-#| msgid "Additional Information: %1"
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "PDF Pop directional formatting"
-msgstr "అదనపు సమాచారం: %1"
-
-#: gui/widgets/qtextedit.cpp:2703
-msgid "Insert Unicode control character"
-msgstr ""
-
-#: gui/widgets/qdialogbuttonbox.cpp:549
-#, fuzzy
-#| msgid "OK"
+#| msgid "&OK"
 msgctxt "QDialogButtonBox"
-msgid "OK"
-msgstr "సరే"
+msgid "&OK"
+msgstr "(&O) సరే"
 
-#: gui/widgets/qdialogbuttonbox.cpp:552
+#: gui/widgets/qdialogbuttonbox.cpp:558
 #, fuzzy
 #| msgid "Save"
 msgctxt "QDialogButtonBox"
 msgid "Save"
 msgstr "దాచు"
 
-#: gui/widgets/qdialogbuttonbox.cpp:555
+#: gui/widgets/qdialogbuttonbox.cpp:561
 #, fuzzy
 #| msgid "Open"
 msgctxt "QDialogButtonBox"
 msgid "Open"
 msgstr "తెరువండి"
 
-#: gui/widgets/qdialogbuttonbox.cpp:558
+#: gui/widgets/qdialogbuttonbox.cpp:564
 #, fuzzy
 #| msgid "Cancel"
 msgctxt "QDialogButtonBox"
 msgid "Cancel"
 msgstr "రద్దు"
 
-#: gui/widgets/qdialogbuttonbox.cpp:561
+#: gui/widgets/qdialogbuttonbox.cpp:567
 #, fuzzy
 #| msgid "Close"
 msgctxt "QDialogButtonBox"
 msgid "Close"
 msgstr "మూసివెయుము"
 
-#: gui/widgets/qdialogbuttonbox.cpp:564
+#: gui/widgets/qdialogbuttonbox.cpp:570
 #, fuzzy
 #| msgid "Apply"
 msgctxt "QDialogButtonBox"
 msgid "Apply"
 msgstr "వర్తించు"
 
-#: gui/widgets/qdialogbuttonbox.cpp:567
+#: gui/widgets/qdialogbuttonbox.cpp:573
 #, fuzzy
 #| msgid "&Reset"
 msgctxt "QDialogButtonBox"
 msgid "Reset"
 msgstr "(&R) పున: ప్రారంభము"
 
-#: gui/widgets/qdialogbuttonbox.cpp:570
+#: gui/widgets/qdialogbuttonbox.cpp:576
 #, fuzzy
 #| msgid "Help"
 msgctxt "QDialogButtonBox"
 msgid "Help"
 msgstr "సహాయము"
 
-#: gui/widgets/qdialogbuttonbox.cpp:574
+#: gui/widgets/qdialogbuttonbox.cpp:580
 #, fuzzy
 #| msgid "&Do Not Save"
 msgctxt "QDialogButtonBox"
 msgid "Don't Save"
 msgstr "(&D) దాచవద్దు"
 
-#: gui/widgets/qdialogbuttonbox.cpp:576
+#: gui/widgets/qdialogbuttonbox.cpp:582
 msgctxt "QDialogButtonBox"
 msgid "Close without Saving"
 msgstr ""
 
-#: gui/widgets/qdialogbuttonbox.cpp:578
+#: gui/widgets/qdialogbuttonbox.cpp:584
 #, fuzzy
 #| msgid "Discard"
 msgctxt "QDialogButtonBox"
 msgid "Discard"
 msgstr "విస్మరించు"
 
-#: gui/widgets/qdialogbuttonbox.cpp:581
+#: gui/widgets/qdialogbuttonbox.cpp:587
 #, fuzzy
 #| msgid "&Yes"
 msgctxt "QDialogButtonBox"
 msgid "&Yes"
 msgstr "(&Y) ఔను"
 
-#: gui/widgets/qdialogbuttonbox.cpp:584
+#: gui/widgets/qdialogbuttonbox.cpp:590
 #, fuzzy
 #| msgctxt "QMessageBox"
 #| msgid "Yes to &All"
@@ -1659,14 +1936,14 @@ msgctxt "QDialogButtonBox"
 msgid "Yes to &All"
 msgstr "(&A) అన్నిటికీ ఔను"
 
-#: gui/widgets/qdialogbuttonbox.cpp:587
+#: gui/widgets/qdialogbuttonbox.cpp:593
 #, fuzzy
 #| msgid "&No"
 msgctxt "QDialogButtonBox"
 msgid "&No"
 msgstr "(&N) కాదు"
 
-#: gui/widgets/qdialogbuttonbox.cpp:590
+#: gui/widgets/qdialogbuttonbox.cpp:596
 #, fuzzy
 #| msgctxt "QMessageBox"
 #| msgid "N&o to All"
@@ -1674,321 +1951,406 @@ msgctxt "QDialogButtonBox"
 msgid "N&o to All"
 msgstr "(&o) అన్నిటికీ కాదు"
 
-#: gui/widgets/qdialogbuttonbox.cpp:593
+#: gui/widgets/qdialogbuttonbox.cpp:599
 #, fuzzy
 #| msgid "Save As"
 msgctxt "QDialogButtonBox"
 msgid "Save All"
 msgstr "ఇలా దాచు"
 
-#: gui/widgets/qdialogbuttonbox.cpp:596
+#: gui/widgets/qdialogbuttonbox.cpp:602
 #, fuzzy
 #| msgid "Abort"
 msgctxt "QDialogButtonBox"
 msgid "Abort"
 msgstr "విడిచిపెట్టుము"
 
-#: gui/widgets/qdialogbuttonbox.cpp:599
+#: gui/widgets/qdialogbuttonbox.cpp:605
 #, fuzzy
 #| msgid "Retry"
 msgctxt "QDialogButtonBox"
 msgid "Retry"
 msgstr "తిరిగి ప్రయత్నించు"
 
-#: gui/widgets/qdialogbuttonbox.cpp:602
+#: gui/widgets/qdialogbuttonbox.cpp:608
 #, fuzzy
 #| msgid "Ignore"
 msgctxt "QDialogButtonBox"
 msgid "Ignore"
 msgstr "విస్మరించు"
 
-#: gui/widgets/qdialogbuttonbox.cpp:605
+#: gui/widgets/qdialogbuttonbox.cpp:611
 #, fuzzy
 #| msgid "Defaults"
 msgctxt "QDialogButtonBox"
 msgid "Restore Defaults"
 msgstr "అప్రమేయములు"
 
-#: gui/widgets/qmenu_mac.cpp:331
+#: gui/widgets/qmenu_mac.cpp:346
 msgid "About"
 msgstr "గురించి"
 
-#: gui/widgets/qmenu_mac.cpp:337
+#: gui/widgets/qmenu_mac.cpp:352
 #, fuzzy
 #| msgid "Configure"
 msgid "Config"
 msgstr "అమర్చు"
 
-#: gui/widgets/qmenu_mac.cpp:338
+#: gui/widgets/qmenu_mac.cpp:353
 #, fuzzy
 #| msgid "&Preferences..."
 msgid "Preference"
 msgstr "(&P) ఇష్టములు..."
 
-#: gui/widgets/qmenu_mac.cpp:339
+#: gui/widgets/qmenu_mac.cpp:354
 msgid "Options"
 msgstr "ఇష్టములు"
 
-#: gui/widgets/qmenu_mac.cpp:340
+#: gui/widgets/qmenu_mac.cpp:355
 #, fuzzy
 #| msgid "&Settings"
 msgid "Setting"
 msgstr "(&S) అమరికలు"
 
-#: gui/widgets/qmenu_mac.cpp:341
+#: gui/widgets/qmenu_mac.cpp:356
 #, fuzzy
 #| msgctxt "September"
 #| msgid "Sep"
 msgid "Setup"
 msgstr "సెప్టెంబరు"
 
-#: gui/widgets/qmenu_mac.cpp:344
+#: gui/widgets/qmenu_mac.cpp:359
 #, fuzzy
 #| msgid "E&xit"
 msgid "Exit"
 msgstr "(&x) నిష్క్రమణ"
 
-#: gui/widgets/qmenu_mac.cpp:379
+#: gui/widgets/qmenu_mac.cpp:394
 #, qt-format
 msgid "About %1"
 msgstr "%1 గురించి"
 
-#: gui/widgets/qmenu_mac.cpp:383
+#: gui/widgets/qmenu_mac.cpp:398
 #, fuzzy
 #| msgid "&Preferences..."
 msgid "Preferences"
 msgstr "(&P) ఇష్టములు..."
 
-#: gui/widgets/qmenu_mac.cpp:385
+#: gui/widgets/qmenu_mac.cpp:400
 #, fuzzy, qt-format
 #| msgid "Quit"
 msgid "Quit %1"
 msgstr "విరమించు"
 
-#: gui/widgets/qabstractspinbox.cpp:1165
+#: gui/widgets/qmdiarea.cpp:280
+#, fuzzy
+#| msgid "Untitled"
+msgid "(Untitled)"
+msgstr "పేరులేనిది"
+
+#: gui/widgets/qabstractspinbox.cpp:1188
 #, fuzzy
 #| msgid "Select All"
 msgid "&Select All"
 msgstr "అన్నిటినీ ఎంచుకొనుము"
 
-#: gui/widgets/qabstractspinbox.cpp:1171
+#: gui/widgets/qabstractspinbox.cpp:1194
 #, fuzzy
 #| msgid "&Step"
 msgid "&Step up"
 msgstr "(&S) అడుగు"
 
-#: gui/widgets/qabstractspinbox.cpp:1173
+#: gui/widgets/qabstractspinbox.cpp:1196
 #, fuzzy
 #| msgid "Move &Down"
 msgid "Step &down"
 msgstr "(&D) క్రిందకి జరపండి"
 
-#: gui/widgets/qworkspace.cpp:106 gui/widgets/qmdisubwindow.cpp:582
-#: plugins/accessible/compat/q3complexwidgets.cpp:249
-#: plugins/accessible/widgets/complexwidgets.cpp:1495
-#: plugins/accessible/widgets/qaccessiblewidgets.cpp:1223
-#: plugins/accessible/widgets/qaccessiblemenu.cpp:149
-#: plugins/accessible/widgets/qaccessiblemenu.cpp:368
+#: gui/widgets/qworkspace.cpp:115 gui/widgets/qmdisubwindow.cpp:342
+#: plugins/accessible/compat/q3complexwidgets.cpp:258
+#: plugins/accessible/widgets/complexwidgets.cpp:1802
+#: plugins/accessible/widgets/qaccessiblewidgets.cpp:1233
+#: plugins/accessible/widgets/qaccessiblemenu.cpp:159
+#: plugins/accessible/widgets/qaccessiblemenu.cpp:378
 msgid "Close"
 msgstr "మూసివెయుము"
 
-#: gui/widgets/qworkspace.cpp:108 gui/widgets/qmdisubwindow.cpp:585
-#: plugins/accessible/compat/q3complexwidgets.cpp:243
+#: gui/widgets/qworkspace.cpp:117 gui/widgets/qmdisubwindow.cpp:324
+#: plugins/accessible/compat/q3complexwidgets.cpp:252
 msgid "Minimize"
 msgstr "చిన్నది చెయండి"
 
-#: gui/widgets/qworkspace.cpp:110 gui/widgets/qmdisubwindow.cpp:588
+#: gui/widgets/qworkspace.cpp:119 gui/widgets/qmdisubwindow.cpp:337
 msgid "Restore Down"
 msgstr "కింద పునరుద్ధరించుము"
 
-#: gui/widgets/qworkspace.cpp:1087 gui/widgets/qmdisubwindow.cpp:939
+#: gui/widgets/qworkspace.cpp:1089 gui/widgets/qmdisubwindow.cpp:1042
 msgid "&Restore"
 msgstr "(&R) పునరుద్ధరణ"
 
-#: gui/widgets/qworkspace.cpp:1088 gui/widgets/qmdisubwindow.cpp:942
+#: gui/widgets/qworkspace.cpp:1090 gui/widgets/qmdisubwindow.cpp:1045
 msgid "&Move"
 msgstr "(&M) జరుపుము"
 
-#: gui/widgets/qworkspace.cpp:1091 gui/widgets/qmdisubwindow.cpp:944
+#: gui/widgets/qworkspace.cpp:1093 gui/widgets/qmdisubwindow.cpp:1047
 msgid "Mi&nimize"
 msgstr "(&n) చిన్నది చెయండి"
 
-#: gui/widgets/qworkspace.cpp:1093 gui/widgets/qmdisubwindow.cpp:946
+#: gui/widgets/qworkspace.cpp:1095 gui/widgets/qmdisubwindow.cpp:1049
 msgid "Ma&ximize"
 msgstr "(&x) పెద్దది చెయండి"
 
-#: gui/widgets/qworkspace.cpp:1095 gui/widgets/qmdisubwindow.cpp:951
+#: gui/widgets/qworkspace.cpp:1097 gui/widgets/qmdisubwindow.cpp:1054
 msgid "&Close"
 msgstr "(&C) మూసివెయుము"
 
-#: gui/widgets/qworkspace.cpp:1101 gui/widgets/qmdisubwindow.cpp:948
+#: gui/widgets/qworkspace.cpp:1103 gui/widgets/qmdisubwindow.cpp:1051
 msgid "Stay on &Top"
 msgstr "(&T) పైన వుంచుము"
 
-#: gui/widgets/qworkspace.cpp:1104 gui/widgets/qworkspace.cpp:2163
+#: gui/widgets/qworkspace.cpp:1106 gui/widgets/qworkspace.cpp:2165
 msgid "Sh&ade"
 msgstr "(&a) నీడ"
 
-#: gui/widgets/qworkspace.cpp:1885 gui/widgets/qworkspace.cpp:1945
-#: gui/widgets/qmdisubwindow.cpp:259
+#: gui/widgets/qworkspace.cpp:1887 gui/widgets/qworkspace.cpp:1947
+#: gui/widgets/qmdisubwindow.cpp:272
 #, fuzzy, qt-format
 #| msgid "%1 - [%2]"
 msgid "%1 - [%2]"
 msgstr "%1 - [%2]"
 
-#: gui/widgets/qworkspace.cpp:2159
+#: gui/widgets/qworkspace.cpp:2161
 msgid "&Unshade"
 msgstr "(&U) నీడ తొలగించుము"
 
-#: sql/drivers/odbc/qsql_odbc.cpp:770 sql/drivers/odbc/qsql_odbc.cpp:1080
+#: gui/widgets/qmdisubwindow.cpp:271
+#, fuzzy, qt-format
+#| msgid "%1 - [%2]"
+msgid "- [%1]"
+msgstr "%1 - [%2]"
+
+#: gui/widgets/qmdisubwindow.cpp:327
+#: plugins/accessible/compat/q3complexwidgets.cpp:256
+msgid "Maximize"
+msgstr "పెద్దది చెయండి"
+
+#: gui/widgets/qmdisubwindow.cpp:330
+msgid "Unshade"
+msgstr "నీడ తొలగించుము"
+
+#: gui/widgets/qmdisubwindow.cpp:333
+msgid "Shade"
+msgstr "నీడ"
+
+#: gui/widgets/qmdisubwindow.cpp:339
+#, fuzzy
+#| msgid "&Restore"
+msgid "Restore"
+msgstr "(&R) పునరుద్ధరణ"
+
+#: gui/widgets/qmdisubwindow.cpp:348
+#, fuzzy
+#| msgctxt "QAccel"
+#| msgid "Menu"
+msgid "Menu"
+msgstr "పట్టీ"
+
+#: sql/drivers/odbc/qsql_odbc.cpp:796 sql/drivers/odbc/qsql_odbc.cpp:1130
 msgctxt "QODBCResult"
 msgid ""
 "QODBCResult::reset: Unable to set 'SQL_CURSOR_STATIC' as statement "
 "attribute. Please check your ODBC driver configuration"
 msgstr ""
 
-#: sql/drivers/odbc/qsql_odbc.cpp:787 sql/drivers/odbc/qsql_odbc.cpp:1342
+#: sql/drivers/odbc/qsql_odbc.cpp:813 sql/drivers/odbc/qsql_odbc.cpp:1406
 #, fuzzy
 #| msgid "Unable to open lock file."
 msgctxt "QODBCResult"
 msgid "Unable to execute statement"
 msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
 
-#: sql/drivers/odbc/qsql_odbc.cpp:845
+#: sql/drivers/odbc/qsql_odbc.cpp:862
+#, fuzzy
+#| msgid "Unable to create file to upload."
+msgctxt "QODBCResult"
+msgid "Unable to fetch"
+msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
+
+#: sql/drivers/odbc/qsql_odbc.cpp:884
 #, fuzzy
 #| msgid "Unable to create file to upload."
 msgctxt "QODBCResult"
 msgid "Unable to fetch next"
 msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
 
-#: sql/drivers/odbc/qsql_odbc.cpp:1098
+#: sql/drivers/odbc/qsql_odbc.cpp:906
+#, fuzzy
+#| msgid "Unable to create file to upload."
+msgctxt "QODBCResult"
+msgid "Unable to fetch first"
+msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
+
+#: sql/drivers/odbc/qsql_odbc.cpp:925
+#, fuzzy
+#| msgid "Unable to create file to upload."
+msgctxt "QODBCResult"
+msgid "Unable to fetch previous"
+msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
+
+#: sql/drivers/odbc/qsql_odbc.cpp:956 sql/drivers/odbc/qsql_odbc.cpp:1501
+#, fuzzy
+#| msgid "Unable to open lock file."
+msgctxt "QODBCResult"
+msgid "Unable to fetch last"
+msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
+
+#: sql/drivers/odbc/qsql_odbc.cpp:1148
 #, fuzzy
 #| msgid "Unable to open lock file."
 msgctxt "QODBCResult"
 msgid "Unable to prepare statement"
 msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
 
-#: sql/drivers/odbc/qsql_odbc.cpp:1333
+#: sql/drivers/odbc/qsql_odbc.cpp:1397
 #, fuzzy
 #| msgid "Can't find variable: "
 msgctxt "QODBCResult"
 msgid "Unable to bind variable"
 msgstr "చరాంశం కనబడుటలేదు"
 
-#: sql/drivers/odbc/qsql_odbc.cpp:1543 sql/drivers/psql/qsql_psql.cpp:571
-#: sql/drivers/mysql/qsql_mysql.cpp:1123
+#: sql/drivers/odbc/qsql_odbc.cpp:1671 sql/drivers/psql/qsql_psql.cpp:762
+#: sql/drivers/mysql/qsql_mysql.cpp:1196
 msgid "Unable to connect"
 msgstr ""
 
-#: sql/drivers/odbc/qsql_odbc.cpp:1549
+#: sql/drivers/odbc/qsql_odbc.cpp:1677
 msgid "Unable to connect - Driver doesn't support all needed functionality"
 msgstr ""
 
-#: sql/drivers/odbc/qsql_odbc.cpp:1753
+#: sql/drivers/odbc/qsql_odbc.cpp:1911
 msgid "Unable to disable autocommit"
 msgstr ""
 
-#: sql/drivers/odbc/qsql_odbc.cpp:1770 sql/drivers/mysql/qsql_mysql.cpp:1260
-#: sql/drivers/sqlite2/qsql_sqlite2.cpp:427
-#: sql/drivers/sqlite/qsql_sqlite.cpp:535
+#: sql/drivers/odbc/qsql_odbc.cpp:1928 sql/drivers/mysql/qsql_mysql.cpp:1334
+#: sql/drivers/sqlite2/qsql_sqlite2.cpp:436
+#: sql/drivers/sqlite/qsql_sqlite.cpp:553
 msgid "Unable to commit transaction"
 msgstr ""
 
-#: sql/drivers/odbc/qsql_odbc.cpp:1787 sql/drivers/mysql/qsql_mysql.cpp:1277
-#: sql/drivers/sqlite/qsql_sqlite.cpp:550
+#: sql/drivers/odbc/qsql_odbc.cpp:1945 sql/drivers/mysql/qsql_mysql.cpp:1351
+#: sql/drivers/sqlite/qsql_sqlite.cpp:568
 msgid "Unable to rollback transaction"
 msgstr ""
 
-#: sql/drivers/odbc/qsql_odbc.cpp:1802
+#: sql/drivers/odbc/qsql_odbc.cpp:1960
 msgid "Unable to enable autocommit"
 msgstr ""
 
-#: sql/drivers/psql/qsql_psql.cpp:163
+#: sql/drivers/psql/qsql_psql.cpp:180
 #, fuzzy
 #| msgid "Unable to create file to upload."
 msgctxt "QPSQLResult"
 msgid "Unable to create query"
 msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
 
-#: sql/drivers/psql/qsql_psql.cpp:610
+#: sql/drivers/psql/qsql_psql.cpp:553
+#, fuzzy
+#| msgid "Unable to open lock file."
+msgctxt "QPSQLResult"
+msgid "Unable to prepare statement"
+msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
+
+#: sql/drivers/psql/qsql_psql.cpp:811
 msgid "Could not begin transaction"
 msgstr ""
 
-#: sql/drivers/psql/qsql_psql.cpp:627
+#: sql/drivers/psql/qsql_psql.cpp:828
 #, fuzzy
 #| msgid "Could not load the file."
 msgid "Could not commit transaction"
 msgstr "దస్త్రాన్ని ఎక్కించలేను."
 
-#: sql/drivers/psql/qsql_psql.cpp:643
+#: sql/drivers/psql/qsql_psql.cpp:844
 msgid "Could not rollback transaction"
 msgstr ""
 
-#: sql/drivers/ibase/qsql_ibase.cpp:372
+#: sql/drivers/psql/qsql_psql.cpp:1180
+#, fuzzy
+#| msgid "Can't find variable: "
+msgid "Unable to subscribe"
+msgstr "చరాంశం కనబడుటలేదు"
+
+#: sql/drivers/psql/qsql_psql.cpp:1212
+#, fuzzy
+#| msgid "Can't find variable: "
+msgid "Unable to unsubscribe"
+msgstr "చరాంశం కనబడుటలేదు"
+
+#: sql/drivers/ibase/qsql_ibase.cpp:409
 #, fuzzy
 #| msgid "Unable to create file to upload."
 msgctxt "QIBaseResult"
 msgid "Unable to create BLOB"
 msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
 
-#: sql/drivers/ibase/qsql_ibase.cpp:378
+#: sql/drivers/ibase/qsql_ibase.cpp:415
 msgctxt "QIBaseResult"
 msgid "Unable to write BLOB"
 msgstr ""
 
-#: sql/drivers/ibase/qsql_ibase.cpp:392
+#: sql/drivers/ibase/qsql_ibase.cpp:429
 #, fuzzy
 #| msgid "Unable to open lock file."
 msgctxt "QIBaseResult"
 msgid "Unable to open BLOB"
 msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
 
-#: sql/drivers/ibase/qsql_ibase.cpp:409
+#: sql/drivers/ibase/qsql_ibase.cpp:446
 msgctxt "QIBaseResult"
 msgid "Unable to read BLOB"
 msgstr ""
 
-#: sql/drivers/ibase/qsql_ibase.cpp:532 sql/drivers/ibase/qsql_ibase.cpp:721
+#: sql/drivers/ibase/qsql_ibase.cpp:569 sql/drivers/ibase/qsql_ibase.cpp:758
 #, fuzzy
 #| msgid "Could not find service '%1'."
 msgctxt "QIBaseResult"
 msgid "Could not find array"
 msgstr "'%1' సేవ కనపడలేదు."
 
-#: sql/drivers/ibase/qsql_ibase.cpp:564
+#: sql/drivers/ibase/qsql_ibase.cpp:601
 #, fuzzy
 #| msgid "Could not create the new file."
 msgctxt "QIBaseResult"
 msgid "Could not get array data"
 msgstr "కొత్త దస్త్రాన్ని సృష్టించలేను."
 
-#: sql/drivers/ibase/qsql_ibase.cpp:776
+#: sql/drivers/ibase/qsql_ibase.cpp:813
 #, fuzzy
 #| msgid "Could not create the new file."
 msgctxt "QIBaseResult"
 msgid "Could not get query info"
 msgstr "కొత్త దస్త్రాన్ని సృష్టించలేను."
 
-#: sql/drivers/ibase/qsql_ibase.cpp:796
+#: sql/drivers/ibase/qsql_ibase.cpp:833
 #, fuzzy
 #| msgid "Could not load the file."
 msgctxt "QIBaseResult"
 msgid "Could not start transaction"
 msgstr "దస్త్రాన్ని ఎక్కించలేను."
 
-#: sql/drivers/ibase/qsql_ibase.cpp:815
+#: sql/drivers/ibase/qsql_ibase.cpp:852
 msgctxt "QIBaseResult"
 msgid "Unable to commit transaction"
 msgstr ""
 
-#: sql/drivers/ibase/qsql_ibase.cpp:848
+#: sql/drivers/ibase/qsql_ibase.cpp:885
 #, fuzzy
 #| msgid "Could not create the new file."
 msgctxt "QIBaseResult"
 msgid "Could not allocate statement"
 msgstr "కొత్త దస్త్రాన్ని సృష్టించలేను."
 
-#: sql/drivers/ibase/qsql_ibase.cpp:853
+#: sql/drivers/ibase/qsql_ibase.cpp:890
 #, fuzzy
 #| msgctxt "QFile"
 #| msgid "Could not read from the file"
@@ -1996,7 +2358,7 @@ msgctxt "QIBaseResult"
 msgid "Could not prepare statement"
 msgstr "దస్త్రం నుంచి చదవలేకపోతున్నా"
 
-#: sql/drivers/ibase/qsql_ibase.cpp:859 sql/drivers/ibase/qsql_ibase.cpp:866
+#: sql/drivers/ibase/qsql_ibase.cpp:896 sql/drivers/ibase/qsql_ibase.cpp:903
 #, fuzzy
 #| msgctxt "QFile"
 #| msgid "Could not write to the file"
@@ -2004,7 +2366,7 @@ msgctxt "QIBaseResult"
 msgid "Could not describe input statement"
 msgstr "దస్త్రం లో వ్రాయలేకపోతున్నా"
 
-#: sql/drivers/ibase/qsql_ibase.cpp:875
+#: sql/drivers/ibase/qsql_ibase.cpp:912
 #, fuzzy
 #| msgctxt "QFile"
 #| msgid "Could not write to the file"
@@ -2012,19 +2374,19 @@ msgctxt "QIBaseResult"
 msgid "Could not describe statement"
 msgstr "దస్త్రం లో వ్రాయలేకపోతున్నా"
 
-#: sql/drivers/ibase/qsql_ibase.cpp:990
+#: sql/drivers/ibase/qsql_ibase.cpp:1027
 #, fuzzy
 #| msgid "Unable to open lock file."
 msgctxt "QIBaseResult"
 msgid "Unable to close statement"
 msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
 
-#: sql/drivers/ibase/qsql_ibase.cpp:998
+#: sql/drivers/ibase/qsql_ibase.cpp:1035
 msgctxt "QIBaseResult"
 msgid "Unable to execute query"
 msgstr ""
 
-#: sql/drivers/ibase/qsql_ibase.cpp:1044
+#: sql/drivers/ibase/qsql_ibase.cpp:1081
 #, fuzzy
 #| msgctxt "QFile"
 #| msgid "Could not write to the file"
@@ -2032,7 +2394,7 @@ msgctxt "QIBaseResult"
 msgid "Could not fetch next item"
 msgstr "దస్త్రం లో వ్రాయలేకపోతున్నా"
 
-#: sql/drivers/ibase/qsql_ibase.cpp:1204
+#: sql/drivers/ibase/qsql_ibase.cpp:1241
 #, fuzzy
 #| msgctxt "QFile"
 #| msgid "Could not write to the file"
@@ -2040,405 +2402,429 @@ msgctxt "QIBaseResult"
 msgid "Could not get statement info"
 msgstr "దస్త్రం లో వ్రాయలేకపోతున్నా"
 
-#: sql/drivers/ibase/qsql_ibase.cpp:1366
+#: sql/drivers/ibase/qsql_ibase.cpp:1406
 #, fuzzy
 #| msgid "Error opening file."
 msgctxt "QIBaseDriver"
 msgid "Error opening database"
 msgstr "దస్త్రం తెరచుటలో దోషము."
 
-#: sql/drivers/ibase/qsql_ibase.cpp:1399
+#: sql/drivers/ibase/qsql_ibase.cpp:1460
 #, fuzzy
 #| msgid "Could not load the file."
 msgctxt "QIBaseDriver"
 msgid "Could not start transaction"
 msgstr "దస్త్రాన్ని ఎక్కించలేను."
 
-#: sql/drivers/ibase/qsql_ibase.cpp:1412
+#: sql/drivers/ibase/qsql_ibase.cpp:1473
 msgctxt "QIBaseDriver"
 msgid "Unable to commit transaction"
 msgstr ""
 
-#: sql/drivers/ibase/qsql_ibase.cpp:1425
+#: sql/drivers/ibase/qsql_ibase.cpp:1486
 msgctxt "QIBaseDriver"
 msgid "Unable to rollback transaction"
 msgstr ""
 
-#: sql/drivers/mysql/qsql_mysql.cpp:467
+#: sql/drivers/mysql/qsql_mysql.cpp:473
 #, fuzzy
 #| msgid "Unable to open lock file."
 msgctxt "QMYSQLResult"
 msgid "Unable to fetch data"
 msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
 
-#: sql/drivers/mysql/qsql_mysql.cpp:617
+#: sql/drivers/mysql/qsql_mysql.cpp:623
 #, fuzzy
 #| msgid "Unable to create file to upload."
 msgctxt "QMYSQLResult"
 msgid "Unable to execute query"
 msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
 
-#: sql/drivers/mysql/qsql_mysql.cpp:623
+#: sql/drivers/mysql/qsql_mysql.cpp:629
 #, fuzzy
 #| msgid "Unable to open lock file."
 msgctxt "QMYSQLResult"
 msgid "Unable to store result"
 msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
 
-#: sql/drivers/mysql/qsql_mysql.cpp:745 sql/drivers/mysql/qsql_mysql.cpp:754
+#: sql/drivers/mysql/qsql_mysql.cpp:728
+#, fuzzy
+#| msgid "Unable to create file to upload."
+msgctxt "QMYSQLResult"
+msgid "Unable to execute next query"
+msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
+
+#: sql/drivers/mysql/qsql_mysql.cpp:738
+#, fuzzy
+#| msgid "Unable to open lock file."
+msgctxt "QMYSQLResult"
+msgid "Unable to store next result"
+msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
+
+#: sql/drivers/mysql/qsql_mysql.cpp:810 sql/drivers/mysql/qsql_mysql.cpp:819
 #, fuzzy
 #| msgid "Unable to open lock file."
 msgctxt "QMYSQLResult"
 msgid "Unable to prepare statement"
 msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
 
-#: sql/drivers/mysql/qsql_mysql.cpp:785
+#: sql/drivers/mysql/qsql_mysql.cpp:850
 #, fuzzy
 #| msgid "Unable to open lock file."
 msgctxt "QMYSQLResult"
 msgid "Unable to reset statement"
 msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
 
-#: sql/drivers/mysql/qsql_mysql.cpp:872
+#: sql/drivers/mysql/qsql_mysql.cpp:937
 #, fuzzy
 #| msgid "Undefined value"
 msgctxt "QMYSQLResult"
 msgid "Unable to bind value"
 msgstr "అస్పష్టమైన విలువ"
 
-#: sql/drivers/mysql/qsql_mysql.cpp:883
+#: sql/drivers/mysql/qsql_mysql.cpp:948
 #, fuzzy
 #| msgid "Unable to open lock file."
 msgctxt "QMYSQLResult"
 msgid "Unable to execute statement"
 msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
 
-#: sql/drivers/mysql/qsql_mysql.cpp:897 sql/drivers/mysql/qsql_mysql.cpp:918
+#: sql/drivers/mysql/qsql_mysql.cpp:962 sql/drivers/mysql/qsql_mysql.cpp:983
 #, fuzzy
 #| msgid "Undefined value"
 msgctxt "QMYSQLResult"
 msgid "Unable to bind outvalues"
 msgstr "అస్పష్టమైన విలువ"
 
-#: sql/drivers/mysql/qsql_mysql.cpp:906
+#: sql/drivers/mysql/qsql_mysql.cpp:971
 #, fuzzy
 #| msgid "Unable to open lock file."
 msgctxt "QMYSQLResult"
 msgid "Unable to store statement results"
 msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
 
-#: sql/drivers/mysql/qsql_mysql.cpp:1116
+#: sql/drivers/mysql/qsql_mysql.cpp:1189
 #, fuzzy
 #| msgid "Unable to open lock file."
 msgid "Unable to open database '"
 msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
 
-#: sql/drivers/mysql/qsql_mysql.cpp:1243
-#: sql/drivers/sqlite2/qsql_sqlite2.cpp:410
-#: sql/drivers/sqlite/qsql_sqlite.cpp:520
+#: sql/drivers/mysql/qsql_mysql.cpp:1317
+#: sql/drivers/sqlite2/qsql_sqlite2.cpp:419
+#: sql/drivers/sqlite/qsql_sqlite.cpp:538
 msgid "Unable to begin transaction"
 msgstr ""
 
-#: sql/drivers/sqlite2/qsql_sqlite2.cpp:141
+#: sql/drivers/sqlite2/qsql_sqlite2.cpp:150
 #, fuzzy
 #| msgid "Unable to create file to upload."
 msgctxt "QSQLite2Result"
 msgid "Unable to fetch results"
 msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
 
-#: sql/drivers/sqlite2/qsql_sqlite2.cpp:274
+#: sql/drivers/sqlite2/qsql_sqlite2.cpp:283
 #, fuzzy
 #| msgid "Unable to open lock file."
 msgctxt "QSQLite2Result"
 msgid "Unable to execute statement"
 msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
 
-#: sql/drivers/sqlite2/qsql_sqlite2.cpp:369
+#: sql/drivers/sqlite2/qsql_sqlite2.cpp:378
 msgid "Error to open database"
 msgstr ""
 
-#: sql/drivers/sqlite2/qsql_sqlite2.cpp:444
+#: sql/drivers/sqlite2/qsql_sqlite2.cpp:453
 msgid "Unable to rollback Transaction"
 msgstr ""
 
-#: sql/drivers/sqlite/qsql_sqlite.cpp:227
-#: sql/drivers/sqlite/qsql_sqlite.cpp:235
+#: sql/drivers/sqlite/qsql_sqlite.cpp:190
+#: sql/drivers/sqlite/qsql_sqlite.cpp:241
+#: sql/drivers/sqlite/qsql_sqlite.cpp:249
 #, fuzzy
 #| msgid "Unable to create file to upload."
 msgctxt "QSQLiteResult"
 msgid "Unable to fetch row"
 msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
 
-#: sql/drivers/sqlite/qsql_sqlite.cpp:292
+#: sql/drivers/sqlite/qsql_sqlite.cpp:191
+msgctxt "QSQLiteResult"
+msgid "No query"
+msgstr ""
+
+#: sql/drivers/sqlite/qsql_sqlite.cpp:306
 #, fuzzy
 #| msgid "Unable to open lock file."
 msgctxt "QSQLiteResult"
 msgid "Unable to execute statement"
 msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
 
-#: sql/drivers/sqlite/qsql_sqlite.cpp:312
+#: sql/drivers/sqlite/qsql_sqlite.cpp:326
 #, fuzzy
 #| msgid "Unable to open lock file."
 msgctxt "QSQLiteResult"
 msgid "Unable to reset statement"
 msgstr "తాళపు దస్త్రాన్ని తెరువలేకపొయాను"
 
-#: sql/drivers/sqlite/qsql_sqlite.cpp:356
+#: sql/drivers/sqlite/qsql_sqlite.cpp:371
 #, fuzzy
 #| msgid "Syntax error in parameter list"
 msgctxt "QSQLiteResult"
 msgid "Unable to bind parameters"
 msgstr "గణితరాసి జాబితా లో వ్యాకరణ దొషము"
 
-#: sql/drivers/sqlite/qsql_sqlite.cpp:363
+#: sql/drivers/sqlite/qsql_sqlite.cpp:378
 msgctxt "QSQLiteResult"
 msgid "Parameter count mismatch"
 msgstr ""
 
-#: sql/drivers/sqlite/qsql_sqlite.cpp:489
+#: sql/drivers/sqlite/qsql_sqlite.cpp:507
 #, fuzzy
 #| msgid "Error opening file."
 msgid "Error opening database"
 msgstr "దస్త్రం తెరచుటలో దోషము."
 
-#: sql/drivers/sqlite/qsql_sqlite.cpp:500
+#: sql/drivers/sqlite/qsql_sqlite.cpp:518
 msgid "Error closing database"
 msgstr ""
 
-#: xml/qxmlstream.cpp:454
-msgid "Extra content at end of document."
-msgstr ""
-
-#: xml/qxmlstream.cpp:636
-#, fuzzy
-#| msgid "Invalid certificate!"
-msgid "Invalid entity value."
-msgstr "చెల్లని ధృవ పత్రము!"
-
-#: xml/qxmlstream.cpp:743
-#, fuzzy
-#| msgid "Invalid certificate!"
-msgid "Invalid XML character."
-msgstr "చెల్లని ధృవ పత్రము!"
-
-#: xml/qxmlstream.cpp:1001
-msgid "Sequence ']]>' not allowed in content."
-msgstr ""
-
-#: xml/qxmlstream.cpp:1279
-msgid "Encountered incorrectly encoded content."
-msgstr ""
-
-#: xml/qxmlstream.cpp:1309
-#, qt-format
-msgid "Namespace prefix '%1' not declared"
-msgstr ""
-
-#: xml/qxmlstream.cpp:1347
-msgid "Attribute redefined."
-msgstr ""
-
-#: xml/qxmlstream.cpp:1459
-#, qt-format
-msgid "Unexpected character '%1' in public id literal."
-msgstr ""
-
-#: xml/qxmlstream.cpp:1487
-msgid "Invalid XML version string."
-msgstr ""
-
-#: xml/qxmlstream.cpp:1489
-#, fuzzy
-#| msgid "Unsupported file format revision."
-msgid "Unsupported XML version."
-msgstr "సహాయము చెయబడని దస్త్ర ఫార్మేట్ పునర్విమర్శ."
-
-#: xml/qxmlstream.cpp:1510
-msgid "The standalone pseudo attribute must appear after the encoding."
-msgstr ""
-
-#: xml/qxmlstream.cpp:1512
-#, qt-format
-msgid "%1 is an invalid encoding name."
-msgstr ""
-
-#: xml/qxmlstream.cpp:1519
-#, fuzzy, qt-format
-#| msgctxt "Socket error code NotSupported"
-#| msgid "operation is not supported"
-msgid "Encoding %1 is unsupported"
-msgstr "కార్యానికి మద్దతు లేదు"
-
-#: xml/qxmlstream.cpp:1535
-msgid "Standalone accepts only yes or no."
-msgstr ""
-
-#: xml/qxmlstream.cpp:1537
-msgid "Invalid attribute in XML declaration."
-msgstr ""
-
-#: xml/qxmlstream.cpp:1553
-#, fuzzy
-#| msgid "Close the current window or document"
-msgid "Premature end of document."
-msgstr "ప్రస్తుత విండొ లేక పత్రాన్ని మూసివేయి"
-
-#: xml/qxmlstream.cpp:1555
-#, fuzzy
-#| msgid "Invalid Shortcut Key"
-msgid "Invalid document."
-msgstr "తప్పు శీఘ్ర మార్గ మీట"
-
-#: xml/qxmlstream.cpp:1595
-#, fuzzy
-#| msgid "Execute"
-msgid "Expected "
-msgstr "నడుపు"
-
-#: xml/qxmlstream.cpp:1606
-msgid ", but got '"
-msgstr ""
-
-#: xml/qxmlstream.cpp:1610
-#, fuzzy
-#| msgid "Unexpected argument '%1'."
-msgid "Unexpected '"
-msgstr "'%1' ఊహించని ఆర్గ్యుమెంట్."
-
-#: xml/qxmlstream.cpp:1741
-#, fuzzy
-#| msgctxt "QXml"
-#| msgid "unexpected character"
-msgid "Expected character data."
-msgstr "ఊహించని అక్షరము"
-
-#: xml/qxml.cpp:53
+#: xml/sax/qxml.cpp:60
 msgctxt "QXml"
 msgid "no error occurred"
 msgstr "దోషాలు లేవు"
 
-#: xml/qxml.cpp:54
+#: xml/sax/qxml.cpp:61
 msgctxt "QXml"
 msgid "error triggered by consumer"
 msgstr "వినియోగదారుడు వలన కలిగిన దోషం"
 
-#: xml/qxml.cpp:55
+#: xml/sax/qxml.cpp:62
 msgctxt "QXml"
 msgid "unexpected end of file"
 msgstr "ఊహించని  దస్త్రం ఎండ్"
 
-#: xml/qxml.cpp:56
+#: xml/sax/qxml.cpp:63
 msgctxt "QXml"
 msgid "more than one document type definition"
 msgstr "ఒకటి కన్న ఎక్కువ డాక్యుమెంట్ రకము నిర్వచనము"
 
-#: xml/qxml.cpp:57
+#: xml/sax/qxml.cpp:64
 msgctxt "QXml"
 msgid "error occurred while parsing element"
 msgstr "ఎలిమెంట్ ని పార్స్ చేసెటప్పుడు దోషం జరిగిండి"
 
-#: xml/qxml.cpp:58
+#: xml/sax/qxml.cpp:65
 msgctxt "QXml"
 msgid "tag mismatch"
 msgstr "టాగ్ కి టాగ్ కుదరలేడు"
 
-#: xml/qxml.cpp:59
+#: xml/sax/qxml.cpp:66
 msgctxt "QXml"
 msgid "error occurred while parsing content"
 msgstr "లోన ఉన్న సమాచారాన్ని పార్స్ చేసేటప్పుడు దోషము జరిగిండి"
 
-#: xml/qxml.cpp:60
+#: xml/sax/qxml.cpp:67
 msgctxt "QXml"
 msgid "unexpected character"
 msgstr "ఊహించని అక్షరము"
 
-#: xml/qxml.cpp:61
+#: xml/sax/qxml.cpp:68
 msgctxt "QXml"
 msgid "invalid name for processing instruction"
 msgstr "నడిచే ఆదేశానికి సరైన పేరు ఇవ్వలేడు"
 
-#: xml/qxml.cpp:62
+#: xml/sax/qxml.cpp:69
 msgctxt "QXml"
 msgid "version expected while reading the XML declaration"
 msgstr "ఎక్స్ ఎమ్ ఎల్ డిక్లరేషన్ చడివేటప్పుడు వర్షన్ ని ఊహిస్తున్నడి"
 
-#: xml/qxml.cpp:63
+#: xml/sax/qxml.cpp:70
 msgctxt "QXml"
 msgid "wrong value for standalone declaration"
 msgstr "ఒంటరి డిక్లరేషన్ కి తప్పు విలువ ఇచ్చారు"
 
-#: xml/qxml.cpp:64
+#: xml/sax/qxml.cpp:71
 msgctxt "QXml"
 msgid ""
 "encoding declaration or standalone declaration expected while reading the "
 "XML declaration"
 msgstr "ఎక్స్ ఎమ్ ఎల్ డిక్లరేషన్ చడివేటప్పుడు  ఒంటరి డిక్లరేషన్ కాని ఎన్కోడింగ్  డిక్లరేషన్  ని ఊహిస్తున్నడి"
 
-#: xml/qxml.cpp:65
+#: xml/sax/qxml.cpp:72
 msgctxt "QXml"
 msgid "standalone declaration expected while reading the XML declaration"
 msgstr "ఎక్స్ ఎమ్ ఎల్ డిక్లరేషన్ చడివేటప్పుడు  ఒంటరి డిక్లరేషన్ ని ఊహిస్తున్నడి"
 
-#: xml/qxml.cpp:66
+#: xml/sax/qxml.cpp:73
 msgctxt "QXml"
 msgid "error occurred while parsing document type definition"
 msgstr "డాక్యుమెంట్ రకము నిర్వచనము ని పార్స్ చేసేటప్పుడు  దోషం జరిగిండి"
 
-#: xml/qxml.cpp:67
+#: xml/sax/qxml.cpp:74
 msgctxt "QXml"
 msgid "letter is expected"
 msgstr "అక్షరాన్ని ఊహించుతున్నడి"
 
-#: xml/qxml.cpp:68
+#: xml/sax/qxml.cpp:75
 msgctxt "QXml"
 msgid "error occurred while parsing comment"
 msgstr "వ్యాఖ్యానము ని పార్స్ చేసేటప్పుడు  దోషం జరిగిండి"
 
-#: xml/qxml.cpp:69
+#: xml/sax/qxml.cpp:76
 msgctxt "QXml"
 msgid "error occurred while parsing reference"
 msgstr "రిఫరెన్స్ ని పార్స్ చేసేటప్పుడు  దోషం జరిగిండి"
 
-#: xml/qxml.cpp:70
+#: xml/sax/qxml.cpp:77
 msgctxt "QXml"
 msgid "internal general entity reference not allowed in DTD"
 msgstr "లొలోపల మాములు ఎంటిటి రిఫరెన్స్ డి టి డి లో అనుమతించబడవు"
 
-#: xml/qxml.cpp:71
+#: xml/sax/qxml.cpp:78
 msgctxt "QXml"
 msgid "external parsed general entity reference not allowed in attribute value"
 msgstr "బాహ్య పార్స్ అయిన  మాములు ఎంటిటి రిఫరెన్స్ స్వభావము విలువ  లో అనుమతించబడవు"
 
-#: xml/qxml.cpp:72
+#: xml/sax/qxml.cpp:79
 msgctxt "QXml"
 msgid "external parsed general entity reference not allowed in DTD"
 msgstr "బాహ్య పార్స్ అయిన  మాములు ఎంటిటి రిఫరెన్స్ డి టి డి లో అనుమతించబడవు"
 
-#: xml/qxml.cpp:73
+#: xml/sax/qxml.cpp:80
 msgctxt "QXml"
 msgid "unparsed entity reference in wrong context"
 msgstr "పార్స్ కాని ఎంటిటి రిఫరెన్స్ తప్పు కొనటెక్స్ట లో ఉన్నడి"
 
-#: xml/qxml.cpp:74
+#: xml/sax/qxml.cpp:81
 msgctxt "QXml"
 msgid "recursive entities"
 msgstr "రికర్సివ్ ఎంటిటీలు"
 
-#: xml/qxml.cpp:75
+#: xml/sax/qxml.cpp:82
 msgctxt "QXml"
 msgid "error in the text declaration of an external entity"
 msgstr "బాహ్య ఎంటిటిని వచనం లో తెలియచేసెటప్పుడు దోషం జరిగిండి"
 
-#: corelib/io/qiodevice.cpp:1510 corelib/plugin/qlibrary.cpp:953
-#: corelib/plugin/qpluginloader.cpp:281 network/qhostinfo_win.cpp:206
-#: network/qhostinfo_win.cpp:233 network/qhostinfo_unix.cpp:233
+#: corelib/io/qiodevice.cpp:1500 corelib/plugin/qlibrary.cpp:942
+#: corelib/plugin/qpluginloader.cpp:296 network/kernel/qhostinfo_win.cpp:232
+#: network/kernel/qhostinfo_win.cpp:259 network/kernel/qhostinfo_unix.cpp:244
 #, fuzzy
 #| msgctxt "QFile"
 #| msgid "Unknown error"
 msgid "Unknown error"
 msgstr "తెలియని దోషము"
 
-#: corelib/tools/qregexp.cpp:53
+#: corelib/xml/qxmlstream.cpp:546
+msgid "Extra content at end of document."
+msgstr ""
+
+#: corelib/xml/qxmlstream.cpp:764
+#, fuzzy
+#| msgid "Invalid certificate!"
+msgid "Invalid entity value."
+msgstr "చెల్లని ధృవ పత్రము!"
+
+#: corelib/xml/qxmlstream.cpp:871
+#, fuzzy
+#| msgid "Invalid certificate!"
+msgid "Invalid XML character."
+msgstr "చెల్లని ధృవ పత్రము!"
+
+#: corelib/xml/qxmlstream.cpp:1130
+msgid "Sequence ']]>' not allowed in content."
+msgstr ""
+
+#: corelib/xml/qxmlstream.cpp:1409
+msgid "Encountered incorrectly encoded content."
+msgstr ""
+
+#: corelib/xml/qxmlstream.cpp:1439
+#, qt-format
+msgid "Namespace prefix '%1' not declared"
+msgstr ""
+
+#: corelib/xml/qxmlstream.cpp:1472 corelib/xml/qxmlstream.cpp:1484
+msgid "Illegal namespace declaration."
+msgstr ""
+
+#: corelib/xml/qxmlstream.cpp:1517
+msgid "Attribute redefined."
+msgstr ""
+
+#: corelib/xml/qxmlstream.cpp:1632
+#, qt-format
+msgid "Unexpected character '%1' in public id literal."
+msgstr ""
+
+#: corelib/xml/qxmlstream.cpp:1660
+msgid "Invalid XML version string."
+msgstr ""
+
+#: corelib/xml/qxmlstream.cpp:1662
+#, fuzzy
+#| msgid "Unsupported file format revision."
+msgid "Unsupported XML version."
+msgstr "సహాయము చెయబడని దస్త్ర ఫార్మేట్ పునర్విమర్శ."
+
+#: corelib/xml/qxmlstream.cpp:1683
+msgid "The standalone pseudo attribute must appear after the encoding."
+msgstr ""
+
+#: corelib/xml/qxmlstream.cpp:1685
+#, qt-format
+msgid "%1 is an invalid encoding name."
+msgstr ""
+
+#: corelib/xml/qxmlstream.cpp:1692
+#, fuzzy, qt-format
+#| msgctxt "Socket error code NotSupported"
+#| msgid "operation is not supported"
+msgid "Encoding %1 is unsupported"
+msgstr "కార్యానికి మద్దతు లేదు"
+
+#: corelib/xml/qxmlstream.cpp:1708
+msgid "Standalone accepts only yes or no."
+msgstr ""
+
+#: corelib/xml/qxmlstream.cpp:1710
+msgid "Invalid attribute in XML declaration."
+msgstr ""
+
+#: corelib/xml/qxmlstream.cpp:1726
+#, fuzzy
+#| msgid "Close the current window or document"
+msgid "Premature end of document."
+msgstr "ప్రస్తుత విండొ లేక పత్రాన్ని మూసివేయి"
+
+#: corelib/xml/qxmlstream.cpp:1728
+#, fuzzy
+#| msgid "Invalid Shortcut Key"
+msgid "Invalid document."
+msgstr "తప్పు శీఘ్ర మార్గ మీట"
+
+#: corelib/xml/qxmlstream.cpp:1768
+#, fuzzy
+#| msgid "Execute"
+msgid "Expected "
+msgstr "నడుపు"
+
+#: corelib/xml/qxmlstream.cpp:1779
+msgid ", but got '"
+msgstr ""
+
+#: corelib/xml/qxmlstream.cpp:1783
+#, fuzzy
+#| msgid "Unexpected argument '%1'."
+msgid "Unexpected '"
+msgstr "'%1' ఊహించని ఆర్గ్యుమెంట్."
+
+#: corelib/xml/qxmlstream.cpp:1980
+#, fuzzy
+#| msgctxt "QXml"
+#| msgid "unexpected character"
+msgid "Expected character data."
+msgstr "ఊహించని అక్షరము"
+
+#: corelib/tools/qregexp.cpp:63
 #, fuzzy
 #| msgctxt "QXml"
 #| msgid "no error occurred"
@@ -2446,39 +2832,39 @@ msgctxt "QRegExp"
 msgid "no error occurred"
 msgstr "దోషాలు లేవు"
 
-#: corelib/tools/qregexp.cpp:54
+#: corelib/tools/qregexp.cpp:64
 msgctxt "QRegExp"
 msgid "disabled feature used"
 msgstr ""
 
-#: corelib/tools/qregexp.cpp:55
+#: corelib/tools/qregexp.cpp:65
 msgctxt "QRegExp"
 msgid "bad char class syntax"
 msgstr ""
 
-#: corelib/tools/qregexp.cpp:56
+#: corelib/tools/qregexp.cpp:66
 msgctxt "QRegExp"
 msgid "bad lookahead syntax"
 msgstr ""
 
-#: corelib/tools/qregexp.cpp:57
+#: corelib/tools/qregexp.cpp:67
 msgctxt "QRegExp"
 msgid "bad repetition syntax"
 msgstr ""
 
-#: corelib/tools/qregexp.cpp:58
+#: corelib/tools/qregexp.cpp:68
 #, fuzzy
 #| msgid "Invalid Shortcut Key"
 msgctxt "QRegExp"
 msgid "invalid octal value"
 msgstr "తప్పు శీఘ్ర మార్గ మీట"
 
-#: corelib/tools/qregexp.cpp:59
+#: corelib/tools/qregexp.cpp:69
 msgctxt "QRegExp"
 msgid "missing left delim"
 msgstr ""
 
-#: corelib/tools/qregexp.cpp:60
+#: corelib/tools/qregexp.cpp:70
 #, fuzzy
 #| msgctxt "QXml"
 #| msgid "unexpected end of file"
@@ -2486,19 +2872,19 @@ msgctxt "QRegExp"
 msgid "unexpected end"
 msgstr "ఊహించని  దస్త్రం ఎండ్"
 
-#: corelib/tools/qregexp.cpp:61
+#: corelib/tools/qregexp.cpp:71
 msgctxt "QRegExp"
 msgid "met internal limit"
 msgstr ""
 
-#: corelib/global/qglobal.cpp:2005
+#: corelib/global/qglobal.cpp:1905
 #, fuzzy
 #| msgid "Permission denied."
 msgctxt "QIODevice"
 msgid "Permission denied"
 msgstr "అనుమతి తిరస్కరించబడినది"
 
-#: corelib/global/qglobal.cpp:2008
+#: corelib/global/qglobal.cpp:1908
 #, fuzzy
 #| msgid ""
 #| "Could not open library '%1'.\n"
@@ -2509,19 +2895,172 @@ msgstr ""
 "'%1' లైబ్రరీ ని తెరువలేకపోయాను.\n"
 "%2"
 
-#: corelib/global/qglobal.cpp:2011
+#: corelib/global/qglobal.cpp:1911
 #, fuzzy
 #| msgid "No such file."
 msgctxt "QIODevice"
 msgid "No such file or directory"
 msgstr "ఇలాంటి దస్త్రం లేదు."
 
-#: corelib/global/qglobal.cpp:2014
+#: corelib/global/qglobal.cpp:1914
 msgctxt "QIODevice"
 msgid "No space left on device"
 msgstr ""
 
-#: corelib/plugin/qlibrary.cpp:377
+#: corelib/kernel/qsharedmemory_win.cpp:67
+#: corelib/kernel/qsharedmemory_unix.cpp:84
+#, qt-format
+msgid "%1: already exists"
+msgstr ""
+
+#: corelib/kernel/qsharedmemory_win.cpp:76
+#: corelib/kernel/qsharedmemory_unix.cpp:88
+#, qt-format
+msgid "%1: doesn't exists"
+msgstr ""
+
+#: corelib/kernel/qsharedmemory_win.cpp:80
+#, qt-format
+msgid "%1: invalid size"
+msgstr ""
+
+#: corelib/kernel/qsharedmemory_win.cpp:85
+#: corelib/kernel/qsharedmemory_unix.cpp:94
+#, fuzzy, qt-format
+#| msgid "Out of Memory"
+msgid "%1: out of resources"
+msgstr "మెమొరి అయిపొయింది"
+
+#: corelib/kernel/qsharedmemory_win.cpp:89
+#: corelib/kernel/qsharedmemory_unix.cpp:80
+#, fuzzy, qt-format
+#| msgid "Permission denied."
+msgid "%1: permission denied"
+msgstr "అనుమతి తిరస్కరించబడినది"
+
+#: corelib/kernel/qsharedmemory_win.cpp:92
+#: corelib/kernel/qsharedmemory_unix.cpp:98
+#, fuzzy, qt-format
+#| msgid "unknown error"
+msgid "%1: unknown error %2"
+msgstr "తెలియని దోషము"
+
+#: corelib/kernel/qsharedmemory_win.cpp:107
+#: corelib/kernel/qsharedmemory_unix.cpp:179
+#, fuzzy, qt-format
+#| msgid "Unable to create file to upload."
+msgid "%1: unable to make key"
+msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
+
+#: corelib/kernel/qsharedmemory_win.cpp:148
+#, fuzzy, qt-format
+#| msgid "Type error"
+msgid "%1: key error"
+msgstr "వర్గీకరణ దోషము"
+
+#: corelib/kernel/qsharedmemory_win.cpp:186
+#, qt-format
+msgid "%1: size query failed"
+msgstr ""
+
+#: corelib/kernel/qsystemsemaphore_unix.cpp:88
+#: corelib/kernel/qsystemsemaphore_win.cpp:72
+#, fuzzy, qt-format
+#| msgid "Permission denied."
+msgctxt "QSystemSemaphore"
+msgid "%1: permission denied"
+msgstr "అనుమతి తిరస్కరించబడినది"
+
+#: corelib/kernel/qsystemsemaphore_unix.cpp:92
+#, qt-format
+msgctxt "QSystemSemaphore"
+msgid "%1: already exists"
+msgstr ""
+
+#: corelib/kernel/qsystemsemaphore_unix.cpp:96
+#, qt-format
+msgctxt "QSystemSemaphore"
+msgid "%1: doesn't exists"
+msgstr ""
+
+#: corelib/kernel/qsystemsemaphore_unix.cpp:101
+#: corelib/kernel/qsystemsemaphore_win.cpp:68
+#, fuzzy, qt-format
+#| msgid "Out of Memory"
+msgctxt "QSystemSemaphore"
+msgid "%1: out of resources"
+msgstr "మెమొరి అయిపొయింది"
+
+#: corelib/kernel/qsystemsemaphore_unix.cpp:105
+#: corelib/kernel/qsystemsemaphore_win.cpp:75
+#, fuzzy, qt-format
+#| msgid "unknown error"
+msgctxt "QSystemSemaphore"
+msgid "%1: unknown error %2"
+msgstr "తెలియని దోషము"
+
+#: corelib/kernel/qsystemsemaphore_unix.cpp:121
+#, qt-format
+msgctxt "QSystemSemaphore"
+msgid "%1: key is empty"
+msgstr ""
+
+#: corelib/kernel/qsystemsemaphore_unix.cpp:133
+#, fuzzy, qt-format
+#| msgid "Unable to create file to upload."
+msgctxt "QSystemSemaphore"
+msgid "%1: unable to make key"
+msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
+
+#: corelib/kernel/qsystemsemaphore_unix.cpp:142
+#, fuzzy, qt-format
+#| msgid "Open file"
+msgctxt "QSystemSemaphore"
+msgid "%1: ftok failed"
+msgstr "దస్త్రం తెరువండి"
+
+#: corelib/kernel/qsharedmemory_unix.cpp:119
+#, qt-format
+msgid "%1: key is empty"
+msgstr ""
+
+#: corelib/kernel/qsharedmemory_unix.cpp:127
+#, qt-format
+msgid "%1: unix key file doesn't exists"
+msgstr ""
+
+#: corelib/kernel/qsharedmemory_unix.cpp:134
+#, fuzzy, qt-format
+#| msgid "Open file"
+msgid "%1: ftok failed"
+msgstr "దస్త్రం తెరువండి"
+
+#: corelib/kernel/qsharedmemory_unix.cpp:199
+#, qt-format
+msgid "%1: system-imposed size restrictions"
+msgstr ""
+
+#: corelib/kernel/qsharedmemory_unix.cpp:259
+#, qt-format
+msgid "%1: not attached"
+msgstr ""
+
+#: corelib/kernel/qsharedmemory.cpp:237
+#, qt-format
+msgid "%1: create size is less then 0"
+msgstr ""
+
+#: corelib/kernel/qsharedmemory.cpp:398
+#, qt-format
+msgid "%1: unable to lock"
+msgstr ""
+
+#: corelib/kernel/qsharedmemory.cpp:420
+#, qt-format
+msgid "%1: unable to unlock"
+msgstr ""
+
+#: corelib/plugin/qlibrary.cpp:376
 #, fuzzy, qt-format
 #| msgid ""
 #| "Could not open library '%1'.\n"
@@ -2531,12 +3070,12 @@ msgstr ""
 "'%1' లైబ్రరీ ని తెరువలేకపోయాను.\n"
 "%2"
 
-#: corelib/plugin/qlibrary.cpp:399
+#: corelib/plugin/qlibrary.cpp:398
 #, qt-format
 msgid "Plugin verification data mismatch in '%1'"
 msgstr ""
 
-#: corelib/plugin/qlibrary.cpp:405
+#: corelib/plugin/qlibrary.cpp:404
 #, fuzzy, qt-format
 #| msgid ""
 #| "Could not open library '%1'.\n"
@@ -2546,290 +3085,1250 @@ msgstr ""
 "'%1' లైబ్రరీ ని తెరువలేకపోయాను.\n"
 "%2"
 
-#: corelib/plugin/qlibrary.cpp:627
+#: corelib/plugin/qlibrary.cpp:629 corelib/plugin/qpluginloader.cpp:272
 #, fuzzy
 #| msgid "The specified library %1 could not be found."
 msgid "The shared library was not found."
 msgstr "ఇవ్వబడిన లైబ్రరి %1 కనపడలేదు."
 
-#: corelib/plugin/qlibrary.cpp:629
+#: corelib/plugin/qlibrary.cpp:631
 #, fuzzy, qt-format
 #| msgid "The module %1 is not a valid configuration module."
 msgid "The file '%1' is not a valid Qt plugin."
 msgstr "%1 మాడ్యూల్ సరైన అమరిక మడ్యూల్ కాదు."
 
-#: corelib/plugin/qlibrary.cpp:644
+#: corelib/plugin/qlibrary.cpp:646
 #, qt-format
 msgid "The plugin '%1' uses incompatible Qt library. (%2.%3.%4) [%5]"
 msgstr ""
 
-#: corelib/plugin/qlibrary.cpp:659
+#: corelib/plugin/qlibrary.cpp:661
 #, qt-format
 msgid ""
 "The plugin '%1' uses incompatible Qt library. Expected build key \"%2\", got "
 "\"%3\""
 msgstr ""
 
-#: corelib/plugin/qlibrary.cpp:667
+#: corelib/plugin/qlibrary.cpp:669
 #, qt-format
 msgid ""
 "The plugin '%1' uses incompatible Qt library. (Cannot mix debug and release "
 "libraries.)"
 msgstr ""
 
-#: corelib/plugin/qlibrary_win.cpp:73 corelib/plugin/qlibrary_unix.cpp:75
-#: corelib/plugin/qlibrary_unix.cpp:212
+#: corelib/plugin/qlibrary_win.cpp:101 corelib/plugin/qlibrary_unix.cpp:84
+#: corelib/plugin/qlibrary_unix.cpp:229
 #, qt-format
 msgid "QLibrary::load_sys: Cannot load %1 (%2)"
 msgstr ""
 
-#: corelib/plugin/qlibrary_win.cpp:99 corelib/plugin/qlibrary_unix.cpp:85
-#: corelib/plugin/qlibrary_unix.cpp:224
+#: corelib/plugin/qlibrary_win.cpp:127 corelib/plugin/qlibrary_unix.cpp:94
+#: corelib/plugin/qlibrary_unix.cpp:241
 #, qt-format
 msgid "QLibrary::unload_sys: Cannot unload %1 (%2)"
 msgstr ""
 
-#: corelib/plugin/qlibrary_win.cpp:114 corelib/plugin/qlibrary_unix.cpp:96
-#: corelib/plugin/qlibrary_unix.cpp:251
+#: corelib/plugin/qlibrary_win.cpp:142 corelib/plugin/qlibrary_unix.cpp:105
+#: corelib/plugin/qlibrary_unix.cpp:268
 #, qt-format
 msgid "QLibrary::resolve_sys: Symbol \"%1\" undefined in %2 (%3)"
 msgstr ""
 
-#: corelib/plugin/qpluginloader.cpp:224
+#: corelib/plugin/qpluginloader.cpp:233
 #, fuzzy
 #| msgid "Those files can now be uploaded.\n"
 msgid "The plugin was not loaded."
 msgstr "ఆ దస్త్రాలు ఇప్పుడు ఎక్కించవచ్చు.\n"
 
-#: qt3support/sql/q3datatable.cpp:789
+#: tools/lrelease/main.cpp:63
+msgid ""
+"Usage:\n"
+"    lrelease [options] project-file\n"
+"    lrelease [options] ts-files [-qm qm-file]\n"
+"Options:\n"
+"    -help  Display this information and exit\n"
+"    -compress\n"
+"           Compress the .qm files\n"
+"    -nounfinished\n"
+"           Do not include unfinished translations\n"
+"    -removeidentical\n"
+"           If the translated text is the same as\n"
+"           the source text, do not include the message\n"
+"    -silent\n"
+"           Don't explain what is being done\n"
+"    -version\n"
+"           Display the version of lrelease and exit\n"
+msgstr ""
+
+#: tools/lrelease/main.cpp:100 tools/lupdate/lupdate.cpp:128
+#, qt-format
+msgid "Updating '%1'...\n"
+msgstr ""
+
+#: tools/lrelease/main.cpp:103
+#, qt-format
+msgid "Removing translations equal to source text in '%1'...\n"
+msgstr ""
+
+#: tools/lrelease/main.cpp:164
+#, fuzzy, qt-format
+#| msgid "Please report bugs to %1.\n"
+msgid "lrelease version %1\n"
+msgstr "%1 కు తప్పులను తెలియచేయండి.\n"
+
+#: tools/lupdate/lupdate.cpp:92
+#, qt-format
+msgid ""
+"Usage:\n"
+"    lupdate [options] [project-file]\n"
+"    lupdate [options] [source-file|path]... -ts ts-files\n"
+"Options:\n"
+"    -help  Display this information and exit.\n"
+"    -noobsolete\n"
+"           Drop all obsolete strings.\n"
+"    -extensions <ext>[,<ext>]...\n"
+"           Process files with the given extensions only.\n"
+"           The extension list must be separated with commas, not with "
+"whitespace.\n"
+"           Default: '%1'.\n"
+"    -pluralonly\n"
+"           Only include plural form messages.\n"
+"    -silent\n"
+"           Don't explain what is being done.\n"
+"    -version\n"
+"           Display the version of lupdate and exit.\n"
+msgstr ""
+
+#: tools/lupdate/lupdate.cpp:132
+#, qt-format
+msgid "Stripping non plural forms in '%1'...\n"
+msgstr ""
+
+#: tools/lupdate/lupdate.cpp:201
+#, fuzzy, qt-format
+#| msgid "Version"
+msgid "lupdate version %1\n"
+msgstr "వివరణం"
+
+#: tools/lupdate/lupdate.cpp:260
+#, qt-format
+msgid "Scanning directory '%1'...\n"
+msgstr ""
+
+#: xmlpatterns/api/qiodevicedelegate.cpp:86
+#, fuzzy
+#| msgctxt "Socket error code Timeout"
+#| msgid "timed operation timed out"
+msgid "Network timeout."
+msgstr "సమయపు కార్యానికి సమయం అయిపొయినది"
+
+#: xmlpatterns/api/qxmlserializer.cpp:329
+#, qt-format
+msgid ""
+"Element %1 can't be serialized because it appears outside the document "
+"element."
+msgstr ""
+
+#: xmlpatterns/api/qxmlserializer.cpp:389
+#, qt-format
+msgid ""
+"Attribute element %1 can't be serialized because it appears at the top level."
+msgstr ""
+
+#: xmlpatterns/data/qabstractdatetime.cpp:82
+#, qt-format
+msgid "Year %1 is invalid because it begins with %2."
+msgstr ""
+
+#: xmlpatterns/data/qabstractdatetime.cpp:101
+#, qt-format
+msgid "Day %1 is outside the range %2..%3."
+msgstr ""
+
+#: xmlpatterns/data/qabstractdatetime.cpp:108
+#, qt-format
+msgid "Month %1 is outside the range %2..%3."
+msgstr ""
+
+#: xmlpatterns/data/qabstractdatetime.cpp:119
+#, qt-format
+msgid "Overflow: Can't represent date %1."
+msgstr ""
+
+#: xmlpatterns/data/qabstractdatetime.cpp:127
+#, qt-format
+msgid "Day %1 is invalid for month %2."
+msgstr ""
+
+#: xmlpatterns/data/qabstractdatetime.cpp:176
+#, qt-format
+msgid ""
+"Time 24:%1:%2.%3 is invalid. Hour is 24, but minutes, seconds, and "
+"milliseconds are not all 0; "
+msgstr ""
+
+#: xmlpatterns/data/qabstractdatetime.cpp:189
+#, qt-format
+msgid "Time %1:%2:%3.%4 is invalid."
+msgstr ""
+
+#: xmlpatterns/data/qabstractdatetime.cpp:304
+msgid "Overflow: Date can't be represented."
+msgstr ""
+
+#: xmlpatterns/data/qboolean.cpp:80
+msgid ""
+"Effective Boolean Value cannot be calculated for a sequence containing two "
+"or more atomic values."
+msgstr ""
+
+#: xmlpatterns/data/qhexbinary.cpp:86
+#, qt-format
+msgid ""
+"A value of type %1 must contain an even number of digits. The value %2 does "
+"not."
+msgstr ""
+
+#: xmlpatterns/data/qhexbinary.cpp:105
+#, qt-format
+msgid "%1 is not valid as a value of type %2."
+msgstr ""
+
+#: xmlpatterns/data/qabstractfloatmathematician.cpp:66
+#, qt-format
+msgid "No operand in an integer division, %1, can be %2."
+msgstr ""
+
+#: xmlpatterns/data/qabstractfloatmathematician.cpp:73
+#, qt-format
+msgid "The first operand in an integer division, %1, cannot be infinity (%2)."
+msgstr ""
+
+#: xmlpatterns/data/qabstractfloatmathematician.cpp:79
+#, qt-format
+msgid "The second operand in a division, %1, cannot be zero (%2)."
+msgstr ""
+
+#: xmlpatterns/data/qatomicmathematicians.cpp:67
+#, qt-format
+msgid "Integer division (%1) by zero (%2) is undefined."
+msgstr ""
+
+#: xmlpatterns/data/qatomicmathematicians.cpp:74
+#, qt-format
+msgid "Division (%1) by zero (%2) is undefined."
+msgstr ""
+
+#: xmlpatterns/data/qatomicmathematicians.cpp:81
+#, qt-format
+msgid "Modulus division (%1) by zero (%2) is undefined."
+msgstr ""
+
+#: xmlpatterns/data/qatomicmathematicians.cpp:204
+#: xmlpatterns/data/qatomicmathematicians.cpp:236
+#, qt-format
+msgid "Dividing a value of type %1 by %2 (not-a-number) is not allowed."
+msgstr ""
+
+#: xmlpatterns/data/qatomicmathematicians.cpp:216
+#, qt-format
+msgid ""
+"Dividing a value of type %1 by %2 or %3 (plus or minus zero) is not allowed."
+msgstr ""
+
+#: xmlpatterns/data/qatomicmathematicians.cpp:248
+#, qt-format
+msgid ""
+"Multiplication of a value of type %1 by %2 or %3 (plus or minus infinity) is "
+"not allowed."
+msgstr ""
+
+#: xmlpatterns/data/qatomicvalue.cpp:82
+#, qt-format
+msgid "A value of type %1 cannot have an Effective Boolean Value."
+msgstr ""
+
+#: xmlpatterns/data/qabstractduration.cpp:101
+#: xmlpatterns/data/qabstractduration.cpp:116
+msgid "At least one component must be present."
+msgstr ""
+
+#: xmlpatterns/data/qabstractduration.cpp:109
+#, qt-format
+msgid "At least one time component must appear after the %1-delimiter."
+msgstr ""
+
+#: xmlpatterns/expr/qexpressionfactory.cpp:101
+msgid ""
+"A library module cannot be evaluated directly. It must be imported from a "
+"main module."
+msgstr ""
+
+#: xmlpatterns/expr/qcastingplatform.cpp:134
+#, qt-format
+msgid "No casting is possible with %1 as the target type."
+msgstr ""
+
+#: xmlpatterns/expr/qcastingplatform.cpp:149
+#, qt-format
+msgid "It is not possible to cast from %1 to %2."
+msgstr ""
+
+#: xmlpatterns/expr/qcastingplatform.cpp:176
+#, qt-format
+msgid ""
+"Casting to %1 is not possible because it is an abstract type, and can "
+"therefore never be instantiated."
+msgstr ""
+
+#: xmlpatterns/expr/qcastingplatform.cpp:199
+#, qt-format
+msgid "It's not possible to cast the value %1 of type %2 to %3"
+msgstr ""
+
+#: xmlpatterns/expr/qcastingplatform.cpp:207
+#, qt-format
+msgid "Failure when casting from %1 to %2: %3"
+msgstr ""
+
+#: xmlpatterns/expr/qprocessinginstructionconstructor.cpp:86
+#, qt-format
+msgid "The data of a processing instruction cannot contain the string %1"
+msgstr ""
+
+#: xmlpatterns/expr/qattributenamevalidator.cpp:68
+#, qt-format
+msgid "The namespace URI in the name for a computed attribute cannot be %1."
+msgstr ""
+
+#: xmlpatterns/expr/qattributenamevalidator.cpp:77
+#, qt-format
+msgid ""
+"The name for a computed attribute cannot have the namespace URI %1 with the "
+"local name %2."
+msgstr ""
+
+#: xmlpatterns/expr/qqnameconstructor.cpp:84
+#, qt-format
+msgid "No namespace binding exists for the prefix %1"
+msgstr ""
+
+#: xmlpatterns/expr/qpath.cpp:106
+msgid ""
+"The last step in a path must contain either nodes or atomic values. It "
+"cannot be a mixture between the two."
+msgstr ""
+
+#: xmlpatterns/expr/qgenericpredicate.cpp:108
+#, qt-format
+msgid ""
+"A value of type %1 cannot be a predicate. A predicate must have either a "
+"numeric type or an Effective Boolean Value type."
+msgstr ""
+
+#: xmlpatterns/expr/qgenericpredicate.cpp:134
+msgid "A positional predicate must evaluate to a single numeric value."
+msgstr ""
+
+#: xmlpatterns/expr/qcommentconstructor.cpp:69
+#, qt-format
+msgid "A comment cannot contain %1"
+msgstr ""
+
+#: xmlpatterns/expr/qcommentconstructor.cpp:75
+#, qt-format
+msgid "A comment cannot end with a %1."
+msgstr ""
+
+#: xmlpatterns/expr/qarithmeticexpression.cpp:166
+#, qt-format
+msgid "Operator %1 cannot be used on type %2."
+msgstr ""
+
+#: xmlpatterns/expr/qarithmeticexpression.cpp:182
+#, qt-format
+msgid "Operator %1 cannot be used on atomic values of type %2 and %3."
+msgstr ""
+
+#: xmlpatterns/expr/qdocumentcontentvalidator.cpp:88
+#, qt-format
+msgid ""
+"An attribute node cannot be a child of a document node. Therefore, the "
+"attribute %1 is out of place."
+msgstr ""
+
+#: xmlpatterns/expr/qcomparisonplatform.cpp:167
+#, qt-format
+msgid "No comparisons can be done involving the type %1."
+msgstr ""
+
+#: xmlpatterns/expr/qcomparisonplatform.cpp:181
+#, qt-format
+msgid "Operator %1 is not available between atomic values of type %2 and %3."
+msgstr ""
+
+#: xmlpatterns/expr/qcastas.cpp:90
+#, qt-format
+msgid "Type error in cast, expected %1, received %2."
+msgstr ""
+
+#: xmlpatterns/expr/qcastas.cpp:119
+#, qt-format
+msgid ""
+"When casting to %1 or types derived from it, the source value must be of the "
+"same type, or it must be a string literal. Type %2 is not allowed."
+msgstr ""
+
+#: xmlpatterns/type/qtypechecker.cpp:63
+#, qt-format
+msgid "Required type is %1, but %2 was found."
+msgstr ""
+
+#: xmlpatterns/type/qtypechecker.cpp:113
+#, qt-format
+msgid "Promoting %1 to %2 may cause loss of precision."
+msgstr ""
+
+#: xmlpatterns/type/qtypechecker.cpp:162
+#, fuzzy
+#| msgid "The module %1 could not be loaded."
+msgid "The focus is undefined."
+msgstr "%1 మాడ్యూల్ ఎక్కించలేకపొయాము."
+
+#: xmlpatterns/type/qcardinality.cpp:57
+#, fuzzy
+#| msgid "<empty>"
+msgid "empty"
+msgstr "<ఖాళీ>"
+
+#: xmlpatterns/type/qcardinality.cpp:59
+msgid "zero or one"
+msgstr ""
+
+#: xmlpatterns/type/qcardinality.cpp:61
+msgid "exactly one"
+msgstr ""
+
+#: xmlpatterns/type/qcardinality.cpp:63
+#, fuzzy
+#| msgid "Do Not Store"
+msgid "one or more"
+msgstr "దాచవద్దు"
+
+#: xmlpatterns/type/qcardinality.cpp:65
+msgid "zero or more"
+msgstr ""
+
+#: xmlpatterns/utils/qoutputvalidator.cpp:86
+msgid "It's not possible to add attributes after any other kind of node."
+msgstr ""
+
+#: xmlpatterns/utils/qoutputvalidator.cpp:93
+#, qt-format
+msgid "An attribute by name %1 has already been created."
+msgstr ""
+
+#: xmlpatterns/acceltree/qacceltreebuilder.cpp:196
+#, qt-format
+msgid "An %1-attribute with value %2 has already been declared."
+msgstr ""
+
+#: xmlpatterns/acceltree/qacceltreebuilder.cpp:210
+#, qt-format
+msgid "An %1-attribute must have a valid %2 as value, which %3 isn't."
+msgstr ""
+
+#: xmlpatterns/functions/qpatternplatform.cpp:94
+#, qt-format
+msgid "%1 matches newline characters"
+msgstr ""
+
+#: xmlpatterns/functions/qpatternplatform.cpp:98
+#, qt-format
+msgid "%1 and %2 match the start and end of a line."
+msgstr ""
+
+#: xmlpatterns/functions/qpatternplatform.cpp:104
+#, fuzzy
+#| msgid "Case &sensitive"
+msgid "Matches are case insensitive"
+msgstr "(&s) తరగతి ఆధారిత"
+
+#: xmlpatterns/functions/qpatternplatform.cpp:108
+msgid ""
+"Whitespace characters are removed, except when they appear in character "
+"classes"
+msgstr ""
+
+#: xmlpatterns/functions/qpatternplatform.cpp:193
+#, qt-format
+msgid "%1 is an invalid regular expression pattern: %2"
+msgstr ""
+
+#: xmlpatterns/functions/qpatternplatform.cpp:223
+#, qt-format
+msgid "%1 is an invalid flag for regular expressions. Valid flags are:"
+msgstr ""
+
+#: xmlpatterns/functions/qqnamefns.cpp:71
+#, qt-format
+msgid "%1 is an invalid %2"
+msgstr ""
+
+#: xmlpatterns/functions/qqnamefns.cpp:89
+#, qt-format
+msgid ""
+"If the first argument is the empty sequence or a zero-length string (no "
+"namespace), a prefix cannot be specified. Prefix %1 was specified."
+msgstr ""
+
+#: xmlpatterns/functions/qassemblestringfns.cpp:90
+#, fuzzy, qt-format
+#| msgid "Invalid certificate!"
+msgid "%1 is not a valid XML 1.0 character."
+msgstr "చెల్లని ధృవ పత్రము!"
+
+#: xmlpatterns/functions/qdatetimefn.cpp:88
+#, qt-format
+msgid ""
+"If both values have zone offsets, they must have the same zone offset. %1 "
+"and %2 are not the same."
+msgstr ""
+
+#: xmlpatterns/functions/qtimezonefns.cpp:89
+#, qt-format
+msgid ""
+"A zone offset must be in the range %1..%2 inclusive. %3 is out of range."
+msgstr ""
+
+#: xmlpatterns/functions/qtimezonefns.cpp:101
+#, qt-format
+msgid "%1 is not an whole number of minutes."
+msgstr ""
+
+#: xmlpatterns/functions/qstringvaluefns.cpp:239
+#, qt-format
+msgid ""
+"The normalization form %1 is unsupported. The supported forms are %2, %3, %"
+"4, and %5, and none, i.e. the empty string (no normalization)."
+msgstr ""
+
+#: xmlpatterns/functions/qsequencefns.cpp:338
+#, qt-format
+msgid "It will not be possible to retrieve %1."
+msgstr ""
+
+#: xmlpatterns/functions/qaggregatefns.cpp:122
+#, qt-format
+msgid ""
+"The first argument to %1 cannot be of type %2. It must be a numeric type, xs:"
+"yearMonthDuration or xs:dayTimeDuration."
+msgstr ""
+
+#: xmlpatterns/functions/qaggregatefns.cpp:196
+#, qt-format
+msgid ""
+"The first argument to %1 cannot be of type %2. It must be of type %3, %4, or "
+"%5."
+msgstr ""
+
+#: xmlpatterns/functions/qaggregatefns.cpp:287
+#, qt-format
+msgid ""
+"The second argument to %1 cannot be of type %2. It must be of type %3, %4, "
+"or %5."
+msgstr ""
+
+#: xmlpatterns/functions/qcomparingaggregator.cpp:199
+#, qt-format
+msgid "The first argument to %1 cannot be of type %2."
+msgstr ""
+
+#: xmlpatterns/functions/qsequencegeneratingfns.cpp:109
+#, qt-format
+msgid ""
+"The root node of the second argument to function %1 must be a document node. "
+"%2 is not a document node."
+msgstr ""
+
+#: xmlpatterns/functions/qsequencegeneratingfns.cpp:154
+#, fuzzy, qt-format
+#| msgid ""
+#| "Cannot create the file\n"
+#| "\""
+msgid "Cannot retrieve %1."
+msgstr ""
+"దస్త్రాన్ని సృష్టించలేను\n"
+"\""
+
+#: xmlpatterns/functions/qsequencegeneratingfns.cpp:191
+msgid "The default collection is undefined"
+msgstr ""
+
+#: xmlpatterns/functions/qsequencegeneratingfns.cpp:204
+#, qt-format
+msgid "%1 cannot be retrieved"
+msgstr ""
+
+#: xmlpatterns/functions/qpatternmatchingfns.cpp:96
+#, qt-format
+msgid ""
+"%1 must be followed by %2 or %3, not at the end of the replacement string."
+msgstr ""
+
+#: xmlpatterns/functions/qpatternmatchingfns.cpp:135
+#, qt-format
+msgid ""
+"In the replacement string, %1 must be followed by at least one digit when "
+"not escaped."
+msgstr ""
+
+#: xmlpatterns/functions/qpatternmatchingfns.cpp:161
+#, qt-format
+msgid ""
+"In the replacement string, %1 can only be used to escape itself or %2, not %3"
+msgstr ""
+
+#: xmlpatterns/functions/qerrorfn.cpp:63
+#, qt-format
+msgid "%1 was called."
+msgstr ""
+
+#: querytransformparser.ypp:223 querytransformparser.ypp:3309
+#, fuzzy, qt-format
+#| msgid "%1 - unknown type\n"
+msgid "%1 is an unknown schema type."
+msgstr "%1 - తెలియని రకం\n"
+
+#: querytransformparser.ypp:281
+#, qt-format
+msgid "Only one %1 declaration can occur in the query prolog."
+msgstr ""
+
+#: querytransformparser.ypp:456
+#, qt-format
+msgid "The initialization of variable %1 depends on itself"
+msgstr ""
+
+#: querytransformparser.ypp:648
+#, fuzzy, qt-format
+#| msgid "The fake user-agent '%1' is in use."
+msgid "The variable %1 is unused"
+msgstr "నకిలి '%1' యూజర్-ఎజెంట్ వాడుకలో వుంది."
+
+#: querytransformparser.ypp:998
+#, qt-format
+msgid "Version %1 is not supported. The supported XQuery version is 1.0."
+msgstr ""
+
+#: querytransformparser.ypp:1012
+#, qt-format
+msgid ""
+"The encoding %1 is invalid. It must contain Latin characters only, must not "
+"contain whitespace and must match the regular expression %2."
+msgstr ""
+
+#: querytransformparser.ypp:1049
+#, qt-format
+msgid "No function with signature %1 is available"
+msgstr ""
+
+#: querytransformparser.ypp:1098 querytransformparser.ypp:1104
+msgid ""
+"A default namespace declaration must occur before function, variable and "
+"option declarations."
+msgstr ""
+
+#: querytransformparser.ypp:1110
+msgid ""
+"Namespace declarations must occur before function, variable and option "
+"declarations."
+msgstr ""
+
+#: querytransformparser.ypp:1116
+msgid ""
+"Module imports must occur before function, variable and option declarations."
+msgstr ""
+
+#: querytransformparser.ypp:1151
+#, qt-format
+msgid "It is not possible to redeclare prefix %1."
+msgstr ""
+
+#: querytransformparser.ypp:1159
+#, qt-format
+msgid ""
+"Only the prefix %1 can be declared to bind the namespace %2. By default, it "
+"is already bound to the prefix %1."
+msgstr ""
+
+#: querytransformparser.ypp:1170
+#, qt-format
+msgid "Prefix %1 is already declared in the prolog."
+msgstr ""
+
+#: querytransformparser.ypp:1252
+msgid ""
+"The name of an option must have a prefix. There is no default namespace for "
+"options."
+msgstr ""
+
+#: querytransformparser.ypp:1378
+#, qt-format
+msgid ""
+"The Schema Import feature is not supported, and therefore %1 declarations "
+"cannot occur."
+msgstr ""
+
+#: querytransformparser.ypp:1392
+#, qt-format
+msgid "The target namespace of a %1 cannot be empty."
+msgstr ""
+
+#: querytransformparser.ypp:1400
+#, fuzzy
+#| msgid "requested family not supported"
+msgid "The module import feature is not supported"
+msgstr "మనవి చెయబడిన కుటుంబం కొరకు సహాయంలేదు"
+
+#: querytransformparser.ypp:1418
+#, qt-format
+msgid "A variable by name %1 has already been declared in the prolog."
+msgstr ""
+
+#: querytransformparser.ypp:1448
+#, qt-format
+msgid "No value is available for the external variable by name %1."
+msgstr ""
+
+#: querytransformparser.ypp:1502
+#, qt-format
+msgid ""
+"The namespace for a user defined function cannot be empty (try the "
+"predefined prefix %1 which exists for cases like this)"
+msgstr ""
+
+#: querytransformparser.ypp:1512
+#, qt-format
+msgid ""
+"The namespace %1 is reserved; therefore user defined functions may not use "
+"it. Try the predefined prefix %2, which exists for these cases."
+msgstr ""
+
+#: querytransformparser.ypp:1523
+#, qt-format
+msgid ""
+"The namespace of a user defined function in a library module must be "
+"equivalent to the module namespace. In other words, it should be %1 instead "
+"of %2"
+msgstr ""
+
+#: querytransformparser.ypp:1552
+#, qt-format
+msgid "A function already exists with the signature %1."
+msgstr ""
+
+#: querytransformparser.ypp:1575
+msgid ""
+"No external functions are supported. All supported functions can be used "
+"directly, without first declaring them as external"
+msgstr ""
+
+#: querytransformparser.ypp:1601
+#, qt-format
+msgid ""
+"An argument by name %1 has already been declared. Every argument name must "
+"be unique."
+msgstr ""
+
+#: querytransformparser.ypp:1683
+#, qt-format
+msgid ""
+"The name of a variable bound in a for-expression must be different from the "
+"positional variable. Hence, the two variables named %1 collide."
+msgstr ""
+
+#: querytransformparser.ypp:2167
+#, qt-format
+msgid ""
+"The Schema Validation Feature is not supported. Hence, %1-expressions may "
+"not be used."
+msgstr ""
+
+#: querytransformparser.ypp:2191
+msgid ""
+"None of the pragma expressions are supported. Therefore, a fallback "
+"expression must be present"
+msgstr ""
+
+#: querytransformparser.ypp:2300
+#, qt-format
+msgid "The %1-axis is unsupported in XQuery"
+msgstr ""
+
+#: querytransformparser.ypp:2401 querytransformparser.ypp:2414
+#, fuzzy, qt-format
+#| msgid "The module %1 is not a valid configuration module."
+msgid "%1 is not a valid numeric literal."
+msgstr "%1 మాడ్యూల్ సరైన అమరిక మడ్యూల్ కాదు."
+
+#: querytransformparser.ypp:2457
+#, qt-format
+msgid "No variable by name %1 exists"
+msgstr ""
+
+#: querytransformparser.ypp:2506
+#, fuzzy, qt-format
+#| msgid "No description available."
+msgid "No function by name %1 is available."
+msgstr "ఏ వర్ణన దొరకలేదు"
+
+#: querytransformparser.ypp:2631
+#, qt-format
+msgid ""
+"The namespace URI cannot be the empty string when binding to a prefix, %1."
+msgstr ""
+
+#: querytransformparser.ypp:2638
+#, qt-format
+msgid "%1 is an invalid namespace URI."
+msgstr ""
+
+#: querytransformparser.ypp:2644
+#, qt-format
+msgid "It is not possible to bind to the prefix %1"
+msgstr ""
+
+#: querytransformparser.ypp:2651
+#, qt-format
+msgid ""
+"Namespace %1 can only be bound to %2 (and it is, in either case, pre-"
+"declared)."
+msgstr ""
+
+#: querytransformparser.ypp:2659
+#, qt-format
+msgid ""
+"Prefix %1 can only be bound to %2 (and it is, in either case, pre-declared)."
+msgstr ""
+
+#: querytransformparser.ypp:2674
+#, qt-format
+msgid "Two namespace declaration attributes have the same name: %1."
+msgstr ""
+
+#: querytransformparser.ypp:2761
+msgid ""
+"The namespace URI must be a constant and cannot use enclosed expressions."
+msgstr ""
+
+#: querytransformparser.ypp:2777
+#, qt-format
+msgid "An attribute by name %1 has already appeared on this element."
+msgstr ""
+
+#: querytransformparser.ypp:2831
+#, qt-format
+msgid "A direct element constructor is not well-formed. %1 is ended with %2."
+msgstr ""
+
+#: querytransformparser.ypp:3125
+#, fuzzy, qt-format
+#| msgid "The library %1 does not offer an %2 function."
+msgid "The name %1 does not refer to any schema type."
+msgstr "లైబ్రరి %1లో %2 ఫంక్షన్ లేదు."
+
+#: querytransformparser.ypp:3135
+#, qt-format
+msgid ""
+"%1 is an complex type. Casting to complex types is not possible. However, "
+"casting to atomic types such as %2 works."
+msgstr ""
+
+#: querytransformparser.ypp:3144
+#, qt-format
+msgid "%1 is not an atomic type. Casting is only possible to atomic types."
+msgstr ""
+
+#: querytransformparser.ypp:3210
+#, qt-format
+msgid ""
+"%1 is not a valid name for a processing-instruction. Therefore this name "
+"test will never match."
+msgstr ""
+
+#: querytransformparser.ypp:3264
+#, qt-format
+msgid ""
+"%1 is not in the in-scope attribute declarations. Note that the schema "
+"import feature is not suppported."
+msgstr ""
+
+#: querytransformparser.ypp:3317
+#, qt-format
+msgid ""
+"%1 is not in the in-scope attribute declarations. Note that the schema "
+"import feature is not supported."
+msgstr ""
+
+#: querytransformparser.ypp:3361
+msgid "The name of an extension expression must be in a namespace."
+msgstr ""
+
+#: xmlpatterns/janitors/qcardinalityverifier.cpp:59
+#, qt-format
+msgid "Required cardinality is %1; got cardinality %2."
+msgstr ""
+
+#: xmlpatterns/janitors/qitemverifier.cpp:69
+#, qt-format
+msgid "The item %1 did not match the required type %2."
+msgstr ""
+
+#: qt3support/sql/q3datatable.cpp:791
 msgid "Insert"
 msgstr "చేర్చు"
 
-#: qt3support/sql/q3datatable.cpp:790
+#: qt3support/sql/q3datatable.cpp:792
 msgid "Update"
 msgstr "కొత్త మార్పులు"
 
-#: qt3support/sql/q3sqlmanager_p.cpp:893
+#: qt3support/sql/q3sqlmanager_p.cpp:892
 #, fuzzy
 #| msgid "Delete"
 msgctxt "QSql"
 msgid "Delete"
 msgstr "తొలగించు"
 
-#: qt3support/sql/q3sqlmanager_p.cpp:894
+#: qt3support/sql/q3sqlmanager_p.cpp:893
 #, fuzzy
 #| msgid "Delete All"
 msgctxt "QSql"
 msgid "Delete this record?"
 msgstr "అన్ని తొలగించుము"
 
-#: qt3support/sql/q3sqlmanager_p.cpp:895 qt3support/sql/q3sqlmanager_p.cpp:911
-#: qt3support/sql/q3sqlmanager_p.cpp:947
+#: qt3support/sql/q3sqlmanager_p.cpp:894 qt3support/sql/q3sqlmanager_p.cpp:910
+#: qt3support/sql/q3sqlmanager_p.cpp:946
 #, fuzzy
 #| msgid "Yes"
 msgctxt "QSql"
 msgid "Yes"
 msgstr "ఔను"
 
-#: qt3support/sql/q3sqlmanager_p.cpp:896 qt3support/sql/q3sqlmanager_p.cpp:912
-#: qt3support/sql/q3sqlmanager_p.cpp:948
+#: qt3support/sql/q3sqlmanager_p.cpp:895 qt3support/sql/q3sqlmanager_p.cpp:911
+#: qt3support/sql/q3sqlmanager_p.cpp:947
 #, fuzzy
 #| msgid "No"
 msgctxt "QSql"
 msgid "No"
 msgstr "కాదు"
 
-#: qt3support/sql/q3sqlmanager_p.cpp:904
+#: qt3support/sql/q3sqlmanager_p.cpp:903
 #, fuzzy
 #| msgid "Insert"
 msgctxt "QSql"
 msgid "Insert"
 msgstr "చేర్చు"
 
-#: qt3support/sql/q3sqlmanager_p.cpp:906
+#: qt3support/sql/q3sqlmanager_p.cpp:905
 #, fuzzy
 #| msgid "Update"
 msgctxt "QSql"
 msgid "Update"
 msgstr "కొత్త మార్పులు"
 
-#: qt3support/sql/q3sqlmanager_p.cpp:910
+#: qt3support/sql/q3sqlmanager_p.cpp:909
 #, fuzzy
 #| msgid "Save data"
 msgctxt "QSql"
 msgid "Save edits?"
 msgstr "దత్తంసాలను దాచు"
 
-#: qt3support/sql/q3sqlmanager_p.cpp:913
+#: qt3support/sql/q3sqlmanager_p.cpp:912
 #, fuzzy
 #| msgid "Cancel"
 msgctxt "QSql"
 msgid "Cancel"
 msgstr "రద్దు"
 
-#: qt3support/sql/q3sqlmanager_p.cpp:945
+#: qt3support/sql/q3sqlmanager_p.cpp:944
 #, fuzzy
 #| msgid "Configure"
 msgctxt "QSql"
 msgid "Confirm"
 msgstr "అమర్చు"
 
-#: qt3support/sql/q3sqlmanager_p.cpp:946
+#: qt3support/sql/q3sqlmanager_p.cpp:945
 msgctxt "QSql"
 msgid "Cancel your edits?"
 msgstr ""
 
-#: qt3support/text/q3textedit.cpp:5459
+#: qt3support/text/q3textedit.cpp:5444
 msgid "Clear"
 msgstr "చెరిపివేయము"
 
-#: qt3support/dialogs/q3tabdialog.cpp:640
+#: qt3support/dialogs/q3tabdialog.cpp:649
 msgid "Apply"
 msgstr "వర్తించు"
 
-#: qt3support/dialogs/q3tabdialog.cpp:728
+#: qt3support/dialogs/q3tabdialog.cpp:737
 msgid "Defaults"
 msgstr "అప్రమేయములు"
 
-#: qt3support/dialogs/q3wizard.cpp:169
+#: qt3support/dialogs/q3wizard.cpp:179
 msgid "&Cancel"
 msgstr "(&C) రద్దు"
 
-#: qt3support/other/q3accel.cpp:484
+#: qt3support/other/q3accel.cpp:483
 #, qt-format
 msgid "%1, %2 not defined"
 msgstr "%1, %2 స్పష్టముగా లేవు"
 
-#: qt3support/other/q3accel.cpp:520
+#: qt3support/other/q3accel.cpp:519
 #, fuzzy, qt-format
 #| msgid "Ambiguous \"%1\" not handled"
 msgid "Ambiguous %1 not handled"
 msgstr "సందిగ్దమైన \"%1\" మార్చబడవు"
 
-#: qt3support/network/q3networkprotocol.cpp:850
+#: qt3support/network/q3networkprotocol.cpp:855
 msgid "Operation stopped by the user"
 msgstr "యూజర్ ఈ క్రియని ఆపెను "
 
-#: qt3support/widgets/q3mainwindow.cpp:2073
-#: plugins/accessible/widgets/rangecontrols.cpp:553
+#: qt3support/widgets/q3mainwindow.cpp:2050
+#: plugins/accessible/widgets/rangecontrols.cpp:563
 msgid "Line up"
 msgstr "వరుస పైన"
 
-#: qt3support/widgets/q3mainwindow.cpp:2075
+#: qt3support/widgets/q3mainwindow.cpp:2052
 msgid "Customize..."
 msgstr "నిర్దేశించు..."
 
-#: qt3support/widgets/q3toolbar.cpp:683
+#: qt3support/widgets/q3toolbar.cpp:694
 msgid "More..."
 msgstr "ఇంకా..."
 
-#: network/qudpsocket.cpp:157
-msgctxt "QUdpSocket"
-msgid "This platform does not support IPv6"
+#: network/ssl/qsslsocket_openssl.cpp:256
+#, qt-format
+msgid "Error creating SSL context (%1)"
 msgstr ""
 
-#: network/qhostinfo_win.cpp:154 network/qhostinfo_win.cpp:163
-#: network/qhostinfo_win.cpp:203 network/qhostinfo_win.cpp:230
-#: network/qhostinfo_unix.cpp:136 network/qhostinfo_unix.cpp:145
-#: network/qhostinfo_unix.cpp:199 network/qhostinfo_unix.cpp:230
+#: network/ssl/qsslsocket_openssl.cpp:281
+#, qt-format
+msgid "Invalid or empty cipher list (%1)"
+msgstr ""
+
+#: network/ssl/qsslsocket_openssl.cpp:297
+#, qt-format
+msgid "Cannot provide a certificate with no key, %1"
+msgstr ""
+
+#: network/ssl/qsslsocket_openssl.cpp:304
+#, qt-format
+msgid "Error loading local certificate, %1"
+msgstr ""
+
+#: network/ssl/qsslsocket_openssl.cpp:316
+#, fuzzy, qt-format
+#| msgid "Error loading '%1'.\n"
+msgid "Error loading private key, %1"
+msgstr "'%1'ఎక్కించుటలో దోషం.\n"
+
+#: network/ssl/qsslsocket_openssl.cpp:323
+#, qt-format
+msgid "Private key does not certificate public key, %1"
+msgstr ""
+
+#: network/ssl/qsslsocket_openssl.cpp:343
+#, qt-format
+msgid "Error creating SSL session, %1"
+msgstr ""
+
+#: network/ssl/qsslsocket_openssl.cpp:358
+#, qt-format
+msgid "Error creating SSL session: %1"
+msgstr ""
+
+#: network/ssl/qsslsocket_openssl.cpp:539
+#, qt-format
+msgid "Unable to write data: %1"
+msgstr ""
+
+#: network/ssl/qsslsocket_openssl.cpp:628
+#, fuzzy, qt-format
+#| msgid "Error while loading %1"
+msgid "Error while reading: %1"
+msgstr "%1 ఎక్కించునప్పుడు దోషము"
+
+#: network/ssl/qsslsocket_openssl.cpp:716
+#, fuzzy, qt-format
+#| msgid "Error opening file."
+msgid "Error during SSL handshake: %1"
+msgstr "దస్త్రం తెరచుటలో దోషము."
+
+#: network/access/qnetworkaccessftpbackend.cpp:161
+#, qt-format
+msgid "Cannot open %1: is a directory"
+msgstr ""
+
+#: network/access/qnetworkaccessftpbackend.cpp:292
+#, qt-format
+msgid "Logging in to %1 failed: authentication required"
+msgstr ""
+
+#: network/access/qnetworkaccessftpbackend.cpp:331
+#, fuzzy, qt-format
+#| msgid "Error while loading %1"
+msgid "Error while downloading %1: %2"
+msgstr "%1 ఎక్కించునప్పుడు దోషము"
+
+#: network/access/qnetworkaccessftpbackend.cpp:333
+#, fuzzy, qt-format
+#| msgid "Error while loading %1"
+msgid "Error while uploading %1: %2"
+msgstr "%1 ఎక్కించునప్పుడు దోషము"
+
+#: network/access/qnetworkaccessdatabackend.cpp:76
+#, fuzzy, qt-format
+#| msgctxt "Socket error code NotSupported"
+#| msgid "operation is not supported"
+msgid "Operation not supported on %1"
+msgstr "కార్యానికి మద్దతు లేదు"
+
+#: network/access/qnetworkaccessdatabackend.cpp:129
+#, fuzzy, qt-format
+#| msgid "InvalidCA"
+msgid "Invalid URI: %1"
+msgstr "చెల్లని సిఏ"
+
+#: network/access/qnetworkreplyimpl.cpp:67
+#, qt-format
+msgctxt "QNetworkReply"
+msgid "Protocol \"%1\" is unknown"
+msgstr ""
+
+#: network/access/qnetworkreplyimpl.cpp:402
+#: network/access/qnetworkreplyimpl.cpp:424
+#, fuzzy
+#| msgid "Operations"
+msgid "Operation canceled"
+msgstr "కార్యములు"
+
+#: network/access/qnetworkaccessdebugpipebackend.cpp:177
+#, qt-format
+msgid "Write error writing to %1: %2"
+msgstr ""
+
+#: network/access/qnetworkaccessdebugpipebackend.cpp:234
+#, fuzzy, qt-format
+#| msgid "There was an error loading the module."
+msgid "Read error reading from %1: %2"
+msgstr "మాడ్యూల్ ఎక్కించుటలొ దొషం వచ్చింది"
+
+#: network/access/qnetworkaccessdebugpipebackend.cpp:265
+#, qt-format
+msgid "Socket error on %1: %2"
+msgstr ""
+
+#: network/access/qnetworkaccessdebugpipebackend.cpp:278
+#, fuzzy, qt-format
+#| msgctxt "Socket error code RemotelyDisconnected"
+#| msgid "remote host closed connection"
+msgid "Remote host closed the connection prematurely on %1"
+msgstr "రిమోట్ హోస్ట్ అనుసంధానం మూసివేసింది"
+
+#: network/access/qnetworkaccessdebugpipebackend.cpp:331
+msgid "Protocol error: packet of size 0 received"
+msgstr ""
+
+#: network/access/qnetworkaccesshttpbackend.cpp:535
+#, fuzzy, qt-format
+#| msgid "Error loading '%1'.\n"
+msgctxt "QNetworkReply"
+msgid "Error downloading %1 - server replied: %2"
+msgstr "'%1'ఎక్కించుటలో దోషం.\n"
+
+#: network/access/qnetworkaccessfilebackend.cpp:99
+#, qt-format
+msgctxt "QNetworkAccessFileBackend"
+msgid "Request for opening non-local file %1"
+msgstr ""
+
+#: network/access/qnetworkaccessfilebackend.cpp:140
+#, fuzzy, qt-format
+#| msgid "Error opening file."
+msgctxt "QNetworkAccessFileBackend"
+msgid "Error opening %1: %2"
+msgstr "దస్త్రం తెరచుటలో దోషము."
+
+#: network/access/qnetworkaccessfilebackend.cpp:196
+#, qt-format
+msgctxt "QNetworkAccessFileBackend"
+msgid "Write error writing to %1: %2"
+msgstr ""
+
+#: network/access/qnetworkaccessfilebackend.cpp:229
+#, qt-format
+msgctxt "QNetworkAccessFileBackend"
+msgid "Cannot open %1: Path is a directory"
+msgstr ""
+
+#: network/access/qnetworkaccessfilebackend.cpp:246
+#, fuzzy, qt-format
+#| msgid "There was an error loading the module."
+msgctxt "QNetworkAccessFileBackend"
+msgid "Read error reading from %1: %2"
+msgstr "మాడ్యూల్ ఎక్కించుటలొ దొషం వచ్చింది"
+
+#: network/kernel/qhostinfo_win.cpp:180 network/kernel/qhostinfo_win.cpp:189
+#: network/kernel/qhostinfo_win.cpp:229 network/kernel/qhostinfo_win.cpp:256
+#: network/kernel/qhostinfo_unix.cpp:147 network/kernel/qhostinfo_unix.cpp:156
+#: network/kernel/qhostinfo_unix.cpp:210 network/kernel/qhostinfo_unix.cpp:241
 #, fuzzy
 #| msgctxt "Socket error code NotBound"
 #| msgid "socket is not bound"
 msgid "Host not found"
 msgstr "సాకెట్ ముందే జతపరచడలేదు"
 
-#: network/qhostinfo_win.cpp:196 network/qhostinfo_win.cpp:225
-#: network/qhostinfo_unix.cpp:185 network/qhostinfo_unix.cpp:225
+#: network/kernel/qhostinfo_win.cpp:222 network/kernel/qhostinfo_win.cpp:251
+#: network/kernel/qhostinfo_unix.cpp:196 network/kernel/qhostinfo_unix.cpp:236
 #, fuzzy
 #| msgid "Unknown type"
 msgid "Unknown address type"
 msgstr "తెలియని రకము"
 
-#: network/qsslsocket_openssl.cpp:242
-#, qt-format
-msgid "Error creating SSL context (%1)"
+#: network/socket/qudpsocket.cpp:142
+msgctxt "QUdpSocket"
+msgid "This platform does not support IPv6"
 msgstr ""
 
-#: network/qsslsocket_openssl.cpp:264
-#, qt-format
-msgid "Invalid or empty cipher list (%1)"
-msgstr ""
-
-#: network/qsslsocket_openssl.cpp:280
-#, qt-format
-msgid "Cannot provide a certificate with no key, %1"
-msgstr ""
-
-#: network/qsslsocket_openssl.cpp:287
-#, qt-format
-msgid "Error loading local certificate, %1"
-msgstr ""
-
-#: network/qsslsocket_openssl.cpp:299
-#, fuzzy, qt-format
-#| msgid "Error loading '%1'.\n"
-msgid "Error loading private key, %1"
-msgstr "'%1'ఎక్కించుటలో దోషం.\n"
-
-#: network/qsslsocket_openssl.cpp:306
-#, qt-format
-msgid "Private key does not certificate public key, %1"
-msgstr ""
-
-#: network/qsslsocket_openssl.cpp:315
-#, qt-format
-msgid "Error creating SSL session, %1"
-msgstr ""
-
-#: network/qsslsocket_openssl.cpp:330
-#, qt-format
-msgid "Error creating SSL session: %1"
-msgstr ""
-
-#: network/qsslsocket_openssl.cpp:510
-#, qt-format
-msgid "Unable to write data: %1"
-msgstr ""
-
-#: network/qsslsocket_openssl.cpp:579
-#, fuzzy, qt-format
-#| msgid "Error while loading %1"
-msgid "Error while reading: %1"
-msgstr "%1 ఎక్కించునప్పుడు దోషము"
-
-#: network/qsslsocket_openssl.cpp:609
-#, fuzzy, qt-format
-#| msgid "Error opening file."
-msgid "Error during SSL handshake: %1"
-msgstr "దస్త్రం తెరచుటలో దోషము."
-
-#: network/qsocks5socketengine.cpp:1210
+#: network/socket/qsocks5socketengine.cpp:1237
 msgid "Socks5 timeout error connecting to socks server"
 msgstr ""
 
-#: network/qtcpserver.cpp:239
+#: network/socket/qsocks5socketengine.cpp:1274
 #, fuzzy
-#| msgctxt "Socket error code NotSupported"
-#| msgid "operation is not supported"
-msgid "Socket operation unsupported"
-msgstr "కార్యానికి మద్దతు లేదు"
+#| msgctxt "Socket error code Timeout"
+#| msgid "timed operation timed out"
+msgctxt "QSocks5SocketEngine"
+msgid "Network operation timed out"
+msgstr "సమయపు కార్యానికి సమయం అయిపొయినది"
 
-#: network/qnativesocketengine.cpp:183
+#: network/socket/qnativesocketengine.cpp:199
 msgctxt "QNativeSocketEngine"
 msgid "Unable to initialize non-blocking socket"
 msgstr ""
 
-#: network/qnativesocketengine.cpp:186
+#: network/socket/qnativesocketengine.cpp:202
 msgctxt "QNativeSocketEngine"
 msgid "Unable to initialize broadcast socket"
 msgstr ""
 
-#: network/qnativesocketengine.cpp:189
+#: network/socket/qnativesocketengine.cpp:205
 msgctxt "QNativeSocketEngine"
 msgid "Attempt to use IPv6 socket on a platform with no IPv6 support"
 msgstr ""
 
-#: network/qnativesocketengine.cpp:192
+#: network/socket/qnativesocketengine.cpp:208
 #, fuzzy
 #| msgctxt "Socket error code RemotelyDisconnected"
 #| msgid "remote host closed connection"
@@ -2837,7 +4336,7 @@ msgctxt "QNativeSocketEngine"
 msgid "The remote host closed the connection"
 msgstr "రిమోట్ హోస్ట్ అనుసంధానం మూసివేసింది"
 
-#: network/qnativesocketengine.cpp:195
+#: network/socket/qnativesocketengine.cpp:211
 #, fuzzy
 #| msgctxt "Socket error code Timeout"
 #| msgid "timed operation timed out"
@@ -2845,50 +4344,50 @@ msgctxt "QNativeSocketEngine"
 msgid "Network operation timed out"
 msgstr "సమయపు కార్యానికి సమయం అయిపొయినది"
 
-#: network/qnativesocketengine.cpp:198
+#: network/socket/qnativesocketengine.cpp:214
 #, fuzzy
 #| msgid "Out of Memory"
 msgctxt "QNativeSocketEngine"
 msgid "Out of resources"
 msgstr "మెమొరి అయిపొయింది"
 
-#: network/qnativesocketengine.cpp:201
+#: network/socket/qnativesocketengine.cpp:217
 #, fuzzy
 #| msgid "Unsupported file format revision."
 msgctxt "QNativeSocketEngine"
 msgid "Unsupported socket operation"
 msgstr "సహాయము చెయబడని దస్త్ర ఫార్మేట్ పునర్విమర్శ."
 
-#: network/qnativesocketengine.cpp:204
+#: network/socket/qnativesocketengine.cpp:220
 #, fuzzy
 #| msgid "requested socket type not supported"
 msgctxt "QNativeSocketEngine"
 msgid "Protocol type not supported"
 msgstr "మనవి చెయబడిన సాకెట్ రకము కొరకు సహాయంలేదు"
 
-#: network/qnativesocketengine.cpp:207
+#: network/socket/qnativesocketengine.cpp:223
 msgctxt "QNativeSocketEngine"
 msgid "Invalid socket descriptor"
 msgstr ""
 
-#: network/qnativesocketengine.cpp:210
+#: network/socket/qnativesocketengine.cpp:226
 msgctxt "QNativeSocketEngine"
 msgid "Host unreachable"
 msgstr ""
 
-#: network/qnativesocketengine.cpp:213
+#: network/socket/qnativesocketengine.cpp:229
 msgctxt "QNativeSocketEngine"
 msgid "Network unreachable"
 msgstr ""
 
-#: network/qnativesocketengine.cpp:216
+#: network/socket/qnativesocketengine.cpp:232
 #, fuzzy
 #| msgid "Permission denied."
 msgctxt "QNativeSocketEngine"
 msgid "Permission denied"
 msgstr "అనుమతి తిరస్కరించబడినది"
 
-#: network/qnativesocketengine.cpp:219
+#: network/socket/qnativesocketengine.cpp:235
 #, fuzzy
 #| msgctxt "Socket error code ConnectionTimedOut"
 #| msgid "connection timed out"
@@ -2896,7 +4395,7 @@ msgctxt "QNativeSocketEngine"
 msgid "Connection timed out"
 msgstr "అనుసంధానం సమయం అయిపొయినది"
 
-#: network/qnativesocketengine.cpp:222
+#: network/socket/qnativesocketengine.cpp:238
 #, fuzzy
 #| msgctxt "Socket error code ConnectionRefused"
 #| msgid "connection actively refused"
@@ -2904,7 +4403,7 @@ msgctxt "QNativeSocketEngine"
 msgid "Connection refused"
 msgstr "అనుసంధానం నిరకరింపబడినది"
 
-#: network/qnativesocketengine.cpp:225
+#: network/socket/qnativesocketengine.cpp:241
 #, fuzzy
 #| msgctxt "Socket error code AddressInUse"
 #| msgid "address already in use"
@@ -2912,51 +4411,51 @@ msgctxt "QNativeSocketEngine"
 msgid "The bound address is already in use"
 msgstr "చిరునామా వాడుకలో వుంది"
 
-#: network/qnativesocketengine.cpp:228
+#: network/socket/qnativesocketengine.cpp:244
 #, fuzzy
 #| msgid "There is no resource available!"
 msgctxt "QNativeSocketEngine"
 msgid "The address is not available"
 msgstr "ఏ వనరు అందుబాటులో లేదు!"
 
-#: network/qnativesocketengine.cpp:231
+#: network/socket/qnativesocketengine.cpp:247
 msgctxt "QNativeSocketEngine"
 msgid "The address is protected"
 msgstr ""
 
-#: network/qnativesocketengine.cpp:234
+#: network/socket/qnativesocketengine.cpp:250
 msgctxt "QNativeSocketEngine"
 msgid "Datagram was too large to send"
 msgstr ""
 
-#: network/qnativesocketengine.cpp:237
+#: network/socket/qnativesocketengine.cpp:253
 msgctxt "QNativeSocketEngine"
 msgid "Unable to send a message"
 msgstr ""
 
-#: network/qnativesocketengine.cpp:240
+#: network/socket/qnativesocketengine.cpp:256
 msgctxt "QNativeSocketEngine"
 msgid "Unable to receive a message"
 msgstr ""
 
-#: network/qnativesocketengine.cpp:243
+#: network/socket/qnativesocketengine.cpp:259
 msgctxt "QNativeSocketEngine"
 msgid "Unable to write"
 msgstr ""
 
-#: network/qnativesocketengine.cpp:246
+#: network/socket/qnativesocketengine.cpp:262
 #, fuzzy
 #| msgid "New"
 msgctxt "QNativeSocketEngine"
 msgid "Network error"
 msgstr "కొత్త"
 
-#: network/qnativesocketengine.cpp:249
+#: network/socket/qnativesocketengine.cpp:265
 msgctxt "QNativeSocketEngine"
 msgid "Another socket is already listening on the same port"
 msgstr ""
 
-#: network/qnativesocketengine.cpp:252
+#: network/socket/qnativesocketengine.cpp:268
 #, fuzzy
 #| msgctxt "Socket error code WouldBlock"
 #| msgid "operation would block"
@@ -2964,7 +4463,12 @@ msgctxt "QNativeSocketEngine"
 msgid "Operation on non-socket"
 msgstr "కార్యం అడ్డు పడగలదు"
 
-#: network/qnativesocketengine.cpp:255
+#: network/socket/qnativesocketengine.cpp:271
+msgctxt "QNativeSocketEngine"
+msgid "The proxy type is invalid for this operation"
+msgstr ""
+
+#: network/socket/qnativesocketengine.cpp:274
 #, fuzzy
 #| msgctxt "QFile"
 #| msgid "Unknown error"
@@ -2972,7 +4476,7 @@ msgctxt "QNativeSocketEngine"
 msgid "Unknown error"
 msgstr "తెలియని దోషము"
 
-#: network/qabstractsocket.cpp:726
+#: network/socket/qabstractsocket.cpp:741
 #, fuzzy
 #| msgctxt "Socket error code NotBound"
 #| msgid "socket is not bound"
@@ -2980,7 +4484,8 @@ msgctxt "QAbstractSocket"
 msgid "Host not found"
 msgstr "సాకెట్ ముందే జతపరచడలేదు"
 
-#: network/qabstractsocket.cpp:777 network/qabstractsocket.cpp:785
+#: network/socket/qabstractsocket.cpp:792
+#: network/socket/qabstractsocket.cpp:800
 #, fuzzy
 #| msgctxt "Socket error code ConnectionRefused"
 #| msgid "connection actively refused"
@@ -2988,193 +4493,698 @@ msgctxt "QAbstractSocket"
 msgid "Connection refused"
 msgstr "అనుసంధానం నిరకరింపబడినది"
 
-#: network/qabstractsocket.cpp:1473
+#: network/socket/qabstractsocket.cpp:1497
 #, fuzzy
 #| msgctxt "Socket error code Timeout"
 #| msgid "timed operation timed out"
 msgid "Socket operation timed out"
 msgstr "సమయపు కార్యానికి సమయం అయిపొయినది"
 
-#: network/qabstractsocket.cpp:1856
+#: network/socket/qabstractsocket.cpp:1876
 #, fuzzy
 #| msgctxt "Socket error code NotBound"
 #| msgid "socket is not bound"
 msgid "Socket is not connected"
 msgstr "సాకెట్ ముందే జతపరచడలేదు"
 
-#: plugins/accessible/compat/q3complexwidgets.cpp:239
+#: 3rdparty/kdebase/runtime/phonon/gstreamer/mediaobject.cpp:80
+msgid ""
+"Cannot start playback. \n"
+"\n"
+"Check your Gstreamer installation and make sure you \n"
+"have libgstreamer-plugins-base installed."
+msgstr ""
+
+#: 3rdparty/kdebase/runtime/phonon/gstreamer/mediaobject.cpp:169
+#, fuzzy, qt-format
+#| msgctxt "1: the unknown socket address family number"
+#| msgid "Unknown family %1"
+msgid "Unknown media format: %1"
+msgstr "%1 తెలియని కుటుంబం"
+
+#: 3rdparty/kdebase/runtime/phonon/gstreamer/mediaobject.cpp:699
+msgid "Unable to flush media pipeline"
+msgstr ""
+
+#: 3rdparty/kdebase/runtime/phonon/gstreamer/mediaobject.cpp:738
+#, fuzzy
+#| msgid "Could not find service '%1'."
+msgid "Could not decode URL."
+msgstr "'%1' సేవ కనపడలేదు."
+
+#: 3rdparty/kdebase/runtime/phonon/gstreamer/mediaobject.cpp:747
+#, fuzzy
+#| msgid "Could not find service '%1'."
+msgid "Could not open file."
+msgstr "'%1' సేవ కనపడలేదు."
+
+#: 3rdparty/kdebase/runtime/phonon/gstreamer/mediaobject.cpp:754
+msgid "Source type invalid"
+msgstr ""
+
+#: 3rdparty/kdebase/runtime/phonon/gstreamer/mediaobject.cpp:759
+#, fuzzy
+#| msgctxt "QFile"
+#| msgid "Could not read from the file"
+msgid "Could not open stream."
+msgstr "దస్త్రం నుంచి చదవలేకపోతున్నా"
+
+#: 3rdparty/kdebase/runtime/phonon/gstreamer/mediaobject.cpp:767
+#, fuzzy
+#| msgid "requested socket type not supported"
+msgid "Source type not supported"
+msgstr "మనవి చెయబడిన సాకెట్ రకము కొరకు సహాయంలేదు"
+
+#: 3rdparty/kdebase/runtime/phonon/gstreamer/mediaobject.cpp:787
+#, fuzzy
+#| msgid "Could not find service '%1'."
+msgid "Could not load source"
+msgstr "'%1' సేవ కనపడలేదు."
+
+#: 3rdparty/kdebase/runtime/phonon/gstreamer/backend.cpp:184
+msgid ""
+"Warning: You do not seem to have the package gstreamer0.10-plugins-good "
+"installed.\n"
+"          Some video features have been disabled."
+msgstr ""
+
+#: 3rdparty/kdebase/runtime/phonon/gstreamer/backend.cpp:189
+msgid ""
+"Warning: You do not seem to have the base GStreamer plugins installed.\n"
+"          All audio and video support has been disabled"
+msgstr ""
+
+#: 3rdparty/kdelibs/phonon/volumeslider.cpp:39
+#: 3rdparty/kdelibs/phonon/volumeslider.cpp:55
+#: 3rdparty/kdelibs/phonon/volumeslider.cpp:180
+#: 3rdparty/kdelibs/phonon/volumeslider.cpp:195
+#, fuzzy, qt-format
+#| msgctxt "QAccel"
+#| msgid "Volume Up"
+msgid "Volume: %1%"
+msgstr "శబ్డం పెంచు"
+
+#: 3rdparty/kdelibs/phonon/volumeslider.cpp:41
+#: 3rdparty/kdelibs/phonon/volumeslider.cpp:57
+#: 3rdparty/kdelibs/phonon/volumeslider.cpp:109
+#, qt-format
+msgid ""
+"Use this slider to adjust the volume. The leftmost position is 0%, the "
+"rightmost is %1%"
+msgstr ""
+
+#: 3rdparty/kdelibs/phonon/volumeslider.cpp:175
+msgid "Muted"
+msgstr ""
+
+#: 3rdparty/kdelibs/phonon/audiooutput.cpp:309
+#, qt-format
+msgid ""
+"<html>The audio playback device <b>%1</b> does not work.<br/>Falling back to "
+"<b>%2</b>.</html>"
+msgstr ""
+
+#: 3rdparty/kdelibs/phonon/audiooutput.cpp:314
+#, qt-format
+msgid ""
+"<html>Switching to the audio playback device <b>%1</b><br/>which just became "
+"available and has higher preference.</html>"
+msgstr ""
+
+#: 3rdparty/kdelibs/phonon/audiooutput.cpp:317
+#, qt-format
+msgid "Revert back to device '%1'"
+msgstr ""
+
+#: 3rdparty/kdelibs/phonon/phononnamespace.cpp:41
+#, fuzzy
+#| msgid "Configure &Notifications..."
+msgctxt "Phonon::"
+msgid "Notifications"
+msgstr "(&N) ప్రకటనలను అమర్చు..."
+
+#: 3rdparty/kdelibs/phonon/phononnamespace.cpp:43
+msgctxt "Phonon::"
+msgid "Music"
+msgstr ""
+
+#: 3rdparty/kdelibs/phonon/phononnamespace.cpp:45
+#, fuzzy
+#| msgid "Video"
+msgctxt "Phonon::"
+msgid "Video"
+msgstr "వీడియో"
+
+#: 3rdparty/kdelibs/phonon/phononnamespace.cpp:47
+#, fuzzy
+#| msgid "Configuration"
+msgctxt "Phonon::"
+msgid "Communication"
+msgstr "అమరిక"
+
+#: 3rdparty/kdelibs/phonon/phononnamespace.cpp:49
+#, fuzzy
+#| msgid "&Game"
+msgctxt "Phonon::"
+msgid "Games"
+msgstr "(&G) ఆట"
+
+#: 3rdparty/kdelibs/phonon/phononnamespace.cpp:51
+msgctxt "Phonon::"
+msgid "Accessibility"
+msgstr ""
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:41
+#, fuzzy
+#| msgid "Submit"
+msgctxt "default label for Submit buttons in forms on web pages"
+msgid "Submit"
+msgstr "అందించు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:46
+#, fuzzy
+#| msgid "Submit"
+msgctxt ""
+"Submit (input element) alt text for <input> elements with no alt, title, or "
+"value"
+msgid "Submit"
+msgstr "అందించు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:51
+#, fuzzy
+#| msgid "&Reset"
+msgctxt "default label for Reset buttons in forms on web pages"
+msgid "Reset"
+msgstr "(&R) పున: ప్రారంభము"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:61
+msgctxt ""
+"text that appears at the start of nearly-obsolete web pages in the form of a "
+"'searchable index'"
+msgid "Searchable Index"
+msgstr ""
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:66
+#, fuzzy
+#| msgid "Choose..."
+msgctxt "title for file button used in HTML forms"
+msgid "Choose File"
+msgstr "ఎంపిక..."
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:71
+#, fuzzy
+#| msgid "No provider selected."
+msgctxt ""
+"text to display in file button used in HTML forms when no file is selected"
+msgid "No file selected"
+msgstr "ఏ ఒక సిద్దంచెసేవారినీ ఎన్నుకోలేదు."
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:76
+#, fuzzy
+#| msgid "Open in New &Window"
+msgctxt "Open in New Window context menu item"
+msgid "Open in New Window"
+msgstr "(&W) కొత్త విండొలో తెరువు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:81
+#, fuzzy
+#| msgid "&Save Link As..."
+msgctxt "Download Linked File context menu item"
+msgid "Save Link..."
+msgstr "(&S) లింకును ఇలా దాచు..."
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:86
+#, fuzzy
+#| msgid "Copy &Link Address"
+msgctxt "Copy Link context menu item"
+msgid "Copy Link"
+msgstr "(&L) లింకు చిరునామాను నకలు చేయి"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:91
+#, fuzzy
+#| msgid "Copy Image"
+msgctxt "Open Image in New Window context menu item"
+msgid "Open Image"
+msgstr "చిత్రం ను నకలు చేయి"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:96
+#, fuzzy
+#| msgid "Save Image As"
+msgctxt "Download Image context menu item"
+msgid "Save Image"
+msgstr "చిత్రాన్ని ఇలా దాచు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:101
+#, fuzzy
+#| msgid "Copy Image"
+msgctxt "Copy Link context menu item"
+msgid "Copy Image"
+msgstr "చిత్రం ను నకలు చేయి"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:106
+#, fuzzy
+#| msgid "Open a File"
+msgctxt "Open Frame in New Window context menu item"
+msgid "Open Frame"
+msgstr "దస్త్రం తెరువండి"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:111
+#, fuzzy
+#| msgid "Copy"
+msgctxt "Copy context menu item"
+msgid "Copy"
+msgstr "నకలు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:116
+#, fuzzy
+#| msgid "Back"
+msgctxt "Back context menu item"
+msgid "Go Back"
+msgstr "వెనుకకు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:121
+#, fuzzy
+#| msgid "Forward"
+msgctxt "Forward context menu item"
+msgid "Go Forward"
+msgstr "ముందుకు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:126
+#, fuzzy
+#| msgid "Stop"
+msgctxt "Stop context menu item"
+msgid "Stop"
+msgstr "ఆగు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:131
+#, fuzzy
+#| msgid "Reload"
+msgctxt "Reload context menu item"
+msgid "Reload"
+msgstr "తిరిగి ఎక్కించు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:136
+#, fuzzy
+#| msgid "Cut"
+msgctxt "Cut context menu item"
+msgid "Cut"
+msgstr "కత్తిరించు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:141
+#, fuzzy
+#| msgid "Paste"
+msgctxt "Paste context menu item"
+msgid "Paste"
+msgstr "అతికించు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:146
+#, fuzzy
+#| msgid "No keys were found."
+msgctxt "No Guesses Found context menu item"
+msgid "No Guesses Found"
+msgstr "ఎలాంటి కీ లూ కనపడలేదు."
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:151
+#, fuzzy
+#| msgid "Ignore"
+msgctxt "Ignore Spelling context menu item"
+msgid "Ignore"
+msgstr "విస్మరించు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:156
+#, fuzzy
+#| msgid "<< Add to Dictionary"
+msgctxt "Learn Spelling context menu item"
+msgid "Add To Dictionary"
+msgstr "<< నిఘంటువులో చేర్చుము"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:161
+msgctxt "Search The Web context menu item"
+msgid "Search The Web"
+msgstr ""
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:166
+#, fuzzy
+#| msgid "<< Add to Dictionary"
+msgctxt "Look Up in Dictionary context menu item"
+msgid "Look Up In Dictionary"
+msgstr "<< నిఘంటువులో చేర్చుము"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:171
+#, fuzzy
+#| msgctxt "QAccel"
+#| msgid "Open URL"
+msgctxt "Open Link context menu item"
+msgid "Open Link"
+msgstr "యూఆర్ ఎల్ తెరువు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:176
+#, fuzzy
+#| msgid "Ignore"
+msgctxt "Ignore Grammar context menu item"
+msgid "Ignore"
+msgstr "విస్మరించు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:181
+#, fuzzy
+#| msgid "&Spelling..."
+msgctxt "Spelling and Grammar context sub-menu item"
+msgid "Spelling"
+msgstr "(&S) వర్ణక్రమము..."
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:186
+msgctxt "menu item title"
+msgid "Show Spelling and Grammar"
+msgstr ""
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:187
+msgctxt "menu item title"
+msgid "Hide Spelling and Grammar"
+msgstr ""
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:192
+#, fuzzy
+#| msgid "Check Spelling"
+msgctxt "Check spelling context menu item"
+msgid "Check Spelling"
+msgstr "అచ్చుతప్పులు సరిచూడు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:197
+#, fuzzy
+#| msgid "Check Spelling"
+msgctxt "Check spelling while typing context menu item"
+msgid "Check Spelling While Typing"
+msgstr "అచ్చుతప్పులు సరిచూడు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:202
+#, fuzzy
+#| msgid "Check Spelling"
+msgctxt "Check grammar with spelling context menu item"
+msgid "Check Grammar With Spelling"
+msgstr "అచ్చుతప్పులు సరిచూడు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:207
+#, fuzzy
+#| msgid "Fonts"
+msgctxt "Font context sub-menu item"
+msgid "Fonts"
+msgstr "అక్షర రూపములు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:212
+#, fuzzy
+#| msgid "Bold"
+msgctxt "Bold context menu item"
+msgid "Bold"
+msgstr "లావుగా"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:217
+#, fuzzy
+#| msgid "Italic"
+msgctxt "Italic context menu item"
+msgid "Italic"
+msgstr "ఇటాలిక్స్"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:222
+#, fuzzy
+#| msgid "&Underline"
+msgctxt "Underline context menu item"
+msgid "Underline"
+msgstr "(&U) క్రింది గీత"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:227
+msgctxt "Outline context menu item"
+msgid "Outline"
+msgstr ""
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:232
+#, fuzzy
+#| msgid "Description:"
+msgctxt "Writing direction context sub-menu item"
+msgid "Direction"
+msgstr "వర్ణన:"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:237
+#, fuzzy
+#| msgid "Default"
+msgctxt "Default writing direction context menu item"
+msgid "Default"
+msgstr "అప్రమేయం"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:242
+msgctxt "Left to Right context menu item"
+msgid "LTR"
+msgstr ""
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:247
+#, fuzzy
+#| msgid "TLS"
+msgctxt "Right to Left context menu item"
+msgid "RTL"
+msgstr "టిఎల్ఎస్"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:252
+#, fuzzy
+#| msgid "Insert"
+msgctxt "Inspect Element context menu item"
+msgid "Inspect"
+msgstr "చేర్చు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:257
+#, fuzzy
+#| msgid "Properties"
+msgctxt ""
+"Label for only item in menu that appears when clicking on the search field "
+"image, when no searches have been performed"
+msgid "No recent searches"
+msgstr "గుణములు"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:262
+#, fuzzy
+#| msgid "Internet Search"
+msgctxt ""
+"label for first item in the menu that appears when clicking on the search "
+"field image, used as embedded menu title"
+msgid "Recent searches"
+msgstr "ఇంటర్ నెట్ అన్వెషణ"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:267
+#, fuzzy
+#| msgid "Clear Search"
+msgctxt "menu item in Recent Searches menu that empties menu's contents"
+msgid "Clear recent searches"
+msgstr "అన్వేషణను చెరపివేయి"
+
+#: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:297
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "Unknown filesize FTP directory listing item"
+msgid "Unknown"
+msgstr "తెలియని"
+
+#: 3rdparty/webkit/WebKit/qt/QtLauncher/main.cpp:329
+#, fuzzy
+#| msgid "Print"
+msgid "Print"
+msgstr "ప్రచురణ"
+
+#: 3rdparty/webkit/WebKit/qt/QtLauncher/main.cpp:334
+#, fuzzy
+#| msgctxt "QFont"
+#| msgid "Latin"
+msgid "Location:"
+msgstr "లాటిన్"
+
+#: 3rdparty/webkit/WebKit/qt/WebCoreSupport/InspectorClientQt.cpp:177
+#, qt-format
+msgctxt "QWebPage"
+msgid "Web Inspector - %2"
+msgstr ""
+
+#: plugins/accessible/compat/q3complexwidgets.cpp:248
 #, fuzzy
 #| msgid "SysReq"
 msgid "System"
 msgstr "SysReq"
 
-#: plugins/accessible/compat/q3complexwidgets.cpp:242
+#: plugins/accessible/compat/q3complexwidgets.cpp:251
 #, fuzzy
 #| msgid "Restore"
 msgid "Restore up"
 msgstr "పునరుద్ధరణ"
 
-#: plugins/accessible/compat/q3complexwidgets.cpp:246
+#: plugins/accessible/compat/q3complexwidgets.cpp:255
 #, fuzzy
 #| msgid "Restore Down"
 msgid "Restore down"
 msgstr "కింద పునరుద్ధరించుము"
 
-#: plugins/accessible/compat/q3complexwidgets.cpp:247
-msgid "Maximize"
-msgstr "పెద్దది చెయండి"
-
-#: plugins/accessible/compat/q3complexwidgets.cpp:267
+#: plugins/accessible/compat/q3complexwidgets.cpp:276
 msgid "Contains commands to manipulate the window"
 msgstr ""
 
-#: plugins/accessible/compat/q3complexwidgets.cpp:270
+#: plugins/accessible/compat/q3complexwidgets.cpp:279
 msgid "Puts a minimized back to normal"
 msgstr ""
 
-#: plugins/accessible/compat/q3complexwidgets.cpp:271
+#: plugins/accessible/compat/q3complexwidgets.cpp:280
 msgid "Moves the window out of the way"
 msgstr ""
 
-#: plugins/accessible/compat/q3complexwidgets.cpp:274
+#: plugins/accessible/compat/q3complexwidgets.cpp:283
 msgid "Puts a maximized window back to normal"
 msgstr ""
 
-#: plugins/accessible/compat/q3complexwidgets.cpp:275
+#: plugins/accessible/compat/q3complexwidgets.cpp:284
 msgid "Makes the window full screen"
 msgstr ""
 
-#: plugins/accessible/compat/q3complexwidgets.cpp:277
+#: plugins/accessible/compat/q3complexwidgets.cpp:286
 #, fuzzy
 #| msgid "Close window?"
 msgid "Closes the window"
 msgstr "విండొ మూసివేయవచ్చునా?"
 
-#: plugins/accessible/compat/q3complexwidgets.cpp:279
+#: plugins/accessible/compat/q3complexwidgets.cpp:288
 msgid "Displays the name of the window and contains controls to manipulate it"
 msgstr ""
 
-#: plugins/accessible/widgets/simplewidgets.cpp:103
-#: plugins/accessible/widgets/simplewidgets.cpp:371
-#: plugins/accessible/widgets/simplewidgets.cpp:379
-#: plugins/accessible/widgets/complexwidgets.cpp:1430
-#: plugins/accessible/widgets/complexwidgets.cpp:1495
-#: plugins/accessible/widgets/qaccessiblemenu.cpp:150
-#: plugins/accessible/widgets/qaccessiblemenu.cpp:369
+#: plugins/accessible/widgets/simplewidgets.cpp:112
+#: plugins/accessible/widgets/simplewidgets.cpp:380
+#: plugins/accessible/widgets/simplewidgets.cpp:388
+#: plugins/accessible/widgets/complexwidgets.cpp:1737
+#: plugins/accessible/widgets/complexwidgets.cpp:1802
+#: plugins/accessible/widgets/qaccessiblemenu.cpp:160
+#: plugins/accessible/widgets/qaccessiblemenu.cpp:379
 msgid "Open"
 msgstr "తెరువండి"
 
-#: plugins/accessible/widgets/simplewidgets.cpp:107
+#: plugins/accessible/widgets/simplewidgets.cpp:116
 #, fuzzy
 #| msgid "Undock"
 msgid "Uncheck"
 msgstr "విడగొట్టు"
 
-#: plugins/accessible/widgets/simplewidgets.cpp:110
-#: plugins/accessible/widgets/simplewidgets.cpp:115
+#: plugins/accessible/widgets/simplewidgets.cpp:119
+#: plugins/accessible/widgets/simplewidgets.cpp:124
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Cherokee"
 msgid "Check"
 msgstr "చెరోకీ"
 
-#: plugins/accessible/widgets/simplewidgets.cpp:111
+#: plugins/accessible/widgets/simplewidgets.cpp:120
 msgid "Toggle"
 msgstr ""
 
-#: plugins/accessible/widgets/simplewidgets.cpp:369
-#: plugins/accessible/widgets/simplewidgets.cpp:375
+#: plugins/accessible/widgets/simplewidgets.cpp:378
+#: plugins/accessible/widgets/simplewidgets.cpp:384
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Less"
 msgid "Press"
 msgstr "తక్కువ"
 
-#: plugins/accessible/widgets/rangecontrols.cpp:143
-#: plugins/accessible/widgets/rangecontrols.cpp:410
+#: plugins/accessible/widgets/rangecontrols.cpp:153
+#: plugins/accessible/widgets/rangecontrols.cpp:420
 #, fuzzy
 #| msgid "Mor"
 msgid "More"
 msgstr "మెర్"
 
-#: plugins/accessible/widgets/rangecontrols.cpp:145
-#: plugins/accessible/widgets/rangecontrols.cpp:412
+#: plugins/accessible/widgets/rangecontrols.cpp:155
+#: plugins/accessible/widgets/rangecontrols.cpp:422
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Less"
 msgid "Less"
 msgstr "తక్కువ"
 
-#: plugins/accessible/widgets/rangecontrols.cpp:557
-#: plugins/accessible/widgets/rangecontrols.cpp:714
+#: plugins/accessible/widgets/rangecontrols.cpp:567
+#: plugins/accessible/widgets/rangecontrols.cpp:724
 msgid "Position"
 msgstr "స్థానము"
 
-#: plugins/accessible/widgets/rangecontrols.cpp:561
+#: plugins/accessible/widgets/rangecontrols.cpp:571
 #, fuzzy
 #| msgid "Move &Down"
 msgid "Line down"
 msgstr "(&D) క్రిందకి జరపండి"
 
-#: plugins/accessible/widgets/rangecontrols.cpp:943
+#: plugins/accessible/widgets/rangecontrols.cpp:953
 #, fuzzy
 #| msgid "Disallow"
 msgid "QDial"
 msgstr "నిషెధించు"
 
-#: plugins/accessible/widgets/rangecontrols.cpp:945
+#: plugins/accessible/widgets/rangecontrols.cpp:955
 msgid "SpeedoMeter"
 msgstr ""
 
-#: plugins/accessible/widgets/rangecontrols.cpp:947
+#: plugins/accessible/widgets/rangecontrols.cpp:957
 msgid "SliderHandle"
 msgstr ""
 
-#: plugins/accessible/widgets/complexwidgets.cpp:1169
+#: plugins/accessible/widgets/complexwidgets.cpp:1476
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Scroll Lock"
 msgid "Scroll Left"
 msgstr "Scroll Lock"
 
-#: plugins/accessible/widgets/complexwidgets.cpp:1169
+#: plugins/accessible/widgets/complexwidgets.cpp:1476
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Scroll Lock"
 msgid "Scroll Right"
 msgstr "Scroll Lock"
 
-#: plugins/accessible/widgets/qaccessiblewidgets.cpp:1225
+#: plugins/accessible/widgets/qaccessiblewidgets.cpp:1235
 msgid "Dock"
 msgstr "జతపరచు"
 
-#: plugins/accessible/widgets/qaccessiblewidgets.cpp:1226
+#: plugins/accessible/widgets/qaccessiblewidgets.cpp:1236
 #, fuzzy
 #| msgctxt "min toolbar"
 #| msgid "Flat"
 msgid "Float"
 msgstr "చదును"
 
-#: plugins/accessible/widgets/qaccessiblemenu.cpp:152
-#: plugins/accessible/widgets/qaccessiblemenu.cpp:371
-#: plugins/accessible/widgets/qaccessiblemenu.cpp:422
+#: plugins/accessible/widgets/qaccessiblemenu.cpp:162
+#: plugins/accessible/widgets/qaccessiblemenu.cpp:381
+#: plugins/accessible/widgets/qaccessiblemenu.cpp:432
 msgid "Execute"
 msgstr "నడుపు"
 
-#: plugins/inputmethods/imsw-multi/qmultiinputcontext.cpp:78
+#: plugins/inputmethods/imsw-multi/qmultiinputcontext.cpp:87
 #, fuzzy
 #| msgid "Select All"
 msgid "Select IM"
 msgstr "అన్నిటినీ ఎంచుకొనుము"
 
-#: plugins/inputmethods/imsw-multi/qmultiinputcontextplugin.cpp:89
+#: plugins/inputmethods/imsw-multi/qmultiinputcontextplugin.cpp:97
 msgid "Multiple input method switcher"
 msgstr ""
 
-#: plugins/inputmethods/imsw-multi/qmultiinputcontextplugin.cpp:96
+#: plugins/inputmethods/imsw-multi/qmultiinputcontextplugin.cpp:104
 msgid ""
 "Multiple input method switcher that uses the context menu of the text widgets"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Orientation"
+#~ msgid "Orientation:"
+#~ msgstr "దిశ"
+
+#, fuzzy
+#~| msgid "resource"
+#~ msgid "Paper source:"
+#~ msgstr "వనరు"
+
+#, fuzzy
+#~| msgid "OK"
+#~ msgctxt "QDialogButtonBox"
+#~ msgid "OK"
+#~ msgstr "సరే"
 
 #, fuzzy
 #~| msgid "Invalid reference base"
@@ -3293,9 +5303,6 @@ msgstr ""
 
 #~ msgid "... the <b>misspelled</b> word shown in context ..."
 #~ msgstr "... ఈ సందర్భం లోని పదం లొ <b>అక్షర దొషాలు</b> ..."
-
-#~ msgid "<< Add to Dictionary"
-#~ msgstr "<< నిఘంటువులో చేర్చుము"
 
 #~ msgid "Suggestion List"
 #~ msgstr "సూచించబడిన జాబితా"
@@ -3571,9 +5578,6 @@ msgstr ""
 #~ msgid "Syntax error"
 #~ msgstr "వ్యాకరణ దొషము"
 
-#~ msgid "Type error"
-#~ msgstr "వర్గీకరణ దోషము"
-
 #~ msgid "URI error"
 #~ msgstr "యూఆర్ఐ దోషము"
 
@@ -3687,9 +5691,6 @@ msgstr ""
 
 #~ msgid "Do you want to reload KDE configuration?"
 #~ msgstr "కెడిఈ అమరికణూ మళ్లి ఎక్కించమటారా?"
-
-#~ msgid "Reload"
-#~ msgstr "తిరిగి ఎక్కించు"
 
 #~ msgid "Do Not Reload"
 #~ msgstr "మళ్లి ఎక్కించవద్దు"
@@ -4211,9 +6212,6 @@ msgstr ""
 #~ msgid "Sunday"
 #~ msgstr "ఆదివారం"
 
-#~ msgid "The library %1 does not offer an %2 function."
-#~ msgstr "లైబ్రరి %1లో %2 ఫంక్షన్ లేదు."
-
 #~ msgid "The library %1 does not offer a KDE compatible factory."
 #~ msgstr "%1 లైబ్రరిలో కెడిఈ కి సరిపడె ఫేక్టరి లేదు"
 
@@ -4238,10 +6236,6 @@ msgstr ""
 
 #~ msgid "Please contact your system administrator."
 #~ msgstr "మి వ్యవస్థ పాలకుడిని కలవండి"
-
-#~ msgctxt "1: the unknown socket address family number"
-#~ msgid "Unknown family %1"
-#~ msgstr "%1 తెలియని కుటుంబం"
 
 #~ msgctxt "Socket error code NoError"
 #~ msgid "no error"
@@ -4314,14 +6308,8 @@ msgstr ""
 #~ msgid "requested family not supported for this host name"
 #~ msgstr "ఈ హోస్ట్ పేరునకు మనవి చెయబడిన కుటుంబం కొరకు సహాయంలేదు"
 
-#~ msgid "requested family not supported"
-#~ msgstr "మనవి చెయబడిన కుటుంబం కొరకు సహాయంలేదు"
-
 #~ msgid "requested service not supported for this socket type"
 #~ msgstr "ఈ సాకెట్ రకమునకు మనవి చెయబడిన సేవ కొరకు సహాయంలేదు"
-
-#~ msgid "unknown error"
-#~ msgstr "తెలియని దోషము"
 
 #~ msgctxt "1: the i18n'ed system error code, from errno"
 #~ msgid "system error: %1"
@@ -4377,9 +6365,6 @@ msgstr ""
 
 #~ msgid "Please use http://bugs.kde.org to report bugs.\n"
 #~ msgstr "తప్పులను తెలియచేయుటకు http://bugs.kde.orgని వాడండి.\n"
-
-#~ msgid "Please report bugs to %1.\n"
-#~ msgstr "%1 కు తప్పులను తెలియచేయండి.\n"
 
 #~ msgid "Use --help to get a list of available command line options."
 #~ msgstr "అందుబాటులొ వున్న కమేండ్ లైన్ ఐచ్చికముల జాబితా తెలుసుకొవటానికి --help వాడండి"
@@ -4619,11 +6604,6 @@ msgstr ""
 #~ msgstr "అనువాదము"
 
 #, fuzzy
-#~| msgid "Description:"
-#~ msgid "Description"
-#~ msgstr "వర్ణన:"
-
-#, fuzzy
 #~| msgid "Page loaded."
 #~ msgid "Payload"
 #~ msgstr "పుట ఎక్కించబడినది."
@@ -4822,11 +6802,6 @@ msgstr ""
 #~ msgid "Download New Stuff"
 #~ msgstr "కొత్త వాటిని డౌన్ లోడ్ చెయి"
 
-#, fuzzy
-#~| msgid "Version"
-#~ msgid "Version %1"
-#~ msgstr "వివరణం"
-
 #~ msgid "Hot New Stuff Providers"
 #~ msgstr "కొత్తవాటిని సిద్దంచెసేవారు"
 
@@ -4929,27 +6904,12 @@ msgstr ""
 #~ msgstr "వర్ణన:"
 
 #, fuzzy
-#~| msgid "Open a File"
-#~ msgid "Open &File"
-#~ msgstr "దస్త్రం తెరువండి"
-
-#, fuzzy
 #~| msgid "Orientation"
 #~ msgid "Open &Destination"
 #~ msgstr "దిశ"
 
-#, fuzzy
-#~| msgid "Open file"
-#~ msgid "%1 file"
-#~ msgid_plural "%1 files"
-#~ msgstr[0] "దస్త్రం తెరువండి"
-#~ msgstr[1] "దస్త్రం తెరువండి"
-
 #~ msgid "&Minimize"
 #~ msgstr "(&M) చిన్నది చెయండి"
-
-#~ msgid "&OK"
-#~ msgstr "(&O) సరే"
 
 #~ msgid "&Discard"
 #~ msgstr "(&D) విస్మరించు"
@@ -5087,15 +7047,6 @@ msgstr ""
 
 #~ msgid "Front"
 #~ msgstr "ముందర"
-
-#~ msgid "Copy"
-#~ msgstr "నకలు"
-
-#~ msgid "Paste"
-#~ msgstr "అతికించు"
-
-#~ msgid "Cut"
-#~ msgstr "కత్తిరించు"
 
 #~ msgid ""
 #~ "You reached the end of the list\n"
@@ -5389,10 +7340,6 @@ msgstr ""
 #~ "నింపవసివుంటుది.\n"
 #~ "పైన చూపించబడిన సమాచారం ఆ సెర్వర్ కు పంపబడును."
 
-#~ msgctxt "unknown program name"
-#~ msgid "unknown"
-#~ msgstr "తెలియని"
-
 #~ msgid "Close Message"
 #~ msgstr "సందేశము మూసివేయుము"
 
@@ -5416,9 +7363,6 @@ msgstr ""
 #~ msgctxt "Opposite to Previous"
 #~ msgid "&Next"
 #~ msgstr "(&N) తరువాత"
-
-#~ msgid "Choose..."
-#~ msgstr "ఎంపిక..."
 
 #~ msgid "Click to select a font"
 #~ msgstr "అక్షర రూపాన్ని ఎంచుకొనేందుకు క్లిక్ చెయండి"
@@ -5732,12 +7676,6 @@ msgstr ""
 #~ msgid "Add Bookmark"
 #~ msgstr "గుర్తు చేర్చుము"
 
-#~ msgid "Zoom In"
-#~ msgstr "సమీప వీక్షణం"
-
-#~ msgid "Zoom Out"
-#~ msgstr "దూర వీక్షణం"
-
 #~ msgid "Full Screen Mode"
 #~ msgstr "పూర్తి తెర స్థితి"
 
@@ -5789,19 +7727,11 @@ msgstr ""
 #~ msgid "The style %1 was not found\n"
 #~ msgstr "%1 శైలి కనపడలేదు\n"
 
-#, fuzzy
-#~| msgid "Properties"
-#~ msgid "No entries"
-#~ msgstr "గుణములు"
-
 #~ msgid "F&ull Screen Mode"
 #~ msgstr "(&u) పూర్తి తెర స్థితి"
 
 #~ msgid "Exit F&ull Screen Mode"
 #~ msgstr "(&u) పూర్తి తెర స్థితి నుంచి బయటకు రా"
-
-#~ msgid "Default"
-#~ msgstr "అప్రమేయం"
 
 #, fuzzy
 #~| msgid "Autocorrect"
@@ -5846,9 +7776,6 @@ msgstr ""
 
 #~ msgid "Desktop %1"
 #~ msgstr "రంగస్థలం %1"
-
-#~ msgid "Check Spelling"
-#~ msgstr "అచ్చుతప్పులు సరిచూడు"
 
 #~ msgid "&Finished"
 #~ msgstr "(&F) పూర్తైనది"
@@ -5915,11 +7842,6 @@ msgstr ""
 #~| msgid "Name:"
 #~ msgid "Name: "
 #~ msgstr "పేరు:"
-
-#, fuzzy
-#~| msgid "Please enter name:"
-#~ msgid "Alias names:"
-#~ msgstr "పేరును వ్రాయండి:"
 
 #, fuzzy
 #~| msgid "Note"
@@ -6243,12 +8165,6 @@ msgstr ""
 #~ msgstr "పేజి గుర్తులు"
 
 #, fuzzy
-#~| msgctxt "QFont"
-#~| msgid "Latin"
-#~ msgid "&Location:"
-#~ msgstr "లాటిన్"
-
-#, fuzzy
 #~| msgid "Filter:"
 #~ msgid "&Filter:"
 #~ msgstr "గలని:"
@@ -6257,11 +8173,6 @@ msgstr ""
 #~| msgid "Please select type of the new resource:"
 #~ msgid "Please select the file to open."
 #~ msgstr "కొత్త వనరు యొక్క రకమును ఎంచుకొనుము."
-
-#, fuzzy
-#~| msgid "InvalidCA"
-#~ msgid "Invalid URL"
-#~ msgstr "చెల్లని సిఏ"
 
 #, fuzzy
 #~| msgid "File Error"
@@ -6392,11 +8303,6 @@ msgstr ""
 #~ msgstr "(&v) మళ్ళించు"
 
 #, fuzzy
-#~| msgid "Case &sensitive"
-#~ msgid "Case Insensitive"
-#~ msgstr "(&s) తరగతి ఆధారిత"
-
-#, fuzzy
 #~| msgid "&Send Files"
 #~ msgid "Show Hidden Files"
 #~ msgstr "(&S) దస్త్రములు పంపు"
@@ -6441,15 +8347,6 @@ msgstr ""
 #~ msgid "Copy Email Address"
 #~ msgstr "ఈమెయిల్ చిరునామాను నకలు చేయి"
 
-#~ msgid "&Save Link As..."
-#~ msgstr "(&S) లింకును ఇలా దాచు..."
-
-#~ msgid "Copy &Link Address"
-#~ msgstr "(&L) లింకు చిరునామాను నకలు చేయి"
-
-#~ msgid "Open in New &Window"
-#~ msgstr "(&W) కొత్త విండొలో తెరువు"
-
 #~ msgid "Open in &This Window"
 #~ msgstr "(&W) ఈ విండొలొనే తెరువు"
 
@@ -6480,9 +8377,6 @@ msgstr ""
 #~ msgid "Send Image..."
 #~ msgstr "చిత్రం పంపించు..."
 
-#~ msgid "Copy Image"
-#~ msgstr "చిత్రం ను నకలు చేయి"
-
 #~ msgid "View Image (%1)"
 #~ msgstr "చిత్రాన్ని (%1) చూపుము"
 
@@ -6494,9 +8388,6 @@ msgstr ""
 
 #~ msgid "Save Link As"
 #~ msgstr "లింకును ఇలా దాచు"
-
-#~ msgid "Save Image As"
-#~ msgstr "చిత్రాన్ని ఇలా దాచు"
 
 #~ msgid "Add URL to Filter"
 #~ msgstr "యు ఆర్ ఎల్ ను గలనికి కలుపు"
@@ -6572,9 +8463,6 @@ msgstr ""
 
 #~ msgid "Toggle Caret Mode"
 #~ msgstr "హంసపాదు స్థితిని మార్చు"
-
-#~ msgid "The fake user-agent '%1' is in use."
-#~ msgstr "నకిలి '%1' యూజర్-ఎజెంట్ వాడుకలో వుంది."
 
 #~ msgid "This web page contains coding errors."
 #~ msgstr "ఈ వెబ్ సైట్ లొ కొడింగ్ దొషాలు కలవు"
@@ -6662,9 +8550,6 @@ msgstr ""
 #~ msgstr ""
 #~ "<qt>ఈ అవిశ్వసనీయ పుట <BR><B>%1</B> కు లింకు చెయబడింది.<BR>మీరు దానిని అనుసరించమంటారా?"
 
-#~ msgid "Follow"
-#~ msgstr "అనుసరించు"
-
 #~ msgid "Frame Information"
 #~ msgstr "చట్రపు సమాచారం"
 
@@ -6688,12 +8573,6 @@ msgstr ""
 
 #~ msgid "&Send Email"
 #~ msgstr "(&S) ఈమెయిల్ పంపించు"
-
-#~ msgid "Submit"
-#~ msgstr "అందించు"
-
-#~ msgid "KDE"
-#~ msgstr "కెడిఈ"
 
 #~ msgid "(%1/s)"
 #~ msgstr "(%1/s)"
@@ -6940,9 +8819,6 @@ msgstr ""
 #~ msgid "Ne&ver for This Site"
 #~ msgstr "(&v) ఈ సైటుకు ఎప్పుడు వద్దు"
 
-#~ msgid "Do Not Store"
-#~ msgstr "దాచవద్దు"
-
 #~ msgid "Applet Parameters"
 #~ msgstr "అప్లెట్ పెరామీటర్లు"
 
@@ -7092,9 +8968,6 @@ msgstr ""
 
 #~ msgid "KDEInit could not launch '%1'."
 #~ msgstr "కెడిఈ '%1' ప్రారంభించలేకపొయింది ."
-
-#~ msgid "Could not find service '%1'."
-#~ msgstr "'%1' సేవ కనపడలేదు."
 
 #~ msgid "Service '%1' is malformatted."
 #~ msgstr "'%1' సేవ తప్పుగా ఫార్మేట్ చేయబడినది."
@@ -7251,14 +9124,8 @@ msgstr ""
 #~ msgid "<qt>Do you want to search the Internet for <b>%1</b>?"
 #~ msgstr "<qt><b>%1</b> కోసం ఇంటర్నెట్ లో అన్వేషించనా?"
 
-#~ msgid "Internet Search"
-#~ msgstr "ఇంటర్ నెట్ అన్వెషణ"
-
 #~ msgid "&Search"
 #~ msgstr "(&S) అన్వెషణ"
-
-#~ msgid "Untitled"
-#~ msgstr "పేరులేనిది"
 
 #~ msgid ""
 #~ "The document \"%1\" has been modified.\n"
@@ -7305,11 +9172,6 @@ msgstr ""
 #~ "<qt><p>The diagnostics is:<br>The desktop file %1 could not be found.</qt>"
 #~ msgstr "<qt><p> కారణనిర్ణయం:<br>%1 రంగస్థల దస్త్రం కనబడలేదు.</qt>"
 
-#, fuzzy
-#~| msgid "The module %1 could not be loaded."
-#~ msgid "The module %1 is disabled."
-#~ msgstr "%1 మాడ్యూల్ ఎక్కించలేకపొయాము."
-
 #~ msgid "The module %1 could not be loaded."
 #~ msgstr "%1 మాడ్యూల్ ఎక్కించలేకపొయాము."
 
@@ -7330,11 +9192,6 @@ msgstr ""
 #~ "<qt><table><tr><td><b>వర్ణన:</b></td><td>%1</td></tr><tr><td><b>మూలకర్త:</"
 #~ "b></td><td>%2</td></tr><tr><td><b>వివరణం<:</b></td><td>%3</td></"
 #~ "tr><tr><td><b>లైసెన్స్:</b></td><td>%4</td></tr></table></qt>"
-
-#, fuzzy
-#~| msgid "No provider selected."
-#~ msgid "No item selected"
-#~ msgstr "ఏ ఒక సిద్దంచెసేవారినీ ఎన్నుకోలేదు."
 
 #, fuzzy
 #~| msgid "Expand &Vertically"
@@ -7369,16 +9226,6 @@ msgstr ""
 #~| msgid "Base is not an object"
 #~ msgid "%1 is not an Object type"
 #~ msgstr "మూలం ఆబ్జెక్ట్ కాదు"
-
-#, fuzzy
-#~| msgid "There was an error loading the module."
-#~ msgid "There was an error reading the file '%1'"
-#~ msgstr "మాడ్యూల్ ఎక్కించుటలొ దొషం వచ్చింది"
-
-#, fuzzy
-#~| msgid "Could not find service '%1'."
-#~ msgid "Could not read file '%1'"
-#~ msgstr "'%1' సేవ కనపడలేదు."
 
 #, fuzzy
 #~| msgid "Unable to create file to upload."
@@ -7596,24 +9443,6 @@ msgstr ""
 #~ msgstr "వ్యాపార"
 
 #, fuzzy
-#~| msgid "Configure &Notifications..."
-#~ msgid "Notifications"
-#~ msgstr "(&N) ప్రకటనలను అమర్చు..."
-
-#~ msgid "Video"
-#~ msgstr "వీడియో"
-
-#, fuzzy
-#~| msgid "Configuration"
-#~ msgid "Communication"
-#~ msgstr "అమరిక"
-
-#, fuzzy
-#~| msgid "&Game"
-#~ msgid "Games"
-#~ msgstr "(&G) ఆట"
-
-#, fuzzy
 #~| msgid "F&ull Screen Mode"
 #~ msgid "F &ull Screen Mode"
 #~ msgstr "(&u) పూర్తి తెర స్థితి"
@@ -7785,9 +9614,6 @@ msgstr ""
 #~ msgid "Re&vert"
 #~ msgstr "(&v) మళ్ళించు"
 
-#~ msgid "Print Previe&w..."
-#~ msgstr "(&w) ప్రచురణ ముందస్తు వీక్షణం"
-
 #~ msgid "&Mail..."
 #~ msgstr "(&M) తపాలా..."
 
@@ -7836,12 +9662,6 @@ msgstr ""
 #~ msgid "&Up"
 #~ msgstr "(&U) పైకి"
 
-#~ msgid "&Previous Page"
-#~ msgstr "(&P) ముందరి పుట"
-
-#~ msgid "&Next Page"
-#~ msgstr "(&N) తరువాత పుట"
-
 #~ msgid "&Go To..."
 #~ msgstr "(&G) వెళ్ళు..."
 
@@ -7851,20 +9671,11 @@ msgstr ""
 #~ msgid "&Go to Line..."
 #~ msgstr "(&G) వరుసకు వెళ్ళు..."
 
-#~ msgid "&First Page"
-#~ msgstr "(&F) మొదటి పుట"
-
-#~ msgid "&Last Page"
-#~ msgstr "(&L) చివరి పుట"
-
 #~ msgid "&Add Bookmark"
 #~ msgstr "(&A) పేజిగుర్తు చేర్చుము"
 
 #~ msgid "&Edit Bookmarks"
 #~ msgstr "(&E) గుర్తులు మార్చుము"
-
-#~ msgid "&Spelling..."
-#~ msgstr "(&S) వర్ణక్రమము..."
 
 #~ msgid "Show &Toolbar"
 #~ msgstr "(&T) పనిముట్ల పట్టీ చూపుము"
@@ -8331,9 +10142,6 @@ msgstr ""
 #~ msgid "UNIX Sockets (specific for both current host and current user)"
 #~ msgstr "యూనిక్స్ సాకెట్లు (ప్రస్తుత హోస్ట్ మరయూ ప్రస్తుత యూజర్ కూ సంబంధించినది)"
 
-#~ msgid "%1 - unknown type\n"
-#~ msgstr "%1 - తెలియని రకం\n"
-
 #~ msgid "%1 - unknown type of userpath\n"
 #~ msgstr "%1 - తెలియని యూజర్ దారి\n"
 
@@ -8431,9 +10239,6 @@ msgstr ""
 #~ msgid "Spacing"
 #~ msgstr "ఖాళి"
 
-#~ msgid "Center"
-#~ msgstr "మధ్య"
-
 #~ msgid "&Bottom"
 #~ msgstr "(&B) క్రింద"
 
@@ -8509,9 +10314,6 @@ msgstr ""
 #~ msgid "Roman"
 #~ msgstr "రోమన్"
 
-#~ msgid "locally connected"
-#~ msgstr "స్థానికంగా అనుసంధానమైనది"
-
 #~ msgid "Browse..."
 #~ msgstr "పరిశీలించు..."
 
@@ -8520,9 +10322,6 @@ msgstr ""
 
 #~ msgid "Font Size"
 #~ msgstr "అక్షర పరిమాణము"
-
-#~ msgid "Fonts"
-#~ msgstr "అక్షర రూపములు"
 
 #~ msgid "&Fonts"
 #~ msgstr "(&F) అక్షర రూపములు"
@@ -8953,9 +10752,6 @@ msgstr ""
 #~ msgid "Security"
 #~ msgstr "భద్రత"
 
-#~ msgid "TLS"
-#~ msgstr "టిఎల్ఎస్"
-
 #~ msgid "SSL"
 #~ msgstr "ఎస్ఎస్ఎల్"
 
@@ -9043,9 +10839,6 @@ msgstr ""
 
 #~ msgid "vCard"
 #~ msgstr "వీకార్డ్"
-
-#~ msgid "No description available."
-#~ msgstr "ఏ వర్ణన దొరకలేదు"
 
 #~ msgid "Unique Identifier"
 #~ msgstr "అసమాన గుర్తు"
@@ -9183,9 +10976,6 @@ msgstr ""
 
 #~ msgid "Next Tool View"
 #~ msgstr "ముందటి పనిముట్ల వీక్షణం"
-
-#~ msgid "Operations"
-#~ msgstr "కార్యములు"
 
 #~ msgid "Close &All"
 #~ msgstr "(&A) అన్నిటినీ మూసివేయుము"
@@ -9421,9 +11211,6 @@ msgstr ""
 #~ msgid "Resource Installation Error"
 #~ msgstr "వనరు స్థాపన దోషం"
 
-#~ msgid "No keys were found."
-#~ msgstr "ఎలాంటి కీ లూ కనపడలేదు."
-
 #~ msgid "The validation failed for unknown reason."
 #~ msgstr "నిరూపణ తెలియని కారణం వల్ల విఫలమైనది"
 
@@ -9479,9 +11266,6 @@ msgstr ""
 #~ msgid "Display only media of this type"
 #~ msgstr "ఈ రకపు మాధ్యమంను మాత్రమే చూపుము"
 
-#~ msgid "Clear Search"
-#~ msgstr "అన్వేషణను చెరపివేయి"
-
 #~ msgid "Shortcut for Selected Action"
 #~ msgstr "ఎంచుకొన్న చర్యకు శీఘ్ర మార్గం"
 
@@ -9493,17 +11277,11 @@ msgstr ""
 #~ msgid "De&fault"
 #~ msgstr "(&f) అప్రమేయం"
 
-#~ msgid "C&ustom"
-#~ msgstr "(&u) నిర్దేశితమైన"
-
 #~ msgid "Default key:"
 #~ msgstr "అప్రమేయ మీట:"
 
 #~ msgid "Close this tab"
 #~ msgstr "ఈ టాబ్ ను మూయండి"
-
-#~ msgid "Table:"
-#~ msgstr "పట్టిక:"
 
 #~ msgid "K Desktop Environment. Release %1"
 #~ msgstr "కె రంగస్థల పర్యావరణం. విడుదల %1"
@@ -9863,13 +11641,6 @@ msgstr ""
 #~ msgstr "ఫార్మేట్ దోషం"
 
 #~ msgid ""
-#~ "Cannot create the file\n"
-#~ "\""
-#~ msgstr ""
-#~ "దస్త్రాన్ని సృష్టించలేను\n"
-#~ "\""
-
-#~ msgid ""
 #~ "Cannot save the file\n"
 #~ "\""
 #~ msgstr ""
@@ -9926,10 +11697,6 @@ msgstr ""
 
 #~ msgid "Paste special..."
 #~ msgstr "ప్రత్యెకంగా అతికించు..."
-
-#~ msgctxt "QMessageBox"
-#~ msgid "OK"
-#~ msgstr "సరే"
 
 #~ msgctxt "QMessageBox"
 #~ msgid "Cancel"
@@ -10085,12 +11852,6 @@ msgstr ""
 #~ msgctxt "QAccel"
 #~ msgid "Escape"
 #~ msgstr "ఎస్కేప్"
-
-#~ msgid "Shade"
-#~ msgstr "నీడ"
-
-#~ msgid "Unshade"
-#~ msgstr "నీడ తొలగించుము"
 
 #~ msgid "Normalize"
 #~ msgstr "మామూలుగా చెయండి"
