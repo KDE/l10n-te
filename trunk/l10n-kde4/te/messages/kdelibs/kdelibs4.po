@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-21 14:35+0100\n"
+"POT-Creation-Date: 2008-02-22 12:33+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -5858,89 +5858,7 @@ msgstr "చిత్రంలొ ప్రదేశాన్ని ఎంచు�
 msgid "Please click and drag on the image to select the region of interest:"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutsdialog.cpp:374
-#, fuzzy
-#| msgid "Default"
-msgid "Default:"
-msgstr "అప్రమేయం"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:377 kdeui/widgets/klineedit.cpp:1080
-msgid "None"
-msgstr "ఏదీ వద్దు"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:380
-#, fuzzy
-#| msgid "Custom"
-msgid "Custom:"
-msgstr "నిర్దేశితమైన"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:480
-msgid "Shortcuts"
-msgstr "శీఘ్ర మార్గాలు"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:746
-#: kdeui/dialogs/kshortcutsdialog.cpp:775
-#: kdeui/dialogs/kshortcutsdialog.cpp:791
-#: kdeui/widgets/kkeysequencewidget.cpp:124
-msgid "Key Conflict"
-msgstr ""
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:747
-#: kdeui/widgets/kkeysequencewidget.cpp:125
-#, kde-format
-msgid ""
-"The '%1' key combination has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:751
-#: kdeui/dialogs/kshortcutsdialog.cpp:780
-#: kdeui/dialogs/kshortcutsdialog.cpp:796 kdeui/shortcuts/kglobalaccel.cpp:317
-#: kdeui/widgets/kkeysequencewidget.cpp:128
-msgid "Reassign"
-msgstr "మళ్లి నియమించు"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:763
-msgid "Conflict with Standard Application Shortcut"
-msgstr "ప్రామాణిక కార్యక్రమ శీఘ్రమార్గంతొ ఘర్షణ"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:764
-#, kde-format
-msgid ""
-"The '%1' key combination has already been allocated to the standard action "
-"\"%2\" that many applications use.\n"
-"You cannot use it for global shortcuts for this reason."
-msgstr ""
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:776
-#, kde-format
-msgid ""
-"The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:792
-#, kde-format
-msgid ""
-"The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:873
-#, fuzzy, kde-format
-#| msgid "%1%"
-msgctxt "@item:intable Action name in shortcuts configuration"
-msgid "%1"
-msgstr "%1%"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:896
-#, fuzzy, kde-format
-#| msgid "%1%"
-msgctxt "@info:tooltip Action tooltip in shortcuts configuration"
-msgid "%1"
-msgstr "%1%"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:1119
+#: kdeui/dialogs/kshortcutsdialog.cpp:58
 msgid "Configure Shortcuts"
 msgstr "శీఘ్రమార్గాలను అమర్చండి"
 
@@ -6028,6 +5946,20 @@ msgstr "%1 గురించి"
 #: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:105
 msgid "Configure"
 msgstr "అమర్చు"
+
+#: kdeui/dialogs/kshortcutseditoritem.cpp:57
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@item:intable Action name in shortcuts configuration"
+msgid "%1"
+msgstr "%1%"
+
+#: kdeui/dialogs/kshortcutseditoritem.cpp:80
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@info:tooltip Action tooltip in shortcuts configuration"
+msgid "%1"
+msgstr "%1%"
 
 #: kdeui/dialogs/kdialog.cpp:227
 msgid "&Try"
@@ -6135,6 +6067,58 @@ msgstr "%1%"
 #| msgid "Change &Icon..."
 msgid "Change Icon"
 msgstr "(&I) ప్రతిమను మార్చు..."
+
+#: kdeui/dialogs/kshortcutseditor.cpp:82
+msgid "Shortcuts"
+msgstr "శీఘ్ర మార్గాలు"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:410
+#: kdeui/dialogs/kshortcutseditor.cpp:439
+#: kdeui/dialogs/kshortcutseditor.cpp:455
+#: kdeui/widgets/kkeysequencewidget.cpp:124
+msgid "Key Conflict"
+msgstr ""
+
+#: kdeui/dialogs/kshortcutseditor.cpp:411
+#: kdeui/widgets/kkeysequencewidget.cpp:125
+#, kde-format
+msgid ""
+"The '%1' key combination has already been allocated to the \"%2\" action.\n"
+"Do you want to reassign it from that action to the current one?"
+msgstr ""
+
+#: kdeui/dialogs/kshortcutseditor.cpp:415
+#: kdeui/dialogs/kshortcutseditor.cpp:444
+#: kdeui/dialogs/kshortcutseditor.cpp:460 kdeui/shortcuts/kglobalaccel.cpp:317
+#: kdeui/widgets/kkeysequencewidget.cpp:128
+msgid "Reassign"
+msgstr "మళ్లి నియమించు"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:427
+msgid "Conflict with Standard Application Shortcut"
+msgstr "ప్రామాణిక కార్యక్రమ శీఘ్రమార్గంతొ ఘర్షణ"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:428
+#, kde-format
+msgid ""
+"The '%1' key combination has already been allocated to the standard action "
+"\"%2\" that many applications use.\n"
+"You cannot use it for global shortcuts for this reason."
+msgstr ""
+
+#: kdeui/dialogs/kshortcutseditor.cpp:440
+#, kde-format
+msgid ""
+"The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
+"Do you want to reassign it from that action to the current one?"
+msgstr ""
+
+#: kdeui/dialogs/kshortcutseditor.cpp:456
+#, kde-format
+msgid ""
+"The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
+"Do you want to reassign it from that action to the current one?"
+msgstr ""
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:64
 #, fuzzy
@@ -6390,6 +6374,22 @@ msgstr ""
 #: kdeui/dialogs/kbugreport.cpp:470
 msgid "Close Message"
 msgstr "సందేశము మూసివేయుము"
+
+#: kdeui/dialogs/kshortcuteditwidget.cpp:55
+#, fuzzy
+#| msgid "Default"
+msgid "Default:"
+msgstr "అప్రమేయం"
+
+#: kdeui/dialogs/kshortcuteditwidget.cpp:58 kdeui/widgets/klineedit.cpp:1080
+msgid "None"
+msgstr "ఏదీ వద్దు"
+
+#: kdeui/dialogs/kshortcuteditwidget.cpp:61
+#, fuzzy
+#| msgid "Custom"
+msgid "Custom:"
+msgstr "నిర్దేశితమైన"
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:42
 #, fuzzy
