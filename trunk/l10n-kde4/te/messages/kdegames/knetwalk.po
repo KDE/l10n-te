@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knetwalk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-12 14:32+0100\n"
+"POT-Creation-Date: 2008-03-15 23:54+0100\n"
 "PO-Revision-Date: 2007-07-17 17:32+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -105,7 +105,15 @@ msgstr ""
 msgid "Start with Very Hard difficulty level"
 msgstr ""
 
-#: mainwindow.cpp:134
+#: mainwindow.cpp:84
+msgid "Moves Penalty"
+msgstr ""
+
+#: mainwindow.cpp:152
+msgid "New Game"
+msgstr ""
+
+#: mainwindow.cpp:188
 msgid ""
 "<h3>Rules of Game</h3><p>You are the system administrator and your goal is "
 "to connect each terminal and each cable to the central server.</p><p>Click "
@@ -120,13 +128,10 @@ msgctxt "Number of mouse clicks"
 msgid "Moves: %1"
 msgstr ""
 
-#: mainwindow.cpp:207
-msgid "New Game"
-msgstr ""
-
-#: mainwindow.cpp:423
+#: mainwindow.cpp:205
 #, kde-format
-msgid "Moves: %1"
+msgctxt "Time elapsed"
+msgid "Time: %1"
 msgstr ""
 
 #~ msgid "Click: %1"
