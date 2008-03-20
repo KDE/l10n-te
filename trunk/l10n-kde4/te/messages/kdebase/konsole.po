@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-12 14:29+0100\n"
+"POT-Creation-Date: 2008-03-20 08:05+0100\n"
 "PO-Revision-Date: 2007-03-22 20:26+0530\n"
 "Last-Translator: Vijay Kiran Kamuju <infyquest@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -218,7 +218,7 @@ msgstr ""
 msgid "Copy Email Address"
 msgstr ""
 
-#: HistorySizeDialog.cpp:49 SessionController.cpp:555
+#: HistorySizeDialog.cpp:49 SessionController.cpp:559
 #, fuzzy
 #| msgid "Save History"
 msgid "Scrollback Options"
@@ -394,132 +394,160 @@ msgstr ""
 msgid "Connect"
 msgstr ""
 
-#: Session.cpp:443
+#: Session.cpp:287
+msgid "Could not find binary: "
+msgstr ""
+
+#: Session.cpp:296
+msgid "Warning: "
+msgstr ""
+
+#: Session.cpp:333
+#, kde-format
+msgid ""
+"Could not find '%1', starting '%2' instead.  Please check your profile "
+"settings."
+msgstr ""
+
+#: Session.cpp:338
+msgid "Could not find an interactive shell to start."
+msgstr ""
+
+#: Session.cpp:373
+#, kde-format
+msgid "Could not start program '%1' with arguments '%2'."
+msgstr ""
+
+#: Session.cpp:483
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "%1 సెషన్ లో నిశబ్దం"
 
-#: Session.cpp:460
+#: Session.cpp:500
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "%1 సెషన్ లో గంట"
 
-#: Session.cpp:471
+#: Session.cpp:511
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr ""
 
-#: Session.cpp:598
+#: Session.cpp:638
 #, fuzzy
 #| msgid "Find"
 msgid "Finished"
 msgstr "వెతుకు"
 
-#: Session.cpp:608
+#: Session.cpp:647
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr ""
 
-#: Session.cpp:610
-#, kde-format
-msgid "Program '%1' exited unexpectedly."
+#: Session.cpp:649
+#, fuzzy, kde-format
+#| msgctxt "NAME OF TRANSLATORS"
+#| msgid "Your names"
+msgid "Program '%1' crashed."
 msgstr ""
+"విజయ్ కిరణ్ కముజు\n"
+"pavithran"
 
-#: Session.cpp:821
+#: Session.cpp:863
 msgid "ZModem Progress"
 msgstr ""
 
-#: SessionController.cpp:437
+#: SessionController.cpp:441
 msgid "&Close Tab"
 msgstr ""
 
-#: SessionController.cpp:443
+#: SessionController.cpp:447
 msgid "Open Browser Here"
 msgstr ""
 
-#: SessionController.cpp:450
+#: SessionController.cpp:454
 #, fuzzy
 #| msgid "&Top"
 msgid "&Copy"
 msgstr "(&T) పైన"
 
-#: SessionController.cpp:454
+#: SessionController.cpp:458
 msgid "&Paste"
 msgstr ""
 
-#: SessionController.cpp:467
+#: SessionController.cpp:471
 msgid "Paste Selection"
 msgstr ""
 
-#: SessionController.cpp:473
+#: SessionController.cpp:477
 msgid "&Rename Tab..."
 msgstr ""
 
-#: SessionController.cpp:488
+#: SessionController.cpp:492
 #, fuzzy
 #| msgid "Clear &History"
 msgid "C&lear Display"
 msgstr "(&H) చరిత్రను చెరపివెయి"
 
-#: SessionController.cpp:493
+#: SessionController.cpp:497
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Clear && Reset"
 msgstr "(&H) చరిత్రను చెరపివెయి"
 
-#: SessionController.cpp:498
+#: SessionController.cpp:502
 msgid "Monitor for &Activity"
 msgstr ""
 
-#: SessionController.cpp:503
+#: SessionController.cpp:507
 msgid "Monitor for &Silence"
 msgstr ""
 
-#: SessionController.cpp:509
+#: SessionController.cpp:513
 msgid "Set Character Encoding"
 msgstr ""
 
-#: SessionController.cpp:516
+#: SessionController.cpp:520
 msgid "Increase Text Size"
 msgstr ""
 
-#: SessionController.cpp:522
+#: SessionController.cpp:526
 msgid "Decrease Text Size"
 msgstr ""
 
-#: SessionController.cpp:528
+#: SessionController.cpp:532
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Search Output..."
 msgstr "(&H) చరిత్రను చెరపివెయి"
 
-#: SessionController.cpp:537
+#: SessionController.cpp:541
 #, fuzzy
 #| msgid "Find"
 msgid "Find Next"
 msgstr "వెతుకు"
 
-#: SessionController.cpp:544
+#: SessionController.cpp:548
 msgid "Find Previous"
 msgstr ""
 
-#: SessionController.cpp:550
+#: SessionController.cpp:554
 #, fuzzy
 #| msgid "Save History"
 msgid "Save Output..."
 msgstr "చరిత్రను దాచు"
 
-#: SessionController.cpp:560
+#: SessionController.cpp:564
 msgid "Clear Scrollback"
 msgstr ""
 
-#: SessionController.cpp:564
+#: SessionController.cpp:568
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Clear Scrollback && Reset"
 msgstr "(&H) చరిత్రను చెరపివెయి"
 
-#: SessionController.cpp:570
+#: SessionController.cpp:574
 msgid "Edit Current Profile..."
 msgstr ""
 
@@ -527,30 +555,30 @@ msgstr ""
 #. i18n: file ../desktop/sessionui.rc line 61
 #. i18n: tag text
 #. i18n: file ../desktop/partui.rc line 26
-#: SessionController.cpp:574 rc.cpp:806 rc.cpp:812
+#: SessionController.cpp:578 rc.cpp:806 rc.cpp:812
 msgid "Change Profile"
 msgstr ""
 
-#: SessionController.cpp:656
+#: SessionController.cpp:660
 msgid "Rename Tab"
 msgstr ""
 
-#: SessionController.cpp:657
+#: SessionController.cpp:661
 msgid "Enter new tab text:"
 msgstr ""
 
-#: SessionController.cpp:1110
+#: SessionController.cpp:1121
 #, fuzzy, kde-format
 #| msgid "Save History"
 msgid "Save Output From %1"
 msgstr "చరిత్రను దాచు"
 
-#: SessionController.cpp:1121
+#: SessionController.cpp:1132
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 
-#: SessionController.cpp:1210
+#: SessionController.cpp:1221
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -595,16 +623,16 @@ msgstr ""
 msgid "Remote Host (Long)"
 msgstr ""
 
-#: TerminalDisplay.cpp:1043 TerminalDisplay.cpp:1044
+#: TerminalDisplay.cpp:1062 TerminalDisplay.cpp:1063
 msgid "Size: XXX x XXX"
 msgstr "పరిమాణం: XXX x XXX"
 
-#: TerminalDisplay.cpp:1054
+#: TerminalDisplay.cpp:1073
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "పరిమాణం: %1 x %2"
 
-#: TerminalDisplay.cpp:2674
+#: TerminalDisplay.cpp:2728
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
 "\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
@@ -678,7 +706,7 @@ msgctxt "@action:inmenu"
 msgid "Shrink View"
 msgstr ""
 
-#: Vt102Emulation.cpp:995
+#: Vt102Emulation.cpp:996
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
 "presses into characters to send to the terminal is missing."
@@ -728,15 +756,19 @@ msgstr ""
 msgid "Enable transparent backgrounds"
 msgstr ""
 
-#: main.cpp:114
-msgid "Change the value of a profile property."
+#: main.cpp:113
+msgid "Do not close the initial session automatically when it ends."
 msgstr ""
 
 #: main.cpp:115
-msgid "Command to execute"
+msgid "Change the value of a profile property."
 msgstr ""
 
 #: main.cpp:116
+msgid "Command to execute"
+msgstr ""
+
+#: main.cpp:117
 msgid "Arguments passed to command"
 msgstr ""
 
@@ -2051,4 +2083,3 @@ msgstr "లినక్స్ కన్సోల్"
 #: schemas.cpp:10
 msgid "DEC VT420 Terminal"
 msgstr ""
-

@@ -639,6 +639,8 @@ msgid "%1 KB"
 msgstr "%1 %2"
 
 #: gui/dialogs/qfilesystemmodel.cpp:714
+#, fuzzy, qt-format
+#| msgid "%1 bytes"
 msgid "%1 bytes"
 msgstr "%2 బైట్లు"
 
@@ -1084,6 +1086,9 @@ msgid "Media Record"
 msgstr "మిడియా రికార్డ్"
 
 #: gui/kernel/qkeysequence.cpp:356
+#, fuzzy
+#| msgid "Home Page"
+msgctxt "QShortcut"
 msgid "Home Page"
 msgstr "హొమ్ పేజ్"
 
@@ -1610,6 +1615,7 @@ msgid "Preferences"
 msgstr "(&P) ఇష్టములు..."
 
 #: gui/widgets/qmenu_mac.cpp:400
+#, qt-format
 msgid "Quit %1"
 msgstr "%1 విరమించు"
 
@@ -1681,6 +1687,7 @@ msgstr "(&a) నీడ"
 
 #: gui/widgets/qworkspace.cpp:1887 gui/widgets/qworkspace.cpp:1947
 #: gui/widgets/qmdisubwindow.cpp:272
+#, qt-format
 msgid "%1 - [%2]"
 msgstr "%1 - [%2]"
 
@@ -1689,6 +1696,7 @@ msgid "&Unshade"
 msgstr "(&U) నీడ తొలగించుము"
 
 #: gui/widgets/qmdisubwindow.cpp:271
+#, qt-format
 msgid "- [%1]"
 msgstr "- [%1]"
 
@@ -2483,11 +2491,13 @@ msgstr "మెమొరి అయిపొయింది"
 
 #: corelib/kernel/qsharedmemory_win.cpp:89
 #: corelib/kernel/qsharedmemory_unix.cpp:80
+#, qt-format
 msgid "%1: permission denied"
 msgstr "%1: అనుమతి తిరస్కరించబడినది"
 
 #: corelib/kernel/qsharedmemory_win.cpp:92
 #: corelib/kernel/qsharedmemory_unix.cpp:98
+#, qt-format
 msgid "%1: unknown error %2"
 msgstr "%1: తెలియని దోషము %2"
 
@@ -2511,6 +2521,7 @@ msgstr ""
 
 #: corelib/kernel/qsystemsemaphore_unix.cpp:88
 #: corelib/kernel/qsystemsemaphore_win.cpp:72
+#, qt-format
 msgctxt "QSystemSemaphore"
 msgid "%1: permission denied"
 msgstr "%1: అనుమతి తిరస్కరించబడినది"
@@ -3784,6 +3795,7 @@ msgid "Request for opening non-local file %1"
 msgstr ""
 
 #: network/access/qnetworkaccessfilebackend.cpp:140
+#, qt-format
 msgctxt "QNetworkAccessFileBackend"
 msgid "Error opening %1: %2"
 msgstr "%1 తెరచుటలో దోషము: %2"
@@ -4084,6 +4096,7 @@ msgstr ""
 #: 3rdparty/kdelibs/phonon/volumeslider.cpp:55
 #: 3rdparty/kdelibs/phonon/volumeslider.cpp:180
 #: 3rdparty/kdelibs/phonon/volumeslider.cpp:195
+#, qt-format
 msgid "Volume: %1%"
 msgstr "శబ్డం: %1%"
 
@@ -4405,7 +4418,6 @@ msgid "LTR"
 msgstr ""
 
 #: 3rdparty/webkit/WebCore/platform/qt/Localizations.cpp:247
-#, fuzzy
 #| msgid "TLS"
 msgctxt "Right to Left context menu item"
 msgid "RTL"
