@@ -2261,6 +2261,7 @@ msgstr "%1: చెల్లని పరిమాణం"
 
 #: corelib/kernel/qsharedmemory_win.cpp:85
 #: corelib/kernel/qsharedmemory_unix.cpp:93
+#, qt-format
 msgid "%1: out of resources"
 msgstr "%1: వనరులు అయిపొనవి"
 
@@ -2320,6 +2321,7 @@ msgstr "%1: వనరులు అయిపొయినవి"
 
 #: corelib/kernel/qsystemsemaphore_unix.cpp:105
 #: corelib/kernel/qsystemsemaphore_win.cpp:75
+#, qt-format
 msgctxt "QSystemSemaphore"
 msgid "%1: unknown error %2"
 msgstr "%1: తెలియని దోషము %2"
@@ -2337,6 +2339,7 @@ msgid "%1: unable to make key"
 msgstr "%1: కీ ని తయారు చెయలేకపొయాను"
 
 #: corelib/kernel/qsystemsemaphore_unix.cpp:142
+#, qt-format
 msgctxt "QSystemSemaphore"
 msgid "%1: ftok failed"
 msgstr "%1: ftok తప్పినది"
@@ -2387,6 +2390,7 @@ msgid "%1: unable to unlock"
 msgstr "%1: తాళం తియలెకపొయాను"
 
 #: corelib/plugin/qlibrary.cpp:376
+#, qt-format
 msgid "Could not mmap '%1': %2"
 msgstr "'%1' ను mmap చెయలేకపోయాను : %2"
 
@@ -2396,7 +2400,7 @@ msgid "Plugin verification data mismatch in '%1'"
 msgstr ""
 
 #: corelib/plugin/qlibrary.cpp:404
-
+#, qt-format
 msgid "Could not unmap '%1': %2"
 msgstr "'%1' ను unmap చెయలేకపోయాను: %2"
 
@@ -3086,6 +3090,8 @@ msgid "%1 is not a valid numeric literal."
 msgstr ""
 
 #: querytransformparser.ypp:2563
+#, qt-format
+#| msgid "No function by name %1 is available."
 msgid "No function by name %1 is available."
 msgstr ""
 
@@ -3333,7 +3339,6 @@ msgstr ""
 
 #: network/ssl/qsslsocket_openssl.cpp:667
 #, qt-format
-#| msgid "Error while loading %1"
 msgid "Error while reading: %1"
 msgstr "చదువుతునప్పుడు దోషము: %1"
 
@@ -4061,7 +4066,6 @@ msgid "Web Inspector - %2"
 msgstr ""
 
 #: plugins/accessible/compat/q3complexwidgets.cpp:248
-
 msgid "System"
 msgstr "వ్యవస్థ"
 
@@ -4194,4 +4198,3 @@ msgstr ""
 msgid ""
 "Multiple input method switcher that uses the context menu of the text widgets"
 msgstr ""
-
