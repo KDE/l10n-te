@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-10 21:48+0000\n"
+"POT-Creation-Date: 2008-04-12 17:31+0000\n"
 "PO-Revision-Date: 2007-03-22 13:41+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -30,18 +30,18 @@ msgctxt "Name"
 msgid "Dolphin View"
 msgstr "డాల్ఫిన్ వీక్షణం"
 
-#: apps/dolphin/src/dolphinpart.desktop:41
+#: apps/dolphin/src/dolphinpart.desktop:42
 #: runtime/kcontrol/icons/icons.desktop:13
 msgctxt "Name"
 msgid "Icons"
 msgstr "ప్రతిమలు"
 
-#: apps/dolphin/src/dolphinpart.desktop:118
+#: apps/dolphin/src/dolphinpart.desktop:120
 msgctxt "Name"
 msgid "Details"
 msgstr "వివరాలు"
 
-#: apps/dolphin/src/dolphinpart.desktop:150
+#: apps/dolphin/src/dolphinpart.desktop:153
 msgctxt "Name"
 msgid "Columns"
 msgstr "నిలువు వరుసలు"
@@ -56,7 +56,7 @@ msgctxt "Name"
 msgid "Views"
 msgstr "వీక్షణలు"
 
-#: apps/dolphin/src/kcmdolphin.desktop:44
+#: apps/dolphin/src/kcmdolphin.desktop:45
 msgctxt "Comment"
 msgid "Configure file manager settings"
 msgstr ""
@@ -1269,7 +1269,7 @@ msgctxt "Name"
 msgid "ams"
 msgstr "ఎఎంఎస్"
 
-#: apps/kappfinder/apps/Multimedia/ams.desktop:10
+#: apps/kappfinder/apps/Multimedia/ams.desktop:11
 msgctxt "GenericName"
 msgid "Alsa Modular Synthesizer"
 msgstr ""
@@ -1289,7 +1289,7 @@ msgctxt "Name"
 msgid "Ardour"
 msgstr "అర్డర్"
 
-#: apps/kappfinder/apps/Multimedia/ardour.desktop:13
+#: apps/kappfinder/apps/Multimedia/ardour.desktop:14
 msgctxt "GenericName"
 msgid "Multitrack Audio Studio"
 msgstr ""
@@ -1331,7 +1331,7 @@ msgctxt "Name"
 msgid "DJPlay"
 msgstr "డిజె ప్లె"
 
-#: apps/kappfinder/apps/Multimedia/djplay.desktop:13
+#: apps/kappfinder/apps/Multimedia/djplay.desktop:14
 #: apps/kappfinder/apps/Multimedia/mixxx.desktop:9
 msgctxt "GenericName"
 msgid "DJ-Mixer and Player"
@@ -1363,7 +1363,7 @@ msgctxt "Name"
 msgid "FreeBirth"
 msgstr "ఫ్రీబర్త్"
 
-#: apps/kappfinder/apps/Multimedia/freebirth.desktop:11
+#: apps/kappfinder/apps/Multimedia/freebirth.desktop:12
 #: apps/kappfinder/apps/Multimedia/hydrogen.desktop:14
 msgctxt "GenericName"
 msgid "Drum Machine"
@@ -1384,7 +1384,7 @@ msgctxt "Name"
 msgid "gAlan"
 msgstr "గలాన్"
 
-#: apps/kappfinder/apps/Multimedia/galan.desktop:11
+#: apps/kappfinder/apps/Multimedia/galan.desktop:12
 msgctxt "GenericName"
 msgid "Modular Synth"
 msgstr ""
@@ -1414,7 +1414,7 @@ msgctxt "Name"
 msgid "Jamin"
 msgstr "జామిన్"
 
-#: apps/kappfinder/apps/Multimedia/jamin.desktop:14
+#: apps/kappfinder/apps/Multimedia/jamin.desktop:15
 msgctxt "GenericName"
 msgid "Jack Mastering Tool"
 msgstr ""
@@ -1459,7 +1459,7 @@ msgctxt "Name"
 msgid "MusE"
 msgstr "ముస్"
 
-#: apps/kappfinder/apps/Multimedia/muse.desktop:11
+#: apps/kappfinder/apps/Multimedia/muse.desktop:12
 msgctxt "GenericName"
 msgid "Music Sequencer"
 msgstr ""
@@ -2109,16 +2109,6 @@ msgctxt "Comment"
 msgid "IO-port information"
 msgstr "ఐఓ-పోర్టుల సమాచారం"
 
-#: apps/kinfocenter/info/memory.desktop:13
-msgctxt "Name"
-msgid "Memory"
-msgstr "మెమొరి"
-
-#: apps/kinfocenter/info/memory.desktop:87
-msgctxt "Comment"
-msgid "Memory information"
-msgstr "మెమొరి సమాచారం"
-
 #: apps/kinfocenter/info/partitions.desktop:14
 msgctxt "Name"
 msgid "Partitions"
@@ -2128,16 +2118,6 @@ msgstr "విభజనలు"
 msgctxt "Comment"
 msgid "Partition information"
 msgstr "విభజనల సమాచారం"
-
-#: apps/kinfocenter/info/pci.desktop:13
-msgctxt "Name"
-msgid "PCI"
-msgstr "పి సి ఐ"
-
-#: apps/kinfocenter/info/pci.desktop:27
-msgctxt "Comment"
-msgid "PCI information"
-msgstr "పి సి ఐ సమాచారం"
 
 #: apps/kinfocenter/info/processor.desktop:13
 msgctxt "Name"
@@ -2189,6 +2169,16 @@ msgctxt "GenericName"
 msgid "Info Center"
 msgstr "సమాచార కేంద్రం"
 
+#: apps/kinfocenter/memory/kcm_memory.desktop:12
+msgctxt "Name"
+msgid "Memory"
+msgstr "మెమొరి"
+
+#: apps/kinfocenter/memory/kcm_memory.desktop:86
+msgctxt "Comment"
+msgid "Memory information"
+msgstr "మెమొరి సమాచారం"
+
 #: apps/kinfocenter/nics/nic.desktop:11
 msgctxt "Name"
 msgid "Network Interfaces"
@@ -2199,18 +2189,36 @@ msgctxt "Comment"
 msgid "Network interface information"
 msgstr "నెట్వర్క్ ఇంటర్ ఫెస్ సమాచారం"
 
-#: apps/kinfocenter/opengl/opengl.desktop:12
+#: apps/kinfocenter/opengl/opengl.desktop:11
 msgctxt "Name"
 msgid "OpenGL"
 msgstr "ఓపెన్ జిఎల్"
 
-#: apps/kinfocenter/opengl/opengl.desktop:22
+#: apps/kinfocenter/opengl/opengl.desktop:21
 msgctxt "Comment"
 msgid "OpenGL information"
 msgstr "ఓపెన్ జిఎల్ సమాచారం"
 
+#: apps/kinfocenter/pci/kcm_pci.desktop:11
+msgctxt "Name"
+msgid "PCI"
+msgstr "పి సి ఐ"
+
+#: apps/kinfocenter/pci/kcm_pci.desktop:25
+msgctxt "Comment"
+msgid "PCI information"
+msgstr "పి సి ఐ సమాచారం"
+
 #: apps/kinfocenter/solidproc/kcmsolidproc.desktop:11
 msgctxt "Name"
+msgid "Processor Information"
+msgstr "ప్రాసెసర్ సమాచారం"
+
+#: apps/kinfocenter/solidproc/kcmsolidproc.desktop:29
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Processor Information"
+msgctxt "Comment"
 msgid "Processor Information"
 msgstr "ప్రాసెసర్ సమాచారం"
 
@@ -2221,7 +2229,7 @@ msgstr "యూ ఎస్ బి పరికరాలు"
 
 #: apps/kinfocenter/usbview/kcmusb.desktop:84
 msgctxt "Comment"
-msgid "View the USB devices attached to this computer"
+msgid "USB devices attached to this computer"
 msgstr ""
 
 #: apps/kinfocenter/view1394/kcmview1394.desktop:11
@@ -2685,7 +2693,7 @@ msgctxt "Name"
 msgid "General"
 msgstr "సాధారణ"
 
-#: apps/konqueror/settings/konqhtml/khtml_general.desktop:69
+#: apps/konqueror/settings/konqhtml/khtml_general.desktop:70
 msgctxt "Comment"
 msgid "Configure general Konqueror behavior"
 msgstr ""
@@ -2876,7 +2884,7 @@ msgctxt "Name"
 msgid "Shell"
 msgstr "షెల్"
 
-#: apps/konsole/data/profiles/Shell.profile:46
+#: apps/konsole/data/profiles/Shell.profile:47
 msgctxt "Comment"
 msgid "Konsole default profile"
 msgstr ""
@@ -2991,7 +2999,7 @@ msgctxt "Name"
 msgid "Folder..."
 msgstr "ఫొల్డర్..."
 
-#: apps/lib/konq/Templates/Directory.desktop:64
+#: apps/lib/konq/Templates/Directory.desktop:65
 msgctxt "Comment"
 msgid "Enter folder name:"
 msgstr "ఫొల్డర్ పేరును వ్రాయండి:"
@@ -3142,7 +3150,7 @@ msgid "KDED Favicon Module"
 msgstr ""
 
 #: apps/lib/konq/favicons/favicons.desktop:69
-#: runtime/platforms/win/kwinstartmenu/winstartmenu.desktop:69
+#: runtime/platforms/win/kwinstartmenu/winstartmenu.desktop:4
 msgctxt "Comment"
 msgid "Shortcut icon support"
 msgstr ""
@@ -3218,35 +3226,35 @@ msgctxt "Comment"
 msgid "Aborted."
 msgstr "విడిచిపెట్టడమైనది."
 
-#: runtime/drkonqi/presets/developerrc:291
+#: runtime/drkonqi/presets/developerrc:292
 #: runtime/drkonqi/presets/enduserrc:282
 msgctxt "Name"
 msgid "SIGFPE"
 msgstr "SIGFPE"
 
-#: runtime/drkonqi/presets/developerrc:294
+#: runtime/drkonqi/presets/developerrc:295
 msgctxt "Comment"
 msgid "Floating point exception."
 msgstr ""
 
-#: runtime/drkonqi/presets/developerrc:338
+#: runtime/drkonqi/presets/developerrc:339
 #: runtime/drkonqi/presets/enduserrc:331
 msgctxt "Name"
 msgid "SIGSEGV"
 msgstr "SIGSEGV"
 
-#: runtime/drkonqi/presets/developerrc:341
+#: runtime/drkonqi/presets/developerrc:342
 msgctxt "Comment"
 msgid "Invalid memory reference."
 msgstr "తప్పుడు మెమొరి సంబంధం."
 
-#: runtime/drkonqi/presets/developerrc:389
+#: runtime/drkonqi/presets/developerrc:390
 #: runtime/drkonqi/presets/enduserrc:380
 msgctxt "Name"
 msgid "Unknown"
 msgstr "తెలియని"
 
-#: runtime/drkonqi/presets/developerrc:436
+#: runtime/drkonqi/presets/developerrc:437
 msgctxt "Comment"
 msgid "This signal is unknown."
 msgstr "తెలియని సిగ్నల్"
@@ -3324,7 +3332,7 @@ msgctxt "Name"
 msgid "Default Applications"
 msgstr "అప్రమెయ కార్యక్షేత్రాలు"
 
-#: runtime/kcontrol/componentchooser/componentchooser.desktop:69
+#: runtime/kcontrol/componentchooser/componentchooser.desktop:70
 msgctxt "Comment"
 msgid "Choose the default components for various services"
 msgstr ""
@@ -3377,19 +3385,19 @@ msgctxt "Name"
 msgid "Emoticons"
 msgstr "ఎమొటికాన్లు"
 
-#: runtime/kcontrol/emoticons/emoticons.desktop:26
+#: runtime/kcontrol/emoticons/emoticons.desktop:27
 msgctxt "Comment"
 msgid "Emoticons Themes Manager"
 msgstr ""
 
-#: runtime/kcontrol/icons/icons.desktop:86
+#: runtime/kcontrol/icons/icons.desktop:87
 msgctxt "Comment"
 msgid "Customize KDE Icons"
 msgstr ""
 
 #: runtime/kcontrol/infocenter/ioslaveinfo/ioslaveinfo.desktop:2
 msgctxt "Comment"
-msgid "Information about the available protocols"
+msgid "Information about available protocols"
 msgstr ""
 
 #: runtime/kcontrol/infocenter/ioslaveinfo/ioslaveinfo.desktop:130
