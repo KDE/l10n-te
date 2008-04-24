@@ -17,42 +17,42 @@ msgstr ""
 
 #: base/info_aix.cpp:54
 msgid "Name"
-msgstr ""
+msgstr "పేరు"
 
 #: base/info_aix.cpp:55
 msgid "Status"
-msgstr ""
+msgstr "స్థితి"
 
 #: base/info_aix.cpp:56
 msgid "Location"
-msgstr ""
+msgstr "స్థానం"
 
 #: base/info_aix.cpp:57 base/info_fbsd.cpp:305
 msgid "Description"
-msgstr ""
+msgstr "వర్ణన"
 
 #: base/info_aix.cpp:175 base/info_hpux.cpp:163 base/info_hpux.cpp:438
 #: base/info_linux.cpp:113 base/info_netbsd.cpp:53 base/info_openbsd.cpp:49
 msgid "Information"
-msgstr ""
+msgstr "సమాచారం"
 
 #: base/info_aix.cpp:176 base/info_hpux.cpp:164 base/info_hpux.cpp:439
 #: base/info_linux.cpp:113 base/info_netbsd.cpp:53 base/info_openbsd.cpp:49
 #: base/info_solaris.cpp:697
 msgid "Value"
-msgstr ""
+msgstr "విలువ"
 
 #: base/info_aix.cpp:305 base/info_hpux.cpp:242 base/info_hpux.cpp:356
 #: base/info_linux.cpp:334 base/info_linux.cpp:445
 msgid "MB"
-msgstr ""
+msgstr "ఎంబి"
 
 #: base/info_aix.cpp:310 base/info_fbsd.cpp:277 base/info_fbsd.cpp:305
 #: base/info_hpux.cpp:361 base/info_linux.cpp:476 base/info_netbsd.cpp:161
 #: base/info_netbsd.cpp:273 base/info_openbsd.cpp:172
 #: base/info_openbsd.cpp:267 base/info_solaris.cpp:174
 msgid "Device"
-msgstr ""
+msgstr "పరికరం"
 
 #: base/info_aix.cpp:311 base/info_fbsd.cpp:277 base/info_hpux.cpp:362
 #: base/info_linux.cpp:476 base/info_netbsd.cpp:273 base/info_openbsd.cpp:267
@@ -64,14 +64,12 @@ msgstr ""
 #: base/info_linux.cpp:476 base/info_netbsd.cpp:273 base/info_openbsd.cpp:267
 #: base/info_solaris.cpp:174
 msgid "FS Type"
-msgstr ""
+msgstr "ఎఫ్ ఎస్ రకం"
 
 #: base/info_aix.cpp:313 base/info_hpux.cpp:364 base/info_linux.cpp:476
 #: base/info_netbsd.cpp:273 base/info_solaris.cpp:174
-#, fuzzy
-#| msgid "Icon &Size"
 msgid "Total Size"
-msgstr "(&S) ప్రతిమ పరిమాణం"
+msgstr "మొత్తం పరిమాణం"
 
 #: base/info_aix.cpp:314 base/info_hpux.cpp:365 base/info_linux.cpp:476
 #: base/info_netbsd.cpp:273 base/info_solaris.cpp:174
@@ -86,12 +84,12 @@ msgstr ""
 #: base/info_fbsd.cpp:81
 #, kde-format
 msgid "CPU %1: %2, %3 MHz"
-msgstr ""
+msgstr "సిపియు %1: %2, %3 ఎం హె"
 
 #: base/info_fbsd.cpp:83
 #, kde-format
 msgid "CPU %1: %2, unknown speed"
-msgstr ""
+msgstr "సిపియు %1: %2, తెలియని వేగం"
 
 #: base/info_fbsd.cpp:145
 msgid ""
@@ -141,10 +139,8 @@ msgid "PA-RISC Revision"
 msgstr ""
 
 #: base/info_hpux.cpp:168
-#, fuzzy
-#| msgid "Machine:"
 msgid "Machine"
-msgstr "యంత్రం:"
+msgstr "యంత్రం"
 
 #: base/info_hpux.cpp:175
 msgid "Model"
@@ -164,15 +160,15 @@ msgstr ""
 
 #: base/info_hpux.cpp:192
 msgid "CPU Clock"
-msgstr ""
+msgstr "సిపియు గడియారం"
 
 #: base/info_hpux.cpp:193 base/info_solaris.cpp:69
 msgid "MHz"
-msgstr ""
+msgstr "ఎం హె"
 
 #: base/info_hpux.cpp:226
 msgid "(unknown)"
-msgstr ""
+msgstr "(తెలియని)"
 
 #: base/info_hpux.cpp:230
 msgid "CPU Architecture"
@@ -196,7 +192,7 @@ msgstr ""
 
 #: base/info_hpux.cpp:245
 msgid "Bytes"
-msgstr ""
+msgstr "బైట్లు"
 
 #: base/info_hpux.cpp:246
 msgid "Size of One Page"
@@ -223,10 +219,8 @@ msgid "Vendor Number"
 msgstr ""
 
 #: base/info_hpux.cpp:454
-#, fuzzy
-#| msgid "Release:"
 msgid "Release"
-msgstr "విడుదల:"
+msgstr "విడుదల"
 
 #: base/info_hpux.cpp:457
 msgid "Byte Order"
@@ -373,10 +367,8 @@ msgid "Queue Length"
 msgstr ""
 
 #: base/info_hpux.cpp:546
-#, fuzzy
-#| msgid "Icon &Size"
 msgid "Block Size"
-msgstr "(&S) ప్రతిమ పరిమాణం"
+msgstr "బ్లాక్ పరిమాణం"
 
 #: base/info_hpux.cpp:548
 msgid "Stream Port (decimal)"
@@ -404,7 +396,7 @@ msgstr ""
 
 #: base/info_linux.cpp:206
 msgid "Devices"
-msgstr ""
+msgstr "పరికరాలు"
 
 #: base/info_linux.cpp:206
 msgid "Major Number"
@@ -428,7 +420,7 @@ msgstr ""
 
 #: base/info_netbsd.cpp:161 base/info_openbsd.cpp:172
 msgid "IRQ"
-msgstr ""
+msgstr "ఐ ఆర్ క్యూ"
 
 #: base/info_netbsd.cpp:179 base/info_openbsd.cpp:185
 msgid "No PCI devices found."
@@ -470,17 +462,17 @@ msgstr ""
 #: base/info_osx.cpp:72
 #, kde-format
 msgid "CPU %1: %2"
-msgstr ""
+msgstr "సిపియు %1: %2"
 
 #: base/info_osx.cpp:121
 #, kde-format
 msgid "Device Name: %1"
-msgstr ""
+msgstr "పరికరం పేరు: %1"
 
 #: base/info_osx.cpp:129
 #, kde-format
 msgid "Manufacturer: %1"
-msgstr ""
+msgstr "తయారిదారు: %1"
 
 #: base/info_solaris.cpp:69
 msgid "Instance"
@@ -488,11 +480,11 @@ msgstr ""
 
 #: base/info_solaris.cpp:69
 msgid "CPU Type"
-msgstr ""
+msgstr "సిపియు రకం"
 
 #: base/info_solaris.cpp:69
 msgid "FPU Type"
-msgstr ""
+msgstr "ఎఫ్ పి యు రకం"
 
 #: base/info_solaris.cpp:69
 msgid "State"
@@ -524,11 +516,11 @@ msgstr ""
 
 #: base/info_solaris.cpp:540
 msgid "(no value)"
-msgstr ""
+msgstr "(విలువ లేదు)"
 
 #: base/info_solaris.cpp:605
 msgid "Driver Name:"
-msgstr ""
+msgstr "డ్రైవర్ పేరు:"
 
 #: base/info_solaris.cpp:607
 msgid "(driver not attached)"
@@ -548,15 +540,15 @@ msgstr ""
 
 #: base/info_solaris.cpp:643
 msgid "Properties"
-msgstr ""
+msgstr "గుణాలు"
 
 #: base/info_solaris.cpp:657
 msgid "Type:"
-msgstr ""
+msgstr "రకం:"
 
 #: base/info_solaris.cpp:661
 msgid "Value:"
-msgstr ""
+msgstr "విలువ:"
 
 #: base/info_solaris.cpp:672
 msgid "Minor Nodes"
@@ -564,7 +556,7 @@ msgstr ""
 
 #: base/info_solaris.cpp:697
 msgid "Device Information"
-msgstr ""
+msgstr "పరికర సమాచారం"
 
 #: aboutwidget.cpp:38 main.cpp:91
 msgid "KDE Info Center"
@@ -647,7 +639,7 @@ msgstr "దాచని మార్పులు"
 
 #: indexwidget.cpp:45
 msgid "Filter:"
-msgstr ""
+msgstr "గలని:"
 
 #: main.cpp:92
 msgid "The KDE Info Center"
@@ -659,7 +651,7 @@ msgstr "(c) 1998-2004, కెడిఈ నియంత్రణ కేంద్�
 
 #: main.cpp:98
 msgid "Nicolas Ternisien"
-msgstr ""
+msgstr "నికొలాస్ టెర్నిసియన్"
 
 #: main.cpp:98
 msgid "Current Maintainer"
@@ -667,33 +659,31 @@ msgstr "ప్రస్తుత సంరక్షకుడు"
 
 #: main.cpp:99
 msgid "Helge Deller"
-msgstr ""
+msgstr "హెల్గె డెల్లర్"
 
 #: main.cpp:99
-#, fuzzy
-#| msgid "Current Maintainer"
 msgid "Previous Maintainer"
-msgstr "ప్రస్తుత సంరక్షకుడు"
+msgstr "ముందటి సంరక్షకుడు"
 
 #: main.cpp:100
 msgid "Matthias Hoelzer-Kluepfel"
-msgstr ""
+msgstr "మథయాస్ హొయెల్జర్-క్లూప్ఫెల్"
 
 #: main.cpp:101
 msgid "Matthias Elter"
-msgstr ""
+msgstr "మథయాస్ ఎల్టర్"
 
 #: main.cpp:102
 msgid "Matthias Ettrich"
-msgstr ""
+msgstr "మథయాస్ ఎట్ట్రిచ్"
 
 #: main.cpp:103
 msgid "Waldo Bastian"
-msgstr ""
+msgstr "వాల్డొ బాస్టియన్"
 
 #: moduletreeview.cpp:43 toplevel.cpp:221
 msgid "General Information"
-msgstr ""
+msgstr "సాధారణ సమాచారం"
 
 #: proxywidget.cpp:51
 msgid "The currently loaded configuration module."
@@ -715,7 +705,7 @@ msgstr "ప్రస్తుత మాడ్యూల్ గురించి"
 
 #: toplevel.cpp:126 toplevel.cpp:158 toplevel.cpp:223
 msgid "&Report Bug..."
-msgstr ""
+msgstr "(&R) తప్పును తెలీయచెయండి..."
 
 #: toplevel.cpp:146
 #, kde-format
@@ -726,4 +716,4 @@ msgstr "%1 గురించి"
 #: toplevel.cpp:160
 #, kde-format
 msgid "Report Bug on Module %1..."
-msgstr ""
+msgstr "%1 మాడ్యూల్ లొ తప్పును తెలీయచెయండి..."

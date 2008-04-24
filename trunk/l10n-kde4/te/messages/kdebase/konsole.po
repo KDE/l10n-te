@@ -17,16 +17,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: BookmarkHandler.cpp:134
-#, fuzzy, kde-format
-#| msgctxt "abbreviation of number"
-#| msgid "%1 No. %2"
+#, kde-format
 msgid "%1 on %2"
-msgstr "%1 నం. %2"
+msgstr "%2 మీద %1 "
 
 #: BookmarkHandler.cpp:136
 #, kde-format
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #: ColorScheme.cpp:93
 msgid "Foreground"
@@ -37,52 +35,36 @@ msgid "Background"
 msgstr ""
 
 #: ColorScheme.cpp:95
-#, fuzzy
-#| msgid "VIM Colors"
 msgid "Color 1"
-msgstr "విం రంగులు"
+msgstr "రంగు 1"
 
 #: ColorScheme.cpp:96
-#, fuzzy
-#| msgid "VIM Colors"
 msgid "Color 2"
-msgstr "విం రంగులు"
+msgstr "రంగు 2"
 
 #: ColorScheme.cpp:97
-#, fuzzy
-#| msgid "VIM Colors"
 msgid "Color 3"
-msgstr "విం రంగులు"
+msgstr "రంగు 3"
 
 #: ColorScheme.cpp:98
-#, fuzzy
-#| msgid "VIM Colors"
 msgid "Color 4"
-msgstr "విం రంగులు"
+msgstr "రంగు 4"
 
 #: ColorScheme.cpp:99
-#, fuzzy
-#| msgid "VIM Colors"
 msgid "Color 5"
-msgstr "విం రంగులు"
+msgstr "రంగు 5"
 
 #: ColorScheme.cpp:100
-#, fuzzy
-#| msgid "VIM Colors"
 msgid "Color 6"
-msgstr "విం రంగులు"
+msgstr "రంగు 6"
 
 #: ColorScheme.cpp:101
-#, fuzzy
-#| msgid "VIM Colors"
 msgid "Color 7"
-msgstr "విం రంగులు"
+msgstr "రంగు 7"
 
 #: ColorScheme.cpp:102
-#, fuzzy
-#| msgid "VIM Colors"
 msgid "Color 8"
-msgstr "విం రంగులు"
+msgstr "రంగు 8"
 
 #: ColorScheme.cpp:103
 msgid "Foreground (Intense)"
@@ -134,13 +116,11 @@ msgstr ""
 
 #: ColorSchemeEditor.cpp:82 ManageProfilesDialog.cpp:135
 msgid "Name"
-msgstr ""
+msgstr "పేరు"
 
 #: ColorSchemeEditor.cpp:82
-#, fuzzy
-#| msgid "VIM Colors"
 msgid "Color"
-msgstr "విం రంగులు"
+msgstr "రంగు"
 
 #: ColorSchemeEditor.cpp:104
 msgid ""
@@ -196,11 +176,9 @@ msgid ""
 msgstr ""
 
 #: EditProfileDialog.cpp:554
-#, fuzzy, kde-format
-#| msgctxt "abbreviation of number"
-#| msgid "%1 No. %2"
+#, kde-format
 msgid "%1, size %2"
-msgstr "%1 నం. %2"
+msgstr "%1, పరిమాణం %2"
 
 #: EditProfileDialog.cpp:658 EditProfileDialog.cpp:667
 msgid "New Color Scheme"
@@ -220,35 +198,31 @@ msgstr ""
 
 #: Filter.cpp:531
 msgid "Open Link"
-msgstr ""
+msgstr "లింకును తెరువు"
 
 #: Filter.cpp:532
 msgid "Copy Link Address"
-msgstr ""
+msgstr "లింకు చిరునామాను నకలుచెయి "
 
 #: Filter.cpp:536
 msgid "Send Email To..."
-msgstr ""
+msgstr "ఈ మెయిల్ పంపు ..."
 
 #: Filter.cpp:537
 msgid "Copy Email Address"
-msgstr ""
+msgstr "ఈ మెయిల్ చిరునామాను నకలుచెయి"
 
 #: HistorySizeDialog.cpp:49 SessionController.cpp:565
-#, fuzzy
-#| msgid "Save History"
 msgid "Scrollback Options"
-msgstr "చరిత్రను దాచు"
+msgstr ""
 
 #: HistorySizeDialog.cpp:62
 msgid "No scrollback"
 msgstr ""
 
 #: HistorySizeDialog.cpp:63
-#, fuzzy
-#| msgid "&Find in History..."
 msgid "Fixed size scrollback: "
-msgstr "(&F) చరిత్రలో వెతుకు..."
+msgstr ""
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 666
@@ -260,19 +234,15 @@ msgstr ""
 
 #: HistorySizeDialog.cpp:84
 msgid "lines"
-msgstr ""
+msgstr "వరుసలు"
 
 #: IncrementalSearchBar.cpp:53
-#, fuzzy
-#| msgid "C&lose Session"
 msgid "Close the search bar"
-msgstr "(&l) సెషన్ను మూసివేయి"
+msgstr ""
 
 #: IncrementalSearchBar.cpp:58
-#, fuzzy
-#| msgid "Find"
 msgid "Find:"
-msgstr "వెతుకు"
+msgstr "వెతుకు:"
 
 #: IncrementalSearchBar.cpp:62
 msgid "Enter the text to search for here"
@@ -280,7 +250,7 @@ msgstr ""
 
 #: IncrementalSearchBar.cpp:80
 msgid "Next"
-msgstr ""
+msgstr "తరువాత"
 
 #: IncrementalSearchBar.cpp:84
 msgid "Find the next match for the current search phrase"
@@ -288,7 +258,7 @@ msgstr ""
 
 #: IncrementalSearchBar.cpp:89
 msgid "Previous"
-msgstr ""
+msgstr "ముందు"
 
 #: IncrementalSearchBar.cpp:93
 msgid "Find the previous match for the current search phrase"
@@ -333,14 +303,12 @@ msgid "Key Combination"
 msgstr ""
 
 #: KeyBindingEditor.cpp:49
-#, fuzzy
-#| msgid "Save History"
 msgid "Output"
-msgstr "చరిత్రను దాచు"
+msgstr ""
 
 #: MainWindow.cpp:193
 msgid "New &Tab"
-msgstr ""
+msgstr "(&T) కొత్త టాబ్"
 
 #: MainWindow.cpp:199
 msgid "New &Window"
@@ -352,7 +320,7 @@ msgstr ""
 
 #: MainWindow.cpp:215
 msgid "&Bookmarks"
-msgstr ""
+msgstr "(&B) పేజీ గుర్తులు"
 
 #: MainWindow.cpp:226
 msgid "Show Menu Bar"
@@ -371,10 +339,8 @@ msgid "Confirm Close"
 msgstr ""
 
 #: MainWindow.cpp:323
-#, fuzzy
-#| msgid "Close the current session"
 msgid "Close Current Tab"
-msgstr "ప్రస్తుత సెషన్ను మూసివేయి"
+msgstr "ప్రస్తుత టాబ్ మూసివేయి"
 
 #: ManageProfilesDialog.cpp:47
 msgid "Manage Profiles"
@@ -390,13 +356,11 @@ msgstr ""
 
 #: ManageProfilesDialog.cpp:272
 msgid "New Profile"
-msgstr ""
+msgstr "కొత్త ప్రొఫైల్"
 
 #: Profile.cpp:142
-#, fuzzy
-#| msgid "&Bell"
 msgid "Shell"
-msgstr "(&B) గంట"
+msgstr "షెల్"
 
 #: ProfileList.cpp:48
 msgid "No profiles available"
@@ -416,7 +380,7 @@ msgstr ""
 
 #: Session.cpp:308
 msgid "Warning: "
-msgstr ""
+msgstr "హెచ్చరిక:"
 
 #: Session.cpp:345
 #, kde-format
@@ -450,10 +414,8 @@ msgid "Activity in session '%1'"
 msgstr ""
 
 #: Session.cpp:644
-#, fuzzy
-#| msgid "Find"
 msgid "Finished"
-msgstr "వెతుకు"
+msgstr "ముగిసింది"
 
 #: Session.cpp:653
 #, kde-format
@@ -461,13 +423,9 @@ msgid "Program '%1' exited with status %2."
 msgstr ""
 
 #: Session.cpp:655
-#, fuzzy, kde-format
-#| msgctxt "NAME OF TRANSLATORS"
-#| msgid "Your names"
+#, kde-format
 msgid "Program '%1' crashed."
 msgstr ""
-"విజయ్ కిరణ్ కముజు\n"
-"pavithran"
 
 #: Session.cpp:869
 msgid "ZModem Progress"
@@ -475,25 +433,23 @@ msgstr ""
 
 #: SessionController.cpp:451
 msgid "&Close Tab"
-msgstr ""
+msgstr "(&C) టాబ్ ను మూసివెయి"
 
 #: SessionController.cpp:457
 msgid "Open Browser Here"
-msgstr ""
+msgstr "బ్రౌజర్ ను ఇక్కడ తెరువు"
 
 #: SessionController.cpp:464
-#, fuzzy
-#| msgid "&Top"
 msgid "&Copy"
-msgstr "(&T) పైన"
+msgstr "(&C) నకలు"
 
 #: SessionController.cpp:468
 msgid "&Paste"
-msgstr ""
+msgstr "(&P) అతికించు"
 
 #: SessionController.cpp:481
 msgid "Paste Selection"
-msgstr ""
+msgstr "ఎంచుకొన్న దానిని అతికించు"
 
 #: SessionController.cpp:487
 msgid "&Rename Tab..."
@@ -504,16 +460,12 @@ msgid "Copy Input To..."
 msgstr ""
 
 #: SessionController.cpp:498
-#, fuzzy
-#| msgid "Clear &History"
 msgid "C&lear Display"
-msgstr "(&H) చరిత్రను చెరపివెయి"
+msgstr ""
 
 #: SessionController.cpp:503
-#, fuzzy
-#| msgid "Clear &History"
 msgid "Clear && Reset"
-msgstr "(&H) చరిత్రను చెరపివెయి"
+msgstr ""
 
 #: SessionController.cpp:508
 msgid "Monitor for &Activity"
@@ -529,43 +481,35 @@ msgstr ""
 
 #: SessionController.cpp:526
 msgid "Increase Text Size"
-msgstr ""
+msgstr "వచన పరిమాణం పెంచు"
 
 #: SessionController.cpp:532
 msgid "Decrease Text Size"
-msgstr ""
+msgstr "వచన పరిమాణం తగ్గించు"
 
 #: SessionController.cpp:538
-#, fuzzy
-#| msgid "Clear &History"
 msgid "Search Output..."
-msgstr "(&H) చరిత్రను చెరపివెయి"
+msgstr ""
 
 #: SessionController.cpp:547
-#, fuzzy
-#| msgid "Find"
 msgid "Find Next"
-msgstr "వెతుకు"
+msgstr "తరువాతది వెతుకు"
 
 #: SessionController.cpp:554
 msgid "Find Previous"
-msgstr ""
+msgstr "ముందటిది వెతుకు"
 
 #: SessionController.cpp:560
-#, fuzzy
-#| msgid "Save History"
 msgid "Save Output..."
-msgstr "చరిత్రను దాచు"
+msgstr ""
 
 #: SessionController.cpp:570
 msgid "Clear Scrollback"
 msgstr ""
 
 #: SessionController.cpp:574
-#, fuzzy
-#| msgid "Clear &History"
 msgid "Clear Scrollback && Reset"
-msgstr "(&H) చరిత్రను చెరపివెయి"
+msgstr ""
 
 #: SessionController.cpp:580
 msgid "Edit Current Profile..."
@@ -588,10 +532,9 @@ msgid "Enter new tab text:"
 msgstr ""
 
 #: SessionController.cpp:1176
-#, fuzzy, kde-format
-#| msgid "Save History"
+#, kde-format
 msgid "Save Output From %1"
-msgstr "చరిత్రను దాచు"
+msgstr ""
 
 #: SessionController.cpp:1187
 #, kde-format
@@ -607,28 +550,23 @@ msgstr ""
 
 #: SessionManager.cpp:759
 msgid "Number"
-msgstr ""
+msgstr "సంఖ్య"
 
 #: SessionManager.cpp:761
 msgid "Title"
 msgstr ""
 
 #: TabTitleFormatAction.cpp:34
-#, fuzzy
-#| msgctxt "NAME OF TRANSLATORS"
-#| msgid "Your names"
 msgid "Program Name"
-msgstr ""
-"విజయ్ కిరణ్ కముజు\n"
-"pavithran"
+msgstr "కార్యక్రమం పేరు"
 
 #: TabTitleFormatAction.cpp:35
 msgid "Current Directory (Short)"
-msgstr ""
+msgstr "ప్రస్తుత డైరక్టరి (చిన్న)"
 
 #: TabTitleFormatAction.cpp:36
 msgid "Current Directory (Long)"
-msgstr ""
+msgstr "ప్రస్తుత డైరక్టరి (పెద్ద)"
 
 #: TabTitleFormatAction.cpp:37 TabTitleFormatAction.cpp:46
 msgid "Window Title Set by Shell"
@@ -636,24 +574,20 @@ msgstr ""
 
 #: TabTitleFormatAction.cpp:38 TabTitleFormatAction.cpp:47
 msgid "Session number"
-msgstr ""
+msgstr "సెషన్ సంఖ్య"
 
 #: TabTitleFormatAction.cpp:43
-#, fuzzy
-#| msgctxt "NAME OF TRANSLATORS"
-#| msgid "Your names"
 msgid "User Name"
 msgstr ""
-"విజయ్ కిరణ్ కముజు\n"
-"pavithran"
+"యూజర్ పేరు"
 
 #: TabTitleFormatAction.cpp:44
 msgid "Remote Host (Short)"
-msgstr ""
+msgstr "రిమొట్ హొస్ట్ (చిన్న)"
 
 #: TabTitleFormatAction.cpp:45
 msgid "Remote Host (Long)"
-msgstr ""
+msgstr "రిమొట్ హొస్ట్ (పెద్ద)"
 
 #: TerminalDisplay.cpp:1071 TerminalDisplay.cpp:1072
 msgid "Size: XXX x XXX"
@@ -671,8 +605,6 @@ msgid ""
 msgstr ""
 
 #: ViewContainer.cpp:256
-#, fuzzy
-#| msgid "New "
 msgid "New"
 msgstr "కొత్త"
 
@@ -711,18 +643,14 @@ msgid "Split View Top/Bottom"
 msgstr ""
 
 #: ViewManager.cpp:139
-#, fuzzy
-#| msgid "C&lose Session"
 msgctxt "@action:inmenu Close Active View"
 msgid "Close Active"
-msgstr "(&l) సెషన్ను మూసివేయి"
+msgstr ""
 
 #: ViewManager.cpp:148
-#, fuzzy
-#| msgid "C&lose Session"
 msgctxt "@action:inmenu Close Other Views"
 msgid "Close Others"
-msgstr "(&l) సెషన్ను మూసివేయి"
+msgstr "ఇతరులను మూసివేయి"
 
 #: ViewManager.cpp:158
 msgid "&Detach View"
@@ -755,11 +683,11 @@ msgstr ""
 
 #: main.cpp:64
 msgid "Konsole"
-msgstr "కన్సోల్"
+msgstr "కాన్సోల్"
 
 #: main.cpp:66
 msgid "Terminal emulator"
-msgstr ""
+msgstr "టెర్మినల్ ఎములెటర్"
 
 #: main.cpp:114
 msgid "Name of profile to use for new Konsole instance"
@@ -806,7 +734,7 @@ msgstr ""
 
 #: main.cpp:134
 msgid "Robert Knight"
-msgstr ""
+msgstr "రాబెర్ట్ నైట్"
 
 #: main.cpp:134
 msgid "Maintainer"
@@ -814,7 +742,7 @@ msgstr "సంరక్షకుడు"
 
 #: main.cpp:135
 msgid "Lars Doelle"
-msgstr ""
+msgstr "లార్స్ డొయెల్లి"
 
 #: main.cpp:135
 msgid "Author"
@@ -822,7 +750,7 @@ msgstr "మూలకర్త"
 
 #: main.cpp:136
 msgid "Kurt V. Hindenburg"
-msgstr ""
+msgstr "కర్ట్ వి. హిండెన్ బర్గ్"
 
 #: main.cpp:137 main.cpp:140 main.cpp:143
 msgid "Bug fixes and general improvements"
@@ -830,15 +758,15 @@ msgstr ""
 
 #: main.cpp:139
 msgid "Waldo Bastian"
-msgstr ""
+msgstr "వాల్డొ బాస్టియన్"
 
 #: main.cpp:142
 msgid "Stephan Binner"
-msgstr ""
+msgstr "స్టీఫెన్ బిన్నర్"
 
 #: main.cpp:145
 msgid "Chris Machemer"
-msgstr ""
+msgstr "క్రిస్ మెచెమర్"
 
 #: main.cpp:146 main.cpp:182 main.cpp:185 main.cpp:188 main.cpp:191
 msgid "Bug fixes"
@@ -846,13 +774,11 @@ msgstr ""
 
 #: main.cpp:148
 msgid "Stephan Kulow"
-msgstr ""
+msgstr "స్టీఫెన్ కులొ"
 
 #: main.cpp:149
-#, fuzzy
-#| msgid "Could not save history."
 msgid "Solaris support and history"
-msgstr "చరిత్రను దాచలేక పొయాను."
+msgstr ""
 
 #: main.cpp:151
 msgid "Alexander Neundorf"
@@ -864,7 +790,7 @@ msgstr ""
 
 #: main.cpp:154
 msgid "Peter Silva"
-msgstr ""
+msgstr "పీటర్ సిల్వ"
 
 #: main.cpp:155
 msgid "Marking improvements"
@@ -872,7 +798,7 @@ msgstr ""
 
 #: main.cpp:157
 msgid "Lotzi Boloni"
-msgstr ""
+msgstr "లొట్జి బొలొని"
 
 #: main.cpp:158
 msgid ""
@@ -882,7 +808,7 @@ msgstr ""
 
 #: main.cpp:161
 msgid "David Faure"
-msgstr ""
+msgstr "డెవిడ్ ఫారె"
 
 #: main.cpp:162
 msgid ""
@@ -892,7 +818,7 @@ msgstr ""
 
 #: main.cpp:165
 msgid "Antonio Larrosa"
-msgstr ""
+msgstr "అంటొనియొ లరొస్సా"
 
 #: main.cpp:166
 msgid "Visual effects"
@@ -900,7 +826,7 @@ msgstr ""
 
 #: main.cpp:168
 msgid "Matthias Ettrich"
-msgstr ""
+msgstr "మథైయాస్ ఎట్ట్రిచ్"
 
 #: main.cpp:169
 msgid ""
@@ -910,7 +836,7 @@ msgstr ""
 
 #: main.cpp:172
 msgid "Warwick Allison"
-msgstr ""
+msgstr "వార్విక్ ఎల్లిసన్"
 
 #: main.cpp:173
 msgid "Schema and text selection improvements"
@@ -918,35 +844,35 @@ msgstr ""
 
 #: main.cpp:175
 msgid "Dan Pilone"
-msgstr ""
+msgstr "డాన్ పిలొన్"
 
 #: main.cpp:176
 msgid "SGI port"
-msgstr ""
+msgstr "ఎస్ జి ఐ పొర్ట్"
 
 #: main.cpp:178
 msgid "Kevin Street"
-msgstr ""
+msgstr "కెవిన్ స్ట్రీట్"
 
 #: main.cpp:179
 msgid "FreeBSD port"
-msgstr ""
+msgstr "ఫ్రి బి ఎస్ డి పొర్ట్"
 
 #: main.cpp:181
 msgid "Sven Fischer"
-msgstr ""
+msgstr "స్వెన్ ఫిషర్"
 
 #: main.cpp:184
 msgid "Dale M. Flaven"
-msgstr ""
+msgstr "డెల్ ఎం. ఫ్లావెన్"
 
 #: main.cpp:187
 msgid "Martin Jones"
-msgstr ""
+msgstr "మార్టిన్ జొన్స్"
 
 #: main.cpp:190
 msgid "Lars Knoll"
-msgstr ""
+msgstr "లార్స్ క్నొల్"
 
 #: main.cpp:193
 msgid "Thanks to many others.\n"
@@ -962,7 +888,7 @@ msgstr ""
 #. i18n: file ./KeyBindingEditor.ui line 30
 #: rc.cpp:3 rc.cpp:342 rc.cpp:728 rc.cpp:740
 msgid "Description:"
-msgstr ""
+msgstr "వర్ణన:"
 
 #. i18n: tag string
 #. i18n: file ColorSchemeEditor.ui line 41
@@ -994,7 +920,7 @@ msgstr ""
 #. i18n: file ./CopyInputDialog.ui line 13
 #: rc.cpp:15 rc.cpp:809
 msgid "Form"
-msgstr ""
+msgstr "ఫారం"
 
 #. i18n: tag string
 #. i18n: file CopyInputDialog.ui line 21
@@ -1002,7 +928,7 @@ msgstr ""
 #. i18n: file ./CopyInputDialog.ui line 21
 #: rc.cpp:18 rc.cpp:812
 msgid "Filter:"
-msgstr ""
+msgstr "గలని:"
 
 #. i18n: tag string
 #. i18n: file CopyInputDialog.ui line 48
@@ -1030,7 +956,7 @@ msgstr ""
 #. i18n: file ./EditProfileDialog.ui line 46
 #: rc.cpp:27 rc.cpp:30 rc.cpp:413 rc.cpp:416
 msgid "General"
-msgstr ""
+msgstr "సాధారణ"
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 55
@@ -1038,7 +964,7 @@ msgstr ""
 #. i18n: file ./EditProfileDialog.ui line 55
 #: rc.cpp:33 rc.cpp:419
 msgid "Profile name:"
-msgstr ""
+msgstr "ప్రొఫైల్ పేరు:"
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 65
@@ -1097,7 +1023,7 @@ msgstr ""
 #. i18n: file ./EditProfileDialog.ui line 109
 #: rc.cpp:54 rc.cpp:440
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 116
@@ -1105,7 +1031,7 @@ msgstr ""
 #. i18n: file ./EditProfileDialog.ui line 116
 #: rc.cpp:57 rc.cpp:443
 msgid "Icon:"
-msgstr ""
+msgstr "ప్రతిమ:"
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 144
@@ -1144,10 +1070,8 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./EditProfileDialog.ui line 806
 #: rc.cpp:69 rc.cpp:138 rc.cpp:243 rc.cpp:455 rc.cpp:524 rc.cpp:629
-#, fuzzy
-#| msgid "&Edit..."
 msgid "Edit..."
-msgstr "(&E) మార్చు..."
+msgstr "మార్చు..."
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 193
@@ -1162,10 +1086,8 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./EditProfileDialog.ui line 203
 #: rc.cpp:75 rc.cpp:461
-#, fuzzy
-#| msgid "New &Window"
 msgid "Window"
-msgstr "(&W) కొత్త విండొ"
+msgstr "విండొ"
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 218
@@ -1189,7 +1111,7 @@ msgstr ""
 #. i18n: file ./EditProfileDialog.ui line 253
 #: rc.cpp:84 rc.cpp:470
 msgid "Tabs"
-msgstr ""
+msgstr "టాబ్ లు"
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 259
@@ -1266,20 +1188,16 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./EditProfileDialog.ui line 325
 #: rc.cpp:114 rc.cpp:500
-#, fuzzy
-#| msgid "&Tab Bar"
 msgid "Tab Bar"
-msgstr "(&T) టాబ్ బార్"
+msgstr "టాబ్ బార్"
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 334
 #. i18n: tag string
 #. i18n: file ./EditProfileDialog.ui line 334
 #: rc.cpp:117 rc.cpp:503
-#, fuzzy
-#| msgid "Clear &History"
 msgid "Tab bar display:"
-msgstr "(&H) చరిత్రను చెరపివెయి"
+msgstr ""
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 354
@@ -1323,7 +1241,7 @@ msgstr ""
 #. i18n: file ./EditProfileDialog.ui line 796
 #: rc.cpp:132 rc.cpp:237 rc.cpp:518 rc.cpp:623
 msgid "New..."
-msgstr ""
+msgstr "కొత్త..."
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 434
@@ -1363,7 +1281,7 @@ msgstr ""
 #. i18n: file ./EditProfileDialog.ui line 474
 #: rc.cpp:147 rc.cpp:533
 msgid "Font"
-msgstr ""
+msgstr "అక్షర శైలి"
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 485
@@ -1371,7 +1289,7 @@ msgstr ""
 #. i18n: file ./EditProfileDialog.ui line 485
 #: rc.cpp:150 rc.cpp:536
 msgid "Preview:"
-msgstr ""
+msgstr "ముందు వీక్షణం:"
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 498
@@ -1387,7 +1305,7 @@ msgstr ""
 #. i18n: file ./EditProfileDialog.ui line 509
 #: rc.cpp:156 rc.cpp:542
 msgid "Text size:"
-msgstr ""
+msgstr "వచన పరిమాణం:"
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 519
@@ -1395,7 +1313,7 @@ msgstr ""
 #. i18n: file ./EditProfileDialog.ui line 519
 #: rc.cpp:159 rc.cpp:545
 msgid "Small"
-msgstr ""
+msgstr "చిన్న"
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 526
@@ -1411,7 +1329,7 @@ msgstr ""
 #. i18n: file ./EditProfileDialog.ui line 542
 #: rc.cpp:165 rc.cpp:551
 msgid "Large"
-msgstr ""
+msgstr "పెద్ద"
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 549
@@ -1446,10 +1364,8 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./EditProfileDialog.ui line 586
 #: rc.cpp:177 rc.cpp:180 rc.cpp:563 rc.cpp:566
-#, fuzzy
-#| msgid "Sc&rollbar"
 msgid "Scrolling"
-msgstr "(&r) స్క్రోల్ బార్"
+msgstr ""
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 601
@@ -1504,10 +1420,8 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./EditProfileDialog.ui line 676
 #: rc.cpp:204 rc.cpp:590
-#, fuzzy
-#| msgid "Sc&rollbar"
 msgid "Scroll Bar "
-msgstr "(&r) స్క్రోల్ బార్"
+msgstr "స్క్రోల్ బార్"
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 691
@@ -1523,7 +1437,7 @@ msgstr ""
 #. i18n: file ./EditProfileDialog.ui line 694
 #: rc.cpp:210 rc.cpp:596
 msgid "Show on left side"
-msgstr ""
+msgstr "ఎడమ వైపు చూపు"
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 707
@@ -1554,10 +1468,8 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./EditProfileDialog.ui line 726
 #: rc.cpp:222 rc.cpp:608
-#, fuzzy
-#| msgid "&Hide"
 msgid "Hidden"
-msgstr "(&H) దాగు"
+msgstr "దాగిన"
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 758
@@ -1723,10 +1635,8 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./EditProfileDialog.ui line 963
 #: rc.cpp:291 rc.cpp:677
-#, fuzzy
-#| msgid "Save History"
 msgid "Cursor"
-msgstr "చరిత్రను దాచు"
+msgstr "కర్సర్"
 
 #. i18n: tag string
 #. i18n: file EditProfileDialog.ui line 978
@@ -1854,7 +1764,7 @@ msgstr ""
 #. i18n: file ./EditProfileDialog.ui line 1105
 #: rc.cpp:339 rc.cpp:725
 msgid "Select"
-msgstr ""
+msgstr "ఎంచుకొ"
 
 #. i18n: tag string
 #. i18n: file KeyBindingEditor.ui line 54
@@ -1870,7 +1780,7 @@ msgstr ""
 #. i18n: file ./KeyBindingEditor.ui line 83
 #: rc.cpp:351 rc.cpp:749
 msgid "Test Area"
-msgstr ""
+msgstr "పరీక్షా స్థలం"
 
 #. i18n: tag string
 #. i18n: file KeyBindingEditor.ui line 92
@@ -1902,7 +1812,7 @@ msgstr ""
 #. i18n: file ./ManageProfilesDialog.ui line 31
 #: rc.cpp:363 rc.cpp:788
 msgid "New Profile..."
-msgstr ""
+msgstr "కొత్త ప్రొఫైల్..."
 
 #. i18n: tag string
 #. i18n: file ManageProfilesDialog.ui line 41
@@ -1918,7 +1828,7 @@ msgstr ""
 #. i18n: file ./ManageProfilesDialog.ui line 44
 #: rc.cpp:369 rc.cpp:794
 msgid "Edit Profile..."
-msgstr ""
+msgstr "ప్రొఫైల్ ను మార్చు..."
 
 #. i18n: tag string
 #. i18n: file ManageProfilesDialog.ui line 54
@@ -1934,7 +1844,7 @@ msgstr ""
 #. i18n: file ./ManageProfilesDialog.ui line 57
 #: rc.cpp:375 rc.cpp:800
 msgid "Delete Profile"
-msgstr ""
+msgstr "ప్రొఫైల్ తొలగించు"
 
 #. i18n: tag string
 #. i18n: file ManageProfilesDialog.ui line 67
@@ -1949,10 +1859,8 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./ManageProfilesDialog.ui line 70
 #: rc.cpp:381 rc.cpp:806
-#, fuzzy
-#| msgid "&Save as Default"
 msgid "Set as Default"
-msgstr "(&S) అప్రమేయంలా దాచు"
+msgstr "అప్రమేయం చెయి"
 
 #. i18n: tag string
 #. i18n: file RemoteConnectionDialog.ui line 25
@@ -1968,7 +1876,7 @@ msgstr ""
 #. i18n: file ./RemoteConnectionDialog.ui line 31
 #: rc.cpp:387 rc.cpp:761
 msgid "Host:"
-msgstr ""
+msgstr "హొస్ట్:"
 
 #. i18n: tag string
 #. i18n: file RemoteConnectionDialog.ui line 41
@@ -1976,7 +1884,7 @@ msgstr ""
 #. i18n: file ./RemoteConnectionDialog.ui line 41
 #: rc.cpp:390 rc.cpp:764
 msgid "User:"
-msgstr ""
+msgstr "యూజర్:"
 
 #. i18n: tag string
 #. i18n: file RemoteConnectionDialog.ui line 58
@@ -2000,7 +1908,7 @@ msgstr ""
 #. i18n: file ./RemoteConnectionDialog.ui line 73
 #: rc.cpp:399 rc.cpp:773
 msgid "SSH"
-msgstr ""
+msgstr "ఎస్ ఎస్ హెచ్"
 
 #. i18n: tag string
 #. i18n: file RemoteConnectionDialog.ui line 78
@@ -2044,31 +1952,27 @@ msgstr ""
 #. i18n: file ../desktop/sessionui.rc line 42
 #: rc.cpp:821
 msgid "Debug"
-msgstr ""
+msgstr "డీబగ్"
 
 #. i18n: tag text
 #. i18n: file ../desktop/partui.rc line 8
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 18
 #: rc.cpp:827 rc.cpp:839
-#, fuzzy
-#| msgid "Save History"
 msgid "Scrollback"
-msgstr "చరిత్రను దాచు"
+msgstr ""
 
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 5
 #: rc.cpp:833
 msgid "File"
-msgstr ""
+msgstr "దస్త్రం"
 
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 15
 #: rc.cpp:836
-#, fuzzy
-#| msgid "&Edit..."
 msgid "Edit"
-msgstr "(&E) మార్చు..."
+msgstr "మార్చు"
 
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 21
@@ -2092,7 +1996,7 @@ msgstr "అమరికలు"
 #. i18n: file ../desktop/konsoleui.rc line 47
 #: rc.cpp:851
 msgid "Help"
-msgstr ""
+msgstr "సహాయం"
 
 #: schemas.cpp:1
 msgid "Black on Light Yellow"
@@ -2107,10 +2011,8 @@ msgid "White on Black"
 msgstr "నలుపు మీద తెలుపు"
 
 #: schemas.cpp:4
-#, fuzzy
-#| msgid "Black on Light Yellow"
 msgid "Black on Random Light"
-msgstr "లేత పసుపు మీద నలుపు"
+msgstr ""
 
 #: schemas.cpp:5
 msgid "Dark Pastels"
@@ -2125,23 +2027,17 @@ msgid "Linux Colors"
 msgstr "లినక్స్ రంగులు"
 
 #: schemas.cpp:8
-#, fuzzy
-#| msgid "XTerm (XFree 4.x.x)"
 msgid "Default (XFree 4)"
-msgstr "ఎక్స్ టెర్మ్ (ఎక్స్ ఫ్రీ 4.x.x)"
+msgstr "అప్రమెయం (ఎక్స్ ఫ్రీ 4)"
 
 #: schemas.cpp:9
-#, fuzzy
-#| msgid "linux console"
 msgid "Linux console"
 msgstr "లినక్స్ కన్సోల్"
 
 #: schemas.cpp:10
-#, fuzzy
-#| msgid "linux console"
 msgid "Solaris console"
-msgstr "లినక్స్ కన్సోల్"
+msgstr "సొలారిస్ కన్సోల్"
 
 #: schemas.cpp:11
 msgid "DEC VT420 Terminal"
-msgstr ""
+msgstr "డిఈసి విటి420 టెర్మినల్"
