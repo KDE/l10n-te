@@ -18,7 +18,7 @@ msgstr ""
 #: gamewidget.cpp:119
 #, kde-format
 msgid "Level %1 finished. "
-msgstr ""
+msgstr "%1 స్థాయి పూర్తైంది."
 
 #: gamewidget.cpp:123
 msgid "Congratulations! You have a new highscore!"
@@ -44,7 +44,7 @@ msgstr ""
 
 #: gamewidget.cpp:230
 msgid "Warning"
-msgstr ""
+msgstr "హెచ్చరిక"
 
 #: levelnames.cpp:1
 msgid "Water"
@@ -100,7 +100,7 @@ msgstr "ఫార్మాల్డిహైడ్"
 
 #: levelnames.cpp:14
 msgid "Crystal 1"
-msgstr ""
+msgstr "స్ఫటికం 1"
 
 #: levelnames.cpp:15
 msgid "Acetic acid ethyl ester"
@@ -148,7 +148,7 @@ msgstr "ఇథెన్"
 
 #: levelnames.cpp:26
 msgid "Crystal 2"
-msgstr ""
+msgstr "స్ఫటికం 2"
 
 #: levelnames.cpp:27
 msgid "Ethylene-Glycol"
@@ -236,7 +236,7 @@ msgstr "వానిల్లిన్"
 
 #: levelnames.cpp:49
 msgid "Crystal 3"
-msgstr ""
+msgstr "స్ఫటికం 3"
 
 #: levelnames.cpp:50
 msgid "Uric Acid"
@@ -260,7 +260,7 @@ msgstr "కార్బానిక్ ఆసిడ్"
 
 #: levelnames.cpp:55
 msgid "Crystal 4"
-msgstr ""
+msgstr "స్ఫటికం 4"
 
 #: levelnames.cpp:56
 msgid "Ethanol"
@@ -288,7 +288,7 @@ msgstr "మెసొ-టార్టారిక్ ఆసిడ్"
 
 #: levelnames.cpp:62
 msgid "Crystal 5"
-msgstr ""
+msgstr "స్ఫటికం 5"
 
 #: levelnames.cpp:63
 msgid "Formic acid ethyl ester"
@@ -307,10 +307,8 @@ msgid "Ascorbic acid"
 msgstr "ఆస్కార్బిక్ ఆసిడ్"
 
 #: levelnames.cpp:67
-#, fuzzy
-#| msgid "Propanal"
 msgid "Propan-2-ol"
-msgstr "ప్రొపెనాల్"
+msgstr "ప్రొపన్-2-ఆల్"
 
 #: levelnames.cpp:68
 msgid "Phosgene"
@@ -382,47 +380,47 @@ msgstr "కెఆటామిక్"
 
 #: main.cpp:44
 msgid "(c) 1998, Andreas Wuest"
-msgstr ""
+msgstr "(c) 1998, ఆండ్రియాస్ వుయెస్ట్"
 
 #: main.cpp:45
 msgid "Andreas Wuest"
-msgstr ""
+msgstr "ఆండ్రియాస్ వుయెస్ట్"
 
 #: main.cpp:46
 msgid "Stephan Kulow"
-msgstr ""
+msgstr "స్టీఫెన్ కులొ"
 
 #: main.cpp:47
 msgid "Cristian Tibirna"
-msgstr ""
+msgstr "క్రిస్టియన్ టిబిర్న"
 
 #: main.cpp:48
 msgid "Dmitry Suzdalev"
-msgstr ""
+msgstr "డ్మిత్రి  సుజ్దలెవ్"
 
 #: main.cpp:48
 msgid "Porting to KDE4. Current maintainer"
-msgstr ""
+msgstr "కెడిఈ 4 కు పోర్ట్ చెయబడుతుంది. ప్రస్తుత సంరక్షకుడు"
 
 #: main.cpp:49
 msgid "Carsten Pfeiffer"
-msgstr ""
+msgstr "కార్స్టెన్ ఫెయిఫెర్"
 
 #: main.cpp:50
 msgid "Dave Corrie"
-msgstr ""
+msgstr "డెవ్ కొర్రి"
 
 #: main.cpp:51
 msgid "Kai Jung"
-msgstr ""
+msgstr "కాయ్ జంగ్"
 
 #: main.cpp:51
 msgid "6 new levels"
-msgstr ""
+msgstr "6 కొత్త స్థాయిలు"
 
 #: main.cpp:52
 msgid "Danny Allen"
-msgstr ""
+msgstr "డాన్ని ఎల్లెన్"
 
 #: main.cpp:52
 msgid "Game graphics and application icon"
@@ -430,7 +428,7 @@ msgstr ""
 
 #: main.cpp:53
 msgid "Johann Ollivier Lapeyre"
-msgstr ""
+msgstr "జొహాన్ ఒల్లివియెర్ లపెర్"
 
 #: main.cpp:53
 msgid "New great SVG artwork for KDE4"
@@ -448,13 +446,13 @@ msgstr "పేరు లేనిది"
 #. i18n: file katomic.kcfg line 9
 #: rc.cpp:3
 msgid "The speed of the animations."
-msgstr ""
+msgstr "ఎనిమేషన్ల వేగం."
 
 #. i18n: tag label
 #. i18n: file katomic.kcfg line 18
 #: rc.cpp:6
 msgid "Last Played Level"
-msgstr ""
+msgstr "చివరగా ఆడిన స్థాయి"
 
 #. i18n: tag label
 #. i18n: file katomic.kcfg line 22
@@ -478,7 +476,7 @@ msgstr ""
 #. i18n: file katomicui.rc line 10
 #: rc.cpp:18
 msgid "&Settings"
-msgstr ""
+msgstr "(&S) అమరికలు"
 
 #. i18n: tag text
 #. i18n: file katomicui.rc line 19
@@ -487,24 +485,23 @@ msgid "Main Toolbar"
 msgstr ""
 
 #: rc.cpp:22
-#, fuzzy
-#| msgid "Noname"
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "పేరు లేనిది"
+msgstr ""
+"విజయ్ కిరణ్ కముజు\nవీ. నరేష్ కుమార్"
 
 #: rc.cpp:23
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "infyquest@gmail.com\ncyan_00391@yahoo.co.in"
 
 #: toplevel.cpp:52
 msgid "Level:"
-msgstr ""
+msgstr "స్థాయి:"
 
 #: toplevel.cpp:54
 msgid "Current score:"
-msgstr ""
+msgstr "ప్రస్తుత స్కోరు:"
 
 #: toplevel.cpp:55
 msgid "Highscore:"
@@ -512,29 +509,27 @@ msgstr "అత్యధిక స్కోరు:"
 
 #: toplevel.cpp:97
 msgid "Previous Level"
-msgstr ""
+msgstr "వెనుకటి స్థాయి"
 
 #: toplevel.cpp:104
 msgid "Next Level"
-msgstr ""
+msgstr "ముందటి స్థాయి"
 
 #: toplevel.cpp:110
-#, fuzzy
-#| msgid "Animation speed:"
 msgid "Animation Speed"
 msgstr "యానిమేషన్ వేగము"
 
 #: toplevel.cpp:113
 msgid "Slow"
-msgstr ""
+msgstr "నెమ్మది"
 
 #: toplevel.cpp:113
 msgid "Normal"
-msgstr ""
+msgstr "సాధారణ"
 
 #: toplevel.cpp:113
 msgid "Fast"
-msgstr ""
+msgstr "వేగం"
 
 #: toplevel.cpp:119
 msgid "Undo All"
@@ -571,15 +566,14 @@ msgstr ""
 #: toplevel.cpp:189
 #, kde-format
 msgid "Level: %1"
-msgstr ""
+msgstr "స్థాయి: %1"
 
 #: toplevel.cpp:190
 #, kde-format
 msgid "Current score: %1"
-msgstr ""
+msgstr "ప్రస్తుత స్కోరు: %1"
 
 #: toplevel.cpp:196
-#, fuzzy, kde-format
-#| msgid "Highscore:"
+#, kde-format
 msgid "Highscore: %1"
-msgstr "అత్యధిక స్కోరు:"
+msgstr "అత్యధిక స్కోరు: %1"
