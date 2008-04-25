@@ -1799,17 +1799,12 @@ msgid "Error writing to PTY"
 msgstr ""
 
 #: kpty/kptydevice.cpp:391
-#, fuzzy
-#| msgctxt "Socket error code Timeout"
-#| msgid "timed operation timed out"
 msgid "PTY operation timed out"
-msgstr "సమయపు కార్యానికి సమయం అయిపొయినది"
+msgstr "పిటివై కార్యానికి సమయం అయిపొయినది"
 
 #: kpty/kptydevice.cpp:446 kpty/kptydevice.cpp:460
-#, fuzzy
-#| msgid "Error opening file."
 msgid "Error opening PTY"
-msgstr "దస్త్రం తెరచుటలో దోషము."
+msgstr "పిటివై తెరచుటలో దోషము."
 
 #: kdecore/kde-config.cpp:56
 msgid "kde4-config"
@@ -1821,7 +1816,7 @@ msgstr "స్థాపణ దారులు చూపేందుకు చి
 
 #: kdecore/kde-config.cpp:59
 msgid "(C) 2000 Stephan Kulow"
-msgstr ""
+msgstr "(C) 2000 స్టీఫెన్ కులొ"
 
 #: kdecore/kde-config.cpp:63
 msgid "Left for legacy support"
@@ -2952,11 +2947,9 @@ msgid "Jalali"
 msgstr "జలాలి"
 
 #: kdecore/date/kcalendarsystem.cpp:85
-#, fuzzy
-#| msgid "Invalid reference base"
 msgctxt "@item Calendar system"
 msgid "Invalid Calendar Type"
-msgstr "సరికాని సంబంద మూలం"
+msgstr "సరికాని కెలెండర్ రకం"
 
 #: kdecore/date/kdatetime.cpp:1476 kdecore/date/kdatetime.cpp:1486
 #: kdecore/date/kdatetime.cpp:2823 kdecore/localization/klocale.cpp:1731
@@ -2970,10 +2963,9 @@ msgid "pm"
 msgstr "మధ్యాహ్నము"
 
 #: kdecore/util/klibloader.cpp:98
-#, fuzzy, kde-format
-#| msgid "Link not found: \"%1\"."
+#, kde-format
 msgid "Library \"%1\" not found"
-msgstr "లింకు దొరకలేదు: \"%1\"."
+msgstr "\"%1\" లైబ్రరి దొరకలేదు"
 
 #: kdecore/util/klibloader.cpp:146
 msgid "No service matching the requirements was found."
@@ -3517,8 +3509,6 @@ msgstr ""
 "%1"
 
 #: kdecore/kernel/ktoolinvocation_x11.cpp:299
-#, fuzzy
-#| msgid "Could not Launch Mail Client"
 msgid "Could not Launch Terminal Client"
 msgstr "టెర్మినల్ క్లైంటు ని ప్రారంభించలేకపొయాను"
 
@@ -3773,14 +3763,17 @@ msgid "Cannot seek past eof"
 msgstr ""
 
 #: kdecore/services/kmimetype.cpp:58
-#, fuzzy, kde-format
-#| msgid "Could not find service '%1'."
+#, kde-format
 msgid "Could not find mime type <resource>%2</resource>"
 msgid_plural ""
 "Could not find mime types:\n"
 "<resource>%2</resource>"
-msgstr[0] "'%1' సేవ కనపడలేదు."
-msgstr[1] "'%1' సేవ కనపడలేదు."
+msgstr[0] ""
+"మైమ్ రకం కనపడలేదు:\n"
+"<resource>%2</resource>"
+msgstr[1] ""
+"మైమ్ రకాలు కనపడలేదు:\n"
+"<resource>%2</resource>"
 
 #: kdecore/services/kmimetype.cpp:129
 msgid ""
@@ -5013,43 +5006,39 @@ msgstr "(%1/s)"
 #, kde-format
 msgid "%2 of %3 complete"
 msgid_plural "%2 of %3 complete"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%3 లొ %2 పూర్తైనది"
+msgstr[1] "%3 లొ %2 పూర్తైనది"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:296 kdeui/jobs/kwidgetjobtracker.cpp:308
 #, kde-format
 msgid "%2 / %1 folder"
 msgid_plural "%2 / %1 folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%2 / %1 ఫొల్డర్"
+msgstr[1] "%2 / %1 ఫొల్డర్లు"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:298 kdeui/jobs/kwidgetjobtracker.cpp:311
 #, kde-format
 msgid "%2 / %1 file"
 msgid_plural "%2 / %1 files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%2 / %1 దస్త్రం"
+msgstr[1] "%2 / %1 దస్త్రాలు"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:321
-#, fuzzy, kde-format
-#| msgctxt "Descriptive Encoding Name"
-#| msgid "%1 ( %2 )"
+#, kde-format
 msgid "%1 % of %2 "
-msgstr "%1 ( %2 )"
+msgstr " %2 లొ %1 % "
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:324
 #, kde-format
 msgid "%2 % of 1 file"
 msgid_plural "%2 % of %1 files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 దస్త్రం లొ %2 %"
+msgstr[1] "%1 దస్త్రాల లొ %2 %"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:326
-#, fuzzy, kde-format
-#| msgctxt "concatenation of dates and time"
-#| msgid "%1 %2"
+#, kde-format
 msgid "%1 %"
-msgstr "%1 %2"
+msgstr "%1 %"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:339
 #, fuzzy
@@ -5061,21 +5050,19 @@ msgstr "స్థితి"
 #, kde-format
 msgid "%2/s ( %3 remaining )"
 msgid_plural "%2/s ( %3 remaining )"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%2/సె ( %3 మిగినది )"
+msgstr[1] "%2/సె లు ( %3 మిగినది )"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:347
-#, fuzzy, kde-format
-#| msgid "(%1/s)"
+#, kde-format
 msgctxt "speed in bytes per second"
 msgid "%1/s"
-msgstr "(%1/s)"
+msgstr "(%1/సె)"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:368
-#, fuzzy, kde-format
-#| msgid "%1 (Link)"
+#, kde-format
 msgid "%1/s (done)"
-msgstr "%1 (లింకు)"
+msgstr "%1/సె (అయిపొయినది)"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:377
 #, fuzzy
@@ -5084,32 +5071,24 @@ msgid "Resume"
 msgstr "తొలగించు"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:419
-#, fuzzy
-#| msgid "Store"
 msgid "Source:"
-msgstr "దాచు"
+msgstr "మూలం:"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:427
-#, fuzzy
-#| msgid "Description:"
 msgid "Destination:"
-msgstr "వర్ణన:"
+msgstr "గమ్యం:"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:475
 msgid "&Keep this window open after transfer is complete"
 msgstr ""
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:484
-#, fuzzy
-#| msgid "Open a File"
 msgid "Open &File"
-msgstr "దస్త్రం తెరువండి"
+msgstr "(&F) దస్త్రం తెరువు"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:491
-#, fuzzy
-#| msgid "Orientation"
 msgid "Open &Destination"
-msgstr "దిశ"
+msgstr "(&D) గమ్యం తెరువు"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:508
 msgid "Progress Dialog"
@@ -5119,16 +5098,15 @@ msgstr ""
 #, kde-format
 msgid "%1 folder"
 msgid_plural "%1 folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ఫొల్డర్"
+msgstr[1] "%1 ఫొల్డర్లు"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:522
-#, fuzzy, kde-format
-#| msgid "Open file"
+#, kde-format
 msgid "%1 file"
 msgid_plural "%1 files"
-msgstr[0] "దస్త్రం తెరువండి"
-msgstr[1] "దస్త్రం తెరువండి"
+msgstr[0] "%1 దస్త్రం"
+msgstr[1] "%1 దస్త్రాలు"
 
 #: kdeui/util/kkeyserver.cpp:49
 msgid "Shift"
@@ -5147,8 +5125,6 @@ msgid "Meta"
 msgstr "మెటా"
 
 #: kdeui/util/kundostack.cpp:48
-#, fuzzy
-#| msgid "Redo"
 msgid "Redo"
 msgstr "పునరాచరణ"
 
@@ -6760,9 +6736,7 @@ msgid "No text was replaced."
 msgstr "వచనం ప్రతిస్థాపించబడలేదు."
 
 #: kdeui/findreplace/kreplace.cpp:140 kdeui/findreplace/kreplace.cpp:336
-#, fuzzy, kde-format
-#| msgid "1 replacement done."
-#| msgid_plural "%1 replacements done."
+#, kde-format
 msgid "1 replacement done."
 msgid_plural "%1 replacements done."
 msgstr[0] "1 ప్రతిస్థాపణ జరిగినది."
@@ -6822,9 +6796,7 @@ msgid "<qt>Find next occurrence of '<b>%1</b>'?</qt>"
 msgstr ""
 
 #: kdeui/findreplace/kfind.cpp:587 kdeui/findreplace/kfind.cpp:607
-#, fuzzy, kde-format
-#| msgid "1 match found."
-#| msgid_plural "%1 matches found."
+#, kde-format
 msgid "1 match found."
 msgid_plural "%1 matches found."
 msgstr[0] "1 జత కనపడింది."
@@ -9178,7 +9150,7 @@ msgstr ""
 
 #: kfile/kfileplaceeditdialog.cpp:127
 msgid "Choose an &icon:"
-msgstr ""
+msgstr "(&i) ప్రతిమను ఎంచుకోండి:"
 
 #: kfile/kfileplaceeditdialog.cpp:147
 #, kde-format
@@ -9199,6 +9171,8 @@ msgid ""
 "Create new folder in:\n"
 "%1"
 msgstr ""
+"%1 లో \n"
+"కొత్త ఫొల్డర్ను సృష్టించు"
 
 #: kfile/kdiroperator.cpp:696
 msgid "You did not select a file to delete."
@@ -9206,35 +9180,30 @@ msgstr ""
 
 #: kfile/kdiroperator.cpp:697
 msgid "Nothing to Delete"
-msgstr ""
+msgstr "తొలగించటాని ఏమి లేదు"
 
 #: kfile/kdiroperator.cpp:718
-#, fuzzy, kde-format
-#| msgid "Do you really want to execute '%1'? "
+#, kde-format
 msgid ""
 "<qt>Do you really want to delete\n"
 " <b>'%1'</b>?</qt>"
-msgstr "'%1' ను నిజంగా నడపమంటారా?"
-
+msgstr ""
+"<qt><b>'%1'</b> ను \n"
+" నిజంగా తొలగించనా?</qt>"
 #: kfile/kdiroperator.cpp:720
-#, fuzzy
-#| msgid "Delete All"
 msgid "Delete File"
-msgstr "అన్ని తొలగించుము"
+msgstr "దస్త్రం తొలగించుము"
 
 #: kfile/kdiroperator.cpp:725
-#, fuzzy, kde-format
-#| msgid "Do you really want to execute '%1'? "
+#, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
-msgstr[0] "'%1' ను నిజంగా నడపమంటారా?"
-msgstr[1] "'%1' ను నిజంగా నడపమంటారా?"
+msgstr[0] "ఈ అంశం ను నిజంగా తిసివేయనా?"
+msgstr[1] "%1 అంశాల ను నిజంగా తిసివేయనా?"
 
 #: kfile/kdiroperator.cpp:727
-#, fuzzy
-#| msgid "Delete item(s)"
 msgid "Delete Files"
-msgstr "అంశాలను తీసివేయండి"
+msgstr "దస్త్రాలను తీసివేయండి"
 
 #: kfile/kdiroperator.cpp:758
 msgid "You did not select a file to trash."
@@ -9242,7 +9211,7 @@ msgstr ""
 
 #: kfile/kdiroperator.cpp:759
 msgid "Nothing to Trash"
-msgstr ""
+msgstr "చెత్త బుట్ట లొ వెయటానికి ఏమి లేదు"
 
 #: kfile/kdiroperator.cpp:776
 #, fuzzy, kde-format
@@ -9250,162 +9219,125 @@ msgstr ""
 msgid ""
 "<qt>Do you really want to trash\n"
 " <b>'%1'</b>?</qt>"
-msgstr "'%1' ను నిజంగా నడపమంటారా?"
+msgstr ""
+"<qt><b>'%1'</b> ను \n"
+"నిజంగా చెత్త బుట్ట లొ వెయమంటారా?</qt>"
 
 #: kfile/kdiroperator.cpp:778
-#, fuzzy
-#| msgid "Trash"
 msgid "Trash File"
-msgstr "చెత్త బుట్ట"
+msgstr "దస్త్రంను చెత్త బుట్ట లొ వేయి"
 
 #: kfile/kdiroperator.cpp:779 kfile/kdiroperator.cpp:786
-#, fuzzy
-#| msgid "Trash"
 msgctxt "to trash"
 msgid "&Trash"
-msgstr "చెత్త బుట్ట"
+msgstr "(&T) చెత్త బుట్ట"
 
 #: kfile/kdiroperator.cpp:783
 #, kde-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
 msgstr[0] ""
-msgstr[1] ""
+msgstr[1] "%1 అంశాలను నిజంగా చెత్త బుట్ట లొ వెయమంటారా?"
 
 #: kfile/kdiroperator.cpp:785
-#, fuzzy
-#| msgid "Files"
 msgid "Trash Files"
-msgstr "దస్త్రములు"
+msgstr "దస్త్రాలను చెత్త బుట్ట లొ వేయి"
 
 #: kfile/kdiroperator.cpp:909 kfile/kdiroperator.cpp:1022
 msgid "The specified folder does not exist or was not readable."
 msgstr ""
 
 #: kfile/kdiroperator.cpp:1555
-#, fuzzy
-#| msgctxt "QAccel"
-#| msgid "Menu"
 msgid "Menu"
 msgstr "పట్టీ"
 
 #: kfile/kdiroperator.cpp:1559
-#, fuzzy
-#| msgid "Print header"
 msgid "Parent Folder"
-msgstr "హెడర్ను ప్రచురించు"
+msgstr ""
 
 #: kfile/kdiroperator.cpp:1566
-#, fuzzy
-#| msgid "Home Phone"
 msgid "Home Folder"
-msgstr "ఇంటి ఫోను"
+msgstr "గృహం ఫోల్డర్"
 
 #: kfile/kdiroperator.cpp:1569
 msgid "Reload"
 msgstr "తిరిగి ఎక్కించు"
 
 #: kfile/kdiroperator.cpp:1572
-#, fuzzy
-#| msgid "New file."
 msgid "New Folder..."
-msgstr "కొత్త దస్త్రం"
+msgstr "కొత్త ఫొల్డర్..."
 
 #: kfile/kdiroperator.cpp:1577
 msgid "Move to Trash"
-msgstr ""
+msgstr "చెత్త బుట్ట లొ వేయి"
 
 #: kfile/kdiroperator.cpp:1583
 msgid "Delete"
 msgstr "తొలగించు"
 
 #: kfile/kdiroperator.cpp:1590
-#, fuzzy
-#| msgid "Sort String"
 msgid "Sorting"
-msgstr "క్రమపరచు పదం"
+msgstr "క్రమపరచు"
 
 #: kfile/kdiroperator.cpp:1593
-#, fuzzy
-#| msgid "Name"
 msgid "By Name"
-msgstr "పేరు"
+msgstr "పేరు చె"
 
 #: kfile/kdiroperator.cpp:1597
-#, fuzzy
-#| msgid "Size"
 msgid "By Size"
-msgstr "పరిమాణము"
+msgstr "పరిమాణము చె"
 
 #: kfile/kdiroperator.cpp:1601
-#, fuzzy
-#| msgid "Dates"
 msgid "By Date"
-msgstr "తేదీలు"
+msgstr "తేదీలు చె"
 
 #: kfile/kdiroperator.cpp:1605
-#, fuzzy
-#| msgid "Type"
 msgid "By Type"
-msgstr "రకము"
+msgstr "రకము చె"
 
 #: kfile/kdiroperator.cpp:1609
 msgid "Descending"
-msgstr ""
+msgstr "అవరోహణం"
 
 #: kfile/kdiroperator.cpp:1619
 msgid "Short View"
-msgstr ""
+msgstr "చిన్న వీక్షణం"
 
 #: kfile/kdiroperator.cpp:1624
-#, fuzzy
-#| msgid "Details"
 msgid "Detailed View"
-msgstr "వివరములు"
+msgstr "వివరములతొ కూడిన వీక్షణం"
 
 #: kfile/kdiroperator.cpp:1633
-#, fuzzy
-#| msgid "&Send Files"
 msgid "Show Hidden Files"
-msgstr "(&S) దస్త్రములు పంపు"
+msgstr "దాగిన దస్త్రములు చూపు"
 
 #: kfile/kdiroperator.cpp:1637
 msgid "Show Preview"
-msgstr ""
+msgstr "ముందు వీక్షణం చూపు"
 
 #: kfile/kurltogglebutton.cpp:76
-#, fuzzy
-#| msgid "Click to select a font"
 msgid "Click for Location Navigation"
-msgstr "అక్షర రూపాన్ని ఎంచుకొనేందుకు క్లిక్ చెయండి"
+msgstr "స్థలంకు  వెళ్ళెందుకు క్లిక్ చెయండి"
 
 #: kfile/kurltogglebutton.cpp:78
-#, fuzzy
-#| msgid "Click to select a font"
 msgid "Click to Edit Location"
-msgstr "అక్షర రూపాన్ని ఎంచుకొనేందుకు క్లిక్ చెయండి"
+msgstr "స్థలం ఎంచుకొనేందుకు క్లిక్ చెయండి"
 
 #: kfile/kurlbutton.cpp:99 kross/ui/view.cpp:504
 msgid "Edit"
 msgstr "సరిదిద్దు"
 
 #: kfile/kurlbutton.cpp:102
-#, fuzzy
-#| msgid "Navigation"
 msgid "Navigate"
 msgstr "సంచారము"
 
 #: khtml/testkhtml.cpp:38
-#, fuzzy
-#| msgid "URL to open"
 msgid "URL to open"
-msgstr "యూఆర్ఎల్ తెరువు"
+msgstr "తెరువుటకు యూఆర్ఎల్"
 
 #: khtml/testkhtml.cpp:40
-#, fuzzy
-#| msgid "Test"
 msgid "Testkhtml"
-msgstr "పరీక్ష"
+msgstr "కె హెచ్ టి ఎం ఎల్ పరీక్ష"
 
 #: khtml/testkhtml.cpp:41
 msgid "a basic web browser using the KHTML library"
