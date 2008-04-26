@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-24 01:28+0200\n"
+"POT-Creation-Date: 2008-04-26 08:05+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -1786,7 +1786,7 @@ msgstr "తిరిగి ఎక్కించు"
 msgid "Do Not Reload"
 msgstr "మళ్లి ఎక్కించవద్దు"
 
-#: kded/kbuildsycoca.cpp:858
+#: kded/kbuildsycoca.cpp:859
 msgid "Configuration information reloaded successfully."
 msgstr "అమరిక సమాచారం సఫలంగా మళ్లి ఎక్కించడమైనది."
 
@@ -5132,24 +5132,24 @@ msgstr "పునరాచరణ"
 msgid "Undo"
 msgstr "సరిచేయు"
 
-#: kdeui/util/ksystemtrayicon.cpp:104
+#: kdeui/util/ksystemtrayicon.cpp:128
 msgid "Minimize"
 msgstr "చిన్నది చెయండి"
 
-#: kdeui/util/ksystemtrayicon.cpp:162
+#: kdeui/util/ksystemtrayicon.cpp:186
 msgid "&Minimize"
 msgstr "(&M) చిన్నది చెయండి"
 
-#: kdeui/util/ksystemtrayicon.cpp:166
+#: kdeui/util/ksystemtrayicon.cpp:190
 msgid "&Restore"
 msgstr "(&R) పునరుద్ధరణ"
 
-#: kdeui/util/ksystemtrayicon.cpp:186
+#: kdeui/util/ksystemtrayicon.cpp:210
 #, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr ""
 
-#: kdeui/util/ksystemtrayicon.cpp:189
+#: kdeui/util/ksystemtrayicon.cpp:213
 msgid "Confirm Quit From System Tray"
 msgstr ""
 
@@ -8995,7 +8995,7 @@ msgid ""
 "otherwise operate like bookmarks elsewhere in KDE.</qt>"
 msgstr ""
 
-#: kfile/kfileplacesmodel.cpp:88
+#: kfile/kfileplacesmodel.cpp:90
 #, fuzzy
 #| msgctxt "Home phone"
 #| msgid "Home"
@@ -9003,47 +9003,47 @@ msgctxt "Home Directory"
 msgid "Home"
 msgstr "గృహము"
 
-#: kfile/kfileplacesmodel.cpp:90
+#: kfile/kfileplacesmodel.cpp:92
 #, fuzzy
 #| msgid "New"
 msgid "Network"
 msgstr "కొత్త"
 
-#: kfile/kfileplacesmodel.cpp:94 kfile/kfileplacesmodel.cpp:97
+#: kfile/kfileplacesmodel.cpp:96 kfile/kfileplacesmodel.cpp:99
 #, fuzzy
 #| msgid "NoCARoot"
 msgid "Root"
 msgstr "సిఏరూట్ లేదు"
 
-#: kfile/kfileplacesmodel.cpp:100
+#: kfile/kfileplacesmodel.cpp:102
 msgid "Trash"
 msgstr "చెత్త బుట్ట"
 
-#: kfile/kfileplacesmodel.cpp:665
+#: kfile/kfileplacesmodel.cpp:667
 #, fuzzy, kde-format
 #| msgid "&Open with '%1'"
 msgid "&Eject '%1'"
 msgstr "(&O) దీనితో తెరువండి '%1'"
 
-#: kfile/kfileplacesmodel.cpp:667
+#: kfile/kfileplacesmodel.cpp:669
 #, fuzzy, kde-format
 #| msgid "&Remove"
 msgid "&Safely Remove '%1'"
 msgstr "(&R) తొలగించు"
 
-#: kfile/kfileplacesmodel.cpp:669
+#: kfile/kfileplacesmodel.cpp:671
 #, fuzzy, kde-format
 #| msgid "&About %1"
 msgid "&Unmount '%1'"
 msgstr "(&A) %1 గురించి"
 
-#: kfile/kfileplacesmodel.cpp:730
+#: kfile/kfileplacesmodel.cpp:732
 #, fuzzy, kde-format
 #| msgid "An error occurred while loading <B>%1</B>:"
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "<B>%1<B> ఎక్కించునప్పుడు దోషము వచ్చినది:"
 
-#: kfile/kfileplacesmodel.cpp:734
+#: kfile/kfileplacesmodel.cpp:736
 #, fuzzy, kde-format
 #| msgid "An error occurred while loading <B>%1</B>:"
 msgid "An error occurred while accessing '%1'"
@@ -9165,6 +9165,12 @@ msgid ""
 "entry will be available in all applications.</qt>"
 msgstr ""
 
+#: kfile/kfiletreeview.cpp:184
+#, fuzzy
+#| msgid "&Send Files"
+msgid "Show Hidden Folders"
+msgstr "(&S) దస్త్రములు పంపు"
+
 #: kfile/kdiroperator.cpp:652
 #, kde-format
 msgid ""
@@ -9190,6 +9196,7 @@ msgid ""
 msgstr ""
 "<qt><b>'%1'</b> ను \n"
 " నిజంగా తొలగించనా?</qt>"
+
 #: kfile/kdiroperator.cpp:720
 msgid "Delete File"
 msgstr "దస్త్రం తొలగించుము"
