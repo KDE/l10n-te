@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-12 06:05+0000\n"
+"POT-Creation-Date: 2008-05-16 01:18+0000\n"
 "PO-Revision-Date: 2007-03-22 13:41+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -4478,12 +4478,14 @@ msgstr ""
 #, fuzzy
 #| msgctxt "Query"
 #| msgid ""
-#| "http://www.ctan.org/tools/cataloguesearch?action=/search/&catstring=\\"
-#| "\\{@}"
+#| "http://tug.ctan.org/cgi-bin/filenameSearch.py?action=/search/&filename=\\"
+#| "\\{ at }"
 msgctxt "Query"
-msgid "http://www.ctan.org/tools/filesearch?action=/search/&filename=\\\\{@}"
+msgid ""
+"http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
 msgstr ""
-"http://www.ctan.org/tools/cataloguesearch?action=/search/&catstring=\\\\{@}"
+"http://tug.ctan.org/cgi-bin/filenameSearch.py?action=/search/&filename=\\"
+"\\{ at }"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/ctan_cat.desktop:3
 msgctxt "Name"
@@ -4491,11 +4493,18 @@ msgid "CTAN Catalog"
 msgstr ""
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/ctan_cat.desktop:68
+#, fuzzy
+#| msgctxt "Query"
+#| msgid ""
+#| "http://tug.ctan.org/cgi-bin/filenameSearch.py?action=/search/&filename=\\"
+#| "\\{ at }"
 msgctxt "Query"
 msgid ""
-"http://www.ctan.org/tools/cataloguesearch?action=/search/&catstring=\\\\{@}"
+"http://tug.ctan.org/cgi-bin/search.py?metadataSearch=\\\\{@}"
+"&metadataSearchSubmit=Search"
 msgstr ""
-"http://www.ctan.org/tools/cataloguesearch?action=/search/&catstring=\\\\{@}"
+"http://tug.ctan.org/cgi-bin/filenameSearch.py?action=/search/&filename=\\"
+"\\{ at }"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/dbug.desktop:3
 msgctxt "Name"
@@ -6843,6 +6852,56 @@ msgstr "మౌస్"
 msgctxt "Comment"
 msgid "Mouse settings"
 msgstr "మౌస్ అమరికలు"
+
+#: workspace/kcontrol/kdm/background/patterns/fish.desktop:2
+msgctxt "Comment"
+msgid "Fish Net"
+msgstr "చేపల వల"
+
+#: workspace/kcontrol/kdm/background/patterns/flowers.desktop:2
+msgctxt "Comment"
+msgid "Flowers"
+msgstr "పువ్వులు"
+
+#: workspace/kcontrol/kdm/background/patterns/night-rock.desktop:2
+msgctxt "Comment"
+msgid "Night Rock by Tigert"
+msgstr ""
+
+#: workspace/kcontrol/kdm/background/patterns/pavement.desktop:2
+msgctxt "Comment"
+msgid "Pavement"
+msgstr "తలవరుస"
+
+#: workspace/kcontrol/kdm/background/patterns/rattan.desktop:2
+msgctxt "Comment"
+msgid "Rattan"
+msgstr "రట్టాన్"
+
+#: workspace/kcontrol/kdm/background/patterns/stonewall2.desktop:2
+msgctxt "Comment"
+msgid "Stonewall 2 by Tigert"
+msgstr ""
+
+#: workspace/kcontrol/kdm/background/patterns/triangles.desktop:2
+msgctxt "Comment"
+msgid "Triangles"
+msgstr "త్రికొణాలు"
+
+#: workspace/kcontrol/kdm/background/programs/xearth.desktop:2
+msgctxt "Comment"
+msgid "XEarth by Kirk Johnson"
+msgstr ""
+
+#: workspace/kcontrol/kdm/background/programs/xglobe.desktop:2
+msgctxt "Comment"
+msgid "XGlobe by Thorsten Scheuermann"
+msgstr ""
+
+#: workspace/kcontrol/kdm/background/programs/xplanet.desktop:3
+msgctxt "Comment"
+msgid "XPlanet by Hari Nair"
+msgstr ""
 
 #: workspace/kcontrol/kdm/kdm.desktop:16
 msgctxt "Name"
@@ -10179,6 +10238,26 @@ msgid "System Settings"
 msgstr "అమరికలు"
 
 #, fuzzy
+#~| msgctxt "Query"
+#~| msgid ""
+#~| "http://www.ctan.org/tools/cataloguesearch?action=/search/&catstring=\\"
+#~| "\\{@}"
+#~ msgctxt "Query"
+#~ msgid ""
+#~ "http://www.ctan.org/tools/filesearch?action=/search/&filename=\\\\{@}"
+#~ msgstr ""
+#~ "http://www.ctan.org/tools/cataloguesearch?action=/search/&catstring=\\"
+#~ "\\{@}"
+
+#~ msgctxt "Query"
+#~ msgid ""
+#~ "http://www.ctan.org/tools/cataloguesearch?action=/search/&catstring=\\"
+#~ "\\{@}"
+#~ msgstr ""
+#~ "http://www.ctan.org/tools/cataloguesearch?action=/search/&catstring=\\"
+#~ "\\{@}"
+
+#, fuzzy
 #~| msgctxt "Name"
 #~| msgid "Togo"
 #~ msgctxt "X-KDE-PluginInfo-Category"
@@ -10764,26 +10843,6 @@ msgstr "అమరికలు"
 #~ msgid "KDE Web Desktop"
 #~ msgstr "కెడిఈ వెబ్ రంగస్థలం"
 
-#~ msgctxt "Comment"
-#~ msgid "Fish Net"
-#~ msgstr "చేపల వల"
-
-#~ msgctxt "Comment"
-#~ msgid "Flowers"
-#~ msgstr "పువ్వులు"
-
-#~ msgctxt "Comment"
-#~ msgid "Pavement"
-#~ msgstr "తలవరుస"
-
-#~ msgctxt "Comment"
-#~ msgid "Rattan"
-#~ msgstr "రట్టాన్"
-
-#~ msgctxt "Comment"
-#~ msgid "Triangles"
-#~ msgstr "త్రికొణాలు"
-
 #, fuzzy
 #~| msgctxt "Name"
 #~| msgid "XSoldier"
@@ -10926,14 +10985,6 @@ msgstr "అమరికలు"
 #~ msgctxt "Comment"
 #~ msgid "Screen saver demos"
 #~ msgstr "స్క్రీన్ సేవర్ డెమొలు"
-
-#~ msgctxt "Query"
-#~ msgid ""
-#~ "http://tug.ctan.org/cgi-bin/filenameSearch.py?action=/search/&filename=\\"
-#~ "\\{ at }"
-#~ msgstr ""
-#~ "http://tug.ctan.org/cgi-bin/filenameSearch.py?action=/search/&filename=\\"
-#~ "\\{ at }"
 
 #~ msgctxt "Query"
 #~ msgid ""
