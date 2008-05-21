@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-20 07:35+0200\n"
+"POT-Creation-Date: 2008-05-21 08:59+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -76,7 +76,7 @@ msgstr ""
 #: rc.cpp:23
 #, fuzzy
 #| msgid "Configuration"
-msgid "Colaborate"
+msgid "Collaborate"
 msgstr "అమరిక"
 
 #. i18n: tag label
@@ -254,9 +254,10 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/kcupsoptionspageswidget.ui line 95
-#. i18n: tag string
-#. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 80
-#: rc.cpp:95 rc.cpp:936
+#: rc.cpp:95
+#, fuzzy
+#| msgid "Start"
+msgctxt "Banner page at start"
 msgid "Start"
 msgstr "ప్రారంభం"
 
@@ -266,6 +267,7 @@ msgstr "ప్రారంభం"
 #, fuzzy
 #| msgctxt "keyboard-key-name"
 #| msgid "End"
+msgctxt "Banner page at end"
 msgid "End"
 msgstr "ముగింపు"
 
@@ -1643,8 +1645,7 @@ msgstr ""
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 90
 #: rc.cpp:788 rc.cpp:939 kdeui/util/kstandardguiitem.cpp:265
 #: kdeui/util/kkeyserver_x11.cpp:109 kdeui/findreplace/kreplace.cpp:353
-#: khtml/ecma/kjs_debugwin.cpp:482 khtml/ecma/debugger/debugwindow.cpp:186
-#: kross/ui/view.cpp:309
+#: khtml/ecma/kjs_debugwin.cpp:482 kross/ui/view.cpp:309
 msgid "Stop"
 msgstr "ఆగు"
 
@@ -1713,6 +1714,12 @@ msgstr ""
 #: rc.cpp:933
 msgid "Displays Thread Activity"
 msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 80
+#: rc.cpp:936
+msgid "Start"
+msgstr "ప్రారంభం"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 185
@@ -5877,9 +5884,9 @@ msgid "Top to Bottom, Right to Left"
 msgstr ""
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:191
-#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:212
-#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:235
-#: kdeui/dialogs/kshortcuteditwidget.cpp:58
+#, fuzzy
+#| msgid "None"
+msgctxt "No border line"
 msgid "None"
 msgstr "ఏదీ వద్దు"
 
@@ -5904,22 +5911,35 @@ msgstr ""
 msgid "Double Thick Line"
 msgstr "క్యు పబ్లిక్ లైసెన్స్"
 
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:212
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:235
+#, fuzzy
+#| msgid "None"
+msgctxt "Banner page"
+msgid "None"
+msgstr "ఏదీ వద్దు"
+
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:213
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:236
 #, fuzzy
 #| msgid "Start"
+msgctxt "Banner page"
 msgid "Standard"
 msgstr "ప్రారంభం"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:214
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:237
+#, fuzzy
+#| msgid "Class"
+msgctxt "Banner page"
 msgid "Unclassified"
-msgstr ""
+msgstr "క్లాసు"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:215
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:238
 #, fuzzy
 #| msgid "Critical"
+msgctxt "Banner page"
 msgid "Confidential"
 msgstr "సంక్లిష్ట"
 
@@ -5927,6 +5947,7 @@ msgstr "సంక్లిష్ట"
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:239
 #, fuzzy
 #| msgid "Class"
+msgctxt "Banner page"
 msgid "Classified"
 msgstr "క్లాసు"
 
@@ -5934,13 +5955,17 @@ msgstr "క్లాసు"
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:240
 #, fuzzy
 #| msgid "Security Alert"
+msgctxt "Banner page"
 msgid "Secret"
 msgstr "భద్రతా హెచ్చరిక"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:218
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:241
+#, fuzzy
+#| msgid "Security Alert"
+msgctxt "Banner page"
 msgid "Top Secret"
-msgstr ""
+msgstr "భద్రతా హెచ్చరిక"
 
 #. i18n: Filter for the Yes-button text in standard message dialogs,
 #. after the message caption/text have been translated.
@@ -6531,6 +6556,10 @@ msgstr "సందేశము మూసివేయుము"
 #| msgid "Default"
 msgid "Default:"
 msgstr "అప్రమేయం"
+
+#: kdeui/dialogs/kshortcuteditwidget.cpp:58
+msgid "None"
+msgstr "ఏదీ వద్దు"
 
 #: kdeui/dialogs/kshortcuteditwidget.cpp:61
 #, fuzzy
@@ -10823,7 +10852,7 @@ msgid "Available Tests: %1 (ignored: %2)"
 msgstr "అందుబాటులొ వున్న పరీక్షలు: %1 (విస్మరించినవి: %2)"
 
 #: khtml/test_regression_gui_window.cpp:563 khtml/ecma/kjs_debugwin.cpp:481
-#: khtml/ecma/debugger/debugwindow.cpp:178
+#: khtml/ecma/debugger/debugwindow.cpp:176
 msgid "Continue"
 msgstr "కొనసాగించు"
 
@@ -10941,7 +10970,7 @@ msgstr "(&C) కొనసాగించు"
 msgid "St&op"
 msgstr "(&o) ఆగు"
 
-#: khtml/ecma/kjs_debugwin.cpp:476 khtml/ecma/debugger/debugwindow.cpp:185
+#: khtml/ecma/kjs_debugwin.cpp:476 khtml/ecma/debugger/debugwindow.cpp:170
 msgid "&Break at Next Statement"
 msgstr "(&B) తరువాతి ప్రవచనం వద్ద ఆగుము"
 
@@ -10950,7 +10979,7 @@ msgctxt "Next breakpoint"
 msgid "Next"
 msgstr "తరువాత"
 
-#: khtml/ecma/kjs_debugwin.cpp:848 khtml/ecma/debugger/debugwindow.cpp:594
+#: khtml/ecma/kjs_debugwin.cpp:848 khtml/ecma/debugger/debugwindow.cpp:580
 #, kde-format
 msgid "Parse error at %1 line %2"
 msgstr "%1 వరుస %2 లో అన్వయ దోషం"
@@ -10966,7 +10995,7 @@ msgstr ""
 ".\n"
 "%1"
 
-#: khtml/ecma/kjs_debugwin.cpp:870 khtml/ecma/debugger/debugwindow.cpp:631
+#: khtml/ecma/kjs_debugwin.cpp:870 khtml/ecma/debugger/debugwindow.cpp:617
 #, kde-format
 msgid ""
 "An error occurred while attempting to run a script on this page.\n"
@@ -11073,14 +11102,13 @@ msgid ""
 msgstr ""
 
 #: khtml/ecma/debugger/debugdocument.cpp:210
-#: khtml/ecma/debugger/debugwindow.cpp:128
 msgid ""
-"A KDE text-editor component could not be found;\n"
+"Unable to find the Kate editor component;\n"
 "please check your KDE installation."
 msgstr ""
 
 #: khtml/ecma/debugger/debugdocument.cpp:327
-msgid "Breakpoints"
+msgid "Breakpoint"
 msgstr ""
 
 #: khtml/ecma/debugger/scriptsdock.cpp:39
@@ -11095,36 +11123,46 @@ msgstr ""
 msgid "Reference"
 msgstr "సంబంధం"
 
-#: khtml/ecma/debugger/debugwindow.cpp:180
-#: khtml/ecma/debugger/debugwindow.cpp:181
-msgid "Continue script execution"
-msgstr "స్క్రిప్ట్ ను కొనసాగించు"
+#: khtml/ecma/debugger/debugwindow.cpp:171
+#, fuzzy
+#| msgid "&Break at Next Statement"
+msgid "Break at Next"
+msgstr "(&B) తరువాతి ప్రవచనం వద్ద ఆగుము"
 
-#: khtml/ecma/debugger/debugwindow.cpp:192
-#: khtml/ecma/debugger/debugwindow.cpp:194
-#: khtml/ecma/debugger/debugwindow.cpp:195
+#: khtml/ecma/debugger/debugwindow.cpp:183
+msgid "Step Over"
+msgstr "మీదకు వెళ్ళు"
+
+#: khtml/ecma/debugger/debugwindow.cpp:190
 msgid "Step Into"
 msgstr "లొపలికి వెళ్ళు"
 
-#: khtml/ecma/debugger/debugwindow.cpp:199
-#: khtml/ecma/debugger/debugwindow.cpp:201
-#: khtml/ecma/debugger/debugwindow.cpp:202
+#: khtml/ecma/debugger/debugwindow.cpp:197
 msgid "Step Out"
 msgstr "బయటకు రా"
 
 #: khtml/ecma/debugger/debugwindow.cpp:206
-#: khtml/ecma/debugger/debugwindow.cpp:208
-#: khtml/ecma/debugger/debugwindow.cpp:209
-msgid "Step Over"
-msgstr "మీదకు వెళ్ళు"
+msgid "&Debug"
+msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:249
+#: khtml/ecma/debugger/debugwindow.cpp:235
 msgid "Close source"
 msgstr "మూలం మూసివేయి"
 
-#: khtml/ecma/debugger/debugwindow.cpp:255
+#: khtml/ecma/debugger/debugwindow.cpp:241
 msgid "Ready"
 msgstr "సిద్దం"
+
+#: khtml/ecma/debugger/debugwindow.cpp:796
+msgid ""
+"Don't know where to evaluate the expression. Please pause a script or open a "
+"source file."
+msgstr ""
+
+#: khtml/ecma/debugger/debugwindow.cpp:832
+#, kde-format
+msgid "Evaluation threw an exception %1"
+msgstr ""
 
 #: khtml/ecma/debugger/consoledock.cpp:231
 msgid "Console"
@@ -11839,7 +11877,7 @@ msgstr[1] ""
 msgid "Search Plugins"
 msgstr "నిలువు వరుసలలొ వెతుకు"
 
-#: kutils/kpluginselector.cpp:723
+#: kutils/kpluginselector.cpp:728
 #, fuzzy, kde-format
 #| msgid "Name:"
 msgid ""
@@ -11847,7 +11885,7 @@ msgid ""
 "%1"
 msgstr "పేరు:"
 
-#: kutils/kpluginselector.cpp:726
+#: kutils/kpluginselector.cpp:731
 #, fuzzy, kde-format
 #| msgid "Comment:"
 msgid ""
@@ -11857,7 +11895,7 @@ msgid ""
 "%1"
 msgstr "వ్యాఖ్య:"
 
-#: kutils/kpluginselector.cpp:730
+#: kutils/kpluginselector.cpp:735
 #, fuzzy, kde-format
 #| msgid "Author:"
 msgid ""
@@ -11867,7 +11905,7 @@ msgid ""
 "%1"
 msgstr "మూలకర్త:"
 
-#: kutils/kpluginselector.cpp:734
+#: kutils/kpluginselector.cpp:739
 #, kde-format
 msgid ""
 "\n"
@@ -11876,7 +11914,7 @@ msgid ""
 "%1"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:738
+#: kutils/kpluginselector.cpp:743
 #, fuzzy, kde-format
 #| msgid "Website:"
 msgid ""
@@ -11886,7 +11924,7 @@ msgid ""
 "%1"
 msgstr "వెబ్ సైట్:"
 
-#: kutils/kpluginselector.cpp:742
+#: kutils/kpluginselector.cpp:747
 #, fuzzy, kde-format
 #| msgid "Version: %1"
 msgid ""
@@ -11896,7 +11934,7 @@ msgid ""
 "%1"
 msgstr "వివరణం: %1"
 
-#: kutils/kpluginselector.cpp:746
+#: kutils/kpluginselector.cpp:751
 #, fuzzy, kde-format
 #| msgid "License:"
 msgid ""
@@ -11906,7 +11944,7 @@ msgid ""
 "%1"
 msgstr "లైసెన్స్:"
 
-#: kutils/kpluginselector.cpp:749
+#: kutils/kpluginselector.cpp:754
 #, fuzzy, kde-format
 #| msgid "About %1 plugin"
 msgid "About Plugin \"%1\""
@@ -12913,6 +12951,9 @@ msgstr ""
 #, kde-format
 msgid "No such function \"%1\""
 msgstr ""
+
+#~ msgid "Continue script execution"
+#~ msgstr "స్క్రిప్ట్ ను కొనసాగించు"
 
 #, fuzzy
 #~| msgid "None"
