@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-23 10:50+0200\n"
+"POT-Creation-Date: 2008-05-25 11:00+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -3182,7 +3182,7 @@ msgstr "%1 లైబ్రరిలో కెడిఈ 4 కి సరిపడ�
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr ""
 
-#: kdecore/config/kconfig.cpp:679
+#: kdecore/config/kconfig.cpp:677
 msgid "Please contact your system administrator."
 msgstr "మి వ్యవస్థ పాలకుడిని కలవండి"
 
@@ -5437,24 +5437,24 @@ msgstr "పునరాచరణ"
 msgid "Undo"
 msgstr "సరిచేయు"
 
-#: kdeui/util/ksystemtrayicon.cpp:130
+#: kdeui/util/ksystemtrayicon.cpp:133
 msgid "Minimize"
 msgstr "చిన్నది చెయండి"
 
-#: kdeui/util/ksystemtrayicon.cpp:189
+#: kdeui/util/ksystemtrayicon.cpp:192
 msgid "&Minimize"
 msgstr "(&M) చిన్నది చెయండి"
 
-#: kdeui/util/ksystemtrayicon.cpp:193
+#: kdeui/util/ksystemtrayicon.cpp:196
 msgid "&Restore"
 msgstr "(&R) పునరుద్ధరణ"
 
-#: kdeui/util/ksystemtrayicon.cpp:213
+#: kdeui/util/ksystemtrayicon.cpp:216
 #, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr ""
 
-#: kdeui/util/ksystemtrayicon.cpp:216
+#: kdeui/util/ksystemtrayicon.cpp:219
 msgid "Confirm Quit From System Tray"
 msgstr ""
 
@@ -6745,10 +6745,9 @@ msgstr "(&N) తరువాత"
 msgid "Choose..."
 msgstr "ఎంపిక..."
 
-#. i18n: Filtering message, so that translators can translate the
-#. font names on their own should they want. May be replaced in
-#. the future with conventional messages in a PO file.
-#: kdeui/fonts/kfontrequester.cpp:200 kdeui/fonts/fonthelpers.cpp:58
+#. i18n: Filter by which the translators can translate, or otherwise
+#. operate on the font names not put up for regular translation.
+#: kdeui/fonts/kfontrequester.cpp:200 kdeui/fonts/fonthelpers.cpp:81
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@item Font name"
@@ -6976,7 +6975,32 @@ msgctxt "@item Font style"
 msgid "%1"
 msgstr "%1%"
 
-#: kdeui/fonts/fonthelpers.cpp:60
+#. i18n: Generic sans serif font presented in font choosers. When selected,
+#. the system will choose a real font, mandated by distro settings.
+#: kdeui/fonts/fonthelpers.cpp:32
+msgctxt "@item Font name"
+msgid "Sans Serif"
+msgstr ""
+
+#. i18n: Generic serif font presented in font choosers. When selected,
+#. the system will choose a real font, mandated by distro settings.
+#: kdeui/fonts/fonthelpers.cpp:35
+#, fuzzy
+#| msgid "&Verify:"
+msgctxt "@item Font name"
+msgid "Serif"
+msgstr "(&V) సరిచూడు:"
+
+#. i18n: Generic monospace font presented in font choosers. When selected,
+#. the system will choose a real font, mandated by distro settings.
+#: kdeui/fonts/fonthelpers.cpp:38
+msgctxt "@item Font name"
+msgid "Monospace"
+msgstr ""
+
+#. i18n: Filter by which the translators can translate, or otherwise
+#. operate on the font names not put up for regular translation.
+#: kdeui/fonts/fonthelpers.cpp:85
 #, fuzzy, kde-format
 #| msgctxt "dictionary name. %1-language and %2-variant name"
 #| msgid "%1 [%2]"
@@ -10928,7 +10952,7 @@ msgstr "హానికరమైన అన్వయ దోషం: %2 వరు�
 msgid "XML parsing error"
 msgstr "ఎక్స్ఎంఎల్ అన్వయ దోషం"
 
-#: khtml/xml/dom_docimpl.cpp:2208
+#: khtml/xml/dom_docimpl.cpp:2215
 msgid "Basic Page Style"
 msgstr "సాధారణ పుట శైలి"
 
