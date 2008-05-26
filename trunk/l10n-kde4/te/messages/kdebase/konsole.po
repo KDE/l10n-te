@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-21 09:00+0200\n"
+"POT-Creation-Date: 2008-05-26 16:26+0200\n"
 "PO-Revision-Date: 2007-03-22 20:26+0530\n"
 "Last-Translator: Vijay Kiran Kamuju <infyquest@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -180,19 +180,19 @@ msgstr ""
 msgid "%1, size %2"
 msgstr "%1, పరిమాణం %2"
 
-#: EditProfileDialog.cpp:663 EditProfileDialog.cpp:672
+#: EditProfileDialog.cpp:661 EditProfileDialog.cpp:670
 msgid "New Color Scheme"
 msgstr ""
 
-#: EditProfileDialog.cpp:665
+#: EditProfileDialog.cpp:663
 msgid "Edit Color Scheme"
 msgstr ""
 
-#: EditProfileDialog.cpp:798 EditProfileDialog.cpp:809
+#: EditProfileDialog.cpp:796 EditProfileDialog.cpp:807
 msgid "New Key Binding List"
 msgstr ""
 
-#: EditProfileDialog.cpp:800
+#: EditProfileDialog.cpp:798
 msgid "Edit Key Binding List"
 msgstr ""
 
@@ -515,11 +515,7 @@ msgstr ""
 msgid "Edit Current Profile..."
 msgstr ""
 
-#. i18n: tag text
-#. i18n: file ../desktop/sessionui.rc line 61
-#. i18n: tag text
-#. i18n: file ../desktop/partui.rc line 26
-#: SessionController.cpp:580 rc.cpp:824 rc.cpp:830
+#: SessionController.cpp:580
 msgid "Change Profile"
 msgstr ""
 
@@ -1972,47 +1968,67 @@ msgid "Debug"
 msgstr "డీబగ్"
 
 #. i18n: tag text
+#. i18n: file ../desktop/sessionui.rc line 61
+#. i18n: tag text
+#. i18n: file ../desktop/partui.rc line 26
+#: rc.cpp:824 rc.cpp:830
+#, fuzzy
+#| msgid "New Profile"
+msgid "&Change Profile"
+msgstr "కొత్త ప్రొఫైల్"
+
+#. i18n: tag text
 #. i18n: file ../desktop/partui.rc line 8
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 18
 #: rc.cpp:827 rc.cpp:839
-msgid "Scrollback"
-msgstr ""
+#, fuzzy
+#| msgid "Scroll Bar "
+msgid "S&crollback"
+msgstr "స్క్రోల్ బార్"
 
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 5
 #: rc.cpp:833
-msgid "File"
+#, fuzzy
+#| msgid "File"
+msgid "&File"
 msgstr "దస్త్రం"
 
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 15
 #: rc.cpp:836
-msgid "Edit"
+#, fuzzy
+#| msgid "Edit"
+msgid "&Edit"
 msgstr "మార్చు"
 
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 21
 #: rc.cpp:842
-msgid "View"
+msgid "&View"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 22
 #: rc.cpp:845
-msgid "Split View"
+msgid "Split &View"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 40
 #: rc.cpp:848
-msgid "Settings"
+#, fuzzy
+#| msgid "Settings"
+msgid "&Settings"
 msgstr "అమరికలు"
 
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 47
 #: rc.cpp:851
-msgid "Help"
+#, fuzzy
+#| msgid "Help"
+msgid "&Help"
 msgstr "సహాయం"
 
 #: schemas.cpp:1
