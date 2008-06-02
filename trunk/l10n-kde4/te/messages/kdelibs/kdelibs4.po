@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-06-01 12:00+0200\n"
+"POT-Creation-Date: 2008-06-02 13:30+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -6059,13 +6059,6 @@ msgctxt "@item:intable Action name in shortcuts configuration"
 msgid "%1"
 msgstr "%1%"
 
-#: kdeui/dialogs/kshortcutseditoritem.cpp:89
-#, fuzzy, kde-format
-#| msgid "%1%"
-msgctxt "@info:tooltip Action tooltip in shortcuts configuration"
-msgid "%1"
-msgstr "%1%"
-
 #: kdeui/dialogs/kdialog.cpp:237
 msgid "&Try"
 msgstr "(&T) ప్రయత్నించుము"
@@ -6661,6 +6654,13 @@ msgstr "(&J) కెడిఈ జట్టులో చేరండి"
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:130
 msgid "&Support KDE"
 msgstr "(&S) కెడిఈ కి సహాయంచెయండి"
+
+#: kdeui/dialogs/kdeprintdialog.cpp:41 kdeui/dialogs/kdeprintdialog.cpp:53
+#, fuzzy
+#| msgid "Print"
+msgctxt "@title:window"
+msgid "Print"
+msgstr "ప్రచురణ"
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:98
 msgid "Switch Application Language"
@@ -12976,6 +12976,12 @@ msgstr ""
 #, kde-format
 msgid "No such function \"%1\""
 msgstr ""
+
+#, fuzzy
+#~| msgid "%1%"
+#~ msgctxt "@info:tooltip Action tooltip in shortcuts configuration"
+#~ msgid "%1"
+#~ msgstr "%1%"
 
 #~ msgid "Continue script execution"
 #~ msgstr "స్క్రిప్ట్ ను కొనసాగించు"
