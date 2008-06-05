@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-06-03 10:34+0200\n"
+"POT-Creation-Date: 2008-06-04 22:49+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -3671,7 +3671,7 @@ msgstr ""
 msgid "Could not Launch Browser"
 msgstr "బ్రౌజర్ను ప్రారంభించలేకపొయాను"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:298
+#: kdecore/kernel/ktoolinvocation_x11.cpp:305
 #, kde-format
 msgid ""
 "Could not launch the terminal client:\n"
@@ -3682,7 +3682,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:299
+#: kdecore/kernel/ktoolinvocation_x11.cpp:306
 msgid "Could not Launch Terminal Client"
 msgstr "టెర్మినల్ క్లైంటు ని ప్రారంభించలేకపొయాను"
 
@@ -5753,7 +5753,7 @@ msgstr "కత్తిరించు"
 msgid "Print"
 msgstr "ప్రచురణ"
 
-#: kdeui/util/kcompletion.cpp:691
+#: kdeui/util/kcompletion.cpp:693
 msgid ""
 "You reached the end of the list\n"
 "of matching items.\n"
@@ -5761,7 +5761,7 @@ msgstr ""
 "మీరు జత కుదిరన అంశాల\n"
 "జాబితా చివరకు వచ్చెసారు.\n"
 
-#: kdeui/util/kcompletion.cpp:697
+#: kdeui/util/kcompletion.cpp:699
 msgid ""
 "The completion is ambiguous, more than one\n"
 "match is available.\n"
@@ -5769,7 +5769,7 @@ msgstr ""
 "పూరణ సంగ్దిదమైనది, \n"
 "ఒకటి కంటే ఎక్కువ జతలు కలవు.\n"
 
-#: kdeui/util/kcompletion.cpp:703
+#: kdeui/util/kcompletion.cpp:705
 msgid "There is no matching item available.\n"
 msgstr "జతైన అంశము దొరకలేదు.\n"
 
@@ -10800,60 +10800,60 @@ msgstr ""
 msgid "(%1/s)"
 msgstr "(%1/s)"
 
-#: khtml/khtml_part.cpp:6845
+#: khtml/khtml_part.cpp:6844
 msgid "Security Warning"
 msgstr "భద్రతా హెచ్చరిక"
 
-#: khtml/khtml_part.cpp:6851
+#: khtml/khtml_part.cpp:6850
 #, fuzzy, kde-format
 #| msgid "<qt>Access by untrusted page to<BR><B>%1</B><BR> denied."
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr "<qt>అవిశ్వసనీయ పుట <BR><B>%1</B><BR> నుంచి అనుమతి నిరాకరించడమైనది."
 
-#: khtml/khtml_part.cpp:6852 khtml/java/kjavaappletserver.cpp:790
+#: khtml/khtml_part.cpp:6851 khtml/java/kjavaappletserver.cpp:790
 msgid "Security Alert"
 msgstr "భద్రతా హెచ్చరిక"
 
-#: khtml/khtml_part.cpp:7202
+#: khtml/khtml_part.cpp:7201
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr "'%1' వాలెట్ తెరవబడివున్నది మరయు ఫారం దత్తాంశాలు మరయూ పాస్ వర్డుల కొరకు వాడబడుతుంది."
 
-#: khtml/khtml_part.cpp:7259
+#: khtml/khtml_part.cpp:7258
 msgid "&Close Wallet"
 msgstr "(&C) వాలెట్ ముసివేయి"
 
-#: khtml/khtml_part.cpp:7302
+#: khtml/khtml_part.cpp:7301
 msgid "JavaScript &Debugger"
 msgstr "(&D) జావాస్క్రిప్ట్ డీబగ్గర్"
 
-#: khtml/khtml_part.cpp:7335
+#: khtml/khtml_part.cpp:7334
 msgid "This page was prevented from opening a new window via JavaScript."
 msgstr "జావాస్క్రిప్ట్ ద్వారా కొత్త విండొ తెరవకుండా ఈ పుటను ఆపడమైనది"
 
-#: khtml/khtml_part.cpp:7341
+#: khtml/khtml_part.cpp:7340
 msgid "Popup Window Blocked"
 msgstr "పాప్ అప్ విండొ ఆపివేయడమైనది"
 
-#: khtml/khtml_part.cpp:7341
+#: khtml/khtml_part.cpp:7340
 msgid ""
 "This page has attempted to open a popup window but was blocked.\n"
 "You can click on this icon in the status bar to control this behavior\n"
 "or to open the popup."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7354
+#: khtml/khtml_part.cpp:7353
 #, kde-format
 msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
 msgstr[0] "(&S) ఆపివేయబడిన పాప్ అప్ విండొను చూపు"
 msgstr[1] "(&S) %1 ఆపివేయబడిన పాప్ అప్ విండొలను చూపు"
 
-#: khtml/khtml_part.cpp:7355
+#: khtml/khtml_part.cpp:7354
 msgid "Show Blocked Window Passive Popup &Notification"
 msgstr "(&N) ఆపిన విండొ లొ వూరికేవున్న పాప్ అప్ ప్రకటనను చూపు"
 
-#: khtml/khtml_part.cpp:7357
+#: khtml/khtml_part.cpp:7356
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "&(C) జావాస్క్రిప్ట్ కొత్త విండొ పాలసీలను అమర్చు..."
 
