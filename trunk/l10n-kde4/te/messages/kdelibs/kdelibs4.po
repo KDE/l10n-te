@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-14 08:41+0200\n"
+"POT-Creation-Date: 2008-08-15 08:25+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -760,7 +760,7 @@ msgstr "(&M) జరుపుము"
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 100
 #. i18n: tag text
 #. i18n: file ./khtml/khtml_browser.rc line 20
-#: rc.cpp:318 rc.cpp:459 kfile/kdiroperator.cpp:1697
+#: rc.cpp:318 rc.cpp:459 kfile/kdiroperator.cpp:1701
 msgid "&View"
 msgstr "(&V) చూడు"
 
@@ -5720,7 +5720,7 @@ msgstr "తొలగించు"
 msgid "Test"
 msgstr "పరీక్ష"
 
-#: kdeui/util/kstandardguiitem.cpp:285 kfile/kdiroperator.cpp:1690
+#: kdeui/util/kstandardguiitem.cpp:285 kfile/kdiroperator.cpp:1694
 msgid "Properties"
 msgstr "గుణములు"
 
@@ -10146,14 +10146,14 @@ msgstr "<B>%1<B> ఎక్కించునప్పుడు దోషము �
 msgid "An error occurred while accessing '%1'"
 msgstr "<B>%1<B> ఎక్కించునప్పుడు దోషము వచ్చినది:"
 
-#: kfile/kurlnavigator.cpp:572
+#: kfile/kurlnavigator.cpp:573
 #, fuzzy
 #| msgid "Custom"
 msgid "Custom Path"
 msgstr "నిర్దేశితమైన"
 
-#: kfile/kdirselectdialog.cpp:115 kfile/kdiroperator.cpp:662
-#: kfile/kdiroperator.cpp:670
+#: kfile/kdirselectdialog.cpp:115 kfile/kdiroperator.cpp:666
+#: kfile/kdiroperator.cpp:674
 #, fuzzy
 #| msgid "New file."
 msgid "New Folder"
@@ -10174,12 +10174,12 @@ msgid ""
 "%1"
 msgstr ""
 
-#: kfile/kdirselectdialog.cpp:143 kfile/kdiroperator.cpp:697
+#: kfile/kdirselectdialog.cpp:143 kfile/kdiroperator.cpp:701
 #, kde-format
 msgid "A file or folder named %1 already exists."
 msgstr ""
 
-#: kfile/kdirselectdialog.cpp:147 kfile/kdiroperator.cpp:700
+#: kfile/kdirselectdialog.cpp:147 kfile/kdiroperator.cpp:704
 msgid "You do not have permission to create that folder."
 msgstr ""
 
@@ -10268,7 +10268,7 @@ msgstr ""
 msgid "Show Hidden Folders"
 msgstr "(&S) దస్త్రములు పంపు"
 
-#: kfile/kdiroperator.cpp:671
+#: kfile/kdiroperator.cpp:675
 #, kde-format
 msgid ""
 "Create new folder in:\n"
@@ -10277,15 +10277,15 @@ msgstr ""
 "%1 లో \n"
 "కొత్త ఫొల్డర్ను సృష్టించు"
 
-#: kfile/kdiroperator.cpp:715
+#: kfile/kdiroperator.cpp:719
 msgid "You did not select a file to delete."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:716
+#: kfile/kdiroperator.cpp:720
 msgid "Nothing to Delete"
 msgstr "తొలగించటాని ఏమి లేదు"
 
-#: kfile/kdiroperator.cpp:737
+#: kfile/kdiroperator.cpp:741
 #, kde-format
 msgid ""
 "<qt>Do you really want to delete\n"
@@ -10294,30 +10294,30 @@ msgstr ""
 "<qt><b>'%1'</b> ను \n"
 " నిజంగా తొలగించనా?</qt>"
 
-#: kfile/kdiroperator.cpp:739
+#: kfile/kdiroperator.cpp:743
 msgid "Delete File"
 msgstr "దస్త్రం తొలగించుము"
 
-#: kfile/kdiroperator.cpp:744
+#: kfile/kdiroperator.cpp:748
 #, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] "ఈ అంశం ను నిజంగా తిసివేయనా?"
 msgstr[1] "%1 అంశాల ను నిజంగా తిసివేయనా?"
 
-#: kfile/kdiroperator.cpp:746
+#: kfile/kdiroperator.cpp:750
 msgid "Delete Files"
 msgstr "దస్త్రాలను తీసివేయండి"
 
-#: kfile/kdiroperator.cpp:777
+#: kfile/kdiroperator.cpp:781
 msgid "You did not select a file to trash."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:778
+#: kfile/kdiroperator.cpp:782
 msgid "Nothing to Trash"
 msgstr "చెత్త బుట్ట లొ వెయటానికి ఏమి లేదు"
 
-#: kfile/kdiroperator.cpp:795
+#: kfile/kdiroperator.cpp:799
 #, fuzzy, kde-format
 #| msgid "Do you really want to execute '%1'? "
 msgid ""
@@ -10327,107 +10327,107 @@ msgstr ""
 "<qt><b>'%1'</b> ను \n"
 "నిజంగా చెత్త బుట్ట లొ వెయమంటారా?</qt>"
 
-#: kfile/kdiroperator.cpp:797
+#: kfile/kdiroperator.cpp:801
 msgid "Trash File"
 msgstr "దస్త్రంను చెత్త బుట్ట లొ వేయి"
 
-#: kfile/kdiroperator.cpp:798 kfile/kdiroperator.cpp:805
+#: kfile/kdiroperator.cpp:802 kfile/kdiroperator.cpp:809
 msgctxt "to trash"
 msgid "&Trash"
 msgstr "(&T) చెత్త బుట్ట"
 
-#: kfile/kdiroperator.cpp:802
+#: kfile/kdiroperator.cpp:806
 #, kde-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
 msgstr[0] ""
 msgstr[1] "%1 అంశాలను నిజంగా చెత్త బుట్ట లొ వెయమంటారా?"
 
-#: kfile/kdiroperator.cpp:804
+#: kfile/kdiroperator.cpp:808
 msgid "Trash Files"
 msgstr "దస్త్రాలను చెత్త బుట్ట లొ వేయి"
 
-#: kfile/kdiroperator.cpp:931 kfile/kdiroperator.cpp:1048
+#: kfile/kdiroperator.cpp:935 kfile/kdiroperator.cpp:1052
 msgid "The specified folder does not exist or was not readable."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1590
+#: kfile/kdiroperator.cpp:1594
 msgid "Menu"
 msgstr "పట్టీ"
 
-#: kfile/kdiroperator.cpp:1594
+#: kfile/kdiroperator.cpp:1598
 msgid "Parent Folder"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1601
+#: kfile/kdiroperator.cpp:1605
 msgid "Home Folder"
 msgstr "గృహం ఫోల్డర్"
 
-#: kfile/kdiroperator.cpp:1604
+#: kfile/kdiroperator.cpp:1608
 msgid "Reload"
 msgstr "తిరిగి ఎక్కించు"
 
-#: kfile/kdiroperator.cpp:1607
+#: kfile/kdiroperator.cpp:1611
 msgid "New Folder..."
 msgstr "కొత్త ఫొల్డర్..."
 
-#: kfile/kdiroperator.cpp:1612
+#: kfile/kdiroperator.cpp:1616
 msgid "Move to Trash"
 msgstr "చెత్త బుట్ట లొ వేయి"
 
-#: kfile/kdiroperator.cpp:1618
+#: kfile/kdiroperator.cpp:1622
 msgid "Delete"
 msgstr "తొలగించు"
 
-#: kfile/kdiroperator.cpp:1625
+#: kfile/kdiroperator.cpp:1629
 msgid "Sorting"
 msgstr "క్రమపరచు"
 
-#: kfile/kdiroperator.cpp:1628
+#: kfile/kdiroperator.cpp:1632
 msgid "By Name"
 msgstr "పేరు చె"
 
-#: kfile/kdiroperator.cpp:1632
+#: kfile/kdiroperator.cpp:1636
 msgid "By Size"
 msgstr "పరిమాణము చె"
 
-#: kfile/kdiroperator.cpp:1636
+#: kfile/kdiroperator.cpp:1640
 msgid "By Date"
 msgstr "తేదీలు చె"
 
-#: kfile/kdiroperator.cpp:1640
+#: kfile/kdiroperator.cpp:1644
 msgid "By Type"
 msgstr "రకము చె"
 
-#: kfile/kdiroperator.cpp:1644
+#: kfile/kdiroperator.cpp:1648
 msgid "Descending"
 msgstr "అవరోహణం"
 
-#: kfile/kdiroperator.cpp:1654
+#: kfile/kdiroperator.cpp:1658
 msgid "Short View"
 msgstr "చిన్న వీక్షణం"
 
-#: kfile/kdiroperator.cpp:1659
+#: kfile/kdiroperator.cpp:1663
 msgid "Detailed View"
 msgstr "వివరములతొ కూడిన వీక్షణం"
 
-#: kfile/kdiroperator.cpp:1664
+#: kfile/kdiroperator.cpp:1668
 #, fuzzy
 #| msgid "Detailed View"
 msgid "Tree View"
 msgstr "వివరములతొ కూడిన వీక్షణం"
 
-#: kfile/kdiroperator.cpp:1669
+#: kfile/kdiroperator.cpp:1673
 #, fuzzy
 #| msgid "Detailed View"
 msgid "Detailed Tree View"
 msgstr "వివరములతొ కూడిన వీక్షణం"
 
-#: kfile/kdiroperator.cpp:1680
+#: kfile/kdiroperator.cpp:1684
 msgid "Show Hidden Files"
 msgstr "దాగిన దస్త్రములు చూపు"
 
-#: kfile/kdiroperator.cpp:1684
+#: kfile/kdiroperator.cpp:1688
 msgid "Show Preview"
 msgstr "ముందు వీక్షణం చూపు"
 
