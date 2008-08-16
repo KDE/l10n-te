@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-15 06:35+0000\n"
+"POT-Creation-Date: 2008-08-16 08:21+0000\n"
 "PO-Revision-Date: 2008-08-05 13:48+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -53,12 +53,12 @@ msgctxt "Comment"
 msgid "This service allows configuration of the Dolphin views."
 msgstr "డాల్ఫిన్ వీక్షణిల యొక్క ఆకృతీకరణను ఈ సేవ అనుమతిస్తుంది."
 
-#: apps/dolphin/src/kcmdolphin.desktop:82
+#: apps/dolphin/src/kcmdolphin.desktop:83
 msgctxt "Name"
 msgid "Views"
 msgstr "వీక్షణలు"
 
-#: apps/dolphin/src/kcmdolphin.desktop:141
+#: apps/dolphin/src/kcmdolphin.desktop:142
 msgctxt "Comment"
 msgid "Configure file manager settings"
 msgstr "దస్త్ర నిర్వాహకి అమర్పులను ఆకృతీకరించుము"
@@ -3415,6 +3415,45 @@ msgstr ""
 "మీ అప్రమేయ టెర్మినల్ ఎమ్యులేటర్‌ను ఆకృతీకరించుటకు ఈ సేవ అనుమతిస్తుంది. టెర్మినల్ ఎమ్యులేటర్‌ అప్లికేషన్‌ను "
 "ప్రేరేపించే ఏ KDE అనువర్తనాలైనా ఈ అమర్పును సమ్మతిస్తాయి."
 
+#: runtime/kcontrol/componentchooser/componentservices/kcm_wm.desktop:1
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "WindowMaker"
+msgctxt "Name"
+msgid "Window Manager"
+msgstr "విండొమెకర్"
+
+#: runtime/kcontrol/componentchooser/componentservices/kcm_wm.desktop:2
+msgctxt "Comment"
+msgid ""
+"Here you can select the window manager to be run in your KDE session. Note "
+"that KDE settings are often not followed when not using the default KDE "
+"window manager."
+msgstr ""
+
+#: runtime/kcontrol/componentchooser/windowmanagers/compiz-custom.desktop:2
+msgctxt "Name"
+msgid ""
+"Compiz custom (create wrapper script 'compiz-kde-launcher' to launch it)"
+msgstr ""
+"Compiz custom (దానిని దించుటకు వ్రాపర్ స్క్రిప్‍ట్‌ 'compiz-kde-launcher' ను సృష్టించుము)"
+
+#: runtime/kcontrol/componentchooser/windowmanagers/compiz.desktop:2
+msgctxt "Name"
+msgid "Compiz"
+msgstr "Compiz"
+
+#: runtime/kcontrol/componentchooser/windowmanagers/metacity.desktop:2
+msgctxt "Name"
+msgid "Metacity (GNOME)"
+msgstr "మెటాసిటి (GNOME)"
+
+#: runtime/kcontrol/componentchooser/windowmanagers/openbox.desktop:2
+#: workspace/kdm/kfrontend/sessions/openbox.desktop:5
+msgctxt "Name"
+msgid "Openbox"
+msgstr "ఒపెన్ బాక్స్"
+
 #: runtime/kcontrol/dnssd/kcm_kdnssd.desktop:4
 msgctxt "Name"
 msgid "Service Discovery"
@@ -6707,7 +6746,7 @@ msgctxt "Name"
 msgid "NepomukFileWatch"
 msgstr "Nepomukఫైల్ వాచ్"
 
-#: runtime/nepomuk/services/filewatch/nepomukfilewatch.desktop:22
+#: runtime/nepomuk/services/filewatch/nepomukfilewatch.desktop:23
 msgctxt "Comment"
 msgid "The Nepomuk file watch service for monitoring file changes"
 msgstr "ఫైల్ మార్పులను మానిటరింగ్ చేయుటకొరకు Nepomuk ఫైల్ వాచ్ సేవ"
@@ -6755,44 +6794,44 @@ msgctxt "Comment"
 msgid "The Nepomuk Strigi file indexer"
 msgstr "Nepomuk Strigi దస్త్ర విషయసూచకి"
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:20
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:21
 msgctxt "Name"
 msgid "Initial Indexing started"
 msgstr "ప్రాధమిక విషయవర్గీకరణ ప్రారంభమైంది"
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:35
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:37
 msgctxt "Comment"
 msgid ""
 "Strigi started the initial indexing of local files for fast desktop searches"
 msgstr "వేగమైన డెస్‍క్‌ టాప్ శోధనలకొరకు Strigi స్థానిక దస్త్రముల ప్రాధమిక విషయవర్గీకరణను ప్రారంభించింది."
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:53
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:56
 msgctxt "Name"
 msgid "Initial Indexing finished"
 msgstr "ప్రాధమిక విషయవర్గీకరణ పూర్తైనది."
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:68
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:72
 msgctxt "Comment"
 msgid ""
 "Strigi finished the initial indexing of local files for fast desktop searches"
 msgstr "వేగమైన డెస్‍క్ టాప్ శోధనలకొరకు Strigi స్థానిక దస్త్రములయొక్క విషయవర్గీకరణ పూర్తైనది"
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:86
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:91
 msgctxt "Name"
 msgid "Indexing suspended"
 msgstr "విషయవర్దీకరణ సంస్పెండ్ చేయబడింది"
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:101
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:107
 msgctxt "Comment"
 msgid "Strigi file indexing has been suspended"
 msgstr "Strigi దస్త్రము విషయవర్గీకరణ సస్పెండ్ చేయబడింది"
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:119
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:126
 msgctxt "Name"
 msgid "Indexing resumed"
 msgstr "విషయవర్గీకరణ తిరిగికొనసాగించబడింది"
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:134
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:142
 msgctxt "Comment"
 msgid "Strigi file indexing has been resumed"
 msgstr "Strigi దస్త్రము విషయవర్గీకరణ తిరిగికొనసాగించబడింది"
@@ -6807,17 +6846,17 @@ msgctxt "Comment"
 msgid "Phonon: KDE's Multimedia Library"
 msgstr "Phonon: KDE యొక్క బహుళమాధ్యమ(మల్టీమీడియా) లైబ్రరి"
 
-#: runtime/phonon/platform_kde/phonon.notifyrc:51
+#: runtime/phonon/platform_kde/phonon.notifyrc:52
 msgctxt "Name"
 msgid "Application"
 msgstr "అనువర్తనము"
 
-#: runtime/phonon/platform_kde/phonon.notifyrc:107
+#: runtime/phonon/platform_kde/phonon.notifyrc:108
 msgctxt "Name"
 msgid "Audio Device Fallback"
 msgstr "ఆడియో పరికరం ఫాల్‌బాక్"
 
-#: runtime/phonon/platform_kde/phonon.notifyrc:151
+#: runtime/phonon/platform_kde/phonon.notifyrc:152
 msgctxt "Comment"
 msgid ""
 "Notification on automatic fallback if the preferred device is unavailable"
@@ -7075,7 +7114,7 @@ msgctxt "Comment"
 msgid "Joystick settings"
 msgstr "Joystick అమరికలు"
 
-#: workspace/kcontrol/hardware/joystick/joystick.desktop:74
+#: workspace/kcontrol/hardware/joystick/joystick.desktop:75
 msgctxt "Name"
 msgid "Joystick"
 msgstr "జాయ్ స్టిక్"
@@ -7165,7 +7204,7 @@ msgctxt "Name"
 msgid "Global Keyboard Shortcuts"
 msgstr "గ్లౌబల్ కీబోర్‍డ్ లఘువులు"
 
-#: workspace/kcontrol/keys/keys.desktop:32
+#: workspace/kcontrol/keys/keys.desktop:33
 msgctxt "Comment"
 msgid "Configuration of keybindings"
 msgstr "కీ భందనముల యొక్క ఆకృతీకరణ"
@@ -7331,7 +7370,7 @@ msgctxt "Name"
 msgid "Standard Keyboard Shortcuts"
 msgstr "ప్రామాణిక కీబోర్‍డ్ లఘువులు"
 
-#: workspace/kcontrol/standard_actions/standard_actions.desktop:32
+#: workspace/kcontrol/standard_actions/standard_actions.desktop:33
 msgctxt "Comment"
 msgid "Configuration of standard keybindings"
 msgstr "ప్రామాణిక కీబైండిగ్‍స్  యొక్క ఆకృతీకరణ"
@@ -7665,12 +7704,6 @@ msgstr "ఒ ఎల్ డబ్యు ఎం"
 msgctxt "Comment"
 msgid "The traditional Open Look Window Manager"
 msgstr "సాంప్రదాయ ఒపెన్ లుక్ విండొ అభికర్త "
-
-#: workspace/kdm/kfrontend/sessions/openbox.desktop:5
-#: workspace/ksmserver/windowmanagers/openbox.desktop:2
-msgctxt "Name"
-msgid "Openbox"
-msgstr "ఒపెన్ బాక్స్"
 
 #: workspace/kdm/kfrontend/sessions/openbox.desktop:19
 msgctxt "Comment"
@@ -8346,7 +8379,7 @@ msgctxt "Name"
 msgid "Mouse Gestures"
 msgstr "మౌస్ గెస్‍ట్‌రెస్"
 
-#: workspace/khotkeys/kcm_hotkeys/gestures.desktop:27
+#: workspace/khotkeys/kcm_hotkeys/gestures.desktop:28
 msgctxt "Comment"
 msgid "Configure Mouse Gestures"
 msgstr "మౌస్ గెస్‍ట్‌రెస్ ఆకృతీకరణ"
@@ -8532,23 +8565,6 @@ msgstr "సెషన్ నిర్వాహకి"
 msgctxt "Comment"
 msgid "Configure the session manager and logout settings"
 msgstr "సెషన్ నిర్వాహకిని మరియు లాగ్అవుట్ అమర్పులను ఆకృతీకరించుము"
-
-#: workspace/ksmserver/windowmanagers/compiz-custom.desktop:2
-msgctxt "Name"
-msgid ""
-"Compiz custom (create wrapper script 'compiz-kde-launcher' to launch it)"
-msgstr ""
-"Compiz custom (దానిని దించుటకు వ్రాపర్ స్క్రిప్‍ట్‌ 'compiz-kde-launcher' ను సృష్టించుము)"
-
-#: workspace/ksmserver/windowmanagers/compiz.desktop:2
-msgctxt "Name"
-msgid "Compiz"
-msgstr "Compiz"
-
-#: workspace/ksmserver/windowmanagers/metacity.desktop:2
-msgctxt "Name"
-msgid "Metacity (GNOME)"
-msgstr "మెటాసిటి (GNOME)"
 
 #: workspace/ksplash/kcm/ksplashthememgr.desktop:15
 msgctxt "Name"
@@ -8739,7 +8755,7 @@ msgctxt "Name"
 msgid "Dim Screen for Administrator Mode"
 msgstr "నిర్వాహక రీతికొరకు తెరను డిమ్ చేస్తుంది"
 
-#: workspace/kwin/effects/dimscreen.desktop:47
+#: workspace/kwin/effects/dimscreen.desktop:48
 msgctxt "Comment"
 msgid "Dims the screen if a window asks for root password"
 msgstr "విండో root సంకేతపదము కొరకు అడిగితే తెరను డిమ్ చేస్తుంది"
@@ -8947,7 +8963,7 @@ msgctxt "Name"
 msgid "Slide"
 msgstr "సాలిడ్"
 
-#: workspace/kwin/effects/slide.desktop:9
+#: workspace/kwin/effects/slide.desktop:11
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Let it snow on the desktop"
@@ -8961,7 +8977,7 @@ msgctxt "Name"
 msgid "Snow"
 msgstr "మంచు"
 
-#: workspace/kwin/effects/snow.desktop:60
+#: workspace/kwin/effects/snow.desktop:61
 msgctxt "Comment"
 msgid "Let it snow on the desktop"
 msgstr "డెస్‍క్ టాప్ పైన మంచుకురవనివ్వు"
@@ -9703,7 +9719,7 @@ msgctxt "Name"
 msgid "New Device Notifier"
 msgstr "కొత్త పరికరంను తెలుపునది"
 
-#: workspace/plasma/applets/devicenotifier/plasma-applet-devicenotifier.desktop:57
+#: workspace/plasma/applets/devicenotifier/plasma-applet-devicenotifier.desktop:48
 msgctxt "Comment"
 msgid "New device notifier plasmoid"
 msgstr "కొత్త పరికరం తెలుపు plasmoid"
@@ -9978,7 +9994,7 @@ msgctxt "Name"
 msgid "Command Line"
 msgstr "ఆదేశ వరుస"
 
-#: workspace/plasma/runners/shell/plasma-runner-shell.desktop:52
+#: workspace/plasma/runners/shell/plasma-runner-shell.desktop:53
 msgctxt "Comment"
 msgid "Executes shell commands"
 msgstr "షెల్ ఆదేశాలను నిర్వర్తిస్తుంది"
@@ -9993,7 +10009,7 @@ msgctxt "Name"
 msgid "Desktop Search"
 msgstr "డెస్‍క్ టాప్ శోధన"
 
-#: workspace/plasma/runners/xesam/plasma-runner-xesam.desktop:19
+#: workspace/plasma/runners/xesam/plasma-runner-xesam.desktop:20
 msgctxt "Comment"
 msgid "Search in documents and files"
 msgstr "పత్రములు మరియు దస్త్రములనందు శోధించుము"
@@ -10023,7 +10039,7 @@ msgctxt "Name"
 msgid "JavaScript Widget"
 msgstr "జావాస్క్రిప్‍ట్ విడ్‍జ్‌ట్"
 
-#: workspace/plasma/scriptengines/qscript/plasma-scriptengine-qscript.desktop:45
+#: workspace/plasma/scriptengines/qscript/plasma-scriptengine-qscript.desktop:46
 msgctxt "Comment"
 msgid "Native Plasma widget written in JavaScript"
 msgstr "జావాస్క్రిప్‍ట్‌లో వ్రాసిన నేటివ్ ప్లాజ్మా విడ్‍జ్‌ట్"
