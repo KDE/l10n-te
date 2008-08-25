@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-19 06:52+0000\n"
+"POT-Creation-Date: 2008-08-25 07:19+0000\n"
 "PO-Revision-Date: 2008-08-05 13:48+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1562,7 +1562,6 @@ msgid "Camera Program"
 msgstr "కెమెరా కార్యక్రమం"
 
 #: apps/kappfinder/apps/Multimedia/xine.desktop:80
-#: runtime/phonon/xine/xine.desktop:12
 msgctxt "Name"
 msgid "Xine"
 msgstr "క్సైన్"
@@ -2132,7 +2131,6 @@ msgid "SCSI information"
 msgstr "SCSI సమాచారం"
 
 #: apps/kinfocenter/info/sound.desktop:13
-#: runtime/phonon/kcm/kcm_phonon.desktop:13
 msgctxt "Name"
 msgid "Sound"
 msgstr "శబ్దం"
@@ -3423,7 +3421,7 @@ msgctxt "Name"
 msgid "Window Manager"
 msgstr "విండొమెకర్"
 
-#: runtime/kcontrol/componentchooser/componentservices/kcm_wm.desktop:8
+#: runtime/kcontrol/componentchooser/componentservices/kcm_wm.desktop:12
 msgctxt "Comment"
 msgid ""
 "Here you can select the window manager to be run in your KDE session. Note "
@@ -3798,6 +3796,31 @@ msgstr "వచన దస్త్రాలు"
 msgctxt "Comment"
 msgid "Thumbnail Handler"
 msgstr "Thumbnail సంభాలిక"
+
+#: runtime/kioslave/trash/kcmtrash.desktop:1
+#: runtime/kioslave/trash/kcmtrash.desktop:16
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Trashcan"
+msgctxt "Name"
+msgid "Trash"
+msgstr "చెత్తబుట్ట"
+
+#: runtime/kioslave/trash/kcmtrash.desktop:3
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "This service allows configuration of the Dolphin views."
+msgctxt "Comment"
+msgid "This service allows configuration of the trash."
+msgstr "డాల్ఫిన్ వీక్షణిల యొక్క ఆకృతీకరణను ఈ సేవ అనుమతిస్తుంది."
+
+#: runtime/kioslave/trash/kcmtrash.desktop:18
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure Hotkey settings"
+msgctxt "Comment"
+msgid "Configure trash settings"
+msgstr "హాట్‌కీల అమరికలను ఆకృతీకరించుము."
 
 #: runtime/kioslave/trash/trash.protocol:25
 msgctxt "ExtraNames"
@@ -6612,6 +6635,7 @@ msgid "More Applications"
 msgstr "మరికొన్ని కార్యక్రమములు"
 
 #: runtime/menu/desktop/kde-multimedia.directory:4
+#: runtime/phonon/kcm/kcm_phonon.desktop:13
 msgctxt "Name"
 msgid "Multimedia"
 msgstr "బహుళ మాద్యమం"
@@ -6717,11 +6741,12 @@ msgid "Utilities"
 msgstr "సౌలభ్యాలు"
 
 #: runtime/nepomuk/kcm/kcm_nepomuk.desktop:11
+#: workspace/plasma/runners/xesam/plasma-runner-xesam.desktop:2
 msgctxt "Name"
-msgid "Nepomuk"
-msgstr "Nepomuk"
+msgid "Desktop Search"
+msgstr "డెస్‍క్ టాప్ శోధన"
 
-#: runtime/nepomuk/kcm/kcm_nepomuk.desktop:17
+#: runtime/nepomuk/kcm/kcm_nepomuk.desktop:12
 msgctxt "Comment"
 msgid "Nepomuk/Strigi Server Configuration"
 msgstr "Nepomuk/Strigi సేవిక ఆకృతీకరణ"
@@ -6836,10 +6861,26 @@ msgctxt "Comment"
 msgid "Strigi file indexing has been resumed"
 msgstr "Strigi దస్త్రము విషయవర్గీకరణ తిరిగికొనసాగించబడింది"
 
-#: runtime/phonon/kcm/kcm_phonon.desktop:88
+#: runtime/phonon/kcm/kcm_phonon.desktop:14
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Sound System Configuration"
 msgctxt "Comment"
-msgid "Sound System Configuration"
+msgid "Sound and Video Configuration"
 msgstr "సౌండ్ సిస్టమ్ ఆకృతీకరణ"
+
+#: runtime/phonon/kded-module/phononserver.desktop:8
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Sound Processor"
+msgctxt "Name"
+msgid "Sound Policy Server"
+msgstr "శబ్ద ప్రాసెసర్"
+
+#: runtime/phonon/kded-module/phononserver.desktop:9
+msgctxt "Comment"
+msgid "A server to centralize decisions and data of applications using Phonon"
+msgstr ""
 
 #: runtime/phonon/platform_kde/phonon.notifyrc:3
 msgctxt "Comment"
@@ -6866,21 +6907,6 @@ msgstr "అభీష్ట పరికరం అందుబాటులో ల
 msgctxt "Name"
 msgid "KDE Multimedia Backend"
 msgstr "KDE బహుళమాద్యమం బ్యాక్ఎండ్"
-
-#: runtime/phonon/xine/kcm/kcm_phononxine.desktop:11
-msgctxt "Name"
-msgid "Phonon Xine"
-msgstr "Phonon Xine"
-
-#: runtime/phonon/xine/kcm/kcm_phononxine.desktop:28
-msgctxt "Comment"
-msgid "Xine Backend Configuration"
-msgstr "Xine బ్యాక్ఎండ్ ఆకృతీకరణ"
-
-#: runtime/phonon/xine/xine.desktop:22
-msgctxt "Comment"
-msgid "Phonon Xine backend"
-msgstr "Phonon Xine బ్యాక్ఎండ్"
 
 #: runtime/pics/hicolor/index.theme:2
 msgctxt "Name"
@@ -8518,11 +8544,6 @@ msgctxt "Name"
 msgid "Command Runner"
 msgstr "కమాండ్ రన్నర్"
 
-#: workspace/krunner/lock/plasma/containment/plasma-containment-saverdesktop.desktop:2
-msgctxt "Name"
-msgid "SaverDesktop"
-msgstr "సేవిక‍డెస్‍క్ టాప్"
-
 #: workspace/kscreensaver/kblank_screensaver/kblank.desktop:7
 msgctxt "Name"
 msgid "Blank Screen"
@@ -8964,7 +8985,7 @@ msgctxt "Name"
 msgid "Slide"
 msgstr "సాలిడ్"
 
-#: workspace/kwin/effects/slide.desktop:13
+#: workspace/kwin/effects/slide.desktop:15
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Let it snow on the desktop"
@@ -9801,6 +9822,11 @@ msgctxt "Name"
 msgid "Trashcan"
 msgstr "చెత్తబుట్ట"
 
+#: workspace/plasma/containments/desktop/plasma-containment-desktop.desktop:75
+msgctxt "Comment"
+msgid "Default desktop containment"
+msgstr ""
+
 #: workspace/plasma/containments/panel/plasma-containment-panel.desktop:2
 msgctxt "Name"
 msgid "Panel"
@@ -9946,11 +9972,6 @@ msgctxt "Comment"
 msgid "Theme done in the Oxygen style"
 msgstr "Oxygen శైలిలో అయిన థీమ్"
 
-#: workspace/plasma/plasma/plasma.desktop:4
-msgctxt "Name"
-msgid "Plasma"
-msgstr "ప్లాజ్మా"
-
 #: workspace/plasma/runners/bookmarks/plasma-runner-bookmarks.desktop:79
 msgctxt "Comment"
 msgid "Find and open bookmarks"
@@ -10005,11 +10026,6 @@ msgstr "షెల్ ఆదేశాలను నిర్వర్తిస్�
 msgctxt "Comment"
 msgid "Allows user to use Konqueror's Web shortcuts"
 msgstr "వినియోగదారి Konqueror యొక్క షార్‍ట్‌కట్‌లను ఉపయోగించుటకు అనుమతించుము"
-
-#: workspace/plasma/runners/xesam/plasma-runner-xesam.desktop:2
-msgctxt "Name"
-msgid "Desktop Search"
-msgstr "డెస్‍క్ టాప్ శోధన"
 
 #: workspace/plasma/runners/xesam/plasma-runner-xesam.desktop:20
 msgctxt "Comment"
@@ -10086,10 +10102,45 @@ msgctxt "Comment"
 msgid "Webpage widget using HTML and JavaScript"
 msgstr "HTML మరియు జావాస్క్రిప్‍ట్ ఉపయోగించు వెబ్‌పేజ్ విడ్జట్"
 
+#: workspace/plasma/shells/desktop/plasma.desktop:4
+msgctxt "Name"
+msgid "Plasma"
+msgstr "ప్లాజ్మా"
+
+#: workspace/plasma/shells/mid/plasma-mid.desktop:4
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Plasma Manual"
+msgctxt "Name"
+msgid "Plasma MID Shell"
+msgstr "ప్లాజ్మా మేన్యువల్"
+
+#: workspace/plasma/shells/screensaver/containment/plasma-containment-saverdesktop.desktop:2
+msgctxt "Name"
+msgid "SaverDesktop"
+msgstr "సేవిక‍డెస్‍క్ టాప్"
+
 #: workspace/plasma/wallpapers/color/plasma-wallpaper-color.desktop:2
 msgctxt "Name"
 msgid "Color"
 msgstr "రంగు"
+
+#: workspace/plasma/wallpapers/image/plasma-wallpaper-image.desktop:3
+#: workspace/plasma/wallpapers/image/plasma-wallpaper-image.desktop:19
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Images"
+msgctxt "Name"
+msgid "Image"
+msgstr "చిత్రాలు"
+
+#: workspace/plasma/wallpapers/image/plasma-wallpaper-image.desktop:25
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Solid"
+msgctxt "Name"
+msgid "Slideshow"
+msgstr "సాలిడ్"
 
 #: workspace/solid/bluez/solid_bluez.desktop:7
 msgctxt "Name"
@@ -10113,12 +10164,15 @@ msgstr "freedesktop.org HAL డెమాన్ ఉపయోగించే హ�
 
 #: workspace/solid/kcm/kcm_solid.desktop:12
 msgctxt "Name"
-msgid "Solid"
-msgstr "సాలిడ్"
+msgid "Hardware"
+msgstr ""
 
-#: workspace/solid/kcm/kcm_solid.desktop:31
+#: workspace/solid/kcm/kcm_solid.desktop:13
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Hardware Integration Configuration"
 msgctxt "Comment"
-msgid "Hardware Integration Configuration"
+msgid "Hardware Integration Configuration with Solid"
 msgstr "హార్‍డ్‌వేర్ సమ్మేళనం ఆకృతీకరణ"
 
 #: workspace/solid/networking/kded/networkstatus.desktop:2
@@ -10319,6 +10373,26 @@ msgstr "టేబుల్ పైన వవర్షమువుంది"
 msgctxt "Name"
 msgid "Vector Sunset"
 msgstr "వెక్టార్ సూర్యాస్తమయం"
+
+#~ msgctxt "Name"
+#~ msgid "Nepomuk"
+#~ msgstr "Nepomuk"
+
+#~ msgctxt "Name"
+#~ msgid "Phonon Xine"
+#~ msgstr "Phonon Xine"
+
+#~ msgctxt "Comment"
+#~ msgid "Xine Backend Configuration"
+#~ msgstr "Xine బ్యాక్ఎండ్ ఆకృతీకరణ"
+
+#~ msgctxt "Comment"
+#~ msgid "Phonon Xine backend"
+#~ msgstr "Phonon Xine బ్యాక్ఎండ్"
+
+#~ msgctxt "Name"
+#~ msgid "Solid"
+#~ msgstr "సాలిడ్"
 
 #~ msgctxt "Name"
 #~ msgid "Applet Manuals"
