@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-28 09:38+0200\n"
+"POT-Creation-Date: 2008-08-29 11:28+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -396,7 +396,7 @@ msgstr "పాస్ వర్డ్ గుర్తుంచుకొ"
 
 #. i18n: file: kdeui/sonnet/configui.ui:28
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:158 kdeui/findreplace/kfinddialog.cpp:126 kfile/kfilewidget.cpp:399
+#: rc.cpp:158 kdeui/findreplace/kfinddialog.cpp:126
 msgid "Options"
 msgstr "ఇష్టములు"
 
@@ -760,7 +760,7 @@ msgstr "(&M) జరుపుము"
 #. i18n: ectx: Menu (view)
 #. i18n: file: khtml/khtml_browser.rc:20
 #. i18n: ectx: Menu (view)
-#: rc.cpp:318 rc.cpp:459 kfile/kdiroperator.cpp:1701
+#: rc.cpp:318 rc.cpp:459
 msgid "&View"
 msgstr "(&V) చూడు"
 
@@ -5779,7 +5779,7 @@ msgstr "తొలగించు"
 msgid "Test"
 msgstr "పరీక్ష"
 
-#: kdeui/util/kstandardguiitem.cpp:285 kfile/kdiroperator.cpp:1694
+#: kdeui/util/kstandardguiitem.cpp:285
 msgid "Properties"
 msgstr "గుణములు"
 
@@ -5834,7 +5834,7 @@ msgstr "Props"
 msgid "Front"
 msgstr "ముందర"
 
-#: kdeui/util/kkeyserver_x11.cpp:114 kfile/kurlbutton.cpp:90
+#: kdeui/util/kkeyserver_x11.cpp:114
 msgid "Copy"
 msgstr "నకలు"
 
@@ -5842,7 +5842,7 @@ msgstr "నకలు"
 msgid "Open"
 msgstr "తెరువండి"
 
-#: kdeui/util/kkeyserver_x11.cpp:116 kfile/kurlbutton.cpp:94
+#: kdeui/util/kkeyserver_x11.cpp:116
 msgid "Paste"
 msgstr "అతికించు"
 
@@ -9884,646 +9884,6 @@ msgstr "<< నిఘంటువులో చేర్చుము"
 msgid "Nothing to spell check."
 msgstr ""
 
-#: kfile/kfileplacesview.cpp:560
-#, fuzzy
-#| msgid "Trash"
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "చెత్త బుట్ట"
-
-#: kfile/kfileplacesview.cpp:566
-#, fuzzy, kde-format
-#| msgid "&Edit..."
-msgid "&Edit '%1'..."
-msgstr "(&E) సరిదిద్దు..."
-
-#: kfile/kfileplacesview.cpp:585
-#, fuzzy, kde-format
-#| msgid "Hide %1"
-msgid "&Hide '%1'"
-msgstr "%1 చూపించకు"
-
-#: kfile/kfileplacesview.cpp:592
-#, fuzzy
-#| msgid "Show all options"
-msgid "&Show All Entries"
-msgstr "అన్ని ఐచ్చికములు చూపుము"
-
-#: kfile/kfileplacesview.cpp:601
-#, fuzzy, kde-format
-#| msgid "&Remove"
-msgid "&Remove '%1'"
-msgstr "(&R) తొలగించు"
-
-#: kfile/kfileplacesview.cpp:610
-#, fuzzy
-#| msgid "Do you really want to delete this item?"
-#| msgid_plural "Do you really want to delete these %1 items?"
-msgctxt "@info"
-msgid "Do you really want to empty the Trash? All items will be deleted."
-msgstr "ఈ అంశం ను నిజంగా తిసివేయనా?"
-
-#: kfile/kfileplacesview.cpp:614
-#, fuzzy
-#| msgid "Trash"
-msgctxt "@action:button"
-msgid "Empty Trash"
-msgstr "చెత్త బుట్ట"
-
-#: kfile/kfilefiltercombo.cpp:36 kfile/kfilewidget.cpp:1663
-#, fuzzy
-#| msgid "Files"
-msgid "*|All Files"
-msgstr "దస్త్రములు"
-
-#: kfile/kfilefiltercombo.cpp:181
-#, fuzzy
-#| msgid "&Send Files"
-msgid "All Supported Files"
-msgstr "(&S) దస్త్రములు పంపు"
-
-#: kfile/kfilewidget.cpp:246
-msgid ""
-"<qt>While typing in the text area, you may be presented with possible "
-"matches. This feature can be controlled by clicking with the right mouse "
-"button and selecting a preferred mode from the <b>Text Completion</b> menu."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:313
-#, fuzzy, kde-format
-#| msgid "Hide %1"
-msgid "Drive: %1"
-msgstr "%1 చూపించకు"
-
-#: kfile/kfilewidget.cpp:368
-#, kde-format
-msgid ""
-"<qt>Click this button to enter the parent folder.<br /><br />For instance, "
-"if the current location is file:/home/%1 clicking this button will take you "
-"to file:/home.</qt>"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:373
-msgid "Click this button to move backwards one step in the browsing history."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:375
-msgid "Click this button to move forward one step in the browsing history."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:378
-msgid "Click this button to reload the contents of the current location."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:381
-#, fuzzy
-#| msgid "Could not create the new file."
-msgid "Click this button to create a new folder."
-msgstr "కొత్త దస్త్రాన్ని సృష్టించలేను."
-
-#: kfile/kfilewidget.cpp:387
-#, fuzzy
-#| msgid "Show license information"
-msgid "Show Places Navigation Panel"
-msgstr "లైసెన్స్ సమాచరం చూపుము"
-
-#: kfile/kfilewidget.cpp:394
-#, fuzzy
-#| msgid "Bookmarks"
-msgid "Show Bookmarks"
-msgstr "పేజి గుర్తులు"
-
-#: kfile/kfilewidget.cpp:401
-msgid ""
-"<qt>This is the preferences menu for the file dialog. Various options can be "
-"accessed from this menu including: <ul><li>how files are sorted in the list</"
-"li><li>types of view, including icon and list</li><li>showing of hidden "
-"files</li><li>the Places navigation panel</li><li>file previews</"
-"li><li>separating folders from files</li></ul></qt>"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:447 kfile/kfileplaceeditdialog.cpp:116
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Latin"
-msgid "&Location:"
-msgstr "లాటిన్"
-
-#: kfile/kfilewidget.cpp:484
-msgid ""
-"<qt>This is the filter to apply to the file list. File names that do not "
-"match the filter will not be shown.<p>You may select from one of the preset "
-"filters in the drop down menu, or you may enter a custom filter directly "
-"into the text area.</p><p>Wildcards such as * and ? are allowed.</p></qt>"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:490
-#, fuzzy
-#| msgid "Filter:"
-msgid "&Filter:"
-msgstr "గలని:"
-
-#: kfile/kfilewidget.cpp:717 kfile/kfilewidget.cpp:766
-#: kfile/kfilewidget.cpp:1600
-msgid "You can only select local files."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:718 kfile/kfilewidget.cpp:767
-#: kfile/kfilewidget.cpp:1601
-msgid "Remote Files Not Accepted"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:757
-#, kde-format
-msgid ""
-"%1\n"
-"does not appear to be a valid URL.\n"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:757
-#, fuzzy
-#| msgid "InvalidCA"
-msgid "Invalid URL"
-msgstr "చెల్లని సిఏ"
-
-#: kfile/kfilewidget.cpp:1191
-msgid "This is the name to save the file as."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1196
-msgid ""
-"This is the list of files to open. More than one file can be specified by "
-"listing several files, separated by spaces."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1203
-msgid "This is the name of the file to open."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1377
-#, fuzzy, kde-format
-#| msgid ""
-#| "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
-msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
-msgstr "\"%1\" పేరుతొ దస్త్రం ముందే వుంది. మీరు దానిని తిరిగి వ్రాయమంటారా?"
-
-#: kfile/kfilewidget.cpp:1378 khtml/khtml_ext.cpp:928
-msgid "Overwrite File?"
-msgstr "దస్త్రాలను త్రిగి వ్రాయి?"
-
-#: kfile/kfilewidget.cpp:1532
-msgid ""
-"The chosen filenames do not\n"
-"appear to be valid."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1534
-#, fuzzy
-#| msgid "Invalid reference base"
-msgid "Invalid Filenames"
-msgstr "సరికాని సంబంద మూలం"
-
-#: kfile/kfilewidget.cpp:1563
-#, kde-format
-msgid ""
-"The requested filenames\n"
-"%1\n"
-"do not appear to be valid;\n"
-"make sure every filename is enclosed in double quotes."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1567
-#, fuzzy
-#| msgid "File Error"
-msgid "Filename Error"
-msgstr "దస్త్రపు దోషం"
-
-#: kfile/kfilewidget.cpp:1660
-msgid "*|All Folders"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1802 kparts/browserrun.cpp:384
-msgid "&Open"
-msgstr "(&O) తెరువండి"
-
-#: kfile/kfilewidget.cpp:1958
-#, kde-format
-msgid "Automatically select filename e&xtension (%1)"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1959
-#, kde-format
-msgid "the extension <b>%1</b>"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1967
-msgid "Automatically select filename e&xtension"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1968
-msgid "a suitable extension"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1978
-#, kde-format
-msgid ""
-"This option enables some convenient features for saving files with "
-"extensions:<br /><ol><li>Any extension specified in the <b>%1</b> text area "
-"will be updated if you change the file type to save in.<br /><br /></"
-"li><li>If no extension is specified in the <b>%2</b> text area when you "
-"click <b>Save</b>, %3 will be added to the end of the filename (if the "
-"filename does not already exist). This extension is based on the file type "
-"that you have chosen to save in.<br /><br />If you do not want KDE to supply "
-"an extension for the filename, you can either turn this option off or you "
-"can suppress it by adding a period (.) to the end of the filename (the "
-"period will be automatically removed).</li></ol>If unsure, keep this option "
-"enabled as it makes your files more manageable."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:2277
-msgid "Bookmarks"
-msgstr "పేజి గుర్తులు"
-
-#: kfile/kfilewidget.cpp:2281
-msgid ""
-"<qt>This button allows you to bookmark specific locations. Click on this "
-"button to open the bookmark menu where you may add, edit or select a "
-"bookmark.<br /><br />These bookmarks are specific to the file dialog, but "
-"otherwise operate like bookmarks elsewhere in KDE.</qt>"
-msgstr ""
-
-#: kfile/kfileplacesmodel.cpp:101
-#, fuzzy
-#| msgctxt "Home phone"
-#| msgid "Home"
-msgctxt "Home Directory"
-msgid "Home"
-msgstr "గృహము"
-
-#: kfile/kfileplacesmodel.cpp:103
-#, fuzzy
-#| msgid "New"
-msgid "Network"
-msgstr "కొత్త"
-
-#: kfile/kfileplacesmodel.cpp:107 kfile/kfileplacesmodel.cpp:110
-#, fuzzy
-#| msgid "NoCARoot"
-msgid "Root"
-msgstr "సిఏరూట్ లేదు"
-
-#: kfile/kfileplacesmodel.cpp:113
-msgid "Trash"
-msgstr "చెత్త బుట్ట"
-
-#: kfile/kfileplacesmodel.cpp:687
-#, fuzzy, kde-format
-#| msgid "&Remove"
-msgid "&Release '%1'"
-msgstr "(&R) తొలగించు"
-
-#: kfile/kfileplacesmodel.cpp:689
-#, fuzzy, kde-format
-#| msgid "&Remove"
-msgid "&Safely Remove '%1'"
-msgstr "(&R) తొలగించు"
-
-#: kfile/kfileplacesmodel.cpp:692
-#, fuzzy, kde-format
-#| msgid "&About %1"
-msgid "&Unmount '%1'"
-msgstr "(&A) %1 గురించి"
-
-#: kfile/kfileplacesmodel.cpp:713
-#, fuzzy, kde-format
-#| msgid "&Open with '%1'"
-msgid "&Eject '%1'"
-msgstr "(&O) దీనితో తెరువండి '%1'"
-
-#: kfile/kfileplacesmodel.cpp:746
-#, kde-format
-msgid "The device '%1' is not a disc and can't be ejected."
-msgstr ""
-
-#: kfile/kfileplacesmodel.cpp:782
-#, fuzzy, kde-format
-#| msgid "An error occurred while loading <B>%1</B>:"
-msgid "An error occurred while accessing '%1', the system responded: %2"
-msgstr "<B>%1<B> ఎక్కించునప్పుడు దోషము వచ్చినది:"
-
-#: kfile/kfileplacesmodel.cpp:786
-#, fuzzy, kde-format
-#| msgid "An error occurred while loading <B>%1</B>:"
-msgid "An error occurred while accessing '%1'"
-msgstr "<B>%1<B> ఎక్కించునప్పుడు దోషము వచ్చినది:"
-
-#: kfile/kurlnavigator.cpp:573
-#, fuzzy
-#| msgid "Custom"
-msgid "Custom Path"
-msgstr "నిర్దేశితమైన"
-
-#: kfile/kdirselectdialog.cpp:115 kfile/kdiroperator.cpp:666
-#: kfile/kdiroperator.cpp:674
-#, fuzzy
-#| msgid "New file."
-msgid "New Folder"
-msgstr "కొత్త దస్త్రం"
-
-#: kfile/kdirselectdialog.cpp:119
-#, fuzzy
-#| msgid "New file."
-msgctxt "@title:window"
-msgid "New Folder"
-msgstr "కొత్త దస్త్రం"
-
-#: kfile/kdirselectdialog.cpp:120
-#, kde-format
-msgctxt "@label:textbox"
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-
-#: kfile/kdirselectdialog.cpp:143 kfile/kdiroperator.cpp:701
-#, kde-format
-msgid "A file or folder named %1 already exists."
-msgstr ""
-
-#: kfile/kdirselectdialog.cpp:147 kfile/kdiroperator.cpp:704
-msgid "You do not have permission to create that folder."
-msgstr ""
-
-#: kfile/kdirselectdialog.cpp:223
-#, fuzzy
-#| msgid "Select Color"
-msgctxt "@title:window"
-msgid "Select Folder"
-msgstr "రంగు ఎంచుకొనుము"
-
-#: kfile/kdirselectdialog.cpp:225
-#, fuzzy
-#| msgid "New file."
-msgctxt "@action:button"
-msgid "New Folder..."
-msgstr "కొత్త దస్త్రం"
-
-#: kfile/kdirselectdialog.cpp:264
-#, fuzzy
-#| msgid "New file."
-msgctxt "@action:inmenu"
-msgid "New Folder..."
-msgstr "కొత్త దస్త్రం"
-
-#: kfile/kdirselectdialog.cpp:271
-#, fuzzy
-#| msgid "&Send Files"
-msgctxt "@option:check"
-msgid "Show Hidden Folders"
-msgstr "(&S) దస్త్రములు పంపు"
-
-#: kfile/kfileplaceeditdialog.cpp:85
-#, fuzzy
-#| msgid "&Edit..."
-msgid "Edit Places Entry"
-msgstr "(&E) సరిదిద్దు..."
-
-#: kfile/kfileplaceeditdialog.cpp:99
-msgid ""
-"<qt>This is the text that will appear in the Places panel.<br /><br />The "
-"description should consist of one or two words that will help you remember "
-"what this entry refers to.</qt>"
-msgstr ""
-
-#: kfile/kfileplaceeditdialog.cpp:102
-#, fuzzy
-#| msgid "Description:"
-msgid "&Description:"
-msgstr "వర్ణన:"
-
-#: kfile/kfileplaceeditdialog.cpp:112
-#, kde-format
-msgid ""
-"<qt>This is the location associated with the entry. Any valid URL may be "
-"used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
-"org/pub/kde/stable<br /><br />By clicking on the button next to the text "
-"edit box you can browse to an appropriate URL.</qt>"
-msgstr ""
-
-#: kfile/kfileplaceeditdialog.cpp:125
-msgid ""
-"<qt>This is the icon that will appear in the Places panel.<br /><br />Click "
-"on the button to select a different icon.</qt>"
-msgstr ""
-
-#: kfile/kfileplaceeditdialog.cpp:127
-msgid "Choose an &icon:"
-msgstr "(&i) ప్రతిమను ఎంచుకోండి:"
-
-#: kfile/kfileplaceeditdialog.cpp:147
-#, kde-format
-msgid "&Only show when using this application (%1)"
-msgstr ""
-
-#: kfile/kfileplaceeditdialog.cpp:149
-#, kde-format
-msgid ""
-"<qt>Select this setting if you want this entry to show only when using the "
-"current application (%1).<br /><br />If this setting is not selected, the "
-"entry will be available in all applications.</qt>"
-msgstr ""
-
-#: kfile/kfiletreeview.cpp:185
-#, fuzzy
-#| msgid "&Send Files"
-msgid "Show Hidden Folders"
-msgstr "(&S) దస్త్రములు పంపు"
-
-#: kfile/kdiroperator.cpp:675
-#, kde-format
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-"%1 లో \n"
-"కొత్త ఫొల్డర్ను సృష్టించు"
-
-#: kfile/kdiroperator.cpp:719
-msgid "You did not select a file to delete."
-msgstr ""
-
-#: kfile/kdiroperator.cpp:720
-msgid "Nothing to Delete"
-msgstr "తొలగించటాని ఏమి లేదు"
-
-#: kfile/kdiroperator.cpp:741
-#, kde-format
-msgid ""
-"<qt>Do you really want to delete\n"
-" <b>'%1'</b>?</qt>"
-msgstr ""
-"<qt><b>'%1'</b> ను \n"
-" నిజంగా తొలగించనా?</qt>"
-
-#: kfile/kdiroperator.cpp:743
-msgid "Delete File"
-msgstr "దస్త్రం తొలగించుము"
-
-#: kfile/kdiroperator.cpp:748
-#, kde-format
-msgid "Do you really want to delete this item?"
-msgid_plural "Do you really want to delete these %1 items?"
-msgstr[0] "ఈ అంశం ను నిజంగా తిసివేయనా?"
-msgstr[1] "%1 అంశాల ను నిజంగా తిసివేయనా?"
-
-#: kfile/kdiroperator.cpp:750
-msgid "Delete Files"
-msgstr "దస్త్రాలను తీసివేయండి"
-
-#: kfile/kdiroperator.cpp:781
-msgid "You did not select a file to trash."
-msgstr ""
-
-#: kfile/kdiroperator.cpp:782
-msgid "Nothing to Trash"
-msgstr "చెత్త బుట్ట లొ వెయటానికి ఏమి లేదు"
-
-#: kfile/kdiroperator.cpp:799
-#, fuzzy, kde-format
-#| msgid "Do you really want to execute '%1'? "
-msgid ""
-"<qt>Do you really want to trash\n"
-" <b>'%1'</b>?</qt>"
-msgstr ""
-"<qt><b>'%1'</b> ను \n"
-"నిజంగా చెత్త బుట్ట లొ వెయమంటారా?</qt>"
-
-#: kfile/kdiroperator.cpp:801
-msgid "Trash File"
-msgstr "దస్త్రంను చెత్త బుట్ట లొ వేయి"
-
-#: kfile/kdiroperator.cpp:802 kfile/kdiroperator.cpp:809
-msgctxt "to trash"
-msgid "&Trash"
-msgstr "(&T) చెత్త బుట్ట"
-
-#: kfile/kdiroperator.cpp:806
-#, kde-format
-msgid "translators: not called for n == 1"
-msgid_plural "Do you really want to trash these %1 items?"
-msgstr[0] ""
-msgstr[1] "%1 అంశాలను నిజంగా చెత్త బుట్ట లొ వెయమంటారా?"
-
-#: kfile/kdiroperator.cpp:808
-msgid "Trash Files"
-msgstr "దస్త్రాలను చెత్త బుట్ట లొ వేయి"
-
-#: kfile/kdiroperator.cpp:935 kfile/kdiroperator.cpp:1052
-msgid "The specified folder does not exist or was not readable."
-msgstr ""
-
-#: kfile/kdiroperator.cpp:1594
-msgid "Menu"
-msgstr "పట్టీ"
-
-#: kfile/kdiroperator.cpp:1598
-msgid "Parent Folder"
-msgstr ""
-
-#: kfile/kdiroperator.cpp:1605
-msgid "Home Folder"
-msgstr "గృహం ఫోల్డర్"
-
-#: kfile/kdiroperator.cpp:1608
-msgid "Reload"
-msgstr "తిరిగి ఎక్కించు"
-
-#: kfile/kdiroperator.cpp:1611
-msgid "New Folder..."
-msgstr "కొత్త ఫొల్డర్..."
-
-#: kfile/kdiroperator.cpp:1616
-msgid "Move to Trash"
-msgstr "చెత్త బుట్ట లొ వేయి"
-
-#: kfile/kdiroperator.cpp:1622
-msgid "Delete"
-msgstr "తొలగించు"
-
-#: kfile/kdiroperator.cpp:1629
-msgid "Sorting"
-msgstr "క్రమపరచు"
-
-#: kfile/kdiroperator.cpp:1632
-msgid "By Name"
-msgstr "పేరు చె"
-
-#: kfile/kdiroperator.cpp:1636
-msgid "By Size"
-msgstr "పరిమాణము చె"
-
-#: kfile/kdiroperator.cpp:1640
-msgid "By Date"
-msgstr "తేదీలు చె"
-
-#: kfile/kdiroperator.cpp:1644
-msgid "By Type"
-msgstr "రకము చె"
-
-#: kfile/kdiroperator.cpp:1648
-msgid "Descending"
-msgstr "అవరోహణం"
-
-#: kfile/kdiroperator.cpp:1658
-msgid "Short View"
-msgstr "చిన్న వీక్షణం"
-
-#: kfile/kdiroperator.cpp:1663
-msgid "Detailed View"
-msgstr "వివరములతొ కూడిన వీక్షణం"
-
-#: kfile/kdiroperator.cpp:1668
-#, fuzzy
-#| msgid "Detailed View"
-msgid "Tree View"
-msgstr "వివరములతొ కూడిన వీక్షణం"
-
-#: kfile/kdiroperator.cpp:1673
-#, fuzzy
-#| msgid "Detailed View"
-msgid "Detailed Tree View"
-msgstr "వివరములతొ కూడిన వీక్షణం"
-
-#: kfile/kdiroperator.cpp:1684
-msgid "Show Hidden Files"
-msgstr "దాగిన దస్త్రములు చూపు"
-
-#: kfile/kdiroperator.cpp:1688
-msgid "Show Preview"
-msgstr "ముందు వీక్షణం చూపు"
-
-#: kfile/kurltogglebutton.cpp:76
-msgid "Click for Location Navigation"
-msgstr "స్థలంకు  వెళ్ళెందుకు క్లిక్ చెయండి"
-
-#: kfile/kurltogglebutton.cpp:78
-msgid "Click to Edit Location"
-msgstr "స్థలం ఎంచుకొనేందుకు క్లిక్ చెయండి"
-
-#: kfile/kurlbutton.cpp:101 kross/ui/view.cpp:505
-msgid "Edit"
-msgstr "సరిదిద్దు"
-
-#: kfile/kurlbutton.cpp:104
-msgid "Navigate"
-msgstr "సంచారము"
-
-#: kfile/kurlbutton.cpp:119
-#, fuzzy
-#| msgid "Show all options"
-msgid "Show Full Path"
-msgstr "అన్ని ఐచ్చికములు చూపుము"
-
 #: khtml/testkhtml.cpp:38
 msgid "URL to open"
 msgstr "తెరువుటకు యూఆర్ఎల్"
@@ -10788,6 +10148,10 @@ msgstr ""
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "\"%1\" పేరుతొ దస్త్రం ముందే వుంది. మీరు దానిని తిరిగి వ్రాయమంటారా?"
+
+#: khtml/khtml_ext.cpp:928
+msgid "Overwrite File?"
+msgstr "దస్త్రాలను త్రిగి వ్రాయి?"
 
 #: khtml/khtml_ext.cpp:928
 msgid "Overwrite"
@@ -11924,6 +11288,10 @@ msgstr "కొత్త స్క్రిప్ట్ ను చేర్చు
 msgid "Remove selected script."
 msgstr "ఎంచుకొన్న స్క్రిప్ట్ ను తొలగించు"
 
+#: kross/ui/view.cpp:505
+msgid "Edit"
+msgstr "సరిదిద్దు"
+
 #: kross/qts/main.cpp:57 kross/console/main.cpp:94
 msgid "Kross"
 msgstr "క్రాస్"
@@ -12197,6 +11565,10 @@ msgstr "(&O) దీనితో తెరువండి '%1'"
 #: kparts/browserrun.cpp:339
 msgid "&Open With..."
 msgstr "(&O) దీనితో తెరువండి"
+
+#: kparts/browserrun.cpp:384
+msgid "&Open"
+msgstr "(&O) తెరువండి"
 
 #: kutils/kcmoduleloader.cpp:76
 #, kde-format
@@ -13297,6 +12669,341 @@ msgstr "(&D) ఈ రోజు సూచన"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr ""
+
+#, fuzzy
+#~| msgid "Trash"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Empty Trash"
+#~ msgstr "చెత్త బుట్ట"
+
+#, fuzzy
+#~| msgid "&Edit..."
+#~ msgid "&Edit '%1'..."
+#~ msgstr "(&E) సరిదిద్దు..."
+
+#, fuzzy
+#~| msgid "Hide %1"
+#~ msgid "&Hide '%1'"
+#~ msgstr "%1 చూపించకు"
+
+#, fuzzy
+#~| msgid "Show all options"
+#~ msgid "&Show All Entries"
+#~ msgstr "అన్ని ఐచ్చికములు చూపుము"
+
+#, fuzzy
+#~| msgid "&Remove"
+#~ msgid "&Remove '%1'"
+#~ msgstr "(&R) తొలగించు"
+
+#, fuzzy
+#~| msgid "Do you really want to delete this item?"
+#~| msgid_plural "Do you really want to delete these %1 items?"
+#~ msgctxt "@info"
+#~ msgid "Do you really want to empty the Trash? All items will be deleted."
+#~ msgstr "ఈ అంశం ను నిజంగా తిసివేయనా?"
+
+#, fuzzy
+#~| msgid "Trash"
+#~ msgctxt "@action:button"
+#~ msgid "Empty Trash"
+#~ msgstr "చెత్త బుట్ట"
+
+#, fuzzy
+#~| msgid "Files"
+#~ msgid "*|All Files"
+#~ msgstr "దస్త్రములు"
+
+#, fuzzy
+#~| msgid "&Send Files"
+#~ msgid "All Supported Files"
+#~ msgstr "(&S) దస్త్రములు పంపు"
+
+#, fuzzy
+#~| msgid "Hide %1"
+#~ msgid "Drive: %1"
+#~ msgstr "%1 చూపించకు"
+
+#, fuzzy
+#~| msgid "Could not create the new file."
+#~ msgid "Click this button to create a new folder."
+#~ msgstr "కొత్త దస్త్రాన్ని సృష్టించలేను."
+
+#, fuzzy
+#~| msgid "Show license information"
+#~ msgid "Show Places Navigation Panel"
+#~ msgstr "లైసెన్స్ సమాచరం చూపుము"
+
+#, fuzzy
+#~| msgid "Bookmarks"
+#~ msgid "Show Bookmarks"
+#~ msgstr "పేజి గుర్తులు"
+
+#, fuzzy
+#~| msgctxt "QFont"
+#~| msgid "Latin"
+#~ msgid "&Location:"
+#~ msgstr "లాటిన్"
+
+#, fuzzy
+#~| msgid "Filter:"
+#~ msgid "&Filter:"
+#~ msgstr "గలని:"
+
+#, fuzzy
+#~| msgid "InvalidCA"
+#~ msgid "Invalid URL"
+#~ msgstr "చెల్లని సిఏ"
+
+#, fuzzy
+#~| msgid ""
+#~| "A file named \"%1\" already exists. Are you sure you want to overwrite "
+#~| "it?"
+#~ msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
+#~ msgstr "\"%1\" పేరుతొ దస్త్రం ముందే వుంది. మీరు దానిని తిరిగి వ్రాయమంటారా?"
+
+#, fuzzy
+#~| msgid "Invalid reference base"
+#~ msgid "Invalid Filenames"
+#~ msgstr "సరికాని సంబంద మూలం"
+
+#, fuzzy
+#~| msgid "File Error"
+#~ msgid "Filename Error"
+#~ msgstr "దస్త్రపు దోషం"
+
+#~ msgid "Bookmarks"
+#~ msgstr "పేజి గుర్తులు"
+
+#, fuzzy
+#~| msgctxt "Home phone"
+#~| msgid "Home"
+#~ msgctxt "Home Directory"
+#~ msgid "Home"
+#~ msgstr "గృహము"
+
+#, fuzzy
+#~| msgid "New"
+#~ msgid "Network"
+#~ msgstr "కొత్త"
+
+#, fuzzy
+#~| msgid "NoCARoot"
+#~ msgid "Root"
+#~ msgstr "సిఏరూట్ లేదు"
+
+#~ msgid "Trash"
+#~ msgstr "చెత్త బుట్ట"
+
+#, fuzzy
+#~| msgid "&Remove"
+#~ msgid "&Release '%1'"
+#~ msgstr "(&R) తొలగించు"
+
+#, fuzzy
+#~| msgid "&Remove"
+#~ msgid "&Safely Remove '%1'"
+#~ msgstr "(&R) తొలగించు"
+
+#, fuzzy
+#~| msgid "&About %1"
+#~ msgid "&Unmount '%1'"
+#~ msgstr "(&A) %1 గురించి"
+
+#, fuzzy
+#~| msgid "&Open with '%1'"
+#~ msgid "&Eject '%1'"
+#~ msgstr "(&O) దీనితో తెరువండి '%1'"
+
+#, fuzzy
+#~| msgid "An error occurred while loading <B>%1</B>:"
+#~ msgid "An error occurred while accessing '%1', the system responded: %2"
+#~ msgstr "<B>%1<B> ఎక్కించునప్పుడు దోషము వచ్చినది:"
+
+#, fuzzy
+#~| msgid "An error occurred while loading <B>%1</B>:"
+#~ msgid "An error occurred while accessing '%1'"
+#~ msgstr "<B>%1<B> ఎక్కించునప్పుడు దోషము వచ్చినది:"
+
+#, fuzzy
+#~| msgid "Custom"
+#~ msgid "Custom Path"
+#~ msgstr "నిర్దేశితమైన"
+
+#, fuzzy
+#~| msgid "New file."
+#~ msgid "New Folder"
+#~ msgstr "కొత్త దస్త్రం"
+
+#, fuzzy
+#~| msgid "New file."
+#~ msgctxt "@title:window"
+#~ msgid "New Folder"
+#~ msgstr "కొత్త దస్త్రం"
+
+#, fuzzy
+#~| msgid "Select Color"
+#~ msgctxt "@title:window"
+#~ msgid "Select Folder"
+#~ msgstr "రంగు ఎంచుకొనుము"
+
+#, fuzzy
+#~| msgid "New file."
+#~ msgctxt "@action:button"
+#~ msgid "New Folder..."
+#~ msgstr "కొత్త దస్త్రం"
+
+#, fuzzy
+#~| msgid "New file."
+#~ msgctxt "@action:inmenu"
+#~ msgid "New Folder..."
+#~ msgstr "కొత్త దస్త్రం"
+
+#, fuzzy
+#~| msgid "&Send Files"
+#~ msgctxt "@option:check"
+#~ msgid "Show Hidden Folders"
+#~ msgstr "(&S) దస్త్రములు పంపు"
+
+#, fuzzy
+#~| msgid "&Edit..."
+#~ msgid "Edit Places Entry"
+#~ msgstr "(&E) సరిదిద్దు..."
+
+#, fuzzy
+#~| msgid "Description:"
+#~ msgid "&Description:"
+#~ msgstr "వర్ణన:"
+
+#~ msgid "Choose an &icon:"
+#~ msgstr "(&i) ప్రతిమను ఎంచుకోండి:"
+
+#, fuzzy
+#~| msgid "&Send Files"
+#~ msgid "Show Hidden Folders"
+#~ msgstr "(&S) దస్త్రములు పంపు"
+
+#~ msgid ""
+#~ "Create new folder in:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "%1 లో \n"
+#~ "కొత్త ఫొల్డర్ను సృష్టించు"
+
+#~ msgid "Nothing to Delete"
+#~ msgstr "తొలగించటాని ఏమి లేదు"
+
+#~ msgid ""
+#~ "<qt>Do you really want to delete\n"
+#~ " <b>'%1'</b>?</qt>"
+#~ msgstr ""
+#~ "<qt><b>'%1'</b> ను \n"
+#~ " నిజంగా తొలగించనా?</qt>"
+
+#~ msgid "Delete File"
+#~ msgstr "దస్త్రం తొలగించుము"
+
+#~ msgid "Do you really want to delete this item?"
+#~ msgid_plural "Do you really want to delete these %1 items?"
+#~ msgstr[0] "ఈ అంశం ను నిజంగా తిసివేయనా?"
+#~ msgstr[1] "%1 అంశాల ను నిజంగా తిసివేయనా?"
+
+#~ msgid "Delete Files"
+#~ msgstr "దస్త్రాలను తీసివేయండి"
+
+#~ msgid "Nothing to Trash"
+#~ msgstr "చెత్త బుట్ట లొ వెయటానికి ఏమి లేదు"
+
+#, fuzzy
+#~| msgid "Do you really want to execute '%1'? "
+#~ msgid ""
+#~ "<qt>Do you really want to trash\n"
+#~ " <b>'%1'</b>?</qt>"
+#~ msgstr ""
+#~ "<qt><b>'%1'</b> ను \n"
+#~ "నిజంగా చెత్త బుట్ట లొ వెయమంటారా?</qt>"
+
+#~ msgid "Trash File"
+#~ msgstr "దస్త్రంను చెత్త బుట్ట లొ వేయి"
+
+#~ msgctxt "to trash"
+#~ msgid "&Trash"
+#~ msgstr "(&T) చెత్త బుట్ట"
+
+#~ msgid "Trash Files"
+#~ msgstr "దస్త్రాలను చెత్త బుట్ట లొ వేయి"
+
+#~ msgid "Menu"
+#~ msgstr "పట్టీ"
+
+#~ msgid "Home Folder"
+#~ msgstr "గృహం ఫోల్డర్"
+
+#~ msgid "Reload"
+#~ msgstr "తిరిగి ఎక్కించు"
+
+#~ msgid "New Folder..."
+#~ msgstr "కొత్త ఫొల్డర్..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "చెత్త బుట్ట లొ వేయి"
+
+#~ msgid "Delete"
+#~ msgstr "తొలగించు"
+
+#~ msgid "Sorting"
+#~ msgstr "క్రమపరచు"
+
+#~ msgid "By Name"
+#~ msgstr "పేరు చె"
+
+#~ msgid "By Size"
+#~ msgstr "పరిమాణము చె"
+
+#~ msgid "By Date"
+#~ msgstr "తేదీలు చె"
+
+#~ msgid "By Type"
+#~ msgstr "రకము చె"
+
+#~ msgid "Descending"
+#~ msgstr "అవరోహణం"
+
+#~ msgid "Short View"
+#~ msgstr "చిన్న వీక్షణం"
+
+#~ msgid "Detailed View"
+#~ msgstr "వివరములతొ కూడిన వీక్షణం"
+
+#, fuzzy
+#~| msgid "Detailed View"
+#~ msgid "Tree View"
+#~ msgstr "వివరములతొ కూడిన వీక్షణం"
+
+#, fuzzy
+#~| msgid "Detailed View"
+#~ msgid "Detailed Tree View"
+#~ msgstr "వివరములతొ కూడిన వీక్షణం"
+
+#~ msgid "Show Hidden Files"
+#~ msgstr "దాగిన దస్త్రములు చూపు"
+
+#~ msgid "Show Preview"
+#~ msgstr "ముందు వీక్షణం చూపు"
+
+#~ msgid "Click for Location Navigation"
+#~ msgstr "స్థలంకు  వెళ్ళెందుకు క్లిక్ చెయండి"
+
+#~ msgid "Click to Edit Location"
+#~ msgstr "స్థలం ఎంచుకొనేందుకు క్లిక్ చెయండి"
+
+#~ msgid "Navigate"
+#~ msgstr "సంచారము"
+
+#, fuzzy
+#~| msgid "Show all options"
+#~ msgid "Show Full Path"
+#~ msgstr "అన్ని ఐచ్చికములు చూపుము"
 
 #, fuzzy
 #~| msgid "Business"
