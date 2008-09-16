@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-15 09:38+0200\n"
+"POT-Creation-Date: 2008-09-16 09:36+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -5534,24 +5534,24 @@ msgstr "పునరాచరణ"
 msgid "Undo"
 msgstr "సరిచేయు"
 
-#: kdeui/util/ksystemtrayicon.cpp:133
+#: kdeui/util/ksystemtrayicon.cpp:155
 msgid "Minimize"
 msgstr "చిన్నది చెయండి"
 
-#: kdeui/util/ksystemtrayicon.cpp:192
+#: kdeui/util/ksystemtrayicon.cpp:214
 msgid "&Minimize"
 msgstr "(&M) చిన్నది చెయండి"
 
-#: kdeui/util/ksystemtrayicon.cpp:196
+#: kdeui/util/ksystemtrayicon.cpp:218
 msgid "&Restore"
 msgstr "(&R) పునరుద్ధరణ"
 
-#: kdeui/util/ksystemtrayicon.cpp:216
+#: kdeui/util/ksystemtrayicon.cpp:238
 #, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr ""
 
-#: kdeui/util/ksystemtrayicon.cpp:219
+#: kdeui/util/ksystemtrayicon.cpp:241
 msgid "Confirm Quit From System Tray"
 msgstr ""
 
@@ -6218,7 +6218,8 @@ msgstr "%1 గురించి"
 msgid "Configure"
 msgstr "అమర్చు"
 
-#: kdeui/dialogs/kshortcutseditoritem.cpp:66
+#. i18n filtering message requested by translators (scripting).
+#: kdeui/dialogs/kshortcutseditoritem.cpp:43
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@item:intable Action name in shortcuts configuration"
