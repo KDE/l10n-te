@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libtaskmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-25 09:06+0200\n"
+"POT-Creation-Date: 2008-09-21 09:47+0200\n"
 "PO-Revision-Date: 2007-04-03 21:24+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -16,37 +16,65 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: task.cpp:298
+#: task.cpp:330
 msgid "modified"
 msgstr "మార్చబడినడి"
 
-#: taskrmbmenu.cpp:86
-msgid "&To Current Desktop"
-msgstr "(&T) ప్రస్తుతము తెరిచివున్న రంగస్థలానికి"
-
-#: taskrmbmenu.cpp:97
-msgid "&Move"
-msgstr "(&M)జరుపు"
-
-#: taskrmbmenu.cpp:100
-msgid "Re&size"
-msgstr ""
-
-#: taskrmbmenu.cpp:103
+#: taskactions.cpp:112 taskrmbmenu.cpp:103
 msgid "Mi&nimize"
 msgstr "(&n) చిన్నగా చేయి"
 
-#: taskrmbmenu.cpp:108
+#: taskactions.cpp:123 taskrmbmenu.cpp:108
 msgid "Ma&ximize"
 msgstr "(&x) పెద్దగా చేయి"
 
-#: taskrmbmenu.cpp:113
+#: taskactions.cpp:133 taskrmbmenu.cpp:113
 msgid "&Shade"
 msgstr "(&S) నీడ"
 
-#: taskrmbmenu.cpp:120
+#: taskactions.cpp:144 taskrmbmenu.cpp:100
+msgid "Re&size"
+msgstr ""
+
+#: taskactions.cpp:153 taskrmbmenu.cpp:97
+msgid "&Move"
+msgstr "(&M)జరుపు"
+
+#: taskactions.cpp:162 taskrmbmenu.cpp:120
 msgid "&Close"
 msgstr "(&C) మూసివేయి"
+
+#: taskactions.cpp:173 taskrmbmenu.cpp:86
+msgid "&To Current Desktop"
+msgstr "(&T) ప్రస్తుతము తెరిచివున్న రంగస్థలానికి"
+
+#: taskactions.cpp:192 taskrmbmenu.cpp:244 taskrmbmenu.cpp:270
+msgid "&All Desktops"
+msgstr "(&A)అన్ని రంగస్థలాలు"
+
+#: taskactions.cpp:212 taskrmbmenu.cpp:242
+msgid "To &Desktop"
+msgstr "(&D) రంగస్థలానికి"
+
+#: taskactions.cpp:225 taskrmbmenu.cpp:214
+msgid "Keep &Above Others"
+msgstr "(&A) వేరేవాటి పైన పెట్టండి"
+
+#: taskactions.cpp:235 taskrmbmenu.cpp:220
+msgid "Keep &Below Others"
+msgstr "(&B) వేరేవాటి క్రింద పెట్టండి"
+
+#: taskactions.cpp:245 taskrmbmenu.cpp:226
+msgid "&Fullscreen"
+msgstr "(&F) పూర్తి తెర"
+
+#: taskactions.cpp:255 taskrmbmenu.cpp:211
+msgid "Ad&vanced"
+msgstr "(&v)ఆధునికమైన"
+
+#: taskactions.cpp:266
+msgid "&Leave Group"
+msgstr ""
 
 #: taskrmbmenu.cpp:148
 msgid "All &to Current Desktop"
@@ -68,32 +96,20 @@ msgstr ""
 msgid "&Close All"
 msgstr "(&C) అన్నీ మూయండి"
 
-#: taskrmbmenu.cpp:211
-msgid "Ad&vanced"
-msgstr "(&v)ఆధునికమైన"
-
-#: taskrmbmenu.cpp:214
-msgid "Keep &Above Others"
-msgstr "(&A) వేరేవాటి పైన పెట్టండి"
-
-#: taskrmbmenu.cpp:220
-msgid "Keep &Below Others"
-msgstr "(&B) వేరేవాటి క్రింద పెట్టండి"
-
-#: taskrmbmenu.cpp:226
-msgid "&Fullscreen"
-msgstr "(&F) పూర్తి తెర"
-
-#: taskrmbmenu.cpp:242
-msgid "To &Desktop"
-msgstr "(&D) రంగస్థలానికి"
-
-#: taskrmbmenu.cpp:244 taskrmbmenu.cpp:270
-msgid "&All Desktops"
-msgstr "(&A)అన్ని రంగస్థలాలు"
-
 #: taskrmbmenu.cpp:267
 #, fuzzy
 #| msgid "&All Desktops"
 msgid "All to &Desktop"
 msgstr "(&A)అన్ని రంగస్థలాలు"
+
+#: strategies/manualgroupingstrategy.cpp:90
+msgid "Leave Group"
+msgstr ""
+
+#: strategies/manualgroupingstrategy.cpp:97
+msgid "Remove Group"
+msgstr ""
+
+#: strategies/programgroupingstrategy.cpp:66
+msgid "Start/Stop grouping this program"
+msgstr ""
