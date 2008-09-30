@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-29 10:08+0200\n"
+"POT-Creation-Date: 2008-09-30 09:38+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -1780,7 +1780,7 @@ msgid "Form"
 msgstr "ఇట్లు:"
 
 #: kjs/object.cpp:625 kdeui/dialogs/kmessagebox.cpp:816
-#: kdeui/dialogs/kmessagebox.cpp:849
+#: kdeui/dialogs/kmessagebox.cpp:849 khtml/rendering/render_form.cpp:624
 msgid "Error"
 msgstr "దోషం"
 
@@ -9786,7 +9786,7 @@ msgstr "(&U) పైకి జరపండి"
 msgid "Move &Down"
 msgstr "(&D) క్రిందకి జరపండి"
 
-#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:735
+#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:747
 msgid "Clear &History"
 msgstr "(&H) చరిత్రను చెరపివేయి"
 
@@ -11274,34 +11274,34 @@ msgstr "మల్టిపార్ట్/మిక్స్డ్ కొరక�
 msgid "Copyright 2001, David Faure <email>david@mandrakesoft.com</email>"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:597
+#: khtml/rendering/render_form.cpp:603
 #, fuzzy
 #| msgid "Shortcut"
 msgid "New Web Shortcut"
 msgstr "శీఘ్ర మార్గం"
 
-#: khtml/rendering/render_form.cpp:609
-#, fuzzy
+#: khtml/rendering/render_form.cpp:624
+#, fuzzy, kde-format
 #| msgctxt "Socket error code AlreadyCreated"
 #| msgid "socket is already created"
-msgid " is already assigned to "
+msgid "%1 is already assigned to %2"
 msgstr "సాకెట్ ముందే సృష్టించబడినది "
 
-#: khtml/rendering/render_form.cpp:659
+#: khtml/rendering/render_form.cpp:669
 msgid "Search &provider name:"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:661
+#: khtml/rendering/render_form.cpp:671
 msgid "New search provider"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:666
+#: khtml/rendering/render_form.cpp:676
 #, fuzzy
 #| msgid "Shortcuts"
 msgid "UR&I shortcuts:"
 msgstr "శీఘ్ర మార్గాలు"
 
-#: khtml/rendering/render_form.cpp:750
+#: khtml/rendering/render_form.cpp:762
 #, fuzzy
 #| msgid "Configure Shortcuts"
 msgid "Create Web Shortcut"
@@ -11591,19 +11591,19 @@ msgstr "ఐయన్ రైన్ హార్ట్ గెయిసర్"
 msgid "Daniel Molkentin"
 msgstr "డానియల్ మొల్కెన్టిన్"
 
-#: nepomuk/core/resource.cpp:398
+#: nepomuk/core/resource.cpp:405
 msgid "Success"
 msgstr "సఫలం"
 
-#: nepomuk/core/resource.cpp:400
+#: nepomuk/core/resource.cpp:407
 msgid "Communication error"
 msgstr ""
 
-#: nepomuk/core/resource.cpp:402
+#: nepomuk/core/resource.cpp:409
 msgid "Invalid type in Database"
 msgstr "డాటా బేస్ లొ చెల్లని రకం"
 
-#: nepomuk/core/resource.cpp:404
+#: nepomuk/core/resource.cpp:411
 msgid "Unknown error"
 msgstr "తెలియని దోషము"
 
@@ -12071,6 +12071,18 @@ msgstr "%1 దస్త్రం కనపడలేదు"
 #, kde-format
 msgid "library only takes 1 argument, not %1."
 msgstr ""
+
+#: kjsembed/kjsembed/builtins.cpp:154
+#, fuzzy
+#| msgid "Alt"
+msgid "Alert"
+msgstr "Alt"
+
+#: kjsembed/kjsembed/builtins.cpp:165
+#, fuzzy
+#| msgid "Configure"
+msgid "Confirm"
+msgstr "అమర్చు"
 
 #: kjsembed/kjsembed/kjsembed.cpp:273 kjsembed/kjsembed/kjsembed.cpp:295
 #, kde-format
@@ -13257,9 +13269,6 @@ msgstr ""
 
 #~ msgid "Ctrl"
 #~ msgstr "Ctrl"
-
-#~ msgid "Alt"
-#~ msgstr "Alt"
 
 #~ msgid "Meta"
 #~ msgstr "మెటా"
