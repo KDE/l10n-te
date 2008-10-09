@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-25 09:05+0200\n"
+"POT-Creation-Date: 2008-10-09 09:42+0200\n"
 "PO-Revision-Date: 2006-01-10 14:30+0530\n"
 "Last-Translator: Vijay Kiran Kamuju <infyquest@gmail.com>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -14,24 +14,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: wordcompletion/docwordcompletion.cpp:307
+#: wordcompletion/docwordcompletion.cpp:308
 msgid "Pop Up Completion List"
 msgstr ""
 
-#: wordcompletion/docwordcompletion.cpp:311
+#: wordcompletion/docwordcompletion.cpp:312
 msgid "Automatic Completion Popup"
 msgstr ""
 
-#: wordcompletion/docwordcompletion.cpp:318
+#: wordcompletion/docwordcompletion.cpp:319
 msgid "Shell Completion"
 msgstr ""
 
-#: wordcompletion/docwordcompletion.cpp:324
+#: wordcompletion/docwordcompletion.cpp:325
 msgid "Reuse Word Above"
 msgstr ""
 
-#: wordcompletion/docwordcompletion.cpp:329
+#: wordcompletion/docwordcompletion.cpp:330
 msgid "Reuse Word Below"
+msgstr ""
+
+#: wordcompletion/docwordcompletion.cpp:675
+msgid "WordCompletion"
+msgstr ""
+
+#: wordcompletion/docwordcompletion.cpp:675
+msgid "Complete words"
 msgstr ""
 
 #: wordcompletion/docwordcompletion_config.cpp:44
@@ -67,19 +75,25 @@ msgid ""
 "Define the length a word should have before the completion list is displayed."
 msgstr ""
 
-#: insertfile/insertfileplugin.cpp:87
+#: insertfile/insertfileplugin.cpp:42
+#, fuzzy
+#| msgid "Insert File..."
+msgid "Insert File"
+msgstr "దస్త్రాన్ని దూర్చు..."
+
+#: insertfile/insertfileplugin.cpp:88
 msgid "Insert File..."
 msgstr "దస్త్రాన్ని దూర్చు..."
 
-#: insertfile/insertfileplugin.cpp:99
+#: insertfile/insertfileplugin.cpp:100
 msgid "Choose File to Insert"
 msgstr "దస్త్రాన్ని దూర్చుటకు ఎంచుకొనుము"
 
-#: insertfile/insertfileplugin.cpp:100
+#: insertfile/insertfileplugin.cpp:101
 msgid "&Insert"
 msgstr ""
 
-#: insertfile/insertfileplugin.cpp:129
+#: insertfile/insertfileplugin.cpp:130
 msgid ""
 "Failed to load file:\n"
 "\n"
@@ -87,37 +101,49 @@ msgstr ""
 "దస్త్రాన్ని ఎక్కించలేకపొయాను:\n"
 "\n"
 
-#: insertfile/insertfileplugin.cpp:129 insertfile/insertfileplugin.cpp:150
-#: insertfile/insertfileplugin.cpp:172
+#: insertfile/insertfileplugin.cpp:130 insertfile/insertfileplugin.cpp:151
+#: insertfile/insertfileplugin.cpp:173
 msgid "Insert File Error"
 msgstr "దస్త్రాన్ని దూర్చుటలో దోషము"
 
-#: insertfile/insertfileplugin.cpp:143
+#: insertfile/insertfileplugin.cpp:144
 #, kde-format
 msgid ""
 "<p>The file <strong>%1</strong> does not exist or is not readable, aborting."
 "</p>"
 msgstr "<p><strong>%1</strong> దస్త్రం లేదు లేక చద్య్వుటకు వీలుకాదు, ఆపివేస్తున్నా.</p>"
 
-#: insertfile/insertfileplugin.cpp:147
+#: insertfile/insertfileplugin.cpp:148
 #, kde-format
 msgid "<p>Unable to open file <strong>%1</strong>, aborting.</p>"
 msgstr "<p><strong>%1</strong>దస్త్రం తెరువలేకపొయాను, ఆపివేస్తున్నా.</p>"
 
-#: insertfile/insertfileplugin.cpp:170
+#: insertfile/insertfileplugin.cpp:171
 #, kde-format
 msgid "<p>File <strong>%1</strong> had no contents.</p>"
 msgstr "<p><strong>%1</strong> దస్త్రం ఖాళిగా వుంది.</p>"
 
-#: kdatatool/kate_kdatatool.cpp:77
+#: kdatatool/kate_kdatatool.cpp:38
+#, fuzzy
+#| msgid "Data Tools"
+msgid "DataTool"
+msgstr "దత్తాంశపు పనిముట్లు"
+
+#: kdatatool/kate_kdatatool.cpp:38
+#, fuzzy
+#| msgid "Data Tools"
+msgid "Data tool"
+msgstr "దత్తాంశపు పనిముట్లు"
+
+#: kdatatool/kate_kdatatool.cpp:78
 msgid "Data Tools"
 msgstr "దత్తాంశపు పనిముట్లు"
 
-#: kdatatool/kate_kdatatool.cpp:149 kdatatool/kate_kdatatool.cpp:172
+#: kdatatool/kate_kdatatool.cpp:150 kdatatool/kate_kdatatool.cpp:173
 msgid "(not available)"
 msgstr "(లభ్యం కావు)"
 
-#: kdatatool/kate_kdatatool.cpp:181
+#: kdatatool/kate_kdatatool.cpp:182
 msgid ""
 "Data tools are only available when text is selected, or when the right mouse "
 "button is clicked over a word. If no data tools are offered even when text "
@@ -127,6 +153,24 @@ msgstr ""
 "వచనాన్ని ఎంచుకొన్నపుడు లేక ఒక పదంపైన కుడి మౌస్ బటనును నొక్కినప్పుడు మాత్రమే దత్తాంశపు పనిముట్లు "
 "లభ్యమౌను. వచనం ఎంచుకన్న తరువాత దత్తాంశపు పనిముట్లు కపడని ఎడలమీరు వాటిని ఇంస్టాల్ చెయాలి. కొన్ని "
 "దతాంశపు పనిముట్లు కెఆఫిస్ కట్టలొ భాగాలు"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: pythonencoding/python_encoding.cpp:35
+msgid "PythonEncoding"
+msgstr ""
+
+#: pythonencoding/python_encoding.cpp:35
+msgid "Python Encoding check"
+msgstr ""
 
 #: timedate/timedate.cpp:55 timedate/timedate_config.cpp:70
 msgctxt ""
