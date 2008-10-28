@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-27 09:27+0000\n"
+"POT-Creation-Date: 2008-10-28 08:57+0000\n"
 "PO-Revision-Date: 2008-08-05 13:48+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -595,7 +595,7 @@ msgctxt "Name"
 msgid "Freeciv Server"
 msgstr "ఫ్రీసివ్ సెర్వర్"
 
-#: apps/kappfinder/apps/Games/TacticStrategy/freecivserver.desktop:24
+#: apps/kappfinder/apps/Games/TacticStrategy/freecivserver.desktop:25
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "A server for Free Civ"
@@ -1271,7 +1271,7 @@ msgctxt "GenericName"
 msgid "Videotext Viewer"
 msgstr "విడియొ వచన వీక్షిణి"
 
-#: apps/kappfinder/apps/Multimedia/alevt.desktop:24
+#: apps/kappfinder/apps/Multimedia/alevt.desktop:25
 msgctxt "Name"
 msgid "AleVT"
 msgstr "ఎలెవిటి"
@@ -3837,6 +3837,14 @@ msgstr "హెచ్ టి ఎం ఎల్ దస్త్రాలు"
 msgctxt "Name"
 msgid "Images"
 msgstr "చిత్రాలు"
+
+#: runtime/kioslave/thumbnail/jpegthumbnail.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "MpegTV"
+msgctxt "Name"
+msgid "Jpeg"
+msgstr "ఎంపిఈజి టివి"
 
 #: runtime/kioslave/thumbnail/svgthumbnail.desktop:3
 msgctxt "Name"
@@ -6803,7 +6811,6 @@ msgid "Utilities"
 msgstr "సౌలభ్యాలు"
 
 #: runtime/nepomuk/kcm/kcm_nepomuk.desktop:11
-#: workspace/plasma/runners/xesam/plasma-runner-xesam.desktop:2
 msgctxt "Name"
 msgid "Desktop Search"
 msgstr "డెస్‍క్ టాప్ శోధన"
@@ -6868,6 +6875,7 @@ msgid ""
 msgstr ""
 
 #: runtime/nepomuk/services/storage/nepomukstorage.desktop:7
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:3
 msgctxt "Name"
 msgid "Nepomuk Data Storage"
 msgstr "Nepomuk డాటా నిల్వ"
@@ -6876,6 +6884,52 @@ msgstr "Nepomuk డాటా నిల్వ"
 msgctxt "Comment"
 msgid "The Core Nepomuk data storage service"
 msgstr "ఆధార Nepomuk డాటా నిల్వ సేవ"
+
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:4
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Nepomuk Strigi Service"
+msgctxt "Comment"
+msgid "The Nepomuk Storage Service"
+msgstr "Nepomuk Strigi సేవ"
+
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:7
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:12
+msgctxt "Name"
+msgid "Rebuilding Nepomuk Index"
+msgstr ""
+
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:8
+msgctxt "Comment"
+msgid "The Nepomuk full text search index is rebuilt for new features"
+msgstr ""
+
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:13
+msgctxt "Comment"
+msgid "The rebuilding of the Nepomuk full text search index is done."
+msgstr ""
+
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:17
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:22
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:27
+msgctxt "Name"
+msgid "Converting Nepomuk data"
+msgstr ""
+
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:18
+msgctxt "Comment"
+msgid "All Nepomuk data is converted to a new storage backend"
+msgstr ""
+
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:23
+msgctxt "Comment"
+msgid "Converting Nepomuk data to a new backend failed"
+msgstr ""
+
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:28
+msgctxt "Comment"
+msgid "Successfully converted Nepomuk data to new backend"
+msgstr ""
 
 #: runtime/nepomuk/services/strigi/nepomukstrigiservice.desktop:7
 msgctxt "Name"
@@ -10449,6 +10503,19 @@ msgctxt "Comment"
 msgid "File and URL opener"
 msgstr "ఫైల్ మరియు URL తెరువునది"
 
+#: workspace/plasma/runners/nepomuksearch/plasma-runner-nepomuksearch.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop Search"
+msgctxt "Name"
+msgid "Nepomuk Desktop Search Runner"
+msgstr "డెస్‍క్ టాప్ శోధన"
+
+#: workspace/plasma/runners/nepomuksearch/plasma-runner-nepomuksearch.desktop:3
+msgctxt "Comment"
+msgid "KRunner which performs desktop searches via Nepomuk"
+msgstr ""
+
 #: workspace/plasma/runners/powerdevil/plasma-runner-powerdevil.desktop:2
 #, fuzzy
 #| msgctxt "Comment"
@@ -10502,11 +10569,6 @@ msgstr ""
 msgctxt "Comment"
 msgid "Allows user to use Konqueror's Web shortcuts"
 msgstr "వినియోగదారి Konqueror యొక్క షార్‍ట్‌కట్‌లను ఉపయోగించుటకు అనుమతించుము"
-
-#: workspace/plasma/runners/xesam/plasma-runner-xesam.desktop:31
-msgctxt "Comment"
-msgid "Search in documents and files"
-msgstr "పత్రములు మరియు దస్త్రములనందు శోధించుము"
 
 #: workspace/plasma/scriptengines/google_gadgets/plasma-packagestructure-googlegadgets.desktop:2
 msgctxt "Name"
@@ -11142,6 +11204,10 @@ msgstr "టేబుల్ పైన వవర్షమువుంది"
 msgctxt "Name"
 msgid "Vector Sunset"
 msgstr "వెక్టార్ సూర్యాస్తమయం"
+
+#~ msgctxt "Comment"
+#~ msgid "Search in documents and files"
+#~ msgstr "పత్రములు మరియు దస్త్రములనందు శోధించుము"
 
 #, fuzzy
 #~| msgctxt "Comment"

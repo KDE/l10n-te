@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-27 10:16+0100\n"
+"POT-Creation-Date: 2008-10-28 09:45+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -5145,7 +5145,6 @@ msgstr ""
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:540
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:64
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:186
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:188
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:194
 msgid "Install"
 msgstr "స్థాపించు"
@@ -5183,7 +5182,6 @@ msgstr "అమరిక"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:140
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:177
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:179
 msgid "Update"
 msgstr "కొత్త మార్పులు"
 
@@ -6367,7 +6365,6 @@ msgstr "(&I) ప్రతిమను మార్చు..."
 
 #: kdeui/dialogs/kshortcutseditor.cpp:508
 #: kdeui/dialogs/kshortcutseditor.cpp:524
-#: kdeui/widgets/kkeysequencewidget.cpp:236
 msgid "Key Conflict"
 msgstr ""
 
@@ -6379,11 +6376,11 @@ msgid ""
 msgstr ""
 
 #: kdeui/dialogs/kshortcutseditor.cpp:513
-#: kdeui/dialogs/kshortcutseditor.cpp:529 kdeui/shortcuts/kglobalaccel.cpp:429
-#: kdeui/shortcuts/kglobalaccel.cpp:468
-#: kdeui/widgets/kkeysequencewidget.cpp:173
-#: kdeui/widgets/kkeysequencewidget.cpp:244
-#: kdeui/widgets/kkeysequencewidget.cpp:578
+#: kdeui/dialogs/kshortcutseditor.cpp:529 kdeui/shortcuts/kglobalaccel.cpp:431
+#: kdeui/shortcuts/kglobalaccel.cpp:470
+#: kdeui/widgets/kkeysequencewidget.cpp:174
+#: kdeui/widgets/kkeysequencewidget.cpp:256
+#: kdeui/widgets/kkeysequencewidget.cpp:633
 msgid "Reassign"
 msgstr "మళ్లి నియమించు"
 
@@ -7541,11 +7538,11 @@ msgstr "అన్ని కనిపించె నిలువు వరుస
 msgid "S&earch:"
 msgstr "(&e) అన్వేషణ:"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:422
+#: kdeui/shortcuts/kglobalaccel.cpp:424
 msgid "Conflict with Global Shortcut"
 msgstr "వసుదైక శీఘ్రమార్గంతొ ఘర్షణ"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:423
+#: kdeui/shortcuts/kglobalaccel.cpp:425
 #, kde-format
 msgid ""
 "The '%1' key combination has already been allocated to the global action \"%2"
@@ -7553,24 +7550,24 @@ msgid ""
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:449
+#: kdeui/shortcuts/kglobalaccel.cpp:451
 #, kde-format
 msgid "The '%1' key combination is registered by application %2 for action %3:"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:456
+#: kdeui/shortcuts/kglobalaccel.cpp:458
 #, kde-format
 msgid "In context '%1' for action '%2'\n"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:460
+#: kdeui/shortcuts/kglobalaccel.cpp:462
 #, kde-format
 msgid ""
 "The '%1' key combination is registered by application %2.\n"
 "%3"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:466
+#: kdeui/shortcuts/kglobalaccel.cpp:468
 #, fuzzy
 #| msgid "Conflict with Global Shortcut"
 msgid "Conflict With Registered Global Shortcut"
@@ -9766,47 +9763,60 @@ msgstr "తెలియని"
 msgid "&Copy Full Text"
 msgstr "(&C) వచనంను నకలు చేయి"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:160
+#: kdeui/widgets/kkeysequencewidget.cpp:161
 #, kde-format
 msgid "Shortcut '%1' in Application %2 for action %3\n"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:167
+#: kdeui/widgets/kkeysequencewidget.cpp:168
 #, kde-format
 msgid "The shortcut '%1' conflicts with the following key combinations:\n"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:171
+#: kdeui/widgets/kkeysequencewidget.cpp:172
 #, fuzzy
 #| msgid "Conflict with Global Shortcut"
 msgid "Conflict With Registered Global Shortcut(s)"
 msgstr "వసుదైక శీఘ్రమార్గంతొ ఘర్షణ"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:238
+#: kdeui/widgets/kkeysequencewidget.cpp:241
+#, fuzzy
+#| msgid "Shortcut"
+msgid "Shortcut Conflict(s)"
+msgstr "శీఘ్ర మార్గం"
+
+#: kdeui/widgets/kkeysequencewidget.cpp:245
+#, fuzzy, kde-format
+#| msgid "Shortcuts"
+msgid "Shortcut(s) '%1' for action '%2'\n"
+msgstr "శీఘ్ర మార్గాలు"
+
+#: kdeui/widgets/kkeysequencewidget.cpp:250
 #, kde-format
 msgid ""
-"The \"%1\" key sequence conflicts with \"%2\" for the \"%3\" action.\n"
-"Do you want to assign an empty shortcut to that action?"
+"The \"%1\" shortcut is ambiguous with the following shortcuts.\n"
+"Do you want to assign an empty shortcut to these actions?\n"
+"%2"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:252
+#: kdeui/widgets/kkeysequencewidget.cpp:264
 #, fuzzy
 #| msgid "Shortcut"
 msgid "Shortcut conflict"
 msgstr "శీఘ్ర మార్గం"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:253
+#: kdeui/widgets/kkeysequencewidget.cpp:265
 #, kde-format
 msgid ""
 "<qt>The '%1' key combination is already used by the <b>%2</b> action."
 "<br>Please select a different one.</qt>"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:572
+#: kdeui/widgets/kkeysequencewidget.cpp:627
 msgid "Conflict with Standard Application Shortcut"
 msgstr "ప్రామాణిక కార్యక్రమ శీఘ్రమార్గంతొ ఘర్షణ"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:573
+#: kdeui/widgets/kkeysequencewidget.cpp:628
 #, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -9814,25 +9824,25 @@ msgid ""
 "Do you really want to use it as a global shortcut as well?"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:605
+#: kdeui/widgets/kkeysequencewidget.cpp:660
 #, fuzzy
 #| msgid "Input file"
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "మూలాంశ ఫైలు"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:612
+#: kdeui/widgets/kkeysequencewidget.cpp:667
 #, fuzzy
 #| msgid "None"
 msgctxt "No shortcut defined"
 msgid "None"
 msgstr "ఏదీ వద్దు"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:655
+#: kdeui/widgets/kkeysequencewidget.cpp:710
 msgid "The key you just pressed isn't supported by qt."
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:656
+#: kdeui/widgets/kkeysequencewidget.cpp:711
 #, fuzzy
 #| msgid "Untrusted"
 msgid "Unsupported Key"
@@ -10740,65 +10750,65 @@ msgid ""
 "submission. The attachment was removed for your protection."
 msgstr ""
 
-#: khtml/khtml_part.cpp:6008
+#: khtml/khtml_part.cpp:6011
 #, kde-format
 msgid "(%1/s)"
 msgstr "(%1/s)"
 
-#: khtml/khtml_part.cpp:6923
+#: khtml/khtml_part.cpp:6926
 msgid "Security Warning"
 msgstr "భద్రతా హెచ్చరిక"
 
-#: khtml/khtml_part.cpp:6929
+#: khtml/khtml_part.cpp:6932
 #, fuzzy, kde-format
 #| msgid "<qt>Access by untrusted page to<BR><B>%1</B><BR> denied."
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr "<qt>అవిశ్వసనీయ పుట <BR><B>%1</B><BR> నుంచి అనుమతి నిరాకరించడమైనది."
 
-#: khtml/khtml_part.cpp:6930 khtml/java/kjavaappletserver.cpp:792
+#: khtml/khtml_part.cpp:6933 khtml/java/kjavaappletserver.cpp:792
 msgid "Security Alert"
 msgstr "భద్రతా హెచ్చరిక"
 
-#: khtml/khtml_part.cpp:7280
+#: khtml/khtml_part.cpp:7283
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr "'%1' వాలెట్ తెరవబడివున్నది మరయు ఫారం దత్తాంశాలు మరయూ పాస్ వర్డుల కొరకు వాడబడుతుంది."
 
-#: khtml/khtml_part.cpp:7337
+#: khtml/khtml_part.cpp:7340
 msgid "&Close Wallet"
 msgstr "(&C) వాలెట్ ముసివేయి"
 
-#: khtml/khtml_part.cpp:7380
+#: khtml/khtml_part.cpp:7383
 msgid "JavaScript &Debugger"
 msgstr "(&D) జావాస్క్రిప్ట్ డీబగ్గర్"
 
-#: khtml/khtml_part.cpp:7413
+#: khtml/khtml_part.cpp:7416
 msgid "This page was prevented from opening a new window via JavaScript."
 msgstr "జావాస్క్రిప్ట్ ద్వారా కొత్త విండొ తెరవకుండా ఈ పుటను ఆపడమైనది"
 
-#: khtml/khtml_part.cpp:7419
+#: khtml/khtml_part.cpp:7422
 msgid "Popup Window Blocked"
 msgstr "పాప్ అప్ విండొ ఆపివేయడమైనది"
 
-#: khtml/khtml_part.cpp:7419
+#: khtml/khtml_part.cpp:7422
 msgid ""
 "This page has attempted to open a popup window but was blocked.\n"
 "You can click on this icon in the status bar to control this behavior\n"
 "or to open the popup."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7432
+#: khtml/khtml_part.cpp:7435
 #, kde-format
 msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
 msgstr[0] "(&S) ఆపివేయబడిన పాప్ అప్ విండొను చూపు"
 msgstr[1] "(&S) %1 ఆపివేయబడిన పాప్ అప్ విండొలను చూపు"
 
-#: khtml/khtml_part.cpp:7433
+#: khtml/khtml_part.cpp:7436
 msgid "Show Blocked Window Passive Popup &Notification"
 msgstr "(&N) ఆపిన విండొ లొ వూరికేవున్న పాప్ అప్ ప్రకటనను చూపు"
 
-#: khtml/khtml_part.cpp:7435
+#: khtml/khtml_part.cpp:7438
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "&(C) జావాస్క్రిప్ట్ కొత్త విండొ పాలసీలను అమర్చు..."
 
@@ -10897,7 +10907,7 @@ msgstr "హానికరమైన అన్వయ దోషం: %2 వరు�
 msgid "XML parsing error"
 msgstr "ఎక్స్ఎంఎల్ అన్వయ దోషం"
 
-#: khtml/xml/dom_docimpl.cpp:2203
+#: khtml/xml/dom_docimpl.cpp:2237
 msgid "Basic Page Style"
 msgstr "సాధారణ పుట శైలి"
 
@@ -11221,7 +11231,7 @@ msgstr ""
 msgid "Key Generator"
 msgstr "కీ లను తయరుచేసెది"
 
-#: khtml/html/html_objectimpl.cpp:577
+#: khtml/html/html_objectimpl.cpp:574
 #, kde-format
 msgid ""
 "No plugin found for '%1'.\n"
@@ -11230,15 +11240,15 @@ msgstr ""
 "'%1' కొరకు ప్లగిన్ కనపడలేదు.\n"
 "%2 నుంచి డౌన్ లోడ్ చేయనా?"
 
-#: khtml/html/html_objectimpl.cpp:578
+#: khtml/html/html_objectimpl.cpp:575
 msgid "Missing Plugin"
 msgstr "ప్లగిన్ కనపడుటలేదు"
 
-#: khtml/html/html_objectimpl.cpp:578
+#: khtml/html/html_objectimpl.cpp:575
 msgid "Download"
 msgstr "డౌన్ లోడ్"
 
-#: khtml/html/html_objectimpl.cpp:578
+#: khtml/html/html_objectimpl.cpp:575
 msgid "Do Not Download"
 msgstr "డౌన్ లోడ్ చేయవద్దు"
 
