@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-17 09:39+0100\n"
+"POT-Creation-Date: 2008-11-18 09:53+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -776,7 +776,7 @@ msgstr "(&T) పనిముట్లు"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:146
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:327
+#: rc.cpp:327 khtml/ecma/debugger/debugwindow.cpp:240
 msgid "&Settings"
 msgstr "(&S) అమరికలు"
 
@@ -1661,7 +1661,7 @@ msgstr ""
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:219
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
-#: rc.cpp:791 khtml/ecma/kjs_debugwin.cpp:480
+#: rc.cpp:791
 msgid "Step"
 msgstr "అడుగు"
 
@@ -1677,8 +1677,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, pbStop)
 #: rc.cpp:797 rc.cpp:945 kdeui/jobs/kstatusbarjobtracker.cpp:156
 #: kdeui/util/kstandardguiitem.cpp:265 kdeui/util/kkeyserver_x11.cpp:109
-#: kdeui/findreplace/kreplace.cpp:353 khtml/ecma/kjs_debugwin.cpp:482
-#: kross/ui/view.cpp:309
+#: kdeui/findreplace/kreplace.cpp:353 kross/ui/view.cpp:309
 msgid "Stop"
 msgstr "ఆగు"
 
@@ -5375,6 +5374,7 @@ msgid "No provider selected."
 msgstr "ఏ ఒక సిద్దంచెసేవారినీ ఎన్నుకోలేదు."
 
 #: knewstuff/knewstuff2/core/providerhandler.cpp:156
+#: knewstuff/knewstuff2/core/providerhandler.cpp:176
 #, fuzzy
 #| msgid "Latest"
 msgctxt "describes the feed of the latest posted entries"
@@ -5388,12 +5388,6 @@ msgstr "ఎక్కువ రేటింగ్ కలది"
 #: knewstuff/knewstuff2/core/providerhandler.cpp:168
 msgid "Most Downloads"
 msgstr "చాలా డౌన్ లోడ్లు"
-
-#: knewstuff/knewstuff2/core/providerhandler.cpp:174
-#, fuzzy
-#| msgid "Untrusted"
-msgid "Unsorted"
-msgstr "నమ్మకమైనది కాదు"
 
 #: knewstuff/knewstuff2/core/security.cpp:76
 msgid ""
@@ -6026,7 +6020,7 @@ msgstr "శీఘ్ర మార్గాలు"
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:61
 #, fuzzy
 #| msgid "Curr&ent actions:"
-msgid "Current Scheme:"
+msgid "Current scheme:"
 msgstr "(&e) ఇప్పటి చర్యలు:"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:71
@@ -6046,8 +6040,10 @@ msgid "More Actions"
 msgstr "చర్య"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:81
-msgid "Save As Scheme Defaults"
-msgstr ""
+#, fuzzy
+#| msgid "&Defaults"
+msgid "Save as Scheme Defaults"
+msgstr "(&D) అప్రమేయాలు"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:83
 msgid "Export Scheme..."
@@ -6058,8 +6054,10 @@ msgid "Name for New Scheme"
 msgstr ""
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:101
-msgid "Name for New Scheme:"
-msgstr ""
+#, fuzzy
+#| msgid "Curr&ent actions:"
+msgid "Name for new scheme:"
+msgstr "(&e) ఇప్పటి చర్యలు:"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:101
 #, fuzzy
@@ -6068,7 +6066,7 @@ msgid "New Scheme"
 msgstr "(&e) ఇప్పటి చర్యలు:"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:107
-msgid "The scheme with this name already exists"
+msgid "A scheme with this name already exists."
 msgstr ""
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:135
@@ -6079,8 +6077,10 @@ msgid ""
 msgstr ""
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:164
-msgid "Export To Location"
-msgstr ""
+#, fuzzy
+#| msgid "Click to Edit Location"
+msgid "Export to Location"
+msgstr "స్థలం ఎంచుకొనేందుకు క్లిక్ చెయండి"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:173
 msgid "Could not export shortcuts scheme because the location is invalid."
@@ -6334,7 +6334,7 @@ msgid "Reset Toolbars"
 msgstr "పనిముట్ల పట్టీలు"
 
 #: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2971
-#: khtml/khtmlview.cpp:3004 khtml/html/html_formimpl.cpp:2166
+#: khtml/khtmlview.cpp:3004 khtml/html/html_formimpl.cpp:2167
 msgid "Reset"
 msgstr ""
 
@@ -8322,27 +8322,27 @@ msgstr "ముందుకు"
 msgid "Next Character"
 msgstr "అక్షరాల సమితి"
 
-#: kdeui/widgets/kcharselect.cpp:370
-#, fuzzy
-#| msgid "Select Font"
-msgid "Set font"
-msgstr "అక్షరరూపము ఎంచుకొనుము"
-
-#: kdeui/widgets/kcharselect.cpp:377
-#, fuzzy
-#| msgid "Change font size?"
-msgid "Set font size"
-msgstr "అక్షర పరిమాణాన్ని మార్చనా?"
-
-#: kdeui/widgets/kcharselect.cpp:384
+#: kdeui/widgets/kcharselect.cpp:367
 #, fuzzy
 #| msgid "Select a year"
 msgid "Select a category"
 msgstr "సంవత్సరము ఎంచుకొనుము"
 
-#: kdeui/widgets/kcharselect.cpp:387
+#: kdeui/widgets/kcharselect.cpp:370
 msgid "Select a block to be displayed"
 msgstr ""
+
+#: kdeui/widgets/kcharselect.cpp:383
+#, fuzzy
+#| msgid "Select Font"
+msgid "Set font"
+msgstr "అక్షరరూపము ఎంచుకొనుము"
+
+#: kdeui/widgets/kcharselect.cpp:390
+#, fuzzy
+#| msgid "Change font size?"
+msgid "Set font size"
+msgstr "అక్షర పరిమాణాన్ని మార్చనా?"
 
 #: kdeui/widgets/kcharselect.cpp:629 kdeui/widgets/kcharselect.cpp:881
 #: kdeui/widgets/kcharselect-translation.cpp:43
@@ -10776,7 +10776,7 @@ msgid ""
 msgstr ""
 
 #: khtml/khtml_part.cpp:4594 khtml/khtmlview.cpp:2957 khtml/khtmlview.cpp:2999
-#: khtml/html/html_formimpl.cpp:1580 khtml/html/html_formimpl.cpp:2174
+#: khtml/html/html_formimpl.cpp:1581 khtml/html/html_formimpl.cpp:2175
 msgid "Submit"
 msgstr "అందించు"
 
@@ -10865,8 +10865,8 @@ msgstr ""
 msgid "Available Tests: %1 (ignored: %2)"
 msgstr "అందుబాటులొ వున్న పరీక్షలు: %1 (విస్మరించినవి: %2)"
 
-#: khtml/test_regression_gui_window.cpp:563 khtml/ecma/kjs_debugwin.cpp:481
-#: khtml/ecma/debugger/debugwindow.cpp:166
+#: khtml/test_regression_gui_window.cpp:563
+#: khtml/ecma/debugger/debugwindow.cpp:192
 msgid "Continue"
 msgstr "కొనసాగించు"
 
@@ -10946,81 +10946,6 @@ msgstr "ఎక్స్ఎంఎల్ అన్వయ దోషం"
 #: khtml/xml/dom_docimpl.cpp:2237
 msgid "Basic Page Style"
 msgstr "సాధారణ పుట శైలి"
-
-#: khtml/ecma/kjs_debugwin.cpp:298 khtml/ecma/debugger/errordlg.cpp:35
-msgid "JavaScript Error"
-msgstr "జావాస్క్రిప్ట్ దోషం"
-
-#: khtml/ecma/kjs_debugwin.cpp:315 khtml/ecma/debugger/errordlg.cpp:50
-msgid "&Do not show this message again"
-msgstr "(&D) ఈ సందేశము మరల చూపవద్దు"
-
-#: khtml/ecma/kjs_debugwin.cpp:385 khtml/ecma/debugger/debugwindow.cpp:111
-msgid "JavaScript Debugger"
-msgstr "జావాస్క్రిప్ట్ డీబగ్గర్"
-
-#: khtml/ecma/kjs_debugwin.cpp:400
-msgid "Call stack"
-msgstr "కాల్ స్టెక్"
-
-#: khtml/ecma/kjs_debugwin.cpp:435
-msgid "JavaScript console"
-msgstr "జావాస్క్రిప్ట్ కంసోల్"
-
-#: khtml/ecma/kjs_debugwin.cpp:465
-msgctxt "Next breakpoint"
-msgid "&Next"
-msgstr "(&N) తర్వాత"
-
-#: khtml/ecma/kjs_debugwin.cpp:467
-msgid "&Step"
-msgstr "(&S) అడుగు"
-
-#: khtml/ecma/kjs_debugwin.cpp:472
-msgid "&Continue"
-msgstr "(&C) కొనసాగించు"
-
-#: khtml/ecma/kjs_debugwin.cpp:474
-msgid "St&op"
-msgstr "(&o) ఆగు"
-
-#: khtml/ecma/kjs_debugwin.cpp:476 khtml/ecma/debugger/debugwindow.cpp:160
-msgid "&Break at Next Statement"
-msgstr "(&B) తరువాతి ప్రవచనం వద్ద ఆగుము"
-
-#: khtml/ecma/kjs_debugwin.cpp:479
-msgctxt "Next breakpoint"
-msgid "Next"
-msgstr "తరువాత"
-
-#: khtml/ecma/kjs_debugwin.cpp:848 khtml/ecma/debugger/debugwindow.cpp:572
-#, kde-format
-msgid "Parse error at %1 line %2"
-msgstr "%1 వరుస %2 లో అన్వయ దోషం"
-
-#: khtml/ecma/kjs_debugwin.cpp:859
-#, kde-format
-msgid ""
-"An error occurred while attempting to run a script on this page.\n"
-"\n"
-"%1"
-msgstr ""
-"ఈ పుటలొ స్క్రిప్టును నడుపుటకు ప్రయత్నించునప్పుడు దొషం వచ్చింది\n"
-".\n"
-"%1"
-
-#: khtml/ecma/kjs_debugwin.cpp:870 khtml/ecma/debugger/debugwindow.cpp:609
-#, kde-format
-msgid ""
-"An error occurred while attempting to run a script on this page.\n"
-"\n"
-"%1 line %2:\n"
-"%3"
-msgstr ""
-"ఈ పుటలొ స్క్రిప్టును నడుపుటకు ప్రయత్నించునప్పుడు దొషం వచ్చింది.\n"
-"\n"
-"%1 వరుస %2:\n"
-"%3"
 
 #: khtml/ecma/kjs_binding.cpp:184
 msgid ""
@@ -11115,17 +11040,17 @@ msgid ""
 "submitted?</qt>"
 msgstr ""
 
-#: khtml/ecma/debugger/debugdocument.cpp:210
+#: khtml/ecma/debugger/debugdocument.cpp:187
 msgid ""
 "Unable to find the Kate editor component;\n"
 "please check your KDE installation."
 msgstr ""
 
-#: khtml/ecma/debugger/debugdocument.cpp:327
+#: khtml/ecma/debugger/debugdocument.cpp:253
 msgid "Breakpoint"
 msgstr ""
 
-#: khtml/ecma/debugger/scriptsdock.cpp:39
+#: khtml/ecma/debugger/scriptsdock.cpp:40
 msgid "Loaded Scripts"
 msgstr "ఎక్కించబడిన స్క్రిప్ట్ లు"
 
@@ -11137,54 +11062,98 @@ msgstr ""
 msgid "Reference"
 msgstr "సంబంధం"
 
-#: khtml/ecma/debugger/debugwindow.cpp:161
+#: khtml/ecma/debugger/debugwindow.cpp:111
+msgid "JavaScript Debugger"
+msgstr "జావాస్క్రిప్ట్ డీబగ్గర్"
+
+#: khtml/ecma/debugger/debugwindow.cpp:186
+msgid "&Break at Next Statement"
+msgstr "(&B) తరువాతి ప్రవచనం వద్ద ఆగుము"
+
+#: khtml/ecma/debugger/debugwindow.cpp:187
 #, fuzzy
 #| msgid "&Break at Next Statement"
 msgid "Break at Next"
 msgstr "(&B) తరువాతి ప్రవచనం వద్ద ఆగుము"
 
-#: khtml/ecma/debugger/debugwindow.cpp:173
+#: khtml/ecma/debugger/debugwindow.cpp:199
 msgid "Step Over"
 msgstr "మీదకు వెళ్ళు"
 
-#: khtml/ecma/debugger/debugwindow.cpp:180
+#: khtml/ecma/debugger/debugwindow.cpp:206
 msgid "Step Into"
 msgstr "లొపలికి వెళ్ళు"
 
-#: khtml/ecma/debugger/debugwindow.cpp:187
+#: khtml/ecma/debugger/debugwindow.cpp:213
 msgid "Step Out"
 msgstr "బయటకు రా"
 
-#: khtml/ecma/debugger/debugwindow.cpp:196
+#: khtml/ecma/debugger/debugwindow.cpp:219
+msgid "Reindent Sources"
+msgstr ""
+
+#: khtml/ecma/debugger/debugwindow.cpp:224
+#, fuzzy
+#| msgid "Action"
+msgid "Report Exceptions"
+msgstr "చర్య"
+
+#: khtml/ecma/debugger/debugwindow.cpp:232
 msgid "&Debug"
 msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:225
+#: khtml/ecma/debugger/debugwindow.cpp:266
 msgid "Close source"
 msgstr "మూలం మూసివేయి"
 
-#: khtml/ecma/debugger/debugwindow.cpp:231
+#: khtml/ecma/debugger/debugwindow.cpp:272
 msgid "Ready"
 msgstr "సిద్దం"
 
-#: khtml/ecma/debugger/debugwindow.cpp:789
+#: khtml/ecma/debugger/debugwindow.cpp:615
+#, kde-format
+msgid "Parse error at %1 line %2"
+msgstr "%1 వరుస %2 లో అన్వయ దోషం"
+
+#: khtml/ecma/debugger/debugwindow.cpp:650
+#, kde-format
+msgid ""
+"An error occurred while attempting to run a script on this page.\n"
+"\n"
+"%1 line %2:\n"
+"%3"
+msgstr ""
+"ఈ పుటలొ స్క్రిప్టును నడుపుటకు ప్రయత్నించునప్పుడు దొషం వచ్చింది.\n"
+"\n"
+"%1 వరుస %2:\n"
+"%3"
+
+#: khtml/ecma/debugger/debugwindow.cpp:835
 msgid ""
 "Don't know where to evaluate the expression. Please pause a script or open a "
 "source file."
 msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:825
+#: khtml/ecma/debugger/debugwindow.cpp:871
 #, kde-format
 msgid "Evaluation threw an exception %1"
 msgstr ""
 
-#: khtml/ecma/debugger/consoledock.cpp:231
+#: khtml/ecma/debugger/consoledock.cpp:220
 msgid "Console"
 msgstr "కాన్సోల్"
 
-#: khtml/ecma/debugger/consoledock.cpp:254
+#: khtml/ecma/debugger/consoledock.cpp:243
 msgid "Enter"
 msgstr "ఎంటర్"
+
+#: khtml/ecma/debugger/errordlg.cpp:35
+msgid "JavaScript Error"
+msgstr "జావాస్క్రిప్ట్ దోషం"
+
+#: khtml/ecma/debugger/errordlg.cpp:50
+msgid "&Do not show this message again"
+msgstr "(&D) ఈ సందేశము మరల చూపవద్దు"
 
 #: khtml/ecma/debugger/callstackdock.cpp:37
 msgid "Call Stack"
@@ -11274,7 +11243,7 @@ msgid ""
 "information next time you visit %1. Do you want to store the information now?"
 msgstr ""
 
-#: khtml/html/html_formimpl.cpp:2555
+#: khtml/html/html_formimpl.cpp:2557
 msgid "Key Generator"
 msgstr "కీ లను తయరుచేసెది"
 
@@ -12939,6 +12908,43 @@ msgid "No such function \"%1\""
 msgstr ""
 
 #, fuzzy
+#~| msgid "Untrusted"
+#~ msgid "Unsorted"
+#~ msgstr "నమ్మకమైనది కాదు"
+
+#~ msgid "Call stack"
+#~ msgstr "కాల్ స్టెక్"
+
+#~ msgid "JavaScript console"
+#~ msgstr "జావాస్క్రిప్ట్ కంసోల్"
+
+#~ msgctxt "Next breakpoint"
+#~ msgid "&Next"
+#~ msgstr "(&N) తర్వాత"
+
+#~ msgid "&Step"
+#~ msgstr "(&S) అడుగు"
+
+#~ msgid "&Continue"
+#~ msgstr "(&C) కొనసాగించు"
+
+#~ msgid "St&op"
+#~ msgstr "(&o) ఆగు"
+
+#~ msgctxt "Next breakpoint"
+#~ msgid "Next"
+#~ msgstr "తరువాత"
+
+#~ msgid ""
+#~ "An error occurred while attempting to run a script on this page.\n"
+#~ "\n"
+#~ "%1"
+#~ msgstr ""
+#~ "ఈ పుటలొ స్క్రిప్టును నడుపుటకు ప్రయత్నించునప్పుడు దొషం వచ్చింది\n"
+#~ ".\n"
+#~ "%1"
+
+#, fuzzy
 #~| msgid "From:"
 #~ msgid "Form"
 #~ msgstr "ఇట్లు:"
@@ -13368,9 +13374,6 @@ msgstr ""
 
 #~ msgid "Click for Location Navigation"
 #~ msgstr "స్థలంకు  వెళ్ళెందుకు క్లిక్ చెయండి"
-
-#~ msgid "Click to Edit Location"
-#~ msgstr "స్థలం ఎంచుకొనేందుకు క్లిక్ చెయండి"
 
 #~ msgid "Navigate"
 #~ msgstr "సంచారము"
