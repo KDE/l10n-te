@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-18 09:53+0100\n"
+"POT-Creation-Date: 2008-11-19 10:53+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -1021,7 +1021,7 @@ msgstr "(&l) ఖాళిచేయుము"
 msgid "HTML Toolbar"
 msgstr "హెచ్ టిఎంఎల్ పనిముట్ల పట్టీ"
 
-#. i18n: file: khtml/find/khtmlfindbar_base.ui:28
+#. i18n: file: khtml/find/khtmlfindbar_base.ui:43
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:462
 #, fuzzy
@@ -1029,7 +1029,7 @@ msgstr "హెచ్ టిఎంఎల్ పనిముట్ల పట్ట
 msgid "F&ind:"
 msgstr "కనుగొను"
 
-#. i18n: file: khtml/find/khtmlfindbar_base.ui:54
+#. i18n: file: khtml/find/khtmlfindbar_base.ui:75
 #. i18n: ectx: property (text), widget (QToolButton, m_next)
 #: rc.cpp:465
 #, fuzzy
@@ -1038,13 +1038,13 @@ msgstr "కనుగొను"
 msgid "&Next"
 msgstr "(&N) తరువాత"
 
-#. i18n: file: khtml/find/khtmlfindbar_base.ui:64
+#. i18n: file: khtml/find/khtmlfindbar_base.ui:85
 #. i18n: ectx: property (text), widget (QToolButton, m_previous)
 #: rc.cpp:468 kdeui/dialogs/ktip.cpp:302
 msgid "&Previous"
 msgstr "(&P) ముందు"
 
-#. i18n: file: khtml/find/khtmlfindbar_base.ui:90
+#. i18n: file: khtml/find/khtmlfindbar_base.ui:111
 #. i18n: ectx: property (text), widget (QToolButton, m_options)
 #: rc.cpp:471
 #, fuzzy
@@ -1884,15 +1884,15 @@ msgstr "పాత హోస్ట్ పేరు"
 msgid "New hostname"
 msgstr "కొత్త హోస్ట్ పేరు"
 
-#: kded/kded.cpp:807
+#: kded/kded.cpp:814
 msgid "KDE Daemon"
 msgstr "కెడిఈ సూత్రధారి"
 
-#: kded/kded.cpp:809
+#: kded/kded.cpp:816
 msgid "KDE Daemon - triggers Sycoca database updates when needed"
 msgstr ""
 
-#: kded/kded.cpp:812
+#: kded/kded.cpp:819
 msgid "Check Sycoca database only once"
 msgstr "ఒక్కసారి మాత్రమే సైకొకా డెటబేస్ తనఖీచేయి"
 
@@ -6766,6 +6766,10 @@ msgstr "అప్రమేయం"
 
 #: kdeui/dialogs/kshortcuteditwidget.cpp:56
 #: kdeui/dialogs/kshortcuteditwidget.cpp:59
+#: kdeui/widgets/kkeysequencewidget.cpp:667
+#, fuzzy
+#| msgid "None"
+msgctxt "No shortcut defined"
 msgid "None"
 msgstr "ఏదీ వద్దు"
 
@@ -9867,13 +9871,6 @@ msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "మూలాంశ ఫైలు"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:667
-#, fuzzy
-#| msgid "None"
-msgctxt "No shortcut defined"
-msgid "None"
-msgstr "ఏదీ వద్దు"
-
 #: kdeui/widgets/kkeysequencewidget.cpp:710
 msgid "The key you just pressed isn't supported by Qt."
 msgstr ""
@@ -12906,6 +12903,9 @@ msgstr "(&D) ఈ రోజు సూచన"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr ""
+
+#~ msgid "None"
+#~ msgstr "ఏదీ వద్దు"
 
 #, fuzzy
 #~| msgid "Untrusted"
