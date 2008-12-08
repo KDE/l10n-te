@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-07 09:30+0000\n"
+"POT-Creation-Date: 2008-12-08 09:31+0000\n"
 "PO-Revision-Date: 2008-08-05 13:48+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -2402,16 +2402,6 @@ msgctxt "Comment"
 msgid "Remote Encoding Plugin for Konqueror"
 msgstr "Konqueror కొరకు దూరస్థ ఎన్‌కోడింగ్ ప్లగ్ఇన్"
 
-#: apps/konqueror/settings/css/kcmcss.desktop:12
-msgctxt "Name"
-msgid "Stylesheets"
-msgstr "స్టైల్‌షీట్స్‍"
-
-#: apps/konqueror/settings/css/kcmcss.desktop:87
-msgctxt "Comment"
-msgid "Configure the stylesheets used to render web pages"
-msgstr "వెబ్ పుటలను ప్రస్ఫుటం చేయుటకు ఉపయోగించిన స్టైల్‌షీట్‍స్  ఆకృతీకరించుము"
-
 #: apps/konqueror/settings/ebrowsing/ebrowsing.desktop:11
 #: workspace/plasma/runners/webshortcuts/plasma-runner-webshortcuts.desktop:2
 msgctxt "Name"
@@ -2656,6 +2646,7 @@ msgstr "ముఖ్యమైన దస్త్రములు నిల్వ�
 
 #: apps/konqueror/settings/konq/fileappearance.desktop:11
 #: apps/konqueror/settings/konq/webappearance.desktop:12
+#: apps/konqueror/settings/konqhtml/khtml_appearance.desktop:13
 #: workspace/systemsettings/categories/settings-appearance.desktop:8
 msgctxt "Name"
 msgid "Appearance"
@@ -2679,26 +2670,20 @@ msgctxt "Comment"
 msgid "You can configure how Konqueror behaves as a file manager here"
 msgstr "ఇక్కడ దస్త్రనిర్వాహికలా Konqueror ఎలా ప్రవర్తించాలో మీరు ఆకృతీకరించవచ్చు"
 
-#: apps/konqueror/settings/konq/filebrowser.desktop:12
-#: runtime/kcontrol/componentchooser/componentservices/kcm_filemanager.desktop:1
+#: apps/konqueror/settings/konqhtml/css/kcmcss.desktop:12
 msgctxt "Name"
-msgid "File Manager"
-msgstr "దస్త్రాల అభికర్త"
+msgid "Stylesheets"
+msgstr "స్టైల్‌షీట్స్‍"
 
-#: apps/konqueror/settings/konq/filebrowser.desktop:92
+#: apps/konqueror/settings/konqhtml/css/kcmcss.desktop:87
 msgctxt "Comment"
-msgid "You can configure Konqueror's file manager mode here"
-msgstr "మీరు ఇక్కడ Konqueror యొక్క దస్త్ర నిర్వాహిక రీతిని ఇక్కడ ఆకృతీకరించవచ్చు"
+msgid "Configure the stylesheets used to render web pages"
+msgstr "వెబ్ పుటలను ప్రస్ఫుటం చేయుటకు ఉపయోగించిన స్టైల్‌షీట్‍స్  ఆకృతీకరించుము"
 
-#: apps/konqueror/settings/konq/filepreviews.desktop:11
-msgctxt "Name"
-msgid "Previews & Meta-Data"
-msgstr "ఉపదర్శనములు & మెటా-డాటా"
-
-#: apps/konqueror/settings/konq/filepreviews.desktop:88
+#: apps/konqueror/settings/konqhtml/khtml_appearance.desktop:94
 msgctxt "Comment"
-msgid "You can configure how Konqueror Previews & Meta-data work here"
-msgstr "Konqueror ఉపదర్శనములు & మెటా-డాటా ఇక్కడ ఎలా పనిచేయాలో మీరు ఆకృతీకరించవచ్చు"
+msgid "Configure the fonts used on web pages"
+msgstr "వెబ్ పుటలపై ఉపయోగించే ఫాంట్‍స్‌ను ఆకృతీకరించుము"
 
 #: apps/konqueror/settings/konqhtml/khtml_behavior.desktop:12
 msgctxt "Name"
@@ -2719,18 +2704,6 @@ msgstr "AdBlocK ఫిల్టర్స్‍"
 msgctxt "Comment"
 msgid "Configure Konqueror AdBlocK filters"
 msgstr "Konqueror AdBlocK ఫిల్టర్‍స్‌ను ఆకృతీకరించుము"
-
-#: apps/konqueror/settings/konqhtml/khtml_fonts.desktop:13
-#: workspace/kcontrol/fonts/fonts.desktop:14
-#: workspace/kcontrol/kfontinst/kio/fonts.desktop:5
-msgctxt "Name"
-msgid "Fonts"
-msgstr "ఫాంట్‍స్"
-
-#: apps/konqueror/settings/konqhtml/khtml_fonts.desktop:92
-msgctxt "Comment"
-msgid "Configure the fonts used on web pages"
-msgstr "వెబ్ పుటలపై ఉపయోగించే ఫాంట్‍స్‌ను ఆకృతీకరించుము"
 
 #: apps/konqueror/settings/konqhtml/khtml_general.desktop:12
 #: workspace/systemsettings/categories/settings-general.desktop:8
@@ -3402,6 +3375,11 @@ msgid ""
 msgstr ""
 "ఇక్కడ మీరు మీ అప్రమేయ అన్వేషణిని ఆకృతీకరించగలరు. ఏ KDE అనువర్తనాలలోనైనామీరు హైపర్‌లింక్‍స్‌ను "
 "నొక్కినప్పుడు అవి ఈ అమర్పును సమ్మతిస్తాయి."
+
+#: runtime/kcontrol/componentchooser/componentservices/kcm_filemanager.desktop:1
+msgctxt "Name"
+msgid "File Manager"
+msgstr "దస్త్రాల అభికర్త"
 
 #: runtime/kcontrol/componentchooser/componentservices/kcm_filemanager.desktop:80
 #, fuzzy
@@ -7280,6 +7258,12 @@ msgctxt "Comment"
 msgid "Settings for display power management"
 msgstr "డిస్‌ప్లే పవర్ నిర్వాహణ కొరకు అమరికలు"
 
+#: workspace/kcontrol/fonts/fonts.desktop:14
+#: workspace/kcontrol/kfontinst/kio/fonts.desktop:5
+msgctxt "Name"
+msgid "Fonts"
+msgstr "ఫాంట్‍స్"
+
 #: workspace/kcontrol/fonts/fonts.desktop:94
 msgctxt "Comment"
 msgid "Font settings"
@@ -10503,7 +10487,7 @@ msgctxt "Name"
 msgid "Calculator"
 msgstr "గణనపరికరం"
 
-#: workspace/plasma/runners/calculator/plasma-runner-calculator.desktop:59
+#: workspace/plasma/runners/calculator/plasma-runner-calculator.desktop:60
 msgctxt "Comment"
 msgid "Calculate expressions"
 msgstr "సమాసాలను గణించుము"
@@ -11295,6 +11279,18 @@ msgstr "టేబుల్ పైన వవర్షమువుంది"
 msgctxt "Name"
 msgid "Vector Sunset"
 msgstr "వెక్టార్ సూర్యాస్తమయం"
+
+#~ msgctxt "Comment"
+#~ msgid "You can configure Konqueror's file manager mode here"
+#~ msgstr "మీరు ఇక్కడ Konqueror యొక్క దస్త్ర నిర్వాహిక రీతిని ఇక్కడ ఆకృతీకరించవచ్చు"
+
+#~ msgctxt "Name"
+#~ msgid "Previews & Meta-Data"
+#~ msgstr "ఉపదర్శనములు & మెటా-డాటా"
+
+#~ msgctxt "Comment"
+#~ msgid "You can configure how Konqueror Previews & Meta-data work here"
+#~ msgstr "Konqueror ఉపదర్శనములు & మెటా-డాటా ఇక్కడ ఎలా పనిచేయాలో మీరు ఆకృతీకరించవచ్చు"
 
 #~ msgctxt "Comment"
 #~ msgid "You can configure how the desktop behaves here"
