@@ -3,29 +3,39 @@
 # Purushottam Boyanapalli <boyanapalli@gmail.com>, 2005.
 # విజయ్ కిరణ్ కముజు <infyquest@gmail.com>, 2007.
 # pavithran <pavithran.s@gmail.com>, 2007.
+# Krishna Babu K <kkrothap@redhat.com>, 2008, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-06 09:59+0100\n"
-"PO-Revision-Date: 2007-03-20 16:30+0530\n"
-"Last-Translator: pavithran <pavithran.s@gmail.com>\n"
-"Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
+"POT-Creation-Date: 2009-01-07 11:17+0100\n"
+"PO-Revision-Date: 2009-01-07 16:29+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "విజయ్ కిరణ్ కముజు"
+msgstr ""
+"విజయ్ కిరణ్ కముజు\n"
+"కృష్ణబాబు కె"
 
 #: rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "infyquest@gmail.com"
+msgstr ""
+"infyquest@gmail.com\n"
+"kkrothap@redhat.com"
 
 #. i18n: file: interfaces/ktexteditor/editorchooser_ui.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, EditorChooser)
@@ -42,42 +52,39 @@ msgid ""
 "honor your changes in the Control Center. All other choices will override "
 "that setting."
 msgstr ""
+"ఈ కార్యక్రమమునందు మీరు వుపయోగించాలి అనుకొనుచున్న అప్రమేయ వచన సరికూర్పును దయచేసి యెంచుకొనుము. "
+"మీరు <B>సిస్టమ్ అప్రమేయాన్ని</B> యెంచుకొనినట్లైతే, ఆ అనువర్తనము మీ మార్పులను నియంత్రణ కేంద్రమువద్ద "
+"ఆమోదిస్తుంది. అన్ని యితర యిచ్చాలు ఆ అమరికను వోవర్‌రైడ్ చేస్తాయి."
 
 #. i18n: file: knewstuff/knewstuff2/ui/DownloadDialog.ui:27
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:11
-#, fuzzy
-#| msgid "Source:"
 msgid "&Source:"
-msgstr "మూలం:"
+msgstr "(&S) మూలం:"
 
 #. i18n: file: knewstuff/knewstuff2/ui/DownloadDialog.ui:40
 #. i18n: ectx: property (text), widget (QLabel, m_providerLinkLabel)
 #: rc.cpp:14
-#, fuzzy
-#| msgid "??"
 msgid "?"
-msgstr "??"
+msgstr "?"
 
 #. i18n: file: knewstuff/knewstuff2/ui/DownloadDialog.ui:64
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:17
 msgid "&Order by:"
-msgstr ""
+msgstr "(&O) ఈ క్రమములో:"
 
 #. i18n: file: knewstuff/knewstuff2/ui/DownloadDialog.ui:93
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, m_searchEdit)
 #: rc.cpp:20
 msgid "Enter search phrase here"
-msgstr ""
+msgstr "శోధన పదాన్ని యిక్కడ ప్రవేశపెట్టుము"
 
 #. i18n: file: knewstuff/knewstuff2/ui/DownloadDialog.ui:142
 #. i18n: ectx: property (text), widget (QToolButton, m_collaborationButton)
 #: rc.cpp:23
-#, fuzzy
-#| msgid "Configuration"
 msgid "Collaborate"
-msgstr "అమరిక"
+msgstr "సమిష్టిగా"
 
 #. i18n: file: dnssd/kcm_kdnssd.kcfg:9
 #. i18n: ectx: label, entry, group (browsing)
@@ -97,7 +104,7 @@ msgstr "బ్రౌజ్ చెయవలసిన 'వైడ్-ఎరియ�
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
 #: rc.cpp:32 rc.cpp:152
 msgid "Password:"
-msgstr "పాస్ వర్డ్:"
+msgstr "సంకేతపదము:"
 
 #. i18n: file: kdeui/dialogs/knewpassworddialog.ui:54
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -109,7 +116,7 @@ msgstr "(&V) సరిచూడు:"
 #. i18n: ectx: property (text), widget (QLabel, labelStrengthMeter)
 #: rc.cpp:38 kde3support/kdeui/k3passworddialog.cpp:410
 msgid "Password strength meter:"
-msgstr "పాస్ వర్డ్ శక్తి కొలమానము:"
+msgstr "సంకేతపదము శక్తి కొలమానము:"
 
 #. i18n: file: kdeui/dialogs/knewpassworddialog.ui:104
 #. i18n: ectx: property (text), widget (KTitleWidget, labelMatch)
@@ -117,63 +124,49 @@ msgstr "పాస్ వర్డ్ శక్తి కొలమానము:"
 #: kde3support/kdeui/k3passworddialog.cpp:432
 #: kde3support/kdeui/k3passworddialog.cpp:625
 msgid "Passwords do not match"
-msgstr "పాస్ వర్డులు సరికాలేదు"
+msgstr "సంకేతపదములు సరికాలేదు"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, KCupsOptionsJobWidget)
 #: rc.cpp:44
-#, fuzzy
-#| msgctxt "Jumee short"
-#| msgid "Jom"
 msgid "Job"
-msgstr "జాం"
+msgstr "జాబ్"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:19
 #. i18n: ectx: property (title), widget (QGroupBox, jobControlGroupBox)
 #: rc.cpp:47
-#, fuzzy
-#| msgctxt "keyboard-key-name"
-#| msgid "Control"
 msgid "Job Control"
-msgstr "Control"
+msgstr "జాబ్ నియంత్రణ"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:25
 #. i18n: ectx: property (text), widget (QLabel, jobHoldLabel)
 #: rc.cpp:50
-#, fuzzy
-#| msgid "Key used for signing:"
 msgid "Scheduled Printing:"
-msgstr "సంతకం చెయుటకు వాడిన కీ:"
+msgstr "ప్రణాళికైన ముద్రణ:"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:38
 #. i18n: ectx: property (text), widget (QLabel, jobBillingLabel)
 #: rc.cpp:53
-#, fuzzy
-#| msgid "Information"
 msgid "Billing Information:"
-msgstr "సమాచారం"
+msgstr "బిల్లింగ్ సమాచారము:"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:48
 #. i18n: ectx: property (text), widget (QLabel, jobPriorityLabel)
 #: rc.cpp:56
 msgid "Job Priority:"
-msgstr ""
+msgstr "జాబ్ ప్రాముఖ్యత:"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:94
 #. i18n: ectx: property (title), widget (QGroupBox, jobOptionsGroupBox)
 #: rc.cpp:59
-#, fuzzy
-#| msgid "Options"
 msgid "Job Options"
-msgstr "ఇష్టములు"
+msgstr "జాబ్ ఐచ్చికాలు"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:122
 #. i18n: ectx: property (text), widget (QTableWidget, jobOptionsTable)
 #: rc.cpp:62
-#, fuzzy
-#| msgid "Options"
 msgid "Option"
-msgstr "ఇష్టములు"
+msgstr "ఐచ్చికాలు"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:127
 #. i18n: ectx: property (text), widget (QTableWidget, jobOptionsTable)
@@ -187,16 +180,14 @@ msgstr "విలువ"
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, KCupsOptionsPagesWidget)
 #: rc.cpp:68
-#, fuzzy
-#| msgid "PageUp"
 msgid "Pages"
-msgstr "PageUp"
+msgstr "పేజీలు"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:19
 #. i18n: ectx: property (title), widget (KButtonGroup, pagesPerSheetButtonGroup)
 #: rc.cpp:71
 msgid "Pages Per Sheet"
-msgstr ""
+msgstr "ఒక్కో షీటుకు పేజీలు"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:25
 #. i18n: ectx: property (text), widget (QRadioButton, oneUpRadioButton)
@@ -241,22 +232,18 @@ msgstr "4"
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:63
 #. i18n: ectx: property (text), widget (QRadioButton, sixteenUpRadioButton)
 #: rc.cpp:89
-#, fuzzy
-#| msgid "6"
 msgid "16"
-msgstr "6"
+msgstr "16"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:89
 #. i18n: ectx: property (title), widget (QGroupBox, bannerPagesGroupBox)
 #: rc.cpp:92
 msgid "Banner Pages"
-msgstr ""
+msgstr "బానర్ పేజీలు"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:95
 #. i18n: ectx: property (text), widget (QLabel, startBannerLabel)
 #: rc.cpp:95
-#, fuzzy
-#| msgid "Start"
 msgctxt "Banner page at start"
 msgid "Start"
 msgstr "ప్రారంభం"
@@ -264,9 +251,6 @@ msgstr "ప్రారంభం"
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:105
 #. i18n: ectx: property (text), widget (QLabel, endBannerLabel)
 #: rc.cpp:98
-#, fuzzy
-#| msgctxt "keyboard-key-name"
-#| msgid "End"
 msgctxt "Banner page at end"
 msgid "End"
 msgstr "ముగింపు"
@@ -274,32 +258,26 @@ msgstr "ముగింపు"
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:131
 #. i18n: ectx: property (title), widget (QGroupBox, pageLabelGroupBox)
 #: rc.cpp:101
-#, fuzzy
-#| msgid "Page loaded."
 msgid "Page Label"
-msgstr "పుట ఎక్కించబడినది."
+msgstr "పేజీ లేబుల్"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:156
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: rc.cpp:104
-#, fuzzy
-#| msgid "Page loaded."
 msgid "Page Border"
-msgstr "పుట ఎక్కించబడినది."
+msgstr "పేజీ బోర్డరు"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:181
 #. i18n: ectx: property (title), widget (QGroupBox, mirrorPagesGroupBox)
 #: rc.cpp:107
-#, fuzzy
-#| msgid "&First Page"
 msgid "Mirror Pages"
-msgstr "(&F) మొదటి పుట"
+msgstr "మిర్రర్ పేజీలు"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:187
 #. i18n: ectx: property (text), widget (QCheckBox, mirrorPagesCheckBox)
 #: rc.cpp:110
 msgid "Mirror pages along vertical axis"
-msgstr ""
+msgstr "నిలువు అక్షముతో మిర్రర్ పేజీలు"
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:16
 #. i18n: ectx: property (whatsThis), widget (KTreeWidgetSearchLineWidget, searchFilter)
@@ -308,6 +286,8 @@ msgid ""
 "Search interactively for shortcut names (e.g. Copy) or combination of keys "
 "(e.g. Ctrl+C) by typing them here."
 msgstr ""
+"ఇచట ప్రవేశపెట్టుట ద్వారా షార్టుకట్ నామములు (ఉ.దా. నకలు) లేదా కీ సమ్మేళనాలు (ఉ.దా. Ctrl+C) కొరకు "
+"యింటరాక్టివుగా శోధించుము."
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:23
 #. i18n: ectx: property (whatsThis), widget (QTreeWidget, list)
@@ -317,6 +297,9 @@ msgid ""
 "(e.g. 'Copy') shown in the left column and keys or combination of keys (e.g. "
 "Ctrl+V) shown in the right column."
 msgstr ""
+"ఇచట మీరు కీ బైండింగ్సు యొక్క జాబితాను చూడవచ్చు, అంటే చర్యల మద్య సంభందాలు (ఉ.దా. 'నకలు') ఎడమ "
+"నిలువువరుస నందు చూపబడుతుంది మరియు కీలు లేదా కీల సమ్మేళనం (ఉ.దా. Ctrl+C) కుడి నిలువువరుస "
+"నందు చూపబడుతుంది."
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:30
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
@@ -340,33 +323,31 @@ msgstr "ప్రత్యామ్నాయము"
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: rc.cpp:128
 msgid "Global"
-msgstr ""
+msgstr "సార్వత్రిక"
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:50
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: rc.cpp:131
-#, fuzzy
-#| msgid "Alternate"
 msgid "Global Alternate"
-msgstr "ప్రత్యామ్నాయము"
+msgstr "సార్వత్రిక ప్రత్యామ్నాయం"
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:55
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: rc.cpp:134
 msgid "Mouse Button Gesture"
-msgstr ""
+msgstr "మౌస్ బటన్ గెస్ట్యూర్"
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:60
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: rc.cpp:137
 msgid "Mouse Shape Gesture"
-msgstr ""
+msgstr "మౌస్ షేప్ గెస్ట్యూర్"
 
 #. i18n: file: kdeui/dialogs/kpassworddialog.ui:54
 #. i18n: ectx: property (text), widget (QLabel, prompt)
 #: rc.cpp:140
 msgid "Supply a username and password below."
-msgstr ""
+msgstr "వినియోగదారినామము మరియు సంకేతపదమును క్రిందన అందివ్వుము."
 
 #. i18n: file: kdeui/dialogs/kpassworddialog.ui:111
 #. i18n: ectx: property (text), widget (QLabel, userNameLabel)
@@ -378,21 +359,19 @@ msgstr "యూజర్ పేరు:"
 #. i18n: ectx: property (text), widget (QCheckBox, anonymousCheckBox)
 #: rc.cpp:146
 msgid "Anonymous"
-msgstr ""
+msgstr "పేరులేని(ఎనానిమస్)"
 
 #. i18n: file: kdeui/dialogs/kpassworddialog.ui:128
 #. i18n: ectx: property (text), widget (QLabel, domainLabel)
 #: rc.cpp:149
-#, fuzzy
-#| msgid "Main:"
 msgid "Domain:"
-msgstr "ముఖ్యమైన:"
+msgstr "డొమైన్:"
 
 #. i18n: file: kdeui/dialogs/kpassworddialog.ui:155
 #. i18n: ectx: property (text), widget (QCheckBox, keepCheckBox)
 #: rc.cpp:155
 msgid "Remember password"
-msgstr "పాస్ వర్డ్ గుర్తుంచుకొ"
+msgstr "సంకేతపదము గుర్తుంచుకొ"
 
 #. i18n: file: kdeui/sonnet/configui.ui:28
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
@@ -404,13 +383,13 @@ msgstr "ఇష్టములు"
 #. i18n: ectx: property (text), widget (QCheckBox, m_bgSpellCB)
 #: rc.cpp:161
 msgid "Enable &background spellchecking"
-msgstr ""
+msgstr "(&b) బ్యాక్‌గ్రౌండ్ వ్యాకరణపరిశీలన(స్పెల్‌చెకింగ్)ను చేతనం చేయుము"
 
 #. i18n: file: kdeui/sonnet/configui.ui:47
 #. i18n: ectx: property (text), widget (QCheckBox, m_skipUpperCB)
 #: rc.cpp:164
 msgid "Skip all &uppercase words"
-msgstr ""
+msgstr "(&u) అన్ని పెద్దబడి(అప్పర్‌కేస్) పదములను వదిలివేయుము"
 
 #. i18n: file: kdeui/sonnet/configui.ui:54
 #. i18n: ectx: property (text), widget (QCheckBox, m_skipRunTogetherCB)
@@ -443,6 +422,15 @@ msgid ""
 "All</b>.</p>\n"
 "</qt>"
 msgstr ""
+"<qt><p>ఈ పదము \"తెలియని పదముగా\" పరిగణించ బడుతుంది యెందుచేతనంటే యిది ప్రస్తుతం వుపయోగిస్తున్న "
+"నిఘంటువునందలి ఏ ప్రవేశముతోను సరిపోలలేదు. ఇది పర(ఫారెన్) భాషలోని పదము అయివుండవచ్చు.</p>\n"
+"<p>పదము తప్పుగావ్యవహరించి వుండకపోతే గనుక, మీరు దానిని నిఘంటువునకు జతచేయుటకు <b>నిఘంటువునకు "
+"జతచేయుము</b> నొక్కుము. మీరు తెలియని పదమును నిఘంటువునకు జతచేయాలి అని అనుకోకపోతే, దానిని మార్చకుండా "
+"వదిలివేయాలని అనుకుంటే, <b>విస్మరించు</b> లేదా <b>అన్నిటిని విస్మరించు</b> నొక్కుము.</p>\n"
+"<p>ఏమైనప్పటికి, పదము తప్పుగావ్యవహరించి వుంటే, సరైన దానికొరకు మీరు క్రింది జాబితానందు ప్రయత్నించవచ్చు. "
+"మీరు యిక్కడ సరైనదానిని కనుగొనలేకపోతే,మీరు క్రింది వచన పెట్టెనందు టైపు చేయవచ్చు, <b>ప్రతిస్థాపించు</b> "
+"లేదా <b>అన్నింటిని ప్రతిస్థాపించు</b>నొక్కవచ్చు.</p>\n"
+"</qt>"
 
 #. i18n: file: kdeui/sonnet/sonnetui.ui:45
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
@@ -515,6 +503,11 @@ msgid ""
 "part of the text and then return here to continue proofing.</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>ఇక్కడ వచన ప్రతిభాశాలి (టెక్స్టు ఎక్సుపర్టు) తెలియని పదమును దాని సందర్భములో చూపించు చూడవచ్చు. "
+"తెలియని పదమును సరైనదానితో వుంచుటకు ఈ సమాచారము సరిపోకపోతే, మీరు సరిదిద్దుతున్న(ప్రూఫింగ్) పత్రముపై "
+"నొక్కవచ్చు, వచనముయొక్క పెద్దభాగమును చదివి అప్పుడు యిక్కడకు తిరిగివచ్చి ప్రూఫింగ్ కొనసాగించవచ్చు.</p>\n"
+"</qt>"
 
 #. i18n: file: kdeui/sonnet/sonnetui.ui:94
 #. i18n: ectx: property (text), widget (QLabel, m_contextLabel)
@@ -539,6 +532,13 @@ msgid ""
 "or <b>Ignore All</b> instead.</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>తెలియని పదము గుర్తించబడింది మరియు తెలియనిదానివలె పరిగణించబడింది యెందుచేతనంటే అది నిఘంటువునందు "
+"చేర్చబడిలేదు.<br>\n"
+"ఆ తెలియని పదము తప్పుగా వ్యవహరించినది కాదు అనిమీరు భావించి భవిష్యత్తులో అది మరలా తప్పుగా గుర్తించిబడుటు "
+"తప్పించాలని మీరు అనుకుంటే యిచట నొక్కండి. మీరు దానిని అలానే వదిలివేసి, నిఘంటువుకు జతచేయాలని అనుకోకపోతే, "
+"<b>విస్మరించు</b> నొక్కుము లేదా<b>అన్నీ విస్మరించు</b> నొక్కుము.</p>\n"
+"</qt>"
 
 #. i18n: file: kdeui/sonnet/sonnetui.ui:110
 #. i18n: ectx: property (text), widget (QPushButton, m_addBtn)
@@ -572,6 +572,13 @@ msgid ""
 "</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>తెలియని పదము తప్పుగా వ్యవహరించివుంటే, మీరు దానికి దిద్దుబాటు అందుబాటలో వుందేమో పరిశీలించవచ్చు, "
+"వుంటే దానిపైన నొక్కుము. జాబితానందలి ఏ పదము దానికి సరైన దిద్దుబాటును యీయలేకపోతే మీరు సరైనదానిని పైని "
+"సరికూర్చు పెట్టెనందు టైపుచేయవచ్చు.</p>\n"
+"<p>మీరు ఈ వొక్కచోట సరిదిద్దాలని అనుకుంటే <b>ప్రతిస్థాపించు</b> నొక్కుము లేదా అన్నిచోట్లా సరిదిద్దాలని "
+"అనుకుంటే <b>అన్నీ ప్రతిస్థాపించు</b> నొక్కుము.</p>\n"
+"</qt>"
 
 #. i18n: file: kdeui/sonnet/sonnetui.ui:146
 #. i18n: ectx: property (text), widget (QListView, m_suggestions)
@@ -599,6 +606,12 @@ msgid ""
 "occurrences.</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>తెలియని పదము తప్పుగా వ్యవహరించివుంటే, మీరు దానికొరకు దిద్దుబాటును యిక్కడ టైపు చేయవచ్చు లేదా క్రింది "
+"జాబితానుండి యెంపిక చేయవచ్చు.</p>\n"
+"<p>మీరు ఒక్కచోట మాత్రమే ఆ పదమును సరిదిద్దాలని అనుకుంటే <b>ప్రతిస్థాపించు</b> నొక్కవచ్చు లేదా "
+"అన్నిచోట్లా సరిదిద్దాలని అనుకుంటే <b>అన్నీ ప్రతిస్థాపించు</b> నొక్కుము.</p>\n"
+"</qt>"
 
 #. i18n: file: kdeui/sonnet/sonnetui.ui:160
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
@@ -635,6 +648,10 @@ msgid ""
 "in the edit box above (to the left).</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>పైనగల (ఎడమకు) సరికూర్చు పెట్టెనందలి వచనముతో తెలియని వచనముయొక్క ఈ సంభవాన్ని మీరు ప్రతిస్థాపించాలని "
+"అనుకుంటే యిక్కడ నొక్కండి.</p>\n"
+"</qt>"
 
 #. i18n: file: kdeui/sonnet/sonnetui.ui:212
 #. i18n: ectx: property (text), widget (QPushButton, m_replaceBtn)
@@ -642,7 +659,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_replaceBtn)
 #: rc.cpp:265 rc.cpp:877 kdeui/findreplace/kfinddialog.cpp:202
 msgid "&Replace"
-msgstr "(&R) ప్రతిస్థాపణ"
+msgstr "(&R) ప్రతిస్థాపన"
 
 #. i18n: file: kdeui/sonnet/sonnetui.ui:221
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_replaceAllBtn)
@@ -655,6 +672,10 @@ msgid ""
 "in the edit box above (to the left).</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>పైనగల (ఎడమకు) సరికూర్చు పెట్టెనందలి వచనముతో తెలియని వచనముయొక్క అన్ని సంభవాలను మీరు "
+"పునఃస్థాపించాలని అనుకుంటే యిక్కడ నొక్కండి.</p>\n"
+"</qt>"
 
 #. i18n: file: kdeui/sonnet/sonnetui.ui:224
 #. i18n: ectx: property (text), widget (QPushButton, m_replaceAllBtn)
@@ -677,6 +698,11 @@ msgid ""
 "</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>తెలియని పదముయొక్క ఈ సంభవాన్ని అలానే వదలివేయుటకు యిక్కడ నొక్కండి.</p>\n"
+"<p>ఏదైనా పేరులాంటి పదముగాని, ఏక్రోనిమ్‌ వంటిదిగాని, ఫారెన్ పదముగాని మీరు నిఘంటువుకు జతచేయకుండా "
+"వుపయోగించాలి అనుకుంటే ఈ చర్య వుపయోగకరముగా వుంటుంది.</p>\n"
+"</qt>"
 
 #. i18n: file: kdeui/sonnet/sonnetui.ui:237
 #. i18n: ectx: property (text), widget (QPushButton, m_skipBtn)
@@ -702,6 +728,13 @@ msgid ""
 "</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>Click here to let all occurrences of the unknown word remain as they are."
+"</p>\n"
+"<p>This action is useful when the word is a name, an acronym, a foreign word "
+"or any other unknown word that you want to use but not add to the dictionary."
+"</p>\n"
+"</qt>"
 
 #. i18n: file: kdeui/sonnet/sonnetui.ui:250
 #. i18n: ectx: property (text), widget (QPushButton, m_skipAllBtn)
@@ -794,13 +827,13 @@ msgstr "ప్రధాన పనిముట్ల పట్టీ"
 
 #. i18n: file: kdeui/widgets/kshortcutwidget.ui:22
 #. i18n: ectx: property (text), widget (QLabel, priLabel)
-#: rc.cpp:336 kdeui/dialogs/kshortcutseditor.cpp:584
+#: rc.cpp:336 kdeui/dialogs/kshortcutseditor.cpp:571
 msgid "Main:"
 msgstr "ముఖ్యమైన:"
 
 #. i18n: file: kdeui/widgets/kshortcutwidget.ui:52
 #. i18n: ectx: property (text), widget (QLabel, altLabel)
-#: rc.cpp:339 kdeui/dialogs/kshortcutseditor.cpp:585
+#: rc.cpp:339 kdeui/dialogs/kshortcutseditor.cpp:572
 msgid "Alternate:"
 msgstr "ప్రత్యామ్నాయము:"
 
@@ -808,7 +841,7 @@ msgstr "ప్రత్యామ్నాయము:"
 #. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindow)
 #: rc.cpp:342
 msgid "KHTML Regression Testing Utility"
-msgstr ""
+msgstr "KHTML రిగ్రెష్షన్ టెస్టింగ్ యుటిలిటి"
 
 #. i18n: file: khtml/test_regression_gui.ui:50
 #. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
@@ -816,13 +849,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, zero)
 #: rc.cpp:345 rc.cpp:713
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #. i18n: file: khtml/test_regression_gui.ui:59
 #. i18n: ectx: attribute (title), widget (QWidget, firstTab)
 #: rc.cpp:348
 msgid "Regression testing output"
-msgstr ""
+msgstr "రిగ్రెష్షన్ టెస్టింగ్ అవుట్పుట్"
 
 #. i18n: file: khtml/test_regression_gui.ui:114
 #. i18n: ectx: property (toolTip), widget (QPushButton, pauseContinueButton)
@@ -830,7 +863,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pauseContinueButton)
 #: rc.cpp:351 rc.cpp:354
 msgid "Pause/Continue regression testing process"
-msgstr ""
+msgstr "రిగ్రెష్షన్ టెస్టింగ్ ప్రోసెస్ నిలుపుము/కొనసాగించుము"
 
 #. i18n: file: khtml/test_regression_gui.ui:123
 #. i18n: ectx: property (text), widget (QPushButton, pauseContinueButton)
@@ -849,6 +882,7 @@ msgid ""
 "You may select a file where the log content is stored, before the regression "
 "testing started."
 msgstr ""
+"రిగ్రెష్షన్ టెస్టింగ్ ప్రారంభమవుటకు ముందుగా, లాగ్ సారమ నిల్వకావాలసిన దస్త్రము మీరు యెంచుకొనవచ్చు."
 
 #. i18n: file: khtml/test_regression_gui.ui:153
 #. i18n: ectx: property (text), widget (QPushButton, saveLogButton)
@@ -860,13 +894,13 @@ msgstr "ఫలితాలను దస్త్రం కు పంపు..."
 #. i18n: ectx: property (text), widget (QLabel, statusLabel)
 #: rc.cpp:369
 msgid "Regression testing status"
-msgstr ""
+msgstr "రిగ్రెష్షన్ టెస్టింగ్ స్థితి"
 
 #. i18n: file: khtml/test_regression_gui.ui:185
 #. i18n: ectx: attribute (title), widget (QWidget, secondTab)
 #: rc.cpp:372
 msgid "View HTML Output"
-msgstr ""
+msgstr "HTML అవుట్పుట్ వీక్షించు"
 
 #. i18n: file: khtml/test_regression_gui.ui:206
 #. i18n: ectx: property (title), widget (QMenu, menuSettings)
@@ -884,25 +918,25 @@ msgstr "పరీక్షలు"
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:381
 msgid "Only run JS tests"
-msgstr ""
+msgstr "JS పరీక్షలను మాత్రమే నడుపుము"
 
 #. i18n: file: khtml/test_regression_gui.ui:249
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:384
 msgid "Only run HTML tests"
-msgstr ""
+msgstr "HTML టెస్టులను మాత్రమే నడుపుము"
 
 #. i18n: file: khtml/test_regression_gui.ui:257
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:387 khtml/test_regression.cpp:617
 msgid "Do not suppress debug output"
-msgstr ""
+msgstr "డీబగ్ అవుట్పుట్‌ను కుదించవద్దు"
 
 #. i18n: file: khtml/test_regression_gui.ui:265
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:390 khtml/test_regression.cpp:626
 msgid "Do not use Xvfb"
-msgstr ""
+msgstr "Xvfbను వుపయోగించవద్దు"
 
 #. i18n: file: khtml/test_regression_gui.ui:270
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
@@ -914,25 +948,25 @@ msgstr "పరిక్షలు నడుపు..."
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:396
 msgid "Run single test..."
-msgstr ""
+msgstr "ఒంటరి పరీక్షను నడుపుము..."
 
 #. i18n: file: khtml/test_regression_gui.ui:280
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:399
 msgid "Specify tests directory..."
-msgstr ""
+msgstr "పరీక్షల డైరెక్టరీను తెలుపుము..."
 
 #. i18n: file: khtml/test_regression_gui.ui:285
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:402
 msgid "Specify khtml directory..."
-msgstr ""
+msgstr "khtml డైరెక్టరీను తెలుపుము"
 
 #. i18n: file: khtml/test_regression_gui.ui:290
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:405
 msgid "Specify output directory..."
-msgstr ""
+msgstr "అవుట్పుట్ డెరెక్టరీను తెలుపుము..."
 
 #. i18n: file: khtml/htmlpageinfo.ui:21
 #. i18n: ectx: property (windowTitle), widget (QDialog, KHTMLInfoDlg)
@@ -944,7 +978,6 @@ msgstr "పత్రం(దస్తావేజు) వివరములు"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
 #: rc.cpp:414
 #, fuzzy
-#| msgid "General"
 msgctxt "@title:group Document information"
 msgid "General"
 msgstr "సాధారణ"
@@ -1027,17 +1060,12 @@ msgstr "హెచ్ టిఎంఎల్ పనిముట్ల పట్ట
 #. i18n: file: khtml/find/khtmlfindbar_base.ui:43
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:462
-#, fuzzy
-#| msgid "Find"
 msgid "F&ind:"
-msgstr "కనుగొను"
+msgstr "(&i) కనుగొనుము:"
 
 #. i18n: file: khtml/find/khtmlfindbar_base.ui:75
 #. i18n: ectx: property (text), widget (QToolButton, m_next)
 #: rc.cpp:465
-#, fuzzy
-#| msgctxt "Opposite to Previous"
-#| msgid "&Next"
 msgid "&Next"
 msgstr "(&N) తరువాత"
 
@@ -1050,10 +1078,8 @@ msgstr "(&P) ముందు"
 #. i18n: file: khtml/find/khtmlfindbar_base.ui:111
 #. i18n: ectx: property (text), widget (QToolButton, m_options)
 #: rc.cpp:471
-#, fuzzy
-#| msgid "Options"
 msgid "Opt&ions"
-msgstr "ఇష్టములు"
+msgstr "(&i) ఇష్టములు"
 
 #. i18n: file: kross/test/testguiform.ui:44
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -1071,7 +1097,7 @@ msgstr "..."
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: rc.cpp:480
 msgid "GroupBox 1"
-msgstr ""
+msgstr "గ్రూప్‌బాక్‍స్  1"
 
 #. i18n: file: kross/test/testguiform.ui:127
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox)
@@ -1079,13 +1105,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_2)
 #: rc.cpp:483 rc.cpp:486
 msgid "CheckBox"
-msgstr ""
+msgstr "చెక్‌బాక్‍స్"
 
 #. i18n: file: kross/test/testguiform.ui:162
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: rc.cpp:489
 msgid "Other GroupBox"
-msgstr ""
+msgstr "ఇతర గ్రూప్‌బాక్‍స్"
 
 #. i18n: file: kross/test/testguiform.ui:190
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton)
@@ -1093,7 +1119,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
 #: rc.cpp:492 rc.cpp:495
 msgid "RadioButton"
-msgstr ""
+msgstr "రేడియోబటన్"
 
 #. i18n: file: kross/test/testguiform.ui:232
 #. i18n: ectx: property (text), item, widget (QRadioButton, radioButton_2)
@@ -1105,7 +1131,7 @@ msgstr "చర్య1"
 #. i18n: ectx: property (text), widget (QCheckBox, Sound_check)
 #: rc.cpp:501
 msgid "Play a &sound"
-msgstr ""
+msgstr "(&s) శబ్దమును మోగించుము"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:42
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, Sound_select)
@@ -1117,7 +1143,7 @@ msgstr "ప్లె చెయవలసిన శబ్దం ఎంచుకొ
 #. i18n: ectx: property (text), widget (QCheckBox, Popup_check)
 #: rc.cpp:507
 msgid "Show a message in a &popup"
-msgstr ""
+msgstr "(&p) పాపప్ నందు వొక సందేశమును చూపుము"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:56
 #. i18n: ectx: property (text), widget (QCheckBox, Logfile_check)
@@ -1129,13 +1155,13 @@ msgstr "దస్త్రంకు పంపు"
 #. i18n: ectx: property (text), widget (QCheckBox, Taskbar_check)
 #: rc.cpp:513
 msgid "Mark &taskbar entry"
-msgstr ""
+msgstr "(&t) టాస్కుబార్ ప్రవేశమును గుర్తుంచుము"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:83
 #. i18n: ectx: property (text), widget (QCheckBox, Execute_check)
 #: rc.cpp:516
 msgid "Run &command"
-msgstr ""
+msgstr "(&c) ఆదేశమును నడుపుము"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:99
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, Execute_select)
@@ -1146,10 +1172,8 @@ msgstr "నేటి తేదిని ఎంచుకొనుము"
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:106
 #. i18n: ectx: property (text), widget (QCheckBox, KTTS_check)
 #: rc.cpp:522
-#, fuzzy
-#| msgid "S&earch:"
 msgid "Sp&eech"
-msgstr "(&e) అన్వేషణ:"
+msgstr "(&e) సంభాషణ"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:119
 #. i18n: ectx: property (whatsThis), widget (KComboBox, KTTS_combo)
@@ -1174,28 +1198,26 @@ msgstr "ఆర్ట్స్ సందేశం ను పలుకు"
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:128
 #. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
 #: rc.cpp:532
-#, fuzzy
-#| msgid "Please enter &name:"
 msgid "Speak event name"
-msgstr "(&n) పేరును వ్రాయండి:"
+msgstr "ఘటన పేరును పలుకుము"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:133
 #. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
 #: rc.cpp:535
 msgid "Speak custom text"
-msgstr ""
+msgstr "నిర్దేశిత వచనము పలుకుము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:9
 #. i18n: ectx: label, entry, group (DesktopIcons)
 #: rc.cpp:542
 msgid "Distance between desktop icons"
-msgstr ""
+msgstr "రంగస్థల ప్రతిమల మధ్యన దూరము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:10
 #. i18n: ectx: whatsthis, entry, group (DesktopIcons)
 #: rc.cpp:545
 msgid "The distance between icons specified in pixels."
-msgstr ""
+msgstr "పిగ్జెల్సులో తెలిపిన ప్రతిమల మధ్యన దూరము."
 
 #. i18n: file: kutils/kdeglobals.kcfg:23
 #. i18n: ectx: label, entry, group (General)
@@ -1209,13 +1231,13 @@ msgstr "వాడుటకు విడ్జెట్ శైలి"
 msgid ""
 "The name of the widget style, for example \"keramik\" or \"plastik\". "
 "Without quotes."
-msgstr ""
+msgstr "విడ్జట్ శైలి యొక్క నామము, వుదాహరణకు \"కెరామిక్\" లేదా \"ప్లాస్టిక్\", కోట్సు లేకుండా."
 
 #. i18n: file: kutils/kdeglobals.kcfg:30
 #. i18n: ectx: label, entry, group (General)
 #: rc.cpp:554
 msgid "Use the PC speaker"
-msgstr ""
+msgstr "PC స్పీకర్‌ను వుపయోగించుము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:31
 #. i18n: ectx: whatsthis, entry, group (General)
@@ -1223,13 +1245,13 @@ msgstr ""
 msgid ""
 "Whether the ordinary PC speaker should be used instead of KDE's own "
 "notifications system."
-msgstr ""
+msgstr "KDE యొక్క స్వంత ప్రకటనల వ్యవస్థకు బదులుగా సాదారణ PC స్పీకర్ వుపయోగించబడాలా."
 
 #. i18n: file: kutils/kdeglobals.kcfg:35
 #. i18n: ectx: label, entry, group (General)
 #: rc.cpp:560
 msgid "What terminal application to use"
-msgstr ""
+msgstr "ఏ టెర్మినల్ కార్యక్రమమును వుపయోగించాలి"
 
 #. i18n: file: kutils/kdeglobals.kcfg:37
 #. i18n: ectx: whatsthis, entry, group (General)
@@ -1238,12 +1260,13 @@ msgid ""
 "Whenever a terminal application is launched this terminal emulator program "
 "will be used.\n"
 msgstr ""
+"ఎప్పుడు టెర్మినల్ అనువర్తనం ప్రారంభించబడినా ఈ టెర్మినల్ యెమ్యులేటర్ ప్రోగ్రామ్ వుపయోగించబడుతుంది.\n"
 
 #. i18n: file: kutils/kdeglobals.kcfg:41
 #. i18n: ectx: label, entry, group (General)
 #: rc.cpp:567
 msgid "Fixed width font"
-msgstr ""
+msgstr "నిర్ధిష్ట వెడల్పు అక్షరరూపము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:43
 #. i18n: ectx: whatsthis, entry, group (General)
@@ -1252,48 +1275,50 @@ msgid ""
 "This font is used when a fixed font is needed. A fixed font has a constant "
 "width.\n"
 msgstr ""
+"ఎప్పుడు నిర్ధిష్ట అక్షరరూపము అవసరమైనా ఈ అక్షరరూపము వుపయోగించబడుతుంది. నిర్ధిష్ట అక్షరరూపము "
+"స్థిరమైన వెడల్పును కలిగివుంటుంది.\n"
 
 #. i18n: file: kutils/kdeglobals.kcfg:46
 #. i18n: ectx: label, entry, group (General)
 #: rc.cpp:574
 msgid "System wide font"
-msgstr ""
+msgstr "సిస్టమ్ వ్యాప్తంగా అక్షరరూపము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:49
 #. i18n: ectx: label, entry, group (General)
 #: rc.cpp:577
 msgid "Font for menus"
-msgstr ""
+msgstr "మెనూల కొరకు అక్షరరూపము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:50
 #. i18n: ectx: whatsthis, entry, group (General)
 #: rc.cpp:580
 msgid "What font to use for menus in applications."
-msgstr ""
+msgstr "కార్యక్రమములనందు మెనూలకొరకు ఏ అక్షరరూపమును వుపయోగించాలి."
 
 #. i18n: file: kutils/kdeglobals.kcfg:53
 #. i18n: ectx: label, entry, group (General)
 #: rc.cpp:583
 msgid "Color for links"
-msgstr ""
+msgstr "లింకుల కొరకు రంగు"
 
 #. i18n: file: kutils/kdeglobals.kcfg:54
 #. i18n: ectx: whatsthis, entry, group (General)
 #: rc.cpp:586
 msgid "What color links should be that have not yet been clicked on"
-msgstr ""
+msgstr "ఇప్పటికి వరకు నొక్కబడని లింకులు ఏ రంగువి అయివుండాలి"
 
 #. i18n: file: kutils/kdeglobals.kcfg:57
 #. i18n: ectx: label, entry, group (General)
 #: rc.cpp:589
 msgid "Color for visited links"
-msgstr ""
+msgstr "వీక్షించిన లింకులకు రంగు"
 
 #. i18n: file: kutils/kdeglobals.kcfg:60
 #. i18n: ectx: label, entry, group (General)
 #: rc.cpp:592
 msgid "Font for the taskbar"
-msgstr ""
+msgstr "టాస్కుబార్ కొరకు అక్షరరూపము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:61
 #. i18n: ectx: whatsthis, entry, group (General)
@@ -1302,66 +1327,68 @@ msgid ""
 "What font to use for the panel at the bottom of the screen, where the "
 "currently running applications are."
 msgstr ""
+"తెరకు దిగువునవున్న ప్యానల్ కొరకు ఏ అక్షరరూపమును వాడాలి, యిచట ప్రస్తుతం నడుస్తున్న కార్యక్రమములు "
+"వుంటాయి."
 
 #. i18n: file: kutils/kdeglobals.kcfg:64
 #. i18n: ectx: label, entry, group (General)
 #: rc.cpp:598
 msgid "Fonts for toolbars"
-msgstr ""
+msgstr "పనిముట్ల పట్టీల కొరకు అక్షరరూపములు"
 
 #. i18n: file: kutils/kdeglobals.kcfg:73
 #. i18n: ectx: label, entry (Desktop Screenshot), group (Global Shortcuts)
 #: rc.cpp:601
 msgid "Shortcut for taking screenshot"
-msgstr ""
+msgstr "తెరపట్టును తీసుకొనుటకు శీఘ్రమార్గము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:78
 #. i18n: ectx: label, entry (Enable/Disable Clipboard Actions), group (Global Shortcuts)
 #: rc.cpp:604
 msgid "Shortcut for toggling Clipboard Actions on and off"
-msgstr ""
+msgstr "క్లిప్‌బోర్డు చర్యలను ఆన్ మరియు ఆఫ్ చేయుటకు శీఘ్రమార్గము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:83
 #. i18n: ectx: label, entry (Halt without Confirmation), group (Global Shortcuts)
 #: rc.cpp:607
 msgid "Shortcut for shutting down the computer without confirmation"
-msgstr ""
+msgstr "నిర్ధారించకుండా కంప్యూటరును మూసివేయుటకు శీఘ్రమార్గము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:380
 #. i18n: ectx: label, entry (Sort directories first), group (KFileDialog Settings)
 #: rc.cpp:610
 msgid "Show directories first"
-msgstr ""
+msgstr "డెరెక్టరీలను ముందుగా చూపుము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:381
 #. i18n: ectx: whatsthis, entry (Sort directories first), group (KFileDialog Settings)
 #: rc.cpp:613
 msgid "Whether directories should be placed at the top when displaying files"
-msgstr ""
+msgstr "దస్త్రములను ప్రదర్శించునప్పుడు డైరెక్టరీలను పైన వుంచాలా"
 
 #. i18n: file: kutils/kdeglobals.kcfg:389
 #. i18n: ectx: label, entry (Recent URLs), group (KFileDialog Settings)
 #: rc.cpp:616
 msgid "The URLs recently visited"
-msgstr ""
+msgstr "ఇటీవల వీక్షించిన URLలు"
 
 #. i18n: file: kutils/kdeglobals.kcfg:390
 #. i18n: ectx: whatsthis, entry (Recent URLs), group (KFileDialog Settings)
 #: rc.cpp:619
 msgid "Used for auto-completion in file dialogs, for example"
-msgstr ""
+msgstr "దస్త్రపు డైలాగులనందు స్వయంచాలక-మూగింపు కొరకు వుపయోగించబడుతుంది, ఉదాహరణకు"
 
 #. i18n: file: kutils/kdeglobals.kcfg:394
 #. i18n: ectx: label, entry (Show Preview), group (KFileDialog Settings)
 #: rc.cpp:622
 msgid "Show file preview in file dialog"
-msgstr ""
+msgstr "దస్త్రపు ముందస్తువీక్షణంను దస్త్రపు డైలాగునందు చూపుము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:399
 #. i18n: ectx: label, entry (Show hidden files), group (KFileDialog Settings)
 #: rc.cpp:625
 msgid "Show hidden files"
-msgstr "చూపబడని దస్త్రాలను చూపుము"
+msgstr "దాచిన దస్త్రాలను చూపుము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:400
 #. i18n: ectx: whatsthis, entry (Show hidden files), group (KFileDialog Settings)
@@ -1369,20 +1396,20 @@ msgstr "చూపబడని దస్త్రాలను చూపుము"
 msgid ""
 "Whether files starting with a dot (convention for hidden files) should be "
 "shown"
-msgstr ""
+msgstr "డాట్ (దాచిన దస్త్రాల తీరు)తో ప్రారంభమైన దస్త్రాలు చూయించవలెనా"
 
 #. i18n: file: kutils/kdeglobals.kcfg:405
 #. i18n: ectx: label, entry (Show Speedbar), group (KFileDialog Settings)
 #: rc.cpp:631
 msgid "Show speedbar"
-msgstr ""
+msgstr "స్పీడ్‌బార్ చూపుము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:406
 #. i18n: ectx: whatsthis, entry (Show Speedbar), group (KFileDialog Settings)
 #: rc.cpp:634
 msgid ""
 "Whether the shortcut icons to the left in the file dialog should be shown"
-msgstr ""
+msgstr "దస్త్రపు డైలాగ్ నందలి ఎడమవైపు శీఘ్రమార్గ ప్రతిమలు చూపవలెనా"
 
 #. i18n: file: kutils/kdeglobals.kcfg:425
 #. i18n: ectx: label, entry, group (Locale)
@@ -1396,102 +1423,103 @@ msgstr "ఎ దేశం"
 msgid ""
 "Used to determine how to display numbers, currency and time/date, for example"
 msgstr ""
+"సంఖ్యలను, డబ్బును మరియు సమయం/తేదీలను యెలా ప్రదర్శించాలో నిర్ణయించుటకు వుపయోగించబడింది, ఉదాహరణకు"
 
 #. i18n: file: kutils/kdeglobals.kcfg:430
 #. i18n: ectx: label, entry, group (Locale)
 #: rc.cpp:643
 msgid "What language to use to display text"
-msgstr ""
+msgstr "వచనమును ప్రదర్శించుటకు ఏ భాషను వుపయోగించాలి"
 
 #. i18n: file: kutils/kdeglobals.kcfg:433
 #. i18n: ectx: label, entry, group (Locale)
 #: rc.cpp:646
 msgid "Character used for indicating positive numbers"
-msgstr ""
+msgstr "ధన సంఖ్యలను సూచించుటకు వుపయోగించు అక్షరము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:434
 #. i18n: ectx: whatsthis, entry, group (Locale)
 #: rc.cpp:649
 msgid "Most countries have no character for this"
-msgstr ""
+msgstr "చాలా దేశములు దీనికొరకు ఏ అక్షరమును కలిగిలేవు"
 
 #. i18n: file: kutils/kdeglobals.kcfg:439
 #. i18n: ectx: label, entry, group (Paths)
 #: rc.cpp:652
 msgid "Path for the trash can"
-msgstr ""
+msgstr "ట్రాష్ కాన్ కొరకు దారి"
 
 #. i18n: file: kutils/kdeglobals.kcfg:443
 #. i18n: ectx: label, entry, group (Paths)
 #: rc.cpp:655
 msgid "Path to the autostart directory"
-msgstr ""
+msgstr "స్వయంచాలక డైరెక్టరీకు దారి"
 
 #. i18n: file: kutils/kdeglobals.kcfg:444
 #. i18n: ectx: whatsthis, entry, group (Paths)
 #: rc.cpp:658
 msgid "Path to the directory containing executables to be run on session login"
-msgstr ""
+msgstr "సెషన్ లాగిన్‌నందు నడుపుటకు ఎగ్జిక్యూటబుల్సును కలిగివున్న డైరెక్టరీకు దారి"
 
 #. i18n: file: kutils/kdeglobals.kcfg:448
 #. i18n: ectx: label, entry, group (Paths)
 #: rc.cpp:661
 msgid "Path to the desktop directory"
-msgstr ""
+msgstr "రంగస్థల డైరెక్టరీకు దారి"
 
 #. i18n: file: kutils/kdeglobals.kcfg:449
 #. i18n: ectx: whatsthis, entry, group (Paths)
 #: rc.cpp:664
 msgid "Directory where the files on the desktop are stored"
-msgstr ""
+msgstr "రంగస్థలమునందలి దస్త్రములు నిల్వవుంచబడే డైరెక్టరీ"
 
 #. i18n: file: kutils/kdeglobals.kcfg:453
 #. i18n: ectx: label, entry, group (Paths)
 #: rc.cpp:667
 msgid "Path to documents folder"
-msgstr ""
+msgstr "పత్రముల ఫోల్డర్‌కు దారి"
 
 #. i18n: file: kutils/kdeglobals.kcfg:500
 #. i18n: ectx: label, entry, group (Socks)
 #: rc.cpp:671
 msgid "Enable SOCKS support"
-msgstr ""
+msgstr "SOCKS మద్దతును చేతనపరచుము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:501
 #. i18n: ectx: whatsthis, entry, group (Socks)
 #: rc.cpp:674
 msgid "Whether SOCKS version 4 and 5 should be enabled in KDE's sub systems"
-msgstr ""
+msgstr "KDEయొక్క వుప వ్యవస్థలనందు SOCKS వర్షన్ 4 మరియు 5 చేతనపరచవలెనా"
 
 #. i18n: file: kutils/kdeglobals.kcfg:505
 #. i18n: ectx: label, entry, group (Socks)
 #: rc.cpp:677
 msgid "Path to custom SOCKS library"
-msgstr ""
+msgstr "నిర్దేశిత SCOKS లైబ్రరీకు మార్గము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:511
 #. i18n: ectx: label, entry, group (Toolbar style)
 #: rc.cpp:680
 msgid "Highlight toolbar buttons on mouse over"
-msgstr ""
+msgstr "మౌస్ వుంచగానే పనిముట్ల పట్టీ బటన్లను వుద్దీపనం(హైలైట్) చేయుము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:515
 #. i18n: ectx: label, entry, group (Toolbar style)
 #: rc.cpp:683
 msgid "Show text on toolbar icons "
-msgstr ""
+msgstr "పనిముట్లపట్టీ ప్రతిమలపై వచనమును చూపుము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:516
 #. i18n: ectx: whatsthis, entry, group (Toolbar style)
 #: rc.cpp:686
 msgid "Whether text should be shown in addition to icons on toolbar icons"
-msgstr ""
+msgstr "పనిముట్లపట్టీ ప్రతిమల పైనగల ప్రతిమలకు అదనముగా వచనము చూపవలెనా"
 
 #. i18n: file: kutils/kdeglobals.kcfg:537
 #. i18n: ectx: label, entry (EchoMode), group (Passwords)
 #: rc.cpp:689
 msgid "Password echo type"
-msgstr ""
+msgstr "సంకేతపదము echo రకము"
 
 #. i18n: file: kutils/kdeglobals.kcfg:547
 #. i18n: ectx: label, entry (Dialog Size), group (KKeyDialog Settings)
@@ -1503,13 +1531,11 @@ msgstr "డైలాగ్ పరిమాణం"
 #. i18n: ectx: property (windowTitle), widget (QWidget, calc)
 #: rc.cpp:695
 msgid "JS Calculator"
-msgstr ""
+msgstr "JS గణన పరికరము"
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:43
 #. i18n: ectx: property (text), widget (QPushButton, plus)
 #: rc.cpp:698
-#, fuzzy
-#| msgid "+"
 msgctxt "addition"
 msgid "+"
 msgstr "+"
@@ -1523,8 +1549,6 @@ msgstr "AC"
 #. i18n: file: kjsembed/examples/calc/calc.ui:57
 #. i18n: ectx: property (text), widget (QPushButton, minus)
 #: rc.cpp:704
-#, fuzzy
-#| msgid "-"
 msgctxt "subtraction"
 msgid "-"
 msgstr "-"
@@ -1532,8 +1556,6 @@ msgstr "-"
 #. i18n: file: kjsembed/examples/calc/calc.ui:64
 #. i18n: ectx: property (text), widget (QPushButton, equals)
 #: rc.cpp:707
-#, fuzzy
-#| msgid "="
 msgctxt "evaluation"
 msgid "="
 msgstr "="
@@ -1652,13 +1674,13 @@ msgstr "స్క్రిప్ట్ ను నడుపు..."
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
 #: rc.cpp:782
 msgid "Run To..."
-msgstr ""
+msgstr "ఇచటకు నడుపుము..."
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:211
 #. i18n: ectx: property (statusTip), widget (QStatusBar, statusBar)
 #: rc.cpp:785
 msgid "Run to breakpoint..."
-msgstr ""
+msgstr "బ్రేక్‌పాయింటుకు నడుపుము..."
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:219
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
@@ -1670,7 +1692,7 @@ msgstr "అడుగు"
 #. i18n: ectx: property (statusTip), widget (QStatusBar, statusBar)
 #: rc.cpp:791
 msgid "Step to next line..."
-msgstr ""
+msgstr "తరువాతి వరుసనకు అడుగు"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:230
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
@@ -1686,19 +1708,20 @@ msgstr "ఆగు"
 #. i18n: ectx: property (statusTip), widget (QStatusBar, statusBar)
 #: rc.cpp:797
 msgid "Step execution..."
-msgstr ""
+msgstr "అడుగు నిర్వర్తనము..."
 
 #. i18n: file: kjsembed/examples/docviewer/docviewer.ui:33
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:800
 msgid "<h1>KJSEmbed Documentation Viewer</h1>"
-msgstr ""
+msgstr "<h1>KJSEmbed పత్రికీకరణ వీక్షణి</h1>"
 
 #. i18n: file: kde3support/kdeui/k3spellui.ui:36
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:52
 #. i18n: ectx: property (whatsThis), widget (QLabel, m_unknownWord)
 #: rc.cpp:803 rc.cpp:815
+#, fuzzy
 msgid ""
 "<qt><p>This word was considered to be an \"unknown word\" because it does "
 "not match any entry in the dictionary currently in use. It may also be a "
@@ -1713,12 +1736,21 @@ msgid ""
 "All</b>.</p>\n"
 "</qt>"
 msgstr ""
+"<qt><p>ఈ పదము \"తెలియని పదముగా\" పరిగణించ బడుతుంది యెందుచేతనంటే యిది ప్రస్తుతం వుపయోగిస్తున్న "
+"నిఘంటువునందలి ఏ ప్రవేశముతోను సరిపోలలేదు. ఇది పర(ఫారెన్) భాషలోని పదము అయివుండవచ్చు.</p>\n"
+"<p>పదము తప్పుగావ్యవహరించి వుండకపోతే గనుక, మీరు దానిని నిఘంటువునకు జతచేయుటకు <b>నిఘంటువునకు "
+"జతచేయుము</b> నొక్కుము. మీరు తెలియని పదమును నిఘంటువునకు జతచేయాలి అని అనుకోకపోతే, దానిని మార్చకుండా "
+"వదిలివేయాలని అనుకుంటే, <b>విస్మరించు</b> లేదా <b>అన్నిటిని విస్మరించు</b> నొక్కుము.</p>\n"
+"<p>ఏమైనప్పటికి, పదము తప్పుగావ్యవహరించి వుంటే, సరైన దానికొరకు మీరు క్రింది జాబితానందు ప్రయత్నించవచ్చు. "
+"మీరు యిక్కడ సరైనదానిని కనుగొనలేకపోతే,మీరు క్రింది వచన పెట్టెనందు టైపు చేయవచ్చు, <b>ప్రతిస్థాపించు</b> "
+"లేదా <b>అన్నింటిని ప్రతిస్థాపించు</b>నొక్కవచ్చు.</p>\n"
+"</qt>"
 
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, JobsBase)
 #: rc.cpp:924
 msgid "ThreadWeaver Jobs Examples"
-msgstr ""
+msgstr "ThreadWeaver జాబ్‍స్  ఉదాహరణలు"
 
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:19
 #. i18n: ectx: property (toolTip), widget (QWidget, JobsBase)
@@ -1727,6 +1759,8 @@ msgid ""
 "The program executes 100 jobs in 4 threads. Each job waits for a random "
 "number of milliseconds between 1 and 1000."
 msgstr ""
+"ఈ ప్రోగ్రామ్ 100 జాబ్‍స్‌ను 4 తంతులలో నిర్వర్తిస్తుంది. ప్రతి జాబ్ 1 నుండి 1000 లోపలి యాధృశ్చిక "
+"మిల్లీసెకనులపాటు వేచివుంటుంది."
 
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:39
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbLog)
@@ -1735,18 +1769,20 @@ msgid ""
 "Check to see logging information about thread activity. Watch the console "
 "output to see the log information."
 msgstr ""
+"తంతి క్రియాశీలత గురించి లాగింగ్ సమాచారమును చూచుటకు పరిశీలించుము. లాగ్ సమాచారమును చూచుటకు కన్సోలు "
+"అవుట్పుట్‌ను పర్యవేక్షించుము."
 
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:42
 #. i18n: ectx: property (text), widget (QCheckBox, cbLog)
 #: rc.cpp:933
 msgid "Log Thread Activity"
-msgstr ""
+msgstr "లాగ్ తంతి క్రియాశీలత"
 
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:62
 #. i18n: ectx: property (toolTip), widget (ThreadWeaver::WeaverThreadGrid, threadGrid)
 #: rc.cpp:936
 msgid "Displays Thread Activity"
-msgstr ""
+msgstr "తంతి క్రియాశీలతను ప్రదర్శిస్తుంది"
 
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:80
 #. i18n: ectx: property (text), widget (QPushButton, pbStart)
@@ -1758,13 +1794,13 @@ msgstr "ప్రారంభం"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:948
 msgid "GUI based example for the Weaver Thread Manager"
-msgstr ""
+msgstr "వీవర్ తంతి అభికర్త కొరకు GUI ఆధారిత ఉదాహరణ"
 
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:208
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:951
 msgid "Remaining number of jobs:"
-msgstr ""
+msgstr "మిగిలివున్న జాబ్సు సంఖ్య:"
 
 #. i18n: file: threadweaver/Examples/SMIV/SMIVBase.ui:32
 #. i18n: ectx: property (text), widget (QPushButton, pbSelectFiles)
@@ -1781,16 +1817,14 @@ msgstr "రద్దు"
 #. i18n: file: threadweaver/Examples/SMIV/SMIVBase.ui:52
 #. i18n: ectx: property (text), widget (QPushButton, pbSuspend)
 #: rc.cpp:960
-#, fuzzy
-#| msgid "Sound"
 msgid "Suspend"
-msgstr "శబ్దము"
+msgstr "సస్పెండ్"
 
 #. i18n: file: threadweaver/Examples/QProcessJob/MainWindowUi.ui:46
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonStart)
 #: rc.cpp:969
 msgid "What time is it? Click to update."
-msgstr ""
+msgstr "ఇది ఏ సమయం? నవీకరించుటకు నొక్కుము."
 
 #. i18n: file: threadweaver/Examples/QProcessJob/MainWindowUi.ui:53
 #. i18n: ectx: property (text), widget (QLabel, labelTime)
@@ -1802,6 +1836,11 @@ msgid ""
 "bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
 "indent:0px;\">(do not know yet)</p></body></html>"
 msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
+"white-space: pre-wrap; font-family:Sans Serif; font-weight:400; font-style:"
+"normal; text-decoration:none;\"><p style=\" margin-top:0px; margin-"
+"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px;\">(ఇంకా తెలియదు)</p></body></html>"
 
 #: kjs/object.cpp:618 kdeui/dialogs/kmessagebox.cpp:832
 #: kdeui/dialogs/kmessagebox.cpp:865 khtml/rendering/render_form.cpp:614
@@ -1845,6 +1884,10 @@ msgid ""
 "\n"
 "Please install the KDEPIM/Kontact package for your system."
 msgstr ""
+"ఆ టెంప్లెట్‌కు మీ గురించి సమాచారము కావలెను, ఏదైతే మీ చిరునామా పుస్తకమునందు వుంచబడిందో.\n"
+"ఏమైనప్పటి, అవసరమైన ప్లగ్ఇన్ లోడు కాలేకపోయింది.\n"
+"\n"
+"మీ సిస్టమ్‌కు KDEPIM/Kontact ప్యాకేజీను దయచేసి సంస్థాపించుము."
 
 #: kded/khostname.cpp:73
 msgid "Error: HOME environment variable not set.\n"
@@ -1891,7 +1934,7 @@ msgstr "కెడిఈ సూత్రధారి"
 
 #: kded/kded.cpp:816
 msgid "KDE Daemon - triggers Sycoca database updates when needed"
-msgstr ""
+msgstr "KDE డెమోన్ - Sycoca డాటాబేస్ నవీకరణలను అవసరమైనప్పుడు విడుస్తుంది"
 
 #: kded/kded.cpp:819
 msgid "Check Sycoca database only once"
@@ -1926,7 +1969,7 @@ msgstr ""
 
 #: kded/kbuildsycoca.cpp:642
 msgid "Rebuilds the system configuration cache."
-msgstr ""
+msgstr "సిస్టమ్ ఆకృతీకరణ క్యాచీను తిరిగినిర్మిస్తుంది."
 
 #: kded/kbuildsycoca.cpp:643
 msgid "(c) 1999-2002 KDE Developers"
@@ -1938,11 +1981,11 @@ msgstr "డెవిడ్ ఫావ్రె"
 
 #: kded/kbuildsycoca.cpp:648
 msgid "Do not signal applications to update"
-msgstr ""
+msgstr "అనువర్తనములు నవీకరించబడుటకు సంకేతము యీయవద్దు"
 
 #: kded/kbuildsycoca.cpp:649
 msgid "Disable incremental update, re-read everything"
-msgstr ""
+msgstr "పురోగమన నవీకరణను అచేతనపరచుము, ప్రతిదానిని తిరిగి-చదువుము"
 
 #: kded/kbuildsycoca.cpp:650
 msgid "Check file timestamps"
@@ -1974,15 +2017,15 @@ msgstr "పురోగతి సమచారం చూపించు ('ని�
 
 #: kded/kbuildsycoca.cpp:682
 msgid "Reloading KDE configuration, please wait..."
-msgstr "కెడిఈ అమరికను మళ్లి ఎక్కిస్తున్నా, దయచేసి ఆగండి..."
+msgstr "కెడిఈ ఆకృతీకరణను మళ్లి ఎక్కిస్తున్నా, దయచేసి ఆగండి..."
 
 #: kded/kbuildsycoca.cpp:683
 msgid "KDE Configuration Manager"
-msgstr "కెడిఈ అమరిక అభికర్త"
+msgstr "కెడిఈ ఆకృతీకరణ అభికర్త"
 
 #: kded/kbuildsycoca.cpp:685
 msgid "Do you want to reload KDE configuration?"
-msgstr "కెడిఈ అమరికణూ మళ్లి ఎక్కించమటారా?"
+msgstr "కెడిఈ ఆకృతీకరణను మళ్లి ఎక్కించమటారా?"
 
 #: kded/kbuildsycoca.cpp:685
 msgctxt "Reload KDE configuration messagebox"
@@ -1995,7 +2038,7 @@ msgstr "మళ్లి ఎక్కించవద్దు"
 
 #: kded/kbuildsycoca.cpp:861
 msgid "Configuration information reloaded successfully."
-msgstr "అమరిక సమాచారం సఫలంగా మళ్లి ఎక్కించడమైనది."
+msgstr "ఆకృతీకరణ సమాచారం సఫలంగా మళ్లి ఎక్కించడమైనది."
 
 #: kpty/kptydevice.cpp:306
 msgid "Error reading from PTY"
@@ -2003,7 +2046,7 @@ msgstr "PTY నుంచి చదువుటలో దోషం"
 
 #: kpty/kptydevice.cpp:340
 msgid "Error writing to PTY"
-msgstr ""
+msgstr "PTYకు వ్రాయుటలో దోషము"
 
 #: kpty/kptydevice.cpp:425
 msgid "PTY operation timed out"
@@ -2015,11 +2058,11 @@ msgstr "పిటివై తెరచుటలో దోషము."
 
 #: kdecore/kde-config.cpp:58
 msgid "kde4-config"
-msgstr ""
+msgstr "kde4-config"
 
 #: kdecore/kde-config.cpp:59
 msgid "A little program to output installation paths"
-msgstr "స్థాపణ దారులు చూపేందుకు చిన్న కార్యక్రమం"
+msgstr "స్థాపణ దారులు చూపేందుకు చిన్న ప్రోగ్రామ్"
 
 #: kdecore/kde-config.cpp:61
 msgid "(C) 2000 Stephan Kulow"
@@ -2027,7 +2070,7 @@ msgstr "(C) 2000 స్టీఫెన్ కులొ"
 
 #: kdecore/kde-config.cpp:65
 msgid "Left for legacy support"
-msgstr ""
+msgstr "లెగసీ మద్దతు కొరకు విడువబడింది"
 
 #: kdecore/kde-config.cpp:66
 msgid "Compiled in prefix for KDE libraries"
@@ -2059,7 +2102,7 @@ msgstr "వనరుల రకాలు కోసం పాత్ లో వె�
 
 #: kdecore/kde-config.cpp:73
 msgid "Find filename inside the resource type given to --path"
-msgstr ""
+msgstr "--pathకు ఈయబడిన వనరు రకము లోపల దస్త్రనామమును కనుగొనుము"
 
 #: kdecore/kde-config.cpp:74
 msgid "User path: desktop|autostart|document"
@@ -2070,22 +2113,20 @@ msgid "Prefix to install resource files to"
 msgstr "వనరుల దస్త్రాలని ప్రవేశపెట్టటానికి వాడె ఉపసర్గ"
 
 #: kdecore/kde-config.cpp:76
-#, fuzzy
-#| msgid "Installation"
 msgid "Installation prefix for Qt"
-msgstr "స్థాపన"
+msgstr "Qt కొరకు సంస్థాపనా ప్రిఫిక్సు"
 
 #: kdecore/kde-config.cpp:77
 msgid "Location of installed Qt binaries"
-msgstr ""
+msgstr "సంస్థాపించిన Qt బైనరీల స్థానము"
 
 #: kdecore/kde-config.cpp:78
 msgid "Location of installed Qt libraries"
-msgstr ""
+msgstr "సంస్థాపించిన Qt లైబ్రరీల స్థానము"
 
 #: kdecore/kde-config.cpp:79
 msgid "Location of installed Qt plugins"
-msgstr ""
+msgstr "సంస్థాపించిన Qt ప్లగ్ఇన్సు స్థానము"
 
 #: kdecore/kde-config.cpp:126
 msgid "Applications menu (.desktop files)"
@@ -2101,7 +2142,7 @@ msgstr "కెడిఈ సహాయము నుంచి నడిచే స�
 
 #: kdecore/kde-config.cpp:129
 msgid "Configuration files"
-msgstr "అమరిక దస్త్రాలు"
+msgstr "ఆకృతీకరణ దస్త్రాలు"
 
 #: kdecore/kde-config.cpp:130
 msgid "Where applications store data"
@@ -2125,7 +2166,7 @@ msgstr "ప్రతిమలు"
 
 #: kdecore/kde-config.cpp:135
 msgid "Configuration description files"
-msgstr "అమరికను తెలియచేసే దస్త్రాలు"
+msgstr "ఆకృతీకరణను తెలియచేసే దస్త్రాలు"
 
 #: kdecore/kde-config.cpp:136
 msgid "Libraries"
@@ -2149,7 +2190,7 @@ msgstr "ఎక్కింపతగిన మాడ్యూళ్లు"
 
 #: kdecore/kde-config.cpp:141 kdecore/kde-config.cpp:151
 msgid "Legacy pixmaps"
-msgstr ""
+msgstr "లెగసి పిక్‍స్‌మాప్‍స్"
 
 #: kdecore/kde-config.cpp:142
 msgid "Qt plugins"
@@ -2215,7 +2256,7 @@ msgstr "%1 - తెలియని యూజర్ దారి\n"
 
 #: kdecore/io/ksavefile.cpp:83
 msgid "No target filename has been given."
-msgstr ""
+msgstr "ఎటువంటి లక్ష్యపు దస్త్రనామము ఈయబడలేదు."
 
 #: kdecore/io/ksavefile.cpp:90
 msgid "Already opened."
@@ -2223,7 +2264,7 @@ msgstr "ముందే తెరవబడినది."
 
 #: kdecore/io/ksavefile.cpp:100
 msgid "Insufficient permissions in target directory."
-msgstr ""
+msgstr "లక్ష్యపు డైరెక్టరీనందు సరిపోని అనుమతులు."
 
 #: kdecore/io/ksavefile.cpp:110
 msgid "Unable to open temporary file."
@@ -3180,23 +3221,21 @@ msgstr "\"%1\" లైబ్రరి దొరకలేదు"
 
 #: kdecore/util/klibloader.cpp:146
 msgid "No service matching the requirements was found."
-msgstr ""
+msgstr "ఏ సేవా సరిజోడీ అవసరములు కనబడలేదు."
 
 #: kdecore/util/klibloader.cpp:148
 msgid ""
 "The service provides no library, the Library key is missing in the .desktop "
 "file."
-msgstr ""
+msgstr "ఆ సేవ యెటువంటి లైబ్రరీను అందించుటలేదు, .desktop ఫైలునందు లైబ్రరీ కీ కనబడుటలేదు."
 
 #: kdecore/util/klibloader.cpp:152
-#, fuzzy
-#| msgid "The library %1 does not offer a KDE compatible factory."
 msgid "The library does not export a factory for creating components."
-msgstr "%1 లైబ్రరిలో కెడిఈ కి సరిపడె ఫేక్టరి లేదు"
+msgstr "కాంపోనెంట్లను సృష్టించుటకు లైబ్రరీ ఫాక్టరీను ఎగుమతి చేయుటలేదు."
 
 #: kdecore/util/klibloader.cpp:154
 msgid "The factory does not support creating components of the specified type."
-msgstr ""
+msgstr "తెలుపబడిన రకముయొక్క కాంపోనెంట్లను సృష్టించుట ఫాక్టరీ మద్దతునీయదు."
 
 #: kdecore/util/klibloader.cpp:156
 msgid "KLibLoader: Unknown error"
@@ -3208,6 +3247,7 @@ msgid ""
 "The service '%1' provides no library or the Library key is missing in the ."
 "desktop file."
 msgstr ""
+"సేవ '%1' యెటువంటి లైబ్రరీను అందించుటలేదు లేదా లైబ్రరీ కీ .desktop దస్త్రమునందు కనబడుటలేదు."
 
 #: kdecore/util/kpluginloader.cpp:163
 #, kde-format
@@ -3217,7 +3257,7 @@ msgstr "%1 లైబ్రరిలో కెడిఈ 4 కి సరిపడ�
 #: kdecore/util/kpluginloader.cpp:191
 #, kde-format
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
-msgstr ""
+msgstr "ప్లగ్ఇన్ '%1' పొసగని KDE లైబ్రరీ (%2)ను వుపయోగిస్తోంది."
 
 #: kdecore/config/kconfig.cpp:670
 msgid "Please contact your system administrator."
@@ -3226,7 +3266,7 @@ msgstr "మి వ్యవస్థ పాలకుడిని కలవండ
 #: kdecore/config/kconfigini.cpp:511
 #, kde-format
 msgid "Configuration file \"%1\" not writable.\n"
-msgstr "అమరిక దస్త్రం \"%1\" వ్రాయుటకు వీలుకాదు.\n"
+msgstr "ఆకృతీకరణ దస్త్రం \"%1\" వ్రాయుటకు వీలుకాదు.\n"
 
 #: kdecore/network/k3socketaddress.cpp:623
 #, kde-format
@@ -3368,7 +3408,7 @@ msgstr "ఈ హోస్ట్ పేరునకు మనవి చెయబ�
 
 #: kdecore/network/k3resolver.cpp:549
 msgid "invalid flags"
-msgstr ""
+msgstr "సరికాని ఫ్లాగ్‍స్‌"
 
 #: kdecore/network/k3resolver.cpp:552
 msgid "requested family not supported"
@@ -3399,7 +3439,7 @@ msgstr "మనవి రద్దుచేయబడినది"
 #: kdecore/network/ksocketfactory.cpp:90
 #: kdecore/network/ksocketfactory.cpp:104
 msgid "Timed out trying to connect to remote host"
-msgstr ""
+msgstr "రిమోట్ హోస్‍ట్‌కు అనుసంధానించుటకు ప్రయత్నించుటలో సమయం అయిపోయింది"
 
 #: kdecore/network/k3socks.cpp:137
 msgid "NEC SOCKS client"
@@ -3411,21 +3451,23 @@ msgstr "డాంటె సాక్స్ క్లైంట్"
 
 #: kdecore/kernel/kcmdlineargs.cpp:272
 msgid "Use the X-server display 'displayname'"
-msgstr ""
+msgstr "X-server 'displayname' వుపయోగించుము"
 
 #: kdecore/kernel/kcmdlineargs.cpp:274
 msgid "Use the QWS display 'displayname'"
-msgstr ""
+msgstr "QWS 'displayname' వుపయోగించుము"
 
 #: kdecore/kernel/kcmdlineargs.cpp:277
 msgid "Restore the application for the given 'sessionId'"
-msgstr ""
+msgstr "ఈయబడిన 'sessionId'కు అనువర్తనమును తిరిగివుంచుము"
 
 #: kdecore/kernel/kcmdlineargs.cpp:278
 msgid ""
 "Causes the application to install a private color\n"
 "map on an 8-bit display"
 msgstr ""
+"8-bit ప్రదర్శనపై వ్యక్తిగత రంగు పటమును అనువర్తనము\n"
+"సంస్థాపించుటకు కారణమౌతుంది"
 
 #: kdecore/kernel/kcmdlineargs.cpp:279
 msgid ""
@@ -3434,24 +3476,30 @@ msgid ""
 "using the QApplication::ManyColor color\n"
 "specification"
 msgstr ""
+"8-bit ప్రదర్శనపై రంగు క్యూబునందు కేటాయించిన రంగులను\n"
+"పరిమితంచేస్తుంది, ఒకవేళ అనువర్తనము గనుక\n"
+"QApplication::ManyColor color విశదీకణను\n"
+"వుపయోగించినట్లైతే"
 
 #: kdecore/kernel/kcmdlineargs.cpp:280
 msgid "tells Qt to never grab the mouse or the keyboard"
-msgstr ""
+msgstr "Qtకు ఎప్పుడూ మౌస్‌ను లేదా కీబోర్డును లాగవద్దని చెబుతుంది"
 
 #: kdecore/kernel/kcmdlineargs.cpp:281
 msgid ""
 "running under a debugger can cause an implicit\n"
 "-nograb, use -dograb to override"
 msgstr ""
+"డీబగ్గర్ క్రిందన నడుపుట అంతర్గత -nograbకు కారణం\n"
+"కావచ్చు, ఓవర్‌రైడ్ చేయుటకు -dograb వుపయోగించుము"
 
 #: kdecore/kernel/kcmdlineargs.cpp:282
 msgid "switches to synchronous mode for debugging"
-msgstr ""
+msgstr "డీబగ్గింగ్ కొరకు సింక్రనస్ రీతికి స్విచ్చులు"
 
 #: kdecore/kernel/kcmdlineargs.cpp:284
 msgid "defines the application font"
-msgstr ""
+msgstr "అనువర్తనము అక్షరరూపమును నిర్వచిస్తుంది"
 
 #: kdecore/kernel/kcmdlineargs.cpp:286
 msgid ""
@@ -3459,10 +3507,13 @@ msgid ""
 "application palette (light and dark shades are\n"
 "calculated)"
 msgstr ""
+"అప్రమేయ బ్యాక్‌గ్రౌండ్ రంగును మరియు అనవర్తనము\n"
+"ప్యాలెట్‌ను అమర్చుతుంది (లేత మరియు ముదురు రంగులు\n"
+"లెక్కించబడతాయి)"
 
 #: kdecore/kernel/kcmdlineargs.cpp:288
 msgid "sets the default foreground color"
-msgstr ""
+msgstr "అప్రమేయ ఫోర్‌గ్రౌండ్ రంగును అమర్చుతుంది"
 
 #: kdecore/kernel/kcmdlineargs.cpp:290
 msgid "sets the default button color"
@@ -3481,6 +3532,8 @@ msgid ""
 "forces the application to use a TrueColor visual on\n"
 "an 8-bit display"
 msgstr ""
+"8-bit ప్రదర్శనపై TrueColor విజువల్‌ను వుపయోగించుటకు\n"
+"అనువర్తనమును బలవంతముచేస్తుంది"
 
 #: kdecore/kernel/kcmdlineargs.cpp:295
 msgid ""
@@ -3488,18 +3541,21 @@ msgid ""
 "values are onthespot, overthespot, offthespot and\n"
 "root"
 msgstr ""
+"XIM (X ఇన్పుట్ విధానం) ఇన్పుట్ శైలిని అమర్చుతుంది. సాధ్యమగు\n"
+"విలువలు onthespot, overthespot, offthespot మరియు\n"
+"root"
 
 #: kdecore/kernel/kcmdlineargs.cpp:296
 msgid "set XIM server"
-msgstr ""
+msgstr "XIM సెర్వర్ అమర్చు"
 
 #: kdecore/kernel/kcmdlineargs.cpp:297
 msgid "disable XIM"
-msgstr ""
+msgstr "XIM అచేతనంచేయి"
 
 #: kdecore/kernel/kcmdlineargs.cpp:300
 msgid "forces the application to run as QWS Server"
-msgstr ""
+msgstr "అనువర్తనము QWS సెర్వర్ నడుపుటకు బలవంతంచేస్తుంది"
 
 #: kdecore/kernel/kcmdlineargs.cpp:302
 msgid "mirrors the whole layout of widgets"
@@ -3507,13 +3563,15 @@ msgstr "మొత్తం విడ్జెట్ల కూర్పు ను
 
 #: kdecore/kernel/kcmdlineargs.cpp:303
 msgid "applies the Qt stylesheet to the application widgets"
-msgstr ""
+msgstr "Qt స్టైల్‌షీట్‌ను అనువర్తనము విడ్జట్‍స్‌కు వర్తింపచేస్తుంది"
 
 #: kdecore/kernel/kcmdlineargs.cpp:305
 msgid ""
 "use a different graphics system instead of the default one, options are "
 "raster and opengl (experimental)"
 msgstr ""
+"అప్రమేయంకు బదులుగా వేరే గ్రాఫిక్‍స్  సిస్టమ్‌ను వుపయోగించుము, వున్న ఐచ్చికాలు raster మరియు opengl "
+"(ప్రయోగాత్మకంగా)"
 
 #: kdecore/kernel/kcmdlineargs.cpp:308
 msgid "Use 'caption' as name in the titlebar"
@@ -3525,15 +3583,15 @@ msgstr "'ప్రతిమ'ను అప్లికేషన్ ప్రత�
 
 #: kdecore/kernel/kcmdlineargs.cpp:310
 msgid "Use alternative configuration file"
-msgstr ""
+msgstr "ప్రత్యామ్నాయ ఆకృతీకరణ దస్త్రము"
 
 #: kdecore/kernel/kcmdlineargs.cpp:311
 msgid "Disable crash handler, to get core dumps"
-msgstr ""
+msgstr "కోర్ డంప్‍స్‌ను పొందుటకు, క్రాష్ హాండ్లర్‌ను అచేతనపరచుము"
 
 #: kdecore/kernel/kcmdlineargs.cpp:313
 msgid "Waits for a WM_NET compatible windowmanager"
-msgstr ""
+msgstr "WM_NET సారూప్య విండో అభికర్త కొరకు వేచివుంటుంది"
 
 #: kdecore/kernel/kcmdlineargs.cpp:315
 msgid "sets the application GUI style"
@@ -3543,7 +3601,7 @@ msgstr "కార్యక్రమ జియుఐ శైలిని పెట
 msgid ""
 "sets the client geometry of the main widget - see man X for the argument "
 "format"
-msgstr ""
+msgstr "ముఖ్య విడ్జట్ యొక్క క్లైంట్ జియోమెట్రీను అమర్చుతుంది - ఆర్గుమెంట్ ఫార్మాట్ కొరకు man X చూడుము"
 
 #: kdecore/kernel/kcmdlineargs.cpp:433
 msgid "KDE Application"
@@ -3553,7 +3611,7 @@ msgstr "కెడిఈ అప్లికేషన్:"
 msgid "Qt"
 msgstr "క్యూటి"
 
-#: kdecore/kernel/kcmdlineargs.cpp:493 khtml/khtml_part.cpp:4670
+#: kdecore/kernel/kcmdlineargs.cpp:493 khtml/khtml_part.cpp:4669
 msgid "KDE"
 msgstr "కెడిఈ"
 
@@ -3682,7 +3740,7 @@ msgstr "అప్లికేషన్ ద్వారా తెరచిన ద
 
 #: kdecore/kernel/kcmdlineargs.cpp:1589
 msgid "KDE-tempfile"
-msgstr ""
+msgstr "KDE-tempfile"
 
 #: kdecore/kernel/ktoolinvocation_x11.cpp:252
 #, kde-format
@@ -3735,46 +3793,39 @@ msgid ""
 "Please check the documentation or the source for any\n"
 "licensing terms.\n"
 msgstr ""
-"ఈ కార్యక్రమానికి లైసెన్స్ షరతులు పేర్కొనలేవు.\n"
+"ఈ ప్రోగ్రామ్‌కు లైసెన్స్ షరతులు పేర్కొనలేవు.\n"
 "దయచేసి లైసెన్స్ షరతుల కొరకు పత్రరచన లేక మూలంను \n"
 "సంప్రదించండి.\n"
 
 #: kdecore/kernel/kaboutdata.cpp:263
 #, kde-format
 msgid "This program is distributed under the terms of the %1."
-msgstr "ఈ కార్యక్రమం %1 షరతుల క్రింద పంచపెట్టడమైనది."
+msgstr "ఈ ప్రోగ్రామ్ %1 షరతుల క్రింద పంచిపెట్టడమైనది."
 
 #: kdecore/kernel/kaboutdata.cpp:289
-#, fuzzy
-#| msgid "GPL"
 msgctxt "@item license (short name)"
 msgid "GPL v2"
-msgstr "జిపిఎల్"
+msgstr "GPL v2"
 
 #: kdecore/kernel/kaboutdata.cpp:290
 msgctxt "@item license"
 msgid "GNU General Public License Version 2"
-msgstr ""
+msgstr "GNU General Public License Version 2"
 
 #: kdecore/kernel/kaboutdata.cpp:293
-#, fuzzy
-#| msgid "LGPL"
 msgctxt "@item license (short name)"
 msgid "LGPL v2"
-msgstr "ఎల్జిపిఎల్"
+msgstr "LGPL v2"
 
 #: kdecore/kernel/kaboutdata.cpp:294
 msgctxt "@item license"
 msgid "GNU Lesser General Public License Version 2"
-msgstr ""
+msgstr "GNU Lesser General Public License Version 2"
 
 #: kdecore/kernel/kaboutdata.cpp:297
-#, fuzzy
-#| msgctxt "@item license"
-#| msgid "BSD License"
 msgctxt "@item license (short name)"
 msgid "BSD License"
-msgstr "బి ఎస్ డి లైసెన్స్:"
+msgstr "BSD License"
 
 #: kdecore/kernel/kaboutdata.cpp:298
 msgctxt "@item license"
@@ -3782,12 +3833,9 @@ msgid "BSD License"
 msgstr "బి ఎస్ డి లైసెన్స్:"
 
 #: kdecore/kernel/kaboutdata.cpp:301
-#, fuzzy
-#| msgctxt "@item license"
-#| msgid "Artistic License"
 msgctxt "@item license (short name)"
 msgid "Artistic License"
-msgstr "ఆర్టిస్టిక్ లైసెన్స్"
+msgstr "Artistic License"
 
 #: kdecore/kernel/kaboutdata.cpp:302
 msgctxt "@item license"
@@ -3797,7 +3845,7 @@ msgstr "ఆర్టిస్టిక్ లైసెన్స్"
 #: kdecore/kernel/kaboutdata.cpp:305
 msgctxt "@item license (short name)"
 msgid "QPL v1.0"
-msgstr ""
+msgstr "QPL v1.0"
 
 #: kdecore/kernel/kaboutdata.cpp:306
 msgctxt "@item license"
@@ -3805,11 +3853,9 @@ msgid "Q Public License"
 msgstr "క్యు పబ్లిక్ లైసెన్స్"
 
 #: kdecore/kernel/kaboutdata.cpp:309
-#, fuzzy
-#| msgid "GPL"
 msgctxt "@item license (short name)"
 msgid "GPL v3"
-msgstr "జిపిఎల్"
+msgstr "GPL v3"
 
 #: kdecore/kernel/kaboutdata.cpp:310
 msgctxt "@item license"
@@ -3817,11 +3863,9 @@ msgid "GNU General Public License Version 3"
 msgstr "గ్ను సాధారణ పబ్లిక్ లైసెన్స్ వివరణం 3"
 
 #: kdecore/kernel/kaboutdata.cpp:313
-#, fuzzy
-#| msgid "LGPL"
 msgctxt "@item license (short name)"
 msgid "LGPL v3"
-msgstr "ఎల్జిపిఎల్"
+msgstr "LGPL v3"
 
 #: kdecore/kernel/kaboutdata.cpp:314
 msgctxt "@item license"
@@ -3851,7 +3895,7 @@ msgstr ""
 
 #: kdecore/kernel/ktoolinvocation.cpp:80
 msgid "Function must be called from the main thread."
-msgstr ""
+msgstr "ప్రమేయం తప్పక ముఖ్య తంతినుండి కాల్ చేయబడాలి."
 
 #: kdecore/kernel/ktoolinvocation.cpp:121
 #, kde-format
@@ -3859,6 +3903,8 @@ msgid ""
 "Error launching %1. Either KLauncher is not running anymore, or it failed to "
 "start the application."
 msgstr ""
+"%1 ప్రారంభించుటలో దోషము. KLauncher నడుస్తూ వుండకపోవచ్చు, లేదా అది అనువర్తనంను మొదలుపెట్టుటలో "
+"విఫలమైవుంటుంది."
 
 #: kdecore/kernel/ktoolinvocation.cpp:124
 #, kde-format
@@ -3866,6 +3912,8 @@ msgid ""
 "KLauncher could not be reached via D-Bus. Error when calling %1:\n"
 "%2\n"
 msgstr ""
+"KLauncher అనునది D-Bus ద్వారా చేరుకోబడలేదు. దీనిని కాల్ చేస్తున్నప్పుడు దోషము %1:\n"
+"%2\n"
 
 #: kdecore/kernel/ktoolinvocation.cpp:299
 #, kde-format
@@ -3900,32 +3948,32 @@ msgstr "80"
 #: kdecore/sonnet/loader.cpp:157
 msgctxt "dictionary variant"
 msgid "-ise suffixes"
-msgstr ""
+msgstr "-ise సఫిక్సెస్"
 
 #: kdecore/sonnet/loader.cpp:158
 msgctxt "dictionary variant"
 msgid "-ize suffixes"
-msgstr ""
+msgstr "-ize సఫిక్సెస్"
 
 #: kdecore/sonnet/loader.cpp:159
 msgctxt "dictionary variant"
 msgid "-ise suffixes and with accents"
-msgstr ""
+msgstr "-ise సఫిక్సెస్ మరియు యాక్సెంట్‍స్‌తో"
 
 #: kdecore/sonnet/loader.cpp:160
 msgctxt "dictionary variant"
 msgid "-ise suffixes and without accents"
-msgstr ""
+msgstr "-ise సఫిక్సెస్ మరియు యాక్సెంట్‍స్‌  లేకుండా"
 
 #: kdecore/sonnet/loader.cpp:161
 msgctxt "dictionary variant"
 msgid "-ize suffixes and with accents"
-msgstr ""
+msgstr "-ize సఫిక్సెస్ మరియు యాక్సెంట్‍స్‌తో"
 
 #: kdecore/sonnet/loader.cpp:162
 msgctxt "dictionary variant"
 msgid "-ize suffixes and without accents"
-msgstr ""
+msgstr "-ize సఫిక్సెస్ మరియు యాక్సెంట్‍స్  లేకుండా"
 
 #: kdecore/sonnet/loader.cpp:163
 msgctxt "dictionary variant"
@@ -3945,47 +3993,47 @@ msgstr "చిన్న"
 #: kdecore/sonnet/loader.cpp:166
 msgctxt "dictionary variant"
 msgid "variant 0"
-msgstr ""
+msgstr "వేరియంట్ 0"
 
 #: kdecore/sonnet/loader.cpp:167
 msgctxt "dictionary variant"
 msgid "variant 1"
-msgstr ""
+msgstr "వేరియంట్ 1"
 
 #: kdecore/sonnet/loader.cpp:168
 msgctxt "dictionary variant"
 msgid "variant 2"
-msgstr ""
+msgstr "వేరియంట్ 2"
 
 #: kdecore/sonnet/loader.cpp:169
 msgctxt "dictionary variant"
 msgid "without accents"
-msgstr ""
+msgstr "యాక్సెంట్‍స్  లేకుండా"
 
 #: kdecore/sonnet/loader.cpp:170
 msgctxt "dictionary variant"
 msgid "with accents"
-msgstr ""
+msgstr "యాక్సెంట్‍స్‌తో"
 
 #: kdecore/sonnet/loader.cpp:171
 msgctxt "dictionary variant"
 msgid "with ye"
-msgstr ""
+msgstr "ye తో"
 
 #: kdecore/sonnet/loader.cpp:172
 msgctxt "dictionary variant"
 msgid "with yeyo"
-msgstr ""
+msgstr "yeyo తో"
 
 #: kdecore/sonnet/loader.cpp:173
 msgctxt "dictionary variant"
 msgid "with yo"
-msgstr ""
+msgstr "yo తో"
 
 #: kdecore/sonnet/loader.cpp:174
 msgctxt "dictionary variant"
 msgid "extended"
-msgstr ""
+msgstr "విస్తారమైన"
 
 #: kdecore/sonnet/loader.cpp:219
 #, kde-format
@@ -4021,19 +4069,17 @@ msgid "Cannot create memory segment for file %1"
 msgstr "%1 దస్త్రం కొరకు మెమొరి సెగ్మెంటును సృష్టించలేను."
 
 #: kdecore/sycoca/kmemfile.cpp:98
-#, fuzzy, kde-format
-#| msgctxt "QFile"
-#| msgid "Could not read from the file"
+#, kde-format
 msgid "Could not read data from %1 into shm"
-msgstr "%1 దస్త్రం నుంచి ఎస్ హెచ్ ఎం లొ చదవలేకపోతున్నా"
+msgstr "%1 నుండి shm లోనికి దత్తాంశమును చదువలేకపోతున్నా"
 
 #: kdecore/sycoca/kmemfile.cpp:149
 msgid "Only 'ReadOnly' allowed"
-msgstr ""
+msgstr "'చదవుటమాత్రమే' మాత్రమే అనుమతించబడును"
 
 #: kdecore/sycoca/kmemfile.cpp:205
 msgid "Cannot seek past eof"
-msgstr ""
+msgstr "గత eofను పసిగట్ట లేకపోయింది"
 
 #: kdecore/services/kmimetype.cpp:58
 #, kde-format
@@ -4053,19 +4099,18 @@ msgid ""
 "No mime types installed. Check that shared-mime-info is installed, and that "
 "XDG_DATA_DIRS is not set, or includes /usr/share."
 msgstr ""
+"ఎటువంటి మైమ్ రకములు సంస్థాపించబడలేదు. shared-mime-info సంస్థాపించునట్లు చూడుము, మరియు "
+"XDG_DATA_DIRS అమర్చకుండా చూడుము, లేదా /usr/share చేర్చుము."
 
 #: kdecore/localization/kencodingprober.cpp:235
 #: kdecore/localization/kencodingprober.cpp:272
-#, fuzzy
-#| msgid "&Discard"
 msgctxt "@item Text character set"
 msgid "Disabled"
-msgstr "(&D) విస్మరించు"
+msgstr "అచేతనమైన"
 
 #: kdecore/localization/kencodingprober.cpp:237
 #: kdecore/localization/kencodingprober.cpp:275
 #, fuzzy
-#| msgid "Uninstall"
 msgctxt "@item Text character set"
 msgid "Universal"
 msgstr "తొలగించు"
@@ -4193,22 +4238,22 @@ msgstr "థాయ్"
 #: kdecore/localization/klocale.cpp:1212
 #, kde-format
 msgid "%1 TiB"
-msgstr ""
+msgstr "%1 TiB"
 
 #: kdecore/localization/klocale.cpp:1214
 #, kde-format
 msgid "%1 GiB"
-msgstr ""
+msgstr "%1 GiB"
 
 #: kdecore/localization/klocale.cpp:1220
 #, kde-format
 msgid "%1 MiB"
-msgstr ""
+msgstr "%1 MiB"
 
 #: kdecore/localization/klocale.cpp:1226
 #, kde-format
 msgid "%1 KiB"
-msgstr ""
+msgstr "%1 KiB"
 
 #: kdecore/localization/klocale.cpp:1231
 #, kde-format
@@ -4245,73 +4290,63 @@ msgid "%1 milliseconds"
 msgstr "%1 మిల్లిసెకనులు"
 
 #: kdecore/localization/klocale.cpp:1263
-#, fuzzy, kde-format
-#| msgid "%1 days"
+#, kde-format
 msgctxt "@item:intext"
 msgid "1 day"
 msgid_plural "%1 days"
-msgstr[0] "%1 రొజులు"
+msgstr[0] "1 రొజు"
 msgstr[1] "%1 రొజులు"
 
 #: kdecore/localization/klocale.cpp:1265
-#, fuzzy, kde-format
-#| msgid "%1 hours"
+#, kde-format
 msgctxt "@item:intext"
 msgid "1 hour"
 msgid_plural "%1 hours"
-msgstr[0] "%1 గంటలు"
+msgstr[0] "1 గంట"
 msgstr[1] "%1 గంటలు"
 
 #: kdecore/localization/klocale.cpp:1267
-#, fuzzy, kde-format
-#| msgid "%1 minutes"
+#, kde-format
 msgctxt "@item:intext"
 msgid "1 minute"
 msgid_plural "%1 minutes"
-msgstr[0] "%1 నిమిషాలు"
-msgstr[1] "%1 నిమిషాలు"
+msgstr[0] "1 నిముషం"
+msgstr[1] "%1 నిముషాలు"
 
 #: kdecore/localization/klocale.cpp:1269
-#, fuzzy, kde-format
-#| msgid "%1 seconds"
+#, kde-format
 msgctxt "@item:intext"
 msgid "1 second"
 msgid_plural "%1 seconds"
-msgstr[0] "%1 సెకనులు"
+msgstr[0] "1 సెకను"
 msgstr[1] "%1 సెకనులు"
 
 #: kdecore/localization/klocale.cpp:1292
-#, fuzzy, kde-format
-#| msgctxt "concatenation of dates and time"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt ""
 "@item:intext days and hours. This uses the previous item:intext messages. If "
 "this does not fit the grammar of your language please contact the i18n team "
 "to solve the problem"
 msgid "%1 and %2"
-msgstr "%1 %2"
+msgstr "%1 మరియు %2"
 
 #: kdecore/localization/klocale.cpp:1296
-#, fuzzy, kde-format
-#| msgctxt "concatenation of dates and time"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt ""
 "@item:intext hours and minutes. This uses the previous item:intext messages. "
 "If this does not fit the grammar of your language please contact the i18n "
 "team to solve the problem"
 msgid "%1 and %2"
-msgstr "%1 %2"
+msgstr "%1 మరియు %2"
 
 #: kdecore/localization/klocale.cpp:1300
-#, fuzzy, kde-format
-#| msgctxt "concatenation of dates and time"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt ""
 "@item:intext minutes and seconds. This uses the previous item:intext "
 "messages. If this does not fit the grammar of your language please contact "
 "the i18n team to solve the problem"
 msgid "%1 and %2"
-msgstr "%1 %2"
+msgstr "%1 మరియు %2"
 
 #: kdecore/localization/klocale.cpp:1395
 msgid "Today"
@@ -4975,7 +5010,7 @@ msgid "Name"
 msgstr "పేరు"
 
 #: knewstuff/knewstuff2/ui/kdxstranslation.cpp:47
-#: kdeui/dialogs/kshortcutseditor.cpp:609
+#: kdeui/dialogs/kshortcutseditor.cpp:596
 msgid "Description"
 msgstr "వర్ణన"
 
@@ -4989,7 +5024,7 @@ msgstr "కొత్తవాటిని పంచుకో"
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:62
 msgid "Please give some information about yourself."
-msgstr ""
+msgstr "దయచేసి మీ గురించి కొంత సమాచారము యివ్వండి."
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:65
 msgid "Author:"
@@ -5001,7 +5036,7 @@ msgstr "ఈమెయిల్ చిరునామా:"
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:75
 msgid "Please describe your upload."
-msgstr ""
+msgstr "దయచేసి మీ అప్‌లోడ్ గురించి వివరించండి."
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:78 kross/ui/view.cpp:151
 #: kdeui/colors/kcolordialog.cpp:1157
@@ -5039,7 +5074,7 @@ msgstr "సారాంశము:"
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:107
 msgid "In which language did you describe the above?"
-msgstr ""
+msgstr "పైన మీరు ఏ భాషలో వివరించారు?"
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:110
 msgid "Language:"
@@ -5063,8 +5098,6 @@ msgstr "నింపవద్దు"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:127
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:555
-#, fuzzy
-#| msgid "Get Hot New Stuff!"
 msgid "Get Hot New Stuff"
 msgstr "కొత్తవాటిని తెచ్చుకో!"
 
@@ -5072,7 +5105,7 @@ msgstr "కొత్తవాటిని తెచ్చుకో!"
 #, kde-format
 msgctxt "Program name followed by 'Add On Installer'"
 msgid "%1 Add-On Installer"
-msgstr ""
+msgstr "%1 యాడ్-ఆన్ సంస్థాపకి"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:136
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:91
@@ -5085,24 +5118,21 @@ msgid "Add Comment"
 msgstr "వ్యాఖ్య వ్రాయి"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:142
-#, fuzzy
-#| msgid "Comments"
 msgid "View Comments"
-msgstr "వ్యాఖ్యలు"
+msgstr "వ్యాఖ్యలను వీక్షించుము"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:195
-#, fuzzy, kde-format
-#| msgid "Redo: %1"
+#, kde-format
 msgid "Re: %1"
 msgstr "పునరాచరణ: %1"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:312
 msgid "Timeout. Check Internet connection!"
-msgstr ""
+msgstr "సమయం అయిపోయింది. ఇంటర్నెట్ అనుసంధానము పరిశీలించుము!"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:405
 msgid "Entries failed to load"
-msgstr ""
+msgstr "లోడు చేయుటకు ప్రవేశములు విఫలమైనాయి"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:503
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:252
@@ -5111,63 +5141,54 @@ msgid "Server: %1"
 msgstr "సెర్వర్: %1"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:504
-#, fuzzy, kde-format
-#| msgid "Hide %1"
+#, kde-format
 msgid "<br />Provider: %1"
-msgstr "%1 చూపించకు"
+msgstr "<br />సిద్దంచేసేవారు: %1"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:505
-#, fuzzy, kde-format
-#| msgid "Version: %1"
+#, kde-format
 msgid "<br />Version: %1"
-msgstr "వివరణం: %1"
+msgstr "<br />వివరణం: %1"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:509
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:82
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:258
-#, fuzzy
-#| msgid "Show version information"
 msgid "Provider information"
-msgstr "వివరణం సమాచారం చూపుము"
+msgstr "సిద్దంచేసేవారి సమాచారం"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:535
-#, fuzzy, kde-format
-#| msgid "Could not read file '%1'"
+#, kde-format
 msgid "Could not install %1"
-msgstr "'%1' దస్త్రాన్ని చదువలేను."
+msgstr "%1ను సంస్థాపించలేక పోయింది"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:536
-#, fuzzy
-#| msgid "Get Hot New Stuff!"
 msgid "Get Hot New Stuff!"
 msgstr "కొత్తవాటిని తెచ్చుకో!"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:554
-#, fuzzy
-#| msgid "There was an error loading the module."
 msgid "There was an error loading data providers."
-msgstr "మాడ్యూల్ ఎక్కించుటలొ దొషం వచ్చింది"
+msgstr "‍డాటా సిద్దంచేయువారిని లేడుచేయుటలో వొక దోషమువుంది."
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:585
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:379
 msgid "A protocol fault has occurred. The request has failed."
-msgstr ""
+msgstr "ప్రొటొకాల్ లోపము వచ్చింది. అభ్యర్ధన విఫలమైంది."
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:586
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:593
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:380
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:387
 msgid "Desktop Exchange Service"
-msgstr ""
+msgstr "రంగస్థలం బదిలీకరణ సేవ"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:592
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:386
 msgid "A network error has occurred. The request has failed."
-msgstr ""
+msgstr "నెట్వర్‍క్  దోషము వచ్చింది. అభ్యర్ధన విఫలమైంది."
 
 #: knewstuff/knewstuff2/ui/kdxsrating.cpp:33
 msgid "Rate this entry"
-msgstr ""
+msgstr "ఈ ప్రవేశమును రేట్ చేయుము"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:65
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:144
@@ -5199,17 +5220,16 @@ msgstr "మార్పుల చీటి"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:73
 msgid "Switch version"
-msgstr ""
+msgstr "వర్షన్ మార్చు"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:86
 msgid "Contact author"
-msgstr ""
+msgstr "మూలకర్తను కలవండి"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:89
 #, fuzzy
-#| msgid "Configuration"
 msgid "Collaboration"
-msgstr "అమరిక"
+msgstr "సమిష్టిగా"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:93
 msgid "Translate"
@@ -5220,8 +5240,9 @@ msgid "Subscribe"
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:95
+#, fuzzy
 msgid "Report bad entry"
-msgstr ""
+msgstr "దఖలు తోలగించండి"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:138
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:178
@@ -5233,14 +5254,14 @@ msgid "Send Mail"
 msgstr "మెయిల్ పంపించు"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:162
+#, fuzzy
 msgid "Contact on Jabber"
-msgstr ""
+msgstr "మూలకర్తను కలవండి"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:253
-#, fuzzy, kde-format
-#| msgid "Hide %1"
+#, kde-format
 msgid "Provider: %1"
-msgstr "%1 చూపించకు"
+msgstr "సింద్దంచేయునది: %1"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:254
 #, kde-format
@@ -5274,23 +5295,24 @@ msgid "The subscription request failed."
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:354
+#, fuzzy
 msgid "The rating was submitted successfully."
-msgstr ""
+msgstr "రేటింగ్ అందించ లేకపోయాను."
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:355
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:359
+#, fuzzy
 msgid "Rating for entry"
-msgstr ""
+msgstr "ఈ ప్రవేశమును రేట్ చేయుము"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:358
-#, fuzzy
-#| msgid "The requested operation could not be completed"
 msgid "The rating could not be submitted."
-msgstr "మనవి చేసిన కార్యం పూర్తి చేయలేక పోయాను"
+msgstr "రేటింగ్ అందించ లేకపోయాను."
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:367
+#, fuzzy
 msgid "The comment was submitted successfully."
-msgstr ""
+msgstr "వ్యాఖ్యానము అందించ లేకపోయాను."
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:368
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:372
@@ -5298,64 +5320,49 @@ msgid "Comment on entry"
 msgstr "దఖలు మీద వ్యాఖ్య"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:371
-#, fuzzy
-#| msgid "The module %1 could not be found."
 msgid "The comment could not be submitted."
-msgstr "%1 మాడ్యూల్ కనపడలేదు."
+msgstr "వ్యాఖ్యానము అందించ లేకపోయాను."
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:420
-#, fuzzy
-#| msgid "New Distribution List"
 msgid "KNewStuff contributions"
-msgstr "కొత్త పంపిణీ జాబితా"
+msgstr "KNewStuff సహాయాలు"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:516
 msgid "This operation requires authentication."
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/knewstuffaction.cpp:35
-#, fuzzy
-#| msgid "Download New %1"
 msgctxt ""
 "Hot new stuff offers to Download New Data. Apps can fill in an individual "
 "string here, but Data is the default. This is in an action that gets "
 "displayed in the menu or toolbar for example."
 msgid "Download New Data..."
-msgstr "కొత్తవి డౌన్ లోడ్ చేయుము %1"
+msgstr "కొత్త దత్తాంశము డౌనులోడు చేయుము..."
 
 #: knewstuff/knewstuff2/ui/kdxscomments.cpp:32
-#, fuzzy
-#| msgid "Comment"
 msgid "User comments"
-msgstr "వ్యాఖ్య"
+msgstr "వినియోగదారి వ్యాఖ్యానములు"
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:146
-#, fuzzy
-#| msgid "Most Downloads"
 msgid "No Downloads"
-msgstr "చాలా డౌన్ లోడ్లు"
+msgstr "డౌనులోడ్లు లేవు"
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:146
-#, fuzzy, kde-format
-#| msgid "Downloads: "
+#, kde-format
 msgid "Downloads: %1"
-msgstr "డౌన్ లొడులు: "
+msgstr "డౌన్ లొడులు: %1"
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:236
-#, fuzzy
-#| msgid "Show Preview"
 msgid "No Preview"
-msgstr "ముందు వీక్షణం చూపు"
+msgstr "ముందస్తు వీక్షణం లేదు"
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:246
-#, fuzzy
-#| msgid "Print Preview"
 msgid "Loading Preview"
-msgstr "ప్రచురణ ముందస్తు వీక్షణం"
+msgstr "ముందస్తు వీక్షణం లోడుచేస్తోంది"
 
 #: knewstuff/knewstuff2/ui/kdxscomment.cpp:29
 msgid "Leave a comment"
-msgstr ""
+msgstr "వ్యాఖ్యానమును వదులుము"
 
 #: knewstuff/knewstuff2/ui/knewstuffbutton.cpp:49
 msgid "Download New Stuff"
@@ -5367,10 +5374,9 @@ msgid "Download New %1"
 msgstr "కొత్తవి డౌన్ లోడ్ చేయుము %1"
 
 #: knewstuff/knewstuff2/ui/kdxschanges.cpp:53
-#, fuzzy, kde-format
-#| msgid "Version"
+#, kde-format
 msgid "Version %1"
-msgstr "వివరణం"
+msgstr "వివరణం %1"
 
 #: knewstuff/knewstuff2/ui/providerdialog.cpp:54
 msgid "Hot New Stuff Providers"
@@ -5386,11 +5392,9 @@ msgstr "ఏ ఒక సిద్దంచెసేవారినీ ఎన్న
 
 #: knewstuff/knewstuff2/core/providerhandler.cpp:154
 #: knewstuff/knewstuff2/core/providerhandler.cpp:174
-#, fuzzy
-#| msgid "Latest"
 msgctxt "describes the feed of the latest posted entries"
 msgid "Latest"
-msgstr "తాజా"
+msgstr "సరికొత్త"
 
 #: knewstuff/knewstuff2/core/providerhandler.cpp:160
 msgid "Highest Rated"
@@ -5410,15 +5414,13 @@ msgstr ""
 "వునట్టు చూసుకోండి, లెకపొయిన డౌన్ లోడ్ చెయబడిన వనరుల సరిచూడలేము.</qt>"
 
 #: knewstuff/knewstuff2/core/security.cpp:196
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br><i>%2&lt;%3&gt;"
-#| "</i>:</qt>"
+#, kde-format
 msgid ""
 "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;%3&gt;</"
 "i><br />:</qt>"
 msgstr ""
-"<qt><i>%2 &lt;%3&gt;</i> చెందిన <i>0x%1</i> కీ సంబంధించిన రహస్యపదం వ్రాయండి:</qt>"
+"<qt><br /><i>%2&lt;%3&gt;</i><br />కు చెందిన, <b>0x%1</b>కీ కొరకు సంకేతపదమును "
+"ప్రవేశపెట్టుము:</qt>"
 
 #: knewstuff/knewstuff2/core/security.cpp:275
 msgid ""
@@ -5447,23 +5449,21 @@ msgstr ""
 
 #: dnssd/servicemodel.cpp:102
 msgid "Host"
-msgstr ""
+msgstr "హోస్‍ట్"
 
 #: dnssd/servicemodel.cpp:103
-#, fuzzy
-#| msgid "Print"
 msgid "Port"
-msgstr "ప్రచురణ"
-
-#: kdeui/jobs/kstatusbarjobtracker.cpp:237
-msgid " Stalled "
-msgstr ""
+msgstr "పోర్‍ట్"
 
 #: kdeui/jobs/kstatusbarjobtracker.cpp:239
-#, fuzzy, kde-format
-#| msgid "(%1/s)"
+#, fuzzy
+msgid " Stalled "
+msgstr "నిలిపిన"
+
+#: kdeui/jobs/kstatusbarjobtracker.cpp:241
+#, kde-format
 msgid " %1/s "
-msgstr "(%1/s)"
+msgstr " %1/s "
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:332
 #, kde-format
@@ -5487,19 +5487,16 @@ msgstr[0] "%2 / %1 దస్త్రం"
 msgstr[1] "%2 / %1 దస్త్రాలు"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:374
-#, fuzzy, kde-format
-#| msgid "%1 % of %2 "
+#, kde-format
 msgid "%1% of %2"
-msgstr " %2 లొ %1 % "
+msgstr "%2 లో %1%"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:377
-#, fuzzy, kde-format
-#| msgid "%2 % of 1 file"
-#| msgid_plural "%2 % of %1 files"
+#, kde-format
 msgid "%2% of 1 file"
 msgid_plural "%2% of %1 files"
-msgstr[0] "1 దస్త్రం లొ %2 %"
-msgstr[1] "%1 దస్త్రాల లొ %2 %"
+msgstr[0] "1 దస్త్రంలొ %2%"
+msgstr[1] "%1 దస్త్రాలలొ %2%"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:379 khtml/khtml_ext.cpp:1089
 #, no-c-format, kde-format
@@ -5507,19 +5504,15 @@ msgid "%1%"
 msgstr "%1%"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:392
-#, fuzzy
-#| msgid "State"
 msgid "Stalled"
-msgstr "స్థితి"
+msgstr "నిలిపిన"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:397
-#, fuzzy, kde-format
-#| msgid "%2/s ( %3 remaining )"
-#| msgid_plural "%2/s ( %3 remaining )"
+#, kde-format
 msgid "%2/s (%3 remaining)"
 msgid_plural "%2/s (%3 remaining)"
-msgstr[0] "%2/సె ( %3 మిగినది )"
-msgstr[1] "%2/సె లు ( %3 మిగినది )"
+msgstr[0] "%2/s ( %3 మిగిలినది )"
+msgstr[1] "%2/s ( %3 మిగిలినవి )"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:400
 #, kde-format
@@ -5533,21 +5526,15 @@ msgid "%1/s (done)"
 msgstr "%1/సె (అయిపొయినది)"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:426
-#, fuzzy
-#| msgid "Remove"
 msgid "Resume"
-msgstr "తొలగించు"
+msgstr "తిరిగికొనసాగించు"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:461
-#, fuzzy
-#| msgid "Source:"
 msgctxt "The source url of a job"
 msgid "Source:"
 msgstr "మూలం:"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:469
-#, fuzzy
-#| msgid "Destination:"
 msgctxt "The destination url of a job"
 msgid "Destination:"
 msgstr "గమ్యం:"
@@ -5603,19 +5590,17 @@ msgid "&Restore"
 msgstr "(&R) పునరుద్ధరణ"
 
 #: kdeui/util/ksystemtrayicon.cpp:238
-#, kde-format
+#, fuzzy, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
-msgstr ""
+msgstr "<qt><b>%1</b> కోసం ఇంటర్నెట్ లో అన్వేషించనా?</qt>"
 
 #: kdeui/util/ksystemtrayicon.cpp:241
 msgid "Confirm Quit From System Tray"
 msgstr ""
 
 #: kdeui/util/knotificationrestrictions.cpp:179
-#, fuzzy
-#| msgid "Quit application"
 msgid "Unknown Application"
-msgstr "కార్యక్రమం మూసివేయి"
+msgstr "తెలియని అనువర్తనము"
 
 #: kdeui/util/kstandardguiitem.cpp:105
 msgid "&OK"
@@ -5667,10 +5652,8 @@ msgid "&Do Not Save"
 msgstr "(&D) దాచవద్దు"
 
 #: kdeui/util/kstandardguiitem.cpp:139
-#, fuzzy
-#| msgid "Don't save data"
 msgid "Do not save data"
-msgstr "దత్తంసాలను దాచవద్దు"
+msgstr "దత్తాంశమును భద్రపరచవద్దు"
 
 #: kdeui/util/kstandardguiitem.cpp:144 kdeui/actions/kstandardaction_p.h:47
 msgid "Save &As..."
@@ -5710,7 +5693,7 @@ msgid ""
 "privileges."
 msgstr ""
 "<b>వ్యవస్థ పాలకుని స్థితి</b>ని క్లిక్ చేసిన, రూట్ అధికారాలు కలిగిన  మార్పులను  అనుమతించటాని మిమ్మలని "
-"వ్యవస్థ పాలకుని (రూట్) పాస్ వర్డు అడుగబడును "
+"వ్యవస్థ పాలకుని (రూట్) సంకేతపదము అడుగబడును "
 
 #: kdeui/util/kstandardguiitem.cpp:168
 msgid "Clear input"
@@ -5804,8 +5787,9 @@ msgid "&Reset"
 msgstr "(&R) పున: ప్రారంభము"
 
 #: kdeui/util/kstandardguiitem.cpp:245
+#, fuzzy
 msgid "Reset configuration"
-msgstr ""
+msgstr "సాన్నెట్ ఆకృతీకరణ"
 
 #: kdeui/util/kstandardguiitem.cpp:250
 msgctxt "Verb"
@@ -5945,17 +5929,15 @@ msgstr ""
 #: kdeui/dialogs/knewpassworddialog.cpp:104
 #: kde3support/kdeui/k3passworddialog.cpp:619
 msgid "Password is empty"
-msgstr "ఖాళి పాస్ వర్డ్"
+msgstr "ఖాళి సంకేతపదము"
 
 #: kdeui/dialogs/knewpassworddialog.cpp:109
 #: kde3support/kdeui/k3passworddialog.cpp:622
-#, fuzzy, kde-format
-#| msgid "Password must be at least 1 character long"
-#| msgid_plural "Password must be at least %1 characters long"
+#, kde-format
 msgid "Password must be at least 1 character long"
 msgid_plural "Password must be at least %1 characters long"
-msgstr[0] "పాస్ వర్డ్ కనీసం 1 అక్షరంమైనా వుండాలి"
-msgstr[1] "పాస్ వర్డ్ కనీసం %1 అక్షరములు వుండాలి"
+msgstr[0] "సంకేతపదము కనీసం 1 అక్షరంమైనా వుండాలి"
+msgstr[1] "సంకేతపదము కనీసం %1 అక్షరములు వుండాలి"
 
 #: kdeui/dialogs/knewpassworddialog.cpp:113
 #: kde3support/kdeui/k3passworddialog.cpp:624
@@ -5965,7 +5947,7 @@ msgstr "పాస్ వర్డులు సరిపొయాయి"
 #: kdeui/dialogs/knewpassworddialog.cpp:207
 #: kde3support/kdeui/k3passworddialog.cpp:501
 msgid "You entered two different passwords. Please try again."
-msgstr "మీరు రెండు వేరు పాస్ వర్డులు ఎక్కించారు. మరల ప్రయత్నించండి."
+msgstr "మీరు రెండు వేరు సంకేతపదములు ఎక్కించారు. మరల ప్రయత్నించండి."
 
 #: kdeui/dialogs/knewpassworddialog.cpp:216
 #: kde3support/kdeui/k3passworddialog.cpp:508
@@ -5982,21 +5964,16 @@ msgstr ""
 #: kdeui/dialogs/knewpassworddialog.cpp:224
 #: kde3support/kdeui/k3passworddialog.cpp:516
 msgid "Low Password Strength"
-msgstr "తక్కువ పాస్ వర్డ్ శక్తి"
+msgstr "తక్కువ సంకేతపదము శక్తి"
 
 #: kdeui/dialogs/kassistantdialog.cpp:94
-#, fuzzy
-#| msgctxt "QAccel"
-#| msgid "Next"
 msgctxt "Opposite to Back"
 msgid "Next"
 msgstr "తరువాత"
 
 #: kdeui/dialogs/kassistantdialog.cpp:95
-#, fuzzy
-#| msgid "&Finish"
 msgid "Finish"
-msgstr "(&F) ముగింపు"
+msgstr "ముగింపు"
 
 #: kdeui/dialogs/kpixmapregionselectordialog.cpp:47
 msgid "Select Region of Image"
@@ -6017,64 +5994,50 @@ msgid "Configure Shortcuts"
 msgstr "శీఘ్రమార్గాలను అమర్చండి"
 
 #: kdeui/dialogs/kshortcutsdialog.cpp:113
-#, fuzzy
-#| msgid "&Defaults"
 msgid "Reset to Defaults"
-msgstr "(&D) అప్రమేయాలు"
+msgstr "అప్రమేయాలకు తిరిగివుంచు"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:41
-#, fuzzy
-#| msgid "Shortcuts"
 msgid "Shortcut Schemes"
-msgstr "శీఘ్ర మార్గాలు"
+msgstr "శీఘ్ర మార్గాల స్కీములు"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:60
-#, fuzzy
-#| msgid "Curr&ent actions:"
 msgid "Current scheme:"
-msgstr "(&e) ఇప్పటి చర్యలు:"
+msgstr "ప్రస్తుత స్కీము:"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:70
-#, fuzzy
-#| msgid "..."
 msgid "New..."
-msgstr "..."
+msgstr "కొత్త..."
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:73
 msgid "Delete"
 msgstr "తొలగించు"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:76
-#, fuzzy
-#| msgid "Action"
 msgid "More Actions"
-msgstr "చర్య"
+msgstr "మరిన్ని చర్యలు"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:80
-#, fuzzy
-#| msgid "&Defaults"
 msgid "Save as Scheme Defaults"
-msgstr "(&D) అప్రమేయాలు"
+msgstr "స్కీమా అప్రమేయాలలా భద్రపరచుము"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:82
+#, fuzzy
 msgid "Export Scheme..."
-msgstr ""
+msgstr "శీఘ్ర మార్గాల స్కీములు"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:99
+#, fuzzy
 msgid "Name for New Scheme"
-msgstr ""
+msgstr "కొత్త స్కీమా కొరకు నామము:"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:100
-#, fuzzy
-#| msgid "Curr&ent actions:"
 msgid "Name for new scheme:"
-msgstr "(&e) ఇప్పటి చర్యలు:"
+msgstr "కొత్త స్కీమా కొరకు నామము:"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:100
-#, fuzzy
-#| msgid "Curr&ent actions:"
 msgid "New Scheme"
-msgstr "(&e) ఇప్పటి చర్యలు:"
+msgstr "కొత్త స్కీమా"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:106
 msgid "A scheme with this name already exists."
@@ -6088,10 +6051,8 @@ msgid ""
 msgstr ""
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:163
-#, fuzzy
-#| msgid "Click to Edit Location"
 msgid "Export to Location"
-msgstr "స్థలం ఎంచుకొనేందుకు క్లిక్ చెయండి"
+msgstr "స్థానమునకు ఎగుమతిచేయుము"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:172
 msgid "Could not export shortcuts scheme because the location is invalid."
@@ -6130,131 +6091,108 @@ msgid "Top to Bottom, Right to Left"
 msgstr ""
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:191
-#, fuzzy
-#| msgid "None"
 msgctxt "No border line"
 msgid "None"
 msgstr "ఏదీ వద్దు"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:192
-#, fuzzy
-#| msgid "Save Link As"
 msgid "Single Line"
-msgstr "లింకును ఇలా దాచు"
+msgstr "ఒంటరి గీత"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:193
+#, fuzzy
 msgid "Single Thick Line"
-msgstr ""
+msgstr "ఒంటరి గీత"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:194
+#, fuzzy
 msgid "Double Line"
-msgstr ""
+msgstr "రెండితల మందమైన గీత"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:195
-#, fuzzy
-#| msgctxt "@item license"
-#| msgid "Q Public License"
 msgid "Double Thick Line"
-msgstr "క్యు పబ్లిక్ లైసెన్స్"
+msgstr "రెండితల మందమైన గీత"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:212
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:235
-#, fuzzy
-#| msgid "None"
 msgctxt "Banner page"
 msgid "None"
 msgstr "ఏదీ వద్దు"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:213
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:236
-#, fuzzy
-#| msgid "Start"
 msgctxt "Banner page"
 msgid "Standard"
-msgstr "ప్రారంభం"
+msgstr "ప్రామాణిక"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:214
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:237
-#, fuzzy
-#| msgid "Class"
 msgctxt "Banner page"
 msgid "Unclassified"
-msgstr "క్లాసు"
+msgstr "వర్గీకరించని"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:215
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:238
-#, fuzzy
-#| msgid "Critical"
 msgctxt "Banner page"
 msgid "Confidential"
-msgstr "సంక్లిష్ట"
+msgstr "గుట్టుగా"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:216
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:239
-#, fuzzy
-#| msgid "Class"
 msgctxt "Banner page"
 msgid "Classified"
-msgstr "క్లాసు"
+msgstr "వర్గీకరించిన"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:217
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:240
-#, fuzzy
-#| msgid "Security Alert"
 msgctxt "Banner page"
 msgid "Secret"
-msgstr "భద్రతా హెచ్చరిక"
+msgstr "రహస్యము"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:218
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:241
-#, fuzzy
-#| msgid "Security Alert"
 msgctxt "Banner page"
 msgid "Top Secret"
-msgstr "భద్రతా హెచ్చరిక"
+msgstr "అత్యంత రహస్యము"
 
 #. i18n: Filter for the Yes-button text in standard message dialogs,
 #. after the message caption/text have been translated.
 #: kdeui/dialogs/kmessagebox.cpp:52
-#, fuzzy, kde-format
-#| msgid "%1%"
+#, kde-format
 msgctxt "@action:button filter-yes"
 msgid "%1"
-msgstr "%1%"
+msgstr "%1"
 
 #. i18n: Filter for the No-button text in standard message dialogs,
 #. after the message caption/text have been translated.
 #: kdeui/dialogs/kmessagebox.cpp:58
-#, fuzzy, kde-format
-#| msgid "%1%"
+#, kde-format
 msgctxt "@action:button filter-no"
 msgid "%1"
-msgstr "%1%"
+msgstr "%1"
 
 #. i18n: Filter for the Continue-button text in standard message dialogs,
 #. after the message caption/text have been translated.
 #: kdeui/dialogs/kmessagebox.cpp:64
-#, fuzzy, kde-format
-#| msgid "%1%"
+#, kde-format
 msgctxt "@action:button filter-continue"
 msgid "%1"
-msgstr "%1%"
+msgstr "%1"
 
 #. i18n: Filter for the Cancel-button text in standard message dialogs,
 #. after the message caption/text have been translated.
 #: kdeui/dialogs/kmessagebox.cpp:70
-#, fuzzy, kde-format
-#| msgid "%1%"
+#, kde-format
 msgctxt "@action:button filter-cancel"
 msgid "%1"
-msgstr "%1%"
+msgstr "%1"
 
 #. i18n: Called after the button texts in standard message dialogs
 #. have been filtered by the messages above. Not visible to user.
 #: kdeui/dialogs/kmessagebox.cpp:75
 msgctxt "@action:button post-filter"
 msgid "."
-msgstr ""
+msgstr "."
 
 #: kdeui/dialogs/kmessagebox.cpp:263
 msgid "Details"
@@ -6299,11 +6237,10 @@ msgid "Configure"
 msgstr "అమర్చు"
 
 #: kdeui/dialogs/kshortcutseditoritem.cpp:44
-#, fuzzy, kde-format
-#| msgid "%1%"
+#, kde-format
 msgctxt "@item:intable Action name in shortcuts configuration"
 msgid "%1"
-msgstr "%1%"
+msgstr "%1"
 
 #: kdeui/dialogs/kdialog.cpp:232
 msgid "&Try"
@@ -6326,10 +6263,8 @@ msgid "--- separator ---"
 msgstr "--- విభాజిక ---"
 
 #: kdeui/dialogs/kedittoolbar.cpp:478
-#, fuzzy
-#| msgid "Configure Toolbars"
 msgid "Configure Toolbars"
-msgstr "పనిముట్ల పట్టీలను అమర్చండి"
+msgstr "పనిముట్ల పట్టీలను ఆకృతీకరించుము"
 
 #: kdeui/dialogs/kedittoolbar.cpp:527
 msgid ""
@@ -6338,21 +6273,18 @@ msgid ""
 msgstr ""
 
 #: kdeui/dialogs/kedittoolbar.cpp:527
-#, fuzzy
-#| msgid "Toolbars"
 msgid "Reset Toolbars"
-msgstr "పనిముట్ల పట్టీలు"
+msgstr "ఇటీవలి పనిముట్లపట్టీలు"
 
-#: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2956
-#: khtml/khtmlview.cpp:2989 khtml/html/html_formimpl.cpp:1782
+#: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2958
+#: khtml/khtmlview.cpp:2991 khtml/html/html_formimpl.cpp:1782
+#, fuzzy
 msgid "Reset"
-msgstr ""
+msgstr "(&R) పున: ప్రారంభము"
 
 #: kdeui/dialogs/kedittoolbar.cpp:824
-#, fuzzy
-#| msgid "&Toolbar:"
 msgid "&Toolbar:"
-msgstr "&పనిముట్ల పట్టీ:"
+msgstr "(&T) పనిముట్లపట్టీ:"
 
 #: kdeui/dialogs/kedittoolbar.cpp:839
 msgid "A&vailable actions:"
@@ -6367,11 +6299,10 @@ msgid "Change &Icon..."
 msgstr "(&I) ప్రతిమను మార్చు..."
 
 #: kdeui/dialogs/kedittoolbar.cpp:1026
-#, fuzzy, kde-format
-#| msgid "%1%"
+#, kde-format
 msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
-msgstr "%1%"
+msgstr "%1"
 
 #: kdeui/dialogs/kedittoolbar.cpp:1047
 msgid ""
@@ -6399,32 +6330,29 @@ msgid "ActionList: %1"
 msgstr "చర్యలజాబితా: %1"
 
 #: kdeui/dialogs/kedittoolbar.cpp:1158 kdeui/dialogs/kedittoolbar.cpp:1185
-#, fuzzy, kde-format
-#| msgid "%1%"
+#, kde-format
 msgctxt "@label Action tooltip in toolbar editor, below the action list"
 msgid "%1"
-msgstr "%1%"
+msgstr "%1"
 
 #: kdeui/dialogs/kedittoolbar.cpp:1423
-#, fuzzy
-#| msgid "Change &Icon..."
 msgid "Change Icon"
-msgstr "(&I) ప్రతిమను మార్చు..."
+msgstr "ప్రతిమను మార్చు..."
 
-#: kdeui/dialogs/kshortcutseditor.cpp:508
-#: kdeui/dialogs/kshortcutseditor.cpp:524
+#: kdeui/dialogs/kshortcutseditor.cpp:495
+#: kdeui/dialogs/kshortcutseditor.cpp:511
 msgid "Key Conflict"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutseditor.cpp:509
+#: kdeui/dialogs/kshortcutseditor.cpp:496
 #, kde-format
 msgid ""
 "The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutseditor.cpp:513
-#: kdeui/dialogs/kshortcutseditor.cpp:529 kdeui/shortcuts/kglobalaccel.cpp:423
+#: kdeui/dialogs/kshortcutseditor.cpp:500
+#: kdeui/dialogs/kshortcutseditor.cpp:516 kdeui/shortcuts/kglobalaccel.cpp:423
 #: kdeui/shortcuts/kglobalaccel.cpp:462
 #: kdeui/widgets/kkeysequencewidget.cpp:179
 #: kdeui/widgets/kkeysequencewidget.cpp:261
@@ -6432,45 +6360,38 @@ msgstr ""
 msgid "Reassign"
 msgstr "మళ్లి నియమించు"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:525
+#: kdeui/dialogs/kshortcutseditor.cpp:512
 #, kde-format
 msgid ""
 "The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutseditor.cpp:566
-#, fuzzy, kde-format
-#| msgid "Shortcuts"
+#: kdeui/dialogs/kshortcutseditor.cpp:553
+#, kde-format
 msgctxt "header for an applications shortcut list"
 msgid "Shortcuts for %1"
-msgstr "శీఘ్ర మార్గాలు"
+msgstr "%1 కొరకు శీఘ్రమార్గాలు"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:586
-msgid "Global:"
-msgstr ""
-
-#: kdeui/dialogs/kshortcutseditor.cpp:601
+#: kdeui/dialogs/kshortcutseditor.cpp:573
 #, fuzzy
-#| msgid "Action"
-msgid "Action Name"
-msgstr "చర్య"
+msgid "Global:"
+msgstr "సార్వత్రిక"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:605
+#: kdeui/dialogs/kshortcutseditor.cpp:588
+msgid "Action Name"
+msgstr "చర్యా నామము"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:592
 msgid "Shortcuts"
 msgstr "శీఘ్ర మార్గాలు"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:65
-#, fuzzy
-#| msgid ""
-#| "No information available.\n"
-#| "The supplied KAboutData object does not exist."
 msgid ""
 "<qt>No information available.<br />The supplied KAboutData object does not "
 "exist.</qt>"
 msgstr ""
-"సమాచారం అందుబాటులొ లేదు.\n"
-"అందించిన కెగురించి దత్తంశపు ఆబ్జెక్ట్ లేదు."
+"<qt>ఎటువంచి సమాచారము అందుబాటులోలేదు.<br />అందివ్వబడి KAboutData ఆబ్జక్టు సంభవమై లేదు.</qt>"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:92
 #, kde-format
@@ -6478,12 +6399,13 @@ msgid ""
 "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE %3</"
 "html>"
 msgstr ""
+"<html><font size=\"5\">%1</font><br /><b>వివరణము %2</b><br />KDE %3 "
+"వుపయోగిస్తోంది</html>"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:126
-#, fuzzy, kde-format
-#| msgid "License:"
+#, kde-format
 msgid "License: %1"
-msgstr "లైసెన్స్:"
+msgstr "లెసెన్సు: %1"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:139
 #: kde3support/kdeui/k3aboutapplication.cpp:51
@@ -6529,16 +6451,12 @@ msgid "T&ranslation"
 msgstr "(&r) అనువాదము"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:258
-#, fuzzy
-#| msgid "&License Agreement"
 msgid "License Agreement"
-msgstr "(&L) లైసెన్స్ ఒప్పందం"
+msgstr "లైసెన్సు ఒప్పందం"
 
 #: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:82
-#, fuzzy
-#| msgid "Print images"
 msgid "Print Immediately"
-msgstr "చిత్రాలను ప్రచురించు"
+msgstr "తక్షణమే ముద్రించు"
 
 #: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:83
 msgid "Hold Indefinitely"
@@ -6569,22 +6487,16 @@ msgid "Specific Time"
 msgstr ""
 
 #: kdeui/dialogs/klinkdialog.cpp:48
-#, fuzzy
-#| msgid "Save Link As"
 msgid "Manage Link"
-msgstr "లింకును ఇలా దాచు"
+msgstr "లింకును నిర్వహించు"
 
 #: kdeui/dialogs/klinkdialog.cpp:58
-#, fuzzy
-#| msgid "Find Text"
 msgid "Link Text:"
-msgstr "వచనం కనుగొనుట"
+msgstr "లింకు వచనము:"
 
 #: kdeui/dialogs/klinkdialog.cpp:61
-#, fuzzy
-#| msgid "URL:"
 msgid "Link URL:"
-msgstr "యుఆర్ఎల్:"
+msgstr "లింకు యుఆర్ఎల్:"
 
 #: kdeui/dialogs/kbugreport.cpp:92 kdeui/dialogs/kbugreport.cpp:117
 msgid "Submit Bug Report"
@@ -6642,7 +6554,7 @@ msgstr ""
 
 #: kdeui/dialogs/kbugreport.cpp:202
 msgid "no version set (programmer error!)"
-msgstr "వివరణం లేదు (వికాసకుని దోషం!)"
+msgstr "ఏ వర్షన్ అమర్చలేదు (పోగ్రామర్ దోషం!)"
 
 #: kdeui/dialogs/kbugreport.cpp:213
 msgid "OS:"
@@ -6689,25 +6601,18 @@ msgid ""
 "program.\n"
 msgstr ""
 "మీరు అందించే తప్పుల నివేదిక కొరకు వచనం వ్రాయండి(సాద్యమైనంత వరకు ఆంగ్లములో).\n"
-"మీరు \"పంపించు\" బటన్ నొక్కిన, ఒక తపాలా సందేశం ఈ కార్యక్రమ సంరక్షకునికి పంపబడును.\n"
+"మీరు \"పంపించు\" బటన్ నొక్కిన, ఒక తపాలా సందేశం ఈ ప్రోగ్రామ్ సంరక్షకునికి పంపబడును.\n"
 
 #: kdeui/dialogs/kbugreport.cpp:283
-#, fuzzy
-#| msgid ""
-#| "To submit a bug report, click on the button below.\n"
-#| "This will open a web browser window on http://bugs.kde.org where you will "
-#| "find a form to fill in.\n"
-#| "The information displayed above will be transferred to that server."
 msgid ""
 "<qt>To submit a bug report, click on the button below. This will open a web "
 "browser window on <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> "
 "where you will find a form to fill in. The information displayed above will "
 "be transferred to that server.</qt>"
 msgstr ""
-"తప్పుల నివేదిక అందించుటకు, క్రింది బటన్ ను నొక్కండి.\n"
-"ఇది ఒక వెబ్ బ్రౌజర్ విండొను http://bugs.kde.org కు తెరువబడును అక్కడ మీరు ఒక ఫారంను "
-"నింపవసివుంటుది.\n"
-"పైన చూపించబడిన సమాచారం ఆ సెర్వర్ కు పంపబడును."
+"<qt>తప్పుల నివేదిక అందించుటకు, క్రింది బటన్ ను నొక్కండి.ఇది ఒక వెబ్ బ్రౌజర్ విండొను <a href="
+"\"http://bugs.kde.org\">http://bugs.kde.org</a>కు తెరువబడును అక్కడ మీరు ఒక "
+"ఫారంను నింపవసివుంటుది.పైన చూపించబడిన సమాచారం ఆ సెర్వర్ కు పంపబడును.</qt>"
 
 #: kdeui/dialogs/kbugreport.cpp:295
 msgid "&Launch Bug Report Wizard"
@@ -6768,49 +6673,34 @@ msgid "Close Message"
 msgstr "సందేశము మూసివేయుము"
 
 #: kdeui/dialogs/kshortcuteditwidget.cpp:55
-#, fuzzy
-#| msgid "Default"
 msgid "Default:"
-msgstr "అప్రమేయం"
+msgstr "అప్రమేయం:"
 
 #: kdeui/dialogs/kshortcuteditwidget.cpp:56
 #: kdeui/dialogs/kshortcuteditwidget.cpp:59
 #: kdeui/widgets/kkeysequencewidget.cpp:673
-#, fuzzy
-#| msgid "None"
 msgctxt "No shortcut defined"
 msgid "None"
 msgstr "ఏదీ వద్దు"
 
 #: kdeui/dialogs/kshortcuteditwidget.cpp:62
-#, fuzzy
-#| msgid "Custom"
 msgid "Custom:"
-msgstr "నిర్దేశితమైన"
+msgstr "నిర్దేశితమైన:"
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:42
-#, fuzzy
-#| msgid "About &KDE"
 msgid "About KDE"
-msgstr "(&K) కెడిఈ గురించి"
+msgstr "కెడిఈ గురించి"
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:46
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "<html><font size=\"5\">K Desktop Environment</font><br /><b>Version %1</b></"
 "html>"
 msgstr ""
+"<html><font size=\"5\">%1</font><br /><b>వివరణము %2</b><br />KDE %3 "
+"వుపయోగిస్తోంది</html>"
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:56
-#, fuzzy
-#| msgid ""
-#| "The <b>K Desktop Environment</b> is written and maintained by the KDE "
-#| "Team, a world-wide network of software engineers committed to <a href="
-#| "\"http://www.gnu.org/philosophy/free-sw.html\">Free Software</a> "
-#| "development.<br><br>No single group, company or organization controls the "
-#| "KDE source code. Everyone is welcome to contribute to KDE.<br><br>Visit "
-#| "<A HREF=\"http://www.kde.org/\">http://www.kde.org</A> for more "
-#| "information on the KDE project. "
 msgid ""
 "<html>The <b>K Desktop Environment</b> is written and maintained by the KDE "
 "Team, a world-wide network of software engineers committed to <a href="
@@ -6820,12 +6710,12 @@ msgid ""
 "\"http://www.kde.org/\">http://www.kde.org</a> for more information on the "
 "KDE project.</html>"
 msgstr ""
-"<b>కెడిఈ రంగస్థల పర్యావరణం</b> కెడిఈ జట్టుచే వ్రాయబడింది మరయు సంరక్షించబదుతుంది, ప్రపంచ "
+"<html><b>కెడిఈ రంగస్థల పర్యావరణం</b> కెడిఈ జట్టుచే వ్రాయబడింది మరయు సంరక్షించబదుతుంది, ప్రపంచ "
 "వ్యాప్తంగా సాఫ్ట్ వేర్ ఇంజినీర్లు <a href=\"http://www.gnu.org/philosophy/free-sw.html"
-"\">ఉచిత సాఫ్ట్ వేర్</a> వికాసానికి నిబద్దులైవున్నరు.<br><br>ఏ ఒక్క గుంపు, కంపెని లేక సంస్థ కెడిఈ "
-"మూల కొడ్ ను నియంత్రించటంలేదు.అందరూ కెడిఈ కు సహాయము పడవచ్చు.<br><br>కెడిఈ ప్రాజెక్ట్ గురించి "
-"మరింత సమాచారం కొరకు <A HREF=\"http://www.kde.org/\">http://www.kde.org</A> ను "
-"సంప్రదించండి."
+"\">ఉచిత సాఫ్ట్ వేర్</a> వికాసానికి నిబద్దులైవున్నరు.<br /><br />ఏ ఒక్క గుంపు, కంపెని లేక సంస్థ "
+"కెడిఈ మూల కొడ్ ను నియంత్రించటంలేదు.అందరూ కెడిఈ కు సహాయము పడవచ్చు.<br /><br />కెడిఈ ప్రాజెక్ట్ "
+"గురించి మరింత సమాచారం కొరకు <a href=\"http://www.kde.org/\">http://www.kde.org</a> "
+"ను సంప్రదించండి.</html>"
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:71
 msgid ""
@@ -6884,25 +6774,21 @@ msgid "&Support KDE"
 msgstr "(&S) కెడిఈ కి సహాయంచెయండి"
 
 #: kdeui/dialogs/kdeprintdialog.cpp:49
-#, fuzzy
-#| msgid "Print"
 msgctxt "@title:window"
 msgid "Print"
-msgstr "ప్రచురణ"
+msgstr "ముద్రణ, ప్రచురణ"
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:98
 msgid "Switch Application Language"
-msgstr "కార్యక్రమ భాషను మార్చు"
+msgstr "అనువర్తనము భాషను మార్చు"
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:108
 msgid "Please choose the language which should be used for this application:"
 msgstr ""
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:136
-#, fuzzy
-#| msgid "Default language:"
 msgid "Add Fallback Language"
-msgstr "అప్రమేయ భాష:"
+msgstr "ఫాల్‌బ్యాక్ భాషను జతచేయుము"
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:137
 msgid ""
@@ -6921,16 +6807,12 @@ msgid "Application Language Changed"
 msgstr "కార్యక్రమపు భాష మార్చబడింది"
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:281
-#, fuzzy
-#| msgid "Default language:"
 msgid "Primary language:"
-msgstr "అప్రమేయ భాష:"
+msgstr "ప్రాధమిక భాష:"
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:281
-#, fuzzy
-#| msgid "Default language:"
 msgid "Fallback language:"
-msgstr "అప్రమేయ భాష:"
+msgstr "ఫాల్‌బ్యాక్ భాష:"
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:312
 msgid ""
@@ -6946,7 +6828,7 @@ msgstr ""
 
 #: kdeui/dialogs/kpassworddialog.cpp:70
 msgid "Password"
-msgstr "పాస్ వర్డ్"
+msgstr "సంకేతపదము"
 
 #: kdeui/dialogs/ktip.cpp:226
 msgid "Tip of the Day"
@@ -7000,8 +6882,6 @@ msgid "Select Font"
 msgstr "అక్షరరూపము ఎంచుకొనుము"
 
 #: kdeui/fonts/kfontchooser.cpp:155
-#, fuzzy
-#| msgid "Here you can choose the font to be used."
 msgctxt "@info:whatsthis"
 msgid "Here you can choose the font to be used."
 msgstr "ఇక్కడ మీరు వాడె అక్షరరూపాన్ని ఎంచుకోవచ్చు."
@@ -7011,8 +6891,6 @@ msgid "Requested Font"
 msgstr "అభ్యర్దించిన అక్షరరూపం"
 
 #: kdeui/fonts/kfontchooser.cpp:200
-#, fuzzy
-#| msgid "Font"
 msgctxt "@option:check"
 msgid "Font"
 msgstr "అక్షర రూపము"
@@ -7023,22 +6901,16 @@ msgid "Enable this checkbox to change the font family settings."
 msgstr ""
 
 #: kdeui/fonts/kfontchooser.cpp:205
-#, fuzzy
-#| msgid "Change font family?"
 msgctxt "@info:tooltip"
 msgid "Change font family?"
 msgstr "అక్షరరూప కుటుంబాన్ని మార్చు?"
 
 #: kdeui/fonts/kfontchooser.cpp:209
-#, fuzzy
-#| msgid "Font:"
 msgctxt "@label"
 msgid "Font:"
 msgstr "అక్షర రూపము:"
 
 #: kdeui/fonts/kfontchooser.cpp:216
-#, fuzzy
-#| msgid "Font style"
 msgctxt "@option:check"
 msgid "Font style"
 msgstr "అక్షర శైలి"
@@ -7049,8 +6921,6 @@ msgid "Enable this checkbox to change the font style settings."
 msgstr ""
 
 #: kdeui/fonts/kfontchooser.cpp:221
-#, fuzzy
-#| msgid "Change font style?"
 msgctxt "@info:tooltip"
 msgid "Change font style?"
 msgstr "అక్షర శైలి మార్చనా?"
@@ -7060,8 +6930,6 @@ msgid "Font style:"
 msgstr "అక్షర శైలి:"
 
 #: kdeui/fonts/kfontchooser.cpp:233
-#, fuzzy
-#| msgid "Size"
 msgctxt "@option:check"
 msgid "Size"
 msgstr "పరిమాణము"
@@ -7072,81 +6940,58 @@ msgid "Enable this checkbox to change the font size settings."
 msgstr ""
 
 #: kdeui/fonts/kfontchooser.cpp:238
-#, fuzzy
-#| msgid "Change font size?"
 msgctxt "@info:tooltip"
 msgid "Change font size?"
 msgstr "అక్షర పరిమాణాన్ని మార్చనా?"
 
 #: kdeui/fonts/kfontchooser.cpp:242
-#, fuzzy
-#| msgid "Size:"
 msgctxt "@label:listbox Font size"
 msgid "Size:"
 msgstr "పరిమాణము:"
 
 #: kdeui/fonts/kfontchooser.cpp:258
-#, fuzzy
-#| msgid "Here you can choose the font family to be used."
 msgctxt "@info:whatsthis"
 msgid "Here you can choose the font family to be used."
 msgstr "ఇక్కడ మీరు వాడె అక్షరరూప కుటుంబాన్ని ఎంచుకోవచ్చు."
 
 #: kdeui/fonts/kfontchooser.cpp:284
-#, fuzzy
-#| msgid "Here you can choose the font style to be used."
 msgctxt "@info:whatsthis"
 msgid "Here you can choose the font style to be used."
 msgstr "ఇక్కడ మీరు వాడె అక్షరరూప శైలిని ఎంచుకోవచ్చు."
 
 #: kdeui/fonts/kfontchooser.cpp:292 kdeui/fonts/kfontchooser.cpp:619
-#, fuzzy
-#| msgid "Regular"
 msgctxt "@item font"
 msgid "Regular"
 msgstr "క్రమమైన"
 
 #: kdeui/fonts/kfontchooser.cpp:293 kdeui/fonts/kfontchooser.cpp:640
-#, fuzzy
-#| msgid "Italic"
 msgctxt "@item font"
 msgid "Italic"
-msgstr "ఇటాలిక్స్"
+msgstr "ఇటాలిక్"
 
 #: kdeui/fonts/kfontchooser.cpp:294 kdeui/fonts/kfontchooser.cpp:641
-#, fuzzy
-#| msgctxt "font style"
-#| msgid "Oblique"
 msgctxt "@item font"
 msgid "Oblique"
 msgstr "వక్రము"
 
 #: kdeui/fonts/kfontchooser.cpp:295
-#, fuzzy
-#| msgid "Bold"
 msgctxt "@item font"
 msgid "Bold"
 msgstr "లావుగా"
 
 #: kdeui/fonts/kfontchooser.cpp:296
-#, fuzzy
-#| msgid "Bold Italic"
 msgctxt "@item font"
 msgid "Bold Italic"
-msgstr "లావు ఇటాలిక్స్"
+msgstr "లావు ఇటాలిక్"
 
 #: kdeui/fonts/kfontchooser.cpp:315
-#, fuzzy
-#| msgid "Relative"
 msgctxt "@item font size"
 msgid "Relative"
 msgstr "సంబంధిత"
 
 #: kdeui/fonts/kfontchooser.cpp:317
-#, fuzzy
-#| msgid "Font size<br><i>fixed</i> or <i>relative</i><br>to environment"
 msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
-msgstr "అక్షర పరిమాణం పర్యావర్ణనికి <br><i>స్థిరమైన</i> లేక <i>సంబంధిత</i><br>"
+msgstr "అక్షర పరిమాణం పర్యావర్ణనికి <br /><i>స్థిరమైన</i> లేక <i>సంబంధిత</i><br />"
 
 #: kdeui/fonts/kfontchooser.cpp:319
 msgid ""
@@ -7184,27 +7029,25 @@ msgstr "నిజమైన అక్షర రూపము"
 #. The message provides the dynamic context 'family', which is
 #. the family name to which the style string corresponds.
 #: kdeui/fonts/kfontchooser.cpp:626
-#, fuzzy, kde-format
-#| msgid "%1%"
+#, kde-format
 msgctxt "@item Font style"
 msgid "%1"
-msgstr "%1%"
+msgstr "%1"
 
 #. i18n: Generic sans serif font presented in font choosers. When selected,
 #. the system will choose a real font, mandated by distro settings.
 #: kdeui/fonts/fonthelpers.cpp:32
+#, fuzzy
 msgctxt "@item Font name"
 msgid "Sans Serif"
-msgstr ""
+msgstr "సెరిఫ్"
 
 #. i18n: Generic serif font presented in font choosers. When selected,
 #. the system will choose a real font, mandated by distro settings.
 #: kdeui/fonts/fonthelpers.cpp:35
-#, fuzzy
-#| msgid "&Verify:"
 msgctxt "@item Font name"
 msgid "Serif"
-msgstr "(&V) సరిచూడు:"
+msgstr "సెరిఫ్"
 
 #. i18n: Generic monospace font presented in font choosers. When selected,
 #. the system will choose a real font, mandated by distro settings.
@@ -7216,18 +7059,15 @@ msgstr ""
 #. i18n: Filter by which the translators can translate, or otherwise
 #. operate on the font names not put up for regular translation.
 #: kdeui/fonts/fonthelpers.cpp:81
-#, fuzzy, kde-format
-#| msgid "%1%"
+#, kde-format
 msgctxt "@item Font name"
 msgid "%1"
-msgstr "%1%"
+msgstr "%1"
 
 #. i18n: Filter by which the translators can translate, or otherwise
 #. operate on the font names not put up for regular translation.
 #: kdeui/fonts/fonthelpers.cpp:85
-#, fuzzy, kde-format
-#| msgctxt "dictionary name. %1-language and %2-variant name"
-#| msgid "%1 [%2]"
+#, kde-format
 msgctxt "@item Font name [foundry]"
 msgid "%1 [%2]"
 msgstr "%1 [%2]"
@@ -7237,8 +7077,6 @@ msgstr "%1 [%2]"
 #. (the font selection combo box), so keep it under the length equivalent
 #. to 60 or so proportional Latin characters.
 #: kdeui/fonts/kfontcombobox.cpp:49
-#, fuzzy
-#| msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgctxt "short"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "The Quick Brown Fox Jumps Over The Lazy Dog"
@@ -7249,8 +7087,6 @@ msgstr "The Quick Brown Fox Jumps Over The Lazy Dog"
 #. If the sample text contains several scripts, their IDs can be given
 #. as a comma-separated list (e.g. for Japanese it is "1,27").
 #: kdeui/fonts/kfontcombobox.cpp:120
-#, fuzzy
-#| msgid "1"
 msgctxt "Numeric IDs of scripts for font previews"
 msgid "1"
 msgstr "1"
@@ -7260,8 +7096,6 @@ msgid "Find Text"
 msgstr "వచనం కనుగొనుట"
 
 #: kdeui/findreplace/kfinddialog.cpp:90
-#, fuzzy
-#| msgid "Find"
 msgctxt "@title:group"
 msgid "Find"
 msgstr "కనుగొను"
@@ -7323,11 +7157,13 @@ msgid "Start replace"
 msgstr "ప్రతిస్థాపణ మొదలుపెట్టు"
 
 #: kdeui/findreplace/kfinddialog.cpp:204
+#, fuzzy
 msgid ""
 "<qt>If you press the <b>Replace</b> button, the text you entered above is "
 "searched for within the document and any occurrence is replaced with the "
 "replacement text.</qt>"
 msgstr ""
+"<qt>మీరు <b>వెతుకు</b> బటన్ను నొక్కిన చో, మీరు పైన వ్రాసిన వచనాన్ని పత్రం లోపలవెతకబడును.</qt>"
 
 #: kdeui/findreplace/kfinddialog.cpp:211
 msgid "Start searching"
@@ -7470,8 +7306,6 @@ msgid "Replace"
 msgstr "ప్రతిస్థాపించుము"
 
 #: kdeui/findreplace/kreplace.cpp:51
-#, fuzzy
-#| msgid "&All"
 msgctxt "@action:button Replace all occurrences"
 msgid "&All"
 msgstr "(&A) అన్ని"
@@ -7513,15 +7347,11 @@ msgid "Do you want to restart search at the beginning?"
 msgstr "మీరు అన్వేషణ మళ్లి మొదటి నుంచి మొదలు పెట్టమంటారా?"
 
 #: kdeui/findreplace/kreplace.cpp:352
-#, fuzzy
-#| msgid "Restart"
 msgctxt "@action:button Restart find & replace"
 msgid "Restart"
 msgstr "మరల మొదలుపెట్టు"
 
 #: kdeui/findreplace/kreplace.cpp:353
-#, fuzzy
-#| msgid "Stop"
 msgctxt "@action:button Stop find & replace"
 msgid "Stop"
 msgstr "ఆగు"
@@ -7555,9 +7385,9 @@ msgid "Find Next"
 msgstr "తర్వాతది కనుగొను"
 
 #: kdeui/findreplace/kfind.cpp:57
-#, kde-format
+#, fuzzy, kde-format
 msgid "<qt>Find next occurrence of '<b>%1</b>'?</qt>"
-msgstr ""
+msgstr "<qt>'<b>%1</b>' కొరకు జతలు కనపడలేదు.</qt>"
 
 #: kdeui/findreplace/kfind.cpp:585 kdeui/findreplace/kfind.cpp:605
 #, kde-format
@@ -7630,10 +7460,8 @@ msgid ""
 msgstr ""
 
 #: kdeui/shortcuts/kglobalaccel.cpp:460
-#, fuzzy
-#| msgid "Conflict with Global Shortcut"
 msgid "Conflict With Registered Global Shortcut"
-msgstr "వసుదైక శీఘ్రమార్గంతొ ఘర్షణ"
+msgstr "నియంత్రిత వసుదైక శీఘ్రమార్గంతొ ఘర్షణ"
 
 #: kdeui/shortcuts/kgesture.cpp:517
 msgctxt "left mouse button"
@@ -7899,11 +7727,9 @@ msgid "Substring Completion"
 msgstr "పదంలో పద పూరణ"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:147
-#, fuzzy
-#| msgid "Previous Item in List"
 msgctxt "@action"
 msgid "Previous Item in List"
-msgstr "జాబితా లోని ముందరి అంశము"
+msgstr "జాబితా లోని మునుపటి అంశము"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:148
 msgctxt "@action"
@@ -7911,144 +7737,105 @@ msgid "Next Item in List"
 msgstr "జాబితా లోని తరువాత అంశము"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:150
-#, fuzzy
-#| msgid "Open &Recent"
 msgctxt "@action"
 msgid "Open Recent"
-msgstr "(&R) ఇటీవలివి తెరువండి"
+msgstr "ఇటీవలివి తెరువండి"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:151
-#, fuzzy
-#| msgid "Save As"
 msgctxt "@action"
 msgid "Save As"
 msgstr "ఇలా దాచు"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:152
-#, fuzzy
-#| msgid "Re&vert"
 msgctxt "@action"
 msgid "Revert"
-msgstr "(&v) మళ్ళించు"
+msgstr "మళ్ళించు"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:153
-#, fuzzy
-#| msgid "Print Preview"
 msgctxt "@action"
 msgid "Print Preview"
-msgstr "ప్రచురణ ముందస్తు వీక్షణం"
+msgstr "ముద్రణ ముందస్తు వీక్షణం"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:154
-#, fuzzy
-#| msgid "Main:"
 msgctxt "@action"
 msgid "Mail"
-msgstr "ముఖ్యమైన:"
+msgstr "మెయిల్"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:155
-#, fuzzy
-#| msgid "C&lear"
 msgctxt "@action"
 msgid "Clear"
-msgstr "(&l) ఖాళిచేయుము"
+msgstr "ఖాళిచేయుము"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:156
-#, fuzzy
-#| msgid "&Actual Size"
 msgctxt "@action"
 msgid "Actual Size"
-msgstr "(&A) అసలైన పరిమాణము"
+msgstr "అసలైన పరిమాణము"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:157
-#, fuzzy
-#| msgid "&Fit to Page"
 msgctxt "@action"
 msgid "Fit To Page"
-msgstr "(&F) పేజీకు పట్టించు"
+msgstr "పేజీకు పట్టించు"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:158
-#, fuzzy
-#| msgid "Fit to Page &Width"
 msgctxt "@action"
 msgid "Fit To Width"
-msgstr "(&W) పేజి వెడల్పునకు పట్టించు"
+msgstr "పేజి వెడల్పునకు పట్టించు"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:159
-#, fuzzy
-#| msgid "Fit to Page &Height"
 msgctxt "@action"
 msgid "Fit To Height"
-msgstr "(&H) పేజీ ఎత్తునకు పట్టించు"
+msgstr "పేజీ ఎత్తునకు పట్టించు"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:160
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "Zoom In"
 msgctxt "@action"
 msgid "Zoom"
 msgstr "సమీప వీక్షణం"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:161
+#, fuzzy
 msgctxt "@action"
 msgid "Goto"
-msgstr ""
+msgstr "పుటకు వెళ్ళు..."
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:162
-#, fuzzy
-#| msgid "&Go to Page..."
 msgctxt "@action"
 msgid "Goto Page"
-msgstr "(&G) పుటకు వెళ్ళు..."
+msgstr "పుటకు వెళ్ళు..."
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:163
-#, fuzzy
-#| msgid "Close Document"
 msgctxt "@action"
 msgid "Document Back"
-msgstr "పత్రం మూసివేయి"
+msgstr "పత్రం వెనుకకు"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:164
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "Forward"
 msgctxt "@action"
 msgid "Document Forward"
-msgstr "ముందుకు"
+msgstr "పత్రము ముందుకుుకు"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:165
-#, fuzzy
-#| msgid "&Edit Bookmarks"
 msgctxt "@action"
 msgid "Edit Bookmarks"
-msgstr "(&E) గుర్తులు మార్చుము"
+msgstr "గుర్తులు మార్చుము"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:166
-#, fuzzy
-#| msgid "&Spelling..."
 msgctxt "@action"
 msgid "Spelling"
-msgstr "(&S) వర్ణక్రమము..."
+msgstr "వర్ణక్రమము"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:167
-#, fuzzy
-#| msgid "Show &Toolbar"
 msgctxt "@action"
 msgid "Show Toolbar"
-msgstr "(&T) పనిముట్ల పట్టీ చూపుము"
+msgstr "పనిముట్ల పట్టీ చూపుము"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:168
-#, fuzzy
-#| msgid "Show St&atusbar"
 msgctxt "@action"
 msgid "Show Statusbar"
-msgstr "(&a) స్థితి పట్టీ చూపుము"
+msgstr "స్థితి పట్టీ చూపుము"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:169
-#, fuzzy
-#| msgid "Options"
 msgctxt "@action"
 msgid "Save Options"
-msgstr "ఇష్టములు"
+msgstr "భద్రపరచు ఐచ్చికములు"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:170
 msgctxt "@action"
@@ -8056,60 +7843,44 @@ msgid "Key Bindings"
 msgstr ""
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:171
-#, fuzzy
-#| msgid "Reference"
 msgctxt "@action"
 msgid "Preferences"
-msgstr "సంబంధం"
+msgstr "అభీష్టములు"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:172
-#, fuzzy
-#| msgid "Configure Toolbars"
 msgctxt "@action"
 msgid "Configure Toolbars"
-msgstr "పనిముట్ల పట్టీలను అమర్చండి"
+msgstr "పనిముట్ల పట్టీలను ఆకృతీకరించండి"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:173
-#, fuzzy
-#| msgid "Configure Notifications"
 msgctxt "@action"
 msgid "Configure Notifications"
-msgstr "ప్రకటనలను అమర్చు..."
+msgstr "ప్రకటనలను ఆకృతీకరించండి"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:174
-#, fuzzy
-#| msgid "Tip of the Day"
 msgctxt "@action"
 msgid "Tip Of Day"
 msgstr "ఈ రోజు సూచన"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:175
-#, fuzzy
-#| msgid "&Report Bug..."
 msgctxt "@action"
 msgid "Report Bug"
-msgstr "(&R) తప్పును తెలియచేయండి..."
+msgstr "తప్పును తెలియచేయండి"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:176
-#, fuzzy
-#| msgid "Switch Application Language"
 msgctxt "@action"
 msgid "Switch Application Language"
-msgstr "కార్యక్రమ భాషను మార్చు"
+msgstr "అనువర్తనము భాషను మార్చు"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:177
-#, fuzzy
-#| msgid "Quit application"
 msgctxt "@action"
 msgid "About Application"
-msgstr "కార్యక్రమం మూసివేయి"
+msgstr "అనువర్తనము గురించి"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:178
-#, fuzzy
-#| msgid "About &KDE"
 msgctxt "@action"
 msgid "About KDE"
-msgstr "(&K) కెడిఈ గురించి"
+msgstr "కెడిఈ గురించి"
 
 #: kdeui/shortcuts/kcheckaccelerators.cpp:209
 msgctxt "@title:window"
@@ -8187,8 +7958,6 @@ msgid "Exit Full Screen"
 msgstr "పూర్తి తెర స్థితి నుంచి బయటకు రా"
 
 #: kdeui/actions/kcodecaction.cpp:91
-#, fuzzy
-#| msgid "Default"
 msgctxt "Encodings menu"
 msgid "Default"
 msgstr "అప్రమేయం"
@@ -8220,25 +7989,18 @@ msgid "Show &Menubar"
 msgstr "(&M) సూచన పట్టి చూపుము"
 
 #: kdeui/actions/kstandardaction.cpp:518
-#, fuzzy
-#| msgid "Show Menubar<p>Shows the menubar again after it has been hidden"
 msgid "Show Menubar<p>Shows the menubar again after it has been hidden</p>"
-msgstr "సూచన పట్టిను చూపుము<p>సూచన పట్టి దాగిన తరువాత మరల చూపుము"
+msgstr "మెనూబార్‌ను చూపుము <p>మెనూబార్‌ను మరలా చూపుము అది దాయబడి తర్వాతన</p>"
 
 #: kdeui/actions/kstandardaction.cpp:535 kdeui/actions/kstandardaction_p.h:100
 msgid "Show St&atusbar"
 msgstr "(&a) స్థితి పట్టీ చూపుము"
 
 #: kdeui/actions/kstandardaction.cpp:538
-#, fuzzy
-#| msgid ""
-#| "Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of "
-#| "the window used for status information."
 msgid ""
 "Show Statusbar<br /><br />Shows the statusbar, which is the bar at the "
 "bottom of the window used for status information."
 msgstr ""
-"స్థితి పట్టీ చూపుము<p>స్థితి పట్టీ చూపుము, ఈ పట్టి స్థితి సమాచారం చూపును విండొ క్రింద వుంటుంది."
 
 #: kdeui/windowmanagement/kwindowsystem_qws.cpp:177
 #: kdeui/windowmanagement/kwindowsystem_x11.cpp:852
@@ -8272,7 +8034,7 @@ msgstr ""
 
 #: kdeui/sonnet/configdialog.cpp:51
 msgid "Sonnet Configuration"
-msgstr "సాన్నెట్ అమరిక"
+msgstr "సాన్నెట్ ఆకృతీకరణ"
 
 #: kdeui/sonnet/highlighter.cpp:232 kdeui/sonnet/highlighter.cpp:255
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:470
@@ -8291,8 +8053,9 @@ msgid "As-you-type spell checking disabled."
 msgstr ""
 
 #: kdeui/xmlgui/kmenumenuhandler_p.cpp:48
+#, fuzzy
 msgid "Add to Toolbar"
-msgstr ""
+msgstr "పనిముట్ల పట్టీ చూపుము"
 
 #: kdeui/xmlgui/kmenumenuhandler_p.cpp:56
 msgid "Configure Shortcut..."
@@ -8319,65 +8082,55 @@ msgid "&Selected:"
 msgstr "(&S) ఎన్నుకోబడిన:"
 
 #: kdeui/widgets/kcharselect.cpp:334 kdeui/widgets/kcharselect.cpp:336
+#, fuzzy
 msgid "Enter a search term or character here"
-msgstr ""
+msgstr "శోధన పదాన్ని యిక్కడ ప్రవేశపెట్టుము"
 
 #: kdeui/widgets/kcharselect.cpp:354
 #, fuzzy
-#| msgctxt "@action"
-#| msgid "Back"
 msgid "Back"
 msgstr "వెనుకకు"
 
 #: kdeui/widgets/kcharselect.cpp:356
 #, fuzzy
-#| msgid "Previous year"
 msgid "Previous Character"
 msgstr "పోయిన సంవత్సరము"
 
 #: kdeui/widgets/kcharselect.cpp:361
 #, fuzzy
-#| msgctxt "@action"
-#| msgid "Forward"
 msgid "Forward"
 msgstr "ముందుకు"
 
 #: kdeui/widgets/kcharselect.cpp:363
 #, fuzzy
-#| msgid "Set of Characters"
 msgid "Next Character"
 msgstr "అక్షరాల సమితి"
 
 #: kdeui/widgets/kcharselect.cpp:371
 #, fuzzy
-#| msgid "Select a year"
 msgid "Select a category"
 msgstr "సంవత్సరము ఎంచుకొనుము"
 
 #: kdeui/widgets/kcharselect.cpp:374
+#, fuzzy
 msgid "Select a block to be displayed"
-msgstr ""
+msgstr "ప్లె చెయవలసిన శబ్దం ఎంచుకొనుము"
 
 #: kdeui/widgets/kcharselect.cpp:387
 #, fuzzy
-#| msgid "Select Font"
 msgid "Set font"
 msgstr "అక్షరరూపము ఎంచుకొనుము"
 
 #: kdeui/widgets/kcharselect.cpp:394
 #, fuzzy
-#| msgid "Change font size?"
 msgid "Set font size"
 msgstr "అక్షర పరిమాణాన్ని మార్చనా?"
 
 #: kdeui/widgets/kcharselect.cpp:633 kdeui/widgets/kcharselect.cpp:885
 #: kdeui/widgets/kcharselect-translation.cpp:43
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "CombiningMarks"
 msgctxt "KCharselect unicode block name"
 msgid "Combining Diacritical Marks"
-msgstr "కూర్చే గుర్తులు"
+msgstr ""
 
 #: kdeui/widgets/kcharselect.cpp:636 kdeui/widgets/kcharselect.cpp:638
 msgid "Character:"
@@ -8416,8 +8169,9 @@ msgid "Approximate equivalents:"
 msgstr ""
 
 #: kdeui/widgets/kcharselect.cpp:699
+#, fuzzy
 msgid "CJK Ideograph Information"
-msgstr ""
+msgstr "చట్రపు సమాచారం"
 
 #: kdeui/widgets/kcharselect.cpp:702
 msgid "Definition in English: "
@@ -8500,9 +8254,10 @@ msgid "African Scripts"
 msgstr "ఆఫ్రికా స్క్రిప్ట్లు"
 
 #: kdeui/widgets/kcharselect-translation.cpp:25
+#, fuzzy
 msgctxt "KCharSelect section name"
 msgid "Middle Eastern Scripts"
-msgstr ""
+msgstr "తూర్పు ఆసియా స్క్రిప్ట్లు"
 
 #: kdeui/widgets/kcharselect-translation.cpp:26
 msgctxt "KCharSelect section name"
@@ -8546,19 +8301,14 @@ msgstr "గణితాత్మక చిహ్నాలు"
 
 #: kdeui/widgets/kcharselect-translation.cpp:34
 #, fuzzy
-#| msgctxt "QFont"
-#| msgid "Geometric Symbols"
 msgctxt "KCharSelect section name"
 msgid "Phonetic Symbols"
-msgstr "జ్యామితీయ చిహ్నాలు"
+msgstr "గణితాత్మక చిహ్నాలు"
 
 #: kdeui/widgets/kcharselect-translation.cpp:35
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "CombiningMarks"
 msgctxt "KCharSelect section name"
 msgid "Combining Diacritical Marks"
-msgstr "కూర్చే గుర్తులు"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:36
 msgctxt "KCharSelect section name"
@@ -8566,33 +8316,25 @@ msgid "Other"
 msgstr "ఇతర"
 
 #: kdeui/widgets/kcharselect-translation.cpp:37
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Latin"
 msgctxt "KCharselect unicode block name"
 msgid "Basic Latin"
-msgstr "లాటిన్"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:38
 #, fuzzy
-#| msgid "Loading Applet"
 msgctxt "KCharselect unicode block name"
 msgid "Latin-1 Supplement"
 msgstr "అప్లెట్ ను ఎక్కిస్తున్నా"
 
 #: kdeui/widgets/kcharselect-translation.cpp:39
-#, fuzzy
-#| msgid "Extended Address Information"
 msgctxt "KCharselect unicode block name"
 msgid "Latin Extended-A"
-msgstr "విస్తారమైన చిరునామా సమాచారం"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:40
-#, fuzzy
-#| msgid "Extended Address Information"
 msgctxt "KCharselect unicode block name"
 msgid "Latin Extended-B"
-msgstr "విస్తారమైన చిరునామా సమాచారం"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:41
 msgctxt "KCharselect unicode block name"
@@ -8600,12 +8342,9 @@ msgid "IPA Extensions"
 msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:42
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "SpacingModifiers"
 msgctxt "KCharselect unicode block name"
 msgid "Spacing Modifier Letters"
-msgstr "ఖాళిలు సవరించేవి"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:44
 msgctxt "KCharselect unicode block name"
@@ -8618,11 +8357,9 @@ msgid "Cyrillic"
 msgstr "సిరిల్లిక్"
 
 #: kdeui/widgets/kcharselect-translation.cpp:46
-#, fuzzy
-#| msgid "Loading Applet"
 msgctxt "KCharselect unicode block name"
 msgid "Cyrillic Supplement"
-msgstr "అప్లెట్ ను ఎక్కిస్తున్నా"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:47
 msgctxt "KCharselect unicode block name"
@@ -8645,11 +8382,9 @@ msgid "Syriac"
 msgstr "సిరియాక్"
 
 #: kdeui/widgets/kcharselect-translation.cpp:51
-#, fuzzy
-#| msgid "Loading Applet"
 msgctxt "KCharselect unicode block name"
 msgid "Arabic Supplement"
-msgstr "అప్లెట్ ను ఎక్కిస్తున్నా"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:52
 msgctxt "KCharselect unicode block name"
@@ -8747,91 +8482,62 @@ msgid "Ethiopic"
 msgstr "ఇథియోపిక్"
 
 #: kdeui/widgets/kcharselect-translation.cpp:71
-#, fuzzy
-#| msgid "Loading Applet"
 msgctxt "KCharselect unicode block name"
 msgid "Ethiopic Supplement"
-msgstr "అప్లెట్ ను ఎక్కిస్తున్నా"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:72
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Cherokee"
 msgctxt "KCharselect unicode block name"
 msgid "Cherokee"
-msgstr "చెరోకీ"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:73
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Canadian Aboriginal"
 msgctxt "KCharselect unicode block name"
 msgid "Unified Canadian Aboriginal Syllabics"
-msgstr "ఆదివాసీ కెనేడియన్"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:74
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Ogham"
 msgctxt "KCharselect unicode block name"
 msgid "Ogham"
-msgstr "ఒఘామ్"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:75
 #, fuzzy
-#| msgctxt "QFont"
-#| msgid "Runic"
 msgctxt "KCharselect unicode block name"
 msgid "Runic"
-msgstr "రూనిక్"
+msgstr "నడుపు"
 
 #: kdeui/widgets/kcharselect-translation.cpp:76
 #, fuzzy
-#| msgctxt "QFont"
-#| msgid "Tagalog"
 msgctxt "KCharselect unicode block name"
 msgid "Tagalog"
-msgstr "టగలొగ్"
+msgstr "మార్పుల చీటి"
 
 #: kdeui/widgets/kcharselect-translation.cpp:77
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Hanunoo"
 msgctxt "KCharselect unicode block name"
 msgid "Hanunoo"
-msgstr "హనునూ"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:78
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Buhid"
 msgctxt "KCharselect unicode block name"
 msgid "Buhid"
-msgstr "బుహీద్"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:79
 #, fuzzy
-#| msgctxt "QFont"
-#| msgid "Tagbanwa"
 msgctxt "KCharselect unicode block name"
 msgid "Tagbanwa"
-msgstr "టగ్ బన్వా"
+msgstr "తానా"
 
 #: kdeui/widgets/kcharselect-translation.cpp:80
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Khmer"
 msgctxt "KCharselect unicode block name"
 msgid "Khmer"
-msgstr "ఖ్మేర్"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:81
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Mongolian"
 msgctxt "KCharselect unicode block name"
 msgid "Mongolian"
-msgstr "మంగోలియన్"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:82
 msgctxt "KCharselect unicode block name"
@@ -8840,47 +8546,38 @@ msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:83
 #, fuzzy
-#| msgid "Thai"
 msgctxt "KCharselect unicode block name"
 msgid "Tai Le"
 msgstr "థాయ్"
 
 #: kdeui/widgets/kcharselect-translation.cpp:84
 #, fuzzy
-#| msgid "Thai"
 msgctxt "KCharselect unicode block name"
 msgid "New Tai Lue"
-msgstr "థాయ్"
+msgstr "కొత్త టాగ్"
 
 #: kdeui/widgets/kcharselect-translation.cpp:85
 #, fuzzy
-#| msgctxt "QFont"
-#| msgid "Geometric Symbols"
 msgctxt "KCharselect unicode block name"
 msgid "Khmer Symbols"
-msgstr "జ్యామితీయ చిహ్నాలు"
+msgstr "చిహ్నాలు"
 
 #: kdeui/widgets/kcharselect-translation.cpp:86
 #, fuzzy
-#| msgid "Business"
 msgctxt "KCharselect unicode block name"
 msgid "Buginese"
-msgstr "వ్యాపార"
+msgstr "ప్రారంభం"
 
 #: kdeui/widgets/kcharselect-translation.cpp:87
 #, fuzzy
-#| msgid "Business"
 msgctxt "KCharselect unicode block name"
 msgid "Balinese"
-msgstr "వ్యాపార"
+msgstr "జాపనీస్"
 
 #: kdeui/widgets/kcharselect-translation.cpp:88
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Geometric Symbols"
 msgctxt "KCharselect unicode block name"
 msgid "Phonetic Extensions"
-msgstr "జ్యామితీయ చిహ్నాలు"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:89
 msgctxt "KCharselect unicode block name"
@@ -8888,31 +8585,25 @@ msgid "Phonetic Extensions Supplement"
 msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:90
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "CombiningMarks"
 msgctxt "KCharselect unicode block name"
 msgid "Combining Diacritical Marks Supplement"
-msgstr "కూర్చే గుర్తులు"
-
-#: kdeui/widgets/kcharselect-translation.cpp:91
-#, fuzzy
-#| msgid "Extended Address Information"
-msgctxt "KCharselect unicode block name"
-msgid "Latin Extended Additional"
-msgstr "విస్తారమైన చిరునామా సమాచారం"
-
-#: kdeui/widgets/kcharselect-translation.cpp:92
-msgctxt "KCharselect unicode block name"
-msgid "Greek Extended"
 msgstr ""
 
-#: kdeui/widgets/kcharselect-translation.cpp:93
+#: kdeui/widgets/kcharselect-translation.cpp:91
+msgctxt "KCharselect unicode block name"
+msgid "Latin Extended Additional"
+msgstr ""
+
+#: kdeui/widgets/kcharselect-translation.cpp:92
 #, fuzzy
-#| msgid "General Settings"
+msgctxt "KCharselect unicode block name"
+msgid "Greek Extended"
+msgstr "విస్తారమైన"
+
+#: kdeui/widgets/kcharselect-translation.cpp:93
 msgctxt "KCharselect unicode block name"
 msgid "General Punctuation"
-msgstr "సాధారణ అమరికలు"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:94
 msgctxt "KCharselect unicode block name"
@@ -8921,35 +8612,24 @@ msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:95
 #, fuzzy
-#| msgctxt "QFont"
-#| msgid "Currency Symbols"
 msgctxt "KCharselect unicode block name"
 msgid "Currency Symbols"
-msgstr "డబ్బు చిహ్నాలు"
+msgstr "చిహ్నాలు"
 
 #: kdeui/widgets/kcharselect-translation.cpp:96
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "CombiningMarks"
 msgctxt "KCharselect unicode block name"
 msgid "Combining Diacritical Marks for Symbols"
-msgstr "కూర్చే గుర్తులు"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:97
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Letterlike Symbols"
 msgctxt "KCharselect unicode block name"
 msgid "Letter-Like Symbols"
-msgstr "అక్షరాలువంటి చిహ్నాలు"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:98
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Number Forms"
 msgctxt "KCharselect unicode block name"
 msgid "Number Forms"
-msgstr "సంఖ్యా రూపములు"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:99
 msgctxt "KCharselect unicode block name"
@@ -8958,26 +8638,20 @@ msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:100
 #, fuzzy
-#| msgctxt "QFont"
-#| msgid "Mathematical Operators"
 msgctxt "KCharselect unicode block name"
 msgid "Mathematical Operators"
-msgstr "గణితాత్మక పరికర్తలు"
+msgstr "గణితాత్మక చిహ్నాలు"
 
 #: kdeui/widgets/kcharselect-translation.cpp:101
-#, fuzzy
-#| msgid "Miscellaneous"
 msgctxt "KCharselect unicode block name"
 msgid "Miscellaneous Technical"
-msgstr "ఇతర"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:102
 #, fuzzy
-#| msgctxt "QAccel"
-#| msgid "Control"
 msgctxt "KCharselect unicode block name"
 msgid "Control Pictures"
-msgstr "నియంత్రణ"
+msgstr "Control"
 
 #: kdeui/widgets/kcharselect-translation.cpp:103
 msgctxt "KCharselect unicode block name"
@@ -8985,12 +8659,9 @@ msgid "Optical Character Recognition"
 msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:104
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Enclosed and Square"
 msgctxt "KCharselect unicode block name"
 msgid "Enclosed Alphanumerics"
-msgstr "చుట్టుకొబడినది మరయూ చతురస్రమైనది"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:105
 msgctxt "KCharselect unicode block name"
@@ -9003,35 +8674,26 @@ msgid "Block Elements"
 msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:107
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Geometric Symbols"
 msgctxt "KCharselect unicode block name"
 msgid "Geometric Shapes"
-msgstr "జ్యామితీయ చిహ్నాలు"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:108
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Miscellaneous Symbols"
 msgctxt "KCharselect unicode block name"
 msgid "Miscellaneous Symbols"
-msgstr "ఇతర చిహ్నాలు"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:109
 #, fuzzy
-#| msgid "Digit"
 msgctxt "KCharselect unicode block name"
 msgid "Dingbats"
 msgstr "సంఖ్య"
 
 #: kdeui/widgets/kcharselect-translation.cpp:110
 #, fuzzy
-#| msgctxt "QFont"
-#| msgid "Miscellaneous Symbols"
 msgctxt "KCharselect unicode block name"
 msgid "Miscellaneous Mathematical Symbols-A"
-msgstr "ఇతర చిహ్నాలు"
+msgstr "గణితాత్మక చిహ్నాలు"
 
 #: kdeui/widgets/kcharselect-translation.cpp:111
 msgctxt "KCharselect unicode block name"
@@ -9039,12 +8701,9 @@ msgid "Supplemental Arrows-A"
 msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:112
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Braille"
 msgctxt "KCharselect unicode block name"
 msgid "Braille Patterns"
-msgstr "బ్రేయిలి"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:113
 msgctxt "KCharselect unicode block name"
@@ -9053,55 +8712,41 @@ msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:114
 #, fuzzy
-#| msgctxt "QFont"
-#| msgid "Miscellaneous Symbols"
 msgctxt "KCharselect unicode block name"
 msgid "Miscellaneous Mathematical Symbols-B"
-msgstr "ఇతర చిహ్నాలు"
+msgstr "గణితాత్మక చిహ్నాలు"
 
 #: kdeui/widgets/kcharselect-translation.cpp:115
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Mathematical Operators"
 msgctxt "KCharselect unicode block name"
 msgid "Supplemental Mathematical Operators"
-msgstr "గణితాత్మక పరికర్తలు"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:116
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Miscellaneous Symbols"
 msgctxt "KCharselect unicode block name"
 msgid "Miscellaneous Symbols and Arrows"
-msgstr "ఇతర చిహ్నాలు"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:117
 #, fuzzy
-#| msgid "Baltic"
 msgctxt "KCharselect unicode block name"
 msgid "Glagolitic"
 msgstr "బాల్టిక్"
 
 #: kdeui/widgets/kcharselect-translation.cpp:118
-#, fuzzy
-#| msgid "Extended Address Information"
 msgctxt "KCharselect unicode block name"
 msgid "Latin Extended-C"
-msgstr "విస్తారమైన చిరునామా సమాచారం"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:119
 #, fuzzy
-#| msgid "Copy"
 msgctxt "KCharselect unicode block name"
 msgid "Coptic"
 msgstr "నకలు"
 
 #: kdeui/widgets/kcharselect-translation.cpp:120
-#, fuzzy
-#| msgid "Loading Applet"
 msgctxt "KCharselect unicode block name"
 msgid "Georgian Supplement"
-msgstr "అప్లెట్ ను ఎక్కిస్తున్నా"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:121
 msgctxt "KCharselect unicode block name"
@@ -9110,25 +8755,19 @@ msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:122
 #, fuzzy
-#| msgctxt "QFont"
-#| msgid "Ethiopic"
 msgctxt "KCharselect unicode block name"
 msgid "Ethiopic Extended"
 msgstr "ఇథియోపిక్"
 
 #: kdeui/widgets/kcharselect-translation.cpp:123
-#, fuzzy
-#| msgid "General Settings"
 msgctxt "KCharselect unicode block name"
 msgid "Supplemental Punctuation"
-msgstr "సాధారణ అమరికలు"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:124
-#, fuzzy
-#| msgid "Loading Applet"
 msgctxt "KCharselect unicode block name"
 msgid "CJK Radicals Supplement"
-msgstr "అప్లెట్ ను ఎక్కిస్తున్నా"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:125
 msgctxt "KCharselect unicode block name"
@@ -9136,11 +8775,9 @@ msgid "Kangxi Radicals"
 msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:126
-#, fuzzy
-#| msgid "Geographic Position"
 msgctxt "KCharselect unicode block name"
 msgid "Ideographic Description Characters"
-msgstr "భౌగోళిక స్థానము"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:127
 msgctxt "KCharselect unicode block name"
@@ -9148,12 +8785,9 @@ msgid "CJK Symbols and Punctuation"
 msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:128
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Hiragana"
 msgctxt "KCharselect unicode block name"
 msgid "Hiragana"
-msgstr "హిరాగణ"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:129
 msgctxt "KCharselect unicode block name"
@@ -9167,24 +8801,18 @@ msgstr "బొపొమొఫొ"
 
 #: kdeui/widgets/kcharselect-translation.cpp:131
 #, fuzzy
-#| msgctxt "QFont"
-#| msgid "Hangul"
 msgctxt "KCharselect unicode block name"
 msgid "Hangul Compatibility Jamo"
-msgstr "హాంగుల్"
+msgstr "హాంగుల్ జామొ"
 
 #: kdeui/widgets/kcharselect-translation.cpp:132
 #, fuzzy
-#| msgctxt "QFont"
-#| msgid "Kannada"
 msgctxt "KCharselect unicode block name"
 msgid "Kanbun"
 msgstr "కన్నడ"
 
 #: kdeui/widgets/kcharselect-translation.cpp:133
 #, fuzzy
-#| msgctxt "QFont"
-#| msgid "Bopomofo"
 msgctxt "KCharselect unicode block name"
 msgid "Bopomofo Extended"
 msgstr "బొపొమొఫొ"
@@ -9210,11 +8838,9 @@ msgid "CJK Compatibility"
 msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:138
-#, fuzzy
-#| msgid "Frame Information"
 msgctxt "KCharselect unicode block name"
 msgid "CJK Unified Ideographs Extension A"
-msgstr "చట్రపు సమాచారం"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:139
 msgctxt "KCharselect unicode block name"
@@ -9237,19 +8863,14 @@ msgid "Yi Radicals"
 msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:143
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "SpacingModifiers"
 msgctxt "KCharselect unicode block name"
 msgid "Modifier Tone Letters"
-msgstr "ఖాళిలు సవరించేవి"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:144
-#, fuzzy
-#| msgid "Extended Address Information"
 msgctxt "KCharselect unicode block name"
 msgid "Latin Extended-D"
-msgstr "విస్తారమైన చిరునామా సమాచారం"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:145
 msgctxt "KCharselect unicode block name"
@@ -9257,9 +8878,10 @@ msgid "Syloti Nagri"
 msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:146
+#, fuzzy
 msgctxt "KCharselect unicode block name"
 msgid "Phags-pa"
-msgstr ""
+msgstr "పేజీలు"
 
 #: kdeui/widgets/kcharselect-translation.cpp:147
 msgctxt "KCharselect unicode block name"
@@ -9272,11 +8894,9 @@ msgid "High Surrogates"
 msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:149
-#, fuzzy
-#| msgid "Private"
 msgctxt "KCharselect unicode block name"
 msgid "High Private Use Surrogates"
-msgstr "వ్యక్తిగతం"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:150
 msgctxt "KCharselect unicode block name"
@@ -9284,11 +8904,9 @@ msgid "Low Surrogates"
 msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:151
-#, fuzzy
-#| msgid "Private"
 msgctxt "KCharselect unicode block name"
 msgid "Private Use Area"
-msgstr "వ్యక్తిగతం"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:152
 msgctxt "KCharselect unicode block name"
@@ -9311,19 +8929,14 @@ msgid "Variation Selectors"
 msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:156
-#, fuzzy
-#| msgid "Vertical"
 msgctxt "KCharselect unicode block name"
 msgid "Vertical Forms"
-msgstr "నిలువు"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:157
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "CombiningMarks"
 msgctxt "KCharselect unicode block name"
 msgid "Combining Half Marks"
-msgstr "కూర్చే గుర్తులు"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:158
 msgctxt "KCharselect unicode block name"
@@ -9331,11 +8944,9 @@ msgid "CJK Compatibility Forms"
 msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:159
-#, fuzzy
-#| msgid "Icons"
 msgctxt "KCharselect unicode block name"
 msgid "Small Form Variants"
-msgstr "ప్రతిమలు"
+msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:160
 msgctxt "KCharselect unicode block name"
@@ -9359,45 +8970,39 @@ msgstr ""
 #. for some languages and scripts (e.g. for CJK ideographs).
 #: kdeui/widgets/klineedit.cpp:88
 #, fuzzy
-#| msgid "1"
 msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
 msgid "1"
 msgstr "1"
 
 #: kdeui/widgets/klineedit.cpp:249
 #, fuzzy
-#| msgid "Clear shortcut"
 msgctxt "@action:button Clear current text in the line edit"
 msgid "Clear text"
-msgstr "శీఘ్ర మార్గం తొలగించుము"
+msgstr "మూలాంశము చెరిపివేయుము"
 
 #: kdeui/widgets/klineedit.cpp:1107
 #, fuzzy
-#| msgid "Text Completion"
 msgctxt "@title:menu"
 msgid "Text Completion"
 msgstr "వచన పూరణ"
 
 #: kdeui/widgets/klineedit.cpp:1114
 #, fuzzy
-#| msgid "None"
 msgctxt "@item:inmenu Text Completion"
 msgid "None"
 msgstr "ఏదీ వద్దు"
 
 #: kdeui/widgets/klineedit.cpp:1115
 #, fuzzy
-#| msgid "Manual"
 msgctxt "@item:inmenu Text Completion"
 msgid "Manual"
-msgstr "మేన్యువల్"
+msgstr "జనవరి"
 
 #: kdeui/widgets/klineedit.cpp:1116
 #, fuzzy
-#| msgid "Automatic"
 msgctxt "@item:inmenu Text Completion"
 msgid "Automatic"
-msgstr "స్వీయచలిత"
+msgstr "దానంతటదే కనిపెట్టు"
 
 #: kdeui/widgets/klineedit.cpp:1117
 msgctxt "@item:inmenu Text Completion"
@@ -9406,10 +9011,9 @@ msgstr ""
 
 #: kdeui/widgets/klineedit.cpp:1118
 #, fuzzy
-#| msgid "Short Automatic"
 msgctxt "@item:inmenu Text Completion"
 msgid "Short Automatic"
-msgstr "చిన్న స్వీయచలిత"
+msgstr "శీఘ్ర మార్గం"
 
 #: kdeui/widgets/klineedit.cpp:1119
 msgctxt "@item:inmenu Text Completion"
@@ -9418,7 +9022,6 @@ msgstr ""
 
 #: kdeui/widgets/klineedit.cpp:1150
 #, fuzzy
-#| msgid "Default"
 msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "అప్రమేయం"
@@ -9462,16 +9065,12 @@ msgstr "నేటి తేదిని ఎంచుకొనుము"
 
 #: kdeui/widgets/krichtextwidget.cpp:227
 #, fuzzy
-#| msgctxt "@action"
-#| msgid "Text Completion"
 msgctxt "@action"
 msgid "Text &Color..."
 msgstr "వచన పూరణ"
 
 #: kdeui/widgets/krichtextwidget.cpp:228
 #, fuzzy
-#| msgctxt "palette name"
-#| msgid "Web Colors"
 msgctxt "@label stroke color"
 msgid "Color"
 msgstr "వెబ్ రంగులు"
@@ -9483,31 +9082,27 @@ msgstr ""
 
 #: kdeui/widgets/krichtextwidget.cpp:250
 #, fuzzy
-#| msgid "Font"
 msgctxt "@action"
 msgid "&Font"
 msgstr "అక్షర రూపము"
 
 #: kdeui/widgets/krichtextwidget.cpp:261
 #, fuzzy
-#| msgid "Icon Size"
 msgctxt "@action"
 msgid "Font &Size"
 msgstr "ప్రతిమ పరిమాణము"
 
 #: kdeui/widgets/krichtextwidget.cpp:271
 #, fuzzy
-#| msgid "Bold"
 msgctxt "@action boldify selected text"
 msgid "&Bold"
 msgstr "లావుగా"
 
 #: kdeui/widgets/krichtextwidget.cpp:285
 #, fuzzy
-#| msgid "Italic"
 msgctxt "@action italicize selected text"
 msgid "&Italic"
-msgstr "ఇటాలిక్స్"
+msgstr "ఇటాలిక్"
 
 #: kdeui/widgets/krichtextwidget.cpp:300
 msgctxt "@action underline selected text"
@@ -9516,7 +9111,6 @@ msgstr ""
 
 #: kdeui/widgets/krichtextwidget.cpp:315
 #, fuzzy
-#| msgid "Step Out"
 msgctxt "@action"
 msgid "&Strike Out"
 msgstr "బయటకు రా"
@@ -9528,8 +9122,6 @@ msgstr ""
 
 #: kdeui/widgets/krichtextwidget.cpp:329
 #, fuzzy
-#| msgctxt "keyboard-key-name"
-#| msgid "Left"
 msgctxt "@label left justify"
 msgid "Left"
 msgstr "ఎడమ"
@@ -9541,7 +9133,6 @@ msgstr ""
 
 #: kdeui/widgets/krichtextwidget.cpp:336
 #, fuzzy
-#| msgid "Enter"
 msgctxt "@label center justify"
 msgid "Center"
 msgstr "ఎంటర్"
@@ -9553,8 +9144,6 @@ msgstr ""
 
 #: kdeui/widgets/krichtextwidget.cpp:343
 #, fuzzy
-#| msgctxt "keyboard-key-name"
-#| msgid "Right"
 msgctxt "@label right justify"
 msgid "Right"
 msgstr "కుడి"
@@ -9576,28 +9165,24 @@ msgstr ""
 
 #: kdeui/widgets/krichtextwidget.cpp:377
 #, fuzzy
-#| msgid "None"
 msgctxt "@item:inmenu no list style"
 msgid "None"
 msgstr "ఏదీ వద్దు"
 
 #: kdeui/widgets/krichtextwidget.cpp:378
 #, fuzzy
-#| msgid "&Discard"
 msgctxt "@item:inmenu disc list style"
 msgid "Disc"
 msgstr "(&D) విస్మరించు"
 
 #: kdeui/widgets/krichtextwidget.cpp:379
 #, fuzzy
-#| msgid "File"
 msgctxt "@item:inmenu circle list style"
 msgid "Circle"
 msgstr "దస్త్రం"
 
 #: kdeui/widgets/krichtextwidget.cpp:380
 #, fuzzy
-#| msgid "Source:"
 msgctxt "@item:inmenu square list style"
 msgid "Square"
 msgstr "మూలం:"
@@ -9609,14 +9194,12 @@ msgstr ""
 
 #: kdeui/widgets/krichtextwidget.cpp:382
 #, fuzzy
-#| msgid "Sab"
 msgctxt "@item:inmenu lowercase abc lists"
 msgid "abc"
 msgstr "సబ్"
 
 #: kdeui/widgets/krichtextwidget.cpp:383
 #, fuzzy
-#| msgid "AC"
 msgctxt "@item:inmenu uppercase abc lists"
 msgid "ABC"
 msgstr "AC"
@@ -9638,7 +9221,6 @@ msgstr ""
 
 #: kdeui/widgets/krichtextwidget.cpp:436
 #, fuzzy
-#| msgid "Line"
 msgctxt "@action"
 msgid "Link"
 msgstr "వరుస"
@@ -9650,21 +9232,18 @@ msgstr ""
 
 #: kdeui/widgets/krichtextwidget.cpp:458
 #, fuzzy
-#| msgid "Find Text"
 msgctxt "@action"
 msgid "To Plain Text"
 msgstr "వచనం కనుగొనుట"
 
 #: kdeui/widgets/krichtextwidget.cpp:469
 #, fuzzy
-#| msgid "Submit"
 msgctxt "@action"
 msgid "Subscript"
 msgstr "అందించు"
 
 #: kdeui/widgets/krichtextwidget.cpp:476
 #, fuzzy
-#| msgid "Open Script"
 msgctxt "@action"
 msgid "Superscript"
 msgstr "స్క్రిప్ట్ తెరువు"
@@ -9682,10 +9261,8 @@ msgid "<Low Surrogate>"
 msgstr ""
 
 #: kdeui/widgets/kcharselectdata.cpp:242
-#, fuzzy
-#| msgid "Private"
 msgid "<Private Use>"
-msgstr "వ్యక్తిగతం"
+msgstr ""
 
 #: kdeui/widgets/kcharselectdata.cpp:272
 msgid "<not assigned>"
@@ -9693,27 +9270,27 @@ msgstr ""
 
 #: kdeui/widgets/kcharselectdata.cpp:510
 #, fuzzy
-#| msgid "Other Contributors:"
 msgid "Other, Control"
-msgstr "మిగిలిన దాతలు"
+msgstr "మిగిలిన దాతలు:"
 
 #: kdeui/widgets/kcharselectdata.cpp:511
 #, fuzzy
-#| msgid "vCard Format"
 msgid "Other, Format"
-msgstr "వీకార్డ్ ఫార్మేట్"
+msgstr "ఇతర స్క్రిప్ట్లు"
 
 #: kdeui/widgets/kcharselectdata.cpp:512
 msgid "Other, Not Assigned"
 msgstr ""
 
 #: kdeui/widgets/kcharselectdata.cpp:513
+#, fuzzy
 msgid "Other, Private Use"
-msgstr ""
+msgstr "ఇతర స్క్రిప్ట్లు"
 
 #: kdeui/widgets/kcharselectdata.cpp:514
+#, fuzzy
 msgid "Other, Surrogate"
-msgstr ""
+msgstr "ఇతర స్క్రిప్ట్లు"
 
 #: kdeui/widgets/kcharselectdata.cpp:515
 msgid "Letter, Lowercase"
@@ -9721,7 +9298,6 @@ msgstr ""
 
 #: kdeui/widgets/kcharselectdata.cpp:516
 #, fuzzy
-#| msgid "Last modified:"
 msgid "Letter, Modifier"
 msgstr "చివరిసారి మార్చబడినది:"
 
@@ -9754,18 +9330,12 @@ msgid "Number, Decimal Digit"
 msgstr ""
 
 #: kdeui/widgets/kcharselectdata.cpp:524
-#, fuzzy
-#| msgctxt "QAccel"
-#| msgid "Number Lock"
 msgid "Number, Letter"
-msgstr "Number Lock"
+msgstr ""
 
 #: kdeui/widgets/kcharselectdata.cpp:525
-#, fuzzy
-#| msgctxt "QFont"
-#| msgid "Number Forms"
 msgid "Number, Other"
-msgstr "సంఖ్యా రూపములు"
+msgstr ""
 
 #: kdeui/widgets/kcharselectdata.cpp:526
 msgid "Punctuation, Connector"
@@ -9804,8 +9374,9 @@ msgid "Symbol, Modifier"
 msgstr ""
 
 #: kdeui/widgets/kcharselectdata.cpp:535
+#, fuzzy
 msgid "Symbol, Math"
-msgstr ""
+msgstr "చిహ్నాలు"
 
 #: kdeui/widgets/kcharselectdata.cpp:536
 msgid "Symbol, Other"
@@ -9813,7 +9384,6 @@ msgstr ""
 
 #: kdeui/widgets/kcharselectdata.cpp:537
 #, fuzzy
-#| msgid "Start of Line"
 msgid "Separator, Line"
 msgstr "వరుస ఆరంభము"
 
@@ -9823,7 +9393,6 @@ msgstr ""
 
 #: kdeui/widgets/kcharselectdata.cpp:539
 #, fuzzy
-#| msgid "Start replace"
 msgid "Separator, Space"
 msgstr "ప్రతిస్థాపణ మొదలుపెట్టు"
 
@@ -9833,7 +9402,6 @@ msgstr "తెలియని"
 
 #: kdeui/widgets/ksqueezedtextlabel.cpp:158
 #, fuzzy
-#| msgid "&Copy Text"
 msgid "&Copy Full Text"
 msgstr "(&C) వచనంను నకలు చేయి"
 
@@ -9849,21 +9417,18 @@ msgstr ""
 
 #: kdeui/widgets/kkeysequencewidget.cpp:177
 #, fuzzy
-#| msgid "Conflict with Global Shortcut"
 msgid "Conflict With Registered Global Shortcut(s)"
-msgstr "వసుదైక శీఘ్రమార్గంతొ ఘర్షణ"
+msgstr "నియంత్రిత వసుదైక శీఘ్రమార్గంతొ ఘర్షణ"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:246
 #, fuzzy
-#| msgid "Shortcut"
 msgid "Shortcut Conflict(s)"
-msgstr "శీఘ్ర మార్గం"
+msgstr "శీఘ్ర మార్గాలు"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:250
 #, fuzzy, kde-format
-#| msgid "Shortcuts"
 msgid "Shortcut(s) '%1' for action '%2'\n"
-msgstr "శీఘ్ర మార్గాలు"
+msgstr "%1 కొరకు శీఘ్రమార్గాలు"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:255
 #, kde-format
@@ -9875,7 +9440,6 @@ msgstr ""
 
 #: kdeui/widgets/kkeysequencewidget.cpp:269
 #, fuzzy
-#| msgid "Shortcut"
 msgid "Shortcut conflict"
 msgstr "శీఘ్ర మార్గం"
 
@@ -9900,7 +9464,6 @@ msgstr ""
 
 #: kdeui/widgets/kkeysequencewidget.cpp:666
 #, fuzzy
-#| msgid "Input file"
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "మూలాంశ ఫైలు"
@@ -9910,10 +9473,8 @@ msgid "The key you just pressed isn't supported by Qt."
 msgstr ""
 
 #: kdeui/widgets/kkeysequencewidget.cpp:717
-#, fuzzy
-#| msgid "Untrusted"
 msgid "Unsupported Key"
-msgstr "నమ్మకమైనది కాదు"
+msgstr ""
 
 #: kdeui/widgets/keditlistbox.cpp:326
 msgid "&Add"
@@ -9966,7 +9527,7 @@ msgstr "(&R) తప్పును తెలియచేయండి..."
 
 #: kdeui/widgets/khelpmenu.cpp:183 kdeui/actions/kstandardaction_p.h:115
 msgid "Switch Application &Language..."
-msgstr "(&L) కార్యక్రమ భాషను మార్చు..."
+msgstr "(&L) అనువర్తనము భాషను మార్చు..."
 
 #: kdeui/widgets/khelpmenu.cpp:194 kdeui/actions/kstandardaction_p.h:116
 #, kde-format
@@ -9978,8 +9539,9 @@ msgid "About &KDE"
 msgstr "(&K) కెడిఈ గురించి"
 
 #: kdeui/widgets/ktoolbar.cpp:236
+#, fuzzy
 msgid "Toolbar Menu"
-msgstr ""
+msgstr "పనిముట్ల పట్టీలు"
 
 #: kdeui/widgets/ktoolbar.cpp:238
 msgid "Orientation"
@@ -10031,7 +9593,6 @@ msgstr "ప్రతిమ పరిమాణము"
 
 #: kdeui/widgets/ktoolbar.cpp:271
 #, fuzzy
-#| msgid "Default"
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr "అప్రమేయం"
@@ -10058,43 +9619,37 @@ msgstr "అతి పెద్ద (%1x%2)"
 
 #: kdeui/widgets/ktoolbar.cpp:337 kdeui/widgets/ktoolbar.cpp:1368
 #, fuzzy
-#| msgid "Toolbars"
 msgid "Unlock Toolbars"
 msgstr "పనిముట్ల పట్టీలు"
 
 #: kdeui/widgets/ktoolbar.cpp:337 kdeui/widgets/ktoolbar.cpp:1368
 #, fuzzy
-#| msgid "Toolbars"
 msgid "Lock Toolbars"
 msgstr "పనిముట్ల పట్టీలు"
 
 #: kdeui/widgets/ktoolbar.cpp:1281
 #, fuzzy, kde-format
-#| msgid "%1%"
 msgctxt "@action:intoolbar Text label of toolbar button"
 msgid "%1"
-msgstr "%1%"
+msgstr "%1"
 
 #: kdeui/widgets/ktoolbar.cpp:1282
 #, fuzzy, kde-format
-#| msgid "%1%"
 msgctxt "@info:tooltip Tooltip of toolbar button"
 msgid "%1"
-msgstr "%1%"
+msgstr "%1"
 
 #: kdeui/widgets/ktimezonewidget.cpp:60
 #, fuzzy
-#| msgid "Area"
 msgctxt "Define an area in the time zone, like a town area"
 msgid "Area"
-msgstr "వైశాల్యం"
+msgstr "అర్మెనియన్"
 
 #: kdeui/widgets/ktimezonewidget.cpp:60
 #, fuzzy
-#| msgid "Region"
 msgctxt "Time zone"
 msgid "Region"
-msgstr "ప్రాంతము"
+msgstr "ప్రారంభం"
 
 #: kdeui/widgets/ktimezonewidget.cpp:60
 msgid "Comment"
@@ -10105,28 +9660,27 @@ msgid "Check Spelling..."
 msgstr "అచ్చుతప్పులు సరిచూడు..."
 
 #: kdeui/widgets/ktextedit.cpp:427 kde3support/kdeui/k3textedit.cpp:238
+#, fuzzy
 msgid "Auto Spell Check"
-msgstr ""
+msgstr "అచ్చుతప్పులు సరిచూడు"
 
 #: kdeui/widgets/ktextedit.cpp:431 kde3support/kdeui/k3textedit.cpp:242
+#, fuzzy
 msgid "Allow Tabulations"
-msgstr ""
+msgstr "(&v) అందుబాటులో వున్న చర్యలు:"
 
 #: kdeui/widgets/ktextedit.cpp:528
 #, fuzzy
-#| msgid "Suggestion List"
 msgid "Suggestions"
 msgstr "సూచించబడిన జాబితా"
 
 #: kdeui/widgets/ktextedit.cpp:530
 #, fuzzy
-#| msgid "&Ignore"
 msgid "Ignore"
 msgstr "(&I) విస్మరించు"
 
 #: kdeui/widgets/ktextedit.cpp:531
 #, fuzzy
-#| msgid "<< Add to Dictionary"
 msgid "Add to Dictionary"
 msgstr "<< నిఘంటువులో చేర్చుము"
 
@@ -10146,8 +9700,8 @@ msgstr "కె హెచ్ టి ఎం ఎల్ పరీక్ష"
 msgid "a basic web browser using the KHTML library"
 msgstr ""
 
-#: khtml/khtml_run.cpp:97 khtml/khtml_part.cpp:3664 khtml/khtml_part.cpp:3874
-#: khtml/khtml_part.cpp:4250 kparts/browserrun.cpp:444
+#: khtml/khtml_run.cpp:97 khtml/khtml_part.cpp:3663 khtml/khtml_part.cpp:3873
+#: khtml/khtml_part.cpp:4249 kparts/browserrun.cpp:444
 msgid "Save As"
 msgstr "ఇలా దాచు"
 
@@ -10192,12 +9746,14 @@ msgid "Only run a single test. Multiple options allowed."
 msgstr ""
 
 #: khtml/test_regression.cpp:624
+#, fuzzy
 msgid "Only run .js tests"
-msgstr ""
+msgstr "JS పరీక్షలను మాత్రమే నడుపుము"
 
 #: khtml/test_regression.cpp:625
+#, fuzzy
 msgid "Only run .html tests"
-msgstr ""
+msgstr "JS పరీక్షలను మాత్రమే నడుపుము"
 
 #: khtml/test_regression.cpp:628
 msgid "Put output in <directory> instead of <base_dir>/output"
@@ -10216,14 +9772,13 @@ msgid ""
 msgstr ""
 
 #: khtml/test_regression.cpp:632
-#, fuzzy
-#| msgid "Region"
 msgid "TestRegression"
-msgstr "ప్రాంతము"
+msgstr ""
 
 #: khtml/test_regression.cpp:633
+#, fuzzy
 msgid "Regression tester for khtml"
-msgstr ""
+msgstr "రిగ్రెష్షన్ టెస్టింగ్ అవుట్పుట్"
 
 #: khtml/khtml_global.cpp:207
 msgid "KHTML"
@@ -10276,26 +9831,22 @@ msgstr "%1 తెరువండి"
 
 #: khtml/khtml_ext.cpp:454
 #, fuzzy
-#| msgid "Copy Email Address"
 msgid "&Copy Email Address"
-msgstr "ఈమెయిల్ చిరునామాను నకలు చేయి"
+msgstr "ఈమెయిల్ చిరునామా:"
 
 #: khtml/khtml_ext.cpp:459
 msgid "&Save Link As..."
 msgstr "(&S) లింకును ఇలా దాచు..."
 
 #: khtml/khtml_ext.cpp:464
-#, fuzzy
-#| msgid "Copy &Link Address"
 msgid "&Copy Link Address"
-msgstr "(&L) లింకు చిరునామాను నకలు చేయి"
+msgstr ""
 
 #: khtml/khtml_ext.cpp:476
 #, fuzzy
-#| msgid "Frame"
 msgctxt "@title:menu HTML frame/iframe"
 msgid "Frame"
-msgstr "చట్రము"
+msgstr "పేరు"
 
 #: khtml/khtml_ext.cpp:477
 msgid "Open in New &Window"
@@ -10413,19 +9964,11 @@ msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr "మీ $PATH లో డౌన్ లోడ్ అభికర్త (%1) లో కనపడుటలేదు "
 
 #: khtml/khtml_ext.cpp:990 kparts/browserrun.cpp:416
-#, fuzzy
-#| msgid ""
-#| "Try to reinstall it  \n"
-#| "\n"
-#| "The integration with Konqueror will be disabled!"
 msgid ""
 "Try to reinstall it  \n"
 "\n"
 "The integration with Konqueror will be disabled."
 msgstr ""
-"మళ్లి స్థాపించుటకు ప్రయత్నించండి \n"
-"\n"
-"కాంకెరర్ తో "
 
 #: khtml/khtml_ext.cpp:1076
 #, no-c-format
@@ -10499,10 +10042,11 @@ msgid "View Document Information"
 msgstr "పత్ర సమాచారం చూపు"
 
 #: khtml/khtml_part.cpp:305
+#, fuzzy
 msgid "Save &Background Image As..."
-msgstr ""
+msgstr "చిత్రాన్ని ఇలా దాచు..."
 
-#: khtml/khtml_part.cpp:326 khtml/khtml_part.cpp:3956
+#: khtml/khtml_part.cpp:326 khtml/khtml_part.cpp:3955
 msgid "SSL"
 msgstr "ఎస్ఎస్ఎల్"
 
@@ -10519,8 +10063,9 @@ msgid "Stop Animated Images"
 msgstr "ఎనిమేటెడ్ చిత్రాలను ఆపు"
 
 #: khtml/khtml_part.cpp:342
+#, fuzzy
 msgid "Set &Encoding"
-msgstr ""
+msgstr "(&E) సంకేతీకరణ:"
 
 #: khtml/khtml_part.cpp:381
 msgid "Use S&tylesheet"
@@ -10582,149 +10127,147 @@ msgstr ""
 msgid "Toggle Caret Mode"
 msgstr "హంసపాదు స్థితిని మార్చు"
 
-#: khtml/khtml_part.cpp:710
+#: khtml/khtml_part.cpp:709
 #, kde-format
 msgid "The fake user-agent '%1' is in use."
 msgstr "నకిలి '%1' యూజర్-ఎజెంట్ వాడుకలో వుంది."
 
-#: khtml/khtml_part.cpp:1221
+#: khtml/khtml_part.cpp:1220
 msgid "This web page contains coding errors."
 msgstr "ఈ వెబ్ సైట్ లొ కొడింగ్ దొషాలు కలవు"
 
-#: khtml/khtml_part.cpp:1263
+#: khtml/khtml_part.cpp:1262
 msgid "&Hide Errors"
 msgstr "(&H) దోషములను దాచు"
 
-#: khtml/khtml_part.cpp:1264
+#: khtml/khtml_part.cpp:1263
 msgid "&Disable Error Reporting"
 msgstr "(&D) దొషలను నివేదించటం ఆపు"
 
-#: khtml/khtml_part.cpp:1308
-#, fuzzy, kde-format
-#| msgid "<b>Error</b>: %1: %2"
+#: khtml/khtml_part.cpp:1307
+#, kde-format
 msgid "<qt><b>Error</b>: %1: %2</qt>"
-msgstr "<b>తప్పు</b>: %1: %2"
+msgstr ""
 
-#: khtml/khtml_part.cpp:1357
-#, fuzzy, kde-format
-#| msgid "<b>Error</b>: node %1: %2"
+#: khtml/khtml_part.cpp:1356
+#, kde-format
 msgid "<qt><b>Error</b>: node %1: %2</qt>"
-msgstr "<b>తప్పు</b>: నోడ్ %1: %2"
+msgstr ""
 
-#: khtml/khtml_part.cpp:1467
+#: khtml/khtml_part.cpp:1466
 msgid "Display Images on Page"
-msgstr "పుతలొని చిత్రాలను చూపు"
+msgstr "పుతలొని చిత్రాలను ప్రదర్శించు"
 
-#: khtml/khtml_part.cpp:1833
-#, fuzzy, kde-format
-#| msgid "<b>Error</b>: %1: %2"
+#: khtml/khtml_part.cpp:1832
+#, kde-format
 msgid "Error: %1 - %2"
-msgstr "<b>తప్పు</b>: %1: %2"
+msgstr ""
 
-#: khtml/khtml_part.cpp:1838
+#: khtml/khtml_part.cpp:1837
 msgid "The requested operation could not be completed"
 msgstr "మనవి చేసిన కార్యం పూర్తి చేయలేక పోయాను"
 
-#: khtml/khtml_part.cpp:1844
+#: khtml/khtml_part.cpp:1843
 msgid "Technical Reason: "
 msgstr "సాంక్యెతిక కారణం:"
 
-#: khtml/khtml_part.cpp:1849
+#: khtml/khtml_part.cpp:1848
 msgid "Details of the Request:"
 msgstr "మనవి వివరాలు:"
 
-#: khtml/khtml_part.cpp:1851
+#: khtml/khtml_part.cpp:1850
 #, kde-format
 msgid "URL: %1"
 msgstr "యుఆర్ఎల్: %1"
 
-#: khtml/khtml_part.cpp:1854
+#: khtml/khtml_part.cpp:1853
 #, kde-format
 msgid "Protocol: %1"
 msgstr "ప్రొటొకాల్: %1"
 
-#: khtml/khtml_part.cpp:1857
+#: khtml/khtml_part.cpp:1856
 #, kde-format
 msgid "Date and Time: %1"
 msgstr "తేదీ మరయూ సమయం: %1"
 
-#: khtml/khtml_part.cpp:1859
+#: khtml/khtml_part.cpp:1858
 #, kde-format
 msgid "Additional Information: %1"
 msgstr "అదనపు సమాచారం: %1"
 
-#: khtml/khtml_part.cpp:1861
+#: khtml/khtml_part.cpp:1860
 msgid "Description:"
 msgstr "వర్ణన:"
 
-#: khtml/khtml_part.cpp:1867
+#: khtml/khtml_part.cpp:1866
 msgid "Possible Causes:"
 msgstr "సాద్యమైన కారణాలు:"
 
-#: khtml/khtml_part.cpp:1874
+#: khtml/khtml_part.cpp:1873
 msgid "Possible Solutions:"
 msgstr "సాద్యమైన పరిష్కారాలు:"
 
-#: khtml/khtml_part.cpp:2240
+#: khtml/khtml_part.cpp:2239
 msgid "Page loaded."
 msgstr "పుట ఎక్కించబడినది."
 
-#: khtml/khtml_part.cpp:2242
+#: khtml/khtml_part.cpp:2241
 #, kde-format
 msgid "%1 Image of %2 loaded."
 msgid_plural "%1 Images of %2 loaded."
 msgstr[0] "%2 చిత్రంలో %1 ఎక్కించబడింది."
 msgstr[1] "%2 చిత్రాలలో %1 ఎక్కించబడినవి"
 
-#: khtml/khtml_part.cpp:2403
+#: khtml/khtml_part.cpp:2402
+#, fuzzy
 msgid "Automatic Detection"
-msgstr ""
+msgstr "దానంతటదే కనిపెట్టు"
 
-#: khtml/khtml_part.cpp:3472 khtml/khtml_part.cpp:3559
-#: khtml/khtml_part.cpp:3570
+#: khtml/khtml_part.cpp:3471 khtml/khtml_part.cpp:3558
+#: khtml/khtml_part.cpp:3569
 msgid " (In new window)"
 msgstr " (కొత్త విండొ లొ)"
 
-#: khtml/khtml_part.cpp:3511
+#: khtml/khtml_part.cpp:3510
 msgid "Symbolic Link"
 msgstr "చిహ్నమైన లింకు"
 
-#: khtml/khtml_part.cpp:3513
+#: khtml/khtml_part.cpp:3512
 #, kde-format
 msgid "%1 (Link)"
 msgstr "%1 (లింకు)"
 
-#: khtml/khtml_part.cpp:3533
+#: khtml/khtml_part.cpp:3532
 #, kde-format
 msgid "%2 (%1 bytes)"
 msgstr "%2 (%1 బైట్లు)"
 
-#: khtml/khtml_part.cpp:3537
+#: khtml/khtml_part.cpp:3536
 #, kde-format
 msgid "%2 (%1 K)"
 msgstr "%2 (%1 కె)"
 
-#: khtml/khtml_part.cpp:3572
+#: khtml/khtml_part.cpp:3571
 msgid " (In other frame)"
 msgstr " (ఇంకొక చట్రంలొ)"
 
-#: khtml/khtml_part.cpp:3577
+#: khtml/khtml_part.cpp:3576
 msgid "Email to: "
 msgstr "ఈమెయిల్ చెయి:"
 
-#: khtml/khtml_part.cpp:3583
+#: khtml/khtml_part.cpp:3582
 msgid " - Subject: "
 msgstr "- విషయము:"
 
-#: khtml/khtml_part.cpp:3585
+#: khtml/khtml_part.cpp:3584
 msgid " - CC: "
 msgstr "- సిసి:"
 
-#: khtml/khtml_part.cpp:3587
+#: khtml/khtml_part.cpp:3586
 msgid " - BCC: "
 msgstr "- బిసిసి:"
 
-#: khtml/khtml_part.cpp:3669
+#: khtml/khtml_part.cpp:3668
 #, kde-format
 msgid ""
 "<qt>This untrusted page links to<br /><b>%1</b>.<br />Do you want to follow "
@@ -10732,40 +10275,41 @@ msgid ""
 msgstr ""
 "<qt>ఈ అవిశ్వసనీయ పుట <br><b>%1</b> కు లింకు చెయబడింది.<br>మీరు దానిని అనుసరించమంటారా?"
 
-#: khtml/khtml_part.cpp:3670
+#: khtml/khtml_part.cpp:3669
 msgid "Follow"
 msgstr "అనుసరించు"
 
-#: khtml/khtml_part.cpp:3771
+#: khtml/khtml_part.cpp:3770
 msgid "Frame Information"
 msgstr "చట్రపు సమాచారం"
 
-#: khtml/khtml_part.cpp:3777
+#: khtml/khtml_part.cpp:3776
 #, kde-format
 msgid "   <a href=\"%1\">[Properties]</a>"
 msgstr " <a href=\"%1\">[గుణములు]</a>"
 
-#: khtml/khtml_part.cpp:3862
+#: khtml/khtml_part.cpp:3861
+#, fuzzy
 msgid "Save Background Image As"
-msgstr ""
+msgstr "చిత్రాన్ని ఇలా దాచు"
 
-#: khtml/khtml_part.cpp:3954
+#: khtml/khtml_part.cpp:3953
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr ""
 
-#: khtml/khtml_part.cpp:3973
+#: khtml/khtml_part.cpp:3972
 msgid "Save Frame As"
 msgstr "చట్రాన్ని ఇలా దాచు"
 
-#: khtml/khtml_part.cpp:4017
+#: khtml/khtml_part.cpp:4016
 msgid "&Find in Frame..."
 msgstr "(&F) చట్రంలో వెతుకు..."
 
-#: khtml/khtml_part.cpp:4019 kdeui/actions/kstandardaction_p.h:64
+#: khtml/khtml_part.cpp:4018 kdeui/actions/kstandardaction_p.h:64
 msgid "&Find..."
 msgstr "(&F) కనుగొను..."
 
-#: khtml/khtml_part.cpp:4558
+#: khtml/khtml_part.cpp:4557
 msgid ""
 "Warning:  This is a secure form but it is attempting to send your data back "
 "unencrypted.\n"
@@ -10773,109 +10317,113 @@ msgid ""
 "Are you sure you wish to continue?"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4561 khtml/khtml_part.cpp:4570
-#: khtml/khtml_part.cpp:4594
+#: khtml/khtml_part.cpp:4560 khtml/khtml_part.cpp:4569
+#: khtml/khtml_part.cpp:4593
 msgid "Network Transmission"
 msgstr "నెట్వర్క్ ప్రసారం"
 
-#: khtml/khtml_part.cpp:4561 khtml/khtml_part.cpp:4571
+#: khtml/khtml_part.cpp:4560 khtml/khtml_part.cpp:4570
 msgid "&Send Unencrypted"
 msgstr "(&S) ఎన్ క్రిప్ట్ చేయకుండా పంపించు"
 
-#: khtml/khtml_part.cpp:4568
+#: khtml/khtml_part.cpp:4567
 msgid ""
 "Warning: Your data is about to be transmitted across the network "
 "unencrypted.\n"
 "Are you sure you wish to continue?"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4592
+#: khtml/khtml_part.cpp:4591
+#, fuzzy
 msgid ""
 "This site is attempting to submit form data via email.\n"
 "Do you want to continue?"
 msgstr ""
+"ఈ సైట్ జావా స్క్రిప్ట్ ద్వారా కొత్త విండొని తెరువుటకు మనవి కోరుతుంది.\n"
+"అనుమతించ మంటారా?"
 
-#: khtml/khtml_part.cpp:4595
+#: khtml/khtml_part.cpp:4594
 msgid "&Send Email"
 msgstr "(&S) ఈమెయిల్ పంపించు"
 
-#: khtml/khtml_part.cpp:4616
-#, kde-format
+#: khtml/khtml_part.cpp:4615
+#, fuzzy, kde-format
 msgid ""
 "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
 "filesystem.<br />Do you want to submit the form?</qt>"
 msgstr ""
+"<qt>ఈ అవిశ్వసనీయ పుట <br><b>%1</b> కు లింకు చెయబడింది.<br>మీరు దానిని అనుసరించమంటారా?"
 
-#: khtml/khtml_part.cpp:4617 khtml/khtmlview.cpp:2942 khtml/khtmlview.cpp:2984
+#: khtml/khtml_part.cpp:4616 khtml/khtmlview.cpp:2944 khtml/khtmlview.cpp:2986
 #: khtml/html/html_formimpl.cpp:1581 khtml/html/html_formimpl.cpp:1790
 msgid "Submit"
 msgstr "అందించు"
 
-#: khtml/khtml_part.cpp:4670
+#: khtml/khtml_part.cpp:4669
 msgid ""
 "This site attempted to attach a file from your computer in the form "
 "submission. The attachment was removed for your protection."
 msgstr ""
 
-#: khtml/khtml_part.cpp:5676
+#: khtml/khtml_part.cpp:5675
 #, kde-format
 msgid "(%1/s)"
 msgstr "(%1/s)"
 
-#: khtml/khtml_part.cpp:6592
+#: khtml/khtml_part.cpp:6591
 msgid "Security Warning"
 msgstr "భద్రతా హెచ్చరిక"
 
-#: khtml/khtml_part.cpp:6598
+#: khtml/khtml_part.cpp:6597
 #, fuzzy, kde-format
-#| msgid "<qt>Access by untrusted page to<BR><B>%1</B><BR> denied."
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
-msgstr "<qt>అవిశ్వసనీయ పుట <BR><B>%1</B><BR> నుంచి అనుమతి నిరాకరించడమైనది."
+msgstr ""
+"<qt>ఈ అవిశ్వసనీయ పుట <br><b>%1</b> కు లింకు చెయబడింది.<br>మీరు దానిని అనుసరించమంటారా?"
 
-#: khtml/khtml_part.cpp:6599 khtml/java/kjavaappletserver.cpp:792
+#: khtml/khtml_part.cpp:6598 khtml/java/kjavaappletserver.cpp:792
 msgid "Security Alert"
 msgstr "భద్రతా హెచ్చరిక"
 
-#: khtml/khtml_part.cpp:6949
+#: khtml/khtml_part.cpp:6948
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
-msgstr "'%1' వాలెట్ తెరవబడివున్నది మరయు ఫారం దత్తాంశాలు మరయూ పాస్ వర్డుల కొరకు వాడబడుతుంది."
+msgstr "'%1' వాలెట్ తెరవబడివున్నది మరయు ఫారం దత్తాంశాలు మరయూ సంకేతపదముల కొరకు వాడబడుతుంది."
 
-#: khtml/khtml_part.cpp:7006
+#: khtml/khtml_part.cpp:7005
 msgid "&Close Wallet"
 msgstr "(&C) వాలెట్ ముసివేయి"
 
-#: khtml/khtml_part.cpp:7049
+#: khtml/khtml_part.cpp:7048
 msgid "JavaScript &Debugger"
 msgstr "(&D) జావాస్క్రిప్ట్ డీబగ్గర్"
 
-#: khtml/khtml_part.cpp:7082
+#: khtml/khtml_part.cpp:7081
 msgid "This page was prevented from opening a new window via JavaScript."
 msgstr "జావాస్క్రిప్ట్ ద్వారా కొత్త విండొ తెరవకుండా ఈ పుటను ఆపడమైనది"
 
-#: khtml/khtml_part.cpp:7088
+#: khtml/khtml_part.cpp:7087
 msgid "Popup Window Blocked"
 msgstr "పాప్ అప్ విండొ ఆపివేయడమైనది"
 
-#: khtml/khtml_part.cpp:7088
+#: khtml/khtml_part.cpp:7087
 msgid ""
 "This page has attempted to open a popup window but was blocked.\n"
 "You can click on this icon in the status bar to control this behavior\n"
 "or to open the popup."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7101
+#: khtml/khtml_part.cpp:7100
 #, kde-format
 msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
 msgstr[0] "(&S) ఆపివేయబడిన పాప్ అప్ విండొను చూపు"
 msgstr[1] "(&S) %1 ఆపివేయబడిన పాప్ అప్ విండొలను చూపు"
 
-#: khtml/khtml_part.cpp:7102
+#: khtml/khtml_part.cpp:7101
 msgid "Show Blocked Window Passive Popup &Notification"
 msgstr "(&N) ఆపిన విండొ లొ వూరికేవున్న పాప్ అప్ ప్రకటనను చూపు"
 
-#: khtml/khtml_part.cpp:7104
+#: khtml/khtml_part.cpp:7103
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "&(C) జావాస్క్రిప్ట్ కొత్త విండొ పాలసీలను అమర్చు..."
 
@@ -10902,8 +10450,9 @@ msgid "Continue"
 msgstr "కొనసాగించు"
 
 #: khtml/test_regression_gui_window.cpp:632
+#, fuzzy
 msgid "Cannot find testregression executable."
-msgstr ""
+msgstr "'%1' కార్యక్రమం కనపడలేదు"
 
 #: khtml/test_regression_gui_window.cpp:1102
 msgid "Run test..."
@@ -10917,39 +10466,39 @@ msgstr "విస్మరించదగువాటి లొ చేర్చ�
 msgid "Remove from ignores..."
 msgstr "విస్మరించదగువాటి లొంచి తిసివెయి..."
 
-#: khtml/khtmlview.cpp:1911
+#: khtml/khtmlview.cpp:1913
 msgid "Find stopped."
 msgstr "వెతుకుట ఆగిపొయింది."
 
-#: khtml/khtmlview.cpp:1922
+#: khtml/khtmlview.cpp:1924
 msgid "Starting -- find links as you type"
 msgstr "మొదలు  - లింకులు వ్రాస్తుండగా వెతుకు"
 
-#: khtml/khtmlview.cpp:1928
+#: khtml/khtmlview.cpp:1930
 msgid "Starting -- find text as you type"
 msgstr "మొదలు - వచనం వ్రాస్తుండగా వెతుకు"
 
-#: khtml/khtmlview.cpp:1951
+#: khtml/khtmlview.cpp:1953
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "లింకు దొరికింది: \"%1\"."
 
-#: khtml/khtmlview.cpp:1956
+#: khtml/khtmlview.cpp:1958
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "లింకు దొరకలేదు: \"%1\"."
 
-#: khtml/khtmlview.cpp:1964
+#: khtml/khtmlview.cpp:1966
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "వచనం దొరికింది: \"%1\""
 
-#: khtml/khtmlview.cpp:1969
+#: khtml/khtmlview.cpp:1971
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "వచనం దొరకలేదు: \"%1\""
 
-#: khtml/khtmlview.cpp:2012
+#: khtml/khtmlview.cpp:2014
 msgid "Access Keys activated"
 msgstr ""
 
@@ -11057,19 +10606,24 @@ msgid "Disallow"
 msgstr "నిషెధించు"
 
 #: khtml/ecma/kjs_html.cpp:2107
+#, fuzzy
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
 "Do you want to allow the form to be submitted?"
 msgstr ""
+"ఈ సైట్ జావా స్క్రిప్ట్ ద్వారా కొత్త విండొని తెరువుటకు మనవి కోరుతుంది.\n"
+"అనుమతించ మంటారా?"
 
 #: khtml/ecma/kjs_html.cpp:2110
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
 "browser window via JavaScript.<br />Do you want to allow the form to be "
 "submitted?</qt>"
 msgstr ""
+"<qt>ఈ సైట్ <p>%1</p>జావా స్క్రిప్ట్ ద్వారా కొత్త విండొని తెరువుటకు మనవి కోరుతుంది.<br />అనుమతించ "
+"మంటారా?</qt>"
 
 #: khtml/ecma/debugger/debugdocument.cpp:187
 msgid ""
@@ -11078,8 +10632,9 @@ msgid ""
 msgstr ""
 
 #: khtml/ecma/debugger/debugdocument.cpp:253
+#, fuzzy
 msgid "Breakpoint"
-msgstr ""
+msgstr "బ్రేక్‌పాయింటుకు నడుపుము..."
 
 #: khtml/ecma/debugger/scriptsdock.cpp:40
 msgid "Loaded Scripts"
@@ -11103,7 +10658,6 @@ msgstr "(&B) తరువాతి ప్రవచనం వద్ద ఆగు�
 
 #: khtml/ecma/debugger/debugwindow.cpp:187
 #, fuzzy
-#| msgid "&Break at Next Statement"
 msgid "Break at Next"
 msgstr "(&B) తరువాతి ప్రవచనం వద్ద ఆగుము"
 
@@ -11125,9 +10679,8 @@ msgstr ""
 
 #: khtml/ecma/debugger/debugwindow.cpp:224
 #, fuzzy
-#| msgid "Action"
 msgid "Report Exceptions"
-msgstr "చర్య"
+msgstr "మరిన్ని చర్యలు"
 
 #: khtml/ecma/debugger/debugwindow.cpp:232
 msgid "&Debug"
@@ -11200,8 +10753,6 @@ msgstr "వరుస"
 
 #: khtml/find/khtmlfindbar.cpp:207
 #, fuzzy
-#| msgid "1 match found."
-#| msgid_plural "%1 matches found."
 msgid "Not found"
 msgstr "1 జత కనపడింది."
 
@@ -11396,34 +10947,30 @@ msgstr ""
 
 #: khtml/rendering/render_form.cpp:593
 #, fuzzy
-#| msgid "Shortcut"
 msgid "New Web Shortcut"
 msgstr "శీఘ్ర మార్గం"
 
 #: khtml/rendering/render_form.cpp:614
-#, fuzzy, kde-format
-#| msgctxt "Socket error code AlreadyCreated"
-#| msgid "socket is already created"
+#, kde-format
 msgid "%1 is already assigned to %2"
-msgstr "సాకెట్ ముందే సృష్టించబడినది "
+msgstr ""
 
 #: khtml/rendering/render_form.cpp:659
 msgid "Search &provider name:"
 msgstr ""
 
 #: khtml/rendering/render_form.cpp:661
+#, fuzzy
 msgid "New search provider"
-msgstr ""
+msgstr "శోధన పదాన్ని యిక్కడ ప్రవేశపెట్టుము"
 
 #: khtml/rendering/render_form.cpp:666
 #, fuzzy
-#| msgid "Shortcuts"
 msgid "UR&I shortcuts:"
 msgstr "శీఘ్ర మార్గాలు"
 
 #: khtml/rendering/render_form.cpp:752
 #, fuzzy
-#| msgid "Configure Shortcuts"
 msgid "Create Web Shortcut"
 msgstr "శీఘ్రమార్గాలను అమర్చండి"
 
@@ -11469,7 +11016,7 @@ msgid ""
 "klauncher: This program is not supposed to be started manually.\n"
 "klauncher: It is started automatically by kdeinit4.\n"
 msgstr ""
-"కెలాంచర్: ఈ కార్యక్రమం మెన్యువల్ గా మొదలుపెట్టకూడదు.\n"
+"కెలాంచర్: ఈ ప్రోగ్రామ్ మెన్యువల్ గా మొదలుపెట్టకూడదు.\n"
 "కెలాంచర్: ఇది kdeinit4 ద్వారా మొదలుపెట్టబడును.\n"
 
 #: kinit/klauncher.cpp:519
@@ -11524,7 +11071,7 @@ msgstr "ఎంచుకొన్న స్క్రిప్ట్ ను మొ
 
 #: kross/ui/view.cpp:311
 msgid "Stop execution of the selected script."
-msgstr "ఎంచుకొన్న స్క్రిప్ట్ ను ఆపు"
+msgstr "ఎంచుకొన్న స్క్రిప్‍ట్‌యొక్క నిర్వర్తనను ఆపు"
 
 #: kross/ui/view.cpp:316
 msgid "Edit..."
@@ -11552,7 +11099,6 @@ msgstr "సరిదిద్దు"
 
 #: kross/ui/view.cpp:512
 #, fuzzy
-#| msgid "General"
 msgctxt "@title:group Script properties"
 msgid "General"
 msgstr "సాధారణ"
@@ -11562,8 +11108,9 @@ msgid "Kross"
 msgstr "క్రాస్"
 
 #: kross/qts/main.cpp:58 kross/console/main.cpp:96
+#, fuzzy
 msgid "KDE application to run Kross scripts."
-msgstr ""
+msgstr "క్రాస్ స్క్రిప్ట్ లను మొదలుపెట్టు..."
 
 #: kross/qts/main.cpp:60 kross/console/main.cpp:98
 msgid "(C) 2006 Sebastian Sauer"
@@ -11620,8 +11167,9 @@ msgid "KrossTest"
 msgstr "క్రాస్ పరీక్ష"
 
 #: kross/test/main.cpp:143
+#, fuzzy
 msgid "KDE application to test the Kross framework."
-msgstr ""
+msgstr "క్రాస్ ఫ్రేమ్ వర్క్ ను పరీక్షించు!"
 
 #: kross/test/main.cpp:145
 msgid "(C) 2005-2007 Sebastian Sauer"
@@ -11671,12 +11219,14 @@ msgid "File to read update instructions from"
 msgstr ""
 
 #: kconf_update/kconf_update.cpp:957
+#, fuzzy
 msgid "KConf Update"
-msgstr ""
+msgstr "కొత్త మార్పులు"
 
 #: kconf_update/kconf_update.cpp:959
+#, fuzzy
 msgid "KDE Tool for updating user configuration files"
-msgstr ""
+msgstr "ప్రత్యామ్నాయ ఆకృతీకరణ దస్త్రము"
 
 #: kconf_update/kconf_update.cpp:961
 msgid "(c) 2001, Waldo Bastian"
@@ -11700,7 +11250,7 @@ msgstr "తయారు చెయబడె ప్లగిన్ క్లాస
 
 #: kdewidgets/makekdewidgets.cpp:91
 msgid "Default widget group name to display in designer"
-msgstr "డిజైనర్ లొ చూపబడె అప్రమేయ విడ్జెట్ గుంపు పేరు"
+msgstr "డిజైనర్‌లో ప్రదర్శించు అప్రమేయ విడ్జెట్ గుంపు పేరు"
 
 #: kdewidgets/makekdewidgets.cpp:94
 msgid "makekdewidgets"
@@ -11723,8 +11273,9 @@ msgid "Success"
 msgstr "సఫలం"
 
 #: nepomuk/core/resource.cpp:418
+#, fuzzy
 msgid "Communication error"
-msgstr ""
+msgstr "మూల్యాంకన దోషము"
 
 #: nepomuk/core/resource.cpp:420
 msgid "Invalid type in Database"
@@ -11756,8 +11307,9 @@ msgid "Tag Exists"
 msgstr "టాగ్ కలదు"
 
 #: nepomuk/core/ui/nepomukmassupdatejob.cpp:74
+#, fuzzy
 msgid "Changing annotations"
-msgstr ""
+msgstr "ప్రకటనలను అమర్చు..."
 
 #: nepomuk/core/test/tagcloudtest.cpp:30
 msgid "tagcloudtest"
@@ -11848,9 +11400,9 @@ msgid ""
 msgstr "<qt><p>కారణనిర్ణయం:<br>%1 రంగస్థల దస్త్రం కనబడలేదు.</p></qt>"
 
 #: kutils/kcmoduleloader.cpp:79
-#, kde-format
+#, fuzzy, kde-format
 msgid "The module %1 is disabled."
-msgstr ""
+msgstr "%1 మాడ్యూల్ కనపడలేదు."
 
 #: kutils/kcmoduleloader.cpp:80
 msgid ""
@@ -11861,7 +11413,7 @@ msgstr ""
 #: kutils/kcmoduleloader.cpp:133
 #, kde-format
 msgid "The module %1 is not a valid configuration module."
-msgstr "%1 మాడ్యూల్ సరైన అమరిక మడ్యూల్ కాదు."
+msgstr "%1 మాడ్యూల్ సరైన ఆకృతీకరణ మడ్యూల్ కాదు."
 
 #: kutils/kcmoduleloader.cpp:134
 #, kde-format
@@ -11946,7 +11498,6 @@ msgstr[1] ""
 
 #: kutils/kpluginselector.cpp:257
 #, fuzzy
-#| msgid "Search Columns"
 msgid "Search Plugins"
 msgstr "నిలువు వరుసలలొ వెతుకు"
 
@@ -11959,16 +11510,10 @@ msgid "Print Preview"
 msgstr "ప్రచురణ ముందస్తు వీక్షణం"
 
 #: kutils/kcmoduleproxy.cpp:134
-#, fuzzy
-#| msgid ""
-#| "<b>Changes in this section requires root access.</b><br />Click the "
-#| "\"Administrator Mode\" button to allow modifications."
 msgid ""
 "<b>Changes in this section require root access.</b><br />On applying your "
 "changes you will have to supply your root password."
 msgstr ""
-"<b>ఈ అధ్యాయము లొ మార్పులకు రూట్ అనుమతి కావాలి.</b><br />మార్పులను అనుమతించటానికి రూట్ పాస్ వర్డ్ "
-"కావాలి"
 
 #: kutils/kcmoduleproxy.cpp:141
 msgid ""
@@ -11990,7 +11535,6 @@ msgstr "అంశాలను ఎంచుకొనుము"
 
 #: kutils/ksettings/dialog.cpp:232
 #, fuzzy
-#| msgid "Embeddable HTML component"
 msgid "Enable component"
 msgstr "పొదగదగ్గ హెచ్టిఎంఎల్ అంశం"
 
@@ -12071,10 +11615,9 @@ msgstr "'%1' కొరకు కాల్ విఫలము."
 
 #: kjsembed/kjsembed/qobject_binding.cpp:782
 #: kjsembed/kjsembed/object_binding.h:219
-#, fuzzy, kde-format
-#| msgid "Base is not an object"
+#, kde-format
 msgid "%1 is not an Object type"
-msgstr "%1 ఆబ్జెక్ట్ రకం కాదు"
+msgstr ""
 
 #: kjsembed/kjsembed/qobject_binding.cpp:788
 msgid "Could not construct value"
@@ -12130,35 +11673,32 @@ msgstr ""
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:70
 #, fuzzy
-#| msgid "Unable to create file to upload."
 msgid "Failed to create Action."
-msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
+msgstr "\"%1\" దుబాసీ కొరకు స్క్రిప్ట్ ను తయారు చెయలేకపొయాను ."
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:81
 #, fuzzy
-#| msgid "Unable to create file to upload."
 msgid "Failed to create ActionGroup."
-msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
+msgstr "\"%1\" దుబాసీ కొరకు స్క్రిప్ట్ ను తయారు చెయలేకపొయాను ."
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:88
+#, fuzzy
 msgid "No classname specified"
-msgstr ""
+msgstr "ఏమి ఇవ్వబడలేదు"
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:95
-#, fuzzy
-#| msgid "Unable to create file to upload."
 msgid "Failed to create Layout."
-msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
+msgstr ""
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:103
+#, fuzzy
 msgid "No classname specified."
-msgstr ""
+msgstr "ఏమి ఇవ్వబడలేదు"
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:110
 #, fuzzy
-#| msgid "Unable to create file to upload."
 msgid "Failed to create Widget."
-msgstr "ఎక్కించుటకు దస్త్రాన్ని సృష్టించలేకపొయాను."
+msgstr "(&W) పేజి వెడల్పునకు పట్టించు"
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:122
 #, kde-format
@@ -12201,13 +11741,11 @@ msgstr ""
 
 #: kjsembed/kjsembed/builtins.cpp:154
 #, fuzzy
-#| msgid "Alt"
 msgid "Alert"
 msgstr "Alt"
 
 #: kjsembed/kjsembed/builtins.cpp:165
 #, fuzzy
-#| msgid "Configure"
 msgid "Confirm"
 msgstr "అమర్చు"
 
@@ -12292,17 +11830,18 @@ msgstr "(&R) పునరాచరణ: %1"
 
 #: kde3support/kdeui/k3passworddialog.cpp:360
 msgid "&Password:"
-msgstr "(&P) పాస్ వర్డ్:"
+msgstr "(&P) సంకేతపదము:"
 
 #: kde3support/kdeui/k3passworddialog.cpp:378
 msgid "&Keep password"
-msgstr "(&K) పాస్ వర్డ్ వుంచుము"
+msgstr "(&K) సంకేతపదము వుంచుము"
 
 #: kde3support/kdeui/k3passworddialog.cpp:564
 #: kde3support/kdeui/k3passworddialog.cpp:568
 #: kde3support/kdeui/k3passworddialog.cpp:589
+#, fuzzy
 msgid "Password Input"
-msgstr ""
+msgstr "సంకేతపదము"
 
 #: kde3support/kdeui/k3sconfig.cpp:109
 msgctxt "@option:check"
@@ -12532,8 +12071,9 @@ msgid "(No logo available)"
 msgstr "(చిహ్నము సిద్దముగా లేదు)"
 
 #: kde3support/kdeui/k3textedit.cpp:348
+#, fuzzy
 msgid "Spell Checking"
-msgstr ""
+msgstr "అచ్చుతప్పులు సరిచూడు"
 
 #: kde3support/kdeui/k3dockwidget.cpp:272
 msgid "Close"
@@ -12577,8 +12117,9 @@ msgid "You have to restart the dialog for changes to take effect"
 msgstr ""
 
 #: kde3support/kdeui/k3spell.cpp:1467
+#, fuzzy
 msgid "Spell Checker"
-msgstr ""
+msgstr "అచ్చుతప్పులు సరిచూడు"
 
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:519
 msgid "Incremental Spellcheck"
@@ -12670,10 +12211,9 @@ msgstr "సంత్రుప్తత:"
 
 #: kdeui/colors/kcolordialog.cpp:1039
 #, fuzzy
-#| msgid "Value:"
 msgctxt "This is the V of HSV"
 msgid "Value:"
-msgstr "విలువ:"
+msgstr "విలువ"
 
 #: kdeui/colors/kcolordialog.cpp:1053
 msgid "Red:"
@@ -12718,7 +12258,7 @@ msgstr "టిఈపరీక్ష"
 
 #: kdecore/util/qtest_kde.h:74 kdecore/util/qtest_kde.h:122
 msgid "KDE Test Program"
-msgstr "కెడిఈ పరీక్షా కార్యక్రమం"
+msgstr "కెడిఈ పరీక్షా ప్రోగ్రామ్"
 
 #: kdecore/services/kservice.h:520
 #, kde-format
@@ -12728,8 +12268,9 @@ msgstr ""
 #: kdecore/services/kmimetypetrader.h:136
 #: kdecore/services/kmimetypetrader.h:169
 #: kdecore/services/kservicetypetrader.h:192
+#, fuzzy
 msgid "No service matching the requirements was found"
-msgstr ""
+msgstr "ఏ సేవా సరిజోడీ అవసరములు కనబడలేదు."
 
 #: kdeui/actions/kstandardaction_p.h:43
 msgid "&New"
@@ -12745,9 +12286,8 @@ msgstr "(&v) మళ్ళించు"
 
 #: kdeui/actions/kstandardaction_p.h:51
 #, fuzzy
-#| msgid "Print Previe&w..."
 msgid "Print Previe&w"
-msgstr "(&w) ప్రచురణ ముందస్తు వీక్షణం"
+msgstr "ప్రచురణ ముందస్తు వీక్షణం"
 
 #: kdeui/actions/kstandardaction_p.h:52
 msgid "&Mail..."
@@ -12819,7 +12359,7 @@ msgstr "(&Z) పెద్ద పరిమాణము..."
 
 #: kdeui/actions/kstandardaction_p.h:76
 msgid "&Redisplay"
-msgstr "(&R) పునర్ప్రదర్సన"
+msgstr "(&R) పునఃప్రదర్శన"
 
 #: kdeui/actions/kstandardaction_p.h:78
 msgid "&Up"
@@ -12907,620 +12447,6 @@ msgid "Tip of the &Day"
 msgstr "(&D) ఈ రోజు సూచన"
 
 #: kross/qts/values_p.h:69
-#, kde-format
+#, fuzzy, kde-format
 msgid "No such function \"%1\""
-msgstr ""
-
-#, fuzzy
-#~| msgid "Add Comment"
-#~ msgid "Add Elements"
-#~ msgstr "వ్యాఖ్య వ్రాయి"
-
-#, fuzzy
-#~| msgid "R&eplace All"
-#~ msgid "Replace Element"
-#~ msgstr "(&e) అన్నిటినీ ప్రతిస్థాపించుము"
-
-#, fuzzy
-#~| msgid "Quit application"
-#~ msgid "Sample KFormula application"
-#~ msgstr "కార్యక్రమం మూసివేయి"
-
-#, fuzzy
-#~| msgid "Options"
-#~ msgid "&Options"
-#~ msgstr "ఇష్టములు"
-
-#~ msgid "None"
-#~ msgstr "ఏదీ వద్దు"
-
-#, fuzzy
-#~| msgid "Untrusted"
-#~ msgid "Unsorted"
-#~ msgstr "నమ్మకమైనది కాదు"
-
-#~ msgid "Call stack"
-#~ msgstr "కాల్ స్టెక్"
-
-#~ msgid "JavaScript console"
-#~ msgstr "జావాస్క్రిప్ట్ కంసోల్"
-
-#~ msgctxt "Next breakpoint"
-#~ msgid "&Next"
-#~ msgstr "(&N) తర్వాత"
-
-#~ msgid "&Step"
-#~ msgstr "(&S) అడుగు"
-
-#~ msgid "&Continue"
-#~ msgstr "(&C) కొనసాగించు"
-
-#~ msgid "St&op"
-#~ msgstr "(&o) ఆగు"
-
-#~ msgctxt "Next breakpoint"
-#~ msgid "Next"
-#~ msgstr "తరువాత"
-
-#~ msgid ""
-#~ "An error occurred while attempting to run a script on this page.\n"
-#~ "\n"
-#~ "%1"
-#~ msgstr ""
-#~ "ఈ పుటలొ స్క్రిప్టును నడుపుటకు ప్రయత్నించునప్పుడు దొషం వచ్చింది\n"
-#~ ".\n"
-#~ "%1"
-
-#, fuzzy
-#~| msgid "From:"
-#~ msgid "Form"
-#~ msgstr "ఇట్లు:"
-
-#~ msgid "%1 %"
-#~ msgstr "%1 %"
-
-#~ msgid "Already open."
-#~ msgstr "ముందే తెరవబడినది."
-
-#~ msgid "Error opening file."
-#~ msgstr "దస్త్రం తెరచుటలో దోషము."
-
-#~ msgid "Not a wallet file."
-#~ msgstr "ఇది వాలెట్ దస్త్రం కాదు"
-
-#~ msgid "Unsupported file format revision."
-#~ msgstr "సహాయము చెయబడని దస్త్ర ఫార్మేట్ పునర్విమర్శ."
-
-#~ msgid "Unknown encryption scheme."
-#~ msgstr "తెలియని ఎన్క్రిప్షన్ పద్దతి."
-
-#~ msgid "Corrupt file?"
-#~ msgstr "చెడిన దస్త్రం?"
-
-#~ msgid "Read error - possibly incorrect password."
-#~ msgstr "చదువుట దొషం - తప్పు పాస్ వర్డు కావచ్చు"
-
-#~ msgid "Decryption error."
-#~ msgstr "డీక్రిప్షన్ దొషం."
-
-#, fuzzy
-#~| msgid "Open &Recent"
-#~ msgctxt "@action"
-#~ msgid "OpenRecent"
-#~ msgstr "(&R) ఇటీవలివి తెరువండి"
-
-#, fuzzy
-#~| msgid "Save As"
-#~ msgctxt "@action"
-#~ msgid "SaveAs"
-#~ msgstr "ఇలా దాచు"
-
-#, fuzzy
-#~| msgid "Print Preview"
-#~ msgctxt "@action"
-#~ msgid "PrintPreview"
-#~ msgstr "ప్రచురణ ముందస్తు వీక్షణం"
-
-#, fuzzy
-#~| msgid "&Actual Size"
-#~ msgctxt "@action"
-#~ msgid "ActualSize"
-#~ msgstr "(&A) అసలైన పరిమాణము"
-
-#, fuzzy
-#~| msgid "&Edit Bookmarks"
-#~ msgctxt "@action"
-#~ msgid "EditBookmarks"
-#~ msgstr "(&E) గుర్తులు మార్చుము"
-
-#, fuzzy
-#~| msgid "Show &Toolbar"
-#~ msgctxt "@action"
-#~ msgid "ShowToolbar"
-#~ msgstr "(&T) పనిముట్ల పట్టీ చూపుము"
-
-#, fuzzy
-#~| msgid "Show St&atusbar"
-#~ msgctxt "@action"
-#~ msgid "ShowStatusbar"
-#~ msgstr "(&a) స్థితి పట్టీ చూపుము"
-
-#, fuzzy
-#~| msgid "Configure Toolbars"
-#~ msgctxt "@action"
-#~ msgid "ConfigureToolbars"
-#~ msgstr "పనిముట్ల పట్టీలను అమర్చండి"
-
-#, fuzzy
-#~| msgid "Configure Notifications"
-#~ msgctxt "@action"
-#~ msgid "ConfigureNotifications"
-#~ msgstr "ప్రకటనలను అమర్చు..."
-
-#, fuzzy
-#~| msgid "Switch Application Language"
-#~ msgctxt "@action"
-#~ msgid "SwitchApplicationLanguage"
-#~ msgstr "కార్యక్రమ భాషను మార్చు"
-
-#, fuzzy
-#~| msgid "About"
-#~ msgctxt "@action"
-#~ msgid "AboutApp"
-#~ msgstr "గురించి"
-
-#, fuzzy
-#~| msgid "About &KDE"
-#~ msgctxt "@action"
-#~ msgid "AboutKDE"
-#~ msgstr "(&K) కెడిఈ గురించి"
-
-#~ msgid "Search"
-#~ msgstr "అన్వేషణ"
-
-#~ msgid "English"
-#~ msgstr "ఆంగ్లము"
-
-#, fuzzy
-#~| msgid "Trash"
-#~ msgctxt "@action:inmenu"
-#~ msgid "Empty Trash"
-#~ msgstr "చెత్త బుట్ట"
-
-#, fuzzy
-#~| msgid "&Edit..."
-#~ msgid "&Edit '%1'..."
-#~ msgstr "(&E) సరిదిద్దు..."
-
-#, fuzzy
-#~| msgid "Hide %1"
-#~ msgid "&Hide '%1'"
-#~ msgstr "%1 చూపించకు"
-
-#, fuzzy
-#~| msgid "Show all options"
-#~ msgid "&Show All Entries"
-#~ msgstr "అన్ని ఐచ్చికములు చూపుము"
-
-#, fuzzy
-#~| msgid "&Remove"
-#~ msgid "&Remove '%1'"
-#~ msgstr "(&R) తొలగించు"
-
-#, fuzzy
-#~| msgid "Do you really want to delete this item?"
-#~| msgid_plural "Do you really want to delete these %1 items?"
-#~ msgctxt "@info"
-#~ msgid "Do you really want to empty the Trash? All items will be deleted."
-#~ msgstr "ఈ అంశం ను నిజంగా తిసివేయనా?"
-
-#, fuzzy
-#~| msgid "Trash"
-#~ msgctxt "@action:button"
-#~ msgid "Empty Trash"
-#~ msgstr "చెత్త బుట్ట"
-
-#, fuzzy
-#~| msgid "Files"
-#~ msgid "*|All Files"
-#~ msgstr "దస్త్రములు"
-
-#, fuzzy
-#~| msgid "&Send Files"
-#~ msgid "All Supported Files"
-#~ msgstr "(&S) దస్త్రములు పంపు"
-
-#, fuzzy
-#~| msgid "Hide %1"
-#~ msgid "Drive: %1"
-#~ msgstr "%1 చూపించకు"
-
-#, fuzzy
-#~| msgid "Could not create the new file."
-#~ msgid "Click this button to create a new folder."
-#~ msgstr "కొత్త దస్త్రాన్ని సృష్టించలేను."
-
-#, fuzzy
-#~| msgid "Show license information"
-#~ msgid "Show Places Navigation Panel"
-#~ msgstr "లైసెన్స్ సమాచరం చూపుము"
-
-#, fuzzy
-#~| msgid "Bookmarks"
-#~ msgid "Show Bookmarks"
-#~ msgstr "పేజి గుర్తులు"
-
-#, fuzzy
-#~| msgctxt "QFont"
-#~| msgid "Latin"
-#~ msgid "&Location:"
-#~ msgstr "లాటిన్"
-
-#, fuzzy
-#~| msgid "Filter:"
-#~ msgid "&Filter:"
-#~ msgstr "గలని:"
-
-#, fuzzy
-#~| msgid "InvalidCA"
-#~ msgid "Invalid URL"
-#~ msgstr "చెల్లని సిఏ"
-
-#, fuzzy
-#~| msgid ""
-#~| "A file named \"%1\" already exists. Are you sure you want to overwrite "
-#~| "it?"
-#~ msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
-#~ msgstr "\"%1\" పేరుతొ దస్త్రం ముందే వుంది. మీరు దానిని తిరిగి వ్రాయమంటారా?"
-
-#, fuzzy
-#~| msgid "Invalid reference base"
-#~ msgid "Invalid Filenames"
-#~ msgstr "సరికాని సంబంద మూలం"
-
-#, fuzzy
-#~| msgid "File Error"
-#~ msgid "Filename Error"
-#~ msgstr "దస్త్రపు దోషం"
-
-#~ msgid "Bookmarks"
-#~ msgstr "పేజి గుర్తులు"
-
-#, fuzzy
-#~| msgctxt "Home phone"
-#~| msgid "Home"
-#~ msgctxt "Home Directory"
-#~ msgid "Home"
-#~ msgstr "గృహము"
-
-#, fuzzy
-#~| msgid "New"
-#~ msgid "Network"
-#~ msgstr "కొత్త"
-
-#, fuzzy
-#~| msgid "NoCARoot"
-#~ msgid "Root"
-#~ msgstr "సిఏరూట్ లేదు"
-
-#~ msgid "Trash"
-#~ msgstr "చెత్త బుట్ట"
-
-#, fuzzy
-#~| msgid "&Remove"
-#~ msgid "&Release '%1'"
-#~ msgstr "(&R) తొలగించు"
-
-#, fuzzy
-#~| msgid "&Remove"
-#~ msgid "&Safely Remove '%1'"
-#~ msgstr "(&R) తొలగించు"
-
-#, fuzzy
-#~| msgid "&About %1"
-#~ msgid "&Unmount '%1'"
-#~ msgstr "(&A) %1 గురించి"
-
-#, fuzzy
-#~| msgid "&Open with '%1'"
-#~ msgid "&Eject '%1'"
-#~ msgstr "(&O) దీనితో తెరువండి '%1'"
-
-#, fuzzy
-#~| msgid "An error occurred while loading <B>%1</B>:"
-#~ msgid "An error occurred while accessing '%1', the system responded: %2"
-#~ msgstr "<B>%1<B> ఎక్కించునప్పుడు దోషము వచ్చినది:"
-
-#, fuzzy
-#~| msgid "An error occurred while loading <B>%1</B>:"
-#~ msgid "An error occurred while accessing '%1'"
-#~ msgstr "<B>%1<B> ఎక్కించునప్పుడు దోషము వచ్చినది:"
-
-#, fuzzy
-#~| msgid "Custom"
-#~ msgid "Custom Path"
-#~ msgstr "నిర్దేశితమైన"
-
-#, fuzzy
-#~| msgid "New file."
-#~ msgid "New Folder"
-#~ msgstr "కొత్త దస్త్రం"
-
-#, fuzzy
-#~| msgid "New file."
-#~ msgctxt "@title:window"
-#~ msgid "New Folder"
-#~ msgstr "కొత్త దస్త్రం"
-
-#, fuzzy
-#~| msgid "Select Color"
-#~ msgctxt "@title:window"
-#~ msgid "Select Folder"
-#~ msgstr "రంగు ఎంచుకొనుము"
-
-#, fuzzy
-#~| msgid "New file."
-#~ msgctxt "@action:button"
-#~ msgid "New Folder..."
-#~ msgstr "కొత్త దస్త్రం"
-
-#, fuzzy
-#~| msgid "New file."
-#~ msgctxt "@action:inmenu"
-#~ msgid "New Folder..."
-#~ msgstr "కొత్త దస్త్రం"
-
-#, fuzzy
-#~| msgid "&Send Files"
-#~ msgctxt "@option:check"
-#~ msgid "Show Hidden Folders"
-#~ msgstr "(&S) దస్త్రములు పంపు"
-
-#, fuzzy
-#~| msgid "&Edit..."
-#~ msgid "Edit Places Entry"
-#~ msgstr "(&E) సరిదిద్దు..."
-
-#, fuzzy
-#~| msgid "Description:"
-#~ msgid "&Description:"
-#~ msgstr "వర్ణన:"
-
-#~ msgid "Choose an &icon:"
-#~ msgstr "(&i) ప్రతిమను ఎంచుకోండి:"
-
-#, fuzzy
-#~| msgid "&Send Files"
-#~ msgid "Show Hidden Folders"
-#~ msgstr "(&S) దస్త్రములు పంపు"
-
-#~ msgid ""
-#~ "Create new folder in:\n"
-#~ "%1"
-#~ msgstr ""
-#~ "%1 లో \n"
-#~ "కొత్త ఫొల్డర్ను సృష్టించు"
-
-#~ msgid "Nothing to Delete"
-#~ msgstr "తొలగించటాని ఏమి లేదు"
-
-#~ msgid ""
-#~ "<qt>Do you really want to delete\n"
-#~ " <b>'%1'</b>?</qt>"
-#~ msgstr ""
-#~ "<qt><b>'%1'</b> ను \n"
-#~ " నిజంగా తొలగించనా?</qt>"
-
-#~ msgid "Delete File"
-#~ msgstr "దస్త్రం తొలగించుము"
-
-#~ msgid "Do you really want to delete this item?"
-#~ msgid_plural "Do you really want to delete these %1 items?"
-#~ msgstr[0] "ఈ అంశం ను నిజంగా తిసివేయనా?"
-#~ msgstr[1] "%1 అంశాల ను నిజంగా తిసివేయనా?"
-
-#~ msgid "Delete Files"
-#~ msgstr "దస్త్రాలను తీసివేయండి"
-
-#~ msgid "Nothing to Trash"
-#~ msgstr "చెత్త బుట్ట లొ వెయటానికి ఏమి లేదు"
-
-#, fuzzy
-#~| msgid "Do you really want to execute '%1'? "
-#~ msgid ""
-#~ "<qt>Do you really want to trash\n"
-#~ " <b>'%1'</b>?</qt>"
-#~ msgstr ""
-#~ "<qt><b>'%1'</b> ను \n"
-#~ "నిజంగా చెత్త బుట్ట లొ వెయమంటారా?</qt>"
-
-#~ msgid "Trash File"
-#~ msgstr "దస్త్రంను చెత్త బుట్ట లొ వేయి"
-
-#~ msgctxt "to trash"
-#~ msgid "&Trash"
-#~ msgstr "(&T) చెత్త బుట్ట"
-
-#~ msgid "Trash Files"
-#~ msgstr "దస్త్రాలను చెత్త బుట్ట లొ వేయి"
-
-#~ msgid "Menu"
-#~ msgstr "పట్టీ"
-
-#~ msgid "Home Folder"
-#~ msgstr "గృహం ఫోల్డర్"
-
-#~ msgid "Reload"
-#~ msgstr "తిరిగి ఎక్కించు"
-
-#~ msgid "New Folder..."
-#~ msgstr "కొత్త ఫొల్డర్..."
-
-#~ msgid "Move to Trash"
-#~ msgstr "చెత్త బుట్ట లొ వేయి"
-
-#~ msgid "Sorting"
-#~ msgstr "క్రమపరచు"
-
-#~ msgid "By Name"
-#~ msgstr "పేరు చె"
-
-#~ msgid "By Size"
-#~ msgstr "పరిమాణము చె"
-
-#~ msgid "By Date"
-#~ msgstr "తేదీలు చె"
-
-#~ msgid "By Type"
-#~ msgstr "రకము చె"
-
-#~ msgid "Descending"
-#~ msgstr "అవరోహణం"
-
-#~ msgid "Short View"
-#~ msgstr "చిన్న వీక్షణం"
-
-#~ msgid "Detailed View"
-#~ msgstr "వివరములతొ కూడిన వీక్షణం"
-
-#, fuzzy
-#~| msgid "Detailed View"
-#~ msgid "Tree View"
-#~ msgstr "వివరములతొ కూడిన వీక్షణం"
-
-#, fuzzy
-#~| msgid "Detailed View"
-#~ msgid "Detailed Tree View"
-#~ msgstr "వివరములతొ కూడిన వీక్షణం"
-
-#~ msgid "Show Hidden Files"
-#~ msgstr "దాగిన దస్త్రములు చూపు"
-
-#~ msgid "Show Preview"
-#~ msgstr "ముందు వీక్షణం చూపు"
-
-#~ msgid "Click for Location Navigation"
-#~ msgstr "స్థలంకు  వెళ్ళెందుకు క్లిక్ చెయండి"
-
-#~ msgid "Navigate"
-#~ msgstr "సంచారము"
-
-#, fuzzy
-#~| msgid "Show all options"
-#~ msgid "Show Full Path"
-#~ msgstr "అన్ని ఐచ్చికములు చూపుము"
-
-#, fuzzy
-#~| msgid "Business"
-#~ msgctxt "@item Text character set"
-#~ msgid "Chinese"
-#~ msgstr "వ్యాపార"
-
-#, fuzzy
-#~| msgid "New file."
-#~ msgctxt "@info:tooltip"
-#~ msgid "Parent Folder"
-#~ msgstr "కొత్త దస్త్రం"
-
-#~ msgid "Shift"
-#~ msgstr "Shift"
-
-#~ msgid "Ctrl"
-#~ msgstr "Ctrl"
-
-#~ msgid "Meta"
-#~ msgstr "మెటా"
-
-#, fuzzy
-#~| msgid "Name:"
-#~ msgid ""
-#~ "Name:\n"
-#~ "%1"
-#~ msgstr "పేరు:"
-
-#, fuzzy
-#~| msgid "Comment:"
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "Comment:\n"
-#~ "%1"
-#~ msgstr "వ్యాఖ్య:"
-
-#, fuzzy
-#~| msgid "Author:"
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "Author:\n"
-#~ "%1"
-#~ msgstr "మూలకర్త:"
-
-#, fuzzy
-#~| msgid "Website:"
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "Website:\n"
-#~ "%1"
-#~ msgstr "వెబ్ సైట్:"
-
-#, fuzzy
-#~| msgid "Version: %1"
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "Version:\n"
-#~ "%1"
-#~ msgstr "వివరణం: %1"
-
-#, fuzzy
-#~| msgid "License:"
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "License:\n"
-#~ "%1"
-#~ msgstr "లైసెన్స్:"
-
-#, fuzzy
-#~| msgid "About %1 plugin"
-#~ msgid "About Plugin \"%1\""
-#~ msgstr "%1 ప్లగిన్ గురించి"
-
-#, fuzzy
-#~| msgid "%1%"
-#~ msgctxt "@info:tooltip Action tooltip in shortcuts configuration"
-#~ msgid "%1"
-#~ msgstr "%1%"
-
-#~ msgid "Continue script execution"
-#~ msgstr "స్క్రిప్ట్ ను కొనసాగించు"
-
-#, fuzzy
-#~| msgid "None"
-#~ msgctxt "@action no list style"
-#~ msgid "None"
-#~ msgstr "ఏదీ వద్దు"
-
-#~ msgid "%1 plugin added"
-#~ msgid_plural "%1 plugins added"
-#~ msgstr[0] "%1 ప్లగిన్ చేర్చబడినది"
-#~ msgstr[1] "%1 ప్లగిన్ లు చేర్చబడినవి"
-
-#~ msgid "%1 plugin removed"
-#~ msgid_plural "%1 plugins removed"
-#~ msgstr[0] "%1 ప్లగిన్ తీసివెయబడింది"
-#~ msgstr[1] "%1 ప్లగిన్ లు తీసివెయబడినవి"
-
-#~ msgid "Email:"
-#~ msgstr "ఈమెయిల్:"
-
-#~ msgid "Show:"
-#~ msgstr "చూపుము:"
-
-#~ msgid "Search:"
-#~ msgstr "అన్వెషణ:"
-
-#~ msgid "Close this tab"
-#~ msgstr "ఈ టాబ్ ను మూయండి"
+msgstr "\"%1\" ఇలాంటి దుబాసీ లేదు"
