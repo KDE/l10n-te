@@ -1,0 +1,302 @@
+# translation of krunner.po to Telugu
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: krunner\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-01-08 10:29+0100\n"
+"PO-Revision-Date: 2009-01-12 19:43+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: interfaces/default/interface.cpp:76 interfaces/default/interface.cpp:77
+#: interfaces/quicksand/qs_dialog.cpp:50 interfaces/quicksand/qs_dialog.cpp:51
+msgid "Settings"
+msgstr "అమరికలు"
+
+#: interfaces/default/interface.cpp:96 interfaces/default/interface.cpp:97
+#: krunnerapp.cpp:202 krunnerapp.cpp:203
+msgid "Show System Activity"
+msgstr ""
+
+#: interfaces/default/interface.cpp:456
+#, kde-format
+msgid "%1: %2"
+msgstr ""
+
+#: interfaces/quicksand/qs_dialog.cpp:80
+msgid "Actions"
+msgstr "చర్యలు"
+
+#: interfaces/quicksand/qs_dialog.cpp:81
+msgid "actions"
+msgstr ""
+
+#: interfaces/quicksand/qs_matchview.cpp:120
+msgid "items"
+msgstr ""
+
+#: interfaces/quicksand/qs_matchview.cpp:172
+msgid "Type to search."
+msgstr ""
+
+#: interfaces/quicksand/qs_matchview.cpp:231
+#, kde-format
+msgid "%1 %2"
+msgstr ""
+
+#: interfaces/quicksand/qs_matchview.cpp:315
+msgid "Loading..."
+msgstr ""
+
+#: interfaces/quicksand/qs_matchview.cpp:405
+msgid "No results found."
+msgstr ""
+
+#: lock/autologout.cc:44
+msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
+msgstr ""
+
+#: lock/autologout.cc:45
+msgid ""
+"<qt>To prevent being logged out, resume using this session by moving the "
+"mouse or pressing a key.</qt>"
+msgstr ""
+
+#: lock/autologout.cc:50
+msgid "Time Remaining:"
+msgstr ""
+
+#: lock/autologout.cc:86
+#, kde-format
+msgid "<qt><nobr>You will be automatically logged out in 1 second</nobr></qt>"
+msgid_plural "<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lock/main.cc:61
+msgid "KRunner Locker"
+msgstr ""
+
+#: lock/main.cc:61
+msgid "Session Locker for KRunner"
+msgstr ""
+
+#: lock/main.cc:64
+msgid "Force session locking"
+msgstr ""
+
+#: lock/main.cc:65
+msgid "Only start screen saver"
+msgstr ""
+
+#: lock/main.cc:66
+msgid "Only use the blank screen saver"
+msgstr ""
+
+#: lock/main.cc:67
+msgid "start with plasma unlocked for configuring"
+msgstr ""
+
+#: lock/lockprocess.cc:796
+msgid "Will not lock the session, as unlocking would be impossible:\n"
+msgstr ""
+
+#: lock/lockprocess.cc:800
+msgid "Cannot start <i>kcheckpass</i>."
+msgstr ""
+
+#: lock/lockprocess.cc:801
+msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
+msgstr ""
+
+#: lock/lockprocess.cc:863
+msgid "No appropriate greeter plugin configured."
+msgstr ""
+
+#: lock/lockdlg.cc:98
+msgid "<nobr><b>The session is locked</b></nobr><br />"
+msgstr ""
+
+#: lock/lockdlg.cc:99
+#, kde-format
+msgid "<nobr><b>The session was locked by %1</b></nobr><br />"
+msgstr ""
+
+#: lock/lockdlg.cc:112
+msgid "Unl&ock"
+msgstr ""
+
+#: lock/lockdlg.cc:114
+msgid "Sw&itch User..."
+msgstr ""
+
+#: lock/lockdlg.cc:182
+msgid "<b>Unlocking failed</b>"
+msgstr ""
+
+#: lock/lockdlg.cc:190
+msgid "<b>Warning: Caps Lock on</b>"
+msgstr ""
+
+#: lock/lockdlg.cc:422
+#, kde-format
+msgid ""
+"Cannot unlock the session because the authentication system failed to work;\n"
+"you must kill krunner_lock (pid %1) manually."
+msgstr ""
+
+#: lock/lockdlg.cc:511
+msgid "&Start New Session"
+msgstr ""
+
+#: lock/lockdlg.cc:519
+#, kde-format
+msgid ""
+"You have chosen to open another desktop session instead of resuming the "
+"current one.\n"
+"The current session will be hidden and a new login screen will be "
+"displayed.\n"
+"An F-key is assigned to each session; F%1 is usually assigned to the first "
+"session, F%2 to the second session and so on. You can switch between "
+"sessions by pressing Ctrl, Alt and the appropriate F-key at the same time. "
+"Additionally, the KDE Panel and Desktop menus have actions for switching "
+"between sessions."
+msgstr ""
+
+#: lock/lockdlg.cc:532
+msgid "&Do not ask again"
+msgstr ""
+
+#: lock/lockdlg.cc:588
+msgid "Session"
+msgstr ""
+
+#: lock/lockdlg.cc:588
+msgid "Location"
+msgstr "స్థానం"
+
+#: lock/lockdlg.cc:616
+msgctxt "session"
+msgid "&Activate"
+msgstr ""
+
+#: lock/lockdlg.cc:625
+msgid "Start &New Session"
+msgstr ""
+
+#: krunnerdialog.cpp:57 krunnerapp.cpp:191 krunnerapp.cpp:192
+msgid "Run Command"
+msgstr ""
+
+#: main.cpp:37
+msgid "KDE run command interface"
+msgstr ""
+
+#: main.cpp:43
+msgid "Run Command Interface"
+msgstr ""
+
+#: main.cpp:45
+msgid "(c) 2006, Aaron Seigo"
+msgstr ""
+
+#: main.cpp:46
+msgid "Aaron J. Seigo"
+msgstr "ఆరన్ జె. సీగొ"
+
+#: main.cpp:47
+msgid "Author and maintainer"
+msgstr "మూలకర్త మరయు సంరక్షకుడు"
+
+#: configdialog.cpp:53
+msgid "Plugins"
+msgstr "ప్లగిన్లు"
+
+#: configdialog.cpp:60
+msgid "Command oriented"
+msgstr ""
+
+#: configdialog.cpp:61
+msgid "Task oriented"
+msgstr ""
+
+#: configdialog.cpp:75
+msgid "Preview"
+msgstr ""
+
+#: configdialog.cpp:83
+msgid "User Interface"
+msgstr ""
+
+#: configdialog.cpp:86
+msgid "KRunner Settings"
+msgstr ""
+
+#: configdialog.cpp:93
+msgid "Available Features"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"కృష్ణబాబు కె \n"
+" విజయ్ కిరణ్ కముజు"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"k.meetme@gmail.com \n"
+" infyquest@gmail.com"
+
+#: krunnerapp.cpp:196 krunnerapp.cpp:197
+msgid "Run Command on clipboard contents"
+msgstr ""
+
+#: krunnerapp.cpp:214 krunnerapp.cpp:215
+msgid "Switch User"
+msgstr ""
+
+#: krunnerapp.cpp:221 krunnerapp.cpp:222
+msgid "Lock Session"
+msgstr ""
+
+#: krunnerapp.cpp:229 krunnerapp.cpp:230
+msgid "Log Out"
+msgstr ""
+
+#: krunnerapp.cpp:234 krunnerapp.cpp:235
+msgid "Log Out Without Confirmation"
+msgstr ""
+
+#: krunnerapp.cpp:239 krunnerapp.cpp:240
+msgid "Halt Without Confirmation"
+msgstr ""
+
+#: krunnerapp.cpp:244 krunnerapp.cpp:245
+msgid "Reboot Without Confirmation"
+msgstr ""
+
+#: krunnerapp.cpp:296
+msgid "System Activity"
+msgstr ""
+
+#: krunnerapp.cpp:405
+msgid ""
+"Could not log out properly.\n"
+"The session manager cannot be contacted. You can try to force a shutdown by "
+"pressing Ctrl+Alt+Backspace; note, however, that your current session will "
+"not be saved with a forced shutdown."
+msgstr ""
+
