@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: kcm_autostart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-11-25 10:21+0100\n"
-"PO-Revision-Date: 2009-01-13 20:25+0530\n"
+"PO-Revision-Date: 2009-01-14 22:38+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
 "\n"
 "\n"
 "\n"
@@ -23,15 +24,15 @@ msgstr ""
 
 #: addscriptdialog.cpp:36
 msgid "Shell script:"
-msgstr ""
+msgstr "షెల్ స్క్రిప్టు:"
 
 #: addscriptdialog.cpp:40
 msgid "Create as symlink"
-msgstr ""
+msgstr "సిమ్‌లింకు వలె సృష్టించుము"
 
 #: advanceddialog.cpp:32
 msgid "Autostart only in KDE"
-msgstr ""
+msgstr "KDE నందు మాత్రమే స్వయంచాలకప్రారంభం"
 
 #: autostart.cpp:61
 msgid "Name"
@@ -39,7 +40,7 @@ msgstr "పేరు"
 
 #: autostart.cpp:61
 msgid "Command"
-msgstr ""
+msgstr "ఆదేశము"
 
 #: autostart.cpp:61
 msgid "Status"
@@ -50,27 +51,27 @@ msgctxt ""
 "@title:column The name of the column that decides if the program is run on "
 "kde startup, on kde shutdown, etc"
 msgid "Run On"
-msgstr ""
+msgstr "దీనిపై నడుపు"
 
 #: autostart.cpp:76
 msgid "KDE Autostart Manager"
-msgstr ""
+msgstr "KDE స్వయంచాలకప్రారంభ నిర్వాహిక"
 
 #: autostart.cpp:77
 msgid "KDE Autostart Manager Control Panel Module"
-msgstr ""
+msgstr "KDE స్వయంచాలకప్రారంభ నిర్వాహిక నియంత్రణా ప్యానల్ మాడ్యూల్"
 
 #: autostart.cpp:79
 msgid "(c) 2006-2007-2008 Autostart Manager team"
-msgstr ""
+msgstr "(c) 2006-2007-2008 స్వయంచాలకప్రారంభ నిర్వాహిక టీము"
 
 #: autostart.cpp:80
 msgid "Stephen Leaf"
-msgstr ""
+msgstr "స్టీఫెన్ లీఫ్"
 
 #: autostart.cpp:81
 msgid "Montel Laurent"
-msgstr ""
+msgstr "మాంటెల్ లారెంట్"
 
 #: autostart.cpp:81
 msgid "Maintainer"
@@ -79,12 +80,12 @@ msgstr "సంరక్షకుడు"
 #: autostart.cpp:111 autostart.cpp:125
 msgctxt "The program won't be run"
 msgid "Disabled"
-msgstr ""
+msgstr "అచేతనమైన"
 
 #: autostart.cpp:113 autostart.cpp:125 autostartitem.cpp:72
 msgctxt "The program will be run"
 msgid "Enabled"
-msgstr ""
+msgstr "చేతనమైన"
 
 #: autostart.cpp:150
 msgid "Startup"
@@ -92,35 +93,35 @@ msgstr "ప్రారంభము"
 
 #: autostart.cpp:151
 msgid "Shutdown"
-msgstr ""
+msgstr "మూసివేయి"
 
 #: autostart.cpp:152
 msgid "Pre-KDE startup"
-msgstr ""
+msgstr "ముందస్తు-KDE ప్రారంభం"
 
 #: autostart.cpp:157
 msgid "Desktop File"
-msgstr ""
+msgstr "రంగస్థల ఫైలు"
 
 #: autostart.cpp:164
 msgid "Script File"
-msgstr ""
+msgstr "స్క్రిప్టు ఫైలు"
 
 #: autostart.cpp:380
 msgid "KDE only reads files with sh extensions for setting up the environment."
-msgstr ""
+msgstr "ఎన్విరాన్మెంటును అమర్చుటకు KDE అనునది sh పొడిగింపులతో వున్న ఫైళ్ళను మాత్రమే చదువుతుంది."
 
 #. i18n: file: autostartconfig.ui:26
 #. i18n: ectx: property (text), widget (QPushButton, btnAddProgram)
 #: rc.cpp:3
 msgid "Add Program..."
-msgstr ""
+msgstr "ప్రోగ్రామ్‌ను జతచేయుము..."
 
 #. i18n: file: autostartconfig.ui:33
 #. i18n: ectx: property (text), widget (QPushButton, btnAddScript)
 #: rc.cpp:6
 msgid "Add Script..."
-msgstr ""
+msgstr "స్క్రిప్టును జతచేయుము..."
 
 #. i18n: file: autostartconfig.ui:40
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
@@ -132,7 +133,7 @@ msgstr "(&R) తీసివేయి"
 #. i18n: ectx: property (text), widget (QPushButton, btnProperties)
 #: rc.cpp:12
 msgid "&Properties"
-msgstr ""
+msgstr "(&P) గుణములు"
 
 #. i18n: file: autostartconfig.ui:74
 #. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
@@ -153,3 +154,4 @@ msgid "Your emails"
 msgstr ""
 "k.meetme@gmail.com \n"
 " infyquest@gmail.com"
+
