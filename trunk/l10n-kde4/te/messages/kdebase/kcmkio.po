@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-12-31 11:06+0100\n"
-"PO-Revision-Date: 2009-01-14 22:38+0530\n"
+"PO-Revision-Date: 2009-01-15 23:21+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
 "\n"
 "\n"
 "\n"
@@ -77,40 +77,39 @@ msgstr "D-Bus సంప్రదింపు దోషము"
 
 #: kcookiesmanagement.cpp:152
 msgid "Unable to delete all the cookies as requested."
-msgstr ""
+msgstr "అభ్యర్దించబడినట్లు అన్ని కుకీలను తొలగించలేదు."
 
 #: kcookiesmanagement.cpp:169
 msgid "Unable to delete cookies as requested."
-msgstr ""
+msgstr "అభ్యర్దించబడినట్లు కుకీలను తొలగించలేదు."
 
 #: kcookiesmanagement.cpp:241
 msgid "<h1>Cookies Management Quick Help</h1>"
-msgstr ""
+msgstr "<h1>కుకీల నిర్వహణ త్వరిత సహాయం</h1>"
 
 #: kcookiesmanagement.cpp:250
 msgid "Information Lookup Failure"
-msgstr ""
+msgstr "సమాచారము చూచుటలో విఫలమైంది"
 
 #: kcookiesmanagement.cpp:251
-msgid ""
-"Unable to retrieve information about the cookies stored on your computer."
-msgstr ""
+msgid "Unable to retrieve information about the cookies stored on your computer."
+msgstr "మీ కంప్యూటర్ నందు నిల్వవున్న కుకీల గురించి సమాచారమును వెలికితీయలేక పోయింది."
 
 #: kcookiesmanagement.cpp:340
 msgid "End of session"
-msgstr ""
+msgstr "సెషన్ ముగింపు"
 
 #: kcookiesmanagement.cpp:349
 msgid "Yes"
-msgstr ""
+msgstr "అవును"
 
 #: kcookiespolicies.cpp:151
 msgid "New Cookie Policy"
-msgstr ""
+msgstr "కొత్త కుకీ విధానము"
 
 #: kcookiespolicies.cpp:190
 msgid "Change Cookie Policy"
-msgstr ""
+msgstr "కుకీ విధానమును మార్చుము"
 
 #: kcookiespolicies.cpp:215
 #, kde-format
@@ -118,20 +117,24 @@ msgid ""
 "<qt>A policy already exists for<center><b>%1</b></center>Do you want to "
 "replace it?</qt>"
 msgstr ""
+"<qt><center><b>%1</b> కొరకు వొక విధానము యిప్పటికేవుంది </center> మీకు దానిని "
+"పునఃస్థాపించుదామని అనుకొనుచున్నారా?</qt>"
 
 #: kcookiespolicies.cpp:219
 msgid "Duplicate Policy"
-msgstr ""
+msgstr "నకిలీ విధానము"
 
 #: kcookiespolicies.cpp:220 useragentdlg.cpp:215
 msgid "Replace"
-msgstr ""
+msgstr "పునఃస్థాపించు"
 
 #: kcookiespolicies.cpp:392
 msgid ""
 "Unable to communicate with the cookie handler service.\n"
 "Any changes you made will not take effect until the service is restarted."
 msgstr ""
+"కుకీని సంభాలించు సేవతో సంప్రదించలేక పోయింది.\n"
+"సేవ పునఃప్రారంభమయ్యే వరకు మీరు చేసిన యెటువంటి మార్పులూ ప్రాభావితం కావు."
 
 #: kcookiespolicies.cpp:433
 msgid ""
@@ -158,11 +161,11 @@ msgstr ""
 
 #: kenvvarproxydlg.cpp:49
 msgid "Variable Proxy Configuration"
-msgstr ""
+msgstr "వేరియబుల్ ప్రోక్సీ ఆకృతీకరణ"
 
 #: kenvvarproxydlg.cpp:130 kenvvarproxydlg.cpp:292
 msgid "You must specify at least one valid proxy environment variable."
-msgstr ""
+msgstr "మీరు కనీసం వొక చెల్లునటువంటి ప్రోక్సీ యెన్విరాన్మెంట్ వేరియబుల్‌ను తెలుపవలెను."
 
 #: kenvvarproxydlg.cpp:133 kenvvarproxydlg.cpp:295
 msgid ""
@@ -175,21 +178,23 @@ msgstr ""
 
 #: kenvvarproxydlg.cpp:141 kenvvarproxydlg.cpp:303 kproxydlg.cpp:310
 msgid "Invalid Proxy Setup"
-msgstr ""
+msgstr "సరికాని ప్రోక్సీ అమర్పు"
 
 #: kenvvarproxydlg.cpp:145
 msgid "Successfully verified."
-msgstr ""
+msgstr "సమర్థవంతంగా నిర్ధారించబడింది"
 
 #: kenvvarproxydlg.cpp:146
 msgid "Proxy Setup"
-msgstr ""
+msgstr "ప్రోక్సీ అమర్పు"
 
 #: kenvvarproxydlg.cpp:222
 msgid ""
 "Did not detect any environment variables commonly used to set system wide "
 "proxy information."
 msgstr ""
+"సిస్టమ్ తరహా ప్రోక్సీ సమాచారమును అమర్చుటకు వుమ్మడిగా వుపయోగించే ఏవిధమైన ఎన్విరాన్మెంట్ వేరియబుల్స్ "
+"గుర్తించబడలేదు."
 
 #: kenvvarproxydlg.cpp:226
 msgid ""
@@ -201,50 +206,50 @@ msgstr ""
 
 #: kenvvarproxydlg.cpp:234
 msgid "Automatic Proxy Variable Detection"
-msgstr ""
+msgstr "స్వయంచాలక ప్రోక్సీ వేరియబుల్ గుర్తింపు"
 
 #: kmanualproxydlg.cpp:49
 msgid "Manual Proxy Configuration"
-msgstr ""
+msgstr "మాన్యువల్ ప్రోక్సీ ఆకృతీకరణ"
 
 #: kmanualproxydlg.cpp:274
 msgid "Invalid Proxy Setting"
-msgstr ""
+msgstr "సరికాని ప్రోక్సీ అమర్పు"
 
 #: kmanualproxydlg.cpp:275
 msgid ""
 "One or more of the specified proxy settings are invalid. The incorrect "
 "entries are highlighted."
-msgstr ""
+msgstr "తెలుపబడిన ప్రోక్సీ అమరికలలో వొకటి లేదా యెక్కువ అమరికలు చెల్లనవి. సరికాని ప్రవేశములు వుద్దీపనం చేయబడినాయి."
 
 #: kmanualproxydlg.cpp:343
 msgid "You entered a duplicate address. Please try again."
-msgstr ""
+msgstr "మీరు నకిలీ చిరునామాను ప్రవేశపెట్టినారు. దయచేసి మరలా ప్రయత్నించండి."
 
 #: kmanualproxydlg.cpp:345
 #, kde-format
 msgid "<qt><center><b>%1</b></center> is already in the list.</qt>"
-msgstr ""
+msgstr "<qt><center><b>%1</b></center>యిప్పటికే జాబితానందు వున్నది.</qt>"
 
 #: kmanualproxydlg.cpp:347
 msgid "Duplicate Entry"
-msgstr ""
+msgstr "నకిలీ ప్రవేశము"
 
 #: kmanualproxydlg.cpp:357
 msgid "New Exception"
-msgstr ""
+msgstr "కొత్త ఎక్సెప్షన్"
 
 #: kmanualproxydlg.cpp:364
 msgid "Change Exception"
-msgstr ""
+msgstr "ఎక్సెప్షన్‌ను మార్చుము"
 
 #: kmanualproxydlg.cpp:441
 msgid "Invalid Entry"
-msgstr ""
+msgstr "సరికాని ప్రవేశము"
 
 #: kmanualproxydlg.cpp:444
 msgid "The address you have entered is not valid."
-msgstr ""
+msgstr "మీరు ప్రవేశపెట్టిన చిరునామా చెల్లునది కాదు."
 
 #: kmanualproxydlg.cpp:446
 msgid ""
@@ -258,13 +263,13 @@ msgstr ""
 
 #: kmanualproxydlg.cpp:467
 msgid "Enter the URL or address that should use the above proxy settings:"
-msgstr ""
+msgstr "పై ప్రోక్సీ అమరికలను వుపయోగించవలసిన URL లేదా చిరునామాను ప్రవేశపెట్టండి:"
 
 #: kmanualproxydlg.cpp:470
 msgid ""
 "Enter the address or URL that should be excluded from using the above proxy "
 "settings:"
-msgstr ""
+msgstr "పై ప్రోక్సీ అమరికలను వుపయోగించుటనుండి తీసివేయవలసిన చిరునామా లేదా URL ప్రవేశపెట్టండి:"
 
 #: kmanualproxydlg.cpp:473
 msgid ""
@@ -280,6 +285,8 @@ msgid ""
 "correct this problem before proceeding. Otherwise, your changes will be "
 "ignored."
 msgstr ""
+"స్వయంచాలక ప్రోక్సీ ఆకృతీకరణ స్క్రిప్టు చిరునామా చెల్లనిది. కొనసాగుటకు ముందుగా దయచేసి ఈ సమస్యను "
+"సరిదిద్దుము. లేకపోతే, మీ మార్పులు విస్మరించబడతాయి."
 
 #: kproxydlg.cpp:286
 msgid ""
@@ -298,16 +305,18 @@ msgid ""
 "the <b>Setup...</b> button and correct the problem before proceeding; "
 "otherwise your changes will be ignored.</qt>"
 msgstr ""
+"<qt>మీరు తెలిపిన ప్రోక్సీ అమరికలు చెల్లనివి.<br /><br />దయచేసి <b>Setup...</b> బటన్‌పై నొక్కి, "
+"కొనసాగించుటకు ముందుగానే సమస్యను సరిదిద్దుము; లేకపోతే మీ మార్పులు విస్మరించబడతాయి.</qt>"
 
 #: ksaveioconfig.cpp:232 ksaveioconfig.cpp:248
 msgid "Update Failed"
-msgstr ""
+msgstr "నవీకరణ విఫలమైంది"
 
 #: ksaveioconfig.cpp:233
 msgid ""
 "You have to restart the running applications for these changes to take "
 "effect."
-msgstr ""
+msgstr "ఈ మార్పులు ప్రభావితం అగుటకు మీరు నడుస్తున్న అనువర్తనములను పునఃప్రారంభించవలసి వుంది."
 
 #: ksaveioconfig.cpp:249
 msgid "You have to restart KDE for these changes to take effect."
@@ -337,15 +346,15 @@ msgstr ""
 
 #: main.cpp:91
 msgid "&LISa Daemon"
-msgstr ""
+msgstr "&LISa డెమోన్"
 
 #: main.cpp:105
 msgid "lan:/ Iosla&ve"
-msgstr ""
+msgstr "lan:/ Iosla&ve"
 
 #: netpref.cpp:31
 msgid "Timeout Values"
-msgstr ""
+msgstr "కాలముగింపు విలువలు"
 
 #: netpref.cpp:32
 #, kde-format
@@ -356,41 +365,43 @@ msgstr ""
 
 #: netpref.cpp:40 netpref.cpp:46 netpref.cpp:52 netpref.cpp:58
 msgid " sec"
-msgstr ""
+msgstr " సెకను"
 
 #: netpref.cpp:41
 msgid "Soc&ket read:"
-msgstr ""
+msgstr "(&k) సాకెట్ చదువుము:"
 
 #: netpref.cpp:47
 msgid "Pro&xy connect:"
-msgstr ""
+msgstr "(&x) ప్రోక్సీ అనుసంధానము:"
 
 #: netpref.cpp:53
 msgid "Server co&nnect:"
-msgstr ""
+msgstr "(&n) సెర్వర్ అనుసంధానము:"
 
 #: netpref.cpp:59
 msgid "&Server response:"
-msgstr ""
+msgstr "(&S) సెర్వర్ స్పందన:"
 
 #: netpref.cpp:63
 msgid "FTP Options"
-msgstr ""
+msgstr "FTP ఐచ్చికములు"
 
 #: netpref.cpp:67
 msgid "Enable passive &mode (PASV)"
-msgstr ""
+msgstr "(&m) పాసివ్ రీతిని చేతనము చేయుము (PASV)"
 
 #: netpref.cpp:68
 msgid ""
 "Enables FTP's \"passive\" mode. This is required to allow FTP to work from "
 "behind firewalls."
 msgstr ""
+"FTP యొక్క \"పాసివ్\" రీతిని చేతనము చేస్తుంది. FTPను ఫైర్‌వాల్ దాటి పనిచేయుటకు అనుమతించవలసిన అవసరము "
+"దీనికివుంది."
 
 #: netpref.cpp:74
 msgid "Mark &partially uploaded files"
-msgstr ""
+msgstr "(&p) పాక్షికంగా అప్‌లోడైన ఫైళ్ళను గుర్తుంచుము"
 
 #: netpref.cpp:75
 msgid ""
@@ -426,7 +437,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowRoot)
 #: rc.cpp:10
 msgid "&Show bookmarks without folder"
-msgstr ""
+msgstr "(&S) ఫోల్డరు లేకుండా బుక్‌మార్క్స్‌ను చూపుము"
 
 #. i18n: file: bookmarks.ui:37
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbFlattenTree)
@@ -442,7 +453,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbFlattenTree)
 #: rc.cpp:17
 msgid "&Flatten bookmarks tree"
-msgstr ""
+msgstr "(&F) ఫ్లాటెన్ బుక్‌మార్క్స్ ట్రీ"
 
 #. i18n: file: bookmarks.ui:47
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbShowPlaces)
@@ -451,18 +462,20 @@ msgid ""
 "Show a box with KDE places (Home, Network, ...). Useful if you use konqueror "
 "as a file manager."
 msgstr ""
+"KDE స్థానములు (హోమ్, నెట్వర్కు, ...)తో బాక్స్‌ను చూపుము. మీరు కాంక్వెరర్‌ను ఫైలు నిర్వాహికలాగా "
+"వుపయోగిస్తుంటే వుపయోగకరంగా వుటుంది."
 
 #. i18n: file: bookmarks.ui:50
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowPlaces)
 #: rc.cpp:23
 msgid "Show system &places"
-msgstr ""
+msgstr "(&p) సిస్టమ్ స్థలములను చూపుము"
 
 #. i18n: file: bookmarks.ui:63
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: rc.cpp:26
 msgid "General Settings"
-msgstr ""
+msgstr "సాదారణ అమర్పులు"
 
 #. i18n: file: bookmarks.ui:71
 #. i18n: ectx: property (whatsThis), widget (QLabel, label)
@@ -477,55 +490,55 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:32
 msgid "Number of columns to show"
-msgstr ""
+msgstr "చూపించవలసిన నిలువువరుసల సంఖ్య"
 
 #. i18n: file: bookmarks.ui:109
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbShowBackgrounds)
 #: rc.cpp:35
 msgid "Disable it on slow system to disable background images."
-msgstr ""
+msgstr "నిదానమైన సిస్టమ్‌నందు బ్యాక్‌గ్రౌండు చిత్రములను అచేతనము చేయుటకు దీనిని అచేతనము చేయుము."
 
 #. i18n: file: bookmarks.ui:112
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowBackgrounds)
 #: rc.cpp:38
 msgid "Show folder &backgrounds"
-msgstr ""
+msgstr "(&b) ఫోల్డరు బ్యాక్‌గ్రౌండ్సును చూపుము"
 
 #. i18n: file: bookmarks.ui:138
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox_3)
 #: rc.cpp:41
 msgid "How much disk space is used to cache the pixmaps"
-msgstr ""
+msgstr "పిక్స్‌మాప్స్‌ను క్యాచీ చేయుటకు యెంత డిస్కు జాగా వుపయోగించబడింది"
 
 #. i18n: file: bookmarks.ui:141
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: rc.cpp:44
 msgid "Pixmap Cache"
-msgstr ""
+msgstr "పిక్స్‌మాప్ క్యాచి"
 
 #. i18n: file: bookmarks.ui:150
 #. i18n: ectx: property (text), widget (QLabel, lbMaxCacheSize)
 #: rc.cpp:47
 msgid "Disk cache size:"
-msgstr ""
+msgstr "డిస్కు క్యాచి పరిమాణము:"
 
 #. i18n: file: bookmarks.ui:163
 #. i18n: ectx: property (suffix), widget (KIntNumInput, sbCacheSize)
 #: rc.cpp:50
 msgid " kB"
-msgstr ""
+msgstr " kB"
 
 #. i18n: file: bookmarks.ui:173
 #. i18n: ectx: property (whatsThis), widget (QPushButton, clearCacheButton)
 #: rc.cpp:53
 msgid "Clear the pixmap cache"
-msgstr ""
+msgstr "పిక్స్‌మాప్ క్యాచీని శుభ్రముచేయుము"
 
 #. i18n: file: bookmarks.ui:176
 #. i18n: ectx: property (text), widget (QPushButton, clearCacheButton)
 #: rc.cpp:56
 msgid "&Clear Cache"
-msgstr ""
+msgstr "(&C) క్యాచీని శుభ్రముచేయుము"
 
 #. i18n: file: cache.ui:16
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbUseCache)
@@ -541,7 +554,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbUseCache)
 #: rc.cpp:62
 msgid "&Use cache"
-msgstr ""
+msgstr "(&U) క్యాచీని వుపయోగించుము"
 
 #. i18n: file: cache.ui:45
 #. i18n: ectx: property (title), widget (QGroupBox, bgCachePolicy)
@@ -549,7 +562,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QTreeWidget, lvDomainPolicy)
 #: rc.cpp:65 rc.cpp:298
 msgid "Policy"
-msgstr ""
+msgstr "విధానము"
 
 #. i18n: file: cache.ui:51
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbVerifyCache)
@@ -563,7 +576,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, rbVerifyCache)
 #: rc.cpp:71
 msgid "&Keep cache in sync"
-msgstr ""
+msgstr "(&K) క్యాచీని సింకునందు వుంచుము"
 
 #. i18n: file: cache.ui:61
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbCacheIfPossible)
@@ -577,7 +590,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, rbCacheIfPossible)
 #: rc.cpp:77
 msgid "Use cache whenever &possible"
-msgstr ""
+msgstr "(&p) ఎప్పుడు సాధ్యమైనా క్యాచీని వుపయోగించుము"
 
 #. i18n: file: cache.ui:71
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbOfflineMode)
@@ -591,19 +604,19 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, rbOfflineMode)
 #: rc.cpp:83
 msgid "O&ffline browsing mode"
-msgstr ""
+msgstr "(&f) ఆఫ్‌లైన్ బ్రౌజింగ్ రీతి"
 
 #. i18n: file: cache.ui:87
 #. i18n: ectx: property (text), widget (QLabel, lbMaxCacheSize)
 #: rc.cpp:86
 msgid "Disk cache &size:"
-msgstr ""
+msgstr "(&s) డిస్కు క్యాచీ పరిమాణము:"
 
 #. i18n: file: cache.ui:107
 #. i18n: ectx: property (text), widget (QPushButton, clearCacheButton)
 #: rc.cpp:89
 msgid "C&lear Cache"
-msgstr ""
+msgstr "(&l) క్యాచీని శుభ్రముచేయుము"
 
 #. i18n: file: envvarproxy.ui:21
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbHttp)
@@ -625,7 +638,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lbHttp)
 #: rc.cpp:98 rc.cpp:431
 msgid "H&TTP:"
-msgstr ""
+msgstr "H&TTP:"
 
 #. i18n: file: envvarproxy.ui:59
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbHttps)
@@ -647,7 +660,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lbHttps)
 #: rc.cpp:113 rc.cpp:428
 msgid "HTTP&S:"
-msgstr ""
+msgstr "HTTP&S:"
 
 #. i18n: file: envvarproxy.ui:97
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbFtp)
@@ -669,7 +682,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lbFtp)
 #: rc.cpp:128 rc.cpp:425
 msgid "&FTP:"
-msgstr ""
+msgstr "&FTP:"
 
 #. i18n: file: envvarproxy.ui:135
 #. i18n: ectx: property (whatsThis), widget (QLabel, lnNoProxy)
@@ -689,13 +702,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lnNoProxy)
 #: rc.cpp:143
 msgid "NO &PROXY:"
-msgstr ""
+msgstr "NO &PROXY:"
 
 #. i18n: file: envvarproxy.ui:170
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowValue)
 #: rc.cpp:152
 msgid "Show the &value of the environment variables"
-msgstr ""
+msgstr "(&v) ఎన్విరాన్మెంట్ వేరియబుల్స్ యొక్క విలువను చూపుము"
 
 #. i18n: file: envvarproxy.ui:181
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbVerify)
@@ -710,7 +723,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, pbVerify)
 #: rc.cpp:158
 msgid "&Verify"
-msgstr ""
+msgstr "(&V) నిర్ధారించుము"
 
 #. i18n: file: envvarproxy.ui:191
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbDetect)
@@ -726,7 +739,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, pbDetect)
 #: rc.cpp:164
 msgid "Auto &Detect"
-msgstr ""
+msgstr "(&D) స్వయంచాలకంగా గుర్తించుము"
 
 #. i18n: file: kcookiesmanagementdlg.ui:23
 #. i18n: ectx: property (clickMessage), widget (KTreeWidgetSearchLine, kListViewSearchLine)
@@ -734,25 +747,25 @@ msgstr ""
 #. i18n: ectx: property (clickMessage), widget (KTreeWidgetSearchLine, kListViewSearchLine)
 #: rc.cpp:167 rc.cpp:304
 msgid "Search"
-msgstr ""
+msgstr "శోధించుము"
 
 #. i18n: file: kcookiesmanagementdlg.ui:30
 #. i18n: ectx: property (toolTip), widget (QTreeWidget, lvCookies)
 #: rc.cpp:170
 msgid "Search interactively for domains and hosts"
-msgstr ""
+msgstr "డొమైన్లు మరియు హోస్టుల కొరకు యింటరాక్టివుగా శోధించుము"
 
 #. i18n: file: kcookiesmanagementdlg.ui:40
 #. i18n: ectx: property (text), widget (QTreeWidget, lvCookies)
 #: rc.cpp:173
 msgid "Domain [Group]"
-msgstr ""
+msgstr "డొమైన్ [సమూహం]"
 
 #. i18n: file: kcookiesmanagementdlg.ui:45
 #. i18n: ectx: property (text), widget (QTreeWidget, lvCookies)
 #: rc.cpp:176
 msgid "Host [Set By]"
-msgstr ""
+msgstr "హోస్టు [చేత అమర్చబడింది]"
 
 #. i18n: file: kcookiesmanagementdlg.ui:57
 #. i18n: ectx: property (text), widget (QPushButton, pbDelete)
@@ -762,7 +775,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KPushButton, deleteButton)
 #: rc.cpp:179 rc.cpp:284 rc.cpp:618
 msgid "D&elete"
-msgstr ""
+msgstr "(&e) తొలగించు"
 
 #. i18n: file: kcookiesmanagementdlg.ui:64
 #. i18n: ectx: property (text), widget (QPushButton, pbDeleteAll)
@@ -772,19 +785,19 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KPushButton, deleteAllButton)
 #: rc.cpp:182 rc.cpp:287 rc.cpp:624
 msgid "Delete A&ll"
-msgstr ""
+msgstr "(&l) అన్నిటిని తొలగించుము"
 
 #. i18n: file: kcookiesmanagementdlg.ui:71
 #. i18n: ectx: property (text), widget (QPushButton, pbPolicy)
 #: rc.cpp:185
 msgid "Change &Policy..."
-msgstr ""
+msgstr "(&P) విధానమును మార్చుము..."
 
 #. i18n: file: kcookiesmanagementdlg.ui:78
 #. i18n: ectx: property (text), widget (QPushButton, pbReload)
 #: rc.cpp:188
 msgid "&Reload List"
-msgstr ""
+msgstr "(&R) జాబితాను తిరిగిలేడుచేయుము"
 
 #. i18n: file: kcookiesmanagementdlg.ui:102
 #. i18n: ectx: property (title), widget (QGroupBox, gbDetails)
@@ -814,19 +827,19 @@ msgstr "డొమెయిన్:"
 #. i18n: ectx: property (text), widget (QLabel, lbPath)
 #: rc.cpp:203
 msgid "Path:"
-msgstr ""
+msgstr "దారి:"
 
 #. i18n: file: kcookiesmanagementdlg.ui:203
 #. i18n: ectx: property (text), widget (QLabel, lbExpires)
 #: rc.cpp:206
 msgid "Expires:"
-msgstr ""
+msgstr "కాలముతీరిన:"
 
 #. i18n: file: kcookiesmanagementdlg.ui:226
 #. i18n: ectx: property (text), widget (QLabel, lbSecure)
 #: rc.cpp:209
 msgid "Secure:"
-msgstr ""
+msgstr "సురక్షితమైన:"
 
 #. i18n: file: kcookiespoliciesdlg.ui:19
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbEnableCookies)
@@ -844,7 +857,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbEnableCookies)
 #: rc.cpp:218
 msgid "Enable coo&kies"
-msgstr ""
+msgstr "(&k) కుకీలను చేతనముచేయుము"
 
 #. i18n: file: kcookiespoliciesdlg.ui:34
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbRejectCrossDomainCookies)
@@ -864,7 +877,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbRejectCrossDomainCookies)
 #: rc.cpp:226
 msgid "Only acce&pt cookies from originating server"
-msgstr ""
+msgstr "(&p) సెర్వర్ నుండి జనియించిన కుకీలను మాత్రమే ఆమోదించుము"
 
 #. i18n: file: kcookiespoliciesdlg.ui:47
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAutoAcceptSessionCookies)
@@ -886,7 +899,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbAutoAcceptSessionCookies)
 #: rc.cpp:235
 msgid "Automaticall&y accept session cookies"
-msgstr ""
+msgstr "(&y) స్వయంచాలకంగా సెషన్ కుకీలను ఆమోదించుము"
 
 #. i18n: file: kcookiespoliciesdlg.ui:60
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbIgnoreCookieExpirationDate)
@@ -909,7 +922,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbIgnoreCookieExpirationDate)
 #: rc.cpp:244
 msgid "Treat &all cookies as session cookies"
-msgstr ""
+msgstr "అన్ని కుకీలను సెషన్ కుకీల వలె చూడుము"
 
 #. i18n: file: kcookiespoliciesdlg.ui:83
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, bgDefault)
@@ -934,25 +947,25 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, bgDefault)
 #: rc.cpp:258
 msgid "Default Policy"
-msgstr ""
+msgstr "అప్రమేయ విధానము"
 
 #. i18n: file: kcookiespoliciesdlg.ui:92
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyAsk)
 #: rc.cpp:261
 msgid "Ask &for confirmation"
-msgstr ""
+msgstr "(&f) నిర్ధారణ కొరకు అడుగుము"
 
 #. i18n: file: kcookiespoliciesdlg.ui:99
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyAccept)
 #: rc.cpp:264
 msgid "Accep&t all cookies"
-msgstr ""
+msgstr "(&t) అన్ని కుకీలను ఆమోదించుము"
 
 #. i18n: file: kcookiespoliciesdlg.ui:106
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyReject)
 #: rc.cpp:267
 msgid "Re&ject all cookies"
-msgstr ""
+msgstr "(&j) అన్ని కుకీలను తిరస్కరించుము"
 
 #. i18n: file: kcookiespoliciesdlg.ui:131
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, gbDomainSpecific)
@@ -972,7 +985,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, gbDomainSpecific)
 #: rc.cpp:275
 msgid "Site Policy"
-msgstr ""
+msgstr "సైటు విధానము"
 
 #. i18n: file: kcookiespoliciesdlg.ui:142
 #. i18n: ectx: property (text), widget (KPushButton, pbNew)
@@ -982,7 +995,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KPushButton, newButton)
 #: rc.cpp:278 rc.cpp:481 rc.cpp:606
 msgid "&New..."
-msgstr ""
+msgstr "(&N) కొత్త..."
 
 #. i18n: file: kcookiespoliciesdlg.ui:149
 #. i18n: ectx: property (text), widget (KPushButton, pbChange)
@@ -990,7 +1003,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KPushButton, changeButton)
 #: rc.cpp:281 rc.cpp:612
 msgid "Chan&ge..."
-msgstr ""
+msgstr "(&g) మార్చు..."
 
 #. i18n: file: kcookiespoliciesdlg.ui:190
 #. i18n: ectx: property (whatsThis), widget (QTreeWidget, lvDomainPolicy)
@@ -1006,19 +1019,19 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QTreeWidget, lvDomainPolicy)
 #: rc.cpp:295
 msgid "Domain"
-msgstr ""
+msgstr "డొమైన్"
 
 #. i18n: file: kcookiespoliciesdlg.ui:222
 #. i18n: ectx: property (toolTip), widget (KTreeWidgetSearchLine, kListViewSearchLine)
 #: rc.cpp:301
 msgid "Search interactively for domains"
-msgstr ""
+msgstr "డొమైన్సు కొరకు యింటరాక్టివుగా శోధించుము"
 
 #. i18n: file: kio_ftprc.kcfg:10
 #. i18n: ectx: label, entry (DisablePassiveMode), group (DesktopIcons)
 #: rc.cpp:307
 msgid "Disable Passive FTP"
-msgstr ""
+msgstr "పాసివ్ FTPను అచేతనము చేయుము"
 
 #. i18n: file: kio_ftprc.kcfg:11
 #. i18n: ectx: whatsthis, entry (DisablePassiveMode), group (DesktopIcons)
@@ -1033,7 +1046,7 @@ msgstr ""
 #. i18n: ectx: label, entry (MarkPartial), group (DesktopIcons)
 #: rc.cpp:313
 msgid "Mark partially uploaded files"
-msgstr ""
+msgstr "పాక్షికముగా అప్‌లోడు చేసిన ఫైళ్ళను గుర్తుంచుము"
 
 #. i18n: file: kio_ftprc.kcfg:17
 #. i18n: ectx: whatsthis, entry (MarkPartial), group (DesktopIcons)
@@ -1042,6 +1055,8 @@ msgid ""
 "While a file is being uploaded its extension is \".part\". When fully "
 "uploaded it is renamed to its real name."
 msgstr ""
+"ఒక ఫైలు అప్‌లోడు అవుతున్నప్పుడు దాని పొడిగింపు \".part\". అది పూర్తిగా అప్‌లోడు అయిన తర్వాత అది దాని "
+"అసలు పేరుకు పునఃనామకరణము చేయబడుతుంది."
 
 #. i18n: file: kproxydlg.ui:19
 #. i18n: ectx: property (whatsThis), widget (QWidget, KProxyDialogUI)
@@ -1067,13 +1082,13 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbNoProxy)
 #: rc.cpp:328
 msgid "Connect to the Internet directly."
-msgstr ""
+msgstr "ఇంటర్నెట్‌కు నేరుగా అనుసంధానించుము."
 
 #. i18n: file: kproxydlg.ui:40
 #. i18n: ectx: property (text), widget (QRadioButton, rbNoProxy)
 #: rc.cpp:331
 msgid "Connect to the &Internet directly"
-msgstr ""
+msgstr "(&I) ఇంటర్నెట్‌కు నేరుగా అనుసంధానించుము"
 
 #. i18n: file: kproxydlg.ui:57
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbAutoDiscover)
@@ -1093,25 +1108,25 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, rbAutoDiscover)
 #: rc.cpp:341
 msgid "A&utomatically detect proxy configuration"
-msgstr ""
+msgstr "(&u) ప్రోక్సీ ఆకృతీకరణను స్వయంచాలకంగా గుర్తించుము"
 
 #. i18n: file: kproxydlg.ui:78
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbAutoScript)
 #: rc.cpp:344
 msgid "Use the specified proxy script URL to configure the proxy settings."
-msgstr ""
+msgstr "ప్రోక్సీ అమరికలను ఆకృతీకరించుటకు తెలుపబడిన ప్రోక్సీ స్క్రిప్టు URLను వుపయోగించుము."
 
 #. i18n: file: kproxydlg.ui:81
 #. i18n: ectx: property (text), widget (QRadioButton, rbAutoScript)
 #: rc.cpp:347
 msgid "U&se proxy configuration URL:"
-msgstr ""
+msgstr "(&s) ప్రోక్సీ ఆకృతీకరణ URLను వుపయోగించుము:"
 
 #. i18n: file: kproxydlg.ui:97
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, location)
 #: rc.cpp:350
 msgid "Enter the address for the proxy configuration script."
-msgstr ""
+msgstr "ప్రోక్సీ ఆకృతీకరణ స్క్రిప్టు కొరకు చిరునామాను ప్రవేశపెట్టుము."
 
 #. i18n: file: kproxydlg.ui:126
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbEnvVar)
@@ -1130,13 +1145,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, rbEnvVar)
 #: rc.cpp:359
 msgid "Use preset proxy environment &variables"
-msgstr ""
+msgstr "(&v) ప్రస్తుత ప్రోక్సీ యెన్విరాన్మెంట్ వేరియబుల్సును వుపయోగించుము"
 
 #. i18n: file: kproxydlg.ui:139
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbEnvSetup)
 #: rc.cpp:362
 msgid "Show the proxy environment variable configuration dialog."
-msgstr ""
+msgstr "ప్రోక్సీ యెన్విరాన్మెంట్ వేరియబుల్ ఆకృతీకరణ డైలాగును చూపుము."
 
 #. i18n: file: kproxydlg.ui:142
 #. i18n: ectx: property (text), widget (QPushButton, pbEnvSetup)
@@ -1150,49 +1165,49 @@ msgstr "అమర్పు..."
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbManual)
 #: rc.cpp:368
 msgid "Manually enter proxy server configuration information."
-msgstr ""
+msgstr "ప్రోక్సీ సెర్వర్ ఆకృతీకరణ సమాచారమును మాన్యువల్‌గా ప్రవేశపెట్టుము."
 
 #. i18n: file: kproxydlg.ui:171
 #. i18n: ectx: property (text), widget (QRadioButton, rbManual)
 #: rc.cpp:371
 msgid "&Manually specify the proxy settings"
-msgstr ""
+msgstr "(&M)ప్రోక్సీ అమరికలను మాన్యువల్‌గా తెలుపుము"
 
 #. i18n: file: kproxydlg.ui:181
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbManSetup)
 #: rc.cpp:374
 msgid "Show the manual proxy configuration dialog."
-msgstr ""
+msgstr "మాన్యువల్ ప్రోక్సీ ఆకృతీకరణ డైలాగును చూపుము."
 
 #. i18n: file: kproxydlg.ui:199
 #. i18n: ectx: property (title), widget (QGroupBox, gbAuth)
 #: rc.cpp:380
 msgid "Authori&zation"
-msgstr ""
+msgstr "(&z) ధృవీకరణ"
 
 #. i18n: file: kproxydlg.ui:205
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbPrompt)
 #: rc.cpp:383
 msgid "Prompt for login information whenever it is required."
-msgstr ""
+msgstr "ఎప్పుడు అవసరమైనా లాగిన్ సమాచారము కొరకు అడుగుము."
 
 #. i18n: file: kproxydlg.ui:208
 #. i18n: ectx: property (text), widget (QRadioButton, rbPrompt)
 #: rc.cpp:386
 msgid "Prompt as &needed"
-msgstr ""
+msgstr "(&n) అవసరమైనట్లుగా అడుగుము"
 
 #. i18n: file: kproxydlg.ui:229
 #. i18n: ectx: property (toolTip), widget (QRadioButton, rbPresetLogin)
 #: rc.cpp:389
 msgid "Use this login information."
-msgstr ""
+msgstr "లాగిన్ సమాచారమును వుపయోగించుము."
 
 #. i18n: file: kproxydlg.ui:232
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbPresetLogin)
 #: rc.cpp:392
 msgid "Use information specified here to login into proxy servers as needed."
-msgstr ""
+msgstr "ప్రోక్సీ సెర్వర్లకు అవసరమైనట్లుగా లాగిన్ అగుటకు యిక్కడ తెలిపిన సమాచారమును వుపయోగించుము."
 
 #. i18n: file: kproxydlg.ui:235
 #. i18n: ectx: property (text), widget (QRadioButton, rbPresetLogin)
@@ -1204,7 +1219,7 @@ msgstr "యూజర్ పేరు:"
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leUsername)
 #: rc.cpp:398
 msgid "Login name."
-msgstr ""
+msgstr "లాగిన్ పేరు."
 
 #. i18n: file: kproxydlg.ui:255
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbPassword)
@@ -1212,19 +1227,19 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, lePassword)
 #: rc.cpp:401 rc.cpp:407
 msgid "Login password."
-msgstr ""
+msgstr "లాగిన్ సంకేతపదము."
 
 #. i18n: file: kproxydlg.ui:258
 #. i18n: ectx: property (text), widget (QLabel, lbPassword)
 #: rc.cpp:404
 msgid "Password:"
-msgstr ""
+msgstr "సంకేతపదము:"
 
 #. i18n: file: kproxydlg.ui:292
 #. i18n: ectx: property (title), widget (QGroupBox, gbOptions)
 #: rc.cpp:410
 msgid "O&ptions"
-msgstr ""
+msgstr "(&p) ఐచ్చికాలు"
 
 #. i18n: file: kproxydlg.ui:301
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbPersConn)
@@ -1243,31 +1258,31 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbPersConn)
 #: rc.cpp:419
 msgid "Use persistent connections to proxy"
-msgstr ""
+msgstr "ప్రోక్సీకు స్థిరమైన అనుసంధానములను వుపయోగించుము"
 
 #. i18n: file: manualproxy.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, gbServers)
 #: rc.cpp:422
 msgid "Ser&vers"
-msgstr ""
+msgstr "(&v) సెర్వర్లు"
 
 #. i18n: file: manualproxy.ui:79
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leHttp)
 #: rc.cpp:434
 msgid "Enter the address of the HTTP proxy server."
-msgstr ""
+msgstr "HTTP ప్రోక్సీ సెర్వర్ యొక్క చిరునామాను ప్రవేశపెట్టుము."
 
 #. i18n: file: manualproxy.ui:86
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leHttps)
 #: rc.cpp:437
 msgid "Enter the address of the HTTPS proxy server."
-msgstr ""
+msgstr "HTTPS ప్రోక్సీ సెర్వర్ యొక్క చిరునామాను ప్రవేశపెట్టుము."
 
 #. i18n: file: manualproxy.ui:93
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leFtp)
 #: rc.cpp:440
 msgid "Enter the address of the FTP proxy server."
-msgstr ""
+msgstr "FTP ప్రోక్సీ సెర్వర్ యొక్క చిరునామాను ప్రవేశపెట్టుము."
 
 #. i18n: file: manualproxy.ui:100
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, sbFtp)
@@ -1275,7 +1290,7 @@ msgstr ""
 msgid ""
 "Enter the port number of the FTP proxy server. Default 8080. Another common "
 "value is 3128."
-msgstr ""
+msgstr "FTP ప్రోక్సీ సేవిక యొక్క పోర్టు సంఖ్యను ప్రవేశపెట్టుము. అప్రమేయ 8080. వేరొక వుమ్మడి విలువ 3128."
 
 #. i18n: file: manualproxy.ui:110
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, sbHttps)
@@ -1285,19 +1300,19 @@ msgstr ""
 msgid ""
 "Enter the port number of the HTTP proxy server. Default is 8080. Another "
 "common value is 3128."
-msgstr ""
+msgstr "HTTP ప్రోక్సీ సెర్వర్ యొక్క పోర్టు సంఖ్యను ప్రవేశపెట్టుము. అప్రమేయ 8080. వేరొక వుమ్మడి విలువ 3128."
 
 #. i18n: file: manualproxy.ui:136
 #. i18n: ectx: property (text), widget (QCheckBox, cbSameProxy)
 #: rc.cpp:452
 msgid "&Use the same proxy server for all protocols"
-msgstr ""
+msgstr "(&U) ఒకటే ప్రోక్సీ సెర్వరును అన్ని ప్రోటోకాల్సుకు వుపయోగించుము"
 
 #. i18n: file: manualproxy.ui:153
 #. i18n: ectx: property (title), widget (QGroupBox, gbExceptions)
 #: rc.cpp:455
 msgid "E&xceptions"
-msgstr ""
+msgstr "(&x) ఎక్సెప్షన్లు"
 
 #. i18n: file: manualproxy.ui:161
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbReverseProxy)
@@ -1316,49 +1331,49 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbReverseProxy)
 #: rc.cpp:463
 msgid "Use proxy only for entries in this list"
-msgstr ""
+msgstr "ఈ జాబితానందలి ప్రవేశముల కొరకు ప్రోక్సీ మాత్రమే ప్రోక్సీ వుపయోగించుము"
 
 #. i18n: file: manualproxy.ui:188
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbDeleteAll)
 #: rc.cpp:466
 msgid "Remove all proxy exception addresses from the list."
-msgstr ""
+msgstr "అన్ని ప్రోక్సీ ఎక్సెప్షన్ చిరునామాలను జాబితానుండి తీసివేయుము."
 
 #. i18n: file: manualproxy.ui:191
 #. i18n: ectx: property (text), widget (QPushButton, pbDeleteAll)
 #: rc.cpp:469
 msgid "D&elete All"
-msgstr ""
+msgstr "(&e) అన్నిటిని తొలగించుము"
 
 #. i18n: file: manualproxy.ui:201
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbDelete)
 #: rc.cpp:472
 msgid "Remove the selected proxy exception address from the list."
-msgstr ""
+msgstr "ఎంపికచేసిన ప్రోక్సీ ఎక్సెప్షన్ చిరునామాను జాబితానుండి తీసివేయుము."
 
 #. i18n: file: manualproxy.ui:204
 #. i18n: ectx: property (text), widget (QPushButton, pbDelete)
 #: rc.cpp:475
 msgid "De&lete"
-msgstr ""
+msgstr "(&l) తొలగించుము"
 
 #. i18n: file: manualproxy.ui:211
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbNew)
 #: rc.cpp:478
 msgid "Add new proxy exception address to the list."
-msgstr ""
+msgstr "కొత్త ప్రోక్సీ ఎక్సెప్షన్ చిరునామాను జాబితాకు జతచేయుము."
 
 #. i18n: file: manualproxy.ui:224
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbChange)
 #: rc.cpp:484
 msgid "Change the selected proxy exception address."
-msgstr ""
+msgstr "ఎంపికచేసిన ప్రోక్సీ ఎక్సెప్షన్ చిరునామాను మార్చుము."
 
 #. i18n: file: manualproxy.ui:227
 #. i18n: ectx: property (text), widget (QPushButton, pbChange)
 #: rc.cpp:487
 msgid "C&hange..."
-msgstr ""
+msgstr "(&h) మార్చుము..."
 
 #. i18n: file: policydlg.ui:18
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbDomain)
@@ -1376,7 +1391,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lbDomain)
 #: rc.cpp:495
 msgid "&Domain name:"
-msgstr ""
+msgstr "(&D) డొమైన్ నామము:"
 
 #. i18n: file: policydlg.ui:50
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbPolicy)
@@ -1398,25 +1413,25 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lbPolicy)
 #: rc.cpp:513
 msgid "&Policy:"
-msgstr ""
+msgstr "(&P) విధానము:"
 
 #. i18n: file: policydlg.ui:77
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
 #: rc.cpp:526
 msgid "Accept"
-msgstr ""
+msgstr "ఆమోదించు"
 
 #. i18n: file: policydlg.ui:82
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
 #: rc.cpp:529
 msgid "Reject"
-msgstr ""
+msgstr "తిరస్కరించు"
 
 #. i18n: file: policydlg.ui:87
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
 #: rc.cpp:532
 msgid "Ask"
-msgstr ""
+msgstr "అడుగు"
 
 #. i18n: file: useragentdlg.ui:16
 #. i18n: ectx: property (whatsThis), widget (QWidget, UserAgentUI)
@@ -1452,7 +1467,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, sendUACheckBox)
 #: rc.cpp:548
 msgid "&Send identification"
-msgstr ""
+msgstr "(&S) గుర్తింపును పంపుము"
 
 #. i18n: file: useragentdlg.ui:42
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, defaultIdGroupBox)
@@ -1466,7 +1481,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, defaultIdGroupBox)
 #: rc.cpp:554
 msgid "Default Identification"
-msgstr ""
+msgstr "అప్రమేయ గుర్తింపు"
 
 #. i18n: file: useragentdlg.ui:57
 #. i18n: ectx: property (whatsThis), widget (KSqueezedTextLabel, defaultIdLineEdit)
@@ -1479,15 +1494,14 @@ msgstr ""
 #. i18n: file: useragentdlg.ui:70
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, osNameCheckBox)
 #: rc.cpp:561
-msgid ""
-"Includes your operating system's name in the browser identification text."
-msgstr ""
+msgid "Includes your operating system's name in the browser identification text."
+msgstr "బ్రౌజర్ గుర్తింపు వచనము నందు మీ ఆపరేటింగ్ సిస్టమ్ పేరును చేర్చుతుంది."
 
 #. i18n: file: useragentdlg.ui:73
 #. i18n: ectx: property (text), widget (QCheckBox, osNameCheckBox)
 #: rc.cpp:564
 msgid "Add operating s&ystem name"
-msgstr ""
+msgstr "(&y) ఆపరేటింగ్ సిస్టమ్ పేరు జతచేయుము"
 
 #. i18n: file: useragentdlg.ui:101
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, osVersionCheckBox)
@@ -1495,37 +1509,37 @@ msgstr ""
 msgid ""
 "Includes your operating system's version number in the browser "
 "identification text."
-msgstr ""
+msgstr "బ్రౌజర్ గుర్తింపు వచనమునందు మీ ఆపరేటింగ్ సిస్టమ్ వర్షన్ సంఖ్యను చేర్చుతుంది."
 
 #. i18n: file: useragentdlg.ui:104
 #. i18n: ectx: property (text), widget (QCheckBox, osVersionCheckBox)
 #: rc.cpp:570
 msgid "Add operating system &version"
-msgstr ""
+msgstr "(&v) ఆపరేటింగ్ సిస్టమ్ వర్షన్‌ను జతచేయుము"
 
 #. i18n: file: useragentdlg.ui:113
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, platformCheckBox)
 #: rc.cpp:573
 msgid "Includes your platform type in the browser identification text"
-msgstr ""
+msgstr "మీ ప్లాట్‌ఫాం రకమును బ్రౌజర్ గుర్తింపు వచనమునందు చేర్చుతుంది"
 
 #. i18n: file: useragentdlg.ui:116
 #. i18n: ectx: property (text), widget (QCheckBox, platformCheckBox)
 #: rc.cpp:576
 msgid "Add &platform name"
-msgstr ""
+msgstr "(&p) ప్లాట్‌ఫాం పేరును జతచేయుము"
 
 #. i18n: file: useragentdlg.ui:123
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, processorTypeCheckBox)
 #: rc.cpp:579
 msgid "Includes your machine's CPU type in the browser identification text."
-msgstr ""
+msgstr "మీ మిషన్‌యొక్క CPU రకమును బ్రౌజర్ గుర్తింపు వచనమునందు చేర్చుము."
 
 #. i18n: file: useragentdlg.ui:126
 #. i18n: ectx: property (text), widget (QCheckBox, processorTypeCheckBox)
 #: rc.cpp:582
 msgid "Add &machine (processor) type"
-msgstr ""
+msgstr "(&m) మిషన్ (ప్రోసెసర్) రకమును జతచేయుము"
 
 #. i18n: file: useragentdlg.ui:133
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, languageCheckBox)
@@ -1534,60 +1548,62 @@ msgid ""
 "Includes your language settings in the browser identification text to obtain "
 "localized versions of the page."
 msgstr ""
+"పేజీ యొక్క స్థానికీకరించిన వర్షన్‌లను పొందుటకు బ్రౌజర్ గుర్తింపు వచనమునందు మీ భాష అమరికలను "
+"చేర్చుతుంది."
 
 #. i18n: file: useragentdlg.ui:136
 #. i18n: ectx: property (text), widget (QCheckBox, languageCheckBox)
 #: rc.cpp:588
 msgid "Add lang&uage information"
-msgstr ""
+msgstr "(&u) భాష సమాచారమును జతచేయుము"
 
 #. i18n: file: useragentdlg.ui:149
 #. i18n: ectx: property (title), widget (QGroupBox, domainPolicyGroupBox)
 #: rc.cpp:591
 msgid "Site Specific Identification"
-msgstr ""
+msgstr "సైటును బట్టి గుర్తింపు"
 
 #. i18n: file: useragentdlg.ui:162
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
 #: rc.cpp:594
 msgid "Site Name"
-msgstr ""
+msgstr "సైటు పేరు"
 
 #. i18n: file: useragentdlg.ui:167
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
 #: rc.cpp:597
 msgid "Identification"
-msgstr ""
+msgstr "గుర్తింపు"
 
 #. i18n: file: useragentdlg.ui:172
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
 #: rc.cpp:600
 msgid "User Agent"
-msgstr ""
+msgstr "వినియోగదారి ప్రతినిధి"
 
 #. i18n: file: useragentdlg.ui:185
 #. i18n: ectx: property (whatsThis), widget (KPushButton, newButton)
 #: rc.cpp:603
 msgid "Add new identification text for a site."
-msgstr ""
+msgstr "సైటుకొరకు కొత్త గుర్తింపు వచనమును జతచేయుము."
 
 #. i18n: file: useragentdlg.ui:195
 #. i18n: ectx: property (whatsThis), widget (KPushButton, changeButton)
 #: rc.cpp:609
 msgid "Change the selected identifier text."
-msgstr ""
+msgstr "ఎంపికచేసిన గుర్తింపుదారి వచనమును మార్చుము."
 
 #. i18n: file: useragentdlg.ui:205
 #. i18n: ectx: property (whatsThis), widget (KPushButton, deleteButton)
 #: rc.cpp:615
 msgid "Delete the selected identifier text."
-msgstr ""
+msgstr "ఎంపికచేసిన గుర్తింపుదారి వచనమును తొలగించుము."
 
 #. i18n: file: useragentdlg.ui:215
 #. i18n: ectx: property (whatsThis), widget (KPushButton, deleteAllButton)
 #: rc.cpp:621
 msgid "Delete all identifiers."
-msgstr ""
+msgstr "అన్ని గుర్తింపుదారులను తొలగించుము."
 
 #. i18n: file: useragentselectordlg.ui:19
 #. i18n: ectx: property (whatsThis), widget (QLabel, siteLabel)
@@ -1610,7 +1626,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, siteLabel)
 #: rc.cpp:633
 msgid "&When browsing the following site:"
-msgstr ""
+msgstr "(&W) క్రింది సైటును బ్రౌజ్ చేస్తున్నప్పుడు:"
 
 #. i18n: file: useragentselectordlg.ui:47
 #. i18n: ectx: property (whatsThis), widget (QLabel, aliasLabel)
@@ -1628,7 +1644,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, aliasLabel)
 #: rc.cpp:647
 msgid "&Use the following identification:"
-msgstr ""
+msgstr "(&U) క్రింది గుర్తింపును వుపయోగించుము:"
 
 #. i18n: file: useragentselectordlg.ui:74
 #. i18n: ectx: property (whatsThis), widget (QLabel, identityLabel)
@@ -1646,19 +1662,19 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, identityLabel)
 #: rc.cpp:660
 msgid "Real identification:"
-msgstr ""
+msgstr "వాస్తవ గుర్తింపు:"
 
 #: smbrodlg.cpp:48
 msgid "These settings apply to network browsing only."
-msgstr ""
+msgstr "ఈ అమరికలు నెట్వర్కు బ్రౌజింగుకు మాత్రమే ఆపాదించబడతాయి."
 
 #: smbrodlg.cpp:52
 msgid "Default user name:"
-msgstr ""
+msgstr "అప్రమేయ వినియోగదారి నామము:"
 
 #: smbrodlg.cpp:60
 msgid "Default password:"
-msgstr ""
+msgstr "అప్రమేయ సంకేతపదము:"
 
 #: smbrodlg.cpp:179
 msgid ""
@@ -1683,11 +1699,11 @@ msgstr ""
 
 #: useragentdlg.cpp:80
 msgid "Add Identification"
-msgstr ""
+msgstr "గుర్తింపును జతచేయుము"
 
 #: useragentdlg.cpp:154
 msgid "Modify Identification"
-msgstr ""
+msgstr "గుర్తింపును సవరించుము"
 
 #: useragentdlg.cpp:209
 #, kde-format
@@ -1695,10 +1711,12 @@ msgid ""
 "<qt><center>Found an existing identification for<br/><b>%1</b><br/>Do you "
 "want to replace it?</center></qt>"
 msgstr ""
+"<qt><center>దీని కొరకు యిప్పటికేవున్న గుర్తింపును కనుగొన్నది <br/><b>%1</b><br/>మీరు దానిని "
+"పునఃస్థాపించుదామని అనుకొనుచున్నారా?</center></qt>"
 
 #: useragentdlg.cpp:214
 msgid "Duplicate Identification"
-msgstr ""
+msgstr "నకిలీ గుర్తింపు"
 
 #: useragentdlg.cpp:396
 msgid ""
@@ -1715,3 +1733,4 @@ msgid ""
 "dialog box, simply click on the quick help button on the window title bar, "
 "then click on the section for which you are seeking help.</p>"
 msgstr ""
+
