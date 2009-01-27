@@ -1,0 +1,292 @@
+# translation of drkonqi.po to Telugu
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# విజయ్ కిరన్ కముజు <infyquest@gmail.com>, 2008.
+# Krishna Babu K <kkrothap@redhat.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: drkonqi\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-12-26 10:21+0100\n"
+"PO-Revision-Date: 2009-01-16 22:16+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: backtrace.cpp:85
+#, kde-format
+msgid "Could not generate a backtrace as the debugger '%1' was not found."
+msgstr "డీబగ్గర్ '%1' కనబడని కారణంగా బ్యాక్‌ట్రేస్‌ను ఉద్భవింపచేయలేదు."
+
+#: debugger.cpp:71
+msgid "C&opy"
+msgstr "(&o) నకలు"
+
+#: debugger.cpp:83
+#, c-format
+msgid "Application: %progname (%execname), signal %signame"
+msgstr "అనువర్తనం: %progname (%execname), సంకేతం  %signame"
+
+#: debugger.cpp:96
+msgctxt "debugging finished"
+msgid "Backtrace loaded."
+msgstr "బ్యాక్‌ట్రేస్ లోడయింది."
+
+#: debugger.cpp:121
+#, kde-format
+msgid "Backtrace saved to <filename>%1</filename>."
+msgstr "బ్యాక్‌ట్రేస్ <filename>%1</filename> కు దాయబడింది."
+
+#: debugger.cpp:125
+msgid "Cannot create a file to save the backtrace in"
+msgstr "బ్యాక్‌ట్రేస్‌ను దాయుటకు ఫైల్‌ను సృష్టించలేకపోయింది"
+
+#: debugger.cpp:133
+msgid "Select Filename"
+msgstr "ఫైల్‌ పేరును ఎంపికచేయుము"
+
+#: debugger.cpp:141
+#, kde-format
+msgid ""
+"A file named <filename>%1</filename> already exists. Are you sure you want "
+"to overwrite it?"
+msgstr ""
+"<filename>%1</filename> పేరుతో ఒక ఫైల్ ఇప్పటికేవుంది. దానిని మీరు తిరిగివ్రాద్దామని అనుకుంటున్నారా?"
+
+#: debugger.cpp:143
+msgid "Overwrite File?"
+msgstr "ఫైల్ తిరిగివ్రాయాలా?"
+
+#: debugger.cpp:144
+msgid "&Overwrite"
+msgstr "(&O) తిరిగివ్రాయుము"
+
+#: debugger.cpp:156
+#, kde-format
+msgid "Cannot open file <filename>%1</filename> for writing."
+msgstr "ఫైల్ <filename>%1</filename> ను వ్రాయుటకొరకు తెరువలేము"
+
+#: debugger.cpp:164 debugger.cpp:169
+msgid "Unable to create a valid backtrace."
+msgstr "సరైన బ్యాక్‌ ట్రేస్‌ను సృష్టించలేకపోయింది"
+
+#: debugger.cpp:165 debugger.cpp:170
+msgid ""
+"This backtrace appears to be of no use.\n"
+"This is probably because your packages are built in a way which prevents "
+"creation of proper backtraces, or the stack frame was seriously corrupted in "
+"the crash.\n"
+"\n"
+msgstr ""
+"ఈ బ్యాక్‌ ట్రేస్ ఉపయోగంలేనట్లుగా కనిపించుచున్నది.\n"
+"బహుశా ఇది మీ ప్యాకేజిలు సరైన బ్యాక్‌ ట్రేస్ సృష్టీకరణను నిరోధించే విధంగానిర్మించబడివుండవచ్చు,లేదా స్టాక్ చట్రం "
+"క్రాష్‌ అయినందు వలనతీవ్రంగా పాడైవుండవచ్చు.\n"
+"\n"
+
+#: debugger.cpp:179
+msgid "Loading backtrace..."
+msgstr "బ్యాక్‌ ట్రేస్‌ను లోడ్‌చేస్తోంది..."
+
+#: debugger.cpp:202
+msgid ""
+"The following options are enabled:\n"
+"\n"
+msgstr ""
+"ఈ క్రింది ఐచ్చికాలు చేతనం చేయబడినవి:\n"
+"\n"
+
+#: debugger.cpp:204
+msgid ""
+"\n"
+"As the usage of these options is not recommended - because they can, in rare "
+"cases, be responsible for KDE problems - a backtrace will not be generated.\n"
+"You need to turn these options off and reproduce the problem again in order "
+"to get a backtrace.\n"
+msgstr ""
+"\n"
+"ఈ ఐచ్చికాలను ఉపయోగించుట సిఫారసు చేయుటలేదు - ఎంచేతంటే అవి, కొన్ని సంధర్బాలలో, కెడిఈ సమస్యలకు "
+"కారణమౌతున్నాయి - బ్యాక్‌ ట్రేస్ ఉద్భవింపచేయబడుట లేదు.\n"
+"మీరు ఈ ఐచ్చికాలను ఆపవలసివుంది మరియు సమస్యను మరలా పొంది తద్వారా బ్యాక్‌ ట్రేస్‌ను పొందాలి.\n"
+
+#: debugger.cpp:209
+msgid "Backtrace will not be created."
+msgstr "బ్యాక్‌ ట్రేస్ సృష్టించబడదు"
+
+#: debugger.cpp:220
+msgid "Loading symbols..."
+msgstr "చిహ్నములను లోడుచేస్తోంది..."
+
+#: debugger.cpp:239
+msgid "System configuration startup check disabled.\n"
+msgstr "వ్యవస్థ ఆకృతీకరణ ప్రారంభం పరిశీలన అచేతనంచేయబడింది.\n"
+
+#: drbugreport.cpp:53
+msgid "You have to edit the description before the report can be sent."
+msgstr "నివేదిక పంపకముందే మీరు వివరణను సరికూర్చవలెను."
+
+#: krashconf.cpp:78
+msgctxt "unknown application"
+msgid "unknown"
+msgstr "తెలియని"
+
+#: krashconf.cpp:159
+#, kde-format
+msgid "<application>%1</application>"
+msgstr "<application>%1</application>"
+
+#: krashconf.cpp:164 krashconf.cpp:171
+#, kde-format
+msgid "<command>%1</command>"
+msgstr "<command>%1</command>"
+
+#: krashconf.cpp:177
+#, kde-format
+msgid "<filename>%1</filename>"
+msgstr "<filename>%1</filename>"
+
+#: main.cpp:43
+msgid "KDE crash handler gives the user feedback if a program crashed"
+msgstr "ఒకవేళ కార్యక్రమం క్రాష్ అయితే కెడిఈ క్రాష్ సంభాలిక వినియోగదారి ఫీడ్‌ బ్యాక్ ఇస్తుంది"
+
+#: main.cpp:59
+msgid "The KDE Crash Handler"
+msgstr "కెడిఈ క్రాష్ సంభాలిక"
+
+#: main.cpp:63
+msgid "(C) 2000-2003, Hans Petter Bieker"
+msgstr "(C) 2000-2003, హాన్స్ పెట్టెర్ బిఎకర్"
+
+#: main.cpp:64
+msgid "Hans Petter Bieker"
+msgstr "హాన్స్ పెట్టెర్ బిఎకర్"
+
+#: main.cpp:70
+msgid "The signal number that was caught"
+msgstr "దొరికినటువంటి సకేతం సంఖ్య"
+
+#: main.cpp:71
+msgid "Name of the program"
+msgstr "ప్రోగ్రామ్ యొక్క పేరు"
+
+#: main.cpp:72
+msgid "Path to the executable"
+msgstr "ఎక్సిక్యూటబుల్ యొక్క మార్గము"
+
+#: main.cpp:73
+msgid "The version of the program"
+msgstr "ప్రోగ్రామ్ యొక్క వివరణం"
+
+#: main.cpp:74
+msgid "The bug address to use"
+msgstr "ఉపయోగించుటకు బగ్ చిరునామా"
+
+#: main.cpp:75
+msgid "Translated name of the program"
+msgstr "ప్రోగ్రామ్ యొక్క అనువదించిన పేరు"
+
+#: main.cpp:76
+msgid "The PID of the program"
+msgstr "ప్రోగ్రామ్ యొక్క PID"
+
+#: main.cpp:77
+msgid "Startup ID of the program"
+msgstr "ప్రోగ్రామ్ యొక్క ప్రారంభపు ఐడి"
+
+#: main.cpp:78
+msgid "The program was started by kdeinit"
+msgstr "ప్రోగ్రామ్ kdeinit ద్వారా ప్రారంభింపబడింది"
+
+#: main.cpp:79
+msgid "Disable arbitrary disk access"
+msgstr "అచేతనం చేయబడిన ఆర్బిటరి డిస్క్ వాడుక"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"కృష్ణబాబు కె \n"
+" విజయ్ కిరణ్ కముజు"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"k.meetme@gmail.com \n"
+" infyquest@gmail.com"
+
+#: toplevel.cpp:54
+msgid "&Bug Report"
+msgstr "(&B) బగ్ నివేదిక"
+
+#: toplevel.cpp:55
+msgid "&Debugger"
+msgstr "(&D) డీబగ్గర్"
+
+#: toplevel.cpp:88
+msgid "Show details"
+msgstr "వివరములను చూపుము"
+
+#: toplevel.cpp:93
+msgid "Please attach the following information to your bug report:"
+msgstr "బగ్ నివేదికకు దయచేసి ఈ క్రింది సమాచారాన్ని జతపరచండి:"
+
+#: toplevel.cpp:135
+msgid "A Fatal Error Occurred"
+msgstr "ఒక ఫాటల్ దోషము సంభవించింది"
+
+#: toplevel.cpp:143
+#, c-format
+msgid ""
+"<p style=\"margin-bottom: 6px;\"><b>Application crashed</b></p><p>The "
+"program %appname crashed.</p>"
+msgstr ""
+"<p style=\"margin-bottom: 6px;\"><b>అనువర్తనం క్రాష్‌యైంది</b></p><p> ప్రోగ్రామ్ %"
+"appname క్రాష్‌యైంది.</p>"
+
+#: toplevel.cpp:162
+msgid ""
+"<p>Do you want to generate a backtrace? This will help the developers to "
+"figure out what went wrong.</p>\n"
+"<p>Unfortunately this will take some time on slow machines.</p><p><b>Note: A "
+"backtrace is not a substitute for a proper description of the bug and "
+"information on how to reproduce it. It is not possible to fix the bug "
+"without a proper description.</b></p>"
+msgstr ""
+"<p>మీరు బ్యాక్‌ ట్రేస్ ఉద్భవింపచేద్దామని అనుకుంటున్నారా? ఇది అభివృద్దికారులు తప్పుఎక్కడ జరిగిందో "
+"తెలుసుకొనుటకు సహాయపడుతుంది.</p>\n"
+"<p>దురదృష్టవశాత్తు ఇది నిదానమైన మిషన్‍స్‌లో కొంత సమయం తీసుకుంటుంది.</p><p><b>గమనిక: ఒక బగ్ యొక్క "
+"వివరణకు మరియు దానిని తిరిగివ్యుత్పత్తి చేయుటకు కావలిసిన సమాచారంకు బ్యాక్‌ట్రేస్ ప్రతిక్షేపన కాదు. సరైన వివరణ "
+"లేకుండా ఒక బగ్‌ను పరిష్కరించుట సాధ్యంకాదు.</b></p>"
+
+#: toplevel.cpp:174
+msgid "Include Backtrace"
+msgstr "బ్యాక్‌ ట్రేస్‌ను చేర్చుము"
+
+#: toplevel.cpp:174
+msgid "Generate"
+msgstr "ఉద్భవింపచేయుము"
+
+#: toplevel.cpp:174
+msgid "Do Not Generate"
+msgstr "ఉద్భవింపచేయవద్దు"
+
+#: toplevel.cpp:241
+msgid "It was not possible to generate a backtrace."
+msgstr "బ్యాక్‌ట్రేస్‌ను ఉద్భవింపచేయుట సాధ్యంకాలేదు."
+
+#: toplevel.cpp:242
+msgid "Backtrace Not Possible"
+msgstr "బ్యాక్‌ట్రేస్ సాధ్యకాదు"

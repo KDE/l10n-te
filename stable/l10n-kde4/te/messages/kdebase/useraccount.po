@@ -1,0 +1,304 @@
+# translation of useraccount.po to Telugu
+#
+# pavithran <pavithran.s@gmail.com>, 2007.
+# విజయ్ కిరణ్ కముజు <infyquest@gmail.com>, 2007.
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: useraccount\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-11-16 09:54+0100\n"
+"PO-Revision-Date: 2009-01-16 22:16+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: chfacedlg.cpp:56
+msgid "Change your Face"
+msgstr "మీ ముఖ చిత్రాన్ని మార్చండి"
+
+#: chfacedlg.cpp:74
+msgid "&Acquire Image..."
+msgstr ""
+
+#: chfacedlg.cpp:94
+msgid "(Custom)"
+msgstr ""
+
+#: chfacedlg.cpp:113 main.cpp:258
+msgid "There was an error loading the image."
+msgstr "చిత్రం ఎక్కించునప్పుడు దోషం వచ్చింది"
+
+#: chfacedlg.cpp:131 chfacedlg.cpp:167
+#, kde-format
+msgid ""
+"There was an error saving the image:\n"
+"%1"
+msgstr ""
+"%1 :\n"
+"చిత్రం దాచునప్పుడు దోషం వచ్చింది"
+
+#: chfacedlg.cpp:142
+msgid "&Save copy in custom faces folder for future use"
+msgstr ""
+
+#: chfacedlg.cpp:148
+msgid "Choose Image"
+msgstr "చిత్రాన్ని ఎన్నుకోండి"
+
+#: main.cpp:70
+msgid "Change &Password..."
+msgstr "పాస్ వర్డ్ ను మార్చండి"
+
+#: main.cpp:84
+msgid "Password & User Information"
+msgstr "పాస్ వర్డ్ & యూజర్ సమాచారం"
+
+#: main.cpp:86
+msgid "(C) 2002, Braden MacDonald, (C) 2004 Ravikiran Rajagopal"
+msgstr "(C) 2002, బ్రాడెన్ మాక్ డొనల్డ్ , (C) 2004 రవికిరణ్ రాజ్ గొపాల్"
+
+#: main.cpp:89
+msgid "Frans Englich"
+msgstr "ఫ్రన్స్ ఎగ్లిచ్"
+
+#: main.cpp:89
+msgid "Maintainer"
+msgstr "సంరక్షకుడు"
+
+#: main.cpp:90
+msgid "Ravikiran Rajagopal"
+msgstr ""
+
+#: main.cpp:91
+msgid "Michael Häckel"
+msgstr ""
+
+#: main.cpp:93
+msgid "Braden MacDonald"
+msgstr ""
+
+#: main.cpp:93
+msgid "Face editor"
+msgstr ""
+
+#: main.cpp:94
+msgid "Geert Jansen"
+msgstr "గీర్ట్ జాన్సన్"
+
+#: main.cpp:94
+msgid "Password changer"
+msgstr "పాస్ వర్డ్ ని మార్చే కార్యక్షేత్రం"
+
+#: main.cpp:96
+msgid "Daniel Molkentin"
+msgstr "డానియల్ మాల్కెన్టిన్"
+
+#: main.cpp:97
+msgid "Alex Zepeda"
+msgstr ""
+
+#: main.cpp:98
+msgid "Hans Karlsson"
+msgstr ""
+
+#: main.cpp:98 main.cpp:99
+msgid "Icons"
+msgstr "ప్రతిమలు"
+
+#: main.cpp:99
+msgid "Hermann Thomas"
+msgstr ""
+
+#: main.cpp:102
+msgid ""
+"<qt>Here you can change your personal information, which will be used in "
+"mail programs and word processors, for example. You can change your login "
+"password by clicking <em>Change Password...</em>.</qt>"
+msgstr ""
+
+#: main.cpp:116
+msgid ""
+"A program error occurred: the internal program 'kdepasswd' could not be "
+"found. You will not be able to change your password."
+msgstr ""
+
+#: main.cpp:215
+msgid "Please enter your password in order to save your settings:"
+msgstr ""
+
+#: main.cpp:218
+msgid "You must enter your password in order to change your information."
+msgstr ""
+
+#: main.cpp:228
+msgid "You must enter a correct password."
+msgstr "మీరు సరైన పాస్ వర్డ్ ఇవ్వాలి"
+
+#: main.cpp:232
+#, kde-format
+msgid ""
+"An error occurred and your password has probably not been changed. The error "
+"message was:\n"
+"%1"
+msgstr ""
+"ఒక దోషం  జరిగిండి ఇంకా పాస్ వర్డ్ మార్చబడలేనట్లుండి. దోషం  సమాచారం:\n"
+"%1"
+
+#: main.cpp:246
+#, kde-format
+msgid "There was an error saving the image: %1"
+msgstr "చిత్రాన్ని దాచేటప్పుడు దోషం ఎదురైంది: %1"
+
+#: main.cpp:272 main.cpp:306
+msgid "Your administrator has disallowed changing your image."
+msgstr ""
+
+#: main.cpp:339
+#, kde-format
+msgid ""
+"%1 does not appear to be an image file.\n"
+"Please use files with these extensions:\n"
+"%2"
+msgstr ""
+
+#. i18n: file: faceDlg.ui:24
+#. i18n: ectx: property (text), widget (QLabel, header)
+#: rc.cpp:3
+msgid "Select a new face:"
+msgstr "కొత్త  ముఖ చిత్రాన్ని ఎన్నుకోండి"
+
+#. i18n: file: faceDlg.ui:49
+#. i18n: ectx: property (text), widget (QPushButton, browseBtn)
+#: rc.cpp:6
+msgid "Custom Image..."
+msgstr ""
+
+#. i18n: file: kcm_useraccount.kcfg:24
+#. i18n: ectx: label, entry (FaceSize), group (X-*-Greeter)
+#: rc.cpp:9
+msgid "The size of login images"
+msgstr "లాగిన్ చిత్రాల పరిమానము"
+
+#. i18n: file: kcm_useraccount.kcfg:28
+#. i18n: ectx: label, entry (DefaultFile), group (X-*-Greeter)
+#: rc.cpp:12
+msgid "The default image file"
+msgstr "అప్రమేయ చిత్ర దస్త్రం"
+
+#. i18n: file: kcm_useraccount.kcfg:32
+#. i18n: ectx: label, entry (CustomFaceFile), group (X-*-Greeter)
+#: rc.cpp:15
+msgid "The filename of the user's custom image file"
+msgstr ""
+
+#. i18n: file: kcm_useraccount.kcfg:36
+#. i18n: ectx: label, entry (FaceFile), group (X-*-Greeter)
+#: rc.cpp:18
+msgid "The user's login image"
+msgstr "యూజర్  యొక్క లాగిన్ చిత్రం"
+
+#. i18n: file: kcm_useraccount_pass.kcfg:9
+#. i18n: ectx: label, entry (EchoMode), group (Passwords)
+#: rc.cpp:21
+msgid "Password echo type"
+msgstr "పాస్ వర్డ్ మార్చునప్పుడు చూపు అక్షరం"
+
+#. i18n: file: main_widget.ui:74
+#. i18n: ectx: property (text), widget (QLabel, lblClickButtonInfo)
+#: rc.cpp:24
+#, fuzzy
+#| msgid "<i>(Click the button to change your image)</i>"
+msgid "<i>Click to change your image</i>"
+msgstr "<i>(చిత్రాన్ని మార్చటానికి బటన్ నొక్కండి)</i>"
+
+#. i18n: file: main_widget.ui:89
+#. i18n: ectx: property (text), widget (KPushButton, btnChangePassword)
+#: rc.cpp:27
+msgid "Change Password..."
+msgstr "పాస్ వర్డ్ మార్చండి..."
+
+#. i18n: file: main_widget.ui:118
+#. i18n: ectx: property (title), widget (QGroupBox, grpUserInformation)
+#: rc.cpp:30
+msgid "User Information"
+msgstr "యూజర్ సమాచరం"
+
+#. i18n: file: main_widget.ui:124
+#. i18n: ectx: property (text), widget (QLabel, lblRealName)
+#: rc.cpp:33
+msgid "&Name:"
+msgstr "(&N) పేరు:"
+
+#. i18n: file: main_widget.ui:147
+#. i18n: ectx: property (text), widget (QLabel, lblOrganisation)
+#: rc.cpp:36
+msgid "&Organization:"
+msgstr "(&O) సంస్థ:"
+
+#. i18n: file: main_widget.ui:170
+#. i18n: ectx: property (text), widget (QLabel, lblEmail)
+#: rc.cpp:39
+msgid "&Email address:"
+msgstr "(&E) ఈమెయిల్ చిరునమా:"
+
+#. i18n: file: main_widget.ui:193
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:42
+msgid "&SMTP server:"
+msgstr "(&S) SMTP సెర్వర్:"
+
+#. i18n: file: main_widget.ui:216
+#. i18n: ectx: property (text), widget (QLabel, lblUIDTell)
+#: rc.cpp:45
+msgid "User ID:"
+msgstr "యూజర్  ఐడి:"
+
+#. i18n: file: main_widget.ui:242
+#. i18n: ectx: property (title), widget (KButtonGroup, kcfg_EchoMode)
+#: rc.cpp:48
+msgid "At Password Prompt"
+msgstr "పాస్ వర్డ్ ప్రాంప్ట్ వద్ద"
+
+#. i18n: file: main_widget.ui:248
+#. i18n: ectx: property (text), widget (QRadioButton, rdbOneStar)
+#: rc.cpp:51
+msgid "Show one star for each letter"
+msgstr "ప్రతి అక్షరానికి ఒక నక్షత్రం చూపండి"
+
+#. i18n: file: main_widget.ui:255
+#. i18n: ectx: property (text), widget (QRadioButton, rdbThreeStars)
+#: rc.cpp:54
+msgid "Show three stars for each letter"
+msgstr "ప్రతి అక్షరానికి మూడు నక్షత్రాలు చూపండి"
+
+#. i18n: file: main_widget.ui:262
+#. i18n: ectx: property (text), widget (QRadioButton, rdbShowPassword)
+#: rc.cpp:57
+msgid "Show nothing"
+msgstr "ఏమి చూపియొద్దు"
+
+#: rc.cpp:58
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"పవిత్రన్ శాఖమూరి\n"
+"విజయ్ కిరణ్ కముజు"
+
+#: rc.cpp:59
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"pavithran.s@gmail.com\n"
+"infyquest@gmail.com"
