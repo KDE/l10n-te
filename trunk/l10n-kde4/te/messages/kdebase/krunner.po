@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-23 10:13+0100\n"
+"POT-Creation-Date: 2009-01-28 09:13+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,17 +25,17 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: interfaces/default/interface.cpp:76 interfaces/default/interface.cpp:77
+#: interfaces/default/interface.cpp:77 interfaces/default/interface.cpp:78
 #: interfaces/quicksand/qs_dialog.cpp:50 interfaces/quicksand/qs_dialog.cpp:51
 msgid "Settings"
 msgstr "అమరికలు"
 
-#: interfaces/default/interface.cpp:96 interfaces/default/interface.cpp:97
-#: krunnerapp.cpp:202 krunnerapp.cpp:203
+#: interfaces/default/interface.cpp:97 interfaces/default/interface.cpp:98
+#: krunnerapp.cpp:204 krunnerapp.cpp:205
 msgid "Show System Activity"
 msgstr ""
 
-#: interfaces/default/interface.cpp:456
+#: interfaces/default/interface.cpp:458
 #, kde-format
 msgid "%1: %2"
 msgstr ""
@@ -92,82 +92,82 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: lock/main.cc:61
-msgid "KRunner Locker"
+msgid "KDE Screen Locker"
 msgstr ""
 
-#: lock/main.cc:61
-msgid "Session Locker for KRunner"
-msgstr ""
-
-#: lock/main.cc:64
-msgid "Force session locking"
+#: lock/main.cc:62
+msgid "Session Locker for KDE Workspace"
 msgstr ""
 
 #: lock/main.cc:65
-msgid "Only start screen saver"
+msgid "Force session locking"
 msgstr ""
 
 #: lock/main.cc:66
-msgid "Only use the blank screen saver"
+msgid "Only start screen saver"
 msgstr ""
 
 #: lock/main.cc:67
+msgid "Only use the blank screen saver"
+msgstr ""
+
+#: lock/main.cc:68
 msgid "start with plasma unlocked for configuring"
 msgstr ""
 
-#: lock/lockprocess.cc:796
+#: lock/lockprocess.cc:795
 msgid "Will not lock the session, as unlocking would be impossible:\n"
 msgstr ""
 
-#: lock/lockprocess.cc:800
+#: lock/lockprocess.cc:799
 msgid "Cannot start <i>kcheckpass</i>."
 msgstr ""
 
-#: lock/lockprocess.cc:801
+#: lock/lockprocess.cc:800
 msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
 msgstr ""
 
-#: lock/lockprocess.cc:863
+#: lock/lockprocess.cc:862
 msgid "No appropriate greeter plugin configured."
 msgstr ""
 
-#: lock/lockdlg.cc:98
+#: lock/lockdlg.cc:97
 msgid "<nobr><b>The session is locked</b></nobr><br />"
 msgstr ""
 
-#: lock/lockdlg.cc:99
+#: lock/lockdlg.cc:98
 #, kde-format
 msgid "<nobr><b>The session was locked by %1</b></nobr><br />"
 msgstr ""
 
-#: lock/lockdlg.cc:112
+#: lock/lockdlg.cc:111
 msgid "Unl&ock"
 msgstr ""
 
-#: lock/lockdlg.cc:114
+#: lock/lockdlg.cc:113
 msgid "Sw&itch User..."
 msgstr ""
 
-#: lock/lockdlg.cc:182
+#: lock/lockdlg.cc:181
 msgid "<b>Unlocking failed</b>"
 msgstr ""
 
-#: lock/lockdlg.cc:190
+#: lock/lockdlg.cc:189
 msgid "<b>Warning: Caps Lock on</b>"
 msgstr ""
 
-#: lock/lockdlg.cc:422
+#: lock/lockdlg.cc:421
 #, kde-format
 msgid ""
 "Cannot unlock the session because the authentication system failed to work;\n"
-"you must kill krunner_lock (pid %1) manually."
+"you must kill kscreenlocker (pid %1) manually."
 msgstr ""
 
-#: lock/lockdlg.cc:511
+#: lock/lockdlg.cc:510
 msgid "&Start New Session"
 msgstr ""
 
-#: lock/lockdlg.cc:519
+#: lock/lockdlg.cc:518
 #, kde-format
 msgid ""
 "You have chosen to open another desktop session instead of resuming the "
@@ -181,28 +181,28 @@ msgid ""
 "between sessions."
 msgstr ""
 
-#: lock/lockdlg.cc:532
+#: lock/lockdlg.cc:531
 msgid "&Do not ask again"
 msgstr ""
 
-#: lock/lockdlg.cc:588
+#: lock/lockdlg.cc:587
 msgid "Session"
 msgstr ""
 
-#: lock/lockdlg.cc:588
+#: lock/lockdlg.cc:587
 msgid "Location"
 msgstr "స్థానం"
 
-#: lock/lockdlg.cc:616
+#: lock/lockdlg.cc:615
 msgctxt "session"
 msgid "&Activate"
 msgstr ""
 
-#: lock/lockdlg.cc:625
+#: lock/lockdlg.cc:624
 msgid "Start &New Session"
 msgstr ""
 
-#: krunnerdialog.cpp:57 krunnerapp.cpp:191 krunnerapp.cpp:192
+#: krunnerdialog.cpp:57 krunnerapp.cpp:193 krunnerapp.cpp:194
 msgid "Run Command"
 msgstr ""
 
@@ -268,39 +268,39 @@ msgstr ""
 "k.meetme@gmail.com \n"
 " infyquest@gmail.com"
 
-#: krunnerapp.cpp:196 krunnerapp.cpp:197
+#: krunnerapp.cpp:198 krunnerapp.cpp:199
 msgid "Run Command on clipboard contents"
 msgstr ""
 
-#: krunnerapp.cpp:214 krunnerapp.cpp:215
+#: krunnerapp.cpp:216 krunnerapp.cpp:217
 msgid "Switch User"
 msgstr ""
 
-#: krunnerapp.cpp:221 krunnerapp.cpp:222
+#: krunnerapp.cpp:223 krunnerapp.cpp:224
 msgid "Lock Session"
 msgstr ""
 
-#: krunnerapp.cpp:229 krunnerapp.cpp:230
+#: krunnerapp.cpp:231 krunnerapp.cpp:232
 msgid "Log Out"
 msgstr ""
 
-#: krunnerapp.cpp:234 krunnerapp.cpp:235
+#: krunnerapp.cpp:236 krunnerapp.cpp:237
 msgid "Log Out Without Confirmation"
 msgstr ""
 
-#: krunnerapp.cpp:239 krunnerapp.cpp:240
+#: krunnerapp.cpp:241 krunnerapp.cpp:242
 msgid "Halt Without Confirmation"
 msgstr ""
 
-#: krunnerapp.cpp:244 krunnerapp.cpp:245
+#: krunnerapp.cpp:246 krunnerapp.cpp:247
 msgid "Reboot Without Confirmation"
 msgstr ""
 
-#: krunnerapp.cpp:296
+#: krunnerapp.cpp:298
 msgid "System Activity"
 msgstr ""
 
-#: krunnerapp.cpp:405
+#: krunnerapp.cpp:407
 msgid ""
 "Could not log out properly.\n"
 "The session manager cannot be contacted. You can try to force a shutdown by "

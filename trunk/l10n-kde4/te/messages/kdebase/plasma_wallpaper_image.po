@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-21 10:48+0100\n"
+"POT-Creation-Date: 2009-01-28 09:13+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,51 +25,51 @@ msgstr ""
 "\n"
 "\n"
 
-#: backgrounddelegate.cpp:67
+#: backgrounddelegate.cpp:68
 #, kde-format
 msgctxt "Caption to wallpaper preview, %1 author name"
 msgid "by %1"
 msgstr ""
 
-#: backgroundpackage.cpp:158
+#: backgroundpackage.cpp:156
 msgid "Images"
 msgstr "చిత్రాలు"
 
-#: backgroundpackage.cpp:159
+#: backgroundpackage.cpp:157
 msgid "Screenshot"
 msgstr ""
 
-#: image.cpp:122 image.cpp:162
+#: image.cpp:128 image.cpp:168
 msgid "Scaled & Cropped"
 msgstr ""
 
-#: image.cpp:123 image.cpp:163
+#: image.cpp:129 image.cpp:169
 msgid "Scaled"
 msgstr "స్కేల్డ్"
 
-#: image.cpp:124 image.cpp:164
+#: image.cpp:130 image.cpp:170
 msgid "Scaled, keep proportions"
 msgstr ""
 
-#: image.cpp:125 image.cpp:165
+#: image.cpp:131 image.cpp:171
 msgid "Centered"
 msgstr "సెంటర్డ్"
 
-#: image.cpp:126 image.cpp:166
+#: image.cpp:132 image.cpp:172
 msgid "Tiled"
 msgstr "టైల్డ్"
 
-#: image.cpp:127 image.cpp:167
+#: image.cpp:133 image.cpp:173
 msgid "Center Tiled"
 msgstr "సెంటర్ టైల్డ్"
 
-#: image.cpp:391
+#: image.cpp:404
 #, kde-format
 msgctxt "Wallpaper info, author name"
 msgid "%1"
 msgstr "%1"
 
-#: image.cpp:423
+#: image.cpp:436
 msgid "Select Wallpaper Image File"
 msgstr ""
 
@@ -125,13 +125,17 @@ msgstr ""
 
 #. i18n: file: imageconfig.ui:246
 #. i18n: ectx: property (toolTip), widget (QPushButton, m_newStuff)
-#: rc.cpp:27
+#. i18n: file: slideshowconfig.ui:243
+#. i18n: ectx: property (toolTip), widget (QPushButton, m_newStuff)
+#: rc.cpp:27 rc.cpp:51
 msgid "Download new wallpapers"
 msgstr ""
 
 #. i18n: file: imageconfig.ui:249
 #. i18n: ectx: property (text), widget (QPushButton, m_newStuff)
-#: rc.cpp:30
+#. i18n: file: slideshowconfig.ui:246
+#. i18n: ectx: property (text), widget (QPushButton, m_newStuff)
+#: rc.cpp:30 rc.cpp:54
 msgid "Get New Wallpapers..."
 msgstr ""
 
@@ -168,20 +172,20 @@ msgstr ""
 msgid "Color:"
 msgstr "రంగు:"
 
-#. i18n: file: slideshowconfig.ui:247
+#. i18n: file: slideshowconfig.ui:274
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:51
+#: rc.cpp:57
 msgid "&Change images every:"
 msgstr ""
 
-#: rc.cpp:52
+#: rc.cpp:58
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 "కృష్ణబాబు కె \n"
 " విజయ్ కిరణ్ కముజు"
 
-#: rc.cpp:53
+#: rc.cpp:59
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
