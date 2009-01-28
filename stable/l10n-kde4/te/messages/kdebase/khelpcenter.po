@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-06 11:06+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "\n"
 "\n"
 
-#: application.cpp:57 navigator.cpp:470
+#: application.cpp:57 navigator.cpp:483
 msgid "KDE Help Center"
 msgstr ""
 
@@ -89,14 +89,18 @@ msgid "Sizes"
 msgstr ""
 
 #: fontdialog.cpp:74
-msgctxt "The smallest size a will have"
+#, fuzzy
+#| msgctxt "The smallest size a will have"
+#| msgid "M&inimum font size:"
 msgid "M&inimum font size:"
 msgstr "(&i) కనిష్ట ఫాంటు పరిమాణము:"
 
 #: fontdialog.cpp:81
-msgctxt "The normal size a font will have"
+#, fuzzy
+#| msgctxt "The smallest size a will have"
+#| msgid "M&inimum font size:"
 msgid "M&edium font size:"
-msgstr ""
+msgstr "(&i) కనిష్ట ఫాంటు పరిమాణము:"
 
 #: fontdialog.cpp:91
 msgid "Fonts"
@@ -134,7 +138,7 @@ msgstr "ఎన్కోడింగ్"
 msgid "&Default encoding:"
 msgstr ""
 
-#: fontdialog.cpp:147 fontdialog.cpp:217
+#: fontdialog.cpp:147 fontdialog.cpp:215
 msgid "Use Language Encoding"
 msgstr "భాషా ఎన్కోడింగును వుపయోగించుము"
 
@@ -182,42 +186,45 @@ msgstr "ht://dig"
 
 #: htmlsearchconfig.cpp:59
 msgid ""
-"The fulltext search feature makes use of the ht://dig HTML search engine."
+"The fulltext search feature makes use of the ht://dig HTML search engine. "
+"You can get ht://dig at the"
 msgstr ""
 
-#: htmlsearchconfig.cpp:63
+#: htmlsearchconfig.cpp:64
 msgid "Information about where to get the ht://dig package."
 msgstr "ht://dig ప్యాకేజీ యెక్కడ పొందాలో సమాచారము."
 
-#: htmlsearchconfig.cpp:67
-msgid "You can get ht://dig at the ht://dig home page"
-msgstr ""
+#: htmlsearchconfig.cpp:68
+#, fuzzy
+#| msgid "ht://dig"
+msgid "ht://dig home page"
+msgstr "ht://dig"
 
-#: htmlsearchconfig.cpp:73
+#: htmlsearchconfig.cpp:74
 msgid "Program Locations"
 msgstr "ప్రోగ్రామ్ స్థానములు"
 
-#: htmlsearchconfig.cpp:82
+#: htmlsearchconfig.cpp:83
 msgid "htsearch:"
 msgstr ""
 
-#: htmlsearchconfig.cpp:88
+#: htmlsearchconfig.cpp:89
 msgid "Enter the URL of the htsearch CGI program."
 msgstr ""
 
-#: htmlsearchconfig.cpp:93
+#: htmlsearchconfig.cpp:94
 msgid "Indexer:"
 msgstr ""
 
-#: htmlsearchconfig.cpp:99
+#: htmlsearchconfig.cpp:100
 msgid "Enter the path to your htdig indexer program here."
 msgstr ""
 
-#: htmlsearchconfig.cpp:105
+#: htmlsearchconfig.cpp:106
 msgid "htdig database:"
 msgstr ""
 
-#: htmlsearchconfig.cpp:111
+#: htmlsearchconfig.cpp:112
 msgid "Enter the path to the htdig database folder."
 msgstr ""
 
@@ -336,11 +343,11 @@ msgstr ""
 msgid "No indexing command specified for document type '%1'."
 msgstr ""
 
-#: kcmhelpcenter.cpp:541
+#: kcmhelpcenter.cpp:531
 msgid "Failed to build index."
 msgstr ""
 
-#: kcmhelpcenter.cpp:596
+#: kcmhelpcenter.cpp:586
 #, kde-format
 msgid ""
 "Error executing indexing build command:\n"
@@ -448,23 +455,23 @@ msgstr ""
 msgid "G&lossary"
 msgstr ""
 
-#: navigator.cpp:469
+#: navigator.cpp:482
 msgid "Start Page"
 msgstr ""
 
-#: navigator.cpp:557
+#: navigator.cpp:570
 msgid "Unable to run search program."
 msgstr ""
 
-#: navigator.cpp:597
+#: navigator.cpp:610
 msgid "A search index does not yet exist. Do you want to create the index now?"
 msgstr ""
 
-#: navigator.cpp:601
+#: navigator.cpp:614
 msgid "Create"
 msgstr ""
 
-#: navigator.cpp:602
+#: navigator.cpp:615
 msgid "Do Not Create"
 msgstr ""
 
@@ -624,6 +631,87 @@ msgctxt "Label for Unknown search scope, that should never appear"
 msgid "unknown"
 msgstr "తెలియని"
 
-#: view.cpp:209
+#: view.cpp:119
+msgid "Conquer your Desktop!"
+msgstr ""
+
+#: view.cpp:123
+#, fuzzy
+#| msgid "The KDE Help Center"
+msgid "Help Center"
+msgstr "కెడిఈ సహాయ కేంద్రం"
+
+#: view.cpp:125
+msgid "Welcome to the K Desktop Environment"
+msgstr ""
+
+#: view.cpp:126
+msgid "The KDE team welcomes you to user-friendly UNIX computing"
+msgstr ""
+
+#: view.cpp:127
+msgid ""
+"KDE is a powerful graphical desktop environment for UNIX workstations. A\n"
+"KDE desktop combines ease of use, contemporary functionality and "
+"outstanding\n"
+"graphical design with the technological superiority of the UNIX operating\n"
+"system."
+msgstr ""
+
+#: view.cpp:131
+msgid "What is the K Desktop Environment?"
+msgstr ""
+
+#: view.cpp:132
+msgid "Contacting the KDE Project"
+msgstr ""
+
+#: view.cpp:133
+msgid "Supporting the KDE Project"
+msgstr ""
+
+#: view.cpp:134
+msgid "Useful links"
+msgstr ""
+
+#: view.cpp:135
+msgid "Getting the most out of KDE"
+msgstr ""
+
+#: view.cpp:136
+msgid "General Documentation"
+msgstr ""
+
+#: view.cpp:137
+msgid "A Quick Start Guide to the Desktop"
+msgstr ""
+
+#: view.cpp:138
+msgid "KDE Users' guide"
+msgstr ""
+
+#: view.cpp:139
+msgid "Frequently asked questions"
+msgstr ""
+
+#: view.cpp:140
+msgid "Basic Applications"
+msgstr ""
+
+#: view.cpp:141
+msgid "The Kicker Desktop Panel"
+msgstr ""
+
+#: view.cpp:142
+#, fuzzy
+#| msgid "The KDE Help Center"
+msgid "The KDE Control Center"
+msgstr "కెడిఈ సహాయ కేంద్రం"
+
+#: view.cpp:143
+msgid "The Konqueror File manager and Web Browser"
+msgstr ""
+
+#: view.cpp:267
 msgid "Copy Link Address"
 msgstr "లింకు చిరునామాను నకలుచెయి "

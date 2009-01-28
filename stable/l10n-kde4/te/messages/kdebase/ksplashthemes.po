@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksplashthemes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-30 09:55+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -68,148 +68,139 @@ msgstr "ఎంపికచేసిన థీమ్‌ను డిస్కు�
 msgid "This will remove the selected theme from your disk."
 msgstr "ఇది ఎంపికచేసిన థీమ్‌ను మీ డిస్కునుండి తీసివేస్తుంది."
 
-#: installer.cpp:147
+#: installer.cpp:146
 msgid "Test Theme"
 msgstr ""
 
-#: installer.cpp:148
+#: installer.cpp:147
 msgid "Test the selected theme"
 msgstr ""
 
-#: installer.cpp:149
+#: installer.cpp:148
 msgid "This will test the selected theme."
 msgstr ""
 
-#: installer.cpp:364
+#: installer.cpp:343
 #, kde-format
 msgid "Delete folder %1 and its contents?"
 msgstr ""
 
-#: installer.cpp:364
+#: installer.cpp:343
 msgid "&Delete"
 msgstr ""
 
-#: installer.cpp:371
+#: installer.cpp:350
 #, kde-format
 msgid "Failed to remove theme '%1'"
 msgstr ""
 
-#: installer.cpp:396 installer.cpp:464
+#: installer.cpp:375 installer.cpp:443
 msgid "(Could not load theme)"
 msgstr ""
 
-#: installer.cpp:428
-msgctxt "Unknown name"
+#: installer.cpp:407 installer.cpp:409 installer.cpp:411 installer.cpp:413
+#: installer.cpp:415
+#, fuzzy
+#| msgctxt "Unknown name"
+#| msgid "Unknown"
 msgid "Unknown"
 msgstr "తెలియని"
 
-#: installer.cpp:428
+#: installer.cpp:407
 #, kde-format
 msgid "<b>Name:</b> %1"
 msgstr ""
 
-#: installer.cpp:430
-msgctxt "Unknown description"
-msgid "Unknown"
-msgstr "తెలియని"
-
-#: installer.cpp:430
+#: installer.cpp:409
 #, kde-format
 msgid "<b>Description:</b> %1"
 msgstr ""
 
-#: installer.cpp:432
-msgctxt "Unknown version"
-msgid "Unknown"
-msgstr "తెలియని"
-
-#: installer.cpp:432
+#: installer.cpp:411
 #, kde-format
 msgid "<b>Version:</b> %1"
 msgstr ""
 
-#: installer.cpp:434
-msgctxt "Unknown author"
-msgid "Unknown"
-msgstr "తెలియని"
-
-#: installer.cpp:434
+#: installer.cpp:413
 #, kde-format
 msgid "<b>Author:</b> %1"
 msgstr ""
 
-#: installer.cpp:436
-msgctxt "Unknown homepage"
-msgid "Unknown"
-msgstr "తెలియని"
-
-#: installer.cpp:436
+#: installer.cpp:415
 #, kde-format
 msgid "<b>Homepage:</b> %1"
 msgstr ""
 
-#: installer.cpp:445
+#: installer.cpp:424
 #, kde-format
 msgid "This theme requires the plugin %1 which is not installed."
 msgstr ""
 
-#: installer.cpp:453
+#: installer.cpp:432
 msgid "Could not load theme configuration file."
 msgstr ""
 
-#: installer.cpp:473
+#: installer.cpp:452
 msgid "No preview available."
 msgstr ""
 
-#: installer.cpp:497
+#: installer.cpp:476
 msgid "KSplash Theme Files"
 msgstr ""
 
-#: installer.cpp:498
+#: installer.cpp:477
 msgid "Add Theme"
 msgstr ""
 
-#: installer.cpp:551 installer.cpp:559 installer.cpp:567
-msgid "Failed to successfully test the splash screen."
+#: installer.cpp:530
+msgid "Unable to start ksplashsimple."
+msgstr ""
+
+#: installer.cpp:538
+msgid "Unable to start ksplashx."
+msgstr ""
+
+#: installer.cpp:546
+msgid "Unable to start ksplash."
 msgstr ""
 
 #: main.cpp:61
 msgid "&Theme Installer"
 msgstr ""
 
-#: main.cpp:69
+#: main.cpp:70
 msgid "KDE splash screen theme manager"
 msgstr ""
 
-#: main.cpp:73
+#: main.cpp:74
 msgid "(c) 2003 KDE developers"
 msgstr ""
 
-#: main.cpp:74
+#: main.cpp:75
 msgid "Ravikiran Rajagopal"
 msgstr ""
 
-#: main.cpp:75
+#: main.cpp:76
 msgid "Brian Ledbetter"
 msgstr ""
 
-#: main.cpp:75
+#: main.cpp:76
 msgid "Original KSplash/ML author"
 msgstr ""
 
-#: main.cpp:76
+#: main.cpp:77
 msgid "KDE Theme Manager authors"
 msgstr ""
 
-#: main.cpp:76
+#: main.cpp:77
 msgid "Original installer code"
 msgstr ""
 
-#: main.cpp:78
+#: main.cpp:79
 msgid "Hans Karlsson"
 msgstr ""
 
-#: main.cpp:90
+#: main.cpp:91
 msgid ""
 "<h1>Splash Screen Theme Manager </h1> Install and view splash screen themes."
 msgstr ""
@@ -227,3 +218,19 @@ msgid "Your emails"
 msgstr ""
 "k.meetme@gmail.com \n"
 " infyquest@gmail.com"
+
+#~ msgctxt "Unknown description"
+#~ msgid "Unknown"
+#~ msgstr "తెలియని"
+
+#~ msgctxt "Unknown version"
+#~ msgid "Unknown"
+#~ msgstr "తెలియని"
+
+#~ msgctxt "Unknown author"
+#~ msgid "Unknown"
+#~ msgstr "తెలియని"
+
+#~ msgctxt "Unknown homepage"
+#~ msgid "Unknown"
+#~ msgstr "తెలియని"

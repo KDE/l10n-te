@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: processui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-07 10:19+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -68,13 +68,13 @@ msgid ""
 "<br/><i><font color=\"gray\">Failed to attach to process %1</font></i><br/>"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:150 ksysguardprocesslist.cpp:346
+#: ksysguardprocesslist.cpp:150 ksysguardprocesslist.cpp:344
 msgid "Renice Process..."
 msgid_plural "Renice Processes..."
 msgstr[0] ""
 msgstr[1] ""
 
-#: ksysguardprocesslist.cpp:151 ksysguardprocesslist.cpp:420
+#: ksysguardprocesslist.cpp:151 ksysguardprocesslist.cpp:418
 msgid "Jump to Parent Process"
 msgstr ""
 
@@ -87,15 +87,15 @@ msgid "Show Application Window"
 msgstr ""
 
 #: ksysguardprocesslist.cpp:156
-msgid "Monitor Input && Output"
+msgid "Monitor input and output"
 msgstr ""
 
 #: ksysguardprocesslist.cpp:160
 msgid "Resume Stopped Process"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:161 ksysguardprocesslist.cpp:347
-#: ksysguardprocesslist.cpp:1036
+#: ksysguardprocesslist.cpp:161 ksysguardprocesslist.cpp:345
+#: ksysguardprocesslist.cpp:992
 msgid "Kill Process"
 msgid_plural "Kill Processes"
 msgstr[0] ""
@@ -133,99 +133,85 @@ msgstr ""
 msgid "User 2 (USR2)"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:372
+#: ksysguardprocesslist.cpp:370
 msgid "Send Signal"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:389
+#: ksysguardprocesslist.cpp:387
 #, kde-format
 msgid "Jump to Parent Process (%1)"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:517
+#: ksysguardprocesslist.cpp:515
 #, kde-format
 msgid "Hide Column '%1'"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:530
+#: ksysguardprocesslist.cpp:528
 #, kde-format
 msgid "Show Column '%1'"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:543
+#: ksysguardprocesslist.cpp:541
 msgid "Display Units"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:546
+#: ksysguardprocesslist.cpp:544
 msgid "Kilobytes"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:551
+#: ksysguardprocesslist.cpp:549
 msgid "Megabytes"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:556
+#: ksysguardprocesslist.cpp:554
 msgid "Gigabytes"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:752 ksysguardprocesslist.cpp:1026
+#: ksysguardprocesslist.cpp:749 ksysguardprocesslist.cpp:982
 msgid "You must select a process first."
 msgstr ""
 
-#: ksysguardprocesslist.cpp:829
+#: ksysguardprocesslist.cpp:826
 msgid ""
 "You do not have sufficient privileges to change the CPU scheduler. Aborting."
 msgstr ""
 
-#: ksysguardprocesslist.cpp:837
+#: ksysguardprocesslist.cpp:834
 msgid ""
 "You do not have sufficient privileges to change the CPU priority. Aborting"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:843
+#: ksysguardprocesslist.cpp:840
 msgid ""
 "You do not have sufficient privileges to change the IO scheduler and "
 "priority. Aborting"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:935
-msgid "No."
-msgstr ""
-
-#: ksysguardprocesslist.cpp:941
-msgid "Could not find kdesu executable"
-msgstr ""
-
-#: ksysguardprocesslist.cpp:946
-msgid ""
-"Could not find setscheduler executable.  This should have been installed "
-"alongside system monitor."
-msgstr ""
-
-#: ksysguardprocesslist.cpp:1031
+#: ksysguardprocesslist.cpp:987
 #, kde-format
 msgid "Do you want to kill the selected process?"
 msgid_plural "Do you want to kill the %1 selected processes?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ksysguardprocesslist.cpp:1037
+#: ksysguardprocesslist.cpp:993
 msgid "Kill"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1057
+#: ksysguardprocesslist.cpp:1013
 msgid ""
 "You do not have the permission to renice the process and there was a problem "
 "trying to run as root"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1062
+#: ksysguardprocesslist.cpp:1018
 msgid ""
 "You do not have the permission to kill the process and there was a problem "
 "trying to run as root"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1067
+#: ksysguardprocesslist.cpp:1023
 msgid ""
 "You do not have the permission to set the I/O priority and there was a "
 "problem trying to run as root"
@@ -718,50 +704,50 @@ msgstr ""
 msgid "High Priority"
 msgstr ""
 
-#: ProcessModel.cc:237
+#: ProcessModel.cc:235
 msgid "- Process is doing some work"
 msgstr ""
 
-#: ProcessModel.cc:239
+#: ProcessModel.cc:237
 msgid "- Process is waiting for something to happen"
 msgstr ""
 
-#: ProcessModel.cc:241
+#: ProcessModel.cc:239
 msgid ""
 "- Process has been stopped. It will not respond to user input at the moment"
 msgstr ""
 
-#: ProcessModel.cc:243
+#: ProcessModel.cc:241
 msgid ""
 "- Process has finished and is now dead, but the parent process has not "
 "cleaned up"
 msgstr ""
 
-#: ProcessModel.cc:539
+#: ProcessModel.cc:537
 msgid "The process name"
 msgstr ""
 
-#: ProcessModel.cc:541
+#: ProcessModel.cc:539
 msgid "The user that owns this process"
 msgstr ""
 
-#: ProcessModel.cc:543
+#: ProcessModel.cc:541
 msgid "The controlling terminal that this process is running on."
 msgstr ""
 
-#: ProcessModel.cc:545
+#: ProcessModel.cc:543
 msgid ""
 "The priority that this process is being run with. Ranges from 19 (very nice, "
 "least priority) to -19 (top priority)"
 msgstr ""
 
-#: ProcessModel.cc:548
+#: ProcessModel.cc:546
 msgid "The current CPU usage of the process."
 msgstr ""
 
 #. i18n: %1 is always greater than 1, so do not worry about
 #. nonsensical verbosity of the singular part.
-#: ProcessModel.cc:552
+#: ProcessModel.cc:550
 #, kde-format
 msgid ""
 "The current total CPU usage of the process, divided by the %1 processor core "
@@ -772,14 +758,14 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: ProcessModel.cc:554
+#: ProcessModel.cc:552
 msgid ""
 "<qt>This is the amount of virtual memory space that the process is using, "
 "included shared libraries, graphics memory, files on disk, and so on. This "
 "number is almost meaningless.</qt>"
 msgstr ""
 
-#: ProcessModel.cc:556
+#: ProcessModel.cc:554
 msgid ""
 "<qt>This is the amount of real physical memory that this process is using by "
 "itself. It does not include any swapped out memory, nor the code size of its "
@@ -787,129 +773,129 @@ msgid ""
 "use of a program.</qt>"
 msgstr ""
 
-#: ProcessModel.cc:558
+#: ProcessModel.cc:556
 msgid ""
 "<qt>This is the amount of real physical memory that this process's shared "
 "libraries are using. This memory is shared among all processes that use this "
 "library</qt>"
 msgstr ""
 
-#: ProcessModel.cc:560
+#: ProcessModel.cc:558
 msgid "<qt>The command with which this process was launched</qt>"
 msgstr ""
 
-#: ProcessModel.cc:562
+#: ProcessModel.cc:560
 msgid "<qt>The title of any windows that this process is showing</qt>"
 msgstr ""
 
-#: ProcessModel.cc:564
+#: ProcessModel.cc:562
 msgid "The unique Process ID that identifies this process"
 msgstr ""
 
-#: ProcessModel.cc:644
+#: ProcessModel.cc:643
 #, kde-format
 msgid "Login Name: %1<br/>"
 msgstr ""
 
-#: ProcessModel.cc:648
+#: ProcessModel.cc:647
 msgid "This user is not recognized for some reason."
 msgstr ""
 
-#: ProcessModel.cc:651
+#: ProcessModel.cc:650
 #, kde-format
 msgid "<b>%1</b><br/>"
 msgstr ""
 
-#: ProcessModel.cc:652
+#: ProcessModel.cc:651
 #, kde-format
 msgid "Login Name: %1 (uid: %2)<br/>"
 msgstr ""
 
-#: ProcessModel.cc:654
+#: ProcessModel.cc:652
 #, kde-format
 msgid "  Room Number: %1<br/>"
 msgstr ""
 
-#: ProcessModel.cc:656
+#: ProcessModel.cc:653
 #, kde-format
 msgid "  Work Phone: %1<br/>"
 msgstr ""
 
-#: ProcessModel.cc:663
+#: ProcessModel.cc:660
 #, kde-format
 msgid "Effective User: %1<br/>"
 msgstr ""
 
-#: ProcessModel.cc:665
+#: ProcessModel.cc:662
 #, kde-format
 msgid "Setuid User: %1<br/>"
 msgstr ""
 
-#: ProcessModel.cc:667
+#: ProcessModel.cc:664
 #, kde-format
 msgid "File System User: %1<br/>"
 msgstr ""
 
-#: ProcessModel.cc:671
+#: ProcessModel.cc:668
 #, kde-format
 msgid "Group: %1"
 msgstr ""
 
-#: ProcessModel.cc:676
+#: ProcessModel.cc:673
 #, kde-format
 msgid "<br/>Effective Group: %1"
 msgstr ""
 
-#: ProcessModel.cc:678
+#: ProcessModel.cc:675
 #, kde-format
 msgid "<br/>Setuid Group: %1"
 msgstr ""
 
-#: ProcessModel.cc:680
+#: ProcessModel.cc:677
 #, kde-format
 msgid "<br/>File System Group: %1"
 msgstr ""
 
-#: ProcessModel.cc:687
+#: ProcessModel.cc:684
 #, kde-format
 msgctxt "Short description of a process. PID, name, user"
 msgid "<numid>%1</numid>: %2, owned by user %3"
 msgstr ""
 
-#: ProcessModel.cc:694
+#: ProcessModel.cc:691
 #, kde-format
 msgid "%1 (gid: <numid>%2</numid>)"
 msgstr ""
 
-#: ProcessModel.cc:715
+#: ProcessModel.cc:712
 #, kde-format
 msgid "%1 (uid: %2)"
 msgstr ""
 
-#: ProcessModel.cc:812
+#: ProcessModel.cc:809
 #, kde-format
 msgctxt "tooltip. name,pid "
 msgid "This process is being debugged by %1 (<numid>%2</numid>)"
 msgstr ""
 
-#: ProcessModel.cc:834
+#: ProcessModel.cc:831
 msgid ""
 "<b>Init</b> is the parent of all other processes and cannot be killed.<br/>"
 msgstr ""
 
-#: ProcessModel.cc:836
+#: ProcessModel.cc:833
 msgid ""
 "<b>KThreadd</b> manages kernel threads. The children processes run in the "
 "kernel, controlling hard disk access, etc.<br/>"
 msgstr ""
 
-#: ProcessModel.cc:838
+#: ProcessModel.cc:835
 #, kde-format
 msgctxt "name column tooltip. first item is the name"
 msgid "<b>%1</b><br />Process ID: <numid>%2</numid>"
 msgstr ""
 
-#: ProcessModel.cc:843
+#: ProcessModel.cc:840
 #, kde-format
 msgctxt "name column tooltip. first item is the name"
 msgid ""
@@ -917,7 +903,7 @@ msgid ""
 "ID: <numid>%4</numid>"
 msgstr ""
 
-#: ProcessModel.cc:845
+#: ProcessModel.cc:842
 #, kde-format
 msgctxt "name column tooltip. first item is the name"
 msgid ""
@@ -925,183 +911,183 @@ msgid ""
 "numid>"
 msgstr ""
 
-#: ProcessModel.cc:849
+#: ProcessModel.cc:846
 #, kde-format
 msgid "<br/>Command: %1"
 msgstr ""
 
-#: ProcessModel.cc:852
+#: ProcessModel.cc:849
 #, kde-format
 msgid "<br />Running on: %1"
 msgstr ""
 
-#: ProcessModel.cc:860
+#: ProcessModel.cc:857
 #, kde-format
 msgid "<qt>This process was run with the following command:<br />%1"
 msgstr ""
 
-#: ProcessModel.cc:862
+#: ProcessModel.cc:859
 #, kde-format
 msgid "<br /><br />Running on: %1"
 msgstr ""
 
-#: ProcessModel.cc:876
+#: ProcessModel.cc:873
 #, kde-format
-msgid "Nice level: %1 (%2)"
+msgid "<qt>Nice level: %1 (%2)"
 msgstr ""
 
-#: ProcessModel.cc:880
+#: ProcessModel.cc:877
 #, kde-format
-msgid "Scheduler priority: %1"
+msgid "<qt>Scheduler priority: %1"
 msgstr ""
 
-#: ProcessModel.cc:884
+#: ProcessModel.cc:881
 #, kde-format
 msgid "<br/>Scheduler: %1"
 msgstr ""
 
-#: ProcessModel.cc:888 ProcessModel.cc:925
+#: ProcessModel.cc:885 ProcessModel.cc:921
 #, kde-format
 msgid "<br/>I/O Nice level: %1 (%2)"
 msgstr ""
 
-#: ProcessModel.cc:889 ProcessModel.cc:926
+#: ProcessModel.cc:886 ProcessModel.cc:922
 #, kde-format
 msgid "<br/>I/O Class: %1"
 msgstr ""
 
-#: ProcessModel.cc:895
+#: ProcessModel.cc:892
 #, kde-format
 msgid ""
-"<qt><p style='white-space:pre'>Process status: %1 %2<br />User CPU usage: %3%"
-"<br />System CPU usage: %4%</qt>"
+"<qt>Process status: %1 %2<br />User CPU usage: %3%<br />System CPU usage: %4%"
+"</qt>"
 msgstr ""
 
-#: ProcessModel.cc:905
+#: ProcessModel.cc:901
 #, kde-format
 msgid ""
 "<br />Number of children: %1<br />Total User CPU usage: %2%<br />Total "
 "System CPU usage: %3%<br />Total CPU usage: %4%"
 msgstr ""
 
-#: ProcessModel.cc:914
+#: ProcessModel.cc:910
 #, kde-format
 msgid "<br /><br />CPU time spent running as user: %1 seconds"
 msgstr ""
 
-#: ProcessModel.cc:918
+#: ProcessModel.cc:914
 #, kde-format
 msgid "<br />CPU time spent running in kernel: %1 seconds"
 msgstr ""
 
-#: ProcessModel.cc:922
+#: ProcessModel.cc:918
 #, kde-format
 msgid "<br />Nice level: %1 (%2)"
 msgstr ""
 
-#: ProcessModel.cc:941
+#: ProcessModel.cc:937
 #, kde-format
 msgid "Memory usage: %1 out of %2  (%3 %)<br />"
 msgstr ""
 
-#: ProcessModel.cc:943
+#: ProcessModel.cc:939
 #, kde-format
 msgid "Memory usage: %1<br />"
 msgstr ""
 
-#: ProcessModel.cc:946
+#: ProcessModel.cc:942
 #, kde-format
 msgid "RSS Memory usage: %1 out of %2  (%3 %)"
 msgstr ""
 
-#: ProcessModel.cc:948
+#: ProcessModel.cc:944
 #, kde-format
 msgid "RSS Memory usage: %1"
 msgstr ""
 
-#: ProcessModel.cc:954
+#: ProcessModel.cc:949
 msgid ""
 "<qt>Your system does not seem to have this information available to be read."
 "</qt>"
 msgstr ""
 
-#: ProcessModel.cc:958
+#: ProcessModel.cc:952
 #, kde-format
 msgid "Shared library memory usage: %1 out of %2  (%3 %)"
 msgstr ""
 
-#: ProcessModel.cc:960
+#: ProcessModel.cc:954
 #, kde-format
 msgid "Shared library memory usage: %1"
 msgstr ""
 
-#: ProcessModel.cc:1218
+#: ProcessModel.cc:1152
 msgctxt "process heading"
 msgid "Name"
 msgstr "పేరు"
 
-#: ProcessModel.cc:1219
+#: ProcessModel.cc:1153
 msgctxt "process heading"
 msgid "User Name"
 msgstr "యూజర్ పేరు"
 
-#: ProcessModel.cc:1220
+#: ProcessModel.cc:1154
 msgctxt "process heading"
 msgid "PID"
 msgstr "PID"
 
-#: ProcessModel.cc:1221
+#: ProcessModel.cc:1155
 msgctxt "process heading"
 msgid "TTY"
 msgstr ""
 
-#: ProcessModel.cc:1222
+#: ProcessModel.cc:1156
 msgctxt "process heading"
 msgid "Niceness"
 msgstr ""
 
-#: ProcessModel.cc:1224
+#: ProcessModel.cc:1158
 #, no-c-format
 msgctxt "process heading"
 msgid "CPU %"
 msgstr ""
 
-#: ProcessModel.cc:1225
+#: ProcessModel.cc:1159
 msgctxt "process heading"
 msgid "Virtual Size"
 msgstr ""
 
-#: ProcessModel.cc:1226
+#: ProcessModel.cc:1160
 msgctxt "process heading"
 msgid "Memory"
 msgstr "మెమొరి"
 
-#: ProcessModel.cc:1227
+#: ProcessModel.cc:1161
 msgctxt "process heading"
 msgid "Shared Mem"
 msgstr ""
 
-#: ProcessModel.cc:1228
+#: ProcessModel.cc:1162
 msgctxt "process heading"
 msgid "Command"
 msgstr "ఆదేశము"
 
-#: ProcessModel.cc:1230
+#: ProcessModel.cc:1164
 msgctxt "process heading"
 msgid "Window Title"
 msgstr ""
 
-#: ProcessModel.cc:1295
+#: ProcessModel.cc:1229
 #, kde-format
 msgid "%1 K"
 msgstr ""
 
-#: ProcessModel.cc:1297
+#: ProcessModel.cc:1231
 #, kde-format
 msgid "%1 M"
 msgstr ""
 
-#: ProcessModel.cc:1299
+#: ProcessModel.cc:1233
 #, kde-format
 msgid "%1 G"
 msgstr ""

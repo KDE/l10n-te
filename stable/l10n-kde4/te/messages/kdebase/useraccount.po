@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: useraccount\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-16 09:54+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -61,6 +61,10 @@ msgstr "చిత్రాన్ని ఎన్నుకోండి"
 msgid "Change &Password..."
 msgstr "పాస్ వర్డ్ ను మార్చండి"
 
+#: main.cpp:83
+msgid "kcm_useraccount"
+msgstr ""
+
 #: main.cpp:84
 msgid "Password & User Information"
 msgstr "పాస్ వర్డ్ & యూజర్ సమాచారం"
@@ -83,6 +87,10 @@ msgstr ""
 
 #: main.cpp:91
 msgid "Michael Häckel"
+msgstr ""
+
+#: main.cpp:91
+msgid "haeckel@kde.org"
 msgstr ""
 
 #: main.cpp:93
@@ -125,7 +133,7 @@ msgstr ""
 msgid ""
 "<qt>Here you can change your personal information, which will be used in "
 "mail programs and word processors, for example. You can change your login "
-"password by clicking <em>Change Password...</em>.</qt>"
+"password by clicking <em>Change Password</em>.</qt>"
 msgstr ""
 
 #: main.cpp:116
@@ -209,94 +217,106 @@ msgstr ""
 msgid "The user's login image"
 msgstr "యూజర్  యొక్క లాగిన్ చిత్రం"
 
+#. i18n: file: kcm_useraccount.kcfg:40
+#. i18n: ectx: label, entry (CustomKey), group (X-*-Greeter)
+#: rc.cpp:21
+msgid "Sort key for K3IconViewItems"
+msgstr ""
+
 #. i18n: file: kcm_useraccount_pass.kcfg:9
 #. i18n: ectx: label, entry (EchoMode), group (Passwords)
-#: rc.cpp:21
+#: rc.cpp:24
 msgid "Password echo type"
 msgstr "పాస్ వర్డ్ మార్చునప్పుడు చూపు అక్షరం"
 
-#. i18n: file: main_widget.ui:74
+#. i18n: file: main_widget.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, MainWidget)
+#: rc.cpp:27
+msgid "KCMUserAccount"
+msgstr ""
+
+#. i18n: file: main_widget.ui:77
 #. i18n: ectx: property (text), widget (QLabel, lblClickButtonInfo)
-#: rc.cpp:24
+#: rc.cpp:30
 #, fuzzy
 #| msgid "<i>(Click the button to change your image)</i>"
-msgid "<i>Click to change your image</i>"
+msgid "<i>(Click the button to change your image)</i>"
 msgstr "<i>(చిత్రాన్ని మార్చటానికి బటన్ నొక్కండి)</i>"
 
-#. i18n: file: main_widget.ui:89
-#. i18n: ectx: property (text), widget (KPushButton, btnChangePassword)
-#: rc.cpp:27
-msgid "Change Password..."
-msgstr "పాస్ వర్డ్ మార్చండి..."
-
-#. i18n: file: main_widget.ui:118
+#. i18n: file: main_widget.ui:94
 #. i18n: ectx: property (title), widget (QGroupBox, grpUserInformation)
-#: rc.cpp:30
+#: rc.cpp:33
 msgid "User Information"
 msgstr "యూజర్ సమాచరం"
 
-#. i18n: file: main_widget.ui:124
+#. i18n: file: main_widget.ui:100
 #. i18n: ectx: property (text), widget (QLabel, lblRealName)
-#: rc.cpp:33
+#: rc.cpp:36
 msgid "&Name:"
 msgstr "(&N) పేరు:"
 
-#. i18n: file: main_widget.ui:147
+#. i18n: file: main_widget.ui:120
 #. i18n: ectx: property (text), widget (QLabel, lblOrganisation)
-#: rc.cpp:36
+#: rc.cpp:39
 msgid "&Organization:"
 msgstr "(&O) సంస్థ:"
 
-#. i18n: file: main_widget.ui:170
+#. i18n: file: main_widget.ui:140
 #. i18n: ectx: property (text), widget (QLabel, lblEmail)
-#: rc.cpp:39
+#: rc.cpp:42
 msgid "&Email address:"
 msgstr "(&E) ఈమెయిల్ చిరునమా:"
 
-#. i18n: file: main_widget.ui:193
+#. i18n: file: main_widget.ui:160
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:42
+#: rc.cpp:45
 msgid "&SMTP server:"
 msgstr "(&S) SMTP సెర్వర్:"
 
-#. i18n: file: main_widget.ui:216
+#. i18n: file: main_widget.ui:180
 #. i18n: ectx: property (text), widget (QLabel, lblUIDTell)
-#: rc.cpp:45
+#: rc.cpp:48
 msgid "User ID:"
 msgstr "యూజర్  ఐడి:"
 
-#. i18n: file: main_widget.ui:242
+#. i18n: file: main_widget.ui:205
+#. i18n: ectx: property (text), widget (KPushButton, btnChangePassword)
+#: rc.cpp:51
+msgid "Change Password..."
+msgstr "పాస్ వర్డ్ మార్చండి..."
+
+#. i18n: file: main_widget.ui:230
 #. i18n: ectx: property (title), widget (KButtonGroup, kcfg_EchoMode)
-#: rc.cpp:48
+#: rc.cpp:54
 msgid "At Password Prompt"
 msgstr "పాస్ వర్డ్ ప్రాంప్ట్ వద్ద"
 
-#. i18n: file: main_widget.ui:248
+#. i18n: file: main_widget.ui:236
 #. i18n: ectx: property (text), widget (QRadioButton, rdbOneStar)
-#: rc.cpp:51
+#: rc.cpp:57
 msgid "Show one star for each letter"
 msgstr "ప్రతి అక్షరానికి ఒక నక్షత్రం చూపండి"
 
-#. i18n: file: main_widget.ui:255
+#. i18n: file: main_widget.ui:243
 #. i18n: ectx: property (text), widget (QRadioButton, rdbThreeStars)
-#: rc.cpp:54
+#: rc.cpp:60
 msgid "Show three stars for each letter"
 msgstr "ప్రతి అక్షరానికి మూడు నక్షత్రాలు చూపండి"
 
-#. i18n: file: main_widget.ui:262
+#. i18n: file: main_widget.ui:250
 #. i18n: ectx: property (text), widget (QRadioButton, rdbShowPassword)
-#: rc.cpp:57
+#: rc.cpp:63
 msgid "Show nothing"
 msgstr "ఏమి చూపియొద్దు"
 
-#: rc.cpp:58
+#: rc.cpp:64
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 "పవిత్రన్ శాఖమూరి\n"
 "విజయ్ కిరణ్ కముజు"
 
-#: rc.cpp:59
+#: rc.cpp:65
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""

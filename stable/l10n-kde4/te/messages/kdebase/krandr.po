@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krandr\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-02 10:42+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -86,7 +86,7 @@ msgid "Unify Outputs"
 msgstr ""
 
 #: krandrtray.cpp:375 legacyrandrconfig.cpp:269 legacyrandrscreen.cpp:246
-#: outputconfig.cpp:321
+#: outputconfig.cpp:292
 #, kde-format
 msgid "%1 Hz"
 msgstr ""
@@ -173,48 +173,47 @@ msgstr ""
 msgid "Application is being auto-started at KDE session start"
 msgstr ""
 
-#: outputconfig.cpp:161
+#: outputconfig.cpp:145
 msgid "Left of"
 msgstr ""
 
-#: outputconfig.cpp:162
+#: outputconfig.cpp:146
 msgid "Right of"
 msgstr ""
 
-#: outputconfig.cpp:163
+#: outputconfig.cpp:147
 msgctxt "Output is placed above another one"
 msgid "Above"
 msgstr ""
 
-#: outputconfig.cpp:164
+#: outputconfig.cpp:148
 msgctxt "Output is placed below another one"
 msgid "Below"
 msgstr ""
 
-#: outputconfig.cpp:165
+#: outputconfig.cpp:149
 msgid "Clone of"
 msgstr ""
 
-#: outputconfig.cpp:166
+#: outputconfig.cpp:150
 msgctxt "Fixed, abitrary position"
 msgid "Absolute"
 msgstr ""
 
-#: outputconfig.cpp:169
+#: outputconfig.cpp:153
 msgid "No relative position"
 msgstr ""
 
-#: outputconfig.cpp:284
+#: outputconfig.cpp:256
 msgid "Disabled"
 msgstr "అచేతనమైన"
 
-#: outputconfig.cpp:290
-#, kde-format
-msgctxt "Automatic screen size (native resolution)"
-msgid "%1 (Auto)"
+#: outputconfig.cpp:261
+msgctxt "Automatic (native resolution)"
+msgid " (Auto)"
 msgstr ""
 
-#: outputconfig.cpp:315
+#: outputconfig.cpp:286
 msgctxt "Automatic configuration"
 msgid "Auto"
 msgstr ""
@@ -228,7 +227,7 @@ msgid "Left (90 degrees)"
 msgstr ""
 
 #: randr.cpp:35
-msgid "Upside-Down (180 degrees)"
+msgid "Upside-down (180 degrees)"
 msgstr ""
 
 #: randr.cpp:37
@@ -236,35 +235,35 @@ msgid "Right (270 degrees)"
 msgstr ""
 
 #: randr.cpp:39
-msgid "Mirror Horizontally"
+msgid "Mirror horizontally"
 msgstr ""
 
 #: randr.cpp:41
-msgid "Mirror Vertically"
+msgid "Mirror vertically"
 msgstr ""
 
 #: randr.cpp:43 randr.cpp:74
-msgid "Unknown Orientation"
+msgid "Unknown orientation"
 msgstr ""
 
 #: randr.cpp:48
-msgid "Not Rotated"
+msgid "Not rotated"
 msgstr ""
 
 #: randr.cpp:50
-msgid "Rotated 90 Degrees Counterclockwise"
+msgid "Rotated 90 degrees counterclockwise"
 msgstr ""
 
 #: randr.cpp:52
-msgid "Rotated 180 Degrees Counterclockwise"
+msgid "Rotated 180 degrees counterclockwise"
 msgstr ""
 
 #: randr.cpp:54
-msgid "Rotated 270 Degrees Counterclockwise"
+msgid "Rotated 270 degrees counterclockwise"
 msgstr ""
 
 #: randr.cpp:59
-msgid "Mirrored Horizontally And Vertically"
+msgid "Mirrored horizontally and vertically"
 msgstr ""
 
 #: randr.cpp:61
@@ -272,7 +271,7 @@ msgid "mirrored horizontally and vertically"
 msgstr ""
 
 #: randr.cpp:64
-msgid "Mirrored Horizontally"
+msgid "Mirrored horizontally"
 msgstr ""
 
 #: randr.cpp:66
@@ -280,7 +279,7 @@ msgid "mirrored horizontally"
 msgstr ""
 
 #: randr.cpp:69
-msgid "Mirrored Vertically"
+msgid "Mirrored vertically"
 msgstr ""
 
 #: randr.cpp:71
@@ -308,11 +307,6 @@ msgid ""
 "Your screen configuration has been changed to the requested settings. Please "
 "indicate whether you wish to keep this configuration. In 15 seconds the "
 "display will revert to your previous settings."
-msgstr ""
-
-#: randrconfig.cpp:111
-#, kde-format
-msgid "%1 (Connected)"
 msgstr ""
 
 #: randrdisplay.cpp:49
@@ -445,20 +439,14 @@ msgstr "స్థానము:"
 msgid "Display Configuration (X11 Resize, Rotate and Reflect)"
 msgstr ""
 
-#. i18n: file: randrconfigbase.ui:42
-#. i18n: ectx: property (text), widget (QPushButton, identifyOutputsButton)
-#: rc.cpp:60
-msgid "Identify Outputs"
-msgstr ""
-
-#: rc.cpp:61
+#: rc.cpp:58
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 "కృష్ణబాబు కె \n"
 " విజయ్ కిరణ్ కముజు"
 
-#: rc.cpp:62
+#: rc.cpp:59
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
