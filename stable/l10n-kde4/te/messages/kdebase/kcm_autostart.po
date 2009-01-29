@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_autostart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -55,6 +55,9 @@ msgstr "స్థితి"
 #| "@title:column The name of the column that decides if the program is run "
 #| "on kde startup, on kde shutdown, etc"
 #| msgid "Run On"
+msgctxt ""
+"@title:column The name of the column that decides if the program is run on "
+"kde startup, on kde shutdown, etc"
 msgid "Run On"
 msgstr "దీనిపై నడుపు"
 
@@ -86,6 +89,7 @@ msgstr "సంరక్షకుడు"
 #, fuzzy
 #| msgctxt "The program won't be run"
 #| msgid "Disabled"
+msgctxt "The program won't be run"
 msgid "Disabled"
 msgstr "అచేతనమైన"
 
@@ -93,6 +97,7 @@ msgstr "అచేతనమైన"
 #, fuzzy
 #| msgctxt "The program will be run"
 #| msgid "Enabled"
+msgctxt "The program will be run"
 msgid "Enabled"
 msgstr "చేతనమైన"
 
@@ -111,67 +116,61 @@ msgstr "ముందస్తు-KDE ప్రారంభం"
 #: autostart.cpp:157
 #, fuzzy
 #| msgid "Desktop File"
-msgid "Desktop file"
+msgid "Desktop File"
 msgstr "రంగస్థల ఫైలు"
 
 #: autostart.cpp:164
 #, fuzzy
 #| msgid "Script File"
-msgid "Script file"
+msgid "Script File"
 msgstr "స్క్రిప్టు ఫైలు"
 
 #: autostart.cpp:380
 msgid "KDE only reads files with sh extensions for setting up the environment."
 msgstr "ఎన్విరాన్మెంటును అమర్చుటకు KDE అనునది sh పొడిగింపులతో వున్న ఫైళ్ళను మాత్రమే చదువుతుంది."
 
-#. i18n: file: autostartconfig.ui:23
-#. i18n: ectx: property (text), widget (QTreeWidget, listCMD)
-#: rc.cpp:3
-msgid "1"
-msgstr ""
-
-#. i18n: file: autostartconfig.ui:31
+#. i18n: file: autostartconfig.ui:26
 #. i18n: ectx: property (text), widget (QPushButton, btnAddProgram)
-#: rc.cpp:6
+#: rc.cpp:3
 #, fuzzy
 #| msgid "Add Program..."
-msgid "Add Program"
+msgid "Add Program..."
 msgstr "ప్రోగ్రామ్‌ను జతచేయుము..."
 
-#. i18n: file: autostartconfig.ui:38
+#. i18n: file: autostartconfig.ui:33
 #. i18n: ectx: property (text), widget (QPushButton, btnAddScript)
-#: rc.cpp:9
+#: rc.cpp:6
 #, fuzzy
 #| msgid "Add Script..."
-msgid "Add Script"
+msgid "Add Script..."
 msgstr "స్క్రిప్టును జతచేయుము..."
 
-#. i18n: file: autostartconfig.ui:45
+#. i18n: file: autostartconfig.ui:40
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
-#: rc.cpp:12
+#: rc.cpp:9
 msgid "&Remove"
 msgstr "(&R) తీసివేయి"
 
-#. i18n: file: autostartconfig.ui:52
+#. i18n: file: autostartconfig.ui:47
 #. i18n: ectx: property (text), widget (QPushButton, btnProperties)
-#: rc.cpp:15
+#: rc.cpp:12
 msgid "&Properties"
 msgstr "(&P) గుణములు"
 
-#. i18n: file: autostartconfig.ui:79
+#. i18n: file: autostartconfig.ui:74
 #. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
-#: rc.cpp:18
+#: rc.cpp:15
 msgid "Advanced"
 msgstr "ఆధునాతన"
 
-#: rc.cpp:19
+#: rc.cpp:16
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 "కృష్ణబాబు కె \n"
 " విజయ్ కిరణ్ కముజు"
 
-#: rc.cpp:20
+#: rc.cpp:17
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""

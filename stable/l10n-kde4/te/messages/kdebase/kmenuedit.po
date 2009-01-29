@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmenuedit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "\n"
 "\n"
 
-#: basictab.cpp:79
+#: basictab.cpp:81
 msgid ""
 "Following the command, you can have several place holders which will be "
 "replaced with the actual values when the actual program is run:\n"
@@ -41,81 +41,74 @@ msgid ""
 "%c - the caption"
 msgstr ""
 
-#: basictab.cpp:91
+#: basictab.cpp:93
 msgid "Enable &launch feedback"
 msgstr ""
 
-#: basictab.cpp:92
+#: basictab.cpp:94
 msgid "&Place in system tray"
 msgstr ""
 
-#: basictab.cpp:93
+#: basictab.cpp:95
 msgid "Only show in KDE"
 msgstr ""
 
-#: basictab.cpp:94
+#: basictab.cpp:96
 msgid "Hidden entry"
 msgstr ""
 
-#: basictab.cpp:98
+#: basictab.cpp:100
 msgid "&Name:"
 msgstr "(&N) పేరు:"
 
-#: basictab.cpp:100
+#: basictab.cpp:102
 msgid "&Description:"
 msgstr ""
 
-#: basictab.cpp:102
+#: basictab.cpp:104
 msgid "&Comment:"
 msgstr ""
 
-#: basictab.cpp:104
+#: basictab.cpp:106
 msgid "Co&mmand:"
 msgstr ""
 
-#: basictab.cpp:145 preferencesdlg.cpp:72
+#: basictab.cpp:147 preferencesdlg.cpp:72
 msgid "General"
 msgstr "సాధారణ"
 
-#: basictab.cpp:156
+#: basictab.cpp:158
 msgid "&Work path:"
 msgstr ""
 
-#: basictab.cpp:175
+#: basictab.cpp:177
 msgid "Run in term&inal"
 msgstr ""
 
-#: basictab.cpp:183
+#: basictab.cpp:185
 msgid "Terminal &options:"
 msgstr ""
 
-#: basictab.cpp:203
+#: basictab.cpp:205
 msgid "&Run as a different user"
 msgstr ""
 
-#: basictab.cpp:211
+#: basictab.cpp:213
 msgid "&Username:"
 msgstr "(&U) యూజర్ పేరు:"
 
-#: basictab.cpp:232
+#: basictab.cpp:235
 msgid "Current shortcut &key:"
 msgstr ""
 
-#: basictab.cpp:242
+#: basictab.cpp:245
 msgid "Advanced"
 msgstr "ఆధునాతన"
 
-#: basictab.cpp:544
-#, kde-format
+#: khotkeys.cpp:55
 msgid ""
-"<qt>The key <b>%1</b> can not be used here because it is already used to "
-"activate <b>%2</b>.</qt>"
-msgstr ""
-
-#: basictab.cpp:550
-#, kde-format
-msgid ""
-"<qt>The key <b>%1</b> can not be used here because it is already in use.</qt>"
+"Unable to contact khotkeys. Your changes are saved but i failed to activate "
+"them"
 msgstr ""
 
 #: kmenuedit.cpp:71
@@ -131,7 +124,7 @@ msgid "New S&eparator"
 msgstr ""
 
 #: kmenuedit.cpp:88
-msgid "Restore to system menu"
+msgid "Restore to System Menu"
 msgstr ""
 
 #: kmenuedit.cpp:162
@@ -148,51 +141,51 @@ msgstr ""
 msgid "Save Menu Changes?"
 msgstr ""
 
-#: main.cpp:32
+#: main.cpp:34
 msgid "KDE menu editor"
 msgstr ""
 
-#: main.cpp:62
+#: main.cpp:65
 msgid "KDE Menu Editor"
 msgstr ""
 
-#: main.cpp:64
+#: main.cpp:67
 msgid "(C) 2000-2003, Waldo Bastian, Raffaele Sandrini, Matthias Elter"
 msgstr ""
 
-#: main.cpp:65
+#: main.cpp:68
 msgid "Waldo Bastian"
 msgstr "వాల్డొ బాస్టియన్"
 
-#: main.cpp:65
+#: main.cpp:68
 msgid "Maintainer"
 msgstr "సంరక్షకుడు"
 
-#: main.cpp:66
+#: main.cpp:69
 msgid "Raffaele Sandrini"
 msgstr ""
 
-#: main.cpp:66
+#: main.cpp:69
 msgid "Previous Maintainer"
 msgstr "ముందటి సంరక్షకుడు"
 
-#: main.cpp:67
+#: main.cpp:70
 msgid "Matthias Elter"
 msgstr "మథయాస్ ఎల్టర్"
 
-#: main.cpp:67
+#: main.cpp:70
 msgid "Original Author"
 msgstr ""
 
-#: main.cpp:68
+#: main.cpp:71
 msgid "Montel Laurent"
 msgstr "మాంటెల్ లారెంట్"
 
-#: main.cpp:74
+#: main.cpp:77
 msgid "Sub menu to pre-select"
 msgstr ""
 
-#: main.cpp:75
+#: main.cpp:78
 msgid "Menu entry to pre-select"
 msgstr ""
 
@@ -249,36 +242,36 @@ msgstr ""
 "k.meetme@gmail.com \n"
 " infyquest@gmail.com"
 
-#: treeview.cpp:98
+#: treeview.cpp:97
 msgid " [Hidden]"
 msgstr ""
 
-#: treeview.cpp:990
+#: treeview.cpp:989
 msgid "New Submenu"
 msgstr ""
 
-#: treeview.cpp:991
+#: treeview.cpp:990
 msgid "Submenu name:"
 msgstr ""
 
-#: treeview.cpp:1062
+#: treeview.cpp:1061
 msgid "New Item"
 msgstr ""
 
-#: treeview.cpp:1063
+#: treeview.cpp:1062
 msgid "Item name:"
 msgstr ""
 
-#: treeview.cpp:1389
+#: treeview.cpp:1388
 #, kde-format
 msgid "All submenus of '%1' will be removed. Do you want to continue?"
 msgstr ""
 
-#: treeview.cpp:1547
+#: treeview.cpp:1546
 msgid "Menu changes could not be saved because of the following problem:"
 msgstr ""
 
-#: treeview.cpp:1588
+#: treeview.cpp:1587
 msgid ""
 "Do you want to restore the system menu? Warning: This will remove all custom "
 "menus."

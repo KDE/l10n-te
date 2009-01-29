@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kuiserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -43,6 +43,18 @@ msgstr ""
 #: progresslistdelegate.cpp:179
 #, kde-format
 msgid "%1 processed"
+msgstr ""
+
+#: progresslistdelegate.cpp:265 progresslistdelegate.cpp:301
+msgid "Pause"
+msgstr ""
+
+#: progresslistdelegate.cpp:266
+msgid "Cancel"
+msgstr "రద్దుచేయి"
+
+#: progresslistdelegate.cpp:305
+msgid "Resume"
 msgstr ""
 
 #. i18n: file: kuiserversettings.kcfg:8
@@ -131,80 +143,68 @@ msgstr ""
 "k.meetme@gmail.com \n"
 " infyquest@gmail.com"
 
-#: uiserver.cpp:100 uiserver.cpp:245 uiserver.cpp:401 uiserver.cpp:420
-msgid "Pause"
-msgstr ""
-
-#: uiserver.cpp:105 uiserver.cpp:395 uiserver.cpp:427
-msgid "Resume"
-msgstr ""
-
-#: uiserver.cpp:119 uiserver.cpp:135
+#: uiserver.cpp:101 uiserver.cpp:117
 #, kde-format
 msgid "%1 file"
 msgid_plural "%1 files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: uiserver.cpp:122 uiserver.cpp:138
+#: uiserver.cpp:104 uiserver.cpp:120
 #, kde-format
 msgid "%1 folder"
 msgid_plural "%1 folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: uiserver.cpp:205
+#: uiserver.cpp:187
 msgid "Configure..."
 msgstr "ఆకృతీకరించుము..."
 
-#: uiserver.cpp:224
+#: uiserver.cpp:206
 msgid "Search"
 msgstr "శోధించుము"
 
-#: uiserver.cpp:244
-msgid "Cancel"
-msgstr "రద్దుచేయి"
-
-#: uiserver.cpp:260
+#: uiserver.cpp:224
 msgid "In Progress"
 msgstr ""
 
-#: uiserver.cpp:363
+#: uiserver.cpp:310
 msgid "Behavior"
 msgstr "ప్రవర్తన"
 
-#: uiserver.cpp:468
+#: uiserver.cpp:348
 msgid "Progress Manager"
 msgstr ""
 
-#: uiserver.cpp:469
+#: uiserver.cpp:349
 msgid "KDE Progress Information UI Server"
 msgstr ""
 
-#: uiserver.cpp:470
+#: uiserver.cpp:350
 msgid "(C) 2000-2008, KDE Team"
 msgstr ""
 
-#: uiserver.cpp:471
+#: uiserver.cpp:351
 msgid "Rafael Fernández López"
 msgstr "రాఫెల్ ఫెర్నాండెజ్ లోఫెజ్"
 
-#: uiserver.cpp:471
+#: uiserver.cpp:351
 msgid "Maintainer"
 msgstr "సంరక్షకుడు"
 
-#: uiserver.cpp:472
+#: uiserver.cpp:352
 msgid "David Faure"
 msgstr "డెవిడ్ ఫారె"
 
-#: uiserver.cpp:472
+#: uiserver.cpp:352
 msgid "Former maintainer"
 msgstr ""
 
-#: uiserver.cpp:473
+#: uiserver.cpp:353
 msgid "Matej Koss"
 msgstr ""
 
-#: uiserver.cpp:473
+#: uiserver.cpp:353
 msgid "Developer"
 msgstr "డెవలపర్"
