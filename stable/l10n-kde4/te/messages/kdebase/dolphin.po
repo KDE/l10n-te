@@ -105,15 +105,12 @@ msgstr[0] "1 ఫోల్డరు ఎంపిక కాబడినది"
 msgstr[1] "%1 ఫోల్డర్లు ఎంపిక కాబడినది"
 
 #: dolphinview.cpp:560
-#, fuzzy, kde-format
-#| msgctxt "@info:status"
-#| msgid "1 Folder selected"
-#| msgid_plural "%1 Folders selected"
+#, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
 msgid_plural "%1 Files selected"
-msgstr[0] "1 ఫోల్డరు ఎంపిక కాబడినది"
-msgstr[1] "%1 ఫోల్డర్లు ఎంపిక కాబడినది"
+msgstr[0] "1 ఫైలు ఎంపిక కాబడినది"
+msgstr[1] "%1 ఫైలు ఎంపిక కాబడినది"
 
 #: dolphinview.cpp:562
 #, kde-format
@@ -488,9 +485,6 @@ msgid "File Manager"
 msgstr "దస్త్రాల అభికర్త"
 
 #: main.cpp:38
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "(C) 2006-2008 Peter Penz"
 msgctxt "@info:credit"
 msgid "(C) 2006-2008 Peter Penz"
 msgstr "(C) 2006-2008 పీటర్ పెంజ్"
@@ -881,17 +875,11 @@ msgid "All settings will be reset to default values. Do you want to continue?"
 msgstr "అన్ని అమర్పులు అప్రమేయ విలువలకు తిరిగిఅమర్చ బడతాయి. మీరు కొనసాగిద్దామని అనుకొనుచున్నారా?"
 
 #: commentwidget.cpp:55
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Add Comment..."
 msgctxt "@label"
 msgid "Add Comment..."
 msgstr "వ్యాఖ్యానమును జతచేయుము..."
 
 #: commentwidget.cpp:58
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Change Comment..."
 msgctxt "@label"
 msgid "Change Comment..."
 msgstr "వ్యాఖ్యానమును మార్చుము..."
@@ -952,9 +940,6 @@ msgid "with optional icon and description"
 msgstr "ఐచ్చిక ప్రతిమతో మరియు వివరణతో"
 
 #: tagcloud/resourcetaggingwidget.cpp:122
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Change Tags..."
 msgctxt "@label"
 msgid "Change Tags..."
 msgstr "టాగ్సును మార్చుము..."
@@ -1513,9 +1498,6 @@ msgstr "పేరు:"
 #. i18n: file: tagcloud/newtagdialog.ui:82
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:332
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Detailed description (optional):"
 msgctxt "@label"
 msgid "Detailed description (optional):"
 msgstr "విశదమైన వివరణ (ఐచ్చికం):"
@@ -1601,9 +1583,6 @@ msgid "Stop"
 msgstr "ఆపుము"
 
 #: dolphinmainwindow.cpp:1036
-#, fuzzy
-#| msgctxt "@action:inmenu Navigation Bar"
-#| msgid "Editable Location"
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Editable Location"
 msgstr "సరికూర్చదగిన స్థానము"
@@ -1987,9 +1966,6 @@ msgid "Cancel"
 msgstr "రద్దుచేయి"
 
 #: detailsviewsettingspage.cpp:80
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Expandable folders"
 msgctxt "@option:check"
 msgid "Expandable folders"
 msgstr "విస్తరించదగిన ఫోల్డర్లు"
@@ -2028,16 +2004,6 @@ msgstr "సమూహము"
 msgctxt "@option:check Additional Information"
 msgid "Type"
 msgstr "రకము"
-
-#, fuzzy
-#~| msgctxt "@info:status"
-#~| msgid "1 File selected"
-#~| msgid_plural "%1 Files selected"
-#~ msgctxt "@info:status"
-#~ msgid "1 File selected (%2)"
-#~ msgid_plural "%1 Files selected (%2)"
-#~ msgstr[0] "1 ఫైలు ఎంపిక కాబడినది"
-#~ msgstr[1] "%1 ఫైలు ఎంపిక కాబడినది"
 
 #, fuzzy
 #~| msgctxt "@label"
@@ -2150,10 +2116,3 @@ msgstr "రకము"
 #~ msgctxt "@action:inmenu"
 #~ msgid "Cancel"
 #~ msgstr "రద్దుచేయి"
-
-#, fuzzy
-#~| msgctxt "@option:check"
-#~| msgid "Expandable folders"
-#~ msgctxt "@option:check"
-#~ msgid "Expandable Folders"
-#~ msgstr "విస్తరించదగిన ఫోల్డర్లు"
