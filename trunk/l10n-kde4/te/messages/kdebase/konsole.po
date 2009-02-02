@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-28 09:13+0100\n"
+"POT-Creation-Date: 2009-02-02 11:20+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -223,25 +223,31 @@ msgstr "ఈ మెయిల్ పంపు ..."
 msgid "Copy Email Address"
 msgstr "ఈ మెయిల్ చిరునామాను నకలుచెయి"
 
-#: HistorySizeDialog.cpp:49 SessionController.cpp:478
+#: HistorySizeDialog.cpp:51 SessionController.cpp:478
 msgid "Scrollback Options"
 msgstr "స్క్రాల్‌బ్యాక్ ఐచ్చికాలు"
 
-#: HistorySizeDialog.cpp:62
+#: HistorySizeDialog.cpp:64
 msgid "No scrollback"
 msgstr "స్క్రాల్‌బ్యాక్ లేదు"
 
-#: HistorySizeDialog.cpp:63
+#: HistorySizeDialog.cpp:65
 msgid "Fixed size scrollback: "
 msgstr "నిర్ధారిత పరమాణపు స్క్రాల్‌బ్యాక్: "
 
 #. i18n: file: EditProfileDialog.ui:684
 #. i18n: ectx: property (text), widget (QRadioButton, unlimitedScrollbackButton)
-#: HistorySizeDialog.cpp:64 rc.cpp:199 rc.cpp:584
+#: HistorySizeDialog.cpp:66 rc.cpp:199 rc.cpp:584
 msgid "Unlimited scrollback"
 msgstr "పరిమితిలేని స్క్రాల్‌బ్యాక్"
 
-#: HistorySizeDialog.cpp:84
+#: HistorySizeDialog.cpp:67
+#, fuzzy
+#| msgid "Edit Current Profile..."
+msgid "Save to current profile"
+msgstr "ప్రస్తుత ప్రొఫైలును సరికూర్చు..."
+
+#: HistorySizeDialog.cpp:87
 msgid "lines"
 msgstr "వరుసలు"
 
@@ -371,7 +377,7 @@ msgstr "కొత్త ప్రొఫైల్"
 msgid "Shell"
 msgstr "షెల్"
 
-#: ProfileList.cpp:48
+#: ProfileList.cpp:58
 msgid "No profiles available"
 msgstr "ఏ ప్రొఫైల్సు అందుబాటులోలేవు"
 
@@ -551,17 +557,17 @@ msgid ""
 msgstr ""
 "పొగ్రామ్ '%1' ప్రస్తుతం ఈ సెషన్‌నందు నడుస్తోంది.  మీరు ఖచ్చితంగా దీనిని మూసివేద్దామని అనుకొంటున్నారా?"
 
-#: SessionController.cpp:1068
+#: SessionController.cpp:1087
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1నుండి అవుట్పుట్‌ను భద్రపరచుము"
 
-#: SessionController.cpp:1079
+#: SessionController.cpp:1098
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 చెల్లని URL, అవుట్పుట్ భద్రపరచబడలేదు."
 
-#: SessionController.cpp:1168
+#: SessionController.cpp:1187
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"

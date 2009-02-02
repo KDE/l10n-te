@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_system-monitor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-28 09:13+0100\n"
+"POT-Creation-Date: 2009-02-02 11:20+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -114,9 +114,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: file: net-config.ui:83
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: file: temperature-config.ui:87
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:9 rc.cpp:27 rc.cpp:39
+#: rc.cpp:9 rc.cpp:27
 msgid "seconds"
 msgstr ""
 
@@ -150,7 +148,7 @@ msgstr ""
 msgid "Show plotters"
 msgstr ""
 
-#: temperature.cpp:50 temperature.cpp:102
+#: temperature.cpp:50 temperature.cpp:103
 msgid "Temperature"
 msgstr ""
 
@@ -158,12 +156,18 @@ msgstr ""
 msgid "Sensor"
 msgstr ""
 
-#: temperature.cpp:228
+#: temperature.cpp:111
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: temperature.cpp:235
 #, kde-format
 msgid "%1 °C"
 msgstr ""
 
-#: temperature.cpp:230
+#: temperature.cpp:237
 #, kde-format
 msgid "%1 °F"
 msgstr ""
