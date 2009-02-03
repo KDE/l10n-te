@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_system-monitor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-02 11:20+0100\n"
+"POT-Creation-Date: 2009-02-03 11:13+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -29,9 +29,15 @@ msgstr ""
 msgid "CPU"
 msgstr ""
 
-#: cpu.cpp:154
+#: cpu.cpp:155
 msgid "CPUs"
 msgstr ""
+
+#: cpu.cpp:163 net.cpp:179 temperature.cpp:111
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] ""
+msgstr[1] ""
 
 #: hdd.cpp:49
 msgid "Disk Space"
@@ -45,20 +51,26 @@ msgstr "మౌంటు పాయింట్"
 msgid "Name"
 msgstr "పేరు"
 
-#: hdd.cpp:83
+#: hdd.cpp:84
 msgid "Partitions"
 msgstr "విభజనలు"
 
-#: hdd.cpp:125
+#: hdd.cpp:92
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: hdd.cpp:132
 msgctxt "the root filesystem"
 msgid "root"
 msgstr ""
 
-#: hdd.cpp:132
+#: hdd.cpp:139
 msgid "Unknown filesystem"
 msgstr ""
 
-#: hdd.cpp:142
+#: hdd.cpp:149
 #, kde-format
 msgctxt "hard disk label (not mounted or accessible)"
 msgid "%1 (not accessible)"
@@ -88,7 +100,7 @@ msgstr "నెట్ వర్క్"
 msgid "Network interface"
 msgstr ""
 
-#: net.cpp:170
+#: net.cpp:171
 msgid "Interfaces"
 msgstr ""
 
@@ -106,45 +118,31 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: temperature-config.ui:51
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:6 rc.cpp:15 rc.cpp:24 rc.cpp:36
+#: rc.cpp:6 rc.cpp:12 rc.cpp:18 rc.cpp:27
 msgid "Update &interval:"
-msgstr ""
-
-#. i18n: file: cpu-config.ui:83
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: file: net-config.ui:83
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:9 rc.cpp:27
-msgid "seconds"
 msgstr ""
 
 #. i18n: file: hdd-config.ui:31
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:12
+#: rc.cpp:9
 msgid "Hard &disks:"
-msgstr ""
-
-#. i18n: file: hdd-config.ui:92
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:18
-msgid "minutes"
 msgstr ""
 
 #. i18n: file: net-config.ui:22
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:21
+#: rc.cpp:15
 msgid "&Network Interfaces:"
 msgstr ""
 
 #. i18n: file: temperature-config.ui:19
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:30
+#: rc.cpp:21
 msgid "&Available temperatures:"
 msgstr ""
 
 #. i18n: file: temperature-config.ui:42
 #. i18n: ectx: property (text), widget (QCheckBox, showPlotters)
-#: rc.cpp:33
+#: rc.cpp:24
 msgid "Show plotters"
 msgstr ""
 
@@ -155,12 +153,6 @@ msgstr ""
 #: temperature.cpp:78
 msgid "Sensor"
 msgstr ""
-
-#: temperature.cpp:111
-msgid " second"
-msgid_plural " seconds"
-msgstr[0] ""
-msgstr[1] ""
 
 #: temperature.cpp:235
 #, kde-format

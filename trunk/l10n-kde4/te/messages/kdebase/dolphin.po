@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-02 11:20+0100\n"
+"POT-Creation-Date: 2009-02-03 11:12+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1455,12 +1455,12 @@ msgctxt "@title:tab Status Bar settings"
 msgid "Status Bar"
 msgstr "స్థితి పట్టీ"
 
-#: settings/previewssettingspage.cpp:55
+#: settings/previewssettingspage.cpp:59
 msgctxt "@label:slider"
 msgid "Maximum file size:"
 msgstr "గరిష్ట ఫైలు పరిమాణము:"
 
-#: settings/previewssettingspage.cpp:70
+#: settings/previewssettingspage.cpp:81
 msgctxt "@option:check"
 msgid "Use thumbnails embedded in files"
 msgstr "ఫైళ్ళనుందు యిమిడివుంచిన థంబ్‌నెయిల్సును వుపయోగించుము"
@@ -1681,8 +1681,13 @@ msgid "Show filter bar"
 msgstr "ఫిల్టర్ బార్‌ను చూపుము"
 
 #: settings/startupsettingspage.cpp:122
+#, fuzzy
+#| msgctxt "@info"
+#| msgid "The location for the home folder is invalid and will not be applied."
 msgctxt "@info"
-msgid "The location for the home folder is invalid and will not be applied."
+msgid ""
+"The location for the home folder is invalid or does not exist, it will not "
+"be applied."
 msgstr "ఈ స్థానము హోమ్ ఫోల్డర్ కొరకు సరైనదికాదు మరియు ఆపాదించబడదు."
 
 #: settings/contextmenusettingspage.cpp:40
