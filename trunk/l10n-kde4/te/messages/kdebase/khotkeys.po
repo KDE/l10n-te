@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-10 10:19+0100\n"
+"POT-Creation-Date: 2009-02-11 11:02+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -59,6 +59,8 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, ConditionsWidget)
 #. i18n: file: kcm_hotkeys/actions/keyboard_input_action_widget.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, KeyboardInputActionWidget)
+#. i18n: file: kcm_hotkeys/kcm_hotkeys.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, KCMHotkeysWidget)
 #. i18n: file: kcm_hotkeys/triggers/gesture_trigger_widget.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, GestureTriggerWidget)
 #. i18n: file: kcm_hotkeys/triggers/window_trigger_widget.ui:13
@@ -73,7 +75,10 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, ConditionsWidget)
 #. i18n: file: kcm_hotkeys/actions/keyboard_input_action_widget.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, KeyboardInputActionWidget)
+#. i18n: file: kcm_hotkeys/kcm_hotkeys.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, KCMHotkeysWidget)
 #: rc.cpp:8 rc.cpp:11 rc.cpp:32 rc.cpp:38 rc.cpp:137 rc.cpp:155 rc.cpp:200
+#: rc.cpp:224
 msgid "Form"
 msgstr ""
 
@@ -139,9 +144,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, comment_label)
 #. i18n: file: kcm_hotkeys/hotkeys_widget_base.ui:23
 #. i18n: ectx: attribute (title), widget (QWidget, comment_tab)
-#: rc.cpp:44 rc.cpp:224 kcm_hotkeys/hotkeys_tree_view.cpp:215
+#: rc.cpp:44 rc.cpp:230 kcm_hotkeys/hotkeys_tree_view.cpp:215
 #: kcm_hotkeys/hotkeys_tree_view.cpp:243 kcm_hotkeys/hotkeys_tree_view.cpp:271
-#: kcm_hotkeys/hotkeys_model.cpp:90
+#: kcm_hotkeys/hotkeys_model.cpp:91
 msgid "Comment"
 msgstr "వ్యాఖ్యానము"
 
@@ -465,15 +470,21 @@ msgstr ""
 msgid "Command/URL:"
 msgstr ""
 
+#. i18n: file: kcm_hotkeys/kcm_hotkeys.ui:30
+#. i18n: ectx: property (text), widget (QPushButton, menu_button)
+#: rc.cpp:227
+msgid "Menu"
+msgstr ""
+
 #. i18n: file: kcm_hotkeys/hotkeys_widget_base.ui:37
 #. i18n: ectx: property (text), widget (QCheckBox, enabled)
-#: rc.cpp:227
+#: rc.cpp:233
 msgid "&Enabled"
 msgstr ""
 
 #. i18n: file: kcm_hotkeys/hotkeys_widget_base.ui:44
 #. i18n: ectx: property (text), widget (QLabel, enabled_comment)
-#: rc.cpp:230
+#: rc.cpp:236
 msgid "Add comment here"
 msgstr ""
 
@@ -483,7 +494,7 @@ msgstr "పరీక్ష"
 
 #: kcm_hotkeys/hotkeys_tree_view.cpp:59 kcm_hotkeys/hotkeys_tree_view.cpp:75
 #: kcm_hotkeys/hotkeys_tree_view.cpp:215 kcm_hotkeys/hotkeys_tree_view.cpp:271
-#: kcm_hotkeys/hotkeys_model.cpp:90
+#: kcm_hotkeys/hotkeys_model.cpp:91
 msgid "New Group"
 msgstr ""
 
@@ -567,66 +578,59 @@ msgstr ""
 msgid "Conditions"
 msgstr ""
 
-#: kcm_hotkeys/kcm_gestures.cpp:102 kcm_hotkeys/kcm_hotkeys.cpp:118
+#: kcm_hotkeys/actions/dbus_action_widget.cpp:122
+msgid "Failed to run qdbusviewer"
+msgstr ""
+
+#: kcm_hotkeys/hotkeys_model.cpp:371
+msgid "Name"
+msgstr "పేరు"
+
+#: kcm_hotkeys/hotkeys_model.cpp:374
+msgid "Enabled"
+msgstr "చేతనమైన"
+
+#: kcm_hotkeys/hotkeys_model.cpp:377
+msgid "Type"
+msgstr "రకము"
+
+#: kcm_hotkeys/kcm_hotkeys.cpp:100
 msgid "KDE Hotkeys Configuration Module"
 msgstr ""
 
-#: kcm_hotkeys/kcm_gestures.cpp:106 kcm_hotkeys/kcm_hotkeys.cpp:122
+#: kcm_hotkeys/kcm_hotkeys.cpp:104
 msgid "Copyright 2008 (c) Michael Jansen"
 msgstr ""
 
-#: kcm_hotkeys/kcm_gestures.cpp:109 kcm_hotkeys/kcm_hotkeys.cpp:125
+#: kcm_hotkeys/kcm_hotkeys.cpp:107
 msgid "Michael Jansen"
 msgstr ""
 
-#: kcm_hotkeys/kcm_gestures.cpp:110 kcm_hotkeys/kcm_hotkeys.cpp:126
+#: kcm_hotkeys/kcm_hotkeys.cpp:108
 msgid "Maintainer"
 msgstr "సంరక్షకుడు"
 
-#: kcm_hotkeys/kcm_gestures.cpp:302 kcm_hotkeys/kcm_hotkeys.cpp:340
+#: kcm_hotkeys/kcm_hotkeys.cpp:296
 msgid ""
 "The current action has unsaved changes. If you continue those changes will "
 "be lost!"
 msgstr ""
 
-#: kcm_hotkeys/kcm_gestures.cpp:303 kcm_hotkeys/kcm_hotkeys.cpp:341
+#: kcm_hotkeys/kcm_hotkeys.cpp:297
 msgid "Save changes"
 msgstr ""
 
-#: kcm_hotkeys/kcm_gestures.cpp:347
-msgid "Started server <em>org.kde.khotkeys</em>."
-msgstr ""
-
-#: kcm_hotkeys/kcm_gestures.cpp:349
-msgid "Unable to start server <em>org.kde.khotkeys</em>."
-msgstr ""
-
-#: kcm_hotkeys/kcm_gestures.cpp:355
-#, kde-format
-msgid ""
-"Unable to start service <em>org.kde.khotkeys</em>.<br /><br /><i>Error: %1</"
-"i>"
-msgstr ""
-
-#: kcm_hotkeys/actions/dbus_action_widget.cpp:122
-msgid "Failed to run qdbusviewer"
-msgstr ""
-
-#: kcm_hotkeys/hotkeys_model.cpp:329
-msgid "Name"
-msgstr "పేరు"
-
-#: kcm_hotkeys/kcm_hotkeys.cpp:366 kcm_hotkeys/kcm_hotkeys.cpp:388
+#: kcm_hotkeys/kcm_hotkeys.cpp:322 kcm_hotkeys/kcm_hotkeys.cpp:344
 msgid ""
 "Unable to contact khotkeys. Your changes are saved but i failed to activate "
 "them"
 msgstr ""
 
-#: kcm_hotkeys/simple_action_data_widget.cpp:121
+#: kcm_hotkeys/simple_action_data_widget.cpp:124
 msgid "Trigger"
 msgstr ""
 
-#: kcm_hotkeys/simple_action_data_widget.cpp:157
+#: kcm_hotkeys/simple_action_data_widget.cpp:160
 msgid "Action"
 msgstr ""
 
@@ -726,12 +730,6 @@ msgstr ""
 #: libkhotkeysprivate/khotkeysglobal.h:40
 msgid "Menu Editor entries"
 msgstr ""
-
-#~ msgid "Enabled"
-#~ msgstr "చేతనమైన"
-
-#~ msgid "Type"
-#~ msgstr "రకము"
 
 #~ msgid "General"
 #~ msgstr "సాధారణ"
