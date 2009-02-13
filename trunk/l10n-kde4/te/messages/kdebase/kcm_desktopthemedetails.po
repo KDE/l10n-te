@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_desktopthemedetails\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-04 10:27+0100\n"
+"POT-Creation-Date: 2009-02-13 10:11+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,166 +25,163 @@ msgstr ""
 "\n"
 "\n"
 
-#: desktopthemedetails.cpp:268
+#: desktopthemedetails.cpp:267
 msgctxt "plasma name"
 msgid "Color Scheme"
 msgstr "రంగు స్కీమా"
 
-#: desktopthemedetails.cpp:269
+#: desktopthemedetails.cpp:268
 msgctxt "plasma name"
 msgid "Panel Background"
 msgstr "ప్యానల్ బ్యాక్‌గ్రౌండ్"
 
-#: desktopthemedetails.cpp:270
+#: desktopthemedetails.cpp:269
 msgctxt "plasma name"
 msgid "Kickoff"
 msgstr "కిక్ఆఫ్"
 
-#: desktopthemedetails.cpp:271
+#: desktopthemedetails.cpp:270
 msgctxt "plasma name"
 msgid "Task Items"
 msgstr "కర్తవ్యపు అంశములు"
 
-#: desktopthemedetails.cpp:272
+#: desktopthemedetails.cpp:271
 msgctxt "plasma name"
 msgid "Widget Background"
 msgstr "విడ్జట్ బ్యాక్‌గ్రౌండ్"
 
-#: desktopthemedetails.cpp:273
+#: desktopthemedetails.cpp:272
 msgctxt "plasma name"
 msgid "Translucent Background"
 msgstr "ట్రాన్‌స్లూసెంట్ బ్యాక్‌గ్రౌండ్"
 
-#: desktopthemedetails.cpp:274
+#: desktopthemedetails.cpp:273
 msgctxt "plasma name"
 msgid "Dialog Background"
 msgstr "డైలాగ్ బ్యాక్‌గ్రౌండ్"
 
-#: desktopthemedetails.cpp:275
+#: desktopthemedetails.cpp:274
 msgctxt "plasma name"
 msgid "Analog Clock"
 msgstr "ఎనలాగ్ గడియారం"
 
-#: desktopthemedetails.cpp:276
+#: desktopthemedetails.cpp:275
 msgctxt "plasma name"
 msgid "Notes"
 msgstr "గమనికలు"
 
-#: desktopthemedetails.cpp:277
+#: desktopthemedetails.cpp:276
 msgctxt "plasma name"
 msgid "Tooltip"
 msgstr "పనిముట్టుచిట్కా"
 
-#: desktopthemedetails.cpp:278
+#: desktopthemedetails.cpp:277
 msgctxt "plasma name"
 msgid "Pager"
 msgstr "పేజర్"
 
-#: desktopthemedetails.cpp:279
+#: desktopthemedetails.cpp:278
 msgctxt "plasma name"
 msgid "Run Command Dialog"
 msgstr "ఆదేశపు డైలాగును నడుపుము"
 
-#: desktopthemedetails.cpp:280
+#: desktopthemedetails.cpp:279
 msgctxt "plasma name"
 msgid "Shutdown Dialog"
 msgstr "మూసివేత డైలాగు"
 
 #. i18n: file: DesktopThemeDetails.ui:25
 #. i18n: ectx: property (windowTitle), widget (QWidget, DesktopThemeItems)
-#: desktopthemedetails.cpp:290 desktopthemedetails.cpp:430 rc.cpp:3
+#: desktopthemedetails.cpp:289 rc.cpp:3
 msgid "Desktop Theme Details"
 msgstr "రంగస్థల థీమ్ వివరములు"
 
-#: desktopthemedetails.cpp:405 desktopthemedetails.cpp:420
-#: desktopthemedetails.cpp:481 desktopthemedetails.cpp:560
-#: desktopthemedetails.cpp:593
+#: desktopthemedetails.cpp:449
 msgid "(Customized)"
 msgstr "(మలచుకొనిన)"
 
-#: desktopthemedetails.cpp:420
+#: desktopthemedetails.cpp:450
 msgid "User customized theme"
 msgstr "వినియోగదారి మలచుకొనిని థీమ్"
 
-#: desktopthemedetails.cpp:430
-msgid "Unable to save theme."
-msgstr "థీమ్‌ను దాయ లేకపోయింది."
-
-#: desktopthemedetails.cpp:442
-#, kde-format
+#: desktopthemedetails.cpp:467
+#, fuzzy, kde-format
+#| msgid ""
+#| "To change your desktop theme to \"%1\", open\n"
+#| "Desktop Settings and select \"%2\" from the droplist."
 msgid ""
 "To change your desktop theme to \"%1\", open\n"
-"Desktop Settings and select \"%2\" from the droplist."
+" the desktop Appearance Settings and select \"%2\" from the droplist."
 msgstr ""
 "మీ రంగస్థల థీమ్‌ను \"%1\"కు మార్చుటకు, \n"
 "రంగస్థల అమరికలను తెరిచి \"%2\"ను డ్రాప్‌లిస్టు నుండి యెంపికచేయుము."
 
-#: desktopthemedetails.cpp:442
+#: desktopthemedetails.cpp:467
 msgid "How to Change Desktop Theme"
 msgstr "రంగస్థల థీమ్‌ను యెలా మార్చాలి"
 
-#: desktopthemedetails.cpp:453
+#: desktopthemedetails.cpp:478
 #, kde-format
 msgid ""
 "Theme items have been changed.  Do you still wish remove the \"%1\" theme?"
 msgstr "థీమ్ అంశములు మార్చబడినవి.  మీరు యింకా \"%1\" థీమ్‌ను తీసివేయాలని అనుకొనుచున్నారా?"
 
-#: desktopthemedetails.cpp:453 desktopthemedetails.cpp:458
-#: desktopthemedetails.cpp:461
+#: desktopthemedetails.cpp:478 desktopthemedetails.cpp:483
+#: desktopthemedetails.cpp:486
 msgid "Remove Desktop Theme"
 msgstr "డెస్కుటాప్ థీమ్‌ను తీసివేయుము"
 
-#: desktopthemedetails.cpp:458
+#: desktopthemedetails.cpp:483
 msgid "Removal of the default KDE theme is not allowed."
 msgstr "అప్రమేయ KDE థీమ్ యొక్క తీసివేత అనుమతించబడదు."
 
-#: desktopthemedetails.cpp:461
+#: desktopthemedetails.cpp:486
 #, kde-format
 msgid "Are you sure you wish remove the \"%1\" theme?"
 msgstr "మీరు ఖచ్చితంగా \"%1\" థీమ్‌ను తీసివేద్దామని అనుకొనుచున్నారా?"
 
-#: desktopthemedetails.cpp:482
+#: desktopthemedetails.cpp:509
 msgid ""
 "Please apply theme item changes (with a new theme name) before attempting to "
 "export theme."
 msgstr "థీమ్‌ను ఎగుమతి చేయుటకు ముందుగా దయచేసి థీమ్ అంశపు మార్పులను (కొత్త థీమ్ పేరుతో) ఆపాదించుము."
 
-#: desktopthemedetails.cpp:482
+#: desktopthemedetails.cpp:509
 msgid "Export Desktop Theme"
 msgstr "రంగస్థల థీమ్‌ను ఎగుమతి చేయుము"
 
-#: desktopthemedetails.cpp:498
+#: desktopthemedetails.cpp:516
 msgid "Export theme to file"
 msgstr "థీమ్‌ను ఫైలుకు ఎగుమతిచేయుము"
 
-#: desktopthemedetails.cpp:533
+#: desktopthemedetails.cpp:611
 msgid "Theme Item"
 msgstr "థీమ్ అంశము"
 
-#: desktopthemedetails.cpp:533
+#: desktopthemedetails.cpp:611
 msgid "Source"
 msgstr "మూలము"
 
-#: desktopthemedetails.cpp:594
+#: desktopthemedetails.cpp:642
 #, kde-format
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: desktopthemedetails.cpp:603 desktopthemedetails.cpp:621
+#: desktopthemedetails.cpp:645 desktopthemedetails.cpp:671
 msgid "File..."
 msgstr "ఫైలు..."
 
-#: desktopthemedetails.cpp:623
+#: desktopthemedetails.cpp:673
 #, kde-format
 msgid "Select File to Use for %1"
 msgstr "%1 కొరకు వుపయోగించుటకు ఫైలు యెంపికచేయుము"
 
-#: desktopthemedetails.cpp:660
+#: desktopthemedetails.cpp:717
 #, kde-format
 msgid " Author: %1"
 msgstr "మూలకర్త: %1"
 
-#: desktopthemedetails.cpp:667
+#: desktopthemedetails.cpp:724
 #, kde-format
 msgid "Version: %1"
 msgstr "వర్షన్: %1"
@@ -274,3 +271,6 @@ msgid "Your emails"
 msgstr ""
 "k.meetme@gmail.com \n"
 " infyquest@gmail.com"
+
+#~ msgid "Unable to save theme."
+#~ msgstr "థీమ్‌ను దాయ లేకపోయింది."
