@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-16 08:16+0000\n"
+"POT-Creation-Date: 2009-02-18 08:10+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -63,7 +63,7 @@ msgctxt "Name"
 msgid "Dolphin General"
 msgstr "డాల్ఫిన్ వీక్షణం"
 
-#: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:19
+#: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:20
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "This service allows configuration of the Dolphin views."
@@ -71,14 +71,14 @@ msgctxt "Comment"
 msgid "This service allows configuration of general Dolphin settings."
 msgstr "డాల్ఫిన్ వీక్షణిల యొక్క ఆకృతీకరణను ఈ సేవ అనుమతిస్తుంది."
 
-#: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:46
+#: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:48
 #: apps/konqueror/settings/konqhtml/khtml_general.desktop:12
 #: workspace/systemsettings/categories/settings-general.desktop:8
 msgctxt "Name"
 msgid "General"
 msgstr "సాధారణ"
 
-#: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:120
+#: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:122
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -94,7 +94,7 @@ msgctxt "Name"
 msgid "Dolphin Navigation"
 msgstr "డాల్ఫిన్ వీక్షణం"
 
-#: apps/dolphin/src/kcm/kcmdolphinnavigation.desktop:18
+#: apps/dolphin/src/kcm/kcmdolphinnavigation.desktop:19
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "This service allows configuration of the Dolphin views."
@@ -102,7 +102,7 @@ msgctxt "Comment"
 msgid "This service allows configuration of the Dolphin navigation."
 msgstr "డాల్ఫిన్ వీక్షణిల యొక్క ఆకృతీకరణను ఈ సేవ అనుమతిస్తుంది."
 
-#: apps/dolphin/src/kcm/kcmdolphinnavigation.desktop:45
+#: apps/dolphin/src/kcm/kcmdolphinnavigation.desktop:47
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Navigation Panel"
@@ -110,7 +110,7 @@ msgctxt "Name"
 msgid "Navigation"
 msgstr "నావిగేషన్ ప్యానల్"
 
-#: apps/dolphin/src/kcm/kcmdolphinnavigation.desktop:62
+#: apps/dolphin/src/kcm/kcmdolphinnavigation.desktop:65
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -126,7 +126,7 @@ msgctxt "Name"
 msgid "Dolphin View Modes"
 msgstr "డాల్ఫిన్ వీక్షణం"
 
-#: apps/dolphin/src/kcm/kcmdolphinviewmodes.desktop:18
+#: apps/dolphin/src/kcm/kcmdolphinviewmodes.desktop:19
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "This service allows configuration of the Dolphin views."
@@ -134,7 +134,7 @@ msgctxt "Comment"
 msgid "This service allows configuration of the Dolphin view modes."
 msgstr "డాల్ఫిన్ వీక్షణిల యొక్క ఆకృతీకరణను ఈ సేవ అనుమతిస్తుంది."
 
-#: apps/dolphin/src/kcm/kcmdolphinviewmodes.desktop:45
+#: apps/dolphin/src/kcm/kcmdolphinviewmodes.desktop:47
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Views"
@@ -142,7 +142,7 @@ msgctxt "Name"
 msgid "View Modes"
 msgstr "వీక్షణలు"
 
-#: apps/dolphin/src/kcm/kcmdolphinviewmodes.desktop:63
+#: apps/dolphin/src/kcm/kcmdolphinviewmodes.desktop:66
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -5467,6 +5467,32 @@ msgctxt "Comment"
 msgid "Wallet Server"
 msgstr "వాలెట్ సెర్వర్"
 
+#: runtime/kwalletd/kwalletd.notifyrc:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDE Write Daemon"
+msgctxt "Comment"
+msgid "The KDE Wallet Daemon"
+msgstr "KDE వ్రాయు డెమోన్"
+
+#: runtime/kwalletd/kwalletd.notifyrc:4
+msgctxt "Name"
+msgid "kwalletd"
+msgstr ""
+
+#: runtime/kwalletd/kwalletd.notifyrc:7
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Change Password"
+msgctxt "Name"
+msgid "Needs password"
+msgstr "పాస్ వర్డు మార్చండి"
+
+#: runtime/kwalletd/kwalletd.notifyrc:8
+msgctxt "Comment"
+msgid "The KDE Wallet Daemon requests a password"
+msgstr ""
+
 #: runtime/l10n/C/entry.desktop:2
 msgctxt "Name"
 msgid "Default"
@@ -7005,7 +7031,7 @@ msgctxt "Name"
 msgid "Nepomuk Ontology Loader"
 msgstr "Nepomuk ఆన్‌టోలజి లోడర్"
 
-#: runtime/nepomuk/services/ontologyloader/nepomukontologyloader.desktop:61
+#: runtime/nepomuk/services/ontologyloader/nepomukontologyloader.desktop:62
 msgctxt "Comment"
 msgid "Nepomuk Service which maintains the ontologies installed on the system"
 msgstr "సిస్టమ్ నందు సంస్థాపించిన ఆన్‌టాలజీస్‌ను నిర్వహించే Nepomuk సేవ"
@@ -7053,42 +7079,42 @@ msgctxt "Comment"
 msgid "The Nepomuk full text search index is rebuilt for new features"
 msgstr "నెపోమక్ పూర్తి వచన శోదన విషయసూచిక కొత్త సౌలభ్యముల కొరకు పునఃనిర్మితమైనది"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:224
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:225
 msgctxt "Name"
 msgid "Rebuilding Nepomuk Index done"
 msgstr "నెపోమక్ విషయసూచికను పునఃనిర్మించుట విఫలమైంది"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:276
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:277
 msgctxt "Comment"
 msgid "The rebuilding of the Nepomuk full text search index is done."
 msgstr "నెపోమక్ పూర్తి వచన శోధన విషయసూచిక పునఃనిర్మాణము పూర్తైనది."
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:329
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:331
 msgctxt "Name"
 msgid "Converting Nepomuk data"
 msgstr "నెపోమక్ దత్తాంశమును మార్పిడిచేయుట"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:379
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:381
 msgctxt "Comment"
 msgid "All Nepomuk data is converted to a new storage backend"
 msgstr "నెపోమక్ యొక్క మొత్తం డాటా కొత్త నిల్వ బ్యాకెండ్‌కు మార్పడి చేయబడింది"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:430
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:433
 msgctxt "Name"
 msgid "Converting Nepomuk data failed"
 msgstr "నెపోమక్ దత్తాంశమును మార్పిడి చేయుటలో వైఫల్యము"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:479
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:483
 msgctxt "Comment"
 msgid "Converting Nepomuk data to a new backend failed"
 msgstr "నెపోమక్ దత్తాంశ క్షేత్రమును కొత్త బ్యాకెండ్‌కు మార్పిడి చేయుటలో వైఫల్యం"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:530
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:535
 msgctxt "Name"
 msgid "Converting Nepomuk data done"
 msgstr "నెపోమక్ దత్తాంశం మార్పిడి అయినది"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:580
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:585
 msgctxt "Comment"
 msgid "Successfully converted Nepomuk data to new backend"
 msgstr "నెపోమక్ దత్తాంశం కొత్త బ్యాకెండ్‌కు సమర్ధవంతంగా మార్పిడి జరిగింది"
@@ -7111,44 +7137,44 @@ msgctxt "Comment"
 msgid "The Nepomuk Strigi file indexer"
 msgstr "Nepomuk Strigi దస్త్ర విషయసూచకి"
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:58
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:59
 msgctxt "Name"
 msgid "Initial Indexing started"
 msgstr "ప్రాధమిక విషయవర్గీకరణ ప్రారంభమైంది"
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:113
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:115
 msgctxt "Comment"
 msgid ""
 "Strigi started the initial indexing of local files for fast desktop searches"
 msgstr "వేగమైన డెస్‍క్‌ టాప్ శోధనలకొరకు Strigi స్థానిక దస్త్రముల ప్రాధమిక విషయవర్గీకరణను ప్రారంభించింది."
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:165
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:168
 msgctxt "Name"
 msgid "Initial Indexing finished"
 msgstr "ప్రాధమిక విషయవర్గీకరణ పూర్తైనది."
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:220
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:224
 msgctxt "Comment"
 msgid ""
 "Strigi finished the initial indexing of local files for fast desktop searches"
 msgstr "వేగమైన డెస్‍క్ టాప్ శోధనలకొరకు Strigi స్థానిక దస్త్రములయొక్క విషయవర్గీకరణ పూర్తైనది"
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:272
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:277
 msgctxt "Name"
 msgid "Indexing suspended"
 msgstr "విషయవర్దీకరణ సంస్పెండ్ చేయబడింది"
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:329
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:334
 msgctxt "Comment"
 msgid "Strigi file indexing has been suspended"
 msgstr "Strigi దస్త్రము విషయవర్గీకరణ సస్పెండ్ చేయబడింది"
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:383
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:389
 msgctxt "Name"
 msgid "Indexing resumed"
 msgstr "విషయవర్గీకరణ తిరిగికొనసాగించబడింది"
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:440
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:446
 msgctxt "Comment"
 msgid "Strigi file indexing has been resumed"
 msgstr "Strigi దస్త్రము విషయవర్గీకరణ తిరిగికొనసాగించబడింది"
@@ -7233,7 +7259,7 @@ msgctxt "Name"
 msgid "Platform"
 msgstr "ప్లాటినమ్"
 
-#: runtime/platforms/win/config/platform.desktop:22
+#: runtime/platforms/win/config/platform.desktop:23
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "WindowMaker"
@@ -9131,7 +9157,7 @@ msgctxt "Name"
 msgid "Desktop Cube Animation"
 msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
 
-#: workspace/kwin/effects/cube/cubeslide.desktop:13
+#: workspace/kwin/effects/cube/cubeslide.desktop:14
 msgctxt "Comment"
 msgid "Animate desktop switching with a cube"
 msgstr ""
@@ -9218,7 +9244,7 @@ msgctxt "Name"
 msgid "Fade Desktop"
 msgstr "సేవిక‍డెస్‍క్ టాప్"
 
-#: workspace/kwin/effects/fadedesktop/fadedesktop.desktop:17
+#: workspace/kwin/effects/fadedesktop/fadedesktop.desktop:18
 msgctxt "Comment"
 msgid "Fade between virtual desktops when switching between them"
 msgstr ""
@@ -9256,7 +9282,7 @@ msgctxt "Name"
 msgid "Highlight Window"
 msgstr "నకిలి విండో"
 
-#: workspace/kwin/effects/highlightwindow/highlightwindow.desktop:18
+#: workspace/kwin/effects/highlightwindow/highlightwindow.desktop:19
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Shows window thumbnails when cursor is on their taskbar entry"
@@ -9408,6 +9434,23 @@ msgctxt "Comment"
 msgid "Make the entire desktop look sharper"
 msgstr "మీ డెస్‍క్ టాప్ మెరుగుగా కనబడునట్లు చేస్తుంది"
 
+#: workspace/kwin/effects/sheet/sheet.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Stylesheets"
+msgctxt "Name"
+msgid "Sheet"
+msgstr "స్టైల్‌షీట్స్‍"
+
+#: workspace/kwin/effects/sheet/sheet.desktop:4
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Makes windows smoothly fade in/out when they are shown or hidden"
+msgctxt "Comment"
+msgid ""
+"Make modal dialogs smoothly fly in and out when they are shown or hidden"
+msgstr "విండోలు చూపునప్పుడు లేదా మరగుపడునప్పుడు సున్నితంగా ఫేడ్ అయ్యేట్లు/కానట్లు చేయుము"
+
 #: workspace/kwin/effects/showfps/showfps.desktop:2
 #: workspace/kwin/effects/showfps/showfps_config.desktop:9
 msgctxt "Name"
@@ -9453,7 +9496,7 @@ msgctxt "Name"
 msgid "Snap Helper"
 msgstr "సెం. హెలినా"
 
-#: workspace/kwin/effects/snaphelper/snaphelper.desktop:4
+#: workspace/kwin/effects/snaphelper/snaphelper.desktop:12
 msgctxt "Comment"
 msgid "Help you locate the center of the screen when moving a window."
 msgstr ""
@@ -10049,7 +10092,7 @@ msgctxt "Name"
 msgid "Compositing Performance Is Slow"
 msgstr "కాంపోజిటింగ్ పనితనము నెమ్మదిగావుంది"
 
-#: workspace/kwin/kwin.notifyrc:5971
+#: workspace/kwin/kwin.notifyrc:5972
 msgctxt "Comment"
 msgid ""
 "The compositing performance was too slow and compositing has been suspended"
@@ -10367,6 +10410,19 @@ msgctxt "Comment"
 msgid "Access hidden applications minimized in the system tray"
 msgstr "సిస్టమ్ ట్రేనందు మినిమైజ్ కాబడి దాగివున్న అనువవర్తనములను యాక్సిస్ చేయుము"
 
+#: workspace/plasma/applets/systemtray/systemtraydaemon/systemtraydaemon.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDE Write Daemon"
+msgctxt "Name"
+msgid "KDED Systemtray daemon"
+msgstr "KDE వ్రాయు డెమోన్"
+
+#: workspace/plasma/applets/systemtray/systemtraydaemon/systemtraydaemon.desktop:10
+msgctxt "Comment"
+msgid "Keep track of applications that want to use the D-Bus based system tray"
+msgstr ""
+
 #: workspace/plasma/applets/tasks/plasma-tasks-default.desktop:2
 msgctxt "Name"
 msgid "Task Manager"
@@ -10405,7 +10461,7 @@ msgctxt "Name"
 msgid "Panel for Mobile Internet Devices"
 msgstr "మొబైల్ ఇంటర్నెట్ పరికరముల కొరకు ప్యానల్"
 
-#: workspace/plasma/containments/mid-panel/plasma-containment-midpanel.desktop:52
+#: workspace/plasma/containments/mid-panel/plasma-containment-midpanel.desktop:53
 #: workspace/plasma/containments/panel/plasma-containment-panel.desktop:65
 msgctxt "Comment"
 msgid "A containment for a panel"
@@ -10429,7 +10485,7 @@ msgctxt "Name"
 msgid "Application Job Information"
 msgstr "నోటీసులు"
 
-#: workspace/plasma/dataengines/applicationjobs/plasma-dataengine-applicationjobs.desktop:53
+#: workspace/plasma/dataengines/applicationjobs/plasma-dataengine-applicationjobs.desktop:54
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Mouse data for Plasmoids"
@@ -10482,7 +10538,7 @@ msgctxt "Name"
 msgid "Favicons"
 msgstr "ప్రతిమలు"
 
-#: workspace/plasma/dataengines/favicons/plasma-dataengine-favicons.desktop:51
+#: workspace/plasma/dataengines/favicons/plasma-dataengine-favicons.desktop:52
 msgctxt "Comment"
 msgid "Data Engine for getting favicons of web sites"
 msgstr "వెబ్ సైటులయొక్క ఫెవికాన్లను(ఫేవరేట్ఐకాన్‍స్) పొందుటకొరకు డాటా యింజన్"
@@ -10513,7 +10569,7 @@ msgctxt "Name"
 msgid "Pointer Position"
 msgstr "సూచకి స్థానము"
 
-#: workspace/plasma/dataengines/mouse/plasma-dataengine-mouse.desktop:55
+#: workspace/plasma/dataengines/mouse/plasma-dataengine-mouse.desktop:56
 msgctxt "Comment"
 msgid "Mouse data for Plasmoids"
 msgstr "Plasmoids కొరకు మౌస్ డాటా"
@@ -10709,7 +10765,7 @@ msgctxt "Name"
 msgid "Nepomuk Desktop Search Runner"
 msgstr "డెస్‍క్ టాప్ శోధన"
 
-#: workspace/plasma/runners/nepomuksearch/plasma-runner-nepomuksearch.desktop:52
+#: workspace/plasma/runners/nepomuksearch/plasma-runner-nepomuksearch.desktop:53
 msgctxt "Comment"
 msgid "KRunner which performs desktop searches via Nepomuk"
 msgstr "నెపోమక్ ద్వారా రంగస్థల శోధనలను జరిపే KRunner"
@@ -10730,7 +10786,7 @@ msgctxt "Comment"
 msgid "Basic Power Management Operations"
 msgstr "పవర్ నిర్వహణా బ్యాక్ఎండ్"
 
-#: workspace/plasma/runners/powerdevil/plasma-runner-powerdevil.desktop:56
+#: workspace/plasma/runners/powerdevil/plasma-runner-powerdevil.desktop:57
 #: workspace/powerdevil/daemon/powerdevil.desktop:11
 msgctxt "Name"
 msgid "PowerDevil"
@@ -11084,7 +11140,7 @@ msgctxt "Name"
 msgid "Desktop Theme Details"
 msgstr "డెస్క్ టాప్ గొళం"
 
-#: workspace/plasma/tools/desktopthemedetails/desktopthemedetails.desktop:66
+#: workspace/plasma/tools/desktopthemedetails/desktopthemedetails.desktop:67
 msgctxt "Comment"
 msgid "Customize individual desktop theme items"
 msgstr "మలచుకొనిన స్వతంత్ర రంగస్థల థీమ్ అంశములు"
@@ -11155,32 +11211,32 @@ msgctxt "Comment"
 msgid "Notifies a critical event"
 msgstr "సంక్లిష్ట ఘటనను తెలుపుతుంది"
 
-#: workspace/powerdevil/powerdevil.notifyrc:446
+#: workspace/powerdevil/powerdevil.notifyrc:447
 msgctxt "Name"
 msgid "Low Battery"
 msgstr "బ్యాటరీ తక్కువగావుంది"
 
-#: workspace/powerdevil/powerdevil.notifyrc:497
+#: workspace/powerdevil/powerdevil.notifyrc:499
 msgctxt "Comment"
 msgid "Your battery has reached low level"
 msgstr "మీ బ్యాటరీ కనిష్ట స్థాయికి చేరినది"
 
-#: workspace/powerdevil/powerdevil.notifyrc:556
+#: workspace/powerdevil/powerdevil.notifyrc:559
 msgctxt "Name"
 msgid "Battery at warning level"
 msgstr "బ్యాటరీ హెచ్చరిక స్థాయిలో వుంది"
 
-#: workspace/powerdevil/powerdevil.notifyrc:607
+#: workspace/powerdevil/powerdevil.notifyrc:611
 msgctxt "Comment"
 msgid "Your battery has reached warning level"
 msgstr "మీ బ్యాటరీ హెచ్చరిక స్థాయిను చేరుకొంది"
 
-#: workspace/powerdevil/powerdevil.notifyrc:665
+#: workspace/powerdevil/powerdevil.notifyrc:670
 msgctxt "Name"
 msgid "Battery at critical level"
 msgstr "బ్యాటరీ సంక్లిష్ట స్థాయిలో వుంది"
 
-#: workspace/powerdevil/powerdevil.notifyrc:716
+#: workspace/powerdevil/powerdevil.notifyrc:722
 msgctxt "Comment"
 msgid ""
 "Your battery has reached critical level. This notification triggers a "
@@ -11190,12 +11246,12 @@ msgstr ""
 "మీ బ్యాటరీ సంక్లిష్ట స్థాయిని చేరుకుంది. ఈ నోటీసు ఆకృతీకరించిన చర్యను జరుపుటకు ముందుగా కౌంట్‌డౌన్‌ "
 "(దిగువలెక్కింపు)ను జురుపుతుంది, అందుకని దానిని అలా వదిలి వేయమని గట్టిగా సిఫార్సు చేయడమైంది."
 
-#: workspace/powerdevil/powerdevil.notifyrc:766
+#: workspace/powerdevil/powerdevil.notifyrc:772
 msgctxt "Name"
 msgid "AC adaptor plugged in"
 msgstr "AC ఎడాప్టర్ ప్లగ్ చేయబడింది"
 
-#: workspace/powerdevil/powerdevil.notifyrc:819
+#: workspace/powerdevil/powerdevil.notifyrc:826
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "The trash has been emptied"
@@ -11203,12 +11259,12 @@ msgctxt "Comment"
 msgid "The power adaptor has been plugged in"
 msgstr "ట్రాష్ ఖాళీ చేయబడింది"
 
-#: workspace/powerdevil/powerdevil.notifyrc:879
+#: workspace/powerdevil/powerdevil.notifyrc:887
 msgctxt "Name"
 msgid "AC adaptor unplugged"
 msgstr "AC ఎడాప్టర్ అన్‌ప్లగ్ చేయబడింది"
 
-#: workspace/powerdevil/powerdevil.notifyrc:933
+#: workspace/powerdevil/powerdevil.notifyrc:942
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "The trash has been emptied"
@@ -11216,12 +11272,12 @@ msgctxt "Comment"
 msgid "The power adaptor has been unplugged"
 msgstr "ట్రాష్ ఖాళీ చేయబడింది"
 
-#: workspace/powerdevil/powerdevil.notifyrc:993
+#: workspace/powerdevil/powerdevil.notifyrc:1003
 msgctxt "Name"
 msgid "Job error"
 msgstr "జాబ్ దోషము"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1046
+#: workspace/powerdevil/powerdevil.notifyrc:1057
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "There was an error in the program which may cause problems"
@@ -11229,22 +11285,22 @@ msgctxt "Comment"
 msgid "There was an error while performing a job"
 msgstr "ప్రోగ్రామ్‌నందు ఒక దోషమువుంది అది సమస్యలకు కారణంకావచ్చు"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1103
+#: workspace/powerdevil/powerdevil.notifyrc:1115
 msgctxt "Name"
 msgid "Profile Changed"
 msgstr "ప్రోఫైల్ మార్చబడింది"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1156
+#: workspace/powerdevil/powerdevil.notifyrc:1168
 msgctxt "Comment"
 msgid "The profile was changed"
 msgstr "ప్రొఫైల్ మార్చబడింది"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1213
+#: workspace/powerdevil/powerdevil.notifyrc:1225
 msgctxt "Name"
 msgid "Performing a suspension job"
 msgstr "సస్పెన్షన్ జాబ్‌ను జరుపుతోంది"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1259
+#: workspace/powerdevil/powerdevil.notifyrc:1272
 msgctxt "Comment"
 msgid ""
 "This notification is displayed when a suspension job is about to be done, "
@@ -11253,7 +11309,7 @@ msgstr ""
 "సస్పెన్షన్ జాబ్ జరుగబోవునప్పుడు ఈ నోటీసు ప్రదర్శించబడుతుంది, కౌంట్‌డౌన్(దిగువలెక్కింపు) మొదలవుతుంది, "
 "అందువలన, దానిని అలా వదిలివేయమని గట్టిగా సిఫార్సు చేయడమైనది."
 
-#: workspace/powerdevil/powerdevil.notifyrc:1306
+#: workspace/powerdevil/powerdevil.notifyrc:1319
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Internal Services"
@@ -11261,17 +11317,17 @@ msgctxt "Name"
 msgid "Internal PowerDevil Error"
 msgstr "అంతర్గత సేవలు"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1360
+#: workspace/powerdevil/powerdevil.notifyrc:1373
 msgctxt "Comment"
 msgid "PowerDevil has triggered an internal error"
 msgstr "పవర్‌డెవిల్ అంతర్గత దోషమును విడుదలచేసింది"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1414
+#: workspace/powerdevil/powerdevil.notifyrc:1428
 msgctxt "Name"
 msgid "Suspension inhibited"
 msgstr "సస్పెన్షన్ ఇన్హిబిటెడ్"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1459
+#: workspace/powerdevil/powerdevil.notifyrc:1474
 msgctxt "Comment"
 msgid "The suspension has been inhibited because an application requested it"
 msgstr "ఒక అనువర్తనము దానిని అభ్యర్దించుట వలన సస్పెన్షన్ ఇన్హిబిటెడ్ చేయబడింది"
@@ -11301,7 +11357,7 @@ msgctxt "Name"
 msgid "Hardware"
 msgstr "హార్డువేర్"
 
-#: workspace/solid/kcm/kcm_solid.desktop:71
+#: workspace/solid/kcm/kcm_solid.desktop:72
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Hardware Integration Configuration"
