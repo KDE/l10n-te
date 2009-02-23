@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_desktopthemedetails\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-13 10:11+0100\n"
+"POT-Creation-Date: 2009-02-23 09:45+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -120,68 +120,76 @@ msgstr ""
 msgid "How to Change Desktop Theme"
 msgstr "రంగస్థల థీమ్‌ను యెలా మార్చాలి"
 
-#: desktopthemedetails.cpp:478
+#: desktopthemedetails.cpp:480
 #, kde-format
 msgid ""
 "Theme items have been changed.  Do you still wish remove the \"%1\" theme?"
 msgstr "థీమ్ అంశములు మార్చబడినవి.  మీరు యింకా \"%1\" థీమ్‌ను తీసివేయాలని అనుకొనుచున్నారా?"
 
-#: desktopthemedetails.cpp:478 desktopthemedetails.cpp:483
-#: desktopthemedetails.cpp:486
+#: desktopthemedetails.cpp:480 desktopthemedetails.cpp:485
+#: desktopthemedetails.cpp:488 desktopthemedetails.cpp:491
 msgid "Remove Desktop Theme"
 msgstr "డెస్కుటాప్ థీమ్‌ను తీసివేయుము"
 
-#: desktopthemedetails.cpp:483
-msgid "Removal of the default KDE theme is not allowed."
+#: desktopthemedetails.cpp:485
+#, fuzzy
+#| msgid "Removal of the default KDE theme is not allowed."
+msgid "Removal of the default desktop theme is not allowed."
 msgstr "అప్రమేయ KDE థీమ్ యొక్క తీసివేత అనుమతించబడదు."
 
-#: desktopthemedetails.cpp:486
+#: desktopthemedetails.cpp:488
+#, fuzzy
+#| msgid "Removal of the default KDE theme is not allowed."
+msgid "Removal of the active desktop theme is not allowed."
+msgstr "అప్రమేయ KDE థీమ్ యొక్క తీసివేత అనుమతించబడదు."
+
+#: desktopthemedetails.cpp:491
 #, kde-format
 msgid "Are you sure you wish remove the \"%1\" theme?"
 msgstr "మీరు ఖచ్చితంగా \"%1\" థీమ్‌ను తీసివేద్దామని అనుకొనుచున్నారా?"
 
-#: desktopthemedetails.cpp:509
+#: desktopthemedetails.cpp:514
 msgid ""
 "Please apply theme item changes (with a new theme name) before attempting to "
 "export theme."
 msgstr "థీమ్‌ను ఎగుమతి చేయుటకు ముందుగా దయచేసి థీమ్ అంశపు మార్పులను (కొత్త థీమ్ పేరుతో) ఆపాదించుము."
 
-#: desktopthemedetails.cpp:509
+#: desktopthemedetails.cpp:514
 msgid "Export Desktop Theme"
 msgstr "రంగస్థల థీమ్‌ను ఎగుమతి చేయుము"
 
-#: desktopthemedetails.cpp:516
+#: desktopthemedetails.cpp:521
 msgid "Export theme to file"
 msgstr "థీమ్‌ను ఫైలుకు ఎగుమతిచేయుము"
 
-#: desktopthemedetails.cpp:611
+#: desktopthemedetails.cpp:616
 msgid "Theme Item"
 msgstr "థీమ్ అంశము"
 
-#: desktopthemedetails.cpp:611
+#: desktopthemedetails.cpp:616
 msgid "Source"
 msgstr "మూలము"
 
-#: desktopthemedetails.cpp:642
+#: desktopthemedetails.cpp:647
 #, kde-format
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: desktopthemedetails.cpp:645 desktopthemedetails.cpp:671
+#: desktopthemedetails.cpp:650 desktopthemedetails.cpp:676
 msgid "File..."
 msgstr "ఫైలు..."
 
-#: desktopthemedetails.cpp:673
+#: desktopthemedetails.cpp:678
 #, kde-format
 msgid "Select File to Use for %1"
 msgstr "%1 కొరకు వుపయోగించుటకు ఫైలు యెంపికచేయుము"
 
-#: desktopthemedetails.cpp:717
+#: desktopthemedetails.cpp:722
 #, kde-format
 msgid " Author: %1"
 msgstr "మూలకర్త: %1"
 
-#: desktopthemedetails.cpp:724
+#: desktopthemedetails.cpp:729
 #, kde-format
 msgid "Version: %1"
 msgstr "వర్షన్: %1"
