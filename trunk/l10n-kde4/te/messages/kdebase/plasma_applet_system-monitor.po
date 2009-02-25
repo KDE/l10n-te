@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_system-monitor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-24 11:00+0100\n"
+"POT-Creation-Date: 2009-02-25 11:41+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,56 +25,56 @@ msgstr ""
 "\n"
 "\n"
 
-#: cpu.cpp:44 cpu.cpp:142 hwinfo.cpp:130
+#: cpu.cpp:45 cpu.cpp:155 hwinfo.cpp:130
 msgid "CPU"
 msgstr ""
 
-#: cpu.cpp:163
+#: cpu.cpp:176
 msgid "CPUs"
 msgstr ""
 
-#: cpu.cpp:170 net.cpp:181 temperature.cpp:113
+#: cpu.cpp:183 net.cpp:194 temperature.cpp:116
 msgid "Advanced"
 msgstr ""
 
-#: cpu.cpp:178 net.cpp:189 temperature.cpp:121
+#: cpu.cpp:191 net.cpp:202 temperature.cpp:124
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: hdd.cpp:49
+#: hdd.cpp:50
 msgid "Disk Space"
 msgstr ""
 
-#: hdd.cpp:58
+#: hdd.cpp:59
 msgid "Mount Point"
 msgstr "మౌంటు పాయింట్"
 
-#: hdd.cpp:59 temperature.cpp:83
+#: hdd.cpp:60 temperature.cpp:85
 msgid "Name"
 msgstr "పేరు"
 
-#: hdd.cpp:84
+#: hdd.cpp:85
 msgid "Partitions"
 msgstr "విభజనలు"
 
-#: hdd.cpp:92
+#: hdd.cpp:93
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: hdd.cpp:133
+#: hdd.cpp:134
 msgctxt "the root filesystem"
 msgid "root"
 msgstr ""
 
-#: hdd.cpp:140
+#: hdd.cpp:141
 msgid "Unknown filesystem"
 msgstr ""
 
-#: hdd.cpp:150
+#: hdd.cpp:151
 #, kde-format
 msgctxt "hard disk label (not mounted or accessible)"
 msgid "%1 (not accessible)"
@@ -96,15 +96,15 @@ msgstr ""
 msgid "Audio"
 msgstr "ఆడియో"
 
-#: hwinfo.cpp:137 net.cpp:44
+#: hwinfo.cpp:137 net.cpp:45
 msgid "Network"
 msgstr "నెట్ వర్క్"
 
-#: net.cpp:154
+#: net.cpp:167
 msgid "Network interface"
 msgstr ""
 
-#: net.cpp:173
+#: net.cpp:186
 msgid "Interfaces"
 msgstr ""
 
@@ -118,17 +118,17 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, showBackgroundCheckBox)
 #. i18n: file: net-config-adv.ui:24
 #. i18n: ectx: property (text), widget (QCheckBox, showBackgroundCheckBox)
-#. i18n: file: temperature-config-adv.ui:24
+#. i18n: file: temperature-config-adv.ui:31
 #. i18n: ectx: property (text), widget (QCheckBox, showBackgroundCheckBox)
-#: rc.cpp:6 rc.cpp:27 rc.cpp:45
+#: rc.cpp:6 rc.cpp:27 rc.cpp:48
 msgid "Show Plotter Background"
 msgstr ""
 
 #. i18n: file: cpu-config-adv.ui:33
 #. i18n: ectx: property (text), widget (QLabel, graphLabel)
-#. i18n: file: temperature-config-adv.ui:33
+#. i18n: file: temperature-config-adv.ui:40
 #. i18n: ectx: property (text), widget (QLabel, graphLabel)
-#: rc.cpp:9 rc.cpp:48
+#: rc.cpp:9 rc.cpp:51
 msgid "Graph Color:"
 msgstr ""
 
@@ -146,7 +146,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: temperature-config.ui:45
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:15 rc.cpp:21 rc.cpp:39 rc.cpp:54
+#: rc.cpp:15 rc.cpp:21 rc.cpp:39 rc.cpp:57
 msgid "Update &interval:"
 msgstr ""
 
@@ -158,7 +158,9 @@ msgstr ""
 
 #. i18n: file: net-config-adv.ui:17
 #. i18n: ectx: property (text), widget (QCheckBox, showTopBarCheckBox)
-#: rc.cpp:24
+#. i18n: file: temperature-config-adv.ui:24
+#. i18n: ectx: property (text), widget (QCheckBox, showTopBarCheckBox)
+#: rc.cpp:24 rc.cpp:45
 msgid "Show Interface Name Above The Graph"
 msgstr ""
 
@@ -188,24 +190,24 @@ msgstr ""
 
 #. i18n: file: temperature-config.ui:20
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:51
+#: rc.cpp:54
 msgid "&Available temperatures:"
 msgstr ""
 
-#: temperature.cpp:48 temperature.cpp:106
+#: temperature.cpp:49 temperature.cpp:108
 msgid "Temperature"
 msgstr ""
 
-#: temperature.cpp:82
+#: temperature.cpp:84
 msgid "Sensor"
 msgstr ""
 
-#: temperature.cpp:247
+#: temperature.cpp:257
 #, kde-format
 msgid "%1 °C"
 msgstr ""
 
-#: temperature.cpp:249
+#: temperature.cpp:259
 #, kde-format
 msgid "%1 °F"
 msgstr ""
