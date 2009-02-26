@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-25 07:07+0100\n"
+"POT-Creation-Date: 2009-02-26 06:25+0100\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1843,7 +1843,7 @@ msgstr ""
 "indent:0px;\">(ఇంకా తెలియదు)</p></body></html>"
 
 #: kjs/object.cpp:584 kdeui/dialogs/kmessagebox.cpp:832
-#: kdeui/dialogs/kmessagebox.cpp:865 khtml/rendering/render_form.cpp:614
+#: kdeui/dialogs/kmessagebox.cpp:865 khtml/rendering/render_form.cpp:688
 msgid "Error"
 msgstr "దోషం"
 
@@ -6283,8 +6283,8 @@ msgstr ""
 msgid "Reset Toolbars"
 msgstr "పనిముట్లపట్టీలు పునఃఅమర్పు చేయుము"
 
-#: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2958
-#: khtml/khtmlview.cpp:2991 khtml/html/html_formimpl.cpp:1801
+#: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2949
+#: khtml/khtmlview.cpp:2982 khtml/html/html_formimpl.cpp:1801
 msgid "Reset"
 msgstr "పునః అమర్పు"
 
@@ -9442,7 +9442,7 @@ msgstr "(&U) పైకి జరపండి"
 msgid "Move &Down"
 msgstr "(&D) క్రిందకి జరపండి"
 
-#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:737
+#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:811
 msgid "Clear &History"
 msgstr "(&H) చరిత్రను చెరపివేయి"
 
@@ -10284,7 +10284,7 @@ msgstr ""
 "<qt>మీ స్థానిక దస్త్రవ్యవస్థ నందు ఫాం <br /><b>%1</b><br />కు అప్పగించబడుతుంది.<br /> "
 "మీరు ఫాంను అప్పగించాలని అనుకొనుచున్నారా?</qt>"
 
-#: khtml/khtml_part.cpp:4632 khtml/khtmlview.cpp:2944 khtml/khtmlview.cpp:2986
+#: khtml/khtml_part.cpp:4632 khtml/khtmlview.cpp:2935 khtml/khtmlview.cpp:2977
 #: khtml/html/html_formimpl.cpp:1604 khtml/html/html_formimpl.cpp:1809
 msgid "Submit"
 msgstr "అందించు"
@@ -10394,39 +10394,39 @@ msgstr "విస్మరించదగువాటి లొ చేర్చ�
 msgid "Remove from ignores..."
 msgstr "విస్మరించదగువాటి లొంచి తిసివెయి..."
 
-#: khtml/khtmlview.cpp:1913
+#: khtml/khtmlview.cpp:1904
 msgid "Find stopped."
 msgstr "వెతుకుట ఆగిపొయింది."
 
-#: khtml/khtmlview.cpp:1924
+#: khtml/khtmlview.cpp:1915
 msgid "Starting -- find links as you type"
 msgstr "మొదలు  - లింకులు వ్రాస్తుండగా వెతుకు"
 
-#: khtml/khtmlview.cpp:1930
+#: khtml/khtmlview.cpp:1921
 msgid "Starting -- find text as you type"
 msgstr "మొదలు - వచనం వ్రాస్తుండగా వెతుకు"
 
-#: khtml/khtmlview.cpp:1953
+#: khtml/khtmlview.cpp:1944
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "లింకు దొరికింది: \"%1\"."
 
-#: khtml/khtmlview.cpp:1958
+#: khtml/khtmlview.cpp:1949
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "లింకు దొరకలేదు: \"%1\"."
 
-#: khtml/khtmlview.cpp:1966
+#: khtml/khtmlview.cpp:1957
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "వచనం దొరికింది: \"%1\""
 
-#: khtml/khtmlview.cpp:1971
+#: khtml/khtmlview.cpp:1962
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "వచనం దొరకలేదు: \"%1\""
 
-#: khtml/khtmlview.cpp:2014
+#: khtml/khtmlview.cpp:2005
 msgid "Access Keys activated"
 msgstr ""
 
@@ -10868,30 +10868,30 @@ msgstr "మల్టిపార్ట్/మిక్స్డ్ కొరక�
 msgid "Copyright 2001, David Faure <email>david@mandrakesoft.com</email>"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:593
+#: khtml/rendering/render_form.cpp:667
 msgid "New Web Shortcut"
 msgstr "కొత్త వెబ్ శీఘ్ర మార్గము"
 
-#: khtml/rendering/render_form.cpp:614
+#: khtml/rendering/render_form.cpp:688
 #, kde-format
 msgid "%1 is already assigned to %2"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:659
+#: khtml/rendering/render_form.cpp:733
 #, fuzzy
 #| msgid "New search provider"
 msgid "Search &provider name:"
 msgstr "కొత్త శోధన వుత్పాదకి"
 
-#: khtml/rendering/render_form.cpp:661
+#: khtml/rendering/render_form.cpp:735
 msgid "New search provider"
 msgstr "కొత్త శోధన వుత్పాదకి"
 
-#: khtml/rendering/render_form.cpp:666
+#: khtml/rendering/render_form.cpp:740
 msgid "UR&I shortcuts:"
 msgstr "UR&I శీఘ్రమార్గాలు:"
 
-#: khtml/rendering/render_form.cpp:752
+#: khtml/rendering/render_form.cpp:826
 msgid "Create Web Shortcut"
 msgstr "వెబ్ శీశీఘ్రమార్గాలనసృష్టించండిడి"
 
