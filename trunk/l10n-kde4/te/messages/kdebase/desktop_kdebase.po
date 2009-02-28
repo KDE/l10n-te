@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-27 10:03+0000\n"
+"POT-Creation-Date: 2009-02-28 09:25+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -133,7 +133,7 @@ msgctxt "Name"
 msgid "Services"
 msgstr "సేవలు"
 
-#: apps/dolphin/src/kcm/kcmdolphinservices.desktop:14
+#: apps/dolphin/src/kcm/kcmdolphinservices.desktop:95
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -3387,57 +3387,57 @@ msgctxt "Name"
 msgid "You might want to fix your program. Take a look at the backtrace below."
 msgstr "మీరు మీ కార్యక్రమాన్ని సరిదిద్దగలరు. బేక్ ట్రెస్ టాబ్ ను చూడండి"
 
-#: runtime/drkonqi/presets/developerrc:252
+#: runtime/drkonqi/presets/developerrc:253
 #: runtime/drkonqi/presets/enduserrc:296
 msgctxt "Name"
 msgid "SIGILL"
 msgstr "SIGILL"
 
-#: runtime/drkonqi/presets/developerrc:258
+#: runtime/drkonqi/presets/developerrc:259
 msgctxt "Comment"
 msgid "Illegal instruction."
 msgstr "తప్పు ఆదేశం."
 
-#: runtime/drkonqi/presets/developerrc:333
+#: runtime/drkonqi/presets/developerrc:334
 #: runtime/drkonqi/presets/enduserrc:376
 msgctxt "Name"
 msgid "SIGABRT"
 msgstr "SIGABRT"
 
-#: runtime/drkonqi/presets/developerrc:337
+#: runtime/drkonqi/presets/developerrc:338
 msgctxt "Comment"
 msgid "Aborted."
 msgstr "విడిచిపెట్టడమైనది."
 
-#: runtime/drkonqi/presets/developerrc:408
+#: runtime/drkonqi/presets/developerrc:409
 #: runtime/drkonqi/presets/enduserrc:453
 msgctxt "Name"
 msgid "SIGFPE"
 msgstr "SIGFPE"
 
-#: runtime/drkonqi/presets/developerrc:412
+#: runtime/drkonqi/presets/developerrc:413
 msgctxt "Comment"
 msgid "Floating point exception."
 msgstr "ఫ్లోటింగ్‌ పాయింట్ ఆక్షేపణ."
 
-#: runtime/drkonqi/presets/developerrc:481
+#: runtime/drkonqi/presets/developerrc:482
 #: runtime/drkonqi/presets/enduserrc:531
 msgctxt "Name"
 msgid "SIGSEGV"
 msgstr "SIGSEGV"
 
-#: runtime/drkonqi/presets/developerrc:485
+#: runtime/drkonqi/presets/developerrc:486
 msgctxt "Comment"
 msgid "Invalid memory reference."
 msgstr "తప్పుడు మెమొరి సంబంధం."
 
-#: runtime/drkonqi/presets/developerrc:556
+#: runtime/drkonqi/presets/developerrc:557
 #: runtime/drkonqi/presets/enduserrc:608
 msgctxt "Name"
 msgid "Unknown"
 msgstr "తెలియని"
 
-#: runtime/drkonqi/presets/developerrc:634
+#: runtime/drkonqi/presets/developerrc:635
 msgctxt "Comment"
 msgid "This signal is unknown."
 msgstr "తెలియని సిగ్నల్"
@@ -3912,7 +3912,7 @@ msgstr "KDED రంగస్థల సంచయం గమనిక"
 
 #: runtime/kioslave/desktop/directory.trash:3
 #: runtime/kioslave/trash/kcmtrash.desktop:1
-#: runtime/kioslave/trash/kcmtrash.desktop:135
+#: runtime/kioslave/trash/kcmtrash.desktop:137
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Trashcan"
@@ -3920,7 +3920,7 @@ msgctxt "Name"
 msgid "Trash"
 msgstr "చెత్తబుట్ట"
 
-#: runtime/kioslave/desktop/directory.trash:67
+#: runtime/kioslave/desktop/directory.trash:68
 msgctxt "Comment"
 msgid "Contains removed files"
 msgstr "తీసివేసిన ఫైళ్ళను కలిగివుంటుంది"
@@ -4003,7 +4003,7 @@ msgctxt "Comment"
 msgid "Thumbnail Handler"
 msgstr "Thumbnail సంభాలిక"
 
-#: runtime/kioslave/trash/kcmtrash.desktop:65
+#: runtime/kioslave/trash/kcmtrash.desktop:66
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "This service allows configuration of the Dolphin views."
@@ -4011,7 +4011,7 @@ msgctxt "Comment"
 msgid "This service allows configuration of the trash."
 msgstr "డాల్ఫిన్ వీక్షణిల యొక్క ఆకృతీకరణను ఈ సేవ అనుమతిస్తుంది."
 
-#: runtime/kioslave/trash/kcmtrash.desktop:199
+#: runtime/kioslave/trash/kcmtrash.desktop:202
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure Hotkey settings"
@@ -4400,7 +4400,7 @@ msgctxt "Name"
 msgid "KDE Time Zone Daemon"
 msgstr "KDE సమయ క్షేత్ర డెమోన్"
 
-#: runtime/ktimezoned/ktimezoned.desktop:81
+#: runtime/ktimezoned/ktimezoned.desktop:82
 msgctxt "Comment"
 msgid "Time zone daemon for KDE"
 msgstr "KDE కొరకు సమయ క్షేత్ర డెమోన్"
@@ -5508,12 +5508,12 @@ msgctxt "Comment"
 msgid "The KDE Wallet Daemon"
 msgstr "KDE వ్రాయు డెమోన్"
 
-#: runtime/kwalletd/kwalletd.notifyrc:13
+#: runtime/kwalletd/kwalletd.notifyrc:14
 msgctxt "Name"
 msgid "kwalletd"
 msgstr ""
 
-#: runtime/kwalletd/kwalletd.notifyrc:17
+#: runtime/kwalletd/kwalletd.notifyrc:18
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Change Password"
@@ -5521,7 +5521,7 @@ msgctxt "Name"
 msgid "Needs password"
 msgstr "పాస్ వర్డు మార్చండి"
 
-#: runtime/kwalletd/kwalletd.notifyrc:27
+#: runtime/kwalletd/kwalletd.notifyrc:28
 msgctxt "Comment"
 msgid "The KDE Wallet Daemon requests a password"
 msgstr ""
@@ -7342,6 +7342,17 @@ msgctxt "Name"
 msgid "Image Displayer"
 msgstr "చిత్ర ప్రదర్శని"
 
+#: runtime/solidautoeject/solidautoeject.desktop:7
+msgctxt "Name"
+msgid "Solid Auto-eject service"
+msgstr ""
+
+#: runtime/solidautoeject/solidautoeject.desktop:8
+msgctxt "Comment"
+msgid ""
+"Allows to automatically release drives when their eject button is pushed"
+msgstr ""
+
 #: runtime/soliduiserver/soliduiserver.desktop:8
 msgctxt "Name"
 msgid "Solid User Interface Server"
@@ -8366,11 +8377,11 @@ msgid "KSIRC"
 msgstr "KSIRC"
 
 #: workspace/khotkeys/data/kde32b1.khotkeys:392
-#: workspace/khotkeys/data/kde32b1.khotkeys:586
-#: workspace/khotkeys/data/kde32b1.khotkeys:800
-#: workspace/khotkeys/data/kde32b1.khotkeys:1163
-#: workspace/khotkeys/data/kde32b1.khotkeys:1514
-#: workspace/khotkeys/data/kde32b1.khotkeys:2566
+#: workspace/khotkeys/data/kde32b1.khotkeys:539
+#: workspace/khotkeys/data/kde32b1.khotkeys:753
+#: workspace/khotkeys/data/kde32b1.khotkeys:1072
+#: workspace/khotkeys/data/kde32b1.khotkeys:1380
+#: workspace/khotkeys/data/kde32b1.khotkeys:2342
 #: workspace/khotkeys/data/printscreen.khotkeys:265
 msgctxt "Comment"
 msgid "Simple_action"
@@ -8413,22 +8424,22 @@ msgstr ""
 "(colon)                                  Shift+;\\n' "
 "'  (space)                              Space"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:504
+#: workspace/khotkeys/data/kde32b1.khotkeys:457
 msgctxt "Name"
 msgid "Type 'Hello'"
 msgstr "'Hello' టైపుచేయుము"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:649
+#: workspace/khotkeys/data/kde32b1.khotkeys:602
 msgctxt "Comment"
 msgid "This action runs Konsole, after pressing Ctrl+Alt+T."
 msgstr "Ctrl+Alt+T వత్తిన తర్వాత, ఈ చర్య Konsole ను నడుపుతుంది."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:713
+#: workspace/khotkeys/data/kde32b1.khotkeys:666
 msgctxt "Name"
 msgid "Run Konsole"
 msgstr "రన్ కన్సోల్"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:863
+#: workspace/khotkeys/data/kde32b1.khotkeys:816
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -8474,17 +8485,17 @@ msgstr ""
 "ఎల్లప్పుడు 'Qt Designer by Trolltech' శీర్షికను కలిగేవుంటుంది, అందుకని నియమం ఆశీర్షికకలిగిన "
 "క్రియాశీల విండో కొరకు పరిశీలిస్తుంది."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:909
+#: workspace/khotkeys/data/kde32b1.khotkeys:818
 msgctxt "Name"
 msgid "Remap Ctrl+W to Ctrl+F4 in Qt Designer"
 msgstr "Qt రూపకరణినందు Ctrl+W ను Ctrl+F4 కు తిరిగి మాప్‌చేయుము"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:987
+#: workspace/khotkeys/data/kde32b1.khotkeys:896
 msgctxt "Comment"
 msgid "Qt Designer"
 msgstr "Qt డిజైనర్"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1047
+#: workspace/khotkeys/data/kde32b1.khotkeys:956
 msgctxt "Comment"
 msgid ""
 "By pressing Alt+Ctrl+W a D-Bus call will be performed that will show the "
@@ -8494,12 +8505,12 @@ msgstr ""
 "Alt+Ctrl+W ను వత్తుటద్వారా D-Bus కాల్ జరుపబడుతుంది అది minicli ను చూపుతుంది. మీరు "
 "ఏరకమైన D-Bus కాల్‌నైనా ఉపయోగించవచ్చు, కమాండ్‌లైన్ సాధనం 'qdbus' ను ఉపయోగించినట్లుగా."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1094
+#: workspace/khotkeys/data/kde32b1.khotkeys:1003
 msgctxt "Name"
 msgid "Perform D-Bus call 'kdesktop KDesktopIface popupExecuteCommand()'"
 msgstr "D-Bus కాల్ 'kdesktop KDesktopIface popupExecuteCommand()' ను జరుపుము"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1226
+#: workspace/khotkeys/data/kde32b1.khotkeys:1135
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -8531,22 +8542,22 @@ msgstr ""
 "('xprop' నడుపుము మరియు XMMS విండో పైన నొక్కుము మరియు 'XMMS_Player' ను చూడుటకు "
 "WM_CLASS కొరకు శోధించుము)."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1271
+#: workspace/khotkeys/data/kde32b1.khotkeys:1137
 msgctxt "Name"
 msgid "Next in XMMS"
 msgstr "XMMS నందు తరువాత"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1352
+#: workspace/khotkeys/data/kde32b1.khotkeys:1218
 msgctxt "Comment"
 msgid "XMMS window"
 msgstr "XMMS విండో"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1433
+#: workspace/khotkeys/data/kde32b1.khotkeys:1299
 msgctxt "Comment"
 msgid "XMMS Player window"
 msgstr "XMMS ప్లేయర్ విండో"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1577
+#: workspace/khotkeys/data/kde32b1.khotkeys:1443
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -8617,35 +8628,35 @@ msgstr ""
 "gestures are defined in this group. All these gestures are active only if "
 "the active window is Konqueror (class contains 'konqueror')."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1617
+#: workspace/khotkeys/data/kde32b1.khotkeys:1446
 msgctxt "Name"
 msgid "Konqi Gestures"
 msgstr "Konqi గెస్‍ట్‌రెస్"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1684
+#: workspace/khotkeys/data/kde32b1.khotkeys:1513
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:147
 msgctxt "Comment"
 msgid "Konqueror window"
 msgstr "Konqueror విండో"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1766
-#: workspace/khotkeys/data/kde32b1.khotkeys:1787
+#: workspace/khotkeys/data/kde32b1.khotkeys:1595
+#: workspace/khotkeys/data/kde32b1.khotkeys:1616
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:229
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:250
 msgctxt "Comment"
 msgid "Konqueror"
 msgstr "Konqueror"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1813
+#: workspace/khotkeys/data/kde32b1.khotkeys:1642
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:340
 msgctxt "Name"
 msgid "Back"
 msgstr "వెనుకకు"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1906
-#: workspace/khotkeys/data/kde32b1.khotkeys:2061
-#: workspace/khotkeys/data/kde32b1.khotkeys:2213
-#: workspace/khotkeys/data/kde32b1.khotkeys:2367
+#: workspace/khotkeys/data/kde32b1.khotkeys:1735
+#: workspace/khotkeys/data/kde32b1.khotkeys:1890
+#: workspace/khotkeys/data/kde32b1.khotkeys:2042
+#: workspace/khotkeys/data/kde32b1.khotkeys:2196
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:566
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:762
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:940
@@ -8664,25 +8675,25 @@ msgctxt "Comment"
 msgid "Gesture_triggers"
 msgstr "Gesture_triggers"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1968
+#: workspace/khotkeys/data/kde32b1.khotkeys:1797
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:1920
 msgctxt "Name"
 msgid "Forward"
 msgstr "ముందుకు"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2123
+#: workspace/khotkeys/data/kde32b1.khotkeys:1952
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:672
 msgctxt "Name"
 msgid "Up"
 msgstr "పైకి"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2275
+#: workspace/khotkeys/data/kde32b1.khotkeys:2104
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:2943
 msgctxt "Name"
 msgid "Reload"
 msgstr "తిరిగిలోడ్‌చేయి"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2427
+#: workspace/khotkeys/data/kde32b1.khotkeys:2256
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -8698,7 +8709,7 @@ msgstr ""
 "Win+E (Tux+E) వత్తిన తర్వాత, WWW అన్వేషణి పారంభింపబడుతుంది మరియు http://www.kde.org ను "
 "తెరుస్తుంది. మీరు అన్ని విధములైన ఆదేశాలను నడుపవచ్చు మీరు minicli (Alt+F2) నందు నడుపవచ్చు."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2482
+#: workspace/khotkeys/data/kde32b1.khotkeys:2258
 msgctxt "Name"
 msgid "Go to KDE Website"
 msgstr "KDE వెబ్‌సైట్‌కు వెళ్ళుము"
@@ -9285,7 +9296,7 @@ msgctxt "Name"
 msgid "Desktop Cube Animation"
 msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
 
-#: workspace/kwin/effects/cube/cubeslide.desktop:15
+#: workspace/kwin/effects/cube/cubeslide.desktop:16
 msgctxt "Comment"
 msgid "Animate desktop switching with a cube"
 msgstr ""
@@ -9815,6 +9826,22 @@ msgctxt "Comment"
 msgid "Configure settings specifically for a window"
 msgstr "ప్రత్యేకంగా విండో కొరకు అమర్పులను ఆకృతీకరించుము"
 
+#: workspace/kwin/kcmkwin/kwinscreenedges/kwinscreenedges.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen Saver"
+msgctxt "Name"
+msgid "Screen Edges"
+msgstr "స్క్రీన్ సేవర్"
+
+#: workspace/kwin/kcmkwin/kwinscreenedges/kwinscreenedges.desktop:16
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure web cache settings"
+msgctxt "Comment"
+msgid "Configure active screen edges"
+msgstr "వెబ్ క్యాచి అమరికలను ఆకృతీకరించుము"
+
 #: workspace/kwin/kwin.notifyrc:3
 msgctxt "Comment"
 msgid "The KDE Window Manager"
@@ -10232,8 +10259,8 @@ msgctxt "Name"
 msgid "KDE Write Daemon"
 msgstr "KDE వ్రాయు డెమోన్"
 
-#: workspace/kwrited/kwrited-autostart.desktop:80
-#: workspace/kwrited/kwrited.desktop:80
+#: workspace/kwrited/kwrited-autostart.desktop:81
+#: workspace/kwrited/kwrited.desktop:81
 msgctxt "Comment"
 msgid "Watch for messages from local users sent with write(1) or wall(1)"
 msgstr "స్థానిక వినియోగదారులనుండి write(1) లేదా wall(1) తో పంపబడిన సందేశాలనకొరకు గమనించండి"
@@ -10246,12 +10273,12 @@ msgctxt "Comment"
 msgid "KDE write daemon"
 msgstr "KDE వ్రాయు డెమోన్"
 
-#: workspace/kwrited/kwrited.notifyrc:59
+#: workspace/kwrited/kwrited.notifyrc:60
 msgctxt "Name"
 msgid "New message received"
 msgstr "కొత్త సందేశము స్వీకరించబడింది"
 
-#: workspace/kwrited/kwrited.notifyrc:112
+#: workspace/kwrited/kwrited.notifyrc:113
 msgctxt "Comment"
 msgid "The daemon received a new message sent with wall(1) or write(1)"
 msgstr "wall(1) లేదా write(1)తో పంపబడిన కొత్త సందేశమును డెమోన్ స్వీకరించినది"
@@ -10320,7 +10347,7 @@ msgid "Analog Clock"
 msgstr "ఎనలాగ్ గడియారం"
 
 #: workspace/plasma/applets/analog-clock/plasma-applet-analogclock.desktop:79
-#: workspace/plasma/scriptengines/ruby/examples/applets/clock/metadata.desktop:55
+#: workspace/plasma/scriptengines/ruby/examples/applets/clock/metadata.desktop:56
 msgctxt "Comment"
 msgid "An SVG themable clock"
 msgstr "SVG థీమబుల్ గడియారం"
@@ -10515,7 +10542,7 @@ msgctxt "Name"
 msgid "System Monitor - RAM"
 msgstr "సిస్టమ్ మానిటర్"
 
-#: workspace/plasma/applets/system-monitor/plasma-applet-sm_ram.desktop:4
+#: workspace/plasma/applets/system-monitor/plasma-applet-sm_ram.desktop:7
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "A battery charge monitor"
@@ -10565,7 +10592,7 @@ msgctxt "Name"
 msgid "KDED Systemtray daemon"
 msgstr "KDE వ్రాయు డెమోన్"
 
-#: workspace/plasma/applets/systemtray/systemtraydaemon/systemtraydaemon.desktop:13
+#: workspace/plasma/applets/systemtray/systemtraydaemon/systemtraydaemon.desktop:14
 msgctxt "Comment"
 msgid "Keep track of applications that want to use the D-Bus based system tray"
 msgstr ""
@@ -11517,7 +11544,7 @@ msgctxt "Name"
 msgid "Network Status Daemon"
 msgstr "నెట్వర్‍క్  స్థితి డెమోన్"
 
-#: workspace/solid/networking/kded/networkstatus.desktop:67
+#: workspace/solid/networking/kded/networkstatus.desktop:68
 msgctxt "Comment"
 msgid ""
 "Tracks status of network interfaces and provides notification to "
