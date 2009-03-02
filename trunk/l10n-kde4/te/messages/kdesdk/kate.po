@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-28 10:14+0100\n"
+"POT-Creation-Date: 2009-03-02 09:57+0100\n"
 "PO-Revision-Date: 2007-03-09 14:17+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -781,7 +781,7 @@ msgstr ""
 msgid "Configure"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:69 app/kateconfigdialog.cpp:226
+#: app/kateconfigdialog.cpp:69 app/kateconfigdialog.cpp:225
 msgid "Application"
 msgstr ""
 
@@ -838,95 +838,99 @@ msgstr ""
 msgid "(never)"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:127
-msgid " day(s)"
-msgstr "రోఙు(లు)"
-
-#: app/kateconfigdialog.cpp:148
+#: app/kateconfigdialog.cpp:147
 msgid "Sessions"
 msgstr "సెషన్లు"
 
-#: app/kateconfigdialog.cpp:149
+#: app/kateconfigdialog.cpp:148
 msgid "Session Management"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:157
+#: app/kateconfigdialog.cpp:156
 msgid "Elements of Sessions"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:163
+#: app/kateconfigdialog.cpp:162
 msgid "Include &window configuration"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:165
+#: app/kateconfigdialog.cpp:164
 msgid ""
 "Check this if you want all your views and frames restored each time you open "
 "Kate"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:171
+#: app/kateconfigdialog.cpp:170
 msgid "Behavior on Application Startup"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:175
+#: app/kateconfigdialog.cpp:174
 msgid "&Start new session"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:176
+#: app/kateconfigdialog.cpp:175
 msgid "&Load last-used session"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:177
+#: app/kateconfigdialog.cpp:176
 msgid "&Manually choose a session"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:196
+#: app/kateconfigdialog.cpp:195
 msgid "Behavior on Application Exit or Session Switch"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:200
+#: app/kateconfigdialog.cpp:199
 msgid "&Do not save session"
 msgstr "(&D) సెషన్ను దాచవద్దు"
 
-#: app/kateconfigdialog.cpp:201
+#: app/kateconfigdialog.cpp:200
 msgid "&Save session"
 msgstr "(&S) సెషన్ను దాచు"
 
-#: app/kateconfigdialog.cpp:202
+#: app/kateconfigdialog.cpp:201
 msgid "&Ask user"
 msgstr "(&A) యూజర్ ని అడుగు?"
 
-#: app/kateconfigdialog.cpp:226
+#: app/kateconfigdialog.cpp:225
 msgid "File Selector"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:228
+#: app/kateconfigdialog.cpp:227
 msgid "File Selector Settings"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:245
+#: app/kateconfigdialog.cpp:244
 msgid "Document List"
 msgstr "పత్రాల జాబితా"
 
-#: app/kateconfigdialog.cpp:246
+#: app/kateconfigdialog.cpp:245
 msgid "Document List Settings"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:256
+#: app/kateconfigdialog.cpp:255
 msgid "Plugins"
 msgstr "ప్లగిన్లు"
 
-#: app/kateconfigdialog.cpp:257
+#: app/kateconfigdialog.cpp:256
 msgid "Plugin Manager"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:271
+#: app/kateconfigdialog.cpp:270
 msgid "Editor Component"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:273
+#: app/kateconfigdialog.cpp:272
 msgid "Editor Component Options"
 msgstr ""
+
+#: app/kateconfigdialog.cpp:424
+#, fuzzy
+#| msgid " day(s)"
+msgid "day"
+msgid_plural "days"
+msgstr[0] "రోఙు(లు)"
+msgstr[1] "రోఙు(లు)"
 
 #: app/katemain.cpp:42
 msgid "Kate"
