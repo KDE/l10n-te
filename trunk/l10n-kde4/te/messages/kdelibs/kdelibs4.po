@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-01 10:32+0100\n"
+"POT-Creation-Date: 2009-03-03 10:19+0100\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -8144,24 +8144,30 @@ msgstr "శోధన పదాన్ని లేదా అక్షరాన్
 
 #: kdeui/widgets/kcharselect.cpp:354
 #, fuzzy
-#| msgid "Back"
+#| msgctxt "@action"
+#| msgid "Previous Item in List"
 msgctxt "Goes to previous character"
-msgid "Back"
-msgstr "వెనుకకు"
+msgid "Previous in History"
+msgstr "జాబితా లోని మునుపటి అంశము"
 
 #: kdeui/widgets/kcharselect.cpp:356
-msgid "Previous Character"
+#, fuzzy
+#| msgid "Previous Character"
+msgid "Previous Character in History"
 msgstr "గత అక్షరము"
 
 #: kdeui/widgets/kcharselect.cpp:361
 #, fuzzy
-#| msgid "Forward"
+#| msgctxt "@action"
+#| msgid "Next Item in List"
 msgctxt "Goes to next character"
-msgid "Forward"
-msgstr "ముందుకు"
+msgid "Next in History"
+msgstr "జాబితా లోని తరువాత అంశము"
 
 #: kdeui/widgets/kcharselect.cpp:363
-msgid "Next Character"
+#, fuzzy
+#| msgid "Next Character"
+msgid "Next Character in History"
 msgstr "తరువాతి అక్షరము"
 
 #: kdeui/widgets/kcharselect.cpp:371
@@ -8180,121 +8186,114 @@ msgstr "అక్షరరూపము అమర్చుము"
 msgid "Set font size"
 msgstr "అక్షర పరిమాణాన్ని అమర్చుము"
 
-#: kdeui/widgets/kcharselect.cpp:633 kdeui/widgets/kcharselect.cpp:885
-#: kdeui/widgets/kcharselect-translation.cpp:43
-msgctxt "KCharselect unicode block name"
-msgid "Combining Diacritical Marks"
-msgstr "డిజిటల్ మార్కులను కలుపుతోంది"
-
-#: kdeui/widgets/kcharselect.cpp:636 kdeui/widgets/kcharselect.cpp:638
+#: kdeui/widgets/kcharselect.cpp:625
 msgid "Character:"
 msgstr "అక్షరం:"
 
-#: kdeui/widgets/kcharselect.cpp:638 kdeui/widgets/kcharselect.cpp:889
-msgid "Non-printable"
-msgstr "ప్రచురించలేనివి"
-
-#: kdeui/widgets/kcharselect.cpp:642
+#: kdeui/widgets/kcharselect.cpp:631
 msgid "Name: "
 msgstr "పేరు:"
 
-#: kdeui/widgets/kcharselect.cpp:650
+#: kdeui/widgets/kcharselect.cpp:639
 msgid "Annotations and Cross References"
 msgstr "ప్రకటనలు మరియు క్రాస్ రిఫరెన్సెస్"
 
-#: kdeui/widgets/kcharselect.cpp:654
+#: kdeui/widgets/kcharselect.cpp:643
 msgid "Alias names:"
 msgstr "మారు పేరులు:"
 
-#: kdeui/widgets/kcharselect.cpp:662
+#: kdeui/widgets/kcharselect.cpp:651
 msgid "Notes:"
 msgstr "వ్యాఖ్యలు:"
 
-#: kdeui/widgets/kcharselect.cpp:670
+#: kdeui/widgets/kcharselect.cpp:659
 msgid "See also:"
 msgstr "ఇవి కూడా చూడండి:"
 
-#: kdeui/widgets/kcharselect.cpp:682
+#: kdeui/widgets/kcharselect.cpp:671
 msgid "Equivalents:"
 msgstr "సమానములు"
 
-#: kdeui/widgets/kcharselect.cpp:690
+#: kdeui/widgets/kcharselect.cpp:679
 msgid "Approximate equivalents:"
 msgstr "దరిదాపుగా సమానములు:"
 
-#: kdeui/widgets/kcharselect.cpp:699
+#: kdeui/widgets/kcharselect.cpp:688
 msgid "CJK Ideograph Information"
 msgstr "CJK ఐడియోగ్రాఫ్ సమాచారము"
 
-#: kdeui/widgets/kcharselect.cpp:702
+#: kdeui/widgets/kcharselect.cpp:691
 msgid "Definition in English: "
 msgstr "ఆంగ్లములో నిర్వచనము: "
 
-#: kdeui/widgets/kcharselect.cpp:707
+#: kdeui/widgets/kcharselect.cpp:696
 msgid "Mandarin Pronunciation: "
 msgstr "మాండ్రియన్ ఉచ్ఛారణ: "
 
-#: kdeui/widgets/kcharselect.cpp:712
+#: kdeui/widgets/kcharselect.cpp:701
 msgid "Cantonese Pronunciation: "
 msgstr "కెటోనీస్ ఉచ్ఛారణ:"
 
-#: kdeui/widgets/kcharselect.cpp:717
+#: kdeui/widgets/kcharselect.cpp:706
 msgid "Japanese On Pronunciation: "
 msgstr "జపనీస్ ఆన్ ఉచ్ఛారణ: "
 
-#: kdeui/widgets/kcharselect.cpp:722
+#: kdeui/widgets/kcharselect.cpp:711
 msgid "Japanese Kun Pronunciation: "
 msgstr "జపనీస్ కున్ ఉచ్ఛారణ: "
 
-#: kdeui/widgets/kcharselect.cpp:727
+#: kdeui/widgets/kcharselect.cpp:716
 msgid "Tang Pronunciation: "
 msgstr "టాంగ్ ఉచ్ఛారణ: "
 
-#: kdeui/widgets/kcharselect.cpp:732
+#: kdeui/widgets/kcharselect.cpp:721
 msgid "Korean Pronunciation: "
 msgstr "కొరియన్ ఉచ్ఛారణ: "
 
-#: kdeui/widgets/kcharselect.cpp:738
+#: kdeui/widgets/kcharselect.cpp:727
 msgid "General Character Properties"
 msgstr "సాదారణ అక్షర గుణములు"
 
-#: kdeui/widgets/kcharselect.cpp:739
+#: kdeui/widgets/kcharselect.cpp:728
 msgid "Block: "
 msgstr "బ్లాక్: "
 
-#: kdeui/widgets/kcharselect.cpp:740
+#: kdeui/widgets/kcharselect.cpp:729
 msgid "Unicode category: "
 msgstr "యూనికోడ్ వర్గము: "
 
-#: kdeui/widgets/kcharselect.cpp:744
+#: kdeui/widgets/kcharselect.cpp:733
 msgid "Various Useful Representations"
 msgstr "వివిధ వుపయోగకర రిప్రజెంటేషన్‍స్"
 
-#: kdeui/widgets/kcharselect.cpp:745
+#: kdeui/widgets/kcharselect.cpp:734
 msgid "UTF-8:"
 msgstr "యుటిఎఫ్-8:"
 
-#: kdeui/widgets/kcharselect.cpp:748
+#: kdeui/widgets/kcharselect.cpp:737
 msgid "UTF-16: "
 msgstr "యుటిఎఫ్-16:"
 
-#: kdeui/widgets/kcharselect.cpp:749
+#: kdeui/widgets/kcharselect.cpp:738
 msgid "C octal escaped UTF-8: "
 msgstr "C octal escaped UTF-8: "
 
-#: kdeui/widgets/kcharselect.cpp:752
+#: kdeui/widgets/kcharselect.cpp:741
 msgid "XML decimal entity:"
 msgstr "XML దశాంశ వస్తుత్వము(యెన్టిటి):"
 
-#: kdeui/widgets/kcharselect.cpp:891
-#, kde-format
+#: kdeui/widgets/kcharselect.cpp:870
+#, fuzzy
+#| msgid "Unicode category: "
+msgid "Unicode code point:"
+msgstr "యూనికోడ్ వర్గము: "
+
+#: kdeui/widgets/kcharselect.cpp:871
+#, fuzzy
+#| msgid "XML decimal entity:"
 msgctxt "Character"
-msgid ""
-"<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Unicode code point: "
-"%4<br />(In decimal: %5)</qt>"
-msgstr ""
-"<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />యూనికోడ్ కోడ్ పాయింట్: %"
-"4<br />(దశాంశం లో: %5)</qt>"
+msgid "In decimal:"
+msgstr "XML దశాంశ వస్తుత్వము(యెన్టిటి):"
 
 #: kdeui/widgets/kcharselect-translation.cpp:23
 msgctxt "KCharSelect section name"
@@ -8357,6 +8356,7 @@ msgid "Phonetic Symbols"
 msgstr "ఫోనెటిక్ చిహ్నాలు"
 
 #: kdeui/widgets/kcharselect-translation.cpp:35
+#: kdeui/widgets/kcharselectdata.cpp:572
 msgctxt "KCharSelect section name"
 msgid "Combining Diacritical Marks"
 msgstr "డయాక్రిటికల్ గుర్తులను కలుపుతోంది"
@@ -8395,6 +8395,11 @@ msgstr "IPA పొ‍డిగింపులు"
 msgctxt "KCharselect unicode block name"
 msgid "Spacing Modifier Letters"
 msgstr "క్రమాంతరీకరణ సవరణి అక్షరములు"
+
+#: kdeui/widgets/kcharselect-translation.cpp:43
+msgctxt "KCharselect unicode block name"
+msgid "Combining Diacritical Marks"
+msgstr "డిజిటల్ మార్కులను కలుపుతోంది"
 
 #: kdeui/widgets/kcharselect-translation.cpp:44
 msgctxt "KCharselect unicode block name"
@@ -9248,147 +9253,151 @@ msgctxt "@action"
 msgid "Superscript"
 msgstr "సూపర్‌స్క్రిప్‍ట్"
 
-#: kdeui/widgets/kcharselectdata.cpp:236
+#: kdeui/widgets/kcharselectdata.cpp:241
 msgid "<Non Private Use High Surrogate>"
 msgstr ""
 
-#: kdeui/widgets/kcharselectdata.cpp:238
+#: kdeui/widgets/kcharselectdata.cpp:243
 msgid "<Private Use High Surrogate>"
 msgstr ""
 
-#: kdeui/widgets/kcharselectdata.cpp:240
+#: kdeui/widgets/kcharselectdata.cpp:245
 msgid "<Low Surrogate>"
 msgstr ""
 
-#: kdeui/widgets/kcharselectdata.cpp:242
+#: kdeui/widgets/kcharselectdata.cpp:247
 msgid "<Private Use>"
 msgstr ""
 
-#: kdeui/widgets/kcharselectdata.cpp:272
+#: kdeui/widgets/kcharselectdata.cpp:277
 msgid "<not assigned>"
 msgstr ""
 
-#: kdeui/widgets/kcharselectdata.cpp:510
+#: kdeui/widgets/kcharselectdata.cpp:581
+msgid "Non-printable"
+msgstr "ప్రచురించలేనివి"
+
+#: kdeui/widgets/kcharselectdata.cpp:614
 msgid "Other, Control"
 msgstr "యితర, నియంత్రణ"
 
-#: kdeui/widgets/kcharselectdata.cpp:511
+#: kdeui/widgets/kcharselectdata.cpp:615
 msgid "Other, Format"
 msgstr "ఇతర, ఫార్మాట్"
 
-#: kdeui/widgets/kcharselectdata.cpp:512
+#: kdeui/widgets/kcharselectdata.cpp:616
 msgid "Other, Not Assigned"
 msgstr "ఇతర, అప్పగించబడలేదు"
 
-#: kdeui/widgets/kcharselectdata.cpp:513
+#: kdeui/widgets/kcharselectdata.cpp:617
 msgid "Other, Private Use"
 msgstr "ఇతర, వ్యక్తిగత వుపయోగము"
 
-#: kdeui/widgets/kcharselectdata.cpp:514
+#: kdeui/widgets/kcharselectdata.cpp:618
 msgid "Other, Surrogate"
 msgstr "ఇతర, సరోగేట్"
 
-#: kdeui/widgets/kcharselectdata.cpp:515
+#: kdeui/widgets/kcharselectdata.cpp:619
 msgid "Letter, Lowercase"
 msgstr "అక్షరము, చిన్నబడి"
 
-#: kdeui/widgets/kcharselectdata.cpp:516
+#: kdeui/widgets/kcharselectdata.cpp:620
 msgid "Letter, Modifier"
 msgstr "అక్షరము, సవరణి"
 
-#: kdeui/widgets/kcharselectdata.cpp:517
+#: kdeui/widgets/kcharselectdata.cpp:621
 msgid "Letter, Other"
 msgstr "అక్షరము,ఇతర"
 
-#: kdeui/widgets/kcharselectdata.cpp:518
+#: kdeui/widgets/kcharselectdata.cpp:622
 msgid "Letter, Titlecase"
 msgstr "అక్షరము, శీర్షికబడి"
 
-#: kdeui/widgets/kcharselectdata.cpp:519
+#: kdeui/widgets/kcharselectdata.cpp:623
 msgid "Letter, Uppercase"
 msgstr "అక్షరము, పెద్దబడి"
 
-#: kdeui/widgets/kcharselectdata.cpp:520
+#: kdeui/widgets/kcharselectdata.cpp:624
 msgid "Mark, Spacing Combining"
 msgstr "గర్తు, క్రమాంతరీకరణం కలుపుట"
 
-#: kdeui/widgets/kcharselectdata.cpp:521
+#: kdeui/widgets/kcharselectdata.cpp:625
 msgid "Mark, Enclosing"
 msgstr "గుర్తు, ఎన్‌క్లోజింగ్"
 
-#: kdeui/widgets/kcharselectdata.cpp:522
+#: kdeui/widgets/kcharselectdata.cpp:626
 msgid "Mark, Non-Spacing"
 msgstr "గుర్తు, క్రమాంతరీకరణము-కాని"
 
-#: kdeui/widgets/kcharselectdata.cpp:523
+#: kdeui/widgets/kcharselectdata.cpp:627
 msgid "Number, Decimal Digit"
 msgstr "సంఖ్య, దశాంశ అంకె"
 
-#: kdeui/widgets/kcharselectdata.cpp:524
+#: kdeui/widgets/kcharselectdata.cpp:628
 msgid "Number, Letter"
 msgstr "సంఖ్య, అక్షరము"
 
-#: kdeui/widgets/kcharselectdata.cpp:525
+#: kdeui/widgets/kcharselectdata.cpp:629
 msgid "Number, Other"
 msgstr "సంఖ్య, ఇతర"
 
-#: kdeui/widgets/kcharselectdata.cpp:526
+#: kdeui/widgets/kcharselectdata.cpp:630
 msgid "Punctuation, Connector"
 msgstr "పంక్చుయేషన్, అనుసంధానిం"
 
-#: kdeui/widgets/kcharselectdata.cpp:527
+#: kdeui/widgets/kcharselectdata.cpp:631
 msgid "Punctuation, Dash"
 msgstr "పంక్చుయేషన్, డాష్"
 
-#: kdeui/widgets/kcharselectdata.cpp:528
+#: kdeui/widgets/kcharselectdata.cpp:632
 msgid "Punctuation, Close"
 msgstr "పంక్చుయేషన్, మూయి"
 
-#: kdeui/widgets/kcharselectdata.cpp:529
+#: kdeui/widgets/kcharselectdata.cpp:633
 msgid "Punctuation, Final Quote"
 msgstr "పంక్చుయేషన్, చివరి కోట్"
 
-#: kdeui/widgets/kcharselectdata.cpp:530
+#: kdeui/widgets/kcharselectdata.cpp:634
 msgid "Punctuation, Initial Quote"
 msgstr "పంక్చుయేషన్, ప్రాధమిక కోట్"
 
-#: kdeui/widgets/kcharselectdata.cpp:531
+#: kdeui/widgets/kcharselectdata.cpp:635
 msgid "Punctuation, Other"
 msgstr "పంక్చుయేషన్, ఇతర"
 
-#: kdeui/widgets/kcharselectdata.cpp:532
+#: kdeui/widgets/kcharselectdata.cpp:636
 msgid "Punctuation, Open"
 msgstr "పంక్చుయేషన్, తెరువు"
 
-#: kdeui/widgets/kcharselectdata.cpp:533
+#: kdeui/widgets/kcharselectdata.cpp:637
 msgid "Symbol, Currency"
 msgstr "చిహ్నము, డబ్బు"
 
-#: kdeui/widgets/kcharselectdata.cpp:534
+#: kdeui/widgets/kcharselectdata.cpp:638
 msgid "Symbol, Modifier"
 msgstr "చిహ్నము, సవరణి"
 
-#: kdeui/widgets/kcharselectdata.cpp:535
+#: kdeui/widgets/kcharselectdata.cpp:639
 msgid "Symbol, Math"
 msgstr "చిహ్నము, గణిత"
 
-#: kdeui/widgets/kcharselectdata.cpp:536
+#: kdeui/widgets/kcharselectdata.cpp:640
 msgid "Symbol, Other"
 msgstr "చిహ్నము, ఇతర"
 
-#: kdeui/widgets/kcharselectdata.cpp:537
+#: kdeui/widgets/kcharselectdata.cpp:641
 msgid "Separator, Line"
 msgstr "వేరుచేయునది, గీత"
 
-#: kdeui/widgets/kcharselectdata.cpp:538
+#: kdeui/widgets/kcharselectdata.cpp:642
 msgid "Separator, Paragraph"
 msgstr "వేరుచేయునది, పరిచ్ఛేదము"
 
-#: kdeui/widgets/kcharselectdata.cpp:539
+#: kdeui/widgets/kcharselectdata.cpp:643
 msgid "Separator, Space"
 msgstr "వేరుచేయునది, ఖాళీ"
 
-#: kdeui/widgets/kcharselectdata.cpp:540
+#: kdeui/widgets/kcharselectdata.cpp:644
 msgid "Unknown"
 msgstr "తెలియని"
 
@@ -12399,3 +12408,23 @@ msgstr "(&D) ఈ రోజు సూచన"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "\"%1\" ఇలాంటి ప్రమేయం లేదు"
+
+#, fuzzy
+#~| msgid "Back"
+#~ msgctxt "Goes to previous character"
+#~ msgid "Back"
+#~ msgstr "వెనుకకు"
+
+#, fuzzy
+#~| msgid "Forward"
+#~ msgctxt "Goes to next character"
+#~ msgid "Forward"
+#~ msgstr "ముందుకు"
+
+#~ msgctxt "Character"
+#~ msgid ""
+#~ "<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Unicode code "
+#~ "point: %4<br />(In decimal: %5)</qt>"
+#~ msgstr ""
+#~ "<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />యూనికోడ్ కోడ్ పాయింట్: %"
+#~ "4<br />(దశాంశం లో: %5)</qt>"
