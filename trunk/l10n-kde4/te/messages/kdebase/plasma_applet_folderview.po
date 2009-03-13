@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-10 10:18+0100\n"
+"POT-Creation-Date: 2009-03-13 10:18+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,115 +25,115 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: folderview.cpp:439
+#: folderview.cpp:440
 msgctxt "Sort Icons"
 msgid "Unsorted"
 msgstr ""
 
-#: folderview.cpp:445
+#: folderview.cpp:446
 msgid "Top to Bottom"
 msgstr ""
 
-#: folderview.cpp:446
+#: folderview.cpp:447
 msgid "Left to Right"
 msgstr ""
 
-#: folderview.cpp:484
+#: folderview.cpp:485
 msgctxt ""
 "Title of the page that lets the user choose which location should the "
 "folderview show"
 msgid "Location"
 msgstr "స్థానం"
 
-#: folderview.cpp:485
+#: folderview.cpp:486
 msgctxt ""
 "Title of the page that lets the user choose how the folderview should be "
 "shown"
 msgid "Display"
 msgstr "ప్రదర్శన"
 
-#: folderview.cpp:486
+#: folderview.cpp:487
 msgctxt ""
 "Title of the page that lets the user choose how to filter the folderview "
 "contents"
 msgid "Filter"
 msgstr ""
 
-#: folderview.cpp:853
+#: folderview.cpp:855
 msgid "&Paste"
 msgstr "(&P) అతికించు"
 
-#: folderview.cpp:1023
+#: folderview.cpp:1025
 msgid "Desktop Folder"
 msgstr ""
 
-#: folderview.cpp:1085
+#: folderview.cpp:1087
 msgid "&Reload"
 msgstr ""
 
-#: folderview.cpp:1088
+#: folderview.cpp:1090
 msgid "&Refresh Desktop"
 msgstr ""
 
-#: folderview.cpp:1088
+#: folderview.cpp:1090
 msgid "&Refresh View"
 msgstr ""
 
-#: folderview.cpp:1095
+#: folderview.cpp:1097
 msgid "&Rename"
 msgstr ""
 
-#: folderview.cpp:1099
+#: folderview.cpp:1101
 msgid "&Move to Trash"
 msgstr ""
 
-#: folderview.cpp:1104
+#: folderview.cpp:1106
 msgid "&Delete"
 msgstr ""
 
-#: folderview.cpp:1121
+#: folderview.cpp:1123
 msgid "Align to Grid"
 msgstr ""
 
-#: folderview.cpp:1126
+#: folderview.cpp:1128
 msgctxt "Icons on the desktop"
 msgid "Lock in Place"
 msgstr ""
 
-#: folderview.cpp:1133
+#: folderview.cpp:1135
 msgctxt "Sort icons"
 msgid "By Name"
 msgstr "పేరు ద్వారా"
 
-#: folderview.cpp:1134
+#: folderview.cpp:1136
 msgctxt "Sort icons"
 msgid "By Size"
 msgstr "పరిమాణము ద్వారా"
 
-#: folderview.cpp:1135
+#: folderview.cpp:1137
 msgctxt "Sort icons"
 msgid "By Type"
 msgstr "రకము ద్వారా"
 
-#: folderview.cpp:1136
+#: folderview.cpp:1138
 msgctxt "Sort icons"
 msgid "By Date"
 msgstr "తేదీ ద్వారా"
 
-#: folderview.cpp:1150
+#: folderview.cpp:1152
 msgctxt "Sort icons"
 msgid "Folders First"
 msgstr ""
 
-#: folderview.cpp:1155
+#: folderview.cpp:1157
 msgid "Sort Icons"
 msgstr ""
 
-#: folderview.cpp:1169
+#: folderview.cpp:1171
 msgid "Icons"
 msgstr "ప్రతిమలు"
 
-#: folderview.cpp:1572
+#: folderview.cpp:1580
 #, kde-format
 msgctxt "Inserted as %1 in the message below."
 msgid "1 folder"
@@ -141,7 +141,7 @@ msgid_plural "%1 folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: folderview.cpp:1573
+#: folderview.cpp:1581
 #, kde-format
 msgctxt "Inserted as %2 in the message below."
 msgid "1 file"
@@ -149,13 +149,13 @@ msgid_plural "%1 files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: folderview.cpp:1577
+#: folderview.cpp:1585
 #, kde-format
 msgctxt "%1 and %2 are the messages translated above."
 msgid "%1, %2."
 msgstr ""
 
-#: folderview.cpp:1579
+#: folderview.cpp:1587
 #, kde-format
 msgid "1 file."
 msgid_plural "%1 files."
@@ -357,100 +357,139 @@ msgstr ""
 msgid "Lock icons in place"
 msgstr ""
 
-#. i18n: file: folderviewFilterConfig.ui:29
-#. i18n: ectx: property (text), item, widget (QComboBox, filterType)
+#. i18n: file: folderviewFilterConfig.ui:34
+#. i18n: ectx: property (toolTip), widget (QComboBox, filterType)
 #: rc.cpp:94
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">If you have selected "
+"\"Show Files Matching\" or \"Hide Files Matching\", only the files matching "
+"BOTH the conditions will be shown or hidden respectively.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">For example, if you have "
+"\"*\" as your pattern, but have nothing selected in the MIME types, no files "
+"will be shown.</p></body></html>"
+msgstr ""
+
+#. i18n: file: folderviewFilterConfig.ui:41
+#. i18n: ectx: property (text), item, widget (QComboBox, filterType)
+#: rc.cpp:102
 msgid "Show All Files"
 msgstr ""
 
-#. i18n: file: folderviewFilterConfig.ui:34
+#. i18n: file: folderviewFilterConfig.ui:46
 #. i18n: ectx: property (text), item, widget (QComboBox, filterType)
-#: rc.cpp:97
+#: rc.cpp:105
 msgid "Show Files Matching"
 msgstr ""
 
-#. i18n: file: folderviewFilterConfig.ui:39
+#. i18n: file: folderviewFilterConfig.ui:51
 #. i18n: ectx: property (text), item, widget (QComboBox, filterType)
-#: rc.cpp:100
+#: rc.cpp:108
 msgid "Hide Files Matching"
 msgstr ""
 
-#. i18n: file: folderviewFilterConfig.ui:126
+#. i18n: file: folderviewFilterConfig.ui:138
 #. i18n: ectx: property (text), widget (QPushButton, selectAll)
-#: rc.cpp:103
+#: rc.cpp:111
 msgid "Select All"
 msgstr "అన్నిటిని ఎంపికచేయుము"
 
-#. i18n: file: folderviewFilterConfig.ui:133
+#. i18n: file: folderviewFilterConfig.ui:145
 #. i18n: ectx: property (text), widget (QPushButton, deselectAll)
-#: rc.cpp:106
+#: rc.cpp:114
 msgid "Deselect All"
 msgstr "అన్నిటి యెంపిక తీసివేయుము"
 
+#. i18n: file: folderviewFilterConfig.ui:154
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#: rc.cpp:117
+msgid ""
+"Note that if you have selected \"Show Files Matching\" or \"Hide Files "
+"Matching\",\n"
+"only the files matching BOTH the conditions will be shown or hidden "
+"respectively.\n"
+"For example, if you have \"*\" as your pattern, but have nothing selected in "
+"the MIME types, no files will be shown."
+msgstr ""
+
 #. i18n: file: folderviewFilterConfig.ui:157
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:122
+msgid "<a href=\"null\">Can't See Files?</a>"
+msgstr ""
+
+#. i18n: file: folderviewFilterConfig.ui:184
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, searchMimetype)
-#: rc.cpp:109
+#: rc.cpp:125
 msgid "Search file type"
 msgstr ""
 
-#. i18n: file: folderviewFilterConfig.ui:167
+#. i18n: file: folderviewFilterConfig.ui:194
 #. i18n: ectx: property (text), widget (QLabel, fileTypesLabel)
-#: rc.cpp:112
+#: rc.cpp:128
 msgid "File types:"
 msgstr ""
 
-#. i18n: file: folderviewFilterConfig.ui:174
+#. i18n: file: folderviewFilterConfig.ui:201
 #. i18n: ectx: property (text), widget (QLabel, fileNameLabel)
-#: rc.cpp:115
+#: rc.cpp:131
 msgid "File name pattern:"
 msgstr ""
 
-#. i18n: file: folderviewFilterConfig.ui:187
+#. i18n: file: folderviewFilterConfig.ui:214
 #. i18n: ectx: property (toolTip), widget (KLineEdit, filterFilesPattern)
-#: rc.cpp:118
+#: rc.cpp:134
 msgid "Space-separated list of extensions, e.g. *.txt *.od*"
 msgstr ""
 
-#. i18n: file: folderviewFilterConfig.ui:190
+#. i18n: file: folderviewFilterConfig.ui:217
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, filterFilesPattern)
-#: rc.cpp:121
+#: rc.cpp:137
 msgid ""
 "Space-separated list of extensions, e.g. *.txt *.od* to display only office- "
 "and text-files"
 msgstr ""
 
-#. i18n: file: folderviewFilterConfig.ui:199
+#. i18n: file: folderviewFilterConfig.ui:226
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, filterFilesPattern)
-#: rc.cpp:124
+#: rc.cpp:140
 msgid "Pattern filter"
 msgstr ""
 
 #. i18n: file: folderviewLocationConfig.ui:16
 #. i18n: ectx: property (text), widget (QRadioButton, showDesktopFolder)
-#: rc.cpp:127
+#: rc.cpp:143
 msgid "Show the Desktop folder"
 msgstr ""
 
 #. i18n: file: folderviewLocationConfig.ui:23
 #. i18n: ectx: property (text), widget (QRadioButton, showPlace)
-#: rc.cpp:130
+#: rc.cpp:146
 msgid "Show a Place:"
 msgstr ""
 
 #. i18n: file: folderviewLocationConfig.ui:53
 #. i18n: ectx: property (text), widget (QRadioButton, showCustomFolder)
-#: rc.cpp:133
+#: rc.cpp:149
 msgid "Specify a folder:"
 msgstr ""
 
 #. i18n: file: folderviewLocationConfig.ui:84
 #. i18n: ectx: property (clickMessage), widget (KUrlRequester, lineEdit)
-#: rc.cpp:136
+#: rc.cpp:152
 msgid "Type a path or a URL here"
 msgstr ""
 
 #. i18n: file: folderviewPreviewConfig.ui:16
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:139
+#: rc.cpp:155
 msgid "Check the file types you want icon previews for:"
 msgstr ""
