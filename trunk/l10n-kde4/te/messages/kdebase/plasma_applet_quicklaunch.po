@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_quicklaunch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-08 10:10+0100\n"
+"POT-Creation-Date: 2009-03-21 11:06+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,15 +25,15 @@ msgstr ""
 "\n"
 "\n"
 
-#: quicklaunchApplet.cpp:276
+#: quicklaunchApplet.cpp:288
 msgid "General"
 msgstr "సాధారణ"
 
-#: quicklaunchApplet.cpp:315
+#: quicklaunchApplet.cpp:329
 msgid "Add Icon..."
 msgstr ""
 
-#: quicklaunchApplet.cpp:324
+#: quicklaunchApplet.cpp:338
 msgid "Remove Icon"
 msgstr ""
 
@@ -41,7 +41,7 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, quicklaunchAdd)
 #. i18n: file: quicklaunchAdd.ui:16
 #. i18n: ectx: property (accessibleName), widget (QWidget, quicklaunchAdd)
-#: quicklaunchApplet.cpp:458 rc.cpp:3 rc.cpp:6
+#: quicklaunchApplet.cpp:477 rc.cpp:3 rc.cpp:6
 msgid "Add Shortcut"
 msgstr ""
 
@@ -51,34 +51,42 @@ msgstr ""
 msgid "New icon:"
 msgstr ""
 
-#. i18n: file: quicklaunchConfig.ui:13
+#. i18n: file: quicklaunchConfig.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, quicklaunchConfig)
-#. i18n: file: quicklaunchConfig.ui:16
+#. i18n: file: quicklaunchConfig.ui:17
 #. i18n: ectx: property (accessibleName), widget (QWidget, quicklaunchConfig)
 #: rc.cpp:13 rc.cpp:16
 msgid "Configure QuickLaunch"
 msgstr ""
 
-#. i18n: file: quicklaunchConfig.ui:22
-#. i18n: ectx: property (text), widget (QLabel, lblRowNums)
-#: rc.cpp:19
-msgid "Maximum Rows:"
-msgstr ""
-
-#. i18n: file: quicklaunchConfig.ui:32
-#. i18n: ectx: property (text), widget (QLabel, dialogrowLabel)
-#: rc.cpp:22
-msgid "Rows in the dialog:"
-msgstr ""
-
-#. i18n: file: quicklaunchConfig.ui:52
+#. i18n: file: quicklaunchConfig.ui:23
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:25
+#: rc.cpp:19
 msgid "Visible icons:"
 msgstr ""
 
-#. i18n: file: quicklaunchConfig.ui:68
+#. i18n: file: quicklaunchConfig.ui:66
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:22
+msgid "Icon size:"
+msgstr ""
+
+#. i18n: file: quicklaunchConfig.ui:76
+#. i18n: ectx: property (suffix), widget (QSpinBox, iconSizeSpin)
+#. i18n: file: quicklaunchConfig.ui:119
+#. i18n: ectx: property (suffix), widget (QSpinBox, dialogIconSizeSpin)
+#: rc.cpp:25 rc.cpp:34
+msgid "px"
+msgstr ""
+
+#. i18n: file: quicklaunchConfig.ui:89
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, icons)
 #: rc.cpp:28
 msgid "Unlimited"
+msgstr ""
+
+#. i18n: file: quicklaunchConfig.ui:109
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:31
+msgid "Dialog icon size:"
 msgstr ""

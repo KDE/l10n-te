@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-02 09:58+0100\n"
+"POT-Creation-Date: 2009-03-21 11:05+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -33,7 +33,7 @@ msgstr "దస్త్రాలు/ఫొల్డర్లను వెతు�
 msgid "Ready."
 msgstr ""
 
-#: kfinddlg.cpp:114 kfinddlg.cpp:219
+#: kfinddlg.cpp:114 kfinddlg.cpp:218 kfinddlg.cpp:247
 #, kde-format
 msgid "one file found"
 msgid_plural "%1 files found"
@@ -338,96 +338,82 @@ msgstr ""
 msgid "Do Not Set"
 msgstr ""
 
-#: kfwin.cpp:49
+#: kfwin.cpp:31
 msgid "Read-write"
 msgstr ""
 
-#: kfwin.cpp:50
+#: kfwin.cpp:32
 msgid "Read-only"
 msgstr ""
 
-#: kfwin.cpp:51
+#: kfwin.cpp:33
 msgid "Write-only"
 msgstr ""
 
-#: kfwin.cpp:52
+#: kfwin.cpp:34
 msgid "Inaccessible"
 msgstr ""
 
-#: kfwin.cpp:116
+#: kfwin.cpp:112
 msgid "Name"
 msgstr "పేరు"
 
-#: kfwin.cpp:117
+#: kfwin.cpp:112
 msgid "In Subfolder"
 msgstr ""
 
-#: kfwin.cpp:118
+#: kfwin.cpp:112
 msgid "Size"
 msgstr "పరిమాణము"
 
-#: kfwin.cpp:120
+#: kfwin.cpp:112
 msgid "Modified"
 msgstr ""
 
-#: kfwin.cpp:122
+#: kfwin.cpp:112
 msgid "Permissions"
 msgstr "అనుమతులు"
 
-#: kfwin.cpp:125
+#: kfwin.cpp:112
 msgid "First Matching Line"
 msgstr ""
 
-#: kfwin.cpp:194
+#: kfwin.cpp:216
+msgid "&Open containing folder(s)"
+msgstr ""
+
+#: kfwin.cpp:220
+#, fuzzy
+#| msgid "Delete"
+msgid "&Delete"
+msgstr "తొలగించుము"
+
+#: kfwin.cpp:225
+msgid "&Move to Trash"
+msgstr ""
+
+#: kfwin.cpp:287
 msgid "Save Results As"
 msgstr ""
 
-#: kfwin.cpp:219
-msgid "Unable to save results."
-msgstr ""
-
-#: kfwin.cpp:230 kfwin.cpp:231 kfwin.cpp:232
-msgid "KFind Results File"
-msgstr ""
-
-#: kfwin.cpp:259
-msgid "Results were saved to file\n"
+#: kfwin.cpp:288
+msgid "HTML page"
 msgstr ""
 
 #: kfwin.cpp:288
-#, kde-format
-msgid "Do you really want to delete the selected file?"
-msgid_plural "Do you really want to delete the %1 selected files?"
-msgstr[0] ""
-msgstr[1] ""
-
-#: kfwin.cpp:410
-msgctxt "Menu item"
-msgid "Open"
+msgid "Text file"
 msgstr ""
 
-#: kfwin.cpp:411
-msgid "Open Folder"
+#: kfwin.cpp:308
+msgid "Unable to save results."
 msgstr ""
 
-#: kfwin.cpp:413 kfwin.cpp:423
-msgid "Copy"
-msgstr "నకలుతీయి"
-
-#: kfwin.cpp:414 kfwin.cpp:424
-msgid "Delete"
-msgstr "తొలగించుము"
-
-#: kfwin.cpp:416
-msgid "Open With..."
+#: kfwin.cpp:323
+msgid "KFind Results File"
 msgstr ""
 
-#: kfwin.cpp:418
-msgid "Properties"
-msgstr "గుణాలు"
-
-#: kfwin.cpp:422
-msgid "Selected Files"
+#: kfwin.cpp:346
+msgid "Results were saved to file\n"
 msgstr ""
 
 #: kquery.cpp:486
@@ -539,3 +525,9 @@ msgid "Your emails"
 msgstr ""
 "k.meetme@gmail.com \n"
 " infyquest@gmail.com"
+
+#~ msgid "Copy"
+#~ msgstr "నకలుతీయి"
+
+#~ msgid "Properties"
+#~ msgstr "గుణాలు"
