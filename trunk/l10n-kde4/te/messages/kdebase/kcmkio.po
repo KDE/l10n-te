@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-31 11:06+0100\n"
+"POT-Creation-Date: 2009-03-25 11:22+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -98,11 +98,11 @@ msgid ""
 "Unable to retrieve information about the cookies stored on your computer."
 msgstr "మీ కంప్యూటర్ నందు నిల్వవున్న కుకీల గురించి సమాచారమును వెలికితీయలేక పోయింది."
 
-#: kcookiesmanagement.cpp:340
+#: kcookiesmanagement.cpp:341
 msgid "End of session"
 msgstr "సెషన్ ముగింపు"
 
-#: kcookiesmanagement.cpp:349
+#: kcookiesmanagement.cpp:350
 msgid "Yes"
 msgstr "అవును"
 
@@ -850,10 +850,10 @@ msgstr "సురక్షితమైన:"
 #: rc.cpp:212
 msgid ""
 "<qt>\n"
-"Enable cookie support. Normally you will want to have cookie support enabled "
-"and customize it to suit your privacy needs.<p>\n"
+"<p>Enable cookie support. Normally you will want to have cookie support "
+"enabled and customize it to suit your privacy needs.</p><p>\n"
 "Please note that disabling cookie support might make many web sites "
-"unbrowsable.\n"
+"unbrowsable.</p>\n"
 "</qt>"
 msgstr ""
 
@@ -888,14 +888,14 @@ msgstr "(&p) సెర్వర్ నుండి జనియించిన �
 #: rc.cpp:229
 msgid ""
 "<qt>\n"
-"Automatically accept temporary cookies meant to expire at the end of the "
+"<p>Automatically accept temporary cookies meant to expire at the end of the "
 "current session. Such cookies will not be stored in your computer's hard "
 "drive or storage device. Instead, they are deleted when you close all "
-"applications (e.g. your browser) that use them.<p>\n"
+"applications (e.g. your browser) that use them.</p><p>\n"
 "<u>NOTE:</u> Checking this option along with the next one will override your "
 "default as well as site specific cookie policies. However, doing so also "
 "increases your privacy since all cookies will be removed when the current "
-"session ends.\n"
+"session ends.</p>\n"
 "</qt>"
 msgstr ""
 
@@ -910,15 +910,15 @@ msgstr "(&y) స్వయంచాలకంగా సెషన్ కుకీ�
 #: rc.cpp:238
 msgid ""
 "<qt>\n"
-"Treat all cookies as session cookies. Session cookies are small pieces of "
+"<p>Treat all cookies as session cookies. Session cookies are small pieces of "
 "data that are temporarily stored in your computer's memory until you quit or "
 "close all applications (e.g. your browser) that use them. Unlike regular "
 "cookies, session cookies are never stored on your hard drive or other "
-"storage medium.<p>\n"
+"storage medium.</p><p>\n"
 "<u>NOTE:</u> Checking this option along with the previous one will override "
 "your default as well as site specific cookie policies. However, doing so "
 "also increases your privacy since all cookies will be removed when the "
-"current session ends.\n"
+"current session ends.</p>\n"
 "</qt>"
 msgstr ""
 
@@ -943,7 +943,7 @@ msgid ""
 "</li>\n"
 "</ul><p>\n"
 "<u>NOTE:</u> Domain specific policies, which can be set below, always take "
-"precedence over the default policy.\n"
+"precedence over the default policy.</p>\n"
 "</qt>"
 msgstr ""
 
