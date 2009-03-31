@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-30 08:57+0000\n"
+"POT-Creation-Date: 2009-03-31 09:02+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -10603,6 +10603,20 @@ msgctxt "Comment"
 msgid "System monitoring applet"
 msgstr "సిస్టమ్ మానిటర్"
 
+#: workspace/plasma/applets/systemtray/notificationareawatcher/notificationareawatcher.desktop:3
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KDE Notification Daemon"
+msgctxt "Name"
+msgid "KDED Notification area watcher"
+msgstr "KDE నోటీసు డెమోన్"
+
+#: workspace/plasma/applets/systemtray/notificationareawatcher/notificationareawatcher.desktop:4
+msgctxt "Comment"
+msgid ""
+"Keep track of applications that want to use the D-Bus based notification area"
+msgstr ""
+
 #: workspace/plasma/applets/systemtray/plasma-applet-systemtray.desktop:2
 msgctxt "Name"
 msgid "System Tray"
@@ -10612,19 +10626,6 @@ msgstr "వ్యవస్థ ట్రె"
 msgctxt "Comment"
 msgid "Access hidden applications minimized in the system tray"
 msgstr "సిస్టమ్ ట్రేనందు మినిమైజ్ కాబడి దాగివున్న అనువవర్తనములను యాక్సిస్ చేయుము"
-
-#: workspace/plasma/applets/systemtray/systemtraydaemon/systemtraydaemon.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "KDE Write Daemon"
-msgctxt "Name"
-msgid "KDED Systemtray daemon"
-msgstr "KDE వ్రాయు డెమోన్"
-
-#: workspace/plasma/applets/systemtray/systemtraydaemon/systemtraydaemon.desktop:21
-msgctxt "Comment"
-msgid "Keep track of applications that want to use the D-Bus based system tray"
-msgstr ""
 
 #: workspace/plasma/applets/tasks/plasma-tasks-default.desktop:2
 msgctxt "Name"
@@ -12281,6 +12282,13 @@ msgstr "టేబుల్ పైన వవర్షమువుంది"
 msgctxt "Name"
 msgid "Vector Sunset"
 msgstr "వెక్టార్ సూర్యాస్తమయం"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "KDE Write Daemon"
+#~ msgctxt "Name"
+#~ msgid "KDED Systemtray daemon"
+#~ msgstr "KDE వ్రాయు డెమోన్"
 
 #~ msgctxt "Name"
 #~ msgid "Remote Encoding Plugin"
