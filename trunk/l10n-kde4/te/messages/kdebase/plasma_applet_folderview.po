@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-02 11:25+0200\n"
+"POT-Creation-Date: 2009-04-03 11:07+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,123 +25,139 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: folderview.cpp:448
+#: folderview.cpp:450
 msgctxt "Sort Icons"
 msgid "Unsorted"
 msgstr ""
 
-#: folderview.cpp:455
+#: folderview.cpp:457
 msgid "Top to Bottom, Left to Right"
 msgstr ""
 
-#: folderview.cpp:456
+#: folderview.cpp:458
 msgid "Top to Bottom, Right to Left"
 msgstr ""
 
-#: folderview.cpp:457
+#: folderview.cpp:459
 msgid "Left to Right, Top to Bottom"
 msgstr ""
 
-#: folderview.cpp:458
+#: folderview.cpp:460
 msgid "Right to Left, Top to Bottom"
 msgstr ""
 
-#: folderview.cpp:496
+#: folderview.cpp:498
 msgctxt ""
 "Title of the page that lets the user choose which location should the "
 "folderview show"
 msgid "Location"
 msgstr "స్థానం"
 
-#: folderview.cpp:497
+#: folderview.cpp:499
 msgctxt ""
 "Title of the page that lets the user choose how the folderview should be "
 "shown"
 msgid "Display"
 msgstr "ప్రదర్శన"
 
-#: folderview.cpp:498
+#: folderview.cpp:500
 msgctxt ""
 "Title of the page that lets the user choose how to filter the folderview "
 "contents"
 msgid "Filter"
 msgstr ""
 
-#: folderview.cpp:868
+#: folderview.cpp:887
 msgid "&Paste"
 msgstr "(&P) అతికించు"
 
-#: folderview.cpp:1041
+#: folderview.cpp:1070
 msgid "Desktop Folder"
 msgstr ""
 
-#: folderview.cpp:1103
+#: folderview.cpp:1138
 msgid "&Reload"
 msgstr ""
 
-#: folderview.cpp:1106
+#: folderview.cpp:1141
 msgid "&Refresh Desktop"
 msgstr ""
 
-#: folderview.cpp:1106
+#: folderview.cpp:1141
 msgid "&Refresh View"
 msgstr ""
 
-#: folderview.cpp:1113 popupview.cpp:215
+#: folderview.cpp:1149 popupview.cpp:215
 msgid "&Rename"
 msgstr ""
 
-#: folderview.cpp:1117 popupview.cpp:219
+#: folderview.cpp:1154 popupview.cpp:219
 msgid "&Move to Trash"
 msgstr ""
 
-#: folderview.cpp:1122 popupview.cpp:224
+#: folderview.cpp:1160 popupview.cpp:224
 msgid "&Delete"
 msgstr ""
 
-#: folderview.cpp:1139
+#: folderview.cpp:1177
+msgid "Add Panel"
+msgstr ""
+
+#: folderview.cpp:1182
+msgid "Run Command..."
+msgstr ""
+
+#: folderview.cpp:1186
+msgid "Lock Screen"
+msgstr ""
+
+#: folderview.cpp:1190
+msgid "Leave..."
+msgstr ""
+
+#: folderview.cpp:1200
 msgid "Align to Grid"
 msgstr ""
 
-#: folderview.cpp:1144
+#: folderview.cpp:1205
 msgctxt "Icons on the desktop"
 msgid "Lock in Place"
 msgstr ""
 
-#: folderview.cpp:1151
+#: folderview.cpp:1212
 msgctxt "Sort icons"
 msgid "By Name"
 msgstr "పేరు ద్వారా"
 
-#: folderview.cpp:1152
+#: folderview.cpp:1213
 msgctxt "Sort icons"
 msgid "By Size"
 msgstr "పరిమాణము ద్వారా"
 
-#: folderview.cpp:1153
+#: folderview.cpp:1214
 msgctxt "Sort icons"
 msgid "By Type"
 msgstr "రకము ద్వారా"
 
-#: folderview.cpp:1154
+#: folderview.cpp:1215
 msgctxt "Sort icons"
 msgid "By Date"
 msgstr "తేదీ ద్వారా"
 
-#: folderview.cpp:1168
+#: folderview.cpp:1229
 msgctxt "Sort icons"
 msgid "Folders First"
 msgstr ""
 
-#: folderview.cpp:1173
+#: folderview.cpp:1234
 msgid "Sort Icons"
 msgstr ""
 
-#: folderview.cpp:1187
+#: folderview.cpp:1248
 msgid "Icons"
 msgstr "ప్రతిమలు"
 
-#: folderview.cpp:1595
+#: folderview.cpp:1746
 #, kde-format
 msgctxt "Inserted as %1 in the message below."
 msgid "1 folder"
@@ -149,7 +165,7 @@ msgid_plural "%1 folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: folderview.cpp:1596
+#: folderview.cpp:1747
 #, kde-format
 msgctxt "Inserted as %2 in the message below."
 msgid "1 file"
@@ -157,13 +173,13 @@ msgid_plural "%1 files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: folderview.cpp:1600 tooltipwidget.cpp:193
+#: folderview.cpp:1751 tooltipwidget.cpp:193
 #, kde-format
 msgctxt "%1 and %2 are the messages translated above."
 msgid "%1, %2."
 msgstr ""
 
-#: folderview.cpp:1602
+#: folderview.cpp:1753
 #, kde-format
 msgid "1 file."
 msgid_plural "%1 files."
