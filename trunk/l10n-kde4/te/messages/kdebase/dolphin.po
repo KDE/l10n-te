@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-13 11:04+0200\n"
+"POT-Creation-Date: 2009-04-16 11:16+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -127,12 +127,12 @@ msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "తొలగింపు కార్యము పూర్తైనది."
 
-#: dolphinview.cpp:1184
+#: dolphinview.cpp:1187
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "స్థానము ఖాళీగావుంది"
 
-#: dolphinview.cpp:1186
+#: dolphinview.cpp:1189
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -177,12 +177,12 @@ msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "డాల్ఫన్ వెబ్ పేజీలను మద్దతీయదు, వెబ్ "
 
-#: dolphinviewcontainer.cpp:408
+#: dolphinviewcontainer.cpp:412
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr "ప్రోటోకాల్ డాల్ఫిన్ చేత మద్దతీయబడదు, కాన్క్వెరర్ ప్రారంభించబడింది"
 
-#: dolphinviewcontainer.cpp:415
+#: dolphinviewcontainer.cpp:419
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "సరికాని ప్రోటోకాల్"
@@ -358,7 +358,7 @@ msgctxt "@action:inmenu"
 msgid "Restore"
 msgstr "తిరిగివుంచుము"
 
-#: dolphincontextmenu.cpp:193 dolphinmainwindow.cpp:1103
+#: dolphincontextmenu.cpp:193 dolphinmainwindow.cpp:1111
 msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
 msgstr "కొత్తది సృష్టించుము"
@@ -1314,59 +1314,59 @@ msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "టాబ్‌ను మూయుము"
 
-#: dolphinmainwindow.cpp:1110
+#: dolphinmainwindow.cpp:1118
 msgctxt "@action:inmenu File"
 msgid "New &Window"
 msgstr "(&W) కొత్త విండొ"
 
-#: dolphinmainwindow.cpp:1116
+#: dolphinmainwindow.cpp:1124
 msgctxt "@action:inmenu File"
 msgid "New Tab"
 msgstr "కొత్త టాబ్"
 
-#: dolphinmainwindow.cpp:1122
+#: dolphinmainwindow.cpp:1130
 msgctxt "@action:inmenu File"
 msgid "Close Tab"
 msgstr "టాబ్‌ను మూయుము"
 
-#: dolphinmainwindow.cpp:1144
+#: dolphinmainwindow.cpp:1152
 msgctxt "@action:inmenu Edit"
 msgid "Select All"
 msgstr "అన్నిటిని ఎంపికచేయుము"
 
-#: dolphinmainwindow.cpp:1149
+#: dolphinmainwindow.cpp:1157
 msgctxt "@action:inmenu Edit"
 msgid "Invert Selection"
 msgstr "విలోమ యెంపిక"
 
-#: dolphinmainwindow.cpp:1162
+#: dolphinmainwindow.cpp:1170
 msgctxt "@action:inmenu View"
 msgid "Reload"
 msgstr "తిరిగిలోడ్‌చేయి"
 
-#: dolphinmainwindow.cpp:1168
+#: dolphinmainwindow.cpp:1176
 msgctxt "@action:inmenu View"
 msgid "Stop"
 msgstr "ఆపుము"
 
-#: dolphinmainwindow.cpp:1173
+#: dolphinmainwindow.cpp:1181
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Editable Location"
 msgstr "సరికూర్చదగిన స్థానము"
 
-#: dolphinmainwindow.cpp:1178
+#: dolphinmainwindow.cpp:1186
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Replace Location"
 msgstr "స్థానమును పునఃస్థాపించుము"
 
-#: dolphinmainwindow.cpp:1188
+#: dolphinmainwindow.cpp:1196
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Close Tab"
 msgid "Recently Closed Tabs"
 msgstr "టాబ్‌ను మూయుము"
 
-#: dolphinmainwindow.cpp:1207
+#: dolphinmainwindow.cpp:1215
 #, fuzzy
 #| msgctxt "@action:inmenu Tools"
 #| msgid "Show Filter Bar"
@@ -1374,17 +1374,17 @@ msgctxt "@action:inmenu Tools"
 msgid "Show Search Bar"
 msgstr "ఫిల్టర్ బార్‌ను చూపుము"
 
-#: dolphinmainwindow.cpp:1212
+#: dolphinmainwindow.cpp:1220
 msgctxt "@action:inmenu Tools"
 msgid "Show Filter Bar"
 msgstr "ఫిల్టర్ బార్‌ను చూపుము"
 
-#: dolphinmainwindow.cpp:1217
+#: dolphinmainwindow.cpp:1225
 msgctxt "@action:inmenu Tools"
 msgid "Compare Files"
 msgstr "ఫైళ్ళను పోల్చిచూడుము"
 
-#: dolphinmainwindow.cpp:1223
+#: dolphinmainwindow.cpp:1231
 #, fuzzy
 #| msgctxt "@action:inmenu Tools"
 #| msgid "Open &Terminal"
@@ -1392,62 +1392,62 @@ msgctxt "@action:inmenu Tools"
 msgid "Open Terminal"
 msgstr "(&T) టెర్మినల్‌ను తెరువుము"
 
-#: dolphinmainwindow.cpp:1234
+#: dolphinmainwindow.cpp:1242
 msgctxt "@action:inmenu"
 msgid "Activate Next Tab"
 msgstr "తరువాతి టాబ్‌ను క్రియాశీలంచేయుము"
 
-#: dolphinmainwindow.cpp:1240
+#: dolphinmainwindow.cpp:1248
 msgctxt "@action:inmenu"
 msgid "Activate Previous Tab"
 msgstr "గత టాబ్‌ను క్రియాశీలంచేయుము"
 
-#: dolphinmainwindow.cpp:1247
+#: dolphinmainwindow.cpp:1255
 msgctxt "@action:inmenu"
 msgid "Open in New Tab"
 msgstr "కొత్త టాబ్‌నందు తెరువుము"
 
-#: dolphinmainwindow.cpp:1252
+#: dolphinmainwindow.cpp:1260
 msgctxt "@action:inmenu"
 msgid "Open in New Window"
 msgstr "కొత్త విండోనందు తెరువుము"
 
-#: dolphinmainwindow.cpp:1262
+#: dolphinmainwindow.cpp:1270
 msgctxt "@action:inmenu"
 msgid "Search Bar"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1270 dolphinmainwindow.cpp:1277
+#: dolphinmainwindow.cpp:1278 dolphinmainwindow.cpp:1285
 msgctxt "@title:window"
 msgid "Information"
 msgstr "సమాచారం"
 
-#: dolphinmainwindow.cpp:1291 dolphinmainwindow.cpp:1298
+#: dolphinmainwindow.cpp:1299 dolphinmainwindow.cpp:1306
 msgctxt "@title:window"
 msgid "Folders"
 msgstr "ఫోల్డర్లు"
 
-#: dolphinmainwindow.cpp:1313 dolphinmainwindow.cpp:1322
+#: dolphinmainwindow.cpp:1321 dolphinmainwindow.cpp:1330
 msgctxt "@title:window Shell terminal"
 msgid "Terminal"
 msgstr "టెర్మినల్"
 
-#: dolphinmainwindow.cpp:1340 dolphinmainwindow.cpp:1350
+#: dolphinmainwindow.cpp:1348 dolphinmainwindow.cpp:1358
 msgctxt "@title:window"
 msgid "Places"
 msgstr "స్థలములు"
 
-#: dolphinmainwindow.cpp:1485
+#: dolphinmainwindow.cpp:1493
 msgctxt "@action:intoolbar Close right view"
 msgid "Close"
 msgstr "మూయి"
 
-#: dolphinmainwindow.cpp:1488
+#: dolphinmainwindow.cpp:1496
 msgctxt "@action:intoolbar Close left view"
 msgid "Close"
 msgstr "మూయి"
 
-#: dolphinmainwindow.cpp:1492
+#: dolphinmainwindow.cpp:1500
 msgctxt "@action:intoolbar Split view"
 msgid "Split"
 msgstr "విభజించు"
