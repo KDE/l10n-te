@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kinfocenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-27 10:54+0100\n"
+"POT-Creation-Date: 2009-04-24 11:12+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -51,8 +51,8 @@ msgstr "సమాచారం"
 msgid "Value"
 msgstr "విలువ"
 
-#: base/info_aix.cpp:307 base/info_hpux.cpp:242 base/info_hpux.cpp:356
-#: base/info_linux.cpp:334 base/info_linux.cpp:445
+#: base/info_aix.cpp:307 base/info_hpux.cpp:356 base/info_linux.cpp:334
+#: base/info_linux.cpp:445
 msgid "MB"
 msgstr "ఎంబి"
 
@@ -195,12 +195,20 @@ msgstr ""
 msgid "Numerical Coprocessor (FPU)"
 msgstr ""
 
+#: base/info_hpux.cpp:242
+#, fuzzy
+#| msgid "MB"
+msgid " MB"
+msgstr "ఎంబి"
+
 #: base/info_hpux.cpp:243
 msgid "Total Physical Memory"
 msgstr ""
 
 #: base/info_hpux.cpp:245
-msgid "Bytes"
+#, fuzzy
+#| msgid "Bytes"
+msgid " Bytes"
 msgstr "బైట్లు"
 
 #: base/info_hpux.cpp:246
