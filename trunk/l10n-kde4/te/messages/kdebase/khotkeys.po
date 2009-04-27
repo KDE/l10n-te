@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-14 11:09+0200\n"
+"POT-Creation-Date: 2009-04-27 10:59+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -54,25 +54,25 @@ msgstr ""
 #. i18n: file: kcm_hotkeys/triggers/window_trigger_widget.ui:31
 #. i18n: ectx: property (text), widget (QRadioButton, window_appears)
 #: rc.cpp:11
-msgid "Window Appears"
+msgid "Window appears"
 msgstr ""
 
 #. i18n: file: kcm_hotkeys/triggers/window_trigger_widget.ui:38
 #. i18n: ectx: property (text), widget (QRadioButton, window_disappears)
 #: rc.cpp:14
-msgid "Window Disappears"
+msgid "Window disappears"
 msgstr ""
 
 #. i18n: file: kcm_hotkeys/triggers/window_trigger_widget.ui:45
 #. i18n: ectx: property (text), widget (QRadioButton, window_gets_focus)
 #: rc.cpp:17
-msgid "Window Gets Focus"
+msgid "Window gets focus"
 msgstr ""
 
 #. i18n: file: kcm_hotkeys/triggers/window_trigger_widget.ui:52
 #. i18n: ectx: property (text), widget (QRadioButton, window_lost_focus)
 #: rc.cpp:20
-msgid "Window Loses Focus"
+msgid "Window loses focus"
 msgstr ""
 
 #. i18n: file: kcm_hotkeys/triggers/window_trigger_widget.ui:62
@@ -334,7 +334,7 @@ msgstr ""
 #. i18n: file: kcm_hotkeys/conditions/conditions_widget.ui:40
 #. i18n: ectx: property (text), widget (QPushButton, edit_button)
 #: rc.cpp:146
-msgid "Edit ..."
+msgid "Edit..."
 msgstr ""
 
 #. i18n: file: kcm_hotkeys/conditions/conditions_widget.ui:47
@@ -364,7 +364,7 @@ msgstr ""
 #. i18n: file: kcm_hotkeys/global_settings_widget.ui:63
 #. i18n: ectx: property (text), widget (QLabel, gestures_timeout_label)
 #: rc.cpp:161
-msgid "Timeout"
+msgid "Timeout:"
 msgstr ""
 
 #. i18n: file: kcm_hotkeys/global_settings_widget.ui:76
@@ -376,19 +376,21 @@ msgstr ""
 #. i18n: file: kcm_hotkeys/global_settings_widget.ui:105
 #. i18n: ectx: property (text), widget (QLabel, gestures_button_label)
 #: rc.cpp:167
-msgid "Mouse Button"
+msgid "Mouse button:"
 msgstr ""
 
 #. i18n: file: kcm_hotkeys/actions/dbus_action_widget.ui:18
 #. i18n: ectx: property (text), widget (QLabel, applicationLabel)
 #: rc.cpp:170
-msgid "Remote Application:"
-msgstr ""
+#, fuzzy
+#| msgid "Application"
+msgid "Remote application:"
+msgstr "అనువర్తనము"
 
 #. i18n: file: kcm_hotkeys/actions/dbus_action_widget.ui:31
 #. i18n: ectx: property (text), widget (QLabel, objectLabel)
 #: rc.cpp:173
-msgid "Remote Object:"
+msgid "Remote object:"
 msgstr ""
 
 #. i18n: file: kcm_hotkeys/actions/dbus_action_widget.ui:44
@@ -418,25 +420,27 @@ msgstr ""
 #. i18n: file: kcm_hotkeys/actions/keyboard_input_action_widget.ui:36
 #. i18n: ectx: property (text), widget (QRadioButton, active_radio)
 #: rc.cpp:191
-msgid "Active Window"
+msgid "Active window"
 msgstr ""
 
 #. i18n: file: kcm_hotkeys/actions/keyboard_input_action_widget.ui:43
 #. i18n: ectx: property (text), widget (QRadioButton, specific_radio)
 #: rc.cpp:194
-msgid "Specific Window"
+msgid "Specific window"
 msgstr ""
 
 #. i18n: file: kcm_hotkeys/actions/keyboard_input_action_widget.ui:50
 #. i18n: ectx: property (text), widget (QRadioButton, action_radio)
 #: rc.cpp:197
-msgid "Action Window"
+msgid "Action window"
 msgstr ""
 
 #. i18n: file: kcm_hotkeys/actions/menuentry_action_widget.ui:19
 #. i18n: ectx: property (text), widget (QLabel, applicationLabel)
 #: rc.cpp:200
-msgid "Application"
+#, fuzzy
+#| msgid "Application"
+msgid "Application:"
 msgstr "అనువర్తనము"
 
 #. i18n: file: kcm_hotkeys/actions/menuentry_action_widget.ui:33
