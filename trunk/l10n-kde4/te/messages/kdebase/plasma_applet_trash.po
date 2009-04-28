@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-23 11:08+0200\n"
+"POT-Creation-Date: 2009-04-28 11:16+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: trash.cpp:117 trash.cpp:133 trash.cpp:168 trash.cpp:237
+#: trash.cpp:117 trash.cpp:133 trash.cpp:168 trash.cpp:239
 msgid "Trash"
 msgstr "ట్రాష్"
 
@@ -33,7 +33,7 @@ msgstr "ట్రాష్"
 msgid "&Open"
 msgstr ""
 
-#: trash.cpp:129
+#: trash.cpp:129 trash.cpp:233
 msgid "&Empty Trashcan"
 msgstr ""
 
@@ -41,24 +41,31 @@ msgstr ""
 msgid "&Menu"
 msgstr ""
 
-#: trash.cpp:169 trash.cpp:242 trash.cpp:244
+#: trash.cpp:169 trash.cpp:244 trash.cpp:246
 #, kde-format
 msgid "One item"
 msgid_plural "%1 items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: trash.cpp:204
+#: trash.cpp:202
 msgctxt "@info"
 msgid "Do you really want to empty the trash? All items will be deleted."
 msgstr ""
 
-#: trash.cpp:209
+#: trash.cpp:207
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "ఖాళీ ట్రాష్"
 
-#: trash.cpp:249 trash.cpp:251
+#: trash.cpp:216
+#, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Empty Trash"
+msgid "Emptying Trashcan..."
+msgstr "ఖాళీ ట్రాష్"
+
+#: trash.cpp:251 trash.cpp:253
 msgctxt "The trash is empty. This is not an action, but a state"
 msgid "Empty"
 msgstr ""
