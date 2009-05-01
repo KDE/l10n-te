@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-15 12:00+0200\n"
+"POT-Creation-Date: 2009-05-01 11:12+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,84 +25,118 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: kcmultiwidget.cpp:378
+#: app/main.cpp:37 classic/CategoryList.cpp:37
+msgid "System Settings"
+msgstr "సిస్టమ్ అమర్పులు"
+
+#: app/main.cpp:37
+msgid "Central configuration center for KDE."
+msgstr ""
+
+#: app/main.cpp:38 icons/IconMode.cpp:67 classic/ClassicMode.cpp:67
+msgid "(c) 2009, Ben Cooksley"
+msgstr ""
+
+#: app/main.cpp:39 icons/IconMode.cpp:68 classic/ClassicMode.cpp:68
+msgid "Ben Cooksley"
+msgstr ""
+
+#: app/main.cpp:39
+msgid "Maintainer"
+msgstr ""
+
+#: app/main.cpp:40 icons/IconMode.cpp:69 classic/ClassicMode.cpp:69
+msgid "Mathias Soeken"
+msgstr ""
+
+#: app/main.cpp:40 icons/IconMode.cpp:69 classic/ClassicMode.cpp:69
+msgid "Developer"
+msgstr ""
+
+#: app/main.cpp:41
+msgid "Will Stephenson"
+msgstr ""
+
+#: app/main.cpp:41
+msgid "Internal module representation, internal module model"
+msgstr ""
+
+#: app/SettingsBase.cpp:105 app/SettingsBase.cpp:145
+msgid "Configure"
+msgstr "ఆకృతీకరించుము"
+
+#: app/SettingsBase.cpp:108
+msgid "About"
+msgstr ""
+
+#: app/SettingsBase.cpp:134
+msgctxt "Search through a list of control modules"
+msgid "Search"
+msgstr ""
+
+#: app/SettingsBase.cpp:215
 msgid ""
-"The current page has been modified.\n"
+"System Settings was unable to find any views, and hence nothing is available "
+"to configure."
+msgstr ""
+
+#: app/SettingsBase.cpp:215 app/SettingsBase.cpp:272
+msgid "No views found"
+msgstr ""
+
+#. i18n: file: app/systemsettingsui.rc:12
+#. i18n: ectx: ToolBar (mainToolBar)
+#: app/SettingsBase.cpp:239 rc.cpp:14
+#, fuzzy
+#| msgid "System Settings"
+msgid "About System Settings"
+msgstr "సిస్టమ్ అమర్పులు"
+
+#: app/SettingsBase.cpp:272
+msgid ""
+"System Settings was unable to find any views, and hence has nothing to "
+"display."
+msgstr ""
+
+#: core/ToolTipManager.cpp:140
+#, kde-format
+msgid "<i>Contains 1 submodule</i>"
+msgid_plural "<i>Contains %1 submodules</i>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/ModuleView.cpp:196
+msgid ""
+"The settings of the current module have changed.\n"
 "Do you want to apply the changes or discard them?"
 msgstr ""
 
-#: kcmultiwidget.cpp:380
+#: core/ModuleView.cpp:198
 #, fuzzy
 #| msgid "System Settings"
 msgid "Apply Settings"
 msgstr "సిస్టమ్ అమర్పులు"
 
-#: main.cpp:36 main.cpp:37
-msgid "System Settings"
-msgstr "సిస్టమ్ అమర్పులు"
-
-#: main.cpp:38
-msgid "(c) 2005, Benjamin C. Meyer; (c) 2007, Canonical Ltd"
+#: icons/IconMode.cpp:65
+msgid "Control Center Icons View"
 msgstr ""
 
-#: main.cpp:39
-msgid "Benjamin C. Meyer"
+#: icons/IconMode.cpp:66
+msgid "Provides a categorized icons view of control modules."
 msgstr ""
 
-#: main.cpp:39
+#: icons/IconMode.cpp:68 classic/ClassicMode.cpp:68
 msgid "Author"
 msgstr "మూలకర్త"
 
-#: main.cpp:41
-msgid "Jonathan Riddell"
+#: icons/IconMode.cpp:73
+msgid "Overview"
 msgstr ""
 
-#: main.cpp:41 main.cpp:43 main.cpp:45
-msgid "Contributor"
-msgstr ""
-
-#: main.cpp:43
-msgid "Michael D. Stemle"
-msgstr ""
-
-#: main.cpp:45
-msgid "Simon Edwards"
-msgstr ""
-
-#: main.cpp:47
-msgid "Ellen Reitmayr"
-msgstr ""
-
-#: main.cpp:47
-msgid "Usability"
-msgstr ""
-
-#: mainwindow.cpp:231
+#: icons/IconMode.cpp:74
 #, kde-format
-msgid "Overview (%1)"
+msgid "Keyboard Shortcut: %1"
 msgstr ""
-
-#: mainwindow.cpp:238
-msgid "S&earch:"
-msgstr ""
-
-#: mainwindow.cpp:292
-msgid "Search Bar<p>Enter a search term.</p>"
-msgstr ""
-
-#: mainwindow.cpp:404
-#, kde-format
-msgid "%1 hit in General"
-msgid_plural "%1 hits in General"
-msgstr[0] ""
-msgstr[1] ""
-
-#: mainwindow.cpp:407
-#, kde-format
-msgid "%1 hit in Advanced"
-msgid_plural "%1 hits in Advanced"
-msgstr[0] ""
-msgstr[1] ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -118,8 +152,43 @@ msgstr ""
 "k.meetme@gmail.com \n"
 " infyquest@gmail.com"
 
+#. i18n: file: app/configDialog.ui:23
+#. i18n: ectx: property (text), widget (QLabel, LblPlugins)
+#: rc.cpp:5
+msgid "View style:"
+msgstr ""
+
+#. i18n: file: app/configDialog.ui:33
+#. i18n: ectx: property (text), widget (QLabel, LblTitle)
+#: rc.cpp:8
+msgid "Below you can select your preferred style for viewing System Settings"
+msgstr ""
+
+#. i18n: file: app/configDialog.ui:46
+#. i18n: ectx: property (text), widget (QCheckBox, ChTooltips)
+#: rc.cpp:11
+msgid "Show detailed tooltips"
+msgstr ""
+
+#: classic/ClassicMode.cpp:65
+msgid "Control Center Tree View"
+msgstr ""
+
+#: classic/ClassicMode.cpp:66
+msgid "Provides a classic tree-based view of control modules."
+msgstr ""
+
+#: classic/CategoryList.cpp:38
+#, fuzzy
+#| msgid "Configure"
+msgid "Configure your system"
+msgstr "ఆకృతీకరించుము"
+
+#: classic/CategoryList.cpp:39
+msgid ""
+"Welcome to \"System Settings\", a central place to configure your computer "
+"system."
+msgstr ""
+
 #~ msgid "Unsaved Changes"
 #~ msgstr "దాచని మార్పులు"
-
-#~ msgid "Configure"
-#~ msgstr "ఆకృతీకరించుము"
