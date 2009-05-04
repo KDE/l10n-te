@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_systemtray\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-03 11:05+0200\n"
+"POT-Creation-Date: 2009-05-04 12:01+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,6 +25,28 @@ msgstr ""
 "\n"
 "\n"
 
+#: notificationitemwatcher/notificationitemwatcher.cpp:36
+msgid "notificationitemwatcher"
+msgstr ""
+
+#: core/job.cpp:170
+#, kde-format
+msgid "%1 file, to: %2"
+msgid_plural "%1 files, to: %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/manager.cpp:198
+#, kde-format
+msgid "1 running job (%2 remaining)"
+msgid_plural "%1 running jobs (%2 remaining)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/manager.cpp:203
+msgid "no running jobs"
+msgstr ""
+
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -35,75 +57,69 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#. i18n: file: ui/autohide.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, AutoHideConfig)
-#: rc.cpp:5
-msgid "Form"
-msgstr ""
-
-#. i18n: file: ui/autohide.ui:26
+#. i18n: file: ui/autohide.ui:23
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:8
+#: rc.cpp:5
 msgid "Jobs and notifications:"
 msgstr ""
 
-#. i18n: file: ui/autohide.ui:33
+#. i18n: file: ui/autohide.ui:30
 #. i18n: ectx: property (text), widget (QCheckBox, autoHide)
-#: rc.cpp:11
+#: rc.cpp:8
 msgid "Automatically hide new notifications and jobs after a short delay"
 msgstr ""
 
-#. i18n: file: ui/autohide.ui:46
+#. i18n: file: ui/autohide.ui:43
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:14
-msgid "Systemtray icons:"
+#: rc.cpp:11
+msgid "System tray icons:"
 msgstr ""
 
 #. i18n: file: ui/protocols.ui:26
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:17
+#: rc.cpp:14
 msgid "Pop Up Notices"
 msgstr ""
 
 #. i18n: file: ui/protocols.ui:33
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:20
+#: rc.cpp:17
 msgid "Application notifications"
 msgstr ""
 
 #. i18n: file: ui/protocols.ui:50
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:23
+#: rc.cpp:20
 msgid "File transfers and other jobs"
 msgstr ""
 
 #. i18n: file: ui/protocols.ui:73
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:26
+#: rc.cpp:23
 msgid "Icons"
 msgstr ""
 
 #. i18n: file: ui/protocols.ui:80
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:29
+#: rc.cpp:26
 msgid "Application status"
 msgstr ""
 
 #. i18n: file: ui/protocols.ui:97
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:32
+#: rc.cpp:29
 msgid "Communications"
 msgstr ""
 
 #. i18n: file: ui/protocols.ui:114
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: rc.cpp:35
+#: rc.cpp:32
 msgid "System services"
 msgstr ""
 
 #. i18n: file: ui/protocols.ui:131
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: rc.cpp:38
+#: rc.cpp:35
 msgid "Hardware control"
 msgstr ""
 
@@ -124,7 +140,7 @@ msgid "Information"
 msgstr ""
 
 #: ui/applet.cpp:413
-msgid "Select which kinds of information to show"
+msgid "Choose which information to show"
 msgstr ""
 
 #: ui/applet.cpp:414
@@ -135,16 +151,12 @@ msgstr ""
 msgid "clear all"
 msgstr ""
 
-#: ui/applet.cpp:572 ui/applet.cpp:576
-msgid "Destination"
-msgstr ""
-
-#: ui/applet.cpp:634
+#: ui/applet.cpp:609
 #, kde-format
-msgid "Destination: %1"
+msgid "%1 [finished]"
 msgstr ""
 
-#: ui/applet.cpp:662
+#: ui/applet.cpp:640
 msgid "Completed jobs"
 msgstr ""
 
