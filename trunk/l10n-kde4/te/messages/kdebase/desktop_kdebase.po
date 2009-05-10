@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-09 10:05+0000\n"
+"POT-Creation-Date: 2009-05-10 09:21+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -3804,7 +3804,7 @@ msgctxt "Name"
 msgid "Network Watcher"
 msgstr "నెట్వర్క్ ను పరిశీలించె కార్యక్రమం"
 
-#: runtime/kioslave/network/kded/networkwatcher.desktop:16
+#: runtime/kioslave/network/kded/networkwatcher.desktop:17
 msgctxt "Comment"
 msgid ""
 "Keeps track of the network and updates directory listings of the network:/ "
@@ -8257,9 +8257,9 @@ msgstr "పి హెచ్ పి అన్వెషణ"
 #: workspace/khotkeys/data/kde32b1.khotkeys:399
 #: workspace/khotkeys/data/kde32b1.khotkeys:566
 #: workspace/khotkeys/data/kde32b1.khotkeys:784
-#: workspace/khotkeys/data/kde32b1.khotkeys:1125
-#: workspace/khotkeys/data/kde32b1.khotkeys:1454
-#: workspace/khotkeys/data/kde32b1.khotkeys:2469
+#: workspace/khotkeys/data/kde32b1.khotkeys:968
+#: workspace/khotkeys/data/kde32b1.khotkeys:1297
+#: workspace/khotkeys/data/kde32b1.khotkeys:2312
 #: workspace/khotkeys/data/printscreen.khotkeys:273
 msgctxt "Comment"
 msgid "Simple_action"
@@ -8354,62 +8354,6 @@ msgid "Run Konsole"
 msgstr "రన్ కన్సోల్"
 
 #: workspace/khotkeys/data/kde32b1.khotkeys:849
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid ""
-#| "Read the comment on action \"Type 'Hello'\" first.\\n\\nQt Designer uses "
-#| "Ctrl+F4 for closing windows (maybe because MS Windows does it that way "
-#| "*shrug*). But Ctrl+F4 in KDE stands for going to virtual desktop 4, so it "
-#| "doesn't work in Qt Designer, and also, Qt Designer doesn't use KDE's "
-#| "standard Ctrl+W for closing the window.\\n\\nBut the problem can be "
-#| "solved by remaping Ctrl+W to Ctrl+F4 when the active window is Qt "
-#| "Designer. When Qt Designer is active, every time Ctrl+W is pressed, Ctrl"
-#| "+F4 will be sent to Qt Designer instead. In other applications, Ctrl+W "
-#| "remains working the usual way of course.\\n\\nWe now need to specify "
-#| "three things: A new shortcut trigger on 'Ctrl+W', a new keyboard input "
-#| "action sending Ctrl+F4, and a new condition that the active window is Qt "
-#| "Designer.\\nQt Designer seems to always have title 'Qt Designer by "
-#| "Trolltech', so the condition will check for the active window having that "
-#| "title."
-msgctxt "Comment"
-msgid ""
-"Read the comment on the \"Type 'Hello'\" action first.\\n\\nQt Designer uses "
-"Ctrl+F4 for closing windows.  In KDE, however, Ctrl+F4 is the shortcut for "
-"going to virtual desktop 4, so this shortcut does not work in QT Designer.  "
-"Further, Qt Designer does not use KDE's standard Ctrl+W for closing the "
-"window.\\n\\nThis problem can be solved by remapping Ctrl+W to Ctrl+F4 when "
-"the active window is Qt Designer. When Qt Designer is active, every time Ctrl"
-"+W is pressed, Ctrl+F4 will be sent to Qt Designer instead. In other "
-"applications, the effect of Ctrl+W is unchanged.\\n\\nWe now need to specify "
-"three things: A new shortcut trigger on 'Ctrl+W', a new keyboard input "
-"action sending Ctrl+F4, and a new condition that the active window is Qt "
-"Designer.\\nQt Designer seems to always have title 'Qt Designer by "
-"Trolltech', so the condition will check for the active window having that "
-"title."
-msgstr ""
-"చర్య \" 'Hello' టైపుచేయి\" పైన ముందు వ్యాఖ్యను చదువుము.\\n\\nQt రూపకర్త Ctrl+F4 ను "
-"విండోలను మూయుటకు ఉపయోగిస్తుంది (*shrug* లా MS విండోస్ చేస్తున్నకారణంగా). కాని KDE నందు Ctrl"
-"+F4 అనునది వర్చ్యువల్ డెస్‍క్ టాప్ 4 వెళ్ళటానికి వుంది, అందువలన అది Qt రూపకరణిలో పనిచేయదు, మరియు, "
-"Qt రూపకరణి KDE యొక్క ప్రామాణిక Ctrl+W ను విండోను మూయుటకు ఉపయోగించదు.\\n\\n కాని సమస్య Ctrl"
-"+W ను Ctrl+F4 కు క్రియాశీల విండో Qt రూపకరణి అయినప్పుడు మాప్‌చేయుట ద్వారా పరిష్కరించవచ్చు. Qt "
-"రూపకరణి క్రియాశీలంగా ఉన్నప్పుడు, Ctrl+W వత్తిన ప్రతిసారి, Ctrl+F4 Qt రూపకరణికి పంపబడుతుంది. "
-"ఇతర అనువర్తనములనందు, Ctrl+W మామూలు విధంగానే పనిచేస్తుంది.\\n\\n మనము ఇప్పుడు మూడు "
-"విషయాలను తెలుపవలిసిన అవసరంవుంది: 'Ctrl+W' పైన కొత్త షార్‍ట్‌కట్ ట్రిగ్గర్, Ctrl+F4 ను పంపే కొత్త "
-"కీబోర్‍డ్ ఇన్‌పుట్ చర్య, మరియు క్రియాశీల విండో Qt రూపకరణి అయినప్పుడు కొత్త నియమం.\\nQt రూపకరణి "
-"ఎల్లప్పుడు 'Qt Designer by Trolltech' శీర్షికను కలిగేవుంటుంది, అందుకని నియమం ఆశీర్షికకలిగిన "
-"క్రియాశీల విండో కొరకు పరిశీలిస్తుంది."
-
-#: workspace/khotkeys/data/kde32b1.khotkeys:865
-msgctxt "Name"
-msgid "Remap Ctrl+W to Ctrl+F4 in Qt Designer"
-msgstr "Qt రూపకరణినందు Ctrl+W ను Ctrl+F4 కు తిరిగి మాప్‌చేయుము"
-
-#: workspace/khotkeys/data/kde32b1.khotkeys:945
-msgctxt "Comment"
-msgid "Qt Designer"
-msgstr "Qt డిజైనర్"
-
-#: workspace/khotkeys/data/kde32b1.khotkeys:1006
 msgctxt "Comment"
 msgid ""
 "By pressing Alt+Ctrl+W a D-Bus call will be performed that will show the "
@@ -8419,12 +8363,12 @@ msgstr ""
 "Alt+Ctrl+W ను వత్తుటద్వారా D-Bus కాల్ జరుపబడుతుంది అది minicli ను చూపుతుంది. మీరు "
 "ఏరకమైన D-Bus కాల్‌నైనా ఉపయోగించవచ్చు, కమాండ్‌లైన్ సాధనం 'qdbus' ను ఉపయోగించినట్లుగా."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1054
+#: workspace/khotkeys/data/kde32b1.khotkeys:897
 msgctxt "Name"
 msgid "Perform D-Bus call 'kdesktop KDesktopIface popupExecuteCommand()'"
 msgstr "D-Bus కాల్ 'kdesktop KDesktopIface popupExecuteCommand()' ను జరుపుము"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1190
+#: workspace/khotkeys/data/kde32b1.khotkeys:1033
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -8456,22 +8400,22 @@ msgstr ""
 "('xprop' నడుపుము మరియు XMMS విండో పైన నొక్కుము మరియు 'XMMS_Player' ను చూడుటకు "
 "WM_CLASS కొరకు శోధించుము)."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1207
+#: workspace/khotkeys/data/kde32b1.khotkeys:1050
 msgctxt "Name"
 msgid "Next in XMMS"
 msgstr "XMMS నందు తరువాత"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1290
+#: workspace/khotkeys/data/kde32b1.khotkeys:1133
 msgctxt "Comment"
 msgid "XMMS window"
 msgstr "XMMS విండో"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1372
+#: workspace/khotkeys/data/kde32b1.khotkeys:1215
 msgctxt "Comment"
 msgid "XMMS Player window"
 msgstr "XMMS ప్లేయర్ విండో"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1519
+#: workspace/khotkeys/data/kde32b1.khotkeys:1362
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -8542,35 +8486,35 @@ msgstr ""
 "gestures are defined in this group. All these gestures are active only if "
 "the active window is Konqueror (class contains 'konqueror')."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1537
+#: workspace/khotkeys/data/kde32b1.khotkeys:1380
 msgctxt "Name"
 msgid "Konqi Gestures"
 msgstr "Konqi గెస్‍ట్‌రెస్"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1605
+#: workspace/khotkeys/data/kde32b1.khotkeys:1448
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:150
 msgctxt "Comment"
 msgid "Konqueror window"
 msgstr "Konqueror విండో"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1688
-#: workspace/khotkeys/data/kde32b1.khotkeys:1710
+#: workspace/khotkeys/data/kde32b1.khotkeys:1531
+#: workspace/khotkeys/data/kde32b1.khotkeys:1553
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:233
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:255
 msgctxt "Comment"
 msgid "Konqueror"
 msgstr "Konqueror"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1737
+#: workspace/khotkeys/data/kde32b1.khotkeys:1580
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:348
 msgctxt "Name"
 msgid "Back"
 msgstr "వెనుకకు"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1831
-#: workspace/khotkeys/data/kde32b1.khotkeys:1989
-#: workspace/khotkeys/data/kde32b1.khotkeys:2145
-#: workspace/khotkeys/data/kde32b1.khotkeys:2303
+#: workspace/khotkeys/data/kde32b1.khotkeys:1674
+#: workspace/khotkeys/data/kde32b1.khotkeys:1832
+#: workspace/khotkeys/data/kde32b1.khotkeys:1988
+#: workspace/khotkeys/data/kde32b1.khotkeys:2146
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:579
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:781
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:964
@@ -8589,25 +8533,25 @@ msgctxt "Comment"
 msgid "Gesture_triggers"
 msgstr "Gesture_triggers"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1895
+#: workspace/khotkeys/data/kde32b1.khotkeys:1738
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:1973
 msgctxt "Name"
 msgid "Forward"
 msgstr "ముందుకు"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2053
+#: workspace/khotkeys/data/kde32b1.khotkeys:1896
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:689
 msgctxt "Name"
 msgid "Up"
 msgstr "పైకి"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2209
+#: workspace/khotkeys/data/kde32b1.khotkeys:2052
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:3019
 msgctxt "Name"
 msgid "Reload"
 msgstr "తిరిగిలోడ్‌చేయి"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2365
+#: workspace/khotkeys/data/kde32b1.khotkeys:2208
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -8623,7 +8567,7 @@ msgstr ""
 "Win+E (Tux+E) వత్తిన తర్వాత, WWW అన్వేషణి పారంభింపబడుతుంది మరియు http://www.kde.org ను "
 "తెరుస్తుంది. మీరు అన్ని విధములైన ఆదేశాలను నడుపవచ్చు మీరు minicli (Alt+F2) నందు నడుపవచ్చు."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2384
+#: workspace/khotkeys/data/kde32b1.khotkeys:2227
 msgctxt "Name"
 msgid "Go to KDE Website"
 msgstr "KDE వెబ్‌సైట్‌కు వెళ్ళుము"
@@ -10415,7 +10359,7 @@ msgctxt "Name"
 msgid "Panel Spacer"
 msgstr ""
 
-#: workspace/plasma/applets/panelspacer/plasma-applet-panelspacer-internal.desktop:10
+#: workspace/plasma/applets/panelspacer/plasma-applet-panelspacer-internal.desktop:11
 msgctxt "Comment"
 msgid "Reserve empty spaces within the panel."
 msgstr ""
@@ -10773,7 +10717,7 @@ msgctxt "Name"
 msgid "Keyboard and Mouse State"
 msgstr "కీబోర్‍డ్ & మౌస్"
 
-#: workspace/plasma/dataengines/keystate/plasma-dataengine-keystate.desktop:11
+#: workspace/plasma/dataengines/keystate/plasma-dataengine-keystate.desktop:12
 msgctxt "Comment"
 msgid "Keyboard modifier and mouse buttons states"
 msgstr ""
@@ -12361,6 +12305,59 @@ msgstr "టేబుల్ పైన వవర్షమువుంది"
 msgctxt "Name"
 msgid "Vector Sunset"
 msgstr "వెక్టార్ సూర్యాస్తమయం"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid ""
+#~| "Read the comment on action \"Type 'Hello'\" first.\\n\\nQt Designer uses "
+#~| "Ctrl+F4 for closing windows (maybe because MS Windows does it that way "
+#~| "*shrug*). But Ctrl+F4 in KDE stands for going to virtual desktop 4, so "
+#~| "it doesn't work in Qt Designer, and also, Qt Designer doesn't use KDE's "
+#~| "standard Ctrl+W for closing the window.\\n\\nBut the problem can be "
+#~| "solved by remaping Ctrl+W to Ctrl+F4 when the active window is Qt "
+#~| "Designer. When Qt Designer is active, every time Ctrl+W is pressed, Ctrl"
+#~| "+F4 will be sent to Qt Designer instead. In other applications, Ctrl+W "
+#~| "remains working the usual way of course.\\n\\nWe now need to specify "
+#~| "three things: A new shortcut trigger on 'Ctrl+W', a new keyboard input "
+#~| "action sending Ctrl+F4, and a new condition that the active window is Qt "
+#~| "Designer.\\nQt Designer seems to always have title 'Qt Designer by "
+#~| "Trolltech', so the condition will check for the active window having "
+#~| "that title."
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Read the comment on the \"Type 'Hello'\" action first.\\n\\nQt Designer "
+#~ "uses Ctrl+F4 for closing windows.  In KDE, however, Ctrl+F4 is the "
+#~ "shortcut for going to virtual desktop 4, so this shortcut does not work "
+#~ "in QT Designer.  Further, Qt Designer does not use KDE's standard Ctrl+W "
+#~ "for closing the window.\\n\\nThis problem can be solved by remapping Ctrl"
+#~ "+W to Ctrl+F4 when the active window is Qt Designer. When Qt Designer is "
+#~ "active, every time Ctrl+W is pressed, Ctrl+F4 will be sent to Qt Designer "
+#~ "instead. In other applications, the effect of Ctrl+W is unchanged.\\n"
+#~ "\\nWe now need to specify three things: A new shortcut trigger on 'Ctrl"
+#~ "+W', a new keyboard input action sending Ctrl+F4, and a new condition "
+#~ "that the active window is Qt Designer.\\nQt Designer seems to always have "
+#~ "title 'Qt Designer by Trolltech', so the condition will check for the "
+#~ "active window having that title."
+#~ msgstr ""
+#~ "చర్య \" 'Hello' టైపుచేయి\" పైన ముందు వ్యాఖ్యను చదువుము.\\n\\nQt రూపకర్త Ctrl+F4 ను "
+#~ "విండోలను మూయుటకు ఉపయోగిస్తుంది (*shrug* లా MS విండోస్ చేస్తున్నకారణంగా). కాని KDE నందు Ctrl"
+#~ "+F4 అనునది వర్చ్యువల్ డెస్‍క్ టాప్ 4 వెళ్ళటానికి వుంది, అందువలన అది Qt రూపకరణిలో పనిచేయదు, "
+#~ "మరియు, Qt రూపకరణి KDE యొక్క ప్రామాణిక Ctrl+W ను విండోను మూయుటకు ఉపయోగించదు.\\n\\n కాని "
+#~ "సమస్య Ctrl+W ను Ctrl+F4 కు క్రియాశీల విండో Qt రూపకరణి అయినప్పుడు మాప్‌చేయుట ద్వారా "
+#~ "పరిష్కరించవచ్చు. Qt రూపకరణి క్రియాశీలంగా ఉన్నప్పుడు, Ctrl+W వత్తిన ప్రతిసారి, Ctrl+F4 Qt "
+#~ "రూపకరణికి పంపబడుతుంది. ఇతర అనువర్తనములనందు, Ctrl+W మామూలు విధంగానే పనిచేస్తుంది.\\n"
+#~ "\\n మనము ఇప్పుడు మూడు విషయాలను తెలుపవలిసిన అవసరంవుంది: 'Ctrl+W' పైన కొత్త షార్‍ట్‌కట్ "
+#~ "ట్రిగ్గర్, Ctrl+F4 ను పంపే కొత్త కీబోర్‍డ్ ఇన్‌పుట్ చర్య, మరియు క్రియాశీల విండో Qt రూపకరణి "
+#~ "అయినప్పుడు కొత్త నియమం.\\nQt రూపకరణి ఎల్లప్పుడు 'Qt Designer by Trolltech' శీర్షికను "
+#~ "కలిగేవుంటుంది, అందుకని నియమం ఆశీర్షికకలిగిన క్రియాశీల విండో కొరకు పరిశీలిస్తుంది."
+
+#~ msgctxt "Name"
+#~ msgid "Remap Ctrl+W to Ctrl+F4 in Qt Designer"
+#~ msgstr "Qt రూపకరణినందు Ctrl+W ను Ctrl+F4 కు తిరిగి మాప్‌చేయుము"
+
+#~ msgctxt "Comment"
+#~ msgid "Qt Designer"
+#~ msgstr "Qt డిజైనర్"
 
 #~ msgctxt "Name"
 #~ msgid "UADescription (Mozilla 1.7 on current)"
