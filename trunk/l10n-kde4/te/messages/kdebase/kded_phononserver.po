@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kded_phononserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-12 10:23+0100\n"
+"POT-Creation-Date: 2009-05-11 12:49+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -24,29 +24,6 @@ msgstr ""
 "\n"
 "\n"
 "\n"
-
-#: audiodevice.cpp:60
-msgid ""
-"<html>This device is currently not available (either it is unplugged or the "
-"driver is not loaded).</html>"
-msgstr ""
-"<html>పరికరము ప్రస్తుతం అందుబాటులో లేదు (బహుశా అది అన్‌ప్లగ్ చేయబడివుంటుంది లేదా డ్రైవర్ లోడై "
-"వుండదు).</html>"
-
-#: audiodevice.cpp:67
-#, kde-format
-msgctxt ""
-"The first argument is name of the driver/sound subsystem. The second "
-"argument is the device identifier"
-msgid "<li>%1: %2</li>"
-msgstr "<li>%1: %2</li>"
-
-#: audiodevice.cpp:71
-#, kde-format
-msgid ""
-"<html>This will try the following devices and use the first that works: <ol>%"
-"1</ol></html>"
-msgstr ""
 
 #: audiodeviceaccess.cpp:42
 msgid "Invalid Driver"
@@ -75,6 +52,29 @@ msgstr "ESD"
 #: audiodeviceaccess.cpp:54
 msgid "aRts"
 msgstr "aRts"
+
+#: audiodevice.cpp:60
+msgid ""
+"<html>This device is currently not available (either it is unplugged or the "
+"driver is not loaded).</html>"
+msgstr ""
+"<html>పరికరము ప్రస్తుతం అందుబాటులో లేదు (బహుశా అది అన్‌ప్లగ్ చేయబడివుంటుంది లేదా డ్రైవర్ లోడై "
+"వుండదు).</html>"
+
+#: audiodevice.cpp:67
+#, kde-format
+msgctxt ""
+"The first argument is name of the driver/sound subsystem. The second "
+"argument is the device identifier"
+msgid "<li>%1: %2</li>"
+msgstr "<li>%1: %2</li>"
+
+#: audiodevice.cpp:71
+#, kde-format
+msgid ""
+"<html>This will try the following devices and use the first that works: <ol>%"
+"1</ol></html>"
+msgstr ""
 
 #: phononserver.cpp:213
 #, kde-format
