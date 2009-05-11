@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-30 05:03+0000\n"
+"POT-Creation-Date: 2009-05-11 05:13+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -70,16 +70,6 @@ msgctxt "Comment"
 msgid "Configure file manager settings"
 msgstr "దస్త్ర నిర్వాహకి అమర్పులను ఆకృతీకరించుము"
 
-#: apps/kappfinder/apps/Development/Forte.desktop:2
-msgctxt "GenericName"
-msgid "Java IDE"
-msgstr "జావా ఐడిఈ"
-
-#: apps/kappfinder/apps/Development/Forte.desktop:58
-msgctxt "Name"
-msgid "Forte"
-msgstr "ఫోర్టె"
-
 #: apps/kappfinder/apps/Development/assistant.desktop:3
 msgctxt "Name"
 msgid "Qt Assistant"
@@ -134,6 +124,16 @@ msgstr "ఎక్లిప్స్ ఐడిఈ"
 msgctxt "Name"
 msgid "FormDesigner"
 msgstr "ఫారం డిజైనర్"
+
+#: apps/kappfinder/apps/Development/Forte.desktop:2
+msgctxt "GenericName"
+msgid "Java IDE"
+msgstr "జావా ఐడిఈ"
+
+#: apps/kappfinder/apps/Development/Forte.desktop:58
+msgctxt "Name"
+msgid "Forte"
+msgstr "ఫోర్టె"
 
 #: apps/kappfinder/apps/Development/j2mewtk.desktop:2
 msgctxt "GenericName"
@@ -233,27 +233,73 @@ msgctxt "Name"
 msgid "X Emacs"
 msgstr "ఎక్స్ ఈ మెక్స్"
 
-#: apps/kappfinder/apps/Games/Arcade/ClanBomber.desktop:2
+#: apps/kappfinder/apps/Games/Arcade/alephone.desktop:2
 msgctxt "Name"
-msgid "ClanBomber"
-msgstr "క్లాన్ బాంబర్"
+msgid "Alephone - No OpenGL"
+msgstr "ఎలెఫొన్ - ఒపెన్ జిఎల్ లేకుండా"
 
+#: apps/kappfinder/apps/Games/Arcade/alephone.desktop:76
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid ""
+#| "An open source version of Marathon Infinity for SDL that has Open GL "
+#| "disabled"
+msgctxt "Comment"
+msgid ""
+"An open source version of Marathon Infinity for SDL that has OpenGL disabled"
+msgstr "GL తెరువుట అచేతనంగా కలిగిన SDL కొరకు మారథాన్ ఇన్‌ఫినిటి యొక్క ఓపెన్‌ సోర్స్‍ వర్షన్"
+
+#: apps/kappfinder/apps/Games/Arcade/alephone-nogl.desktop:2
+msgctxt "Name"
+msgid "Alephone"
+msgstr "ఎలెఫోన్"
+
+#: apps/kappfinder/apps/Games/Arcade/alephone-nogl.desktop:21
+msgctxt "Comment"
+msgid "An open source version of Marathon Infinity for SDL"
+msgstr "SDL కొరకు మారథాన్ ఇన్‌ఫినిటి యొక్క ఒక ఓపెన్ సోర్స్‍ వర్షన్"
+
+#: apps/kappfinder/apps/Games/Arcade/battalion.desktop:2
+msgctxt "Name"
+msgid "Batallion"
+msgstr "పటాళము"
+
+#: apps/kappfinder/apps/Games/Arcade/battalion.desktop:36
 #: apps/kappfinder/apps/Games/Arcade/ClanBomber.desktop:28
+#: apps/kappfinder/apps/Games/Arcade/cxhextris.desktop:19
 #: apps/kappfinder/apps/Games/Arcade/GnobotsII.desktop:22
 #: apps/kappfinder/apps/Games/Arcade/Mures.desktop:24
+#: apps/kappfinder/apps/Games/Arcade/scavenger.desktop:30
 #: apps/kappfinder/apps/Games/Arcade/SuperMethaneBrothers.desktop:42
 #: apps/kappfinder/apps/Games/Arcade/Trophy.desktop:32
 #: apps/kappfinder/apps/Games/Arcade/XKobo.desktop:22
 #: apps/kappfinder/apps/Games/Arcade/XSoldier.desktop:28
-#: apps/kappfinder/apps/Games/Arcade/battalion.desktop:36
-#: apps/kappfinder/apps/Games/Arcade/cxhextris.desktop:19
-#: apps/kappfinder/apps/Games/Arcade/scavenger.desktop:30
 #: apps/kappfinder/apps/Games/Board/Gataxx.desktop:18
 #: apps/kappfinder/apps/Games/Board/Gnotravex.desktop:18
 #: apps/kappfinder/apps/Games/penguin-command.desktop:40
 msgctxt "GenericName"
 msgid "Arcade Game"
 msgstr "ఆర్కేడ్ ఆట"
+
+#: apps/kappfinder/apps/Games/Arcade/battleball.desktop:2
+msgctxt "Name"
+msgid "Battleball"
+msgstr "బేటిల్ బంతి"
+
+#: apps/kappfinder/apps/Games/Arcade/battleball.desktop:28
+msgctxt "GenericName"
+msgid "Ball Game"
+msgstr "బంతి ఆట"
+
+#: apps/kappfinder/apps/Games/Arcade/ClanBomber.desktop:2
+msgctxt "Name"
+msgid "ClanBomber"
+msgstr "క్లాన్ బాంబర్"
+
+#: apps/kappfinder/apps/Games/Arcade/cxhextris.desktop:2
+msgctxt "Name"
+msgid "cxhextris"
+msgstr "సిఎక్స్ హెక్స్ ట్రిస్"
 
 #: apps/kappfinder/apps/Games/Arcade/FrozenBubble.desktop:2
 msgctxt "GenericName"
@@ -285,6 +331,22 @@ msgctxt "Name"
 msgid "Mures"
 msgstr "మురెస్"
 
+#: apps/kappfinder/apps/Games/Arcade/rocksndiamonds.desktop:2
+msgctxt "Name"
+msgid "Rocks n Diamonds"
+msgstr "రాళ్ళు మరయూ వజ్రాలు"
+
+#: apps/kappfinder/apps/Games/Arcade/rocksndiamonds.desktop:44
+#: apps/kappfinder/apps/Games/Board/Glines.desktop:30
+msgctxt "GenericName"
+msgid "Tactical Game"
+msgstr "యుక్తి వాడె ఆట."
+
+#: apps/kappfinder/apps/Games/Arcade/scavenger.desktop:2
+msgctxt "Name"
+msgid "Scavenger"
+msgstr "స్కావెంజర్"
+
 #: apps/kappfinder/apps/Games/Arcade/SuperMethaneBrothers.desktop:2
 msgctxt "Name"
 msgid "Super Methane Brothers"
@@ -314,68 +376,6 @@ msgstr "ఎక్స్ కోబొ"
 msgctxt "Name"
 msgid "XSoldier"
 msgstr "ఎక్స్ సోల్డ్జర్"
-
-#: apps/kappfinder/apps/Games/Arcade/alephone-nogl.desktop:2
-msgctxt "Name"
-msgid "Alephone"
-msgstr "ఎలెఫోన్"
-
-#: apps/kappfinder/apps/Games/Arcade/alephone-nogl.desktop:21
-msgctxt "Comment"
-msgid "An open source version of Marathon Infinity for SDL"
-msgstr "SDL కొరకు మారథాన్ ఇన్‌ఫినిటి యొక్క ఒక ఓపెన్ సోర్స్‍ వర్షన్"
-
-#: apps/kappfinder/apps/Games/Arcade/alephone.desktop:2
-msgctxt "Name"
-msgid "Alephone - No OpenGL"
-msgstr "ఎలెఫొన్ - ఒపెన్ జిఎల్ లేకుండా"
-
-#: apps/kappfinder/apps/Games/Arcade/alephone.desktop:76
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid ""
-#| "An open source version of Marathon Infinity for SDL that has Open GL "
-#| "disabled"
-msgctxt "Comment"
-msgid ""
-"An open source version of Marathon Infinity for SDL that has OpenGL disabled"
-msgstr "GL తెరువుట అచేతనంగా కలిగిన SDL కొరకు మారథాన్ ఇన్‌ఫినిటి యొక్క ఓపెన్‌ సోర్స్‍ వర్షన్"
-
-#: apps/kappfinder/apps/Games/Arcade/battalion.desktop:2
-msgctxt "Name"
-msgid "Batallion"
-msgstr "పటాళము"
-
-#: apps/kappfinder/apps/Games/Arcade/battleball.desktop:2
-msgctxt "Name"
-msgid "Battleball"
-msgstr "బేటిల్ బంతి"
-
-#: apps/kappfinder/apps/Games/Arcade/battleball.desktop:28
-msgctxt "GenericName"
-msgid "Ball Game"
-msgstr "బంతి ఆట"
-
-#: apps/kappfinder/apps/Games/Arcade/cxhextris.desktop:2
-msgctxt "Name"
-msgid "cxhextris"
-msgstr "సిఎక్స్ హెక్స్ ట్రిస్"
-
-#: apps/kappfinder/apps/Games/Arcade/rocksndiamonds.desktop:2
-msgctxt "Name"
-msgid "Rocks n Diamonds"
-msgstr "రాళ్ళు మరయూ వజ్రాలు"
-
-#: apps/kappfinder/apps/Games/Arcade/rocksndiamonds.desktop:44
-#: apps/kappfinder/apps/Games/Board/Glines.desktop:30
-msgctxt "GenericName"
-msgid "Tactical Game"
-msgstr "యుక్తి వాడె ఆట."
-
-#: apps/kappfinder/apps/Games/Arcade/scavenger.desktop:2
-msgctxt "Name"
-msgid "Scavenger"
-msgstr "స్కావెంజర్"
 
 #: apps/kappfinder/apps/Games/Board/Gataxx.desktop:2
 msgctxt "Name"
@@ -449,11 +449,6 @@ msgctxt "Name"
 msgid "Same GNOME"
 msgstr "అదే గ్నొమ్"
 
-#: apps/kappfinder/apps/Games/Board/Xgammon.desktop:2
-msgctxt "Name"
-msgid "Xgammon"
-msgstr "ఎక్స్ గామొన్"
-
 #: apps/kappfinder/apps/Games/Board/xboard.desktop:2
 msgctxt "GenericName"
 msgid "Chess Game"
@@ -463,6 +458,11 @@ msgstr "చదరంగం ఆట"
 msgctxt "Name"
 msgid "Xboard"
 msgstr "ఎక్స్ బోర్డ్"
+
+#: apps/kappfinder/apps/Games/Board/Xgammon.desktop:2
+msgctxt "Name"
+msgid "Xgammon"
+msgstr "ఎక్స్ గామొన్"
 
 #: apps/kappfinder/apps/Games/Card/AisleRiot.desktop:2
 msgctxt "Name"
@@ -497,6 +497,16 @@ msgctxt "Name"
 msgid "Clanbomber"
 msgstr "క్లాన్ బాంబర్"
 
+#: apps/kappfinder/apps/Games/defendguin.desktop:3
+msgctxt "Name"
+msgid "Defendguin"
+msgstr "డిఫెండ్గ్విన్"
+
+#: apps/kappfinder/apps/Games/defendguin.desktop:23
+msgctxt "GenericName"
+msgid "Game"
+msgstr "ఆట"
+
 #: apps/kappfinder/apps/Games/Emulators/cmail.desktop:2
 msgctxt "Name"
 msgid "ChessMail"
@@ -526,6 +536,11 @@ msgstr "జీటాలి"
 msgctxt "GenericName"
 msgid "Dice Game"
 msgstr "పాచికల ఆట"
+
+#: apps/kappfinder/apps/Games/penguin-command.desktop:3
+msgctxt "Name"
+msgid "Penguin Command"
+msgstr "పెంగ్విన్ కమాండ్"
 
 #: apps/kappfinder/apps/Games/Roguelikes/angband.desktop:2
 msgctxt "Name"
@@ -620,95 +635,10 @@ msgctxt "Comment"
 msgid "A free Scorched Earth clone for UNIX and X"
 msgstr "యూనిక్స్ మరయు ఎక్స్ కొరకు స్కార్చిడ్ భూమి యొక్క క్లోన్"
 
-#: apps/kappfinder/apps/Games/defendguin.desktop:3
-msgctxt "Name"
-msgid "Defendguin"
-msgstr "డిఫెండ్గ్విన్"
-
-#: apps/kappfinder/apps/Games/defendguin.desktop:23
-msgctxt "GenericName"
-msgid "Game"
-msgstr "ఆట"
-
-#: apps/kappfinder/apps/Games/penguin-command.desktop:3
-msgctxt "Name"
-msgid "Penguin Command"
-msgstr "పెంగ్విన్ కమాండ్"
-
 #: apps/kappfinder/apps/Games/xshipwars.desktop:3
 msgctxt "Name"
 msgid "XShipWars"
 msgstr "ఎక్స్ షిప్ వార్స్"
-
-#: apps/kappfinder/apps/Graphics/ElectricEyes.desktop:2
-msgctxt "Name"
-msgid "Electric Eyes"
-msgstr "ఎలెక్ట్రిక్ కళ్ళు"
-
-#: apps/kappfinder/apps/Graphics/ElectricEyes.desktop:44
-msgctxt "GenericName"
-msgid "Image Viewer"
-msgstr "చిత్ర వీక్షిణి"
-
-#: apps/kappfinder/apps/Graphics/GPhoto.desktop:2
-msgctxt "Name"
-msgid "GPhoto"
-msgstr "జిఫొటొ"
-
-#: apps/kappfinder/apps/Graphics/GPhoto.desktop:24
-msgctxt "GenericName"
-msgid "Digital Camera Program"
-msgstr "డిజిటల్ కెమెరా కార్యక్రమం"
-
-#: apps/kappfinder/apps/Graphics/GnomeColorSelector.desktop:2
-msgctxt "Name"
-msgid "GNOME Color Selector"
-msgstr "గ్నొం రంగులు ఎంచుకొనేది"
-
-#: apps/kappfinder/apps/Graphics/GnomeIconEditor.desktop:2
-msgctxt "Name"
-msgid "GNOME Icon Editor"
-msgstr "గ్నొం ప్రతిమల ఎడిటర్"
-
-#: apps/kappfinder/apps/Graphics/Gqview.desktop:2
-msgctxt "Name"
-msgid "Gqview"
-msgstr "జిక్యువ్యు"
-
-#: apps/kappfinder/apps/Graphics/Gqview.desktop:19
-msgctxt "GenericName"
-msgid "Image Browser"
-msgstr "చిత్ర బ్రౌజర్"
-
-#: apps/kappfinder/apps/Graphics/Sketch.desktop:2
-msgctxt "Name"
-msgid "Sketch"
-msgstr "స్కెట్చ్"
-
-#: apps/kappfinder/apps/Graphics/Sketch.desktop:30
-msgctxt "GenericName"
-msgid "Vector-based Drawing Program"
-msgstr "వెక్టర్ ఆధారిత చిత్ర లేఖన కార్యక్రమం"
-
-#: apps/kappfinder/apps/Graphics/Xpcd.desktop:2
-msgctxt "Name"
-msgid "Xpcd"
-msgstr "ఎక్స్ పిసిడి"
-
-#: apps/kappfinder/apps/Graphics/Xpcd.desktop:14
-msgctxt "GenericName"
-msgid "PhotoCD Tools"
-msgstr "ఫొటొ సిడి పనిముట్లు"
-
-#: apps/kappfinder/apps/Graphics/Xwpick.desktop:2
-msgctxt "Name"
-msgid "Xwpick"
-msgstr "ఎక్స్ డబ్ల్యుపిక్"
-
-#: apps/kappfinder/apps/Graphics/Xwpick.desktop:14
-msgctxt "GenericName"
-msgid "Screen Capture Program"
-msgstr "తెరను బంధించె కార్యక్రమం"
 
 #: apps/kappfinder/apps/Graphics/bitmap.desktop:2
 msgctxt "Name"
@@ -730,6 +660,16 @@ msgctxt "GenericName"
 msgid "3D Modeler/Renderer"
 msgstr "3డి మొడెలర్/రెండరర్"
 
+#: apps/kappfinder/apps/Graphics/ElectricEyes.desktop:2
+msgctxt "Name"
+msgid "Electric Eyes"
+msgstr "ఎలెక్ట్రిక్ కళ్ళు"
+
+#: apps/kappfinder/apps/Graphics/ElectricEyes.desktop:44
+msgctxt "GenericName"
+msgid "Image Viewer"
+msgstr "చిత్ర వీక్షిణి"
+
 #: apps/kappfinder/apps/Graphics/ghostview.desktop:2
 msgctxt "Name"
 msgid "GhostView"
@@ -749,6 +689,36 @@ msgstr "GIMP"
 msgctxt "GenericName"
 msgid "Image Manipulation Program"
 msgstr "చిత్రాలను మార్చె కార్యక్రమం"
+
+#: apps/kappfinder/apps/Graphics/GnomeColorSelector.desktop:2
+msgctxt "Name"
+msgid "GNOME Color Selector"
+msgstr "గ్నొం రంగులు ఎంచుకొనేది"
+
+#: apps/kappfinder/apps/Graphics/GnomeIconEditor.desktop:2
+msgctxt "Name"
+msgid "GNOME Icon Editor"
+msgstr "గ్నొం ప్రతిమల ఎడిటర్"
+
+#: apps/kappfinder/apps/Graphics/GPhoto.desktop:2
+msgctxt "Name"
+msgid "GPhoto"
+msgstr "జిఫొటొ"
+
+#: apps/kappfinder/apps/Graphics/GPhoto.desktop:24
+msgctxt "GenericName"
+msgid "Digital Camera Program"
+msgstr "డిజిటల్ కెమెరా కార్యక్రమం"
+
+#: apps/kappfinder/apps/Graphics/Gqview.desktop:2
+msgctxt "Name"
+msgid "Gqview"
+msgstr "జిక్యువ్యు"
+
+#: apps/kappfinder/apps/Graphics/Gqview.desktop:19
+msgctxt "GenericName"
+msgid "Image Browser"
+msgstr "చిత్ర బ్రౌజర్"
 
 #: apps/kappfinder/apps/Graphics/gv.desktop:2
 msgctxt "Name"
@@ -770,6 +740,16 @@ msgstr "ఇంక్ స్కేప్"
 msgctxt "GenericName"
 msgid "Vector Drawing"
 msgstr "వెక్టర్ చిత్ర లేఖనం"
+
+#: apps/kappfinder/apps/Graphics/Sketch.desktop:2
+msgctxt "Name"
+msgid "Sketch"
+msgstr "స్కెట్చ్"
+
+#: apps/kappfinder/apps/Graphics/Sketch.desktop:30
+msgctxt "GenericName"
+msgid "Vector-based Drawing Program"
+msgstr "వెక్టర్ ఆధారిత చిత్ర లేఖన కార్యక్రమం"
 
 #: apps/kappfinder/apps/Graphics/sodipodi.desktop:2
 msgctxt "Name"
@@ -812,6 +792,16 @@ msgctxt "GenericName"
 msgid "Paint Program"
 msgstr "పెయింట్ కార్యక్రమం "
 
+#: apps/kappfinder/apps/Graphics/Xpcd.desktop:2
+msgctxt "Name"
+msgid "Xpcd"
+msgstr "ఎక్స్ పిసిడి"
+
+#: apps/kappfinder/apps/Graphics/Xpcd.desktop:14
+msgctxt "GenericName"
+msgid "PhotoCD Tools"
+msgstr "ఫొటొ సిడి పనిముట్లు"
+
 #: apps/kappfinder/apps/Graphics/xv.desktop:2
 msgctxt "Name"
 msgid "XV"
@@ -822,6 +812,54 @@ msgctxt "GenericName"
 msgid "Picture Viewer"
 msgstr "చిత్ర వీక్షిణి"
 
+#: apps/kappfinder/apps/Graphics/Xwpick.desktop:2
+msgctxt "Name"
+msgid "Xwpick"
+msgstr "ఎక్స్ డబ్ల్యుపిక్"
+
+#: apps/kappfinder/apps/Graphics/Xwpick.desktop:14
+msgctxt "GenericName"
+msgid "Screen Capture Program"
+msgstr "తెరను బంధించె కార్యక్రమం"
+
+#: apps/kappfinder/apps/Internet/arena.desktop:5
+msgctxt "Name"
+msgid "Arena"
+msgstr "ఎరీనా"
+
+#: apps/kappfinder/apps/Internet/arena.desktop:24
+#: apps/kappfinder/apps/Internet/epiphany.desktop:21
+#: apps/kappfinder/apps/Internet/Galeon.desktop:20
+#: apps/kappfinder/apps/Internet/mozilla.desktop:23
+#: apps/kappfinder/apps/Internet/mozilla-firefox.desktop:25
+#: apps/kappfinder/apps/Internet/netscape6.desktop:18
+#: apps/kappfinder/apps/Internet/netscape.desktop:23
+#: apps/kappfinder/apps/Internet/opera.desktop:21
+#: apps/kappfinder/apps/Internet/Terminal/Links.desktop:26
+#: apps/kappfinder/apps/Internet/Terminal/Lynx.desktop:16
+#: apps/kappfinder/apps/Internet/Terminal/w3m.desktop:15
+#: apps/konqueror/konqbrowser.desktop:25
+msgctxt "GenericName"
+msgid "Web Browser"
+msgstr "వెబ్ బ్రౌజర్"
+
+#: apps/kappfinder/apps/Internet/balsa.desktop:2
+msgctxt "Name"
+msgid "Balsa"
+msgstr "బాల్సా"
+
+#: apps/kappfinder/apps/Internet/balsa.desktop:19
+#: apps/kappfinder/apps/Internet/Evolution.desktop:21
+#: apps/kappfinder/apps/Internet/mozilla-thunderbird.desktop:24
+#: apps/kappfinder/apps/Internet/Netscapemessenger.desktop:40
+#: apps/kappfinder/apps/Internet/Sylpheed.desktop:16
+#: apps/kappfinder/apps/Internet/Terminal/mutt.desktop:18
+#: apps/kappfinder/apps/Internet/Terminal/pine.desktop:22
+#: apps/kappfinder/apps/Internet/xfmail.desktop:21
+msgctxt "GenericName"
+msgid "Mail Client"
+msgstr "మెయిల్ క్లైంట్"
+
 #: apps/kappfinder/apps/Internet/BlueFish.desktop:2
 msgctxt "Name"
 msgid "BlueFish"
@@ -831,6 +869,39 @@ msgstr "బ్లూఫిష్"
 msgctxt "GenericName"
 msgid "HTML Editor"
 msgstr "హెచ్ టి ఎంఎల్ ఎడిటర్"
+
+#: apps/kappfinder/apps/Internet/btdownloadgui.desktop:3
+#: apps/kappfinder/apps/Internet/Terminal/btdownloadcurses.desktop:3
+msgctxt "GenericName"
+msgid "BitTorrent GUI"
+msgstr "బిట్ టొరెంట్ జియూఐ"
+
+#: apps/kappfinder/apps/Internet/btdownloadgui.desktop:69
+msgctxt "Name"
+msgid "BitTorrent Python wxGTK GUI"
+msgstr "బిట్ టొరెంట్ పైతాన్ డబ్ల్యూజిటికె జియూఐ"
+
+#: apps/kappfinder/apps/Internet/coolmail.desktop:7
+msgctxt "Name"
+msgid "Coolmail"
+msgstr "కూల్ మెయిల్"
+
+#: apps/kappfinder/apps/Internet/coolmail.desktop:22
+#: apps/kappfinder/apps/Internet/Faces.desktop:29
+#: apps/kappfinder/apps/Internet/xbiff.desktop:28
+msgctxt "GenericName"
+msgid "Mail Alert"
+msgstr "మెయిల్ ఎచ్చరిక"
+
+#: apps/kappfinder/apps/Internet/dc_gui.desktop:4
+msgctxt "Name"
+msgid "DCTC GUI"
+msgstr "డిసిటిసి జియూఐ"
+
+#: apps/kappfinder/apps/Internet/dc_gui.desktop:49
+msgctxt "GenericName"
+msgid "Direct Connect Clone"
+msgstr "సూటి సంబంధ క్లోన్"
 
 #: apps/kappfinder/apps/Internet/Dpsftp.desktop:2
 msgctxt "Name"
@@ -853,224 +924,6 @@ msgstr "డ్రాక్ సింక్"
 msgctxt "GenericName"
 msgid "Folder Synchronization"
 msgstr "సంచయం ఏకకాలీనం"
-
-#: apps/kappfinder/apps/Internet/Evolution.desktop:2
-msgctxt "Name"
-msgid "Evolution"
-msgstr "ఎవల్యూషన్"
-
-#: apps/kappfinder/apps/Internet/Evolution.desktop:21
-#: apps/kappfinder/apps/Internet/Netscapemessenger.desktop:40
-#: apps/kappfinder/apps/Internet/Sylpheed.desktop:16
-#: apps/kappfinder/apps/Internet/Terminal/mutt.desktop:18
-#: apps/kappfinder/apps/Internet/Terminal/pine.desktop:22
-#: apps/kappfinder/apps/Internet/balsa.desktop:19
-#: apps/kappfinder/apps/Internet/mozilla-thunderbird.desktop:24
-#: apps/kappfinder/apps/Internet/xfmail.desktop:21
-msgctxt "GenericName"
-msgid "Mail Client"
-msgstr "మెయిల్ క్లైంట్"
-
-#: apps/kappfinder/apps/Internet/Faces.desktop:2
-msgctxt "Name"
-msgid "Faces"
-msgstr "ఫెసెస్"
-
-#: apps/kappfinder/apps/Internet/Faces.desktop:29
-#: apps/kappfinder/apps/Internet/coolmail.desktop:22
-#: apps/kappfinder/apps/Internet/xbiff.desktop:28
-msgctxt "GenericName"
-msgid "Mail Alert"
-msgstr "మెయిల్ ఎచ్చరిక"
-
-#: apps/kappfinder/apps/Internet/Fetchmailconf.desktop:2
-msgctxt "Name"
-msgid "Fetchmailconf"
-msgstr "ఫెట్చ్ మెయిల్ కాన్ఫ్"
-
-#: apps/kappfinder/apps/Internet/Fetchmailconf.desktop:20
-msgctxt "GenericName"
-msgid "Fetchmail Configuration"
-msgstr "Fetchmail ఆకృతీకరణ"
-
-#: apps/kappfinder/apps/Internet/Gabber.desktop:2
-msgctxt "Name"
-msgid "Gabber"
-msgstr "జాబర్"
-
-#: apps/kappfinder/apps/Internet/Gabber.desktop:19
-#: apps/kappfinder/apps/Internet/gaim.desktop:18
-msgctxt "GenericName"
-msgid "Instant Messenger"
-msgstr "తక్షణమే సందేశము ఇచ్చే కార్యక్రమం"
-
-#: apps/kappfinder/apps/Internet/Galeon.desktop:2
-msgctxt "Name"
-msgid "Galeon"
-msgstr "గెలియాన్"
-
-#: apps/kappfinder/apps/Internet/Galeon.desktop:20
-#: apps/kappfinder/apps/Internet/Terminal/Links.desktop:26
-#: apps/kappfinder/apps/Internet/Terminal/Lynx.desktop:16
-#: apps/kappfinder/apps/Internet/Terminal/w3m.desktop:15
-#: apps/kappfinder/apps/Internet/arena.desktop:24
-#: apps/kappfinder/apps/Internet/epiphany.desktop:21
-#: apps/kappfinder/apps/Internet/mozilla-firefox.desktop:25
-#: apps/kappfinder/apps/Internet/mozilla.desktop:23
-#: apps/kappfinder/apps/Internet/netscape.desktop:23
-#: apps/kappfinder/apps/Internet/netscape6.desktop:18
-#: apps/kappfinder/apps/Internet/opera.desktop:21
-#: apps/konqueror/konqbrowser.desktop:25
-msgctxt "GenericName"
-msgid "Web Browser"
-msgstr "వెబ్ బ్రౌజర్"
-
-#: apps/kappfinder/apps/Internet/GnomeICU.desktop:2
-msgctxt "Name"
-msgid "GNOMEICU"
-msgstr "గ్నొమ్ ఐసియు"
-
-#: apps/kappfinder/apps/Internet/GnomeICU.desktop:19
-#: apps/kappfinder/apps/Internet/licq.desktop:16
-msgctxt "GenericName"
-msgid "ICQ Messenger"
-msgstr "ICQ మెసేంజర్"
-
-#: apps/kappfinder/apps/Internet/Netscapemessenger.desktop:2
-msgctxt "Name"
-msgid "Netscape Messenger"
-msgstr "నెట్ స్కేప్ మెసేంజర్"
-
-#: apps/kappfinder/apps/Internet/Nmapfe.desktop:2
-msgctxt "Name"
-msgid "Nmapfe"
-msgstr "ఎన్ మాప్ఎఫ్ఇ"
-
-#: apps/kappfinder/apps/Internet/Nmapfe.desktop:12
-msgctxt "GenericName"
-msgid "Port Scanner"
-msgstr "పొర్ట్ స్కెనర్"
-
-#: apps/kappfinder/apps/Internet/Pan.desktop:2
-msgctxt "Name"
-msgid "Pan"
-msgstr "పాన్"
-
-#: apps/kappfinder/apps/Internet/Pan.desktop:19
-#: apps/kappfinder/apps/Internet/knews.desktop:25
-msgctxt "GenericName"
-msgid "Usenet News Reader"
-msgstr "యూజ్ నెట్ వార్తలను చదివే కార్యక్రమం"
-
-#: apps/kappfinder/apps/Internet/Sylpheed.desktop:2
-msgctxt "Name"
-msgid "Sylpheed"
-msgstr "సిల్ఫీడ్"
-
-#: apps/kappfinder/apps/Internet/Terminal/Links.desktop:2
-msgctxt "Name"
-msgid "Links"
-msgstr "లింక్స్"
-
-#: apps/kappfinder/apps/Internet/Terminal/Lynx.desktop:2
-msgctxt "Name"
-msgid "Lynx"
-msgstr "ల్యింక్స్"
-
-#: apps/kappfinder/apps/Internet/Terminal/btdownloadcurses.desktop:3
-#: apps/kappfinder/apps/Internet/btdownloadgui.desktop:3
-msgctxt "GenericName"
-msgid "BitTorrent GUI"
-msgstr "బిట్ టొరెంట్ జియూఐ"
-
-#: apps/kappfinder/apps/Internet/Terminal/btdownloadcurses.desktop:69
-msgctxt "Name"
-msgid "BitTorrent Python Curses GUI"
-msgstr "బిట్ టొరెంట్ పైతాన్ కర్సెస్ జియూఐ"
-
-#: apps/kappfinder/apps/Internet/Terminal/lftp.desktop:2
-#: apps/kappfinder/apps/Internet/Terminal/ncftp.desktop:13
-msgctxt "GenericName"
-msgid "FTP Client"
-msgstr "ఎఫ్ టి పి క్లైంట్"
-
-#: apps/kappfinder/apps/Internet/Terminal/lftp.desktop:86
-msgctxt "Name"
-msgid "Lftp"
-msgstr "ఎల్ ఎఫ్ టి పి"
-
-#: apps/kappfinder/apps/Internet/Terminal/mutt.desktop:5
-msgctxt "Name"
-msgid "Mutt"
-msgstr "మట్ట్"
-
-#: apps/kappfinder/apps/Internet/Terminal/ncftp.desktop:2
-msgctxt "Name"
-msgid "NcFTP"
-msgstr "ఎన్ సి ఎఫ్ టి పి"
-
-#: apps/kappfinder/apps/Internet/Terminal/pine.desktop:5
-msgctxt "Name"
-msgid "Pine"
-msgstr "పైన్"
-
-#: apps/kappfinder/apps/Internet/Terminal/silc.desktop:2
-msgctxt "GenericName"
-msgid "SILC Client"
-msgstr "ఎస్ ఎల్ ఐసి క్లైంట్"
-
-#: apps/kappfinder/apps/Internet/Terminal/silc.desktop:84
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "KSIRC"
-msgctxt "Name"
-msgid "SILC"
-msgstr "KSIRC"
-
-#: apps/kappfinder/apps/Internet/Terminal/slrn.desktop:5
-msgctxt "Name"
-msgid "Slrn"
-msgstr "ఎస్ ఎల్ ఆర్ ఎన్"
-
-#: apps/kappfinder/apps/Internet/Terminal/slrn.desktop:15
-msgctxt "GenericName"
-msgid "News Reader"
-msgstr "వార్తలను చదివే కార్యక్రమం"
-
-#: apps/kappfinder/apps/Internet/Terminal/w3m.desktop:2
-msgctxt "Name"
-msgid "w3m"
-msgstr "డబ్ల్యూ3ఎం"
-
-#: apps/kappfinder/apps/Internet/arena.desktop:5
-msgctxt "Name"
-msgid "Arena"
-msgstr "ఎరీనా"
-
-#: apps/kappfinder/apps/Internet/balsa.desktop:2
-msgctxt "Name"
-msgid "Balsa"
-msgstr "బాల్సా"
-
-#: apps/kappfinder/apps/Internet/btdownloadgui.desktop:69
-msgctxt "Name"
-msgid "BitTorrent Python wxGTK GUI"
-msgstr "బిట్ టొరెంట్ పైతాన్ డబ్ల్యూజిటికె జియూఐ"
-
-#: apps/kappfinder/apps/Internet/coolmail.desktop:7
-msgctxt "Name"
-msgid "Coolmail"
-msgstr "కూల్ మెయిల్"
-
-#: apps/kappfinder/apps/Internet/dc_gui.desktop:4
-msgctxt "Name"
-msgid "DCTC GUI"
-msgstr "డిసిటిసి జియూఐ"
-
-#: apps/kappfinder/apps/Internet/dc_gui.desktop:49
-msgctxt "GenericName"
-msgid "Direct Connect Clone"
-msgstr "సూటి సంబంధ క్లోన్"
 
 #: apps/kappfinder/apps/Internet/ed2k_gui.desktop:4
 msgctxt "Name"
@@ -1098,15 +951,62 @@ msgctxt "GenericName"
 msgid "Network Analyzer"
 msgstr "నెట్వర్క్ ను పరిశీలించె కార్యక్రమం"
 
-#: apps/kappfinder/apps/Internet/gFTP.desktop:2
+#: apps/kappfinder/apps/Internet/Evolution.desktop:2
 msgctxt "Name"
-msgid "gFTP"
-msgstr "జీ ఎఫ్ టి పి"
+msgid "Evolution"
+msgstr "ఎవల్యూషన్"
+
+#: apps/kappfinder/apps/Internet/Faces.desktop:2
+msgctxt "Name"
+msgid "Faces"
+msgstr "ఫెసెస్"
+
+#: apps/kappfinder/apps/Internet/Fetchmailconf.desktop:2
+msgctxt "Name"
+msgid "Fetchmailconf"
+msgstr "ఫెట్చ్ మెయిల్ కాన్ఫ్"
+
+#: apps/kappfinder/apps/Internet/Fetchmailconf.desktop:20
+msgctxt "GenericName"
+msgid "Fetchmail Configuration"
+msgstr "Fetchmail ఆకృతీకరణ"
+
+#: apps/kappfinder/apps/Internet/Gabber.desktop:2
+msgctxt "Name"
+msgid "Gabber"
+msgstr "జాబర్"
+
+#: apps/kappfinder/apps/Internet/Gabber.desktop:19
+#: apps/kappfinder/apps/Internet/gaim.desktop:18
+msgctxt "GenericName"
+msgid "Instant Messenger"
+msgstr "తక్షణమే సందేశము ఇచ్చే కార్యక్రమం"
 
 #: apps/kappfinder/apps/Internet/gaim.desktop:2
 msgctxt "Name"
 msgid "Gaim"
 msgstr "గెయిమ్"
+
+#: apps/kappfinder/apps/Internet/Galeon.desktop:2
+msgctxt "Name"
+msgid "Galeon"
+msgstr "గెలియాన్"
+
+#: apps/kappfinder/apps/Internet/gFTP.desktop:2
+msgctxt "Name"
+msgid "gFTP"
+msgstr "జీ ఎఫ్ టి పి"
+
+#: apps/kappfinder/apps/Internet/GnomeICU.desktop:2
+msgctxt "Name"
+msgid "GNOMEICU"
+msgstr "గ్నొమ్ ఐసియు"
+
+#: apps/kappfinder/apps/Internet/GnomeICU.desktop:19
+#: apps/kappfinder/apps/Internet/licq.desktop:16
+msgctxt "GenericName"
+msgid "ICQ Messenger"
+msgstr "ICQ మెసేంజర్"
 
 #: apps/kappfinder/apps/Internet/gnomemeeting.desktop:2
 msgctxt "Name"
@@ -1153,6 +1053,12 @@ msgctxt "Name"
 msgid "KNews"
 msgstr "కెవార్తలు"
 
+#: apps/kappfinder/apps/Internet/knews.desktop:25
+#: apps/kappfinder/apps/Internet/Pan.desktop:19
+msgctxt "GenericName"
+msgid "Usenet News Reader"
+msgstr "యూజ్ నెట్ వార్తలను చదివే కార్యక్రమం"
+
 #: apps/kappfinder/apps/Internet/licq.desktop:4
 msgctxt "Name"
 msgid "Licq"
@@ -1168,6 +1074,11 @@ msgctxt "GenericName"
 msgid "MLDonkey GUI"
 msgstr "ఎంఎల్ డాంకి జియుఐ"
 
+#: apps/kappfinder/apps/Internet/mozilla.desktop:5
+msgctxt "Name"
+msgid "Mozilla"
+msgstr "మొజిల్లా"
+
 #: apps/kappfinder/apps/Internet/mozilla-firefox.desktop:5
 msgctxt "Name"
 msgid "Firefox"
@@ -1178,16 +1089,6 @@ msgctxt "Name"
 msgid "Thunderbird"
 msgstr "థండర్ బర్డ్"
 
-#: apps/kappfinder/apps/Internet/mozilla.desktop:5
-msgctxt "Name"
-msgid "Mozilla"
-msgstr "మొజిల్లా"
-
-#: apps/kappfinder/apps/Internet/netscape.desktop:5
-msgctxt "Name"
-msgid "Netscape"
-msgstr "నెట్ స్కేప్"
-
 #: apps/kappfinder/apps/Internet/netscape6.desktop:5
 #, fuzzy
 #| msgctxt "Name"
@@ -1196,10 +1097,109 @@ msgctxt "Name"
 msgid "Netscape 6"
 msgstr "నెట్ స్కేప్6"
 
+#: apps/kappfinder/apps/Internet/netscape.desktop:5
+msgctxt "Name"
+msgid "Netscape"
+msgstr "నెట్ స్కేప్"
+
+#: apps/kappfinder/apps/Internet/Netscapemessenger.desktop:2
+msgctxt "Name"
+msgid "Netscape Messenger"
+msgstr "నెట్ స్కేప్ మెసేంజర్"
+
+#: apps/kappfinder/apps/Internet/Nmapfe.desktop:2
+msgctxt "Name"
+msgid "Nmapfe"
+msgstr "ఎన్ మాప్ఎఫ్ఇ"
+
+#: apps/kappfinder/apps/Internet/Nmapfe.desktop:12
+msgctxt "GenericName"
+msgid "Port Scanner"
+msgstr "పొర్ట్ స్కెనర్"
+
 #: apps/kappfinder/apps/Internet/opera.desktop:2
 msgctxt "Name"
 msgid "Opera"
 msgstr "ఓపెరా"
+
+#: apps/kappfinder/apps/Internet/Pan.desktop:2
+msgctxt "Name"
+msgid "Pan"
+msgstr "పాన్"
+
+#: apps/kappfinder/apps/Internet/Sylpheed.desktop:2
+msgctxt "Name"
+msgid "Sylpheed"
+msgstr "సిల్ఫీడ్"
+
+#: apps/kappfinder/apps/Internet/Terminal/btdownloadcurses.desktop:69
+msgctxt "Name"
+msgid "BitTorrent Python Curses GUI"
+msgstr "బిట్ టొరెంట్ పైతాన్ కర్సెస్ జియూఐ"
+
+#: apps/kappfinder/apps/Internet/Terminal/lftp.desktop:2
+#: apps/kappfinder/apps/Internet/Terminal/ncftp.desktop:13
+msgctxt "GenericName"
+msgid "FTP Client"
+msgstr "ఎఫ్ టి పి క్లైంట్"
+
+#: apps/kappfinder/apps/Internet/Terminal/lftp.desktop:86
+msgctxt "Name"
+msgid "Lftp"
+msgstr "ఎల్ ఎఫ్ టి పి"
+
+#: apps/kappfinder/apps/Internet/Terminal/Links.desktop:2
+msgctxt "Name"
+msgid "Links"
+msgstr "లింక్స్"
+
+#: apps/kappfinder/apps/Internet/Terminal/Lynx.desktop:2
+msgctxt "Name"
+msgid "Lynx"
+msgstr "ల్యింక్స్"
+
+#: apps/kappfinder/apps/Internet/Terminal/mutt.desktop:5
+msgctxt "Name"
+msgid "Mutt"
+msgstr "మట్ట్"
+
+#: apps/kappfinder/apps/Internet/Terminal/ncftp.desktop:2
+msgctxt "Name"
+msgid "NcFTP"
+msgstr "ఎన్ సి ఎఫ్ టి పి"
+
+#: apps/kappfinder/apps/Internet/Terminal/pine.desktop:5
+msgctxt "Name"
+msgid "Pine"
+msgstr "పైన్"
+
+#: apps/kappfinder/apps/Internet/Terminal/silc.desktop:2
+msgctxt "GenericName"
+msgid "SILC Client"
+msgstr "ఎస్ ఎల్ ఐసి క్లైంట్"
+
+#: apps/kappfinder/apps/Internet/Terminal/silc.desktop:84
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KSIRC"
+msgctxt "Name"
+msgid "SILC"
+msgstr "KSIRC"
+
+#: apps/kappfinder/apps/Internet/Terminal/slrn.desktop:5
+msgctxt "Name"
+msgid "Slrn"
+msgstr "ఎస్ ఎల్ ఆర్ ఎన్"
+
+#: apps/kappfinder/apps/Internet/Terminal/slrn.desktop:15
+msgctxt "GenericName"
+msgid "News Reader"
+msgstr "వార్తలను చదివే కార్యక్రమం"
+
+#: apps/kappfinder/apps/Internet/Terminal/w3m.desktop:2
+msgctxt "Name"
+msgid "w3m"
+msgstr "డబ్ల్యూ3ఎం"
 
 #: apps/kappfinder/apps/Internet/wireshark.desktop:2
 msgctxt "Name"
@@ -1230,45 +1230,6 @@ msgstr "ఎక్స్ ఎఫ్ మెయిల్"
 msgctxt "Name"
 msgid "X FTP"
 msgstr "ఎక్స్ ఎఫ్ టి పి"
-
-#: apps/kappfinder/apps/Multimedia/Aumix.desktop:2
-msgctxt "Name"
-msgid "Aumix"
-msgstr "ఎయూమిక్స్"
-
-#: apps/kappfinder/apps/Multimedia/Aumix.desktop:16
-msgctxt "GenericName"
-msgid "Audio Mixer"
-msgstr "శబ్దాలను కలిపే కార్యక్రమం"
-
-#: apps/kappfinder/apps/Multimedia/Grip.desktop:2
-msgctxt "Name"
-msgid "Grip"
-msgstr "గ్రిప్"
-
-#: apps/kappfinder/apps/Multimedia/Grip.desktop:19
-msgctxt "GenericName"
-msgid "CD Player/Ripper"
-msgstr "సిడి ప్లెయర్/రిప్పర్"
-
-#: apps/kappfinder/apps/Multimedia/MP3info.desktop:2
-msgctxt "Name"
-msgid "MP3 Info"
-msgstr "ఎంపి3 వివరాలు"
-
-#: apps/kappfinder/apps/Multimedia/XMovie.desktop:2
-msgctxt "Name"
-msgid "XMovie"
-msgstr "ఎక్స్ మూవి"
-
-#: apps/kappfinder/apps/Multimedia/XMovie.desktop:19
-#: apps/kappfinder/apps/Multimedia/mplayer.desktop:2
-#: apps/kappfinder/apps/Multimedia/mtv.desktop:2
-#: apps/kappfinder/apps/Multimedia/realplayer.desktop:2
-#: apps/kappfinder/apps/Multimedia/xine.desktop:2
-msgctxt "GenericName"
-msgid "Video Player"
-msgstr "విడియొ ప్లెయర్"
 
 #: apps/kappfinder/apps/Multimedia/alevt.desktop:2
 #, fuzzy
@@ -1334,6 +1295,16 @@ msgstr "అడెసిటి"
 msgctxt "GenericName"
 msgid "Audio Editor"
 msgstr "శబ్డ ఎడిటర్"
+
+#: apps/kappfinder/apps/Multimedia/Aumix.desktop:2
+msgctxt "Name"
+msgid "Aumix"
+msgstr "ఎయూమిక్స్"
+
+#: apps/kappfinder/apps/Multimedia/Aumix.desktop:16
+msgctxt "GenericName"
+msgid "Audio Mixer"
+msgstr "శబ్దాలను కలిపే కార్యక్రమం"
 
 #: apps/kappfinder/apps/Multimedia/aviplay.desktop:2
 msgctxt "GenericName"
@@ -1418,6 +1389,16 @@ msgctxt "GenericName"
 msgid "Modular Synth"
 msgstr "మాడ్యులర్ సింథ్"
 
+#: apps/kappfinder/apps/Multimedia/Grip.desktop:2
+msgctxt "Name"
+msgid "Grip"
+msgstr "గ్రిప్"
+
+#: apps/kappfinder/apps/Multimedia/Grip.desktop:19
+msgctxt "GenericName"
+msgid "CD Player/Ripper"
+msgstr "సిడి ప్లెయర్/రిప్పర్"
+
 #: apps/kappfinder/apps/Multimedia/gtv.desktop:87
 msgctxt "Name"
 msgid "GTV"
@@ -1472,6 +1453,20 @@ msgstr "మీటర్‌బ్రిడ్‍జ్"
 msgctxt "Name"
 msgid "Mixxx"
 msgstr "మిక్స్"
+
+#: apps/kappfinder/apps/Multimedia/MP3info.desktop:2
+msgctxt "Name"
+msgid "MP3 Info"
+msgstr "ఎంపి3 వివరాలు"
+
+#: apps/kappfinder/apps/Multimedia/mplayer.desktop:2
+#: apps/kappfinder/apps/Multimedia/mtv.desktop:2
+#: apps/kappfinder/apps/Multimedia/realplayer.desktop:2
+#: apps/kappfinder/apps/Multimedia/xine.desktop:2
+#: apps/kappfinder/apps/Multimedia/XMovie.desktop:19
+msgctxt "GenericName"
+msgid "Video Player"
+msgstr "విడియొ ప్లెయర్"
 
 #: apps/kappfinder/apps/Multimedia/mplayer.desktop:87
 msgctxt "Name"
@@ -1593,16 +1588,6 @@ msgctxt "Name"
 msgid "Xine"
 msgstr "క్సైన్"
 
-#: apps/kappfinder/apps/Multimedia/xmms-enqueue.desktop:2
-msgctxt "GenericName"
-msgid "Playlist Tool"
-msgstr "ప్లెలిస్ట్ పనిముట్టు"
-
-#: apps/kappfinder/apps/Multimedia/xmms-enqueue.desktop:88
-msgctxt "Name"
-msgid "Enqueue in XMMS"
-msgstr "XMMS నందు Enqueue"
-
 #: apps/kappfinder/apps/Multimedia/xmms.desktop:2
 msgctxt "GenericName"
 msgid "Multimedia Player"
@@ -1613,6 +1598,21 @@ msgctxt "Name"
 msgid "XMMS"
 msgstr "ఎక్స్ ఎం ఎం ఎస్"
 
+#: apps/kappfinder/apps/Multimedia/xmms-enqueue.desktop:2
+msgctxt "GenericName"
+msgid "Playlist Tool"
+msgstr "ప్లెలిస్ట్ పనిముట్టు"
+
+#: apps/kappfinder/apps/Multimedia/xmms-enqueue.desktop:88
+msgctxt "Name"
+msgid "Enqueue in XMMS"
+msgstr "XMMS నందు Enqueue"
+
+#: apps/kappfinder/apps/Multimedia/XMovie.desktop:2
+msgctxt "Name"
+msgid "XMovie"
+msgstr "ఎక్స్ మూవి"
+
 #: apps/kappfinder/apps/Multimedia/zynaddsubfx.desktop:4
 msgctxt "Name"
 msgid "ZynaddsubFX"
@@ -1622,6 +1622,30 @@ msgstr "ZynaddsubFX"
 msgctxt "GenericName"
 msgid "Soft Synth"
 msgstr "సాఫ్‍ట్ సింథ్"
+
+#: apps/kappfinder/apps/Office/abiword.desktop:2
+msgctxt "Name"
+msgid "AbiWord"
+msgstr "అభివర్డ్"
+
+#: apps/kappfinder/apps/Office/abiword.desktop:19
+#: apps/kappfinder/apps/Office/lyx.desktop:14
+#: apps/kappfinder/apps/Office/WordPerfect2000.desktop:28
+#: apps/kappfinder/apps/Office/WordPerfect.desktop:26
+msgctxt "GenericName"
+msgid "Word Processor"
+msgstr "వర్‍డ్ ప్రోసెసర్"
+
+#: apps/kappfinder/apps/Office/acroread.desktop:2
+msgctxt "Name"
+msgid "Acrobat Reader"
+msgstr "ఎక్రొబేట్ రీడర్"
+
+#: apps/kappfinder/apps/Office/acroread.desktop:34
+#: apps/kappfinder/apps/Office/xpdf.desktop:20
+msgctxt "GenericName"
+msgid "PDF Viewer"
+msgstr "పిడిఎఫ్ విక్షిణి"
 
 #: apps/kappfinder/apps/Office/Applix.desktop:2
 msgctxt "Name"
@@ -1669,6 +1693,16 @@ msgctxt "Name"
 msgid "GNOME Time Tracker"
 msgstr "GNOME సమయ పాలకి"
 
+#: apps/kappfinder/apps/Office/gnucash.desktop:2
+msgctxt "Name"
+msgid "GnuCash"
+msgstr "గ్నుకేష్"
+
+#: apps/kappfinder/apps/Office/gnucash.desktop:22
+msgctxt "GenericName"
+msgid "Finance Manager"
+msgstr "ఆర్థిక నిర్వాహకి"
+
 #: apps/kappfinder/apps/Office/Gnumeric.desktop:2
 msgctxt "Name"
 msgid "Gnumeric"
@@ -1694,65 +1728,6 @@ msgstr "ఐకెల్"
 msgctxt "GenericName"
 msgid "Calendar Program"
 msgstr "కెలండర్ కార్యక్రమం"
-
-#: apps/kappfinder/apps/Office/WordPerfect.desktop:2
-msgctxt "Name"
-msgid "WordPerfect"
-msgstr "వర్డ్ పెర్ఫెక్ట్"
-
-#: apps/kappfinder/apps/Office/WordPerfect.desktop:26
-#: apps/kappfinder/apps/Office/WordPerfect2000.desktop:28
-#: apps/kappfinder/apps/Office/abiword.desktop:19
-#: apps/kappfinder/apps/Office/lyx.desktop:14
-msgctxt "GenericName"
-msgid "Word Processor"
-msgstr "వర్‍డ్ ప్రోసెసర్"
-
-#: apps/kappfinder/apps/Office/WordPerfect2000.desktop:2
-msgctxt "Name"
-msgid "WordPerfect 2000"
-msgstr "వర్డ్ పెర్ఫెక్ట్ 2000"
-
-#: apps/kappfinder/apps/Office/XAcc.desktop:2
-msgctxt "Name"
-msgid "xacc"
-msgstr "xacc"
-
-#: apps/kappfinder/apps/Office/XAcc.desktop:20
-msgctxt "GenericName"
-msgid "Personal Accounting Tool"
-msgstr "వ్యక్తిగత జమాలెక్కల సాధనం"
-
-#: apps/kappfinder/apps/Office/XsLite.desktop:2
-msgctxt "Name"
-msgid "XsLite"
-msgstr "XsLite"
-
-#: apps/kappfinder/apps/Office/abiword.desktop:2
-msgctxt "Name"
-msgid "AbiWord"
-msgstr "అభివర్డ్"
-
-#: apps/kappfinder/apps/Office/acroread.desktop:2
-msgctxt "Name"
-msgid "Acrobat Reader"
-msgstr "ఎక్రొబేట్ రీడర్"
-
-#: apps/kappfinder/apps/Office/acroread.desktop:34
-#: apps/kappfinder/apps/Office/xpdf.desktop:20
-msgctxt "GenericName"
-msgid "PDF Viewer"
-msgstr "పిడిఎఫ్ విక్షిణి"
-
-#: apps/kappfinder/apps/Office/gnucash.desktop:2
-msgctxt "Name"
-msgid "GnuCash"
-msgstr "గ్నుకేష్"
-
-#: apps/kappfinder/apps/Office/gnucash.desktop:22
-msgctxt "GenericName"
-msgid "Finance Manager"
-msgstr "ఆర్థిక నిర్వాహకి"
 
 #: apps/kappfinder/apps/Office/lyx.desktop:2
 msgctxt "Name"
@@ -1804,10 +1779,60 @@ msgctxt "GenericName"
 msgid "Desktop Publishing"
 msgstr "రంగస్థలం ప్రచురణ"
 
+#: apps/kappfinder/apps/Office/WordPerfect2000.desktop:2
+msgctxt "Name"
+msgid "WordPerfect 2000"
+msgstr "వర్డ్ పెర్ఫెక్ట్ 2000"
+
+#: apps/kappfinder/apps/Office/WordPerfect.desktop:2
+msgctxt "Name"
+msgid "WordPerfect"
+msgstr "వర్డ్ పెర్ఫెక్ట్"
+
+#: apps/kappfinder/apps/Office/XAcc.desktop:2
+msgctxt "Name"
+msgid "xacc"
+msgstr "xacc"
+
+#: apps/kappfinder/apps/Office/XAcc.desktop:20
+msgctxt "GenericName"
+msgid "Personal Accounting Tool"
+msgstr "వ్యక్తిగత జమాలెక్కల సాధనం"
+
 #: apps/kappfinder/apps/Office/xpdf.desktop:2
 msgctxt "Name"
 msgid "X PDF"
 msgstr "ఎక్స్ పిడిఎఫ్"
+
+#: apps/kappfinder/apps/Office/XsLite.desktop:2
+msgctxt "Name"
+msgid "XsLite"
+msgstr "XsLite"
+
+#: apps/kappfinder/apps/System/citrix_ica.desktop:2
+msgctxt "Name"
+msgid "Citrix ICA Client"
+msgstr "Citrix ICA కక్షిదారు"
+
+#: apps/kappfinder/apps/System/citrix_ica.desktop:77
+msgctxt "GenericName"
+msgid "WTS Client"
+msgstr "WTS కక్షిదారు"
+
+#: apps/kappfinder/apps/System/editres.desktop:2
+msgctxt "Name"
+msgid "EditXRes"
+msgstr "EditXRes"
+
+#: apps/kappfinder/apps/System/editres.desktop:19
+msgctxt "GenericName"
+msgid "X Resource Editor"
+msgstr "X మూలం సరికూర్పరి"
+
+#: apps/kappfinder/apps/System/sam.desktop:2
+msgctxt "Name"
+msgid "SAM System-Administration"
+msgstr "SAM సిస్టమ్-నిర్వహణ"
 
 #: apps/kappfinder/apps/System/Terminal/aterm.desktop:5
 msgctxt "Name"
@@ -1850,31 +1875,6 @@ msgctxt "GenericName"
 msgid "Virtual Memory Statistics"
 msgstr "వర్చ్యువల్ మెమొరి గణాంకాలు"
 
-#: apps/kappfinder/apps/System/citrix_ica.desktop:2
-msgctxt "Name"
-msgid "Citrix ICA Client"
-msgstr "Citrix ICA కక్షిదారు"
-
-#: apps/kappfinder/apps/System/citrix_ica.desktop:77
-msgctxt "GenericName"
-msgid "WTS Client"
-msgstr "WTS కక్షిదారు"
-
-#: apps/kappfinder/apps/System/editres.desktop:2
-msgctxt "Name"
-msgid "EditXRes"
-msgstr "EditXRes"
-
-#: apps/kappfinder/apps/System/editres.desktop:19
-msgctxt "GenericName"
-msgid "X Resource Editor"
-msgstr "X మూలం సరికూర్పరి"
-
-#: apps/kappfinder/apps/System/sam.desktop:2
-msgctxt "Name"
-msgid "SAM System-Administration"
-msgstr "SAM సిస్టమ్-నిర్వహణ"
-
 #: apps/kappfinder/apps/System/wine.desktop:3
 msgctxt "Name"
 msgid "Wine"
@@ -1910,36 +1910,6 @@ msgctxt "GenericName"
 msgid "Linux Mascot"
 msgstr "లినక్స్ మాస్కాట్"
 
-#: apps/kappfinder/apps/Utilities/GKrellM.desktop:4
-msgctxt "Name"
-msgid "GKrellM"
-msgstr "GKrellM"
-
-#: apps/kappfinder/apps/Utilities/GKrellM.desktop:12
-msgctxt "GenericName"
-msgid "GNU Krell Monitors"
-msgstr "GNU Krell మానిటర్‍స్"
-
-#: apps/kappfinder/apps/Utilities/GnomeWho.desktop:2
-msgctxt "Name"
-msgid "GNOME Who"
-msgstr "GNOME Who"
-
-#: apps/kappfinder/apps/Utilities/GnomeWho.desktop:30
-msgctxt "GenericName"
-msgid "System Info Tool"
-msgstr "సిస్టమ్ సమాచార సాధనం"
-
-#: apps/kappfinder/apps/Utilities/SystemInfo.desktop:2
-msgctxt "Name"
-msgid "System Info"
-msgstr "సిస్టమ్ సమాచారం"
-
-#: apps/kappfinder/apps/Utilities/SystemLogViewer.desktop:2
-msgctxt "Name"
-msgid "System Log Viewer"
-msgstr "సిస్టమ్ లాగ్ వీక్షణి"
-
 #: apps/kappfinder/apps/Utilities/calctool.desktop:2
 msgctxt "Name"
 msgid "Calctool"
@@ -1961,6 +1931,26 @@ msgctxt "GenericName"
 msgid "Personal Notes"
 msgstr "వ్యక్తిగత గమనికలు"
 
+#: apps/kappfinder/apps/Utilities/GKrellM.desktop:4
+msgctxt "Name"
+msgid "GKrellM"
+msgstr "GKrellM"
+
+#: apps/kappfinder/apps/Utilities/GKrellM.desktop:12
+msgctxt "GenericName"
+msgid "GNU Krell Monitors"
+msgstr "GNU Krell మానిటర్‍స్"
+
+#: apps/kappfinder/apps/Utilities/GnomeWho.desktop:2
+msgctxt "Name"
+msgid "GNOME Who"
+msgstr "GNOME Who"
+
+#: apps/kappfinder/apps/Utilities/GnomeWho.desktop:30
+msgctxt "GenericName"
+msgid "System Info Tool"
+msgstr "సిస్టమ్ సమాచార సాధనం"
+
 #: apps/kappfinder/apps/Utilities/oclock.desktop:2
 msgctxt "Name"
 msgid "OClock"
@@ -1972,6 +1962,16 @@ msgctxt "GenericName"
 msgid "Clock"
 msgstr "గడియారం"
 
+#: apps/kappfinder/apps/Utilities/SystemInfo.desktop:2
+msgctxt "Name"
+msgid "System Info"
+msgstr "సిస్టమ్ సమాచారం"
+
+#: apps/kappfinder/apps/Utilities/SystemLogViewer.desktop:2
+msgctxt "Name"
+msgid "System Log Viewer"
+msgstr "సిస్టమ్ లాగ్ వీక్షణి"
+
 #: apps/kappfinder/apps/Utilities/xgnokii.desktop:2
 msgctxt "Name"
 msgid "X-Gnokii"
@@ -1981,36 +1981,6 @@ msgstr "X-Gnokii"
 msgctxt "GenericName"
 msgid "Mobile Phone Management Tool"
 msgstr "మొబైల్ ఫోన్ నిర్వహణ సాధనం"
-
-#: apps/kappfinder/apps/Utilities/xutils/Xkill.desktop:2
-msgctxt "Name"
-msgid "X Kill"
-msgstr "X Kill"
-
-#: apps/kappfinder/apps/Utilities/xutils/Xkill.desktop:24
-msgctxt "GenericName"
-msgid "Window Termination Tool"
-msgstr "విండో ముగింపు సాధనం"
-
-#: apps/kappfinder/apps/Utilities/xutils/Xrefresh.desktop:2
-msgctxt "Name"
-msgid "X Refresh"
-msgstr "X రీఫ్రెష్"
-
-#: apps/kappfinder/apps/Utilities/xutils/Xrefresh.desktop:30
-msgctxt "GenericName"
-msgid "Refresh Screen"
-msgstr "తెర రీఫ్రెష్"
-
-#: apps/kappfinder/apps/Utilities/xutils/Xtraceroute.desktop:2
-msgctxt "Name"
-msgid "X Traceroute"
-msgstr "X ట్రెస్‌రూట్"
-
-#: apps/kappfinder/apps/Utilities/xutils/Xtraceroute.desktop:23
-msgctxt "GenericName"
-msgid "Network Tool"
-msgstr "నెట్వర్‍క్  సాధనం"
 
 #: apps/kappfinder/apps/Utilities/xutils/xcalc.desktop:2
 msgctxt "Name"
@@ -2042,6 +2012,16 @@ msgctxt "GenericName"
 msgid "Console Message Viewer"
 msgstr "కన్సోల్ సందేశ వీక్షణి"
 
+#: apps/kappfinder/apps/Utilities/xutils/Xkill.desktop:2
+msgctxt "Name"
+msgid "X Kill"
+msgstr "X Kill"
+
+#: apps/kappfinder/apps/Utilities/xutils/Xkill.desktop:24
+msgctxt "GenericName"
+msgid "Window Termination Tool"
+msgstr "విండో ముగింపు సాధనం"
+
 #: apps/kappfinder/apps/Utilities/xutils/xload.desktop:9
 msgctxt "Name"
 msgid "X Load"
@@ -2062,10 +2042,30 @@ msgctxt "GenericName"
 msgid "Desktop Magnifier"
 msgstr "రంగస్థలం మాగ్నిఫైర్"
 
+#: apps/kappfinder/apps/Utilities/xutils/Xrefresh.desktop:2
+msgctxt "Name"
+msgid "X Refresh"
+msgstr "X రీఫ్రెష్"
+
+#: apps/kappfinder/apps/Utilities/xutils/Xrefresh.desktop:30
+msgctxt "GenericName"
+msgid "Refresh Screen"
+msgstr "తెర రీఫ్రెష్"
+
 #: apps/kappfinder/apps/Utilities/xutils/xterm.desktop:85
 msgctxt "Name"
 msgid "X Terminal"
 msgstr "X టెర్మినల్"
+
+#: apps/kappfinder/apps/Utilities/xutils/Xtraceroute.desktop:2
+msgctxt "Name"
+msgid "X Traceroute"
+msgstr "X ట్రెస్‌రూట్"
+
+#: apps/kappfinder/apps/Utilities/xutils/Xtraceroute.desktop:23
+msgctxt "GenericName"
+msgid "Network Tool"
+msgstr "నెట్వర్‍క్  సాధనం"
 
 #: apps/kappfinder/kappfinder.desktop:9
 msgctxt "Name"
@@ -2287,6 +2287,11 @@ msgctxt "Comment"
 msgid "Attached IEEE 1394 devices"
 msgstr "అనుభందించిన IEEE 1394 పరికరాలు"
 
+#: apps/konqueror/about/konq_aboutpage.desktop:3
+msgctxt "Name"
+msgid "About-Page for Konqueror"
+msgstr "కాంకెరర్ కొరకు గురించి పుట"
+
 #: apps/konqueror/Home.desktop:7 runtime/kioslave/desktop/Home.desktop:3
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:2145
 msgctxt "Name"
@@ -2297,11 +2302,6 @@ msgstr "ఇల్లు"
 msgctxt "GenericName"
 msgid "Personal Files"
 msgstr "వ్యక్తిగత దస్త్రాలు"
-
-#: apps/konqueror/about/konq_aboutpage.desktop:3
-msgctxt "Name"
-msgid "About-Page for Konqueror"
-msgstr "కాంకెరర్ కొరకు గురించి పుట"
 
 #: apps/konqueror/kfmclient.desktop:9 apps/konqueror/kfmclient_dir.desktop:9
 #: apps/konqueror/kfmclient_html.desktop:9
@@ -2377,10 +2377,10 @@ msgid "Web Browsing"
 msgstr "వెబ్ బ్రౌజింగ్"
 
 #: apps/konqueror/quickprint/text-ada-print.desktop:7
-#: apps/konqueror/quickprint/text-c++-print.desktop:7
 #: apps/konqueror/quickprint/text-c++h-print.desktop:7
-#: apps/konqueror/quickprint/text-c-print.desktop:7
 #: apps/konqueror/quickprint/text-ch-print.desktop:7
+#: apps/konqueror/quickprint/text-c-print.desktop:7
+#: apps/konqueror/quickprint/text-c++-print.desktop:7
 #: apps/konqueror/quickprint/text-css-print.desktop:7
 #: apps/konqueror/quickprint/text-diff-print.desktop:7
 #: apps/konqueror/quickprint/text-html-print.desktop:7
@@ -2556,15 +2556,15 @@ msgctxt "Name"
 msgid "UADescription (Lynx 2.8.3)"
 msgstr "UADescription (Lynx 2.8.3)"
 
-#: apps/konqueror/settings/kio/uasproviders/mozoncurrent.desktop:2
-msgctxt "Name"
-msgid "UADescription (Mozilla 1.7 on current)"
-msgstr "UADescription (Mozilla 1.7 on current)"
-
 #: apps/konqueror/settings/kio/uasproviders/mozoncurrent12.desktop:2
 msgctxt "Name"
 msgid "UADescription (Mozilla 1.2.1 on current)"
 msgstr "UADescription (Mozilla 1.2.1 on current)"
+
+#: apps/konqueror/settings/kio/uasproviders/mozoncurrent.desktop:2
+msgctxt "Name"
+msgid "UADescription (Mozilla 1.7 on current)"
+msgstr "UADescription (Mozilla 1.7 on current)"
 
 #: apps/konqueror/settings/kio/uasproviders/mozonwinxp.desktop:2
 msgctxt "Name"
@@ -2652,8 +2652,8 @@ msgid "Change the location important files are stored"
 msgstr "ముఖ్యమైన దస్త్రములు నిల్వవుంచు స్థానమును మార్చుము"
 
 #: apps/konqueror/settings/konq/fileappearance.desktop:11
-#: apps/konqueror/settings/konq/webappearance.desktop:12
 #: apps/konqueror/settings/konqhtml/khtml_appearance.desktop:13
+#: apps/konqueror/settings/konq/webappearance.desktop:12
 #: workspace/systemsettings/categories/settings-appearance.desktop:8
 msgctxt "Name"
 msgid "Appearance"
@@ -2838,15 +2838,15 @@ msgctxt "Name"
 msgid "KDE Official FTP"
 msgstr "కెడిఈ అధికారిక ఎఫ్ టి పి"
 
-#: apps/konqueror/sidebar/trees/init/remote/web/.directory:2
-msgctxt "Name"
-msgid "Web Sites"
-msgstr "వెబ్ సైట్లు"
-
 #: apps/konqueror/sidebar/trees/init/remote/web/apps_web.desktop:4
 msgctxt "Name"
 msgid "KDE Applications"
 msgstr "కెడిఈ కార్యక్రమాలు"
+
+#: apps/konqueror/sidebar/trees/init/remote/web/.directory:2
+msgctxt "Name"
+msgid "Web Sites"
+msgstr "వెబ్ సైట్లు"
 
 #: apps/konqueror/sidebar/trees/init/remote/web/dot_web.desktop:4
 msgctxt "Name"
@@ -2873,17 +2873,17 @@ msgctxt "Comment"
 msgid "This is the root of the filesystem"
 msgstr "ఇది ఫైల్‌సిస్టమ్ యొక్క root"
 
-#: apps/konqueror/sidebar/trees/init/services.desktop:4
-#: apps/konqueror/sidebar/trees/init/services/.directory:3
-msgctxt "Name"
-msgid "Services"
-msgstr "సేవలు"
-
 #: apps/konqueror/sidebar/trees/init/services/applications.desktop:5
 #: workspace/plasma/runners/services/plasma-runner-services.desktop:2
 msgctxt "Name"
 msgid "Applications"
 msgstr "కార్యక్రమాలు"
+
+#: apps/konqueror/sidebar/trees/init/services.desktop:4
+#: apps/konqueror/sidebar/trees/init/services/.directory:3
+msgctxt "Name"
+msgid "Services"
+msgstr "సేవలు"
 
 #: apps/konqueror/sidebar/trees/init/services/printsystem.desktop:5
 msgctxt "Name"
@@ -2921,6 +2921,11 @@ msgstr "కాన్సోల్"
 msgctxt "GenericName"
 msgid "Terminal"
 msgstr "టెర్మినల్"
+
+#: apps/konsole/desktop/konsolehere.desktop:8
+msgctxt "Name"
+msgid "Open Terminal Here"
+msgstr "టెర్మినల్‌ను ఇక్కడ తెరువుము"
 
 #: apps/konsole/desktop/konsole.notifyrc:3
 msgctxt "Comment"
@@ -2977,11 +2982,6 @@ msgctxt "Comment"
 msgid "A session has exited with non-zero status"
 msgstr "సున్నా-కాని స్థితితో ఒక సెషన్ నిష్క్రమించింది."
 
-#: apps/konsole/desktop/konsolehere.desktop:8
-msgctxt "Name"
-msgid "Open Terminal Here"
-msgstr "టెర్మినల్‌ను ఇక్కడ తెరువుము"
-
 #: apps/konsole/desktop/konsolepart.desktop:13
 #: apps/konsole/desktop/terminalemulator.desktop:5
 #: runtime/kcontrol/componentchooser/componentservices/kcm_terminal.desktop:1
@@ -2998,6 +2998,27 @@ msgstr "త్వరిత వాడుక టెర్మినల్"
 msgctxt "Name"
 msgid "KWrite"
 msgstr "KWrite"
+
+#: apps/lib/konq/directory_bookmarkbar.desktop:3
+msgctxt "Name"
+msgid "Bookmark Toolbar"
+msgstr "సాధనపట్టీని ఇష్టాంశముచేయుము"
+
+#: apps/lib/konq/favicons/favicons.desktop:3
+msgctxt "Name"
+msgid "KDED Favicon Module"
+msgstr "KDED ఫావికాన్ మాడ్యూల్"
+
+#: apps/lib/konq/favicons/favicons.desktop:81
+#: runtime/platforms/win/kwinstartmenu/winstartmenu.desktop:63
+msgctxt "Comment"
+msgid "Shortcut icon support"
+msgstr "షార్‍ట్‌కట్ ప్రతిమ మద్దతు"
+
+#: apps/lib/konq/konqpopupmenuplugin.desktop:4
+msgctxt "Comment"
+msgid "Plugin for the Konqueror Popup Menu"
+msgstr "Konqueror పాప్అప్ మెనూకొరకు ప్లగ్ఇన్"
 
 #: apps/lib/konq/Templates/CDROM-Device.desktop:11
 #: apps/lib/konq/Templates/CDWRITER-Device.desktop:11
@@ -3031,16 +3052,6 @@ msgstr "హెచ్ టి ఎం ఎల్ దస్త్రం..."
 msgctxt "Comment"
 msgid "Enter HTML filename:"
 msgstr "హెచ్ టి ఎం ఎల్ దస్త్రం పేరును వ్రాయండి:"
-
-#: apps/lib/konq/Templates/TextFile.desktop:2
-msgctxt "Name"
-msgid "Text File..."
-msgstr "వచన దస్త్రం..."
-
-#: apps/lib/konq/Templates/TextFile.desktop:83
-msgctxt "Comment"
-msgid "Enter text filename:"
-msgstr "వచన దస్త్రం పేరును వ్రాయండి:"
 
 #: apps/lib/konq/Templates/linkCAMERA.desktop:2
 msgctxt "Name"
@@ -3152,26 +3163,15 @@ msgctxt "Comment"
 msgid "New ZIP Device"
 msgstr "కొత్త జిప్ పరికరం"
 
-#: apps/lib/konq/directory_bookmarkbar.desktop:3
+#: apps/lib/konq/Templates/TextFile.desktop:2
 msgctxt "Name"
-msgid "Bookmark Toolbar"
-msgstr "సాధనపట్టీని ఇష్టాంశముచేయుము"
+msgid "Text File..."
+msgstr "వచన దస్త్రం..."
 
-#: apps/lib/konq/favicons/favicons.desktop:3
-msgctxt "Name"
-msgid "KDED Favicon Module"
-msgstr "KDED ఫావికాన్ మాడ్యూల్"
-
-#: apps/lib/konq/favicons/favicons.desktop:81
-#: runtime/platforms/win/kwinstartmenu/winstartmenu.desktop:63
+#: apps/lib/konq/Templates/TextFile.desktop:83
 msgctxt "Comment"
-msgid "Shortcut icon support"
-msgstr "షార్‍ట్‌కట్ ప్రతిమ మద్దతు"
-
-#: apps/lib/konq/konqpopupmenuplugin.desktop:4
-msgctxt "Comment"
-msgid "Plugin for the Konqueror Popup Menu"
-msgstr "Konqueror పాప్అప్ మెనూకొరకు ప్లగ్ఇన్"
+msgid "Enter text filename:"
+msgstr "వచన దస్త్రం పేరును వ్రాయండి:"
 
 #: apps/nsplugins/khtml_plugins.desktop:14
 msgctxt "Name"
@@ -3364,16 +3364,6 @@ msgctxt "Comment"
 msgid "Sorry, I do not know this signal."
 msgstr "క్షమించండి, నాకు ఈ సిగ్నల్ తెలియదు"
 
-#: runtime/kcontrol/componentchooser/EXAMPLE.desktop:1
-msgctxt "Name"
-msgid "A nice name you have chosen for your interface"
-msgstr "మీ ఇంటర్‌ఫేస్ కొరకు ఒక మంచిపేరును మీరు ఎంచుకొనినారు"
-
-#: runtime/kcontrol/componentchooser/EXAMPLE.desktop:80
-msgctxt "Comment"
-msgid "A helpful description of the interface for the top right info box"
-msgstr "పైన కుడప్రక్కనగల సమాచార పెట్టె ఇంటర్‌పేస్ యొక్క సహాయకర వివరణ"
-
 #: runtime/kcontrol/componentchooser/componentchooser.desktop:12
 msgctxt "Name"
 msgid "Default Applications"
@@ -3456,6 +3446,16 @@ msgstr "విండొమెకర్"
 msgctxt "Comment"
 msgid "Here you can select the window manager to be run in your KDE session."
 msgstr "విండో నిర్వాహిక మీ KDE సెషన్‌నందు నడుచునట్లు మీరు యిక్కడ యెంచుకొనగలరు."
+
+#: runtime/kcontrol/componentchooser/EXAMPLE.desktop:1
+msgctxt "Name"
+msgid "A nice name you have chosen for your interface"
+msgstr "మీ ఇంటర్‌ఫేస్ కొరకు ఒక మంచిపేరును మీరు ఎంచుకొనినారు"
+
+#: runtime/kcontrol/componentchooser/EXAMPLE.desktop:80
+msgctxt "Comment"
+msgid "A helpful description of the interface for the top right info box"
+msgstr "పైన కుడప్రక్కనగల సమాచార పెట్టె ఇంటర్‌పేస్ యొక్క సహాయకర వివరణ"
 
 #: runtime/kcontrol/componentchooser/windowmanagers/compiz-custom.desktop:2
 msgctxt "Name"
@@ -3603,6 +3603,41 @@ msgctxt "Name"
 msgid "Application Manuals"
 msgstr "అనువర్తనముల మాన్యువల్‍స్‌"
 
+#: runtime/khelpcenter/plugins/contact.desktop:3
+msgctxt "Name"
+msgid "Contact Information"
+msgstr "సంప్రదింపు సమాచారం"
+
+#: runtime/khelpcenter/plugins/faq.desktop:3
+msgctxt "Name"
+msgid "The KDE FAQ"
+msgstr "కెడిఈ ఎఫ్ ఏ క్యు"
+
+#: runtime/khelpcenter/plugins/info.desktop:2
+msgctxt "Name"
+msgid "Browse Info Pages"
+msgstr "info పుటలను అన్వేషించు"
+
+#: runtime/khelpcenter/plugins/kcontrolmodules.desktop:2
+msgctxt "Name"
+msgid "Control Center Modules"
+msgstr "నియంత్రణా కేంద్రం మాడ్యూళ్లు"
+
+#: runtime/khelpcenter/plugins/kicmodules.desktop:2
+msgctxt "Name"
+msgid "KInfoCenter Modules"
+msgstr "కెసమాచార కేంద్రం మాడ్యూళ్లు"
+
+#: runtime/khelpcenter/plugins/kioslaves.desktop:2
+msgctxt "Name"
+msgid "Kioslaves"
+msgstr "కెఐఒ బానిసలు"
+
+#: runtime/khelpcenter/plugins/links.desktop:3
+msgctxt "Name"
+msgid "KDE on the Web"
+msgstr "వెబ్ లొ కెడిఈ"
+
 #: runtime/khelpcenter/plugins/Manpages/.directory:2
 msgctxt "Name"
 msgid "UNIX manual pages"
@@ -3658,10 +3693,20 @@ msgctxt "Name"
 msgid "(n) New"
 msgstr "(n) కొత్త"
 
+#: runtime/khelpcenter/plugins/plasma.desktop:4
+msgctxt "Name"
+msgid "Plasma Manual"
+msgstr "ప్లాజ్మా మేన్యువల్"
+
 #: runtime/khelpcenter/plugins/Scrollkeeper/.directory:2
 msgctxt "Name"
 msgid "Scrollkeeper"
 msgstr "స్క్రాల్‌కీపర్"
+
+#: runtime/khelpcenter/plugins/support.desktop:3
+msgctxt "Name"
+msgid "Supporting KDE"
+msgstr "కెడిఈ కి సహాయంచెయండి"
 
 #: runtime/khelpcenter/plugins/Tutorials/.directory:3
 msgctxt "Name"
@@ -3692,51 +3737,6 @@ msgstr "KDE కు ఒక దృశ్యసంభంద మార్గదర�
 msgctxt "Comment"
 msgid "Guide to KDE widgets"
 msgstr "KDE విడ్జట్‍స్‌కు మార్గదర్శి"
-
-#: runtime/khelpcenter/plugins/contact.desktop:3
-msgctxt "Name"
-msgid "Contact Information"
-msgstr "సంప్రదింపు సమాచారం"
-
-#: runtime/khelpcenter/plugins/faq.desktop:3
-msgctxt "Name"
-msgid "The KDE FAQ"
-msgstr "కెడిఈ ఎఫ్ ఏ క్యు"
-
-#: runtime/khelpcenter/plugins/info.desktop:2
-msgctxt "Name"
-msgid "Browse Info Pages"
-msgstr "info పుటలను అన్వేషించు"
-
-#: runtime/khelpcenter/plugins/kcontrolmodules.desktop:2
-msgctxt "Name"
-msgid "Control Center Modules"
-msgstr "నియంత్రణా కేంద్రం మాడ్యూళ్లు"
-
-#: runtime/khelpcenter/plugins/kicmodules.desktop:2
-msgctxt "Name"
-msgid "KInfoCenter Modules"
-msgstr "కెసమాచార కేంద్రం మాడ్యూళ్లు"
-
-#: runtime/khelpcenter/plugins/kioslaves.desktop:2
-msgctxt "Name"
-msgid "Kioslaves"
-msgstr "కెఐఒ బానిసలు"
-
-#: runtime/khelpcenter/plugins/links.desktop:3
-msgctxt "Name"
-msgid "KDE on the Web"
-msgstr "వెబ్ లొ కెడిఈ"
-
-#: runtime/khelpcenter/plugins/plasma.desktop:4
-msgctxt "Name"
-msgid "Plasma Manual"
-msgstr "ప్లాజ్మా మేన్యువల్"
-
-#: runtime/khelpcenter/plugins/support.desktop:3
-msgctxt "Name"
-msgid "Supporting KDE"
-msgstr "కెడిఈ కి సహాయంచెయండి"
 
 #: runtime/khelpcenter/plugins/userguide.desktop:3
 msgctxt "Name"
@@ -4186,16 +4186,6 @@ msgctxt "Comment"
 msgid "Built-in unthemed CDE style"
 msgstr "అంతర్-నిర్మిత అన్‌థీమ్‌డ్ CDE శైలి"
 
-#: runtime/kstyles/themes/qtmotif.themerc:2
-msgctxt "Name"
-msgid "Motif"
-msgstr "మోటిఫ్"
-
-#: runtime/kstyles/themes/qtmotif.themerc:17
-msgctxt "Comment"
-msgid "Built-in unthemed Motif style"
-msgstr "అంతర్-నిర్మిత అన్‌థీమ్‌డ్ మోటిఫ్ శైలి"
-
 #: runtime/kstyles/themes/qtmotifplus.themerc:2
 msgctxt "Name"
 msgid "Motif Plus"
@@ -4205,6 +4195,16 @@ msgstr "మోటిఫ్ ప్లస్"
 msgctxt "Comment"
 msgid "Built-in enhanced Motif style"
 msgstr "అంతర్-నిర్మిత విస్తరిత మోటిఫ్ శైలి"
+
+#: runtime/kstyles/themes/qtmotif.themerc:2
+msgctxt "Name"
+msgid "Motif"
+msgstr "మోటిఫ్"
+
+#: runtime/kstyles/themes/qtmotif.themerc:17
+msgctxt "Comment"
+msgid "Built-in unthemed Motif style"
+msgstr "అంతర్-నిర్మిత అన్‌థీమ్‌డ్ మోటిఫ్ శైలి"
 
 #: runtime/kstyles/themes/qtplatinum.themerc:2
 msgctxt "Name"
@@ -4458,18 +4458,6 @@ msgstr ""
 "http://search.cpan.org/search?mode=\\\\{mode,2,\"dist\"}&query=\\\\{query,"
 "q,1}"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/ctan.desktop:3
-msgctxt "Name"
-msgid "CTAN - Comprehensive TeX Archive Network"
-msgstr "CTAN - విశదీకృత Tex ఆర్చివ్ నెట్వర్‍క్"
-
-#: runtime/kurifilter-plugins/ikws/searchproviders/ctan.desktop:59
-msgctxt "Query"
-msgid ""
-"http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
-msgstr ""
-"http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
-
 #: runtime/kurifilter-plugins/ikws/searchproviders/ctan_cat.desktop:3
 msgctxt "Name"
 msgid "CTAN Catalog"
@@ -4483,6 +4471,18 @@ msgid ""
 msgstr ""
 "http://tug.ctan.org/cgi-bin/search.py?metadataSearch=\\\\{@}"
 "&metadataSearchSubmit=Search"
+
+#: runtime/kurifilter-plugins/ikws/searchproviders/ctan.desktop:3
+msgctxt "Name"
+msgid "CTAN - Comprehensive TeX Archive Network"
+msgstr "CTAN - విశదీకృత Tex ఆర్చివ్ నెట్వర్‍క్"
+
+#: runtime/kurifilter-plugins/ikws/searchproviders/ctan.desktop:59
+msgctxt "Query"
+msgid ""
+"http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
+msgstr ""
+"http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/dbug.desktop:3
 msgctxt "Name"
@@ -4686,16 +4686,6 @@ msgctxt "Query"
 msgid "http://directory.fsf.org/search/?query=\\\\{@}"
 msgstr "http://directory.fsf.org/search/?query=\\\\{@}"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/google.desktop:3
-msgctxt "Name"
-msgid "Google"
-msgstr "గూగుల్"
-
-#: runtime/kurifilter-plugins/ikws/searchproviders/google.desktop:24
-msgctxt "Query"
-msgid "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
-msgstr "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
-
 #: runtime/kurifilter-plugins/ikws/searchproviders/google_advanced.desktop:3
 msgctxt "Name"
 msgid "Google Advanced Search"
@@ -4717,6 +4707,16 @@ msgstr ""
 "\\{filetype,\"\"}&as_qdr=\\\\{date,\"all\"}&as_occt=\\\\{occ,\"any\"}&as_dt="
 "\\\\{siteop,\"i\"}&as_sitesearch=\\\\{site}&safe=\\\\{safe,\"active\"}"
 "&ie=UTF-8&oe=UTF-8"
+
+#: runtime/kurifilter-plugins/ikws/searchproviders/google.desktop:3
+msgctxt "Name"
+msgid "Google"
+msgstr "గూగుల్"
+
+#: runtime/kurifilter-plugins/ikws/searchproviders/google.desktop:24
+msgctxt "Query"
+msgid "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
+msgstr "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/google_groups.desktop:3
 msgctxt "Name"
@@ -5089,16 +5089,6 @@ msgstr ""
 "http://www.google.com/search?sourceid=python-search&q=\\\\{@}"
 "&submit=Search&q=site%3Apython.org"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/qt.desktop:5
-msgctxt "Name"
-msgid "Latest Qt Online Documentation"
-msgstr "సరికొత్త Qt ఆన్‌లైన్ పత్రికీకరణ"
-
-#: runtime/kurifilter-plugins/ikws/searchproviders/qt.desktop:83
-msgctxt "Query"
-msgid "http://doc.trolltech.com/latest/\\\\{@}.html"
-msgstr "http://doc.trolltech.com/latest/\\\\{@}.html"
-
 #: runtime/kurifilter-plugins/ikws/searchproviders/qt3.desktop:5
 msgctxt "Name"
 msgid "Qt3 Online Documentation"
@@ -5108,6 +5098,16 @@ msgstr "Qt3 ఆన్‌లైన్ పత్రికీకరణ"
 msgctxt "Query"
 msgid "http://doc.trolltech.com/3.3/\\\\{@}.html"
 msgstr "http://doc.trolltech.com/3.3/\\\\{@}.html"
+
+#: runtime/kurifilter-plugins/ikws/searchproviders/qt.desktop:5
+msgctxt "Name"
+msgid "Latest Qt Online Documentation"
+msgstr "సరికొత్త Qt ఆన్‌లైన్ పత్రికీకరణ"
+
+#: runtime/kurifilter-plugins/ikws/searchproviders/qt.desktop:83
+msgctxt "Query"
+msgid "http://doc.trolltech.com/latest/\\\\{@}.html"
+msgstr "http://doc.trolltech.com/latest/\\\\{@}.html"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/rae.desktop:5
 msgctxt "Name"
@@ -5335,11 +5335,6 @@ msgctxt "Comment"
 msgid "Wallet Server"
 msgstr "వాలెట్ సెర్వర్"
 
-#: runtime/l10n/C/entry.desktop:2
-msgctxt "Name"
-msgid "Default"
-msgstr "అప్రమెయం"
-
 #: runtime/l10n/ad/entry.desktop:2
 msgctxt "Name"
 msgid "Andorra"
@@ -5549,6 +5544,11 @@ msgstr "మధ్య ఆసియా"
 msgctxt "Name"
 msgid "Europe, Central"
 msgstr "మధ్య ఐరొపా"
+
+#: runtime/l10n/C/entry.desktop:2
+msgctxt "Name"
+msgid "Default"
+msgstr "అప్రమెయం"
 
 #: runtime/l10n/cf/entry.desktop:2
 msgctxt "Name"
@@ -6601,6 +6601,11 @@ msgctxt "Name"
 msgid "Internal Services"
 msgstr "అంతర్గత సేవలు"
 
+#: runtime/menu/desktop/kde-development.directory:4
+msgctxt "Name"
+msgid "Development"
+msgstr "డెవలప్ మెంట్"
+
 #: runtime/menu/desktop/kde-development-translation.directory:4
 #: runtime/menu/desktop/kde-development-translation.directory:92
 msgctxt "Name"
@@ -6613,15 +6618,15 @@ msgctxt "Name"
 msgid "Web Development"
 msgstr "వెబ్ డెవలప్ మెంట్"
 
-#: runtime/menu/desktop/kde-development.directory:4
-msgctxt "Name"
-msgid "Development"
-msgstr "డెవలప్ మెంట్"
-
 #: runtime/menu/desktop/kde-editors.directory:4
 msgctxt "Name"
 msgid "Editors"
 msgstr "ఎడిటర్లు"
+
+#: runtime/menu/desktop/kde-education.directory:4
+msgctxt "Name"
+msgid "Education"
+msgstr "విధ్య"
 
 #: runtime/menu/desktop/kde-edu-languages.directory:5
 msgctxt "Name"
@@ -6648,11 +6653,6 @@ msgctxt "Name"
 msgid "Teaching Tools"
 msgstr "భోధనా సాధనములు"
 
-#: runtime/menu/desktop/kde-education.directory:4
-msgctxt "Name"
-msgid "Education"
-msgstr "విధ్య"
-
 #: runtime/menu/desktop/kde-games-arcade.directory:4
 msgctxt "Name"
 msgid "Arcade"
@@ -6667,6 +6667,11 @@ msgstr "పలక ఆటలు"
 msgctxt "Name"
 msgid "Card Games"
 msgstr "పేక ఆటలు"
+
+#: runtime/menu/desktop/kde-games.directory:4
+msgctxt "Name"
+msgid "Games"
+msgstr "ఆటలు"
 
 #: runtime/menu/desktop/kde-games-kids.directory:4
 msgctxt "Name"
@@ -6691,26 +6696,21 @@ msgctxt "Name"
 msgid "Tactics & Strategy"
 msgstr "యుక్తి & తంత్రాలు"
 
-#: runtime/menu/desktop/kde-games.directory:4
-msgctxt "Name"
-msgid "Games"
-msgstr "ఆటలు"
-
 #: runtime/menu/desktop/kde-graphics.directory:4
 msgctxt "Name"
 msgid "Graphics"
 msgstr "గ్రాఫిక్స్"
+
+#: runtime/menu/desktop/kde-internet.directory:4
+msgctxt "Name"
+msgid "Internet"
+msgstr "ఇంటర్నెట్"
 
 #: runtime/menu/desktop/kde-internet-terminal.directory:4
 #: runtime/menu/desktop/kde-system-terminal.directory:4
 msgctxt "Name"
 msgid "Terminal Applications"
 msgstr "టర్మినల్ కార్యక్షేత్రాలు"
-
-#: runtime/menu/desktop/kde-internet.directory:4
-msgctxt "Name"
-msgid "Internet"
-msgstr "ఇంటర్నెట్"
 
 #: runtime/menu/desktop/kde-main.directory:5
 msgctxt "Name"
@@ -6778,6 +6778,16 @@ msgctxt "Comment"
 msgid "Desktop"
 msgstr "రంగస్థలం"
 
+#: runtime/menu/desktop/kde-utilities.directory:4
+msgctxt "Name"
+msgid "Utilities"
+msgstr "సౌలభ్యాలు"
+
+#: runtime/menu/desktop/kde-utilities.directory:88
+msgctxt "Comment"
+msgid "Utilities"
+msgstr "సౌలభ్యాలు"
+
 #: runtime/menu/desktop/kde-utilities-file.directory:4
 msgctxt "Name"
 msgid "File"
@@ -6817,16 +6827,6 @@ msgstr "ఎక్స్-సౌలభ్యాలు"
 msgctxt "Comment"
 msgid "X Window Utilities"
 msgstr "ఎక్స్ విండొ సౌలభ్యాలు"
-
-#: runtime/menu/desktop/kde-utilities.directory:4
-msgctxt "Name"
-msgid "Utilities"
-msgstr "సౌలభ్యాలు"
-
-#: runtime/menu/desktop/kde-utilities.directory:88
-msgctxt "Comment"
-msgid "Utilities"
-msgstr "సౌలభ్యాలు"
 
 #: runtime/nepomuk/kcm/kcm_nepomuk.desktop:11
 msgctxt "Name"
@@ -7052,6 +7052,11 @@ msgctxt "Comment"
 msgid "A server to centralize decisions and data of applications using Phonon"
 msgstr "ఫోనాన్‌ను వుపయోగించి నిర్ణయములను మరియు అనువర్తనముల దత్తాంశమును కేంద్రీకృతం చేయుటకు సెర్వర్"
 
+#: runtime/phonon/platform_kde/phononbackend.desktop:4
+msgctxt "Name"
+msgid "KDE Multimedia Backend"
+msgstr "KDE బహుళమాద్యమం బ్యాక్ఎండ్"
+
 #: runtime/phonon/platform_kde/phonon.notifyrc:3
 msgctxt "Comment"
 msgid "Phonon: KDE's Multimedia Library"
@@ -7072,11 +7077,6 @@ msgctxt "Comment"
 msgid ""
 "Notification on automatic fallback if the preferred device is unavailable"
 msgstr "అభీష్ట పరికరం అందుబాటులో లేకపోతే స్వయంచాలక ఫాల్‌బాక్‌పై నోటీసు"
-
-#: runtime/phonon/platform_kde/phononbackend.desktop:4
-msgctxt "Name"
-msgid "KDE Multimedia Backend"
-msgstr "KDE బహుళమాద్యమం బ్యాక్ఎండ్"
 
 #: runtime/pics/hicolor/index.theme:2
 msgctxt "Name"
@@ -7615,6 +7615,16 @@ msgctxt "Comment"
 msgid "An emulation of the Plan 9 window manager 8-1/2"
 msgstr "ప్లాన్ 9 విండో నిర్వాహిక 8-1/2 యొక్క పోటి"
 
+#: workspace/kdm/kfrontend/sessions/aewm.desktop:5
+msgctxt "Name"
+msgid "AEWM"
+msgstr "ఎ ఈ డబ్ల్యు ఎం"
+
+#: workspace/kdm/kfrontend/sessions/aewm.desktop:13
+msgctxt "Comment"
+msgid "A minimalist window manager"
+msgstr "కనీసజాబిత విండో నిర్వాహిక"
+
 #: workspace/kdm/kfrontend/sessions/aewm++.desktop:5
 msgctxt "Name"
 msgid "AEWM++"
@@ -7628,16 +7638,6 @@ msgid ""
 msgstr ""
 "AEWM ఆధారంతో కనీసపు విండో నిర్వాహిక, వర్చ్యువల్ డెస్‍క్ టాప్‍స్  మరియు పాక్షిక GNOME మద్దతు ద్వారా "
 "విస్తరించబడింది"
-
-#: workspace/kdm/kfrontend/sessions/aewm.desktop:5
-msgctxt "Name"
-msgid "AEWM"
-msgstr "ఎ ఈ డబ్ల్యు ఎం"
-
-#: workspace/kdm/kfrontend/sessions/aewm.desktop:13
-msgctxt "Comment"
-msgid "A minimalist window manager"
-msgstr "కనీసజాబిత విండో నిర్వాహిక"
 
 #: workspace/kdm/kfrontend/sessions/afterstep.desktop:5
 msgctxt "Name"
@@ -7762,16 +7762,6 @@ msgctxt "Comment"
 msgid "The Fast Light Window Manager, based primarily on WM2"
 msgstr "ఫాస్‍ట్‌లైట్ విండో నిర్వాహిక, ప్రాధమికంగా WM2 పై ఆధారపడి"
 
-#: workspace/kdm/kfrontend/sessions/fvwm.desktop:5
-msgctxt "Name"
-msgid "FVWM"
-msgstr "ఎఫ్ వి డబ్ల్యు ఎం"
-
-#: workspace/kdm/kfrontend/sessions/fvwm.desktop:13
-msgctxt "Comment"
-msgid "A powerful ICCCM-compliant multiple virtual desktop window manager"
-msgstr "శక్తివంతమైన ICCCM-కంప్లైంట్ బహుళ వర్చ్యువల్ డెస్‍క్ టాప్ విండో నిర్వాహిక"
-
 #: workspace/kdm/kfrontend/sessions/fvwm95.desktop:5
 msgctxt "Name"
 msgid "FVWM95"
@@ -7781,6 +7771,16 @@ msgstr "ఎఫ్ వి డబ్ల్యు ఎం 95"
 msgctxt "Comment"
 msgid "A Windows 95 look-alike derivative of FVWM"
 msgstr "FVWM యొక్క విండోస్ 95 లుక్-ఎలైక్ ‌వ్యుత్పన్నం"
+
+#: workspace/kdm/kfrontend/sessions/fvwm.desktop:5
+msgctxt "Name"
+msgid "FVWM"
+msgstr "ఎఫ్ వి డబ్ల్యు ఎం"
+
+#: workspace/kdm/kfrontend/sessions/fvwm.desktop:13
+msgctxt "Comment"
+msgid "A powerful ICCCM-compliant multiple virtual desktop window manager"
+msgstr "శక్తివంతమైన ICCCM-కంప్లైంట్ బహుళ వర్చ్యువల్ డెస్‍క్ టాప్ విండో నిర్వాహిక"
 
 #: workspace/kdm/kfrontend/sessions/gnome.desktop:5
 msgctxt "Name"
@@ -8048,18 +8048,6 @@ msgctxt "Comment"
 msgid "A simple window manager that resembles the NeXTStep look very closely"
 msgstr "NeXTStep రూపును చాలా దగ్గరగా తుల్యంచేయు సాదారణ విండో నిర్వాహకి"
 
-#: workspace/kdm/kfrontend/sessions/xfce.desktop:5
-msgctxt "Name"
-msgid "XFce"
-msgstr "ఎక్స్ ఎఫ్ సి ఈ"
-
-#: workspace/kdm/kfrontend/sessions/xfce.desktop:13
-msgctxt "Comment"
-msgid ""
-"The Cholesterol Free Desktop Environment. A desktop environment reminiscent "
-"of CDE"
-msgstr "కొలెస్ట్రాల్ లేని డెస్‍క్ టాప్ వాతావరణం. CDE గుర్తుగా ఒక డెస్‍క్ టాప్ వాతావరణం"
-
 #: workspace/kdm/kfrontend/sessions/xfce4.desktop:5
 msgctxt "Name"
 msgid "XFce 4"
@@ -8071,6 +8059,18 @@ msgid ""
 "The Cholesterol Free Desktop Environment, version 4. A desktop environment "
 "reminiscent of CDE"
 msgstr "కొలెస్ట్రాల్ లేని డెస్‍క్ టాప్ వాతావరణం, వర్షన్ 4. CDE గుర్తుగా ఒక డెస్‍క్ టాప్ వాతావరణం"
+
+#: workspace/kdm/kfrontend/sessions/xfce.desktop:5
+msgctxt "Name"
+msgid "XFce"
+msgstr "ఎక్స్ ఎఫ్ సి ఈ"
+
+#: workspace/kdm/kfrontend/sessions/xfce.desktop:13
+msgctxt "Comment"
+msgid ""
+"The Cholesterol Free Desktop Environment. A desktop environment reminiscent "
+"of CDE"
+msgstr "కొలెస్ట్రాల్ లేని డెస్‍క్ టాప్ వాతావరణం. CDE గుర్తుగా ఒక డెస్‍క్ టాప్ వాతావరణం"
 
 #: workspace/kdm/kfrontend/themes/circles/KdmGreeterTheme.desktop:6
 msgctxt "Name"
@@ -8875,8 +8875,8 @@ msgctxt "Comment"
 msgid "Blurs the background behind semi-transparent windows"
 msgstr "స్వల్ప-పారదర్శక విండోల యొక్క బ్యాక్‌గ్రౌండ్‌ను బ్లర్‌చేస్తుంది"
 
-#: workspace/kwin/effects/boxswitch.desktop:2
 #: workspace/kwin/effects/boxswitch_config.desktop:9
+#: workspace/kwin/effects/boxswitch.desktop:2
 msgctxt "Name"
 msgid "Box Switch"
 msgstr "బాక్‍స్  స్విచ్"
@@ -8889,8 +8889,8 @@ msgctxt "Comment"
 msgid "Display thumbnails of windows in the alt+tab window switcher"
 msgstr "కవర్ స్విచ్ - ఒక ప్రత్యామ్నాయ alt+tab విండో స్విచర్"
 
-#: workspace/kwin/effects/coverswitch.desktop:2
 #: workspace/kwin/effects/coverswitch_config.desktop:9
+#: workspace/kwin/effects/coverswitch.desktop:2
 msgctxt "Name"
 msgid "Cover Switch"
 msgstr "కవర్ స్విచ్"
@@ -8903,8 +8903,8 @@ msgctxt "Comment"
 msgid "Display a Cover Flow effect for the alt+tab window switcher"
 msgstr "కవర్ స్విచ్ - ఒక ప్రత్యామ్నాయ alt+tab విండో స్విచర్"
 
-#: workspace/kwin/effects/cube.desktop:2
 #: workspace/kwin/effects/cube_config.desktop:9
+#: workspace/kwin/effects/cube.desktop:2
 msgctxt "Name"
 msgid "Desktop Cube"
 msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
@@ -8917,8 +8917,8 @@ msgctxt "Comment"
 msgid "Display each virtual desktop on a side of a cube"
 msgstr "క్యూబ్‌పైన వర్చ్యువల్ డెస్‍క్ టాప్‍స్ ను మాప్‌చేయుము"
 
-#: workspace/kwin/effects/cylinder.desktop:2
 #: workspace/kwin/effects/cylinder_config.desktop:9
+#: workspace/kwin/effects/cylinder.desktop:2
 msgctxt "Name"
 msgid "Desktop Cylinder"
 msgstr "డెస్‍క్ టాప్ సిలెండర్"
@@ -8931,8 +8931,8 @@ msgctxt "Comment"
 msgid "Display each virtual desktop on the side of a cylinder"
 msgstr "సిలెండర్‌పైన వర్చ్యువల్ డెస్‍క్ టాప్‌లను మాప్‌చేయుము"
 
-#: workspace/kwin/effects/desktopgrid.desktop:2
 #: workspace/kwin/effects/desktopgrid_config.desktop:9
+#: workspace/kwin/effects/desktopgrid.desktop:2
 msgctxt "Name"
 msgid "Desktop Grid"
 msgstr "డెస్‍క్ టాప్ గ్రిడ్"
@@ -8955,8 +8955,8 @@ msgctxt "Comment"
 msgid "Darkens the parent window of the currently active dialog"
 msgstr "క్రియాశీల డైలాగ్‍స్  యొక్క మాత్రుక విండోలను అగోచరంచేస్తుంది"
 
-#: workspace/kwin/effects/diminactive.desktop:2
 #: workspace/kwin/effects/diminactive_config.desktop:9
+#: workspace/kwin/effects/diminactive.desktop:2
 msgctxt "Name"
 msgid "Dim Inactive"
 msgstr "Dim క్రియాహీనం"
@@ -9015,8 +9015,8 @@ msgctxt "Comment"
 msgid "Closed windows fall into pieces"
 msgstr "మూసిన విండోలు ముక్కలుగా పడతాయి"
 
-#: workspace/kwin/effects/flipswitch.desktop:2
 #: workspace/kwin/effects/flipswitch_config.desktop:9
+#: workspace/kwin/effects/flipswitch.desktop:2
 msgctxt "Name"
 msgid "Flip Switch"
 msgstr "ఫ్లిప్ స్విచ్"
@@ -9030,8 +9030,8 @@ msgid ""
 "Flip through windows that are in a stack for the alt+tab window switcher"
 msgstr "కవర్ స్విచ్ - ఒక ప్రత్యామ్నాయ alt+tab విండో స్విచర్"
 
-#: workspace/kwin/effects/invert.desktop:2
 #: workspace/kwin/effects/invert_config.desktop:9
+#: workspace/kwin/effects/invert.desktop:2
 msgctxt "Name"
 msgid "Invert"
 msgstr "ఇన్వర్‍ట్"
@@ -9056,8 +9056,8 @@ msgctxt "Comment"
 msgid "Desaturate the desktop when displaying the logout dialog"
 msgstr "లాగ్అవుట్ డైలాగ్‌ను ప్రదర్శిస్తున్నప్పుడు రంగస్థలమును డీసాట్యురేట్ చేయుము"
 
-#: workspace/kwin/effects/lookingglass.desktop:2
 #: workspace/kwin/effects/lookingglass_config.desktop:9
+#: workspace/kwin/effects/lookingglass.desktop:2
 msgctxt "Name"
 msgid "Looking Glass"
 msgstr "లుకింగ్ గ్లాస్"
@@ -9080,8 +9080,8 @@ msgctxt "Comment"
 msgid "Simulate a magic lamp when minimizing windows"
 msgstr "విండోలను చిన్నదిచేయుట ఏనిమేట్‌చేయుము"
 
-#: workspace/kwin/effects/magnifier.desktop:2
 #: workspace/kwin/effects/magnifier_config.desktop:9
+#: workspace/kwin/effects/magnifier.desktop:2
 msgctxt "Name"
 msgid "Magnifier"
 msgstr "మాగ్నిఫైర్"
@@ -9094,8 +9094,8 @@ msgctxt "Comment"
 msgid "Magnify the section of the screen that is near the mouse cursor"
 msgstr "మౌస్ క్రిందవున్న తెర భాగమును పెద్దదిచేస్తుంది"
 
-#: workspace/kwin/effects/maketransparent.desktop:2
 #: workspace/kwin/effects/maketransparent_config.desktop:9
+#: workspace/kwin/effects/maketransparent.desktop:2
 msgctxt "Name"
 msgid "Translucency"
 msgstr "ట్రాన్‍స్‌లుసెన్సీ"
@@ -9118,8 +9118,8 @@ msgctxt "Comment"
 msgid "Animate the minimizing of windows"
 msgstr "విండోలను చిన్నదిచేయుట ఏనిమేట్‌చేయుము"
 
-#: workspace/kwin/effects/mousemark.desktop:2
 #: workspace/kwin/effects/mousemark_config.desktop:9
+#: workspace/kwin/effects/mousemark.desktop:2
 msgctxt "Name"
 msgid "Mouse Mark"
 msgstr "మౌస్ గుర్తు"
@@ -9132,8 +9132,8 @@ msgctxt "Comment"
 msgid "Allows you to draw lines on the desktop"
 msgstr "మీ డెస్‍క్ టాప్‌ పైన గీతలను గీయనిస్తుంది"
 
-#: workspace/kwin/effects/presentwindows.desktop:2
 #: workspace/kwin/effects/presentwindows_config.desktop:9
+#: workspace/kwin/effects/presentwindows.desktop:2
 msgctxt "Name"
 msgid "Present Windows"
 msgstr "ప్రస్తుత విండోలు"
@@ -9156,8 +9156,8 @@ msgctxt "Comment"
 msgid "Animate the appearing of windows"
 msgstr "విండోలు కనిపించు విధంను యానిమేట్‌చేస్తుంది"
 
-#: workspace/kwin/effects/shadow.desktop:2
 #: workspace/kwin/effects/shadow_config.desktop:9
+#: workspace/kwin/effects/shadow.desktop:2
 msgctxt "Name"
 msgid "Shadow"
 msgstr "నీ‍డ"
@@ -9170,8 +9170,8 @@ msgctxt "Comment"
 msgid "Draw shadows under windows"
 msgstr "విండోల క్రింద నీడను జతచేస్తుంది"
 
-#: workspace/kwin/effects/sharpen.desktop:2
 #: workspace/kwin/effects/sharpen_config.desktop:9
+#: workspace/kwin/effects/sharpen.desktop:2
 msgctxt "Name"
 msgid "Sharpen"
 msgstr "పదునుగా"
@@ -9184,8 +9184,8 @@ msgctxt "Comment"
 msgid "Make the entire desktop look sharper"
 msgstr "మీ డెస్‍క్ టాప్ మెరుగుగా కనబడునట్లు చేస్తుంది"
 
-#: workspace/kwin/effects/showfps.desktop:2
 #: workspace/kwin/effects/showfps_config.desktop:9
+#: workspace/kwin/effects/showfps.desktop:2
 msgctxt "Name"
 msgid "Show FPS"
 msgstr "FPS ను చూపుము"
@@ -9221,8 +9221,8 @@ msgctxt "Comment"
 msgid "Slide windows across the screen when switching virtual desktops"
 msgstr "డెస్‍క్ టాప్ పైన మంచుకురవనివ్వు"
 
-#: workspace/kwin/effects/snow.desktop:3
 #: workspace/kwin/effects/snow_config.desktop:9
+#: workspace/kwin/effects/snow.desktop:3
 msgctxt "Name"
 msgid "Snow"
 msgstr "మంచు"
@@ -9235,8 +9235,8 @@ msgctxt "Comment"
 msgid "Simulate snow falling over the desktop"
 msgstr "డెస్‍క్ టాప్ పైన మంచుకురవనివ్వు"
 
-#: workspace/kwin/effects/sphere.desktop:2
 #: workspace/kwin/effects/sphere_config.desktop:9
+#: workspace/kwin/effects/sphere.desktop:2
 msgctxt "Name"
 msgid "Desktop Sphere"
 msgstr "డెస్క్ టాప్ గొళం"
@@ -9317,8 +9317,8 @@ msgctxt "Name"
 msgid "Test_Thumbnail"
 msgstr "టెస్‍ట్_థంబ్‌నెయిల్"
 
-#: workspace/kwin/effects/test/videorecord.desktop:2
 #: workspace/kwin/effects/test/videorecord_config.desktop:9
+#: workspace/kwin/effects/test/videorecord.desktop:2
 msgctxt "Name"
 msgid "Video Record"
 msgstr "వీడియో రికార్‍డ్"
@@ -9331,8 +9331,8 @@ msgctxt "Comment"
 msgid "Record a video of your desktop"
 msgstr "మీ డెస్‍క్ టాప్ యొక్క వీడియోలను రికార్‍డ్ చేయనిస్తుంది"
 
-#: workspace/kwin/effects/thumbnailaside.desktop:2
 #: workspace/kwin/effects/thumbnailaside_config.desktop:9
+#: workspace/kwin/effects/thumbnailaside.desktop:2
 msgctxt "Name"
 msgid "Thumbnail Aside"
 msgstr "థంబ్‌నెయిల్ ఎసైడ్"
@@ -9345,8 +9345,8 @@ msgctxt "Comment"
 msgid "Display window thumbnails on the edge of the screen"
 msgstr "విండో థంబ్‌నెయిల్‍స్ ను తెర అంచుపైన చూపుము"
 
-#: workspace/kwin/effects/trackmouse.desktop:2
 #: workspace/kwin/effects/trackmouse_config.desktop:9
+#: workspace/kwin/effects/trackmouse.desktop:2
 msgctxt "Name"
 msgid "Track Mouse"
 msgstr "ట్రాక్ మౌస్"
@@ -9359,8 +9359,8 @@ msgctxt "Comment"
 msgid "Display a mouse cursor locating effect when activated"
 msgstr "క్రియాశీలమైనప్పుడు మౌస్ కర్సర్ స్థానమును చూపుతుంది"
 
-#: workspace/kwin/effects/wobblywindows.desktop:2
 #: workspace/kwin/effects/wobblywindows_config.desktop:9
+#: workspace/kwin/effects/wobblywindows.desktop:2
 msgctxt "Name"
 msgid "Wobbly Windows"
 msgstr "వూబ్లీ విండోస్"
@@ -9373,8 +9373,8 @@ msgctxt "Comment"
 msgid "Deform windows while they are moving"
 msgstr "విండోలు మూసినప్పుడు ఎక్‍స్ ప్లోడ్ అగునట్లు చేయుము"
 
-#: workspace/kwin/effects/zoom.desktop:2
 #: workspace/kwin/effects/zoom_config.desktop:9
+#: workspace/kwin/effects/zoom.desktop:2
 msgctxt "Name"
 msgid "Zoom"
 msgstr "జూమ్"
@@ -10584,6 +10584,11 @@ msgctxt "Comment"
 msgid "Fast user switching"
 msgstr "వేగవంతమైన వినియోగదారి మార్పు"
 
+#: workspace/plasma/runners/shell/plasma-runner-shell_config.desktop:9
+msgctxt "Name"
+msgid "Shell Runner Config"
+msgstr "Shell Runner Config"
+
 #: workspace/plasma/runners/shell/plasma-runner-shell.desktop:2
 msgctxt "Name"
 msgid "Command Line"
@@ -10593,11 +10598,6 @@ msgstr "ఆదేశ వరుస"
 msgctxt "Comment"
 msgid "Executes shell commands"
 msgstr "షెల్ ఆదేశాలను నిర్వర్తిస్తుంది"
-
-#: workspace/plasma/runners/shell/plasma-runner-shell_config.desktop:9
-msgctxt "Name"
-msgid "Shell Runner Config"
-msgstr "Shell Runner Config"
 
 #: workspace/plasma/runners/webshortcuts/plasma-runner-webshortcuts.desktop:84
 msgctxt "Comment"

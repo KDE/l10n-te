@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-29 07:26+0200\n"
+"POT-Creation-Date: 2009-05-11 07:04+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -724,11 +724,6 @@ msgid ""
 "window operations menu instead, activated using the %1 keyboard shortcut."
 msgstr ""
 
-#: effects/cube.cpp:91 effects/cube_config.cpp:61
-#: effects/cylinder_config.cpp:61 effects/sphere_config.cpp:61
-msgid "Desktop Cube"
-msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
-
 #: effects/cube_config.cpp:53 effects/cylinder_config.cpp:53
 #: effects/sphere_config.cpp:53
 msgctxt "@title:tab Basic Settings"
@@ -741,7 +736,12 @@ msgctxt "@title:tab Advanced Settings"
 msgid "Advanced"
 msgstr "ఆధునాతన"
 
-#: effects/desktopgrid.cpp:59 effects/desktopgrid_config.cpp:57
+#: effects/cube_config.cpp:61 effects/cube.cpp:91
+#: effects/cylinder_config.cpp:61 effects/sphere_config.cpp:61
+msgid "Desktop Cube"
+msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
+
+#: effects/desktopgrid_config.cpp:57 effects/desktopgrid.cpp:59
 msgid "Show Desktop Grid"
 msgstr ""
 
@@ -785,32 +785,32 @@ msgstr ""
 msgid "Center"
 msgstr ""
 
-#: effects/invert.cpp:47 effects/invert_config.cpp:45
+#: effects/invert_config.cpp:45 effects/invert.cpp:47
 msgid "Toggle Invert Effect"
 msgstr "విలోమ ప్రభావమును మార్చుము"
 
-#: effects/invert.cpp:52 effects/invert_config.cpp:50
+#: effects/invert_config.cpp:50 effects/invert.cpp:52
 msgid "Toggle Invert Effect on Window"
 msgstr "విండోనందు విలోమ ప్రభావమును మార్చుము"
-
-#: effects/mousemark.cpp:52
-msgid "Clear All Mouse Marks"
-msgstr ""
-
-#: effects/mousemark.cpp:56 effects/mousemark_config.cpp:67
-msgid "Clear Last Mouse Mark"
-msgstr ""
 
 #: effects/mousemark_config.cpp:62
 msgid "Clear Mouse Marks"
 msgstr ""
 
-#: effects/presentwindows.cpp:66 effects/presentwindows_config.cpp:62
-msgid "Toggle Present Windows (Current desktop)"
+#: effects/mousemark_config.cpp:67 effects/mousemark.cpp:56
+msgid "Clear Last Mouse Mark"
 msgstr ""
 
-#: effects/presentwindows.cpp:70 effects/presentwindows_config.cpp:57
+#: effects/mousemark.cpp:52
+msgid "Clear All Mouse Marks"
+msgstr ""
+
+#: effects/presentwindows_config.cpp:57 effects/presentwindows.cpp:70
 msgid "Toggle Present Windows (All desktops)"
+msgstr ""
+
+#: effects/presentwindows_config.cpp:62 effects/presentwindows.cpp:66
+msgid "Toggle Present Windows (Current desktop)"
 msgstr ""
 
 #: effects/presentwindows.cpp:1219
@@ -820,22 +820,22 @@ msgid ""
 "%1"
 msgstr ""
 
-#: effects/sharpen.cpp:40 effects/sharpen_config.cpp:44
+#: effects/sharpen_config.cpp:44 effects/sharpen.cpp:40
 #, fuzzy
 #| msgid "Toggle Invert Effect"
 msgctxt "@action Enables/Disables an effect that makes windows more sharp"
 msgid "Toggle Sharpen Effect"
 msgstr "విలోమ ప్రభావమును మార్చుము"
 
-#: effects/snow.cpp:60
-msgid "Snow"
-msgstr "మంచు"
-
 #: effects/snow_config.cpp:64
 msgid "Toggle Snow on Desktop"
 msgstr ""
 
-#: effects/thumbnailaside.cpp:38 effects/thumbnailaside_config.cpp:65
+#: effects/snow.cpp:60
+msgid "Snow"
+msgstr "మంచు"
+
+#: effects/thumbnailaside_config.cpp:65 effects/thumbnailaside.cpp:38
 msgid "Toggle Thumbnail for Current Window"
 msgstr ""
 

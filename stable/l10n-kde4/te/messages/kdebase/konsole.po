@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-20 06:24+0200\n"
+"POT-Creation-Date: 2009-05-11 07:03+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -315,389 +315,6 @@ msgstr "కీ కలయిక"
 msgid "Output"
 msgstr "అవుట్పుట్"
 
-#: MainWindow.cpp:223
-msgid "New &Tab"
-msgstr "(&T) కొత్త టాబ్"
-
-#: MainWindow.cpp:229
-msgid "New &Window"
-msgstr "(&W) కొత్త విండొ"
-
-#: MainWindow.cpp:234
-msgid "Remote Connection..."
-msgstr "రిమోట్ అనుసంధానము..."
-
-#: MainWindow.cpp:245
-msgid "&Bookmarks"
-msgstr "(&B) పేజీ గుర్తులు"
-
-#: MainWindow.cpp:256
-msgid "Show Menu Bar"
-msgstr "మెనూ బార్ చూపుము"
-
-#: MainWindow.cpp:278 Part.cpp:119
-msgid "Manage Profiles..."
-msgstr "ప్రొఫైల్సును నిర్వహించుము..."
-
-#: MainWindow.cpp:349
-msgid "You have multiple tabs in this window, are you sure you want to quit?"
-msgstr "ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా నిష్క్రమించుదామని అనుకొనుచున్నారా?"
-
-#: MainWindow.cpp:351 SessionController.cpp:601
-msgid "Confirm Close"
-msgstr "ముసివేత నిర్ధారించు"
-
-#: MainWindow.cpp:353
-msgid "Close Current Tab"
-msgstr "ప్రస్తుత టాబ్ మూసివేయి"
-
-#: ManageProfilesDialog.cpp:48
-msgid "Manage Profiles"
-msgstr "ప్రొఫైల్సును నిర్వహించుము"
-
-#: ManageProfilesDialog.cpp:200
-msgid "Show in Menu"
-msgstr "మెనూనందు చూపుము"
-
-#: ManageProfilesDialog.cpp:201
-msgid "Shortcut"
-msgstr "షార్టుకట్"
-
-#: ManageProfilesDialog.cpp:293
-msgid "New Profile"
-msgstr "కొత్త ప్రొఫైల్"
-
-#: Profile.cpp:143
-msgid "Shell"
-msgstr "షెల్"
-
-#: ProfileList.cpp:48
-msgid "No profiles available"
-msgstr "ఏ ప్రొఫైల్సు అందుబాటులోలేవు"
-
-#: RemoteConnectionDialog.cpp:39
-msgid "New Remote Connection"
-msgstr "కొత్త రిమోట్ అనుసంధానము"
-
-#: RemoteConnectionDialog.cpp:41
-msgid "Connect"
-msgstr "అనుసంధానించు"
-
-#: Session.cpp:317
-msgid "Could not find binary: "
-msgstr "బైనరీను కనుగొనలేక పోయింది: "
-
-#: Session.cpp:326
-msgid "Warning: "
-msgstr "హెచ్చరిక:"
-
-#: Session.cpp:367
-#, kde-format
-msgid ""
-"Could not find '%1', starting '%2' instead.  Please check your profile "
-"settings."
-msgstr ""
-"'%1'ను కనుగొనలేక పోయింది, బదులుగా '%2'ను ప్రారంభిస్తోంది.  దయచేసి మీ ప్రొఫైల్ అమరికలను పరిశీలించుము."
-
-#: Session.cpp:372
-msgid "Could not find an interactive shell to start."
-msgstr "ప్రారంభమునందు యింటరాక్టివ్ షెల్‌ను కనుగొనలేక పోయింది."
-
-#: Session.cpp:406
-#, kde-format
-msgid "Could not start program '%1' with arguments '%2'."
-msgstr "ప్రోగ్రామ్ '%1'ను ఆర్గుమెంట్లు '%2'తో ప్రారంభించలేక పోయింది."
-
-#: Session.cpp:516
-#, kde-format
-msgid "Silence in session '%1'"
-msgstr "%1 సెషన్ లో నిశబ్దం"
-
-#: Session.cpp:551
-#, kde-format
-msgid "Bell in session '%1'"
-msgstr "%1 సెషన్ లో గంట"
-
-#: Session.cpp:562
-#, kde-format
-msgid "Activity in session '%1'"
-msgstr "సెషన్ '%1'నందు క్రియాశీలత"
-
-#: Session.cpp:700
-msgid "Finished"
-msgstr "ముగిసింది"
-
-#: Session.cpp:709
-#, kde-format
-msgid "Program '%1' exited with status %2."
-msgstr "ప్రోగ్రామ్ '%1' స్థితి %2తో నిష్క్రమించినది."
-
-#: Session.cpp:711
-#, kde-format
-msgid "Program '%1' crashed."
-msgstr "ప్రోగ్రామ్ '%1' క్రాష్ అయినది."
-
-#: Session.cpp:1028
-msgid "ZModem Progress"
-msgstr "ZModem పురోగతి"
-
-#: SessionController.cpp:378
-msgid "&Close Tab"
-msgstr "(&C) టాబ్ ను మూసివెయి"
-
-#: SessionController.cpp:384
-msgid "Open Browser Here"
-msgstr "బ్రౌజర్ ను ఇక్కడ తెరువు"
-
-#: SessionController.cpp:391
-msgid "&Copy"
-msgstr "(&C) నకలు"
-
-#: SessionController.cpp:395
-msgid "&Paste"
-msgstr "(&P) అతికించు"
-
-#: SessionController.cpp:408
-msgid "Paste Selection"
-msgstr "ఎంచుకొన్న దానిని అతికించు"
-
-#: SessionController.cpp:414
-msgid "&Rename Tab..."
-msgstr "(&R) టాబ్‌కు మరలాపేరు..."
-
-#: SessionController.cpp:420
-msgid "Copy Input To..."
-msgstr "ఇన్పుట్ యిచటకు నకలుతీయి..."
-
-#: SessionController.cpp:425
-msgid "C&lear Display"
-msgstr "(&l) ప్రదర్శనను శుభ్రముచేయి"
-
-#: SessionController.cpp:430
-msgid "Clear && Reset"
-msgstr "శుభ్రముచేయి && తిరిగివుంచు"
-
-#: SessionController.cpp:435
-msgid "Monitor for &Activity"
-msgstr "(&A) క్రియాశీలత కొరకు మానిటర్"
-
-#: SessionController.cpp:440
-msgid "Monitor for &Silence"
-msgstr "(&S) నిశ్శబ్ధము కొరకు మానిటర్"
-
-#: SessionController.cpp:446
-msgid "Character Encoding"
-msgstr "కారెక్టర్ ఎన్కోడింగ్ "
-
-#: SessionController.cpp:453
-msgid "Increase Text Size"
-msgstr "వచన పరిమాణం పెంచు"
-
-#: SessionController.cpp:459
-msgid "Decrease Text Size"
-msgstr "వచన పరిమాణం తగ్గించు"
-
-#: SessionController.cpp:465
-msgid "Search Output..."
-msgstr "అవుట్పుట్ శోధించుము..."
-
-#: SessionController.cpp:474
-msgid "Find Next"
-msgstr "తరువాతది వెతుకు"
-
-#: SessionController.cpp:481
-msgid "Find Previous"
-msgstr "ముందటిది వెతుకు"
-
-#: SessionController.cpp:487
-msgid "Save Output..."
-msgstr "అవుట్పుట్ భద్రపరచుము..."
-
-#: SessionController.cpp:497
-msgid "Clear Scrollback"
-msgstr "స్క్రాల్‌బ్యాక్‌ను శుభ్రముచేయి"
-
-#: SessionController.cpp:501
-msgid "Clear Scrollback && Reset"
-msgstr "స్క్రాల్‌బ్యాక్‌ను శుభ్రముచేయి && తిరిగివుంచుము"
-
-#: SessionController.cpp:507
-msgid "Edit Current Profile..."
-msgstr "ప్రస్తుత ప్రొఫైలును సరికూర్చు..."
-
-#: SessionController.cpp:511
-msgid "Change Profile"
-msgstr "ప్రొఫైలును మార్చుము"
-
-#: SessionController.cpp:551
-msgid "Rename Tab"
-msgstr "టాబ్‌కు మరలాపేరు"
-
-#: SessionController.cpp:552
-msgid "Enter new tab text:"
-msgstr "కొత్త టాబ్ వచనము ప్రవేశపెట్టుము:"
-
-#: SessionController.cpp:595
-msgid ""
-"A program is currently running in this session.  Are you sure you want to "
-"close it?"
-msgstr "ఈ సెషన్‌నందు వొక పోగ్రామ్ యిప్పటికే నుడుస్తోంది.  మీరు దానిని ఖచ్చితంగా మూసివేద్దామని అనుకొంటున్నారా?"
-
-#: SessionController.cpp:598
-#, kde-format
-msgid ""
-"The program '%1' is currently running in this session.  Are you sure you "
-"want to close it?"
-msgstr ""
-"పొగ్రామ్ '%1' ప్రస్తుతం ఈ సెషన్‌నందు నడుస్తోంది.  మీరు ఖచ్చితంగా దీనిని మూసివేద్దామని అనుకొంటున్నారా?"
-
-#: SessionController.cpp:1082
-#, kde-format
-msgid "Save Output From %1"
-msgstr "%1నుండి అవుట్పుట్‌ను భద్రపరచుము"
-
-#: SessionController.cpp:1093
-#, kde-format
-msgid "%1 is an invalid URL, the output could not be saved."
-msgstr "%1 చెల్లని URL, అవుట్పుట్ భద్రపరచబడలేదు."
-
-#: SessionController.cpp:1182
-#, kde-format
-msgid ""
-"A problem occurred when saving the output.\n"
-"%1"
-msgstr ""
-"అవుట్పుట్‌ను భద్రపరచుచున్నప్పుడు వొక సమస్య యెదురైంది.\n"
-"%1"
-
-#: SessionManager.cpp:856
-msgid "Number"
-msgstr "సంఖ్య"
-
-#: SessionManager.cpp:858
-msgid "Title"
-msgstr "శీర్షిక"
-
-#: TabTitleFormatAction.cpp:34
-msgid "Program Name"
-msgstr "కార్యక్రమం పేరు"
-
-#: TabTitleFormatAction.cpp:35
-msgid "Current Directory (Short)"
-msgstr "ప్రస్తుత డైరక్టరి (చిన్న)"
-
-#: TabTitleFormatAction.cpp:36
-msgid "Current Directory (Long)"
-msgstr "ప్రస్తుత డైరక్టరి (పెద్ద)"
-
-#: TabTitleFormatAction.cpp:37 TabTitleFormatAction.cpp:46
-msgid "Window Title Set by Shell"
-msgstr "విండో శీర్షిక షెల్‌చేత అమర్చబడుతుంది"
-
-#: TabTitleFormatAction.cpp:38 TabTitleFormatAction.cpp:47
-msgid "Session number"
-msgstr "సెషన్ సంఖ్య"
-
-#: TabTitleFormatAction.cpp:43
-msgid "User Name"
-msgstr "యూజర్ పేరు"
-
-#: TabTitleFormatAction.cpp:44
-msgid "Remote Host (Short)"
-msgstr "రిమొట్ హొస్ట్ (చిన్న)"
-
-#: TabTitleFormatAction.cpp:45
-msgid "Remote Host (Long)"
-msgstr "రిమొట్ హొస్ట్ (పెద్ద)"
-
-#: TerminalDisplay.cpp:1124 TerminalDisplay.cpp:1125
-msgid "Size: XXX x XXX"
-msgstr "పరిమాణం: XXX x XXX"
-
-#: TerminalDisplay.cpp:1135
-#, kde-format
-msgid "Size: %1 x %2"
-msgstr "పరిమాణం: %1 x %2"
-
-#: TerminalDisplay.cpp:2843
-msgid ""
-"<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
-"\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
-msgstr ""
-"<qt>అవుట్పుట్ Ctrl+S వత్తుట ద్వారా <a href=\"http://en.wikipedia.org/wiki/"
-"Flow_control\">suspended</a> అయింది.  తిరిగికొనసాగించుటకు <b>Ctrl+Q</b> వత్తుము.</qt>"
-
-#: ViewManager.cpp:129
-msgid "Next View"
-msgstr "తరువాతి వీక్షణం"
-
-#: ViewManager.cpp:130
-msgid "Previous View"
-msgstr "మునుపటి వీక్షణం"
-
-#: ViewManager.cpp:131
-msgid "Next View Container"
-msgstr "తరువాతి వీక్షణం కలిగివున్నది"
-
-#: ViewManager.cpp:133
-msgid "Move View Left"
-msgstr "వీక్షణం ఎడమకు కదుపుము"
-
-#: ViewManager.cpp:134
-msgid "Move View Right"
-msgstr "వీక్షణం కుడికు కదుపుము"
-
-#: ViewManager.cpp:144
-msgctxt "@action:inmenu"
-msgid "Split View Left/Right"
-msgstr "వీక్షణం ఎడమ/కుడికు విభజించుము"
-
-#: ViewManager.cpp:151
-msgctxt "@action:inmenu"
-msgid "Split View Top/Bottom"
-msgstr "వీక్షణం పైనకు/క్రిందకు విభజించుము"
-
-#: ViewManager.cpp:156
-msgctxt "@action:inmenu Close Active View"
-msgid "Close Active"
-msgstr "క్రియాశీలమైంది మూయుము"
-
-#: ViewManager.cpp:165
-msgctxt "@action:inmenu Close Other Views"
-msgid "Close Others"
-msgstr "ఇతరులను మూసివేయి"
-
-#: ViewManager.cpp:175
-msgid "&Detach View"
-msgstr "(&D) వీక్షణం వేరుచేయి"
-
-#: ViewManager.cpp:184
-msgctxt "@action:inmenu"
-msgid "Expand View"
-msgstr "వీక్షణం విస్తరించుము"
-
-#: ViewManager.cpp:191
-msgctxt "@action:inmenu"
-msgid "Shrink View"
-msgstr "వీక్షణం కుదించుము"
-
-#: ViewManager.cpp:211
-#, kde-format
-msgid "Switch to Tab %1"
-msgstr "టాబ్ %1కు మారుము"
-
-#: Vt102Emulation.cpp:965
-msgid ""
-"No keyboard translator available.  The information needed to convert key "
-"presses into characters to send to the terminal is missing."
-msgstr ""
-"ఎటువంటి కీబోర్డు అనువాదకి అందుబాటులో లేదు.  కీ వత్తులను ఆక్షరాలలోకి మార్చి టెర్మినల్‌కు పంపుటకు "
-"అవసరమైన సమాచారము తప్పిపోయినది."
-
-#: ZModemDialog.cpp:35
-msgid "&Stop"
-msgstr "(&S) ఆపు"
-
 #: main.cpp:63
 msgid "Konsole"
 msgstr "కాన్సోల్"
@@ -905,6 +522,66 @@ msgstr "లార్స్ క్నొల్"
 #: main.cpp:205
 msgid "Thanks to many others.\n"
 msgstr "ఇంకా చాలామందికి కృతజ్ఞతలు.\n"
+
+#: MainWindow.cpp:223
+msgid "New &Tab"
+msgstr "(&T) కొత్త టాబ్"
+
+#: MainWindow.cpp:229
+msgid "New &Window"
+msgstr "(&W) కొత్త విండొ"
+
+#: MainWindow.cpp:234
+msgid "Remote Connection..."
+msgstr "రిమోట్ అనుసంధానము..."
+
+#: MainWindow.cpp:245
+msgid "&Bookmarks"
+msgstr "(&B) పేజీ గుర్తులు"
+
+#: MainWindow.cpp:256
+msgid "Show Menu Bar"
+msgstr "మెనూ బార్ చూపుము"
+
+#: MainWindow.cpp:278 Part.cpp:119
+msgid "Manage Profiles..."
+msgstr "ప్రొఫైల్సును నిర్వహించుము..."
+
+#: MainWindow.cpp:349
+msgid "You have multiple tabs in this window, are you sure you want to quit?"
+msgstr "ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా నిష్క్రమించుదామని అనుకొనుచున్నారా?"
+
+#: MainWindow.cpp:351 SessionController.cpp:601
+msgid "Confirm Close"
+msgstr "ముసివేత నిర్ధారించు"
+
+#: MainWindow.cpp:353
+msgid "Close Current Tab"
+msgstr "ప్రస్తుత టాబ్ మూసివేయి"
+
+#: ManageProfilesDialog.cpp:48
+msgid "Manage Profiles"
+msgstr "ప్రొఫైల్సును నిర్వహించుము"
+
+#: ManageProfilesDialog.cpp:200
+msgid "Show in Menu"
+msgstr "మెనూనందు చూపుము"
+
+#: ManageProfilesDialog.cpp:201
+msgid "Shortcut"
+msgstr "షార్టుకట్"
+
+#: ManageProfilesDialog.cpp:293
+msgid "New Profile"
+msgstr "కొత్త ప్రొఫైల్"
+
+#: Profile.cpp:143
+msgid "Shell"
+msgstr "షెల్"
+
+#: ProfileList.cpp:48
+msgid "No profiles available"
+msgstr "ఏ ప్రొఫైల్సు అందుబాటులోలేవు"
 
 #. i18n: file: ColorSchemeEditor.ui:21
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1800,6 +1477,14 @@ msgstr "అమరికలు"
 msgid "Help"
 msgstr "సహాయం"
 
+#: RemoteConnectionDialog.cpp:39
+msgid "New Remote Connection"
+msgstr "కొత్త రిమోట్ అనుసంధానము"
+
+#: RemoteConnectionDialog.cpp:41
+msgid "Connect"
+msgstr "అనుసంధానించు"
+
 #: schemas.cpp:1
 msgid "Black on Light Yellow"
 msgstr "లేత పసుపు మీద నలుపు"
@@ -1843,6 +1528,321 @@ msgstr "సొలారిస్ కన్సోల్"
 #: schemas.cpp:11
 msgid "DEC VT420 Terminal"
 msgstr "డిఈసి విటి420 టెర్మినల్"
+
+#: SessionController.cpp:378
+msgid "&Close Tab"
+msgstr "(&C) టాబ్ ను మూసివెయి"
+
+#: SessionController.cpp:384
+msgid "Open Browser Here"
+msgstr "బ్రౌజర్ ను ఇక్కడ తెరువు"
+
+#: SessionController.cpp:391
+msgid "&Copy"
+msgstr "(&C) నకలు"
+
+#: SessionController.cpp:395
+msgid "&Paste"
+msgstr "(&P) అతికించు"
+
+#: SessionController.cpp:408
+msgid "Paste Selection"
+msgstr "ఎంచుకొన్న దానిని అతికించు"
+
+#: SessionController.cpp:414
+msgid "&Rename Tab..."
+msgstr "(&R) టాబ్‌కు మరలాపేరు..."
+
+#: SessionController.cpp:420
+msgid "Copy Input To..."
+msgstr "ఇన్పుట్ యిచటకు నకలుతీయి..."
+
+#: SessionController.cpp:425
+msgid "C&lear Display"
+msgstr "(&l) ప్రదర్శనను శుభ్రముచేయి"
+
+#: SessionController.cpp:430
+msgid "Clear && Reset"
+msgstr "శుభ్రముచేయి && తిరిగివుంచు"
+
+#: SessionController.cpp:435
+msgid "Monitor for &Activity"
+msgstr "(&A) క్రియాశీలత కొరకు మానిటర్"
+
+#: SessionController.cpp:440
+msgid "Monitor for &Silence"
+msgstr "(&S) నిశ్శబ్ధము కొరకు మానిటర్"
+
+#: SessionController.cpp:446
+msgid "Character Encoding"
+msgstr "కారెక్టర్ ఎన్కోడింగ్ "
+
+#: SessionController.cpp:453
+msgid "Increase Text Size"
+msgstr "వచన పరిమాణం పెంచు"
+
+#: SessionController.cpp:459
+msgid "Decrease Text Size"
+msgstr "వచన పరిమాణం తగ్గించు"
+
+#: SessionController.cpp:465
+msgid "Search Output..."
+msgstr "అవుట్పుట్ శోధించుము..."
+
+#: SessionController.cpp:474
+msgid "Find Next"
+msgstr "తరువాతది వెతుకు"
+
+#: SessionController.cpp:481
+msgid "Find Previous"
+msgstr "ముందటిది వెతుకు"
+
+#: SessionController.cpp:487
+msgid "Save Output..."
+msgstr "అవుట్పుట్ భద్రపరచుము..."
+
+#: SessionController.cpp:497
+msgid "Clear Scrollback"
+msgstr "స్క్రాల్‌బ్యాక్‌ను శుభ్రముచేయి"
+
+#: SessionController.cpp:501
+msgid "Clear Scrollback && Reset"
+msgstr "స్క్రాల్‌బ్యాక్‌ను శుభ్రముచేయి && తిరిగివుంచుము"
+
+#: SessionController.cpp:507
+msgid "Edit Current Profile..."
+msgstr "ప్రస్తుత ప్రొఫైలును సరికూర్చు..."
+
+#: SessionController.cpp:511
+msgid "Change Profile"
+msgstr "ప్రొఫైలును మార్చుము"
+
+#: SessionController.cpp:551
+msgid "Rename Tab"
+msgstr "టాబ్‌కు మరలాపేరు"
+
+#: SessionController.cpp:552
+msgid "Enter new tab text:"
+msgstr "కొత్త టాబ్ వచనము ప్రవేశపెట్టుము:"
+
+#: SessionController.cpp:595
+msgid ""
+"A program is currently running in this session.  Are you sure you want to "
+"close it?"
+msgstr "ఈ సెషన్‌నందు వొక పోగ్రామ్ యిప్పటికే నుడుస్తోంది.  మీరు దానిని ఖచ్చితంగా మూసివేద్దామని అనుకొంటున్నారా?"
+
+#: SessionController.cpp:598
+#, kde-format
+msgid ""
+"The program '%1' is currently running in this session.  Are you sure you "
+"want to close it?"
+msgstr ""
+"పొగ్రామ్ '%1' ప్రస్తుతం ఈ సెషన్‌నందు నడుస్తోంది.  మీరు ఖచ్చితంగా దీనిని మూసివేద్దామని అనుకొంటున్నారా?"
+
+#: SessionController.cpp:1082
+#, kde-format
+msgid "Save Output From %1"
+msgstr "%1నుండి అవుట్పుట్‌ను భద్రపరచుము"
+
+#: SessionController.cpp:1093
+#, kde-format
+msgid "%1 is an invalid URL, the output could not be saved."
+msgstr "%1 చెల్లని URL, అవుట్పుట్ భద్రపరచబడలేదు."
+
+#: SessionController.cpp:1182
+#, kde-format
+msgid ""
+"A problem occurred when saving the output.\n"
+"%1"
+msgstr ""
+"అవుట్పుట్‌ను భద్రపరచుచున్నప్పుడు వొక సమస్య యెదురైంది.\n"
+"%1"
+
+#: Session.cpp:317
+msgid "Could not find binary: "
+msgstr "బైనరీను కనుగొనలేక పోయింది: "
+
+#: Session.cpp:326
+msgid "Warning: "
+msgstr "హెచ్చరిక:"
+
+#: Session.cpp:367
+#, kde-format
+msgid ""
+"Could not find '%1', starting '%2' instead.  Please check your profile "
+"settings."
+msgstr ""
+"'%1'ను కనుగొనలేక పోయింది, బదులుగా '%2'ను ప్రారంభిస్తోంది.  దయచేసి మీ ప్రొఫైల్ అమరికలను పరిశీలించుము."
+
+#: Session.cpp:372
+msgid "Could not find an interactive shell to start."
+msgstr "ప్రారంభమునందు యింటరాక్టివ్ షెల్‌ను కనుగొనలేక పోయింది."
+
+#: Session.cpp:406
+#, kde-format
+msgid "Could not start program '%1' with arguments '%2'."
+msgstr "ప్రోగ్రామ్ '%1'ను ఆర్గుమెంట్లు '%2'తో ప్రారంభించలేక పోయింది."
+
+#: Session.cpp:516
+#, kde-format
+msgid "Silence in session '%1'"
+msgstr "%1 సెషన్ లో నిశబ్దం"
+
+#: Session.cpp:551
+#, kde-format
+msgid "Bell in session '%1'"
+msgstr "%1 సెషన్ లో గంట"
+
+#: Session.cpp:562
+#, kde-format
+msgid "Activity in session '%1'"
+msgstr "సెషన్ '%1'నందు క్రియాశీలత"
+
+#: Session.cpp:700
+msgid "Finished"
+msgstr "ముగిసింది"
+
+#: Session.cpp:709
+#, kde-format
+msgid "Program '%1' exited with status %2."
+msgstr "ప్రోగ్రామ్ '%1' స్థితి %2తో నిష్క్రమించినది."
+
+#: Session.cpp:711
+#, kde-format
+msgid "Program '%1' crashed."
+msgstr "ప్రోగ్రామ్ '%1' క్రాష్ అయినది."
+
+#: Session.cpp:1028
+msgid "ZModem Progress"
+msgstr "ZModem పురోగతి"
+
+#: SessionManager.cpp:856
+msgid "Number"
+msgstr "సంఖ్య"
+
+#: SessionManager.cpp:858
+msgid "Title"
+msgstr "శీర్షిక"
+
+#: TabTitleFormatAction.cpp:34
+msgid "Program Name"
+msgstr "కార్యక్రమం పేరు"
+
+#: TabTitleFormatAction.cpp:35
+msgid "Current Directory (Short)"
+msgstr "ప్రస్తుత డైరక్టరి (చిన్న)"
+
+#: TabTitleFormatAction.cpp:36
+msgid "Current Directory (Long)"
+msgstr "ప్రస్తుత డైరక్టరి (పెద్ద)"
+
+#: TabTitleFormatAction.cpp:37 TabTitleFormatAction.cpp:46
+msgid "Window Title Set by Shell"
+msgstr "విండో శీర్షిక షెల్‌చేత అమర్చబడుతుంది"
+
+#: TabTitleFormatAction.cpp:38 TabTitleFormatAction.cpp:47
+msgid "Session number"
+msgstr "సెషన్ సంఖ్య"
+
+#: TabTitleFormatAction.cpp:43
+msgid "User Name"
+msgstr "యూజర్ పేరు"
+
+#: TabTitleFormatAction.cpp:44
+msgid "Remote Host (Short)"
+msgstr "రిమొట్ హొస్ట్ (చిన్న)"
+
+#: TabTitleFormatAction.cpp:45
+msgid "Remote Host (Long)"
+msgstr "రిమొట్ హొస్ట్ (పెద్ద)"
+
+#: TerminalDisplay.cpp:1124 TerminalDisplay.cpp:1125
+msgid "Size: XXX x XXX"
+msgstr "పరిమాణం: XXX x XXX"
+
+#: TerminalDisplay.cpp:1135
+#, kde-format
+msgid "Size: %1 x %2"
+msgstr "పరిమాణం: %1 x %2"
+
+#: TerminalDisplay.cpp:2843
+msgid ""
+"<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
+"\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
+msgstr ""
+"<qt>అవుట్పుట్ Ctrl+S వత్తుట ద్వారా <a href=\"http://en.wikipedia.org/wiki/"
+"Flow_control\">suspended</a> అయింది.  తిరిగికొనసాగించుటకు <b>Ctrl+Q</b> వత్తుము.</qt>"
+
+#: ViewManager.cpp:129
+msgid "Next View"
+msgstr "తరువాతి వీక్షణం"
+
+#: ViewManager.cpp:130
+msgid "Previous View"
+msgstr "మునుపటి వీక్షణం"
+
+#: ViewManager.cpp:131
+msgid "Next View Container"
+msgstr "తరువాతి వీక్షణం కలిగివున్నది"
+
+#: ViewManager.cpp:133
+msgid "Move View Left"
+msgstr "వీక్షణం ఎడమకు కదుపుము"
+
+#: ViewManager.cpp:134
+msgid "Move View Right"
+msgstr "వీక్షణం కుడికు కదుపుము"
+
+#: ViewManager.cpp:144
+msgctxt "@action:inmenu"
+msgid "Split View Left/Right"
+msgstr "వీక్షణం ఎడమ/కుడికు విభజించుము"
+
+#: ViewManager.cpp:151
+msgctxt "@action:inmenu"
+msgid "Split View Top/Bottom"
+msgstr "వీక్షణం పైనకు/క్రిందకు విభజించుము"
+
+#: ViewManager.cpp:156
+msgctxt "@action:inmenu Close Active View"
+msgid "Close Active"
+msgstr "క్రియాశీలమైంది మూయుము"
+
+#: ViewManager.cpp:165
+msgctxt "@action:inmenu Close Other Views"
+msgid "Close Others"
+msgstr "ఇతరులను మూసివేయి"
+
+#: ViewManager.cpp:175
+msgid "&Detach View"
+msgstr "(&D) వీక్షణం వేరుచేయి"
+
+#: ViewManager.cpp:184
+msgctxt "@action:inmenu"
+msgid "Expand View"
+msgstr "వీక్షణం విస్తరించుము"
+
+#: ViewManager.cpp:191
+msgctxt "@action:inmenu"
+msgid "Shrink View"
+msgstr "వీక్షణం కుదించుము"
+
+#: ViewManager.cpp:211
+#, kde-format
+msgid "Switch to Tab %1"
+msgstr "టాబ్ %1కు మారుము"
+
+#: Vt102Emulation.cpp:965
+msgid ""
+"No keyboard translator available.  The information needed to convert key "
+"presses into characters to send to the terminal is missing."
+msgstr ""
+"ఎటువంటి కీబోర్డు అనువాదకి అందుబాటులో లేదు.  కీ వత్తులను ఆక్షరాలలోకి మార్చి టెర్మినల్‌కు పంపుటకు "
+"అవసరమైన సమాచారము తప్పిపోయినది."
+
+#: ZModemDialog.cpp:35
+msgid "&Stop"
+msgstr "(&S) ఆపు"
 
 #, fuzzy
 #~| msgid "New..."
