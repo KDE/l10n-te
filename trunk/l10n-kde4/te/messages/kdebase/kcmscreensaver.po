@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmscreensaver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-10 11:06+0200\n"
+"POT-Creation-Date: 2009-07-01 12:45+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -297,8 +297,12 @@ msgid "After:"
 msgstr "తర్వాత:"
 
 #: scrnsave.cpp:186
-msgid " min"
-msgstr " ని"
+#, fuzzy
+#| msgid " min"
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] " ని"
+msgstr[1] " ని"
 
 #: scrnsave.cpp:195
 msgid "The period of inactivity after which the screen saver should start."
@@ -321,8 +325,12 @@ msgid ""
 msgstr ""
 
 #: scrnsave.cpp:221
-msgid " sec"
-msgstr " సెకను"
+#, fuzzy
+#| msgid " sec"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " సెకను"
+msgstr[1] " సెకను"
 
 #: scrnsave.cpp:239
 msgid "Choose the period after which the display will be locked. "
