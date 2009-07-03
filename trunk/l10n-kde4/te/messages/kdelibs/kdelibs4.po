@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-01 12:43+0200\n"
+"POT-Creation-Date: 2009-07-03 11:21+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -3284,13 +3284,13 @@ msgid "Invalid Calendar Type"
 msgstr "సరికాని కెలెండర్ రకం"
 
 #: kdecore/date/kdatetime.cpp:1500 kdecore/date/kdatetime.cpp:1510
-#: kdecore/date/kdatetime.cpp:2872 kdecore/localization/klocale.cpp:1942
-#: kdecore/localization/klocale.cpp:2072
+#: kdecore/date/kdatetime.cpp:2872 kdecore/localization/klocale.cpp:1952
+#: kdecore/localization/klocale.cpp:2082
 msgid "am"
 msgstr "పూర్వాహ్నము"
 
-#: kdecore/date/kdatetime.cpp:2880 kdecore/localization/klocale.cpp:1936
-#: kdecore/localization/klocale.cpp:2070
+#: kdecore/date/kdatetime.cpp:2880 kdecore/localization/klocale.cpp:1946
+#: kdecore/localization/klocale.cpp:2080
 msgid "pm"
 msgstr "మధ్యాహ్నము"
 
@@ -4476,7 +4476,7 @@ msgctxt "@item Text character set"
 msgid "Thai"
 msgstr "థాయ్"
 
-#: kdecore/localization/klocale.cpp:939
+#: kdecore/localization/klocale.cpp:949
 #, fuzzy
 #| msgctxt "@item Text character set"
 #| msgid "Arabic"
@@ -4484,12 +4484,12 @@ msgctxt "digit set"
 msgid "Arabic-Indic"
 msgstr "అరబిక్"
 
-#: kdecore/localization/klocale.cpp:942
+#: kdecore/localization/klocale.cpp:952
 msgctxt "digit set"
 msgid "Eastern Arabic-Indic"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:945
+#: kdecore/localization/klocale.cpp:955
 #, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Devanagari"
@@ -4497,7 +4497,7 @@ msgctxt "digit set"
 msgid "Devenagari"
 msgstr "దేవనాగరి"
 
-#: kdecore/localization/klocale.cpp:948
+#: kdecore/localization/klocale.cpp:958
 #, fuzzy
 #| msgctxt "@item Text character set"
 #| msgid "Arabic"
@@ -4505,7 +4505,7 @@ msgctxt "digit set"
 msgid "Arabic"
 msgstr "అరబిక్"
 
-#: kdecore/localization/klocale.cpp:954
+#: kdecore/localization/klocale.cpp:964
 #, fuzzy, kde-format
 #| msgctxt "dictionary name. %1-language and %2-country name"
 #| msgid "%1 (%2)"
@@ -4513,64 +4513,65 @@ msgctxt "name of digit set with digit string, e.g. 'Arabic (0123456789)'"
 msgid "%1 (%2)"
 msgstr "%1 (%2 )"
 
-#: kdecore/localization/klocale.cpp:1363
+#. i18n: Dumb message, avoid any markup or scripting.
+#: kdecore/localization/klocale.cpp:1370
 #, kde-format
 msgid "%1 TiB"
 msgstr "%1 TiB"
 
-#: kdecore/localization/klocale.cpp:1365
+#. i18n: Dumb message, avoid any markup or scripting.
+#: kdecore/localization/klocale.cpp:1372
 #, kde-format
 msgid "%1 GiB"
 msgstr "%1 GiB"
 
-#: kdecore/localization/klocale.cpp:1371
+#. i18n: Dumb message, avoid any markup or scripting.
+#: kdecore/localization/klocale.cpp:1374
 #, kde-format
 msgid "%1 MiB"
 msgstr "%1 MiB"
 
-#: kdecore/localization/klocale.cpp:1377
+#. i18n: Dumb message, avoid any markup or scripting.
+#: kdecore/localization/klocale.cpp:1376
 #, kde-format
 msgid "%1 KiB"
 msgstr "%1 KiB"
 
-#: kdecore/localization/klocale.cpp:1382
+#. i18n: Dumb message, avoid any markup or scripting.
+#: kdecore/localization/klocale.cpp:1378
 #, kde-format
 msgid "%1 B"
 msgstr "%1 బి"
 
-#: kdecore/localization/klocale.cpp:1387
-msgid "0 B"
-msgstr "0 బి"
-
-#: kdecore/localization/klocale.cpp:1395
+#: kdecore/localization/klocale.cpp:1405
 #, fuzzy, kde-format
 #| msgid "%1 days"
 msgctxt "@item:intext %1 is a real number, e.g. 1.23 days"
 msgid "%1 days"
 msgstr "%1 రొజులు"
 
-#: kdecore/localization/klocale.cpp:1397
+#: kdecore/localization/klocale.cpp:1407
 #, fuzzy, kde-format
 #| msgid "%1 hours"
 msgctxt "@item:intext %1 is a real number, e.g. 1.23 hours"
 msgid "%1 hours"
 msgstr "%1 గంటలు"
 
-#: kdecore/localization/klocale.cpp:1399
+#: kdecore/localization/klocale.cpp:1409
 #, fuzzy, kde-format
 #| msgid "%1 minutes"
 msgctxt "@item:intext %1 is a real number, e.g. 1.23 minutes"
 msgid "%1 minutes"
 msgstr "%1 నిమిషాలు"
 
-#: kdecore/localization/klocale.cpp:1401
+#: kdecore/localization/klocale.cpp:1411
 #, fuzzy, kde-format
 #| msgid "%1 seconds"
 msgctxt "@item:intext %1 is a real number, e.g. 1.23 seconds"
 msgid "%1 seconds"
 msgstr "%1 సెకనులు"
 
-#: kdecore/localization/klocale.cpp:1403
+#: kdecore/localization/klocale.cpp:1413
 #, fuzzy, kde-format
 #| msgid "%1 milliseconds"
 msgctxt "@item:intext"
@@ -4579,7 +4580,7 @@ msgid_plural "%1 milliseconds"
 msgstr[0] "%1 మిల్లిసెకనులు"
 msgstr[1] "%1 మిల్లిసెకనులు"
 
-#: kdecore/localization/klocale.cpp:1410
+#: kdecore/localization/klocale.cpp:1420
 #, kde-format
 msgctxt "@item:intext"
 msgid "1 day"
@@ -4587,7 +4588,7 @@ msgid_plural "%1 days"
 msgstr[0] "1 రొజు"
 msgstr[1] "%1 రొజులు"
 
-#: kdecore/localization/klocale.cpp:1412
+#: kdecore/localization/klocale.cpp:1422
 #, kde-format
 msgctxt "@item:intext"
 msgid "1 hour"
@@ -4595,7 +4596,7 @@ msgid_plural "%1 hours"
 msgstr[0] "1 గంట"
 msgstr[1] "%1 గంటలు"
 
-#: kdecore/localization/klocale.cpp:1414
+#: kdecore/localization/klocale.cpp:1424
 #, kde-format
 msgctxt "@item:intext"
 msgid "1 minute"
@@ -4603,7 +4604,7 @@ msgid_plural "%1 minutes"
 msgstr[0] "1 నిముషం"
 msgstr[1] "%1 నిముషాలు"
 
-#: kdecore/localization/klocale.cpp:1416
+#: kdecore/localization/klocale.cpp:1426
 #, kde-format
 msgctxt "@item:intext"
 msgid "1 second"
@@ -4611,7 +4612,7 @@ msgid_plural "%1 seconds"
 msgstr[0] "1 సెకను"
 msgstr[1] "%1 సెకనులు"
 
-#: kdecore/localization/klocale.cpp:1439
+#: kdecore/localization/klocale.cpp:1449
 #, kde-format
 msgctxt ""
 "@item:intext days and hours. This uses the previous item:intext messages. If "
@@ -4620,7 +4621,7 @@ msgctxt ""
 msgid "%1 and %2"
 msgstr "%1 మరియు %2"
 
-#: kdecore/localization/klocale.cpp:1443
+#: kdecore/localization/klocale.cpp:1453
 #, kde-format
 msgctxt ""
 "@item:intext hours and minutes. This uses the previous item:intext messages. "
@@ -4629,7 +4630,7 @@ msgctxt ""
 msgid "%1 and %2"
 msgstr "%1 మరియు %2"
 
-#: kdecore/localization/klocale.cpp:1447
+#: kdecore/localization/klocale.cpp:1457
 #, kde-format
 msgctxt ""
 "@item:intext minutes and seconds. This uses the previous item:intext "
@@ -4638,21 +4639,21 @@ msgctxt ""
 msgid "%1 and %2"
 msgstr "%1 మరియు %2"
 
-#: kdecore/localization/klocale.cpp:1543
+#: kdecore/localization/klocale.cpp:1553
 msgid "Today"
 msgstr "ఈరొజు"
 
-#: kdecore/localization/klocale.cpp:1545
+#: kdecore/localization/klocale.cpp:1555
 msgid "Yesterday"
 msgstr "నిన్న"
 
-#: kdecore/localization/klocale.cpp:2111
+#: kdecore/localization/klocale.cpp:2121
 #, kde-format
 msgctxt "concatenation of dates and time"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: kdecore/localization/klocale.cpp:2172
+#: kdecore/localization/klocale.cpp:2182
 #, kde-format
 msgctxt "concatenation of date/time and time zone"
 msgid "%1 %2"
@@ -9922,21 +9923,21 @@ msgstr "పెద్ద (%1x%2)"
 msgid "Huge (%1x%2)"
 msgstr "అతి పెద్ద (%1x%2)"
 
-#: kdeui/widgets/ktoolbar.cpp:365 kdeui/widgets/ktoolbar.cpp:1286
+#: kdeui/widgets/ktoolbar.cpp:365 kdeui/widgets/ktoolbar.cpp:1288
 msgid "Unlock Toolbars"
 msgstr "పనిముట్లపట్టీలు అన్‌లాక్ చేయుము"
 
-#: kdeui/widgets/ktoolbar.cpp:365 kdeui/widgets/ktoolbar.cpp:1286
+#: kdeui/widgets/ktoolbar.cpp:365 kdeui/widgets/ktoolbar.cpp:1288
 msgid "Lock Toolbars"
 msgstr "పనిముట్ల పట్టీలు లాక్‌చేయుము"
 
-#: kdeui/widgets/ktoolbar.cpp:1199
+#: kdeui/widgets/ktoolbar.cpp:1201
 #, kde-format
 msgctxt "@action:intoolbar Text label of toolbar button"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/widgets/ktoolbar.cpp:1200
+#: kdeui/widgets/ktoolbar.cpp:1202
 #, kde-format
 msgctxt "@info:tooltip Tooltip of toolbar button"
 msgid "%1"
@@ -12739,6 +12740,9 @@ msgstr "(&D) ఈ రోజు సూచన"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "\"%1\" ఇలాంటి ప్రమేయం లేదు"
+
+#~ msgid "0 B"
+#~ msgstr "0 బి"
 
 #~ msgctxt ""
 #~ "Dear Translator! Translate this string to the string 'LTR' in left-to-"
