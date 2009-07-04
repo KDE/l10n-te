@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_scriptengine_qscript\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-02 11:50+0200\n"
+"POT-Creation-Date: 2009-07-04 12:13+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,67 +25,71 @@ msgstr ""
 "\n"
 "\n"
 
-#: simplejavascriptapplet.cpp:518
-msgid "i18n() takes at least one argument"
+#: javascriptdataengine.cpp:93
+msgid "setData() takes at least two arguments"
 msgstr ""
 
-#: simplejavascriptapplet.cpp:534
-msgid "i18nc() takes at least two arguments"
+#: javascriptdataengine.cpp:124
+msgid "Could not extract the DataEngineObject"
 msgstr ""
 
-#: simplejavascriptapplet.cpp:551
-msgid "i18np() takes at least two arguments"
+#: javascriptdataengine.cpp:128
+msgid "Could not extract the DataEngine"
 msgstr ""
 
-#: simplejavascriptapplet.cpp:568
-msgid "i18ncp() takes at least three arguments"
+#: javascriptdataengine.cpp:138
+msgid "removeAllData() takes at least one argument (the source name)"
 msgstr ""
 
-#: simplejavascriptapplet.cpp:586
+#: javascriptdataengine.cpp:156
+msgid "removeData() takes at least two arguments (the source and key names"
+msgstr ""
+
+#: simplejavascriptapplet.cpp:437
 msgid "dataEngine() takes one argument"
 msgstr ""
 
-#: simplejavascriptapplet.cpp:596 simplejavascriptapplet.cpp:621
-#: simplejavascriptapplet.cpp:787
+#: simplejavascriptapplet.cpp:447 simplejavascriptapplet.cpp:472
+#: simplejavascriptapplet.cpp:638
 msgid "Could not extract the AppletObject"
 msgstr ""
 
-#: simplejavascriptapplet.cpp:601 simplejavascriptapplet.cpp:626
-#: simplejavascriptapplet.cpp:792
+#: simplejavascriptapplet.cpp:452 simplejavascriptapplet.cpp:477
+#: simplejavascriptapplet.cpp:643
 msgid "Could not extract the Applet"
 msgstr ""
 
-#: simplejavascriptapplet.cpp:611
+#: simplejavascriptapplet.cpp:462
 msgid "service() takes two arguments"
 msgstr ""
 
-#: simplejavascriptapplet.cpp:639
+#: simplejavascriptapplet.cpp:490
 msgid "loadui() takes one argument"
 msgstr ""
 
-#: simplejavascriptapplet.cpp:645
+#: simplejavascriptapplet.cpp:496
 #, kde-format
 msgid "Unable to open '%1'"
 msgstr ""
 
-#: simplejavascriptapplet.cpp:685 simplejavascriptapplet.cpp:718
+#: simplejavascriptapplet.cpp:536 simplejavascriptapplet.cpp:569
 msgid "Constructor takes at least 1 argument"
 msgstr ""
 
-#: simplejavascriptapplet.cpp:769
+#: simplejavascriptapplet.cpp:620
 msgid "CreateWidget takes one argument"
 msgstr ""
 
-#: simplejavascriptapplet.cpp:777
+#: simplejavascriptapplet.cpp:628
 msgid "The parent must be a QGraphicsWidget"
 msgstr ""
 
-#: simplejavascriptapplet.cpp:827
+#: simplejavascriptapplet.cpp:678
 #, kde-format
 msgid "This operation was not supported, %1"
 msgstr ""
 
-#: simplejavascriptapplet.cpp:834
+#: simplejavascriptapplet.cpp:685
 msgid "print() takes one argument"
 msgstr ""
 
