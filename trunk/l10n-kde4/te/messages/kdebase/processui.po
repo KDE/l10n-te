@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: processui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-15 11:12+0200\n"
+"POT-Creation-Date: 2009-07-05 11:40+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -68,67 +68,67 @@ msgid ""
 "<br/><i><font color=\"gray\">Failed to attach to process %1.</font></i><br/>"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:152 ksysguardprocesslist.cpp:354
+#: ksysguardprocesslist.cpp:153 ksysguardprocesslist.cpp:354
 msgid "Renice Process..."
 msgid_plural "Renice Processes..."
 msgstr[0] ""
 msgstr[1] ""
 
-#: ksysguardprocesslist.cpp:153 ksysguardprocesslist.cpp:428
+#: ksysguardprocesslist.cpp:154 ksysguardprocesslist.cpp:428
 msgid "Jump to Parent Process"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:155
+#: ksysguardprocesslist.cpp:156
 msgid "Jump to Process Debugging This One"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:156
+#: ksysguardprocesslist.cpp:157
 msgid "Show Application Window"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:158
+#: ksysguardprocesslist.cpp:159
 msgid "Monitor Input && Output"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:162
+#: ksysguardprocesslist.cpp:163
 msgid "Resume Stopped Process"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:163 ksysguardprocesslist.cpp:355
+#: ksysguardprocesslist.cpp:164 ksysguardprocesslist.cpp:355
 msgid "Kill Process"
 msgid_plural "Kill Processes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ksysguardprocesslist.cpp:166
+#: ksysguardprocesslist.cpp:167
 msgid "Suspend (STOP)"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:167
+#: ksysguardprocesslist.cpp:168
 msgid "Continue (CONT)"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:168
+#: ksysguardprocesslist.cpp:169
 msgid "Hangup (HUP)"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:169
+#: ksysguardprocesslist.cpp:170
 msgid "Interrupt (INT)"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:170
+#: ksysguardprocesslist.cpp:171
 msgid "Terminate (TERM)"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:171
+#: ksysguardprocesslist.cpp:172
 msgid "Kill (KILL)"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:172
+#: ksysguardprocesslist.cpp:173
 msgid "User 1 (USR1)"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:173
+#: ksysguardprocesslist.cpp:174
 msgid "User 2 (USR2)"
 msgstr ""
 
@@ -183,71 +183,71 @@ msgstr ""
 msgid "Show Tooltips"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:815 ksysguardprocesslist.cpp:1089
+#: ksysguardprocesslist.cpp:822 ksysguardprocesslist.cpp:1096
 msgid "You must select a process first."
 msgstr ""
 
-#: ksysguardprocesslist.cpp:892
+#: ksysguardprocesslist.cpp:899
 msgid ""
 "You do not have sufficient privileges to change the CPU scheduler. Aborting."
 msgstr ""
 
-#: ksysguardprocesslist.cpp:900
+#: ksysguardprocesslist.cpp:907
 msgid ""
 "You do not have sufficient privileges to change the CPU priority. Aborting."
 msgstr ""
 
-#: ksysguardprocesslist.cpp:906
+#: ksysguardprocesslist.cpp:913
 msgid ""
 "You do not have sufficient privileges to change the IO scheduler and "
 "priority. Aborting."
 msgstr ""
 
-#: ksysguardprocesslist.cpp:998
+#: ksysguardprocesslist.cpp:1005
 msgid "No."
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1004
+#: ksysguardprocesslist.cpp:1011
 msgid "Could not find kdesu executable."
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1009
+#: ksysguardprocesslist.cpp:1016
 msgid ""
 "Could not find setscheduler executable.  This should have been installed "
 "alongside system monitor."
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1095
+#: ksysguardprocesslist.cpp:1102
 #, kde-format
 msgid "Are you sure you want to kill this process?"
 msgid_plural "Are you sure you want to kill these %1 processes?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ksysguardprocesslist.cpp:1100
+#: ksysguardprocesslist.cpp:1107
 #, kde-format
 msgid "Kill process"
 msgid_plural "Kill %1 processes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ksysguardprocesslist.cpp:1101
+#: ksysguardprocesslist.cpp:1108
 msgid "Kill"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1121
+#: ksysguardprocesslist.cpp:1128
 msgid ""
 "You do not have the permission to renice the process and there was a problem "
 "trying to run as root."
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1126
+#: ksysguardprocesslist.cpp:1133
 msgid ""
 "You do not have the permission to kill the process and there was a problem "
 "trying to run as root."
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1131
+#: ksysguardprocesslist.cpp:1138
 msgid ""
 "You do not have the permission to set the I/O priority and there was a "
 "problem trying to run as root."
@@ -1130,22 +1130,22 @@ msgctxt "process heading"
 msgid "Window Title"
 msgstr ""
 
-#: ProcessModel.cc:1316
+#: ProcessModel.cc:1318
 #, kde-format
 msgid "%1 K"
 msgstr ""
 
-#: ProcessModel.cc:1317
+#: ProcessModel.cc:1319
 #, kde-format
 msgid "%1 M"
 msgstr ""
 
-#: ProcessModel.cc:1318
+#: ProcessModel.cc:1320
 #, kde-format
 msgid "%1 G"
 msgstr ""
 
-#: ProcessModel.cc:1319
+#: ProcessModel.cc:1321
 #, kde-format
 msgid "%1%"
 msgstr ""
