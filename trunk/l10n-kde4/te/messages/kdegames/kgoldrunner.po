@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kgoldrunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-26 12:06+0200\n"
+"POT-Creation-Date: 2009-07-11 13:18+0200\n"
 "PO-Revision-Date: 2007-07-14 13:32+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -563,11 +563,11 @@ msgstr ""
 msgid ""
 "In the beginning, climb down the first set of ladders and wait on the lowest "
 "section until the enemies have settled in their positions.  Then drop to the "
-"floor and aim for the big ladder at the the right with the fork at the "
-"bottom.  The fork is what enables you to get past the enemies above: wait at "
-"the floor level of the left rung (not below the floor level!) until the "
-"enemy on the long ladder drops next to you.  Then climb up and to the right "
-"to get up the big ladder."
+"floor and aim for the big ladder at the right with the fork at the bottom.  "
+"The fork is what enables you to get past the enemies above: wait at the "
+"floor level of the left rung (not below the floor level!) until the enemy on "
+"the long ladder drops next to you.  Then climb up and to the right to get up "
+"the big ladder."
 msgstr ""
 
 #: gamedata/game_cnt.txt:40
@@ -2495,7 +2495,7 @@ msgid ""
 "is a steady hand."
 msgstr ""
 
-#: src/kgoldrunner.cpp:201 src/kgrgame.cpp:622
+#: src/kgoldrunner.cpp:201 src/kgrgame.cpp:631
 msgid "&New Game..."
 msgstr "(&N) కొత్త ఆట"
 
@@ -2641,7 +2641,7 @@ msgstr "(&E) ఏ స్థాయినైనా మార్చు..."
 msgid "Edit"
 msgstr "ఎడిటర్"
 
-#: src/kgoldrunner.cpp:326 src/kgrgame.cpp:1280
+#: src/kgoldrunner.cpp:326 src/kgrgame.cpp:1289
 msgid "&Save Edits..."
 msgstr ""
 
@@ -2771,7 +2771,7 @@ msgstr ""
 
 #: src/kgoldrunner.cpp:420
 msgid ""
-"Use the the laptop's pointer device to control the hero's moves, and use the "
+"Use the laptop's pointer device to control the hero's moves, and use the "
 "keyboard to dig left and right."
 msgstr ""
 
@@ -3162,83 +3162,83 @@ msgstr ""
 msgid "Paint gold pieces (or other treasure)"
 msgstr ""
 
-#: src/kgrcanvas.cpp:46
+#: src/kgrcanvas.cpp:52
 #, fuzzy
 #| msgid "   Score: "
 msgid "Score: "
 msgstr "   స్కొరు: "
 
-#: src/kgrcanvas.cpp:51
+#: src/kgrcanvas.cpp:57
 #, fuzzy
 #| msgid "   Lives: "
 msgid "Lives: "
 msgstr "   చాన్సులు: "
 
-#: src/kgrdialog.cpp:31
+#: src/kgrdialog.cpp:40
 msgid "Edit Name & Hint"
 msgstr ""
 
-#: src/kgrdialog.cpp:43
+#: src/kgrdialog.cpp:52
 msgid "Name of level:"
 msgstr "స్థాయి పేరు:"
 
-#: src/kgrdialog.cpp:48
+#: src/kgrdialog.cpp:57
 msgid "Hint for level:"
 msgstr ""
 
-#: src/kgrdialog.cpp:85 src/kgrdialog.cpp:147 src/kgrselector.cpp:86
-#: src/kgrselector.cpp:262
+#: src/kgrdialog.cpp:94 src/kgrdialog.cpp:156 src/kgrselector.cpp:95
+#: src/kgrselector.cpp:271
 msgid "Edit Game Info"
 msgstr ""
 
-#: src/kgrdialog.cpp:99
+#: src/kgrdialog.cpp:108
 msgid "Name of game:"
 msgstr "ఆట పేరు:"
 
-#: src/kgrdialog.cpp:107
+#: src/kgrdialog.cpp:116
 msgid "File name prefix:"
 msgstr ""
 
-#: src/kgrdialog.cpp:115
+#: src/kgrdialog.cpp:124
 msgid "Traditional rules"
 msgstr ""
 
-#: src/kgrdialog.cpp:116
+#: src/kgrdialog.cpp:125
 msgid "KGoldrunner rules"
 msgstr ""
 
-#: src/kgrdialog.cpp:125 src/kgrdialog.cpp:159
+#: src/kgrdialog.cpp:134 src/kgrdialog.cpp:168
 #, kde-format
 msgid "1 level"
 msgid_plural "%1 levels"
 msgstr[0] "1 స్థాయి"
 msgstr[1] "%1 స్థాయిలు"
 
-#: src/kgrdialog.cpp:128
+#: src/kgrdialog.cpp:137
 msgid "About this game:"
 msgstr "ఈ ఆట గురించి:"
 
-#: src/kgrdialog.cpp:144
+#: src/kgrdialog.cpp:153
 msgid "Create Game"
 msgstr "ఆట సృష్టించు"
 
-#: src/kgrdialog.cpp:161
+#: src/kgrdialog.cpp:170
 msgid "Save Changes"
 msgstr "మార్పులను దాచు"
 
-#: src/kgrdialog.cpp:166
+#: src/kgrdialog.cpp:175
 msgid "0 levels"
 msgstr "0 స్థాయిలు"
 
-#: src/kgrdialog.cpp:167 src/kgrselector.cpp:250
+#: src/kgrdialog.cpp:176 src/kgrselector.cpp:259
 msgid "Save New"
 msgstr "కొత్త దానిని దాచు"
 
-#: src/kgrdialog.cpp:222
+#: src/kgrdialog.cpp:231
 msgid "Select Saved Game"
 msgstr ""
 
-#: src/kgrdialog.cpp:235
+#: src/kgrdialog.cpp:244
 msgid "Game                       Level/Lives/Score   Day    Date     Time  "
 msgstr ""
 
@@ -3252,7 +3252,7 @@ msgid ""
 "Try menu item \"Create Game\"."
 msgstr ""
 
-#: src/kgreditor.cpp:126 src/kgreditor.cpp:148 src/kgrselector.cpp:247
+#: src/kgreditor.cpp:126 src/kgreditor.cpp:148 src/kgrselector.cpp:256
 msgid "Edit Level"
 msgstr ""
 
@@ -3269,7 +3269,7 @@ msgid ""
 "through bricks, are you? :-)"
 msgstr ""
 
-#: src/kgreditor.cpp:253 src/kgreditor.cpp:271 src/kgrgame.cpp:247
+#: src/kgreditor.cpp:253 src/kgreditor.cpp:271 src/kgrgame.cpp:256
 msgid "Save Level"
 msgstr "స్థాయి ని దాచు"
 
@@ -3285,8 +3285,8 @@ msgstr ""
 msgid "&Cancel"
 msgstr ""
 
-#: src/kgreditor.cpp:272 src/kgreditor.cpp:802 src/kgrgame.cpp:1304
-#: src/kgrgame.cpp:1512
+#: src/kgreditor.cpp:272 src/kgreditor.cpp:802 src/kgrgame.cpp:1313
+#: src/kgrgame.cpp:1521
 #, kde-format
 msgid "Cannot open file '%1' for output."
 msgstr ""
@@ -3324,7 +3324,7 @@ msgid "You must change the level or the game or both."
 msgstr ""
 
 #: src/kgreditor.cpp:429 src/kgreditor.cpp:452 src/kgreditor.cpp:470
-#: src/kgrselector.cpp:256
+#: src/kgrselector.cpp:265
 msgid "Delete Level"
 msgstr "స్థాయిని తొలగించు"
 
@@ -3398,502 +3398,502 @@ msgstr ""
 msgid "New Level"
 msgstr "కొత్త స్థాయి"
 
-#: src/kgreditor.cpp:862 src/kgrgame.cpp:1210
+#: src/kgreditor.cpp:862 src/kgrgame.cpp:1219
 #, kde-format
 msgctxt "Game name - level number."
 msgid "%1 - %2"
 msgstr "%1 - %2"
 
-#: src/kgreditor.cpp:866 src/kgrgame.cpp:1213
+#: src/kgreditor.cpp:866 src/kgrgame.cpp:1222
 #, kde-format
 msgctxt "Game name - level number - level name."
 msgid "%1 - %2 - %3"
 msgstr "%1 - %2 - %3"
 
-#: src/kgrgame.cpp:180
+#: src/kgrgame.cpp:189
 #, fuzzy
 #| msgid "Play Level"
 msgid "Play Next Level"
 msgstr "స్థాయిని ఆడు"
 
-#: src/kgrgame.cpp:181
+#: src/kgrgame.cpp:190
 msgid "There are no more levels in this game."
 msgstr ""
 
-#: src/kgrgame.cpp:248
+#: src/kgrgame.cpp:257
 msgid "Inappropriate action: you are not editing a level."
 msgstr ""
 
-#: src/kgrgame.cpp:532 src/kgrgame.cpp:678
+#: src/kgrgame.cpp:541 src/kgrgame.cpp:687
 msgid "Game Paused"
 msgstr ""
 
-#: src/kgrgame.cpp:533
+#: src/kgrgame.cpp:542
 msgid ""
 "The replay has stopped and the game is pausing while you prepare to go on "
 "playing. Please press the Pause key (default P or Esc) when you are ready."
 msgstr ""
 
-#: src/kgrgame.cpp:577 src/kgrgame.cpp:583
+#: src/kgrgame.cpp:586 src/kgrgame.cpp:592
 #, fuzzy
 #| msgid "Play Level"
 msgid "Replay Last Level"
 msgstr "స్థాయిని ఆడు"
 
-#: src/kgrgame.cpp:578
+#: src/kgrgame.cpp:587
 msgid ""
 "ERROR: Could not find and replay a recording of the last level you played."
 msgstr ""
 
-#: src/kgrgame.cpp:584
+#: src/kgrgame.cpp:593
 msgid ""
 "There is no last level to replay.  You need to play a level to completion, "
 "win or lose, before you can use the Replay Last Level action."
 msgstr ""
 
-#: src/kgrgame.cpp:603
+#: src/kgrgame.cpp:612
 msgid "Quick Start"
 msgstr ""
 
-#: src/kgrgame.cpp:611
+#: src/kgrgame.cpp:620
 msgctxt "Button text: start playing a game"
 msgid "&PLAY"
 msgstr "(&P) ఆడు"
 
-#: src/kgrgame.cpp:612
+#: src/kgrgame.cpp:621
 msgid "Start playing this level"
 msgstr "ఈ స్థాయి ఆడటం మొదలుపెట్టు"
 
-#: src/kgrgame.cpp:614
+#: src/kgrgame.cpp:623
 msgid ""
 "Set up to start playing the game and level being shown, as soon as you "
 "click, move the mouse or press a key"
 msgstr ""
 
-#: src/kgrgame.cpp:618
+#: src/kgrgame.cpp:627
 msgid "&Quit"
 msgstr "(&Q) విరమించు"
 
-#: src/kgrgame.cpp:619
+#: src/kgrgame.cpp:628
 msgid "Close KGoldrunner"
 msgstr "కెగొల్డ్ రన్నర్ మూసివెయి"
 
-#: src/kgrgame.cpp:624
+#: src/kgrgame.cpp:633
 msgid "Start a different game or level"
 msgstr "వెరె ఆట కాని స్థాయి కాని మొదలుపెట్టు"
 
-#: src/kgrgame.cpp:626
+#: src/kgrgame.cpp:635
 msgid ""
 "Use the Select Game dialog box to choose a different game or level and start "
 "playing it"
 msgstr ""
 
-#: src/kgrgame.cpp:630
+#: src/kgrgame.cpp:639
 msgid "&Use Menu"
 msgstr "(&U) పట్టిని వాడు"
 
-#: src/kgrgame.cpp:632
+#: src/kgrgame.cpp:641
 msgid "Use the menus to choose other actions"
 msgstr ""
 
-#: src/kgrgame.cpp:634
+#: src/kgrgame.cpp:643
 msgid ""
 "Before playing, use the menus to choose other actions, such as loading a "
 "saved game or changing the theme"
 msgstr ""
 
-#: src/kgrgame.cpp:679
+#: src/kgrgame.cpp:688
 msgid ""
 "The game is halted. You will need to press the Pause key (default P or Esc) "
 "when you are ready to play."
 msgstr ""
 
-#: src/kgrgame.cpp:727
+#: src/kgrgame.cpp:736
 msgid "Show A Solution"
 msgstr ""
 
-#: src/kgrgame.cpp:728
+#: src/kgrgame.cpp:737
 msgid ""
 "Sorry, although all levels of KGoldrunner can be solved, no solution has "
 "been recorded yet for the level you selected."
 msgstr ""
 
-#: src/kgrgame.cpp:738
+#: src/kgrgame.cpp:747
 #, fuzzy
 #| msgid "Play Level"
 msgid "Replay Any Level"
 msgstr "స్థాయిని ఆడు"
 
-#: src/kgrgame.cpp:739
+#: src/kgrgame.cpp:748
 msgid ""
 "Sorry, you do not seem to have played and recorded the selected level before."
 msgstr ""
 
-#: src/kgrgame.cpp:933
+#: src/kgrgame.cpp:942
 msgid ""
 "<NOBR><B>GAME OVER !!!</B></NOBR><P>Would you like to try this level again?</"
 "P>"
 msgstr ""
 
-#: src/kgrgame.cpp:935
+#: src/kgrgame.cpp:944
 #, fuzzy
 #| msgid "Game"
 msgid "Game Over"
 msgstr "ఆట"
 
-#: src/kgrgame.cpp:936
+#: src/kgrgame.cpp:945
 msgid "&Try Again"
 msgstr ""
 
-#: src/kgrgame.cpp:936
+#: src/kgrgame.cpp:945
 msgid "&Finish"
 msgstr "(&F) ఆపివెయి"
 
-#: src/kgrgame.cpp:1008
+#: src/kgrgame.cpp:1017
 #, kde-format
 msgid ""
 "<b>CONGRATULATIONS !!!!</b><p>You have conquered the last level in the <b>\"%"
 "1\"</b> game !!</p>"
 msgstr ""
 
-#: src/kgrgame.cpp:1136
+#: src/kgrgame.cpp:1145
 msgid "Hint"
 msgstr "సూచన"
 
-#: src/kgrgame.cpp:1142
+#: src/kgrgame.cpp:1151
 msgid "Sorry, there is no hint for this level."
 msgstr ""
 
-#: src/kgrgame.cpp:1200
+#: src/kgrgame.cpp:1209
 msgid "T H E   E N D"
 msgstr "శుభం"
 
-#: src/kgrgame.cpp:1236
+#: src/kgrgame.cpp:1245
 msgid ""
 "You have pressed a key that can be used to control the Hero. Do you want to "
 "switch automatically to keyboard control? Pointer control is easier to use "
 "in the long term - like riding a bike rather than walking!"
 msgstr ""
 
-#: src/kgrgame.cpp:1240
+#: src/kgrgame.cpp:1249
 msgid "Switch to Keyboard Mode"
 msgstr ""
 
-#: src/kgrgame.cpp:1241
+#: src/kgrgame.cpp:1250
 msgid "Switch to &Keyboard Mode"
 msgstr ""
 
-#: src/kgrgame.cpp:1242
+#: src/kgrgame.cpp:1251
 msgid "Stay in &Mouse Mode"
 msgstr ""
 
-#: src/kgrgame.cpp:1243
+#: src/kgrgame.cpp:1252
 msgid "Keyboard Mode"
 msgstr ""
 
-#: src/kgrgame.cpp:1277 src/kgrgame.cpp:1303 src/kgrgame.cpp:1313
-#: src/kgrgame.cpp:1332 src/kgrgame.cpp:1338
+#: src/kgrgame.cpp:1286 src/kgrgame.cpp:1312 src/kgrgame.cpp:1322
+#: src/kgrgame.cpp:1341 src/kgrgame.cpp:1347
 msgid "Save Game"
 msgstr "ఆటను దాచు"
 
-#: src/kgrgame.cpp:1278
+#: src/kgrgame.cpp:1287
 #, kde-format
 msgid ""
 "Sorry, you cannot save your game play while you are editing. Please try menu "
 "item \"%1\"."
 msgstr ""
 
-#: src/kgrgame.cpp:1314 src/kgrgame.cpp:1358 src/kgrgame.cpp:1473
-#: src/kgrgame.cpp:1674 src/kgrgame.cpp:1837 src/kgrgameio.cpp:169
+#: src/kgrgame.cpp:1323 src/kgrgame.cpp:1367 src/kgrgame.cpp:1482
+#: src/kgrgame.cpp:1683 src/kgrgame.cpp:1846 src/kgrgameio.cpp:167
 #, kde-format
 msgid "Cannot open file '%1' for read-only."
 msgstr ""
 
-#: src/kgrgame.cpp:1333
+#: src/kgrgame.cpp:1342
 msgid ""
 "Please note: for reasons of simplicity, your saved game position and score "
 "will be as they were at the start of this level, not as they are now."
 msgstr ""
 
-#: src/kgrgame.cpp:1339
+#: src/kgrgame.cpp:1348
 msgid "Error: Failed to save your game."
 msgstr "దొషం: మీ ఆట దాచలెకపొయాను"
 
-#: src/kgrgame.cpp:1351 src/kgrgame.cpp:1357 src/kgrgame.cpp:1395
+#: src/kgrgame.cpp:1360 src/kgrgame.cpp:1366 src/kgrgame.cpp:1404
 msgid "Load Game"
 msgstr "ఆట ఎక్కించు"
 
-#: src/kgrgame.cpp:1352
+#: src/kgrgame.cpp:1361
 msgid "Sorry, there are no saved games."
 msgstr ""
 
-#: src/kgrgame.cpp:1396
+#: src/kgrgame.cpp:1405
 #, kde-format
 msgid "Cannot find the game with prefix '%1'."
 msgstr ""
 
-#: src/kgrgame.cpp:1454
+#: src/kgrgame.cpp:1463
 msgid "Unknown"
 msgstr "తెలియని"
 
-#: src/kgrgame.cpp:1472 src/kgrgame.cpp:1511
+#: src/kgrgame.cpp:1481 src/kgrgame.cpp:1520
 msgid "Check for High Score"
 msgstr ""
 
-#: src/kgrgame.cpp:1529
+#: src/kgrgame.cpp:1538
 msgid ""
 "<html><b>Congratulations !!!</b><br>You have achieved a high score in this "
 "game.<br>Please enter your name so that it may be enshrined<br>in the "
 "KGoldrunner Hall of Fame.</html>"
 msgstr ""
 
-#: src/kgrgame.cpp:1541 src/kgrgame.cpp:1628
+#: src/kgrgame.cpp:1550 src/kgrgame.cpp:1637
 msgid "Save High Score"
 msgstr ""
 
-#: src/kgrgame.cpp:1629
+#: src/kgrgame.cpp:1638
 msgid "Error: Failed to save your high score."
 msgstr ""
 
-#: src/kgrgame.cpp:1641 src/kgrgame.cpp:1664 src/kgrgame.cpp:1673
+#: src/kgrgame.cpp:1650 src/kgrgame.cpp:1673 src/kgrgame.cpp:1682
 msgid "Show High Scores"
 msgstr ""
 
-#: src/kgrgame.cpp:1642
+#: src/kgrgame.cpp:1651
 msgid "Sorry, we do not keep high scores for tutorial games."
 msgstr ""
 
-#: src/kgrgame.cpp:1665
+#: src/kgrgame.cpp:1674
 #, kde-format
 msgid "Sorry, there are no high scores for the \"%1\" game yet."
 msgstr ""
 
-#: src/kgrgame.cpp:1689
+#: src/kgrgame.cpp:1698
 #, kde-format
 msgid ""
 "<center><h2>KGoldrunner Hall of Fame</h2></center><center><h3>\"%1\" Game</"
 "h3></center>"
 msgstr ""
 
-#: src/kgrgame.cpp:1699
+#: src/kgrgame.cpp:1708
 msgctxt "1, 2, 3 etc."
 msgid "Rank"
 msgstr ""
 
-#: src/kgrgame.cpp:1700
+#: src/kgrgame.cpp:1709
 msgctxt "Person"
 msgid "Name"
 msgstr "పేరు"
 
-#: src/kgrgame.cpp:1701
+#: src/kgrgame.cpp:1710
 msgctxt "Game level reached"
 msgid "Level"
 msgstr "స్థాయి"
 
-#: src/kgrgame.cpp:1702
+#: src/kgrgame.cpp:1711
 msgid "Score"
 msgstr "స్కొరు"
 
-#: src/kgrgame.cpp:1703
+#: src/kgrgame.cpp:1712
 msgid "Date"
 msgstr "తేది"
 
-#: src/kgrgame.cpp:1706
+#: src/kgrgame.cpp:1715
 msgid "High Scores"
 msgstr "అధిక స్కొరులు"
 
-#: src/kgrgame.cpp:1830 src/kgrgame.cpp:1836 src/kgrgame.cpp:1840
+#: src/kgrgame.cpp:1839 src/kgrgame.cpp:1845 src/kgrgame.cpp:1849
 msgid "Load Game Info"
 msgstr ""
 
-#: src/kgrgame.cpp:1831
+#: src/kgrgame.cpp:1840
 #, kde-format
 msgid "Cannot find game info file '%1'."
 msgstr ""
 
-#: src/kgrgame.cpp:1841
+#: src/kgrgame.cpp:1850
 #, kde-format
 msgid "Reached end of file '%1' before finding end of game-data."
 msgstr ""
 
-#: src/kgrgameio.cpp:163 src/kgrgameio.cpp:168 src/kgrgameio.cpp:172
+#: src/kgrgameio.cpp:161 src/kgrgameio.cpp:166 src/kgrgameio.cpp:170
 msgid "Read Level Data"
 msgstr ""
 
-#: src/kgrgameio.cpp:164
+#: src/kgrgameio.cpp:162
 #, kde-format
 msgid "Cannot find file '%1'."
 msgstr "'%1' దస్త్రం కనపడుట లేదు."
 
-#: src/kgrgameio.cpp:173
+#: src/kgrgameio.cpp:171
 #, kde-format
 msgid "Reached end of file '%1' without finding level data."
 msgstr ""
 
-#: src/kgrgameio.cpp:368 src/kgrgameio.cpp:375
+#: src/kgrgameio.cpp:366 src/kgrgameio.cpp:373
 msgid "Rename File"
 msgstr "దస్త్రం పేరు మార్చు"
 
-#: src/kgrgameio.cpp:369
+#: src/kgrgameio.cpp:367
 #, fuzzy, kde-format
 #| msgid "Cannot find file '%1'."
 msgid "Cannot delete previous version of file '%1'."
 msgstr "'%1' దస్త్రం కనపడుట లేదు."
 
-#: src/kgrgameio.cpp:376
+#: src/kgrgameio.cpp:374
 #, fuzzy, kde-format
 #| msgid "Cannot find file '%1'."
 msgid "Cannot rename file '%1' to '%2'."
 msgstr "'%1' దస్త్రం కనపడుట లేదు."
 
-#: src/kgrselector.cpp:74 src/kgrselector.cpp:80 src/kgrselector.cpp:100
-#: src/kgrselector.cpp:485
+#: src/kgrselector.cpp:83 src/kgrselector.cpp:89 src/kgrselector.cpp:109
+#: src/kgrselector.cpp:494
 msgid "Select Level"
 msgstr "స్థాయిని ఎంచుకొ"
 
-#: src/kgrselector.cpp:75
+#: src/kgrselector.cpp:84
 msgid "Sorry, you can only save or move into one of your own games."
 msgstr ""
 
-#: src/kgrselector.cpp:81
+#: src/kgrselector.cpp:90
 msgid "Sorry, you can only delete a level from one of your own games."
 msgstr ""
 
-#: src/kgrselector.cpp:87
+#: src/kgrselector.cpp:96
 msgid "Sorry, you can only edit the game information on your own games."
 msgstr ""
 
-#: src/kgrselector.cpp:101
+#: src/kgrselector.cpp:110
 #, kde-format
 msgid "There is no level %1 in \"%2\", so you cannot play or edit it."
 msgstr ""
 
-#: src/kgrselector.cpp:119 src/kgrselector.cpp:168
+#: src/kgrselector.cpp:128 src/kgrselector.cpp:177
 msgid "Select Game"
 msgstr ""
 
-#: src/kgrselector.cpp:128
+#: src/kgrselector.cpp:137
 msgid "<html><b>Please select a game:</b></html>"
 msgstr ""
 
-#: src/kgrselector.cpp:135
+#: src/kgrselector.cpp:144
 msgid "Name of Game"
 msgstr ""
 
-#: src/kgrselector.cpp:136
+#: src/kgrselector.cpp:145
 msgid "Rules"
 msgstr ""
 
-#: src/kgrselector.cpp:137
+#: src/kgrselector.cpp:146
 #, fuzzy
 #| msgid "Five Levels"
 msgid "Levels"
 msgstr "ఐదు స్థాయిలు"
 
-#: src/kgrselector.cpp:138
+#: src/kgrselector.cpp:147
 msgid "Skill"
 msgstr ""
 
-#: src/kgrselector.cpp:170
+#: src/kgrselector.cpp:179
 msgid "Level 1 of the selected game is:"
 msgstr ""
 
-#: src/kgrselector.cpp:174
+#: src/kgrselector.cpp:183
 msgid "Select Game/Level"
 msgstr ""
 
-#: src/kgrselector.cpp:176
+#: src/kgrselector.cpp:185
 msgid "Please select a level:"
 msgstr ""
 
-#: src/kgrselector.cpp:195
+#: src/kgrselector.cpp:204
 msgid "Level number:"
 msgstr ""
 
-#: src/kgrselector.cpp:201
+#: src/kgrselector.cpp:210
 msgid "Edit Level Name && Hint"
 msgstr ""
 
-#: src/kgrselector.cpp:229
+#: src/kgrselector.cpp:238
 msgid "Start Game"
 msgstr "ఆట మొదలుపెట్టు"
 
-#: src/kgrselector.cpp:238
+#: src/kgrselector.cpp:247
 msgid "Play Level"
 msgstr "స్థాయిని ఆడు"
 
-#: src/kgrselector.cpp:241
+#: src/kgrselector.cpp:250
 #, fuzzy
 #| msgid "Play Level"
 msgid "Replay Level"
 msgstr "స్థాయిని ఆడు"
 
-#: src/kgrselector.cpp:244
+#: src/kgrselector.cpp:253
 msgid "Show Solution"
 msgstr ""
 
-#: src/kgrselector.cpp:253
+#: src/kgrselector.cpp:262
 msgid "Save Change"
 msgstr "మార్పును దాచు"
 
-#: src/kgrselector.cpp:259
+#: src/kgrselector.cpp:268
 msgid "Move To..."
 msgstr ""
 
-#: src/kgrselector.cpp:343
+#: src/kgrselector.cpp:352
 msgctxt "Rules"
 msgid "KGoldrunner"
 msgstr "కెగొల్డ్ రన్నర్"
 
-#: src/kgrselector.cpp:344
+#: src/kgrselector.cpp:353
 msgctxt "Rules"
 msgid "Traditional"
 msgstr "సాంప్రదాయక"
 
-#: src/kgrselector.cpp:347
+#: src/kgrselector.cpp:356
 msgctxt "Skill Level"
 msgid "Tutorial"
 msgstr "పాఠం"
 
-#: src/kgrselector.cpp:349
+#: src/kgrselector.cpp:358
 msgctxt "Skill Level"
 msgid "Normal"
 msgstr "సాధారణ"
 
-#: src/kgrselector.cpp:350
+#: src/kgrselector.cpp:359
 msgctxt "Skill Level"
 msgid "Championship"
 msgstr ""
 
-#: src/kgrselector.cpp:452
+#: src/kgrselector.cpp:461
 #, kde-format
 msgid "1 level, uses KGoldrunner rules."
 msgid_plural "%1 levels, uses KGoldrunner rules."
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/kgrselector.cpp:455
+#: src/kgrselector.cpp:464
 #, kde-format
 msgid "1 level, uses Traditional rules."
 msgid_plural "%1 levels, uses Traditional rules."
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/kgrselector.cpp:460
+#: src/kgrselector.cpp:469
 msgid "Sorry, there is no further information about this game."
 msgstr ""
 
-#: src/kgrselector.cpp:486
+#: src/kgrselector.cpp:495
 msgid "This level number is not valid. It can not be used."
 msgstr ""
 
-#: src/kgrselector.cpp:507
+#: src/kgrselector.cpp:516
 msgid ""
 "The main button at the bottom echoes the menu action you selected. Click it "
 "after choosing a game and level - or use \"Cancel\"."
 msgstr ""
 
-#: src/kgrselector.cpp:512
+#: src/kgrselector.cpp:521
 msgid ""
 "\n"
 "\n"
@@ -3905,7 +3905,7 @@ msgid ""
 "the mouse or press a key."
 msgstr ""
 
-#: src/kgrselector.cpp:521
+#: src/kgrselector.cpp:530
 msgid ""
 "\n"
 "\n"
@@ -3916,7 +3916,7 @@ msgid ""
 "button held down and paint or erase multiple squares."
 msgstr ""
 
-#: src/kgrselector.cpp:529
+#: src/kgrselector.cpp:538
 msgid ""
 "\n"
 "\n"
@@ -3926,7 +3926,7 @@ msgid ""
 "save into the middle of your game."
 msgstr ""
 
-#: src/kgrselector.cpp:536
+#: src/kgrselector.cpp:545
 msgid ""
 "\n"
 "\n"
@@ -3936,7 +3936,7 @@ msgid ""
 "series, the other levels are automatically re-numbered."
 msgstr ""
 
-#: src/kgrselector.cpp:543
+#: src/kgrselector.cpp:552
 msgid ""
 "\n"
 "\n"
@@ -3944,7 +3944,7 @@ msgid ""
 "from the middle of a series, the other levels are automatically re-numbered."
 msgstr ""
 
-#: src/kgrselector.cpp:548
+#: src/kgrselector.cpp:557
 msgid ""
 "\n"
 "\n"
@@ -3954,7 +3954,7 @@ msgid ""
 "required. You can only move levels within your own games."
 msgstr ""
 
-#: src/kgrselector.cpp:555
+#: src/kgrselector.cpp:564
 msgid ""
 "\n"
 "\n"
@@ -3962,7 +3962,7 @@ msgid ""
 "dialog where you edit the details of the game."
 msgstr ""
 
-#: src/kgrselector.cpp:562
+#: src/kgrselector.cpp:571
 msgid ""
 "\n"
 "\n"
@@ -3976,7 +3976,7 @@ msgid ""
 "choice."
 msgstr ""
 
-#: src/kgrselector.cpp:573
+#: src/kgrselector.cpp:582
 #, fuzzy
 #| msgid "Help: Select Game &Level"
 msgid "Help: Select Game & Level"
