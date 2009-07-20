@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-15 13:03+0200\n"
+"POT-Creation-Date: 2009-07-20 11:32+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -6895,7 +6895,7 @@ msgstr ""
 #: kdeui/shortcuts/kglobalaccel.cpp:540
 #: kdeui/widgets/kkeysequencewidget.cpp:179
 #: kdeui/widgets/kkeysequencewidget.cpp:261
-#: kdeui/widgets/kkeysequencewidget.cpp:641
+#: kdeui/widgets/kkeysequencewidget.cpp:653
 msgid "Reassign"
 msgstr "మళ్లి నియమించు"
 
@@ -7222,7 +7222,7 @@ msgstr "అప్రమేయం:"
 
 #: kdeui/dialogs/kshortcuteditwidget.cpp:56
 #: kdeui/dialogs/kshortcuteditwidget.cpp:59
-#: kdeui/widgets/kkeysequencewidget.cpp:675
+#: kdeui/widgets/kkeysequencewidget.cpp:687
 msgctxt "No shortcut defined"
 msgid "None"
 msgstr "ఏదీ వద్దు"
@@ -9940,11 +9940,24 @@ msgid ""
 "<br>Please select a different one.</qt>"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:635
+#: kdeui/widgets/kkeysequencewidget.cpp:506
+#, fuzzy
+#| msgid "New Web Shortcut"
+msgid "Reserved Shortcut"
+msgstr "కొత్త వెబ్ శీఘ్ర మార్గము"
+
+#: kdeui/widgets/kkeysequencewidget.cpp:507
+msgid ""
+"The F12 key is reserved on Windows and it can't be used for a global "
+"shortcut.\n"
+"Please choose another one"
+msgstr ""
+
+#: kdeui/widgets/kkeysequencewidget.cpp:647
 msgid "Conflict with Standard Application Shortcut"
 msgstr "ప్రామాణిక కార్యక్రమ శీఘ్రమార్గంతొ ఘర్షణ"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:636
+#: kdeui/widgets/kkeysequencewidget.cpp:648
 #, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -9952,16 +9965,16 @@ msgid ""
 "Do you really want to use it as a global shortcut as well?"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:668
+#: kdeui/widgets/kkeysequencewidget.cpp:680
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "ఇన్పుట్"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:718
+#: kdeui/widgets/kkeysequencewidget.cpp:730
 msgid "The key you just pressed is not supported by Qt."
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:719
+#: kdeui/widgets/kkeysequencewidget.cpp:731
 msgid "Unsupported Key"
 msgstr ""
 
