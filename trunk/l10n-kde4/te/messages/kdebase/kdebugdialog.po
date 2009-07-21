@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdebugdialog\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-28 11:34+0200\n"
+"POT-Creation-Date: 2009-07-21 11:49+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,101 +25,107 @@ msgstr ""
 "\n"
 "\n"
 
-#: kdebugdialog.cpp:42 klistdebugdialog.cpp:38
+#: kdebugdialog.cpp:41 klistdebugdialog.cpp:36
 msgid "Debug Settings"
 msgstr "అమరికలను డీబగ్ చేయుము"
 
-#: kdebugdialog.cpp:48
+#: kdebugdialog.cpp:54
 msgid "Debug area:"
 msgstr "డీబగ్ ప్రాంతము:"
 
-#: kdebugdialog.cpp:64
+#: kdebugdialog.cpp:72
 msgid "File"
 msgstr "దస్త్రం"
 
-#: kdebugdialog.cpp:65
+#: kdebugdialog.cpp:73
 msgid "Message Box"
 msgstr "సందేశ బాక్స్"
 
-#: kdebugdialog.cpp:66
+#: kdebugdialog.cpp:74
 msgid "Shell"
 msgstr "షెల్"
 
-#: kdebugdialog.cpp:67
+#: kdebugdialog.cpp:75
 msgid "Syslog"
 msgstr "సిస్‌లాగ్"
 
-#: kdebugdialog.cpp:68
+#: kdebugdialog.cpp:76
 msgid "None"
 msgstr "ఏదీకాదు"
 
-#: kdebugdialog.cpp:73
+#: kdebugdialog.cpp:81
 msgid "Information"
 msgstr "సమాచారం"
 
-#: kdebugdialog.cpp:78 kdebugdialog.cpp:105 kdebugdialog.cpp:132
-#: kdebugdialog.cpp:159
+#: kdebugdialog.cpp:86 kdebugdialog.cpp:113 kdebugdialog.cpp:140
+#: kdebugdialog.cpp:167
 msgid "Output to:"
 msgstr "అవట్‌పుట్ దీనికి:"
 
-#: kdebugdialog.cpp:86 kdebugdialog.cpp:113 kdebugdialog.cpp:140
-#: kdebugdialog.cpp:167
+#: kdebugdialog.cpp:94 kdebugdialog.cpp:121 kdebugdialog.cpp:148
+#: kdebugdialog.cpp:175
 msgid "Filename:"
 msgstr "ఫైలుపేరు:"
 
-#: kdebugdialog.cpp:100
+#: kdebugdialog.cpp:108
 msgid "Warning"
 msgstr "హెచ్చరిక"
 
-#: kdebugdialog.cpp:127
+#: kdebugdialog.cpp:135
 msgid "Error"
 msgstr "దోషము"
 
-#: kdebugdialog.cpp:154
+#: kdebugdialog.cpp:162
 msgid "Fatal Error"
 msgstr "ఫాటల్ దోషము"
 
-#: kdebugdialog.cpp:179
+#: kdebugdialog.cpp:187
 msgid "Abort on fatal errors"
 msgstr "ఫాటల్ దోషములపై ఎబార్టు అవ్వుము"
 
-#: klistdebugdialog.cpp:65
+#: kdebugdialog.cpp:191 klistdebugdialog.cpp:76
+msgid "Disable all debug output"
+msgstr ""
+
+#: klistdebugdialog.cpp:67
 msgid "&Select All"
 msgstr "(&S) అన్నిటిని ఎంచుకొనుము"
 
-#: klistdebugdialog.cpp:66
+#: klistdebugdialog.cpp:68
 msgid "&Deselect All"
 msgstr "(&D) అన్నిటిని ఎంపికతీసివేయుము"
 
-#: main.cpp:73
+#: main.cpp:97
 msgid "KDebugDialog"
 msgstr "KDebugDialog"
 
-#: main.cpp:74
+#: main.cpp:98
 msgid "A dialog box for setting preferences for debug output"
 msgstr "డీబగ్ అవుట్‌పుట్‌కు అభీష్టాలను అమర్చుటకు వొక డైలాగ్ బాక్స్"
 
-#: main.cpp:75
-msgid "Copyright 1999-2000, David Faure <email>faure@kde.org</email>"
+#: main.cpp:99
+#, fuzzy
+#| msgid "Copyright 1999-2000, David Faure <email>faure@kde.org</email>"
+msgid "Copyright 1999-2009, David Faure <email>faure@kde.org</email>"
 msgstr "కాపీరైట్ 1999-2000, డేవిడ్ ఫౌర్ <email>faure@kde.org</email>"
 
-#: main.cpp:76
+#: main.cpp:100
 msgid "David Faure"
 msgstr "డెవిడ్ ఫారె"
 
-#: main.cpp:76
+#: main.cpp:100
 msgid "Maintainer"
 msgstr "సంరక్షకుడు"
 
-#: main.cpp:81
+#: main.cpp:105
 msgid "Show the fully-fledged dialog instead of the default list dialog"
 msgstr "అప్రమేయ జాబితా డైలాగును చూపుటకు బదులుగా పూర్తిగా-ఫ్లెడ్జిచేసిన డైలాగును చూపుము"
 
-#: main.cpp:82
+#: main.cpp:106
 msgid "Turn area on"
 msgstr "ప్రాంతమును ఆన్ చేయుము"
 
-#: main.cpp:83
+#: main.cpp:107
 msgid "Turn area off"
 msgstr "ప్రాంతమును ఆఫ్ చేయుము"
 
