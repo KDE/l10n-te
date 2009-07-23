@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-22 12:56+0200\n"
+"POT-Creation-Date: 2009-07-23 07:06+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -5787,14 +5787,6 @@ msgstr "KNewStuff సహాయాలు"
 msgid "This operation requires authentication."
 msgstr "కార్యానికి దృవీకరణ అవసరము."
 
-#: knewstuff/knewstuff2/ui/knewstuffaction.cpp:35
-msgctxt ""
-"Hot new stuff offers to Download New Data. Apps can fill in an individual "
-"string here, but Data is the default. This is in an action that gets "
-"displayed in the menu or toolbar for example."
-msgid "Download New Data..."
-msgstr "కొత్త దత్తాంశము డౌనులోడు చేయుము..."
-
 #: knewstuff/knewstuff2/ui/kdxscomments.cpp:32
 msgid "User comments"
 msgstr "వినియోగదారి వ్యాఖ్యానములు"
@@ -8556,7 +8548,7 @@ msgstr ""
 #: kdeui/windowmanagement/kwindowsystem_qws.cpp:177
 #: kdeui/windowmanagement/kwindowsystem_x11.cpp:854
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:564
-#: kdeui/windowmanagement/kwindowsystem_win.cpp:580
+#: kdeui/windowmanagement/kwindowsystem_win.cpp:604
 #, kde-format
 msgid "Desktop %1"
 msgstr "రంగస్థలం %1"
@@ -11078,7 +11070,7 @@ msgstr "జావాస్క్రిప్ట్"
 msgid "&Abort"
 msgstr "(&A) విడిచిపెట్టుము"
 
-#: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2115
+#: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2118
 msgid "Confirmation: JavaScript Popup"
 msgstr "దృవపరచు: జావాస్క్రిప్ట్ పాప్ అప్"
 
@@ -11099,11 +11091,11 @@ msgstr ""
 "<qt>ఈ సైట్ <p>%1</p>జావా స్క్రిప్ట్ ద్వారా కొత్త విండొని తెరువుటకు మనవి కోరుతుంది.<br />అనుమతించ "
 "మంటారా?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1598 khtml/ecma/kjs_html.cpp:2122
+#: khtml/ecma/kjs_window.cpp:1598 khtml/ecma/kjs_html.cpp:2125
 msgid "Allow"
 msgstr "అనుమతించు"
 
-#: khtml/ecma/kjs_window.cpp:1598 khtml/ecma/kjs_html.cpp:2122
+#: khtml/ecma/kjs_window.cpp:1598 khtml/ecma/kjs_html.cpp:2125
 msgid "Do Not Allow"
 msgstr "అనుమతించవద్దు"
 
@@ -11141,7 +11133,7 @@ msgstr "చేర్చు"
 msgid "Disallow"
 msgstr "నిషెధించు"
 
-#: khtml/ecma/kjs_html.cpp:2117
+#: khtml/ecma/kjs_html.cpp:2120
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
@@ -11150,7 +11142,7 @@ msgstr ""
 "ఈ సైట్ ఫాంను అందిస్తోంది అది జావా స్క్రిప్ట్ ద్వారా కొత్త విండొని తెరుస్తుంది.\n"
 "అనుమతించ మంటారా?"
 
-#: khtml/ecma/kjs_html.cpp:2120
+#: khtml/ecma/kjs_html.cpp:2123
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -11828,7 +11820,7 @@ msgstr "(C) 2005-2007 సెబాస్టియన్ సాయెర్"
 msgid "Sebastian Trüg"
 msgstr "సెబాస్టియన్ సాయెర్"
 
-#: nepomuk/rcgen/rcgen.cpp:52
+#: nepomuk/rcgen/rcgen.cpp:52 kutils/kidletime/example/main.cpp:30
 #, fuzzy
 #| msgid "MainWindow"
 msgid "Maintainer"
@@ -12135,6 +12127,26 @@ msgstr "అంశాలను ఎంచుకొనుము"
 #: kutils/ksettings/dialog.cpp:232
 msgid "Enable component"
 msgstr "కాంపోనెంట్ చేతనంచేయి"
+
+#: kutils/kidletime/example/main.cpp:27
+#, fuzzy
+#| msgid "Test"
+msgid "KIdleTest"
+msgstr "పరీక్ష"
+
+#: kutils/kidletime/example/main.cpp:28
+msgid "A small application to test KIdleTime functionality"
+msgstr ""
+
+#: kutils/kidletime/example/main.cpp:29
+msgid "2009 Dario Freddi"
+msgstr ""
+
+#: kutils/kidletime/example/main.cpp:30
+#, fuzzy
+#| msgid "David Faure"
+msgid "Dario Freddi"
+msgstr "డెవిడ్ ఫావ్రె"
 
 #: kjsembed/kjscmd/kjscmd.cpp:152
 msgid "KJSCmd"
@@ -13035,6 +13047,13 @@ msgstr "(&D) ఈ రోజు సూచన"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "\"%1\" ఇలాంటి ప్రమేయం లేదు"
+
+#~ msgctxt ""
+#~ "Hot new stuff offers to Download New Data. Apps can fill in an individual "
+#~ "string here, but Data is the default. This is in an action that gets "
+#~ "displayed in the menu or toolbar for example."
+#~ msgid "Download New Data..."
+#~ msgstr "కొత్త దత్తాంశము డౌనులోడు చేయుము..."
 
 #~ msgid "0 B"
 #~ msgstr "0 బి"
