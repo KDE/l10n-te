@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-22 06:24+0000\n"
+"POT-Creation-Date: 2009-07-22 23:36+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -3378,7 +3378,7 @@ msgctxt "Name|standard desktop component"
 msgid "Web Browser"
 msgstr "వెబ్ బ్రౌజర్"
 
-#: runtime/kcontrol/componentchooser/componentservices/kcm_browser.desktop:51
+#: runtime/kcontrol/componentchooser/componentservices/kcm_browser.desktop:52
 msgctxt "Comment"
 msgid ""
 "Here you can configure your default web browser. All KDE applications in "
@@ -3395,7 +3395,7 @@ msgctxt "Name|standard desktop component"
 msgid "File Manager"
 msgstr "దస్త్రాల అభికర్త"
 
-#: runtime/kcontrol/componentchooser/componentservices/kcm_filemanager.desktop:51
+#: runtime/kcontrol/componentchooser/componentservices/kcm_filemanager.desktop:52
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -3418,7 +3418,7 @@ msgctxt "Name|standard desktop component"
 msgid "Email Client"
 msgstr "ఈమెయిల్ క్లైంట్"
 
-#: runtime/kcontrol/componentchooser/componentservices/kcm_kemail.desktop:51
+#: runtime/kcontrol/componentchooser/componentservices/kcm_kemail.desktop:52
 msgctxt "Comment"
 msgid ""
 "This service allows you to configure your default email client. All KDE "
@@ -3436,7 +3436,7 @@ msgctxt "Name|standard desktop component"
 msgid "Terminal Emulator"
 msgstr "టెర్మినల్ ఎములేటర్"
 
-#: runtime/kcontrol/componentchooser/componentservices/kcm_terminal.desktop:52
+#: runtime/kcontrol/componentchooser/componentservices/kcm_terminal.desktop:53
 msgctxt "Comment"
 msgid ""
 "This service allows you to configure your default terminal emulator. All KDE "
@@ -3454,7 +3454,7 @@ msgctxt "Name|standard desktop component"
 msgid "Window Manager"
 msgstr "విండొమెకర్"
 
-#: runtime/kcontrol/componentchooser/componentservices/kcm_wm.desktop:52
+#: runtime/kcontrol/componentchooser/componentservices/kcm_wm.desktop:53
 msgctxt "Comment"
 msgid "Here you can select the window manager to be run in your KDE session."
 msgstr "విండో నిర్వాహిక మీ KDE సెషన్‌నందు నడుచునట్లు మీరు యిక్కడ యెంచుకొనగలరు."
@@ -3831,7 +3831,7 @@ msgctxt "Name"
 msgid "Network Watcher"
 msgstr "నెట్వర్క్ ను పరిశీలించె కార్యక్రమం"
 
-#: runtime/kioslave/network/kded/networkwatcher.desktop:58
+#: runtime/kioslave/network/kded/networkwatcher.desktop:59
 msgctxt "Comment"
 msgid ""
 "Keeps track of the network and updates directory listings of the network:/ "
@@ -5419,12 +5419,12 @@ msgctxt "Comment"
 msgid "The KDE Wallet Daemon"
 msgstr "KDE వ్రాయు డెమోన్"
 
-#: runtime/kwalletd/kwalletd.notifyrc:55
+#: runtime/kwalletd/kwalletd.notifyrc:56
 msgctxt "Name"
 msgid "kwalletd"
 msgstr ""
 
-#: runtime/kwalletd/kwalletd.notifyrc:63
+#: runtime/kwalletd/kwalletd.notifyrc:64
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Change Password"
@@ -5432,7 +5432,7 @@ msgctxt "Name"
 msgid "Needs password"
 msgstr "పాస్ వర్డు మార్చండి"
 
-#: runtime/kwalletd/kwalletd.notifyrc:117
+#: runtime/kwalletd/kwalletd.notifyrc:119
 msgctxt "Comment"
 msgid "The KDE Wallet Daemon requests a password"
 msgstr ""
@@ -6803,43 +6803,16 @@ msgctxt "Name"
 msgid "Graphics"
 msgstr "గ్రాఫిక్స్"
 
-#: runtime/menu/desktop/kde-internet-communication.directory:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Notification"
-msgctxt "Name"
-msgid "Communication"
-msgstr "నో‍టీసు"
-
-#: runtime/menu/desktop/kde-internet-connectivity.directory:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Network & Connectivity"
-msgctxt "Name"
-msgid "Connectivity"
-msgstr "నెట్వర్‍క్   & అనుసంధానం"
-
 #: runtime/menu/desktop/kde-internet.directory:4
 msgctxt "Name"
 msgid "Internet"
 msgstr "ఇంటర్నెట్"
-
-#: runtime/menu/desktop/kde-internet-download.directory:4
-msgctxt "Name"
-msgid "File download and sharing"
-msgstr ""
 
 #: runtime/menu/desktop/kde-internet-terminal.directory:4
 #: runtime/menu/desktop/kde-system-terminal.directory:4
 msgctxt "Name"
 msgid "Terminal Applications"
 msgstr "టర్మినల్ కార్యక్షేత్రాలు"
-
-#: runtime/menu/desktop/kde-internet-web.directory:4
-#: workspace/kwin/clients/web/web.desktop:2
-msgctxt "Name"
-msgid "Web"
-msgstr "వెబ్"
 
 #: runtime/menu/desktop/kde-main.directory:5
 msgctxt "Name"
@@ -7273,7 +7246,7 @@ msgctxt "Name"
 msgid "script-mediaplayer"
 msgstr "ఇప్పుడునడుస్తున్న-స్క్రిప్ట్"
 
-#: runtime/plasma/scriptengines/javascript/tests/script-mediaplayer/metadata.desktop:20
+#: runtime/plasma/scriptengines/javascript/tests/script-mediaplayer/metadata.desktop:21
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "A simple digital clock"
@@ -7313,7 +7286,7 @@ msgctxt "Name"
 msgid "Platform"
 msgstr "ప్లాటినమ్"
 
-#: runtime/platforms/win/config/platform.desktop:61
+#: runtime/platforms/win/config/platform.desktop:62
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "WindowMaker"
@@ -7341,7 +7314,7 @@ msgctxt "Name"
 msgid "Solid Auto-eject service"
 msgstr ""
 
-#: runtime/solidautoeject/solidautoeject.desktop:49
+#: runtime/solidautoeject/solidautoeject.desktop:50
 msgctxt "Comment"
 msgid ""
 "Allows to automatically release drives when their eject button is pushed"
@@ -7923,7 +7896,7 @@ msgctxt "Name"
 msgid "awesome"
 msgstr ""
 
-#: workspace/kdm/kfrontend/sessions/awesome.desktop:25
+#: workspace/kdm/kfrontend/sessions/awesome.desktop:27
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "A minimal but configurable window manager"
@@ -8358,12 +8331,12 @@ msgid "KHotKeys daemon. No daemon, no hotkeys."
 msgstr "KHotKeys డెమోన్. డెమోన్ లేదు, హాట్‌కీలు లేవు."
 
 #: workspace/khotkeys/data/defaults.khotkeys:5
-#: workspace/khotkeys/data/defaults.khotkeys:85
+#: workspace/khotkeys/data/defaults.khotkeys:86
 msgctxt "Comment"
 msgid "Comment"
 msgstr ""
 
-#: workspace/khotkeys/data/defaults.khotkeys:59
+#: workspace/khotkeys/data/defaults.khotkeys:60
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Menu Editor"
@@ -8371,7 +8344,7 @@ msgctxt "Name"
 msgid "KMenuEdit"
 msgstr "పట్టి ఎడిటర్"
 
-#: workspace/khotkeys/data/defaults.khotkeys:138
+#: workspace/khotkeys/data/defaults.khotkeys:140
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "PHP Search"
@@ -8379,13 +8352,13 @@ msgctxt "Name"
 msgid "Search"
 msgstr "పి హెచ్ పి అన్వెషణ"
 
-#: workspace/khotkeys/data/defaults.khotkeys:205
+#: workspace/khotkeys/data/defaults.khotkeys:208
 #: workspace/khotkeys/data/kde32b1.khotkeys:401
-#: workspace/khotkeys/data/kde32b1.khotkeys:587
-#: workspace/khotkeys/data/kde32b1.khotkeys:807
-#: workspace/khotkeys/data/kde32b1.khotkeys:1166
-#: workspace/khotkeys/data/kde32b1.khotkeys:1512
-#: workspace/khotkeys/data/kde32b1.khotkeys:2567
+#: workspace/khotkeys/data/kde32b1.khotkeys:588
+#: workspace/khotkeys/data/kde32b1.khotkeys:808
+#: workspace/khotkeys/data/kde32b1.khotkeys:1168
+#: workspace/khotkeys/data/kde32b1.khotkeys:1515
+#: workspace/khotkeys/data/kde32b1.khotkeys:2572
 #: workspace/khotkeys/data/printscreen.khotkeys:280
 msgctxt "Comment"
 msgid "Simple_action"
@@ -8464,22 +8437,22 @@ msgstr ""
 "(colon)                                  Shift+;\\n' "
 "'  (space)                              Space"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:503
+#: workspace/khotkeys/data/kde32b1.khotkeys:504
 msgctxt "Name"
 msgid "Type 'Hello'"
 msgstr "'Hello' టైపుచేయుము"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:652
+#: workspace/khotkeys/data/kde32b1.khotkeys:653
 msgctxt "Comment"
 msgid "This action runs Konsole, after pressing Ctrl+Alt+T."
 msgstr "Ctrl+Alt+T వత్తిన తర్వాత, ఈ చర్య Konsole ను నడుపుతుంది."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:719
+#: workspace/khotkeys/data/kde32b1.khotkeys:720
 msgctxt "Name"
 msgid "Run Konsole"
 msgstr "రన్ కన్సోల్"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:872
+#: workspace/khotkeys/data/kde32b1.khotkeys:873
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -8525,17 +8498,17 @@ msgstr ""
 "ఎల్లప్పుడు 'Qt Designer by Trolltech' శీర్షికను కలిగేవుంటుంది, అందుకని నియమం ఆశీర్షికకలిగిన "
 "క్రియాశీల విండో కొరకు పరిశీలిస్తుంది."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:905
+#: workspace/khotkeys/data/kde32b1.khotkeys:907
 msgctxt "Name"
 msgid "Remap Ctrl+W to Ctrl+F4 in Qt Designer"
 msgstr "Qt రూపకరణినందు Ctrl+W ను Ctrl+F4 కు తిరిగి మాప్‌చేయుము"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:986
+#: workspace/khotkeys/data/kde32b1.khotkeys:988
 msgctxt "Comment"
 msgid "Qt Designer"
 msgstr "Qt డిజైనర్"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1047
+#: workspace/khotkeys/data/kde32b1.khotkeys:1049
 msgctxt "Comment"
 msgid ""
 "By pressing Alt+Ctrl+W a D-Bus call will be performed that will show the "
@@ -8545,12 +8518,12 @@ msgstr ""
 "Alt+Ctrl+W ను వత్తుటద్వారా D-Bus కాల్ జరుపబడుతుంది అది minicli ను చూపుతుంది. మీరు "
 "ఏరకమైన D-Bus కాల్‌నైనా ఉపయోగించవచ్చు, కమాండ్‌లైన్ సాధనం 'qdbus' ను ఉపయోగించినట్లుగా."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1095
+#: workspace/khotkeys/data/kde32b1.khotkeys:1097
 msgctxt "Name"
 msgid "Perform D-Bus call 'kdesktop KDesktopIface popupExecuteCommand()'"
 msgstr "D-Bus కాల్ 'kdesktop KDesktopIface popupExecuteCommand()' ను జరుపుము"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1231
+#: workspace/khotkeys/data/kde32b1.khotkeys:1233
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -8582,22 +8555,22 @@ msgstr ""
 "('xprop' నడుపుము మరియు XMMS విండో పైన నొక్కుము మరియు 'XMMS_Player' ను చూడుటకు "
 "WM_CLASS కొరకు శోధించుము)."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1265
+#: workspace/khotkeys/data/kde32b1.khotkeys:1268
 msgctxt "Name"
 msgid "Next in XMMS"
 msgstr "XMMS నందు తరువాత"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1348
+#: workspace/khotkeys/data/kde32b1.khotkeys:1351
 msgctxt "Comment"
 msgid "XMMS window"
 msgstr "XMMS విండో"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1430
+#: workspace/khotkeys/data/kde32b1.khotkeys:1433
 msgctxt "Comment"
 msgid "XMMS Player window"
 msgstr "XMMS ప్లేయర్ విండో"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1577
+#: workspace/khotkeys/data/kde32b1.khotkeys:1580
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -8668,35 +8641,35 @@ msgstr ""
 "gestures are defined in this group. All these gestures are active only if "
 "the active window is Konqueror (class contains 'konqueror')."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1614
+#: workspace/khotkeys/data/kde32b1.khotkeys:1618
 msgctxt "Name"
 msgid "Konqi Gestures"
 msgstr "Konqi గెస్‍ట్‌రెస్"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1682
+#: workspace/khotkeys/data/kde32b1.khotkeys:1686
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:151
 msgctxt "Comment"
 msgid "Konqueror window"
 msgstr "Konqueror విండో"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1765
-#: workspace/khotkeys/data/kde32b1.khotkeys:1787
+#: workspace/khotkeys/data/kde32b1.khotkeys:1769
+#: workspace/khotkeys/data/kde32b1.khotkeys:1791
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:234
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:256
 msgctxt "Comment"
 msgid "Konqueror"
 msgstr "Konqueror"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1814
+#: workspace/khotkeys/data/kde32b1.khotkeys:1818
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:349
 msgctxt "Name"
 msgid "Back"
 msgstr "వెనుకకు"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1907
-#: workspace/khotkeys/data/kde32b1.khotkeys:2065
-#: workspace/khotkeys/data/kde32b1.khotkeys:2221
-#: workspace/khotkeys/data/kde32b1.khotkeys:2379
+#: workspace/khotkeys/data/kde32b1.khotkeys:1911
+#: workspace/khotkeys/data/kde32b1.khotkeys:2069
+#: workspace/khotkeys/data/kde32b1.khotkeys:2225
+#: workspace/khotkeys/data/kde32b1.khotkeys:2383
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:580
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:782
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:965
@@ -8715,25 +8688,25 @@ msgctxt "Comment"
 msgid "Gesture_triggers"
 msgstr "Gesture_triggers"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1971
+#: workspace/khotkeys/data/kde32b1.khotkeys:1975
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:1983
 msgctxt "Name"
 msgid "Forward"
 msgstr "ముందుకు"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2129
+#: workspace/khotkeys/data/kde32b1.khotkeys:2133
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:690
 msgctxt "Name"
 msgid "Up"
 msgstr "పైకి"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2285
+#: workspace/khotkeys/data/kde32b1.khotkeys:2289
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:3031
 msgctxt "Name"
 msgid "Reload"
 msgstr "తిరిగిలోడ్‌చేయి"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2441
+#: workspace/khotkeys/data/kde32b1.khotkeys:2445
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -8749,7 +8722,7 @@ msgstr ""
 "Win+E (Tux+E) వత్తిన తర్వాత, WWW అన్వేషణి పారంభింపబడుతుంది మరియు http://www.kde.org ను "
 "తెరుస్తుంది. మీరు అన్ని విధములైన ఆదేశాలను నడుపవచ్చు మీరు minicli (Alt+F2) నందు నడుపవచ్చు."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2482
+#: workspace/khotkeys/data/kde32b1.khotkeys:2487
 msgctxt "Name"
 msgid "Go to KDE Website"
 msgstr "KDE వెబ్‌సైట్‌కు వెళ్ళుము"
@@ -9198,6 +9171,11 @@ msgctxt "Name"
 msgid "KWin test"
 msgstr "KWin పరిశీలన"
 
+#: workspace/kwin/clients/web/web.desktop:2
+msgctxt "Name"
+msgid "Web"
+msgstr "వెబ్"
+
 #: workspace/kwin/data/fsp_workarounds_1.kwinrules:2
 msgctxt "Description"
 msgid "(Default) Disable focus stealing prevention for XV"
@@ -9267,7 +9245,7 @@ msgctxt "Name"
 msgid "Desktop Cube Animation"
 msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
 
-#: workspace/kwin/effects/cube/cubeslide.desktop:54
+#: workspace/kwin/effects/cube/cubeslide.desktop:55
 msgctxt "Comment"
 msgid "Animate desktop switching with a cube"
 msgstr ""
@@ -9341,7 +9319,7 @@ msgctxt "Name"
 msgid "Fade Desktop"
 msgstr "సేవిక‍డెస్‍క్ టాప్"
 
-#: workspace/kwin/effects/fadedesktop/fadedesktop.desktop:49
+#: workspace/kwin/effects/fadedesktop/fadedesktop.desktop:50
 msgctxt "Comment"
 msgid "Fade between virtual desktops when switching between them"
 msgstr ""
@@ -9392,7 +9370,7 @@ msgctxt "Name"
 msgid "Highlight Window"
 msgstr "నకిలి విండో"
 
-#: workspace/kwin/effects/highlightwindow/highlightwindow.desktop:54
+#: workspace/kwin/effects/highlightwindow/highlightwindow.desktop:55
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Shows window thumbnails when cursor is on their taskbar entry"
@@ -9552,7 +9530,7 @@ msgctxt "Name"
 msgid "Sheet"
 msgstr "స్టైల్‌షీట్స్‍"
 
-#: workspace/kwin/effects/sheet/sheet.desktop:55
+#: workspace/kwin/effects/sheet/sheet.desktop:56
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Makes windows smoothly fade in/out when they are shown or hidden"
@@ -9590,7 +9568,7 @@ msgctxt "Name"
 msgid "Slide Back"
 msgstr "సాలిడ్"
 
-#: workspace/kwin/effects/slideback/slideback.desktop:49
+#: workspace/kwin/effects/slideback/slideback.desktop:50
 msgctxt "Comment"
 msgid "Slide back windows losing focus"
 msgstr ""
@@ -9887,7 +9865,7 @@ msgctxt "Name"
 msgid "Screen Edges"
 msgstr "స్క్రీన్ సేవర్"
 
-#: workspace/kwin/kcmkwin/kwinscreenedges/kwinscreenedges.desktop:68
+#: workspace/kwin/kcmkwin/kwinscreenedges/kwinscreenedges.desktop:69
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure web cache settings"
@@ -10314,17 +10292,17 @@ msgctxt "Name"
 msgid "Compositing has been suspended"
 msgstr "Strigi దస్త్రము విషయవర్గీకరణ సస్పెండ్ చేయబడింది"
 
-#: workspace/kwin/kwin.notifyrc:6285
+#: workspace/kwin/kwin.notifyrc:6286
 msgctxt "Comment"
 msgid "Another application has requested to suspend compositing."
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6327
+#: workspace/kwin/kwin.notifyrc:6329
 msgctxt "Name"
 msgid "Effects not supported"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6374
+#: workspace/kwin/kwin.notifyrc:6377
 msgctxt "Comment"
 msgid "Some effects are not supported by backend or hardware."
 msgstr ""
@@ -10541,7 +10519,7 @@ msgctxt "Name"
 msgid "Panel Spacer"
 msgstr ""
 
-#: workspace/plasma/applets/panelspacer/plasma-applet-panelspacer-internal.desktop:40
+#: workspace/plasma/applets/panelspacer/plasma-applet-panelspacer-internal.desktop:42
 msgctxt "Comment"
 msgid "Reserve empty spaces within the panel."
 msgstr ""
@@ -10628,7 +10606,7 @@ msgctxt "Name"
 msgid "System Monitor - RAM"
 msgstr "సిస్టమ్ మానిటర్"
 
-#: workspace/plasma/applets/system-monitor/plasma-applet-sm_ram.desktop:55
+#: workspace/plasma/applets/system-monitor/plasma-applet-sm_ram.desktop:56
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "A battery charge monitor"
@@ -10668,7 +10646,7 @@ msgctxt "Name"
 msgid "KDED Notification item watcher"
 msgstr "KDE నోటీసు డెమోన్"
 
-#: workspace/plasma/applets/systemtray/notificationitemwatcher/notificationitemwatcher.desktop:45
+#: workspace/plasma/applets/systemtray/notificationitemwatcher/notificationitemwatcher.desktop:46
 msgctxt "Comment"
 msgid ""
 "Keep track of applications that want to use the D-Bus based notification "
@@ -10726,7 +10704,7 @@ msgctxt "Name|plasma containment"
 msgid "Desktop"
 msgstr "రంగస్ఠలం"
 
-#: workspace/plasma/containments/desktop/plasma-containment-desktop.desktop:51
+#: workspace/plasma/containments/desktop/plasma-containment-desktop.desktop:53
 msgctxt "Comment"
 msgid "Default desktop containment"
 msgstr "అప్రమేయ రంగస్థల కంటైన్‌మెంట్"
@@ -10846,7 +10824,7 @@ msgctxt "Name"
 msgid "Geolocation"
 msgstr "స్థానములు"
 
-#: workspace/plasma/dataengines/geolocation/plasma-dataengine-geolocation.desktop:47
+#: workspace/plasma/dataengines/geolocation/plasma-dataengine-geolocation.desktop:49
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Dictionary Data Engine"
@@ -10859,7 +10837,7 @@ msgctxt "Name"
 msgid "Geolocation GPS"
 msgstr ""
 
-#: workspace/plasma/dataengines/geolocation/plasma-geolocation-gps.desktop:44
+#: workspace/plasma/dataengines/geolocation/plasma-geolocation-gps.desktop:46
 msgctxt "Comment"
 msgid "Geolocation from GPS address."
 msgstr ""
@@ -10872,7 +10850,7 @@ msgctxt "Name"
 msgid "Geolocation IP"
 msgstr "స్థానములు"
 
-#: workspace/plasma/dataengines/geolocation/plasma-geolocation-ip.desktop:45
+#: workspace/plasma/dataengines/geolocation/plasma-geolocation-ip.desktop:47
 msgctxt "Comment"
 msgid "Geolocation from IP address."
 msgstr ""
@@ -10906,7 +10884,7 @@ msgctxt "Name"
 msgid "Keyboard and Mouse State"
 msgstr "కీబోర్‍డ్ & మౌస్"
 
-#: workspace/plasma/dataengines/keystate/plasma-dataengine-keystate.desktop:50
+#: workspace/plasma/dataengines/keystate/plasma-dataengine-keystate.desktop:52
 msgctxt "Comment"
 msgid "Keyboard modifier and mouse buttons states"
 msgstr ""
@@ -10982,7 +10960,7 @@ msgctxt "Name|plasma data engine"
 msgid "Power Management"
 msgstr "పవర్ నిర్వహణా బ్యాక్ఎండ్"
 
-#: workspace/plasma/dataengines/powermanagement/plasma-dataengine-powermanagement.desktop:51
+#: workspace/plasma/dataengines/powermanagement/plasma-dataengine-powermanagement.desktop:53
 msgctxt "Comment"
 msgid "Battery, AC, sleep and PowerDevil information."
 msgstr ""
@@ -11102,7 +11080,7 @@ msgctxt "Name|plasma runner"
 msgid "Bookmarks"
 msgstr "పేజి గుర్తులు"
 
-#: workspace/plasma/runners/bookmarks/plasma-runner-bookmarks.desktop:52
+#: workspace/plasma/runners/bookmarks/plasma-runner-bookmarks.desktop:54
 msgctxt "Comment"
 msgid "Find and open bookmarks"
 msgstr "పేజిగుర్తులను కనుగొనుము మరియు తెరువుము"
@@ -11200,7 +11178,7 @@ msgctxt "Name|plasma runner"
 msgid "Web Shortcuts"
 msgstr "వెబ్ లఘువులు"
 
-#: workspace/plasma/runners/webshortcuts/plasma-runner-webshortcuts.desktop:51
+#: workspace/plasma/runners/webshortcuts/plasma-runner-webshortcuts.desktop:53
 msgctxt "Comment"
 msgid "Allows user to use Konqueror's Web shortcuts"
 msgstr "వినియోగదారి Konqueror యొక్క షార్‍ట్‌కట్‌లను ఉపయోగించుటకు అనుమతించుము"
@@ -11323,7 +11301,7 @@ msgctxt "Name"
 msgid "Ruby Extender Tutorial"
 msgstr ""
 
-#: workspace/plasma/scriptengines/ruby/examples/applets/extendertutorial/metadata.desktop:18
+#: workspace/plasma/scriptengines/ruby/examples/applets/extendertutorial/metadata.desktop:21
 msgctxt "Comment"
 msgid "An example of a popup applet with extender"
 msgstr ""
@@ -11471,7 +11449,7 @@ msgctxt "Name"
 msgid "PolicyKit Authorization"
 msgstr ""
 
-#: workspace/PolicyKit-kde/authorization/kcm_pkk_authorization.desktop:56
+#: workspace/PolicyKit-kde/authorization/kcm_pkk_authorization.desktop:57
 msgctxt "Comment"
 msgid "Set up policies for applications using PolicyKit"
 msgstr ""
@@ -11725,30 +11703,30 @@ msgctxt "Name"
 msgid "Ac Adapter"
 msgstr "స్క్రిప్ట్ ఎడాప్టర్"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:56
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:265
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:160
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:210
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:111
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:58
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:272
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-GenericInterface.desktop:58
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:219
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:479
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:201
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:57
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:270
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:165
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:214
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:113
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:59
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:277
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-GenericInterface.desktop:59
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:223
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:488
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:203
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:59
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:295
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:105
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:106
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageAccess.desktop:159
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:199
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:212
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:200
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:215
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Video.desktop:44
 msgctxt "Name"
 msgid "Object Name"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:106
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:210
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:109
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:217
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Phluid"
@@ -11764,8 +11742,8 @@ msgctxt "Name"
 msgid "Audio Interface"
 msgstr "నెట్వర్క్ ఇంటర్ ఫెస్"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:59
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:216
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:60
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:220
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Devices"
@@ -11773,12 +11751,12 @@ msgctxt "Name"
 msgid "Device Type"
 msgstr "పరికరాలు"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:115
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:117
 msgctxt "Name"
 msgid "Driver"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:163
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:166
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:58
 #, fuzzy
 #| msgctxt "GenericName"
@@ -11787,7 +11765,7 @@ msgctxt "Name"
 msgid "Driver Handle"
 msgstr "DJ-Mixer మరియు ప్లేయర్"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:210
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:214
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Game"
@@ -11795,7 +11773,7 @@ msgctxt "Name"
 msgid "Name"
 msgstr "ఆట"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:315
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:322
 msgctxt "Name"
 msgid "Soundcard Type"
 msgstr ""
@@ -11808,23 +11786,23 @@ msgctxt "Name"
 msgid "Battery"
 msgstr "బ్యాటరీ తక్కువగావుంది"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:60
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:61
 msgctxt "Name"
 msgid "Charge Percent"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:110
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:113
 msgctxt "Name"
 msgid "Charge State"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:264
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:273
 msgctxt "Name"
 msgid "Rechargeable"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:311
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:209
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:321
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:214
 msgctxt "Name"
 msgid "Type"
 msgstr ""
@@ -11837,8 +11815,8 @@ msgctxt "Name"
 msgid "Block"
 msgstr "గడియారం"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:56
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:58
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:57
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:59
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Devices"
@@ -11846,7 +11824,7 @@ msgctxt "Name"
 msgid "Device"
 msgstr "పరికరాలు"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:111
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:113
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Moria"
@@ -11854,7 +11832,7 @@ msgctxt "Name"
 msgid "Major"
 msgstr "మొరియా"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:160
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:163
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Moria"
@@ -11870,12 +11848,12 @@ msgctxt "Name"
 msgid "Button"
 msgstr "భూటాన్"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:64
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:65
 msgctxt "Name"
 msgid "Has State"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:161
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:165
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Strategy Game"
@@ -11891,15 +11869,15 @@ msgctxt "Name"
 msgid "Camera"
 msgstr "కెమెరూన్"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:108
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:109
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Video.desktop:94
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:111
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:111
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Video.desktop:96
 msgctxt "Name"
 msgid "Supported Drivers"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:160
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:161
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:164
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:164
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Protocols"
@@ -11915,7 +11893,7 @@ msgctxt "Name"
 msgid "Dvb Interface"
 msgstr "నెట్వర్క్ ఇంటర్ ఫెస్"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:113
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:115
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "New Device Notifier"
@@ -11923,7 +11901,7 @@ msgctxt "Name"
 msgid "Device Adapter"
 msgstr "కొత్త పరికరంను తెలుపునది"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:165
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:168
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Help Index"
@@ -11947,12 +11925,12 @@ msgctxt "Name"
 msgid "Network Interface"
 msgstr "నెట్వర్క్ ఇంటర్ ఫెస్"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:59
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:60
 msgctxt "Name"
 msgid "Hw Address"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:112
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:114
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Dice Game"
@@ -11960,12 +11938,12 @@ msgctxt "Name"
 msgid "Iface Name"
 msgstr "పాచికల ఆట"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:165
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:168
 msgctxt "Name"
 msgid "Mac Address"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:269
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:275
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Circles"
@@ -11978,7 +11956,7 @@ msgctxt "Name"
 msgid "Optical Disc"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:59
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:60
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Appearance"
@@ -11986,12 +11964,12 @@ msgctxt "Name"
 msgid "Appendable"
 msgstr "కనిపించువిధం"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:110
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:112
 msgctxt "Name"
 msgid "Available Content"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:161
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:164
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Plan"
@@ -11999,7 +11977,7 @@ msgctxt "Name"
 msgid "Blank"
 msgstr "ప్లాన్"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:215
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:219
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Audacity"
@@ -12007,19 +11985,19 @@ msgctxt "Name"
 msgid "Capacity"
 msgstr "అడెసిటి"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:269
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:274
 msgctxt "Name"
 msgid "Disc Type"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:322
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:328
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:55
 msgctxt "Name"
 msgid "Fs Type"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:374
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:107
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:381
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:108
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Iagno"
@@ -12027,8 +12005,8 @@ msgctxt "Name"
 msgid "Ignored"
 msgstr "ఇయాగ్నొ"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:426
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:159
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:434
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:161
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Panel"
@@ -12036,13 +12014,13 @@ msgctxt "Name"
 msgid "Label"
 msgstr "ప్యానల్"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:529
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:540
 msgctxt "Name"
 msgid "Rewritable"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:581
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:262
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:593
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:267
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Solid"
@@ -12050,8 +12028,8 @@ msgctxt "Name"
 msgid "Size"
 msgstr "సాలిడ్"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:636
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:317
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:649
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:323
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Pager"
@@ -12059,8 +12037,8 @@ msgctxt "Name"
 msgid "Usage"
 msgstr "పేజర్"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:690
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:371
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:704
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:378
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Phluid"
@@ -12073,7 +12051,7 @@ msgctxt "Name"
 msgid "Optical Drive"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:57
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:58
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:55
 #, fuzzy
 #| msgctxt "Name"
@@ -12082,14 +12060,14 @@ msgctxt "Name"
 msgid "Bus"
 msgstr "బెలారుస్"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:98
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:99
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:96
 msgctxt "Name"
 msgid "Drive Type"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:151
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:149
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:153
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:150
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Hotplug Event Data Engine"
@@ -12097,7 +12075,7 @@ msgctxt "Name"
 msgid "Hotpluggable"
 msgstr "హాట్‌ప్లగ్ ఘటన డాటా ఇంజన్"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:251
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:255
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Spread Sheet"
@@ -12105,23 +12083,23 @@ msgctxt "Name"
 msgid "Read Speed"
 msgstr "స్ప్రెడ్ షీట్"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:305
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:249
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:309
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:252
 msgctxt "Name"
 msgid "Removable"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:356
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:360
 msgctxt "Name"
 msgid "Supported Media"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:407
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:411
 msgctxt "Name"
 msgid "Write Speed"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:458
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:462
 msgctxt "Name"
 msgid "Write Speeds"
 msgstr ""
@@ -12171,7 +12149,7 @@ msgctxt "Name"
 msgid "Serial Interface"
 msgstr "నెట్వర్క్ ఇంటర్ ఫెస్"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:155
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:158
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Forte"
@@ -12179,7 +12157,7 @@ msgctxt "Name"
 msgid "Port"
 msgstr "ఫోర్టె"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:195
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:198
 msgctxt "Name"
 msgid "Serial Type"
 msgstr ""
@@ -12342,7 +12320,7 @@ msgctxt "Name"
 msgid "Classic Tree View"
 msgstr ""
 
-#: workspace/systemsettings/classic/settings-classic-view.desktop:55
+#: workspace/systemsettings/classic/settings-classic-view.desktop:56
 msgctxt "Comment"
 msgid "A Classic KDE 3 KControl style system settings view."
 msgstr ""
@@ -12363,7 +12341,7 @@ msgctxt "Name"
 msgid "Icon View"
 msgstr "ఫాంట్ వీక్షణి"
 
-#: workspace/systemsettings/icons/settings-icon-view.desktop:68
+#: workspace/systemsettings/icons/settings-icon-view.desktop:69
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
@@ -12443,6 +12421,20 @@ msgstr "టేబుల్ పైన వవర్షమువుంది"
 msgctxt "Name"
 msgid "The Rings of Saturn"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Notification"
+#~ msgctxt "Name"
+#~ msgid "Communication"
+#~ msgstr "నో‍టీసు"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Network & Connectivity"
+#~ msgctxt "Name"
+#~ msgid "Connectivity"
+#~ msgstr "నెట్వర్‍క్   & అనుసంధానం"
 
 #~ msgctxt "Name"
 #~ msgid "Blue Curl"
