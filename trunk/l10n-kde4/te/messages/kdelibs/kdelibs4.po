@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-03 06:07+0200\n"
+"POT-Creation-Date: 2009-08-05 06:17+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1671,7 +1671,7 @@ msgstr "ముఖ్య విండొ"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:106
 #. i18n: ectx: property (text), widget (QPushButton, mExecute)
-#: rc.cpp:764 kparts/browserrun.cpp:312
+#: rc.cpp:764 kparts/browserrun.cpp:315
 msgid "Execute"
 msgstr "నడుపు"
 
@@ -3292,13 +3292,13 @@ msgid "Invalid Calendar Type"
 msgstr "సరికాని కెలెండర్ రకం"
 
 #: kdecore/date/kdatetime.cpp:1500 kdecore/date/kdatetime.cpp:1510
-#: kdecore/date/kdatetime.cpp:2872 kdecore/localization/klocale.cpp:2156
-#: kdecore/localization/klocale.cpp:2315
+#: kdecore/date/kdatetime.cpp:2872 kdecore/localization/klocale.cpp:2158
+#: kdecore/localization/klocale.cpp:2317
 msgid "am"
 msgstr "పూర్వాహ్నము"
 
-#: kdecore/date/kdatetime.cpp:2880 kdecore/localization/klocale.cpp:2150
-#: kdecore/localization/klocale.cpp:2313
+#: kdecore/date/kdatetime.cpp:2880 kdecore/localization/klocale.cpp:2152
+#: kdecore/localization/klocale.cpp:2315
 msgid "pm"
 msgstr "మధ్యాహ్నము"
 
@@ -4836,13 +4836,13 @@ msgstr "ఈరొజు"
 msgid "Yesterday"
 msgstr "నిన్న"
 
-#: kdecore/localization/klocale.cpp:2351
+#: kdecore/localization/klocale.cpp:2353
 #, kde-format
 msgctxt "concatenation of dates and time"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: kdecore/localization/klocale.cpp:2414
+#: kdecore/localization/klocale.cpp:2416
 #, kde-format
 msgctxt "concatenation of date/time and time zone"
 msgid "%1 %2"
@@ -10215,7 +10215,7 @@ msgid "a basic web browser using the KHTML library"
 msgstr ""
 
 #: khtml/khtml_run.cpp:97 khtml/khtml_part.cpp:3719 khtml/khtml_part.cpp:3929
-#: khtml/khtml_part.cpp:4315 kparts/browserrun.cpp:461
+#: khtml/khtml_part.cpp:4315 kparts/browserrun.cpp:464
 msgid "Save As"
 msgstr "ఇలా దాచు"
 
@@ -10475,12 +10475,12 @@ msgstr "దస్త్రాలను త్రిగి వ్రాయి?"
 msgid "Overwrite"
 msgstr "తిరిగి వ్రాయు"
 
-#: khtml/khtml_ext.cpp:991 kparts/browserrun.cpp:432
+#: khtml/khtml_ext.cpp:991 kparts/browserrun.cpp:435
 #, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr "మీ $PATH లో డౌన్ లోడ్ అభికర్త (%1) లో కనపడుటలేదు "
 
-#: khtml/khtml_ext.cpp:992 kparts/browserrun.cpp:433
+#: khtml/khtml_ext.cpp:992 kparts/browserrun.cpp:436
 msgid ""
 "Try to reinstall it  \n"
 "\n"
@@ -11952,16 +11952,16 @@ msgstr ""
 msgid "Close Document"
 msgstr "పత్రం మూసివేయి"
 
-#: kparts/browserrun.cpp:311
+#: kparts/browserrun.cpp:314
 #, kde-format
 msgid "Do you really want to execute '%1'?"
 msgstr "'%1' ను నిజంగా నడపమంటారా?"
 
-#: kparts/browserrun.cpp:312
+#: kparts/browserrun.cpp:315
 msgid "Execute File?"
 msgstr "దస్త్రాన్ని నడపమంటారా?"
 
-#: kparts/browserrun.cpp:330
+#: kparts/browserrun.cpp:333
 #, kde-format
 msgid ""
 "Open '%2'?\n"
@@ -11970,7 +11970,7 @@ msgstr ""
 "%2' తెరువుట?\n"
 "రకం: %1"
 
-#: kparts/browserrun.cpp:332
+#: kparts/browserrun.cpp:335
 #, kde-format
 msgid ""
 "Open '%3'?\n"
@@ -11981,18 +11981,18 @@ msgstr ""
 "పేరు: %2\n"
 "రకం: %1"
 
-#: kparts/browserrun.cpp:348
+#: kparts/browserrun.cpp:351
 #, kde-format
 msgid "&Open with '%1'"
 msgstr "(&O) దీనితో తెరువండి '%1'"
 
-#: kparts/browserrun.cpp:350
+#: kparts/browserrun.cpp:353
 #, fuzzy
 #| msgid "&Open With..."
 msgid "&Open with..."
 msgstr "(&O) దీనితో తెరువండి"
 
-#: kparts/browserrun.cpp:395
+#: kparts/browserrun.cpp:398
 msgid "&Open"
 msgstr "(&O) తెరువండి"
 
