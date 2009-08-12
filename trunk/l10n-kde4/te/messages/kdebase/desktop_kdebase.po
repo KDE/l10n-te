@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-11 05:05+0000\n"
+"POT-Creation-Date: 2009-08-12 05:32+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -3990,6 +3990,19 @@ msgstr "హాట్‌కీల అమరికలను ఆకృతీకర�
 msgctxt "ExtraNames"
 msgid "Original Path,Deletion Date"
 msgstr "అసలు దారు, తీసివేసిన తేది"
+
+#: runtime/klockingserver/klockingserver.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDED Favicon Module"
+msgctxt "Name"
+msgid "KDED Locking Module"
+msgstr "KDED ఫావికాన్ మాడ్యూల్"
+
+#: runtime/klockingserver/klockingserver.desktop:5
+msgctxt "Comment"
+msgid "Inter-process locking support"
+msgstr ""
 
 #: runtime/knetattach/knetattach.desktop:2
 msgctxt "Name"
@@ -8437,11 +8450,11 @@ msgstr "పి హెచ్ పి అన్వెషణ"
 
 #: workspace/khotkeys/data/defaults.khotkeys:176
 #: workspace/khotkeys/data/kde32b1.khotkeys:399
-#: workspace/khotkeys/data/kde32b1.khotkeys:553
-#: workspace/khotkeys/data/kde32b1.khotkeys:772
-#: workspace/khotkeys/data/kde32b1.khotkeys:1127
-#: workspace/khotkeys/data/kde32b1.khotkeys:1472
-#: workspace/khotkeys/data/kde32b1.khotkeys:2520
+#: workspace/khotkeys/data/kde32b1.khotkeys:557
+#: workspace/khotkeys/data/kde32b1.khotkeys:776
+#: workspace/khotkeys/data/kde32b1.khotkeys:1131
+#: workspace/khotkeys/data/kde32b1.khotkeys:1476
+#: workspace/khotkeys/data/kde32b1.khotkeys:2524
 #: workspace/khotkeys/data/printscreen.khotkeys:276
 msgctxt "Comment"
 msgid "Simple_action"
@@ -8520,22 +8533,22 @@ msgstr ""
 "(colon)                                  Shift+;\\n' "
 "'  (space)                              Space"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:469
+#: workspace/khotkeys/data/kde32b1.khotkeys:473
 msgctxt "Name"
 msgid "Type 'Hello'"
 msgstr "'Hello' టైపుచేయుము"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:618
+#: workspace/khotkeys/data/kde32b1.khotkeys:622
 msgctxt "Comment"
 msgid "This action runs Konsole, after pressing Ctrl+Alt+T."
 msgstr "Ctrl+Alt+T వత్తిన తర్వాత, ఈ చర్య Konsole ను నడుపుతుంది."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:684
+#: workspace/khotkeys/data/kde32b1.khotkeys:688
 msgctxt "Name"
 msgid "Run Konsole"
 msgstr "రన్ కన్సోల్"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:837
+#: workspace/khotkeys/data/kde32b1.khotkeys:841
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -8581,17 +8594,17 @@ msgstr ""
 "ఎల్లప్పుడు 'Qt Designer by Trolltech' శీర్షికను కలిగేవుంటుంది, అందుకని నియమం ఆశీర్షికకలిగిన "
 "క్రియాశీల విండో కొరకు పరిశీలిస్తుంది."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:869
+#: workspace/khotkeys/data/kde32b1.khotkeys:873
 msgctxt "Name"
 msgid "Remap Ctrl+W to Ctrl+F4 in Qt Designer"
 msgstr "Qt రూపకరణినందు Ctrl+W ను Ctrl+F4 కు తిరిగి మాప్‌చేయుము"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:948
+#: workspace/khotkeys/data/kde32b1.khotkeys:952
 msgctxt "Comment"
 msgid "Qt Designer"
 msgstr "Qt డిజైనర్"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1008
+#: workspace/khotkeys/data/kde32b1.khotkeys:1012
 msgctxt "Comment"
 msgid ""
 "By pressing Alt+Ctrl+W a D-Bus call will be performed that will show the "
@@ -8601,12 +8614,12 @@ msgstr ""
 "Alt+Ctrl+W ను వత్తుటద్వారా D-Bus కాల్ జరుపబడుతుంది అది minicli ను చూపుతుంది. మీరు "
 "ఏరకమైన D-Bus కాల్‌నైనా ఉపయోగించవచ్చు, కమాండ్‌లైన్ సాధనం 'qdbus' ను ఉపయోగించినట్లుగా."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1056
+#: workspace/khotkeys/data/kde32b1.khotkeys:1060
 msgctxt "Name"
 msgid "Perform D-Bus call 'kdesktop KDesktopIface popupExecuteCommand()'"
 msgstr "D-Bus కాల్ 'kdesktop KDesktopIface popupExecuteCommand()' ను జరుపుము"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1192
+#: workspace/khotkeys/data/kde32b1.khotkeys:1196
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -8638,22 +8651,22 @@ msgstr ""
 "('xprop' నడుపుము మరియు XMMS విండో పైన నొక్కుము మరియు 'XMMS_Player' ను చూడుటకు "
 "WM_CLASS కొరకు శోధించుము)."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1225
+#: workspace/khotkeys/data/kde32b1.khotkeys:1229
 msgctxt "Name"
 msgid "Next in XMMS"
 msgstr "XMMS నందు తరువాత"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1308
+#: workspace/khotkeys/data/kde32b1.khotkeys:1312
 msgctxt "Comment"
 msgid "XMMS window"
 msgstr "XMMS విండో"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1390
+#: workspace/khotkeys/data/kde32b1.khotkeys:1394
 msgctxt "Comment"
 msgid "XMMS Player window"
 msgstr "XMMS ప్లేయర్ విండో"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1537
+#: workspace/khotkeys/data/kde32b1.khotkeys:1541
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -8724,35 +8737,35 @@ msgstr ""
 "gestures are defined in this group. All these gestures are active only if "
 "the active window is Konqueror (class contains 'konqueror')."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1572
+#: workspace/khotkeys/data/kde32b1.khotkeys:1576
 msgctxt "Name"
 msgid "Konqi Gestures"
 msgstr "Konqi గెస్‍ట్‌రెస్"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1640
+#: workspace/khotkeys/data/kde32b1.khotkeys:1644
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:151
 msgctxt "Comment"
 msgid "Konqueror window"
 msgstr "Konqueror విండో"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1723
-#: workspace/khotkeys/data/kde32b1.khotkeys:1745
+#: workspace/khotkeys/data/kde32b1.khotkeys:1727
+#: workspace/khotkeys/data/kde32b1.khotkeys:1749
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:234
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:256
 msgctxt "Comment"
 msgid "Konqueror"
 msgstr "Konqueror"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1772
+#: workspace/khotkeys/data/kde32b1.khotkeys:1776
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:349
 msgctxt "Name"
 msgid "Back"
 msgstr "వెనుకకు"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1865
-#: workspace/khotkeys/data/kde32b1.khotkeys:2023
-#: workspace/khotkeys/data/kde32b1.khotkeys:2179
-#: workspace/khotkeys/data/kde32b1.khotkeys:2337
+#: workspace/khotkeys/data/kde32b1.khotkeys:1869
+#: workspace/khotkeys/data/kde32b1.khotkeys:2027
+#: workspace/khotkeys/data/kde32b1.khotkeys:2183
+#: workspace/khotkeys/data/kde32b1.khotkeys:2341
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:579
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:781
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:964
@@ -8771,25 +8784,25 @@ msgctxt "Comment"
 msgid "Gesture_triggers"
 msgstr "Gesture_triggers"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1929
+#: workspace/khotkeys/data/kde32b1.khotkeys:1933
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:1977
 msgctxt "Name"
 msgid "Forward"
 msgstr "ముందుకు"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2087
+#: workspace/khotkeys/data/kde32b1.khotkeys:2091
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:689
 msgctxt "Name"
 msgid "Up"
 msgstr "పైకి"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2243
+#: workspace/khotkeys/data/kde32b1.khotkeys:2247
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:3023
 msgctxt "Name"
 msgid "Reload"
 msgstr "తిరిగిలోడ్‌చేయి"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2399
+#: workspace/khotkeys/data/kde32b1.khotkeys:2403
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -8805,7 +8818,7 @@ msgstr ""
 "Win+E (Tux+E) వత్తిన తర్వాత, WWW అన్వేషణి పారంభింపబడుతుంది మరియు http://www.kde.org ను "
 "తెరుస్తుంది. మీరు అన్ని విధములైన ఆదేశాలను నడుపవచ్చు మీరు minicli (Alt+F2) నందు నడుపవచ్చు."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2435
+#: workspace/khotkeys/data/kde32b1.khotkeys:2439
 msgctxt "Name"
 msgid "Go to KDE Website"
 msgstr "KDE వెబ్‌సైట్‌కు వెళ్ళుము"
