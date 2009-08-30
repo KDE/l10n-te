@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-29 07:18+0200\n"
+"POT-Creation-Date: 2009-08-30 05:59+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -93,7 +93,7 @@ msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "అదనపు సమాచారము"
 
-#: dolphindetailsview.cpp:159
+#: dolphindetailsview.cpp:149
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Expandable folders"
@@ -101,7 +101,7 @@ msgctxt "@option:check"
 msgid "Expandable Folders"
 msgstr "విస్తరించదగిన ఫోల్డర్లు"
 
-#: dolphindetailsview.cpp:565
+#: dolphindetailsview.cpp:550
 msgctxt "@title:menu"
 msgid "Columns"
 msgstr "నిలువు వరుసలు"
@@ -218,19 +218,19 @@ msgctxt "@info:status"
 msgid "Removed files from SVN repository."
 msgstr ""
 
-#: dolphinview.cpp:552
+#: dolphinview.cpp:544
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected"
 msgstr "<filename>%1</filename> ఎంపిక కాబడినది"
 
-#: dolphinview.cpp:553
+#: dolphinview.cpp:545
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected (%2)"
 msgstr "<filename>%1</filename> ఎంపిక కాబడినది (%2)"
 
-#: dolphinview.cpp:557
+#: dolphinview.cpp:549
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -238,7 +238,7 @@ msgid_plural "%1 Folders selected"
 msgstr[0] "1 ఫోల్డరు ఎంపిక కాబడినది"
 msgstr[1] "%1 ఫోల్డర్లు ఎంపిక కాబడినది"
 
-#: dolphinview.cpp:558
+#: dolphinview.cpp:550
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
@@ -246,29 +246,29 @@ msgid_plural "%1 Files selected"
 msgstr[0] "1 ఫైలు ఎంపిక కాబడినది"
 msgstr[1] "%1 ఫైలు ఎంపిక కాబడినది"
 
-#: dolphinview.cpp:560
+#: dolphinview.cpp:552
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr "%1, %2 (%3)"
 
-#: dolphinview.cpp:563
+#: dolphinview.cpp:555
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: dolphinview.cpp:1160
+#: dolphinview.cpp:1135
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "తొలగింపు కార్యము పూర్తైనది."
 
-#: dolphinview.cpp:1221
+#: dolphinview.cpp:1196
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "స్థానము ఖాళీగావుంది"
 
-#: dolphinview.cpp:1223
+#: dolphinview.cpp:1198
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -1735,7 +1735,7 @@ msgctxt "@label:listbox"
 msgid "Preview:"
 msgstr "ముందు వీక్షణం:"
 
-#: settings/iconsizegroupbox.cpp:109 statusbar/dolphinstatusbar.cpp:347
+#: settings/iconsizegroupbox.cpp:109 statusbar/dolphinstatusbar.cpp:342
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Size: 1 pixel"
