@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_systemtray\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-23 01:23+0200\n"
+"POT-Creation-Date: 2009-09-02 01:23+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -76,14 +76,14 @@ msgid_plural "%1 files, to: %2"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/manager.cpp:214
+#: core/manager.cpp:215
 #, kde-format
 msgid "1 running job (%2 remaining)"
 msgid_plural "%1 running jobs (%2 remaining)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/manager.cpp:219
+#: core/manager.cpp:220
 msgid "no running jobs"
 msgstr ""
 
@@ -188,65 +188,61 @@ msgstr ""
 msgid "Recently Completed Jobs"
 msgstr ""
 
-#: ui/jobwidget.cpp:96
+#: ui/jobwidget.cpp:99 ui/jobwidget.cpp:320
 msgid "More"
 msgstr ""
 
-#: ui/jobwidget.cpp:108
+#: ui/jobwidget.cpp:112
 msgid "Pause job"
 msgstr ""
 
-#: ui/jobwidget.cpp:118
+#: ui/jobwidget.cpp:122
 msgid "Resume job"
 msgstr ""
 
-#: ui/jobwidget.cpp:128
+#: ui/jobwidget.cpp:132
 msgid "Cancel job"
 msgstr ""
 
-#: ui/jobwidget.cpp:190
+#: ui/jobwidget.cpp:183
 #, kde-format
 msgid "%1 (%2 remaining)"
 msgstr ""
 
-#: ui/jobwidget.cpp:198
+#: ui/jobwidget.cpp:191
 #, kde-format
 msgctxt ""
 "%1 is the name of the job, can be things like Copying, deleting, moving"
 msgid "%1 [Paused]"
 msgstr ""
 
-#: ui/jobwidget.cpp:199
+#: ui/jobwidget.cpp:192
 msgid "Paused"
 msgstr ""
 
-#: ui/jobwidget.cpp:203
+#: ui/jobwidget.cpp:196
 #, kde-format
 msgctxt ""
 "%1 is the name of the job, can be things like Copying, deleting, moving"
 msgid "%1 [Finished]"
 msgstr ""
 
-#: ui/jobwidget.cpp:229
+#: ui/jobwidget.cpp:249
 #, kde-format
 msgid "%2 / 1 folder"
 msgid_plural "%2 / %1 folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ui/jobwidget.cpp:234
+#: ui/jobwidget.cpp:254
 #, kde-format
 msgid "%2 / 1 file"
 msgid_plural "%2 / %1 files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ui/jobwidget.cpp:275
-msgid "less"
-msgstr ""
-
-#: ui/jobwidget.cpp:284
-msgid "more"
+#: ui/jobwidget.cpp:311
+msgid "Less"
 msgstr ""
 
 #: ui/notificationwidget.cpp:161
