@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_system-monitor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-09 07:28+0200\n"
+"POT-Creation-Date: 2009-09-10 06:21+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 msgid "total"
 msgstr ""
 
-#: cpu.cpp:180 net.cpp:191 ram.cpp:179 temperature.cpp:102
+#: cpu.cpp:180 net.cpp:190 ram.cpp:179 temperature.cpp:109
 msgid " second"
 msgid_plural " seconds"
 msgstr[0] ""
@@ -43,48 +43,48 @@ msgstr[1] ""
 msgid "CPUs"
 msgstr ""
 
-#: hdd.cpp:52
+#: hdd.cpp:55
 msgid "Disk Space"
 msgstr ""
 
-#: hdd.cpp:61
+#: hdd.cpp:81
 msgid "Mount Point"
 msgstr "మౌంటు పాయింట్"
 
-#: hdd.cpp:62 temperature.cpp:82
+#: hdd.cpp:82 temperature.cpp:91
 msgid "Name"
 msgstr "పేరు"
 
-#: hdd.cpp:85
+#: hdd.cpp:106
 msgid " minute"
 msgid_plural " minutes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: hdd.cpp:87
+#: hdd.cpp:108
 msgid "Partitions"
 msgstr "విభజనలు"
 
-#: hdd.cpp:130
+#: hdd.cpp:160
 msgctxt "the root filesystem"
 msgid "root"
 msgstr ""
 
-#: hdd.cpp:137
+#: hdd.cpp:166
 msgid "Unknown filesystem"
 msgstr ""
 
-#: hdd.cpp:153
+#: hdd.cpp:181
 #, kde-format
 msgctxt "hard disk label (not mounted or accessible)"
 msgid "%1 (not accessible)"
 msgstr ""
 
-#: hdd.cpp:275
+#: hdd.cpp:303
 msgid "File System"
 msgstr ""
 
-#: hdd.cpp:276
+#: hdd.cpp:304
 msgid "Raid"
 msgstr ""
 
@@ -108,11 +108,11 @@ msgstr "ఆడియో"
 msgid "Network"
 msgstr "నెట్ వర్క్"
 
-#: net.cpp:174
+#: net.cpp:173
 msgid "Network Interface"
 msgstr ""
 
-#: net.cpp:192
+#: net.cpp:191
 msgid "Interfaces"
 msgstr ""
 
@@ -175,20 +175,24 @@ msgstr ""
 msgid "&Available temperatures:"
 msgstr ""
 
-#: temperature.cpp:50 temperature.cpp:104
+#: temperature.cpp:58 temperature.cpp:111
 msgid "Temperature"
 msgstr ""
 
-#: temperature.cpp:81
+#: temperature.cpp:90
 msgid "Sensor"
 msgstr ""
 
-#: temperature.cpp:238
+#: temperature.cpp:235
+msgid "\\u00b0"
+msgstr ""
+
+#: temperature.cpp:248
 #, kde-format
 msgid "%1 °C"
 msgstr ""
 
-#: temperature.cpp:240
+#: temperature.cpp:250
 #, kde-format
 msgid "%1 °F"
 msgstr ""
