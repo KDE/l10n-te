@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-15 06:09+0200\n"
+"POT-Creation-Date: 2009-09-16 06:54+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -3496,11 +3496,11 @@ msgstr "%1 లైబ్రరిలో కెడిఈ 4 కి సరిపడ�
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr "ప్లగ్ఇన్ '%1' పొసగని KDE లైబ్రరీ (%2)ను వుపయోగిస్తోంది."
 
-#: kdecore/config/kconfig.cpp:676
+#: kdecore/config/kconfig.cpp:681
 msgid "Please contact your system administrator."
 msgstr "మి వ్యవస్థ పాలకుడిని కలవండి"
 
-#: kdecore/config/kconfigini.cpp:511
+#: kdecore/config/kconfigini.cpp:518
 #, kde-format
 msgid "Configuration file \"%1\" not writable.\n"
 msgstr "ఆకృతీకరణ దస్త్రం \"%1\" వ్రాయుటకు వీలుకాదు.\n"
@@ -4025,7 +4025,18 @@ msgctxt "@info:shell %1 is cmdoption name"
 msgid "'%1' missing."
 msgstr "%1' కనబడుటలేదు."
 
-#: kdecore/kernel/kcmdlineargs.cpp:916
+#: kdecore/kernel/kcmdlineargs.cpp:897
+#, kde-format
+msgctxt ""
+"@info:shell message on appcmd --version; %3 application name, other %n "
+"version strings"
+msgid ""
+"Qt: %1\n"
+"KDE: %2\n"
+"%3: %4\n"
+msgstr ""
+
+#: kdecore/kernel/kcmdlineargs.cpp:922
 #, kde-format
 msgctxt "the 2nd argument is a list of name+address, one on each line"
 msgid ""
@@ -4035,43 +4046,43 @@ msgstr ""
 "%1 ను వ్రాసింది\n"
 "%2"
 
-#: kdecore/kernel/kcmdlineargs.cpp:919
+#: kdecore/kernel/kcmdlineargs.cpp:925
 msgid "This application was written by somebody who wants to remain anonymous."
 msgstr "ఈ కార్యక్రమాన్ని వ్రాసినవారు అజ్ఞాతంగా వుండదలచుకున్నారు"
 
-#: kdecore/kernel/kcmdlineargs.cpp:926
+#: kdecore/kernel/kcmdlineargs.cpp:932
 msgid "Please use http://bugs.kde.org to report bugs.\n"
 msgstr "తప్పులను తెలియచేయుటకు http://bugs.kde.orgని వాడండి.\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:928
+#: kdecore/kernel/kcmdlineargs.cpp:934
 #, kde-format
 msgid "Please report bugs to %1.\n"
 msgstr "%1 కు తప్పులను తెలియచేయండి.\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:953
+#: kdecore/kernel/kcmdlineargs.cpp:959
 #, kde-format
 msgid "Unexpected argument '%1'."
 msgstr "'%1' ఊహించని ఆర్గ్యుమెంట్."
 
-#: kdecore/kernel/kcmdlineargs.cpp:1070
+#: kdecore/kernel/kcmdlineargs.cpp:1076
 msgid "Use --help to get a list of available command line options."
 msgstr "అందుబాటులొ వున్న కమేండ్ లైన్ ఐచ్చికముల జాబితా తెలుసుకొవటానికి --help వాడండి"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1093
+#: kdecore/kernel/kcmdlineargs.cpp:1099
 msgid "[options] "
 msgstr "[ఐచ్ఛికములు]"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1100
+#: kdecore/kernel/kcmdlineargs.cpp:1106
 #, kde-format
 msgid "[%1-options]"
 msgstr "[%1-ఐచ్ఛికములు]"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1121
+#: kdecore/kernel/kcmdlineargs.cpp:1127
 #, kde-format
 msgid "Usage: %1 %2\n"
 msgstr "వాడుక: %1 %2\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1124
+#: kdecore/kernel/kcmdlineargs.cpp:1130
 msgid ""
 "\n"
 "Generic options:\n"
@@ -4079,36 +4090,36 @@ msgstr ""
 "\n"
 "సాధారణ ఐచ్ఛికములు:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1126
+#: kdecore/kernel/kcmdlineargs.cpp:1132
 msgid "Show help about options"
 msgstr "ఐచ్ఛికములు గురించిన సహాయము చూపుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1134
+#: kdecore/kernel/kcmdlineargs.cpp:1140
 #, kde-format
 msgid "Show %1 specific options"
 msgstr "%1 విశెష ఐచ్ఛికములు చూపుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1141
+#: kdecore/kernel/kcmdlineargs.cpp:1147
 msgid "Show all options"
 msgstr "అన్ని ఐచ్చికములు చూపుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1142
+#: kdecore/kernel/kcmdlineargs.cpp:1148
 msgid "Show author information"
 msgstr "మూలకర్త సమాచారం చూపుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1143
+#: kdecore/kernel/kcmdlineargs.cpp:1149
 msgid "Show version information"
 msgstr "వివరణం సమాచారం చూపుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1144
+#: kdecore/kernel/kcmdlineargs.cpp:1150
 msgid "Show license information"
 msgstr "లైసెన్స్ సమాచరం చూపుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1145
+#: kdecore/kernel/kcmdlineargs.cpp:1151
 msgid "End of options"
 msgstr "ఐచ్ఛికములు అయిపొయినవి"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1166
+#: kdecore/kernel/kcmdlineargs.cpp:1172
 #, kde-format
 msgid ""
 "\n"
@@ -4117,7 +4128,7 @@ msgstr ""
 "\n"
 "%1 ఐచ్ఛికములు:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1168
+#: kdecore/kernel/kcmdlineargs.cpp:1174
 msgid ""
 "\n"
 "Options:\n"
@@ -4125,7 +4136,7 @@ msgstr ""
 "\n"
 "ఐచ్ఛికములు:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1226
+#: kdecore/kernel/kcmdlineargs.cpp:1232
 msgid ""
 "\n"
 "Arguments:\n"
@@ -4133,15 +4144,15 @@ msgstr ""
 "\n"
 "ఆర్గ్యుమెంట్లు:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1582
+#: kdecore/kernel/kcmdlineargs.cpp:1588
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr "అప్లికేషన్ ద్వారా తెరచిన దస్త్రాలు/యూఆర్ఎల్లు వాడిన తరువాత తీసివేయబడును"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1583
+#: kdecore/kernel/kcmdlineargs.cpp:1589
 msgid "KDE-tempfile"
 msgstr "KDE-tempfile"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:252
+#: kdecore/kernel/ktoolinvocation_x11.cpp:253
 #, kde-format
 msgid ""
 "Could not launch the mail client:\n"
@@ -4152,11 +4163,12 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:253
+#: kdecore/kernel/ktoolinvocation_x11.cpp:254
 msgid "Could not Launch Mail Client"
 msgstr "మెయిల్ క్లైంటు ని ప్రారంభించలేకపొయాను"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:307
+#: kdecore/kernel/ktoolinvocation_x11.cpp:299
+#: kdecore/kernel/ktoolinvocation_x11.cpp:325
 #, kde-format
 msgid ""
 "Could not launch the browser:\n"
@@ -4167,11 +4179,12 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:308
+#: kdecore/kernel/ktoolinvocation_x11.cpp:300
+#: kdecore/kernel/ktoolinvocation_x11.cpp:326
 msgid "Could not Launch Browser"
 msgstr "బ్రౌజర్ను ప్రారంభించలేకపొయాను"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:347
+#: kdecore/kernel/ktoolinvocation_x11.cpp:365
 #, kde-format
 msgid ""
 "Could not launch the terminal client:\n"
@@ -4182,7 +4195,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:348
+#: kdecore/kernel/ktoolinvocation_x11.cpp:366
 msgid "Could not Launch Terminal Client"
 msgstr "టెర్మినల్ క్లైంటు ని ప్రారంభించలేకపొయాను"
 
@@ -6958,9 +6971,9 @@ msgstr ""
 #: kdeui/dialogs/kshortcutseditor.cpp:571
 #: kdeui/dialogs/kshortcutseditor.cpp:587 kdeui/shortcuts/kglobalaccel.cpp:501
 #: kdeui/shortcuts/kglobalaccel.cpp:540
-#: kdeui/widgets/kkeysequencewidget.cpp:180
-#: kdeui/widgets/kkeysequencewidget.cpp:262
-#: kdeui/widgets/kkeysequencewidget.cpp:656
+#: kdeui/widgets/kkeysequencewidget.cpp:179
+#: kdeui/widgets/kkeysequencewidget.cpp:261
+#: kdeui/widgets/kkeysequencewidget.cpp:655
 msgid "Reassign"
 msgstr "మళ్లి నియమించు"
 
@@ -7287,7 +7300,7 @@ msgstr "అప్రమేయం:"
 
 #: kdeui/dialogs/kshortcuteditwidget.cpp:56
 #: kdeui/dialogs/kshortcuteditwidget.cpp:59
-#: kdeui/widgets/kkeysequencewidget.cpp:690
+#: kdeui/widgets/kkeysequencewidget.cpp:689
 msgctxt "No shortcut defined"
 msgid "None"
 msgstr "ఏదీ వద్దు"
@@ -8076,27 +8089,27 @@ msgstr ""
 msgid "Conflict With Registered Global Shortcut"
 msgstr "నియంత్రిత వసుదైక శీఘ్రమార్గంతొ ఘర్షణ"
 
-#: kdeui/shortcuts/kgesture.cpp:519
+#: kdeui/shortcuts/kgesture.cpp:517
 msgctxt "left mouse button"
 msgid "left button"
 msgstr "ఎడమ బటన్"
 
-#: kdeui/shortcuts/kgesture.cpp:522
+#: kdeui/shortcuts/kgesture.cpp:520
 msgctxt "middle mouse button"
 msgid "middle button"
 msgstr "మద్య బటన్"
 
-#: kdeui/shortcuts/kgesture.cpp:525
+#: kdeui/shortcuts/kgesture.cpp:523
 msgctxt "right mouse button"
 msgid "right button"
 msgstr "కుడి బటన్"
 
-#: kdeui/shortcuts/kgesture.cpp:528
+#: kdeui/shortcuts/kgesture.cpp:526
 msgctxt "a nonexistent value of mouse button"
 msgid "invalid button"
 msgstr "సరికాని బటన్"
 
-#: kdeui/shortcuts/kgesture.cpp:542
+#: kdeui/shortcuts/kgesture.cpp:540
 #, kde-format
 msgctxt ""
 "a kind of mouse gesture: hold down one mouse button, then press another "
@@ -8626,33 +8639,33 @@ msgstr ""
 msgid "Desktop %1"
 msgstr "రంగస్థలం %1"
 
-#: kdeui/sonnet/dialog.cpp:102 kdeui/sonnet/dialog.cpp:218
-#: kdeui/sonnet/dialog.cpp:430
+#: kdeui/sonnet/dialog.cpp:103 kdeui/sonnet/dialog.cpp:225
+#: kdeui/sonnet/dialog.cpp:444
 msgctxt "@title:window"
 msgid "Check Spelling"
 msgstr "అచ్చుతప్పులు సరిచూడు"
 
-#: kdeui/sonnet/dialog.cpp:104
+#: kdeui/sonnet/dialog.cpp:105
 msgctxt "@action:button"
 msgid "&Finished"
 msgstr "(&F) పూర్తైనది"
 
-#: kdeui/sonnet/dialog.cpp:219
+#: kdeui/sonnet/dialog.cpp:226
 #, fuzzy
 #| msgid "Spell check stopped."
 msgctxt "progress label"
 msgid "Spell checking in progress..."
 msgstr "అచ్చుతప్పులు సరిచూడుట ఆపబడింది."
 
-#: kdeui/sonnet/dialog.cpp:240
+#: kdeui/sonnet/dialog.cpp:247
 msgid "Spell check stopped."
 msgstr "అచ్చుతప్పులు సరిచూడుట ఆపబడింది."
 
-#: kdeui/sonnet/dialog.cpp:251
+#: kdeui/sonnet/dialog.cpp:258
 msgid "Spell check canceled."
 msgstr "అచ్చుతప్పులు సరిచూడుట రద్దుచేయబడింది."
 
-#: kdeui/sonnet/dialog.cpp:426 kdeui/sonnet/dialog.cpp:430
+#: kdeui/sonnet/dialog.cpp:440 kdeui/sonnet/dialog.cpp:444
 msgid "Spell check complete."
 msgstr "అచ్చుతప్పులు సరిచూడుట పూర్తైంది."
 
@@ -9986,30 +9999,30 @@ msgstr "తెలియని"
 msgid "&Copy Full Text"
 msgstr "(&C) పూర్తి వచనంను నకలు చేయి"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:167
+#: kdeui/widgets/kkeysequencewidget.cpp:166
 #, kde-format
 msgid "Shortcut '%1' in Application %2 for action %3\n"
 msgstr "అనువర్తనం %2 నందు చర్య %3 కొరకు శీఘ్రమార్గము '%1'\n"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:174
+#: kdeui/widgets/kkeysequencewidget.cpp:173
 #, kde-format
 msgid "The shortcut '%1' conflicts with the following key combinations:\n"
 msgstr "శీఘ్రమార్గము '%1' క్రింది కీ సమ్మేళములతో విభేదించింది:\n"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:178
+#: kdeui/widgets/kkeysequencewidget.cpp:177
 msgid "Conflict With Registered Global Shortcut(s)"
 msgstr "నమోదిత సార్వత్రిక శీఘ్రమార్గము(ల)తో విభేదము"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:247
+#: kdeui/widgets/kkeysequencewidget.cpp:246
 msgid "Shortcut Conflict(s)"
 msgstr "శీఘ్రమార్గ విభేదము(లు)"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:251
+#: kdeui/widgets/kkeysequencewidget.cpp:250
 #, kde-format
 msgid "Shortcut(s) '%1' for action '%2'\n"
 msgstr "చర్య '%2'కొరకు శీఘ్రమార్గము(లు) '%1'\n"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:256
+#: kdeui/widgets/kkeysequencewidget.cpp:255
 #, kde-format
 msgid ""
 "The \"%1\" shortcut is ambiguous with the following shortcuts.\n"
@@ -10017,41 +10030,41 @@ msgid ""
 "%2"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:270
+#: kdeui/widgets/kkeysequencewidget.cpp:269
 msgid "Shortcut conflict"
 msgstr "శీఘ్ర మార్గం విభేదము"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:271
+#: kdeui/widgets/kkeysequencewidget.cpp:270
 #, kde-format
 msgid ""
 "<qt>The '%1' key combination is already used by the <b>%2</b> action."
 "<br>Please select a different one.</qt>"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:302
+#: kdeui/widgets/kkeysequencewidget.cpp:301
 msgid ""
 "Click on the button, then enter the shortcut like you would in the program.\n"
 "Example for Ctrl+a: hold the Ctrl key and press a."
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:509
+#: kdeui/widgets/kkeysequencewidget.cpp:508
 #, fuzzy
 #| msgid "New Web Shortcut"
 msgid "Reserved Shortcut"
 msgstr "కొత్త వెబ్ శీఘ్ర మార్గము"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:510
+#: kdeui/widgets/kkeysequencewidget.cpp:509
 msgid ""
 "The F12 key is reserved on Windows and it can't be used for a global "
 "shortcut.\n"
 "Please choose another one"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:650
+#: kdeui/widgets/kkeysequencewidget.cpp:649
 msgid "Conflict with Standard Application Shortcut"
 msgstr "ప్రామాణిక కార్యక్రమ శీఘ్రమార్గంతొ ఘర్షణ"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:651
+#: kdeui/widgets/kkeysequencewidget.cpp:650
 #, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -10059,16 +10072,16 @@ msgid ""
 "Do you really want to use it as a global shortcut as well?"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:683
+#: kdeui/widgets/kkeysequencewidget.cpp:682
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "ఇన్పుట్"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:733
+#: kdeui/widgets/kkeysequencewidget.cpp:732
 msgid "The key you just pressed is not supported by Qt."
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:734
+#: kdeui/widgets/kkeysequencewidget.cpp:733
 msgid "Unsupported Key"
 msgstr ""
 
