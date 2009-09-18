@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-01 12:44+0200\n"
+"POT-Creation-Date: 2009-09-18 06:13+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -225,55 +225,55 @@ msgstr ""
 msgid "By Category"
 msgstr ""
 
-#: kcmhelpcenter.cpp:63
+#: kcmhelpcenter.cpp:64
 msgid "Change Index Folder"
 msgstr ""
 
-#: kcmhelpcenter.cpp:71 kcmhelpcenter.cpp:293
+#: kcmhelpcenter.cpp:72 kcmhelpcenter.cpp:294
 msgid "Index folder:"
 msgstr ""
 
-#: kcmhelpcenter.cpp:103
+#: kcmhelpcenter.cpp:104
 msgid "Build Search Indices"
 msgstr ""
 
-#: kcmhelpcenter.cpp:116
+#: kcmhelpcenter.cpp:117
 msgid "Index creation log:"
 msgstr ""
 
-#: kcmhelpcenter.cpp:172
+#: kcmhelpcenter.cpp:173
 msgctxt ""
 "Label for button to close search index progress dialog after successful "
 "completion"
 msgid "Close"
 msgstr "మూయి"
 
-#: kcmhelpcenter.cpp:173
+#: kcmhelpcenter.cpp:174
 msgid "Index creation finished."
 msgstr ""
 
-#: kcmhelpcenter.cpp:176
+#: kcmhelpcenter.cpp:177
 msgctxt "Label for stopping search index generation before completion"
 msgid "Stop"
 msgstr "ఆపుము"
 
-#: kcmhelpcenter.cpp:202
+#: kcmhelpcenter.cpp:203
 msgid "Details &lt;&lt;"
 msgstr ""
 
-#: kcmhelpcenter.cpp:215
+#: kcmhelpcenter.cpp:216
 msgid "Details &gt;&gt;"
 msgstr ""
 
-#: kcmhelpcenter.cpp:232
+#: kcmhelpcenter.cpp:233
 msgid "Build Search Index"
 msgstr ""
 
-#: kcmhelpcenter.cpp:241
+#: kcmhelpcenter.cpp:242
 msgid "Build Index"
 msgstr ""
 
-#: kcmhelpcenter.cpp:272
+#: kcmhelpcenter.cpp:273
 msgid ""
 "To be able to search a document, a search\n"
 "index needs to exist. The status column of the list below shows whether an "
@@ -281,40 +281,40 @@ msgid ""
 "for a document exists.\n"
 msgstr ""
 
-#: kcmhelpcenter.cpp:275
+#: kcmhelpcenter.cpp:276
 msgid ""
 "To create an index, check the box in the list and press the\n"
 "\"Build Index\" button.\n"
 msgstr ""
 
-#: kcmhelpcenter.cpp:283
+#: kcmhelpcenter.cpp:285
 msgid "Search Scope"
 msgstr ""
 
-#: kcmhelpcenter.cpp:284
+#: kcmhelpcenter.cpp:285
 msgid "Status"
 msgstr "స్థితి"
 
-#: kcmhelpcenter.cpp:299
+#: kcmhelpcenter.cpp:300
 msgid "Change..."
 msgstr ""
 
-#: kcmhelpcenter.cpp:321
+#: kcmhelpcenter.cpp:322
 #, kde-format
 msgid "<qt>The folder <b>%1</b> does not exist; unable to create index.</qt>"
 msgstr ""
 
-#: kcmhelpcenter.cpp:358
+#: kcmhelpcenter.cpp:361
 msgctxt "Describes the status of a documentation index that is present"
 msgid "OK"
 msgstr ""
 
-#: kcmhelpcenter.cpp:361
+#: kcmhelpcenter.cpp:364
 msgctxt "Describes the status of a documentation index that is missing"
 msgid "Missing"
 msgstr ""
 
-#: kcmhelpcenter.cpp:405
+#: kcmhelpcenter.cpp:408
 #, kde-format
 msgctxt ""
 " Generic prefix label for error messages when creating documentation index, "
@@ -322,25 +322,25 @@ msgctxt ""
 msgid "Document '%1' (%2):\n"
 msgstr ""
 
-#: kcmhelpcenter.cpp:410
+#: kcmhelpcenter.cpp:413
 msgid "No document type."
 msgstr ""
 
-#: kcmhelpcenter.cpp:416
+#: kcmhelpcenter.cpp:420
 #, kde-format
 msgid "No search handler available for document type '%1'."
 msgstr ""
 
-#: kcmhelpcenter.cpp:423
+#: kcmhelpcenter.cpp:430
 #, kde-format
 msgid "No indexing command specified for document type '%1'."
 msgstr ""
 
-#: kcmhelpcenter.cpp:541
+#: kcmhelpcenter.cpp:548
 msgid "Failed to build index."
 msgstr ""
 
-#: kcmhelpcenter.cpp:596
+#: kcmhelpcenter.cpp:603
 #, kde-format
 msgid ""
 "Error executing indexing build command:\n"
@@ -567,7 +567,17 @@ msgstr ""
 msgid "Error: %1"
 msgstr ""
 
-#: searchhandler.cpp:214
+#: searchhandler.cpp:166 searchhandler.cpp:171
+#, kde-format
+msgid "'%1' not found, check your installation"
+msgstr ""
+
+#: searchhandler.cpp:176
+#, kde-format
+msgid "'%1' not found, install the package containing it"
+msgstr ""
+
+#: searchhandler.cpp:227
 msgid "No search command or URL specified."
 msgstr ""
 
@@ -591,35 +601,35 @@ msgstr ""
 msgid "&Scope selection:"
 msgstr ""
 
-#: searchwidget.cpp:109
+#: searchwidget.cpp:110
 msgid "Scope"
 msgstr "స్కోప్"
 
-#: searchwidget.cpp:112
+#: searchwidget.cpp:113
 msgid "Build Search &Index..."
 msgstr ""
 
-#: searchwidget.cpp:367
+#: searchwidget.cpp:368
 msgctxt "Label for searching documentation using custom (user defined) scope"
 msgid "Custom"
 msgstr ""
 
-#: searchwidget.cpp:369
+#: searchwidget.cpp:370
 msgctxt "Label for searching documentation using default search scope"
 msgid "Default"
 msgstr "అప్రమెయం"
 
-#: searchwidget.cpp:371
+#: searchwidget.cpp:372
 msgctxt "Label for searching documentation in all subsections"
 msgid "All"
 msgstr ""
 
-#: searchwidget.cpp:373
+#: searchwidget.cpp:374
 msgctxt "Label for scope that deselects all search subsections"
 msgid "None"
 msgstr "ఏదీకాదు"
 
-#: searchwidget.cpp:375
+#: searchwidget.cpp:376
 msgctxt "Label for Unknown search scope, that should never appear"
 msgid "unknown"
 msgstr "తెలియని"
