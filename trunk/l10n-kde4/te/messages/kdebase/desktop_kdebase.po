@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-21 04:13+0000\n"
+"POT-Creation-Date: 2009-09-24 05:08+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -3371,15 +3371,16 @@ msgctxt "Comment"
 msgid "Theme done in the Oxygen style"
 msgstr "Oxygen శైలిలో అయిన థీమ్"
 
-#: runtime/drkonqi/debuggers/gdbrc:2
+#: runtime/drkonqi/debuggers/external/gdbrc:2
+#: runtime/drkonqi/debuggers/internal/gdbrc:2
 msgctxt "Name"
-msgid "GNU Debugger"
-msgstr "గ్నూ డీబగ్గర్"
+msgid "gdb"
+msgstr ""
 
-#: runtime/drkonqi/debuggers/gdbrc:83
-msgctxt "Comment"
-msgid "Text based debugger from GNU in a konsole"
-msgstr "కాన్సొల్ లో వచన ఆధారిత గ్నుడిబగ్గర్ "
+#: runtime/drkonqi/debuggers/external/kdbgrc:2
+msgctxt "Name"
+msgid "kdbg"
+msgstr ""
 
 #: runtime/kcontrol/componentchooser/componentchooser.desktop:12
 msgctxt "Name"
@@ -12957,6 +12958,14 @@ msgstr "టేబుల్ పైన వవర్షమువుంది"
 msgctxt "Name"
 msgid "The Rings of Saturn"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "GNU Debugger"
+#~ msgstr "గ్నూ డీబగ్గర్"
+
+#~ msgctxt "Comment"
+#~ msgid "Text based debugger from GNU in a konsole"
+#~ msgstr "కాన్సొల్ లో వచన ఆధారిత గ్నుడిబగ్గర్ "
 
 #, fuzzy
 #~| msgctxt "Name"
