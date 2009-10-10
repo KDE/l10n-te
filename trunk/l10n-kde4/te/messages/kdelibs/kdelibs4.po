@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-09 06:12+0200\n"
+"POT-Creation-Date: 2009-10-10 06:17+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -6791,7 +6791,7 @@ msgid "Do not show this message again"
 msgstr "ఈ సందేశము మరల చూపవద్దు"
 
 #: kdeui/dialogs/kmessagebox.cpp:1054
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:73
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:87
 #: kdeui/widgets/khelpmenu.cpp:264 kde3support/kdeui/k3aboutdialog.cpp:1045
 #, kde-format
 msgid "About %1"
@@ -6983,14 +6983,25 @@ msgstr "చర్యా నామము"
 msgid "Shortcuts"
 msgstr "శీఘ్ర మార్గాలు"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:65
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:79
 msgid ""
 "<qt>No information available.<br />The supplied KAboutData object does not "
 "exist.</qt>"
 msgstr ""
 "<qt>ఎటువంచి సమాచారము అందుబాటులోలేదు.<br />అందివ్వబడి KAboutData ఆబ్జక్టు సంభవమై లేదు.</qt>"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:92
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:107
+#, fuzzy, kde-format
+#| msgid ""
+#| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE %"
+#| "3</html>"
+msgid ""
+"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
+msgstr ""
+"<html><font size=\"5\">%1</font><br /><b>వివరణము %2</b><br />KDE %3 "
+"వుపయోగిస్తోంది</html>"
+
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:110
 #, kde-format
 msgid ""
 "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE %3</"
@@ -6999,28 +7010,28 @@ msgstr ""
 "<html><font size=\"5\">%1</font><br /><b>వివరణము %2</b><br />KDE %3 "
 "వుపయోగిస్తోంది</html>"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:126
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:144
 #, kde-format
 msgid "License: %1"
 msgstr "లెసెన్సు: %1"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:139
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:157
 #: kde3support/kdeui/k3aboutapplication.cpp:51
 #: kde3support/kdeui/k3aboutapplication.cpp:77
 msgid "&About"
 msgstr "(&A) గురించి"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:149
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:167
 #: kde3support/kdeui/k3aboutapplication.cpp:95
 msgid "A&uthor"
 msgstr "(&u) మూలకర్త"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:149
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:167
 #: kde3support/kdeui/k3aboutapplication.cpp:95
 msgid "A&uthors"
 msgstr "(&u) మూలకర్తలు"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:154
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:172
 #: kde3support/kdeui/k3aboutapplication.cpp:107
 msgid ""
 "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to report "
@@ -7029,15 +7040,15 @@ msgstr ""
 "తప్పులను తెలియచేయుటకు <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> "
 "నివాడండి.\n"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:157
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:162
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:175
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:180
 #: kde3support/kdeui/k3aboutapplication.cpp:111
 #: kde3support/kdeui/k3aboutapplication.cpp:114
 #, kde-format
 msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
 msgstr "తప్పులను <a href=\"mailto:%1\">%2</a>కు తెలియచేయండి\n"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:175
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:193
 #, fuzzy, kde-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
@@ -7045,7 +7056,7 @@ msgctxt "@item Author name in about dialog"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:200
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:218
 #, fuzzy, kde-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
@@ -7053,17 +7064,17 @@ msgctxt "@item Contributor name in about dialog."
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:216
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:234
 #: kde3support/kdeui/k3aboutapplication.cpp:137
 msgid "&Thanks To"
 msgstr "(&T) ధన్యవాదములు"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:238
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:257
 #: kde3support/kdeui/k3aboutapplication.cpp:164
 msgid "T&ranslation"
 msgstr "(&r) అనువాదము"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:261
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:281
 msgid "License Agreement"
 msgstr "లైసెన్సు ఒప్పందం"
 
@@ -10053,9 +10064,9 @@ msgstr "కొత్త వెబ్ శీఘ్ర మార్గము"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:509
 msgid ""
-"The F12 key is reserved on Windows and it can't be used for a global "
+"The F12 key is reserved on Windows, so cannot be used for a global "
 "shortcut.\n"
-"Please choose another one"
+"Please choose another one."
 msgstr ""
 
 #: kdeui/widgets/kkeysequencewidget.cpp:649
@@ -10345,7 +10356,7 @@ msgid "a basic web browser using the KHTML library"
 msgstr ""
 
 #: khtml/khtml_run.cpp:95 khtml/khtml_part.cpp:3728 khtml/khtml_part.cpp:3938
-#: khtml/khtml_part.cpp:4330 kparts/browserrun.cpp:460
+#: khtml/khtml_part.cpp:4330 kparts/browserrun.cpp:455
 msgid "Save As"
 msgstr "ఇలా దాచు"
 
@@ -10605,12 +10616,12 @@ msgstr "దస్త్రాలను త్రిగి వ్రాయి?"
 msgid "Overwrite"
 msgstr "తిరిగి వ్రాయు"
 
-#: khtml/khtml_ext.cpp:993 kparts/browserrun.cpp:431
+#: khtml/khtml_ext.cpp:993 kparts/browserrun.cpp:426
 #, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr "మీ $PATH లో డౌన్ లోడ్ అభికర్త (%1) లో కనపడుటలేదు "
 
-#: khtml/khtml_ext.cpp:994 kparts/browserrun.cpp:432
+#: khtml/khtml_ext.cpp:994 kparts/browserrun.cpp:427
 msgid ""
 "Try to reinstall it  \n"
 "\n"
@@ -12115,18 +12126,18 @@ msgstr ""
 "పేరు: %2\n"
 "రకం: %1"
 
-#: kparts/browserrun.cpp:347
+#: kparts/browserrun.cpp:343
 #, kde-format
 msgid "&Open with '%1'"
 msgstr "(&O) దీనితో తెరువండి '%1'"
 
-#: kparts/browserrun.cpp:349
+#: kparts/browserrun.cpp:345
 #, fuzzy
 #| msgid "&Open With..."
 msgid "&Open with..."
 msgstr "(&O) దీనితో తెరువండి"
 
-#: kparts/browserrun.cpp:394
+#: kparts/browserrun.cpp:389
 msgid "&Open"
 msgstr "(&O) తెరువండి"
 
