@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-14 06:36+0200\n"
+"POT-Creation-Date: 2009-10-15 06:13+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -6447,7 +6447,7 @@ msgstr "కనుగొను"
 msgid "Cut"
 msgstr "కత్తిరించు"
 
-#: kdeui/util/kkeyserver_x11.cpp:113 kdeui/dialogs/kshortcutsdialog.cpp:120
+#: kdeui/util/kkeyserver_x11.cpp:113 kdeui/dialogs/kshortcutsdialog.cpp:124
 msgid "Print"
 msgstr "ప్రచురణ"
 
@@ -6556,11 +6556,11 @@ msgid ""
 "one?"
 msgstr "ప్రస్తుత శీఘ్రమార్గ స్కీము సవరించబడింది. మరియొక దానికి మారుటకు ముందుగా భద్రపరచవలెనా?"
 
-#: kdeui/dialogs/kshortcutsdialog.cpp:118
+#: kdeui/dialogs/kshortcutsdialog.cpp:122
 msgid "Configure Shortcuts"
 msgstr "శీఘ్రమార్గాలను అమర్చండి"
 
-#: kdeui/dialogs/kshortcutsdialog.cpp:125
+#: kdeui/dialogs/kshortcutsdialog.cpp:129
 msgid "Reset to Defaults"
 msgstr "అప్రమేయాలకు పునఃఅమర్పు చేయుము"
 
@@ -6931,6 +6931,30 @@ msgstr "ప్రతిమను మార్చు..."
 #| msgid "Link Text:"
 msgid "Icon Te&xt:"
 msgstr "లింకు వచనము:"
+
+#: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:66
+#, fuzzy
+#| msgid "Pages"
+msgid "All Pages"
+msgstr "పేజీలు"
+
+#: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:67
+#, fuzzy
+#| msgid "Pages"
+msgid "Odd Pages"
+msgstr "పేజీలు"
+
+#: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:68
+#, fuzzy
+#| msgid "Pages"
+msgid "Even Pages"
+msgstr "పేజీలు"
+
+#: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:79
+#, fuzzy
+#| msgid "Pages Per Sheet"
+msgid "Page Set"
+msgstr "ఒక్కో షీటుకు పేజీలు"
 
 #: kdeui/dialogs/kshortcutseditor.cpp:127
 #: kdeui/widgets/kcharselectdata.cpp:644
@@ -7402,7 +7426,7 @@ msgstr "(&J) కెడిఈ జట్టులో చేరండి"
 msgid "&Support KDE"
 msgstr "(&S) కెడిఈ కి సహాయంచెయండి"
 
-#: kdeui/dialogs/kdeprintdialog.cpp:53
+#: kdeui/dialogs/kdeprintdialog.cpp:73
 msgctxt "@title:window"
 msgid "Print"
 msgstr "ముద్రణ, ప్రచురణ"
@@ -12103,7 +12127,7 @@ msgstr "పునరాచరణ: %1"
 #, fuzzy
 #| msgid "Do not show this message again"
 msgctxt "@label:checkbox"
-msgid "Do not ask again for files of this type"
+msgid "Remember action for files of this type"
 msgstr "ఈ సందేశము మరల చూపవద్దు"
 
 #: kparts/browseropenorsavequestion.cpp:142
