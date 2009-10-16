@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-15 06:13+0200\n"
+"POT-Creation-Date: 2009-10-16 06:14+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -4143,8 +4143,8 @@ msgstr ""
 msgid "Could not Launch Mail Client"
 msgstr "మెయిల్ క్లైంటు ని ప్రారంభించలేకపొయాను"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:299
-#: kdecore/kernel/ktoolinvocation_x11.cpp:325
+#: kdecore/kernel/ktoolinvocation_x11.cpp:302
+#: kdecore/kernel/ktoolinvocation_x11.cpp:328
 #, kde-format
 msgid ""
 "Could not launch the browser:\n"
@@ -4155,12 +4155,12 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:300
-#: kdecore/kernel/ktoolinvocation_x11.cpp:326
+#: kdecore/kernel/ktoolinvocation_x11.cpp:303
+#: kdecore/kernel/ktoolinvocation_x11.cpp:329
 msgid "Could not Launch Browser"
 msgstr "బ్రౌజర్ను ప్రారంభించలేకపొయాను"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:365
+#: kdecore/kernel/ktoolinvocation_x11.cpp:368
 #, kde-format
 msgid ""
 "Could not launch the terminal client:\n"
@@ -4171,7 +4171,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:366
+#: kdecore/kernel/ktoolinvocation_x11.cpp:369
 msgid "Could not Launch Terminal Client"
 msgstr "టెర్మినల్ క్లైంటు ని ప్రారంభించలేకపొయాను"
 
@@ -7257,7 +7257,7 @@ msgstr ""
 "మీరు అందించే తప్పుల నివేదిక కొరకు వచనం వ్రాయండి(సాద్యమైనంత వరకు ఆంగ్లములో).\n"
 "మీరు \"పంపించు\" బటన్ నొక్కిన, ఒక తపాలా సందేశం ఈ ప్రోగ్రామ్ సంరక్షకునికి పంపబడును.\n"
 
-#: kdeui/dialogs/kbugreport.cpp:283
+#: kdeui/dialogs/kbugreport.cpp:285
 msgid ""
 "<qt>To submit a bug report, click on the button below. This will open a web "
 "browser window on <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> "
@@ -7268,22 +7268,22 @@ msgstr ""
 "\"http://bugs.kde.org\">http://bugs.kde.org</a>కు తెరువబడును అక్కడ మీరు ఒక "
 "ఫారంను నింపవసివుంటుది.పైన చూపించబడిన సమాచారం ఆ సెర్వర్ కు పంపబడును.</qt>"
 
-#: kdeui/dialogs/kbugreport.cpp:295
+#: kdeui/dialogs/kbugreport.cpp:299
 msgid "&Launch Bug Report Wizard"
 msgstr ""
 
-#: kdeui/dialogs/kbugreport.cpp:343
+#: kdeui/dialogs/kbugreport.cpp:347
 msgctxt "unknown program name"
 msgid "unknown"
 msgstr "తెలియని"
 
-#: kdeui/dialogs/kbugreport.cpp:408
+#: kdeui/dialogs/kbugreport.cpp:412
 msgid ""
 "You must specify both a subject and a description before the report can be "
 "sent."
 msgstr ""
 
-#: kdeui/dialogs/kbugreport.cpp:418
+#: kdeui/dialogs/kbugreport.cpp:422
 msgid ""
 "<p>You chose the severity <b>Critical</b>. Please note that this severity is "
 "intended only for bugs that</p><ul><li>break unrelated software on the "
@@ -7294,7 +7294,7 @@ msgid ""
 "not, please select a lower severity. Thank you!</p>"
 msgstr ""
 
-#: kdeui/dialogs/kbugreport.cpp:429
+#: kdeui/dialogs/kbugreport.cpp:433
 msgid ""
 "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
 "intended only for bugs that</p><ul><li>make the package in question unusable "
@@ -7305,24 +7305,24 @@ msgid ""
 "not, please select a lower severity. Thank you!</p>"
 msgstr ""
 
-#: kdeui/dialogs/kbugreport.cpp:443
+#: kdeui/dialogs/kbugreport.cpp:447
 msgid ""
 "Unable to send the bug report.\n"
 "Please submit a bug report manually...\n"
 "See http://bugs.kde.org/ for instructions."
 msgstr ""
 
-#: kdeui/dialogs/kbugreport.cpp:451
+#: kdeui/dialogs/kbugreport.cpp:455
 msgid "Bug report sent, thank you for your input."
 msgstr ""
 
-#: kdeui/dialogs/kbugreport.cpp:460
+#: kdeui/dialogs/kbugreport.cpp:464
 msgid ""
 "Close and discard\n"
 "edited message?"
 msgstr ""
 
-#: kdeui/dialogs/kbugreport.cpp:461
+#: kdeui/dialogs/kbugreport.cpp:465
 msgid "Close Message"
 msgstr "సందేశము మూసివేయుము"
 
@@ -11682,37 +11682,37 @@ msgstr ""
 "కెలాంచర్: ఈ ప్రోగ్రామ్ మెన్యువల్ గా మొదలుపెట్టకూడదు.\n"
 "కెలాంచర్: ఇది kdeinit4 ద్వారా మొదలుపెట్టబడును.\n"
 
-#: kinit/klauncher.cpp:563
+#: kinit/klauncher.cpp:564
 #, kde-format
 msgid "KDEInit could not launch '%1'."
 msgstr "కెడిఈ '%1' ప్రారంభించలేకపొయింది ."
 
-#: kinit/klauncher.cpp:736 kinit/klauncher.cpp:764 kinit/klauncher.cpp:779
+#: kinit/klauncher.cpp:737 kinit/klauncher.cpp:765 kinit/klauncher.cpp:780
 #, kde-format
 msgid "Could not find service '%1'."
 msgstr "'%1' సేవ కనపడలేదు."
 
-#: kinit/klauncher.cpp:798
+#: kinit/klauncher.cpp:799
 #, kde-format
 msgid "Service '%1' must be executable to run."
 msgstr ""
 
-#: kinit/klauncher.cpp:800 kinit/klauncher.cpp:836
+#: kinit/klauncher.cpp:801 kinit/klauncher.cpp:837
 #, kde-format
 msgid "Service '%1' is malformatted."
 msgstr "'%1' సేవ తప్పుగా ఫార్మేట్ చేయబడినది."
 
-#: kinit/klauncher.cpp:922
+#: kinit/klauncher.cpp:923
 #, kde-format
 msgid "Launching %1"
 msgstr "%1 ప్రారంభిస్తున్నా"
 
-#: kinit/klauncher.cpp:1124
+#: kinit/klauncher.cpp:1125
 #, kde-format
 msgid "Unknown protocol '%1'.\n"
 msgstr "తెలియని '%1' ప్రొటోకాల్.\n"
 
-#: kinit/klauncher.cpp:1185
+#: kinit/klauncher.cpp:1186
 #, kde-format
 msgid "Error loading '%1'.\n"
 msgstr "'%1'ఎక్కించుటలో దోషం.\n"
@@ -11849,22 +11849,6 @@ msgstr "క్రాస్ ఫ్రేమ్ వర్క్ ను పరీ�
 #| msgid "Cancel"
 msgid "Cancel?"
 msgstr "రద్దు"
-
-#: solid/examples/minibrowser/main.cpp:232
-msgid "Solid Browser"
-msgstr ""
-
-#: solid/examples/minibrowser/main.cpp:234
-msgid "Displays a Solid Device Tree"
-msgstr ""
-
-#: solid/examples/minibrowser/main.cpp:236
-msgid "(c) 2009 Harald Fernengel"
-msgstr ""
-
-#: solid/examples/minibrowser/main.cpp:237
-msgid "Simple and quick hack for showing a solid device tree"
-msgstr ""
 
 #: knotify/config/knotifyconfigwidget.cpp:107
 msgid "Configure Notifications"
