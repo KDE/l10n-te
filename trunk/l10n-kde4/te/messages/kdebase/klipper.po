@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-14 06:45+0200\n"
+"POT-Creation-Date: 2009-10-17 06:46+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -125,125 +125,149 @@ msgstr ""
 msgid "Command Description"
 msgstr "వర్ణన"
 
-#: klipper.cpp:141
+#: klipper.cpp:142
 msgid "Enable Clipboard &Actions"
 msgstr ""
 
-#: klipper.cpp:145
+#: klipper.cpp:146
 msgid "C&lear Clipboard History"
 msgstr ""
 
-#: klipper.cpp:150
+#: klipper.cpp:151
 msgid "&Configure Klipper..."
 msgstr ""
 
-#: klipper.cpp:155
+#: klipper.cpp:156
 msgid "&Quit"
 msgstr ""
 
-#: klipper.cpp:186
+#: klipper.cpp:187
 msgid "Show Klipper Popup-Menu"
 msgstr ""
 
-#: klipper.cpp:191
+#: klipper.cpp:192
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr ""
 
-#: klipper.cpp:198
+#: klipper.cpp:199
 msgid "&Edit Contents..."
 msgstr ""
 
-#: klipper.cpp:202
+#: klipper.cpp:205
+msgid "Next history item"
+msgstr ""
+
+#: klipper.cpp:209
+msgid "Previous history item"
+msgstr ""
+
+#: klipper.cpp:214
 msgid "Enable Clipboard Actions"
 msgstr ""
 
-#: klipper.cpp:497
+#: klipper.cpp:509
 msgid ""
 "You can enable URL actions later by right-clicking on the Klipper icon and "
 "selecting 'Enable Actions'"
 msgstr ""
 
-#: klipper.cpp:525
+#: klipper.cpp:537
 msgid "Should Klipper start automatically when you login?"
 msgstr ""
 
-#: klipper.cpp:526
+#: klipper.cpp:538
 msgid "Automatically Start Klipper?"
 msgstr ""
 
-#: klipper.cpp:526
+#: klipper.cpp:538
 msgid "Start"
 msgstr "ప్రారంభించు"
 
-#: klipper.cpp:527
+#: klipper.cpp:539
 msgid "Do Not Start"
 msgstr ""
 
-#: klipper.cpp:993
+#: klipper.cpp:1005
 msgid "KDE cut & paste history utility"
 msgstr ""
 
-#: klipper.cpp:997
+#: klipper.cpp:1009
 msgid "Klipper"
 msgstr "క్లిప్పర్"
 
-#: klipper.cpp:999
+#: klipper.cpp:1011
 msgid ""
 "(c) 1998, Andrew Stanley-Jones\n"
 "1998-2002, Carsten Pfeiffer\n"
 "2001, Patrick Dubroy"
 msgstr ""
 
-#: klipper.cpp:1003
+#: klipper.cpp:1015
 msgid "Carsten Pfeiffer"
 msgstr "కార్స్టెన్ ఫైఫర్"
 
-#: klipper.cpp:1004
+#: klipper.cpp:1016
 msgid "Author"
 msgstr "మూలకర్త"
 
-#: klipper.cpp:1007
+#: klipper.cpp:1019
 msgid "Andrew Stanley-Jones"
 msgstr ""
 
-#: klipper.cpp:1008
+#: klipper.cpp:1020
 msgid "Original Author"
 msgstr ""
 
-#: klipper.cpp:1011
+#: klipper.cpp:1023
 msgid "Patrick Dubroy"
 msgstr ""
 
-#: klipper.cpp:1012
+#: klipper.cpp:1024
 msgid "Contributor"
 msgstr ""
 
-#: klipper.cpp:1015
+#: klipper.cpp:1027
 msgid "Luboš Luňák"
 msgstr ""
 
-#: klipper.cpp:1016
+#: klipper.cpp:1028
 msgid "Bugfixes and optimizations"
 msgstr ""
 
-#: klipper.cpp:1019
+#: klipper.cpp:1031
 msgid "Esben Mose Hansen"
 msgstr ""
 
-#: klipper.cpp:1020
+#: klipper.cpp:1032
 msgid "Maintainer"
 msgstr "సంరక్షకుడు"
 
-#: klipper.cpp:1055
+#: klipper.cpp:1067
 msgid "Edit Contents"
 msgstr ""
 
-#: klipper.cpp:1083
+#: klipper.cpp:1095
 msgid "Really delete entire clipboard history?"
 msgstr ""
 
-#: klipper.cpp:1084
+#: klipper.cpp:1096
 msgid "Delete clipboard history?"
+msgstr ""
+
+#: klipper.cpp:1112 klipper.cpp:1118
+msgid "Clipboard history"
+msgstr ""
+
+#: klipper.cpp:1130
+msgid "up"
+msgstr ""
+
+#: klipper.cpp:1136
+msgid "current"
+msgstr ""
+
+#: klipper.cpp:1142
+msgid "down"
 msgstr ""
 
 #: klipperpopup.cpp:88
@@ -600,7 +624,7 @@ msgstr ""
 "k.meetme@gmail.com \n"
 " infyquest@gmail.com"
 
-#: tray.cpp:47
+#: tray.cpp:49
 msgid "Clipboard is empty"
 msgstr ""
 
