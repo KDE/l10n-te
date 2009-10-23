@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-09 07:38+0200\n"
+"POT-Creation-Date: 2009-10-23 06:06+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -34,13 +34,13 @@ msgid ""
 "default."
 msgstr ""
 
-#. i18n: file: smserverconfigdlg.ui:14
+#. i18n: file: smserverconfigdlg.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, topBox)
 #: rc.cpp:3 rc.cpp:55
 msgid "General"
 msgstr "సాధారణ"
 
-#. i18n: file: smserverconfigdlg.ui:20
+#. i18n: file: smserverconfigdlg.ui:23
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, confirmLogoutCheck)
 #: rc.cpp:6 rc.cpp:58
 msgid ""
@@ -48,19 +48,19 @@ msgid ""
 "confirmation dialog box."
 msgstr ""
 
-#. i18n: file: smserverconfigdlg.ui:23
+#. i18n: file: smserverconfigdlg.ui:26
 #. i18n: ectx: property (text), widget (QCheckBox, confirmLogoutCheck)
 #: rc.cpp:9 rc.cpp:61
 msgid "Conf&irm logout"
 msgstr "(&i) లాగ్అవుట్ నిర్ధారించుము"
 
-#. i18n: file: smserverconfigdlg.ui:30
+#. i18n: file: smserverconfigdlg.ui:33
 #. i18n: ectx: property (text), widget (QCheckBox, offerShutdownCheck)
 #: rc.cpp:12 rc.cpp:64
 msgid "O&ffer shutdown options"
 msgstr "(&f) మూసివేత ఐచ్చికములను అందించుము"
 
-#. i18n: file: smserverconfigdlg.ui:53
+#. i18n: file: smserverconfigdlg.ui:43
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, sdGroup)
 #: rc.cpp:15 rc.cpp:67
 msgid ""
@@ -68,7 +68,7 @@ msgid ""
 "only has meaning, if you logged in through KDM."
 msgstr ""
 
-#. i18n: file: smserverconfigdlg.ui:56
+#. i18n: file: smserverconfigdlg.ui:46
 #. i18n: ectx: property (title), widget (QGroupBox, sdGroup)
 #: rc.cpp:18 rc.cpp:70
 #, fuzzy
@@ -76,25 +76,25 @@ msgstr ""
 msgid "Default Leave Option"
 msgstr "అప్రమేయ మూసివేత ఐచ్చికము"
 
-#. i18n: file: smserverconfigdlg.ui:62
+#. i18n: file: smserverconfigdlg.ui:52
 #. i18n: ectx: property (text), widget (QRadioButton, logoutRadio)
 #: rc.cpp:21 rc.cpp:73
 msgid "&End current session"
 msgstr "(&E) ప్రస్తుత సెషన్‌ను ముగించుము"
 
-#. i18n: file: smserverconfigdlg.ui:69
+#. i18n: file: smserverconfigdlg.ui:59
 #. i18n: ectx: property (text), widget (QRadioButton, haltRadio)
 #: rc.cpp:24 rc.cpp:76
 msgid "&Turn off computer"
 msgstr "(&T) కంప్యూటర్‌ను ఆఫ్ చేయుము"
 
-#. i18n: file: smserverconfigdlg.ui:76
+#. i18n: file: smserverconfigdlg.ui:66
 #. i18n: ectx: property (text), widget (QRadioButton, rebootRadio)
 #: rc.cpp:27 rc.cpp:79
 msgid "&Restart computer"
 msgstr "(&R) కంప్యూటర్‌ను పునఃప్రారంభించుము"
 
-#. i18n: file: smserverconfigdlg.ui:94
+#. i18n: file: smserverconfigdlg.ui:80
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, loginGroup)
 #: rc.cpp:30 rc.cpp:82
 msgid ""
@@ -109,37 +109,37 @@ msgid ""
 "</ul>"
 msgstr ""
 
-#. i18n: file: smserverconfigdlg.ui:97
+#. i18n: file: smserverconfigdlg.ui:83
 #. i18n: ectx: property (title), widget (QGroupBox, loginGroup)
 #: rc.cpp:37 rc.cpp:89
 msgid "On Login"
 msgstr "లాగిన్ నందు"
 
-#. i18n: file: smserverconfigdlg.ui:103
+#. i18n: file: smserverconfigdlg.ui:89
 #. i18n: ectx: property (text), widget (QRadioButton, previousSessionRadio)
 #: rc.cpp:40 rc.cpp:92
 msgid "Restore &previous session"
 msgstr "(&p) మునుపటి సెషన్‌ను తిరిగివుంచుము"
 
-#. i18n: file: smserverconfigdlg.ui:110
+#. i18n: file: smserverconfigdlg.ui:96
 #. i18n: ectx: property (text), widget (QRadioButton, savedSessionRadio)
 #: rc.cpp:43 rc.cpp:95
 msgid "Restore &manually saved session"
 msgstr "(&m) మాన్యువల్‌గా దాచిన సెషన్‌ను తిరిగివుంచుము"
 
-#. i18n: file: smserverconfigdlg.ui:117
+#. i18n: file: smserverconfigdlg.ui:103
 #. i18n: ectx: property (text), widget (QRadioButton, emptySessionRadio)
 #: rc.cpp:46 rc.cpp:98
 msgid "Start with an empty &session"
 msgstr "(&s) ఖాళీ సెషన్‌తో ప్రారంభించుము"
 
-#. i18n: file: smserverconfigdlg.ui:124
+#. i18n: file: smserverconfigdlg.ui:110
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: rc.cpp:49 rc.cpp:101
 msgid "Applications to be e&xcluded from sessions:"
 msgstr "(&x) సెషన్స్ నుండి తీసివేయవలసిన అనువర్తనములు:"
 
-#. i18n: file: smserverconfigdlg.ui:137
+#. i18n: file: smserverconfigdlg.ui:123
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, excludeLineedit)
 #: rc.cpp:52 rc.cpp:104
 msgid ""
