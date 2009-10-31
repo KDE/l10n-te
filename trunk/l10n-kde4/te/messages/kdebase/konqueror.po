@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-30 06:16+0100\n"
+"POT-Creation-Date: 2009-10-31 06:20+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -530,8 +530,7 @@ msgstr ""
 msgid "Manage..."
 msgstr ""
 
-#: src/konqmainwindow.cpp:3507 src/konqhistorydialog.cpp:77
-#: sidebar/trees/history_module/history_module.cpp:88
+#: src/konqmainwindow.cpp:3507
 msgid "New &Window"
 msgstr "(&W) కొత్త విండొ"
 
@@ -887,7 +886,8 @@ msgstr ""
 msgid "Open the document in current window"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4638 sidebar/web_module/web_module.h:54
+#: src/konqmainwindow.cpp:4638 src/konqhistoryview.cpp:58
+#: sidebar/web_module/web_module.h:54
 msgid "Open in New &Window"
 msgstr ""
 
@@ -1005,7 +1005,6 @@ msgid "Session exists. Overwrite?"
 msgstr ""
 
 #: src/konqhistorymodel.cpp:137
-#: sidebar/trees/history_module/history_item.cpp:120
 #, kde-format
 msgid ""
 "<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: %"
@@ -1013,59 +1012,17 @@ msgid ""
 msgstr ""
 
 #: src/konqhistorymodel.cpp:232
-#: sidebar/trees/history_module/history_module.h:62
 msgid "Miscellaneous"
 msgstr "ఇతరత్రా"
 
-#: src/konqhistorydialog.cpp:51
+#: src/konqhistorydialog.cpp:43
+msgctxt "@title:window"
 msgid "History"
 msgstr ""
 
-#: src/konqhistorydialog.cpp:81
-#: sidebar/trees/history_module/history_module.cpp:92
-msgid "&Remove Entry"
-msgstr ""
-
-#: src/konqhistorydialog.cpp:85
-#: sidebar/trees/history_module/history_module.cpp:96
-msgid "C&lear History"
-msgstr ""
-
-#: src/konqhistorydialog.cpp:89
-#: sidebar/trees/history_module/history_module.cpp:100
-msgid "&Preferences..."
-msgstr ""
-
-#: src/konqhistorydialog.cpp:96
-#: sidebar/trees/history_module/history_module.cpp:107
-msgid "By &Name"
-msgstr ""
-
-#: src/konqhistorydialog.cpp:102
-#: sidebar/trees/history_module/history_module.cpp:113
-msgid "By &Date"
-msgstr ""
-
-#: src/konqhistorydialog.cpp:113 src/konqhistorydialog.cpp:168
-#: sidebar/trees/history_module/history_module.cpp:261
+#: src/konqhistorydialog.cpp:58 src/konqhistoryview.cpp:123
 msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
 msgid "Sort"
-msgstr ""
-
-#: src/konqhistorydialog.cpp:126
-msgid "Search in history"
-msgstr ""
-
-#: src/konqhistorydialog.cpp:214
-#: sidebar/trees/history_module/history_module.cpp:370
-#: sidebar/trees/history_module/kcmhistory.cpp:252
-msgid "Do you really want to clear the entire history?"
-msgstr ""
-
-#: src/konqhistorydialog.cpp:215
-#: sidebar/trees/history_module/history_module.cpp:372
-#: sidebar/trees/history_module/kcmhistory.cpp:254
-msgid "Clear History?"
 msgstr ""
 
 #: src/konqview.cpp:1314
@@ -1143,6 +1100,38 @@ msgstr ""
 msgid "Stalled"
 msgstr ""
 
+#: src/konqhistoryview.cpp:62
+msgid "&Remove Entry"
+msgstr ""
+
+#: src/konqhistoryview.cpp:66
+msgid "C&lear History"
+msgstr ""
+
+#: src/konqhistoryview.cpp:70
+msgid "&Preferences..."
+msgstr ""
+
+#: src/konqhistoryview.cpp:77
+msgid "By &Name"
+msgstr ""
+
+#: src/konqhistoryview.cpp:83
+msgid "By &Date"
+msgstr ""
+
+#: src/konqhistoryview.cpp:93
+msgid "Search in history"
+msgstr ""
+
+#: src/konqhistoryview.cpp:150 sidebar/history_module/kcmhistory.cpp:251
+msgid "Do you really want to clear the entire history?"
+msgstr ""
+
+#: src/konqhistoryview.cpp:151 sidebar/history_module/kcmhistory.cpp:253
+msgid "Clear History?"
+msgstr ""
+
 #: src/konqguiclients.cpp:66
 #, kde-format
 msgid "Preview &in %1"
@@ -1213,6 +1202,44 @@ msgstr ""
 msgid "SideBar Test Plugin"
 msgstr ""
 
+#: sidebar/history_module/history_module.cpp:106
+msgctxt "@action:inmenu Add"
+msgid "History Sidebar Module"
+msgstr ""
+
+#: sidebar/history_module/history_module.cpp:129
+msgctxt "@title:tab"
+msgid "History"
+msgstr ""
+
+#: sidebar/history_module/kcmhistory.cpp:68
+msgid " day"
+msgid_plural " days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: sidebar/history_module/kcmhistory.cpp:74
+#: sidebar/history_module/kcmhistory.cpp:79
+#: sidebar/history_module/kcmhistory.cpp:212
+#: sidebar/history_module/kcmhistory.cpp:224
+msgid "Minute"
+msgid_plural "Minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: sidebar/history_module/kcmhistory.cpp:76
+#: sidebar/history_module/kcmhistory.cpp:81
+#: sidebar/history_module/kcmhistory.cpp:210
+#: sidebar/history_module/kcmhistory.cpp:222
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: sidebar/history_module/kcmhistory.cpp:195
+msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
+msgstr ""
+
 #: sidebar/trees/konqsidebar_tree.cpp:192
 #: sidebar/web_module/web_module.cpp:251
 #, fuzzy
@@ -1230,34 +1257,6 @@ msgstr ""
 #: sidebar/trees/konqsidebar_tree.cpp:193
 msgctxt "@title:window"
 msgid "Add folder sidebar module"
-msgstr ""
-
-#: sidebar/trees/history_module/kcmhistory.cpp:69
-msgid " day"
-msgid_plural " days"
-msgstr[0] ""
-msgstr[1] ""
-
-#: sidebar/trees/history_module/kcmhistory.cpp:75
-#: sidebar/trees/history_module/kcmhistory.cpp:80
-#: sidebar/trees/history_module/kcmhistory.cpp:213
-#: sidebar/trees/history_module/kcmhistory.cpp:225
-msgid "Minute"
-msgid_plural "Minutes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: sidebar/trees/history_module/kcmhistory.cpp:77
-#: sidebar/trees/history_module/kcmhistory.cpp:82
-#: sidebar/trees/history_module/kcmhistory.cpp:211
-#: sidebar/trees/history_module/kcmhistory.cpp:223
-msgid "Day"
-msgid_plural "Days"
-msgstr[0] ""
-msgstr[1] ""
-
-#: sidebar/trees/history_module/kcmhistory.cpp:196
-msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
 msgstr ""
 
 #: sidebar/trees/dirtree_module/dirtree_module.cpp:414
@@ -1720,7 +1719,7 @@ msgstr "సాధారణ"
 msgid "Feature"
 msgstr ""
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:128
+#. i18n: file: sidebar/history_module/history_dlg.ui:128
 #. i18n: ectx: property (title), widget (QGroupBox, gbDetails)
 #: about/konq_aboutpage.cc:234 rc.cpp:92
 msgid "Details"
@@ -2072,51 +2071,51 @@ msgstr ""
 msgid "&Session name:"
 msgstr ""
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:16
+#. i18n: file: sidebar/history_module/history_dlg.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, gbLimits)
 #: rc.cpp:68
 msgid "Limits"
 msgstr ""
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:38
+#. i18n: file: sidebar/history_module/history_dlg.ui:38
 #. i18n: ectx: property (text), widget (QCheckBox, cbExpire)
 #: rc.cpp:71
 msgid "URLs e&xpire after"
 msgstr ""
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:48
+#. i18n: file: sidebar/history_module/history_dlg.ui:48
 #. i18n: ectx: property (text), widget (QLabel, lEntries)
 #: rc.cpp:74
 msgid "Maximum &number of URLs:"
 msgstr ""
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:67
+#. i18n: file: sidebar/history_module/history_dlg.ui:67
 #. i18n: ectx: property (title), widget (QGroupBox, gbFonts)
 #: rc.cpp:77
 msgid "Custom Fonts For"
 msgstr ""
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:82
+#. i18n: file: sidebar/history_module/history_dlg.ui:82
 #. i18n: ectx: property (text), widget (QLabel, lbNewer)
 #: rc.cpp:80
 msgid "URLs newer than"
 msgstr ""
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:98
+#. i18n: file: sidebar/history_module/history_dlg.ui:98
 #. i18n: ectx: property (text), widget (QPushButton, btnFontOlder)
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:118
+#. i18n: file: sidebar/history_module/history_dlg.ui:118
 #. i18n: ectx: property (text), widget (QPushButton, btnFontNewer)
 #: rc.cpp:83 rc.cpp:89
 msgid "Choose Font..."
 msgstr ""
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:105
+#. i18n: file: sidebar/history_module/history_dlg.ui:105
 #. i18n: ectx: property (text), widget (QLabel, lbOlder)
 #: rc.cpp:86
 msgid "URLs older than"
 msgstr ""
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:134
+#. i18n: file: sidebar/history_module/history_dlg.ui:134
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbDetailedTips)
 #: rc.cpp:95
 msgid ""
@@ -2124,13 +2123,13 @@ msgid ""
 "visits, in addition to the URL"
 msgstr ""
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:137
+#. i18n: file: sidebar/history_module/history_dlg.ui:137
 #. i18n: ectx: property (text), widget (QCheckBox, cbDetailedTips)
 #: rc.cpp:98
 msgid "Detailed tooltips"
 msgstr ""
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:149
+#. i18n: file: sidebar/history_module/history_dlg.ui:149
 #. i18n: ectx: property (text), widget (QPushButton, btnClearHistory)
 #: rc.cpp:101
 msgid "Clear History"
