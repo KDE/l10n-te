@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_systemtray\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-25 05:41+0100\n"
+"POT-Creation-Date: 2009-11-01 06:15+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,8 +25,140 @@ msgstr ""
 "\n"
 "\n"
 
-#: notificationitemwatcher/notificationitemwatcher.cpp:36
-msgid "notificationitemwatcher"
+#: ui/taskarea.cpp:372
+msgid "Hide icons"
+msgstr ""
+
+#: ui/taskarea.cpp:374
+msgid "Show hidden icons"
+msgstr ""
+
+#: ui/notificationwidget.cpp:158
+#, kde-format
+msgid "Notification from %1"
+msgstr ""
+
+#: ui/jobwidget.cpp:99 ui/jobwidget.cpp:362
+msgid "More"
+msgstr ""
+
+#: ui/jobwidget.cpp:110
+msgid "Pause job"
+msgstr ""
+
+#: ui/jobwidget.cpp:119
+msgid "Resume job"
+msgstr ""
+
+#: ui/jobwidget.cpp:128
+msgid "Cancel job"
+msgstr ""
+
+#: ui/jobwidget.cpp:178 ui/jobwidget.cpp:207
+#, kde-format
+msgid "%1 (%2 remaining)"
+msgstr ""
+
+#: ui/jobwidget.cpp:186
+#, kde-format
+msgctxt ""
+"%1 is the name of the job, can be things like Copying, deleting, moving"
+msgid "%1 [Paused]"
+msgstr ""
+
+#: ui/jobwidget.cpp:187
+msgid "Paused"
+msgstr ""
+
+#: ui/jobwidget.cpp:191
+#, kde-format
+msgctxt ""
+"%1 is the name of the job, can be things like Copying, deleting, moving"
+msgid "%1 [Finished]"
+msgstr ""
+
+#: ui/jobwidget.cpp:253
+#, kde-format
+msgid "%2 / 1 folder"
+msgid_plural "%2 / %1 folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ui/jobwidget.cpp:258
+#, kde-format
+msgid "%2 / 1 file"
+msgid_plural "%2 / %1 files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ui/jobwidget.cpp:353
+msgid "Less"
+msgstr ""
+
+#: ui/applet.cpp:105
+msgid "add default applets"
+msgstr ""
+
+#: ui/applet.cpp:162
+msgid "No notifications and no jobs"
+msgstr ""
+
+#: ui/applet.cpp:457
+msgid "Information"
+msgstr ""
+
+#: ui/applet.cpp:459
+msgid "Choose which information to show"
+msgstr ""
+
+#: ui/applet.cpp:460
+msgid "Auto Hide"
+msgstr ""
+
+#: ui/applet.cpp:461
+msgid "Plasma widgets"
+msgstr ""
+
+#: ui/applet.cpp:488
+msgctxt "Item will be automatically shown or hidden from the systray"
+msgid "Auto"
+msgstr ""
+
+#: ui/applet.cpp:489
+msgctxt "Item is never visible in the systray"
+msgid "Hidden"
+msgstr ""
+
+#: ui/applet.cpp:490
+msgctxt "Item is always visible in the systray"
+msgid "Always visible"
+msgstr ""
+
+#: ui/applet.cpp:775
+#, kde-format
+msgid "%1 [Finished]"
+msgstr ""
+
+#: ui/applet.cpp:810
+msgid "Recently Completed Jobs"
+msgstr ""
+
+#: core/job.cpp:174
+#, kde-format
+msgid "%1 file, to: %2"
+msgid_plural "%1 files, to: %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/manager.cpp:221
+#, kde-format
+msgid "1 running job (%2 remaining)"
+msgid_plural "%1 running jobs (%2 remaining)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/manager.cpp:226
+msgid "no running jobs"
 msgstr ""
 
 #: core/extendertask.cpp:161
@@ -69,22 +201,8 @@ msgstr ""
 msgid "Show or hide notifications and jobs"
 msgstr ""
 
-#: core/job.cpp:174
-#, kde-format
-msgid "%1 file, to: %2"
-msgid_plural "%1 files, to: %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/manager.cpp:221
-#, kde-format
-msgid "1 running job (%2 remaining)"
-msgid_plural "%1 running jobs (%2 remaining)"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/manager.cpp:226
-msgid "no running jobs"
+#: statusnotifierwatcher/statusnotifierwatcher.cpp:36
+msgid "statusnotifierwatcher"
 msgstr ""
 
 #: rc.cpp:1
@@ -173,122 +291,4 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #: rc.cpp:41
 msgid "Hardware control"
-msgstr ""
-
-#: ui/applet.cpp:105
-msgid "add default applets"
-msgstr ""
-
-#: ui/applet.cpp:162
-msgid "No notifications and no jobs"
-msgstr ""
-
-#: ui/applet.cpp:457
-msgid "Information"
-msgstr ""
-
-#: ui/applet.cpp:459
-msgid "Choose which information to show"
-msgstr ""
-
-#: ui/applet.cpp:460
-msgid "Auto Hide"
-msgstr ""
-
-#: ui/applet.cpp:461
-msgid "Plasma widgets"
-msgstr ""
-
-#: ui/applet.cpp:488
-msgctxt "Item will be automatically shown or hidden from the systray"
-msgid "Auto"
-msgstr ""
-
-#: ui/applet.cpp:489
-msgctxt "Item is never visible in the systray"
-msgid "Hidden"
-msgstr ""
-
-#: ui/applet.cpp:490
-msgctxt "Item is always visible in the systray"
-msgid "Always visible"
-msgstr ""
-
-#: ui/applet.cpp:775
-#, kde-format
-msgid "%1 [Finished]"
-msgstr ""
-
-#: ui/applet.cpp:810
-msgid "Recently Completed Jobs"
-msgstr ""
-
-#: ui/jobwidget.cpp:99 ui/jobwidget.cpp:352
-msgid "More"
-msgstr ""
-
-#: ui/jobwidget.cpp:110
-msgid "Pause job"
-msgstr ""
-
-#: ui/jobwidget.cpp:119
-msgid "Resume job"
-msgstr ""
-
-#: ui/jobwidget.cpp:128
-msgid "Cancel job"
-msgstr ""
-
-#: ui/jobwidget.cpp:178
-#, kde-format
-msgid "%1 (%2 remaining)"
-msgstr ""
-
-#: ui/jobwidget.cpp:186
-#, kde-format
-msgctxt ""
-"%1 is the name of the job, can be things like Copying, deleting, moving"
-msgid "%1 [Paused]"
-msgstr ""
-
-#: ui/jobwidget.cpp:187
-msgid "Paused"
-msgstr ""
-
-#: ui/jobwidget.cpp:191
-#, kde-format
-msgctxt ""
-"%1 is the name of the job, can be things like Copying, deleting, moving"
-msgid "%1 [Finished]"
-msgstr ""
-
-#: ui/jobwidget.cpp:243
-#, kde-format
-msgid "%2 / 1 folder"
-msgid_plural "%2 / %1 folders"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ui/jobwidget.cpp:248
-#, kde-format
-msgid "%2 / 1 file"
-msgid_plural "%2 / %1 files"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ui/jobwidget.cpp:343
-msgid "Less"
-msgstr ""
-
-#: ui/notificationwidget.cpp:158
-#, kde-format
-msgid "Notification from %1"
-msgstr ""
-
-#: ui/taskarea.cpp:372
-msgid "Hide icons"
-msgstr ""
-
-#: ui/taskarea.cpp:374
-msgid "Show hidden icons"
 msgstr ""
