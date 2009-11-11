@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-10 06:08+0100\n"
+"POT-Creation-Date: 2009-11-11 06:19+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1851,37 +1851,37 @@ msgctxt "@info:tooltip"
 msgid "Click to begin the search"
 msgstr ""
 
-#: search/dolphinsearchoptionsconfigurator.cpp:45
+#: search/dolphinsearchoptionsconfigurator.cpp:47
 msgctxt "@label"
 msgid "Search:"
 msgstr ""
 
-#: search/dolphinsearchoptionsconfigurator.cpp:48
+#: search/dolphinsearchoptionsconfigurator.cpp:50
 msgctxt "@label"
 msgid "Everywhere"
 msgstr ""
 
-#: search/dolphinsearchoptionsconfigurator.cpp:49
+#: search/dolphinsearchoptionsconfigurator.cpp:51
 msgctxt "@label"
 msgid "From Here"
 msgstr ""
 
-#: search/dolphinsearchoptionsconfigurator.cpp:52
+#: search/dolphinsearchoptionsconfigurator.cpp:54
 msgctxt "@label"
 msgid "What:"
 msgstr ""
 
-#: search/dolphinsearchoptionsconfigurator.cpp:55
+#: search/dolphinsearchoptionsconfigurator.cpp:57
 msgctxt "@label"
 msgid "All"
 msgstr ""
 
-#: search/dolphinsearchoptionsconfigurator.cpp:56
+#: search/dolphinsearchoptionsconfigurator.cpp:58
 msgctxt "@label"
 msgid "Images"
 msgstr ""
 
-#: search/dolphinsearchoptionsconfigurator.cpp:57
+#: search/dolphinsearchoptionsconfigurator.cpp:59
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "Text"
@@ -1889,7 +1889,7 @@ msgctxt "@label"
 msgid "Text"
 msgstr "వచనము"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:58
+#: search/dolphinsearchoptionsconfigurator.cpp:60
 #, fuzzy
 #| msgctxt "@title"
 #| msgid "File Manager"
@@ -1897,13 +1897,48 @@ msgctxt "@label"
 msgid "Filenames"
 msgstr "దస్త్రాల అభికర్త"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:64
+#: search/dolphinsearchoptionsconfigurator.cpp:67
+#: search/dolphinsearchoptionsconfigurator.cpp:158
 msgctxt "@action:button"
 msgid "Save"
 msgstr "దాయి"
 
+#: search/dolphinsearchoptionsconfigurator.cpp:68
+msgctxt "@info"
+msgid "Save search options"
+msgstr ""
+
+#: search/dolphinsearchoptionsconfigurator.cpp:74
+#: statusbar/statusbarmessagelabel.cpp:50
+msgctxt "@action:button"
+msgid "Close"
+msgstr "మూయి"
+
+#: search/dolphinsearchoptionsconfigurator.cpp:75
+msgctxt "@info"
+msgid "Close search options"
+msgstr ""
+
+#: search/dolphinsearchoptionsconfigurator.cpp:81
+msgctxt "@info"
+msgid "Add search option"
+msgstr ""
+
+#: search/dolphinsearchoptionsconfigurator.cpp:146
+#, fuzzy
+#| msgctxt "@label Tag name"
+#| msgid "Name:"
+msgctxt "@label"
+msgid "Name:"
+msgstr "పేరు:"
+
+#: search/dolphinsearchoptionsconfigurator.cpp:155
+msgctxt "@title:window"
+msgid "Save Search Options"
+msgstr ""
+
 #: search/searchcriterionselector.cpp:43
-#: search/searchcriterionselector.cpp:121
+#: search/searchcriterionselector.cpp:143
 #, fuzzy
 #| msgctxt "@action:inmenu Edit"
 #| msgid "Select All"
@@ -1911,27 +1946,50 @@ msgctxt "@label"
 msgid "Select..."
 msgstr "అన్నిటిని ఎంపికచేయుము"
 
-#: search/searchcriterionselector.cpp:79
+#: search/searchcriterionselector.cpp:92
 msgctxt "@label"
-msgid "greater than"
+msgid "Greater Than"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:80
+#: search/searchcriterionselector.cpp:93
 msgctxt "@label"
-msgid "greater than or equal to"
+msgid "Greater Than or Equal to"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:81
+#: search/searchcriterionselector.cpp:94
 msgctxt "@label"
-msgid "less than"
+msgid "Less Than"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:82
+#: search/searchcriterionselector.cpp:95
 msgctxt "@label"
-msgid "less than or equal to"
+msgid "Less Than or Equal to"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:87
+#: search/searchcriterionselector.cpp:99
+msgctxt "@label"
+msgid "Anytime"
+msgstr ""
+
+#: search/searchcriterionselector.cpp:100
+#, fuzzy
+#| msgctxt "@title:group Date"
+#| msgid "Today"
+msgctxt "@label"
+msgid "Today"
+msgstr "ఈరోజు"
+
+#: search/searchcriterionselector.cpp:101
+msgctxt "@label"
+msgid "This week"
+msgstr ""
+
+#: search/searchcriterionselector.cpp:102
+msgctxt "@label"
+msgid "This month"
+msgstr ""
+
+#: search/searchcriterionselector.cpp:109
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Modified:"
@@ -1939,7 +1997,7 @@ msgctxt "@label"
 msgid "Date Modified"
 msgstr "సవరించబడిన:"
 
-#: search/searchcriterionselector.cpp:95
+#: search/searchcriterionselector.cpp:117
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "File Previews"
@@ -2582,11 +2640,6 @@ msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr "%1 ఖాళీ"
 
-#: statusbar/statusbarmessagelabel.cpp:50
-msgctxt "@action:button"
-msgid "Close"
-msgstr "మూయి"
-
 #: dolphinviewactionhandler.cpp:85
 #, fuzzy
 #| msgctxt "@action"
@@ -2899,10 +2952,6 @@ msgstr "వీక్షణ తీరును విభజించుము"
 #~ msgctxt "@label Indicator when no tags defined"
 #~ msgid "No Tags"
 #~ msgstr "కొత్త టాగ్సు"
-
-#~ msgctxt "@label Tag name"
-#~ msgid "Name:"
-#~ msgstr "పేరు:"
 
 #~ msgctxt "@label"
 #~ msgid "Detailed description (optional):"
