@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kded_phononserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-11 12:49+0200\n"
+"POT-Creation-Date: 2009-11-20 06:09+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -38,20 +38,8 @@ msgid "OSS"
 msgstr "OSS"
 
 #: audiodeviceaccess.cpp:48
-msgid "PulseAudio"
-msgstr "పల్స్ ఆడియో"
-
-#: audiodeviceaccess.cpp:50
 msgid "Jack"
 msgstr "జాక్"
-
-#: audiodeviceaccess.cpp:52
-msgid "ESD"
-msgstr "ESD"
-
-#: audiodeviceaccess.cpp:54
-msgid "aRts"
-msgstr "aRts"
 
 #: audiodevice.cpp:60
 msgid ""
@@ -76,43 +64,43 @@ msgid ""
 "1</ol></html>"
 msgstr ""
 
-#: phononserver.cpp:213
+#: phononserver.cpp:209
 #, kde-format
 msgctxt "%1 is the sound card name, %2 is the description in case it exists"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: phononserver.cpp:748
+#: phononserver.cpp:555
 #, kde-format
 msgid "Output: %1"
 msgstr "అవుట్‌పుట్: %1"
 
-#: phononserver.cpp:749
+#: phononserver.cpp:556
 #, kde-format
 msgid "Capture: %1"
 msgstr "కాప్చర్: %1"
 
-#: phononserver.cpp:1011
+#: phononserver.cpp:812
 msgid "Removed Sound Devices"
 msgstr "శబ్దపు పరికరములను తొలగించుము"
 
-#: phononserver.cpp:1017
+#: phononserver.cpp:818
 msgid "Forget about the sound devices."
 msgstr "శబ్దపు పరికరముల గురించి మరిచిపొమ్ము."
 
-#: phononserver.cpp:1021
+#: phononserver.cpp:822
 msgctxt ""
 "short string for a button, it opens the Phonon page of System Settings"
 msgid "Manage Devices"
 msgstr "పరికరములను నిర్వహించుము"
 
-#: phononserver.cpp:1023
+#: phononserver.cpp:824
 msgid ""
 "Open the System Settings page for sound device configuration where you can "
 "manually remove disconnected devices from the cache."
 msgstr ""
 
-#: phononserver.cpp:1030
+#: phononserver.cpp:831
 #, kde-format
 msgid ""
 "<html><p>KDE detected that one or more internal sound devices were removed.</"
@@ -121,6 +109,15 @@ msgid ""
 "ul></p></html>"
 msgstr ""
 
-#: phononserver.cpp:1035
+#: phononserver.cpp:836
 msgid "Do not ask again for these devices"
 msgstr "ఈ పరికరముల కొరకు మరలా అడుగవద్దు"
+
+#~ msgid "PulseAudio"
+#~ msgstr "పల్స్ ఆడియో"
+
+#~ msgid "ESD"
+#~ msgstr "ESD"
+
+#~ msgid "aRts"
+#~ msgstr "aRts"
