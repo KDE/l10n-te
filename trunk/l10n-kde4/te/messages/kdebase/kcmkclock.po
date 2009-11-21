@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkclock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-08 05:59+0100\n"
+"POT-Creation-Date: 2009-11-21 06:19+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -62,13 +62,14 @@ msgstr "కొత్త సమయ క్షేత్రమును అమర్
 msgid "Time zone Error"
 msgstr "సమయ క్షేత్రపు దోషము"
 
-#: dtime.cpp:292 main.cpp:61
+#: dtime.cpp:292
 msgid ""
-"<h1>Date & Time</h1> This control module can be used to set the system date "
-"and time. As these settings do not only affect you as a user, but rather the "
-"whole system, you can only change these settings when you start the Control "
-"Center as root. If you do not have the root password, but feel the system "
-"time should be corrected, please contact your system administrator."
+"<h1>Date & Time</h1> This system settings module can be used to set the "
+"system date and time. As these settings do not only affect you as a user, "
+"but rather the whole system, you can only change these settings when you "
+"start the System Settings as root. If you do not have the root password, but "
+"feel the system time should be corrected, please contact your system "
+"administrator."
 msgstr ""
 
 #: main.cpp:53
@@ -106,6 +107,15 @@ msgstr "బెంజిమన్ మేయర్"
 #: main.cpp:59
 msgid "Added NTP support"
 msgstr "NTP మద్దతు జతచేయబడింది"
+
+#: main.cpp:61
+msgid ""
+"<h1>Date & Time</h1> This control module can be used to set the system date "
+"and time. As these settings do not only affect you as a user, but rather the "
+"whole system, you can only change these settings when you start the System "
+"Settings as root. If you do not have the root password, but feel the system "
+"time should be corrected, please contact your system administrator."
+msgstr ""
 
 #: main.cpp:97
 #, kde-format
