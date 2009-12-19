@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-17 06:04+0100\n"
+"POT-Creation-Date: 2009-12-19 05:47+0100\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -301,7 +301,7 @@ msgstr "దయచేసి మీ గురించి కొంత సమా�
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:92
 #. i18n: ectx: property (title), widget (QGroupBox, uploadGroup)
-#: rc.cpp:113 knewstuff/knewstuff3/uploaddialog.cpp:295
+#: rc.cpp:113 knewstuff/knewstuff3/uploaddialog.cpp:301
 #, fuzzy
 #| msgctxt "Reload KDE configuration messagebox"
 #| msgid "Reload"
@@ -404,8 +404,7 @@ msgstr ""
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:65
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:201
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:209
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:71
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:238
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:212
 msgid "Install"
 msgstr "స్థాపించు"
 
@@ -413,7 +412,7 @@ msgstr "స్థాపించు"
 #. i18n: ectx: property (text), widget (QPushButton, updateButton)
 #: rc.cpp:176 knewstuff/knewstuff2/ui/kdxsbutton.cpp:138
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:192
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:220
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:194
 msgid "Update"
 msgstr "కొత్త మార్పులు"
 
@@ -424,8 +423,7 @@ msgstr "కొత్త మార్పులు"
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:534
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:66
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:186
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:72
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:216
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:190
 msgid "Uninstall"
 msgstr "తొలగించు"
 
@@ -4905,7 +4903,7 @@ msgid "%1 Add-On Uploader"
 msgstr "%1 యాడ్-ఆన్ సంస్థాపకి"
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:92
-#: knewstuff/knewstuff3/uploaddialog.cpp:214
+#: knewstuff/knewstuff3/uploaddialog.cpp:220
 msgid "Please put in a name."
 msgstr "పేరు వ్రాయండి."
 
@@ -5151,7 +5149,7 @@ msgid "<p>No Downloads</p>"
 msgstr "డౌనులోడ్లు లేవు"
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:150
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:180
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:166
 #, fuzzy, kde-format
 #| msgid "Downloads: %1"
 msgid "<p>Downloads: %1</p>\n"
@@ -5164,12 +5162,12 @@ msgid "Rating: %1"
 msgstr "రేటింగు: "
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:254
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:291
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:265
 msgid "No Preview"
 msgstr "ముందస్తు వీక్షణం లేదు"
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:264
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:301
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:275
 msgid "Loading Preview"
 msgstr "ముందస్తు వీక్షణం లోడుచేస్తోంది"
 
@@ -5279,60 +5277,60 @@ msgstr "(&R) ప్రతిస్థాపించుము..."
 msgid "Fetching provider information..."
 msgstr "సిద్దంచేసేవారి సమాచారం"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:209
+#: knewstuff/knewstuff3/uploaddialog.cpp:215
 #, fuzzy
 #| msgid "The rating could not be submitted."
 msgid "Provider could not be initialized."
 msgstr "రేటింగ్ అందించ లేకపోయాను."
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:221
+#: knewstuff/knewstuff3/uploaddialog.cpp:227
 msgid "Creating Content on Server..."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:262
+#: knewstuff/knewstuff3/uploaddialog.cpp:268
 msgid "There was a network error."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:262
-#: knewstuff/knewstuff3/uploaddialog.cpp:267
+#: knewstuff/knewstuff3/uploaddialog.cpp:268
+#: knewstuff/knewstuff3/uploaddialog.cpp:273
 #, fuzzy
 #| msgid "Download"
 msgid "Uploading Failed"
 msgstr "డౌన్ లోడ్"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:267
+#: knewstuff/knewstuff3/uploaddialog.cpp:273
 #, fuzzy
 #| msgid "Communication error"
 msgid "Authentication error."
 msgstr "సంప్రదింపు దోషము"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:273
+#: knewstuff/knewstuff3/uploaddialog.cpp:279
 #, fuzzy
 #| msgid "Loading Preview"
 msgid "Uploading preview and content..."
 msgstr "ముందస్తు వీక్షణం లోడుచేస్తోంది"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:282
+#: knewstuff/knewstuff3/uploaddialog.cpp:288
 msgid "Uploading content..."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:286
+#: knewstuff/knewstuff3/uploaddialog.cpp:292
 #, fuzzy
 #| msgid "Loading Preview"
 msgid "Uploading preview image and content..."
 msgstr "ముందస్తు వీక్షణం లోడుచేస్తోంది"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:295
+#: knewstuff/knewstuff3/uploaddialog.cpp:301
 #, fuzzy, kde-format
 #| msgid "File %1 not found."
 msgid "File not found: %1"
 msgstr "%1 దస్త్రం కనపడలేదు"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:319
+#: knewstuff/knewstuff3/uploaddialog.cpp:325
 msgid "Content Added"
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:319
+#: knewstuff/knewstuff3/uploaddialog.cpp:325
 #, fuzzy
 #| msgid "Page loaded."
 msgid "File Uploaded"
@@ -5370,8 +5368,8 @@ msgstr "హొమ్ పేజ్"
 msgid "Loading preview..."
 msgstr "ముందస్తు వీక్షణం లోడుచేస్తోంది"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:166
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:168
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:152
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:154
 #, fuzzy, kde-format
 #| msgctxt "@interface/rich"
 #| msgid "<i>%1</i>"
@@ -5379,31 +5377,31 @@ msgctxt "Show the author of this item in a list"
 msgid "By <i>%1</i>"
 msgstr "<i>%1</i>"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:224
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:198
 #, fuzzy
 #| msgid "Install"
 msgid "Install again"
 msgstr "స్థాపించు"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:228
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:202
 #, fuzzy
 #| msgid "Install"
 msgid "Installing"
 msgstr "స్థాపించు"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:233
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:207
 #, fuzzy
 #| msgid "Update"
 msgid "Updating"
 msgstr "కొత్త మార్పులు"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:245
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:219
 #, fuzzy
 #| msgid "Details"
 msgid "Details..."
 msgstr "వివరములు"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:252
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:226
 #, fuzzy, kde-format
 #| msgid "Rating: "
 msgid "Rating: %1%"
