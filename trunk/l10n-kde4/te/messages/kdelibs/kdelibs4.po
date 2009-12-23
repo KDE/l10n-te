@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-22 06:04+0100\n"
+"POT-Creation-Date: 2009-12-23 06:31+0100\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -404,7 +404,7 @@ msgstr ""
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:65
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:201
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:209
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:212
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:238
 msgid "Install"
 msgstr "స్థాపించు"
 
@@ -412,7 +412,7 @@ msgstr "స్థాపించు"
 #. i18n: ectx: property (text), widget (QPushButton, updateButton)
 #: rc.cpp:176 knewstuff/knewstuff2/ui/kdxsbutton.cpp:138
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:192
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:194
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:218
 msgid "Update"
 msgstr "కొత్త మార్పులు"
 
@@ -423,7 +423,7 @@ msgstr "కొత్త మార్పులు"
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:534
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:66
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:186
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:190
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:213
 msgid "Uninstall"
 msgstr "తొలగించు"
 
@@ -5149,7 +5149,7 @@ msgid "<p>No Downloads</p>"
 msgstr "డౌనులోడ్లు లేవు"
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:150
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:166
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:189
 #, fuzzy, kde-format
 #| msgid "Downloads: %1"
 msgid "<p>Downloads: %1</p>\n"
@@ -5162,12 +5162,12 @@ msgid "Rating: %1"
 msgstr "రేటింగు: "
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:254
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:265
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:291
 msgid "No Preview"
 msgstr "ముందస్తు వీక్షణం లేదు"
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:264
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:275
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:301
 msgid "Loading Preview"
 msgstr "ముందస్తు వీక్షణం లోడుచేస్తోంది"
 
@@ -5368,8 +5368,8 @@ msgstr "హొమ్ పేజ్"
 msgid "Loading preview..."
 msgstr "ముందస్తు వీక్షణం లోడుచేస్తోంది"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:152
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:154
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:175
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:177
 #, fuzzy, kde-format
 #| msgctxt "@interface/rich"
 #| msgid "<i>%1</i>"
@@ -5377,31 +5377,31 @@ msgctxt "Show the author of this item in a list"
 msgid "By <i>%1</i>"
 msgstr "<i>%1</i>"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:198
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:223
 #, fuzzy
 #| msgid "Install"
 msgid "Install again"
 msgstr "స్థాపించు"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:202
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:228
 #, fuzzy
 #| msgid "Install"
 msgid "Installing"
 msgstr "స్థాపించు"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:207
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:233
 #, fuzzy
 #| msgid "Update"
 msgid "Updating"
 msgstr "కొత్త మార్పులు"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:219
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:246
 #, fuzzy
 #| msgid "Details"
 msgid "Details..."
 msgstr "వివరములు"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:226
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:253
 #, fuzzy, kde-format
 #| msgid "Rating: "
 msgid "Rating: %1%"
