@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-14 06:44+0100\n"
+"POT-Creation-Date: 2010-01-02 05:57+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -797,7 +797,10 @@ msgstr ""
 msgid "Snap Zones"
 msgstr "స్నాప్ జోన్స్"
 
-#: windows.cpp:886 windows.cpp:900 windows.cpp:914
+#: windows.cpp:886
+#, fuzzy
+#| msgid "none"
+msgctxt "no border snap zone"
 msgid "none"
 msgstr "ఏదీకాదు"
 
@@ -812,6 +815,13 @@ msgstr ""
 msgid "&Border snap zone:"
 msgstr "(&B) సరిహద్దు స్నాప్ జోన్:"
 
+#: windows.cpp:900
+#, fuzzy
+#| msgid "none"
+msgctxt "no window snap zone"
+msgid "none"
+msgstr "ఏదీకాదు"
+
 #: windows.cpp:903
 msgid ""
 "Here you can set the snap zone for windows, i.e. the 'strength' of the "
@@ -822,6 +832,13 @@ msgstr ""
 #: windows.cpp:907
 msgid "&Window snap zone:"
 msgstr "(&W) విండో స్నాప్ జోన్:"
+
+#: windows.cpp:914
+#, fuzzy
+#| msgid "none"
+msgctxt "no center snap zone"
+msgid "none"
+msgstr "ఏదీకాదు"
 
 #: windows.cpp:917
 msgid ""

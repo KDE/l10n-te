@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmfonts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-30 06:29+0200\n"
+"POT-Creation-Date: 2010-01-02 05:57+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -75,34 +75,58 @@ msgid ""
 msgstr ""
 
 #: fonts.cpp:501
+#, fuzzy
+#| msgid "General"
+msgctxt "font usage"
 msgid "General"
 msgstr "సాధారణ"
 
 #: fonts.cpp:502
+#, fuzzy
+#| msgid "Fixed width"
+msgctxt "font usage"
 msgid "Fixed width"
 msgstr "నిర్ధిష్ట వెడల్పు"
 
 #: fonts.cpp:503
+#, fuzzy
+#| msgid "Small"
+msgctxt "font usage"
 msgid "Small"
 msgstr "చిన్న"
 
 #: fonts.cpp:504
+#, fuzzy
+#| msgid "Toolbar"
+msgctxt "font usage"
 msgid "Toolbar"
 msgstr "పనిముట్టుపట్టీ"
 
 #: fonts.cpp:505
+#, fuzzy
+#| msgid "Menu"
+msgctxt "font usage"
 msgid "Menu"
 msgstr "మెనూ"
 
 #: fonts.cpp:506
+#, fuzzy
+#| msgid "Window title"
+msgctxt "font usage"
 msgid "Window title"
 msgstr "విండో శీర్షిక"
 
 #: fonts.cpp:507
+#, fuzzy
+#| msgid "Taskbar"
+msgctxt "font usage"
 msgid "Taskbar"
 msgstr "కర్తవ్యపట్టీ"
 
 #: fonts.cpp:508
+#, fuzzy
+#| msgid "Desktop"
+msgctxt "font usage"
 msgid "Desktop"
 msgstr "రంగస్ఠలం"
 
@@ -226,7 +250,10 @@ msgid ""
 "<p>Some changes such as DPI will only affect newly started applications.</p>"
 msgstr "<p>DPI వంటి కొన్ని మార్పులు కొత్తగా ప్రారంభించిన అనువర్తనములను మాత్రమే ప్రభావితం చేస్తాయి.</p>"
 
-#: kxftconfig.cpp:456 kxftconfig.cpp:496
+#: kxftconfig.cpp:456
+#, fuzzy
+#| msgid "None"
+msgctxt "no subpixel rendering"
 msgid "None"
 msgstr "ఏదీకాదు"
 
@@ -249,6 +276,13 @@ msgstr "వెర్టికల్ BGR"
 #: kxftconfig.cpp:492
 msgid "Medium"
 msgstr "మీడియం"
+
+#: kxftconfig.cpp:496
+#, fuzzy
+#| msgid "None"
+msgctxt "no hinting"
+msgid "None"
+msgstr "ఏదీకాదు"
 
 #: kxftconfig.cpp:498
 msgid "Slight"
