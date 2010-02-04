@@ -1,0 +1,961 @@
+# translation of kinfocenter.po to Telugu
+#
+# విజయ్ కిరణ్ కముజు <infyquest@gmail.com>>, 2007.
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kinfocenter\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-11-21 06:19+0100\n"
+"PO-Revision-Date: 2009-01-16 22:16+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: base/info_aix.cpp:54
+msgid "Name"
+msgstr "పేరు"
+
+#: base/info_aix.cpp:55
+msgid "Status"
+msgstr "స్థితి"
+
+#: base/info_aix.cpp:56
+msgid "Location"
+msgstr "స్థానం"
+
+#: base/info_aix.cpp:57 base/info_fbsd.cpp:305
+msgid "Description"
+msgstr "వర్ణన"
+
+#: base/info_aix.cpp:177 base/info_hpux.cpp:163 base/info_hpux.cpp:438
+#: base/info_linux.cpp:113 base/info_netbsd.cpp:53 base/info_openbsd.cpp:49
+#: base/os_base.h:203
+msgid "Information"
+msgstr "సమాచారం"
+
+#: base/info_aix.cpp:178 base/info_hpux.cpp:164 base/info_hpux.cpp:439
+#: base/info_linux.cpp:113 base/info_netbsd.cpp:53 base/info_openbsd.cpp:49
+#: base/info_solaris.cpp:697 base/os_base.h:203
+msgid "Value"
+msgstr "విలువ"
+
+#: base/info_aix.cpp:307
+#, fuzzy
+#| msgid "MB"
+msgctxt "Mebibyte"
+msgid "MiB "
+msgstr "ఎంబి"
+
+#: base/info_aix.cpp:312 base/info_fbsd.cpp:277 base/info_fbsd.cpp:305
+#: base/info_hpux.cpp:361 base/info_linux.cpp:476 base/info_netbsd.cpp:161
+#: base/info_netbsd.cpp:273 base/info_openbsd.cpp:172
+#: base/info_openbsd.cpp:267 base/info_solaris.cpp:174
+msgid "Device"
+msgstr "పరికరం"
+
+#: base/info_aix.cpp:313 base/info_fbsd.cpp:277 base/info_hpux.cpp:362
+#: base/info_linux.cpp:476 base/info_netbsd.cpp:273 base/info_openbsd.cpp:267
+#: base/info_solaris.cpp:174
+msgid "Mount Point"
+msgstr "మౌంటు పాయింట్"
+
+#: base/info_aix.cpp:314 base/info_fbsd.cpp:277 base/info_hpux.cpp:363
+#: base/info_linux.cpp:476 base/info_netbsd.cpp:273 base/info_openbsd.cpp:267
+#: base/info_solaris.cpp:174
+msgid "FS Type"
+msgstr "ఎఫ్ ఎస్ రకం"
+
+#: base/info_aix.cpp:315 base/info_hpux.cpp:364 base/info_linux.cpp:476
+#: base/info_netbsd.cpp:273 base/info_solaris.cpp:174
+msgid "Total Size"
+msgstr "మొత్తం పరిమాణం"
+
+#: base/info_aix.cpp:316 base/info_hpux.cpp:365 base/info_linux.cpp:476
+#: base/info_netbsd.cpp:273 base/info_solaris.cpp:174
+msgid "Free Size"
+msgstr "ఖాళీ పరిమాణము"
+
+#: base/info_aix.cpp:334 base/info_aix.cpp:340 base/info_hpux.cpp:383
+#: base/info_hpux.cpp:389
+msgid "n/a"
+msgstr ""
+
+#: base/info_fbsd.cpp:81
+#, kde-format
+msgid "CPU %1: %2, %3 MHz"
+msgstr "సిపియు %1: %2, %3 ఎం హె"
+
+#: base/info_fbsd.cpp:83
+#, kde-format
+msgid "CPU %1: %2, unknown speed"
+msgstr "సిపియు %1: %2, తెలియని వేగం"
+
+#: base/info_fbsd.cpp:145
+msgid ""
+"Your sound system could not be queried.  /dev/sndstat does not exist or is "
+"not readable."
+msgstr ""
+
+#: base/info_fbsd.cpp:173
+msgid ""
+"SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
+msgstr ""
+
+#: base/info_fbsd.cpp:178
+msgid ""
+"SCSI subsystem could not be queried: /sbin/camcontrol could not be executed"
+msgstr ""
+
+#: base/info_fbsd.cpp:226
+msgid ""
+"Could not find any programs with which to query your system's PCI information"
+msgstr ""
+
+#: base/info_fbsd.cpp:243
+#, kde-format
+msgid "PCI subsystem could not be queried: %1 could not be executed"
+msgstr ""
+
+#: base/info_fbsd.cpp:255
+msgid "The PCI subsystem could not be queried, this may need root privileges."
+msgstr ""
+
+#: base/info_fbsd.cpp:270
+msgid "Could not check file system info: "
+msgstr ""
+
+#: base/info_fbsd.cpp:277 base/info_linux.cpp:476 base/info_openbsd.cpp:267
+#: base/info_solaris.cpp:174
+msgid "Mount Options"
+msgstr ""
+
+#: base/info_hpux.cpp:129
+msgid "PA-RISC Processor"
+msgstr ""
+
+#: base/info_hpux.cpp:131
+msgid "PA-RISC Revision"
+msgstr ""
+
+#: base/info_hpux.cpp:168
+msgid "Machine"
+msgstr "యంత్రం"
+
+#: base/info_hpux.cpp:175
+msgid "Model"
+msgstr ""
+
+#: base/info_hpux.cpp:182
+msgid "Machine Identification Number"
+msgstr ""
+
+#: base/info_hpux.cpp:183 base/info_solaris.cpp:619
+msgid "(none)"
+msgstr ""
+
+#: base/info_hpux.cpp:188
+msgid "Number of Active Processors"
+msgstr ""
+
+#: base/info_hpux.cpp:192
+msgid "CPU Clock"
+msgstr "సిపియు గడియారం"
+
+#: base/info_hpux.cpp:193 base/info_solaris.cpp:69
+msgid "MHz"
+msgstr "ఎం హె"
+
+#: base/info_hpux.cpp:226
+msgid "(unknown)"
+msgstr "(తెలియని)"
+
+#: base/info_hpux.cpp:230
+msgid "CPU Architecture"
+msgstr ""
+
+#: base/info_hpux.cpp:236
+msgid "enabled"
+msgstr ""
+
+#: base/info_hpux.cpp:236
+msgid "disabled"
+msgstr ""
+
+#: base/info_hpux.cpp:238
+msgid "Numerical Coprocessor (FPU)"
+msgstr ""
+
+#: base/info_hpux.cpp:242 base/info_linux.cpp:334 base/info_linux.cpp:445
+#, fuzzy
+#| msgid "MB"
+msgctxt "Mebibyte"
+msgid "MiB"
+msgstr "ఎంబి"
+
+#: base/info_hpux.cpp:243
+msgid "Total Physical Memory"
+msgstr ""
+
+#: base/info_hpux.cpp:245
+#, fuzzy
+#| msgid "Bytes"
+msgid " Bytes"
+msgstr "బైట్లు"
+
+#: base/info_hpux.cpp:246
+msgid "Size of One Page"
+msgstr ""
+
+#: base/info_hpux.cpp:356
+msgid "MB"
+msgstr "ఎంబి"
+
+#: base/info_hpux.cpp:441
+msgid "Audio Name"
+msgstr ""
+
+#: base/info_hpux.cpp:442
+msgid "Vendor"
+msgstr "అమ్మకందారి (వెండార్)"
+
+#: base/info_hpux.cpp:443
+msgid "Alib Version"
+msgstr ""
+
+#: base/info_hpux.cpp:447
+msgid "Protocol Revision"
+msgstr ""
+
+#: base/info_hpux.cpp:451
+msgid "Vendor Number"
+msgstr ""
+
+#: base/info_hpux.cpp:454
+msgid "Release"
+msgstr "విడుదల"
+
+#: base/info_hpux.cpp:457
+msgid "Byte Order"
+msgstr ""
+
+#: base/info_hpux.cpp:458
+msgid "ALSBFirst (LSB)"
+msgstr ""
+
+#: base/info_hpux.cpp:459
+msgid "AMSBFirst (MSB)"
+msgstr ""
+
+#: base/info_hpux.cpp:460
+msgid "Invalid Byteorder."
+msgstr ""
+
+#: base/info_hpux.cpp:462
+msgid "Bit Order"
+msgstr ""
+
+#: base/info_hpux.cpp:464
+msgid "ALeastSignificant (LSB)"
+msgstr ""
+
+#: base/info_hpux.cpp:466
+msgid "AMostSignificant (MSB)"
+msgstr ""
+
+#: base/info_hpux.cpp:466
+msgid "Invalid Bitorder."
+msgstr ""
+
+#: base/info_hpux.cpp:468
+msgid "Data Formats"
+msgstr ""
+
+#: base/info_hpux.cpp:475
+msgid "Sampling Rates"
+msgstr ""
+
+#: base/info_hpux.cpp:481
+msgid "Input Sources"
+msgstr ""
+
+#: base/info_hpux.cpp:483
+msgid "Mono-Microphone"
+msgstr ""
+
+#: base/info_hpux.cpp:485
+msgid "Mono-Auxiliary"
+msgstr ""
+
+#: base/info_hpux.cpp:487
+msgid "Left-Microphone"
+msgstr ""
+
+#: base/info_hpux.cpp:489
+msgid "Right-Microphone"
+msgstr ""
+
+#: base/info_hpux.cpp:491
+msgid "Left-Auxiliary"
+msgstr ""
+
+#: base/info_hpux.cpp:493
+msgid "Right-Auxiliary"
+msgstr ""
+
+#: base/info_hpux.cpp:496
+msgid "Input Channels"
+msgstr ""
+
+#: base/info_hpux.cpp:498 base/info_hpux.cpp:522
+msgid "Mono-Channel"
+msgstr ""
+
+#: base/info_hpux.cpp:500 base/info_hpux.cpp:524
+msgid "Left-Channel"
+msgstr ""
+
+#: base/info_hpux.cpp:502 base/info_hpux.cpp:526
+msgid "Right-Channel"
+msgstr ""
+
+#: base/info_hpux.cpp:505
+msgid "Output Destinations"
+msgstr ""
+
+#: base/info_hpux.cpp:507
+msgid "Mono-InternalSpeaker"
+msgstr ""
+
+#: base/info_hpux.cpp:509
+msgid "Mono-Jack"
+msgstr ""
+
+#: base/info_hpux.cpp:511
+msgid "Left-InternalSpeaker"
+msgstr ""
+
+#: base/info_hpux.cpp:513
+msgid "Right-InternalSpeaker"
+msgstr ""
+
+#: base/info_hpux.cpp:515
+msgid "Left-Jack"
+msgstr ""
+
+#: base/info_hpux.cpp:517
+msgid "Right-Jack"
+msgstr ""
+
+#: base/info_hpux.cpp:520
+msgid "Output Channels"
+msgstr ""
+
+#: base/info_hpux.cpp:529
+msgid "Gain"
+msgstr ""
+
+#: base/info_hpux.cpp:530
+msgid "Input Gain Limits"
+msgstr ""
+
+#: base/info_hpux.cpp:532
+msgid "Output Gain Limits"
+msgstr ""
+
+#: base/info_hpux.cpp:535
+msgid "Monitor Gain Limits"
+msgstr ""
+
+#: base/info_hpux.cpp:538
+msgid "Gain Restricted"
+msgstr ""
+
+#: base/info_hpux.cpp:542
+msgid "Lock"
+msgstr ""
+
+#: base/info_hpux.cpp:544
+msgid "Queue Length"
+msgstr ""
+
+#: base/info_hpux.cpp:546
+msgid "Block Size"
+msgstr "బ్లాక్ పరిమాణం"
+
+#: base/info_hpux.cpp:548
+msgid "Stream Port (decimal)"
+msgstr ""
+
+#: base/info_linux.cpp:130
+msgid "DMA-Channel"
+msgstr "DMA-చానల్"
+
+#: base/info_linux.cpp:130 base/info_linux.cpp:181
+msgid "Used By"
+msgstr ""
+
+#: base/info_linux.cpp:181
+msgid "I/O-Range"
+msgstr ""
+
+#: base/info_linux.cpp:206
+msgid "Devices"
+msgstr "పరికరాలు"
+
+#: base/info_linux.cpp:206
+msgid "Major Number"
+msgstr ""
+
+#: base/info_linux.cpp:206
+msgid "Minor Number"
+msgstr ""
+
+#: base/info_linux.cpp:220
+msgid "Character Devices"
+msgstr ""
+
+#: base/info_linux.cpp:227
+msgid "Block Devices"
+msgstr ""
+
+#: base/info_linux.cpp:262
+msgid "Miscellaneous Devices"
+msgstr ""
+
+#: base/info_netbsd.cpp:161 base/info_openbsd.cpp:172
+msgid "IRQ"
+msgstr "ఐ ఆర్ క్యూ"
+
+#: base/info_netbsd.cpp:179 base/info_openbsd.cpp:185
+msgid "No PCI devices found."
+msgstr ""
+
+#: base/info_netbsd.cpp:188 base/info_openbsd.cpp:194
+msgid "No I/O port devices found."
+msgstr ""
+
+#: base/info_netbsd.cpp:199 base/info_openbsd.cpp:203
+msgid "No audio devices found."
+msgstr ""
+
+#: base/info_netbsd.cpp:237 base/info_openbsd.cpp:247
+msgid "No SCSI devices found."
+msgstr ""
+
+#: base/info_netbsd.cpp:273
+msgid "Total Nodes"
+msgstr ""
+
+#: base/info_netbsd.cpp:273
+msgid "Free Nodes"
+msgstr ""
+
+#: base/info_netbsd.cpp:273
+msgid "Flags"
+msgstr ""
+
+#: base/info_openbsd.cpp:261
+msgid "Unable to run /sbin/mount."
+msgstr ""
+
+#: base/info_osx.cpp:121
+#, fuzzy
+#| msgid "Device Name: %1"
+msgid "Device Name"
+msgstr "పరికరం పేరు: %1"
+
+#: base/info_osx.cpp:131
+#, fuzzy
+#| msgid "Manufacturer: %1"
+msgid "Manufacturer"
+msgstr "తయారిదారు: %1"
+
+#: base/info_solaris.cpp:69
+msgid "Instance"
+msgstr ""
+
+#: base/info_solaris.cpp:69
+msgid "CPU Type"
+msgstr "సిపియు రకం"
+
+#: base/info_solaris.cpp:69
+msgid "FPU Type"
+msgstr "ఎఫ్ పి యు రకం"
+
+#: base/info_solaris.cpp:69
+msgid "State"
+msgstr "స్థితి"
+
+#: base/info_solaris.cpp:174
+msgid "Mount Time"
+msgstr ""
+
+#: base/info_solaris.cpp:444
+msgid "character special"
+msgstr ""
+
+#: base/info_solaris.cpp:446
+msgid "block special"
+msgstr ""
+
+#: base/info_solaris.cpp:449
+msgctxt "Can be either character special or block special"
+msgid "Special type:"
+msgstr ""
+
+#: base/info_solaris.cpp:462
+msgid "Nodetype:"
+msgstr ""
+
+#: base/info_solaris.cpp:469
+msgid "Major/Minor:"
+msgstr ""
+
+#: base/info_solaris.cpp:540
+msgid "(no value)"
+msgstr "(విలువ లేదు)"
+
+#: base/info_solaris.cpp:605
+msgid "Driver Name:"
+msgstr "డ్రైవర్ పేరు:"
+
+#: base/info_solaris.cpp:607
+msgid "(driver not attached)"
+msgstr ""
+
+#: base/info_solaris.cpp:614
+msgid "Binding Name:"
+msgstr ""
+
+#: base/info_solaris.cpp:629
+msgid "Compatible Names:"
+msgstr ""
+
+#: base/info_solaris.cpp:633
+msgid "Physical Path:"
+msgstr ""
+
+#: base/info_solaris.cpp:643
+msgid "Properties"
+msgstr "గుణాలు"
+
+#: base/info_solaris.cpp:657
+msgid "Type:"
+msgstr "రకం:"
+
+#: base/info_solaris.cpp:661
+msgid "Value:"
+msgstr "విలువ:"
+
+#: base/info_solaris.cpp:672
+msgid "Minor Nodes"
+msgstr ""
+
+#: base/info_solaris.cpp:697
+msgid "Device Information"
+msgstr "పరికర సమాచారం"
+
+#: base/os_base.h:36
+msgid "LSBFirst"
+msgstr ""
+
+#: base/os_base.h:38
+msgid "MSBFirst"
+msgstr ""
+
+#: base/os_base.h:40
+#, kde-format
+msgid "Unknown Order %1"
+msgstr ""
+
+#: base/os_base.h:44
+#, kde-format
+msgid "1 Bit"
+msgid_plural "%1 Bits"
+msgstr[0] ""
+msgstr[1] ""
+
+#: base/os_base.h:50
+#, fuzzy
+#| msgid "Bytes"
+msgctxt "singular form: '1 Byte' (yes, it is '1', not '%1'!)"
+msgid "1 Byte"
+msgstr "బైట్లు"
+
+#: base/os_base.h:52
+#, fuzzy, kde-format
+#| msgid "Bytes"
+msgctxt "plural form: '%1 Bytes'"
+msgid "%1 Bytes"
+msgstr "బైట్లు"
+
+#: base/os_base.h:90
+#, kde-format
+msgid "Screen # %1"
+msgstr ""
+
+#: base/os_base.h:92
+msgid "(Default Screen)"
+msgstr ""
+
+#: base/os_base.h:101
+msgid "Dimensions"
+msgstr ""
+
+#: base/os_base.h:101
+#, kde-format
+msgid "%1 x %2 Pixels (%3 x %4 mm)"
+msgstr ""
+
+#: base/os_base.h:105
+msgid "Resolution"
+msgstr ""
+
+#: base/os_base.h:105
+#, kde-format
+msgid "%1 x %2 dpi"
+msgstr ""
+
+#: base/os_base.h:122
+#, kde-format
+msgid "Depths (%1)"
+msgstr ""
+
+#: base/os_base.h:128
+msgid "Root Window ID"
+msgstr ""
+
+#: base/os_base.h:132
+msgid "Depth of Root Window"
+msgstr ""
+
+#: base/os_base.h:132
+#, kde-format
+msgid "%1 plane"
+msgid_plural "%1 planes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: base/os_base.h:136
+msgid "Number of Colormaps"
+msgstr ""
+
+#: base/os_base.h:136
+#, kde-format
+msgid "minimum %1, maximum %2"
+msgstr ""
+
+#: base/os_base.h:140
+msgid "Default Colormap"
+msgstr ""
+
+#: base/os_base.h:144
+msgid "Default Number of Colormap Cells"
+msgstr ""
+
+#: base/os_base.h:148
+msgid "Preallocated Pixels"
+msgstr ""
+
+#: base/os_base.h:148
+#, kde-format
+msgid "Black %1, White %2"
+msgstr ""
+
+#: base/os_base.h:151
+msgid "Yes"
+msgstr ""
+
+#: base/os_base.h:152
+msgid "No"
+msgstr ""
+
+#: base/os_base.h:155
+msgid "Options"
+msgstr ""
+
+#: base/os_base.h:155
+msgid "When mapped"
+msgstr ""
+
+#: base/os_base.h:155
+#, kde-format
+msgid "backing-store: %1, save-unders: %2"
+msgstr ""
+
+#: base/os_base.h:161
+msgid "Largest Cursor"
+msgstr ""
+
+#: base/os_base.h:163
+msgid "unlimited"
+msgstr ""
+
+#: base/os_base.h:169
+msgid "Current Input Event Mask"
+msgstr ""
+
+#: base/os_base.h:175
+#, kde-format
+msgid "Event = %1"
+msgstr ""
+
+#: base/os_base.h:208
+#, fuzzy
+#| msgid "Device Information"
+msgid "Server Information"
+msgstr "పరికర సమాచారం"
+
+#: base/os_base.h:214
+msgid "Name of the Display"
+msgstr ""
+
+#: base/os_base.h:218
+#, fuzzy
+#| msgid "Vendor"
+msgid "Vendor String"
+msgstr "అమ్మకందారి (వెండార్)"
+
+#: base/os_base.h:222
+msgid "Vendor Release Number"
+msgstr ""
+
+#: base/os_base.h:226
+msgid "Version Number"
+msgstr ""
+
+#: base/os_base.h:230
+msgid "Available Screens"
+msgstr ""
+
+#: base/os_base.h:240
+msgid "Supported Extensions"
+msgstr ""
+
+#: base/os_base.h:255
+msgid "Supported Pixmap Formats"
+msgstr ""
+
+#: base/os_base.h:262
+#, kde-format
+msgid "Pixmap Format #%1"
+msgstr ""
+
+#: base/os_base.h:262
+#, kde-format
+msgid "%1 BPP, Depth: %2, Scanline padding: %3"
+msgstr ""
+
+#: base/os_base.h:274
+msgid "Maximum Request Size"
+msgstr ""
+
+#: base/os_base.h:278
+msgid "Motion Buffer Size"
+msgstr ""
+
+#: base/os_base.h:282
+msgid "Bitmap"
+msgstr ""
+
+#: base/os_base.h:286
+msgid "Unit"
+msgstr ""
+
+#: base/os_base.h:290
+msgid "Order"
+msgstr ""
+
+#: base/os_base.h:294
+msgid "Padding"
+msgstr ""
+
+#: base/os_base.h:298
+msgid "Image Byte Order"
+msgstr ""
+
+#: base/os_current.h:49 base/os_current.h:64 base/os_current.h:95
+#: base/os_current.h:109 base/os_current.h:123 base/os_current.h:137
+#: base/os_current.h:152 base/os_current.h:166 base/os_current.h:180
+msgid "This system may not be completely supported yet."
+msgstr ""
+
+#: aboutwidget.cpp:38 main.cpp:91
+msgid "KDE Info Center"
+msgstr "కెడిఈ సహాయ కేంద్రం"
+
+#: aboutwidget.cpp:40
+msgid "Get system and desktop environment information"
+msgstr ""
+
+#: aboutwidget.cpp:42
+msgid ""
+"Welcome to the \"KDE Info Center\", a central place to find information "
+"about your computer system."
+msgstr ""
+
+#: aboutwidget.cpp:46
+msgid ""
+"Click on the \"Help\" tab on the left to view help for the active control "
+"module. Use the \"Search\" tab if you are unsure where to look for a "
+"particular configuration option."
+msgstr ""
+
+#: aboutwidget.cpp:52
+msgid "KDE version:"
+msgstr "కెడిఈ వివరణం:"
+
+#: aboutwidget.cpp:53
+msgid "User:"
+msgstr "యూజర్:"
+
+#: aboutwidget.cpp:54
+msgid "Hostname:"
+msgstr "హోస్ట్ పేరు:"
+
+#: aboutwidget.cpp:55
+msgid "System:"
+msgstr "వ్యవస్థ:"
+
+#: aboutwidget.cpp:56
+msgid "Release:"
+msgstr "విడుదల:"
+
+#: aboutwidget.cpp:57
+msgid "Machine:"
+msgstr "యంత్రం:"
+
+#: dockcontainer.cpp:69
+#, kde-format
+msgid "<p>Click here to consult the full <a href=\"%1\">Manual</a>.</p>"
+msgstr ""
+
+#: dockcontainer.cpp:74
+msgid ""
+"<h1>KDE Info Center</h1>There is no quick help available for the active info "
+"module.<br /><br />Click <a href = \"kinfocenter/index.html\">here</a> to "
+"read the general Info Center manual."
+msgstr ""
+
+#: dockcontainer.cpp:91
+msgid "<big><b>Loading...</b></big>"
+msgstr "<big><b>ఎక్కిస్తున్నా...</b></big>"
+
+#: dockcontainer.cpp:147
+msgid ""
+"There are unsaved changes in the active module.\n"
+"Do you want to apply the changes before running the new module or discard "
+"the changes?"
+msgstr ""
+
+#: dockcontainer.cpp:149
+msgid ""
+"There are unsaved changes in the active module.\n"
+"Do you want to apply the changes before exiting the System Settings or "
+"discard the changes?"
+msgstr ""
+
+#: dockcontainer.cpp:151
+msgid "Unsaved Changes"
+msgstr "దాచని మార్పులు"
+
+#: indexwidget.cpp:45
+msgid "Filter:"
+msgstr "గలని:"
+
+#: main.cpp:92
+msgid "The KDE Info Center"
+msgstr "కెడిఈ సమాచార కేంద్రం"
+
+#: main.cpp:93
+msgid "(c) 1998-2004, The KDE Control Center Developers"
+msgstr "(c) 1998-2004, కెడిఈ నియంత్రణ కేంద్రం వికాసకులు"
+
+#: main.cpp:98
+msgid "Nicolas Ternisien"
+msgstr "నికొలాస్ టెర్నిసియన్"
+
+#: main.cpp:98
+msgid "Current Maintainer"
+msgstr "ప్రస్తుత సంరక్షకుడు"
+
+#: main.cpp:99
+msgid "Helge Deller"
+msgstr "హెల్గె డెల్లర్"
+
+#: main.cpp:99
+msgid "Previous Maintainer"
+msgstr "ముందటి సంరక్షకుడు"
+
+#: main.cpp:100
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "మథయాస్ హొయెల్జర్-క్లూప్ఫెల్"
+
+#: main.cpp:101
+msgid "Matthias Elter"
+msgstr "మథయాస్ ఎల్టర్"
+
+#: main.cpp:102
+msgid "Matthias Ettrich"
+msgstr "మథయాస్ ఎట్ట్రిచ్"
+
+#: main.cpp:103
+msgid "Waldo Bastian"
+msgstr "వాల్డొ బాస్టియన్"
+
+#: moduletreeview.cpp:43 toplevel.cpp:221
+msgid "General Information"
+msgstr "సాధారణ సమాచారం"
+
+#: proxywidget.cpp:51
+msgid "The currently loaded configuration module."
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "విజయ్ కిరణ్ కముజు"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "infyquest@gmail.com"
+
+#: toplevel.cpp:119 toplevel.cpp:150 toplevel.cpp:217
+msgid "About Current Module"
+msgstr "ప్రస్తుత మాడ్యూల్ గురించి"
+
+#: toplevel.cpp:126 toplevel.cpp:158 toplevel.cpp:223
+msgid "&Report Bug..."
+msgstr "(&R) తప్పును తెలీయచెయండి..."
+
+#: toplevel.cpp:146
+#, kde-format
+msgctxt "Help menu->about <modulename>"
+msgid "About %1"
+msgstr "%1 గురించి"
+
+#: toplevel.cpp:160
+#, kde-format
+msgid "Report Bug on Module %1..."
+msgstr "%1 మాడ్యూల్ లొ తప్పును తెలీయచెయండి..."
+
+#, fuzzy
+#~| msgid "MB"
+#~ msgid " MB"
+#~ msgstr "ఎంబి"
+
+#~ msgid "CPU %1: %2"
+#~ msgstr "సిపియు %1: %2"
