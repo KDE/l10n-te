@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwindecoration\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-02 05:57+0100\n"
+"POT-Creation-Date: 2010-02-05 02:26+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,161 +25,131 @@ msgstr ""
 "\n"
 "\n"
 
-#: buttons.cpp:610
+#: auroraepreview.cpp:317 preview.cpp:383
+msgid "Active Window"
+msgstr "క్రియాశీల విండో"
+
+#: auroraepreview.cpp:320 preview.cpp:383
+msgid "Inactive Window"
+msgstr "క్రియాహీన విండో"
+
+#: buttonsconfigdialog.cpp:44
+msgid "Buttons"
+msgstr "బటన్లు"
+
+#: buttons.cpp:613
 msgid "KDE"
 msgstr "KDE"
 
-#: buttons.cpp:640
+#: buttons.cpp:643
 #, kde-format
 msgid "%1 (unavailable)"
 msgstr "%1 (అందుబాటులోలేని)"
 
-#: buttons.cpp:663
+#: buttons.cpp:666
 msgid ""
 "To add or remove titlebar buttons, simply <i>drag</i> items between the "
 "available item list and the titlebar preview. Similarly, drag items within "
 "the titlebar preview to re-position them."
 msgstr ""
 
-#: buttons.cpp:759
+#: buttons.cpp:708
 msgid "Resize"
 msgstr "పునఃపరిమాణము"
 
-#: buttons.cpp:763
+#: buttons.cpp:712
 msgid "Shade"
 msgstr "ఛాయ(షేడ్)"
 
-#: buttons.cpp:767
+#: buttons.cpp:716
 msgid "Keep Below Others"
 msgstr ""
 
-#: buttons.cpp:771
+#: buttons.cpp:720
 msgid "Keep Above Others"
 msgstr ""
 
-#: buttons.cpp:775
+#: buttons.cpp:724
 msgid "Close"
 msgstr "మూయి"
 
-#: buttons.cpp:779
+#: buttons.cpp:728
 msgid "Maximize"
 msgstr "పెద్దదిచేయి"
 
-#: buttons.cpp:783
+#: buttons.cpp:732
 msgid "Minimize"
 msgstr "చిన్నదిచేయి"
 
-#: buttons.cpp:787
+#: buttons.cpp:736
 msgid "Help"
 msgstr "సహాయం"
 
-#: buttons.cpp:791
+#: buttons.cpp:740
 msgid "On All Desktops"
 msgstr "అన్ని రంగస్థలముల పైనా"
 
-#: buttons.cpp:795
+#: buttons.cpp:744
 msgid "Menu"
 msgstr "మెనూ"
 
-#: buttons.cpp:799
+#: buttons.cpp:748
 msgid "--- spacer ---"
 msgstr ""
 
-#: kwindecoration.cpp:98
-msgid ""
-"Select the window decoration. This is the look and feel of both the window "
-"borders and the window handle."
-msgstr ""
-
-#: kwindecoration.cpp:103
-msgid "Decoration Options"
-msgstr "అలంకరణ ఐచ్చికములు"
-
-#: kwindecoration.cpp:113
-msgid "B&order size:"
-msgstr "(&o) హద్దు పరిమాణము:"
-
-#: kwindecoration.cpp:116
-msgid "Use this combobox to change the border size of the decoration."
-msgstr "అలంకరణ యొక్క హద్దు పరిమాణమును మార్చుటకు ఈ కాంబోబాక్స్‌ను వుపయోగించుము."
-
-#: kwindecoration.cpp:133
-msgid "&Show window button tooltips"
-msgstr "(&S) విండో బటన్ పనిముట్టుచిట్కాలను చూపుము"
-
-#: kwindecoration.cpp:135
-msgid ""
-"Enabling this checkbox will show window button tooltips. If this checkbox is "
-"off, no window button tooltips will be shown."
-msgstr ""
-
-#: kwindecoration.cpp:139
-msgid "Use custom titlebar button &positions"
-msgstr "(&p) మలచుకొనిని శీర్షకపట్టీ బటన్ స్థానములను వుపయోగించుము"
-
-#: kwindecoration.cpp:141
-msgid ""
-"The appropriate settings can be found in the \"Buttons\" Tab; please note "
-"that this option is not available on all styles yet."
-msgstr ""
-
-#: kwindecoration.cpp:176
-msgid "&Window Decoration"
-msgstr "(&W) విండో అలంకరణ"
-
-#: kwindecoration.cpp:177
-msgid "&Buttons"
-msgstr "(&B) బటన్స్"
-
-#: kwindecoration.cpp:192
-msgid "kcmkwindecoration"
-msgstr "kcmkwindecoration"
-
-#: kwindecoration.cpp:193
-msgid "Window Decoration Control Module"
-msgstr "విండో అలంకరణ నియంత్రణ మాడ్యూల్"
-
-#: kwindecoration.cpp:195
-msgid "(c) 2001 Karol Szwed"
-msgstr "(c) 2001 కారల్ స్జ్వెడ్"
-
-#: kwindecoration.cpp:196
-msgid "Karol Szwed"
-msgstr "కారల్ స్జ్వెడ్"
-
-#: kwindecoration.cpp:276
+#: configdialog.cpp:33
 msgid "Tiny"
 msgstr "టినీ"
 
-#: kwindecoration.cpp:277
+#: configdialog.cpp:34
 msgid "Normal"
 msgstr "సాదారణముగా"
 
-#: kwindecoration.cpp:278
+#: configdialog.cpp:35
 msgid "Large"
 msgstr "పెద్ద"
 
-#: kwindecoration.cpp:279
+#: configdialog.cpp:36
 msgid "Very Large"
 msgstr "చాలా పెద్ద"
 
-#: kwindecoration.cpp:280
+#: configdialog.cpp:37
 msgid "Huge"
 msgstr "హ్యూజ్"
 
-#: kwindecoration.cpp:281
+#: configdialog.cpp:38
 msgid "Very Huge"
 msgstr "అత్యంత భారీ"
 
-#: kwindecoration.cpp:282
+#: configdialog.cpp:39
 msgid "Oversized"
 msgstr "మించినపరిమాణము"
 
-#: kwindecoration.cpp:553 kwindecoration.cpp:554
+#: configdialog.cpp:58
+msgid "Decoration Options"
+msgstr "అలంకరణ ఐచ్చికములు"
+
+#: kwindecoration.cpp:98
+msgid "kcmkwindecoration"
+msgstr "kcmkwindecoration"
+
+#: kwindecoration.cpp:99
+msgid "Window Decoration Control Module"
+msgstr "విండో అలంకరణ నియంత్రణ మాడ్యూల్"
+
+#: kwindecoration.cpp:101
+msgid "(c) 2001 Karol Szwed"
+msgstr "(c) 2001 కారల్ స్జ్వెడ్"
+
+#: kwindecoration.cpp:102
+msgid "Karol Szwed"
+msgstr "కారల్ స్జ్వెడ్"
+
+#: kwindecoration.cpp:237
 msgid "Oxygen"
 msgstr ""
 
-#: kwindecoration.cpp:598
+#: kwindecoration.cpp:251
 msgid ""
 "<h1>Window Manager Decoration</h1><p>This module allows you to choose the "
 "window border decorations, as well as titlebar button positions and custom "
@@ -192,37 +162,98 @@ msgid ""
 "positions of the buttons to your liking.</p>"
 msgstr ""
 
-#: preview.cpp:54
+#: preview.cpp:52
 msgid ""
 "No preview available.\n"
 "Most probably there\n"
 "was a problem loading the plugin."
 msgstr ""
 
-#: preview.cpp:367
-msgid "Active Window"
-msgstr "క్రియాశీల విండో"
+#. i18n: file: buttons.ui:17
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, showToolTipsCheckBox)
+#: rc.cpp:3
+msgid ""
+"Enabling this checkbox will show window button tooltips. If this checkbox is "
+"off, no window button tooltips will be shown."
+msgstr ""
 
-#: preview.cpp:367
-msgid "Inactive Window"
-msgstr "క్రియాహీన విండో"
+#. i18n: file: buttons.ui:20
+#. i18n: ectx: property (text), widget (QCheckBox, showToolTipsCheckBox)
+#: rc.cpp:6
+msgid "&Show window button tooltips"
+msgstr "(&S) విండో బటన్ పనిముట్టుచిట్కాలను చూపుము"
 
-#: rc.cpp:1
+#. i18n: file: buttons.ui:27
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, useCustomButtonPositionsCheckBox)
+#: rc.cpp:9
+msgid ""
+"The appropriate settings can be found in the \"Buttons\" Tab; please note "
+"that this option is not available on all styles yet."
+msgstr ""
+
+#. i18n: file: buttons.ui:30
+#. i18n: ectx: property (text), widget (QCheckBox, useCustomButtonPositionsCheckBox)
+#: rc.cpp:12
+msgid "Use custom titlebar button &positions"
+msgstr "(&p) మలచుకొనిని శీర్షకపట్టీ బటన్ స్థానములను వుపయోగించుము"
+
+#. i18n: file: config.ui:19
+#. i18n: ectx: property (text), widget (QLabel, borderLabel)
+#: rc.cpp:15
+msgid "B&order size:"
+msgstr "(&o) హద్దు పరిమాణము:"
+
+#. i18n: file: config.ui:29
+#. i18n: ectx: property (whatsThis), widget (KComboBox, bordersCombo)
+#: rc.cpp:18
+msgid "Use this combobox to change the border size of the decoration."
+msgstr "అలంకరణ యొక్క హద్దు పరిమాణమును మార్చుటకు ఈ కాంబోబాక్స్‌ను వుపయోగించుము."
+
+#. i18n: file: decoration.ui:17
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, searchEdit)
+#: rc.cpp:21
+msgid "Search"
+msgstr ""
+
+#. i18n: file: decoration.ui:27
+#. i18n: ectx: property (whatsThis), widget (QListView, decorationList)
+#: rc.cpp:24
+msgid ""
+"Select the window decoration. This is the look and feel of both the window "
+"borders and the window handle."
+msgstr ""
+
+#. i18n: file: decoration.ui:52
+#. i18n: ectx: property (text), widget (KPushButton, configureButtonsButton)
+#: rc.cpp:27
+msgid "Configure Buttons ..."
+msgstr ""
+
+#. i18n: file: decoration.ui:59
+#. i18n: ectx: property (text), widget (KPushButton, ghnsButton)
+#: rc.cpp:30
+msgid "Get New Decorations ..."
+msgstr ""
+
+#: rc.cpp:31
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 "కృష్ణబాబు కె \n"
 " విజయ్ కిరణ్ కముజు"
 
-#: rc.cpp:2
+#: rc.cpp:32
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 "k.meetme@gmail.com \n"
 " infyquest@gmail.com"
 
-#~ msgid "Buttons"
-#~ msgstr "బటన్లు"
+#~ msgid "&Window Decoration"
+#~ msgstr "(&W) విండో అలంకరణ"
+
+#~ msgid "&Buttons"
+#~ msgstr "(&B) బటన్స్"
 
 #~ msgid "Ozone"
 #~ msgstr "ఓజోన్"
