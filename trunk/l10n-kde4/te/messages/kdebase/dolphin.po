@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-05 02:24+0100\n"
+"POT-Creation-Date: 2010-02-06 01:44+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -2759,9 +2759,12 @@ msgid "All folders"
 msgstr "అన్ని ఫోల్డర్లు"
 
 #: settings/viewpropertiesdialog.cpp:199
+#, fuzzy
+#| msgctxt "@option:radio"
+#| msgid "Use common view properties for all folders"
 msgctxt "@option:check"
-msgid "Use as default for new folders"
-msgstr "కొత్త ఫోల్డర్లకు అప్రమేయంగా వుపయోగించుము"
+msgid "Use these view properties as default"
+msgstr "అన్ని ఫోల్డర్లకు ఉమ్మడి వీక్షణ గుణాలను వుపయోగించుము"
 
 #: settings/viewpropertiesdialog.cpp:337
 #, fuzzy
@@ -3092,6 +3095,10 @@ msgstr "నిలువు వరుసలు"
 msgctxt "@info"
 msgid "Columns view mode"
 msgstr "వీక్షణ తీరును విభజించుము"
+
+#~ msgctxt "@option:check"
+#~ msgid "Use as default for new folders"
+#~ msgstr "కొత్త ఫోల్డర్లకు అప్రమేయంగా వుపయోగించుము"
 
 #~ msgctxt "@title:menu"
 #~ msgid "Navigation Bar"
