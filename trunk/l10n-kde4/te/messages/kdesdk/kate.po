@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-05 02:30+0100\n"
+"POT-Creation-Date: 2010-02-09 06:27+0100\n"
 "PO-Revision-Date: 2007-03-09 14:17+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -565,33 +565,39 @@ msgstr ""
 
 #: app/katemainwindow.cpp:401
 #, fuzzy
-#| msgid "&New..."
-msgid "&Open..."
-msgstr "(&N) కొత్త..."
+#| msgid "New Session"
+msgid "&Open Session"
+msgstr "కొత్త సెషన్"
 
 #: app/katemainwindow.cpp:405
 #, fuzzy
-#| msgid "&Save:"
-msgid "&Save"
-msgstr "(&S) దాచు:"
+#| msgid "&Save session"
+msgid "&Save Session"
+msgstr "(&S) సెషన్ను దాచు"
 
 #: app/katemainwindow.cpp:409
-msgid "Save &As..."
-msgstr "(&A) ఇలా దాచు..."
+#, fuzzy
+#| msgid "Save Session?"
+msgid "Save Session &As..."
+msgstr "సెషన్ను దాచు?"
 
 #: app/katemainwindow.cpp:413
 #, fuzzy
 #| msgid "Save &As..."
-msgid "Save as &Default..."
+msgid "Save Session as &Default..."
 msgstr "(&A) ఇలా దాచు..."
 
 #: app/katemainwindow.cpp:417
-msgid "&Manage..."
-msgstr ""
+#, fuzzy
+#| msgid "&Save session"
+msgid "&Manage Sessions..."
+msgstr "(&S) సెషన్ను దాచు"
 
 #: app/katemainwindow.cpp:421
-msgid "&Quick Open"
-msgstr ""
+#, fuzzy
+#| msgid "New Session"
+msgid "&Quick Open Session"
+msgstr "కొత్త సెషన్"
 
 #: app/katemainwindow.cpp:471 app/katedocmanager.cpp:496
 msgid "New file opened while trying to close Kate, closing aborted."
@@ -1534,17 +1540,24 @@ msgid ""
 "The file '%1' could not be opened: it is not a normal file, it is a folder."
 msgstr ""
 
+#, fuzzy
+#~| msgid "&New..."
+#~ msgid "&Open..."
+#~ msgstr "(&N) కొత్త..."
+
+#, fuzzy
+#~| msgid "&Save:"
+#~ msgid "&Save"
+#~ msgstr "(&S) దాచు:"
+
+#~ msgid "Save &As..."
+#~ msgstr "(&A) ఇలా దాచు..."
+
 #~ msgid "&Do not save session"
 #~ msgstr "(&D) సెషన్ను దాచవద్దు"
 
-#~ msgid "&Save session"
-#~ msgstr "(&S) సెషన్ను దాచు"
-
 #~ msgid "&Ask user"
 #~ msgstr "(&A) యూజర్ ని అడుగు?"
-
-#~ msgid "Save Session?"
-#~ msgstr "సెషన్ను దాచు?"
 
 #~ msgid "&Document"
 #~ msgstr "(&D) పత్రం"
