@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-08 07:01+0100\n"
+"POT-Creation-Date: 2010-02-12 06:37+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -127,11 +127,17 @@ msgstr "పేరు-లేని రంగు స్కీము"
 msgid "Accessible Color Scheme"
 msgstr "వాడదగిన రంగు స్కీము"
 
-#: ColorSchemeEditor.cpp:83 ManageProfilesDialog.cpp:222
+#: ColorSchemeEditor.cpp:83
+#, fuzzy
+#| msgid "Name"
+msgctxt "@label:listbox Column header text for color names"
 msgid "Name"
 msgstr "పేరు"
 
 #: ColorSchemeEditor.cpp:83
+#, fuzzy
+#| msgid "Color"
+msgctxt "@label:listbox Column header text for the actual colors"
 msgid "Color"
 msgstr "రంగు"
 
@@ -590,6 +596,10 @@ msgstr "ప్రస్తుత టాబ్ మూసివేయి"
 #: ManageProfilesDialog.cpp:48
 msgid "Manage Profiles"
 msgstr "ప్రొఫైల్సును నిర్వహించుము"
+
+#: ManageProfilesDialog.cpp:222
+msgid "Name"
+msgstr "పేరు"
 
 #: ManageProfilesDialog.cpp:223
 msgid "Show in Menu"
