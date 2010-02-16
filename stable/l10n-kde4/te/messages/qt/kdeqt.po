@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2010-02-08 01:33+0100\n"
+"POT-Creation-Date: 2010-02-16 01:40+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -673,30 +673,30 @@ msgstr "పునరాచరణ"
 msgid "Home"
 msgstr "గృహము"
 
-#: gui/dialogs/qmessagebox.cpp:122
+#: gui/dialogs/qmessagebox.cpp:121
 msgid "Show Details..."
 msgstr "వివరాలు చూపించు..."
 
-#: gui/dialogs/qmessagebox.cpp:123
+#: gui/dialogs/qmessagebox.cpp:122
 msgid "Hide Details..."
 msgstr "వివరాలు చూపించకు..."
 
-#: gui/dialogs/qmessagebox.cpp:376 gui/dialogs/qmessagebox.cpp:1223
+#: gui/dialogs/qmessagebox.cpp:375 gui/dialogs/qmessagebox.cpp:1222
 msgctxt "QMessageBox"
 msgid "OK"
 msgstr "సరే"
 
-#: gui/dialogs/qmessagebox.cpp:1224
+#: gui/dialogs/qmessagebox.cpp:1223
 msgctxt "QMessageBox"
 msgid "Help"
 msgstr "సహాయము"
 
-#: gui/dialogs/qmessagebox.cpp:1701
+#: gui/dialogs/qmessagebox.cpp:1700
 #, qt-format
 msgid "<h3>About Qt</h3><p>This program uses Qt version %1.</p>"
 msgstr ""
 
-#: gui/dialogs/qmessagebox.cpp:1706
+#: gui/dialogs/qmessagebox.cpp:1705
 msgid ""
 "<p>Qt is a C++ toolkit for cross-platform application development.</p><p>Qt "
 "provides single-source portability across MS&nbsp;Windows, Mac&nbsp;OS&nbsp;"
@@ -716,16 +716,16 @@ msgid ""
 "terms of the GNU GPL version 3.0 or where you are otherwise willing to "
 "comply with the terms of the GNU GPL version 3.0.</p><p>Please see <a href="
 "\"http://qt.nokia.com/products/licensing\">qt.nokia.com/products/licensing</"
-"a> for an overview of Qt licensing.</p><p>Copyright (C) 2010 Nokia "
+"a> for an overview of Qt licensing.</p><p>Copyright (C) 2009 Nokia "
 "Corporation and/or its subsidiary(-ies).</p><p>Qt is a Nokia product. See <a "
 "href=\"http://qt.nokia.com/\">qt.nokia.com</a> for more information.</p>"
 msgstr ""
 
-#: gui/dialogs/qmessagebox.cpp:1736
+#: gui/dialogs/qmessagebox.cpp:1735
 msgid "About Qt"
 msgstr "క్యుటీ గురించి"
 
-#: gui/dialogs/qmessagebox.cpp:1876 gui/dialogs/qmessagebox.cpp:2340
+#: gui/dialogs/qmessagebox.cpp:1875 gui/dialogs/qmessagebox.cpp:2339
 #: gui/dialogs/qprintdialog_win.cpp:266 qt3support/dialogs/q3tabdialog.cpp:190
 #: qt3support/dialogs/q3tabdialog.cpp:1014
 msgid "OK"
@@ -829,7 +829,7 @@ msgstr "(&N) తరువాత >"
 msgid "Commit"
 msgstr "కమిట్"
 
-#: gui/dialogs/qwizard.cpp:659 gui/dialogs/qdialog.cpp:517
+#: gui/dialogs/qwizard.cpp:659 gui/dialogs/qdialog.cpp:501
 msgid "Done"
 msgstr "అయినది"
 
@@ -1017,7 +1017,7 @@ msgstr "ప్రచురణ"
 msgid "The 'From' value cannot be greater than the 'To' value."
 msgstr ""
 
-#: gui/dialogs/qdialog.cpp:652 gui/kernel/qwhatsthis.cpp:527
+#: gui/dialogs/qdialog.cpp:636 gui/kernel/qwhatsthis.cpp:527
 msgid "What's This?"
 msgstr "ఇది ఎమిటి?"
 
@@ -1260,103 +1260,98 @@ msgstr "మచ్చు"
 msgid "Wr&iting System"
 msgstr ""
 
-#: gui/dialogs/qprintpreviewdialog.cpp:249
+#: gui/dialogs/qprintpreviewdialog.cpp:246
 #, fuzzy, qt-format
 #| msgid "F%1"
 msgid "%1%"
 msgstr "F%1"
 
-#: gui/dialogs/qprintpreviewdialog.cpp:320
+#: gui/dialogs/qprintpreviewdialog.cpp:314
 msgctxt "QPrintPreviewDialog"
 msgid "Print Preview"
 msgstr "ప్రచురణ ముందస్తు వీక్షణం"
 
-#: gui/dialogs/qprintpreviewdialog.cpp:350
+#: gui/dialogs/qprintpreviewdialog.cpp:344
 msgctxt "QPrintPreviewDialog"
 msgid "Next page"
 msgstr "తరువాత పుట"
 
-#: gui/dialogs/qprintpreviewdialog.cpp:351
+#: gui/dialogs/qprintpreviewdialog.cpp:345
 msgctxt "QPrintPreviewDialog"
 msgid "Previous page"
 msgstr "ముందరి పుట"
 
-#: gui/dialogs/qprintpreviewdialog.cpp:352
+#: gui/dialogs/qprintpreviewdialog.cpp:346
 msgctxt "QPrintPreviewDialog"
 msgid "First page"
 msgstr "మొదటి పుట"
 
-#: gui/dialogs/qprintpreviewdialog.cpp:353
+#: gui/dialogs/qprintpreviewdialog.cpp:347
 msgctxt "QPrintPreviewDialog"
 msgid "Last page"
 msgstr "చివరి పుట"
 
-#: gui/dialogs/qprintpreviewdialog.cpp:362
+#: gui/dialogs/qprintpreviewdialog.cpp:356
 msgctxt "QPrintPreviewDialog"
 msgid "Fit width"
 msgstr ""
 
-#: gui/dialogs/qprintpreviewdialog.cpp:363
+#: gui/dialogs/qprintpreviewdialog.cpp:357
 msgctxt "QPrintPreviewDialog"
 msgid "Fit page"
 msgstr "పుటను పట్టించు"
 
-#: gui/dialogs/qprintpreviewdialog.cpp:374
+#: gui/dialogs/qprintpreviewdialog.cpp:368
 msgctxt "QPrintPreviewDialog"
 msgid "Zoom in"
 msgstr "సమీప వీక్షణం"
 
-#: gui/dialogs/qprintpreviewdialog.cpp:375
+#: gui/dialogs/qprintpreviewdialog.cpp:369
 msgctxt "QPrintPreviewDialog"
 msgid "Zoom out"
 msgstr "దూర వీక్షణం"
 
-#: gui/dialogs/qprintpreviewdialog.cpp:381
+#: gui/dialogs/qprintpreviewdialog.cpp:375
 msgctxt "QPrintPreviewDialog"
 msgid "Portrait"
 msgstr "నిలువు దిశ"
 
-#: gui/dialogs/qprintpreviewdialog.cpp:382
+#: gui/dialogs/qprintpreviewdialog.cpp:376
 msgctxt "QPrintPreviewDialog"
 msgid "Landscape"
 msgstr "సమతల దిశ"
 
-#: gui/dialogs/qprintpreviewdialog.cpp:392
+#: gui/dialogs/qprintpreviewdialog.cpp:386
 msgctxt "QPrintPreviewDialog"
 msgid "Show single page"
 msgstr "ఒక పుటను చూపించు"
 
-#: gui/dialogs/qprintpreviewdialog.cpp:393
+#: gui/dialogs/qprintpreviewdialog.cpp:387
 msgctxt "QPrintPreviewDialog"
 msgid "Show facing pages"
 msgstr "ఎదురుగా వున్న పుటలను చూపించు"
 
-#: gui/dialogs/qprintpreviewdialog.cpp:394
+#: gui/dialogs/qprintpreviewdialog.cpp:388
 msgctxt "QPrintPreviewDialog"
 msgid "Show overview of all pages"
 msgstr "అన్ని పుటల పర్యవలోకనం చూపించు"
 
-#: gui/dialogs/qprintpreviewdialog.cpp:409
+#: gui/dialogs/qprintpreviewdialog.cpp:403
 msgctxt "QPrintPreviewDialog"
 msgid "Print"
 msgstr "ప్రచురణ"
 
-#: gui/dialogs/qprintpreviewdialog.cpp:410
+#: gui/dialogs/qprintpreviewdialog.cpp:404
 msgctxt "QPrintPreviewDialog"
 msgid "Page setup"
 msgstr "పుట అమరిక"
 
-#: gui/dialogs/qprintpreviewdialog.cpp:416
-msgctxt "QPrintPreviewDialog"
-msgid "Close"
-msgstr "మూసివెయుము"
-
-#: gui/dialogs/qprintpreviewdialog.cpp:564
+#: gui/dialogs/qprintpreviewdialog.cpp:554
 msgctxt "QPrintPreviewDialog"
 msgid "Export to PDF"
 msgstr ""
 
-#: gui/dialogs/qprintpreviewdialog.cpp:567
+#: gui/dialogs/qprintpreviewdialog.cpp:557
 msgctxt "QPrintPreviewDialog"
 msgid "Export to PostScript"
 msgstr ""
@@ -1395,40 +1390,40 @@ msgstr "అసత్యము"
 msgid "True"
 msgstr "సత్యము"
 
-#: gui/itemviews/qfileiconprovider.cpp:462
+#: gui/itemviews/qfileiconprovider.cpp:461
 msgctxt "QFileDialog"
 msgid "Drive"
 msgstr "డ్రైవ్"
 
+#: gui/itemviews/qfileiconprovider.cpp:464
 #: gui/itemviews/qfileiconprovider.cpp:465
-#: gui/itemviews/qfileiconprovider.cpp:466
 msgctxt "QFileDialog"
 msgid "File"
 msgstr "దస్త్రం"
 
-#: gui/itemviews/qfileiconprovider.cpp:471
+#: gui/itemviews/qfileiconprovider.cpp:470
 msgctxt "Match Windows Explorer"
 msgid "File Folder"
 msgstr ""
 
-#: gui/itemviews/qfileiconprovider.cpp:473
+#: gui/itemviews/qfileiconprovider.cpp:472
 msgctxt "All other platforms"
 msgid "Folder"
 msgstr ""
 
-#: gui/itemviews/qfileiconprovider.cpp:482
+#: gui/itemviews/qfileiconprovider.cpp:481
 #, fuzzy
 #| msgid "Aliases: %1"
 msgctxt "Mac OS X Finder"
 msgid "Alias"
 msgstr "మరొ పేరు: %1"
 
-#: gui/itemviews/qfileiconprovider.cpp:484
+#: gui/itemviews/qfileiconprovider.cpp:483
 msgctxt "All other platforms"
 msgid "Shortcut"
 msgstr ""
 
-#: gui/itemviews/qfileiconprovider.cpp:491
+#: gui/itemviews/qfileiconprovider.cpp:490
 msgctxt "QFileDialog"
 msgid "Unknown"
 msgstr "తెలియని"
@@ -1441,12 +1436,12 @@ msgstr "చైతన్యపరచు"
 msgid "Activates the program's main window"
 msgstr ""
 
-#: gui/kernel/qsoftkeymanager.cpp:63
+#: gui/kernel/qsoftkeymanager.cpp:79
 msgctxt "QSoftKeyManager"
 msgid "Ok"
 msgstr ""
 
-#: gui/kernel/qsoftkeymanager.cpp:66
+#: gui/kernel/qsoftkeymanager.cpp:82
 #, fuzzy
 #| msgctxt "QShortcut"
 #| msgid "Select"
@@ -1454,28 +1449,32 @@ msgctxt "QSoftKeyManager"
 msgid "Select"
 msgstr "ఎన్నుకోబడిన"
 
-#: gui/kernel/qsoftkeymanager.cpp:69
+#: gui/kernel/qsoftkeymanager.cpp:85
 #, fuzzy
 #| msgid "Done"
 msgctxt "QSoftKeyManager"
 msgid "Done"
 msgstr "అయినది"
 
-#: gui/kernel/qsoftkeymanager.cpp:72
+#: gui/kernel/qsoftkeymanager.cpp:88
 #, fuzzy
 #| msgid "Options"
 msgctxt "QSoftKeyManager"
 msgid "Options"
 msgstr "ఇష్టములు"
 
-#: gui/kernel/qsoftkeymanager.cpp:75
+#: gui/kernel/qsoftkeymanager.cpp:91
 #, fuzzy
 #| msgid "Cancel"
 msgctxt "QSoftKeyManager"
 msgid "Cancel"
 msgstr "రద్దు"
 
-#: gui/kernel/qwidget.cpp:5753
+#: gui/kernel/qsoftkeymanager.cpp:274
+msgid "Exit"
+msgstr "నిష్క్రమణ"
+
+#: gui/kernel/qwidget.cpp:5719
 msgid "*"
 msgstr "*"
 
@@ -2481,11 +2480,7 @@ msgstr "+"
 msgid "F%1"
 msgstr "F%1"
 
-#: gui/kernel/qsoftkeymanager_s60.cpp:311
-msgid "Exit"
-msgstr "నిష్క్రమణ"
-
-#: gui/kernel/qapplication.cpp:2287
+#: gui/kernel/qapplication.cpp:2284
 msgctxt ""
 "Translate this string to the string 'LTR' in left-to-right languages or to "
 "'RTL' in right-to-left languages (such as Hebrew and Arabic) to get proper "
@@ -2728,7 +2723,7 @@ msgctxt "QDialogButtonBox"
 msgid "Restore Defaults"
 msgstr "అప్రమేయములు"
 
-#: gui/widgets/qmenu_symbian.cpp:436
+#: gui/widgets/qmenu_symbian.cpp:410
 #, fuzzy
 #| msgid "Options"
 msgid "Actions"
@@ -2881,27 +2876,27 @@ msgctxt "QDB2Result"
 msgid "Unable to fetch first"
 msgstr "మొదట వున్న దానిని తీసుకురాలేక పొయాను"
 
-#: sql/drivers/db2/qsql_db2.cpp:1102 sql/drivers/odbc/qsql_odbc.cpp:1046
-#: sql/drivers/odbc/qsql_odbc.cpp:1622
+#: sql/drivers/db2/qsql_db2.cpp:1102 sql/drivers/odbc/qsql_odbc.cpp:1041
+#: sql/drivers/odbc/qsql_odbc.cpp:1617
 msgctxt "QODBCResult"
 msgid "Unable to fetch last"
 msgstr "చివర వున్న దానిని తీసుకురాలేక పొయాను"
 
-#: sql/drivers/db2/qsql_db2.cpp:1253 sql/drivers/odbc/qsql_odbc.cpp:1806
+#: sql/drivers/db2/qsql_db2.cpp:1253 sql/drivers/odbc/qsql_odbc.cpp:1801
 #: sql/drivers/psql/qsql_psql.cpp:782 sql/drivers/mysql/qsql_mysql.cpp:1281
 msgid "Unable to connect"
 msgstr ""
 
-#: sql/drivers/db2/qsql_db2.cpp:1551 sql/drivers/odbc/qsql_odbc.cpp:2061
+#: sql/drivers/db2/qsql_db2.cpp:1551 sql/drivers/odbc/qsql_odbc.cpp:2056
 #: sql/drivers/mysql/qsql_mysql.cpp:1448
-#: sql/drivers/sqlite2/qsql_sqlite2.cpp:457
+#: sql/drivers/sqlite2/qsql_sqlite2.cpp:449
 #: sql/drivers/sqlite/qsql_sqlite.cpp:593
 msgid "Unable to commit transaction"
 msgstr ""
 
-#: sql/drivers/db2/qsql_db2.cpp:1568 sql/drivers/odbc/qsql_odbc.cpp:2078
+#: sql/drivers/db2/qsql_db2.cpp:1568 sql/drivers/odbc/qsql_odbc.cpp:2073
 #: sql/drivers/mysql/qsql_mysql.cpp:1465
-#: sql/drivers/sqlite2/qsql_sqlite2.cpp:474
+#: sql/drivers/sqlite2/qsql_sqlite2.cpp:466
 #: sql/drivers/sqlite/qsql_sqlite.cpp:608
 msgid "Unable to rollback transaction"
 msgstr ""
@@ -3027,57 +3022,57 @@ msgstr "బ్లాబ్ ను తెరువలేకపొయాను"
 msgid "Unable to use database"
 msgstr "డెటాబేస్ ను తెరువలేకపొయాను"
 
-#: sql/drivers/odbc/qsql_odbc.cpp:876 sql/drivers/odbc/qsql_odbc.cpp:1227
+#: sql/drivers/odbc/qsql_odbc.cpp:876 sql/drivers/odbc/qsql_odbc.cpp:1222
 msgctxt "QODBCResult"
 msgid ""
 "QODBCResult::reset: Unable to set 'SQL_CURSOR_STATIC' as statement "
 "attribute. Please check your ODBC driver configuration"
 msgstr ""
 
-#: sql/drivers/odbc/qsql_odbc.cpp:893 sql/drivers/odbc/qsql_odbc.cpp:1521
+#: sql/drivers/odbc/qsql_odbc.cpp:893 sql/drivers/odbc/qsql_odbc.cpp:1516
 msgctxt "QODBCResult"
 msgid "Unable to execute statement"
 msgstr ""
 
-#: sql/drivers/odbc/qsql_odbc.cpp:952
+#: sql/drivers/odbc/qsql_odbc.cpp:947
 msgctxt "QODBCResult"
 msgid "Unable to fetch"
 msgstr "తీసుకురాలేక పొయాను"
 
-#: sql/drivers/odbc/qsql_odbc.cpp:974
+#: sql/drivers/odbc/qsql_odbc.cpp:969
 msgctxt "QODBCResult"
 msgid "Unable to fetch next"
 msgstr "తరువాత వున్న దానిని తీసుకురాలేక పొయాను"
 
-#: sql/drivers/odbc/qsql_odbc.cpp:996
+#: sql/drivers/odbc/qsql_odbc.cpp:991
 msgctxt "QODBCResult"
 msgid "Unable to fetch first"
 msgstr "మొదట వున్న దానిని తీసుకురాలేక పొయాను"
 
-#: sql/drivers/odbc/qsql_odbc.cpp:1015
+#: sql/drivers/odbc/qsql_odbc.cpp:1010
 msgctxt "QODBCResult"
 msgid "Unable to fetch previous"
 msgstr "ముందు వున్న దానిని తీసుకురాలేక పొయాను"
 
-#: sql/drivers/odbc/qsql_odbc.cpp:1245
+#: sql/drivers/odbc/qsql_odbc.cpp:1240
 msgctxt "QODBCResult"
 msgid "Unable to prepare statement"
 msgstr ""
 
-#: sql/drivers/odbc/qsql_odbc.cpp:1513
+#: sql/drivers/odbc/qsql_odbc.cpp:1508
 msgctxt "QODBCResult"
 msgid "Unable to bind variable"
 msgstr ""
 
-#: sql/drivers/odbc/qsql_odbc.cpp:1812
+#: sql/drivers/odbc/qsql_odbc.cpp:1807
 msgid "Unable to connect - Driver doesn't support all functionality required"
 msgstr ""
 
-#: sql/drivers/odbc/qsql_odbc.cpp:2044
+#: sql/drivers/odbc/qsql_odbc.cpp:2039
 msgid "Unable to disable autocommit"
 msgstr ""
 
-#: sql/drivers/odbc/qsql_odbc.cpp:2093
+#: sql/drivers/odbc/qsql_odbc.cpp:2088
 msgid "Unable to enable autocommit"
 msgstr ""
 
@@ -3279,22 +3274,22 @@ msgid "Unable to open database '"
 msgstr "డెటాబేస్ ను తెరువలేకపొయాను"
 
 #: sql/drivers/mysql/qsql_mysql.cpp:1431
-#: sql/drivers/sqlite2/qsql_sqlite2.cpp:440
+#: sql/drivers/sqlite2/qsql_sqlite2.cpp:432
 #: sql/drivers/sqlite/qsql_sqlite.cpp:578
 msgid "Unable to begin transaction"
 msgstr ""
 
-#: sql/drivers/sqlite2/qsql_sqlite2.cpp:149
+#: sql/drivers/sqlite2/qsql_sqlite2.cpp:148
 msgctxt "QSQLite2Result"
 msgid "Unable to fetch results"
 msgstr "ఫలితాలను తీసుకురాలేకపొయాను."
 
-#: sql/drivers/sqlite2/qsql_sqlite2.cpp:299
+#: sql/drivers/sqlite2/qsql_sqlite2.cpp:291
 msgctxt "QSQLite2Result"
 msgid "Unable to execute statement"
 msgstr ""
 
-#: sql/drivers/sqlite2/qsql_sqlite2.cpp:399
+#: sql/drivers/sqlite2/qsql_sqlite2.cpp:391
 #: sql/drivers/sqlite/qsql_sqlite.cpp:547
 msgid "Error opening database"
 msgstr "డాటాబేస్ తెరచుటలో దోషము"
@@ -3498,43 +3493,43 @@ msgstr ""
 msgid "No program defined"
 msgstr ""
 
-#: corelib/io/qiodevice.cpp:1565 corelib/statemachine/qstatemachine.cpp:1046
-#: corelib/plugin/qlibrary.cpp:1141 corelib/plugin/qpluginloader.cpp:367
+#: corelib/io/qiodevice.cpp:1564 corelib/statemachine/qstatemachine.cpp:1046
+#: corelib/plugin/qlibrary.cpp:1140 corelib/plugin/qpluginloader.cpp:367
 #: network/ssl/qsslerror.cpp:285 network/kernel/qhostinfo_win.cpp:219
 #: network/kernel/qhostinfo_win.cpp:246 network/kernel/qhostinfo_unix.cpp:293
 #: network/socket/qnativesocketengine.cpp:272
 msgid "Unknown error"
 msgstr "తెలియని దోషము"
 
-#: corelib/io/qfile.cpp:698 corelib/io/qfile.cpp:853
+#: corelib/io/qfile.cpp:697 corelib/io/qfile.cpp:852
 msgid "Destination file exists"
 msgstr ""
 
-#: corelib/io/qfile.cpp:713
+#: corelib/io/qfile.cpp:712
 msgid "Will not rename sequential file using block copy"
 msgstr ""
 
-#: corelib/io/qfile.cpp:736
+#: corelib/io/qfile.cpp:735
 msgid "Cannot remove source file"
 msgstr ""
 
-#: corelib/io/qfile.cpp:866
+#: corelib/io/qfile.cpp:865
 #, qt-format
 msgid "Cannot open %1 for input"
 msgstr ""
 
-#: corelib/io/qfile.cpp:883
+#: corelib/io/qfile.cpp:882
 msgid "Cannot open for output"
 msgstr ""
 
-#: corelib/io/qfile.cpp:893
+#: corelib/io/qfile.cpp:892
 #, fuzzy
 #| msgctxt "QIBaseResult"
 #| msgid "Unable to write BLOB"
 msgid "Failure to write block"
 msgstr "బ్లాబ్ ను వ్రాయలేకపొయాను"
 
-#: corelib/io/qfile.cpp:906
+#: corelib/io/qfile.cpp:905
 #, qt-format
 msgid "Cannot create %1 for output"
 msgstr ""
@@ -3907,28 +3902,28 @@ msgstr ""
 msgid "Could not unmap '%1': %2"
 msgstr "'%1' ను unmap చెయలేకపోయాను: %2"
 
-#: corelib/plugin/qlibrary.cpp:739 corelib/plugin/qpluginloader.cpp:343
+#: corelib/plugin/qlibrary.cpp:738 corelib/plugin/qpluginloader.cpp:343
 msgid "The shared library was not found."
 msgstr ""
 
-#: corelib/plugin/qlibrary.cpp:741
+#: corelib/plugin/qlibrary.cpp:740
 #, qt-format
 msgid "The file '%1' is not a valid Qt plugin."
 msgstr "'%1' దస్త్రం సరైన క్యూటి ప్లగిన్ కాదు."
 
-#: corelib/plugin/qlibrary.cpp:756
+#: corelib/plugin/qlibrary.cpp:755
 #, qt-format
 msgid "The plugin '%1' uses incompatible Qt library. (%2.%3.%4) [%5]"
 msgstr ""
 
-#: corelib/plugin/qlibrary.cpp:776
+#: corelib/plugin/qlibrary.cpp:775
 #, qt-format
 msgid ""
 "The plugin '%1' uses incompatible Qt library. Expected build key \"%2\", got "
 "\"%3\""
 msgstr ""
 
-#: corelib/plugin/qlibrary.cpp:784
+#: corelib/plugin/qlibrary.cpp:783
 #, qt-format
 msgid ""
 "The plugin '%1' uses incompatible Qt library. (Cannot mix debug and release "
@@ -6663,24 +6658,17 @@ msgstr ""
 msgid "Unable to write data: %1"
 msgstr ""
 
-#: network/ssl/qsslsocket_openssl.cpp:609
-#, fuzzy, qt-format
-#| msgctxt "QMYSQLResult"
-#| msgid "Unable to fetch data"
-msgid "Unable to decrypt data: %1"
-msgstr "దత్తాంశంను తీసుకురాలేకపొయాను"
-
-#: network/ssl/qsslsocket_openssl.cpp:685
+#: network/ssl/qsslsocket_openssl.cpp:665
 #, qt-format
 msgid "Error while reading: %1"
 msgstr "చదువుతునప్పుడు దోషము: %1"
 
-#: network/ssl/qsslsocket_openssl.cpp:781
+#: network/ssl/qsslsocket_openssl.cpp:761
 #, qt-format
 msgid "Error during SSL handshake: %1"
 msgstr "ఎస్ ఎస్ ఎల్ కరచాలనము చెస్తున్నప్పుడు దోషము: %1"
 
-#: network/ssl/qsslerror.cpp:213 3rdparty/phonon/mmf/utils.cpp:87
+#: network/ssl/qsslerror.cpp:213
 #, fuzzy
 #| msgctxt "QNativeSocketEngine"
 #| msgid "Network error"
@@ -6779,7 +6767,7 @@ msgid "The host name did not match any of the valid hosts for this certificate"
 msgstr ""
 
 #: network/access/qnetworkaccessftpbackend.cpp:131
-#: network/access/qnetworkaccesshttpbackend.cpp:599
+#: network/access/qnetworkaccesshttpbackend.cpp:585
 msgid "No suitable proxy found"
 msgstr ""
 
@@ -6813,32 +6801,32 @@ msgstr "%1 మీద కార్యానికి మద్దతు లేద
 msgid "Invalid URI: %1"
 msgstr "చెల్లని యూఆర్ ఐ: %1"
 
-#: network/access/qnetworkreplyimpl.cpp:80
+#: network/access/qnetworkreplyimpl.cpp:77
 #, qt-format
 msgctxt "QNetworkReply"
 msgid "Protocol \"%1\" is unknown"
 msgstr "\"%1\" తెలియని ప్రొటొకాల్"
 
-#: network/access/qnetworkreplyimpl.cpp:605
-#: network/access/qnetworkreplyimpl.cpp:633
+#: network/access/qnetworkreplyimpl.cpp:596
+#: network/access/qnetworkreplyimpl.cpp:624
 msgid "Operation canceled"
 msgstr "కార్యములు రద్దుచెయబడినవి"
 
-#: network/access/qfilenetworkreply.cpp:85
+#: network/access/qfilenetworkreply.cpp:83
 #: network/access/qnetworkaccessfilebackend.cpp:100
 #, qt-format
 msgctxt "QNetworkAccessFileBackend"
 msgid "Request for opening non-local file %1"
 msgstr ""
 
-#: network/access/qfilenetworkreply.cpp:105
+#: network/access/qfilenetworkreply.cpp:103
 #: network/access/qnetworkaccessfilebackend.cpp:231
 #, qt-format
 msgctxt "QNetworkAccessFileBackend"
 msgid "Cannot open %1: Path is a directory"
 msgstr ""
 
-#: network/access/qfilenetworkreply.cpp:118
+#: network/access/qfilenetworkreply.cpp:114
 #: network/access/qnetworkaccessfilebackend.cpp:145
 #, qt-format
 msgctxt "QNetworkAccessFileBackend"
@@ -6871,7 +6859,7 @@ msgctxt "QNetworkAccessCacheBackend"
 msgid "Error opening %1"
 msgstr "%1 తెరచుటలో దోషము: %2"
 
-#: network/access/qnetworkaccesshttpbackend.cpp:701
+#: network/access/qnetworkaccesshttpbackend.cpp:681
 #, qt-format
 msgctxt "QNetworkReply"
 msgid "Error downloading %1 - server replied: %2"
@@ -7071,7 +7059,6 @@ msgid "Host unreachable"
 msgstr ""
 
 #: network/socket/qnativesocketengine.cpp:230
-#: 3rdparty/phonon/mmf/utils.cpp:113
 #, fuzzy
 #| msgctxt "QIODevice"
 #| msgid "Permission denied"
@@ -7462,297 +7449,65 @@ msgstr ""
 msgid "Breakpoint Condition:"
 msgstr ""
 
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:125
-msgid "Pause failed"
+#: 3rdparty/phonon/mmf/audioequalizer.cpp:75
+#, qt-format
+msgid "Frequency band, %1 Hz"
 msgstr ""
 
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:141
-#, fuzzy
-#| msgid "%1: ftok failed"
-msgid "Seek failed"
-msgstr "%1: ftok తప్పినది"
-
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:195
-#: 3rdparty/phonon/mmf/audioplayer.cpp:173
-msgid "Getting position failed"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:221
-#: 3rdparty/phonon/mmf/audioplayer.cpp:209
-msgid "Opening clip failed"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:247
-msgid "Buffering clip failed"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:421
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:433
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:609
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:624
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:630
-msgid "Video display error"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/stereowidening.cpp:79
-msgid "Level (%)"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/abstractmediaplayer.cpp:73
-msgid "Not ready to play"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/abstractmediaplayer.cpp:234
-#: 3rdparty/phonon/mmf/abstractmediaplayer.cpp:244
-#, fuzzy
-#| msgctxt "QNetworkAccessFileBackend"
-#| msgid "Error opening %1: %2"
-msgid "Error opening file"
-msgstr "%1 తెరచుటలో దోషము: %2"
-
-#: 3rdparty/phonon/mmf/abstractmediaplayer.cpp:248
-#, fuzzy
-#| msgctxt "QNetworkAccessFileBackend"
-#| msgid "Error opening %1: %2"
-msgid "Error opening URL"
-msgstr "%1 తెరచుటలో దోషము: %2"
-
-#: 3rdparty/phonon/mmf/abstractmediaplayer.cpp:331
-msgid "Setting volume failed"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/abstractmediaplayer.cpp:381
-msgid "Playback complete"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/audioequalizer.cpp:92
-#, fuzzy, qt-format
-#| msgid "%1 TB"
-msgid "%1 Hz"
-msgstr "%1 TB"
-
-#: 3rdparty/phonon/mmf/audiooutput.cpp:103
+#: 3rdparty/phonon/mmf/audiooutput.cpp:98
 msgctxt "Phonon::MMF"
 msgid "Audio Output"
 msgstr ""
 
-#: 3rdparty/phonon/mmf/audiooutput.cpp:104
+#: 3rdparty/phonon/mmf/audiooutput.cpp:99
 msgctxt "Phonon::MMF"
 msgid "The audio output device"
 msgstr ""
 
-#: 3rdparty/phonon/mmf/mediaobject.cpp:270
+#: 3rdparty/phonon/mmf/mediaobject.cpp:291
+msgid "Media type could not be determined"
+msgstr ""
+
+#: 3rdparty/phonon/mmf/effectfactory.cpp:65
+msgctxt "Phonon::MMF::EffectFactory"
+msgid "Audio Equalizer"
+msgstr ""
+
+#: 3rdparty/phonon/mmf/effectfactory.cpp:67
 #, fuzzy
-#| msgctxt "QNativeSocketEngine"
-#| msgid "Protocol type not supported"
-msgid "Error opening source: type not supported"
-msgstr "ప్రొటొకాల్ రకము కొరకు సహాయంలేదు"
+#| msgctxt "QShortcut"
+#| msgid "Bass Boost"
+msgctxt "Phonon::MMF::EffectFactory"
+msgid "Bass Boost"
+msgstr "బాస్ బూస్ట్"
 
-#: 3rdparty/phonon/mmf/mediaobject.cpp:288
-msgid "Error opening source: media type could not be determined"
+#: 3rdparty/phonon/mmf/effectfactory.cpp:69
+msgctxt "Phonon::MMF::EffectFactory"
+msgid "Distance Attenuation"
 msgstr ""
 
-#: 3rdparty/phonon/mmf/effectfactory.cpp:181
-msgid "Enabled"
+#: 3rdparty/phonon/mmf/effectfactory.cpp:71
+#: 3rdparty/phonon/mmf/effectfactory.cpp:73
+msgctxt "Phonon::MMF::EffectFactory"
+msgid "Environmental Reverb"
 msgstr ""
 
-#: 3rdparty/phonon/mmf/environmentalreverb.cpp:146
-msgid "Decay HF ratio (%)"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/environmentalreverb.cpp:152
-msgid "Decay time (ms)"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/environmentalreverb.cpp:159
-msgid "Density (%)"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/environmentalreverb.cpp:165
-msgid "Diffusion (%)"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/environmentalreverb.cpp:170
-msgid "Reflections delay (ms)"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/environmentalreverb.cpp:177
-msgid "Reflections level (mB)"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/environmentalreverb.cpp:184
-msgid "Reverb delay (ms)"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/environmentalreverb.cpp:192
-msgid "Reverb level (mB)"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/environmentalreverb.cpp:199
-msgid "Room HF level"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/environmentalreverb.cpp:205
-msgid "Room level (mB)"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/utils.cpp:89
+#: 3rdparty/phonon/mmf/effectfactory.cpp:75
 #, fuzzy
-#| msgid "Host not found"
-msgid "Not found"
-msgstr "హొస్ట్ కనపడుట లేదు"
+#| msgid "Less"
+msgctxt "Phonon::MMF::EffectFactory"
+msgid "Loudness"
+msgstr "తక్కువ"
 
-#: 3rdparty/phonon/mmf/utils.cpp:91
-#, fuzzy
-#| msgctxt "QNativeSocketEngine"
-#| msgid "Out of resources"
-msgid "Out of memory"
-msgstr "వనరులు అయిపొయినవి"
-
-#: 3rdparty/phonon/mmf/utils.cpp:93
-#, fuzzy
-#| msgctxt "QNativeSocketEngine"
-#| msgid "Protocol type not supported"
-msgid "Not supported"
-msgstr "ప్రొటొకాల్ రకము కొరకు సహాయంలేదు"
-
-#: 3rdparty/phonon/mmf/utils.cpp:95
-msgid "Overflow"
+#: 3rdparty/phonon/mmf/effectfactory.cpp:77
+msgctxt "Phonon::MMF::EffectFactory"
+msgid "Source Orientation"
 msgstr ""
 
-#: 3rdparty/phonon/mmf/utils.cpp:97
-#, fuzzy
-#| msgctxt "Underline context menu item"
-#| msgid "Underline"
-msgid "Underflow"
-msgstr "క్రింది గీత"
-
-#: 3rdparty/phonon/mmf/utils.cpp:99
-#, fuzzy
-#| msgid "%1: already exists"
-msgid "Already exists"
-msgstr "%1: ముందె కలదు"
-
-#: 3rdparty/phonon/mmf/utils.cpp:101
-#, fuzzy
-#| msgid "Host not found"
-msgid "Path not found"
-msgstr "హొస్ట్ కనపడుట లేదు"
-
-#: 3rdparty/phonon/mmf/utils.cpp:103
-#, fuzzy
-#| msgid "Insert"
-msgid "In use"
-msgstr "చేర్చు"
-
-#: 3rdparty/phonon/mmf/utils.cpp:105
-msgid "Not ready"
+#: 3rdparty/phonon/mmf/effectfactory.cpp:79
+msgctxt "Phonon::MMF::EffectFactory"
+msgid "Stereo Widening"
 msgstr ""
-
-#: 3rdparty/phonon/mmf/utils.cpp:107
-#, fuzzy
-#| msgctxt "QIODevice"
-#| msgid "Permission denied"
-msgid "Access denied"
-msgstr "అనుమతి తిరస్కరించబడినది"
-
-#: 3rdparty/phonon/mmf/utils.cpp:109
-#, fuzzy
-#| msgctxt "QIBaseResult"
-#| msgid "Could not fetch next item"
-msgid "Could not connect"
-msgstr "తరువాతి అంశాన్ని తీసుకురాలెకపొయాను"
-
-#: 3rdparty/phonon/mmf/utils.cpp:111
-#, fuzzy
-#| msgid "Socket is not connected"
-msgid "Disconnected"
-msgstr "సాకెట్ ముందే జతపరచడలేదు"
-
-#: 3rdparty/phonon/mmf/utils.cpp:117
-msgid "Insufficient bandwidth"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/utils.cpp:120
-msgid "Network unavailable"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/utils.cpp:124
-#, fuzzy
-#| msgctxt "QNativeSocketEngine"
-#| msgid "Network error"
-msgid "Network communication error"
-msgstr "నెట్వర్క్ దోషం"
-
-#: 3rdparty/phonon/mmf/utils.cpp:126
-#, fuzzy
-#| msgid "Operation not supported on %1"
-msgid "Streaming not supported"
-msgstr "%1 మీద కార్యానికి మద్దతు లేదు"
-
-#: 3rdparty/phonon/mmf/utils.cpp:128
-msgid "Server alert"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/utils.cpp:130
-#, fuzzy
-#| msgid "Invalid document."
-msgid "Invalid protocol"
-msgstr "తప్పు పత్రం."
-
-#: 3rdparty/phonon/mmf/utils.cpp:132
-#: 3rdparty/webkit/WebKit/qt/tests/qwebframe/tst_qwebframe.cpp:2203
-#, fuzzy
-#| msgid "Invalid URI: %1"
-msgid "Invalid URL"
-msgstr "చెల్లని యూఆర్ ఐ: %1"
-
-#: 3rdparty/phonon/mmf/utils.cpp:134
-msgid "Multicast error"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/utils.cpp:137
-msgid "Proxy server error"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/utils.cpp:139
-#, fuzzy
-#| msgctxt "QNativeSocketEngine"
-#| msgid "Protocol type not supported"
-msgid "Proxy server not supported"
-msgstr "ప్రొటొకాల్ రకము కొరకు సహాయంలేదు"
-
-#: 3rdparty/phonon/mmf/utils.cpp:141
-msgid "Audio output error"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/utils.cpp:143
-msgid "Video output error"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/utils.cpp:145
-#, fuzzy
-#| msgctxt "QNativeSocketEngine"
-#| msgid "Network error"
-msgid "Decoder error"
-msgstr "నెట్వర్క్ దోషం"
-
-#: 3rdparty/phonon/mmf/utils.cpp:147
-msgid "Audio or video components could not be played"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/utils.cpp:149
-#, fuzzy
-#| msgctxt "QNativeSocketEngine"
-#| msgid "Network error"
-msgid "DRM error"
-msgstr "నెట్వర్క్ దోషం"
-
-#: 3rdparty/phonon/mmf/utils.cpp:164
-#, fuzzy, qt-format
-#| msgid "Unknown error"
-msgid "Unknown error (%1)"
-msgstr "తెలియని దోషము"
 
 #: 3rdparty/phonon/gstreamer/mediaobject.cpp:90
 msgid ""
@@ -8497,237 +8252,243 @@ msgctxt "QWebPage"
 msgid "Bad HTTP request"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:1833
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:1827
 #, qt-format
 msgid "JavaScript Alert - %1"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:1849
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:1843
 #, qt-format
 msgid "JavaScript Confirm - %1"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:1868
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:1862
 #, qt-format
 msgid "JavaScript Prompt - %1"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:1893
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:1887
 #, qt-format
 msgid "JavaScript Problem - %1"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:1893
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:1887
 msgid ""
 "The script on this page appears to have a problem. Do you want to stop the "
 "script?"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2274
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2268
 msgid "Move the cursor to the next character"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2277
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2271
 msgid "Move the cursor to the previous character"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2280
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2274
 msgid "Move the cursor to the next word"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2283
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2277
 msgid "Move the cursor to the previous word"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2286
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2280
 msgid "Move the cursor to the next line"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2289
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2283
 msgid "Move the cursor to the previous line"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2292
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2286
 msgid "Move the cursor to the start of the line"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2295
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2289
 msgid "Move the cursor to the end of the line"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2298
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2292
 msgid "Move the cursor to the start of the block"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2301
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2295
 msgid "Move the cursor to the end of the block"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2304
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2298
 msgid "Move the cursor to the start of the document"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2307
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2301
 msgid "Move the cursor to the end of the document"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2310
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2304
 #, fuzzy
 #| msgid "Select All"
 msgid "Select all"
 msgstr "అన్నిటినీ ఎంచుకొనుము"
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2313
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2307
 #, fuzzy
 #| msgctxt "QXml"
 #| msgid "unexpected character"
 msgid "Select to the next character"
 msgstr "ఊహించని అక్షరము"
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2316
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2310
 #, fuzzy
 #| msgctxt "QODBCResult"
 #| msgid "Unable to fetch previous"
 msgid "Select to the previous character"
 msgstr "ముందు వున్న దానిని తీసుకురాలేక పొయాను"
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2319
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2313
 #, fuzzy
 #| msgctxt "QODBCResult"
 #| msgid "Unable to fetch next"
 msgid "Select to the next word"
 msgstr "తరువాత వున్న దానిని తీసుకురాలేక పొయాను"
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2322
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2316
 #, fuzzy
 #| msgctxt "QODBCResult"
 #| msgid "Unable to fetch previous"
 msgid "Select to the previous word"
 msgstr "ముందు వున్న దానిని తీసుకురాలేక పొయాను"
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2325
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2319
 #, fuzzy
 #| msgctxt "QODBCResult"
 #| msgid "Unable to fetch next"
 msgid "Select to the next line"
 msgstr "తరువాత వున్న దానిని తీసుకురాలేక పొయాను"
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2328
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2322
 #, fuzzy
 #| msgctxt "QODBCResult"
 #| msgid "Unable to fetch previous"
 msgid "Select to the previous line"
 msgstr "ముందు వున్న దానిని తీసుకురాలేక పొయాను"
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2331
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2325
 msgid "Select to the start of the line"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2334
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2328
 msgid "Select to the end of the line"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2337
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2331
 msgid "Select to the start of the block"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2340
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2334
 msgid "Select to the end of the block"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2343
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2337
 msgid "Select to the start of the document"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2346
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2340
 msgid "Select to the end of the document"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2349
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2343
 msgid "Delete to the start of the word"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2352
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2346
 msgid "Delete to the end of the word"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2385
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2379
 msgid "Insert a new paragraph"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2388
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2382
 msgid "Insert a new line"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2392
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2386
 msgid "Paste and Match Style"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2395
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2389
 msgid "Remove formatting"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2399
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2393
 #, fuzzy
 #| msgid "Stri&keout"
 msgid "Strikethrough"
 msgstr "(&k) కొట్టివేత"
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2403
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2397
 #, fuzzy
 #| msgid "Submit"
 msgid "Subscript"
 msgstr "అందించు"
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2407
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2401
 msgid "Superscript"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2411
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2405
 msgid "Insert Bulleted List"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2415
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2409
 msgid "Insert Numbered List"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2419
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2413
 #, fuzzy
 #| msgid "Insert"
 msgid "Indent"
 msgstr "చేర్చు"
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2422
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2416
 msgid "Outdent"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2425
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2419
 #, fuzzy
 #| msgctxt "QShortcut"
 #| msgid "Enter"
 msgid "Center"
 msgstr "ఎంటర్"
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2428
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2422
 msgid "Justify"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2431
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2425
 msgid "Align Left"
 msgstr ""
 
-#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2434
+#: 3rdparty/webkit/WebKit/qt/Api/qwebpage.cpp:2428
 #, fuzzy
 #| msgctxt "QShortcut"
 #| msgid "Right"
 msgid "Align Right"
 msgstr "కుడి"
 
-#: 3rdparty/webkit/WebKit/qt/tests/qwebframe/tst_qwebframe.cpp:2200
+#: 3rdparty/webkit/WebKit/qt/tests/qwebframe/tst_qwebframe.cpp:2199
 #, fuzzy
 #| msgid "%1: key error"
 msgid "Fake error !"
 msgstr "%1: కీ దోషము"
+
+#: 3rdparty/webkit/WebKit/qt/tests/qwebframe/tst_qwebframe.cpp:2202
+#, fuzzy
+#| msgid "Invalid URI: %1"
+msgid "Invalid URL"
+msgstr "చెల్లని యూఆర్ ఐ: %1"
 
 #: 3rdparty/webkit/WebKit/qt/WebCoreSupport/InspectorClientQt.cpp:167
 #, qt-format
@@ -8870,18 +8631,137 @@ msgid ""
 "Multiple input method switcher that uses the context menu of the text widgets"
 msgstr ""
 
-#, fuzzy
-#~| msgctxt "QShortcut"
-#~| msgid "Bass Boost"
-#~ msgctxt "Phonon::MMF::EffectFactory"
-#~ msgid "Bass Boost"
-#~ msgstr "బాస్ బూస్ట్"
+#~ msgctxt "QPrintPreviewDialog"
+#~ msgid "Close"
+#~ msgstr "మూసివెయుము"
 
 #, fuzzy
-#~| msgid "Less"
-#~ msgctxt "Phonon::MMF::EffectFactory"
-#~ msgid "Loudness"
-#~ msgstr "తక్కువ"
+#~| msgctxt "QMYSQLResult"
+#~| msgid "Unable to fetch data"
+#~ msgid "Unable to decrypt data: %1"
+#~ msgstr "దత్తాంశంను తీసుకురాలేకపొయాను"
+
+#, fuzzy
+#~| msgid "%1: ftok failed"
+#~ msgid "Seek failed"
+#~ msgstr "%1: ftok తప్పినది"
+
+#, fuzzy
+#~| msgctxt "QNetworkAccessFileBackend"
+#~| msgid "Error opening %1: %2"
+#~ msgid "Error opening file"
+#~ msgstr "%1 తెరచుటలో దోషము: %2"
+
+#, fuzzy
+#~| msgctxt "QNetworkAccessFileBackend"
+#~| msgid "Error opening %1: %2"
+#~ msgid "Error opening URL"
+#~ msgstr "%1 తెరచుటలో దోషము: %2"
+
+#, fuzzy
+#~| msgid "%1 TB"
+#~ msgid "%1 Hz"
+#~ msgstr "%1 TB"
+
+#, fuzzy
+#~| msgctxt "QNativeSocketEngine"
+#~| msgid "Protocol type not supported"
+#~ msgid "Error opening source: type not supported"
+#~ msgstr "ప్రొటొకాల్ రకము కొరకు సహాయంలేదు"
+
+#, fuzzy
+#~| msgid "Host not found"
+#~ msgid "Not found"
+#~ msgstr "హొస్ట్ కనపడుట లేదు"
+
+#, fuzzy
+#~| msgctxt "QNativeSocketEngine"
+#~| msgid "Out of resources"
+#~ msgid "Out of memory"
+#~ msgstr "వనరులు అయిపొయినవి"
+
+#, fuzzy
+#~| msgctxt "QNativeSocketEngine"
+#~| msgid "Protocol type not supported"
+#~ msgid "Not supported"
+#~ msgstr "ప్రొటొకాల్ రకము కొరకు సహాయంలేదు"
+
+#, fuzzy
+#~| msgctxt "Underline context menu item"
+#~| msgid "Underline"
+#~ msgid "Underflow"
+#~ msgstr "క్రింది గీత"
+
+#, fuzzy
+#~| msgid "%1: already exists"
+#~ msgid "Already exists"
+#~ msgstr "%1: ముందె కలదు"
+
+#, fuzzy
+#~| msgid "Host not found"
+#~ msgid "Path not found"
+#~ msgstr "హొస్ట్ కనపడుట లేదు"
+
+#, fuzzy
+#~| msgid "Insert"
+#~ msgid "In use"
+#~ msgstr "చేర్చు"
+
+#, fuzzy
+#~| msgctxt "QIODevice"
+#~| msgid "Permission denied"
+#~ msgid "Access denied"
+#~ msgstr "అనుమతి తిరస్కరించబడినది"
+
+#, fuzzy
+#~| msgctxt "QIBaseResult"
+#~| msgid "Could not fetch next item"
+#~ msgid "Could not connect"
+#~ msgstr "తరువాతి అంశాన్ని తీసుకురాలెకపొయాను"
+
+#, fuzzy
+#~| msgid "Socket is not connected"
+#~ msgid "Disconnected"
+#~ msgstr "సాకెట్ ముందే జతపరచడలేదు"
+
+#, fuzzy
+#~| msgctxt "QNativeSocketEngine"
+#~| msgid "Network error"
+#~ msgid "Network communication error"
+#~ msgstr "నెట్వర్క్ దోషం"
+
+#, fuzzy
+#~| msgid "Operation not supported on %1"
+#~ msgid "Streaming not supported"
+#~ msgstr "%1 మీద కార్యానికి మద్దతు లేదు"
+
+#, fuzzy
+#~| msgid "Invalid document."
+#~ msgid "Invalid protocol"
+#~ msgstr "తప్పు పత్రం."
+
+#, fuzzy
+#~| msgctxt "QNativeSocketEngine"
+#~| msgid "Protocol type not supported"
+#~ msgid "Proxy server not supported"
+#~ msgstr "ప్రొటొకాల్ రకము కొరకు సహాయంలేదు"
+
+#, fuzzy
+#~| msgctxt "QNativeSocketEngine"
+#~| msgid "Network error"
+#~ msgid "Decoder error"
+#~ msgstr "నెట్వర్క్ దోషం"
+
+#, fuzzy
+#~| msgctxt "QNativeSocketEngine"
+#~| msgid "Network error"
+#~ msgid "DRM error"
+#~ msgstr "నెట్వర్క్ దోషం"
+
+#, fuzzy
+#~| msgid "Unknown error"
+#~ msgid "Unknown error (%1)"
+#~ msgstr "తెలియని దోషము"
 
 #~ msgid "Error to open database"
 #~ msgstr "డెటాబేస్ ను తెరువుటలొ దొషం"
