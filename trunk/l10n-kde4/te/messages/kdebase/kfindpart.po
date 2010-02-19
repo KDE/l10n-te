@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-20 06:12+0100\n"
+"POT-Creation-Date: 2010-02-19 06:47+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -61,99 +61,96 @@ msgstr ""
 msgid "Could not find the specified folder."
 msgstr ""
 
-#: kfindpart.cpp:81
-msgctxt "Name of the component that finds things"
-msgid "Find Component"
-msgstr ""
-
-#: kfindtreeview.cpp:49
+#: kfindtreeview.cpp:52
 msgid "Read-write"
 msgstr ""
 
-#: kfindtreeview.cpp:50
+#: kfindtreeview.cpp:53
 msgid "Read-only"
 msgstr ""
 
-#: kfindtreeview.cpp:51
+#: kfindtreeview.cpp:54
 msgid "Write-only"
 msgstr ""
 
-#: kfindtreeview.cpp:52
+#: kfindtreeview.cpp:55
 msgid "Inaccessible"
 msgstr ""
 
-#: kfindtreeview.cpp:71
+#: kfindtreeview.cpp:74
 #, fuzzy
 #| msgid "Name"
 msgctxt "file name column"
 msgid "Name"
 msgstr "పేరు"
 
-#: kfindtreeview.cpp:73
+#: kfindtreeview.cpp:76
 msgctxt "name of the containing folder"
 msgid "In Subfolder"
 msgstr ""
 
-#: kfindtreeview.cpp:75
+#: kfindtreeview.cpp:78
 #, fuzzy
 #| msgid "Size"
 msgctxt "file size column"
 msgid "Size"
 msgstr "పరిమాణము"
 
-#: kfindtreeview.cpp:77
+#: kfindtreeview.cpp:80
 msgctxt "modified date column"
 msgid "Modified"
 msgstr ""
 
-#: kfindtreeview.cpp:79
+#: kfindtreeview.cpp:82
 #, fuzzy
 #| msgid "Permissions"
 msgctxt "file permissions column"
 msgid "Permissions"
 msgstr "అనుమతులు"
 
-#: kfindtreeview.cpp:81
+#: kfindtreeview.cpp:84
 msgctxt "first matching line of the query string in this file"
 msgid "First Matching Line"
 msgstr ""
 
-#: kfindtreeview.cpp:348
+#: kfindtreeview.cpp:353
 msgid "&Open containing folder(s)"
 msgstr ""
 
-#: kfindtreeview.cpp:352
+#: kfindtreeview.cpp:357
 #, fuzzy
 #| msgid "Delete"
 msgid "&Delete"
 msgstr "తొలగించుము"
 
-#: kfindtreeview.cpp:357
+#: kfindtreeview.cpp:362
 msgid "&Move to Trash"
 msgstr ""
 
-#: kfindtreeview.cpp:440
+#: kfindtreeview.cpp:445
 msgid "Save Results As"
 msgstr ""
 
-#: kfindtreeview.cpp:441
+#: kfindtreeview.cpp:446
 msgid "HTML page"
 msgstr ""
 
-#: kfindtreeview.cpp:441
+#: kfindtreeview.cpp:446
 msgid "Text file"
 msgstr ""
 
-#: kfindtreeview.cpp:461
+#: kfindtreeview.cpp:466
 msgid "Unable to save results."
 msgstr ""
 
-#: kfindtreeview.cpp:477
+#: kfindtreeview.cpp:482
 msgid "KFind Results File"
 msgstr ""
 
-#: kfindtreeview.cpp:498
-msgid "Results were saved to file\n"
+#: kfindtreeview.cpp:502
+#, kde-format
+msgctxt "%1=filename"
+msgid "Results were saved to: %1"
 msgstr ""
 
 #: kftabdlg.cpp:73
