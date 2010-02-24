@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-23 07:03+0100\n"
+"POT-Creation-Date: 2010-02-24 07:09+0100\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -2291,12 +2291,12 @@ msgstr "హోస్ట్ పేరు మార్పును కెడిఈ
 msgid "(c) 2001 Waldo Bastian"
 msgstr "(c) 2001 వాల్డొ బాస్టియన్"
 
-#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:639 khtml/khtml_global.cpp:212
+#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:622 khtml/khtml_global.cpp:212
 #: kconf_update/kconf_update.cpp:963
 msgid "Waldo Bastian"
 msgstr "వాల్డొ బాస్టియన్"
 
-#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:638 kded/kbuildsycoca.cpp:639
+#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:621 kded/kbuildsycoca.cpp:622
 #: kross/qts/main.cpp:63 kross/test/main.cpp:149 kross/console/main.cpp:102
 #: kde3support/kdeui/k3aboutdialog.cpp:184
 msgid "Author"
@@ -2322,105 +2322,49 @@ msgstr "KDE డెమోన్ - Sycoca డాటాబేస్ నవీకర
 msgid "Check Sycoca database only once"
 msgstr "ఒక్కసారి మాత్రమే సైకొకా డెటబేస్ తనఖీచేయి"
 
-#: kded/kbuildsycoca.cpp:406
-#, kde-format
-msgid ""
-"Error creating database '%1'.\n"
-"Check that the permissions are correct on the directory and the disk is not "
-"full.\n"
-msgstr ""
-"'%1' డెటాబేస్ సృష్టించునప్పుడు దోషం కలిగినది.\n"
-"డైరక్టరి మీద అనుమతులు సరిచూడండి మరయూ \n"
-"డిస్క్ పూర్తిగా నిండలేదు.\n"
-
-#: kded/kbuildsycoca.cpp:406 kded/kbuildsycoca.cpp:437
-#: kded/kbuildsycoca.cpp:635
+#: kded/kbuildsycoca.cpp:618
 msgid "KBuildSycoca"
 msgstr "కెబిల్డ్ సైకొక"
 
-#: kded/kbuildsycoca.cpp:437
-#, kde-format
-msgid ""
-"Error writing database '%1'.\n"
-"Check that the permissions are correct on the directory and the disk is not "
-"full.\n"
-msgstr ""
-"'%1' డెటాబేస్ వ్రాయునప్పుడు దోషం కలిగినది.\n"
-"డైరక్టరి మీద అనుమతులు సరిచూడండి మరయూ \n"
-"డిస్క్ పూర్తిగా నిండలేదు.\n"
-
-#: kded/kbuildsycoca.cpp:636
+#: kded/kbuildsycoca.cpp:619
 msgid "Rebuilds the system configuration cache."
 msgstr "సిస్టమ్ ఆకృతీకరణ క్యాచీను తిరిగినిర్మిస్తుంది."
 
-#: kded/kbuildsycoca.cpp:637
+#: kded/kbuildsycoca.cpp:620
 msgid "(c) 1999-2002 KDE Developers"
 msgstr "(c) 1999-2002 కెడిఈ వికాసకులు"
 
-#: kded/kbuildsycoca.cpp:638
+#: kded/kbuildsycoca.cpp:621
 msgid "David Faure"
 msgstr "డెవిడ్ ఫావ్రె"
 
-#: kded/kbuildsycoca.cpp:642
+#: kded/kbuildsycoca.cpp:625
 msgid "Do not signal applications to update"
 msgstr "అనువర్తనములు నవీకరించబడుటకు సంకేతము యీయవద్దు"
 
-#: kded/kbuildsycoca.cpp:643
+#: kded/kbuildsycoca.cpp:626
 msgid "Disable incremental update, re-read everything"
 msgstr "పురోగమన నవీకరణను అచేతనపరచుము, ప్రతిదానిని తిరిగి-చదువుము"
 
-#: kded/kbuildsycoca.cpp:644
+#: kded/kbuildsycoca.cpp:627
 msgid "Check file timestamps"
 msgstr "దస్త్రపు సమయమును తనఖిచేయి"
 
-#: kded/kbuildsycoca.cpp:645
+#: kded/kbuildsycoca.cpp:628
 msgid "Disable checking files (dangerous)"
 msgstr "దస్త్రాలను తనఖిచేయకు (ప్రమాదకరం)"
 
-#: kded/kbuildsycoca.cpp:646
+#: kded/kbuildsycoca.cpp:629
 msgid "Create global database"
 msgstr "వసుదైక డెటాబేస్ సృష్టించు"
 
-#: kded/kbuildsycoca.cpp:647
+#: kded/kbuildsycoca.cpp:630
 msgid "Perform menu generation test run only"
 msgstr "పట్టి సృష్టి పరీక్ష మాత్రమే నిర్వహించు"
 
-#: kded/kbuildsycoca.cpp:648
+#: kded/kbuildsycoca.cpp:631
 msgid "Track menu id for debug purposes"
 msgstr "డీబగ్ ప్రయొజనాల కొరకు పట్టి ఐడి ని వెంబడించు"
-
-#: kded/kbuildsycoca.cpp:650
-msgid "Silent - work without windows and stderr"
-msgstr "నిశ్శబ్డం - విండోలు మరయూ stderr లేకుండా పనిచేయి"
-
-#: kded/kbuildsycoca.cpp:651
-msgid "Show progress information (even if 'silent' mode is on)"
-msgstr "పురోగతి సమచారం చూపించు ('నిశ్శబ్ద' స్థితి లోవున్నా సరే)"
-
-#: kded/kbuildsycoca.cpp:677
-msgid "Reloading KDE configuration, please wait..."
-msgstr "కెడిఈ ఆకృతీకరణను మళ్లి ఎక్కిస్తున్నా, దయచేసి ఆగండి..."
-
-#: kded/kbuildsycoca.cpp:678
-msgid "KDE Configuration Manager"
-msgstr "కెడిఈ ఆకృతీకరణ అభికర్త"
-
-#: kded/kbuildsycoca.cpp:680
-msgid "Do you want to reload KDE configuration?"
-msgstr "కెడిఈ ఆకృతీకరణను మళ్లి ఎక్కించమటారా?"
-
-#: kded/kbuildsycoca.cpp:680
-msgctxt "Reload KDE configuration messagebox"
-msgid "Reload"
-msgstr "తిరిగి ఎక్కించు"
-
-#: kded/kbuildsycoca.cpp:680
-msgid "Do Not Reload"
-msgstr "మళ్లి ఎక్కించవద్దు"
-
-#: kded/kbuildsycoca.cpp:858
-msgid "Configuration information reloaded successfully."
-msgstr "ఆకృతీకరణ సమాచారం సఫలంగా మళ్లి ఎక్కించడమైనది."
 
 #: kpty/kptydevice.cpp:306
 msgid "Error reading from PTY"
@@ -8264,18 +8208,18 @@ msgstr "అచ్చుతప్పులు సరిచూడుట పూర�
 msgid "Sonnet Configuration"
 msgstr "సాన్నెట్ ఆకృతీకరణ"
 
-#: kdeui/sonnet/highlighter.cpp:241 kdeui/sonnet/highlighter.cpp:264
+#: kdeui/sonnet/highlighter.cpp:292 kdeui/sonnet/highlighter.cpp:315
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:470
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:576
 msgid "As-you-type spell checking enabled."
 msgstr "మీరు-టైపు-చేసినట్లు అచ్చుతప్పులు సరిచూడుట చేతనపరచబడింది."
 
-#: kdeui/sonnet/highlighter.cpp:243
+#: kdeui/sonnet/highlighter.cpp:294
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:578
 msgid "Too many misspelled words. As-you-type spell checking disabled."
 msgstr "చాలా అచ్చుతప్పులుగల పదములు. మీరు-టైపు-చేసినట్లు అచ్చుతప్పులు సరిచూడుట అచేతనపరచబడింది."
 
-#: kdeui/sonnet/highlighter.cpp:266
+#: kdeui/sonnet/highlighter.cpp:317
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:472
 msgid "As-you-type spell checking disabled."
 msgstr "మీరు-టైపు-చేసినట్లు అచ్చుతప్పులు పరిశీలించుట అచేతపరచబడింది."
@@ -13028,6 +12972,49 @@ msgstr "(&D) ఈ రోజు సూచన"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "\"%1\" ఇలాంటి ప్రమేయం లేదు"
+
+#~ msgid ""
+#~ "Error creating database '%1'.\n"
+#~ "Check that the permissions are correct on the directory and the disk is "
+#~ "not full.\n"
+#~ msgstr ""
+#~ "'%1' డెటాబేస్ సృష్టించునప్పుడు దోషం కలిగినది.\n"
+#~ "డైరక్టరి మీద అనుమతులు సరిచూడండి మరయూ \n"
+#~ "డిస్క్ పూర్తిగా నిండలేదు.\n"
+
+#~ msgid ""
+#~ "Error writing database '%1'.\n"
+#~ "Check that the permissions are correct on the directory and the disk is "
+#~ "not full.\n"
+#~ msgstr ""
+#~ "'%1' డెటాబేస్ వ్రాయునప్పుడు దోషం కలిగినది.\n"
+#~ "డైరక్టరి మీద అనుమతులు సరిచూడండి మరయూ \n"
+#~ "డిస్క్ పూర్తిగా నిండలేదు.\n"
+
+#~ msgid "Silent - work without windows and stderr"
+#~ msgstr "నిశ్శబ్డం - విండోలు మరయూ stderr లేకుండా పనిచేయి"
+
+#~ msgid "Show progress information (even if 'silent' mode is on)"
+#~ msgstr "పురోగతి సమచారం చూపించు ('నిశ్శబ్ద' స్థితి లోవున్నా సరే)"
+
+#~ msgid "Reloading KDE configuration, please wait..."
+#~ msgstr "కెడిఈ ఆకృతీకరణను మళ్లి ఎక్కిస్తున్నా, దయచేసి ఆగండి..."
+
+#~ msgid "KDE Configuration Manager"
+#~ msgstr "కెడిఈ ఆకృతీకరణ అభికర్త"
+
+#~ msgid "Do you want to reload KDE configuration?"
+#~ msgstr "కెడిఈ ఆకృతీకరణను మళ్లి ఎక్కించమటారా?"
+
+#~ msgctxt "Reload KDE configuration messagebox"
+#~ msgid "Reload"
+#~ msgstr "తిరిగి ఎక్కించు"
+
+#~ msgid "Do Not Reload"
+#~ msgstr "మళ్లి ఎక్కించవద్దు"
+
+#~ msgid "Configuration information reloaded successfully."
+#~ msgstr "ఆకృతీకరణ సమాచారం సఫలంగా మళ్లి ఎక్కించడమైనది."
 
 #, fuzzy
 #~| msgid "From:"
