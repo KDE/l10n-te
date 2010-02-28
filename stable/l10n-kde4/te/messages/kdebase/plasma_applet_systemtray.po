@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_systemtray\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-25 01:24+0100\n"
+"POT-Creation-Date: 2010-02-26 20:28+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,17 +25,66 @@ msgstr ""
 "\n"
 "\n"
 
-#: ui/taskarea.cpp:395
-msgid "Hide icons"
+#: statusnotifierwatcher/statusnotifierwatcher.cpp:36
+msgid "statusnotifierwatcher"
 msgstr ""
 
-#: ui/taskarea.cpp:397
-msgid "Show hidden icons"
-msgstr ""
-
-#: ui/notificationwidget.cpp:166
+#: core/extendertask.cpp:162
 #, kde-format
-msgid "Notification from %1"
+msgid "%1 Recently Completed Job:"
+msgid_plural "%1 Recently Completed Jobs:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/extendertask.cpp:195
+#, kde-format
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/extendertask.cpp:202
+#, kde-format
+msgid "%1 suspended job"
+msgid_plural "%1 suspended jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/extendertask.cpp:209
+#, kde-format
+msgid "%1 notification"
+msgid_plural "%1 notifications"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/extendertask.cpp:214
+msgid "No active jobs or notifications"
+msgstr ""
+
+#: core/extendertask.cpp:217
+msgid "Notifications and jobs"
+msgstr ""
+
+#: core/extendertask.cpp:270
+msgid "Show or hide notifications and jobs"
+msgstr ""
+
+#: core/job.cpp:180
+#, kde-format
+msgid "%1 file, to: %2"
+msgid_plural "%1 files, to: %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/manager.cpp:227
+#, kde-format
+msgid "1 running job (%2 remaining)"
+msgid_plural "%1 running jobs (%2 remaining)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/manager.cpp:232
+msgid "no running jobs"
 msgstr ""
 
 #: ui/jobwidget.cpp:99 ui/jobwidget.cpp:381
@@ -152,66 +201,17 @@ msgstr ""
 msgid "Recently Completed Jobs"
 msgstr ""
 
-#: core/job.cpp:180
+#: ui/notificationwidget.cpp:166
 #, kde-format
-msgid "%1 file, to: %2"
-msgid_plural "%1 files, to: %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/manager.cpp:227
-#, kde-format
-msgid "1 running job (%2 remaining)"
-msgid_plural "%1 running jobs (%2 remaining)"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/manager.cpp:232
-msgid "no running jobs"
+msgid "Notification from %1"
 msgstr ""
 
-#: core/extendertask.cpp:162
-#, kde-format
-msgid "%1 Recently Completed Job:"
-msgid_plural "%1 Recently Completed Jobs:"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/extendertask.cpp:195
-#, kde-format
-msgid "%1 running job"
-msgid_plural "%1 running jobs"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/extendertask.cpp:202
-#, kde-format
-msgid "%1 suspended job"
-msgid_plural "%1 suspended jobs"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/extendertask.cpp:209
-#, kde-format
-msgid "%1 notification"
-msgid_plural "%1 notifications"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/extendertask.cpp:214
-msgid "No active jobs or notifications"
+#: ui/taskarea.cpp:395
+msgid "Hide icons"
 msgstr ""
 
-#: core/extendertask.cpp:217
-msgid "Notifications and jobs"
-msgstr ""
-
-#: core/extendertask.cpp:270
-msgid "Show or hide notifications and jobs"
-msgstr ""
-
-#: statusnotifierwatcher/statusnotifierwatcher.cpp:36
-msgid "statusnotifierwatcher"
+#: ui/taskarea.cpp:397
+msgid "Show hidden icons"
 msgstr ""
 
 #: rc.cpp:1

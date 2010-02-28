@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-15 06:11+0200\n"
+"POT-Creation-Date: 2010-02-26 20:27+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,27 +25,16 @@ msgstr ""
 "\n"
 "\n"
 
-#: ktrash.cpp:32
-msgid "ktrash"
+#: kio_trash_win.cpp:228 kio_trash.cpp:140
+msgid "This file is already in the trash bin."
 msgstr ""
 
-#: ktrash.cpp:34
-msgid ""
-"Helper program to handle the KDE trash can\n"
-"Note: to move files to the trash, do not use ktrash, but \"kioclient move "
-"'url' trash:/\""
+#: kio_trash_win.cpp:241
+msgid "not supported"
 msgstr ""
 
-#: ktrash.cpp:38
-msgid "Empty the contents of the trash"
-msgstr ""
-
-#: ktrash.cpp:40
-msgid "Restore a trashed file to its original location"
-msgstr ""
-
-#: ktrash.cpp:42
-msgid "Ignored"
+#: kio_trash_win.cpp:252 kio_trash.cpp:228
+msgid "Internal error in copyOrMove, should never happen"
 msgstr ""
 
 #: trashimpl.cpp:1116
@@ -178,14 +167,25 @@ msgid ""
 "restore it."
 msgstr ""
 
-#: kio_trash.cpp:140 kio_trash_win.cpp:228
-msgid "This file is already in the trash bin."
+#: ktrash.cpp:32
+msgid "ktrash"
 msgstr ""
 
-#: kio_trash.cpp:228 kio_trash_win.cpp:252
-msgid "Internal error in copyOrMove, should never happen"
+#: ktrash.cpp:34
+msgid ""
+"Helper program to handle the KDE trash can\n"
+"Note: to move files to the trash, do not use ktrash, but \"kioclient move "
+"'url' trash:/\""
 msgstr ""
 
-#: kio_trash_win.cpp:241
-msgid "not supported"
+#: ktrash.cpp:38
+msgid "Empty the contents of the trash"
+msgstr ""
+
+#: ktrash.cpp:40
+msgid "Restore a trashed file to its original location"
+msgstr ""
+
+#: ktrash.cpp:42
+msgid "Ignored"
 msgstr ""

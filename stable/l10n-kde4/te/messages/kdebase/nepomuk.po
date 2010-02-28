@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-18 01:25+0100\n"
+"POT-Creation-Date: 2010-02-26 20:27+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,120 +25,15 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: kcm/folderselectionmodel.cpp:108
-#, kde-format
-msgctxt "@info:tooltip %1 is the path of the folder in a listview"
-msgid "<filename>%1</filename><nl/>(will be indexed for desktop search)"
-msgstr ""
-
-#: kcm/folderselectionmodel.cpp:112
-#, kde-format
-msgctxt "@info:tooltip %1 is the path of the folder in a listview"
-msgid ""
-"<filename>%1</filename><nl/> (will <emphasis>not</emphasis> be indexed for "
-"desktop search)"
-msgstr ""
-
-#: kcm/nepomukserverkcm.cpp:88
-msgid "Nepomuk Configuration Module"
-msgstr ""
-
-#: kcm/nepomukserverkcm.cpp:90
-msgid "Copyright 2007 Sebastian Trüg"
-msgstr ""
-
-#: kcm/nepomukserverkcm.cpp:91 server/main.cpp:96 servicestub/main.cpp:75
-msgid "Sebastian Trüg"
-msgstr ""
-
-#: kcm/nepomukserverkcm.cpp:146
-msgid "No Soprano Database backend available. Please check your installation."
-msgstr ""
-
-#: kcm/nepomukserverkcm.cpp:147
-msgid "Nepomuk cannot be started"
-msgstr ""
-
-#: kcm/nepomukserverkcm.cpp:155
-msgid ""
-"The Nepomuk Server is not running. The settings will be used the next time "
-"the server is started."
-msgstr ""
-
-#: kcm/nepomukserverkcm.cpp:157 kcm/nepomukserverkcm.cpp:234
-msgid "Nepomuk server not running"
-msgstr ""
-
-#: kcm/nepomukserverkcm.cpp:232
-msgid ""
-"The Nepomuk Server is not running. The settings have been saved and will be "
-"used the next time the server is started."
-msgstr ""
-
-#: kcm/nepomukserverkcm.cpp:261
-#, kde-format
-msgctxt "@info:status %1 is an error message returned by a dbus interface."
-msgid "Failed to contact Strigi indexer (%1)"
-msgstr ""
-
-#: kcm/nepomukserverkcm.cpp:271
-msgctxt "@info:status"
-msgid ""
-"Strigi service failed to initialize, most likely due to an installation "
-"problem."
-msgstr ""
-
-#: kcm/nepomukserverkcm.cpp:275
-msgctxt "@info:status"
-msgid "Strigi service not running."
-msgstr ""
-
-#: kioslaves/nepomuk/resourcepagegenerator.cpp:182
-msgid "Resource does not exist"
-msgstr ""
-
-#: kioslaves/nepomuk/resourcepagegenerator.cpp:184
-msgid "Relations:"
-msgstr ""
-
-#: kioslaves/nepomuk/resourcepagegenerator.cpp:212
-msgid "Backlinks:"
-msgstr ""
-
-#: kioslaves/nepomuk/resourcepagegenerator.cpp:232
-msgid "Actions:"
-msgstr ""
-
-#: kioslaves/nepomuk/resourcepagegenerator.cpp:233
-msgid "Delete resource"
-msgstr ""
-
-#: kioslaves/nepomuk/kio_nepomuk.cpp:303
-#, kde-format
-msgctxt "@info"
-msgid ""
-"Please insert the removable medium <resource>%1</resource> to access this "
-"file."
-msgstr ""
-
-#: kioslaves/nepomuk/kio_nepomuk.cpp:325
-msgid ""
-"Do you really want to delete the resource and all relations to and from it?"
-msgstr ""
-
-#: kioslaves/nepomuk/kio_nepomuk.cpp:328
-msgid "Delete Resource"
-msgstr ""
-
-#: kioslaves/nepomuk/kio_nepomuk.cpp:618
-#: kioslaves/search/kio_nepomuksearch.cpp:125
-msgid ""
-"The Nepomuk system is not activated. Unable to answer queries without it."
-msgstr ""
-
 #: kioslaves/search/kio_nepomuksearch.cpp:59
 #: kioslaves/search/kio_nepomuksearch.cpp:251
 msgid "Query Results"
+msgstr ""
+
+#: kioslaves/search/kio_nepomuksearch.cpp:125
+#: kioslaves/nepomuk/kio_nepomuk.cpp:618
+msgid ""
+"The Nepomuk system is not activated. Unable to answer queries without it."
 msgstr ""
 
 #: kioslaves/search/kio_nepomuksearch.cpp:131
@@ -166,202 +61,123 @@ msgstr ""
 msgid "Calendar"
 msgstr ""
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-"కృష్ణబాబు కె \n"
-" విజయ్ కిరణ్ కముజు"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
-"k.meetme@gmail.com \n"
-" infyquest@gmail.com"
-
-#. i18n: file: kcm/nepomukconfigwidget.ui:14
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:5
-msgid "Basic Settings"
-msgstr ""
-
-#. i18n: file: kcm/nepomukconfigwidget.ui:20
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:8
-msgid "Nepomuk Semantic Desktop"
-msgstr ""
-
-#. i18n: file: kcm/nepomukconfigwidget.ui:26
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:11
+#: kioslaves/nepomuk/kio_nepomuk.cpp:303
+#, kde-format
+msgctxt "@info"
 msgid ""
-"Nepomuk Semantic Desktop enables tagging and rating of files integrated with "
-"the Desktop Search."
+"Please insert the removable medium <resource>%1</resource> to access this "
+"file."
 msgstr ""
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:36
-#. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableNepomuk)
-#: rc.cpp:14
-msgid "Enable Nepomuk Semantic Desktop"
-msgstr ""
-
-#. i18n: file: kcm/nepomukconfigwidget.ui:46
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:17
-msgid "Strigi Desktop File Indexer"
-msgstr ""
-
-#. i18n: file: kcm/nepomukconfigwidget.ui:52
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:20
+#: kioslaves/nepomuk/kio_nepomuk.cpp:325
 msgid ""
-"Strigi desktop search allows searching for files by content instead of just "
-"by name."
+"Do you really want to delete the resource and all relations to and from it?"
 msgstr ""
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:62
-#. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableStrigi)
-#: rc.cpp:23
-msgid "Enable Strigi Desktop File Indexer"
+#: kioslaves/nepomuk/kio_nepomuk.cpp:328
+msgid "Delete Resource"
 msgstr ""
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:123
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:26
-msgid "File Indexing"
+#: kioslaves/nepomuk/resourcepagegenerator.cpp:182
+msgid "Resource does not exist"
 msgstr ""
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:129
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:29
-msgid "Strigi Index Folders"
+#: kioslaves/nepomuk/resourcepagegenerator.cpp:184
+msgid "Relations:"
 msgstr ""
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:135
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:32
-msgid ""
-"Select the local folders that contain files to be indexed for fast desktop "
-"searches"
+#: kioslaves/nepomuk/resourcepagegenerator.cpp:212
+msgid "Backlinks:"
 msgstr ""
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:148
-#. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkShowHiddenFolders)
-#: rc.cpp:35
-msgid "Check to be able to select hidden folders"
+#: kioslaves/nepomuk/resourcepagegenerator.cpp:232
+msgid "Actions:"
 msgstr ""
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:151
-#. i18n: ectx: property (text), widget (QCheckBox, m_checkShowHiddenFolders)
-#: rc.cpp:38
-msgid "Show hidden folders"
+#: kioslaves/nepomuk/resourcepagegenerator.cpp:233
+msgid "Delete resource"
 msgstr ""
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:158
-#. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkIndexRemovableMedia)
-#: rc.cpp:41
-msgid ""
-"Index the files on removable media like USB sticks when they are mounted"
+#: services/ontologyloader/ontologyloader.cpp:118
+#, kde-format
+msgid "Parsing of file %1 failed (%2)"
 msgstr ""
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:161
-#. i18n: ectx: property (text), widget (QCheckBox, m_checkIndexRemovableMedia)
-#: rc.cpp:44
-msgid "Index Files on Removable Media"
+#: services/strigi/systray.cpp:41 services/strigi/systray.cpp:44
+#: services/strigi/systray.cpp:77
+msgid "Search Service"
 msgstr ""
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:171
-#. i18n: ectx: property (toolTip), widget (KEditListBox, m_editStrigiExcludeFilters)
-#: rc.cpp:47
-msgid "Filters which define the files that Strigi should ignore"
+#: services/strigi/systray.cpp:46 services/strigi/systray.cpp:47
+msgid "Suspend File Indexing"
 msgstr ""
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:177
-#. i18n: ectx: property (title), widget (KEditListBox, m_editStrigiExcludeFilters)
-#: rc.cpp:50
-msgid "Strigi Index Exclude Filters"
+#: services/strigi/systray.cpp:48
+msgid "Suspend or resume the file indexer manually"
 msgstr ""
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:185
-#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: rc.cpp:53
-msgid "Advanced Settings"
+#: services/strigi/systray.cpp:53
+msgid "Configure File Indexer"
 msgstr ""
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:191
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: rc.cpp:56
-msgid "Memory Usage"
+#: services/strigi/strigiservice.cpp:169
+msgctxt "@info:status"
+msgid "File indexer is suspended"
 msgstr ""
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:197
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:59
-msgid ""
-"The maximum amount of memory the Nepomuk database should use. The more "
-"memory Nepomuk has the more performant it will be."
+#: services/strigi/strigiservice.cpp:171
+#, kde-format
+msgctxt "@info:status"
+msgid "Strigi is currently indexing files in folder %1"
 msgstr ""
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:225
-#. i18n: ectx: property (suffix), widget (QSpinBox, m_editMemoryUsage)
-#: rc.cpp:62
-msgid " MB"
+#: services/strigi/strigiservice.cpp:173
+msgctxt "@info:status"
+msgid "Checking file system for new files"
 msgstr ""
 
-#. i18n: file: services/strigi/statuswidget.ui:9
-#. i18n: ectx: property (text), widget (KTitleWidget, m_title)
-#: rc.cpp:65
-msgid "Nepomuk Strigi File Indexing"
+#: services/strigi/strigiservice.cpp:175
+msgctxt "@info:status"
+msgid "File indexer is idle"
 msgstr ""
 
-#. i18n: file: services/strigi/statuswidget.ui:16
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:68
-msgid "Strigi Indexing State"
+#: services/strigi/statuswidget.cpp:53
+msgid "Configure"
+msgstr "ఆకృతీకరించుము"
+
+#: services/strigi/statuswidget.cpp:111
+msgid "Calculation failed"
 msgstr ""
 
-#. i18n: file: services/strigi/statuswidget.ui:35
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:71
-msgid "Nepomuk Storage State"
+#: services/strigi/statuswidget.cpp:122
+#, kde-format
+msgid "1 file in index"
+msgid_plural "%1 files in index"
+msgstr[0] ""
+msgstr[1] ""
+
+#: services/strigi/eventmonitor.cpp:70
+msgid "Indexing files for fast searching. This process may take a while."
 msgstr ""
 
-#. i18n: file: services/strigi/statuswidget.ui:41
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:74
-msgid "Indexed files:"
+#: services/strigi/eventmonitor.cpp:99 services/strigi/eventmonitor.cpp:131
+msgid "Resuming indexing of files for fast searching."
 msgstr ""
 
-#. i18n: file: services/strigi/statuswidget.ui:54
-#. i18n: ectx: property (text), widget (QLabel, m_labelFileCount)
-#. i18n: file: services/strigi/statuswidget.ui:74
-#. i18n: ectx: property (text), widget (QLabel, m_labelStoreSize)
-#: rc.cpp:77 rc.cpp:83
-msgid "Calculating..."
+#: services/strigi/eventmonitor.cpp:107
+msgid "Suspending the indexing of files to preserve resources."
 msgstr ""
 
-#. i18n: file: services/strigi/statuswidget.ui:61
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:80
-msgid "Nepomuk store size:"
+#: services/strigi/eventmonitor.cpp:122
+#, kde-format
+msgid "Disk space is running low (%1 left). Suspending indexing of files."
 msgstr ""
 
-#: server/main.cpp:89
-msgid "Nepomuk Server"
-msgstr "Nepomuk సేవిక"
-
-#: server/main.cpp:91
-msgid "Nepomuk Server - Manages Nepomuk storage and services"
+#: services/strigi/eventmonitor.cpp:148
+#, kde-format
+msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
+msgid "Initial indexing of files for fast searching finished in %1"
 msgstr ""
-
-#: server/main.cpp:93 servicestub/main.cpp:71
-msgid "(c) 2008, Sebastian Trüg"
-msgstr ""
-
-#: server/main.cpp:96 servicestub/main.cpp:75
-msgid "Maintainer"
-msgstr "సంరక్షకుడు"
 
 #: services/storage/repository.cpp:94
 msgctxt "@info - notification message"
@@ -417,85 +233,88 @@ msgstr ""
 msgid "New backend"
 msgstr ""
 
-#: services/ontologyloader/ontologyloader.cpp:118
-#, kde-format
-msgid "Parsing of file %1 failed (%2)"
+#: server/main.cpp:89
+msgid "Nepomuk Server"
+msgstr "Nepomuk సేవిక"
+
+#: server/main.cpp:91
+msgid "Nepomuk Server - Manages Nepomuk storage and services"
 msgstr ""
 
-#: services/strigi/strigiservice.cpp:169
+#: server/main.cpp:93 servicestub/main.cpp:71
+msgid "(c) 2008, Sebastian Trüg"
+msgstr ""
+
+#: server/main.cpp:96 kcm/nepomukserverkcm.cpp:91 servicestub/main.cpp:75
+msgid "Sebastian Trüg"
+msgstr ""
+
+#: server/main.cpp:96 servicestub/main.cpp:75
+msgid "Maintainer"
+msgstr "సంరక్షకుడు"
+
+#: kcm/nepomukserverkcm.cpp:88
+msgid "Nepomuk Configuration Module"
+msgstr ""
+
+#: kcm/nepomukserverkcm.cpp:90
+msgid "Copyright 2007 Sebastian Trüg"
+msgstr ""
+
+#: kcm/nepomukserverkcm.cpp:146
+msgid "No Soprano Database backend available. Please check your installation."
+msgstr ""
+
+#: kcm/nepomukserverkcm.cpp:147
+msgid "Nepomuk cannot be started"
+msgstr ""
+
+#: kcm/nepomukserverkcm.cpp:155
+msgid ""
+"The Nepomuk Server is not running. The settings will be used the next time "
+"the server is started."
+msgstr ""
+
+#: kcm/nepomukserverkcm.cpp:157 kcm/nepomukserverkcm.cpp:234
+msgid "Nepomuk server not running"
+msgstr ""
+
+#: kcm/nepomukserverkcm.cpp:232
+msgid ""
+"The Nepomuk Server is not running. The settings have been saved and will be "
+"used the next time the server is started."
+msgstr ""
+
+#: kcm/nepomukserverkcm.cpp:261
+#, kde-format
+msgctxt "@info:status %1 is an error message returned by a dbus interface."
+msgid "Failed to contact Strigi indexer (%1)"
+msgstr ""
+
+#: kcm/nepomukserverkcm.cpp:271
 msgctxt "@info:status"
-msgid "File indexer is suspended"
+msgid ""
+"Strigi service failed to initialize, most likely due to an installation "
+"problem."
 msgstr ""
 
-#: services/strigi/strigiservice.cpp:171
-#, kde-format
+#: kcm/nepomukserverkcm.cpp:275
 msgctxt "@info:status"
-msgid "Strigi is currently indexing files in folder %1"
+msgid "Strigi service not running."
 msgstr ""
 
-#: services/strigi/strigiservice.cpp:173
-msgctxt "@info:status"
-msgid "Checking file system for new files"
-msgstr ""
-
-#: services/strigi/strigiservice.cpp:175
-msgctxt "@info:status"
-msgid "File indexer is idle"
-msgstr ""
-
-#: services/strigi/systray.cpp:41 services/strigi/systray.cpp:44
-#: services/strigi/systray.cpp:77
-msgid "Search Service"
-msgstr ""
-
-#: services/strigi/systray.cpp:46 services/strigi/systray.cpp:47
-msgid "Suspend File Indexing"
-msgstr ""
-
-#: services/strigi/systray.cpp:48
-msgid "Suspend or resume the file indexer manually"
-msgstr ""
-
-#: services/strigi/systray.cpp:53
-msgid "Configure File Indexer"
-msgstr ""
-
-#: services/strigi/statuswidget.cpp:53
-msgid "Configure"
-msgstr "ఆకృతీకరించుము"
-
-#: services/strigi/statuswidget.cpp:111
-msgid "Calculation failed"
-msgstr ""
-
-#: services/strigi/statuswidget.cpp:122
+#: kcm/folderselectionmodel.cpp:108
 #, kde-format
-msgid "1 file in index"
-msgid_plural "%1 files in index"
-msgstr[0] ""
-msgstr[1] ""
-
-#: services/strigi/eventmonitor.cpp:70
-msgid "Indexing files for fast searching. This process may take a while."
+msgctxt "@info:tooltip %1 is the path of the folder in a listview"
+msgid "<filename>%1</filename><nl/>(will be indexed for desktop search)"
 msgstr ""
 
-#: services/strigi/eventmonitor.cpp:99 services/strigi/eventmonitor.cpp:131
-msgid "Resuming indexing of files for fast searching."
-msgstr ""
-
-#: services/strigi/eventmonitor.cpp:107
-msgid "Suspending the indexing of files to preserve resources."
-msgstr ""
-
-#: services/strigi/eventmonitor.cpp:122
+#: kcm/folderselectionmodel.cpp:112
 #, kde-format
-msgid "Disk space is running low (%1 left). Suspending indexing of files."
-msgstr ""
-
-#: services/strigi/eventmonitor.cpp:148
-#, kde-format
-msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
-msgid "Initial indexing of files for fast searching finished in %1"
+msgctxt "@info:tooltip %1 is the path of the folder in a listview"
+msgid ""
+"<filename>%1</filename><nl/> (will <emphasis>not</emphasis> be indexed for "
+"desktop search)"
 msgstr ""
 
 #: servicestub/main.cpp:67 servicestub/main.cpp:69
@@ -513,6 +332,187 @@ msgstr ""
 
 #: servicestub/main.cpp:118
 msgid "Unknown service name:"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"కృష్ణబాబు కె \n"
+" విజయ్ కిరణ్ కముజు"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"k.meetme@gmail.com \n"
+" infyquest@gmail.com"
+
+#. i18n: file: services/strigi/statuswidget.ui:9
+#. i18n: ectx: property (text), widget (KTitleWidget, m_title)
+#: rc.cpp:5
+msgid "Nepomuk Strigi File Indexing"
+msgstr ""
+
+#. i18n: file: services/strigi/statuswidget.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:8
+msgid "Strigi Indexing State"
+msgstr ""
+
+#. i18n: file: services/strigi/statuswidget.ui:35
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:11
+msgid "Nepomuk Storage State"
+msgstr ""
+
+#. i18n: file: services/strigi/statuswidget.ui:41
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:14
+msgid "Indexed files:"
+msgstr ""
+
+#. i18n: file: services/strigi/statuswidget.ui:54
+#. i18n: ectx: property (text), widget (QLabel, m_labelFileCount)
+#. i18n: file: services/strigi/statuswidget.ui:74
+#. i18n: ectx: property (text), widget (QLabel, m_labelStoreSize)
+#: rc.cpp:17 rc.cpp:23
+msgid "Calculating..."
+msgstr ""
+
+#. i18n: file: services/strigi/statuswidget.ui:61
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:20
+msgid "Nepomuk store size:"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:14
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:26
+msgid "Basic Settings"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:29
+msgid "Nepomuk Semantic Desktop"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:32
+msgid ""
+"Nepomuk Semantic Desktop enables tagging and rating of files integrated with "
+"the Desktop Search."
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:36
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableNepomuk)
+#: rc.cpp:35
+msgid "Enable Nepomuk Semantic Desktop"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:46
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:38
+msgid "Strigi Desktop File Indexer"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:52
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:41
+msgid ""
+"Strigi desktop search allows searching for files by content instead of just "
+"by name."
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:62
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableStrigi)
+#: rc.cpp:44
+msgid "Enable Strigi Desktop File Indexer"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:123
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:47
+msgid "File Indexing"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:129
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:50
+msgid "Strigi Index Folders"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:135
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:53
+msgid ""
+"Select the local folders that contain files to be indexed for fast desktop "
+"searches"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:148
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkShowHiddenFolders)
+#: rc.cpp:56
+msgid "Check to be able to select hidden folders"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:151
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkShowHiddenFolders)
+#: rc.cpp:59
+msgid "Show hidden folders"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:158
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkIndexRemovableMedia)
+#: rc.cpp:62
+msgid ""
+"Index the files on removable media like USB sticks when they are mounted"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:161
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkIndexRemovableMedia)
+#: rc.cpp:65
+msgid "Index Files on Removable Media"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:171
+#. i18n: ectx: property (toolTip), widget (KEditListBox, m_editStrigiExcludeFilters)
+#: rc.cpp:68
+msgid "Filters which define the files that Strigi should ignore"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:177
+#. i18n: ectx: property (title), widget (KEditListBox, m_editStrigiExcludeFilters)
+#: rc.cpp:71
+msgid "Strigi Index Exclude Filters"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:185
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: rc.cpp:74
+msgid "Advanced Settings"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:191
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: rc.cpp:77
+msgid "Memory Usage"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:197
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:80
+msgid ""
+"The maximum amount of memory the Nepomuk database should use. The more "
+"memory Nepomuk has the more performant it will be."
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:225
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_editMemoryUsage)
+#: rc.cpp:83
+msgid " MB"
 msgstr ""
 
 #, fuzzy
