@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-05 02:27+0100\n"
+"POT-Creation-Date: 2010-03-02 04:19+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,6 +25,13 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
+#: app/ToolTips/tooltipmanager.cpp:238
+#, kde-format
+msgid "<i>Contains 1 item</i>"
+msgid_plural "<i>Contains %1 items</i>"
+msgstr[0] ""
+msgstr[1] ""
+
 #: app/main.cpp:35 classic/CategoryList.cpp:38
 msgid "System Settings"
 msgstr "సిస్టమ్ అమర్పులు"
@@ -33,11 +40,11 @@ msgstr "సిస్టమ్ అమర్పులు"
 msgid "Central configuration center for KDE."
 msgstr ""
 
-#: app/main.cpp:36 icons/IconMode.cpp:66 classic/ClassicMode.cpp:69
+#: app/main.cpp:36 classic/ClassicMode.cpp:69 icons/IconMode.cpp:66
 msgid "(c) 2009, Ben Cooksley"
 msgstr ""
 
-#: app/main.cpp:37 icons/IconMode.cpp:67 classic/ClassicMode.cpp:70
+#: app/main.cpp:37 classic/ClassicMode.cpp:70 icons/IconMode.cpp:67
 msgid "Ben Cooksley"
 msgstr ""
 
@@ -45,11 +52,11 @@ msgstr ""
 msgid "Maintainer"
 msgstr ""
 
-#: app/main.cpp:38 icons/IconMode.cpp:68 classic/ClassicMode.cpp:71
+#: app/main.cpp:38 classic/ClassicMode.cpp:71 icons/IconMode.cpp:68
 msgid "Mathias Soeken"
 msgstr ""
 
-#: app/main.cpp:38 icons/IconMode.cpp:68 classic/ClassicMode.cpp:71
+#: app/main.cpp:38 classic/ClassicMode.cpp:71 icons/IconMode.cpp:68
 msgid "Developer"
 msgstr ""
 
@@ -60,13 +67,6 @@ msgstr ""
 #: app/main.cpp:39
 msgid "Internal module representation, internal module model"
 msgstr ""
-
-#: app/ToolTips/tooltipmanager.cpp:238
-#, kde-format
-msgid "<i>Contains 1 item</i>"
-msgid_plural "<i>Contains %1 items</i>"
-msgstr[0] ""
-msgstr[1] ""
 
 #: app/SettingsBase.cpp:57
 msgctxt "Search through a list of control modules"
@@ -110,19 +110,33 @@ msgstr ""
 msgid "About Active View"
 msgstr ""
 
-#: app/SettingsBase.cpp:359
+#: app/SettingsBase.cpp:365
 #, kde-format
 msgid "About %1"
 msgstr ""
 
-#: core/ExternalAppModule.cpp:31
-#, kde-format
-msgid "%1 is an external application and has been automatically launched"
+#: classic/ClassicMode.cpp:67 classic/ClassicMode.cpp:237
+msgid "Tree View"
 msgstr ""
 
-#: core/ExternalAppModule.cpp:32
-#, kde-format
-msgid "Relaunch %1"
+#: classic/ClassicMode.cpp:68
+msgid "Provides a classic tree-based view of control modules."
+msgstr ""
+
+#: classic/ClassicMode.cpp:70 icons/IconMode.cpp:67
+msgid "Author"
+msgstr "మూలకర్త"
+
+#: classic/CategoryList.cpp:39
+#, fuzzy
+#| msgid "Configure"
+msgid "Configure your system"
+msgstr "ఆకృతీకరించుము"
+
+#: classic/CategoryList.cpp:40
+msgid ""
+"Welcome to \"System Settings\", a central place to configure your computer "
+"system."
 msgstr ""
 
 #: core/ModuleView.cpp:81
@@ -141,6 +155,16 @@ msgstr ""
 msgid "Apply Settings"
 msgstr "సిస్టమ్ అమర్పులు"
 
+#: core/ExternalAppModule.cpp:31
+#, kde-format
+msgid "%1 is an external application and has been automatically launched"
+msgstr ""
+
+#: core/ExternalAppModule.cpp:32
+#, kde-format
+msgid "Relaunch %1"
+msgstr ""
+
 #: icons/IconMode.cpp:64
 msgid "Icon View"
 msgstr ""
@@ -148,10 +172,6 @@ msgstr ""
 #: icons/IconMode.cpp:65
 msgid "Provides a categorized icons view of control modules."
 msgstr ""
-
-#: icons/IconMode.cpp:67 classic/ClassicMode.cpp:70
-msgid "Author"
-msgstr "మూలకర్త"
 
 #: icons/IconMode.cpp:72
 msgid "Overview"
@@ -188,56 +208,36 @@ msgstr ""
 msgid "Show detailed tooltips"
 msgstr ""
 
-#. i18n: file: app/systemsettings.kcfg:9
-#. i18n: ectx: label, entry (ShowToolTips), group (Main)
-#: rc.cpp:11
-msgid "Determines whether detailed tooltips should be used"
-msgstr ""
-
-#. i18n: file: app/systemsettings.kcfg:13
-#. i18n: ectx: label, entry (ActiveView), group (Main)
-#: rc.cpp:14
-msgid "Internal name for the view used"
-msgstr ""
-
 #. i18n: file: app/systemsettingsui.rc:16
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:17
+#: rc.cpp:11
 #, fuzzy
 #| msgid "System Settings"
 msgid "About System Settings"
 msgstr "సిస్టమ్ అమర్పులు"
 
-#. i18n: file: core/externalModule.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, ExternalModule)
-#: rc.cpp:20
-msgid "Dialog"
+#. i18n: file: app/systemsettings.kcfg:9
+#. i18n: ectx: label, entry (ShowToolTips), group (Main)
+#: rc.cpp:14
+msgid "Determines whether detailed tooltips should be used"
+msgstr ""
+
+#. i18n: file: app/systemsettings.kcfg:13
+#. i18n: ectx: label, entry (ActiveView), group (Main)
+#: rc.cpp:17
+msgid "Internal name for the view used"
 msgstr ""
 
 #. i18n: file: classic/configClassic.ui:17
 #. i18n: ectx: property (text), widget (QCheckBox, CbExpand)
-#: rc.cpp:23
+#: rc.cpp:20
 msgid "Expand the first level automatically"
 msgstr ""
 
-#: classic/ClassicMode.cpp:67 classic/ClassicMode.cpp:237
-msgid "Tree View"
-msgstr ""
-
-#: classic/ClassicMode.cpp:68
-msgid "Provides a classic tree-based view of control modules."
-msgstr ""
-
-#: classic/CategoryList.cpp:39
-#, fuzzy
-#| msgid "Configure"
-msgid "Configure your system"
-msgstr "ఆకృతీకరించుము"
-
-#: classic/CategoryList.cpp:40
-msgid ""
-"Welcome to \"System Settings\", a central place to configure your computer "
-"system."
+#. i18n: file: core/externalModule.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, ExternalModule)
+#: rc.cpp:23
+msgid "Dialog"
 msgstr ""
 
 #~ msgid "Unsaved Changes"

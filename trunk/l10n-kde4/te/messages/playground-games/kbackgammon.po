@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kbackgammon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-19 10:35+0100\n"
+"POT-Creation-Date: 2010-02-28 14:18+0100\n"
 "PO-Revision-Date: 2007-07-16 20:18+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -15,523 +15,516 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: kbg.cpp:138 kbg.cpp:159 main.cpp:43
-msgid "KBackgammon"
-msgstr ""
-
-#: kbg.cpp:139
-msgid "FIBS"
-msgstr ""
-
-#: kbg.cpp:140
-msgid "GNU Backgammon (Experimental)"
-msgstr ""
-
-#: kbg.cpp:143
-msgid "FIBS Home"
-msgstr ""
-
-#: kbg.cpp:146
-msgid "Backgammon Rules"
-msgstr ""
-
-#: kbg.cpp:172
-msgid "&Play offline"
-msgstr ""
-
-#: kbg.cpp:176
-msgid "With a friend"
-msgstr ""
-
-#: kbg.cpp:182
-msgid "Advanced AI"
-msgstr ""
-
-#: kbg.cpp:187
-msgid "Expert AI"
-msgstr ""
-
-#: kbg.cpp:192
-#, fuzzy
-#| msgid "&Playerlist"
-msgid "&Play online"
-msgstr "(&P) ఆటగాళ్ళ జాబిత"
-
-#: kbg.cpp:196
-msgid "&FIBS"
-msgstr ""
-
-#: kbg.cpp:222
-msgid "Double Cube"
-msgstr ""
-
-#: kbg.cpp:233
-msgid "&Backgammon on the Web"
-msgstr ""
-
-#: kbg.cpp:249
-msgid "Command: "
-msgstr ""
-
-#: kbg.cpp:289
-msgid ""
-"This area contains the status messages for the game. Most of these messages "
-"are sent to you from the current engine."
-msgstr ""
-
-#: kbg.cpp:293
-msgid ""
-"This is the command line. You can type special commands related to the "
-"current engine in here. Most relevant commands are also available through "
-"the menus."
-msgstr ""
-
-#: kbg.cpp:298
-msgid ""
-"This is the button bar tool bar. It gives you easy access to game related "
-"commands. You can drag the bar to a different location within the window."
-msgstr ""
-
-#: kbg.cpp:303
-msgid ""
-"This is the status bar. It shows you the currently selected engine in the "
-"left corner."
-msgstr ""
-
-#: kbg.cpp:603
-msgid "KBackgammon settings"
-msgstr ""
-
-#: kbg.cpp:615
-#, fuzzy
-#| msgid "General"
-msgid "General settings"
-msgstr "సాధారణ"
-
-#: kbg.cpp:616
-msgid "General"
-msgstr "సాధారణ"
-
-#: kbg.cpp:623
-msgid "Messages"
-msgstr "సందేశాలు"
-
-#: kbg.cpp:624
-msgid "Timer"
-msgstr "టైమర్"
-
-#: kbg.cpp:625
-msgid "Autosave"
-msgstr ""
-
-#: kbg.cpp:630
-msgid ""
-"After you finished your moves, they have to be sent to the engine. You can "
-"either do that manually (in which case you should not enable this feature), "
-"or you can specify an amount of time that has to pass before the move is "
-"committed. If you undo a move during the timeout, the timeout will be reset "
-"and restarted once you finish the move. This is very useful if you would "
-"like to review the result of your move."
-msgstr ""
-
-#: kbg.cpp:637
-msgid "Enable timeout"
-msgstr ""
-
-#: kbg.cpp:642
-msgid "Move timeout in seconds:"
-msgstr ""
-
-#: kbg.cpp:656
-msgid ""
-"Check the box to enable all the messages that you have previously disabled "
-"by choosing the \"Do not show this message again\" option."
-msgstr ""
-
-#: kbg.cpp:661
-msgid "Reenable all messages"
-msgstr ""
-
-#: kbg.cpp:667
-msgid ""
-"Check the box to automatically save all window positions on program exit. "
-"They will be restored at next start."
-msgstr ""
-
-#: kbg.cpp:672
-msgid "Save settings on exit"
-msgstr ""
-
-#: kbg.cpp:740
-msgid ""
-"You can enable the menubar again with the right mouse button menu of the "
-"board."
-msgstr ""
-
-#: kbg.cpp:742
-msgid "Information"
-msgstr ""
-
-#: kbgboard.cpp:148
-msgid "Backgammon board"
-msgstr ""
-
-#: kbgboard.cpp:149
-msgid "Board"
-msgstr "పలక"
-
-#: kbgboard.cpp:171
-msgid "Colors"
-msgstr "రంగులు"
-
-#: kbgboard.cpp:172
-msgid "Short Moves"
-msgstr ""
-
-#: kbgboard.cpp:173 engines/fibs/kbgfibs.cpp:233
-msgid "Options"
-msgstr ""
-
-#: kbgboard.cpp:186
-msgid "Background"
-msgstr ""
-
-#: kbgboard.cpp:189
-msgid "Color 1"
-msgstr "రంగు 1"
-
-#: kbgboard.cpp:192
-msgid "Color 2"
-msgstr "రంగు 2"
-
-#: kbgboard.cpp:215
-msgid "&Disable short moves. Only drag and drop will move."
-msgstr ""
-
-#: kbgboard.cpp:216
-msgid ""
-"&Single clicks with the left mouse button will\n"
-"move a checker the shortest possible distance."
-msgstr ""
-
-#: kbgboard.cpp:218
-msgid ""
-"D&ouble clicks with the left mouse button will\n"
-"move a checker the shortest possible distance."
-msgstr ""
-
-#: kbgboard.cpp:234
-msgid "Show pip count in title bar"
-msgstr ""
-
-#: kbgboard.cpp:247
-msgid "&Board"
-msgstr "(&B) పలక"
-
-#: kbgboard.cpp:270
-msgid "&Font"
-msgstr "(&F) అక్షరశైలి"
-
-#: kbgboard.cpp:408
-msgid "Set Cube Values"
-msgstr ""
-
-#: kbgboard.cpp:420
-msgid ""
-"Set the face value of the cube and select who should be able to\n"
-"double. Note that a face value of 1 automatically allows both\n"
-"players to double."
-msgstr ""
-
-#: kbgboard.cpp:472
-msgid "Lower Player"
-msgstr "క్రింది ఆటగాడు"
-
-#: kbgboard.cpp:473
-msgid "Upper Player"
-msgstr "పై ఆటగాడు"
-
-#: kbgboard.cpp:474
-msgid "Open Cube"
-msgstr ""
-
-#: kbgboard.cpp:558
-msgid "Set Dice Values"
-msgstr ""
-
-#: kbgboard.cpp:570
-msgid ""
-"Set the face values of the selected dice. The other player's\n"
-"dice will be cleared and it will be the dice's owner's turn."
-msgstr ""
-
-#: kbgboard.cpp:1645
-msgid ""
-"This is the bar of the backgammon board.\n"
-"\n"
-"Checkers that have been kicked from the board are put on the bar and remain "
-"there until they can be put back on the board. Checkers can be moved by "
-"dragging them to their destination or by using the 'short move' feature.\n"
-"\n"
-"If the cube has not been doubled yet and if it can be used, its face shows "
-"64 and if the cube can be doubled, double clicking it will do so."
-msgstr ""
-
-#: kbgboard.cpp:1662
-msgid ""
-"This is a regular field of the backgammon board.\n"
-"\n"
-"Checkers can be placed on this field and if the current state of the game "
-"and the dice permit this, they can be moved by dragging them to their "
-"destination or by using the 'short move' feature."
-msgstr ""
-
-#: kbgboard.cpp:1676
-msgid ""
-"This part of the backgammon board is the home.\n"
-"\n"
-"Depending on the direction of the game, one of the homes contains the dice "
-"and the other one contains checkers that have been moved off the board. "
-"Checkers can never be moved away from the home. If this home contains the "
-"dice and the current state of the game permits this, double clicking on the "
-"dice will roll them. Moreover, the cube might be placed on the home bar and "
-"if it can be doubled, double clicking it will do so."
-msgstr ""
-
-#: engines/fibs/kbgfibschat.cpp:125 engines/fibs/kbgfibschat.cpp:129
+#: engines/gnubg/kbggnubg.cpp:130
 #, kde-format
-msgid "%1: "
+msgid "gnubg doubles the cube to %1."
 msgstr ""
 
-#: engines/fibs/kbgfibschat.cpp:147
+#: engines/gnubg/kbggnubg.cpp:131
+msgid "gnubg doubles"
+msgstr ""
+
+#: engines/gnubg/kbggnubg.cpp:132
+msgid "&Accept"
+msgstr "(&A) అంగీకరించు"
+
+#: engines/gnubg/kbggnubg.cpp:132
+msgid "Re&double"
+msgstr ""
+
+#: engines/gnubg/kbggnubg.cpp:132
+msgid "&Reject"
+msgstr "(&R) తిరస్కరించు"
+
+#: engines/gnubg/kbggnubg.cpp:184
+msgid "Please roll or double."
+msgstr ""
+
+#: engines/gnubg/kbggnubg.cpp:187
+msgid "Please roll."
+msgstr ""
+
+#: engines/gnubg/kbggnubg.cpp:198
+#, fuzzy, kde-format
+#| msgid "Players are %1 and %2"
+msgid "You roll %1 and %2."
+msgstr "ఆటగాళ్లు %1 మరియు %2"
+
+#: engines/gnubg/kbggnubg.cpp:204
+msgid "Please move 1 piece."
+msgstr ""
+
+#: engines/gnubg/kbggnubg.cpp:207
 #, kde-format
-msgid "%1 user"
-msgstr "%1 యూజర్"
-
-#: engines/fibs/kbgfibschat.cpp:149
-msgid "Kibitz to watchers and players"
+msgid "Please move %1 pieces."
 msgstr ""
 
-#: engines/fibs/kbgfibschat.cpp:151
-msgid "Whisper to watchers only"
+#: engines/gnubg/kbggnubg.cpp:219
+#, kde-format
+msgid "gnubg rolls %1 and %2."
 msgstr ""
 
-#: engines/fibs/kbgfibschat.cpp:163
-msgid "Chat Window"
+#: engines/gnubg/kbggnubg.cpp:221
+msgid "gnubg cannot move."
 msgstr ""
 
-#: engines/fibs/kbgfibschat.cpp:165
+#: engines/gnubg/kbggnubg.cpp:235 engines/offline/kbgoffline.cpp:414
+#: engines/offline/kbgoffline.cpp:927
+#, kde-format
+msgid "%1 vs. %2"
+msgstr "%1 vs. %2"
+
+#: engines/gnubg/kbggnubg.cpp:275 engines/offline/kbgoffline.cpp:355
+msgid "A game is currently in progress. Starting a new one will terminate it."
+msgstr ""
+
+#: engines/gnubg/kbggnubg.cpp:277 engines/offline/kbgoffline.cpp:357
+msgid "Start New Game"
+msgstr "కొత్త ఆట మొదలుపెట్టు"
+
+#: engines/gnubg/kbggnubg.cpp:277 engines/offline/kbgoffline.cpp:358
+msgid "Continue Old Game"
+msgstr "పాత ఆట కొనసాగించు"
+
+#: engines/gnubg/kbggnubg.cpp:290
+msgid "Starting a new game."
+msgstr "కొత్త ఆట మొదలుపెట్టు"
+
+#: engines/gnubg/kbggnubg.cpp:379
+msgid "GNU backgammon engine"
+msgstr ""
+
+#: engines/gnubg/kbggnubg.cpp:380
+msgid "GNU Engine"
+msgstr ""
+
+#: engines/gnubg/kbggnubg.cpp:440
+msgid "&Restart GNU Backgammon"
+msgstr ""
+
+#: engines/gnubg/kbggnubg.cpp:506
 msgid ""
-"This is the chat window.\n"
-"\n"
-"The text in this window is colored depending on whether it is directed at "
-"you personally, shouted to the general FIBS population, has been said by "
-"you, or is of general interest. If you select the name of a player, the "
-"context contains entries specifically geared towards that player."
+"Could not start the GNU Backgammon process.\n"
+"Make sure the program is in your PATH and is called \"gnubg\".\n"
+"Make sure that your copy is at least version 0.10"
 msgstr ""
 
-#: engines/fibs/kbgfibschat.cpp:178
+#: engines/gnubg/kbggnubg.cpp:535
+#, kde-format
+msgid "The GNU Backgammon process (%1) has exited with code %1"
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:145
+msgid "&New Game..."
+msgstr "(&N) కొత్త ఆట..."
+
+#: engines/offline/kbgoffline.cpp:151
+msgid "&Swap Colors"
+msgstr "(&S) రంగులు మార్చు"
+
+#: engines/offline/kbgoffline.cpp:154
+msgid "&Edit Mode"
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:218
+msgid "KBackgammon engine"
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:219
+msgid "KBackgammon Engine"
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:239
+msgid "Names"
+msgstr "పేర్లు"
+
+#: engines/offline/kbgoffline.cpp:250
+msgid "First player:"
+msgstr "మొదటి ఆటగాడు:"
+
+#: engines/offline/kbgoffline.cpp:251
+msgid "Second player:"
+msgstr "రెండవ ఆటగాడు:"
+
+#: engines/offline/kbgoffline.cpp:253 engines/offline/kbgoffline.cpp:255
+msgid "Computer"
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:258 engines/offline/kbgoffline.cpp:259
+msgid "Check for the computer to play"
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:262
+msgid "Match to:"
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:275
+msgid "Enter the name of the first player."
+msgstr "మొదటి ఆటగాడి పేరు టైప్ చెయ్యండి"
+
+#: engines/offline/kbgoffline.cpp:276
+msgid "Enter the name of the second player."
+msgstr "రెండవ ఆటగాడి పేరు టైప్ చెయ్యండి"
+
+#: engines/offline/kbgoffline.cpp:282
+msgid "&Player Names"
+msgstr "(&P) ఆటగాళ్ల పేర్లు"
+
+#: engines/offline/kbgoffline.cpp:301 engines/offline/kbgoffline.cpp:316
+msgid "South"
+msgstr "దక్షిణం"
+
+#: engines/offline/kbgoffline.cpp:302 engines/offline/kbgoffline.cpp:317
+msgid "North"
+msgstr "తూర్పు"
+
+#: engines/offline/kbgoffline.cpp:393
+#, kde-format
+msgid "%1 rolls %2, %3 rolls %4."
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:398 engines/offline/kbgoffline.cpp:401
+#, kde-format
+msgid "%1 makes the first move."
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:476
+msgid ""
+"Please enter the nickname of the player whose home\n"
+"is in the lower half of the board:"
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:480
+msgid ""
+"Please enter the nickname of the player whose home\n"
+"is in the upper half of the board:"
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:485
 #, fuzzy
-#| msgid "Info"
-msgid "Info On"
+#| msgid "&Player Names"
+msgid "Player name"
+msgstr "(&P) ఆటగాళ్ల పేర్లు"
+
+#: engines/offline/kbgoffline.cpp:509 engines/offline/kbgoffline.cpp:772
+#: engines/offline/kbgoffline.cpp:783
+#, fuzzy, kde-format
+#| msgid "1 Point Match"
+msgid "%1 wins the game. Congratulations!"
+msgstr "1 పాయింటు ఆట"
+
+#: engines/offline/kbgoffline.cpp:512
+#, kde-format
+msgid "Score: %1 to %2 of %3"
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:519
+#, fuzzy, kde-format
+#| msgid "1 Point Match"
+msgid "%1 wins the match!"
+msgstr "1 పాయింటు ఆట"
+
+#: engines/offline/kbgoffline.cpp:538
+#, kde-format
+msgid "%1, please roll or double."
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:662
+#, fuzzy
+#| msgid "It's not your turn to roll!"
+msgid "It is not your turn to roll!"
+msgstr "ఇప్పుడు మీ వంతు కాదు"
+
+#: engines/offline/kbgoffline.cpp:714
+msgid "Game over!"
+msgstr "ఆట అయిపోయింది!"
+
+#: engines/offline/kbgoffline.cpp:721
+#, kde-format
+msgid "%1, you cannot move."
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:736
+#, kde-format
+msgid ", please move 1 piece."
+msgid_plural ", please move %1 pieces."
+msgstr[0] ""
+msgstr[1] ""
+
+#: engines/offline/kbgoffline.cpp:742
+#, kde-format
+msgid "%1 rolls %2, %3, and moves %4."
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:765
+#, kde-format
+msgid "%1 has doubled. %2, do you accept the double?"
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:768
+msgid "Doubling"
+msgstr "రెట్టింపు అయ్యింది"
+
+#: engines/offline/kbgoffline.cpp:768 engines/fibs/kbgfibs.cpp:2291
+msgid "Accept"
+msgstr "అంగీకరించు"
+
+#: engines/offline/kbgoffline.cpp:768 engines/fibs/kbgfibs.cpp:2295
+msgid "Reject"
+msgstr "తిరస్కరించు"
+
+#: engines/offline/kbgoffline.cpp:775 engines/offline/kbgoffline.cpp:786
+#, kde-format
+msgid "Score: %1 to %2"
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:790
+#, kde-format
+msgid "%1 has accepted the double. The game continues."
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:828
+msgid "In the middle of a game. Really quit?"
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:853
+#, kde-format
+msgid "Text commands are not yet working. The command '%1' has been ignored."
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:923
+#, fuzzy, kde-format
+#| msgid "%1 vs. %2"
+msgid "%1 vs. %2 - Edit Mode"
+msgstr "%1 vs. %2"
+
+#: engines/fibs/kbginvite.cpp:59
+msgid "Invite Players"
+msgstr "ఆటగాళ్ళను ఆహ్వానించు"
+
+#: engines/fibs/kbginvite.cpp:71
+msgid "&Invite"
+msgstr "(&I) ఆహ్వానం"
+
+#: engines/fibs/kbginvite.cpp:72
+msgid "&Resume"
+msgstr ""
+
+#: engines/fibs/kbginvite.cpp:73
+msgid "&Unlimited"
+msgstr ""
+
+#: engines/fibs/kbginvite.cpp:78
+msgid ""
+"Type the name of the player you want to invite in the first entry\n"
+"field and select the desired match length in the spin box."
+msgstr ""
+
+#: engines/fibs/kplayerlist.cpp:225
+msgid "Player"
+msgstr "ఆటగాడు"
+
+#: engines/fibs/kplayerlist.cpp:226
+msgid "Opponent"
+msgstr "ప్రత్యర్ది"
+
+#: engines/fibs/kplayerlist.cpp:227
+msgid "Watches"
+msgstr ""
+
+#: engines/fibs/kplayerlist.cpp:228
+msgid "Status"
+msgstr ""
+
+#: engines/fibs/kplayerlist.cpp:229
+msgid "Rating"
+msgstr "రేటింగ్"
+
+#: engines/fibs/kplayerlist.cpp:230
+msgid "Exp."
+msgstr ""
+
+#: engines/fibs/kplayerlist.cpp:231
+msgid "Idle"
+msgstr ""
+
+#: engines/fibs/kplayerlist.cpp:232
+msgid "Time"
+msgstr "సమయం"
+
+#: engines/fibs/kplayerlist.cpp:233
+msgid "Host name"
+msgstr "హోస్ట్ పేరు"
+
+#: engines/fibs/kplayerlist.cpp:234
+msgid "Client"
+msgstr "క్లయింట్"
+
+#: engines/fibs/kplayerlist.cpp:235
+msgid "Email"
+msgstr "ఈమెయిల్"
+
+#: engines/fibs/kplayerlist.cpp:252
+msgctxt "abbreviate blind"
+msgid "B"
+msgstr ""
+
+#: engines/fibs/kplayerlist.cpp:253
+msgctxt "abbreviate away"
+msgid "A"
+msgstr ""
+
+#: engines/fibs/kplayerlist.cpp:254
+msgctxt "abbreviate ready"
+msgid "R"
+msgstr ""
+
+#: engines/fibs/kplayerlist.cpp:266
+msgid ""
+"This window contains the player list. It shows all players that are "
+"currently logged into FIBS.Use the right mouse button to get a context menu "
+"with helpful information and commands."
+msgstr ""
+
+#: engines/fibs/kplayerlist.cpp:291
+msgid "Invite"
+msgstr "ఆహ్వానం"
+
+#: engines/fibs/kplayerlist.cpp:298
+msgid "Info"
 msgstr "సమాచారం"
 
-#: engines/fibs/kbgfibschat.cpp:183
-#, fuzzy
-#| msgid "Talk"
-msgid "Talk To"
+#: engines/fibs/kplayerlist.cpp:302
+msgid "Talk"
 msgstr "మాట్లాడండి"
 
-#: engines/fibs/kbgfibschat.cpp:187 engines/fibs/kplayerlist.cpp:329
+#: engines/fibs/kplayerlist.cpp:306
+msgid "Look"
+msgstr "చూడు"
+
+#: engines/fibs/kplayerlist.cpp:309
+#, fuzzy
+#| msgid "Win match:"
+msgid "Watch"
+msgstr "ఆట గెలువు:"
+
+#: engines/fibs/kplayerlist.cpp:312
+msgid "Unwatch"
+msgstr ""
+
+#: engines/fibs/kplayerlist.cpp:315 engines/fibs/kplayerlist.cpp:630
+msgid "Blind"
+msgstr "గుడ్డి"
+
+#: engines/fibs/kplayerlist.cpp:318
+msgid "Update"
+msgstr ""
+
+#: engines/fibs/kplayerlist.cpp:329 engines/fibs/kbgfibschat.cpp:187
 msgid "Use Dialog"
 msgstr ""
 
-#: engines/fibs/kbgfibschat.cpp:191 engines/fibs/kplayerlist.cpp:332
+#: engines/fibs/kplayerlist.cpp:332 engines/fibs/kbgfibschat.cpp:191
 msgid "1 Point Match"
 msgstr "1 పాయింటు ఆట"
 
-#: engines/fibs/kbgfibschat.cpp:195 engines/fibs/kplayerlist.cpp:338
+#: engines/fibs/kplayerlist.cpp:335
+msgid "2 Point Match"
+msgstr "2 పాయింట్ల ఆట"
+
+#: engines/fibs/kplayerlist.cpp:338 engines/fibs/kbgfibschat.cpp:195
 msgid "3 Point Match"
 msgstr "3 పాయింట్ల ఆట"
 
-#: engines/fibs/kbgfibschat.cpp:199 engines/fibs/kplayerlist.cpp:344
+#: engines/fibs/kplayerlist.cpp:341
+msgid "4 Point Match"
+msgstr "4 పాయింట్ల ఆట"
+
+#: engines/fibs/kplayerlist.cpp:344 engines/fibs/kbgfibschat.cpp:199
 msgid "5 Point Match"
 msgstr "5 పాయింట్ల ఆట"
 
-#: engines/fibs/kbgfibschat.cpp:203 engines/fibs/kplayerlist.cpp:350
+#: engines/fibs/kplayerlist.cpp:347
+msgid "6 Point Match"
+msgstr "6 పాయింట్ల ఆట"
+
+#: engines/fibs/kplayerlist.cpp:350 engines/fibs/kbgfibschat.cpp:203
 msgid "7 Point Match"
 msgstr "7 పాయింట్ల ఆట"
 
-#: engines/fibs/kbgfibschat.cpp:207
-#, fuzzy
-#| msgid "1 Point Match"
-msgid "9 Point Match"
-msgstr "1 పాయింటు ఆట"
-
-#: engines/fibs/kbgfibschat.cpp:211 engines/fibs/kplayerlist.cpp:353
+#: engines/fibs/kplayerlist.cpp:353 engines/fibs/kbgfibschat.cpp:211
 msgid "Unlimited"
 msgstr ""
 
-#: engines/fibs/kbgfibschat.cpp:215 engines/fibs/kplayerlist.cpp:356
+#: engines/fibs/kplayerlist.cpp:356 engines/fibs/kbgfibschat.cpp:215
 msgid "Resume"
 msgstr ""
 
-#: engines/fibs/kbgfibschat.cpp:234
-msgid "Gag"
+#: engines/fibs/kplayerlist.cpp:485
+msgid "Column Selection"
 msgstr ""
 
-#: engines/fibs/kbgfibschat.cpp:238
-msgid "Ungag"
-msgstr ""
-
-#: engines/fibs/kbgfibschat.cpp:242
-#, fuzzy
-#| msgid "&Player List"
-msgid "Clear Gag List"
-msgstr "(&P) ఆటగాళ్ళ జాబితా"
-
-#: engines/fibs/kbgfibschat.cpp:249
-msgid "Clear"
-msgstr ""
-
-#: engines/fibs/kbgfibschat.cpp:255
-msgid "Silent"
-msgstr "నిశబ్దం"
-
-#: engines/fibs/kbgfibschat.cpp:334
-msgid "Select users to be removed from the gag list."
-msgstr ""
-
-#: engines/fibs/kbgfibschat.cpp:336
+#: engines/fibs/kplayerlist.cpp:492
 msgid ""
-"Select all the users you want to remove from the gag list and then click OK. "
-"Afterwards you will again hear what they shout."
+"Select all the columns that you would\n"
+"like to be shown in the player list."
 msgstr ""
 
-#: engines/fibs/kbgfibschat.cpp:351
-#, fuzzy
-#| msgid "&Player List"
-msgid "&Gag List"
-msgstr "(&P) ఆటగాళ్ళ జాబితా"
+#: engines/fibs/kplayerlist.cpp:516
+msgid "&Playerlist"
+msgstr "(&P) ఆటగాళ్ళ జాబిత"
 
-#: engines/fibs/kbgfibschat.cpp:413 engines/fibs/kbgfibschat.cpp:447
-#: engines/fibs/kbgfibschat.cpp:651 engines/fibs/kplayerlist.cpp:603
-#, kde-format
-msgid "Talk to %1"
-msgstr "%1 తొ మాట్లాడు"
-
-#: engines/fibs/kbgfibschat.cpp:523
-#, fuzzy, kde-format
-#| msgid "<u>%1 tells you:</u> %2"
-msgid "%1 tells you: %2"
-msgstr "<u>%1 చెబుతున్నడు:</u> %2"
-
-#: engines/fibs/kbgfibschat.cpp:531
-#, fuzzy, kde-format
-#| msgid "<u>%1 shouts:</u> %2"
-msgid "%1 shouts: %2"
-msgstr "<u>%1 అరుస్తున్నాడు:</u> %2"
-
-#: engines/fibs/kbgfibschat.cpp:538
-#, fuzzy, kde-format
-#| msgid "<u>%1 whispers:</u> %2"
-msgid "%1 whispers: %2"
-msgstr "<u>%1 గుస గుసలాడుతున్నాడు</u> %2"
-
-#: engines/fibs/kbgfibschat.cpp:546
-#, fuzzy, kde-format
-#| msgid "<u>%1 whispers:</u> %2"
-msgid "%1 kibitzes: %2"
-msgstr "<u>%1 గుస గుసలాడుతున్నాడు</u> %2"
-
-#: engines/fibs/kbgfibschat.cpp:553
-#, kde-format
-msgid "%1 tell %2: %3"
-msgstr ""
-
-#: engines/fibs/kbgfibschat.cpp:559
-#, fuzzy, kde-format
-#| msgid "<u>%1 shouts:</u> %2"
-msgid "%1 shout: %2"
-msgstr "<u>%1 అరుస్తున్నాడు:</u> %2"
-
-#: engines/fibs/kbgfibschat.cpp:565
-#, fuzzy, kde-format
-#| msgid "<u>%1 whispers:</u> %2"
-msgid "%1 whisper: %2"
-msgstr "<u>%1 గుస గుసలాడుతున్నాడు</u> %2"
-
-#: engines/fibs/kbgfibschat.cpp:571
-#, fuzzy, kde-format
-#| msgid "<u>%1 whispers:</u> %2"
-msgid "%1 kibitz: %2"
-msgstr "<u>%1 గుస గుసలాడుతున్నాడు</u> %2"
-
-#: engines/fibs/kbgfibschat.cpp:581
-#, fuzzy, kde-format
-#| msgid "<u>User %1 left a message at %2</u>: %3"
-msgid "User %1 left a message at %2: %3"
-msgstr "<u>యూజర్ %1 సందేశం %2 లొ పెట్టాడు</u>: %3"
-
-#: engines/fibs/kbgfibschat.cpp:587
-#, kde-format
-msgid "Your message for %1 has been delivered."
-msgstr "%1 కొరకు మీ సందేశం అందించడమైనది"
-
-#: engines/fibs/kbgfibschat.cpp:593
-#, kde-format
-msgid "Your message for %1 has been saved."
-msgstr "%1 కొరకు మీ సందేశం దాచబడింది"
-
-#: engines/fibs/kbgfibschat.cpp:610
-#, fuzzy
-#| msgid "<u>You say to yourself:</u> "
-msgid "You say to yourself: "
-msgstr "<u>మిలో మీరు మాట్లాడుకుంటున్నారు:</u>"
-
-#: engines/fibs/kbgfibschat.cpp:654 engines/fibs/kplayerlist.cpp:602
+#: engines/fibs/kplayerlist.cpp:602 engines/fibs/kbgfibschat.cpp:654
 #, kde-format
 msgid "Info on %1"
 msgstr "%1 గురించిన సమాచారం"
 
-#: engines/fibs/kbgfibschat.cpp:658 engines/fibs/kplayerlist.cpp:620
+#: engines/fibs/kplayerlist.cpp:603 engines/fibs/kbgfibschat.cpp:413
+#: engines/fibs/kbgfibschat.cpp:447 engines/fibs/kbgfibschat.cpp:651
+#, kde-format
+msgid "Talk to %1"
+msgstr "%1 తొ మాట్లాడు"
+
+#: engines/fibs/kplayerlist.cpp:604
+#, kde-format
+msgid "Email to %1"
+msgstr "%1 కు ఈమెయిల్ పంపించు"
+
+#: engines/fibs/kplayerlist.cpp:605
+#, kde-format
+msgid "Look at %1"
+msgstr "%1 ను చూడు"
+
+#: engines/fibs/kplayerlist.cpp:606
+#, kde-format
+msgid "Watch %1"
+msgstr ""
+
+#: engines/fibs/kplayerlist.cpp:607
+#, kde-format
+msgid "Update %1"
+msgstr ""
+
+#: engines/fibs/kplayerlist.cpp:620 engines/fibs/kbgfibschat.cpp:658
 #, kde-format
 msgid "Invite %1"
 msgstr "%1 ఆహ్వానం"
 
-#: engines/fibs/kbgfibschat.cpp:664
+#: engines/fibs/kplayerlist.cpp:628
 #, kde-format
-msgid "Gag %1"
+msgid "Unblind %1"
 msgstr ""
 
-#: engines/fibs/kbgfibschat.cpp:667
+#: engines/fibs/kplayerlist.cpp:628
+#, fuzzy, kde-format
+#| msgid "Blind"
+msgid "Blind %1"
+msgstr "గుడ్డి"
+
+#: engines/fibs/kplayerlist.cpp:919
 #, kde-format
-msgid "Ungag %1"
-msgstr ""
-
-#: engines/fibs/kbgfibschat.cpp:694
-msgid "The gag list is now empty."
-msgstr ""
-
-#: engines/fibs/kbgfibschat.cpp:703
-#, fuzzy, kde-format
-#| msgid "You will not hear what people shout."
-msgid "You will not hear what %1 says and shouts."
-msgstr "ఎవరు ఏమి అరిచిన మీకు వినబడదు."
-
-#: engines/fibs/kbgfibschat.cpp:720
-#, fuzzy, kde-format
-#| msgid "You will not hear what people shout."
-msgid "You will again hear what %1 says and shouts."
-msgstr "ఎవరు ఏమి అరిచిన మీకు వినబడదు."
-
-#: engines/fibs/kbgfibschat.cpp:739
-msgid "You will not hear what people shout."
-msgstr "ఎవరు ఏమి అరిచిన మీకు వినబడదు."
-
-#: engines/fibs/kbgfibschat.cpp:741
-msgid "You will hear what people shout."
-msgstr "ఎవరు ఏమి అరిచిన మీకు వినపడుతుంది."
+msgid "Player List - %1 - %2/%3"
+msgstr "ఆటగాళ్ళ జాబిత - %1 - %2/%3"
 
 #: engines/fibs/kbgfibs.cpp:212
 msgid "FIBS backgammon engine"
@@ -539,6 +532,10 @@ msgstr ""
 
 #: engines/fibs/kbgfibs.cpp:213
 msgid "FIBS Engine"
+msgstr ""
+
+#: engines/fibs/kbgfibs.cpp:233 kbgboard.cpp:173
+msgid "Options"
 msgstr ""
 
 #: engines/fibs/kbgfibs.cpp:234
@@ -1044,14 +1041,6 @@ msgstr ""
 msgid "Ask for Doubles"
 msgstr ""
 
-#: engines/fibs/kbgfibs.cpp:2291 engines/offline/kbgoffline.cpp:768
-msgid "Accept"
-msgstr "అంగీకరించు"
-
-#: engines/fibs/kbgfibs.cpp:2295 engines/offline/kbgoffline.cpp:768
-msgid "Reject"
-msgstr "తిరస్కరించు"
-
 #: engines/fibs/kbgfibs.cpp:2305
 msgid "Join"
 msgstr ""
@@ -1068,288 +1057,196 @@ msgstr "(&P) ఆటగాళ్ళ జాబితా"
 msgid "&Chat"
 msgstr ""
 
-#: engines/fibs/kplayerlist.cpp:225
-msgid "Player"
-msgstr "ఆటగాడు"
-
-#: engines/fibs/kplayerlist.cpp:226
-msgid "Opponent"
-msgstr "ప్రత్యర్ది"
-
-#: engines/fibs/kplayerlist.cpp:227
-msgid "Watches"
+#: engines/fibs/kbgfibschat.cpp:125 engines/fibs/kbgfibschat.cpp:129
+#, kde-format
+msgid "%1: "
 msgstr ""
 
-#: engines/fibs/kplayerlist.cpp:228
-msgid "Status"
+#: engines/fibs/kbgfibschat.cpp:147
+#, kde-format
+msgid "%1 user"
+msgstr "%1 యూజర్"
+
+#: engines/fibs/kbgfibschat.cpp:149
+msgid "Kibitz to watchers and players"
 msgstr ""
 
-#: engines/fibs/kplayerlist.cpp:229
-msgid "Rating"
-msgstr "రేటింగ్"
-
-#: engines/fibs/kplayerlist.cpp:230
-msgid "Exp."
+#: engines/fibs/kbgfibschat.cpp:151
+msgid "Whisper to watchers only"
 msgstr ""
 
-#: engines/fibs/kplayerlist.cpp:231
-msgid "Idle"
+#: engines/fibs/kbgfibschat.cpp:163
+msgid "Chat Window"
 msgstr ""
 
-#: engines/fibs/kplayerlist.cpp:232
-msgid "Time"
-msgstr "సమయం"
-
-#: engines/fibs/kplayerlist.cpp:233
-msgid "Host name"
-msgstr "హోస్ట్ పేరు"
-
-#: engines/fibs/kplayerlist.cpp:234
-msgid "Client"
-msgstr "క్లయింట్"
-
-#: engines/fibs/kplayerlist.cpp:235
-msgid "Email"
-msgstr "ఈమెయిల్"
-
-#: engines/fibs/kplayerlist.cpp:252
-msgctxt "abbreviate blind"
-msgid "B"
-msgstr ""
-
-#: engines/fibs/kplayerlist.cpp:253
-msgctxt "abbreviate away"
-msgid "A"
-msgstr ""
-
-#: engines/fibs/kplayerlist.cpp:254
-msgctxt "abbreviate ready"
-msgid "R"
-msgstr ""
-
-#: engines/fibs/kplayerlist.cpp:266
+#: engines/fibs/kbgfibschat.cpp:165
 msgid ""
-"This window contains the player list. It shows all players that are "
-"currently logged into FIBS.Use the right mouse button to get a context menu "
-"with helpful information and commands."
+"This is the chat window.\n"
+"\n"
+"The text in this window is colored depending on whether it is directed at "
+"you personally, shouted to the general FIBS population, has been said by "
+"you, or is of general interest. If you select the name of a player, the "
+"context contains entries specifically geared towards that player."
 msgstr ""
 
-#: engines/fibs/kplayerlist.cpp:291
-msgid "Invite"
-msgstr "ఆహ్వానం"
-
-#: engines/fibs/kplayerlist.cpp:298
-msgid "Info"
+#: engines/fibs/kbgfibschat.cpp:178
+#, fuzzy
+#| msgid "Info"
+msgid "Info On"
 msgstr "సమాచారం"
 
-#: engines/fibs/kplayerlist.cpp:302
-msgid "Talk"
+#: engines/fibs/kbgfibschat.cpp:183
+#, fuzzy
+#| msgid "Talk"
+msgid "Talk To"
 msgstr "మాట్లాడండి"
 
-#: engines/fibs/kplayerlist.cpp:306
-msgid "Look"
-msgstr "చూడు"
-
-#: engines/fibs/kplayerlist.cpp:309
+#: engines/fibs/kbgfibschat.cpp:207
 #, fuzzy
-#| msgid "Win match:"
-msgid "Watch"
-msgstr "ఆట గెలువు:"
+#| msgid "1 Point Match"
+msgid "9 Point Match"
+msgstr "1 పాయింటు ఆట"
 
-#: engines/fibs/kplayerlist.cpp:312
-msgid "Unwatch"
+#: engines/fibs/kbgfibschat.cpp:234
+msgid "Gag"
 msgstr ""
 
-#: engines/fibs/kplayerlist.cpp:315 engines/fibs/kplayerlist.cpp:630
-msgid "Blind"
-msgstr "గుడ్డి"
-
-#: engines/fibs/kplayerlist.cpp:318
-msgid "Update"
+#: engines/fibs/kbgfibschat.cpp:238
+msgid "Ungag"
 msgstr ""
 
-#: engines/fibs/kplayerlist.cpp:335
-msgid "2 Point Match"
-msgstr "2 పాయింట్ల ఆట"
+#: engines/fibs/kbgfibschat.cpp:242
+#, fuzzy
+#| msgid "&Player List"
+msgid "Clear Gag List"
+msgstr "(&P) ఆటగాళ్ళ జాబితా"
 
-#: engines/fibs/kplayerlist.cpp:341
-msgid "4 Point Match"
-msgstr "4 పాయింట్ల ఆట"
-
-#: engines/fibs/kplayerlist.cpp:347
-msgid "6 Point Match"
-msgstr "6 పాయింట్ల ఆట"
-
-#: engines/fibs/kplayerlist.cpp:485
-msgid "Column Selection"
+#: engines/fibs/kbgfibschat.cpp:249
+msgid "Clear"
 msgstr ""
 
-#: engines/fibs/kplayerlist.cpp:492
+#: engines/fibs/kbgfibschat.cpp:255
+msgid "Silent"
+msgstr "నిశబ్దం"
+
+#: engines/fibs/kbgfibschat.cpp:334
+msgid "Select users to be removed from the gag list."
+msgstr ""
+
+#: engines/fibs/kbgfibschat.cpp:336
 msgid ""
-"Select all the columns that you would\n"
-"like to be shown in the player list."
+"Select all the users you want to remove from the gag list and then click OK. "
+"Afterwards you will again hear what they shout."
 msgstr ""
 
-#: engines/fibs/kplayerlist.cpp:516
-msgid "&Playerlist"
-msgstr "(&P) ఆటగాళ్ళ జాబిత"
+#: engines/fibs/kbgfibschat.cpp:351
+#, fuzzy
+#| msgid "&Player List"
+msgid "&Gag List"
+msgstr "(&P) ఆటగాళ్ళ జాబితా"
 
-#: engines/fibs/kplayerlist.cpp:604
-#, kde-format
-msgid "Email to %1"
-msgstr "%1 కు ఈమెయిల్ పంపించు"
-
-#: engines/fibs/kplayerlist.cpp:605
-#, kde-format
-msgid "Look at %1"
-msgstr "%1 ను చూడు"
-
-#: engines/fibs/kplayerlist.cpp:606
-#, kde-format
-msgid "Watch %1"
-msgstr ""
-
-#: engines/fibs/kplayerlist.cpp:607
-#, kde-format
-msgid "Update %1"
-msgstr ""
-
-#: engines/fibs/kplayerlist.cpp:628
-#, kde-format
-msgid "Unblind %1"
-msgstr ""
-
-#: engines/fibs/kplayerlist.cpp:628
+#: engines/fibs/kbgfibschat.cpp:523
 #, fuzzy, kde-format
-#| msgid "Blind"
-msgid "Blind %1"
-msgstr "గుడ్డి"
+#| msgid "<u>%1 tells you:</u> %2"
+msgid "%1 tells you: %2"
+msgstr "<u>%1 చెబుతున్నడు:</u> %2"
 
-#: engines/fibs/kplayerlist.cpp:919
-#, kde-format
-msgid "Player List - %1 - %2/%3"
-msgstr "ఆటగాళ్ళ జాబిత - %1 - %2/%3"
-
-#: engines/fibs/kbginvite.cpp:59
-msgid "Invite Players"
-msgstr "ఆటగాళ్ళను ఆహ్వానించు"
-
-#: engines/fibs/kbginvite.cpp:71
-msgid "&Invite"
-msgstr "(&I) ఆహ్వానం"
-
-#: engines/fibs/kbginvite.cpp:72
-msgid "&Resume"
-msgstr ""
-
-#: engines/fibs/kbginvite.cpp:73
-msgid "&Unlimited"
-msgstr ""
-
-#: engines/fibs/kbginvite.cpp:78
-msgid ""
-"Type the name of the player you want to invite in the first entry\n"
-"field and select the desired match length in the spin box."
-msgstr ""
-
-#: engines/gnubg/kbggnubg.cpp:130
-#, kde-format
-msgid "gnubg doubles the cube to %1."
-msgstr ""
-
-#: engines/gnubg/kbggnubg.cpp:131
-msgid "gnubg doubles"
-msgstr ""
-
-#: engines/gnubg/kbggnubg.cpp:132
-msgid "&Accept"
-msgstr "(&A) అంగీకరించు"
-
-#: engines/gnubg/kbggnubg.cpp:132
-msgid "Re&double"
-msgstr ""
-
-#: engines/gnubg/kbggnubg.cpp:132
-msgid "&Reject"
-msgstr "(&R) తిరస్కరించు"
-
-#: engines/gnubg/kbggnubg.cpp:184
-msgid "Please roll or double."
-msgstr ""
-
-#: engines/gnubg/kbggnubg.cpp:187
-msgid "Please roll."
-msgstr ""
-
-#: engines/gnubg/kbggnubg.cpp:198
+#: engines/fibs/kbgfibschat.cpp:531
 #, fuzzy, kde-format
-#| msgid "Players are %1 and %2"
-msgid "You roll %1 and %2."
-msgstr "ఆటగాళ్లు %1 మరియు %2"
+#| msgid "<u>%1 shouts:</u> %2"
+msgid "%1 shouts: %2"
+msgstr "<u>%1 అరుస్తున్నాడు:</u> %2"
 
-#: engines/gnubg/kbggnubg.cpp:204
-msgid "Please move 1 piece."
-msgstr ""
+#: engines/fibs/kbgfibschat.cpp:538
+#, fuzzy, kde-format
+#| msgid "<u>%1 whispers:</u> %2"
+msgid "%1 whispers: %2"
+msgstr "<u>%1 గుస గుసలాడుతున్నాడు</u> %2"
 
-#: engines/gnubg/kbggnubg.cpp:207
+#: engines/fibs/kbgfibschat.cpp:546
+#, fuzzy, kde-format
+#| msgid "<u>%1 whispers:</u> %2"
+msgid "%1 kibitzes: %2"
+msgstr "<u>%1 గుస గుసలాడుతున్నాడు</u> %2"
+
+#: engines/fibs/kbgfibschat.cpp:553
 #, kde-format
-msgid "Please move %1 pieces."
+msgid "%1 tell %2: %3"
 msgstr ""
 
-#: engines/gnubg/kbggnubg.cpp:219
+#: engines/fibs/kbgfibschat.cpp:559
+#, fuzzy, kde-format
+#| msgid "<u>%1 shouts:</u> %2"
+msgid "%1 shout: %2"
+msgstr "<u>%1 అరుస్తున్నాడు:</u> %2"
+
+#: engines/fibs/kbgfibschat.cpp:565
+#, fuzzy, kde-format
+#| msgid "<u>%1 whispers:</u> %2"
+msgid "%1 whisper: %2"
+msgstr "<u>%1 గుస గుసలాడుతున్నాడు</u> %2"
+
+#: engines/fibs/kbgfibschat.cpp:571
+#, fuzzy, kde-format
+#| msgid "<u>%1 whispers:</u> %2"
+msgid "%1 kibitz: %2"
+msgstr "<u>%1 గుస గుసలాడుతున్నాడు</u> %2"
+
+#: engines/fibs/kbgfibschat.cpp:581
+#, fuzzy, kde-format
+#| msgid "<u>User %1 left a message at %2</u>: %3"
+msgid "User %1 left a message at %2: %3"
+msgstr "<u>యూజర్ %1 సందేశం %2 లొ పెట్టాడు</u>: %3"
+
+#: engines/fibs/kbgfibschat.cpp:587
 #, kde-format
-msgid "gnubg rolls %1 and %2."
-msgstr ""
+msgid "Your message for %1 has been delivered."
+msgstr "%1 కొరకు మీ సందేశం అందించడమైనది"
 
-#: engines/gnubg/kbggnubg.cpp:221
-msgid "gnubg cannot move."
-msgstr ""
-
-#: engines/gnubg/kbggnubg.cpp:235 engines/offline/kbgoffline.cpp:414
-#: engines/offline/kbgoffline.cpp:927
+#: engines/fibs/kbgfibschat.cpp:593
 #, kde-format
-msgid "%1 vs. %2"
-msgstr "%1 vs. %2"
+msgid "Your message for %1 has been saved."
+msgstr "%1 కొరకు మీ సందేశం దాచబడింది"
 
-#: engines/gnubg/kbggnubg.cpp:275 engines/offline/kbgoffline.cpp:355
-msgid "A game is currently in progress. Starting a new one will terminate it."
-msgstr ""
+#: engines/fibs/kbgfibschat.cpp:610
+#, fuzzy
+#| msgid "<u>You say to yourself:</u> "
+msgid "You say to yourself: "
+msgstr "<u>మిలో మీరు మాట్లాడుకుంటున్నారు:</u>"
 
-#: engines/gnubg/kbggnubg.cpp:277 engines/offline/kbgoffline.cpp:357
-msgid "Start New Game"
-msgstr "కొత్త ఆట మొదలుపెట్టు"
-
-#: engines/gnubg/kbggnubg.cpp:277 engines/offline/kbgoffline.cpp:358
-msgid "Continue Old Game"
-msgstr "పాత ఆట కొనసాగించు"
-
-#: engines/gnubg/kbggnubg.cpp:290
-msgid "Starting a new game."
-msgstr "కొత్త ఆట మొదలుపెట్టు"
-
-#: engines/gnubg/kbggnubg.cpp:379
-msgid "GNU backgammon engine"
-msgstr ""
-
-#: engines/gnubg/kbggnubg.cpp:380
-msgid "GNU Engine"
-msgstr ""
-
-#: engines/gnubg/kbggnubg.cpp:440
-msgid "&Restart GNU Backgammon"
-msgstr ""
-
-#: engines/gnubg/kbggnubg.cpp:506
-msgid ""
-"Could not start the GNU Backgammon process.\n"
-"Make sure the program is in your PATH and is called \"gnubg\".\n"
-"Make sure that your copy is at least version 0.10"
-msgstr ""
-
-#: engines/gnubg/kbggnubg.cpp:535
+#: engines/fibs/kbgfibschat.cpp:664
 #, kde-format
-msgid "The GNU Backgammon process (%1) has exited with code %1"
+msgid "Gag %1"
 msgstr ""
+
+#: engines/fibs/kbgfibschat.cpp:667
+#, kde-format
+msgid "Ungag %1"
+msgstr ""
+
+#: engines/fibs/kbgfibschat.cpp:694
+msgid "The gag list is now empty."
+msgstr ""
+
+#: engines/fibs/kbgfibschat.cpp:703
+#, fuzzy, kde-format
+#| msgid "You will not hear what people shout."
+msgid "You will not hear what %1 says and shouts."
+msgstr "ఎవరు ఏమి అరిచిన మీకు వినబడదు."
+
+#: engines/fibs/kbgfibschat.cpp:720
+#, fuzzy, kde-format
+#| msgid "You will not hear what people shout."
+msgid "You will again hear what %1 says and shouts."
+msgstr "ఎవరు ఏమి అరిచిన మీకు వినబడదు."
+
+#: engines/fibs/kbgfibschat.cpp:739
+msgid "You will not hear what people shout."
+msgstr "ఎవరు ఏమి అరిచిన మీకు వినబడదు."
+
+#: engines/fibs/kbgfibschat.cpp:741
+msgid "You will hear what people shout."
+msgstr "ఎవరు ఏమి అరిచిన మీకు వినపడుతుంది."
 
 #: engines/nextgen/kbgng.cpp:65
 msgid "Local Games"
@@ -1465,181 +1362,284 @@ msgstr "రెండవ ఆటగాడి పేరు టైప్ చెయ�
 msgid "Players are %1 and %2"
 msgstr "ఆటగాళ్లు %1 మరియు %2"
 
-#: engines/offline/kbgoffline.cpp:145
-msgid "&New Game..."
-msgstr "(&N) కొత్త ఆట..."
-
-#: engines/offline/kbgoffline.cpp:151
-msgid "&Swap Colors"
-msgstr "(&S) రంగులు మార్చు"
-
-#: engines/offline/kbgoffline.cpp:154
-msgid "&Edit Mode"
+#: kbg.cpp:138 kbg.cpp:159 main.cpp:43
+msgid "KBackgammon"
 msgstr ""
 
-#: engines/offline/kbgoffline.cpp:218
-msgid "KBackgammon engine"
+#: kbg.cpp:139
+msgid "FIBS"
 msgstr ""
 
-#: engines/offline/kbgoffline.cpp:219
-msgid "KBackgammon Engine"
+#: kbg.cpp:140
+msgid "GNU Backgammon (Experimental)"
 msgstr ""
 
-#: engines/offline/kbgoffline.cpp:239
-msgid "Names"
-msgstr "పేర్లు"
-
-#: engines/offline/kbgoffline.cpp:250
-msgid "First player:"
-msgstr "మొదటి ఆటగాడు:"
-
-#: engines/offline/kbgoffline.cpp:251
-msgid "Second player:"
-msgstr "రెండవ ఆటగాడు:"
-
-#: engines/offline/kbgoffline.cpp:253 engines/offline/kbgoffline.cpp:255
-msgid "Computer"
+#: kbg.cpp:143
+msgid "FIBS Home"
 msgstr ""
 
-#: engines/offline/kbgoffline.cpp:258 engines/offline/kbgoffline.cpp:259
-msgid "Check for the computer to play"
+#: kbg.cpp:146
+msgid "Backgammon Rules"
 msgstr ""
 
-#: engines/offline/kbgoffline.cpp:262
-msgid "Match to:"
+#: kbg.cpp:172
+msgid "&Play offline"
 msgstr ""
 
-#: engines/offline/kbgoffline.cpp:275
-msgid "Enter the name of the first player."
-msgstr "మొదటి ఆటగాడి పేరు టైప్ చెయ్యండి"
-
-#: engines/offline/kbgoffline.cpp:276
-msgid "Enter the name of the second player."
-msgstr "రెండవ ఆటగాడి పేరు టైప్ చెయ్యండి"
-
-#: engines/offline/kbgoffline.cpp:282
-msgid "&Player Names"
-msgstr "(&P) ఆటగాళ్ల పేర్లు"
-
-#: engines/offline/kbgoffline.cpp:301 engines/offline/kbgoffline.cpp:316
-msgid "South"
-msgstr "దక్షిణం"
-
-#: engines/offline/kbgoffline.cpp:302 engines/offline/kbgoffline.cpp:317
-msgid "North"
-msgstr "తూర్పు"
-
-#: engines/offline/kbgoffline.cpp:393
-#, kde-format
-msgid "%1 rolls %2, %3 rolls %4."
+#: kbg.cpp:176
+msgid "With a friend"
 msgstr ""
 
-#: engines/offline/kbgoffline.cpp:398 engines/offline/kbgoffline.cpp:401
-#, kde-format
-msgid "%1 makes the first move."
+#: kbg.cpp:182
+msgid "Advanced AI"
 msgstr ""
 
-#: engines/offline/kbgoffline.cpp:476
-msgid ""
-"Please enter the nickname of the player whose home\n"
-"is in the lower half of the board:"
+#: kbg.cpp:187
+msgid "Expert AI"
 msgstr ""
 
-#: engines/offline/kbgoffline.cpp:480
-msgid ""
-"Please enter the nickname of the player whose home\n"
-"is in the upper half of the board:"
-msgstr ""
-
-#: engines/offline/kbgoffline.cpp:485
+#: kbg.cpp:192
 #, fuzzy
-#| msgid "&Player Names"
-msgid "Player name"
-msgstr "(&P) ఆటగాళ్ల పేర్లు"
+#| msgid "&Playerlist"
+msgid "&Play online"
+msgstr "(&P) ఆటగాళ్ళ జాబిత"
 
-#: engines/offline/kbgoffline.cpp:509 engines/offline/kbgoffline.cpp:772
-#: engines/offline/kbgoffline.cpp:783
-#, fuzzy, kde-format
-#| msgid "1 Point Match"
-msgid "%1 wins the game. Congratulations!"
-msgstr "1 పాయింటు ఆట"
-
-#: engines/offline/kbgoffline.cpp:512
-#, kde-format
-msgid "Score: %1 to %2 of %3"
+#: kbg.cpp:196
+msgid "&FIBS"
 msgstr ""
 
-#: engines/offline/kbgoffline.cpp:519
-#, fuzzy, kde-format
-#| msgid "1 Point Match"
-msgid "%1 wins the match!"
-msgstr "1 పాయింటు ఆట"
-
-#: engines/offline/kbgoffline.cpp:538
-#, kde-format
-msgid "%1, please roll or double."
+#: kbg.cpp:222
+msgid "Double Cube"
 msgstr ""
 
-#: engines/offline/kbgoffline.cpp:662
+#: kbg.cpp:233
+msgid "&Backgammon on the Web"
+msgstr ""
+
+#: kbg.cpp:249
+msgid "Command: "
+msgstr ""
+
+#: kbg.cpp:289
+msgid ""
+"This area contains the status messages for the game. Most of these messages "
+"are sent to you from the current engine."
+msgstr ""
+
+#: kbg.cpp:293
+msgid ""
+"This is the command line. You can type special commands related to the "
+"current engine in here. Most relevant commands are also available through "
+"the menus."
+msgstr ""
+
+#: kbg.cpp:298
+msgid ""
+"This is the button bar tool bar. It gives you easy access to game related "
+"commands. You can drag the bar to a different location within the window."
+msgstr ""
+
+#: kbg.cpp:303
+msgid ""
+"This is the status bar. It shows you the currently selected engine in the "
+"left corner."
+msgstr ""
+
+#: kbg.cpp:603
+msgid "KBackgammon settings"
+msgstr ""
+
+#: kbg.cpp:615
 #, fuzzy
-#| msgid "It's not your turn to roll!"
-msgid "It is not your turn to roll!"
-msgstr "ఇప్పుడు మీ వంతు కాదు"
+#| msgid "General"
+msgid "General settings"
+msgstr "సాధారణ"
 
-#: engines/offline/kbgoffline.cpp:714
-msgid "Game over!"
-msgstr "ఆట అయిపోయింది!"
+#: kbg.cpp:616
+msgid "General"
+msgstr "సాధారణ"
 
-#: engines/offline/kbgoffline.cpp:721
-#, kde-format
-msgid "%1, you cannot move."
+#: kbg.cpp:623
+msgid "Messages"
+msgstr "సందేశాలు"
+
+#: kbg.cpp:624
+msgid "Timer"
+msgstr "టైమర్"
+
+#: kbg.cpp:625
+msgid "Autosave"
 msgstr ""
 
-#: engines/offline/kbgoffline.cpp:736
-#, kde-format
-msgid ", please move 1 piece."
-msgid_plural ", please move %1 pieces."
-msgstr[0] ""
-msgstr[1] ""
-
-#: engines/offline/kbgoffline.cpp:742
-#, kde-format
-msgid "%1 rolls %2, %3, and moves %4."
+#: kbg.cpp:630
+msgid ""
+"After you finished your moves, they have to be sent to the engine. You can "
+"either do that manually (in which case you should not enable this feature), "
+"or you can specify an amount of time that has to pass before the move is "
+"committed. If you undo a move during the timeout, the timeout will be reset "
+"and restarted once you finish the move. This is very useful if you would "
+"like to review the result of your move."
 msgstr ""
 
-#: engines/offline/kbgoffline.cpp:765
-#, kde-format
-msgid "%1 has doubled. %2, do you accept the double?"
+#: kbg.cpp:637
+msgid "Enable timeout"
 msgstr ""
 
-#: engines/offline/kbgoffline.cpp:768
-msgid "Doubling"
-msgstr "రెట్టింపు అయ్యింది"
-
-#: engines/offline/kbgoffline.cpp:775 engines/offline/kbgoffline.cpp:786
-#, kde-format
-msgid "Score: %1 to %2"
+#: kbg.cpp:642
+msgid "Move timeout in seconds:"
 msgstr ""
 
-#: engines/offline/kbgoffline.cpp:790
-#, kde-format
-msgid "%1 has accepted the double. The game continues."
+#: kbg.cpp:656
+msgid ""
+"Check the box to enable all the messages that you have previously disabled "
+"by choosing the \"Do not show this message again\" option."
 msgstr ""
 
-#: engines/offline/kbgoffline.cpp:828
-msgid "In the middle of a game. Really quit?"
+#: kbg.cpp:661
+msgid "Reenable all messages"
 msgstr ""
 
-#: engines/offline/kbgoffline.cpp:853
-#, kde-format
-msgid "Text commands are not yet working. The command '%1' has been ignored."
+#: kbg.cpp:667
+msgid ""
+"Check the box to automatically save all window positions on program exit. "
+"They will be restored at next start."
 msgstr ""
 
-#: engines/offline/kbgoffline.cpp:923
-#, fuzzy, kde-format
-#| msgid "%1 vs. %2"
-msgid "%1 vs. %2 - Edit Mode"
-msgstr "%1 vs. %2"
+#: kbg.cpp:672
+msgid "Save settings on exit"
+msgstr ""
+
+#: kbg.cpp:740
+msgid ""
+"You can enable the menubar again with the right mouse button menu of the "
+"board."
+msgstr ""
+
+#: kbg.cpp:742
+msgid "Information"
+msgstr ""
+
+#: kbgboard.cpp:148
+msgid "Backgammon board"
+msgstr ""
+
+#: kbgboard.cpp:149
+msgid "Board"
+msgstr "పలక"
+
+#: kbgboard.cpp:171
+msgid "Colors"
+msgstr "రంగులు"
+
+#: kbgboard.cpp:172
+msgid "Short Moves"
+msgstr ""
+
+#: kbgboard.cpp:186
+msgid "Background"
+msgstr ""
+
+#: kbgboard.cpp:189
+msgid "Color 1"
+msgstr "రంగు 1"
+
+#: kbgboard.cpp:192
+msgid "Color 2"
+msgstr "రంగు 2"
+
+#: kbgboard.cpp:215
+msgid "&Disable short moves. Only drag and drop will move."
+msgstr ""
+
+#: kbgboard.cpp:216
+msgid ""
+"&Single clicks with the left mouse button will\n"
+"move a checker the shortest possible distance."
+msgstr ""
+
+#: kbgboard.cpp:218
+msgid ""
+"D&ouble clicks with the left mouse button will\n"
+"move a checker the shortest possible distance."
+msgstr ""
+
+#: kbgboard.cpp:234
+msgid "Show pip count in title bar"
+msgstr ""
+
+#: kbgboard.cpp:247
+msgid "&Board"
+msgstr "(&B) పలక"
+
+#: kbgboard.cpp:270
+msgid "&Font"
+msgstr "(&F) అక్షరశైలి"
+
+#: kbgboard.cpp:408
+msgid "Set Cube Values"
+msgstr ""
+
+#: kbgboard.cpp:420
+msgid ""
+"Set the face value of the cube and select who should be able to\n"
+"double. Note that a face value of 1 automatically allows both\n"
+"players to double."
+msgstr ""
+
+#: kbgboard.cpp:472
+msgid "Lower Player"
+msgstr "క్రింది ఆటగాడు"
+
+#: kbgboard.cpp:473
+msgid "Upper Player"
+msgstr "పై ఆటగాడు"
+
+#: kbgboard.cpp:474
+msgid "Open Cube"
+msgstr ""
+
+#: kbgboard.cpp:558
+msgid "Set Dice Values"
+msgstr ""
+
+#: kbgboard.cpp:570
+msgid ""
+"Set the face values of the selected dice. The other player's\n"
+"dice will be cleared and it will be the dice's owner's turn."
+msgstr ""
+
+#: kbgboard.cpp:1645
+msgid ""
+"This is the bar of the backgammon board.\n"
+"\n"
+"Checkers that have been kicked from the board are put on the bar and remain "
+"there until they can be put back on the board. Checkers can be moved by "
+"dragging them to their destination or by using the 'short move' feature.\n"
+"\n"
+"If the cube has not been doubled yet and if it can be used, its face shows "
+"64 and if the cube can be doubled, double clicking it will do so."
+msgstr ""
+
+#: kbgboard.cpp:1662
+msgid ""
+"This is a regular field of the backgammon board.\n"
+"\n"
+"Checkers can be placed on this field and if the current state of the game "
+"and the dice permit this, they can be moved by dragging them to their "
+"destination or by using the 'short move' feature."
+msgstr ""
+
+#: kbgboard.cpp:1676
+msgid ""
+"This part of the backgammon board is the home.\n"
+"\n"
+"Depending on the direction of the game, one of the homes contains the dice "
+"and the other one contains checkers that have been moved off the board. "
+"Checkers can never be moved away from the home. If this home contains the "
+"dice and the current state of the game permits this, double clicking on the "
+"dice will roll them. Moreover, the cube might be placed on the home bar and "
+"if it can be doubled, double clicking it will do so."
+msgstr ""
 
 #: main.cpp:31
 msgid "A Backgammon program for KDE"
