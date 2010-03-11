@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-10 04:47+0100\n"
+"POT-Creation-Date: 2010-03-11 04:15+0100\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -616,7 +616,7 @@ msgstr "డైలాగ్ పరిమాణం"
 #. i18n: ectx: property (windowTitle), widget (QWidget, UploadDialog)
 #. i18n: file: knewstuff/knewstuff2/ui/UploadDialog.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, UploadDialog)
-#: rc.cpp:270 rc.cpp:423 knewstuff/knewstuff3/uploaddialog.cpp:148
+#: rc.cpp:270 rc.cpp:423 knewstuff/knewstuff3/uploaddialog.cpp:185
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:58
 msgid "Share Hot New Stuff"
 msgstr "కొత్తవాటిని పంచుకో"
@@ -2935,31 +2935,31 @@ msgstr "కాంపోనెంట్ చేతనంచేయి"
 msgid "Select Components"
 msgstr "అంశాలను ఎంచుకొనుము"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:70
+#: knewstuff/knewstuff3/uploaddialog.cpp:158
 #, fuzzy
 #| msgid "Save Login Information"
-msgid "Could not save login information."
+msgid "Could not verify login, please try again."
 msgstr "లాగిన్ సమాచారం దాచు"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:70
-#: knewstuff/knewstuff3/uploaddialog.cpp:305
+#: knewstuff/knewstuff3/uploaddialog.cpp:158
+#: knewstuff/knewstuff3/uploaddialog.cpp:328
 #: khtml/rendering/render_form.cpp:811 kjs/object.cpp:585
 #: kdeui/dialogs/kmessagebox.cpp:830 kdeui/dialogs/kmessagebox.cpp:860
 msgid "Error"
 msgstr "దోషం"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:153
+#: knewstuff/knewstuff3/uploaddialog.cpp:190
 #: kdeui/dialogs/kassistantdialog.cpp:94
 msgctxt "Opposite to Back"
 msgid "Next"
 msgstr "తరువాత"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:155
+#: knewstuff/knewstuff3/uploaddialog.cpp:192
 #: kdeui/dialogs/kassistantdialog.cpp:95
 msgid "Finish"
 msgstr "ముగింపు"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:175
+#: knewstuff/knewstuff3/uploaddialog.cpp:213
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:65
 #, fuzzy, kde-format
 #| msgctxt "Program name followed by 'Add On Installer'"
@@ -2968,22 +2968,22 @@ msgctxt "Program name followed by 'Add On Uploader'"
 msgid "%1 Add-On Uploader"
 msgstr "%1 యాడ్-ఆన్ సంస్థాపకి"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:242
-#: knewstuff/knewstuff3/uploaddialog.cpp:424
+#: knewstuff/knewstuff3/uploaddialog.cpp:265
+#: knewstuff/knewstuff3/uploaddialog.cpp:451
 #, fuzzy, kde-format
 #| msgid "File %1 not found."
 msgid "File not found: %1"
 msgstr "%1 దస్త్రం కనపడలేదు"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:242
-#: knewstuff/knewstuff3/uploaddialog.cpp:349
-#: knewstuff/knewstuff3/uploaddialog.cpp:424
+#: knewstuff/knewstuff3/uploaddialog.cpp:265
+#: knewstuff/knewstuff3/uploaddialog.cpp:376
+#: knewstuff/knewstuff3/uploaddialog.cpp:451
 #, fuzzy
 #| msgid "Download"
 msgid "Upload Failed"
 msgstr "డౌన్ లోడ్"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:302
+#: knewstuff/knewstuff3/uploaddialog.cpp:325
 #, kde-format
 msgid ""
 "The server does not recognize the category %2 to which you are trying to "
@@ -2994,50 +2994,54 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:349
+#: knewstuff/knewstuff3/uploaddialog.cpp:376
 #, kde-format
 msgid "The selected category \"%1\" is invalid."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:353
+#: knewstuff/knewstuff3/uploaddialog.cpp:380
 msgid "Creating Content on Server..."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:392
+#: knewstuff/knewstuff3/uploaddialog.cpp:419
 msgid "There was a network error."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:392
-#: knewstuff/knewstuff3/uploaddialog.cpp:397
+#: knewstuff/knewstuff3/uploaddialog.cpp:419
+#: knewstuff/knewstuff3/uploaddialog.cpp:424
 #, fuzzy
 #| msgid "Download"
 msgid "Uploading Failed"
 msgstr "డౌన్ లోడ్"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:397
+#: knewstuff/knewstuff3/uploaddialog.cpp:424
 #, fuzzy
 #| msgid "Communication error"
 msgid "Authentication error."
 msgstr "సంప్రదింపు దోషము"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:402
+#: knewstuff/knewstuff3/uploaddialog.cpp:429
 #, fuzzy
 #| msgid "Loading Preview"
 msgid "Uploading preview and content..."
 msgstr "ముందస్తు వీక్షణం లోడుచేస్తోంది"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:411
+#: knewstuff/knewstuff3/uploaddialog.cpp:438
 msgid "Uploading content..."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:415
+#: knewstuff/knewstuff3/uploaddialog.cpp:442
 #, fuzzy
 #| msgid "Loading Preview"
 msgid "Uploading preview image and content..."
 msgstr "ముందస్తు వీక్షణం లోడుచేస్తోంది"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:449
-msgid "Content successfully uploaded."
+#: knewstuff/knewstuff3/uploaddialog.cpp:476
+msgid "Content file successfully uploaded."
+msgstr ""
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:484
+msgid "Preview image successfully uploaded."
 msgstr ""
 
 #: knewstuff/knewstuff3/downloaddialog_p.cpp:68
