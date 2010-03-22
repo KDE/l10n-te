@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2010-03-20 01:24+0100\n"
+"POT-Creation-Date: 2010-03-22 01:27+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -449,12 +449,12 @@ msgid "The audio output device"
 msgstr ""
 
 #: 3rdparty/phonon/mmf/audioplayer.cpp:173
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:195
+#: 3rdparty/phonon/mmf/abstractvideoplayer.cpp:178
 msgid "Getting position failed"
 msgstr ""
 
 #: 3rdparty/phonon/mmf/audioplayer.cpp:209
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:221
+#: 3rdparty/phonon/mmf/abstractvideoplayer.cpp:241
 msgid "Opening clip failed"
 msgstr ""
 
@@ -500,44 +500,6 @@ msgstr ""
 
 #: 3rdparty/phonon/mmf/environmentalreverb.cpp:205
 msgid "Room level (mB)"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/mediaobject.cpp:270
-#, fuzzy
-#| msgctxt "QNativeSocketEngine"
-#| msgid "Protocol type not supported"
-msgid "Error opening source: type not supported"
-msgstr "ప్రొటొకాల్ రకము కొరకు సహాయంలేదు"
-
-#: 3rdparty/phonon/mmf/mediaobject.cpp:288
-#, fuzzy
-#| msgctxt "QNativeSocketEngine"
-#| msgid "Protocol type not supported"
-msgid "Error opening source: media type could not be determined"
-msgstr "ప్రొటొకాల్ రకము కొరకు సహాయంలేదు"
-
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:125
-#, fuzzy
-#| msgid "%1: ftok failed"
-msgid "Pause failed"
-msgstr "%1: ftok తప్పినది"
-
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:141
-#, fuzzy
-#| msgid "%1: ftok failed"
-msgid "Seek failed"
-msgstr "%1: ftok తప్పినది"
-
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:247
-msgid "Buffering clip failed"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:421
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:433
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:609
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:624
-#: 3rdparty/phonon/mmf/mmf_videoplayer.cpp:630
-msgid "Video display error"
 msgstr ""
 
 #: 3rdparty/phonon/mmf/stereowidening.cpp:79
@@ -727,6 +689,46 @@ msgstr "నెట్వర్క్ దోషం"
 #| msgid "Unknown error"
 msgid "Unknown error (%1)"
 msgstr "తెలియని దోషము"
+
+#: 3rdparty/phonon/mmf/abstractvideoplayer.cpp:108
+#, fuzzy
+#| msgid "%1: ftok failed"
+msgid "Pause failed"
+msgstr "%1: ftok తప్పినది"
+
+#: 3rdparty/phonon/mmf/abstractvideoplayer.cpp:124
+#, fuzzy
+#| msgid "%1: ftok failed"
+msgid "Seek failed"
+msgstr "%1: ftok తప్పినది"
+
+#: 3rdparty/phonon/mmf/abstractvideoplayer.cpp:267
+msgid "Buffering clip failed"
+msgstr ""
+
+#: 3rdparty/phonon/mmf/mediaobject.cpp:276
+#, fuzzy
+#| msgctxt "QNativeSocketEngine"
+#| msgid "Protocol type not supported"
+msgid "Error opening source: type not supported"
+msgstr "ప్రొటొకాల్ రకము కొరకు సహాయంలేదు"
+
+#: 3rdparty/phonon/mmf/mediaobject.cpp:294
+#, fuzzy
+#| msgctxt "QNativeSocketEngine"
+#| msgid "Protocol type not supported"
+msgid "Error opening source: media type could not be determined"
+msgstr "ప్రొటొకాల్ రకము కొరకు సహాయంలేదు"
+
+#: 3rdparty/phonon/mmf/videoplayer_dsa.cpp:228
+#: 3rdparty/phonon/mmf/videoplayer_dsa.cpp:243
+#: 3rdparty/phonon/mmf/videoplayer_dsa.cpp:251
+#: 3rdparty/phonon/mmf/videoplayer_dsa.cpp:267
+#: 3rdparty/phonon/mmf/videoplayer_dsa.cpp:279
+#: 3rdparty/phonon/mmf/videoplayer_surface.cpp:128
+#: 3rdparty/phonon/mmf/videoplayer_surface.cpp:144
+msgid "Video display error"
+msgstr ""
 
 #: 3rdparty/phonon/phonon/audiooutput.cpp:385
 #, qt-format
@@ -2934,7 +2936,7 @@ msgstr "అసత్యము"
 msgid "True"
 msgstr "సత్యము"
 
-#: gui/kernel/qapplication.cpp:2287
+#: gui/kernel/qapplication.cpp:2289
 msgctxt ""
 "Translate this string to the string 'LTR' in left-to-right languages or to "
 "'RTL' in right-to-left languages (such as Hebrew and Arabic) to get proper "
