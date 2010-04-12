@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-27 04:22+0100\n"
+"POT-Creation-Date: 2010-04-12 04:29+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -55,27 +55,27 @@ msgstr ""
 msgid "Unmounting..."
 msgstr ""
 
-#: devicenotifier.cpp:202
+#: devicenotifier.cpp:203
 #, kde-format
 msgid "1 action for this device"
 msgid_plural "%1 actions for this device"
 msgstr[0] ""
 msgstr[1] ""
 
-#: devicenotifier.cpp:271
+#: devicenotifier.cpp:272
 msgid "No devices available."
 msgstr ""
 
-#: devicenotifier.cpp:275
+#: devicenotifier.cpp:276
 #, kde-format
 msgid "Most recent device: %1"
 msgstr ""
 
-#: devicenotifier.cpp:377
+#: devicenotifier.cpp:378
 msgid "Display"
 msgstr ""
 
-#: devicenotifier.cpp:380
+#: devicenotifier.cpp:381
 msgid "Automounting"
 msgstr ""
 
@@ -83,33 +83,35 @@ msgstr ""
 msgid "Show hidden devices"
 msgstr ""
 
-#: notifierdialog.cpp:519
+#: notifierdialog.cpp:574
+#, kde-format
 msgid ""
-"Could not unmount the device.\n"
+"Could not unmount device %1.\n"
 "One or more files on this device are open within an application."
 msgstr ""
 
-#: notifierdialog.cpp:538
+#: notifierdialog.cpp:593
 msgid ""
 "Cannot eject the disc.\n"
 "One or more files on this disc are open within an application."
 msgstr ""
 
-#: notifierdialog.cpp:553
-msgid "Cannot mount the disc."
+#: notifierdialog.cpp:613
+#, kde-format
+msgid "Could not mount device %1."
 msgstr ""
 
-#: notifierdialog.cpp:762
+#: notifierdialog.cpp:822
 #, kde-format
 msgctxt "Hide a device"
 msgid "Hide %1"
 msgstr ""
 
-#: notifierdialog.cpp:826
+#: notifierdialog.cpp:886
 msgid "Available Devices"
 msgstr ""
 
-#: notifierdialog.cpp:828
+#: notifierdialog.cpp:888
 msgid "No Devices Available"
 msgstr ""
 
