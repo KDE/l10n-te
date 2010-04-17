@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-16 02:52+0000\n"
+"POT-Creation-Date: 2010-04-17 02:59+0000\n"
 "PO-Revision-Date: 2005-12-20 15:48+0530\n"
 "Last-Translator: Vijay Kiran Kamuju <infyquest@gmail.com>\n"
 "Language-Team: TELUGU <kde-i18n-doc@kde.org>\n"
@@ -84,6 +84,14 @@ msgctxt "Comment"
 msgid "Set bookmarks on lines matching a pattern when documents are loaded"
 msgstr "పత్రాలు ఎక్కించిన తరువాత బాణీకి సరిపొయిన వరుసల మీద బుక్ మార్కులను ఏర్పరుచును"
 
+#: kate/plugins/autobrace/ktexteditor_autobrace_config.desktop:7
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Automatic Proxy Configuration"
+msgctxt "Name"
+msgid "AutoBrace Configuration"
+msgstr "స్వయంచాలక ప్రాక్సీ రూపకరణం"
+
 #: kate/plugins/autobrace/ktexteditor_autobrace.desktop:18
 msgctxt "Name"
 msgid "AutoBrace"
@@ -137,7 +145,7 @@ msgctxt "Name"
 msgid "IconInserter"
 msgstr "దస్త్రం చేర్చు"
 
-#: kate/plugins/kte_iconinserter/ktexteditor_iconinserter.desktop:44
+#: kate/plugins/kte_iconinserter/ktexteditor_iconinserter.desktop:45
 msgctxt "GenericName"
 msgid "Insert Code for KIcon-Creation"
 msgstr ""
@@ -1410,7 +1418,7 @@ msgctxt "Name"
 msgid "Network Proxy Configuration"
 msgstr "స్వయంచాలక ప్రాక్సీ రూపకరణం"
 
-#: kio/misc/kpac/proxyscout.desktop:24
+#: kio/misc/kpac/proxyscout.desktop:25
 msgctxt "Comment"
 msgid "Automatic proxy configuration"
 msgstr "స్వయంచాలక ప్రాక్సీ రూపకరణం"
@@ -1423,32 +1431,32 @@ msgctxt "Comment"
 msgid "Network Proxy Configuration"
 msgstr "స్వయంచాలక ప్రాక్సీ రూపకరణం"
 
-#: kio/misc/kpac/proxyscout.notifyrc:26
+#: kio/misc/kpac/proxyscout.notifyrc:27
 msgctxt "Name"
 msgid "Invalid Proxy Script"
 msgstr "చెల్లని ప్రాక్సీ స్క్రిప్ట్"
 
-#: kio/misc/kpac/proxyscout.notifyrc:107
+#: kio/misc/kpac/proxyscout.notifyrc:108
 msgctxt "Comment"
 msgid "The downloaded proxy configuration script is invalid"
 msgstr "డౌన్ లోడ్ చేయబడిన్ ప్రాక్సీ రూపకరణపు స్క్రిప్ట్ చెల్లదు"
 
-#: kio/misc/kpac/proxyscout.notifyrc:198
+#: kio/misc/kpac/proxyscout.notifyrc:199
 msgctxt "Name"
 msgid "Script Download Error"
 msgstr "స్క్రిప్ట్ డౌన్ లోడ్ దోషం"
 
-#: kio/misc/kpac/proxyscout.notifyrc:280
+#: kio/misc/kpac/proxyscout.notifyrc:281
 msgctxt "Comment"
 msgid "The proxy configuration script could not be downloaded"
 msgstr "ప్రాక్సీ రూపకరణపు స్క్రిప్ట్ ని డౌన్ లోడ్ చేయలేకపోయాం"
 
-#: kio/misc/kpac/proxyscout.notifyrc:371
+#: kio/misc/kpac/proxyscout.notifyrc:372
 msgctxt "Name"
 msgid "Script Evaluation Error"
 msgstr "స్క్రిప్ట్ నిర్వహణ దోషం"
 
-#: kio/misc/kpac/proxyscout.notifyrc:451
+#: kio/misc/kpac/proxyscout.notifyrc:452
 msgctxt "Comment"
 msgid "There was an error executing the proxy configuration script"
 msgstr "ప్రాక్సీ రూపకరణపు స్క్రిప్ట్ నిర్వహణలొ దోషం వున్నది"
@@ -1481,7 +1489,7 @@ msgctxt "Name"
 msgid "Cookie Jar"
 msgstr "కెడిఈడి కుకీ జాడి మాడ్యూల్"
 
-#: kioslave/http/kcookiejar/kcookiejar.desktop:23
+#: kioslave/http/kcookiejar/kcookiejar.desktop:24
 msgctxt "Comment"
 msgid "Stores network cookies"
 msgstr ""
@@ -1556,7 +1564,7 @@ msgctxt "Name"
 msgid "KDE Emoticons Theme"
 msgstr ""
 
-#: kutils/kemoticons/providers/kde/emoticonstheme_kde.desktop:77
+#: kutils/kemoticons/providers/kde/emoticonstheme_kde.desktop:5
 msgctxt "Comment"
 msgid "Library to use KDE emoticons theme"
 msgstr ""
@@ -1709,10 +1717,6 @@ msgstr "హెచ్ స్పెల్"
 msgctxt "Name"
 msgid "Hunspell"
 msgstr "హెచ్ స్పెల్"
-
-#~ msgctxt "Comment"
-#~ msgid "Automatic Proxy Configuration"
-#~ msgstr "స్వయంచాలక ప్రాక్సీ రూపకరణం"
 
 #~ msgctxt "Name"
 #~ msgid "KSSL Daemon Module"
