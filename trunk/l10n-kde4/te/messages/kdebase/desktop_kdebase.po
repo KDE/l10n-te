@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-18 03:05+0000\n"
+"POT-Creation-Date: 2010-04-19 02:58+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1552,7 +1552,7 @@ msgctxt "Name"
 msgid "Manage Notifications"
 msgstr "నోటీసులు"
 
-#: runtime/kcontrol/knotify/kcmnotify.desktop:15
+#: runtime/kcontrol/knotify/kcmnotify.desktop:16
 msgctxt "Comment"
 msgid "System Notification Configuration"
 msgstr "సిస్టమ్ నోటీసు ఆకృతీకరణ"
@@ -6294,7 +6294,6 @@ msgid "More Applications"
 msgstr "మరికొన్ని కార్యక్రమములు"
 
 #: runtime/menu/desktop/kde-multimedia.directory:4
-#: runtime/phonon/kcm/kcm_phonon.desktop:13
 #: workspace/plasma/netbook/containments/sal/services/plasma-sal-multimedia.desktop:2
 msgctxt "Name"
 msgid "Multimedia"
@@ -6313,7 +6312,6 @@ msgstr "విజ్ఞానం & గణితం"
 
 #: runtime/menu/desktop/kde-system.directory:4
 #: workspace/plasma/netbook/containments/sal/services/plasma-sal-system.desktop:2
-#: workspace/systemsettings/categories/settings-system.desktop:8
 msgctxt "Name"
 msgid "System"
 msgstr "వ్యవస్థ"
@@ -6342,7 +6340,6 @@ msgid "Accessibility"
 msgstr "అందుబాటు"
 
 #: runtime/menu/desktop/kde-utilities-desktop.directory:4
-#: workspace/systemsettings/categories/settings-desktop.desktop:8
 msgctxt "Name"
 msgid "Desktop"
 msgstr "రంగస్ఠలం"
@@ -6640,6 +6637,14 @@ msgctxt "Comment"
 msgid "File indexing has been resumed by the search service."
 msgstr "Strigi దస్త్రము విషయవర్గీకరణ తిరిగికొనసాగించబడింది"
 
+#: runtime/phonon/kcm/kcm_phonon.desktop:13
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Phonon Xine"
+msgctxt "Name"
+msgid "Phonon"
+msgstr "Phonon Xine"
+
 #: runtime/phonon/kcm/kcm_phonon.desktop:103
 #, fuzzy
 #| msgctxt "Comment"
@@ -6780,6 +6785,7 @@ msgid "Automatically releases drives when their eject button is pushed"
 msgstr ""
 
 #: runtime/solid-device-automounter/kcm/device_automounter_kcm.desktop:11
+#: workspace/systemsettings/categories/settings-removable-devices.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "USB Devices"
@@ -6960,12 +6966,12 @@ msgctxt "Comment"
 msgid "Color settings"
 msgstr "రంగుల అమరికలు"
 
-#: workspace/kcontrol/dateandtime/clock.desktop:14
+#: workspace/kcontrol/dateandtime/clock.desktop:15
 msgctxt "Name"
 msgid "Date & Time"
 msgstr "తేది & సమయం"
 
-#: workspace/kcontrol/dateandtime/clock.desktop:104
+#: workspace/kcontrol/dateandtime/clock.desktop:105
 msgctxt "Comment"
 msgid "Date and time settings"
 msgstr "తేది మరయూ సమయం అమరికలు"
@@ -7012,13 +7018,12 @@ msgctxt "Comment"
 msgid "Font settings"
 msgstr "ఫాంట్ అమరికలు"
 
-#: workspace/kcontrol/hardware/display/display.desktop:11
-#: workspace/systemsettings/categories/settings-display.desktop:8
+#: workspace/kcontrol/hardware/display/display.desktop:12
 msgctxt "Name"
 msgid "Display"
 msgstr "ప్రదర్శన"
 
-#: workspace/kcontrol/hardware/display/display.desktop:99
+#: workspace/kcontrol/hardware/display/display.desktop:100
 #: workspace/systemsettings/categories/settings-display.desktop:96
 msgctxt "Comment"
 msgid "Display Settings"
@@ -7095,9 +7100,12 @@ msgid "XPlanet by Hari Nair"
 msgstr "XPlanet by Hari Nair"
 
 #: workspace/kcontrol/kdm/kdm.desktop:16
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "PrintScreen"
 msgctxt "Name"
-msgid "Login Manager"
-msgstr "లాగిన్ నిర్వాహిక"
+msgid "Login Screen"
+msgstr "తెరముద్ర"
 
 #: workspace/kcontrol/kdm/kdm.desktop:105
 msgctxt "Comment"
@@ -8470,7 +8478,7 @@ msgctxt "Name"
 msgid "Custom Shortcuts"
 msgstr "వెబ్ లఘువులు"
 
-#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:95
+#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:15
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure Hotkey settings"
@@ -8876,8 +8884,11 @@ msgid "ScreenSaver"
 msgstr "స్క్రీన్‌సేవర్"
 
 #: workspace/ksmserver/kcm/kcmsmserver.desktop:13
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Session Manager"
 msgctxt "Name"
-msgid "Session Manager"
+msgid "Session Management"
 msgstr "సెషన్ నిర్వాహకి"
 
 #: workspace/ksmserver/kcm/kcmsmserver.desktop:100
@@ -9903,9 +9914,12 @@ msgid "Configure desktop effects"
 msgstr "డెస్‍క్ టాప్ ప్రభావాలను ఆకృతీకరించుము"
 
 #: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Information"
 msgctxt "Name"
-msgid "Windows"
-msgstr "విండోలు"
+msgid "Window Decorations"
+msgstr "సమాచారం"
 
 #: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:94
 msgctxt "Comment"
@@ -9913,9 +9927,12 @@ msgid "Configure the look and feel of window titles"
 msgstr "విండో శీర్షికల ఆకృతి మరియు భావమును ఆకృతీకరించుము"
 
 #: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop"
 msgctxt "Name"
-msgid "Multiple Desktops"
-msgstr "బహుళ డెస్‍క్ టాప్‍స్"
+msgid "Virtual Desktops"
+msgstr "రంగస్ఠలం"
 
 #: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:99
 msgctxt "Comment"
@@ -9933,7 +9950,6 @@ msgid "Configure keyboard and mouse settings"
 msgstr "కీబోర్‍డ్ మరియు మౌస్ అమర్పులను ఆకృతీకరించుము"
 
 #: workspace/kwin/kcmkwin/kwinoptions/kwinadvanced.desktop:11
-#: workspace/systemsettings/categories/settings-advanced.desktop:8
 msgctxt "Name"
 msgid "Advanced"
 msgstr "ఆధునాతన"
@@ -9975,9 +9991,12 @@ msgid "Configure the window behavior"
 msgstr "విండో ప్రవర్తనను ఆకృతీకరించుము"
 
 #: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Close"
 msgctxt "Name"
-msgid "Window-Specific"
-msgstr "విండో-ప్రత్యేక"
+msgid "Window Rules"
+msgstr "విండో మూయి"
 
 #: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:90
 msgctxt "Comment"
@@ -10003,10 +10022,10 @@ msgstr "వెబ్ క్యాచి అమరికలను ఆకృతీ
 #: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:13
 #, fuzzy
 #| msgctxt "Name"
-#| msgid "Duplicate Window"
+#| msgid "Box Switch"
 msgctxt "Name"
-msgid "Navigate Through Windows"
-msgstr "నకిలి విండో"
+msgid "Task Switcher"
+msgstr "బాక్‍స్  స్విచ్"
 
 #: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:66
 #, fuzzy
@@ -12217,7 +12236,7 @@ msgctxt "Name"
 msgid "Solid Backend"
 msgstr "సాలిడ్"
 
-#: workspace/solid/kcm/kcm_solid.desktop:94
+#: workspace/solid/kcm/kcm_solid.desktop:14
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Hardware Integration Configuration"
@@ -12732,11 +12751,6 @@ msgctxt "Name"
 msgid "System Settings"
 msgstr "సిస్టమ్ అమర్పులు"
 
-#: workspace/systemsettings/categories/settings-about-me.desktop:8
-msgctxt "Name"
-msgid "About Me"
-msgstr "నా గురించి"
-
 #: workspace/systemsettings/categories/settings-account-details.desktop:8
 #, fuzzy
 #| msgctxt "Name"
@@ -12744,11 +12758,6 @@ msgstr "నా గురించి"
 msgctxt "Name"
 msgid "Account Details"
 msgstr "వివరాలు"
-
-#: workspace/systemsettings/categories/settings-advanced-user-settings.desktop:8
-msgctxt "Name"
-msgid "Advanced User Settings"
-msgstr "అధునాతన వినియోగదారి అమర్పులు"
 
 #: workspace/systemsettings/categories/settings-application-and-system-notifications.desktop:8
 #, fuzzy
@@ -12774,15 +12783,34 @@ msgctxt "Name"
 msgid "Application Appearance"
 msgstr "అనువర్తనం దించునది"
 
+#: workspace/systemsettings/categories/settings-audio-and-video.desktop:9
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Audio and Video IDE"
+msgctxt "Name"
+msgid "Audio and Video"
+msgstr "శబ్డం మరయు విడియొ ఐడిఈ"
+
 #: workspace/systemsettings/categories/settings-bluetooth.desktop:8
 msgctxt "Name"
 msgid "Bluetooth"
 msgstr "బ్లూటూత్"
 
-#: workspace/systemsettings/categories/settings-computer-administration.desktop:9
+#: workspace/systemsettings/categories/settings-desktop-appearance.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop Search"
 msgctxt "Name"
-msgid "Computer Administration"
-msgstr "కంప్యూటర్ నిర్వహణ"
+msgid "Desktop Appearance"
+msgstr "డెస్‍క్ టాప్ శోధన"
+
+#: workspace/systemsettings/categories/settings-display.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "File Management"
+msgctxt "Name"
+msgid "Display and Monitor"
+msgstr "దస్త్ర నిర్వహణ"
 
 #: workspace/systemsettings/categories/settings-general.desktop:9
 #, fuzzy
@@ -12797,11 +12825,6 @@ msgctxt "Name"
 msgid "Hardware"
 msgstr "హార్డువేర్"
 
-#: workspace/systemsettings/categories/settings-keyboard-and-mouse.desktop:8
-msgctxt "Name"
-msgid "Keyboard & Mouse"
-msgstr "కీబోర్‍డ్ & మౌస్"
-
 #: workspace/systemsettings/categories/settings-locale.desktop:8
 #, fuzzy
 #| msgctxt "GenericName"
@@ -12809,11 +12832,6 @@ msgstr "కీబోర్‍డ్ & మౌస్"
 msgctxt "Name"
 msgid "Locale"
 msgstr "తర్కపు ఆట"
-
-#: workspace/systemsettings/categories/settings-look-and-feel.desktop:9
-msgctxt "Name"
-msgid "Look & Feel"
-msgstr "ఆకృతి & భావము"
 
 #: workspace/systemsettings/categories/settings-lost-and-found.desktop:9
 #, fuzzy
@@ -12823,9 +12841,20 @@ msgctxt "Name"
 msgid "Lost and Found"
 msgstr "పోయినవి & దొరికినవి"
 
-#: workspace/systemsettings/categories/settings-network-and-connectivity.desktop:9
+#: workspace/systemsettings/categories/settings-main-input-devices.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
 msgctxt "Name"
-msgid "Network & Connectivity"
+msgid "Main Input Devices"
+msgstr "పరికరాలు"
+
+#: workspace/systemsettings/categories/settings-network-and-connectivity.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Network & Connectivity"
+msgctxt "Name"
+msgid "Network and Connectivity"
 msgstr "నెట్వర్‍క్   & అనుసంధానం"
 
 #: workspace/systemsettings/categories/settings-network-settings.desktop:8
@@ -12833,10 +12862,21 @@ msgctxt "Name"
 msgid "Network Settings"
 msgstr "నెట్వర్‍క్   అమర్పులు"
 
-#: workspace/systemsettings/categories/settings-personal.desktop:8
+#: workspace/systemsettings/categories/settings-other-input-devices.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
 msgctxt "Name"
-msgid "Personal"
-msgstr "వ్యక్తిగత"
+msgid "Other Input Devices"
+msgstr "పరికరాలు"
+
+#: workspace/systemsettings/categories/settings-permissions.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Partitions"
+msgctxt "Name"
+msgid "Permissions"
+msgstr "విభజనలు"
 
 #: workspace/systemsettings/categories/settings-personal-information.desktop:8
 #, fuzzy
@@ -12846,10 +12886,13 @@ msgctxt "Name"
 msgid "Personal Information"
 msgstr "ప్రాసెసర్ సమాచారం"
 
-#: workspace/systemsettings/categories/settings-regional-and-language.desktop:8
+#: workspace/systemsettings/categories/settings-security.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Metacity"
 msgctxt "Name"
-msgid "Regional & Language"
-msgstr "ప్రాంతీయ & భాష"
+msgid "Security"
+msgstr "మెటాసిటి"
 
 #: workspace/systemsettings/categories/settings-sharing.desktop:8
 msgctxt "Name"
@@ -12863,6 +12906,27 @@ msgstr "భాగస్వామ్యం"
 msgctxt "Name"
 msgid "Shortcuts and Gestures"
 msgstr "మౌస్ గెస్‍ట్‌రెస్"
+
+#: workspace/systemsettings/categories/settings-startup-and-shutdown.desktop:8
+msgctxt "Name"
+msgid "Startup and Shutdown"
+msgstr ""
+
+#: workspace/systemsettings/categories/settings-system-administration.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "SAM System-Administration"
+msgctxt "Name"
+msgid "System Administration"
+msgstr "SAM సిస్టమ్-నిర్వహణ"
+
+#: workspace/systemsettings/categories/settings-workspace-appearance-and-behavior.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
+msgctxt "Name"
+msgid "Workspace Appearance and Behavior"
+msgstr "అనువర్తనం దించునది"
 
 #: workspace/systemsettings/categories/systemsettingscategory.desktop:4
 msgctxt "Name"
@@ -12981,6 +13045,57 @@ msgstr ""
 msgctxt "Name"
 msgid "The Rings of Saturn"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Login Manager"
+#~ msgstr "లాగిన్ నిర్వాహిక"
+
+#~ msgctxt "Name"
+#~ msgid "Windows"
+#~ msgstr "విండోలు"
+
+#~ msgctxt "Name"
+#~ msgid "Multiple Desktops"
+#~ msgstr "బహుళ డెస్‍క్ టాప్‍స్"
+
+#~ msgctxt "Name"
+#~ msgid "Window-Specific"
+#~ msgstr "విండో-ప్రత్యేక"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Duplicate Window"
+#~ msgctxt "Name"
+#~ msgid "Navigate Through Windows"
+#~ msgstr "నకిలి విండో"
+
+#~ msgctxt "Name"
+#~ msgid "About Me"
+#~ msgstr "నా గురించి"
+
+#~ msgctxt "Name"
+#~ msgid "Advanced User Settings"
+#~ msgstr "అధునాతన వినియోగదారి అమర్పులు"
+
+#~ msgctxt "Name"
+#~ msgid "Computer Administration"
+#~ msgstr "కంప్యూటర్ నిర్వహణ"
+
+#~ msgctxt "Name"
+#~ msgid "Keyboard & Mouse"
+#~ msgstr "కీబోర్‍డ్ & మౌస్"
+
+#~ msgctxt "Name"
+#~ msgid "Look & Feel"
+#~ msgstr "ఆకృతి & భావము"
+
+#~ msgctxt "Name"
+#~ msgid "Personal"
+#~ msgstr "వ్యక్తిగత"
+
+#~ msgctxt "Name"
+#~ msgid "Regional & Language"
+#~ msgstr "ప్రాంతీయ & భాష"
 
 #~ msgctxt "Name"
 #~ msgid "System Notifications"
@@ -13943,10 +14058,6 @@ msgstr ""
 #~ msgid "Broadcast 2000"
 #~ msgstr "బ్రాడ్ కెస్ట్ 2000"
 
-#~ msgctxt "GenericName"
-#~ msgid "Audio and Video IDE"
-#~ msgstr "శబ్డం మరయు విడియొ ఐడిఈ"
-
 #~ msgctxt "Name"
 #~ msgid "DJPlay"
 #~ msgstr "డిజె ప్లె"
@@ -14343,10 +14454,6 @@ msgstr ""
 #~ msgstr "X మూలం సరికూర్పరి"
 
 #~ msgctxt "Name"
-#~ msgid "SAM System-Administration"
-#~ msgstr "SAM సిస్టమ్-నిర్వహణ"
-
-#~ msgctxt "Name"
 #~ msgid "Terminal"
 #~ msgstr "టెర్మినల్"
 
@@ -14692,10 +14799,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Attached devices information"
 #~ msgstr "చేర్చిన పరికరాల సమాచారం"
-
-#~ msgctxt "Name"
-#~ msgid "Partitions"
-#~ msgstr "విభజనలు"
 
 #~ msgctxt "Comment"
 #~ msgid "Partition information"
