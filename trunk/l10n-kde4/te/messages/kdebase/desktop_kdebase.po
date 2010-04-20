@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-19 02:58+0000\n"
+"POT-Creation-Date: 2010-04-20 03:30+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1552,7 +1552,7 @@ msgctxt "Name"
 msgid "Manage Notifications"
 msgstr "నోటీసులు"
 
-#: runtime/kcontrol/knotify/kcmnotify.desktop:16
+#: runtime/kcontrol/knotify/kcmnotify.desktop:18
 msgctxt "Comment"
 msgid "System Notification Configuration"
 msgstr "సిస్టమ్ నోటీసు ఆకృతీకరణ"
@@ -6645,7 +6645,7 @@ msgctxt "Name"
 msgid "Phonon"
 msgstr "Phonon Xine"
 
-#: runtime/phonon/kcm/kcm_phonon.desktop:103
+#: runtime/phonon/kcm/kcm_phonon.desktop:15
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Sound System Configuration"
@@ -7018,13 +7018,13 @@ msgctxt "Comment"
 msgid "Font settings"
 msgstr "ఫాంట్ అమరికలు"
 
-#: workspace/kcontrol/hardware/display/display.desktop:12
+#: workspace/kcontrol/hardware/display/display.desktop:11
 msgctxt "Name"
 msgid "Display"
 msgstr "ప్రదర్శన"
 
-#: workspace/kcontrol/hardware/display/display.desktop:100
-#: workspace/systemsettings/categories/settings-display.desktop:96
+#: workspace/kcontrol/hardware/display/display.desktop:99
+#: workspace/systemsettings/categories/settings-display.desktop:10
 msgctxt "Comment"
 msgid "Display Settings"
 msgstr "ప్రదర్శన అమరికలు"
@@ -7107,7 +7107,7 @@ msgctxt "Name"
 msgid "Login Screen"
 msgstr "తెరముద్ర"
 
-#: workspace/kcontrol/kdm/kdm.desktop:105
+#: workspace/kcontrol/kdm/kdm.desktop:19
 msgctxt "Comment"
 msgid "Configure the login manager (KDM)"
 msgstr "లాగిన్ నిర్వాహికను ఆకృతీకరించుము (KDM)"
@@ -8478,21 +8478,13 @@ msgctxt "Name"
 msgid "Custom Shortcuts"
 msgstr "వెబ్ లఘువులు"
 
-#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:15
+#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:17
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure Hotkey settings"
 msgctxt "Comment"
 msgid "Configure Input Actions settings"
 msgstr "హాట్‌కీల అమరికలను ఆకృతీకరించుము."
-
-#: workspace/khotkeys/kcm_hotkeys/settings-input-actions.desktop:8
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Devices"
-msgctxt "Name"
-msgid "Input Devices"
-msgstr "పరికరాలు"
 
 #: workspace/kinfocenter/devinfo/devinfo.desktop:10
 #: workspace/plasma/generic/dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:2
@@ -8891,7 +8883,7 @@ msgctxt "Name"
 msgid "Session Management"
 msgstr "సెషన్ నిర్వాహకి"
 
-#: workspace/ksmserver/kcm/kcmsmserver.desktop:100
+#: workspace/ksmserver/kcm/kcmsmserver.desktop:16
 msgctxt "Comment"
 msgid "Configure the session manager and logout settings"
 msgstr "సెషన్ నిర్వాహకిని మరియు లాగ్అవుట్ అమర్పులను ఆకృతీకరించుము"
@@ -9921,7 +9913,7 @@ msgctxt "Name"
 msgid "Window Decorations"
 msgstr "సమాచారం"
 
-#: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:94
+#: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:17
 msgctxt "Comment"
 msgid "Configure the look and feel of window titles"
 msgstr "విండో శీర్షికల ఆకృతి మరియు భావమును ఆకృతీకరించుము"
@@ -9934,7 +9926,7 @@ msgctxt "Name"
 msgid "Virtual Desktops"
 msgstr "రంగస్ఠలం"
 
-#: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:99
+#: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:17
 msgctxt "Comment"
 msgid "You can configure how many virtual desktops there are."
 msgstr "అక్కడ ఎన్ని వర్చ్యువల్ డెస్‍క్ టాప్‍స్  ఉన్నాయో మీరు ఆకృతీకరించవచ్చు."
@@ -9998,7 +9990,7 @@ msgctxt "Name"
 msgid "Window Rules"
 msgstr "విండో మూయి"
 
-#: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:90
+#: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:17
 msgctxt "Comment"
 msgid "Configure settings specifically for a window"
 msgstr "ప్రత్యేకంగా విండో కొరకు అమర్పులను ఆకృతీకరించుము"
@@ -10027,7 +10019,7 @@ msgctxt "Name"
 msgid "Task Switcher"
 msgstr "బాక్‍స్  స్విచ్"
 
-#: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:66
+#: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:15
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the behavior of Java and JavaScript"
@@ -10866,7 +10858,6 @@ msgid "Lock the screen or log out"
 msgstr "తెరను లాక్ చేయుము లేదా లాగ్ అవుట్ చేయుము"
 
 #: workspace/plasma/generic/applets/notifications/plasma-applet-notifications.desktop:2
-#: workspace/systemsettings/categories/settings-notifications.desktop:8
 msgctxt "Name"
 msgid "Notifications"
 msgstr "నోటీసులు"
@@ -12231,12 +12222,12 @@ msgstr "freedesktop.org HAL డెమాన్ ఉపయోగించే హ�
 #: workspace/solid/kcm/kcm_solid.desktop:12
 #, fuzzy
 #| msgctxt "Name"
-#| msgid "Solid"
+#| msgid "Information Message"
 msgctxt "Name"
-msgid "Solid Backend"
-msgstr "సాలిడ్"
+msgid "Information Sources"
+msgstr "సమాచార సందేశం"
 
-#: workspace/solid/kcm/kcm_solid.desktop:14
+#: workspace/solid/kcm/kcm_solid.desktop:13
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Hardware Integration Configuration"
@@ -12812,18 +12803,18 @@ msgctxt "Name"
 msgid "Display and Monitor"
 msgstr "దస్త్ర నిర్వహణ"
 
-#: workspace/systemsettings/categories/settings-general.desktop:9
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "General"
-msgctxt "Name|Settings for common user needs (tab in System Settings)."
-msgid "General"
-msgstr "సాధారణ"
-
 #: workspace/systemsettings/categories/settings-hardware.desktop:9
 msgctxt "Name"
 msgid "Hardware"
 msgstr "హార్డువేర్"
+
+#: workspace/systemsettings/categories/settings-input-devices.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
+msgctxt "Name"
+msgid "Input Devices"
+msgstr "పరికరాలు"
 
 #: workspace/systemsettings/categories/settings-locale.desktop:8
 #, fuzzy
@@ -12841,14 +12832,6 @@ msgctxt "Name"
 msgid "Lost and Found"
 msgstr "పోయినవి & దొరికినవి"
 
-#: workspace/systemsettings/categories/settings-main-input-devices.desktop:8
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Devices"
-msgctxt "Name"
-msgid "Main Input Devices"
-msgstr "పరికరాలు"
-
 #: workspace/systemsettings/categories/settings-network-and-connectivity.desktop:8
 #, fuzzy
 #| msgctxt "Name"
@@ -12861,14 +12844,6 @@ msgstr "నెట్వర్‍క్   & అనుసంధానం"
 msgctxt "Name"
 msgid "Network Settings"
 msgstr "నెట్వర్‍క్   అమర్పులు"
-
-#: workspace/systemsettings/categories/settings-other-input-devices.desktop:8
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Devices"
-msgctxt "Name"
-msgid "Other Input Devices"
-msgstr "పరికరాలు"
 
 #: workspace/systemsettings/categories/settings-permissions.desktop:8
 #, fuzzy
@@ -13045,6 +13020,34 @@ msgstr ""
 msgctxt "Name"
 msgid "The Rings of Saturn"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Solid"
+#~ msgctxt "Name"
+#~ msgid "Solid Backend"
+#~ msgstr "సాలిడ్"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "General"
+#~ msgctxt "Name|Settings for common user needs (tab in System Settings)."
+#~ msgid "General"
+#~ msgstr "సాధారణ"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Devices"
+#~ msgctxt "Name"
+#~ msgid "Main Input Devices"
+#~ msgstr "పరికరాలు"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Devices"
+#~ msgctxt "Name"
+#~ msgid "Other Input Devices"
+#~ msgstr "పరికరాలు"
 
 #~ msgctxt "Name"
 #~ msgid "Login Manager"
