@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-24 03:05+0000\n"
+"POT-Creation-Date: 2010-04-25 03:12+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1333,7 +1333,7 @@ msgctxt "Name"
 msgid "Social Desktop"
 msgstr "రంగస్ఠలం"
 
-#: runtime/attica/kcm/kcm_attica.desktop:27
+#: runtime/attica/kcm/kcm_attica.desktop:28
 msgctxt "Comment"
 msgid "Manage Social Desktop Providers"
 msgstr ""
@@ -1552,7 +1552,7 @@ msgctxt "Name"
 msgid "Manage Notifications"
 msgstr "నోటీసులు"
 
-#: runtime/kcontrol/knotify/kcmnotify.desktop:24
+#: runtime/kcontrol/knotify/kcmnotify.desktop:26
 msgctxt "Comment"
 msgid "System Notification Configuration"
 msgstr "సిస్టమ్ నోటీసు ఆకృతీకరణ"
@@ -6645,7 +6645,7 @@ msgctxt "Name"
 msgid "Phonon"
 msgstr "Phonon Xine"
 
-#: runtime/phonon/kcm/kcm_phonon.desktop:24
+#: runtime/phonon/kcm/kcm_phonon.desktop:27
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Sound System Configuration"
@@ -7024,7 +7024,7 @@ msgid "Display"
 msgstr "ప్రదర్శన"
 
 #: workspace/kcontrol/hardware/display/display.desktop:99
-#: workspace/systemsettings/categories/settings-display.desktop:18
+#: workspace/systemsettings/categories/settings-display.desktop:21
 msgctxt "Comment"
 msgid "Display Settings"
 msgstr "ప్రదర్శన అమరికలు"
@@ -7107,7 +7107,7 @@ msgctxt "Name"
 msgid "Login Screen"
 msgstr "తెరముద్ర"
 
-#: workspace/kcontrol/kdm/kdm.desktop:28
+#: workspace/kcontrol/kdm/kdm.desktop:30
 msgctxt "Comment"
 msgid "Configure the login manager (KDM)"
 msgstr "లాగిన్ నిర్వాహికను ఆకృతీకరించుము (KDM)"
@@ -8479,7 +8479,7 @@ msgctxt "Name"
 msgid "Custom Shortcuts"
 msgstr "వెబ్ లఘువులు"
 
-#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:23
+#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:25
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure Hotkey settings"
@@ -8487,159 +8487,172 @@ msgctxt "Comment"
 msgid "Configure Input Actions settings"
 msgstr "హాట్‌కీల అమరికలను ఆకృతీకరించుము."
 
-#: workspace/kinfocenter/devinfo/devinfo.desktop:10
-#: workspace/plasma/generic/dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Information"
-msgctxt "Name"
-msgid "Device Information"
-msgstr "సమాచారం"
-
-#: workspace/kinfocenter/devinfo/devinfo.desktop:83
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Information"
-msgctxt "Comment"
-msgid "Device Information"
-msgstr "సమాచారం"
-
-#: workspace/kinfocenter/info/dma.desktop:14
-msgctxt "Name"
-msgid "DMA-Channels"
-msgstr "డిఎంఏ-చానెళ్ళు"
-
-#: workspace/kinfocenter/info/dma.desktop:104
-msgctxt "Comment"
-msgid "DMA information"
-msgstr "డిఎంఏ సమాచారం"
-
-#: workspace/kinfocenter/info/interrupts.desktop:14
-msgctxt "Name"
-msgid "Interrupts"
-msgstr "ఇంటెరప్టులు"
-
-#: workspace/kinfocenter/info/interrupts.desktop:104
-msgctxt "Comment"
-msgid "Interrupt information"
-msgstr "ఇంటెరప్ట్ సమాచారం"
-
-#: workspace/kinfocenter/info/ioports.desktop:14
-msgctxt "Name"
-msgid "IO-Ports"
-msgstr "ఐఓ-పోర్టులు"
-
-#: workspace/kinfocenter/info/ioports.desktop:104
-msgctxt "Comment"
-msgid "IO-port information"
-msgstr "ఐఓ-పోర్టుల సమాచారం"
-
-#: workspace/kinfocenter/info/processor.desktop:13
-msgctxt "Name"
-msgid "Processor"
-msgstr "ప్రాసెసర్"
-
-#: workspace/kinfocenter/info/processor.desktop:103
-msgctxt "Comment"
-msgid "Processor information"
-msgstr "ప్రాసెసర్ సమాచారం"
-
-#: workspace/kinfocenter/info/scsi.desktop:13
-msgctxt "Name"
-msgid "SCSI"
-msgstr "SCSI"
-
-#: workspace/kinfocenter/info/scsi.desktop:104
-msgctxt "Comment"
-msgid "SCSI information"
-msgstr "SCSI సమాచారం"
-
-#: workspace/kinfocenter/info/xserver.desktop:13
-msgctxt "Name"
-msgid "X-Server"
-msgstr "ఎక్స్-సెర్వర్"
-
-#: workspace/kinfocenter/info/xserver.desktop:103
-msgctxt "Comment"
-msgid "X-Server information"
-msgstr "ఎక్స్-సెర్వర్ సమాచారం"
-
-#: workspace/kinfocenter/ioslaveinfo/ioslaveinfo.desktop:2
-msgctxt "Comment"
-msgid "Information about available protocols"
-msgstr "అందుబాటులోని నిభందనల గురించి సమాచారం"
-
-#: workspace/kinfocenter/ioslaveinfo/ioslaveinfo.desktop:141
-msgctxt "Name"
-msgid "Protocols"
-msgstr "నిభందనలు"
-
 #: workspace/kinfocenter/kinfocenter.desktop:9
 msgctxt "Name"
 msgid "KInfoCenter"
 msgstr "కెఇన్ఫొసెంటర్"
 
-#: workspace/kinfocenter/kinfocenter.desktop:96
+#: workspace/kinfocenter/kinfocenter.desktop:19
 msgctxt "GenericName"
 msgid "Info Center"
 msgstr "సమాచార కేంద్రం"
 
-#: workspace/kinfocenter/memory/kcm_memory.desktop:12
+#: workspace/kinfocenter/Modules/devinfo/devinfo.desktop:12
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Picture Viewer"
+msgctxt "Name"
+msgid "Device Viewer"
+msgstr "చిత్ర వీక్షిణి"
+
+#: workspace/kinfocenter/Modules/devinfo/devinfo.desktop:23
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Picture Viewer"
+msgctxt "Comment"
+msgid "Device Viewer"
+msgstr "చిత్ర వీక్షిణి"
+
+#: workspace/kinfocenter/Modules/info/dma.desktop:14
+msgctxt "Name"
+msgid "DMA-Channels"
+msgstr "డిఎంఏ-చానెళ్ళు"
+
+#: workspace/kinfocenter/Modules/info/dma.desktop:25
+msgctxt "Comment"
+msgid "DMA information"
+msgstr "డిఎంఏ సమాచారం"
+
+#: workspace/kinfocenter/Modules/info/interrupts.desktop:14
+msgctxt "Name"
+msgid "Interrupts"
+msgstr "ఇంటెరప్టులు"
+
+#: workspace/kinfocenter/Modules/info/interrupts.desktop:25
+msgctxt "Comment"
+msgid "Interrupt information"
+msgstr "ఇంటెరప్ట్ సమాచారం"
+
+#: workspace/kinfocenter/Modules/info/ioports.desktop:14
+msgctxt "Name"
+msgid "IO-Ports"
+msgstr "ఐఓ-పోర్టులు"
+
+#: workspace/kinfocenter/Modules/info/ioports.desktop:25
+msgctxt "Comment"
+msgid "IO-port information"
+msgstr "ఐఓ-పోర్టుల సమాచారం"
+
+#: workspace/kinfocenter/Modules/info/processor.desktop:13
+msgctxt "Name"
+msgid "Processor"
+msgstr "ప్రాసెసర్"
+
+#: workspace/kinfocenter/Modules/info/processor.desktop:26
+msgctxt "Comment"
+msgid "Processor information"
+msgstr "ప్రాసెసర్ సమాచారం"
+
+#: workspace/kinfocenter/Modules/info/scsi.desktop:13
+msgctxt "Name"
+msgid "SCSI"
+msgstr "SCSI"
+
+#: workspace/kinfocenter/Modules/info/scsi.desktop:24
+msgctxt "Comment"
+msgid "SCSI information"
+msgstr "SCSI సమాచారం"
+
+#: workspace/kinfocenter/Modules/infosummary/kcm_infosummary.desktop:11
+msgctxt "Name"
+msgid "Summary"
+msgstr ""
+
+#: workspace/kinfocenter/Modules/infosummary/kcm_infosummary.desktop:22
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Hardware"
+msgctxt "Comment"
+msgid "Hardware Information Summary"
+msgstr "హార్డువేర్"
+
+#: workspace/kinfocenter/Modules/info/xserver.desktop:13
+msgctxt "Name"
+msgid "X-Server"
+msgstr "ఎక్స్-సెర్వర్"
+
+#: workspace/kinfocenter/Modules/info/xserver.desktop:24
+msgctxt "Comment"
+msgid "X-Server information"
+msgstr "ఎక్స్-సెర్వర్ సమాచారం"
+
+#: workspace/kinfocenter/Modules/memory/kcm_memory.desktop:12
 msgctxt "Name"
 msgid "Memory"
 msgstr "మెమొరి"
 
-#: workspace/kinfocenter/memory/kcm_memory.desktop:103
+#: workspace/kinfocenter/Modules/memory/kcm_memory.desktop:23
 msgctxt "Comment"
 msgid "Memory information"
 msgstr "మెమొరి సమాచారం"
 
-#: workspace/kinfocenter/opengl/opengl.desktop:11
+#: workspace/kinfocenter/Modules/nics/nic.desktop:12
+msgctxt "Name"
+msgid "Network Interfaces"
+msgstr "నెట్వర్క్ ఇంటర్ ఫెస్"
+
+#: workspace/kinfocenter/Modules/nics/nic.desktop:23
+#: workspace/plasma/generic/dataengines/network/plasma-dataengine-network.desktop:74
+msgctxt "Comment"
+msgid "Network interface information"
+msgstr "నెట్వర్క్ ఇంటర్ ఫెస్ సమాచారం"
+
+#: workspace/kinfocenter/Modules/opengl/opengl.desktop:12
 msgctxt "Name"
 msgid "OpenGL"
 msgstr "ఓపెన్ జిఎల్"
 
-#: workspace/kinfocenter/opengl/opengl.desktop:100
+#: workspace/kinfocenter/Modules/opengl/opengl.desktop:23
 msgctxt "Comment"
 msgid "OpenGL information"
 msgstr "ఓపెన్ జిఎల్ సమాచారం"
 
-#: workspace/kinfocenter/pci/kcm_pci.desktop:11
+#: workspace/kinfocenter/Modules/pci/kcm_pci.desktop:12
 msgctxt "Name"
 msgid "PCI"
 msgstr "పి సి ఐ"
 
-#: workspace/kinfocenter/pci/kcm_pci.desktop:101
+#: workspace/kinfocenter/Modules/pci/kcm_pci.desktop:23
 msgctxt "Comment"
 msgid "PCI information"
 msgstr "పి సి ఐ సమాచారం"
 
-#: workspace/kinfocenter/samba/smbstatus.desktop:11
+#: workspace/kinfocenter/Modules/samba/smbstatus.desktop:12
 msgctxt "Name"
 msgid "Samba Status"
 msgstr "సాంబా స్థితి"
 
-#: workspace/kinfocenter/samba/smbstatus.desktop:101
+#: workspace/kinfocenter/Modules/samba/smbstatus.desktop:23
 msgctxt "Comment"
 msgid "Samba status monitor"
 msgstr "సాంబా స్థితి మానిటర్"
 
-#: workspace/kinfocenter/usbview/kcmusb.desktop:11
+#: workspace/kinfocenter/Modules/usbview/kcmusb.desktop:12
 msgctxt "Name"
 msgid "USB Devices"
 msgstr "యూ ఎస్ బి పరికరాలు"
 
-#: workspace/kinfocenter/usbview/kcmusb.desktop:101
+#: workspace/kinfocenter/Modules/usbview/kcmusb.desktop:23
 msgctxt "Comment"
 msgid "USB devices attached to this computer"
 msgstr "ఈ కంప్యూటర్‌కు అనుసంధానించబడివున్న USB పరికరములు"
 
-#: workspace/kinfocenter/view1394/kcmview1394.desktop:11
+#: workspace/kinfocenter/Modules/view1394/kcmview1394.desktop:12
 msgctxt "Name"
 msgid "IEEE 1394 Devices"
 msgstr "ఐఈఈఈ 1394 పరికరాలు"
 
-#: workspace/kinfocenter/view1394/kcmview1394.desktop:100
+#: workspace/kinfocenter/Modules/view1394/kcmview1394.desktop:23
 msgctxt "Comment"
 msgid "Attached IEEE 1394 devices"
 msgstr "అనుభందించిన IEEE 1394 పరికరాలు"
@@ -8675,84 +8688,84 @@ msgid "Web-URL"
 msgstr "వెబ్ యూ ఆర్ ఎల్"
 
 #: workspace/klipper/klipperrc.desktop:278
-#: workspace/klipper/klipperrc.desktop:1905
+#: workspace/klipper/klipperrc.desktop:1911
 msgctxt "Description"
 msgid "Open with &default Browser"
 msgstr "అప్రమేయ అన్వేషణితో తెరువుము (&d)"
 
 #: workspace/klipper/klipperrc.desktop:358
-#: workspace/klipper/klipperrc.desktop:1985
+#: workspace/klipper/klipperrc.desktop:1991
 msgctxt "Description"
 msgid "Open with &Konqueror"
 msgstr "(&K) కాంకెరర్ తొ తెరువు"
 
 #: workspace/klipper/klipperrc.desktop:450
-#: workspace/klipper/klipperrc.desktop:2076
+#: workspace/klipper/klipperrc.desktop:2082
 msgctxt "Description"
 msgid "Open with &Mozilla"
 msgstr "(&M) మొజిల్లా తొ తెరువు"
 
 #: workspace/klipper/klipperrc.desktop:541
-#: workspace/klipper/klipperrc.desktop:1359
-#: workspace/klipper/klipperrc.desktop:1632
-#: workspace/klipper/klipperrc.desktop:2167
+#: workspace/klipper/klipperrc.desktop:1361
+#: workspace/klipper/klipperrc.desktop:1636
+#: workspace/klipper/klipperrc.desktop:2173
 msgctxt "Description"
 msgid "Send &URL"
 msgstr "(&U) యూ ఆర్ ఎల్ పంపించు"
 
-#: workspace/klipper/klipperrc.desktop:633
+#: workspace/klipper/klipperrc.desktop:634
 msgctxt "Description"
 msgid "Open with &Firefox"
 msgstr "(&F) మొజిల్లా తొ తెరువు"
 
-#: workspace/klipper/klipperrc.desktop:721
+#: workspace/klipper/klipperrc.desktop:722
 msgctxt "Description"
 msgid "Send &Page"
 msgstr "(&P) పుట ను పంపించు"
 
-#: workspace/klipper/klipperrc.desktop:811
+#: workspace/klipper/klipperrc.desktop:813
 msgctxt "Description"
 msgid "Mail-URL"
 msgstr "యూ ఆర్ ఎల్ ను మెయిల్ చెయ్యి"
 
-#: workspace/klipper/klipperrc.desktop:903
+#: workspace/klipper/klipperrc.desktop:905
 msgctxt "Description"
 msgid "Launch &Kmail"
 msgstr "&Kmail దించుము"
 
-#: workspace/klipper/klipperrc.desktop:994
+#: workspace/klipper/klipperrc.desktop:996
 msgctxt "Description"
 msgid "Launch &mutt"
 msgstr "&mutt దించుము"
 
-#: workspace/klipper/klipperrc.desktop:1084
+#: workspace/klipper/klipperrc.desktop:1086
 msgctxt "Description"
 msgid "Text File"
 msgstr "వచన దస్త్రం"
 
-#: workspace/klipper/klipperrc.desktop:1177
+#: workspace/klipper/klipperrc.desktop:1179
 msgctxt "Description"
 msgid "Launch K&Write"
 msgstr "K&Write దించుము"
 
-#: workspace/klipper/klipperrc.desktop:1267
+#: workspace/klipper/klipperrc.desktop:1269
 msgctxt "Description"
 msgid "Local file URL"
 msgstr "స్థానిక దస్త్ర యూ ఆర్ ఎల్"
 
-#: workspace/klipper/klipperrc.desktop:1450
-#: workspace/klipper/klipperrc.desktop:1723
-#: workspace/klipper/klipperrc.desktop:2258
+#: workspace/klipper/klipperrc.desktop:1453
+#: workspace/klipper/klipperrc.desktop:1728
+#: workspace/klipper/klipperrc.desktop:2265
 msgctxt "Description"
 msgid "Send &File"
 msgstr "(&F) దస్త్రాన్ని పంపించు"
 
-#: workspace/klipper/klipperrc.desktop:1540
+#: workspace/klipper/klipperrc.desktop:1544
 msgctxt "Description"
 msgid "Gopher URL"
 msgstr "గొఫర్ యూ ఆర్ ఎల్"
 
-#: workspace/klipper/klipperrc.desktop:1813
+#: workspace/klipper/klipperrc.desktop:1819
 msgctxt "Description"
 msgid "ftp URL"
 msgstr "ఎఫ్ టి పి యూ ఆర్ ఎల్"
@@ -8815,17 +8828,17 @@ msgctxt "Name"
 msgid "Screen saver exited"
 msgstr "స్క్రీన్ సేవర్"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:317
+#: workspace/krunner/lock/kscreenlocker.notifyrc:318
 msgctxt "Comment"
 msgid "The screen saver has finished"
 msgstr ""
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:375
+#: workspace/krunner/lock/kscreenlocker.notifyrc:376
 msgctxt "Name"
 msgid "Screen unlocked"
 msgstr ""
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:433
+#: workspace/krunner/lock/kscreenlocker.notifyrc:435
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "A modifier key has been locked"
@@ -8833,12 +8846,12 @@ msgctxt "Comment"
 msgid "The screen has been unlocked"
 msgstr "సవరింపు కీ అప్రవేశంగా ఉంది"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:490
+#: workspace/krunner/lock/kscreenlocker.notifyrc:492
 msgctxt "Name"
 msgid "Screen unlock failed"
 msgstr ""
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:547
+#: workspace/krunner/lock/kscreenlocker.notifyrc:550
 msgctxt "Comment"
 msgid "Failed attempt to unlock the screen"
 msgstr ""
@@ -8848,20 +8861,20 @@ msgctxt "Name"
 msgid "Blank Screen"
 msgstr "ఖాళీ తెర"
 
-#: workspace/kscreensaver/kblank_screensaver/kblank.desktop:96
-#: workspace/kscreensaver/krandom_screensaver/krandom.desktop:97
+#: workspace/kscreensaver/kblank_screensaver/kblank.desktop:97
+#: workspace/kscreensaver/krandom_screensaver/krandom.desktop:98
 msgctxt "Name"
 msgid "Setup..."
 msgstr "అమర్పు..."
 
-#: workspace/kscreensaver/kblank_screensaver/kblank.desktop:186
-#: workspace/kscreensaver/krandom_screensaver/krandom.desktop:187
+#: workspace/kscreensaver/kblank_screensaver/kblank.desktop:187
+#: workspace/kscreensaver/krandom_screensaver/krandom.desktop:188
 msgctxt "Name"
 msgid "Display in Specified Window"
 msgstr "తెలుపబడిన విండోనందు ప్రదర్శించుము"
 
-#: workspace/kscreensaver/kblank_screensaver/kblank.desktop:274
-#: workspace/kscreensaver/krandom_screensaver/krandom.desktop:275
+#: workspace/kscreensaver/kblank_screensaver/kblank.desktop:276
+#: workspace/kscreensaver/krandom_screensaver/krandom.desktop:277
 msgctxt "Name"
 msgid "Display in Root Window"
 msgstr "Root విండోనందు ప్రదర్శించుము"
@@ -8884,7 +8897,7 @@ msgctxt "Name"
 msgid "Session Management"
 msgstr "సెషన్ నిర్వాహకి"
 
-#: workspace/ksmserver/kcm/kcmsmserver.desktop:25
+#: workspace/ksmserver/kcm/kcmsmserver.desktop:28
 msgctxt "Comment"
 msgid "Configure the session manager and logout settings"
 msgstr "సెషన్ నిర్వాహకిని మరియు లాగ్అవుట్ అమర్పులను ఆకృతీకరించుము"
@@ -8894,7 +8907,7 @@ msgctxt "Name"
 msgid "Splash Screen"
 msgstr "స్ప్లాష్ స్క్రీన్"
 
-#: workspace/ksplash/kcm/ksplashthememgr.desktop:98
+#: workspace/ksplash/kcm/ksplashthememgr.desktop:99
 msgctxt "Comment"
 msgid "Manager for Splash Screen Themes"
 msgstr "స్ప్లాష్ స్క్రీన్ థీమ్‍స్  కొరకు నిర్వాహకి"
@@ -8904,7 +8917,7 @@ msgctxt "Name"
 msgid "HighContrast"
 msgstr "హైకాన్ట్రాస్‍ట్"
 
-#: workspace/kstyles/highcontrast/highcontrast.themerc:81
+#: workspace/kstyles/highcontrast/highcontrast.themerc:82
 msgctxt "Comment"
 msgid "A style that works well with high contrast color schemes"
 msgstr "హైకాన్ట్రాస్‍ట్ వర్ణపు పధకాలతో మేలుగా పనిచేసే ఒక శైలి"
@@ -8940,7 +8953,7 @@ msgctxt "Name"
 msgid "KDE Classic"
 msgstr "KDE క్లాసిక్"
 
-#: workspace/kstyles/themes/default.themerc:80
+#: workspace/kstyles/themes/default.themerc:81
 msgctxt "Comment"
 msgid "Classic KDE style"
 msgstr "క్లాసిక్ KDE శైలి"
@@ -8961,7 +8974,7 @@ msgctxt "Name"
 msgid "Keramik"
 msgstr "కెరామిక్"
 
-#: workspace/kstyles/themes/keramik.themerc:91
+#: workspace/kstyles/themes/keramik.themerc:92
 msgctxt "Comment"
 msgid "A style using alphablending"
 msgstr "ఆల్ఫాబ్లెండింగ్ ఉపయోగించే శైలి"
@@ -9914,7 +9927,7 @@ msgctxt "Name"
 msgid "Window Decorations"
 msgstr "సమాచారం"
 
-#: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:25
+#: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:28
 msgctxt "Comment"
 msgid "Configure the look and feel of window titles"
 msgstr "విండో శీర్షికల ఆకృతి మరియు భావమును ఆకృతీకరించుము"
@@ -9927,7 +9940,7 @@ msgctxt "Name"
 msgid "Virtual Desktops"
 msgstr "రంగస్ఠలం"
 
-#: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:25
+#: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:29
 msgctxt "Comment"
 msgid "You can configure how many virtual desktops there are."
 msgstr "అక్కడ ఎన్ని వర్చ్యువల్ డెస్‍క్ టాప్‍స్  ఉన్నాయో మీరు ఆకృతీకరించవచ్చు."
@@ -9991,7 +10004,7 @@ msgctxt "Name"
 msgid "Window Rules"
 msgstr "విండో మూయి"
 
-#: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:25
+#: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:27
 msgctxt "Comment"
 msgid "Configure settings specifically for a window"
 msgstr "ప్రత్యేకంగా విండో కొరకు అమర్పులను ఆకృతీకరించుము"
@@ -10020,7 +10033,7 @@ msgctxt "Name"
 msgid "Task Switcher"
 msgstr "బాక్‍స్  స్విచ్"
 
-#: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:22
+#: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:24
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the behavior of Java and JavaScript"
@@ -10697,7 +10710,7 @@ msgctxt "Name"
 msgid "Empty Panel"
 msgstr "ప్యానల్"
 
-#: workspace/plasma/desktop/containments/panel/plasma-containment-panel.desktop:15
+#: workspace/plasma/desktop/containments/panel/plasma-containment-panel.desktop:18
 #: workspace/plasma/netbook/containments/netpanel/plasma-containment-midpanel.desktop:65
 #: workspace/plasma/netbook/containments/netpanel/plasma-containment-netpanel.desktop:55
 msgctxt "Comment"
@@ -11285,11 +11298,6 @@ msgctxt "Name"
 msgid "Networking"
 msgstr "నెట్ వర్క్"
 
-#: workspace/plasma/generic/dataengines/network/plasma-dataengine-network.desktop:74
-msgctxt "Comment"
-msgid "Network interface information"
-msgstr "నెట్వర్క్ ఇంటర్ ఫెస్ సమాచారం"
-
 #: workspace/plasma/generic/dataengines/notifications/plasma-dataengine-notifications.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -11346,6 +11354,14 @@ msgstr "RSS"
 msgctxt "Comment"
 msgid "RSS News Data Engine"
 msgstr "పరిశీలనా డాటా ఇంజన్"
+
+#: workspace/plasma/generic/dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Information"
+msgctxt "Name"
+msgid "Device Information"
+msgstr "సమాచారం"
 
 #: workspace/plasma/generic/dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:74
 #, fuzzy
@@ -12228,7 +12244,7 @@ msgctxt "Name"
 msgid "Information Sources"
 msgstr "సమాచార సందేశం"
 
-#: workspace/solid/kcm/kcm_solid.desktop:21
+#: workspace/solid/kcm/kcm_solid.desktop:24
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Hardware Integration Configuration"
@@ -13021,6 +13037,21 @@ msgstr ""
 msgctxt "Name"
 msgid "The Rings of Saturn"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Information"
+#~ msgctxt "Comment"
+#~ msgid "Device Information"
+#~ msgstr "సమాచారం"
+
+#~ msgctxt "Comment"
+#~ msgid "Information about available protocols"
+#~ msgstr "అందుబాటులోని నిభందనల గురించి సమాచారం"
+
+#~ msgctxt "Name"
+#~ msgid "Protocols"
+#~ msgstr "నిభందనలు"
 
 #, fuzzy
 #~| msgctxt "Name"
@@ -14642,29 +14673,11 @@ msgstr ""
 #~ msgstr "మెనూ నవీకరణ సాధనం"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Picture Viewer"
-#~ msgctxt "Name"
-#~ msgid "Device Viewer"
-#~ msgstr "చిత్ర వీక్షిణి"
-
-#, fuzzy
 #~| msgctxt "Name"
 #~| msgid "Devices"
 #~ msgctxt "Comment"
 #~ msgid "Solid Device Viewer"
 #~ msgstr "పరికరాలు"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Hardware"
-#~ msgctxt "Comment"
-#~ msgid "Hardware Information Summary"
-#~ msgstr "హార్డువేర్"
-
-#~ msgctxt "Name"
-#~ msgid "Network Interfaces"
-#~ msgstr "నెట్వర్క్ ఇంటర్ ఫెస్"
 
 #, fuzzy
 #~| msgctxt "Name"
