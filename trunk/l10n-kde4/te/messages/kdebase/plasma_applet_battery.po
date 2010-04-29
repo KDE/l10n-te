@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-27 05:16+0200\n"
+"POT-Creation-Date: 2010-04-29 04:52+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,88 +25,82 @@ msgstr ""
 "\n"
 "\n"
 
-#: battery.cpp:282
-msgid "General"
-msgstr "సాధారణ"
-
-#: battery.cpp:438
-msgid "Screen Brightness"
-msgstr ""
-
-#: battery.cpp:462
-msgid "Power Profile"
-msgstr ""
-
-#: battery.cpp:494
-msgid "Sleep"
-msgstr ""
-
-#: battery.cpp:508
-msgid "Hibernate"
-msgstr ""
-
-#: battery.cpp:521
-msgctxt "tooltip on the config button in the popup"
-msgid "Configure Power Management..."
-msgstr ""
-
-#: battery.cpp:540
-msgid "Power Management"
-msgstr ""
-
-#: battery.cpp:594
+#: battery.cpp:191 battery.cpp:661
 msgid "Battery:"
 msgstr ""
 
-#: battery.cpp:597 battery.cpp:614
-#, kde-format
-msgid "%1% (charged)"
-msgstr ""
-
-#: battery.cpp:599
-#, kde-format
-msgctxt "Shown when a time estimate is not available"
-msgid "%1% (discharging)"
-msgstr ""
-
-#: battery.cpp:601 battery.cpp:618
-#, kde-format
-msgid "%1% (charging)"
-msgstr ""
-
-#: battery.cpp:604 battery.cpp:640
-msgctxt "Battery is not plugged in"
-msgid "Not present"
-msgstr ""
-
-#: battery.cpp:612
+#: battery.cpp:198 battery.cpp:668
 #, kde-format
 msgctxt "Placeholder is the battery ID"
 msgid "Battery %1:"
 msgstr ""
 
-#: battery.cpp:616
+#: battery.cpp:209 battery.cpp:675
+msgid "AC Adapter:"
+msgstr ""
+
+#: battery.cpp:210 battery.cpp:677
+msgid "Plugged in"
+msgstr ""
+
+#: battery.cpp:210 battery.cpp:679
+msgid "Not plugged in"
+msgstr ""
+
+#: battery.cpp:335
+msgid "General"
+msgstr "సాధారణ"
+
+#: battery.cpp:486
+msgid "Screen Brightness"
+msgstr ""
+
+#: battery.cpp:510
+msgid "Power Profile"
+msgstr ""
+
+#: battery.cpp:542
+msgid "Sleep"
+msgstr ""
+
+#: battery.cpp:556
+msgid "Hibernate"
+msgstr ""
+
+#: battery.cpp:569
+msgctxt "tooltip on the config button in the popup"
+msgid "Configure Power Management..."
+msgstr ""
+
+#: battery.cpp:588
+msgid "Power Management"
+msgstr ""
+
+#: battery.cpp:631
+#, kde-format
+msgid "%1% (charged)"
+msgstr ""
+
+#: battery.cpp:636
 #, kde-format
 msgid "%1% (discharging)"
 msgstr ""
 
-#: battery.cpp:622
-msgid "AC Adapter:"
+#: battery.cpp:642
+#, kde-format
+msgid "%1% (charging)"
 msgstr ""
 
-#: battery.cpp:624
-msgid "Plugged in "
+#: battery.cpp:645 battery.cpp:694
+msgctxt "Battery is not plugged in"
+msgid "Not present"
 msgstr ""
 
-#: battery.cpp:626
-msgid "Not plugged in"
-msgstr ""
-
-#: battery.cpp:639
+#: battery.cpp:693
 msgid "<b>Battery:</b> "
 msgstr ""
 
-#: battery.cpp:899 battery.cpp:927
+#: battery.cpp:945 battery.cpp:976 battery.cpp:988
 #, kde-format
 msgctxt "overlay on the battery, needs to be really tiny"
 msgid "%1%"
