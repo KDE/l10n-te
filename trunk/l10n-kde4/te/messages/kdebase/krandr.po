@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krandr\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 04:52+0200\n"
+"POT-Creation-Date: 2010-05-05 04:50+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -35,19 +35,11 @@ msgid ""
 "extension (RANDR) version 1.1 or greater to use this feature."
 msgstr ""
 
-#: krandrtray.cpp:55
-msgid "Screen Settings"
-msgstr ""
-
-#: krandrtray.cpp:56
-msgid "Resize, rotate and configure screens."
-msgstr ""
-
-#: krandrtray.cpp:88
+#: krandrtray.cpp:87
 msgid "Required X Extension Not Available"
 msgstr ""
 
-#: krandrtray.cpp:105 legacyrandrconfig.cpp:38
+#: krandrtray.cpp:104 legacyrandrconfig.cpp:38
 #, kde-format
 msgid "Screen %1"
 msgstr "తెర %1"
@@ -56,46 +48,80 @@ msgstr "తెర %1"
 msgid "Configure Display..."
 msgstr ""
 
-#: krandrtray.cpp:160
-msgid "Screen configuration has changed"
+#: krandrtray.cpp:145
+msgid "Display"
 msgstr ""
 
-#: krandrtray.cpp:195 krandrtray.cpp:302
-msgid "Screen Size"
+#: krandrtray.cpp:146
+msgid "Resize, rotate and configure screens."
 msgstr ""
 
-#: krandrtray.cpp:203 krandrtray.cpp:265 krandrtray.cpp:315
-msgid "Orientation"
-msgstr ""
-
-#: krandrtray.cpp:220
-msgid "Outputs"
-msgstr ""
-
-#: krandrtray.cpp:232
+#: krandrtray.cpp:163
 #, kde-format
-msgid "%1 - Screen Size"
+msgid "Resolution: %1 x %2"
 msgstr ""
 
-#: krandrtray.cpp:249
-msgid "Disable"
+#: krandrtray.cpp:178
+#, kde-format
+msgid "Rotation: %1"
 msgstr ""
 
-#: krandrtray.cpp:275 krandrtray.cpp:324
-msgid "Refresh Rate"
+#: krandrtray.cpp:196
+#, kde-format
+msgid "<td align=\"right\">Resolution: </td><td>%1 x %2</td></tr>"
 msgstr ""
 
-#: krandrtray.cpp:290
-msgid "Unify Outputs"
+#: krandrtray.cpp:202
+msgid "Refresh: "
 msgstr ""
 
-#: krandrtray.cpp:384 legacyrandrconfig.cpp:270 legacyrandrscreen.cpp:246
-#: outputconfig.cpp:414
+#: krandrtray.cpp:203 krandrtray.cpp:472 legacyrandrconfig.cpp:270
+#: legacyrandrscreen.cpp:246 outputconfig.cpp:414
 #, kde-format
 msgid "%1 Hz"
 msgstr ""
 
-#: krandrtray.cpp:478
+#: krandrtray.cpp:211
+#, fuzzy
+#| msgctxt "Position of the screen"
+#| msgid "Position:"
+msgid "Rotation: "
+msgstr "స్థానము:"
+
+#: krandrtray.cpp:248
+msgid "Screen configuration has changed"
+msgstr ""
+
+#: krandrtray.cpp:283 krandrtray.cpp:390
+msgid "Screen Size"
+msgstr ""
+
+#: krandrtray.cpp:291 krandrtray.cpp:353 krandrtray.cpp:403
+msgid "Orientation"
+msgstr ""
+
+#: krandrtray.cpp:308
+msgid "Outputs"
+msgstr ""
+
+#: krandrtray.cpp:320
+#, kde-format
+msgid "%1 - Screen Size"
+msgstr ""
+
+#: krandrtray.cpp:337
+msgid "Disable"
+msgstr ""
+
+#: krandrtray.cpp:363 krandrtray.cpp:412
+msgid "Refresh Rate"
+msgstr ""
+
+#: krandrtray.cpp:378
+msgid "Unify Outputs"
+msgstr ""
+
+#: krandrtray.cpp:566
 msgid "Configure Display"
 msgstr ""
 
