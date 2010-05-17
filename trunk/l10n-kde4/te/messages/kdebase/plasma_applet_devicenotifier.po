@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-15 04:51+0200\n"
+"POT-Creation-Date: 2010-05-17 05:44+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,43 +25,53 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: deviceitem.cpp:285
-msgid "Click to safely remove this device from the computer."
+#: deviceitem.cpp:286
+msgid "Click to eject this disc."
 msgstr ""
 
-#: deviceitem.cpp:286
+#: deviceitem.cpp:288
+msgid "Click to safely remove this device."
+msgstr ""
+
+#: deviceitem.cpp:290
 msgid ""
 "It is currently <b>not safe</b> to remove this device: applications may be "
 "accessing it. Click the eject button to safely remove this device."
 msgstr ""
 
-#: deviceitem.cpp:288
+#: deviceitem.cpp:292
 msgid "Click to access this device from other applications."
 msgstr ""
 
-#: deviceitem.cpp:290
+#: deviceitem.cpp:294
 msgid "It is currently safe to remove this device."
 msgstr ""
 
-#: deviceitem.cpp:292
+#: deviceitem.cpp:296
 msgid ""
 "It is currently <b>not safe</b> to remove this device: applications may be "
 "accessing other volumes on this device. Click the eject button on these "
 "other volumes to safely remove this device."
 msgstr ""
 
-#: deviceitem.cpp:385
+#: deviceitem.cpp:389
 #, kde-format
 msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr ""
 
-#: deviceitem.cpp:439
-msgid "Mounting..."
+#: deviceitem.cpp:443
+msgctxt ""
+"Accessing is a less technical word for Mounting; translation should be short "
+"and mean 'Currently mounting this device'"
+msgid "Accessing..."
 msgstr ""
 
-#: deviceitem.cpp:442
-msgid "Unmounting..."
+#: deviceitem.cpp:446
+msgctxt ""
+"Removing is a less technical word for Unmounting; translation shoud be short "
+"and mean 'Currently unmounting this device'"
+msgid "Removing..."
 msgstr ""
 
 #: devicenotifier.cpp:214
