@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-13 04:47+0200\n"
+"POT-Creation-Date: 2010-05-26 04:55+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -621,9 +621,11 @@ msgstr "కొత్త ప్రొఫైల్"
 msgid "Shell"
 msgstr "షెల్"
 
-#: ProfileList.cpp:48
-msgid "No profiles available"
-msgstr "ఏ ప్రొఫైల్సు అందుబాటులోలేవు"
+#: ProfileList.cpp:49
+#, fuzzy
+#| msgid "Delete Profile"
+msgid "Default profile"
+msgstr "ప్రొఫైల్ తొలగించు"
 
 #. i18n: file: ColorSchemeEditor.ui:21
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -2003,13 +2005,11 @@ msgstr ""
 msgid "&Stop"
 msgstr "(&S) ఆపు"
 
+#~ msgid "No profiles available"
+#~ msgstr "ఏ ప్రొఫైల్సు అందుబాటులోలేవు"
+
 #~ msgid "Word characters for double-click selection: "
 #~ msgstr "రెండు-నొక్కుల యెంపికకు పదము అక్షరములు: "
-
-#, fuzzy
-#~| msgid "Delete Profile"
-#~ msgid "&Default Profile"
-#~ msgstr "ప్రొఫైల్ తొలగించు"
 
 #~ msgid "Show Menu Bar"
 #~ msgstr "మెనూ బార్ చూపుము"
