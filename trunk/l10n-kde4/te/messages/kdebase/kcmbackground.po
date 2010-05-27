@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmbackground\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-25 05:38+0200\n"
+"POT-Creation-Date: 2010-05-27 04:51+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -29,27 +29,27 @@ msgstr ""
 msgid "Advanced Background Settings"
 msgstr "అధునాతన బ్యాక్‌గ్రౌండ్ అమరికలు"
 
-#: bgadvanced.cpp:214
+#: bgadvanced.cpp:213
 #, kde-format
 msgid "%1 min."
 msgstr "%1 ని."
 
-#: bgadvanced.cpp:248
+#: bgadvanced.cpp:247
 msgid ""
 "Unable to remove the program: the program is global and can only be removed "
 "by the system administrator."
 msgstr "ప్రోగ్రామ్‌ను తీసివేయలేము: ప్రోగ్రామ్ సార్వత్రికమైనది మరియు సిస్టమ్ నిర్వహణాధికారి చేతనే తీసివేయబడుతుంది."
 
-#: bgadvanced.cpp:250
+#: bgadvanced.cpp:249
 msgid "Cannot Remove Program"
 msgstr "ప్రోగ్రామ్‌ను తీసివేయలేము"
 
-#: bgadvanced.cpp:254
+#: bgadvanced.cpp:253
 #, kde-format
 msgid "Are you sure you want to remove the program `%1'?"
 msgstr "మీరు నిజంగా ప్రోగ్రామ్‌ను తీసివేద్దామని అనుకొనుచున్నారా `%1'?"
 
-#: bgadvanced.cpp:256
+#: bgadvanced.cpp:255
 msgid "Remove Background Program"
 msgstr "బ్యాక్‌గ్రౌండ్ ప్రోగ్రామ్‌ను తీసివేయుము"
 
@@ -61,52 +61,52 @@ msgstr "బ్యాక్‌గ్రౌండ్ ప్రోగ్రామ�
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
 #. i18n: file: bgwallpaper_ui.ui:115
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
-#: bgadvanced.cpp:257 rc.cpp:18 rc.cpp:189 rc.cpp:213 rc.cpp:384
+#: bgadvanced.cpp:256 rc.cpp:18 rc.cpp:189 rc.cpp:213 rc.cpp:384
 msgid "&Remove"
 msgstr "(&R) తీసివేయి"
 
-#: bgadvanced.cpp:340
+#: bgadvanced.cpp:339
 msgid "Configure Background Program"
 msgstr "బ్యాక్‌గ్రౌండ్ ప్రోగ్రామ్‌ను ఆకృతీకరించుము"
 
-#: bgadvanced.cpp:352
+#: bgadvanced.cpp:350
 msgid "&Name:"
 msgstr "(&N) పేరు:"
 
-#: bgadvanced.cpp:358
+#: bgadvanced.cpp:356
 msgid "Co&mment:"
 msgstr "(&m) వ్యాఖ్యానము:"
 
-#: bgadvanced.cpp:364
+#: bgadvanced.cpp:362
 msgid "Comman&d:"
 msgstr "(&d) ఆదేశము:"
 
-#: bgadvanced.cpp:370
+#: bgadvanced.cpp:368
 msgid "&Preview cmd:"
 msgstr "(&P) cmd ముందస్తు వీక్షణం:"
 
-#: bgadvanced.cpp:376
+#: bgadvanced.cpp:374
 msgid "&Executable:"
 msgstr "(&E) నిర్వర్తించదగిన:"
 
-#: bgadvanced.cpp:382
+#: bgadvanced.cpp:380
 msgid "&Refresh time:"
 msgstr "(&R) రీఫ్రెష్ సమయం"
 
-#: bgadvanced.cpp:387
+#: bgadvanced.cpp:385
 msgid " min"
 msgstr " ని"
 
-#: bgadvanced.cpp:394
+#: bgadvanced.cpp:392
 msgid "New Command"
 msgstr "కొత్త ఆదేశము"
 
-#: bgadvanced.cpp:397
+#: bgadvanced.cpp:395
 #, kde-format
 msgid "New Command <%1>"
 msgstr "కొత్త ఆదేశము <%1>"
 
-#: bgadvanced.cpp:424
+#: bgadvanced.cpp:422
 msgid ""
 "You did not fill in the `Name' field.\n"
 "This is a required field."
@@ -114,7 +114,7 @@ msgstr ""
 "మీరు `పేరు' క్షేత్రమునందు నింపలేదు.\n"
 "ఇది అవసరమైన క్షేత్రము."
 
-#: bgadvanced.cpp:432
+#: bgadvanced.cpp:430
 #, kde-format
 msgid ""
 "There is already a program with the name `%1'.\n"
@@ -123,11 +123,11 @@ msgstr ""
 "ఇది పేరు `%1'తో వొక ప్రోగ్రామ్.\n"
 "మీరు దానిని వోవర్‌రైట్ చేద్దామని అనుకొంటున్నారా?"
 
-#: bgadvanced.cpp:433
+#: bgadvanced.cpp:431
 msgid "Overwrite"
 msgstr "ఓవర్‌రైట్"
 
-#: bgadvanced.cpp:439
+#: bgadvanced.cpp:437
 msgid ""
 "You did not fill in the `Executable' field.\n"
 "This is a required field."
@@ -135,7 +135,7 @@ msgstr ""
 "మీరు `నిర్వర్తించదగు' క్షేత్రమును నింపలేదు.\n"
 "ఇది అవసరమైన క్షేత్రము."
 
-#: bgadvanced.cpp:444
+#: bgadvanced.cpp:442
 msgid ""
 "You did not fill in the `Command' field.\n"
 "This is a required field."
@@ -287,7 +287,7 @@ msgstr ""
 msgid "Setup Slide Show"
 msgstr "స్లైడ్ షో‌ను అమర్చుము"
 
-#: bgwallpaper.cpp:117
+#: bgwallpaper.cpp:116
 #, fuzzy
 #| msgid " min"
 msgid " minute"
@@ -295,7 +295,7 @@ msgid_plural " minutes"
 msgstr[0] " ని"
 msgstr[1] " ని"
 
-#: bgwallpaper.cpp:165
+#: bgwallpaper.cpp:164
 msgid "Select Image"
 msgstr "చిత్రమును యెంపికచేయుము"
 
