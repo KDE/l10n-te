@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-08 05:37+0200\n"
+"POT-Creation-Date: 2010-06-09 05:01+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -2563,107 +2563,22 @@ msgctxt ""
 msgid "or"
 msgstr "మెర్"
 
-#: nepomuk/core/resource.cpp:524
+#: nepomuk/core/resource.cpp:498
 msgid "Success"
 msgstr "సఫలం"
 
-#: nepomuk/core/resource.cpp:526
+#: nepomuk/core/resource.cpp:500
 msgid "Communication error"
 msgstr "సంప్రదింపు దోషము"
 
-#: nepomuk/core/resource.cpp:528
+#: nepomuk/core/resource.cpp:502
 msgid "Invalid type in Database"
 msgstr "డాటా బేస్ లొ చెల్లని రకం"
 
-#: nepomuk/core/resource.cpp:530 kdecore/network/klocalsocket_unix.cpp:213
+#: nepomuk/core/resource.cpp:504 kdecore/network/klocalsocket_unix.cpp:213
 #: kdecore/network/klocalsocket_unix.cpp:293
 msgid "Unknown error"
 msgstr "తెలియని దోషము"
-
-#: nepomuk/core/ui/nepomukmassupdatejob.cpp:76
-msgid "Changing annotations"
-msgstr "ప్రకటనలను మార్చుతోంది"
-
-#: nepomuk/core/ui/kedittagsdialog.cpp:48
-#, fuzzy
-#| msgid "Change Icon"
-msgctxt "@title:window"
-msgid "Change Tags"
-msgstr "ప్రతిమను మార్చు..."
-
-#: nepomuk/core/ui/kedittagsdialog.cpp:49
-#, fuzzy
-#| msgid "Pages"
-msgctxt "@title:window"
-msgid "Add Tags"
-msgstr "పేజీలు"
-
-#: nepomuk/core/ui/kedittagsdialog.cpp:58
-msgctxt "@label:textbox"
-msgid "Configure which tags should be applied."
-msgstr ""
-
-#: nepomuk/core/ui/kedittagsdialog.cpp:71
-#, fuzzy
-#| msgid "Create New Tag..."
-msgctxt "@label"
-msgid "Create new tag:"
-msgstr "కొత్త టాగ్‌ను సృష్టించుము..."
-
-#: nepomuk/core/ui/kedittagsdialog.cpp:93
-#, fuzzy
-#| msgid "Delete"
-msgctxt "@info"
-msgid "Delete tag"
-msgstr "తొలగించు"
-
-#: nepomuk/core/ui/kedittagsdialog.cpp:205
-#, kde-format
-msgctxt "@info"
-msgid "Should the tag <resource>%1</resource> really be deleted for all files?"
-msgstr ""
-
-#: nepomuk/core/ui/kedittagsdialog.cpp:207
-#, fuzzy
-#| msgid "Delete"
-msgctxt "@title"
-msgid "Delete tag"
-msgstr "తొలగించు"
-
-#: nepomuk/core/ui/kedittagsdialog.cpp:208
-#, fuzzy
-#| msgid "Delete"
-msgctxt "@action:button"
-msgid "Delete"
-msgstr "తొలగించు"
-
-#: nepomuk/core/ui/kedittagsdialog.cpp:209
-#, fuzzy
-#| msgid "Cancel"
-msgctxt "@action:button"
-msgid "Cancel"
-msgstr "రద్దు"
-
-#: nepomuk/core/ui/tagwidget.cpp:61
-#, fuzzy
-#| msgid "Show all options"
-msgctxt "@label"
-msgid "Show all tags..."
-msgstr "అన్ని ఐచ్చికములు చూపుము"
-
-#: nepomuk/core/ui/tagwidget.cpp:104
-#, fuzzy
-#| msgid "Add..."
-msgctxt "@label"
-msgid "Add Tags..."
-msgstr "చేర్చు..."
-
-#: nepomuk/core/ui/tagwidget.cpp:104
-#, fuzzy
-#| msgid "Change &Icon..."
-msgctxt "@label"
-msgid "Change..."
-msgstr "(&I) ప్రతిమను మార్చు..."
 
 #: nepomuk/rcgen/rcgen.cpp:49 nepomuk/rcgen/rcgen.cpp:51
 msgid "Nepomuk Resource Class Generator"
@@ -2765,6 +2680,91 @@ msgstr ""
 #: nepomuk/rcgen/rcgen.cpp:80
 msgid "The ontology files containing the ontologies to be generated."
 msgstr ""
+
+#: nepomuk/ui/kedittagsdialog.cpp:48
+#, fuzzy
+#| msgid "Change Icon"
+msgctxt "@title:window"
+msgid "Change Tags"
+msgstr "ప్రతిమను మార్చు..."
+
+#: nepomuk/ui/kedittagsdialog.cpp:49
+#, fuzzy
+#| msgid "Pages"
+msgctxt "@title:window"
+msgid "Add Tags"
+msgstr "పేజీలు"
+
+#: nepomuk/ui/kedittagsdialog.cpp:58
+msgctxt "@label:textbox"
+msgid "Configure which tags should be applied."
+msgstr ""
+
+#: nepomuk/ui/kedittagsdialog.cpp:71
+#, fuzzy
+#| msgid "Create New Tag..."
+msgctxt "@label"
+msgid "Create new tag:"
+msgstr "కొత్త టాగ్‌ను సృష్టించుము..."
+
+#: nepomuk/ui/kedittagsdialog.cpp:93
+#, fuzzy
+#| msgid "Delete"
+msgctxt "@info"
+msgid "Delete tag"
+msgstr "తొలగించు"
+
+#: nepomuk/ui/kedittagsdialog.cpp:205
+#, kde-format
+msgctxt "@info"
+msgid "Should the tag <resource>%1</resource> really be deleted for all files?"
+msgstr ""
+
+#: nepomuk/ui/kedittagsdialog.cpp:207
+#, fuzzy
+#| msgid "Delete"
+msgctxt "@title"
+msgid "Delete tag"
+msgstr "తొలగించు"
+
+#: nepomuk/ui/kedittagsdialog.cpp:208
+#, fuzzy
+#| msgid "Delete"
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "తొలగించు"
+
+#: nepomuk/ui/kedittagsdialog.cpp:209
+#, fuzzy
+#| msgid "Cancel"
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "రద్దు"
+
+#: nepomuk/ui/nepomukmassupdatejob.cpp:76
+msgid "Changing annotations"
+msgstr "ప్రకటనలను మార్చుతోంది"
+
+#: nepomuk/ui/tagwidget.cpp:61
+#, fuzzy
+#| msgid "Show all options"
+msgctxt "@label"
+msgid "Show all tags..."
+msgstr "అన్ని ఐచ్చికములు చూపుము"
+
+#: nepomuk/ui/tagwidget.cpp:104
+#, fuzzy
+#| msgid "Add..."
+msgctxt "@label"
+msgid "Add Tags..."
+msgstr "చేర్చు..."
+
+#: nepomuk/ui/tagwidget.cpp:104
+#, fuzzy
+#| msgid "Change &Icon..."
+msgctxt "@label"
+msgid "Change..."
+msgstr "(&I) ప్రతిమను మార్చు..."
 
 #: kinit/klauncher.cpp:563
 #, kde-format
