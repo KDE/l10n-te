@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kgoldrunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-04 05:02+0200\n"
+"POT-Creation-Date: 2010-07-08 05:14+0200\n"
 "PO-Revision-Date: 2007-07-14 13:32+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -3522,7 +3522,7 @@ msgstr "సాధారణ వేగం"
 #: src/kgoldrunner.cpp:443
 #, fuzzy
 #| msgid "Normal Speed"
-msgid "Set normal game speed (12 units)."
+msgid "Set normal game speed."
 msgstr "సాధారణ వేగం"
 
 #: src/kgoldrunner.cpp:447
@@ -3536,363 +3536,367 @@ msgid "Set beginners' speed."
 msgstr "సాధారణ వేగం"
 
 #: src/kgoldrunner.cpp:449
-msgid "Set beginners' game speed (6 units)."
-msgstr ""
+#, fuzzy
+#| msgid "Normal Speed"
+msgid "Set beginners' game speed (0.5 times normal)."
+msgstr "సాధారణ వేగం"
 
-#: src/kgoldrunner.cpp:453
+#: src/kgoldrunner.cpp:454
 msgid "Champion Speed"
 msgstr ""
 
-#: src/kgoldrunner.cpp:454
+#: src/kgoldrunner.cpp:455
 msgid "Set champions' speed."
 msgstr ""
 
-#: src/kgoldrunner.cpp:455
-msgid "Set champions' game speed (18 units)."
-msgstr ""
+#: src/kgoldrunner.cpp:456
+#, fuzzy
+#| msgid "Normal Speed"
+msgid "Set champions' game speed (1.5 times normal)."
+msgstr "సాధారణ వేగం"
 
-#: src/kgoldrunner.cpp:459
+#: src/kgoldrunner.cpp:460
 msgid "Increase Speed"
 msgstr "వేగం పెంచు"
 
-#: src/kgoldrunner.cpp:460
+#: src/kgoldrunner.cpp:461
 #, fuzzy
 #| msgid "Increase Speed"
 msgid "Increase speed."
 msgstr "వేగం పెంచు"
 
-#: src/kgoldrunner.cpp:461
-msgid "Increase the game speed by one unit."
+#: src/kgoldrunner.cpp:462
+msgid "Increase the game speed by 0.1 (maximum is 2.0 times normal)."
 msgstr ""
 
-#: src/kgoldrunner.cpp:465
+#: src/kgoldrunner.cpp:467
 msgid "Decrease Speed"
 msgstr "వేగం తగ్గించు"
 
-#: src/kgoldrunner.cpp:466
+#: src/kgoldrunner.cpp:468
 #, fuzzy
 #| msgid "Decrease Speed"
 msgid "Decrease speed."
 msgstr "వేగం తగ్గించు"
 
-#: src/kgoldrunner.cpp:467
-msgid "Decrease the game speed by one unit."
+#: src/kgoldrunner.cpp:469
+msgid "Decrease the game speed by 0.1 (minimum is 0.2 times normal)."
 msgstr ""
 
-#: src/kgoldrunner.cpp:493
+#: src/kgoldrunner.cpp:496
 msgid "Stop"
 msgstr ""
 
-#: src/kgoldrunner.cpp:494
+#: src/kgoldrunner.cpp:497
 msgid "Move Right"
 msgstr "కుడి వైపు జరుపు"
 
-#: src/kgoldrunner.cpp:495
+#: src/kgoldrunner.cpp:498
 msgid "Move Left"
 msgstr "ఎడమకు జరుపు"
 
-#: src/kgoldrunner.cpp:496
+#: src/kgoldrunner.cpp:499
 msgid "Move Up"
 msgstr "పైకి జరుపు"
 
-#: src/kgoldrunner.cpp:497
+#: src/kgoldrunner.cpp:500
 msgid "Move Down"
 msgstr "క్రిందకు జరుపు"
 
-#: src/kgoldrunner.cpp:498
+#: src/kgoldrunner.cpp:501
 msgid "Dig Right"
 msgstr "కుడి వైపు తవ్వు"
 
-#: src/kgoldrunner.cpp:499
+#: src/kgoldrunner.cpp:502
 msgid "Dig Left"
 msgstr "ఎడమ వైపు తవ్వు"
 
-#: src/kgoldrunner.cpp:527
+#: src/kgoldrunner.cpp:530
 #, fuzzy
 #| msgid "Date"
 msgid "Do a Step"
 msgstr "తేది"
 
-#: src/kgoldrunner.cpp:528
+#: src/kgoldrunner.cpp:531
 msgid "Test Bug Fix"
 msgstr ""
 
-#: src/kgoldrunner.cpp:529
+#: src/kgoldrunner.cpp:532
 msgid "Show Positions"
 msgstr ""
 
-#: src/kgoldrunner.cpp:530
+#: src/kgoldrunner.cpp:533
 msgid "Start Logging"
 msgstr ""
 
-#: src/kgoldrunner.cpp:531
+#: src/kgoldrunner.cpp:534
 msgid "Show Hero"
 msgstr ""
 
-#: src/kgoldrunner.cpp:532
+#: src/kgoldrunner.cpp:535
 msgid "Show Object"
 msgstr ""
 
-#: src/kgoldrunner.cpp:534 src/kgoldrunner.cpp:535 src/kgoldrunner.cpp:536
 #: src/kgoldrunner.cpp:537 src/kgoldrunner.cpp:538 src/kgoldrunner.cpp:539
-#: src/kgoldrunner.cpp:540
+#: src/kgoldrunner.cpp:540 src/kgoldrunner.cpp:541 src/kgoldrunner.cpp:542
+#: src/kgoldrunner.cpp:543
 msgid "Show Enemy"
 msgstr "శత్రువును చూపు"
 
-#: src/kgoldrunner.cpp:653
+#: src/kgoldrunner.cpp:656
 msgid "Missing Name"
 msgstr ""
 
-#: src/kgoldrunner.cpp:712
+#: src/kgoldrunner.cpp:715
 msgid "   Lives: "
 msgstr "   చాన్సులు: "
 
-#: src/kgoldrunner.cpp:724
+#: src/kgoldrunner.cpp:727
 msgid "   Score: "
 msgstr "   స్కొరు: "
 
-#: src/kgoldrunner.cpp:736
+#: src/kgoldrunner.cpp:739
 msgid "   Level: "
 msgstr "   స్థాయి: "
 
-#: src/kgoldrunner.cpp:753
+#: src/kgoldrunner.cpp:756
 #, kde-format
 msgid "Press \"%1\" to RESUME"
 msgstr ""
 
-#: src/kgoldrunner.cpp:755
+#: src/kgoldrunner.cpp:758
 #, kde-format
 msgid "Press \"%1\" or \"%2\" to RESUME"
 msgstr ""
 
-#: src/kgoldrunner.cpp:761
+#: src/kgoldrunner.cpp:764
 #, kde-format
 msgid "Press \"%1\" to PAUSE"
 msgstr ""
 
-#: src/kgoldrunner.cpp:763
+#: src/kgoldrunner.cpp:766
 #, kde-format
 msgid "Press \"%1\" or \"%2\" to PAUSE"
 msgstr ""
 
-#: src/kgoldrunner.cpp:773
+#: src/kgoldrunner.cpp:776
 msgid "   Has hint   "
 msgstr ""
 
-#: src/kgoldrunner.cpp:776
+#: src/kgoldrunner.cpp:779
 msgid "   No hint   "
 msgstr ""
 
-#: src/kgoldrunner.cpp:844
+#: src/kgoldrunner.cpp:847
 msgid "Theme Not Loaded"
 msgstr ""
 
-#: src/kgoldrunner.cpp:845
+#: src/kgoldrunner.cpp:848
 msgid ""
 "Cannot load the theme you selected.  It is not in the required graphics "
 "format (SVG)."
 msgstr ""
 
-#: src/kgoldrunner.cpp:905 src/kgoldrunner.cpp:917 src/kgoldrunner.cpp:930
-#: src/kgoldrunner.cpp:939
+#: src/kgoldrunner.cpp:908 src/kgoldrunner.cpp:920 src/kgoldrunner.cpp:933
+#: src/kgoldrunner.cpp:942
 msgid "Get Folders"
 msgstr ""
 
-#: src/kgoldrunner.cpp:906
+#: src/kgoldrunner.cpp:909
 #, kde-format
 msgid ""
 "Cannot find documentation sub-folder 'en/%1/' in area '%2' of the KDE folder "
 "($KDEDIRS)."
 msgstr ""
 
-#: src/kgoldrunner.cpp:918
+#: src/kgoldrunner.cpp:921
 #, kde-format
 msgid ""
 "Cannot find system games sub-folder '%1/system/' in area '%2' of the KDE "
 "folder ($KDEDIRS)."
 msgstr ""
 
-#: src/kgoldrunner.cpp:931
+#: src/kgoldrunner.cpp:934
 #, kde-format
 msgid ""
 "Cannot find or create user games sub-folder '%1/user/' in area '%2' of the "
 "KDE user area ($KDEHOME)."
 msgstr ""
 
-#: src/kgoldrunner.cpp:940
+#: src/kgoldrunner.cpp:943
 #, kde-format
 msgid ""
 "Cannot find or create 'levels/' folder in sub-folder '%1/user/' in the KDE "
 "user area ($KDEHOME)."
 msgstr ""
 
-#: src/kgoldrunner.cpp:973
+#: src/kgoldrunner.cpp:976
 msgid "Edit Name/Hint"
 msgstr ""
 
-#: src/kgoldrunner.cpp:974
+#: src/kgoldrunner.cpp:977
 msgid "Edit level name or hint"
 msgstr ""
 
-#: src/kgoldrunner.cpp:975
+#: src/kgoldrunner.cpp:978
 msgid "Edit text for the name or hint of a level"
 msgstr ""
 
-#: src/kgoldrunner.cpp:978
+#: src/kgoldrunner.cpp:981
 #, fuzzy
 #| msgid "Hint"
 msgid "Name/Hint"
 msgstr "సూచన"
 
-#: src/kgoldrunner.cpp:981
+#: src/kgoldrunner.cpp:984
 msgid "Erase"
 msgstr ""
 
-#: src/kgoldrunner.cpp:981
+#: src/kgoldrunner.cpp:984
 msgid "Space/Erase"
 msgstr ""
 
-#: src/kgoldrunner.cpp:982
+#: src/kgoldrunner.cpp:985
 msgid "Paint empty squares or erase"
 msgstr ""
 
-#: src/kgoldrunner.cpp:983
+#: src/kgoldrunner.cpp:986
 msgid "Erase objects or paint empty squares"
 msgstr ""
 
-#: src/kgoldrunner.cpp:986
+#: src/kgoldrunner.cpp:989
 msgid "Hero"
 msgstr ""
 
-#: src/kgoldrunner.cpp:987
+#: src/kgoldrunner.cpp:990
 #, fuzzy
 #| msgid "Move Down"
 msgid "Move hero"
 msgstr "క్రిందకు జరుపు"
 
-#: src/kgoldrunner.cpp:988
+#: src/kgoldrunner.cpp:991
 msgid "Change the hero's starting position"
 msgstr ""
 
-#: src/kgoldrunner.cpp:991
+#: src/kgoldrunner.cpp:994
 msgid "Enemy"
 msgstr "శత్రువు"
 
-#: src/kgoldrunner.cpp:992
+#: src/kgoldrunner.cpp:995
 msgid "Paint enemies"
 msgstr ""
 
-#: src/kgoldrunner.cpp:993
+#: src/kgoldrunner.cpp:996
 msgid "Paint enemies at their starting positions"
 msgstr ""
 
-#: src/kgoldrunner.cpp:997
+#: src/kgoldrunner.cpp:1000
 msgid "Brick"
 msgstr ""
 
-#: src/kgoldrunner.cpp:998
+#: src/kgoldrunner.cpp:1001
 #, fuzzy
 #| msgid "Brick (can dig)"
 msgid "Paint bricks (can dig)"
 msgstr "ఇటుక (తవ్వవచ్చు)"
 
-#: src/kgoldrunner.cpp:999
+#: src/kgoldrunner.cpp:1002
 msgid "Paint bricks (diggable objects)"
 msgstr ""
 
-#: src/kgoldrunner.cpp:1002
+#: src/kgoldrunner.cpp:1005
 msgid "Concrete"
 msgstr ""
 
-#: src/kgoldrunner.cpp:1003
+#: src/kgoldrunner.cpp:1006
 #, fuzzy
 #| msgid "Concrete (cannot dig)"
 msgid "Paint concrete (cannot dig)"
 msgstr "కాక్రీటు (తవ్వలేము)"
 
-#: src/kgoldrunner.cpp:1004
+#: src/kgoldrunner.cpp:1007
 msgid "Paint concrete objects (not diggable)"
 msgstr ""
 
-#: src/kgoldrunner.cpp:1007
+#: src/kgoldrunner.cpp:1010
 msgid "Trap"
 msgstr ""
 
-#: src/kgoldrunner.cpp:1007
+#: src/kgoldrunner.cpp:1010
 msgid "Trap/False Brick"
 msgstr ""
 
-#: src/kgoldrunner.cpp:1008 src/kgoldrunner.cpp:1010
+#: src/kgoldrunner.cpp:1011 src/kgoldrunner.cpp:1013
 msgid "Paint traps or false bricks (can fall through)"
 msgstr ""
 
-#: src/kgoldrunner.cpp:1014
+#: src/kgoldrunner.cpp:1017
 msgid "Ladder"
 msgstr "నిచ్చెన"
 
-#: src/kgoldrunner.cpp:1015
+#: src/kgoldrunner.cpp:1018
 #, fuzzy
 #| msgid "Hidden ladder"
 msgid "Paint ladders"
 msgstr "కనపడని నిచ్చెన"
 
-#: src/kgoldrunner.cpp:1016
+#: src/kgoldrunner.cpp:1019
 msgid "Paint ladders (ways to go up or down)"
 msgstr ""
 
-#: src/kgoldrunner.cpp:1019
+#: src/kgoldrunner.cpp:1022
 #, fuzzy
 #| msgid "Ladder"
 msgid "H Ladder"
 msgstr "నిచ్చెన"
 
-#: src/kgoldrunner.cpp:1019
+#: src/kgoldrunner.cpp:1022
 #, fuzzy
 #| msgid "Hidden ladder"
 msgid "Hidden Ladder"
 msgstr "కనపడని నిచ్చెన"
 
-#: src/kgoldrunner.cpp:1020
+#: src/kgoldrunner.cpp:1023
 #, fuzzy
 #| msgid "Hidden ladder"
 msgid "Paint hidden ladders"
 msgstr "కనపడని నిచ్చెన"
 
-#: src/kgoldrunner.cpp:1021
+#: src/kgoldrunner.cpp:1024
 msgid "Paint hidden ladders, which appear when all the gold is gone"
 msgstr ""
 
-#: src/kgoldrunner.cpp:1025
+#: src/kgoldrunner.cpp:1028
 msgid "Bar"
 msgstr ""
 
-#: src/kgoldrunner.cpp:1025
+#: src/kgoldrunner.cpp:1028
 msgid "Bar/Pole"
 msgstr ""
 
-#: src/kgoldrunner.cpp:1026
+#: src/kgoldrunner.cpp:1029
 msgid "Paint bars or poles"
 msgstr ""
 
-#: src/kgoldrunner.cpp:1027
+#: src/kgoldrunner.cpp:1030
 msgid "Paint bars or poles (can fall from these)"
 msgstr ""
 
-#: src/kgoldrunner.cpp:1031
+#: src/kgoldrunner.cpp:1034
 #, fuzzy
 #| msgid "Gold Bars"
 msgid "Gold"
 msgstr "బంగారపు కడ్డీలు"
 
-#: src/kgoldrunner.cpp:1031
+#: src/kgoldrunner.cpp:1034
 msgid "Gold/Treasure"
 msgstr ""
 
-#: src/kgoldrunner.cpp:1032
+#: src/kgoldrunner.cpp:1035
 msgid "Paint gold (or other treasure)"
 msgstr ""
 
-#: src/kgoldrunner.cpp:1033
+#: src/kgoldrunner.cpp:1036
 msgid "Paint gold pieces (or other treasure)"
 msgstr ""
 
