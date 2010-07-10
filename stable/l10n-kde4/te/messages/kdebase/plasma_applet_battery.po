@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-14 04:46+0200\n"
+"POT-Creation-Date: 2010-07-10 01:21+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,25 +25,25 @@ msgstr ""
 "\n"
 "\n"
 
-#: battery.cpp:198 battery.cpp:670
+#: battery.cpp:198 battery.cpp:667
 msgid "Battery:"
 msgstr ""
 
-#: battery.cpp:205 battery.cpp:677
+#: battery.cpp:205 battery.cpp:674
 #, kde-format
 msgctxt "Placeholder is the battery ID"
 msgid "Battery %1:"
 msgstr ""
 
-#: battery.cpp:216 battery.cpp:684
+#: battery.cpp:216 battery.cpp:681
 msgid "AC Adapter:"
 msgstr ""
 
-#: battery.cpp:217 battery.cpp:686
+#: battery.cpp:217 battery.cpp:683
 msgid "Plugged in"
 msgstr ""
 
-#: battery.cpp:217 battery.cpp:688
+#: battery.cpp:217 battery.cpp:685
 msgid "Not plugged in"
 msgstr ""
 
@@ -51,58 +51,67 @@ msgstr ""
 msgid "General"
 msgstr "సాధారణ"
 
-#: battery.cpp:497
+#: battery.cpp:495
+msgctxt "Label for remaining time"
+msgid "Time Remaining:"
+msgstr ""
+
+#: battery.cpp:516
+msgid "Screen Brightness:"
+msgstr ""
+
+#: battery.cpp:518
 msgid "Screen Brightness"
 msgstr ""
 
-#: battery.cpp:517
+#: battery.cpp:535
 msgid "Power Profile:"
 msgstr ""
 
-#: battery.cpp:547
+#: battery.cpp:563
 msgctxt "Suspend the computer to RAM; translation should be short"
 msgid "Sleep"
 msgstr ""
 
-#: battery.cpp:561
+#: battery.cpp:570
 msgctxt "Suspend the computer to disk; translation should be short"
 msgid "Hibernate"
 msgstr ""
 
-#: battery.cpp:574
+#: battery.cpp:577
 msgctxt "tooltip on the config button in the popup"
 msgid "Configure Power Management..."
 msgstr ""
 
-#: battery.cpp:593
+#: battery.cpp:591
 msgid "Power Management"
 msgstr ""
 
-#: battery.cpp:640
+#: battery.cpp:637
 #, kde-format
 msgid "%1% (charged)"
 msgstr ""
 
-#: battery.cpp:645
+#: battery.cpp:642
 #, kde-format
 msgid "%1% (discharging)"
 msgstr ""
 
-#: battery.cpp:651
+#: battery.cpp:648
 #, kde-format
 msgid "%1% (charging)"
 msgstr ""
 
-#: battery.cpp:654 battery.cpp:703
+#: battery.cpp:651 battery.cpp:700
 msgctxt "Battery is not plugged in"
 msgid "Not present"
 msgstr ""
 
-#: battery.cpp:702
+#: battery.cpp:699
 msgid "<b>Battery:</b> "
 msgstr ""
 
-#: battery.cpp:954 battery.cpp:985 battery.cpp:997
+#: battery.cpp:951 battery.cpp:982 battery.cpp:994
 #, kde-format
 msgctxt "overlay on the battery, needs to be really tiny"
 msgid "%1%"
