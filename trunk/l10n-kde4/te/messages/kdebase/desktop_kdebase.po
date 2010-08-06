@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-05 03:28+0000\n"
+"POT-Creation-Date: 2010-08-06 03:34+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -2285,7 +2285,7 @@ msgctxt "Name"
 msgid "Baidu"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/baidu.desktop:15
+#: runtime/kurifilter-plugins/ikws/searchproviders/baidu.desktop:16
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.dict.cc/?s=\\\\{@}"
@@ -2314,7 +2314,7 @@ msgctxt "Name"
 msgid "Bing"
 msgstr "బెనిన్"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/bing.desktop:14
+#: runtime/kurifilter-plugins/ikws/searchproviders/bing.desktop:15
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -3310,7 +3310,7 @@ msgctxt "Name"
 msgid "openDesktop.org"
 msgstr "రంగస్ఠలం"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/opendesktop.desktop:26
+#: runtime/kurifilter-plugins/ikws/searchproviders/opendesktop.desktop:27
 #, fuzzy
 #| msgctxt "Query"
 #| msgid ""
@@ -6960,17 +6960,25 @@ msgctxt "Description"
 msgid "Prevents the system from saving remote plasma widgets' policies"
 msgstr ""
 
-#: runtime/plasma/scriptengines/javascript/plasma-scriptengine-applet-simple-javascript.desktop:2
+#: runtime/plasma/scriptengines/javascript/data/plasma-javascriptaddon.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Java & JavaScript"
+msgctxt "Name"
+msgid "Plasa JavaScript Addon"
+msgstr "జావా & జావాస్క్రిప్ట్"
+
+#: runtime/plasma/scriptengines/javascript/data/plasma-scriptengine-applet-simple-javascript.desktop:2
 msgctxt "Name"
 msgid "JavaScript Widget"
 msgstr "జావాస్క్రిప్‍ట్ విడ్‍జ్‌ట్"
 
-#: runtime/plasma/scriptengines/javascript/plasma-scriptengine-applet-simple-javascript.desktop:72
+#: runtime/plasma/scriptengines/javascript/data/plasma-scriptengine-applet-simple-javascript.desktop:72
 msgctxt "Comment"
 msgid "Native Plasma widget written in JavaScript"
 msgstr "జావాస్క్రిప్‍ట్‌లో వ్రాసిన నేటివ్ ప్లాజ్మా విడ్‍జ్‌ట్"
 
-#: runtime/plasma/scriptengines/javascript/plasma-scriptengine-dataengine-javascript.desktop:2
+#: runtime/plasma/scriptengines/javascript/data/plasma-scriptengine-dataengine-javascript.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "JavaScript Runner"
@@ -6978,12 +6986,12 @@ msgctxt "Name"
 msgid "JavaScript DataEngine"
 msgstr "జావాస్క్రిప్‍ట్ నడుపునది"
 
-#: runtime/plasma/scriptengines/javascript/plasma-scriptengine-runner-javascript.desktop:2
+#: runtime/plasma/scriptengines/javascript/data/plasma-scriptengine-runner-javascript.desktop:2
 msgctxt "Name"
 msgid "JavaScript Runner"
 msgstr "జావాస్క్రిప్‍ట్ నడుపునది"
 
-#: runtime/plasma/scriptengines/javascript/plasma-scriptengine-runner-javascript.desktop:73
+#: runtime/plasma/scriptengines/javascript/data/plasma-scriptengine-runner-javascript.desktop:73
 msgctxt "Comment"
 msgid "JavaScript Runner"
 msgstr "జావాస్క్రిప్‍ట్ నడుపునది"
@@ -9961,7 +9969,7 @@ msgctxt "Name"
 msgid "Screenshot"
 msgstr "స్క్రీన్ సేవర్"
 
-#: workspace/kwin/effects/screenshot/screenshot.desktop:10
+#: workspace/kwin/effects/screenshot/screenshot.desktop:13
 msgctxt "Comment"
 msgid "Saves screenshot of active window into the home directory"
 msgstr ""
@@ -11206,7 +11214,7 @@ msgctxt "Comment"
 msgid "Default desktop toolbox for the Plasma desktop shell"
 msgstr ""
 
-#: workspace/plasma/desktop/shell/toolbox/plasma-toolbox-desktoptoolbox.desktop:10
+#: workspace/plasma/desktop/shell/toolbox/plasma-toolbox-desktoptoolbox.desktop:12
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Network Tool"
@@ -11219,7 +11227,7 @@ msgctxt "Comment"
 msgid "Default panel toolbox for the Plasma desktop shell"
 msgstr ""
 
-#: workspace/plasma/desktop/shell/toolbox/plasma-toolbox-paneltoolbox.desktop:10
+#: workspace/plasma/desktop/shell/toolbox/plasma-toolbox-paneltoolbox.desktop:12
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Network Tool"
@@ -12483,7 +12491,7 @@ msgctxt "Comment"
 msgid "Default toolbox for the netbook shell"
 msgstr ""
 
-#: workspace/plasma/netbook/shell/nettoolbox/plasma-toolbox-nettoolbox.desktop:11
+#: workspace/plasma/netbook/shell/nettoolbox/plasma-toolbox-nettoolbox.desktop:12
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Network Tool"
