@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-05 04:51+0200\n"
+"POT-Creation-Date: 2010-08-19 05:28+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -73,38 +73,38 @@ msgid ""
 "sites without being prompted every time KDE receives a cookie.</p>"
 msgstr ""
 
-#: kcookiesmanagement.cpp:152 kcookiesmanagement.cpp:169
+#: kcookiesmanagement.cpp:166 kcookiesmanagement.cpp:183
 msgid "D-Bus Communication Error"
 msgstr "D-Bus సంప్రదింపు దోషము"
 
-#: kcookiesmanagement.cpp:153
+#: kcookiesmanagement.cpp:167
 msgid "Unable to delete all the cookies as requested."
 msgstr "అభ్యర్దించబడినట్లు అన్ని కుకీలను తొలగించలేదు."
 
-#: kcookiesmanagement.cpp:170
+#: kcookiesmanagement.cpp:184
 msgid "Unable to delete cookies as requested."
 msgstr "అభ్యర్దించబడినట్లు కుకీలను తొలగించలేదు."
 
-#: kcookiesmanagement.cpp:242
+#: kcookiesmanagement.cpp:256
 #, fuzzy
 #| msgid "<h1>Cookies Management Quick Help</h1>"
 msgid "<h1>Cookie Management Quick Help</h1>"
 msgstr "<h1>కుకీల నిర్వహణ త్వరిత సహాయం</h1>"
 
-#: kcookiesmanagement.cpp:251
+#: kcookiesmanagement.cpp:266
 msgid "Information Lookup Failure"
 msgstr "సమాచారము చూచుటలో విఫలమైంది"
 
-#: kcookiesmanagement.cpp:252
+#: kcookiesmanagement.cpp:267
 msgid ""
 "Unable to retrieve information about the cookies stored on your computer."
 msgstr "మీ కంప్యూటర్ నందు నిల్వవున్న కుకీల గురించి సమాచారమును వెలికితీయలేక పోయింది."
 
-#: kcookiesmanagement.cpp:342
+#: kcookiesmanagement.cpp:376
 msgid "End of session"
 msgstr "సెషన్ ముగింపు"
 
-#: kcookiesmanagement.cpp:351
+#: kcookiesmanagement.cpp:385
 msgid "Yes"
 msgstr "అవును"
 
@@ -133,7 +133,7 @@ msgstr "నకిలీ విధానము"
 msgid "Replace"
 msgstr "పునఃస్థాపించు"
 
-#: kcookiespolicies.cpp:420
+#: kcookiespolicies.cpp:422
 msgid ""
 "Unable to communicate with the cookie handler service.\n"
 "Any changes you made will not take effect until the service is restarted."
@@ -141,7 +141,7 @@ msgstr ""
 "కుకీని సంభాలించు సేవతో సంప్రదించలేక పోయింది.\n"
 "సేవ పునఃప్రారంభమయ్యే వరకు మీరు చేసిన యెటువంటి మార్పులూ ప్రాభావితం కావు."
 
-#: kcookiespolicies.cpp:461
+#: kcookiespolicies.cpp:463
 msgid ""
 "<p><h1>Cookies</h1> Cookies contain information that Konqueror (or any other "
 "KDE application using the HTTP protocol) stores on your computer from a "
@@ -729,7 +729,7 @@ msgstr ""
 msgid "Auto &Detect"
 msgstr "(&D) స్వయంచాలకంగా గుర్తించుము"
 
-#. i18n: file: kcookiesmanagementdlg.ui:23
+#. i18n: file: kcookiesmanagementdlg.ui:24
 #. i18n: ectx: property (clickMessage), widget (KTreeWidgetSearchLine, kListViewSearchLine)
 #. i18n: file: kcookiespoliciesdlg.ui:225
 #. i18n: ectx: property (clickMessage), widget (KTreeWidgetSearchLine, kListViewSearchLine)
@@ -737,25 +737,29 @@ msgstr "(&D) స్వయంచాలకంగా గుర్తించుమ
 msgid "Search"
 msgstr "శోధించుము"
 
-#. i18n: file: kcookiesmanagementdlg.ui:30
+#. i18n: file: kcookiesmanagementdlg.ui:31
 #. i18n: ectx: property (toolTip), widget (QTreeWidget, lvCookies)
 #: rc.cpp:173
 msgid "Search interactively for domains and hosts"
 msgstr "డొమైన్లు మరియు హోస్టుల కొరకు యింటరాక్టివుగా శోధించుము"
 
-#. i18n: file: kcookiesmanagementdlg.ui:40
+#. i18n: file: kcookiesmanagementdlg.ui:53
 #. i18n: ectx: property (text), widget (QTreeWidget, lvCookies)
 #: rc.cpp:176
-msgid "Domain [Group]"
-msgstr "డొమైన్ [సమూహం]"
+#, fuzzy
+#| msgid "Site Name"
+msgid "Site"
+msgstr "సైటు పేరు"
 
-#. i18n: file: kcookiesmanagementdlg.ui:45
+#. i18n: file: kcookiesmanagementdlg.ui:58
 #. i18n: ectx: property (text), widget (QTreeWidget, lvCookies)
 #: rc.cpp:179
-msgid "Host [Set By]"
-msgstr "హోస్టు [చేత అమర్చబడింది]"
+#, fuzzy
+#| msgid "Site Name"
+msgid "Cookie Name"
+msgstr "సైటు పేరు"
 
-#. i18n: file: kcookiesmanagementdlg.ui:57
+#. i18n: file: kcookiesmanagementdlg.ui:70
 #. i18n: ectx: property (text), widget (QPushButton, pbDelete)
 #. i18n: file: kcookiespoliciesdlg.ui:156
 #. i18n: ectx: property (text), widget (KPushButton, pbDelete)
@@ -765,7 +769,7 @@ msgstr "హోస్టు [చేత అమర్చబడింది]"
 msgid "D&elete"
 msgstr "(&e) తొలగించు"
 
-#. i18n: file: kcookiesmanagementdlg.ui:64
+#. i18n: file: kcookiesmanagementdlg.ui:77
 #. i18n: ectx: property (text), widget (QPushButton, pbDeleteAll)
 #. i18n: file: kcookiespoliciesdlg.ui:163
 #. i18n: ectx: property (text), widget (KPushButton, pbDeleteAll)
@@ -775,55 +779,55 @@ msgstr "(&e) తొలగించు"
 msgid "Delete A&ll"
 msgstr "(&l) అన్నిటిని తొలగించుము"
 
-#. i18n: file: kcookiesmanagementdlg.ui:71
+#. i18n: file: kcookiesmanagementdlg.ui:84
 #. i18n: ectx: property (text), widget (QPushButton, pbPolicy)
 #: rc.cpp:188
 msgid "Change &Policy..."
 msgstr "(&P) విధానమును మార్చుము..."
 
-#. i18n: file: kcookiesmanagementdlg.ui:78
+#. i18n: file: kcookiesmanagementdlg.ui:91
 #. i18n: ectx: property (text), widget (QPushButton, pbReload)
 #: rc.cpp:191
 msgid "&Reload List"
 msgstr "(&R) జాబితాను తిరిగిలేడుచేయుము"
 
-#. i18n: file: kcookiesmanagementdlg.ui:102
+#. i18n: file: kcookiesmanagementdlg.ui:115
 #. i18n: ectx: property (title), widget (QGroupBox, gbDetails)
 #: rc.cpp:194
 msgid "Details"
 msgstr "వివరాలు"
 
-#. i18n: file: kcookiesmanagementdlg.ui:111
+#. i18n: file: kcookiesmanagementdlg.ui:124
 #. i18n: ectx: property (text), widget (QLabel, lbName)
 #: rc.cpp:197
 msgid "Name:"
 msgstr "పేరు:"
 
-#. i18n: file: kcookiesmanagementdlg.ui:134
+#. i18n: file: kcookiesmanagementdlg.ui:147
 #. i18n: ectx: property (text), widget (QLabel, lbValue)
 #: rc.cpp:200
 msgid "Value:"
 msgstr "విలువ:"
 
-#. i18n: file: kcookiesmanagementdlg.ui:157
+#. i18n: file: kcookiesmanagementdlg.ui:170
 #. i18n: ectx: property (text), widget (QLabel, lbDomain)
 #: rc.cpp:203
 msgid "Domain:"
 msgstr "డొమెయిన్:"
 
-#. i18n: file: kcookiesmanagementdlg.ui:180
+#. i18n: file: kcookiesmanagementdlg.ui:193
 #. i18n: ectx: property (text), widget (QLabel, lbPath)
 #: rc.cpp:206
 msgid "Path:"
 msgstr "దారి:"
 
-#. i18n: file: kcookiesmanagementdlg.ui:203
+#. i18n: file: kcookiesmanagementdlg.ui:216
 #. i18n: ectx: property (text), widget (QLabel, lbExpires)
 #: rc.cpp:209
 msgid "Expires:"
 msgstr "కాలముతీరిన:"
 
-#. i18n: file: kcookiesmanagementdlg.ui:226
+#. i18n: file: kcookiesmanagementdlg.ui:239
 #. i18n: ectx: property (text), widget (QLabel, lbSecure)
 #: rc.cpp:212
 msgid "Secure:"
@@ -1724,6 +1728,12 @@ msgid ""
 "dialog box, simply click on the quick help button on the window title bar, "
 "then click on the section for which you are seeking help.</p>"
 msgstr ""
+
+#~ msgid "Domain [Group]"
+#~ msgstr "డొమైన్ [సమూహం]"
+
+#~ msgid "Host [Set By]"
+#~ msgstr "హోస్టు [చేత అమర్చబడింది]"
 
 #~ msgid "&LISa Daemon"
 #~ msgstr "&LISa డెమోన్"
