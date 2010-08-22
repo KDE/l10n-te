@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkclock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 04:52+0200\n"
+"POT-Creation-Date: 2010-08-22 05:43+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -122,33 +122,47 @@ msgstr ""
 msgid "Unable to authenticate/execute the action: %1, %2"
 msgstr ""
 
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"కృష్ణబాబు కె \n"
+" విజయ్ కిరణ్ కముజు"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"k.meetme@gmail.com \n"
+" infyquest@gmail.com"
+
 #. i18n: file: dateandtime.ui:22
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:3
+#: rc.cpp:5
 msgid "Date and Time"
 msgstr ""
 
 #. i18n: file: dateandtime.ui:30
 #. i18n: ectx: property (text), widget (QCheckBox, setDateTimeAuto)
-#: rc.cpp:6
+#: rc.cpp:8
 msgid "Set date and time &automatically:"
 msgstr "తేదీ మరియు సమయంను స్వయంచాలకంగా అమర్చు:"
 
 #. i18n: file: dateandtime.ui:53
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:9
+#: rc.cpp:11
 msgid "Time server:"
 msgstr ""
 
 #. i18n: file: dateandtime.ui:83
 #. i18n: ectx: property (whatsThis), widget (KDatePicker, cal)
-#: rc.cpp:12
+#: rc.cpp:14
 msgid "Here you can change the system date's day of the month, month and year."
 msgstr "మీరు యిక్కడ సిస్టమ్ తేదీయొక్క నెల తేదీను, నెలను మరియు సంవత్సరమును మార్చ గలరు."
 
 #. i18n: file: dateandtime.ui:116
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:15
+#: rc.cpp:17
 #, fuzzy
 #| msgid "Time zone Error"
 msgid "Time Zone"
@@ -156,7 +170,7 @@ msgstr "సమయ క్షేత్రపు దోషము"
 
 #. i18n: file: dateandtime.ui:122
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:18
+#: rc.cpp:20
 #, fuzzy
 #| msgid "To change the local time zone, select your area from the list below"
 msgid "To change the local time zone, select your area from the list below."
@@ -164,25 +178,11 @@ msgstr "స్థానిక సమయ క్షేత్రమును మా
 
 #. i18n: file: dateandtime.ui:145
 #. i18n: ectx: property (text), widget (QLabel, m_local)
-#: rc.cpp:21
+#: rc.cpp:23
 #, fuzzy
 #| msgid "Current local time zone: %1 (%2)"
 msgid "Current local time zone:"
 msgstr "ప్రస్తుత స్థానిక సమయ క్షేత్రము: %1 (%2)"
-
-#: rc.cpp:22
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-"కృష్ణబాబు కె \n"
-" విజయ్ కిరణ్ కముజు"
-
-#: rc.cpp:23
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
-"k.meetme@gmail.com \n"
-" infyquest@gmail.com"
 
 #~ msgid "Failed to set system date/time/time zone."
 #~ msgstr "సిస్టమ్ తేదీ/సమయం/సమయ క్షేత్రమును అమర్చుటకు విఫలమైంది."
