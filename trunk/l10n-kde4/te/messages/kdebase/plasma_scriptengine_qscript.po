@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_scriptengine_qscript\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-10 06:03+0200\n"
+"POT-Creation-Date: 2010-08-23 05:29+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -24,6 +24,42 @@ msgstr ""
 "\n"
 "\n"
 "\n"
+
+#: common/javascriptaddonpackagestructure.cpp:30
+#: common/javascriptaddonpackagestructure.cpp:40
+msgid "Main Script File"
+msgstr ""
+
+#: common/scriptenv.cpp:119
+#, kde-format
+msgid "Unable to load script file: %1"
+msgstr ""
+
+#: common/scriptenv.cpp:353
+msgid "debug takes one argument"
+msgstr ""
+
+#: common/scriptenv.cpp:363
+msgid "print() takes one argument"
+msgstr ""
+
+#: common/scriptenv.cpp:373
+msgid "listAddons takes one argument: addon type"
+msgstr ""
+
+#: common/scriptenv.cpp:401 common/scriptenv.cpp:408
+msgid "loadAddon takes two arguments: addon type and addon name to load"
+msgstr ""
+
+#: common/scriptenv.cpp:416
+#, kde-format
+msgid "Failed to find Addon %1 of type %1"
+msgstr ""
+
+#: common/scriptenv.cpp:427
+#, kde-format
+msgid "Failed to open script file for Addon %1: %2"
+msgstr ""
 
 #: dataengine/javascriptdataengine.cpp:110
 msgid "setData() takes at least two arguments"
@@ -99,40 +135,4 @@ msgstr ""
 #: plasmoid/simplejavascriptapplet.cpp:726
 #: plasmoid/simplejavascriptapplet.cpp:742
 msgid "Constructor takes at least 1 argument"
-msgstr ""
-
-#: common/javascriptaddonpackagestructure.cpp:30
-#: common/javascriptaddonpackagestructure.cpp:40
-msgid "Main Script File"
-msgstr ""
-
-#: common/scriptenv.cpp:119
-#, kde-format
-msgid "Unable to load script file: %1"
-msgstr ""
-
-#: common/scriptenv.cpp:353
-msgid "debug takes one argument"
-msgstr ""
-
-#: common/scriptenv.cpp:363
-msgid "print() takes one argument"
-msgstr ""
-
-#: common/scriptenv.cpp:373
-msgid "listAddons takes one argument: addon type"
-msgstr ""
-
-#: common/scriptenv.cpp:401 common/scriptenv.cpp:408
-msgid "loadAddon takes two arguments: addon type and addon name to load"
-msgstr ""
-
-#: common/scriptenv.cpp:416
-#, kde-format
-msgid "Failed to find Addon %1 of type %1"
-msgstr ""
-
-#: common/scriptenv.cpp:427
-#, kde-format
-msgid "Failed to open script file for Addon %1: %2"
 msgstr ""
