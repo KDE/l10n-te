@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-25 05:07+0200\n"
+"POT-Creation-Date: 2010-08-26 05:55+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -2947,7 +2947,25 @@ msgstr[1] ""
 msgid "Search Plugins"
 msgstr "శోధన ప్లగ్‌యిన్లు"
 
-#: kutils/kcmultidialog.cpp:163 kdeui/dialogs/kconfigdialog.cpp:69
+#: kutils/kcmultidialog.cpp:59
+#, fuzzy
+#| msgid ""
+#| "The document \"%1\" has been modified.\n"
+#| "Do you want to save your changes or discard them?"
+msgid ""
+"The settings of the current module have changed.\n"
+"Do you want to apply the changes or discard them?"
+msgstr ""
+"\"%1\" పత్రం మార్చడినది\n"
+"మార్పులను దాచనా లేక విస్మరించనా?"
+
+#: kutils/kcmultidialog.cpp:61
+#, fuzzy
+#| msgid "Settings"
+msgid "Apply Settings"
+msgstr "అమరికలు"
+
+#: kutils/kcmultidialog.cpp:217 kdeui/dialogs/kconfigdialog.cpp:69
 msgid "Configure"
 msgstr "అమర్చు"
 
@@ -4322,11 +4340,11 @@ msgstr ""
 "\n"
 "ఆర్గ్యుమెంట్లు:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1589
+#: kdecore/kernel/kcmdlineargs.cpp:1587
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr "అప్లికేషన్ ద్వారా తెరచిన దస్త్రాలు/యూఆర్ఎల్లు వాడిన తరువాత తీసివేయబడును"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1590
+#: kdecore/kernel/kcmdlineargs.cpp:1588
 msgid "KDE-tempfile"
 msgstr "KDE-tempfile"
 
@@ -8675,7 +8693,7 @@ msgstr "బ్యాక్‌గ్రౌండు నందు నడుపవ�
 msgid "Internally added if launched from Finder"
 msgstr "కనుగొనిన దానినుండి ప్రారంభించబడితే అంతర్గతంగా జతచేయబడింది"
 
-#: kdeui/kernel/kapplication.cpp:829
+#: kdeui/kernel/kapplication.cpp:827
 #, kde-format
 msgid "The style '%1' was not found"
 msgstr "%1 శైలి కనపడలేదు"
