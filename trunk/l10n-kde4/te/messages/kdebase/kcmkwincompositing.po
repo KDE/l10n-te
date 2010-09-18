@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwincompositing\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-22 05:43+0200\n"
+"POT-Creation-Date: 2010-09-18 05:59+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -54,33 +54,33 @@ msgid ""
 "They will be automatically reverted in 10 seconds."
 msgstr ""
 
-#: main.cpp:162
+#: main.cpp:163
 msgid ""
 "Desktop effects are not available on this system due to the following "
 "technical issues:"
 msgstr ""
 
-#: main.cpp:172
+#: main.cpp:173
 msgid "kcmkwincompositing"
 msgstr "kcmkwincompositing"
 
-#: main.cpp:173
+#: main.cpp:174
 msgid "KWin Desktop Effects Configuration Module"
 msgstr "KWin రంగస్థల ప్రభావాల ఆకృతీకరణ మాడ్యూల్"
 
-#: main.cpp:174
+#: main.cpp:175
 msgid "(c) 2007 Rivo Laks"
 msgstr "(c) 2007 రివో లాక్స్"
 
-#: main.cpp:175
+#: main.cpp:176
 msgid "Rivo Laks"
 msgstr "రివో లాక్స్"
 
-#: main.cpp:206 main.cpp:212
+#: main.cpp:207 main.cpp:213
 msgid "No Effect"
 msgstr "ప్రభావము లేదు"
 
-#: main.cpp:244
+#: main.cpp:245
 msgid ""
 "Failed to activate desktop effects using the given configuration options. "
 "Settings will be reverted to their previous values.\n"
@@ -89,67 +89,67 @@ msgid ""
 "especially changing the compositing type."
 msgstr ""
 
-#: main.cpp:287
+#: main.cpp:288
 msgid "Appearance"
 msgstr "కనిపించువిధం"
 
-#: main.cpp:288
+#: main.cpp:289
 msgid "Accessibility"
 msgstr "అందుబాటు"
 
-#: main.cpp:289
+#: main.cpp:290
 msgid "Focus"
 msgstr "దృష్టి"
 
-#: main.cpp:290
+#: main.cpp:291
 msgid "Window Management"
 msgstr "విండో నిర్వహణ"
 
-#: main.cpp:291
+#: main.cpp:292
 msgid "Candy"
 msgstr "కాండీ"
 
-#: main.cpp:292
+#: main.cpp:293
 msgid "Demos"
 msgstr "డెమోస్"
 
-#: main.cpp:293
+#: main.cpp:294
 msgid "Tests"
 msgstr "పరీక్షలు"
 
-#: main.cpp:294
+#: main.cpp:295
 msgid "Tools"
 msgstr "పనిముట్లు"
 
-#: main.cpp:391
+#: main.cpp:392
 #, fuzzy
 #| msgid "Confirm Desktop Effects Change"
 msgid "Desktop effects are active"
 msgstr "రంగస్థల ప్రభావాల మార్పును నిర్ధారించుము"
 
-#: main.cpp:392
+#: main.cpp:393
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Enable desktop effects"
 msgid "Suspend Desktop Effects"
 msgstr "రంగస్థల ప్రభావాలను చేతనముచేయుము"
 
-#: main.cpp:397
+#: main.cpp:398
 msgid "Desktop effects are temporarily disabled"
 msgstr ""
 
-#: main.cpp:398 main.cpp:406
+#: main.cpp:399 main.cpp:407
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Enable desktop effects"
 msgid "Resume Desktop Effects"
 msgstr "రంగస్థల ప్రభావాలను చేతనముచేయుము"
 
-#: main.cpp:405
+#: main.cpp:406
 msgid "Desktop effects are disabled"
 msgstr ""
 
-#: main.cpp:661
+#: main.cpp:664
 msgid ""
 "Your settings have been saved but as KDE is currently running in failsafe "
 "mode desktop effects cannot be enabled at this time.\n"
@@ -157,11 +157,11 @@ msgid ""
 "Please exit failsafe mode to enable desktop effects."
 msgstr ""
 
-#: main.cpp:702
+#: main.cpp:705
 msgid "The following desktop effects could not be activated:"
 msgstr ""
 
-#: main.cpp:764
+#: main.cpp:768
 msgid "<h1>Desktop Effects</h1>"
 msgstr "<h1>రంగస్థల ప్రభావాలు</h1>"
 
@@ -449,6 +449,24 @@ msgstr "Xరెండర్ ఐచ్చికములు"
 #: rc.cpp:132
 msgid "Smooth scaling (slower)"
 msgstr "స్మూత్ స్కేలింగ్ (నెమ్మదైన)"
+
+#. i18n: file: main.ui:567
+#. i18n: ectx: property (toolTip), widget (QCheckBox, unredirectFullscreen)
+#: rc.cpp:135
+msgid ""
+"Improves performance of fullscreen applications like games and video "
+"players. This option can cause flickering when another window is opened "
+"above the fullscreen window."
+msgstr ""
+
+#. i18n: file: main.ui:570
+#. i18n: ectx: property (text), widget (QCheckBox, unredirectFullscreen)
+#: rc.cpp:138
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Enable desktop effects"
+msgid "Suspend desktop effects for fullscreen windows"
+msgstr "రంగస్థల ప్రభావాలను చేతనముచేయుము"
 
 #~ msgid "Compositing is not supported on your system."
 #~ msgstr "మీ సిస్టమ్ పైన కంపోజిటింగ్ మద్దతీయబడదు."
