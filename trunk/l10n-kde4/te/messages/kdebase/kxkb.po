@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxkb\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-02 06:58+0200\n"
+"POT-Creation-Date: 2010-09-21 07:09+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -100,11 +100,21 @@ msgstr ""
 msgid "Label"
 msgstr "లేబుల్"
 
-#: keyboard_applet.cpp:48
+#: keyboard_applet.cpp:49
 msgid "XKB extension failed to initialize"
 msgstr ""
 
-#: layout_widget.cpp:131 layout_widget.cpp:132
+#: keyboard_applet.cpp:209 layout_widget.cpp:239
+#, kde-format
+msgctxt "short layout label - full layout name"
+msgid "%1 - %2"
+msgstr ""
+
+#: keyboard_applet.cpp:218 layout_widget.cpp:248
+msgid "Configure..."
+msgstr "ఆకృతీకరించుము..."
+
+#: layout_widget.cpp:133 layout_widget.cpp:134
 msgctxt "tooltip title"
 msgid "Keyboard Layout"
 msgstr ""
@@ -114,9 +124,6 @@ msgstr ""
 msgctxt "layout - variant"
 msgid "%1 - %2"
 msgstr ""
-
-#~ msgid "Configure..."
-#~ msgstr "ఆకృతీకరించుము..."
 
 #~ msgid "..."
 #~ msgstr "..."
