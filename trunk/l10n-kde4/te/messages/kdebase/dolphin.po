@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-11 06:08+0200\n"
+"POT-Creation-Date: 2010-10-14 06:04+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1633,6 +1633,22 @@ msgstr "కొత్త టాబ్‌నందు తెరువుము"
 msgctxt "@action:inmenu"
 msgid "Paste Into Folder"
 msgstr "ఫోల్డరు లోనికి అతికించుము"
+
+#: dolphincontextmenu.cpp:496
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "&Move to Trash"
+msgstr "ట్రాష్‌కు కదుల్చుము"
+
+#: dolphincontextmenu.cpp:499
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "&Delete"
+msgstr "తొలగించుము"
 
 #: main.cpp:35
 msgctxt "@title"
@@ -3301,13 +3317,6 @@ msgstr "గలని:"
 #~ msgctxt "@action:inmenu File"
 #~ msgid "&Rename..."
 #~ msgstr "పునఃనామకరణ..."
-
-#, fuzzy
-#~| msgctxt "@action:inmenu File"
-#~| msgid "Delete"
-#~ msgctxt "@action:inmenu File"
-#~ msgid "&Delete"
-#~ msgstr "తొలగించుము"
 
 #, fuzzy
 #~| msgctxt "@action:inmenu File"
