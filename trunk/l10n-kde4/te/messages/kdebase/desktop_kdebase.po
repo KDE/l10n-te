@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-14 04:24+0000\n"
+"POT-Creation-Date: 2010-10-15 04:46+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -7003,6 +7003,19 @@ msgctxt "Comment"
 msgid "Addons for Javascript Plasma plugins"
 msgstr ""
 
+#: runtime/plasma/scriptengines/javascript/data/plasma-scriptengine-applet-declartive.desktop:2
+msgctxt "Name"
+msgid "Declarative widget"
+msgstr ""
+
+#: runtime/plasma/scriptengines/javascript/data/plasma-scriptengine-applet-declartive.desktop:3
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Native Plasma widget written in JavaScript"
+msgctxt "Comment"
+msgid "Native Plasma widget written in QML and JavaScript"
+msgstr "జావాస్క్రిప్‍ట్‌లో వ్రాసిన నేటివ్ ప్లాజ్మా విడ్‍జ్‌ట్"
+
 #: runtime/plasma/scriptengines/javascript/data/plasma-scriptengine-applet-simple-javascript.desktop:2
 msgctxt "Name"
 msgid "JavaScript Widget"
@@ -12836,7 +12849,7 @@ msgctxt "Name"
 msgid "UPower PowerDevil Backend"
 msgstr "PowerDevil"
 
-#: workspace/powerdevil/daemon/backends/upower/powerdevilupowerbackend.desktop:9
+#: workspace/powerdevil/daemon/backends/upower/powerdevilupowerbackend.desktop:13
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Hardware power management using freedesktop.org HAL daemon"
