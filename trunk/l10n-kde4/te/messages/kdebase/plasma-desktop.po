@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-01 06:11+0100\n"
+"POT-Creation-Date: 2010-11-02 07:13+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -52,7 +52,7 @@ msgstr ""
 msgid "Add Panel"
 msgstr ""
 
-#: desktopcorona.cpp:560 plasmaapp.cpp:1326
+#: desktopcorona.cpp:569 plasmaapp.cpp:1326
 msgid "unnamed"
 msgstr ""
 
@@ -60,7 +60,7 @@ msgstr ""
 msgid "&Execute"
 msgstr ""
 
-#: interactiveconsole.cpp:68
+#: interactiveconsole.cpp:68 activitymanager/filterbar.cpp:157
 msgid "Templates"
 msgstr ""
 
@@ -273,11 +273,12 @@ msgid "Remove activity?"
 msgstr ""
 
 #: activitymanager/activitycontrols.cpp:54
-msgid "Confirm Removal"
+msgid "Remove"
 msgstr ""
 
 #: activitymanager/activitycontrols.cpp:59
-msgid "Cancel Removal"
+#: activitymanager/activitycontrols.cpp:86
+msgid "Cancel"
 msgstr ""
 
 #: activitymanager/activitycontrols.cpp:75
@@ -285,11 +286,7 @@ msgid "Accept changes?"
 msgstr ""
 
 #: activitymanager/activitycontrols.cpp:80
-msgid "Apply Changes"
-msgstr ""
-
-#: activitymanager/activitycontrols.cpp:86
-msgid "Cancel Changes"
+msgid "Apply"
 msgstr ""
 
 #: activitymanager/activityicon.cpp:305
@@ -313,15 +310,18 @@ msgstr "విడ్జెట్లని జతచేయి"
 msgid "New Activity"
 msgstr ""
 
-#: activitymanager/filterbar.cpp:193
+#: activitymanager/filterbar.cpp:168
+#, fuzzy
+#| msgid "Desktop"
+msgid "Empty Desktop"
+msgstr "రంగస్ఠలం"
+
+#: activitymanager/filterbar.cpp:203
 msgid "Clone current activity"
 msgstr ""
 
 #~ msgid "Plasma Workspace"
 #~ msgstr "ప్లాస్మా పనిప్రదేశం"
-
-#~ msgid "Desktop"
-#~ msgstr "రంగస్ఠలం"
 
 #, fuzzy
 #~| msgid "Name:"
