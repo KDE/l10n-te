@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-08 06:13+0100\n"
+"POT-Creation-Date: 2010-11-09 07:03+0100\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -2506,7 +2506,7 @@ msgctxt "@title UDS_DISPLAY_NAME for a KIO directory listing."
 msgid "Query Results"
 msgstr ""
 
-#: nepomuk/query/queryparser.cpp:379
+#: nepomuk/query/queryparser.cpp:381
 #, fuzzy
 #| msgid "Esfand"
 msgctxt ""
@@ -2517,7 +2517,7 @@ msgctxt ""
 msgid "and"
 msgstr "ఎస్ఫన్ద్"
 
-#: nepomuk/query/queryparser.cpp:388
+#: nepomuk/query/queryparser.cpp:390
 #, fuzzy
 #| msgctxt "Mordad short"
 #| msgid "Mor"
@@ -2756,7 +2756,22 @@ msgctxt "@title:column The Nepomuk resource's RDF type"
 msgid "Resource Type"
 msgstr "సేవల రకములు"
 
-#: nepomuk/utils/searchwidget.cpp:99
+#: nepomuk/utils/searchwidget.cpp:70
+#, fuzzy
+#| msgid "File"
+msgctxt "@option:check Search filter: only show files"
+msgid "Files"
+msgstr "దస్త్రం"
+
+#: nepomuk/utils/searchwidget.cpp:72
+#, fuzzy
+#| msgctxt "@item Text character set"
+#| msgid "Other"
+msgctxt "@option:check Search filter: show anything but files"
+msgid "Other"
+msgstr "ఇతర"
+
+#: nepomuk/utils/searchwidget.cpp:154
 #: kdeui/itemviews/kfilterproxysearchline.cpp:73
 #, fuzzy
 #| msgid "&Search"
@@ -2837,6 +2852,12 @@ msgctxt ""
 msgid "Custom..."
 msgstr "నిర్దేశితమైన..."
 
+#: nepomuk/utils/searchlineedit.cpp:74
+#, fuzzy
+#| msgid "Enter search phrase here"
+msgid "Enter Search Terms..."
+msgstr "శోధన పదాన్ని యిక్కడ ప్రవేశపెట్టుము"
+
 #: nepomuk/utils/dynamicresourcefacet.cpp:247
 #, fuzzy
 #| msgid "Choose..."
@@ -2863,56 +2884,60 @@ msgid "Documents"
 msgstr "పత్రం వెనుకకు"
 
 #: nepomuk/utils/facet.cpp:135
-#, fuzzy
-#| msgctxt "keyboard-key-name"
-#| msgid "Meta"
-msgctxt "option:check A filter on file type - media files"
-msgid "Media"
-msgstr "మెటా"
+msgctxt "option:check A filter on file type - audio files"
+msgid "Audio"
+msgstr ""
 
-#: nepomuk/utils/facet.cpp:141
+#: nepomuk/utils/facet.cpp:138
+#, fuzzy
+#| msgid "&View"
+msgctxt "option:check A filter on file type - media video"
+msgid "Video"
+msgstr "(&V) చూడు"
+
+#: nepomuk/utils/facet.cpp:142
 #, fuzzy
 #| msgid "Pages"
 msgctxt "option:check A filter on file type"
 msgid "Images"
 msgstr "పేజీలు"
 
-#: nepomuk/utils/facet.cpp:152
+#: nepomuk/utils/facet.cpp:153
 #, fuzzy
 #| msgid "File"
 msgctxt "option:check A filter on resource type"
 msgid "Files"
 msgstr "దస్త్రం"
 
-#: nepomuk/utils/facet.cpp:154
+#: nepomuk/utils/facet.cpp:155
 #, fuzzy
 #| msgid "Contact author"
 msgctxt "option:check A filter on resource type"
 msgid "Contacts"
 msgstr "మూలకర్తను కలవండి"
 
-#: nepomuk/utils/facet.cpp:156
+#: nepomuk/utils/facet.cpp:157
 #, fuzzy
 #| msgid "Email"
 msgctxt "option:check A filter on resource type"
 msgid "Emails"
 msgstr "ఈమెయిల్"
 
-#: nepomuk/utils/facet.cpp:158
+#: nepomuk/utils/facet.cpp:159
 #, fuzzy
 #| msgid "Task"
 msgctxt "option:check A filter on resource type"
 msgid "Tasks"
 msgstr "పని"
 
-#: nepomuk/utils/facet.cpp:160
+#: nepomuk/utils/facet.cpp:161
 #, fuzzy
 #| msgid "Task"
 msgctxt "option:check A filter on resource type"
 msgid "Tags"
 msgstr "పని"
 
-#: nepomuk/utils/facet.cpp:189
+#: nepomuk/utils/facet.cpp:190
 #, fuzzy
 #| msgid "Job Priority:"
 msgctxt ""
@@ -2920,7 +2945,7 @@ msgctxt ""
 msgid "No priority"
 msgstr "జాబ్ ప్రాముఖ్యత:"
 
-#: nepomuk/utils/facet.cpp:190
+#: nepomuk/utils/facet.cpp:191
 #, fuzzy
 #| msgid "Last modified:"
 msgctxt ""
@@ -2928,46 +2953,46 @@ msgctxt ""
 msgid "Last modified"
 msgstr "చివరిసారి మార్చబడినది:"
 
-#: nepomuk/utils/facet.cpp:191
+#: nepomuk/utils/facet.cpp:192
 msgctxt ""
 "option:radio A filter on prioritizing/sorting a selection of resources"
 msgid "Most important"
 msgstr ""
 
-#: nepomuk/utils/facet.cpp:192
+#: nepomuk/utils/facet.cpp:193
 msgctxt ""
 "option:radio A filter on prioritizing/sorting a selection of resources"
 msgid "Never opened"
 msgstr ""
 
-#: nepomuk/utils/facet.cpp:202
+#: nepomuk/utils/facet.cpp:203
 #, fuzzy
 #| msgid "Add Rating"
 msgctxt "option:radio A filter on the rating of a resource"
 msgid "Any Rating"
 msgstr "రేటింగు వెయి"
 
-#: nepomuk/utils/facet.cpp:203
+#: nepomuk/utils/facet.cpp:204
 msgctxt "option:radio A filter on the rating of a resource"
 msgid "1 or more"
 msgstr ""
 
-#: nepomuk/utils/facet.cpp:204
+#: nepomuk/utils/facet.cpp:205
 msgctxt "option:radio A filter on the rating of a resource"
 msgid "2 or more"
 msgstr ""
 
-#: nepomuk/utils/facet.cpp:205
+#: nepomuk/utils/facet.cpp:206
 msgctxt "option:radio A filter on the rating of a resource"
 msgid "3 or more"
 msgstr ""
 
-#: nepomuk/utils/facet.cpp:206
+#: nepomuk/utils/facet.cpp:207
 msgctxt "option:radio A filter on the rating of a resource"
 msgid "4 or more"
 msgstr ""
 
-#: nepomuk/utils/facet.cpp:207
+#: nepomuk/utils/facet.cpp:208
 #, fuzzy
 #| msgid "Rating: "
 msgctxt "option:radio A filter on the rating of a resource"
@@ -4258,19 +4283,19 @@ msgstr "%1 - తెలియని రకం\n"
 msgid "%1 - unknown type of userpath\n"
 msgstr "%1 - తెలియని యూజర్ దారి\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:276
+#: kdecore/kernel/kcmdlineargs.cpp:274
 msgid "Use the X-server display 'displayname'"
 msgstr "X-server 'displayname' వుపయోగించుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:278
+#: kdecore/kernel/kcmdlineargs.cpp:276
 msgid "Use the QWS display 'displayname'"
 msgstr "QWS 'displayname' వుపయోగించుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:281
+#: kdecore/kernel/kcmdlineargs.cpp:279
 msgid "Restore the application for the given 'sessionId'"
 msgstr "ఈయబడిన 'sessionId'కు అనువర్తనమును తిరిగివుంచుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:282
+#: kdecore/kernel/kcmdlineargs.cpp:280
 msgid ""
 "Causes the application to install a private color\n"
 "map on an 8-bit display"
@@ -4278,7 +4303,7 @@ msgstr ""
 "8-bit ప్రదర్శనపై వ్యక్తిగత రంగు పటమును అనువర్తనము\n"
 "సంస్థాపించుటకు కారణమౌతుంది"
 
-#: kdecore/kernel/kcmdlineargs.cpp:283
+#: kdecore/kernel/kcmdlineargs.cpp:281
 msgid ""
 "Limits the number of colors allocated in the color\n"
 "cube on an 8-bit display, if the application is\n"
@@ -4290,11 +4315,11 @@ msgstr ""
 "QApplication::ManyColor color విశదీకణను\n"
 "వుపయోగించినట్లైతే"
 
-#: kdecore/kernel/kcmdlineargs.cpp:284
+#: kdecore/kernel/kcmdlineargs.cpp:282
 msgid "tells Qt to never grab the mouse or the keyboard"
 msgstr "Qtకు ఎప్పుడూ మౌస్‌ను లేదా కీబోర్డును లాగవద్దని చెబుతుంది"
 
-#: kdecore/kernel/kcmdlineargs.cpp:285
+#: kdecore/kernel/kcmdlineargs.cpp:283
 msgid ""
 "running under a debugger can cause an implicit\n"
 "-nograb, use -dograb to override"
@@ -4302,15 +4327,15 @@ msgstr ""
 "డీబగ్గర్ క్రిందన నడుపుట అంతర్గత -nograbకు కారణం\n"
 "కావచ్చు, ఓవర్‌రైడ్ చేయుటకు -dograb వుపయోగించుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:286
+#: kdecore/kernel/kcmdlineargs.cpp:284
 msgid "switches to synchronous mode for debugging"
 msgstr "డీబగ్గింగ్ కొరకు సింక్రనస్ రీతికి స్విచ్చులు"
 
-#: kdecore/kernel/kcmdlineargs.cpp:288
+#: kdecore/kernel/kcmdlineargs.cpp:286
 msgid "defines the application font"
 msgstr "అనువర్తనము అక్షరరూపమును నిర్వచిస్తుంది"
 
-#: kdecore/kernel/kcmdlineargs.cpp:290
+#: kdecore/kernel/kcmdlineargs.cpp:288
 msgid ""
 "sets the default background color and an\n"
 "application palette (light and dark shades are\n"
@@ -4320,23 +4345,23 @@ msgstr ""
 "ప్యాలెట్‌ను అమర్చుతుంది (లేత మరియు ముదురు రంగులు\n"
 "లెక్కించబడతాయి)"
 
-#: kdecore/kernel/kcmdlineargs.cpp:292
+#: kdecore/kernel/kcmdlineargs.cpp:290
 msgid "sets the default foreground color"
 msgstr "అప్రమేయ ఫోర్‌గ్రౌండ్ రంగును అమర్చుతుంది"
 
-#: kdecore/kernel/kcmdlineargs.cpp:294
+#: kdecore/kernel/kcmdlineargs.cpp:292
 msgid "sets the default button color"
 msgstr "అప్రమేయ బటన్ రంగును పెట్టును"
 
-#: kdecore/kernel/kcmdlineargs.cpp:295
+#: kdecore/kernel/kcmdlineargs.cpp:293
 msgid "sets the application name"
 msgstr "కార్యక్రమ పేరును పెట్టును"
 
-#: kdecore/kernel/kcmdlineargs.cpp:296
+#: kdecore/kernel/kcmdlineargs.cpp:294
 msgid "sets the application title (caption)"
 msgstr "కార్యక్రమ శీర్షికను (కెప్షన్) పెట్టును"
 
-#: kdecore/kernel/kcmdlineargs.cpp:298
+#: kdecore/kernel/kcmdlineargs.cpp:296
 msgid ""
 "forces the application to use a TrueColor visual on\n"
 "an 8-bit display"
@@ -4344,7 +4369,7 @@ msgstr ""
 "8-bit ప్రదర్శనపై TrueColor విజువల్‌ను వుపయోగించుటకు\n"
 "అనువర్తనమును బలవంతముచేస్తుంది"
 
-#: kdecore/kernel/kcmdlineargs.cpp:299
+#: kdecore/kernel/kcmdlineargs.cpp:297
 msgid ""
 "sets XIM (X Input Method) input style. Possible\n"
 "values are onthespot, overthespot, offthespot and\n"
@@ -4354,27 +4379,27 @@ msgstr ""
 "విలువలు onthespot, overthespot, offthespot మరియు\n"
 "root"
 
-#: kdecore/kernel/kcmdlineargs.cpp:300
+#: kdecore/kernel/kcmdlineargs.cpp:298
 msgid "set XIM server"
 msgstr "XIM సెర్వర్ అమర్చు"
 
-#: kdecore/kernel/kcmdlineargs.cpp:301
+#: kdecore/kernel/kcmdlineargs.cpp:299
 msgid "disable XIM"
 msgstr "XIM అచేతనంచేయి"
 
-#: kdecore/kernel/kcmdlineargs.cpp:304
+#: kdecore/kernel/kcmdlineargs.cpp:302
 msgid "forces the application to run as QWS Server"
 msgstr "అనువర్తనము QWS సెర్వర్ నడుపుటకు బలవంతంచేస్తుంది"
 
-#: kdecore/kernel/kcmdlineargs.cpp:306
+#: kdecore/kernel/kcmdlineargs.cpp:304
 msgid "mirrors the whole layout of widgets"
 msgstr "మొత్తం విడ్జెట్ల కూర్పు ను అద్దంపట్టును"
 
-#: kdecore/kernel/kcmdlineargs.cpp:307
+#: kdecore/kernel/kcmdlineargs.cpp:305
 msgid "applies the Qt stylesheet to the application widgets"
 msgstr "Qt స్టైల్‌షీట్‌ను అనువర్తనము విడ్జట్‍స్‌కు వర్తింపచేస్తుంది"
 
-#: kdecore/kernel/kcmdlineargs.cpp:308
+#: kdecore/kernel/kcmdlineargs.cpp:306
 msgid ""
 "use a different graphics system instead of the default one, options are "
 "raster and opengl (experimental)"
@@ -4382,31 +4407,31 @@ msgstr ""
 "అప్రమేయంకు బదులుగా వేరే గ్రాఫిక్‍స్  సిస్టమ్‌ను వుపయోగించుము, వున్న ఐచ్చికాలు raster మరియు opengl "
 "(ప్రయోగాత్మకంగా)"
 
-#: kdecore/kernel/kcmdlineargs.cpp:310
+#: kdecore/kernel/kcmdlineargs.cpp:308
 msgid "Use 'caption' as name in the titlebar"
 msgstr "శీర్షిక పట్టి లో 'కెప్షన్' ను పేరు గా వాడు"
 
-#: kdecore/kernel/kcmdlineargs.cpp:311
+#: kdecore/kernel/kcmdlineargs.cpp:309
 msgid "Use 'icon' as the application icon"
 msgstr "'ప్రతిమ'ను అప్లికేషన్ ప్రతిమగా వాడు "
 
-#: kdecore/kernel/kcmdlineargs.cpp:312
+#: kdecore/kernel/kcmdlineargs.cpp:310
 msgid "Use alternative configuration file"
 msgstr "ప్రత్యామ్నాయ ఆకృతీకరణ దస్త్రము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:313
+#: kdecore/kernel/kcmdlineargs.cpp:311
 msgid "Disable crash handler, to get core dumps"
 msgstr "కోర్ డంప్‍స్‌ను పొందుటకు, క్రాష్ హాండ్లర్‌ను అచేతనపరచుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:315
+#: kdecore/kernel/kcmdlineargs.cpp:313
 msgid "Waits for a WM_NET compatible windowmanager"
 msgstr "WM_NET సారూప్య విండో అభికర్త కొరకు వేచివుంటుంది"
 
-#: kdecore/kernel/kcmdlineargs.cpp:317
+#: kdecore/kernel/kcmdlineargs.cpp:315
 msgid "sets the application GUI style"
 msgstr "కార్యక్రమ జియుఐ శైలిని పెట్టును"
 
-#: kdecore/kernel/kcmdlineargs.cpp:318
+#: kdecore/kernel/kcmdlineargs.cpp:316
 #, fuzzy
 #| msgid ""
 #| "sets the client geometry of the main widget - see man X for the argument "
@@ -4416,30 +4441,30 @@ msgid ""
 "format (usually WidthxHeight+XPos+YPos)"
 msgstr "ముఖ్య విడ్జట్ యొక్క క్లైంట్ జియోమెట్రీను అమర్చుతుంది - ఆర్గుమెంట్ ఫార్మాట్ కొరకు man X చూడుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:436
+#: kdecore/kernel/kcmdlineargs.cpp:434
 msgid "KDE Application"
 msgstr "కెడిఈ అప్లికేషన్:"
 
-#: kdecore/kernel/kcmdlineargs.cpp:495
+#: kdecore/kernel/kcmdlineargs.cpp:493
 msgid "Qt"
 msgstr "క్యూటి"
 
-#: kdecore/kernel/kcmdlineargs.cpp:498 khtml/khtml_part.cpp:4816
+#: kdecore/kernel/kcmdlineargs.cpp:496 khtml/khtml_part.cpp:4816
 msgid "KDE"
 msgstr "కెడిఈ"
 
-#: kdecore/kernel/kcmdlineargs.cpp:801 kdecore/kernel/kcmdlineargs.cpp:817
+#: kdecore/kernel/kcmdlineargs.cpp:799 kdecore/kernel/kcmdlineargs.cpp:815
 #, kde-format
 msgid "Unknown option '%1'."
 msgstr "తెలియని ఐచ్చికము '%1'."
 
-#: kdecore/kernel/kcmdlineargs.cpp:825
+#: kdecore/kernel/kcmdlineargs.cpp:823
 #, kde-format
 msgctxt "@info:shell %1 is cmdoption name"
 msgid "'%1' missing."
 msgstr "%1' కనబడుటలేదు."
 
-#: kdecore/kernel/kcmdlineargs.cpp:891
+#: kdecore/kernel/kcmdlineargs.cpp:889
 #, kde-format
 msgctxt ""
 "@info:shell message on appcmd --version; do not translate 'Development "
@@ -4450,7 +4475,7 @@ msgid ""
 "%3: %4\n"
 msgstr ""
 
-#: kdecore/kernel/kcmdlineargs.cpp:916
+#: kdecore/kernel/kcmdlineargs.cpp:914
 #, kde-format
 msgctxt "the 2nd argument is a list of name+address, one on each line"
 msgid ""
@@ -4460,43 +4485,43 @@ msgstr ""
 "%1 ను వ్రాసింది\n"
 "%2"
 
-#: kdecore/kernel/kcmdlineargs.cpp:919
+#: kdecore/kernel/kcmdlineargs.cpp:917
 msgid "This application was written by somebody who wants to remain anonymous."
 msgstr "ఈ కార్యక్రమాన్ని వ్రాసినవారు అజ్ఞాతంగా వుండదలచుకున్నారు"
 
-#: kdecore/kernel/kcmdlineargs.cpp:926
+#: kdecore/kernel/kcmdlineargs.cpp:924
 msgid "Please use http://bugs.kde.org to report bugs.\n"
 msgstr "తప్పులను తెలియచేయుటకు http://bugs.kde.orgని వాడండి.\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:928
+#: kdecore/kernel/kcmdlineargs.cpp:926
 #, kde-format
 msgid "Please report bugs to %1.\n"
 msgstr "%1 కు తప్పులను తెలియచేయండి.\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:965
+#: kdecore/kernel/kcmdlineargs.cpp:963
 #, kde-format
 msgid "Unexpected argument '%1'."
 msgstr "'%1' ఊహించని ఆర్గ్యుమెంట్."
 
-#: kdecore/kernel/kcmdlineargs.cpp:1089
+#: kdecore/kernel/kcmdlineargs.cpp:1087
 msgid "Use --help to get a list of available command line options."
 msgstr "అందుబాటులొ వున్న కమేండ్ లైన్ ఐచ్చికముల జాబితా తెలుసుకొవటానికి --help వాడండి"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1112
+#: kdecore/kernel/kcmdlineargs.cpp:1110
 msgid "[options] "
 msgstr "[ఐచ్ఛికములు]"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1119
+#: kdecore/kernel/kcmdlineargs.cpp:1117
 #, kde-format
 msgid "[%1-options]"
 msgstr "[%1-ఐచ్ఛికములు]"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1140
+#: kdecore/kernel/kcmdlineargs.cpp:1138
 #, kde-format
 msgid "Usage: %1 %2\n"
 msgstr "వాడుక: %1 %2\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1143
+#: kdecore/kernel/kcmdlineargs.cpp:1141
 msgid ""
 "\n"
 "Generic options:\n"
@@ -4504,36 +4529,36 @@ msgstr ""
 "\n"
 "సాధారణ ఐచ్ఛికములు:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1145
+#: kdecore/kernel/kcmdlineargs.cpp:1143
 msgid "Show help about options"
 msgstr "ఐచ్ఛికములు గురించిన సహాయము చూపుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1153
+#: kdecore/kernel/kcmdlineargs.cpp:1151
 #, kde-format
 msgid "Show %1 specific options"
 msgstr "%1 విశెష ఐచ్ఛికములు చూపుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1160
+#: kdecore/kernel/kcmdlineargs.cpp:1158
 msgid "Show all options"
 msgstr "అన్ని ఐచ్చికములు చూపుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1161
+#: kdecore/kernel/kcmdlineargs.cpp:1159
 msgid "Show author information"
 msgstr "మూలకర్త సమాచారం చూపుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1162
+#: kdecore/kernel/kcmdlineargs.cpp:1160
 msgid "Show version information"
 msgstr "వివరణం సమాచారం చూపుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1163
+#: kdecore/kernel/kcmdlineargs.cpp:1161
 msgid "Show license information"
 msgstr "లైసెన్స్ సమాచరం చూపుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1164
+#: kdecore/kernel/kcmdlineargs.cpp:1162
 msgid "End of options"
 msgstr "ఐచ్ఛికములు అయిపొయినవి"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1185
+#: kdecore/kernel/kcmdlineargs.cpp:1183
 #, kde-format
 msgid ""
 "\n"
@@ -4542,7 +4567,7 @@ msgstr ""
 "\n"
 "%1 ఐచ్ఛికములు:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1187
+#: kdecore/kernel/kcmdlineargs.cpp:1185
 msgid ""
 "\n"
 "Options:\n"
@@ -4550,7 +4575,7 @@ msgstr ""
 "\n"
 "ఐచ్ఛికములు:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1245
+#: kdecore/kernel/kcmdlineargs.cpp:1243
 msgid ""
 "\n"
 "Arguments:\n"
@@ -4558,11 +4583,11 @@ msgstr ""
 "\n"
 "ఆర్గ్యుమెంట్లు:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1599
+#: kdecore/kernel/kcmdlineargs.cpp:1597
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr "అప్లికేషన్ ద్వారా తెరచిన దస్త్రాలు/యూఆర్ఎల్లు వాడిన తరువాత తీసివేయబడును"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1600
+#: kdecore/kernel/kcmdlineargs.cpp:1598
 msgid "KDE-tempfile"
 msgstr "KDE-tempfile"
 
@@ -4987,63 +5012,63 @@ msgstr "సముదాయమైన"
 #. original. Some things you may think about changing:
 #. - the proper quotes, those used in msgid are English-standard
 #. - the <i> and <b> tags, does your language script work well with them?
-#: kdecore/localization/kuitsemantics.cpp:499
+#: kdecore/localization/kuitsemantics.cpp:501
 #, kde-format
 msgctxt "@title/plain"
 msgid "== %1 =="
 msgstr "== %1 =="
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:503
+#: kdecore/localization/kuitsemantics.cpp:505
 #, kde-format
 msgctxt "@title/rich"
 msgid "<h2>%1</h2>"
 msgstr "<h2>%1</h2>"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:509
+#: kdecore/localization/kuitsemantics.cpp:511
 #, kde-format
 msgctxt "@subtitle/plain"
 msgid "~ %1 ~"
 msgstr "~ %1 ~"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:513
+#: kdecore/localization/kuitsemantics.cpp:515
 #, kde-format
 msgctxt "@subtitle/rich"
 msgid "<h3>%1</h3>"
 msgstr "<h3>%1</h3>"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:539
+#: kdecore/localization/kuitsemantics.cpp:541
 #, kde-format
 msgctxt "@item/plain"
 msgid "  * %1"
 msgstr "  * %1"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:543
+#: kdecore/localization/kuitsemantics.cpp:545
 #, kde-format
 msgctxt "@item/rich"
 msgid "<li>%1</li>"
 msgstr "<li>%1</li>"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:549
+#: kdecore/localization/kuitsemantics.cpp:551
 #, kde-format
 msgctxt "@note/plain"
 msgid "Note: %1"
 msgstr "వ్యాఖ్య: %1"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:553
+#: kdecore/localization/kuitsemantics.cpp:555
 #, kde-format
 msgctxt "@note/rich"
 msgid "<i>Note</i>: %1"
 msgstr "<i>వ్యాఖ్య</i>: %1"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:558
+#: kdecore/localization/kuitsemantics.cpp:560
 #, kde-format
 msgctxt ""
 "@note-with-label/plain\n"
@@ -5052,7 +5077,7 @@ msgid "%1: %2"
 msgstr "%1 %2"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:563
+#: kdecore/localization/kuitsemantics.cpp:565
 #, kde-format
 msgctxt ""
 "@note-with-label/rich\n"
@@ -5061,21 +5086,21 @@ msgid "<i>%1</i>: %2"
 msgstr "<i>%1</i>: %2"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:569
+#: kdecore/localization/kuitsemantics.cpp:571
 #, kde-format
 msgctxt "@warning/plain"
 msgid "WARNING: %1"
 msgstr "హెచ్చరిక: %1"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:573
+#: kdecore/localization/kuitsemantics.cpp:575
 #, kde-format
 msgctxt "@warning/rich"
 msgid "<b>Warning</b>: %1"
 msgstr "<b>హెచ్చరిక</b>: %1"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:578
+#: kdecore/localization/kuitsemantics.cpp:580
 #, kde-format
 msgctxt ""
 "@warning-with-label/plain\n"
@@ -5084,7 +5109,7 @@ msgid "%1: %2"
 msgstr "%1 %2"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:583
+#: kdecore/localization/kuitsemantics.cpp:585
 #, kde-format
 msgctxt ""
 "@warning-with-label/rich\n"
@@ -5093,7 +5118,7 @@ msgid "<b>%1</b>: %2"
 msgstr "<b>%1</b>: %2"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:598
+#: kdecore/localization/kuitsemantics.cpp:600
 #, kde-format
 msgctxt ""
 "@link-with-description/plain\n"
@@ -5102,7 +5127,7 @@ msgid "%2 (%1)"
 msgstr "%2 (%1)"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:603
+#: kdecore/localization/kuitsemantics.cpp:605
 #, kde-format
 msgctxt ""
 "@link-with-description/rich\n"
@@ -5111,49 +5136,49 @@ msgid "<a href=\"%1\">%2</a>"
 msgstr " <a href=\"%1\">%2</a>"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:609
+#: kdecore/localization/kuitsemantics.cpp:611
 #, kde-format
 msgctxt "@filename/plain"
 msgid "‘%1’"
 msgstr "%1’"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:613
+#: kdecore/localization/kuitsemantics.cpp:615
 #, kde-format
 msgctxt "@filename/rich"
 msgid "<tt>%1</tt>"
 msgstr "<tt>%1</tt>"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:619
+#: kdecore/localization/kuitsemantics.cpp:621
 #, kde-format
 msgctxt "@application/plain"
 msgid "%1"
 msgstr "%1"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:623
+#: kdecore/localization/kuitsemantics.cpp:625
 #, kde-format
 msgctxt "@application/rich"
 msgid "%1"
 msgstr "%1"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:629
+#: kdecore/localization/kuitsemantics.cpp:631
 #, kde-format
 msgctxt "@command/plain"
 msgid "%1"
 msgstr "%1"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:633
+#: kdecore/localization/kuitsemantics.cpp:635
 #, kde-format
 msgctxt "@command/rich"
 msgid "<tt>%1</tt>"
 msgstr "<tt>%1</tt>"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:638
+#: kdecore/localization/kuitsemantics.cpp:640
 #, kde-format
 msgctxt ""
 "@command-with-section/plain\n"
@@ -5162,7 +5187,7 @@ msgid "%1(%2)"
 msgstr "%1 (%2)"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:643
+#: kdecore/localization/kuitsemantics.cpp:645
 #, kde-format
 msgctxt ""
 "@command-with-section/rich\n"
@@ -5171,77 +5196,77 @@ msgid "<tt>%1(%2)</tt>"
 msgstr "<tt>%1(%2)</tt>"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:649
+#: kdecore/localization/kuitsemantics.cpp:651
 #, kde-format
 msgctxt "@resource/plain"
 msgid "“%1”"
 msgstr "“%1”"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:653
+#: kdecore/localization/kuitsemantics.cpp:655
 #, kde-format
 msgctxt "@resource/rich"
 msgid "“%1”"
 msgstr "“%1”"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:659
+#: kdecore/localization/kuitsemantics.cpp:661
 #, kde-format
 msgctxt "@icode/plain"
 msgid "“%1”"
 msgstr "“%1”"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:663
+#: kdecore/localization/kuitsemantics.cpp:665
 #, kde-format
 msgctxt "@icode/rich"
 msgid "<tt>%1</tt>"
 msgstr "<tt>%1</tt>"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:679
+#: kdecore/localization/kuitsemantics.cpp:681
 #, kde-format
 msgctxt "@shortcut/plain"
 msgid "%1"
 msgstr "%1"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:683
+#: kdecore/localization/kuitsemantics.cpp:685
 #, kde-format
 msgctxt "@shortcut/rich"
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:689
+#: kdecore/localization/kuitsemantics.cpp:691
 #, kde-format
 msgctxt "@interface/plain"
 msgid "|%1|"
 msgstr "|%1|"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:693
+#: kdecore/localization/kuitsemantics.cpp:695
 #, kde-format
 msgctxt "@interface/rich"
 msgid "<i>%1</i>"
 msgstr "<i>%1</i>"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:699
+#: kdecore/localization/kuitsemantics.cpp:701
 #, kde-format
 msgctxt "@emphasis/plain"
 msgid "*%1*"
 msgstr "*%1*"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:703
+#: kdecore/localization/kuitsemantics.cpp:705
 #, kde-format
 msgctxt "@emphasis/rich"
 msgid "<i>%1</i>"
 msgstr "<i>%1</i>"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:707
+#: kdecore/localization/kuitsemantics.cpp:709
 #, fuzzy, kde-format
 #| msgctxt "@emphasis/plain"
 #| msgid "*%1*"
@@ -5250,7 +5275,7 @@ msgid "**%1**"
 msgstr "*%1*"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:711
+#: kdecore/localization/kuitsemantics.cpp:713
 #, fuzzy, kde-format
 #| msgctxt "@shortcut/rich"
 #| msgid "<b>%1</b>"
@@ -5259,35 +5284,35 @@ msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:717
+#: kdecore/localization/kuitsemantics.cpp:719
 #, kde-format
 msgctxt "@placeholder/plain"
 msgid "&lt;%1&gt;"
 msgstr "&lt;%1&gt;"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:721
+#: kdecore/localization/kuitsemantics.cpp:723
 #, kde-format
 msgctxt "@placeholder/rich"
 msgid "&lt;<i>%1</i>&gt;"
 msgstr "&lt;<i>%1</i>&gt;"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:727
+#: kdecore/localization/kuitsemantics.cpp:729
 #, kde-format
 msgctxt "@email/plain"
 msgid "&lt;%1&gt;"
 msgstr "&lt;%1&gt;"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:731
+#: kdecore/localization/kuitsemantics.cpp:733
 #, kde-format
 msgctxt "@email/rich"
 msgid "&lt;<a href=\"mailto:%1\">%1</a>&gt;"
 msgstr "&lt;<a href=\"mailto:%1\">%1</a>&gt;"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:736
+#: kdecore/localization/kuitsemantics.cpp:738
 #, kde-format
 msgctxt ""
 "@email-with-name/plain\n"
@@ -5296,7 +5321,7 @@ msgid "%1 &lt;%2&gt;"
 msgstr "%1 &lt;%2&gt;"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:741
+#: kdecore/localization/kuitsemantics.cpp:743
 #, kde-format
 msgctxt ""
 "@email-with-name/rich\n"
@@ -5305,28 +5330,28 @@ msgid "<a href=\"mailto:%2\">%1</a>"
 msgstr "<a href=\"mailto:%2\">%1</a>"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:747
+#: kdecore/localization/kuitsemantics.cpp:749
 #, kde-format
 msgctxt "@envar/plain"
 msgid "$%1"
 msgstr "$%1"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:751
+#: kdecore/localization/kuitsemantics.cpp:753
 #, kde-format
 msgctxt "@envar/rich"
 msgid "<tt>$%1</tt>"
 msgstr "<tt>$%1</tt>"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:757
+#: kdecore/localization/kuitsemantics.cpp:759
 #, kde-format
 msgctxt "@message/plain"
 msgid "/%1/"
 msgstr "/%1/"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
-#: kdecore/localization/kuitsemantics.cpp:761
+#: kdecore/localization/kuitsemantics.cpp:763
 #, kde-format
 msgctxt "@message/rich"
 msgid "<i>%1</i>"
@@ -5334,224 +5359,224 @@ msgstr "<i>%1</i>"
 
 #. i18n: Decide which string is used to delimit keys in a keyboard
 #. shortcut (e.g. + in Ctrl+Alt+Tab) in plain text.
-#: kdecore/localization/kuitsemantics.cpp:782
+#: kdecore/localization/kuitsemantics.cpp:784
 msgctxt "shortcut-key-delimiter/plain"
 msgid "+"
 msgstr "+"
 
 #. i18n: Decide which string is used to delimit keys in a keyboard
 #. shortcut (e.g. + in Ctrl+Alt+Tab) in rich text.
-#: kdecore/localization/kuitsemantics.cpp:786
+#: kdecore/localization/kuitsemantics.cpp:788
 msgctxt "shortcut-key-delimiter/rich"
 msgid "+"
 msgstr "+"
 
 #. i18n: Decide which string is used to delimit elements in a GUI path
 #. (e.g. -> in "Go to Settings->Advanced->Core tab.") in plain text.
-#: kdecore/localization/kuitsemantics.cpp:790
+#: kdecore/localization/kuitsemantics.cpp:792
 msgctxt "gui-path-delimiter/plain"
 msgid "→"
 msgstr "→"
 
 #. i18n: Decide which string is used to delimit elements in a GUI path
 #. (e.g. -> in "Go to Settings->Advanced->Core tab.") in rich text.
-#: kdecore/localization/kuitsemantics.cpp:794
+#: kdecore/localization/kuitsemantics.cpp:796
 msgctxt "gui-path-delimiter/rich"
 msgid "→"
 msgstr "→"
 
-#: kdecore/localization/kuitsemantics.cpp:809
+#: kdecore/localization/kuitsemantics.cpp:811
 msgctxt "keyboard-key-name"
 msgid "Alt"
 msgstr "Alt"
 
-#: kdecore/localization/kuitsemantics.cpp:810
+#: kdecore/localization/kuitsemantics.cpp:812
 msgctxt "keyboard-key-name"
 msgid "AltGr"
 msgstr "AltGr"
 
-#: kdecore/localization/kuitsemantics.cpp:811
+#: kdecore/localization/kuitsemantics.cpp:813
 msgctxt "keyboard-key-name"
 msgid "Backspace"
 msgstr "Backspace"
 
-#: kdecore/localization/kuitsemantics.cpp:812
+#: kdecore/localization/kuitsemantics.cpp:814
 msgctxt "keyboard-key-name"
 msgid "CapsLock"
 msgstr "CapsLock"
 
-#: kdecore/localization/kuitsemantics.cpp:813
+#: kdecore/localization/kuitsemantics.cpp:815
 msgctxt "keyboard-key-name"
 msgid "Control"
 msgstr "నియంత్రణ"
 
-#: kdecore/localization/kuitsemantics.cpp:814
+#: kdecore/localization/kuitsemantics.cpp:816
 msgctxt "keyboard-key-name"
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: kdecore/localization/kuitsemantics.cpp:815
+#: kdecore/localization/kuitsemantics.cpp:817
 msgctxt "keyboard-key-name"
 msgid "Del"
 msgstr "Del"
 
-#: kdecore/localization/kuitsemantics.cpp:816
+#: kdecore/localization/kuitsemantics.cpp:818
 msgctxt "keyboard-key-name"
 msgid "Delete"
 msgstr "Delete"
 
-#: kdecore/localization/kuitsemantics.cpp:817
+#: kdecore/localization/kuitsemantics.cpp:819
 msgctxt "keyboard-key-name"
 msgid "Down"
 msgstr "క్రింద"
 
-#: kdecore/localization/kuitsemantics.cpp:818
+#: kdecore/localization/kuitsemantics.cpp:820
 msgctxt "keyboard-key-name"
 msgid "End"
 msgstr "ముగింపు"
 
-#: kdecore/localization/kuitsemantics.cpp:819
+#: kdecore/localization/kuitsemantics.cpp:821
 msgctxt "keyboard-key-name"
 msgid "Enter"
 msgstr "ఎంటర్"
 
-#: kdecore/localization/kuitsemantics.cpp:820
+#: kdecore/localization/kuitsemantics.cpp:822
 msgctxt "keyboard-key-name"
 msgid "Esc"
 msgstr "Esc"
 
-#: kdecore/localization/kuitsemantics.cpp:821
+#: kdecore/localization/kuitsemantics.cpp:823
 msgctxt "keyboard-key-name"
 msgid "Escape"
 msgstr "ఎస్కేప్"
 
-#: kdecore/localization/kuitsemantics.cpp:822
+#: kdecore/localization/kuitsemantics.cpp:824
 msgctxt "keyboard-key-name"
 msgid "Home"
 msgstr "గృహము"
 
-#: kdecore/localization/kuitsemantics.cpp:823
+#: kdecore/localization/kuitsemantics.cpp:825
 msgctxt "keyboard-key-name"
 msgid "Hyper"
 msgstr "హైపర్"
 
-#: kdecore/localization/kuitsemantics.cpp:824
+#: kdecore/localization/kuitsemantics.cpp:826
 msgctxt "keyboard-key-name"
 msgid "Ins"
 msgstr "Ins"
 
-#: kdecore/localization/kuitsemantics.cpp:825
+#: kdecore/localization/kuitsemantics.cpp:827
 msgctxt "keyboard-key-name"
 msgid "Insert"
 msgstr "చేర్చు"
 
-#: kdecore/localization/kuitsemantics.cpp:826
+#: kdecore/localization/kuitsemantics.cpp:828
 msgctxt "keyboard-key-name"
 msgid "Left"
 msgstr "ఎడమ"
 
-#: kdecore/localization/kuitsemantics.cpp:827
+#: kdecore/localization/kuitsemantics.cpp:829
 msgctxt "keyboard-key-name"
 msgid "Menu"
 msgstr "పట్టీ"
 
-#: kdecore/localization/kuitsemantics.cpp:828
+#: kdecore/localization/kuitsemantics.cpp:830
 msgctxt "keyboard-key-name"
 msgid "Meta"
 msgstr "మెటా"
 
-#: kdecore/localization/kuitsemantics.cpp:829
+#: kdecore/localization/kuitsemantics.cpp:831
 msgctxt "keyboard-key-name"
 msgid "NumLock"
 msgstr "NumLock"
 
-#: kdecore/localization/kuitsemantics.cpp:830
+#: kdecore/localization/kuitsemantics.cpp:832
 msgctxt "keyboard-key-name"
 msgid "PageDown"
 msgstr "PageDown"
 
-#: kdecore/localization/kuitsemantics.cpp:831
+#: kdecore/localization/kuitsemantics.cpp:833
 msgctxt "keyboard-key-name"
 msgid "PageUp"
 msgstr "PageUp"
 
-#: kdecore/localization/kuitsemantics.cpp:832
+#: kdecore/localization/kuitsemantics.cpp:834
 msgctxt "keyboard-key-name"
 msgid "PgDown"
 msgstr "PgDown"
 
-#: kdecore/localization/kuitsemantics.cpp:833
+#: kdecore/localization/kuitsemantics.cpp:835
 msgctxt "keyboard-key-name"
 msgid "PgUp"
 msgstr "PgUp"
 
-#: kdecore/localization/kuitsemantics.cpp:834
+#: kdecore/localization/kuitsemantics.cpp:836
 msgctxt "keyboard-key-name"
 msgid "PauseBreak"
 msgstr "పాజ్ బ్రెక్"
 
-#: kdecore/localization/kuitsemantics.cpp:835
+#: kdecore/localization/kuitsemantics.cpp:837
 msgctxt "keyboard-key-name"
 msgid "PrintScreen"
 msgstr "స్క్రీన్ ప్రచురించు"
 
-#: kdecore/localization/kuitsemantics.cpp:836
+#: kdecore/localization/kuitsemantics.cpp:838
 msgctxt "keyboard-key-name"
 msgid "PrtScr"
 msgstr "PrtScr"
 
-#: kdecore/localization/kuitsemantics.cpp:837
+#: kdecore/localization/kuitsemantics.cpp:839
 msgctxt "keyboard-key-name"
 msgid "Return"
 msgstr "Return"
 
-#: kdecore/localization/kuitsemantics.cpp:838
+#: kdecore/localization/kuitsemantics.cpp:840
 msgctxt "keyboard-key-name"
 msgid "Right"
 msgstr "కుడి"
 
-#: kdecore/localization/kuitsemantics.cpp:839
+#: kdecore/localization/kuitsemantics.cpp:841
 msgctxt "keyboard-key-name"
 msgid "ScrollLock"
 msgstr "ScrollLock"
 
-#: kdecore/localization/kuitsemantics.cpp:840
+#: kdecore/localization/kuitsemantics.cpp:842
 msgctxt "keyboard-key-name"
 msgid "Shift"
 msgstr "Shift"
 
-#: kdecore/localization/kuitsemantics.cpp:841
+#: kdecore/localization/kuitsemantics.cpp:843
 msgctxt "keyboard-key-name"
 msgid "Space"
 msgstr "ఖాళి"
 
-#: kdecore/localization/kuitsemantics.cpp:842
+#: kdecore/localization/kuitsemantics.cpp:844
 msgctxt "keyboard-key-name"
 msgid "Super"
 msgstr "సూపర్"
 
-#: kdecore/localization/kuitsemantics.cpp:843
+#: kdecore/localization/kuitsemantics.cpp:845
 msgctxt "keyboard-key-name"
 msgid "SysReq"
 msgstr "SysReq"
 
-#: kdecore/localization/kuitsemantics.cpp:844
+#: kdecore/localization/kuitsemantics.cpp:846
 msgctxt "keyboard-key-name"
 msgid "Tab"
 msgstr "టెబ్"
 
-#: kdecore/localization/kuitsemantics.cpp:845
+#: kdecore/localization/kuitsemantics.cpp:847
 msgctxt "keyboard-key-name"
 msgid "Up"
 msgstr "పైకి"
 
-#: kdecore/localization/kuitsemantics.cpp:846
+#: kdecore/localization/kuitsemantics.cpp:848
 msgctxt "keyboard-key-name"
 msgid "Win"
 msgstr "Win"
 
 #. i18n: Pattern for the function keys.
-#: kdecore/localization/kuitsemantics.cpp:850
+#: kdecore/localization/kuitsemantics.cpp:852
 #, kde-format
 msgctxt "keyboard-key-name"
 msgid "F%1"
@@ -10842,20 +10867,7 @@ msgstr "దానంతటదే కనిపెట్టు"
 msgid "Desktop %1"
 msgstr "రంగస్థలం %1"
 
-#: kdeui/xmlgui/ktoolbarhandler.cpp:120
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "Show Toolbar"
-msgid "Show Toolbar"
-msgstr "పనిముట్ల పట్టీ చూపుము"
-
-#: kdeui/xmlgui/ktoolbarhandler.cpp:120
-#, fuzzy
-#| msgid "HTML Toolbar"
-msgid "Hide Toolbar"
-msgstr "హెచ్ టిఎంఎల్ పనిముట్ల పట్టీ"
-
-#: kdeui/xmlgui/ktoolbarhandler.cpp:135
+#: kdeui/xmlgui/ktoolbarhandler.cpp:98
 #, fuzzy
 #| msgid "Toolbars"
 msgid "Toolbars Shown"
@@ -13692,6 +13704,24 @@ msgstr "పూర్వాహ్నము"
 #: kdecore/date/kdatetime.cpp:2882
 msgid "pm"
 msgstr "మధ్యాహ్నము"
+
+#, fuzzy
+#~| msgctxt "keyboard-key-name"
+#~| msgid "Meta"
+#~ msgctxt "option:check A filter on file type - media files"
+#~ msgid "Media"
+#~ msgstr "మెటా"
+
+#, fuzzy
+#~| msgctxt "@action"
+#~| msgid "Show Toolbar"
+#~ msgid "Show Toolbar"
+#~ msgstr "పనిముట్ల పట్టీ చూపుము"
+
+#, fuzzy
+#~| msgid "HTML Toolbar"
+#~ msgid "Hide Toolbar"
+#~ msgstr "హెచ్ టిఎంఎల్ పనిముట్ల పట్టీ"
 
 #~ msgid "..."
 #~ msgstr "..."
