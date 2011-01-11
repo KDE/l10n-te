@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-26 02:55+0100\n"
+"POT-Creation-Date: 2011-01-11 02:36+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -361,13 +361,6 @@ msgctxt "... host"
 msgid "X login on %1"
 msgstr ""
 
-#: kdmconfig.cpp:131
-msgctxt ""
-"@item:intext substitution for an undefined %X placeholder wrongly given in "
-"the config file 'kdmrc', telling the user to fix it"
-msgid "[fix kdmrc]"
-msgstr ""
-
 #: krootimage.cpp:330
 msgid "KRootImage"
 msgstr ""
@@ -378,6 +371,13 @@ msgstr ""
 
 #: krootimage.cpp:334
 msgid "Name of the configuration file"
+msgstr ""
+
+#: kdmconfig.cpp:131
+msgctxt ""
+"@item:intext substitution for an undefined %X placeholder wrongly given in "
+"the config file 'kdmrc', telling the user to fix it"
+msgid "[fix kdmrc]"
 msgstr ""
 
 #: kgreeter.cpp:482
@@ -448,16 +448,6 @@ msgstr ""
 msgid "Login failed"
 msgstr ""
 
-#: kconsole.cpp:70
-msgid "*** Cannot connect to console log ***"
-msgstr ""
-
-#: kconsole.cpp:154
-msgid ""
-"\n"
-"*** Lost connection with console log ***"
-msgstr ""
-
 #: kchooser.cpp:59
 msgctxt "@action:inmenu"
 msgid "&Local Login"
@@ -505,6 +495,16 @@ msgstr ""
 #: kchooser.cpp:242
 #, kde-format
 msgid "Unknown host %1"
+msgstr ""
+
+#: kconsole.cpp:70
+msgid "*** Cannot connect to console log ***"
+msgstr ""
+
+#: kconsole.cpp:154
+msgid ""
+"\n"
+"*** Lost connection with console log ***"
 msgstr ""
 
 #: kgverify.cpp:187

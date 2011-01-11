@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-26 02:55+0100\n"
+"POT-Creation-Date: 2011-01-11 02:35+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -24,93 +24,6 @@ msgstr ""
 "\n"
 "\n"
 "\n"
-
-#: kbookmarkmodel/model.cpp:118
-#, fuzzy
-#| msgid "Bookmarks"
-msgctxt "name of the container of all browser bookmarks"
-msgid "Bookmarks"
-msgstr "పేజి గుర్తులు"
-
-#: kbookmarkmodel/model.cpp:222
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@title:column name of a bookmark"
-msgid "Name"
-msgstr "పేరు:"
-
-#: kbookmarkmodel/model.cpp:226
-#, fuzzy
-#| msgid "Location:"
-msgctxt "@title:column name of a bookmark"
-msgid "Location"
-msgstr "స్థానము:"
-
-#: kbookmarkmodel/model.cpp:230
-#, fuzzy
-#| msgid "Comment"
-msgctxt "@title:column comment for a bookmark"
-msgid "Comment"
-msgstr "వ్యాఖ్యానము"
-
-#: kbookmarkmodel/model.cpp:234
-#, fuzzy
-#| msgid "Status"
-msgctxt "@title:column status of a bookmark"
-msgid "Status"
-msgstr "స్థితి"
-
-#: kbookmarkmodel/commands.cpp:68
-msgid "Insert Separator"
-msgstr ""
-
-#: kbookmarkmodel/commands.cpp:77
-msgid "Create Bookmark"
-msgstr ""
-
-#: kbookmarkmodel/commands.cpp:86
-msgid "Create Folder"
-msgstr ""
-
-#: kbookmarkmodel/commands.cpp:95
-#, kde-format
-msgid "Copy %1"
-msgstr ""
-
-#: kbookmarkmodel/commands.cpp:183
-msgid "Icon Change"
-msgstr ""
-
-#: kbookmarkmodel/commands.cpp:185
-msgid "Title Change"
-msgstr ""
-
-#: kbookmarkmodel/commands.cpp:187
-msgid "URL Change"
-msgstr ""
-
-#: kbookmarkmodel/commands.cpp:189
-#, fuzzy
-#| msgid "Comment"
-msgid "Comment Change"
-msgstr "వ్యాఖ్యానము"
-
-#: kbookmarkmodel/commands.cpp:359
-#, kde-format
-msgid "Move %1"
-msgstr ""
-
-#: kbookmarkmodel/commands.cpp:476
-msgid "Set as Bookmark Toolbar"
-msgstr ""
-
-#: kbookmarkmodel/commands.cpp:512
-msgid "Copy Items"
-msgstr ""
-
-#: kbookmarkmodel/commands.cpp:513
-msgid "Move Items"
-msgstr ""
 
 #: kebsearchline.cpp:273
 msgid "Search Columns"
@@ -290,30 +203,6 @@ msgstr ""
 msgid "*.xml|KDE Bookmark Files (*.xml)"
 msgstr ""
 
-#: bookmarkinfowidget.cpp:246
-msgid "Name:"
-msgstr "పేరు:"
-
-#: bookmarkinfowidget.cpp:254
-msgid "Location:"
-msgstr "స్థానము:"
-
-#: bookmarkinfowidget.cpp:262
-msgid "Comment:"
-msgstr ""
-
-#: bookmarkinfowidget.cpp:269
-msgid "First viewed:"
-msgstr ""
-
-#: bookmarkinfowidget.cpp:272
-msgid "Viewed last:"
-msgstr ""
-
-#: bookmarkinfowidget.cpp:275
-msgid "Times visited:"
-msgstr ""
-
 #: favicons.cpp:56 testlink.cpp:97
 msgid "OK"
 msgstr ""
@@ -322,9 +211,28 @@ msgstr ""
 msgid "Updating favicon..."
 msgstr ""
 
-#: faviconupdater.cpp:87
-#, kde-format
-msgid "%1; no HTML component found (%2)"
+#: kbookmarkmerger.cpp:39
+msgid "KBookmarkMerger"
+msgstr ""
+
+#: kbookmarkmerger.cpp:40
+msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
+msgstr ""
+
+#: kbookmarkmerger.cpp:42
+msgid "Copyright © 2005 Frerich Raabe"
+msgstr ""
+
+#: kbookmarkmerger.cpp:43
+msgid "Frerich Raabe"
+msgstr ""
+
+#: kbookmarkmerger.cpp:43
+msgid "Original author"
+msgstr "వాస్తవ మూలకర్త"
+
+#: kbookmarkmerger.cpp:49
+msgid "Directory to scan for extra bookmarks"
 msgstr ""
 
 #: actionsimpl.cpp:97
@@ -481,30 +389,6 @@ msgstr ""
 msgid "Delete Items"
 msgstr ""
 
-#: kbookmarkmerger.cpp:39
-msgid "KBookmarkMerger"
-msgstr ""
-
-#: kbookmarkmerger.cpp:40
-msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
-msgstr ""
-
-#: kbookmarkmerger.cpp:42
-msgid "Copyright © 2005 Frerich Raabe"
-msgstr ""
-
-#: kbookmarkmerger.cpp:43
-msgid "Frerich Raabe"
-msgstr ""
-
-#: kbookmarkmerger.cpp:43
-msgid "Original author"
-msgstr "వాస్తవ మూలకర్త"
-
-#: kbookmarkmerger.cpp:49
-msgid "Directory to scan for extra bookmarks"
-msgstr ""
-
 #: importers.h:102
 msgid "Galeon"
 msgstr "గెలియాన్"
@@ -535,6 +419,122 @@ msgstr ""
 
 #: testlink.cpp:76
 msgid "Checking..."
+msgstr ""
+
+#: bookmarkinfowidget.cpp:246
+msgid "Name:"
+msgstr "పేరు:"
+
+#: bookmarkinfowidget.cpp:254
+msgid "Location:"
+msgstr "స్థానము:"
+
+#: bookmarkinfowidget.cpp:262
+msgid "Comment:"
+msgstr ""
+
+#: bookmarkinfowidget.cpp:269
+msgid "First viewed:"
+msgstr ""
+
+#: bookmarkinfowidget.cpp:272
+msgid "Viewed last:"
+msgstr ""
+
+#: bookmarkinfowidget.cpp:275
+msgid "Times visited:"
+msgstr ""
+
+#: kbookmarkmodel/model.cpp:118
+#, fuzzy
+#| msgid "Bookmarks"
+msgctxt "name of the container of all browser bookmarks"
+msgid "Bookmarks"
+msgstr "పేజి గుర్తులు"
+
+#: kbookmarkmodel/model.cpp:222
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@title:column name of a bookmark"
+msgid "Name"
+msgstr "పేరు:"
+
+#: kbookmarkmodel/model.cpp:226
+#, fuzzy
+#| msgid "Location:"
+msgctxt "@title:column name of a bookmark"
+msgid "Location"
+msgstr "స్థానము:"
+
+#: kbookmarkmodel/model.cpp:230
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@title:column comment for a bookmark"
+msgid "Comment"
+msgstr "వ్యాఖ్యానము"
+
+#: kbookmarkmodel/model.cpp:234
+#, fuzzy
+#| msgid "Status"
+msgctxt "@title:column status of a bookmark"
+msgid "Status"
+msgstr "స్థితి"
+
+#: kbookmarkmodel/commands.cpp:68
+msgid "Insert Separator"
+msgstr ""
+
+#: kbookmarkmodel/commands.cpp:77
+msgid "Create Bookmark"
+msgstr ""
+
+#: kbookmarkmodel/commands.cpp:86
+msgid "Create Folder"
+msgstr ""
+
+#: kbookmarkmodel/commands.cpp:95
+#, kde-format
+msgid "Copy %1"
+msgstr ""
+
+#: kbookmarkmodel/commands.cpp:183
+msgid "Icon Change"
+msgstr ""
+
+#: kbookmarkmodel/commands.cpp:185
+msgid "Title Change"
+msgstr ""
+
+#: kbookmarkmodel/commands.cpp:187
+msgid "URL Change"
+msgstr ""
+
+#: kbookmarkmodel/commands.cpp:189
+#, fuzzy
+#| msgid "Comment"
+msgid "Comment Change"
+msgstr "వ్యాఖ్యానము"
+
+#: kbookmarkmodel/commands.cpp:359
+#, kde-format
+msgid "Move %1"
+msgstr ""
+
+#: kbookmarkmodel/commands.cpp:476
+msgid "Set as Bookmark Toolbar"
+msgstr ""
+
+#: kbookmarkmodel/commands.cpp:512
+msgid "Copy Items"
+msgstr ""
+
+#: kbookmarkmodel/commands.cpp:513
+msgid "Move Items"
+msgstr ""
+
+#: faviconupdater.cpp:87
+#, kde-format
+msgid "%1; no HTML component found (%2)"
 msgstr ""
 
 #: rc.cpp:1

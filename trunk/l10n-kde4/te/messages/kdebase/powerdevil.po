@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-08 02:21+0100\n"
+"POT-Creation-Date: 2011-01-11 02:36+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -42,47 +42,27 @@ msgctxt "Brightness level, label for the slider"
 msgid "Level"
 msgstr ""
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:75
-msgid "Do nothing"
-msgstr ""
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:77
 #: actions/bundled/suspendsessionconfig.cpp:80
+#: actions/bundled/handlebuttoneventsconfig.cpp:77
 msgid "Sleep"
 msgstr ""
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:80
 #: actions/bundled/suspendsessionconfig.cpp:83
+#: actions/bundled/handlebuttoneventsconfig.cpp:80
 msgid "Hibernate"
 msgstr ""
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:82
 #: actions/bundled/suspendsessionconfig.cpp:85
+#: actions/bundled/handlebuttoneventsconfig.cpp:82
 msgid "Shutdown"
 msgstr "మూసివేయి"
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:83
 #: actions/bundled/suspendsessionconfig.cpp:86
+#: actions/bundled/handlebuttoneventsconfig.cpp:83
 #, fuzzy
 #| msgid "Lock Screen"
 msgid "Lock screen"
 msgstr "స్క్రీన్ లాక్‌చేయుము"
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:85
-msgid "Prompt log out dialog"
-msgstr ""
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:87
-msgid "Turn off screen"
-msgstr ""
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:95
-msgid "When laptop lid closed"
-msgstr ""
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:96
-msgid "When power button pressed"
-msgstr ""
 
 #: actions/bundled/suspendsessionconfig.cpp:95
 #: actions/bundled/runscriptconfig.cpp:83
@@ -118,6 +98,26 @@ msgstr ""
 
 #: actions/bundled/suspendsession.cpp:114
 msgid "The screen is being locked"
+msgstr ""
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:75
+msgid "Do nothing"
+msgstr ""
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:85
+msgid "Prompt log out dialog"
+msgstr ""
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:87
+msgid "Turn off screen"
+msgstr ""
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:95
+msgid "When laptop lid closed"
+msgstr ""
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:96
+msgid "When power button pressed"
 msgstr ""
 
 #: backends/upower/upowersuspendjob.cpp:76
@@ -247,8 +247,8 @@ msgstr ""
 
 #: powerdevilcore.cpp:422
 msgid ""
-"The power adaptor has been plugged in - all pending suspend actions have "
-"been cancelled"
+"The power adaptor has been plugged in – all pending suspend actions have "
+"been cancelled."
 msgstr ""
 
 #: powerdevilcore.cpp:424
