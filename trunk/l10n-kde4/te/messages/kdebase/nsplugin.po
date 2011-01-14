@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nsplugin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-28 06:07+0200\n"
+"POT-Creation-Date: 2011-01-14 02:20+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -28,20 +28,22 @@ msgstr ""
 msgid "Start Plugin"
 msgstr "ప్లగిన్ ని మొదలు పెట్టండి"
 
-#: plugin_part.cpp:188
-msgid "plugin"
-msgstr "ప్లగిన్"
+#: plugin_part.cpp:170
+#, fuzzy
+#| msgid "Netscape plugin viewer"
+msgid "Netscape Plugin"
+msgstr "నెట్స్కేప్ యొక్క ప్లగిన్ చూసే కార్యక్షేత్రం"
 
-#: plugin_part.cpp:220
+#: plugin_part.cpp:212
 msgid "&Save As..."
 msgstr "(&S) ఇలా దాచు"
 
-#: plugin_part.cpp:299
+#: plugin_part.cpp:291
 #, kde-format
 msgid "Loading Netscape plugin for %1"
 msgstr "%1 కొరకు నెట్ స్కేప్ ప్లగిన్ ను ఎక్కించు"
 
-#: plugin_part.cpp:311
+#: plugin_part.cpp:303
 #, kde-format
 msgid "Unable to load Netscape plugin for %1"
 msgstr "%1 కి నెట్ స్కేప్  ప్లగిన్ ఎక్కించ చేయలేక పోయాము"
@@ -108,6 +110,9 @@ msgstr "%1 ని కోరుచున్నాము"
 #: viewer/viewer.cpp:102
 msgid "nspluginviewer"
 msgstr "ఎన్ ఎస్ ప్లగిన్ వీక్షిణి"
+
+#~ msgid "plugin"
+#~ msgstr "ప్లగిన్"
 
 #~ msgid "Netscape plugin mimeinfo"
 #~ msgstr "నెట్స్కేప్  ప్లగిన్ యొక్క మైమ్ సమాచారం"
