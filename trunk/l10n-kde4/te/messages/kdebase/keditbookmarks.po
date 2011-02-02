@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-11 02:35+0100\n"
+"POT-Creation-Date: 2011-02-02 03:05+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -24,216 +24,6 @@ msgstr ""
 "\n"
 "\n"
 "\n"
-
-#: kebsearchline.cpp:273
-msgid "Search Columns"
-msgstr ""
-
-#: kebsearchline.cpp:276
-msgid "All Visible Columns"
-msgstr ""
-
-#: kebsearchline.cpp:285
-#, kde-format
-msgctxt "Column number %1"
-msgid "Column No. %1"
-msgstr ""
-
-#: kebsearchline.cpp:680
-msgid "S&earch:"
-msgstr ""
-
-#: main.cpp:68
-#, kde-format
-msgid ""
-"Another instance of %1 is already running. Do you really want to open "
-"another instance or continue work in the same instance?\n"
-"Please note that, unfortunately, duplicate views are read-only."
-msgstr ""
-
-#: main.cpp:71
-msgid "Warning"
-msgstr "హెచ్చరిక"
-
-#: main.cpp:72
-msgid "Run Another"
-msgstr ""
-
-#: main.cpp:73
-msgid "Continue in Same"
-msgstr ""
-
-#: main.cpp:96
-msgid "Bookmark Editor"
-msgstr ""
-
-#: main.cpp:97
-msgid "Bookmark Organizer and Editor"
-msgstr ""
-
-#: main.cpp:99
-msgid "Copyright 2000-2007, KDE developers"
-msgstr ""
-
-#: main.cpp:100
-msgid "David Faure"
-msgstr "డెవిడ్ ఫారె"
-
-#: main.cpp:100
-msgid "Initial author"
-msgstr ""
-
-#: main.cpp:101
-msgid "Alexander Kellett"
-msgstr ""
-
-#: main.cpp:101
-msgid "Author"
-msgstr "మూలకర్త"
-
-#: main.cpp:108
-msgid "Import bookmarks from a file in Mozilla format"
-msgstr ""
-
-#: main.cpp:109
-msgid "Import bookmarks from a file in Netscape (4.x and earlier) format"
-msgstr ""
-
-#: main.cpp:110
-msgid "Import bookmarks from a file in Internet Explorer's Favorites format"
-msgstr ""
-
-#: main.cpp:111
-msgid "Import bookmarks from a file in Opera format"
-msgstr ""
-
-#: main.cpp:112
-msgid "Import bookmarks from a file in KDE2 format"
-msgstr ""
-
-#: main.cpp:113
-msgid "Import bookmarks from a file in Galeon format"
-msgstr ""
-
-#: main.cpp:114
-msgid "Export bookmarks to a file in Mozilla format"
-msgstr ""
-
-#: main.cpp:115
-msgid "Export bookmarks to a file in Netscape (4.x and earlier) format"
-msgstr ""
-
-#: main.cpp:116
-msgid "Export bookmarks to a file in a printable HTML format"
-msgstr ""
-
-#: main.cpp:117
-msgid "Export bookmarks to a file in Internet Explorer's Favorites format"
-msgstr ""
-
-#: main.cpp:118
-msgid "Export bookmarks to a file in Opera format"
-msgstr ""
-
-#: main.cpp:119
-msgid "Open at the given position in the bookmarks file"
-msgstr ""
-
-#: main.cpp:120
-msgid "Set the user-readable caption, for example \"Konsole\""
-msgstr ""
-
-#: main.cpp:121
-msgid "Hide all browser related functions"
-msgstr ""
-
-#: main.cpp:122
-msgid ""
-"A unique name that represents this bookmark collection, usually the "
-"kinstance name.\n"
-"This should be \"konqueror\" for the Konqueror bookmarks, \"kfile\" for "
-"KFileDialog bookmarks, etc.\n"
-"The final D-Bus object path is /KBookmarkManager/dbusObjectName"
-msgstr ""
-
-#: main.cpp:125
-msgid "File to edit"
-msgstr ""
-
-#: main.cpp:166
-msgid "You may only specify a single --export option."
-msgstr ""
-
-#: main.cpp:171
-msgid "You may only specify a single --import option."
-msgstr ""
-
-#: importers.cpp:56
-#, kde-format
-msgid "Import %1 Bookmarks"
-msgstr ""
-
-#: importers.cpp:60
-#, kde-format
-msgid "%1 Bookmarks"
-msgstr ""
-
-#: importers.cpp:92
-msgid "Import as a new subfolder or replace all the current bookmarks?"
-msgstr ""
-
-#: importers.cpp:93
-#, kde-format
-msgid "%1 Import"
-msgstr ""
-
-#: importers.cpp:94
-msgid "As New Folder"
-msgstr ""
-
-#: importers.cpp:94
-msgid "Replace"
-msgstr "పునఃస్థాపించు"
-
-#: importers.cpp:199
-msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
-msgstr ""
-
-#: importers.cpp:208
-msgid "*.xml|KDE Bookmark Files (*.xml)"
-msgstr ""
-
-#: favicons.cpp:56 testlink.cpp:97
-msgid "OK"
-msgstr ""
-
-#: favicons.cpp:72
-msgid "Updating favicon..."
-msgstr ""
-
-#: kbookmarkmerger.cpp:39
-msgid "KBookmarkMerger"
-msgstr ""
-
-#: kbookmarkmerger.cpp:40
-msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
-msgstr ""
-
-#: kbookmarkmerger.cpp:42
-msgid "Copyright © 2005 Frerich Raabe"
-msgstr ""
-
-#: kbookmarkmerger.cpp:43
-msgid "Frerich Raabe"
-msgstr ""
-
-#: kbookmarkmerger.cpp:43
-msgid "Original author"
-msgstr "వాస్తవ మూలకర్త"
-
-#: kbookmarkmerger.cpp:49
-msgid "Directory to scan for extra bookmarks"
-msgstr ""
 
 #: actionsimpl.cpp:97
 msgid "&Delete"
@@ -389,38 +179,6 @@ msgstr ""
 msgid "Delete Items"
 msgstr ""
 
-#: importers.h:102
-msgid "Galeon"
-msgstr "గెలియాన్"
-
-#: importers.h:112
-msgid "KDE"
-msgstr "KDE"
-
-#: importers.h:133
-msgid "Netscape"
-msgstr "నెట్ స్కేప్"
-
-#: importers.h:143
-msgid "Mozilla"
-msgstr "మొజిల్లా"
-
-#: importers.h:153
-msgid "IE"
-msgstr ""
-
-#: importers.h:165
-msgid "Opera"
-msgstr "ఓపెరా"
-
-#: exporters.cpp:48
-msgid "My Bookmarks"
-msgstr ""
-
-#: testlink.cpp:76
-msgid "Checking..."
-msgstr ""
-
 #: bookmarkinfowidget.cpp:246
 msgid "Name:"
 msgstr "పేరు:"
@@ -445,40 +203,105 @@ msgstr ""
 msgid "Times visited:"
 msgstr ""
 
-#: kbookmarkmodel/model.cpp:118
-#, fuzzy
-#| msgid "Bookmarks"
-msgctxt "name of the container of all browser bookmarks"
-msgid "Bookmarks"
-msgstr "పేజి గుర్తులు"
+#: exporters.cpp:48
+msgid "My Bookmarks"
+msgstr ""
 
-#: kbookmarkmodel/model.cpp:222
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@title:column name of a bookmark"
-msgid "Name"
-msgstr "పేరు:"
+#: favicons.cpp:56 testlink.cpp:97
+msgid "OK"
+msgstr ""
 
-#: kbookmarkmodel/model.cpp:226
-#, fuzzy
-#| msgid "Location:"
-msgctxt "@title:column name of a bookmark"
-msgid "Location"
-msgstr "స్థానము:"
+#: favicons.cpp:72
+msgid "Updating favicon..."
+msgstr ""
 
-#: kbookmarkmodel/model.cpp:230
-#, fuzzy
-#| msgid "Comment"
-msgctxt "@title:column comment for a bookmark"
-msgid "Comment"
-msgstr "వ్యాఖ్యానము"
+#: faviconupdater.cpp:87
+#, kde-format
+msgid "%1; no HTML component found (%2)"
+msgstr ""
 
-#: kbookmarkmodel/model.cpp:234
-#, fuzzy
-#| msgid "Status"
-msgctxt "@title:column status of a bookmark"
-msgid "Status"
-msgstr "స్థితి"
+#: importers.cpp:56
+#, kde-format
+msgid "Import %1 Bookmarks"
+msgstr ""
+
+#: importers.cpp:60
+#, kde-format
+msgid "%1 Bookmarks"
+msgstr ""
+
+#: importers.cpp:92
+msgid "Import as a new subfolder or replace all the current bookmarks?"
+msgstr ""
+
+#: importers.cpp:93
+#, kde-format
+msgid "%1 Import"
+msgstr ""
+
+#: importers.cpp:94
+msgid "As New Folder"
+msgstr ""
+
+#: importers.cpp:94
+msgid "Replace"
+msgstr "పునఃస్థాపించు"
+
+#: importers.cpp:199
+msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
+msgstr ""
+
+#: importers.cpp:208
+msgid "*.xml|KDE Bookmark Files (*.xml)"
+msgstr ""
+
+#: importers.h:102
+msgid "Galeon"
+msgstr "గెలియాన్"
+
+#: importers.h:112
+msgid "KDE"
+msgstr "KDE"
+
+#: importers.h:133
+msgid "Netscape"
+msgstr "నెట్ స్కేప్"
+
+#: importers.h:143
+msgid "Mozilla"
+msgstr "మొజిల్లా"
+
+#: importers.h:153
+msgid "IE"
+msgstr ""
+
+#: importers.h:165
+msgid "Opera"
+msgstr "ఓపెరా"
+
+#: kbookmarkmerger.cpp:39
+msgid "KBookmarkMerger"
+msgstr ""
+
+#: kbookmarkmerger.cpp:40
+msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
+msgstr ""
+
+#: kbookmarkmerger.cpp:42
+msgid "Copyright © 2005 Frerich Raabe"
+msgstr ""
+
+#: kbookmarkmerger.cpp:43
+msgid "Frerich Raabe"
+msgstr ""
+
+#: kbookmarkmerger.cpp:43
+msgid "Original author"
+msgstr "వాస్తవ మూలకర్త"
+
+#: kbookmarkmerger.cpp:49
+msgid "Directory to scan for extra bookmarks"
+msgstr ""
 
 #: kbookmarkmodel/commands.cpp:68
 msgid "Insert Separator"
@@ -532,9 +355,186 @@ msgstr ""
 msgid "Move Items"
 msgstr ""
 
-#: faviconupdater.cpp:87
+#: kbookmarkmodel/model.cpp:118
+#, fuzzy
+#| msgid "Bookmarks"
+msgctxt "name of the container of all browser bookmarks"
+msgid "Bookmarks"
+msgstr "పేజి గుర్తులు"
+
+#: kbookmarkmodel/model.cpp:222
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@title:column name of a bookmark"
+msgid "Name"
+msgstr "పేరు:"
+
+#: kbookmarkmodel/model.cpp:226
+#, fuzzy
+#| msgid "Location:"
+msgctxt "@title:column name of a bookmark"
+msgid "Location"
+msgstr "స్థానము:"
+
+#: kbookmarkmodel/model.cpp:230
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@title:column comment for a bookmark"
+msgid "Comment"
+msgstr "వ్యాఖ్యానము"
+
+#: kbookmarkmodel/model.cpp:234
+#, fuzzy
+#| msgid "Status"
+msgctxt "@title:column status of a bookmark"
+msgid "Status"
+msgstr "స్థితి"
+
+#: kebsearchline.cpp:273
+msgid "Search Columns"
+msgstr ""
+
+#: kebsearchline.cpp:276
+msgid "All Visible Columns"
+msgstr ""
+
+#: kebsearchline.cpp:285
 #, kde-format
-msgid "%1; no HTML component found (%2)"
+msgctxt "Column number %1"
+msgid "Column No. %1"
+msgstr ""
+
+#: kebsearchline.cpp:680
+msgid "S&earch:"
+msgstr ""
+
+#: main.cpp:68
+#, kde-format
+msgid ""
+"Another instance of %1 is already running. Do you really want to open "
+"another instance or continue work in the same instance?\n"
+"Please note that, unfortunately, duplicate views are read-only."
+msgstr ""
+
+#: main.cpp:71
+msgid "Warning"
+msgstr "హెచ్చరిక"
+
+#: main.cpp:72
+msgid "Run Another"
+msgstr ""
+
+#: main.cpp:73
+msgid "Continue in Same"
+msgstr ""
+
+#: main.cpp:96
+msgid "Bookmark Editor"
+msgstr ""
+
+#: main.cpp:97
+msgid "Bookmark Organizer and Editor"
+msgstr ""
+
+#: main.cpp:99
+msgid "Copyright 2000-2007, KDE developers"
+msgstr ""
+
+#: main.cpp:100
+msgid "David Faure"
+msgstr "డెవిడ్ ఫారె"
+
+#: main.cpp:100
+msgid "Initial author"
+msgstr ""
+
+#: main.cpp:101
+msgid "Alexander Kellett"
+msgstr ""
+
+#: main.cpp:101
+msgid "Author"
+msgstr "మూలకర్త"
+
+#: main.cpp:108
+msgid "Import bookmarks from a file in Mozilla format"
+msgstr ""
+
+#: main.cpp:109
+msgid "Import bookmarks from a file in Netscape (4.x and earlier) format"
+msgstr ""
+
+#: main.cpp:110
+msgid "Import bookmarks from a file in Internet Explorer's Favorites format"
+msgstr ""
+
+#: main.cpp:111
+msgid "Import bookmarks from a file in Opera format"
+msgstr ""
+
+#: main.cpp:112
+msgid "Import bookmarks from a file in KDE2 format"
+msgstr ""
+
+#: main.cpp:113
+msgid "Import bookmarks from a file in Galeon format"
+msgstr ""
+
+#: main.cpp:114
+msgid "Export bookmarks to a file in Mozilla format"
+msgstr ""
+
+#: main.cpp:115
+msgid "Export bookmarks to a file in Netscape (4.x and earlier) format"
+msgstr ""
+
+#: main.cpp:116
+msgid "Export bookmarks to a file in a printable HTML format"
+msgstr ""
+
+#: main.cpp:117
+msgid "Export bookmarks to a file in Internet Explorer's Favorites format"
+msgstr ""
+
+#: main.cpp:118
+msgid "Export bookmarks to a file in Opera format"
+msgstr ""
+
+#: main.cpp:119
+msgid "Open at the given position in the bookmarks file"
+msgstr ""
+
+#: main.cpp:120
+msgid "Set the user-readable caption, for example \"Konsole\""
+msgstr ""
+
+#: main.cpp:121
+msgid "Hide all browser related functions"
+msgstr ""
+
+#: main.cpp:122
+msgid ""
+"A unique name that represents this bookmark collection, usually the "
+"kinstance name.\n"
+"This should be \"konqueror\" for the Konqueror bookmarks, \"kfile\" for "
+"KFileDialog bookmarks, etc.\n"
+"The final D-Bus object path is /KBookmarkManager/dbusObjectName"
+msgstr ""
+
+#: main.cpp:125
+msgid "File to edit"
+msgstr ""
+
+#: main.cpp:166
+msgid "You may only specify a single --export option."
+msgstr ""
+
+#: main.cpp:171
+msgid "You may only specify a single --import option."
+msgstr ""
+
+#: testlink.cpp:76
+msgid "Checking..."
 msgstr ""
 
 #: rc.cpp:1

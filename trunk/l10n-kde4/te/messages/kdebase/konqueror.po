@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-25 02:49+0100\n"
+"POT-Creation-Date: 2011-02-02 03:05+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -24,6 +24,441 @@ msgstr ""
 "\n"
 "\n"
 "X-Generator: KBabel 1.11.4\n"
+
+#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5007
+#: src/konqmainwindow.cpp:5067
+msgid "no name"
+msgstr ""
+
+#: src/konqextensionmanager.cpp:54
+msgid "Configure"
+msgstr "ఆకృతీకరించుము"
+
+#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
+#: src/konqextensionmanager.cpp:78
+msgid "Extensions"
+msgstr ""
+
+#: src/konqfactory.cpp:90
+#, kde-format
+msgid ""
+"There was an error loading the module %1.\n"
+"The diagnostics is:\n"
+"%2"
+msgstr ""
+
+#: src/konqfactory.cpp:229 about/konq_aboutpage.cc:80
+#: about/konq_aboutpage.cc:136 about/konq_aboutpage.cc:190
+#: about/konq_aboutpage.cc:288
+msgid "Konqueror"
+msgstr "కాంకెరర్"
+
+#: src/konqfactory.cpp:231
+msgid "Web browser, file manager and document viewer."
+msgstr ""
+
+#: src/konqfactory.cpp:233
+msgid "(C) 1999-2008, The Konqueror developers"
+msgstr ""
+
+#: src/konqfactory.cpp:235
+msgid "http://konqueror.kde.org"
+msgstr ""
+
+#: src/konqfactory.cpp:236 sidebar/sidebar_part.cpp:30
+msgid "David Faure"
+msgstr "డెవిడ్ ఫారె"
+
+#: src/konqfactory.cpp:236
+msgid "Developer (framework, parts, JavaScript, I/O library) and maintainer"
+msgstr ""
+
+#: src/konqfactory.cpp:237
+msgid "Simon Hausmann"
+msgstr ""
+
+#: src/konqfactory.cpp:237
+msgid "Developer (framework, parts)"
+msgstr ""
+
+#: src/konqfactory.cpp:238
+msgid "Michael Reiher"
+msgstr ""
+
+#: src/konqfactory.cpp:238 src/konqfactory.cpp:266 src/konqfactory.cpp:272
+msgid "Developer (framework)"
+msgstr ""
+
+#: src/konqfactory.cpp:239
+msgid "Matthias Welk"
+msgstr ""
+
+#: src/konqfactory.cpp:239
+msgid "Developer"
+msgstr "డెవలపర్"
+
+#: src/konqfactory.cpp:240
+msgid "Alexander Neundorf"
+msgstr "Alexander Neundorf"
+
+#: src/konqfactory.cpp:240
+msgid "Developer (List views)"
+msgstr ""
+
+#: src/konqfactory.cpp:241
+msgid "Michael Brade"
+msgstr ""
+
+#: src/konqfactory.cpp:241
+msgid "Developer (List views, I/O library)"
+msgstr ""
+
+#: src/konqfactory.cpp:242
+msgid "Lars Knoll"
+msgstr "లార్స్ క్నొల్"
+
+#: src/konqfactory.cpp:242 src/konqfactory.cpp:243 src/konqfactory.cpp:244
+#: src/konqfactory.cpp:246 src/konqfactory.cpp:247 src/konqfactory.cpp:249
+#: src/konqfactory.cpp:250 src/konqfactory.cpp:251 src/konqfactory.cpp:252
+#: src/konqfactory.cpp:254
+msgid "Developer (HTML rendering engine)"
+msgstr ""
+
+#: src/konqfactory.cpp:243
+msgid "Dirk Mueller"
+msgstr "డిర్క్ ముల్లర్"
+
+#: src/konqfactory.cpp:244
+msgid "Peter Kelly"
+msgstr ""
+
+#: src/konqfactory.cpp:245
+msgid "Waldo Bastian"
+msgstr "వాల్డొ బాస్టియన్"
+
+#: src/konqfactory.cpp:245
+msgid "Developer (HTML rendering engine, I/O library)"
+msgstr ""
+
+#: src/konqfactory.cpp:246
+msgid "Germain Garand"
+msgstr ""
+
+#: src/konqfactory.cpp:247
+msgid "Leo Savernik"
+msgstr "లియో సావెర్నిక్"
+
+#: src/konqfactory.cpp:248
+msgid "Stephan Kulow"
+msgstr "స్టీఫెన్ కులొ"
+
+#: src/konqfactory.cpp:248
+msgid ""
+"Developer (HTML rendering engine, I/O library, regression test framework)"
+msgstr ""
+
+#: src/konqfactory.cpp:249
+msgid "Antti Koivisto"
+msgstr ""
+
+#: src/konqfactory.cpp:250
+msgid "Zack Rusin"
+msgstr ""
+
+#: src/konqfactory.cpp:251
+msgid "Tobias Anton"
+msgstr ""
+
+#: src/konqfactory.cpp:252
+msgid "Lubos Lunak"
+msgstr "లుబోస్ ల్యూనక్"
+
+#: src/konqfactory.cpp:253
+msgid "Maks Orlovich"
+msgstr ""
+
+#: src/konqfactory.cpp:253 src/konqfactory.cpp:255
+msgid "Developer (HTML rendering engine, JavaScript)"
+msgstr ""
+
+#: src/konqfactory.cpp:254
+msgid "Allan Sandfeld Jensen"
+msgstr ""
+
+#: src/konqfactory.cpp:255
+msgid "Apple Safari Developers"
+msgstr ""
+
+#: src/konqfactory.cpp:256
+msgid "Harri Porten"
+msgstr ""
+
+#: src/konqfactory.cpp:256
+msgid "Developer (JavaScript)"
+msgstr ""
+
+#: src/konqfactory.cpp:257
+msgid "Koos Vriezen"
+msgstr ""
+
+#: src/konqfactory.cpp:257
+msgid "Developer (Java applets and other embedded objects)"
+msgstr ""
+
+#: src/konqfactory.cpp:258
+msgid "Matt Koss"
+msgstr ""
+
+#: src/konqfactory.cpp:258 src/konqfactory.cpp:259
+msgid "Developer (I/O library)"
+msgstr ""
+
+#: src/konqfactory.cpp:259
+msgid "Alex Zepeda"
+msgstr ""
+
+#: src/konqfactory.cpp:260
+msgid "Richard Moore"
+msgstr ""
+
+#: src/konqfactory.cpp:260 src/konqfactory.cpp:261
+msgid "Developer (Java applet support)"
+msgstr ""
+
+#: src/konqfactory.cpp:261
+msgid "Dima Rogozin"
+msgstr ""
+
+#: src/konqfactory.cpp:262
+msgid "Wynn Wilkes"
+msgstr "విన్ వైక్స్"
+
+#: src/konqfactory.cpp:262
+msgid ""
+"Developer (Java 2 security manager support,\n"
+" and other major improvements to applet support)"
+msgstr ""
+
+#: src/konqfactory.cpp:263
+msgid "Stefan Schimanski"
+msgstr ""
+
+#: src/konqfactory.cpp:263
+msgid "Developer (Netscape plugin support)"
+msgstr ""
+
+#: src/konqfactory.cpp:264
+msgid "George Staikos"
+msgstr "జార్జ్ స్టైకోస్"
+
+#: src/konqfactory.cpp:264
+msgid "Developer (SSL, Netscape plugins)"
+msgstr ""
+
+#: src/konqfactory.cpp:265
+msgid "Dawit Alemayehu"
+msgstr ""
+
+#: src/konqfactory.cpp:265
+msgid "Developer (I/O library, Authentication support)"
+msgstr ""
+
+#: src/konqfactory.cpp:266
+msgid "Carsten Pfeiffer"
+msgstr "కార్స్టెన్ ఫైఫర్"
+
+#: src/konqfactory.cpp:267
+msgid "Torsten Rahn"
+msgstr "టార్‌స్టెన్ రాన్"
+
+#: src/konqfactory.cpp:267
+msgid "Graphics/icons"
+msgstr ""
+
+#: src/konqfactory.cpp:268
+msgid "Torben Weis"
+msgstr ""
+
+#: src/konqfactory.cpp:268
+msgid "KFM author"
+msgstr ""
+
+#: src/konqfactory.cpp:269 sidebar/sidebar_part.cpp:29
+msgid "Joseph Wenninger"
+msgstr "జోసెఫ్ వెనిన్‌గర్"
+
+#: src/konqfactory.cpp:269
+msgid "Developer (navigation panel framework)"
+msgstr ""
+
+#: src/konqfactory.cpp:270
+msgid "Stephan Binner"
+msgstr "స్టీఫెన్ బిన్నర్"
+
+#: src/konqfactory.cpp:270
+msgid "Developer (misc stuff)"
+msgstr ""
+
+#: src/konqfactory.cpp:271
+msgid "Ivor Hewitt"
+msgstr ""
+
+#: src/konqfactory.cpp:271
+msgid "Developer (AdBlock filter)"
+msgstr ""
+
+#: src/konqfactory.cpp:272
+msgid "Eduardo Robles Elvira"
+msgstr ""
+
+#: src/konqframestatusbar.cpp:109
+msgid ""
+"Checking this box on at least two views sets those views as 'linked'. Then, "
+"when you change directories in one view, the other views linked with it will "
+"automatically update to show the current directory. This is especially "
+"useful with different types of views, such as a directory tree with an icon "
+"view or detailed view, and possibly a terminal emulator window."
+msgstr ""
+
+#: src/konqframestatusbar.cpp:156
+msgid "Close View"
+msgstr ""
+
+#: src/konqframestatusbar.cpp:236
+#, kde-format
+msgid "%1/s"
+msgstr ""
+
+#: src/konqframestatusbar.cpp:238
+msgid "Stalled"
+msgstr ""
+
+#: src/konqguiclients.cpp:66
+#, kde-format
+msgid "Preview &in %1"
+msgstr ""
+
+#: src/konqguiclients.cpp:135
+#, kde-format
+msgid "Show %1"
+msgstr ""
+
+#: src/konqhistorydialog.cpp:45
+msgctxt "@title:window"
+msgid "History"
+msgstr ""
+
+#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr ""
+
+#: src/konqhistorymodel.cpp:137
+#, kde-format
+msgid ""
+"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: %"
+"3<br />Number of times visited: %4</qt>"
+msgstr ""
+
+#: src/konqhistorymodel.cpp:233
+msgid "Local"
+msgstr ""
+
+#: src/konqhistorymodel.cpp:236
+msgid "Miscellaneous"
+msgstr "ఇతరత్రా"
+
+#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4534
+#: sidebar/web_module/web_module.cpp:61
+msgid "Open in New &Window"
+msgstr ""
+
+#: src/konqhistoryview.cpp:67
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
+#: sidebar/trees/konq_sidebartree.cpp:232
+msgid "Open in New Tab"
+msgstr "కొత్త టాబ్‌నందు తెరువుము"
+
+#: src/konqhistoryview.cpp:71
+#, fuzzy
+#| msgid "Copy Link Address"
+msgid "&Copy Link Address"
+msgstr "లింకు చిరునామాను నకలుచెయి "
+
+#: src/konqhistoryview.cpp:76
+msgid "&Remove Entry"
+msgstr ""
+
+#: src/konqhistoryview.cpp:83
+msgid "C&lear History"
+msgstr ""
+
+#: src/konqhistoryview.cpp:88
+msgid "&Preferences..."
+msgstr ""
+
+#: src/konqhistoryview.cpp:95
+msgid "By &Name"
+msgstr ""
+
+#: src/konqhistoryview.cpp:101
+msgid "By &Date"
+msgstr ""
+
+#: src/konqhistoryview.cpp:111
+msgid "Search in history"
+msgstr ""
+
+#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
+msgid "Do you really want to clear the entire history?"
+msgstr ""
+
+#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
+msgid "Clear History?"
+msgstr ""
+
+#: src/konqmain.cpp:96
+msgid "Start without a default window, when called without URLs"
+msgstr ""
+
+#: src/konqmain.cpp:98
+msgid ""
+"Preload for later use. This mode does not support URLs on the command line"
+msgstr ""
+
+#: src/konqmain.cpp:100
+msgid "Profile to open"
+msgstr ""
+
+#: src/konqmain.cpp:102
+msgid "List available profiles"
+msgstr ""
+
+#: src/konqmain.cpp:104
+msgid "List available sessions"
+msgstr ""
+
+#: src/konqmain.cpp:106
+msgid "Session to open"
+msgstr ""
+
+#: src/konqmain.cpp:108
+msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
+msgstr ""
+
+#: src/konqmain.cpp:109
+msgid "Part to use (e.g. khtml or kwebkitpart)"
+msgstr ""
+
+#: src/konqmain.cpp:111
+msgid ""
+"For URLs that point to files, opens the directory and selects the file, "
+"instead of opening the actual file"
+msgstr ""
+
+#: src/konqmain.cpp:113
+msgid "Location to open"
+msgstr ""
 
 #: src/konqmainwindow.cpp:571
 msgctxt "@title:tab"
@@ -530,11 +965,6 @@ msgstr ""
 msgid "Open the document in current window"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4534 src/konqhistoryview.cpp:62
-#: sidebar/web_module/web_module.cpp:61
-msgid "Open in New &Window"
-msgstr ""
-
 #: src/konqmainwindow.cpp:4535
 msgid "Open the document in a new window"
 msgstr ""
@@ -586,11 +1016,6 @@ msgid ""
 "Closing the window will discard these changes."
 msgstr ""
 
-#: src/konqmainwindow.cpp:5007 src/konqmainwindow.cpp:5067
-#: src/konqclosedwindowsmanager.cpp:418
-msgid "no name"
-msgstr ""
-
 #: src/konqmainwindow.cpp:5134
 msgid ""
 "Your sidebar is not functional or unavailable. A new entry cannot be added."
@@ -620,41 +1045,16 @@ msgid ""
 "with %1, but it cannot handle this file type."
 msgstr ""
 
-#: src/konqhistorymodel.cpp:137
-#, kde-format
-msgid ""
-"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: %"
-"3<br />Number of times visited: %4</qt>"
+#: src/konqprofiledlg.cpp:111
+msgid "Profile Management"
 msgstr ""
 
-#: src/konqhistorymodel.cpp:233
-msgid "Local"
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
 msgstr ""
 
-#: src/konqhistorymodel.cpp:236
-msgid "Miscellaneous"
-msgstr "ఇతరత్రా"
-
-#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
-msgid "Und&o: Closed Tab"
-msgstr ""
-
-#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
-#: src/konqundomanager.cpp:162
-msgid "Und&o: Closed Window"
-msgstr ""
-
-#: src/konqundomanager.cpp:122
-msgid "Und&o"
-msgstr ""
-
-#: src/konqextensionmanager.cpp:54
-msgid "Configure"
-msgstr "ఆకృతీకరించుము"
-
-#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
-#: src/konqextensionmanager.cpp:78
-msgid "Extensions"
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
 msgstr ""
 
 #: src/konqsessiondlg.cpp:77
@@ -685,47 +1085,6 @@ msgstr ""
 msgid "Session exists. Overwrite?"
 msgstr ""
 
-#: src/konqviewmanager.cpp:1411
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-
-#: src/konqviewmanager.cpp:1414
-msgid "Load View Profile"
-msgstr ""
-
-#: src/konqviewmanager.cpp:1426
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-
-#: src/konqguiclients.cpp:66
-#, kde-format
-msgid "Preview &in %1"
-msgstr ""
-
-#: src/konqguiclients.cpp:135
-#, kde-format
-msgid "Show %1"
-msgstr ""
-
-#: src/konqview.cpp:1199
-msgid ""
-"The page you are trying to view is the result of posted form data. If you "
-"resend the data, any action the form carried out (such as search or online "
-"purchase) will be repeated. "
-msgstr ""
-
-#: src/konqview.cpp:1201
-msgid "Warning"
-msgstr "హెచ్చరిక"
-
-#: src/konqview.cpp:1201
-msgid "Resend"
-msgstr ""
-
 #: src/konqsessionmanager.cpp:330
 msgid ""
 "Konqueror did not close correctly. Would you like to restore the previous "
@@ -746,397 +1105,6 @@ msgstr ""
 
 #: src/konqsessionmanager.cpp:335
 msgid "Ask Me Later"
-msgstr ""
-
-#: src/konqmain.cpp:96
-msgid "Start without a default window, when called without URLs"
-msgstr ""
-
-#: src/konqmain.cpp:98
-msgid ""
-"Preload for later use. This mode does not support URLs on the command line"
-msgstr ""
-
-#: src/konqmain.cpp:100
-msgid "Profile to open"
-msgstr ""
-
-#: src/konqmain.cpp:102
-msgid "List available profiles"
-msgstr ""
-
-#: src/konqmain.cpp:104
-msgid "List available sessions"
-msgstr ""
-
-#: src/konqmain.cpp:106
-msgid "Session to open"
-msgstr ""
-
-#: src/konqmain.cpp:108
-msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
-msgstr ""
-
-#: src/konqmain.cpp:109
-msgid "Part to use (e.g. khtml or kwebkitpart)"
-msgstr ""
-
-#: src/konqmain.cpp:111
-msgid ""
-"For URLs that point to files, opens the directory and selects the file, "
-"instead of opening the actual file"
-msgstr ""
-
-#: src/konqmain.cpp:113
-msgid "Location to open"
-msgstr ""
-
-#: src/konqframestatusbar.cpp:109
-msgid ""
-"Checking this box on at least two views sets those views as 'linked'. Then, "
-"when you change directories in one view, the other views linked with it will "
-"automatically update to show the current directory. This is especially "
-"useful with different types of views, such as a directory tree with an icon "
-"view or detailed view, and possibly a terminal emulator window."
-msgstr ""
-
-#: src/konqframestatusbar.cpp:156
-msgid "Close View"
-msgstr ""
-
-#: src/konqframestatusbar.cpp:236
-#, kde-format
-msgid "%1/s"
-msgstr ""
-
-#: src/konqframestatusbar.cpp:238
-msgid "Stalled"
-msgstr ""
-
-#: src/konqhistoryview.cpp:67
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
-#: sidebar/trees/konq_sidebartree.cpp:232
-msgid "Open in New Tab"
-msgstr "కొత్త టాబ్‌నందు తెరువుము"
-
-#: src/konqhistoryview.cpp:71
-#, fuzzy
-#| msgid "Copy Link Address"
-msgid "&Copy Link Address"
-msgstr "లింకు చిరునామాను నకలుచెయి "
-
-#: src/konqhistoryview.cpp:76
-msgid "&Remove Entry"
-msgstr ""
-
-#: src/konqhistoryview.cpp:83
-msgid "C&lear History"
-msgstr ""
-
-#: src/konqhistoryview.cpp:88
-msgid "&Preferences..."
-msgstr ""
-
-#: src/konqhistoryview.cpp:95
-msgid "By &Name"
-msgstr ""
-
-#: src/konqhistoryview.cpp:101
-msgid "By &Date"
-msgstr ""
-
-#: src/konqhistoryview.cpp:111
-msgid "Search in history"
-msgstr ""
-
-#: src/konqhistoryview.cpp:143 src/konqhistorydialog.cpp:61
-msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
-msgid "Sort"
-msgstr ""
-
-#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
-msgid "Do you really want to clear the entire history?"
-msgstr ""
-
-#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
-msgid "Clear History?"
-msgstr ""
-
-#: src/konqfactory.cpp:90
-#, kde-format
-msgid ""
-"There was an error loading the module %1.\n"
-"The diagnostics is:\n"
-"%2"
-msgstr ""
-
-#: src/konqfactory.cpp:229 about/konq_aboutpage.cc:80
-#: about/konq_aboutpage.cc:136 about/konq_aboutpage.cc:190
-#: about/konq_aboutpage.cc:288
-msgid "Konqueror"
-msgstr "కాంకెరర్"
-
-#: src/konqfactory.cpp:231
-msgid "Web browser, file manager and document viewer."
-msgstr ""
-
-#: src/konqfactory.cpp:233
-msgid "(C) 1999-2008, The Konqueror developers"
-msgstr ""
-
-#: src/konqfactory.cpp:235
-msgid "http://konqueror.kde.org"
-msgstr ""
-
-#: src/konqfactory.cpp:236 sidebar/sidebar_part.cpp:30
-msgid "David Faure"
-msgstr "డెవిడ్ ఫారె"
-
-#: src/konqfactory.cpp:236
-msgid "Developer (framework, parts, JavaScript, I/O library) and maintainer"
-msgstr ""
-
-#: src/konqfactory.cpp:237
-msgid "Simon Hausmann"
-msgstr ""
-
-#: src/konqfactory.cpp:237
-msgid "Developer (framework, parts)"
-msgstr ""
-
-#: src/konqfactory.cpp:238
-msgid "Michael Reiher"
-msgstr ""
-
-#: src/konqfactory.cpp:238 src/konqfactory.cpp:266 src/konqfactory.cpp:272
-msgid "Developer (framework)"
-msgstr ""
-
-#: src/konqfactory.cpp:239
-msgid "Matthias Welk"
-msgstr ""
-
-#: src/konqfactory.cpp:239
-msgid "Developer"
-msgstr "డెవలపర్"
-
-#: src/konqfactory.cpp:240
-msgid "Alexander Neundorf"
-msgstr "Alexander Neundorf"
-
-#: src/konqfactory.cpp:240
-msgid "Developer (List views)"
-msgstr ""
-
-#: src/konqfactory.cpp:241
-msgid "Michael Brade"
-msgstr ""
-
-#: src/konqfactory.cpp:241
-msgid "Developer (List views, I/O library)"
-msgstr ""
-
-#: src/konqfactory.cpp:242
-msgid "Lars Knoll"
-msgstr "లార్స్ క్నొల్"
-
-#: src/konqfactory.cpp:242 src/konqfactory.cpp:243 src/konqfactory.cpp:244
-#: src/konqfactory.cpp:246 src/konqfactory.cpp:247 src/konqfactory.cpp:249
-#: src/konqfactory.cpp:250 src/konqfactory.cpp:251 src/konqfactory.cpp:252
-#: src/konqfactory.cpp:254
-msgid "Developer (HTML rendering engine)"
-msgstr ""
-
-#: src/konqfactory.cpp:243
-msgid "Dirk Mueller"
-msgstr "డిర్క్ ముల్లర్"
-
-#: src/konqfactory.cpp:244
-msgid "Peter Kelly"
-msgstr ""
-
-#: src/konqfactory.cpp:245
-msgid "Waldo Bastian"
-msgstr "వాల్డొ బాస్టియన్"
-
-#: src/konqfactory.cpp:245
-msgid "Developer (HTML rendering engine, I/O library)"
-msgstr ""
-
-#: src/konqfactory.cpp:246
-msgid "Germain Garand"
-msgstr ""
-
-#: src/konqfactory.cpp:247
-msgid "Leo Savernik"
-msgstr "లియో సావెర్నిక్"
-
-#: src/konqfactory.cpp:248
-msgid "Stephan Kulow"
-msgstr "స్టీఫెన్ కులొ"
-
-#: src/konqfactory.cpp:248
-msgid ""
-"Developer (HTML rendering engine, I/O library, regression test framework)"
-msgstr ""
-
-#: src/konqfactory.cpp:249
-msgid "Antti Koivisto"
-msgstr ""
-
-#: src/konqfactory.cpp:250
-msgid "Zack Rusin"
-msgstr ""
-
-#: src/konqfactory.cpp:251
-msgid "Tobias Anton"
-msgstr ""
-
-#: src/konqfactory.cpp:252
-msgid "Lubos Lunak"
-msgstr "లుబోస్ ల్యూనక్"
-
-#: src/konqfactory.cpp:253
-msgid "Maks Orlovich"
-msgstr ""
-
-#: src/konqfactory.cpp:253 src/konqfactory.cpp:255
-msgid "Developer (HTML rendering engine, JavaScript)"
-msgstr ""
-
-#: src/konqfactory.cpp:254
-msgid "Allan Sandfeld Jensen"
-msgstr ""
-
-#: src/konqfactory.cpp:255
-msgid "Apple Safari Developers"
-msgstr ""
-
-#: src/konqfactory.cpp:256
-msgid "Harri Porten"
-msgstr ""
-
-#: src/konqfactory.cpp:256
-msgid "Developer (JavaScript)"
-msgstr ""
-
-#: src/konqfactory.cpp:257
-msgid "Koos Vriezen"
-msgstr ""
-
-#: src/konqfactory.cpp:257
-msgid "Developer (Java applets and other embedded objects)"
-msgstr ""
-
-#: src/konqfactory.cpp:258
-msgid "Matt Koss"
-msgstr ""
-
-#: src/konqfactory.cpp:258 src/konqfactory.cpp:259
-msgid "Developer (I/O library)"
-msgstr ""
-
-#: src/konqfactory.cpp:259
-msgid "Alex Zepeda"
-msgstr ""
-
-#: src/konqfactory.cpp:260
-msgid "Richard Moore"
-msgstr ""
-
-#: src/konqfactory.cpp:260 src/konqfactory.cpp:261
-msgid "Developer (Java applet support)"
-msgstr ""
-
-#: src/konqfactory.cpp:261
-msgid "Dima Rogozin"
-msgstr ""
-
-#: src/konqfactory.cpp:262
-msgid "Wynn Wilkes"
-msgstr "విన్ వైక్స్"
-
-#: src/konqfactory.cpp:262
-msgid ""
-"Developer (Java 2 security manager support,\n"
-" and other major improvements to applet support)"
-msgstr ""
-
-#: src/konqfactory.cpp:263
-msgid "Stefan Schimanski"
-msgstr ""
-
-#: src/konqfactory.cpp:263
-msgid "Developer (Netscape plugin support)"
-msgstr ""
-
-#: src/konqfactory.cpp:264
-msgid "George Staikos"
-msgstr "జార్జ్ స్టైకోస్"
-
-#: src/konqfactory.cpp:264
-msgid "Developer (SSL, Netscape plugins)"
-msgstr ""
-
-#: src/konqfactory.cpp:265
-msgid "Dawit Alemayehu"
-msgstr ""
-
-#: src/konqfactory.cpp:265
-msgid "Developer (I/O library, Authentication support)"
-msgstr ""
-
-#: src/konqfactory.cpp:266
-msgid "Carsten Pfeiffer"
-msgstr "కార్స్టెన్ ఫైఫర్"
-
-#: src/konqfactory.cpp:267
-msgid "Torsten Rahn"
-msgstr "టార్‌స్టెన్ రాన్"
-
-#: src/konqfactory.cpp:267
-msgid "Graphics/icons"
-msgstr ""
-
-#: src/konqfactory.cpp:268
-msgid "Torben Weis"
-msgstr ""
-
-#: src/konqfactory.cpp:268
-msgid "KFM author"
-msgstr ""
-
-#: src/konqfactory.cpp:269 sidebar/sidebar_part.cpp:29
-msgid "Joseph Wenninger"
-msgstr "జోసెఫ్ వెనిన్‌గర్"
-
-#: src/konqfactory.cpp:269
-msgid "Developer (navigation panel framework)"
-msgstr ""
-
-#: src/konqfactory.cpp:270
-msgid "Stephan Binner"
-msgstr "స్టీఫెన్ బిన్నర్"
-
-#: src/konqfactory.cpp:270
-msgid "Developer (misc stuff)"
-msgstr ""
-
-#: src/konqfactory.cpp:271
-msgid "Ivor Hewitt"
-msgstr ""
-
-#: src/konqfactory.cpp:271
-msgid "Developer (AdBlock filter)"
-msgstr ""
-
-#: src/konqfactory.cpp:272
-msgid "Eduardo Robles Elvira"
-msgstr ""
-
-#: src/konqhistorydialog.cpp:45
-msgctxt "@title:window"
-msgid "History"
 msgstr ""
 
 #: src/konqtabs.cpp:66
@@ -1176,172 +1144,48 @@ msgstr ""
 msgid "&Close Tab"
 msgstr "(&C) టాబ్ ను మూసివెయి"
 
-#: src/konqprofiledlg.cpp:111
-msgid "Profile Management"
+#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
+msgid "Und&o: Closed Tab"
 msgstr ""
 
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
+#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
+#: src/konqundomanager.cpp:162
+msgid "Und&o: Closed Window"
 msgstr ""
 
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
+#: src/konqundomanager.cpp:122
+msgid "Und&o"
 msgstr ""
 
-#: sidebar/trees/dirtree_module/dirtree_module.cpp:417
-#, kde-format
-msgid "Cannot find parent item %1 in the tree. Internal error."
-msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.h:88
-msgid "Add Bookmark"
-msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:74
-msgid "&Create New Folder"
-msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:78
-#: sidebar/trees/konq_sidebartree.cpp:207
-msgid "Delete Folder"
-msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:82
-msgid "Delete Bookmark"
-msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:86
-#: sidebar/trees/konq_sidebartree.cpp:224
-msgid "Properties"
-msgstr "గుణాలు"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:90
-#: sidebar/trees/konq_sidebartree.cpp:228
-msgid "Open in New Window"
-msgstr "కొత్త విండోనందు తెరువుము"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:98
-msgid "Open Folder in Tabs"
-msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:102
-#: sidebar/trees/konq_sidebartree.cpp:236
-msgid "Copy Link Address"
-msgstr "లింకు చిరునామాను నకలుచెయి "
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
-#, kde-format
+#: src/konqview.cpp:1199
 msgid ""
-"Are you sure you wish to remove the bookmark folder\n"
-"\"%1\"?"
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
 msgstr ""
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
-#, kde-format
+#: src/konqview.cpp:1201
+msgid "Warning"
+msgstr "హెచ్చరిక"
+
+#: src/konqview.cpp:1201
+msgid "Resend"
+msgstr ""
+
+#: src/konqviewmanager.cpp:1411
 msgid ""
-"Are you sure you wish to remove the bookmark\n"
-"\"%1\"?"
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
 msgstr ""
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:337
-msgid "Bookmark Folder Deletion"
+#: src/konqviewmanager.cpp:1414
+msgid "Load View Profile"
 msgstr ""
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:338
-msgid "Bookmark Deletion"
-msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:380
-msgid "Bookmark Properties"
-msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:565
-msgid "&Update"
-msgstr "(&U) నవీకరణ"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:573
-msgid "Name:"
-msgstr "పేరు:"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:581
-msgid "Location:"
-msgstr "స్థానము:"
-
-#: sidebar/trees/konq_sidebartree.cpp:203
-msgid "&Create New Folder..."
-msgstr ""
-
-#: sidebar/trees/konq_sidebartree.cpp:211
-msgid "Move to Trash"
-msgstr ""
-
-#: sidebar/trees/konq_sidebartree.cpp:215
-msgid "Rename"
-msgstr "పునఃనామకరణము"
-
-#: sidebar/trees/konq_sidebartree.cpp:220
-msgid "Delete Link"
-msgstr ""
-
-#: sidebar/trees/konq_sidebartree.cpp:951
-msgid "New Folder"
-msgstr ""
-
-#: sidebar/trees/konq_sidebartree.cpp:955
-msgid "Create New Folder"
-msgstr ""
-
-#: sidebar/trees/konq_sidebartree.cpp:956
-msgid "Enter folder name:"
-msgstr "ఫొల్డర్ పేరును వ్రాయండి:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@label"
-msgid "Name:"
-msgstr "పేరు:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-msgctxt "@label"
-msgid "Path or URL:"
-msgstr ""
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
-msgctxt "@title:window"
-msgid "Add folder sidebar module"
-msgstr ""
-
-#: sidebar/web_module/web_module.cpp:57
-msgid "&Open Link"
-msgstr ""
-
-#: sidebar/web_module/web_module.cpp:73
-msgid "Set &Automatic Reload"
-msgstr ""
-
-#: sidebar/web_module/web_module.cpp:137
-msgid "Set Refresh Timeout (0 disables)"
-msgstr ""
-
-#: sidebar/web_module/web_module.cpp:145
-msgid " min"
-msgstr " ని"
-
-#: sidebar/web_module/web_module.cpp:148
-msgid " sec"
-msgstr " సెకను"
-
-#: sidebar/web_module/web_module.cpp:280
-msgctxt "@action:inmenu Add"
-msgid "Web Sidebar Module"
-msgstr ""
-
-#: sidebar/web_module/web_module.cpp:301
-msgctxt "@title:window"
-msgid "Add web sidebar module"
+#: src/konqviewmanager.cpp:1426
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
 msgstr ""
 
 #: sidebar/history_module/history_module.cpp:126
@@ -1380,6 +1224,16 @@ msgstr[1] ""
 
 #: sidebar/history_module/kcmhistory.cpp:198
 msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
+msgstr ""
+
+#: sidebar/places_module/places_module.cpp:119
+msgctxt "@action:inmenu Add"
+msgid "Places Sidebar Module"
+msgstr ""
+
+#: sidebar/places_module/places_module.cpp:142
+msgctxt "@title:tab"
+msgid "Places"
 msgstr ""
 
 #: sidebar/sidebar_part.cpp:28
@@ -1475,14 +1329,160 @@ msgstr "తొలగించు"
 msgid "Web module"
 msgstr ""
 
-#: sidebar/places_module/places_module.cpp:119
-msgctxt "@action:inmenu Add"
-msgid "Places Sidebar Module"
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:74
+msgid "&Create New Folder"
 msgstr ""
 
-#: sidebar/places_module/places_module.cpp:142
-msgctxt "@title:tab"
-msgid "Places"
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:78
+#: sidebar/trees/konq_sidebartree.cpp:207
+msgid "Delete Folder"
+msgstr ""
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:82
+msgid "Delete Bookmark"
+msgstr ""
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:86
+#: sidebar/trees/konq_sidebartree.cpp:224
+msgid "Properties"
+msgstr "గుణాలు"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:90
+#: sidebar/trees/konq_sidebartree.cpp:228
+msgid "Open in New Window"
+msgstr "కొత్త విండోనందు తెరువుము"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:98
+msgid "Open Folder in Tabs"
+msgstr ""
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:102
+#: sidebar/trees/konq_sidebartree.cpp:236
+msgid "Copy Link Address"
+msgstr "లింకు చిరునామాను నకలుచెయి "
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
+#, kde-format
+msgid ""
+"Are you sure you wish to remove the bookmark folder\n"
+"\"%1\"?"
+msgstr ""
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
+#, kde-format
+msgid ""
+"Are you sure you wish to remove the bookmark\n"
+"\"%1\"?"
+msgstr ""
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:337
+msgid "Bookmark Folder Deletion"
+msgstr ""
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:338
+msgid "Bookmark Deletion"
+msgstr ""
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:380
+msgid "Bookmark Properties"
+msgstr ""
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:565
+msgid "&Update"
+msgstr "(&U) నవీకరణ"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:573
+msgid "Name:"
+msgstr "పేరు:"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:581
+msgid "Location:"
+msgstr "స్థానము:"
+
+#: sidebar/trees/bookmark_module/bookmark_module.h:88
+msgid "Add Bookmark"
+msgstr ""
+
+#: sidebar/trees/dirtree_module/dirtree_module.cpp:417
+#, kde-format
+msgid "Cannot find parent item %1 in the tree. Internal error."
+msgstr ""
+
+#: sidebar/trees/konq_sidebartree.cpp:203
+msgid "&Create New Folder..."
+msgstr ""
+
+#: sidebar/trees/konq_sidebartree.cpp:211
+msgid "Move to Trash"
+msgstr ""
+
+#: sidebar/trees/konq_sidebartree.cpp:215
+msgid "Rename"
+msgstr "పునఃనామకరణము"
+
+#: sidebar/trees/konq_sidebartree.cpp:220
+msgid "Delete Link"
+msgstr ""
+
+#: sidebar/trees/konq_sidebartree.cpp:951
+msgid "New Folder"
+msgstr ""
+
+#: sidebar/trees/konq_sidebartree.cpp:955
+msgid "Create New Folder"
+msgstr ""
+
+#: sidebar/trees/konq_sidebartree.cpp:956
+msgid "Enter folder name:"
+msgstr "ఫొల్డర్ పేరును వ్రాయండి:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@label"
+msgid "Name:"
+msgstr "పేరు:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr ""
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
+msgctxt "@title:window"
+msgid "Add folder sidebar module"
+msgstr ""
+
+#: sidebar/web_module/web_module.cpp:57
+msgid "&Open Link"
+msgstr ""
+
+#: sidebar/web_module/web_module.cpp:73
+msgid "Set &Automatic Reload"
+msgstr ""
+
+#: sidebar/web_module/web_module.cpp:137
+msgid "Set Refresh Timeout (0 disables)"
+msgstr ""
+
+#: sidebar/web_module/web_module.cpp:145
+msgid " min"
+msgstr " ని"
+
+#: sidebar/web_module/web_module.cpp:148
+msgid " sec"
+msgstr " సెకను"
+
+#: sidebar/web_module/web_module.cpp:280
+msgctxt "@action:inmenu Add"
+msgid "Web Sidebar Module"
+msgstr ""
+
+#: sidebar/web_module/web_module.cpp:301
+msgctxt "@title:window"
+msgid "Add web sidebar module"
 msgstr ""
 
 #: about/konq_aboutpage.cc:79 about/konq_aboutpage.cc:81
