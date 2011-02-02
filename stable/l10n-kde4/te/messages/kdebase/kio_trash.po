@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-11 14:25+0100\n"
+"POT-Creation-Date: 2011-02-02 12:17+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -24,28 +24,6 @@ msgstr ""
 "\n"
 "\n"
 "\n"
-
-#: kio_trash_win.cpp:228 kio_trash.cpp:140
-msgid "This file is already in the trash bin."
-msgstr ""
-
-#: kio_trash_win.cpp:241
-msgid "not supported"
-msgstr ""
-
-#: kio_trash_win.cpp:252 kio_trash.cpp:228
-msgid "Internal error in copyOrMove, should never happen"
-msgstr ""
-
-#: trashimpl.cpp:1125
-msgid ""
-"The trash has reached its maximum size!\n"
-"Cleanup the trash manually."
-msgstr ""
-
-#: trashimpl.cpp:1136
-msgid "The file is too large to be trashed."
-msgstr ""
 
 #: kcmtrash.cpp:120
 msgid "Byte"
@@ -167,6 +145,18 @@ msgid ""
 "restore it."
 msgstr ""
 
+#: kio_trash.cpp:140 kio_trash_win.cpp:228
+msgid "This file is already in the trash bin."
+msgstr ""
+
+#: kio_trash.cpp:228 kio_trash_win.cpp:252
+msgid "Internal error in copyOrMove, should never happen"
+msgstr ""
+
+#: kio_trash_win.cpp:241
+msgid "not supported"
+msgstr ""
+
 #: ktrash.cpp:32
 msgid "ktrash"
 msgstr ""
@@ -188,4 +178,14 @@ msgstr ""
 
 #: ktrash.cpp:42
 msgid "Ignored"
+msgstr ""
+
+#: trashimpl.cpp:1125
+msgid ""
+"The trash has reached its maximum size!\n"
+"Cleanup the trash manually."
+msgstr ""
+
+#: trashimpl.cpp:1136
+msgid "The file is too large to be trashed."
 msgstr ""
