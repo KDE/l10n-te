@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 12:18+0100\n"
+"POT-Creation-Date: 2011-02-04 10:22+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -63,6 +63,65 @@ msgstr ""
 #: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
 #: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:116 ui/launcher.cpp:175
 msgid "Favorites"
+msgstr ""
+
+#: core/models.cpp:121
+msgid "Home Folder"
+msgstr "ఇంటి ఫొల్డర్"
+
+#: core/models.cpp:124
+msgid "Network Folders"
+msgstr ""
+
+#: core/recentlyusedmodel.cpp:109
+msgid "Documents"
+msgstr ""
+
+#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:84
+#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:118 ui/launcher.cpp:205
+msgid "Applications"
+msgstr "కార్యక్రమాలు"
+
+#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
+#: ui/launcher.cpp:119 ui/launcher.cpp:218
+msgid "Recently Used"
+msgstr ""
+
+#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
+#, fuzzy
+#| msgid "Applications"
+msgid "Recently Used Documents"
+msgstr "కార్యక్రమాలు"
+
+#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
+#, fuzzy
+#| msgid "Applications"
+msgid "Recently Used Applications"
+msgstr "కార్యక్రమాలు"
+
+#: core/systemmodel.cpp:85
+msgid "Places"
+msgstr "స్థలములు"
+
+#: core/systemmodel.cpp:86
+msgid "Removable Storage"
+msgstr ""
+
+#: core/systemmodel.cpp:87
+msgid "Storage"
+msgstr ""
+
+#: core/systemmodel.cpp:215 simpleapplet/simpleapplet.cpp:201
+msgid "Run Command..."
+msgstr ""
+
+#: core/systemmodel.cpp:219
+msgid "Run a command or a search query"
+msgstr ""
+
+#: core/systemmodel.cpp:327 simpleapplet/simpleapplet.cpp:196
+#: ui/launcher.cpp:118 ui/launcher.cpp:239
+msgid "Computer"
 msgstr ""
 
 #: core/leavemodel.cpp:48 simpleapplet/simpleapplet.cpp:210
@@ -155,65 +214,6 @@ msgstr ""
 #: core/leavemodel.cpp:139
 msgid "System"
 msgstr "వ్యవస్థ"
-
-#: core/models.cpp:121
-msgid "Home Folder"
-msgstr "ఇంటి ఫొల్డర్"
-
-#: core/models.cpp:124
-msgid "Network Folders"
-msgstr ""
-
-#: core/recentlyusedmodel.cpp:109
-msgid "Documents"
-msgstr ""
-
-#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:84
-#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:118 ui/launcher.cpp:205
-msgid "Applications"
-msgstr "కార్యక్రమాలు"
-
-#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
-#: ui/launcher.cpp:119 ui/launcher.cpp:218
-msgid "Recently Used"
-msgstr ""
-
-#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
-#, fuzzy
-#| msgid "Applications"
-msgid "Recently Used Documents"
-msgstr "కార్యక్రమాలు"
-
-#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
-#, fuzzy
-#| msgid "Applications"
-msgid "Recently Used Applications"
-msgstr "కార్యక్రమాలు"
-
-#: core/systemmodel.cpp:85
-msgid "Places"
-msgstr "స్థలములు"
-
-#: core/systemmodel.cpp:86
-msgid "Removable Storage"
-msgstr ""
-
-#: core/systemmodel.cpp:87
-msgid "Storage"
-msgstr ""
-
-#: core/systemmodel.cpp:215 simpleapplet/simpleapplet.cpp:201
-msgid "Run Command..."
-msgstr ""
-
-#: core/systemmodel.cpp:219
-msgid "Run a command or a search query"
-msgstr ""
-
-#: core/systemmodel.cpp:327 simpleapplet/simpleapplet.cpp:196
-#: ui/launcher.cpp:118 ui/launcher.cpp:239
-msgid "Computer"
-msgstr ""
 
 #: main.cpp:32
 msgid "Kickoff"
@@ -339,6 +339,11 @@ msgstr "ఎజెక్ట్"
 msgid "Safely Remove"
 msgstr ""
 
+#: ui/searchbar.cpp:70
+msgctxt "Label of the search bar textedit"
+msgid "Search:"
+msgstr ""
+
 #: ui/launcher.cpp:178
 msgid "Sort Alphabetically (A to Z)"
 msgstr ""
@@ -365,11 +370,6 @@ msgstr ""
 #, kde-format
 msgctxt "full name, login name, hostname"
 msgid "<b>%1 (%2)</b> on <b>%3</b>"
-msgstr ""
-
-#: ui/searchbar.cpp:70
-msgctxt "Label of the search bar textedit"
-msgid "Search:"
 msgstr ""
 
 #: rc.cpp:1
