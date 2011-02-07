@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-26 03:02+0100\n"
+"POT-Creation-Date: 2011-02-07 10:44+0100\n"
 "PO-Revision-Date: 2007-03-09 14:17+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -164,16 +164,28 @@ msgctxt "@info:whatsthis"
 msgid "A very simple LGPL C++ header file"
 msgstr ""
 
-#. i18n: file: plugins/filetree/ui.rc:5
-#. i18n: ectx: Menu (go)
-#: rc.cpp:59
-msgid "&Go"
+#. i18n: file: plugins/filetree/ui.rc:6
+#. i18n: ectx: Menu (view)
+#. i18n: file: data/kateui.rc:46
+#. i18n: ectx: Menu (view)
+#. i18n: file: plugins/filetree/ui.rc:6
+#. i18n: ectx: Menu (view)
+#. i18n: file: data/kateui.rc:46
+#. i18n: ectx: Menu (view)
+#: rc.cpp:59 rc.cpp:71
+msgid "&View"
 msgstr ""
 
-#. i18n: file: plugins/filetree/ui.rc:11
-#. i18n: ectx: ToolBar (katefiletreeplugin)
-#: rc.cpp:62
-msgid "Kate File Tree"
+#. i18n: file: plugins/filetree/ui.rc:14
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: data/kateui.rc:99
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: plugins/filetree/ui.rc:14
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: data/kateui.rc:99
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:62 rc.cpp:89
+msgid "Main Toolbar"
 msgstr ""
 
 #. i18n: file: data/kateui.rc:5
@@ -190,13 +202,7 @@ msgstr "దస్త్రాలు:"
 msgid "&Edit"
 msgstr ""
 
-#. i18n: file: data/kateui.rc:46
-#. i18n: ectx: Menu (view)
-#: rc.cpp:71
-msgid "&View"
-msgstr ""
-
-#. i18n: file: data/kateui.rc:49
+#. i18n: file: data/kateui.rc:51
 #. i18n: ectx: Menu (view-split)
 #: rc.cpp:74
 #, fuzzy
@@ -204,34 +210,28 @@ msgstr ""
 msgid "Split View"
 msgstr "(&r) నిలువుగా విడగొట్టు"
 
-#. i18n: file: data/kateui.rc:69
+#. i18n: file: data/kateui.rc:71
 #. i18n: ectx: Menu (tools)
 #: rc.cpp:77
 msgid "&Tools"
 msgstr ""
 
-#. i18n: file: data/kateui.rc:77
+#. i18n: file: data/kateui.rc:79
 #. i18n: ectx: Menu (sessions)
 #: rc.cpp:80
 msgid "Sess&ions"
 msgstr "(&i) సెషన్లు"
 
-#. i18n: file: data/kateui.rc:88
+#. i18n: file: data/kateui.rc:90
 #. i18n: ectx: Menu (settings)
 #: rc.cpp:83
 msgid "&Settings"
 msgstr ""
 
-#. i18n: file: data/kateui.rc:92
+#. i18n: file: data/kateui.rc:94
 #. i18n: ectx: Menu (help)
 #: rc.cpp:86
 msgid "&Help"
-msgstr ""
-
-#. i18n: file: data/kateui.rc:97
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:89
-msgid "Main Toolbar"
 msgstr ""
 
 #. i18n: file: tips:2
@@ -1593,21 +1593,9 @@ msgstr ""
 msgid "Configure Tree View"
 msgstr ""
 
-#: plugins/filetree/katefiletreeplugin.cpp:198
+#: plugins/filetree/katefiletreeplugin.cpp:195
 msgid "&Show Active"
 msgstr ""
-
-#: plugins/filetree/katefiletreeplugin.cpp:204
-#, fuzzy
-#| msgid "&Document"
-msgid "&Prev Document"
-msgstr "(&D) పత్రం"
-
-#: plugins/filetree/katefiletreeplugin.cpp:210
-#, fuzzy
-#| msgid "&Document"
-msgid "&Next Document"
-msgstr "(&D) పత్రం"
 
 #: plugins/filetree/katefiletreeconfigpage.cpp:60
 msgid "Background Shading"
@@ -1665,6 +1653,16 @@ msgid ""
 "When enabled, in tree mode, top level folders will show up with their full "
 "path rather than just the last folder name."
 msgstr ""
+
+#, fuzzy
+#~| msgid "&Document"
+#~ msgid "&Prev Document"
+#~ msgstr "(&D) పత్రం"
+
+#, fuzzy
+#~| msgid "&Document"
+#~ msgid "&Next Document"
+#~ msgstr "(&D) పత్రం"
 
 #, fuzzy
 #~| msgid "Save &As..."
