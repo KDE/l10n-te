@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-10 02:47+0100\n"
+"POT-Creation-Date: 2011-02-11 02:44+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -118,6 +118,17 @@ msgctxt "@label::textbox"
 msgid "Select which data should be shown:"
 msgstr ""
 
+#: panels/information/phononwidget.cpp:139
+msgid "play"
+msgstr ""
+
+#: panels/information/phononwidget.cpp:144
+#, fuzzy
+#| msgctxt "@action:inmenu View"
+#| msgid "Stop"
+msgid "stop"
+msgstr "ఆపుము"
+
 #: panels/information/informationpanelcontent.cpp:235
 #, kde-format
 msgctxt "@info"
@@ -146,17 +157,6 @@ msgstr "టాగ్సును మార్చుము..."
 msgctxt "@label::textbox"
 msgid "Select which data should be shown in the information panel:"
 msgstr ""
-
-#: panels/information/phononwidget.cpp:139
-msgid "play"
-msgstr ""
-
-#: panels/information/phononwidget.cpp:144
-#, fuzzy
-#| msgctxt "@action:inmenu View"
-#| msgid "Stop"
-msgid "stop"
-msgstr "ఆపుము"
 
 #: search/dolphinsearchbox.cpp:105
 #, kde-format
@@ -1458,83 +1458,6 @@ msgctxt "@info:tooltip"
 msgid "Select Item"
 msgstr "అంశమును ఎంపికచేయుము"
 
-#: dolphincontextmenu.cpp:169
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "ఖాళీ ట్రాష్"
-
-#: dolphincontextmenu.cpp:175 dolphincontextmenu.cpp:346
-msgctxt "@action:inmenu Add current folder to places"
-msgid "Add to Places"
-msgstr "స్థలములకు జతచేయుము"
-
-#: dolphincontextmenu.cpp:191
-msgctxt "@info"
-msgid "Do you really want to empty the Trash? All items will be deleted."
-msgstr "మీరు నిజంగా ట్రాష్‌ను ఖాళీ చేద్దమని అనుకొనుచున్నారా? అన్ని అంశములు తొలగించబడతాయి."
-
-#: dolphincontextmenu.cpp:195
-msgctxt "@action:button"
-msgid "Empty Trash"
-msgstr "ఖాళీ ట్రాష్"
-
-#: dolphincontextmenu.cpp:204
-msgctxt "@label"
-msgid "Trash"
-msgstr "ట్రాష్"
-
-#: dolphincontextmenu.cpp:214
-msgctxt "@action:inmenu"
-msgid "Restore"
-msgstr "తిరిగివుంచుము"
-
-#: dolphincontextmenu.cpp:253 dolphinmainwindow.cpp:1417
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "కొత్తది సృష్టించుము"
-
-#: dolphincontextmenu.cpp:266
-msgctxt "@action:inmenu Add selected folder to places"
-msgid "Add to Places"
-msgstr "స్థలములకు జతచేయుము"
-
-#: dolphincontextmenu.cpp:273
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Window"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Window"
-msgstr "కొత్త విండోనందు తెరువుము"
-
-#: dolphincontextmenu.cpp:279
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Tab"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Tab"
-msgstr "కొత్త టాబ్‌నందు తెరువుము"
-
-#: dolphincontextmenu.cpp:450
-msgctxt "@action:inmenu"
-msgid "Paste Into Folder"
-msgstr "ఫోల్డరు లోనికి అతికించుము"
-
-#: dolphincontextmenu.cpp:562
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "&Move to Trash"
-msgstr "ట్రాష్‌కు కదుల్చుము"
-
-#: dolphincontextmenu.cpp:565
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "&Delete"
-msgstr "తొలగించుము"
-
 #: dolphinmainwindow.cpp:227
 msgctxt "@info:status"
 msgid "Successfully copied."
@@ -1618,6 +1541,11 @@ msgstr "ఇతర టాబ్లను మూయుము"
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "టాబ్‌ను మూయుము"
+
+#: dolphinmainwindow.cpp:1417 dolphincontextmenu.cpp:253
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "కొత్తది సృష్టించుము"
 
 #: dolphinmainwindow.cpp:1424
 msgctxt "@action:inmenu File"
@@ -2007,6 +1935,78 @@ msgstr ""
 msgctxt "@info:shell"
 msgid "Document to open"
 msgstr "తెరువవలసిన పత్రము"
+
+#: dolphincontextmenu.cpp:169
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "ఖాళీ ట్రాష్"
+
+#: dolphincontextmenu.cpp:175 dolphincontextmenu.cpp:346
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "స్థలములకు జతచేయుము"
+
+#: dolphincontextmenu.cpp:191
+msgctxt "@info"
+msgid "Do you really want to empty the Trash? All items will be deleted."
+msgstr "మీరు నిజంగా ట్రాష్‌ను ఖాళీ చేద్దమని అనుకొనుచున్నారా? అన్ని అంశములు తొలగించబడతాయి."
+
+#: dolphincontextmenu.cpp:195
+msgctxt "@action:button"
+msgid "Empty Trash"
+msgstr "ఖాళీ ట్రాష్"
+
+#: dolphincontextmenu.cpp:204
+msgctxt "@label"
+msgid "Trash"
+msgstr "ట్రాష్"
+
+#: dolphincontextmenu.cpp:214
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "తిరిగివుంచుము"
+
+#: dolphincontextmenu.cpp:266
+msgctxt "@action:inmenu Add selected folder to places"
+msgid "Add to Places"
+msgstr "స్థలములకు జతచేయుము"
+
+#: dolphincontextmenu.cpp:273
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Window"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Window"
+msgstr "కొత్త విండోనందు తెరువుము"
+
+#: dolphincontextmenu.cpp:279
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Tab"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Tab"
+msgstr "కొత్త టాబ్‌నందు తెరువుము"
+
+#: dolphincontextmenu.cpp:450
+msgctxt "@action:inmenu"
+msgid "Paste Into Folder"
+msgstr "ఫోల్డరు లోనికి అతికించుము"
+
+#: dolphincontextmenu.cpp:562
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "&Move to Trash"
+msgstr "ట్రాష్‌కు కదుల్చుము"
+
+#: dolphincontextmenu.cpp:565
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "&Delete"
+msgstr "తొలగించుము"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
