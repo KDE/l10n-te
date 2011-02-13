@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-11 02:44+0100\n"
+"POT-Creation-Date: 2011-02-13 15:25+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -880,62 +880,6 @@ msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr "%1 ఖాళీ"
 
-#: views/dolphinview.cpp:500
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "<filename>%1</filename> ఎంపిక కాబడినది"
-
-#: views/dolphinview.cpp:501
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected (%2)"
-msgstr "<filename>%1</filename> ఎంపిక కాబడినది (%2)"
-
-#: views/dolphinview.cpp:505
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] "1 ఫోల్డరు ఎంపిక కాబడినది"
-msgstr[1] "%1 ఫోల్డర్లు ఎంపిక కాబడినది"
-
-#: views/dolphinview.cpp:506
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] "1 ఫైలు ఎంపిక కాబడినది"
-msgstr[1] "%1 ఫైలు ఎంపిక కాబడినది"
-
-#: views/dolphinview.cpp:508
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
-
-#: views/dolphinview.cpp:511
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: views/dolphinview.cpp:1039
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "తొలగింపు కార్యము పూర్తైనది."
-
-#: views/dolphinview.cpp:1141
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "స్థానము ఖాళీగావుంది"
-
-#: views/dolphinview.cpp:1143
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "స్థానము '%1' సరైనదికాదు."
-
 #: views/draganddrophelper.cpp:108
 msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
@@ -995,11 +939,6 @@ msgstr "విస్తరించదగిన ఫోల్డర్లు"
 msgctxt "@title:menu"
 msgid "Columns"
 msgstr "నిలువు వరుసలు"
-
-#: views/dolphincolumnview.cpp:88
-msgctxt "@info:tooltip"
-msgid "Resize column"
-msgstr ""
 
 #: views/dolphindirlister.cpp:41
 #, fuzzy
@@ -1193,6 +1132,11 @@ msgstr "నిలువు వరుసలు"
 msgctxt "@info"
 msgid "Columns view mode"
 msgstr "వీక్షణ తీరును విభజించుము"
+
+#: views/dolphincolumnview.cpp:88
+msgctxt "@info:tooltip"
+msgid "Resize column"
+msgstr ""
 
 #: views/versioncontrol/versioncontrolobserver.cpp:190
 #, fuzzy
@@ -1447,6 +1391,62 @@ msgstr "ఫర్బిడెన్"
 msgctxt "@title:group Files and folders by permissions"
 msgid "(User: %1) (Group: %2) (Others: %3)"
 msgstr "(వినియోగదారి: %1) (సమూహం: %2) (ఇతరులు: %3)"
+
+#: views/dolphinview.cpp:504
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr "<filename>%1</filename> ఎంపిక కాబడినది"
+
+#: views/dolphinview.cpp:505
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected (%2)"
+msgstr "<filename>%1</filename> ఎంపిక కాబడినది (%2)"
+
+#: views/dolphinview.cpp:509
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "1 ఫోల్డరు ఎంపిక కాబడినది"
+msgstr[1] "%1 ఫోల్డర్లు ఎంపిక కాబడినది"
+
+#: views/dolphinview.cpp:510
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "1 ఫైలు ఎంపిక కాబడినది"
+msgstr[1] "%1 ఫైలు ఎంపిక కాబడినది"
+
+#: views/dolphinview.cpp:512
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:515
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:1047
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "తొలగింపు కార్యము పూర్తైనది."
+
+#: views/dolphinview.cpp:1149
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "స్థానము ఖాళీగావుంది"
+
+#: views/dolphinview.cpp:1151
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "స్థానము '%1' సరైనదికాదు."
 
 #: views/selectiontoggle.cpp:132
 msgctxt "@info:tooltip"
@@ -1820,36 +1820,6 @@ msgstr ""
 msgid "Unselect all items matching this pattern:"
 msgstr ""
 
-#: dolphinviewcontainer.cpp:313
-msgctxt "@info:progress"
-msgid "Loading folder..."
-msgstr "ఫోల్డరును లోడుచేస్తోంది..."
-
-#: dolphinviewcontainer.cpp:324
-msgctxt "@info"
-msgid "Searching..."
-msgstr ""
-
-#: dolphinviewcontainer.cpp:344
-msgctxt "@info:status"
-msgid "No items found."
-msgstr ""
-
-#: dolphinviewcontainer.cpp:423
-msgctxt "@info:status"
-msgid "Dolphin does not support web pages, the web browser has been launched"
-msgstr "డాల్ఫన్ వెబ్ పేజీలను మద్దతీయదు, వెబ్ "
-
-#: dolphinviewcontainer.cpp:435
-msgctxt "@info:status"
-msgid "Protocol not supported by Dolphin, Konqueror has been launched"
-msgstr "ప్రోటోకాల్ డాల్ఫిన్ చేత మద్దతీయబడదు, కాన్క్వెరర్ ప్రారంభించబడింది"
-
-#: dolphinviewcontainer.cpp:442
-msgctxt "@info:status"
-msgid "Invalid protocol"
-msgstr "సరికాని ప్రోటోకాల్"
-
 #: main.cpp:35
 msgctxt "@title"
 msgid "Dolphin"
@@ -2007,6 +1977,36 @@ msgstr "ట్రాష్‌కు కదుల్చుము"
 msgctxt "@action:inmenu"
 msgid "&Delete"
 msgstr "తొలగించుము"
+
+#: dolphinviewcontainer.cpp:313
+msgctxt "@info:progress"
+msgid "Loading folder..."
+msgstr "ఫోల్డరును లోడుచేస్తోంది..."
+
+#: dolphinviewcontainer.cpp:324
+msgctxt "@info"
+msgid "Searching..."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:344
+msgctxt "@info:status"
+msgid "No items found."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:423
+msgctxt "@info:status"
+msgid "Dolphin does not support web pages, the web browser has been launched"
+msgstr "డాల్ఫన్ వెబ్ పేజీలను మద్దతీయదు, వెబ్ "
+
+#: dolphinviewcontainer.cpp:435
+msgctxt "@info:status"
+msgid "Protocol not supported by Dolphin, Konqueror has been launched"
+msgstr "ప్రోటోకాల్ డాల్ఫిన్ చేత మద్దతీయబడదు, కాన్క్వెరర్ ప్రారంభించబడింది"
+
+#: dolphinviewcontainer.cpp:442
+msgctxt "@info:status"
+msgid "Invalid protocol"
+msgstr "సరికాని ప్రోటోకాల్"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
