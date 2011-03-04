@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-03 03:32+0100\n"
+"POT-Creation-Date: 2011-03-04 03:30+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -274,73 +274,73 @@ msgstr "ప్రస్తుత ప్రొఫైలును సరికూ�
 msgid "lines"
 msgstr "వరుసలు"
 
-#: IncrementalSearchBar.cpp:53
+#: IncrementalSearchBar.cpp:52
 msgid "Close the search bar"
 msgstr "శోధన బార్‌ను మూయుము"
 
-#: IncrementalSearchBar.cpp:58
+#: IncrementalSearchBar.cpp:57
 msgid "Find:"
 msgstr "వెతుకు:"
 
-#: IncrementalSearchBar.cpp:63
+#: IncrementalSearchBar.cpp:62
 msgid "Enter the text to search for here"
 msgstr "ఇక్కడ శోధించుటకు వచనము ప్రవేశపెట్టుము"
 
-#: IncrementalSearchBar.cpp:82
+#: IncrementalSearchBar.cpp:81
 #, fuzzy
 #| msgid "Next"
 msgctxt "@action:button Go to the next phrase"
 msgid "Next"
 msgstr "తరువాత"
 
-#: IncrementalSearchBar.cpp:86
+#: IncrementalSearchBar.cpp:84
 msgid "Find the next match for the current search phrase"
 msgstr "ప్రస్తుతం శోధిస్తున్న పదమునకు తరువాతి జోడీను కనుగొనుము"
 
-#: IncrementalSearchBar.cpp:91
+#: IncrementalSearchBar.cpp:89
 #, fuzzy
 #| msgid "Previous"
 msgctxt "@action:button Go to the previous phrase"
 msgid "Previous"
 msgstr "ముందు"
 
-#: IncrementalSearchBar.cpp:95
+#: IncrementalSearchBar.cpp:92
 msgid "Find the previous match for the current search phrase"
 msgstr "ప్రస్తుతము శోధిస్తున్న పదమునకు మునుపటి జోడీను కనుగొనుము"
 
-#: IncrementalSearchBar.cpp:100
-msgid "Highlight all"
-msgstr "అన్నిటిని హైలైట్ చేయుము"
+#: IncrementalSearchBar.cpp:97
+msgctxt "@action:button Display options menu"
+msgid "Options"
+msgstr ""
 
 #: IncrementalSearchBar.cpp:102
-msgid "Sets whether matching text should be highlighted"
-msgstr "సరిజోడీ వచనము హైలైట్ కావాలోలేదో అమర్చుము"
+msgid "Display the options menu"
+msgstr ""
 
-#: IncrementalSearchBar.cpp:110
-msgid "Match case"
-msgstr "సరిజోడీ సందర్భము"
+#: IncrementalSearchBar.cpp:115
+#, fuzzy
+#| msgctxt "@action:inmenu Close Active View"
+#| msgid "Close Active"
+msgid "Case sensitive"
+msgstr "క్రియాశీలమైంది మూయుము"
 
-#: IncrementalSearchBar.cpp:112
+#: IncrementalSearchBar.cpp:117
 msgid "Sets whether the search is case sensitive"
 msgstr "శోధన చిన్నపెద్ద అక్షరతేడాలను పట్టించుకొనవలెనో లేదో అమర్చుము"
 
-#: IncrementalSearchBar.cpp:118
+#: IncrementalSearchBar.cpp:121
 msgid "Match regular expression"
 msgstr "సాదారణ సమీకరణం సరిపోల్చుము"
 
-#: IncrementalSearchBar.cpp:120
-msgid ""
-"Sets whether the search phrase is interpreted as normal text or as a regular "
-"expression"
-msgstr "శోధన పదము సాధరణ వచనములా వెతకబడాలా లేక సాదారణ సమీకరణంలానా అనేది అమర్చుతుంది."
+#: IncrementalSearchBar.cpp:126
+#, fuzzy
+#| msgid "Highlight all"
+msgid "Highlight all matches"
+msgstr "అన్నిటిని హైలైట్ చేయుము"
 
-#: IncrementalSearchBar.cpp:246
-msgid "Search reached bottom, continued from top."
-msgstr "శోధన క్రిందివరకు చేరుకుంది, పైనుండి కొనసాగించబడుతుంది."
-
-#: IncrementalSearchBar.cpp:251
-msgid "Search reached top, continued from bottom."
-msgstr "శోధన పైనకు చేరుకుంది, క్రిందినుండి కొనసాగించబడుతుంది."
+#: IncrementalSearchBar.cpp:128
+msgid "Sets whether matching text should be highlighted"
+msgstr "సరిజోడీ వచనము హైలైట్ కావాలోలేదో అమర్చుము"
 
 #: KeyBindingEditor.cpp:49
 msgid "Key Combination"
@@ -1775,43 +1775,43 @@ msgid ""
 msgstr ""
 "పొగ్రామ్ '%1' ప్రస్తుతం ఈ సెషన్‌నందు నడుస్తోంది.  మీరు ఖచ్చితంగా దీనిని మూసివేద్దామని అనుకొంటున్నారా?"
 
-#: SessionController.cpp:1157
+#: SessionController.cpp:1159
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1166
+#: SessionController.cpp:1168
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1178
+#: SessionController.cpp:1180
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1187
+#: SessionController.cpp:1189
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1193
+#: SessionController.cpp:1195
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1265
+#: SessionController.cpp:1267
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1నుండి అవుట్పుట్‌ను భద్రపరచుము"
 
-#: SessionController.cpp:1276
+#: SessionController.cpp:1278
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 చెల్లని URL, అవుట్పుట్ భద్రపరచబడలేదు."
 
-#: SessionController.cpp:1365
+#: SessionController.cpp:1367
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2029,6 +2029,20 @@ msgstr ""
 #: ZModemDialog.cpp:35
 msgid "&Stop"
 msgstr "(&S) ఆపు"
+
+#~ msgid "Match case"
+#~ msgstr "సరిజోడీ సందర్భము"
+
+#~ msgid ""
+#~ "Sets whether the search phrase is interpreted as normal text or as a "
+#~ "regular expression"
+#~ msgstr "శోధన పదము సాధరణ వచనములా వెతకబడాలా లేక సాదారణ సమీకరణంలానా అనేది అమర్చుతుంది."
+
+#~ msgid "Search reached bottom, continued from top."
+#~ msgstr "శోధన క్రిందివరకు చేరుకుంది, పైనుండి కొనసాగించబడుతుంది."
+
+#~ msgid "Search reached top, continued from bottom."
+#~ msgstr "శోధన పైనకు చేరుకుంది, క్రిందినుండి కొనసాగించబడుతుంది."
 
 #, fuzzy
 #~| msgid "&Close Tab"
