@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-04 03:30+0100\n"
+"POT-Creation-Date: 2011-03-05 03:48+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -600,15 +600,15 @@ msgstr "(&B) పేజీ గుర్తులు"
 msgid "Configure Profiles..."
 msgstr "ప్రొఫైల్సును నిర్వహించుము..."
 
-#: MainWindow.cpp:383
+#: MainWindow.cpp:393
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా నిష్క్రమించుదామని అనుకొనుచున్నారా?"
 
-#: MainWindow.cpp:385 SessionController.cpp:604
+#: MainWindow.cpp:395 SessionController.cpp:604
 msgid "Confirm Close"
 msgstr "ముసివేత నిర్ధారించు"
 
-#: MainWindow.cpp:387
+#: MainWindow.cpp:397
 msgid "Close Current Tab"
 msgstr "ప్రస్తుత టాబ్ మూసివేయి"
 
@@ -1958,23 +1958,31 @@ msgid "&Rename Tab..."
 msgstr "(&R) టాబ్‌కు మరలాపేరు..."
 
 #: ViewManager.cpp:138
-msgid "Next View"
-msgstr "తరువాతి వీక్షణం"
+#, fuzzy
+#| msgid "New &Tab"
+msgid "Next Tab"
+msgstr "(&T) కొత్త టాబ్"
 
 #: ViewManager.cpp:139
-msgid "Previous View"
-msgstr "మునుపటి వీక్షణం"
+#, fuzzy
+#| msgid "Previous"
+msgid "Previous Tab"
+msgstr "ముందు"
 
 #: ViewManager.cpp:140
 msgid "Next View Container"
 msgstr "తరువాతి వీక్షణం కలిగివున్నది"
 
 #: ViewManager.cpp:142
-msgid "Move View Left"
+#, fuzzy
+#| msgid "Move View Left"
+msgid "Move Tab Left"
 msgstr "వీక్షణం ఎడమకు కదుపుము"
 
 #: ViewManager.cpp:143
-msgid "Move View Right"
+#, fuzzy
+#| msgid "Move View Right"
+msgid "Move Tab Right"
 msgstr "వీక్షణం కుడికు కదుపుము"
 
 #: ViewManager.cpp:153
@@ -2029,6 +2037,12 @@ msgstr ""
 #: ZModemDialog.cpp:35
 msgid "&Stop"
 msgstr "(&S) ఆపు"
+
+#~ msgid "Next View"
+#~ msgstr "తరువాతి వీక్షణం"
+
+#~ msgid "Previous View"
+#~ msgstr "మునుపటి వీక్షణం"
 
 #~ msgid "Match case"
 #~ msgstr "సరిజోడీ సందర్భము"
