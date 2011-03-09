@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-27 03:39+0100\n"
+"POT-Creation-Date: 2011-03-09 03:41+0100\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1230,7 +1230,7 @@ msgstr "<h1>KJSEmbed పత్రికీకరణ వీక్షణి</h1>"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:106
 #. i18n: ectx: property (text), widget (QPushButton, mExecute)
-#: rc.cpp:655 kparts/browserrun.cpp:329
+#: rc.cpp:655 kparts/browserrun.cpp:336
 msgid "Execute"
 msgstr "నడుపు"
 
@@ -10249,12 +10249,12 @@ msgstr "\"%1\" పేరుతొ దస్త్రం ముందే వు�
 msgid "Overwrite"
 msgstr "తిరిగి వ్రాయు"
 
-#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:390
+#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:397
 #, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr "మీ $PATH లో డౌన్ లోడ్ అభికర్త (%1) లో కనపడుటలేదు "
 
-#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:391
+#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:398
 msgid ""
 "Try to reinstall it  \n"
 "\n"
@@ -10353,7 +10353,7 @@ msgid "Print header"
 msgstr "హెడర్ను ప్రచురించు"
 
 #: khtml/khtml_run.cpp:104 khtml/khtml_part.cpp:3710 khtml/khtml_part.cpp:3939
-#: khtml/khtml_part.cpp:4361 kparts/browserrun.cpp:419
+#: khtml/khtml_part.cpp:4361 kparts/browserrun.cpp:426
 msgid "Save As"
 msgstr "ఇలా దాచు"
 
@@ -12599,15 +12599,6 @@ msgctxt "@info:whatsthis"
 msgid "This is the file name suggested by the server"
 msgstr ""
 
-#: kparts/browserrun.cpp:328
-#, kde-format
-msgid "Do you really want to execute '%1'?"
-msgstr "'%1' ను నిజంగా నడపమంటారా?"
-
-#: kparts/browserrun.cpp:329
-msgid "Execute File?"
-msgstr "దస్త్రాన్ని నడపమంటారా?"
-
 #: kparts/part.cpp:817
 msgid "Untitled"
 msgstr "పేరులేనిది"
@@ -12624,6 +12615,15 @@ msgstr ""
 #: kparts/part.cpp:825
 msgid "Close Document"
 msgstr "పత్రం మూసివేయి"
+
+#: kparts/browserrun.cpp:335
+#, kde-format
+msgid "Do you really want to execute '%1'?"
+msgstr "'%1' ను నిజంగా నడపమంటారా?"
+
+#: kparts/browserrun.cpp:336
+msgid "Execute File?"
+msgstr "దస్త్రాన్ని నడపమంటారా?"
 
 #: kpty/kptydevice.cpp:322
 msgid "Error reading from PTY"
