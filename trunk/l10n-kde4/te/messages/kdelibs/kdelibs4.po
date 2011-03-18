@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-12 03:43+0100\n"
+"POT-Creation-Date: 2011-03-18 03:37+0100\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -5114,6 +5114,34 @@ msgstr "కార్యానికి మద్దతు లేదు"
 msgid "Timed out trying to connect to remote host"
 msgstr "రిమోట్ హోస్‍ట్‌కు అనుసంధానించుటకు ప్రయత్నించుటలో సమయం అయిపోయింది"
 
+#: kdecore/network/netsupp.cpp:892
+msgid "address family for nodename not supported"
+msgstr "నొడ్ పేరు కు చిరునామా కుటుంబ సహాయం లేదు"
+
+#: kdecore/network/netsupp.cpp:894
+msgid "invalid value for 'ai_flags'"
+msgstr "'ai_flags' కు తప్పు విలువ"
+
+#: kdecore/network/netsupp.cpp:896
+msgid "'ai_family' not supported"
+msgstr "'ai_family' కి సహాయం లేదు"
+
+#: kdecore/network/netsupp.cpp:898
+msgid "no address associated with nodename"
+msgstr "నొడ్ పేరు తొ కూడిన చిరునామా లేదు"
+
+#: kdecore/network/netsupp.cpp:900
+msgid "servname not supported for ai_socktype"
+msgstr "ai_socktype కు సెర్వ్ నేమ్ సహాయం లేదు"
+
+#: kdecore/network/netsupp.cpp:901
+msgid "'ai_socktype' not supported"
+msgstr "'ai_socktype' కు సహాయం లేదు"
+
+#: kdecore/network/netsupp.cpp:902
+msgid "system error"
+msgstr "వ్యవస్థ దోషము"
+
 #: kdecore/network/ktcpsocket.cpp:152
 #, fuzzy
 #| msgid "no error"
@@ -5190,34 +5218,6 @@ msgstr ""
 msgctxt "SSL error"
 msgid "Unknown error"
 msgstr "తెలియని దోషము"
-
-#: kdecore/network/netsupp.cpp:892
-msgid "address family for nodename not supported"
-msgstr "నొడ్ పేరు కు చిరునామా కుటుంబ సహాయం లేదు"
-
-#: kdecore/network/netsupp.cpp:894
-msgid "invalid value for 'ai_flags'"
-msgstr "'ai_flags' కు తప్పు విలువ"
-
-#: kdecore/network/netsupp.cpp:896
-msgid "'ai_family' not supported"
-msgstr "'ai_family' కి సహాయం లేదు"
-
-#: kdecore/network/netsupp.cpp:898
-msgid "no address associated with nodename"
-msgstr "నొడ్ పేరు తొ కూడిన చిరునామా లేదు"
-
-#: kdecore/network/netsupp.cpp:900
-msgid "servname not supported for ai_socktype"
-msgstr "ai_socktype కు సెర్వ్ నేమ్ సహాయం లేదు"
-
-#: kdecore/network/netsupp.cpp:901
-msgid "'ai_socktype' not supported"
-msgstr "'ai_socktype' కు సహాయం లేదు"
-
-#: kdecore/network/netsupp.cpp:902
-msgid "system error"
-msgstr "వ్యవస్థ దోషము"
 
 #: kdecore/services/kmimetyperepository.cpp:603
 #, kde-format
