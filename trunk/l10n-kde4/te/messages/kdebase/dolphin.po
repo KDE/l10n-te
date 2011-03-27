@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-25 03:32+0100\n"
+"POT-Creation-Date: 2011-03-27 04:38+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -69,7 +69,7 @@ msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr "తొలగించుము"
 
-#: panels/folders/treeviewcontextmenu.cpp:111 dolphincontextmenu.cpp:367
+#: panels/folders/treeviewcontextmenu.cpp:111 dolphincontextmenu.cpp:365
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "గుణాలు"
@@ -1490,7 +1490,7 @@ msgctxt "@action:inmenu Edit"
 msgid "Unselect All"
 msgstr "అన్నిటిని ఎంపికచేయుము"
 
-#: dolphinpart.cpp:167 dolphinmainwindow.cpp:1487
+#: dolphinpart.cpp:167 dolphinmainwindow.cpp:1640
 msgctxt "@action:inmenu Edit"
 msgid "Invert Selection"
 msgstr "విలోమ యెంపిక"
@@ -1637,350 +1637,6 @@ msgctxt "@info:shell"
 msgid "Document to open"
 msgstr "తెరువవలసిన పత్రము"
 
-#: dolphincontextmenu.cpp:169
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "ఖాళీ ట్రాష్"
-
-#: dolphincontextmenu.cpp:175 dolphincontextmenu.cpp:346
-msgctxt "@action:inmenu Add current folder to places"
-msgid "Add to Places"
-msgstr "స్థలములకు జతచేయుము"
-
-#: dolphincontextmenu.cpp:191
-msgctxt "@info"
-msgid "Do you really want to empty the Trash? All items will be deleted."
-msgstr "మీరు నిజంగా ట్రాష్‌ను ఖాళీ చేద్దమని అనుకొనుచున్నారా? అన్ని అంశములు తొలగించబడతాయి."
-
-#: dolphincontextmenu.cpp:195
-msgctxt "@action:button"
-msgid "Empty Trash"
-msgstr "ఖాళీ ట్రాష్"
-
-#: dolphincontextmenu.cpp:204
-msgctxt "@label"
-msgid "Trash"
-msgstr "ట్రాష్"
-
-#: dolphincontextmenu.cpp:214
-msgctxt "@action:inmenu"
-msgid "Restore"
-msgstr "తిరిగివుంచుము"
-
-#: dolphincontextmenu.cpp:253 dolphinmainwindow.cpp:1435
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "కొత్తది సృష్టించుము"
-
-#: dolphincontextmenu.cpp:266
-msgctxt "@action:inmenu Add selected folder to places"
-msgid "Add to Places"
-msgstr "స్థలములకు జతచేయుము"
-
-#: dolphincontextmenu.cpp:273
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Window"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Window"
-msgstr "కొత్త విండోనందు తెరువుము"
-
-#: dolphincontextmenu.cpp:279
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Tab"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Tab"
-msgstr "కొత్త టాబ్‌నందు తెరువుము"
-
-#: dolphincontextmenu.cpp:450
-msgctxt "@action:inmenu"
-msgid "Paste Into Folder"
-msgstr "ఫోల్డరు లోనికి అతికించుము"
-
-#: dolphincontextmenu.cpp:562
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "&Move to Trash"
-msgstr "ట్రాష్‌కు కదుల్చుము"
-
-#: dolphincontextmenu.cpp:565
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "&Delete"
-msgstr "తొలగించుము"
-
-#: dolphinmainwindow.cpp:233
-msgctxt "@info:status"
-msgid "Successfully copied."
-msgstr ""
-
-#: dolphinmainwindow.cpp:237
-msgctxt "@info:status"
-msgid "Successfully moved."
-msgstr ""
-
-#: dolphinmainwindow.cpp:241
-msgctxt "@info:status"
-msgid "Successfully linked."
-msgstr ""
-
-#: dolphinmainwindow.cpp:245
-msgctxt "@info:status"
-msgid "Successfully moved to trash."
-msgstr ""
-
-#: dolphinmainwindow.cpp:249
-msgctxt "@info:status"
-msgid "Successfully renamed."
-msgstr ""
-
-#: dolphinmainwindow.cpp:254
-msgctxt "@info:status"
-msgid "Created folder."
-msgstr "ఫోల్డరు సృష్టించబడింది."
-
-#: dolphinmainwindow.cpp:364
-msgctxt "@info"
-msgid "Go back"
-msgstr ""
-
-#: dolphinmainwindow.cpp:370
-msgctxt "@info"
-msgid "Go forward"
-msgstr ""
-
-#: dolphinmainwindow.cpp:543
-#, fuzzy
-#| msgctxt "@title:window"
-#| msgid "Information"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "సమాచారం"
-
-#: dolphinmainwindow.cpp:547
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
-msgid "C&lose Current Tab"
-msgstr "టాబ్‌ను మూయుము"
-
-#: dolphinmainwindow.cpp:555
-msgid ""
-"You have multiple tabs open in this window, are you sure you want to quit?"
-msgstr ""
-
-#: dolphinmainwindow.cpp:557
-msgid "Do not ask again"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1109
-msgctxt "@action:inmenu"
-msgid "New Tab"
-msgstr "కొత్త టాబ్"
-
-#: dolphinmainwindow.cpp:1112
-msgctxt "@action:inmenu"
-msgid "Detach Tab"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1114
-msgctxt "@action:inmenu"
-msgid "Close Other Tabs"
-msgstr "ఇతర టాబ్లను మూయుము"
-
-#: dolphinmainwindow.cpp:1116
-msgctxt "@action:inmenu"
-msgid "Close Tab"
-msgstr "టాబ్‌ను మూయుము"
-
-#: dolphinmainwindow.cpp:1442
-msgctxt "@action:inmenu File"
-msgid "New &Window"
-msgstr "(&W) కొత్త విండొ"
-
-#: dolphinmainwindow.cpp:1448
-msgctxt "@action:inmenu File"
-msgid "New Tab"
-msgstr "కొత్త టాబ్"
-
-#: dolphinmainwindow.cpp:1454
-msgctxt "@action:inmenu File"
-msgid "Close Tab"
-msgstr "టాబ్‌ను మూయుము"
-
-#: dolphinmainwindow.cpp:1477
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Paste"
-msgctxt "@action:inmenu Edit"
-msgid "Paste"
-msgstr "అతికించుము"
-
-#: dolphinmainwindow.cpp:1482
-msgctxt "@action:inmenu Edit"
-msgid "Select All"
-msgstr "అన్నిటిని ఎంపికచేయుము"
-
-#: dolphinmainwindow.cpp:1500
-msgctxt "@action:inmenu View"
-msgid "Reload"
-msgstr "తిరిగిలోడ్‌చేయి"
-
-#: dolphinmainwindow.cpp:1506
-msgctxt "@action:inmenu View"
-msgid "Stop"
-msgstr "ఆపుము"
-
-#: dolphinmainwindow.cpp:1507
-#, fuzzy
-#| msgctxt "@label:listbox"
-#| msgid "Sorting:"
-msgctxt "@info"
-msgid "Stop loading"
-msgstr "వరుసక్రమము:"
-
-#: dolphinmainwindow.cpp:1512
-msgctxt "@action:inmenu Navigation Bar"
-msgid "Editable Location"
-msgstr "సరికూర్చదగిన స్థానము"
-
-#: dolphinmainwindow.cpp:1517
-msgctxt "@action:inmenu Navigation Bar"
-msgid "Replace Location"
-msgstr "స్థానమును పునఃస్థాపించుము"
-
-#: dolphinmainwindow.cpp:1528
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
-msgid "Recently Closed Tabs"
-msgstr "టాబ్‌ను మూయుము"
-
-#: dolphinmainwindow.cpp:1551
-msgctxt "@action:inmenu Tools"
-msgid "Show Filter Bar"
-msgstr "ఫిల్టర్ బార్‌ను చూపుము"
-
-#: dolphinmainwindow.cpp:1557
-msgctxt "@action:inmenu Tools"
-msgid "Compare Files"
-msgstr "ఫైళ్ళను పోల్చిచూడుము"
-
-#: dolphinmainwindow.cpp:1563
-#, fuzzy
-#| msgctxt "@action:inmenu Tools"
-#| msgid "Open &Terminal"
-msgctxt "@action:inmenu Tools"
-msgid "Open Terminal"
-msgstr "(&T) టెర్మినల్‌ను తెరువుము"
-
-#: dolphinmainwindow.cpp:1582
-msgctxt "@action:inmenu"
-msgid "Activate Next Tab"
-msgstr "తరువాతి టాబ్‌ను క్రియాశీలంచేయుము"
-
-#: dolphinmainwindow.cpp:1587
-msgctxt "@action:inmenu"
-msgid "Activate Previous Tab"
-msgstr "గత టాబ్‌ను క్రియాశీలంచేయుము"
-
-#: dolphinmainwindow.cpp:1593
-msgctxt "@action:inmenu"
-msgid "Open in New Tab"
-msgstr "కొత్త టాబ్‌నందు తెరువుము"
-
-#: dolphinmainwindow.cpp:1598
-msgctxt "@action:inmenu"
-msgid "Open in New Window"
-msgstr "కొత్త విండోనందు తెరువుము"
-
-#: dolphinmainwindow.cpp:1608
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Panels"
-msgctxt "@action:inmenu Panels"
-msgid "Unlock Panels"
-msgstr "ప్యానల్స్"
-
-#: dolphinmainwindow.cpp:1610
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Panels"
-msgctxt "@action:inmenu Panels"
-msgid "Lock Panels"
-msgstr "ప్యానల్స్"
-
-#: dolphinmainwindow.cpp:1616
-msgctxt "@title:window"
-msgid "Information"
-msgstr "సమాచారం"
-
-#: dolphinmainwindow.cpp:1639
-msgctxt "@title:window"
-msgid "Folders"
-msgstr "ఫోల్డర్లు"
-
-#: dolphinmainwindow.cpp:1660
-msgctxt "@title:window Shell terminal"
-msgid "Terminal"
-msgstr "టెర్మినల్"
-
-#: dolphinmainwindow.cpp:1682
-msgctxt "@title:window"
-msgid "Search"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1713
-msgctxt "@title:window"
-msgid "Places"
-msgstr "స్థలములు"
-
-#: dolphinmainwindow.cpp:1741
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Panels"
-msgctxt "@action:inmenu View"
-msgid "Panels"
-msgstr "ప్యానల్స్"
-
-#: dolphinmainwindow.cpp:1889
-msgctxt "@action:intoolbar Close right view"
-msgid "Close"
-msgstr "మూయి"
-
-#: dolphinmainwindow.cpp:1890
-msgctxt "@info"
-msgid "Close right view"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1893
-msgctxt "@action:intoolbar Close left view"
-msgid "Close"
-msgstr "మూయి"
-
-#: dolphinmainwindow.cpp:1894
-msgctxt "@info"
-msgid "Close left view"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1898
-msgctxt "@action:intoolbar Split view"
-msgid "Split"
-msgstr "విభజించు"
-
-#: dolphinmainwindow.cpp:1899
-#, fuzzy
-#| msgctxt "@option:check Startup Settings"
-#| msgid "Split view mode"
-msgctxt "@info"
-msgid "Split view"
-msgstr "వీక్షణ తీరును విభజించుము"
-
 #: dolphinviewcontainer.cpp:304
 msgctxt "@info:progress"
 msgid "Loading folder..."
@@ -2010,6 +1666,386 @@ msgstr "ప్రోటోకాల్ డాల్ఫిన్ చేత మద
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "సరికాని ప్రోటోకాల్"
+
+#: dolphincontextmenu.cpp:169
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "ఖాళీ ట్రాష్"
+
+#: dolphincontextmenu.cpp:175 dolphincontextmenu.cpp:344
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "స్థలములకు జతచేయుము"
+
+#: dolphincontextmenu.cpp:189
+msgctxt "@info"
+msgid "Do you really want to empty the Trash? All items will be deleted."
+msgstr "మీరు నిజంగా ట్రాష్‌ను ఖాళీ చేద్దమని అనుకొనుచున్నారా? అన్ని అంశములు తొలగించబడతాయి."
+
+#: dolphincontextmenu.cpp:193
+msgctxt "@action:button"
+msgid "Empty Trash"
+msgstr "ఖాళీ ట్రాష్"
+
+#: dolphincontextmenu.cpp:202
+msgctxt "@label"
+msgid "Trash"
+msgstr "ట్రాష్"
+
+#: dolphincontextmenu.cpp:212
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "తిరిగివుంచుము"
+
+#: dolphincontextmenu.cpp:251 dolphinmainwindow.cpp:1588
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "కొత్తది సృష్టించుము"
+
+#: dolphincontextmenu.cpp:264
+msgctxt "@action:inmenu Add selected folder to places"
+msgid "Add to Places"
+msgstr "స్థలములకు జతచేయుము"
+
+#: dolphincontextmenu.cpp:271
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Window"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Window"
+msgstr "కొత్త విండోనందు తెరువుము"
+
+#: dolphincontextmenu.cpp:277
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Tab"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Tab"
+msgstr "కొత్త టాబ్‌నందు తెరువుము"
+
+#: dolphincontextmenu.cpp:437
+msgctxt "@action:inmenu"
+msgid "Paste Into Folder"
+msgstr "ఫోల్డరు లోనికి అతికించుము"
+
+#: dolphincontextmenu.cpp:549
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "&Move to Trash"
+msgstr "ట్రాష్‌కు కదుల్చుము"
+
+#: dolphincontextmenu.cpp:552
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "&Delete"
+msgstr "తొలగించుము"
+
+#: dolphinmainwindow.cpp:237
+msgctxt "@info:status"
+msgid "Successfully copied."
+msgstr ""
+
+#: dolphinmainwindow.cpp:241
+msgctxt "@info:status"
+msgid "Successfully moved."
+msgstr ""
+
+#: dolphinmainwindow.cpp:245
+msgctxt "@info:status"
+msgid "Successfully linked."
+msgstr ""
+
+#: dolphinmainwindow.cpp:249
+msgctxt "@info:status"
+msgid "Successfully moved to trash."
+msgstr ""
+
+#: dolphinmainwindow.cpp:253
+msgctxt "@info:status"
+msgid "Successfully renamed."
+msgstr ""
+
+#: dolphinmainwindow.cpp:258
+msgctxt "@info:status"
+msgid "Created folder."
+msgstr "ఫోల్డరు సృష్టించబడింది."
+
+#: dolphinmainwindow.cpp:368
+msgctxt "@info"
+msgid "Go back"
+msgstr ""
+
+#: dolphinmainwindow.cpp:374
+msgctxt "@info"
+msgid "Go forward"
+msgstr ""
+
+#: dolphinmainwindow.cpp:547
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Information"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "సమాచారం"
+
+#: dolphinmainwindow.cpp:551
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Close Tab"
+msgid "C&lose Current Tab"
+msgstr "టాబ్‌ను మూయుము"
+
+#: dolphinmainwindow.cpp:559
+msgid ""
+"You have multiple tabs open in this window, are you sure you want to quit?"
+msgstr ""
+
+#: dolphinmainwindow.cpp:561
+msgid "Do not ask again"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1125
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr "కొత్త టాబ్"
+
+#: dolphinmainwindow.cpp:1128
+msgctxt "@action:inmenu"
+msgid "Detach Tab"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1130
+msgctxt "@action:inmenu"
+msgid "Close Other Tabs"
+msgstr "ఇతర టాబ్లను మూయుము"
+
+#: dolphinmainwindow.cpp:1132
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "టాబ్‌ను మూయుము"
+
+#: dolphinmainwindow.cpp:1373
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Location:"
+msgctxt "@action:inmenu"
+msgid "Location Bar"
+msgstr "స్థానము:"
+
+#: dolphinmainwindow.cpp:1381
+#, fuzzy
+#| msgid "&Go"
+msgctxt "@action:inmenu"
+msgid "Go"
+msgstr "(&G) వెళ్ళు"
+
+#: dolphinmainwindow.cpp:1389
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Tools"
+msgctxt "@action:inmenu"
+msgid "Tools"
+msgstr "పనిముట్లు"
+
+#: dolphinmainwindow.cpp:1397
+#, fuzzy
+#| msgctxt "@action:inmenu Go"
+#| msgid "Sett&ings"
+msgctxt "@action:inmenu"
+msgid "Settings"
+msgstr "(&i) అమర్పులు"
+
+#: dolphinmainwindow.cpp:1404
+msgctxt "@action:inmenu"
+msgid "Help"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1595
+msgctxt "@action:inmenu File"
+msgid "New &Window"
+msgstr "(&W) కొత్త విండొ"
+
+#: dolphinmainwindow.cpp:1601
+msgctxt "@action:inmenu File"
+msgid "New Tab"
+msgstr "కొత్త టాబ్"
+
+#: dolphinmainwindow.cpp:1607
+msgctxt "@action:inmenu File"
+msgid "Close Tab"
+msgstr "టాబ్‌ను మూయుము"
+
+#: dolphinmainwindow.cpp:1630
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Paste"
+msgctxt "@action:inmenu Edit"
+msgid "Paste"
+msgstr "అతికించుము"
+
+#: dolphinmainwindow.cpp:1635
+msgctxt "@action:inmenu Edit"
+msgid "Select All"
+msgstr "అన్నిటిని ఎంపికచేయుము"
+
+#: dolphinmainwindow.cpp:1653
+msgctxt "@action:inmenu View"
+msgid "Reload"
+msgstr "తిరిగిలోడ్‌చేయి"
+
+#: dolphinmainwindow.cpp:1659
+msgctxt "@action:inmenu View"
+msgid "Stop"
+msgstr "ఆపుము"
+
+#: dolphinmainwindow.cpp:1660
+#, fuzzy
+#| msgctxt "@label:listbox"
+#| msgid "Sorting:"
+msgctxt "@info"
+msgid "Stop loading"
+msgstr "వరుసక్రమము:"
+
+#: dolphinmainwindow.cpp:1665
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Editable Location"
+msgstr "సరికూర్చదగిన స్థానము"
+
+#: dolphinmainwindow.cpp:1670
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Replace Location"
+msgstr "స్థానమును పునఃస్థాపించుము"
+
+#: dolphinmainwindow.cpp:1681
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Close Tab"
+msgid "Recently Closed Tabs"
+msgstr "టాబ్‌ను మూయుము"
+
+#: dolphinmainwindow.cpp:1702
+msgctxt "@action:inmenu Tools"
+msgid "Show Filter Bar"
+msgstr "ఫిల్టర్ బార్‌ను చూపుము"
+
+#: dolphinmainwindow.cpp:1708
+msgctxt "@action:inmenu Tools"
+msgid "Compare Files"
+msgstr "ఫైళ్ళను పోల్చిచూడుము"
+
+#: dolphinmainwindow.cpp:1714
+#, fuzzy
+#| msgctxt "@action:inmenu Tools"
+#| msgid "Open &Terminal"
+msgctxt "@action:inmenu Tools"
+msgid "Open Terminal"
+msgstr "(&T) టెర్మినల్‌ను తెరువుము"
+
+#: dolphinmainwindow.cpp:1733
+msgctxt "@action:inmenu"
+msgid "Activate Next Tab"
+msgstr "తరువాతి టాబ్‌ను క్రియాశీలంచేయుము"
+
+#: dolphinmainwindow.cpp:1738
+msgctxt "@action:inmenu"
+msgid "Activate Previous Tab"
+msgstr "గత టాబ్‌ను క్రియాశీలంచేయుము"
+
+#: dolphinmainwindow.cpp:1744
+msgctxt "@action:inmenu"
+msgid "Open in New Tab"
+msgstr "కొత్త టాబ్‌నందు తెరువుము"
+
+#: dolphinmainwindow.cpp:1749
+msgctxt "@action:inmenu"
+msgid "Open in New Window"
+msgstr "కొత్త విండోనందు తెరువుము"
+
+#: dolphinmainwindow.cpp:1759
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Panels"
+msgctxt "@action:inmenu Panels"
+msgid "Unlock Panels"
+msgstr "ప్యానల్స్"
+
+#: dolphinmainwindow.cpp:1761
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Panels"
+msgctxt "@action:inmenu Panels"
+msgid "Lock Panels"
+msgstr "ప్యానల్స్"
+
+#: dolphinmainwindow.cpp:1767
+msgctxt "@title:window"
+msgid "Information"
+msgstr "సమాచారం"
+
+#: dolphinmainwindow.cpp:1790
+msgctxt "@title:window"
+msgid "Folders"
+msgstr "ఫోల్డర్లు"
+
+#: dolphinmainwindow.cpp:1811
+msgctxt "@title:window Shell terminal"
+msgid "Terminal"
+msgstr "టెర్మినల్"
+
+#: dolphinmainwindow.cpp:1833
+msgctxt "@title:window"
+msgid "Search"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1864
+msgctxt "@title:window"
+msgid "Places"
+msgstr "స్థలములు"
+
+#: dolphinmainwindow.cpp:1894
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Panels"
+msgctxt "@action:inmenu View"
+msgid "Panels"
+msgstr "ప్యానల్స్"
+
+#: dolphinmainwindow.cpp:2103
+msgctxt "@action:intoolbar Close right view"
+msgid "Close"
+msgstr "మూయి"
+
+#: dolphinmainwindow.cpp:2104
+msgctxt "@info"
+msgid "Close right view"
+msgstr ""
+
+#: dolphinmainwindow.cpp:2107
+msgctxt "@action:intoolbar Close left view"
+msgid "Close"
+msgstr "మూయి"
+
+#: dolphinmainwindow.cpp:2108
+msgctxt "@info"
+msgid "Close left view"
+msgstr ""
+
+#: dolphinmainwindow.cpp:2112
+msgctxt "@action:intoolbar Split view"
+msgid "Split"
+msgstr "విభజించు"
+
+#: dolphinmainwindow.cpp:2113
+#, fuzzy
+#| msgctxt "@option:check Startup Settings"
+#| msgid "Split view mode"
+msgctxt "@info"
+msgid "Split view"
+msgstr "వీక్షణ తీరును విభజించుము"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -2067,26 +2103,9 @@ msgctxt "@title:menu"
 msgid "Dolphin Toolbar"
 msgstr "డాల్ఫిన్ పనిముట్లపట్టీ"
 
-#. i18n: file: dolphinui.rc:34
-#. i18n: ectx: Menu (navigation_bar)
-#: rc.cpp:23
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Location:"
-msgctxt "@title:menu"
-msgid "Location Bar"
-msgstr "స్థానము:"
-
-#. i18n: file: dolphinui.rc:88
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:26
-msgctxt "@title:menu"
-msgid "Main Toolbar"
-msgstr "మెయిన్ పనిముట్లపట్టీ"
-
 #. i18n: file: panels/folders/dolphin_folderspanelsettings.kcfg:10
 #. i18n: ectx: label, entry (ShowHiddenFiles), group (FoldersPanel)
-#: rc.cpp:29
+#: rc.cpp:23
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show hidden files"
@@ -2095,13 +2114,13 @@ msgstr "మరుగునవుంచిన ఫైళ్ళను చూపు�
 
 #. i18n: file: panels/folders/dolphin_folderspanelsettings.kcfg:14
 #. i18n: ectx: label, entry (AutoScrolling), group (FoldersPanel)
-#: rc.cpp:32
+#: rc.cpp:26
 msgid "Automatic scrolling"
 msgstr ""
 
 #. i18n: file: panels/information/dolphin_informationpanelsettings.kcfg:10
 #. i18n: ectx: label, entry (showPreview), group (InformationPanel)
-#: rc.cpp:35
+#: rc.cpp:29
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show preview"
@@ -2110,7 +2129,7 @@ msgstr "ముందస్తు వీక్షణం జరిపించు�
 
 #. i18n: file: search/dolphin_searchsettings.kcfg:10
 #. i18n: ectx: label, entry (Location), group (Search)
-#: rc.cpp:38
+#: rc.cpp:32
 #, fuzzy
 #| msgctxt "@label:textbox"
 #| msgid "Location:"
@@ -2119,7 +2138,7 @@ msgstr "స్థానము:"
 
 #. i18n: file: search/dolphin_searchsettings.kcfg:14
 #. i18n: ectx: label, entry (What), group (Search)
-#: rc.cpp:41
+#: rc.cpp:35
 msgid "What"
 msgstr ""
 
@@ -2129,7 +2148,7 @@ msgstr ""
 #. i18n: ectx: label, entry (FontFamily), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:21
 #. i18n: ectx: label, entry (FontFamily), group (IconsMode)
-#: rc.cpp:44 rc.cpp:72 rc.cpp:231
+#: rc.cpp:38 rc.cpp:66 rc.cpp:225
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font family"
@@ -2142,7 +2161,7 @@ msgstr "ఫాంటు కుటుంబము"
 #. i18n: ectx: label, entry (UseSystemFont), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:17
 #. i18n: ectx: label, entry (UseSystemFont), group (IconsMode)
-#: rc.cpp:47 rc.cpp:75 rc.cpp:228
+#: rc.cpp:41 rc.cpp:69 rc.cpp:222
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Use system font"
@@ -2155,7 +2174,7 @@ msgstr "సిస్టమ్ ఫాంటును వుపయోగించ�
 #. i18n: ectx: label, entry (FontSize), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:25
 #. i18n: ectx: label, entry (FontSize), group (IconsMode)
-#: rc.cpp:50 rc.cpp:78 rc.cpp:234
+#: rc.cpp:44 rc.cpp:72 rc.cpp:228
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font size"
@@ -2168,7 +2187,7 @@ msgstr "ఫాంటు పరిమాణము"
 #. i18n: ectx: label, entry (ItalicFont), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:29
 #. i18n: ectx: label, entry (ItalicFont), group (IconsMode)
-#: rc.cpp:53 rc.cpp:81 rc.cpp:237
+#: rc.cpp:47 rc.cpp:75 rc.cpp:231
 #, fuzzy
 #| msgctxt "@label Font style"
 #| msgid "Italic"
@@ -2181,7 +2200,7 @@ msgstr "ఇటాలిక్"
 #. i18n: ectx: label, entry (FontWeight), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:33
 #. i18n: ectx: label, entry (FontWeight), group (IconsMode)
-#: rc.cpp:56 rc.cpp:84 rc.cpp:240
+#: rc.cpp:50 rc.cpp:78 rc.cpp:234
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font weight"
@@ -2194,7 +2213,7 @@ msgstr "ఫాంటు వెయిట్"
 #. i18n: ectx: label, entry (IconSize), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:57
 #. i18n: ectx: label, entry (IconSize), group (IconsMode)
-#: rc.cpp:59 rc.cpp:87 rc.cpp:252
+#: rc.cpp:53 rc.cpp:81 rc.cpp:246
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Icon size"
@@ -2207,7 +2226,7 @@ msgstr "ప్రతిమ పరిమాణము"
 #. i18n: ectx: label, entry (PreviewSize), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:66
 #. i18n: ectx: label, entry (PreviewSize), group (IconsMode)
-#: rc.cpp:62 rc.cpp:90 rc.cpp:258
+#: rc.cpp:56 rc.cpp:84 rc.cpp:252
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Preview size"
@@ -2216,7 +2235,7 @@ msgstr "ముందస్తు వీక్షణం పరిమాణము"
 
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:40
 #. i18n: ectx: label, entry (ColumnWidth), group (ColumnMode)
-#: rc.cpp:65
+#: rc.cpp:59
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Column width"
@@ -2225,7 +2244,7 @@ msgstr "నిలువువరుస వెడల్పు"
 
 #. i18n: file: settings/dolphin_detailsmodesettings.kcfg:40
 #. i18n: ectx: label, entry (ExpandableFolders), group (DetailsMode)
-#: rc.cpp:93
+#: rc.cpp:87
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Expandable folders"
@@ -2234,20 +2253,20 @@ msgstr "విస్తరించదగిన ఫోల్డర్లు"
 
 #. i18n: file: settings/dolphin_detailsmodesettings.kcfg:44
 #. i18n: ectx: label, entry (ColumnPositions), group (DetailsMode)
-#: rc.cpp:96
+#: rc.cpp:90
 msgid "Position of columns"
 msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:11
 #. i18n: ectx: label, entry (ShowHiddenFiles), group (Settings)
-#: rc.cpp:103
+#: rc.cpp:97
 msgctxt "@label"
 msgid "Show hidden files"
 msgstr "మరుగునవుంచిన ఫైళ్ళను చూపుము"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:12
 #. i18n: ectx: whatsthis, entry (ShowHiddenFiles), group (Settings)
-#: rc.cpp:106
+#: rc.cpp:100
 msgctxt "@info:whatsthis"
 msgid ""
 "When this option is enabled hidden files, such as those starting with a '.', "
@@ -2258,7 +2277,7 @@ msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:19
 #. i18n: ectx: label, entry (Version), group (Dolphin)
-#: rc.cpp:109
+#: rc.cpp:103
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Permissions"
@@ -2268,21 +2287,21 @@ msgstr "అనుమతులు"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:20
 #. i18n: ectx: whatsthis, entry (Version), group (Dolphin)
-#: rc.cpp:112
+#: rc.cpp:106
 msgctxt "@info:whatsthis"
 msgid "This option defines the used version of the view properties."
 msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:26
 #. i18n: ectx: label, entry (ViewMode), group (Dolphin)
-#: rc.cpp:115
+#: rc.cpp:109
 msgctxt "@label"
 msgid "View Mode"
 msgstr "వీక్షణం తీరు"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:27
 #. i18n: ectx: whatsthis, entry (ViewMode), group (Dolphin)
-#: rc.cpp:118
+#: rc.cpp:112
 msgctxt "@info:whatsthis"
 msgid ""
 "This option controls the style of the view. Currently supported values "
@@ -2293,14 +2312,14 @@ msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:34
 #. i18n: ectx: label, entry (ShowPreview), group (Dolphin)
-#: rc.cpp:121
+#: rc.cpp:115
 msgctxt "@label"
 msgid "Show preview"
 msgstr "ముందస్తు వీక్షణం జరిపించుము"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:35
 #. i18n: ectx: whatsthis, entry (ShowPreview), group (Dolphin)
-#: rc.cpp:124
+#: rc.cpp:118
 msgctxt "@info:whatsthis"
 msgid ""
 "When this option is enabled, a preview of the file content is shown as an "
@@ -2310,14 +2329,14 @@ msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:40
 #. i18n: ectx: label, entry (CategorizedSorting), group (Dolphin)
-#: rc.cpp:127
+#: rc.cpp:121
 msgctxt "@label"
 msgid "Categorized Sorting"
 msgstr "వర్గీకరించిన వరుసక్రమము"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:41
 #. i18n: ectx: whatsthis, entry (CategorizedSorting), group (Dolphin)
-#: rc.cpp:130
+#: rc.cpp:124
 msgctxt "@info:whatsthis"
 msgid ""
 "When this option is enabled, the sorted items are summarized by their "
@@ -2326,14 +2345,14 @@ msgstr "ఈ ఐచ్చికం చేతనమైనప్పుడు, వ�
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:46
 #. i18n: ectx: label, entry (Sorting), group (Dolphin)
-#: rc.cpp:133
+#: rc.cpp:127
 msgctxt "@label"
 msgid "Sort files by"
 msgstr "ఫైళ్ళను యిలా వరుసక్రమముచేయుము"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:47
 #. i18n: ectx: whatsthis, entry (Sorting), group (Dolphin)
-#: rc.cpp:136
+#: rc.cpp:130
 msgctxt "@info:whatsthis"
 msgid ""
 "This option defines which attribute (name, size, date, etc.) sorting is "
@@ -2344,49 +2363,49 @@ msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:54
 #. i18n: ectx: label, entry (SortOrder), group (Dolphin)
-#: rc.cpp:139
+#: rc.cpp:133
 msgctxt "@label"
 msgid "Order in which to sort files"
 msgstr "ఏ క్రమములో ఫైళ్ళను వరుసక్రమము చేయాలి"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:61
 #. i18n: ectx: label, entry (SortFoldersFirst), group (Dolphin)
-#: rc.cpp:142
+#: rc.cpp:136
 msgctxt "@label"
 msgid "Show folders first when sorting files and folders"
 msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:66
 #. i18n: ectx: label, entry (AdditionalInfo), group (Dolphin)
-#: rc.cpp:145
+#: rc.cpp:139
 msgctxt "@label"
 msgid "Additional information (deprecated, use AdditionInfoV2 instead)"
 msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:71
 #. i18n: ectx: label, entry (AdditionalInfoV2), group (Dolphin)
-#: rc.cpp:148
+#: rc.cpp:142
 msgctxt "@label"
 msgid "Additional information"
 msgstr "అదనపు సమాచారము"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:76
 #. i18n: ectx: label, entry (Timestamp), group (Dolphin)
-#: rc.cpp:151
+#: rc.cpp:145
 msgctxt "@label"
 msgid "Properties last changed"
 msgstr "చివరిగా మార్చిన గుణములు"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:77
 #. i18n: ectx: whatsthis, entry (Timestamp), group (Dolphin)
-#: rc.cpp:154
+#: rc.cpp:148
 msgctxt "@info:whatsthis"
 msgid "The last time these properties were changed by the user."
 msgstr "చివరిసారిగా ఈ గుణములు వినియోగదారిచేత మార్చబడినవి."
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:12
 #. i18n: ectx: label, entry (EditableUrl), group (General)
-#: rc.cpp:163
+#: rc.cpp:157
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the URL be editable for the user"
@@ -2395,13 +2414,13 @@ msgstr "వినియోగదారికి URL సరికూర్చ గ
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:16
 #. i18n: ectx: label, entry (UrlCompletionMode), group (General)
-#: rc.cpp:166
+#: rc.cpp:160
 msgid "Text completion mode of the URL Navigator"
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:20
 #. i18n: ectx: label, entry (ShowFullPath), group (General)
-#: rc.cpp:169
+#: rc.cpp:163
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the full path be shown inside the location bar"
@@ -2410,7 +2429,7 @@ msgstr "స్థానపు పట్టీ లోపల పూర్తి �
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:24
 #. i18n: ectx: label, entry (FirstRun), group (General)
-#: rc.cpp:172
+#: rc.cpp:166
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Is the application started the first time"
@@ -2421,7 +2440,7 @@ msgstr "అనువర్తనము మొదటి సారి ప్రా
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:28
 #. i18n: ectx: label, entry (ModifiedStartupSettings), group (General)
-#: rc.cpp:175
+#: rc.cpp:169
 msgid ""
 "Have the startup settings been modified (internal setting not shown in the "
 "UI)"
@@ -2429,7 +2448,7 @@ msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:32
 #. i18n: ectx: label, entry (HomeUrl), group (General)
-#: rc.cpp:178
+#: rc.cpp:172
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Home URL"
@@ -2438,7 +2457,7 @@ msgstr "నివాస URL"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:36
 #. i18n: ectx: label, entry (SplitView), group (General)
-#: rc.cpp:181
+#: rc.cpp:175
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Split the view into two panes"
@@ -2447,7 +2466,7 @@ msgstr "వీక్షణమును రెండు పేన్స్  ల�
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:40
 #. i18n: ectx: label, entry (FilterBar), group (General)
-#: rc.cpp:184
+#: rc.cpp:178
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the filter bar be shown"
@@ -2456,7 +2475,7 @@ msgstr "ఫిల్టర్ బార్ చూపవలెను"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:44
 #. i18n: ectx: label, entry (GlobalViewProps), group (General)
-#: rc.cpp:187
+#: rc.cpp:181
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the view properties be used for all directories"
@@ -2465,7 +2484,7 @@ msgstr "వీక్షణ గుణములు అన్ని డైరెక
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:48
 #. i18n: ectx: label, entry (BrowseThroughArchives), group (General)
-#: rc.cpp:190
+#: rc.cpp:184
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Browse through archives"
@@ -2474,13 +2493,13 @@ msgstr "ఆర్చీవ్సు ద్వారా బ్రౌజ్ చే
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:52
 #. i18n: ectx: label, entry (ConfirmClosingMultipleTabs), group (General)
-#: rc.cpp:193
+#: rc.cpp:187
 msgid "Ask for confirmation when closing windows with multiple tabs."
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:56
 #. i18n: ectx: label, entry (RenameInline), group (General)
-#: rc.cpp:196
+#: rc.cpp:190
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Rename inline"
@@ -2489,7 +2508,7 @@ msgstr "ఇన్‌లైన్‌ను పునఃనామకరణ చే�
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:60
 #. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
-#: rc.cpp:199
+#: rc.cpp:193
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show selection toggle"
@@ -2498,7 +2517,7 @@ msgstr "ఎంపిక టోగుల్‌ను చూపుము"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:64
 #. i18n: ectx: label, entry (ShowToolTips), group (General)
-#: rc.cpp:202
+#: rc.cpp:196
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show tooltips"
@@ -2507,7 +2526,7 @@ msgstr "పనిముట్టుచిట్కాను చూపుము"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:68
 #. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
-#: rc.cpp:205
+#: rc.cpp:199
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show 'Copy To' and 'Move To' commands in context menu"
@@ -2516,7 +2535,7 @@ msgstr "కాన్టెక్స్టు మెనూనందు 'ఇక్
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:72
 #. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
-#: rc.cpp:208
+#: rc.cpp:202
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Timestamp since when the view properties are valid"
@@ -2525,7 +2544,7 @@ msgstr "వీక్షణ గుణాలు చెల్లునప్పట�
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:75
 #. i18n: ectx: label, entry (AutoExpandFolders), group (General)
-#: rc.cpp:211
+#: rc.cpp:205
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Use auto-expanding folders for all view types"
@@ -2534,7 +2553,7 @@ msgstr "అన్ని వీక్షణ రకములకు స్వయం
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:79
 #. i18n: ectx: label, entry (ShowZoomSlider), group (General)
-#: rc.cpp:214
+#: rc.cpp:208
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show zoom slider in the statusbar"
@@ -2543,7 +2562,7 @@ msgstr "స్థితిపట్టీనందు జూమ్ స్లై�
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:83
 #. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
-#: rc.cpp:217
+#: rc.cpp:211
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show the space information in the statusbar"
@@ -2552,13 +2571,13 @@ msgstr "స్థితిపట్టీనందు జాగా సమాచ�
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:87
 #. i18n: ectx: label, entry (LockPanels), group (General)
-#: rc.cpp:220
+#: rc.cpp:214
 msgid "Lock the layout of the panels"
 msgstr ""
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:13
 #. i18n: ectx: label, entry (Arrangement), group (IconsMode)
-#: rc.cpp:225
+#: rc.cpp:219
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Arrangement"
@@ -2567,7 +2586,7 @@ msgstr "ఏర్పాటు"
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:37
 #. i18n: ectx: label, entry (ItemHeight), group (IconsMode)
-#: rc.cpp:243
+#: rc.cpp:237
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Item height"
@@ -2576,7 +2595,7 @@ msgstr "అంశము ఎత్తు"
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:45
 #. i18n: ectx: label, entry (ItemWidth), group (IconsMode)
-#: rc.cpp:246
+#: rc.cpp:240
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Item width"
@@ -2585,7 +2604,7 @@ msgstr "అంశము వెడల్పు"
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:53
 #. i18n: ectx: label, entry (GridSpacing), group (IconsMode)
-#: rc.cpp:249
+#: rc.cpp:243
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Grid spacing"
@@ -2594,7 +2613,7 @@ msgstr "గ్రిడ్ క్రమాంతరీకరణము"
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:61
 #. i18n: ectx: label, entry (NumberOfTextlines), group (IconsMode)
-#: rc.cpp:255
+#: rc.cpp:249
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Number of textlines"
@@ -2603,9 +2622,26 @@ msgstr "వచనవరుసల సంఖ్య"
 
 #. i18n: file: settings/dolphin_versioncontrolsettings.kcfg:10
 #. i18n: ectx: label, entry (enabledPlugins), group (VersionControl)
-#: rc.cpp:267
+#: rc.cpp:261
 msgid "Enabled plugins"
 msgstr ""
+
+#. i18n: file: dolphinui.rc:34
+#. i18n: ectx: Menu (location_bar)
+#: rc.cpp:264
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Location:"
+msgctxt "@title:menu"
+msgid "Location Bar"
+msgstr "స్థానము:"
+
+#. i18n: file: dolphinui.rc:88
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:267
+msgctxt "@title:menu"
+msgid "Main Toolbar"
+msgstr "మెయిన్ పనిముట్లపట్టీ"
 
 #, fuzzy
 #~| msgctxt "@label:textbox"
