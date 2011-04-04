@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-19 03:32+0100\n"
+"POT-Creation-Date: 2011-04-04 03:34+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -576,43 +576,39 @@ msgstr "లార్స్ క్నొల్"
 msgid "Thanks to many others.\n"
 msgstr "ఇంకా చాలామందికి కృతజ్ఞతలు.\n"
 
-#: MainWindow.cpp:242
+#: MainWindow.cpp:241
 #, fuzzy
 #| msgid "New &Tab"
 msgid "&New Tab"
 msgstr "(&T) కొత్త టాబ్"
 
-#: MainWindow.cpp:251
+#: MainWindow.cpp:250
 msgid "New &Window"
 msgstr "(&W) కొత్త విండొ"
 
-#: MainWindow.cpp:257
-msgid "Remote Connection..."
-msgstr "రిమోట్ అనుసంధానము..."
-
-#: MainWindow.cpp:268
+#: MainWindow.cpp:261
 msgid "&Bookmarks"
 msgstr "(&B) పేజీ గుర్తులు"
 
-#: MainWindow.cpp:295 Part.cpp:101
+#: MainWindow.cpp:288 Part.cpp:101
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Profiles..."
 msgstr "ప్రొఫైల్సును నిర్వహించుము..."
 
-#: MainWindow.cpp:301
+#: MainWindow.cpp:294
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:398
+#: MainWindow.cpp:391
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా నిష్క్రమించుదామని అనుకొనుచున్నారా?"
 
-#: MainWindow.cpp:400 SessionController.cpp:612
+#: MainWindow.cpp:393 SessionController.cpp:612
 msgid "Confirm Close"
 msgstr "ముసివేత నిర్ధారించు"
 
-#: MainWindow.cpp:402
+#: MainWindow.cpp:395
 msgid "Close Current Tab"
 msgstr "ప్రస్తుత టాబ్ మూసివేయి"
 
@@ -875,7 +871,7 @@ msgstr "టాబ్ శీర్షికలు"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: file: RenameTabsDialog.ui:26
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:95 rc.cpp:424
+#: rc.cpp:95 rc.cpp:397
 msgid "Tab title format:"
 msgstr "టాబ్ శీర్షిక రూపము:"
 
@@ -883,7 +879,7 @@ msgstr "టాబ్ శీర్షిక రూపము:"
 #. i18n: ectx: property (toolTip), widget (KLineEdit, tabTitleEdit)
 #. i18n: file: RenameTabsDialog.ui:36
 #. i18n: ectx: property (toolTip), widget (KLineEdit, tabTitleEdit)
-#: rc.cpp:98 rc.cpp:427
+#: rc.cpp:98 rc.cpp:400
 msgid "Normal tab title format"
 msgstr "సాధారణ టాబ్ శీర్షిక రూపము"
 
@@ -891,7 +887,7 @@ msgstr "సాధారణ టాబ్ శీర్షిక రూపము"
 #. i18n: ectx: property (toolTip), widget (QPushButton, tabTitleEditButton)
 #. i18n: file: RenameTabsDialog.ui:43
 #. i18n: ectx: property (toolTip), widget (QPushButton, tabTitleEditButton)
-#: rc.cpp:101 rc.cpp:430
+#: rc.cpp:101 rc.cpp:403
 msgid "Edit normal tab title format"
 msgstr "సాదారణ టాబ్ శీర్షిక రూపాన్ని సరికూర్చుము"
 
@@ -903,7 +899,7 @@ msgstr "సాదారణ టాబ్ శీర్షిక రూపాన్
 #. i18n: ectx: property (text), widget (QPushButton, tabTitleEditButton)
 #. i18n: file: RenameTabsDialog.ui:73
 #. i18n: ectx: property (text), widget (QPushButton, remoteTabTitleEditButton)
-#: rc.cpp:104 rc.cpp:116 rc.cpp:433 rc.cpp:445
+#: rc.cpp:104 rc.cpp:116 rc.cpp:406 rc.cpp:418
 msgid "Insert"
 msgstr "ఇన్సర్‍ట్ (చేర్చుము)"
 
@@ -911,7 +907,7 @@ msgstr "ఇన్సర్‍ట్ (చేర్చుము)"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: RenameTabsDialog.ui:53
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:107 rc.cpp:436
+#: rc.cpp:107 rc.cpp:409
 msgid "Remote tab title format:"
 msgstr "రిమోట్ టాబ్ శీర్షిక రూపము:"
 
@@ -919,7 +915,7 @@ msgstr "రిమోట్ టాబ్ శీర్షిక రూపము:"
 #. i18n: ectx: property (toolTip), widget (KLineEdit, remoteTabTitleEdit)
 #. i18n: file: RenameTabsDialog.ui:63
 #. i18n: ectx: property (toolTip), widget (KLineEdit, remoteTabTitleEdit)
-#: rc.cpp:110 rc.cpp:439
+#: rc.cpp:110 rc.cpp:412
 msgid ""
 "Tab title format used when a remote command (e.g. connection to another "
 "computer via SSH) is being executed"
@@ -931,7 +927,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QPushButton, remoteTabTitleEditButton)
 #. i18n: file: RenameTabsDialog.ui:70
 #. i18n: ectx: property (toolTip), widget (QPushButton, remoteTabTitleEditButton)
-#: rc.cpp:113 rc.cpp:442
+#: rc.cpp:113 rc.cpp:415
 msgid "Edit tab title format used when executing remote commands"
 msgstr "రిమోట్ ఆదేశములను ఎగ్జిక్యూట్ చేస్తున్నప్పుడు వుపయోగించు టాబ్ శీర్షిక రూపాన్ని సరికూర్చుము"
 
@@ -1495,99 +1491,45 @@ msgstr "ఎంపికచేసిన ప్రొఫైలు కొత్త 
 msgid "Set as Default"
 msgstr "అప్రమేయం చెయి"
 
-#. i18n: file: RemoteConnectionDialog.ui:25
-#. i18n: ectx: property (windowTitle), widget (QWidget, RemoteConnectionDialog)
-#: rc.cpp:397
-msgid "Remote Connection"
-msgstr "రిమోట్ అనుసంధానము"
-
-#. i18n: file: RemoteConnectionDialog.ui:31
-#. i18n: ectx: property (text), widget (QLabel, hostLabel)
-#: rc.cpp:400
-msgid "Host:"
-msgstr "హొస్ట్:"
-
-#. i18n: file: RemoteConnectionDialog.ui:41
-#. i18n: ectx: property (text), widget (QLabel, userLabel)
-#: rc.cpp:403
-msgid "User:"
-msgstr "యూజర్:"
-
-#. i18n: file: RemoteConnectionDialog.ui:58
-#. i18n: ectx: property (text), widget (QPushButton, lookupHostButton)
-#: rc.cpp:406
-msgid "Lookup..."
-msgstr "లుకప్..."
-
-#. i18n: file: RemoteConnectionDialog.ui:65
-#. i18n: ectx: property (text), widget (QLabel, serviceLabel)
-#: rc.cpp:409
-msgid "Service:"
-msgstr "సేవ:"
-
-#. i18n: file: RemoteConnectionDialog.ui:73
-#. i18n: ectx: property (text), item, widget (QComboBox, serviceComboBox)
-#: rc.cpp:412
-msgid "SSH"
-msgstr "ఎస్ ఎస్ హెచ్"
-
-#. i18n: file: RemoteConnectionDialog.ui:78
-#. i18n: ectx: property (text), item, widget (QComboBox, serviceComboBox)
-#: rc.cpp:415
-msgid "Secure FTP"
-msgstr "సురక్షిత FTP"
-
-#. i18n: file: RemoteConnectionDialog.ui:86
-#. i18n: ectx: property (text), widget (QLabel, backgroundColorLabel)
-#: rc.cpp:418
-msgid "Background color:"
-msgstr "బ్యాక్‌గ్రౌండ్ రంగు:"
-
-#. i18n: file: RemoteConnectionDialog.ui:96
-#. i18n: ectx: property (text), widget (QCheckBox, saveAsCustomCheckBox)
-#: rc.cpp:421
-msgid "Save as custom session"
-msgstr "మలచుకొనిన సెషన్‌వలె భద్రపరచుము"
-
 #. i18n: file: ../desktop/konsoleui.rc:5
 #. i18n: ectx: Menu (file)
-#: rc.cpp:448
+#: rc.cpp:421
 msgid "File"
 msgstr "ఫైలు"
 
 #. i18n: file: ../desktop/konsoleui.rc:14
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:451
+#: rc.cpp:424
 msgid "Edit"
 msgstr "సరికూర్చు"
 
 #. i18n: file: ../desktop/konsoleui.rc:17
 #. i18n: ectx: Menu (view)
-#: rc.cpp:454
+#: rc.cpp:427
 msgid "View"
 msgstr "వీక్షణం"
 
 #. i18n: file: ../desktop/konsoleui.rc:18
 #. i18n: ectx: Menu (view-split)
-#: rc.cpp:457
+#: rc.cpp:430
 msgid "Split View"
 msgstr "వీక్షణం విభజించు"
 
 #. i18n: file: ../desktop/konsoleui.rc:33
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:460
+#: rc.cpp:433
 msgid "Settings"
 msgstr "అమరికలు"
 
 #. i18n: file: ../desktop/konsoleui.rc:42
 #. i18n: ectx: Menu (help)
-#: rc.cpp:463
+#: rc.cpp:436
 msgid "Help"
 msgstr "సహాయం"
 
 #. i18n: file: ../desktop/partui.rc:7
 #. i18n: ectx: Menu (history)
-#: rc.cpp:466
+#: rc.cpp:439
 msgid "S&crollback"
 msgstr "(&c) స్క్రోల్‌బ్యాక్"
 
@@ -1595,13 +1537,13 @@ msgstr "(&c) స్క్రోల్‌బ్యాక్"
 #. i18n: ectx: Menu (change-profile)
 #. i18n: file: ../desktop/sessionui.rc:57
 #. i18n: ectx: Menu (change-profile)
-#: rc.cpp:469 rc.cpp:478
+#: rc.cpp:442 rc.cpp:451
 msgid "&Change Profile"
 msgstr "(&C) ప్రొఫైల్ మార్చుము"
 
 #. i18n: file: ../desktop/sessionui.rc:15
 #. i18n: ectx: Menu (edit-copy-input-to)
-#: rc.cpp:472
+#: rc.cpp:445
 #, fuzzy
 #| msgid "Copy Input To..."
 msgid "Copy Input To"
@@ -1609,17 +1551,9 @@ msgstr "ఇన్పుట్ యిచటకు నకలుతీయి..."
 
 #. i18n: file: ../desktop/sessionui.rc:38
 #. i18n: ectx: Menu (debug)
-#: rc.cpp:475
+#: rc.cpp:448
 msgid "Debug"
 msgstr "డీబగ్"
-
-#: RemoteConnectionDialog.cpp:39
-msgid "New Remote Connection"
-msgstr "కొత్త రిమోట్ అనుసంధానము"
-
-#: RemoteConnectionDialog.cpp:41
-msgid "Connect"
-msgstr "అనుసంధానించు"
 
 #: RenameTabsDialog.cpp:31
 msgid "Rename Tab"
@@ -2041,6 +1975,42 @@ msgstr ""
 #: ZModemDialog.cpp:35
 msgid "&Stop"
 msgstr "(&S) ఆపు"
+
+#~ msgid "Remote Connection..."
+#~ msgstr "రిమోట్ అనుసంధానము..."
+
+#~ msgid "Remote Connection"
+#~ msgstr "రిమోట్ అనుసంధానము"
+
+#~ msgid "Host:"
+#~ msgstr "హొస్ట్:"
+
+#~ msgid "User:"
+#~ msgstr "యూజర్:"
+
+#~ msgid "Lookup..."
+#~ msgstr "లుకప్..."
+
+#~ msgid "Service:"
+#~ msgstr "సేవ:"
+
+#~ msgid "SSH"
+#~ msgstr "ఎస్ ఎస్ హెచ్"
+
+#~ msgid "Secure FTP"
+#~ msgstr "సురక్షిత FTP"
+
+#~ msgid "Background color:"
+#~ msgstr "బ్యాక్‌గ్రౌండ్ రంగు:"
+
+#~ msgid "Save as custom session"
+#~ msgstr "మలచుకొనిన సెషన్‌వలె భద్రపరచుము"
+
+#~ msgid "New Remote Connection"
+#~ msgstr "కొత్త రిమోట్ అనుసంధానము"
+
+#~ msgid "Connect"
+#~ msgstr "అనుసంధానించు"
 
 #~ msgid "Next View"
 #~ msgstr "తరువాతి వీక్షణం"
