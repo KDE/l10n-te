@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-10 03:59+0200\n"
+"POT-Creation-Date: 2011-04-15 04:00+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -12532,19 +12532,6 @@ msgctxt "Description of the notified event"
 msgid "Description"
 msgstr "వర్ణన"
 
-#: kparts/browserextension.cpp:645
-#, kde-format
-msgid "<qt>Do you want to search the Internet for <b>%1</b>?</qt>"
-msgstr "<qt><b>%1</b> కోసం ఇంటర్నెట్ లో అన్వేషించనా?</qt>"
-
-#: kparts/browserextension.cpp:646
-msgid "Internet Search"
-msgstr "ఇంటర్ నెట్ అన్వెషణ"
-
-#: kparts/browserextension.cpp:646
-msgid "&Search"
-msgstr "(&S) అన్వెషణ"
-
 #: kparts/browseropenorsavequestion.cpp:100
 #, fuzzy, kde-format
 #| msgid "Re: %1"
@@ -12640,6 +12627,19 @@ msgstr "'%1' ను నిజంగా నడపమంటారా?"
 #: kparts/browserrun.cpp:336
 msgid "Execute File?"
 msgstr "దస్త్రాన్ని నడపమంటారా?"
+
+#: kparts/browserextension.cpp:645
+#, kde-format
+msgid "<qt>Do you want to search the Internet for <b>%1</b>?</qt>"
+msgstr "<qt><b>%1</b> కోసం ఇంటర్నెట్ లో అన్వేషించనా?</qt>"
+
+#: kparts/browserextension.cpp:646
+msgid "Internet Search"
+msgstr "ఇంటర్ నెట్ అన్వెషణ"
+
+#: kparts/browserextension.cpp:646
+msgid "&Search"
+msgstr "(&S) అన్వెషణ"
 
 #: kpty/kptydevice.cpp:322
 msgid "Error reading from PTY"
