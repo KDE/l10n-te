@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmapkg\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-11 06:13+0100\n"
+"POT-Creation-Date: 2011-04-27 03:48+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,83 +25,87 @@ msgstr ""
 "\n"
 "\n"
 
-#: main.cpp:40
+#: main.cpp:41
 msgid "Install, list, remove Plasma packages"
 msgstr ""
 
-#: main.cpp:79
-msgid "Package types that are installable with this tool:"
-msgstr ""
-
 #: main.cpp:80
-msgid "Built in:"
+msgid "Addon Name"
 msgstr ""
 
 #: main.cpp:81
-msgid "    dataengine: Plasma DataEngine plugin"
+msgid "Service Type"
 msgstr ""
 
 #: main.cpp:82
-msgid "    layout-template: Plasma containment and widget layout script"
-msgstr ""
-
-#: main.cpp:83
-msgid "    plasmoid: Plasma widget"
-msgstr ""
-
-#: main.cpp:84
-msgid "    runner: Search plugin (KRunner, etc)"
-msgstr ""
-
-#: main.cpp:85
-msgid "    theme: Plasma SVG theme"
-msgstr ""
-
-#: main.cpp:86
-msgid "    wallpaper: Image pack for use with wallpaper backgrounds"
-msgstr ""
-
-#: main.cpp:87
-msgid "    wallpaperplugin: Wallpaper plugin"
-msgstr ""
-
-#: main.cpp:92
-msgid "Provided by plugins:"
-msgstr ""
-
-#: main.cpp:96 main.cpp:111
-#, kde-format
-msgctxt ""
-"Plugin name and the kind of Plasma related content it provides, both from "
-"the plugin's desktop file"
-msgid "    %1: %2"
-msgstr ""
-
-#: main.cpp:102
-msgid "Provided by .desktop files:"
-msgstr ""
-
-#: main.cpp:118
-msgid "Plasma Package Manager"
-msgstr ""
-
-#: main.cpp:120
-msgid "(C) 2008, Aaron Seigo"
-msgstr ""
-
-#: main.cpp:121
-msgid "Aaron Seigo"
+msgid "Path"
 msgstr ""
 
 #: main.cpp:122
+msgid "Package types that are installable with this tool:"
+msgstr ""
+
+#: main.cpp:123
+msgid "Built in:"
+msgstr ""
+
+#: main.cpp:126
+msgid "DataEngine"
+msgstr ""
+
+#: main.cpp:127
+msgid "Layout Template"
+msgstr ""
+
+#: main.cpp:128
+msgid "Plasmoid"
+msgstr ""
+
+#: main.cpp:129
+msgid "Runner"
+msgstr ""
+
+#: main.cpp:130
+msgid "Theme"
+msgstr ""
+
+#: main.cpp:131
+msgid "Wallpaper Images"
+msgstr ""
+
+#: main.cpp:132
+msgid "Wallpaper Plugin"
+msgstr ""
+
+#: main.cpp:138
+msgid "Provided by plugins:"
+msgstr ""
+
+#: main.cpp:155
+msgid "Provided by .desktop files:"
+msgstr ""
+
+#: main.cpp:171
+msgid "Plasma Package Manager"
+msgstr ""
+
+#: main.cpp:173
+msgid "(C) 2008, Aaron Seigo"
+msgstr ""
+
+#: main.cpp:174
+msgid "Aaron Seigo"
+msgstr ""
+
+#: main.cpp:175
 msgid "Original author"
 msgstr "వాస్తవ మూలకర్త"
 
-#: main.cpp:131
+#: main.cpp:184
 msgid "For install or remove, operates on packages installed for all users."
 msgstr ""
 
-#: main.cpp:137
+#: main.cpp:190
 msgctxt ""
 "theme, wallpaper, etc. are keywords, but they may be translated, as both "
 "versions are recognized by the application (if translated, should be same as "
@@ -111,81 +115,81 @@ msgid ""
 "layout-template, etc."
 msgstr ""
 
-#: main.cpp:141
+#: main.cpp:194
 msgctxt "Do not translate <path>"
 msgid "Install the package at <path>"
 msgstr ""
 
-#: main.cpp:143
+#: main.cpp:196
 msgctxt "Do not translate <path>"
 msgid "Upgrade the package at <path>"
 msgstr ""
 
-#: main.cpp:145
+#: main.cpp:198
 msgid "List installed packages"
 msgstr ""
 
-#: main.cpp:146
+#: main.cpp:199
 msgid "lists all known Package types that can be installed"
 msgstr ""
 
-#: main.cpp:148
+#: main.cpp:201
 msgctxt "Do not translate <name>"
 msgid "Remove the package named <name>"
 msgstr ""
 
-#: main.cpp:150
+#: main.cpp:203
 msgid ""
 "Absolute path to the package root. If not supplied, then the standard data "
 "directories for this KDE session will be searched instead."
 msgstr ""
 
-#: main.cpp:183 main.cpp:220
+#: main.cpp:236 main.cpp:273
 msgctxt "package type"
 msgid "wallpaper"
 msgstr ""
 
-#: main.cpp:210
+#: main.cpp:263
 msgctxt "package type"
 msgid "plasmoid"
 msgstr ""
 
-#: main.cpp:217
+#: main.cpp:270
 msgctxt "package type"
 msgid "theme"
 msgstr ""
 
-#: main.cpp:223
+#: main.cpp:276
 msgctxt "package type"
 msgid "dataengine"
 msgstr ""
 
-#: main.cpp:228
+#: main.cpp:281
 msgctxt "package type"
 msgid "runner"
 msgstr ""
 
-#: main.cpp:233
+#: main.cpp:286
 msgctxt "package type"
 msgid "wallpaperplugin"
 msgstr ""
 
-#: main.cpp:238
+#: main.cpp:291
 msgctxt "package type"
 msgid "layout-template"
 msgstr ""
 
-#: main.cpp:247
+#: main.cpp:300
 #, kde-format
 msgid "Could not find a suitable installer for package of type %1"
 msgstr ""
 
-#: main.cpp:256
+#: main.cpp:309
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr ""
 
-#: main.cpp:276
+#: main.cpp:329
 msgctxt ""
 "The user entered conflicting options packageroot and global, this is the "
 "error message telling the user he can use only one"
@@ -194,32 +198,32 @@ msgid ""
 "one."
 msgstr ""
 
-#: main.cpp:301
+#: main.cpp:354
 #, kde-format
 msgid "Successfully removed %1"
 msgstr ""
 
-#: main.cpp:303
+#: main.cpp:356
 #, kde-format
 msgid "Removal of %1 failed."
 msgstr ""
 
-#: main.cpp:308
+#: main.cpp:361
 #, kde-format
 msgid "Plugin %1 is not installed."
 msgstr ""
 
-#: main.cpp:313
+#: main.cpp:366
 #, kde-format
 msgid "Successfully installed %1"
 msgstr ""
 
-#: main.cpp:315
+#: main.cpp:368
 #, kde-format
 msgid "Installation of %1 failed."
 msgstr ""
 
-#: main.cpp:321
+#: main.cpp:374
 msgctxt ""
 "No option was given, this is the error message telling the user he needs at "
 "least one, do not translate install, remove, upgrade nor list"
