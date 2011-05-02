@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-06 12:16+0200\n"
+"POT-Creation-Date: 2011-05-02 13:35+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1311,11 +1311,6 @@ msgctxt "@info"
 msgid "Columns view mode"
 msgstr "వీక్షణ తీరును విభజించుము"
 
-#: views/draganddrophelper.cpp:108
-msgctxt "@info:status"
-msgid "A folder cannot be dropped into itself"
-msgstr "ఒక ఫోల్డరును అదేఫోల్డరు లోనికి వుంచుట కుదరదు"
-
 #: views/renamedialog.cpp:54
 msgctxt "@title:window"
 msgid "Rename Item"
@@ -1457,6 +1452,11 @@ msgstr "స్థానము ఖాళీగావుంది"
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "స్థానము '%1' సరైనదికాదు."
+
+#: views/draganddrophelper.cpp:108
+msgctxt "@info:status"
+msgid "A folder cannot be dropped into itself"
+msgstr "ఒక ఫోల్డరును అదేఫోల్డరు లోనికి వుంచుట కుదరదు"
 
 #: dolphinpart.cpp:166
 msgctxt "@action:inmenu Edit"
