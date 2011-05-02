@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 03:06+0100\n"
+"POT-Creation-Date: 2011-05-02 03:49+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -308,69 +308,6 @@ msgctxt "session (location)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: kgreeter.cpp:482
-msgctxt "@item:inlistbox session type"
-msgid "Default"
-msgstr "అప్రమెయం"
-
-#: kgreeter.cpp:483
-msgctxt "@item:inlistbox session type"
-msgid "Custom"
-msgstr ""
-
-#: kgreeter.cpp:484
-msgctxt "@item:inlistbox session type"
-msgid "Failsafe"
-msgstr ""
-
-#: kgreeter.cpp:560
-#, kde-format
-msgctxt "@item:inmenu session type"
-msgid "%1 (previous)"
-msgstr ""
-
-#: kgreeter.cpp:622
-#, kde-format
-msgid ""
-"Your saved session type '%1' is not valid any more.\n"
-"Please select a new one, otherwise 'default' will be used."
-msgstr ""
-
-#: kgreeter.cpp:745
-msgid "Warning: this is an unsecured session"
-msgstr ""
-
-#: kgreeter.cpp:747
-msgid ""
-"This display requires no X authorization.\n"
-"This means that anybody can connect to it,\n"
-"open windows on it or intercept your input."
-msgstr ""
-
-#: kgreeter.cpp:799
-msgctxt "@action:button"
-msgid "L&ogin"
-msgstr ""
-
-#: kgreeter.cpp:833 kgreeter.cpp:970
-msgctxt "@title:menu"
-msgid "Session &Type"
-msgstr ""
-
-#: kgreeter.cpp:838 kgreeter.cpp:976
-msgctxt "@title:menu"
-msgid "&Authentication Method"
-msgstr ""
-
-#: kgreeter.cpp:843 kgreeter.cpp:981
-msgctxt "@action:inmenu"
-msgid "&Remote Login"
-msgstr ""
-
-#: kgreeter.cpp:921 kgverify.cpp:1085
-msgid "Login failed"
-msgstr ""
-
 #: kgverify.cpp:187
 msgid "No greeter widget plugin loaded. Check the configuration."
 msgstr ""
@@ -467,6 +404,10 @@ msgstr ""
 
 #: kgverify.cpp:1083
 msgid "Change failed"
+msgstr ""
+
+#: kgverify.cpp:1085 kgreeter.cpp:921
+msgid "Login failed"
 msgstr ""
 
 #: kgverify.cpp:1136
@@ -613,4 +554,63 @@ msgstr ""
 #, kde-format
 msgctxt "... host"
 msgid "X login on %1"
+msgstr ""
+
+#: kgreeter.cpp:482
+msgctxt "@item:inlistbox session type"
+msgid "Default"
+msgstr "అప్రమెయం"
+
+#: kgreeter.cpp:483
+msgctxt "@item:inlistbox session type"
+msgid "Custom"
+msgstr ""
+
+#: kgreeter.cpp:484
+msgctxt "@item:inlistbox session type"
+msgid "Failsafe"
+msgstr ""
+
+#: kgreeter.cpp:560
+#, kde-format
+msgctxt "@item:inmenu session type"
+msgid "%1 (previous)"
+msgstr ""
+
+#: kgreeter.cpp:622
+#, kde-format
+msgid ""
+"Your saved session type '%1' is not valid any more.\n"
+"Please select a new one, otherwise 'default' will be used."
+msgstr ""
+
+#: kgreeter.cpp:745
+msgid "Warning: this is an unsecured session"
+msgstr ""
+
+#: kgreeter.cpp:747
+msgid ""
+"This display requires no X authorization.\n"
+"This means that anybody can connect to it,\n"
+"open windows on it or intercept your input."
+msgstr ""
+
+#: kgreeter.cpp:799
+msgctxt "@action:button"
+msgid "L&ogin"
+msgstr ""
+
+#: kgreeter.cpp:833 kgreeter.cpp:970
+msgctxt "@title:menu"
+msgid "Session &Type"
+msgstr ""
+
+#: kgreeter.cpp:838 kgreeter.cpp:976
+msgctxt "@title:menu"
+msgid "&Authentication Method"
+msgstr ""
+
+#: kgreeter.cpp:843 kgreeter.cpp:981
+msgctxt "@action:inmenu"
+msgid "&Remote Login"
 msgstr ""
