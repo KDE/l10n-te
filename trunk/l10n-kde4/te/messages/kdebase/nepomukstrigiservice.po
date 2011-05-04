@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-28 03:53+0200\n"
+"POT-Creation-Date: 2011-05-04 03:49+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -56,16 +56,20 @@ msgstr ""
 msgid "Indexing files for fast searching. This process may take a while."
 msgstr ""
 
-#: eventmonitor.cpp:117
+#: eventmonitor.cpp:98 eventmonitor.cpp:129
+msgid "Resuming indexing of files for fast searching."
+msgstr ""
+
+#: eventmonitor.cpp:106
+msgid "Suspending the indexing of files to preserve resources."
+msgstr ""
+
+#: eventmonitor.cpp:121
 #, kde-format
 msgid "Disk space is running low (%1 left). Suspending indexing of files."
 msgstr ""
 
-#: eventmonitor.cpp:125
-msgid "Resuming indexing of files for fast searching."
-msgstr ""
-
-#: eventmonitor.cpp:145
+#: eventmonitor.cpp:149
 #, kde-format
 msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
 msgid "Initial indexing of files for fast searching finished in %1"
