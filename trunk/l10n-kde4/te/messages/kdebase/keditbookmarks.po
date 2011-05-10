@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-03 02:32+0100\n"
+"POT-Creation-Date: 2011-05-10 04:06+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,160 +25,6 @@ msgstr ""
 "\n"
 "\n"
 
-#: actionsimpl.cpp:97
-msgid "&Delete"
-msgstr ""
-
-#: actionsimpl.cpp:103
-msgid "Rename"
-msgstr "పునఃనామకరణము"
-
-#: actionsimpl.cpp:109
-#, fuzzy
-#| msgid "Location:"
-msgid "C&hange Location"
-msgstr "స్థానము:"
-
-#: actionsimpl.cpp:115
-msgid "C&hange Comment"
-msgstr ""
-
-#: actionsimpl.cpp:121
-msgid "Chan&ge Icon..."
-msgstr ""
-
-#: actionsimpl.cpp:125
-msgid "Update Favicon"
-msgstr ""
-
-#: actionsimpl.cpp:129 actionsimpl.cpp:504
-msgid "Recursive Sort"
-msgstr ""
-
-#: actionsimpl.cpp:134
-msgid "&New Folder..."
-msgstr ""
-
-#: actionsimpl.cpp:140
-msgid "&New Bookmark"
-msgstr ""
-
-#: actionsimpl.cpp:144
-msgid "&Insert Separator"
-msgstr ""
-
-#: actionsimpl.cpp:149
-msgid "&Sort Alphabetically"
-msgstr ""
-
-#: actionsimpl.cpp:154
-msgid "Set as T&oolbar Folder"
-msgstr ""
-
-#: actionsimpl.cpp:158
-msgid "&Expand All Folders"
-msgstr ""
-
-#: actionsimpl.cpp:162
-msgid "Collapse &All Folders"
-msgstr ""
-
-#: actionsimpl.cpp:167
-msgid "&Open in Konqueror"
-msgstr ""
-
-#: actionsimpl.cpp:172
-msgid "Check &Status"
-msgstr ""
-
-#: actionsimpl.cpp:176
-msgid "Check Status: &All"
-msgstr ""
-
-#: actionsimpl.cpp:180
-msgid "Update All &Favicons"
-msgstr ""
-
-#: actionsimpl.cpp:184
-msgid "Cancel &Checks"
-msgstr ""
-
-#: actionsimpl.cpp:188
-msgid "Cancel &Favicon Updates"
-msgstr ""
-
-#: actionsimpl.cpp:194
-msgid "Import &Netscape Bookmarks..."
-msgstr ""
-
-#: actionsimpl.cpp:200
-msgid "Import &Opera Bookmarks..."
-msgstr ""
-
-#: actionsimpl.cpp:210
-msgid "Import &Galeon Bookmarks..."
-msgstr ""
-
-#: actionsimpl.cpp:216
-msgid "Import &KDE 2 or KDE 3 Bookmarks..."
-msgstr ""
-
-#: actionsimpl.cpp:222
-msgid "Import &Internet Explorer Bookmarks..."
-msgstr ""
-
-#: actionsimpl.cpp:228
-msgid "Import &Mozilla Bookmarks..."
-msgstr ""
-
-#: actionsimpl.cpp:233
-msgid "Export &Netscape Bookmarks"
-msgstr ""
-
-#: actionsimpl.cpp:238
-msgid "Export &Opera Bookmarks..."
-msgstr ""
-
-#: actionsimpl.cpp:243
-msgid "Export &HTML Bookmarks..."
-msgstr ""
-
-#: actionsimpl.cpp:247
-msgid "Export &Internet Explorer Bookmarks..."
-msgstr ""
-
-#: actionsimpl.cpp:252
-msgid "Export &Mozilla Bookmarks..."
-msgstr ""
-
-#: actionsimpl.cpp:298
-msgid "*.html|HTML Bookmark Listing"
-msgstr ""
-
-#: actionsimpl.cpp:342
-msgid "Cut Items"
-msgstr ""
-
-#: actionsimpl.cpp:367
-msgid "Paste"
-msgstr "అతికించుము"
-
-#: actionsimpl.cpp:377
-msgid "Create New Bookmark Folder"
-msgstr ""
-
-#: actionsimpl.cpp:378
-msgid "New folder:"
-msgstr ""
-
-#: actionsimpl.cpp:518
-msgid "Sort Alphabetically"
-msgstr ""
-
-#: actionsimpl.cpp:526
-msgid "Delete Items"
-msgstr ""
-
 #: exporters.cpp:48
 msgid "My Bookmarks"
 msgstr ""
@@ -194,41 +40,6 @@ msgstr ""
 #: faviconupdater.cpp:87
 #, kde-format
 msgid "%1; no HTML component found (%2)"
-msgstr ""
-
-#: importers.cpp:56
-#, kde-format
-msgid "Import %1 Bookmarks"
-msgstr ""
-
-#: importers.cpp:60
-#, kde-format
-msgid "%1 Bookmarks"
-msgstr ""
-
-#: importers.cpp:92
-msgid "Import as a new subfolder or replace all the current bookmarks?"
-msgstr ""
-
-#: importers.cpp:93
-#, kde-format
-msgid "%1 Import"
-msgstr ""
-
-#: importers.cpp:94
-msgid "As New Folder"
-msgstr ""
-
-#: importers.cpp:94
-msgid "Replace"
-msgstr "పునఃస్థాపించు"
-
-#: importers.cpp:199
-msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
-msgstr ""
-
-#: importers.cpp:208
-msgid "*.xml|KDE Bookmark Files (*.xml)"
 msgstr ""
 
 #: importers.h:102
@@ -384,6 +195,225 @@ msgstr ""
 msgid "S&earch:"
 msgstr ""
 
+#: testlink.cpp:76
+msgid "Checking..."
+msgstr ""
+
+#: bookmarkinfowidget.cpp:240
+msgid "Name:"
+msgstr "పేరు:"
+
+#: bookmarkinfowidget.cpp:248
+msgid "Location:"
+msgstr "స్థానము:"
+
+#: bookmarkinfowidget.cpp:256
+msgid "Comment:"
+msgstr ""
+
+#: bookmarkinfowidget.cpp:263
+msgid "First viewed:"
+msgstr ""
+
+#: bookmarkinfowidget.cpp:266
+msgid "Viewed last:"
+msgstr ""
+
+#: bookmarkinfowidget.cpp:269
+msgid "Times visited:"
+msgstr ""
+
+#: actionsimpl.cpp:97
+msgid "&Delete"
+msgstr ""
+
+#: actionsimpl.cpp:103
+msgid "Rename"
+msgstr "పునఃనామకరణము"
+
+#: actionsimpl.cpp:109
+#, fuzzy
+#| msgid "Location:"
+msgid "C&hange Location"
+msgstr "స్థానము:"
+
+#: actionsimpl.cpp:115
+msgid "C&hange Comment"
+msgstr ""
+
+#: actionsimpl.cpp:121
+msgid "Chan&ge Icon..."
+msgstr ""
+
+#: actionsimpl.cpp:125
+msgid "Update Favicon"
+msgstr ""
+
+#: actionsimpl.cpp:129 actionsimpl.cpp:504
+msgid "Recursive Sort"
+msgstr ""
+
+#: actionsimpl.cpp:134
+msgid "&New Folder..."
+msgstr ""
+
+#: actionsimpl.cpp:140
+msgid "&New Bookmark"
+msgstr ""
+
+#: actionsimpl.cpp:144
+msgid "&Insert Separator"
+msgstr ""
+
+#: actionsimpl.cpp:149
+msgid "&Sort Alphabetically"
+msgstr ""
+
+#: actionsimpl.cpp:154
+msgid "Set as T&oolbar Folder"
+msgstr ""
+
+#: actionsimpl.cpp:158
+msgid "&Expand All Folders"
+msgstr ""
+
+#: actionsimpl.cpp:162
+msgid "Collapse &All Folders"
+msgstr ""
+
+#: actionsimpl.cpp:167
+msgid "&Open in Konqueror"
+msgstr ""
+
+#: actionsimpl.cpp:172
+msgid "Check &Status"
+msgstr ""
+
+#: actionsimpl.cpp:176
+msgid "Check Status: &All"
+msgstr ""
+
+#: actionsimpl.cpp:180
+msgid "Update All &Favicons"
+msgstr ""
+
+#: actionsimpl.cpp:184
+msgid "Cancel &Checks"
+msgstr ""
+
+#: actionsimpl.cpp:188
+msgid "Cancel &Favicon Updates"
+msgstr ""
+
+#: actionsimpl.cpp:194
+msgid "Import &Netscape Bookmarks..."
+msgstr ""
+
+#: actionsimpl.cpp:200
+msgid "Import &Opera Bookmarks..."
+msgstr ""
+
+#: actionsimpl.cpp:210
+msgid "Import &Galeon Bookmarks..."
+msgstr ""
+
+#: actionsimpl.cpp:216
+msgid "Import &KDE 2 or KDE 3 Bookmarks..."
+msgstr ""
+
+#: actionsimpl.cpp:222
+msgid "Import &Internet Explorer Bookmarks..."
+msgstr ""
+
+#: actionsimpl.cpp:228
+msgid "Import &Mozilla Bookmarks..."
+msgstr ""
+
+#: actionsimpl.cpp:233
+msgid "Export &Netscape Bookmarks"
+msgstr ""
+
+#: actionsimpl.cpp:238
+msgid "Export &Opera Bookmarks..."
+msgstr ""
+
+#: actionsimpl.cpp:243
+msgid "Export &HTML Bookmarks..."
+msgstr ""
+
+#: actionsimpl.cpp:247
+msgid "Export &Internet Explorer Bookmarks..."
+msgstr ""
+
+#: actionsimpl.cpp:252
+msgid "Export &Mozilla Bookmarks..."
+msgstr ""
+
+#: actionsimpl.cpp:298
+msgid "*.html|HTML Bookmark Listing"
+msgstr ""
+
+#: actionsimpl.cpp:342
+msgid "Cut Items"
+msgstr ""
+
+#: actionsimpl.cpp:367
+msgid "Paste"
+msgstr "అతికించుము"
+
+#: actionsimpl.cpp:377
+msgctxt "@title:window"
+msgid "Create New Bookmark Folder"
+msgstr ""
+
+#: actionsimpl.cpp:378
+msgid "New folder:"
+msgstr ""
+
+#: actionsimpl.cpp:518
+msgid "Sort Alphabetically"
+msgstr ""
+
+#: actionsimpl.cpp:526
+msgid "Delete Items"
+msgstr ""
+
+#: importers.cpp:56
+#, kde-format
+msgid "Import %1 Bookmarks"
+msgstr ""
+
+#: importers.cpp:60
+#, kde-format
+msgid "%1 Bookmarks"
+msgstr ""
+
+#: importers.cpp:92
+msgid "Import as a new subfolder or replace all the current bookmarks?"
+msgstr ""
+
+#: importers.cpp:93
+#, kde-format
+msgctxt "@title:window"
+msgid "%1 Import"
+msgstr ""
+
+#: importers.cpp:94
+msgid "As New Folder"
+msgstr ""
+
+#: importers.cpp:94
+msgid "Replace"
+msgstr "పునఃస్థాపించు"
+
+#: importers.cpp:199
+msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
+msgstr ""
+
+#: importers.cpp:208
+msgid "*.xml|KDE Bookmark Files (*.xml)"
+msgstr ""
+
 #: main.cpp:68
 #, kde-format
 msgid ""
@@ -393,6 +423,9 @@ msgid ""
 msgstr ""
 
 #: main.cpp:71
+#, fuzzy
+#| msgid "Warning"
+msgctxt "@title:window"
 msgid "Warning"
 msgstr "హెచ్చరిక"
 
@@ -507,34 +540,6 @@ msgstr ""
 
 #: main.cpp:171
 msgid "You may only specify a single --import option."
-msgstr ""
-
-#: testlink.cpp:76
-msgid "Checking..."
-msgstr ""
-
-#: bookmarkinfowidget.cpp:240
-msgid "Name:"
-msgstr "పేరు:"
-
-#: bookmarkinfowidget.cpp:248
-msgid "Location:"
-msgstr "స్థానము:"
-
-#: bookmarkinfowidget.cpp:256
-msgid "Comment:"
-msgstr ""
-
-#: bookmarkinfowidget.cpp:263
-msgid "First viewed:"
-msgstr ""
-
-#: bookmarkinfowidget.cpp:266
-msgid "Viewed last:"
-msgstr ""
-
-#: bookmarkinfowidget.cpp:269
-msgid "Times visited:"
 msgstr ""
 
 #: rc.cpp:1
