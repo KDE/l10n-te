@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-10 03:44+0200\n"
+"POT-Creation-Date: 2011-05-12 04:10+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -38,19 +38,36 @@ msgstr ""
 msgid "New backend"
 msgstr ""
 
+#: test/fakedatamanagementservice.cpp:123
+#: test/fakedatamanagementservice.cpp:125
+msgid "Fake Data Management Service"
+msgstr ""
+
+#: test/fakedatamanagementservice.cpp:127
+msgid "(c) 2011, Sebastian Trüg"
+msgstr ""
+
+#: test/fakedatamanagementservice.cpp:131
+msgid "Sebastian Trüg"
+msgstr ""
+
+#: test/fakedatamanagementservice.cpp:131
+msgid "Maintainer"
+msgstr "సంరక్షకుడు"
+
 #: ontologyloader.cpp:135
 #, kde-format
 msgid "Parsing of file %1 failed (%2)"
 msgstr ""
 
-#: repository.cpp:104
+#: repository.cpp:110
 msgctxt "@info - notification message"
 msgid ""
 "Nepomuk Semantic Desktop needs the Virtuoso RDF server to store its data. "
 "Installing the Virtuoso Soprano plugin is mandatory for using Nepomuk."
 msgstr ""
 
-#: repository.cpp:116
+#: repository.cpp:122
 msgctxt "@info - notification message"
 msgid ""
 "Nepomuk Semantic Desktop needs the Virtuoso RDF server to store its data. "
@@ -58,7 +75,7 @@ msgid ""
 "Nepomuk."
 msgstr ""
 
-#: repository.cpp:239
+#: repository.cpp:257
 #, kde-format
 msgctxt "@info - notification message"
 msgid ""
@@ -67,22 +84,36 @@ msgid ""
 "disabled until the situation has been resolved manually."
 msgstr ""
 
-#: repository.cpp:273
+#: repository.cpp:291
 msgctxt "@info - notification message"
 msgid "Converting Nepomuk data to a new backend. This might take a while."
 msgstr ""
 
-#: repository.cpp:286
+#: repository.cpp:304
 msgctxt "@info - notification message"
 msgid ""
 "Converting Nepomuk data to the new backend failed. For data security reasons "
 "Nepomuk will be disabled until the situation has been resolved manually."
 msgstr ""
 
-#: repository.cpp:300
+#: repository.cpp:318
 msgctxt "@info - notification message"
 msgid "Successfully converted Nepomuk data to the new backend."
 msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"కృష్ణబాబు కె \n"
+" విజయ్ కిరణ్ కముజు"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"k.meetme@gmail.com \n"
+" infyquest@gmail.com"
 
 #, fuzzy
 #~| msgid "Nepomuk Server"
@@ -94,23 +125,8 @@ msgstr ""
 #~ msgid "NepomukBackup"
 #~ msgstr "Nepomuk సేవిక"
 
-#~ msgid "Maintainer"
-#~ msgstr "సంరక్షకుడు"
-
 #~ msgid "Nepomuk Server"
 #~ msgstr "Nepomuk సేవిక"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr ""
-#~ "కృష్ణబాబు కె \n"
-#~ " విజయ్ కిరణ్ కముజు"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr ""
-#~ "k.meetme@gmail.com \n"
-#~ " infyquest@gmail.com"
 
 #~ msgid "Configure"
 #~ msgstr "ఆకృతీకరించుము"

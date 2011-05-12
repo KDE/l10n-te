@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwincompositing\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-03 04:08+0200\n"
+"POT-Creation-Date: 2011-05-12 04:11+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -54,37 +54,31 @@ msgid ""
 "They will be automatically reverted in 10 seconds."
 msgstr ""
 
-#: main.cpp:87
+#: main.cpp:88
 msgid "Use GLSL shaders"
 msgstr ""
 
-#: main.cpp:167
-msgid ""
-"Desktop effects are not available on this system due to the following "
-"technical issues:"
-msgstr ""
-
-#: main.cpp:175
+#: main.cpp:151
 msgid "kcmkwincompositing"
 msgstr "kcmkwincompositing"
 
-#: main.cpp:176
+#: main.cpp:152
 msgid "KWin Desktop Effects Configuration Module"
 msgstr "KWin రంగస్థల ప్రభావాల ఆకృతీకరణ మాడ్యూల్"
 
-#: main.cpp:177
+#: main.cpp:153
 msgid "(c) 2007 Rivo Laks"
 msgstr "(c) 2007 రివో లాక్స్"
 
-#: main.cpp:178
+#: main.cpp:154
 msgid "Rivo Laks"
 msgstr "రివో లాక్స్"
 
-#: main.cpp:209 main.cpp:215
+#: main.cpp:185 main.cpp:191
 msgid "No Effect"
 msgstr "ప్రభావము లేదు"
 
-#: main.cpp:238
+#: main.cpp:214
 msgid ""
 "Failed to activate desktop effects using the given configuration options. "
 "Settings will be reverted to their previous values.\n"
@@ -93,39 +87,45 @@ msgid ""
 "especially changing the compositing type."
 msgstr ""
 
-#: main.cpp:275
+#: main.cpp:251
 msgid "Appearance"
 msgstr "కనిపించువిధం"
 
-#: main.cpp:276
+#: main.cpp:252
 msgid "Accessibility"
 msgstr "అందుబాటు"
 
-#: main.cpp:277
+#: main.cpp:253
 msgid "Focus"
 msgstr "దృష్టి"
 
-#: main.cpp:278
+#: main.cpp:254
 msgid "Window Management"
 msgstr "విండో నిర్వహణ"
 
-#: main.cpp:279
+#: main.cpp:255
 msgid "Candy"
 msgstr "కాండీ"
 
-#: main.cpp:280
+#: main.cpp:256
 msgid "Demos"
 msgstr "డెమోస్"
 
-#: main.cpp:281
+#: main.cpp:257
 msgid "Tests"
 msgstr "పరీక్షలు"
 
-#: main.cpp:282
+#: main.cpp:258
 msgid "Tools"
 msgstr "పనిముట్లు"
 
-#: main.cpp:605
+#: main.cpp:419
+msgid ""
+"Desktop effects are not available on this system due to the following "
+"technical issues:"
+msgstr ""
+
+#: main.cpp:634
 msgid ""
 "Your settings have been saved but as KDE is currently running in failsafe "
 "mode desktop effects cannot be enabled at this time.\n"
@@ -133,11 +133,11 @@ msgid ""
 "Please exit failsafe mode to enable desktop effects."
 msgstr ""
 
-#: main.cpp:641
+#: main.cpp:670
 msgid "The following desktop effects could not be activated:"
 msgstr ""
 
-#: main.cpp:702
+#: main.cpp:736
 msgid "<h1>Desktop Effects</h1>"
 msgstr "<h1>రంగస్థల ప్రభావాలు</h1>"
 
@@ -161,15 +161,33 @@ msgstr ""
 msgid "General"
 msgstr "సాధారణ"
 
-#. i18n: file: main.ui:51
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: file: main.ui:82
+#. i18n: ectx: property (text), widget (QLabel, label_9)
 #: rc.cpp:8
+msgid "Pressing this button can crash the desktop."
+msgstr ""
+
+#. i18n: file: main.ui:105
+#. i18n: ectx: property (text), widget (QCheckBox, rearmSafetyCheck)
+#: rc.cpp:11
+msgid "I have saved my data."
+msgstr ""
+
+#. i18n: file: main.ui:128
+#. i18n: ectx: property (text), widget (QPushButton, rearmGlSupportButton)
+#: rc.cpp:14
+msgid "Re-enable OpenGL detection"
+msgstr ""
+
+#. i18n: file: main.ui:159
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:17
 msgid "Activation"
 msgstr ""
 
-#. i18n: file: main.ui:60
+#. i18n: file: main.ui:168
 #. i18n: ectx: property (text), widget (QCheckBox, useCompositing)
-#: rc.cpp:11
+#: rc.cpp:20
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Enable desktop effects"
@@ -177,107 +195,107 @@ msgctxt "@option:check"
 msgid "Enable desktop effects at startup"
 msgstr "రంగస్థల ప్రభావాలను చేతనముచేయుము"
 
-#. i18n: file: main.ui:91
+#. i18n: file: main.ui:199
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:14
+#: rc.cpp:23
 msgid "Desktop effects can be toggled anytime using this shortcut:"
 msgstr ""
 
-#. i18n: file: main.ui:122
+#. i18n: file: main.ui:230
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:17
+#: rc.cpp:26
 msgid "Simple effect setup"
 msgstr ""
 
-#. i18n: file: main.ui:131
+#. i18n: file: main.ui:239
 #. i18n: ectx: property (text), widget (QCheckBox, effectWinManagement)
-#: rc.cpp:20
+#: rc.cpp:29
 msgid "Improved window management"
 msgstr "మెరుగుపరచిన విండో నిర్వహణ"
 
-#. i18n: file: main.ui:141
+#. i18n: file: main.ui:249
 #. i18n: ectx: property (text), widget (QCheckBox, effectAnimations)
-#: rc.cpp:23
+#: rc.cpp:32
 msgid "Various animations"
 msgstr "వివిధ యానిమేషన్లు"
 
-#. i18n: file: main.ui:151
+#. i18n: file: main.ui:259
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:26
+#: rc.cpp:35
 msgid "Effect for window switching:"
 msgstr "విండో మార్చునప్పటి ప్రభావము:"
 
-#. i18n: file: main.ui:187
+#. i18n: file: main.ui:295
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:29
+#: rc.cpp:38
 msgid "Effect for desktop switching:"
 msgstr "రంగస్థలము మార్చునప్పటి ప్రభావము:"
 
-#. i18n: file: main.ui:223
+#. i18n: file: main.ui:331
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:32
+#: rc.cpp:41
 msgid "Animation speed:"
 msgstr "యానిమేషన్ వేగము:"
 
-#. i18n: file: main.ui:246
+#. i18n: file: main.ui:354
 #. i18n: ectx: property (text), item, widget (KComboBox, animationSpeedCombo)
-#: rc.cpp:35
+#: rc.cpp:44
 msgid "Instant"
 msgstr "అప్పటికప్పుడు"
 
-#. i18n: file: main.ui:251
+#. i18n: file: main.ui:359
 #. i18n: ectx: property (text), item, widget (KComboBox, animationSpeedCombo)
-#: rc.cpp:38
+#: rc.cpp:47
 msgid "Very Fast"
 msgstr "చాలా త్వరితముగా"
 
-#. i18n: file: main.ui:256
+#. i18n: file: main.ui:364
 #. i18n: ectx: property (text), item, widget (KComboBox, animationSpeedCombo)
-#: rc.cpp:41
+#: rc.cpp:50
 msgid "Fast"
 msgstr "త్వరితముగా"
 
-#. i18n: file: main.ui:261
+#. i18n: file: main.ui:369
 #. i18n: ectx: property (text), item, widget (KComboBox, animationSpeedCombo)
-#: rc.cpp:44
+#: rc.cpp:53
 msgid "Normal"
 msgstr "సాదారణముగా"
 
-#. i18n: file: main.ui:266
+#. i18n: file: main.ui:374
 #. i18n: ectx: property (text), item, widget (KComboBox, animationSpeedCombo)
-#: rc.cpp:47
+#: rc.cpp:56
 msgid "Slow"
 msgstr "నెమ్మదిగా"
 
-#. i18n: file: main.ui:271
+#. i18n: file: main.ui:379
 #. i18n: ectx: property (text), item, widget (KComboBox, animationSpeedCombo)
-#: rc.cpp:50
+#: rc.cpp:59
 msgid "Very Slow"
 msgstr "చాలా నెమ్మదిగా"
 
-#. i18n: file: main.ui:276
+#. i18n: file: main.ui:384
 #. i18n: ectx: property (text), item, widget (KComboBox, animationSpeedCombo)
-#: rc.cpp:53
+#: rc.cpp:62
 msgid "Extremely Slow"
 msgstr "మరీ నెమ్మదిగా"
 
-#. i18n: file: main.ui:310
+#. i18n: file: main.ui:418
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:56
+#: rc.cpp:65
 msgid ""
 "You can find more effects, as well as effect-specific settings, in the \"All "
 "Effects\" tab above."
 msgstr ""
 
-#. i18n: file: main.ui:358
+#. i18n: file: main.ui:466
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:59
+#: rc.cpp:68
 msgid "All Effects"
 msgstr "అన్ని ప్రభావములు"
 
-#. i18n: file: main.ui:364
+#. i18n: file: main.ui:472
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:62
+#: rc.cpp:71
 msgid ""
 "Hint: To find out or configure how to activate an effect, look at the "
 "effect's settings."
@@ -285,53 +303,53 @@ msgstr ""
 "మెళకువ: ప్రభావాన్ని యెలా క్రియాశీలపరచాలి అనేది కనుగొనుటకు లేదా ఆకృతీకరించుటకు, ప్రభావాల అమర్పులనందు "
 "చూడుము."
 
-#. i18n: file: main.ui:385
+#. i18n: file: main.ui:496
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: rc.cpp:65
+#: rc.cpp:74
 msgid "Advanced"
 msgstr "ఆధునాతన"
 
-#. i18n: file: main.ui:399
+#. i18n: file: main.ui:526
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:68
+#: rc.cpp:77
 msgid "Compositing type:"
 msgstr "కంపోజిటింగ్ రకము:"
 
-#. i18n: file: main.ui:419
+#. i18n: file: main.ui:546
 #. i18n: ectx: property (text), item, widget (KComboBox, compositingType)
-#: rc.cpp:71
+#: rc.cpp:80
 msgid "OpenGL"
 msgstr "ఓపెన్ జిఎల్"
 
-#. i18n: file: main.ui:424
+#. i18n: file: main.ui:551
 #. i18n: ectx: property (text), item, widget (KComboBox, compositingType)
-#: rc.cpp:74
+#: rc.cpp:83
 msgid "XRender"
 msgstr "XRender"
 
-#. i18n: file: main.ui:432
+#. i18n: file: main.ui:559
 #. i18n: ectx: property (text), widget (QCheckBox, disableChecks)
-#: rc.cpp:77
+#: rc.cpp:86
 msgid "Disable functionality checks"
 msgstr "ప్రమేయత్వపు పరిశీలనలను అచేతనపరచుము"
 
-#. i18n: file: main.ui:441
+#. i18n: file: main.ui:587
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:80
+#: rc.cpp:89
 #, fuzzy
 #| msgid "XRender Options"
 msgid "General Options"
 msgstr "Xరెండర్ ఐచ్చికములు"
 
-#. i18n: file: main.ui:456
+#. i18n: file: main.ui:602
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:83
+#: rc.cpp:92
 msgid "Keep window thumbnails:"
 msgstr "విండో థంబ్‌నెయిల్సును వుంచుము:"
 
-#. i18n: file: main.ui:476
+#. i18n: file: main.ui:622
 #. i18n: ectx: property (text), item, widget (KComboBox, windowThumbnails)
-#: rc.cpp:86
+#: rc.cpp:95
 msgctxt ""
 "A window thumbnail requires to have the corresponding window mapped. To have "
 "thumbnails at all time, windows are not unmapped. This can break window "
@@ -339,9 +357,9 @@ msgctxt ""
 msgid "Always (Breaks minimization)"
 msgstr ""
 
-#. i18n: file: main.ui:481
+#. i18n: file: main.ui:627
 #. i18n: ectx: property (text), item, widget (KComboBox, windowThumbnails)
-#: rc.cpp:89
+#: rc.cpp:98
 #, fuzzy
 #| msgid "Only for Shown Windows"
 msgctxt ""
@@ -350,9 +368,9 @@ msgctxt ""
 msgid "Only for Shown Windows"
 msgstr "చూపబడిన విండోల కొరకు మాత్రమే"
 
-#. i18n: file: main.ui:486
+#. i18n: file: main.ui:632
 #. i18n: ectx: property (text), item, widget (KComboBox, windowThumbnails)
-#: rc.cpp:92
+#: rc.cpp:101
 #, fuzzy
 #| msgid "Never"
 msgctxt ""
@@ -361,15 +379,15 @@ msgctxt ""
 msgid "Never"
 msgstr "ఎప్పటికికాదు"
 
-#. i18n: file: main.ui:500
+#. i18n: file: main.ui:646
 #. i18n: ectx: property (text), widget (QLabel, scaleMethodLabel)
-#: rc.cpp:95
+#: rc.cpp:104
 msgid "Scale method:"
 msgstr ""
 
-#. i18n: file: main.ui:527
+#. i18n: file: main.ui:673
 #. i18n: ectx: property (toolTip), widget (QComboBox, xrScaleFilter)
-#: rc.cpp:98
+#: rc.cpp:107
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -400,25 +418,25 @@ msgid ""
 "underline;\">very</span> slow, you will have to try it.</p></body></html>"
 msgstr ""
 
-#. i18n: file: main.ui:534
+#. i18n: file: main.ui:680
 #. i18n: ectx: property (text), item, widget (QComboBox, xrScaleFilter)
-#. i18n: file: main.ui:567
+#. i18n: file: main.ui:713
 #. i18n: ectx: property (text), item, widget (QComboBox, glScaleFilter)
-#: rc.cpp:110 rc.cpp:132
+#: rc.cpp:119 rc.cpp:141
 msgid "Crisp"
 msgstr ""
 
-#. i18n: file: main.ui:539
+#. i18n: file: main.ui:685
 #. i18n: ectx: property (text), item, widget (QComboBox, xrScaleFilter)
-#: rc.cpp:113
+#: rc.cpp:122
 #, fuzzy
 #| msgid "Smooth scaling (slower)"
 msgid "Smooth (slower)"
 msgstr "స్మూత్ స్కేలింగ్ (నెమ్మదైన)"
 
-#. i18n: file: main.ui:560
+#. i18n: file: main.ui:706
 #. i18n: ectx: property (toolTip), widget (QComboBox, glScaleFilter)
-#: rc.cpp:116
+#: rc.cpp:125
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -460,57 +478,57 @@ msgid ""
 "you have problems.</p></body></html>"
 msgstr ""
 
-#. i18n: file: main.ui:572
+#. i18n: file: main.ui:718
 #. i18n: ectx: property (text), item, widget (QComboBox, glScaleFilter)
-#: rc.cpp:135
+#: rc.cpp:144
 msgid "Smooth"
 msgstr ""
 
-#. i18n: file: main.ui:577
+#. i18n: file: main.ui:723
 #. i18n: ectx: property (text), item, widget (QComboBox, glScaleFilter)
-#: rc.cpp:138
+#: rc.cpp:147
 msgid "Accurate"
 msgstr ""
 
-#. i18n: file: main.ui:587
+#. i18n: file: main.ui:733
 #. i18n: ectx: property (text), widget (QCheckBox, unredirectFullscreen)
-#: rc.cpp:141
+#: rc.cpp:150
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Enable desktop effects"
 msgid "Suspend desktop effects for fullscreen windows"
 msgstr "రంగస్థల ప్రభావాలను చేతనముచేయుము"
 
-#. i18n: file: main.ui:597
+#. i18n: file: main.ui:775
 #. i18n: ectx: property (title), widget (QGroupBox, glGroup)
-#: rc.cpp:144
+#: rc.cpp:153
 msgid "OpenGL Options"
 msgstr "ఓపెన్‌జిఎల్ ఐచ్చికములు"
 
-#. i18n: file: main.ui:606
+#. i18n: file: main.ui:784
 #. i18n: ectx: property (text), widget (QCheckBox, glDirect)
-#: rc.cpp:147
+#: rc.cpp:156
 msgid "Enable direct rendering"
 msgstr "డైరెక్ట్ రెండరింగును చేతనపరుచుము"
 
-#. i18n: file: main.ui:616
+#. i18n: file: main.ui:794
 #. i18n: ectx: property (text), widget (QCheckBox, glVSync)
-#: rc.cpp:150
+#: rc.cpp:159
 msgid "Use VSync"
 msgstr "VSync వుపయోగించుము"
 
-#. i18n: file: main.ui:627
+#. i18n: file: main.ui:805
 #. i18n: ectx: property (toolTip), widget (QCheckBox, glShaders)
-#: rc.cpp:153
+#: rc.cpp:162
 msgid ""
 "If enabled all rendering will be performed with Shaders written in the "
 "OpenGL Shading Language.\n"
 "On legacy hardware disabling Shaders can improve the performance."
 msgstr ""
 
-#. i18n: file: main.ui:630
+#. i18n: file: main.ui:808
 #. i18n: ectx: property (text), widget (QCheckBox, glShaders)
-#: rc.cpp:157
+#: rc.cpp:166
 msgid "Use OpenGL 2 Shaders"
 msgstr ""
 

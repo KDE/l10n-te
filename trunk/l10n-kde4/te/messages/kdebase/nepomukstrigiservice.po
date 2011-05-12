@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-04 03:49+0200\n"
+"POT-Creation-Date: 2011-05-12 04:10+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -24,33 +24,6 @@ msgstr ""
 "\n"
 "\n"
 "X-Generator: KBabel 1.11.4\n"
-
-#: strigiservice.cpp:160
-msgctxt "@info:status"
-msgid "File indexer is suspended"
-msgstr ""
-
-#: strigiservice.cpp:166
-msgctxt "@info:status"
-msgid "Strigi is currently indexing files"
-msgstr ""
-
-#: strigiservice.cpp:170
-#, kde-format
-msgctxt "@info:status"
-msgid "Strigi is currently indexing files in folder %1"
-msgstr ""
-
-#: strigiservice.cpp:172
-#, kde-format
-msgctxt "@info:status"
-msgid "Strigi is currently indexing files in folder %1 (%2)"
-msgstr ""
-
-#: strigiservice.cpp:176
-msgctxt "@info:status"
-msgid "File indexer is idle"
-msgstr ""
 
 #: eventmonitor.cpp:69
 msgid "Indexing files for fast searching. This process may take a while."
@@ -75,6 +48,85 @@ msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
 msgid "Initial indexing of files for fast searching finished in %1"
 msgstr ""
 
+#: indexer/main.cpp:35
+#, fuzzy
+#| msgid "Nepomuk Server"
+msgid "NepomukStrigiIndexer"
+msgstr "Nepomuk సేవిక"
+
+#: indexer/main.cpp:37
+msgid ""
+"NepomukStrigiIndexder indexes the contents of a file and saves the results "
+"in Nepomuk"
+msgstr ""
+
+#: indexer/main.cpp:39
+msgid "(C) 2011, Vishesh Handa"
+msgstr ""
+
+#: indexer/main.cpp:40
+msgid "Vishesh Handa"
+msgstr ""
+
+#: indexer/main.cpp:40
+#, fuzzy
+#| msgid "Maintainer"
+msgid "Current maintainer"
+msgstr "సంరక్షకుడు"
+
+#: indexer/main.cpp:45
+msgid "The uri provided will be forced on the resource"
+msgstr ""
+
+#: indexer/main.cpp:46
+msgid "The modification time of the resource"
+msgstr ""
+
+#: indexer/main.cpp:47
+msgid "The url of the file to be indexed"
+msgstr ""
+
+#: strigiservice.cpp:155
+msgctxt "@info:status"
+msgid "File indexer is suspended"
+msgstr ""
+
+#: strigiservice.cpp:161
+msgctxt "@info:status"
+msgid "Strigi is currently indexing files"
+msgstr ""
+
+#: strigiservice.cpp:165
+#, kde-format
+msgctxt "@info:status"
+msgid "Strigi is currently indexing files in folder %1"
+msgstr ""
+
+#: strigiservice.cpp:167
+#, kde-format
+msgctxt "@info:status"
+msgid "Strigi is currently indexing files in folder %1 (%2)"
+msgstr ""
+
+#: strigiservice.cpp:171
+msgctxt "@info:status"
+msgid "File indexer is idle"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"కృష్ణబాబు కె \n"
+" విజయ్ కిరణ్ కముజు"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"k.meetme@gmail.com \n"
+" infyquest@gmail.com"
+
 #, fuzzy
 #~| msgid "Nepomuk Server"
 #~ msgid "Nepomuk Backup"
@@ -84,24 +136,6 @@ msgstr ""
 #~| msgid "Nepomuk Server"
 #~ msgid "NepomukBackup"
 #~ msgstr "Nepomuk సేవిక"
-
-#~ msgid "Maintainer"
-#~ msgstr "సంరక్షకుడు"
-
-#~ msgid "Nepomuk Server"
-#~ msgstr "Nepomuk సేవిక"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr ""
-#~ "కృష్ణబాబు కె \n"
-#~ " విజయ్ కిరణ్ కముజు"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr ""
-#~ "k.meetme@gmail.com \n"
-#~ " infyquest@gmail.com"
 
 #~ msgid "Configure"
 #~ msgstr "ఆకృతీకరించుము"
