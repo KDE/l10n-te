@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-12 04:09+0200\n"
+"POT-Creation-Date: 2011-05-13 03:56+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1424,12 +1424,20 @@ msgid "Set Refresh Timeout (0 disables)"
 msgstr ""
 
 #: sidebar/web_module/web_module.cpp:145
-msgid " min"
-msgstr " ని"
+#, fuzzy
+#| msgid " min"
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] " ని"
+msgstr[1] " ని"
 
 #: sidebar/web_module/web_module.cpp:148
-msgid " sec"
-msgstr " సెకను"
+#, fuzzy
+#| msgid " sec"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " సెకను"
+msgstr[1] " సెకను"
 
 #: sidebar/web_module/web_module.cpp:280
 msgctxt "@action:inmenu Add"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-12 04:09+0200\n"
+"POT-Creation-Date: 2011-05-13 03:56+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -635,8 +635,12 @@ msgid "Shu&tdown applet server when inactive for more than"
 msgstr "ఇంతకన్నా ఎక్కువ ఆప్లెట్ సెర్వర్ క్రియాహీనముగా వుంటే మూసివేయుము"
 
 #: javaopts.cpp:113
-msgid " sec"
-msgstr " సెకను"
+#, fuzzy
+#| msgid " sec"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " సెకను"
+msgstr[1] " సెకను"
 
 #: javaopts.cpp:119
 msgid "&Path to Java executable, or 'java':"
