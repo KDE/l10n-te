@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-27 04:11+0200\n"
+"POT-Creation-Date: 2011-05-28 04:12+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -3285,6 +3285,98 @@ msgstr ""
 "కెడిఈ తెలుగు అనువాదం జట్టు సమాచారం కొరకు ఈ వెబ్ సైట్ ను చూడండి<a href=\"http://www.swecha."
 "org\">స్వేచ్ఛ</a>"
 
+#: kdecore/kernel/ktoolinvocation.cpp:79
+msgid "Function must be called from the main thread."
+msgstr "ప్రమేయం తప్పక ముఖ్య తంతినుండి కాల్ చేయబడాలి."
+
+#: kdecore/kernel/ktoolinvocation.cpp:120
+#, kde-format
+msgid ""
+"Error launching %1. Either KLauncher is not running anymore, or it failed to "
+"start the application."
+msgstr ""
+"%1 ప్రారంభించుటలో దోషము. KLauncher నడుస్తూ వుండకపోవచ్చు, లేదా అది అనువర్తనంను మొదలుపెట్టుటలో "
+"విఫలమైవుంటుంది."
+
+#: kdecore/kernel/ktoolinvocation.cpp:123
+#, kde-format
+msgid ""
+"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
+"%2\n"
+msgstr ""
+"KLauncher అనునది D-Bus ద్వారా చేరుకోబడలేదు. దీనిని కాల్ చేస్తున్నప్పుడు దోషము %1:\n"
+"%2\n"
+
+#: kdecore/kernel/ktoolinvocation.cpp:302
+#, kde-format
+msgid ""
+"Could not launch the KDE Help Center:\n"
+"\n"
+"%1"
+msgstr ""
+"కెడిఈ సహాయ కేంద్రాన్ని ప్రారంభించలేకపొయాను:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation.cpp:303
+msgid "Could not Launch Help Center"
+msgstr "సహాయ కేంద్రాన్ని ప్రారంభించలేకపొయాను"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:281
+#, kde-format
+msgid ""
+"Could not launch the mail client:\n"
+"\n"
+"%1"
+msgstr ""
+"మెయిల్ క్లైంటు ని ప్రారంభించలేకపొయాను:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:282
+#, fuzzy
+#| msgid "Could not Launch Mail Client"
+msgid "Could not launch Mail Client"
+msgstr "మెయిల్ క్లైంటు ని ప్రారంభించలేకపొయాను"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:334
+#: kdecore/kernel/ktoolinvocation_x11.cpp:349
+#: kdecore/kernel/ktoolinvocation_x11.cpp:369
+#, kde-format
+msgid ""
+"Could not launch the browser:\n"
+"\n"
+"%1"
+msgstr ""
+"బ్రౌజర్ను ప్రారంభించలేకపొయాను:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:335
+#: kdecore/kernel/ktoolinvocation_x11.cpp:350
+#: kdecore/kernel/ktoolinvocation_x11.cpp:370
+#, fuzzy
+#| msgid "Could not Launch Browser"
+msgid "Could not launch Browser"
+msgstr "బ్రౌజర్ను ప్రారంభించలేకపొయాను"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:409
+#, kde-format
+msgid ""
+"Could not launch the terminal client:\n"
+"\n"
+"%1"
+msgstr ""
+"టెర్మినల్ క్లైంటు ని ప్రారంభించలేకపొయాను:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:410
+#, fuzzy
+#| msgid "Could not Launch Terminal Client"
+msgid "Could not launch Terminal Client"
+msgstr "టెర్మినల్ క్లైంటు ని ప్రారంభించలేకపొయాను"
+
 #: kdecore/kernel/kcmdlineargs.cpp:274
 msgid "Use the X-server display 'displayname'"
 msgstr "X-server 'displayname' వుపయోగించుము"
@@ -3592,98 +3684,6 @@ msgstr "అప్లికేషన్ ద్వారా తెరచిన ద
 #: kdecore/kernel/kcmdlineargs.cpp:1598
 msgid "KDE-tempfile"
 msgstr "KDE-tempfile"
-
-#: kdecore/kernel/ktoolinvocation.cpp:79
-msgid "Function must be called from the main thread."
-msgstr "ప్రమేయం తప్పక ముఖ్య తంతినుండి కాల్ చేయబడాలి."
-
-#: kdecore/kernel/ktoolinvocation.cpp:120
-#, kde-format
-msgid ""
-"Error launching %1. Either KLauncher is not running anymore, or it failed to "
-"start the application."
-msgstr ""
-"%1 ప్రారంభించుటలో దోషము. KLauncher నడుస్తూ వుండకపోవచ్చు, లేదా అది అనువర్తనంను మొదలుపెట్టుటలో "
-"విఫలమైవుంటుంది."
-
-#: kdecore/kernel/ktoolinvocation.cpp:123
-#, kde-format
-msgid ""
-"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
-"%2\n"
-msgstr ""
-"KLauncher అనునది D-Bus ద్వారా చేరుకోబడలేదు. దీనిని కాల్ చేస్తున్నప్పుడు దోషము %1:\n"
-"%2\n"
-
-#: kdecore/kernel/ktoolinvocation.cpp:302
-#, kde-format
-msgid ""
-"Could not launch the KDE Help Center:\n"
-"\n"
-"%1"
-msgstr ""
-"కెడిఈ సహాయ కేంద్రాన్ని ప్రారంభించలేకపొయాను:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation.cpp:303
-msgid "Could not Launch Help Center"
-msgstr "సహాయ కేంద్రాన్ని ప్రారంభించలేకపొయాను"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:281
-#, kde-format
-msgid ""
-"Could not launch the mail client:\n"
-"\n"
-"%1"
-msgstr ""
-"మెయిల్ క్లైంటు ని ప్రారంభించలేకపొయాను:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:282
-#, fuzzy
-#| msgid "Could not Launch Mail Client"
-msgid "Could not launch Mail Client"
-msgstr "మెయిల్ క్లైంటు ని ప్రారంభించలేకపొయాను"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:334
-#: kdecore/kernel/ktoolinvocation_x11.cpp:349
-#: kdecore/kernel/ktoolinvocation_x11.cpp:369
-#, kde-format
-msgid ""
-"Could not launch the browser:\n"
-"\n"
-"%1"
-msgstr ""
-"బ్రౌజర్ను ప్రారంభించలేకపొయాను:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:335
-#: kdecore/kernel/ktoolinvocation_x11.cpp:350
-#: kdecore/kernel/ktoolinvocation_x11.cpp:370
-#, fuzzy
-#| msgid "Could not Launch Browser"
-msgid "Could not launch Browser"
-msgstr "బ్రౌజర్ను ప్రారంభించలేకపొయాను"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:409
-#, kde-format
-msgid ""
-"Could not launch the terminal client:\n"
-"\n"
-"%1"
-msgstr ""
-"టెర్మినల్ క్లైంటు ని ప్రారంభించలేకపొయాను:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:410
-#, fuzzy
-#| msgid "Could not Launch Terminal Client"
-msgid "Could not launch Terminal Client"
-msgstr "టెర్మినల్ క్లైంటు ని ప్రారంభించలేకపొయాను"
 
 #: kdecore/localization/kcharsets.cpp:155
 #: kdecore/localization/kencodingdetector.cpp:1149
