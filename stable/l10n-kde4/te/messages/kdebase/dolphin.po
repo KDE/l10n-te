@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-28 13:45+0200\n"
+"POT-Creation-Date: 2011-05-30 13:59+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1355,6 +1355,53 @@ msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr "ఒక ఫోల్డరును అదేఫోల్డరు లోనికి వుంచుట కుదరదు"
 
+#: views/dolphincolumnview.cpp:88
+msgctxt "@info:tooltip"
+msgid "Resize column"
+msgstr ""
+
+#: views/renamedialog.cpp:54
+msgctxt "@title:window"
+msgid "Rename Item"
+msgstr "అంశమును పునఃనామకరణచేయుము"
+
+#: views/renamedialog.cpp:55
+msgctxt "@title:window"
+msgid "Rename Items"
+msgstr "అంశములను పునఃనామకరణము చేయుము"
+
+#: views/renamedialog.cpp:59
+#, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Rename"
+msgctxt "@action:button"
+msgid "&Rename"
+msgstr "పునఃనామకరణము"
+
+#: views/renamedialog.cpp:69
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Rename the item <filename>%1</filename> to:"
+msgstr "అంశము <filename>%1</filename>ను దీనికి పునఃనామరణ చేయుము:"
+
+#: views/renamedialog.cpp:72
+msgctxt "@info:status"
+msgid "New name #"
+msgstr "కొత్త పేరు #"
+
+#: views/renamedialog.cpp:74
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Rename the %1 selected item to:"
+msgid_plural "Rename the %1 selected items to:"
+msgstr[0] "%1 ఎంపికచేసిన అంశమును దీనికి పునఃనామకరణము చేయుము:"
+msgstr[1] "%1 ఎంపికచేసిన అంశమును దీనికి పునఃనామకరణము చేయుము:"
+
+#: views/renamedialog.cpp:121
+msgctxt "@info"
+msgid "(# will be replaced by ascending numbers)"
+msgstr "(# ఆరోహణ సంఖ్యలచేత పునఃస్థాపించబడుతుంది)"
+
 #: views/dolphinview.cpp:491
 #, kde-format
 msgctxt "@info:status"
@@ -1410,53 +1457,6 @@ msgstr "స్థానము ఖాళీగావుంది"
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "స్థానము '%1' సరైనదికాదు."
-
-#: views/dolphincolumnview.cpp:88
-msgctxt "@info:tooltip"
-msgid "Resize column"
-msgstr ""
-
-#: views/renamedialog.cpp:54
-msgctxt "@title:window"
-msgid "Rename Item"
-msgstr "అంశమును పునఃనామకరణచేయుము"
-
-#: views/renamedialog.cpp:55
-msgctxt "@title:window"
-msgid "Rename Items"
-msgstr "అంశములను పునఃనామకరణము చేయుము"
-
-#: views/renamedialog.cpp:59
-#, fuzzy
-#| msgctxt "@action:button"
-#| msgid "Rename"
-msgctxt "@action:button"
-msgid "&Rename"
-msgstr "పునఃనామకరణము"
-
-#: views/renamedialog.cpp:69
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Rename the item <filename>%1</filename> to:"
-msgstr "అంశము <filename>%1</filename>ను దీనికి పునఃనామరణ చేయుము:"
-
-#: views/renamedialog.cpp:72
-msgctxt "@info:status"
-msgid "New name #"
-msgstr "కొత్త పేరు #"
-
-#: views/renamedialog.cpp:74
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Rename the %1 selected item to:"
-msgid_plural "Rename the %1 selected items to:"
-msgstr[0] "%1 ఎంపికచేసిన అంశమును దీనికి పునఃనామకరణము చేయుము:"
-msgstr[1] "%1 ఎంపికచేసిన అంశమును దీనికి పునఃనామకరణము చేయుము:"
-
-#: views/renamedialog.cpp:121
-msgctxt "@info"
-msgid "(# will be replaced by ascending numbers)"
-msgstr "(# ఆరోహణ సంఖ్యలచేత పునఃస్థాపించబడుతుంది)"
 
 #: dolphinpart.cpp:166
 msgctxt "@action:inmenu Edit"
