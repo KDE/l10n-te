@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-04 04:16+0200\n"
+"POT-Creation-Date: 2011-06-05 04:23+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -2520,12 +2520,12 @@ msgid "Show %1"
 msgstr "%1 చూపుము"
 
 #: kde3support/kdeui/k3listviewsearchline.cpp:287
-#: kdeui/itemviews/ktreewidgetsearchline.cpp:424
+#: kdeui/itemviews/ktreewidgetsearchline.cpp:420
 msgid "Search Columns"
 msgstr "నిలువు వరుసలలొ వెతుకు"
 
 #: kde3support/kdeui/k3listviewsearchline.cpp:290
-#: kdeui/itemviews/ktreewidgetsearchline.cpp:426
+#: kdeui/itemviews/ktreewidgetsearchline.cpp:422
 msgid "All Visible Columns"
 msgstr "అన్ని కనిపించె నిలువు వరుసలు"
 
@@ -2536,7 +2536,7 @@ msgid "Column No. %1"
 msgstr "నిలువు వరుస సం. %1"
 
 #: kde3support/kdeui/k3listviewsearchline.cpp:557
-#: kdeui/itemviews/ktreewidgetsearchline.cpp:605
+#: kdeui/itemviews/ktreewidgetsearchline.cpp:601
 msgid "S&earch:"
 msgstr "(&e) అన్వేషణ:"
 
@@ -3146,14 +3146,14 @@ msgstr ""
 msgid "DBus Backend error: received corrupt data from helper %1 %2"
 msgstr ""
 
-#: kdecore/config/kconfigini.cpp:523
-#, kde-format
-msgid "Configuration file \"%1\" not writable.\n"
-msgstr "ఆకృతీకరణ దస్త్రం \"%1\" వ్రాయుటకు వీలుకాదు.\n"
-
 #: kdecore/config/kconfig.cpp:814
 msgid "Please contact your system administrator."
 msgstr "మి వ్యవస్థ పాలకుడిని కలవండి"
+
+#: kdecore/config/kconfigini.cpp:519
+#, kde-format
+msgid "Configuration file \"%1\" not writable.\n"
+msgstr "ఆకృతీకరణ దస్త్రం \"%1\" వ్రాయుటకు వీలుకాదు.\n"
 
 #: kdecore/io/ksavefile.cpp:84
 msgid "No target filename has been given."
@@ -7374,6 +7374,11 @@ msgstr[1] "%1 దస్త్రాలు"
 msgid "Click this to collapse the dialog, to hide details"
 msgstr ""
 
+#: kdeui/kernel/kapplication.cpp:830
+#, kde-format
+msgid "The style '%1' was not found"
+msgstr "%1 శైలి కనపడలేదు"
+
 #: kdeui/kernel/kuniqueapplication.cpp:88
 msgid "Do not run in the background."
 msgstr "బ్యాక్‌గ్రౌండు నందు నడుపవద్దు."
@@ -7381,11 +7386,6 @@ msgstr "బ్యాక్‌గ్రౌండు నందు నడుపవ�
 #: kdeui/kernel/kuniqueapplication.cpp:90
 msgid "Internally added if launched from Finder"
 msgstr "కనుగొనిన దానినుండి ప్రారంభించబడితే అంతర్గతంగా జతచేయబడింది"
-
-#: kdeui/kernel/kapplication.cpp:830
-#, kde-format
-msgid "The style '%1' was not found"
-msgstr "%1 శైలి కనపడలేదు"
 
 #: kdeui/notifications/knotificationrestrictions.cpp:181
 msgid "Unknown Application"
@@ -13896,12 +13896,12 @@ msgstr "(&D) ఈ రోజు సూచన"
 msgid "No such function \"%1\""
 msgstr "\"%1\" ఇలాంటి ప్రమేయం లేదు"
 
-#: kdecore/date/kdatetime.cpp:1522 kdecore/date/kdatetime.cpp:1532
-#: kdecore/date/kdatetime.cpp:2982
+#: kdecore/date/kdatetime.cpp:1523 kdecore/date/kdatetime.cpp:1533
+#: kdecore/date/kdatetime.cpp:2983
 msgid "am"
 msgstr "పూర్వాహ్నము"
 
-#: kdecore/date/kdatetime.cpp:2990
+#: kdecore/date/kdatetime.cpp:2991
 msgid "pm"
 msgstr "మధ్యాహ్నము"
 
