@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-16 04:13+0200\n"
+"POT-Creation-Date: 2011-06-21 04:32+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -10086,7 +10086,7 @@ msgstr "వచ్చే నెల"
 #, fuzzy
 #| msgid "Next year"
 msgctxt "@option next week"
-msgid "Next week"
+msgid "Next Week"
 msgstr "వచ్చే సంవత్సరము"
 
 #: kdeui/widgets/kdatecombobox.cpp:146
@@ -10112,7 +10112,7 @@ msgstr "నిన్న"
 #, fuzzy
 #| msgid "&Last Page"
 msgctxt "@option last week"
-msgid "Last week"
+msgid "Last Week"
 msgstr "(&L) చివరి పుట"
 
 #: kdeui/widgets/kdatecombobox.cpp:150
@@ -10137,6 +10137,7 @@ msgid "No Date"
 msgstr "వచనము లేదు"
 
 #: kdeui/widgets/kdatecombobox.cpp:230
+msgctxt "@info"
 msgid "The date you entered is invalid"
 msgstr ""
 
@@ -10153,34 +10154,39 @@ msgid "Date cannot be later than %1"
 msgstr ""
 
 #: kdeui/widgets/kdatetimeedit.cpp:195
+msgctxt "UTC time zone"
 msgid "UTC"
 msgstr ""
 
 #: kdeui/widgets/kdatetimeedit.cpp:196
 #, fuzzy
 #| msgid "Rating: "
+msgctxt "No specific time zone"
 msgid "Floating"
 msgstr "రేటింగు: "
 
 #: kdeui/widgets/kdatetimeedit.cpp:243
+msgctxt "@info"
 msgid "The entered date and time is before the minimum allowed date and time."
 msgstr ""
 
 #: kdeui/widgets/kdatetimeedit.cpp:253
+msgctxt "@info"
 msgid "The entered date and time is after the maximum allowed date and time."
 msgstr ""
 
-#: kdeui/widgets/ktimecombobox.cpp:246
+#: kdeui/widgets/ktimecombobox.cpp:259
+msgctxt "@info"
 msgid "The time you entered is invalid"
 msgstr ""
 
-#: kdeui/widgets/ktimecombobox.cpp:249
+#: kdeui/widgets/ktimecombobox.cpp:262
 #, kde-format
 msgctxt "@info"
 msgid "Time cannot be earlier than %1"
 msgstr ""
 
-#: kdeui/widgets/ktimecombobox.cpp:256
+#: kdeui/widgets/ktimecombobox.cpp:269
 #, kde-format
 msgctxt "@info"
 msgid "Time cannot be later than %1"
@@ -13876,16 +13882,22 @@ msgid "pm"
 msgstr "మధ్యాహ్నము"
 
 #, fuzzy
+#~| msgid "Next year"
+#~ msgctxt "@option next week"
+#~ msgid "Next week"
+#~ msgstr "వచ్చే సంవత్సరము"
+
+#, fuzzy
+#~| msgid "&Last Page"
+#~ msgctxt "@option last week"
+#~ msgid "Last week"
+#~ msgstr "(&L) చివరి పుట"
+
+#, fuzzy
 #~| msgid "Today"
 #~ msgctxt "@info/plain"
 #~ msgid "today"
 #~ msgstr "ఈరొజు"
-
-#, fuzzy
-#~| msgid "Next year"
-#~ msgctxt "@option next week"
-#~ msgid "Next Week"
-#~ msgstr "వచ్చే సంవత్సరము"
 
 #, fuzzy
 #~| msgid "Show &Menubar"
