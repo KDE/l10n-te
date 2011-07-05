@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_clients\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-09 04:02+0200\n"
+"POT-Creation-Date: 2011-07-05 04:23+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -215,6 +215,14 @@ msgstr ""
 msgid "Regular Expression syntax is incorrect"
 msgstr ""
 
+#: oxygen/oxygenexception.cpp:79
+msgid "Window Title"
+msgstr ""
+
+#: oxygen/oxygenexception.cpp:80
+msgid "Window Class Name"
+msgstr ""
+
 #: oxygen/demo/main.cpp:42 oxygen/demo/oxygenshadowdemodialog.cpp:47
 #, fuzzy
 #| msgid "Oxygen"
@@ -247,12 +255,24 @@ msgstr ""
 msgid "Draw window background"
 msgstr ""
 
-#: oxygen/oxygenexception.cpp:79
-msgid "Window Title"
+#: oxygen/oxygenclient.cpp:81
+msgid "Oxygen"
+msgstr "Oxygen"
+
+#: oxygen/oxygenclient.cpp:219
+msgid "Keep Above Others"
 msgstr ""
 
-#: oxygen/oxygenexception.cpp:80
-msgid "Window Class Name"
+#: oxygen/oxygenclient.cpp:222
+msgid "Keep Below Others"
+msgstr ""
+
+#: oxygen/oxygenclient.cpp:225
+msgid "On All Desktops"
+msgstr "అన్ని రంగస్థలముల పైనా"
+
+#: oxygen/oxygenclient.cpp:228
+msgid "Shade Button"
 msgstr ""
 
 #. i18n: file: plastik/config/configdialog.ui:29
@@ -394,26 +414,6 @@ msgstr ""
 #| msgid "Maximize"
 msgid "Maximum"
 msgstr "పెద్దదిచేయి"
-
-#: oxygen/oxygenclient.cpp:81
-msgid "Oxygen"
-msgstr "Oxygen"
-
-#: oxygen/oxygenclient.cpp:219
-msgid "Keep Above Others"
-msgstr ""
-
-#: oxygen/oxygenclient.cpp:222
-msgid "Keep Below Others"
-msgstr ""
-
-#: oxygen/oxygenclient.cpp:225
-msgid "On All Desktops"
-msgstr "అన్ని రంగస్థలముల పైనా"
-
-#: oxygen/oxygenclient.cpp:228
-msgid "Shade Button"
-msgstr ""
 
 #: plastik/plastikclient.cpp:65
 msgid "Plastik"

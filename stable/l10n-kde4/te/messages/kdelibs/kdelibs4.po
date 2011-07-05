@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-21 04:32+0200\n"
+"POT-Creation-Date: 2011-07-05 05:12+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -3285,60 +3285,42 @@ msgstr ""
 "కెడిఈ తెలుగు అనువాదం జట్టు సమాచారం కొరకు ఈ వెబ్ సైట్ ను చూడండి<a href=\"http://www.swecha."
 "org\">స్వేచ్ఛ</a>"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:281
+#: kdecore/kernel/ktoolinvocation.cpp:79
+msgid "Function must be called from the main thread."
+msgstr "ప్రమేయం తప్పక ముఖ్య తంతినుండి కాల్ చేయబడాలి."
+
+#: kdecore/kernel/ktoolinvocation.cpp:120
 #, kde-format
 msgid ""
-"Could not launch the mail client:\n"
+"Error launching %1. Either KLauncher is not running anymore, or it failed to "
+"start the application."
+msgstr ""
+"%1 ప్రారంభించుటలో దోషము. KLauncher నడుస్తూ వుండకపోవచ్చు, లేదా అది అనువర్తనంను మొదలుపెట్టుటలో "
+"విఫలమైవుంటుంది."
+
+#: kdecore/kernel/ktoolinvocation.cpp:123
+#, kde-format
+msgid ""
+"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
+"%2\n"
+msgstr ""
+"KLauncher అనునది D-Bus ద్వారా చేరుకోబడలేదు. దీనిని కాల్ చేస్తున్నప్పుడు దోషము %1:\n"
+"%2\n"
+
+#: kdecore/kernel/ktoolinvocation.cpp:302
+#, kde-format
+msgid ""
+"Could not launch the KDE Help Center:\n"
 "\n"
 "%1"
 msgstr ""
-"మెయిల్ క్లైంటు ని ప్రారంభించలేకపొయాను:\n"
+"కెడిఈ సహాయ కేంద్రాన్ని ప్రారంభించలేకపొయాను:\n"
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:282
-#, fuzzy
-#| msgid "Could not Launch Mail Client"
-msgid "Could not launch Mail Client"
-msgstr "మెయిల్ క్లైంటు ని ప్రారంభించలేకపొయాను"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:334
-#: kdecore/kernel/ktoolinvocation_x11.cpp:349
-#: kdecore/kernel/ktoolinvocation_x11.cpp:369
-#, kde-format
-msgid ""
-"Could not launch the browser:\n"
-"\n"
-"%1"
-msgstr ""
-"బ్రౌజర్ను ప్రారంభించలేకపొయాను:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:335
-#: kdecore/kernel/ktoolinvocation_x11.cpp:350
-#: kdecore/kernel/ktoolinvocation_x11.cpp:370
-#, fuzzy
-#| msgid "Could not Launch Browser"
-msgid "Could not launch Browser"
-msgstr "బ్రౌజర్ను ప్రారంభించలేకపొయాను"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:409
-#, kde-format
-msgid ""
-"Could not launch the terminal client:\n"
-"\n"
-"%1"
-msgstr ""
-"టెర్మినల్ క్లైంటు ని ప్రారంభించలేకపొయాను:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:410
-#, fuzzy
-#| msgid "Could not Launch Terminal Client"
-msgid "Could not launch Terminal Client"
-msgstr "టెర్మినల్ క్లైంటు ని ప్రారంభించలేకపొయాను"
+#: kdecore/kernel/ktoolinvocation.cpp:303
+msgid "Could not Launch Help Center"
+msgstr "సహాయ కేంద్రాన్ని ప్రారంభించలేకపొయాను"
 
 #: kdecore/kernel/kcmdlineargs.cpp:273
 msgid "Use the X-server display 'displayname'"
@@ -3506,7 +3488,7 @@ msgstr "కెడిఈ అప్లికేషన్:"
 msgid "Qt"
 msgstr "క్యూటి"
 
-#: kdecore/kernel/kcmdlineargs.cpp:495 khtml/khtml_part.cpp:4812
+#: kdecore/kernel/kcmdlineargs.cpp:495 khtml/khtml_part.cpp:4811
 msgid "KDE"
 msgstr "కెడిఈ"
 
@@ -3648,196 +3630,180 @@ msgstr "అప్లికేషన్ ద్వారా తెరచిన ద
 msgid "KDE-tempfile"
 msgstr "KDE-tempfile"
 
-#: kdecore/kernel/ktoolinvocation.cpp:79
-msgid "Function must be called from the main thread."
-msgstr "ప్రమేయం తప్పక ముఖ్య తంతినుండి కాల్ చేయబడాలి."
-
-#: kdecore/kernel/ktoolinvocation.cpp:120
+#: kdecore/kernel/ktoolinvocation_x11.cpp:281
 #, kde-format
 msgid ""
-"Error launching %1. Either KLauncher is not running anymore, or it failed to "
-"start the application."
-msgstr ""
-"%1 ప్రారంభించుటలో దోషము. KLauncher నడుస్తూ వుండకపోవచ్చు, లేదా అది అనువర్తనంను మొదలుపెట్టుటలో "
-"విఫలమైవుంటుంది."
-
-#: kdecore/kernel/ktoolinvocation.cpp:123
-#, kde-format
-msgid ""
-"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
-"%2\n"
-msgstr ""
-"KLauncher అనునది D-Bus ద్వారా చేరుకోబడలేదు. దీనిని కాల్ చేస్తున్నప్పుడు దోషము %1:\n"
-"%2\n"
-
-#: kdecore/kernel/ktoolinvocation.cpp:302
-#, kde-format
-msgid ""
-"Could not launch the KDE Help Center:\n"
+"Could not launch the mail client:\n"
 "\n"
 "%1"
 msgstr ""
-"కెడిఈ సహాయ కేంద్రాన్ని ప్రారంభించలేకపొయాను:\n"
+"మెయిల్ క్లైంటు ని ప్రారంభించలేకపొయాను:\n"
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation.cpp:303
-msgid "Could not Launch Help Center"
-msgstr "సహాయ కేంద్రాన్ని ప్రారంభించలేకపొయాను"
+#: kdecore/kernel/ktoolinvocation_x11.cpp:282
+#, fuzzy
+#| msgid "Could not Launch Mail Client"
+msgid "Could not launch Mail Client"
+msgstr "మెయిల్ క్లైంటు ని ప్రారంభించలేకపొయాను"
 
-#: kdecore/localization/kcharsets.cpp:155
-#: kdecore/localization/kencodingdetector.cpp:1149
-#: kdecore/localization/kencodingdetector.cpp:1232
-#: kdecore/localization/kencodingprober.cpp:244
-#: kdecore/localization/kencodingprober.cpp:303
-msgctxt "@item Text character set"
-msgid "Western European"
-msgstr "పడమటి ఐరోపా"
+#: kdecore/kernel/ktoolinvocation_x11.cpp:334
+#: kdecore/kernel/ktoolinvocation_x11.cpp:359
+#: kdecore/kernel/ktoolinvocation_x11.cpp:379
+#, kde-format
+msgid ""
+"Could not launch the browser:\n"
+"\n"
+"%1"
+msgstr ""
+"బ్రౌజర్ను ప్రారంభించలేకపొయాను:\n"
+"\n"
+"%1"
 
-#: kdecore/localization/kcharsets.cpp:161
-#: kdecore/localization/kencodingdetector.cpp:1151
-#: kdecore/localization/kencodingdetector.cpp:1214
-#: kdecore/localization/kencodingprober.cpp:246
-#: kdecore/localization/kencodingprober.cpp:285
-msgctxt "@item Text character set"
-msgid "Central European"
-msgstr "మధ్య ఐరోపా"
+#: kdecore/kernel/ktoolinvocation_x11.cpp:335
+#: kdecore/kernel/ktoolinvocation_x11.cpp:360
+#: kdecore/kernel/ktoolinvocation_x11.cpp:380
+#, fuzzy
+#| msgid "Could not Launch Browser"
+msgid "Could not launch Browser"
+msgstr "బ్రౌజర్ను ప్రారంభించలేకపొయాను"
 
-#: kdecore/localization/kcharsets.cpp:164
-#: kdecore/localization/kencodingdetector.cpp:1161
-#: kdecore/localization/kencodingdetector.cpp:1211
-#: kdecore/localization/kencodingprober.cpp:256
-#: kdecore/localization/kencodingprober.cpp:282
-msgctxt "@item Text character set"
-msgid "Baltic"
-msgstr "బాల్టిక్"
+#: kdecore/kernel/ktoolinvocation_x11.cpp:419
+#, kde-format
+msgid ""
+"Could not launch the terminal client:\n"
+"\n"
+"%1"
+msgstr ""
+"టెర్మినల్ క్లైంటు ని ప్రారంభించలేకపొయాను:\n"
+"\n"
+"%1"
 
-#: kdecore/localization/kcharsets.cpp:167
-msgctxt "@item Text character set"
-msgid "South-Eastern Europe"
-msgstr "ఆగ్నేయ ఐరోపా"
+#: kdecore/kernel/ktoolinvocation_x11.cpp:420
+#, fuzzy
+#| msgid "Could not Launch Terminal Client"
+msgid "Could not launch Terminal Client"
+msgstr "టెర్మినల్ క్లైంటు ని ప్రారంభించలేకపొయాను"
 
-#: kdecore/localization/kcharsets.cpp:170
-#: kdecore/localization/kencodingdetector.cpp:1157
-#: kdecore/localization/kencodingdetector.cpp:1229
-#: kdecore/localization/kencodingprober.cpp:252
-#: kdecore/localization/kencodingprober.cpp:300
-msgctxt "@item Text character set"
-msgid "Turkish"
-msgstr "టర్కిష్"
-
-#: kdecore/localization/kcharsets.cpp:173
-#: kdecore/localization/kencodingdetector.cpp:1147
-#: kdecore/localization/kencodingdetector.cpp:1217
-#: kdecore/localization/kencodingprober.cpp:242
-#: kdecore/localization/kencodingprober.cpp:288
-msgctxt "@item Text character set"
-msgid "Cyrillic"
-msgstr "సిరిల్లిక్"
-
-#: kdecore/localization/kcharsets.cpp:179
-#: kdecore/localization/kencodingdetector.cpp:1235
-#: kdecore/localization/kencodingprober.cpp:258
-#: kdecore/localization/kencodingprober.cpp:306
-msgctxt "@item Text character set"
-msgid "Chinese Traditional"
-msgstr "సాంప్రదాయక చైనీస్"
-
-#: kdecore/localization/kcharsets.cpp:182
-#: kdecore/localization/kencodingdetector.cpp:1238
-#: kdecore/localization/kencodingprober.cpp:260
-#: kdecore/localization/kencodingprober.cpp:309
-msgctxt "@item Text character set"
-msgid "Chinese Simplified"
-msgstr "సరళమైన చైనీస్"
-
-#: kdecore/localization/kcharsets.cpp:186
-#: kdecore/localization/kencodingdetector.cpp:1241
-#: kdecore/localization/kencodingprober.cpp:312
-msgctxt "@item Text character set"
-msgid "Korean"
-msgstr "కొరియన్"
-
-#: kdecore/localization/kcharsets.cpp:188
-#: kdecore/localization/kencodingdetector.cpp:1159
-#: kdecore/localization/kencodingdetector.cpp:1226
-#: kdecore/localization/kencodingprober.cpp:254
-#: kdecore/localization/kencodingprober.cpp:297
-msgctxt "@item Text character set"
-msgid "Japanese"
-msgstr "జాపనీస్"
-
-#: kdecore/localization/kcharsets.cpp:192
-#: kdecore/localization/kencodingdetector.cpp:1153
-#: kdecore/localization/kencodingdetector.cpp:1220
-#: kdecore/localization/kencodingprober.cpp:248
-#: kdecore/localization/kencodingprober.cpp:291
-msgctxt "@item Text character set"
-msgid "Greek"
-msgstr "గ్రీకు"
-
-#: kdecore/localization/kcharsets.cpp:195
-#: kdecore/localization/kencodingdetector.cpp:1163
-#: kdecore/localization/kencodingdetector.cpp:1208
-#: kdecore/localization/kencodingprober.cpp:262
-#: kdecore/localization/kencodingprober.cpp:279
-msgctxt "@item Text character set"
-msgid "Arabic"
-msgstr "అరబిక్"
-
-#: kdecore/localization/kcharsets.cpp:198
-#: kdecore/localization/kencodingdetector.cpp:1155
-#: kdecore/localization/kencodingdetector.cpp:1223
-#: kdecore/localization/kencodingprober.cpp:250
-#: kdecore/localization/kencodingprober.cpp:294
-msgctxt "@item Text character set"
-msgid "Hebrew"
-msgstr "హిబ్రూ"
-
-#: kdecore/localization/kcharsets.cpp:203
-#: kdecore/localization/kencodingdetector.cpp:1244
-#: kdecore/localization/kencodingprober.cpp:315
-msgctxt "@item Text character set"
-msgid "Thai"
-msgstr "థాయ్"
-
-#: kdecore/localization/kcharsets.cpp:206
 #: kdecore/localization/kencodingdetector.cpp:1145
 #: kdecore/localization/kencodingdetector.cpp:1247
 #: kdecore/localization/kencodingprober.cpp:240
 #: kdecore/localization/kencodingprober.cpp:318
+#: kdecore/localization/kcharsets.cpp:206
 msgctxt "@item Text character set"
 msgid "Unicode"
 msgstr "యూనికోడ్"
 
-#: kdecore/localization/kcharsets.cpp:212
+#: kdecore/localization/kencodingdetector.cpp:1147
+#: kdecore/localization/kencodingdetector.cpp:1217
+#: kdecore/localization/kencodingprober.cpp:242
+#: kdecore/localization/kencodingprober.cpp:288
+#: kdecore/localization/kcharsets.cpp:173
 msgctxt "@item Text character set"
-msgid "Northern Saami"
-msgstr "ఉత్తర సామి"
+msgid "Cyrillic"
+msgstr "సిరిల్లిక్"
 
-#: kdecore/localization/kcharsets.cpp:214
-#: kdecore/localization/kcharsets.cpp:619
+#: kdecore/localization/kencodingdetector.cpp:1149
+#: kdecore/localization/kencodingdetector.cpp:1232
+#: kdecore/localization/kencodingprober.cpp:244
+#: kdecore/localization/kencodingprober.cpp:303
+#: kdecore/localization/kcharsets.cpp:155
 msgctxt "@item Text character set"
-msgid "Other"
-msgstr "ఇతర"
+msgid "Western European"
+msgstr "పడమటి ఐరోపా"
 
-#: kdecore/localization/kcharsets.cpp:629
-#, kde-format
-msgctxt "@item %1 character set, %2 encoding"
-msgid "%1 ( %2 )"
-msgstr "%1 ( %2 )"
+#: kdecore/localization/kencodingdetector.cpp:1151
+#: kdecore/localization/kencodingdetector.cpp:1214
+#: kdecore/localization/kencodingprober.cpp:246
+#: kdecore/localization/kencodingprober.cpp:285
+#: kdecore/localization/kcharsets.cpp:161
+msgctxt "@item Text character set"
+msgid "Central European"
+msgstr "మధ్య ఐరోపా"
 
-#: kdecore/localization/kcharsets.cpp:632
-#, kde-format
-msgctxt "@item"
-msgid "Other encoding (%1)"
-msgstr "ఇతర సంకేతీకరణం (%1)"
+#: kdecore/localization/kencodingdetector.cpp:1153
+#: kdecore/localization/kencodingdetector.cpp:1220
+#: kdecore/localization/kencodingprober.cpp:248
+#: kdecore/localization/kencodingprober.cpp:291
+#: kdecore/localization/kcharsets.cpp:192
+msgctxt "@item Text character set"
+msgid "Greek"
+msgstr "గ్రీకు"
 
-#: kdecore/localization/kcharsets.cpp:658
-#, kde-format
-msgctxt "@item Text encoding: %1 character set, %2 encoding"
-msgid "%1 ( %2 )"
-msgstr "%1 ( %2 )"
+#: kdecore/localization/kencodingdetector.cpp:1155
+#: kdecore/localization/kencodingdetector.cpp:1223
+#: kdecore/localization/kencodingprober.cpp:250
+#: kdecore/localization/kencodingprober.cpp:294
+#: kdecore/localization/kcharsets.cpp:198
+msgctxt "@item Text character set"
+msgid "Hebrew"
+msgstr "హిబ్రూ"
+
+#: kdecore/localization/kencodingdetector.cpp:1157
+#: kdecore/localization/kencodingdetector.cpp:1229
+#: kdecore/localization/kencodingprober.cpp:252
+#: kdecore/localization/kencodingprober.cpp:300
+#: kdecore/localization/kcharsets.cpp:170
+msgctxt "@item Text character set"
+msgid "Turkish"
+msgstr "టర్కిష్"
+
+#: kdecore/localization/kencodingdetector.cpp:1159
+#: kdecore/localization/kencodingdetector.cpp:1226
+#: kdecore/localization/kencodingprober.cpp:254
+#: kdecore/localization/kencodingprober.cpp:297
+#: kdecore/localization/kcharsets.cpp:188
+msgctxt "@item Text character set"
+msgid "Japanese"
+msgstr "జాపనీస్"
+
+#: kdecore/localization/kencodingdetector.cpp:1161
+#: kdecore/localization/kencodingdetector.cpp:1211
+#: kdecore/localization/kencodingprober.cpp:256
+#: kdecore/localization/kencodingprober.cpp:282
+#: kdecore/localization/kcharsets.cpp:164
+msgctxt "@item Text character set"
+msgid "Baltic"
+msgstr "బాల్టిక్"
+
+#: kdecore/localization/kencodingdetector.cpp:1163
+#: kdecore/localization/kencodingdetector.cpp:1208
+#: kdecore/localization/kencodingprober.cpp:262
+#: kdecore/localization/kencodingprober.cpp:279
+#: kdecore/localization/kcharsets.cpp:195
+msgctxt "@item Text character set"
+msgid "Arabic"
+msgstr "అరబిక్"
+
+#: kdecore/localization/kencodingdetector.cpp:1235
+#: kdecore/localization/kencodingprober.cpp:258
+#: kdecore/localization/kencodingprober.cpp:306
+#: kdecore/localization/kcharsets.cpp:179
+msgctxt "@item Text character set"
+msgid "Chinese Traditional"
+msgstr "సాంప్రదాయక చైనీస్"
+
+#: kdecore/localization/kencodingdetector.cpp:1238
+#: kdecore/localization/kencodingprober.cpp:260
+#: kdecore/localization/kencodingprober.cpp:309
+#: kdecore/localization/kcharsets.cpp:182
+msgctxt "@item Text character set"
+msgid "Chinese Simplified"
+msgstr "సరళమైన చైనీస్"
+
+#: kdecore/localization/kencodingdetector.cpp:1241
+#: kdecore/localization/kencodingprober.cpp:312
+#: kdecore/localization/kcharsets.cpp:186
+msgctxt "@item Text character set"
+msgid "Korean"
+msgstr "కొరియన్"
+
+#: kdecore/localization/kencodingdetector.cpp:1244
+#: kdecore/localization/kencodingprober.cpp:315
+#: kdecore/localization/kcharsets.cpp:203
+msgctxt "@item Text character set"
+msgid "Thai"
+msgstr "థాయ్"
 
 #: kdecore/localization/kencodingprober.cpp:236
 #: kdecore/localization/kencodingprober.cpp:273
@@ -4430,6 +4396,40 @@ msgstr "Win"
 msgctxt "keyboard-key-name"
 msgid "F%1"
 msgstr "F%1"
+
+#: kdecore/localization/kcharsets.cpp:167
+msgctxt "@item Text character set"
+msgid "South-Eastern Europe"
+msgstr "ఆగ్నేయ ఐరోపా"
+
+#: kdecore/localization/kcharsets.cpp:212
+msgctxt "@item Text character set"
+msgid "Northern Saami"
+msgstr "ఉత్తర సామి"
+
+#: kdecore/localization/kcharsets.cpp:214
+#: kdecore/localization/kcharsets.cpp:619
+msgctxt "@item Text character set"
+msgid "Other"
+msgstr "ఇతర"
+
+#: kdecore/localization/kcharsets.cpp:629
+#, kde-format
+msgctxt "@item %1 character set, %2 encoding"
+msgid "%1 ( %2 )"
+msgstr "%1 ( %2 )"
+
+#: kdecore/localization/kcharsets.cpp:632
+#, kde-format
+msgctxt "@item"
+msgid "Other encoding (%1)"
+msgstr "ఇతర సంకేతీకరణం (%1)"
+
+#: kdecore/localization/kcharsets.cpp:658
+#, kde-format
+msgctxt "@item Text encoding: %1 character set, %2 encoding"
+msgid "%1 ( %2 )"
+msgstr "%1 ( %2 )"
 
 #: kdecore/localization/klocale_kde.cpp:1093
 #, fuzzy
@@ -5150,6 +5150,14 @@ msgstr "'ai_socktype' కు సహాయం లేదు"
 msgid "system error"
 msgstr "వ్యవస్థ దోషము"
 
+#: kdecore/network/k3socks.cpp:137
+msgid "NEC SOCKS client"
+msgstr "ఎన్ ఈ సి సాక్స్ క్లైంట్"
+
+#: kdecore/network/k3socks.cpp:172
+msgid "Dante SOCKS client"
+msgstr "డాంటె సాక్స్ క్లైంట్"
+
 #: kdecore/network/ktcpsocket.cpp:152
 #, fuzzy
 #| msgid "no error"
@@ -5226,14 +5234,6 @@ msgstr ""
 msgctxt "SSL error"
 msgid "Unknown error"
 msgstr "తెలియని దోషము"
-
-#: kdecore/network/k3socks.cpp:137
-msgid "NEC SOCKS client"
-msgstr "ఎన్ ఈ సి సాక్స్ క్లైంట్"
-
-#: kdecore/network/k3socks.cpp:172
-msgid "Dante SOCKS client"
-msgstr "డాంటె సాక్స్ క్లైంట్"
 
 #: kdecore/services/kmimetyperepository.cpp:603
 #, kde-format
@@ -7900,6 +7900,12 @@ msgctxt "@action"
 msgid "About KDE"
 msgstr "కెడిఈ గురించి"
 
+#: kdeui/sonnet/configdialog.cpp:51
+#, fuzzy
+#| msgid "Send Confirmation"
+msgid "Spell Checking Configuration"
+msgstr "అనుమతి పంపించు"
+
 #: kdeui/sonnet/dialog.cpp:103 kdeui/sonnet/dialog.cpp:224
 #: kdeui/sonnet/dialog.cpp:445
 msgctxt "@title:window"
@@ -7929,12 +7935,6 @@ msgstr "అచ్చుతప్పులు సరిచూడుట రద్�
 #: kdeui/sonnet/dialog.cpp:441 kdeui/sonnet/dialog.cpp:445
 msgid "Spell check complete."
 msgstr "అచ్చుతప్పులు సరిచూడుట పూర్తైంది."
-
-#: kdeui/sonnet/configdialog.cpp:51
-#, fuzzy
-#| msgid "Send Confirmation"
-msgid "Spell Checking Configuration"
-msgstr "అనుమతి పంపించు"
 
 #: kdeui/util/kcompletion.cpp:693
 msgid ""
@@ -9660,66 +9660,6 @@ msgstr ""
 msgid "without name"
 msgstr "పేరు లేదు"
 
-#. i18n: Placeholder text in line edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter search pattern").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#. i18n: Placeholder text in text edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter message").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
-msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
-msgid "1"
-msgstr "1"
-
-#: kdeui/widgets/klineedit.cpp:295
-msgctxt "@action:button Clear current text in the line edit"
-msgid "Clear text"
-msgstr "వచనము చెరిపివేయుము"
-
-#: kdeui/widgets/klineedit.cpp:1212
-msgctxt "@title:menu"
-msgid "Text Completion"
-msgstr "వచనము పూరణ"
-
-#: kdeui/widgets/klineedit.cpp:1219
-msgctxt "@item:inmenu Text Completion"
-msgid "None"
-msgstr "ఏదీవద్దు"
-
-#: kdeui/widgets/klineedit.cpp:1220
-msgctxt "@item:inmenu Text Completion"
-msgid "Manual"
-msgstr "మాన్యవల్"
-
-#: kdeui/widgets/klineedit.cpp:1221
-msgctxt "@item:inmenu Text Completion"
-msgid "Automatic"
-msgstr "దానంతటదే"
-
-#: kdeui/widgets/klineedit.cpp:1222
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List"
-msgstr "డ్రాప్‌డౌన్ జాబితా"
-
-#: kdeui/widgets/klineedit.cpp:1223
-msgctxt "@item:inmenu Text Completion"
-msgid "Short Automatic"
-msgstr "శీఘ్రమార్గ స్వయంచాలకత"
-
-#: kdeui/widgets/klineedit.cpp:1224
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List && Automatic"
-msgstr "డ్రాప్‌డౌన్ జాబితా && స్వయంచాలక"
-
-#: kdeui/widgets/klineedit.cpp:1255
-msgctxt "@item:inmenu Text Completion"
-msgid "Default"
-msgstr "అప్రమేయం"
-
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
 msgstr "చిత్ర కార్యాలు"
@@ -9921,6 +9861,38 @@ msgstr "సూపర్‌స్క్రిప్‍ట్"
 msgid "&Copy Full Text"
 msgstr "(&C) పూర్తి వచనంను నకలు చేయి"
 
+#: kdeui/widgets/ktimecombobox.cpp:259
+msgctxt "@info"
+msgid "The time you entered is invalid"
+msgstr ""
+
+#: kdeui/widgets/ktimecombobox.cpp:262
+#, kde-format
+msgctxt "@info"
+msgid "Time cannot be earlier than %1"
+msgstr ""
+
+#: kdeui/widgets/ktimecombobox.cpp:269
+#, kde-format
+msgctxt "@info"
+msgid "Time cannot be later than %1"
+msgstr ""
+
+#. i18n: Placeholder text in text edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter message").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#. i18n: Placeholder text in line edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter search pattern").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#: kdeui/widgets/ktextedit.cpp:79 kdeui/widgets/klineedit.cpp:87
+msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
+msgid "1"
+msgstr "1"
+
 #: kdeui/widgets/ktextedit.cpp:526
 #, fuzzy
 #| msgid "Speak custom text"
@@ -9962,6 +9934,51 @@ msgstr "ప్రాంతము"
 #: kdeui/widgets/ktimezonewidget.cpp:66
 msgid "Comment"
 msgstr "వ్యాఖ్య"
+
+#: kdeui/widgets/klineedit.cpp:295
+msgctxt "@action:button Clear current text in the line edit"
+msgid "Clear text"
+msgstr "వచనము చెరిపివేయుము"
+
+#: kdeui/widgets/klineedit.cpp:1212
+msgctxt "@title:menu"
+msgid "Text Completion"
+msgstr "వచనము పూరణ"
+
+#: kdeui/widgets/klineedit.cpp:1219
+msgctxt "@item:inmenu Text Completion"
+msgid "None"
+msgstr "ఏదీవద్దు"
+
+#: kdeui/widgets/klineedit.cpp:1220
+msgctxt "@item:inmenu Text Completion"
+msgid "Manual"
+msgstr "మాన్యవల్"
+
+#: kdeui/widgets/klineedit.cpp:1221
+msgctxt "@item:inmenu Text Completion"
+msgid "Automatic"
+msgstr "దానంతటదే"
+
+#: kdeui/widgets/klineedit.cpp:1222
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List"
+msgstr "డ్రాప్‌డౌన్ జాబితా"
+
+#: kdeui/widgets/klineedit.cpp:1223
+msgctxt "@item:inmenu Text Completion"
+msgid "Short Automatic"
+msgstr "శీఘ్రమార్గ స్వయంచాలకత"
+
+#: kdeui/widgets/klineedit.cpp:1224
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List && Automatic"
+msgstr "డ్రాప్‌డౌన్ జాబితా && స్వయంచాలక"
+
+#: kdeui/widgets/klineedit.cpp:1255
+msgctxt "@item:inmenu Text Completion"
+msgid "Default"
+msgstr "అప్రమేయం"
 
 #: kdeui/widgets/ktoolbar.cpp:291
 #, fuzzy
@@ -10175,26 +10192,9 @@ msgctxt "@info"
 msgid "The entered date and time is after the maximum allowed date and time."
 msgstr ""
 
-#: kdeui/widgets/ktimecombobox.cpp:259
-msgctxt "@info"
-msgid "The time you entered is invalid"
-msgstr ""
-
-#: kdeui/widgets/ktimecombobox.cpp:262
-#, kde-format
-msgctxt "@info"
-msgid "Time cannot be earlier than %1"
-msgstr ""
-
-#: kdeui/widgets/ktimecombobox.cpp:269
-#, kde-format
-msgctxt "@info"
-msgid "Time cannot be later than %1"
-msgstr ""
-
-#: kdeui/windowmanagement/kwindowsystem_win.cpp:597
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:563
 #: kdeui/windowmanagement/kwindowsystem_qws.cpp:176
+#: kdeui/windowmanagement/kwindowsystem_win.cpp:597
 #: kdeui/windowmanagement/kwindowsystem_x11.cpp:856
 #, kde-format
 msgid "Desktop %1"
@@ -10494,7 +10494,7 @@ msgid "Print header"
 msgstr "హెడర్ను ప్రచురించు"
 
 #: khtml/khtml_run.cpp:104 khtml/khtml_part.cpp:3708 khtml/khtml_part.cpp:3937
-#: khtml/khtml_part.cpp:4359 kparts/browserrun.cpp:426
+#: khtml/khtml_part.cpp:4358 kparts/browserrun.cpp:426
 msgid "Save As"
 msgstr "ఇలా దాచు"
 
@@ -10548,121 +10548,6 @@ msgstr "కె హెచ్ టి ఎం ఎల్ పరీక్ష"
 #: khtml/testkhtml.cpp:42
 msgid "a basic web browser using the KHTML library"
 msgstr ""
-
-#: khtml/khtml_settings.cpp:235
-msgid "Accept"
-msgstr "అంగీకరించు"
-
-#: khtml/khtml_settings.cpp:236
-msgid "Reject"
-msgstr "తిరస్కరించు"
-
-#: khtml/khtml_settings.cpp:916
-msgid "Filter error"
-msgstr "గలని దోషము"
-
-#: khtml/khtmlview.cpp:1842
-msgid "Access Keys activated"
-msgstr ""
-
-#: khtml/khtmlview.cpp:2797 khtml/khtmlview.cpp:2839 khtml/khtml_part.cpp:4759
-#: khtml/html/html_formimpl.cpp:1641 khtml/html/html_formimpl.cpp:1853
-msgid "Submit"
-msgstr "అందించు"
-
-#: khtml/test_regression.cpp:619
-msgid "Directory containing tests, basedir and output directories."
-msgstr ""
-
-#: khtml/test_regression.cpp:621
-msgid "Do not suppress debug output"
-msgstr "డీబగ్ అవుట్పుట్‌ను కుదించవద్దు"
-
-#: khtml/test_regression.cpp:623
-msgid "Regenerate baseline (instead of checking)"
-msgstr ""
-
-#: khtml/test_regression.cpp:625
-msgid "Do not show the window while running tests"
-msgstr ""
-
-#: khtml/test_regression.cpp:627
-msgid "Only run a single test. Multiple options allowed."
-msgstr ""
-
-#: khtml/test_regression.cpp:628
-msgid "Only run .js tests"
-msgstr ".js పరీక్షలను మాత్రమే నడుపుము"
-
-#: khtml/test_regression.cpp:629
-msgid "Only run .html tests"
-msgstr ".html పరీక్షలను నడుపుము"
-
-#: khtml/test_regression.cpp:632
-msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
-msgstr ""
-
-#: khtml/test_regression.cpp:634
-msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
-msgstr ""
-
-#: khtml/test_regression.cpp:635
-msgid ""
-"Directory containing tests, basedir and output directories. Only regarded if "
-"-b is not specified."
-msgstr ""
-
-#: khtml/test_regression.cpp:636
-msgid ""
-"Relative path to testcase, or directory of testcases to be run (equivalent "
-"to -t)."
-msgstr ""
-
-#: khtml/test_regression.cpp:638
-msgid "TestRegression"
-msgstr ""
-
-#: khtml/test_regression.cpp:639
-msgid "Regression tester for khtml"
-msgstr "khtml కొరకు రిగ్రెషన్ టెస్టర్"
-
-#: khtml/test_regression_gui_window.cpp:76
-msgid "Available Tests: 0"
-msgstr "అందుబాటులొ వున్న పరీక్షలు: 0"
-
-#: khtml/test_regression_gui_window.cpp:181
-msgid "Please choose a valid 'khtmltests/regression/' directory."
-msgstr ""
-
-#: khtml/test_regression_gui_window.cpp:250
-msgid "Please choose a valid 'khtml/' build directory."
-msgstr ""
-
-#: khtml/test_regression_gui_window.cpp:532
-#, kde-format
-msgid "Available Tests: %1 (ignored: %2)"
-msgstr "అందుబాటులొ వున్న పరీక్షలు: %1 (విస్మరించినవి: %2)"
-
-#: khtml/test_regression_gui_window.cpp:563
-#: khtml/ecma/debugger/debugwindow.cpp:192
-msgid "Continue"
-msgstr "కొనసాగించు"
-
-#: khtml/test_regression_gui_window.cpp:632
-msgid "Cannot find testregression executable."
-msgstr "టెస్‍ట్‌రిగ్రెషన్ ఎగ్జిక్యూటబుల్‌ను కనుగొనలేకపోయింది."
-
-#: khtml/test_regression_gui_window.cpp:1102
-msgid "Run test..."
-msgstr "పరిక్షని మొదలుపెట్టు..."
-
-#: khtml/test_regression_gui_window.cpp:1104
-msgid "Add to ignores..."
-msgstr "విస్మరించదగువాటి లొ చేర్చు..."
-
-#: khtml/test_regression_gui_window.cpp:1105
-msgid "Remove from ignores..."
-msgstr "విస్మరించదగువాటి లొంచి తిసివెయి..."
 
 #: khtml/khtml_part.cpp:251
 msgid "View Do&cument Source"
@@ -10973,7 +10858,7 @@ msgstr "(&F) చట్రంలో వెతుకు..."
 msgid "&Find..."
 msgstr "(&F) కనుగొను..."
 
-#: khtml/khtml_part.cpp:4700
+#: khtml/khtml_part.cpp:4699
 msgid ""
 "Warning:  This is a secure form but it is attempting to send your data back "
 "unencrypted.\n"
@@ -10981,23 +10866,23 @@ msgid ""
 "Are you sure you wish to continue?"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4703 khtml/khtml_part.cpp:4712
-#: khtml/khtml_part.cpp:4736
+#: khtml/khtml_part.cpp:4702 khtml/khtml_part.cpp:4711
+#: khtml/khtml_part.cpp:4735
 msgid "Network Transmission"
 msgstr "నెట్వర్క్ ప్రసారం"
 
-#: khtml/khtml_part.cpp:4703 khtml/khtml_part.cpp:4713
+#: khtml/khtml_part.cpp:4702 khtml/khtml_part.cpp:4712
 msgid "&Send Unencrypted"
 msgstr "(&S) ఎన్ క్రిప్ట్ చేయకుండా పంపించు"
 
-#: khtml/khtml_part.cpp:4710
+#: khtml/khtml_part.cpp:4709
 msgid ""
 "Warning: Your data is about to be transmitted across the network "
 "unencrypted.\n"
 "Are you sure you wish to continue?"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4734
+#: khtml/khtml_part.cpp:4733
 msgid ""
 "This site is attempting to submit form data via email.\n"
 "Do you want to continue?"
@@ -11005,11 +10890,11 @@ msgstr ""
 "ఈ సైటు ఫాం డాటాను ఈమెయిల్ ద్వారా అప్పగించుటకు ప్రయత్నిస్తోంది.\n"
 "మీరు కొనసాగించాలని అనుకొనుచున్నారా?"
 
-#: khtml/khtml_part.cpp:4737
+#: khtml/khtml_part.cpp:4736
 msgid "&Send Email"
 msgstr "(&S) ఈమెయిల్ పంపించు"
 
-#: khtml/khtml_part.cpp:4758
+#: khtml/khtml_part.cpp:4757
 #, kde-format
 msgid ""
 "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
@@ -11018,81 +10903,196 @@ msgstr ""
 "<qt>మీ స్థానిక దస్త్రవ్యవస్థ నందు ఫాం <br /><b>%1</b><br />కు అప్పగించబడుతుంది.<br /> "
 "మీరు ఫాంను అప్పగించాలని అనుకొనుచున్నారా?</qt>"
 
-#: khtml/khtml_part.cpp:4812
+#: khtml/khtml_part.cpp:4758 khtml/khtmlview.cpp:2797 khtml/khtmlview.cpp:2839
+#: khtml/html/html_formimpl.cpp:1641 khtml/html/html_formimpl.cpp:1853
+msgid "Submit"
+msgstr "అందించు"
+
+#: khtml/khtml_part.cpp:4811
 msgid ""
 "This site attempted to attach a file from your computer in the form "
 "submission. The attachment was removed for your protection."
 msgstr ""
 
-#: khtml/khtml_part.cpp:5883
+#: khtml/khtml_part.cpp:5882
 #, kde-format
 msgid "(%1/s)"
 msgstr "(%1/s)"
 
-#: khtml/khtml_part.cpp:6795
+#: khtml/khtml_part.cpp:6794
 msgid "Security Warning"
 msgstr "భద్రతా హెచ్చరిక"
 
-#: khtml/khtml_part.cpp:6804
+#: khtml/khtml_part.cpp:6803
 #, kde-format
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr "<qt>అవిశ్వనీయ పుటనుండి <br /><b>%1</b><br />కు యాక్సెస్ తిరస్కరించబడింది.</qt>"
 
-#: khtml/khtml_part.cpp:6805 khtml/java/kjavaappletserver.cpp:792
+#: khtml/khtml_part.cpp:6804 khtml/java/kjavaappletserver.cpp:792
 msgid "Security Alert"
 msgstr "భద్రతా హెచ్చరిక"
 
-#: khtml/khtml_part.cpp:7153
+#: khtml/khtml_part.cpp:7152
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr "'%1' వాలెట్ తెరవబడివున్నది మరయు ఫారం దత్తాంశాలు మరయూ సంకేతపదముల కొరకు వాడబడుతుంది."
 
-#: khtml/khtml_part.cpp:7213
+#: khtml/khtml_part.cpp:7212
 msgid "&Close Wallet"
 msgstr "(&C) వాలెట్ ముసివేయి"
 
-#: khtml/khtml_part.cpp:7216
+#: khtml/khtml_part.cpp:7215
 msgid "&Allow storing passwords for this site"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7221
+#: khtml/khtml_part.cpp:7220
 #, kde-format
 msgid "Remove password for form %1"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7326
+#: khtml/khtml_part.cpp:7325
 msgid "JavaScript &Debugger"
 msgstr "(&D) జావాస్క్రిప్ట్ డీబగ్గర్"
 
-#: khtml/khtml_part.cpp:7358
+#: khtml/khtml_part.cpp:7357
 msgid "This page was prevented from opening a new window via JavaScript."
 msgstr "జావాస్క్రిప్ట్ ద్వారా కొత్త విండొ తెరవకుండా ఈ పుటను ఆపడమైనది"
 
-#: khtml/khtml_part.cpp:7364
+#: khtml/khtml_part.cpp:7363
 msgid "Popup Window Blocked"
 msgstr "పాప్ అప్ విండొ ఆపివేయడమైనది"
 
-#: khtml/khtml_part.cpp:7364
+#: khtml/khtml_part.cpp:7363
 msgid ""
 "This page has attempted to open a popup window but was blocked.\n"
 "You can click on this icon in the status bar to control this behavior\n"
 "or to open the popup."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7377
+#: khtml/khtml_part.cpp:7376
 #, kde-format
 msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
 msgstr[0] "(&S) ఆపివేయబడిన పాప్ అప్ విండొను చూపు"
 msgstr[1] "(&S) %1 ఆపివేయబడిన పాప్ అప్ విండొలను చూపు"
 
-#: khtml/khtml_part.cpp:7378
+#: khtml/khtml_part.cpp:7377
 msgid "Show Blocked Window Passive Popup &Notification"
 msgstr "(&N) ఆపిన విండొ లొ వూరికేవున్న పాప్ అప్ ప్రకటనను చూపు"
 
-#: khtml/khtml_part.cpp:7380
+#: khtml/khtml_part.cpp:7379
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "&(C) జావాస్క్రిప్ట్ కొత్త విండొ పాలసీలను అమర్చు..."
+
+#: khtml/khtml_settings.cpp:235
+msgid "Accept"
+msgstr "అంగీకరించు"
+
+#: khtml/khtml_settings.cpp:236
+msgid "Reject"
+msgstr "తిరస్కరించు"
+
+#: khtml/khtml_settings.cpp:916
+msgid "Filter error"
+msgstr "గలని దోషము"
+
+#: khtml/khtmlview.cpp:1842
+msgid "Access Keys activated"
+msgstr ""
+
+#: khtml/test_regression.cpp:619
+msgid "Directory containing tests, basedir and output directories."
+msgstr ""
+
+#: khtml/test_regression.cpp:621
+msgid "Do not suppress debug output"
+msgstr "డీబగ్ అవుట్పుట్‌ను కుదించవద్దు"
+
+#: khtml/test_regression.cpp:623
+msgid "Regenerate baseline (instead of checking)"
+msgstr ""
+
+#: khtml/test_regression.cpp:625
+msgid "Do not show the window while running tests"
+msgstr ""
+
+#: khtml/test_regression.cpp:627
+msgid "Only run a single test. Multiple options allowed."
+msgstr ""
+
+#: khtml/test_regression.cpp:628
+msgid "Only run .js tests"
+msgstr ".js పరీక్షలను మాత్రమే నడుపుము"
+
+#: khtml/test_regression.cpp:629
+msgid "Only run .html tests"
+msgstr ".html పరీక్షలను నడుపుము"
+
+#: khtml/test_regression.cpp:632
+msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
+msgstr ""
+
+#: khtml/test_regression.cpp:634
+msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
+msgstr ""
+
+#: khtml/test_regression.cpp:635
+msgid ""
+"Directory containing tests, basedir and output directories. Only regarded if "
+"-b is not specified."
+msgstr ""
+
+#: khtml/test_regression.cpp:636
+msgid ""
+"Relative path to testcase, or directory of testcases to be run (equivalent "
+"to -t)."
+msgstr ""
+
+#: khtml/test_regression.cpp:638
+msgid "TestRegression"
+msgstr ""
+
+#: khtml/test_regression.cpp:639
+msgid "Regression tester for khtml"
+msgstr "khtml కొరకు రిగ్రెషన్ టెస్టర్"
+
+#: khtml/test_regression_gui_window.cpp:76
+msgid "Available Tests: 0"
+msgstr "అందుబాటులొ వున్న పరీక్షలు: 0"
+
+#: khtml/test_regression_gui_window.cpp:181
+msgid "Please choose a valid 'khtmltests/regression/' directory."
+msgstr ""
+
+#: khtml/test_regression_gui_window.cpp:250
+msgid "Please choose a valid 'khtml/' build directory."
+msgstr ""
+
+#: khtml/test_regression_gui_window.cpp:532
+#, kde-format
+msgid "Available Tests: %1 (ignored: %2)"
+msgstr "అందుబాటులొ వున్న పరీక్షలు: %1 (విస్మరించినవి: %2)"
+
+#: khtml/test_regression_gui_window.cpp:563
+#: khtml/ecma/debugger/debugwindow.cpp:192
+msgid "Continue"
+msgstr "కొనసాగించు"
+
+#: khtml/test_regression_gui_window.cpp:632
+msgid "Cannot find testregression executable."
+msgstr "టెస్‍ట్‌రిగ్రెషన్ ఎగ్జిక్యూటబుల్‌ను కనుగొనలేకపోయింది."
+
+#: khtml/test_regression_gui_window.cpp:1102
+msgid "Run test..."
+msgstr "పరిక్షని మొదలుపెట్టు..."
+
+#: khtml/test_regression_gui_window.cpp:1104
+msgid "Add to ignores..."
+msgstr "విస్మరించదగువాటి లొ చేర్చు..."
+
+#: khtml/test_regression_gui_window.cpp:1105
+msgid "Remove from ignores..."
+msgstr "విస్మరించదగువాటి లొంచి తిసివెయి..."
 
 #: khtml/ecma/kjs_binding.cpp:185
 msgid ""
@@ -11111,11 +11111,11 @@ msgstr "జావాస్క్రిప్ట్"
 msgid "&Stop Script"
 msgstr "స్క్రిప్ట్ తెరువు"
 
-#: khtml/ecma/kjs_html.cpp:2161 khtml/ecma/kjs_window.cpp:1650
+#: khtml/ecma/kjs_html.cpp:2162 khtml/ecma/kjs_window.cpp:1650
 msgid "Confirmation: JavaScript Popup"
 msgstr "దృవపరచు: జావాస్క్రిప్ట్ పాప్ అప్"
 
-#: khtml/ecma/kjs_html.cpp:2163
+#: khtml/ecma/kjs_html.cpp:2164
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
@@ -11124,7 +11124,7 @@ msgstr ""
 "ఈ సైట్ ఫాంను అందిస్తోంది అది జావా స్క్రిప్ట్ ద్వారా కొత్త విండొని తెరుస్తుంది.\n"
 "అనుమతించ మంటారా?"
 
-#: khtml/ecma/kjs_html.cpp:2166
+#: khtml/ecma/kjs_html.cpp:2167
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -11134,11 +11134,11 @@ msgstr ""
 "<qt>ఈ సైట్ ఫాంను అందిస్తోంది అది <p>%1</p>ను జావా స్క్రిప్ట్ ద్వారా కొత్త విండొని తెరుస్తుంది.<br /> "
 "అనుమతించ మంటారా?</qt>"
 
-#: khtml/ecma/kjs_html.cpp:2168 khtml/ecma/kjs_window.cpp:1658
+#: khtml/ecma/kjs_html.cpp:2169 khtml/ecma/kjs_window.cpp:1658
 msgid "Allow"
 msgstr "అనుమతించు"
 
-#: khtml/ecma/kjs_html.cpp:2168 khtml/ecma/kjs_window.cpp:1658
+#: khtml/ecma/kjs_html.cpp:2169 khtml/ecma/kjs_window.cpp:1658
 msgid "Do Not Allow"
 msgstr "అనుమతించవద్దు"
 
@@ -11167,29 +11167,29 @@ msgstr "విండొ మూసివేయవచ్చునా?"
 msgid "Confirmation Required"
 msgstr "అనుమతి కావాలి"
 
-#: khtml/ecma/kjs_window.cpp:2868
+#: khtml/ecma/kjs_window.cpp:2875
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2871
+#: khtml/ecma/kjs_window.cpp:2878
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2879
+#: khtml/ecma/kjs_window.cpp:2886
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "జావాస్క్రిప్ట్ పేజి గుర్తు చేర్చుట ప్రయత్నించినది"
 
-#: khtml/ecma/kjs_window.cpp:2883
+#: khtml/ecma/kjs_window.cpp:2890
 msgid "Insert"
 msgstr "చేర్చు"
 
-#: khtml/ecma/kjs_window.cpp:2883
+#: khtml/ecma/kjs_window.cpp:2890
 msgid "Disallow"
 msgstr "నిషెధించు"
 
@@ -13081,6 +13081,19 @@ msgstr "సంప్రదింపు దోషము"
 msgid "Invalid type in Database"
 msgstr "డాటా బేస్ లొ చెల్లని రకం"
 
+#: nepomuk/query/query.cpp:696
+#, kde-format
+msgctxt ""
+"@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
+"user entered."
+msgid "Query Results from '%1'"
+msgstr ""
+
+#: nepomuk/query/query.cpp:702
+msgctxt "@title UDS_DISPLAY_NAME for a KIO directory listing."
+msgid "Query Results"
+msgstr ""
+
 #: nepomuk/query/queryparser.cpp:461
 #, fuzzy
 #| msgid "Esfand"
@@ -13103,19 +13116,6 @@ msgctxt ""
 "keyword."
 msgid "or"
 msgstr "మెర్"
-
-#: nepomuk/query/query.cpp:696
-#, kde-format
-msgctxt ""
-"@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
-"user entered."
-msgid "Query Results from '%1'"
-msgstr ""
-
-#: nepomuk/query/query.cpp:702
-msgctxt "@title UDS_DISPLAY_NAME for a KIO directory listing."
-msgid "Query Results"
-msgstr ""
 
 #: nepomuk/rcgen/rcgen.cpp:49 nepomuk/rcgen/rcgen.cpp:51
 msgid "Nepomuk Resource Class Generator"
