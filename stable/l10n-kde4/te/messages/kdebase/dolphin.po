@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-11 17:27+0200\n"
+"POT-Creation-Date: 2011-07-12 15:17+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -904,62 +904,6 @@ msgstr "తిరిగిలోడ్‌చేయి"
 msgid "Default"
 msgstr "అప్రమేయ:"
 
-#: views/dolphinview.cpp:500
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "<filename>%1</filename> ఎంపిక కాబడినది"
-
-#: views/dolphinview.cpp:501
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected (%2)"
-msgstr "<filename>%1</filename> ఎంపిక కాబడినది (%2)"
-
-#: views/dolphinview.cpp:505
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] "1 ఫోల్డరు ఎంపిక కాబడినది"
-msgstr[1] "%1 ఫోల్డర్లు ఎంపిక కాబడినది"
-
-#: views/dolphinview.cpp:506
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] "1 ఫైలు ఎంపిక కాబడినది"
-msgstr[1] "%1 ఫైలు ఎంపిక కాబడినది"
-
-#: views/dolphinview.cpp:508
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
-
-#: views/dolphinview.cpp:511
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: views/dolphinview.cpp:1053
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "తొలగింపు కార్యము పూర్తైనది."
-
-#: views/dolphinview.cpp:1155
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "స్థానము ఖాళీగావుంది"
-
-#: views/dolphinview.cpp:1157
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "స్థానము '%1' సరైనదికాదు."
-
 #: views/draganddrophelper.cpp:108
 msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
@@ -974,6 +918,27 @@ msgstr "అంశము ఎంపిక తీసివేయి"
 msgctxt "@info:tooltip"
 msgid "Select Item"
 msgstr "అంశమును ఎంపికచేయుము"
+
+#: views/dolphindetailsview.cpp:144
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Expandable folders"
+msgctxt "@option:check"
+msgid "Expandable Folders"
+msgstr "విస్తరించదగిన ఫోల్డర్లు"
+
+#: views/dolphindetailsview.cpp:372
+msgctxt "@title:menu"
+msgid "Columns"
+msgstr "నిలువు వరుసలు"
+
+#: views/dolphindetailsview.cpp:704
+#, kde-format
+msgctxt "Items in a folder"
+msgid "1 item"
+msgid_plural "%1 items"
+msgstr[0] ""
+msgstr[1] ""
 
 #: views/versioncontrol/versioncontrolobserver.cpp:190
 #, fuzzy
@@ -1218,6 +1183,62 @@ msgctxt "@info"
 msgid "(# will be replaced by ascending numbers)"
 msgstr "(# ఆరోహణ సంఖ్యలచేత పునఃస్థాపించబడుతుంది)"
 
+#: views/dolphinview.cpp:500
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr "<filename>%1</filename> ఎంపిక కాబడినది"
+
+#: views/dolphinview.cpp:501
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected (%2)"
+msgstr "<filename>%1</filename> ఎంపిక కాబడినది (%2)"
+
+#: views/dolphinview.cpp:505
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "1 ఫోల్డరు ఎంపిక కాబడినది"
+msgstr[1] "%1 ఫోల్డర్లు ఎంపిక కాబడినది"
+
+#: views/dolphinview.cpp:506
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "1 ఫైలు ఎంపిక కాబడినది"
+msgstr[1] "%1 ఫైలు ఎంపిక కాబడినది"
+
+#: views/dolphinview.cpp:508
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:511
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:1045
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "తొలగింపు కార్యము పూర్తైనది."
+
+#: views/dolphinview.cpp:1147
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "స్థానము ఖాళీగావుంది"
+
+#: views/dolphinview.cpp:1149
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "స్థానము '%1' సరైనదికాదు."
+
 #: views/additionalinfoaccessor.cpp:105
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
@@ -1286,27 +1307,6 @@ msgstr "అతికించుము"
 msgctxt "@info:tooltip"
 msgid "Resize column"
 msgstr ""
-
-#: views/dolphindetailsview.cpp:143
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Expandable folders"
-msgctxt "@option:check"
-msgid "Expandable Folders"
-msgstr "విస్తరించదగిన ఫోల్డర్లు"
-
-#: views/dolphindetailsview.cpp:371
-msgctxt "@title:menu"
-msgid "Columns"
-msgstr "నిలువు వరుసలు"
-
-#: views/dolphindetailsview.cpp:703
-#, kde-format
-msgctxt "Items in a folder"
-msgid "1 item"
-msgid_plural "%1 items"
-msgstr[0] ""
-msgstr[1] ""
 
 #: views/dolphindirlister.cpp:41
 #, fuzzy
