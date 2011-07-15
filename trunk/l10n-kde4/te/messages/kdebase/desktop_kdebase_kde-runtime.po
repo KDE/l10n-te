@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-14 03:01+0000\n"
+"POT-Creation-Date: 2011-07-15 03:13+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -24,6 +24,14 @@ msgstr ""
 "\n"
 "\n"
 
+#: activitymanager/activitymanager-plugin.desktop:5
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Activity Bar"
+msgctxt "Comment"
+msgid "Activity manager plugin"
+msgstr "క్రియాశీలత పట్టీ"
+
 #: activitymanager/kactivitymanagerd.desktop:9
 #, fuzzy
 #| msgctxt "Name"
@@ -39,6 +47,42 @@ msgstr "క్రియాశీలత పట్టీ"
 msgctxt "Comment"
 msgid "The activity management backend"
 msgstr "బ్లూటూత్ నిర్వహణా బ్యాక్ఎండ్"
+
+#: activitymanager/plugins/dummy/activitymanager-plugin-dummy.desktop:2
+msgctxt "Name"
+msgid "Dummy plugin"
+msgstr ""
+
+#: activitymanager/plugins/dummy/activitymanager-plugin-dummy.desktop:3
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Joystick settings"
+msgctxt "Comment"
+msgid "Just testing"
+msgstr "Joystick అమరికలు"
+
+#: activitymanager/plugins/nepomuk/activitymanager-plugin-nepomuk.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Nepomuk Server"
+msgctxt "Name"
+msgid "Nepomuk Feeder Plugin"
+msgstr "Nepomuk సేవిక"
+
+#: activitymanager/plugins/nepomuk/activitymanager-plugin-nepomuk.desktop:3
+msgctxt "Comment"
+msgid "Plugin to store and score events in Nepomuk"
+msgstr ""
+
+#: activitymanager/plugins/slc/activitymanager-plugin-slc.desktop:2
+msgctxt "Name"
+msgid "Share-Like-Connect Plugin"
+msgstr ""
+
+#: activitymanager/plugins/slc/activitymanager-plugin-slc.desktop:3
+msgctxt "Comment"
+msgid "Plugin to provide data to the SLC system"
+msgstr ""
 
 #: attica/kcm/kcm_attica.desktop:12
 #, fuzzy
@@ -7303,10 +7347,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Display Settings"
 #~ msgstr "ప్రదర్శన అమరికలు"
-
-#~ msgctxt "Comment"
-#~ msgid "Joystick settings"
-#~ msgstr "Joystick అమరికలు"
 
 #~ msgctxt "Name"
 #~ msgid "Joystick"
