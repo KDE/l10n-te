@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-20 04:01+0200\n"
+"POT-Creation-Date: 2011-08-02 05:24+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
+"Language: te\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,6 +25,21 @@ msgstr ""
 "\n"
 "\n"
 "X-Generator: KBabel 1.11.4\n"
+
+#: src/konqhistorymodel.cpp:137
+#, kde-format
+msgid ""
+"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: "
+"%3<br />Number of times visited: %4</qt>"
+msgstr ""
+
+#: src/konqhistorymodel.cpp:233
+msgid "Local"
+msgstr ""
+
+#: src/konqhistorymodel.cpp:236
+msgid "Miscellaneous"
+msgstr "ఇతరత్రా"
 
 #: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5037
 #: src/konqmainwindow.cpp:5097
@@ -302,106 +318,6 @@ msgstr ""
 msgid "Eduardo Robles Elvira"
 msgstr ""
 
-#: src/konqframestatusbar.cpp:109
-msgid ""
-"Checking this box on at least two views sets those views as 'linked'. Then, "
-"when you change directories in one view, the other views linked with it will "
-"automatically update to show the current directory. This is especially "
-"useful with different types of views, such as a directory tree with an icon "
-"view or detailed view, and possibly a terminal emulator window."
-msgstr ""
-
-#: src/konqframestatusbar.cpp:156
-msgid "Close View"
-msgstr ""
-
-#: src/konqframestatusbar.cpp:236
-#, kde-format
-msgid "%1/s"
-msgstr ""
-
-#: src/konqframestatusbar.cpp:238
-msgid "Stalled"
-msgstr ""
-
-#: src/konqguiclients.cpp:66
-#, kde-format
-msgid "Preview &in %1"
-msgstr ""
-
-#: src/konqguiclients.cpp:135
-#, kde-format
-msgid "Show %1"
-msgstr ""
-
-#: src/konqhistorydialog.cpp:45
-msgctxt "@title:window"
-msgid "History"
-msgstr ""
-
-#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
-msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
-msgid "Sort"
-msgstr ""
-
-#: src/konqhistorymodel.cpp:137
-#, kde-format
-msgid ""
-"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: %"
-"3<br />Number of times visited: %4</qt>"
-msgstr ""
-
-#: src/konqhistorymodel.cpp:233
-msgid "Local"
-msgstr ""
-
-#: src/konqhistorymodel.cpp:236
-msgid "Miscellaneous"
-msgstr "ఇతరత్రా"
-
-#: src/konqmain.cpp:96
-msgid "Start without a default window, when called without URLs"
-msgstr ""
-
-#: src/konqmain.cpp:98
-msgid ""
-"Preload for later use. This mode does not support URLs on the command line"
-msgstr ""
-
-#: src/konqmain.cpp:100
-msgid "Profile to open"
-msgstr ""
-
-#: src/konqmain.cpp:102
-msgid "List available profiles"
-msgstr ""
-
-#: src/konqmain.cpp:104
-msgid "List available sessions"
-msgstr ""
-
-#: src/konqmain.cpp:106
-msgid "Session to open"
-msgstr ""
-
-#: src/konqmain.cpp:108
-msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
-msgstr ""
-
-#: src/konqmain.cpp:109
-msgid "Part to use (e.g. khtml or kwebkitpart)"
-msgstr ""
-
-#: src/konqmain.cpp:111
-msgid ""
-"For URLs that point to files, opens the directory and selects the file, "
-"instead of opening the actual file"
-msgstr ""
-
-#: src/konqmain.cpp:113
-msgid "Location to open"
-msgstr ""
-
 #: src/konqtabs.cpp:66
 msgid ""
 "This bar contains the list of currently open tabs. Click on a tab to make it "
@@ -465,16 +381,75 @@ msgstr ""
 msgid "Und&o"
 msgstr ""
 
-#: src/konqextensionmanager.cpp:54
-#, fuzzy
-#| msgid "Configure"
+#: src/konqhistorydialog.cpp:45
 msgctxt "@title:window"
-msgid "Configure"
-msgstr "ఆకృతీకరించుము"
+msgid "History"
+msgstr ""
 
-#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
-#: src/konqextensionmanager.cpp:78
-msgid "Extensions"
+#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr ""
+
+#: src/konqmain.cpp:96
+msgid "Start without a default window, when called without URLs"
+msgstr ""
+
+#: src/konqmain.cpp:98
+msgid ""
+"Preload for later use. This mode does not support URLs on the command line"
+msgstr ""
+
+#: src/konqmain.cpp:100
+msgid "Profile to open"
+msgstr ""
+
+#: src/konqmain.cpp:102
+msgid "List available profiles"
+msgstr ""
+
+#: src/konqmain.cpp:104
+msgid "List available sessions"
+msgstr ""
+
+#: src/konqmain.cpp:106
+msgid "Session to open"
+msgstr ""
+
+#: src/konqmain.cpp:108
+msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
+msgstr ""
+
+#: src/konqmain.cpp:109
+msgid "Part to use (e.g. khtml or kwebkitpart)"
+msgstr ""
+
+#: src/konqmain.cpp:111
+msgid ""
+"For URLs that point to files, opens the directory and selects the file, "
+"instead of opening the actual file"
+msgstr ""
+
+#: src/konqmain.cpp:113
+msgid "Location to open"
+msgstr ""
+
+#: src/konqview.cpp:1203
+msgid ""
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
+msgstr ""
+
+#: src/konqview.cpp:1205
+#, fuzzy
+#| msgid "Warning"
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "హెచ్చరిక"
+
+#: src/konqview.cpp:1205
+msgid "Resend"
 msgstr ""
 
 #: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4562
@@ -527,138 +502,6 @@ msgctxt "@title:window"
 msgid "Clear History?"
 msgstr ""
 
-#: src/konqprofiledlg.cpp:111
-#, fuzzy
-#| msgid "File Management"
-msgctxt "@title:window"
-msgid "Profile Management"
-msgstr "దస్త్ర నిర్వహణ"
-
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr ""
-
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr ""
-
-#: src/konqsessiondlg.cpp:77
-#, fuzzy
-#| msgid "Rename"
-msgctxt "@title:window"
-msgid "Manage Sessions"
-msgstr "పునఃనామకరణము"
-
-#: src/konqsessiondlg.cpp:81
-msgid "&Open"
-msgstr ""
-
-#: src/konqsessiondlg.cpp:175
-#, fuzzy
-#| msgid "Rename"
-msgctxt "@title:window"
-msgid "Rename Session"
-msgstr "పునఃనామకరణము"
-
-#: src/konqsessiondlg.cpp:223
-#, fuzzy
-#| msgid "Rename"
-msgctxt "@title:window"
-msgid "Save Session"
-msgstr "పునఃనామకరణము"
-
-#: src/konqsessiondlg.cpp:247
-#, kde-format
-msgid ""
-"A session with the name '%1' already exists, do you want to overwrite it?"
-msgstr ""
-
-#: src/konqsessiondlg.cpp:248
-msgctxt "@title:window"
-msgid "Session exists. Overwrite?"
-msgstr ""
-
-#: src/konqsessionmanager.cpp:330
-msgid ""
-"Konqueror did not close correctly. Would you like to restore the previous "
-"session?"
-msgstr ""
-
-#: src/konqsessionmanager.cpp:332
-#, fuzzy
-#| msgid "Rename"
-msgctxt "@title:window"
-msgid "Restore Session?"
-msgstr "పునఃనామకరణము"
-
-#: src/konqsessionmanager.cpp:333
-msgid "Restore Session"
-msgstr ""
-
-#: src/konqsessionmanager.cpp:334
-msgid "Do Not Restore"
-msgstr ""
-
-#: src/konqsessionmanager.cpp:335
-msgid "Ask Me Later"
-msgstr ""
-
-#: src/konqview.cpp:1203
-msgid ""
-"The page you are trying to view is the result of posted form data. If you "
-"resend the data, any action the form carried out (such as search or online "
-"purchase) will be repeated. "
-msgstr ""
-
-#: src/konqview.cpp:1205
-#, fuzzy
-#| msgid "Warning"
-msgctxt "@title:window"
-msgid "Warning"
-msgstr "హెచ్చరిక"
-
-#: src/konqview.cpp:1205
-msgid "Resend"
-msgstr ""
-
-#: src/konqviewmanager.cpp:1407
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-
-#: src/konqviewmanager.cpp:1409 src/konqmainwindow.cpp:4964
-#, fuzzy
-#| msgid "Confirmation"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "నిర్ధారణ"
-
-#: src/konqviewmanager.cpp:1410
-msgid "Load View Profile"
-msgstr ""
-
-#: src/konqviewmanager.cpp:1422
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-
-#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1625
-#: src/konqmainwindow.cpp:2352 src/konqmainwindow.cpp:2432
-#: src/konqmainwindow.cpp:2462 src/konqmainwindow.cpp:2504
-#: src/konqmainwindow.cpp:2526 src/konqmainwindow.cpp:4999
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr ""
-
-#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1625
-#: src/konqmainwindow.cpp:2352 src/konqmainwindow.cpp:2432
-#: src/konqmainwindow.cpp:2462 src/konqmainwindow.cpp:2504
-#: src/konqmainwindow.cpp:2527 src/konqmainwindow.cpp:4999
-msgid "&Discard Changes"
-msgstr ""
-
 #: src/konqmainwindow.cpp:574
 msgctxt "@title:tab"
 msgid "Loading..."
@@ -672,6 +515,21 @@ msgstr ""
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Reloading the page will discard these changes."
+msgstr ""
+
+#: src/konqmainwindow.cpp:1625 src/konqmainwindow.cpp:2352
+#: src/konqmainwindow.cpp:2432 src/konqmainwindow.cpp:2462
+#: src/konqmainwindow.cpp:2504 src/konqmainwindow.cpp:2526
+#: src/konqmainwindow.cpp:4999 src/konqviewmanager.cpp:1423
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr ""
+
+#: src/konqmainwindow.cpp:1625 src/konqmainwindow.cpp:2352
+#: src/konqmainwindow.cpp:2432 src/konqmainwindow.cpp:2462
+#: src/konqmainwindow.cpp:2504 src/konqmainwindow.cpp:2527
+#: src/konqmainwindow.cpp:4999 src/konqviewmanager.cpp:1423
+msgid "&Discard Changes"
 msgstr ""
 
 #: src/konqmainwindow.cpp:1735
@@ -1171,6 +1029,13 @@ msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr ""
 
+#: src/konqmainwindow.cpp:4964 src/konqviewmanager.cpp:1409
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "నిర్ధారణ"
+
 #: src/konqmainwindow.cpp:4966
 msgid "C&lose Current Tab"
 msgstr ""
@@ -1217,6 +1082,142 @@ msgstr ""
 msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
 "with %1, but it cannot handle this file type."
+msgstr ""
+
+#: src/konqprofiledlg.cpp:111
+#, fuzzy
+#| msgid "File Management"
+msgctxt "@title:window"
+msgid "Profile Management"
+msgstr "దస్త్ర నిర్వహణ"
+
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr ""
+
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr ""
+
+#: src/konqsessiondlg.cpp:77
+#, fuzzy
+#| msgid "Rename"
+msgctxt "@title:window"
+msgid "Manage Sessions"
+msgstr "పునఃనామకరణము"
+
+#: src/konqsessiondlg.cpp:81
+msgid "&Open"
+msgstr ""
+
+#: src/konqsessiondlg.cpp:175
+#, fuzzy
+#| msgid "Rename"
+msgctxt "@title:window"
+msgid "Rename Session"
+msgstr "పునఃనామకరణము"
+
+#: src/konqsessiondlg.cpp:223
+#, fuzzy
+#| msgid "Rename"
+msgctxt "@title:window"
+msgid "Save Session"
+msgstr "పునఃనామకరణము"
+
+#: src/konqsessiondlg.cpp:247
+#, kde-format
+msgid ""
+"A session with the name '%1' already exists, do you want to overwrite it?"
+msgstr ""
+
+#: src/konqsessiondlg.cpp:248
+msgctxt "@title:window"
+msgid "Session exists. Overwrite?"
+msgstr ""
+
+#: src/konqsessionmanager.cpp:330
+msgid ""
+"Konqueror did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr ""
+
+#: src/konqsessionmanager.cpp:332
+#, fuzzy
+#| msgid "Rename"
+msgctxt "@title:window"
+msgid "Restore Session?"
+msgstr "పునఃనామకరణము"
+
+#: src/konqsessionmanager.cpp:333
+msgid "Restore Session"
+msgstr ""
+
+#: src/konqsessionmanager.cpp:334
+msgid "Do Not Restore"
+msgstr ""
+
+#: src/konqsessionmanager.cpp:335
+msgid "Ask Me Later"
+msgstr ""
+
+#: src/konqframestatusbar.cpp:109
+msgid ""
+"Checking this box on at least two views sets those views as 'linked'. Then, "
+"when you change directories in one view, the other views linked with it will "
+"automatically update to show the current directory. This is especially "
+"useful with different types of views, such as a directory tree with an icon "
+"view or detailed view, and possibly a terminal emulator window."
+msgstr ""
+
+#: src/konqframestatusbar.cpp:156
+msgid "Close View"
+msgstr ""
+
+#: src/konqframestatusbar.cpp:236
+#, kde-format
+msgid "%1/s"
+msgstr ""
+
+#: src/konqframestatusbar.cpp:238
+msgid "Stalled"
+msgstr ""
+
+#: src/konqguiclients.cpp:66
+#, kde-format
+msgid "Preview &in %1"
+msgstr ""
+
+#: src/konqguiclients.cpp:135
+#, kde-format
+msgid "Show %1"
+msgstr ""
+
+#: src/konqviewmanager.cpp:1407
+msgid ""
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
+msgstr ""
+
+#: src/konqviewmanager.cpp:1410
+msgid "Load View Profile"
+msgstr ""
+
+#: src/konqviewmanager.cpp:1422
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+
+#: src/konqextensionmanager.cpp:54
+#, fuzzy
+#| msgid "Configure"
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "ఆకృతీకరించుము"
+
+#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
+#: src/konqextensionmanager.cpp:78
+msgid "Extensions"
 msgstr ""
 
 #: sidebar/history_module/history_module.cpp:126
@@ -1270,6 +1271,13 @@ msgstr ""
 #: sidebar/sidebar_part.cpp:28
 msgid "Extended Sidebar"
 msgstr ""
+
+#: sidebar/trees/bookmark_module/bookmark_module.h:88
+#, fuzzy
+#| msgid "&Bookmarks"
+msgctxt "@title:window"
+msgid "Add Bookmark"
+msgstr "(&B) పేజీ గుర్తులు"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:74
 msgid "&Create New Folder"
@@ -1350,35 +1358,9 @@ msgstr "పేరు:"
 msgid "Location:"
 msgstr "స్థానము:"
 
-#: sidebar/trees/bookmark_module/bookmark_module.h:88
-#, fuzzy
-#| msgid "&Bookmarks"
-msgctxt "@title:window"
-msgid "Add Bookmark"
-msgstr "(&B) పేజీ గుర్తులు"
-
 #: sidebar/trees/dirtree_module/dirtree_module.cpp:417
 #, kde-format
 msgid "Cannot find parent item %1 in the tree. Internal error."
-msgstr ""
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@label"
-msgid "Name:"
-msgstr "పేరు:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-msgctxt "@label"
-msgid "Path or URL:"
-msgstr ""
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
-msgctxt "@title:window"
-msgid "Add folder sidebar module"
 msgstr ""
 
 #: sidebar/trees/konq_sidebartree.cpp:203
@@ -1409,6 +1391,25 @@ msgstr ""
 #: sidebar/trees/konq_sidebartree.cpp:956
 msgid "Enter folder name:"
 msgstr "ఫొల్డర్ పేరును వ్రాయండి:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@label"
+msgid "Name:"
+msgstr "పేరు:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr ""
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
+msgctxt "@title:window"
+msgid "Add folder sidebar module"
+msgstr ""
 
 #: sidebar/web_module/web_module.cpp:57
 msgid "&Open Link"
@@ -1687,8 +1688,8 @@ msgstr ""
 #: about/konq_aboutpage.cc:208
 #, kde-format
 msgid ""
-"<A HREF=\"%1\">DOM</A> (Level 1, partially Level 2) based <A HREF=\"%2"
-"\">HTML 4.01</A>"
+"<A HREF=\"%1\">DOM</A> (Level 1, partially Level 2) based <A HREF="
+"\"%2\">HTML 4.01</A>"
 msgstr ""
 
 #: about/konq_aboutpage.cc:210 about/konq_aboutpage.cc:212
@@ -1728,8 +1729,8 @@ msgstr ""
 #: about/konq_aboutpage.cc:218
 #, kde-format
 msgid ""
-"JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">IBM</A> or <A HREF=\"%2"
-"\">Sun/Oracle</A>)"
+"JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">IBM</A> or <A HREF="
+"\"%2\">Sun/Oracle</A>)"
 msgstr ""
 
 #: about/konq_aboutpage.cc:220
@@ -1741,8 +1742,8 @@ msgstr ""
 #, kde-format
 msgid ""
 "Netscape Communicator<SUP>&reg;</SUP> <A HREF=\"%4\">plugins</A> (for "
-"viewing <A HREF=\"%1\">Flash<SUP>&reg;</SUP></A>, <A HREF=\"%2"
-"\">Real<SUP>&reg;</SUP></A>Audio, <A HREF=\"%3\">Real<SUP>&reg;</SUP></"
+"viewing <A HREF=\"%1\">Flash<SUP>&reg;</SUP></A>, <A HREF="
+"\"%2\">Real<SUP>&reg;</SUP></A>Audio, <A HREF=\"%3\">Real<SUP>&reg;</SUP></"
 "A>Video, etc.)"
 msgstr ""
 

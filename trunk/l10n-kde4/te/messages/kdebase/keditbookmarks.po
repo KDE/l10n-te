@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-13 03:56+0200\n"
+"POT-Creation-Date: 2011-08-02 05:23+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
+"Language: te\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -35,11 +36,6 @@ msgstr ""
 
 #: favicons.cpp:72
 msgid "Updating favicon..."
-msgstr ""
-
-#: faviconupdater.cpp:87
-#, kde-format
-msgid "%1; no HTML component found (%2)"
 msgstr ""
 
 #: importers.h:102
@@ -195,52 +191,6 @@ msgctxt "(qtundo-format)"
 msgid "Move Items"
 msgstr ""
 
-#: kebsearchline.cpp:273
-msgid "Search Columns"
-msgstr ""
-
-#: kebsearchline.cpp:276
-msgid "All Visible Columns"
-msgstr ""
-
-#: kebsearchline.cpp:285
-#, kde-format
-msgctxt "Column number %1"
-msgid "Column No. %1"
-msgstr ""
-
-#: kebsearchline.cpp:680
-msgid "S&earch:"
-msgstr ""
-
-#: testlink.cpp:76
-msgid "Checking..."
-msgstr ""
-
-#: bookmarkinfowidget.cpp:240
-msgid "Name:"
-msgstr "పేరు:"
-
-#: bookmarkinfowidget.cpp:248
-msgid "Location:"
-msgstr "స్థానము:"
-
-#: bookmarkinfowidget.cpp:256
-msgid "Comment:"
-msgstr ""
-
-#: bookmarkinfowidget.cpp:263
-msgid "First viewed:"
-msgstr ""
-
-#: bookmarkinfowidget.cpp:266
-msgid "Viewed last:"
-msgstr ""
-
-#: bookmarkinfowidget.cpp:269
-msgid "Times visited:"
-msgstr ""
-
 #: main.cpp:68
 #, kde-format
 msgid ""
@@ -367,6 +317,44 @@ msgstr ""
 
 #: main.cpp:171
 msgid "You may only specify a single --import option."
+msgstr ""
+
+#: importers.cpp:56
+#, fuzzy, kde-format
+#| msgid "Bookmarks"
+msgctxt "(qtundo-format)"
+msgid "Import %1 Bookmarks"
+msgstr "పేజి గుర్తులు"
+
+#: importers.cpp:60
+#, kde-format
+msgid "%1 Bookmarks"
+msgstr ""
+
+#: importers.cpp:92
+msgid "Import as a new subfolder or replace all the current bookmarks?"
+msgstr ""
+
+#: importers.cpp:93
+#, kde-format
+msgctxt "@title:window"
+msgid "%1 Import"
+msgstr ""
+
+#: importers.cpp:94
+msgid "As New Folder"
+msgstr ""
+
+#: importers.cpp:94
+msgid "Replace"
+msgstr "పునఃస్థాపించు"
+
+#: importers.cpp:199
+msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
+msgstr ""
+
+#: importers.cpp:208
+msgid "*.xml|KDE Bookmark Files (*.xml)"
 msgstr ""
 
 #: actionsimpl.cpp:97
@@ -535,42 +523,55 @@ msgctxt "(qtundo-format)"
 msgid "Delete Items"
 msgstr ""
 
-#: importers.cpp:56
-#, fuzzy, kde-format
-#| msgid "Bookmarks"
-msgctxt "(qtundo-format)"
-msgid "Import %1 Bookmarks"
-msgstr "పేజి గుర్తులు"
+#: bookmarkinfowidget.cpp:240
+msgid "Name:"
+msgstr "పేరు:"
 
-#: importers.cpp:60
+#: bookmarkinfowidget.cpp:248
+msgid "Location:"
+msgstr "స్థానము:"
+
+#: bookmarkinfowidget.cpp:256
+msgid "Comment:"
+msgstr ""
+
+#: bookmarkinfowidget.cpp:263
+msgid "First viewed:"
+msgstr ""
+
+#: bookmarkinfowidget.cpp:266
+msgid "Viewed last:"
+msgstr ""
+
+#: bookmarkinfowidget.cpp:269
+msgid "Times visited:"
+msgstr ""
+
+#: faviconupdater.cpp:87
 #, kde-format
-msgid "%1 Bookmarks"
+msgid "%1; no HTML component found (%2)"
 msgstr ""
 
-#: importers.cpp:92
-msgid "Import as a new subfolder or replace all the current bookmarks?"
+#: kebsearchline.cpp:273
+msgid "Search Columns"
 msgstr ""
 
-#: importers.cpp:93
+#: kebsearchline.cpp:276
+msgid "All Visible Columns"
+msgstr ""
+
+#: kebsearchline.cpp:285
 #, kde-format
-msgctxt "@title:window"
-msgid "%1 Import"
+msgctxt "Column number %1"
+msgid "Column No. %1"
 msgstr ""
 
-#: importers.cpp:94
-msgid "As New Folder"
+#: kebsearchline.cpp:680
+msgid "S&earch:"
 msgstr ""
 
-#: importers.cpp:94
-msgid "Replace"
-msgstr "పునఃస్థాపించు"
-
-#: importers.cpp:199
-msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
-msgstr ""
-
-#: importers.cpp:208
-msgid "*.xml|KDE Bookmark Files (*.xml)"
+#: testlink.cpp:76
+msgid "Checking..."
 msgstr ""
 
 #: rc.cpp:1

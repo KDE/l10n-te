@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-25 04:09+0200\n"
+"POT-Creation-Date: 2011-08-02 18:01+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
+"Language: te\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -175,58 +176,58 @@ msgstr[1] "ప్రొఫైల్ \"%1\" సరికూర్చు"
 msgid "Edit Profile \"%1\""
 msgstr "ప్రొఫైల్ \"%1\" సరికూర్చు"
 
-#: EditProfileDialog.cpp:295
+#: EditProfileDialog.cpp:299
 msgid "Edit Environment"
 msgstr "ఎన్విరాన్మెంటు సరికూర్చు"
 
-#: EditProfileDialog.cpp:321
+#: EditProfileDialog.cpp:325
 msgid "Always Hide Tab Bar"
 msgstr "టాబ్ బార్ యెల్లప్పడూ దాచివుంచు"
 
-#: EditProfileDialog.cpp:322
+#: EditProfileDialog.cpp:326
 msgid "Show Tab Bar When Needed"
 msgstr "అవసరమైనప్పుడు టాబ్ బార్‌ను చూపుము"
 
-#: EditProfileDialog.cpp:323
+#: EditProfileDialog.cpp:327
 msgid "Always Show Tab Bar"
 msgstr "టాబ్ బార్‌ను యెల్లప్పుడు చూపుము"
 
-#: EditProfileDialog.cpp:328
+#: EditProfileDialog.cpp:332
 msgid "Below Terminal Displays"
 msgstr "క్రింది టెర్మినల్ ప్రదర్శిస్తుంది"
 
-#: EditProfileDialog.cpp:329
+#: EditProfileDialog.cpp:333
 msgid "Above Terminal Displays"
 msgstr "పైని టెర్మినల్ ప్రదర్శిస్తుంది"
 
-#: EditProfileDialog.cpp:431
+#: EditProfileDialog.cpp:439
 msgid "Select Initial Directory"
 msgstr "ప్రాధమిక డెరెక్టరీను ఎంపికచేయుము"
 
-#: EditProfileDialog.cpp:448
+#: EditProfileDialog.cpp:456
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
 msgstr "ఈ రంగు స్కీము మీ డెస్కుటాపు మద్దతీయనటువంటి పారదర్శ బ్యాక్‌గ్రౌండును వుపయోగిస్తోంది"
 
-#: EditProfileDialog.cpp:627
+#: EditProfileDialog.cpp:635
 #, kde-format
 msgid "%1, size %2"
 msgstr "%1, పరిమాణం %2"
 
-#: EditProfileDialog.cpp:740 EditProfileDialog.cpp:749
+#: EditProfileDialog.cpp:748 EditProfileDialog.cpp:757
 msgid "New Color Scheme"
 msgstr "కొత్త రంగు స్కీము"
 
-#: EditProfileDialog.cpp:742
+#: EditProfileDialog.cpp:750
 msgid "Edit Color Scheme"
 msgstr "రంగు స్కీమును సరికూర్చు"
 
-#: EditProfileDialog.cpp:914 EditProfileDialog.cpp:925
+#: EditProfileDialog.cpp:922 EditProfileDialog.cpp:933
 msgid "New Key Binding List"
 msgstr "కొత్త కీ బైండింగ్ జాబితా"
 
-#: EditProfileDialog.cpp:916
+#: EditProfileDialog.cpp:924
 msgid "Edit Key Binding List"
 msgstr "కీ బైండింగ్ జాబితా సరికూర్చు"
 
@@ -258,9 +259,9 @@ msgstr "స్క్రాల్‌బ్యాక్ లేదు"
 msgid "Fixed size scrollback: "
 msgstr "నిర్ధారిత పరమాణపు స్క్రాల్‌బ్యాక్: "
 
-#. i18n: file: EditProfileDialog.ui:676
+#. i18n: file: EditProfileDialog.ui:686
 #. i18n: ectx: property (text), widget (QRadioButton, unlimitedScrollbackButton)
-#: HistorySizeDialog.cpp:66 rc.cpp:209
+#: HistorySizeDialog.cpp:66 rc.cpp:215
 msgid "Unlimited scrollback"
 msgstr "పరిమితిలేని స్క్రాల్‌బ్యాక్"
 
@@ -414,85 +415,89 @@ msgstr "ఎగ్జిక్యూట్ చేయుటకు ఆదేశమ�
 msgid "Arguments passed to command"
 msgstr "ఆదేశమునకు పంపబడిన ఆర్గుమెంట్లు"
 
-#: main.cpp:114
+#: main.cpp:110
+msgid "Use --nofork to run in the foreground (helpful with the -e option)."
+msgstr ""
+
+#: main.cpp:115
 msgid "Robert Knight"
 msgstr "రాబెర్ట్ నైట్"
 
-#: main.cpp:114
+#: main.cpp:115
 msgid "Maintainer"
 msgstr "సంరక్షకుడు"
 
-#: main.cpp:115
+#: main.cpp:116
 msgid "Lars Doelle"
 msgstr "లార్స్ డొయెల్లి"
 
-#: main.cpp:115
+#: main.cpp:116
 msgid "Author"
 msgstr "మూలకర్త"
 
-#: main.cpp:116
+#: main.cpp:117
 msgid "Kurt V. Hindenburg"
 msgstr "కర్ట్ వి. హిండెన్ బర్గ్"
 
-#: main.cpp:117 main.cpp:120 main.cpp:123
+#: main.cpp:118 main.cpp:121 main.cpp:124
 msgid "Bug fixes and general improvements"
 msgstr "బగ్ పరిష్కారములు మరియు సాధారణ మెరుగుదలలు"
 
-#: main.cpp:119
+#: main.cpp:120
 msgid "Waldo Bastian"
 msgstr "వాల్డొ బాస్టియన్"
 
-#: main.cpp:122
+#: main.cpp:123
 msgid "Stephan Binner"
 msgstr "స్టీఫెన్ బిన్నర్"
 
-#: main.cpp:125
+#: main.cpp:126
 msgid "Thomas Dreibholz"
 msgstr ""
 
-#: main.cpp:126
+#: main.cpp:127
 #, fuzzy
 #| msgid "Bug fixes and general improvements"
 msgid "General improvements"
 msgstr "బగ్ పరిష్కారములు మరియు సాధారణ మెరుగుదలలు"
 
-#: main.cpp:128
+#: main.cpp:129
 msgid "Chris Machemer"
 msgstr "క్రిస్ మెచెమర్"
 
-#: main.cpp:129 main.cpp:165 main.cpp:168 main.cpp:171 main.cpp:174
+#: main.cpp:130 main.cpp:166 main.cpp:169 main.cpp:172 main.cpp:175
 msgid "Bug fixes"
 msgstr "బగ్ పరిష్కారములు"
 
-#: main.cpp:131
+#: main.cpp:132
 msgid "Stephan Kulow"
 msgstr "స్టీఫెన్ కులొ"
 
-#: main.cpp:132
+#: main.cpp:133
 msgid "Solaris support and history"
 msgstr "సోలారీస్ మద్దతు మరియు చరిత్ర"
 
-#: main.cpp:134
+#: main.cpp:135
 msgid "Alexander Neundorf"
 msgstr "Alexander Neundorf"
 
-#: main.cpp:135
+#: main.cpp:136
 msgid "Bug fixes and improved startup performance"
 msgstr "బగ్ పరిష్కారములు మరియు మెరగుపరచిన ప్రారంభపు పనితనము"
 
-#: main.cpp:137
+#: main.cpp:138
 msgid "Peter Silva"
 msgstr "పీటర్ సిల్వ"
 
-#: main.cpp:138
+#: main.cpp:139
 msgid "Marking improvements"
 msgstr "మెరుగుదలలను గుర్తుంచుతోంది"
 
-#: main.cpp:140
+#: main.cpp:141
 msgid "Lotzi Boloni"
 msgstr "లొట్జి బొలొని"
 
-#: main.cpp:141
+#: main.cpp:142
 msgid ""
 "Embedded Konsole\n"
 "Toolbar and session names"
@@ -500,11 +505,11 @@ msgstr ""
 "ఎంబెడెడ్ చేసిన కన్సోలు\n"
 "టూల్‌బార్ మరియు సెషన్ పేరులు"
 
-#: main.cpp:144
+#: main.cpp:145
 msgid "David Faure"
 msgstr "డెవిడ్ ఫారె"
 
-#: main.cpp:145
+#: main.cpp:146
 msgid ""
 "Embedded Konsole\n"
 "General improvements"
@@ -512,19 +517,19 @@ msgstr ""
 "ఎంబెడెడ్ కన్సోలు\n"
 "సాదారణ మెరుగుదలలు"
 
-#: main.cpp:148
+#: main.cpp:149
 msgid "Antonio Larrosa"
 msgstr "అంటొనియొ లరొస్సా"
 
-#: main.cpp:149
+#: main.cpp:150
 msgid "Visual effects"
 msgstr "దృశ్య ప్రభావాలు"
 
-#: main.cpp:151
+#: main.cpp:152
 msgid "Matthias Ettrich"
 msgstr "మథైయాస్ ఎట్ట్రిచ్"
 
-#: main.cpp:152
+#: main.cpp:153
 msgid ""
 "Code from the kvt project\n"
 "General improvements"
@@ -532,47 +537,47 @@ msgstr ""
 "kvt ప్రోజెక్టునుండి కొడ్\n"
 "సాదారణ మెరుగుదలలు"
 
-#: main.cpp:155
+#: main.cpp:156
 msgid "Warwick Allison"
 msgstr "వార్విక్ ఎల్లిసన్"
 
-#: main.cpp:156
+#: main.cpp:157
 msgid "Schema and text selection improvements"
 msgstr "స్కీమా మరియు వచనము యెంపిక మెరుగుదలలు"
 
-#: main.cpp:158
+#: main.cpp:159
 msgid "Dan Pilone"
 msgstr "డాన్ పిలొన్"
 
-#: main.cpp:159
+#: main.cpp:160
 msgid "SGI port"
 msgstr "ఎస్ జి ఐ పొర్ట్"
 
-#: main.cpp:161
+#: main.cpp:162
 msgid "Kevin Street"
 msgstr "కెవిన్ స్ట్రీట్"
 
-#: main.cpp:162
+#: main.cpp:163
 msgid "FreeBSD port"
 msgstr "ఫ్రి బి ఎస్ డి పొర్ట్"
 
-#: main.cpp:164
+#: main.cpp:165
 msgid "Sven Fischer"
 msgstr "స్వెన్ ఫిషర్"
 
-#: main.cpp:167
+#: main.cpp:168
 msgid "Dale M. Flaven"
 msgstr "డెల్ ఎం. ఫ్లావెన్"
 
-#: main.cpp:170
+#: main.cpp:171
 msgid "Martin Jones"
 msgstr "మార్టిన్ జొన్స్"
 
-#: main.cpp:173
+#: main.cpp:174
 msgid "Lars Knoll"
 msgstr "లార్స్ క్నొల్"
 
-#: main.cpp:176
+#: main.cpp:177
 msgid "Thanks to many others.\n"
 msgstr "ఇంకా చాలామందికి కృతజ్ఞతలు.\n"
 
@@ -647,7 +652,7 @@ msgctxt "@item This will be used as part of the file name"
 msgid "New Profile"
 msgstr "కొత్త ప్రొఫైల్"
 
-#: Profile.cpp:148
+#: Profile.cpp:149
 msgid "Shell"
 msgstr "షెల్"
 
@@ -675,7 +680,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: file: KeyBindingEditor.ui:21
 #. i18n: ectx: property (text), widget (QLabel, descriptionLabel)
-#: rc.cpp:5 rc.cpp:359
+#: rc.cpp:5 rc.cpp:365
 msgid "Description:"
 msgstr "వర్ణన:"
 
@@ -811,11 +816,11 @@ msgstr "ఎన్విరాన్మెంట్ వేరియబుల్�
 
 #. i18n: file: EditProfileDialog.ui:185
 #. i18n: ectx: property (text), widget (QPushButton, environmentEditButton)
-#. i18n: file: EditProfileDialog.ui:449
+#. i18n: file: EditProfileDialog.ui:459
 #. i18n: ectx: property (text), widget (QPushButton, editColorSchemeButton)
-#. i18n: file: EditProfileDialog.ui:808
+#. i18n: file: EditProfileDialog.ui:818
 #. i18n: ectx: property (text), widget (QPushButton, editKeyBindingsButton)
-#: rc.cpp:68 rc.cpp:146 rc.cpp:251
+#: rc.cpp:68 rc.cpp:152 rc.cpp:257
 msgid "Edit..."
 msgstr "మార్చు..."
 
@@ -855,67 +860,79 @@ msgstr ""
 msgid "Save window size and position on exit"
 msgstr ""
 
-#. i18n: file: EditProfileDialog.ui:260
-#. i18n: ectx: attribute (title), widget (QWidget, tabsTab)
+#. i18n: file: EditProfileDialog.ui:243
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showSizeWidgetButton)
 #: rc.cpp:89
+msgid "Show new size of the terminal after resizing"
+msgstr ""
+
+#. i18n: file: EditProfileDialog.ui:246
+#. i18n: ectx: property (text), widget (QCheckBox, showSizeWidgetButton)
+#: rc.cpp:92
+msgid "Show terminal size after resizing"
+msgstr ""
+
+#. i18n: file: EditProfileDialog.ui:270
+#. i18n: ectx: attribute (title), widget (QWidget, tabsTab)
+#: rc.cpp:95
 msgid "Tabs"
 msgstr "టాబ్ లు"
 
-#. i18n: file: EditProfileDialog.ui:266
+#. i18n: file: EditProfileDialog.ui:276
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
-#: rc.cpp:92
+#: rc.cpp:98
 msgid "Tab Titles"
 msgstr "టాబ్ శీర్షికలు"
 
-#. i18n: file: EditProfileDialog.ui:275
+#. i18n: file: EditProfileDialog.ui:285
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: file: RenameTabsDialog.ui:26
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:95 rc.cpp:401
+#: rc.cpp:101 rc.cpp:407
 msgid "Tab title format:"
 msgstr "టాబ్ శీర్షిక రూపము:"
 
-#. i18n: file: EditProfileDialog.ui:285
+#. i18n: file: EditProfileDialog.ui:295
 #. i18n: ectx: property (toolTip), widget (KLineEdit, tabTitleEdit)
 #. i18n: file: RenameTabsDialog.ui:36
 #. i18n: ectx: property (toolTip), widget (KLineEdit, tabTitleEdit)
-#: rc.cpp:98 rc.cpp:404
+#: rc.cpp:104 rc.cpp:410
 msgid "Normal tab title format"
 msgstr "సాధారణ టాబ్ శీర్షిక రూపము"
 
-#. i18n: file: EditProfileDialog.ui:292
+#. i18n: file: EditProfileDialog.ui:302
 #. i18n: ectx: property (toolTip), widget (QPushButton, tabTitleEditButton)
 #. i18n: file: RenameTabsDialog.ui:43
 #. i18n: ectx: property (toolTip), widget (QPushButton, tabTitleEditButton)
-#: rc.cpp:101 rc.cpp:407
+#: rc.cpp:107 rc.cpp:413
 msgid "Edit normal tab title format"
 msgstr "సాదారణ టాబ్ శీర్షిక రూపాన్ని సరికూర్చుము"
 
-#. i18n: file: EditProfileDialog.ui:295
+#. i18n: file: EditProfileDialog.ui:305
 #. i18n: ectx: property (text), widget (QPushButton, tabTitleEditButton)
-#. i18n: file: EditProfileDialog.ui:322
+#. i18n: file: EditProfileDialog.ui:332
 #. i18n: ectx: property (text), widget (QPushButton, remoteTabTitleEditButton)
 #. i18n: file: RenameTabsDialog.ui:46
 #. i18n: ectx: property (text), widget (QPushButton, tabTitleEditButton)
 #. i18n: file: RenameTabsDialog.ui:73
 #. i18n: ectx: property (text), widget (QPushButton, remoteTabTitleEditButton)
-#: rc.cpp:104 rc.cpp:116 rc.cpp:410 rc.cpp:422
+#: rc.cpp:110 rc.cpp:122 rc.cpp:416 rc.cpp:428
 msgid "Insert"
 msgstr "ఇన్సర్‍ట్ (చేర్చుము)"
 
-#. i18n: file: EditProfileDialog.ui:302
+#. i18n: file: EditProfileDialog.ui:312
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: RenameTabsDialog.ui:53
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:107 rc.cpp:413
+#: rc.cpp:113 rc.cpp:419
 msgid "Remote tab title format:"
 msgstr "రిమోట్ టాబ్ శీర్షిక రూపము:"
 
-#. i18n: file: EditProfileDialog.ui:312
+#. i18n: file: EditProfileDialog.ui:322
 #. i18n: ectx: property (toolTip), widget (KLineEdit, remoteTabTitleEdit)
 #. i18n: file: RenameTabsDialog.ui:63
 #. i18n: ectx: property (toolTip), widget (KLineEdit, remoteTabTitleEdit)
-#: rc.cpp:110 rc.cpp:416
+#: rc.cpp:116 rc.cpp:422
 msgid ""
 "Tab title format used when a remote command (e.g. connection to another "
 "computer via SSH) is being executed"
@@ -923,257 +940,257 @@ msgstr ""
 "రిమోట్ ఆదేశము (ఉ.దా. వేరొక కంప్యూటరుకు SSH ద్వారా అనుసంధానము) ఎగ్జిక్యూట్ చేస్తున్నప్పుడు "
 "వపుయోగించు టాబ్ శీర్షిక రూపము"
 
-#. i18n: file: EditProfileDialog.ui:319
+#. i18n: file: EditProfileDialog.ui:329
 #. i18n: ectx: property (toolTip), widget (QPushButton, remoteTabTitleEditButton)
 #. i18n: file: RenameTabsDialog.ui:70
 #. i18n: ectx: property (toolTip), widget (QPushButton, remoteTabTitleEditButton)
-#: rc.cpp:113 rc.cpp:419
+#: rc.cpp:119 rc.cpp:425
 msgid "Edit tab title format used when executing remote commands"
 msgstr "రిమోట్ ఆదేశములను ఎగ్జిక్యూట్ చేస్తున్నప్పుడు వుపయోగించు టాబ్ శీర్షిక రూపాన్ని సరికూర్చుము"
 
-#. i18n: file: EditProfileDialog.ui:332
+#. i18n: file: EditProfileDialog.ui:342
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:119
+#: rc.cpp:125
 msgid "Tab Bar"
 msgstr "టాబ్ బార్"
 
-#. i18n: file: EditProfileDialog.ui:341
+#. i18n: file: EditProfileDialog.ui:351
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: rc.cpp:122
+#: rc.cpp:128
 msgid "Tab bar display:"
 msgstr "టాబ్ బార్ ప్రదర్శన:"
 
-#. i18n: file: EditProfileDialog.ui:364
+#. i18n: file: EditProfileDialog.ui:374
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: rc.cpp:125
+#: rc.cpp:131
 msgid "Tab bar position:"
 msgstr "టాబ్ బార్ స్థానము:"
 
-#. i18n: file: EditProfileDialog.ui:384
+#. i18n: file: EditProfileDialog.ui:394
 #. i18n: ectx: property (text), widget (QCheckBox, newTabButton)
-#: rc.cpp:128
+#: rc.cpp:134
 msgid "Show 'New Tab' and 'Close Tab' buttons in tab bar"
 msgstr "టాబ్ బార్‌నందు 'కొత్త టాబ్' మరియు 'టాబ్ మూసివేయి' బటన్లను చూపుము"
 
-#. i18n: file: EditProfileDialog.ui:408
+#. i18n: file: EditProfileDialog.ui:418
 #. i18n: ectx: attribute (title), widget (QWidget, appearanceTab)
-#: rc.cpp:131
+#: rc.cpp:137
 msgid "Appearance"
 msgstr "కనిపించువిధం"
 
-#. i18n: file: EditProfileDialog.ui:420
+#. i18n: file: EditProfileDialog.ui:430
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:134
+#: rc.cpp:140
 msgid "Color Scheme && Background"
 msgstr "రంగు స్కీము && బ్యాక్‌గ్రౌండు"
 
-#. i18n: file: EditProfileDialog.ui:436
+#. i18n: file: EditProfileDialog.ui:446
 #. i18n: ectx: property (toolTip), widget (QPushButton, newColorSchemeButton)
-#: rc.cpp:137
+#: rc.cpp:143
 msgid "Create a new color scheme based upon the selected scheme"
 msgstr "ఎంపికచేసిన స్కీముపై ఆధారపడి కొత్త రంగు స్కీమును సృష్టించుము"
 
-#. i18n: file: EditProfileDialog.ui:439
+#. i18n: file: EditProfileDialog.ui:449
 #. i18n: ectx: property (text), widget (QPushButton, newColorSchemeButton)
-#: rc.cpp:140
+#: rc.cpp:146
 #, fuzzy
 #| msgid "New..."
 msgctxt "@action:button Create an alternate color scheme"
 msgid "New..."
 msgstr "కొత్త..."
 
-#. i18n: file: EditProfileDialog.ui:446
+#. i18n: file: EditProfileDialog.ui:456
 #. i18n: ectx: property (toolTip), widget (QPushButton, editColorSchemeButton)
-#: rc.cpp:143
+#: rc.cpp:149
 msgid "Edit the selected color scheme"
 msgstr "ఎంపికచేసిన రంగు స్కీమును సరికూర్చుము"
 
-#. i18n: file: EditProfileDialog.ui:456
+#. i18n: file: EditProfileDialog.ui:466
 #. i18n: ectx: property (toolTip), widget (QPushButton, removeColorSchemeButton)
-#: rc.cpp:149
+#: rc.cpp:155
 msgid "Delete the selected color scheme"
 msgstr "ఎంపికచేసిన రంగు స్కీమును తొలగించుము"
 
-#. i18n: file: EditProfileDialog.ui:459
+#. i18n: file: EditProfileDialog.ui:469
 #. i18n: ectx: property (text), widget (QPushButton, removeColorSchemeButton)
-#. i18n: file: EditProfileDialog.ui:818
+#. i18n: file: EditProfileDialog.ui:828
 #. i18n: ectx: property (text), widget (QPushButton, removeKeyBindingsButton)
 #. i18n: file: KeyBindingEditor.ui:52
 #. i18n: ectx: property (text), widget (QPushButton, removeEntryButton)
-#: rc.cpp:152 rc.cpp:257 rc.cpp:365
+#: rc.cpp:158 rc.cpp:263 rc.cpp:371
 msgid "Remove"
 msgstr "తొలగించు"
 
-#. i18n: file: EditProfileDialog.ui:485
+#. i18n: file: EditProfileDialog.ui:495
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:155
+#: rc.cpp:161
 msgid "Font"
 msgstr "అక్షర శైలి"
 
-#. i18n: file: EditProfileDialog.ui:496
+#. i18n: file: EditProfileDialog.ui:506
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:158
+#: rc.cpp:164
 msgid "Preview:"
 msgstr "ముందు వీక్షణం:"
 
-#. i18n: file: EditProfileDialog.ui:520
+#. i18n: file: EditProfileDialog.ui:530
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:161
+#: rc.cpp:167
 msgid "Text size:"
 msgstr "వచన పరిమాణం:"
 
-#. i18n: file: EditProfileDialog.ui:530
+#. i18n: file: EditProfileDialog.ui:540
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:164
+#: rc.cpp:170
 #, fuzzy
 #| msgid "Small"
 msgctxt "@item:inrange Minimum Size"
 msgid "Small"
 msgstr "చిన్న"
 
-#. i18n: file: EditProfileDialog.ui:537
+#. i18n: file: EditProfileDialog.ui:547
 #. i18n: ectx: property (toolTip), widget (QSlider, fontSizeSlider)
-#: rc.cpp:167
+#: rc.cpp:173
 msgid "Adjust the font size used in this profile"
 msgstr "ఈ ప్రొఫైలునందు వుపయోగించిన ఫాంటు పరిమాణమును సర్దుబాటుచేయుము"
 
-#. i18n: file: EditProfileDialog.ui:553
+#. i18n: file: EditProfileDialog.ui:563
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:170
+#: rc.cpp:176
 #, fuzzy
 #| msgid "Large"
 msgctxt "@item:inrange Maximum Size"
 msgid "Large"
 msgstr "పెద్ద"
 
-#. i18n: file: EditProfileDialog.ui:560
+#. i18n: file: EditProfileDialog.ui:570
 #. i18n: ectx: property (toolTip), widget (QPushButton, editFontButton)
-#: rc.cpp:173
+#: rc.cpp:179
 msgid "Change the font used in this profile"
 msgstr "ఈ ప్రొఫైలునందు వుపయోగించిన ఫాంటును మార్చుము"
 
-#. i18n: file: EditProfileDialog.ui:563
+#. i18n: file: EditProfileDialog.ui:573
 #. i18n: ectx: property (text), widget (QPushButton, editFontButton)
-#: rc.cpp:176
+#: rc.cpp:182
 msgid "Edit Font..."
 msgstr "ఫాంటు సరికూర్చుము..."
 
-#. i18n: file: EditProfileDialog.ui:572
+#. i18n: file: EditProfileDialog.ui:582
 #. i18n: ectx: property (text), widget (QCheckBox, antialiasTextButton)
-#: rc.cpp:179
+#: rc.cpp:185
 msgid "Smooth fonts"
 msgstr "సున్నితమైన ఫాంట్లు"
 
-#. i18n: file: EditProfileDialog.ui:579
+#. i18n: file: EditProfileDialog.ui:589
 #. i18n: ectx: property (text), widget (QCheckBox, boldIntenseButton)
-#: rc.cpp:182
+#: rc.cpp:188
 msgid "Draw intense colors in bold font"
 msgstr ""
 
-#. i18n: file: EditProfileDialog.ui:590
+#. i18n: file: EditProfileDialog.ui:600
 #. i18n: ectx: attribute (title), widget (QWidget, scrollingTab)
-#. i18n: file: EditProfileDialog.ui:596
+#. i18n: file: EditProfileDialog.ui:606
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
-#: rc.cpp:185 rc.cpp:188
+#: rc.cpp:191 rc.cpp:194
 msgid "Scrolling"
 msgstr "స్క్రోలింగ్ "
 
-#. i18n: file: EditProfileDialog.ui:611
+#. i18n: file: EditProfileDialog.ui:621
 #. i18n: ectx: property (toolTip), widget (QRadioButton, disableScrollbackButton)
-#: rc.cpp:191
+#: rc.cpp:197
 msgid "Disable scroll bar and do not remember previous output"
 msgstr "స్క్రోల్ బార్‌ను అచేతనముచేయుము మరియు మునుపటి అవుట్పుట్‌ను గర్తుంచుకొనవద్దు"
 
-#. i18n: file: EditProfileDialog.ui:614
+#. i18n: file: EditProfileDialog.ui:624
 #. i18n: ectx: property (text), widget (QRadioButton, disableScrollbackButton)
-#: rc.cpp:194
+#: rc.cpp:200
 msgid "Disable scrollback"
 msgstr "స్క్రోల్‌బ్యాక్ అచేతనంచేయి"
 
-#. i18n: file: EditProfileDialog.ui:629
+#. i18n: file: EditProfileDialog.ui:639
 #. i18n: ectx: property (toolTip), widget (QRadioButton, fixedScrollbackButton)
-#: rc.cpp:197
+#: rc.cpp:203
 msgid "Limit the remembered output to a fixed number of lines"
 msgstr "అవుట్పుట్‌ను గుర్తుంచుకొనుట కొన్ని నిర్ధిష్ట వరుసలకు పరిమితంచేయి"
 
-#. i18n: file: EditProfileDialog.ui:632
+#. i18n: file: EditProfileDialog.ui:642
 #. i18n: ectx: property (text), widget (QRadioButton, fixedScrollbackButton)
-#: rc.cpp:200
+#: rc.cpp:206
 msgid "Fixed number of lines: "
 msgstr "కొన్ని నిర్ధిష్ట వరుసలు:"
 
-#. i18n: file: EditProfileDialog.ui:639
+#. i18n: file: EditProfileDialog.ui:649
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, scrollBackLinesSpinner)
-#: rc.cpp:203
+#: rc.cpp:209
 msgid "Number of lines of output to remember"
 msgstr "గుర్తుంచుకొనవలసిన అవుట్పుట్ యొక్క వరుసలసంఖ్య"
 
-#. i18n: file: EditProfileDialog.ui:673
+#. i18n: file: EditProfileDialog.ui:683
 #. i18n: ectx: property (toolTip), widget (QRadioButton, unlimitedScrollbackButton)
-#: rc.cpp:206
+#: rc.cpp:212
 msgid "Remember all output produced by the terminal"
 msgstr "టెర్మినల్ ద్వారా వచ్చిన అవుట్పుట్ అంతటిని గుర్తుంచుకొనుము"
 
-#. i18n: file: EditProfileDialog.ui:686
+#. i18n: file: EditProfileDialog.ui:696
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_7)
-#: rc.cpp:212
+#: rc.cpp:218
 msgid "Scroll Bar"
 msgstr "స్క్రోల్ బార్"
 
-#. i18n: file: EditProfileDialog.ui:701
+#. i18n: file: EditProfileDialog.ui:711
 #. i18n: ectx: property (toolTip), widget (QRadioButton, scrollBarLeftButton)
-#: rc.cpp:215
+#: rc.cpp:221
 msgid "Show the scroll bar on the left side of the terminal window"
 msgstr "స్క్రోల్ బార్‌ను టెర్మినల్ విండో ఎడమ వైపున చూపుము"
 
-#. i18n: file: EditProfileDialog.ui:704
+#. i18n: file: EditProfileDialog.ui:714
 #. i18n: ectx: property (text), widget (QRadioButton, scrollBarLeftButton)
-#: rc.cpp:218
+#: rc.cpp:224
 msgid "Show on left side"
 msgstr "ఎడమ వైపు చూపు"
 
-#. i18n: file: EditProfileDialog.ui:717
+#. i18n: file: EditProfileDialog.ui:727
 #. i18n: ectx: property (toolTip), widget (QRadioButton, scrollBarRightButton)
-#: rc.cpp:221
+#: rc.cpp:227
 msgid "Show the scroll bar on the right side of the terminal window"
 msgstr "స్క్రోల్ బార్‌ను టెర్మినల్ విండో కుడి వైపున చూపుము"
 
-#. i18n: file: EditProfileDialog.ui:720
+#. i18n: file: EditProfileDialog.ui:730
 #. i18n: ectx: property (text), widget (QRadioButton, scrollBarRightButton)
-#: rc.cpp:224
+#: rc.cpp:230
 msgid "Show on right side"
 msgstr "కుడి వైపున చూపుము"
 
-#. i18n: file: EditProfileDialog.ui:733
+#. i18n: file: EditProfileDialog.ui:743
 #. i18n: ectx: property (toolTip), widget (QRadioButton, scrollBarHiddenButton)
-#: rc.cpp:227
+#: rc.cpp:233
 msgid "Hide the scroll bar"
 msgstr "స్క్రోల్ బార్ దాయుము"
 
-#. i18n: file: EditProfileDialog.ui:736
+#. i18n: file: EditProfileDialog.ui:746
 #. i18n: ectx: property (text), widget (QRadioButton, scrollBarHiddenButton)
-#: rc.cpp:230
+#: rc.cpp:236
 #, fuzzy
 #| msgid "Hidden"
 msgctxt "@option:radio Conceal the scroll bar"
 msgid "Hidden"
 msgstr "దాగిన"
 
-#. i18n: file: EditProfileDialog.ui:760
+#. i18n: file: EditProfileDialog.ui:770
 #. i18n: ectx: attribute (title), widget (QWidget, keyboardTab)
-#: rc.cpp:233
+#: rc.cpp:239
 msgid "Input"
 msgstr "ఇన్పుట్"
 
-#. i18n: file: EditProfileDialog.ui:766
+#. i18n: file: EditProfileDialog.ui:776
 #. i18n: ectx: property (title), widget (QGroupBox, keyBindingsGroup)
-#: rc.cpp:236
+#: rc.cpp:242
 msgid "Key Bindings"
 msgstr "కీ బైండింగ్‍స్"
 
-#. i18n: file: EditProfileDialog.ui:775
+#. i18n: file: EditProfileDialog.ui:785
 #. i18n: ectx: property (text), widget (QLabel, label_15)
-#: rc.cpp:239
+#: rc.cpp:245
 msgid ""
 "Key bindings control how combinations of key presses in the terminal window "
 "are converted into the stream of characters which is sent to the current "
@@ -1182,108 +1199,108 @@ msgstr ""
 "ప్రస్తుత టెర్మినల్ ప్రోగ్రామునకు పంపబడేటటువంటి, కీ వత్తుల సమ్మేళనం టెర్మినల్ విండోనందు యెలా "
 "అక్షరములుగా మారవలెనో కీ బైండిగ్సు నియంత్రిస్తుంది."
 
-#. i18n: file: EditProfileDialog.ui:795
+#. i18n: file: EditProfileDialog.ui:805
 #. i18n: ectx: property (toolTip), widget (QPushButton, newKeyBindingsButton)
-#: rc.cpp:242
+#: rc.cpp:248
 msgid "Create a new key bindings list based upon the selected bindings"
 msgstr "ఎంపికచేసిన బైండిగ్సు పైన ఆధారపడి కొత్త కీ బైండిగ్సు జాబితాను సృష్టించుము"
 
-#. i18n: file: EditProfileDialog.ui:798
+#. i18n: file: EditProfileDialog.ui:808
 #. i18n: ectx: property (text), widget (QPushButton, newKeyBindingsButton)
-#: rc.cpp:245
+#: rc.cpp:251
 #, fuzzy
 #| msgid "New..."
 msgctxt "@action:button Create an alternate key binding"
 msgid "New..."
 msgstr "కొత్త..."
 
-#. i18n: file: EditProfileDialog.ui:805
+#. i18n: file: EditProfileDialog.ui:815
 #. i18n: ectx: property (toolTip), widget (QPushButton, editKeyBindingsButton)
-#: rc.cpp:248
+#: rc.cpp:254
 msgid "Edit the selected key bindings list"
 msgstr "ఎంపికచేసిన కీ బైండిగ్సు జాబితాను సరికూర్చుము"
 
-#. i18n: file: EditProfileDialog.ui:815
+#. i18n: file: EditProfileDialog.ui:825
 #. i18n: ectx: property (toolTip), widget (QPushButton, removeKeyBindingsButton)
-#: rc.cpp:254
+#: rc.cpp:260
 msgid "Delete the selected key bindings list"
 msgstr "ఎంపికచేసిన కీ బైండిగ్సు జాబితాను తొలగించుము"
 
-#. i18n: file: EditProfileDialog.ui:842
+#. i18n: file: EditProfileDialog.ui:852
 #. i18n: ectx: attribute (title), widget (QWidget, advancedTab)
-#: rc.cpp:260
+#: rc.cpp:266
 #, fuzzy
 #| msgid "Advanced"
 msgctxt "@title:tab Complex options"
 msgid "Advanced"
 msgstr "ఆధునాతన"
 
-#. i18n: file: EditProfileDialog.ui:848
+#. i18n: file: EditProfileDialog.ui:858
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: rc.cpp:263
+#: rc.cpp:269
 msgid "Terminal Features"
 msgstr "టెర్మినల్ సౌలభ్యాలు"
 
-#. i18n: file: EditProfileDialog.ui:863
+#. i18n: file: EditProfileDialog.ui:873
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingTextButton)
-#: rc.cpp:266
+#: rc.cpp:272
 msgid "Allow terminal programs to create blinking sections of text"
 msgstr "వచనము యొక్క బ్లింకింగ్ భాగములను సృష్టించుటకు టెర్మినల్ ప్రోగ్రామ్సును అనుమతించుము"
 
-#. i18n: file: EditProfileDialog.ui:866
+#. i18n: file: EditProfileDialog.ui:876
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingTextButton)
-#: rc.cpp:269
+#: rc.cpp:275
 msgid "Allow blinking text"
 msgstr "బ్లింకింగ్ వచనమును అనుమతించుము"
 
-#. i18n: file: EditProfileDialog.ui:879
+#. i18n: file: EditProfileDialog.ui:889
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableFlowControlButton)
-#: rc.cpp:272
+#: rc.cpp:278
 msgid "Allow the output to be suspended by pressing Ctrl+S"
 msgstr "Ctrl+S వత్తుటద్వారా అవుట్పుట్ సస్పెండు అగుటకు అనుమతించుము"
 
-#. i18n: file: EditProfileDialog.ui:882
+#. i18n: file: EditProfileDialog.ui:892
 #. i18n: ectx: property (text), widget (QCheckBox, enableFlowControlButton)
-#: rc.cpp:275
+#: rc.cpp:281
 msgid "Enable flow control using Ctrl+S, Ctrl+Q"
 msgstr "ఫ్లో నియంత్రణను Ctrl+S, Ctrl+Q వుపయోగించి చేతనము చేయుము"
 
-#. i18n: file: EditProfileDialog.ui:895
+#. i18n: file: EditProfileDialog.ui:905
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableResizeWindowButton)
-#: rc.cpp:278
+#: rc.cpp:284
 msgid "Allow terminal programs to resize the window"
 msgstr "విండో పునఃపరిమాణం చేయుటకు టెర్మినల్ ప్రోగ్రామ్సును అనుమతించుము"
 
-#. i18n: file: EditProfileDialog.ui:898
+#. i18n: file: EditProfileDialog.ui:908
 #. i18n: ectx: property (text), widget (QCheckBox, enableResizeWindowButton)
-#: rc.cpp:281
+#: rc.cpp:287
 msgid "Allow programs to resize terminal window"
 msgstr "టెర్మినల్ విండోను పునఃపరిమాణం చేయుటకు ప్రోగ్రామ్సను అనుమతించుము"
 
-#. i18n: file: EditProfileDialog.ui:911
+#. i18n: file: EditProfileDialog.ui:921
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBidiRenderingButton)
-#: rc.cpp:284
+#: rc.cpp:290
 msgid ""
 "Enable Bi-Directional display on terminals (valid for Arabic, Farsi or "
 "Hebrew only)"
 msgstr ""
 "టర్మినల్సు నందు బై-డైరెక్షనల్ ప్రదర్శనను చేతనముచేయుము (అరబిక్, ఫార్సీ లేదా హెబ్రూకు మాత్రమే చెల్లుతుంది)"
 
-#. i18n: file: EditProfileDialog.ui:914
+#. i18n: file: EditProfileDialog.ui:924
 #. i18n: ectx: property (text), widget (QCheckBox, enableBidiRenderingButton)
-#: rc.cpp:287
+#: rc.cpp:293
 msgid "Enable Bi-Directional text rendering"
 msgstr "బై-డైరెక్షనల్ టెక్స్టు రెండరింగ్ (వచన ప్రస్పుటీకరణం) చేతనం చేయుము"
 
-#. i18n: file: EditProfileDialog.ui:924
+#. i18n: file: EditProfileDialog.ui:934
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_9)
-#: rc.cpp:290
+#: rc.cpp:296
 msgid "Mouse Interaction"
 msgstr "మౌస్ ఇంటరాక్షన్"
 
-#. i18n: file: EditProfileDialog.ui:935
+#. i18n: file: EditProfileDialog.ui:945
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: rc.cpp:293
+#: rc.cpp:299
 #, fuzzy
 #| msgid ""
 #| "Characters which are considered part of a word when double-clicking to "
@@ -1293,9 +1310,9 @@ msgstr ""
 "టెర్మినల్ నందలి మొత్తము పదములను యెంపికచేయుటకు రెండు-నొక్కులు నొక్కచున్నప్పుడు పదమునందు భాగముగా "
 "పరిగణించబడు ఆక్షరములు"
 
-#. i18n: file: EditProfileDialog.ui:948
+#. i18n: file: EditProfileDialog.ui:958
 #. i18n: ectx: property (toolTip), widget (KLineEdit, wordCharacterEdit)
-#: rc.cpp:296
+#: rc.cpp:302
 msgid ""
 "Characters which are considered part of a word when double-clicking to "
 "select whole words in the terminal"
@@ -1303,132 +1320,132 @@ msgstr ""
 "టెర్మినల్ నందలి మొత్తము పదములను యెంపికచేయుటకు రెండు-నొక్కులు నొక్కచున్నప్పుడు పదమునందు భాగముగా "
 "పరిగణించబడు ఆక్షరములు"
 
-#. i18n: file: EditProfileDialog.ui:957
+#. i18n: file: EditProfileDialog.ui:967
 #. i18n: ectx: property (toolTip), widget (QCheckBox, tripleClickMode)
-#: rc.cpp:299
+#: rc.cpp:305
 msgid ""
 "All characters from the current word to the end of line will be selected."
 msgstr ""
 
-#. i18n: file: EditProfileDialog.ui:960
+#. i18n: file: EditProfileDialog.ui:970
 #. i18n: ectx: property (text), widget (QCheckBox, tripleClickMode)
-#: rc.cpp:302
+#: rc.cpp:308
 msgid "Triple click selects from current word forward"
 msgstr ""
 
-#. i18n: file: EditProfileDialog.ui:967
+#. i18n: file: EditProfileDialog.ui:977
 #. i18n: ectx: property (toolTip), widget (QCheckBox, underlineLinksButton)
-#: rc.cpp:305
+#: rc.cpp:311
 msgid ""
 "Text recognized as a link or an email address will be underlined when "
 "hovered by the mouse pointer."
 msgstr ""
 
-#. i18n: file: EditProfileDialog.ui:970
+#. i18n: file: EditProfileDialog.ui:980
 #. i18n: ectx: property (text), widget (QCheckBox, underlineLinksButton)
-#: rc.cpp:308
+#: rc.cpp:314
 #, fuzzy
 #| msgctxt "The shape of the cursor"
 #| msgid "Underline"
 msgid "Underline links"
 msgstr "క్రిందగీత"
 
-#. i18n: file: EditProfileDialog.ui:980
+#. i18n: file: EditProfileDialog.ui:990
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
-#: rc.cpp:311
+#: rc.cpp:317
 msgid "Cursor"
 msgstr "కర్సర్"
 
-#. i18n: file: EditProfileDialog.ui:995
+#. i18n: file: EditProfileDialog.ui:1005
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingCursorButton)
-#: rc.cpp:314
+#: rc.cpp:320
 msgid "Make the cursor blink regularly"
 msgstr "కర్సర్ క్రమంతప్పకుండా బ్లింకు అగునట్లు చేయుము"
 
-#. i18n: file: EditProfileDialog.ui:998
+#. i18n: file: EditProfileDialog.ui:1008
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingCursorButton)
-#: rc.cpp:317
+#: rc.cpp:323
 msgid "Blinking cursor"
 msgstr "బ్లింక్ అవుతున్న కర్సర్"
 
-#. i18n: file: EditProfileDialog.ui:1007
+#. i18n: file: EditProfileDialog.ui:1017
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:320
+#: rc.cpp:326
 msgid "Cursor shape:"
 msgstr "కర్సర్ ఆకారము:"
 
-#. i18n: file: EditProfileDialog.ui:1014
+#. i18n: file: EditProfileDialog.ui:1024
 #. i18n: ectx: property (toolTip), widget (QComboBox, cursorShapeCombo)
-#: rc.cpp:323
+#: rc.cpp:329
 msgid "Change the shape of the cursor"
 msgstr "కర్సర్ ఆకారమును మార్చుము"
-
-#. i18n: file: EditProfileDialog.ui:1018
-#. i18n: ectx: property (text), item, widget (QComboBox, cursorShapeCombo)
-#: rc.cpp:326
-msgctxt "The shape of the cursor"
-msgid "Block"
-msgstr "బ్లాక్"
-
-#. i18n: file: EditProfileDialog.ui:1023
-#. i18n: ectx: property (text), item, widget (QComboBox, cursorShapeCombo)
-#: rc.cpp:329
-msgctxt "The shape of the cursor, similar to a capital I"
-msgid "I-Beam"
-msgstr "ఐ-బీమ్"
 
 #. i18n: file: EditProfileDialog.ui:1028
 #. i18n: ectx: property (text), item, widget (QComboBox, cursorShapeCombo)
 #: rc.cpp:332
 msgctxt "The shape of the cursor"
+msgid "Block"
+msgstr "బ్లాక్"
+
+#. i18n: file: EditProfileDialog.ui:1033
+#. i18n: ectx: property (text), item, widget (QComboBox, cursorShapeCombo)
+#: rc.cpp:335
+msgctxt "The shape of the cursor, similar to a capital I"
+msgid "I-Beam"
+msgstr "ఐ-బీమ్"
+
+#. i18n: file: EditProfileDialog.ui:1038
+#. i18n: ectx: property (text), item, widget (QComboBox, cursorShapeCombo)
+#: rc.cpp:338
+msgctxt "The shape of the cursor"
 msgid "Underline"
 msgstr "క్రిందగీత"
 
-#. i18n: file: EditProfileDialog.ui:1057
+#. i18n: file: EditProfileDialog.ui:1067
 #. i18n: ectx: property (toolTip), widget (QRadioButton, autoCursorColorButton)
-#: rc.cpp:335
+#: rc.cpp:341
 msgid "Set the cursor to match the color of the character underneath it."
 msgstr "దానిక్రిందవున్న అక్షరము రంగుతో సరిపోలునట్లు కర్సరును అమర్చుము."
 
-#. i18n: file: EditProfileDialog.ui:1060
+#. i18n: file: EditProfileDialog.ui:1070
 #. i18n: ectx: property (text), widget (QRadioButton, autoCursorColorButton)
-#: rc.cpp:338
+#: rc.cpp:344
 msgid "Set cursor color to match current character"
 msgstr "ప్రస్తుత అక్షరముకు సరిపోలునట్లు కర్సర్ రంగును అమర్చుము"
 
-#. i18n: file: EditProfileDialog.ui:1075
+#. i18n: file: EditProfileDialog.ui:1085
 #. i18n: ectx: property (toolTip), widget (QRadioButton, customCursorColorButton)
-#: rc.cpp:341
+#: rc.cpp:347
 msgid "Use a custom, fixed color for the cursor"
 msgstr "కర్సరు కొరకు మలుచుకొనిన, నిర్ధారిత రంగును వుపయోగించుము"
 
-#. i18n: file: EditProfileDialog.ui:1078
+#. i18n: file: EditProfileDialog.ui:1088
 #. i18n: ectx: property (text), widget (QRadioButton, customCursorColorButton)
-#: rc.cpp:344
+#: rc.cpp:350
 msgid "Custom cursor color:"
 msgstr "మలచుకొనిన కర్సర్ రంగు:"
 
-#. i18n: file: EditProfileDialog.ui:1091
+#. i18n: file: EditProfileDialog.ui:1101
 #. i18n: ectx: property (toolTip), widget (KColorButton, customColorSelectButton)
-#: rc.cpp:347
+#: rc.cpp:353
 msgid "Select the color used to draw the cursor"
 msgstr "కర్సరు డ్రాచేయుటకు వుపయోగించు రంగును యెంపికచేయుము"
 
-#. i18n: file: EditProfileDialog.ui:1119
+#. i18n: file: EditProfileDialog.ui:1129
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_11)
-#: rc.cpp:350
+#: rc.cpp:356
 msgid "Encoding"
 msgstr "ఎన్కోడింగ్"
 
-#. i18n: file: EditProfileDialog.ui:1128
+#. i18n: file: EditProfileDialog.ui:1138
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: rc.cpp:353
+#: rc.cpp:359
 msgid "Default character encoding:"
 msgstr "అప్రమేయ కారెక్టర్ ఎన్కోడింగ్:"
 
-#. i18n: file: EditProfileDialog.ui:1148
+#. i18n: file: EditProfileDialog.ui:1158
 #. i18n: ectx: property (text), widget (QPushButton, selectEncodingButton)
-#: rc.cpp:356
+#: rc.cpp:362
 #, fuzzy
 #| msgid "Select"
 msgctxt "@action:button Pick an encoding"
@@ -1437,80 +1454,80 @@ msgstr "ఎంచుకొ"
 
 #. i18n: file: KeyBindingEditor.ui:45
 #. i18n: ectx: property (text), widget (QPushButton, addEntryButton)
-#: rc.cpp:362
+#: rc.cpp:368
 msgid "Add"
 msgstr "జతచేయి"
 
 #. i18n: file: KeyBindingEditor.ui:74
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:368
+#: rc.cpp:374
 msgctxt "Title of the area where you test your keys are properly configured"
 msgid "Test Area"
 msgstr "పరీక్షా స్థలం"
 
 #. i18n: file: KeyBindingEditor.ui:83
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:371
+#: rc.cpp:377
 msgid "Input:"
 msgstr "ఇన్పుట్:"
 
 #. i18n: file: KeyBindingEditor.ui:96
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:374
+#: rc.cpp:380
 msgid "Output:"
 msgstr "అవుట్పుట్:"
 
 #. i18n: file: ManageProfilesDialog.ui:20
 #. i18n: ectx: property (toolTip), widget (QPushButton, newSessionButton)
-#: rc.cpp:377
+#: rc.cpp:383
 msgid "Create a new profile based upon the selected profile"
 msgstr "ఎంపికచేసిన ప్రొఫైల్ పైన ఆధారపడి కొత్త ప్రొఫైలును సృష్టించుము"
 
 #. i18n: file: ManageProfilesDialog.ui:23
 #. i18n: ectx: property (text), widget (QPushButton, newSessionButton)
-#: rc.cpp:380
+#: rc.cpp:386
 msgid "New Profile..."
 msgstr "కొత్త ప్రొఫైల్..."
 
 #. i18n: file: ManageProfilesDialog.ui:33
 #. i18n: ectx: property (toolTip), widget (QPushButton, editSessionButton)
-#: rc.cpp:383
+#: rc.cpp:389
 msgid "Edit the selected profile(s)"
 msgstr "ఎంపికచేసిన ప్రొఫైలు(ల)ను సరికూర్చుము"
 
 #. i18n: file: ManageProfilesDialog.ui:36
 #. i18n: ectx: property (text), widget (QPushButton, editSessionButton)
-#: rc.cpp:386
+#: rc.cpp:392
 msgid "Edit Profile..."
 msgstr "ప్రొఫైల్ ను మార్చు..."
 
 #. i18n: file: ManageProfilesDialog.ui:46
 #. i18n: ectx: property (toolTip), widget (QPushButton, deleteSessionButton)
-#: rc.cpp:389
+#: rc.cpp:395
 msgid "Delete the selected profile(s)"
 msgstr "ఎంపికచేసిన ప్రొఫైలు(ల)ను తొలగించుము"
 
 #. i18n: file: ManageProfilesDialog.ui:49
 #. i18n: ectx: property (text), widget (QPushButton, deleteSessionButton)
-#: rc.cpp:392
+#: rc.cpp:398
 msgid "Delete Profile"
 msgstr "ప్రొఫైల్ తొలగించు"
 
 #. i18n: file: ManageProfilesDialog.ui:59
 #. i18n: ectx: property (toolTip), widget (QPushButton, setAsDefaultButton)
-#: rc.cpp:395
+#: rc.cpp:401
 msgid "Set the selected profile as the default for new terminal sessions"
 msgstr "ఎంపికచేసిన ప్రొఫైలు కొత్త టెర్మినల్ సెషన్లకు అప్రమేయంగా అమర్చుము"
 
 #. i18n: file: ManageProfilesDialog.ui:62
 #. i18n: ectx: property (text), widget (QPushButton, setAsDefaultButton)
-#: rc.cpp:398
+#: rc.cpp:404
 msgid "Set as Default"
 msgstr "అప్రమేయం చెయి"
 
 #. i18n: file: ../desktop/partui.rc:7
 #. i18n: ectx: Menu (history)
-#: rc.cpp:425
+#: rc.cpp:431
 msgid "S&crollback"
 msgstr "(&c) స్క్రోల్‌బ్యాక్"
 
@@ -1518,49 +1535,49 @@ msgstr "(&c) స్క్రోల్‌బ్యాక్"
 #. i18n: ectx: Menu (change-profile)
 #. i18n: file: ../desktop/sessionui.rc:60
 #. i18n: ectx: Menu (change-profile)
-#: rc.cpp:428 rc.cpp:455
+#: rc.cpp:434 rc.cpp:461
 msgid "&Change Profile"
 msgstr "(&C) ప్రొఫైల్ మార్చుము"
 
 #. i18n: file: ../desktop/konsoleui.rc:5
 #. i18n: ectx: Menu (file)
-#: rc.cpp:431
+#: rc.cpp:437
 msgid "File"
 msgstr "ఫైలు"
 
 #. i18n: file: ../desktop/konsoleui.rc:14
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:434
+#: rc.cpp:440
 msgid "Edit"
 msgstr "సరికూర్చు"
 
 #. i18n: file: ../desktop/konsoleui.rc:17
 #. i18n: ectx: Menu (view)
-#: rc.cpp:437
+#: rc.cpp:443
 msgid "View"
 msgstr "వీక్షణం"
 
 #. i18n: file: ../desktop/konsoleui.rc:18
 #. i18n: ectx: Menu (view-split)
-#: rc.cpp:440
+#: rc.cpp:446
 msgid "Split View"
 msgstr "వీక్షణం విభజించు"
 
 #. i18n: file: ../desktop/konsoleui.rc:33
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:443
+#: rc.cpp:449
 msgid "Settings"
 msgstr "అమరికలు"
 
 #. i18n: file: ../desktop/konsoleui.rc:44
 #. i18n: ectx: Menu (help)
-#: rc.cpp:446
+#: rc.cpp:452
 msgid "Help"
 msgstr "సహాయం"
 
 #. i18n: file: ../desktop/sessionui.rc:15
 #. i18n: ectx: Menu (edit-copy-input-to)
-#: rc.cpp:449
+#: rc.cpp:455
 #, fuzzy
 #| msgid "Copy Input To..."
 msgid "Copy Input To"
@@ -1568,7 +1585,7 @@ msgstr "ఇన్పుట్ యిచటకు నకలుతీయి..."
 
 #. i18n: file: ../desktop/sessionui.rc:41
 #. i18n: ectx: Menu (debug)
-#: rc.cpp:452
+#: rc.cpp:458
 msgid "Debug"
 msgstr "డీబగ్"
 
@@ -1858,49 +1875,63 @@ msgid "Title"
 msgstr "శీర్షిక"
 
 #: TabTitleFormatAction.cpp:34
-msgid "Program Name"
+#, fuzzy, c-format
+#| msgid "Program Name"
+msgid "Program Name: %n"
 msgstr "కార్యక్రమం పేరు"
 
 #: TabTitleFormatAction.cpp:35
-msgid "Current Directory (Short)"
+#, fuzzy, c-format
+#| msgid "Current Directory (Short)"
+msgid "Current Directory (Short): %d"
 msgstr "ప్రస్తుత డైరక్టరి (చిన్న)"
 
 #: TabTitleFormatAction.cpp:36
-msgid "Current Directory (Long)"
+#, fuzzy
+#| msgid "Current Directory (Long)"
+msgid "Current Directory (Long): %D"
 msgstr "ప్రస్తుత డైరక్టరి (పెద్ద)"
 
 #: TabTitleFormatAction.cpp:37 TabTitleFormatAction.cpp:47
-msgid "Window Title Set by Shell"
+#, fuzzy
+#| msgid "Window Title Set by Shell"
+msgid "Window Title Set by Shell: %w"
 msgstr "విండో శీర్షిక షెల్‌చేత అమర్చబడుతుంది"
 
 #: TabTitleFormatAction.cpp:38 TabTitleFormatAction.cpp:48
 #, fuzzy
 #| msgid "Session number"
-msgid "Session Number"
+msgid "Session Number: %#"
 msgstr "సెషన్ సంఖ్య"
 
 #: TabTitleFormatAction.cpp:39 TabTitleFormatAction.cpp:44
-msgid "User Name"
+#, fuzzy, c-format
+#| msgid "User Name"
+msgid "User Name: %u"
 msgstr "యూజర్ పేరు"
 
 #: TabTitleFormatAction.cpp:45
-msgid "Remote Host (Short)"
+#, fuzzy
+#| msgid "Remote Host (Short)"
+msgid "Remote Host (Short): %h"
 msgstr "రిమొట్ హొస్ట్ (చిన్న)"
 
 #: TabTitleFormatAction.cpp:46
-msgid "Remote Host (Long)"
+#, fuzzy
+#| msgid "Remote Host (Long)"
+msgid "Remote Host (Long): %H"
 msgstr "రిమొట్ హొస్ట్ (పెద్ద)"
 
-#: TerminalDisplay.cpp:1119 TerminalDisplay.cpp:1120
+#: TerminalDisplay.cpp:1120 TerminalDisplay.cpp:1121
 msgid "Size: XXX x XXX"
 msgstr "పరిమాణం: XXX x XXX"
 
-#: TerminalDisplay.cpp:1130
+#: TerminalDisplay.cpp:1131
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "పరిమాణం: %1 x %2"
 
-#: TerminalDisplay.cpp:2903
+#: TerminalDisplay.cpp:2910
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
 "\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
@@ -1998,7 +2029,7 @@ msgstr "వీక్షణం కుదించుము"
 msgid "Switch to Tab %1"
 msgstr "టాబ్ %1కు మారుము"
 
-#: Vt102Emulation.cpp:979
+#: Vt102Emulation.cpp:986
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
 "presses into characters to send to the terminal is missing."
