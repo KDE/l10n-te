@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_systemtray\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-04 02:45+0200\n"
+"POT-Creation-Date: 2011-08-05 03:51+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -26,29 +26,37 @@ msgstr ""
 "\n"
 "\n"
 
-#: ui/applet.cpp:428
+#: ui/taskarea.cpp:514
+msgid "Hide icons"
+msgstr ""
+
+#: ui/taskarea.cpp:516
+msgid "Show hidden icons"
+msgstr ""
+
+#: ui/applet.cpp:429
 msgid "Display"
 msgstr ""
 
-#: ui/applet.cpp:430
+#: ui/applet.cpp:431
 msgid "Choose which information to show"
 msgstr ""
 
-#: ui/applet.cpp:431
+#: ui/applet.cpp:432
 msgid "Entries"
 msgstr ""
 
-#: ui/applet.cpp:491
+#: ui/applet.cpp:492
 msgctxt "Item will be automatically shown or hidden from the systray"
 msgid "Auto"
 msgstr ""
 
-#: ui/applet.cpp:492
+#: ui/applet.cpp:493
 msgctxt "Item is never visible in the systray"
 msgid "Hidden"
 msgstr ""
 
-#: ui/applet.cpp:493
+#: ui/applet.cpp:494
 msgctxt "Item is always visible in the systray"
 msgid "Always Visible"
 msgstr ""
@@ -88,14 +96,6 @@ msgctxt ""
 "Extra items to be manually added in the systray, such as little Plasma "
 "widgets"
 msgid "Extra Items"
-msgstr ""
-
-#: ui/taskarea.cpp:514
-msgid "Hide icons"
-msgstr ""
-
-#: ui/taskarea.cpp:516
-msgid "Show hidden icons"
 msgstr ""
 
 #. i18n: file: ui/autohide.ui:39
