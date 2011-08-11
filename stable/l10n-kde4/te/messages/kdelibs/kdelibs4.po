@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-10 12:26+0200\n"
+"POT-Creation-Date: 2011-08-11 11:42+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -7383,11 +7383,6 @@ msgstr[1] "%1 దస్త్రాలు"
 msgid "Click this to collapse the dialog, to hide details"
 msgstr ""
 
-#: kdeui/kernel/kapplication.cpp:830
-#, kde-format
-msgid "The style '%1' was not found"
-msgstr "%1 శైలి కనపడలేదు"
-
 #: kdeui/kernel/kuniqueapplication.cpp:88
 msgid "Do not run in the background."
 msgstr "బ్యాక్‌గ్రౌండు నందు నడుపవద్దు."
@@ -7395,6 +7390,11 @@ msgstr "బ్యాక్‌గ్రౌండు నందు నడుపవ�
 #: kdeui/kernel/kuniqueapplication.cpp:90
 msgid "Internally added if launched from Finder"
 msgstr "కనుగొనిన దానినుండి ప్రారంభించబడితే అంతర్గతంగా జతచేయబడింది"
+
+#: kdeui/kernel/kapplication.cpp:830
+#, kde-format
+msgid "The style '%1' was not found"
+msgstr "%1 శైలి కనపడలేదు"
 
 #: kdeui/notifications/knotificationrestrictions.cpp:181
 msgid "Unknown Application"
