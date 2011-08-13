@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-12 03:55+0200\n"
+"POT-Creation-Date: 2011-08-13 03:25+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -621,35 +621,35 @@ msgstr "ముసివేత నిర్ధారించు"
 msgid "Close Current Tab"
 msgstr "ప్రస్తుత టాబ్ మూసివేయి"
 
-#: ManageProfilesDialog.cpp:48
+#: ManageProfilesDialog.cpp:49
 #, fuzzy
 #| msgid "Manage Profiles"
 msgctxt "@title:window"
 msgid "Manage Profiles"
 msgstr "ప్రొఫైల్సును నిర్వహించుము"
 
-#: ManageProfilesDialog.cpp:217
+#: ManageProfilesDialog.cpp:218
 #, fuzzy
 #| msgid "Name"
 msgctxt "@title:column Profile label"
 msgid "Name"
 msgstr "పేరు"
 
-#: ManageProfilesDialog.cpp:218
+#: ManageProfilesDialog.cpp:219
 #, fuzzy
 #| msgid "Show in Menu"
 msgctxt "@title:column Display profile in file menu"
 msgid "Show in Menu"
 msgstr "మెనూనందు చూపుము"
 
-#: ManageProfilesDialog.cpp:219
+#: ManageProfilesDialog.cpp:220
 #, fuzzy
 #| msgid "Shortcut"
 msgctxt "@title:column Profile shortcut text"
 msgid "Shortcut"
 msgstr "షార్టుకట్"
 
-#: ManageProfilesDialog.cpp:347
+#: ManageProfilesDialog.cpp:350
 #, fuzzy
 #| msgid "New Profile"
 msgctxt "@item This will be used as part of the file name"
@@ -906,7 +906,7 @@ msgstr "టాబ్ శీర్షికలు"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: file: RenameTabsDialog.ui:26
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:110 rc.cpp:428
+#: rc.cpp:110 rc.cpp:416
 msgid "Tab title format:"
 msgstr "టాబ్ శీర్షిక రూపము:"
 
@@ -914,7 +914,7 @@ msgstr "టాబ్ శీర్షిక రూపము:"
 #. i18n: ectx: property (toolTip), widget (KLineEdit, tabTitleEdit)
 #. i18n: file: RenameTabsDialog.ui:36
 #. i18n: ectx: property (toolTip), widget (KLineEdit, tabTitleEdit)
-#: rc.cpp:113 rc.cpp:431
+#: rc.cpp:113 rc.cpp:419
 msgid "Normal tab title format"
 msgstr "సాధారణ టాబ్ శీర్షిక రూపము"
 
@@ -922,7 +922,7 @@ msgstr "సాధారణ టాబ్ శీర్షిక రూపము"
 #. i18n: ectx: property (toolTip), widget (QPushButton, tabTitleEditButton)
 #. i18n: file: RenameTabsDialog.ui:43
 #. i18n: ectx: property (toolTip), widget (QPushButton, tabTitleEditButton)
-#: rc.cpp:116 rc.cpp:434
+#: rc.cpp:116 rc.cpp:422
 msgid "Edit normal tab title format"
 msgstr "సాదారణ టాబ్ శీర్షిక రూపాన్ని సరికూర్చుము"
 
@@ -934,7 +934,7 @@ msgstr "సాదారణ టాబ్ శీర్షిక రూపాన్
 #. i18n: ectx: property (text), widget (QPushButton, tabTitleEditButton)
 #. i18n: file: RenameTabsDialog.ui:73
 #. i18n: ectx: property (text), widget (QPushButton, remoteTabTitleEditButton)
-#: rc.cpp:119 rc.cpp:131 rc.cpp:437 rc.cpp:449
+#: rc.cpp:119 rc.cpp:131 rc.cpp:425 rc.cpp:437
 msgid "Insert"
 msgstr "ఇన్సర్‍ట్ (చేర్చుము)"
 
@@ -942,7 +942,7 @@ msgstr "ఇన్సర్‍ట్ (చేర్చుము)"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: RenameTabsDialog.ui:53
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:122 rc.cpp:440
+#: rc.cpp:122 rc.cpp:428
 msgid "Remote tab title format:"
 msgstr "రిమోట్ టాబ్ శీర్షిక రూపము:"
 
@@ -950,7 +950,7 @@ msgstr "రిమోట్ టాబ్ శీర్షిక రూపము:"
 #. i18n: ectx: property (toolTip), widget (KLineEdit, remoteTabTitleEdit)
 #. i18n: file: RenameTabsDialog.ui:63
 #. i18n: ectx: property (toolTip), widget (KLineEdit, remoteTabTitleEdit)
-#: rc.cpp:125 rc.cpp:443
+#: rc.cpp:125 rc.cpp:431
 msgid ""
 "Tab title format used when a remote command (e.g. connection to another "
 "computer via SSH) is being executed"
@@ -962,7 +962,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QPushButton, remoteTabTitleEditButton)
 #. i18n: file: RenameTabsDialog.ui:70
 #. i18n: ectx: property (toolTip), widget (QPushButton, remoteTabTitleEditButton)
-#: rc.cpp:128 rc.cpp:446
+#: rc.cpp:128 rc.cpp:434
 msgid "Edit tab title format used when executing remote commands"
 msgstr "రిమోట్ ఆదేశములను ఎగ్జిక్యూట్ చేస్తున్నప్పుడు వుపయోగించు టాబ్ శీర్షిక రూపాన్ని సరికూర్చుము"
 
@@ -1509,75 +1509,51 @@ msgstr "ఎంపికచేసిన ప్రొఫైల్ పైన ఆధ
 msgid "&New Profile..."
 msgstr "కొత్త ప్రొఫైల్..."
 
-#. i18n: file: ManageProfilesDialog.ui:26
-#. i18n: ectx: property (shortcut), widget (QPushButton, newSessionButton)
-#: rc.cpp:398
-msgid "Alt+N"
-msgstr ""
-
-#. i18n: file: ManageProfilesDialog.ui:36
+#. i18n: file: ManageProfilesDialog.ui:33
 #. i18n: ectx: property (toolTip), widget (QPushButton, editSessionButton)
-#: rc.cpp:401
+#: rc.cpp:398
 msgid "Edit the selected profile(s)"
 msgstr "ఎంపికచేసిన ప్రొఫైలు(ల)ను సరికూర్చుము"
 
-#. i18n: file: ManageProfilesDialog.ui:39
+#. i18n: file: ManageProfilesDialog.ui:36
 #. i18n: ectx: property (text), widget (QPushButton, editSessionButton)
-#: rc.cpp:404
+#: rc.cpp:401
 #, fuzzy
 #| msgid "Edit Profile..."
 msgid "&Edit Profile..."
 msgstr "ప్రొఫైల్ ను మార్చు..."
 
-#. i18n: file: ManageProfilesDialog.ui:42
-#. i18n: ectx: property (shortcut), widget (QPushButton, editSessionButton)
-#: rc.cpp:407
-msgid "Alt+E"
-msgstr ""
-
-#. i18n: file: ManageProfilesDialog.ui:52
+#. i18n: file: ManageProfilesDialog.ui:46
 #. i18n: ectx: property (toolTip), widget (QPushButton, deleteSessionButton)
-#: rc.cpp:410
+#: rc.cpp:404
 msgid "Delete the selected profile(s)"
 msgstr "ఎంపికచేసిన ప్రొఫైలు(ల)ను తొలగించుము"
 
-#. i18n: file: ManageProfilesDialog.ui:55
+#. i18n: file: ManageProfilesDialog.ui:49
 #. i18n: ectx: property (text), widget (QPushButton, deleteSessionButton)
-#: rc.cpp:413
+#: rc.cpp:407
 #, fuzzy
 #| msgid "Delete Profile"
 msgid "&Delete Profile"
 msgstr "ప్రొఫైల్ తొలగించు"
 
-#. i18n: file: ManageProfilesDialog.ui:58
-#. i18n: ectx: property (shortcut), widget (QPushButton, deleteSessionButton)
-#: rc.cpp:416
-msgid "Alt+D"
-msgstr ""
-
-#. i18n: file: ManageProfilesDialog.ui:68
+#. i18n: file: ManageProfilesDialog.ui:59
 #. i18n: ectx: property (toolTip), widget (QPushButton, setAsDefaultButton)
-#: rc.cpp:419
+#: rc.cpp:410
 msgid "Set the selected profile as the default for new terminal sessions"
 msgstr "ఎంపికచేసిన ప్రొఫైలు కొత్త టెర్మినల్ సెషన్లకు అప్రమేయంగా అమర్చుము"
 
-#. i18n: file: ManageProfilesDialog.ui:71
+#. i18n: file: ManageProfilesDialog.ui:62
 #. i18n: ectx: property (text), widget (QPushButton, setAsDefaultButton)
-#: rc.cpp:422
+#: rc.cpp:413
 #, fuzzy
 #| msgid "Set as Default"
 msgid "&Set as Default"
 msgstr "అప్రమేయం చెయి"
 
-#. i18n: file: ManageProfilesDialog.ui:74
-#. i18n: ectx: property (shortcut), widget (QPushButton, setAsDefaultButton)
-#: rc.cpp:425
-msgid "Alt+S"
-msgstr ""
-
 #. i18n: file: ../desktop/partui.rc:7
 #. i18n: ectx: Menu (history)
-#: rc.cpp:452
+#: rc.cpp:440
 msgid "S&crollback"
 msgstr "(&c) స్క్రోల్‌బ్యాక్"
 
@@ -1585,49 +1561,49 @@ msgstr "(&c) స్క్రోల్‌బ్యాక్"
 #. i18n: ectx: Menu (change-profile)
 #. i18n: file: ../desktop/sessionui.rc:60
 #. i18n: ectx: Menu (change-profile)
-#: rc.cpp:455 rc.cpp:482
+#: rc.cpp:443 rc.cpp:470
 msgid "&Change Profile"
 msgstr "(&C) ప్రొఫైల్ మార్చుము"
 
 #. i18n: file: ../desktop/konsoleui.rc:5
 #. i18n: ectx: Menu (file)
-#: rc.cpp:458
+#: rc.cpp:446
 msgid "File"
 msgstr "ఫైలు"
 
 #. i18n: file: ../desktop/konsoleui.rc:14
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:461
+#: rc.cpp:449
 msgid "Edit"
 msgstr "సరికూర్చు"
 
 #. i18n: file: ../desktop/konsoleui.rc:17
 #. i18n: ectx: Menu (view)
-#: rc.cpp:464
+#: rc.cpp:452
 msgid "View"
 msgstr "వీక్షణం"
 
 #. i18n: file: ../desktop/konsoleui.rc:18
 #. i18n: ectx: Menu (view-split)
-#: rc.cpp:467
+#: rc.cpp:455
 msgid "Split View"
 msgstr "వీక్షణం విభజించు"
 
 #. i18n: file: ../desktop/konsoleui.rc:33
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:470
+#: rc.cpp:458
 msgid "Settings"
 msgstr "అమరికలు"
 
 #. i18n: file: ../desktop/konsoleui.rc:44
 #. i18n: ectx: Menu (help)
-#: rc.cpp:473
+#: rc.cpp:461
 msgid "Help"
 msgstr "సహాయం"
 
 #. i18n: file: ../desktop/sessionui.rc:15
 #. i18n: ectx: Menu (edit-copy-input-to)
-#: rc.cpp:476
+#: rc.cpp:464
 #, fuzzy
 #| msgid "Copy Input To..."
 msgid "Copy Input To"
@@ -1635,7 +1611,7 @@ msgstr "ఇన్పుట్ యిచటకు నకలుతీయి..."
 
 #. i18n: file: ../desktop/sessionui.rc:41
 #. i18n: ectx: Menu (debug)
-#: rc.cpp:479
+#: rc.cpp:467
 msgid "Debug"
 msgstr "డీబగ్"
 

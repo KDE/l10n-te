@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-12 03:26+0200\n"
+"POT-Creation-Date: 2011-08-13 02:54+0200\n"
 "PO-Revision-Date: 2007-03-09 14:17+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -1402,6 +1402,12 @@ msgstr ""
 msgid "Open File"
 msgstr ""
 
+#: app/kateapp.cpp:226 app/kateapp.cpp:352
+#, kde-format
+msgid ""
+"The file '%1' could not be opened: it is not a normal file, it is a folder."
+msgstr ""
+
 #: app/katemainwindow.cpp:225
 msgid "Use this command to show or hide the view's statusbar"
 msgstr ""
@@ -1576,27 +1582,21 @@ msgstr ""
 msgid "Close all documents"
 msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
-#: app/katemainwindow.cpp:704
+#: app/katemainwindow.cpp:721
 msgid "&Other..."
 msgstr ""
 
-#: app/katemainwindow.cpp:730
+#: app/katemainwindow.cpp:747
 #, fuzzy, kde-format
 #| msgid "Application '%1' not found!"
 msgid "Application '%1' not found."
 msgstr "'%1' అప్లికేషన్ దొరకలేదు"
 
-#: app/katemainwindow.cpp:730
+#: app/katemainwindow.cpp:747
 #, fuzzy
 #| msgid "Application Not Found!"
 msgid "Application not found"
 msgstr "అప్లికేషన్ దొరకలేదు!"
-
-#: app/kateapp.cpp:226 app/kateapp.cpp:352
-#, kde-format
-msgid ""
-"The file '%1' could not be opened: it is not a normal file, it is a folder."
-msgstr ""
 
 #: plugins/filetree/katefiletree.cpp:50
 #, fuzzy
