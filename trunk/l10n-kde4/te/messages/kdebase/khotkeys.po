@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:37+0200\n"
+"POT-Creation-Date: 2011-08-18 03:35+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -780,17 +780,9 @@ msgstr ""
 msgid "Activate window: "
 msgstr ""
 
-#: libkhotkeysprivate/conditions/active_window_condition.cpp:82
-msgid "Active window: "
-msgstr ""
-
 #: libkhotkeysprivate/conditions/and_condition.cpp:61
 msgctxt "And_condition"
 msgid "And"
-msgstr ""
-
-#: libkhotkeysprivate/conditions/existing_window_condition.cpp:72
-msgid "Existing window: "
 msgstr ""
 
 #: libkhotkeysprivate/conditions/not_condition.cpp:63
@@ -801,6 +793,14 @@ msgstr ""
 #: libkhotkeysprivate/conditions/or_condition.cpp:69
 msgctxt "Or_condition"
 msgid "Or"
+msgstr ""
+
+#: libkhotkeysprivate/conditions/active_window_condition.cpp:82
+msgid "Active window: "
+msgstr ""
+
+#: libkhotkeysprivate/conditions/existing_window_condition.cpp:72
+msgid "Existing window: "
 msgstr ""
 
 #: libkhotkeysprivate/khotkeysglobal.h:40
@@ -820,16 +820,16 @@ msgid ""
 "want to import it?"
 msgstr ""
 
+#: libkhotkeysprivate/triggers/voice_trigger.cpp:67
+msgid "Voice trigger: "
+msgstr ""
+
 #: libkhotkeysprivate/triggers/gesture_trigger.cpp:126
 msgid "Gesture trigger"
 msgstr ""
 
 #: libkhotkeysprivate/triggers/shortcut_trigger.cpp:137
 msgid "Shortcut trigger: "
-msgstr ""
-
-#: libkhotkeysprivate/triggers/voice_trigger.cpp:67
-msgid "Voice trigger: "
 msgstr ""
 
 #: libkhotkeysprivate/triggers/window_trigger.cpp:150
