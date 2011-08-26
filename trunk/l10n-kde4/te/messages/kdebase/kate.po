@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-22 03:42+0200\n"
+"POT-Creation-Date: 2011-08-26 03:29+0200\n"
 "PO-Revision-Date: 2007-03-09 14:17+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -704,11 +704,11 @@ msgstr ""
 msgid "Save As"
 msgstr "(&A) ఇలా దాచు..."
 
-#: app/katedocmanager.cpp:485 app/katemainwindow.cpp:428
+#: app/katedocmanager.cpp:485 app/katemainwindow.cpp:432
 msgid "New file opened while trying to close Kate, closing aborted."
 msgstr ""
 
-#: app/katedocmanager.cpp:486 app/katemainwindow.cpp:429
+#: app/katedocmanager.cpp:486 app/katemainwindow.cpp:433
 msgid "Closing Aborted"
 msgstr ""
 
@@ -722,60 +722,6 @@ msgstr ""
 
 #: app/katedocmanager.cpp:738
 msgid "Errors/Warnings while opening documents"
-msgstr ""
-
-#: app/katemdi.cpp:120
-msgid "Tool &Views"
-msgstr ""
-
-#: app/katemdi.cpp:122
-msgid "Show Side&bars"
-msgstr ""
-
-#: app/katemdi.cpp:161
-#, kde-format
-msgid "Show %1"
-msgstr "%1 ను చూపు"
-
-#: app/katemdi.cpp:453
-msgid "Behavior"
-msgstr ""
-
-#: app/katemdi.cpp:456
-msgid "Make Non-Persistent"
-msgstr ""
-
-#: app/katemdi.cpp:456
-msgid "Make Persistent"
-msgstr ""
-
-#: app/katemdi.cpp:458
-msgid "Move To"
-msgstr ""
-
-#: app/katemdi.cpp:461
-msgid "Left Sidebar"
-msgstr ""
-
-#: app/katemdi.cpp:464
-msgid "Right Sidebar"
-msgstr ""
-
-#: app/katemdi.cpp:467
-msgid "Top Sidebar"
-msgstr ""
-
-#: app/katemdi.cpp:470
-msgid "Bottom Sidebar"
-msgstr ""
-
-#: app/katemdi.cpp:776
-msgid ""
-"<qt>You are about to hide the sidebars. With hidden sidebars it is not "
-"possible to directly access the tool views with the mouse anymore, so if you "
-"need to access the sidebars again invoke <b>View &gt; Tool Views &gt; Show "
-"Sidebars</b> in the menu. It is still possible to show/hide the tool views "
-"with the assigned shortcuts.</qt>"
 msgstr ""
 
 #: app/katemwmodonhddialog.cpp:65
@@ -908,6 +854,7 @@ msgid ""
 msgstr ""
 
 #: app/katesavemodifieddialog.cpp:205
+#: plugins/filetree/katefiletreeplugin.cpp:88
 #: plugins/filetree/katefiletreeplugin.cpp:159
 msgid "Documents"
 msgstr "పత్రాలు"
@@ -1038,196 +985,6 @@ msgstr "సెషన్ పేరు:"
 msgid ""
 "The file '%1' could not be opened: it is not a normal file, it is a folder."
 msgstr ""
-
-#: app/katemainwindow.cpp:225
-msgid "Use this command to show or hide the view's statusbar"
-msgstr ""
-
-#: app/katemainwindow.cpp:227
-msgid "Sho&w Path"
-msgstr ""
-
-#: app/katemainwindow.cpp:230
-msgid "Show the complete document path in the window caption"
-msgstr ""
-
-#: app/katemainwindow.cpp:250
-msgid "Create a new document"
-msgstr ""
-
-#: app/katemainwindow.cpp:252
-msgid "Open an existing document for editing"
-msgstr "ఉన్న పత్రాన్ని మార్చటానికి తెరవండి"
-
-#: app/katemainwindow.cpp:256
-msgid ""
-"This lists files which you have opened recently, and allows you to easily "
-"open them again."
-msgstr ""
-
-#: app/katemainwindow.cpp:260
-msgid "Save A&ll"
-msgstr "(&l) అన్ని దాచండి"
-
-#: app/katemainwindow.cpp:263
-msgid "Save all open, modified documents to disk."
-msgstr ""
-
-#: app/katemainwindow.cpp:266
-msgid "&Reload All"
-msgstr ""
-
-#: app/katemainwindow.cpp:268
-#, fuzzy
-#| msgid "Close all open documents."
-msgid "Reload all open documents."
-msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
-
-#: app/katemainwindow.cpp:271
-msgid "Close Orphaned"
-msgstr ""
-
-#: app/katemainwindow.cpp:273
-msgid ""
-"Close all documents in the file list that could not be reopened, because "
-"they are not accessible anymore."
-msgstr ""
-
-#: app/katemainwindow.cpp:276 plugins/filetree/katefiletree.cpp:54
-msgid "Close the current document."
-msgstr "ఉన్న పత్రాన్ని ని మూయండి"
-
-#: app/katemainwindow.cpp:279
-msgid "Close Other"
-msgstr ""
-
-#: app/katemainwindow.cpp:281
-#, fuzzy
-#| msgid "Close all open documents."
-msgid "Close other open documents."
-msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
-
-#: app/katemainwindow.cpp:284
-msgid "Clos&e All"
-msgstr "(&l) అన్ని మూయండి"
-
-#: app/katemainwindow.cpp:286
-msgid "Close all open documents."
-msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
-
-#: app/katemainwindow.cpp:291
-msgid "Close this window"
-msgstr "ఈ విండో ని మూయండి"
-
-#: app/katemainwindow.cpp:295
-#, fuzzy
-#| msgid "&Window"
-msgid "&New Window"
-msgstr "(&W) విండొ"
-
-#: app/katemainwindow.cpp:297
-msgid "Create a new Kate view (a new window with the same document list)."
-msgstr ""
-
-#: app/katemainwindow.cpp:303
-msgid "Open W&ith"
-msgstr "(&i) దీనితో తెరువు"
-
-#: app/katemainwindow.cpp:305
-msgid ""
-"Open the current document using another application registered for its file "
-"type, or an application of your choice."
-msgstr ""
-
-#: app/katemainwindow.cpp:310
-msgid "Configure the application's keyboard shortcut assignments."
-msgstr ""
-
-#: app/katemainwindow.cpp:313
-msgid "Configure which items should appear in the toolbar(s)."
-msgstr ""
-
-#: app/katemainwindow.cpp:316
-msgid ""
-"Configure various aspects of this application and the editing component."
-msgstr ""
-
-#: app/katemainwindow.cpp:320
-msgid "This shows useful tips on the use of this application."
-msgstr ""
-
-#: app/katemainwindow.cpp:325
-msgid "&Plugins Handbook"
-msgstr ""
-
-#: app/katemainwindow.cpp:327
-msgid "This shows help files for various available plugins."
-msgstr ""
-
-#: app/katemainwindow.cpp:331
-msgid "&About Editor Component"
-msgstr ""
-
-#: app/katemainwindow.cpp:346
-msgctxt "Menu entry Session->New"
-msgid "&New"
-msgstr ""
-
-#: app/katemainwindow.cpp:351
-#, fuzzy
-#| msgid "New Session"
-msgid "&Open Session"
-msgstr "కొత్త సెషన్"
-
-#: app/katemainwindow.cpp:356
-#, fuzzy
-#| msgid "&Save session"
-msgid "&Save Session"
-msgstr "(&S) సెషన్ను దాచు"
-
-#: app/katemainwindow.cpp:360
-#, fuzzy
-#| msgid "Save Session?"
-msgid "Save Session &As..."
-msgstr "సెషన్ను దాచు?"
-
-#: app/katemainwindow.cpp:364
-#, fuzzy
-#| msgid "&Save session"
-msgid "&Manage Sessions..."
-msgstr "(&S) సెషన్ను దాచు"
-
-#: app/katemainwindow.cpp:369
-#, fuzzy
-#| msgid "New Session"
-msgid "&Quick Open Session"
-msgstr "కొత్త సెషన్"
-
-#: app/katemainwindow.cpp:376
-msgid "This will close all open documents. Are you sure you want to continue?"
-msgstr ""
-
-#: app/katemainwindow.cpp:377
-#, fuzzy
-#| msgid "Close all open documents."
-msgid "Close all documents"
-msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
-
-#: app/katemainwindow.cpp:721
-msgid "&Other..."
-msgstr ""
-
-#: app/katemainwindow.cpp:747
-#, fuzzy, kde-format
-#| msgid "Application '%1' not found!"
-msgid "Application '%1' not found."
-msgstr "'%1' అప్లికేషన్ దొరకలేదు"
-
-#: app/katemainwindow.cpp:747
-#, fuzzy
-#| msgid "Application Not Found!"
-msgid "Application not found"
-msgstr "అప్లికేషన్ దొరకలేదు!"
 
 #: app/katemain.cpp:81
 msgid "Kate"
@@ -1635,6 +1392,254 @@ msgstr " INS "
 msgid " BLOCK "
 msgstr " BLK "
 
+#: app/katemainwindow.cpp:229
+msgid "Use this command to show or hide the view's statusbar"
+msgstr ""
+
+#: app/katemainwindow.cpp:231
+msgid "Sho&w Path"
+msgstr ""
+
+#: app/katemainwindow.cpp:234
+msgid "Show the complete document path in the window caption"
+msgstr ""
+
+#: app/katemainwindow.cpp:254
+msgid "Create a new document"
+msgstr ""
+
+#: app/katemainwindow.cpp:256
+msgid "Open an existing document for editing"
+msgstr "ఉన్న పత్రాన్ని మార్చటానికి తెరవండి"
+
+#: app/katemainwindow.cpp:260
+msgid ""
+"This lists files which you have opened recently, and allows you to easily "
+"open them again."
+msgstr ""
+
+#: app/katemainwindow.cpp:264
+msgid "Save A&ll"
+msgstr "(&l) అన్ని దాచండి"
+
+#: app/katemainwindow.cpp:267
+msgid "Save all open, modified documents to disk."
+msgstr ""
+
+#: app/katemainwindow.cpp:270
+msgid "&Reload All"
+msgstr ""
+
+#: app/katemainwindow.cpp:272
+#, fuzzy
+#| msgid "Close all open documents."
+msgid "Reload all open documents."
+msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
+
+#: app/katemainwindow.cpp:275
+msgid "Close Orphaned"
+msgstr ""
+
+#: app/katemainwindow.cpp:277
+msgid ""
+"Close all documents in the file list that could not be reopened, because "
+"they are not accessible anymore."
+msgstr ""
+
+#: app/katemainwindow.cpp:280 plugins/filetree/katefiletree.cpp:54
+msgid "Close the current document."
+msgstr "ఉన్న పత్రాన్ని ని మూయండి"
+
+#: app/katemainwindow.cpp:283
+msgid "Close Other"
+msgstr ""
+
+#: app/katemainwindow.cpp:285
+#, fuzzy
+#| msgid "Close all open documents."
+msgid "Close other open documents."
+msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
+
+#: app/katemainwindow.cpp:288
+msgid "Clos&e All"
+msgstr "(&l) అన్ని మూయండి"
+
+#: app/katemainwindow.cpp:290
+msgid "Close all open documents."
+msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
+
+#: app/katemainwindow.cpp:295
+msgid "Close this window"
+msgstr "ఈ విండో ని మూయండి"
+
+#: app/katemainwindow.cpp:299
+#, fuzzy
+#| msgid "&Window"
+msgid "&New Window"
+msgstr "(&W) విండొ"
+
+#: app/katemainwindow.cpp:301
+msgid "Create a new Kate view (a new window with the same document list)."
+msgstr ""
+
+#: app/katemainwindow.cpp:307
+msgid "Open W&ith"
+msgstr "(&i) దీనితో తెరువు"
+
+#: app/katemainwindow.cpp:309
+msgid ""
+"Open the current document using another application registered for its file "
+"type, or an application of your choice."
+msgstr ""
+
+#: app/katemainwindow.cpp:314
+msgid "Configure the application's keyboard shortcut assignments."
+msgstr ""
+
+#: app/katemainwindow.cpp:317
+msgid "Configure which items should appear in the toolbar(s)."
+msgstr ""
+
+#: app/katemainwindow.cpp:320
+msgid ""
+"Configure various aspects of this application and the editing component."
+msgstr ""
+
+#: app/katemainwindow.cpp:324
+msgid "This shows useful tips on the use of this application."
+msgstr ""
+
+#: app/katemainwindow.cpp:329
+msgid "&Plugins Handbook"
+msgstr ""
+
+#: app/katemainwindow.cpp:331
+msgid "This shows help files for various available plugins."
+msgstr ""
+
+#: app/katemainwindow.cpp:335
+msgid "&About Editor Component"
+msgstr ""
+
+#: app/katemainwindow.cpp:350
+msgctxt "Menu entry Session->New"
+msgid "&New"
+msgstr ""
+
+#: app/katemainwindow.cpp:355
+#, fuzzy
+#| msgid "New Session"
+msgid "&Open Session"
+msgstr "కొత్త సెషన్"
+
+#: app/katemainwindow.cpp:360
+#, fuzzy
+#| msgid "&Save session"
+msgid "&Save Session"
+msgstr "(&S) సెషన్ను దాచు"
+
+#: app/katemainwindow.cpp:364
+#, fuzzy
+#| msgid "Save Session?"
+msgid "Save Session &As..."
+msgstr "సెషన్ను దాచు?"
+
+#: app/katemainwindow.cpp:368
+#, fuzzy
+#| msgid "&Save session"
+msgid "&Manage Sessions..."
+msgstr "(&S) సెషన్ను దాచు"
+
+#: app/katemainwindow.cpp:373
+#, fuzzy
+#| msgid "New Session"
+msgid "&Quick Open Session"
+msgstr "కొత్త సెషన్"
+
+#: app/katemainwindow.cpp:380
+msgid "This will close all open documents. Are you sure you want to continue?"
+msgstr ""
+
+#: app/katemainwindow.cpp:381
+#, fuzzy
+#| msgid "Close all open documents."
+msgid "Close all documents"
+msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
+
+#: app/katemainwindow.cpp:725
+msgid "&Other..."
+msgstr ""
+
+#: app/katemainwindow.cpp:751
+#, fuzzy, kde-format
+#| msgid "Application '%1' not found!"
+msgid "Application '%1' not found."
+msgstr "'%1' అప్లికేషన్ దొరకలేదు"
+
+#: app/katemainwindow.cpp:751
+#, fuzzy
+#| msgid "Application Not Found!"
+msgid "Application not found"
+msgstr "అప్లికేషన్ దొరకలేదు!"
+
+#: app/katemdi.cpp:122
+msgid "Tool &Views"
+msgstr ""
+
+#: app/katemdi.cpp:124
+msgid "Show Side&bars"
+msgstr ""
+
+#: app/katemdi.cpp:163
+#, kde-format
+msgid "Show %1"
+msgstr "%1 ను చూపు"
+
+#: app/katemdi.cpp:459
+msgid "Configure ..."
+msgstr ""
+
+#: app/katemdi.cpp:463
+msgid "Behavior"
+msgstr ""
+
+#: app/katemdi.cpp:466
+msgid "Make Non-Persistent"
+msgstr ""
+
+#: app/katemdi.cpp:466
+msgid "Make Persistent"
+msgstr ""
+
+#: app/katemdi.cpp:468
+msgid "Move To"
+msgstr ""
+
+#: app/katemdi.cpp:471
+msgid "Left Sidebar"
+msgstr ""
+
+#: app/katemdi.cpp:474
+msgid "Right Sidebar"
+msgstr ""
+
+#: app/katemdi.cpp:477
+msgid "Top Sidebar"
+msgstr ""
+
+#: app/katemdi.cpp:480
+msgid "Bottom Sidebar"
+msgstr ""
+
+#: app/katemdi.cpp:804
+msgid ""
+"<qt>You are about to hide the sidebars. With hidden sidebars it is not "
+"possible to directly access the tool views with the mouse anymore, so if you "
+"need to access the sidebars again invoke <b>View &gt; Tool Views &gt; Show "
+"Sidebars</b> in the menu. It is still possible to show/hide the tool views "
+"with the assigned shortcuts.</qt>"
+msgstr ""
+
 #: plugins/filetree/katefiletreeconfigpage.cpp:60
 msgid "Background Shading"
 msgstr ""
@@ -1670,7 +1675,6 @@ msgid "&View Mode:"
 msgstr ""
 
 #: plugins/filetree/katefiletreeconfigpage.cpp:99
-#: plugins/filetree/katefiletreeplugin.cpp:88
 msgid "Tree View"
 msgstr ""
 
@@ -1712,24 +1716,6 @@ msgstr ""
 msgctxt "%1 is the full path"
 msgid ""
 "<p><b>%1</b></p><p>The document has been modified by another application.</p>"
-msgstr ""
-
-#: plugins/filetree/katefiletreeplugin.cpp:48
-#, fuzzy
-#| msgid "Document Name"
-msgid "Document Tree"
-msgstr "పత్రం పేరు"
-
-#: plugins/filetree/katefiletreeplugin.cpp:48
-msgid "Show open documents in a tree"
-msgstr ""
-
-#: plugins/filetree/katefiletreeplugin.cpp:96
-msgid "Configure Tree View"
-msgstr ""
-
-#: plugins/filetree/katefiletreeplugin.cpp:202
-msgid "&Show Active"
 msgstr ""
 
 #: plugins/filetree/katefiletree.cpp:52
@@ -1790,6 +1776,26 @@ msgstr ""
 
 #: plugins/filetree/katefiletree.cpp:199
 msgid "Sort By"
+msgstr ""
+
+#: plugins/filetree/katefiletreeplugin.cpp:48
+#, fuzzy
+#| msgid "Document Name"
+msgid "Document Tree"
+msgstr "పత్రం పేరు"
+
+#: plugins/filetree/katefiletreeplugin.cpp:48
+msgid "Show open documents in a tree"
+msgstr ""
+
+#: plugins/filetree/katefiletreeplugin.cpp:96
+#, fuzzy
+#| msgid "Save Documents"
+msgid "Configure Documents"
+msgstr "పత్రాలను దాచు"
+
+#: plugins/filetree/katefiletreeplugin.cpp:202
+msgid "&Show Active"
 msgstr ""
 
 #~ msgid "Projects"
