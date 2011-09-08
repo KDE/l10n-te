@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-06 04:07+0200\n"
+"POT-Creation-Date: 2011-09-08 03:57+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -646,28 +646,28 @@ msgctxt "@title:window"
 msgid "Manage Profiles"
 msgstr "ప్రొఫైల్సును నిర్వహించుము"
 
-#: ManageProfilesDialog.cpp:236
+#: ManageProfilesDialog.cpp:237
 #, fuzzy
 #| msgid "Name"
 msgctxt "@title:column Profile label"
 msgid "Name"
 msgstr "పేరు"
 
-#: ManageProfilesDialog.cpp:237
+#: ManageProfilesDialog.cpp:238
 #, fuzzy
 #| msgid "Show in Menu"
 msgctxt "@title:column Display profile in file menu"
 msgid "Show in Menu"
 msgstr "మెనూనందు చూపుము"
 
-#: ManageProfilesDialog.cpp:238
+#: ManageProfilesDialog.cpp:239
 #, fuzzy
 #| msgid "Shortcut"
 msgctxt "@title:column Profile shortcut text"
 msgid "Shortcut"
 msgstr "షార్టుకట్"
 
-#: ManageProfilesDialog.cpp:368
+#: ManageProfilesDialog.cpp:367
 #, fuzzy
 #| msgid "New Profile"
 msgctxt "@item This will be used as part of the file name"
@@ -1569,9 +1569,45 @@ msgstr "ఎంపికచేసిన ప్రొఫైలు కొత్త 
 msgid "&Set as Default"
 msgstr "అప్రమేయం చెయి"
 
+#. i18n: file: ../desktop/konsoleui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:440
+msgid "File"
+msgstr "ఫైలు"
+
+#. i18n: file: ../desktop/konsoleui.rc:14
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:443
+msgid "Edit"
+msgstr "సరికూర్చు"
+
+#. i18n: file: ../desktop/konsoleui.rc:17
+#. i18n: ectx: Menu (view)
+#: rc.cpp:446
+msgid "View"
+msgstr "వీక్షణం"
+
+#. i18n: file: ../desktop/konsoleui.rc:18
+#. i18n: ectx: Menu (view-split)
+#: rc.cpp:449
+msgid "Split View"
+msgstr "వీక్షణం విభజించు"
+
+#. i18n: file: ../desktop/konsoleui.rc:33
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:452
+msgid "Settings"
+msgstr "అమరికలు"
+
+#. i18n: file: ../desktop/konsoleui.rc:44
+#. i18n: ectx: Menu (help)
+#: rc.cpp:455
+msgid "Help"
+msgstr "సహాయం"
+
 #. i18n: file: ../desktop/partui.rc:7
 #. i18n: ectx: Menu (history)
-#: rc.cpp:440
+#: rc.cpp:458
 msgid "S&crollback"
 msgstr "(&c) స్క్రోల్‌బ్యాక్"
 
@@ -1579,45 +1615,9 @@ msgstr "(&c) స్క్రోల్‌బ్యాక్"
 #. i18n: ectx: Menu (change-profile)
 #. i18n: file: ../desktop/sessionui.rc:60
 #. i18n: ectx: Menu (change-profile)
-#: rc.cpp:443 rc.cpp:470
+#: rc.cpp:461 rc.cpp:470
 msgid "&Change Profile"
 msgstr "(&C) ప్రొఫైల్ మార్చుము"
-
-#. i18n: file: ../desktop/konsoleui.rc:5
-#. i18n: ectx: Menu (file)
-#: rc.cpp:446
-msgid "File"
-msgstr "ఫైలు"
-
-#. i18n: file: ../desktop/konsoleui.rc:14
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:449
-msgid "Edit"
-msgstr "సరికూర్చు"
-
-#. i18n: file: ../desktop/konsoleui.rc:17
-#. i18n: ectx: Menu (view)
-#: rc.cpp:452
-msgid "View"
-msgstr "వీక్షణం"
-
-#. i18n: file: ../desktop/konsoleui.rc:18
-#. i18n: ectx: Menu (view-split)
-#: rc.cpp:455
-msgid "Split View"
-msgstr "వీక్షణం విభజించు"
-
-#. i18n: file: ../desktop/konsoleui.rc:33
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:458
-msgid "Settings"
-msgstr "అమరికలు"
-
-#. i18n: file: ../desktop/konsoleui.rc:44
-#. i18n: ectx: Menu (help)
-#: rc.cpp:461
-msgid "Help"
-msgstr "సహాయం"
 
 #. i18n: file: ../desktop/sessionui.rc:15
 #. i18n: ectx: Menu (edit-copy-input-to)
@@ -1989,21 +1989,21 @@ msgstr ""
 "<qt>అవుట్పుట్ Ctrl+S వత్తుట ద్వారా <a href=\"http://en.wikipedia.org/wiki/"
 "Flow_control\">suspended</a> అయింది.  తిరిగికొనసాగించుటకు <b>Ctrl+Q</b> వత్తుము.</qt>"
 
-#: ViewContainer.cpp:495
+#: ViewContainer.cpp:494
 #, fuzzy
 #| msgid "&Detach View"
 msgctxt "@action:inmenu"
 msgid "&Detach Tab"
 msgstr "(&D) వీక్షణం వేరుచేయి"
 
-#: ViewContainer.cpp:499
+#: ViewContainer.cpp:498
 #, fuzzy
 #| msgid "&Rename Tab..."
 msgctxt "@action:inmenu"
 msgid "&Rename Tab..."
 msgstr "(&R) టాబ్‌కు మరలాపేరు..."
 
-#: ViewContainer.cpp:503
+#: ViewContainer.cpp:502
 #, fuzzy
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"

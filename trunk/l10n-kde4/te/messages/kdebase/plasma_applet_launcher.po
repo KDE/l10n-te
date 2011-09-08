@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-18 03:37+0200\n"
+"POT-Creation-Date: 2011-09-08 04:08+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -53,17 +53,17 @@ msgctxt "General configuration page"
 msgid "General"
 msgstr "సాధారణ"
 
+#: core/applicationmodel.cpp:335
+msgid "Games"
+msgstr ""
+
+#: core/applicationmodel.cpp:429 ui/launcher.cpp:975
+msgid "All Applications"
+msgstr ""
+
 #: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
 #: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
 msgid "Favorites"
-msgstr ""
-
-#: core/models.cpp:121
-msgid "Home Folder"
-msgstr "ఇంటి ఫొల్డర్"
-
-#: core/models.cpp:124
-msgid "Network Folders"
 msgstr ""
 
 #: core/leavemodel.cpp:49 simpleapplet/simpleapplet.cpp:210
@@ -157,12 +157,12 @@ msgstr ""
 msgid "System"
 msgstr "వ్యవస్థ"
 
-#: core/applicationmodel.cpp:335
-msgid "Games"
-msgstr ""
+#: core/models.cpp:121
+msgid "Home Folder"
+msgstr "ఇంటి ఫొల్డర్"
 
-#: core/applicationmodel.cpp:429 ui/launcher.cpp:975
-msgid "All Applications"
+#: core/models.cpp:124
+msgid "Network Folders"
 msgstr ""
 
 #: core/recentlyusedmodel.cpp:109
@@ -320,11 +320,6 @@ msgstr "కార్యక్రమాలు"
 msgid "Actions"
 msgstr "కార్యక్రమాలు"
 
-#: ui/searchbar.cpp:70
-msgctxt "Label of the search bar textedit"
-msgid "Search:"
-msgstr ""
-
 #: ui/contextmenufactory.cpp:85
 msgid "Advanced"
 msgstr "ఆధునాతన"
@@ -383,6 +378,11 @@ msgstr ""
 #, kde-format
 msgctxt "full name, login name, hostname"
 msgid "<b>%1 (%2)</b> on <b>%3</b>"
+msgstr ""
+
+#: ui/searchbar.cpp:70
+msgctxt "Label of the search bar textedit"
+msgid "Search:"
 msgstr ""
 
 #: rc.cpp:1
