@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-03 07:46+0200\n"
+"POT-Creation-Date: 2011-09-09 11:37+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -100,6 +100,36 @@ msgstr ""
 msgctxt "%1 current item number, %2 total number of items"
 msgid "%1 of %2"
 msgstr "%1 %2"
+
+#: krunnerapp.cpp:128 krunnerdialog.cpp:73
+msgid "Run Command"
+msgstr ""
+
+#: krunnerapp.cpp:133
+msgid "Run Command on clipboard contents"
+msgstr ""
+
+#: krunnerapp.cpp:139
+msgid "Show System Activity"
+msgstr ""
+
+#: krunnerapp.cpp:145
+msgid "Switch User"
+msgstr ""
+
+#: krunnerapp.cpp:155
+msgid "Lock Session"
+msgstr ""
+
+#: krunnerapp.cpp:195
+#, kde-format
+msgctxt "Run krunner restricting the search only to runner %1"
+msgid "Run Command (runner \"%1\" only)"
+msgstr ""
+
+#: ksystemactivitydialog.cpp:40
+msgid "System Activity"
+msgstr ""
 
 #: lock/autologout.cc:38
 msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
@@ -194,6 +224,22 @@ msgstr ""
 msgid "Start &New Session"
 msgstr ""
 
+#: lock/lockprocess.cc:834
+msgid "Will not lock the session, as unlocking would be impossible:\n"
+msgstr ""
+
+#: lock/lockprocess.cc:838
+msgid "Cannot start <i>kcheckpass</i>."
+msgstr ""
+
+#: lock/lockprocess.cc:839
+msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
+msgstr ""
+
+#: lock/lockprocess.cc:902
+msgid "No appropriate greeter plugin configured."
+msgstr ""
+
 #: lock/main.cc:61
 msgid "KDE Screen Locker"
 msgstr ""
@@ -226,26 +272,6 @@ msgstr ""
 msgid "Fork into the background after starting up"
 msgstr ""
 
-#: lock/lockprocess.cc:834
-msgid "Will not lock the session, as unlocking would be impossible:\n"
-msgstr ""
-
-#: lock/lockprocess.cc:838
-msgid "Cannot start <i>kcheckpass</i>."
-msgstr ""
-
-#: lock/lockprocess.cc:839
-msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
-msgstr ""
-
-#: lock/lockprocess.cc:902
-msgid "No appropriate greeter plugin configured."
-msgstr ""
-
-#: ksystemactivitydialog.cpp:40
-msgid "System Activity"
-msgstr ""
-
 #: main.cpp:38
 msgid "KDE run command interface"
 msgstr ""
@@ -265,32 +291,6 @@ msgstr "ఆరన్ జె. సీగొ"
 #: main.cpp:54
 msgid "Author and maintainer"
 msgstr "మూలకర్త మరయు సంరక్షకుడు"
-
-#: krunnerapp.cpp:128 krunnerdialog.cpp:73
-msgid "Run Command"
-msgstr ""
-
-#: krunnerapp.cpp:133
-msgid "Run Command on clipboard contents"
-msgstr ""
-
-#: krunnerapp.cpp:139
-msgid "Show System Activity"
-msgstr ""
-
-#: krunnerapp.cpp:145
-msgid "Switch User"
-msgstr ""
-
-#: krunnerapp.cpp:155
-msgid "Lock Session"
-msgstr ""
-
-#: krunnerapp.cpp:195
-#, kde-format
-msgctxt "Run krunner restricting the search only to runner %1"
-msgid "Run Command (runner \"%1\" only)"
-msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
