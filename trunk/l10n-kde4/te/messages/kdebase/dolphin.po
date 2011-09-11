@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-10 03:05+0200\n"
+"POT-Creation-Date: 2011-09-11 03:38+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -541,14 +541,6 @@ msgctxt "@item:intable"
 msgid "items"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:743
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "Documentation"
-msgctxt "@item:intable"
-msgid "No destination"
-msgstr "పత్రికీకరణ"
-
 #: kitemviews/kfileitemlistwidget.cpp:673
 #, fuzzy, kde-format
 #| msgctxt "@info"
@@ -559,6 +551,14 @@ msgid "%1 item"
 msgid_plural "%1 items"
 msgstr[0] "%1 అంశము యెంపికకాబడింది"
 msgstr[1] "%1 అంశము యెంపికకాబడింది"
+
+#: kitemviews/kfileitemmodel.cpp:749
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "Documentation"
+msgctxt "@item:intable"
+msgid "No destination"
+msgstr "పత్రికీకరణ"
 
 #: main.cpp:35
 msgctxt "@title"
@@ -1772,7 +1772,7 @@ msgctxt "@info"
 msgid "# will be replaced by ascending numbers starting with:"
 msgstr "(# ఆరోహణ సంఖ్యలచేత పునఃస్థాపించబడుతుంది)"
 
-#: views/versioncontrol/versioncontrolobserver.cpp:187
+#: views/versioncontrol/versioncontrolobserver.cpp:204
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Additional information"
@@ -1780,7 +1780,7 @@ msgctxt "@info:status"
 msgid "Update of version information failed."
 msgstr "అదనపు సమాచారము"
 
-#: views/versioncontrol/versioncontrolobserver.cpp:243
+#: views/versioncontrol/versioncontrolobserver.cpp:260
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Additional information"
