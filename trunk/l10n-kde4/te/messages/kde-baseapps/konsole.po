@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-16 03:42+0200\n"
+"POT-Creation-Date: 2011-09-20 05:12+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -647,7 +647,7 @@ msgstr ""
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా నిష్క్రమించుదామని అనుకొనుచున్నారా?"
 
-#: MainWindow.cpp:404 SessionController.cpp:636
+#: MainWindow.cpp:404 SessionController.cpp:642
 msgid "Confirm Close"
 msgstr "ముసివేత నిర్ధారించు"
 
@@ -1629,13 +1629,13 @@ msgstr "(&c) స్క్రోల్‌బ్యాక్"
 
 #. i18n: file: ../desktop/partui.rc:26
 #. i18n: ectx: Menu (change-profile)
-#. i18n: file: ../desktop/sessionui.rc:60
+#. i18n: file: ../desktop/sessionui.rc:62
 #. i18n: ectx: Menu (change-profile)
 #: rc.cpp:461 rc.cpp:470
 msgid "&Change Profile"
 msgstr "(&C) ప్రొఫైల్ మార్చుము"
 
-#. i18n: file: ../desktop/sessionui.rc:15
+#. i18n: file: ../desktop/sessionui.rc:17
 #. i18n: ectx: Menu (edit-copy-input-to)
 #: rc.cpp:464
 #, fuzzy
@@ -1643,7 +1643,7 @@ msgstr "(&C) ప్రొఫైల్ మార్చుము"
 msgid "Copy Input To"
 msgstr "ఇన్పుట్ యిచటకు నకలుతీయి..."
 
-#. i18n: file: ../desktop/sessionui.rc:41
+#. i18n: file: ../desktop/sessionui.rc:43
 #. i18n: ectx: Menu (debug)
 #: rc.cpp:467
 msgid "Debug"
@@ -1705,105 +1705,111 @@ msgstr "డిఈసి విటి420 టెర్మినల్"
 msgid "Konsole does not know how to open the bookmark: "
 msgstr ""
 
-#: SessionController.cpp:426
+#: SessionController.cpp:428
 msgid "&Close Tab"
 msgstr "(&C) టాబ్ ను మూసివెయి"
 
-#: SessionController.cpp:431
+#: SessionController.cpp:433
 msgid "Open File Manager"
 msgstr ""
 
-#: SessionController.cpp:447
+#: SessionController.cpp:449
+#, fuzzy
+#| msgid "Select All"
+msgid "&Select All"
+msgstr "అన్నిటిని ఎంపికచేయుము"
+
+#: SessionController.cpp:453
 msgid "Paste Selection"
 msgstr "ఎంచుకొన్న దానిని అతికించు"
 
-#: SessionController.cpp:452
+#: SessionController.cpp:458
 msgid "&Rename Tab..."
 msgstr "(&R) టాబ్‌కు మరలాపేరు..."
 
-#: SessionController.cpp:457
+#: SessionController.cpp:463
 msgid "&All Tabs in Current Window"
 msgstr ""
 
-#: SessionController.cpp:463
+#: SessionController.cpp:469
 #, fuzzy
 #| msgid "&Rename Tab..."
 msgid "&Select Tabs..."
 msgstr "(&R) టాబ్‌కు మరలాపేరు..."
 
-#: SessionController.cpp:468
+#: SessionController.cpp:474
 msgctxt "@action:inmenu Do not select any tabs"
 msgid "&None"
 msgstr ""
 
-#: SessionController.cpp:474
+#: SessionController.cpp:480
 msgid "&ZModem Upload..."
 msgstr ""
 
-#: SessionController.cpp:479
+#: SessionController.cpp:485
 msgid "Monitor for &Activity"
 msgstr "(&A) క్రియాశీలత కొరకు మానిటర్"
 
-#: SessionController.cpp:484
+#: SessionController.cpp:490
 msgid "Monitor for &Silence"
 msgstr "(&S) నిశ్శబ్ధము కొరకు మానిటర్"
 
-#: SessionController.cpp:490
+#: SessionController.cpp:496
 #, fuzzy
 #| msgid "Encoding"
 msgid "Set &Encoding"
 msgstr "ఎన్కోడింగ్"
 
-#: SessionController.cpp:498
+#: SessionController.cpp:504
 msgid "Enlarge Font"
 msgstr ""
 
-#: SessionController.cpp:503
+#: SessionController.cpp:509
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Shrink View"
 msgid "Shrink Font"
 msgstr "వీక్షణం కుదించుము"
 
-#: SessionController.cpp:521
+#: SessionController.cpp:527
 #, fuzzy
 #| msgid "Save Output..."
 msgid "Save Output &As..."
 msgstr "అవుట్పుట్ భద్రపరచుము..."
 
-#: SessionController.cpp:524
+#: SessionController.cpp:530
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Scrollback..."
 msgstr "ప్రొఫైల్సును నిర్వహించుము..."
 
-#: SessionController.cpp:528
+#: SessionController.cpp:534
 msgid "Clear Scrollback"
 msgstr "స్క్రాల్‌బ్యాక్‌ను శుభ్రముచేయి"
 
-#: SessionController.cpp:532
+#: SessionController.cpp:538
 #, fuzzy
 #| msgid "Clear Scrollback && Reset"
 msgid "Clear Scrollback and Reset"
 msgstr "స్క్రాల్‌బ్యాక్‌ను శుభ్రముచేయి && తిరిగివుంచుము"
 
-#: SessionController.cpp:538
+#: SessionController.cpp:544
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Current Profile..."
 msgstr "ప్రొఫైల్సును నిర్వహించుము..."
 
-#: SessionController.cpp:541
+#: SessionController.cpp:547
 msgid "Change Profile"
 msgstr "ప్రొఫైలును మార్చుము"
 
-#: SessionController.cpp:630
+#: SessionController.cpp:636
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "ఈ సెషన్‌నందు వొక పోగ్రామ్ యిప్పటికే నుడుస్తోంది.  మీరు దానిని ఖచ్చితంగా మూసివేద్దామని అనుకొంటున్నారా?"
 
-#: SessionController.cpp:633
+#: SessionController.cpp:639
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -1811,43 +1817,43 @@ msgid ""
 msgstr ""
 "పొగ్రామ్ '%1' ప్రస్తుతం ఈ సెషన్‌నందు నడుస్తోంది.  మీరు ఖచ్చితంగా దీనిని మూసివేద్దామని అనుకొంటున్నారా?"
 
-#: SessionController.cpp:1225
+#: SessionController.cpp:1236
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1234
+#: SessionController.cpp:1245
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1246
+#: SessionController.cpp:1257
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1255
+#: SessionController.cpp:1266
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1261
+#: SessionController.cpp:1272
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1333
+#: SessionController.cpp:1344
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1నుండి అవుట్పుట్‌ను భద్రపరచుము"
 
-#: SessionController.cpp:1344
+#: SessionController.cpp:1355
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 చెల్లని URL, అవుట్పుట్ భద్రపరచబడలేదు."
 
-#: SessionController.cpp:1433
+#: SessionController.cpp:1444
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
