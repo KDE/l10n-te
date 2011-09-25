@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-22 03:38+0200\n"
+"POT-Creation-Date: 2011-09-25 03:56+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -619,39 +619,39 @@ msgstr "లార్స్ క్నొల్"
 msgid "Thanks to many others.\n"
 msgstr "ఇంకా చాలామందికి కృతజ్ఞతలు.\n"
 
-#: MainWindow.cpp:252
+#: MainWindow.cpp:254
 #, fuzzy
 #| msgid "New &Tab"
 msgid "&New Tab"
 msgstr "(&T) కొత్త టాబ్"
 
-#: MainWindow.cpp:261
+#: MainWindow.cpp:263
 msgid "New &Window"
 msgstr "(&W) కొత్త విండొ"
 
-#: MainWindow.cpp:272
+#: MainWindow.cpp:274
 msgid "&Bookmarks"
 msgstr "(&B) పేజీ గుర్తులు"
 
-#: MainWindow.cpp:299 Part.cpp:101
+#: MainWindow.cpp:297 Part.cpp:101
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Profiles..."
 msgstr "ప్రొఫైల్సును నిర్వహించుము..."
 
-#: MainWindow.cpp:305
+#: MainWindow.cpp:303
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:402
+#: MainWindow.cpp:420
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా నిష్క్రమించుదామని అనుకొనుచున్నారా?"
 
-#: MainWindow.cpp:404 SessionController.cpp:642
+#: MainWindow.cpp:422 SessionController.cpp:642
 msgid "Confirm Close"
 msgstr "ముసివేత నిర్ధారించు"
 
-#: MainWindow.cpp:406
+#: MainWindow.cpp:424
 msgid "Close Current Tab"
 msgstr "ప్రస్తుత టాబ్ మూసివేయి"
 
@@ -1628,12 +1628,14 @@ msgid "S&crollback"
 msgstr "(&c) స్క్రోల్‌బ్యాక్"
 
 #. i18n: file: ../desktop/partui.rc:26
-#. i18n: ectx: Menu (change-profile)
-#. i18n: file: ../desktop/sessionui.rc:62
-#. i18n: ectx: Menu (change-profile)
+#. i18n: ectx: Menu (switch-profile)
+#. i18n: file: ../desktop/sessionui.rc:63
+#. i18n: ectx: Menu (switch-profile)
 #: rc.cpp:461 rc.cpp:470
-msgid "&Change Profile"
-msgstr "(&C) ప్రొఫైల్ మార్చుము"
+#, fuzzy
+#| msgid "Edit Profile"
+msgid "&Switch Profile"
+msgstr "ప్రొఫైల్ సరికూర్చు"
 
 #. i18n: file: ../desktop/sessionui.rc:17
 #. i18n: ectx: Menu (edit-copy-input-to)
@@ -1643,7 +1645,7 @@ msgstr "(&C) ప్రొఫైల్ మార్చుము"
 msgid "Copy Input To"
 msgstr "ఇన్పుట్ యిచటకు నకలుతీయి..."
 
-#. i18n: file: ../desktop/sessionui.rc:43
+#. i18n: file: ../desktop/sessionui.rc:44
 #. i18n: ectx: Menu (debug)
 #: rc.cpp:467
 msgid "Debug"
@@ -1800,8 +1802,10 @@ msgid "Configure Current Profile..."
 msgstr "ప్రొఫైల్సును నిర్వహించుము..."
 
 #: SessionController.cpp:547
-msgid "Change Profile"
-msgstr "ప్రొఫైలును మార్చుము"
+#, fuzzy
+#| msgid "Edit Profile"
+msgid "Switch Profile"
+msgstr "ప్రొఫైల్ సరికూర్చు"
 
 #: SessionController.cpp:636
 msgid ""
@@ -2011,21 +2015,21 @@ msgstr ""
 "<qt>అవుట్పుట్ Ctrl+S వత్తుట ద్వారా <a href=\"http://en.wikipedia.org/wiki/"
 "Flow_control\">suspended</a> అయింది.  తిరిగికొనసాగించుటకు <b>Ctrl+Q</b> వత్తుము.</qt>"
 
-#: ViewContainer.cpp:494
+#: ViewContainer.cpp:499
 #, fuzzy
 #| msgid "&Detach View"
 msgctxt "@action:inmenu"
 msgid "&Detach Tab"
 msgstr "(&D) వీక్షణం వేరుచేయి"
 
-#: ViewContainer.cpp:498
+#: ViewContainer.cpp:503
 #, fuzzy
 #| msgid "&Rename Tab..."
 msgctxt "@action:inmenu"
 msgid "&Rename Tab..."
 msgstr "(&R) టాబ్‌కు మరలాపేరు..."
 
-#: ViewContainer.cpp:502
+#: ViewContainer.cpp:507
 #, fuzzy
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
@@ -2045,58 +2049,64 @@ msgid "Previous Tab"
 msgstr "ముందు"
 
 #: ViewManager.cpp:140
+#, fuzzy
+#| msgid "Switch to Tab %1"
+msgid "Switch to Last Tab"
+msgstr "టాబ్ %1కు మారుము"
+
+#: ViewManager.cpp:141
 msgid "Next View Container"
 msgstr "తరువాతి వీక్షణం కలిగివున్నది"
 
-#: ViewManager.cpp:142
+#: ViewManager.cpp:143
 #, fuzzy
 #| msgid "Move View Left"
 msgid "Move Tab Left"
 msgstr "వీక్షణం ఎడమకు కదుపుము"
 
-#: ViewManager.cpp:143
+#: ViewManager.cpp:144
 #, fuzzy
 #| msgid "Move View Right"
 msgid "Move Tab Right"
 msgstr "వీక్షణం కుడికు కదుపుము"
 
-#: ViewManager.cpp:153
+#: ViewManager.cpp:154
 msgctxt "@action:inmenu"
 msgid "Split View Left/Right"
 msgstr "వీక్షణం ఎడమ/కుడికు విభజించుము"
 
-#: ViewManager.cpp:160
+#: ViewManager.cpp:161
 msgctxt "@action:inmenu"
 msgid "Split View Top/Bottom"
 msgstr "వీక్షణం పైనకు/క్రిందకు విభజించుము"
 
-#: ViewManager.cpp:165
+#: ViewManager.cpp:166
 msgctxt "@action:inmenu Close Active View"
 msgid "Close Active"
 msgstr "క్రియాశీలమైంది మూయుము"
 
-#: ViewManager.cpp:174
+#: ViewManager.cpp:175
 msgctxt "@action:inmenu Close Other Views"
 msgid "Close Others"
 msgstr "ఇతరులను మూసివేయి"
 
-#: ViewManager.cpp:184
+#: ViewManager.cpp:185
 #, fuzzy
 #| msgid "Close Current Tab"
 msgid "D&etach Current Tab"
 msgstr "ప్రస్తుత టాబ్ మూసివేయి"
 
-#: ViewManager.cpp:193
+#: ViewManager.cpp:194
 msgctxt "@action:inmenu"
 msgid "Expand View"
 msgstr "వీక్షణం విస్తరించుము"
 
-#: ViewManager.cpp:200
+#: ViewManager.cpp:201
 msgctxt "@action:inmenu"
 msgid "Shrink View"
 msgstr "వీక్షణం కుదించుము"
 
-#: ViewManager.cpp:220
+#: ViewManager.cpp:222
 #, kde-format
 msgid "Switch to Tab %1"
 msgstr "టాబ్ %1కు మారుము"
@@ -2112,6 +2122,12 @@ msgstr ""
 #: ZModemDialog.cpp:35
 msgid "&Stop"
 msgstr "(&S) ఆపు"
+
+#~ msgid "&Change Profile"
+#~ msgstr "(&C) ప్రొఫైల్ మార్చుము"
+
+#~ msgid "Change Profile"
+#~ msgstr "ప్రొఫైలును మార్చుము"
 
 #~ msgid "Maintainer"
 #~ msgstr "సంరక్షకుడు"
