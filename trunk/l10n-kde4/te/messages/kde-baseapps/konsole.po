@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-04 04:23+0200\n"
+"POT-Creation-Date: 2011-10-05 03:48+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -156,6 +156,7 @@ msgstr ""
 "కలిగివున్నట్లు లేదు."
 
 #: ColorSchemeEditor.cpp:144
+msgctxt "@action:button"
 msgid "Select wallpaper image file"
 msgstr ""
 
@@ -2087,34 +2088,42 @@ msgstr "(&C) టాబ్ ను మూసివెయి"
 #: ViewManager.cpp:137
 #, fuzzy
 #| msgid "New &Tab"
+msgctxt "@action Shortcut entry"
 msgid "Next Tab"
 msgstr "(&T) కొత్త టాబ్"
 
 #: ViewManager.cpp:138
 #, fuzzy
 #| msgid "Previous"
+msgctxt "@action Shortcut entry"
 msgid "Previous Tab"
 msgstr "ముందు"
 
 #: ViewManager.cpp:139
 #, fuzzy
 #| msgid "Switch to Tab %1"
+msgctxt "@action Shortcut entry"
 msgid "Switch to Last Tab"
 msgstr "టాబ్ %1కు మారుము"
 
 #: ViewManager.cpp:140
+#, fuzzy
+#| msgid "Next View Container"
+msgctxt "@action Shortcut entry"
 msgid "Next View Container"
 msgstr "తరువాతి వీక్షణం కలిగివున్నది"
 
 #: ViewManager.cpp:142
 #, fuzzy
 #| msgid "Move View Left"
+msgctxt "@action Shortcut entry"
 msgid "Move Tab Left"
 msgstr "వీక్షణం ఎడమకు కదుపుము"
 
 #: ViewManager.cpp:143
 #, fuzzy
 #| msgid "Move View Right"
+msgctxt "@action Shortcut entry"
 msgid "Move Tab Right"
 msgstr "వీక్షణం కుడికు కదుపుము"
 
@@ -2141,6 +2150,7 @@ msgstr "ఇతరులను మూసివేయి"
 #: ViewManager.cpp:184
 #, fuzzy
 #| msgid "Close Current Tab"
+msgctxt "@action:inmenu"
 msgid "D&etach Current Tab"
 msgstr "ప్రస్తుత టాబ్ మూసివేయి"
 
@@ -2155,7 +2165,9 @@ msgid "Shrink View"
 msgstr "వీక్షణం కుదించుము"
 
 #: ViewManager.cpp:221
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Switch to Tab %1"
+msgctxt "@action Shortcut entry"
 msgid "Switch to Tab %1"
 msgstr "టాబ్ %1కు మారుము"
 
