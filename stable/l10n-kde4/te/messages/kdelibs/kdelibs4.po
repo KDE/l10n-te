@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-26 11:12+0200\n"
+"POT-Creation-Date: 2011-10-08 11:49+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -6638,7 +6638,7 @@ msgid "Warning"
 msgstr "హెచ్చరిక"
 
 #: kdeui/dialogs/kmessagebox.cpp:841 kdeui/dialogs/kmessagebox.cpp:871
-#: khtml/rendering/render_form.cpp:814 kjs/object.cpp:553
+#: khtml/rendering/render_form.cpp:813 kjs/object.cpp:553
 #: knewstuff/knewstuff3/uploaddialog.cpp:528
 msgid "Error"
 msgstr "దోషం"
@@ -9626,7 +9626,7 @@ msgstr "(&A) %1 గురించి"
 msgid "About &KDE"
 msgstr "(&K) కెడిఈ గురించి"
 
-#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:937
+#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:936
 msgid "Clear &History"
 msgstr "(&H) చరిత్రను చెరపివేయి"
 
@@ -11197,29 +11197,29 @@ msgstr "విండొ మూసివేయవచ్చునా?"
 msgid "Confirmation Required"
 msgstr "అనుమతి కావాలి"
 
-#: khtml/ecma/kjs_window.cpp:2875
+#: khtml/ecma/kjs_window.cpp:2874
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2878
+#: khtml/ecma/kjs_window.cpp:2877
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2886
+#: khtml/ecma/kjs_window.cpp:2885
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "జావాస్క్రిప్ట్ పేజి గుర్తు చేర్చుట ప్రయత్నించినది"
 
-#: khtml/ecma/kjs_window.cpp:2890
+#: khtml/ecma/kjs_window.cpp:2889
 msgid "Insert"
 msgstr "చేర్చు"
 
-#: khtml/ecma/kjs_window.cpp:2890
+#: khtml/ecma/kjs_window.cpp:2889
 msgid "Disallow"
 msgstr "నిషెధించు"
 
@@ -11428,6 +11428,30 @@ msgstr "అప్లెట్ \"%1\" మొదలుపెట్టబడిన�
 msgid "Applet \"%1\" stopped"
 msgstr "అప్లెట్ \"%1\" ఆపివేయబడినది"
 
+#: khtml/java/kjavaappletviewer.cpp:129
+msgid "Applet Parameters"
+msgstr "అప్లెట్ పెరామీటర్లు"
+
+#: khtml/java/kjavaappletviewer.cpp:139
+msgid "Parameter"
+msgstr "పెరామీటరు"
+
+#: khtml/java/kjavaappletviewer.cpp:143
+msgid "Class"
+msgstr "క్లాసు"
+
+#: khtml/java/kjavaappletviewer.cpp:149
+msgid "Base URL"
+msgstr "మూల యూఆర్ఎల్"
+
+#: khtml/java/kjavaappletviewer.cpp:155
+msgid "Archives"
+msgstr "ఆర్కైవ్లు"
+
+#: khtml/java/kjavaappletviewer.cpp:475
+msgid "KDE Java Applet Plugin"
+msgstr "కెడిఈ జావా ఎపలెట్ ప్లగిన్"
+
 #: khtml/java/kjavaappletserver.cpp:146
 msgid "Loading Applet"
 msgstr "అప్లెట్ ను ఎక్కిస్తున్నా"
@@ -11462,30 +11486,6 @@ msgstr "(&R) అన్ని తిరస్కరించు"
 msgid "&Grant All"
 msgstr "(&G) అన్నిఅనుమతించు"
 
-#: khtml/java/kjavaappletviewer.cpp:129
-msgid "Applet Parameters"
-msgstr "అప్లెట్ పెరామీటర్లు"
-
-#: khtml/java/kjavaappletviewer.cpp:139
-msgid "Parameter"
-msgstr "పెరామీటరు"
-
-#: khtml/java/kjavaappletviewer.cpp:143
-msgid "Class"
-msgstr "క్లాసు"
-
-#: khtml/java/kjavaappletviewer.cpp:149
-msgid "Base URL"
-msgstr "మూల యూఆర్ఎల్"
-
-#: khtml/java/kjavaappletviewer.cpp:155
-msgid "Archives"
-msgstr "ఆర్కైవ్లు"
-
-#: khtml/java/kjavaappletviewer.cpp:475
-msgid "KDE Java Applet Plugin"
-msgstr "కెడిఈ జావా ఎపలెట్ ప్లగిన్"
-
 #: khtml/kmultipart/kmultipart.cpp:41
 msgid "KMultiPart"
 msgstr "కెమల్టీపార్ట్"
@@ -11507,28 +11507,28 @@ msgstr "%1 కొరకు హెండ్లర్ కనపడలేదు."
 msgid "Play"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:793
+#: khtml/rendering/render_form.cpp:792
 msgid "New Web Shortcut"
 msgstr "కొత్త వెబ్ శీఘ్ర మార్గము"
 
-#: khtml/rendering/render_form.cpp:814
+#: khtml/rendering/render_form.cpp:813
 #, kde-format
 msgid "%1 is already assigned to %2"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:859
+#: khtml/rendering/render_form.cpp:858
 msgid "Search &provider name:"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:861
+#: khtml/rendering/render_form.cpp:860
 msgid "New search provider"
 msgstr "కొత్త శోధన వుత్పాదకి"
 
-#: khtml/rendering/render_form.cpp:866
+#: khtml/rendering/render_form.cpp:865
 msgid "UR&I shortcuts:"
 msgstr "UR&I శీఘ్రమార్గాలు:"
 
-#: khtml/rendering/render_form.cpp:952
+#: khtml/rendering/render_form.cpp:951
 msgid "Create Web Shortcut"
 msgstr "వెబ్ శీశీఘ్రమార్గాలనసృష్టించండిడి"
 
