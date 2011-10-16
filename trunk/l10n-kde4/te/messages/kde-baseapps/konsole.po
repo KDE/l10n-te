@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-15 03:49+0200\n"
+"POT-Creation-Date: 2011-10-16 03:45+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -2044,24 +2044,24 @@ msgstr "%1 సెషన్ లో గంట"
 msgid "Activity in session '%1'"
 msgstr "సెషన్ '%1'నందు క్రియాశీలత"
 
-#: Session.cpp:817
+#: Session.cpp:829
 #, fuzzy
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "ముగిసింది"
 
-#: Session.cpp:826
-#, kde-format
-msgid "Program '%1' exited with status %2."
-msgstr "ప్రోగ్రామ్ '%1' స్థితి %2తో నిష్క్రమించినది."
-
-#: Session.cpp:828
+#: Session.cpp:845 Session.cpp:858
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "ప్రోగ్రామ్ '%1' క్రాష్ అయినది."
 
-#: Session.cpp:1167
+#: Session.cpp:847
+#, kde-format
+msgid "Program '%1' exited with status %2."
+msgstr "ప్రోగ్రామ్ '%1' స్థితి %2తో నిష్క్రమించినది."
+
+#: Session.cpp:1192
 msgid "ZModem Progress"
 msgstr "ZModem పురోగతి"
 
