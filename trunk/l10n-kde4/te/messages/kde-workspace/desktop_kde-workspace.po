@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-02 02:57+0000\n"
+"POT-Creation-Date: 2011-10-18 06:22+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -5861,37 +5861,53 @@ msgctxt "Comment"
 msgid "Battery, Display and CPU power management and notification"
 msgstr ""
 
-#: powerdevil/kcmodule/global/powerdevilglobalconfig.desktop:13
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Color settings"
-msgctxt "Name"
-msgid "Global settings"
-msgstr "రంగుల అమరికలు"
-
-#: powerdevil/kcmodule/global/powerdevilglobalconfig.desktop:67
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure file manager settings"
-msgctxt "Comment"
-msgid "Configure global Power Management settings"
-msgstr "దస్త్ర నిర్వాహకి అమర్పులను ఆకృతీకరించుము"
-
-#: powerdevil/kcmodule/profiles/powerdevilprofilesconfig.desktop:13
+#: powerdevil/kcmodule/activities/powerdevilactivitiesconfig.desktop:14
 #, fuzzy
 #| msgctxt "Name"
-#| msgid "Power Control"
+#| msgid "Activity Bar"
 msgctxt "Name"
-msgid "Power Profiles"
-msgstr "విద్యుత్ నియంత్రణ"
+msgid "Activity settings"
+msgstr "క్రియాశీలత పట్టీ"
 
-#: powerdevil/kcmodule/profiles/powerdevilprofilesconfig.desktop:66
+#: powerdevil/kcmodule/activities/powerdevilactivitiesconfig.desktop:16
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
 msgctxt "Comment"
-msgid "Configure Power Management Profiles"
+msgid "Configure per-activity Power Management settings"
 msgstr "దస్త్ర నిర్వాహకి అమర్పులను ఆకృతీకరించుము"
+
+#: powerdevil/kcmodule/global/powerdevilglobalconfig.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Advanced User Settings"
+msgctxt "Name"
+msgid "Advanced settings"
+msgstr "అధునాతన వినియోగదారి అమర్పులు"
+
+#: powerdevil/kcmodule/global/powerdevilglobalconfig.desktop:16
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure file manager settings"
+msgctxt "Comment"
+msgid "Configure advanced Power Management settings"
+msgstr "దస్త్ర నిర్వాహకి అమర్పులను ఆకృతీకరించుము"
+
+#: powerdevil/kcmodule/profiles/powerdevilprofilesconfig.desktop:14
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Screen Saver Settings"
+msgctxt "Name"
+msgid "Energy Saving Settings"
+msgstr "స్క్రీన్ సేవర్ అమరికలు"
+
+#: powerdevil/kcmodule/profiles/powerdevilprofilesconfig.desktop:16
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure Hotkey settings"
+msgctxt "Comment"
+msgid "Configure Energy Saving Settings"
+msgstr "హాట్‌కీల అమరికలను ఆకృతీకరించుము."
 
 #: powerdevil/powerdevil.notifyrc:2
 #, fuzzy
@@ -6799,6 +6815,27 @@ msgstr "ఫాంట్ వీక్షణి"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Color settings"
+#~ msgctxt "Name"
+#~ msgid "Global settings"
+#~ msgstr "రంగుల అమరికలు"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Power Control"
+#~ msgctxt "Name"
+#~ msgid "Power Profiles"
+#~ msgstr "విద్యుత్ నియంత్రణ"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure file manager settings"
+#~ msgctxt "Comment"
+#~ msgid "Configure Power Management Profiles"
+#~ msgstr "దస్త్ర నిర్వాహకి అమర్పులను ఆకృతీకరించుము"
 
 #, fuzzy
 #~| msgctxt "Name"
@@ -8380,13 +8417,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "This service allows configuration of the trash."
 #~ msgstr "డాల్ఫిన్ వీక్షణిల యొక్క ఆకృతీకరణను ఈ సేవ అనుమతిస్తుంది."
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure Hotkey settings"
-#~ msgctxt "Comment"
-#~ msgid "Configure trash settings"
-#~ msgstr "హాట్‌కీల అమరికలను ఆకృతీకరించుము."
 
 #~ msgctxt "ExtraNames"
 #~ msgid "Original Path,Deletion Date"
@@ -12701,10 +12731,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "About Me"
 #~ msgstr "నా గురించి"
-
-#~ msgctxt "Name"
-#~ msgid "Advanced User Settings"
-#~ msgstr "అధునాతన వినియోగదారి అమర్పులు"
 
 #~ msgctxt "Name"
 #~ msgid "Computer Administration"
