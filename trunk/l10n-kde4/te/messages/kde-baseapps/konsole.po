@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-25 04:01+0200\n"
+"POT-Creation-Date: 2011-10-26 04:18+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -346,33 +346,35 @@ msgstr "ఈ మెయిల్ పంపు ..."
 msgid "Copy Email Address"
 msgstr "ఈ మెయిల్ చిరునామాను నకలుచెయి"
 
-#: HistorySizeDialog.cpp:51
-msgid "Scrollback Options"
-msgstr "స్క్రాల్‌బ్యాక్ ఐచ్చికాలు"
+#: HistorySizeDialog.cpp:49
+#, fuzzy
+#| msgid "Scrollback"
+msgid "Adjust Scrollback"
+msgstr "స్క్రోల్‌బ్యాక్"
 
-#: HistorySizeDialog.cpp:62
+#: HistorySizeDialog.cpp:60
 msgid "No scrollback"
 msgstr "స్క్రాల్‌బ్యాక్ లేదు"
 
-#: HistorySizeDialog.cpp:63
+#: HistorySizeDialog.cpp:61
 msgid "Fixed size scrollback: "
 msgstr "నిర్ధారిత పరమాణపు స్క్రాల్‌బ్యాక్: "
 
 #. i18n: file: EditProfileDialog.ui:757
 #. i18n: ectx: property (text), widget (QRadioButton, unlimitedScrollbackButton)
-#: HistorySizeDialog.cpp:64 rc.cpp:236
+#: HistorySizeDialog.cpp:62 rc.cpp:236
 msgid "Unlimited scrollback"
 msgstr "పరిమితిలేని స్క్రాల్‌బ్యాక్"
 
-#: HistorySizeDialog.cpp:88
+#: HistorySizeDialog.cpp:86
 msgid "lines"
 msgstr "వరుసలు"
 
-#: HistorySizeDialog.cpp:95
-#, fuzzy
-#| msgid "Edit Current Profile..."
-msgid "Save to current profile"
-msgstr "ప్రస్తుత ప్రొఫైలును సరికూర్చు..."
+#: HistorySizeDialog.cpp:93
+msgid ""
+"<span style=\"color:gray;\"><center><bold>The adjustment is only temporary.</"
+"bold></center></span>"
+msgstr ""
 
 #: IncrementalSearchBar.cpp:52
 msgid "Close the search bar"
@@ -722,7 +724,7 @@ msgstr ""
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా నిష్క్రమించుదామని అనుకొనుచున్నారా?"
 
-#: MainWindow.cpp:422 SessionController.cpp:638 SessionController.cpp:664
+#: MainWindow.cpp:422 SessionController.cpp:639 SessionController.cpp:665
 msgid "Confirm Close"
 msgstr "ముసివేత నిర్ధారించు"
 
@@ -1699,9 +1701,61 @@ msgstr "ఎంపికచేసిన ప్రొఫైలు కొత్త 
 msgid "&Set as Default"
 msgstr "అప్రమేయం చెయి"
 
+#. i18n: file: ../desktop/konsoleui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:458
+msgid "File"
+msgstr "ఫైలు"
+
+#. i18n: file: ../desktop/konsoleui.rc:14
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:461
+msgid "Edit"
+msgstr "సరికూర్చు"
+
+#. i18n: file: ../desktop/konsoleui.rc:17
+#. i18n: ectx: Menu (view)
+#: rc.cpp:464
+msgid "View"
+msgstr "వీక్షణం"
+
+#. i18n: file: ../desktop/konsoleui.rc:18
+#. i18n: ectx: Menu (view-split)
+#: rc.cpp:467
+msgid "Split View"
+msgstr "వీక్షణం విభజించు"
+
+#. i18n: file: ../desktop/konsoleui.rc:33
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:470
+msgid "Settings"
+msgstr "అమరికలు"
+
+#. i18n: file: ../desktop/konsoleui.rc:44
+#. i18n: ectx: Menu (help)
+#: rc.cpp:473
+msgid "Help"
+msgstr "సహాయం"
+
+#. i18n: file: ../desktop/partui.rc:7
+#. i18n: ectx: Menu (history)
+#: rc.cpp:476
+msgid "S&crollback"
+msgstr "(&c) స్క్రోల్‌బ్యాక్"
+
+#. i18n: file: ../desktop/partui.rc:23
+#. i18n: ectx: Menu (switch-profile)
+#. i18n: file: ../desktop/sessionui.rc:63
+#. i18n: ectx: Menu (switch-profile)
+#: rc.cpp:479 rc.cpp:488
+#, fuzzy
+#| msgid "Edit Profile"
+msgid "&Switch Profile"
+msgstr "ప్రొఫైల్ సరికూర్చు"
+
 #. i18n: file: ../desktop/sessionui.rc:17
 #. i18n: ectx: Menu (edit-copy-input-to)
-#: rc.cpp:458
+#: rc.cpp:482
 #, fuzzy
 #| msgid "Copy Input To..."
 msgid "Copy Input To"
@@ -1709,61 +1763,9 @@ msgstr "ఇన్పుట్ యిచటకు నకలుతీయి..."
 
 #. i18n: file: ../desktop/sessionui.rc:44
 #. i18n: ectx: Menu (debug)
-#: rc.cpp:461
+#: rc.cpp:485
 msgid "Debug"
 msgstr "డీబగ్"
-
-#. i18n: file: ../desktop/sessionui.rc:63
-#. i18n: ectx: Menu (switch-profile)
-#. i18n: file: ../desktop/partui.rc:23
-#. i18n: ectx: Menu (switch-profile)
-#: rc.cpp:464 rc.cpp:488
-#, fuzzy
-#| msgid "Edit Profile"
-msgid "&Switch Profile"
-msgstr "ప్రొఫైల్ సరికూర్చు"
-
-#. i18n: file: ../desktop/konsoleui.rc:5
-#. i18n: ectx: Menu (file)
-#: rc.cpp:467
-msgid "File"
-msgstr "ఫైలు"
-
-#. i18n: file: ../desktop/konsoleui.rc:14
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:470
-msgid "Edit"
-msgstr "సరికూర్చు"
-
-#. i18n: file: ../desktop/konsoleui.rc:17
-#. i18n: ectx: Menu (view)
-#: rc.cpp:473
-msgid "View"
-msgstr "వీక్షణం"
-
-#. i18n: file: ../desktop/konsoleui.rc:18
-#. i18n: ectx: Menu (view-split)
-#: rc.cpp:476
-msgid "Split View"
-msgstr "వీక్షణం విభజించు"
-
-#. i18n: file: ../desktop/konsoleui.rc:33
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:479
-msgid "Settings"
-msgstr "అమరికలు"
-
-#. i18n: file: ../desktop/konsoleui.rc:44
-#. i18n: ectx: Menu (help)
-#: rc.cpp:482
-msgid "Help"
-msgstr "సహాయం"
-
-#. i18n: file: ../desktop/partui.rc:7
-#. i18n: ectx: Menu (history)
-#: rc.cpp:485
-msgid "S&crollback"
-msgstr "(&c) స్క్రోల్‌బ్యాక్"
 
 #: RenameTabsDialog.cpp:32
 msgid "Rename Tab"
@@ -1896,38 +1898,38 @@ msgstr "అవుట్పుట్ భద్రపరచుము..."
 #: SessionController.cpp:532
 #, fuzzy
 #| msgid "Manage Profiles..."
-msgid "Configure Scrollback..."
+msgid "Adjust Scrollback..."
 msgstr "ప్రొఫైల్సును నిర్వహించుము..."
 
-#: SessionController.cpp:536
+#: SessionController.cpp:537
 msgid "Clear Scrollback"
 msgstr "స్క్రాల్‌బ్యాక్‌ను శుభ్రముచేయి"
 
-#: SessionController.cpp:540
+#: SessionController.cpp:541
 #, fuzzy
 #| msgid "Clear Scrollback && Reset"
 msgid "Clear Scrollback and Reset"
 msgstr "స్క్రాల్‌బ్యాక్‌ను శుభ్రముచేయి && తిరిగివుంచుము"
 
-#: SessionController.cpp:546
+#: SessionController.cpp:547
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Current Profile..."
 msgstr "ప్రొఫైల్సును నిర్వహించుము..."
 
-#: SessionController.cpp:549
+#: SessionController.cpp:550
 #, fuzzy
 #| msgid "Edit Profile"
 msgid "Switch Profile"
 msgstr "ప్రొఫైల్ సరికూర్చు"
 
-#: SessionController.cpp:632
+#: SessionController.cpp:633
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "ఈ సెషన్‌నందు వొక పోగ్రామ్ యిప్పటికే నుడుస్తోంది.  మీరు దానిని ఖచ్చితంగా మూసివేద్దామని అనుకొంటున్నారా?"
 
-#: SessionController.cpp:635
+#: SessionController.cpp:636
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -1935,7 +1937,7 @@ msgid ""
 msgstr ""
 "పొగ్రామ్ '%1' ప్రస్తుతం ఈ సెషన్‌నందు నడుస్తోంది.  మీరు ఖచ్చితంగా దీనిని మూసివేద్దామని అనుకొంటున్నారా?"
 
-#: SessionController.cpp:658
+#: SessionController.cpp:659
 #, fuzzy
 #| msgid ""
 #| "A program is currently running in this session.  Are you sure you want to "
@@ -1945,7 +1947,7 @@ msgid ""
 "by force?"
 msgstr "ఈ సెషన్‌నందు వొక పోగ్రామ్ యిప్పటికే నుడుస్తోంది.  మీరు దానిని ఖచ్చితంగా మూసివేద్దామని అనుకొంటున్నారా?"
 
-#: SessionController.cpp:661
+#: SessionController.cpp:662
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program '%1' is currently running in this session.  Are you sure you "
@@ -1956,43 +1958,43 @@ msgid ""
 msgstr ""
 "పొగ్రామ్ '%1' ప్రస్తుతం ఈ సెషన్‌నందు నడుస్తోంది.  మీరు ఖచ్చితంగా దీనిని మూసివేద్దామని అనుకొంటున్నారా?"
 
-#: SessionController.cpp:1258
+#: SessionController.cpp:1240
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1267
+#: SessionController.cpp:1249
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1279
+#: SessionController.cpp:1261
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1288
+#: SessionController.cpp:1270
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1294
+#: SessionController.cpp:1276
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1366
+#: SessionController.cpp:1348
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1నుండి అవుట్పుట్‌ను భద్రపరచుము"
 
-#: SessionController.cpp:1377
+#: SessionController.cpp:1359
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 చెల్లని URL, అవుట్పుట్ భద్రపరచబడలేదు."
 
-#: SessionController.cpp:1455
+#: SessionController.cpp:1437
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2269,6 +2271,14 @@ msgstr ""
 msgid "&Stop"
 msgstr "(&S) ఆపు"
 
+#~ msgid "Scrollback Options"
+#~ msgstr "స్క్రాల్‌బ్యాక్ ఐచ్చికాలు"
+
+#, fuzzy
+#~| msgid "Edit Current Profile..."
+#~ msgid "Save to current profile"
+#~ msgstr "ప్రస్తుత ప్రొఫైలును సరికూర్చు..."
+
 #, fuzzy
 #~| msgid "Manage Profiles..."
 #~ msgid "Configure Profiles..."
@@ -2380,9 +2390,6 @@ msgstr "(&S) ఆపు"
 
 #~ msgid "&Detach View"
 #~ msgstr "(&D) వీక్షణం వేరుచేయి"
-
-#~ msgid "Scrollback"
-#~ msgstr "స్క్రోల్‌బ్యాక్"
 
 #~ msgid "&Copy"
 #~ msgstr "(&C) నకలు"
