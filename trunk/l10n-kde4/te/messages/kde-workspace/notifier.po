@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:39+0200\n"
+"POT-Creation-Date: 2011-11-02 04:14+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -26,122 +26,10 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: deviceitem.cpp:292
-msgid "Click to eject this disc."
-msgstr ""
-
-#: deviceitem.cpp:295
-msgid "Click to safely remove this device."
-msgstr ""
-
-#: deviceitem.cpp:297
-msgid "Click to unmount this device."
-msgstr ""
-
-#: deviceitem.cpp:301
-msgid ""
-"It is currently <b>not safe</b> to remove this device: applications may be "
-"accessing it. Click the eject button to safely remove this device."
-msgstr ""
-
-#: deviceitem.cpp:303
-msgid "This device is currently accessible."
-msgstr ""
-
-#: deviceitem.cpp:306
-msgid "Click to access this device from other applications."
-msgstr ""
-
-#: deviceitem.cpp:309
-msgid "It is currently safe to remove this device."
-msgstr ""
-
-#: deviceitem.cpp:311
-msgid ""
-"It is currently <b>not safe</b> to remove this device: applications may be "
-"accessing other volumes on this device. Click the eject button on these "
-"other volumes to safely remove this device."
-msgstr ""
-
-#: deviceitem.cpp:314
-msgid "This device is currently not accessible."
-msgstr ""
-
-#: deviceitem.cpp:407
-#, kde-format
-msgctxt "@info:status Free disk space"
-msgid "%1 free"
-msgstr ""
-
-#: deviceitem.cpp:461
-msgctxt ""
-"Accessing is a less technical word for Mounting; translation should be short "
-"and mean 'Currently mounting this device'"
-msgid "Accessing..."
-msgstr ""
-
-#: deviceitem.cpp:464
-msgctxt ""
-"Removing is a less technical word for Unmounting; translation shoud be short "
-"and mean 'Currently unmounting this device'"
-msgid "Removing..."
-msgstr ""
-
-#: devicenotifier.cpp:102
-#, kde-format
-msgid "1 action for this device"
-msgid_plural "%1 actions for this device"
-msgstr[0] ""
-msgstr[1] ""
-
-#: devicenotifier.cpp:334
-msgid "No devices available."
-msgstr ""
-
-#: devicenotifier.cpp:338
-msgid "Most recent device"
-msgstr ""
-
-#: devicenotifier.cpp:468
-msgid "Display"
-msgstr ""
-
-#: devicenotifier.cpp:471
-msgid "Automounting"
-msgstr ""
-
-#: notifierdialog.cpp:69
-msgid "Show hidden devices"
-msgstr ""
-
-#: notifierdialog.cpp:973
-#, kde-format
-msgctxt "Hide a device"
-msgid "Hide %1"
-msgstr ""
-
-#: notifierdialog.cpp:1037
+#: package/contents/ui/devicenotifier.qml:118
 msgid "Available Devices"
 msgstr ""
 
-#: notifierdialog.cpp:1039
+#: package/contents/ui/devicenotifier.qml:118
 msgid "No Devices Available"
-msgstr ""
-
-#. i18n: file: configurationpage.ui:17
-#. i18n: ectx: property (text), widget (QRadioButton, removableDevices)
-#: rc.cpp:3
-msgid "Removable devices only"
-msgstr ""
-
-#. i18n: file: configurationpage.ui:24
-#. i18n: ectx: property (text), widget (QRadioButton, nonRemovableDevices)
-#: rc.cpp:6
-msgid "Non-removable devices only"
-msgstr ""
-
-#. i18n: file: configurationpage.ui:44
-#. i18n: ectx: property (text), widget (QRadioButton, allDevices)
-#: rc.cpp:9
-msgid "All devices"
 msgstr ""
