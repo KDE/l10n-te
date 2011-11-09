@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2011-11-01 08:11+0100\n"
+"POT-Creation-Date: 2011-11-09 04:14+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -2203,30 +2203,35 @@ msgstr ""
 
 #: corelib/tools/qregexp.cpp:69
 msgctxt "QRegExp"
-msgid "bad repetition syntax"
+msgid "lookbehinds not supported, see QTBUG-2371"
 msgstr ""
 
 #: corelib/tools/qregexp.cpp:70
 msgctxt "QRegExp"
+msgid "bad repetition syntax"
+msgstr ""
+
+#: corelib/tools/qregexp.cpp:71
+msgctxt "QRegExp"
 msgid "invalid octal value"
 msgstr "చెల్లని అష్టాంశ విలువ"
 
-#: corelib/tools/qregexp.cpp:71
+#: corelib/tools/qregexp.cpp:72
 msgctxt "QRegExp"
 msgid "missing left delim"
 msgstr ""
 
-#: corelib/tools/qregexp.cpp:72
+#: corelib/tools/qregexp.cpp:73
 msgctxt "QRegExp"
 msgid "unexpected end"
 msgstr "ఊహించని ముగింపు"
 
-#: corelib/tools/qregexp.cpp:73
+#: corelib/tools/qregexp.cpp:74
 msgctxt "QRegExp"
 msgid "met internal limit"
 msgstr ""
 
-#: corelib/tools/qregexp.cpp:74
+#: corelib/tools/qregexp.cpp:75
 #, fuzzy
 #| msgctxt "QRegExp"
 #| msgid "invalid octal value"
@@ -2234,7 +2239,7 @@ msgctxt "QRegExp"
 msgid "invalid interval"
 msgstr "చెల్లని అష్టాంశ విలువ"
 
-#: corelib/tools/qregexp.cpp:75
+#: corelib/tools/qregexp.cpp:76
 #, fuzzy
 #| msgid "Invalid XML character."
 msgctxt "QRegExp"
