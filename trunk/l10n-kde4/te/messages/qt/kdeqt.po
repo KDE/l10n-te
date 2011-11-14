@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2011-11-09 04:14+0100\n"
+"POT-Creation-Date: 2011-11-14 04:22+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -5433,102 +5433,6 @@ msgstr "మరొ పేరు: %1"
 msgid "unknown"
 msgstr "తెలియని"
 
-#: gui/text/qtextcontrol.cpp:2112 gui/widgets/qlineedit.cpp:2126
-#: qt3support/text/q3textedit.cpp:5429
-msgid "&Undo"
-msgstr "(&U) సరిచేయు"
-
-#: gui/text/qtextcontrol.cpp:2114 gui/widgets/qlineedit.cpp:2130
-#: qt3support/text/q3textedit.cpp:5430
-msgid "&Redo"
-msgstr "(&R) పునరాచరణ"
-
-#: gui/text/qtextcontrol.cpp:2118 gui/widgets/qlineedit.cpp:2139
-#: qt3support/text/q3textedit.cpp:5435
-msgid "Cu&t"
-msgstr "(&t) కత్తిరించండి"
-
-#: gui/text/qtextcontrol.cpp:2123 gui/widgets/qlineedit.cpp:2145
-#: qt3support/text/q3textedit.cpp:5436
-msgid "&Copy"
-msgstr "(&C) నకలు"
-
-#: gui/text/qtextcontrol.cpp:2130
-#, fuzzy
-#| msgid "Copy Image Location"
-msgid "Copy &Link Location"
-msgstr "చిత్ర స్థానం ను నకలు చేయి"
-
-#: gui/text/qtextcontrol.cpp:2136 gui/widgets/qlineedit.cpp:2151
-#: qt3support/text/q3textedit.cpp:5438
-msgid "&Paste"
-msgstr "(&P) అతికించండి"
-
-#: gui/text/qtextcontrol.cpp:2139 gui/widgets/qlineedit.cpp:2158
-#: qt3support/sql/q3datatable.cpp:793
-#: scripttools/debugging/qscriptbreakpointswidget.cpp:304
-msgid "Delete"
-msgstr "తొలగించు"
-
-#: gui/text/qtextcontrol.cpp:2146 gui/widgets/qlineedit.cpp:2166
-#: qt3support/text/q3textedit.cpp:5445 qt3support/text/q3textedit.cpp:5447
-msgid "Select All"
-msgstr "అన్నిటినీ ఎంచుకొనుము"
-
-#: gui/text/qtextcontrol.cpp:3071
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "LRM Left-to-right mark"
-msgstr ""
-
-#: gui/text/qtextcontrol.cpp:3072
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "RLM Right-to-left mark"
-msgstr ""
-
-#: gui/text/qtextcontrol.cpp:3073
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "ZWJ Zero width joiner"
-msgstr ""
-
-#: gui/text/qtextcontrol.cpp:3074
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "ZWNJ Zero width non-joiner"
-msgstr ""
-
-#: gui/text/qtextcontrol.cpp:3075
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "ZWSP Zero width space"
-msgstr ""
-
-#: gui/text/qtextcontrol.cpp:3076
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "LRE Start of left-to-right embedding"
-msgstr ""
-
-#: gui/text/qtextcontrol.cpp:3077
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "RLE Start of right-to-left embedding"
-msgstr ""
-
-#: gui/text/qtextcontrol.cpp:3078
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "LRO Start of left-to-right override"
-msgstr ""
-
-#: gui/text/qtextcontrol.cpp:3079
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "RLO Start of right-to-left override"
-msgstr ""
-
-#: gui/text/qtextcontrol.cpp:3080
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "PDF Pop directional formatting"
-msgstr ""
-
-#: gui/text/qtextcontrol.cpp:3086
-msgid "Insert Unicode control character"
-msgstr ""
-
 #: gui/text/qfontdatabase.cpp:106 gui/text/qfontdatabase.cpp:1538
 msgctxt "QFontDatabase"
 msgid "Normal"
@@ -5743,6 +5647,102 @@ msgstr "రూనిక్"
 msgctxt "QFontDatabase"
 msgid "N'Ko"
 msgstr "కాదు"
+
+#: gui/text/qtextcontrol.cpp:2109 gui/widgets/qlineedit.cpp:2126
+#: qt3support/text/q3textedit.cpp:5429
+msgid "&Undo"
+msgstr "(&U) సరిచేయు"
+
+#: gui/text/qtextcontrol.cpp:2111 gui/widgets/qlineedit.cpp:2130
+#: qt3support/text/q3textedit.cpp:5430
+msgid "&Redo"
+msgstr "(&R) పునరాచరణ"
+
+#: gui/text/qtextcontrol.cpp:2115 gui/widgets/qlineedit.cpp:2139
+#: qt3support/text/q3textedit.cpp:5435
+msgid "Cu&t"
+msgstr "(&t) కత్తిరించండి"
+
+#: gui/text/qtextcontrol.cpp:2120 gui/widgets/qlineedit.cpp:2145
+#: qt3support/text/q3textedit.cpp:5436
+msgid "&Copy"
+msgstr "(&C) నకలు"
+
+#: gui/text/qtextcontrol.cpp:2127
+#, fuzzy
+#| msgid "Copy Image Location"
+msgid "Copy &Link Location"
+msgstr "చిత్ర స్థానం ను నకలు చేయి"
+
+#: gui/text/qtextcontrol.cpp:2133 gui/widgets/qlineedit.cpp:2151
+#: qt3support/text/q3textedit.cpp:5438
+msgid "&Paste"
+msgstr "(&P) అతికించండి"
+
+#: gui/text/qtextcontrol.cpp:2136 gui/widgets/qlineedit.cpp:2158
+#: qt3support/sql/q3datatable.cpp:793
+#: scripttools/debugging/qscriptbreakpointswidget.cpp:304
+msgid "Delete"
+msgstr "తొలగించు"
+
+#: gui/text/qtextcontrol.cpp:2143 gui/widgets/qlineedit.cpp:2166
+#: qt3support/text/q3textedit.cpp:5445 qt3support/text/q3textedit.cpp:5447
+msgid "Select All"
+msgstr "అన్నిటినీ ఎంచుకొనుము"
+
+#: gui/text/qtextcontrol.cpp:3068
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "LRM Left-to-right mark"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:3069
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "RLM Right-to-left mark"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:3070
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "ZWJ Zero width joiner"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:3071
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "ZWNJ Zero width non-joiner"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:3072
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "ZWSP Zero width space"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:3073
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "LRE Start of left-to-right embedding"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:3074
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "RLE Start of right-to-left embedding"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:3075
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "LRO Start of left-to-right override"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:3076
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "RLO Start of right-to-left override"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:3077
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "PDF Pop directional formatting"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:3083
+msgid "Insert Unicode control character"
+msgstr ""
 
 #: gui/util/qdesktopservices_mac.cpp:171
 msgid "Home"
