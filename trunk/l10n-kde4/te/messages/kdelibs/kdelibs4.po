@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-01 05:27+0100\n"
+"POT-Creation-Date: 2011-11-17 04:04+0100\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -2760,15 +2760,15 @@ msgstr ""
 msgid "Too many misspelled words. As-you-type spell checking disabled."
 msgstr "చాలా అచ్చుతప్పులుగల పదములు. మీరు-టైపు-చేసినట్లు అచ్చుతప్పులు సరిచూడుట అచేతనపరచబడింది."
 
-#: kde3support/kdeui/k3textedit.cpp:232 kdeui/widgets/ktextedit.cpp:495
+#: kde3support/kdeui/k3textedit.cpp:232 kdeui/widgets/ktextedit.cpp:493
 msgid "Check Spelling..."
 msgstr "అచ్చుతప్పులు సరిచూడు..."
 
-#: kde3support/kdeui/k3textedit.cpp:238 kdeui/widgets/ktextedit.cpp:498
+#: kde3support/kdeui/k3textedit.cpp:238 kdeui/widgets/ktextedit.cpp:496
 msgid "Auto Spell Check"
 msgstr "స్వయంచాలకంగా అచ్చుతప్పులు సరిచూడు"
 
-#: kde3support/kdeui/k3textedit.cpp:242 kdeui/widgets/ktextedit.cpp:502
+#: kde3support/kdeui/k3textedit.cpp:242 kdeui/widgets/ktextedit.cpp:500
 msgid "Allow Tabulations"
 msgstr "టాబ్యులేషన్లను అనుమతించుము"
 
@@ -9748,6 +9748,34 @@ msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "అప్రమేయం"
 
+#: kdeui/widgets/ktextedit.cpp:527
+#, fuzzy
+#| msgid "Speak custom text"
+msgid "Speak Text"
+msgstr "నిర్దేశిత వచనము పలుకుము"
+
+#: kdeui/widgets/ktextedit.cpp:542
+msgid "Starting Jovie Text-to-Speech Service Failed"
+msgstr ""
+
+#: kdeui/widgets/ktextedit.cpp:631
+#, fuzzy, kde-format
+#| msgid "Suggestions"
+msgid "No suggestions for %1"
+msgstr "సూచనలు"
+
+#: kdeui/widgets/ktextedit.cpp:642
+msgid "Ignore"
+msgstr "విస్మరించు"
+
+#: kdeui/widgets/ktextedit.cpp:643
+msgid "Add to Dictionary"
+msgstr "నిఘంటువుకు జతచేయుము"
+
+#: kdeui/widgets/ktextedit.cpp:788
+msgid "Nothing to spell check."
+msgstr "అచ్చుతప్పులు సరిదిద్దుటకు ఏమీలేదు."
+
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
 msgstr "చిత్ర కార్యాలు"
@@ -9948,34 +9976,6 @@ msgstr "సూపర్‌స్క్రిప్‍ట్"
 #: kdeui/widgets/ksqueezedtextlabel.cpp:165
 msgid "&Copy Full Text"
 msgstr "(&C) పూర్తి వచనంను నకలు చేయి"
-
-#: kdeui/widgets/ktextedit.cpp:526
-#, fuzzy
-#| msgid "Speak custom text"
-msgid "Speak Text"
-msgstr "నిర్దేశిత వచనము పలుకుము"
-
-#: kdeui/widgets/ktextedit.cpp:541
-msgid "Starting Jovie Text-to-Speech Service Failed"
-msgstr ""
-
-#: kdeui/widgets/ktextedit.cpp:630
-#, fuzzy, kde-format
-#| msgid "Suggestions"
-msgid "No suggestions for %1"
-msgstr "సూచనలు"
-
-#: kdeui/widgets/ktextedit.cpp:641
-msgid "Ignore"
-msgstr "విస్మరించు"
-
-#: kdeui/widgets/ktextedit.cpp:642
-msgid "Add to Dictionary"
-msgstr "నిఘంటువుకు జతచేయుము"
-
-#: kdeui/widgets/ktextedit.cpp:787
-msgid "Nothing to spell check."
-msgstr "అచ్చుతప్పులు సరిదిద్దుటకు ఏమీలేదు."
 
 #: kdeui/widgets/ktimezonewidget.cpp:66
 msgctxt "Define an area in the time zone, like a town area"
@@ -10246,10 +10246,6 @@ msgstr "పనిముట్ల పట్టీలు"
 msgid "No text"
 msgstr "వచనము లేదు"
 
-#: kdewebkit/kwebpage.cpp:126 khtml/khtml_ext.cpp:879
-msgid "Overwrite File?"
-msgstr "దస్త్రాలను త్రిగి వ్రాయి?"
-
 #: kdewidgets/makekdewidgets.cpp:84
 msgid "Builds Qt widget plugins from an ini style description file."
 msgstr "క్యూటి విడ్జెట్ ప్లగిన్లను ini శైలి వర్ణన దస్త్రం నుంచి తయారుచేయబడును."
@@ -10413,6 +10409,10 @@ msgstr ""
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "\"%1\" పేరుతొ దస్త్రం ముందే వుంది. మీరు దానిని తిరిగి వ్రాయమంటారా?"
+
+#: khtml/khtml_ext.cpp:879
+msgid "Overwrite File?"
+msgstr "దస్త్రాలను త్రిగి వ్రాయి?"
 
 #: khtml/khtml_ext.cpp:879
 msgid "Overwrite"
@@ -13711,7 +13711,7 @@ msgstr "-పేరు పెట్టని-"
 msgid "No service matching the requirements was found"
 msgstr "ఏ సేవా సరిజోడీ అవసరములు కనబడలేదు."
 
-#: kdecore/services/kservice.h:553
+#: kdecore/services/kservice.h:555
 #, kde-format
 msgid "The service '%1' does not provide an interface '%2' with keyword '%3'"
 msgstr ""
