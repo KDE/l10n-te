@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2011-11-17 04:24+0100\n"
+"POT-Creation-Date: 2011-11-24 04:38+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -6897,6 +6897,56 @@ msgstr ""
 #: plugins/bearer/symbian/qnetworksession_impl.cpp:308
 msgid "Roaming was aborted or is not possible."
 msgstr ""
+
+#: plugins/imageformats/tga/qtgafile.cpp:136
+#, fuzzy
+#| msgid "Could not find service '%1'."
+msgid "Could not read image data"
+msgstr "'%1' సేవ కనపడలేదు."
+
+#: plugins/imageformats/tga/qtgafile.cpp:141
+msgid "Sequential device (eg socket) for image read not supported"
+msgstr ""
+
+#: plugins/imageformats/tga/qtgafile.cpp:146
+msgid "Seek file/device for image read failed"
+msgstr ""
+
+#: plugins/imageformats/tga/qtgafile.cpp:152
+msgid "Image mHeader read failed"
+msgstr ""
+
+#: plugins/imageformats/tga/qtgafile.cpp:158
+#, fuzzy
+#| msgctxt "QNativeSocketEngine"
+#| msgid "Protocol type not supported"
+msgid "Image type not supported"
+msgstr "ప్రొటొకాల్ రకము కొరకు సహాయంలేదు"
+
+#: plugins/imageformats/tga/qtgafile.cpp:165
+msgid "Image dpeth not valid"
+msgstr ""
+
+#: plugins/imageformats/tga/qtgafile.cpp:171
+msgid "Could not seek to image read footer"
+msgstr ""
+
+#: plugins/imageformats/tga/qtgafile.cpp:178
+#, fuzzy
+#| msgctxt "QIBaseResult"
+#| msgid "Could not fetch next item"
+msgid "Could not read footer"
+msgstr "తరువాతి అంశాన్ని తీసుకురాలెకపొయాను"
+
+#: plugins/imageformats/tga/qtgafile.cpp:182
+msgid "Image type (non-TrueVision 2.0) not supported"
+msgstr ""
+
+#: plugins/imageformats/tga/qtgafile.cpp:186
+#, fuzzy
+#| msgid "Could not find service '%1'."
+msgid "Could not reset to read data"
+msgstr "'%1' సేవ కనపడలేదు."
 
 #: plugins/inputmethods/imsw-multi/qmultiinputcontext.cpp:88
 msgid "Select IM"
