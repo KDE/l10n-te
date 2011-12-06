@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-02 12:00+0100\n"
+"POT-Creation-Date: 2011-12-06 18:38+0100\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -12709,76 +12709,6 @@ msgstr "'%1' ను నిజంగా నడపమంటారా?"
 msgid "Execute File?"
 msgstr "దస్త్రాన్ని నడపమంటారా?"
 
-#: kparts/browseropenorsavequestion.cpp:100
-#, fuzzy, kde-format
-#| msgid "Re: %1"
-msgctxt "@label Type of file"
-msgid "Type: %1"
-msgstr "పునరాచరణ: %1"
-
-#: kparts/browseropenorsavequestion.cpp:108
-#, fuzzy
-#| msgid "Do not show this message again"
-msgctxt "@label:checkbox"
-msgid "Remember action for files of this type"
-msgstr "ఈ సందేశము మరల చూపవద్దు"
-
-#: kparts/browseropenorsavequestion.cpp:139
-#: kparts/browseropenorsavequestion.cpp:214
-#, fuzzy, kde-format
-#| msgid "&Open with '%1'"
-msgctxt "@label:button"
-msgid "&Open with %1"
-msgstr "(&O) దీనితో తెరువండి '%1'"
-
-#: kparts/browseropenorsavequestion.cpp:188
-#, fuzzy, kde-format
-#| msgid "&Open with '%1'"
-msgctxt "@action:inmenu"
-msgid "Open &with %1"
-msgstr "(&O) దీనితో తెరువండి '%1'"
-
-#: kparts/browseropenorsavequestion.cpp:199
-#: kparts/browseropenorsavequestion.cpp:293
-#, fuzzy, kde-format
-#| msgid "Open '%1'"
-msgctxt "@info"
-msgid "Open '%1'?"
-msgstr "%1 తెరువండి"
-
-#: kparts/browseropenorsavequestion.cpp:203
-#, fuzzy
-#| msgid "&Open With..."
-msgctxt "@label:button"
-msgid "&Open with..."
-msgstr "(&O) దీనితో తెరువండి"
-
-#: kparts/browseropenorsavequestion.cpp:223
-#, fuzzy
-#| msgid "&Open With..."
-msgctxt "@label:button"
-msgid "&Open with"
-msgstr "(&O) దీనితో తెరువండి"
-
-#: kparts/browseropenorsavequestion.cpp:290
-#, fuzzy
-#| msgid "&Open"
-msgctxt "@label:button"
-msgid "&Open"
-msgstr "(&O) తెరువండి"
-
-#: kparts/browseropenorsavequestion.cpp:315
-#, fuzzy, kde-format
-#| msgid "Name: "
-msgctxt "@label File name"
-msgid "Name: %1"
-msgstr "పేరు:"
-
-#: kparts/browseropenorsavequestion.cpp:317
-msgctxt "@info:whatsthis"
-msgid "This is the file name suggested by the server"
-msgstr ""
-
 #: kparts/part.cpp:815
 msgid "Untitled"
 msgstr "పేరులేనిది"
@@ -12795,6 +12725,76 @@ msgstr ""
 #: kparts/part.cpp:823
 msgid "Close Document"
 msgstr "పత్రం మూసివేయి"
+
+#: kparts/browseropenorsavequestion.cpp:100
+#, fuzzy, kde-format
+#| msgid "Re: %1"
+msgctxt "@label Type of file"
+msgid "Type: %1"
+msgstr "పునరాచరణ: %1"
+
+#: kparts/browseropenorsavequestion.cpp:108
+#, fuzzy
+#| msgid "Do not show this message again"
+msgctxt "@label:checkbox"
+msgid "Remember action for files of this type"
+msgstr "ఈ సందేశము మరల చూపవద్దు"
+
+#: kparts/browseropenorsavequestion.cpp:139
+#: kparts/browseropenorsavequestion.cpp:215
+#, fuzzy, kde-format
+#| msgid "&Open with '%1'"
+msgctxt "@label:button"
+msgid "&Open with %1"
+msgstr "(&O) దీనితో తెరువండి '%1'"
+
+#: kparts/browseropenorsavequestion.cpp:189
+#, fuzzy, kde-format
+#| msgid "&Open with '%1'"
+msgctxt "@action:inmenu"
+msgid "Open &with %1"
+msgstr "(&O) దీనితో తెరువండి '%1'"
+
+#: kparts/browseropenorsavequestion.cpp:200
+#: kparts/browseropenorsavequestion.cpp:294
+#, fuzzy, kde-format
+#| msgid "Open '%1'"
+msgctxt "@info"
+msgid "Open '%1'?"
+msgstr "%1 తెరువండి"
+
+#: kparts/browseropenorsavequestion.cpp:204
+#, fuzzy
+#| msgid "&Open With..."
+msgctxt "@label:button"
+msgid "&Open with..."
+msgstr "(&O) దీనితో తెరువండి"
+
+#: kparts/browseropenorsavequestion.cpp:224
+#, fuzzy
+#| msgid "&Open With..."
+msgctxt "@label:button"
+msgid "&Open with"
+msgstr "(&O) దీనితో తెరువండి"
+
+#: kparts/browseropenorsavequestion.cpp:291
+#, fuzzy
+#| msgid "&Open"
+msgctxt "@label:button"
+msgid "&Open"
+msgstr "(&O) తెరువండి"
+
+#: kparts/browseropenorsavequestion.cpp:316
+#, fuzzy, kde-format
+#| msgid "Name: "
+msgctxt "@label File name"
+msgid "Name: %1"
+msgstr "పేరు:"
+
+#: kparts/browseropenorsavequestion.cpp:318
+msgctxt "@info:whatsthis"
+msgid "This is the file name suggested by the server"
+msgstr ""
 
 #: kpty/kptydevice.cpp:322
 msgid "Error reading from PTY"
