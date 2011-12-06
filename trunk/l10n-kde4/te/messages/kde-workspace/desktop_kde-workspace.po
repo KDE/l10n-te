@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-23 03:34+0000\n"
+"POT-Creation-Date: 2011-12-06 08:32+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -199,6 +199,13 @@ msgctxt "Comment"
 msgid "Improve accessibility for disabled persons"
 msgstr "వికలాంగులైన వ్యక్తులకు అందుబాటును మెరుగుపరుచుము"
 
+#: kcontrol/access/kcmaccess.desktop:198
+msgctxt "X-KDE-Keywords"
+msgid ""
+"access,accessibility,deaf,impaired,bell,audible bell,visible bell,Keyboard,"
+"keys,sticky keys,bounce keys,slow keys,mouse navigation,num pad"
+msgstr ""
+
 #: kcontrol/autostart/autostart.desktop:13
 msgctxt "Name"
 msgid "Autostart"
@@ -212,6 +219,14 @@ msgctxt "Comment"
 msgid "A configuration tool for managing which programs start up."
 msgstr "KDE తో ఏ కార్యక్రమములు ప్రారంభంకావాలో నిర్వహించుటకు ఆకృతీకరణ సాధనం"
 
+#: kcontrol/autostart/autostart.desktop:158
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Contact Manager"
+msgctxt "X-KDE-Keywords"
+msgid "Autostart Manager"
+msgstr "సంప్రదింపు నిర్వాహకి"
+
 #: kcontrol/bell/bell.desktop:16
 msgctxt "Name"
 msgid "System Bell"
@@ -221,6 +236,11 @@ msgstr "వ్యవస్థ గంట"
 msgctxt "Comment"
 msgid "System Bell Configuration"
 msgstr "సిస్టమ్ బెల్ సాధనం"
+
+#: kcontrol/bell/bell.desktop:200
+msgctxt "X-KDE-Keywords"
+msgid "Bell,Audio,Sound,Volume,Pitch,Duration"
+msgstr ""
 
 #: kcontrol/colors/colors.desktop:14
 msgctxt "Name"
@@ -232,6 +252,11 @@ msgctxt "Comment"
 msgid "Color settings"
 msgstr "రంగుల అమరికలు"
 
+#: kcontrol/colors/colors.desktop:199
+msgctxt "X-KDE-Keywords"
+msgid "colors,colours,scheme,contrast,Widget colors,Color Scheme"
+msgstr ""
+
 #: kcontrol/dateandtime/clock.desktop:15
 msgctxt "Name"
 msgid "Date & Time"
@@ -241,6 +266,11 @@ msgstr "తేది & సమయం"
 msgctxt "Comment"
 msgid "Date and time settings"
 msgstr "తేది మరయూ సమయం అమరికలు"
+
+#: kcontrol/dateandtime/clock.desktop:200
+msgctxt "X-KDE-Keywords"
+msgid "clock,date,time,time zone"
+msgstr ""
 
 #: kcontrol/dateandtime/kcmclock_actions.actions:2
 #, fuzzy
@@ -273,6 +303,11 @@ msgctxt "Comment"
 msgid "Change the location important files are stored"
 msgstr "ముఖ్యమైన దస్త్రములు నిల్వవుంచు స్థానమును మార్చుము"
 
+#: kcontrol/desktoppaths/desktoppath.desktop:199
+msgctxt "X-KDE-Keywords"
+msgid "konqueror,filemanager,paths,desktop,directories,autostart"
+msgstr ""
+
 #: kcontrol/desktoptheme/desktoptheme.desktop:12
 #, fuzzy
 #| msgctxt "Name"
@@ -289,6 +324,14 @@ msgctxt "Comment"
 msgid "Customize the desktop theme"
 msgstr "మలచుకొనిన స్వతంత్ర రంగస్థల థీమ్ అంశములు"
 
+#: kcontrol/desktoptheme/desktoptheme.desktop:135
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop Sphere"
+msgctxt "X-KDE-Keywords"
+msgid "Desktop Theme"
+msgstr "డెస్క్ టాప్ గొళం"
+
 #: kcontrol/fonts/fonts.desktop:14 kcontrol/kfontinst/kio/fonts.desktop:5
 msgctxt "Name"
 msgid "Fonts"
@@ -298,6 +341,13 @@ msgstr "ఫాంట్‍స్"
 msgctxt "Comment"
 msgid "Font settings"
 msgstr "ఫాంట్ అమరికలు"
+
+#: kcontrol/fonts/fonts.desktop:200
+msgctxt "X-KDE-Keywords"
+msgid ""
+"fonts,font size,styles,charsets,character sets,panel,control panel,desktops,"
+"FileManager,Toolbars,Menu,Window Title,Title,DPI"
+msgstr ""
 
 #: kcontrol/hardware/display/display.desktop:10
 msgctxt "Name"
@@ -320,6 +370,11 @@ msgctxt "Name"
 msgid "Joystick"
 msgstr "జాయ్ స్టిక్"
 
+#: kcontrol/hardware/joystick/joystick.desktop:229
+msgctxt "X-KDE-Keywords"
+msgid "joystick,gamepad"
+msgstr ""
+
 #: kcontrol/input/cursortheme.desktop:12
 #, fuzzy
 #| msgctxt "Name"
@@ -336,6 +391,14 @@ msgctxt "Comment"
 msgid "Customize the mouse cursor appearance"
 msgstr "మలచుకొనిన స్వతంత్ర రంగస్థల థీమ్ అంశములు"
 
+#: kcontrol/input/cursortheme.desktop:120
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Cursor Files"
+msgctxt "X-KDE-Keywords"
+msgid "Mouse,Cursor,Theme"
+msgstr "ములుకు దస్త్రాలు"
+
 #: kcontrol/input/mouse.desktop:15
 msgctxt "Name"
 msgid "Mouse"
@@ -346,6 +409,14 @@ msgctxt "Comment"
 msgid "Mouse settings"
 msgstr "మౌస్ అమరికలు"
 
+#: kcontrol/input/mouse.desktop:200
+msgctxt "X-KDE-Keywords"
+msgid ""
+"Mouse,Mouse acceleration,Mouse threshold,Mouse buttons,Selection,Cursor "
+"Shape,Input Devices,Button Mapping,Click,icons,feedback,Pointers,Drag,"
+"DoubleClick,mapping,right handed,left handed"
+msgstr ""
+
 #: kcontrol/keyboard/kcm_keyboard.desktop:17
 msgctxt "Name"
 msgid "Keyboard"
@@ -355,6 +426,11 @@ msgstr "కీబోర్డ్"
 msgctxt "Comment"
 msgid "Keyboard settings"
 msgstr "కీబోర్డ్ అమరికలు"
+
+#: kcontrol/keyboard/kcm_keyboard.desktop:201
+msgctxt "X-KDE-Keywords"
+msgid "Keyboard,Keyboard repeat,Click volume,Input Devices,repeat,volume"
+msgstr ""
 
 #: kcontrol/keyboard/keyboard.desktop:12
 #, fuzzy
@@ -383,6 +459,14 @@ msgstr "గ్లౌబల్ కీబోర్‍డ్ లఘువులు"
 msgctxt "Comment"
 msgid "Configuration of keybindings"
 msgstr "కీ భందనముల యొక్క ఆకృతీకరణ"
+
+#: kcontrol/keys/keys.desktop:186
+#: kcontrol/standard_actions/standard_actions.desktop:171
+msgctxt "X-KDE-Keywords"
+msgid ""
+"Keys,Global key bindings,Key scheme,Key bindings,shortcuts,application "
+"shortcuts"
+msgstr ""
 
 #: kcontrol/kfontinst/apps/installfont.desktop:7
 msgctxt "Name"
@@ -427,6 +511,11 @@ msgctxt "Comment"
 msgid "Install, manage, and preview fonts"
 msgstr "సంస్థాపించు, నిర్వహించు, మరియు ఫాంట్‍స్ ఉపదర్శనం"
 
+#: kcontrol/kfontinst/kcmfontinst/fontinst.desktop:130
+msgctxt "X-KDE-Keywords"
+msgid "font,fonts,installer,truetype,type1,bitmap"
+msgstr ""
+
 #: kcontrol/kfontinst/thumbnail/fontthumbnail.desktop:3
 msgctxt "Name"
 msgid "Font Files"
@@ -446,6 +535,13 @@ msgstr "లాంచ్ ప్రతిస్పందన"
 msgctxt "Comment"
 msgid "Choose application-launch feedback style"
 msgstr "అనువర్తనం-లాంచ్ ప్రతిస్పందన శైలిని ఎంచుకొనుము"
+
+#: kcontrol/launch/kcmlaunch.desktop:191
+msgctxt "X-KDE-Keywords"
+msgid ""
+"application,start,launch,busy,cursor,feedback,mouse,pointer,bouncing,"
+"rotating,spinning,disk,startup,program,report,taskbar"
+msgstr ""
 
 #: kcontrol/randr/krandrtray.desktop:2
 msgctxt "Name"
@@ -477,6 +573,13 @@ msgctxt "Comment"
 msgid "Resize and Rotate your display"
 msgstr "మీ ప్రదర్శనను పునఃపరిమాణం మరియు భ్రమణం చేయుము"
 
+#: kcontrol/randr/randr.desktop:195
+msgctxt "X-KDE-Keywords"
+msgid ""
+"screen,resolution,resize,rotate,orientation,display,color depth,size,"
+"horizontal,vertical,refresh rate"
+msgstr ""
+
 #: kcontrol/screensaver/screensaver.desktop:14
 msgctxt "Name"
 msgid "Screen Saver"
@@ -487,6 +590,14 @@ msgctxt "Comment"
 msgid "Screen Saver Settings"
 msgstr "స్క్రీన్ సేవర్ అమరికలు"
 
+#: kcontrol/screensaver/screensaver.desktop:199
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen Saver"
+msgctxt "X-KDE-Keywords"
+msgid "screensavers,Priority"
+msgstr "స్క్రీన్ సేవర్"
+
 #: kcontrol/smartcard/smartcard.desktop:15
 msgctxt "Name"
 msgid "Smartcards"
@@ -496,6 +607,11 @@ msgstr "స్మార్ట్ కార్డులు"
 msgctxt "Comment"
 msgid "Configure smartcard support"
 msgstr "స్మార్‍ట్‌కార్‍డ్‌ మద్దతును ఆకృతీకరించుము"
+
+#: kcontrol/smartcard/smartcard.desktop:195
+msgctxt "X-KDE-Keywords"
+msgid "Smartcard,PKCS,SSL,reader,smart,card"
+msgstr ""
 
 #: kcontrol/standard_actions/standard_actions.desktop:15
 msgctxt "Name"
@@ -518,6 +634,13 @@ msgid ""
 "Allows the manipulation of widget behavior and changing the Style for KDE"
 msgstr "విడ్‍జ్‌ట్ ప్రవర్తన యొక్క మానిప్యులేషన్‌ను మరియు KDE కొరకు శైలిని మార్చుట అనుమతించుము"
 
+#: kcontrol/style/style.desktop:194
+msgctxt "X-KDE-Keywords"
+msgid ""
+"style,styles,look,widget,icons,toolbars,text,highlight,apps,KDE applications,"
+"theme,plasma"
+msgstr ""
+
 #: kcontrol/workspaceoptions/workspaceoptions.desktop:13
 #: plasma/desktop/shell/data/plasma-desktop.notifyrc:68
 #, fuzzy
@@ -532,6 +655,11 @@ msgctxt "Comment"
 msgid "Global options for the Plasma Workspace"
 msgstr ""
 
+#: kcontrol/workspaceoptions/workspaceoptions.desktop:141
+msgctxt "X-KDE-Keywords"
+msgid "plasma,workspace,shell,formfactor,dashboard"
+msgstr ""
+
 #: kcontrol/xinerama/xinerama.desktop:17
 msgctxt "Name"
 msgid "Multiple Monitors"
@@ -541,6 +669,11 @@ msgstr "బహుళ మానిటర్‍స్"
 msgctxt "Comment"
 msgid "Configure KDE for multiple monitors"
 msgstr "బహుళ మానిటర్‍స్  కొరకు KDE ను ఆకృతీకరించుము"
+
+#: kcontrol/xinerama/xinerama.desktop:197
+msgctxt "X-KDE-Keywords"
+msgid "Xinerama,dual head,multihead,monitor"
+msgstr ""
 
 #: kdm/kcm/background/patterns/fish.desktop:2
 msgctxt "Comment"
@@ -650,6 +783,13 @@ msgstr "తెరముద్ర"
 msgctxt "Comment"
 msgid "Configure the login manager (KDM)"
 msgstr "లాగిన్ నిర్వాహికను ఆకృతీకరించుము (KDM)"
+
+#: kdm/kcm/kdm.desktop:166
+msgctxt "X-KDE-Keywords"
+msgid ""
+"kdm,display manager,xdm,users,login,greeting,Logo,styles,language,country,"
+"fonts,background,wallpapers,sessions,shutdown,restart"
+msgstr ""
 
 #: kdm/kfrontend/pics/stripes.png.desktop:3
 #, fuzzy
@@ -1818,6 +1958,13 @@ msgctxt "Comment"
 msgid "Configure Input Actions settings"
 msgstr "హాట్‌కీల అమరికలను ఆకృతీకరించుము."
 
+#: khotkeys/kcm_hotkeys/khotkeys.desktop:140
+msgctxt "X-KDE-Keywords"
+msgid ""
+"global,keyboard shortcuts,hot keys,hotkeys,KHotKeys,input actions,mouse "
+"gestures,actions,triggers,launch"
+msgstr ""
+
 #: kinfocenter/Categories/deviceinfocategory.desktop:7
 #, fuzzy
 #| msgctxt "Name"
@@ -1885,6 +2032,12 @@ msgctxt "Comment"
 msgid "Device Viewer"
 msgstr "చిత్ర వీక్షిణి"
 
+#: kinfocenter/Modules/devinfo/devinfo.desktop:135
+#: kinfocenter/Modules/infosummary/kcm_infosummary.desktop:137
+msgctxt "X-KDE-Keywords"
+msgid "device,devices"
+msgstr ""
+
 #: kinfocenter/Modules/info/dma.desktop:14
 msgctxt "Name"
 msgid "DMA-Channels"
@@ -1895,6 +2048,11 @@ msgctxt "Comment"
 msgid "DMA information"
 msgstr "డిఎంఏ సమాచారం"
 
+#: kinfocenter/Modules/info/dma.desktop:200
+msgctxt "X-KDE-Keywords"
+msgid "dma,DMA-Channels,System Information"
+msgstr ""
+
 #: kinfocenter/Modules/info/interrupts.desktop:14
 msgctxt "Name"
 msgid "Interrupts"
@@ -1903,6 +2061,14 @@ msgstr "ఇంటెరప్టులు"
 #: kinfocenter/Modules/info/interrupts.desktop:107
 msgctxt "Comment"
 msgid "Interrupt information"
+msgstr "ఇంటెరప్ట్ సమాచారం"
+
+#: kinfocenter/Modules/info/interrupts.desktop:200
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Interrupt information"
+msgctxt "X-KDE-Keywords"
+msgid "Interrupts,IRQ,System Information"
 msgstr "ఇంటెరప్ట్ సమాచారం"
 
 #: kinfocenter/Modules/info/ioports.desktop:14
@@ -1915,6 +2081,11 @@ msgctxt "Comment"
 msgid "IO-port information"
 msgstr "ఐఓ-పోర్టుల సమాచారం"
 
+#: kinfocenter/Modules/info/ioports.desktop:200
+msgctxt "X-KDE-Keywords"
+msgid "IO,I/O,IO-Ports,I/O-Ports,Ports,IO-Range,I/O-Range,System Information"
+msgstr ""
+
 #: kinfocenter/Modules/info/scsi.desktop:13
 msgctxt "Name"
 msgid "SCSI"
@@ -1923,6 +2094,14 @@ msgstr "SCSI"
 #: kinfocenter/Modules/info/scsi.desktop:107
 msgctxt "Comment"
 msgid "SCSI information"
+msgstr "SCSI సమాచారం"
+
+#: kinfocenter/Modules/info/scsi.desktop:200
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "SCSI information"
+msgctxt "X-KDE-Keywords"
+msgid "SCSI,SCSI-Bus,System Information"
 msgstr "SCSI సమాచారం"
 
 #: kinfocenter/Modules/infosummary/kcm_infosummary.desktop:11
@@ -1948,6 +2127,11 @@ msgctxt "Comment"
 msgid "X-Server information"
 msgstr "ఎక్స్-సెర్వర్ సమాచారం"
 
+#: kinfocenter/Modules/info/xserver.desktop:199
+msgctxt "X-KDE-Keywords"
+msgid "X,X-Server,XServer,XFree86,Display,VideoCard,System Information"
+msgstr ""
+
 #: kinfocenter/Modules/memory/kcm_memory.desktop:12
 msgctxt "Name"
 msgid "Memory"
@@ -1957,6 +2141,13 @@ msgstr "మెమొరి"
 msgctxt "Comment"
 msgid "Memory information"
 msgstr "మెమొరి సమాచారం"
+
+#: kinfocenter/Modules/memory/kcm_memory.desktop:199
+msgctxt "X-KDE-Keywords"
+msgid ""
+"Memory,RAM,Virtual memory,Physical memory,Shared memory,Swap,System "
+"Information"
+msgstr ""
 
 #: kinfocenter/Modules/nics/nic.desktop:12
 msgctxt "Name"
@@ -1979,6 +2170,13 @@ msgctxt "Comment"
 msgid "OpenGL information"
 msgstr "ఓపెన్ జిఎల్ సమాచారం"
 
+#: kinfocenter/Modules/opengl/opengl.desktop:196
+msgctxt "X-KDE-Keywords"
+msgid ""
+"OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,X-"
+"Server,XFree86,Display"
+msgstr ""
+
 #: kinfocenter/Modules/pci/kcm_pci.desktop:12
 msgctxt "Name"
 msgid "PCI"
@@ -1988,6 +2186,11 @@ msgstr "పి సి ఐ"
 msgctxt "Comment"
 msgid "PCI information"
 msgstr "పి సి ఐ సమాచారం"
+
+#: kinfocenter/Modules/pci/kcm_pci.desktop:198
+msgctxt "X-KDE-Keywords"
+msgid "PCI,PCI-Devices,PCI-Bus,System Information"
+msgstr ""
 
 #: kinfocenter/Modules/samba/smbstatus.desktop:12
 msgctxt "Name"
@@ -1999,6 +2202,11 @@ msgctxt "Comment"
 msgid "Samba status monitor"
 msgstr "సాంబా స్థితి మానిటర్"
 
+#: kinfocenter/Modules/samba/smbstatus.desktop:198
+msgctxt "X-KDE-Keywords"
+msgid "SMB,SAMBA,Windows network,LAN,System Information"
+msgstr ""
+
 #: kinfocenter/Modules/usbview/kcmusb.desktop:12
 msgctxt "Name"
 msgid "USB Devices"
@@ -2009,6 +2217,11 @@ msgctxt "Comment"
 msgid "USB devices attached to this computer"
 msgstr "ఈ కంప్యూటర్‌కు అనుసంధానించబడివున్న USB పరికరములు"
 
+#: kinfocenter/Modules/usbview/kcmusb.desktop:189
+msgctxt "X-KDE-Keywords"
+msgid "USB,devices,viewer,control"
+msgstr ""
+
 #: kinfocenter/Modules/view1394/kcmview1394.desktop:12
 msgctxt "Name"
 msgid "IEEE 1394 Devices"
@@ -2018,6 +2231,11 @@ msgstr "ఐఈఈఈ 1394 పరికరాలు"
 msgctxt "Comment"
 msgid "Attached IEEE 1394 devices"
 msgstr "అనుభందించిన IEEE 1394 పరికరాలు"
+
+#: kinfocenter/Modules/view1394/kcmview1394.desktop:188
+msgctxt "X-KDE-Keywords"
+msgid "1394,Firewire,devices,viewer,control"
+msgstr ""
 
 #: klipper/klipper.desktop:2
 msgctxt "Name"
@@ -2258,6 +2476,11 @@ msgctxt "Comment"
 msgid "Configure the session manager and logout settings"
 msgstr "సెషన్ నిర్వాహకిని మరియు లాగ్అవుట్ అమర్పులను ఆకృతీకరించుము"
 
+#: ksmserver/kcm/kcmsmserver.desktop:165
+msgctxt "X-KDE-Keywords"
+msgid "ksmserver,session,logout,confirmation,save,restore"
+msgstr ""
+
 #: ksplash/kcm/ksplashthememgr.desktop:15
 msgctxt "Name"
 msgid "Splash Screen"
@@ -2267,6 +2490,11 @@ msgstr "స్ప్లాష్ స్క్రీన్"
 msgctxt "Comment"
 msgid "Manager for Splash Screen Themes"
 msgstr "స్ప్లాష్ స్క్రీన్ థీమ్‍స్  కొరకు నిర్వాహకి"
+
+#: ksplash/kcm/ksplashthememgr.desktop:189
+msgctxt "X-KDE-Keywords"
+msgid "splash screen,splash theme,startup"
+msgstr ""
 
 #: kstyles/oxygen/oxygen.themerc:89
 #: kwin/clients/oxygen/oxygenclient.desktop:90
@@ -3268,6 +3496,11 @@ msgctxt "Comment"
 msgid "Configure desktop effects"
 msgstr "డెస్‍క్ టాప్ ప్రభావాలను ఆకృతీకరించుము"
 
+#: kwin/kcmkwin/kwincompositing/kwincompositing.desktop:182
+msgctxt "X-KDE-Keywords"
+msgid "kwin,window,manager,compositing,effect"
+msgstr ""
+
 #: kwin/kcmkwin/kwindecoration/kwindecoration.desktop:14
 #, fuzzy
 #| msgctxt "Name"
@@ -3280,6 +3513,13 @@ msgstr "సమాచారం"
 msgctxt "Comment"
 msgid "Configure the look and feel of window titles"
 msgstr "విండో శీర్షికల ఆకృతి మరియు భావమును ఆకృతీకరించుము"
+
+#: kwin/kcmkwin/kwindecoration/kwindecoration.desktop:162
+msgctxt "X-KDE-Keywords"
+msgid ""
+"kwin,window,manager,border,style,theme,look,feel,layout,button,handle,edge,"
+"kwm,decoration"
+msgstr ""
 
 #: kwin/kcmkwin/kwindesktop/desktop.desktop:14
 #, fuzzy
@@ -3294,6 +3534,11 @@ msgctxt "Comment"
 msgid "You can configure how many virtual desktops there are."
 msgstr "అక్కడ ఎన్ని వర్చ్యువల్ డెస్‍క్ టాప్‍స్  ఉన్నాయో మీరు ఆకృతీకరించవచ్చు."
 
+#: kwin/kcmkwin/kwindesktop/desktop.desktop:164
+msgctxt "X-KDE-Keywords"
+msgid "desktop,desktops,number,virtual desktop"
+msgstr ""
+
 #: kwin/kcmkwin/kwinoptions/kwinactions.desktop:12
 msgctxt "Name"
 msgid "Actions"
@@ -3303,6 +3548,13 @@ msgstr "చర్యలు"
 msgctxt "Comment"
 msgid "Configure keyboard and mouse settings"
 msgstr "కీబోర్‍డ్ మరియు మౌస్ అమర్పులను ఆకృతీకరించుము"
+
+#: kwin/kcmkwin/kwinoptions/kwinactions.desktop:191
+msgctxt "X-KDE-Keywords"
+msgid ""
+"shade,maximise,maximize,minimize,minimise,lower,operations menu,titlebar,"
+"resize"
+msgstr ""
 
 #: kwin/kcmkwin/kwinoptions/kwinadvanced.desktop:11
 msgctxt "Name"
@@ -3314,6 +3566,11 @@ msgctxt "Comment"
 msgid "Configure advanced window management features"
 msgstr "అధునాతన విండో నిర్వహణ సౌలభ్యాలను ఆకృతీకరించుము"
 
+#: kwin/kcmkwin/kwinoptions/kwinadvanced.desktop:189
+msgctxt "X-KDE-Keywords"
+msgid "shading,border,hover,active borders"
+msgstr ""
+
 #: kwin/kcmkwin/kwinoptions/kwinfocus.desktop:11
 msgctxt "Name"
 msgid "Focus"
@@ -3323,6 +3580,12 @@ msgstr "దృష్టి"
 msgctxt "Comment"
 msgid "Configure the window focus policy"
 msgstr "విండో దృష్టి విధానంను ఆకృతీకరించుము"
+
+#: kwin/kcmkwin/kwinoptions/kwinfocus.desktop:186
+msgctxt "X-KDE-Keywords"
+msgid ""
+"focus,placement,auto raise,raise,click raise,keyboard,CDE,alt-tab,all desktop"
+msgstr ""
 
 #: kwin/kcmkwin/kwinoptions/kwinmoving.desktop:12
 msgctxt "Name"
@@ -3334,6 +3597,11 @@ msgctxt "Comment"
 msgid "Configure the way that windows are moved"
 msgstr "విండోలు గమనంచేయు విధంను ఆకృతీకరించుము"
 
+#: kwin/kcmkwin/kwinoptions/kwinmoving.desktop:188
+msgctxt "X-KDE-Keywords"
+msgid "moving,smart,cascade,maximize,maximise,snap zone,snap,border"
+msgstr ""
+
 #: kwin/kcmkwin/kwinoptions/kwinoptions.desktop:15
 #: systemsettings/categories/settings-window-behaviour.desktop:8
 msgctxt "Name"
@@ -3344,6 +3612,13 @@ msgstr "విండో ప్రవర్తన"
 msgctxt "Comment"
 msgid "Configure the window behavior"
 msgstr "విండో ప్రవర్తనను ఆకృతీకరించుము"
+
+#: kwin/kcmkwin/kwinoptions/kwinoptions.desktop:192
+msgctxt "X-KDE-Keywords"
+msgid ""
+"focus,placement,window behavior,animation,raise,auto raise,windows,frame,"
+"titlebar,doubleclick"
+msgstr ""
 
 #: kwin/kcmkwin/kwinrules/kwinrules.desktop:14
 #, fuzzy
@@ -3357,6 +3632,13 @@ msgstr "విండో మూయి"
 msgctxt "Comment"
 msgid "Configure settings specifically for a window"
 msgstr "ప్రత్యేకంగా విండో కొరకు అమర్పులను ఆకృతీకరించుము"
+
+#: kwin/kcmkwin/kwinrules/kwinrules.desktop:161
+msgctxt "X-KDE-Keywords"
+msgid ""
+"size,position,state,window behavior,windows,specific,workarounds,remember,"
+"rules"
+msgstr ""
 
 #: kwin/kcmkwin/kwinscreenedges/kwinscreenedges.desktop:14
 #, fuzzy
@@ -3374,6 +3656,11 @@ msgctxt "Comment"
 msgid "Configure active screen edges"
 msgstr "వెబ్ క్యాచి అమరికలను ఆకృతీకరించుము"
 
+#: kwin/kcmkwin/kwinscreenedges/kwinscreenedges.desktop:150
+msgctxt "X-KDE-Keywords"
+msgid "kwin,window,manager,effect,edge,border,action,switch,desktop"
+msgstr ""
+
 #: kwin/kcmkwin/kwintabbox/kwintabbox.desktop:13
 #, fuzzy
 #| msgctxt "Name"
@@ -3389,6 +3676,13 @@ msgstr "బాక్‍స్  స్విచ్"
 msgctxt "Comment"
 msgid "Configure the behavior for navigating through windows"
 msgstr "Java మరియు JavaScript యొక్క ప్రవర్తనను ఆకృతీకరించుము"
+
+#: kwin/kcmkwin/kwintabbox/kwintabbox.desktop:122
+msgctxt "X-KDE-Keywords"
+msgid ""
+"window,windows,switcher,window switcher,switching,window switching,alttab,"
+"alt-tab,alt+tab,alt tab"
+msgstr ""
 
 #: kwin/kwin.notifyrc:3
 #, fuzzy
@@ -5877,6 +6171,13 @@ msgctxt "Comment"
 msgid "Configure per-activity Power Management settings"
 msgstr "దస్త్ర నిర్వాహకి అమర్పులను ఆకృతీకరించుము"
 
+#: powerdevil/kcmodule/activities/powerdevilactivitiesconfig.desktop:56
+msgctxt "X-KDE-Keywords"
+msgid ""
+"system,power,power management,energy,laptop,battery,suspension,AC,suspend,"
+"hibernate,brightness,performance,lid,activity,activities"
+msgstr ""
+
 #: powerdevil/kcmodule/global/powerdevilglobalconfig.desktop:14
 #, fuzzy
 #| msgctxt "Name"
@@ -5892,6 +6193,14 @@ msgstr "అధునాతన వినియోగదారి అమర్ప�
 msgctxt "Comment"
 msgid "Configure advanced Power Management settings"
 msgstr "దస్త్ర నిర్వాహకి అమర్పులను ఆకృతీకరించుము"
+
+#: powerdevil/kcmodule/global/powerdevilglobalconfig.desktop:57
+#: powerdevil/kcmodule/profiles/powerdevilprofilesconfig.desktop:58
+msgctxt "X-KDE-Keywords"
+msgid ""
+"system,power,power management,energy,laptop,battery,suspension,AC,suspend,"
+"hibernate,brightness,performance,lid"
+msgstr ""
 
 #: powerdevil/kcmodule/profiles/powerdevilprofilesconfig.desktop:14
 #, fuzzy
@@ -6105,6 +6414,11 @@ msgstr "సమాచార సందేశం"
 msgctxt "Comment"
 msgid "Hardware Integration Configuration with Solid"
 msgstr "హార్‍డ్‌వేర్ సమ్మేళనం ఆకృతీకరణ"
+
+#: solid/kcm/kcm_solid.desktop:145
+msgctxt "X-KDE-Keywords"
+msgid "Solid,Hardware,Power,Network,Discovery,Management"
+msgstr ""
 
 #: solid/modemmanager-0.4/solid_modemmanager04.desktop:6
 #, fuzzy
@@ -6559,6 +6873,14 @@ msgid ""
 "connecting new devices to the computer"
 msgstr ""
 
+#: solid/solid-actions-kcm/solid-actions.desktop:144
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Preset Actions"
+msgctxt "X-KDE-Keywords"
+msgid "Solid Devices Actions"
+msgstr "ప్రస్తుత చర్యలు"
+
 #: solid/solid-actions-kcm/solid-device-type.desktop:4
 #, fuzzy
 #| msgctxt "Name"
@@ -6601,7 +6923,7 @@ msgctxt "GenericName"
 msgid "KDE System Settings"
 msgstr "సిస్టమ్ అమర్పులు"
 
-#: systemsettings/app/kdesystemsettings.desktop:29
+#: systemsettings/app/kdesystemsettings.desktop:30
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "System Settings"
@@ -6792,6 +7114,15 @@ msgstr "వెబ్ ప్రవర్తన"
 msgctxt "Name"
 msgid "System Settings Category"
 msgstr "సిస్టమ్ అమరికల వర్గము"
+
+#: systemsettings/classic/settings-classic-view.desktop:7
+#: systemsettings/icons/settings-icon-view.desktop:7
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "System Settings"
+msgctxt "X-KDE-Keywords"
+msgid "System Settings"
+msgstr "సిస్టమ్ అమర్పులు"
 
 #: systemsettings/classic/settings-classic-view.desktop:9
 msgctxt "Name"
@@ -13992,10 +14323,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "GNOME-Card"
 #~ msgstr "గ్నొమ్-కార్డ్"
-
-#~ msgctxt "GenericName"
-#~ msgid "Contact Manager"
-#~ msgstr "సంప్రదింపు నిర్వాహకి"
 
 #~ msgctxt "Name"
 #~ msgid "GNOME Time Tracker"
