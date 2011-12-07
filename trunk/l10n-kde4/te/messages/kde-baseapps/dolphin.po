@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-06 05:12+0100\n"
+"POT-Creation-Date: 2011-12-07 03:15+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -413,7 +413,7 @@ msgctxt "@label::textbox"
 msgid "Select which data should be shown in the information panel:"
 msgstr ""
 
-#: panels/search/searchpanel.cpp:139
+#: panels/search/searchpanel.cpp:140
 #, fuzzy
 #| msgctxt "@item:inlistbox Text width"
 #| msgid "Small"
@@ -421,7 +421,7 @@ msgctxt "option:check Refers to a filter on image size"
 msgid "Small"
 msgstr "చిన్న"
 
-#: panels/search/searchpanel.cpp:141
+#: panels/search/searchpanel.cpp:142
 #, fuzzy
 #| msgctxt "@item:inlistbox Text width"
 #| msgid "Medium"
@@ -429,7 +429,7 @@ msgctxt "option:check Refers to a filter on image size"
 msgid "Medium"
 msgstr "మీడియం"
 
-#: panels/search/searchpanel.cpp:144
+#: panels/search/searchpanel.cpp:145
 #, fuzzy
 #| msgctxt "@item:inlistbox Text width"
 #| msgid "Large"
@@ -1215,11 +1215,6 @@ msgstr "తిరిగిలోడ్‌చేయి"
 msgid "Default"
 msgstr "అప్రమేయ:"
 
-#: views/draganddrophelper.cpp:50
-msgctxt "@info:status"
-msgid "A folder cannot be dropped into itself"
-msgstr "ఒక ఫోల్డరును అదేఫోల్డరు లోనికి వుంచుట కుదరదు"
-
 #: views/renamedialog.cpp:57
 msgctxt "@title:window"
 msgid "Rename Item"
@@ -1530,6 +1525,11 @@ msgstr "స్థానము ఖాళీగావుంది"
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "స్థానము '%1' సరైనదికాదు."
+
+#: views/draganddrophelper.cpp:49
+msgctxt "@info:status"
+msgid "A folder cannot be dropped into itself"
+msgstr "ఒక ఫోల్డరును అదేఫోల్డరు లోనికి వుంచుట కుదరదు"
 
 #: main.cpp:35
 msgctxt "@title"
