@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-07 10:55+0100\n"
+"POT-Creation-Date: 2011-12-09 11:08+0100\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -836,7 +836,7 @@ msgstr "(&S) అమరికలు"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:177
 #. i18n: ectx: Menu (help)
-#: rc.cpp:445 kdeui/widgets/khelpmenu.cpp:148
+#: rc.cpp:445 kdeui/widgets/khelpmenu.cpp:188
 msgid "&Help"
 msgstr "(&H) సహాయము"
 
@@ -2459,7 +2459,7 @@ msgstr "(చిహ్నము సిద్దముగా లేదు)"
 
 #: kde3support/kdeui/k3aboutdialog.cpp:1044
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:92
-#: kdeui/dialogs/kmessagebox.cpp:1049 kdeui/widgets/khelpmenu.cpp:264
+#: kdeui/dialogs/kmessagebox.cpp:1049 kdeui/widgets/khelpmenu.cpp:290
 #, kde-format
 msgid "About %1"
 msgstr "%1 గురించి"
@@ -9600,32 +9600,6 @@ msgstr "(&U) పైకి జరపండి"
 msgid "Move &Down"
 msgstr "(&D) క్రిందకి జరపండి"
 
-#: kdeui/widgets/khelpmenu.cpp:153 kdeui/actions/kstandardaction_p.h:111
-#, kde-format
-msgid "%1 &Handbook"
-msgstr "(&H) %1 చేతిపుస్తకం"
-
-#: kdeui/widgets/khelpmenu.cpp:162
-msgid "What's &This"
-msgstr "(&T) ఇది ఎమిటి"
-
-#: kdeui/widgets/khelpmenu.cpp:173 kdeui/actions/kstandardaction_p.h:114
-msgid "&Report Bug..."
-msgstr "(&R) తప్పును తెలియచేయండి..."
-
-#: kdeui/widgets/khelpmenu.cpp:183 kdeui/actions/kstandardaction_p.h:115
-msgid "Switch Application &Language..."
-msgstr "(&L) అనువర్తనము భాషను మార్చు..."
-
-#: kdeui/widgets/khelpmenu.cpp:194 kdeui/actions/kstandardaction_p.h:116
-#, kde-format
-msgid "&About %1"
-msgstr "(&A) %1 గురించి"
-
-#: kdeui/widgets/khelpmenu.cpp:199 kdeui/actions/kstandardaction_p.h:117
-msgid "About &KDE"
-msgstr "(&K) కెడిఈ గురించి"
-
 #: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:936
 msgid "Clear &History"
 msgstr "(&H) చరిత్రను చెరపివేయి"
@@ -13889,6 +13863,11 @@ msgstr "(&b) పనిముట్ల పట్టిలను అమర్చ�
 msgid "Configure &Notifications..."
 msgstr "(&N) ప్రకటనలను అమర్చు..."
 
+#: kdeui/actions/kstandardaction_p.h:111
+#, kde-format
+msgid "%1 &Handbook"
+msgstr "(&H) %1 చేతిపుస్తకం"
+
 #: kdeui/actions/kstandardaction_p.h:112
 msgid "What's &This?"
 msgstr "(&T) ఇది ఏమిటి?"
@@ -13896,6 +13875,23 @@ msgstr "(&T) ఇది ఏమిటి?"
 #: kdeui/actions/kstandardaction_p.h:113
 msgid "Tip of the &Day"
 msgstr "(&D) ఈ రోజు సూచన"
+
+#: kdeui/actions/kstandardaction_p.h:114
+msgid "&Report Bug..."
+msgstr "(&R) తప్పును తెలియచేయండి..."
+
+#: kdeui/actions/kstandardaction_p.h:115
+msgid "Switch Application &Language..."
+msgstr "(&L) అనువర్తనము భాషను మార్చు..."
+
+#: kdeui/actions/kstandardaction_p.h:116
+#, kde-format
+msgid "&About %1"
+msgstr "(&A) %1 గురించి"
+
+#: kdeui/actions/kstandardaction_p.h:117
+msgid "About &KDE"
+msgstr "(&K) కెడిఈ గురించి"
 
 #: kross/qts/values_p.h:69
 #, kde-format
@@ -13910,6 +13906,9 @@ msgstr "పూర్వాహ్నము"
 #: kdecore/date/kdatetime.cpp:2991
 msgid "pm"
 msgstr "మధ్యాహ్నము"
+
+#~ msgid "What's &This"
+#~ msgstr "(&T) ఇది ఎమిటి"
 
 #, fuzzy
 #~| msgid "&OK"
