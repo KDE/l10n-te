@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-12 03:24+0100\n"
+"POT-Creation-Date: 2011-12-14 03:34+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -41,6 +41,25 @@ msgstr "గలని:"
 msgctxt "@item:intable"
 msgid "items"
 msgstr ""
+
+#: kitemviews/kfileitemlistwidget.cpp:231
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Unknown size"
+msgctxt "@item:intable"
+msgid "Unknown"
+msgstr "తెలియని పరిమాణము"
+
+#: kitemviews/kfileitemlistwidget.cpp:234
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "%1 item selected"
+#| msgid_plural "%1 items selected"
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 అంశము యెంపికకాబడింది"
+msgstr[1] "%1 అంశము యెంపికకాబడింది"
 
 #: kitemviews/kfileitemmodel.cpp:251
 #, fuzzy
@@ -138,7 +157,7 @@ msgctxt "@item:intable"
 msgid "Rating"
 msgstr "వరుసక్రమము:"
 
-#: kitemviews/kfileitemmodel.cpp:1106
+#: kitemviews/kfileitemmodel.cpp:1111
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -146,12 +165,12 @@ msgctxt "@item:intable"
 msgid "No destination"
 msgstr "పత్రికీకరణ"
 
-#: kitemviews/kfileitemmodel.cpp:1490
+#: kitemviews/kfileitemmodel.cpp:1561
 msgctxt "@title:group Groups that start with a digit"
 msgid "0 - 9"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1507
+#: kitemviews/kfileitemmodel.cpp:1578
 #, fuzzy
 #| msgctxt "@title:group Name"
 #| msgid "Others"
@@ -159,161 +178,142 @@ msgctxt "@title:group"
 msgid "Others"
 msgstr "ఇతరములు"
 
-#: kitemviews/kfileitemmodel.cpp:1539
+#: kitemviews/kfileitemmodel.cpp:1610
 msgctxt "@title:group Size"
 msgid "Folders"
 msgstr "ఫోల్డర్లు"
 
-#: kitemviews/kfileitemmodel.cpp:1541
+#: kitemviews/kfileitemmodel.cpp:1612
 msgctxt "@title:group Size"
 msgid "Small"
 msgstr "చిన్న"
 
-#: kitemviews/kfileitemmodel.cpp:1543
+#: kitemviews/kfileitemmodel.cpp:1614
 msgctxt "@title:group Size"
 msgid "Medium"
 msgstr "మీడియం"
 
-#: kitemviews/kfileitemmodel.cpp:1545
+#: kitemviews/kfileitemmodel.cpp:1616
 msgctxt "@title:group Size"
 msgid "Big"
 msgstr "పెద్ద"
 
-#: kitemviews/kfileitemmodel.cpp:1605
+#: kitemviews/kfileitemmodel.cpp:1676
 msgctxt "@title:group Date"
 msgid "Today"
 msgstr "ఈరోజు"
 
-#: kitemviews/kfileitemmodel.cpp:1606
+#: kitemviews/kfileitemmodel.cpp:1677
 msgctxt "@title:group Date"
 msgid "Yesterday"
 msgstr "నిన్న"
 
-#: kitemviews/kfileitemmodel.cpp:1607
+#: kitemviews/kfileitemmodel.cpp:1678
 #, c-format
 msgctxt "@title:group The week day name: %A"
 msgid "%A"
 msgstr "%A"
 
-#: kitemviews/kfileitemmodel.cpp:1611
+#: kitemviews/kfileitemmodel.cpp:1682
 msgctxt "@title:group Date"
 msgid "Last Week"
 msgstr "చివరి వారము"
 
-#: kitemviews/kfileitemmodel.cpp:1614
+#: kitemviews/kfileitemmodel.cpp:1685
 msgctxt "@title:group Date"
 msgid "Two Weeks Ago"
 msgstr "రెండు వారాల క్రితం"
 
-#: kitemviews/kfileitemmodel.cpp:1617
+#: kitemviews/kfileitemmodel.cpp:1688
 msgctxt "@title:group Date"
 msgid "Three Weeks Ago"
 msgstr "మూడు వారాల క్రితం"
 
-#: kitemviews/kfileitemmodel.cpp:1621
+#: kitemviews/kfileitemmodel.cpp:1692
 msgctxt "@title:group Date"
 msgid "Earlier this Month"
 msgstr "ఈ నెలకు ముందు"
 
-#: kitemviews/kfileitemmodel.cpp:1630
+#: kitemviews/kfileitemmodel.cpp:1701
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Yesterday (%B, %Y)"
 msgstr "నిన్న (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1632
+#: kitemviews/kfileitemmodel.cpp:1703
 msgctxt ""
 "@title:group The week day name: %A, %B is full month name in current locale, "
 "and %Y is full year number"
 msgid "%A (%B, %Y)"
 msgstr "%A (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1634
+#: kitemviews/kfileitemmodel.cpp:1705
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Last Week (%B, %Y)"
 msgstr "చివరి వారము (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1636
+#: kitemviews/kfileitemmodel.cpp:1707
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Two Weeks Ago (%B, %Y)"
 msgstr "రెండు వారాల క్రితం (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1638
+#: kitemviews/kfileitemmodel.cpp:1709
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Three Weeks Ago (%B, %Y)"
 msgstr "మూడు వారాల క్రితం (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1640
+#: kitemviews/kfileitemmodel.cpp:1711
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Earlier on %B, %Y"
 msgstr "%B, %Y ముందు"
 
-#: kitemviews/kfileitemmodel.cpp:1643
+#: kitemviews/kfileitemmodel.cpp:1714
 msgctxt ""
 "@title:group The month and year: %B is full month name in current locale, "
 "and %Y is full year number"
 msgid "%B, %Y"
 msgstr "%B, %Y"
 
-#: kitemviews/kfileitemmodel.cpp:1682 kitemviews/kfileitemmodel.cpp:1695
-#: kitemviews/kfileitemmodel.cpp:1708
+#: kitemviews/kfileitemmodel.cpp:1753 kitemviews/kfileitemmodel.cpp:1766
+#: kitemviews/kfileitemmodel.cpp:1779
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Read, "
 msgstr "చదువు, "
 
-#: kitemviews/kfileitemmodel.cpp:1685 kitemviews/kfileitemmodel.cpp:1698
-#: kitemviews/kfileitemmodel.cpp:1711
+#: kitemviews/kfileitemmodel.cpp:1756 kitemviews/kfileitemmodel.cpp:1769
+#: kitemviews/kfileitemmodel.cpp:1782
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Write, "
 msgstr "వ్రాయి, "
 
-#: kitemviews/kfileitemmodel.cpp:1688 kitemviews/kfileitemmodel.cpp:1701
-#: kitemviews/kfileitemmodel.cpp:1714
+#: kitemviews/kfileitemmodel.cpp:1759 kitemviews/kfileitemmodel.cpp:1772
+#: kitemviews/kfileitemmodel.cpp:1785
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Execute, "
 msgstr "నిర్వర్తించు, "
 
-#: kitemviews/kfileitemmodel.cpp:1690 kitemviews/kfileitemmodel.cpp:1703
-#: kitemviews/kfileitemmodel.cpp:1716
+#: kitemviews/kfileitemmodel.cpp:1761 kitemviews/kfileitemmodel.cpp:1774
+#: kitemviews/kfileitemmodel.cpp:1787
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Forbidden"
 msgstr "ఫర్బిడెన్"
 
-#: kitemviews/kfileitemmodel.cpp:1718
+#: kitemviews/kfileitemmodel.cpp:1789
 #, fuzzy, kde-format
 #| msgctxt "@title:group Files and folders by permissions"
 #| msgid "(User: %1) (Group: %2) (Others: %3)"
 msgctxt "@title:group Files and folders by permissions"
 msgid "User: %1 | Group: %2 | Others: %3"
 msgstr "(వినియోగదారి: %1) (సమూహం: %2) (ఇతరులు: %3)"
-
-#: kitemviews/kfileitemlistwidget.cpp:231
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Unknown size"
-msgctxt "@item:intable"
-msgid "Unknown"
-msgstr "తెలియని పరిమాణము"
-
-#: kitemviews/kfileitemlistwidget.cpp:234
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "%1 item selected"
-#| msgid_plural "%1 items selected"
-msgctxt "@item:intable"
-msgid "%1 item"
-msgid_plural "%1 items"
-msgstr[0] "%1 అంశము యెంపికకాబడింది"
-msgstr[1] "%1 అంశము యెంపికకాబడింది"
 
 #: panels/folders/treeviewcontextmenu.cpp:58
 msgctxt "@action:inmenu"
