@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-15 03:26+0100\n"
+"POT-Creation-Date: 2011-12-17 03:46+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -26,8 +26,8 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5041
-#: src/konqmainwindow.cpp:5101
+#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5042
+#: src/konqmainwindow.cpp:5102
 msgid "no name"
 msgstr ""
 
@@ -372,7 +372,7 @@ msgstr ""
 msgid "Miscellaneous"
 msgstr "ఇతరత్రా"
 
-#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4562
+#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4563
 #: sidebar/web_module/web_module.cpp:61
 msgid "Open in New &Window"
 msgstr ""
@@ -465,6 +465,201 @@ msgstr ""
 msgid "Location to open"
 msgstr ""
 
+#: src/konqprofiledlg.cpp:111
+#, fuzzy
+#| msgid "File Management"
+msgctxt "@title:window"
+msgid "Profile Management"
+msgstr "దస్త్ర నిర్వహణ"
+
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr ""
+
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr ""
+
+#: src/konqsessiondlg.cpp:77
+#, fuzzy
+#| msgid "Rename"
+msgctxt "@title:window"
+msgid "Manage Sessions"
+msgstr "పునఃనామకరణము"
+
+#: src/konqsessiondlg.cpp:81
+msgid "&Open"
+msgstr ""
+
+#: src/konqsessiondlg.cpp:175
+#, fuzzy
+#| msgid "Rename"
+msgctxt "@title:window"
+msgid "Rename Session"
+msgstr "పునఃనామకరణము"
+
+#: src/konqsessiondlg.cpp:223
+#, fuzzy
+#| msgid "Rename"
+msgctxt "@title:window"
+msgid "Save Session"
+msgstr "పునఃనామకరణము"
+
+#: src/konqsessiondlg.cpp:247
+#, kde-format
+msgid ""
+"A session with the name '%1' already exists, do you want to overwrite it?"
+msgstr ""
+
+#: src/konqsessiondlg.cpp:248
+msgctxt "@title:window"
+msgid "Session exists. Overwrite?"
+msgstr ""
+
+#: src/konqsessionmanager.cpp:330
+msgid ""
+"Konqueror did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr ""
+
+#: src/konqsessionmanager.cpp:332
+#, fuzzy
+#| msgid "Rename"
+msgctxt "@title:window"
+msgid "Restore Session?"
+msgstr "పునఃనామకరణము"
+
+#: src/konqsessionmanager.cpp:333
+msgid "Restore Session"
+msgstr ""
+
+#: src/konqsessionmanager.cpp:334
+msgid "Do Not Restore"
+msgstr ""
+
+#: src/konqsessionmanager.cpp:335
+msgid "Ask Me Later"
+msgstr ""
+
+#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
+msgid "Und&o: Closed Tab"
+msgstr ""
+
+#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
+#: src/konqundomanager.cpp:162
+msgid "Und&o: Closed Window"
+msgstr ""
+
+#: src/konqundomanager.cpp:122
+msgid "Und&o"
+msgstr ""
+
+#: src/konqviewmanager.cpp:1407
+msgid ""
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
+msgstr ""
+
+#: src/konqviewmanager.cpp:1409 src/konqmainwindow.cpp:4969
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "నిర్ధారణ"
+
+#: src/konqviewmanager.cpp:1410
+msgid "Load View Profile"
+msgstr ""
+
+#: src/konqviewmanager.cpp:1422
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+
+#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1625
+#: src/konqmainwindow.cpp:2352 src/konqmainwindow.cpp:2432
+#: src/konqmainwindow.cpp:2462 src/konqmainwindow.cpp:2504
+#: src/konqmainwindow.cpp:2526 src/konqmainwindow.cpp:5004
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr ""
+
+#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1625
+#: src/konqmainwindow.cpp:2352 src/konqmainwindow.cpp:2432
+#: src/konqmainwindow.cpp:2462 src/konqmainwindow.cpp:2504
+#: src/konqmainwindow.cpp:2527 src/konqmainwindow.cpp:5004
+msgid "&Discard Changes"
+msgstr ""
+
+#: src/konqtabs.cpp:66
+msgid ""
+"This bar contains the list of currently open tabs. Click on a tab to make it "
+"active. You can also use keyboard shortcuts to navigate through tabs. The "
+"text on the tab shows the content currently open in it; place your mouse "
+"over the tab to see the full title, in case it has been shortened to fit the "
+"tab width."
+msgstr ""
+
+#: src/konqtabs.cpp:100
+msgid "Open a new tab"
+msgstr ""
+
+#: src/konqtabs.cpp:109
+msgid "Close the current tab"
+msgstr ""
+
+#: src/konqtabs.cpp:326 src/konqmainwindow.cpp:3670
+msgid "&Reload All Tabs"
+msgstr ""
+
+#: src/konqtabs.cpp:349 src/konqmainwindow.cpp:2488
+#: src/konqmainwindow.cpp:3608
+msgid "Close &Other Tabs"
+msgstr ""
+
+#: src/konqtabs.cpp:460 src/konqmainwindow.cpp:3581
+msgid "&New Tab"
+msgstr ""
+
+#: src/konqtabs.cpp:465
+msgid "&Duplicate Tab"
+msgstr ""
+
+#: src/konqtabs.cpp:470
+msgid "&Reload Tab"
+msgstr ""
+
+#: src/konqtabs.cpp:477
+msgid "Other Tabs"
+msgstr ""
+
+#: src/konqtabs.cpp:482
+msgid "D&etach Tab"
+msgstr ""
+
+#: src/konqtabs.cpp:488
+msgid "&Close Tab"
+msgstr "(&C) టాబ్ ను మూసివెయి"
+
+#: src/konqview.cpp:1203
+msgid ""
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
+msgstr ""
+
+#: src/konqview.cpp:1205
+#, fuzzy
+#| msgid "Warning"
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "హెచ్చరిక"
+
+#: src/konqview.cpp:1205
+msgid "Resend"
+msgstr ""
+
 #: src/konqmainwindow.cpp:574
 msgctxt "@title:tab"
 msgid "Loading..."
@@ -478,21 +673,6 @@ msgstr ""
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Reloading the page will discard these changes."
-msgstr ""
-
-#: src/konqmainwindow.cpp:1625 src/konqmainwindow.cpp:2352
-#: src/konqmainwindow.cpp:2432 src/konqmainwindow.cpp:2462
-#: src/konqmainwindow.cpp:2504 src/konqmainwindow.cpp:2526
-#: src/konqmainwindow.cpp:5003 src/konqviewmanager.cpp:1423
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr ""
-
-#: src/konqmainwindow.cpp:1625 src/konqmainwindow.cpp:2352
-#: src/konqmainwindow.cpp:2432 src/konqmainwindow.cpp:2462
-#: src/konqmainwindow.cpp:2504 src/konqmainwindow.cpp:2527
-#: src/konqmainwindow.cpp:5003 src/konqviewmanager.cpp:1423
-msgid "&Discard Changes"
 msgstr ""
 
 #: src/konqmainwindow.cpp:1735
@@ -562,11 +742,6 @@ msgstr ""
 #: src/konqmainwindow.cpp:2488
 msgctxt "@title:window"
 msgid "Close Other Tabs Confirmation"
-msgstr ""
-
-#: src/konqmainwindow.cpp:2488 src/konqmainwindow.cpp:3608
-#: src/konqtabs.cpp:349
-msgid "Close &Other Tabs"
 msgstr ""
 
 #: src/konqmainwindow.cpp:2503
@@ -702,10 +877,6 @@ msgstr ""
 msgid "Split View &Top/Bottom"
 msgstr ""
 
-#: src/konqmainwindow.cpp:3581 src/konqtabs.cpp:460
-msgid "&New Tab"
-msgstr ""
-
 #: src/konqmainwindow.cpp:3587
 msgid "&Duplicate Current Tab"
 msgstr ""
@@ -757,10 +928,6 @@ msgstr ""
 
 #: src/konqmainwindow.cpp:3665 sidebar/web_module/web_module.cpp:68
 msgid "&Reload"
-msgstr ""
-
-#: src/konqmainwindow.cpp:3670 src/konqtabs.cpp:326
-msgid "&Reload All Tabs"
 msgstr ""
 
 #: src/konqmainwindow.cpp:3678
@@ -955,269 +1122,102 @@ msgstr ""
 msgid "M&ove Files..."
 msgstr ""
 
-#: src/konqmainwindow.cpp:4386
+#: src/konqmainwindow.cpp:4387
 msgid ""
 "You have requested to open more than 20 bookmarks in tabs. This might take a "
 "while. Continue?"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4388
+#: src/konqmainwindow.cpp:4389
 msgctxt "@title:window"
 msgid "Open bookmarks folder in new tabs"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4555
+#: src/konqmainwindow.cpp:4556
 msgid "Open in T&his Window"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4556
+#: src/konqmainwindow.cpp:4557
 msgid "Open the document in current window"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4563
+#: src/konqmainwindow.cpp:4564
 msgid "Open the document in a new window"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4569
+#: src/konqmainwindow.cpp:4570
 msgid "Open in &New Tab"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4571
+#: src/konqmainwindow.cpp:4572
 msgid "Open the document in a new tab"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4783
+#: src/konqmainwindow.cpp:4784
 msgid "&Open With"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4797
+#: src/konqmainwindow.cpp:4798
 #, kde-format
 msgid "Open with %1"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4843
+#: src/konqmainwindow.cpp:4844
 msgctxt "@action:inmenu View"
 msgid "&View Mode"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4966
+#: src/konqmainwindow.cpp:4967
 msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4968 src/konqviewmanager.cpp:1409
-#, fuzzy
-#| msgid "Confirmation"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "నిర్ధారణ"
-
-#: src/konqmainwindow.cpp:4970
+#: src/konqmainwindow.cpp:4971
 msgid "C&lose Current Tab"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4999
+#: src/konqmainwindow.cpp:5000
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
 msgstr ""
 
-#: src/konqmainwindow.cpp:5000
+#: src/konqmainwindow.cpp:5001
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
 msgstr ""
 
-#: src/konqmainwindow.cpp:5168
+#: src/konqmainwindow.cpp:5169
 msgid ""
 "Your sidebar is not functional or unavailable. A new entry cannot be added."
 msgstr ""
 
-#: src/konqmainwindow.cpp:5168 src/konqmainwindow.cpp:5175
+#: src/konqmainwindow.cpp:5169 src/konqmainwindow.cpp:5176
 #, fuzzy
 #| msgid "&Close Tab"
 msgctxt "@title:window"
 msgid "Web Sidebar"
 msgstr "(&C) టాబ్ ను మూసివెయి"
 
-#: src/konqmainwindow.cpp:5173
+#: src/konqmainwindow.cpp:5174
 #, kde-format
 msgid "Add new web extension \"%1\" to your sidebar?"
 msgstr ""
 
-#: src/konqmainwindow.cpp:5175
+#: src/konqmainwindow.cpp:5176
 msgid "Add"
 msgstr "జతచేయి"
 
-#: src/konqmainwindow.cpp:5175
+#: src/konqmainwindow.cpp:5176
 msgid "Do Not Add"
 msgstr ""
 
-#: src/konqmainwindow.cpp:5488
+#: src/konqmainwindow.cpp:5489
 #, kde-format
 msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
 "with %1, but it cannot handle this file type."
-msgstr ""
-
-#: src/konqprofiledlg.cpp:111
-#, fuzzy
-#| msgid "File Management"
-msgctxt "@title:window"
-msgid "Profile Management"
-msgstr "దస్త్ర నిర్వహణ"
-
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr ""
-
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr ""
-
-#: src/konqsessiondlg.cpp:77
-#, fuzzy
-#| msgid "Rename"
-msgctxt "@title:window"
-msgid "Manage Sessions"
-msgstr "పునఃనామకరణము"
-
-#: src/konqsessiondlg.cpp:81
-msgid "&Open"
-msgstr ""
-
-#: src/konqsessiondlg.cpp:175
-#, fuzzy
-#| msgid "Rename"
-msgctxt "@title:window"
-msgid "Rename Session"
-msgstr "పునఃనామకరణము"
-
-#: src/konqsessiondlg.cpp:223
-#, fuzzy
-#| msgid "Rename"
-msgctxt "@title:window"
-msgid "Save Session"
-msgstr "పునఃనామకరణము"
-
-#: src/konqsessiondlg.cpp:247
-#, kde-format
-msgid ""
-"A session with the name '%1' already exists, do you want to overwrite it?"
-msgstr ""
-
-#: src/konqsessiondlg.cpp:248
-msgctxt "@title:window"
-msgid "Session exists. Overwrite?"
-msgstr ""
-
-#: src/konqsessionmanager.cpp:330
-msgid ""
-"Konqueror did not close correctly. Would you like to restore the previous "
-"session?"
-msgstr ""
-
-#: src/konqsessionmanager.cpp:332
-#, fuzzy
-#| msgid "Rename"
-msgctxt "@title:window"
-msgid "Restore Session?"
-msgstr "పునఃనామకరణము"
-
-#: src/konqsessionmanager.cpp:333
-msgid "Restore Session"
-msgstr ""
-
-#: src/konqsessionmanager.cpp:334
-msgid "Do Not Restore"
-msgstr ""
-
-#: src/konqsessionmanager.cpp:335
-msgid "Ask Me Later"
-msgstr ""
-
-#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
-msgid "Und&o: Closed Tab"
-msgstr ""
-
-#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
-#: src/konqundomanager.cpp:162
-msgid "Und&o: Closed Window"
-msgstr ""
-
-#: src/konqundomanager.cpp:122
-msgid "Und&o"
-msgstr ""
-
-#: src/konqviewmanager.cpp:1407
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-
-#: src/konqviewmanager.cpp:1410
-msgid "Load View Profile"
-msgstr ""
-
-#: src/konqviewmanager.cpp:1422
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-
-#: src/konqtabs.cpp:66
-msgid ""
-"This bar contains the list of currently open tabs. Click on a tab to make it "
-"active. You can also use keyboard shortcuts to navigate through tabs. The "
-"text on the tab shows the content currently open in it; place your mouse "
-"over the tab to see the full title, in case it has been shortened to fit the "
-"tab width."
-msgstr ""
-
-#: src/konqtabs.cpp:100
-msgid "Open a new tab"
-msgstr ""
-
-#: src/konqtabs.cpp:109
-msgid "Close the current tab"
-msgstr ""
-
-#: src/konqtabs.cpp:465
-msgid "&Duplicate Tab"
-msgstr ""
-
-#: src/konqtabs.cpp:470
-msgid "&Reload Tab"
-msgstr ""
-
-#: src/konqtabs.cpp:477
-msgid "Other Tabs"
-msgstr ""
-
-#: src/konqtabs.cpp:482
-msgid "D&etach Tab"
-msgstr ""
-
-#: src/konqtabs.cpp:488
-msgid "&Close Tab"
-msgstr "(&C) టాబ్ ను మూసివెయి"
-
-#: src/konqview.cpp:1203
-msgid ""
-"The page you are trying to view is the result of posted form data. If you "
-"resend the data, any action the form carried out (such as search or online "
-"purchase) will be repeated. "
-msgstr ""
-
-#: src/konqview.cpp:1205
-#, fuzzy
-#| msgid "Warning"
-msgctxt "@title:window"
-msgid "Warning"
-msgstr "హెచ్చరిక"
-
-#: src/konqview.cpp:1205
-msgid "Resend"
 msgstr ""
 
 #: sidebar/history_module/history_module.cpp:126
