@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-30 11:04+0000\n"
+"POT-Creation-Date: 2011-12-19 16:22+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -662,16 +662,6 @@ msgctxt "Comment"
 msgid "An emulation of the Plan 9 window manager 8-1/2"
 msgstr "ప్లాన్ 9 విండో నిర్వాహిక 8-1/2 యొక్క పోటి"
 
-#: kdm/kfrontend/sessions/aewm.desktop:5
-msgctxt "Name"
-msgid "AEWM"
-msgstr "ఎ ఈ డబ్ల్యు ఎం"
-
-#: kdm/kfrontend/sessions/aewm.desktop:94
-msgctxt "Comment"
-msgid "A minimalist window manager"
-msgstr "కనీసజాబిత విండో నిర్వాహిక"
-
 #: kdm/kfrontend/sessions/aewm++.desktop:5
 msgctxt "Name"
 msgid "AEWM++"
@@ -685,6 +675,16 @@ msgid ""
 msgstr ""
 "AEWM ఆధారంతో కనీసపు విండో నిర్వాహిక, వర్చ్యువల్ డెస్‍క్ టాప్‍స్  మరియు పాక్షిక GNOME మద్దతు ద్వారా "
 "విస్తరించబడింది"
+
+#: kdm/kfrontend/sessions/aewm.desktop:5
+msgctxt "Name"
+msgid "AEWM"
+msgstr "ఎ ఈ డబ్ల్యు ఎం"
+
+#: kdm/kfrontend/sessions/aewm.desktop:94
+msgctxt "Comment"
+msgid "A minimalist window manager"
+msgstr "కనీసజాబిత విండో నిర్వాహిక"
 
 #: kdm/kfrontend/sessions/afterstep.desktop:5
 msgctxt "Name"
@@ -827,16 +827,6 @@ msgctxt "Comment"
 msgid "The Fast Light Window Manager, based primarily on WM2"
 msgstr "ఫాస్‍ట్‌లైట్ విండో నిర్వాహిక, ప్రాధమికంగా WM2 పై ఆధారపడి"
 
-#: kdm/kfrontend/sessions/fvwm95.desktop:5
-msgctxt "Name"
-msgid "FVWM95"
-msgstr "ఎఫ్ వి డబ్ల్యు ఎం 95"
-
-#: kdm/kfrontend/sessions/fvwm95.desktop:93
-msgctxt "Comment"
-msgid "A Windows 95 look-alike derivative of FVWM"
-msgstr "FVWM యొక్క విండోస్ 95 లుక్-ఎలైక్ ‌వ్యుత్పన్నం"
-
 #: kdm/kfrontend/sessions/fvwm.desktop:5
 msgctxt "Name"
 msgid "FVWM"
@@ -846,6 +836,16 @@ msgstr "ఎఫ్ వి డబ్ల్యు ఎం"
 msgctxt "Comment"
 msgid "A powerful ICCCM-compliant multiple virtual desktop window manager"
 msgstr "శక్తివంతమైన ICCCM-కంప్లైంట్ బహుళ వర్చ్యువల్ డెస్‍క్ టాప్ విండో నిర్వాహిక"
+
+#: kdm/kfrontend/sessions/fvwm95.desktop:5
+msgctxt "Name"
+msgid "FVWM95"
+msgstr "ఎఫ్ వి డబ్ల్యు ఎం 95"
+
+#: kdm/kfrontend/sessions/fvwm95.desktop:93
+msgctxt "Comment"
+msgid "A Windows 95 look-alike derivative of FVWM"
+msgstr "FVWM యొక్క విండోస్ 95 లుక్-ఎలైక్ ‌వ్యుత్పన్నం"
 
 #: kdm/kfrontend/sessions/gnome.desktop:5
 msgctxt "Name"
@@ -891,6 +891,16 @@ msgctxt "Comment"
 msgid "A keyboard-friendly window manager with tiled windows, based on PWM"
 msgstr "PWM ఆధారిత, టైల్‍డ్ విండోస్‌తో కీబోర్‍డ్‌-స్నేహపూరిత విండో నిర్వాహిక"
 
+#: kdm/kfrontend/sessions/kde-plasma-safe.desktop.cmake:6
+msgctxt "Name"
+msgid "KDE Plasma Workspace (failsafe session)"
+msgstr ""
+
+#: kdm/kfrontend/sessions/kde-plasma-safe.desktop.cmake:45
+msgctxt "Comment"
+msgid "The desktop made by KDE (failsafe session)"
+msgstr ""
+
 #: kdm/kfrontend/sessions/kde-plasma.desktop.cmake:6
 #, fuzzy
 #| msgctxt "Name"
@@ -902,16 +912,6 @@ msgstr "డెమో ShiftWorkspaceUp"
 #: kdm/kfrontend/sessions/kde-plasma.desktop.cmake:45
 msgctxt "Comment"
 msgid "The desktop made by KDE"
-msgstr ""
-
-#: kdm/kfrontend/sessions/kde-plasma-safe.desktop.cmake:6
-msgctxt "Name"
-msgid "KDE Plasma Workspace (failsafe session)"
-msgstr ""
-
-#: kdm/kfrontend/sessions/kde-plasma-safe.desktop.cmake:45
-msgctxt "Comment"
-msgid "The desktop made by KDE (failsafe session)"
 msgstr ""
 
 #: kdm/kfrontend/sessions/larswm.desktop:5
@@ -1154,6 +1154,18 @@ msgctxt "Comment"
 msgid "A simple window manager that resembles the NeXTStep look very closely"
 msgstr "NeXTStep రూపును చాలా దగ్గరగా తుల్యంచేయు సాదారణ విండో నిర్వాహకి"
 
+#: kdm/kfrontend/sessions/xfce.desktop:5
+msgctxt "Name"
+msgid "XFce"
+msgstr "ఎక్స్ ఎఫ్ సి ఈ"
+
+#: kdm/kfrontend/sessions/xfce.desktop:94
+msgctxt "Comment"
+msgid ""
+"The Cholesterol Free Desktop Environment. A desktop environment reminiscent "
+"of CDE"
+msgstr "కొలెస్ట్రాల్ లేని డెస్‍క్ టాప్ వాతావరణం. CDE గుర్తుగా ఒక డెస్‍క్ టాప్ వాతావరణం"
+
 #: kdm/kfrontend/sessions/xfce4.desktop:5
 #, fuzzy
 #| msgctxt "Name"
@@ -1168,18 +1180,6 @@ msgid ""
 "The Cholesterol Free Desktop Environment, version 4. A desktop environment "
 "reminiscent of CDE"
 msgstr "కొలెస్ట్రాల్ లేని డెస్‍క్ టాప్ వాతావరణం, వర్షన్ 4. CDE గుర్తుగా ఒక డెస్‍క్ టాప్ వాతావరణం"
-
-#: kdm/kfrontend/sessions/xfce.desktop:5
-msgctxt "Name"
-msgid "XFce"
-msgstr "ఎక్స్ ఎఫ్ సి ఈ"
-
-#: kdm/kfrontend/sessions/xfce.desktop:94
-msgctxt "Comment"
-msgid ""
-"The Cholesterol Free Desktop Environment. A desktop environment reminiscent "
-"of CDE"
-msgstr "కొలెస్ట్రాల్ లేని డెస్‍క్ టాప్ వాతావరణం. CDE గుర్తుగా ఒక డెస్‍క్ టాప్ వాతావరణం"
 
 #: kdm/kfrontend/themes/circles/KdmGreeterTheme.desktop:6
 msgctxt "Name"
@@ -1851,16 +1851,6 @@ msgctxt "Name"
 msgid "Network Information"
 msgstr "మెమొరి సమాచారం"
 
-#: kinfocenter/kinfocenter.desktop:9
-msgctxt "Name"
-msgid "KInfoCenter"
-msgstr "కెఇన్ఫొసెంటర్"
-
-#: kinfocenter/kinfocenter.desktop:99
-msgctxt "GenericName"
-msgid "Info Center"
-msgstr "సమాచార కేంద్రం"
-
 #: kinfocenter/Modules/devinfo/devinfo.desktop:13
 #, fuzzy
 #| msgctxt "GenericName"
@@ -1917,6 +1907,16 @@ msgctxt "Comment"
 msgid "SCSI information"
 msgstr "SCSI సమాచారం"
 
+#: kinfocenter/Modules/info/xserver.desktop:13
+msgctxt "Name"
+msgid "X-Server"
+msgstr "ఎక్స్-సెర్వర్"
+
+#: kinfocenter/Modules/info/xserver.desktop:106
+msgctxt "Comment"
+msgid "X-Server information"
+msgstr "ఎక్స్-సెర్వర్ సమాచారం"
+
 #: kinfocenter/Modules/infosummary/kcm_infosummary.desktop:11
 msgctxt "Name"
 msgid "Summary"
@@ -1929,16 +1929,6 @@ msgstr ""
 msgctxt "Comment"
 msgid "Hardware Information Summary"
 msgstr "హార్డువేర్"
-
-#: kinfocenter/Modules/info/xserver.desktop:13
-msgctxt "Name"
-msgid "X-Server"
-msgstr "ఎక్స్-సెర్వర్"
-
-#: kinfocenter/Modules/info/xserver.desktop:106
-msgctxt "Comment"
-msgid "X-Server information"
-msgstr "ఎక్స్-సెర్వర్ సమాచారం"
 
 #: kinfocenter/Modules/memory/kcm_memory.desktop:12
 msgctxt "Name"
@@ -2010,6 +2000,16 @@ msgstr "ఐఈఈఈ 1394 పరికరాలు"
 msgctxt "Comment"
 msgid "Attached IEEE 1394 devices"
 msgstr "అనుభందించిన IEEE 1394 పరికరాలు"
+
+#: kinfocenter/kinfocenter.desktop:9
+msgctxt "Name"
+msgid "KInfoCenter"
+msgstr "కెఇన్ఫొసెంటర్"
+
+#: kinfocenter/kinfocenter.desktop:99
+msgctxt "GenericName"
+msgid "Info Center"
+msgstr "సమాచార కేంద్రం"
 
 #: klipper/klipper.desktop:2
 msgctxt "Name"
@@ -2389,16 +2389,6 @@ msgctxt "Comment"
 msgid "Style that uses the Apple Appearance Manager"
 msgstr ""
 
-#: kstyles/themes/qtmotifplus.themerc:2
-msgctxt "Name"
-msgid "Motif Plus"
-msgstr "మోటిఫ్ ప్లస్"
-
-#: kstyles/themes/qtmotifplus.themerc:84
-msgctxt "Comment"
-msgid "Built-in enhanced Motif style"
-msgstr "అంతర్-నిర్మిత విస్తరిత మోటిఫ్ శైలి"
-
 #: kstyles/themes/qtmotif.themerc:2
 msgctxt "Name"
 msgid "Motif"
@@ -2408,6 +2398,16 @@ msgstr "మోటిఫ్"
 msgctxt "Comment"
 msgid "Built-in unthemed Motif style"
 msgstr "అంతర్-నిర్మిత అన్‌థీమ్‌డ్ మోటిఫ్ శైలి"
+
+#: kstyles/themes/qtmotifplus.themerc:2
+msgctxt "Name"
+msgid "Motif Plus"
+msgstr "మోటిఫ్ ప్లస్"
+
+#: kstyles/themes/qtmotifplus.themerc:84
+msgctxt "Comment"
+msgid "Built-in enhanced Motif style"
+msgstr "అంతర్-నిర్మిత విస్తరిత మోటిఫ్ శైలి"
 
 #: kstyles/themes/qtplastique.themerc:2
 #, fuzzy
@@ -2558,519 +2558,6 @@ msgctxt "Description"
 msgid "(Default) Disable focus stealing prevention for XV"
 msgstr "(అప్రమేయం) XV కు ఫోకస్ స్టీలింగ్ నిరోధాన్ని అచేతనంచేయుము"
 
-#: kwin/effects/blur/blur_config.desktop:9 kwin/effects/blur/blur.desktop:2
-msgctxt "Name"
-msgid "Blur"
-msgstr "బ్లర్"
-
-#: kwin/effects/blur/blur.desktop:85
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Blurs background of semi-transparent windows"
-msgctxt "Comment"
-msgid "Blurs the background behind semi-transparent windows"
-msgstr "స్వల్ప-పారదర్శక విండోల యొక్క బ్యాక్‌గ్రౌండ్‌ను బ్లర్‌చేస్తుంది"
-
-#: kwin/effects/boxswitch/boxswitch_config.desktop:9
-#: kwin/effects/boxswitch/boxswitch.desktop:2
-msgctxt "Name"
-msgid "Box Switch"
-msgstr "బాక్‍స్  స్విచ్"
-
-#: kwin/effects/boxswitch/boxswitch.desktop:79
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Cover Switch - an alternative alt+tab window switcher"
-msgctxt "Comment"
-msgid "Display thumbnails of windows in the alt+tab window switcher"
-msgstr "కవర్ స్విచ్ - ఒక ప్రత్యామ్నాయ alt+tab విండో స్విచర్"
-
-#: kwin/effects/coverswitch/coverswitch_config.desktop:9
-#: kwin/effects/coverswitch/coverswitch.desktop:2
-msgctxt "Name"
-msgid "Cover Switch"
-msgstr "కవర్ స్విచ్"
-
-#: kwin/effects/coverswitch/coverswitch.desktop:73
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Cover Switch - an alternative alt+tab window switcher"
-msgctxt "Comment"
-msgid "Display a Cover Flow effect for the alt+tab window switcher"
-msgstr "కవర్ స్విచ్ - ఒక ప్రత్యామ్నాయ alt+tab విండో స్విచర్"
-
-#: kwin/effects/cube/cube_config.desktop:9 kwin/effects/cube/cube.desktop:2
-msgctxt "Name"
-msgid "Desktop Cube"
-msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
-
-#: kwin/effects/cube/cube.desktop:79
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Map virtual desktops on a cube"
-msgctxt "Comment"
-msgid "Display each virtual desktop on a side of a cube"
-msgstr "క్యూబ్‌పైన వర్చ్యువల్ డెస్‍క్ టాప్‍స్ ను మాప్‌చేయుము"
-
-#: kwin/effects/cube/cubeslide_config.desktop:9
-#: kwin/effects/cube/cubeslide.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop Cube"
-msgctxt "Name"
-msgid "Desktop Cube Animation"
-msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
-
-#: kwin/effects/cube/cubeslide.desktop:70
-msgctxt "Comment"
-msgid "Animate desktop switching with a cube"
-msgstr ""
-
-#: kwin/effects/dashboard/dashboard_config.desktop:9
-#: kwin/effects/dashboard/dashboard.desktop:2
-#: plasma/generic/scriptengines/webkit/plasma-scriptengine-applet-dashboard.desktop:2
-msgctxt "Name"
-msgid "Dashboard"
-msgstr "డాష్‌బోర్‍డ్"
-
-#: kwin/effects/dashboard/dashboard.desktop:78
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Desaturate the desktop when displaying the logout dialog"
-msgctxt "Comment"
-msgid "Desaturate the desktop when displaying the Plasma dashboard"
-msgstr "లాగ్అవుట్ డైలాగ్‌ను ప్రదర్శిస్తున్నప్పుడు రంగస్థలమును డీసాట్యురేట్ చేయుము"
-
-#: kwin/effects/desktopgrid/desktopgrid_config.desktop:9
-#: kwin/effects/desktopgrid/desktopgrid.desktop:2
-msgctxt "Name"
-msgid "Desktop Grid"
-msgstr "డెస్‍క్ టాప్ గ్రిడ్"
-
-#: kwin/effects/desktopgrid/desktopgrid.desktop:82
-msgctxt "Comment"
-msgid "Zoom out so all desktops are displayed side-by-side in a grid"
-msgstr "జూమ్ అవుట్ చేయుము అలా అన్ని రంగస్థలములు గ్రిడ్‌నందు ప్రక్క-ప్రక్కనే కనబడతాయి"
-
-#: kwin/effects/dialogparent/dialogparent.desktop:2
-msgctxt "Name"
-msgid "Dialog Parent"
-msgstr "డైలాగ్ మాత్రుక"
-
-#: kwin/effects/dialogparent/dialogparent.desktop:79
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Darkens parent windows of active dialogs"
-msgctxt "Comment"
-msgid "Darkens the parent window of the currently active dialog"
-msgstr "క్రియాశీల డైలాగ్‍స్  యొక్క మాత్రుక విండోలను అగోచరంచేస్తుంది"
-
-#: kwin/effects/diminactive/diminactive_config.desktop:9
-#: kwin/effects/diminactive/diminactive.desktop:2
-msgctxt "Name"
-msgid "Dim Inactive"
-msgstr "Dim క్రియాహీనం"
-
-#: kwin/effects/diminactive/diminactive.desktop:78
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Darkens inactive windows"
-msgctxt "Comment"
-msgid "Darken inactive windows"
-msgstr "క్రియారహిత విండోలను అగోచరంచేస్తుంది"
-
-#: kwin/effects/dimscreen/dimscreen.desktop:2
-msgctxt "Name"
-msgid "Dim Screen for Administrator Mode"
-msgstr "నిర్వాహక రీతికొరకు తెరను డిమ్ చేస్తుంది"
-
-#: kwin/effects/dimscreen/dimscreen.desktop:73
-msgctxt "Comment"
-msgid "Darkens the entire screen when requesting root privileges"
-msgstr "రూట్ అనుమతులను అభ్యర్ధిస్తున్నప్పుడు మొత్తం తెరను చీకటిచేస్తుంది."
-
-#: kwin/effects/explosion/explosion.desktop:2
-msgctxt "Name"
-msgid "Explosion"
-msgstr "ఎక్‍స్ ప్లోజన్"
-
-#: kwin/effects/explosion/explosion.desktop:84
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Makes windows explode when they are closed"
-msgctxt "Comment"
-msgid "Make windows explode when they are closed"
-msgstr "విండోలు మూసినప్పుడు ఎక్‍స్ ప్లోడ్ అగునట్లు చేయుము"
-
-#: kwin/effects/fadedesktop/fadedesktop.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "SaverDesktop"
-msgctxt "Name"
-msgid "Fade Desktop"
-msgstr "సేవిక‍డెస్‍క్ టాప్"
-
-#: kwin/effects/fadedesktop/fadedesktop.desktop:69
-msgctxt "Comment"
-msgid "Fade between virtual desktops when switching between them"
-msgstr ""
-
-#: kwin/effects/fade/fade.desktop:2
-msgctxt "Name"
-msgid "Fade"
-msgstr "ఫేడ్"
-
-#: kwin/effects/fade/fade.desktop:83
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Makes windows smoothly fade in/out when they are shown or hidden"
-msgctxt "Comment"
-msgid "Make windows smoothly fade in and out when they are shown or hidden"
-msgstr "విండోలు చూపునప్పుడు లేదా మరగుపడునప్పుడు సున్నితంగా ఫేడ్ అయ్యేట్లు/కానట్లు చేయుము"
-
-#: kwin/effects/fallapart/fallapart.desktop:2
-msgctxt "Name"
-msgid "Fall Apart"
-msgstr "ఫాల్ ఎపార్‍ట్"
-
-#: kwin/effects/fallapart/fallapart.desktop:78
-msgctxt "Comment"
-msgid "Closed windows fall into pieces"
-msgstr "మూసిన విండోలు ముక్కలుగా పడతాయి"
-
-#: kwin/effects/flipswitch/flipswitch_config.desktop:9
-#: kwin/effects/flipswitch/flipswitch.desktop:2
-msgctxt "Name"
-msgid "Flip Switch"
-msgstr "ఫ్లిప్ స్విచ్"
-
-#: kwin/effects/flipswitch/flipswitch.desktop:72
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Cover Switch - an alternative alt+tab window switcher"
-msgctxt "Comment"
-msgid ""
-"Flip through windows that are in a stack for the alt+tab window switcher"
-msgstr "కవర్ స్విచ్ - ఒక ప్రత్యామ్నాయ alt+tab విండో స్విచర్"
-
-#: kwin/effects/glide/glide_config.desktop:9
-#: kwin/effects/glide/glide.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Solid"
-msgctxt "Name"
-msgid "Glide"
-msgstr "సాలిడ్"
-
-#: kwin/effects/glide/glide.desktop:62
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Makes windows explode when they are closed"
-msgctxt "Comment"
-msgid "Windows Glide Effect as they are open and closed"
-msgstr "విండోలు మూసినప్పుడు ఎక్‍స్ ప్లోడ్ అగునట్లు చేయుము"
-
-#: kwin/effects/highlightwindow/highlightwindow.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Duplicate Window"
-msgctxt "Name"
-msgid "Highlight Window"
-msgstr "నకిలి విండో"
-
-#: kwin/effects/highlightwindow/highlightwindow.desktop:71
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Shows window thumbnails when cursor is on their taskbar entry"
-msgctxt "Comment"
-msgid "Highlight the appropriate window when hovering over taskbar entries"
-msgstr "కర్సర్ టాస్‍క్ బార్ ప్రవేశంపైన వున్నప్పుడు విండో థంబ్‌నెయిల్‍స్ ను చూపుతుంది"
-
-#: kwin/effects/invert/invert_config.desktop:9
-#: kwin/effects/invert/invert.desktop:2
-msgctxt "Name"
-msgid "Invert"
-msgstr "ఇన్వర్‍ట్"
-
-#: kwin/effects/invert/invert.desktop:84
-msgctxt "Comment"
-msgid "Inverts the color of the desktop and windows"
-msgstr "రంగస్థలము మరియు విండోల రంగును విలోమం చేస్తుంది."
-
-#: kwin/effects/kwineffect.desktop:5
-msgctxt "Comment"
-msgid "KWin Effect"
-msgstr "KWin ప్రభావం"
-
-#: kwin/effects/login/login.desktop:2
-msgctxt "Name"
-msgid "Login"
-msgstr "లాగిన్"
-
-#: kwin/effects/login/login.desktop:88
-msgctxt "Comment"
-msgid "Smoothly fade to the desktop when logging in"
-msgstr "లాగిన్ అవుతున్నప్పుడు రంగస్థలమునకు సున్నితంగా ఫేడ్ చేయుము"
-
-#: kwin/effects/logout/logout.desktop:2
-msgctxt "Name"
-msgid "Logout"
-msgstr "లాగ్అవుట్"
-
-#: kwin/effects/logout/logout.desktop:88
-msgctxt "Comment"
-msgid "Desaturate the desktop when displaying the logout dialog"
-msgstr "లాగ్అవుట్ డైలాగ్‌ను ప్రదర్శిస్తున్నప్పుడు రంగస్థలమును డీసాట్యురేట్ చేయుము"
-
-#: kwin/effects/lookingglass/lookingglass_config.desktop:9
-#: kwin/effects/lookingglass/lookingglass.desktop:2
-msgctxt "Name"
-msgid "Looking Glass"
-msgstr "లుకింగ్ గ్లాస్"
-
-#: kwin/effects/lookingglass/lookingglass.desktop:78
-msgctxt "Comment"
-msgid "A screen magnifier that looks like a fisheye lens"
-msgstr "చేపకన్ను లెన్‍స్  వలె అనిపించు స్క్రీన్ మాగ్నిఫైర్"
-
-#: kwin/effects/magiclamp/magiclamp_config.desktop:9
-#: kwin/effects/magiclamp/magiclamp.desktop:2
-msgctxt "Name"
-msgid "Magic Lamp"
-msgstr "మాజిక్ లాంప్"
-
-#: kwin/effects/magiclamp/magiclamp.desktop:74
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Animates minimizing of windows"
-msgctxt "Comment"
-msgid "Simulate a magic lamp when minimizing windows"
-msgstr "విండోలను చిన్నదిచేయుట ఏనిమేట్‌చేయుము"
-
-#: kwin/effects/magnifier/magnifier_config.desktop:9
-#: kwin/effects/magnifier/magnifier.desktop:2
-msgctxt "Name"
-msgid "Magnifier"
-msgstr "మాగ్నిఫైర్"
-
-#: kwin/effects/magnifier/magnifier.desktop:87
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Magnifies the part of the screen that is under the mouse"
-msgctxt "Comment"
-msgid "Magnify the section of the screen that is near the mouse cursor"
-msgstr "మౌస్ క్రిందవున్న తెర భాగమును పెద్దదిచేస్తుంది"
-
-#: kwin/effects/minimizeanimation/minimizeanimation.desktop:2
-msgctxt "Name"
-msgid "Minimize Animation"
-msgstr "చిన్నదిచేయుటకు యానిమేషన్"
-
-#: kwin/effects/minimizeanimation/minimizeanimation.desktop:82
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Animates minimizing of windows"
-msgctxt "Comment"
-msgid "Animate the minimizing of windows"
-msgstr "విండోలను చిన్నదిచేయుట ఏనిమేట్‌చేయుము"
-
-#: kwin/effects/mousemark/mousemark_config.desktop:9
-#: kwin/effects/mousemark/mousemark.desktop:2
-msgctxt "Name"
-msgid "Mouse Mark"
-msgstr "మౌస్ గుర్తు"
-
-#: kwin/effects/mousemark/mousemark.desktop:82
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Lets you draw lines on your desktop"
-msgctxt "Comment"
-msgid "Allows you to draw lines on the desktop"
-msgstr "మీ డెస్‍క్ టాప్‌ పైన గీతలను గీయనిస్తుంది"
-
-#: kwin/effects/outline/outline.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Guinea"
-msgctxt "Name"
-msgid "Outline"
-msgstr "గుయ్నియా"
-
-#: kwin/effects/outline/outline.desktop:48
-msgctxt "Comment"
-msgid "Helper effect to render an outline"
-msgstr ""
-
-#: kwin/effects/presentwindows/presentwindows_config.desktop:9
-#: kwin/effects/presentwindows/presentwindows.desktop:2
-msgctxt "Name"
-msgid "Present Windows"
-msgstr "ప్రస్తుత విండోలు"
-
-#: kwin/effects/presentwindows/presentwindows.desktop:82
-msgctxt "Comment"
-msgid "Zoom out until all opened windows can be displayed side-by-side"
-msgstr "అన్ని తెరిచివున్న విండోలు ప్రక్క-ప్రక్కన ప్రదర్శించబడునంత వరకు జూమ్ అవుట్ చేయుము"
-
-#: kwin/effects/resize/resize_config.desktop:9
-#: kwin/effects/resize/resize.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Present Windows"
-msgctxt "Name"
-msgid "Resize Window"
-msgstr "ప్రస్తుత విండోలు"
-
-#: kwin/effects/resize/resize.desktop:70
-msgctxt "Comment"
-msgid "Resizes windows with a fast texture scale instead of updating contents"
-msgstr ""
-
-#: kwin/effects/scalein/scalein.desktop:2
-msgctxt "Name"
-msgid "Scale In"
-msgstr "స్కేల్ ఇన్"
-
-#: kwin/effects/scalein/scalein.desktop:80
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Animates appearing of windows"
-msgctxt "Comment"
-msgid "Animate the appearing of windows"
-msgstr "విండోలు కనిపించు విధంను యానిమేట్‌చేస్తుంది"
-
-#: kwin/effects/screenshot/screenshot.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
-msgctxt "Name"
-msgid "Screenshot"
-msgstr "స్క్రీన్ సేవర్"
-
-#: kwin/effects/screenshot/screenshot.desktop:59
-msgctxt "Comment"
-msgid "Saves screenshot of active window into the home directory"
-msgstr ""
-
-#: kwin/effects/sheet/sheet.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Stylesheets"
-msgctxt "Name"
-msgid "Sheet"
-msgstr "స్టైల్‌షీట్స్‍"
-
-#: kwin/effects/sheet/sheet.desktop:71
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Makes windows smoothly fade in/out when they are shown or hidden"
-msgctxt "Comment"
-msgid ""
-"Make modal dialogs smoothly fly in and out when they are shown or hidden"
-msgstr "విండోలు చూపునప్పుడు లేదా మరగుపడునప్పుడు సున్నితంగా ఫేడ్ అయ్యేట్లు/కానట్లు చేయుము"
-
-#: kwin/effects/showfps/showfps_config.desktop:9
-#: kwin/effects/showfps/showfps.desktop:2
-msgctxt "Name"
-msgid "Show FPS"
-msgstr "FPS ను చూపుము"
-
-#: kwin/effects/showfps/showfps.desktop:83
-msgctxt "Comment"
-msgid "Display KWin's performance in the corner of the screen"
-msgstr "స్క్రీన్ మూలలో KWinయొక్క పనితనమును ప్రదర్శించుము"
-
-#: kwin/effects/showpaint/showpaint.desktop:2
-msgctxt "Name"
-msgid "Show Paint"
-msgstr "పెయింట్ చూపుము"
-
-#: kwin/effects/showpaint/showpaint.desktop:79
-msgctxt "Comment"
-msgid "Highlight areas of the desktop that have been recently updated"
-msgstr "ఇటీవల నవీకరించబడిన రంగస్థల ప్రాంతములను ఉద్దీపనం చేయుము"
-
-#: kwin/effects/slideback/slideback.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Solid"
-msgctxt "Name"
-msgid "Slide Back"
-msgstr "సాలిడ్"
-
-#: kwin/effects/slideback/slideback.desktop:71
-msgctxt "Comment"
-msgid "Slide back windows losing focus"
-msgstr ""
-
-#: kwin/effects/slide/slide.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Solid"
-msgctxt "Name"
-msgid "Slide"
-msgstr "సాలిడ్"
-
-#: kwin/effects/slide/slide.desktop:73
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Let it snow on the desktop"
-msgctxt "Comment"
-msgid "Slide windows across the screen when switching virtual desktops"
-msgstr "డెస్‍క్ టాప్ పైన మంచుకురవనివ్వు"
-
-#: kwin/effects/slidingpopups/slidingpopups.desktop:2
-msgctxt "Name"
-msgid "Sliding popups"
-msgstr ""
-
-#: kwin/effects/slidingpopups/slidingpopups.desktop:67
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Weather data for Plasmoids"
-msgctxt "Comment"
-msgid "Sliding animation for Plasma popups"
-msgstr "Plasmoids కొరకు వాతావరణ డాటా"
-
-#: kwin/effects/snaphelper/snaphelper.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Saint Helena"
-msgctxt "Name"
-msgid "Snap Helper"
-msgstr "సెం. హెలినా"
-
-#: kwin/effects/snaphelper/snaphelper.desktop:70
-msgctxt "Comment"
-msgid "Help you locate the center of the screen when moving a window."
-msgstr ""
-
-#: kwin/effects/startupfeedback/startupfeedback.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Launch Feedback"
-msgctxt "Name"
-msgid "Startup Feedback"
-msgstr "లాంచ్ ప్రతిస్పందన"
-
-#: kwin/effects/startupfeedback/startupfeedback.desktop:55
-msgctxt "Comment"
-msgid "Helper effect for startup feedback"
-msgstr ""
-
-#: kwin/effects/taskbarthumbnail/taskbarthumbnail.desktop:2
-msgctxt "Name"
-msgid "Taskbar Thumbnails"
-msgstr "టాస్‍క్ బార్ థంబ్‌నెయిల్‍స్"
-
-#: kwin/effects/taskbarthumbnail/taskbarthumbnail.desktop:78
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Shows window thumbnails when cursor is on their taskbar entry"
-msgctxt "Comment"
-msgid "Display window thumbnails when hovering over taskbar entries"
-msgstr "కర్సర్ టాస్‍క్ బార్ ప్రవేశంపైన వున్నప్పుడు విండో థంబ్‌నెయిల్‍స్ ను చూపుతుంది"
-
 #: kwin/effects/_test/demo_liquid.desktop:2
 msgctxt "Name"
 msgid "Demo Liquid"
@@ -3129,8 +2616,8 @@ msgctxt "Comment"
 msgid "Demonstration effect for using EffectFrames"
 msgstr ""
 
-#: kwin/effects/_test/slidetabs/slidetabs_config.desktop:9
 #: kwin/effects/_test/slidetabs/slidetabs.desktop:2
+#: kwin/effects/_test/slidetabs/slidetabs_config.desktop:9
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Solid"
@@ -3146,8 +2633,8 @@ msgctxt "Comment"
 msgid "Slide windows when switching or grouping tabs."
 msgstr "డెస్‍క్ టాప్ పైన మంచుకురవనివ్వు"
 
-#: kwin/effects/_test/swiveltabs/swiveltabs_config.desktop:9
 #: kwin/effects/_test/swiveltabs/swiveltabs.desktop:2
+#: kwin/effects/_test/swiveltabs/swiveltabs_config.desktop:9
 msgctxt "Name"
 msgid "Swivel Tabs"
 msgstr ""
@@ -3175,8 +2662,8 @@ msgctxt "Name"
 msgid "Test_Thumbnail"
 msgstr "టెస్‍ట్_థంబ్‌నెయిల్"
 
-#: kwin/effects/_test/videorecord_config.desktop:9
 #: kwin/effects/_test/videorecord.desktop:2
+#: kwin/effects/_test/videorecord_config.desktop:9
 msgctxt "Name"
 msgid "Video Record"
 msgstr "వీడియో రికార్‍డ్"
@@ -3189,8 +2676,521 @@ msgctxt "Comment"
 msgid "Record a video of your desktop"
 msgstr "మీ డెస్‍క్ టాప్ యొక్క వీడియోలను రికార్‍డ్ చేయనిస్తుంది"
 
-#: kwin/effects/thumbnailaside/thumbnailaside_config.desktop:9
+#: kwin/effects/blur/blur.desktop:2 kwin/effects/blur/blur_config.desktop:9
+msgctxt "Name"
+msgid "Blur"
+msgstr "బ్లర్"
+
+#: kwin/effects/blur/blur.desktop:85
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Blurs background of semi-transparent windows"
+msgctxt "Comment"
+msgid "Blurs the background behind semi-transparent windows"
+msgstr "స్వల్ప-పారదర్శక విండోల యొక్క బ్యాక్‌గ్రౌండ్‌ను బ్లర్‌చేస్తుంది"
+
+#: kwin/effects/boxswitch/boxswitch.desktop:2
+#: kwin/effects/boxswitch/boxswitch_config.desktop:9
+msgctxt "Name"
+msgid "Box Switch"
+msgstr "బాక్‍స్  స్విచ్"
+
+#: kwin/effects/boxswitch/boxswitch.desktop:79
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Cover Switch - an alternative alt+tab window switcher"
+msgctxt "Comment"
+msgid "Display thumbnails of windows in the alt+tab window switcher"
+msgstr "కవర్ స్విచ్ - ఒక ప్రత్యామ్నాయ alt+tab విండో స్విచర్"
+
+#: kwin/effects/coverswitch/coverswitch.desktop:2
+#: kwin/effects/coverswitch/coverswitch_config.desktop:9
+msgctxt "Name"
+msgid "Cover Switch"
+msgstr "కవర్ స్విచ్"
+
+#: kwin/effects/coverswitch/coverswitch.desktop:73
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Cover Switch - an alternative alt+tab window switcher"
+msgctxt "Comment"
+msgid "Display a Cover Flow effect for the alt+tab window switcher"
+msgstr "కవర్ స్విచ్ - ఒక ప్రత్యామ్నాయ alt+tab విండో స్విచర్"
+
+#: kwin/effects/cube/cube.desktop:2 kwin/effects/cube/cube_config.desktop:9
+msgctxt "Name"
+msgid "Desktop Cube"
+msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
+
+#: kwin/effects/cube/cube.desktop:79
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Map virtual desktops on a cube"
+msgctxt "Comment"
+msgid "Display each virtual desktop on a side of a cube"
+msgstr "క్యూబ్‌పైన వర్చ్యువల్ డెస్‍క్ టాప్‍స్ ను మాప్‌చేయుము"
+
+#: kwin/effects/cube/cubeslide.desktop:2
+#: kwin/effects/cube/cubeslide_config.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop Cube"
+msgctxt "Name"
+msgid "Desktop Cube Animation"
+msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
+
+#: kwin/effects/cube/cubeslide.desktop:70
+msgctxt "Comment"
+msgid "Animate desktop switching with a cube"
+msgstr ""
+
+#: kwin/effects/dashboard/dashboard.desktop:2
+#: kwin/effects/dashboard/dashboard_config.desktop:9
+#: plasma/generic/scriptengines/webkit/plasma-scriptengine-applet-dashboard.desktop:2
+msgctxt "Name"
+msgid "Dashboard"
+msgstr "డాష్‌బోర్‍డ్"
+
+#: kwin/effects/dashboard/dashboard.desktop:77
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Desaturate the desktop when displaying the logout dialog"
+msgctxt "Comment"
+msgid "Desaturate the desktop when displaying the Plasma dashboard"
+msgstr "లాగ్అవుట్ డైలాగ్‌ను ప్రదర్శిస్తున్నప్పుడు రంగస్థలమును డీసాట్యురేట్ చేయుము"
+
+#: kwin/effects/desktopgrid/desktopgrid.desktop:2
+#: kwin/effects/desktopgrid/desktopgrid_config.desktop:9
+msgctxt "Name"
+msgid "Desktop Grid"
+msgstr "డెస్‍క్ టాప్ గ్రిడ్"
+
+#: kwin/effects/desktopgrid/desktopgrid.desktop:82
+msgctxt "Comment"
+msgid "Zoom out so all desktops are displayed side-by-side in a grid"
+msgstr "జూమ్ అవుట్ చేయుము అలా అన్ని రంగస్థలములు గ్రిడ్‌నందు ప్రక్క-ప్రక్కనే కనబడతాయి"
+
+#: kwin/effects/dialogparent/dialogparent.desktop:2
+msgctxt "Name"
+msgid "Dialog Parent"
+msgstr "డైలాగ్ మాత్రుక"
+
+#: kwin/effects/dialogparent/dialogparent.desktop:79
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Darkens parent windows of active dialogs"
+msgctxt "Comment"
+msgid "Darkens the parent window of the currently active dialog"
+msgstr "క్రియాశీల డైలాగ్‍స్  యొక్క మాత్రుక విండోలను అగోచరంచేస్తుంది"
+
+#: kwin/effects/diminactive/diminactive.desktop:2
+#: kwin/effects/diminactive/diminactive_config.desktop:9
+msgctxt "Name"
+msgid "Dim Inactive"
+msgstr "Dim క్రియాహీనం"
+
+#: kwin/effects/diminactive/diminactive.desktop:78
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Darkens inactive windows"
+msgctxt "Comment"
+msgid "Darken inactive windows"
+msgstr "క్రియారహిత విండోలను అగోచరంచేస్తుంది"
+
+#: kwin/effects/dimscreen/dimscreen.desktop:2
+msgctxt "Name"
+msgid "Dim Screen for Administrator Mode"
+msgstr "నిర్వాహక రీతికొరకు తెరను డిమ్ చేస్తుంది"
+
+#: kwin/effects/dimscreen/dimscreen.desktop:73
+msgctxt "Comment"
+msgid "Darkens the entire screen when requesting root privileges"
+msgstr "రూట్ అనుమతులను అభ్యర్ధిస్తున్నప్పుడు మొత్తం తెరను చీకటిచేస్తుంది."
+
+#: kwin/effects/explosion/explosion.desktop:2
+msgctxt "Name"
+msgid "Explosion"
+msgstr "ఎక్‍స్ ప్లోజన్"
+
+#: kwin/effects/explosion/explosion.desktop:84
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Makes windows explode when they are closed"
+msgctxt "Comment"
+msgid "Make windows explode when they are closed"
+msgstr "విండోలు మూసినప్పుడు ఎక్‍స్ ప్లోడ్ అగునట్లు చేయుము"
+
+#: kwin/effects/fade/fade.desktop:2
+msgctxt "Name"
+msgid "Fade"
+msgstr "ఫేడ్"
+
+#: kwin/effects/fade/fade.desktop:83
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Makes windows smoothly fade in/out when they are shown or hidden"
+msgctxt "Comment"
+msgid "Make windows smoothly fade in and out when they are shown or hidden"
+msgstr "విండోలు చూపునప్పుడు లేదా మరగుపడునప్పుడు సున్నితంగా ఫేడ్ అయ్యేట్లు/కానట్లు చేయుము"
+
+#: kwin/effects/fadedesktop/fadedesktop.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "SaverDesktop"
+msgctxt "Name"
+msgid "Fade Desktop"
+msgstr "సేవిక‍డెస్‍క్ టాప్"
+
+#: kwin/effects/fadedesktop/fadedesktop.desktop:69
+msgctxt "Comment"
+msgid "Fade between virtual desktops when switching between them"
+msgstr ""
+
+#: kwin/effects/fallapart/fallapart.desktop:2
+msgctxt "Name"
+msgid "Fall Apart"
+msgstr "ఫాల్ ఎపార్‍ట్"
+
+#: kwin/effects/fallapart/fallapart.desktop:78
+msgctxt "Comment"
+msgid "Closed windows fall into pieces"
+msgstr "మూసిన విండోలు ముక్కలుగా పడతాయి"
+
+#: kwin/effects/flipswitch/flipswitch.desktop:2
+#: kwin/effects/flipswitch/flipswitch_config.desktop:9
+msgctxt "Name"
+msgid "Flip Switch"
+msgstr "ఫ్లిప్ స్విచ్"
+
+#: kwin/effects/flipswitch/flipswitch.desktop:72
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Cover Switch - an alternative alt+tab window switcher"
+msgctxt "Comment"
+msgid ""
+"Flip through windows that are in a stack for the alt+tab window switcher"
+msgstr "కవర్ స్విచ్ - ఒక ప్రత్యామ్నాయ alt+tab విండో స్విచర్"
+
+#: kwin/effects/glide/glide.desktop:2
+#: kwin/effects/glide/glide_config.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Solid"
+msgctxt "Name"
+msgid "Glide"
+msgstr "సాలిడ్"
+
+#: kwin/effects/glide/glide.desktop:62
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Makes windows explode when they are closed"
+msgctxt "Comment"
+msgid "Windows Glide Effect as they are open and closed"
+msgstr "విండోలు మూసినప్పుడు ఎక్‍స్ ప్లోడ్ అగునట్లు చేయుము"
+
+#: kwin/effects/highlightwindow/highlightwindow.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Duplicate Window"
+msgctxt "Name"
+msgid "Highlight Window"
+msgstr "నకిలి విండో"
+
+#: kwin/effects/highlightwindow/highlightwindow.desktop:71
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Shows window thumbnails when cursor is on their taskbar entry"
+msgctxt "Comment"
+msgid "Highlight the appropriate window when hovering over taskbar entries"
+msgstr "కర్సర్ టాస్‍క్ బార్ ప్రవేశంపైన వున్నప్పుడు విండో థంబ్‌నెయిల్‍స్ ను చూపుతుంది"
+
+#: kwin/effects/invert/invert.desktop:2
+#: kwin/effects/invert/invert_config.desktop:9
+msgctxt "Name"
+msgid "Invert"
+msgstr "ఇన్వర్‍ట్"
+
+#: kwin/effects/invert/invert.desktop:84
+msgctxt "Comment"
+msgid "Inverts the color of the desktop and windows"
+msgstr "రంగస్థలము మరియు విండోల రంగును విలోమం చేస్తుంది."
+
+#: kwin/effects/kwineffect.desktop:5
+msgctxt "Comment"
+msgid "KWin Effect"
+msgstr "KWin ప్రభావం"
+
+#: kwin/effects/login/login.desktop:2
+msgctxt "Name"
+msgid "Login"
+msgstr "లాగిన్"
+
+#: kwin/effects/login/login.desktop:88
+msgctxt "Comment"
+msgid "Smoothly fade to the desktop when logging in"
+msgstr "లాగిన్ అవుతున్నప్పుడు రంగస్థలమునకు సున్నితంగా ఫేడ్ చేయుము"
+
+#: kwin/effects/logout/logout.desktop:2
+msgctxt "Name"
+msgid "Logout"
+msgstr "లాగ్అవుట్"
+
+#: kwin/effects/logout/logout.desktop:88
+msgctxt "Comment"
+msgid "Desaturate the desktop when displaying the logout dialog"
+msgstr "లాగ్అవుట్ డైలాగ్‌ను ప్రదర్శిస్తున్నప్పుడు రంగస్థలమును డీసాట్యురేట్ చేయుము"
+
+#: kwin/effects/lookingglass/lookingglass.desktop:2
+#: kwin/effects/lookingglass/lookingglass_config.desktop:9
+msgctxt "Name"
+msgid "Looking Glass"
+msgstr "లుకింగ్ గ్లాస్"
+
+#: kwin/effects/lookingglass/lookingglass.desktop:78
+msgctxt "Comment"
+msgid "A screen magnifier that looks like a fisheye lens"
+msgstr "చేపకన్ను లెన్‍స్  వలె అనిపించు స్క్రీన్ మాగ్నిఫైర్"
+
+#: kwin/effects/magiclamp/magiclamp.desktop:2
+#: kwin/effects/magiclamp/magiclamp_config.desktop:9
+msgctxt "Name"
+msgid "Magic Lamp"
+msgstr "మాజిక్ లాంప్"
+
+#: kwin/effects/magiclamp/magiclamp.desktop:74
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Animates minimizing of windows"
+msgctxt "Comment"
+msgid "Simulate a magic lamp when minimizing windows"
+msgstr "విండోలను చిన్నదిచేయుట ఏనిమేట్‌చేయుము"
+
+#: kwin/effects/magnifier/magnifier.desktop:2
+#: kwin/effects/magnifier/magnifier_config.desktop:9
+msgctxt "Name"
+msgid "Magnifier"
+msgstr "మాగ్నిఫైర్"
+
+#: kwin/effects/magnifier/magnifier.desktop:87
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Magnifies the part of the screen that is under the mouse"
+msgctxt "Comment"
+msgid "Magnify the section of the screen that is near the mouse cursor"
+msgstr "మౌస్ క్రిందవున్న తెర భాగమును పెద్దదిచేస్తుంది"
+
+#: kwin/effects/minimizeanimation/minimizeanimation.desktop:2
+msgctxt "Name"
+msgid "Minimize Animation"
+msgstr "చిన్నదిచేయుటకు యానిమేషన్"
+
+#: kwin/effects/minimizeanimation/minimizeanimation.desktop:82
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Animates minimizing of windows"
+msgctxt "Comment"
+msgid "Animate the minimizing of windows"
+msgstr "విండోలను చిన్నదిచేయుట ఏనిమేట్‌చేయుము"
+
+#: kwin/effects/mousemark/mousemark.desktop:2
+#: kwin/effects/mousemark/mousemark_config.desktop:9
+msgctxt "Name"
+msgid "Mouse Mark"
+msgstr "మౌస్ గుర్తు"
+
+#: kwin/effects/mousemark/mousemark.desktop:82
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Lets you draw lines on your desktop"
+msgctxt "Comment"
+msgid "Allows you to draw lines on the desktop"
+msgstr "మీ డెస్‍క్ టాప్‌ పైన గీతలను గీయనిస్తుంది"
+
+#: kwin/effects/outline/outline.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Guinea"
+msgctxt "Name"
+msgid "Outline"
+msgstr "గుయ్నియా"
+
+#: kwin/effects/outline/outline.desktop:48
+msgctxt "Comment"
+msgid "Helper effect to render an outline"
+msgstr ""
+
+#: kwin/effects/presentwindows/presentwindows.desktop:2
+#: kwin/effects/presentwindows/presentwindows_config.desktop:9
+msgctxt "Name"
+msgid "Present Windows"
+msgstr "ప్రస్తుత విండోలు"
+
+#: kwin/effects/presentwindows/presentwindows.desktop:82
+msgctxt "Comment"
+msgid "Zoom out until all opened windows can be displayed side-by-side"
+msgstr "అన్ని తెరిచివున్న విండోలు ప్రక్క-ప్రక్కన ప్రదర్శించబడునంత వరకు జూమ్ అవుట్ చేయుము"
+
+#: kwin/effects/resize/resize.desktop:2
+#: kwin/effects/resize/resize_config.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Present Windows"
+msgctxt "Name"
+msgid "Resize Window"
+msgstr "ప్రస్తుత విండోలు"
+
+#: kwin/effects/resize/resize.desktop:70
+msgctxt "Comment"
+msgid "Resizes windows with a fast texture scale instead of updating contents"
+msgstr ""
+
+#: kwin/effects/scalein/scalein.desktop:2
+msgctxt "Name"
+msgid "Scale In"
+msgstr "స్కేల్ ఇన్"
+
+#: kwin/effects/scalein/scalein.desktop:80
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Animates appearing of windows"
+msgctxt "Comment"
+msgid "Animate the appearing of windows"
+msgstr "విండోలు కనిపించు విధంను యానిమేట్‌చేస్తుంది"
+
+#: kwin/effects/screenshot/screenshot.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen Saver"
+msgctxt "Name"
+msgid "Screenshot"
+msgstr "స్క్రీన్ సేవర్"
+
+#: kwin/effects/screenshot/screenshot.desktop:59
+msgctxt "Comment"
+msgid "Saves screenshot of active window into the home directory"
+msgstr ""
+
+#: kwin/effects/sheet/sheet.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Stylesheets"
+msgctxt "Name"
+msgid "Sheet"
+msgstr "స్టైల్‌షీట్స్‍"
+
+#: kwin/effects/sheet/sheet.desktop:71
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Makes windows smoothly fade in/out when they are shown or hidden"
+msgctxt "Comment"
+msgid ""
+"Make modal dialogs smoothly fly in and out when they are shown or hidden"
+msgstr "విండోలు చూపునప్పుడు లేదా మరగుపడునప్పుడు సున్నితంగా ఫేడ్ అయ్యేట్లు/కానట్లు చేయుము"
+
+#: kwin/effects/showfps/showfps.desktop:2
+#: kwin/effects/showfps/showfps_config.desktop:9
+msgctxt "Name"
+msgid "Show FPS"
+msgstr "FPS ను చూపుము"
+
+#: kwin/effects/showfps/showfps.desktop:83
+msgctxt "Comment"
+msgid "Display KWin's performance in the corner of the screen"
+msgstr "స్క్రీన్ మూలలో KWinయొక్క పనితనమును ప్రదర్శించుము"
+
+#: kwin/effects/showpaint/showpaint.desktop:2
+msgctxt "Name"
+msgid "Show Paint"
+msgstr "పెయింట్ చూపుము"
+
+#: kwin/effects/showpaint/showpaint.desktop:79
+msgctxt "Comment"
+msgid "Highlight areas of the desktop that have been recently updated"
+msgstr "ఇటీవల నవీకరించబడిన రంగస్థల ప్రాంతములను ఉద్దీపనం చేయుము"
+
+#: kwin/effects/slide/slide.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Solid"
+msgctxt "Name"
+msgid "Slide"
+msgstr "సాలిడ్"
+
+#: kwin/effects/slide/slide.desktop:73
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Let it snow on the desktop"
+msgctxt "Comment"
+msgid "Slide windows across the screen when switching virtual desktops"
+msgstr "డెస్‍క్ టాప్ పైన మంచుకురవనివ్వు"
+
+#: kwin/effects/slideback/slideback.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Solid"
+msgctxt "Name"
+msgid "Slide Back"
+msgstr "సాలిడ్"
+
+#: kwin/effects/slideback/slideback.desktop:71
+msgctxt "Comment"
+msgid "Slide back windows losing focus"
+msgstr ""
+
+#: kwin/effects/slidingpopups/slidingpopups.desktop:2
+msgctxt "Name"
+msgid "Sliding popups"
+msgstr ""
+
+#: kwin/effects/slidingpopups/slidingpopups.desktop:67
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Weather data for Plasmoids"
+msgctxt "Comment"
+msgid "Sliding animation for Plasma popups"
+msgstr "Plasmoids కొరకు వాతావరణ డాటా"
+
+#: kwin/effects/snaphelper/snaphelper.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Saint Helena"
+msgctxt "Name"
+msgid "Snap Helper"
+msgstr "సెం. హెలినా"
+
+#: kwin/effects/snaphelper/snaphelper.desktop:70
+msgctxt "Comment"
+msgid "Help you locate the center of the screen when moving a window."
+msgstr ""
+
+#: kwin/effects/startupfeedback/startupfeedback.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Launch Feedback"
+msgctxt "Name"
+msgid "Startup Feedback"
+msgstr "లాంచ్ ప్రతిస్పందన"
+
+#: kwin/effects/startupfeedback/startupfeedback.desktop:55
+msgctxt "Comment"
+msgid "Helper effect for startup feedback"
+msgstr ""
+
+#: kwin/effects/taskbarthumbnail/taskbarthumbnail.desktop:2
+msgctxt "Name"
+msgid "Taskbar Thumbnails"
+msgstr "టాస్‍క్ బార్ థంబ్‌నెయిల్‍స్"
+
+#: kwin/effects/taskbarthumbnail/taskbarthumbnail.desktop:78
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Shows window thumbnails when cursor is on their taskbar entry"
+msgctxt "Comment"
+msgid "Display window thumbnails when hovering over taskbar entries"
+msgstr "కర్సర్ టాస్‍క్ బార్ ప్రవేశంపైన వున్నప్పుడు విండో థంబ్‌నెయిల్‍స్ ను చూపుతుంది"
+
 #: kwin/effects/thumbnailaside/thumbnailaside.desktop:2
+#: kwin/effects/thumbnailaside/thumbnailaside_config.desktop:9
 msgctxt "Name"
 msgid "Thumbnail Aside"
 msgstr "థంబ్‌నెయిల్ ఎసైడ్"
@@ -3203,8 +3203,8 @@ msgctxt "Comment"
 msgid "Display window thumbnails on the edge of the screen"
 msgstr "విండో థంబ్‌నెయిల్‍స్ ను తెర అంచుపైన చూపుము"
 
-#: kwin/effects/trackmouse/trackmouse_config.desktop:9
 #: kwin/effects/trackmouse/trackmouse.desktop:2
+#: kwin/effects/trackmouse/trackmouse_config.desktop:9
 msgctxt "Name"
 msgid "Track Mouse"
 msgstr "ట్రాక్ మౌస్"
@@ -3217,8 +3217,8 @@ msgctxt "Comment"
 msgid "Display a mouse cursor locating effect when activated"
 msgstr "క్రియాశీలమైనప్పుడు మౌస్ కర్సర్ స్థానమును చూపుతుంది"
 
-#: kwin/effects/translucency/translucency_config.desktop:9
 #: kwin/effects/translucency/translucency.desktop:2
+#: kwin/effects/translucency/translucency_config.desktop:9
 msgctxt "Name"
 msgid "Translucency"
 msgstr "ట్రాన్‍స్‌లుసెన్సీ"
@@ -3228,8 +3228,8 @@ msgctxt "Comment"
 msgid "Make windows translucent under different conditions"
 msgstr "విభీన్న స్థితులలో విండోను ట్రాన్‍స్‌లూసెంట్‌గా (స్పష్టంగా) వుంచుము"
 
-#: kwin/effects/windowgeometry/windowgeometry_config.desktop:9
 #: kwin/effects/windowgeometry/windowgeometry.desktop:3
+#: kwin/effects/windowgeometry/windowgeometry_config.desktop:9
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Move Start"
@@ -3242,8 +3242,8 @@ msgctxt "Comment"
 msgid "Display window geometries on move/resize"
 msgstr ""
 
-#: kwin/effects/wobblywindows/wobblywindows_config.desktop:9
 #: kwin/effects/wobblywindows/wobblywindows.desktop:2
+#: kwin/effects/wobblywindows/wobblywindows_config.desktop:9
 msgctxt "Name"
 msgid "Wobbly Windows"
 msgstr "వూబ్లీ విండోస్"
@@ -3256,7 +3256,7 @@ msgctxt "Comment"
 msgid "Deform windows while they are moving"
 msgstr "విండోలు మూసినప్పుడు ఎక్‍స్ ప్లోడ్ అగునట్లు చేయుము"
 
-#: kwin/effects/zoom/zoom_config.desktop:9 kwin/effects/zoom/zoom.desktop:2
+#: kwin/effects/zoom/zoom.desktop:2 kwin/effects/zoom/zoom_config.desktop:9
 msgctxt "Name"
 msgid "Zoom"
 msgstr "జూమ్"
@@ -4081,22 +4081,6 @@ msgctxt "Comment"
 msgid "Plasmoid to show list of opened windows."
 msgstr ""
 
-#: plasma/desktop/containments/desktop/plasma-containment-desktopdashboard.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Dashboard"
-msgctxt "Name|plasma containment"
-msgid "Desktop Dashboard"
-msgstr "డాష్‌బోర్‍డ్"
-
-#: plasma/desktop/containments/desktop/plasma-containment-desktopdashboard.desktop:63
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Dashboard"
-msgctxt "Comment"
-msgid "Widget Dashboard"
-msgstr "డాష్‌బోర్‍డ్"
-
 #: plasma/desktop/containments/desktop/plasma-containment-desktop.desktop:3
 #, fuzzy
 #| msgctxt "Name"
@@ -4112,6 +4096,22 @@ msgstr "రంగస్ఠలం"
 msgctxt "Comment"
 msgid "Default desktop"
 msgstr "అప్రమేయ రంగస్థల కంటైన్‌మెంట్"
+
+#: plasma/desktop/containments/desktop/plasma-containment-desktopdashboard.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Dashboard"
+msgctxt "Name|plasma containment"
+msgid "Desktop Dashboard"
+msgstr "డాష్‌బోర్‍డ్"
+
+#: plasma/desktop/containments/desktop/plasma-containment-desktopdashboard.desktop:63
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Dashboard"
+msgctxt "Comment"
+msgid "Widget Dashboard"
+msgstr "డాష్‌బోర్‍డ్"
 
 #: plasma/desktop/containments/panel/plasma-containment-panel.desktop:2
 #, fuzzy
@@ -4138,6 +4138,15 @@ msgstr "ప్లాస్మా రంగస్థల పనిప్రదే�
 msgctxt "Comment"
 msgid "Interact with the Plasma desktop shell"
 msgstr ""
+
+#: plasma/desktop/shell/data/layouts/org.kde.plasma-desktop.SaL/metadata.desktop:3
+#: plasma/netbook/containments/sal/plasma-containment-sal.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Search Engine"
+msgctxt "Name"
+msgid "Search and Launch"
+msgstr "శోధన యంత్రము"
 
 #: plasma/desktop/shell/data/layouts/org.kde.plasma-desktop.defaultPanel/metadata.desktop:3
 #, fuzzy
@@ -4167,15 +4176,6 @@ msgstr "విండోలు"
 msgctxt "Name"
 msgid "Photos Activity"
 msgstr ""
-
-#: plasma/desktop/shell/data/layouts/org.kde.plasma-desktop.SaL/metadata.desktop:3
-#: plasma/netbook/containments/sal/plasma-containment-sal.desktop:2
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Search Engine"
-msgctxt "Name"
-msgid "Search and Launch"
-msgstr "శోధన యంత్రము"
 
 #: plasma/desktop/shell/data/plasma-desktop.desktop:4
 msgctxt "Name"
@@ -5143,14 +5143,6 @@ msgctxt "Comment"
 msgid "Calculate expressions"
 msgstr "సమాసాలను గణించుము"
 
-#: plasma/generic/runners/kill/plasma-runner-kill_config.desktop:9
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "KDE Applications"
-msgctxt "Name"
-msgid "Kill Applications"
-msgstr "కెడిఈ కార్యక్రమాలు"
-
 #: plasma/generic/runners/kill/plasma-runner-kill.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -5163,6 +5155,14 @@ msgstr "టర్మినల్ కార్యక్షేత్రాలు"
 msgctxt "Comment"
 msgid "Stop applications that are currently running"
 msgstr ""
+
+#: plasma/generic/runners/kill/plasma-runner-kill_config.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDE Applications"
+msgctxt "Name"
+msgid "Kill Applications"
+msgstr "కెడిఈ కార్యక్రమాలు"
 
 #: plasma/generic/runners/locations/plasma-runner-locations.desktop:2
 msgctxt "Name"
@@ -5399,7 +5399,7 @@ msgctxt "Name"
 msgid "MacOS Dashboard Widgets"
 msgstr "MacOS డాష్‌బోర్‍డ్ విడ్జట్"
 
-#: plasma/generic/scriptengines/webkit/plasma-packagestructure-dashboard.desktop:73
+#: plasma/generic/scriptengines/webkit/plasma-packagestructure-dashboard.desktop:72
 msgctxt "Comment"
 msgid "MacOS dashboard widget"
 msgstr "MacOS డాష్‌బోర్‍డ్ విడ్జట్"
@@ -5420,7 +5420,7 @@ msgctxt "Comment"
 msgid "HTML widget"
 msgstr "హెచ్ టి ఎం ఎల్ దస్త్రాలు"
 
-#: plasma/generic/scriptengines/webkit/plasma-scriptengine-applet-dashboard.desktop:77
+#: plasma/generic/scriptengines/webkit/plasma-scriptengine-applet-dashboard.desktop:76
 msgctxt "Comment"
 msgid "MacOS X dashboard widget"
 msgstr "MacOS X డాష్‌బోర్‍డ్ విడ్జట్"
