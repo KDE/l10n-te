@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-19 16:22+0000\n"
+"POT-Creation-Date: 2011-12-20 17:17+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -111,16 +111,6 @@ msgctxt "Name"
 msgid "kdbgwin"
 msgstr ""
 
-#: kcontrol/componentchooser/EXAMPLE.desktop:1
-msgctxt "Name"
-msgid "A nice name you have chosen for your interface"
-msgstr "మీ ఇంటర్‌ఫేస్ కొరకు ఒక మంచిపేరును మీరు ఎంచుకొనినారు"
-
-#: kcontrol/componentchooser/EXAMPLE.desktop:91
-msgctxt "Comment"
-msgid "A helpful description of the interface for the top right info box"
-msgstr "పైన కుడప్రక్కనగల సమాచార పెట్టె ఇంటర్‌పేస్ యొక్క సహాయకర వివరణ"
-
 #: kcontrol/componentchooser/componentchooser.desktop:13
 msgctxt "Name"
 msgid "Default Applications"
@@ -219,6 +209,16 @@ msgstr "విండొమెకర్"
 msgctxt "Comment"
 msgid "Here you can select the window manager to be run in your KDE session."
 msgstr "విండో నిర్వాహిక మీ KDE సెషన్‌నందు నడుచునట్లు మీరు యిక్కడ యెంచుకొనగలరు."
+
+#: kcontrol/componentchooser/EXAMPLE.desktop:1
+msgctxt "Name"
+msgid "A nice name you have chosen for your interface"
+msgstr "మీ ఇంటర్‌ఫేస్ కొరకు ఒక మంచిపేరును మీరు ఎంచుకొనినారు"
+
+#: kcontrol/componentchooser/EXAMPLE.desktop:91
+msgctxt "Comment"
+msgid "A helpful description of the interface for the top right info box"
+msgstr "పైన కుడప్రక్కనగల సమాచార పెట్టె ఇంటర్‌పేస్ యొక్క సహాయకర వివరణ"
 
 #: kcontrol/componentchooser/windowmanagers/compiz-custom.desktop:2
 msgctxt "Name"
@@ -431,6 +431,26 @@ msgctxt "Name"
 msgid "Application Manuals"
 msgstr "అనువర్తనముల మాన్యువల్‍స్‌"
 
+#: khelpcenter/plugins/info.desktop:2
+msgctxt "Name"
+msgid "Browse Info Pages"
+msgstr "info పుటలను అన్వేషించు"
+
+#: khelpcenter/plugins/kcontrolmodules.desktop:2
+msgctxt "Name"
+msgid "Control Center Modules"
+msgstr "నియంత్రణా కేంద్రం మాడ్యూళ్లు"
+
+#: khelpcenter/plugins/kicmodules.desktop:2
+msgctxt "Name"
+msgid "KInfoCenter Modules"
+msgstr "కెసమాచార కేంద్రం మాడ్యూళ్లు"
+
+#: khelpcenter/plugins/kioslaves.desktop:2
+msgctxt "Name"
+msgid "Kioslaves"
+msgstr "కెఐఒ బానిసలు"
+
 #: khelpcenter/plugins/Manpages/.directory:2
 msgctxt "Name"
 msgid "UNIX manual pages"
@@ -486,31 +506,6 @@ msgctxt "Name"
 msgid "(n) New"
 msgstr "(n) కొత్త"
 
-#: khelpcenter/plugins/Scrollkeeper/.directory:2
-msgctxt "Name"
-msgid "Scrollkeeper"
-msgstr "స్క్రాల్‌కీపర్"
-
-#: khelpcenter/plugins/info.desktop:2
-msgctxt "Name"
-msgid "Browse Info Pages"
-msgstr "info పుటలను అన్వేషించు"
-
-#: khelpcenter/plugins/kcontrolmodules.desktop:2
-msgctxt "Name"
-msgid "Control Center Modules"
-msgstr "నియంత్రణా కేంద్రం మాడ్యూళ్లు"
-
-#: khelpcenter/plugins/kicmodules.desktop:2
-msgctxt "Name"
-msgid "KInfoCenter Modules"
-msgstr "కెసమాచార కేంద్రం మాడ్యూళ్లు"
-
-#: khelpcenter/plugins/kioslaves.desktop:2
-msgctxt "Name"
-msgid "Kioslaves"
-msgstr "కెఐఒ బానిసలు"
-
 #: khelpcenter/plugins/onlinehelp.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -529,6 +524,11 @@ msgctxt "Name"
 msgid "Quickstart Guide"
 msgstr "త్వరితప్రారంభక మార్గదర్శి"
 
+#: khelpcenter/plugins/Scrollkeeper/.directory:2
+msgctxt "Name"
+msgid "Scrollkeeper"
+msgstr "స్క్రాల్‌కీపర్"
+
 #: khelpcenter/plugins/userguide.desktop:3
 msgctxt "Name"
 msgid "KDE Users' Manual"
@@ -543,16 +543,6 @@ msgstr "సిజిఐ స్క్రిప్ట్లు"
 msgctxt "Comment"
 msgid "Configure the CGI KIO slave"
 msgstr "CGI KIO బానిసను ఆకృతీకరించుము"
-
-#: kioslave/desktop/Home.desktop:3
-msgctxt "Name"
-msgid "Home"
-msgstr "ఇల్లు"
-
-#: kioslave/desktop/Home.desktop:96
-msgctxt "GenericName"
-msgid "Personal Files"
-msgstr "వ్యక్తిగత దస్త్రాలు"
 
 #: kioslave/desktop/desktopnotifier.desktop:3
 #, fuzzy
@@ -580,6 +570,16 @@ msgstr "చెత్తబుట్ట"
 msgctxt "Comment"
 msgid "Contains removed files"
 msgstr "తీసివేసిన ఫైళ్ళను కలిగివుంటుంది"
+
+#: kioslave/desktop/Home.desktop:3
+msgctxt "Name"
+msgid "Home"
+msgstr "ఇల్లు"
+
+#: kioslave/desktop/Home.desktop:96
+msgctxt "GenericName"
+msgid "Personal Files"
+msgstr "వ్యక్తిగత దస్త్రాలు"
 
 #: kioslave/fish/fish.protocol:16
 msgctxt "Description"
@@ -1287,18 +1287,6 @@ msgstr ""
 "http://search.cpan.org/search?mode=\\\\{mode,2,\"dist\"}&query=\\\\{query,"
 "q,1}"
 
-#: kurifilter-plugins/ikws/searchproviders/ctan.desktop:3
-msgctxt "Name"
-msgid "CTAN - Comprehensive TeX Archive Network"
-msgstr "CTAN - విశదీకృత Tex ఆర్చివ్ నెట్వర్‍క్"
-
-#: kurifilter-plugins/ikws/searchproviders/ctan.desktop:94
-msgctxt "Query"
-msgid ""
-"http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
-msgstr ""
-"http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
-
 #: kurifilter-plugins/ikws/searchproviders/ctan_cat.desktop:3
 msgctxt "Name"
 msgid "CTAN Catalog"
@@ -1312,6 +1300,18 @@ msgid ""
 msgstr ""
 "http://tug.ctan.org/cgi-bin/search.py?metadataSearch=\\\\{@}"
 "&metadataSearchSubmit=Search"
+
+#: kurifilter-plugins/ikws/searchproviders/ctan.desktop:3
+msgctxt "Name"
+msgid "CTAN - Comprehensive TeX Archive Network"
+msgstr "CTAN - విశదీకృత Tex ఆర్చివ్ నెట్వర్‍క్"
+
+#: kurifilter-plugins/ikws/searchproviders/ctan.desktop:94
+msgctxt "Query"
+msgid ""
+"http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
+msgstr ""
+"http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
 
 #: kurifilter-plugins/ikws/searchproviders/dbug.desktop:3
 msgctxt "Name"
@@ -1540,19 +1540,6 @@ msgctxt "Query"
 msgid "http://www.feedster.com/search.php?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 msgstr "http://www.feedster.com/search.php?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 
-#: kurifilter-plugins/ikws/searchproviders/flickr.desktop:5
-msgctxt "Name"
-msgid "Flickr"
-msgstr ""
-
-#: kurifilter-plugins/ikws/searchproviders/flickr.desktop:70
-#, fuzzy
-#| msgctxt "Query"
-#| msgid "http://info.alexa.com/search?q=\\\\{@}"
-msgctxt "Query"
-msgid "http://www.flickr.com/search/?q=\\\\{@}"
-msgstr "http://info.alexa.com/search?q=\\\\{@}"
-
 #: kurifilter-plugins/ikws/searchproviders/flickrcc.desktop:5
 msgctxt "Name"
 msgid "Flickr Creative Commons"
@@ -1564,6 +1551,19 @@ msgstr ""
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
 msgctxt "Query"
 msgid "http://www.flickr.com/search/?q=\\\\{@}&l=cc&ct=0&mt=all&adv=1"
+msgstr "http://info.alexa.com/search?q=\\\\{@}"
+
+#: kurifilter-plugins/ikws/searchproviders/flickr.desktop:5
+msgctxt "Name"
+msgid "Flickr"
+msgstr ""
+
+#: kurifilter-plugins/ikws/searchproviders/flickr.desktop:70
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "http://info.alexa.com/search?q=\\\\{@}"
+msgctxt "Query"
+msgid "http://www.flickr.com/search/?q=\\\\{@}"
 msgstr "http://info.alexa.com/search?q=\\\\{@}"
 
 #: kurifilter-plugins/ikws/searchproviders/foldoc.desktop:3
@@ -1660,16 +1660,6 @@ msgctxt "Query"
 msgid "http://gitorious.org/search?q=\\\\{@}&commit=Search"
 msgstr "http://info.alexa.com/search?q=\\\\{@}"
 
-#: kurifilter-plugins/ikws/searchproviders/google.desktop:3
-msgctxt "Name"
-msgid "Google"
-msgstr "గూగుల్"
-
-#: kurifilter-plugins/ikws/searchproviders/google.desktop:98
-msgctxt "Query"
-msgid "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
-msgstr "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
-
 #: kurifilter-plugins/ikws/searchproviders/google_advanced.desktop:3
 msgctxt "Name"
 msgid "Google Advanced Search"
@@ -1707,6 +1697,16 @@ msgstr "గూగుల్ చలనచిత్రాలు"
 msgctxt "Query"
 msgid "http://code.google.com/query/#q=\\\\{%2520}"
 msgstr "http://froogle.google.com/froogle?q=\\\\{@}"
+
+#: kurifilter-plugins/ikws/searchproviders/google.desktop:3
+msgctxt "Name"
+msgid "Google"
+msgstr "గూగుల్"
+
+#: kurifilter-plugins/ikws/searchproviders/google.desktop:98
+msgctxt "Query"
+msgid "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
+msgstr "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 
 #: kurifilter-plugins/ikws/searchproviders/google_groups.desktop:3
 msgctxt "Name"
@@ -1934,16 +1934,6 @@ msgid "http://www.katatudo.com.br/busca/resultado.php?q=\\\\{@}&onde=&b=Buscar"
 msgstr ""
 "http://www.katatudo.com.br/busca/resultado.php?q=\\\\{@}&onde=&b=Buscar"
 
-#: kurifilter-plugins/ikws/searchproviders/kde.desktop:6
-msgctxt "Name"
-msgid "KDE API Documentation"
-msgstr "KDE API పత్రికీకరణ"
-
-#: kurifilter-plugins/ikws/searchproviders/kde.desktop:96
-msgctxt "Query"
-msgid "http://api.kde.org/classmapper.php?class=\\\\{@}"
-msgstr "http://api.kde.org/classmapper.php?class=\\\\{@}"
-
 #: kurifilter-plugins/ikws/searchproviders/kde_apps.desktop:3
 msgctxt "Name"
 msgid "KDE App Search"
@@ -1953,6 +1943,16 @@ msgstr "KDE App శోధన"
 msgctxt "Query"
 msgid "http://www.kde-apps.org/content/search.php?search=Search&name=\\\\{@}"
 msgstr "http://www.kde-apps.org/content/search.php?search=Search&name=\\\\{@}"
+
+#: kurifilter-plugins/ikws/searchproviders/kde.desktop:6
+msgctxt "Name"
+msgid "KDE API Documentation"
+msgstr "KDE API పత్రికీకరణ"
+
+#: kurifilter-plugins/ikws/searchproviders/kde.desktop:96
+msgctxt "Query"
+msgid "http://api.kde.org/classmapper.php?class=\\\\{@}"
+msgstr "http://api.kde.org/classmapper.php?class=\\\\{@}"
 
 #: kurifilter-plugins/ikws/searchproviders/kde_forums.desktop:5
 #, fuzzy
@@ -2237,6 +2237,16 @@ msgstr ""
 "http://www.google.com/search?sourceid=python-search&q=\\\\{@}"
 "&submit=Search&q=site%3Apython.org"
 
+#: kurifilter-plugins/ikws/searchproviders/qt3.desktop:5
+msgctxt "Name"
+msgid "Qt3 Online Documentation"
+msgstr "Qt3 ఆన్‌లైన్ పత్రికీకరణ"
+
+#: kurifilter-plugins/ikws/searchproviders/qt3.desktop:90
+msgctxt "Query"
+msgid "http://doc.trolltech.com/3.3/\\\\{@}.html"
+msgstr "http://doc.trolltech.com/3.3/\\\\{@}.html"
+
 #: kurifilter-plugins/ikws/searchproviders/qt.desktop:5
 msgctxt "Name"
 msgid "Latest Qt Online Documentation"
@@ -2249,16 +2259,6 @@ msgstr "సరికొత్త Qt ఆన్‌లైన్ పత్రిక�
 msgctxt "Query"
 msgid "http://doc.qt.nokia.com/latest/\\\\{@}.html"
 msgstr "http://doc.trolltech.com/latest/\\\\{@}.html"
-
-#: kurifilter-plugins/ikws/searchproviders/qt3.desktop:5
-msgctxt "Name"
-msgid "Qt3 Online Documentation"
-msgstr "Qt3 ఆన్‌లైన్ పత్రికీకరణ"
-
-#: kurifilter-plugins/ikws/searchproviders/qt3.desktop:90
-msgctxt "Query"
-msgid "http://doc.trolltech.com/3.3/\\\\{@}.html"
-msgstr "http://doc.trolltech.com/3.3/\\\\{@}.html"
 
 #: kurifilter-plugins/ikws/searchproviders/rae.desktop:5
 msgctxt "Name"
@@ -2622,11 +2622,6 @@ msgctxt "Comment"
 msgid "The KDE Wallet Daemon requests a password"
 msgstr ""
 
-#: l10n/C/entry.desktop:2
-msgctxt "Name"
-msgid "Default"
-msgstr "అప్రమెయం"
-
 #: l10n/ad/entry.desktop:2
 msgctxt "Name"
 msgid "Andorra"
@@ -2841,6 +2836,11 @@ msgstr "మధ్య ఆసియా"
 msgctxt "Name"
 msgid "Europe, Central"
 msgstr "మధ్య ఐరొపా"
+
+#: l10n/C/entry.desktop:2
+msgctxt "Name"
+msgid "Default"
+msgstr "అప్రమెయం"
 
 #: l10n/cf/entry.desktop:2
 msgctxt "Name"
@@ -5324,6 +5324,11 @@ msgctxt "Name"
 msgid "Internal Services"
 msgstr "అంతర్గత సేవలు"
 
+#: menu/desktop/kde-development.directory:4
+msgctxt "Name"
+msgid "Development"
+msgstr "డెవలప్ మెంట్"
+
 #: menu/desktop/kde-development-translation.directory:4
 #: menu/desktop/kde-development-translation.directory:101
 msgctxt "Name"
@@ -5336,15 +5341,15 @@ msgctxt "Name"
 msgid "Web Development"
 msgstr "వెబ్ డెవలప్ మెంట్"
 
-#: menu/desktop/kde-development.directory:4
-msgctxt "Name"
-msgid "Development"
-msgstr "డెవలప్ మెంట్"
-
 #: menu/desktop/kde-editors.directory:4
 msgctxt "Name"
 msgid "Editors"
 msgstr "ఎడిటర్లు"
+
+#: menu/desktop/kde-education.directory:4
+msgctxt "Name"
+msgid "Education"
+msgstr "విధ్య"
 
 #: menu/desktop/kde-edu-languages.directory:5
 msgctxt "Name"
@@ -5371,11 +5376,6 @@ msgctxt "Name"
 msgid "Teaching Tools"
 msgstr "భోధనా సాధనములు"
 
-#: menu/desktop/kde-education.directory:4
-msgctxt "Name"
-msgid "Education"
-msgstr "విధ్య"
-
 #: menu/desktop/kde-games-arcade.directory:4
 msgctxt "Name"
 msgid "Arcade"
@@ -5390,6 +5390,11 @@ msgstr "పలక ఆటలు"
 msgctxt "Name"
 msgid "Card Games"
 msgstr "పేక ఆటలు"
+
+#: menu/desktop/kde-games.directory:4
+msgctxt "Name"
+msgid "Games"
+msgstr "ఆటలు"
 
 #: menu/desktop/kde-games-kids.directory:4
 msgctxt "Name"
@@ -5414,26 +5419,21 @@ msgctxt "Name"
 msgid "Tactics & Strategy"
 msgstr "యుక్తి & తంత్రాలు"
 
-#: menu/desktop/kde-games.directory:4
-msgctxt "Name"
-msgid "Games"
-msgstr "ఆటలు"
-
 #: menu/desktop/kde-graphics.directory:4
 msgctxt "Name"
 msgid "Graphics"
 msgstr "గ్రాఫిక్స్"
+
+#: menu/desktop/kde-internet.directory:4
+msgctxt "Name"
+msgid "Internet"
+msgstr "ఇంటర్నెట్"
 
 #: menu/desktop/kde-internet-terminal.directory:4
 #: menu/desktop/kde-system-terminal.directory:4
 msgctxt "Name"
 msgid "Terminal Applications"
 msgstr "టర్మినల్ కార్యక్షేత్రాలు"
-
-#: menu/desktop/kde-internet.directory:4
-msgctxt "Name"
-msgid "Internet"
-msgstr "ఇంటర్నెట్"
 
 #: menu/desktop/kde-main.directory:5
 msgctxt "Name"
@@ -5500,6 +5500,16 @@ msgctxt "Comment"
 msgid "Desktop"
 msgstr "రంగస్థలం"
 
+#: menu/desktop/kde-utilities.directory:4
+msgctxt "Name"
+msgid "Utilities"
+msgstr "సౌలభ్యాలు"
+
+#: menu/desktop/kde-utilities.directory:98
+msgctxt "Comment"
+msgid "Utilities"
+msgstr "సౌలభ్యాలు"
+
 #: menu/desktop/kde-utilities-file.directory:4
 msgctxt "Name"
 msgid "File"
@@ -5539,16 +5549,6 @@ msgstr "ఎక్స్-సౌలభ్యాలు"
 msgctxt "Comment"
 msgid "X Window Utilities"
 msgstr "ఎక్స్ విండొ సౌలభ్యాలు"
-
-#: menu/desktop/kde-utilities.directory:4
-msgctxt "Name"
-msgid "Utilities"
-msgstr "సౌలభ్యాలు"
-
-#: menu/desktop/kde-utilities.directory:98
-msgctxt "Comment"
-msgid "Utilities"
-msgstr "సౌలభ్యాలు"
 
 #: nepomuk/controller/nepomukcontroller.desktop:2
 msgctxt "Name"
@@ -5845,6 +5845,11 @@ msgctxt "Comment"
 msgid "Provides sound system policy to applications"
 msgstr ""
 
+#: phonon/platform_kde/phononbackend.desktop:4
+msgctxt "Name"
+msgid "KDE Multimedia Backend"
+msgstr "KDE బహుళమాద్యమం బ్యాక్ఎండ్"
+
 #: phonon/platform_kde/phonon.notifyrc:3
 #, fuzzy
 #| msgctxt "GenericName"
@@ -5862,11 +5867,6 @@ msgstr ""
 msgctxt "Comment"
 msgid "Notification when audio output device has automatically changed"
 msgstr ""
-
-#: phonon/platform_kde/phononbackend.desktop:4
-msgctxt "Name"
-msgid "KDE Multimedia Backend"
-msgstr "KDE బహుళమాద్యమం బ్యాక్ఎండ్"
 
 #: pics/hicolor/index.theme:2
 msgctxt "Name"
@@ -6014,6 +6014,16 @@ msgctxt "Name"
 msgid "Image Displayer"
 msgstr "చిత్ర ప్రదర్శని"
 
+#: solidautoeject/solidautoeject.desktop:7
+msgctxt "Name"
+msgid "Drive Ejector"
+msgstr ""
+
+#: solidautoeject/solidautoeject.desktop:67
+msgctxt "Comment"
+msgid "Automatically releases drives when their eject button is pushed"
+msgstr ""
+
 #: solid-device-automounter/kcm/device_automounter_kcm.desktop:11
 #, fuzzy
 #| msgctxt "Name"
@@ -6053,16 +6063,6 @@ msgid ""
 msgstr ""
 "నెట్వర్‍క్  ఇంటర్‌ఫేసెస్ యొక్క స్థితిని ట్రాక్ చేస్తుంది మరియు నెట్వర్‍క్  ఉపయోగించే అనువర్తనములకు నోటీస్‌ను "
 "అందిస్తుంది"
-
-#: solidautoeject/solidautoeject.desktop:7
-msgctxt "Name"
-msgid "Drive Ejector"
-msgstr ""
-
-#: solidautoeject/solidautoeject.desktop:67
-msgctxt "Comment"
-msgid "Automatically releases drives when their eject button is pushed"
-msgstr ""
 
 #: soliduiserver/soliduiserver.desktop:8
 #, fuzzy
