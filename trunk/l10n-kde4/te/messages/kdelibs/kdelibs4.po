@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-21 04:41+0100\n"
+"POT-Creation-Date: 2011-12-22 04:42+0100\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -13328,95 +13328,6 @@ msgctxt ""
 msgid "More..."
 msgstr "ఎంపిక..."
 
-#: nepomuk/utils/facet.cpp:132 nepomuk/utils/typefacet.cpp:64
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "Document Back"
-msgctxt "@option:check A filter on file type"
-msgid "Documents"
-msgstr "పత్రం వెనుకకు"
-
-#: nepomuk/utils/facet.cpp:136 nepomuk/utils/typefacet.cpp:68
-msgctxt "@option:check A filter on file type - audio files"
-msgid "Audio"
-msgstr ""
-
-#: nepomuk/utils/facet.cpp:139 nepomuk/utils/typefacet.cpp:70
-#, fuzzy
-#| msgid "&View"
-msgctxt "@option:check A filter on file type - media video"
-msgid "Video"
-msgstr "(&V) చూడు"
-
-#: nepomuk/utils/facet.cpp:143 nepomuk/utils/typefacet.cpp:73
-#, fuzzy
-#| msgid "Pages"
-msgctxt "@option:check A filter on file type"
-msgid "Images"
-msgstr "పేజీలు"
-
-#: nepomuk/utils/facet.cpp:179
-#, fuzzy
-#| msgid "Job Priority:"
-msgctxt ""
-"@option:radio A filter on prioritizing/sorting a selection of resources"
-msgid "No priority"
-msgstr "జాబ్ ప్రాముఖ్యత:"
-
-#: nepomuk/utils/facet.cpp:180
-#, fuzzy
-#| msgid "Last modified:"
-msgctxt ""
-"@option:radio A filter on prioritizing/sorting a selection of resources"
-msgid "Last modified"
-msgstr "చివరిసారి మార్చబడినది:"
-
-#: nepomuk/utils/facet.cpp:181
-msgctxt ""
-"@option:radio A filter on prioritizing/sorting a selection of resources"
-msgid "Most important"
-msgstr ""
-
-#: nepomuk/utils/facet.cpp:182
-msgctxt ""
-"@option:radio A filter on prioritizing/sorting a selection of resources"
-msgid "Never opened"
-msgstr ""
-
-#: nepomuk/utils/facet.cpp:192
-#, fuzzy
-#| msgid "Add Rating"
-msgctxt "@option:radio A filter on the rating of a resource"
-msgid "Any Rating"
-msgstr "రేటింగు వెయి"
-
-#: nepomuk/utils/facet.cpp:193
-msgctxt "@option:radio A filter on the rating of a resource"
-msgid "1 or more"
-msgstr ""
-
-#: nepomuk/utils/facet.cpp:194
-msgctxt "@option:radio A filter on the rating of a resource"
-msgid "2 or more"
-msgstr ""
-
-#: nepomuk/utils/facet.cpp:195
-msgctxt "@option:radio A filter on the rating of a resource"
-msgid "3 or more"
-msgstr ""
-
-#: nepomuk/utils/facet.cpp:196
-msgctxt "@option:radio A filter on the rating of a resource"
-msgid "4 or more"
-msgstr ""
-
-#: nepomuk/utils/facet.cpp:197
-#, fuzzy
-#| msgid "Rating: "
-msgctxt "@option:radio A filter on the rating of a resource"
-msgid "Max Rating"
-msgstr "రేటింగు: "
-
 #: nepomuk/utils/resourcemodel.cpp:149
 #, fuzzy
 #| msgctxt "KCharselect unicode block name"
@@ -13521,6 +13432,33 @@ msgstr "నిర్దేశితమైన..."
 msgid "Enter Search Terms..."
 msgstr "శోధన పదాన్ని యిక్కడ ప్రవేశపెట్టుము"
 
+#: nepomuk/utils/typefacet.cpp:64 nepomuk/utils/facet.cpp:132
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Document Back"
+msgctxt "@option:check A filter on file type"
+msgid "Documents"
+msgstr "పత్రం వెనుకకు"
+
+#: nepomuk/utils/typefacet.cpp:68 nepomuk/utils/facet.cpp:136
+msgctxt "@option:check A filter on file type - audio files"
+msgid "Audio"
+msgstr ""
+
+#: nepomuk/utils/typefacet.cpp:70 nepomuk/utils/facet.cpp:138
+#, fuzzy
+#| msgid "&View"
+msgctxt "@option:check A filter on file type - media video"
+msgid "Video"
+msgstr "(&V) చూడు"
+
+#: nepomuk/utils/typefacet.cpp:73 nepomuk/utils/facet.cpp:141
+#, fuzzy
+#| msgid "Pages"
+msgctxt "@option:check A filter on file type"
+msgid "Images"
+msgstr "పేజీలు"
+
 #: nepomuk/utils/typefacet.cpp:80
 #, fuzzy
 #| msgid "Contact author"
@@ -13563,6 +13501,68 @@ msgstr "దస్త్రం"
 msgctxt "@option:check Do filter on type - show everything but files"
 msgid "Other"
 msgstr "ఇతర"
+
+#: nepomuk/utils/facet.cpp:177
+#, fuzzy
+#| msgid "Job Priority:"
+msgctxt ""
+"@option:radio A filter on prioritizing/sorting a selection of resources"
+msgid "No priority"
+msgstr "జాబ్ ప్రాముఖ్యత:"
+
+#: nepomuk/utils/facet.cpp:178
+#, fuzzy
+#| msgid "Last modified:"
+msgctxt ""
+"@option:radio A filter on prioritizing/sorting a selection of resources"
+msgid "Last modified"
+msgstr "చివరిసారి మార్చబడినది:"
+
+#: nepomuk/utils/facet.cpp:179
+msgctxt ""
+"@option:radio A filter on prioritizing/sorting a selection of resources"
+msgid "Most important"
+msgstr ""
+
+#: nepomuk/utils/facet.cpp:180
+msgctxt ""
+"@option:radio A filter on prioritizing/sorting a selection of resources"
+msgid "Never opened"
+msgstr ""
+
+#: nepomuk/utils/facet.cpp:190
+#, fuzzy
+#| msgid "Add Rating"
+msgctxt "@option:radio A filter on the rating of a resource"
+msgid "Any Rating"
+msgstr "రేటింగు వెయి"
+
+#: nepomuk/utils/facet.cpp:191
+msgctxt "@option:radio A filter on the rating of a resource"
+msgid "1 or more"
+msgstr ""
+
+#: nepomuk/utils/facet.cpp:192
+msgctxt "@option:radio A filter on the rating of a resource"
+msgid "2 or more"
+msgstr ""
+
+#: nepomuk/utils/facet.cpp:193
+msgctxt "@option:radio A filter on the rating of a resource"
+msgid "3 or more"
+msgstr ""
+
+#: nepomuk/utils/facet.cpp:194
+msgctxt "@option:radio A filter on the rating of a resource"
+msgid "4 or more"
+msgstr ""
+
+#: nepomuk/utils/facet.cpp:195
+#, fuzzy
+#| msgid "Rating: "
+msgctxt "@option:radio A filter on the rating of a resource"
+msgid "Max Rating"
+msgstr "రేటింగు: "
 
 #: kdeui/colors/kcolorcombo.cpp:352
 msgctxt "Custom color"
