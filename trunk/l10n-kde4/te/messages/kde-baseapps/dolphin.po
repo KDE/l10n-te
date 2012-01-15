@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-11 04:03+0100\n"
+"POT-Creation-Date: 2012-01-15 03:43+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1244,6 +1244,74 @@ msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr "ఒక ఫోల్డరును అదేఫోల్డరు లోనికి వుంచుట కుదరదు"
 
+#: views/dolphinview.cpp:504
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr "<filename>%1</filename> ఎంపిక కాబడినది"
+
+#: views/dolphinview.cpp:507
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "1 ఫోల్డరు ఎంపిక కాబడినది"
+msgstr[1] "%1 ఫోల్డర్లు ఎంపిక కాబడినది"
+
+#: views/dolphinview.cpp:508
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "1 ఫైలు ఎంపిక కాబడినది"
+msgstr[1] "%1 ఫైలు ఎంపిక కాబడినది"
+
+#: views/dolphinview.cpp:512
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Folder"
+msgctxt "@info:status"
+msgid "1 Folder"
+msgid_plural "%1 Folders"
+msgstr[0] "ఫొల్డర్"
+msgstr[1] "ఫొల్డర్"
+
+#: views/dolphinview.cpp:513
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File"
+msgid_plural "%1 Files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/dolphinview.cpp:517
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:520
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:1065
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "తొలగింపు కార్యము పూర్తైనది."
+
+#: views/dolphinview.cpp:1140
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "స్థానము ఖాళీగావుంది"
+
+#: views/dolphinview.cpp:1142
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "స్థానము '%1' సరైనదికాదు."
+
 #: views/dolphinviewactionhandler.cpp:92
 #, fuzzy
 #| msgctxt "@action"
@@ -1471,141 +1539,6 @@ msgctxt "@info"
 msgid "# will be replaced by ascending numbers starting with:"
 msgstr "(# ఆరోహణ సంఖ్యలచేత పునఃస్థాపించబడుతుంది)"
 
-#: views/dolphinview.cpp:507
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "<filename>%1</filename> ఎంపిక కాబడినది"
-
-#: views/dolphinview.cpp:510
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] "1 ఫోల్డరు ఎంపిక కాబడినది"
-msgstr[1] "%1 ఫోల్డర్లు ఎంపిక కాబడినది"
-
-#: views/dolphinview.cpp:511
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] "1 ఫైలు ఎంపిక కాబడినది"
-msgstr[1] "%1 ఫైలు ఎంపిక కాబడినది"
-
-#: views/dolphinview.cpp:515
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Folder"
-msgctxt "@info:status"
-msgid "1 Folder"
-msgid_plural "%1 Folders"
-msgstr[0] "ఫొల్డర్"
-msgstr[1] "ఫొల్డర్"
-
-#: views/dolphinview.cpp:516
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File"
-msgid_plural "%1 Files"
-msgstr[0] ""
-msgstr[1] ""
-
-#: views/dolphinview.cpp:520
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
-
-#: views/dolphinview.cpp:523
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: views/dolphinview.cpp:1068
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "తొలగింపు కార్యము పూర్తైనది."
-
-#: views/dolphinview.cpp:1143
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "స్థానము ఖాళీగావుంది"
-
-#: views/dolphinview.cpp:1145
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "స్థానము '%1' సరైనదికాదు."
-
-#: dolphincontextmenu.cpp:173
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "ఖాళీ ట్రాష్"
-
-#: dolphincontextmenu.cpp:179 dolphincontextmenu.cpp:341
-msgctxt "@action:inmenu Add current folder to places"
-msgid "Add to Places"
-msgstr "స్థలములకు జతచేయుము"
-
-#: dolphincontextmenu.cpp:199
-msgctxt "@label"
-msgid "Trash"
-msgstr "ట్రాష్"
-
-#: dolphincontextmenu.cpp:209
-msgctxt "@action:inmenu"
-msgid "Restore"
-msgstr "తిరిగివుంచుము"
-
-#: dolphincontextmenu.cpp:248 dolphinmainwindow.cpp:1589
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "కొత్తది సృష్టించుము"
-
-#: dolphincontextmenu.cpp:261
-msgctxt "@action:inmenu Add selected folder to places"
-msgid "Add to Places"
-msgstr "స్థలములకు జతచేయుము"
-
-#: dolphincontextmenu.cpp:268
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Window"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Window"
-msgstr "కొత్త విండోనందు తెరువుము"
-
-#: dolphincontextmenu.cpp:274
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Tab"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Tab"
-msgstr "కొత్త టాబ్‌నందు తెరువుము"
-
-#: dolphincontextmenu.cpp:440
-msgctxt "@action:inmenu"
-msgid "Paste Into Folder"
-msgstr "ఫోల్డరు లోనికి అతికించుము"
-
-#: dolphincontextmenu.cpp:552
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "&Move to Trash"
-msgstr "ట్రాష్‌కు కదుల్చుము"
-
-#: dolphincontextmenu.cpp:555
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "&Delete"
-msgstr "తొలగించుము"
-
 #: dolphinpart.cpp:145
 msgctxt "@action:inmenu Edit"
 msgid "&Edit File Type..."
@@ -1700,44 +1633,6 @@ msgstr ""
 #: dolphinpart.cpp:469
 msgid "Unselect all items matching this pattern:"
 msgstr ""
-
-#: dolphinviewcontainer.cpp:337
-msgctxt "@info:progress"
-msgid "Loading folder..."
-msgstr "ఫోల్డరును లోడుచేస్తోంది..."
-
-#: dolphinviewcontainer.cpp:348
-msgctxt "@info"
-msgid "Searching..."
-msgstr ""
-
-#: dolphinviewcontainer.cpp:368
-msgctxt "@info:status"
-msgid "No items found."
-msgstr ""
-
-#: dolphinviewcontainer.cpp:431
-#, fuzzy, kde-format
-#| msgctxt "@info:status files (size)"
-#| msgid "%1 (%2)"
-msgctxt "@info:status filename (type)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: dolphinviewcontainer.cpp:511
-msgctxt "@info:status"
-msgid "Dolphin does not support web pages, the web browser has been launched"
-msgstr "డాల్ఫన్ వెబ్ పేజీలను మద్దతీయదు, వెబ్ "
-
-#: dolphinviewcontainer.cpp:523
-msgctxt "@info:status"
-msgid "Protocol not supported by Dolphin, Konqueror has been launched"
-msgstr "ప్రోటోకాల్ డాల్ఫిన్ చేత మద్దతీయబడదు, కాన్క్వెరర్ ప్రారంభించబడింది"
-
-#: dolphinviewcontainer.cpp:530
-msgctxt "@info:status"
-msgid "Invalid protocol"
-msgstr "సరికాని ప్రోటోకాల్"
 
 #: main.cpp:35
 msgctxt "@title"
@@ -1953,6 +1848,11 @@ msgctxt "@action:inmenu"
 msgid "Help"
 msgstr ""
 
+#: dolphinmainwindow.cpp:1589 dolphincontextmenu.cpp:248
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "కొత్తది సృష్టించుము"
+
 #: dolphinmainwindow.cpp:1596
 msgctxt "@action:inmenu File"
 msgid "New &Window"
@@ -2147,6 +2047,106 @@ msgstr "విభజించు"
 msgctxt "@info"
 msgid "Split view"
 msgstr "వీక్షణ తీరును విభజించుము"
+
+#: dolphincontextmenu.cpp:173
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "ఖాళీ ట్రాష్"
+
+#: dolphincontextmenu.cpp:179 dolphincontextmenu.cpp:341
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "స్థలములకు జతచేయుము"
+
+#: dolphincontextmenu.cpp:199
+msgctxt "@label"
+msgid "Trash"
+msgstr "ట్రాష్"
+
+#: dolphincontextmenu.cpp:209
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "తిరిగివుంచుము"
+
+#: dolphincontextmenu.cpp:261
+msgctxt "@action:inmenu Add selected folder to places"
+msgid "Add to Places"
+msgstr "స్థలములకు జతచేయుము"
+
+#: dolphincontextmenu.cpp:268
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Window"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Window"
+msgstr "కొత్త విండోనందు తెరువుము"
+
+#: dolphincontextmenu.cpp:274
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Tab"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Tab"
+msgstr "కొత్త టాబ్‌నందు తెరువుము"
+
+#: dolphincontextmenu.cpp:440
+msgctxt "@action:inmenu"
+msgid "Paste Into Folder"
+msgstr "ఫోల్డరు లోనికి అతికించుము"
+
+#: dolphincontextmenu.cpp:551
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "&Move to Trash"
+msgstr "ట్రాష్‌కు కదుల్చుము"
+
+#: dolphincontextmenu.cpp:554
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "&Delete"
+msgstr "తొలగించుము"
+
+#: dolphinviewcontainer.cpp:337
+msgctxt "@info:progress"
+msgid "Loading folder..."
+msgstr "ఫోల్డరును లోడుచేస్తోంది..."
+
+#: dolphinviewcontainer.cpp:348
+msgctxt "@info"
+msgid "Searching..."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:368
+msgctxt "@info:status"
+msgid "No items found."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:436
+#, fuzzy, kde-format
+#| msgctxt "@info:status files (size)"
+#| msgid "%1 (%2)"
+msgctxt "@info:status filename (type)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: dolphinviewcontainer.cpp:516
+msgctxt "@info:status"
+msgid "Dolphin does not support web pages, the web browser has been launched"
+msgstr "డాల్ఫన్ వెబ్ పేజీలను మద్దతీయదు, వెబ్ "
+
+#: dolphinviewcontainer.cpp:528
+msgctxt "@info:status"
+msgid "Protocol not supported by Dolphin, Konqueror has been launched"
+msgstr "ప్రోటోకాల్ డాల్ఫిన్ చేత మద్దతీయబడదు, కాన్క్వెరర్ ప్రారంభించబడింది"
+
+#: dolphinviewcontainer.cpp:535
+msgctxt "@info:status"
+msgid "Invalid protocol"
+msgstr "సరికాని ప్రోటోకాల్"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
