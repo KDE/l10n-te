@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2012-01-14 04:48+0100\n"
+"POT-Creation-Date: 2012-01-19 04:16+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -3348,6 +3348,7 @@ msgid "Cannot change the animation assigned to a Behavior."
 msgstr ""
 
 #: gui/accessible/qaccessibleobject.cpp:374
+#: plugins/accessible/widgets/complexwidgets.cpp:1617
 msgid "Activate"
 msgstr "చైతన్యపరచు"
 
@@ -5980,10 +5981,11 @@ msgstr "పునరుద్ధరణ"
 
 #: gui/widgets/qmdisubwindow.cpp:352 gui/widgets/qworkspace.cpp:113
 #: plugins/accessible/compat/q3complexwidgets.cpp:256
-#: plugins/accessible/widgets/complexwidgets.cpp:1847
 #: plugins/accessible/widgets/qaccessiblemenu.cpp:157
 #: plugins/accessible/widgets/qaccessiblemenu.cpp:382
 #: plugins/accessible/widgets/qaccessiblewidgets.cpp:1249
+#: plugins/accessible/widgets/complexwidgets.cpp:1614
+#: plugins/accessible/widgets/complexwidgets.cpp:1910
 #: scripttools/debugging/qscriptbreakpointswidget.cpp:81
 #: scripttools/debugging/qscriptdebuggercodefinderwidget.cpp:141
 msgid "Close"
@@ -6086,7 +6088,7 @@ msgstr ""
 msgid "Scroll down"
 msgstr ""
 
-#: gui/widgets/qtabbar.cpp:2322
+#: gui/widgets/qtabbar.cpp:2324
 #, fuzzy
 #| msgid "Close"
 msgid "Close Tab"
@@ -6765,22 +6767,14 @@ msgstr "విండొ మూసివేయవచ్చునా?"
 msgid "Displays the name of the window and contains controls to manipulate it"
 msgstr ""
 
-#: plugins/accessible/widgets/complexwidgets.cpp:1515
-msgid "Scroll Left"
-msgstr ""
-
-#: plugins/accessible/widgets/complexwidgets.cpp:1515
-msgid "Scroll Right"
-msgstr ""
-
-#: plugins/accessible/widgets/complexwidgets.cpp:1781
-#: plugins/accessible/widgets/complexwidgets.cpp:1847
 #: plugins/accessible/widgets/qaccessiblemenu.cpp:158
 #: plugins/accessible/widgets/qaccessiblemenu.cpp:383
 #: plugins/accessible/widgets/qaccessiblemenu.cpp:437
 #: plugins/accessible/widgets/simplewidgets.cpp:117
 #: plugins/accessible/widgets/simplewidgets.cpp:452
 #: plugins/accessible/widgets/simplewidgets.cpp:460
+#: plugins/accessible/widgets/complexwidgets.cpp:1844
+#: plugins/accessible/widgets/complexwidgets.cpp:1910
 msgid "Open"
 msgstr "తెరువండి"
 
@@ -6852,8 +6846,29 @@ msgstr "టాగిల్"
 #: plugins/accessible/widgets/simplewidgets.cpp:271
 #: plugins/accessible/widgets/simplewidgets.cpp:450
 #: plugins/accessible/widgets/simplewidgets.cpp:456
+#: plugins/accessible/widgets/complexwidgets.cpp:1619
 msgid "Press"
 msgstr "నొక్కు"
+
+#: plugins/accessible/widgets/complexwidgets.cpp:1515
+msgid "Scroll Left"
+msgstr ""
+
+#: plugins/accessible/widgets/complexwidgets.cpp:1515
+msgid "Scroll Right"
+msgstr ""
+
+#: plugins/accessible/widgets/complexwidgets.cpp:1624
+#, fuzzy
+#| msgid "Close"
+msgid "Close the tab"
+msgstr "మూసివెయుము"
+
+#: plugins/accessible/widgets/complexwidgets.cpp:1627
+#, fuzzy
+#| msgid "Activate"
+msgid "Activate the tab"
+msgstr "చైతన్యపరచు"
 
 #: plugins/bearer/icd/qnetworksession_impl.cpp:1030
 #, fuzzy
