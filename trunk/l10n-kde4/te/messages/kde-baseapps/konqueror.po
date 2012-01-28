@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-10 04:05+0100\n"
+"POT-Creation-Date: 2012-01-28 04:12+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -592,56 +592,6 @@ msgstr ""
 msgid "&Discard Changes"
 msgstr ""
 
-#: src/konqtabs.cpp:66
-msgid ""
-"This bar contains the list of currently open tabs. Click on a tab to make it "
-"active. You can also use keyboard shortcuts to navigate through tabs. The "
-"text on the tab shows the content currently open in it; place your mouse "
-"over the tab to see the full title, in case it has been shortened to fit the "
-"tab width."
-msgstr ""
-
-#: src/konqtabs.cpp:100
-msgid "Open a new tab"
-msgstr ""
-
-#: src/konqtabs.cpp:109
-msgid "Close the current tab"
-msgstr ""
-
-#: src/konqtabs.cpp:326 src/konqmainwindow.cpp:3683
-msgid "&Reload All Tabs"
-msgstr ""
-
-#: src/konqtabs.cpp:349 src/konqmainwindow.cpp:2496
-#: src/konqmainwindow.cpp:3621
-msgid "Close &Other Tabs"
-msgstr ""
-
-#: src/konqtabs.cpp:460 src/konqmainwindow.cpp:3594
-msgid "&New Tab"
-msgstr ""
-
-#: src/konqtabs.cpp:465
-msgid "&Duplicate Tab"
-msgstr ""
-
-#: src/konqtabs.cpp:470
-msgid "&Reload Tab"
-msgstr ""
-
-#: src/konqtabs.cpp:477
-msgid "Other Tabs"
-msgstr ""
-
-#: src/konqtabs.cpp:482
-msgid "D&etach Tab"
-msgstr ""
-
-#: src/konqtabs.cpp:488
-msgid "&Close Tab"
-msgstr "(&C) టాబ్ ను మూసివెయి"
-
 #: src/konqview.cpp:1203
 msgid ""
 "The page you are trying to view is the result of posted form data. If you "
@@ -742,6 +692,11 @@ msgstr ""
 #: src/konqmainwindow.cpp:2496
 msgctxt "@title:window"
 msgid "Close Other Tabs Confirmation"
+msgstr ""
+
+#: src/konqmainwindow.cpp:2496 src/konqmainwindow.cpp:3621
+#: src/konqtabs.cpp:352
+msgid "Close &Other Tabs"
 msgstr ""
 
 #: src/konqmainwindow.cpp:2511
@@ -877,6 +832,10 @@ msgstr ""
 msgid "Split View &Top/Bottom"
 msgstr ""
 
+#: src/konqmainwindow.cpp:3594 src/konqtabs.cpp:463
+msgid "&New Tab"
+msgstr ""
+
 #: src/konqmainwindow.cpp:3600
 msgid "&Duplicate Current Tab"
 msgstr ""
@@ -928,6 +887,10 @@ msgstr ""
 
 #: src/konqmainwindow.cpp:3678 sidebar/web_module/web_module.cpp:68
 msgid "&Reload"
+msgstr ""
+
+#: src/konqmainwindow.cpp:3683 src/konqtabs.cpp:329
+msgid "&Reload All Tabs"
 msgstr ""
 
 #: src/konqmainwindow.cpp:3691
@@ -1219,6 +1182,43 @@ msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
 "with %1, but it cannot handle this file type."
 msgstr ""
+
+#: src/konqtabs.cpp:66
+msgid ""
+"This bar contains the list of currently open tabs. Click on a tab to make it "
+"active. You can also use keyboard shortcuts to navigate through tabs. The "
+"text on the tab shows the content currently open in it; place your mouse "
+"over the tab to see the full title, in case it has been shortened to fit the "
+"tab width."
+msgstr ""
+
+#: src/konqtabs.cpp:100
+msgid "Open a new tab"
+msgstr ""
+
+#: src/konqtabs.cpp:109
+msgid "Close the current tab"
+msgstr ""
+
+#: src/konqtabs.cpp:468
+msgid "&Duplicate Tab"
+msgstr ""
+
+#: src/konqtabs.cpp:473
+msgid "&Reload Tab"
+msgstr ""
+
+#: src/konqtabs.cpp:480
+msgid "Other Tabs"
+msgstr ""
+
+#: src/konqtabs.cpp:485
+msgid "D&etach Tab"
+msgstr ""
+
+#: src/konqtabs.cpp:491
+msgid "&Close Tab"
+msgstr "(&C) టాబ్ ను మూసివెయి"
 
 #: sidebar/history_module/history_module.cpp:126
 msgctxt "@action:inmenu Add"
