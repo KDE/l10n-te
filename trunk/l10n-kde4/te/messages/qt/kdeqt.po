@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2012-02-01 04:59+0100\n"
+"POT-Creation-Date: 2012-02-03 04:48+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -2377,6 +2377,10 @@ msgstr ""
 msgid "Loader does not support loading non-visual elements."
 msgstr ""
 
+#: declarative/graphicsitems/qdeclarativevisualitemmodel.cpp:1099
+msgid "Delegate component must be Item type."
+msgstr ""
+
 #: declarative/graphicsitems/qdeclarativetextinput.cpp:962
 #: declarative/graphicsitems/qdeclarativetextinput.cpp:970
 #, fuzzy
@@ -2386,10 +2390,6 @@ msgstr "'%1' సేవ కనపడలేదు."
 
 #: declarative/graphicsitems/qdeclarativetextinput.cpp:981
 msgid "Could not instantiate cursor delegate"
-msgstr ""
-
-#: declarative/graphicsitems/qdeclarativevisualitemmodel.cpp:1099
-msgid "Delegate component must be Item type."
 msgstr ""
 
 #: declarative/graphicsitems/qdeclarativeanchors.cpp:198
@@ -6664,65 +6664,65 @@ msgstr ""
 msgid "The peer certificate is blacklisted"
 msgstr ""
 
-#: network/ssl/qsslsocket_openssl.cpp:286
+#: network/ssl/qsslsocket_openssl.cpp:287
 #, qt-format
 msgid "Error creating SSL context (%1)"
 msgstr ""
 
-#: network/ssl/qsslsocket_openssl.cpp:340
+#: network/ssl/qsslsocket_openssl.cpp:341
 #, qt-format
 msgid "Invalid or empty cipher list (%1)"
 msgstr ""
 
-#: network/ssl/qsslsocket_openssl.cpp:384
+#: network/ssl/qsslsocket_openssl.cpp:385
 #, qt-format
 msgid "Cannot provide a certificate with no key, %1"
 msgstr ""
 
-#: network/ssl/qsslsocket_openssl.cpp:391
+#: network/ssl/qsslsocket_openssl.cpp:392
 #, qt-format
 msgid "Error loading local certificate, %1"
 msgstr ""
 
-#: network/ssl/qsslsocket_openssl.cpp:406
+#: network/ssl/qsslsocket_openssl.cpp:407
 #, qt-format
 msgid "Error loading private key, %1"
 msgstr "%1, ప్రైవెట్ కీ ఎక్కించుటలో దోషం"
 
-#: network/ssl/qsslsocket_openssl.cpp:413
+#: network/ssl/qsslsocket_openssl.cpp:414
 #, qt-format
 msgid "Private key does not certify public key, %1"
 msgstr ""
 
-#: network/ssl/qsslsocket_openssl.cpp:433
+#: network/ssl/qsslsocket_openssl.cpp:434
 #, qt-format
 msgid "Error creating SSL session, %1"
 msgstr ""
 
-#: network/ssl/qsslsocket_openssl.cpp:469
+#: network/ssl/qsslsocket_openssl.cpp:470
 #, qt-format
 msgid "Error creating SSL session: %1"
 msgstr ""
 
-#: network/ssl/qsslsocket_openssl.cpp:1006
+#: network/ssl/qsslsocket_openssl.cpp:1023
 #, qt-format
 msgid "Unable to write data: %1"
 msgstr ""
 
-#: network/ssl/qsslsocket_openssl.cpp:1076
+#: network/ssl/qsslsocket_openssl.cpp:1093
 #, fuzzy, qt-format
 #| msgctxt "QMYSQLResult"
 #| msgid "Unable to fetch data"
 msgid "Unable to decrypt data: %1"
 msgstr "దత్తాంశంను తీసుకురాలేకపొయాను"
 
-#: network/ssl/qsslsocket_openssl.cpp:1154
-#: network/ssl/qsslsocket_openssl.cpp:1164
+#: network/ssl/qsslsocket_openssl.cpp:1171
+#: network/ssl/qsslsocket_openssl.cpp:1181
 #, qt-format
 msgid "Error while reading: %1"
 msgstr "చదువుతునప్పుడు దోషము: %1"
 
-#: network/ssl/qsslsocket_openssl.cpp:1259
+#: network/ssl/qsslsocket_openssl.cpp:1276
 #, qt-format
 msgid "Error during SSL handshake: %1"
 msgstr "ఎస్ ఎస్ ఎల్ కరచాలనము చెస్తున్నప్పుడు దోషము: %1"
