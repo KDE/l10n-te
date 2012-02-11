@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-10 04:15+0100\n"
+"POT-Creation-Date: 2012-02-11 03:58+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -324,19 +324,19 @@ msgstr[1] "వరుసలు"
 msgid "--- Type anything in this box ---"
 msgstr ""
 
-#: Filter.cpp:495
+#: Filter.cpp:491
 msgid "Open Link"
 msgstr "లింకును తెరువు"
 
-#: Filter.cpp:496
+#: Filter.cpp:492
 msgid "Copy Link Address"
 msgstr "లింకు చిరునామాను నకలుచెయి "
 
-#: Filter.cpp:498
+#: Filter.cpp:494
 msgid "Send Email To..."
 msgstr "ఈ మెయిల్ పంపు ..."
 
-#: Filter.cpp:499
+#: Filter.cpp:495
 msgid "Copy Email Address"
 msgstr "ఈ మెయిల్ చిరునామాను నకలుచెయి"
 
@@ -699,43 +699,49 @@ msgid "&New Tab"
 msgstr "(&T) కొత్త టాబ్"
 
 #: MainWindow.cpp:265
+#, fuzzy
+#| msgid "&Close Tab"
+msgid "&Clone Tab"
+msgstr "(&C) టాబ్ ను మూసివెయి"
+
+#: MainWindow.cpp:272
 msgid "New &Window"
 msgstr "(&W) కొత్త విండొ"
 
-#: MainWindow.cpp:276
+#: MainWindow.cpp:283
 msgid "&Bookmarks"
 msgstr "(&B) పేజీ గుర్తులు"
 
-#: MainWindow.cpp:294 Part.cpp:99
+#: MainWindow.cpp:301 Part.cpp:99
 #, fuzzy
 #| msgid "Manage Profiles"
 msgid "Manage Profiles..."
 msgstr "ప్రొఫైల్సును నిర్వహించుము"
 
-#: MainWindow.cpp:300
+#: MainWindow.cpp:307
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:412
+#: MainWindow.cpp:435
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా నిష్క్రమించుదామని అనుకొనుచున్నారా?"
 
-#: MainWindow.cpp:414 SessionController.cpp:618 SessionController.cpp:643
+#: MainWindow.cpp:437 SessionController.cpp:618 SessionController.cpp:643
 msgid "Confirm Close"
 msgstr "ముసివేత నిర్ధారించు"
 
-#: MainWindow.cpp:416
+#: MainWindow.cpp:439
 msgid "Close Current Tab"
 msgstr "ప్రస్తుత టాబ్ మూసివేయి"
 
-#: MainWindow.cpp:513
+#: MainWindow.cpp:536
 #, fuzzy
 #| msgid "General"
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "సాధారణ"
 
-#: MainWindow.cpp:518
+#: MainWindow.cpp:541
 msgctxt "@title Preferences page name"
 msgid "TabBar"
 msgstr ""
@@ -1777,63 +1783,57 @@ msgstr "(&c) స్క్రోల్‌బ్యాక్"
 
 #. i18n: file: ../desktop/partui.rc:23
 #. i18n: ectx: Menu (switch-profile)
-#. i18n: file: ../desktop/sessionui.rc:63
+#. i18n: file: ../desktop/sessionui.rc:60
 #. i18n: ectx: Menu (switch-profile)
-#: rc.cpp:494 rc.cpp:503
+#: rc.cpp:494 rc.cpp:518
 #, fuzzy
 #| msgid "Edit Profile"
 msgid "&Switch Profile"
 msgstr "ప్రొఫైల్ సరికూర్చు"
 
+#. i18n: file: ../desktop/konsoleui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:497
+msgid "File"
+msgstr "ఫైలు"
+
+#. i18n: file: ../desktop/konsoleui.rc:15
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:500
+msgid "Edit"
+msgstr "సరికూర్చు"
+
+#. i18n: file: ../desktop/konsoleui.rc:18
+#. i18n: ectx: Menu (view)
+#: rc.cpp:503
+msgid "View"
+msgstr "వీక్షణం"
+
+#. i18n: file: ../desktop/konsoleui.rc:19
+#. i18n: ectx: Menu (view-split)
+#: rc.cpp:506
+msgid "Split View"
+msgstr "వీక్షణం విభజించు"
+
+#. i18n: file: ../desktop/konsoleui.rc:34
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:509
+msgid "Settings"
+msgstr "అమరికలు"
+
+#. i18n: file: ../desktop/konsoleui.rc:46
+#. i18n: ectx: Menu (help)
+#: rc.cpp:512
+msgid "Help"
+msgstr "సహాయం"
+
 #. i18n: file: ../desktop/sessionui.rc:17
 #. i18n: ectx: Menu (edit-copy-input-to)
-#: rc.cpp:497
+#: rc.cpp:515
 #, fuzzy
 #| msgid "Copy Input To..."
 msgid "Copy Input To"
 msgstr "ఇన్పుట్ యిచటకు నకలుతీయి..."
-
-#. i18n: file: ../desktop/sessionui.rc:44
-#. i18n: ectx: Menu (debug)
-#: rc.cpp:500
-msgid "Debug"
-msgstr "డీబగ్"
-
-#. i18n: file: ../desktop/konsoleui.rc:5
-#. i18n: ectx: Menu (file)
-#: rc.cpp:506
-msgid "File"
-msgstr "ఫైలు"
-
-#. i18n: file: ../desktop/konsoleui.rc:14
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:509
-msgid "Edit"
-msgstr "సరికూర్చు"
-
-#. i18n: file: ../desktop/konsoleui.rc:17
-#. i18n: ectx: Menu (view)
-#: rc.cpp:512
-msgid "View"
-msgstr "వీక్షణం"
-
-#. i18n: file: ../desktop/konsoleui.rc:18
-#. i18n: ectx: Menu (view-split)
-#: rc.cpp:515
-msgid "Split View"
-msgstr "వీక్షణం విభజించు"
-
-#. i18n: file: ../desktop/konsoleui.rc:33
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:518
-msgid "Settings"
-msgstr "అమరికలు"
-
-#. i18n: file: ../desktop/konsoleui.rc:45
-#. i18n: ectx: Menu (help)
-#: rc.cpp:521
-msgid "Help"
-msgstr "సహాయం"
 
 #: RenameTabsDialog.cpp:32
 msgid "Rename Tab"
@@ -2111,50 +2111,50 @@ msgstr "ప్రారంభమునందు యింటరాక్టి�
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "ప్రోగ్రామ్ '%1'ను ఆర్గుమెంట్లు '%2'తో ప్రారంభించలేక పోయింది."
 
-#: Session.cpp:579
+#: Session.cpp:583
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "%1 సెషన్ లో నిశబ్దం"
 
-#: Session.cpp:624
+#: Session.cpp:628
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "%1 సెషన్ లో గంట"
 
-#: Session.cpp:627
+#: Session.cpp:631
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "సెషన్ '%1'నందు క్రియాశీలత"
 
-#: Session.cpp:796
+#: Session.cpp:800
 #, fuzzy
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "ముగిసింది"
 
-#: Session.cpp:810 Session.cpp:822
+#: Session.cpp:814 Session.cpp:826
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "ప్రోగ్రామ్ '%1' క్రాష్ అయినది."
 
-#: Session.cpp:812
+#: Session.cpp:816
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "ప్రోగ్రామ్ '%1' స్థితి %2తో నిష్క్రమించినది."
 
-#: Session.cpp:1140
+#: Session.cpp:1144
 msgid "ZModem Progress"
 msgstr "ZModem పురోగతి"
 
-#: SessionManager.cpp:926
+#: SessionManager.cpp:923
 #, fuzzy
 #| msgid "Number"
 msgctxt "@item:intable The session index"
 msgid "Number"
 msgstr "సంఖ్య"
 
-#: SessionManager.cpp:928
+#: SessionManager.cpp:925
 #, fuzzy
 #| msgid "Title"
 msgctxt "@item:intable The session title"
@@ -2354,6 +2354,9 @@ msgstr ""
 #: ZModemDialog.cpp:36
 msgid "&Stop"
 msgstr "(&S) ఆపు"
+
+#~ msgid "Debug"
+#~ msgstr "డీబగ్"
 
 #~ msgid "Command to execute"
 #~ msgstr "ఎగ్జిక్యూట్ చేయుటకు ఆదేశము"
