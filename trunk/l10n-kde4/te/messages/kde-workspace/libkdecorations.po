@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_lib\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:38+0200\n"
+"POT-Creation-Date: 2012-02-12 04:18+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,6 +25,23 @@ msgstr ""
 "\n"
 "\n"
 "\n"
+
+#: kdecoration_plugins_p.cpp:109
+msgid "Loading of window decoration plugin library disabled in configuration."
+msgstr ""
+
+#: kdecoration_plugins_p.cpp:129
+msgid "No window decoration plugin library was found."
+msgstr ""
+
+#: kdecoration_plugins_p.cpp:154
+msgid "The default decoration plugin is corrupt and could not be loaded."
+msgstr ""
+
+#: kdecoration_plugins_p.cpp:166 kdecoration_plugins_p.cpp:171
+#, kde-format
+msgid "The library %1 is not a KWin plugin."
+msgstr ""
 
 #: kcommondecoration.cpp:291
 #, kde-format
@@ -88,20 +105,3 @@ msgstr ""
 #: kcommondecoration.cpp:501 kcommondecoration.cpp:620
 msgid "Shade"
 msgstr "ఛాయ(షేడ్)"
-
-#: kdecoration_plugins_p.cpp:109
-msgid "Loading of window decoration plugin library disabled in configuration."
-msgstr ""
-
-#: kdecoration_plugins_p.cpp:129
-msgid "No window decoration plugin library was found."
-msgstr ""
-
-#: kdecoration_plugins_p.cpp:154
-msgid "The default decoration plugin is corrupt and could not be loaded."
-msgstr ""
-
-#: kdecoration_plugins_p.cpp:166 kdecoration_plugins_p.cpp:171
-#, kde-format
-msgid "The library %1 is not a KWin plugin."
-msgstr ""
