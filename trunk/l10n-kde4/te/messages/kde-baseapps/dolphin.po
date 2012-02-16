@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-15 04:00+0100\n"
+"POT-Creation-Date: 2012-02-16 04:13+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -36,6 +36,25 @@ msgstr "ఫిల్టర్ బార్‌ను మరుగునవుం�
 msgctxt "@label:textbox"
 msgid "Filter:"
 msgstr "గలని:"
+
+#: kitemviews/kfileitemlistwidget.cpp:233
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Unknown size"
+msgctxt "@item:intable"
+msgid "Unknown"
+msgstr "తెలియని పరిమాణము"
+
+#: kitemviews/kfileitemlistwidget.cpp:235
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "%1 item selected"
+#| msgid_plural "%1 items selected"
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 అంశము యెంపికకాబడింది"
+msgstr[1] "%1 అంశము యెంపికకాబడింది"
 
 #: kitemviews/kfileitemlistview.cpp:562
 msgctxt "@item:intable"
@@ -296,25 +315,6 @@ msgctxt "@title:group Files and folders by permissions"
 msgid "User: %1 | Group: %2 | Others: %3"
 msgstr "(వినియోగదారి: %1) (సమూహం: %2) (ఇతరులు: %3)"
 
-#: kitemviews/kfileitemlistwidget.cpp:233
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Unknown size"
-msgctxt "@item:intable"
-msgid "Unknown"
-msgstr "తెలియని పరిమాణము"
-
-#: kitemviews/kfileitemlistwidget.cpp:235
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "%1 item selected"
-#| msgid_plural "%1 items selected"
-msgctxt "@item:intable"
-msgid "%1 item"
-msgid_plural "%1 items"
-msgstr[0] "%1 అంశము యెంపికకాబడింది"
-msgstr[1] "%1 అంశము యెంపికకాబడింది"
-
 #: panels/folders/treeviewcontextmenu.cpp:58
 msgctxt "@action:inmenu"
 msgid "Cut"
@@ -348,20 +348,20 @@ msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr "తొలగించుము"
 
-#: panels/folders/treeviewcontextmenu.cpp:110
-msgctxt "@action:inmenu"
-msgid "Properties"
-msgstr "గుణాలు"
-
-#: panels/folders/treeviewcontextmenu.cpp:119
+#: panels/folders/treeviewcontextmenu.cpp:111
 msgctxt "@action:inmenu"
 msgid "Show Hidden Files"
 msgstr "మరుగునవున్న ఫైళ్ళను చూపుము"
 
-#: panels/folders/treeviewcontextmenu.cpp:125
+#: panels/folders/treeviewcontextmenu.cpp:118
 msgctxt "@action:inmenu"
 msgid "Automatic Scrolling"
 msgstr ""
+
+#: panels/folders/treeviewcontextmenu.cpp:128
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "గుణాలు"
 
 #: panels/information/filemetadataconfigurationdialog.cpp:33
 msgctxt "@title:window"
