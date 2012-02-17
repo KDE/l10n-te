@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-16 12:34+0100\n"
+"POT-Creation-Date: 2012-02-17 10:55+0100\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -13090,29 +13090,6 @@ msgstr "సంప్రదింపు దోషము"
 msgid "Invalid type in Database"
 msgstr "డాటా బేస్ లొ చెల్లని రకం"
 
-#: nepomuk/query/queryparser.cpp:461
-#, fuzzy
-#| msgid "Esfand"
-msgctxt ""
-"Boolean AND keyword in desktop search strings. You can add several variants "
-"separated by spaces, e.g. retain the English one alongside the translation; "
-"keywords are not case sensitive. Make sure there is no conflict with the OR "
-"keyword."
-msgid "and"
-msgstr "ఎస్ఫన్ద్"
-
-#: nepomuk/query/queryparser.cpp:470
-#, fuzzy
-#| msgctxt "Mordad short"
-#| msgid "Mor"
-msgctxt ""
-"Boolean OR keyword in desktop search strings. You can add several variants "
-"separated by spaces, e.g. retain the English one alongside the translation; "
-"keywords are not case sensitive. Make sure there is no conflict with the AND "
-"keyword."
-msgid "or"
-msgstr "మెర్"
-
 #: nepomuk/query/query.cpp:696
 #, kde-format
 msgctxt ""
@@ -13125,6 +13102,29 @@ msgstr ""
 msgctxt "@title UDS_DISPLAY_NAME for a KIO directory listing."
 msgid "Query Results"
 msgstr ""
+
+#: nepomuk/query/queryparser.cpp:539
+#, fuzzy
+#| msgid "Esfand"
+msgctxt ""
+"Boolean AND keyword in desktop search strings. You can add several variants "
+"separated by spaces, e.g. retain the English one alongside the translation; "
+"keywords are not case sensitive. Make sure there is no conflict with the OR "
+"keyword."
+msgid "and"
+msgstr "ఎస్ఫన్ద్"
+
+#: nepomuk/query/queryparser.cpp:548
+#, fuzzy
+#| msgctxt "Mordad short"
+#| msgid "Mor"
+msgctxt ""
+"Boolean OR keyword in desktop search strings. You can add several variants "
+"separated by spaces, e.g. retain the English one alongside the translation; "
+"keywords are not case sensitive. Make sure there is no conflict with the AND "
+"keyword."
+msgid "or"
+msgstr "మెర్"
 
 #: nepomuk/rcgen/rcgen.cpp:49 nepomuk/rcgen/rcgen.cpp:51
 msgid "Nepomuk Resource Class Generator"
