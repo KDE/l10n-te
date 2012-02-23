@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-22 11:11+0100\n"
+"POT-Creation-Date: 2012-02-23 11:32+0100\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -10384,6 +10384,159 @@ msgstr "చిత్రం - %1x%2 పిక్సెల్స్"
 msgid "Done."
 msgstr "అయినది."
 
+#: khtml/khtml_ext.cpp:418
+msgid "&Copy Text"
+msgstr "(&C) వచనంను నకలు చేయి"
+
+#: khtml/khtml_ext.cpp:432
+#, kde-format
+msgid "Open '%1'"
+msgstr "%1 తెరువండి"
+
+#: khtml/khtml_ext.cpp:449
+msgid "&Copy Email Address"
+msgstr "(&C) ఈమెయిల్ చిరునామా నకలుతీయుము"
+
+#: khtml/khtml_ext.cpp:454
+msgid "&Save Link As..."
+msgstr "(&S) లింకును ఇలా దాచు..."
+
+#: khtml/khtml_ext.cpp:459
+msgid "&Copy Link Address"
+msgstr "(&C) లింకు చిరునామా నకలుతీయుము"
+
+#: khtml/khtml_ext.cpp:471
+msgctxt "@title:menu HTML frame/iframe"
+msgid "Frame"
+msgstr "చట్రము"
+
+#: khtml/khtml_ext.cpp:472
+msgid "Open in New &Window"
+msgstr "(&W) కొత్త విండొలో తెరువు"
+
+#: khtml/khtml_ext.cpp:478
+msgid "Open in &This Window"
+msgstr "(&W) ఈ విండొలొనే తెరువు"
+
+#: khtml/khtml_ext.cpp:483
+msgid "Open in &New Tab"
+msgstr "(&N) కొత్త టాబ్ లో తెరువు"
+
+#: khtml/khtml_ext.cpp:493
+msgid "Reload Frame"
+msgstr "చట్రాన్ని మళ్లి ఎక్కించు"
+
+#: khtml/khtml_ext.cpp:498 khtml/khtml_part.cpp:421
+msgid "Print Frame..."
+msgstr "చట్రం ప్రచురించు..."
+
+#: khtml/khtml_ext.cpp:504 khtml/khtml_part.cpp:281
+msgid "Save &Frame As..."
+msgstr "(&F) చట్రాన్ని ఇలా దాచు..."
+
+#: khtml/khtml_ext.cpp:509 khtml/khtml_part.cpp:258
+msgid "View Frame Source"
+msgstr "చట్ర మూలాన్ని చూపుము"
+
+#: khtml/khtml_ext.cpp:514
+msgid "View Frame Information"
+msgstr "చట్ర సమాచారం చూపుము"
+
+#: khtml/khtml_ext.cpp:524
+msgid "Block IFrame..."
+msgstr "IFrame ను అడ్డుకో..."
+
+#: khtml/khtml_ext.cpp:549
+msgid "Save Image As..."
+msgstr "చిత్రాన్ని ఇలా దాచు..."
+
+#: khtml/khtml_ext.cpp:554
+msgid "Send Image..."
+msgstr "చిత్రం పంపించు..."
+
+#: khtml/khtml_ext.cpp:560
+msgid "Copy Image"
+msgstr "చిత్రం ను నకలు చేయి"
+
+#: khtml/khtml_ext.cpp:568
+msgid "Copy Image Location"
+msgstr "చిత్ర స్థానం ను నకలు చేయి"
+
+#: khtml/khtml_ext.cpp:577
+#, kde-format
+msgid "View Image (%1)"
+msgstr "చిత్రాన్ని (%1) చూపుము"
+
+#: khtml/khtml_ext.cpp:583
+msgid "Block Image..."
+msgstr "చిత్రాన్ని ఆపివేయి..."
+
+#: khtml/khtml_ext.cpp:591
+#, kde-format
+msgid "Block Images From %1"
+msgstr "%1 నుంచి చిత్రాలను ఆపివేయి"
+
+#: khtml/khtml_ext.cpp:603
+msgid "Stop Animations"
+msgstr "ఎనిమేషన్లను ఆపు"
+
+#: khtml/khtml_ext.cpp:640
+#, kde-format
+msgid "Search for '%1' with %2"
+msgstr "'%1' కొరకు %2 తొ అన్వేషించు"
+
+#: khtml/khtml_ext.cpp:650
+#, kde-format
+msgid "Search for '%1' with"
+msgstr "'%1' కొరకు అన్వేషించు"
+
+#: khtml/khtml_ext.cpp:694
+msgid "Save Link As"
+msgstr "లింకును ఇలా దాచు"
+
+#: khtml/khtml_ext.cpp:714
+msgid "Save Image As"
+msgstr "చిత్రాన్ని ఇలా దాచు"
+
+#: khtml/khtml_ext.cpp:728 khtml/khtml_ext.cpp:741
+msgid "Add URL to Filter"
+msgstr "యు ఆర్ ఎల్ ను గలనికి కలుపు"
+
+#: khtml/khtml_ext.cpp:729 khtml/khtml_ext.cpp:742
+msgid "Enter the URL:"
+msgstr ""
+
+#: khtml/khtml_ext.cpp:879
+#, kde-format
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr "\"%1\" పేరుతొ దస్త్రం ముందే వుంది. మీరు దానిని తిరిగి వ్రాయమంటారా?"
+
+#: khtml/khtml_ext.cpp:879
+msgid "Overwrite File?"
+msgstr "దస్త్రాలను త్రిగి వ్రాయి?"
+
+#: khtml/khtml_ext.cpp:879
+msgid "Overwrite"
+msgstr "తిరిగి వ్రాయు"
+
+#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:397
+#, kde-format
+msgid "The Download Manager (%1) could not be found in your $PATH "
+msgstr "మీ $PATH లో డౌన్ లోడ్ అభికర్త (%1) లో కనపడుటలేదు "
+
+#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:398
+msgid ""
+"Try to reinstall it  \n"
+"\n"
+"The integration with Konqueror will be disabled."
+msgstr ""
+
+#: khtml/khtml_ext.cpp:1023
+#, no-c-format
+msgid "Default Font Size (100%)"
+msgstr "అప్రమేయ అక్షర శైలి పరిమాణం (100%)"
+
 #: khtml/test_regression_gui_main.cpp:34
 msgid "TestRegressionGui"
 msgstr ""
@@ -10396,10 +10549,6 @@ msgstr ""
 msgid "View Do&cument Source"
 msgstr "(&c) పత్ర మూలాన్ని చూపు"
 
-#: khtml/khtml_part.cpp:258 khtml/khtml_ext.cpp:509
-msgid "View Frame Source"
-msgstr "చట్ర మూలాన్ని చూపుము"
-
 #: khtml/khtml_part.cpp:265
 msgid "View Document Information"
 msgstr "పత్ర సమాచారం చూపు"
@@ -10407,10 +10556,6 @@ msgstr "పత్ర సమాచారం చూపు"
 #: khtml/khtml_part.cpp:272
 msgid "Save &Background Image As..."
 msgstr "(&B) బ్యాక్‌గ్రౌండ్ చిత్రాన్ని యిలా భద్రపరచుము..."
-
-#: khtml/khtml_part.cpp:281 khtml/khtml_ext.cpp:504
-msgid "Save &Frame As..."
-msgstr "(&F) చట్రాన్ని ఇలా దాచు..."
 
 #: khtml/khtml_part.cpp:293 khtml/khtml_part.cpp:4027
 msgid "SSL"
@@ -10499,10 +10644,6 @@ msgstr "లింకులు వ్రాస్తుండగా వెతు�
 msgid ""
 "This shortcut shows the find bar, and sets the option \"Find links only\"."
 msgstr ""
-
-#: khtml/khtml_part.cpp:421 khtml/khtml_ext.cpp:498
-msgid "Print Frame..."
-msgstr "చట్రం ప్రచురించు..."
 
 #: khtml/khtml_part.cpp:425
 msgid ""
@@ -10850,147 +10991,6 @@ msgstr "తిరస్కరించు"
 #: khtml/khtml_settings.cpp:916
 msgid "Filter error"
 msgstr "గలని దోషము"
-
-#: khtml/khtml_ext.cpp:418
-msgid "&Copy Text"
-msgstr "(&C) వచనంను నకలు చేయి"
-
-#: khtml/khtml_ext.cpp:432
-#, kde-format
-msgid "Open '%1'"
-msgstr "%1 తెరువండి"
-
-#: khtml/khtml_ext.cpp:449
-msgid "&Copy Email Address"
-msgstr "(&C) ఈమెయిల్ చిరునామా నకలుతీయుము"
-
-#: khtml/khtml_ext.cpp:454
-msgid "&Save Link As..."
-msgstr "(&S) లింకును ఇలా దాచు..."
-
-#: khtml/khtml_ext.cpp:459
-msgid "&Copy Link Address"
-msgstr "(&C) లింకు చిరునామా నకలుతీయుము"
-
-#: khtml/khtml_ext.cpp:471
-msgctxt "@title:menu HTML frame/iframe"
-msgid "Frame"
-msgstr "చట్రము"
-
-#: khtml/khtml_ext.cpp:472
-msgid "Open in New &Window"
-msgstr "(&W) కొత్త విండొలో తెరువు"
-
-#: khtml/khtml_ext.cpp:478
-msgid "Open in &This Window"
-msgstr "(&W) ఈ విండొలొనే తెరువు"
-
-#: khtml/khtml_ext.cpp:483
-msgid "Open in &New Tab"
-msgstr "(&N) కొత్త టాబ్ లో తెరువు"
-
-#: khtml/khtml_ext.cpp:493
-msgid "Reload Frame"
-msgstr "చట్రాన్ని మళ్లి ఎక్కించు"
-
-#: khtml/khtml_ext.cpp:514
-msgid "View Frame Information"
-msgstr "చట్ర సమాచారం చూపుము"
-
-#: khtml/khtml_ext.cpp:524
-msgid "Block IFrame..."
-msgstr "IFrame ను అడ్డుకో..."
-
-#: khtml/khtml_ext.cpp:549
-msgid "Save Image As..."
-msgstr "చిత్రాన్ని ఇలా దాచు..."
-
-#: khtml/khtml_ext.cpp:554
-msgid "Send Image..."
-msgstr "చిత్రం పంపించు..."
-
-#: khtml/khtml_ext.cpp:560
-msgid "Copy Image"
-msgstr "చిత్రం ను నకలు చేయి"
-
-#: khtml/khtml_ext.cpp:568
-msgid "Copy Image Location"
-msgstr "చిత్ర స్థానం ను నకలు చేయి"
-
-#: khtml/khtml_ext.cpp:577
-#, kde-format
-msgid "View Image (%1)"
-msgstr "చిత్రాన్ని (%1) చూపుము"
-
-#: khtml/khtml_ext.cpp:583
-msgid "Block Image..."
-msgstr "చిత్రాన్ని ఆపివేయి..."
-
-#: khtml/khtml_ext.cpp:591
-#, kde-format
-msgid "Block Images From %1"
-msgstr "%1 నుంచి చిత్రాలను ఆపివేయి"
-
-#: khtml/khtml_ext.cpp:603
-msgid "Stop Animations"
-msgstr "ఎనిమేషన్లను ఆపు"
-
-#: khtml/khtml_ext.cpp:640
-#, kde-format
-msgid "Search for '%1' with %2"
-msgstr "'%1' కొరకు %2 తొ అన్వేషించు"
-
-#: khtml/khtml_ext.cpp:650
-#, kde-format
-msgid "Search for '%1' with"
-msgstr "'%1' కొరకు అన్వేషించు"
-
-#: khtml/khtml_ext.cpp:694
-msgid "Save Link As"
-msgstr "లింకును ఇలా దాచు"
-
-#: khtml/khtml_ext.cpp:714
-msgid "Save Image As"
-msgstr "చిత్రాన్ని ఇలా దాచు"
-
-#: khtml/khtml_ext.cpp:728 khtml/khtml_ext.cpp:741
-msgid "Add URL to Filter"
-msgstr "యు ఆర్ ఎల్ ను గలనికి కలుపు"
-
-#: khtml/khtml_ext.cpp:729 khtml/khtml_ext.cpp:742
-msgid "Enter the URL:"
-msgstr ""
-
-#: khtml/khtml_ext.cpp:879
-#, kde-format
-msgid ""
-"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
-msgstr "\"%1\" పేరుతొ దస్త్రం ముందే వుంది. మీరు దానిని తిరిగి వ్రాయమంటారా?"
-
-#: khtml/khtml_ext.cpp:879
-msgid "Overwrite File?"
-msgstr "దస్త్రాలను త్రిగి వ్రాయి?"
-
-#: khtml/khtml_ext.cpp:879
-msgid "Overwrite"
-msgstr "తిరిగి వ్రాయు"
-
-#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:397
-#, kde-format
-msgid "The Download Manager (%1) could not be found in your $PATH "
-msgstr "మీ $PATH లో డౌన్ లోడ్ అభికర్త (%1) లో కనపడుటలేదు "
-
-#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:398
-msgid ""
-"Try to reinstall it  \n"
-"\n"
-"The integration with Konqueror will be disabled."
-msgstr ""
-
-#: khtml/khtml_ext.cpp:1023
-#, no-c-format
-msgid "Default Font Size (100%)"
-msgstr "అప్రమేయ అక్షర శైలి పరిమాణం (100%)"
 
 #: khtml/test_regression.cpp:619
 msgid "Directory containing tests, basedir and output directories."
