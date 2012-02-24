@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-23 11:32+0100\n"
+"POT-Creation-Date: 2012-02-24 11:23+0100\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -11584,9 +11584,18 @@ msgstr ""
 "'%1'లో 'kdemain' కనపడలేదు.\n"
 "%2"
 
+#: kinit/klauncher_main.cpp:62
+msgid ""
+"klauncher: This program is not supposed to be started manually.\n"
+"klauncher: It is started automatically by kdeinit4.\n"
+msgstr ""
+"కెలాంచర్: ఈ ప్రోగ్రామ్ మెన్యువల్ గా మొదలుపెట్టకూడదు.\n"
+"కెలాంచర్: ఇది kdeinit4 ద్వారా మొదలుపెట్టబడును.\n"
+
 #: kinit/klauncher.cpp:564
-#, kde-format
-msgid "KDEInit could not launch '%1'."
+#, fuzzy, kde-format
+#| msgid "KDEInit could not launch '%1'."
+msgid "KDEInit could not launch '%1'"
 msgstr "కెడిఈ '%1' ప్రారంభించలేకపొయింది ."
 
 #: kinit/klauncher.cpp:745 kinit/klauncher.cpp:774 kinit/klauncher.cpp:789
@@ -11618,14 +11627,6 @@ msgstr "తెలియని '%1' ప్రొటోకాల్.\n"
 #, kde-format
 msgid "Error loading '%1'.\n"
 msgstr "'%1'ఎక్కించుటలో దోషం.\n"
-
-#: kinit/klauncher_main.cpp:62
-msgid ""
-"klauncher: This program is not supposed to be started manually.\n"
-"klauncher: It is started automatically by kdeinit4.\n"
-msgstr ""
-"కెలాంచర్: ఈ ప్రోగ్రామ్ మెన్యువల్ గా మొదలుపెట్టకూడదు.\n"
-"కెలాంచర్: ఇది kdeinit4 ద్వారా మొదలుపెట్టబడును.\n"
 
 #: kjs/object.cpp:554
 msgid "Evaluation error"
