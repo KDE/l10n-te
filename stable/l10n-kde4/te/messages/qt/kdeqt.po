@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2012-02-22 11:18+0100\n"
+"POT-Creation-Date: 2012-02-28 17:46+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -6176,11 +6176,6 @@ msgctxt "QNetworkAccessFileBackend"
 msgid "Read error reading from %1: %2"
 msgstr ""
 
-#: network/access/qnetworkaccesshttpbackend.cpp:429
-#: network/access/qnetworkaccessftpbackend.cpp:131
-msgid "No suitable proxy found"
-msgstr ""
-
 #: network/access/qnetworkreplydataimpl.cpp:95
 #, fuzzy, qt-format
 #| msgid "Invalid URI: %1"
@@ -6222,6 +6217,11 @@ msgctxt "QNetworkAccessManager"
 msgid "Network access is disabled."
 msgstr ""
 
+#: network/access/qnetworkaccessftpbackend.cpp:131
+#: network/access/qnetworkaccesshttpbackend.cpp:429
+msgid "No suitable proxy found"
+msgstr ""
+
 #: network/access/qnetworkaccessftpbackend.cpp:145
 #, qt-format
 msgid "Cannot open %1: is a directory"
@@ -6247,11 +6247,6 @@ msgstr "%1 ఎక్కించునప్పుడు దోషము: %2"
 #| msgid "Invalid document."
 msgid "Invalid configuration."
 msgstr "తప్పు పత్రం."
-
-#: network/kernel/qhostinfo.cpp:173
-msgctxt "QHostInfo"
-msgid "No host name given"
-msgstr ""
 
 #: network/kernel/qhostinfo_symbian.cpp:73
 #: network/kernel/qhostinfo_unix.cpp:264 network/kernel/qhostinfo_unix.cpp:296
@@ -6292,6 +6287,11 @@ msgstr ""
 #| msgid "Invalid document."
 msgid "Invalid hostname"
 msgstr "తప్పు పత్రం."
+
+#: network/kernel/qhostinfo.cpp:173
+msgctxt "QHostInfo"
+msgid "No host name given"
+msgstr ""
 
 #: network/socket/qnativesocketengine.cpp:201
 #: network/socket/qsymbiansocketengine.cpp:1354

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-24 11:23+0100\n"
+"POT-Creation-Date: 2012-02-28 17:39+0100\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -7913,12 +7913,6 @@ msgstr ""
 msgid "Conflict With Registered Global Shortcut"
 msgstr "నియంత్రిత వసుదైక శీఘ్రమార్గంతొ ఘర్షణ"
 
-#: kdeui/sonnet/configdialog.cpp:51
-#, fuzzy
-#| msgid "Send Confirmation"
-msgid "Spell Checking Configuration"
-msgstr "అనుమతి పంపించు"
-
 #: kdeui/sonnet/dialog.cpp:103 kdeui/sonnet/dialog.cpp:224
 #: kdeui/sonnet/dialog.cpp:445
 msgctxt "@title:window"
@@ -7948,6 +7942,12 @@ msgstr "అచ్చుతప్పులు సరిచూడుట రద్�
 #: kdeui/sonnet/dialog.cpp:441 kdeui/sonnet/dialog.cpp:445
 msgid "Spell check complete."
 msgstr "అచ్చుతప్పులు సరిచూడుట పూర్తైంది."
+
+#: kdeui/sonnet/configdialog.cpp:51
+#, fuzzy
+#| msgid "Send Confirmation"
+msgid "Spell Checking Configuration"
+msgstr "అనుమతి పంపించు"
 
 #: kdeui/util/kcompletion.cpp:693
 msgid ""
@@ -9718,6 +9718,34 @@ msgstr ""
 msgid "without name"
 msgstr "పేరు లేదు"
 
+#: kdeui/widgets/ktextedit.cpp:527
+#, fuzzy
+#| msgid "Speak custom text"
+msgid "Speak Text"
+msgstr "నిర్దేశిత వచనము పలుకుము"
+
+#: kdeui/widgets/ktextedit.cpp:542
+msgid "Starting Jovie Text-to-Speech Service Failed"
+msgstr ""
+
+#: kdeui/widgets/ktextedit.cpp:631
+#, fuzzy, kde-format
+#| msgid "Suggestions"
+msgid "No suggestions for %1"
+msgstr "సూచనలు"
+
+#: kdeui/widgets/ktextedit.cpp:642
+msgid "Ignore"
+msgstr "విస్మరించు"
+
+#: kdeui/widgets/ktextedit.cpp:643
+msgid "Add to Dictionary"
+msgstr "నిఘంటువుకు జతచేయుము"
+
+#: kdeui/widgets/ktextedit.cpp:788
+msgid "Nothing to spell check."
+msgstr "అచ్చుతప్పులు సరిదిద్దుటకు ఏమీలేదు."
+
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
 msgstr "చిత్ర కార్యాలు"
@@ -9918,34 +9946,6 @@ msgstr "సూపర్‌స్క్రిప్‍ట్"
 #: kdeui/widgets/ksqueezedtextlabel.cpp:165
 msgid "&Copy Full Text"
 msgstr "(&C) పూర్తి వచనంను నకలు చేయి"
-
-#: kdeui/widgets/ktextedit.cpp:527
-#, fuzzy
-#| msgid "Speak custom text"
-msgid "Speak Text"
-msgstr "నిర్దేశిత వచనము పలుకుము"
-
-#: kdeui/widgets/ktextedit.cpp:542
-msgid "Starting Jovie Text-to-Speech Service Failed"
-msgstr ""
-
-#: kdeui/widgets/ktextedit.cpp:631
-#, fuzzy, kde-format
-#| msgid "Suggestions"
-msgid "No suggestions for %1"
-msgstr "సూచనలు"
-
-#: kdeui/widgets/ktextedit.cpp:642
-msgid "Ignore"
-msgstr "విస్మరించు"
-
-#: kdeui/widgets/ktextedit.cpp:643
-msgid "Add to Dictionary"
-msgstr "నిఘంటువుకు జతచేయుము"
-
-#: kdeui/widgets/ktextedit.cpp:788
-msgid "Nothing to spell check."
-msgstr "అచ్చుతప్పులు సరిదిద్దుటకు ఏమీలేదు."
 
 #: kdeui/widgets/ktimecombobox.cpp:259
 msgctxt "@info"
