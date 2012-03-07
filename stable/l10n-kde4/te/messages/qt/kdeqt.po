@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2012-02-28 17:46+0100\n"
+"POT-Creation-Date: 2012-03-07 12:25+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -716,7 +716,7 @@ msgstr ""
 msgid "DRM error"
 msgstr "నెట్వర్క్ దోషం"
 
-#: 3rdparty/phonon/mmf/utils.cpp:166
+#: 3rdparty/phonon/mmf/utils.cpp:166 network/kernel/qhostinfo_win.cpp:119
 #, fuzzy, qt-format
 #| msgid "Unknown error"
 msgid "Unknown error (%1)"
@@ -1861,8 +1861,7 @@ msgstr ""
 #: corelib/io/qiodevice.cpp:1630 corelib/plugin/qlibrary.cpp:1233
 #: corelib/plugin/qpluginloader.cpp:367
 #: corelib/statemachine/qstatemachine.cpp:1046
-#: network/kernel/qhostinfo_unix.cpp:300 network/kernel/qhostinfo_win.cpp:209
-#: network/kernel/qhostinfo_win.cpp:236
+#: network/kernel/qhostinfo_unix.cpp:300
 #: network/socket/qnativesocketengine.cpp:276
 #: network/socket/qsymbiansocketengine.cpp:1435 network/ssl/qsslerror.cpp:289
 msgid "Unknown error"
@@ -6250,7 +6249,7 @@ msgstr "తప్పు పత్రం."
 
 #: network/kernel/qhostinfo_symbian.cpp:73
 #: network/kernel/qhostinfo_unix.cpp:264 network/kernel/qhostinfo_unix.cpp:296
-#: network/kernel/qhostinfo_win.cpp:206 network/kernel/qhostinfo_win.cpp:233
+#: network/kernel/qhostinfo_win.cpp:115
 #: network/socket/qsocks5socketengine.cpp:668
 #: network/socket/qsocks5socketengine.cpp:694
 #: network/socket/qabstractsocket.cpp:928
@@ -6274,24 +6273,24 @@ msgid "Invalid hostname"
 msgstr "తప్పు పత్రం."
 
 #: network/kernel/qhostinfo_unix.cpp:251 network/kernel/qhostinfo_unix.cpp:290
-#: network/kernel/qhostinfo_win.cpp:199 network/kernel/qhostinfo_win.cpp:228
+#: network/kernel/qhostinfo_win.cpp:215 network/kernel/qhostinfo_win.cpp:240
 msgid "Unknown address type"
 msgstr "తెలియని చిరునామా రకము"
-
-#: network/kernel/qhostinfo_win.cpp:169
-msgid "No host name given"
-msgstr ""
-
-#: network/kernel/qhostinfo_win.cpp:169
-#, fuzzy
-#| msgid "Invalid document."
-msgid "Invalid hostname"
-msgstr "తప్పు పత్రం."
 
 #: network/kernel/qhostinfo.cpp:173
 msgctxt "QHostInfo"
 msgid "No host name given"
 msgstr ""
+
+#: network/kernel/qhostinfo_win.cpp:185
+msgid "No host name given"
+msgstr ""
+
+#: network/kernel/qhostinfo_win.cpp:185
+#, fuzzy
+#| msgid "Invalid document."
+msgid "Invalid hostname"
+msgstr "తప్పు పత్రం."
 
 #: network/socket/qnativesocketengine.cpp:201
 #: network/socket/qsymbiansocketengine.cpp:1354
