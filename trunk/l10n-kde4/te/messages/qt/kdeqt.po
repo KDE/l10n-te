@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2012-03-13 08:12+0100\n"
+"POT-Creation-Date: 2012-03-14 04:26+0100\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -1871,11 +1871,6 @@ msgstr ""
 msgid "Process operation timed out"
 msgstr "సాకెట్ కార్యానికి సమయం అయిపొయినది"
 
-#: corelib/io/qprocess_unix.cpp:686
-#, qt-format
-msgid "Resource error (fork failure): %1"
-msgstr ""
-
 #: corelib/io/qfile.cpp:736 corelib/io/qfile.cpp:890
 msgid "Destination file exists"
 msgstr ""
@@ -1911,6 +1906,11 @@ msgstr ""
 
 #: corelib/io/qfile.cpp:1416
 msgid "No file engine available or engine does not support UnMapExtension"
+msgstr ""
+
+#: corelib/io/qprocess_unix.cpp:686
+#, qt-format
+msgid "Resource error (fork failure): %1"
 msgstr ""
 
 #: corelib/kernel/qsharedmemory.cpp:268
