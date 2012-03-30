@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-27 06:07+0200\n"
+"POT-Creation-Date: 2012-03-30 05:05+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "\n"
 "\n"
 
-#: Application.cpp:419
+#: Application.cpp:420
 msgid "Toggle Background Window"
 msgstr ""
 
@@ -681,53 +681,53 @@ msgstr "లార్స్ క్నొల్"
 msgid "Thanks to many others.\n"
 msgstr "ఇంకా చాలామందికి కృతజ్ఞతలు.\n"
 
-#: MainWindow.cpp:277
+#: MainWindow.cpp:278
 #, fuzzy
 #| msgid "New &Tab"
 msgctxt "@action:inmenu"
 msgid "&New Tab"
 msgstr "(&T) కొత్త టాబ్"
 
-#: MainWindow.cpp:286
+#: MainWindow.cpp:287
 #, fuzzy
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "&Clone Tab"
 msgstr "(&C) టాబ్ ను మూసివెయి"
 
-#: MainWindow.cpp:293
+#: MainWindow.cpp:294
 #, fuzzy
 #| msgid "New &Window"
 msgctxt "@action:inmenu"
 msgid "New &Window"
 msgstr "(&W) కొత్త విండొ"
 
-#: MainWindow.cpp:300
+#: MainWindow.cpp:301
 #, fuzzy
 #| msgid "Konsole"
 msgctxt "@action:inmenu"
 msgid "Close Window"
 msgstr "కాన్సోల్"
 
-#: MainWindow.cpp:305
+#: MainWindow.cpp:306
 #, fuzzy
 #| msgid "&Bookmarks"
 msgctxt "@title:menu"
 msgid "&Bookmarks"
 msgstr "(&B) పేజీ గుర్తులు"
 
-#: MainWindow.cpp:323
+#: MainWindow.cpp:324
 #, fuzzy
 #| msgid "Manage Profiles"
 msgctxt "@action:inmenu"
 msgid "Manage Profiles..."
 msgstr "ప్రొఫైల్సును నిర్వహించుము"
 
-#: MainWindow.cpp:329
+#: MainWindow.cpp:330
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:518
+#: MainWindow.cpp:519
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have multiple tabs in this window, are you sure you want to quit?"
@@ -740,25 +740,25 @@ msgstr[0] ""
 msgstr[1] ""
 "ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా నిష్క్రమించుదామని అనుకొనుచున్నారా?"
 
-#: MainWindow.cpp:522
+#: MainWindow.cpp:523
 #, fuzzy
 #| msgid "Confirm Close"
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr "ముసివేత నిర్ధారించు"
 
-#: MainWindow.cpp:524
+#: MainWindow.cpp:525
 msgid "Close Current Tab"
 msgstr "ప్రస్తుత టాబ్ మూసివేయి"
 
-#: MainWindow.cpp:621
+#: MainWindow.cpp:622
 #, fuzzy
 #| msgid "General"
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "సాధారణ"
 
-#: MainWindow.cpp:626
+#: MainWindow.cpp:627
 msgctxt "@title Preferences page name"
 msgid "TabBar"
 msgstr ""
@@ -798,7 +798,7 @@ msgctxt "@item This will be used as part of the file name"
 msgid "New Profile"
 msgstr "కొత్త ప్రొఫైల్"
 
-#: Part.cpp:95
+#: Part.cpp:96
 #, fuzzy
 #| msgid "Manage Profiles"
 msgid "Manage Profiles..."
@@ -2148,14 +2148,14 @@ msgstr "ప్రోగ్రామ్ '%1' స్థితి %2తో ని�
 msgid "ZModem Progress"
 msgstr "ZModem పురోగతి"
 
-#: SessionManager.cpp:917
+#: SessionManager.cpp:388
 #, fuzzy
 #| msgid "Number"
 msgctxt "@item:intable The session index"
 msgid "Number"
 msgstr "సంఖ్య"
 
-#: SessionManager.cpp:919
+#: SessionManager.cpp:390
 #, fuzzy
 #| msgid "Title"
 msgctxt "@item:intable The session title"
@@ -2226,16 +2226,16 @@ msgstr "టాబ్ శీర్షిక రూపము:"
 msgid "Insert remote title format"
 msgstr "రిమోట్ టాబ్ శీర్షిక రూపము:"
 
-#: TerminalDisplay.cpp:1076 TerminalDisplay.cpp:1077
+#: TerminalDisplay.cpp:1108 TerminalDisplay.cpp:1109
 msgid "Size: XXX x XXX"
 msgstr "పరిమాణం: XXX x XXX"
 
-#: TerminalDisplay.cpp:1087
+#: TerminalDisplay.cpp:1119
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "పరిమాణం: %1 x %2"
 
-#: TerminalDisplay.cpp:2579
+#: TerminalDisplay.cpp:2611
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
 "\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
@@ -2243,13 +2243,13 @@ msgstr ""
 "<qt>అవుట్పుట్ Ctrl+S వత్తుట ద్వారా <a href=\"http://en.wikipedia.org/wiki/"
 "Flow_control\">suspended</a> అయింది.  తిరిగికొనసాగించుటకు <b>Ctrl+Q</b> వత్తుము.</qt>"
 
-#: TerminalDisplay.cpp:2814
+#: TerminalDisplay.cpp:2851
 #, fuzzy
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "ఎంచుకొన్న దానిని అతికించు"
 
-#: TerminalDisplay.cpp:2829
+#: TerminalDisplay.cpp:2866
 msgid "Change &Directory To"
 msgstr ""
 
@@ -2288,86 +2288,86 @@ msgctxt "@info:tooltip"
 msgid "Close current tab"
 msgstr "ప్రస్తుత టాబ్ మూసివేయి"
 
-#: ViewManager.cpp:149
+#: ViewManager.cpp:150
 #, fuzzy
 #| msgid "New &Tab"
 msgctxt "@action Shortcut entry"
 msgid "Next Tab"
 msgstr "(&T) కొత్త టాబ్"
 
-#: ViewManager.cpp:150
+#: ViewManager.cpp:151
 #, fuzzy
 #| msgid "Previous"
 msgctxt "@action Shortcut entry"
 msgid "Previous Tab"
 msgstr "ముందు"
 
-#: ViewManager.cpp:151
+#: ViewManager.cpp:152
 #, fuzzy
 #| msgid "Switch to Tab %1"
 msgctxt "@action Shortcut entry"
 msgid "Switch to Last Tab"
 msgstr "టాబ్ %1కు మారుము"
 
-#: ViewManager.cpp:152
+#: ViewManager.cpp:153
 #, fuzzy
 #| msgid "Next View Container"
 msgctxt "@action Shortcut entry"
 msgid "Next View Container"
 msgstr "తరువాతి వీక్షణం కలిగివున్నది"
 
-#: ViewManager.cpp:154
+#: ViewManager.cpp:155
 #, fuzzy
 #| msgid "Move View Left"
 msgctxt "@action Shortcut entry"
 msgid "Move Tab Left"
 msgstr "వీక్షణం ఎడమకు కదుపుము"
 
-#: ViewManager.cpp:155
+#: ViewManager.cpp:156
 #, fuzzy
 #| msgid "Move View Right"
 msgctxt "@action Shortcut entry"
 msgid "Move Tab Right"
 msgstr "వీక్షణం కుడికు కదుపుము"
 
-#: ViewManager.cpp:164
+#: ViewManager.cpp:165
 msgctxt "@action:inmenu"
 msgid "Split View Left/Right"
 msgstr "వీక్షణం ఎడమ/కుడికు విభజించుము"
 
-#: ViewManager.cpp:171
+#: ViewManager.cpp:172
 msgctxt "@action:inmenu"
 msgid "Split View Top/Bottom"
 msgstr "వీక్షణం పైనకు/క్రిందకు విభజించుము"
 
-#: ViewManager.cpp:176
+#: ViewManager.cpp:177
 msgctxt "@action:inmenu Close Active View"
 msgid "Close Active"
 msgstr "క్రియాశీలమైంది మూయుము"
 
-#: ViewManager.cpp:185
+#: ViewManager.cpp:186
 msgctxt "@action:inmenu Close Other Views"
 msgid "Close Others"
 msgstr "ఇతరులను మూసివేయి"
 
-#: ViewManager.cpp:194
+#: ViewManager.cpp:195
 msgctxt "@action:inmenu"
 msgid "Expand View"
 msgstr "వీక్షణం విస్తరించుము"
 
-#: ViewManager.cpp:202
+#: ViewManager.cpp:203
 msgctxt "@action:inmenu"
 msgid "Shrink View"
 msgstr "వీక్షణం కుదించుము"
 
-#: ViewManager.cpp:212
+#: ViewManager.cpp:213
 #, fuzzy
 #| msgid "Close Current Tab"
 msgctxt "@action:inmenu"
 msgid "D&etach Current Tab"
 msgstr "ప్రస్తుత టాబ్ మూసివేయి"
 
-#: ViewManager.cpp:233
+#: ViewManager.cpp:234
 #, fuzzy, kde-format
 #| msgid "Switch to Tab %1"
 msgctxt "@action Shortcut entry"
