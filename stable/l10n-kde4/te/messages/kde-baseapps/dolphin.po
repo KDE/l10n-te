@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-28 11:45+0200\n"
+"POT-Creation-Date: 2012-04-10 17:35+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -860,6 +860,74 @@ msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr "ఒక ఫోల్డరును అదేఫోల్డరు లోనికి వుంచుట కుదరదు"
 
+#: views/dolphinview.cpp:521
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr "<filename>%1</filename> ఎంపిక కాబడినది"
+
+#: views/dolphinview.cpp:524
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "1 ఫోల్డరు ఎంపిక కాబడినది"
+msgstr[1] "%1 ఫోల్డర్లు ఎంపిక కాబడినది"
+
+#: views/dolphinview.cpp:525
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "1 ఫైలు ఎంపిక కాబడినది"
+msgstr[1] "%1 ఫైలు ఎంపిక కాబడినది"
+
+#: views/dolphinview.cpp:529
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Folder"
+msgctxt "@info:status"
+msgid "1 Folder"
+msgid_plural "%1 Folders"
+msgstr[0] "ఫొల్డర్"
+msgstr[1] "ఫొల్డర్"
+
+#: views/dolphinview.cpp:530
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File"
+msgid_plural "%1 Files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/dolphinview.cpp:534
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:538
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:1107
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "తొలగింపు కార్యము పూర్తైనది."
+
+#: views/dolphinview.cpp:1203
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "స్థానము ఖాళీగావుంది"
+
+#: views/dolphinview.cpp:1205
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "స్థానము '%1' సరైనదికాదు."
+
 #: views/additionalinfoaccessor.cpp:90
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
@@ -923,74 +991,6 @@ msgstr "పత్రికీకరణ"
 msgctxt "@label"
 msgid "Path"
 msgstr "అతికించుము"
-
-#: views/dolphinview.cpp:521
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "<filename>%1</filename> ఎంపిక కాబడినది"
-
-#: views/dolphinview.cpp:524
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] "1 ఫోల్డరు ఎంపిక కాబడినది"
-msgstr[1] "%1 ఫోల్డర్లు ఎంపిక కాబడినది"
-
-#: views/dolphinview.cpp:525
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] "1 ఫైలు ఎంపిక కాబడినది"
-msgstr[1] "%1 ఫైలు ఎంపిక కాబడినది"
-
-#: views/dolphinview.cpp:529
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Folder"
-msgctxt "@info:status"
-msgid "1 Folder"
-msgid_plural "%1 Folders"
-msgstr[0] "ఫొల్డర్"
-msgstr[1] "ఫొల్డర్"
-
-#: views/dolphinview.cpp:530
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File"
-msgid_plural "%1 Files"
-msgstr[0] ""
-msgstr[1] ""
-
-#: views/dolphinview.cpp:534
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
-
-#: views/dolphinview.cpp:537
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: views/dolphinview.cpp:1104
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "తొలగింపు కార్యము పూర్తైనది."
-
-#: views/dolphinview.cpp:1200
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "స్థానము ఖాళీగావుంది"
-
-#: views/dolphinview.cpp:1202
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "స్థానము '%1' సరైనదికాదు."
 
 #: views/versioncontrol/versioncontrolobserver.cpp:204
 #, fuzzy
@@ -1347,6 +1347,11 @@ msgid_plural "%1 items"
 msgstr[0] "%1 అంశము యెంపికకాబడింది"
 msgstr[1] "%1 అంశము యెంపికకాబడింది"
 
+#: kitemviews/kfileitemlistview.cpp:571
+msgctxt "@item:intable"
+msgid "items"
+msgstr ""
+
 #: kitemviews/kfileitemmodel.cpp:256
 #, fuzzy
 #| msgctxt "@action:inmenu Sort By"
@@ -1600,11 +1605,6 @@ msgstr "ఫర్బిడెన్"
 msgctxt "@title:group Files and folders by permissions"
 msgid "User: %1 | Group: %2 | Others: %3"
 msgstr "(వినియోగదారి: %1) (సమూహం: %2) (ఇతరులు: %3)"
-
-#: kitemviews/kfileitemlistview.cpp:559
-msgctxt "@item:intable"
-msgid "items"
-msgstr ""
 
 #: dolphinpart.cpp:145
 msgctxt "@action:inmenu Edit"
@@ -2205,7 +2205,7 @@ msgstr ""
 #. i18n: ectx: label, entry (UseSystemFont), group (IconsMode)
 #. i18n: file: settings/dolphin_detailsmodesettings.kcfg:16
 #. i18n: ectx: label, entry (UseSystemFont), group (DetailsMode)
-#: rc.cpp:23 rc.cpp:162 rc.cpp:193
+#: rc.cpp:23 rc.cpp:103 rc.cpp:134
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Use system font"
@@ -2218,7 +2218,7 @@ msgstr "సిస్టమ్ ఫాంటును వుపయోగించ�
 #. i18n: ectx: label, entry (FontFamily), group (IconsMode)
 #. i18n: file: settings/dolphin_detailsmodesettings.kcfg:12
 #. i18n: ectx: label, entry (FontFamily), group (DetailsMode)
-#: rc.cpp:26 rc.cpp:165 rc.cpp:190
+#: rc.cpp:26 rc.cpp:106 rc.cpp:131
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font family"
@@ -2231,7 +2231,7 @@ msgstr "ఫాంటు కుటుంబము"
 #. i18n: ectx: label, entry (FontSize), group (IconsMode)
 #. i18n: file: settings/dolphin_detailsmodesettings.kcfg:20
 #. i18n: ectx: label, entry (FontSize), group (DetailsMode)
-#: rc.cpp:29 rc.cpp:168 rc.cpp:196
+#: rc.cpp:29 rc.cpp:109 rc.cpp:137
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font size"
@@ -2244,7 +2244,7 @@ msgstr "ఫాంటు పరిమాణము"
 #. i18n: ectx: label, entry (ItalicFont), group (IconsMode)
 #. i18n: file: settings/dolphin_detailsmodesettings.kcfg:24
 #. i18n: ectx: label, entry (ItalicFont), group (DetailsMode)
-#: rc.cpp:32 rc.cpp:171 rc.cpp:199
+#: rc.cpp:32 rc.cpp:112 rc.cpp:140
 #, fuzzy
 #| msgctxt "@label Font style"
 #| msgid "Italic"
@@ -2257,7 +2257,7 @@ msgstr "ఇటాలిక్"
 #. i18n: ectx: label, entry (FontWeight), group (IconsMode)
 #. i18n: file: settings/dolphin_detailsmodesettings.kcfg:28
 #. i18n: ectx: label, entry (FontWeight), group (DetailsMode)
-#: rc.cpp:35 rc.cpp:174 rc.cpp:202
+#: rc.cpp:35 rc.cpp:115 rc.cpp:143
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font weight"
@@ -2270,7 +2270,7 @@ msgstr "ఫాంటు వెయిట్"
 #. i18n: ectx: label, entry (IconSize), group (IconsMode)
 #. i18n: file: settings/dolphin_detailsmodesettings.kcfg:32
 #. i18n: ectx: label, entry (IconSize), group (DetailsMode)
-#: rc.cpp:38 rc.cpp:177 rc.cpp:205
+#: rc.cpp:38 rc.cpp:118 rc.cpp:146
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Icon size"
@@ -2283,7 +2283,7 @@ msgstr "ప్రతిమ పరిమాణము"
 #. i18n: ectx: label, entry (PreviewSize), group (IconsMode)
 #. i18n: file: settings/dolphin_detailsmodesettings.kcfg:36
 #. i18n: ectx: label, entry (PreviewSize), group (DetailsMode)
-#: rc.cpp:41 rc.cpp:180 rc.cpp:208
+#: rc.cpp:41 rc.cpp:121 rc.cpp:149
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Preview size"
@@ -2442,168 +2442,9 @@ msgctxt "@info:whatsthis"
 msgid "The last time these properties were changed by the user."
 msgstr "చివరిసారిగా ఈ గుణములు వినియోగదారిచేత మార్చబడినవి."
 
-#. i18n: file: settings/dolphin_generalsettings.kcfg:12
-#. i18n: ectx: label, entry (EditableUrl), group (General)
-#: rc.cpp:103
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Should the URL be editable for the user"
-msgid "Should the URL be editable for the user"
-msgstr "వినియోగదారికి URL సరికూర్చ గలదిగా వుండవలెను"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:16
-#. i18n: ectx: label, entry (UrlCompletionMode), group (General)
-#: rc.cpp:106
-msgid "Text completion mode of the URL Navigator"
-msgstr ""
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:20
-#. i18n: ectx: label, entry (ShowFullPath), group (General)
-#: rc.cpp:109
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Should the full path be shown inside the location bar"
-msgid "Should the full path be shown inside the location bar"
-msgstr "స్థానపు పట్టీ లోపల పూర్తి పాత్ చూపవలెను"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:24
-#. i18n: ectx: label, entry (Version), group (General)
-#: rc.cpp:112
-msgid ""
-"Internal version of Dolphin, containing 3 digits for major, minor, bugfix"
-msgstr ""
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:28
-#. i18n: ectx: label, entry (ModifiedStartupSettings), group (General)
-#: rc.cpp:115
-msgid ""
-"Have the startup settings been modified (internal setting not shown in the "
-"UI)"
-msgstr ""
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:32
-#. i18n: ectx: label, entry (HomeUrl), group (General)
-#: rc.cpp:118
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Home URL"
-msgid "Home URL"
-msgstr "నివాస URL"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:36
-#. i18n: ectx: label, entry (SplitView), group (General)
-#: rc.cpp:121
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Split the view into two panes"
-msgid "Split the view into two panes"
-msgstr "వీక్షణమును రెండు పేన్స్  లోనికి విభజించుము"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:40
-#. i18n: ectx: label, entry (FilterBar), group (General)
-#: rc.cpp:124
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Should the filter bar be shown"
-msgid "Should the filter bar be shown"
-msgstr "ఫిల్టర్ బార్ చూపవలెను"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:44
-#. i18n: ectx: label, entry (GlobalViewProps), group (General)
-#: rc.cpp:127
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Should the view properties be used for all directories"
-msgid "Should the view properties be used for all directories"
-msgstr "వీక్షణ గుణములు అన్ని డైరెక్టరీలకు వుపయోగించబడాలా"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:48
-#. i18n: ectx: label, entry (BrowseThroughArchives), group (General)
-#: rc.cpp:130
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Browse through archives"
-msgid "Browse through archives"
-msgstr "ఆర్చీవ్సు ద్వారా బ్రౌజ్ చేయి"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:52
-#. i18n: ectx: label, entry (ConfirmClosingMultipleTabs), group (General)
-#: rc.cpp:133
-msgid "Ask for confirmation when closing windows with multiple tabs."
-msgstr ""
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:56
-#. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
-#: rc.cpp:136
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Show selection toggle"
-msgid "Show selection toggle"
-msgstr "ఎంపిక టోగుల్‌ను చూపుము"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:60
-#. i18n: ectx: label, entry (ShowToolTips), group (General)
-#: rc.cpp:139
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Show tooltips"
-msgid "Show tooltips"
-msgstr "పనిముట్టుచిట్కాను చూపుము"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:64
-#. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
-#: rc.cpp:142
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Show 'Copy To' and 'Move To' commands in context menu"
-msgid "Show 'Copy To' and 'Move To' commands in context menu"
-msgstr "కాన్టెక్స్టు మెనూనందు 'ఇక్కడకు నకలుతీయి' మరియు 'ఇక్కడకు కదుపు' ఆదేశములను చూపుము"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:68
-#. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
-#: rc.cpp:145
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Timestamp since when the view properties are valid"
-msgid "Timestamp since when the view properties are valid"
-msgstr "వీక్షణ గుణాలు చెల్లునప్పటినుండి టైమ్‌స్టాంప్"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:71
-#. i18n: ectx: label, entry (AutoExpandFolders), group (General)
-#: rc.cpp:148
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Use auto-expanding folders for all view types"
-msgid "Use auto-expanding folders for all view types"
-msgstr "అన్ని వీక్షణ రకములకు స్వయంచాలక-విస్తరింపు ఫోల్డర్లను వుపయోగించుము"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:75
-#. i18n: ectx: label, entry (ShowZoomSlider), group (General)
-#: rc.cpp:151
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Show zoom slider in the statusbar"
-msgid "Show zoom slider in the statusbar"
-msgstr "స్థితిపట్టీనందు జూమ్ స్లైడర్‌ను చూపుము"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:79
-#. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
-#: rc.cpp:154
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Show the space information in the statusbar"
-msgid "Show the space information in the statusbar"
-msgstr "స్థితిపట్టీనందు జాగా సమాచారమును చూపుము"
-
-#. i18n: file: settings/dolphin_generalsettings.kcfg:83
-#. i18n: ectx: label, entry (LockPanels), group (General)
-#: rc.cpp:157
-msgid "Lock the layout of the panels"
-msgstr ""
-
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:40
 #. i18n: ectx: label, entry (TextWidthIndex), group (IconsMode)
-#: rc.cpp:183
+#: rc.cpp:124
 #, fuzzy
 #| msgctxt "@label:listbox"
 #| msgid "Text width:"
@@ -2612,28 +2453,193 @@ msgstr "వచనము వెడల్పు:"
 
 #. i18n: file: settings/dolphin_detailsmodesettings.kcfg:40
 #. i18n: ectx: label, entry (ColumnPositions), group (DetailsMode)
-#: rc.cpp:211
+#: rc.cpp:152
 msgid "Position of columns"
 msgstr ""
 
 #. i18n: file: settings/dolphin_detailsmodesettings.kcfg:44
 #. i18n: ectx: label, entry (ExpandableFolders), group (DetailsMode)
-#: rc.cpp:214
+#: rc.cpp:155
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Expandable folders"
 msgid "Expandable folders"
 msgstr "విస్తరించదగిన ఫోల్డర్లు"
 
+#. i18n: file: settings/dolphin_generalsettings.kcfg:12
+#. i18n: ectx: label, entry (EditableUrl), group (General)
+#: rc.cpp:162
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Should the URL be editable for the user"
+msgid "Should the URL be editable for the user"
+msgstr "వినియోగదారికి URL సరికూర్చ గలదిగా వుండవలెను"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:16
+#. i18n: ectx: label, entry (UrlCompletionMode), group (General)
+#: rc.cpp:165
+msgid "Text completion mode of the URL Navigator"
+msgstr ""
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:20
+#. i18n: ectx: label, entry (ShowFullPath), group (General)
+#: rc.cpp:168
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Should the full path be shown inside the location bar"
+msgid "Should the full path be shown inside the location bar"
+msgstr "స్థానపు పట్టీ లోపల పూర్తి పాత్ చూపవలెను"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:24
+#. i18n: ectx: label, entry (Version), group (General)
+#: rc.cpp:171
+msgid ""
+"Internal version of Dolphin, containing 3 digits for major, minor, bugfix"
+msgstr ""
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:28
+#. i18n: ectx: label, entry (ModifiedStartupSettings), group (General)
+#: rc.cpp:174
+msgid ""
+"Have the startup settings been modified (internal setting not shown in the "
+"UI)"
+msgstr ""
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:32
+#. i18n: ectx: label, entry (HomeUrl), group (General)
+#: rc.cpp:177
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Home URL"
+msgid "Home URL"
+msgstr "నివాస URL"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:36
+#. i18n: ectx: label, entry (SplitView), group (General)
+#: rc.cpp:180
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Split the view into two panes"
+msgid "Split the view into two panes"
+msgstr "వీక్షణమును రెండు పేన్స్  లోనికి విభజించుము"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:40
+#. i18n: ectx: label, entry (FilterBar), group (General)
+#: rc.cpp:183
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Should the filter bar be shown"
+msgid "Should the filter bar be shown"
+msgstr "ఫిల్టర్ బార్ చూపవలెను"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:44
+#. i18n: ectx: label, entry (GlobalViewProps), group (General)
+#: rc.cpp:186
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Should the view properties be used for all directories"
+msgid "Should the view properties be used for all directories"
+msgstr "వీక్షణ గుణములు అన్ని డైరెక్టరీలకు వుపయోగించబడాలా"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:48
+#. i18n: ectx: label, entry (BrowseThroughArchives), group (General)
+#: rc.cpp:189
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Browse through archives"
+msgid "Browse through archives"
+msgstr "ఆర్చీవ్సు ద్వారా బ్రౌజ్ చేయి"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:52
+#. i18n: ectx: label, entry (ConfirmClosingMultipleTabs), group (General)
+#: rc.cpp:192
+msgid "Ask for confirmation when closing windows with multiple tabs."
+msgstr ""
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:56
+#. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
+#: rc.cpp:195
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Show selection toggle"
+msgid "Show selection toggle"
+msgstr "ఎంపిక టోగుల్‌ను చూపుము"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:60
+#. i18n: ectx: label, entry (ShowToolTips), group (General)
+#: rc.cpp:198
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Show tooltips"
+msgid "Show tooltips"
+msgstr "పనిముట్టుచిట్కాను చూపుము"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:64
+#. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
+#: rc.cpp:201
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Show 'Copy To' and 'Move To' commands in context menu"
+msgid "Show 'Copy To' and 'Move To' commands in context menu"
+msgstr "కాన్టెక్స్టు మెనూనందు 'ఇక్కడకు నకలుతీయి' మరియు 'ఇక్కడకు కదుపు' ఆదేశములను చూపుము"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:68
+#. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
+#: rc.cpp:204
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Timestamp since when the view properties are valid"
+msgid "Timestamp since when the view properties are valid"
+msgstr "వీక్షణ గుణాలు చెల్లునప్పటినుండి టైమ్‌స్టాంప్"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:71
+#. i18n: ectx: label, entry (AutoExpandFolders), group (General)
+#: rc.cpp:207
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Use auto-expanding folders for all view types"
+msgid "Use auto-expanding folders for all view types"
+msgstr "అన్ని వీక్షణ రకములకు స్వయంచాలక-విస్తరింపు ఫోల్డర్లను వుపయోగించుము"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:75
+#. i18n: ectx: label, entry (ShowZoomSlider), group (General)
+#: rc.cpp:210
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Show zoom slider in the statusbar"
+msgid "Show zoom slider in the statusbar"
+msgstr "స్థితిపట్టీనందు జూమ్ స్లైడర్‌ను చూపుము"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:79
+#. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
+#: rc.cpp:213
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Show the space information in the statusbar"
+msgid "Show the space information in the statusbar"
+msgstr "స్థితిపట్టీనందు జాగా సమాచారమును చూపుము"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:83
+#. i18n: ectx: label, entry (LockPanels), group (General)
+#: rc.cpp:216
+msgid "Lock the layout of the panels"
+msgstr ""
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:87
+#. i18n: ectx: label, entry (EnlargeSmallPreviews), group (General)
+#: rc.cpp:219
+msgid "Enlarge Small Previews"
+msgstr ""
+
 #. i18n: file: dolphinpart.rc:4
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:221
+#: rc.cpp:224
 msgid "&Edit"
 msgstr "(&E) సరికూర్చు"
 
 #. i18n: file: dolphinpart.rc:14
 #. i18n: ectx: Menu (selection)
-#: rc.cpp:224
+#: rc.cpp:227
 #, fuzzy
 #| msgctxt "@action:inmenu Edit"
 #| msgid "Invert Selection"
@@ -2643,33 +2649,33 @@ msgstr "విలోమ యెంపిక"
 
 #. i18n: file: dolphinpart.rc:23
 #. i18n: ectx: Menu (view)
-#: rc.cpp:227
+#: rc.cpp:230
 msgid "&View"
 msgstr "(&V) వీక్షణం"
 
 #. i18n: file: dolphinpart.rc:32
 #. i18n: ectx: Menu (go)
-#: rc.cpp:230
+#: rc.cpp:233
 msgid "&Go"
 msgstr "(&G) వెళ్ళు"
 
 #. i18n: file: dolphinpart.rc:40
 #. i18n: ectx: Menu (tools)
-#: rc.cpp:233
+#: rc.cpp:236
 msgctxt "@title:menu"
 msgid "Tools"
 msgstr "పనిముట్లు"
 
 #. i18n: file: dolphinpart.rc:48
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:236
+#: rc.cpp:239
 msgctxt "@title:menu"
 msgid "Dolphin Toolbar"
 msgstr "డాల్ఫిన్ పనిముట్లపట్టీ"
 
 #. i18n: file: dolphinui.rc:34
 #. i18n: ectx: Menu (location_bar)
-#: rc.cpp:239
+#: rc.cpp:242
 #, fuzzy
 #| msgctxt "@label:textbox"
 #| msgid "Location:"
@@ -2679,7 +2685,7 @@ msgstr "స్థానము:"
 
 #. i18n: file: dolphinui.rc:88
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:242
+#: rc.cpp:245
 msgctxt "@title:menu"
 msgid "Main Toolbar"
 msgstr "మెయిన్ పనిముట్లపట్టీ"
