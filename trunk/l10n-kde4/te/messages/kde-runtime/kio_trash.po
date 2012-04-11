@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-24 04:50+0100\n"
+"POT-Creation-Date: 2012-04-11 04:25+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -70,6 +70,20 @@ msgstr ""
 
 #: ktrash.cpp:42
 msgid "Ignored"
+msgstr ""
+
+#: kio_trash_win.cpp:241
+msgid "not supported"
+msgstr ""
+
+#: trashimpl.cpp:1127
+msgid ""
+"The trash has reached its maximum size!\n"
+"Cleanup the trash manually."
+msgstr ""
+
+#: trashimpl.cpp:1138
+msgid "The file is too large to be trashed."
 msgstr ""
 
 #: kcmtrash.cpp:158 kcmtrash.cpp:256
@@ -148,18 +162,4 @@ msgid ""
 "<para>When the size limit is reached, it will prefer to delete the type of "
 "files that you specify, first. If this is set to warn you, it will do so "
 "instead of automatically deleting files.</para>"
-msgstr ""
-
-#: kio_trash_win.cpp:241
-msgid "not supported"
-msgstr ""
-
-#: trashimpl.cpp:1127
-msgid ""
-"The trash has reached its maximum size!\n"
-"Cleanup the trash manually."
-msgstr ""
-
-#: trashimpl.cpp:1138
-msgid "The file is too large to be trashed."
 msgstr ""
