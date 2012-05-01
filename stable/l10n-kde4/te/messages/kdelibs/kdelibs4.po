@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-23 12:02+0200\n"
+"POT-Creation-Date: 2012-05-01 19:10+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -6502,7 +6502,7 @@ msgstr "మిగిలిన దాతలు:"
 msgid "Visit contributor's homepage"
 msgstr "హొమ్ పేజ్"
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:126
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:127
 #, fuzzy, kde-format
 #| msgid "Other Contributors:"
 msgctxt "Action to send an email to a contributor"
@@ -6511,8 +6511,8 @@ msgid ""
 "%1"
 msgstr "మిగిలిన దాతలు:"
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:131
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:168
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:133
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:170
 #, fuzzy, kde-format
 #| msgid "Homepage"
 msgid ""
@@ -6520,15 +6520,15 @@ msgid ""
 "%1"
 msgstr "హొమ్ పేజ్"
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:138
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:172
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:140
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:174
 #, kde-format
 msgid ""
 "Visit contributor's profile on %1\n"
 "%2"
 msgstr ""
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:160
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:162
 #, fuzzy, kde-format
 #| msgid "Homepage"
 msgid ""
@@ -6536,7 +6536,7 @@ msgid ""
 "%1"
 msgstr "హొమ్ పేజ్"
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:164
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:166
 #, fuzzy, kde-format
 #| msgid "Homepage"
 msgid ""
@@ -6544,7 +6544,7 @@ msgid ""
 "%1"
 msgstr "హొమ్ పేజ్"
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:266
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:268
 #, fuzzy, kde-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
@@ -10984,15 +10984,7 @@ msgstr "(&N) ఆపిన విండొ లొ వూరికేవున్�
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "&(C) జావాస్క్రిప్ట్ కొత్త విండొ పాలసీలను అమర్చు..."
 
-#: khtml/khtml_settings.cpp:238 kparts/htmlextension.cpp:117
-msgid "Accept"
-msgstr "అంగీకరించు"
-
-#: khtml/khtml_settings.cpp:239 kparts/htmlextension.cpp:119
-msgid "Reject"
-msgstr "తిరస్కరించు"
-
-#: khtml/khtml_settings.cpp:923
+#: khtml/khtml_settings.cpp:888
 msgid "Filter error"
 msgstr "గలని దోషము"
 
@@ -12779,6 +12771,14 @@ msgstr ""
 #: kparts/part.cpp:823
 msgid "Close Document"
 msgstr "పత్రం మూసివేయి"
+
+#: kparts/htmlextension.cpp:117
+msgid "Accept"
+msgstr "అంగీకరించు"
+
+#: kparts/htmlextension.cpp:119
+msgid "Reject"
+msgstr "తిరస్కరించు"
 
 #: kpty/kptydevice.cpp:322
 msgid "Error reading from PTY"
