@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-02 04:20+0200\n"
+"POT-Creation-Date: 2012-05-07 04:24+0200\n"
 "PO-Revision-Date: 2007-03-09 14:17+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -555,62 +555,6 @@ msgstr ""
 msgid ""
 "Here you can see all available Kate plugins. Those with a check mark are "
 "loaded, and will be loaded again the next time Kate is started."
-msgstr ""
-
-#: app/katedocmanager.cpp:68
-msgid ""
-"A KDE text-editor component could not be found.\n"
-"Please check your KDE installation."
-msgstr ""
-
-#: app/katedocmanager.cpp:308
-#, kde-format
-msgid ""
-"The supposedly temporary file %1 has been modified. Do you want to delete it "
-"anyway?"
-msgstr ""
-
-#: app/katedocmanager.cpp:310
-#, fuzzy
-#| msgid "Deleted"
-msgid "Delete File?"
-msgstr "తీసివేసిన"
-
-#: app/katedocmanager.cpp:450
-#, kde-format
-msgid ""
-"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
-"save your changes or discard them?</p>"
-msgstr ""
-
-#: app/katedocmanager.cpp:452
-msgid "Close Document"
-msgstr ""
-
-#: app/katedocmanager.cpp:459
-#, fuzzy
-#| msgid "Save &As..."
-msgid "Save As"
-msgstr "(&A) ఇలా దాచు..."
-
-#: app/katedocmanager.cpp:485 app/katemainwindow.cpp:432
-msgid "New file opened while trying to close Kate, closing aborted."
-msgstr ""
-
-#: app/katedocmanager.cpp:486 app/katemainwindow.cpp:433
-msgid "Closing Aborted"
-msgstr ""
-
-#: app/katedocmanager.cpp:558
-msgid "Starting Up"
-msgstr ""
-
-#: app/katedocmanager.cpp:559
-msgid "Reopening files from the last session..."
-msgstr ""
-
-#: app/katedocmanager.cpp:738
-msgid "Errors/Warnings while opening documents"
 msgstr ""
 
 #: app/katemain.cpp:81
@@ -1624,6 +1568,14 @@ msgstr ""
 msgid "Close all documents"
 msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
+#: app/katemainwindow.cpp:432 app/katedocmanager.cpp:486
+msgid "New file opened while trying to close Kate, closing aborted."
+msgstr ""
+
+#: app/katemainwindow.cpp:433 app/katedocmanager.cpp:487
+msgid "Closing Aborted"
+msgstr ""
+
 #: app/katemainwindow.cpp:725
 msgid "&Other..."
 msgstr ""
@@ -1639,6 +1591,54 @@ msgstr "'%1' అప్లికేషన్ దొరకలేదు"
 #| msgid "Application Not Found!"
 msgid "Application not found"
 msgstr "అప్లికేషన్ దొరకలేదు!"
+
+#: app/katedocmanager.cpp:68
+msgid ""
+"A KDE text-editor component could not be found.\n"
+"Please check your KDE installation."
+msgstr ""
+
+#: app/katedocmanager.cpp:309
+#, kde-format
+msgid ""
+"The supposedly temporary file %1 has been modified. Do you want to delete it "
+"anyway?"
+msgstr ""
+
+#: app/katedocmanager.cpp:311
+#, fuzzy
+#| msgid "Deleted"
+msgid "Delete File?"
+msgstr "తీసివేసిన"
+
+#: app/katedocmanager.cpp:451
+#, kde-format
+msgid ""
+"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
+"save your changes or discard them?</p>"
+msgstr ""
+
+#: app/katedocmanager.cpp:453
+msgid "Close Document"
+msgstr ""
+
+#: app/katedocmanager.cpp:460
+#, fuzzy
+#| msgid "Save &As..."
+msgid "Save As"
+msgstr "(&A) ఇలా దాచు..."
+
+#: app/katedocmanager.cpp:559
+msgid "Starting Up"
+msgstr ""
+
+#: app/katedocmanager.cpp:560
+msgid "Reopening files from the last session..."
+msgstr ""
+
+#: app/katedocmanager.cpp:739
+msgid "Errors/Warnings while opening documents"
+msgstr ""
 
 #: plugins/filetree/katefiletree.cpp:52
 #, fuzzy
