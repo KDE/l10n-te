@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-26 14:13+0200\n"
+"POT-Creation-Date: 2012-06-02 11:46+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -6160,6 +6160,51 @@ msgstr "చిత్రంలొ ప్రదేశాన్ని ఎంచు�
 msgid "Please click and drag on the image to select the region of interest:"
 msgstr "అభీష్టమైన ప్రాంతమును యెంపికచేసుకొనుటకు దయచేసి చిత్రముపై నొక్క లాగండి:"
 
+#: kdeui/dialogs/kshortcutsdialog.cpp:67
+msgid ""
+"The current shortcut scheme is modified. Save before switching to the new "
+"one?"
+msgstr "ప్రస్తుత శీఘ్రమార్గ స్కీము సవరించబడింది. మరియొక దానికి మారుటకు ముందుగా భద్రపరచవలెనా?"
+
+#: kdeui/dialogs/kshortcutsdialog.cpp:122
+msgid "Configure Shortcuts"
+msgstr "శీఘ్రమార్గాలను అమర్చండి"
+
+#: kdeui/dialogs/kshortcutsdialog.cpp:124 kdeui/util/kkeyserver_x11.cpp:113
+msgid "Print"
+msgstr "ప్రచురణ"
+
+#: kdeui/dialogs/kshortcutsdialog.cpp:129
+msgid "Reset to Defaults"
+msgstr "అప్రమేయాలకు పునఃఅమర్పు చేయుము"
+
+#: kdeui/dialogs/ktip.cpp:230
+msgid "Tip of the Day"
+msgstr "ఈ రోజు సూచన"
+
+#: kdeui/dialogs/ktip.cpp:249
+msgid "Did you know...?\n"
+msgstr "మీకు తెలుసా...?\n"
+
+#: kdeui/dialogs/ktip.cpp:301
+msgid "&Show tips on startup"
+msgstr "(&S) మొదలైనప్పుడు సూచనలను చూపించు"
+
+#: kdeui/dialogs/ktip.cpp:309
+msgctxt "Opposite to Previous"
+msgid "&Next"
+msgstr "(&N) తరువాత"
+
+#: kdeui/dialogs/kconfigdialog.cpp:43 kutils/kcmultidialog.cpp:208
+msgid "Configure"
+msgstr "అమర్చు"
+
+#: kdeui/dialogs/kshortcutseditoritem.cpp:45
+#, kde-format
+msgctxt "@item:intable Action name in shortcuts configuration"
+msgid "%1"
+msgstr "%1"
+
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:41
 msgid "Shortcut Schemes"
 msgstr "శీఘ్ర మార్గాల స్కీములు"
@@ -6220,51 +6265,6 @@ msgstr "స్థానమునకు ఎగుమతిచేయుము"
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:171
 msgid "Could not export shortcuts scheme because the location is invalid."
 msgstr "శీఘ్రమార్గ స్కీమాను ఎగుమతి చేయలేదు యెంచేతంటే ఆ స్థానము సరైనదికాదు."
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:67
-msgid ""
-"The current shortcut scheme is modified. Save before switching to the new "
-"one?"
-msgstr "ప్రస్తుత శీఘ్రమార్గ స్కీము సవరించబడింది. మరియొక దానికి మారుటకు ముందుగా భద్రపరచవలెనా?"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:122
-msgid "Configure Shortcuts"
-msgstr "శీఘ్రమార్గాలను అమర్చండి"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:124 kdeui/util/kkeyserver_x11.cpp:113
-msgid "Print"
-msgstr "ప్రచురణ"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:129
-msgid "Reset to Defaults"
-msgstr "అప్రమేయాలకు పునఃఅమర్పు చేయుము"
-
-#: kdeui/dialogs/ktip.cpp:230
-msgid "Tip of the Day"
-msgstr "ఈ రోజు సూచన"
-
-#: kdeui/dialogs/ktip.cpp:249
-msgid "Did you know...?\n"
-msgstr "మీకు తెలుసా...?\n"
-
-#: kdeui/dialogs/ktip.cpp:301
-msgid "&Show tips on startup"
-msgstr "(&S) మొదలైనప్పుడు సూచనలను చూపించు"
-
-#: kdeui/dialogs/ktip.cpp:309
-msgctxt "Opposite to Previous"
-msgid "&Next"
-msgstr "(&N) తరువాత"
-
-#: kdeui/dialogs/kconfigdialog.cpp:43 kutils/kcmultidialog.cpp:208
-msgid "Configure"
-msgstr "అమర్చు"
-
-#: kdeui/dialogs/kshortcutseditoritem.cpp:45
-#, kde-format
-msgctxt "@item:intable Action name in shortcuts configuration"
-msgid "%1"
-msgstr "%1"
 
 #: kdeui/dialogs/kaboutapplicationpersonmodel_p.cpp:205
 #, fuzzy, kde-format
