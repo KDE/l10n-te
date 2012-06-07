@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-06 04:21+0200\n"
+"POT-Creation-Date: 2012-06-07 05:31+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -499,55 +499,6 @@ msgstr ""
 msgid "Foreground color:"
 msgstr ""
 
-#: SensorDisplayLib/ListView.cpp:45
-#, kde-format
-msgid "%1 K"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:46
-#, kde-format
-msgid "%1 M"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:47
-#, kde-format
-msgid "%1 G"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:48
-#, kde-format
-msgid "%1 T"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:49
-#, kde-format
-msgid "%1 P"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:152
-msgid "Display Units"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:156
-msgid "Mixed"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:162
-msgid "Kilobytes"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:168
-msgid "Megabytes"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:174
-msgid "Gigabytes"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:180
-msgid "Terabytes"
-msgstr ""
-
 #: SensorDisplayLib/SensorLogger.cpp:138
 msgid "Logging"
 msgstr ""
@@ -668,6 +619,55 @@ msgctxt "unitless - just a number"
 msgid "%1"
 msgstr ""
 
+#: SensorDisplayLib/ListView.cpp:45
+#, kde-format
+msgid "%1 K"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:46
+#, kde-format
+msgid "%1 M"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:47
+#, kde-format
+msgid "%1 G"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:48
+#, kde-format
+msgid "%1 T"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:49
+#, kde-format
+msgid "%1 P"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:152
+msgid "Display Units"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:156
+msgid "Mixed"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:162
+msgid "Kilobytes"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:168
+msgid "Megabytes"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:174
+msgid "Gigabytes"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:180
+msgid "Terabytes"
+msgstr ""
+
 #: TimerSettings.cpp:38
 msgid "Timer Settings"
 msgstr ""
@@ -718,6 +718,69 @@ msgstr ""
 msgid "Enter the title of the worksheet here."
 msgstr ""
 
+#: WorkSheet.cpp:88
+#, kde-format
+msgid "Cannot open the file %1."
+msgstr ""
+
+#: WorkSheet.cpp:96
+#, kde-format
+msgid "The file %1 does not contain valid XML."
+msgstr ""
+
+#: WorkSheet.cpp:103
+#, kde-format
+msgid ""
+"The file %1 does not contain a valid worksheet definition, which must have a "
+"document type 'KSysGuardWorkSheet'."
+msgstr ""
+
+#: WorkSheet.cpp:127
+#, kde-format
+msgid "The file %1 has an invalid worksheet size."
+msgstr ""
+
+#: WorkSheet.cpp:228
+#, kde-format
+msgid "Cannot save file %1"
+msgstr ""
+
+#: WorkSheet.cpp:274
+msgid "The clipboard does not contain a valid display description."
+msgstr ""
+
+#: WorkSheet.cpp:374
+msgid "Select Display Type"
+msgstr ""
+
+#: WorkSheet.cpp:375
+msgid "&Line graph"
+msgstr ""
+
+#: WorkSheet.cpp:376
+msgid "&Digital display"
+msgstr ""
+
+#: WorkSheet.cpp:377
+msgid "&Bar graph"
+msgstr ""
+
+#: WorkSheet.cpp:378
+msgid "Log to a &file"
+msgstr ""
+
+#: WorkSheet.cpp:530
+msgid "Remove this display?"
+msgstr ""
+
+#: WorkSheet.cpp:531
+msgid "Remove Display"
+msgstr ""
+
+#: WorkSheet.cpp:572
+msgid "Dummy"
+msgstr ""
+
 #: Workspace.cpp:113
 #, kde-format
 msgid "Sheet %1"
@@ -765,202 +828,139 @@ msgstr ""
 msgid "Upload custom System Monitor tab"
 msgstr "సిస్టమ్ మానిటర్"
 
-#: ksysguard.cpp:74
+#: ksysguard.cpp:70
 msgid "KDE System Monitor"
 msgstr ""
 
-#: ksysguard.cpp:154 ksysguard.cpp:530
+#: ksysguard.cpp:158 ksysguard.cpp:529
 msgid "System Monitor"
 msgstr "సిస్టమ్ మానిటర్"
 
-#: ksysguard.cpp:155
+#: ksysguard.cpp:159
 msgid "&Refresh Tab"
 msgstr ""
 
-#: ksysguard.cpp:156
+#: ksysguard.cpp:160
 msgid "&New Tab..."
 msgstr ""
 
-#: ksysguard.cpp:157
+#: ksysguard.cpp:161
 msgid "Import Tab Fr&om File..."
 msgstr ""
 
-#: ksysguard.cpp:158
+#: ksysguard.cpp:162
 msgid "Save Tab &As..."
 msgstr ""
 
-#: ksysguard.cpp:159
+#: ksysguard.cpp:163
 msgid "&Close Tab"
 msgstr "(&C) టాబ్ ను మూసివెయి"
 
-#: ksysguard.cpp:160
+#: ksysguard.cpp:164
 msgid "Monitor &Remote Machine..."
 msgstr ""
 
-#: ksysguard.cpp:161
+#: ksysguard.cpp:165
 msgid "&Download New Tabs..."
 msgstr ""
 
-#: ksysguard.cpp:162
+#: ksysguard.cpp:166
 msgid "&Upload Current Tab..."
 msgstr ""
 
-#: ksysguard.cpp:164
+#: ksysguard.cpp:168
 msgid "Tab &Properties"
 msgstr ""
 
-#: ksysguard.cpp:359
+#: ksysguard.cpp:363
 #, kde-format
 msgid "1 process1"
 msgid_plural "%1 processes%1"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ksysguard.cpp:443
+#: ksysguard.cpp:442
 #, kde-format
 msgid "CPU: %1%%1%"
 msgstr ""
 
-#: ksysguard.cpp:458
+#: ksysguard.cpp:457
 #, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid "Memory: %1 / %2Mem: %1 / %2Mem: %1%1"
 msgstr ""
 
-#: ksysguard.cpp:485
+#: ksysguard.cpp:484
 msgid " No swap space available "
 msgstr ""
 
-#: ksysguard.cpp:487
+#: ksysguard.cpp:486
 #, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid "Swap: %1 / %2Swap: %1%1"
 msgstr ""
 
-#: ksysguard.cpp:532
+#: ksysguard.cpp:531
 msgid "(c) 1996-2008 The KDE System Monitor Developers"
 msgstr ""
 
-#: ksysguard.cpp:533
+#: ksysguard.cpp:532
 msgid "John Tapsell"
 msgstr ""
 
-#: ksysguard.cpp:533
+#: ksysguard.cpp:532
 msgid "Current Maintainer"
 msgstr "ప్రస్తుత సంరక్షకుడు"
 
-#: ksysguard.cpp:534
+#: ksysguard.cpp:533
 msgid "Chris Schlaeger"
 msgstr ""
 
-#: ksysguard.cpp:534
+#: ksysguard.cpp:533
 msgid "Previous Maintainer"
 msgstr "ముందటి సంరక్షకుడు"
 
-#: ksysguard.cpp:535
+#: ksysguard.cpp:534
 msgid "Greg Martyn"
 msgstr ""
 
-#: ksysguard.cpp:536
+#: ksysguard.cpp:535
 msgid "Tobias Koenig"
 msgstr "టొబియాస్ కొయింగ్"
 
-#: ksysguard.cpp:537
+#: ksysguard.cpp:536
 msgid "Nicolas Leclercq"
 msgstr ""
 
-#: ksysguard.cpp:538
+#: ksysguard.cpp:537
 msgid "Alex Sanda"
 msgstr ""
 
-#: ksysguard.cpp:539
+#: ksysguard.cpp:538
 msgid "Bernd Johannes Wuebben"
 msgstr ""
 
-#: ksysguard.cpp:540
+#: ksysguard.cpp:539
 msgid "Ralf Mueller"
 msgstr ""
 
-#: ksysguard.cpp:541
+#: ksysguard.cpp:540
 msgid "Hamish Rodda"
 msgstr ""
 
-#: ksysguard.cpp:542
+#: ksysguard.cpp:541
 msgid "Torsten Kasch"
 msgstr ""
 
-#: ksysguard.cpp:542
+#: ksysguard.cpp:541
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
 "module of William LeFebvre's \"top\" utility."
 msgstr ""
 
-#: ksysguard.cpp:551
+#: ksysguard.cpp:550
 msgid "Optional worksheet files to load"
-msgstr ""
-
-#: WorkSheet.cpp:88
-#, kde-format
-msgid "Cannot open the file %1."
-msgstr ""
-
-#: WorkSheet.cpp:96
-#, kde-format
-msgid "The file %1 does not contain valid XML."
-msgstr ""
-
-#: WorkSheet.cpp:103
-#, kde-format
-msgid ""
-"The file %1 does not contain a valid worksheet definition, which must have a "
-"document type 'KSysGuardWorkSheet'."
-msgstr ""
-
-#: WorkSheet.cpp:127
-#, kde-format
-msgid "The file %1 has an invalid worksheet size."
-msgstr ""
-
-#: WorkSheet.cpp:228
-#, kde-format
-msgid "Cannot save file %1"
-msgstr ""
-
-#: WorkSheet.cpp:274
-msgid "The clipboard does not contain a valid display description."
-msgstr ""
-
-#: WorkSheet.cpp:375
-msgid "Select Display Type"
-msgstr ""
-
-#: WorkSheet.cpp:376
-msgid "&Line graph"
-msgstr ""
-
-#: WorkSheet.cpp:377
-msgid "&Digital display"
-msgstr ""
-
-#: WorkSheet.cpp:378
-msgid "&Bar graph"
-msgstr ""
-
-#: WorkSheet.cpp:379
-msgid "Log to a &file"
-msgstr ""
-
-#: WorkSheet.cpp:533
-msgid "Remove this display?"
-msgstr ""
-
-#: WorkSheet.cpp:534
-msgid "Remove Display"
-msgstr ""
-
-#: WorkSheet.cpp:575
-msgid "Dummy"
 msgstr ""
 
 #: rc.cpp:1
