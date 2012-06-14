@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-12 05:35+0200\n"
+"POT-Creation-Date: 2012-06-14 06:04+0200\n"
 "PO-Revision-Date: 2007-03-09 14:17+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -411,12 +411,6 @@ msgstr ""
 msgid ""
 "<p>Press <strong>F8</strong> or <strong>Shift+F8</strong> to switch to the\n"
 "next/previous frame.</p>\n"
-msgstr ""
-
-#: app/kateapp.cpp:226 app/kateapp.cpp:352
-#, kde-format
-msgid ""
-"The file '%1' could not be opened: it is not a normal file, it is a folder."
 msgstr ""
 
 #: app/kateconfigdialog.cpp:59
@@ -831,366 +825,6 @@ msgstr ""
 
 #: app/katemain.cpp:140
 msgid "Document to open"
-msgstr ""
-
-#: app/katemwmodonhddialog.cpp:65
-msgid "Documents Modified on Disk"
-msgstr ""
-
-#: app/katemwmodonhddialog.cpp:67
-msgid "&Ignore"
-msgstr ""
-
-#: app/katemwmodonhddialog.cpp:69
-msgid "&Reload"
-msgstr ""
-
-#: app/katemwmodonhddialog.cpp:76
-msgid ""
-"Removes the modified flag from the selected documents and closes the dialog "
-"if there are no more unhandled documents."
-msgstr ""
-
-#: app/katemwmodonhddialog.cpp:79
-msgid ""
-"Overwrite selected documents, discarding the disk changes and closes the "
-"dialog if there are no more unhandled documents."
-msgstr ""
-
-#: app/katemwmodonhddialog.cpp:82
-msgid ""
-"Reloads the selected documents from disk and closes the dialog if there are "
-"no more unhandled documents."
-msgstr ""
-
-#: app/katemwmodonhddialog.cpp:96
-msgid ""
-"<qt>The documents listed below have changed on disk.<p>Select one or more at "
-"once, and press an action button until the list is empty.</p></qt>"
-msgstr ""
-
-#: app/katemwmodonhddialog.cpp:103
-msgid "Filename"
-msgstr "దస్త్రం పేరు"
-
-#: app/katemwmodonhddialog.cpp:103
-msgid "Status on Disk"
-msgstr ""
-
-#: app/katemwmodonhddialog.cpp:109
-msgid "Modified"
-msgstr "మార్చిన"
-
-#: app/katemwmodonhddialog.cpp:109
-msgid "Created"
-msgstr "సృష్టించిన"
-
-#: app/katemwmodonhddialog.cpp:109
-msgid "Deleted"
-msgstr "తీసివేసిన"
-
-#: app/katemwmodonhddialog.cpp:124
-msgid "&View Difference"
-msgstr ""
-
-#: app/katemwmodonhddialog.cpp:127
-msgid ""
-"Calculates the difference between the editor contents and the disk file for "
-"the selected document, and shows the difference with the default "
-"application. Requires diff(1)."
-msgstr ""
-
-#: app/katemwmodonhddialog.cpp:187
-#, kde-format
-msgid ""
-"Could not save the document \n"
-"'%1'"
-msgstr ""
-"%1\n"
-"పత్రాన్ని దాచలేక పోయాను"
-
-#: app/katemwmodonhddialog.cpp:285
-msgid ""
-"The diff command failed. Please make sure that diff(1) is installed and in "
-"your PATH."
-msgstr ""
-
-#: app/katemwmodonhddialog.cpp:287
-msgid "Error Creating Diff"
-msgstr ""
-
-#: app/katemwmodonhddialog.cpp:296
-msgid "Besides white space changes, the files are identical."
-msgstr ""
-
-#: app/katemwmodonhddialog.cpp:297
-msgid "Diff Output"
-msgstr ""
-
-#: app/katesavemodifieddialog.cpp:91
-#, kde-format
-msgid "Save As (%1)"
-msgstr "(%1) లా దాచండి"
-
-#: app/katesavemodifieddialog.cpp:103
-#, kde-format
-msgid ""
-"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
-msgstr ""
-
-#: app/katesavemodifieddialog.cpp:105
-#, fuzzy
-#| msgid "Deleted"
-msgid "Overwrite File?"
-msgstr "తీసివేసిన"
-
-#: app/katesavemodifieddialog.cpp:181
-msgid "Save Documents"
-msgstr "పత్రాలను దాచు"
-
-#: app/katesavemodifieddialog.cpp:187
-msgid "&Save Selected"
-msgstr ""
-
-#: app/katesavemodifieddialog.cpp:195
-msgid "Do &Not Close"
-msgstr ""
-
-#: app/katesavemodifieddialog.cpp:202
-msgid ""
-"<qt>The following documents have been modified. Do you want to save them "
-"before closing?</qt>"
-msgstr ""
-
-#: app/katesavemodifieddialog.cpp:205
-#: plugins/filetree/katefiletreeplugin.cpp:88
-#: plugins/filetree/katefiletreeplugin.cpp:159
-msgid "Documents"
-msgstr "పత్రాలు"
-
-#: app/katesavemodifieddialog.cpp:205
-msgid "Location"
-msgstr ""
-
-#: app/katesavemodifieddialog.cpp:214
-msgid "Se&lect All"
-msgstr ""
-
-#: app/katesavemodifieddialog.cpp:265
-msgid ""
-"Data you requested to be saved could not be written. Please choose how you "
-"want to proceed."
-msgstr ""
-
-#: app/katesession.cpp:269
-msgid ""
-"Internal error: there is more than one instance open for a given session."
-msgstr ""
-
-#: app/katesession.cpp:275
-#, kde-format
-msgid ""
-"Session '%1' is already opened in another kate instance, change there "
-"instead of reopening?"
-msgstr ""
-
-#: app/katesession.cpp:466
-msgid "No session selected to open."
-msgstr ""
-
-#: app/katesession.cpp:466 app/katesession.cpp:491
-msgid "No Session Selected"
-msgstr ""
-
-#: app/katesession.cpp:491
-msgid "No session selected to copy."
-msgstr ""
-
-#: app/katesession.cpp:577
-msgid "Specify New Name for Current Session"
-msgstr ""
-
-#: app/katesession.cpp:578
-msgid ""
-"There is already an existing session with your chosen name.\n"
-"Please choose a different one\n"
-"Session name:"
-msgstr ""
-
-#: app/katesession.cpp:578 app/katesession.cpp:894
-msgid "Session name:"
-msgstr "సెషన్ పేరు:"
-
-#: app/katesession.cpp:585 app/katesession.cpp:901
-msgid "To save a session, you must specify a name."
-msgstr ""
-
-#: app/katesession.cpp:585 app/katesession.cpp:901
-msgid "Missing Session Name"
-msgstr ""
-
-#: app/katesession.cpp:624
-msgid "Session Chooser"
-msgstr ""
-
-#: app/katesession.cpp:627 app/katesession.cpp:737
-msgid "Open Session"
-msgstr ""
-
-#: app/katesession.cpp:628
-msgid "New Session"
-msgstr "కొత్త సెషన్"
-
-#: app/katesession.cpp:639 app/katesession.cpp:758 app/katesession.cpp:835
-msgid "Session Name"
-msgstr "సెషన్ పేరు"
-
-#: app/katesession.cpp:640 app/katesession.cpp:759 app/katesession.cpp:836
-#, fuzzy
-#| msgid "Save Documents"
-msgctxt "The number of open documents"
-msgid "Open Documents"
-msgstr "పత్రాలను దాచు"
-
-#: app/katesession.cpp:652
-msgid "Use selected session as template"
-msgstr ""
-
-#: app/katesession.cpp:668
-msgid "&Always use this choice"
-msgstr ""
-
-#: app/katesession.cpp:741 app/katesession.cpp:821
-msgid "&Open"
-msgstr ""
-
-#: app/katesession.cpp:817
-msgid "Manage Sessions"
-msgstr ""
-
-#: app/katesession.cpp:853
-msgid "&Rename..."
-msgstr ""
-
-#: app/katesession.cpp:894
-msgid "Specify New Name for Session"
-msgstr ""
-
-#: app/katesession.cpp:912
-#, kde-format
-msgid ""
-"The session could not be renamed to \"%1\", there already exists another "
-"session with the same name"
-msgstr ""
-
-#: app/katesession.cpp:912
-#, fuzzy
-#| msgid "Session name:"
-msgid "Session Renaming"
-msgstr "సెషన్ పేరు:"
-
-#: app/kateviewmanager.cpp:120
-msgid "Split Ve&rtical"
-msgstr "(&r) నిలువుగా విడగొట్టు"
-
-#: app/kateviewmanager.cpp:124
-msgid "Split the currently active view vertically into two views."
-msgstr ""
-
-#: app/kateviewmanager.cpp:128
-msgid "Split &Horizontal"
-msgstr "(&H) అడ్డంగా విడగొట్టు"
-
-#: app/kateviewmanager.cpp:132
-msgid "Split the currently active view horizontally into two views."
-msgstr ""
-
-#: app/kateviewmanager.cpp:136
-msgid "Cl&ose Current View"
-msgstr ""
-
-#: app/kateviewmanager.cpp:140
-#, fuzzy
-#| msgid "Close the current document."
-msgid "Close the currently active split view"
-msgstr "ఉన్న పత్రాన్ని ని మూయండి"
-
-#: app/kateviewmanager.cpp:143
-msgid "Next Split View"
-msgstr ""
-
-#: app/kateviewmanager.cpp:147
-msgid "Make the next split view the active one."
-msgstr ""
-
-#: app/kateviewmanager.cpp:150
-msgid "Previous Split View"
-msgstr ""
-
-#: app/kateviewmanager.cpp:154
-msgid "Make the previous split view the active one."
-msgstr ""
-
-#: app/kateviewmanager.cpp:157
-msgid "Move Splitter Right"
-msgstr ""
-
-#: app/kateviewmanager.cpp:160
-msgid "Move the splitter of the current view to the right"
-msgstr ""
-
-#: app/kateviewmanager.cpp:163
-msgid "Move Splitter Left"
-msgstr ""
-
-#: app/kateviewmanager.cpp:166
-msgid "Move the splitter of the current view to the left"
-msgstr ""
-
-#: app/kateviewmanager.cpp:169
-msgid "Move Splitter Up"
-msgstr ""
-
-#: app/kateviewmanager.cpp:172
-msgid "Move the splitter of the current view up"
-msgstr ""
-
-#: app/kateviewmanager.cpp:175
-msgid "Move Splitter Down"
-msgstr ""
-
-#: app/kateviewmanager.cpp:178
-msgid "Move the splitter of the current view down"
-msgstr ""
-
-#: app/kateviewmanager.cpp:183
-msgid "Show Cursor Position"
-msgstr ""
-
-#: app/kateviewmanager.cpp:188
-msgid "Show Characters Count"
-msgstr ""
-
-#: app/kateviewmanager.cpp:193
-msgid "Show Insertion Mode"
-msgstr ""
-
-#: app/kateviewmanager.cpp:198
-msgid "Show Selection Mode"
-msgstr ""
-
-#: app/kateviewmanager.cpp:203
-msgid "Show Encoding"
-msgstr ""
-
-#: app/kateviewmanager.cpp:208
-#, fuzzy
-#| msgid "Document Name"
-msgid "Show Document Name"
-msgstr "పత్రం పేరు"
-
-#: app/kateviewmanager.cpp:240
-msgid "Open File"
 msgstr ""
 
 #: app/kateviewspace.cpp:277 app/kateviewspace.cpp:389
@@ -1640,6 +1274,372 @@ msgstr ""
 msgid "Errors/Warnings while opening documents"
 msgstr ""
 
+#: app/kateapp.cpp:226 app/kateapp.cpp:352
+#, kde-format
+msgid ""
+"The file '%1' could not be opened: it is not a normal file, it is a folder."
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:65
+msgid "Documents Modified on Disk"
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:67
+msgid "&Ignore"
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:69
+msgid "&Reload"
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:76
+msgid ""
+"Removes the modified flag from the selected documents and closes the dialog "
+"if there are no more unhandled documents."
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:79
+msgid ""
+"Overwrite selected documents, discarding the disk changes and closes the "
+"dialog if there are no more unhandled documents."
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:82
+msgid ""
+"Reloads the selected documents from disk and closes the dialog if there are "
+"no more unhandled documents."
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:96
+msgid ""
+"<qt>The documents listed below have changed on disk.<p>Select one or more at "
+"once, and press an action button until the list is empty.</p></qt>"
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:103
+msgid "Filename"
+msgstr "దస్త్రం పేరు"
+
+#: app/katemwmodonhddialog.cpp:103
+msgid "Status on Disk"
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:109
+msgid "Modified"
+msgstr "మార్చిన"
+
+#: app/katemwmodonhddialog.cpp:109
+msgid "Created"
+msgstr "సృష్టించిన"
+
+#: app/katemwmodonhddialog.cpp:109
+msgid "Deleted"
+msgstr "తీసివేసిన"
+
+#: app/katemwmodonhddialog.cpp:124
+msgid "&View Difference"
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:127
+msgid ""
+"Calculates the difference between the editor contents and the disk file for "
+"the selected document, and shows the difference with the default "
+"application. Requires diff(1)."
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:187
+#, kde-format
+msgid ""
+"Could not save the document \n"
+"'%1'"
+msgstr ""
+"%1\n"
+"పత్రాన్ని దాచలేక పోయాను"
+
+#: app/katemwmodonhddialog.cpp:285
+msgid ""
+"The diff command failed. Please make sure that diff(1) is installed and in "
+"your PATH."
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:287
+msgid "Error Creating Diff"
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:296
+msgid "Besides white space changes, the files are identical."
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:297
+msgid "Diff Output"
+msgstr ""
+
+#: app/katesavemodifieddialog.cpp:91
+#, kde-format
+msgid "Save As (%1)"
+msgstr "(%1) లా దాచండి"
+
+#: app/katesavemodifieddialog.cpp:103
+#, kde-format
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr ""
+
+#: app/katesavemodifieddialog.cpp:105
+#, fuzzy
+#| msgid "Deleted"
+msgid "Overwrite File?"
+msgstr "తీసివేసిన"
+
+#: app/katesavemodifieddialog.cpp:181
+msgid "Save Documents"
+msgstr "పత్రాలను దాచు"
+
+#: app/katesavemodifieddialog.cpp:187
+msgid "&Save Selected"
+msgstr ""
+
+#: app/katesavemodifieddialog.cpp:195
+msgid "Do &Not Close"
+msgstr ""
+
+#: app/katesavemodifieddialog.cpp:202
+msgid ""
+"<qt>The following documents have been modified. Do you want to save them "
+"before closing?</qt>"
+msgstr ""
+
+#: app/katesavemodifieddialog.cpp:205
+#: plugins/filetree/katefiletreeplugin.cpp:88
+#: plugins/filetree/katefiletreeplugin.cpp:159
+msgid "Documents"
+msgstr "పత్రాలు"
+
+#: app/katesavemodifieddialog.cpp:205
+msgid "Location"
+msgstr ""
+
+#: app/katesavemodifieddialog.cpp:214
+msgid "Se&lect All"
+msgstr ""
+
+#: app/katesavemodifieddialog.cpp:265
+msgid ""
+"Data you requested to be saved could not be written. Please choose how you "
+"want to proceed."
+msgstr ""
+
+#: app/katesession.cpp:269
+msgid ""
+"Internal error: there is more than one instance open for a given session."
+msgstr ""
+
+#: app/katesession.cpp:275
+#, kde-format
+msgid ""
+"Session '%1' is already opened in another kate instance, change there "
+"instead of reopening?"
+msgstr ""
+
+#: app/katesession.cpp:466
+msgid "No session selected to open."
+msgstr ""
+
+#: app/katesession.cpp:466 app/katesession.cpp:491
+msgid "No Session Selected"
+msgstr ""
+
+#: app/katesession.cpp:491
+msgid "No session selected to copy."
+msgstr ""
+
+#: app/katesession.cpp:577
+msgid "Specify New Name for Current Session"
+msgstr ""
+
+#: app/katesession.cpp:578
+msgid ""
+"There is already an existing session with your chosen name.\n"
+"Please choose a different one\n"
+"Session name:"
+msgstr ""
+
+#: app/katesession.cpp:578 app/katesession.cpp:894
+msgid "Session name:"
+msgstr "సెషన్ పేరు:"
+
+#: app/katesession.cpp:585 app/katesession.cpp:901
+msgid "To save a session, you must specify a name."
+msgstr ""
+
+#: app/katesession.cpp:585 app/katesession.cpp:901
+msgid "Missing Session Name"
+msgstr ""
+
+#: app/katesession.cpp:624
+msgid "Session Chooser"
+msgstr ""
+
+#: app/katesession.cpp:627 app/katesession.cpp:737
+msgid "Open Session"
+msgstr ""
+
+#: app/katesession.cpp:628
+msgid "New Session"
+msgstr "కొత్త సెషన్"
+
+#: app/katesession.cpp:639 app/katesession.cpp:758 app/katesession.cpp:835
+msgid "Session Name"
+msgstr "సెషన్ పేరు"
+
+#: app/katesession.cpp:640 app/katesession.cpp:759 app/katesession.cpp:836
+#, fuzzy
+#| msgid "Save Documents"
+msgctxt "The number of open documents"
+msgid "Open Documents"
+msgstr "పత్రాలను దాచు"
+
+#: app/katesession.cpp:652
+msgid "Use selected session as template"
+msgstr ""
+
+#: app/katesession.cpp:668
+msgid "&Always use this choice"
+msgstr ""
+
+#: app/katesession.cpp:741 app/katesession.cpp:821
+msgid "&Open"
+msgstr ""
+
+#: app/katesession.cpp:817
+msgid "Manage Sessions"
+msgstr ""
+
+#: app/katesession.cpp:853
+msgid "&Rename..."
+msgstr ""
+
+#: app/katesession.cpp:894
+msgid "Specify New Name for Session"
+msgstr ""
+
+#: app/katesession.cpp:912
+#, kde-format
+msgid ""
+"The session could not be renamed to \"%1\", there already exists another "
+"session with the same name"
+msgstr ""
+
+#: app/katesession.cpp:912
+#, fuzzy
+#| msgid "Session name:"
+msgid "Session Renaming"
+msgstr "సెషన్ పేరు:"
+
+#: app/kateviewmanager.cpp:120
+msgid "Split Ve&rtical"
+msgstr "(&r) నిలువుగా విడగొట్టు"
+
+#: app/kateviewmanager.cpp:124
+msgid "Split the currently active view vertically into two views."
+msgstr ""
+
+#: app/kateviewmanager.cpp:128
+msgid "Split &Horizontal"
+msgstr "(&H) అడ్డంగా విడగొట్టు"
+
+#: app/kateviewmanager.cpp:132
+msgid "Split the currently active view horizontally into two views."
+msgstr ""
+
+#: app/kateviewmanager.cpp:136
+msgid "Cl&ose Current View"
+msgstr ""
+
+#: app/kateviewmanager.cpp:140
+#, fuzzy
+#| msgid "Close the current document."
+msgid "Close the currently active split view"
+msgstr "ఉన్న పత్రాన్ని ని మూయండి"
+
+#: app/kateviewmanager.cpp:143
+msgid "Next Split View"
+msgstr ""
+
+#: app/kateviewmanager.cpp:147
+msgid "Make the next split view the active one."
+msgstr ""
+
+#: app/kateviewmanager.cpp:150
+msgid "Previous Split View"
+msgstr ""
+
+#: app/kateviewmanager.cpp:154
+msgid "Make the previous split view the active one."
+msgstr ""
+
+#: app/kateviewmanager.cpp:157
+msgid "Move Splitter Right"
+msgstr ""
+
+#: app/kateviewmanager.cpp:160
+msgid "Move the splitter of the current view to the right"
+msgstr ""
+
+#: app/kateviewmanager.cpp:163
+msgid "Move Splitter Left"
+msgstr ""
+
+#: app/kateviewmanager.cpp:166
+msgid "Move the splitter of the current view to the left"
+msgstr ""
+
+#: app/kateviewmanager.cpp:169
+msgid "Move Splitter Up"
+msgstr ""
+
+#: app/kateviewmanager.cpp:172
+msgid "Move the splitter of the current view up"
+msgstr ""
+
+#: app/kateviewmanager.cpp:175
+msgid "Move Splitter Down"
+msgstr ""
+
+#: app/kateviewmanager.cpp:178
+msgid "Move the splitter of the current view down"
+msgstr ""
+
+#: app/kateviewmanager.cpp:183
+msgid "Show Cursor Position"
+msgstr ""
+
+#: app/kateviewmanager.cpp:188
+msgid "Show Characters Count"
+msgstr ""
+
+#: app/kateviewmanager.cpp:193
+msgid "Show Insertion Mode"
+msgstr ""
+
+#: app/kateviewmanager.cpp:198
+msgid "Show Selection Mode"
+msgstr ""
+
+#: app/kateviewmanager.cpp:203
+msgid "Show Encoding"
+msgstr ""
+
+#: app/kateviewmanager.cpp:208
+#, fuzzy
+#| msgid "Document Name"
+msgid "Show Document Name"
+msgstr "పత్రం పేరు"
+
+#: app/kateviewmanager.cpp:240
+msgid "Open File"
+msgstr ""
+
 #: plugins/filetree/katefiletree.cpp:52
 #, fuzzy
 #| msgid "Clos&e All"
@@ -1771,6 +1771,13 @@ msgid ""
 "path rather than just the last folder name."
 msgstr ""
 
+#: plugins/filetree/katefiletreemodel.cpp:460
+#, kde-format
+msgctxt "%1 is the full path"
+msgid ""
+"<p><b>%1</b></p><p>The document has been modified by another application.</p>"
+msgstr ""
+
 #: plugins/filetree/katefiletreeplugin.cpp:48
 #, fuzzy
 #| msgid "Document Name"
@@ -1789,13 +1796,6 @@ msgstr "పత్రాలను దాచు"
 
 #: plugins/filetree/katefiletreeplugin.cpp:202
 msgid "&Show Active"
-msgstr ""
-
-#: plugins/filetree/katefiletreemodel.cpp:460
-#, kde-format
-msgctxt "%1 is the full path"
-msgid ""
-"<p><b>%1</b></p><p>The document has been modified by another application.</p>"
 msgstr ""
 
 #~ msgid "Projects"
