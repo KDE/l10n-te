@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-02 04:24+0200\n"
+"POT-Creation-Date: 2012-06-26 07:25+0200\n"
 "PO-Revision-Date: 2008-04-24 15:50+0530\n"
 "Last-Translator: Vijay Kiran Kamuju <infyquest@gmail.com>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -16,575 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-
-#: highscore/kexthighscore_internal.cpp:52
-msgid "anonymous"
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:269
-msgid "Games Count"
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:276
-msgid "Comment"
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:593
-msgid "Undefined error."
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:594
-msgid "Missing argument(s)."
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:595
-msgid "Invalid argument(s)."
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:597
-msgid "Unable to connect to MySQL server."
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:598
-msgid "Unable to select database."
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:599
-msgid "Error on database query."
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:600
-msgid "Error on database insert."
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:602
-msgid "Nickname already registered."
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:603
-msgid "Nickname not registered."
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:604
-msgid "Invalid key."
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:605
-msgid "Invalid submit key."
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:607
-msgid "Invalid level."
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:608
-msgid "Invalid score."
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:612
-msgid "Unable to contact world-wide highscore server"
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:621
-#, kde-format
-msgid "Server URL: %1"
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:629
-msgid "Unable to open temporary file."
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:651
-msgid "Message from world-wide highscores server"
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:658
-msgid "Invalid answer from world-wide highscores server."
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:659
-#, kde-format
-msgid "Raw message: %1"
-msgstr ""
-
-#: highscore/kexthighscore_internal.cpp:671
-#, kde-format
-msgid "Invalid answer from world-wide highscores server (missing item: %1)."
-msgstr ""
-
-#: highscore/kscoredialog.cpp:49
-msgid "High Scores"
-msgstr ""
-
-#: highscore/kscoredialog.cpp:118 highscore/kexthighscore_internal.h:64
-#: libkdegamesprivate/kgame/kplayer.cpp:95
-msgid "Name"
-msgstr "పేరు"
-
-#: highscore/kscoredialog.cpp:120 highscore/kexthighscore_internal.h:73
-msgid "Date"
-msgstr ""
-
-#: highscore/kscoredialog.cpp:122
-msgid "Level"
-msgstr ""
-
-#: highscore/kscoredialog.cpp:124 highscore/kexthighscore.cpp:208
-msgid "Score"
-msgstr ""
-
-#: highscore/kscoredialog.cpp:126
-msgid "Time"
-msgstr "సమయం"
-
-#: highscore/kscoredialog.cpp:288 highscore/kexthighscore_internal.h:53
-msgid "Rank"
-msgstr ""
-
-#: highscore/kscoredialog.cpp:311
-#, fuzzy, kde-format
-#| msgid "#%1"
-msgctxt "Enumeration (#1, #2 ...) of the highscore entries"
-msgid "#%1"
-msgstr "#%1"
-
-#: highscore/kscoredialog.cpp:573
-msgid "&Remember"
-msgstr ""
-
-#: highscore/kscoredialog.cpp:574
-msgid "&Forget"
-msgstr ""
-
-#: highscore/kscoredialog.cpp:575
-msgid "Remember this high score"
-msgstr ""
-
-#: highscore/kscoredialog.cpp:576
-msgid "Forget this high score"
-msgstr ""
-
-#: highscore/kscoredialog.cpp:584
-msgid ""
-"Excellent!\n"
-"You have a new high score!"
-msgstr ""
-
-#: highscore/kscoredialog.cpp:586
-msgid ""
-"Well done!\n"
-"You made it to the high score list!"
-msgstr ""
-
-#: highscore/kexthighscore.cpp:211
-msgid "Mean Score"
-msgstr ""
-
-#: highscore/kexthighscore.cpp:216
-msgid "Best Score"
-msgstr ""
-
-#: highscore/kexthighscore.cpp:220
-msgid "Elapsed Time"
-msgstr ""
-
-#: highscore/kexthighscore_internal.h:82
-msgid "Success"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:162
-msgid "Best &Scores"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:167
-msgid "&Players"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:172
-msgid "Statistics"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:178
-msgid "Histogram"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:185
-msgid "View world-wide highscores"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:192
-msgid "View world-wide players"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:232
-msgid "Highscores"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:239
-msgid "Configure..."
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:240
-msgid "Export..."
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:292
-msgid "Overwrite"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:294
-msgid "The file already exists. Overwrite?"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:295
-msgid "Export"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:344
-msgid "Winner"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:382
-msgid "Won Games"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:409
-msgid "Configure Highscores"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:419
-msgid "Main"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:430 highscore/kexthighscore_gui.cpp:469
-msgid "Nickname:"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:441
-msgid "Comment:"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:451
-msgid "World-wide highscores enabled"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:458
-msgid "Advanced"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:464
-msgid "Registration Data"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:475
-msgid "Key:"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:482 highscore/kexthighscore_gui.cpp:515
-msgid "Remove"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:517
-msgid ""
-"This will permanently remove your registration key. You will not be able to "
-"use the currently registered nickname anymore."
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:560
-msgid "Please choose a non empty nickname."
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:564
-msgid "Nickname already in use. Please choose another one"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:585
-msgid "Enter Your Nickname"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:597
-msgid "Congratulations, you have won!"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:602
-msgid "Enter your nickname:"
-msgstr ""
-
-#: highscore/kexthighscore_gui.cpp:610
-msgid "Do not ask again."
-msgstr ""
-
-#: highscore/kexthighscore_item.cpp:277
-msgid "Multiplayers Scores"
-msgstr ""
-
-#: highscore/kexthighscore_item.cpp:288
-msgid "No game played."
-msgstr ""
-
-#: highscore/kexthighscore_item.cpp:290
-msgid "Scores for last game:"
-msgstr ""
-
-#: highscore/kexthighscore_item.cpp:297
-#, kde-format
-msgid "Scores for the last %1 games:"
-msgstr ""
-
-#: highscore/khighscore.cpp:138
-msgid "Retry"
-msgstr ""
-
-#: highscore/khighscore.cpp:139
-msgid ""
-"Cannot access the highscore file. Another user is probably currently writing "
-"to it."
-msgstr ""
-
-#: highscore/kexthighscore_tab.cpp:49
-msgid "all"
-msgstr ""
-
-#: highscore/kexthighscore_tab.cpp:78
-msgid "Select player:"
-msgstr ""
-
-#: highscore/kexthighscore_tab.cpp:115
-msgid "Total:"
-msgstr ""
-
-#: highscore/kexthighscore_tab.cpp:115
-msgid "Won:"
-msgstr ""
-
-#: highscore/kexthighscore_tab.cpp:115
-msgid "Lost:"
-msgstr ""
-
-#: highscore/kexthighscore_tab.cpp:116
-msgid "Draw:"
-msgstr ""
-
-#: highscore/kexthighscore_tab.cpp:119
-msgid "Current:"
-msgstr ""
-
-#: highscore/kexthighscore_tab.cpp:119
-msgid "Max won:"
-msgstr ""
-
-#: highscore/kexthighscore_tab.cpp:119
-msgid "Max lost:"
-msgstr ""
-
-#: highscore/kexthighscore_tab.cpp:134
-msgid "Game Counts"
-msgstr ""
-
-#: highscore/kexthighscore_tab.cpp:147
-msgid "Trends"
-msgstr ""
-
-#: highscore/kexthighscore_tab.cpp:235
-msgid "From"
-msgstr ""
-
-#: highscore/kexthighscore_tab.cpp:236
-msgid "To"
-msgstr ""
-
-#: highscore/kexthighscore_tab.cpp:237
-msgid "Count"
-msgstr ""
-
-#: highscore/kexthighscore_tab.cpp:238
-msgid "Percent"
-msgstr ""
-
-#: kstandardgameaction.cpp:51
-msgctxt "new game"
-msgid "&New"
-msgstr "(&N) కొత్త"
-
-#: kstandardgameaction.cpp:51
-msgid "Start a new game."
-msgstr "కొత్త ఆట మొదలు పెట్టండి."
-
-#: kstandardgameaction.cpp:51
-msgid "Start a new game"
-msgstr "కొత్త ఆట మొదలు పెట్టండి"
-
-#: kstandardgameaction.cpp:52
-msgid "&Load..."
-msgstr "(&L)ఎక్కించు..."
-
-#: kstandardgameaction.cpp:52
-msgid "Open a saved game..."
-msgstr "దాచబడిన ఆటను తెరువండి..."
-
-#: kstandardgameaction.cpp:53
-msgid "Load &Recent"
-msgstr ""
-
-#: kstandardgameaction.cpp:53
-msgid "Open a recently saved game..."
-msgstr ""
-
-#: kstandardgameaction.cpp:54
-msgid "Restart &Game"
-msgstr "(&G) ఆటను మళ్ళి మొదలుపెట్టండి"
-
-#: kstandardgameaction.cpp:54
-msgid "Restart the game"
-msgstr "ఆటను మళ్ళి మొదలుపెట్టండి"
-
-#: kstandardgameaction.cpp:55
-msgid "&Save"
-msgstr "(&S) దాచు"
-
-#: kstandardgameaction.cpp:55
-msgid "Save the current game"
-msgstr "ప్రస్తుత ఆటను దాచు"
-
-#: kstandardgameaction.cpp:56
-msgid "Save &As..."
-msgstr "(&A)ఇలా దాచు..."
-
-#: kstandardgameaction.cpp:56
-msgid "Save the current game to another file"
-msgstr "ప్రస్తుత ఆటను ఇంకొ దస్త్రంలొ దాచు"
-
-#: kstandardgameaction.cpp:57
-msgid "&End Game"
-msgstr "(&E) ఆటను ఆపు"
-
-#: kstandardgameaction.cpp:57
-msgid "End the current game"
-msgstr "ప్రస్తుత ఆటను ఆపు"
-
-#: kstandardgameaction.cpp:58
-msgid "Pa&use"
-msgstr ""
-
-#: kstandardgameaction.cpp:58
-msgid "Pause the game"
-msgstr ""
-
-#: kstandardgameaction.cpp:59
-msgid "Show &High Scores"
-msgstr ""
-
-#: kstandardgameaction.cpp:59
-msgid "Show high scores"
-msgstr ""
-
-#: kstandardgameaction.cpp:60
-msgid "&Clear High Scores"
-msgstr ""
-
-#: kstandardgameaction.cpp:60
-msgid "Clear high scores"
-msgstr ""
-
-#: kstandardgameaction.cpp:61
-msgid "Show Statistics"
-msgstr ""
-
-#: kstandardgameaction.cpp:61
-msgid "Show statistics"
-msgstr ""
-
-#: kstandardgameaction.cpp:62
-msgid "&Clear Statistics"
-msgstr ""
-
-#: kstandardgameaction.cpp:62
-msgid "Delete all-time statistics."
-msgstr ""
-
-#: kstandardgameaction.cpp:63
-msgid "&Print..."
-msgstr ""
-
-#: kstandardgameaction.cpp:64
-msgid "&Quit"
-msgstr ""
-
-#: kstandardgameaction.cpp:64
-msgid "Quit the program"
-msgstr ""
-
-#: kstandardgameaction.cpp:66
-msgid "Repeat"
-msgstr ""
-
-#: kstandardgameaction.cpp:66
-msgid "Repeat the last move"
-msgstr ""
-
-#: kstandardgameaction.cpp:67
-msgid "Und&o"
-msgstr ""
-
-#: kstandardgameaction.cpp:67
-msgid "Undo the last move"
-msgstr ""
-
-#: kstandardgameaction.cpp:68
-msgid "Re&do"
-msgstr ""
-
-#: kstandardgameaction.cpp:68
-msgid "Redo the latest move"
-msgstr ""
-
-#: kstandardgameaction.cpp:69
-msgid "&Roll Dice"
-msgstr ""
-
-#: kstandardgameaction.cpp:69
-msgid "Roll the dice"
-msgstr ""
-
-#: kstandardgameaction.cpp:70
-msgid "End Turn"
-msgstr ""
-
-#: kstandardgameaction.cpp:71
-msgid "&Hint"
-msgstr ""
-
-#: kstandardgameaction.cpp:71
-msgid "Give a hint"
-msgstr ""
-
-#: kstandardgameaction.cpp:72
-msgid "&Demo"
-msgstr ""
-
-#: kstandardgameaction.cpp:72
-msgid "Play a demo"
-msgstr ""
-
-#: kstandardgameaction.cpp:73
-msgid "&Solve"
-msgstr ""
-
-#: kstandardgameaction.cpp:73
-msgid "Solve the game"
-msgstr ""
-
-#: kstandardgameaction.cpp:75
-msgid "Choose Game &Type"
-msgstr ""
-
-#: kstandardgameaction.cpp:76
-msgid "Configure &Carddecks..."
-msgstr ""
-
-#: kstandardgameaction.cpp:77
-msgid "Configure &High Scores..."
-msgstr ""
 
 #: libkdegamesprivate/kgame/dialogs/kgameconnectdialog.cpp:73
 msgid "Create a network game"
@@ -1072,6 +503,11 @@ msgstr ""
 msgid "default"
 msgstr "అప్రమెయం"
 
+#: libkdegamesprivate/kgame/kplayer.cpp:95 highscore/kscoredialog.cpp:118
+#: highscore/kexthighscore_internal.h:64
+msgid "Name"
+msgstr "పేరు"
+
 #: libkdegamesprivate/kgame/kplayer.cpp:98
 msgid "AsyncInput"
 msgstr ""
@@ -1227,6 +663,591 @@ msgstr ""
 msgid "Send to All Players"
 msgstr ""
 
+#: highscore/kexthighscore_internal.cpp:52
+msgid "anonymous"
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:269
+msgid "Games Count"
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:276
+msgid "Comment"
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:593
+msgid "Undefined error."
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:594
+msgid "Missing argument(s)."
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:595
+msgid "Invalid argument(s)."
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:597
+msgid "Unable to connect to MySQL server."
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:598
+msgid "Unable to select database."
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:599
+msgid "Error on database query."
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:600
+msgid "Error on database insert."
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:602
+msgid "Nickname already registered."
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:603
+msgid "Nickname not registered."
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:604
+msgid "Invalid key."
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:605
+msgid "Invalid submit key."
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:607
+msgid "Invalid level."
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:608
+msgid "Invalid score."
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:612
+msgid "Unable to contact world-wide highscore server"
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:621
+#, kde-format
+msgid "Server URL: %1"
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:629
+msgid "Unable to open temporary file."
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:651
+msgid "Message from world-wide highscores server"
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:658
+msgid "Invalid answer from world-wide highscores server."
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:659
+#, kde-format
+msgid "Raw message: %1"
+msgstr ""
+
+#: highscore/kexthighscore_internal.cpp:671
+#, kde-format
+msgid "Invalid answer from world-wide highscores server (missing item: %1)."
+msgstr ""
+
+#: highscore/kscoredialog.cpp:49
+msgid "High Scores"
+msgstr ""
+
+#: highscore/kscoredialog.cpp:120 highscore/kexthighscore_internal.h:73
+msgid "Date"
+msgstr ""
+
+#: highscore/kscoredialog.cpp:122
+msgid "Level"
+msgstr ""
+
+#: highscore/kscoredialog.cpp:124 highscore/kexthighscore.cpp:208
+msgid "Score"
+msgstr ""
+
+#: highscore/kscoredialog.cpp:126
+msgid "Time"
+msgstr "సమయం"
+
+#: highscore/kscoredialog.cpp:288 highscore/kexthighscore_internal.h:53
+msgid "Rank"
+msgstr ""
+
+#: highscore/kscoredialog.cpp:311
+#, fuzzy, kde-format
+#| msgid "#%1"
+msgctxt "Enumeration (#1, #2 ...) of the highscore entries"
+msgid "#%1"
+msgstr "#%1"
+
+#: highscore/kscoredialog.cpp:573
+msgid "&Remember"
+msgstr ""
+
+#: highscore/kscoredialog.cpp:574
+msgid "&Forget"
+msgstr ""
+
+#: highscore/kscoredialog.cpp:575
+msgid "Remember this high score"
+msgstr ""
+
+#: highscore/kscoredialog.cpp:576
+msgid "Forget this high score"
+msgstr ""
+
+#: highscore/kscoredialog.cpp:584
+msgid ""
+"Excellent!\n"
+"You have a new high score!"
+msgstr ""
+
+#: highscore/kscoredialog.cpp:586
+msgid ""
+"Well done!\n"
+"You made it to the high score list!"
+msgstr ""
+
+#: highscore/kexthighscore.cpp:211
+msgid "Mean Score"
+msgstr ""
+
+#: highscore/kexthighscore.cpp:216
+msgid "Best Score"
+msgstr ""
+
+#: highscore/kexthighscore.cpp:220
+msgid "Elapsed Time"
+msgstr ""
+
+#: highscore/kexthighscore_internal.h:82
+msgid "Success"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:162
+msgid "Best &Scores"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:167
+msgid "&Players"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:172
+msgid "Statistics"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:178
+msgid "Histogram"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:185
+msgid "View world-wide highscores"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:192
+msgid "View world-wide players"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:232
+msgid "Highscores"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:239
+msgid "Configure..."
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:240
+msgid "Export..."
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:292
+msgid "Overwrite"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:294
+msgid "The file already exists. Overwrite?"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:295
+msgid "Export"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:344
+msgid "Winner"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:382
+msgid "Won Games"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:409
+msgid "Configure Highscores"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:419
+msgid "Main"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:430 highscore/kexthighscore_gui.cpp:469
+msgid "Nickname:"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:441
+msgid "Comment:"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:451
+msgid "World-wide highscores enabled"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:458
+msgid "Advanced"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:464
+msgid "Registration Data"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:475
+msgid "Key:"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:482 highscore/kexthighscore_gui.cpp:515
+msgid "Remove"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:517
+msgid ""
+"This will permanently remove your registration key. You will not be able to "
+"use the currently registered nickname anymore."
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:560
+msgid "Please choose a non empty nickname."
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:564
+msgid "Nickname already in use. Please choose another one"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:585
+msgid "Enter Your Nickname"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:597
+msgid "Congratulations, you have won!"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:602
+msgid "Enter your nickname:"
+msgstr ""
+
+#: highscore/kexthighscore_gui.cpp:610
+msgid "Do not ask again."
+msgstr ""
+
+#: highscore/kexthighscore_item.cpp:277
+msgid "Multiplayers Scores"
+msgstr ""
+
+#: highscore/kexthighscore_item.cpp:288
+msgid "No game played."
+msgstr ""
+
+#: highscore/kexthighscore_item.cpp:290
+msgid "Scores for last game:"
+msgstr ""
+
+#: highscore/kexthighscore_item.cpp:297
+#, kde-format
+msgid "Scores for the last %1 games:"
+msgstr ""
+
+#: highscore/khighscore.cpp:138
+msgid "Retry"
+msgstr ""
+
+#: highscore/khighscore.cpp:139
+msgid ""
+"Cannot access the highscore file. Another user is probably currently writing "
+"to it."
+msgstr ""
+
+#: highscore/kexthighscore_tab.cpp:49
+msgid "all"
+msgstr ""
+
+#: highscore/kexthighscore_tab.cpp:78
+msgid "Select player:"
+msgstr ""
+
+#: highscore/kexthighscore_tab.cpp:115
+msgid "Total:"
+msgstr ""
+
+#: highscore/kexthighscore_tab.cpp:115
+msgid "Won:"
+msgstr ""
+
+#: highscore/kexthighscore_tab.cpp:115
+msgid "Lost:"
+msgstr ""
+
+#: highscore/kexthighscore_tab.cpp:116
+msgid "Draw:"
+msgstr ""
+
+#: highscore/kexthighscore_tab.cpp:119
+msgid "Current:"
+msgstr ""
+
+#: highscore/kexthighscore_tab.cpp:119
+msgid "Max won:"
+msgstr ""
+
+#: highscore/kexthighscore_tab.cpp:119
+msgid "Max lost:"
+msgstr ""
+
+#: highscore/kexthighscore_tab.cpp:134
+msgid "Game Counts"
+msgstr ""
+
+#: highscore/kexthighscore_tab.cpp:147
+msgid "Trends"
+msgstr ""
+
+#: highscore/kexthighscore_tab.cpp:235
+msgid "From"
+msgstr ""
+
+#: highscore/kexthighscore_tab.cpp:236
+msgid "To"
+msgstr ""
+
+#: highscore/kexthighscore_tab.cpp:237
+msgid "Count"
+msgstr ""
+
+#: highscore/kexthighscore_tab.cpp:238
+msgid "Percent"
+msgstr ""
+
+#: kstandardgameaction.cpp:51
+msgctxt "new game"
+msgid "&New"
+msgstr "(&N) కొత్త"
+
+#: kstandardgameaction.cpp:51
+msgid "Start a new game."
+msgstr "కొత్త ఆట మొదలు పెట్టండి."
+
+#: kstandardgameaction.cpp:51
+msgid "Start a new game"
+msgstr "కొత్త ఆట మొదలు పెట్టండి"
+
+#: kstandardgameaction.cpp:52
+msgid "&Load..."
+msgstr "(&L)ఎక్కించు..."
+
+#: kstandardgameaction.cpp:52
+msgid "Open a saved game..."
+msgstr "దాచబడిన ఆటను తెరువండి..."
+
+#: kstandardgameaction.cpp:53
+msgid "Load &Recent"
+msgstr ""
+
+#: kstandardgameaction.cpp:53
+msgid "Open a recently saved game..."
+msgstr ""
+
+#: kstandardgameaction.cpp:54
+msgid "Restart &Game"
+msgstr "(&G) ఆటను మళ్ళి మొదలుపెట్టండి"
+
+#: kstandardgameaction.cpp:54
+msgid "Restart the game"
+msgstr "ఆటను మళ్ళి మొదలుపెట్టండి"
+
+#: kstandardgameaction.cpp:55
+msgid "&Save"
+msgstr "(&S) దాచు"
+
+#: kstandardgameaction.cpp:55
+msgid "Save the current game"
+msgstr "ప్రస్తుత ఆటను దాచు"
+
+#: kstandardgameaction.cpp:56
+msgid "Save &As..."
+msgstr "(&A)ఇలా దాచు..."
+
+#: kstandardgameaction.cpp:56
+msgid "Save the current game to another file"
+msgstr "ప్రస్తుత ఆటను ఇంకొ దస్త్రంలొ దాచు"
+
+#: kstandardgameaction.cpp:57
+msgid "&End Game"
+msgstr "(&E) ఆటను ఆపు"
+
+#: kstandardgameaction.cpp:57
+msgid "End the current game"
+msgstr "ప్రస్తుత ఆటను ఆపు"
+
+#: kstandardgameaction.cpp:58
+msgid "Pa&use"
+msgstr ""
+
+#: kstandardgameaction.cpp:58
+msgid "Pause the game"
+msgstr ""
+
+#: kstandardgameaction.cpp:59
+msgid "Show &High Scores"
+msgstr ""
+
+#: kstandardgameaction.cpp:59
+msgid "Show high scores"
+msgstr ""
+
+#: kstandardgameaction.cpp:60
+msgid "&Clear High Scores"
+msgstr ""
+
+#: kstandardgameaction.cpp:60
+msgid "Clear high scores"
+msgstr ""
+
+#: kstandardgameaction.cpp:61
+msgid "Show Statistics"
+msgstr ""
+
+#: kstandardgameaction.cpp:61
+msgid "Show statistics"
+msgstr ""
+
+#: kstandardgameaction.cpp:62
+msgid "&Clear Statistics"
+msgstr ""
+
+#: kstandardgameaction.cpp:62
+msgid "Delete all-time statistics."
+msgstr ""
+
+#: kstandardgameaction.cpp:63
+msgid "&Print..."
+msgstr ""
+
+#: kstandardgameaction.cpp:64
+msgid "&Quit"
+msgstr ""
+
+#: kstandardgameaction.cpp:64
+msgid "Quit the program"
+msgstr ""
+
+#: kstandardgameaction.cpp:66
+msgid "Repeat"
+msgstr ""
+
+#: kstandardgameaction.cpp:66
+msgid "Repeat the last move"
+msgstr ""
+
+#: kstandardgameaction.cpp:67
+msgid "Und&o"
+msgstr ""
+
+#: kstandardgameaction.cpp:67
+msgid "Undo the last move"
+msgstr ""
+
+#: kstandardgameaction.cpp:68
+msgid "Re&do"
+msgstr ""
+
+#: kstandardgameaction.cpp:68
+msgid "Redo the latest move"
+msgstr ""
+
+#: kstandardgameaction.cpp:69
+msgid "&Roll Dice"
+msgstr ""
+
+#: kstandardgameaction.cpp:69
+msgid "Roll the dice"
+msgstr ""
+
+#: kstandardgameaction.cpp:70
+msgid "End Turn"
+msgstr ""
+
+#: kstandardgameaction.cpp:71
+msgid "&Hint"
+msgstr ""
+
+#: kstandardgameaction.cpp:71
+msgid "Give a hint"
+msgstr ""
+
+#: kstandardgameaction.cpp:72
+msgid "&Demo"
+msgstr ""
+
+#: kstandardgameaction.cpp:72
+msgid "Play a demo"
+msgstr ""
+
+#: kstandardgameaction.cpp:73
+msgid "&Solve"
+msgstr ""
+
+#: kstandardgameaction.cpp:73
+msgid "Solve the game"
+msgstr ""
+
+#: kstandardgameaction.cpp:75
+msgid "Choose Game &Type"
+msgstr ""
+
+#: kstandardgameaction.cpp:76
+msgid "Configure &Carddecks..."
+msgstr ""
+
+#: kstandardgameaction.cpp:77
+msgid "Configure &High Scores..."
+msgstr ""
+
+#: kgthemeselector.cpp:88
+msgid "Get New Themes..."
+msgstr ""
+
+#: kgthemeselector.cpp:189
+msgctxt "@title:window config dialog"
+msgid "Select theme"
+msgstr ""
+
+#: kgthemeselector.cpp:261
+#, fuzzy
+#| msgid "Your name:"
+msgid "[No name]"
+msgstr "మీ పేరు:"
+
+#: kgthemeselector.cpp:275
+#, kde-format
+msgctxt "Author attribution, e.g. \"by Jack\""
+msgid "by %1"
+msgstr ""
+
 #. i18n: file: libkdegamesprivate/kgamethemeselector.ui:40
 #. i18n: ectx: property (text), widget (QPushButton, getNewButton)
 #: rc.cpp:3
@@ -1261,27 +1282,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelAuthor)
 #: rc.cpp:18
 msgid "Author:"
-msgstr ""
-
-#: kgthemeselector.cpp:88
-msgid "Get New Themes..."
-msgstr ""
-
-#: kgthemeselector.cpp:189
-msgctxt "@title:window config dialog"
-msgid "Select theme"
-msgstr ""
-
-#: kgthemeselector.cpp:261
-#, fuzzy
-#| msgid "Your name:"
-msgid "[No name]"
-msgstr "మీ పేరు:"
-
-#: kgthemeselector.cpp:275
-#, kde-format
-msgctxt "Author attribution, e.g. \"by Jack\""
-msgid "by %1"
 msgstr ""
 
 #~ msgid "unnamed"
