@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-shells-common\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-29 13:35+0100\n"
+"POT-Creation-Date: 2012-07-10 20:11+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,6 +25,24 @@ msgstr ""
 "\n"
 "\n"
 "\n"
+
+#: backgrounddialog.cpp:209
+msgid "Desktop Settings"
+msgstr ""
+
+#: backgrounddialog.cpp:214
+msgid "View"
+msgstr ""
+
+#: backgrounddialog.cpp:222
+msgid ""
+"This picture of a monitor contains a preview of what the current settings "
+"will look like on your desktop."
+msgstr ""
+
+#: backgrounddialog.cpp:244
+msgid "Mouse Actions"
+msgstr ""
 
 #: mouseinputbutton.cpp:33
 msgid "Set Trigger..."
@@ -108,6 +126,14 @@ msgstr ""
 msgid "Configure Plugin"
 msgstr ""
 
+#: scripting/containment.cpp:171
+msgid "widgetById requires an id"
+msgstr ""
+
+#: scripting/containment.cpp:196
+msgid "widgetById requires a name of a widget or a widget object"
+msgstr ""
+
 #: scripting/i18n.cpp:33
 msgid "i18n() takes at least one argument"
 msgstr ""
@@ -126,14 +152,6 @@ msgstr ""
 
 #: scripting/layouttemplatepackagestructure.cpp:30
 msgid "Main Script File"
-msgstr ""
-
-#: scripting/containment.cpp:171
-msgid "widgetById requires an id"
-msgstr ""
-
-#: scripting/containment.cpp:196
-msgid "widgetById requires a name of a widget or a widget object"
 msgstr ""
 
 #: scripting/scriptengine.cpp:79 scripting/scriptengine.cpp:200
@@ -161,10 +179,6 @@ msgid ""
 "\n"
 "Backtrace:\n"
 "%3"
-msgstr ""
-
-#: widgetsexplorer/kcategorizeditemsviewmodels.cpp:72
-msgid "Filters"
 msgstr ""
 
 #: widgetsexplorer/appletsfiltering.cpp:55
@@ -224,6 +238,10 @@ msgstr ""
 msgid "Unknown Applet"
 msgstr ""
 
+#: widgetsexplorer/kcategorizeditemsviewmodels.cpp:72
+msgid "Filters"
+msgstr ""
+
 #: widgetsexplorer/openwidgetassistant.cpp:46
 msgid "Select the type of widget to install from the list below."
 msgstr ""
@@ -269,24 +287,6 @@ msgstr ""
 
 #: widgetsexplorer/widgetexplorer.cpp:123
 msgid "Categories:"
-msgstr ""
-
-#: backgrounddialog.cpp:209
-msgid "Desktop Settings"
-msgstr ""
-
-#: backgrounddialog.cpp:214
-msgid "View"
-msgstr ""
-
-#: backgrounddialog.cpp:222
-msgid ""
-"This picture of a monitor contains a preview of what the current settings "
-"will look like on your desktop."
-msgstr ""
-
-#: backgrounddialog.cpp:244
-msgid "Mouse Actions"
 msgstr ""
 
 #: rc.cpp:1
