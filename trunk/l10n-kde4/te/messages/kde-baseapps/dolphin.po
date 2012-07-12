@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-25 04:52+0200\n"
+"POT-Creation-Date: 2012-07-12 04:27+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -567,79 +567,33 @@ msgstr ""
 msgid "&Only show when using this application (%1)"
 msgstr ""
 
-#: panels/places/placespanel.cpp:157 dolphincontextmenu.cpp:174
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "ఖాళీ ట్రాష్"
-
-#: panels/places/placespanel.cpp:161 panels/places/placespanel.cpp:167
-#: panels/places/placespanel.cpp:228
+#: panels/places/placesitem.cpp:150
 #, fuzzy
-#| msgctxt "@label"
-#| msgid "Add Comment..."
-msgctxt "@item:inmenu"
-msgid "Add Entry..."
-msgstr "వ్యాఖ్యానమును జతచేయుము..."
+#| msgctxt "@title:window"
+#| msgid "Places"
+msgctxt "@item"
+msgid "Places"
+msgstr "స్థలములు"
 
-#: panels/places/placespanel.cpp:163
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Add Comment..."
-msgctxt "@item:inmenu"
-msgid "Edit '%1'..."
-msgstr "వ్యాఖ్యానమును జతచేయుము..."
-
-#: panels/places/placespanel.cpp:170
-#, fuzzy, kde-format
+#: panels/places/placesitem.cpp:151
+#, fuzzy
 #| msgctxt "@action:inmenu"
-#| msgid "Open in New Tab"
-msgctxt "@item:inmenu"
-msgid "Open '%1' in New Tab"
-msgstr "కొత్త టాబ్‌నందు తెరువుము"
+#| msgid "Close Tab"
+msgctxt "@item"
+msgid "Recently Accessed"
+msgstr "టాబ్‌ను మూయుము"
 
-#: panels/places/placespanel.cpp:175
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu View"
-#| msgid "Reload"
-msgctxt "@item:inmenu"
-msgid "Remove '%1'"
-msgstr "తిరిగిలోడ్‌చేయి"
-
-#: panels/places/placespanel.cpp:178
-#, kde-format
-msgctxt "@item:inmenu"
-msgid "Hide '%1'"
-msgstr ""
-
-#: panels/places/placespanel.cpp:187 panels/places/placespanel.cpp:232
+#: panels/places/placesitem.cpp:152
 #, fuzzy
-#| msgctxt "@label"
-#| msgid "Show tooltips"
-msgctxt "@item:inmenu"
-msgid "Show All Entries"
-msgstr "పనిముట్టుచిట్కాను చూపుము"
+#| msgctxt "@title:menu"
+#| msgid "Main Toolbar"
+msgctxt "@item"
+msgid "Search For"
+msgstr "మెయిన్ పనిముట్లపట్టీ"
 
-#: panels/places/placespanel.cpp:298
-msgctxt "@info"
-msgid "Do you really want to empty the Trash? All items will be deleted."
-msgstr "మీరు నిజంగా ట్రాష్‌ను ఖాళీ చేద్దమని అనుకొనుచున్నారా? అన్ని అంశములు తొలగించబడతాయి."
-
-#: panels/places/placespanel.cpp:302
-msgctxt "@action:button"
-msgid "Empty Trash"
-msgstr "ఖాళీ ట్రాష్"
-
-#: panels/places/placespanel.cpp:322
-#, fuzzy
-#| msgctxt "@action:inmenu Add current folder to places"
-#| msgid "Add to Places"
-msgctxt "@title:window"
-msgid "Add Places Entry"
-msgstr "స్థలములకు జతచేయుము"
-
-#: panels/places/placespanel.cpp:338
-msgctxt "@title:window"
-msgid "Edit Places Entry"
+#: panels/places/placesitem.cpp:153
+msgctxt "@item"
+msgid "Devices"
 msgstr ""
 
 #: panels/places/placesitemmodel.cpp:264
@@ -680,7 +634,7 @@ msgctxt "@info"
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:892
+#: panels/places/placesitemmodel.cpp:897
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Home URL"
@@ -688,7 +642,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Home"
 msgstr "నివాస URL"
 
-#: panels/places/placesitemmodel.cpp:895
+#: panels/places/placesitemmodel.cpp:900
 #, fuzzy
 #| msgctxt "@action:inmenu Go"
 #| msgid "&Network Folders"
@@ -696,12 +650,12 @@ msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr "నెట్వర్కు ఫోల్డర్లు (&N)"
 
-#: panels/places/placesitemmodel.cpp:898
+#: panels/places/placesitemmodel.cpp:903
 msgctxt "KFile System Bookmarks"
 msgid "Root"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:901
+#: panels/places/placesitemmodel.cpp:906
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Trash"
@@ -709,7 +663,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr "ట్రాష్"
 
-#: panels/places/placesitemmodel.cpp:906
+#: panels/places/placesitemmodel.cpp:911
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Today"
@@ -717,7 +671,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Today"
 msgstr "ఈరోజు"
 
-#: panels/places/placesitemmodel.cpp:909
+#: panels/places/placesitemmodel.cpp:914
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Yesterday"
@@ -725,7 +679,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Yesterday"
 msgstr "నిన్న"
 
-#: panels/places/placesitemmodel.cpp:912
+#: panels/places/placesitemmodel.cpp:917
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Earlier this Month"
@@ -733,7 +687,7 @@ msgctxt "KFile System Bookmarks"
 msgid "This Month"
 msgstr "ఈ నెలకు ముందు"
 
-#: panels/places/placesitemmodel.cpp:915
+#: panels/places/placesitemmodel.cpp:920
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Earlier this Month"
@@ -741,7 +695,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Last Month"
 msgstr "ఈ నెలకు ముందు"
 
-#: panels/places/placesitemmodel.cpp:918
+#: panels/places/placesitemmodel.cpp:923
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -749,7 +703,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Documents"
 msgstr "పత్రికీకరణ"
 
-#: panels/places/placesitemmodel.cpp:921
+#: panels/places/placesitemmodel.cpp:926
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "File Previews"
@@ -757,43 +711,89 @@ msgctxt "KFile System Bookmarks"
 msgid "Images"
 msgstr "ఫైలు ముందస్తు విక్షణలు"
 
-#: panels/places/placesitemmodel.cpp:924
+#: panels/places/placesitemmodel.cpp:929
 msgctxt "KFile System Bookmarks"
 msgid "Audio Files"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:927
+#: panels/places/placesitemmodel.cpp:932
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr ""
 
-#: panels/places/placesitem.cpp:150
-#, fuzzy
-#| msgctxt "@title:window"
-#| msgid "Places"
-msgctxt "@item"
-msgid "Places"
-msgstr "స్థలములు"
+#: panels/places/placespanel.cpp:158 dolphincontextmenu.cpp:174
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "ఖాళీ ట్రాష్"
 
-#: panels/places/placesitem.cpp:151
+#: panels/places/placespanel.cpp:162 panels/places/placespanel.cpp:168
+#: panels/places/placespanel.cpp:229
 #, fuzzy
+#| msgctxt "@label"
+#| msgid "Add Comment..."
+msgctxt "@item:inmenu"
+msgid "Add Entry..."
+msgstr "వ్యాఖ్యానమును జతచేయుము..."
+
+#: panels/places/placespanel.cpp:164
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Add Comment..."
+msgctxt "@item:inmenu"
+msgid "Edit '%1'..."
+msgstr "వ్యాఖ్యానమును జతచేయుము..."
+
+#: panels/places/placespanel.cpp:171
+#, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
-msgctxt "@item"
-msgid "Recently Accessed"
-msgstr "టాబ్‌ను మూయుము"
+#| msgid "Open in New Tab"
+msgctxt "@item:inmenu"
+msgid "Open '%1' in New Tab"
+msgstr "కొత్త టాబ్‌నందు తెరువుము"
 
-#: panels/places/placesitem.cpp:152
+#: panels/places/placespanel.cpp:176
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu View"
+#| msgid "Reload"
+msgctxt "@item:inmenu"
+msgid "Remove '%1'"
+msgstr "తిరిగిలోడ్‌చేయి"
+
+#: panels/places/placespanel.cpp:179
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Hide '%1'"
+msgstr ""
+
+#: panels/places/placespanel.cpp:188 panels/places/placespanel.cpp:233
 #, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Main Toolbar"
-msgctxt "@item"
-msgid "Search For"
-msgstr "మెయిన్ పనిముట్లపట్టీ"
+#| msgctxt "@label"
+#| msgid "Show tooltips"
+msgctxt "@item:inmenu"
+msgid "Show All Entries"
+msgstr "పనిముట్టుచిట్కాను చూపుము"
 
-#: panels/places/placesitem.cpp:153
-msgctxt "@item"
-msgid "Devices"
+#: panels/places/placespanel.cpp:315
+msgctxt "@info"
+msgid "Do you really want to empty the Trash? All items will be deleted."
+msgstr "మీరు నిజంగా ట్రాష్‌ను ఖాళీ చేద్దమని అనుకొనుచున్నారా? అన్ని అంశములు తొలగించబడతాయి."
+
+#: panels/places/placespanel.cpp:319
+msgctxt "@action:button"
+msgid "Empty Trash"
+msgstr "ఖాళీ ట్రాష్"
+
+#: panels/places/placespanel.cpp:339
+#, fuzzy
+#| msgctxt "@action:inmenu Add current folder to places"
+#| msgid "Add to Places"
+msgctxt "@title:window"
+msgid "Add Places Entry"
+msgstr "స్థలములకు జతచేయుము"
+
+#: panels/places/placespanel.cpp:355
+msgctxt "@title:window"
+msgid "Edit Places Entry"
 msgstr ""
 
 #: search/dolphinsearchbox.cpp:110
@@ -1985,63 +1985,6 @@ msgctxt "@info"
 msgid "Details view mode"
 msgstr "వీక్షణ తీరును విభజించుము"
 
-#: dolphincontextmenu.cpp:196
-msgctxt "@action:inmenu"
-msgid "Restore"
-msgstr "తిరిగివుంచుము"
-
-#: dolphincontextmenu.cpp:235 dolphinmainwindow.cpp:1485
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "కొత్తది సృష్టించుము"
-
-#: dolphincontextmenu.cpp:248
-msgctxt "@action:inmenu Add selected folder to places"
-msgid "Add to Places"
-msgstr "స్థలములకు జతచేయుము"
-
-#: dolphincontextmenu.cpp:255
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Window"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Window"
-msgstr "కొత్త విండోనందు తెరువుము"
-
-#: dolphincontextmenu.cpp:261
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Tab"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Tab"
-msgstr "కొత్త టాబ్‌నందు తెరువుము"
-
-#: dolphincontextmenu.cpp:330
-msgctxt "@action:inmenu Add current folder to places"
-msgid "Add to Places"
-msgstr "స్థలములకు జతచేయుము"
-
-#: dolphincontextmenu.cpp:423
-msgctxt "@action:inmenu"
-msgid "Paste Into Folder"
-msgstr "ఫోల్డరు లోనికి అతికించుము"
-
-#: dolphincontextmenu.cpp:534
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "&Move to Trash"
-msgstr "ట్రాష్‌కు కదుల్చుము"
-
-#: dolphincontextmenu.cpp:537
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "&Delete"
-msgstr "తొలగించుము"
-
 #: dolphinmainwindow.cpp:318
 msgctxt "@info:status"
 msgid "Successfully copied."
@@ -2153,6 +2096,11 @@ msgstr "పనిముట్లు"
 msgctxt "@action:inmenu"
 msgid "Help"
 msgstr ""
+
+#: dolphinmainwindow.cpp:1485 dolphincontextmenu.cpp:235
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "కొత్తది సృష్టించుము"
 
 #: dolphinmainwindow.cpp:1492
 msgctxt "@action:inmenu File"
@@ -2386,6 +2334,250 @@ msgstr "ప్రోటోకాల్ డాల్ఫిన్ చేత మద
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "సరికాని ప్రోటోకాల్"
+
+#: dolphincontextmenu.cpp:196
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "తిరిగివుంచుము"
+
+#: dolphincontextmenu.cpp:248
+msgctxt "@action:inmenu Add selected folder to places"
+msgid "Add to Places"
+msgstr "స్థలములకు జతచేయుము"
+
+#: dolphincontextmenu.cpp:255
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Window"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Window"
+msgstr "కొత్త విండోనందు తెరువుము"
+
+#: dolphincontextmenu.cpp:261
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Tab"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Tab"
+msgstr "కొత్త టాబ్‌నందు తెరువుము"
+
+#: dolphincontextmenu.cpp:330
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "స్థలములకు జతచేయుము"
+
+#: dolphincontextmenu.cpp:423
+msgctxt "@action:inmenu"
+msgid "Paste Into Folder"
+msgstr "ఫోల్డరు లోనికి అతికించుము"
+
+#: dolphincontextmenu.cpp:534
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "&Move to Trash"
+msgstr "ట్రాష్‌కు కదుల్చుము"
+
+#: dolphincontextmenu.cpp:537
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "&Delete"
+msgstr "తొలగించుము"
+
+#: dolphinpart.cpp:145
+msgctxt "@action:inmenu Edit"
+msgid "&Edit File Type..."
+msgstr "(&E) ఫైలు రకమును సరికూర్చుము..."
+
+#: dolphinpart.cpp:149
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Select Item"
+msgctxt "@action:inmenu Edit"
+msgid "Select Items Matching..."
+msgstr "అంశమును ఎంపికచేయుము"
+
+#: dolphinpart.cpp:154
+msgctxt "@action:inmenu Edit"
+msgid "Unselect Items Matching..."
+msgstr ""
+
+#: dolphinpart.cpp:160
+#, fuzzy
+#| msgctxt "@action:inmenu Edit"
+#| msgid "Select All"
+msgctxt "@action:inmenu Edit"
+msgid "Unselect All"
+msgstr "అన్నిటిని ఎంపికచేయుము"
+
+#: dolphinpart.cpp:177
+msgctxt "@action:inmenu Go"
+msgid "App&lications"
+msgstr "(&l) అనువర్తనములు"
+
+#: dolphinpart.cpp:180
+msgctxt "@action:inmenu Go"
+msgid "&Network Folders"
+msgstr "నెట్వర్కు ఫోల్డర్లు (&N)"
+
+#: dolphinpart.cpp:183
+msgctxt "@action:inmenu Go"
+msgid "Sett&ings"
+msgstr "(&i) అమర్పులు"
+
+#: dolphinpart.cpp:186
+msgctxt "@action:inmenu Go"
+msgid "Trash"
+msgstr "ట్రాష్"
+
+#: dolphinpart.cpp:189
+msgctxt "@action:inmenu Go"
+msgid "Autostart"
+msgstr "స్వయంచాలకప్రారంభం"
+
+#: dolphinpart.cpp:194
+#, fuzzy
+#| msgctxt "@action:inmenu Tools"
+#| msgid "Find File..."
+msgctxt "@action:inmenu Tools"
+msgid "Find File..."
+msgstr "ఫైలును కనుగొనుము..."
+
+#: dolphinpart.cpp:202
+msgctxt "@action:inmenu Tools"
+msgid "Open &Terminal"
+msgstr "(&T) టెర్మినల్‌ను తెరువుము"
+
+#: dolphinpart.cpp:271
+msgctxt "@title"
+msgid "Dolphin Part"
+msgstr "డాల్ఫిన్ పార్టు"
+
+#: dolphinpart.cpp:455
+#, fuzzy
+#| msgctxt "@action:inmenu Edit"
+#| msgid "Select All"
+msgctxt "@title:window"
+msgid "Select"
+msgstr "అన్నిటిని ఎంపికచేయుము"
+
+#: dolphinpart.cpp:456
+msgid "Select all items matching this pattern:"
+msgstr ""
+
+#: dolphinpart.cpp:462
+msgctxt "@title:window"
+msgid "Unselect"
+msgstr ""
+
+#: dolphinpart.cpp:463
+msgid "Unselect all items matching this pattern:"
+msgstr ""
+
+#: main.cpp:35
+msgctxt "@title"
+msgid "Dolphin"
+msgstr "డాల్ఫిన్"
+
+#: main.cpp:37
+msgctxt "@title"
+msgid "File Manager"
+msgstr "దస్త్రాల అభికర్త"
+
+#: main.cpp:39
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "(C) 2006-2008 Peter Penz"
+msgctxt "@info:credit"
+msgid "(C) 2006-2012 Peter Penz"
+msgstr "(C) 2006-2008 పీటర్ పెంజ్"
+
+#: main.cpp:41
+msgctxt "@info:credit"
+msgid "Peter Penz"
+msgstr "పీటర్ పెంజ్"
+
+#: main.cpp:42
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "Maintainer and developer"
+msgctxt "@info:credit"
+msgid "Maintainer and developer"
+msgstr "నిర్వాహకుడు మరియు అభివృద్దికారుడు"
+
+#: main.cpp:44
+msgctxt "@info:credit"
+msgid "Frank Reininghaus"
+msgstr ""
+
+#: main.cpp:45 main.cpp:48 main.cpp:51 main.cpp:54 main.cpp:57 main.cpp:60
+#: main.cpp:63 main.cpp:66
+msgctxt "@info:credit"
+msgid "Developer"
+msgstr "డెవలపర్"
+
+#: main.cpp:47
+msgctxt "@info:credit"
+msgid "Sebastian Trüg"
+msgstr ""
+
+#: main.cpp:50
+msgctxt "@info:credit"
+msgid "David Faure"
+msgstr "డెవిడ్ ఫారె"
+
+#: main.cpp:53
+msgctxt "@info:credit"
+msgid "Aaron J. Seigo"
+msgstr "ఆరన్ జె. సీగొ"
+
+#: main.cpp:56
+msgctxt "@info:credit"
+msgid "Rafael Fernández López"
+msgstr "రాఫెల్ ఫెర్నాండెజ్ లోఫెజ్"
+
+#: main.cpp:59
+msgctxt "@info:credit"
+msgid "Kevin Ottens"
+msgstr "కెవిన్ ఆటెన్స్"
+
+#: main.cpp:62
+msgctxt "@info:credit"
+msgid "Holger Freyther"
+msgstr "హాల్గెర్ ఫ్రేథర్"
+
+#: main.cpp:65
+msgctxt "@info:credit"
+msgid "Max Blazejak"
+msgstr "మాక్స్  బ్లాజెక్"
+
+#: main.cpp:68
+msgctxt "@info:credit"
+msgid "Michael Austin"
+msgstr "మైకేల్ ఆస్టిన్"
+
+#: main.cpp:69
+msgctxt "@info:credit"
+msgid "Documentation"
+msgstr "పత్రికీకరణ"
+
+#: main.cpp:79
+msgctxt "@info:shell"
+msgid "The files and directories passed as arguments will be selected."
+msgstr ""
+
+#: main.cpp:81
+msgctxt "@info:shell"
+msgid "Dolphin will get started with a split view."
+msgstr ""
+
+#: main.cpp:82
+msgctxt "@info:shell"
+msgid "Document to open"
+msgstr "తెరువవలసిన పత్రము"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -2982,198 +3174,6 @@ msgstr "పనిముట్లు"
 msgctxt "@title:menu"
 msgid "Dolphin Toolbar"
 msgstr "డాల్ఫిన్ పనిముట్లపట్టీ"
-
-#: dolphinpart.cpp:145
-msgctxt "@action:inmenu Edit"
-msgid "&Edit File Type..."
-msgstr "(&E) ఫైలు రకమును సరికూర్చుము..."
-
-#: dolphinpart.cpp:149
-#, fuzzy
-#| msgctxt "@info:tooltip"
-#| msgid "Select Item"
-msgctxt "@action:inmenu Edit"
-msgid "Select Items Matching..."
-msgstr "అంశమును ఎంపికచేయుము"
-
-#: dolphinpart.cpp:154
-msgctxt "@action:inmenu Edit"
-msgid "Unselect Items Matching..."
-msgstr ""
-
-#: dolphinpart.cpp:160
-#, fuzzy
-#| msgctxt "@action:inmenu Edit"
-#| msgid "Select All"
-msgctxt "@action:inmenu Edit"
-msgid "Unselect All"
-msgstr "అన్నిటిని ఎంపికచేయుము"
-
-#: dolphinpart.cpp:177
-msgctxt "@action:inmenu Go"
-msgid "App&lications"
-msgstr "(&l) అనువర్తనములు"
-
-#: dolphinpart.cpp:180
-msgctxt "@action:inmenu Go"
-msgid "&Network Folders"
-msgstr "నెట్వర్కు ఫోల్డర్లు (&N)"
-
-#: dolphinpart.cpp:183
-msgctxt "@action:inmenu Go"
-msgid "Sett&ings"
-msgstr "(&i) అమర్పులు"
-
-#: dolphinpart.cpp:186
-msgctxt "@action:inmenu Go"
-msgid "Trash"
-msgstr "ట్రాష్"
-
-#: dolphinpart.cpp:189
-msgctxt "@action:inmenu Go"
-msgid "Autostart"
-msgstr "స్వయంచాలకప్రారంభం"
-
-#: dolphinpart.cpp:194
-#, fuzzy
-#| msgctxt "@action:inmenu Tools"
-#| msgid "Find File..."
-msgctxt "@action:inmenu Tools"
-msgid "Find File..."
-msgstr "ఫైలును కనుగొనుము..."
-
-#: dolphinpart.cpp:202
-msgctxt "@action:inmenu Tools"
-msgid "Open &Terminal"
-msgstr "(&T) టెర్మినల్‌ను తెరువుము"
-
-#: dolphinpart.cpp:271
-msgctxt "@title"
-msgid "Dolphin Part"
-msgstr "డాల్ఫిన్ పార్టు"
-
-#: dolphinpart.cpp:455
-#, fuzzy
-#| msgctxt "@action:inmenu Edit"
-#| msgid "Select All"
-msgctxt "@title:window"
-msgid "Select"
-msgstr "అన్నిటిని ఎంపికచేయుము"
-
-#: dolphinpart.cpp:456
-msgid "Select all items matching this pattern:"
-msgstr ""
-
-#: dolphinpart.cpp:462
-msgctxt "@title:window"
-msgid "Unselect"
-msgstr ""
-
-#: dolphinpart.cpp:463
-msgid "Unselect all items matching this pattern:"
-msgstr ""
-
-#: main.cpp:35
-msgctxt "@title"
-msgid "Dolphin"
-msgstr "డాల్ఫిన్"
-
-#: main.cpp:37
-msgctxt "@title"
-msgid "File Manager"
-msgstr "దస్త్రాల అభికర్త"
-
-#: main.cpp:39
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "(C) 2006-2008 Peter Penz"
-msgctxt "@info:credit"
-msgid "(C) 2006-2012 Peter Penz"
-msgstr "(C) 2006-2008 పీటర్ పెంజ్"
-
-#: main.cpp:41
-msgctxt "@info:credit"
-msgid "Peter Penz"
-msgstr "పీటర్ పెంజ్"
-
-#: main.cpp:42
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "Maintainer and developer"
-msgctxt "@info:credit"
-msgid "Maintainer and developer"
-msgstr "నిర్వాహకుడు మరియు అభివృద్దికారుడు"
-
-#: main.cpp:44
-msgctxt "@info:credit"
-msgid "Frank Reininghaus"
-msgstr ""
-
-#: main.cpp:45 main.cpp:48 main.cpp:51 main.cpp:54 main.cpp:57 main.cpp:60
-#: main.cpp:63 main.cpp:66
-msgctxt "@info:credit"
-msgid "Developer"
-msgstr "డెవలపర్"
-
-#: main.cpp:47
-msgctxt "@info:credit"
-msgid "Sebastian Trüg"
-msgstr ""
-
-#: main.cpp:50
-msgctxt "@info:credit"
-msgid "David Faure"
-msgstr "డెవిడ్ ఫారె"
-
-#: main.cpp:53
-msgctxt "@info:credit"
-msgid "Aaron J. Seigo"
-msgstr "ఆరన్ జె. సీగొ"
-
-#: main.cpp:56
-msgctxt "@info:credit"
-msgid "Rafael Fernández López"
-msgstr "రాఫెల్ ఫెర్నాండెజ్ లోఫెజ్"
-
-#: main.cpp:59
-msgctxt "@info:credit"
-msgid "Kevin Ottens"
-msgstr "కెవిన్ ఆటెన్స్"
-
-#: main.cpp:62
-msgctxt "@info:credit"
-msgid "Holger Freyther"
-msgstr "హాల్గెర్ ఫ్రేథర్"
-
-#: main.cpp:65
-msgctxt "@info:credit"
-msgid "Max Blazejak"
-msgstr "మాక్స్  బ్లాజెక్"
-
-#: main.cpp:68
-msgctxt "@info:credit"
-msgid "Michael Austin"
-msgstr "మైకేల్ ఆస్టిన్"
-
-#: main.cpp:69
-msgctxt "@info:credit"
-msgid "Documentation"
-msgstr "పత్రికీకరణ"
-
-#: main.cpp:79
-msgctxt "@info:shell"
-msgid "The files and directories passed as arguments will be selected."
-msgstr ""
-
-#: main.cpp:81
-msgctxt "@info:shell"
-msgid "Dolphin will get started with a split view."
-msgstr ""
-
-#: main.cpp:82
-msgctxt "@info:shell"
-msgid "Document to open"
-msgstr "తెరువవలసిన పత్రము"
 
 #, fuzzy
 #~| msgctxt "@title:group Date"
