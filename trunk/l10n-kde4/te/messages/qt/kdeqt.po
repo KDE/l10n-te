@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2012-07-25 13:02+0200\n"
+"POT-Creation-Date: 2012-07-28 05:01+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -1824,7 +1824,7 @@ msgstr "పరికరం మీద ఖాళి లేదు"
 #: corelib/io/qiodevice.cpp:1630 corelib/plugin/qlibrary.cpp:1233
 #: corelib/plugin/qpluginloader.cpp:367
 #: corelib/statemachine/qstatemachine.cpp:1046
-#: network/kernel/qhostinfo_unix.cpp:300
+#: network/kernel/qhostinfo_unix.cpp:301
 #: network/socket/qnativesocketengine.cpp:276
 #: network/socket/qsymbiansocketengine.cpp:1435 network/ssl/qsslerror.cpp:289
 msgid "Unknown error"
@@ -2125,21 +2125,6 @@ msgid ""
 "libraries.)"
 msgstr ""
 
-#: corelib/plugin/qlibrary_unix.cpp:244 corelib/plugin/qlibrary_win.cpp:87
-#, qt-format
-msgid "Cannot load library %1: %2"
-msgstr ""
-
-#: corelib/plugin/qlibrary_unix.cpp:261 corelib/plugin/qlibrary_win.cpp:109
-#, qt-format
-msgid "Cannot unload library %1: %2"
-msgstr ""
-
-#: corelib/plugin/qlibrary_unix.cpp:295 corelib/plugin/qlibrary_win.cpp:124
-#, qt-format
-msgid "Cannot resolve symbol \"%1\" in %2: %3"
-msgstr ""
-
 #: corelib/plugin/qpluginloader.cpp:254
 msgid "The plugin was not loaded."
 msgstr "ప్లగిన్ ఎక్కించబడలేదు."
@@ -2164,6 +2149,21 @@ msgstr ""
 #| msgid "%1 is an invalid %2"
 msgid "'%1' is an invalid ELF object (%2)"
 msgstr "%1 చెల్లని %2"
+
+#: corelib/plugin/qlibrary_unix.cpp:261 corelib/plugin/qlibrary_win.cpp:136
+#, qt-format
+msgid "Cannot load library %1: %2"
+msgstr ""
+
+#: corelib/plugin/qlibrary_unix.cpp:278 corelib/plugin/qlibrary_win.cpp:158
+#, qt-format
+msgid "Cannot unload library %1: %2"
+msgstr ""
+
+#: corelib/plugin/qlibrary_unix.cpp:312 corelib/plugin/qlibrary_win.cpp:173
+#, qt-format
+msgid "Cannot resolve symbol \"%1\" in %2: %3"
+msgstr ""
 
 #: corelib/statemachine/qstatemachine.cpp:1028
 #, qt-format
@@ -6248,8 +6248,8 @@ msgid "Invalid configuration."
 msgstr "తప్పు పత్రం."
 
 #: network/kernel/qhostinfo_symbian.cpp:73
-#: network/kernel/qhostinfo_unix.cpp:264 network/kernel/qhostinfo_unix.cpp:296
-#: network/kernel/qhostinfo_win.cpp:115
+#: network/kernel/qhostinfo_win.cpp:115 network/kernel/qhostinfo_unix.cpp:265
+#: network/kernel/qhostinfo_unix.cpp:297
 #: network/socket/qsocks5socketengine.cpp:668
 #: network/socket/qsocks5socketengine.cpp:694
 #: network/socket/qabstractsocket.cpp:928
@@ -6258,24 +6258,19 @@ msgstr "హొస్ట్ కనపడుట లేదు"
 
 #: network/kernel/qhostinfo_symbian.cpp:137
 #: network/kernel/qhostinfo_symbian.cpp:287
-#: network/kernel/qhostinfo_unix.cpp:196
+#: network/kernel/qhostinfo_unix.cpp:197
 msgctxt "QHostInfoAgent"
 msgid "No host name given"
 msgstr ""
 
 #: network/kernel/qhostinfo_symbian.cpp:138
 #: network/kernel/qhostinfo_symbian.cpp:288
-#: network/kernel/qhostinfo_unix.cpp:197
+#: network/kernel/qhostinfo_unix.cpp:198
 #, fuzzy
 #| msgid "Invalid document."
 msgctxt "QHostInfoAgent"
 msgid "Invalid hostname"
 msgstr "తప్పు పత్రం."
-
-#: network/kernel/qhostinfo_unix.cpp:251 network/kernel/qhostinfo_unix.cpp:290
-#: network/kernel/qhostinfo_win.cpp:215 network/kernel/qhostinfo_win.cpp:240
-msgid "Unknown address type"
-msgstr "తెలియని చిరునామా రకము"
 
 #: network/kernel/qhostinfo.cpp:173
 msgctxt "QHostInfo"
@@ -6291,6 +6286,11 @@ msgstr ""
 #| msgid "Invalid document."
 msgid "Invalid hostname"
 msgstr "తప్పు పత్రం."
+
+#: network/kernel/qhostinfo_win.cpp:215 network/kernel/qhostinfo_win.cpp:240
+#: network/kernel/qhostinfo_unix.cpp:252 network/kernel/qhostinfo_unix.cpp:291
+msgid "Unknown address type"
+msgstr "తెలియని చిరునామా రకము"
 
 #: network/socket/qnativesocketengine.cpp:201
 #: network/socket/qsymbiansocketengine.cpp:1354
