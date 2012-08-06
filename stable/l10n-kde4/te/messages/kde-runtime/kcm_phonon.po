@@ -1,0 +1,424 @@
+# translation of kcm_phonon.po to Telugu
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Vijay Kiran Kamuju <infyquest@gmail.com>, 2008.
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_phonon\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-07-06 04:50+0200\n"
+"PO-Revision-Date: 2009-01-16 22:16+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: testspeakerwidget.cpp:154
+msgid "Front Left"
+msgstr ""
+
+#: testspeakerwidget.cpp:157
+msgid "Front Left of Center"
+msgstr ""
+
+#: testspeakerwidget.cpp:160
+msgid "Front Center"
+msgstr ""
+
+#: testspeakerwidget.cpp:163
+msgid "Mono"
+msgstr ""
+
+#: testspeakerwidget.cpp:166
+msgid "Front Right of Center"
+msgstr ""
+
+#: testspeakerwidget.cpp:169
+msgid "Front Right"
+msgstr ""
+
+#: testspeakerwidget.cpp:172
+msgid "Side Left"
+msgstr ""
+
+#: testspeakerwidget.cpp:175
+msgid "Side Right"
+msgstr ""
+
+#: testspeakerwidget.cpp:178
+msgid "Rear Left"
+msgstr ""
+
+#: testspeakerwidget.cpp:181
+msgid "Rear Center"
+msgstr ""
+
+#: testspeakerwidget.cpp:184
+msgid "Rear Right"
+msgstr ""
+
+#: testspeakerwidget.cpp:187
+msgid "Subwoofer"
+msgstr ""
+
+#: testspeakerwidget.cpp:192
+msgid "Unknown Channel"
+msgstr ""
+
+#: audiosetup.cpp:318
+msgid "KDE Audio Hardware Setup"
+msgstr ""
+
+#: audiosetup.cpp:576
+#, kde-format
+msgid "Playback (%1)"
+msgstr ""
+
+#: audiosetup.cpp:580
+#, kde-format
+msgid "Recording (%1)"
+msgstr ""
+
+#: audiosetup.cpp:639
+msgid "Independent Devices"
+msgstr ""
+
+#: devicepreference.cpp:105
+msgid "Audio Playback"
+msgstr ""
+
+#: devicepreference.cpp:119
+msgid "Audio Recording"
+msgstr ""
+
+#: devicepreference.cpp:122
+msgid "Video Recording"
+msgstr ""
+
+#: devicepreference.cpp:125
+msgid "Invalid"
+msgstr ""
+
+#: devicepreference.cpp:165
+#, fuzzy
+#| msgid "prefer the selected device"
+msgid "Test the selected device"
+msgstr "ఎంపికచేసిన పరికరమును అభీష్టముచేయుము"
+
+#: devicepreference.cpp:188 devicepreference.cpp:195 devicepreference.cpp:202
+msgid ""
+"Defines the default ordering of devices which can be overridden by "
+"individual categories."
+msgstr "స్వతంత్ర వర్గముల చేత ఓవర్‌రైడ్ కాగల పరికరముల యొక్క అప్రమేయ క్రమమును నిర్వచిస్తుంది."
+
+#: devicepreference.cpp:321
+#, fuzzy
+#| msgid "Default Capture Device Preference"
+msgid "Default Audio Playback Device Preference"
+msgstr "అప్రమేయ కాప్చర్ పరికరము అభీష్టము"
+
+#: devicepreference.cpp:324
+#, fuzzy
+#| msgid "Default Capture Device Preference"
+msgid "Default Audio Recording Device Preference"
+msgstr "అప్రమేయ కాప్చర్ పరికరము అభీష్టము"
+
+#: devicepreference.cpp:327
+#, fuzzy
+#| msgid "Default Capture Device Preference"
+msgid "Default Video Recording Device Preference"
+msgstr "అప్రమేయ కాప్చర్ పరికరము అభీష్టము"
+
+#: devicepreference.cpp:334
+#, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
+msgid "Audio Playback Device Preference for the '%1' Category"
+msgstr "'%1' వర్గము కొరకు కాప్చర్ పరికరము అభీష్టము"
+
+#: devicepreference.cpp:338
+#, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
+msgid "Audio Recording Device Preference for the '%1' Category"
+msgstr "'%1' వర్గము కొరకు కాప్చర్ పరికరము అభీష్టము"
+
+#: devicepreference.cpp:342
+#, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
+msgid "Video Recording Device Preference for the '%1' Category "
+msgstr "'%1' వర్గము కొరకు కాప్చర్ పరికరము అభీష్టము"
+
+#: devicepreference.cpp:774
+#, fuzzy
+#| msgid ""
+#| "Apply the currently shown device preference list to the following other "
+#| "audio output categories:"
+msgid ""
+"Apply the currently shown device preference list to the following other "
+"audio playback categories:"
+msgstr ""
+"క్రింది యితర ఆడియో అవట్‌పుట్ వర్గములకు ప్రస్తుతం చూపించబడుతున్న పరికరపు అభీష్ట జాబితాను ఆపాదించుము:"
+
+#: devicepreference.cpp:787 devicepreference.cpp:793
+msgid "Default/Unspecified Category"
+msgstr "అప్రమేయ/తెలుపని వర్గము"
+
+#: devicepreference.cpp:884
+#, fuzzy
+#| msgid "prefer the selected device"
+msgid "Failed to set the selected audio output device"
+msgstr "ఎంపికచేసిన పరికరమును అభీష్టముచేయుము"
+
+#: devicepreference.cpp:912
+msgid "Your backend may not support audio recording"
+msgstr ""
+
+#: devicepreference.cpp:933
+msgid "Your backend may not support video recording"
+msgstr ""
+
+#: devicepreference.cpp:943
+#, kde-format
+msgid "Testing %1"
+msgstr ""
+
+#: main.cpp:46
+msgid "Phonon Configuration Module"
+msgstr "ఫోనాన్ ఆకృతీకరణ మాడ్యూల్"
+
+#: main.cpp:48
+msgid "Copyright 2006 Matthias Kretz"
+msgstr "కాపీ రైట్ 2006 మథైయాస్ క్రెట్జ్"
+
+#: main.cpp:49
+msgid "Matthias Kretz"
+msgstr "మథైయాస్ క్రెట్జ్"
+
+#: main.cpp:50
+msgid "Colin Guthrie"
+msgstr ""
+
+#: main.cpp:61
+msgid "Device Preference"
+msgstr "పరికరము పనితనము"
+
+#: main.cpp:63
+msgid "Backend"
+msgstr "బేక్ ఎండ్"
+
+#: main.cpp:100
+msgid "Audio Hardware Setup"
+msgstr ""
+
+#: backendselection.cpp:45
+msgctxt "@info User changed Phonon backend"
+msgid "To apply the backend change you will have to log out and back in again."
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "విజయ్ కిరణ్ కముజు"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "infyquest@gmail.com"
+
+#. i18n: file: audiosetup.ui:18
+#. i18n: ectx: property (title), widget (QGroupBox, hardwareGroupBox)
+#: rc.cpp:5
+msgid "Hardware"
+msgstr ""
+
+#. i18n: file: audiosetup.ui:44
+#. i18n: ectx: property (text), widget (QLabel, profileLabel)
+#: rc.cpp:8
+#, fuzzy
+#| msgid "Prefer"
+msgid "Profile"
+msgstr "అభీష్ట"
+
+#. i18n: file: audiosetup.ui:54
+#. i18n: ectx: property (text), widget (QLabel, cardLabel)
+#: rc.cpp:11
+msgid "Sound Card"
+msgstr ""
+
+#. i18n: file: audiosetup.ui:67
+#. i18n: ectx: property (title), widget (QGroupBox, deviceGroupBox)
+#: rc.cpp:14
+msgid "Device Configuration"
+msgstr ""
+
+#. i18n: file: audiosetup.ui:83
+#. i18n: ectx: property (text), widget (QLabel, portLabel)
+#: rc.cpp:17
+msgid "Connector"
+msgstr ""
+
+#. i18n: file: audiosetup.ui:103
+#. i18n: ectx: property (text), widget (QLabel, deviceLabel)
+#: rc.cpp:20
+#, fuzzy
+#| msgid "Show Advanced Devices"
+msgid "Sound Device"
+msgstr "ఆధునిక పరికరాలు చూపు"
+
+#. i18n: file: audiosetup.ui:144
+#. i18n: ectx: property (title), widget (QGroupBox, outputGroupBox)
+#: rc.cpp:23
+msgid "Speaker Placement and Testing"
+msgstr ""
+
+#. i18n: file: audiosetup.ui:181
+#. i18n: ectx: property (title), widget (QGroupBox, inputGroupBox)
+#: rc.cpp:26
+msgid "Input Levels"
+msgstr ""
+
+#. i18n: file: backendselection.ui:38
+#. i18n: ectx: property (toolTip), widget (QListWidget, m_select)
+#. i18n: file: backendselection.ui:41
+#. i18n: ectx: property (whatsThis), widget (QListWidget, m_select)
+#: rc.cpp:29 rc.cpp:32
+msgid ""
+"A list of Phonon Backends found on your system.  The order here determines "
+"the order Phonon will use them in."
+msgstr ""
+
+#. i18n: file: backendselection.ui:57
+#. i18n: ectx: property (text), widget (QToolButton, m_up)
+#. i18n: file: devicepreference.ui:190
+#. i18n: ectx: property (text), widget (QToolButton, preferButton)
+#: rc.cpp:35 rc.cpp:71
+msgid "Prefer"
+msgstr "అభీష్ట"
+
+#. i18n: file: backendselection.ui:70
+#. i18n: ectx: property (text), widget (QToolButton, m_down)
+#. i18n: file: devicepreference.ui:206
+#. i18n: ectx: property (text), widget (QToolButton, deferButton)
+#: rc.cpp:38 rc.cpp:77
+msgid "Defer"
+msgstr "విభేదం"
+
+#. i18n: file: devicepreference.ui:29
+#. i18n: ectx: property (toolTip), widget (QTreeView, categoryTree)
+#. i18n: file: devicepreference.ui:32
+#. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
+#: rc.cpp:41 rc.cpp:44
+msgid ""
+"Various categories of media use cases.  For each category, you may choose "
+"what device you prefer to be used by the Phonon applications."
+msgstr ""
+
+#. i18n: file: devicepreference.ui:47
+#. i18n: ectx: property (text), widget (QCheckBox, showAdvancedDevicesCheckBox)
+#: rc.cpp:47
+#, fuzzy
+#| msgid "Show Advanced Devices"
+msgid "Show advanced devices"
+msgstr "ఆధునిక పరికరాలు చూపు"
+
+#. i18n: file: devicepreference.ui:77
+#. i18n: ectx: property (toolTip), widget (QPushButton, applyPreferencesButton)
+#. i18n: file: devicepreference.ui:80
+#. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
+#: rc.cpp:50 rc.cpp:53
+#, fuzzy
+#| msgid ""
+#| "Apply the currently shown device preference list to the following other "
+#| "audio output categories:"
+msgid "Use the currently shown device list for more categories."
+msgstr ""
+"క్రింది యితర ఆడియో అవట్‌పుట్ వర్గములకు ప్రస్తుతం చూపించబడుతున్న పరికరపు అభీష్ట జాబితాను ఆపాదించుము:"
+
+#. i18n: file: devicepreference.ui:83
+#. i18n: ectx: property (text), widget (QPushButton, applyPreferencesButton)
+#: rc.cpp:56
+msgid "Apply Device List To..."
+msgstr "పరికరము జాబితాను దీనికి ఆపాదించుము..."
+
+#. i18n: file: devicepreference.ui:113
+#. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
+#: rc.cpp:59
+msgid ""
+"Devices found on your system, suitable for the selected category.  Choose "
+"the device that you wish to be used by the applications."
+msgstr ""
+
+#. i18n: file: devicepreference.ui:116
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
+#: rc.cpp:62
+msgid ""
+"The order determines the preference of the devices. If for some reason the "
+"first device cannot be used Phonon will try to use the second, and so on."
+msgstr ""
+
+#. i18n: file: devicepreference.ui:171
+#. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
+#: rc.cpp:65
+msgid "Test"
+msgstr "పరీక్ష"
+
+#. i18n: file: devicepreference.ui:187
+#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
+#: rc.cpp:68
+msgid "prefer the selected device"
+msgstr "ఎంపికచేసిన పరికరమును అభీష్టముచేయుము"
+
+#. i18n: file: devicepreference.ui:203
+#. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
+#: rc.cpp:74
+msgid "no preference for the selected device"
+msgstr "ఎంపికచేసిన పరికరముకు యెటువంటి అభీష్టములేదు"
+
+#~ msgid "Audio Output"
+#~ msgstr "ఆడియో అవట్‌పుట్"
+
+#~ msgid "Audio Capture"
+#~ msgstr "ఆడియో కాప్చర్"
+
+#, fuzzy
+#~| msgid "Audio Capture"
+#~ msgid "Video Capture"
+#~ msgstr "ఆడియో కాప్చర్"
+
+#, fuzzy
+#~| msgid "Default Output Device Preference"
+#~ msgid "Default Audio Output Device Preference"
+#~ msgstr "అప్రమేయ అవుట్‌పుట్ పరికరము అభీష్టము"
+
+#, fuzzy
+#~| msgid "Output Device Preference for the '%1' Category"
+#~ msgid "Audio Output Device Preference for the '%1' Category"
+#~ msgstr "'%1' వర్గము కొరకు అవుట్‌పుట్ పరికరము అభీష్టము"
+
+#~ msgid "Remove"
+#~ msgstr "తొలగించు"
+
+#, fuzzy
+#~| msgid "Audio Output"
+#~ msgid "Output"
+#~ msgstr "ఆడియో అవట్‌పుట్"
+
+#, fuzzy
+#~| msgid "Audio Output"
+#~ msgid "Sound Output"
+#~ msgstr "ఆడియో అవట్‌పుట్"
+
+#~ msgid "Play a test sound on the selected device"
+#~ msgstr "ఎంపికచేసిన పరికరముపైన పరిశీలనా శబ్దమును ప్లేచేయుము"
