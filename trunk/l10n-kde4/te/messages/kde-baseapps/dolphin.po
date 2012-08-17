@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-16 04:23+0200\n"
+"POT-Creation-Date: 2012-08-17 04:26+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -2081,6 +2081,211 @@ msgstr ""
 msgid "Unselect all items matching this pattern:"
 msgstr ""
 
+#: dolphincontextmenu.cpp:196
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "తిరిగివుంచుము"
+
+#: dolphincontextmenu.cpp:235 dolphinmainwindow.cpp:1485
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "కొత్తది సృష్టించుము"
+
+#: dolphincontextmenu.cpp:248
+msgctxt "@action:inmenu Add selected folder to places"
+msgid "Add to Places"
+msgstr "స్థలములకు జతచేయుము"
+
+#: dolphincontextmenu.cpp:255
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Window"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Window"
+msgstr "కొత్త విండోనందు తెరువుము"
+
+#: dolphincontextmenu.cpp:261
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Tab"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Tab"
+msgstr "కొత్త టాబ్‌నందు తెరువుము"
+
+#: dolphincontextmenu.cpp:330
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "స్థలములకు జతచేయుము"
+
+#: dolphincontextmenu.cpp:423
+msgctxt "@action:inmenu"
+msgid "Paste Into Folder"
+msgstr "ఫోల్డరు లోనికి అతికించుము"
+
+#: dolphincontextmenu.cpp:534
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "&Move to Trash"
+msgstr "ట్రాష్‌కు కదుల్చుము"
+
+#: dolphincontextmenu.cpp:537
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "&Delete"
+msgstr "తొలగించుము"
+
+#: main.cpp:35
+msgctxt "@title"
+msgid "Dolphin"
+msgstr "డాల్ఫిన్"
+
+#: main.cpp:37
+msgctxt "@title"
+msgid "File Manager"
+msgstr "దస్త్రాల అభికర్త"
+
+#: main.cpp:39
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "(C) 2006-2008 Peter Penz"
+msgctxt "@info:credit"
+msgid "(C) 2006-2012 Peter Penz and Frank Reininghaus"
+msgstr "(C) 2006-2008 పీటర్ పెంజ్"
+
+#: main.cpp:41
+msgctxt "@info:credit"
+msgid "Frank Reininghaus"
+msgstr ""
+
+#: main.cpp:42
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "Maintainer and developer"
+msgctxt "@info:credit"
+msgid "Maintainer (since 2012) and developer"
+msgstr "నిర్వాహకుడు మరియు అభివృద్దికారుడు"
+
+#: main.cpp:44
+msgctxt "@info:credit"
+msgid "Peter Penz"
+msgstr "పీటర్ పెంజ్"
+
+#: main.cpp:45
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "Maintainer and developer"
+msgctxt "@info:credit"
+msgid "Maintainer and developer (2006-2012)"
+msgstr "నిర్వాహకుడు మరియు అభివృద్దికారుడు"
+
+#: main.cpp:47
+msgctxt "@info:credit"
+msgid "Sebastian Trüg"
+msgstr ""
+
+#: main.cpp:48 main.cpp:51 main.cpp:54 main.cpp:57 main.cpp:60 main.cpp:63
+#: main.cpp:66
+msgctxt "@info:credit"
+msgid "Developer"
+msgstr "డెవలపర్"
+
+#: main.cpp:50
+msgctxt "@info:credit"
+msgid "David Faure"
+msgstr "డెవిడ్ ఫారె"
+
+#: main.cpp:53
+msgctxt "@info:credit"
+msgid "Aaron J. Seigo"
+msgstr "ఆరన్ జె. సీగొ"
+
+#: main.cpp:56
+msgctxt "@info:credit"
+msgid "Rafael Fernández López"
+msgstr "రాఫెల్ ఫెర్నాండెజ్ లోఫెజ్"
+
+#: main.cpp:59
+msgctxt "@info:credit"
+msgid "Kevin Ottens"
+msgstr "కెవిన్ ఆటెన్స్"
+
+#: main.cpp:62
+msgctxt "@info:credit"
+msgid "Holger Freyther"
+msgstr "హాల్గెర్ ఫ్రేథర్"
+
+#: main.cpp:65
+msgctxt "@info:credit"
+msgid "Max Blazejak"
+msgstr "మాక్స్  బ్లాజెక్"
+
+#: main.cpp:68
+msgctxt "@info:credit"
+msgid "Michael Austin"
+msgstr "మైకేల్ ఆస్టిన్"
+
+#: main.cpp:69
+msgctxt "@info:credit"
+msgid "Documentation"
+msgstr "పత్రికీకరణ"
+
+#: main.cpp:79
+msgctxt "@info:shell"
+msgid "The files and directories passed as arguments will be selected."
+msgstr ""
+
+#: main.cpp:81
+msgctxt "@info:shell"
+msgid "Dolphin will get started with a split view."
+msgstr ""
+
+#: main.cpp:82
+msgctxt "@info:shell"
+msgid "Document to open"
+msgstr "తెరువవలసిన పత్రము"
+
+#: dolphinviewcontainer.cpp:409
+msgctxt "@info:progress"
+msgid "Loading folder..."
+msgstr "ఫోల్డరును లోడుచేస్తోంది..."
+
+#: dolphinviewcontainer.cpp:417
+#, fuzzy
+#| msgctxt "@label:listbox"
+#| msgid "Sorting:"
+msgctxt "@info:progress"
+msgid "Sorting..."
+msgstr "వరుసక్రమము:"
+
+#: dolphinviewcontainer.cpp:428
+msgctxt "@info"
+msgid "Searching..."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:448
+msgctxt "@info:status"
+msgid "No items found."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:570
+msgctxt "@info:status"
+msgid "Dolphin does not support web pages, the web browser has been launched"
+msgstr "డాల్ఫన్ వెబ్ పేజీలను మద్దతీయదు, వెబ్ "
+
+#: dolphinviewcontainer.cpp:584
+msgctxt "@info:status"
+msgid "Protocol not supported by Dolphin, Konqueror has been launched"
+msgstr "ప్రోటోకాల్ డాల్ఫిన్ చేత మద్దతీయబడదు, కాన్క్వెరర్ ప్రారంభించబడింది"
+
+#: dolphinviewcontainer.cpp:592
+msgctxt "@info:status"
+msgid "Invalid protocol"
+msgstr "సరికాని ప్రోటోకాల్"
+
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -2676,211 +2881,6 @@ msgstr "పనిముట్లు"
 msgctxt "@title:menu"
 msgid "Dolphin Toolbar"
 msgstr "డాల్ఫిన్ పనిముట్లపట్టీ"
-
-#: dolphincontextmenu.cpp:196
-msgctxt "@action:inmenu"
-msgid "Restore"
-msgstr "తిరిగివుంచుము"
-
-#: dolphincontextmenu.cpp:235 dolphinmainwindow.cpp:1485
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "కొత్తది సృష్టించుము"
-
-#: dolphincontextmenu.cpp:248
-msgctxt "@action:inmenu Add selected folder to places"
-msgid "Add to Places"
-msgstr "స్థలములకు జతచేయుము"
-
-#: dolphincontextmenu.cpp:255
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Window"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Window"
-msgstr "కొత్త విండోనందు తెరువుము"
-
-#: dolphincontextmenu.cpp:261
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Tab"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Tab"
-msgstr "కొత్త టాబ్‌నందు తెరువుము"
-
-#: dolphincontextmenu.cpp:330
-msgctxt "@action:inmenu Add current folder to places"
-msgid "Add to Places"
-msgstr "స్థలములకు జతచేయుము"
-
-#: dolphincontextmenu.cpp:423
-msgctxt "@action:inmenu"
-msgid "Paste Into Folder"
-msgstr "ఫోల్డరు లోనికి అతికించుము"
-
-#: dolphincontextmenu.cpp:534
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "&Move to Trash"
-msgstr "ట్రాష్‌కు కదుల్చుము"
-
-#: dolphincontextmenu.cpp:537
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "&Delete"
-msgstr "తొలగించుము"
-
-#: main.cpp:35
-msgctxt "@title"
-msgid "Dolphin"
-msgstr "డాల్ఫిన్"
-
-#: main.cpp:37
-msgctxt "@title"
-msgid "File Manager"
-msgstr "దస్త్రాల అభికర్త"
-
-#: main.cpp:39
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "(C) 2006-2008 Peter Penz"
-msgctxt "@info:credit"
-msgid "(C) 2006-2012 Peter Penz and Frank Reininghaus"
-msgstr "(C) 2006-2008 పీటర్ పెంజ్"
-
-#: main.cpp:41
-msgctxt "@info:credit"
-msgid "Frank Reininghaus"
-msgstr ""
-
-#: main.cpp:42
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "Maintainer and developer"
-msgctxt "@info:credit"
-msgid "Maintainer (since 2012) and developer"
-msgstr "నిర్వాహకుడు మరియు అభివృద్దికారుడు"
-
-#: main.cpp:44
-msgctxt "@info:credit"
-msgid "Peter Penz"
-msgstr "పీటర్ పెంజ్"
-
-#: main.cpp:45
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "Maintainer and developer"
-msgctxt "@info:credit"
-msgid "Maintainer and developer (2006-2012)"
-msgstr "నిర్వాహకుడు మరియు అభివృద్దికారుడు"
-
-#: main.cpp:47
-msgctxt "@info:credit"
-msgid "Sebastian Trüg"
-msgstr ""
-
-#: main.cpp:48 main.cpp:51 main.cpp:54 main.cpp:57 main.cpp:60 main.cpp:63
-#: main.cpp:66
-msgctxt "@info:credit"
-msgid "Developer"
-msgstr "డెవలపర్"
-
-#: main.cpp:50
-msgctxt "@info:credit"
-msgid "David Faure"
-msgstr "డెవిడ్ ఫారె"
-
-#: main.cpp:53
-msgctxt "@info:credit"
-msgid "Aaron J. Seigo"
-msgstr "ఆరన్ జె. సీగొ"
-
-#: main.cpp:56
-msgctxt "@info:credit"
-msgid "Rafael Fernández López"
-msgstr "రాఫెల్ ఫెర్నాండెజ్ లోఫెజ్"
-
-#: main.cpp:59
-msgctxt "@info:credit"
-msgid "Kevin Ottens"
-msgstr "కెవిన్ ఆటెన్స్"
-
-#: main.cpp:62
-msgctxt "@info:credit"
-msgid "Holger Freyther"
-msgstr "హాల్గెర్ ఫ్రేథర్"
-
-#: main.cpp:65
-msgctxt "@info:credit"
-msgid "Max Blazejak"
-msgstr "మాక్స్  బ్లాజెక్"
-
-#: main.cpp:68
-msgctxt "@info:credit"
-msgid "Michael Austin"
-msgstr "మైకేల్ ఆస్టిన్"
-
-#: main.cpp:69
-msgctxt "@info:credit"
-msgid "Documentation"
-msgstr "పత్రికీకరణ"
-
-#: main.cpp:79
-msgctxt "@info:shell"
-msgid "The files and directories passed as arguments will be selected."
-msgstr ""
-
-#: main.cpp:81
-msgctxt "@info:shell"
-msgid "Dolphin will get started with a split view."
-msgstr ""
-
-#: main.cpp:82
-msgctxt "@info:shell"
-msgid "Document to open"
-msgstr "తెరువవలసిన పత్రము"
-
-#: dolphinviewcontainer.cpp:409
-msgctxt "@info:progress"
-msgid "Loading folder..."
-msgstr "ఫోల్డరును లోడుచేస్తోంది..."
-
-#: dolphinviewcontainer.cpp:417
-#, fuzzy
-#| msgctxt "@label:listbox"
-#| msgid "Sorting:"
-msgctxt "@info:progress"
-msgid "Sorting..."
-msgstr "వరుసక్రమము:"
-
-#: dolphinviewcontainer.cpp:428
-msgctxt "@info"
-msgid "Searching..."
-msgstr ""
-
-#: dolphinviewcontainer.cpp:448
-msgctxt "@info:status"
-msgid "No items found."
-msgstr ""
-
-#: dolphinviewcontainer.cpp:570
-msgctxt "@info:status"
-msgid "Dolphin does not support web pages, the web browser has been launched"
-msgstr "డాల్ఫన్ వెబ్ పేజీలను మద్దతీయదు, వెబ్ "
-
-#: dolphinviewcontainer.cpp:584
-msgctxt "@info:status"
-msgid "Protocol not supported by Dolphin, Konqueror has been launched"
-msgstr "ప్రోటోకాల్ డాల్ఫిన్ చేత మద్దతీయబడదు, కాన్క్వెరర్ ప్రారంభించబడింది"
-
-#: dolphinviewcontainer.cpp:592
-msgctxt "@info:status"
-msgid "Invalid protocol"
-msgstr "సరికాని ప్రోటోకాల్"
 
 #: dolphinmainwindow.cpp:318
 msgctxt "@info:status"
