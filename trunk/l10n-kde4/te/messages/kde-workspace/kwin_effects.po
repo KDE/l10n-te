@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_effects\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-16 04:47+0200\n"
+"POT-Creation-Date: 2012-08-18 04:26+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -26,6 +26,13 @@ msgstr ""
 "\n"
 "\n"
 
+#: coverswitch/coverswitch.cpp:1016 flipswitch/flipswitch.cpp:992
+#, fuzzy
+#| msgid "Desktop Cube"
+msgctxt "Special entry in alt+tab list for minimizing all windows"
+msgid "Show Desktop"
+msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
+
 #: coverswitch/coverswitch_config.cpp:72 cube/cube_config.cpp:124
 #: desktopgrid/desktopgrid_config.cpp:109 magiclamp/magiclamp_config.cpp:58
 #: translucency/translucency_config.cpp:80
@@ -36,11 +43,20 @@ msgid_plural " milliseconds"
 msgstr[0] " msec"
 msgstr[1] " msec"
 
-#: coverswitch/coverswitch.cpp:1016 flipswitch/flipswitch.cpp:992
+#: cube/cube.cpp:198 cube/cube_config.cpp:60
+msgid "Desktop Cube"
+msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
+
+#: cube/cube.cpp:202 cube/cube_config.cpp:64
 #, fuzzy
 #| msgid "Desktop Cube"
-msgctxt "Special entry in alt+tab list for minimizing all windows"
-msgid "Show Desktop"
+msgid "Desktop Cylinder"
+msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
+
+#: cube/cube.cpp:206 cube/cube_config.cpp:68
+#, fuzzy
+#| msgid "Desktop Cube"
+msgid "Desktop Sphere"
 msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
 
 #: cube/cube_config.cpp:50
@@ -53,23 +69,7 @@ msgctxt "@title:tab Advanced Settings"
 msgid "Advanced"
 msgstr "ఆధునాతన"
 
-#: cube/cube_config.cpp:60 cube/cube.cpp:198
-msgid "Desktop Cube"
-msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
-
-#: cube/cube_config.cpp:64 cube/cube.cpp:202
-#, fuzzy
-#| msgid "Desktop Cube"
-msgid "Desktop Cylinder"
-msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
-
-#: cube/cube_config.cpp:68 cube/cube.cpp:206
-#, fuzzy
-#| msgid "Desktop Cube"
-msgid "Desktop Sphere"
-msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
-
-#: desktopgrid/desktopgrid_config.cpp:57 desktopgrid/desktopgrid.cpp:73
+#: desktopgrid/desktopgrid.cpp:73 desktopgrid/desktopgrid_config.cpp:57
 msgid "Show Desktop Grid"
 msgstr ""
 
@@ -138,11 +138,11 @@ msgid_plural " rows"
 msgstr[0] ""
 msgstr[1] ""
 
-#: flipswitch/flipswitch_config.cpp:51 flipswitch/flipswitch.cpp:60
+#: flipswitch/flipswitch.cpp:60 flipswitch/flipswitch_config.cpp:51
 msgid "Toggle Flip Switch (Current desktop)"
 msgstr ""
 
-#: flipswitch/flipswitch_config.cpp:54 flipswitch/flipswitch.cpp:66
+#: flipswitch/flipswitch.cpp:66 flipswitch/flipswitch_config.cpp:54
 msgid "Toggle Flip Switch (All desktops)"
 msgstr ""
 
@@ -166,18 +166,18 @@ msgstr ""
 msgid "Clear Mouse Marks"
 msgstr ""
 
-#: presentwindows/presentwindows_config.cpp:57
-#: presentwindows/presentwindows.cpp:88
-msgid "Toggle Present Windows (All desktops)"
-msgstr ""
-
-#: presentwindows/presentwindows_config.cpp:62
 #: presentwindows/presentwindows.cpp:82
+#: presentwindows/presentwindows_config.cpp:62
 msgid "Toggle Present Windows (Current desktop)"
 msgstr ""
 
-#: presentwindows/presentwindows_config.cpp:67
+#: presentwindows/presentwindows.cpp:88
+#: presentwindows/presentwindows_config.cpp:57
+msgid "Toggle Present Windows (All desktops)"
+msgstr ""
+
 #: presentwindows/presentwindows.cpp:94
+#: presentwindows/presentwindows_config.cpp:67
 msgid "Toggle Present Windows (Window class)"
 msgstr ""
 
@@ -186,47 +186,6 @@ msgstr ""
 msgid ""
 "Filter:\n"
 "%1"
-msgstr ""
-
-#: thumbnailaside/thumbnailaside_config.cpp:66
-#: thumbnailaside/thumbnailaside.cpp:38
-msgid "Toggle Thumbnail for Current Window"
-msgstr ""
-
-#: trackmouse/trackmouse.cpp:63 trackmouse/trackmouse_config.cpp:64
-msgid "Track mouse"
-msgstr ""
-
-#: windowgeometry/windowgeometry.cpp:60
-msgid "Toggle window geometry display (effect only)"
-msgstr ""
-
-#: windowgeometry/windowgeometry_config.cpp:46
-msgid "Toggle KWin composited geometry display"
-msgstr ""
-
-#: zoom/zoom_config.cpp:79 zoom/zoom.cpp:91
-msgid "Move Left"
-msgstr ""
-
-#: zoom/zoom_config.cpp:85 zoom/zoom.cpp:96
-msgid "Move Right"
-msgstr ""
-
-#: zoom/zoom_config.cpp:91 zoom/zoom.cpp:101
-msgid "Move Up"
-msgstr ""
-
-#: zoom/zoom_config.cpp:97 zoom/zoom.cpp:106
-msgid "Move Down"
-msgstr ""
-
-#: zoom/zoom_config.cpp:103 zoom/zoom.cpp:111
-msgid "Move Mouse to Focus"
-msgstr ""
-
-#: zoom/zoom_config.cpp:109 zoom/zoom.cpp:116
-msgid "Move Mouse to Center"
 msgstr ""
 
 #. i18n: file: blur/blur_config.ui:17
@@ -1541,6 +1500,47 @@ msgstr "అచేతనమైన"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:771
 msgid "Mouse Tracking:"
+msgstr ""
+
+#: thumbnailaside/thumbnailaside.cpp:38
+#: thumbnailaside/thumbnailaside_config.cpp:66
+msgid "Toggle Thumbnail for Current Window"
+msgstr ""
+
+#: trackmouse/trackmouse.cpp:63 trackmouse/trackmouse_config.cpp:64
+msgid "Track mouse"
+msgstr ""
+
+#: windowgeometry/windowgeometry.cpp:60
+msgid "Toggle window geometry display (effect only)"
+msgstr ""
+
+#: windowgeometry/windowgeometry_config.cpp:46
+msgid "Toggle KWin composited geometry display"
+msgstr ""
+
+#: zoom/zoom.cpp:91 zoom/zoom_config.cpp:79
+msgid "Move Left"
+msgstr ""
+
+#: zoom/zoom.cpp:96 zoom/zoom_config.cpp:85
+msgid "Move Right"
+msgstr ""
+
+#: zoom/zoom.cpp:101 zoom/zoom_config.cpp:91
+msgid "Move Up"
+msgstr ""
+
+#: zoom/zoom.cpp:106 zoom/zoom_config.cpp:97
+msgid "Move Down"
+msgstr ""
+
+#: zoom/zoom.cpp:111 zoom/zoom_config.cpp:103
+msgid "Move Mouse to Focus"
+msgstr ""
+
+#: zoom/zoom.cpp:116 zoom/zoom_config.cpp:109
+msgid "Move Mouse to Center"
 msgstr ""
 
 #~ msgid "Snow"

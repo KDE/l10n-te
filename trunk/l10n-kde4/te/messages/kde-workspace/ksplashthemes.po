@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksplashthemes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-04 04:18+0100\n"
+"POT-Creation-Date: 2012-08-18 04:26+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -82,12 +82,12 @@ msgid "This will test the selected theme."
 msgstr ""
 
 #: installer.cpp:361
-#, kde-format
-msgid "Delete folder %1 and its contents?"
+msgid "&Delete"
 msgstr ""
 
 #: installer.cpp:361
-msgid "&Delete"
+#, kde-format
+msgid "Delete folder %1 and its contents?"
 msgstr ""
 
 #: installer.cpp:368
@@ -100,17 +100,12 @@ msgid "(Could not load theme)"
 msgstr ""
 
 #: installer.cpp:425
-msgctxt "Unknown name"
-msgid "Unknown"
-msgstr "తెలియని"
-
-#: installer.cpp:425
 #, kde-format
 msgid "<b>Name:</b> %1"
 msgstr ""
 
-#: installer.cpp:427
-msgctxt "Unknown description"
+#: installer.cpp:425
+msgctxt "Unknown name"
 msgid "Unknown"
 msgstr "తెలియని"
 
@@ -119,8 +114,8 @@ msgstr "తెలియని"
 msgid "<b>Description:</b> %1"
 msgstr ""
 
-#: installer.cpp:429
-msgctxt "Unknown version"
+#: installer.cpp:427
+msgctxt "Unknown description"
 msgid "Unknown"
 msgstr "తెలియని"
 
@@ -129,8 +124,8 @@ msgstr "తెలియని"
 msgid "<b>Version:</b> %1"
 msgstr ""
 
-#: installer.cpp:431
-msgctxt "Unknown author"
+#: installer.cpp:429
+msgctxt "Unknown version"
 msgid "Unknown"
 msgstr "తెలియని"
 
@@ -139,8 +134,8 @@ msgstr "తెలియని"
 msgid "<b>Author:</b> %1"
 msgstr ""
 
-#: installer.cpp:433
-msgctxt "Unknown homepage"
+#: installer.cpp:431
+msgctxt "Unknown author"
 msgid "Unknown"
 msgstr "తెలియని"
 
@@ -148,6 +143,11 @@ msgstr "తెలియని"
 #, kde-format
 msgid "<b>Homepage:</b> %1"
 msgstr ""
+
+#: installer.cpp:433
+msgctxt "Unknown homepage"
+msgid "Unknown"
+msgstr "తెలియని"
 
 #: installer.cpp:446
 #, kde-format
