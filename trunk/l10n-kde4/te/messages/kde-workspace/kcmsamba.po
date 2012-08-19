@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsamba\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:26+0200\n"
+"POT-Creation-Date: 2012-08-19 05:50+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -26,17 +26,17 @@ msgstr ""
 "\n"
 "\n"
 
-#: kcmsambaimports.cpp:43
-msgid "Mounted Under"
-msgstr "దీనిక్రింద మౌంటైన"
+#: kcmsambaimports.cpp:43 ksmbstatus.cpp:51
+msgid "Type"
+msgstr "రకము"
 
 #: kcmsambaimports.cpp:43
 msgid "Resource"
 msgstr "వనరు"
 
-#: kcmsambaimports.cpp:43 ksmbstatus.cpp:51
-msgid "Type"
-msgstr "రకము"
+#: kcmsambaimports.cpp:43
+msgid "Mounted Under"
+msgstr "దీనిక్రింద మౌంటైన"
 
 #: kcmsambaimports.cpp:45
 msgid ""
@@ -53,24 +53,24 @@ msgid "Samba log file: "
 msgstr "సాంబా లాగ్ ఫైలు: "
 
 #: kcmsambalog.cpp:38
-msgid "Show closed connections"
-msgstr "మూసిన అనుసంధానములను చూపుము"
-
-#: kcmsambalog.cpp:38
 msgid "Show opened connections"
 msgstr "తెరిచిన అనుసంధానములను చూపుము"
 
+#: kcmsambalog.cpp:38
+msgid "Show closed connections"
+msgstr "మూసిన అనుసంధానములను చూపుము"
+
 #: kcmsambalog.cpp:39
-msgid "&Update"
-msgstr "(&U) నవీకరణ"
+msgid "Show opened files"
+msgstr "తెరిచిన ఫైళ్ళను చూపుము"
 
 #: kcmsambalog.cpp:39
 msgid "Show closed files"
 msgstr "మూసిన ఫైళ్ళను చూపుము"
 
 #: kcmsambalog.cpp:39
-msgid "Show opened files"
-msgstr "తెరిచిన ఫైళ్ళను చూపుము"
+msgid "&Update"
+msgstr "(&U) నవీకరణ"
 
 #: kcmsambalog.cpp:57
 msgid ""
@@ -200,12 +200,12 @@ msgid "Show expanded host info"
 msgstr "విస్తరించిన హోస్టు సమాచారమును చూపుము"
 
 #: kcmsambastatistics.cpp:64
-msgid "Hits"
-msgstr "హిట్స్"
-
-#: kcmsambastatistics.cpp:64
 msgid "Nr"
 msgstr "Nr"
+
+#: kcmsambastatistics.cpp:64
+msgid "Hits"
+msgstr "హిట్స్"
 
 #: kcmsambastatistics.cpp:68 kcmsambastatistics.cpp:135
 msgid "Connection"
@@ -230,28 +230,28 @@ msgid "FILE OPENED"
 msgstr "ఫైలు తెరువబడింది"
 
 #: ksmbstatus.cpp:51
+msgid "Service"
+msgstr "సేవ"
+
+#: ksmbstatus.cpp:51
 msgid "Accessed From"
 msgstr "యాక్సెస్‌చేసిన ఫాం"
 
-#: ksmbstatus.cpp:51
-msgid "Service"
-msgstr "సేవ"
+#: ksmbstatus.cpp:52
+msgid "UID"
+msgstr "UID"
 
 #: ksmbstatus.cpp:52
 msgid "GID"
 msgstr "GID"
 
 #: ksmbstatus.cpp:52
-msgid "Open Files"
-msgstr "తెరిచిన ఫైళ్ళు"
-
-#: ksmbstatus.cpp:52
 msgid "PID"
 msgstr "PID"
 
 #: ksmbstatus.cpp:52
-msgid "UID"
-msgstr "UID"
+msgid "Open Files"
+msgstr "తెరిచిన ఫైళ్ళు"
 
 #: ksmbstatus.cpp:156
 msgid "Error: Unable to run smbstatus"
