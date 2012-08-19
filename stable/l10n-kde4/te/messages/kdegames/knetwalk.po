@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knetwalk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-12 04:49+0200\n"
+"POT-Creation-Date: 2012-08-19 15:37+0200\n"
 "PO-Revision-Date: 2007-07-17 17:32+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -15,6 +15,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. i18n: ectx: label, entry (username), group (Preferences)
+#: knetwalk.kcfg:9
+msgid "Default user name"
+msgstr "ఆటగాడి పేరు"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: knetwalkui.rc:9
+msgid "Main Toolbar"
+msgstr ""
 
 #: main.cpp:29
 msgid "KNetWalk, a game for system administrators."
@@ -126,28 +144,6 @@ msgstr ""
 msgctxt "Time elapsed"
 msgid "Time: %1"
 msgstr ""
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
-
-#. i18n: file: knetwalkui.rc:9
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:5
-msgid "Main Toolbar"
-msgstr ""
-
-#. i18n: file: knetwalk.kcfg:9
-#. i18n: ectx: label, entry (username), group (Preferences)
-#: rc.cpp:8
-msgid "Default user name"
-msgstr "ఆటగాడి పేరు"
 
 #: scene.cpp:100
 msgid "Game is paused."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_kwindesktop\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:38+0200\n"
+"POT-Creation-Date: 2012-08-19 15:44+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,6 +25,14 @@ msgstr ""
 "\n"
 "\n"
 "\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
 
 #: desktopnameswidget.cpp:66
 #, kde-format
@@ -100,35 +108,21 @@ msgstr ""
 msgid "Shortcut conflict: Could not set Shortcut %1 for Desktop %2"
 msgstr ""
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
-
-#. i18n: file: main.ui:24
 #. i18n: ectx: attribute (title), widget (QWidget, desktop)
-#: rc.cpp:5
+#: main.ui:24
 #, fuzzy
 #| msgid "Desktop %1"
 msgid "Desktops"
 msgstr "రంగస్థలము %1"
 
-#. i18n: file: main.ui:30
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:8
+#: main.ui:30
 msgid "Layout"
 msgstr ""
 
-#. i18n: file: main.ui:39
 #. i18n: ectx: property (whatsThis), widget (QLabel, numberLabel)
-#. i18n: file: main.ui:52
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, numberSpinBox)
-#: rc.cpp:11 rc.cpp:17
+#: main.ui:39 main.ui:52
 #, fuzzy
 #| msgid ""
 #| "Here you can set how many virtual desktops you want on your KDE desktop. "
@@ -139,110 +133,94 @@ msgstr ""
 "మీ KDE రంగస్థలము పైన యెన్ని వర్చ్యువల్ రంగస్థలములు కావాలో యిక్కడ మీరు అమర్చవచ్చు. విలువను "
 "మార్చుటకు స్లైడర్‌ను కదుపుము."
 
-#. i18n: file: main.ui:42
 #. i18n: ectx: property (text), widget (QLabel, numberLabel)
-#: rc.cpp:14
+#: main.ui:42
 #, fuzzy
 #| msgid "N&umber of desktops: "
 msgid "Number of desktops:"
 msgstr "(&u) రంగస్థలముల సంఖ్య:"
 
-#. i18n: file: main.ui:71
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:20
+#: main.ui:71
 #, fuzzy
 #| msgid "N&umber of desktops: "
 msgid "Number of rows:"
 msgstr "(&u) రంగస్థలముల సంఖ్య:"
 
-#. i18n: file: main.ui:88
 #. i18n: ectx: property (text), widget (QCheckBox, activityCheckBox)
-#: rc.cpp:23
+#: main.ui:88
 msgid "Different widgets for each desktop"
 msgstr ""
 
-#. i18n: file: main.ui:98
 #. i18n: ectx: property (title), widget (QGroupBox, nameGroup)
-#: rc.cpp:26
+#: main.ui:98
 #, fuzzy
 #| msgid "Desktop &Names"
 msgid "Desktop Names"
 msgstr "(&N) రంగస్థలము పేరులు"
 
-#. i18n: file: main.ui:131
 #. i18n: ectx: attribute (title), widget (QWidget, switching)
-#: rc.cpp:29
+#: main.ui:131
 msgid "Switching"
 msgstr ""
 
-#. i18n: file: main.ui:137
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, wrapAroundBox)
-#: rc.cpp:32
+#: main.ui:137
 msgid ""
 "Enable this option if you want keyboard or active desktop border navigation "
 "beyond the edge of a desktop to take you to the opposite edge of the new "
 "desktop."
 msgstr ""
 
-#. i18n: file: main.ui:140
 #. i18n: ectx: property (text), widget (QCheckBox, wrapAroundBox)
-#: rc.cpp:35
+#: main.ui:140
 msgid "Desktop navigation wraps around"
 msgstr ""
 
-#. i18n: file: main.ui:147
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:38
+#: main.ui:147
 msgid "Desktop Effect Animation"
 msgstr ""
 
-#. i18n: file: main.ui:156
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:41
+#: main.ui:156
 msgid "Animation:"
 msgstr ""
 
-#. i18n: file: main.ui:196
 #. i18n: ectx: property (title), widget (QGroupBox, popupInfoCheckBox)
-#: rc.cpp:44
+#: main.ui:196
 msgid "Desktop Switch On-Screen Display"
 msgstr ""
 
-#. i18n: file: main.ui:211
 #. i18n: ectx: property (text), widget (QLabel, hideLabel)
-#: rc.cpp:47
+#: main.ui:211
 msgid "Duration:"
 msgstr ""
 
-#. i18n: file: main.ui:221
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, popupHideSpinBox)
-#: rc.cpp:50
+#: main.ui:221
 msgid " msec"
 msgstr ""
 
-#. i18n: file: main.ui:234
 #. i18n: ectx: property (toolTip), widget (QCheckBox, desktopLayoutIndicatorCheckBox)
-#: rc.cpp:53
+#: main.ui:234
 msgid ""
 "Enabling this option will show a small preview of the desktop layout "
 "indicating the selected desktop."
 msgstr ""
 
-#. i18n: file: main.ui:237
 #. i18n: ectx: property (text), widget (QCheckBox, desktopLayoutIndicatorCheckBox)
-#: rc.cpp:56
+#: main.ui:237
 msgid "Show desktop layout indicators"
 msgstr ""
 
-#. i18n: file: main.ui:247
 #. i18n: ectx: property (title), widget (QGroupBox, shortcutsGroupBox)
-#: rc.cpp:59
+#: main.ui:247
 msgid "Shortcuts"
 msgstr ""
 
-#. i18n: file: main.ui:266
 #. i18n: ectx: property (text), widget (QCheckBox, allShortcutsCheckBox)
-#: rc.cpp:62
+#: main.ui:266
 msgid "Show shortcuts for all possible desktops"
 msgstr ""
 

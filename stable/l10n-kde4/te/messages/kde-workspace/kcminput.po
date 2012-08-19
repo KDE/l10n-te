@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-10 04:06+0100\n"
+"POT-Creation-Date: 2012-08-19 15:44+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -26,6 +26,70 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"కృష్ణబాబు కె \n"
+" విజయ్ కిరణ్ కముజు"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"k.meetme@gmail.com \n"
+" infyquest@gmail.com"
+
+#: core/themepage.cpp:54
+msgid "Select the cursor theme you want to use:"
+msgstr "మీరు వుపయోగించాలని అనుకొనుచున్న కర్సర్ థీమ్‌ను యెంపికచేయుము:"
+
+#: core/themepage.cpp:59 xcursor/thememodel.cpp:75
+msgid "Name"
+msgstr "పేరు"
+
+#: core/themepage.cpp:59 xcursor/thememodel.cpp:78
+msgid "Description"
+msgstr "వర్ణన"
+
+#: core/themepage.cpp:100 xcursor/themepage.cpp:328
+msgid "You have to restart KDE for these changes to take effect."
+msgstr "ఈ మార్పులు ప్రభావితం అగుటకు మీరు KDEను పునఃప్రారంభించవలసి వుంటుంది."
+
+#: core/themepage.cpp:101 xcursor/themepage.cpp:329
+msgid "Cursor Settings Changed"
+msgstr "కర్సర్ అమర్పులు మార్చబడినవి"
+
+#: core/themepage.cpp:151
+msgid "Small black"
+msgstr "చిన్న నలుపు"
+
+#: core/themepage.cpp:152
+msgid "Small black cursors"
+msgstr "చిన్న నలుపు కర్సర్లు"
+
+#: core/themepage.cpp:158
+msgid "Large black"
+msgstr "పెద్ద నలుపు"
+
+#: core/themepage.cpp:159
+msgid "Large black cursors"
+msgstr "పెద్ద నలుపు కర్సర్లు"
+
+#: core/themepage.cpp:165
+msgid "Small white"
+msgstr "చిన్న తెలుపు"
+
+#: core/themepage.cpp:166
+msgid "Small white cursors"
+msgstr "చిన్న తెలుపు కర్సర్లు"
+
+#: core/themepage.cpp:172
+msgid "Large white"
+msgstr "పెద్ద తెలుపు"
+
+#: core/themepage.cpp:173
+msgid "Large white cursors"
+msgstr "పెద్ద తెలుపు కర్సర్లు"
+
 #: kcmcursortheme.cpp:40
 #, fuzzy
 #| msgid "&Cursor Theme"
@@ -39,6 +103,75 @@ msgstr ""
 #: kcmcursortheme.cpp:42
 msgid "Fredrik Höglund"
 msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, handedBox)
+#: kmousedlg.ui:27
+msgid "Button Order"
+msgstr "బటన్ క్రమము"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rightHanded)
+#: kmousedlg.ui:36
+msgid "Righ&t handed"
+msgstr "(&t) కుడిచేయి వాటపు"
+
+#. i18n: ectx: property (text), widget (QRadioButton, leftHanded)
+#: kmousedlg.ui:46
+msgid "Le&ft handed"
+msgstr "(&f) ఎడమచేయి వాటపు"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbScrollPolarity)
+#: kmousedlg.ui:72
+msgid ""
+"Change the direction of scrolling for the mouse wheel or the 4th and 5th "
+"mouse buttons."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbScrollPolarity)
+#: kmousedlg.ui:75
+msgid "Re&verse scroll direction"
+msgstr "(&v) స్క్రాల్ దిశలను వ్యతిరేకము చేయుము"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#: kmousedlg.ui:105
+msgid "Icons"
+msgstr "ప్రతిమలు"
+
+#. i18n: ectx: property (text), widget (QRadioButton, doubleClick)
+#: kmousedlg.ui:111
+msgid "Dou&ble-click to open files and folders (select icons on first click)"
+msgstr ""
+"(&b) ఫైళ్ళను మరియు ఫోల్డర్లను తెరువుటకు రెండుసార్లు-నొక్కుము (మొదటి ట్రాక్‌పై ప్రతిమలను యెంపికచేయుము)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, singleClick)
+#: kmousedlg.ui:121
+msgid "&Single-click to open files and folders"
+msgstr "(&S) ఫైళ్ళను మరియు ఫోల్డర్లను తెరువుటకు వొకే-నొక్కు"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cb_pointershape)
+#: kmousedlg.ui:151
+msgid "Cha&nge pointer shape over icons"
+msgstr "(&n) ప్రతిమల పై సూచకి ఆకారమును మార్చుము"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbAutoSelect)
+#: kmousedlg.ui:161
+msgid "A&utomatically select icons"
+msgstr "(&u) స్వయంచాలకంగా ప్రతిమలను ఎంపికచేయుము"
+
+#. i18n: ectx: property (label), widget (KIntNumInput, slAutoSelect)
+#: kmousedlg.ui:195
+#, fuzzy
+#| msgid "Dela&y:"
+msgctxt "label. delay (on milliseconds) to automatically select icons"
+msgid "Delay"
+msgstr "(&y) ఆలస్యము:"
+
+#. i18n: ectx: property (suffix), widget (KIntNumInput, slAutoSelect)
+#: kmousedlg.ui:207
+#, fuzzy
+#| msgid " msec"
+msgctxt "milliseconds. time to automatically select the items"
+msgid " ms"
+msgstr " msec"
 
 #: logitechmouse.cpp:46 logitechmouse.cpp:88
 #, kde-format
@@ -129,6 +262,54 @@ msgstr "MX700 వైరులేని ఆప్టికల్ మౌస్ (2c
 #: logitechmouse.cpp:414
 msgid "Unknown mouse"
 msgstr "తెలియని మౌస్"
+
+#. i18n: ectx: property (text), widget (QLabel, cordlessNameLabel)
+#: logitechmouse_base.ui:8
+msgid "Cordless Name"
+msgstr "వేరులేనిదాని పేరు"
+
+#. i18n: ectx: property (title), widget (QGroupBox, resolutionSelector)
+#: logitechmouse_base.ui:21
+msgid "Sensor Resolution"
+msgstr "సెన్సార్ రెజొల్యూషన్"
+
+#. i18n: ectx: property (text), widget (QRadioButton, button400cpi)
+#: logitechmouse_base.ui:27
+msgid "400 counts per inch"
+msgstr "అంగుళముకు 400 చొప్పున"
+
+#. i18n: ectx: property (text), widget (QRadioButton, button800cpi)
+#: logitechmouse_base.ui:37
+msgid "800 counts per inch"
+msgstr "అంగుళముకు 800 చొప్పున"
+
+#. i18n: ectx: property (title), widget (QGroupBox, batteryBox)
+#: logitechmouse_base.ui:53
+msgid "Battery Level"
+msgstr "బ్యాటరీ స్థాయి"
+
+#. i18n: ectx: property (title), widget (QGroupBox, channelSelector)
+#: logitechmouse_base.ui:72
+msgid "RF Channel"
+msgstr "RF చానల్"
+
+#. i18n: ectx: property (text), widget (QRadioButton, channel1)
+#: logitechmouse_base.ui:78
+msgid "Channel 1"
+msgstr "చానల్ 1"
+
+#. i18n: ectx: property (text), widget (QRadioButton, channel2)
+#: logitechmouse_base.ui:94
+msgid "Channel 2"
+msgstr "చానల్ 2"
+
+#. i18n: ectx: property (text), widget (QLabel, permissionProblemText)
+#: logitechmouse_base.ui:107
+msgid ""
+"You have a Logitech Mouse connected, and libusb was found at compile time, "
+"but it was not possible to access this mouse. This is probably caused by a "
+"permissions problem - you should consult the manual on how to fix this."
+msgstr ""
 
 #: mouse.cpp:91
 msgid ""
@@ -349,253 +530,6 @@ msgid_plural " lines"
 msgstr[0] " వరుస"
 msgstr[1] " వరుస"
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-"కృష్ణబాబు కె \n"
-" విజయ్ కిరణ్ కముజు"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
-"k.meetme@gmail.com \n"
-" infyquest@gmail.com"
-
-#. i18n: file: kmousedlg.ui:27
-#. i18n: ectx: property (title), widget (QGroupBox, handedBox)
-#: rc.cpp:5
-msgid "Button Order"
-msgstr "బటన్ క్రమము"
-
-#. i18n: file: kmousedlg.ui:36
-#. i18n: ectx: property (text), widget (QRadioButton, rightHanded)
-#: rc.cpp:8
-msgid "Righ&t handed"
-msgstr "(&t) కుడిచేయి వాటపు"
-
-#. i18n: file: kmousedlg.ui:46
-#. i18n: ectx: property (text), widget (QRadioButton, leftHanded)
-#: rc.cpp:11
-msgid "Le&ft handed"
-msgstr "(&f) ఎడమచేయి వాటపు"
-
-#. i18n: file: kmousedlg.ui:72
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbScrollPolarity)
-#: rc.cpp:14
-msgid ""
-"Change the direction of scrolling for the mouse wheel or the 4th and 5th "
-"mouse buttons."
-msgstr ""
-
-#. i18n: file: kmousedlg.ui:75
-#. i18n: ectx: property (text), widget (QCheckBox, cbScrollPolarity)
-#: rc.cpp:17
-msgid "Re&verse scroll direction"
-msgstr "(&v) స్క్రాల్ దిశలను వ్యతిరేకము చేయుము"
-
-#. i18n: file: kmousedlg.ui:105
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: rc.cpp:20
-msgid "Icons"
-msgstr "ప్రతిమలు"
-
-#. i18n: file: kmousedlg.ui:111
-#. i18n: ectx: property (text), widget (QRadioButton, doubleClick)
-#: rc.cpp:23
-msgid "Dou&ble-click to open files and folders (select icons on first click)"
-msgstr ""
-"(&b) ఫైళ్ళను మరియు ఫోల్డర్లను తెరువుటకు రెండుసార్లు-నొక్కుము (మొదటి ట్రాక్‌పై ప్రతిమలను యెంపికచేయుము)"
-
-#. i18n: file: kmousedlg.ui:121
-#. i18n: ectx: property (text), widget (QRadioButton, singleClick)
-#: rc.cpp:26
-msgid "&Single-click to open files and folders"
-msgstr "(&S) ఫైళ్ళను మరియు ఫోల్డర్లను తెరువుటకు వొకే-నొక్కు"
-
-#. i18n: file: kmousedlg.ui:151
-#. i18n: ectx: property (text), widget (QCheckBox, cb_pointershape)
-#: rc.cpp:29
-msgid "Cha&nge pointer shape over icons"
-msgstr "(&n) ప్రతిమల పై సూచకి ఆకారమును మార్చుము"
-
-#. i18n: file: kmousedlg.ui:161
-#. i18n: ectx: property (text), widget (QCheckBox, cbAutoSelect)
-#: rc.cpp:32
-msgid "A&utomatically select icons"
-msgstr "(&u) స్వయంచాలకంగా ప్రతిమలను ఎంపికచేయుము"
-
-#. i18n: file: kmousedlg.ui:195
-#. i18n: ectx: property (label), widget (KIntNumInput, slAutoSelect)
-#: rc.cpp:35
-#, fuzzy
-#| msgid "Dela&y:"
-msgctxt "label. delay (on milliseconds) to automatically select icons"
-msgid "Delay"
-msgstr "(&y) ఆలస్యము:"
-
-#. i18n: file: kmousedlg.ui:207
-#. i18n: ectx: property (suffix), widget (KIntNumInput, slAutoSelect)
-#: rc.cpp:38
-#, fuzzy
-#| msgid " msec"
-msgctxt "milliseconds. time to automatically select the items"
-msgid " ms"
-msgstr " msec"
-
-#. i18n: file: logitechmouse_base.ui:8
-#. i18n: ectx: property (text), widget (QLabel, cordlessNameLabel)
-#: rc.cpp:41
-msgid "Cordless Name"
-msgstr "వేరులేనిదాని పేరు"
-
-#. i18n: file: logitechmouse_base.ui:21
-#. i18n: ectx: property (title), widget (QGroupBox, resolutionSelector)
-#: rc.cpp:44
-msgid "Sensor Resolution"
-msgstr "సెన్సార్ రెజొల్యూషన్"
-
-#. i18n: file: logitechmouse_base.ui:27
-#. i18n: ectx: property (text), widget (QRadioButton, button400cpi)
-#: rc.cpp:47
-msgid "400 counts per inch"
-msgstr "అంగుళముకు 400 చొప్పున"
-
-#. i18n: file: logitechmouse_base.ui:37
-#. i18n: ectx: property (text), widget (QRadioButton, button800cpi)
-#: rc.cpp:50
-msgid "800 counts per inch"
-msgstr "అంగుళముకు 800 చొప్పున"
-
-#. i18n: file: logitechmouse_base.ui:53
-#. i18n: ectx: property (title), widget (QGroupBox, batteryBox)
-#: rc.cpp:53
-msgid "Battery Level"
-msgstr "బ్యాటరీ స్థాయి"
-
-#. i18n: file: logitechmouse_base.ui:72
-#. i18n: ectx: property (title), widget (QGroupBox, channelSelector)
-#: rc.cpp:56
-msgid "RF Channel"
-msgstr "RF చానల్"
-
-#. i18n: file: logitechmouse_base.ui:78
-#. i18n: ectx: property (text), widget (QRadioButton, channel1)
-#: rc.cpp:59
-msgid "Channel 1"
-msgstr "చానల్ 1"
-
-#. i18n: file: logitechmouse_base.ui:94
-#. i18n: ectx: property (text), widget (QRadioButton, channel2)
-#: rc.cpp:62
-msgid "Channel 2"
-msgstr "చానల్ 2"
-
-#. i18n: file: logitechmouse_base.ui:107
-#. i18n: ectx: property (text), widget (QLabel, permissionProblemText)
-#: rc.cpp:65
-msgid ""
-"You have a Logitech Mouse connected, and libusb was found at compile time, "
-"but it was not possible to access this mouse. This is probably caused by a "
-"permissions problem - you should consult the manual on how to fix this."
-msgstr ""
-
-#. i18n: file: xcursor/themepage.ui:17
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:68
-msgid "Select the cursor theme you want to use (hover preview to test cursor):"
-msgstr ""
-"మీరు వుపయోగించాలని అనుకొనుచున్న కర్సర్ థీమ్‌ను యెంపికచేయుము (కర్సర్‌ను పరీక్షించుటకు hover "
-"ముందస్తు వీక్షణం):"
-
-#. i18n: file: xcursor/themepage.ui:56
-#. i18n: ectx: property (toolTip), widget (KPushButton, installKnsButton)
-#: rc.cpp:71
-msgid "Get new color schemes from the Internet"
-msgstr ""
-
-#. i18n: file: xcursor/themepage.ui:59
-#. i18n: ectx: property (text), widget (KPushButton, installKnsButton)
-#: rc.cpp:74
-#, fuzzy
-#| msgid "Install New Theme..."
-msgid "Get New Theme..."
-msgstr "కొత్త థీమ్‌ను సంస్థాపించుము..."
-
-#. i18n: file: xcursor/themepage.ui:66
-#. i18n: ectx: property (text), widget (KPushButton, installButton)
-#: rc.cpp:77
-#, fuzzy
-#| msgid "Install New Theme..."
-msgid "Install From File..."
-msgstr "కొత్త థీమ్‌ను సంస్థాపించుము..."
-
-#. i18n: file: xcursor/themepage.ui:73
-#. i18n: ectx: property (text), widget (KPushButton, removeButton)
-#: rc.cpp:80
-msgid "Remove Theme"
-msgstr "థీమ్‌ను తీసివేయి"
-
-#. i18n: file: xcursor/themepage.ui:99
-#. i18n: ectx: property (text), widget (QLabel, sizeLabel)
-#: rc.cpp:83
-msgctxt "@label:listbox cursor size"
-msgid "Size:"
-msgstr ""
-
-#: core/themepage.cpp:54
-msgid "Select the cursor theme you want to use:"
-msgstr "మీరు వుపయోగించాలని అనుకొనుచున్న కర్సర్ థీమ్‌ను యెంపికచేయుము:"
-
-#: core/themepage.cpp:59 xcursor/thememodel.cpp:75
-msgid "Name"
-msgstr "పేరు"
-
-#: core/themepage.cpp:59 xcursor/thememodel.cpp:78
-msgid "Description"
-msgstr "వర్ణన"
-
-#: core/themepage.cpp:100 xcursor/themepage.cpp:328
-msgid "You have to restart KDE for these changes to take effect."
-msgstr "ఈ మార్పులు ప్రభావితం అగుటకు మీరు KDEను పునఃప్రారంభించవలసి వుంటుంది."
-
-#: core/themepage.cpp:101 xcursor/themepage.cpp:329
-msgid "Cursor Settings Changed"
-msgstr "కర్సర్ అమర్పులు మార్చబడినవి"
-
-#: core/themepage.cpp:151
-msgid "Small black"
-msgstr "చిన్న నలుపు"
-
-#: core/themepage.cpp:152
-msgid "Small black cursors"
-msgstr "చిన్న నలుపు కర్సర్లు"
-
-#: core/themepage.cpp:158
-msgid "Large black"
-msgstr "పెద్ద నలుపు"
-
-#: core/themepage.cpp:159
-msgid "Large black cursors"
-msgstr "పెద్ద నలుపు కర్సర్లు"
-
-#: core/themepage.cpp:165
-msgid "Small white"
-msgstr "చిన్న తెలుపు"
-
-#: core/themepage.cpp:166
-msgid "Small white cursors"
-msgstr "చిన్న తెలుపు కర్సర్లు"
-
-#: core/themepage.cpp:172
-msgid "Large white"
-msgstr "పెద్ద తెలుపు"
-
-#: core/themepage.cpp:173
-msgid "Large white cursors"
-msgstr "పెద్ద తెలుపు కర్సర్లు"
-
 #: xcursor/legacytheme.cpp:322
 msgid "KDE Classic"
 msgstr "KDE క్లాసిక్"
@@ -663,6 +597,43 @@ msgstr ""
 #: xcursor/themepage.cpp:555
 msgid "Overwrite Theme?"
 msgstr "థీమ్‌ను వోవర్‌రైట్ చేయాలా?"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: xcursor/themepage.ui:17
+msgid "Select the cursor theme you want to use (hover preview to test cursor):"
+msgstr ""
+"మీరు వుపయోగించాలని అనుకొనుచున్న కర్సర్ థీమ్‌ను యెంపికచేయుము (కర్సర్‌ను పరీక్షించుటకు hover "
+"ముందస్తు వీక్షణం):"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, installKnsButton)
+#: xcursor/themepage.ui:56
+msgid "Get new color schemes from the Internet"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, installKnsButton)
+#: xcursor/themepage.ui:59
+#, fuzzy
+#| msgid "Install New Theme..."
+msgid "Get New Theme..."
+msgstr "కొత్త థీమ్‌ను సంస్థాపించుము..."
+
+#. i18n: ectx: property (text), widget (KPushButton, installButton)
+#: xcursor/themepage.ui:66
+#, fuzzy
+#| msgid "Install New Theme..."
+msgid "Install From File..."
+msgstr "కొత్త థీమ్‌ను సంస్థాపించుము..."
+
+#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#: xcursor/themepage.ui:73
+msgid "Remove Theme"
+msgstr "థీమ్‌ను తీసివేయి"
+
+#. i18n: ectx: property (text), widget (QLabel, sizeLabel)
+#: xcursor/themepage.ui:99
+msgctxt "@label:listbox cursor size"
+msgid "Size:"
+msgstr ""
 
 #: xcursor/xcursortheme.cpp:74
 #, kde-format
