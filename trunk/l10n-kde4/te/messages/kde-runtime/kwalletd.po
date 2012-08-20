@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletd\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:47+0200\n"
+"POT-Creation-Date: 2012-08-20 04:52+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,6 +25,18 @@ msgstr ""
 "\n"
 "\n"
 "\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"కృష్ణబాబు కె \n"
+" విజయ్ కిరణ్ కముజు"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"k.meetme@gmail.com \n"
+" infyquest@gmail.com"
 
 #: backend/kwalletbackend.cc:287
 msgid "Already open."
@@ -62,54 +74,30 @@ msgstr ""
 msgid "Decryption error."
 msgstr ""
 
-#: kwalletwizard.cpp:39
-msgid "KWallet"
+#. i18n: ectx: property (text), widget (KPushButton, _allowOnce)
+#: kbetterthankdialogbase.ui:50
+msgid "Allow &Once"
 msgstr ""
 
-#: kwalletwizard.cpp:147
-msgid "<qt>Password is empty.  <b>(WARNING: Insecure)</b></qt>"
+#. i18n: ectx: property (text), widget (KPushButton, _allowAlways)
+#: kbetterthankdialogbase.ui:60
+msgid "Allow &Always"
 msgstr ""
 
-#: kwalletwizard.cpp:149
-msgid "Passwords match."
+#. i18n: ectx: property (text), widget (KPushButton, _deny)
+#: kbetterthankdialogbase.ui:67
+msgid "&Deny"
 msgstr ""
 
-#: kwalletwizard.cpp:152
-msgid "Passwords do not match."
+#. i18n: ectx: property (text), widget (KPushButton, _denyForever)
+#: kbetterthankdialogbase.ui:74
+msgid "Deny &Forever"
 msgstr ""
 
-#: main.cpp:39 main.cpp:40 kwalletd.cpp:369 kwalletd.cpp:458 kwalletd.cpp:522
-#: kwalletd.cpp:614 kwalletd.cpp:705 kwalletd.cpp:717 kwalletd.cpp:726
-#: kwalletd.cpp:731 kwalletd.cpp:1244
+#: kwalletd.cpp:369 kwalletd.cpp:458 kwalletd.cpp:522 kwalletd.cpp:614
+#: kwalletd.cpp:705 kwalletd.cpp:717 kwalletd.cpp:726 kwalletd.cpp:731
+#: kwalletd.cpp:1244 main.cpp:39 main.cpp:40
 msgid "KDE Wallet Service"
-msgstr ""
-
-#: main.cpp:41
-msgid "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
-msgstr ""
-
-#: main.cpp:42
-msgid "Michael Leupold"
-msgstr ""
-
-#: main.cpp:42
-msgid "Maintainer"
-msgstr "సంరక్షకుడు"
-
-#: main.cpp:43
-msgid "George Staikos"
-msgstr "జార్జ్ స్టైకోస్"
-
-#: main.cpp:43
-msgid "Former maintainer"
-msgstr ""
-
-#: main.cpp:44
-msgid "Thiago Maceira"
-msgstr ""
-
-#: main.cpp:44
-msgid "D-Bus Interface"
 msgstr ""
 
 #: kwalletd.cpp:451
@@ -239,47 +227,24 @@ msgid ""
 "application may be misbehaving."
 msgstr ""
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-"కృష్ణబాబు కె \n"
-" విజయ్ కిరణ్ కముజు"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
-"k.meetme@gmail.com \n"
-" infyquest@gmail.com"
-
-#. i18n: file: kbetterthankdialogbase.ui:50
-#. i18n: ectx: property (text), widget (KPushButton, _allowOnce)
-#: rc.cpp:5
-msgid "Allow &Once"
+#: kwalletwizard.cpp:39
+msgid "KWallet"
 msgstr ""
 
-#. i18n: file: kbetterthankdialogbase.ui:60
-#. i18n: ectx: property (text), widget (KPushButton, _allowAlways)
-#: rc.cpp:8
-msgid "Allow &Always"
+#: kwalletwizard.cpp:147
+msgid "<qt>Password is empty.  <b>(WARNING: Insecure)</b></qt>"
 msgstr ""
 
-#. i18n: file: kbetterthankdialogbase.ui:67
-#. i18n: ectx: property (text), widget (KPushButton, _deny)
-#: rc.cpp:11
-msgid "&Deny"
+#: kwalletwizard.cpp:149
+msgid "Passwords match."
 msgstr ""
 
-#. i18n: file: kbetterthankdialogbase.ui:74
-#. i18n: ectx: property (text), widget (KPushButton, _denyForever)
-#: rc.cpp:14
-msgid "Deny &Forever"
+#: kwalletwizard.cpp:152
+msgid "Passwords do not match."
 msgstr ""
 
-#. i18n: file: kwalletwizardpageexplanation.ui:16
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
-#: rc.cpp:17
+#: kwalletwizardpageexplanation.ui:16
 msgid ""
 "The KDE Wallet system stores your data in a <i>wallet</i> file on your local "
 "hard disk.  The data is only written in encrypted form, presently using the "
@@ -290,15 +255,13 @@ msgid ""
 "wallet to a remote system."
 msgstr ""
 
-#. i18n: file: kwalletwizardpageintro.ui:17
 #. i18n: ectx: property (comment), widget (KTitleWidget, ktitlewidget)
-#: rc.cpp:20
+#: kwalletwizardpageintro.ui:17
 msgid "The KDE Wallet System"
 msgstr ""
 
-#. i18n: file: kwalletwizardpageintro.ui:30
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:23
+#: kwalletwizardpageintro.ui:30
 msgid ""
 "Welcome to KWallet, the KDE Wallet System.  KWallet allows you to store your "
 "passwords and other personal information on disk in an encrypted file, "
@@ -306,21 +269,18 @@ msgid ""
 "about KWallet and help you configure it for the first time."
 msgstr ""
 
-#. i18n: file: kwalletwizardpageintro.ui:69
 #. i18n: ectx: property (text), widget (QRadioButton, _basic)
-#: rc.cpp:26
+#: kwalletwizardpageintro.ui:69
 msgid "&Basic setup (recommended)"
 msgstr ""
 
-#. i18n: file: kwalletwizardpageintro.ui:79
 #. i18n: ectx: property (text), widget (QRadioButton, _advanced)
-#: rc.cpp:29
+#: kwalletwizardpageintro.ui:79
 msgid "&Advanced setup"
 msgstr ""
 
-#. i18n: file: kwalletwizardpageoptions.ui:16
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
-#: rc.cpp:32
+#: kwalletwizardpageoptions.ui:16
 msgid ""
 "The KDE Wallet system allows you to control the level of security of your "
 "personal data.  Some of these settings do impact usability.  While the "
@@ -329,21 +289,18 @@ msgid ""
 "control module."
 msgstr ""
 
-#. i18n: file: kwalletwizardpageoptions.ui:48
 #. i18n: ectx: property (text), widget (QCheckBox, _closeIdle)
-#: rc.cpp:35
+#: kwalletwizardpageoptions.ui:48
 msgid "Automatically close idle wallets"
 msgstr ""
 
-#. i18n: file: kwalletwizardpageoptions.ui:55
 #. i18n: ectx: property (text), widget (QCheckBox, _networkWallet)
-#: rc.cpp:38
+#: kwalletwizardpageoptions.ui:55
 msgid "Store network passwords and local passwords in separate wallet files"
 msgstr ""
 
-#. i18n: file: kwalletwizardpagepassword.ui:16
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:41
+#: kwalletwizardpagepassword.ui:16
 msgid ""
 "Various applications may attempt to use the KDE wallet to store passwords or "
 "other information such as web form data and cookies.  If you would like "
@@ -353,20 +310,45 @@ msgid ""
 "in the wallet."
 msgstr ""
 
-#. i18n: file: kwalletwizardpagepassword.ui:29
 #. i18n: ectx: property (text), widget (QCheckBox, _useWallet)
-#: rc.cpp:44
+#: kwalletwizardpagepassword.ui:29
 msgid "Yes, I wish to use the KDE wallet to store my personal information."
 msgstr ""
 
-#. i18n: file: kwalletwizardpagepassword.ui:88
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
-#: rc.cpp:47
+#: kwalletwizardpagepassword.ui:88
 msgid "Enter a new password:"
 msgstr ""
 
-#. i18n: file: kwalletwizardpagepassword.ui:104
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
-#: rc.cpp:50
+#: kwalletwizardpagepassword.ui:104
 msgid "Verify password:"
+msgstr ""
+
+#: main.cpp:41
+msgid "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
+msgstr ""
+
+#: main.cpp:42
+msgid "Michael Leupold"
+msgstr ""
+
+#: main.cpp:42
+msgid "Maintainer"
+msgstr "సంరక్షకుడు"
+
+#: main.cpp:43
+msgid "George Staikos"
+msgstr "జార్జ్ స్టైకోస్"
+
+#: main.cpp:43
+msgid "Former maintainer"
+msgstr ""
+
+#: main.cpp:44
+msgid "Thiago Maceira"
+msgstr ""
+
+#: main.cpp:44
+msgid "D-Bus Interface"
 msgstr ""
