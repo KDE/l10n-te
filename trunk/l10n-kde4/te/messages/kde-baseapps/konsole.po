@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 04:38+0200\n"
+"POT-Creation-Date: 2012-08-27 04:38+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1265,180 +1265,184 @@ msgstr ""
 msgid "Hide the tabbar, overriding the default setting"
 msgstr ""
 
-#: main.cpp:176
+#: main.cpp:177
+msgid "Disable transparent backgrounds, even if the system supports them."
+msgstr "సిస్టమ్ మద్దతిచ్చినా కూడా, పారదృశ్య బ్యాక్‌గ్రౌండులను అచేతనము చేయుము."
+
+#: main.cpp:179
 msgid "List the available profiles"
 msgstr "అందుబాటులోని ప్రొఫైల్సును జాబితాచేయుము"
 
-#: main.cpp:178
+#: main.cpp:181
 msgid "List all the profile properties names and their type (for use with -p)"
 msgstr ""
 
-#: main.cpp:181
+#: main.cpp:184
 msgid "Change the value of a profile property."
 msgstr "ప్రొఫైల్ లక్షణంయొక్క విలువను మార్చుము."
 
-#: main.cpp:183
+#: main.cpp:186
 msgid ""
 "Command to execute. This option will catch all following arguments, so use "
 "it as the last option."
 msgstr ""
 
-#: main.cpp:185
+#: main.cpp:188
 msgid "Arguments passed to command"
 msgstr "ఆదేశమునకు పంపబడిన ఆర్గుమెంట్లు"
 
-#: main.cpp:186
+#: main.cpp:189
 msgid "Use --nofork to run in the foreground (helpful with the -e option)."
 msgstr ""
 
-#: main.cpp:195
+#: main.cpp:198
 #, fuzzy
 #| msgid "Kurt V. Hindenburg"
 msgctxt "@info:credit"
 msgid "Kurt Hindenburg"
 msgstr "కర్ట్ వి. హిండెన్ బర్గ్"
 
-#: main.cpp:196
+#: main.cpp:199
 #, fuzzy
 #| msgid "Bug fixes and general improvements"
 msgctxt "@info:credit"
 msgid "General maintainer, bug fixes and general improvements"
 msgstr "బగ్ పరిష్కారములు మరియు సాధారణ మెరుగుదలలు"
 
-#: main.cpp:199
+#: main.cpp:202
 #, fuzzy
 #| msgid "Robert Knight"
 msgctxt "@info:credit"
 msgid "Robert Knight"
 msgstr "రాబెర్ట్ నైట్"
 
-#: main.cpp:200
+#: main.cpp:203
 msgctxt "@info:credit"
 msgid "Previous maintainer, ported to KDE4"
 msgstr ""
 
-#: main.cpp:202
+#: main.cpp:205
 #, fuzzy
 #| msgid "Lars Doelle"
 msgctxt "@info:credit"
 msgid "Lars Doelle"
 msgstr "లార్స్ డొయెల్లి"
 
-#: main.cpp:203
+#: main.cpp:206
 #, fuzzy
 #| msgid "Terminal emulator"
 msgctxt "@info:credit"
 msgid "Original author"
 msgstr "టెర్మినల్ ఎములెటర్"
 
-#: main.cpp:205
+#: main.cpp:208
 msgctxt "@info:credit"
 msgid "Jekyll Wu"
 msgstr ""
 
-#: main.cpp:206 main.cpp:209 main.cpp:212
+#: main.cpp:209 main.cpp:212 main.cpp:215
 #, fuzzy
 #| msgid "Bug fixes and general improvements"
 msgctxt "@info:credit"
 msgid "Bug fixes and general improvements"
 msgstr "బగ్ పరిష్కారములు మరియు సాధారణ మెరుగుదలలు"
 
-#: main.cpp:208
+#: main.cpp:211
 #, fuzzy
 #| msgid "Waldo Bastian"
 msgctxt "@info:credit"
 msgid "Waldo Bastian"
 msgstr "వాల్డొ బాస్టియన్"
 
-#: main.cpp:211
+#: main.cpp:214
 #, fuzzy
 #| msgid "Stephan Binner"
 msgctxt "@info:credit"
 msgid "Stephan Binner"
 msgstr "స్టీఫెన్ బిన్నర్"
 
-#: main.cpp:214
+#: main.cpp:217
 msgctxt "@info:credit"
 msgid "Thomas Dreibholz"
 msgstr ""
 
-#: main.cpp:215
+#: main.cpp:218
 #, fuzzy
 #| msgid "Bug fixes and general improvements"
 msgctxt "@info:credit"
 msgid "General improvements"
 msgstr "బగ్ పరిష్కారములు మరియు సాధారణ మెరుగుదలలు"
 
-#: main.cpp:217
+#: main.cpp:220
 #, fuzzy
 #| msgid "Chris Machemer"
 msgctxt "@info:credit"
 msgid "Chris Machemer"
 msgstr "క్రిస్ మెచెమర్"
 
-#: main.cpp:218 main.cpp:221 main.cpp:257 main.cpp:260 main.cpp:263
-#: main.cpp:266
+#: main.cpp:221 main.cpp:224 main.cpp:260 main.cpp:263 main.cpp:266
+#: main.cpp:269
 #, fuzzy
 #| msgid "Bug fixes"
 msgctxt "@info:credit"
 msgid "Bug fixes"
 msgstr "బగ్ పరిష్కారములు"
 
-#: main.cpp:220
+#: main.cpp:223
 msgctxt "@info:credit"
 msgid "Francesco Cecconi"
 msgstr ""
 
-#: main.cpp:223
+#: main.cpp:226
 #, fuzzy
 #| msgid "Stephan Kulow"
 msgctxt "@info:credit"
 msgid "Stephan Kulow"
 msgstr "స్టీఫెన్ కులొ"
 
-#: main.cpp:224
+#: main.cpp:227
 #, fuzzy
 #| msgid "Solaris support and history"
 msgctxt "@info:credit"
 msgid "Solaris support and history"
 msgstr "సోలారీస్ మద్దతు మరియు చరిత్ర"
 
-#: main.cpp:226
+#: main.cpp:229
 #, fuzzy
 #| msgid "Alexander Neundorf"
 msgctxt "@info:credit"
 msgid "Alexander Neundorf"
 msgstr "Alexander Neundorf"
 
-#: main.cpp:227
+#: main.cpp:230
 #, fuzzy
 #| msgid "Bug fixes and improved startup performance"
 msgctxt "@info:credit"
 msgid "Bug fixes and improved startup performance"
 msgstr "బగ్ పరిష్కారములు మరియు మెరగుపరచిన ప్రారంభపు పనితనము"
 
-#: main.cpp:229
+#: main.cpp:232
 #, fuzzy
 #| msgid "Peter Silva"
 msgctxt "@info:credit"
 msgid "Peter Silva"
 msgstr "పీటర్ సిల్వ"
 
-#: main.cpp:230
+#: main.cpp:233
 #, fuzzy
 #| msgid "Marking improvements"
 msgctxt "@info:credit"
 msgid "Marking improvements"
 msgstr "మెరుగుదలలను గుర్తుంచుతోంది"
 
-#: main.cpp:232
+#: main.cpp:235
 #, fuzzy
 #| msgid "Lotzi Boloni"
 msgctxt "@info:credit"
 msgid "Lotzi Boloni"
 msgstr "లొట్జి బొలొని"
 
-#: main.cpp:233
+#: main.cpp:236
 #, fuzzy
 #| msgid ""
 #| "Embedded Konsole\n"
@@ -1451,14 +1455,14 @@ msgstr ""
 "ఎంబెడెడ్ చేసిన కన్సోలు\n"
 "టూల్‌బార్ మరియు సెషన్ పేరులు"
 
-#: main.cpp:236
+#: main.cpp:239
 #, fuzzy
 #| msgid "David Faure"
 msgctxt "@info:credit"
 msgid "David Faure"
 msgstr "డెవిడ్ ఫారె"
 
-#: main.cpp:237
+#: main.cpp:240
 #, fuzzy
 #| msgid ""
 #| "Embedded Konsole\n"
@@ -1471,28 +1475,28 @@ msgstr ""
 "ఎంబెడెడ్ కన్సోలు\n"
 "సాదారణ మెరుగుదలలు"
 
-#: main.cpp:240
+#: main.cpp:243
 #, fuzzy
 #| msgid "Antonio Larrosa"
 msgctxt "@info:credit"
 msgid "Antonio Larrosa"
 msgstr "అంటొనియొ లరొస్సా"
 
-#: main.cpp:241
+#: main.cpp:244
 #, fuzzy
 #| msgid "Visual effects"
 msgctxt "@info:credit"
 msgid "Visual effects"
 msgstr "దృశ్య ప్రభావాలు"
 
-#: main.cpp:243
+#: main.cpp:246
 #, fuzzy
 #| msgid "Matthias Ettrich"
 msgctxt "@info:credit"
 msgid "Matthias Ettrich"
 msgstr "మథైయాస్ ఎట్ట్రిచ్"
 
-#: main.cpp:244
+#: main.cpp:247
 #, fuzzy
 #| msgid ""
 #| "Code from the kvt project\n"
@@ -1505,131 +1509,131 @@ msgstr ""
 "kvt ప్రోజెక్టునుండి కొడ్\n"
 "సాదారణ మెరుగుదలలు"
 
-#: main.cpp:247
+#: main.cpp:250
 #, fuzzy
 #| msgid "Warwick Allison"
 msgctxt "@info:credit"
 msgid "Warwick Allison"
 msgstr "వార్విక్ ఎల్లిసన్"
 
-#: main.cpp:248
+#: main.cpp:251
 #, fuzzy
 #| msgid "Schema and text selection improvements"
 msgctxt "@info:credit"
 msgid "Schema and text selection improvements"
 msgstr "స్కీమా మరియు వచనము యెంపిక మెరుగుదలలు"
 
-#: main.cpp:250
+#: main.cpp:253
 #, fuzzy
 #| msgid "Dan Pilone"
 msgctxt "@info:credit"
 msgid "Dan Pilone"
 msgstr "డాన్ పిలొన్"
 
-#: main.cpp:251
+#: main.cpp:254
 #, fuzzy
 #| msgid "SGI port"
 msgctxt "@info:credit"
 msgid "SGI port"
 msgstr "ఎస్ జి ఐ పొర్ట్"
 
-#: main.cpp:253
+#: main.cpp:256
 #, fuzzy
 #| msgid "Kevin Street"
 msgctxt "@info:credit"
 msgid "Kevin Street"
 msgstr "కెవిన్ స్ట్రీట్"
 
-#: main.cpp:254
+#: main.cpp:257
 #, fuzzy
 #| msgid "FreeBSD port"
 msgctxt "@info:credit"
 msgid "FreeBSD port"
 msgstr "ఫ్రి బి ఎస్ డి పొర్ట్"
 
-#: main.cpp:256
+#: main.cpp:259
 #, fuzzy
 #| msgid "Sven Fischer"
 msgctxt "@info:credit"
 msgid "Sven Fischer"
 msgstr "స్వెన్ ఫిషర్"
 
-#: main.cpp:259
+#: main.cpp:262
 #, fuzzy
 #| msgid "Dale M. Flaven"
 msgctxt "@info:credit"
 msgid "Dale M. Flaven"
 msgstr "డెల్ ఎం. ఫ్లావెన్"
 
-#: main.cpp:262
+#: main.cpp:265
 #, fuzzy
 #| msgid "Martin Jones"
 msgctxt "@info:credit"
 msgid "Martin Jones"
 msgstr "మార్టిన్ జొన్స్"
 
-#: main.cpp:265
+#: main.cpp:268
 #, fuzzy
 #| msgid "Lars Knoll"
 msgctxt "@info:credit"
 msgid "Lars Knoll"
 msgstr "లార్స్ క్నొల్"
 
-#: main.cpp:268
+#: main.cpp:271
 #, fuzzy
 #| msgid "Thanks to many others.\n"
 msgctxt "@info:credit"
 msgid "Thanks to many others.\n"
 msgstr "ఇంకా చాలామందికి కృతజ్ఞతలు.\n"
 
-#: MainWindow.cpp:275
+#: MainWindow.cpp:289
 #, fuzzy
 #| msgid "New &Tab"
 msgctxt "@action:inmenu"
 msgid "&New Tab"
 msgstr "(&T) కొత్త టాబ్"
 
-#: MainWindow.cpp:284
+#: MainWindow.cpp:298
 #, fuzzy
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "&Clone Tab"
 msgstr "(&C) టాబ్ ను మూసివెయి"
 
-#: MainWindow.cpp:291
+#: MainWindow.cpp:305
 #, fuzzy
 #| msgid "New &Window"
 msgctxt "@action:inmenu"
 msgid "New &Window"
 msgstr "(&W) కొత్త విండొ"
 
-#: MainWindow.cpp:298
+#: MainWindow.cpp:312
 #, fuzzy
 #| msgid "Konsole"
 msgctxt "@action:inmenu"
 msgid "Close Window"
 msgstr "కాన్సోల్"
 
-#: MainWindow.cpp:303
+#: MainWindow.cpp:317
 #, fuzzy
 #| msgid "&Bookmarks"
 msgctxt "@title:menu"
 msgid "&Bookmarks"
 msgstr "(&B) పేజీ గుర్తులు"
 
-#: MainWindow.cpp:321
+#: MainWindow.cpp:335
 #, fuzzy
 #| msgid "Manage Profiles"
 msgctxt "@action:inmenu"
 msgid "Manage Profiles..."
 msgstr "ప్రొఫైల్సును నిర్వహించుము"
 
-#: MainWindow.cpp:327
+#: MainWindow.cpp:341
 msgctxt "@item"
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:532
+#: MainWindow.cpp:546
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have multiple tabs in this window, are you sure you want to quit?"
@@ -1642,28 +1646,28 @@ msgstr[0] ""
 msgstr[1] ""
 "ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా నిష్క్రమించుదామని అనుకొనుచున్నారా?"
 
-#: MainWindow.cpp:536
+#: MainWindow.cpp:550
 #, fuzzy
 #| msgid "Confirm Close"
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr "ముసివేత నిర్ధారించు"
 
-#: MainWindow.cpp:538
+#: MainWindow.cpp:552
 #, fuzzy
 #| msgid "Close Current Tab"
 msgctxt "@action:button"
 msgid "Close Current Tab"
 msgstr "ప్రస్తుత టాబ్ మూసివేయి"
 
-#: MainWindow.cpp:635
+#: MainWindow.cpp:649
 #, fuzzy
 #| msgid "General"
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "సాధారణ"
 
-#: MainWindow.cpp:640
+#: MainWindow.cpp:654
 msgctxt "@title Preferences page name"
 msgid "TabBar"
 msgstr ""
@@ -2614,9 +2618,6 @@ msgstr "(&S) ఆపు"
 #~ msgctxt "@info:tooltip"
 #~ msgid "Close current tab"
 #~ msgstr "ప్రస్తుత టాబ్ మూసివేయి"
-
-#~ msgid "Disable transparent backgrounds, even if the system supports them."
-#~ msgstr "సిస్టమ్ మద్దతిచ్చినా కూడా, పారదృశ్య బ్యాక్‌గ్రౌండులను అచేతనము చేయుము."
 
 #~ msgid ""
 #~ "Try to enable transparency, even if the system does not appear to support "
