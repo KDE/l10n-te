@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-21 03:51+0000\n"
+"POT-Creation-Date: 2012-09-22 04:06+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -2370,82 +2370,6 @@ msgctxt "Name"
 msgid "Command Runner"
 msgstr "కమాండ్ రన్నర్"
 
-#: krunner/lock/kscreenlocker.notifyrc:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
-msgctxt "Comment"
-msgid "Screen Saver"
-msgstr "స్క్రీన్ సేవర్"
-
-#: krunner/lock/kscreenlocker.notifyrc:67
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
-msgctxt "Name"
-msgid "Screen saver started"
-msgstr "స్క్రీన్ సేవర్"
-
-#: krunner/lock/kscreenlocker.notifyrc:134
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "The trash has been emptied"
-msgctxt "Comment"
-msgid "The screen saver has been started"
-msgstr "ట్రాష్ ఖాళీ చేయబడింది"
-
-#: krunner/lock/kscreenlocker.notifyrc:203
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
-msgctxt "Name"
-msgid "Screen locked"
-msgstr "స్క్రీన్ సేవర్"
-
-#: krunner/lock/kscreenlocker.notifyrc:270
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "A modifier key has been locked"
-msgctxt "Comment"
-msgid "The screen has been locked"
-msgstr "సవరింపు కీ అప్రవేశంగా ఉంది"
-
-#: krunner/lock/kscreenlocker.notifyrc:340
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
-msgctxt "Name"
-msgid "Screen saver exited"
-msgstr "స్క్రీన్ సేవర్"
-
-#: krunner/lock/kscreenlocker.notifyrc:406
-msgctxt "Comment"
-msgid "The screen saver has finished"
-msgstr ""
-
-#: krunner/lock/kscreenlocker.notifyrc:475
-msgctxt "Name"
-msgid "Screen unlocked"
-msgstr ""
-
-#: krunner/lock/kscreenlocker.notifyrc:542
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "A modifier key has been locked"
-msgctxt "Comment"
-msgid "The screen has been unlocked"
-msgstr "సవరింపు కీ అప్రవేశంగా ఉంది"
-
-#: krunner/lock/kscreenlocker.notifyrc:610
-msgctxt "Name"
-msgid "Screen unlock failed"
-msgstr ""
-
-#: krunner/lock/kscreenlocker.notifyrc:677
-msgctxt "Comment"
-msgid "Failed attempt to unlock the screen"
-msgstr ""
-
 #: kscreensaver/kblank_screensaver/kblank.desktop:7
 msgctxt "Name"
 msgid "Blank Screen"
@@ -2495,6 +2419,97 @@ msgstr "సెషన్ నిర్వాహకిని మరియు లా
 #: ksmserver/kcm/kcmsmserver.desktop:167
 msgctxt "X-KDE-Keywords"
 msgid "ksmserver,session,logout,confirmation,save,restore"
+msgstr ""
+
+#: ksmserver/screenlocker/greeter/themes/org.kde.passworddialog/metadata.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Password caching support"
+msgctxt "Name"
+msgid "Password dialog"
+msgstr "సంకేతపదం క్యాచింగ్ మద్దతు"
+
+#: ksmserver/screenlocker/greeter/themes/org.kde.passworddialog/metadata.desktop:3
+msgctxt "Comment"
+msgid ""
+"Screen locker that provides a password dialog and an interface to switch the "
+"current user"
+msgstr ""
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen Saver"
+msgctxt "Comment"
+msgid "Screen Saver"
+msgstr "స్క్రీన్ సేవర్"
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:67
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen Saver"
+msgctxt "Name"
+msgid "Screen saver started"
+msgstr "స్క్రీన్ సేవర్"
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:134
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "The trash has been emptied"
+msgctxt "Comment"
+msgid "The screen saver has been started"
+msgstr "ట్రాష్ ఖాళీ చేయబడింది"
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:203
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen Saver"
+msgctxt "Name"
+msgid "Screen locked"
+msgstr "స్క్రీన్ సేవర్"
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:270
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "A modifier key has been locked"
+msgctxt "Comment"
+msgid "The screen has been locked"
+msgstr "సవరింపు కీ అప్రవేశంగా ఉంది"
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:340
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen Saver"
+msgctxt "Name"
+msgid "Screen saver exited"
+msgstr "స్క్రీన్ సేవర్"
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:406
+msgctxt "Comment"
+msgid "The screen saver has finished"
+msgstr ""
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:475
+msgctxt "Name"
+msgid "Screen unlocked"
+msgstr ""
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:542
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "A modifier key has been locked"
+msgctxt "Comment"
+msgid "The screen has been unlocked"
+msgstr "సవరింపు కీ అప్రవేశంగా ఉంది"
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:610
+msgctxt "Name"
+msgid "Screen unlock failed"
+msgstr ""
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:677
+msgctxt "Comment"
+msgid "Failed attempt to unlock the screen"
 msgstr ""
 
 #: ksmserver/themes/contour/metadata.desktop:3
@@ -4770,12 +4785,12 @@ msgctxt "Keywords"
 msgid "Lock, Logout, Sleep, Hibernate, Switch User"
 msgstr ""
 
-#: plasma/generic/applets/notifications/plasma-applet-notifications.desktop:2
+#: plasma/generic/applets/notifications/metadata.desktop:3
 msgctxt "Name"
 msgid "Notifications"
 msgstr "నోటీసులు"
 
-#: plasma/generic/applets/notifications/plasma-applet-notifications.desktop:88
+#: plasma/generic/applets/notifications/metadata.desktop:4
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "KDE Notification Daemon"
@@ -9253,13 +9268,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "KDE Notification Daemon"
 #~ msgstr "KDE నోటీసు డెమోన్"
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Password caching support"
-#~ msgctxt "Name"
-#~ msgid "Password Caching"
-#~ msgstr "సంకేతపదం క్యాచింగ్ మద్దతు"
 
 #, fuzzy
 #~| msgctxt "Comment"
