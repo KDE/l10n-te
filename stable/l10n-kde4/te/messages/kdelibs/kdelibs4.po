@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-23 12:51+0200\n"
+"POT-Creation-Date: 2012-09-25 21:18+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1503,31 +1503,38 @@ msgstr ""
 "అప్రమేయంకు బదులుగా వేరే గ్రాఫిక్‍స్  సిస్టమ్‌ను వుపయోగించుము, వున్న ఐచ్చికాలు raster మరియు opengl "
 "(ప్రయోగాత్మకంగా)"
 
-#: kdecore/kernel/kcmdlineargs.cpp:308
+#: kdecore/kernel/kcmdlineargs.cpp:307
+msgid ""
+"QML JS debugger information. Application must be\n"
+"built with -DQT_DECLARATIVE_DEBUG for the debugger to be\n"
+"enabled"
+msgstr ""
+
+#: kdecore/kernel/kcmdlineargs.cpp:309
 msgid "Use 'caption' as name in the titlebar"
 msgstr "శీర్షిక పట్టి లో 'కెప్షన్' ను పేరు గా వాడు"
 
-#: kdecore/kernel/kcmdlineargs.cpp:309
+#: kdecore/kernel/kcmdlineargs.cpp:310
 msgid "Use 'icon' as the application icon"
 msgstr "'ప్రతిమ'ను అప్లికేషన్ ప్రతిమగా వాడు "
 
-#: kdecore/kernel/kcmdlineargs.cpp:310
+#: kdecore/kernel/kcmdlineargs.cpp:311
 msgid "Use alternative configuration file"
 msgstr "ప్రత్యామ్నాయ ఆకృతీకరణ దస్త్రము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:311
+#: kdecore/kernel/kcmdlineargs.cpp:312
 msgid "Disable crash handler, to get core dumps"
 msgstr "కోర్ డంప్‍స్‌ను పొందుటకు, క్రాష్ హాండ్లర్‌ను అచేతనపరచుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:313
+#: kdecore/kernel/kcmdlineargs.cpp:314
 msgid "Waits for a WM_NET compatible windowmanager"
 msgstr "WM_NET సారూప్య విండో అభికర్త కొరకు వేచివుంటుంది"
 
-#: kdecore/kernel/kcmdlineargs.cpp:315
+#: kdecore/kernel/kcmdlineargs.cpp:316
 msgid "sets the application GUI style"
 msgstr "కార్యక్రమ జియుఐ శైలిని పెట్టును"
 
-#: kdecore/kernel/kcmdlineargs.cpp:316
+#: kdecore/kernel/kcmdlineargs.cpp:317
 #, fuzzy
 #| msgid ""
 #| "sets the client geometry of the main widget - see man X for the argument "
@@ -1537,30 +1544,30 @@ msgid ""
 "format (usually WidthxHeight+XPos+YPos)"
 msgstr "ముఖ్య విడ్జట్ యొక్క క్లైంట్ జియోమెట్రీను అమర్చుతుంది - ఆర్గుమెంట్ ఫార్మాట్ కొరకు man X చూడుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:434
+#: kdecore/kernel/kcmdlineargs.cpp:435
 msgid "KDE Application"
 msgstr "కెడిఈ అప్లికేషన్:"
 
-#: kdecore/kernel/kcmdlineargs.cpp:493
+#: kdecore/kernel/kcmdlineargs.cpp:494
 msgid "Qt"
 msgstr "క్యూటి"
 
-#: kdecore/kernel/kcmdlineargs.cpp:496 khtml/khtml_part.cpp:4833
+#: kdecore/kernel/kcmdlineargs.cpp:497 khtml/khtml_part.cpp:4833
 msgid "KDE"
 msgstr "కెడిఈ"
 
-#: kdecore/kernel/kcmdlineargs.cpp:799 kdecore/kernel/kcmdlineargs.cpp:815
+#: kdecore/kernel/kcmdlineargs.cpp:800 kdecore/kernel/kcmdlineargs.cpp:816
 #, kde-format
 msgid "Unknown option '%1'."
 msgstr "తెలియని ఐచ్చికము '%1'."
 
-#: kdecore/kernel/kcmdlineargs.cpp:823
+#: kdecore/kernel/kcmdlineargs.cpp:824
 #, kde-format
 msgctxt "@info:shell %1 is cmdoption name"
 msgid "'%1' missing."
 msgstr "%1' కనబడుటలేదు."
 
-#: kdecore/kernel/kcmdlineargs.cpp:889
+#: kdecore/kernel/kcmdlineargs.cpp:890
 #, kde-format
 msgctxt ""
 "@info:shell message on appcmd --version; do not translate 'Development "
@@ -1571,7 +1578,7 @@ msgid ""
 "%3: %4\n"
 msgstr ""
 
-#: kdecore/kernel/kcmdlineargs.cpp:914
+#: kdecore/kernel/kcmdlineargs.cpp:915
 #, kde-format
 msgctxt "the 2nd argument is a list of name+address, one on each line"
 msgid ""
@@ -1581,43 +1588,43 @@ msgstr ""
 "%1 ను వ్రాసింది\n"
 "%2"
 
-#: kdecore/kernel/kcmdlineargs.cpp:917
+#: kdecore/kernel/kcmdlineargs.cpp:918
 msgid "This application was written by somebody who wants to remain anonymous."
 msgstr "ఈ కార్యక్రమాన్ని వ్రాసినవారు అజ్ఞాతంగా వుండదలచుకున్నారు"
 
-#: kdecore/kernel/kcmdlineargs.cpp:924
+#: kdecore/kernel/kcmdlineargs.cpp:925
 msgid "Please use http://bugs.kde.org to report bugs.\n"
 msgstr "తప్పులను తెలియచేయుటకు http://bugs.kde.orgని వాడండి.\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:926
+#: kdecore/kernel/kcmdlineargs.cpp:927
 #, kde-format
 msgid "Please report bugs to %1.\n"
 msgstr "%1 కు తప్పులను తెలియచేయండి.\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:963
+#: kdecore/kernel/kcmdlineargs.cpp:964
 #, kde-format
 msgid "Unexpected argument '%1'."
 msgstr "'%1' ఊహించని ఆర్గ్యుమెంట్."
 
-#: kdecore/kernel/kcmdlineargs.cpp:1087
+#: kdecore/kernel/kcmdlineargs.cpp:1088
 msgid "Use --help to get a list of available command line options."
 msgstr "అందుబాటులొ వున్న కమేండ్ లైన్ ఐచ్చికముల జాబితా తెలుసుకొవటానికి --help వాడండి"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1110
+#: kdecore/kernel/kcmdlineargs.cpp:1111
 msgid "[options] "
 msgstr "[ఐచ్ఛికములు]"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1117
+#: kdecore/kernel/kcmdlineargs.cpp:1118
 #, kde-format
 msgid "[%1-options]"
 msgstr "[%1-ఐచ్ఛికములు]"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1138
+#: kdecore/kernel/kcmdlineargs.cpp:1139
 #, kde-format
 msgid "Usage: %1 %2\n"
 msgstr "వాడుక: %1 %2\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1141
+#: kdecore/kernel/kcmdlineargs.cpp:1142
 msgid ""
 "\n"
 "Generic options:\n"
@@ -1625,36 +1632,36 @@ msgstr ""
 "\n"
 "సాధారణ ఐచ్ఛికములు:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1143
+#: kdecore/kernel/kcmdlineargs.cpp:1144
 msgid "Show help about options"
 msgstr "ఐచ్ఛికములు గురించిన సహాయము చూపుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1151
+#: kdecore/kernel/kcmdlineargs.cpp:1152
 #, kde-format
 msgid "Show %1 specific options"
 msgstr "%1 విశెష ఐచ్ఛికములు చూపుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1158
+#: kdecore/kernel/kcmdlineargs.cpp:1159
 msgid "Show all options"
 msgstr "అన్ని ఐచ్చికములు చూపుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1159
+#: kdecore/kernel/kcmdlineargs.cpp:1160
 msgid "Show author information"
 msgstr "మూలకర్త సమాచారం చూపుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1160
+#: kdecore/kernel/kcmdlineargs.cpp:1161
 msgid "Show version information"
 msgstr "వివరణం సమాచారం చూపుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1161
+#: kdecore/kernel/kcmdlineargs.cpp:1162
 msgid "Show license information"
 msgstr "లైసెన్స్ సమాచరం చూపుము"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1162
+#: kdecore/kernel/kcmdlineargs.cpp:1163
 msgid "End of options"
 msgstr "ఐచ్ఛికములు అయిపొయినవి"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1183
+#: kdecore/kernel/kcmdlineargs.cpp:1184
 #, kde-format
 msgid ""
 "\n"
@@ -1663,7 +1670,7 @@ msgstr ""
 "\n"
 "%1 ఐచ్ఛికములు:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1185
+#: kdecore/kernel/kcmdlineargs.cpp:1186
 msgid ""
 "\n"
 "Options:\n"
@@ -1671,7 +1678,7 @@ msgstr ""
 "\n"
 "ఐచ్ఛికములు:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1243
+#: kdecore/kernel/kcmdlineargs.cpp:1244
 msgid ""
 "\n"
 "Arguments:\n"
@@ -1679,11 +1686,11 @@ msgstr ""
 "\n"
 "ఆర్గ్యుమెంట్లు:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1597
+#: kdecore/kernel/kcmdlineargs.cpp:1606
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr "అప్లికేషన్ ద్వారా తెరచిన దస్త్రాలు/యూఆర్ఎల్లు వాడిన తరువాత తీసివేయబడును"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1598
+#: kdecore/kernel/kcmdlineargs.cpp:1607
 msgid "KDE-tempfile"
 msgstr "KDE-tempfile"
 
