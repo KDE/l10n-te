@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-25 09:19+0000\n"
+"POT-Creation-Date: 2012-09-27 03:38+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -223,7 +223,7 @@ msgid ""
 "KDE."
 msgstr "KDE తో ఏ కార్యక్రమములు ప్రారంభంకావాలో నిర్వహించుటకు ఆకృతీకరణ సాధనం"
 
-#: kcontrol/autostart/autostart.desktop:141
+#: kcontrol/autostart/autostart.desktop:138
 msgctxt "X-KDE-Keywords"
 msgid "Autostart Manager,autostart,startup,system startup,kde start,cron"
 msgstr ""
@@ -278,7 +278,7 @@ msgctxt "Comment"
 msgid "Configure date and time settings"
 msgstr "కీబోర్‍డ్ మరియు మౌస్ అమర్పులను ఆకృతీకరించుము"
 
-#: kcontrol/dateandtime/clock.desktop:147
+#: kcontrol/dateandtime/clock.desktop:144
 msgctxt "X-KDE-Keywords"
 msgid ""
 "clock,date,time,time zone,ntp,synchronize,calendar,local time,region time"
@@ -600,21 +600,27 @@ msgid ""
 msgstr ""
 
 #: kcontrol/screensaver/screensaver.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen Saver"
 msgctxt "Name"
-msgid "Screen Saver"
+msgid "Screen Locker"
 msgstr "స్క్రీన్ సేవర్"
 
-#: kcontrol/screensaver/screensaver.desktop:106
+#: kcontrol/screensaver/screensaver.desktop:16
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Screen Saver Settings"
 msgctxt "Comment"
-msgid "Screen Saver Settings"
+msgid "Screen Locker Settings"
 msgstr "స్క్రీన్ సేవర్ అమరికలు"
 
-#: kcontrol/screensaver/screensaver.desktop:199
+#: kcontrol/screensaver/screensaver.desktop:18
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Screen Saver"
 msgctxt "X-KDE-Keywords"
-msgid "screensavers,Priority"
+msgid "screensavers,Priority,locking,security"
 msgstr "స్క్రీన్ సేవర్"
 
 #: kcontrol/smartcard/smartcard.desktop:15
@@ -2429,7 +2435,7 @@ msgctxt "Name"
 msgid "Password dialog"
 msgstr "సంకేతపదం క్యాచింగ్ మద్దతు"
 
-#: ksmserver/screenlocker/greeter/themes/org.kde.passworddialog/metadata.desktop:10
+#: ksmserver/screenlocker/greeter/themes/org.kde.passworddialog/metadata.desktop:12
 msgctxt "Comment"
 msgid ""
 "Screen locker that provides a password dialog and an interface to switch the "
@@ -7376,6 +7382,10 @@ msgstr "ఫాంట్ వీక్షణి"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Screen Saver"
+#~ msgstr "స్క్రీన్ సేవర్"
 
 #, fuzzy
 #~| msgctxt "Name"
