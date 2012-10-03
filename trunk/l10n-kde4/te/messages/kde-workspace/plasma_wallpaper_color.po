@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_color\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 05:36+0200\n"
+"POT-Creation-Date: 2012-10-03 05:01+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -26,62 +26,50 @@ msgstr ""
 "\n"
 "\n"
 
+#: color.cpp:72
+msgid "Solid"
+msgstr ""
+
+#: color.cpp:73
+msgid "Horizontal"
+msgstr ""
+
+#: color.cpp:74
+msgid "Vertical"
+msgstr ""
+
+#: color.cpp:75
+msgid "Rectangular"
+msgstr ""
+
+#: color.cpp:76
+msgid "Radial"
+msgstr ""
+
+#: color.cpp:77
+msgid "Top Left Diagonal"
+msgstr ""
+
+#: color.cpp:78
+msgid "Top Right Diagonal"
+msgstr ""
+
 #. i18n: ectx: property (windowTitle), widget (QWidget, Config)
 #: config.ui:14
 msgid "Color"
 msgstr "రంగు"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, m_backgroundMode)
-#: config.ui:21
-msgid "Solid"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, m_backgroundMode)
-#: config.ui:26
-msgid "Horizontal"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, m_backgroundMode)
-#: config.ui:31
-msgid "Vertical"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, m_backgroundMode)
-#: config.ui:36
-msgid "Rectangular"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, m_backgroundMode)
-#: config.ui:41
-msgid "Radial"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, m_backgroundMode)
-#: config.ui:46
-msgid "Top Left Diagonal"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, m_backgroundMode)
-#: config.ui:51
-msgid "Top Right Diagonal"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: config.ui:65
-msgid "&First color:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: config.ui:121
-msgid "&Second color:"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (KColorButton, m_color2)
-#: config.ui:140
+#: config.ui:67
 msgid "&Second Color:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: config.ui:174
-msgid "&Background mode:"
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: config.ui:131
+msgid "&Second color:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: config.ui:150
+msgid "&First color:"
 msgstr ""
