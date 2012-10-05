@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdebugdialog\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 15:42+0200\n"
+"POT-Creation-Date: 2012-10-05 13:19+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -62,6 +62,54 @@ msgstr "సిస్‌లాగ్"
 msgid "None"
 msgstr "ఏదీకాదు"
 
+#. i18n: ectx: property (title), widget (QGroupBox, pInfoGroup)
+#: kdebugdialog.ui:48
+msgid "Information"
+msgstr "సమాచారం"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: kdebugdialog.ui:54 kdebugdialog.ui:89 kdebugdialog.ui:151
+#: kdebugdialog.ui:186
+msgid "Output to:"
+msgstr "అవట్‌పుట్ దీనికి:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: kdebugdialog.ui:67 kdebugdialog.ui:102 kdebugdialog.ui:164
+#: kdebugdialog.ui:199
+msgid "Filename:"
+msgstr "ఫైలుపేరు:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, pErrorGroup)
+#: kdebugdialog.ui:83
+msgid "Error"
+msgstr "దోషము"
+
+#. i18n: ectx: property (text), widget (QCheckBox, pAbortFatal)
+#: kdebugdialog.ui:118
+msgid "Abort on fatal errors"
+msgstr "ఫాటల్ దోషములపై ఎబార్టు అవ్వుము"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_disableAll2)
+#: kdebugdialog.ui:138 klistdebugdialog.cpp:76
+msgid "Disable all debug output"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, pWarnGroup)
+#: kdebugdialog.ui:145
+msgid "Warning"
+msgstr "హెచ్చరిక"
+
+#. i18n: ectx: property (title), widget (QGroupBox, pFatalGroup)
+#: kdebugdialog.ui:180
+msgid "Fatal Error"
+msgstr "ఫాటల్ దోషము"
+
 #: klistdebugdialog.cpp:67
 msgid "&Select All"
 msgstr "(&S) అన్నిటిని ఎంచుకొనుము"
@@ -69,10 +117,6 @@ msgstr "(&S) అన్నిటిని ఎంచుకొనుము"
 #: klistdebugdialog.cpp:68
 msgid "&Deselect All"
 msgstr "(&D) అన్నిటిని ఎంపికతీసివేయుము"
-
-#: klistdebugdialog.cpp:76
-msgid "Disable all debug output"
-msgstr ""
 
 #: main.cpp:98
 msgid "KDebugDialog"
@@ -110,24 +154,3 @@ msgstr "ప్రాంతమును ఆఫ్ చేయుము"
 
 #~ msgid "Debug area:"
 #~ msgstr "డీబగ్ ప్రాంతము:"
-
-#~ msgid "Information"
-#~ msgstr "సమాచారం"
-
-#~ msgid "Output to:"
-#~ msgstr "అవట్‌పుట్ దీనికి:"
-
-#~ msgid "Filename:"
-#~ msgstr "ఫైలుపేరు:"
-
-#~ msgid "Warning"
-#~ msgstr "హెచ్చరిక"
-
-#~ msgid "Error"
-#~ msgstr "దోషము"
-
-#~ msgid "Fatal Error"
-#~ msgstr "ఫాటల్ దోషము"
-
-#~ msgid "Abort on fatal errors"
-#~ msgstr "ఫాటల్ దోషములపై ఎబార్టు అవ్వుము"
