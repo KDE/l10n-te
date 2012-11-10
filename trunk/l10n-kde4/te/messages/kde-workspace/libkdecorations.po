@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_lib\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:50+0200\n"
+"POT-Creation-Date: 2012-11-10 02:58+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -31,61 +31,67 @@ msgstr ""
 msgid "<center><b>%1</b></center>"
 msgstr ""
 
-#: kcommondecoration.cpp:380
-msgid "Menu"
-msgstr "మెనూ"
+#: kcommondecoration.cpp:385
+msgctxt "Button showing window actions menu"
+msgid "Window Menu"
+msgstr ""
 
-#: kcommondecoration.cpp:396 kcommondecoration.cpp:606
+#: kcommondecoration.cpp:400
+msgctxt "Button showing application menu"
+msgid "Application Menu"
+msgstr ""
+
+#: kcommondecoration.cpp:422 kcommondecoration.cpp:639
 msgid "Not on all desktops"
 msgstr ""
 
-#: kcommondecoration.cpp:396 kcommondecoration.cpp:607
+#: kcommondecoration.cpp:422 kcommondecoration.cpp:640
 msgid "On all desktops"
 msgstr ""
 
-#: kcommondecoration.cpp:411
+#: kcommondecoration.cpp:437
 msgid "Help"
 msgstr "సహాయం"
 
-#: kcommondecoration.cpp:424
+#: kcommondecoration.cpp:450
 msgid "Minimize"
 msgstr "చిన్నదిచేయి"
 
-#: kcommondecoration.cpp:439 kcommondecoration.cpp:594
+#: kcommondecoration.cpp:465 kcommondecoration.cpp:627
 msgid "Restore"
 msgstr "తిరిగివుంచుము"
 
-#: kcommondecoration.cpp:439 kcommondecoration.cpp:593
+#: kcommondecoration.cpp:465 kcommondecoration.cpp:626
 msgid "Maximize"
 msgstr "పెద్దదిచేయి"
 
-#: kcommondecoration.cpp:454
+#: kcommondecoration.cpp:480
 msgid "Close"
 msgstr "మూయి"
 
-#: kcommondecoration.cpp:468 kcommondecoration.cpp:647
+#: kcommondecoration.cpp:494 kcommondecoration.cpp:680
 msgid "Do not keep above others"
 msgstr ""
 
-#: kcommondecoration.cpp:468 kcommondecoration.cpp:647
-#: kcommondecoration.cpp:668
+#: kcommondecoration.cpp:494 kcommondecoration.cpp:680
+#: kcommondecoration.cpp:701
 msgid "Keep above others"
 msgstr ""
 
-#: kcommondecoration.cpp:484 kcommondecoration.cpp:662
+#: kcommondecoration.cpp:510 kcommondecoration.cpp:695
 msgid "Do not keep below others"
 msgstr ""
 
-#: kcommondecoration.cpp:484 kcommondecoration.cpp:653
-#: kcommondecoration.cpp:662
+#: kcommondecoration.cpp:510 kcommondecoration.cpp:686
+#: kcommondecoration.cpp:695
 msgid "Keep below others"
 msgstr ""
 
-#: kcommondecoration.cpp:500 kcommondecoration.cpp:618
+#: kcommondecoration.cpp:526 kcommondecoration.cpp:651
 msgid "Unshade"
 msgstr ""
 
-#: kcommondecoration.cpp:500 kcommondecoration.cpp:619
+#: kcommondecoration.cpp:526 kcommondecoration.cpp:652
 msgid "Shade"
 msgstr "ఛాయ(షేడ్)"
 
@@ -113,3 +119,6 @@ msgid ""
 "The library %1 was attempted to be loaded as a decoration plugin but it is "
 "NOT"
 msgstr ""
+
+#~ msgid "Menu"
+#~ msgstr "మెనూ"
