@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 15:44+0200\n"
+"POT-Creation-Date: 2012-11-11 07:57+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -104,128 +104,162 @@ msgstr "ప్రతిమల క్రిందన వచనము"
 msgid "Secondary toolbar text:"
 msgstr ""
 
-#: kcmstyle.cpp:165
+#. i18n: ectx: property (title), widget (QGroupBox, menubarBox)
+#: finetuning.ui:179
+msgid "Menubar"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelMenubarStyle)
+#: finetuning.ui:185
+msgid "Menubar style:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
+#: finetuning.ui:199
+msgid "In application"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
+#: finetuning.ui:204
+msgid "Title bar button"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
+#: finetuning.ui:209
+msgid "Top screen menubar"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
+#: finetuning.ui:214
+msgid "Only export"
+msgstr ""
+
+#: kcmstyle.cpp:166
 msgid ""
 "<h1>Style</h1>This module allows you to modify the visual appearance of user "
 "interface elements, such as the widget style and effects."
 msgstr ""
 
-#: kcmstyle.cpp:177
+#: kcmstyle.cpp:178
 msgid "kcmstyle"
 msgstr "kcmstyle"
 
-#: kcmstyle.cpp:178
+#: kcmstyle.cpp:179
 msgid "KDE Style Module"
 msgstr "KDE శైలి మాడ్యూల్"
 
-#: kcmstyle.cpp:180
+#: kcmstyle.cpp:181
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr "(c) 2002 కరోల్ స్జ్వెడ్, డానియల్ మాల్కెన్‌టిన్"
 
-#: kcmstyle.cpp:182
+#: kcmstyle.cpp:183
 msgid "Karol Szwed"
 msgstr "కారల్ స్జ్వెడ్"
 
-#: kcmstyle.cpp:183
+#: kcmstyle.cpp:184
 msgid "Daniel Molkentin"
 msgstr "డానియల్ మాల్కెన్టిన్"
 
-#: kcmstyle.cpp:184
+#: kcmstyle.cpp:185
 msgid "Ralf Nolden"
 msgstr "రాల్ఫ్ నోల్డెన్"
 
-#: kcmstyle.cpp:209
+#: kcmstyle.cpp:210
 msgid "Widget style:"
 msgstr "విడ్జట్ శైలి:"
 
-#: kcmstyle.cpp:219
+#: kcmstyle.cpp:220
 msgid "Con&figure..."
 msgstr "(&f) ఆకృతీకరించు..."
 
-#: kcmstyle.cpp:228
+#: kcmstyle.cpp:229
 msgid "Preview"
 msgstr "ముందస్తు వీక్షణం"
 
-#: kcmstyle.cpp:249
+#: kcmstyle.cpp:250
 msgid "Low display resolution and Low CPU"
 msgstr "తక్కువ ప్రదర్శన రెజొల్యూషన్ మరియు తక్కువ CPU"
 
-#: kcmstyle.cpp:250
+#: kcmstyle.cpp:251
 msgid "High display resolution and Low CPU"
 msgstr "ఎక్కువ ప్రదర్శన రెజొల్యూషన్ మరియు తక్కువ CPU"
 
-#: kcmstyle.cpp:251
+#: kcmstyle.cpp:252
 msgid "Low display resolution and High CPU"
 msgstr "తక్కువ ప్రదర్శన రెజొల్యూషన్ మరియు ఎక్కువ CPU"
 
-#: kcmstyle.cpp:252
+#: kcmstyle.cpp:253
 msgid "High display resolution and High CPU"
 msgstr "ఎక్కువ ప్రదర్శన రెజొల్యూషన్ మరియు ఎక్కువ CPU"
 
-#: kcmstyle.cpp:253
+#: kcmstyle.cpp:254
 msgid "Low display resolution and Very High CPU"
 msgstr "తక్కువ ప్రదర్శన రెజొల్యూషన్ మరియు అత్యధిక CPU"
 
-#: kcmstyle.cpp:254
+#: kcmstyle.cpp:255
 msgid "High display resolution and Very High CPU"
 msgstr "ఎక్కువ ప్రదర్శన రెజొల్యూషన్ మరియు అత్యధిక CPU"
 
-#: kcmstyle.cpp:266
+#: kcmstyle.cpp:272
 msgctxt "@title:tab"
 msgid "&Applications"
 msgstr ""
 
-#: kcmstyle.cpp:267
+#: kcmstyle.cpp:273
 msgctxt "@title:tab"
 msgid "&Fine Tuning"
 msgstr "(&F) ఫైన్ ట్యూనింగ్"
 
-#: kcmstyle.cpp:297 kcmstyle.cpp:308
+#: kcmstyle.cpp:303 kcmstyle.cpp:314
 msgid "There was an error loading the configuration dialog for this style."
 msgstr "ఈ శైలి కొరకు ఆకృతీకరణ డైలాగును లోడుచేయుటలో వొక దోషము వుంది."
 
-#: kcmstyle.cpp:299 kcmstyle.cpp:310
+#: kcmstyle.cpp:305 kcmstyle.cpp:316
 msgid "Unable to Load Dialog"
 msgstr "డైలాగును లోడు చేయలేకపోయింది"
 
-#: kcmstyle.cpp:382
+#: kcmstyle.cpp:388
 msgid ""
 "<p>Changes to the visibility of menu icons will only affect newly started "
 "applications.</p>"
 msgstr ""
 
-#: kcmstyle.cpp:383
+#: kcmstyle.cpp:389
 msgctxt "@title:window"
 msgid "Menu Icons Changed"
 msgstr ""
 
-#: kcmstyle.cpp:540 kcmstyle.cpp:651
+#: kcmstyle.cpp:433
+msgid "Settings changes will take effect only on application restart"
+msgstr ""
+
+#: kcmstyle.cpp:610 kcmstyle.cpp:721
 msgid "No description available."
 msgstr "ఎటువంటి వివరణ అందుబాటులోలేదు."
 
-#: kcmstyle.cpp:651
+#: kcmstyle.cpp:721
 #, kde-format
 msgid "Description: %1"
 msgstr "వివరణ: %1"
 
-#: kcmstyle.cpp:734
+#: kcmstyle.cpp:835
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
 "buttons are drawn) which may or may not be combined with a theme (additional "
 "information like a marble texture or a gradient)."
 msgstr ""
 
-#: kcmstyle.cpp:738
+#: kcmstyle.cpp:839
 msgid ""
 "This area shows a preview of the currently selected style without having to "
 "apply it to the whole desktop."
 msgstr ""
 
-#: kcmstyle.cpp:741
+#: kcmstyle.cpp:842
 msgid "This page allows you to choose details about the widget style options"
 msgstr ""
 
-#: kcmstyle.cpp:742
+#: kcmstyle.cpp:843
 msgid ""
 "<p><b>No Text:</b> Shows only icons on toolbar buttons. Best option for low "
 "resolutions.</p><p><b>Text Only: </b>Shows only text on toolbar buttons.</"
@@ -234,13 +268,13 @@ msgid ""
 "and text on toolbar buttons. Text is aligned below the icon."
 msgstr ""
 
-#: kcmstyle.cpp:749
+#: kcmstyle.cpp:850
 msgid ""
 "If you enable this option, KDE Applications will show small icons alongside "
 "some important buttons."
 msgstr ""
 
-#: kcmstyle.cpp:751
+#: kcmstyle.cpp:852
 #, fuzzy
 #| msgid ""
 #| "If you enable this option, KDE Applications will run internal animations."
@@ -249,7 +283,7 @@ msgid ""
 "most menu items."
 msgstr "మీరు ఈ ఐచ్చికమును చేతనపరచినట్లైతే, KDE అనువర్తనములు అంతర్గత యానిమేషన్లను నడుపుతాయి."
 
-#: kcmstyle.cpp:753
+#: kcmstyle.cpp:854
 msgid ""
 "If you enable this option, KDE Applications will run internal animations."
 msgstr "మీరు ఈ ఐచ్చికమును చేతనపరచినట్లైతే, KDE అనువర్తనములు అంతర్గత యానిమేషన్లను నడుపుతాయి."
