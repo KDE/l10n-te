@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-12-15 03:06+0100\n"
+"POT-Creation-Date: 2013-01-12 10:29+0100\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -116,31 +116,31 @@ msgstr "టిఈపరీక్ష"
 msgid "Only local files are supported."
 msgstr "స్థానిక దస్త్రములకు మాత్రమే సహాయపడును"
 
-#: kconf_update/kconf_update.cpp:967
+#: kconf_update/kconf_update.cpp:968
 msgid "Keep output results from scripts"
 msgstr ""
 
-#: kconf_update/kconf_update.cpp:968
+#: kconf_update/kconf_update.cpp:969
 msgid "Check whether config file itself requires updating"
 msgstr ""
 
-#: kconf_update/kconf_update.cpp:969
+#: kconf_update/kconf_update.cpp:970
 msgid "File to read update instructions from"
 msgstr ""
 
-#: kconf_update/kconf_update.cpp:971
+#: kconf_update/kconf_update.cpp:972
 msgid "KConf Update"
 msgstr "KConf నవీకరణ"
 
-#: kconf_update/kconf_update.cpp:973
+#: kconf_update/kconf_update.cpp:974
 msgid "KDE Tool for updating user configuration files"
 msgstr "వినియోగదారి ఆకృతీకరణ దస్త్రములను నవీకరించుటకు KDE పనిముట్టు"
 
-#: kconf_update/kconf_update.cpp:975
+#: kconf_update/kconf_update.cpp:976
 msgid "(c) 2001, Waldo Bastian"
 msgstr "(c) 2001, వాల్డొ బాస్టియన్"
 
-#: kconf_update/kconf_update.cpp:977 kded/kbuildsycoca.cpp:639
+#: kconf_update/kconf_update.cpp:978 kded/kbuildsycoca.cpp:639
 #: khtml/khtml_global.cpp:213
 msgid "Waldo Bastian"
 msgstr "వాల్డొ బాస్టియన్"
@@ -9620,7 +9620,7 @@ msgstr "హెచ్ టిటిపి  హెడర్లు"
 msgid "Property"
 msgstr "గుణము"
 
-#: khtml/java/kjavaapplet.cpp:224
+#: khtml/java/kjavaapplet.cpp:225
 #, kde-format
 msgid "Initializing Applet \"%1\"..."
 msgstr "అప్లెట్ \"%1\"ను ప్రారంభిస్తున్నాము..."
@@ -9843,12 +9843,12 @@ msgstr "దస్త్రాలను త్రిగి వ్రాయి?"
 msgid "Overwrite"
 msgstr "తిరిగి వ్రాయు"
 
-#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:399
+#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:415
 #, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr "మీ $PATH లో డౌన్ లోడ్ అభికర్త (%1) లో కనపడుటలేదు "
 
-#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:400
+#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:416
 msgid ""
 "Try to reinstall it  \n"
 "\n"
@@ -10154,7 +10154,7 @@ msgid " - BCC: "
 msgstr "- బిసిసి:"
 
 #: khtml/khtml_part.cpp:3730 khtml/khtml_part.cpp:3959
-#: khtml/khtml_part.cpp:4380 khtml/khtml_run.cpp:104 kparts/browserrun.cpp:428
+#: khtml/khtml_part.cpp:4380 khtml/khtml_run.cpp:104 kparts/browserrun.cpp:444
 msgid "Save As"
 msgstr "ఇలా దాచు"
 
@@ -10972,7 +10972,7 @@ msgid "<h1>KJSEmbed Documentation Viewer</h1>"
 msgstr "<h1>KJSEmbed పత్రికీకరణ వీక్షణి</h1>"
 
 #. i18n: ectx: property (text), widget (QPushButton, mExecute)
-#: kjsembed/examples/kjsconsole/jsconsole.ui:106 kparts/browserrun.cpp:338
+#: kjsembed/examples/kjsconsole/jsconsole.ui:106 kparts/browserrun.cpp:354
 msgid "Execute"
 msgstr "నడుపు"
 
@@ -12513,83 +12513,82 @@ msgstr "ఇంటర్ నెట్ అన్వెషణ"
 msgid "&Search"
 msgstr "(&S) అన్వెషణ"
 
-#: kparts/browseropenorsavequestion.cpp:110
-#: kparts/browseropenorsavequestion.cpp:339
+#: kparts/browseropenorsavequestion.cpp:101
 #, fuzzy, kde-format
 #| msgid "Re: %1"
 msgctxt "@label Type of file"
 msgid "Type: %1"
 msgstr "పునరాచరణ: %1"
 
-#: kparts/browseropenorsavequestion.cpp:118
+#: kparts/browseropenorsavequestion.cpp:109
 #, fuzzy
 #| msgid "Do not show this message again"
 msgctxt "@label:checkbox"
 msgid "Remember action for files of this type"
 msgstr "ఈ సందేశము మరల చూపవద్దు"
 
-#: kparts/browseropenorsavequestion.cpp:149
-#: kparts/browseropenorsavequestion.cpp:225
+#: kparts/browseropenorsavequestion.cpp:140
+#: kparts/browseropenorsavequestion.cpp:215
 #, fuzzy, kde-format
 #| msgid "&Open with '%1'"
 msgctxt "@label:button"
 msgid "&Open with %1"
 msgstr "(&O) దీనితో తెరువండి '%1'"
 
-#: kparts/browseropenorsavequestion.cpp:199
+#: kparts/browseropenorsavequestion.cpp:189
 #, fuzzy, kde-format
 #| msgid "&Open with '%1'"
 msgctxt "@action:inmenu"
 msgid "Open &with %1"
 msgstr "(&O) దీనితో తెరువండి '%1'"
 
-#: kparts/browseropenorsavequestion.cpp:210
-#: kparts/browseropenorsavequestion.cpp:304
+#: kparts/browseropenorsavequestion.cpp:200
+#: kparts/browseropenorsavequestion.cpp:294
 #, fuzzy, kde-format
 #| msgid "Open '%1'"
 msgctxt "@info"
 msgid "Open '%1'?"
 msgstr "%1 తెరువండి"
 
-#: kparts/browseropenorsavequestion.cpp:214
+#: kparts/browseropenorsavequestion.cpp:204
 #, fuzzy
 #| msgid "&Open With..."
 msgctxt "@label:button"
 msgid "&Open with..."
 msgstr "(&O) దీనితో తెరువండి"
 
-#: kparts/browseropenorsavequestion.cpp:234
+#: kparts/browseropenorsavequestion.cpp:224
 #, fuzzy
 #| msgid "&Open With..."
 msgctxt "@label:button"
 msgid "&Open with"
 msgstr "(&O) దీనితో తెరువండి"
 
-#: kparts/browseropenorsavequestion.cpp:301
+#: kparts/browseropenorsavequestion.cpp:291
 #, fuzzy
 #| msgid "&Open"
 msgctxt "@label:button"
 msgid "&Open"
 msgstr "(&O) తెరువండి"
 
-#: kparts/browseropenorsavequestion.cpp:326
+#: kparts/browseropenorsavequestion.cpp:316
 #, fuzzy, kde-format
 #| msgid "Name: "
 msgctxt "@label File name"
 msgid "Name: %1"
 msgstr "పేరు:"
 
-#: kparts/browseropenorsavequestion.cpp:328
+#: kparts/browseropenorsavequestion.cpp:318
 msgctxt "@info:whatsthis"
 msgid "This is the file name suggested by the server"
 msgstr ""
 
-#: kparts/browserrun.cpp:337
+#: kparts/browserrun.cpp:353
 #, kde-format
 msgid "Do you really want to execute '%1'?"
 msgstr "'%1' ను నిజంగా నడపమంటారా?"
 
-#: kparts/browserrun.cpp:338
+#: kparts/browserrun.cpp:354
 msgid "Execute File?"
 msgstr "దస్త్రాన్ని నడపమంటారా?"
 
