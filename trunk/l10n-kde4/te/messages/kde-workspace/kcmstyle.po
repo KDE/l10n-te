@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-13 03:29+0100\n"
+"POT-Creation-Date: 2013-02-11 03:51+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -39,100 +39,6 @@ msgid "Your emails"
 msgstr ""
 "k.meetme@gmail.com \n"
 " infyquest@gmail.com"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: finetuning.ui:17
-msgid "Graphical effects:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: finetuning.ui:43
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Sho&w icons on buttons"
-msgid "Show icons on buttons:"
-msgstr "(&w) బటన్స్  పైన ప్రతిమలను చూపుము"
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: finetuning.ui:63
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Sho&w icons on buttons"
-msgid "Show icons in menus:"
-msgstr "(&w) బటన్స్  పైన ప్రతిమలను చూపుము"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: finetuning.ui:83
-msgid "Toolbars"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: finetuning.ui:89
-msgid "Main toolbar text:"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
-#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
-#: finetuning.ui:103 finetuning.ui:140
-msgid "No Text"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
-#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
-#: finetuning.ui:108 finetuning.ui:145
-msgid "Text Only"
-msgstr "వచనము మాత్రమే"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
-#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
-#: finetuning.ui:113 finetuning.ui:150
-#, fuzzy
-#| msgid "Text Alongside Icons"
-msgid "Text Beside Icons"
-msgstr "ప్రతిమల ప్రక్కన వచనము"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
-#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
-#: finetuning.ui:118 finetuning.ui:155
-#, fuzzy
-#| msgid "Text Under Icons"
-msgid "Text Below Icons"
-msgstr "ప్రతిమల క్రిందన వచనము"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: finetuning.ui:126
-msgid "Secondary toolbar text:"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, menubarBox)
-#: finetuning.ui:179
-msgid "Menubar"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labelMenubarStyle)
-#: finetuning.ui:185
-msgid "Menubar style:"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
-#: finetuning.ui:199
-msgid "In application"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
-#: finetuning.ui:204
-msgid "Title bar button"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
-#: finetuning.ui:209
-msgid "Top screen menubar"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
-#: finetuning.ui:214
-msgid "Only export"
-msgstr ""
 
 #: kcmstyle.cpp:167
 msgid ""
@@ -293,41 +199,51 @@ msgstr "మీరు ఈ ఐచ్చికమును చేతనపరచి
 msgid "Configure %1"
 msgstr "ఆకృతీకరించుము %1"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: stylepreview.ui:19
-msgid "Tab 1"
-msgstr "టాబ్ 1"
+#, fuzzy
+#~| msgctxt "@option:check"
+#~| msgid "Sho&w icons on buttons"
+#~ msgid "Show icons on buttons:"
+#~ msgstr "(&w) బటన్స్  పైన ప్రతిమలను చూపుము"
 
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: stylepreview.ui:29
-msgid "Group Box"
-msgstr "గ్రూప్ బాక్స్"
+#, fuzzy
+#~| msgctxt "@option:check"
+#~| msgid "Sho&w icons on buttons"
+#~ msgid "Show icons in menus:"
+#~ msgstr "(&w) బటన్స్  పైన ప్రతిమలను చూపుము"
 
-#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1)
-#. i18n: ectx: property (text), widget (QRadioButton, RadioButton2)
-#: stylepreview.ui:35 stylepreview.ui:45
-msgid "Radio button"
-msgstr "రేడియో బటన్"
+#~ msgid "Text Only"
+#~ msgstr "వచనము మాత్రమే"
 
-#. i18n: ectx: property (text), widget (QCheckBox, CheckBox1)
-#: stylepreview.ui:62
-msgid "Checkbox"
-msgstr "చెక్‌బాక్స్"
+#, fuzzy
+#~| msgid "Text Alongside Icons"
+#~ msgid "Text Beside Icons"
+#~ msgstr "ప్రతిమల ప్రక్కన వచనము"
 
-#. i18n: ectx: property (text), widget (QPushButton, PushButton1)
-#: stylepreview.ui:115
-msgid "Button"
-msgstr "బటన్"
+#, fuzzy
+#~| msgid "Text Under Icons"
+#~ msgid "Text Below Icons"
+#~ msgstr "ప్రతిమల క్రిందన వచనము"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, ComboBox1)
-#: stylepreview.ui:125
-msgid "Combobox"
-msgstr "కాంబోబాక్స్"
+#~ msgid "Tab 1"
+#~ msgstr "టాబ్ 1"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: stylepreview.ui:155
-msgid "Tab 2"
-msgstr "టాబ్ 2"
+#~ msgid "Group Box"
+#~ msgstr "గ్రూప్ బాక్స్"
+
+#~ msgid "Radio button"
+#~ msgstr "రేడియో బటన్"
+
+#~ msgid "Checkbox"
+#~ msgstr "చెక్‌బాక్స్"
+
+#~ msgid "Button"
+#~ msgstr "బటన్"
+
+#~ msgid "Combobox"
+#~ msgstr "కాంబోబాక్స్"
+
+#~ msgid "Tab 2"
+#~ msgstr "టాబ్ 2"
 
 #~ msgid "Icons Only"
 #~ msgstr "ప్రతిమలు మాత్రమే"
