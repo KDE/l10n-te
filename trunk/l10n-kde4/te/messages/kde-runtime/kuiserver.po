@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kuiserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:48+0100\n"
+"POT-Creation-Date: 2012-08-20 04:52+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -38,6 +38,41 @@ msgstr ""
 "k.meetme@gmail.com \n"
 " infyquest@gmail.com"
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupFinishedJobs)
+#: configdialog.ui:31
+msgid "Finished Jobs"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioMove)
+#: configdialog.ui:43
+msgid "Move them to a different list"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioRemove)
+#: configdialog.ui:50
+msgid "Remove them"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupAppearance)
+#: configdialog.ui:60
+msgid "Appearance"
+msgstr "కనిపించువిధం"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioList)
+#: configdialog.ui:72
+msgid "Show all jobs in a list"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioTree)
+#: configdialog.ui:79
+msgid "Show all jobs in a tree"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkShowSeparateWindows)
+#: configdialog.ui:86
+msgid "Show separate windows"
+msgstr ""
+
 #: jobview.cpp:124 jobview.cpp:152
 #, kde-format
 msgid "%1 file"
@@ -51,6 +86,31 @@ msgid "%1 folder"
 msgid_plural "%1 folders"
 msgstr[0] ""
 msgstr[1] ""
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:8
+msgid "Move them to a different list."
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:12
+msgid "Remove them."
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:16
+msgid "Show all jobs in a list."
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:20
+msgid "Show all jobs in a tree."
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:24
+msgid "Show separate windows."
+msgstr ""
 
 #: main.cpp:40
 msgid "Job Manager"
@@ -145,9 +205,6 @@ msgstr ""
 #: uiserver.cpp:132
 msgid "Behavior"
 msgstr "ప్రవర్తన"
-
-#~ msgid "Appearance"
-#~ msgstr "కనిపించువిధం"
 
 #~ msgid "Search"
 #~ msgstr "శోధించుము"

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:42+0100\n"
+"POT-Creation-Date: 2013-01-08 12:29+0100\n"
 "PO-Revision-Date: 2007-07-19 15:17+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -117,6 +117,23 @@ msgstr ""
 
 #: kchatdialog.cpp:138
 msgid "Maximum number of messages (-1 = unlimited):"
+msgstr ""
+
+#. i18n: ectx: Menu (game)
+#: kfourinlineui.rc:10
+#, fuzzy
+#| msgid "Name"
+msgid "&Game"
+msgstr "పేరు"
+
+#. i18n: ectx: Menu (settings)
+#: kfourinlineui.rc:18
+msgid "&Settings"
+msgstr ""
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kfourinlineui.rc:24
+msgid "Main Toolbar"
 msgstr ""
 
 #: kgameconnectdialog.cpp:73
@@ -383,14 +400,14 @@ msgstr ""
 msgid "Network status: You are connected"
 msgstr ""
 
-#: kwin4.cpp:81
+#: kwin4.cpp:81 kwin4.kcfg:32
 #, fuzzy
 #| msgid "Player 1"
 msgctxt "default name of first player"
 msgid "Player 1"
 msgstr "మొదటి ఆటగాడు"
 
-#: kwin4.cpp:82
+#: kwin4.cpp:82 kwin4.kcfg:39
 #, fuzzy
 #| msgid "Player 2"
 msgctxt "default name of second player"
@@ -512,6 +529,37 @@ msgstr "ఎరుపు రంగు అవతలి ఆటగాడు వా�
 msgid "General"
 msgstr "సామాన్య"
 
+#. i18n: ectx: label, entry (port), group (Parameter)
+#: kwin4.kcfg:10
+msgid "Network connection port"
+msgstr "నెట్వర్క్ పోర్ట్"
+
+#. i18n: ectx: label, entry (gamename), group (Parameter)
+#: kwin4.kcfg:14
+msgid "Game name"
+msgstr "ఆట పేరు"
+
+#. i18n: ectx: label, entry (host), group (Parameter)
+#: kwin4.kcfg:17
+msgid "Network connection host"
+msgstr "నెట్వర్క్ కంప్యూటర్ పేరు"
+
+#. i18n: ectx: property (whatsThis), widget (QSlider, kcfg_level)
+#. i18n: ectx: label, entry (level), group (Parameter)
+#: kwin4.kcfg:21 settings.ui:50
+msgid "Change the strength of the computer player."
+msgstr "కంప్యూటర్ ఆటగాడి బలాన్ని మార్చు"
+
+#. i18n: ectx: label, entry (Name1), group (Parameter)
+#: kwin4.kcfg:28
+msgid "Player 1 name"
+msgstr "మొదటి ఆటగాడి పేరు"
+
+#. i18n: ectx: label, entry (Name2), group (Parameter)
+#: kwin4.kcfg:35
+msgid "Player 2 name"
+msgstr "రెండవ ఆటగాడి పేరు"
+
 #: main.cpp:63
 msgid "KFourInLine"
 msgstr ""
@@ -577,108 +625,162 @@ msgctxt "computer level"
 msgid "Level %1"
 msgstr "స్ధాయి"
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: settings.ui:38
+msgid "Computer Difficulty"
+msgstr "కంప్యూటర్ ప్రతిబంధకం"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: settings.ui:83
+msgid "Easy"
+msgstr "తేలిక"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: settings.ui:90
+msgid "Hard"
+msgstr "కష్టము"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_learning)
+#: settings.ui:102
+msgid "Use AI learning"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, Input1)
+#: settings.ui:112
+msgid "Red Plays With"
+msgstr "ఎరుపు ఆటగాడు వాడేది"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_input1mouse)
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_input0mouse)
+#: settings.ui:132 settings.ui:181
+msgid "Mouse"
+msgstr "మౌస్"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_input1key)
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_input0key)
+#: settings.ui:142 settings.ui:191
+msgid "Keyboard"
+msgstr "కీబోర్డ్"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_input1ai)
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_input0ai)
+#: settings.ui:149 settings.ui:198
+msgid "Computer"
+msgstr "కంప్యూటర్"
+
+#. i18n: ectx: property (title), widget (QGroupBox, Input0)
+#: settings.ui:161
 #, fuzzy
-#~| msgid "Name"
-#~ msgid "&Game"
-#~ msgstr "పేరు"
+#| msgid "Red Plays With"
+msgid "Black Plays With"
+msgstr "ఎరుపు ఆటగాడు వాడేది"
 
-#~ msgid "Network connection port"
-#~ msgstr "నెట్వర్క్ పోర్ట్"
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: settings.ui:216
+msgid "Player Names"
+msgstr "ఆటగాళ్ల పేర్లు"
 
-#~ msgid "Game name"
-#~ msgstr "ఆట పేరు"
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: settings.ui:242
+msgid "Player 1:"
+msgstr "మొదటి ఆటగాడు:"
 
-#~ msgid "Network connection host"
-#~ msgstr "నెట్వర్క్ కంప్యూటర్ పేరు"
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: settings.ui:249
+msgid "Player 2:"
+msgstr "రెండవ ఆటగాడు:"
 
-#~ msgid "Change the strength of the computer player."
-#~ msgstr "కంప్యూటర్ ఆటగాడి బలాన్ని మార్చు"
+#. i18n: ectx: property (title), widget (QGroupBox, StartColour)
+#: settings.ui:267
+msgid "Starting Player Color"
+msgstr "మొదటి ఆటగాడు ఎంచుకున్న రంగు"
 
-#~ msgid "Player 1 name"
-#~ msgstr "మొదటి ఆటగాడి పేరు"
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_startcolourred)
+#: settings.ui:287
+msgid "Red"
+msgstr "ఎరుపు"
 
-#~ msgid "Player 2 name"
-#~ msgstr "రెండవ ఆటగాడి పేరు"
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_startcolouryellow)
+#: settings.ui:297
+msgid "Black"
+msgstr ""
 
-#~ msgid "Computer Difficulty"
-#~ msgstr "కంప్యూటర్ ప్రతిబంధకం"
+#. i18n: ectx: property (windowTitle), widget (QDialog, Statistics)
+#: statistics.ui:13
+msgid "Statistics"
+msgstr "గణాంకాలు"
 
-#~ msgid "Easy"
-#~ msgstr "తేలిక"
+#. i18n: ectx: property (text), widget (QLabel, p1_name)
+#: statistics.ui:57 statuswidget.ui:113
+msgid "Player 1"
+msgstr "మొదటి ఆటగాడు"
 
-#~ msgid "Hard"
-#~ msgstr "కష్టము"
+#. i18n: ectx: property (text), widget (QLabel, Name)
+#: statistics.ui:64
+msgid "Name"
+msgstr "పేరు"
 
-#~ msgid "Red Plays With"
-#~ msgstr "ఎరుపు ఆటగాడు వాడేది"
+#. i18n: ectx: property (text), widget (QLabel, won)
+#: statistics.ui:74
+msgid "Won"
+msgstr "గెలిచినవి"
 
-#~ msgid "Mouse"
-#~ msgstr "మౌస్"
+#. i18n: ectx: property (text), widget (QLabel, lost)
+#: statistics.ui:87
+msgid "Lost"
+msgstr "ఓడిపోయినవి"
 
-#~ msgid "Keyboard"
-#~ msgstr "కీబోర్డ్"
+#. i18n: ectx: property (text), widget (QLabel, sum)
+#: statistics.ui:103
+msgid "Sum"
+msgstr "మొత్తము"
 
-#~ msgid "Computer"
-#~ msgstr "కంప్యూటర్"
+#. i18n: ectx: property (text), widget (QLabel, aborted)
+#: statistics.ui:113
+msgid "Aborted"
+msgstr "ఆపివేయబడినది"
 
-#, fuzzy
-#~| msgid "Red Plays With"
-#~ msgid "Black Plays With"
-#~ msgstr "ఎరుపు ఆటగాడు వాడేది"
+#. i18n: ectx: property (text), widget (QPushButton, pushButton1)
+#: statistics.ui:131
+msgid "Clear All Statistics"
+msgstr "గణాంకాలను చెరిపివేయండి"
 
-#~ msgid "Player Names"
-#~ msgstr "ఆటగాళ్ల పేర్లు"
+#. i18n: ectx: property (text), widget (QPushButton, pushButton2)
+#: statistics.ui:154
+msgid "&Close"
+msgstr ""
 
-#~ msgid "Player 1:"
-#~ msgstr "మొదటి ఆటగాడు:"
+#. i18n: ectx: property (text), widget (QLabel, p2_name)
+#: statistics.ui:166 statuswidget.ui:220
+msgid "Player 2"
+msgstr "రెండవ ఆటగాడు"
 
-#~ msgid "Player 2:"
-#~ msgstr "రెండవ ఆటగాడు:"
+#. i18n: ectx: property (text), widget (QLabel, drawn)
+#: statistics.ui:176
+msgid "Drawn"
+msgstr "ఉభయత్ర గెలుపులేని ఆట"
 
-#~ msgid "Starting Player Color"
-#~ msgstr "మొదటి ఆటగాడు ఎంచుకున్న రంగు"
+#. i18n: ectx: property (text), widget (QLabel, wins)
+#: statuswidget.ui:63
+msgid "W"
+msgstr "W"
 
-#~ msgid "Red"
-#~ msgstr "ఎరుపు"
+#. i18n: ectx: property (text), widget (QLabel, draws)
+#: statuswidget.ui:73
+msgid "D"
+msgstr "D"
 
-#~ msgid "Statistics"
-#~ msgstr "గణాంకాలు"
+#. i18n: ectx: property (text), widget (QLabel, loses)
+#: statuswidget.ui:83
+msgid "L"
+msgstr "L"
 
-#~ msgid "Player 1"
-#~ msgstr "మొదటి ఆటగాడు"
+#. i18n: ectx: property (text), widget (QLabel, num)
+#: statuswidget.ui:93
+msgid "No"
+msgstr ""
 
-#~ msgid "Name"
-#~ msgstr "పేరు"
-
-#~ msgid "Won"
-#~ msgstr "గెలిచినవి"
-
-#~ msgid "Lost"
-#~ msgstr "ఓడిపోయినవి"
-
-#~ msgid "Sum"
-#~ msgstr "మొత్తము"
-
-#~ msgid "Aborted"
-#~ msgstr "ఆపివేయబడినది"
-
-#~ msgid "Clear All Statistics"
-#~ msgstr "గణాంకాలను చెరిపివేయండి"
-
-#~ msgid "Player 2"
-#~ msgstr "రెండవ ఆటగాడు"
-
-#~ msgid "Drawn"
-#~ msgstr "ఉభయత్ర గెలుపులేని ఆట"
-
-#~ msgid "W"
-#~ msgstr "W"
-
-#~ msgid "D"
-#~ msgstr "D"
-
-#~ msgid "L"
-#~ msgstr "L"
-
-#~ msgid "Bk"
-#~ msgstr "Bk"
+#. i18n: ectx: property (text), widget (QLabel, bk)
+#: statuswidget.ui:103
+msgid "Bk"
+msgstr "Bk"
