@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmenuedit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-12-09 03:02+0100\n"
+"POT-Creation-Date: 2013-02-22 13:00+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -124,33 +124,51 @@ msgid ""
 "activated."
 msgstr ""
 
-#: kmenuedit.cpp:78
+#: kmenuedit.cpp:79
 msgid "&New Submenu..."
 msgstr ""
 
-#: kmenuedit.cpp:82
+#: kmenuedit.cpp:83
 msgid "New &Item..."
 msgstr ""
 
-#: kmenuedit.cpp:86
+#: kmenuedit.cpp:87
 msgid "New S&eparator"
 msgstr ""
 
-#: kmenuedit.cpp:95
+#: kmenuedit.cpp:90
+msgid "&Sort All By ..."
+msgstr ""
+
+#: kmenuedit.cpp:94 kmenuedit.cpp:104
+#, fuzzy
+#| msgid "&Name:"
+msgid "&Name"
+msgstr "(&N) పేరు:"
+
+#: kmenuedit.cpp:97 kmenuedit.cpp:107
+msgid "&Description"
+msgstr ""
+
+#: kmenuedit.cpp:100
+msgid "&Sort By ..."
+msgstr ""
+
+#: kmenuedit.cpp:116
 msgid "Restore to System Menu"
 msgstr ""
 
-#: kmenuedit.cpp:175
+#: kmenuedit.cpp:196
 msgid "&Delete"
 msgstr ""
 
-#: kmenuedit.cpp:199
+#: kmenuedit.cpp:220
 msgid ""
 "You have made changes to the menu.\n"
 "Do you want to save the changes or discard them?"
 msgstr ""
 
-#: kmenuedit.cpp:201
+#: kmenuedit.cpp:222
 msgid "Save Menu Changes?"
 msgstr ""
 
@@ -165,7 +183,7 @@ msgid "&Edit"
 msgstr "(&E) సరికూర్చు"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: kmenueditui.rc:28
+#: kmenueditui.rc:31
 msgid "Main Toolbar"
 msgstr "మెయిన్ పనిముట్లపట్టీ"
 
@@ -234,36 +252,36 @@ msgstr ""
 msgid "Show hidden entries"
 msgstr ""
 
-#: treeview.cpp:142
+#: treeview.cpp:192
 msgid " [Hidden]"
 msgstr ""
 
-#: treeview.cpp:1048
+#: treeview.cpp:1123
 msgid "New Submenu"
 msgstr ""
 
-#: treeview.cpp:1049
+#: treeview.cpp:1124
 msgid "Submenu name:"
 msgstr ""
 
-#: treeview.cpp:1118
+#: treeview.cpp:1193
 msgid "New Item"
 msgstr ""
 
-#: treeview.cpp:1119
+#: treeview.cpp:1194
 msgid "Item name:"
 msgstr ""
 
-#: treeview.cpp:1429
+#: treeview.cpp:1604
 #, kde-format
 msgid "All submenus of '%1' will be removed. Do you want to continue?"
 msgstr ""
 
-#: treeview.cpp:1595
+#: treeview.cpp:1770
 msgid "Menu changes could not be saved because of the following problem:"
 msgstr ""
 
-#: treeview.cpp:1640
+#: treeview.cpp:1815
 msgid ""
 "Do you want to restore the system menu? Warning: This will remove all custom "
 "menus."
