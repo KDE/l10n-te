@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsamba\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 05:30+0200\n"
+"POT-Creation-Date: 2013-03-05 05:21+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -38,7 +38,7 @@ msgstr ""
 "k.meetme@gmail.com \n"
 " infyquest@gmail.com"
 
-#: kcmsambaimports.cpp:43 ksmbstatus.cpp:51
+#: kcmsambaimports.cpp:43 ksmbstatus.cpp:52
 msgid "Type"
 msgstr "రకము"
 
@@ -84,7 +84,7 @@ msgstr "మూసిన ఫైళ్ళను చూపుము"
 msgid "&Update"
 msgstr "(&U) నవీకరణ"
 
-#: kcmsambalog.cpp:57
+#: kcmsambalog.cpp:58
 msgid ""
 "This page presents the contents of your samba log file in a friendly layout. "
 "Check that the correct log file for your computer is listed here. If you "
@@ -92,20 +92,20 @@ msgid ""
 "\"Update\" button."
 msgstr ""
 
-#: kcmsambalog.cpp:62
+#: kcmsambalog.cpp:63
 msgid ""
 "Check this option if you want to view the details for connections opened to "
 "your computer."
 msgstr ""
 "మీ కంప్యూటరుకు తెరిచిన అనుసంధానముల వివరములను మీరు వీక్షించాలని కొరుకుంటే ఈ ఐచ్చికాన్ని చెక్ చేయుము."
 
-#: kcmsambalog.cpp:65
+#: kcmsambalog.cpp:66
 msgid ""
 "Check this option if you want to view the events when connections to your "
 "computer were closed."
 msgstr ""
 
-#: kcmsambalog.cpp:68
+#: kcmsambalog.cpp:69
 msgid ""
 "Check this option if you want to see the files which were opened on your "
 "computer by remote users. Note that file open/close events are not logged "
@@ -113,7 +113,7 @@ msgid ""
 "level using this module)."
 msgstr ""
 
-#: kcmsambalog.cpp:74
+#: kcmsambalog.cpp:75
 msgid ""
 "Check this option if you want to see the events when files opened by remote "
 "users were closed. Note that file open/close events are not logged unless "
@@ -121,29 +121,29 @@ msgid ""
 "this module)."
 msgstr ""
 
-#: kcmsambalog.cpp:80
+#: kcmsambalog.cpp:81
 msgid ""
 "Click here to refresh the information on this page. The log file (shown "
 "above) will be read to obtain the events logged by samba."
 msgstr ""
 
-#: kcmsambalog.cpp:88 kcmsambalog.cpp:89
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:90
 msgid "Date & Time"
 msgstr "తేది & సమయం"
 
-#: kcmsambalog.cpp:88 kcmsambalog.cpp:89 kcmsambastatistics.cpp:64
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:90 kcmsambastatistics.cpp:69
 msgid "Event"
 msgstr "ఘటన"
 
-#: kcmsambalog.cpp:88 kcmsambalog.cpp:90 kcmsambastatistics.cpp:64
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:91 kcmsambastatistics.cpp:69
 msgid "Service/File"
 msgstr "సేవ/ఫైలు"
 
-#: kcmsambalog.cpp:89 kcmsambalog.cpp:90 kcmsambastatistics.cpp:64
+#: kcmsambalog.cpp:90 kcmsambalog.cpp:91 kcmsambastatistics.cpp:69
 msgid "Host/User"
 msgstr "హోస్టు/వినియోగదారి"
 
-#: kcmsambalog.cpp:93
+#: kcmsambalog.cpp:94
 msgid ""
 "<p>This list shows details of the events logged by samba. Note that events "
 "at the file level are not logged unless you have configured the log level "
@@ -154,23 +154,23 @@ msgid ""
 "be read and the list refreshed.</p>"
 msgstr ""
 
-#: kcmsambalog.cpp:204 kcmsambastatistics.cpp:147 kcmsambastatistics.cpp:212
+#: kcmsambalog.cpp:205 kcmsambastatistics.cpp:152 kcmsambastatistics.cpp:217
 msgid "CONNECTION OPENED"
 msgstr "అనుసంధానము తెరువబడింది"
 
-#: kcmsambalog.cpp:208
+#: kcmsambalog.cpp:209
 msgid "CONNECTION CLOSED"
 msgstr "అనుసంధానము మూయబడింది"
 
-#: kcmsambalog.cpp:213
+#: kcmsambalog.cpp:214
 msgid "            FILE OPENED"
 msgstr "            ఫైలు తెరువబడింది"
 
-#: kcmsambalog.cpp:219
+#: kcmsambalog.cpp:220
 msgid "            FILE CLOSED"
 msgstr "            ఫైలు మూయబడింది"
 
-#: kcmsambalog.cpp:227
+#: kcmsambalog.cpp:228
 #, kde-format
 msgid "Could not open file %1"
 msgstr "ఫైలు %1ను తెరువలేక పోయింది"
@@ -179,97 +179,97 @@ msgstr "ఫైలు %1ను తెరువలేక పోయింది"
 msgid "Connections: 0"
 msgstr "అనుసంధానములు: 0"
 
-#: kcmsambastatistics.cpp:45
+#: kcmsambastatistics.cpp:46
 msgid "File accesses: 0"
 msgstr "ఫైల్ యాక్సెస్: 0"
 
-#: kcmsambastatistics.cpp:47
+#: kcmsambastatistics.cpp:49
 msgid "Event: "
 msgstr "ఘటన: "
 
-#: kcmsambastatistics.cpp:50
+#: kcmsambastatistics.cpp:53
 msgid "Service/File:"
 msgstr "సేవ/ఫైలు:"
 
-#: kcmsambastatistics.cpp:53
+#: kcmsambastatistics.cpp:57
 msgid "Host/User:"
 msgstr "హోస్టు/వినియోగదారి:"
 
-#: kcmsambastatistics.cpp:55
+#: kcmsambastatistics.cpp:60
 msgid "&Search"
 msgstr "(&S) శోధించు"
 
-#: kcmsambastatistics.cpp:56
+#: kcmsambastatistics.cpp:61
 msgid "Clear Results"
 msgstr "ఫలితాలను శుభ్రముచేయుము"
 
-#: kcmsambastatistics.cpp:57
+#: kcmsambastatistics.cpp:62
 msgid "Show expanded service info"
 msgstr "విస్తరించిన సేవ సమాచారమును చూపుము"
 
-#: kcmsambastatistics.cpp:58
+#: kcmsambastatistics.cpp:63
 msgid "Show expanded host info"
 msgstr "విస్తరించిన హోస్టు సమాచారమును చూపుము"
 
-#: kcmsambastatistics.cpp:64
+#: kcmsambastatistics.cpp:69
 msgid "Nr"
 msgstr "Nr"
 
-#: kcmsambastatistics.cpp:64
+#: kcmsambastatistics.cpp:69
 msgid "Hits"
 msgstr "హిట్స్"
 
-#: kcmsambastatistics.cpp:68 kcmsambastatistics.cpp:135
+#: kcmsambastatistics.cpp:73 kcmsambastatistics.cpp:140
 msgid "Connection"
 msgstr "అనుసంధానము"
 
-#: kcmsambastatistics.cpp:69
+#: kcmsambastatistics.cpp:74
 msgid "File Access"
 msgstr "ఫైలు యాక్సెస్"
 
-#: kcmsambastatistics.cpp:125
+#: kcmsambastatistics.cpp:130
 #, kde-format
 msgid "Connections: %1"
 msgstr "అనుసంధానములు: %1"
 
-#: kcmsambastatistics.cpp:126
+#: kcmsambastatistics.cpp:131
 #, kde-format
 msgid "File accesses: %1"
 msgstr "ఫైల్ యాక్సెస్: %1"
 
-#: kcmsambastatistics.cpp:160 kcmsambastatistics.cpp:215
+#: kcmsambastatistics.cpp:165 kcmsambastatistics.cpp:220
 msgid "FILE OPENED"
 msgstr "ఫైలు తెరువబడింది"
 
-#: ksmbstatus.cpp:51
+#: ksmbstatus.cpp:52
 msgid "Service"
 msgstr "సేవ"
 
-#: ksmbstatus.cpp:51
+#: ksmbstatus.cpp:52
 msgid "Accessed From"
 msgstr "యాక్సెస్‌చేసిన ఫాం"
 
-#: ksmbstatus.cpp:52
+#: ksmbstatus.cpp:53
 msgid "UID"
 msgstr "UID"
 
-#: ksmbstatus.cpp:52
+#: ksmbstatus.cpp:53
 msgid "GID"
 msgstr "GID"
 
-#: ksmbstatus.cpp:52
+#: ksmbstatus.cpp:53
 msgid "PID"
 msgstr "PID"
 
-#: ksmbstatus.cpp:52
+#: ksmbstatus.cpp:53
 msgid "Open Files"
 msgstr "తెరిచిన ఫైళ్ళు"
 
-#: ksmbstatus.cpp:156
+#: ksmbstatus.cpp:157
 msgid "Error: Unable to run smbstatus"
 msgstr "దోషము: smbstatusను నడుపలేక పోయింది"
 
-#: ksmbstatus.cpp:178
+#: ksmbstatus.cpp:179
 msgid "Error: Unable to open configuration file \"smb.conf\""
 msgstr "దోషము: ఆకృతీకరణ ఫైలు \"smb.conf\" తెరువలేక పోయింది"
 
