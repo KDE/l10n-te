@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kbattleship\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-20 03:18+0100\n"
+"POT-Creation-Date: 2013-03-11 03:25+0100\n"
 "PO-Revision-Date: 2007-07-17 17:57+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -24,7 +24,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: controller.cpp:50
+#: controller.cpp:51
 #, fuzzy
 #| msgid "Computer Player"
 msgid "Computer"
@@ -52,8 +52,13 @@ msgstr "(&N) ముద్దు పేరు:"
 msgid "Whether sound effects should be played."
 msgstr ""
 
+#. i18n: ectx: label, entry (AdjacentShips), group (general)
+#: kbattleship.kcfg:26
+msgid "Allow the ships to be adjacent without one empty space between them."
+msgstr ""
+
 #. i18n: ectx: ToolBar (gameToolbar)
-#: kbattleshipui.rc:27
+#: kbattleshipui.rc:28
 msgid "Game Toolbar"
 msgstr ""
 
@@ -231,27 +236,31 @@ msgstr ""
 msgid "&Connect to Game..."
 msgstr ""
 
-#: mainwindow.cpp:71
+#: mainwindow.cpp:72
 #, fuzzy
 #| msgid "&Nick name:"
 msgid "Change &Nickname..."
 msgstr "(&N) ముద్దు పేరు:"
 
-#: mainwindow.cpp:74
+#: mainwindow.cpp:75
 #, fuzzy
 #| msgid "&Play Sounds"
 msgid "&Play Sounds"
 msgstr "(&P) శబ్ధాలను వాడండి"
 
-#: mainwindow.cpp:78
+#: mainwindow.cpp:79
+msgid "&Adjacent Ships"
+msgstr ""
+
+#: mainwindow.cpp:84
 msgid "Show End-of-Game Message"
 msgstr ""
 
-#: mainwindow.cpp:83
+#: mainwindow.cpp:89
 msgid "Show &Left Grid"
 msgstr ""
 
-#: mainwindow.cpp:87
+#: mainwindow.cpp:93
 msgid "Show &Right Grid"
 msgstr ""
 
@@ -295,6 +304,14 @@ msgstr "సమాధానం కొరకు వేచియున్నాన�
 
 #: networkdialog.cpp:234
 msgid "Could not connect to host"
+msgstr ""
+
+#: networkentity.cpp:213
+msgid "You can place ships adjacent to each other"
+msgstr ""
+
+#: networkentity.cpp:216
+msgid "You must leave an space between ships"
 msgstr ""
 
 #: playerentity.cpp:167
@@ -346,52 +363,52 @@ msgstr "(&N) ముద్దు పేరు:"
 msgid "Enter new nickname:"
 msgstr ""
 
-#: playfield.cpp:235
+#: playfield.cpp:241
 #, fuzzy
 #| msgid "Restart"
 msgid "Restart game"
 msgstr "మరల మొదలుపెట్టు"
 
-#: playfield.cpp:236
+#: playfield.cpp:242
 msgid "Your opponent has requested to restart the game. Do you accept?"
 msgstr ""
 
-#: playfield.cpp:245
+#: playfield.cpp:251
 msgid ""
 "Your opponent is using a pre-KDE4 version of Naval Battle. Note that, "
 "according to the rules enforced by old clients, ships cannot be placed "
 "adjacent to one another."
 msgstr ""
 
-#: playfield.cpp:258
+#: playfield.cpp:264
 #, fuzzy
 #| msgid "Enemy has shot. Shoot now."
 msgid "Enemy has shot. Shoot now!"
 msgstr "సెత్రువు పేల్చడు. ఇప్పుడు మీరే పేల్చాలి"
 
-#: playfield.cpp:262
+#: playfield.cpp:268
 #, fuzzy
 #| msgid "Waiting for an answer..."
 msgid "Waiting for enemy to shoot..."
 msgstr "సమాధానం కొరకు వేచియున్నాను ..."
 
-#: playfield.cpp:271
+#: playfield.cpp:277
 msgid "Ships placed. Now shoot on the enemy field!"
 msgstr ""
 
-#: playfield.cpp:274
+#: playfield.cpp:280
 #, fuzzy
 #| msgid "Waiting for a player..."
 msgid "Waiting for other player to start the game..."
 msgstr "ఆటగాడి కొరకు వేచియున్నాను..."
 
-#: playfield.cpp:278
+#: playfield.cpp:284
 #, fuzzy
 #| msgid "Waiting for a player..."
 msgid "Waiting for other player to place his ships..."
 msgstr "ఆటగాడి కొరకు వేచియున్నాను..."
 
-#: playfield.cpp:286
+#: playfield.cpp:292
 msgid "Place your ships. Use the right mouse button to rotate them."
 msgstr ""
 
