@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-16 03:18+0100\n"
+"POT-Creation-Date: 2013-03-26 02:23+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -26,158 +26,170 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: folderview.cpp:718
-msgid "Title"
-msgstr ""
-
-#: folderview.cpp:723 folderview.cpp:732 folderview.cpp:2144
+#: folderview.cpp:708
 msgid "None"
 msgstr ""
 
-#: folderview.cpp:725 folderview.cpp:733 folderview.cpp:2147
+#: folderview.cpp:709
 msgid "Default"
 msgstr ""
 
-#: folderview.cpp:727 folderview.cpp:734 folderview.cpp:2150
-msgid "Full path"
+#: folderview.cpp:710
+msgid "Full Path"
 msgstr ""
 
-#: folderview.cpp:747
+#: folderview.cpp:711
+msgid "Custom title"
+msgstr ""
+
+#: folderview.cpp:735
 msgctxt "Sort Icons"
 msgid "Unsorted"
 msgstr ""
 
-#: folderview.cpp:754
+#: folderview.cpp:742
 msgid "Top to Bottom, Left to Right"
 msgstr ""
 
-#: folderview.cpp:755
+#: folderview.cpp:743
 msgid "Top to Bottom, Right to Left"
 msgstr ""
 
-#: folderview.cpp:756
+#: folderview.cpp:744
 msgid "Left to Right, Top to Bottom"
 msgstr ""
 
-#: folderview.cpp:757
+#: folderview.cpp:745
 msgid "Right to Left, Top to Bottom"
 msgstr ""
 
-#: folderview.cpp:791
+#: folderview.cpp:747
+msgid "Show All Files"
+msgstr ""
+
+#: folderview.cpp:748
+msgid "Show Files Matching"
+msgstr ""
+
+#: folderview.cpp:749
+msgid "Hide Files Matching"
+msgstr ""
+
+#: folderview.cpp:808
 msgctxt ""
 "Title of the page that lets the user choose which location should the "
 "folderview show"
 msgid "Location"
 msgstr "స్థానం"
 
-#: folderview.cpp:792
+#: folderview.cpp:809
 msgctxt ""
 "Title of the page that lets the user choose how the folderview should be "
 "shown"
 msgid "Display"
 msgstr "ప్రదర్శన"
 
-#: folderview.cpp:793
+#: folderview.cpp:810
 msgctxt ""
 "Title of the page that lets the user choose how to filter the folderview "
 "contents"
 msgid "Filter"
 msgstr ""
 
-#: folderview.cpp:1378
+#: folderview.cpp:1392
 msgid "Network is not reachable"
 msgstr ""
 
-#: folderview.cpp:1396
+#: folderview.cpp:1410
 msgid "Desktop Folder"
 msgstr ""
 
-#: folderview.cpp:1489
+#: folderview.cpp:1503
 msgid "&Reload"
 msgstr ""
 
-#: folderview.cpp:1492
+#: folderview.cpp:1506
 msgid "&Refresh Desktop"
 msgstr ""
 
-#: folderview.cpp:1492
+#: folderview.cpp:1506
 msgid "&Refresh View"
 msgstr ""
 
-#: folderview.cpp:1500 popupview.cpp:266
+#: folderview.cpp:1514 popupview.cpp:266
 msgid "&Rename"
 msgstr ""
 
-#: folderview.cpp:1505 popupview.cpp:270
+#: folderview.cpp:1519 popupview.cpp:270
 msgid "&Move to Trash"
 msgstr ""
 
-#: folderview.cpp:1511 popupview.cpp:275
+#: folderview.cpp:1525 popupview.cpp:275
 msgid "&Empty Trash Bin"
 msgstr ""
 
-#: folderview.cpp:1516 popupview.cpp:280
+#: folderview.cpp:1530 popupview.cpp:280
 msgid "&Delete"
 msgstr ""
 
-#: folderview.cpp:1535
+#: folderview.cpp:1549
 msgid "Align to Grid"
 msgstr ""
 
-#: folderview.cpp:1540
+#: folderview.cpp:1554
 msgctxt "Icons on the desktop"
 msgid "Lock in Place"
 msgstr ""
 
-#: folderview.cpp:1547
+#: folderview.cpp:1561
 msgctxt "Sort icons"
 msgid "By Name"
 msgstr "పేరు ద్వారా"
 
-#: folderview.cpp:1548
+#: folderview.cpp:1562
 msgctxt "Sort icons"
 msgid "By Size"
 msgstr "పరిమాణము ద్వారా"
 
-#: folderview.cpp:1549
+#: folderview.cpp:1563
 msgctxt "Sort icons"
 msgid "By Type"
 msgstr "రకము ద్వారా"
 
-#: folderview.cpp:1550
+#: folderview.cpp:1564
 msgctxt "Sort icons"
 msgid "By Date"
 msgstr "తేదీ ద్వారా"
 
-#: folderview.cpp:1566
+#: folderview.cpp:1580
 msgctxt "Sort icons"
 msgid "Ascending"
 msgstr ""
 
-#: folderview.cpp:1567
+#: folderview.cpp:1581
 msgctxt "Sort icons"
 msgid "Descending"
 msgstr ""
 
-#: folderview.cpp:1575
+#: folderview.cpp:1589
 msgctxt "Sort icons"
 msgid "Folders First"
 msgstr ""
 
-#: folderview.cpp:1580
+#: folderview.cpp:1594
 msgid "Sort Icons"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, iconsTitle)
-#: folderview.cpp:1597 folderviewDisplayConfig.ui:80
+#: folderview.cpp:1611 folderviewDisplayConfig.ui:86
 msgid "Icons"
 msgstr "ప్రతిమలు"
 
-#: folderview.cpp:1626
+#: folderview.cpp:1640
 msgid "&Paste"
 msgstr "(&P) అతికించు"
 
-#: folderview.cpp:2064
+#: folderview.cpp:2087
 #, kde-format
 msgctxt "Inserted as %1 in the message below."
 msgid "1 folder"
@@ -185,7 +197,7 @@ msgid_plural "%1 folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: folderview.cpp:2065
+#: folderview.cpp:2088
 #, kde-format
 msgctxt "Inserted as %2 in the message below."
 msgid "1 file"
@@ -193,108 +205,36 @@ msgid_plural "%1 files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: folderview.cpp:2069 tooltipwidget.cpp:197
+#: folderview.cpp:2092 tooltipwidget.cpp:197
 #, kde-format
 msgctxt "%1 and %2 are the messages translated above."
 msgid "%1, %2."
 msgstr ""
 
-#: folderview.cpp:2071
+#: folderview.cpp:2094
 #, kde-format
 msgid "1 file."
 msgid_plural "%1 files."
 msgstr[0] ""
 msgstr[1] ""
 
-#. i18n: ectx: property (text), widget (QLabel, headerTitle)
-#: folderviewDisplayConfig.ui:29
-msgid "Header"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, titleLabel)
-#: folderviewDisplayConfig.ui:58
-msgid "Custom title:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, flowLabel)
-#: folderviewDisplayConfig.ui:103
-msgid "Arrangement:"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (KComboBox, flowCombo)
-#: folderviewDisplayConfig.ui:116
-msgid ""
-"Use this control to choose if you want the icons to be arranged top to "
-"bottom starting on the left side of the view, or arranged left to right "
-"starting at the top of the view."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, sortLabel)
-#: folderviewDisplayConfig.ui:123
-msgid "Sorting:"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (KComboBox, sortCombo)
-#: folderviewDisplayConfig.ui:136
-msgid ""
-"Use this control to choose the criteria by which the icons will be sorted in "
-"the view."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, sizeSliderLabel)
-#: folderviewDisplayConfig.ui:156 tooltipwidget.cpp:145
-#, fuzzy
-#| msgctxt "Sort icons"
-#| msgid "By Size"
-msgid "Size:"
-msgstr "పరిమాణము ద్వారా"
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: folderviewDisplayConfig.ui:171
-msgid "Small"
-msgstr "చిన్న"
-
-#. i18n: ectx: property (whatsThis), widget (QSlider, sizeSlider)
-#: folderviewDisplayConfig.ui:181
-msgid ""
-"Use this slider to increase or decrease the size of the icons in the view."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: folderviewDisplayConfig.ui:203
-msgid "Large"
-msgstr "పెద్ద"
-
-#. i18n: ectx: property (text), widget (QLabel, previewsAdvancedLabel)
-#: folderviewDisplayConfig.ui:212
-msgid "Previews:"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, showPreviews)
-#: folderviewDisplayConfig.ui:224
-msgid ""
-"Check this option if you want to see previews of the file contents in the "
-"icons."
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, previewsAdvanced)
-#: folderviewDisplayConfig.ui:234
-msgid ""
-"Click this button to choose for which types of files previews will be shown."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, previewsAdvanced)
-#: folderviewDisplayConfig.ui:237
-msgid "More Preview Options..."
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, lockInPlaceLabel)
-#: folderviewDisplayConfig.ui:259
+#: folderviewDisplayConfig.ui:17
 msgid "Lock in place:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, previewsAdvancedLabel)
+#: folderviewDisplayConfig.ui:27
+msgid "Previews:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, numLinesEditLabel)
+#: folderviewDisplayConfig.ui:37
+msgid "Lines:"
+msgstr ""
+
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, lockInPlace)
-#: folderviewDisplayConfig.ui:271
+#: folderviewDisplayConfig.ui:52
 msgid ""
 "Check this option if you do not want the icons to be moveable in the view.\n"
 "\n"
@@ -302,13 +242,8 @@ msgid ""
 "while interacting with them."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, alignToGridLabel)
-#: folderviewDisplayConfig.ui:281
-msgid "Align to grid:"
-msgstr ""
-
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, alignToGrid)
-#: folderviewDisplayConfig.ui:293
+#: folderviewDisplayConfig.ui:64
 msgid ""
 "Check this option if you want the icons to be arranged in a grid.\n"
 "\n"
@@ -316,65 +251,81 @@ msgid ""
 "grid cell when you move them around in the view."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, clickToViewLabel)
-#: folderviewDisplayConfig.ui:303
-msgid "Click to view folder:"
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, showPreviews)
+#: folderviewDisplayConfig.ui:95
+msgid ""
+"Check this option if you want to see previews of the file contents in the "
+"icons."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, previewsAdvanced)
+#: folderviewDisplayConfig.ui:105
+msgid ""
+"Click this button to choose for which types of files previews will be shown."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, previewsAdvanced)
+#: folderviewDisplayConfig.ui:108
+msgid "More Preview Options..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, drawShadowsLabel)
+#: folderviewDisplayConfig.ui:130
+msgid "Shadows:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, clickToView)
-#: folderviewDisplayConfig.ui:313
+#: folderviewDisplayConfig.ui:143
 msgid ""
 "Check this option if you want folder previews to appear only when clicked. "
 "When this option is turned off, folder previews will appear automatically "
 "when the mouse hovers over a folder."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, iconTextTitle)
-#: folderviewDisplayConfig.ui:335
-msgid "Icon Text"
+#. i18n: ectx: property (text), widget (QLabel, alignToGridLabel)
+#: folderviewDisplayConfig.ui:153
+msgid "Align to grid:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, numLinesEditLabel)
-#: folderviewDisplayConfig.ui:342
-msgid "Lines:"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, numLinesEdit)
-#: folderviewDisplayConfig.ui:361
+#. i18n: ectx: property (whatsThis), widget (KComboBox, flowCombo)
+#: folderviewDisplayConfig.ui:163
 msgid ""
-"Use this control to choose how many lines of text will be shown below the "
-"icons."
-msgstr ""
-
-#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, numLinesEdit)
-#: folderviewDisplayConfig.ui:364
-msgid "1 line"
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, numLinesEdit)
-#: folderviewDisplayConfig.ui:367
-msgid " lines"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, colorButtonLabel)
-#: folderviewDisplayConfig.ui:396
-msgid "Color:"
+"Use this control to choose if you want the icons to be arranged top to "
+"bottom starting on the left side of the view, or arranged left to right "
+"starting at the top of the view."
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, colorButton)
-#: folderviewDisplayConfig.ui:409
+#: folderviewDisplayConfig.ui:170
 msgid ""
 "Click this button to choose the color which is used for the text labels in "
 "the view."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, drawShadowsLabel)
-#: folderviewDisplayConfig.ui:419
-msgid "Shadows:"
+#. i18n: ectx: property (whatsThis), widget (KComboBox, sortCombo)
+#: folderviewDisplayConfig.ui:180
+msgid ""
+"Use this control to choose the criteria by which the icons will be sorted in "
+"the view."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, colorButtonLabel)
+#: folderviewDisplayConfig.ui:187
+msgid "Color:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, flowLabel)
+#: folderviewDisplayConfig.ui:213
+msgid "Arrangement:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, clickToViewLabel)
+#: folderviewDisplayConfig.ui:226
+msgid "Click to view folder:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, drawShadows)
-#: folderviewDisplayConfig.ui:436
+#: folderviewDisplayConfig.ui:240
 msgid ""
 "<html><body><p>Check this option if you want the text labels to cast a "
 "shadow on the background.</p>\n"
@@ -386,7 +337,58 @@ msgid ""
 "glow with a bright halo, instead of casting a shadow.</i></p></body></html>"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QComboBox, filterType)
+#. i18n: ectx: property (text), widget (QLabel, sizeSliderLabel)
+#: folderviewDisplayConfig.ui:263 tooltipwidget.cpp:145
+#, fuzzy
+#| msgctxt "Sort icons"
+#| msgid "By Size"
+msgid "Size:"
+msgstr "పరిమాణము ద్వారా"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, numLinesEdit)
+#: folderviewDisplayConfig.ui:282
+msgid ""
+"Use this control to choose how many lines of text will be shown below the "
+"icons."
+msgstr ""
+
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, numLinesEdit)
+#: folderviewDisplayConfig.ui:285
+msgid "1 line"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, numLinesEdit)
+#: folderviewDisplayConfig.ui:288
+msgid " lines"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, iconTextTitle)
+#: folderviewDisplayConfig.ui:329
+msgid "Icon Text"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: folderviewDisplayConfig.ui:354
+msgid "Small"
+msgstr "చిన్న"
+
+#. i18n: ectx: property (whatsThis), widget (QSlider, sizeSlider)
+#: folderviewDisplayConfig.ui:364
+msgid ""
+"Use this slider to increase or decrease the size of the icons in the view."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: folderviewDisplayConfig.ui:386
+msgid "Large"
+msgstr "పెద్ద"
+
+#. i18n: ectx: property (text), widget (QLabel, sortLabel)
+#: folderviewDisplayConfig.ui:395
+msgid "Sorting:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, filterCombo)
 #: folderviewFilterConfig.ui:34
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -406,33 +408,18 @@ msgid ""
 "will be shown.</p></body></html>"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, filterType)
-#: folderviewFilterConfig.ui:41
-msgid "Show All Files"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, filterType)
-#: folderviewFilterConfig.ui:46
-msgid "Show Files Matching"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, filterType)
-#: folderviewFilterConfig.ui:51
-msgid "Hide Files Matching"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QPushButton, selectAll)
-#: folderviewFilterConfig.ui:96
+#: folderviewFilterConfig.ui:81
 msgid "Select All"
 msgstr "అన్నిటిని ఎంపికచేయుము"
 
 #. i18n: ectx: property (text), widget (QPushButton, deselectAll)
-#: folderviewFilterConfig.ui:103
+#: folderviewFilterConfig.ui:88
 msgid "Deselect All"
 msgstr "అన్నిటి యెంపిక తీసివేయుము"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
-#: folderviewFilterConfig.ui:112
+#: folderviewFilterConfig.ui:97
 msgid ""
 "Note that if you have selected \"Show Files Matching\" or \"Hide Files "
 "Matching\",\n"
@@ -443,65 +430,77 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: folderviewFilterConfig.ui:115
+#: folderviewFilterConfig.ui:100
 msgid "<a href=\"null\">Cannot See Any Files?</a>"
 msgstr ""
 
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, searchMimetype)
-#: folderviewFilterConfig.ui:142
+#: folderviewFilterConfig.ui:127
 msgid "Search file type"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, fileTypesLabel)
-#: folderviewFilterConfig.ui:152
+#: folderviewFilterConfig.ui:137
 msgid "File types:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, fileNameLabel)
-#: folderviewFilterConfig.ui:159
+#: folderviewFilterConfig.ui:144
 msgid "File name pattern:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, filterFilesPattern)
-#: folderviewFilterConfig.ui:172
+#: folderviewFilterConfig.ui:157
 msgid "Space-separated list of extensions, e.g. *.txt *.od*"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, filterFilesPattern)
-#: folderviewFilterConfig.ui:175
+#: folderviewFilterConfig.ui:160
 msgid ""
 "Space-separated list of extensions, e.g. *.txt *.od* to display only office- "
 "and text-files"
 msgstr ""
 
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, filterFilesPattern)
-#: folderviewFilterConfig.ui:184
+#: folderviewFilterConfig.ui:169
 msgid "Pattern filter"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, showDesktopFolder)
-#: folderviewLocationConfig.ui:17
+#: folderviewLocationConfig.ui:37
 msgid "Show the Desktop folder"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, showActivity)
-#: folderviewLocationConfig.ui:24
+#: folderviewLocationConfig.ui:47
 msgid "Show the files related to the current activity"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, showPlace)
-#: folderviewLocationConfig.ui:31
+#: folderviewLocationConfig.ui:57
 msgid "Show a place:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, showCustomFolder)
-#: folderviewLocationConfig.ui:61
+#: folderviewLocationConfig.ui:97
 msgid "Specify a folder:"
 msgstr ""
 
 #. i18n: ectx: property (clickMessage), widget (KUrlRequester, lineEdit)
-#: folderviewLocationConfig.ui:92
+#: folderviewLocationConfig.ui:134
 msgid "Type a path or a URL here"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, titleLabel)
+#: folderviewLocationConfig.ui:159
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:400;\">Title:</span></p></"
+"body></html>"
+msgstr ""
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, titleEdit)
+#: folderviewLocationConfig.ui:185
+msgid "Enter custom title here"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
