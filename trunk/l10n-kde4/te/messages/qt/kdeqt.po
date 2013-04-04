@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2013-03-29 03:55+0100\n"
+"POT-Creation-Date: 2013-04-04 04:20+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -3363,15 +3363,6 @@ msgctxt "QPrintDialog"
 msgid "Print"
 msgstr "ప్రచురణ"
 
-#: gui/dialogs/qdialog.cpp:526 gui/dialogs/qwizard.cpp:698
-#: gui/kernel/qsoftkeymanager.cpp:70
-msgid "Done"
-msgstr "అయినది"
-
-#: gui/dialogs/qdialog.cpp:653 gui/kernel/qwhatsthis.cpp:527
-msgid "What's This?"
-msgstr "ఇది ఎమిటి?"
-
 #: gui/dialogs/qfontdialog.cpp:183
 msgid "Select Font"
 msgstr "అక్షరరూపము ఎంచుకొనుము"
@@ -3976,6 +3967,11 @@ msgstr "(&N) తరువాత >"
 msgid "Commit"
 msgstr "కమిట్"
 
+#: gui/dialogs/qwizard.cpp:698 gui/dialogs/qdialog.cpp:528
+#: gui/kernel/qsoftkeymanager.cpp:70
+msgid "Done"
+msgstr "అయినది"
+
 #: gui/dialogs/qwizard.cpp:698 qt3support/dialogs/q3wizard.cpp:180
 msgid "&Finish"
 msgstr "(&F) ముగింపు"
@@ -4046,6 +4042,10 @@ msgstr ""
 #: gui/dialogs/qfilesystemmodel.cpp:940 gui/itemviews/qdirmodel.cpp:450
 msgid "Date Modified"
 msgstr ""
+
+#: gui/dialogs/qdialog.cpp:661 gui/kernel/qwhatsthis.cpp:527
+msgid "What's This?"
+msgstr "ఇది ఎమిటి?"
 
 #: gui/dialogs/qabstractpagesetupdialog.cpp:68
 #: gui/dialogs/qabstractpagesetupdialog.cpp:80
