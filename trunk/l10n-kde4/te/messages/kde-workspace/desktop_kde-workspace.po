@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-17 02:18+0000\n"
+"POT-Creation-Date: 2013-04-20 02:23+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -4495,37 +4495,6 @@ msgctxt "Name"
 msgid "Widget explorer for the desktop"
 msgstr ""
 
-#: libs/solid/control/backends/fakenet/solid_fakenet.desktop:7
-msgctxt "Name"
-msgid "Fake Net"
-msgstr "నకిలీ నెట్"
-
-#: libs/solid/control/backends/fakenet/solid_fakenet.desktop:86
-msgctxt "Comment"
-msgid "Fake Network Management"
-msgstr "నకిలీ నెట్వర్‍క్  నిర్వహణ"
-
-#: libs/solid/control/solidmodemmanager.desktop:5
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Power Management Backend"
-msgctxt "Comment"
-msgid "Modem Management Backend"
-msgstr "పవర్ నిర్వహణా బ్యాక్ఎండ్"
-
-#: libs/solid/control/solidnetworkmanager.desktop:5
-msgctxt "Comment"
-msgid "Network Management Backend"
-msgstr "నెట్వర్‍క్  నిర్వహణా బ్యాక్ఎండ్"
-
-#: libs/solid/control/solidremotecontrolmanager.desktop:5
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Network Management Backend"
-msgctxt "Comment"
-msgid "Remote Control Management Backend"
-msgstr "నెట్వర్‍క్  నిర్వహణా బ్యాక్ఎండ్"
-
 #: plasma/desktop/applets/kickoff/applet/plasma-applet-launcher.desktop:2
 #: plasma/generic/containmentactions/applauncher/plasma-containmentactions-applauncher.desktop:2
 msgctxt "Name"
@@ -6673,68 +6642,7 @@ msgid ""
 "batteries"
 msgstr "పవర్‌డెవిల్ అంతర్గత దోషమును విడుదలచేసింది"
 
-#: solid/kcm/kcm_solid.desktop:12
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Information Message"
-msgctxt "Name"
-msgid "Information Sources"
-msgstr "సమాచార సందేశం"
-
-#: solid/kcm/kcm_solid.desktop:76
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Hardware Integration Configuration"
-msgctxt "Comment"
-msgid "Hardware Integration Configuration with Solid"
-msgstr "హార్‍డ్‌వేర్ సమ్మేళనం ఆకృతీకరణ"
-
-#: solid/kcm/kcm_solid.desktop:149
-msgctxt "X-KDE-Keywords"
-msgid "Solid,Hardware,Power,Network,Discovery,Management"
-msgstr ""
-
-#: solid/modemmanager-0.4/solid_modemmanager04.desktop:6
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "NetworkManager 0.7"
-msgctxt "Name"
-msgid "ModemManager 0.4"
-msgstr "నెట్వర్‍క్  నిర్వాహకి 0.7"
-
-#: solid/modemmanager-0.4/solid_modemmanager04.desktop:68
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Network management using the NetworkManager daemon, version 0.7"
-msgctxt "Comment"
-msgid "Network management using the ModemManager daemon, version 0.4"
-msgstr "నెట్వర్‍క్  నిర్వహకి డెమోన్ ఉపయోగించి నెట్వర్‍క్  నిర్వహణ, వర్షన్ 0.7"
-
-#: solid/networkmanager-0.7/solid_networkmanager07.desktop:6
-msgctxt "Name"
-msgid "NetworkManager 0.7"
-msgstr "నెట్వర్‍క్  నిర్వాహకి 0.7"
-
-#: solid/networkmanager-0.7/solid_networkmanager07.desktop:85
-msgctxt "Comment"
-msgid "Network management using the NetworkManager daemon, version 0.7"
-msgstr "నెట్వర్‍క్  నిర్వహకి డెమోన్ ఉపయోగించి నెట్వర్‍క్  నిర్వహణ, వర్షన్ 0.7"
-
-#: solid/networkmanager_fake-0.9/solid_networkmanager09_fake.desktop:6
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "NetworkManager 0.7"
-msgctxt "Name"
-msgid "Fake NetworkManager 0.9"
-msgstr "నెట్వర్‍క్  నిర్వాహకి 0.7"
-
-#: solid/networkmanager_fake-0.9/solid_networkmanager09_fake.desktop:53
-msgctxt "Comment"
-msgid ""
-"Fake backend to allow kdelibs to read NetworkManager daemon 0.9's status"
-msgstr ""
-
-#: solid/solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:3
+#: solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:3
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Phluid"
@@ -6742,24 +6650,24 @@ msgctxt "Name|AC adapter plugged in"
 msgid "Plugged"
 msgstr "ఫ్లూయిడ్"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:46
-#: solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:366
-#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:332
-#: solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:217
-#: solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:216
-#: solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:146
-#: solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:294
-#: solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:295
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:872
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:654
-#: solid/solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:146
-#: solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:286
-#: solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:176
-#: solid/solid-actions-kcm/device-actions/solid-device-SmartCardReader.desktop:74
-#: solid/solid-actions-kcm/device-actions/solid-device-StorageAccess.desktop:148
-#: solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:365
-#: solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:438
-#: solid/solid-actions-kcm/device-actions/solid-device-Video.desktop:75
+#: solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:46
+#: solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:366
+#: solid-actions-kcm/device-actions/solid-device-Battery.desktop:332
+#: solid-actions-kcm/device-actions/solid-device-Block.desktop:217
+#: solid-actions-kcm/device-actions/solid-device-Button.desktop:216
+#: solid-actions-kcm/device-actions/solid-device-Camera.desktop:146
+#: solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:294
+#: solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:295
+#: solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:872
+#: solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:654
+#: solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:146
+#: solid-actions-kcm/device-actions/solid-device-Processor.desktop:286
+#: solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:176
+#: solid-actions-kcm/device-actions/solid-device-SmartCardReader.desktop:74
+#: solid-actions-kcm/device-actions/solid-device-StorageAccess.desktop:148
+#: solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:365
+#: solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:438
+#: solid-actions-kcm/device-actions/solid-device-Video.desktop:75
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "USB Devices"
@@ -6767,8 +6675,8 @@ msgctxt "Name"
 msgid "Solid Device"
 msgstr "యూ ఎస్ బి పరికరాలు"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:2
-#: solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:220
+#: solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:2
+#: solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:220
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Devices"
@@ -6776,13 +6684,13 @@ msgctxt "Name"
 msgid "Device Type"
 msgstr "పరికరాలు"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:75
+#: solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:75
 msgctxt "Name"
 msgid "Driver"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:150
-#: solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:2
+#: solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:150
+#: solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:2
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "DJ-Mixer and Player"
@@ -6790,7 +6698,7 @@ msgctxt "Name"
 msgid "Driver Handle"
 msgstr "DJ-Mixer మరియు ప్లేయర్"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:220
+#: solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:220
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Game"
@@ -6798,22 +6706,22 @@ msgctxt "Name"
 msgid "Name"
 msgstr "ఆట"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:293
+#: solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:293
 msgctxt "Name"
 msgid "Soundcard Type"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:2
+#: solid-actions-kcm/device-actions/solid-device-Battery.desktop:2
 msgctxt "Name"
 msgid "Charge Percent"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:74
+#: solid-actions-kcm/device-actions/solid-device-Battery.desktop:74
 msgctxt "Name"
 msgid "Charge State"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:147
+#: solid-actions-kcm/device-actions/solid-device-Battery.desktop:147
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Phluid"
@@ -6821,19 +6729,19 @@ msgctxt "Name|battery plugged in"
 msgid "Plugged"
 msgstr "ఫ్లూయిడ్"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:189
+#: solid-actions-kcm/device-actions/solid-device-Battery.desktop:189
 msgctxt "Name"
 msgid "Rechargeable"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:257
-#: solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:141
+#: solid-actions-kcm/device-actions/solid-device-Battery.desktop:257
+#: solid-actions-kcm/device-actions/solid-device-Button.desktop:141
 msgctxt "Name"
 msgid "Type"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:2
-#: solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:2
+#: solid-actions-kcm/device-actions/solid-device-Block.desktop:2
+#: solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Devices"
@@ -6841,7 +6749,7 @@ msgctxt "Name"
 msgid "Device"
 msgstr "పరికరాలు"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:76
+#: solid-actions-kcm/device-actions/solid-device-Block.desktop:76
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Moria"
@@ -6849,7 +6757,7 @@ msgctxt "Name"
 msgid "Major"
 msgstr "మొరియా"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:146
+#: solid-actions-kcm/device-actions/solid-device-Block.desktop:146
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Moria"
@@ -6857,12 +6765,12 @@ msgctxt "Name"
 msgid "Minor"
 msgstr "మొరియా"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:2
+#: solid-actions-kcm/device-actions/solid-device-Button.desktop:2
 msgctxt "Name"
 msgid "Has State"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:73
+#: solid-actions-kcm/device-actions/solid-device-Button.desktop:73
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Strategy Game"
@@ -6870,15 +6778,15 @@ msgctxt "Name"
 msgid "State Value"
 msgstr "తంత్రపు ఆట"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:2
-#: solid/solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:2
-#: solid/solid-actions-kcm/device-actions/solid-device-Video.desktop:2
+#: solid-actions-kcm/device-actions/solid-device-Camera.desktop:2
+#: solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:2
+#: solid-actions-kcm/device-actions/solid-device-Video.desktop:2
 msgctxt "Name"
 msgid "Supported Drivers"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:74
-#: solid/solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:74
+#: solid-actions-kcm/device-actions/solid-device-Camera.desktop:74
+#: solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:74
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Protocols"
@@ -6886,7 +6794,7 @@ msgctxt "Name"
 msgid "Supported Protocols"
 msgstr "నిభందనలు"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:76
+#: solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:76
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "New Device Notifier"
@@ -6894,7 +6802,7 @@ msgctxt "Name"
 msgid "Device Adapter"
 msgstr "కొత్త పరికరంను తెలుపునది"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:148
+#: solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:148
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Help Index"
@@ -6902,12 +6810,12 @@ msgctxt "Name"
 msgid "Device Index"
 msgstr "సహాయ సూచిక"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:2
+#: solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:2
 msgctxt "Name"
 msgid "Hw Address"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:75
+#: solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:75
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Dice Game"
@@ -6915,12 +6823,12 @@ msgctxt "Name"
 msgid "Iface Name"
 msgstr "పాచికల ఆట"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:147
+#: solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:147
 msgctxt "Name"
 msgid "Mac Address"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:221
+#: solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:221
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Circles"
@@ -6928,7 +6836,7 @@ msgctxt "Name"
 msgid "Wireless"
 msgstr "వృత్తాలు"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:2
+#: solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Appearance"
@@ -6936,12 +6844,12 @@ msgctxt "Name"
 msgid "Appendable"
 msgstr "కనిపించువిధం"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:73
+#: solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:73
 msgctxt "Name"
 msgid "Available Content"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:146
+#: solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:146
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Plan"
@@ -6949,7 +6857,7 @@ msgctxt "Name"
 msgid "Blank"
 msgstr "ప్లాన్"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:218
+#: solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:218
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Audacity"
@@ -6957,19 +6865,19 @@ msgctxt "Name"
 msgid "Capacity"
 msgstr "అడెసిటి"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:291
+#: solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:291
 msgctxt "Name"
 msgid "Disc Type"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:365
-#: solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:2
+#: solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:365
+#: solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:2
 msgctxt "Name"
 msgid "Fs Type"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:438
-#: solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:75
+#: solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:438
+#: solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:75
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Iagno"
@@ -6977,8 +6885,8 @@ msgctxt "Name"
 msgid "Ignored"
 msgstr "ఇయాగ్నొ"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:510
-#: solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:147
+#: solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:510
+#: solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:147
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Panel"
@@ -6986,15 +6894,15 @@ msgctxt "Name"
 msgid "Label"
 msgstr "ప్యానల్"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:583
+#: solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:583
 msgctxt "Name"
 msgid "Rewritable"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:654
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:362
-#: solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:291
-#: solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:220
+#: solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:654
+#: solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:362
+#: solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:291
+#: solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:220
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Solid"
@@ -7002,8 +6910,8 @@ msgctxt "Name"
 msgid "Size"
 msgstr "సాలిడ్"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:727
-#: solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:293
+#: solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:727
+#: solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:293
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Pager"
@@ -7011,8 +6919,8 @@ msgctxt "Name"
 msgid "Usage"
 msgstr "పేజర్"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:799
-#: solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:365
+#: solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:799
+#: solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:365
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Phluid"
@@ -7020,8 +6928,8 @@ msgctxt "Name"
 msgid "Uuid"
 msgstr "ఫ్లూయిడ్"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:2
-#: solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:2
+#: solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:2
+#: solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Belarus"
@@ -7029,14 +6937,14 @@ msgctxt "Name"
 msgid "Bus"
 msgstr "బెలారుస్"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:75
-#: solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:75
+#: solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:75
+#: solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:75
 msgctxt "Name"
 msgid "Drive Type"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:149
-#: solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:149
+#: solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:149
+#: solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:149
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Hotplug Event Data Engine"
@@ -7044,7 +6952,7 @@ msgctxt "Name"
 msgid "Hotpluggable"
 msgstr "హాట్‌ప్లగ్ ఘటన డాటా ఇంజన్"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:218
+#: solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:218
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Spread Sheet"
@@ -7052,33 +6960,33 @@ msgctxt "Name"
 msgid "Read Speed"
 msgstr "స్ప్రెడ్ షీట్"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:289
-#: solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:218
+#: solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:289
+#: solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:218
 msgctxt "Name"
 msgid "Removable"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:435
+#: solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:435
 msgctxt "Name"
 msgid "Supported Media"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:507
+#: solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:507
 msgctxt "Name"
 msgid "Write Speed"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:580
+#: solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:580
 msgctxt "Name"
 msgid "Write Speeds"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:2
+#: solid-actions-kcm/device-actions/solid-device-Processor.desktop:2
 msgctxt "Name"
 msgid "Can Change Frequency"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:72
+#: solid-actions-kcm/device-actions/solid-device-Processor.desktop:72
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Input Actions"
@@ -7086,7 +6994,7 @@ msgctxt "Name"
 msgid "Instruction Sets"
 msgstr "ఇన్‌పుట్ చర్యలు"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:142
+#: solid-actions-kcm/device-actions/solid-device-Processor.desktop:142
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Mac Scheme"
@@ -7094,7 +7002,7 @@ msgctxt "Name"
 msgid "Max Speed"
 msgstr "Mac స్కీమ్"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:214
+#: solid-actions-kcm/device-actions/solid-device-Processor.desktop:214
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Niue"
@@ -7102,7 +7010,7 @@ msgctxt "Name"
 msgid "Number"
 msgstr "నియు"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:72
+#: solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:72
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Forte"
@@ -7110,7 +7018,7 @@ msgctxt "Name"
 msgid "Port"
 msgstr "ఫోర్టె"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:146
+#: solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:146
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Devices"
@@ -7118,7 +7026,7 @@ msgctxt "Name|The physical type of serial port (ie. USB, RS232, etc)"
 msgid "Serial Type"
 msgstr "పరికరాలు"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-SmartCardReader.desktop:2
+#: solid-actions-kcm/device-actions/solid-device-SmartCardReader.desktop:2
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Spread Sheet"
@@ -7126,7 +7034,7 @@ msgctxt "Name"
 msgid "Reader Type"
 msgstr "స్ప్రెడ్ షీట్"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-StorageAccess.desktop:2
+#: solid-actions-kcm/device-actions/solid-device-StorageAccess.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Accessibility"
@@ -7134,7 +7042,7 @@ msgctxt "Name"
 msgid "Accessible"
 msgstr "అందుబాటు"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-StorageAccess.desktop:74
+#: solid-actions-kcm/device-actions/solid-device-StorageAccess.desktop:74
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Find Part"
@@ -7142,7 +7050,7 @@ msgctxt "Name"
 msgid "File Path"
 msgstr "వెతుకు భాగం"
 
-#: solid/solid-actions-kcm/solid-actions.desktop:13
+#: solid-actions-kcm/solid-actions.desktop:13
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Preset Actions"
@@ -7150,12 +7058,12 @@ msgctxt "Name"
 msgid "Device Actions"
 msgstr "ప్రస్తుత చర్యలు"
 
-#: solid/solid-actions-kcm/solid-actions.desktop:84
+#: solid-actions-kcm/solid-actions.desktop:84
 msgctxt "Comment"
 msgid "Manage actions available to the user when connecting new devices"
 msgstr ""
 
-#: solid/solid-actions-kcm/solid-actions.desktop:125
+#: solid-actions-kcm/solid-actions.desktop:125
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Preset Actions"
@@ -7163,26 +7071,13 @@ msgctxt "X-KDE-Keywords"
 msgid "Solid Devices Actions"
 msgstr "ప్రస్తుత చర్యలు"
 
-#: solid/solid-actions-kcm/solid-device-type.desktop:4
+#: solid-actions-kcm/solid-device-type.desktop:4
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Devices"
 msgctxt "Name"
 msgid "Solid Device Type"
 msgstr "పరికరాలు"
-
-#: solid/wicd/solid_wicd.desktop:7
-msgctxt "Name"
-msgid "Wicd"
-msgstr ""
-
-#: solid/wicd/solid_wicd.desktop:77
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Network management using the NetworkManager daemon"
-msgctxt "Comment"
-msgid "Network management using the Wicd daemon."
-msgstr "నెట్వర్‍క్ నిర్వాహకి డెమోన్ వుపయోగించి నెట్వర్‍క్  నిర్వహణ"
 
 #: statusnotifierwatcher/statusnotifierwatcher.desktop:3
 #, fuzzy
@@ -7444,6 +7339,82 @@ msgstr "ఫాంట్ వీక్షణి"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Fake Net"
+#~ msgstr "నకిలీ నెట్"
+
+#~ msgctxt "Comment"
+#~ msgid "Fake Network Management"
+#~ msgstr "నకిలీ నెట్వర్‍క్  నిర్వహణ"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Power Management Backend"
+#~ msgctxt "Comment"
+#~ msgid "Modem Management Backend"
+#~ msgstr "పవర్ నిర్వహణా బ్యాక్ఎండ్"
+
+#~ msgctxt "Comment"
+#~ msgid "Network Management Backend"
+#~ msgstr "నెట్వర్‍క్  నిర్వహణా బ్యాక్ఎండ్"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Network Management Backend"
+#~ msgctxt "Comment"
+#~ msgid "Remote Control Management Backend"
+#~ msgstr "నెట్వర్‍క్  నిర్వహణా బ్యాక్ఎండ్"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Information Message"
+#~ msgctxt "Name"
+#~ msgid "Information Sources"
+#~ msgstr "సమాచార సందేశం"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Hardware Integration Configuration"
+#~ msgctxt "Comment"
+#~ msgid "Hardware Integration Configuration with Solid"
+#~ msgstr "హార్‍డ్‌వేర్ సమ్మేళనం ఆకృతీకరణ"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "NetworkManager 0.7"
+#~ msgctxt "Name"
+#~ msgid "ModemManager 0.4"
+#~ msgstr "నెట్వర్‍క్  నిర్వాహకి 0.7"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Network management using the NetworkManager daemon, version 0.7"
+#~ msgctxt "Comment"
+#~ msgid "Network management using the ModemManager daemon, version 0.4"
+#~ msgstr "నెట్వర్‍క్  నిర్వహకి డెమోన్ ఉపయోగించి నెట్వర్‍క్  నిర్వహణ, వర్షన్ 0.7"
+
+#~ msgctxt "Name"
+#~ msgid "NetworkManager 0.7"
+#~ msgstr "నెట్వర్‍క్  నిర్వాహకి 0.7"
+
+#~ msgctxt "Comment"
+#~ msgid "Network management using the NetworkManager daemon, version 0.7"
+#~ msgstr "నెట్వర్‍క్  నిర్వహకి డెమోన్ ఉపయోగించి నెట్వర్‍క్  నిర్వహణ, వర్షన్ 0.7"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "NetworkManager 0.7"
+#~ msgctxt "Name"
+#~ msgid "Fake NetworkManager 0.9"
+#~ msgstr "నెట్వర్‍క్  నిర్వాహకి 0.7"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Network management using the NetworkManager daemon"
+#~ msgctxt "Comment"
+#~ msgid "Network management using the Wicd daemon."
+#~ msgstr "నెట్వర్‍క్ నిర్వాహకి డెమోన్ వుపయోగించి నెట్వర్‍క్  నిర్వహణ"
 
 #~ msgctxt "Name"
 #~ msgid "Google Gadgets"
