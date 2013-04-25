@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2013-04-09 05:58+0200\n"
+"POT-Creation-Date: 2013-04-25 04:16+0200\n"
 "PO-Revision-Date: 2007-03-20 16:30+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -6247,14 +6247,10 @@ msgstr ""
 msgid "Invalid configuration."
 msgstr "తప్పు పత్రం."
 
-#: network/kernel/qhostinfo.cpp:173
-msgctxt "QHostInfo"
-msgid "No host name given"
-msgstr ""
-
 #: network/kernel/qhostinfo_symbian.cpp:73
-#: network/kernel/qhostinfo_unix.cpp:265 network/kernel/qhostinfo_unix.cpp:297
-#: network/kernel/qhostinfo_win.cpp:115 network/socket/qabstractsocket.cpp:918
+#: network/kernel/qhostinfo_win.cpp:115 network/kernel/qhostinfo_unix.cpp:265
+#: network/kernel/qhostinfo_unix.cpp:297
+#: network/socket/qabstractsocket.cpp:918
 #: network/socket/qsocks5socketengine.cpp:668
 #: network/socket/qsocks5socketengine.cpp:694
 msgid "Host not found"
@@ -6276,11 +6272,6 @@ msgctxt "QHostInfoAgent"
 msgid "Invalid hostname"
 msgstr "తప్పు పత్రం."
 
-#: network/kernel/qhostinfo_unix.cpp:252 network/kernel/qhostinfo_unix.cpp:291
-#: network/kernel/qhostinfo_win.cpp:215 network/kernel/qhostinfo_win.cpp:240
-msgid "Unknown address type"
-msgstr "తెలియని చిరునామా రకము"
-
 #: network/kernel/qhostinfo_win.cpp:185
 msgid "No host name given"
 msgstr ""
@@ -6290,6 +6281,16 @@ msgstr ""
 #| msgid "Invalid document."
 msgid "Invalid hostname"
 msgstr "తప్పు పత్రం."
+
+#: network/kernel/qhostinfo_win.cpp:215 network/kernel/qhostinfo_win.cpp:240
+#: network/kernel/qhostinfo_unix.cpp:252 network/kernel/qhostinfo_unix.cpp:291
+msgid "Unknown address type"
+msgstr "తెలియని చిరునామా రకము"
+
+#: network/kernel/qhostinfo.cpp:176
+msgctxt "QHostInfo"
+msgid "No host name given"
+msgstr ""
 
 #: network/socket/qabstractsocket.cpp:555
 #: network/socket/qabstractsocket.cpp:1382
@@ -6714,13 +6715,17 @@ msgstr ""
 msgid "Unable to decrypt data: %1"
 msgstr "దత్తాంశంను తీసుకురాలేకపొయాను"
 
-#: network/ssl/qsslsocket_openssl.cpp:1172
-#: network/ssl/qsslsocket_openssl.cpp:1182
+#: network/ssl/qsslsocket_openssl.cpp:1167
+msgid "The TLS/SSL connection has been closed"
+msgstr ""
+
+#: network/ssl/qsslsocket_openssl.cpp:1175
+#: network/ssl/qsslsocket_openssl.cpp:1185
 #, qt-format
 msgid "Error while reading: %1"
 msgstr "చదువుతునప్పుడు దోషము: %1"
 
-#: network/ssl/qsslsocket_openssl.cpp:1277
+#: network/ssl/qsslsocket_openssl.cpp:1280
 #, qt-format
 msgid "Error during SSL handshake: %1"
 msgstr "ఎస్ ఎస్ ఎల్ కరచాలనము చెస్తున్నప్పుడు దోషము: %1"
@@ -7524,14 +7529,14 @@ msgid "Unable to connect"
 msgstr ""
 
 #: sql/drivers/db2/qsql_db2.cpp:1551 sql/drivers/mysql/qsql_mysql.cpp:1474
-#: sql/drivers/odbc/qsql_odbc.cpp:2205 sql/drivers/sqlite/qsql_sqlite.cpp:626
+#: sql/drivers/odbc/qsql_odbc.cpp:2205 sql/drivers/sqlite/qsql_sqlite.cpp:625
 #: sql/drivers/sqlite2/qsql_sqlite2.cpp:457
 #: sql/drivers/symsql/qsql_symsql.cpp:1056
 msgid "Unable to commit transaction"
 msgstr ""
 
 #: sql/drivers/db2/qsql_db2.cpp:1568 sql/drivers/mysql/qsql_mysql.cpp:1491
-#: sql/drivers/odbc/qsql_odbc.cpp:2222 sql/drivers/sqlite/qsql_sqlite.cpp:641
+#: sql/drivers/odbc/qsql_odbc.cpp:2222 sql/drivers/sqlite/qsql_sqlite.cpp:640
 #: sql/drivers/sqlite2/qsql_sqlite2.cpp:474
 #: sql/drivers/symsql/qsql_symsql.cpp:1071
 msgid "Unable to rollback transaction"
@@ -7712,7 +7717,7 @@ msgid "Unable to open database '"
 msgstr "డెటాబేస్ ను తెరువలేకపొయాను"
 
 #: sql/drivers/mysql/qsql_mysql.cpp:1457
-#: sql/drivers/sqlite/qsql_sqlite.cpp:611
+#: sql/drivers/sqlite/qsql_sqlite.cpp:610
 #: sql/drivers/sqlite2/qsql_sqlite2.cpp:440
 #: sql/drivers/symsql/qsql_symsql.cpp:1041
 msgid "Unable to begin transaction"
@@ -7903,24 +7908,24 @@ msgstr ""
 msgid "Unable to unsubscribe"
 msgstr ""
 
-#: sql/drivers/sqlite/qsql_sqlite.cpp:231
-#: sql/drivers/sqlite/qsql_sqlite.cpp:295
-#: sql/drivers/sqlite/qsql_sqlite.cpp:303
+#: sql/drivers/sqlite/qsql_sqlite.cpp:230
+#: sql/drivers/sqlite/qsql_sqlite.cpp:294
+#: sql/drivers/sqlite/qsql_sqlite.cpp:302
 msgctxt "QSQLiteResult"
 msgid "Unable to fetch row"
 msgstr "వరుసను తీసుకురాలేకపొయాను"
 
-#: sql/drivers/sqlite/qsql_sqlite.cpp:232
+#: sql/drivers/sqlite/qsql_sqlite.cpp:231
 msgctxt "QSQLiteResult"
 msgid "No query"
 msgstr ""
 
-#: sql/drivers/sqlite/qsql_sqlite.cpp:368
+#: sql/drivers/sqlite/qsql_sqlite.cpp:367
 msgctxt "QSQLiteResult"
 msgid "Unable to execute statement"
 msgstr ""
 
-#: sql/drivers/sqlite/qsql_sqlite.cpp:373
+#: sql/drivers/sqlite/qsql_sqlite.cpp:372
 #, fuzzy
 #| msgctxt "QODBCResult"
 #| msgid "Unable to fetch next"
@@ -7928,29 +7933,29 @@ msgctxt "QSQLiteResult"
 msgid "Unable to execute multiple statements at a time"
 msgstr "తరువాత వున్న దానిని తీసుకురాలేక పొయాను"
 
-#: sql/drivers/sqlite/qsql_sqlite.cpp:393
+#: sql/drivers/sqlite/qsql_sqlite.cpp:392
 msgctxt "QSQLiteResult"
 msgid "Unable to reset statement"
 msgstr ""
 
-#: sql/drivers/sqlite/qsql_sqlite.cpp:438
+#: sql/drivers/sqlite/qsql_sqlite.cpp:437
 msgctxt "QSQLiteResult"
 msgid "Unable to bind parameters"
 msgstr ""
 
-#: sql/drivers/sqlite/qsql_sqlite.cpp:445
+#: sql/drivers/sqlite/qsql_sqlite.cpp:444
 msgctxt "QSQLiteResult"
 msgid "Parameter count mismatch"
 msgstr ""
 
-#: sql/drivers/sqlite/qsql_sqlite.cpp:577
+#: sql/drivers/sqlite/qsql_sqlite.cpp:576
 #: sql/drivers/sqlite2/qsql_sqlite2.cpp:399
 #: sql/drivers/symsql/qsql_symsql.cpp:985
 #: sql/drivers/symsql/qsql_symsql.cpp:1002
 msgid "Error opening database"
 msgstr "డాటాబేస్ తెరచుటలో దోషము"
 
-#: sql/drivers/sqlite/qsql_sqlite.cpp:591
+#: sql/drivers/sqlite/qsql_sqlite.cpp:590
 msgid "Error closing database"
 msgstr "డాటాబేస్ ముయుటలో దోషము"
 
