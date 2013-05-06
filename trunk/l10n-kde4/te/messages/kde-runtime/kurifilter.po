@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kurifilter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-03 03:39+0200\n"
+"POT-Creation-Date: 2013-05-06 03:50+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -27,37 +27,48 @@ msgstr ""
 "\n"
 
 #: ikwsopts.cpp:53
+#, fuzzy
+#| msgid "Name"
+msgctxt "@title:column Name label from web shortcuts column"
 msgid "Name"
 msgstr "పేరు"
 
 #: ikwsopts.cpp:55
+msgctxt "@title:column"
 msgid "Shortcuts"
 msgstr ""
 
 #: ikwsopts.cpp:57
+msgctxt "@title:column"
 msgid "Preferred"
 msgstr ""
 
 #: ikwsopts.cpp:106
+msgctxt "@info:tooltip"
 msgid ""
-"<qt>Check this box to select the highlighted web shortcut as preferred.<br/"
-"><br/>Preferred web shortcuts are used in places where only a few select "
-"shortcuts can be shown at one time.</qt>"
+"Check this box to select the highlighted web shortcut as preferred.<nl/"
+">Preferred web shortcuts are used in places where only a few select "
+"shortcuts can be shown at one time."
 msgstr ""
 
 #: ikwsopts.cpp:198
+#, fuzzy
+#| msgid "None"
+msgctxt "@item:inlistbox No default web shortcut"
 msgid "None"
 msgstr "ఏదీకాదు"
 
 #: ikwsopts.cpp:262
+msgctxt "@info:whatsthis"
 msgid ""
-"<p>In this module you can configure the web shortcuts feature. Web shortcuts "
-"allow you to quickly search or lookup words on the Internet. For example, to "
-"search for information about the KDE project using the Google engine, you "
-"simply type <b>gg:KDE</b> or <b>google:KDE</b>.</p><p>If you select a "
-"default search engine, then you can search for normal words or phrases by "
-"simply typing them into the input widget of applications that have built-in "
-"support for such a feature, e.g Konqueror.</p>"
+"<para>In this module you can configure the web shortcuts feature. Web "
+"shortcuts allow you to quickly search or lookup words on the Internet. For "
+"example, to search for information about the KDE project using the Google "
+"engine, you simply type <emphasis>gg:KDE</emphasis> or <emphasis>google:KDE</"
+"emphasis>.</para><para>If you select a default search engine, then you can "
+"search for normal words or phrases by simply typing them into the input "
+"widget of applications that have built-in support for such a feature, e.g "
+"Konqueror.</para>"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbEnableShortcuts)
@@ -160,11 +171,15 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cmbDelimiter)
 #: ikwsopts_ui.ui:208
+msgctxt "Colon as keyword delimiter"
 msgid "Colon"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cmbDelimiter)
 #: ikwsopts_ui.ui:213
+#, fuzzy
+#| msgid "Space"
+msgctxt "Space as keyword delimiter"
 msgid "Space"
 msgstr "స్పేస్"
 
@@ -181,6 +196,9 @@ msgid "Search F&ilters"
 msgstr ""
 
 #: searchproviderdlg.cpp:49
+#, fuzzy
+#| msgid "Default"
+msgctxt "@item:inlistbox The default character set"
 msgid "Default"
 msgstr "అప్రమెయం"
 
