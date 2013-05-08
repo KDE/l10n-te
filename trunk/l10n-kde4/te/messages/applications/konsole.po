@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-11 02:25+0200\n"
+"POT-Creation-Date: 2013-05-08 02:15+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -233,21 +233,26 @@ msgstr "రంగు 8 (ఇన్టెన్‍స్)"
 msgid "Un-named Color Scheme"
 msgstr "పేరు-లేని రంగు స్కీము"
 
-#: ColorSchemeEditor.cpp:79
+#: ColorSchemeEditor.cpp:87
 #, fuzzy
 #| msgid "Name"
 msgctxt "@label:listbox Column header text for color names"
 msgid "Name"
 msgstr "పేరు"
 
-#: ColorSchemeEditor.cpp:79
+#: ColorSchemeEditor.cpp:88
 #, fuzzy
 #| msgid "Color"
 msgctxt "@label:listbox Column header text for the actual colors"
 msgid "Color"
 msgstr "రంగు"
 
-#: ColorSchemeEditor.cpp:101
+#: ColorSchemeEditor.cpp:89
+msgctxt "@label:listbox Column header text for the actual intense colors"
+msgid "Intense color"
+msgstr ""
+
+#: ColorSchemeEditor.cpp:114
 #, fuzzy
 #| msgid ""
 #| "The background transparency setting will not be used because your desktop "
@@ -260,14 +265,19 @@ msgstr ""
 "బ్యాక్‌గ్రౌండు పారదర్శత అమరిక వుపయోగించబడదు యెందుచేతనంటే మీ డెస్కుటాపు పారదర్శ విండోల మద్దతును "
 "కలిగివున్నట్లు లేదు."
 
-#: ColorSchemeEditor.cpp:135
+#: ColorSchemeEditor.cpp:151
 msgctxt "@action:button"
 msgid "Select wallpaper image file"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:205
+#: ColorSchemeEditor.cpp:221
 msgctxt "@info:tooltip"
 msgid "Click to choose color"
+msgstr ""
+
+#: ColorSchemeEditor.cpp:226
+msgctxt "@info:tooltip"
+msgid "Click to choose intense color"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, discriptionLabel)
