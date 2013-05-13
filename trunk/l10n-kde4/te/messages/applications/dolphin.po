@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-12 02:29+0200\n"
+"POT-Creation-Date: 2013-05-13 02:19+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -549,12 +549,12 @@ msgctxt "@title:menu"
 msgid "Main Toolbar"
 msgstr "మెయిన్ పనిముట్లపట్టీ"
 
-#: dolphinviewcontainer.cpp:416
+#: dolphinviewcontainer.cpp:417
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "ఫోల్డరును లోడుచేస్తోంది..."
 
-#: dolphinviewcontainer.cpp:424
+#: dolphinviewcontainer.cpp:425
 #, fuzzy
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -562,27 +562,27 @@ msgctxt "@info:progress"
 msgid "Sorting..."
 msgstr "వరుసక్రమము:"
 
-#: dolphinviewcontainer.cpp:435
+#: dolphinviewcontainer.cpp:436
 msgctxt "@info"
 msgid "Searching..."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:455
+#: dolphinviewcontainer.cpp:456
 msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:597
+#: dolphinviewcontainer.cpp:598
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "డాల్ఫన్ వెబ్ పేజీలను మద్దతీయదు, వెబ్ "
 
-#: dolphinviewcontainer.cpp:611
+#: dolphinviewcontainer.cpp:612
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr "ప్రోటోకాల్ డాల్ఫిన్ చేత మద్దతీయబడదు, కాన్క్వెరర్ ప్రారంభించబడింది"
 
-#: dolphinviewcontainer.cpp:619
+#: dolphinviewcontainer.cpp:620
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "సరికాని ప్రోటోకాల్"
@@ -1350,7 +1350,19 @@ msgctxt "@info"
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:913
+#: panels/places/placesitemmodel.cpp:616
+#, kde-format
+msgctxt "@info"
+msgid "An error occurred while accessing '%1', the system responded: %2"
+msgstr ""
+
+#: panels/places/placesitemmodel.cpp:620
+#, kde-format
+msgctxt "@info"
+msgid "An error occurred while accessing '%1'"
+msgstr ""
+
+#: panels/places/placesitemmodel.cpp:909
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Home URL"
@@ -1358,7 +1370,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Home"
 msgstr "నివాస URL"
 
-#: panels/places/placesitemmodel.cpp:916
+#: panels/places/placesitemmodel.cpp:912
 #, fuzzy
 #| msgctxt "@action:inmenu Go"
 #| msgid "&Network Folders"
@@ -1366,12 +1378,12 @@ msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr "నెట్వర్కు ఫోల్డర్లు (&N)"
 
-#: panels/places/placesitemmodel.cpp:919
+#: panels/places/placesitemmodel.cpp:915
 msgctxt "KFile System Bookmarks"
 msgid "Root"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:922
+#: panels/places/placesitemmodel.cpp:918
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Trash"
@@ -1379,7 +1391,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr "ట్రాష్"
 
-#: panels/places/placesitemmodel.cpp:927
+#: panels/places/placesitemmodel.cpp:923
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Today"
@@ -1387,7 +1399,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Today"
 msgstr "ఈరోజు"
 
-#: panels/places/placesitemmodel.cpp:930
+#: panels/places/placesitemmodel.cpp:926
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Yesterday"
@@ -1395,7 +1407,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Yesterday"
 msgstr "నిన్న"
 
-#: panels/places/placesitemmodel.cpp:933
+#: panels/places/placesitemmodel.cpp:929
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Earlier this Month"
@@ -1403,7 +1415,7 @@ msgctxt "KFile System Bookmarks"
 msgid "This Month"
 msgstr "ఈ నెలకు ముందు"
 
-#: panels/places/placesitemmodel.cpp:936
+#: panels/places/placesitemmodel.cpp:932
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Earlier this Month"
@@ -1411,7 +1423,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Last Month"
 msgstr "ఈ నెలకు ముందు"
 
-#: panels/places/placesitemmodel.cpp:939
+#: panels/places/placesitemmodel.cpp:935
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -1419,7 +1431,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Documents"
 msgstr "పత్రికీకరణ"
 
-#: panels/places/placesitemmodel.cpp:942
+#: panels/places/placesitemmodel.cpp:938
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "File Previews"
@@ -1427,12 +1439,12 @@ msgctxt "KFile System Bookmarks"
 msgid "Images"
 msgstr "ఫైలు ముందస్తు విక్షణలు"
 
-#: panels/places/placesitemmodel.cpp:945
+#: panels/places/placesitemmodel.cpp:941
 msgctxt "KFile System Bookmarks"
 msgid "Audio Files"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:948
+#: panels/places/placesitemmodel.cpp:944
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr ""
