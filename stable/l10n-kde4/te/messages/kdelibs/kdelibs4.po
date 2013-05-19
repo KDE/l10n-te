@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-13 10:20+0200\n"
+"POT-Creation-Date: 2013-05-19 11:09+0200\n"
 "PO-Revision-Date: 2009-01-09 17:08+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1048,7 +1048,9 @@ msgid "Insufficient permissions in target directory."
 msgstr "లక్ష్యపు డైరెక్టరీనందు సరిపోని అనుమతులు."
 
 #: kdecore/io/ksavefile.cpp:129
-msgid "Unable to open temporary file."
+#, fuzzy, kde-format
+#| msgid "Unable to open temporary file."
+msgid "Unable to open temporary file. Error was: %1."
 msgstr "తాత్కాలిక దస్త్రాన్ని తెరువలేకపొయాను"
 
 #: kdecore/io/ksavefile.cpp:237
