@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-17 04:15+0200\n"
+"POT-Creation-Date: 2013-06-05 02:14+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -26,114 +26,139 @@ msgstr ""
 "\n"
 "\n"
 
-#: contents/code/logic.js:61
-#, kde-format
-msgid "%1% (charged)"
+#: contents/code/logic.js:99
+msgid "Not Charging"
 msgstr ""
 
-#: contents/code/logic.js:62
-#, kde-format
-msgid "%1% (discharging)"
+#: contents/code/logic.js:100
+msgid "Discharging"
 msgstr ""
 
-#: contents/code/logic.js:63
-#, kde-format
-msgid "%1% (charging)"
+#: contents/code/logic.js:101
+msgid "Fully Charged"
 msgstr ""
 
-#: contents/code/logic.js:66
-#, kde-format
-msgid "%1%"
+#: contents/code/logic.js:102
+msgid "Charging"
 msgstr ""
 
-#: contents/code/logic.js:69
-msgctxt "Battery is not plugged in"
+#: contents/code/logic.js:105
+msgctxt "Battery is currently not present in the bay"
 msgid "Not present"
 msgstr ""
 
-#: contents/code/logic.js:96
-msgctxt "tooltip"
-msgid "AC Adapter:"
+#: contents/code/logic.js:154
+msgid "No batteries available"
 msgstr ""
 
-#: contents/code/logic.js:97
-msgctxt "tooltip"
-msgid "<b>Plugged in</b>"
-msgstr ""
-
-#: contents/code/logic.js:97
-msgctxt "tooltip"
-msgid "<b>Not plugged in</b>"
-msgstr ""
-
-#: contents/ui/batterymonitor.qml:122
+#: contents/code/logic.js:163
 #, kde-format
-msgctxt "overlay on the battery, needs to be really tiny"
+msgctxt "Placeholder is battery name"
+msgid "%1:"
+msgstr ""
+
+#: contents/code/logic.js:166 contents/ui/BatteryItem.qml:180
+#, kde-format
+msgctxt "Placeholder is battery percentage"
 msgid "%1%"
 msgstr ""
 
-#: contents/ui/batterymonitor.qml:243
-msgid "The battery applet has enabled system-wide inhibition"
+#: contents/code/logic.js:168
+msgid "N/A"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, batteryConfig)
-#: contents/ui/config.ui:14
-msgid "Configure Battery Monitor"
+#: contents/code/logic.js:189
+msgid "Power management is disabled"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showBatteryString)
-#: contents/ui/config.ui:23
-msgid "Show charge &information"
-msgstr ""
-
-#: contents/ui/PopupDialog.qml:62
-msgid "AC Adapter:"
-msgstr ""
-
-#: contents/ui/PopupDialog.qml:68
-msgctxt "Label for remaining time"
-msgid "Time Remaining:"
-msgstr ""
-
-#: contents/ui/PopupDialog.qml:74
-msgctxt "Label for power management inhibition"
-msgid "Power management enabled:"
-msgstr ""
-
-#: contents/ui/PopupDialog.qml:79
-msgid "Screen Brightness:"
-msgstr ""
-
-#: contents/ui/PopupDialog.qml:110
-msgid "Plugged in"
-msgstr ""
-
-#: contents/ui/PopupDialog.qml:110
-msgid "Not plugged in"
-msgstr ""
-
-#: contents/ui/PopupDialog.qml:157
+#: contents/code/logic.js:220
 #, kde-format
 msgid "1 hour "
 msgid_plural "%1 hours "
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/PopupDialog.qml:158
+#: contents/code/logic.js:221
 #, kde-format
 msgid "1 minute"
 msgid_plural "%1 minutes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/PopupDialog.qml:172
-msgctxt "Suspend the computer to RAM; translation should be short"
-msgid "Sleep"
+#: contents/ui/AcAdapterItem.qml:58
+msgid "AC Adapter"
 msgstr ""
 
-#: contents/ui/PopupDialog.qml:179
-msgctxt "Suspend the computer to disk; translation should be short"
-msgid "Hibernate"
+#: contents/ui/AcAdapterItem.qml:70
+msgid "Plugged In"
+msgstr ""
+
+#: contents/ui/AcAdapterItem.qml:70
+msgid "Not Plugged In"
+msgstr ""
+
+#: contents/ui/AcAdapterItem.qml:83
+#, kde-format
+msgid "Time remaining until full: %1"
+msgstr ""
+
+#: contents/ui/AcAdapterItem.qml:83
+#, kde-format
+msgid "Time remaining until empty: %1"
+msgstr ""
+
+#: contents/ui/BatteryItem.qml:224
+msgid "Time To Full:"
+msgstr ""
+
+#: contents/ui/BatteryItem.qml:224
+msgid "Time To Empty:"
+msgstr ""
+
+#: contents/ui/BatteryItem.qml:236
+msgid "Capacity:"
+msgstr ""
+
+#: contents/ui/BatteryItem.qml:248
+msgid "Vendor:"
+msgstr ""
+
+#: contents/ui/BatteryItem.qml:260
+msgid "Model:"
+msgstr ""
+
+#: contents/ui/BatteryItem.qml:283
+#, kde-format
+msgctxt "Placeholder is battery capacity"
+msgid "%1%"
+msgstr ""
+
+#: contents/ui/batterymonitor.qml:156
+msgid "The battery applet has enabled system-wide inhibition"
+msgstr ""
+
+#: contents/ui/BrightnessItem.qml:86
+#, kde-format
+msgctxt "Placeholder is brightness percentage"
+msgid "%1%"
+msgstr ""
+
+#: contents/ui/CompactRepresentation.qml:92
+#, kde-format
+msgctxt "battery percentage below battery icon"
+msgid "%1%"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:86
+msgid "Display Brightness"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:95
+msgid "Keyboard Brightness"
+msgstr ""
+
+#: contents/ui/PowerManagementItem.qml:54
+msgid "Enable Power Management"
 msgstr ""
 
 #~ msgid "General"
