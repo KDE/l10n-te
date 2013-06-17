@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-08 12:29+0100\n"
+"POT-Creation-Date: 2013-06-17 01:35+0000\n"
 "PO-Revision-Date: 2007-07-19 15:17+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -23,6 +23,22 @@ msgstr ""
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
+
+msgctxt "Player 0 color"
+msgid "Black"
+msgstr ""
+
+#, fuzzy
+#| msgid " - Yellow "
+msgctxt "Player 0 color"
+msgid "Yellow"
+msgstr " - పసుపు "
+
+#, fuzzy
+#| msgid "Red"
+msgctxt "Player 1 color"
+msgid "Red"
+msgstr "ఎరుపు"
 
 #: chatdlg.cpp:47
 msgid "Chat Dlg"
@@ -380,7 +396,7 @@ msgstr "నెట్వర్క్ ద్వారా చాట్ చెయి
 msgid "Disconnect"
 msgstr ""
 
-#: kgamedialogconfig.cpp:143 kwin4.cpp:794
+#: kgamedialogconfig.cpp:143 kwin4.cpp:796
 msgid "Network Configuration"
 msgstr "నెట్వర్క్ అమరిక"
 
@@ -426,106 +442,106 @@ msgstr ""
 msgid "Installation error: Theme file error."
 msgstr ""
 
-#: kwin4.cpp:325
+#: kwin4.cpp:326
 #, fuzzy
 #| msgid "Aborts a currently played game. No winner will be declared."
 msgid "Ends a currently played game. No winner will be declared."
 msgstr "ప్రస్తుత ఆట ఆపివేయబడును. ఎవరూ గెలవలేదు"
 
-#: kwin4.cpp:330
+#: kwin4.cpp:331
 msgid "&Network Configuration..."
 msgstr "(&N) నెట్వర్క్ అమరిక..."
 
-#: kwin4.cpp:334
+#: kwin4.cpp:335
 msgid "Network Chat..."
 msgstr "నెట్వర్క్ ద్వారా చాట్ చెయి..."
 
-#: kwin4.cpp:339
+#: kwin4.cpp:340
 msgid "&Show Statistics"
 msgstr "(&S) గణాంకాలను చూపు"
 
-#: kwin4.cpp:341
+#: kwin4.cpp:342
 msgid "Show statistics."
 msgstr "గణాంకాలను చూపు"
 
-#: kwin4.cpp:353
+#: kwin4.cpp:354
 msgid "Theme"
 msgstr ""
 
-#: kwin4.cpp:364
+#: kwin4.cpp:365
 msgid "Debug KGame"
 msgstr "కెగేమ్ ను డీబగ్ చెయ్యండి"
 
-#: kwin4.cpp:383
+#: kwin4.cpp:385
 msgid "Ready"
 msgstr "సిద్ధము"
 
-#: kwin4.cpp:384
+#: kwin4.cpp:386
 msgid "This leaves space for the mover"
 msgstr ""
 
-#: kwin4.cpp:390
+#: kwin4.cpp:392
 #, fuzzy
 #| msgid "Welcome to KWin4"
 msgid "Welcome to Four Wins"
 msgstr "కెవిన్4 కు స్వాగతం"
 
-#: kwin4.cpp:585 kwin4.cpp:747
+#: kwin4.cpp:587 kwin4.cpp:749
 msgid "Game running..."
 msgstr "ఆట కొనసాగుతుంది..."
 
-#: kwin4.cpp:707
+#: kwin4.cpp:709
 msgid "No game  "
 msgstr "ఆట లేదు"
 
-#: kwin4.cpp:709
-#, fuzzy, kde-format
-#| msgid " - Yellow "
-msgid " %1 - Yellow "
-msgstr " - పసుపు "
-
-#: kwin4.cpp:711
+#: kwin4.cpp:711 kwin4.cpp:713
 #, fuzzy, kde-format
 #| msgid " - Red "
-msgid " %1 - Red "
+msgid " %1 - %2 "
 msgstr " - ఎరుపు "
 
-#: kwin4.cpp:713
+#: kwin4.cpp:715
 msgid "Nobody  "
 msgstr "ఎవరులేరు "
 
-#: kwin4.cpp:735
+#: kwin4.cpp:737
 msgid "The network game ended!\n"
 msgstr "నెట్వర్క్ ఆట ఆగిపోయింది!\n"
 
-#: kwin4.cpp:757
+#: kwin4.cpp:759
 msgid "The game is drawn. Please restart next round."
 msgstr "ఉభయత్ర గెలుపులేని ఆట."
 
-#: kwin4.cpp:765
+#: kwin4.cpp:767
 #, kde-format
 msgid "%1 won the game. Please restart next round."
 msgstr ""
 
-#: kwin4.cpp:771
+#: kwin4.cpp:773
 #, fuzzy
 #| msgid "The game is drawn. Please restart next round."
 msgid " Game ended. Please restart next round."
 msgstr "ఉభయత్ర గెలుపులేని ఆట."
 
-#: kwin4.cpp:806
+#: kwin4.cpp:808
 #, fuzzy
 #| msgid "Red should be played by remote"
 msgid "Black should be played by remote player"
 msgstr "ఎరుపు రంగు అవతలి ఆటగాడు వాడాలి"
 
-#: kwin4.cpp:807
+#: kwin4.cpp:809
 #, fuzzy
 #| msgid "Red should be played by remote"
 msgid "Red should be played by remote player"
 msgstr "ఎరుపు రంగు అవతలి ఆటగాడు వాడాలి"
 
-#: kwin4.cpp:901
+#: kwin4.cpp:887 kwin4.cpp:888 kwin4.cpp:909 kwin4.cpp:910
+#, fuzzy, kde-format
+#| msgid "Red Plays With"
+msgid "%1 Plays With"
+msgstr "ఎరుపు ఆటగాడు వాడేది"
+
+#: kwin4.cpp:911
 msgid "General"
 msgstr "సామాన్య"
 
