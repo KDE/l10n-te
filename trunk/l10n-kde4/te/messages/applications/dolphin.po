@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-17 01:29+0000\n"
+"POT-Creation-Date: 2013-08-19 01:32+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -580,17 +580,17 @@ msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:574
+#: dolphinviewcontainer.cpp:573
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "డాల్ఫన్ వెబ్ పేజీలను మద్దతీయదు, వెబ్ "
 
-#: dolphinviewcontainer.cpp:588
+#: dolphinviewcontainer.cpp:587
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr "ప్రోటోకాల్ డాల్ఫిన్ చేత మద్దతీయబడదు, కాన్క్వెరర్ ప్రారంభించబడింది"
 
-#: dolphinviewcontainer.cpp:596
+#: dolphinviewcontainer.cpp:595
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "సరికాని ప్రోటోకాల్"
@@ -2912,12 +2912,6 @@ msgstr "తిరిగిలోడ్‌చేయి"
 msgid "Default"
 msgstr "అప్రమేయ:"
 
-#: views/dolphinview.cpp:560
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "<filename>%1</filename> ఎంపిక కాబడినది"
-
 #: views/dolphinview.cpp:563
 #, kde-format
 msgctxt "@info:status"
@@ -3257,6 +3251,10 @@ msgstr "అదనపు సమాచారము"
 msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "అదనపు సమాచారము"
+
+#~ msgctxt "@info:status"
+#~ msgid "<filename>%1</filename> selected"
+#~ msgstr "<filename>%1</filename> ఎంపిక కాబడినది"
 
 #~ msgctxt "@title:group Date"
 #~ msgid "Last Week"
