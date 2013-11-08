@@ -16,15 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4;nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;\n"
 
 #: bookmarks.cpp:108
 msgid ""
@@ -71,8 +64,8 @@ msgid ""
 "Show a box with KDE places (Home, Network, ...). Useful if you use konqueror "
 "as a file manager."
 msgstr ""
-"KDE స్థానములు (హోమ్, నెట్వర్కు, ...)తో బాక్స్‌ను చూపుము. మీరు కాంక్వెరర్‌ను ఫైలు నిర్వాహికలాగా "
-"వుపయోగిస్తుంటే వుపయోగకరంగా వుటుంది."
+"KDE స్థానములు (హోమ్, నెట్వర్కు, ...)తో బాక్స్‌ను చూపుము. మీరు కాంక్వెరర్‌ను "
+"ఫైలు నిర్వాహికలాగా వుపయోగిస్తుంటే వుపయోగకరంగా వుటుంది."
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowPlaces)
 #: bookmarks.ui:50
@@ -102,7 +95,9 @@ msgstr "చూపించవలసిన నిలువువరుసల స�
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbShowBackgrounds)
 #: bookmarks.ui:109
 msgid "Disable it on slow system to disable background images."
-msgstr "నిదానమైన సిస్టమ్‌నందు బ్యాక్‌గ్రౌండు చిత్రములను అచేతనము చేయుటకు దీనిని అచేతనము చేయుము."
+msgstr ""
+"నిదానమైన సిస్టమ్‌నందు బ్యాక్‌గ్రౌండు చిత్రములను అచేతనము చేయుటకు దీనిని "
+"అచేతనము చేయుము."
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowBackgrounds)
 #: bookmarks.ui:112
@@ -276,7 +271,8 @@ msgstr "సమాచారము చూచుటలో విఫలమైంద�
 #: kcookiesmanagement.cpp:242
 msgid ""
 "Unable to retrieve information about the cookies stored on your computer."
-msgstr "మీ కంప్యూటర్ నందు నిల్వవున్న కుకీల గురించి సమాచారమును వెలికితీయలేక పోయింది."
+msgstr ""
+"మీ కంప్యూటర్ నందు నిల్వవున్న కుకీల గురించి సమాచారమును వెలికితీయలేక పోయింది."
 
 #: kcookiesmanagement.cpp:332
 msgid "End of session"
@@ -674,8 +670,8 @@ msgid ""
 "While a file is being uploaded its extension is \".part\". When fully "
 "uploaded it is renamed to its real name."
 msgstr ""
-"ఒక ఫైలు అప్‌లోడు అవుతున్నప్పుడు దాని పొడిగింపు \".part\". అది పూర్తిగా అప్‌లోడు అయిన తర్వాత అది దాని "
-"అసలు పేరుకు పునఃనామకరణము చేయబడుతుంది."
+"ఒక ఫైలు అప్‌లోడు అవుతున్నప్పుడు దాని పొడిగింపు \".part\". అది పూర్తిగా "
+"అప్‌లోడు అయిన తర్వాత అది దాని అసలు పేరుకు పునఃనామకరణము చేయబడుతుంది."
 
 #: kproxydlg.cpp:542
 msgid ""
@@ -742,7 +738,9 @@ msgstr "(&s) ప్రోక్సీ ఆకృతీకరణ URLను వు�
 #, fuzzy
 #| msgid "Use the specified proxy script URL to configure the proxy settings."
 msgid "Use the specified proxy script to configure the proxy settings."
-msgstr "ప్రోక్సీ అమరికలను ఆకృతీకరించుటకు తెలుపబడిన ప్రోక్సీ స్క్రిప్టు URLను వుపయోగించుము."
+msgstr ""
+"ప్రోక్సీ అమరికలను ఆకృతీకరించుటకు తెలుపబడిన ప్రోక్సీ స్క్రిప్టు URLను "
+"వుపయోగించుము."
 
 #. i18n: ectx: property (text), widget (QRadioButton, autoScriptProxyRadioButton)
 #: kproxydlg.ui:62
@@ -1021,7 +1019,9 @@ msgstr "ఈ జాబితానందలి ప్రవేశముల కొ
 msgid ""
 "You have to restart the running applications for these changes to take "
 "effect."
-msgstr "ఈ మార్పులు ప్రభావితం అగుటకు మీరు నడుస్తున్న అనువర్తనములను పునఃప్రారంభించవలసి వుంది."
+msgstr ""
+"ఈ మార్పులు ప్రభావితం అగుటకు మీరు నడుస్తున్న అనువర్తనములను పునఃప్రారంభించవలసి "
+"వుంది."
 
 #: ksaveioconfig.cpp:220 ksaveioconfig.cpp:234
 #, fuzzy
@@ -1048,6 +1048,9 @@ msgid_plural ""
 "connection is very slow. The maximum allowed value is %1 seconds."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: netpref.cpp:45 netpref.cpp:50 netpref.cpp:55 netpref.cpp:60
 #, fuzzy
@@ -1056,6 +1059,9 @@ msgid " second"
 msgid_plural " seconds"
 msgstr[0] " సెకను"
 msgstr[1] " సెకను"
+msgstr[2] " సెకను"
+msgstr[3] " సెకను"
+msgstr[4] " సెకను"
 
 #: netpref.cpp:47
 msgid "Soc&ket read:"
@@ -1086,8 +1092,8 @@ msgid ""
 "Enables FTP's \"passive\" mode. This is required to allow FTP to work from "
 "behind firewalls."
 msgstr ""
-"FTP యొక్క \"పాసివ్\" రీతిని చేతనము చేస్తుంది. FTPను ఫైర్‌వాల్ దాటి పనిచేయుటకు అనుమతించవలసిన అవసరము "
-"దీనికివుంది."
+"FTP యొక్క \"పాసివ్\" రీతిని చేతనము చేస్తుంది. FTPను ఫైర్‌వాల్ దాటి "
+"పనిచేయుటకు అనుమతించవలసిన అవసరము దీనికివుంది."
 
 #: netpref.cpp:75
 msgid "Mark &partially uploaded files"
@@ -1161,8 +1167,8 @@ msgid ""
 "<qt><center>Found an existing identification for<br/><b>%1</b><br/>Do you "
 "want to replace it?</center></qt>"
 msgstr ""
-"<qt><center>దీని కొరకు యిప్పటికేవున్న గుర్తింపును కనుగొన్నది <br/><b>%1</b><br/>మీరు దానిని "
-"పునఃస్థాపించుదామని అనుకొనుచున్నారా?</center></qt>"
+"<qt><center>దీని కొరకు యిప్పటికేవున్న గుర్తింపును కనుగొన్నది <br/><b>%1</"
+"b><br/>మీరు దానిని పునఃస్థాపించుదామని అనుకొనుచున్నారా?</center></qt>"
 
 #: useragentdlg.cpp:201
 #, fuzzy
@@ -1255,7 +1261,8 @@ msgstr "(&y) ఆపరేటింగ్ సిస్టమ్ పేరు జ�
 msgid ""
 "Includes your operating system's version number in the browser "
 "identification text."
-msgstr "బ్రౌజర్ గుర్తింపు వచనమునందు మీ ఆపరేటింగ్ సిస్టమ్ వర్షన్ సంఖ్యను చేర్చుతుంది."
+msgstr ""
+"బ్రౌజర్ గుర్తింపు వచనమునందు మీ ఆపరేటింగ్ సిస్టమ్ వర్షన్ సంఖ్యను చేర్చుతుంది."
 
 #. i18n: ectx: property (text), widget (QCheckBox, osVersionCheckBox)
 #: useragentdlg.ui:105
@@ -1278,8 +1285,8 @@ msgid ""
 "Includes your language settings in the browser identification text to obtain "
 "localized versions of the page."
 msgstr ""
-"పేజీ యొక్క స్థానికీకరించిన వర్షన్‌లను పొందుటకు బ్రౌజర్ గుర్తింపు వచనమునందు మీ భాష అమరికలను "
-"చేర్చుతుంది."
+"పేజీ యొక్క స్థానికీకరించిన వర్షన్‌లను పొందుటకు బ్రౌజర్ గుర్తింపు వచనమునందు "
+"మీ భాష అమరికలను చేర్చుతుంది."
 
 #. i18n: ectx: property (text), widget (QCheckBox, languageCheckBox)
 #: useragentdlg.ui:130
@@ -1383,14 +1390,15 @@ msgstr "వాస్తవ గుర్తింపు:"
 #~ "Enter the port number of the HTTP proxy server. Default is 8080. Another "
 #~ "common value is 3128."
 #~ msgstr ""
-#~ "HTTP ప్రోక్సీ సెర్వర్ యొక్క పోర్టు సంఖ్యను ప్రవేశపెట్టుము. అప్రమేయ 8080. వేరొక వుమ్మడి విలువ "
-#~ "3128."
+#~ "HTTP ప్రోక్సీ సెర్వర్ యొక్క పోర్టు సంఖ్యను ప్రవేశపెట్టుము. అప్రమేయ 8080. "
+#~ "వేరొక వుమ్మడి విలువ 3128."
 
 #~ msgid ""
 #~ "Enter the port number of the FTP proxy server. Default 8080. Another "
 #~ "common value is 3128."
 #~ msgstr ""
-#~ "FTP ప్రోక్సీ సేవిక యొక్క పోర్టు సంఖ్యను ప్రవేశపెట్టుము. అప్రమేయ 8080. వేరొక వుమ్మడి విలువ 3128."
+#~ "FTP ప్రోక్సీ సేవిక యొక్క పోర్టు సంఖ్యను ప్రవేశపెట్టుము. అప్రమేయ 8080. "
+#~ "వేరొక వుమ్మడి విలువ 3128."
 
 #, fuzzy
 #~| msgid "Variable Proxy Configuration"
@@ -1399,7 +1407,9 @@ msgstr "వాస్తవ గుర్తింపు:"
 #~ msgstr "వేరియబుల్ ప్రోక్సీ ఆకృతీకరణ"
 
 #~ msgid "You must specify at least one valid proxy environment variable."
-#~ msgstr "మీరు కనీసం వొక చెల్లునటువంటి ప్రోక్సీ యెన్విరాన్మెంట్ వేరియబుల్‌ను తెలుపవలెను."
+#~ msgstr ""
+#~ "మీరు కనీసం వొక చెల్లునటువంటి ప్రోక్సీ యెన్విరాన్మెంట్ వేరియబుల్‌ను "
+#~ "తెలుపవలెను."
 
 #, fuzzy
 #~| msgid "Invalid Proxy Setup"
@@ -1420,8 +1430,8 @@ msgstr "వాస్తవ గుర్తింపు:"
 #~ "Did not detect any environment variables commonly used to set system wide "
 #~ "proxy information."
 #~ msgstr ""
-#~ "సిస్టమ్ తరహా ప్రోక్సీ సమాచారమును అమర్చుటకు వుమ్మడిగా వుపయోగించే ఏవిధమైన ఎన్విరాన్మెంట్ వేరియబుల్స్ "
-#~ "గుర్తించబడలేదు."
+#~ "సిస్టమ్ తరహా ప్రోక్సీ సమాచారమును అమర్చుటకు వుమ్మడిగా వుపయోగించే ఏవిధమైన "
+#~ "ఎన్విరాన్మెంట్ వేరియబుల్స్ గుర్తించబడలేదు."
 
 #, fuzzy
 #~| msgid "Automatic Proxy Variable Detection"
@@ -1445,8 +1455,8 @@ msgstr "వాస్తవ గుర్తింపు:"
 #~ "One or more of the specified proxy settings are invalid. The incorrect "
 #~ "entries are highlighted."
 #~ msgstr ""
-#~ "తెలుపబడిన ప్రోక్సీ అమరికలలో వొకటి లేదా యెక్కువ అమరికలు చెల్లనవి. సరికాని ప్రవేశములు వుద్దీపనం "
-#~ "చేయబడినాయి."
+#~ "తెలుపబడిన ప్రోక్సీ అమరికలలో వొకటి లేదా యెక్కువ అమరికలు చెల్లనవి. సరికాని "
+#~ "ప్రవేశములు వుద్దీపనం చేయబడినాయి."
 
 #~ msgid "You entered a duplicate address. Please try again."
 #~ msgstr "మీరు నకిలీ చిరునామాను ప్రవేశపెట్టినారు. దయచేసి మరలా ప్రయత్నించండి."
@@ -1482,28 +1492,33 @@ msgstr "వాస్తవ గుర్తింపు:"
 #~ msgstr "మీరు ప్రవేశపెట్టిన చిరునామా చెల్లునది కాదు."
 
 #~ msgid "Enter the URL or address that should use the above proxy settings:"
-#~ msgstr "పై ప్రోక్సీ అమరికలను వుపయోగించవలసిన URL లేదా చిరునామాను ప్రవేశపెట్టండి:"
+#~ msgstr ""
+#~ "పై ప్రోక్సీ అమరికలను వుపయోగించవలసిన URL లేదా చిరునామాను ప్రవేశపెట్టండి:"
 
 #~ msgid ""
 #~ "Enter the address or URL that should be excluded from using the above "
 #~ "proxy settings:"
-#~ msgstr "పై ప్రోక్సీ అమరికలను వుపయోగించుటనుండి తీసివేయవలసిన చిరునామా లేదా URL ప్రవేశపెట్టండి:"
+#~ msgstr ""
+#~ "పై ప్రోక్సీ అమరికలను వుపయోగించుటనుండి తీసివేయవలసిన చిరునామా లేదా URL "
+#~ "ప్రవేశపెట్టండి:"
 
 #~ msgid ""
 #~ "The address of the automatic proxy configuration script is invalid. "
 #~ "Please correct this problem before proceeding. Otherwise, your changes "
 #~ "will be ignored."
 #~ msgstr ""
-#~ "స్వయంచాలక ప్రోక్సీ ఆకృతీకరణ స్క్రిప్టు చిరునామా చెల్లనిది. కొనసాగుటకు ముందుగా దయచేసి ఈ సమస్యను "
-#~ "సరిదిద్దుము. లేకపోతే, మీ మార్పులు విస్మరించబడతాయి."
+#~ "స్వయంచాలక ప్రోక్సీ ఆకృతీకరణ స్క్రిప్టు చిరునామా చెల్లనిది. కొనసాగుటకు "
+#~ "ముందుగా దయచేసి ఈ సమస్యను సరిదిద్దుము. లేకపోతే, మీ మార్పులు "
+#~ "విస్మరించబడతాయి."
 
 #~ msgid ""
 #~ "<qt>The proxy settings you specified are invalid.<br /><br />Please click "
 #~ "on the <b>Setup...</b> button and correct the problem before proceeding; "
 #~ "otherwise your changes will be ignored.</qt>"
 #~ msgstr ""
-#~ "<qt>మీరు తెలిపిన ప్రోక్సీ అమరికలు చెల్లనివి.<br /><br />దయచేసి <b>Setup...</b> బటన్‌పై నొక్కి, "
-#~ "కొనసాగించుటకు ముందుగానే సమస్యను సరిదిద్దుము; లేకపోతే మీ మార్పులు విస్మరించబడతాయి.</qt>"
+#~ "<qt>మీరు తెలిపిన ప్రోక్సీ అమరికలు చెల్లనివి.<br /><br />దయచేసి <b>Setup..."
+#~ "</b> బటన్‌పై నొక్కి, కొనసాగించుటకు ముందుగానే సమస్యను సరిదిద్దుము; లేకపోతే "
+#~ "మీ మార్పులు విస్మరించబడతాయి.</qt>"
 
 #~ msgid "H&TTP:"
 #~ msgstr "H&TTP:"
@@ -1552,7 +1567,9 @@ msgstr "వాస్తవ గుర్తింపు:"
 
 #~ msgid ""
 #~ "Use information specified here to login into proxy servers as needed."
-#~ msgstr "ప్రోక్సీ సెర్వర్లకు అవసరమైనట్లుగా లాగిన్ అగుటకు యిక్కడ తెలిపిన సమాచారమును వుపయోగించుము."
+#~ msgstr ""
+#~ "ప్రోక్సీ సెర్వర్లకు అవసరమైనట్లుగా లాగిన్ అగుటకు యిక్కడ తెలిపిన సమాచారమును "
+#~ "వుపయోగించుము."
 
 #~ msgid "Username:"
 #~ msgstr "యూజర్ పేరు:"

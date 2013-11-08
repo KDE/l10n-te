@@ -16,15 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4;nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -258,8 +251,8 @@ msgid ""
 "The background transparency setting will not be used because your desktop "
 "does not appear to support transparent windows."
 msgstr ""
-"బ్యాక్‌గ్రౌండు పారదర్శత అమరిక వుపయోగించబడదు యెందుచేతనంటే మీ డెస్కుటాపు పారదర్శ విండోల మద్దతును "
-"కలిగివున్నట్లు లేదు."
+"బ్యాక్‌గ్రౌండు పారదర్శత అమరిక వుపయోగించబడదు యెందుచేతనంటే మీ డెస్కుటాపు "
+"పారదర్శ విండోల మద్దతును కలిగివున్నట్లు లేదు."
 
 #: ColorSchemeEditor.cpp:161
 msgctxt "@action:button"
@@ -366,6 +359,9 @@ msgid "Editing profile: %2"
 msgid_plural "Editing %1 profiles: %2"
 msgstr[0] "ప్రొఫైల్ \"%1\" సరికూర్చు"
 msgstr[1] "ప్రొఫైల్ \"%1\" సరికూర్చు"
+msgstr[2] "ప్రొఫైల్ \"%1\" సరికూర్చు"
+msgstr[3] "ప్రొఫైల్ \"%1\" సరికూర్చు"
+msgstr[4] "ప్రొఫైల్ \"%1\" సరికూర్చు"
 
 #: EditProfileDialog.cpp:174
 #, kde-format
@@ -393,6 +389,9 @@ msgid " second"
 msgid_plural " seconds"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: EditProfileDialog.cpp:400
 msgid "Select Initial Directory"
@@ -408,7 +407,9 @@ msgstr "%1"
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
-msgstr "ఈ రంగు స్కీము మీ డెస్కుటాపు మద్దతీయనటువంటి పారదర్శ బ్యాక్‌గ్రౌండును వుపయోగిస్తోంది"
+msgstr ""
+"ఈ రంగు స్కీము మీ డెస్కుటాపు మద్దతీయనటువంటి పారదర్శ బ్యాక్‌గ్రౌండును "
+"వుపయోగిస్తోంది"
 
 #: EditProfileDialog.cpp:769
 msgid ""
@@ -469,7 +470,8 @@ msgid ""
 "The command to execute when new terminal sessions are created using this "
 "profile"
 msgstr ""
-"ఈ ప్రొఫైలును వుపయోగించి కొత్త టెర్మినల్ సెషన్సును సృష్టిస్తున్నప్పుడు ఎగ్జిక్యూట్ చేయుటకు ఆదేశము."
+"ఈ ప్రొఫైలును వుపయోగించి కొత్త టెర్మినల్ సెషన్సును సృష్టిస్తున్నప్పుడు "
+"ఎగ్జిక్యూట్ చేయుటకు ఆదేశము."
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: EditProfileDialog.ui:88
@@ -480,7 +482,8 @@ msgstr "ప్రాధమిక డైరెక్టరీ:"
 #: EditProfileDialog.ui:98
 msgid ""
 "The initial working directory for new terminal sessions using this profile"
-msgstr "ఈ ప్రొఫైలును వుపయోగించే కొత్త టెర్మినల్ సెషన్సుకొరకు ప్రాధమిక పని డైరెక్టరీ"
+msgstr ""
+"ఈ ప్రొఫైలును వుపయోగించే కొత్త టెర్మినల్ సెషన్సుకొరకు ప్రాధమిక పని డైరెక్టరీ"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, dirSelectButton)
 #: EditProfileDialog.ui:108
@@ -502,7 +505,8 @@ msgstr "ప్రతిమ:"
 #. i18n: ectx: property (toolTip), widget (QPushButton, iconSelectButton)
 #: EditProfileDialog.ui:153
 msgid "Select the icon displayed on tabs using this profile"
-msgstr "ఈ ప్రొఫైల్‌ను వుపయోగించి టాబ్సుపైన ప్రదర్శించబడిన ప్రతిమను యెంపికచేయుము"
+msgstr ""
+"ఈ ప్రొఫైల్‌ను వుపయోగించి టాబ్సుపైన ప్రదర్శించబడిన ప్రతిమను యెంపికచేయుము"
 
 #. i18n: ectx: property (text), widget (QLabel, environmentLabel)
 #: EditProfileDialog.ui:182
@@ -753,13 +757,14 @@ msgid ""
 "are converted into the stream of characters which are sent to the current "
 "terminal program."
 msgstr ""
-"ప్రస్తుత టెర్మినల్ ప్రోగ్రామునకు పంపబడేటటువంటి, కీ వత్తుల సమ్మేళనం టెర్మినల్ విండోనందు యెలా "
-"అక్షరములుగా మారవలెనో కీ బైండిగ్సు నియంత్రిస్తుంది."
+"ప్రస్తుత టెర్మినల్ ప్రోగ్రామునకు పంపబడేటటువంటి, కీ వత్తుల సమ్మేళనం టెర్మినల్ "
+"విండోనందు యెలా అక్షరములుగా మారవలెనో కీ బైండిగ్సు నియంత్రిస్తుంది."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, newKeyBindingsButton)
 #: EditProfileDialog.ui:686
 msgid "Create a new key bindings list based upon the selected bindings"
-msgstr "ఎంపికచేసిన బైండిగ్సు పైన ఆధారపడి కొత్త కీ బైండిగ్సు జాబితాను సృష్టించుము"
+msgstr ""
+"ఎంపికచేసిన బైండిగ్సు పైన ఆధారపడి కొత్త కీ బైండిగ్సు జాబితాను సృష్టించుము"
 
 #. i18n: ectx: property (text), widget (QPushButton, newKeyBindingsButton)
 #: EditProfileDialog.ui:689
@@ -799,8 +804,8 @@ msgstr "ఎంచుకొ"
 #| "select whole words in the terminal"
 msgid "Characters considered part of a word when double clicking:"
 msgstr ""
-"టెర్మినల్ నందలి మొత్తము పదములను యెంపికచేయుటకు రెండు-నొక్కులు నొక్కచున్నప్పుడు పదమునందు భాగముగా "
-"పరిగణించబడు ఆక్షరములు"
+"టెర్మినల్ నందలి మొత్తము పదములను యెంపికచేయుటకు రెండు-నొక్కులు "
+"నొక్కచున్నప్పుడు పదమునందు భాగముగా పరిగణించబడు ఆక్షరములు"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, wordCharacterEdit)
 #: EditProfileDialog.ui:763
@@ -808,8 +813,8 @@ msgid ""
 "Characters which are considered part of a word when double-clicking to "
 "select whole words in the terminal"
 msgstr ""
-"టెర్మినల్ నందలి మొత్తము పదములను యెంపికచేయుటకు రెండు-నొక్కులు నొక్కచున్నప్పుడు పదమునందు భాగముగా "
-"పరిగణించబడు ఆక్షరములు"
+"టెర్మినల్ నందలి మొత్తము పదములను యెంపికచేయుటకు రెండు-నొక్కులు "
+"నొక్కచున్నప్పుడు పదమునందు భాగముగా పరిగణించబడు ఆక్షరములు"
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
 #: EditProfileDialog.ui:774
@@ -947,7 +952,9 @@ msgstr "టెర్మినల్ సౌలభ్యాలు"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingTextButton)
 #: EditProfileDialog.ui:979
 msgid "Allow terminal programs to create blinking sections of text"
-msgstr "వచనము యొక్క బ్లింకింగ్ భాగములను సృష్టించుటకు టెర్మినల్ ప్రోగ్రామ్సును అనుమతించుము"
+msgstr ""
+"వచనము యొక్క బ్లింకింగ్ భాగములను సృష్టించుటకు టెర్మినల్ ప్రోగ్రామ్సును "
+"అనుమతించుము"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingTextButton)
 #: EditProfileDialog.ui:982
@@ -970,7 +977,8 @@ msgid ""
 "Enable Bi-Directional display on terminals (valid for Arabic, Farsi or "
 "Hebrew only)"
 msgstr ""
-"టర్మినల్సు నందు బై-డైరెక్షనల్ ప్రదర్శనను చేతనముచేయుము (అరబిక్, ఫార్సీ లేదా హెబ్రూకు మాత్రమే చెల్లుతుంది)"
+"టర్మినల్సు నందు బై-డైరెక్షనల్ ప్రదర్శనను చేతనముచేయుము (అరబిక్, ఫార్సీ లేదా "
+"హెబ్రూకు మాత్రమే చెల్లుతుంది)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBidiRenderingButton)
 #: EditProfileDialog.ui:1014
@@ -1117,13 +1125,17 @@ msgid " line"
 msgid_plural " lines"
 msgstr[0] "వరుసలు"
 msgstr[1] "వరుసలు"
+msgstr[2] "వరుసలు"
+msgstr[3] "వరుసలు"
+msgstr[4] "వరుసలు"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, noHistoryButton)
 #: HistorySizeWidget.ui:29
 #, fuzzy
 #| msgid "Disable scroll bar and do not remember previous output"
 msgid "Do not remember previous output"
-msgstr "స్క్రోల్ బార్‌ను అచేతనముచేయుము మరియు మునుపటి అవుట్పుట్‌ను గర్తుంచుకొనవద్దు"
+msgstr ""
+"స్క్రోల్ బార్‌ను అచేతనముచేయుము మరియు మునుపటి అవుట్పుట్‌ను గర్తుంచుకొనవద్దు"
 
 #. i18n: ectx: property (text), widget (QRadioButton, noHistoryButton)
 #: HistorySizeWidget.ui:32
@@ -1356,7 +1368,8 @@ msgstr "ప్రాధమిక సెషన్ ముగిసినప్ప�
 msgctxt "@info:shell"
 msgid ""
 "Create a new tab in an existing window rather than creating a new window"
-msgstr "కొత్త విండోను సృష్టించుటకన్నా వున్న విండోనందు కొత్త టాబ్‌ను సృష్టించుము"
+msgstr ""
+"కొత్త విండోను సృష్టించుటకన్నా వున్న విండోనందు కొత్త టాబ్‌ను సృష్టించుము"
 
 #: main.cpp:171
 msgctxt "@info:shell"
@@ -1780,9 +1793,20 @@ msgid "There is a process running in this window. Do you still want to quit?"
 msgid_plural ""
 "There are %1 processes running in this window. Do you still want to quit?"
 msgstr[0] ""
-"ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా నిష్క్రమించుదామని అనుకొనుచున్నారా?"
+"ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా "
+"నిష్క్రమించుదామని అనుకొనుచున్నారా?"
 msgstr[1] ""
-"ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా నిష్క్రమించుదామని అనుకొనుచున్నారా?"
+"ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా "
+"నిష్క్రమించుదామని అనుకొనుచున్నారా?"
+msgstr[2] ""
+"ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా "
+"నిష్క్రమించుదామని అనుకొనుచున్నారా?"
+msgstr[3] ""
+"ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా "
+"నిష్క్రమించుదామని అనుకొనుచున్నారా?"
+msgstr[4] ""
+"ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా "
+"నిష్క్రమించుదామని అనుకొనుచున్నారా?"
 
 #: MainWindow.cpp:562
 #, fuzzy
@@ -1978,8 +2002,8 @@ msgid ""
 "Tab title format used when a remote command (e.g. connection to another "
 "computer via SSH) is being executed"
 msgstr ""
-"రిమోట్ ఆదేశము (ఉ.దా. వేరొక కంప్యూటరుకు SSH ద్వారా అనుసంధానము) ఎగ్జిక్యూట్ చేస్తున్నప్పుడు "
-"వపుయోగించు టాబ్ శీర్షిక రూపము"
+"రిమోట్ ఆదేశము (ఉ.దా. వేరొక కంప్యూటరుకు SSH ద్వారా అనుసంధానము) ఎగ్జిక్యూట్ "
+"చేస్తున్నప్పుడు వపుయోగించు టాబ్ శీర్షిక రూపము"
 
 #: schemas.cpp:1
 msgid "Black on Light Yellow"
@@ -2062,7 +2086,8 @@ msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
 "settings."
 msgstr ""
-"'%1'ను కనుగొనలేక పోయింది, బదులుగా '%2'ను ప్రారంభిస్తోంది.  దయచేసి మీ ప్రొఫైల్ అమరికలను పరిశీలించుము."
+"'%1'ను కనుగొనలేక పోయింది, బదులుగా '%2'ను ప్రారంభిస్తోంది.  దయచేసి మీ "
+"ప్రొఫైల్ అమరికలను పరిశీలించుము."
 
 #: Session.cpp:460
 msgid "Could not find an interactive shell to start."
@@ -2286,7 +2311,9 @@ msgstr ""
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
-msgstr "ఈ సెషన్‌నందు వొక పోగ్రామ్ యిప్పటికే నుడుస్తోంది.  మీరు దానిని ఖచ్చితంగా మూసివేద్దామని అనుకొంటున్నారా?"
+msgstr ""
+"ఈ సెషన్‌నందు వొక పోగ్రామ్ యిప్పటికే నుడుస్తోంది.  మీరు దానిని ఖచ్చితంగా "
+"మూసివేద్దామని అనుకొంటున్నారా?"
 
 #: SessionController.cpp:867
 #, kde-format
@@ -2294,7 +2321,8 @@ msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr ""
-"పొగ్రామ్ '%1' ప్రస్తుతం ఈ సెషన్‌నందు నడుస్తోంది.  మీరు ఖచ్చితంగా దీనిని మూసివేద్దామని అనుకొంటున్నారా?"
+"పొగ్రామ్ '%1' ప్రస్తుతం ఈ సెషన్‌నందు నడుస్తోంది.  మీరు ఖచ్చితంగా దీనిని "
+"మూసివేద్దామని అనుకొంటున్నారా?"
 
 #: SessionController.cpp:870 SessionController.cpp:895
 msgid "Confirm Close"
@@ -2308,7 +2336,9 @@ msgstr "ముసివేత నిర్ధారించు"
 msgid ""
 "A program in this session would not die.  Are you sure you want to kill it "
 "by force?"
-msgstr "ఈ సెషన్‌నందు వొక పోగ్రామ్ యిప్పటికే నుడుస్తోంది.  మీరు దానిని ఖచ్చితంగా మూసివేద్దామని అనుకొంటున్నారా?"
+msgstr ""
+"ఈ సెషన్‌నందు వొక పోగ్రామ్ యిప్పటికే నుడుస్తోంది.  మీరు దానిని ఖచ్చితంగా "
+"మూసివేద్దామని అనుకొంటున్నారా?"
 
 #: SessionController.cpp:892
 #, fuzzy, kde-format
@@ -2319,7 +2349,8 @@ msgid ""
 "The program '%1' is in this session would not die.  Are you sure you want to "
 "kill it by force?"
 msgstr ""
-"పొగ్రామ్ '%1' ప్రస్తుతం ఈ సెషన్‌నందు నడుస్తోంది.  మీరు ఖచ్చితంగా దీనిని మూసివేద్దామని అనుకొంటున్నారా?"
+"పొగ్రామ్ '%1' ప్రస్తుతం ఈ సెషన్‌నందు నడుస్తోంది.  మీరు ఖచ్చితంగా దీనిని "
+"మూసివేద్దామని అనుకొంటున్నారా?"
 
 #: SessionController.cpp:1387
 #, fuzzy
@@ -2618,6 +2649,9 @@ msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: TerminalDisplay.cpp:2695
 #, fuzzy
@@ -2627,11 +2661,13 @@ msgstr "ముసివేత నిర్ధారించు"
 
 #: TerminalDisplay.cpp:2870
 msgid ""
-"<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
-"\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
+"<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/"
+"Flow_control\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to "
+"resume.</qt>"
 msgstr ""
 "<qt>అవుట్పుట్ Ctrl+S వత్తుట ద్వారా <a href=\"http://en.wikipedia.org/wiki/"
-"Flow_control\">suspended</a> అయింది.  తిరిగికొనసాగించుటకు <b>Ctrl+Q</b> వత్తుము.</qt>"
+"Flow_control\">suspended</a> అయింది.  తిరిగికొనసాగించుటకు <b>Ctrl+Q</b> "
+"వత్తుము.</qt>"
 
 #: TerminalDisplay.cpp:3125
 #, fuzzy
@@ -2790,8 +2826,8 @@ msgid ""
 "No keyboard translator available.  The information needed to convert key "
 "presses into characters to send to the terminal is missing."
 msgstr ""
-"ఎటువంటి కీబోర్డు అనువాదకి అందుబాటులో లేదు.  కీ వత్తులను ఆక్షరాలలోకి మార్చి టెర్మినల్‌కు పంపుటకు "
-"అవసరమైన సమాచారము తప్పిపోయినది."
+"ఎటువంటి కీబోర్డు అనువాదకి అందుబాటులో లేదు.  కీ వత్తులను ఆక్షరాలలోకి మార్చి "
+"టెర్మినల్‌కు పంపుటకు అవసరమైన సమాచారము తప్పిపోయినది."
 
 #: ZModemDialog.cpp:36
 msgid "&Stop"
@@ -2803,9 +2839,11 @@ msgstr "(&S) ఆపు"
 #~| "is pressed"
 #~ msgctxt "@info:shell"
 #~ msgid ""
-#~ "Start Konsole in the background and bring to the front when Ctrl+Shift"
-#~ "+F12 (by default) is pressed"
-#~ msgstr "F12 కీ వత్తినప్పుడు కన్సోలును బ్యాక్‌గ్రౌండునందు ప్రారంభించి ముందుకు తీసుకొనిరండి"
+#~ "Start Konsole in the background and bring to the front when "
+#~ "Ctrl+Shift+F12 (by default) is pressed"
+#~ msgstr ""
+#~ "F12 కీ వత్తినప్పుడు కన్సోలును బ్యాక్‌గ్రౌండునందు ప్రారంభించి ముందుకు "
+#~ "తీసుకొనిరండి"
 
 #, fuzzy
 #~| msgid "Accessible Color Scheme"
@@ -2842,7 +2880,9 @@ msgstr "(&S) ఆపు"
 #~ msgid ""
 #~ "Try to enable transparency, even if the system does not appear to support "
 #~ "it."
-#~ msgstr "సిస్టమ్ మద్దతిచ్చునట్లు అనిపించక పోయినాకూడా, పారదృశ్యతను చేతనంచేయుటకు ప్రయత్నించుము"
+#~ msgstr ""
+#~ "సిస్టమ్ మద్దతిచ్చునట్లు అనిపించక పోయినాకూడా, పారదృశ్యతను చేతనంచేయుటకు "
+#~ "ప్రయత్నించుము"
 
 #~ msgid "Input"
 #~ msgstr "ఇన్పుట్"
@@ -2857,7 +2897,9 @@ msgstr "(&S) ఆపు"
 #~ msgstr "సాదారణ టాబ్ శీర్షిక రూపాన్ని సరికూర్చుము"
 
 #~ msgid "Edit tab title format used when executing remote commands"
-#~ msgstr "రిమోట్ ఆదేశములను ఎగ్జిక్యూట్ చేస్తున్నప్పుడు వుపయోగించు టాబ్ శీర్షిక రూపాన్ని సరికూర్చుము"
+#~ msgstr ""
+#~ "రిమోట్ ఆదేశములను ఎగ్జిక్యూట్ చేస్తున్నప్పుడు వుపయోగించు టాబ్ శీర్షిక "
+#~ "రూపాన్ని సరికూర్చుము"
 
 #~ msgid "Allow terminal programs to resize the window"
 #~ msgstr "విండో పునఃపరిమాణం చేయుటకు టెర్మినల్ ప్రోగ్రామ్సును అనుమతించుము"
@@ -2967,7 +3009,9 @@ msgstr "(&S) ఆపు"
 #~ msgid ""
 #~ "Sets whether the search phrase is interpreted as normal text or as a "
 #~ "regular expression"
-#~ msgstr "శోధన పదము సాధరణ వచనములా వెతకబడాలా లేక సాదారణ సమీకరణంలానా అనేది అమర్చుతుంది."
+#~ msgstr ""
+#~ "శోధన పదము సాధరణ వచనములా వెతకబడాలా లేక సాదారణ సమీకరణంలానా అనేది "
+#~ "అమర్చుతుంది."
 
 #~ msgid "Search reached bottom, continued from top."
 #~ msgstr "శోధన క్రిందివరకు చేరుకుంది, పైనుండి కొనసాగించబడుతుంది."

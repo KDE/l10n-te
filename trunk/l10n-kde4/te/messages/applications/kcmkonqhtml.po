@@ -16,15 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4;nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -76,7 +69,8 @@ msgstr ""
 #: advancedTabOptions.ui:51
 msgid ""
 "This will open a new tab in the background, instead of in the foreground."
-msgstr "ఇది ఫోర్‌గ్రౌండుకు బదులుగా, కొత్త టాబ్‌ను బ్యాక్‌గ్రౌండు నందు తెరుస్తుంది."
+msgstr ""
+"ఇది ఫోర్‌గ్రౌండుకు బదులుగా, కొత్త టాబ్‌ను బ్యాక్‌గ్రౌండు నందు తెరుస్తుంది."
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pNewTabsInBackground)
 #: advancedTabOptions.ui:54
@@ -91,7 +85,8 @@ msgstr "(&p) బ్యాక్‌గ్రౌండు నందు కొత�
 msgid ""
 "This will open a new tab opened from a page after the current tab, instead "
 "of after the last tab."
-msgstr "ఇది ఫోర్‌గ్రౌండుకు బదులుగా, కొత్త టాబ్‌ను బ్యాక్‌గ్రౌండు నందు తెరుస్తుంది."
+msgstr ""
+"ఇది ఫోర్‌గ్రౌండుకు బదులుగా, కొత్త టాబ్‌ను బ్యాక్‌గ్రౌండు నందు తెరుస్తుంది."
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pOpenAfterCurrentPage)
 #: advancedTabOptions.ui:64
@@ -154,7 +149,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, m_pTabCloseActivatePrevious)
 #: advancedTabOptions.ui:114
 msgid "Activate previously used tab when closing the current tab"
-msgstr "ప్రస్తుత టాబును మూయుచున్నప్పుడు గతంలో వుపయోగించిన టాబును క్రియాశీలము చేయుము"
+msgstr ""
+"ప్రస్తుత టాబును మూయుచున్నప్పుడు గతంలో వుపయోగించిన టాబును క్రియాశీలము చేయుము"
 
 #: appearance.cpp:53
 msgctxt "@title:tab"
@@ -299,7 +295,8 @@ msgstr "(&z) ఫాంటు పరిమాణము"
 
 #: appearance.cpp:157 appearance.cpp:173
 msgid "This is the relative font size Konqueror uses to display web sites."
-msgstr "వెబ్ సైటులను ప్రదర్శించుటకు కాంక్వెరర్ వుపయోగించే సారూప్యమైన ఫాంటు పరిమాణము."
+msgstr ""
+"వెబ్ సైటులను ప్రదర్శించుటకు కాంక్వెరర్ వుపయోగించే సారూప్యమైన ఫాంటు పరిమాణము."
 
 #: appearance.cpp:160
 msgid "M&inimum font size:"
@@ -310,8 +307,8 @@ msgid ""
 "Konqueror will never display text smaller than this size,<br />overriding "
 "any other settings."
 msgstr ""
-"కాంక్వెరర్ యెప్పుడూ దీనికన్నా చిన్న పరిమాణపు వచనమును ప్రదర్శించదు, <br /> యితర అమర్పులను వోవర్‌రైడ్ "
-"చేస్తోంది."
+"కాంక్వెరర్ యెప్పుడూ దీనికన్నా చిన్న పరిమాణపు వచనమును ప్రదర్శించదు, <br /> "
+"యితర అమర్పులను వోవర్‌రైడ్ చేస్తోంది."
 
 #: appearance.cpp:168
 msgid "&Medium font size:"
@@ -332,7 +329,9 @@ msgstr "(&F) నిర్ధిష్ట ఫాంటు:"
 #: appearance.cpp:190
 msgid ""
 "This is the font used to display fixed-width (i.e. non-proportional) text."
-msgstr "ఇది నిర్ధిష్ట-వెడల్పు (అంటే నాన్-ప్రోపోర్షనల్) వచనమును ప్రదర్శించుటకు వుపయోగించే ఫాంటు."
+msgstr ""
+"ఇది నిర్ధిష్ట-వెడల్పు (అంటే నాన్-ప్రోపోర్షనల్) వచనమును ప్రదర్శించుటకు "
+"వుపయోగించే ఫాంటు."
 
 #: appearance.cpp:195
 msgid "S&erif font:"
@@ -348,7 +347,8 @@ msgstr "(&n) సాన్స్ సెరిఫ్ ఫాంటు:"
 
 #: appearance.cpp:203
 msgid "This is the font used to display text that is marked up as sans-serif."
-msgstr "ఇది సాన్స్-సెరిఫ్‌లా గుర్తుంచిన వచనమును ప్రదర్శించుటకు వుపయోగించే ఫాంటు."
+msgstr ""
+"ఇది సాన్స్-సెరిఫ్‌లా గుర్తుంచిన వచనమును ప్రదర్శించుటకు వుపయోగించే ఫాంటు."
 
 #: appearance.cpp:208
 msgid "C&ursive font:"
@@ -392,8 +392,8 @@ msgid ""
 "<b>Stylesheets</b><p>See http://www.w3.org/Style/CSS for further information "
 "on cascading style sheets.</p>"
 msgstr ""
-"<b>స్టైల్‌షీట్లు</b><p>స్టైల్ షీట్లను కాస్కేడింగ్ చేయుటపై అదనపు సమాచారము కొరకు  http://www.w3.org/"
-"Style/CSS చూడండి.</p>"
+"<b>స్టైల్‌షీట్లు</b><p>స్టైల్ షీట్లను కాస్కేడింగ్ చేయుటపై అదనపు సమాచారము "
+"కొరకు  http://www.w3.org/Style/CSS చూడండి.</p>"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, ButtonGroup1)
 #: css/cssconfig.ui:17
@@ -401,8 +401,8 @@ msgid ""
 "<b>Stylesheets</b><p>Use this groupbox to determine how Konqueror will "
 "render style sheets.</p>"
 msgstr ""
-"<b>స్టైల్‌షీట్లు</b><p>కాంక్వెరర్ స్టైల్ షీట్లను యెలా ప్రస్పుటిస్తుందో నిర్ణయించుటకు ఈ గ్రూప్‌బాక్స్ "
-"వుపయోగించండి.</p>"
+"<b>స్టైల్‌షీట్లు</b><p>కాంక్వెరర్ స్టైల్ షీట్లను యెలా ప్రస్పుటిస్తుందో "
+"నిర్ణయించుటకు ఈ గ్రూప్‌బాక్స్ వుపయోగించండి.</p>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, ButtonGroup1)
 #: css/cssconfig.ui:20
@@ -416,8 +416,8 @@ msgid ""
 "<b>Use default stylesheet</b><p>Select this option to use the default "
 "stylesheet.</p>"
 msgstr ""
-"<b>అప్రమేయ స్టైల్‌షీటును వుపయోగించుము</b><p>అప్రమేయ స్టైల్‌షీటును వుపయోగించుటకు ఈ ఐచ్చికాన్ని "
-"వుపయోగించండి.</p>"
+"<b>అప్రమేయ స్టైల్‌షీటును వుపయోగించుము</b><p>అప్రమేయ స్టైల్‌షీటును "
+"వుపయోగించుటకు ఈ ఐచ్చికాన్ని వుపయోగించండి.</p>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, useDefault)
 #: css/cssconfig.ui:29
@@ -488,8 +488,8 @@ msgid ""
 "<b>Use same family for all text</b><p>Select this option to override custom "
 "fonts everywhere in favor of the base font.</p>"
 msgstr ""
-"<b>ఒకే కుటుంబమును వచనము మొత్తమునకు వుపయోగించుము</b><p>ఆధార ఫాంటుకు యెక్కడ మలచుకొనిన "
-"ఫాంట్సువున్నా వోవర్‌రైడ్ చేయుటకు ఈ ఐచ్చికమును యెంపికచేయుము.</p>"
+"<b>ఒకే కుటుంబమును వచనము మొత్తమునకు వుపయోగించుము</b><p>ఆధార ఫాంటుకు యెక్కడ "
+"మలచుకొనిన ఫాంట్సువున్నా వోవర్‌రైడ్ చేయుటకు ఈ ఐచ్చికమును యెంపికచేయుము.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, sameFamily)
 #: css/csscustom.ui:512
@@ -584,8 +584,8 @@ msgid ""
 "custom font sizes in favor of the base font size. All fonts will be "
 "displayed in the same size.</p>"
 msgstr ""
-"<b>ఒకే కుటుంబమును వచనము మొత్తమునకు వుపయోగించుము</b><p>ఆధార ఫాంటుకు యెక్కడ మలచుకొనిన "
-"ఫాంట్సువున్నా వోవర్‌రైడ్ చేయుటకు ఈ ఐచ్చికమును యెంపికచేయుము.</p>"
+"<b>ఒకే కుటుంబమును వచనము మొత్తమునకు వుపయోగించుము</b><p>ఆధార ఫాంటుకు యెక్కడ "
+"మలచుకొనిన ఫాంట్సువున్నా వోవర్‌రైడ్ చేయుటకు ఈ ఐచ్చికమును యెంపికచేయుము.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, dontScale)
 #: css/csscustom.ui:616
@@ -624,8 +624,8 @@ msgid ""
 "<b>Custom</b><p>Select this option to define a custom color for the default "
 "font.</p>"
 msgstr ""
-"<b>మలచుకొనిన</b><p>అప్రమేయ ఫాంటు కొరకు మలచుకొనిన రంగును నిర్వచించుటకు ఈ ఐచ్చికమును "
-"నిర్వచించుము.</p>"
+"<b>మలచుకొనిన</b><p>అప్రమేయ ఫాంటు కొరకు మలచుకొనిన రంగును నిర్వచించుటకు ఈ "
+"ఐచ్చికమును నిర్వచించుము.</p>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, customColor)
 #: css/csscustom.ui:674
@@ -662,8 +662,8 @@ msgid ""
 "color to the default font as well as any custom fonts as specified in a "
 "stylesheet.</p>"
 msgstr ""
-"<b>ఒకే కుటుంబమును వచనము మొత్తమునకు వుపయోగించుము</b><p>ఆధార ఫాంటుకు యెక్కడ మలచుకొనిన "
-"ఫాంట్సువున్నా వోవర్‌రైడ్ చేయుటకు ఈ ఐచ్చికమును యెంపికచేయుము.</p>"
+"<b>ఒకే కుటుంబమును వచనము మొత్తమునకు వుపయోగించుము</b><p>ఆధార ఫాంటుకు యెక్కడ "
+"మలచుకొనిన ఫాంట్సువున్నా వోవర్‌రైడ్ చేయుటకు ఈ ఐచ్చికమును యెంపికచేయుము.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, sameColor)
 #: css/csscustom.ui:716
@@ -676,7 +676,8 @@ msgstr "ఒకే రంగును వచనము మొత్తముకు
 msgid ""
 "<b>Foreground color</b><p>The foreground color is the color that the text is "
 "drawn in.</p>"
-msgstr "<b>ఫోర్‌గ్రౌండ్ రంగు</b><p>ఫోర్‌గ్రౌండు రంగు అనేది వచనము వ్రాయబడే రంగు.</p>"
+msgstr ""
+"<b>ఫోర్‌గ్రౌండ్ రంగు</b><p>ఫోర్‌గ్రౌండు రంగు అనేది వచనము వ్రాయబడే రంగు.</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, txtForeground)
 #: css/csscustom.ui:729
@@ -695,8 +696,8 @@ msgid ""
 "<b>Suppress images</b><p>Selecting this will prevent Konqueror from loading "
 "images.</p>"
 msgstr ""
-"<b>చిత్రములను సప్రెస్‌చేయి</b><p>దీనిని యెంచుకొనుట కాంక్వెరర్‌ను చిత్రములు లోడుచేయుటనుండి నిరోధిస్తుంది."
-"</p>"
+"<b>చిత్రములను సప్రెస్‌చేయి</b><p>దీనిని యెంచుకొనుట కాంక్వెరర్‌ను చిత్రములు "
+"లోడుచేయుటనుండి నిరోధిస్తుంది.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, hideImages)
 #: css/csscustom.ui:770
@@ -709,8 +710,8 @@ msgid ""
 "<b>Suppress background images</b><p>Selecting this option will prevent "
 "Konqueror from loading background images.</p>"
 msgstr ""
-"<b>బ్యాక్‌గ్రౌండ్ చిత్రములను సప్రెస్‌చేయుము</b><p>ఈ ఐచ్చికమును యెంచుకొనుట కాంక్వెరర్‌ను బ్యాక్‌గ్రౌండు "
-"చిత్రములు లోడుచేయుటనుండి నిరోధిస్తుంది.</p>"
+"<b>బ్యాక్‌గ్రౌండ్ చిత్రములను సప్రెస్‌చేయుము</b><p>ఈ ఐచ్చికమును యెంచుకొనుట "
+"కాంక్వెరర్‌ను బ్యాక్‌గ్రౌండు చిత్రములు లోడుచేయుటనుండి నిరోధిస్తుంది.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, hideBackground)
 #: css/csscustom.ui:780
@@ -810,20 +811,25 @@ msgstr "(&E) ఎగుమతి..."
 
 #: domainlistview.cpp:82
 msgid "Click on this button to manually add a host or domain specific policy."
-msgstr "హోస్టు లేదా డొమైన్ ప్రత్యేకమైన విధానమును మాన్యువల్‌గా జతచేయుటకు ఈ బటన్ నొక్కుము."
+msgstr ""
+"హోస్టు లేదా డొమైన్ ప్రత్యేకమైన విధానమును మాన్యువల్‌గా జతచేయుటకు ఈ బటన్ "
+"నొక్కుము."
 
 #: domainlistview.cpp:84
 msgid ""
 "Click on this button to change the policy for the host or domain selected in "
 "the list box."
-msgstr "జాబితా పెట్టెనందు యెంపికకాబడిన హోస్టు లేదా డొమైన్ కొరకు విధానమును మార్చుటకు ఈ బటన్ పైన నొక్కుము."
+msgstr ""
+"జాబితా పెట్టెనందు యెంపికకాబడిన హోస్టు లేదా డొమైన్ కొరకు విధానమును మార్చుటకు "
+"ఈ బటన్ పైన నొక్కుము."
 
 #: domainlistview.cpp:86
 msgid ""
 "Click on this button to delete the policy for the host or domain selected in "
 "the list box."
 msgstr ""
-"జాబితా పెట్టెనందు యెంపికకాబడిన హోస్టు లేదా డొమైన్ కొరకు విధానమును తొలగించుటకు ఈ బటన్ పైన నొక్కుము."
+"జాబితా పెట్టెనందు యెంపికకాబడిన హోస్టు లేదా డొమైన్ కొరకు విధానమును "
+"తొలగించుటకు ఈ బటన్ పైన నొక్కుము."
 
 #: domainlistview.cpp:133
 msgid "You must first select a policy to be changed."
@@ -865,8 +871,8 @@ msgstr ""
 
 #: filteropts.cpp:95
 msgid ""
-"<qt>Filter expression (e.g. <tt>http://www.example.com/ad/*</tt>, <a href="
-"\"filterhelp\">more information</a>):"
+"<qt>Filter expression (e.g. <tt>http://www.example.com/ad/*</tt>, <a "
+"href=\"filterhelp\">more information</a>):"
 msgstr ""
 
 #: filteropts.cpp:109
@@ -882,6 +888,9 @@ msgid " day"
 msgid_plural " days"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: filteropts.cpp:129
 msgid "Insert"
@@ -905,8 +914,8 @@ msgstr "ఎగుమతిచేయి..."
 
 #: filteropts.cpp:142
 msgid ""
-"<qt>More information on <a href=\"importhelp\">import format</a>, <a href="
-"\"exporthelp\">export format</a>"
+"<qt>More information on <a href=\"importhelp\">import format</a>, <a "
+"href=\"exporthelp\">export format</a>"
 msgstr ""
 
 #: filteropts.cpp:156
@@ -929,13 +938,13 @@ msgstr ""
 
 #: filteropts.cpp:169
 msgid ""
-"<qt><p>Enter an expression to filter. Filters can be defined as either:"
-"<ul><li>a shell-style wildcard, e.g. <tt>http://www.example.com/ads*</tt>, "
-"the wildcards <tt>*?[]</tt> may be used</li><li>a full regular expression by "
-"surrounding the string with '<tt>/</tt>', e.g. <tt>/\\/(ad|banner)\\./</tt></"
-"li></ul><p>Any filter string can be preceded by '<tt>@@</tt>' to whitelist "
-"(allow) any matching URL, which takes priority over any blacklist (blocking) "
-"filter."
+"<qt><p>Enter an expression to filter. Filters can be defined as "
+"either:<ul><li>a shell-style wildcard, e.g. <tt>http://www.example.com/ads*</"
+"tt>, the wildcards <tt>*?[]</tt> may be used</li><li>a full regular "
+"expression by surrounding the string with '<tt>/</tt>', e.g. <tt>/\\/"
+"(ad|banner)\\./</tt></li></ul><p>Any filter string can be preceded by "
+"'<tt>@@</tt>' to whitelist (allow) any matching URL, which takes priority "
+"over any blacklist (blocking) filter."
 msgstr ""
 
 #: filteropts.cpp:185
@@ -1174,6 +1183,9 @@ msgid " second"
 msgid_plural " seconds"
 msgstr[0] " సెకను"
 msgstr[1] " సెకను"
+msgstr[2] " సెకను"
+msgstr[3] " సెకను"
+msgstr[4] " సెకను"
 
 #: javaopts.cpp:119
 msgid "&Path to Java executable, or 'java':"
@@ -1234,7 +1246,9 @@ msgstr ""
 
 #: javaopts.cpp:166
 msgid "Enabling this will cause the jvm to use KIO for network transport "
-msgstr "దీనిని చేతనపరచుట వలన jvm అనునది KIOను నెట్వర్కు మద్దతుకొరకు వుపయోగించుటకు కారణమౌతుంది"
+msgstr ""
+"దీనిని చేతనపరచుట వలన jvm అనునది KIOను నెట్వర్కు మద్దతుకొరకు వుపయోగించుటకు "
+"కారణమౌతుంది"
 
 #: javaopts.cpp:168
 msgid ""
@@ -1249,7 +1263,8 @@ msgid ""
 "If you want special arguments to be passed to the virtual machine, enter "
 "them here."
 msgstr ""
-"మీరు ప్రత్యేకమైన ఆర్గుమెంట్లు వర్చ్యువల్ మిషన్‌కు పాస్ చేయాలి అనుకుంటే, వాటిని యిక్కడ ప్రవేశపెట్టుము."
+"మీరు ప్రత్యేకమైన ఆర్గుమెంట్లు వర్చ్యువల్ మిషన్‌కు పాస్ చేయాలి అనుకుంటే, "
+"వాటిని యిక్కడ ప్రవేశపెట్టుము."
 
 #: javaopts.cpp:175
 msgid ""
@@ -1318,7 +1333,9 @@ msgstr "(&e) దోషములను తెలుపుము"
 #: jsopts.cpp:75
 msgid ""
 "Enables the reporting of errors that occur when JavaScript code is executed."
-msgstr "జావాస్క్రిప్టు కోడ్ నిర్వర్తించబడేటప్పుడు యెదురయ్యే దోషములు తెలుపుటను చేతనపరుస్తుంది."
+msgstr ""
+"జావాస్క్రిప్టు కోడ్ నిర్వర్తించబడేటప్పుడు యెదురయ్యే దోషములు తెలుపుటను "
+"చేతనపరుస్తుంది."
 
 #: jsopts.cpp:85
 msgid ""
@@ -1652,7 +1669,8 @@ msgstr "(&U) పైకి"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, scanButton)
 #: nsconfigwidget.ui:102
 msgid "Click here to scan for newly installed Netscape plugins now."
-msgstr "కొత్త సంస్థాపించిన నెట్‌స్కేపు ప్లగ్‌యిన్లను స్కానుచేయుటకు యిక్కడ నొక్కుము"
+msgstr ""
+"కొత్త సంస్థాపించిన నెట్‌స్కేపు ప్లగ్‌యిన్లను స్కానుచేయుటకు యిక్కడ నొక్కుము"
 
 #. i18n: ectx: property (text), widget (QPushButton, scanButton)
 #: nsconfigwidget.ui:105
@@ -1662,7 +1680,9 @@ msgstr "(&S) ప్లగ్‌యిన్ల కొరకు స్కాన�
 #. i18n: ectx: property (whatsThis), widget (QTreeWidget, pluginList)
 #: nsconfigwidget.ui:128
 msgid "Here you can see a list of the Netscape plugins KDE has found."
-msgstr "ఇక్కడ మీరు KDE ప్లగ్‌యిన్ కనుగొన్నటువంటి నెట్‌స్కేపు ప్లగ్‌యిన్ల జాబితాను చూడవచ్చు."
+msgstr ""
+"ఇక్కడ మీరు KDE ప్లగ్‌యిన్ కనుగొన్నటువంటి నెట్‌స్కేపు ప్లగ్‌యిన్ల జాబితాను "
+"చూడవచ్చు."
 
 #. i18n: ectx: property (text), widget (QTreeWidget, pluginList)
 #: nsconfigwidget.ui:135
@@ -1783,13 +1803,17 @@ msgstr ""
 msgid ""
 "Do you want to apply your changes before the scan? Otherwise the changes "
 "will be lost."
-msgstr "మీరు మీ మార్పులను స్కానుకు ముందుగా ఆపాదించుదామని అనుకొనుచున్నారా? లేకపోతే మార్పులు కొల్పాతాయి."
+msgstr ""
+"మీరు మీ మార్పులను స్కానుకు ముందుగా ఆపాదించుదామని అనుకొనుచున్నారా? లేకపోతే "
+"మార్పులు కొల్పాతాయి."
 
 #: pluginopts.cpp:336
 msgid ""
 "The nspluginscan executable cannot be found. Netscape plugins will not be "
 "scanned."
-msgstr "nspluginscan నిర్వర్తని కనుగొన బడలేదు. నెట్‌స్కేప్ ప్లగ్‌యిన్స్ స్కాన్ కాబడవు."
+msgstr ""
+"nspluginscan నిర్వర్తని కనుగొన బడలేదు. నెట్‌స్కేప్ ప్లగ్‌యిన్స్ స్కాన్ "
+"కాబడవు."
 
 #: pluginopts.cpp:343
 msgid "Scanning for plugins"
@@ -1857,8 +1881,8 @@ msgid ""
 "Enter the name of a host (like www.kde.org) or a domain, starting with a dot "
 "(like .kde.org or .org)"
 msgstr ""
-"హోస్టు(www.kde.org వంటి) లేదా డాట్‌తో ప్రారంభమయ్యే (.kde.org లేదా .org వంటి) డొమైన్‌ను "
-"ప్రవేశపెట్టుము."
+"హోస్టు(www.kde.org వంటి) లేదా డాట్‌తో ప్రారంభమయ్యే (.kde.org లేదా .org వంటి) "
+"డొమైన్‌ను ప్రవేశపెట్టుము."
 
 #: policydlg.cpp:124
 msgid "You must first enter a domain name."

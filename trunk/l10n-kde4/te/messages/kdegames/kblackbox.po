@@ -14,7 +14,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4;nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -32,6 +33,9 @@ msgid " ball"
 msgid_plural " balls"
 msgstr[0] "(&B) బంతులు"
 msgstr[1] "(&B) బంతులు"
+msgstr[2] "(&B) బంతులు"
+msgstr[3] "(&B) బంతులు"
+msgstr[4] "(&B) బంతులు"
 
 #: kbblevelconfigurationwidget.cpp:44
 msgctxt "A number between 2 and 30 is displayed in front of it."
@@ -39,6 +43,9 @@ msgid " column"
 msgid_plural " columns"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: kbblevelconfigurationwidget.cpp:53
 msgctxt "A number between 2 and 30 is displayed in front of it."
@@ -46,6 +53,9 @@ msgid " row"
 msgid_plural " rows"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: kbbmainwindow.cpp:79
 #, fuzzy
@@ -168,6 +178,9 @@ msgid "First, you need to remove 1 ball from the black box."
 msgid_plural "First, you need to remove %1 balls from the black box."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: kbbmainwindow.cpp:297
 msgid "To check if you successfully guessed the ball positions, click here!"
@@ -179,6 +192,9 @@ msgid "You need to place 1 more ball on the black box."
 msgid_plural "You need to place %1 more balls on the black box."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: kbbmainwindow.cpp:303
 msgid "Game over."
@@ -200,6 +216,9 @@ msgid "1 ball too many!"
 msgid_plural "%1 balls too many!"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: kbbmainwindow.cpp:316
 msgid "No more balls to place"
@@ -211,6 +230,9 @@ msgid "1 ball to place"
 msgid_plural "%1 balls to place"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: kbbmainwindow.cpp:321
 #, fuzzy
@@ -326,6 +348,9 @@ msgid "You should place %1 ball!\n"
 msgid_plural "You should place %1 balls!\n"
 msgstr[0] "పెట్టవలసిన బంతుల సంఖ్య %2<బ్ర>కానీ మీరు పెట్టినవి %1"
 msgstr[1] "పెట్టవలసిన బంతుల సంఖ్య %2<బ్ర>కానీ మీరు పెట్టినవి %1"
+msgstr[2] "పెట్టవలసిన బంతుల సంఖ్య %2<బ్ర>కానీ మీరు పెట్టినవి %1"
+msgstr[3] "పెట్టవలసిన బంతుల సంఖ్య %2<బ్ర>కానీ మీరు పెట్టినవి %1"
+msgstr[4] "పెట్టవలసిన బంతుల సంఖ్య %2<బ్ర>కానీ మీరు పెట్టినవి %1"
 
 #: kbbmainwindow.cpp:440
 #, kde-format
@@ -333,6 +358,9 @@ msgid "You have placed %1.\n"
 msgid_plural "You have placed %1.\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: kbbmainwindow.cpp:440
 msgid "Do you really want to give up this game?"

@@ -16,15 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4;nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;\n"
 
 #: bgadvanced.cpp:53
 msgid "Advanced Background Settings"
@@ -39,7 +32,9 @@ msgstr "%1 ని."
 msgid ""
 "Unable to remove the program: the program is global and can only be removed "
 "by the system administrator."
-msgstr "ప్రోగ్రామ్‌ను తీసివేయలేము: ప్రోగ్రామ్ సార్వత్రికమైనది మరియు సిస్టమ్ నిర్వహణాధికారి చేతనే తీసివేయబడుతుంది."
+msgstr ""
+"ప్రోగ్రామ్‌ను తీసివేయలేము: ప్రోగ్రామ్ సార్వత్రికమైనది మరియు సిస్టమ్ "
+"నిర్వహణాధికారి చేతనే తీసివేయబడుతుంది."
 
 #: bgadvanced.cpp:249
 msgid "Cannot Remove Program"
@@ -416,7 +411,9 @@ msgstr "అధునాతన ఐచ్చికములు"
 msgid ""
 "Click this button to give you a list of new wallpapers to download from the "
 "Internet."
-msgstr "ఇంటర్నెట్ నుండి డౌన్‌లోడ్ చేయు కొత్త వాల్‌పేపర్ల జాబితా కొరకు మీరు ఈ బటన్ నొక్కండి."
+msgstr ""
+"ఇంటర్నెట్ నుండి డౌన్‌లోడ్ చేయు కొత్త వాల్‌పేపర్ల జాబితా కొరకు మీరు ఈ బటన్ "
+"నొక్కండి."
 
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonGetNew)
 #: bgdialog_ui.ui:187
@@ -497,8 +494,9 @@ msgid ""
 "experiment by moving the slider and looking at the effects in the preview "
 "image."
 msgstr ""
-"బ్లెండింగ్ యొక్క డిగ్రీను నియంత్రించుటకు మీరు ఈ స్లైడర్‌ను వుపయోగించవచ్చు. ముందస్తు వీక్షణం చిత్రములోని "
-"ప్రాభావాలను చూస్తూ మరియు స్లైడర్‌ను కదుపుతూ మీరు ప్రయోగం చేయవచ్చు."
+"బ్లెండింగ్ యొక్క డిగ్రీను నియంత్రించుటకు మీరు ఈ స్లైడర్‌ను వుపయోగించవచ్చు. "
+"ముందస్తు వీక్షణం చిత్రములోని ప్రాభావాలను చూస్తూ మరియు స్లైడర్‌ను కదుపుతూ "
+"మీరు ప్రయోగం చేయవచ్చు."
 
 #. i18n: ectx: property (text), widget (QLabel, m_lblBlendBalance)
 #: bgdialog_ui.ui:334
@@ -560,7 +558,8 @@ msgstr "(&u) అమర్పు..."
 #: bgdialog_ui.ui:558
 msgid ""
 "Choose the screen you wish to configure the background for from this list."
-msgstr "మీరు బ్యాక్‌గ్రౌండును ఆకృతీకరించ దలచిన తెరను ఈ జాబితానుండి యెంచుకొనుము."
+msgstr ""
+"మీరు బ్యాక్‌గ్రౌండును ఆకృతీకరించ దలచిన తెరను ఈ జాబితానుండి యెంచుకొనుము."
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_comboScreen)
 #: bgdialog_ui.ui:562
@@ -577,8 +576,8 @@ msgid ""
 "This picture of a monitor contains a preview of what the current settings "
 "will look like on your desktop."
 msgstr ""
-"ప్రస్తుత అమర్పులు మీ రంగస్థలముపై చూడుటకు యెలా వుంటాయనేది మానిటర్ పైని ఈ చిత్రపటము ముందస్తు "
-"వీక్షణం యిస్తుంది."
+"ప్రస్తుత అమర్పులు మీ రంగస్థలముపై చూడుటకు యెలా వుంటాయనేది మానిటర్ పైని ఈ "
+"చిత్రపటము ముందస్తు వీక్షణం యిస్తుంది."
 
 #: bgwallpaper.cpp:108
 msgid "Setup Slide Show"
@@ -591,6 +590,9 @@ msgid " minute"
 msgid_plural " minutes"
 msgstr[0] " ని"
 msgstr[1] " ని"
+msgstr[2] " ని"
+msgstr[3] " ని"
+msgstr[4] " ని"
 
 #: bgwallpaper.cpp:164
 msgid "Select Image"

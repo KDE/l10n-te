@@ -15,15 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4;nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;\n"
 "X-Generator: KBabel 1.11.4\n"
 
 msgctxt "NAME OF TRANSLATORS"
@@ -195,8 +188,8 @@ msgstr ""
 #: about/konq_aboutpage.cc:208
 #, kde-format
 msgid ""
-"<A HREF=\"%1\">DOM</A> (Level 1, partially Level 2) based <A HREF="
-"\"%2\">HTML 4.01</A>"
+"<A HREF=\"%1\">DOM</A> (Level 1, partially Level 2) based <A HREF=\""
+"%2\">HTML 4.01</A>"
 msgstr ""
 
 #: about/konq_aboutpage.cc:210 about/konq_aboutpage.cc:212
@@ -236,8 +229,8 @@ msgstr ""
 #: about/konq_aboutpage.cc:218
 #, kde-format
 msgid ""
-"JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">IBM</A> or <A HREF="
-"\"%2\">Sun/Oracle</A>)"
+"JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">IBM</A> or <A HREF=\""
+"%2\">Sun/Oracle</A>)"
 msgstr ""
 
 #: about/konq_aboutpage.cc:220
@@ -249,8 +242,8 @@ msgstr ""
 #, kde-format
 msgid ""
 "Netscape Communicator<SUP>&reg;</SUP> <A HREF=\"%4\">plugins</A> (for "
-"viewing <A HREF=\"%1\">Flash<SUP>&reg;</SUP></A>, <A HREF="
-"\"%2\">Real<SUP>&reg;</SUP></A>Audio, <A HREF=\"%3\">Real<SUP>&reg;</SUP></"
+"viewing <A HREF=\"%1\">Flash<SUP>&reg;</SUP></A>, <A HREF=\""
+"%2\">Real<SUP>&reg;</SUP></A>Audio, <A HREF=\"%3\">Real<SUP>&reg;</SUP></"
 "A>Video, etc.)"
 msgstr ""
 
@@ -528,6 +521,9 @@ msgid " day"
 msgid_plural " days"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: sidebar/history_module/kcmhistory.cpp:77
 #: sidebar/history_module/kcmhistory.cpp:82
@@ -537,6 +533,9 @@ msgid "Minute"
 msgid_plural "Minutes"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: sidebar/history_module/kcmhistory.cpp:79
 #: sidebar/history_module/kcmhistory.cpp:84
@@ -546,6 +545,9 @@ msgid "Day"
 msgid_plural "Days"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: sidebar/history_module/kcmhistory.cpp:198
 msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
@@ -860,6 +862,9 @@ msgid " minute"
 msgid_plural " minutes"
 msgstr[0] " ని"
 msgstr[1] " ని"
+msgstr[2] " ని"
+msgstr[3] " ని"
+msgstr[4] " ని"
 
 #: sidebar/web_module/web_module.cpp:148
 #, fuzzy
@@ -868,6 +873,9 @@ msgid " second"
 msgid_plural " seconds"
 msgstr[0] " సెకను"
 msgstr[1] " సెకను"
+msgstr[2] " సెకను"
+msgstr[3] " సెకను"
+msgstr[4] " సెకను"
 
 #: sidebar/web_module/web_module.cpp:280
 msgctxt "@action:inmenu Add"
@@ -1368,8 +1376,7 @@ msgstr ""
 msgid "Do you really want to close all other tabs?"
 msgstr ""
 
-#: src/konqmainwindow.cpp:2613 src/konqmainwindow.cpp:3755
-#: src/konqtabs.cpp:355
+#: src/konqmainwindow.cpp:2613 src/konqmainwindow.cpp:3755 src/konqtabs.cpp:355
 msgid "Close &Other Tabs"
 msgstr ""
 
@@ -1704,9 +1711,9 @@ msgstr ""
 
 #: src/konqmainwindow.cpp:3976
 msgid ""
-"<html>Copy the currently selected text or item(s) to the system "
-"clipboard<br /><br />This makes it available to the <b>Paste</b> command in "
-"Konqueror and other KDE applications.</html>"
+"<html>Copy the currently selected text or item(s) to the system clipboard<br "
+"/><br />This makes it available to the <b>Paste</b> command in Konqueror and "
+"other KDE applications.</html>"
 msgstr ""
 
 #: src/konqmainwindow.cpp:3980

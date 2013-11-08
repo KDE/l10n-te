@@ -15,15 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4;nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;\n"
 "X-Generator: KBabel 1.11.4\n"
 
 msgctxt "NAME OF TRANSLATORS"
@@ -86,6 +79,9 @@ msgid "&lt;1 bit&gt;"
 msgid_plural "&lt;%1 bits&gt;"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: engineexplorer.cpp:321
 #, kde-format
@@ -93,6 +89,9 @@ msgid "&lt;1 byte&gt;"
 msgid_plural "&lt;%1 bytes&gt;"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: engineexplorer.cpp:344
 #, kde-format
@@ -100,6 +99,9 @@ msgid "&lt;1 item&gt;"
 msgid_plural "&lt;%1 items&gt;"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: engineexplorer.cpp:434
 msgctxt "The user did a query to a dataengine and it returned empty data"
@@ -125,6 +127,9 @@ msgid "%1 Engine - 1 data source"
 msgid_plural "%1 Engine - %2 data sources"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, m_sourceRequester)
 #: engineexplorer.ui:38
@@ -296,6 +301,9 @@ msgid "One active operation..."
 msgid_plural "%1 operations active..."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
 #: serviceviewer.ui:33
