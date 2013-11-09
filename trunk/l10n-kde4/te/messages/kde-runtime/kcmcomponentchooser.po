@@ -60,8 +60,8 @@ msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
 "change now ?</qt>"
 msgstr ""
-"<qt>మీరు మీ యెంపిక యొక్క అప్రమేయ కాంపోనెంటును మార్చినారు, మీరు ఆ మార్పును "
-"దాయవలెనని అనుకొనుచున్నారా?</qt>"
+"<qt>మీరు మీ యెంపిక యొక్క అప్రమేయ కాంపోనెంటును మార్చినారు, మీరు ఆ మార్పును దాయవలెనని అనుకొనుచున్నారా?</"
+"qt>"
 
 #: componentchooser.cpp:155
 msgid "No description available"
@@ -72,8 +72,7 @@ msgstr "ఎటువంటి వివరణ అందుబాటులో ల
 msgid ""
 "Choose from the list below which component should be used by default for the "
 "%1 service."
-msgstr ""
-"సేవ %1 కొరకు యే కాంపోనెంటు వుపయోగించబడాలో క్రింది జాబితానుండి యెంచుకొనుము"
+msgstr "సేవ %1 కొరకు యే కాంపోనెంటు వుపయోగించబడాలో క్రింది జాబితానుండి యెంచుకొనుము"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox1)
 #: componentchooser_ui.ui:26
@@ -120,8 +119,7 @@ msgstr "అభీష్ట టెర్మినల్ అనువర్తన�
 
 #: componentchooserwm.cpp:89
 msgid "The new window manager will be used when KDE is started the next time."
-msgstr ""
-"KDE తరువాతి సారి ప్రారంభమైనప్పుడు కొత్త విండో నిర్వాహిక వుపయోగించబడుతుంది."
+msgstr "KDE తరువాతి సారి ప్రారంభమైనప్పుడు కొత్త విండో నిర్వాహిక వుపయోగించబడుతుంది."
 
 #: componentchooserwm.cpp:90 componentchooserwm.cpp:143
 msgid "Window Manager Change"
@@ -134,8 +132,8 @@ msgid ""
 "applications adjust for this change."
 msgstr ""
 "కొత్త విండో నిర్వాహిక నడుస్తోంది.\n"
-"ప్రస్తుతం నడుస్తున్న అన్ని అనువర్తనములు ఈ మార్పునకు సర్దుకొనుటకు KDE సెషన్ "
-"పునఃప్రారంభించుట సిఫార్సు చేయడమైనది."
+"ప్రస్తుతం నడుస్తున్న అన్ని అనువర్తనములు ఈ మార్పునకు సర్దుకొనుటకు KDE సెషన్ పునఃప్రారంభించుట "
+"సిఫార్సు చేయడమైనది."
 
 #: componentchooserwm.cpp:106
 msgid "Window Manager Replaced"
@@ -144,9 +142,7 @@ msgstr "విండో నిర్వాహిక పునఃస్థాప�
 #: componentchooserwm.cpp:142
 msgid ""
 "Your running window manager will be now replaced with the configured one."
-msgstr ""
-"మీ నడుస్తున్న విండో నిర్వాహిక యిప్పుడు ఆకృతీకరించిన దానితో పునఃస్థాపించ "
-"బడుతుంది."
+msgstr "మీ నడుస్తున్న విండో నిర్వాహిక యిప్పుడు ఆకృతీకరించిన దానితో పునఃస్థాపించ బడుతుంది."
 
 #: componentchooserwm.cpp:151
 msgid "Config Window Manager Change"
@@ -171,9 +167,7 @@ msgstr ""
 msgid ""
 "The running window manager has been reverted to the default KDE window "
 "manager KWin."
-msgstr ""
-"నడుస్తున్న విండో నిర్వాహిక అప్రమేయ KDE విండో నిర్వాహిక KWinకు తిరిగివుంచ "
-"బడింది."
+msgstr "నడుస్తున్న విండో నిర్వాహిక అప్రమేయ KDE విండో నిర్వాహిక KWinకు తిరిగివుంచ బడింది."
 
 #: componentchooserwm.cpp:178
 msgid ""
@@ -199,9 +193,7 @@ msgstr "(&U) KMailను అభీష్ట మెయిల్ క్లైం�
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, otherCB)
 #: emailclientconfig_ui.ui:22
 msgid "Select this option if you want to use any other mail program."
-msgstr ""
-"మీరు ఏదైనా యితర మెయిల్ ప్రోగ్రామ్‌ను వుపయోగించాలని అనుకుంటే ఈ ఐచ్చికాన్ని "
-"యెంపికచేసుకోండి."
+msgstr "మీరు ఏదైనా యితర మెయిల్ ప్రోగ్రామ్‌ను వుపయోగించాలని అనుకుంటే ఈ ఐచ్చికాన్ని యెంపికచేసుకోండి."
 
 #. i18n: ectx: property (text), widget (QRadioButton, otherCB)
 #: emailclientconfig_ui.ui:25
@@ -216,9 +208,9 @@ msgid ""
 "Copy (CC)</li> <li>%b: Blind Carbon Copy (BCC)</li> <li>%B: Template body "
 "text</li> <li>%A: Attachment </li> <li>%u: Full mailto: URL </li></ul>"
 msgstr ""
-"<ul> <li>%t: స్వీకరించువాని చిరునామా</li> <li>%s: సంగతి</li> <li>%c: కార్బన్ "
-"కాపీ (CC)</li> <li>%b: బ్లైండ్ కార్బన్ కాపీ (BCC)</li> <li>%B: టెంప్లేట్ "
-"బాడీ వచనము </li> <li>%A: అనుభందము </li> <li>%u: పూర్తి మెయిల్: URL </li></ul>"
+"<ul> <li>%t: స్వీకరించువాని చిరునామా</li> <li>%s: సంగతి</li> <li>%c: కార్బన్ కాపీ (CC)</"
+"li> <li>%b: బ్లైండ్ కార్బన్ కాపీ (BCC)</li> <li>%B: టెంప్లేట్ బాడీ వచనము </li> <li>%A: "
+"అనుభందము </li> <li>%u: పూర్తి మెయిల్: URL </li></ul>"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, txtEMailClient)
 #: emailclientconfig_ui.ui:56
@@ -244,8 +236,8 @@ msgid ""
 "Activate this option if you want the selected email client to be executed in "
 "a terminal (e.g. <em>Konsole</em>)."
 msgstr ""
-"ఎంపికచేసిన ఈమెయిల్ క్లైంట్ టెర్మినల్ నందు నిర్వర్తించబడాలని మీరు కోరుకుంటే ఈ "
-"ఐచ్చికాన్ని క్రియాశీలము చేయండి (ఉ.దా. <em>Konsole</em>)."
+"ఎంపికచేసిన ఈమెయిల్ క్లైంట్ టెర్మినల్ నందు నిర్వర్తించబడాలని మీరు కోరుకుంటే ఈ ఐచ్చికాన్ని క్రియాశీలము చేయండి "
+"(ఉ.దా. <em>Konsole</em>)."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRunTerminal)
 #: emailclientconfig_ui.ui:102
@@ -335,8 +327,7 @@ msgid ""
 "Note: Most window managers have their own configuration and do not follow "
 "KDE settings."
 msgstr ""
-"గమనిక: చాలావరకు విండో నిర్వాహికలు వాటి స్వంత ఆకృతీకరణను కలిగివుంటాయి KDE "
-"అమరికలను అనుసరించవు."
+"గమనిక: చాలావరకు విండో నిర్వాహికలు వాటి స్వంత ఆకృతీకరణను కలిగివుంటాయి KDE అమరికలను అనుసరించవు."
 
 #~ msgid "Component Description"
 #~ msgstr "కాంపోనెంటు వివరణ"
