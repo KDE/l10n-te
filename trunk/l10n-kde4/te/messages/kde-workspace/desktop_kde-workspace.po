@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-12 01:50+0000\n"
+"POT-Creation-Date: 2013-11-13 01:48+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -3775,7 +3775,7 @@ msgctxt "Name"
 msgid "Sidebar"
 msgstr "సాలిడ్"
 
-#: kwin/tabbox/qml/clients/sidebar/metadata.desktop:49
+#: kwin/tabbox/qml/clients/sidebar/metadata.desktop:50
 msgctxt "Comment"
 msgid "A window switcher with live thumbnails on the screen side"
 msgstr ""
@@ -4216,19 +4216,11 @@ msgctxt "Keywords"
 msgid "Power Management;Battery;System;Energy;"
 msgstr "పవర్ నిర్వహణా బ్యాక్ఎండ్"
 
-#: plasma/generic/applets/calendar/plasma-applet-calendar.desktop:2
-#: plasma/generic/dataengines/calendar/plasma-dataengine-calendar.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Canada"
+#: plasma/generic/applets/calendar/metadata.desktop:3
+#: plasma/generic/applets/digital-clock/metadata.desktop:3
 msgctxt "Name"
-msgid "Calendar"
-msgstr "కెనెడా"
-
-#: plasma/generic/applets/calendar/plasma-applet-calendar.desktop:80
-msgctxt "Comment"
-msgid "View and pick dates from the calendar"
-msgstr "క్యాలెండర్ నుండి తేదీలను చూడుము మరియు తీసుకొనుము"
+msgid "Digital Clock"
+msgstr "డిజిటల్ గడియారం"
 
 #: plasma/generic/applets/devicenotifier/package/metadata.desktop:2
 #, fuzzy
@@ -4250,11 +4242,6 @@ msgstr "కొత్త పరికరముల కొరకు నోటీస
 msgctxt "Name"
 msgid "Open with File Manager"
 msgstr "అప్రమేయ అన్వేషణితో తెరువుము (&d)"
-
-#: plasma/generic/applets/digital-clock/metadata.desktop:3
-msgctxt "Name"
-msgid "Digital Clock"
-msgstr "డిజిటల్ గడియారం"
 
 #: plasma/generic/applets/icon/package/metadata.desktop:2
 msgctxt "Name"
@@ -4598,6 +4585,14 @@ msgstr "నోటీసులు"
 msgctxt "Comment"
 msgid "Information and launching of all applications in the app menu."
 msgstr ""
+
+#: plasma/generic/dataengines/calendar/plasma-dataengine-calendar.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Canada"
+msgctxt "Name"
+msgid "Calendar"
+msgstr "కెనెడా"
 
 #: plasma/generic/dataengines/calendar/plasma-dataengine-calendar.desktop:80
 #, fuzzy
@@ -5707,7 +5702,7 @@ msgctxt "Comment"
 msgid "Blank desktop view furniture"
 msgstr ""
 
-#: plasma/qmlpackages/blank/metadata.desktop:12
+#: plasma/qmlpackages/blank/metadata.desktop:13
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "SaverDesktop"
@@ -5723,7 +5718,7 @@ msgctxt "Comment"
 msgid "Desktop view furniture"
 msgstr "రంగస్థలం మాగ్నిఫైర్"
 
-#: plasma/qmlpackages/desktop/metadata.desktop:12
+#: plasma/qmlpackages/desktop/metadata.desktop:13
 msgctxt "Name"
 msgid "Desktop"
 msgstr "రంగస్ఠలం"
@@ -5736,14 +5731,14 @@ msgctxt "Comment"
 msgid "Desktop Design Language"
 msgstr "డెస్‍క్ టాప్ భాగములు"
 
-#: plasma/qmlpackages/lookandfeel/metadata.desktop:13
+#: plasma/qmlpackages/lookandfeel/metadata.desktop:15
 msgctxt "Keywords"
 msgid ""
 "Desktop, Workspace, Appearance, Look and Feel, Logout, Lock, Suspend, "
 "Shutdown, Hibernate,"
 msgstr ""
 
-#: plasma/qmlpackages/lookandfeel/metadata.desktop:23
+#: plasma/qmlpackages/lookandfeel/metadata.desktop:26
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Look & Feel"
@@ -6858,6 +6853,10 @@ msgstr "ఫాంట్ వీక్షణి"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
+
+#~ msgctxt "Comment"
+#~ msgid "View and pick dates from the calendar"
+#~ msgstr "క్యాలెండర్ నుండి తేదీలను చూడుము మరియు తీసుకొనుము"
 
 #, fuzzy
 #~| msgctxt "Name"
