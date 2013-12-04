@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libtaskmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-24 01:34+0000\n"
+"POT-Creation-Date: 2013-12-04 01:36+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -19,16 +19,16 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 
-#: launcherconfig.cpp:47
+#: launcherconfig.cpp:45
 msgid "Launcher Matching Rules"
 msgstr ""
 
-#: launcherconfig.cpp:147
+#: launcherconfig.cpp:145
 #, kde-format
 msgid "A launcher is already defined for %1"
 msgstr ""
 
-#: launcherconfig.cpp:204
+#: launcherconfig.cpp:202
 msgid ""
 "To associate an application with a launcher, the task manager reads the "
 "application's window class and name. These are then used to look up the "
@@ -52,17 +52,17 @@ msgstr ""
 msgid "Launcher"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (KPushButton, add)
+#. i18n: ectx: property (text), widget (QPushButton, add)
 #: launcherconfig.ui:57
 msgid "Add"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (KPushButton, edit)
+#. i18n: ectx: property (text), widget (QPushButton, edit)
 #: launcherconfig.ui:64
 msgid "Edit"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (KPushButton, remove)
+#. i18n: ectx: property (text), widget (QPushButton, remove)
 #: launcherconfig.ui:71
 msgid "Remove"
 msgstr ""
@@ -80,11 +80,11 @@ msgstr ""
 msgid "More information..."
 msgstr ""
 
-#: launcherproperties.cpp:49
+#: launcherproperties.cpp:47
 msgid "Launcher Properties"
 msgstr ""
 
-#: launcherproperties.cpp:99
+#: launcherproperties.cpp:105
 msgid "Select launcher application:"
 msgstr ""
 
@@ -98,7 +98,7 @@ msgstr ""
 msgid "Window name:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (KPushButton, detect)
+#. i18n: ectx: property (text), widget (QPushButton, detect)
 #: launcherproperties.ui:37
 msgid "Detect Window Properties"
 msgstr ""
@@ -108,108 +108,108 @@ msgstr ""
 msgid "Launcher:"
 msgstr ""
 
-#: strategies/manualgroupingstrategy.cpp:77
+#: strategies/manualgroupingstrategy.cpp:76
 msgid "Leave Group"
 msgstr ""
 
-#: strategies/manualgroupingstrategy.cpp:84
+#: strategies/manualgroupingstrategy.cpp:83
 msgid "Remove Group"
 msgstr ""
 
-#: strategies/programgroupingstrategy.cpp:76
+#: strategies/programgroupingstrategy.cpp:75
 msgid "Allow this program to be grouped"
 msgstr ""
 
-#: strategies/programgroupingstrategy.cpp:78
+#: strategies/programgroupingstrategy.cpp:77
 msgid "Do not allow this program to be grouped"
 msgstr ""
 
-#: task.cpp:257
+#: task.cpp:256
 #, fuzzy
 #| msgid "modified"
 msgctxt "marks that a task has been modified"
 msgid "modified"
 msgstr "మార్చబడినడి"
 
-#: taskactions.cpp:173
+#: taskactions.cpp:171
 msgid "Mi&nimize"
 msgstr "(&n) చిన్నగా చేయి"
 
-#: taskactions.cpp:184
+#: taskactions.cpp:182
 msgid "Ma&ximize"
 msgstr "(&x) పెద్దగా చేయి"
 
-#: taskactions.cpp:194
+#: taskactions.cpp:192
 msgid "&Shade"
 msgstr "(&S) నీడ"
 
-#: taskactions.cpp:204
+#: taskactions.cpp:202
 msgid "Re&size"
 msgstr ""
 
-#: taskactions.cpp:212
+#: taskactions.cpp:210
 msgid "&Move"
 msgstr "(&M)జరుపు"
 
-#: taskactions.cpp:221
+#: taskactions.cpp:219
 msgid "&Close"
 msgstr "(&C) మూసివేయి"
 
-#: taskactions.cpp:254
+#: taskactions.cpp:252
 #, fuzzy
 #| msgid "&To Current Desktop"
 msgid "Move &To Current Desktop"
 msgstr "(&T) ప్రస్తుతము తెరిచివున్న రంగస్థలానికి"
 
-#: taskactions.cpp:275
+#: taskactions.cpp:273
 msgid "&All Desktops"
 msgstr "(&A)అన్ని రంగస్థలాలు"
 
-#: taskactions.cpp:322
+#: taskactions.cpp:320
 #, fuzzy
 #| msgid "To &Desktop"
 msgid "Move To &Desktop"
 msgstr "(&D) రంగస్థలానికి"
 
-#: taskactions.cpp:342
+#: taskactions.cpp:340
 msgid "Keep &Above Others"
 msgstr "(&A) వేరేవాటి పైన పెట్టండి"
 
-#: taskactions.cpp:352
+#: taskactions.cpp:350
 msgid "Keep &Below Others"
 msgstr "(&B) వేరేవాటి క్రింద పెట్టండి"
 
-#: taskactions.cpp:362
+#: taskactions.cpp:360
 msgid "&Fullscreen"
 msgstr "(&F) పూర్తి తెర"
 
-#: taskactions.cpp:372
+#: taskactions.cpp:370
 msgid "More Actions"
 msgstr ""
 
-#: taskactions.cpp:399
+#: taskactions.cpp:397
 msgid "&Leave Group"
 msgstr ""
 
-#: taskactions.cpp:427
+#: taskactions.cpp:425
 msgid "Remove This Launcher"
 msgstr ""
 
-#: taskactions.cpp:448
+#: taskactions.cpp:446
 msgid "&Show A Launcher When Not Running"
 msgstr ""
 
-#: taskactions.cpp:481
+#: taskactions.cpp:479
 msgid ""
 "The application, to which this task is associated with, could not be "
 "determined. Please select the appropriate application from the list below:"
 msgstr ""
 
-#: taskactions.cpp:528
+#: taskactions.cpp:526
 msgid "Start New Instance"
 msgstr ""
 
-#: taskactions.cpp:552
+#: taskactions.cpp:550
 msgid "&Edit Group"
 msgstr ""
 
