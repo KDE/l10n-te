@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-01-12 01:56+0000\n"
+"POT-Creation-Date: 2014-01-13 01:57+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -3076,7 +3076,7 @@ msgctxt "Name"
 msgid "Text Only"
 msgstr "వచన దస్త్రం"
 
-#: kwin/tabbox/qml/clients/text/metadata.desktop:23
+#: kwin/tabbox/qml/clients/text/metadata.desktop:24
 msgctxt "Comment"
 msgid "A window switcher layout only showing window captions"
 msgstr ""
@@ -3404,12 +3404,12 @@ msgctxt "Name"
 msgid "Battery & Brightness"
 msgstr "ప్రదర్శన అమరికలు"
 
-#: plasma/generic/applets/batterymonitor/metadata.desktop:25
+#: plasma/generic/applets/batterymonitor/metadata.desktop:26
 msgctxt "Comment"
 msgid "See the power status of your battery"
 msgstr "మీ బ్యాటరీ యొక్క పవర్ స్థితిని చూడుము"
 
-#: plasma/generic/applets/batterymonitor/metadata.desktop:99
+#: plasma/generic/applets/batterymonitor/metadata.desktop:100
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Power Management Backend"
@@ -3418,10 +3418,13 @@ msgid "Power Management;Battery;System;Energy;"
 msgstr "పవర్ నిర్వహణా బ్యాక్ఎండ్"
 
 #: plasma/generic/applets/calendar/metadata.desktop:3
-#: plasma/generic/applets/digital-clock/metadata.desktop:3
+#: plasma/generic/dataengines/calendar/plasma-dataengine-calendar.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Canada"
 msgctxt "Name"
-msgid "Digital Clock"
-msgstr "డిజిటల్ గడియారం"
+msgid "Calendar"
+msgstr "కెనెడా"
 
 #: plasma/generic/applets/devicenotifier/package/metadata.desktop:2
 #, fuzzy
@@ -3443,6 +3446,11 @@ msgstr "కొత్త పరికరముల కొరకు నోటీస
 msgctxt "Name"
 msgid "Open with File Manager"
 msgstr "అప్రమేయ అన్వేషణితో తెరువుము (&d)"
+
+#: plasma/generic/applets/digital-clock/metadata.desktop:3
+msgctxt "Name"
+msgid "Digital Clock"
+msgstr "డిజిటల్ గడియారం"
 
 #: plasma/generic/applets/icon/package/metadata.desktop:2
 msgctxt "Name"
@@ -3802,14 +3810,6 @@ msgstr "నోటీసులు"
 msgctxt "Comment"
 msgid "Information and launching of all applications in the app menu."
 msgstr ""
-
-#: plasma/generic/dataengines/calendar/plasma-dataengine-calendar.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Canada"
-msgctxt "Name"
-msgid "Calendar"
-msgstr "కెనెడా"
 
 #: plasma/generic/dataengines/calendar/plasma-dataengine-calendar.desktop:80
 #, fuzzy
