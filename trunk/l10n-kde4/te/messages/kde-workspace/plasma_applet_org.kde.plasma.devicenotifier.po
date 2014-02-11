@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-07 01:46+0000\n"
+"POT-Creation-Date: 2014-02-11 01:46+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -19,21 +19,27 @@ msgstr ""
 "4;\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: package/contents/ui/DeviceItem.qml:164
+#: package/contents/ui/DeviceItem.qml:135
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free"
+msgstr ""
+
+#: package/contents/ui/DeviceItem.qml:165
 msgctxt ""
 "Accessing is a less technical word for Mounting; translation should be short "
 "and mean 'Currently mounting this device'"
 msgid "Accessing..."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:164
+#: package/contents/ui/DeviceItem.qml:165
 msgctxt ""
 "Removing is a less technical word for Unmounting; translation shoud be short "
 "and mean 'Currently unmounting this device'"
 msgid "Removing..."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:177
+#: package/contents/ui/DeviceItem.qml:178
 #, kde-format
 msgid "1 action for this device"
 msgid_plural "%1 actions for this device"
@@ -43,65 +49,59 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: package/contents/ui/DeviceItem.qml:186
-#, kde-format
-msgctxt "@info:status Free disk space"
-msgid "%1 free"
-msgstr ""
-
-#: package/contents/ui/DeviceItem.qml:225
+#: package/contents/ui/DeviceItem.qml:212
 msgid "Click to mount this device."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:227
+#: package/contents/ui/DeviceItem.qml:214
 msgid "Click to eject this disc."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:229
+#: package/contents/ui/DeviceItem.qml:216
 msgid "Click to safely remove this device."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:231
+#: package/contents/ui/DeviceItem.qml:218
 msgid "Click to access this device from other applications."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:241
+#: package/contents/ui/DeviceItem.qml:237
 msgid ""
 "It is currently <b>not safe</b> to remove this device: applications may be "
 "accessing it. Click the eject button to safely remove this device."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:243
+#: package/contents/ui/DeviceItem.qml:239
 msgid "This device is currently accessible."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:248
+#: package/contents/ui/DeviceItem.qml:244
 msgid ""
 "It is currently <b>not safe</b> to remove this device: applications may be "
 "accessing other volumes on this device. Click the eject button on these "
 "other volumes to safely remove this device."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:250
+#: package/contents/ui/DeviceItem.qml:246
 msgid "It is currently safe to remove this device."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:253
+#: package/contents/ui/DeviceItem.qml:249
 msgid "This device is not currently accessible."
 msgstr ""
 
-#: package/contents/ui/devicenotifier.qml:173
+#: package/contents/ui/devicenotifier.qml:41
 msgid "No devices available"
 msgstr ""
 
-#: package/contents/ui/devicenotifier.qml:176
+#: package/contents/ui/devicenotifier.qml:41
 msgid "Most recent device"
 msgstr ""
 
-#: package/contents/ui/devicenotifier.qml:231
+#: package/contents/ui/devicenotifier.qml:200
 msgid "Available Devices"
 msgstr ""
 
-#: package/contents/ui/devicenotifier.qml:231
+#: package/contents/ui/devicenotifier.qml:200
 msgid "No Devices Available"
 msgstr ""
