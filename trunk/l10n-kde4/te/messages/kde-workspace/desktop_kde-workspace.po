@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-09 02:12+0000\n"
+"POT-Creation-Date: 2014-03-11 02:09+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1375,6 +1375,27 @@ msgctxt "Comment"
 msgid "Hardware Information Summary"
 msgstr "హార్డువేర్"
 
+#: kinfocenter/Modules/info/wayland.desktop:12
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Thailand"
+msgctxt "Name"
+msgid "Wayland"
+msgstr "థాయిలండ్"
+
+#: kinfocenter/Modules/info/wayland.desktop:14
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Info about files and directories for Plasmoids"
+msgctxt "Comment"
+msgid "Information about the Wayland Compositor"
+msgstr "Plasmoids కొరకు ఫైళ్ళు మరియు సంచయంల గురించి సమాచారం"
+
+#: kinfocenter/Modules/info/wayland.desktop:16
+msgctxt "X-KDE-Keywords"
+msgid "Wayland,Compositor,Display,System Information"
+msgstr ""
+
 #: kinfocenter/Modules/info/xserver.desktop:13
 msgctxt "Name"
 msgid "X-Server"
@@ -2062,7 +2083,7 @@ msgctxt "Name"
 msgid "Background contrast"
 msgstr ""
 
-#: kwin/effects/backgroundcontrast/contrast.desktop:29
+#: kwin/effects/backgroundcontrast/contrast.desktop:28
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Blurs background of semi-transparent windows"
@@ -2586,19 +2607,6 @@ msgstr "లాంచ్ ప్రతిస్పందన"
 msgctxt "Comment"
 msgid "Helper effect for startup feedback"
 msgstr ""
-
-#: kwin/effects/taskbarthumbnail/taskbarthumbnail.desktop:2
-msgctxt "Name"
-msgid "Taskbar Thumbnails"
-msgstr "టాస్‍క్ బార్ థంబ్‌నెయిల్‍స్"
-
-#: kwin/effects/taskbarthumbnail/taskbarthumbnail.desktop:78
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Shows window thumbnails when cursor is on their taskbar entry"
-msgctxt "Comment"
-msgid "Display window thumbnails when hovering over taskbar entries"
-msgstr "కర్సర్ టాస్‍క్ బార్ ప్రవేశంపైన వున్నప్పుడు విండో థంబ్‌నెయిల్‍స్ ను చూపుతుంది"
 
 #: kwin/effects/thumbnailaside/thumbnailaside_config.desktop:9
 #: kwin/effects/thumbnailaside/thumbnailaside.desktop:2
@@ -3308,19 +3316,6 @@ msgstr "ప్యానల్"
 msgctxt "Comment"
 msgid "A simple linear panel"
 msgstr ""
-
-#: plasma/desktop/qmlpackages/blank/metadata.desktop:2
-msgctxt "Comment"
-msgid "Blank desktop view furniture"
-msgstr ""
-
-#: plasma/desktop/qmlpackages/blank/metadata.desktop:32
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "SaverDesktop"
-msgctxt "Name"
-msgid "Blank Desktop"
-msgstr "సేవిక‍డెస్‍క్ టాప్"
 
 #: plasma/desktop/qmlpackages/desktop/metadata.desktop:2
 #, fuzzy
@@ -5680,6 +5675,24 @@ msgstr "ఫాంట్ వీక్షణి"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Taskbar Thumbnails"
+#~ msgstr "టాస్‍క్ బార్ థంబ్‌నెయిల్‍స్"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Shows window thumbnails when cursor is on their taskbar entry"
+#~ msgctxt "Comment"
+#~ msgid "Display window thumbnails when hovering over taskbar entries"
+#~ msgstr "కర్సర్ టాస్‍క్ బార్ ప్రవేశంపైన వున్నప్పుడు విండో థంబ్‌నెయిల్‍స్ ను చూపుతుంది"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "SaverDesktop"
+#~ msgctxt "Name"
+#~ msgid "Blank Desktop"
+#~ msgstr "సేవిక‍డెస్‍క్ టాప్"
 
 #~ msgctxt "Name"
 #~ msgid "B II"
@@ -11203,10 +11216,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Togo"
 #~ msgstr "టొగొ"
-
-#~ msgctxt "Name"
-#~ msgid "Thailand"
-#~ msgstr "థాయిలండ్"
 
 #~ msgctxt "Name"
 #~ msgid "Tajikistan"
