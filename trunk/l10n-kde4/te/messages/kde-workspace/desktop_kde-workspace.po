@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-15 01:55+0000\n"
+"POT-Creation-Date: 2014-03-16 02:07+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1383,7 +1383,7 @@ msgctxt "Name"
 msgid "Wayland"
 msgstr "థాయిలండ్"
 
-#: kinfocenter/Modules/info/wayland.desktop:26
+#: kinfocenter/Modules/info/wayland.desktop:28
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Info about files and directories for Plasmoids"
@@ -1391,7 +1391,7 @@ msgctxt "Comment"
 msgid "Information about the Wayland Compositor"
 msgstr "Plasmoids కొరకు ఫైళ్ళు మరియు సంచయంల గురించి సమాచారం"
 
-#: kinfocenter/Modules/info/wayland.desktop:41
+#: kinfocenter/Modules/info/wayland.desktop:45
 msgctxt "X-KDE-Keywords"
 msgid "Wayland,Compositor,Display,System Information"
 msgstr ""
@@ -3274,12 +3274,10 @@ msgid "Plasmoid to show list of opened windows."
 msgstr ""
 
 #: plasma/desktop/containments/desktop/package/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Default desktop containment"
+#: plasma/desktop/qmlpackages/desktop/metadata.desktop:33
 msgctxt "Name"
-msgid "Default Desktop"
-msgstr "అప్రమేయ రంగస్థల కంటైన్‌మెంట్"
+msgid "Desktop"
+msgstr "రంగస్ఠలం"
 
 #: plasma/desktop/containments/desktop/package/metadata.desktop:40
 msgctxt "Comment"
@@ -3324,11 +3322,6 @@ msgstr ""
 msgctxt "Comment"
 msgid "Desktop view furniture"
 msgstr "రంగస్థలం మాగ్నిఫైర్"
-
-#: plasma/desktop/qmlpackages/desktop/metadata.desktop:33
-msgctxt "Name"
-msgid "Desktop"
-msgstr "రంగస్ఠలం"
 
 #: plasma/desktop/qmlpackages/lookandfeel/metadata.desktop:2
 #, fuzzy
@@ -5675,6 +5668,13 @@ msgstr "ఫాంట్ వీక్షణి"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Default desktop containment"
+#~ msgctxt "Name"
+#~ msgid "Default Desktop"
+#~ msgstr "అప్రమేయ రంగస్థల కంటైన్‌మెంట్"
 
 #~ msgctxt "Name"
 #~ msgid "Taskbar Thumbnails"
