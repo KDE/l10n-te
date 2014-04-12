@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-11 02:32+0000\n"
+"POT-Creation-Date: 2014-04-12 02:12+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1068,62 +1068,6 @@ msgctxt "Name"
 msgid "KDED Global Shortcuts Server"
 msgstr "గ్లౌబల్ కీబోర్‍డ్ లఘువులు"
 
-#: kglobalaccel/kglobalaccel.notifyrc:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Web Shortcuts"
-msgctxt "Comment"
-msgid "Global Keyboard Shortcuts"
-msgstr "వెబ్ లఘువులు"
-
-#: kglobalaccel/kglobalaccel.notifyrc:21
-msgctxt "Name"
-msgid "kglobalaccel"
-msgstr ""
-
-#: kglobalaccel/kglobalaccel.notifyrc:95
-#: phonon/platform_kde/phonon.notifyrc:72
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Applications"
-msgctxt "Name"
-msgid "Application"
-msgstr "కార్యక్రమాలు"
-
-#: kglobalaccel/kglobalaccel.notifyrc:115
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Application Launcher"
-msgctxt "Comment"
-msgid "The application name"
-msgstr "అనువర్తనం దించునది"
-
-#: kglobalaccel/kglobalaccel.notifyrc:135
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Global Keyboard Shortcuts"
-msgctxt "Name"
-msgid "Global Shortcut Registration"
-msgstr "గ్లౌబల్ కీబోర్‍డ్ లఘువులు"
-
-#: kglobalaccel/kglobalaccel.notifyrc:205
-msgctxt "Comment"
-msgid "An application registered new global shortcuts."
-msgstr ""
-
-#: kglobalaccel/kglobalaccel.notifyrc:278
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Global Keyboard Shortcuts"
-msgctxt "Name"
-msgid "Global Shortcut Triggered"
-msgstr "గ్లౌబల్ కీబోర్‍డ్ లఘువులు"
-
-#: kglobalaccel/kglobalaccel.notifyrc:348
-msgctxt "Comment"
-msgid "The user triggered a global shortcut"
-msgstr ""
-
 #: kioslave/remote/kdedmodule/remotedirnotify.desktop:3
 #, fuzzy
 #| msgctxt "Name"
@@ -1132,7 +1076,7 @@ msgctxt "Name"
 msgid "Remote URL Change Notifier"
 msgstr "కొత్త పరికరంను తెలుపునది"
 
-#: kioslave/remote/kdedmodule/remotedirnotify.desktop:23
+#: kioslave/remote/kdedmodule/remotedirnotify.desktop:24
 msgctxt "Comment"
 msgid "Provides change notification for network folders"
 msgstr ""
@@ -1631,7 +1575,7 @@ msgctxt "Name"
 msgid "Desktop"
 msgstr "రంగస్ఠలం"
 
-#: menu/desktop/kde-utilities-desktop.directory:26
+#: menu/desktop/kde-utilities-desktop.directory:27
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Desktop"
@@ -1647,7 +1591,7 @@ msgctxt "Name"
 msgid "Utilities"
 msgstr "క్రియాశీలత పట్టీ"
 
-#: menu/desktop/kde-utilities.directory:26
+#: menu/desktop/kde-utilities.directory:27
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Activity Bar"
@@ -1663,7 +1607,7 @@ msgctxt "Name"
 msgid "File"
 msgstr "వచన దస్త్రం"
 
-#: menu/desktop/kde-utilities-file.directory:28
+#: menu/desktop/kde-utilities-file.directory:29
 #, fuzzy
 #| msgctxt "Description"
 #| msgid "Text File"
@@ -1699,7 +1643,7 @@ msgctxt "Name"
 msgid "X-Utilities"
 msgstr "క్రియాశీలత పట్టీ"
 
-#: menu/desktop/kde-utilities-xutils.directory:26
+#: menu/desktop/kde-utilities-xutils.directory:27
 msgctxt "Comment"
 msgid "X Window Utilities"
 msgstr "ఎక్స్ విండొ సౌలభ్యాలు"
@@ -1717,12 +1661,20 @@ msgctxt "Comment"
 msgid "Multimedia System"
 msgstr "బహుళమాధ్యమ ప్లేయర్"
 
-#: phonon/platform_kde/phonon.notifyrc:95
+#: phonon/platform_kde/phonon.notifyrc:72
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Applications"
+msgctxt "Name"
+msgid "Application"
+msgstr "కార్యక్రమాలు"
+
+#: phonon/platform_kde/phonon.notifyrc:96
 msgctxt "Name"
 msgid "Audio Output Device Changed"
 msgstr ""
 
-#: phonon/platform_kde/phonon.notifyrc:158
+#: phonon/platform_kde/phonon.notifyrc:159
 msgctxt "Comment"
 msgid "Notification when audio output device has automatically changed"
 msgstr ""
@@ -2182,3 +2134,31 @@ msgstr "చిత్రాలు"
 msgctxt "Name"
 msgid "Slideshow"
 msgstr "సాలిడ్"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Web Shortcuts"
+#~ msgctxt "Comment"
+#~ msgid "Global Keyboard Shortcuts"
+#~ msgstr "వెబ్ లఘువులు"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Application Launcher"
+#~ msgctxt "Comment"
+#~ msgid "The application name"
+#~ msgstr "అనువర్తనం దించునది"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Global Keyboard Shortcuts"
+#~ msgctxt "Name"
+#~ msgid "Global Shortcut Registration"
+#~ msgstr "గ్లౌబల్ కీబోర్‍డ్ లఘువులు"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Global Keyboard Shortcuts"
+#~ msgctxt "Name"
+#~ msgid "Global Shortcut Triggered"
+#~ msgstr "గ్లౌబల్ కీబోర్‍డ్ లఘువులు"
