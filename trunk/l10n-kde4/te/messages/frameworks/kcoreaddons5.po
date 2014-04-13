@@ -228,6 +228,20 @@ msgstr ""
 "%1 ను వ్రాసింది\n"
 "%2"
 
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/plugin/kpluginloader.cpp:51
+#, fuzzy, qt-format
+#| msgid "Could not find plugin '%1' for application '%2'"
+msgctxt "KPluginLoader|"
+msgid "Could not find plugin '%1' for application '%2'"
+msgstr "సందర్భం '%1' నందు చర్య '%2' కొరకు  కార్యక్షేత్ర ప్రయోగవేదిక"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/plugin/kpluginloader.cpp:222
+#, fuzzy, qt-format
+#| msgid "The library %1 does not offer a KDE 4 compatible factory."
+msgctxt "KPluginLoader|"
+msgid "The library %1 does not offer a KPluginFactory."
+msgstr "%1 లైబ్రరిలో కెడిఈ 4 కి సరిపడె ఫేక్టరి లేదు"
+
 #. MetricBinaryDialect size in bytes
 #: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:88
 #, fuzzy, qt-format
@@ -3040,18 +3054,12 @@ msgstr "%1,%2"
 #~ msgid "KLibLoader: Unknown error"
 #~ msgstr "కెలిబ్ లొడర్: తెలియని దోషము"
 
-#~ msgid "Could not find plugin '%1' for application '%2'"
-#~ msgstr "సందర్భం '%1' నందు చర్య '%2' కొరకు  కార్యక్షేత్ర ప్రయోగవేదిక"
-
 #~ msgid "The provided service is not valid"
 #~ msgstr "ఈ  సేవ సరి అయినది కాదు లేదా చెల్లుబాటు కా"
 
 #~ msgid "The service '%1' provides no library or the Library key is missing"
 #~ msgstr ""
 #~ "సేవ '%1' టువంటి లైబ్రరీను అందించుటలేదు లేదా లైబ్రరీ కీ .రంగస్తలం  దస్త్రమునందు కనబడుటలేదు."
-
-#~ msgid "The library %1 does not offer a KDE 4 compatible factory."
-#~ msgstr "%1 లైబ్రరిలో కెడిఈ 4 కి సరిపడె ఫేక్టరి లేదు"
 
 #~ msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 #~ msgstr "ప్లగ్ఇన్ '%1' పొసగని KDE లైబ్రరీ (%2)ను వుపయోగిస్తోంది."

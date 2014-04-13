@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-06 01:53+0000\n"
+"POT-Creation-Date: 2014-04-13 01:46+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -205,17 +205,6 @@ msgstr "అగ్రం  క్లైంటు ని ప్రారంభి�
 msgid "No service implementing %1"
 msgstr ""
 
-#: plugin/kpluginloader.cpp:53
-#, kde-format
-msgid "Could not find plugin '%1' for application '%2'"
-msgstr "సందర్భం '%1' నందు చర్య '%2' కొరకు  కార్యక్షేత్ర ప్రయోగవేదిక"
-
-#: plugin/kpluginloader.cpp:224
-#, fuzzy, kde-format
-#| msgid "The library %1 does not offer a KDE 4 compatible factory."
-msgid "The library %1 does not offer a KPluginFactory."
-msgstr "%1 లైబ్రరిలో కెడిఈ 4 కి సరిపడె ఫేక్టరి లేదు"
-
 #: services/kservice.cpp:1028
 msgid "The provided service is not valid"
 msgstr "ఈ  సేవ సరి అయినది కాదు లేదా చెల్లుబాటు కా"
@@ -225,6 +214,14 @@ msgstr "ఈ  సేవ సరి అయినది కాదు లేదా �
 msgid "The service '%1' provides no library or the Library key is missing"
 msgstr ""
 "సేవ '%1' టువంటి లైబ్రరీను అందించుటలేదు లేదా లైబ్రరీ కీ .రంగస్తలం  దస్త్రమునందు కనబడుటలేదు."
+
+#~ msgid "Could not find plugin '%1' for application '%2'"
+#~ msgstr "సందర్భం '%1' నందు చర్య '%2' కొరకు  కార్యక్షేత్ర ప్రయోగవేదిక"
+
+#, fuzzy
+#~| msgid "The library %1 does not offer a KDE 4 compatible factory."
+#~ msgid "The library %1 does not offer a KPluginFactory."
+#~ msgstr "%1 లైబ్రరిలో కెడిఈ 4 కి సరిపడె ఫేక్టరి లేదు"
 
 #~ msgid "Name"
 #~ msgstr "పేరు"
