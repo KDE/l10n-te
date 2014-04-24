@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-21 02:15+0000\n"
+"POT-Creation-Date: 2014-04-24 02:04+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -17,6 +17,19 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
+
+#: applets/kicker/package/metadata.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
+msgctxt "Name"
+msgid "Application Menu"
+msgstr "అనువర్తనం దించునది"
+
+#: applets/kicker/package/metadata.desktop:3
+msgctxt "Comment"
+msgid "A launcher based on cascading pop menus"
+msgstr ""
 
 #: applets/kickoff/package/metadata.desktop:2
 msgctxt "Name"
@@ -90,7 +103,7 @@ msgctxt "Name"
 msgid "Social Desktop"
 msgstr "రంగస్ఠలం"
 
-#: attica-kde/kcm/kcm_attica.desktop:33
+#: attica-kde/kcm/kcm_attica.desktop:35
 msgctxt "Comment"
 msgid "Manage Social Desktop Providers"
 msgstr ""
@@ -121,7 +134,7 @@ msgctxt "Name"
 msgid "Folder"
 msgstr ""
 
-#: containments/folder/package/metadata.desktop:22
+#: containments/folder/package/metadata.desktop:24
 msgctxt "Comment"
 msgid "Display the contents of folders"
 msgstr ""
@@ -402,7 +415,7 @@ msgctxt "Name|standard desktop component"
 msgid "File Manager"
 msgstr "కర్తవ్య నిర్వాహకి"
 
-#: kcms/componentchooser/componentservices/kcm_filemanager.desktop:26
+#: kcms/componentchooser/componentservices/kcm_filemanager.desktop:27
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -461,7 +474,7 @@ msgctxt "Name|standard desktop component"
 msgid "Window Manager"
 msgstr "కర్తవ్య నిర్వాహకి"
 
-#: kcms/componentchooser/componentservices/kcm_wm.desktop:26
+#: kcms/componentchooser/componentservices/kcm_wm.desktop:27
 msgctxt "Comment"
 msgid "Here you can select the window manager to be run in your KDE session."
 msgstr "విండో నిర్వాహిక మీ KDE సెషన్‌నందు నడుచునట్లు మీరు యిక్కడ యెంచుకొనగలరు."
@@ -709,7 +722,7 @@ msgctxt "Name"
 msgid "Service Manager"
 msgstr "క్యాలెండర్ నిర్వాహకి"
 
-#: kcms/kded/kcmkded.desktop:38
+#: kcms/kded/kcmkded.desktop:39
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "System Bell Configuration"
@@ -717,7 +730,7 @@ msgctxt "Comment"
 msgid "KDE Services Configuration"
 msgstr "సిస్టమ్ బెల్ సాధనం"
 
-#: kcms/kded/kcmkded.desktop:60
+#: kcms/kded/kcmkded.desktop:62
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Dolphin View"
@@ -853,7 +866,7 @@ msgctxt "Comment"
 msgid "System Notification Configuration"
 msgstr "సిస్టమ్ బెల్ సాధనం"
 
-#: kcms/knotify/kcmnotify.desktop:103
+#: kcms/knotify/kcmnotify.desktop:104
 msgctxt "X-KDE-Keywords"
 msgid "System sounds,Audio,Sound,Notify,Alerts,Notification,popups"
 msgstr ""
@@ -902,12 +915,12 @@ msgctxt "Name"
 msgid "Audio and Video Settings"
 msgstr "కీబోర్‍డ్ మరియు మౌస్ అమర్పులను ఆకృతీకరించుము"
 
-#: kcms/phonon/kcm_phonon.desktop:35
+#: kcms/phonon/kcm_phonon.desktop:36
 msgctxt "Comment"
 msgid "Settings for the Phonon multimedia framework"
 msgstr ""
 
-#: kcms/phonon/kcm_phonon.desktop:77
+#: kcms/phonon/kcm_phonon.desktop:78
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Sound,Phonon,Audio,Video,Output,Device,Notification,Music,Communication,"
@@ -992,12 +1005,12 @@ msgctxt "Name"
 msgid "Workspace"
 msgstr ""
 
-#: kcms/workspaceoptions/workspaceoptions.desktop:33
+#: kcms/workspaceoptions/workspaceoptions.desktop:35
 msgctxt "Comment"
 msgid "Global options for the Plasma Workspace"
 msgstr ""
 
-#: kcms/workspaceoptions/workspaceoptions.desktop:53
+#: kcms/workspaceoptions/workspaceoptions.desktop:57
 msgctxt "X-KDE-Keywords"
 msgid "plasma,workspace,shell,formfactor,dashboard,tooltips,informational tips"
 msgstr ""
