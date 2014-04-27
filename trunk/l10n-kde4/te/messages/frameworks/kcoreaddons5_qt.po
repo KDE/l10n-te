@@ -588,14 +588,14 @@ msgid "%1 seconds"
 msgstr "%1 సెక"
 
 #. @item:intext %1 is a whole number
-#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:281
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:283
 #, fuzzy, qt-format
 #| msgctxt "@item:intext"
 #| msgid "%1 millisecond"
 #| msgid_plural "%1 milliseconds"
 msgctxt "KFormat|"
-msgid "%1 millisecond(s)"
-msgid_plural "%1 millisecond(s)"
+msgid "%n millisecond(s)"
+msgid_plural "%n millisecond(s)"
 msgstr[0] "%1 మిల్లిసెకనుడు"
 msgstr[1] "%1 మిల్లిసెకనులు"
 msgstr[2] "%1 మిల్లిసెకనులు"
@@ -603,7 +603,7 @@ msgstr[3] "%1 మిల్లిసెకనులు"
 msgstr[4] "%1 మిల్లిసెకనులు"
 
 #. @item:intext %n is a whole number
-#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:297
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:301
 #, fuzzy, qt-format
 #| msgctxt "@item:intext %1 is a real number, e.g. 1.23 days"
 #| msgid "%1 days"
@@ -617,7 +617,7 @@ msgstr[3] "%1 రొజు"
 msgstr[4] "%1 రొజు"
 
 #. @item:intext %n is a whole number
-#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:300
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:306
 #, fuzzy, qt-format
 #| msgctxt "@item:intext %1 is a real number, e.g. 1.23 hours"
 #| msgid "%1 hours"
@@ -631,7 +631,7 @@ msgstr[3] "%1 గంట"
 msgstr[4] "%1 గంట"
 
 #. @item:intext %n is a whole number
-#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:303
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:311
 #, fuzzy, qt-format
 #| msgctxt "@item:intext %1 is a real number, e.g. 1.23 minutes"
 #| msgid "%1 minutes"
@@ -645,7 +645,7 @@ msgstr[3] "%1 నిమిష"
 msgstr[4] "%1 నిమిష"
 
 #. @item:intext %n is a whole number
-#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:306
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:316
 #, fuzzy, qt-format
 #| msgctxt "@item:intext %1 is a real number, e.g. 1.23 seconds"
 #| msgid "%1 seconds"
@@ -663,9 +663,9 @@ msgstr[4] "%1 సెక"
 #. @item:intext hours and minutes. This uses the previous item:intext messages. If this does not fit the grammar of your language please contact the i18n team to solve the problem
 #. ----------
 #. @item:intext minutes and seconds. This uses the previous item:intext messages. If this does not fit the grammar of your language please contact the i18n team to solve the problem
-#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:331
-#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:338
-#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:345
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:341
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:348
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:355
 #, fuzzy, qt-format
 #| msgctxt ""
 #| "@item:intext days and hours. This uses the previous item:intext messages. "
@@ -676,7 +676,7 @@ msgctxt "KFormat|"
 msgid "%1 and %2"
 msgstr "%1 మరియు %2"
 
-#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:363
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:373
 #, fuzzy
 #| msgctxt "@option tomorrow"
 #| msgid "Tomorrow"
@@ -684,14 +684,14 @@ msgctxt "KFormat|"
 msgid "Tomorrow"
 msgstr "మరుసటిరో"
 
-#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:365
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:375
 #, fuzzy
 #| msgid "Today"
 msgctxt "KFormat|"
 msgid "Today"
 msgstr "ఈరొజు"
 
-#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:367
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:377
 #, fuzzy
 #| msgid "Yesterday"
 msgctxt "KFormat|"
@@ -699,7 +699,7 @@ msgid "Yesterday"
 msgstr "నిన్న"
 
 #. a day of the week, eg "Monday" (but translated). Refers to the most recent such day that has already happened.
-#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:374
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:384
 #, fuzzy, qt-format
 #| msgctxt "@option last week"
 #| msgid "Last Week"
@@ -708,7 +708,7 @@ msgid "Last %1"
 msgstr "చివరి వార"
 
 #. a day of the week, eg "Monday" (but translated). Refers to the soonest such day that has not already happened.
-#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:379
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:389
 #, fuzzy, qt-format
 #| msgctxt "Opposite to Back"
 #| msgid "Next"
@@ -717,7 +717,7 @@ msgid "Next %1"
 msgstr "తరువాత"
 
 #. relative datetime with %1 result of formatReleativeDate() and %2 the formatted time If this does not fit the grammar of your language please contact the i18n team to solve the problem
-#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:394
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:404
 #, fuzzy, qt-format
 #| msgctxt "City, Country"
 #| msgid "%1, %2"
