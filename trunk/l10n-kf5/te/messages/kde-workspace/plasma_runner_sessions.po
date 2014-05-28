@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner_sessions\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-27 20:55+0000\n"
+"POT-Creation-Date: 2014-05-28 07:48+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -19,110 +19,114 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 
-#: sessionrunner.cpp:43 sessionrunner.cpp:83
+#: sessionrunner.cpp:45 sessionrunner.cpp:85
 msgctxt "log out command"
 msgid "logout"
 msgstr ""
 
-#: sessionrunner.cpp:44
+#: sessionrunner.cpp:46
 msgid "Logs out, exiting the current desktop session"
 msgstr ""
 
-#: sessionrunner.cpp:45 sessionrunner.cpp:101
+#: sessionrunner.cpp:47 sessionrunner.cpp:103
 msgctxt "shutdown computer command"
 msgid "shutdown"
 msgstr ""
 
-#: sessionrunner.cpp:46
+#: sessionrunner.cpp:48
 msgid "Turns off the computer"
 msgstr ""
 
-#: sessionrunner.cpp:50 sessionrunner.cpp:109
+#: sessionrunner.cpp:52 sessionrunner.cpp:111
 msgctxt "lock screen command"
 msgid "lock"
 msgstr ""
 
-#: sessionrunner.cpp:51
+#: sessionrunner.cpp:53
 msgid "Locks the current sessions and starts the screen saver"
 msgstr ""
 
-#: sessionrunner.cpp:54 sessionrunner.cpp:92
+#: sessionrunner.cpp:56 sessionrunner.cpp:94
 msgctxt "restart computer command"
 msgid "restart"
 msgstr ""
 
-#: sessionrunner.cpp:54
+#: sessionrunner.cpp:56
 msgid "Reboots the computer"
 msgstr ""
 
-#: sessionrunner.cpp:55 sessionrunner.cpp:93
+#: sessionrunner.cpp:57 sessionrunner.cpp:95
 msgctxt "restart computer command"
 msgid "reboot"
 msgstr ""
 
-#: sessionrunner.cpp:58
+#: sessionrunner.cpp:60
 msgctxt "switch user command"
 msgid "switch"
 msgstr ""
 
-#: sessionrunner.cpp:59
+#: sessionrunner.cpp:61
 msgctxt "switch user command"
 msgid "switch :q:"
 msgstr ""
 
-#: sessionrunner.cpp:60
+#: sessionrunner.cpp:62
 msgid ""
 "Switches to the active session for the user :q:, or lists all active "
 "sessions if :q: is not provided"
 msgstr ""
 
-#: sessionrunner.cpp:63 sessionrunner.cpp:155
+#: sessionrunner.cpp:65 sessionrunner.cpp:157
 msgid "switch user"
 msgstr ""
 
-#: sessionrunner.cpp:64
+#: sessionrunner.cpp:66
 msgid "Starts a new session as a different user"
 msgstr ""
 
-#: sessionrunner.cpp:65 sessionrunner.cpp:156
+#: sessionrunner.cpp:67 sessionrunner.cpp:158
 msgid "new session"
 msgstr ""
 
-#: sessionrunner.cpp:69
+#: sessionrunner.cpp:71
 msgid "Lists all sessions"
 msgstr ""
 
-#: sessionrunner.cpp:84
+#: sessionrunner.cpp:86
 msgid "log out"
 msgstr ""
 
-#: sessionrunner.cpp:86
+#: sessionrunner.cpp:88
 msgctxt "log out command"
 msgid "Logout"
 msgstr "లాగ్అవుట్"
 
-#: sessionrunner.cpp:95
+#: sessionrunner.cpp:97
 msgid "Restart the computer"
 msgstr ""
 
-#: sessionrunner.cpp:103
+#: sessionrunner.cpp:105
 msgid "Shutdown the computer"
 msgstr ""
 
-#: sessionrunner.cpp:112
+#: sessionrunner.cpp:114
 msgid "Lock the screen"
 msgstr ""
 
-#: sessionrunner.cpp:138
+#: sessionrunner.cpp:140
 msgctxt "User sessions"
 msgid "sessions"
 msgstr ""
 
-#: sessionrunner.cpp:165
+#: sessionrunner.cpp:167
 msgid "New Session"
 msgstr ""
 
-#: sessionrunner.cpp:249
+#: sessionrunner.cpp:251
+msgid "Warning - New Session"
+msgstr ""
+
+#: sessionrunner.cpp:252
 #, kde-format
 msgid ""
 "<p>You have chosen to open another desktop session.<br />The current session "
@@ -131,12 +135,4 @@ msgid ""
 "to the second session and so on. You can switch between sessions by pressing "
 "Ctrl, Alt and the appropriate F-key at the same time. Additionally, the KDE "
 "Panel and Desktop menus have actions for switching between sessions.</p>"
-msgstr ""
-
-#: sessionrunner.cpp:260
-msgid "Warning - New Session"
-msgstr ""
-
-#: sessionrunner.cpp:261
-msgid "&Start New Session"
 msgstr ""
