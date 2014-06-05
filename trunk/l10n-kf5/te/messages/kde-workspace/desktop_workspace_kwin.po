@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-24 08:17+0000\n"
+"POT-Creation-Date: 2014-06-05 08:11+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -270,9 +270,12 @@ msgid "Desktop Effects"
 msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
 
 #: kcmkwin/kwincompositing/kcmkwineffects.desktop:45
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop Cube"
 msgctxt "Comment"
-msgid "Configure desktop effects"
-msgstr ""
+msgid "Desktop Effects"
+msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
 
 #: kcmkwin/kwincompositing/kcmkwineffects.desktop:77
 msgctxt "X-KDE-Keywords"
@@ -303,7 +306,7 @@ msgstr ""
 
 #: kcmkwin/kwincompositing/kwincompositing.desktop:44
 msgctxt "Comment"
-msgid "Configure compositor settings for the Desktop effects"
+msgid "Compositor Settings for Desktop Effects"
 msgstr ""
 
 #: kcmkwin/kwincompositing/kwincompositing.desktop:74
@@ -322,8 +325,11 @@ msgid "Window Decorations"
 msgstr "సమాచారం"
 
 #: kcmkwin/kwindecoration/kwindecoration.desktop:76
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure the look and feel of window titles"
 msgctxt "Comment"
-msgid "Configure the look and feel of window titles"
+msgid "Look and Feel of Window Titles"
 msgstr "విండో శీర్షికల ఆకృతి మరియు భావమును ఆకృతీకరించుము"
 
 #: kcmkwin/kwindecoration/kwindecoration.desktop:164
@@ -343,8 +349,8 @@ msgstr "రంగస్ఠలం"
 
 #: kcmkwin/kwindesktop/desktop.desktop:78
 msgctxt "Comment"
-msgid "You can configure how many virtual desktops there are."
-msgstr "అక్కడ ఎన్ని వర్చ్యువల్ డెస్‍క్ టాప్‍స్  ఉన్నాయో మీరు ఆకృతీకరించవచ్చు."
+msgid "Navigation, Number and Layout of Virtual Desktops"
+msgstr ""
 
 #: kcmkwin/kwindesktop/desktop.desktop:166
 msgctxt "X-KDE-Keywords"
@@ -363,7 +369,7 @@ msgstr "చర్యలు"
 #| msgctxt "Comment"
 #| msgid "Configure Hotkey settings"
 msgctxt "Comment"
-msgid "Configure mouse actions on windows"
+msgid "Mouse Actions on Windows"
 msgstr "హాట్‌కీల అమరికలను ఆకృతీకరించుము."
 
 #: kcmkwin/kwinoptions/kwinactions.desktop:143
@@ -379,8 +385,11 @@ msgid "Advanced"
 msgstr "ఆధునాతన"
 
 #: kcmkwin/kwinoptions/kwinadvanced.desktop:101
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure advanced window management features"
 msgctxt "Comment"
-msgid "Configure advanced window management features"
+msgid "Advanced Window Management Features"
 msgstr "అధునాతన విండో నిర్వహణ సౌలభ్యాలను ఆకృతీకరించుము"
 
 #: kcmkwin/kwinoptions/kwinadvanced.desktop:188
@@ -398,8 +407,8 @@ msgstr "దృష్టి"
 
 #: kcmkwin/kwinoptions/kwinfocus.desktop:100
 msgctxt "Comment"
-msgid "Configure the window focus policy"
-msgstr "విండో దృష్టి విధానంను ఆకృతీకరించుము"
+msgid "Active Window Policy"
+msgstr ""
 
 #: kcmkwin/kwinoptions/kwinfocus.desktop:186
 msgctxt "X-KDE-Keywords"
@@ -415,9 +424,12 @@ msgid "Moving"
 msgstr "కదుపు"
 
 #: kcmkwin/kwinoptions/kwinmoving.desktop:100
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Information"
 msgctxt "Comment"
-msgid "Configure the way that windows are moved"
-msgstr "విండోలు గమనంచేయు విధంను ఆకృతీకరించుము"
+msgid "Window Moving"
+msgstr "సమాచారం"
 
 #: kcmkwin/kwinoptions/kwinmoving.desktop:187
 msgctxt "X-KDE-Keywords"
@@ -430,15 +442,18 @@ msgid "Window Behavior"
 msgstr "విండో ప్రవర్తన"
 
 #: kcmkwin/kwinoptions/kwinoptions.desktop:104
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Behavior"
 msgctxt "Comment"
-msgid "Configure the window behavior"
-msgstr "విండో ప్రవర్తనను ఆకృతీకరించుము"
+msgid "Window Actions and Behavior"
+msgstr "విండో ప్రవర్తన"
 
 #: kcmkwin/kwinoptions/kwinoptions.desktop:192
 msgctxt "X-KDE-Keywords"
 msgid ""
-"focus,placement,window behavior,animation,raise,auto raise,windows,frame,"
-"titlebar,doubleclick"
+"focus,placement,window behavior,window actions,animation,raise,auto raise,"
+"windows,frame,titlebar,doubleclick"
 msgstr ""
 
 #: kcmkwin/kwinrules/kwinrules.desktop:14
@@ -450,9 +465,12 @@ msgid "Window Rules"
 msgstr "విండో మూయి"
 
 #: kcmkwin/kwinrules/kwinrules.desktop:77
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Behavior"
 msgctxt "Comment"
-msgid "Configure settings specifically for a window"
-msgstr "ప్రత్యేకంగా విండో కొరకు అమర్పులను ఆకృతీకరించుము"
+msgid "Individual Window Behavior"
+msgstr "విండో ప్రవర్తన"
 
 #: kcmkwin/kwinrules/kwinrules.desktop:163
 msgctxt "X-KDE-Keywords"
@@ -470,19 +488,16 @@ msgid "Screen Edges"
 msgstr "స్క్రీన్ సేవర్"
 
 #: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:84
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure web cache settings"
 msgctxt "Comment"
-msgid "Configure active screen edges"
-msgstr "వెబ్ క్యాచి అమరికలను ఆకృతీకరించుము"
+msgid "Active Screen Corners and Edges"
+msgstr ""
 
 #: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:153
 msgctxt "X-KDE-Keywords"
 msgid ""
-"kwin,window,manager,effect,edge,border,action,switch,desktop,kwin screen "
-"edges,desktop edges,screen edges,maximize windows,tile windows,side of "
-"screen,screen behavior,switch desktop,virtual desktop,screen corners"
+"kwin,window,manager,effect,corner,edge,border,action,switch,desktop,kwin "
+"screen edges,desktop edges,screen edges,maximize windows,tile windows,side "
+"of screen,screen behavior,switch desktop,virtual desktop,screen corners"
 msgstr ""
 
 #: kcmkwin/kwinscripts/kwinscripts.desktop:11
@@ -515,12 +530,9 @@ msgid "Task Switcher"
 msgstr "బాక్‍స్  స్విచ్"
 
 #: kcmkwin/kwintabbox/kwintabbox.desktop:74
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure the behavior of Java and JavaScript"
 msgctxt "Comment"
-msgid "Configure the behavior for navigating through windows"
-msgstr "Java మరియు JavaScript యొక్క ప్రవర్తనను ఆకృతీకరించుము"
+msgid "Navigation Through Windows"
+msgstr ""
 
 #: kcmkwin/kwintabbox/kwintabbox.desktop:128
 msgctxt "X-KDE-Keywords"
@@ -749,6 +761,40 @@ msgstr "దస్త్ర ముందు వీక్షణ"
 msgctxt "Comment"
 msgid "A desktop switcher layout with previews of the desktops"
 msgstr ""
+
+#~ msgctxt "Comment"
+#~ msgid "You can configure how many virtual desktops there are."
+#~ msgstr "అక్కడ ఎన్ని వర్చ్యువల్ డెస్‍క్ టాప్‍స్  ఉన్నాయో మీరు ఆకృతీకరించవచ్చు."
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the window focus policy"
+#~ msgstr "విండో దృష్టి విధానంను ఆకృతీకరించుము"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the way that windows are moved"
+#~ msgstr "విండోలు గమనంచేయు విధంను ఆకృతీకరించుము"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the window behavior"
+#~ msgstr "విండో ప్రవర్తనను ఆకృతీకరించుము"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure settings specifically for a window"
+#~ msgstr "ప్రత్యేకంగా విండో కొరకు అమర్పులను ఆకృతీకరించుము"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure web cache settings"
+#~ msgctxt "Comment"
+#~ msgid "Configure active screen edges"
+#~ msgstr "వెబ్ క్యాచి అమరికలను ఆకృతీకరించుము"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure the behavior of Java and JavaScript"
+#~ msgctxt "Comment"
+#~ msgid "Configure the behavior for navigating through windows"
+#~ msgstr "Java మరియు JavaScript యొక్క ప్రవర్తనను ఆకృతీకరించుము"
 
 #, fuzzy
 #~| msgctxt "Comment"
