@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmfonts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-30 08:01+0000\n"
+"POT-Creation-Date: 2014-06-11 07:50+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -110,99 +110,77 @@ msgctxt "font usage"
 msgid "Window title"
 msgstr "విండో శీర్షిక"
 
-#: fonts.cpp:532
-#, fuzzy
-#| msgid "Taskbar"
-msgctxt "font usage"
-msgid "Taskbar"
-msgstr "కర్తవ్యపట్టీ"
-
-#: fonts.cpp:533
-#, fuzzy
-#| msgid "Desktop"
-msgctxt "font usage"
-msgid "Desktop"
-msgstr "రంగస్ఠలం"
-
-#: fonts.cpp:573
+#: fonts.cpp:568
 msgid "Used for normal text (e.g. button labels, list items)."
 msgstr "సాదారణ వచనము కొరకు వుపయోగించబడుతుంది (ఉ.దా. బటన్ లేబుల్స్, జాబితా అంశములు)."
 
-#: fonts.cpp:574
+#: fonts.cpp:569
 msgid "A non-proportional font (i.e. typewriter font)."
 msgstr "నాన్-ప్రపోర్షనల్ ఫాంటు (అంటే టైపువ్రైటర్ ఫాంటు)."
 
-#: fonts.cpp:575
+#: fonts.cpp:570
 msgid "Smallest font that is still readable well."
 msgstr "బాగా చిన్న ఫాంటు అయినా యింకా చదవుగలిగే ఫాంటు."
 
-#: fonts.cpp:576
+#: fonts.cpp:571
 msgid "Used to display text beside toolbar icons."
 msgstr "పనిముట్లపట్టీ ప్రతిమల ప్రక్కన వచనమును ప్రదర్శించుటకు వుపయోగించబడింది."
 
-#: fonts.cpp:577
+#: fonts.cpp:572
 msgid "Used by menu bars and popup menus."
 msgstr "మెనూ పట్టీలు మరియు పాపప్ మెనూల చేత వుపయోగించబడింది."
 
-#: fonts.cpp:578
+#: fonts.cpp:573
 msgid "Used by the window titlebar."
 msgstr "విండో శీర్షికపట్టీ చేత వుపయోగించబడింది."
 
-#: fonts.cpp:579
-msgid "Used by the taskbar."
-msgstr "కర్తవ్యపట్టీ చేత వుపయోగించబడింది."
-
-#: fonts.cpp:580
-msgid "Used for desktop icons."
-msgstr "రంగస్థల ప్రతిమల కొరకు వుపయోగించబడింది."
-
-#: fonts.cpp:619
+#: fonts.cpp:612
 #, kde-format
 msgctxt "Font role"
 msgid "%1: "
 msgstr "%1: "
 
-#: fonts.cpp:632
+#: fonts.cpp:625
 msgid "Ad&just All Fonts..."
 msgstr "(&j) అన్ని ఫాంట్లను సర్దుము..."
 
-#: fonts.cpp:633
+#: fonts.cpp:626
 msgid "Click to change all fonts"
 msgstr "అన్ని ఫాంట్లను మార్చుటకు నొక్కుము"
 
-#: fonts.cpp:644
+#: fonts.cpp:637
 msgid "Use a&nti-aliasing:"
 msgstr "(&n) యాంటీ-యెలియాసింగ్ వుపయోగించుము:"
 
-#: fonts.cpp:648
+#: fonts.cpp:641
 msgctxt "Use anti-aliasing"
 msgid "Enabled"
 msgstr "చేతనమైన"
 
-#: fonts.cpp:649
+#: fonts.cpp:642
 msgctxt "Use anti-aliasing"
 msgid "System Settings"
 msgstr "సిస్టమ్ అమర్పులు"
 
-#: fonts.cpp:650
+#: fonts.cpp:643
 msgctxt "Use anti-aliasing"
 msgid "Disabled"
 msgstr "అచేతనమైన"
 
-#: fonts.cpp:651
+#: fonts.cpp:644
 msgid ""
 "If this option is selected, KDE will smooth the edges of curves in fonts."
 msgstr "ఈ ఐచ్చికం ఎంపిక కాబడితే, KDE ఫాంట్సునందలి వంపులయొక్క అంచులను స్మూత్‌ చేస్తుంది."
 
-#: fonts.cpp:653
+#: fonts.cpp:646
 msgid "Configure..."
 msgstr "ఆకృతీకరించుము..."
 
-#: fonts.cpp:661
+#: fonts.cpp:654
 msgid "Force fonts DPI:"
 msgstr "ఫాంట్ల DPIను పెంచుము:"
 
-#: fonts.cpp:667
+#: fonts.cpp:660
 msgid ""
 "<p>This option forces a specific DPI value for fonts. It may be useful when "
 "the real DPI of the hardware is not detected properly and it is also often "
@@ -215,7 +193,7 @@ msgid ""
 "fonts should be used or configuration of font hinting should be checked.</p>"
 msgstr ""
 
-#: fonts.cpp:818
+#: fonts.cpp:811
 #, fuzzy
 #| msgid ""
 #| "<p>Some changes such as anti-aliasing will only affect newly started "
@@ -226,11 +204,11 @@ msgid ""
 msgstr ""
 "<p>యాంటీ-ఎలియాసింగ్ వంటి కొన్ని మార్పులు కొత్తగా ప్రారంభించిన అనువర్తనములను మాత్రమే ప్రాభావితం చేస్తాయి.</p>"
 
-#: fonts.cpp:819 fonts.cpp:829
+#: fonts.cpp:812 fonts.cpp:822
 msgid "Font Settings Changed"
 msgstr "ఫాంటు అమర్పులు మార్చబడినవి"
 
-#: fonts.cpp:828
+#: fonts.cpp:821
 msgid ""
 "<p>Some changes such as DPI will only affect newly started applications.</p>"
 msgstr "<p>DPI వంటి కొన్ని మార్పులు కొత్తగా ప్రారంభించిన అనువర్తనములను మాత్రమే ప్రభావితం చేస్తాయి.</p>"
@@ -285,6 +263,24 @@ msgstr "కొద్దిగా"
 msgctxt "full hinting"
 msgid "Full"
 msgstr "పూర్తిగా"
+
+#, fuzzy
+#~| msgid "Taskbar"
+#~ msgctxt "font usage"
+#~ msgid "Taskbar"
+#~ msgstr "కర్తవ్యపట్టీ"
+
+#, fuzzy
+#~| msgid "Desktop"
+#~ msgctxt "font usage"
+#~ msgid "Desktop"
+#~ msgstr "రంగస్ఠలం"
+
+#~ msgid "Used by the taskbar."
+#~ msgstr "కర్తవ్యపట్టీ చేత వుపయోగించబడింది."
+
+#~ msgid "Used for desktop icons."
+#~ msgstr "రంగస్థల ప్రతిమల కొరకు వుపయోగించబడింది."
 
 #~ msgctxt "Force fonts DPI"
 #~ msgid "Disabled"
