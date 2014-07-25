@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-24 10:10+0000\n"
+"POT-Creation-Date: 2014-07-25 09:45+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -34,6 +34,74 @@ msgstr "చిత్రాలు"
 msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz *.xcf)"
 msgstr ""
 
+#: imagepackage/contents/ui/config.qml:69
+msgctxt "Label for positioning combo"
+msgid "Positioning:"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:78
+msgid "Scaled && Cropped"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:82
+msgid "Scaled"
+msgstr "స్కేల్డ్"
+
+#: imagepackage/contents/ui/config.qml:86
+msgid "Scaled, Keep Proportions"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:90
+msgid "Centered"
+msgstr "సెంటర్డ్"
+
+#: imagepackage/contents/ui/config.qml:94
+msgid "Tiled"
+msgstr "టైల్డ్"
+
+#: imagepackage/contents/ui/config.qml:143
+msgid "Change every:"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:156
+msgid "Hours"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:173
+msgid "Minutes"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:190
+msgid "Seconds"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:296
+msgid "Add Folder"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:302
+#, fuzzy
+#| msgid "..."
+msgid "Open..."
+msgstr "..."
+
+#: imagepackage/contents/ui/config.qml:307
+msgid "Download Wallpapers"
+msgstr ""
+
+#: imagepackage/contents/ui/main.qml:91
+msgid "Next Wallpaper Image"
+msgstr ""
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:120
+msgid "Remove wallpaper"
+msgstr ""
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:142
+#, kde-format
+msgid "%1 by %2"
+msgstr ""
+
 #: wallpaperpackage.cpp:40
 #, fuzzy
 #| msgid "Images"
@@ -52,15 +120,6 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
-#~ msgid "Scaled"
-#~ msgstr "స్కేల్డ్"
-
-#~ msgid "Centered"
-#~ msgstr "సెంటర్డ్"
-
-#~ msgid "Tiled"
-#~ msgstr "టైల్డ్"
-
 #~ msgid "Center Tiled"
 #~ msgstr "సెంటర్ టైల్డ్"
 
@@ -68,11 +127,6 @@ msgstr ""
 #~| msgid "Color:"
 #~ msgid "&Color:"
 #~ msgstr "రంగు:"
-
-#, fuzzy
-#~| msgid "..."
-#~ msgid "Open..."
-#~ msgstr "..."
 
 #~ msgctxt "Wallpaper info, author name"
 #~ msgid "%1"
