@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-18 08:52+0000\n"
+"POT-Creation-Date: 2014-08-07 08:44+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -26,16 +26,6 @@ msgstr "కృష్ణబాబు కె , విజయ్ కిరణ్ క
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com"
-
-#. i18n: ectx: property (title), widget (QGroupBox, GbViewStyle)
-#: app/configDialog.ui:17
-msgid "View Style"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, ChTooltips)
-#: app/configDialog.ui:24
-msgid "Show detailed tooltips"
-msgstr ""
 
 #: app/main.cpp:38 app/SettingsBase.cpp:55 classic/CategoryList.cpp:38
 msgid "System Settings"
@@ -120,23 +110,6 @@ msgstr ""
 msgid "About %1"
 msgstr ""
 
-#. i18n: ectx: label, entry (ShowToolTips), group (Main)
-#: app/systemsettings.kcfg:9
-msgid "Determines whether detailed tooltips should be used"
-msgstr ""
-
-#. i18n: ectx: label, entry (ActiveView), group (Main)
-#: app/systemsettings.kcfg:13
-msgid "Internal name for the view used"
-msgstr ""
-
-#. i18n: ectx: ToolBar (mainToolBar)
-#: app/systemsettingsui.rc:16
-#, fuzzy
-#| msgid "System Settings"
-msgid "About System Settings"
-msgstr "సిస్టమ్ అమర్పులు"
-
 #: app/ToolTips/tooltipmanager.cpp:227
 #, kde-format
 msgid "<i>Contains 1 item</i>"
@@ -171,11 +144,6 @@ msgstr ""
 msgid "Author"
 msgstr "మూలకర్త"
 
-#. i18n: ectx: property (text), widget (QCheckBox, CbExpand)
-#: classic/configClassic.ui:17
-msgid "Expand the first level automatically"
-msgstr ""
-
 #: core/ExternalAppModule.cpp:34
 #, kde-format
 msgid "%1 is an external application and has been automatically launched"
@@ -184,11 +152,6 @@ msgstr ""
 #: core/ExternalAppModule.cpp:35
 #, kde-format
 msgid "Relaunch %1"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, ExternalModule)
-#: core/externalModule.ui:14
-msgid "Dialog"
 msgstr ""
 
 #: core/ModuleView.cpp:85
@@ -223,6 +186,11 @@ msgstr ""
 #, kde-format
 msgid "Keyboard Shortcut: %1"
 msgstr ""
+
+#, fuzzy
+#~| msgid "System Settings"
+#~ msgid "About System Settings"
+#~ msgstr "సిస్టమ్ అమర్పులు"
 
 #~ msgid "Unsaved Changes"
 #~ msgstr "దాచని మార్పులు"
