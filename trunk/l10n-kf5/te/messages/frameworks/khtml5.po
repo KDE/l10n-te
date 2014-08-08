@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-07 07:59+0000\n"
+"POT-Creation-Date: 2014-08-08 08:34+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -157,7 +157,9 @@ msgstr "స్థానిక చలరాశులు"
 msgid "Reference"
 msgstr "సంబంధం"
 
-#: ecma/debugger/localvariabledock.cpp:52 java/kjavaappletviewer.cpp:150
+#. i18n: ectx: property (text), widget (QTreeWidget, _headers)
+#: ecma/debugger/localvariabledock.cpp:52 htmlpageinfo.ui:219
+#: java/kjavaappletviewer.cpp:150
 msgid "Value"
 msgstr "విలువ"
 
@@ -339,6 +341,35 @@ msgstr "డౌన్ లోడ్ చేయవద్దు"
 msgid "This is a searchable index. Enter search keywords: "
 msgstr "ఇది అన్వేషింతగిన సూచిక. కీలక పదాలు వ్రాయండి:"
 
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: html/keygenwizard.ui:35
+msgid ""
+"You have indicated that you wish to obtain or purchase a secure certificate. "
+"This wizard is intended to guide you through the procedure. You may cancel "
+"at any time, and this will abort the transaction."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
+#: html/keygenwizard2.ui:35
+msgid ""
+"You must now provide a password for the certificate request. Please choose a "
+"very secure password as this will be used to encrypt your private key."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
+#: html/keygenwizard2.ui:48
+#, fuzzy
+#| msgid "&Keep password"
+msgid "&Repeat password:"
+msgstr "(&K) సంకేతపదము వుంచుము"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
+#: html/keygenwizard2.ui:58
+#, fuzzy
+#| msgid "&Keep password"
+msgid "&Choose password:"
+msgstr "(&K) సంకేతపదము వుంచుము"
+
 #: html/ksslkeygen.cpp:82
 #, fuzzy
 #| msgid "Details of the Request:"
@@ -408,6 +439,52 @@ msgstr ""
 #| msgid "Enable SOCKS support"
 msgid "No SSL support."
 msgstr "SOCKS మద్దతును చేతనపరచుము"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, KHTMLInfoDlg)
+#: htmlpageinfo.ui:22
+msgid "Document Information"
+msgstr "పత్రం(దస్తావేజు) వివరములు"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: htmlpageinfo.ui:34
+msgctxt "@title:group Document information"
+msgid "General"
+msgstr "సాదారణ"
+
+#. i18n: ectx: property (text), widget (QLabel, urlLabel)
+#: htmlpageinfo.ui:60
+msgid "URL:"
+msgstr "యుఆర్ఎల్:"
+
+#. i18n: ectx: property (text), widget (QLabel, titleLabel)
+#: htmlpageinfo.ui:112
+msgid "Title:"
+msgstr "శీర్షిక:"
+
+#. i18n: ectx: property (text), widget (QLabel, _lmLabel)
+#: htmlpageinfo.ui:128
+msgid "Last modified:"
+msgstr "చివరిసారి మార్చబడినది:"
+
+#. i18n: ectx: property (text), widget (QLabel, _eLabel)
+#: htmlpageinfo.ui:144
+msgid "Document encoding:"
+msgstr "పత్ర(దస్తావేజు) సంకేతీకరణం:"
+
+#. i18n: ectx: property (text), widget (QLabel, _modeLabel)
+#: htmlpageinfo.ui:167
+msgid "Rendering mode:"
+msgstr "అనువాద విధం"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: htmlpageinfo.ui:186
+msgid "HTTP Headers"
+msgstr "హెచ్ టిటిపి  హెడర్లు"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, _headers)
+#: htmlpageinfo.ui:214
+msgid "Property"
+msgstr "గుణము"
 
 #: java/kjavaapplet.cpp:227
 #, kde-format
@@ -498,6 +575,26 @@ msgstr "మూల యూఆర్ఎల్"
 #: java/kjavaappletviewer.cpp:165
 msgid "Archives"
 msgstr "ఆర్కైవ్లు"
+
+#. i18n: ectx: Menu (edit)
+#: khtml.rc:4 khtml_browser.rc:11
+msgid "&Edit"
+msgstr "(&E) సరిదిద్దు"
+
+#. i18n: ectx: Menu (file)
+#: khtml_browser.rc:4
+msgid "&File"
+msgstr "(&F) దస్త్రం"
+
+#. i18n: ectx: Menu (view)
+#: khtml_browser.rc:18
+msgid "&View"
+msgstr "(&V) చూడు"
+
+#. i18n: ectx: ToolBar (htmlToolBar)
+#: khtml_browser.rc:34
+msgid "HTML Toolbar"
+msgstr "హెచ్ టిఎంఎల్ పనిముట్ల పట్టీ"
 
 #: khtml_ext.cpp:413
 msgid "&Copy Text"
@@ -1190,6 +1287,33 @@ msgstr "అయినది."
 msgid "Access Keys activated"
 msgstr "సాంగత్యం మీటలు క్రియాశీలము అయినాయి"
 
+#. i18n: ectx: property (windowTitle), widget (QDialog, KJSErrorDlgBase)
+#: kjserrordlgbase.ui:14
+msgid "JavaScript Errors"
+msgstr "జావాస్క్రిప్ట్ దోషములు"
+
+#. i18n: ectx: property (whatsThis), widget (QDialog, KJSErrorDlgBase)
+#: kjserrordlgbase.ui:17
+msgid ""
+"This dialog provides you with notification and details of scripting errors "
+"that occur on web pages.  In many cases it is due to an error in the web "
+"site as designed by its author.  In other cases it is the result of a "
+"programming error in Konqueror.  If you suspect the former, please contact "
+"the webmaster of the site in question.  Conversely if you suspect an error "
+"in Konqueror, please file a bug report at http://bugs.kde.org/.  A test case "
+"which illustrates the problem will be appreciated."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, _close)
+#: kjserrordlgbase.ui:29
+msgid "&Close"
+msgstr "(&C) మూసివెయుము"
+
+#. i18n: ectx: property (text), widget (QPushButton, _clear)
+#: kjserrordlgbase.ui:36
+msgid "C&lear"
+msgstr "(&l) ఖాళిచేయుము"
+
 #: kmultipart/kmultipart.cpp:40
 msgid "KMultiPart"
 msgstr "కెమల్టీపార్ట్"
@@ -1350,7 +1474,28 @@ msgstr "కనబడలేదు"
 msgid "No more matches for this search direction."
 msgstr ""
 
-#: ui/passwordbar/storepassbar.cpp:59
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/findbar/khtmlfindbar_base.ui:43
+msgid "F&ind:"
+msgstr "(&i) కనుగొనుము:"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_next)
+#: ui/findbar/khtmlfindbar_base.ui:75
+msgid "&Next"
+msgstr "(&N) తరువాత"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_previous)
+#: ui/findbar/khtmlfindbar_base.ui:85
+msgid "&Previous"
+msgstr "(&P) ముందు"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_options)
+#: ui/findbar/khtmlfindbar_base.ui:111
+msgid "Opt&ions"
+msgstr "(&i) ఇష్టములు"
+
+#. i18n: ectx: property (text), widget (QLabel, m_label)
+#: ui/passwordbar/storepassbar.cpp:59 ui/passwordbar/storepassbar_base.ui:39
 msgid "Do you want to store this password?"
 msgstr "మీరు ఈ రహస్య పదాన్ని దాచాలనుకుంటున్నారా?"
 
@@ -1358,6 +1503,21 @@ msgstr "మీరు ఈ రహస్య పదాన్ని దాచాల�
 #, kde-format
 msgid "Do you want to store this password for %1?"
 msgstr "మీరు రహస్యపదాన్ని  %1 కోసం దాచలనుకుంటున్నారా?"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_store)
+#: ui/passwordbar/storepassbar_base.ui:59
+msgid "&Store"
+msgstr "&దాచు"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_neverForThisSite)
+#: ui/passwordbar/storepassbar_base.ui:69
+msgid "Ne&ver store for this site"
+msgstr "(&v) ఈ  సైటుకు ఎప్పుడు వద్దు"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_doNotStore)
+#: ui/passwordbar/storepassbar_base.ui:79
+msgid "Do &not store this time"
+msgstr "ఈ  సందేశము మరల చూపవద్దు"
 
 #: xml/dom_docimpl.cpp:2380
 msgid "Basic Page Style"
@@ -1375,86 +1535,6 @@ msgstr "హానికరమైన అన్వయ దోషం: %2 వరు�
 #: xml/xml_tokenizer.cpp:567
 msgid "XML parsing error"
 msgstr "ఎక్స్ఎంఎల్ అన్వయ దోషం"
-
-#, fuzzy
-#~| msgid "&Keep password"
-#~ msgid "&Repeat password:"
-#~ msgstr "(&K) సంకేతపదము వుంచుము"
-
-#, fuzzy
-#~| msgid "&Keep password"
-#~ msgid "&Choose password:"
-#~ msgstr "(&K) సంకేతపదము వుంచుము"
-
-#~ msgid "Document Information"
-#~ msgstr "పత్రం(దస్తావేజు) వివరములు"
-
-#~ msgctxt "@title:group Document information"
-#~ msgid "General"
-#~ msgstr "సాదారణ"
-
-#~ msgid "URL:"
-#~ msgstr "యుఆర్ఎల్:"
-
-#~ msgid "Title:"
-#~ msgstr "శీర్షిక:"
-
-#~ msgid "Last modified:"
-#~ msgstr "చివరిసారి మార్చబడినది:"
-
-#~ msgid "Document encoding:"
-#~ msgstr "పత్ర(దస్తావేజు) సంకేతీకరణం:"
-
-#~ msgid "Rendering mode:"
-#~ msgstr "అనువాద విధం"
-
-#~ msgid "HTTP Headers"
-#~ msgstr "హెచ్ టిటిపి  హెడర్లు"
-
-#~ msgid "Property"
-#~ msgstr "గుణము"
-
-#~ msgid "&Edit"
-#~ msgstr "(&E) సరిదిద్దు"
-
-#~ msgid "&File"
-#~ msgstr "(&F) దస్త్రం"
-
-#~ msgid "&View"
-#~ msgstr "(&V) చూడు"
-
-#~ msgid "HTML Toolbar"
-#~ msgstr "హెచ్ టిఎంఎల్ పనిముట్ల పట్టీ"
-
-#~ msgid "JavaScript Errors"
-#~ msgstr "జావాస్క్రిప్ట్ దోషములు"
-
-#~ msgid "&Close"
-#~ msgstr "(&C) మూసివెయుము"
-
-#~ msgid "C&lear"
-#~ msgstr "(&l) ఖాళిచేయుము"
-
-#~ msgid "F&ind:"
-#~ msgstr "(&i) కనుగొనుము:"
-
-#~ msgid "&Next"
-#~ msgstr "(&N) తరువాత"
-
-#~ msgid "&Previous"
-#~ msgstr "(&P) ముందు"
-
-#~ msgid "Opt&ions"
-#~ msgstr "(&i) ఇష్టములు"
-
-#~ msgid "&Store"
-#~ msgstr "&దాచు"
-
-#~ msgid "Ne&ver store for this site"
-#~ msgstr "(&v) ఈ  సైటుకు ఎప్పుడు వద్దు"
-
-#~ msgid "Do &not store this time"
-#~ msgstr "ఈ  సందేశము మరల చూపవద్దు"
 
 #~ msgid "Name"
 #~ msgstr "పేరు"

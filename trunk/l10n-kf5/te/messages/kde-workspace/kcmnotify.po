@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmnotify\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-06 07:56+0000\n"
+"POT-Creation-Date: 2014-08-08 08:30+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -77,23 +77,39 @@ msgstr "చార్లెస్ సామ్యూల్స్"
 msgid "Original implementation"
 msgstr "వాస్తవ పురోభివృద్ది"
 
-#~ msgid "Use the &KDE sound system"
-#~ msgstr "(&K) KDE శబ్ద వ్యవస్థను వుపయోగించుము"
+#. i18n: ectx: property (text), widget (QRadioButton, cbArts)
+#: playersettings.ui:17
+msgid "Use the &KDE sound system"
+msgstr "(&K) KDE శబ్ద వ్యవస్థను వుపయోగించుము"
 
-#~ msgid "100%"
-#~ msgstr "100%"
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: playersettings.ui:32
+#, no-c-format
+msgid "100%"
+msgstr "100%"
 
-#~ msgid "0%"
-#~ msgstr "0%"
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: playersettings.ui:55
+#, no-c-format
+msgid "0%"
+msgstr "0%"
 
-#~ msgid "&Volume:"
-#~ msgstr "(&V) వాల్యూమ్:"
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: playersettings.ui:62
+msgid "&Volume:"
+msgstr "(&V) వాల్యూమ్:"
 
-#~ msgid "&Use an external player"
-#~ msgstr "(&U) బహిర్గత ప్లేయర్‌ను వుపయోగించుము"
+#. i18n: ectx: property (text), widget (QRadioButton, cbExternal)
+#: playersettings.ui:106
+msgid "&Use an external player"
+msgstr "(&U) బహిర్గత ప్లేయర్‌ను వుపయోగించుము"
 
-#~ msgid "&Player:"
-#~ msgstr "(&P) ప్లేయర్:"
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: playersettings.ui:137
+msgid "&Player:"
+msgstr "(&P) ప్లేయర్:"
 
-#~ msgid "&No audio output"
-#~ msgstr "(&N) ఎటువంటి ఆడియో అవుట్‌పుట్ లేదు"
+#. i18n: ectx: property (text), widget (QRadioButton, cbNone)
+#: playersettings.ui:162
+msgid "&No audio output"
+msgstr "(&N) ఎటువంటి ఆడియో అవుట్‌పుట్ లేదు"

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-07 07:57+0000\n"
+"POT-Creation-Date: 2014-08-08 08:32+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -664,7 +664,8 @@ msgctxt ""
 msgid "Hold %1, then push %2"
 msgstr "%1 కలిగివుండుము, అప్పుడు %2 నెట్టుము"
 
-#: khelpmenu.cpp:169
+#. i18n: ectx: Menu (help)
+#: khelpmenu.cpp:169 ui_standards.rc:177
 msgid "&Help"
 msgstr "(&H) సహాయము"
 
@@ -939,6 +940,61 @@ msgstr "ప్రచురణ"
 msgid "Reset to Defaults"
 msgstr "అప్రమేయాలకు పునఃఅమర్పు చేయుము"
 
+#. i18n: ectx: property (whatsThis), widget (KTreeWidgetSearchLineWidget, searchFilter)
+#: kshortcutsdialog.ui:16
+msgid ""
+"Search interactively for shortcut names (e.g. Copy) or combination of keys "
+"(e.g. Ctrl+C) by typing them here."
+msgstr ""
+"ఇచట ప్రవేశపెట్టుట ద్వారా షార్టుకట్ నామములు (ఉ.దా. నకలు) లేదా కీ సమ్మేళనాలు (ఉ.దా. Ctrl+C) కొరకు "
+"యింటరాక్టివుగా శోధించుము."
+
+#. i18n: ectx: property (whatsThis), widget (QTreeWidget, list)
+#: kshortcutsdialog.ui:23
+msgid ""
+"Here you can see a list of key bindings, i.e. associations between actions "
+"(e.g. 'Copy') shown in the left column and keys or combination of keys (e.g. "
+"Ctrl+V) shown in the right column."
+msgstr ""
+"ఇచట మీరు కీ బైండింగ్సు యొక్క జాబితాను చూడవచ్చు, అంటే చర్యల మద్య సంభందాలు (ఉ.దా. 'నకలు') ఎడమ "
+"నిలువువరుస నందు చూపబడుతుంది మరియు కీలు లేదా కీల సమ్మేళనం (ఉ.దా. Ctrl+C) కుడి నిలువువరుస "
+"నందు చూపబడుతుంది."
+
+#. i18n: ectx: property (text), widget (QTreeWidget, list)
+#: kshortcutsdialog.ui:33
+msgid "Action"
+msgstr "చర్య"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, list)
+#: kshortcutsdialog.ui:38
+msgid "Shortcut"
+msgstr "శీఘ్ర మార్గం"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, list)
+#: kshortcutsdialog.ui:43
+msgid "Alternate"
+msgstr "ప్రత్యామ్నాయము"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, list)
+#: kshortcutsdialog.ui:48
+msgid "Global"
+msgstr "సార్వత్రిక"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, list)
+#: kshortcutsdialog.ui:53
+msgid "Global Alternate"
+msgstr "సార్వత్రిక ప్రత్యామ్నాయం"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, list)
+#: kshortcutsdialog.ui:58
+msgid "Mouse Button Gesture"
+msgstr "మౌస్ బటన్ గెస్ట్యూర్"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, list)
+#: kshortcutsdialog.ui:63
+msgid "Mouse Shape Gesture"
+msgstr "మౌస్ షేప్ గెస్ట్యూర్"
+
 #: kshortcutseditor.cpp:614 kshortcutseditor.cpp:632
 msgid "Key Conflict"
 msgstr "ముఖ్యమైన ఘర్షణ"
@@ -963,11 +1019,13 @@ msgctxt "header for an applications shortcut list"
 msgid "Shortcuts for %1"
 msgstr "%1 కొరకు శీఘ్రమార్గాలు"
 
-#: kshortcutseditor.cpp:698
+#. i18n: ectx: property (text), widget (QLabel, priLabel)
+#: kshortcutseditor.cpp:698 kshortcutwidget.ui:22
 msgid "Main:"
 msgstr "ముఖ్యమైన:"
 
-#: kshortcutseditor.cpp:699
+#. i18n: ectx: property (text), widget (QLabel, altLabel)
+#: kshortcutseditor.cpp:699 kshortcutwidget.ui:52
 msgid "Alternate:"
 msgstr "ప్రత్యామ్నాయము:"
 
@@ -1161,73 +1219,56 @@ msgstr "సరిచేయు"
 msgid "No text"
 msgstr "వచనము లేదు"
 
-#~ msgid ""
-#~ "Search interactively for shortcut names (e.g. Copy) or combination of "
-#~ "keys (e.g. Ctrl+C) by typing them here."
-#~ msgstr ""
-#~ "ఇచట ప్రవేశపెట్టుట ద్వారా షార్టుకట్ నామములు (ఉ.దా. నకలు) లేదా కీ సమ్మేళనాలు (ఉ.దా. Ctrl+C) "
-#~ "కొరకు యింటరాక్టివుగా శోధించుము."
+#. i18n: ectx: Menu (file)
+#: ui_standards.rc:5
+msgid "&File"
+msgstr "(&F) దస్త్రం"
 
-#~ msgid ""
-#~ "Here you can see a list of key bindings, i.e. associations between "
-#~ "actions (e.g. 'Copy') shown in the left column and keys or combination of "
-#~ "keys (e.g. Ctrl+V) shown in the right column."
-#~ msgstr ""
-#~ "ఇచట మీరు కీ బైండింగ్సు యొక్క జాబితాను చూడవచ్చు, అంటే చర్యల మద్య సంభందాలు (ఉ.దా. 'నకలు') "
-#~ "ఎడమ నిలువువరుస నందు చూపబడుతుంది మరియు కీలు లేదా కీల సమ్మేళనం (ఉ.దా. Ctrl+C) కుడి "
-#~ "నిలువువరుస నందు చూపబడుతుంది."
+#. i18n: ectx: Menu (game)
+#: ui_standards.rc:34
+msgid "&Game"
+msgstr "(&G) ఆట"
 
-#~ msgid "Action"
-#~ msgstr "చర్య"
+#. i18n: ectx: Menu (edit)
+#: ui_standards.rc:61
+msgid "&Edit"
+msgstr "(&E) సరిదిద్దు"
 
-#~ msgid "Shortcut"
-#~ msgstr "శీఘ్ర మార్గం"
+#. i18n: ectx: Menu (move)
+#: ui_standards.rc:84
+msgctxt "@title:menu Game move"
+msgid "&Move"
+msgstr "(&M) జరుపుము"
 
-#~ msgid "Alternate"
-#~ msgstr "ప్రత్యామ్నాయము"
+#. i18n: ectx: Menu (view)
+#: ui_standards.rc:101
+msgid "&View"
+msgstr "(&V) చూడు"
 
-#~ msgid "Global"
-#~ msgstr "సార్వత్రిక"
+#. i18n: ectx: Menu (go)
+#: ui_standards.rc:117
+msgid "&Go"
+msgstr "(&G) వెళ్ళు"
 
-#~ msgid "Global Alternate"
-#~ msgstr "సార్వత్రిక ప్రత్యామ్నాయం"
+#. i18n: ectx: Menu (bookmarks)
+#: ui_standards.rc:138
+msgid "&Bookmarks"
+msgstr "(&B) పేజీ గుర్తులు"
 
-#~ msgid "Mouse Button Gesture"
-#~ msgstr "మౌస్ బటన్ గెస్ట్యూర్"
+#. i18n: ectx: Menu (tools)
+#: ui_standards.rc:144
+msgid "&Tools"
+msgstr "(&T) పనిముట్లు"
 
-#~ msgid "Mouse Shape Gesture"
-#~ msgstr "మౌస్ షేప్ గెస్ట్యూర్"
+#. i18n: ectx: Menu (settings)
+#: ui_standards.rc:148
+msgid "&Settings"
+msgstr "(&S) అమరికలు"
 
-#~ msgid "&File"
-#~ msgstr "(&F) దస్త్రం"
-
-#~ msgid "&Game"
-#~ msgstr "(&G) ఆట"
-
-#~ msgid "&Edit"
-#~ msgstr "(&E) సరిదిద్దు"
-
-#~ msgctxt "@title:menu Game move"
-#~ msgid "&Move"
-#~ msgstr "(&M) జరుపుము"
-
-#~ msgid "&View"
-#~ msgstr "(&V) చూడు"
-
-#~ msgid "&Go"
-#~ msgstr "(&G) వెళ్ళు"
-
-#~ msgid "&Bookmarks"
-#~ msgstr "(&B) పేజీ గుర్తులు"
-
-#~ msgid "&Tools"
-#~ msgstr "(&T) పనిముట్లు"
-
-#~ msgid "&Settings"
-#~ msgstr "(&S) అమరికలు"
-
-#~ msgid "Main Toolbar"
-#~ msgstr "ప్రధాన పనిముట్ల పట్టీ"
+#. i18n: ectx: ToolBar (mainToolBar)
+#: ui_standards.rc:194
+msgid "Main Toolbar"
+msgstr "ప్రధాన పనిముట్ల పట్టీ"
 
 #~ msgid "Name"
 #~ msgstr "పేరు"

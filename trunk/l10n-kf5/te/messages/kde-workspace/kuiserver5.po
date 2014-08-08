@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kuiserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-06 07:57+0000\n"
+"POT-Creation-Date: 2014-08-08 08:30+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -18,6 +18,41 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 "X-Generator: KBabel 1.11.4\n"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupFinishedJobs)
+#: configdialog.ui:31
+msgid "Finished Jobs"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioMove)
+#: configdialog.ui:43
+msgid "Move them to a different list"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioRemove)
+#: configdialog.ui:50
+msgid "Remove them"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupAppearance)
+#: configdialog.ui:60
+msgid "Appearance"
+msgstr "కనిపించువిధం"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioList)
+#: configdialog.ui:72
+msgid "Show all jobs in a list"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioTree)
+#: configdialog.ui:79
+msgid "Show all jobs in a tree"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkShowSeparateWindows)
+#: configdialog.ui:86
+msgid "Show separate windows"
+msgstr ""
 
 #: jobview.cpp:123 jobview.cpp:151
 #, kde-format
@@ -38,6 +73,31 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:8
+msgid "Move them to a different list."
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:12
+msgid "Remove them."
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:16
+msgid "Show all jobs in a list."
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:20
+msgid "Show all jobs in a tree."
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:24
+msgid "Show separate windows."
+msgstr ""
 
 #: progresslistdelegate.cpp:145
 #, kde-format
@@ -86,9 +146,6 @@ msgstr ""
 #: uiserver.cpp:128
 msgid "Behavior"
 msgstr "ప్రవర్తన"
-
-#~ msgid "Appearance"
-#~ msgstr "కనిపించువిధం"
 
 #~ msgctxt "NAME OF TRANSLATORS"
 #~ msgid "Your names"
