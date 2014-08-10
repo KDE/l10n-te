@@ -22,10 +22,14 @@ msgstr ""
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
+"కృష్ణబాబు కె \n"
+" విజయ్ కిరణ్ కముజు"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
+"k.meetme@gmail.com \n"
+" infyquest@gmail.com"
 
 #: bindings.cpp:34
 msgid "Switch to Next Keyboard Layout"
@@ -57,9 +61,12 @@ msgid "Any language"
 msgstr ""
 
 #: kcm_add_layout_dialog.cpp:134 kcm_view_models.cpp:308
+#, fuzzy
+#| msgctxt "Default variant"
+#| msgid "Default"
 msgctxt "variant"
 msgid "Default"
-msgstr ""
+msgstr "అప్రమెయం"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, AddLayoutDialog)
 #: kcm_add_layout_dialog.ui:14
@@ -195,7 +202,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, switchByDesktopRadioBtn)
 #: kcm_keyboard.ui:165
 msgid "&Desktop"
-msgstr ""
+msgstr "(&D) రంగస్థలము"
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByApplicationRadioBtn)
 #: kcm_keyboard.ui:172
@@ -205,7 +212,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, switchByWindowRadioBtn)
 #: kcm_keyboard.ui:179
 msgid "&Window"
-msgstr ""
+msgstr "(&W) విండో"
 
 #. i18n: ectx: property (title), widget (QGroupBox, shortcutsGroupBox)
 #: kcm_keyboard.ui:189
@@ -237,7 +244,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, xkb3rdLevelClearBtn)
 #: kcm_keyboard.ui:218 kcm_keyboard.ui:248
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: kcm_keyboard.ui:225
@@ -306,7 +313,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tabAdvanced)
 #: kcm_keyboard.ui:437
 msgid "Advanced"
-msgstr ""
+msgstr "ఆధునాతన"
 
 #. i18n: ectx: property (text), widget (QCheckBox, configureKeyboardOptionsChk)
 #: kcm_keyboard.ui:443
@@ -341,9 +348,11 @@ msgid "No layout selected "
 msgstr ""
 
 #: kcm_keyboard_widget.cpp:603
+#, fuzzy
+#| msgid "None"
 msgctxt "no shortcuts defined"
 msgid "None"
-msgstr ""
+msgstr "ఏదీకాదు"
 
 #: kcm_keyboard_widget.cpp:619
 #, kde-format
@@ -370,7 +379,7 @@ msgstr ""
 
 #: kcm_view_models.cpp:224
 msgid "Label"
-msgstr ""
+msgstr "లేబుల్"
 
 #: kcm_view_models.cpp:224
 msgid "Shortcut"
