@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-09 08:11+0000\n"
+"POT-Creation-Date: 2014-08-10 08:16+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -29,7 +29,7 @@ msgstr ""
 msgid "Location"
 msgstr "స్థానం"
 
-#: package/contents/config/config.qml:32
+#: package/contents/config/config.qml:32 package/contents/ui/main.qml:554
 msgid "Icons"
 msgstr "ప్రతిమలు"
 
@@ -77,11 +77,11 @@ msgstr ""
 msgid "Arrange in:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:71
+#: package/contents/ui/ConfigIcons.qml:71 plugin/viewpropertiesmenu.cpp:34
 msgid "Rows"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:71
+#: package/contents/ui/ConfigIcons.qml:71 plugin/viewpropertiesmenu.cpp:38
 msgid "Columns"
 msgstr ""
 
@@ -89,11 +89,11 @@ msgstr ""
 msgid "Align:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:83
+#: package/contents/ui/ConfigIcons.qml:83 plugin/viewpropertiesmenu.cpp:46
 msgid "Left"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:83
+#: package/contents/ui/ConfigIcons.qml:83 plugin/viewpropertiesmenu.cpp:50
 msgid "Right"
 msgstr ""
 
@@ -109,88 +109,88 @@ msgstr ""
 msgid "Sorting:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:113
+#: package/contents/ui/ConfigIcons.qml:119 plugin/viewpropertiesmenu.cpp:58
 msgid "Unsorted"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:113
+#: package/contents/ui/ConfigIcons.qml:119 plugin/viewpropertiesmenu.cpp:62
 #, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "By Name"
 msgid "Name"
 msgstr "పేరు ద్వారా"
 
-#: package/contents/ui/ConfigIcons.qml:113
+#: package/contents/ui/ConfigIcons.qml:119 plugin/viewpropertiesmenu.cpp:66
 #, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "By Size"
 msgid "Size"
 msgstr "పరిమాణము ద్వారా"
 
-#: package/contents/ui/ConfigIcons.qml:113
+#: package/contents/ui/ConfigIcons.qml:119 plugin/viewpropertiesmenu.cpp:70
 #, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "By Type"
 msgid "Type"
 msgstr "రకము ద్వారా"
 
-#: package/contents/ui/ConfigIcons.qml:113
+#: package/contents/ui/ConfigIcons.qml:119 plugin/viewpropertiesmenu.cpp:74
 #, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "By Date"
 msgid "Date"
 msgstr "తేదీ ద్వారా"
 
-#: package/contents/ui/ConfigIcons.qml:122
+#: package/contents/ui/ConfigIcons.qml:136 plugin/viewpropertiesmenu.cpp:79
 msgid "Descending"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:130
+#: package/contents/ui/ConfigIcons.qml:144
 msgid "Folders first"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:138
+#: package/contents/ui/ConfigIcons.qml:152
 msgid "Appearance"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:145
+#: package/contents/ui/ConfigIcons.qml:159
 #, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "By Size"
 msgid "Size:"
 msgstr "పరిమాణము ద్వారా"
 
-#: package/contents/ui/ConfigIcons.qml:149
+#: package/contents/ui/ConfigIcons.qml:163
 msgid "Small"
 msgstr "చిన్న"
 
-#: package/contents/ui/ConfigIcons.qml:163
+#: package/contents/ui/ConfigIcons.qml:177
 msgid "Large"
 msgstr "పెద్ద"
 
-#: package/contents/ui/ConfigIcons.qml:169
+#: package/contents/ui/ConfigIcons.qml:183
 msgid "Text lines:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:187
+#: package/contents/ui/ConfigIcons.qml:201
 msgid "Features"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:197
+#: package/contents/ui/ConfigIcons.qml:211
 #, fuzzy
 #| msgid "Select All"
 msgid "Selection markers"
 msgstr "అన్నిటిని ఎంపికచేయుము"
 
-#: package/contents/ui/ConfigIcons.qml:203
+#: package/contents/ui/ConfigIcons.qml:217
 msgid "Folder preview popups"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:210
+#: package/contents/ui/ConfigIcons.qml:224
 msgid "Preview thumbnails"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:216
+#: package/contents/ui/ConfigIcons.qml:230
 msgid "More Preview Options..."
 msgstr ""
 
@@ -252,35 +252,35 @@ msgstr ""
 msgid "Select Folder"
 msgstr "అన్నిటిని ఎంపికచేయుము"
 
-#: plugin/foldermodel.cpp:975
-msgid "&Reload"
-msgstr ""
-
-#: plugin/foldermodel.cpp:978
+#: plugin/foldermodel.cpp:212
 msgid "&Refresh Desktop"
 msgstr ""
 
-#: plugin/foldermodel.cpp:978
+#: plugin/foldermodel.cpp:212 plugin/foldermodel.cpp:979
 msgid "&Refresh View"
 msgstr ""
 
-#: plugin/foldermodel.cpp:984
+#: plugin/foldermodel.cpp:976
+msgid "&Reload"
+msgstr ""
+
+#: plugin/foldermodel.cpp:982
 msgid "&Rename"
 msgstr ""
 
-#: plugin/foldermodel.cpp:987
+#: plugin/foldermodel.cpp:985
 msgid "&Move to Trash"
 msgstr ""
 
-#: plugin/foldermodel.cpp:990 plugin/internallibkonq/konq_popupmenu.cpp:350
+#: plugin/foldermodel.cpp:988 plugin/internallibkonq/konq_popupmenu.cpp:350
 msgid "&Empty Trash Bin"
 msgstr ""
 
-#: plugin/foldermodel.cpp:995
+#: plugin/foldermodel.cpp:991
 msgid "&Delete"
 msgstr ""
 
-#: plugin/foldermodel.cpp:1105
+#: plugin/foldermodel.cpp:1045
 msgid "&Paste"
 msgstr "(&P) అతికించు"
 
@@ -499,8 +499,28 @@ msgstr ""
 msgid "Error: %1"
 msgstr ""
 
-#: plugin/labelgenerator.cpp:96
+#: plugin/labelgenerator.cpp:97
 msgid "Desktop Folder"
+msgstr ""
+
+#: plugin/viewpropertiesmenu.cpp:31
+msgid "Arrange In"
+msgstr ""
+
+#: plugin/viewpropertiesmenu.cpp:43
+msgid "Align"
+msgstr ""
+
+#: plugin/viewpropertiesmenu.cpp:55
+msgid "Sort By"
+msgstr ""
+
+#: plugin/viewpropertiesmenu.cpp:81
+msgid "Folders First"
+msgstr ""
+
+#: plugin/viewpropertiesmenu.cpp:84
+msgid "Locked"
 msgstr ""
 
 #, fuzzy
