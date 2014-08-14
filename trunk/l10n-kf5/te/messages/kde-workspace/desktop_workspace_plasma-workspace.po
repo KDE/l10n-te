@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-13 08:31+0000\n"
+"POT-Creation-Date: 2014-08-14 08:17+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -71,6 +71,20 @@ msgctxt "Name"
 msgid "Calendar"
 msgstr "కెనెడా"
 
+#: applets/clipboard/metadata.desktop:2
+#: klipper/plasma-dataengine-clipboard.desktop:2
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Clipboard Tool"
+msgctxt "Name"
+msgid "Clipboard"
+msgstr "క్లిప్ బోర్డ్ పనిముట్టు"
+
+#: applets/clipboard/metadata.desktop:3
+msgctxt "Comment"
+msgid "Provides access to the clipboard history."
+msgstr ""
+
 #: applets/devicenotifier/package/metadata.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -96,6 +110,11 @@ msgstr "అప్రమేయ అన్వేషణితో తెరువు�
 msgctxt "Name"
 msgid "Digital Clock"
 msgstr "డిజిటల్ గడియారం"
+
+#: applets/digital-clock/package/metadata.desktop:89
+msgctxt "Comment"
+msgid "Time displayed in a digital format"
+msgstr ""
 
 #: applets/icon/package/metadata.desktop:2
 msgctxt "Name"
@@ -1195,6 +1214,14 @@ msgstr "క్లిప్ బోర్డ్ పనిముట్టు"
 msgctxt "Comment"
 msgid "A cut & paste history utility"
 msgstr "కత్తిరించు & అతికించు చరిత్ర సౌలభ్యం"
+
+#: klipper/plasma-dataengine-clipboard.desktop:3
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Clipboard Tool"
+msgctxt "Comment"
+msgid "Clipboard Tool."
+msgstr "క్లిప్ బోర్డ్ పనిముట్టు"
 
 #: krunner/krunner.desktop:3
 msgctxt "Name"
