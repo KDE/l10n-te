@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-07 08:45+0000\n"
+"POT-Creation-Date: 2014-09-27 09:15+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -19,18 +19,26 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 
-#: backgroundlistmodel.cpp:360
+#: backgroundlistmodel.cpp:357
 msgctxt "Unknown Author"
 msgid "Unknown"
 msgstr ""
 
-#: image.cpp:521
+#: image.cpp:184
+msgid "Recommended wallpaper file"
+msgstr ""
+
+#: image.cpp:319
+msgid "Directory with the wallpaper to show slides from"
+msgstr ""
+
+#: image.cpp:601
 #, fuzzy
 #| msgid "Images"
 msgid "Open Image"
 msgstr "చిత్రాలు"
 
-#: image.cpp:523
+#: image.cpp:603
 msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz *.xcf)"
 msgstr ""
 
@@ -78,50 +86,37 @@ msgstr ""
 msgid "Seconds"
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:296
+#: imagepackage/contents/ui/config.qml:292
 msgid "Add Folder"
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:302
+#: imagepackage/contents/ui/config.qml:298
 #, fuzzy
 #| msgid "..."
 msgid "Open..."
 msgstr "..."
 
-#: imagepackage/contents/ui/config.qml:307
+#: imagepackage/contents/ui/config.qml:303
 msgid "Download Wallpapers"
 msgstr ""
 
-#: imagepackage/contents/ui/main.qml:95
+#: imagepackage/contents/ui/main.qml:91
 msgid "Next Wallpaper Image"
 msgstr ""
 
-#: imagepackage/contents/ui/WallpaperDelegate.qml:121
+#: imagepackage/contents/ui/WallpaperDelegate.qml:92
 msgid "Remove wallpaper"
 msgstr ""
 
-#: imagepackage/contents/ui/WallpaperDelegate.qml:143
+#: imagepackage/contents/ui/WallpaperDelegate.qml:129
 #, kde-format
 msgid "%1 by %2"
 msgstr ""
 
-#: wallpaperpackage.cpp:40
 #, fuzzy
-#| msgid "Images"
-msgid "Images"
-msgstr "చిత్రాలు"
-
-#: wallpaperpackage.cpp:47
-msgid "Screenshot"
-msgstr ""
-
-#: wallpaperpackage.cpp:95 wallpaperpackage.cpp:152
-msgid "Recommended wallpaper file"
-msgstr ""
-
-#: wallpaperpackage.cpp:96
-msgid "Preview"
-msgstr ""
+#~| msgid "Images"
+#~ msgid "Images"
+#~ msgstr "చిత్రాలు"
 
 #~ msgid "Center Tiled"
 #~ msgstr "సెంటర్ టైల్డ్"
