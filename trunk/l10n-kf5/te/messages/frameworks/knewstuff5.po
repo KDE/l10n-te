@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-08 08:34+0000\n"
+"POT-Creation-Date: 2014-09-29 07:45+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -134,49 +134,49 @@ msgstr[4] "%1 వీక్షణలు లోడుచేస్తోంది"
 msgid "Installing"
 msgstr "నెలకొల్పుతుం"
 
-#: core/installation.cpp:176
+#: core/installation.cpp:175
 msgid "Invalid item."
 msgstr "వస్తువు నిస్సారం"
 
-#: core/installation.cpp:183
+#: core/installation.cpp:182
 #, kde-format
 msgid "Download of item failed: no download URL for \"%1\"."
 msgstr "వస్తువు యొక్క దిగుమతి  విఫలమైంది: దిగుమతిలొ URL కోసం \"%1\"."
 
-#: core/installation.cpp:222
+#: core/installation.cpp:221
 #, kde-format
 msgid "Download of \"%1\" failed, error: %2"
 msgstr "\"%1\" యొక్క దిగుమతి విఫలమైంది, లోపం: %2"
 
-#: core/installation.cpp:231
+#: core/installation.cpp:230
 msgid ""
 "The downloaded file is a html file. This indicates a link to a website "
 "instead of the actual download. Would you like to open the site with a "
 "browser instead?"
 msgstr ""
 
-#: core/installation.cpp:231
+#: core/installation.cpp:230
 msgid "Possibly bad download link"
 msgstr "సమాచారదిగుమతి లింకు బాగాలే"
 
-#: core/installation.cpp:234
+#: core/installation.cpp:233
 msgid "Downloaded file was a HTML file. Opened in browser."
 msgstr "దిగుమతి దస్త్రం అది ఒక HTML దస్త్రం. అన్వేషిలొ తెరిచింది. "
 
-#: core/installation.cpp:297
+#: core/installation.cpp:296
 #, kde-format
 msgid "Could not install \"%1\": file not found."
 msgstr "%1ను సంస్థాపించలేక పోయింది:దస్త్రం కనిపించలే"
 
-#: core/installation.cpp:543
+#: core/installation.cpp:542
 msgid "Overwrite existing file?"
 msgstr "దస్త్రాలను తిరి వ్రాయి?"
 
-#: core/installation.cpp:543
+#: core/installation.cpp:542
 msgid "Download File"
 msgstr "దిగుమతి సమాచారపు దస్త్ర"
 
-#: core/security.cpp:87
+#: core/security.cpp:86
 msgid ""
 "<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure that "
 "<i>gpg</i> is installed, otherwise verification of downloaded resources will "
@@ -185,7 +185,7 @@ msgstr ""
 "<qt><i>జిపిజి</i> మొదలుపెట్టలేను మరయూ అందుబాటులొ వున్న కీలను తెలెకపొయాను.<i>జిపిజి</i> స్థాపించబడి "
 "వునట్టు చూసుకోండి, లెకపొయిన డౌన్ లోడ్ చెయబడిన వనరుల సరిచూడలేము.</qt>"
 
-#: core/security.cpp:211
+#: core/security.cpp:210
 #, kde-format
 msgid ""
 "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;%3&gt;</"
@@ -194,7 +194,7 @@ msgstr ""
 "<qt><br /><i>%2&lt;%3&gt;</i><br />కు చెందిన, <b>0x%1</b>కీ కొరకు సంకేతపదమును "
 "ప్రవేశపెట్టుము:</qt>"
 
-#: core/security.cpp:291
+#: core/security.cpp:290
 msgid ""
 "<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
 "that <i>gpg</i> is installed, otherwise verification of downloaded resources "
@@ -203,15 +203,15 @@ msgstr ""
 "<qt><i>జిపిజి</i> మొదలుపెట్టలేను మరయూ దస్త్రాన్ని సరిచూడండి.<i>జిపిజి</i> స్థాపించబడి వునట్టు "
 "చూసుకోండి, లెకపొయిన డౌన్ లోడ్ చెయబడిన వనరుల సరిచూడలేము.</qt>"
 
-#: core/security.cpp:346
+#: core/security.cpp:345
 msgid "Select Signing Key"
 msgstr "సంతకం చెయుటకు వాడె కీ ని ఎంచుకో"
 
-#: core/security.cpp:346
+#: core/security.cpp:345
 msgid "Key used for signing:"
 msgstr "సంతకం చెయుటకు వాడిన కీ:"
 
-#: core/security.cpp:379
+#: core/security.cpp:378
 msgid ""
 "<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> is "
 "installed, otherwise signing of the resources will not be possible.</qt>"
