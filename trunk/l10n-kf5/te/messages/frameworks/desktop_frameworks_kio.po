@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-09-29 07:55+0000\n"
+"POT-Creation-Date: 2014-10-02 08:09+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -70,12 +70,50 @@ msgctxt "Name"
 msgid "KTelnetService"
 msgstr "సేవలు"
 
+#: src/ioslaves/trash/kcmtrash.desktop:1
+#: src/ioslaves/trash/kcmtrash.desktop:172
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Trashcan"
+msgctxt "Name"
+msgid "Trash"
+msgstr "చెత్తబుట్ట"
+
+#: src/ioslaves/trash/kcmtrash.desktop:82
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "This service allows configuration of the Dolphin views."
+msgctxt "Comment"
+msgid "This service allows configuration of the trash."
+msgstr "డాల్ఫిన్ వీక్షణిల యొక్క ఆకృతీకరణను ఈ సేవ అనుమతిస్తుంది."
+
+#: src/ioslaves/trash/kcmtrash.desktop:253
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure Hotkey settings"
+msgctxt "Comment"
+msgid "Configure trash settings"
+msgstr "హాట్‌కీల అమరికలను ఆకృతీకరించుము."
+
+#: src/ioslaves/trash/kcmtrash.desktop:333
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Trashcan"
+msgctxt "X-KDE-Keywords"
+msgid "trash"
+msgstr "చెత్తబుట్ట"
+
+#: src/ioslaves/trash/trash.protocol:25
+msgctxt "ExtraNames"
+msgid "Original Path,Deletion Date"
+msgstr "అసలు దారు, తీసివేసిన తేది"
+
 #: src/kcms/webshortcuts/webshortcuts.desktop:14
 msgctxt "Name"
 msgid "Web Shortcuts"
 msgstr "వెబ్ లఘువులు"
 
-#: src/kcms/webshortcuts/webshortcuts.desktop:92
+#: src/kcms/webshortcuts/webshortcuts.desktop:93
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure web cache settings"
@@ -83,7 +121,7 @@ msgctxt "Comment"
 msgid "Configure web shortcuts"
 msgstr "వెబ్ క్యాచి అమరికలను ఆకృతీకరించుము"
 
-#: src/kcms/webshortcuts/webshortcuts.desktop:120
+#: src/kcms/webshortcuts/webshortcuts.desktop:122
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Web Shortcuts,Browsing,WWW,Internet,Internet Filters,Network,Search Engines,"
@@ -1434,7 +1472,7 @@ msgctxt "Name"
 msgid "Qwant"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/qwant.desktop:25
+#: src/urifilters/ikws/searchproviders/qwant.desktop:27
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -1450,7 +1488,7 @@ msgctxt "Name"
 msgid "Qwant Images"
 msgstr "చిత్రాలు"
 
-#: src/urifilters/ikws/searchproviders/qwant_images.desktop:25
+#: src/urifilters/ikws/searchproviders/qwant_images.desktop:27
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -1463,7 +1501,7 @@ msgctxt "Name"
 msgid "Qwant News"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/qwant_news.desktop:25
+#: src/urifilters/ikws/searchproviders/qwant_news.desktop:27
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -1479,7 +1517,7 @@ msgctxt "Name"
 msgid "Qwant Shopping"
 msgstr "గూగుల్ గుంపులు"
 
-#: src/urifilters/ikws/searchproviders/qwant_shopping.desktop:25
+#: src/urifilters/ikws/searchproviders/qwant_shopping.desktop:27
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -1492,7 +1530,7 @@ msgctxt "Name"
 msgid "Qwant Social"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/qwant_social.desktop:24
+#: src/urifilters/ikws/searchproviders/qwant_social.desktop:26
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -1508,7 +1546,7 @@ msgctxt "Name"
 msgid "Qwant Videos"
 msgstr "సాలిడ్"
 
-#: src/urifilters/ikws/searchproviders/qwant_videos.desktop:25
+#: src/urifilters/ikws/searchproviders/qwant_videos.desktop:27
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -2302,13 +2340,6 @@ msgstr "టాబ్ బ్రౌజింగ్"
 #~ msgid "Directory Watcher"
 #~ msgstr "నెట్వర్క్ ను పరిశీలించె కార్యక్రమం"
 
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Trashcan"
-#~ msgctxt "Name"
-#~ msgid "Trash"
-#~ msgstr "చెత్తబుట్ట"
-
 #~ msgctxt "Comment"
 #~ msgid "Contains removed files"
 #~ msgstr "తీసివేసిన ఫైళ్ళను కలిగివుంటుంది"
@@ -2434,31 +2465,6 @@ msgstr "టాబ్ బ్రౌజింగ్"
 #~ msgctxt "Comment"
 #~ msgid "Thumbnail Handler"
 #~ msgstr "Thumbnail సంభాలిక"
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "This service allows configuration of the Dolphin views."
-#~ msgctxt "Comment"
-#~ msgid "This service allows configuration of the trash."
-#~ msgstr "డాల్ఫిన్ వీక్షణిల యొక్క ఆకృతీకరణను ఈ సేవ అనుమతిస్తుంది."
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure Hotkey settings"
-#~ msgctxt "Comment"
-#~ msgid "Configure trash settings"
-#~ msgstr "హాట్‌కీల అమరికలను ఆకృతీకరించుము."
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Trashcan"
-#~ msgctxt "X-KDE-Keywords"
-#~ msgid "trash"
-#~ msgstr "చెత్తబుట్ట"
-
-#~ msgctxt "ExtraNames"
-#~ msgid "Original Path,Deletion Date"
-#~ msgstr "అసలు దారు, తీసివేసిన తేది"
 
 #~ msgctxt "Name"
 #~ msgid "KNetAttach"
