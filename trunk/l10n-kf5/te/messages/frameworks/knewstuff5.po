@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-09-29 07:45+0000\n"
+"POT-Creation-Date: 2014-10-07 10:10+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -455,6 +455,12 @@ msgstr "తరువాత"
 msgid "Finish"
 msgstr "ముగింపు"
 
+#: uploaddialog.cpp:173
+#, fuzzy
+#| msgid "Provider information"
+msgid "Fetching provider information..."
+msgstr "సిద్దంచేసేవారి సమాచారం"
+
 #: uploaddialog.cpp:180
 msgid "Fetching license data from server..."
 msgstr "సర్వర్ నుండి అనుజ్ఞాపత్రము దత్తాంశం తేలుసుకొండి  "
@@ -462,6 +468,12 @@ msgstr "సర్వర్ నుండి అనుజ్ఞాపత్రమ�
 #: uploaddialog.cpp:187
 msgid "Fetching content data from server..."
 msgstr "సర్వర్ నుండి విశయ్య దత్తాంశం తేలుసుకొండి..."
+
+#: uploaddialog.cpp:262
+#, fuzzy
+#| msgid "Provider information"
+msgid "Could not fetch provider information."
+msgstr "సిద్దంచేసేవారి సమాచారం"
 
 #: uploaddialog.cpp:286
 msgid "Register a new account"
@@ -9708,11 +9720,6 @@ msgstr "ఎక్కించుట మొదలపె"
 #~| msgid "&Replace..."
 #~ msgid "Upload..."
 #~ msgstr "(&R) ప్రతిస్థాపించుము..."
-
-#, fuzzy
-#~| msgid "Provider information"
-#~ msgid "Fetching provider information..."
-#~ msgstr "సిద్దంచేసేవారి సమాచారం"
 
 #, fuzzy
 #~| msgid "The rating could not be submitted."
