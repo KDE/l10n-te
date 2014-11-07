@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-14 10:42+0000\n"
+"POT-Creation-Date: 2014-11-07 08:16+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -19,129 +19,129 @@ msgstr ""
 "4;\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: HostConnector.cpp:44
+#: HostConnector.cpp:45
 msgid "Connect Host"
 msgstr ""
 
-#: HostConnector.cpp:55
+#: HostConnector.cpp:56
 msgid "Host:"
 msgstr "హొస్ట్:"
 
-#: HostConnector.cpp:65
+#: HostConnector.cpp:66
 msgid "Enter the name of the host you want to connect to."
 msgstr ""
 
-#: HostConnector.cpp:71
+#: HostConnector.cpp:72
 msgid "Connection Type"
 msgstr ""
 
-#: HostConnector.cpp:77
+#: HostConnector.cpp:78
 msgid "ssh"
 msgstr ""
 
-#: HostConnector.cpp:80
+#: HostConnector.cpp:81
 msgid "Select this to use the secure shell to login to the remote host."
 msgstr ""
 
-#: HostConnector.cpp:83
+#: HostConnector.cpp:84
 msgid "rsh"
 msgstr ""
 
-#: HostConnector.cpp:84
+#: HostConnector.cpp:85
 msgid "Select this to use the remote shell to login to the remote host."
 msgstr ""
 
-#: HostConnector.cpp:87
+#: HostConnector.cpp:88
 msgid "Daemon"
 msgstr ""
 
-#: HostConnector.cpp:88
+#: HostConnector.cpp:89
 msgid ""
 "Select this if you want to connect to a ksysguard daemon that is running on "
 "the machine you want to connect to, and is listening for client requests."
 msgstr ""
 
-#: HostConnector.cpp:91
+#: HostConnector.cpp:92
 msgid "Custom command"
 msgstr ""
 
-#: HostConnector.cpp:92
+#: HostConnector.cpp:93
 msgid ""
 "Select this to use the command you entered below to start ksysguardd on the "
 "remote host."
 msgstr ""
 
-#: HostConnector.cpp:95
+#: HostConnector.cpp:96
 msgid "Port:"
 msgstr ""
 
-#: HostConnector.cpp:102
+#: HostConnector.cpp:103
 msgid ""
 "Enter the port number on which the ksysguard daemon is listening for "
 "connections."
 msgstr ""
 
-#: HostConnector.cpp:105
+#: HostConnector.cpp:106
 msgid "e.g.  3112"
 msgstr ""
 
-#: HostConnector.cpp:108
+#: HostConnector.cpp:109
 msgid "Command:"
 msgstr "ఆదేశము:"
 
-#: HostConnector.cpp:117
+#: HostConnector.cpp:118
 msgid "Enter the command that runs ksysguardd on the host you want to monitor."
 msgstr ""
 
-#: HostConnector.cpp:121
+#: HostConnector.cpp:122
 msgid "e.g. ssh -l root remote.host.org ksysguardd"
 msgstr ""
 
-#: ksysguard.cpp:70
+#: ksysguard.cpp:72
 msgid "KDE System Monitor"
 msgstr ""
 
-#: ksysguard.cpp:158 ksysguard.cpp:529
+#: ksysguard.cpp:160 ksysguard.cpp:531
 msgid "System Monitor"
 msgstr "సిస్టమ్ మానిటర్"
 
-#: ksysguard.cpp:159
+#: ksysguard.cpp:161
 msgid "&Refresh Tab"
 msgstr ""
 
-#: ksysguard.cpp:160
+#: ksysguard.cpp:162
 msgid "&New Tab..."
 msgstr ""
 
-#: ksysguard.cpp:161
+#: ksysguard.cpp:163
 msgid "Import Tab Fr&om File..."
 msgstr ""
 
-#: ksysguard.cpp:162
+#: ksysguard.cpp:164
 msgid "Save Tab &As..."
 msgstr ""
 
-#: ksysguard.cpp:163
+#: ksysguard.cpp:165
 msgid "&Close Tab"
 msgstr "(&C) టాబ్ ను మూసివెయి"
 
-#: ksysguard.cpp:164
+#: ksysguard.cpp:166
 msgid "Monitor &Remote Machine..."
 msgstr ""
 
-#: ksysguard.cpp:165
+#: ksysguard.cpp:167
 msgid "&Download New Tabs..."
 msgstr ""
 
-#: ksysguard.cpp:166
+#: ksysguard.cpp:168
 msgid "&Upload Current Tab..."
 msgstr ""
 
-#: ksysguard.cpp:168
+#: ksysguard.cpp:170
 msgid "Tab &Properties"
 msgstr ""
 
-#: ksysguard.cpp:363
+#: ksysguard.cpp:365
 #, kde-format
 msgid "1 process1"
 msgid_plural "%1 processes%1"
@@ -151,87 +151,87 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: ksysguard.cpp:442
+#: ksysguard.cpp:444
 #, kde-format
 msgid "CPU: %1%%1%"
 msgstr ""
 
-#: ksysguard.cpp:457
+#: ksysguard.cpp:459
 #, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid "Memory: %1 / %2Mem: %1 / %2Mem: %1%1"
 msgstr ""
 
-#: ksysguard.cpp:484
+#: ksysguard.cpp:486
 msgid " No swap space available "
 msgstr ""
 
-#: ksysguard.cpp:486
+#: ksysguard.cpp:488
 #, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid "Swap: %1 / %2Swap: %1%1"
 msgstr ""
 
-#: ksysguard.cpp:531
+#: ksysguard.cpp:533
 msgid "(c) 1996-2008 The KDE System Monitor Developers"
 msgstr ""
 
-#: ksysguard.cpp:532
+#: ksysguard.cpp:534
 msgid "John Tapsell"
 msgstr ""
 
-#: ksysguard.cpp:532
+#: ksysguard.cpp:534
 msgid "Current Maintainer"
 msgstr "ప్రస్తుత సంరక్షకుడు"
 
-#: ksysguard.cpp:533
+#: ksysguard.cpp:535
 msgid "Chris Schlaeger"
 msgstr ""
 
-#: ksysguard.cpp:533
+#: ksysguard.cpp:535
 msgid "Previous Maintainer"
 msgstr "ముందటి సంరక్షకుడు"
 
-#: ksysguard.cpp:534
+#: ksysguard.cpp:536
 msgid "Greg Martyn"
 msgstr ""
 
-#: ksysguard.cpp:535
+#: ksysguard.cpp:537
 msgid "Tobias Koenig"
 msgstr "టొబియాస్ కొయింగ్"
 
-#: ksysguard.cpp:536
+#: ksysguard.cpp:538
 msgid "Nicolas Leclercq"
 msgstr ""
 
-#: ksysguard.cpp:537
+#: ksysguard.cpp:539
 msgid "Alex Sanda"
 msgstr ""
 
-#: ksysguard.cpp:538
+#: ksysguard.cpp:540
 msgid "Bernd Johannes Wuebben"
 msgstr ""
 
-#: ksysguard.cpp:539
+#: ksysguard.cpp:541
 msgid "Ralf Mueller"
 msgstr ""
 
-#: ksysguard.cpp:540
+#: ksysguard.cpp:542
 msgid "Hamish Rodda"
 msgstr ""
 
-#: ksysguard.cpp:541
+#: ksysguard.cpp:543
 msgid "Torsten Kasch"
 msgstr ""
 
-#: ksysguard.cpp:541
+#: ksysguard.cpp:543
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
 "module of William LeFebvre's \"top\" utility."
 msgstr ""
 
-#: ksysguard.cpp:549
+#: ksysguard.cpp:551
 msgid "Optional worksheet files to load"
 msgstr ""
 
@@ -263,15 +263,15 @@ msgstr "మెయిన్ పనిముట్లపట్టీ"
 msgid "Process Table"
 msgstr ""
 
-#: SensorBrowser.cpp:112
+#: SensorBrowser.cpp:113
 msgid "Sensor Browser"
 msgstr ""
 
-#: SensorBrowser.cpp:469
+#: SensorBrowser.cpp:470
 msgid "Drag sensors to empty cells of a worksheet "
 msgstr ""
 
-#: SensorBrowser.cpp:470
+#: SensorBrowser.cpp:471
 msgid ""
 "The sensor browser lists the connected hosts and the sensors that they "
 "provide. Click and drag sensors into drop zones of a worksheet. A display "
@@ -280,12 +280,12 @@ msgid ""
 "on to the display to add more sensors."
 msgstr ""
 
-#: SensorDisplayLib/DancingBars.cpp:94 SensorDisplayLib/FancyPlotter.cpp:281
+#: SensorDisplayLib/DancingBars.cpp:95 SensorDisplayLib/FancyPlotter.cpp:282
 msgid "OK"
 msgstr ""
 
-#: SensorDisplayLib/DancingBars.cpp:94 SensorDisplayLib/FancyPlotter.cpp:281
-#: SensorDisplayLib/FancyPlotter.cpp:522 SensorDisplayLib/FancyPlotter.cpp:600
+#: SensorDisplayLib/DancingBars.cpp:95 SensorDisplayLib/FancyPlotter.cpp:282
+#: SensorDisplayLib/FancyPlotter.cpp:523 SensorDisplayLib/FancyPlotter.cpp:601
 msgid "Error"
 msgstr "దోషము"
 
@@ -300,7 +300,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
 #: SensorDisplayLib/DancingBarsSettings.cpp:56
 #: SensorDisplayLib/ListViewSettingsWidget.ui:16
-#: SensorDisplayLib/SensorLoggerSettingsWidget.ui:16 WorkSheetSettings.cpp:60
+#: SensorDisplayLib/SensorLoggerSettingsWidget.ui:16 WorkSheetSettings.cpp:61
 msgid "Title"
 msgstr "శీర్షిక"
 
@@ -451,89 +451,89 @@ msgstr ""
 msgid "Enter new label:"
 msgstr ""
 
-#: SensorDisplayLib/DummyDisplay.cpp:30 SensorDisplayLib/DummyDisplay.cpp:38
+#: SensorDisplayLib/DummyDisplay.cpp:31 SensorDisplayLib/DummyDisplay.cpp:39
 msgid "Drop Sensor Here"
 msgstr ""
 
-#: SensorDisplayLib/DummyDisplay.cpp:32
+#: SensorDisplayLib/DummyDisplay.cpp:33
 msgid ""
 "This is an empty space in a worksheet. Drag a sensor from the Sensor Browser "
 "and drop it here. A sensor display will appear that allows you to monitor "
 "the values of the sensor over time."
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:177
+#: SensorDisplayLib/FancyPlotter.cpp:178
 msgctxt "Largest axis title"
 msgid "99999 XXXX"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:518 SensorDisplayLib/FancyPlotter.cpp:589
-#: SensorDisplayLib/FancyPlotter.cpp:652
+#: SensorDisplayLib/FancyPlotter.cpp:519 SensorDisplayLib/FancyPlotter.cpp:590
+#: SensorDisplayLib/FancyPlotter.cpp:653
 #, kde-format
 msgctxt "units"
 msgid "%1%"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:526
+#: SensorDisplayLib/FancyPlotter.cpp:527
 #, kde-format
 msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
 msgid "<p><b>%1:</b><br>"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:597
+#: SensorDisplayLib/FancyPlotter.cpp:598
 #, kde-format
 msgid "%1 of %2%1"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:625
+#: SensorDisplayLib/FancyPlotter.cpp:626
 #, kde-format
 msgctxt "units"
 msgid "%1 TiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:628
+#: SensorDisplayLib/FancyPlotter.cpp:629
 #, kde-format
 msgctxt "units"
 msgid "%1 GiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:631
+#: SensorDisplayLib/FancyPlotter.cpp:632
 #, kde-format
 msgctxt "units"
 msgid "%1 MiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:634
+#: SensorDisplayLib/FancyPlotter.cpp:635
 #, kde-format
 msgctxt "units"
 msgid "%1 KiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:639
+#: SensorDisplayLib/FancyPlotter.cpp:640
 #, kde-format
 msgctxt "units"
 msgid "%1 TiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:642
+#: SensorDisplayLib/FancyPlotter.cpp:643
 #, kde-format
 msgctxt "units"
 msgid "%1 GiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:645
+#: SensorDisplayLib/FancyPlotter.cpp:646
 #, kde-format
 msgctxt "units"
 msgid "%1 MiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:648
+#: SensorDisplayLib/FancyPlotter.cpp:649
 #, kde-format
 msgctxt "units"
 msgid "%1 KiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:654
+#: SensorDisplayLib/FancyPlotter.cpp:655
 #, kde-format
 msgctxt "unitless - just a number"
 msgid "%1"
@@ -666,52 +666,52 @@ msgstr "పైకి కదుపు"
 msgid "Move Down"
 msgstr "క్రిందికి కదుపు"
 
-#: SensorDisplayLib/ListView.cpp:45
+#: SensorDisplayLib/ListView.cpp:46
 #, kde-format
 msgid "%1 K"
 msgstr ""
 
-#: SensorDisplayLib/ListView.cpp:46
+#: SensorDisplayLib/ListView.cpp:47
 #, kde-format
 msgid "%1 M"
 msgstr ""
 
-#: SensorDisplayLib/ListView.cpp:47
+#: SensorDisplayLib/ListView.cpp:48
 #, kde-format
 msgid "%1 G"
 msgstr ""
 
-#: SensorDisplayLib/ListView.cpp:48
+#: SensorDisplayLib/ListView.cpp:49
 #, kde-format
 msgid "%1 T"
 msgstr ""
 
-#: SensorDisplayLib/ListView.cpp:49
+#: SensorDisplayLib/ListView.cpp:50
 #, kde-format
 msgid "%1 P"
 msgstr ""
 
-#: SensorDisplayLib/ListView.cpp:152
+#: SensorDisplayLib/ListView.cpp:153
 msgid "Display Units"
 msgstr ""
 
-#: SensorDisplayLib/ListView.cpp:156
+#: SensorDisplayLib/ListView.cpp:157
 msgid "Mixed"
 msgstr ""
 
-#: SensorDisplayLib/ListView.cpp:162
+#: SensorDisplayLib/ListView.cpp:163
 msgid "Kilobytes"
 msgstr ""
 
-#: SensorDisplayLib/ListView.cpp:168
+#: SensorDisplayLib/ListView.cpp:169
 msgid "Megabytes"
 msgstr ""
 
-#: SensorDisplayLib/ListView.cpp:174
+#: SensorDisplayLib/ListView.cpp:175
 msgid "Gigabytes"
 msgstr ""
 
-#: SensorDisplayLib/ListView.cpp:180
+#: SensorDisplayLib/ListView.cpp:181
 msgid "Terabytes"
 msgstr ""
 
@@ -832,17 +832,17 @@ msgstr ""
 msgid "Alarm digit color:"
 msgstr ""
 
-#: SensorDisplayLib/SensorDisplay.cpp:116
+#: SensorDisplayLib/SensorDisplay.cpp:118
 #: SensorDisplayLib/SensorLogger.cpp:598
 msgid "&Properties"
 msgstr "(&P) గుణములు"
 
-#: SensorDisplayLib/SensorDisplay.cpp:121
+#: SensorDisplayLib/SensorDisplay.cpp:123
 #: SensorDisplayLib/SensorLogger.cpp:603
 msgid "&Remove Display"
 msgstr ""
 
-#: SensorDisplayLib/SensorDisplay.cpp:188
+#: SensorDisplayLib/SensorDisplay.cpp:190
 #, kde-format
 msgid ""
 "<qt><p>This is a sensor display. To customize a sensor display click the "
@@ -912,7 +912,7 @@ msgstr ""
 
 #. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
 #: SensorDisplayLib/SensorLoggerDlgWidget.ui:49 TimerSettings.cpp:57
-#: WorkSheetSettings.cpp:104
+#: WorkSheetSettings.cpp:105
 msgid " sec"
 msgstr " సెకను"
 
@@ -993,138 +993,138 @@ msgstr ""
 msgid "Use update interval of worksheet"
 msgstr ""
 
-#: TimerSettings.cpp:50 WorkSheetSettings.cpp:100
+#: TimerSettings.cpp:50 WorkSheetSettings.cpp:101
 msgid "Update interval:"
 msgstr ""
 
-#: TimerSettings.cpp:60 WorkSheetSettings.cpp:110
+#: TimerSettings.cpp:60 WorkSheetSettings.cpp:111
 msgid "All displays of the sheet are updated at the rate specified here."
 msgstr ""
 
-#: WorkSheet.cpp:83
+#: WorkSheet.cpp:84
 #, kde-format
 msgid "Cannot open the file %1."
 msgstr ""
 
-#: WorkSheet.cpp:91
+#: WorkSheet.cpp:92
 #, kde-format
 msgid "The file %1 does not contain valid XML."
 msgstr ""
 
-#: WorkSheet.cpp:98
+#: WorkSheet.cpp:99
 #, kde-format
 msgid ""
 "The file %1 does not contain a valid worksheet definition, which must have a "
 "document type 'KSysGuardWorkSheet'."
 msgstr ""
 
-#: WorkSheet.cpp:110
+#: WorkSheet.cpp:111
 #, kde-format
 msgid "The file %1 has an invalid worksheet size."
 msgstr ""
 
-#: WorkSheet.cpp:231
+#: WorkSheet.cpp:232
 #, kde-format
 msgid "Cannot save file %1"
 msgstr ""
 
-#: WorkSheet.cpp:277
+#: WorkSheet.cpp:278
 msgid "The clipboard does not contain a valid display description."
 msgstr ""
 
-#: WorkSheet.cpp:377
+#: WorkSheet.cpp:378
 msgid "Select Display Type"
 msgstr ""
 
-#: WorkSheet.cpp:378
+#: WorkSheet.cpp:379
 msgid "&Line graph"
 msgstr ""
 
-#: WorkSheet.cpp:379
+#: WorkSheet.cpp:380
 msgid "&Digital display"
 msgstr ""
 
-#: WorkSheet.cpp:380
+#: WorkSheet.cpp:381
 msgid "&Bar graph"
 msgstr ""
 
-#: WorkSheet.cpp:381
+#: WorkSheet.cpp:382
 msgid "Log to a &file"
 msgstr ""
 
-#: WorkSheet.cpp:537
+#: WorkSheet.cpp:538
 msgid "Remove this display?"
 msgstr ""
 
-#: WorkSheet.cpp:538
+#: WorkSheet.cpp:539
 msgid "Remove Display"
 msgstr ""
 
-#: WorkSheet.cpp:579
+#: WorkSheet.cpp:580
 msgid "Dummy"
 msgstr ""
 
-#: WorkSheetSettings.cpp:42
+#: WorkSheetSettings.cpp:43
 msgid "Tab Properties"
 msgstr ""
 
-#: WorkSheetSettings.cpp:71
+#: WorkSheetSettings.cpp:72
 msgid "Properties"
 msgstr "గుణాలు"
 
-#: WorkSheetSettings.cpp:80
+#: WorkSheetSettings.cpp:81
 msgid "Rows:"
 msgstr ""
 
-#: WorkSheetSettings.cpp:89
+#: WorkSheetSettings.cpp:90
 msgid "Columns:"
 msgstr ""
 
-#: WorkSheetSettings.cpp:97
+#: WorkSheetSettings.cpp:98
 msgid "Enter the number of rows the sheet should have."
 msgstr ""
 
-#: WorkSheetSettings.cpp:98
+#: WorkSheetSettings.cpp:99
 msgid "Enter the number of columns the sheet should have."
 msgstr ""
 
-#: WorkSheetSettings.cpp:111
+#: WorkSheetSettings.cpp:112
 msgid "Enter the title of the worksheet here."
 msgstr ""
 
-#: Workspace.cpp:114
+#: Workspace.cpp:116
 #, kde-format
 msgid "Sheet %1"
 msgstr ""
 
-#: Workspace.cpp:173
+#: Workspace.cpp:175
 #, kde-format
 msgid ""
 "The tab '%1' contains unsaved data.\n"
 "Do you want to save the tab?"
 msgstr ""
 
-#: Workspace.cpp:188
+#: Workspace.cpp:190
 msgid "*.sgrd|Sensor Files (*.sgrd)"
 msgstr ""
 
-#: Workspace.cpp:188
+#: Workspace.cpp:190
 msgid "Select Tab File to Import"
 msgstr ""
 
-#: Workspace.cpp:216 Workspace.cpp:237
+#: Workspace.cpp:218 Workspace.cpp:239
 msgid "You do not have a tab that could be saved."
 msgstr ""
 
-#: Workspace.cpp:244
+#: Workspace.cpp:246
 msgid "Export Tab"
 msgstr ""
 
-#: Workspace.cpp:262
+#: Workspace.cpp:264
 msgid "There are no tabs that could be deleted."
 msgstr ""
 
-#: Workspace.cpp:302
+#: Workspace.cpp:304
 #, kde-format
 msgid ""
 "<qt>To propose the current custom tab as a new System Monitor tab, email "
@@ -1133,7 +1133,7 @@ msgid ""
 "qt>"
 msgstr ""
 
-#: Workspace.cpp:302
+#: Workspace.cpp:304
 #, fuzzy
 #| msgid "System Monitor"
 msgid "Upload custom System Monitor tab"
