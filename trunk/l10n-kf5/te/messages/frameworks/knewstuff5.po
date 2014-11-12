@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-23 08:00+0000\n"
+"POT-Creation-Date: 2014-11-12 07:56+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -101,25 +101,25 @@ msgstr "దస్త్రం నుండి వేడిగా కొత్త
 msgid "Error initializing provider."
 msgstr "సరఫరా సంసిద్ధసు లోపం."
 
-#: core/engine.cpp:212 core/engine.cpp:527
+#: core/engine.cpp:212 core/engine.cpp:529
 msgid "Loading data"
 msgstr "సమాచారం  ఎక్కుతోం"
 
-#: core/engine.cpp:240
+#: core/engine.cpp:242
 msgid "Loading data from provider"
 msgstr "దత్తాంశం నుండి సరఫరా లొడింగ్"
 
-#: core/engine.cpp:245
+#: core/engine.cpp:247
 #, kde-format
 msgid "Loading of providers from file: %1 failed"
 msgstr "దస్త్రం యోక్క సరఫరాదారులు నుండి  లోడింగ్ : %1 విఫలమైంది"
 
-#: core/engine.cpp:487
+#: core/engine.cpp:489
 #, kde-format
 msgid "Re: %1"
 msgstr "పునరాచరణ: %1"
 
-#: core/engine.cpp:529
+#: core/engine.cpp:531
 #, kde-format
 msgid "Loading one preview"
 msgid_plural "Loading %1 previews"
@@ -129,7 +129,7 @@ msgstr[2] "%1 వీక్షణలు లోడుచేస్తోంది"
 msgstr[3] "%1 వీక్షణలు లోడుచేస్తోంది"
 msgstr[4] "%1 వీక్షణలు లోడుచేస్తోంది"
 
-#: core/engine.cpp:531 ui/itemsgridviewdelegate.cpp:334
+#: core/engine.cpp:533 ui/itemsgridviewdelegate.cpp:334
 #: ui/itemsviewdelegate.cpp:128
 msgid "Installing"
 msgstr "నెలకొల్పుతుం"
@@ -446,85 +446,85 @@ msgstr "తాజాపరు"
 msgid "Install Again"
 msgstr "మళ్ళీ స్థాపించు"
 
-#: uploaddialog.cpp:63
+#: uploaddialog.cpp:66
 msgctxt "Opposite to Back"
 msgid "Next"
 msgstr "తరువాత"
 
-#: uploaddialog.cpp:68
+#: uploaddialog.cpp:71
 msgid "Finish"
 msgstr "ముగింపు"
 
-#: uploaddialog.cpp:174
+#: uploaddialog.cpp:177
 #, fuzzy
 #| msgid "Provider information"
 msgid "Fetching provider information..."
 msgstr "సిద్దంచేసేవారి సమాచారం"
 
-#: uploaddialog.cpp:181
+#: uploaddialog.cpp:184
 msgid "Fetching license data from server..."
 msgstr "సర్వర్ నుండి అనుజ్ఞాపత్రము దత్తాంశం తేలుసుకొండి  "
 
-#: uploaddialog.cpp:188
+#: uploaddialog.cpp:191
 msgid "Fetching content data from server..."
 msgstr "సర్వర్ నుండి విశయ్య దత్తాంశం తేలుసుకొండి..."
 
-#: uploaddialog.cpp:263
+#: uploaddialog.cpp:266
 #, fuzzy
 #| msgid "Provider information"
 msgid "Could not fetch provider information."
 msgstr "సిద్దంచేసేవారి సమాచారం"
 
-#: uploaddialog.cpp:287
+#: uploaddialog.cpp:290
 msgid "Register a new account"
 msgstr "ఒక కొత్త ఖాతా నమోదు చేసుకొం"
 
-#: uploaddialog.cpp:311
+#: uploaddialog.cpp:314
 msgid "Checking login..."
 msgstr "లాగిన్ సరిచూచు ..."
 
-#: uploaddialog.cpp:333
+#: uploaddialog.cpp:336
 msgid "Fetching your previously updated content..."
 msgstr "ముందస్తు  తాజాపరిచిన   సమాచారాన్ని   బయటకుతీస్తుం"
 
-#: uploaddialog.cpp:336
+#: uploaddialog.cpp:339
 msgid "Could not verify login, please try again."
 msgstr "లాగిన్  పరిక్షించడం కుదరదు ,మళ్ళి ప్రయత్నించం"
 
-#: uploaddialog.cpp:355
+#: uploaddialog.cpp:358
 msgid "Fetching your previously updated content finished."
 msgstr "మీరు మునుపటిలో నవీకరించబడింది విషయాన్ని తెలుసుకొడం ముగిసింసది."
 
-#: uploaddialog.cpp:373
+#: uploaddialog.cpp:376
 msgid "Fetching content data from server finished."
 msgstr "సర్వర్ నుండి విషయ దత్తాంశం తెలుసుకోడం ముగిసింది. "
 
-#: uploaddialog.cpp:396 uploaddialog.cpp:835
+#: uploaddialog.cpp:399 uploaddialog.cpp:838
 msgctxt "A link to the website where the get hot new stuff upload can be seen"
 msgid "Visit website"
 msgstr "వెబ్ సైట్ సందర్శించండి"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, UploadDialog)
-#: uploaddialog.cpp:442 uploaddialog.ui:14
+#: uploaddialog.cpp:445 uploaddialog.ui:14
 msgid "Share Hot New Stuff"
 msgstr "కొత్తవాటిని పంచుకో"
 
-#: uploaddialog.cpp:465
+#: uploaddialog.cpp:468
 #, kde-format
 msgctxt "Program name followed by 'Add On Uploader'"
 msgid "%1 Add-On Uploader"
 msgstr "%1 యాడ్-ఆన్  సంస్థాపకి"
 
-#: uploaddialog.cpp:485 uploaddialog.cpp:760
+#: uploaddialog.cpp:488 uploaddialog.cpp:763
 #, kde-format
 msgid "File not found: %1"
 msgstr "దస్త్రం కనపడలేదు : %1"
 
-#: uploaddialog.cpp:485 uploaddialog.cpp:611 uploaddialog.cpp:760
+#: uploaddialog.cpp:488 uploaddialog.cpp:614 uploaddialog.cpp:763
 msgid "Upload Failed"
 msgstr "ఎక్కించుట విఫలం అయిం"
 
-#: uploaddialog.cpp:565
+#: uploaddialog.cpp:568
 #, kde-format
 msgid ""
 "The server does not recognize the category %2 to which you are trying to "
@@ -538,32 +538,32 @@ msgstr[2] "%2 ఏ అప్లోడ్ ఐతే మీరు ప్రయత�
 msgstr[3] "%2 ఏ అప్లోడ్ ఐతే మీరు ప్రయత్నిస్తున్నారో అ సర్వర్ ఏ యొక్క వర్గం గుర్తించడం లేదు. "
 msgstr[4] "%2 ఏ అప్లోడ్ ఐతే మీరు ప్రయత్నిస్తున్నారో అ సర్వర్ ఏ యొక్క వర్గం గుర్తించడం లేదు. "
 
-#: uploaddialog.cpp:568
+#: uploaddialog.cpp:571
 msgid "Error"
 msgstr "దోషం"
 
-#: uploaddialog.cpp:611
+#: uploaddialog.cpp:614
 #, kde-format
 msgid "The selected category \"%1\" is invalid."
 msgstr "ఎంచుకున్న వర్గం \"%1\" చెల్లదు."
 
-#: uploaddialog.cpp:660 uploaddialog.cpp:675 uploaddialog.cpp:689
+#: uploaddialog.cpp:663 uploaddialog.cpp:678 uploaddialog.cpp:692
 msgid "Select preview image"
 msgstr "ఉపదర్సన చిత్రాన్ని ఎంచుకొం"
 
-#: uploaddialog.cpp:704
+#: uploaddialog.cpp:707
 msgid "There was a network error."
 msgstr "ఒక నెట్వర్క్  లోపం ఏర్పడింది."
 
-#: uploaddialog.cpp:704 uploaddialog.cpp:709
+#: uploaddialog.cpp:707 uploaddialog.cpp:712
 msgid "Uploading Failed"
 msgstr "ఎక్కించుట విఫలం అయింది "
 
-#: uploaddialog.cpp:709
+#: uploaddialog.cpp:712
 msgid "Authentication error."
 msgstr "ప్రామాణీకరణ  దోషము"
 
-#: uploaddialog.cpp:719
+#: uploaddialog.cpp:722
 #, kde-format
 msgid "Upload failed: %1"
 msgstr "ఎక్కించుట విఫలం :%1"
