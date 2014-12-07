@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-09 07:59+0000\n"
+"POT-Creation-Date: 2014-12-07 07:50+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -28,53 +28,53 @@ msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 
 #. i18n: ectx: attribute (title), widget (QWidget, pageColors)
-#: colorscm.cpp:83 colorsettings.ui:267
+#: colorscm.cpp:84 colorsettings.ui:267
 msgid "Colors"
 msgstr "రంగులు"
 
-#: colorscm.cpp:85
+#: colorscm.cpp:86
 msgid "(c) 2007 Matthew Woehlke"
 msgstr "(c) 2007 మాథ్యూ వోయెల్కె"
 
-#: colorscm.cpp:87
+#: colorscm.cpp:88
 msgid "Matthew Woehlke"
 msgstr "మాథ్యు వొయెహ్కే"
 
-#: colorscm.cpp:89
+#: colorscm.cpp:90
 msgid "Jeremy Whiting"
 msgstr "జెర్మీ వైటింగ్"
 
-#: colorscm.cpp:140 colorscm.cpp:268 colorscm.cpp:1274
+#: colorscm.cpp:159 colorscm.cpp:287 colorscm.cpp:1305
 msgctxt "Default color scheme"
 msgid "Default"
 msgstr "అప్రమెయం"
 
-#: colorscm.cpp:145 colorscm.cpp:280 colorscm.cpp:1098 colorscm.cpp:1184
+#: colorscm.cpp:164 colorscm.cpp:299 colorscm.cpp:1123 colorscm.cpp:1209
 msgctxt "Current color scheme"
 msgid "Current"
 msgstr "ప్రస్తుత"
 
-#: colorscm.cpp:252
+#: colorscm.cpp:271
 msgid "Selecting another scheme will discard any changes you have made"
 msgstr "వేరే స్కీము యెంచుకొనుట మీరు చేసిన మార్పులను తీసివేస్తుంది"
 
-#: colorscm.cpp:253
+#: colorscm.cpp:272
 msgid "Are you sure?"
 msgstr "మీరూ ఖచ్చితంగా చేయాలా?"
 
-#: colorscm.cpp:319
+#: colorscm.cpp:340
 msgid "You do not have permission to delete that scheme"
 msgstr "ఈ స్కీమాను తొలగించుటకు మీకు అనుమతి లేదు"
 
-#: colorscm.cpp:319 colorscm.cpp:535
+#: colorscm.cpp:340 colorscm.cpp:560
 msgid "Error"
 msgstr "దోషము"
 
-#: colorscm.cpp:327
+#: colorscm.cpp:348
 msgid "Import Color Scheme"
 msgstr "రంగు స్కీమాను దిగుమతిచేయుము"
 
-#: colorscm.cpp:340
+#: colorscm.cpp:361
 msgid ""
 "The scheme you have selected appears to be a KDE3 scheme.\n"
 "\n"
@@ -84,29 +84,29 @@ msgid ""
 "This scheme will not be saved automatically."
 msgstr ""
 
-#: colorscm.cpp:344
+#: colorscm.cpp:365
 #, fuzzy
 #| msgid "None"
 msgid "Notice"
 msgstr "ఏదీకాదు"
 
-#: colorscm.cpp:416
+#: colorscm.cpp:438
 msgid "Please save the color scheme before uploading it."
 msgstr ""
 
-#: colorscm.cpp:417
+#: colorscm.cpp:439
 msgid "Please save"
 msgstr ""
 
-#: colorscm.cpp:447 colorscm.cpp:478
+#: colorscm.cpp:469 colorscm.cpp:500
 msgid "Save Color Scheme"
 msgstr "రంగు స్కీమాను దాయుము"
 
-#: colorscm.cpp:448
+#: colorscm.cpp:470
 msgid "&Enter a name for the color scheme:"
 msgstr "(&E) రంగు స్కీమాకు పేరును ప్రవేశపెట్టుము:"
 
-#: colorscm.cpp:477
+#: colorscm.cpp:499
 msgid ""
 "A color scheme with that name already exists.\n"
 "Do you want to overwrite it?"
@@ -114,68 +114,68 @@ msgstr ""
 "ఆ పేరుతో వొక రంగు స్కీమా యిప్పటికే వుంది.\n"
 "మీరు దానిని వోవర్‌రైట్ చేద్దామనుకొనుచున్నారా?"
 
-#: colorscm.cpp:535
+#: colorscm.cpp:560
 msgid "You do not have permission to overwrite that scheme"
 msgstr "ఆ స్కీమాను వోవర్‌రైట్ చేయుటకు మీరు అనుమతిని కలిగిలేరు"
 
-#: colorscm.cpp:738 colorscm.cpp:754
+#: colorscm.cpp:763 colorscm.cpp:779
 msgid "Varies"
 msgstr "వేరీస్"
 
-#: colorscm.cpp:779
+#: colorscm.cpp:804
 msgid "Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
-#: colorscm.cpp:780
+#: colorscm.cpp:805
 msgid "Alternate Background"
 msgstr "ప్రత్యామ్నాయ బ్యాక్‌గ్రౌండ్"
 
-#: colorscm.cpp:781
+#: colorscm.cpp:806
 msgid "Normal Text"
 msgstr "సాదారణ వచనము"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:782 colorsettings.ui:540
+#: colorscm.cpp:807 colorsettings.ui:540
 msgid "Inactive Text"
 msgstr "క్రియాహీన వచనము"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:783 colorsettings.ui:545
+#: colorscm.cpp:808 colorsettings.ui:545
 msgid "Active Text"
 msgstr "క్రియాశీల వచనము"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:784 colorsettings.ui:550
+#: colorscm.cpp:809 colorsettings.ui:550
 msgid "Link Text"
 msgstr "లింకు వచనము"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:785 colorsettings.ui:555
+#: colorscm.cpp:810 colorsettings.ui:555
 msgid "Visited Text"
 msgstr "వీక్షించిన వచనము"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:786 colorsettings.ui:560
+#: colorscm.cpp:811 colorsettings.ui:560
 msgid "Negative Text"
 msgstr "నెగటివ్ వచనము"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:787 colorsettings.ui:565
+#: colorscm.cpp:812 colorsettings.ui:565
 msgid "Neutral Text"
 msgstr "న్యూట్రల్ వచనము"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:788 colorsettings.ui:570
+#: colorscm.cpp:813 colorsettings.ui:570
 msgid "Positive Text"
 msgstr "పోజిటివ్ వచనము"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:789 colorsettings.ui:575
+#: colorscm.cpp:814 colorsettings.ui:575
 msgid "Focus Decoration"
 msgstr "ఫోకస్ అలంకరణ"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:790 colorsettings.ui:580
+#: colorscm.cpp:815 colorsettings.ui:580
 msgid "Hover Decoration"
 msgstr "హోవర్ అలంకరణ"
 
