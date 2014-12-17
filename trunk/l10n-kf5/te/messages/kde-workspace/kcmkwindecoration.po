@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwindecoration\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-12-11 07:49+0000\n"
+"POT-Creation-Date: 2014-12-17 07:47+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -18,6 +18,48 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
+
+#: declarative-plugin/buttonsmodel.cpp:67
+msgid "Menu"
+msgstr "మెనూ"
+
+#: declarative-plugin/buttonsmodel.cpp:69
+msgid "Application menu"
+msgstr ""
+
+#: declarative-plugin/buttonsmodel.cpp:71
+#, fuzzy
+#| msgid "On All Desktops"
+msgid "On all desktops"
+msgstr "అన్ని రంగస్థలముల పైనా"
+
+#: declarative-plugin/buttonsmodel.cpp:73
+msgid "Minimize"
+msgstr "చిన్నదిచేయి"
+
+#: declarative-plugin/buttonsmodel.cpp:75
+msgid "Maximize"
+msgstr "పెద్దదిచేయి"
+
+#: declarative-plugin/buttonsmodel.cpp:77
+msgid "Close"
+msgstr "మూయి"
+
+#: declarative-plugin/buttonsmodel.cpp:79
+msgid "Context help"
+msgstr ""
+
+#: declarative-plugin/buttonsmodel.cpp:81
+msgid "Shade"
+msgstr "ఛాయ(షేడ్)"
+
+#: declarative-plugin/buttonsmodel.cpp:83
+msgid "Keep below"
+msgstr ""
+
+#: declarative-plugin/buttonsmodel.cpp:85
+msgid "Keep above"
+msgstr ""
 
 #: kcm.cpp:98
 msgid ""
@@ -119,6 +161,14 @@ msgstr "మించినపరిమాణము"
 msgid "Close windows by double clicking &the menu button:"
 msgstr ""
 
+#: qml/Buttons.qml:54
+msgid "Drag to re-position buttons"
+msgstr ""
+
+#: qml/Buttons.qml:172
+msgid "Drop here to remove button"
+msgstr ""
+
 #, fuzzy
 #~| msgid "Normal"
 #~ msgid "Form"
@@ -185,23 +235,8 @@ msgstr ""
 #~ msgid "Resize"
 #~ msgstr "పునఃపరిమాణము"
 
-#~ msgid "Shade"
-#~ msgstr "ఛాయ(షేడ్)"
-
-#~ msgid "Close"
-#~ msgstr "మూయి"
-
-#~ msgid "Maximize"
-#~ msgstr "పెద్దదిచేయి"
-
-#~ msgid "Minimize"
-#~ msgstr "చిన్నదిచేయి"
-
 #~ msgid "Help"
 #~ msgstr "సహాయం"
-
-#~ msgid "On All Desktops"
-#~ msgstr "అన్ని రంగస్థలముల పైనా"
 
 #~ msgid "&Show window button tooltips"
 #~ msgstr "(&S) విండో బటన్ పనిముట్టుచిట్కాలను చూపుము"
@@ -251,9 +286,6 @@ msgstr ""
 
 #~ msgid "kcmkwindecoration"
 #~ msgstr "kcmkwindecoration"
-
-#~ msgid "Menu"
-#~ msgstr "మెనూ"
 
 #~ msgid "&Buttons"
 #~ msgstr "(&B) బటన్స్"
