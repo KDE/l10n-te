@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-09-27 09:15+0000\n"
+"POT-Creation-Date: 2014-12-10 07:48+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -46,8 +46,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: actionsconfig.ui:38
 #, fuzzy
-#| msgctxt "Actions Config"
-#| msgid "Actions"
 msgid "Action list:"
 msgstr "చర్యలు"
 
@@ -64,16 +62,12 @@ msgstr "వర్ణన"
 #. i18n: ectx: property (text), widget (QPushButton, pbAddAction)
 #: actionsconfig.ui:64
 #, fuzzy
-#| msgctxt "Actions Config"
-#| msgid "Actions"
 msgid "Add Action..."
 msgstr "చర్యలు"
 
 #. i18n: ectx: property (text), widget (QPushButton, pbEditAction)
 #: actionsconfig.ui:71
 #, fuzzy
-#| msgctxt "Actions Config"
-#| msgid "Actions"
 msgid "Edit Action..."
 msgstr "చర్యలు"
 
@@ -85,7 +79,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, pbAdvanced)
 #: actionsconfig.ui:85
 #, fuzzy
-#| msgid "Advanced"
 msgid "Advanced..."
 msgstr "ఆధునాతన"
 
@@ -101,7 +94,6 @@ msgstr ""
 
 #: configdialog.cpp:37
 #, fuzzy
-#| msgid " sec"
 msgid " second"
 msgid_plural " seconds"
 msgstr[0] " సెకను"
@@ -119,42 +111,42 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: configdialog.cpp:264
+#: configdialog.cpp:263
 msgid "Advanced Settings"
 msgstr ""
 
-#: configdialog.cpp:288
+#: configdialog.cpp:287
 msgctxt "General Config"
 msgid "General"
 msgstr "సాధారణ"
 
-#: configdialog.cpp:288
+#: configdialog.cpp:287
 msgid "General Configuration"
 msgstr ""
 
-#: configdialog.cpp:289
+#: configdialog.cpp:288
 msgctxt "Actions Config"
 msgid "Actions"
 msgstr "చర్యలు"
 
-#: configdialog.cpp:289
+#: configdialog.cpp:288
 msgid "Actions Configuration"
 msgstr ""
 
-#: configdialog.cpp:293
+#: configdialog.cpp:292
 msgctxt "Shortcuts Config"
 msgid "Shortcuts"
 msgstr ""
 
-#: configdialog.cpp:293
+#: configdialog.cpp:292
 msgid "Shortcuts Configuration"
 msgstr ""
 
-#: configdialog.cpp:383
+#: configdialog.cpp:382
 msgid "D&isable Actions for Windows of Type WM_CLASS"
 msgstr ""
 
-#: configdialog.cpp:391
+#: configdialog.cpp:390
 msgid ""
 "<qt>This lets you specify windows in which Klipper should not invoke "
 "\"actions\". Use<br /><br /><center><b>xprop | grep WM_CLASS</b></"
@@ -193,29 +185,24 @@ msgstr ""
 
 #: editactiondialog.cpp:374
 #, fuzzy
-#| msgid "Description"
 msgid "Command Description"
 msgstr "వర్ణన"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: editactiondialog.ui:20
 #, fuzzy
-#| msgctxt "Actions Config"
-#| msgid "Actions"
 msgid "Action properties:"
 msgstr "చర్యలు"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: editactiondialog.ui:42
 #, fuzzy
-#| msgid "Regular Expression"
 msgid "Regular expression:"
 msgstr "సాదారణ సమీకరణము"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: editactiondialog.ui:52
 #, fuzzy
-#| msgid "Description"
 msgid "Description:"
 msgstr "వర్ణన"
 
@@ -354,42 +341,41 @@ msgstr "ప్రారంభించు"
 msgid "Do Not Start"
 msgstr ""
 
-#: klipper.cpp:862
+#: klipper.cpp:856
 msgid "Edit Contents"
 msgstr ""
 
-#: klipper.cpp:909
+#: klipper.cpp:903
 msgid "Mobile Barcode"
 msgstr ""
 
-#: klipper.cpp:947
+#: klipper.cpp:941
 msgid "Really delete entire clipboard history?"
 msgstr ""
 
-#: klipper.cpp:948
+#: klipper.cpp:942
 msgid "Delete clipboard history?"
 msgstr ""
 
-#: klipper.cpp:966 klipper.cpp:975
+#: klipper.cpp:960 klipper.cpp:969
 msgid "Clipboard history"
 msgstr ""
 
-#: klipper.cpp:992
+#: klipper.cpp:986
 msgid "up"
 msgstr ""
 
-#: klipper.cpp:999
+#: klipper.cpp:993
 msgid "current"
 msgstr ""
 
-#: klipper.cpp:1006
+#: klipper.cpp:1000
 msgid "down"
 msgstr ""
 
 #. i18n: ectx: label, entry (Version), group (General)
 #: klipper.kcfg:9
 #, fuzzy
-#| msgid "Klipper"
 msgid "Klipper version"
 msgstr "క్లిప్పర్"
 
@@ -574,7 +560,6 @@ msgstr ""
 
 #: main.cpp:65
 #, fuzzy
-#| msgid "Maintainer"
 msgid "Previous Maintainer"
 msgstr "సంరక్షకుడు"
 
@@ -586,7 +571,7 @@ msgstr ""
 msgid "Maintainer"
 msgstr "సంరక్షకుడు"
 
-#: popupproxy.cpp:169
+#: popupproxy.cpp:168
 msgid "&More"
 msgstr ""
 
@@ -598,15 +583,15 @@ msgstr ""
 msgid "Clipboard is empty"
 msgstr ""
 
-#: urlgrabber.cpp:219
+#: urlgrabber.cpp:218
 #, kde-format
 msgid "%1 - Actions For: %2"
 msgstr ""
 
-#: urlgrabber.cpp:247
+#: urlgrabber.cpp:246
 msgid "Disable This Popup"
 msgstr ""
 
-#: urlgrabber.cpp:253
+#: urlgrabber.cpp:252
 msgid "&Cancel"
 msgstr ""

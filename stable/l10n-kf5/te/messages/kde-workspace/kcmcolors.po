@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-25 09:25+0000\n"
+"POT-Creation-Date: 2014-12-07 07:50+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -28,53 +28,53 @@ msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 
 #. i18n: ectx: attribute (title), widget (QWidget, pageColors)
-#: colorscm.cpp:83 colorsettings.ui:267
+#: colorscm.cpp:84 colorsettings.ui:267
 msgid "Colors"
 msgstr "రంగులు"
 
-#: colorscm.cpp:85
+#: colorscm.cpp:86
 msgid "(c) 2007 Matthew Woehlke"
 msgstr "(c) 2007 మాథ్యూ వోయెల్కె"
 
-#: colorscm.cpp:87
+#: colorscm.cpp:88
 msgid "Matthew Woehlke"
 msgstr "మాథ్యు వొయెహ్కే"
 
-#: colorscm.cpp:89
+#: colorscm.cpp:90
 msgid "Jeremy Whiting"
 msgstr "జెర్మీ వైటింగ్"
 
-#: colorscm.cpp:140 colorscm.cpp:268 colorscm.cpp:1274
+#: colorscm.cpp:159 colorscm.cpp:287 colorscm.cpp:1305
 msgctxt "Default color scheme"
 msgid "Default"
 msgstr "అప్రమెయం"
 
-#: colorscm.cpp:145 colorscm.cpp:280 colorscm.cpp:1098 colorscm.cpp:1184
+#: colorscm.cpp:164 colorscm.cpp:299 colorscm.cpp:1123 colorscm.cpp:1209
 msgctxt "Current color scheme"
 msgid "Current"
 msgstr "ప్రస్తుత"
 
-#: colorscm.cpp:252
+#: colorscm.cpp:271
 msgid "Selecting another scheme will discard any changes you have made"
 msgstr "వేరే స్కీము యెంచుకొనుట మీరు చేసిన మార్పులను తీసివేస్తుంది"
 
-#: colorscm.cpp:253
+#: colorscm.cpp:272
 msgid "Are you sure?"
 msgstr "మీరూ ఖచ్చితంగా చేయాలా?"
 
-#: colorscm.cpp:319
+#: colorscm.cpp:340
 msgid "You do not have permission to delete that scheme"
 msgstr "ఈ స్కీమాను తొలగించుటకు మీకు అనుమతి లేదు"
 
-#: colorscm.cpp:319 colorscm.cpp:535
+#: colorscm.cpp:340 colorscm.cpp:560
 msgid "Error"
 msgstr "దోషము"
 
-#: colorscm.cpp:327
+#: colorscm.cpp:348
 msgid "Import Color Scheme"
 msgstr "రంగు స్కీమాను దిగుమతిచేయుము"
 
-#: colorscm.cpp:340
+#: colorscm.cpp:361
 msgid ""
 "The scheme you have selected appears to be a KDE3 scheme.\n"
 "\n"
@@ -84,29 +84,28 @@ msgid ""
 "This scheme will not be saved automatically."
 msgstr ""
 
-#: colorscm.cpp:344
+#: colorscm.cpp:365
 #, fuzzy
-#| msgid "None"
 msgid "Notice"
 msgstr "ఏదీకాదు"
 
-#: colorscm.cpp:416
+#: colorscm.cpp:438
 msgid "Please save the color scheme before uploading it."
 msgstr ""
 
-#: colorscm.cpp:417
+#: colorscm.cpp:439
 msgid "Please save"
 msgstr ""
 
-#: colorscm.cpp:447 colorscm.cpp:478
+#: colorscm.cpp:469 colorscm.cpp:500
 msgid "Save Color Scheme"
 msgstr "రంగు స్కీమాను దాయుము"
 
-#: colorscm.cpp:448
+#: colorscm.cpp:470
 msgid "&Enter a name for the color scheme:"
 msgstr "(&E) రంగు స్కీమాకు పేరును ప్రవేశపెట్టుము:"
 
-#: colorscm.cpp:477
+#: colorscm.cpp:499
 msgid ""
 "A color scheme with that name already exists.\n"
 "Do you want to overwrite it?"
@@ -114,68 +113,68 @@ msgstr ""
 "ఆ పేరుతో వొక రంగు స్కీమా యిప్పటికే వుంది.\n"
 "మీరు దానిని వోవర్‌రైట్ చేద్దామనుకొనుచున్నారా?"
 
-#: colorscm.cpp:535
+#: colorscm.cpp:560
 msgid "You do not have permission to overwrite that scheme"
 msgstr "ఆ స్కీమాను వోవర్‌రైట్ చేయుటకు మీరు అనుమతిని కలిగిలేరు"
 
-#: colorscm.cpp:738 colorscm.cpp:754
+#: colorscm.cpp:763 colorscm.cpp:779
 msgid "Varies"
 msgstr "వేరీస్"
 
-#: colorscm.cpp:779
+#: colorscm.cpp:804
 msgid "Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
-#: colorscm.cpp:780
+#: colorscm.cpp:805
 msgid "Alternate Background"
 msgstr "ప్రత్యామ్నాయ బ్యాక్‌గ్రౌండ్"
 
-#: colorscm.cpp:781
+#: colorscm.cpp:806
 msgid "Normal Text"
 msgstr "సాదారణ వచనము"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:782 colorsettings.ui:540
+#: colorscm.cpp:807 colorsettings.ui:540
 msgid "Inactive Text"
 msgstr "క్రియాహీన వచనము"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:783 colorsettings.ui:545
+#: colorscm.cpp:808 colorsettings.ui:545
 msgid "Active Text"
 msgstr "క్రియాశీల వచనము"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:784 colorsettings.ui:550
+#: colorscm.cpp:809 colorsettings.ui:550
 msgid "Link Text"
 msgstr "లింకు వచనము"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:785 colorsettings.ui:555
+#: colorscm.cpp:810 colorsettings.ui:555
 msgid "Visited Text"
 msgstr "వీక్షించిన వచనము"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:786 colorsettings.ui:560
+#: colorscm.cpp:811 colorsettings.ui:560
 msgid "Negative Text"
 msgstr "నెగటివ్ వచనము"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:787 colorsettings.ui:565
+#: colorscm.cpp:812 colorsettings.ui:565
 msgid "Neutral Text"
 msgstr "న్యూట్రల్ వచనము"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:788 colorsettings.ui:570
+#: colorscm.cpp:813 colorsettings.ui:570
 msgid "Positive Text"
 msgstr "పోజిటివ్ వచనము"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:789 colorsettings.ui:575
+#: colorscm.cpp:814 colorsettings.ui:575
 msgid "Focus Decoration"
 msgstr "ఫోకస్ అలంకరణ"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:790 colorsettings.ui:580
+#: colorscm.cpp:815 colorsettings.ui:580
 msgid "Hover Decoration"
 msgstr "హోవర్ అలంకరణ"
 
@@ -184,56 +183,54 @@ msgstr "హోవర్ అలంకరణ"
 msgid "&Scheme"
 msgstr "(&S) స్కీమా"
 
-#. i18n: ectx: property (toolTip), widget (KPushButton, schemeKnsButton)
+#. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsButton)
 #: colorsettings.ui:48
 msgid "Get new color schemes from the Internet"
 msgstr "ఇంటర్నెట్ నుండి కొత్త రంగు స్కీమాలను పొందుము"
 
-#. i18n: ectx: property (text), widget (KPushButton, schemeKnsButton)
+#. i18n: ectx: property (text), widget (QPushButton, schemeKnsButton)
 #: colorsettings.ui:51
 msgid "Get &New Schemes..."
 msgstr "(&N) కొత్త స్కీమాలను పొందుము..."
 
-#. i18n: ectx: property (toolTip), widget (KPushButton, schemeKnsUploadButton)
+#. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsUploadButton)
 #: colorsettings.ui:61
 #, fuzzy
-#| msgid "Get new color schemes from the Internet"
 msgid "Share the selected scheme on the Internet"
 msgstr "ఇంటర్నెట్ నుండి కొత్త రంగు స్కీమాలను పొందుము"
 
-#. i18n: ectx: property (text), widget (KPushButton, schemeKnsUploadButton)
+#. i18n: ectx: property (text), widget (QPushButton, schemeKnsUploadButton)
 #: colorsettings.ui:64
 #, fuzzy
-#| msgid "Import Scheme..."
 msgid "&Upload Scheme..."
 msgstr "స్కీమాను దిగుమతి చేయుము..."
 
-#. i18n: ectx: property (toolTip), widget (KPushButton, schemeImportButton)
+#. i18n: ectx: property (toolTip), widget (QPushButton, schemeImportButton)
 #: colorsettings.ui:71
 msgid "Import a color scheme from a file"
 msgstr "ఫైలునుండి రంగు స్కీమాను దిగుమతి చేయుము"
 
-#. i18n: ectx: property (text), widget (KPushButton, schemeImportButton)
+#. i18n: ectx: property (text), widget (QPushButton, schemeImportButton)
 #: colorsettings.ui:74
 msgid "Import Scheme..."
 msgstr "స్కీమాను దిగుమతి చేయుము..."
 
-#. i18n: ectx: property (toolTip), widget (KPushButton, schemeSaveButton)
+#. i18n: ectx: property (toolTip), widget (QPushButton, schemeSaveButton)
 #: colorsettings.ui:81
 msgid "Save the current color scheme"
 msgstr "ప్రస్తుత రంగు స్కీమాను దాయుము"
 
-#. i18n: ectx: property (text), widget (KPushButton, schemeSaveButton)
+#. i18n: ectx: property (text), widget (QPushButton, schemeSaveButton)
 #: colorsettings.ui:84
 msgid "Save Scheme..."
 msgstr "స్కీమాను దాయుము..."
 
-#. i18n: ectx: property (toolTip), widget (KPushButton, schemeRemoveButton)
+#. i18n: ectx: property (toolTip), widget (QPushButton, schemeRemoveButton)
 #: colorsettings.ui:94
 msgid "Remove the selected scheme"
 msgstr "ఎంపికచేసిన స్కీమాను తీసివేయుము"
 
-#. i18n: ectx: property (text), widget (KPushButton, schemeRemoveButton)
+#. i18n: ectx: property (text), widget (QPushButton, schemeRemoveButton)
 #: colorsettings.ui:97
 msgid "Remove Scheme"
 msgstr "స్కీమాను తీసివేయుము"
@@ -280,7 +277,6 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
 #: colorsettings.ui:191
 #, fuzzy
-#| msgid "Shade"
 msgid "Shading"
 msgstr "ఛాయ(షేడ్)"
 
@@ -302,7 +298,6 @@ msgstr "కాంట్రాస్ట్"
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: colorsettings.ui:279
 #, fuzzy
-#| msgid "Color Set:"
 msgid "Color set:"
 msgstr "రంగు సమితి:"
 
@@ -315,7 +310,6 @@ msgstr "వీక్షించుటకు/సవరించుటకు ర�
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: colorsettings.ui:296
 #, fuzzy
-#| msgid "Common Colors"
 msgctxt "color-sets"
 msgid "Common Colors"
 msgstr "ఉమ్మడి రంగులు"
@@ -324,7 +318,6 @@ msgstr "ఉమ్మడి రంగులు"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: colorsettings.ui:301
 #, fuzzy
-#| msgid "View"
 msgctxt "color-sets"
 msgid "View"
 msgstr "వీక్షణం"
@@ -333,7 +326,6 @@ msgstr "వీక్షణం"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: colorsettings.ui:306
 #, fuzzy
-#| msgid "Window"
 msgctxt "color-sets"
 msgid "Window"
 msgstr "విండొ"
@@ -342,7 +334,6 @@ msgstr "విండొ"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: colorsettings.ui:311
 #, fuzzy
-#| msgid "Button"
 msgctxt "color-sets"
 msgid "Button"
 msgstr "బటన్"
@@ -351,7 +342,6 @@ msgstr "బటన్"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: colorsettings.ui:316
 #, fuzzy
-#| msgid "Selection"
 msgctxt "color-sets"
 msgid "Selection"
 msgstr "ఎంపిక"
@@ -360,7 +350,6 @@ msgstr "ఎంపిక"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: colorsettings.ui:321
 #, fuzzy
-#| msgid "Tooltip"
 msgctxt "color-sets"
 msgid "Tooltip"
 msgstr "పనిముట్టుచిట్కా"
@@ -456,7 +445,6 @@ msgstr "క్రియాశీల శీర్షికపట్టీ వచ�
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
 #: colorsettings.ui:605
 #, fuzzy
-#| msgid "Active Titlebar Text"
 msgid "Active Titlebar Secondary"
 msgstr "క్రియాశీల శీర్షికపట్టీ వచనము"
 
@@ -473,14 +461,12 @@ msgstr "క్రియాహీన శీర్షికపట్టీ వచ�
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
 #: colorsettings.ui:620
 #, fuzzy
-#| msgid "Inactive Titlebar Text"
 msgid "Inactive Titlebar Secondary"
 msgstr "క్రియాహీన శీర్షికపట్టీ వచనము"
 
 #. i18n: ectx: attribute (title), widget (QWidget, pageInactice)
 #: colorsettings.ui:735
 #, fuzzy
-#| msgid "Inactive"
 msgctxt "@title:tab color transformations on inactive elements"
 msgid "Inactive"
 msgstr "క్రియాహీన"
@@ -499,7 +485,6 @@ msgstr "క్రియాహీన ఇంటెన్సిటి ప్రభ�
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
 #: colorsettings.ui:755
 #, fuzzy
-#| msgid "None"
 msgctxt "no inactive intensity effect"
 msgid "None"
 msgstr "ఏదీకాదు"
@@ -507,7 +492,6 @@ msgstr "ఏదీకాదు"
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
 #: colorsettings.ui:760
 #, fuzzy
-#| msgid "Shade"
 msgctxt "inactive intensity effect"
 msgid "Shade"
 msgstr "ఛాయ(షేడ్)"
@@ -515,7 +499,6 @@ msgstr "ఛాయ(షేడ్)"
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
 #: colorsettings.ui:765
 #, fuzzy
-#| msgid "Darken"
 msgctxt "inactive intensity effect"
 msgid "Darken"
 msgstr "చీకటిగా(డార్కెన్)"
@@ -523,7 +506,6 @@ msgstr "చీకటిగా(డార్కెన్)"
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
 #: colorsettings.ui:770
 #, fuzzy
-#| msgid "Lighten"
 msgctxt "inactive intensity effect"
 msgid "Lighten"
 msgstr "వెలుగుగా(లైటెన్)"
@@ -547,7 +529,6 @@ msgstr "క్రియాహీన రంగు ప్రభావము రక
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
 #: colorsettings.ui:827
 #, fuzzy
-#| msgid "None"
 msgctxt "no inactive color effect"
 msgid "None"
 msgstr "ఏదీకాదు"
@@ -555,7 +536,6 @@ msgstr "ఏదీకాదు"
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
 #: colorsettings.ui:832
 #, fuzzy
-#| msgid "Desaturate"
 msgctxt "inactive color effect"
 msgid "Desaturate"
 msgstr "డీసాట్యురేట్"
@@ -563,7 +543,6 @@ msgstr "డీసాట్యురేట్"
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
 #: colorsettings.ui:837
 #, fuzzy
-#| msgid "Fade"
 msgctxt "inactive color effect"
 msgid "Fade"
 msgstr "ఫేడ్"
@@ -571,7 +550,6 @@ msgstr "ఫేడ్"
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
 #: colorsettings.ui:842
 #, fuzzy
-#| msgid "Tint"
 msgctxt "inactive color effect"
 msgid "Tint"
 msgstr "టింట్"
@@ -600,7 +578,6 @@ msgstr "క్రియాహీన కాంట్రాస్ట్ ప్ర�
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
 #: colorsettings.ui:893
 #, fuzzy
-#| msgid "None"
 msgctxt "no inactive contrast effect"
 msgid "None"
 msgstr "ఏదీకాదు"
@@ -608,7 +585,6 @@ msgstr "ఏదీకాదు"
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
 #: colorsettings.ui:898
 #, fuzzy
-#| msgid "Fade"
 msgctxt "inactive contrast effect"
 msgid "Fade"
 msgstr "ఫేడ్"
@@ -616,7 +592,6 @@ msgstr "ఫేడ్"
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
 #: colorsettings.ui:903
 #, fuzzy
-#| msgid "Tint"
 msgctxt "inactive contrast effect"
 msgid "Tint"
 msgstr "టింట్"
@@ -629,7 +604,6 @@ msgstr "క్రియాహీన కాంట్రాస్ట్ ప్ర�
 #. i18n: ectx: attribute (title), widget (QWidget, pageDisabled)
 #: colorsettings.ui:985
 #, fuzzy
-#| msgid "Disabled"
 msgctxt "@title:tab color transformations on disabled elements"
 msgid "Disabled"
 msgstr "అచేతనమైన"
@@ -642,7 +616,6 @@ msgstr "అచేతనమైన ఇంటెన్సిటి ప్రభా�
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
 #: colorsettings.ui:1005
 #, fuzzy
-#| msgid "None"
 msgctxt "no disabled intensity effect"
 msgid "None"
 msgstr "ఏదీకాదు"
@@ -650,7 +623,6 @@ msgstr "ఏదీకాదు"
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
 #: colorsettings.ui:1010
 #, fuzzy
-#| msgid "Shade"
 msgctxt "disabled intensity effect"
 msgid "Shade"
 msgstr "ఛాయ(షేడ్)"
@@ -658,7 +630,6 @@ msgstr "ఛాయ(షేడ్)"
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
 #: colorsettings.ui:1015
 #, fuzzy
-#| msgid "Darken"
 msgctxt "disabled intensity effect"
 msgid "Darken"
 msgstr "చీకటిగా(డార్కెన్)"
@@ -666,7 +637,6 @@ msgstr "చీకటిగా(డార్కెన్)"
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
 #: colorsettings.ui:1020
 #, fuzzy
-#| msgid "Lighten"
 msgctxt "disabled intensity effect"
 msgid "Lighten"
 msgstr "వెలుగుగా(లైటెన్)"
@@ -684,7 +654,6 @@ msgstr "అచేతనమై రంగు ప్రాభావపు రకమ
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
 #: colorsettings.ui:1077
 #, fuzzy
-#| msgid "None"
 msgctxt "no disabled color effect"
 msgid "None"
 msgstr "ఏదీకాదు"
@@ -692,7 +661,6 @@ msgstr "ఏదీకాదు"
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
 #: colorsettings.ui:1082
 #, fuzzy
-#| msgid "Desaturate"
 msgctxt "disabled color effect"
 msgid "Desaturate"
 msgstr "డీసాట్యురేట్"
@@ -700,7 +668,6 @@ msgstr "డీసాట్యురేట్"
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
 #: colorsettings.ui:1087
 #, fuzzy
-#| msgid "Fade"
 msgctxt "disabled color effect"
 msgid "Fade"
 msgstr "ఫేడ్"
@@ -708,7 +675,6 @@ msgstr "ఫేడ్"
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
 #: colorsettings.ui:1092
 #, fuzzy
-#| msgid "Tint"
 msgctxt "disabled color effect"
 msgid "Tint"
 msgstr "టింట్"
@@ -731,7 +697,6 @@ msgstr "అచేతనమైన కాంట్రాస్ట్  రకము
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
 #: colorsettings.ui:1143
 #, fuzzy
-#| msgid "None"
 msgctxt "no disabled contrast"
 msgid "None"
 msgstr "ఏదీకాదు"
@@ -739,7 +704,6 @@ msgstr "ఏదీకాదు"
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
 #: colorsettings.ui:1148
 #, fuzzy
-#| msgid "Fade"
 msgctxt "disabled contrast"
 msgid "Fade"
 msgstr "ఫేడ్"
@@ -747,7 +711,6 @@ msgstr "ఫేడ్"
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
 #: colorsettings.ui:1153
 #, fuzzy
-#| msgid "Tint"
 msgctxt "disabled contrast"
 msgid "Tint"
 msgstr "టింట్"
@@ -760,7 +723,6 @@ msgstr "అచేతనమైన కాంట్రాస్ట్  ఎమౌం
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #: preview.ui:29
 #, fuzzy
-#| msgid "Window Background"
 msgid "Window text on Window Background"
 msgstr "విండో బ్యాక్‌గ్రౌండ్"
 
@@ -768,7 +730,6 @@ msgstr "విండో బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: preview.ui:32
 #, fuzzy
-#| msgid "Window text"
 msgctxt "color-kcm-preview"
 msgid "Window text"
 msgstr "విండో వచనము"
@@ -776,7 +737,6 @@ msgstr "విండో వచనము"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView0)
 #: preview.ui:63
 #, fuzzy
-#| msgid "Normal Background"
 msgid "View Normal Text against View Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
@@ -784,7 +744,6 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, labelView0)
 #: preview.ui:66
 #, fuzzy
-#| msgid "Normal text"
 msgctxt "color-kcm-preview"
 msgid "Normal text"
 msgstr "సాదారణ వచనము"
@@ -792,7 +751,6 @@ msgstr "సాదారణ వచనము"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView3)
 #: preview.ui:78
 #, fuzzy
-#| msgid "Normal Background"
 msgid "View Link Text against View Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
@@ -802,7 +760,6 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection3)
 #: preview.ui:81 preview.ui:199
 #, fuzzy
-#| msgid "link"
 msgctxt "color-kcm-preview"
 msgid "link"
 msgstr "లింకు"
@@ -810,7 +767,6 @@ msgstr "లింకు"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView4)
 #: preview.ui:93
 #, fuzzy
-#| msgid "Normal Background"
 msgid "View Visited Text against View Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
@@ -820,7 +776,6 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection4)
 #: preview.ui:96 preview.ui:214
 #, fuzzy
-#| msgid "visited"
 msgctxt "color-kcm-preview"
 msgid "visited"
 msgstr "వీక్షించిన"
@@ -828,7 +783,6 @@ msgstr "వీక్షించిన"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView2)
 #: preview.ui:103
 #, fuzzy
-#| msgid "Normal Background"
 msgid "View Active Text against View Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
@@ -838,8 +792,6 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection2)
 #: preview.ui:106 preview.ui:224
 #, fuzzy
-#| msgctxt "active (abbreviate)"
-#| msgid "a"
 msgctxt "color-kcm-preview"
 msgid "a"
 msgstr "a"
@@ -847,7 +799,6 @@ msgstr "a"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView1)
 #: preview.ui:113
 #, fuzzy
-#| msgid "Normal Background"
 msgid "View Inactive Text against View Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
@@ -857,8 +808,6 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection1)
 #: preview.ui:116 preview.ui:234
 #, fuzzy
-#| msgctxt "inactive (abbreviate)"
-#| msgid "i"
 msgctxt "color-kcm-preview"
 msgid "i"
 msgstr "i"
@@ -866,7 +815,6 @@ msgstr "i"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView5)
 #: preview.ui:123
 #, fuzzy
-#| msgid "Normal Background"
 msgid "View Negative Text against View Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
@@ -876,7 +824,6 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection5)
 #: preview.ui:126 preview.ui:244
 #, fuzzy
-#| msgid "!"
 msgctxt "color-kcm-preview"
 msgid "!"
 msgstr "!"
@@ -884,7 +831,6 @@ msgstr "!"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView6)
 #: preview.ui:133
 #, fuzzy
-#| msgid "Normal Background"
 msgid "View Neutral Text against View Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
@@ -894,7 +840,6 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection6)
 #: preview.ui:136 preview.ui:254
 #, fuzzy
-#| msgid "="
 msgctxt "color-kcm-preview"
 msgid "="
 msgstr "="
@@ -902,7 +847,6 @@ msgstr "="
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView7)
 #: preview.ui:143
 #, fuzzy
-#| msgid "Normal Background"
 msgid "View Positive Text against View Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
@@ -912,7 +856,6 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection7)
 #: preview.ui:146 preview.ui:264
 #, fuzzy
-#| msgid "+"
 msgctxt "color-kcm-preview"
 msgid "+"
 msgstr "+"
@@ -920,7 +863,6 @@ msgstr "+"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection0)
 #: preview.ui:181
 #, fuzzy
-#| msgid "Normal Background"
 msgid "Selection Normal Text against Selection Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
@@ -928,7 +870,6 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection0)
 #: preview.ui:184
 #, fuzzy
-#| msgid "Selected text"
 msgctxt "color-kcm-preview"
 msgid "Selected text"
 msgstr "ఎంపికచేసిన వచనము"
@@ -936,56 +877,48 @@ msgstr "ఎంపికచేసిన వచనము"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection3)
 #: preview.ui:196
 #, fuzzy
-#| msgid "Normal Background"
 msgid "Selection Link Text against Selection Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection4)
 #: preview.ui:211
 #, fuzzy
-#| msgid "Normal Background"
 msgid "Selection Visited Text against Selection Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection2)
 #: preview.ui:221
 #, fuzzy
-#| msgid "Normal Background"
 msgid "Selection Active Text against Selection Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection1)
 #: preview.ui:231
 #, fuzzy
-#| msgid "Normal Background"
 msgid "Selection Inactive Text against Selection Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection5)
 #: preview.ui:241
 #, fuzzy
-#| msgid "Normal Background"
 msgid "Selection Negative Text against Selection Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection6)
 #: preview.ui:251
 #, fuzzy
-#| msgid "Normal Background"
 msgid "Selection Neutral Text against Selection Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection7)
 #: preview.ui:261
 #, fuzzy
-#| msgid "Normal Background"
 msgid "Selection Positive Text against Selection Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, pushButton)
 #: preview.ui:293
 #, fuzzy
-#| msgid "Button Background"
 msgid "Button text on Button Background"
 msgstr "బటన్ బ్యాక్‌గ్రౌండ్"
 
@@ -993,7 +926,6 @@ msgstr "బటన్ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
 #: preview.ui:296
 #, fuzzy
-#| msgid "Push Button"
 msgctxt "color-kcm-preview"
 msgid "Push Button"
 msgstr "నెట్టు బటన్"
@@ -1002,7 +934,6 @@ msgstr "నెట్టు బటన్"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelBack0)
 #: setpreview.ui:35 setpreview.ui:189
 #, fuzzy
-#| msgid "Normal Background"
 msgid "Normal Text on Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
@@ -1012,7 +943,6 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, labelBack0)
 #: setpreview.ui:38 setpreview.ui:192
 #, fuzzy
-#| msgid "normal"
 msgctxt "color-kcm-set-preview"
 msgid "normal"
 msgstr "సాదారణ"
@@ -1020,7 +950,6 @@ msgstr "సాదారణ"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore3)
 #: setpreview.ui:56
 #, fuzzy
-#| msgid "Normal Background"
 msgid "Link Text on Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
@@ -1030,7 +959,6 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, labelBack3)
 #: setpreview.ui:59 setpreview.ui:214
 #, fuzzy
-#| msgid "link"
 msgctxt "color-kcm-set-preview"
 msgid "link"
 msgstr "లింకు"
@@ -1038,7 +966,6 @@ msgstr "లింకు"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore4)
 #: setpreview.ui:77
 #, fuzzy
-#| msgid "Normal Background"
 msgid "Visited Text on Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
@@ -1048,7 +975,6 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, labelBack4)
 #: setpreview.ui:80 setpreview.ui:236
 #, fuzzy
-#| msgid "visited"
 msgctxt "color-kcm-set-preview"
 msgid "visited"
 msgstr "వీక్షించిన"
@@ -1056,7 +982,6 @@ msgstr "వీక్షించిన"
 #. i18n: ectx: property (toolTip), widget (QWidget, widgetFore2)
 #: setpreview.ui:90
 #, fuzzy
-#| msgid "Normal Background"
 msgid "Active Text on Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
@@ -1066,7 +991,6 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, labelBack2)
 #: setpreview.ui:96 setpreview.ui:253
 #, fuzzy
-#| msgid "active"
 msgctxt "color-kcm-set-preview"
 msgid "active"
 msgstr "క్రియాశీల"
@@ -1074,7 +998,6 @@ msgstr "క్రియాశీల"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore1)
 #: setpreview.ui:109
 #, fuzzy
-#| msgid "Normal Background"
 msgid "Inactive Text on Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
@@ -1082,7 +1005,6 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, labelFore1)
 #: setpreview.ui:112
 #, fuzzy
-#| msgid "inactive"
 msgctxt "color-kcm-set-preview"
 msgid "inactive"
 msgstr "క్రియాహీన"
@@ -1090,7 +1012,6 @@ msgstr "క్రియాహీన"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore5)
 #: setpreview.ui:125
 #, fuzzy
-#| msgid "Normal Background"
 msgid "Negative Text on Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
@@ -1100,7 +1021,6 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, labelBack5)
 #: setpreview.ui:128 setpreview.ui:286
 #, fuzzy
-#| msgid "negative"
 msgctxt "color-kcm-set-preview"
 msgid "negative"
 msgstr "నెగటివ్"
@@ -1108,7 +1028,6 @@ msgstr "నెగటివ్"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore6)
 #: setpreview.ui:141
 #, fuzzy
-#| msgid "Normal Background"
 msgid "Neutral Text on Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
@@ -1118,7 +1037,6 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, labelBack6)
 #: setpreview.ui:144 setpreview.ui:303
 #, fuzzy
-#| msgid "neutral"
 msgctxt "color-kcm-set-preview"
 msgid "neutral"
 msgstr "న్యూట్రల్"
@@ -1126,7 +1044,6 @@ msgstr "న్యూట్రల్"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore7)
 #: setpreview.ui:157
 #, fuzzy
-#| msgid "Normal Background"
 msgid "Positive Text on Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
@@ -1136,7 +1053,6 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, labelBack7)
 #: setpreview.ui:160 setpreview.ui:320
 #, fuzzy
-#| msgid "positive"
 msgctxt "color-kcm-set-preview"
 msgid "positive"
 msgstr "పోజిటివ్"
@@ -1144,7 +1060,6 @@ msgstr "పోజిటివ్"
 #. i18n: ectx: property (toolTip), widget (QWidget, widgetFore8)
 #: setpreview.ui:170
 #, fuzzy
-#| msgid "Normal Background"
 msgid "Hover on Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
@@ -1152,7 +1067,6 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, labelFore8)
 #: setpreview.ui:176
 #, fuzzy
-#| msgid "hover"
 msgctxt "color-kcm-set-preview"
 msgid "hover"
 msgstr "హోవర్"
@@ -1184,7 +1098,6 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, labelBack1)
 #: setpreview.ui:266
 #, fuzzy
-#| msgid "Alternate Background"
 msgid "Inactive Text on Alternate Background"
 msgstr "ప్రత్యామ్నాయ బ్యాక్‌గ్రౌండ్"
 
@@ -1192,7 +1105,6 @@ msgstr "ప్రత్యామ్నాయ బ్యాక్‌గ్రౌ�
 #. i18n: ectx: property (text), widget (QLabel, labelBack1)
 #: setpreview.ui:269
 #, fuzzy
-#| msgid "alternate"
 msgctxt "color-kcm-set-preview"
 msgid "alternate"
 msgstr "ప్రత్యామ్నాయ"
@@ -1224,7 +1136,6 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore9)
 #: setpreview.ui:333
 #, fuzzy
-#| msgid "Normal Background"
 msgid "Focus on Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
@@ -1232,7 +1143,6 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: ectx: property (text), widget (QLabel, labelFore9)
 #: setpreview.ui:336
 #, fuzzy
-#| msgid "focus"
 msgctxt "color-kcm-set-preview"
 msgid "focus"
 msgstr "ఫోకస్"

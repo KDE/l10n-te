@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-06 09:20+0000\n"
+"POT-Creation-Date: 2014-11-12 08:02+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -51,11 +51,11 @@ msgstr "క్రింది బ్రౌజర్ నందు:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:139
+#: componentchooser.cpp:138
 msgid "Unknown"
 msgstr "తెలియని"
 
-#: componentchooser.cpp:155
+#: componentchooser.cpp:154
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
 "change now ?</qt>"
@@ -63,11 +63,11 @@ msgstr ""
 "<qt>మీరు మీ యెంపిక యొక్క అప్రమేయ కాంపోనెంటును మార్చినారు, మీరు ఆ మార్పును దాయవలెనని అనుకొనుచున్నారా?</"
 "qt>"
 
-#: componentchooser.cpp:159
+#: componentchooser.cpp:158
 msgid "No description available"
 msgstr "ఎటువంటి వివరణ అందుబాటులో లేదు"
 
-#: componentchooser.cpp:170 componentchooser.cpp:175
+#: componentchooser.cpp:169 componentchooser.cpp:174
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -90,7 +90,7 @@ msgstr ""
 msgid "Default Component"
 msgstr "అప్రమేయ కాంపోనెంటు"
 
-#. i18n: ectx: property (whatsThis), widget (KListWidget, ServiceChooser)
+#. i18n: ectx: property (whatsThis), widget (QListWidget, ServiceChooser)
 #: componentchooser_ui.ui:44
 msgid ""
 "<qt>\n"
@@ -113,19 +113,19 @@ msgstr "అభీష్ట వెబ్ బ్రౌజర్ అనువర్
 msgid "Select preferred email client:"
 msgstr "అభీష్ట ఈమెయిల్ క్లైంటును యెంపికచేయుము:"
 
-#: componentchooserterminal.cpp:105
+#: componentchooserterminal.cpp:103
 msgid "Select preferred terminal application:"
 msgstr "అభీష్ట టెర్మినల్ అనువర్తనమును యెంపికచేయుము:"
 
-#: componentchooserwm.cpp:92
+#: componentchooserwm.cpp:91
 msgid "The new window manager will be used when KDE is started the next time."
 msgstr "KDE తరువాతి సారి ప్రారంభమైనప్పుడు కొత్త విండో నిర్వాహిక వుపయోగించబడుతుంది."
 
-#: componentchooserwm.cpp:93 componentchooserwm.cpp:146
+#: componentchooserwm.cpp:92 componentchooserwm.cpp:145
 msgid "Window Manager Change"
 msgstr "విండో నిర్వాహిక మార్చబడింది"
 
-#: componentchooserwm.cpp:106
+#: componentchooserwm.cpp:105
 msgid ""
 "A new window manager is running.\n"
 "It is still recommended to restart this KDE session to make sure all running "
@@ -135,48 +135,48 @@ msgstr ""
 "ప్రస్తుతం నడుస్తున్న అన్ని అనువర్తనములు ఈ మార్పునకు సర్దుకొనుటకు KDE సెషన్ పునఃప్రారంభించుట "
 "సిఫార్సు చేయడమైనది."
 
-#: componentchooserwm.cpp:109
+#: componentchooserwm.cpp:108
 msgid "Window Manager Replaced"
 msgstr "విండో నిర్వాహిక పునఃస్థాపించబడింది"
 
-#: componentchooserwm.cpp:145
+#: componentchooserwm.cpp:144
 msgid ""
 "Your running window manager will be now replaced with the configured one."
 msgstr "మీ నడుస్తున్న విండో నిర్వాహిక యిప్పుడు ఆకృతీకరించిన దానితో పునఃస్థాపించ బడుతుంది."
 
-#: componentchooserwm.cpp:154
+#: componentchooserwm.cpp:153
 msgid "Config Window Manager Change"
 msgstr "విండో నిర్వాహిక మార్పును ఆకృతీకరించుము"
 
-#: componentchooserwm.cpp:156
+#: componentchooserwm.cpp:155
 msgid "&Accept Change"
 msgstr "(&A) మార్పును ఆమోదించుము"
 
-#: componentchooserwm.cpp:157
+#: componentchooserwm.cpp:156
 msgid "&Revert to Previous"
 msgstr "(&R) మునుపటి దానికి తిరిగివుంచుము"
 
-#: componentchooserwm.cpp:159
+#: componentchooserwm.cpp:158
 msgid ""
 "The configured window manager is being launched.\n"
 "Please check it has started properly and confirm the change.\n"
 "The launch will be automatically reverted in 20 seconds."
 msgstr ""
 
-#: componentchooserwm.cpp:174
+#: componentchooserwm.cpp:173
 msgid ""
 "The running window manager has been reverted to the default KDE window "
 "manager KWin."
 msgstr "నడుస్తున్న విండో నిర్వాహిక అప్రమేయ KDE విండో నిర్వాహిక KWinకు తిరిగివుంచ బడింది."
 
-#: componentchooserwm.cpp:181
+#: componentchooserwm.cpp:180
 msgid ""
 "The new window manager has failed to start.\n"
 "The running window manager has been reverted to the default KDE window "
 "manager KWin."
 msgstr ""
 
-#: componentchooserwm.cpp:303
+#: componentchooserwm.cpp:302
 msgid "Running the configuration tool failed"
 msgstr "ఆకృతీకరణ పనిముట్టు నడుపుట విఫలమైంది"
 
@@ -247,7 +247,6 @@ msgstr "(&R) టెర్మినల్ నందు నడుపుము"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: filemanagerconfig_ui.ui:12
 #, fuzzy
-#| msgid "Browse directories using the following file manager "
 msgid "Browse directories using the following file manager:"
 msgstr "ఈ క్రింది ఫైలు నిర్వాహికను వుపయోగించి డైరెక్టరీలను బ్రౌజ్ చేయుము"
 
@@ -268,7 +267,7 @@ msgstr "(c), 2002 జోసెఫ్ వెనిన్‌గర్"
 msgid "Joseph Wenninger"
 msgstr "జోసెఫ్ వెనిన్‌గర్"
 
-#: ktimerdialog.cpp:164
+#: ktimerdialog.cpp:163
 #, fuzzy, kde-format
 msgid "1 second remaining:"
 msgid_plural "%1 seconds remaining:"
@@ -288,7 +287,7 @@ msgstr "(&U) కన్సోలును టెర్మినల్ అను�
 msgid "Use a different &terminal program:"
 msgstr "(&t) వేరే టెర్మినల్ ప్రోగ్రామును వుపయోగించుము:"
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, terminalLE)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, terminalLE)
 #: terminalemulatorconfig_ui.ui:47
 msgid ""
 "Press this button to select your favorite terminal client. Please note that "
@@ -312,7 +311,7 @@ msgstr "(&U) అప్రమేయ KDE విండో నిర్వాహి�
 msgid "Use a different &window manager:"
 msgstr "(&w) వేరే విండో నిర్వాహికను వుపయోగించుము:"
 
-#. i18n: ectx: property (text), widget (KPushButton, configureButton)
+#. i18n: ectx: property (text), widget (QPushButton, configureButton)
 #: wmconfig_ui.ui:60
 msgid "Configure"
 msgstr "ఆకృతీకరించుము"
