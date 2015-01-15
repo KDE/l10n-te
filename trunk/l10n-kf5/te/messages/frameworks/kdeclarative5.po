@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-27 20:57+0000\n"
+"POT-Creation-Date: 2015-01-15 07:48+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -75,6 +75,44 @@ msgstr "మీరు వాడిన మీట qt సహాయము తీస�
 #: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:407
 msgid "Unsupported Key"
 msgstr "మద్దతు చేయని కీ"
+
+#: qmlcontrols/kquickcontrols/private/TextMenu.qml:37
+msgid "Undo"
+msgstr "సరిచేయు"
+
+#: qmlcontrols/kquickcontrols/private/TextMenu.qml:45
+msgid "Redo"
+msgstr "పునరాచరణ"
+
+#: qmlcontrols/kquickcontrols/private/TextMenu.qml:54
+msgid "Cut"
+msgstr "కత్తిరించు"
+
+#: qmlcontrols/kquickcontrols/private/TextMenu.qml:62
+msgid "Copy"
+msgstr "నకలు"
+
+#: qmlcontrols/kquickcontrols/private/TextMenu.qml:70
+msgid "Paste"
+msgstr "అతికించు"
+
+#: qmlcontrols/kquickcontrols/private/TextMenu.qml:78
+msgid "Delete"
+msgstr "తొలగించు"
+
+#: qmlcontrols/kquickcontrols/private/TextMenu.qml:91
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Clear"
+msgid "Clear"
+msgstr "ఖాళిచేయుము"
+
+#: qmlcontrols/kquickcontrols/private/TextMenu.qml:100
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Select All"
+msgid "Select All"
+msgstr "అన్నిటినీ ఎంచుకొనుము"
 
 #~ msgctxt "NAME OF TRANSLATORS"
 #~ msgid "Your names"
@@ -3713,9 +3751,6 @@ msgstr "మద్దతు చేయని కీ"
 #~ msgid "New..."
 #~ msgstr "కొత్త..."
 
-#~ msgid "Delete"
-#~ msgstr "తొలగించు"
-
 #~ msgid "More Actions"
 #~ msgstr "మరిన్ని చర్యలు"
 
@@ -4564,10 +4599,6 @@ msgstr "మద్దతు చేయని కీ"
 #~ msgstr "ఎంచుకొన్నదాన్ని అతికించుము"
 
 #~ msgctxt "@action"
-#~ msgid "Select All"
-#~ msgstr "అన్నిటినీ ఎంచుకొనుము"
-
-#~ msgctxt "@action"
 #~ msgid "Deselect"
 #~ msgstr "ఎంచుకొవద్దు"
 
@@ -4730,10 +4761,6 @@ msgstr "మద్దతు చేయని కీ"
 #~ msgctxt "@action"
 #~ msgid "Mail"
 #~ msgstr "మెయిల్"
-
-#~ msgctxt "@action"
-#~ msgid "Clear"
-#~ msgstr "ఖాళిచేయుము"
 
 #~ msgctxt "@action"
 #~ msgid "Actual Size"
@@ -4916,26 +4943,14 @@ msgstr "మద్దతు చేయని కీ"
 #~ msgid "Props"
 #~ msgstr "Props"
 
-#~ msgid "Undo"
-#~ msgstr "సరిచేయు"
-
 #~ msgid "Front"
 #~ msgstr "ముందర"
-
-#~ msgid "Copy"
-#~ msgstr "నకలు"
 
 #~ msgid "Open"
 #~ msgstr "తెరువండి"
 
-#~ msgid "Paste"
-#~ msgstr "అతికించు"
-
 #~ msgid "Find"
 #~ msgstr "కనుగొను"
-
-#~ msgid "Cut"
-#~ msgstr "కత్తిరించు"
 
 #~ msgid "&OK"
 #~ msgstr "(&O) సరే"
@@ -5083,9 +5098,6 @@ msgstr "మద్దతు చేయని కీ"
 
 #~ msgid "&Overwrite"
 #~ msgstr "(&O) తిరిగి వ్రాయు"
-
-#~ msgid "Redo"
-#~ msgstr "పునరాచరణ"
 
 #~ msgid "&Available:"
 #~ msgstr "(&A) సిద్దము:"
