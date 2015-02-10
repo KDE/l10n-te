@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-31 08:03+0000\n"
+"POT-Creation-Date: 2015-02-10 09:59+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -52,6 +52,13 @@ msgstr "అప్రమేయం"
 msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "దానంతటదే కనిపెట్టు"
+
+#: kconfigdialog.cpp:45
+#, fuzzy
+#| msgid "Configure"
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "అమర్చు"
 
 #: klanguagebutton.cpp:194
 msgid "without name"
@@ -471,6 +478,41 @@ msgstr "(&A) %1 గురించి"
 #: kstandardaction_p.h:115
 msgid "About &KDE"
 msgstr "(&K) కెడిఈ గురించి"
+
+#: ktipdialog.cpp:239
+#, fuzzy
+#| msgid "Tip of the Day"
+msgctxt "@title:window"
+msgid "Tip of the Day"
+msgstr "ఈ రోజు సూచన"
+
+#: ktipdialog.cpp:255
+#, fuzzy
+#| msgid "Did you know...?\n"
+msgctxt "@title"
+msgid "Did you know...?\n"
+msgstr "మీకు తెలుసా...?\n"
+
+#: ktipdialog.cpp:307
+#, fuzzy
+#| msgid "&Show tips on startup"
+msgctxt "@option:check"
+msgid "&Show tips on startup"
+msgstr "(&S) మొదలైనప్పుడు సూచనలను చూపించు"
+
+#: ktipdialog.cpp:312
+#, fuzzy
+#| msgid "&Previous"
+msgctxt "@action:button Goes to previous tip"
+msgid "&Previous"
+msgstr "(&P) ముందు"
+
+#: ktipdialog.cpp:317
+#, fuzzy
+#| msgid "&Next"
+msgctxt "@action:button Goes to next tip, opposite to previous"
+msgid "&Next"
+msgstr "(&N) తరువాత"
 
 #~ msgid "Name"
 #~ msgstr "పేరు"
@@ -3413,9 +3455,6 @@ msgstr "(&K) కెడిఈ గురించి"
 #~ msgid "Close Message"
 #~ msgstr "సందేశము మూసివేయుము"
 
-#~ msgid "Configure"
-#~ msgstr "అమర్చు"
-
 #~ msgid "Job"
 #~ msgstr "జాబ్"
 
@@ -3949,18 +3988,6 @@ msgstr "(&K) కెడిఈ గురించి"
 #~ "This is the language which will be used if any previous languages do not "
 #~ "contain a proper translation."
 #~ msgstr "ఇది మీరు మొదటిగ ఉపయోగిచే ప్రధామ "
-
-#~ msgid "Tip of the Day"
-#~ msgstr "ఈ రోజు సూచన"
-
-#~ msgid "Did you know...?\n"
-#~ msgstr "మీకు తెలుసా...?\n"
-
-#~ msgid "&Show tips on startup"
-#~ msgstr "(&S) మొదలైనప్పుడు సూచనలను చూపించు"
-
-#~ msgid "&Previous"
-#~ msgstr "(&P) ముందు"
 
 #~ msgctxt "Opposite to Previous"
 #~ msgid "&Next"
@@ -7495,9 +7522,6 @@ msgstr "(&K) కెడిఈ గురించి"
 
 #~ msgid "F&ind:"
 #~ msgstr "(&i) కనుగొనుము:"
-
-#~ msgid "&Next"
-#~ msgstr "(&N) తరువాత"
 
 #~ msgid "Opt&ions"
 #~ msgstr "(&i) ఇష్టములు"
