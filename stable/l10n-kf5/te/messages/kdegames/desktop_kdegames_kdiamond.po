@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdegames\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-26 02:13+0000\n"
+"POT-Creation-Date: 2015-02-07 02:11+0000\n"
 "PO-Revision-Date: 2007-07-16 20:06+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -17,76 +17,97 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 
-#: kbreakout.desktop:2
+#: src/kdiamond.notifyrc:3
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Card Game"
+msgctxt "Comment"
+msgid "KDiamond Game"
+msgstr "పేక ఆట"
+
+#: src/kdiamond.notifyrc:46
 msgctxt "Name"
-msgid "KBreakOut"
+msgid "Game"
+msgstr "ఆట"
+
+#: src/kdiamond.notifyrc:101
+msgctxt "Comment"
+msgid "Sounds that appear during a game"
 msgstr ""
 
-#: kbreakout.desktop:57
+#: src/kdiamond.notifyrc:150
+msgctxt "Name"
+msgid "Diamonds removed"
+msgstr ""
+
+#: src/kdiamond.notifyrc:200
+msgctxt "Comment"
+msgid "Diamonds were removed."
+msgstr ""
+
+#: src/kdiamond.notifyrc:255
+msgctxt "Name"
+msgid "Diamonds moving"
+msgstr ""
+
+#: src/kdiamond.notifyrc:305
+msgctxt "Comment"
+msgid "Diamonds are moving."
+msgstr ""
+
+#: src/kdiamond.notifyrc:360
+msgctxt "Name"
+msgid "Game over"
+msgstr "ఆట అయిపొయింది"
+
+#: src/kdiamond.notifyrc:414
+msgctxt "Comment"
+msgid "Time is up."
+msgstr "సమయం అయిపొయింది"
+
+#: src/org.kde.kdiamond.desktop:4
+msgctxt "Name"
+msgid "KDiamond"
+msgstr ""
+
+#: src/org.kde.kdiamond.desktop:56
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Reversi Board Game"
 msgctxt "GenericName"
-msgid "Breakout-like Game"
-msgstr ""
+msgid "Three-in-a-row game"
+msgstr "రివర్సి పలక ఆట"
 
-#: themes/alienbreakout.desktop:2
+#: themes/default.desktop:3
 msgctxt "Name"
-msgid "Alien Breakout"
+msgid "Egyptian"
 msgstr ""
 
-#: themes/alienbreakout.desktop:43
+#: themes/default.desktop:51
 msgctxt "Description"
-msgid "Breakout before the aliens do."
+msgid "Egyptian style theme."
 msgstr ""
 
-#: themes/crystal.desktop:2
+#: themes/diamonds.desktop:3
 msgctxt "Name"
-msgid "Crystal clear"
+msgid "Diamonds"
 msgstr ""
 
-#: themes/crystal.desktop:51
+#: themes/diamonds.desktop:50
 msgctxt "Description"
-msgid "Crystal-like theme for KBreakOut"
+msgid "A theme based on real looking diamonds."
 msgstr ""
 
-#: themes/default.desktop:2
+#: themes/funny_zoo.desktop:3
 msgctxt "Name"
-msgid "Egyptian Breakout"
+msgid "Funny Zoo"
 msgstr ""
 
-#: themes/default.desktop:45
-msgctxt "Description"
-msgid "Egyptian style breakout theme."
-msgstr ""
-
-#: themes/IceWorld.desktop:2
-msgctxt "Name"
-msgid "IceWorld"
-msgstr ""
-
-#: themes/IceWorld.desktop:52
-msgctxt "Description"
-msgid "Ice chilled theme"
-msgstr ""
-
-#: themes/simple.desktop:2
-msgctxt "Name"
-msgid "Simple"
-msgstr ""
-
-#: themes/simple.desktop:54
-msgctxt "Description"
-msgid "Simple KBreakOut theme"
-msgstr ""
-
-#: themes/web20.desktop:2
-msgctxt "Name"
-msgid "WEB 2.0"
-msgstr ""
-
-#: themes/web20.desktop:52
+#: themes/funny_zoo.desktop:50
 msgctxt "Description"
 msgid ""
-"Web 2.0 theme showcases graphical elements reminiscent of those used in "
-"popular 'WEB 2.0' movement, currently taking the interweb by storm."
+"It is a fun time in the jungle! Help animals find their families. And watch "
+"out for those hard to find frogs."
 msgstr ""
 
 #~ msgctxt "Name"
@@ -161,32 +182,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Oxygen"
 #~ msgstr "ఆక్సీజన్"
-
-#, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Reversi Board Game"
-#~ msgctxt "GenericName"
-#~ msgid "Three-in-a-row game"
-#~ msgstr "రివర్సి పలక ఆట"
-
-#, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Card Game"
-#~ msgctxt "Comment"
-#~ msgid "KDiamond Game"
-#~ msgstr "పేక ఆట"
-
-#~ msgctxt "Name"
-#~ msgid "Game"
-#~ msgstr "ఆట"
-
-#~ msgctxt "Name"
-#~ msgid "Game over"
-#~ msgstr "ఆట అయిపొయింది"
-
-#~ msgctxt "Comment"
-#~ msgid "Time is up."
-#~ msgstr "సమయం అయిపొయింది"
 
 #~ msgctxt "Name"
 #~ msgid "Black and Red"

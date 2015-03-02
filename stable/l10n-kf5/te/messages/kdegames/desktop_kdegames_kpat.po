@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdegames\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-26 02:13+0000\n"
+"POT-Creation-Date: 2015-02-24 13:24+0000\n"
 "PO-Revision-Date: 2007-07-16 20:06+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -17,150 +17,49 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 
-#: data/kmines.desktop:2
+#: org.kde.kpat.desktop:2
 msgctxt "Name"
-msgid "KMines"
+msgid "KPatience"
 msgstr ""
 
-#: data/kmines.desktop:75
+#: org.kde.kpat.desktop:58
 msgctxt "GenericName"
-msgid "Minesweeper-like Game"
-msgstr ""
+msgid "Patience Card Game"
+msgstr "సహనం పేక ఆట"
 
-#: data/kmines.notifyrc:3
-msgctxt "Comment"
-msgid "KMines Minesweeper-like Game"
-msgstr ""
-
-#: data/kmines.notifyrc:46
+#: themes/ancientegypt.desktop:2
 msgctxt "Name"
-msgid "Reveal Case"
+msgid "Desert Sands"
 msgstr ""
 
-#: data/kmines.notifyrc:96
-msgctxt "Comment"
-msgid "Reveal case"
-msgstr ""
-
-#: data/kmines.notifyrc:157
-msgctxt "Name"
-msgid "Autoreveal Case"
-msgstr ""
-
-#: data/kmines.notifyrc:206
-msgctxt "Comment"
-msgid "Autoreveal case"
-msgstr ""
-
-#: data/kmines.notifyrc:267
-msgctxt "Name"
-msgid "Mark Case"
-msgstr ""
-
-#: data/kmines.notifyrc:316
-msgctxt "Comment"
-msgid "Mark case"
-msgstr ""
-
-#: data/kmines.notifyrc:377
-msgctxt "Name"
-msgid "Unmark Case"
-msgstr ""
-
-#: data/kmines.notifyrc:426
-msgctxt "Comment"
-msgid "Unmark case"
-msgstr ""
-
-#: data/kmines.notifyrc:487
-msgctxt "Name"
-msgid "Explosion"
-msgstr ""
-
-#: data/kmines.notifyrc:554
-msgctxt "Comment"
-msgid "Explosion"
-msgstr ""
-
-#: data/kmines.notifyrc:623
-msgctxt "Name"
-msgid "Game Won"
-msgstr "ఆట నెగ్గావు"
-
-#: data/kmines.notifyrc:677
-msgctxt "Comment"
-msgid "Game won"
-msgstr "ఆట నెగ్గావు"
-
-#: data/kmines.notifyrc:744
-msgctxt "Name"
-msgid "Game Lost"
-msgstr "ఆట ఓడిపొయావు"
-
-#: data/kmines.notifyrc:798
-msgctxt "Comment"
-msgid "Game lost"
-msgstr "ఆట ఓడిపొయావు"
-
-#: data/kmines.notifyrc:864
-msgctxt "Name"
-msgid "Set Question Mark"
-msgstr ""
-
-#: data/kmines.notifyrc:914
-msgctxt "Comment"
-msgid "Set question mark"
-msgstr ""
-
-#: data/kmines.notifyrc:976
-msgctxt "Name"
-msgid "Unset Question Mark"
-msgstr ""
-
-#: data/kmines.notifyrc:1026
-msgctxt "Comment"
-msgid "Unset question mark"
-msgstr ""
-
-#: themes/classic.desktop:2
-msgctxt "Name"
-msgid "Classic"
-msgstr ""
-
-#: themes/classic.desktop:60
+#: themes/ancientegypt.desktop:46
 msgctxt "Description"
-msgid "Classic theme for KMines"
+msgid "Egyptian style theme."
 msgstr ""
 
-#: themes/default.desktop:2
+#: themes/cleangreen.desktop:2
 msgctxt "Name"
-msgid "Default"
-msgstr "అప్రమెయం"
-
-#: themes/default.desktop:62
-msgctxt "Description"
-msgid "KMines Oxygen theme for KDE 4"
+msgid "Clean Green"
 msgstr ""
 
-#: themes/graveyard-mayhem.desktop:2
+#: themes/cleangreen.desktop:45
+msgctxt "Description"
+msgid "A simple green felt theme"
+msgstr ""
+
+#: themes/greenblaze.desktop:2
 msgctxt "Name"
-msgid "Graveyard Mayhem"
+msgid "Green Blaze"
 msgstr ""
 
-#: themes/graveyard-mayhem.desktop:42
-msgctxt "Description"
-msgid ""
-"A spooky theme for KMines. Don't get caught by the zombies in the graveyard!"
-msgstr ""
-
-#: themes/green.desktop:2
+#: themes/oldertheme.desktop:2
 msgctxt "Name"
-msgid "Gardens of Danger"
+msgid "Older Theme"
 msgstr ""
 
-#: themes/green.desktop:51
+#: themes/oldertheme.desktop:48
 msgctxt "Description"
-msgid "A funny theme for KDE4 mines game"
+msgid "An older, unnamed KPat theme."
 msgstr ""
 
 #~ msgctxt "Name"
@@ -306,6 +205,10 @@ msgstr ""
 #~ msgid "KGoldRunner Default"
 #~ msgstr "కెగొల్ద్ రన్నర్ అప్రమెయం"
 
+#~ msgctxt "Name"
+#~ msgid "Default"
+#~ msgstr "అప్రమెయం"
+
 #, fuzzy
 #~| msgctxt "Name"
 #~| msgid "Plain Color"
@@ -419,6 +322,22 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Triangle"
 #~ msgstr "త్రికోణం"
+
+#~ msgctxt "Name"
+#~ msgid "Game Won"
+#~ msgstr "ఆట నెగ్గావు"
+
+#~ msgctxt "Comment"
+#~ msgid "Game won"
+#~ msgstr "ఆట నెగ్గావు"
+
+#~ msgctxt "Name"
+#~ msgid "Game Lost"
+#~ msgstr "ఆట ఓడిపొయావు"
+
+#~ msgctxt "Comment"
+#~ msgid "Game lost"
+#~ msgstr "ఆట ఓడిపొయావు"
 
 #~ msgctxt "Name"
 #~ msgid "KNetWalk"
@@ -538,10 +457,6 @@ msgstr ""
 #~ msgctxt "Description"
 #~ msgid "Kollision Default Theme"
 #~ msgstr "రివర్సి పలక ఆట"
-
-#~ msgctxt "GenericName"
-#~ msgid "Patience Card Game"
-#~ msgstr "సహనం పేక ఆట"
 
 #~ msgctxt "GenericName"
 #~ msgid "Reversi Board Game"
