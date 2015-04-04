@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-23 09:42+0000\n"
+"POT-Creation-Date: 2015-04-04 09:35+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -66,6 +66,24 @@ msgctxt "Name"
 msgid "Information"
 msgstr "పి సి ఐ సమాచారం"
 
+#: Modules/about-distro/src/about-distro.desktop:11
+msgctxt "X-KDE-Keywords"
+msgid "information,distribution,distro,system,kernel,qt,kde"
+msgstr ""
+
+#: Modules/about-distro/src/about-distro.desktop:41
+msgctxt "Name"
+msgid "About System"
+msgstr ""
+
+#: Modules/about-distro/src/about-distro.desktop:69
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Info about files and directories for Plasmoids"
+msgctxt "Comment"
+msgid "Information About This System"
+msgstr "Plasmoids కొరకు ఫైళ్ళు మరియు సంచయంల గురించి సమాచారం"
+
 #: Modules/devinfo/devinfo.desktop:13
 #, fuzzy
 #| msgctxt "GenericName"
@@ -83,7 +101,6 @@ msgid "Device Viewer"
 msgstr "చిత్ర వీక్షిణి"
 
 #: Modules/devinfo/devinfo.desktop:141
-#: Modules/infosummary/kcm_infosummary.desktop:144
 msgctxt "X-KDE-Keywords"
 msgid "device,devices"
 msgstr ""
@@ -153,19 +170,6 @@ msgstr "SCSI సమాచారం"
 msgctxt "X-KDE-Keywords"
 msgid "SCSI,SCSI-Bus,System Information"
 msgstr "SCSI సమాచారం"
-
-#: Modules/infosummary/kcm_infosummary.desktop:11
-msgctxt "Name"
-msgid "Summary"
-msgstr ""
-
-#: Modules/infosummary/kcm_infosummary.desktop:79
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Hardware"
-msgctxt "Comment"
-msgid "Hardware Information Summary"
-msgstr "హార్డువేర్"
 
 #: Modules/info/wayland.desktop:12
 #, fuzzy
@@ -316,3 +320,10 @@ msgstr "కెఇన్ఫొసెంటర్"
 msgctxt "GenericName"
 msgid "Info Center"
 msgstr "సమాచార కేంద్రం"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Hardware"
+#~ msgctxt "Comment"
+#~ msgid "Hardware Information Summary"
+#~ msgstr "హార్డువేర్"
