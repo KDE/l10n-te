@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-17 11:59+0000\n"
+"POT-Creation-Date: 2015-04-08 08:39+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -31,7 +31,7 @@ msgctxt "Name"
 msgid "Plastik"
 msgstr "ప్లాస్టిక్"
 
-#: clients/aurorae/themes/plastik/package/metadata.desktop:91
+#: clients/aurorae/themes/plastik/package/metadata.desktop:90
 msgctxt "Comment"
 msgid "The classic theme known from KDE 3"
 msgstr ""
@@ -74,7 +74,7 @@ msgctxt "Name"
 msgid "Dialog Parent"
 msgstr "డైలాగ్ మాత్రుక"
 
-#: effects/dialogparent/package/metadata.desktop:79
+#: effects/dialogparent/package/metadata.desktop:78
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Darkens parent windows of active dialogs"
@@ -87,6 +87,18 @@ msgctxt "Name"
 msgid "Dim Inactive"
 msgstr "Dim క్రియాహీనం"
 
+#: effects/eyeonscreen/package/metadata.desktop:2
+msgctxt "Name"
+msgid "eye On Screen"
+msgstr ""
+
+#: effects/eyeonscreen/package/metadata.desktop:4
+msgctxt "Comment"
+msgid ""
+"Suck windows into desktop to show the latter. This might remind you of "
+"something."
+msgstr ""
+
 #: effects/fadedesktop/package/metadata.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -95,7 +107,7 @@ msgctxt "Name"
 msgid "Fade Desktop"
 msgstr "సేవిక‍డెస్‍క్ టాప్"
 
-#: effects/fadedesktop/package/metadata.desktop:71
+#: effects/fadedesktop/package/metadata.desktop:70
 msgctxt "Comment"
 msgid "Fade between virtual desktops when switching between them"
 msgstr ""
@@ -105,7 +117,7 @@ msgctxt "Name"
 msgid "Fade"
 msgstr "ఫేడ్"
 
-#: effects/fade/package/metadata.desktop:83
+#: effects/fade/package/metadata.desktop:82
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Makes windows smoothly fade in/out when they are shown or hidden"
@@ -141,7 +153,7 @@ msgctxt "Name"
 msgid "Login"
 msgstr "లాగిన్"
 
-#: effects/login/package/metadata.desktop:89
+#: effects/login/package/metadata.desktop:88
 msgctxt "Comment"
 msgid "Smoothly fade to the desktop when logging in"
 msgstr "లాగిన్ అవుతున్నప్పుడు రంగస్థలమునకు సున్నితంగా ఫేడ్ చేయుము"
@@ -205,7 +217,7 @@ msgctxt "Name"
 msgid "Scale In"
 msgstr "స్కేల్ ఇన్"
 
-#: effects/scalein/package/metadata.desktop:80
+#: effects/scalein/package/metadata.desktop:79
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Animates appearing of windows"
@@ -233,10 +245,26 @@ msgctxt "Name"
 msgid "Translucency"
 msgstr "ట్రాన్‍స్‌లుసెన్సీ"
 
-#: effects/translucency/package/metadata.desktop:86
+#: effects/translucency/package/metadata.desktop:85
 msgctxt "Comment"
 msgid "Make windows translucent under different conditions"
 msgstr "విభీన్న స్థితులలో విండోను ట్రాన్‍స్‌లూసెంట్‌గా (స్పష్టంగా) వుంచుము"
+
+#: effects/windowaperture/package/metadata.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Close"
+msgctxt "Name"
+msgid "Window Aperture"
+msgstr "విండో మూయి"
+
+#: effects/windowaperture/package/metadata.desktop:4
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Let it snow on the desktop"
+msgctxt "Comment"
+msgid "Move window into the corners while showing desktop"
+msgstr "డెస్‍క్ టాప్ పైన మంచుకురవనివ్వు"
 
 #: effects/windowgeometry/windowgeometry_config.desktop:8
 #, fuzzy
@@ -319,7 +347,7 @@ msgctxt "Name"
 msgid "Window Decorations"
 msgstr "సమాచారం"
 
-#: kcmkwin/kwindecoration/kwindecoration.desktop:76
+#: kcmkwin/kwindecoration/kwindecoration.desktop:75
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the look and feel of window titles"
@@ -327,7 +355,7 @@ msgctxt "Comment"
 msgid "Look and Feel of Window Titles"
 msgstr "విండో శీర్షికల ఆకృతి మరియు భావమును ఆకృతీకరించుము"
 
-#: kcmkwin/kwindecoration/kwindecoration.desktop:114
+#: kcmkwin/kwindecoration/kwindecoration.desktop:113
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,border,style,theme,look,feel,layout,button,handle,edge,"
@@ -342,12 +370,12 @@ msgctxt "Name"
 msgid "Virtual Desktops"
 msgstr "రంగస్ఠలం"
 
-#: kcmkwin/kwindesktop/desktop.desktop:78
+#: kcmkwin/kwindesktop/desktop.desktop:77
 msgctxt "Comment"
 msgid "Navigation, Number and Layout of Virtual Desktops"
 msgstr ""
 
-#: kcmkwin/kwindesktop/desktop.desktop:115
+#: kcmkwin/kwindesktop/desktop.desktop:114
 msgctxt "X-KDE-Keywords"
 msgid ""
 "desktop,desktops,number,virtual desktop,multiple desktops,pager,pager widget,"
@@ -359,7 +387,7 @@ msgctxt "Name"
 msgid "Actions"
 msgstr "చర్యలు"
 
-#: kcmkwin/kwinoptions/kwinactions.desktop:103
+#: kcmkwin/kwinoptions/kwinactions.desktop:102
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure Hotkey settings"
@@ -367,7 +395,7 @@ msgctxt "Comment"
 msgid "Mouse Actions on Windows"
 msgstr "హాట్‌కీల అమరికలను ఆకృతీకరించుము."
 
-#: kcmkwin/kwinoptions/kwinactions.desktop:141
+#: kcmkwin/kwinoptions/kwinactions.desktop:140
 msgctxt "X-KDE-Keywords"
 msgid ""
 "shade,maximise,maximize,minimize,minimise,lower,operations menu,titlebar,"
@@ -379,7 +407,7 @@ msgctxt "Name"
 msgid "Advanced"
 msgstr "ఆధునాతన"
 
-#: kcmkwin/kwinoptions/kwinadvanced.desktop:102
+#: kcmkwin/kwinoptions/kwinadvanced.desktop:101
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure advanced window management features"
@@ -387,7 +415,7 @@ msgctxt "Comment"
 msgid "Advanced Window Management Features"
 msgstr "అధునాతన విండో నిర్వహణ సౌలభ్యాలను ఆకృతీకరించుము"
 
-#: kcmkwin/kwinoptions/kwinadvanced.desktop:140
+#: kcmkwin/kwinoptions/kwinadvanced.desktop:139
 msgctxt "X-KDE-Keywords"
 msgid ""
 "shading,border,hover,active borders,tiling,tabs,tabbing,window tabbing,"
@@ -400,12 +428,12 @@ msgctxt "Name"
 msgid "Focus"
 msgstr "దృష్టి"
 
-#: kcmkwin/kwinoptions/kwinfocus.desktop:100
+#: kcmkwin/kwinoptions/kwinfocus.desktop:99
 msgctxt "Comment"
 msgid "Active Window Policy"
 msgstr ""
 
-#: kcmkwin/kwinoptions/kwinfocus.desktop:137
+#: kcmkwin/kwinoptions/kwinfocus.desktop:136
 msgctxt "X-KDE-Keywords"
 msgid ""
 "focus,placement,auto raise,raise,click raise,keyboard,CDE,alt-tab,all "
@@ -418,7 +446,7 @@ msgctxt "Name"
 msgid "Moving"
 msgstr "కదుపు"
 
-#: kcmkwin/kwinoptions/kwinmoving.desktop:101
+#: kcmkwin/kwinoptions/kwinmoving.desktop:100
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Information"
@@ -426,7 +454,7 @@ msgctxt "Comment"
 msgid "Window Moving"
 msgstr "సమాచారం"
 
-#: kcmkwin/kwinoptions/kwinmoving.desktop:140
+#: kcmkwin/kwinoptions/kwinmoving.desktop:139
 msgctxt "X-KDE-Keywords"
 msgid "moving,smart,cascade,maximize,maximise,snap zone,snap,border"
 msgstr ""
@@ -436,7 +464,7 @@ msgctxt "Name"
 msgid "Window Behavior"
 msgstr "విండో ప్రవర్తన"
 
-#: kcmkwin/kwinoptions/kwinoptions.desktop:104
+#: kcmkwin/kwinoptions/kwinoptions.desktop:103
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Behavior"
@@ -444,7 +472,7 @@ msgctxt "Comment"
 msgid "Window Actions and Behavior"
 msgstr "విండో ప్రవర్తన"
 
-#: kcmkwin/kwinoptions/kwinoptions.desktop:142
+#: kcmkwin/kwinoptions/kwinoptions.desktop:141
 msgctxt "X-KDE-Keywords"
 msgid ""
 "focus,placement,window behavior,window actions,animation,raise,auto raise,"
@@ -459,7 +487,7 @@ msgctxt "Name"
 msgid "Window Rules"
 msgstr "విండో మూయి"
 
-#: kcmkwin/kwinrules/kwinrules.desktop:77
+#: kcmkwin/kwinrules/kwinrules.desktop:76
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Behavior"
@@ -467,7 +495,7 @@ msgctxt "Comment"
 msgid "Individual Window Behavior"
 msgstr "విండో ప్రవర్తన"
 
-#: kcmkwin/kwinrules/kwinrules.desktop:115
+#: kcmkwin/kwinrules/kwinrules.desktop:114
 msgctxt "X-KDE-Keywords"
 msgid ""
 "size,position,state,window behavior,windows,specific,workarounds,remember,"
@@ -482,12 +510,12 @@ msgctxt "Name"
 msgid "Screen Edges"
 msgstr "స్క్రీన్ సేవర్"
 
-#: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:84
+#: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:83
 msgctxt "Comment"
 msgid "Active Screen Corners and Edges"
 msgstr ""
 
-#: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:121
+#: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:120
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,effect,corner,edge,border,action,switch,desktop,kwin "
@@ -524,12 +552,12 @@ msgctxt "Name"
 msgid "Task Switcher"
 msgstr "బాక్‍స్  స్విచ్"
 
-#: kcmkwin/kwintabbox/kwintabbox.desktop:74
+#: kcmkwin/kwintabbox/kwintabbox.desktop:73
 msgctxt "Comment"
 msgid "Navigation Through Windows"
 msgstr ""
 
-#: kcmkwin/kwintabbox/kwintabbox.desktop:111
+#: kcmkwin/kwintabbox/kwintabbox.desktop:110
 msgctxt "X-KDE-Keywords"
 msgid ""
 "window,windows,switcher,window switcher,switching,window switching,alttab,"
@@ -544,7 +572,7 @@ msgctxt "Comment"
 msgid "KWin Window Manager"
 msgstr "విండొమెకర్"
 
-#: kwin.notifyrc:69
+#: kwin.notifyrc:68
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Strigi file indexing has been suspended"
@@ -552,12 +580,12 @@ msgctxt "Name"
 msgid "Compositing has been suspended"
 msgstr "Strigi దస్త్రము విషయవర్గీకరణ సస్పెండ్ చేయబడింది"
 
-#: kwin.notifyrc:134
+#: kwin.notifyrc:132
 msgctxt "Comment"
 msgid "Another application has requested to suspend compositing."
 msgstr ""
 
-#: kwin.notifyrc:199
+#: kwin.notifyrc:196
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Graphics"
@@ -565,7 +593,7 @@ msgctxt "Name"
 msgid "Graphics Reset"
 msgstr "గ్రాఫిక్స్"
 
-#: kwin.notifyrc:241
+#: kwin.notifyrc:238
 msgctxt "Comment"
 msgid "A graphics reset event occurred"
 msgstr ""
@@ -602,6 +630,21 @@ msgstr "సమాచారం"
 #: scripts/enforcedeco/metadata.desktop:39
 msgctxt "Comment"
 msgid "Fixes functional deficits for client side decorated windows."
+msgstr ""
+
+#: scripts/minimizeall/metadata.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Maximize"
+msgctxt "Name"
+msgid "MinimizeAll"
+msgstr "విండో పెద్దదిచేయి"
+
+#: scripts/minimizeall/metadata.desktop:3
+msgctxt "Comment"
+msgid ""
+"Adds a shortcut to minimize all windows or unminize all such way minimized "
+"windows"
 msgstr ""
 
 #: scripts/synchronizeskipswitcher/metadata.desktop:2
@@ -955,13 +998,6 @@ msgstr "విండొమెకర్"
 #~ msgctxt "Name"
 #~ msgid "Slide"
 #~ msgstr "సాలిడ్"
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Let it snow on the desktop"
-#~ msgctxt "Comment"
-#~ msgid "Slide windows across the screen when switching virtual desktops"
-#~ msgstr "డెస్‍క్ టాప్ పైన మంచుకురవనివ్వు"
 
 #, fuzzy
 #~| msgctxt "Comment"
