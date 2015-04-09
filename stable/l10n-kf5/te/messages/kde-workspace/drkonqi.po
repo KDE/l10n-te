@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:18+0000\n"
+"POT-Creation-Date: 2014-12-30 09:51+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -30,6 +30,7 @@ msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 
 #: aboutbugreportingdialog.cpp:40
 #, fuzzy
+#| msgid "&Bug Report"
 msgctxt "@title title of the dialog"
 msgid "About Bug Reporting - Help"
 msgstr "(&B) బగ్ నివేదిక"
@@ -441,6 +442,7 @@ msgstr ""
 #: backtracewidget.cpp:129
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:629
 #, fuzzy
+#| msgid "Loading symbols..."
 msgctxt "@info:status"
 msgid "Loading..."
 msgstr "చిహ్నములను లోడుచేస్తోంది..."
@@ -756,6 +758,7 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_base.cpp:326
 #, fuzzy, kde-format
+#| msgid "The program was started by kdeinit"
 msgctxt "@info"
 msgid "Your problem has already been reported as bug %1."
 msgstr "ప్రోగ్రామ్ kdeinit ద్వారా ప్రారంభింపబడింది"
@@ -1178,12 +1181,14 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:846 drkonqi.cpp:171
 #, fuzzy
+#| msgid "Select Filename"
 msgctxt "@title:window"
 msgid "Select Filename"
 msgstr "ఫైల్‌ పేరును ఎంపికచేయుము"
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:869 drkonqi.cpp:195
 #, fuzzy, kde-format
+#| msgid "Cannot open file <filename>%1</filename> for writing."
 msgctxt "@info"
 msgid "Cannot open file <filename>%1</filename> for writing."
 msgstr "ఫైల్ <filename>%1</filename> ను వ్రాయుటకొరకు తెరువలేము"
@@ -1746,6 +1751,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:135
 #, fuzzy
+#| msgid "Name of the program"
 msgctxt "@item:inlistbox the bug can be reproduced sometimes"
 msgid "Sometimes"
 msgstr "ప్రోగ్రామ్ యొక్క పేరు"
@@ -1907,6 +1913,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, attachToBugReportCheck)
 #: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:219
 #, fuzzy
+#| msgid "Please attach the following information to your bug report:"
 msgid "Completely sure: attach my &information to this report"
 msgstr "బగ్ నివేదికకు దయచేసి ఈ క్రింది సమాచారాన్ని జతపరచండి:"
 
@@ -2040,18 +2047,21 @@ msgstr ""
 
 #: drkonqi.cpp:161
 #, fuzzy, kde-format
+#| msgid "Backtrace saved to <filename>%1</filename>."
 msgctxt "@info"
 msgid "Report saved to <filename>%1</filename>."
 msgstr "బ్యాక్‌ట్రేస్ <filename>%1</filename> కు దాయబడింది."
 
 #: drkonqi.cpp:164
 #, fuzzy
+#| msgid "Cannot create a file to save the backtrace in"
 msgctxt "@info"
 msgid "Could not create a file in which to save the report."
 msgstr "బ్యాక్‌ట్రేస్‌ను దాయుటకు ఫైల్‌ను సృష్టించలేకపోయింది"
 
 #: drkonqidialog.cpp:70
 #, fuzzy
+#| msgid "Generate"
 msgctxt "@title:tab general information"
 msgid "&General"
 msgstr "ఉద్భవింపచేయుము"
@@ -2109,6 +2119,7 @@ msgstr ""
 
 #: drkonqidialog.cpp:147
 #, fuzzy
+#| msgid "Show details"
 msgctxt "@label"
 msgid "Details:"
 msgstr "వివరములను చూపుము"
@@ -2133,6 +2144,7 @@ msgstr ""
 
 #: drkonqidialog.cpp:195
 #, fuzzy
+#| msgid "&Debugger"
 msgctxt ""
 "@action:button this is the debug menu button label which contains the "
 "debugging applications"
@@ -2171,6 +2183,7 @@ msgstr ""
 
 #: main.cpp:44
 #, fuzzy
+#| msgid "KDE crash handler gives the user feedback if a program crashed"
 msgid "The KDE Crash Handler gives the user feedback if a program has crashed."
 msgstr "ఒకవేళ కార్యక్రమం క్రాష్ అయితే కెడిఈ క్రాష్ సంభాలిక వినియోగదారి ఫీడ్‌ బ్యాక్ ఇస్తుంది"
 
@@ -2184,6 +2197,7 @@ msgstr ""
 
 #: main.cpp:72
 #, fuzzy
+#| msgid "Hans Petter Bieker"
 msgctxt "@info:credit"
 msgid "Hans Petter Bieker"
 msgstr "హాన్స్ పెట్టెర్ బిఎకర్"
@@ -2205,66 +2219,77 @@ msgstr ""
 
 #: main.cpp:87
 #, fuzzy
+#| msgid "The signal number that was caught"
 msgctxt "@info:shell"
 msgid "The signal <number> that was caught"
 msgstr "దొరికినటువంటి సకేతం సంఖ్య"
 
 #: main.cpp:88
 #, fuzzy
+#| msgid "Name of the program"
 msgctxt "@info:shell"
 msgid "<Name> of the program"
 msgstr "ప్రోగ్రామ్ యొక్క పేరు"
 
 #: main.cpp:89
 #, fuzzy
+#| msgid "Path to the executable"
 msgctxt "@info:shell"
 msgid "<Path> to the executable"
 msgstr "ఎక్సిక్యూటబుల్ యొక్క మార్గము"
 
 #: main.cpp:90
 #, fuzzy
+#| msgid "The version of the program"
 msgctxt "@info:shell"
 msgid "The <version> of the program"
 msgstr "ప్రోగ్రామ్ యొక్క వివరణం"
 
 #: main.cpp:91
 #, fuzzy
+#| msgid "The bug address to use"
 msgctxt "@info:shell"
 msgid "The bug <address> to use"
 msgstr "ఉపయోగించుటకు బగ్ చిరునామా"
 
 #: main.cpp:92
 #, fuzzy
+#| msgid "Translated name of the program"
 msgctxt "@info:shell"
 msgid "Translated <name> of the program"
 msgstr "ప్రోగ్రామ్ యొక్క అనువదించిన పేరు"
 
 #: main.cpp:93
 #, fuzzy
+#| msgid "The PID of the program"
 msgctxt "@info:shell"
 msgid "The <PID> of the program"
 msgstr "ప్రోగ్రామ్ యొక్క PID"
 
 #: main.cpp:94
 #, fuzzy
+#| msgid "Startup ID of the program"
 msgctxt "@info:shell"
 msgid "Startup <ID> of the program"
 msgstr "ప్రోగ్రామ్ యొక్క ప్రారంభపు ఐడి"
 
 #: main.cpp:95
 #, fuzzy
+#| msgid "The program was started by kdeinit"
 msgctxt "@info:shell"
 msgid "The program was started by kdeinit"
 msgstr "ప్రోగ్రామ్ kdeinit ద్వారా ప్రారంభింపబడింది"
 
 #: main.cpp:96
 #, fuzzy
+#| msgid "Disable arbitrary disk access"
 msgctxt "@info:shell"
 msgid "Disable arbitrary disk access"
 msgstr "అచేతనం చేయబడిన ఆర్బిటరి డిస్క్ వాడుక"
 
 #: main.cpp:97
 #, fuzzy
+#| msgid "The program was started by kdeinit"
 msgctxt "@info:shell"
 msgid "The program has already been restarted"
 msgstr "ప్రోగ్రామ్ kdeinit ద్వారా ప్రారంభింపబడింది"
@@ -2285,30 +2310,37 @@ msgid "Show backtrace content (advanced)"
 msgstr ""
 
 #, fuzzy
+#~| msgid "<application>%1</application>"
 #~ msgctxt "@action:inmenu 1 is the debugger name"
 #~ msgid "Debug in <application>%1</application>"
 #~ msgstr "<application>%1</application>"
 
 #, fuzzy
+#~| msgid "Loading backtrace..."
 #~ msgid "Show backtrace"
 #~ msgstr "బ్యాక్‌ ట్రేస్‌ను లోడ్‌చేస్తోంది..."
 
 #, fuzzy
+#~| msgctxt "unknown application"
+#~| msgid "unknown"
 #~ msgctxt "@info unknown application"
 #~ msgid "unknown"
 #~ msgstr "తెలియని"
 
 #, fuzzy
+#~| msgid "<application>%1</application>"
 #~ msgctxt "@info/rich"
 #~ msgid "<application>%1</application>"
 #~ msgstr "<application>%1</application>"
 
 #, fuzzy
+#~| msgid "<command>%1</command>"
 #~ msgctxt "@info/rich"
 #~ msgid "<command>%1</command>"
 #~ msgstr "<command>%1</command>"
 
 #, fuzzy
+#~| msgid "<filename>%1</filename>"
 #~ msgctxt "@info/rich"
 #~ msgid "<filename>%1</filename>"
 #~ msgstr "<filename>%1</filename>"
@@ -2320,6 +2352,7 @@ msgstr ""
 # విజయ్ కిరన్ కముజు <infyquest@gmail.com>, 2008.
 # Krishna Babu K <kkrothap@redhat.com>, 2008, 2009.
 #, fuzzy
+#~| msgid ""
 #~ msgctxt "@action:button"
 #~ msgid ""
 #~ msgstr ""
@@ -2344,11 +2377,13 @@ msgstr ""
 #~ "\n"
 
 #, fuzzy
+#~| msgid "C&opy"
 #~ msgctxt "@action:button"
 #~ msgid "&Copy"
 #~ msgstr "(&o) నకలు"
 
 #, fuzzy
+#~| msgid "&Bug Report"
 #~ msgctxt "@title"
 #~ msgid "Bug Report Keywords"
 #~ msgstr "(&B) బగ్ నివేదిక"

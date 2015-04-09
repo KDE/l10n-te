@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_clients\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-27 20:56+0000\n"
+"POT-Creation-Date: 2015-02-20 09:22+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -18,6 +18,55 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
+
+#: aurorae/src/aurorae.cpp:703
+msgctxt "@item:inlistbox Button size:"
+msgid "Tiny"
+msgstr ""
+
+#: aurorae/src/aurorae.cpp:704
+msgctxt "@item:inlistbox Button size:"
+msgid "Normal"
+msgstr ""
+
+#: aurorae/src/aurorae.cpp:705
+#, fuzzy
+#| msgid "Large"
+msgctxt "@item:inlistbox Button size:"
+msgid "Large"
+msgstr "పెద్ద"
+
+#: aurorae/src/aurorae.cpp:706
+#, fuzzy
+#| msgid "Large"
+msgctxt "@item:inlistbox Button size:"
+msgid "Very Large"
+msgstr "పెద్ద"
+
+#: aurorae/src/aurorae.cpp:707
+#, fuzzy
+#| msgid "Large"
+msgctxt "@item:inlistbox Button size:"
+msgid "Huge"
+msgstr "పెద్ద"
+
+#: aurorae/src/aurorae.cpp:708
+#, fuzzy
+#| msgid "Large"
+msgctxt "@item:inlistbox Button size:"
+msgid "Very Huge"
+msgstr "పెద్ద"
+
+#: aurorae/src/aurorae.cpp:709
+#, fuzzy
+#| msgid "Resize"
+msgctxt "@item:inlistbox Button size:"
+msgid "Oversized"
+msgstr "పునఃపరిమాణము"
+
+#: aurorae/src/aurorae.cpp:712
+msgid "Button size:"
+msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, PlastikConfigDialog)
 #: aurorae/themes/plastik/package/contents/ui/config.ui:14
@@ -81,59 +130,41 @@ msgid "Animate buttons"
 msgstr ""
 
 #, fuzzy
+#~| msgid "Large"
 #~ msgctxt "@item:inlistbox Border size:"
 #~ msgid "Large"
 #~ msgstr "పెద్ద"
 
 #, fuzzy
+#~| msgid "Large"
 #~ msgctxt "@item:inlistbox Border size:"
 #~ msgid "Very Large"
 #~ msgstr "పెద్ద"
 
 #, fuzzy
+#~| msgid "Large"
 #~ msgctxt "@item:inlistbox Border size:"
 #~ msgid "Huge"
 #~ msgstr "పెద్ద"
 
 #, fuzzy
-#~ msgctxt "@item:inlistbox Border size:"
-#~ msgid "Very Huge"
-#~ msgstr "పెద్ద"
-
-#, fuzzy
-#~ msgctxt "@item:inlistbox Border size:"
-#~ msgid "Oversized"
-#~ msgstr "పునఃపరిమాణము"
-
-#, fuzzy
+#~| msgid "Small"
 #~ msgctxt "@item:inlistbox Button size:"
 #~ msgid "Small"
 #~ msgstr "చిన్న"
 
 #, fuzzy
-#~ msgctxt "@item:inlistbox Button size:"
-#~ msgid "Large"
-#~ msgstr "పెద్ద"
-
-#, fuzzy
-#~ msgctxt "@item:inlistbox Button size:"
-#~ msgid "Very Large"
-#~ msgstr "పెద్ద"
-
-#, fuzzy
-#~ msgctxt "@item:inlistbox Button size:"
-#~ msgid "Huge"
-#~ msgstr "పెద్ద"
-
-#, fuzzy
+#~| msgid "Shade"
 #~ msgid "Shadows"
 #~ msgstr "ఛాయ(షేడ్)"
 
 #, fuzzy
+#~| msgid "Restore"
 #~ msgid "Remove"
 #~ msgstr "తిరిగివుంచుము"
 
 #, fuzzy
+#~| msgid "Oxygen"
 #~ msgid "Oxygen Shadow Demo"
 #~ msgstr "Oxygen"
 
@@ -171,6 +202,7 @@ msgstr ""
 #~ msgstr "లాప్ టాప్"
 
 #, fuzzy
+#~| msgid "Shade"
 #~ msgid "Save"
 #~ msgstr "ఛాయ(షేడ్)"
 
@@ -184,18 +216,22 @@ msgstr ""
 #~ msgstr "ప్లాస్టిక్"
 
 #, fuzzy
+#~| msgid "On All Desktops"
 #~ msgid "All Desktops"
 #~ msgstr "అన్ని రంగస్థలముల పైనా"
 
 #, fuzzy
+#~| msgid "Close"
 #~ msgid "Close Item"
 #~ msgstr "మూయి"
 
 #, fuzzy
+#~| msgid "Maximize"
 #~ msgid "Maximum"
 #~ msgstr "పెద్దదిచేయి"
 
 #, fuzzy
+#~| msgid "Shade"
 #~ msgid "Shadow style:"
 #~ msgstr "ఛాయ(షేడ్)"
 

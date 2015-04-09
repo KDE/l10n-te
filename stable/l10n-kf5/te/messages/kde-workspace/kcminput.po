@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-29 09:51+0000\n"
+"POT-Creation-Date: 2015-03-14 09:02+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -27,60 +27,61 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 
-#: core/themepage.cpp:54
+#: core/themepage.cpp:53
 msgid "Select the cursor theme you want to use:"
 msgstr "మీరు వుపయోగించాలని అనుకొనుచున్న కర్సర్ థీమ్‌ను యెంపికచేయుము:"
 
-#: core/themepage.cpp:59 xcursor/thememodel.cpp:75
+#: core/themepage.cpp:58 xcursor/thememodel.cpp:74
 msgid "Name"
 msgstr "పేరు"
 
-#: core/themepage.cpp:59 xcursor/thememodel.cpp:78
+#: core/themepage.cpp:58 xcursor/thememodel.cpp:77
 msgid "Description"
 msgstr "వర్ణన"
 
-#: core/themepage.cpp:100 xcursor/themepage.cpp:312
+#: core/themepage.cpp:99 xcursor/themepage.cpp:311
 msgid "You have to restart KDE for these changes to take effect."
 msgstr "ఈ మార్పులు ప్రభావితం అగుటకు మీరు KDEను పునఃప్రారంభించవలసి వుంటుంది."
 
-#: core/themepage.cpp:101 xcursor/themepage.cpp:313
+#: core/themepage.cpp:100 xcursor/themepage.cpp:312
 msgid "Cursor Settings Changed"
 msgstr "కర్సర్ అమర్పులు మార్చబడినవి"
 
-#: core/themepage.cpp:151
+#: core/themepage.cpp:150
 msgid "Small black"
 msgstr "చిన్న నలుపు"
 
-#: core/themepage.cpp:152
+#: core/themepage.cpp:151
 msgid "Small black cursors"
 msgstr "చిన్న నలుపు కర్సర్లు"
 
-#: core/themepage.cpp:158
+#: core/themepage.cpp:157
 msgid "Large black"
 msgstr "పెద్ద నలుపు"
 
-#: core/themepage.cpp:159
+#: core/themepage.cpp:158
 msgid "Large black cursors"
 msgstr "పెద్ద నలుపు కర్సర్లు"
 
-#: core/themepage.cpp:165
+#: core/themepage.cpp:164
 msgid "Small white"
 msgstr "చిన్న తెలుపు"
 
-#: core/themepage.cpp:166
+#: core/themepage.cpp:165
 msgid "Small white cursors"
 msgstr "చిన్న తెలుపు కర్సర్లు"
 
-#: core/themepage.cpp:172
+#: core/themepage.cpp:171
 msgid "Large white"
 msgstr "పెద్ద తెలుపు"
 
-#: core/themepage.cpp:173
+#: core/themepage.cpp:172
 msgid "Large white cursors"
 msgstr "పెద్ద తెలుపు కర్సర్లు"
 
 #: kcmcursortheme.cpp:43
 #, fuzzy
+#| msgid "&Cursor Theme"
 msgid "Cursor Theme"
 msgstr "(&C) కర్సర్ థీమ్"
 
@@ -148,6 +149,7 @@ msgstr "(&u) స్వయంచాలకంగా ప్రతిమలను �
 #. i18n: ectx: property (label), widget (KIntNumInput, slAutoSelect)
 #: kmousedlg.ui:195
 #, fuzzy
+#| msgid "Dela&y:"
 msgctxt "label. delay (on milliseconds) to automatically select icons"
 msgid "Delay"
 msgstr "(&y) ఆలస్యము:"
@@ -155,6 +157,7 @@ msgstr "(&y) ఆలస్యము:"
 #. i18n: ectx: property (suffix), widget (KIntNumInput, slAutoSelect)
 #: kmousedlg.ui:207
 #, fuzzy
+#| msgid " msec"
 msgctxt "milliseconds. time to automatically select the items"
 msgid " ms"
 msgstr " msec"
@@ -184,6 +187,7 @@ msgstr ""
 
 #: logitechmouse.cpp:360
 #, fuzzy
+#| msgid "none"
 msgctxt "no cordless mouse"
 msgid "none"
 msgstr "ఏదీకాదు"
@@ -521,33 +525,33 @@ msgstr[2] " వరుస"
 msgstr[3] " వరుస"
 msgstr[4] " వరుస"
 
-#: xcursor/themepage.cpp:155
+#: xcursor/themepage.cpp:154
 msgctxt "@item:inlistbox size"
-msgid "resolution dependent"
+msgid "Resolution dependent"
 msgstr ""
 
-#: xcursor/themepage.cpp:431
+#: xcursor/themepage.cpp:430
 msgid "Drag or Type Theme URL"
 msgstr "థీమ్ URLను లాక్కోనితెమ్ము లేదా టైపు చేయుము"
 
-#: xcursor/themepage.cpp:442
+#: xcursor/themepage.cpp:441
 #, kde-format
 msgid "Unable to find the cursor theme archive %1."
 msgstr "కర్సర్ థీమ్ ఆర్చివ్‌ను %1 కనుగొనలేక పోయింది."
 
-#: xcursor/themepage.cpp:445
+#: xcursor/themepage.cpp:444
 #, kde-format
 msgid ""
 "Unable to download the cursor theme archive; please check that the address "
 "%1 is correct."
 msgstr "కర్సర్ థీమ్ ఆర్చివ్‌ను డౌనులోడు చేయలేక పోయింది, చిరునామా %1 సరైనదేనేమో దయచేసి పరిశీలించండి."
 
-#: xcursor/themepage.cpp:454
+#: xcursor/themepage.cpp:453
 #, kde-format
 msgid "The file %1 does not appear to be a valid cursor theme archive."
 msgstr "ఫైలు %1 చెల్లునటువంటి కర్సర్ థీమ్ ఆర్చివ్ వలె అనిపించుటలేదు."
 
-#: xcursor/themepage.cpp:469
+#: xcursor/themepage.cpp:468
 msgid ""
 "<qt>You cannot delete the theme you are currently using.<br />You have to "
 "switch to another theme first.</qt>"
@@ -555,7 +559,7 @@ msgstr ""
 "<qt>మీరు ప్రస్తుతం వుపయోగిస్తున్న థీమ్‌ను మీరు తొలగించలేరు.<br />మీరు ముందు వేరొక థీమ్‌కు మారాలి.</"
 "qt>"
 
-#: xcursor/themepage.cpp:475
+#: xcursor/themepage.cpp:474
 #, kde-format
 msgid ""
 "<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
@@ -564,11 +568,11 @@ msgstr ""
 "<qt>మీరు ఖచ్చితంగా <i>%1</i> కర్సర్ థీమ్‌ను తీసివేద్దామని అనుకొనుచున్నారా?<br />ఈ థీమ్ ద్వారా "
 "సంస్థాపించబడిన అన్ని ఫైళ్ళను తొలగిస్తుంది.</qt>"
 
-#: xcursor/themepage.cpp:481
+#: xcursor/themepage.cpp:480
 msgid "Confirmation"
 msgstr "నిర్ధారణ"
 
-#: xcursor/themepage.cpp:538
+#: xcursor/themepage.cpp:537
 #, kde-format
 msgid ""
 "A theme named %1 already exists in your icon theme folder. Do you want "
@@ -577,7 +581,7 @@ msgstr ""
 "%1 నామముతో వున్న థీమ్ యిప్పటికే మీ ప్రతిమ థీమ్ ఫోల్డర్‌లో వుంది. మీరు దానిని దీనితో పునఃస్థాపించుదామని "
 "అనుకొనుచున్నారా?"
 
-#: xcursor/themepage.cpp:542
+#: xcursor/themepage.cpp:541
 msgid "Overwrite Theme?"
 msgstr "థీమ్‌ను వోవర్‌రైట్ చేయాలా?"
 
@@ -588,24 +592,26 @@ msgstr ""
 "మీరు వుపయోగించాలని అనుకొనుచున్న కర్సర్ థీమ్‌ను యెంపికచేయుము (కర్సర్‌ను పరీక్షించుటకు hover "
 "ముందస్తు వీక్షణం):"
 
-#. i18n: ectx: property (toolTip), widget (KPushButton, installKnsButton)
+#. i18n: ectx: property (toolTip), widget (QPushButton, installKnsButton)
 #: xcursor/themepage.ui:56
 msgid "Get new color schemes from the Internet"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (KPushButton, installKnsButton)
+#. i18n: ectx: property (text), widget (QPushButton, installKnsButton)
 #: xcursor/themepage.ui:59
 #, fuzzy
+#| msgid "Install New Theme..."
 msgid "Get New Theme..."
 msgstr "కొత్త థీమ్‌ను సంస్థాపించుము..."
 
-#. i18n: ectx: property (text), widget (KPushButton, installButton)
+#. i18n: ectx: property (text), widget (QPushButton, installButton)
 #: xcursor/themepage.ui:66
 #, fuzzy
+#| msgid "Install New Theme..."
 msgid "Install From File..."
 msgstr "కొత్త థీమ్‌ను సంస్థాపించుము..."
 
-#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
 #: xcursor/themepage.ui:73
 msgid "Remove Theme"
 msgstr "థీమ్‌ను తీసివేయి"

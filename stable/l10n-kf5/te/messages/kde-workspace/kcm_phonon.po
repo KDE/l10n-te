@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_phonon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:18+0000\n"
+"POT-Creation-Date: 2014-11-13 07:53+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -54,6 +54,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, profileLabel)
 #: audiosetup.ui:44
 #, fuzzy
+#| msgid "Prefer"
 msgid "Profile"
 msgstr "అభీష్ట"
 
@@ -75,6 +76,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, deviceLabel)
 #: audiosetup.ui:103
 #, fuzzy
+#| msgid "Show Advanced Devices"
 msgid "Sound Device"
 msgstr "ఆధునిక పరికరాలు చూపు"
 
@@ -131,6 +133,7 @@ msgstr ""
 
 #: devicepreference.cpp:152
 #, fuzzy
+#| msgid "prefer the selected device"
 msgid "Test the selected device"
 msgstr "ఎంపికచేసిన పరికరమును అభీష్టముచేయుము"
 
@@ -142,36 +145,45 @@ msgstr "స్వతంత్ర వర్గముల చేత ఓవర్‌
 
 #: devicepreference.cpp:306
 #, fuzzy
+#| msgid "Default Capture Device Preference"
 msgid "Default Audio Playback Device Preference"
 msgstr "అప్రమేయ కాప్చర్ పరికరము అభీష్టము"
 
 #: devicepreference.cpp:309
 #, fuzzy
+#| msgid "Default Capture Device Preference"
 msgid "Default Audio Recording Device Preference"
 msgstr "అప్రమేయ కాప్చర్ పరికరము అభీష్టము"
 
 #: devicepreference.cpp:312
 #, fuzzy
+#| msgid "Default Capture Device Preference"
 msgid "Default Video Recording Device Preference"
 msgstr "అప్రమేయ కాప్చర్ పరికరము అభీష్టము"
 
 #: devicepreference.cpp:319
 #, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
 msgid "Audio Playback Device Preference for the '%1' Category"
 msgstr "'%1' వర్గము కొరకు కాప్చర్ పరికరము అభీష్టము"
 
 #: devicepreference.cpp:323
 #, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
 msgid "Audio Recording Device Preference for the '%1' Category"
 msgstr "'%1' వర్గము కొరకు కాప్చర్ పరికరము అభీష్టము"
 
 #: devicepreference.cpp:327
 #, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
 msgid "Video Recording Device Preference for the '%1' Category "
 msgstr "'%1' వర్గము కొరకు కాప్చర్ పరికరము అభీష్టము"
 
 #: devicepreference.cpp:752
 #, fuzzy
+#| msgid ""
+#| "Apply the currently shown device preference list to the following other "
+#| "audio output categories:"
 msgid ""
 "Apply the currently shown device preference list to the following other "
 "audio playback categories:"
@@ -184,6 +196,7 @@ msgstr "అప్రమేయ/తెలుపని వర్గము"
 
 #: devicepreference.cpp:869
 #, fuzzy
+#| msgid "prefer the selected device"
 msgid "Failed to set the selected audio output device"
 msgstr "ఎంపికచేసిన పరికరమును అభీష్టముచేయుము"
 
@@ -211,6 +224,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, showAdvancedDevicesCheckBox)
 #: devicepreference.ui:47
 #, fuzzy
+#| msgid "Show Advanced Devices"
 msgid "Show advanced devices"
 msgstr "ఆధునిక పరికరాలు చూపు"
 
@@ -218,6 +232,9 @@ msgstr "ఆధునిక పరికరాలు చూపు"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
 #: devicepreference.ui:77 devicepreference.ui:80
 #, fuzzy
+#| msgid ""
+#| "Apply the currently shown device preference list to the following other "
+#| "audio output categories:"
 msgid "Use the currently shown device list for more categories."
 msgstr ""
 "క్రింది యితర ఆడియో అవట్‌పుట్ వర్గములకు ప్రస్తుతం చూపించబడుతున్న పరికరపు అభీష్ట జాబితాను ఆపాదించుము:"
@@ -343,14 +360,17 @@ msgstr ""
 #~ msgstr "ఆడియో కాప్చర్"
 
 #, fuzzy
+#~| msgid "Audio Capture"
 #~ msgid "Video Capture"
 #~ msgstr "ఆడియో కాప్చర్"
 
 #, fuzzy
+#~| msgid "Default Output Device Preference"
 #~ msgid "Default Audio Output Device Preference"
 #~ msgstr "అప్రమేయ అవుట్‌పుట్ పరికరము అభీష్టము"
 
 #, fuzzy
+#~| msgid "Output Device Preference for the '%1' Category"
 #~ msgid "Audio Output Device Preference for the '%1' Category"
 #~ msgstr "'%1' వర్గము కొరకు అవుట్‌పుట్ పరికరము అభీష్టము"
 
@@ -358,10 +378,12 @@ msgstr ""
 #~ msgstr "తొలగించు"
 
 #, fuzzy
+#~| msgid "Audio Output"
 #~ msgid "Output"
 #~ msgstr "ఆడియో అవట్‌పుట్"
 
 #, fuzzy
+#~| msgid "Audio Output"
 #~ msgid "Sound Output"
 #~ msgstr "ఆడియో అవట్‌పుట్"
 

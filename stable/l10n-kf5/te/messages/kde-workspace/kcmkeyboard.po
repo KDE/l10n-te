@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:18+0000\n"
+"POT-Creation-Date: 2015-03-19 08:45+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -44,13 +44,13 @@ msgstr ""
 msgid "Switch keyboard layout to %1"
 msgstr ""
 
-#: flags.cpp:141
+#: flags.cpp:172
 #, kde-format
 msgctxt "short layout label - full layout name"
 msgid "%1 - %2"
 msgstr ""
 
-#: flags.cpp:149
+#: flags.cpp:180
 #, kde-format
 msgctxt "layout - variant"
 msgid "%1 - %2"
@@ -62,6 +62,8 @@ msgstr ""
 
 #: kcm_add_layout_dialog.cpp:139 kcm_view_models.cpp:308
 #, fuzzy
+#| msgctxt "Default variant"
+#| msgid "Default"
 msgctxt "variant"
 msgid "Default"
 msgstr "అప్రమెయం"
@@ -69,6 +71,7 @@ msgstr "అప్రమెయం"
 #. i18n: ectx: property (windowTitle), widget (QDialog, AddLayoutDialog)
 #: kcm_add_layout_dialog.ui:14
 #, fuzzy
+#| msgid "Keyboard Repeat"
 msgid "Add Layout"
 msgstr "కీబోర్డు పునరావృతము"
 
@@ -125,6 +128,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: kcm_keyboard.ui:33
 #, fuzzy
+#| msgid "Keyboard Repeat"
 msgid "Keyboard &model:"
 msgstr "కీబోర్డు పునరావృతము"
 
@@ -142,6 +146,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tabLayouts)
 #: kcm_keyboard.ui:94
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "Layouts"
 msgstr "(&E) కీబోర్డు పునరావృతమును చేతనము చేయుము"
 
@@ -158,6 +163,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, showSingleChk)
 #: kcm_keyboard.ui:115
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "Show for single layout"
 msgstr "(&E) కీబోర్డు పునరావృతమును చేతనము చేయుము"
 
@@ -211,6 +217,7 @@ msgstr "(&W) విండో"
 #. i18n: ectx: property (title), widget (QGroupBox, shortcutsGroupBox)
 #: kcm_keyboard.ui:201
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "Shortcuts for Switching Layout"
 msgstr "(&E) కీబోర్డు పునరావృతమును చేతనము చేయుము"
 
@@ -267,6 +274,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, layoutsGroupBox)
 #: kcm_keyboard.ui:298
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "Configure layouts"
 msgstr "(&E) కీబోర్డు పునరావృతమును చేతనము చేయుము"
 
@@ -293,6 +301,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, layoutLoopingCheckBox)
 #: kcm_keyboard.ui:387
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "Spare layouts"
 msgstr "(&E) కీబోర్డు పునరావృతమును చేతనము చేయుము"
 
@@ -309,6 +318,7 @@ msgstr "ఆధునాతన"
 #. i18n: ectx: property (text), widget (QCheckBox, configureKeyboardOptionsChk)
 #: kcm_keyboard.ui:455
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "&Configure keyboard options"
 msgstr "(&E) కీబోర్డు పునరావృతమును చేతనము చేయుము"
 
@@ -335,6 +345,7 @@ msgstr[4] ""
 
 #: kcm_keyboard_widget.cpp:612
 #, fuzzy
+#| msgid "None"
 msgctxt "no shortcuts defined"
 msgid "None"
 msgstr "ఏదీకాదు"
@@ -392,6 +403,7 @@ msgstr "(&u) ఆన్ చేయుము"
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton2)
 #: kcmmiscwidget.ui:39
 #, fuzzy
+#| msgid "Turn o&ff"
 msgid "&Turn off"
 msgstr "(&o) ఆఫ్ చేయుము"
 
@@ -413,6 +425,7 @@ msgstr "(&o) ఆఫ్ చేయుము"
 #. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatUnchangedRadioButton)
 #: kcmmiscwidget.ui:85
 #, fuzzy
+#| msgid "Leave unchan&ged"
 msgid "&Leave unchanged"
 msgstr "(&g) మార్చకుండా వదిలివేయుము"
 
@@ -467,16 +480,19 @@ msgstr ""
 
 #: layout_tray_icon.cpp:46 layout_tray_icon.cpp:47
 #, fuzzy
+#| msgid "Keyboard Repeat"
 msgctxt "tooltip title"
 msgid "Keyboard Layout"
 msgstr "కీబోర్డు పునరావృతము"
 
 #: layouts_menu.cpp:134
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "Configure..."
 msgstr "(&E) కీబోర్డు పునరావృతమును చేతనము చేయుము"
 
 #, fuzzy
+#~| msgid "Key click &volume:"
 #~ msgid "&Key click volume:"
 #~ msgstr "(&v) కీ వత్తు వాల్యూమ్:"
 
