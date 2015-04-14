@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-06 08:50+0000\n"
+"POT-Creation-Date: 2015-04-14 12:28+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -44,12 +44,12 @@ msgstr "మాథ్యు వొయెహ్కే"
 msgid "Jeremy Whiting"
 msgstr "జెర్మీ వైటింగ్"
 
-#: colorscm.cpp:158 colorscm.cpp:286 colorscm.cpp:1304
+#: colorscm.cpp:158 colorscm.cpp:286 colorscm.cpp:1316
 msgctxt "Default color scheme"
 msgid "Default"
 msgstr "అప్రమెయం"
 
-#: colorscm.cpp:163 colorscm.cpp:298 colorscm.cpp:1122 colorscm.cpp:1208
+#: colorscm.cpp:163 colorscm.cpp:298 colorscm.cpp:1122 colorscm.cpp:1214
 msgctxt "Current color scheme"
 msgid "Current"
 msgstr "ప్రస్తుత"
@@ -179,6 +179,12 @@ msgstr "ఫోకస్ అలంకరణ"
 msgid "Hover Decoration"
 msgstr "హోవర్ అలంకరణ"
 
+#: colorscm.cpp:1185 colorscm.cpp:1240
+#, fuzzy
+#| msgid "Inactive"
+msgid "Inactive"
+msgstr "క్రియాహీన"
+
 #. i18n: ectx: attribute (title), widget (QWidget, pageScheme)
 #: colorsettings.ui:24
 msgid "&Scheme"
@@ -240,8 +246,8 @@ msgstr "స్కీమాను తీసివేయుము"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: colorsettings.ui:125 colorsettings.ui:672 colorsettings.ui:959
 #: colorsettings.ui:1209
 msgid "Preview"
@@ -479,170 +485,27 @@ msgstr "క్రియాహీన శీర్షికపట్టీ వచ�
 msgid "Inactive Titlebar Secondary"
 msgstr "క్రియాహీన శీర్షికపట్టీ వచనము"
 
-#. i18n: ectx: attribute (title), widget (QWidget, pageInactice)
-#: colorsettings.ui:735
-#, fuzzy
-#| msgid "Inactive"
-msgctxt "@title:tab color transformations on inactive elements"
-msgid "Inactive"
-msgstr "క్రియాహీన"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: colorsettings.ui:741 colorsettings.ui:991
-msgid "Intensity:"
-msgstr "ఇంటెన్సిటి:"
-
-#. i18n: ectx: property (toolTip), widget (QComboBox, inactiveIntensityBox)
-#: colorsettings.ui:751
-msgid "Inactive intensity effect type"
-msgstr "క్రియాహీన ఇంటెన్సిటి ప్రభావము రకము"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
-#: colorsettings.ui:755
-#, fuzzy
-#| msgid "None"
-msgctxt "no inactive intensity effect"
-msgid "None"
-msgstr "ఏదీకాదు"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
-#: colorsettings.ui:760
-#, fuzzy
-#| msgid "Shade"
-msgctxt "inactive intensity effect"
-msgid "Shade"
-msgstr "ఛాయ(షేడ్)"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
-#: colorsettings.ui:765
-#, fuzzy
-#| msgid "Darken"
-msgctxt "inactive intensity effect"
-msgid "Darken"
-msgstr "చీకటిగా(డార్కెన్)"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
-#: colorsettings.ui:770
-#, fuzzy
-#| msgid "Lighten"
-msgctxt "inactive intensity effect"
-msgid "Lighten"
-msgstr "వెలుగుగా(లైటెన్)"
-
-#. i18n: ectx: property (toolTip), widget (QSlider, inactiveIntensitySlider)
-#: colorsettings.ui:781
-msgid "Inactive intensity effect amount"
-msgstr "క్రియాహీన ఇంటెన్సిటి ప్రభావపు ఎమౌంట్"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: colorsettings.ui:813 colorsettings.ui:1063
-msgid "Color:"
-msgstr "రంగు:"
-
-#. i18n: ectx: property (toolTip), widget (QComboBox, inactiveColorBox)
-#: colorsettings.ui:823
-msgid "Inactive color effect type"
-msgstr "క్రియాహీన రంగు ప్రభావము రకము"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
-#: colorsettings.ui:827
-#, fuzzy
-#| msgid "None"
-msgctxt "no inactive color effect"
-msgid "None"
-msgstr "ఏదీకాదు"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
-#: colorsettings.ui:832
-#, fuzzy
-#| msgid "Desaturate"
-msgctxt "inactive color effect"
-msgid "Desaturate"
-msgstr "డీసాట్యురేట్"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
-#: colorsettings.ui:837
-#, fuzzy
-#| msgid "Fade"
-msgctxt "inactive color effect"
-msgid "Fade"
-msgstr "ఫేడ్"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
-#: colorsettings.ui:842
-#, fuzzy
-#| msgid "Tint"
-msgctxt "inactive color effect"
-msgid "Tint"
-msgstr "టింట్"
-
-#. i18n: ectx: property (toolTip), widget (QSlider, inactiveColorSlider)
-#: colorsettings.ui:853
-msgid "Inactive color amount"
-msgstr "క్రియాహీన రంగు ఎమౌంట్"
-
-#. i18n: ectx: property (toolTip), widget (KColorButton, inactiveColorButton)
-#: colorsettings.ui:872
-msgid "Inactive color"
-msgstr "క్రియాహీన రంగు"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: colorsettings.ui:879 colorsettings.ui:1129
-msgid "Contrast:"
-msgstr "కాంట్రాస్ట్:"
-
-#. i18n: ectx: property (toolTip), widget (QComboBox, inactiveContrastBox)
-#: colorsettings.ui:889
-msgid "Inactive contrast effect type"
-msgstr "క్రియాహీన కాంట్రాస్ట్ ప్రభావపు రకము"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
-#: colorsettings.ui:893
-#, fuzzy
-#| msgid "None"
-msgctxt "no inactive contrast effect"
-msgid "None"
-msgstr "ఏదీకాదు"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
-#: colorsettings.ui:898
-#, fuzzy
-#| msgid "Fade"
-msgctxt "inactive contrast effect"
-msgid "Fade"
-msgstr "ఫేడ్"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
-#: colorsettings.ui:903
-#, fuzzy
-#| msgid "Tint"
-msgctxt "inactive contrast effect"
-msgid "Tint"
-msgstr "టింట్"
-
-#. i18n: ectx: property (toolTip), widget (QSlider, inactiveContrastSlider)
-#: colorsettings.ui:914
-msgid "Inactive contrast effect amount"
-msgstr "క్రియాహీన కాంట్రాస్ట్ ప్రభావపు ఎమౌంట్"
-
 #. i18n: ectx: attribute (title), widget (QWidget, pageDisabled)
-#: colorsettings.ui:985
+#: colorsettings.ui:735
 #, fuzzy
 #| msgid "Disabled"
 msgctxt "@title:tab color transformations on disabled elements"
 msgid "Disabled"
 msgstr "అచేతనమైన"
 
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: colorsettings.ui:741 colorsettings.ui:991
+msgid "Intensity:"
+msgstr "ఇంటెన్సిటి:"
+
 #. i18n: ectx: property (toolTip), widget (QComboBox, disabledIntensityBox)
-#: colorsettings.ui:1001
+#: colorsettings.ui:751
 msgid "Disabled intensity effect type"
 msgstr "అచేతనమైన ఇంటెన్సిటి ప్రభావపు రకము"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
-#: colorsettings.ui:1005
+#: colorsettings.ui:755
 #, fuzzy
 #| msgid "None"
 msgctxt "no disabled intensity effect"
@@ -650,7 +513,7 @@ msgid "None"
 msgstr "ఏదీకాదు"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
-#: colorsettings.ui:1010
+#: colorsettings.ui:760
 #, fuzzy
 #| msgid "Shade"
 msgctxt "disabled intensity effect"
@@ -658,7 +521,7 @@ msgid "Shade"
 msgstr "ఛాయ(షేడ్)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
-#: colorsettings.ui:1015
+#: colorsettings.ui:765
 #, fuzzy
 #| msgid "Darken"
 msgctxt "disabled intensity effect"
@@ -666,7 +529,7 @@ msgid "Darken"
 msgstr "చీకటిగా(డార్కెన్)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
-#: colorsettings.ui:1020
+#: colorsettings.ui:770
 #, fuzzy
 #| msgid "Lighten"
 msgctxt "disabled intensity effect"
@@ -674,17 +537,23 @@ msgid "Lighten"
 msgstr "వెలుగుగా(లైటెన్)"
 
 #. i18n: ectx: property (toolTip), widget (QSlider, disabledIntensitySlider)
-#: colorsettings.ui:1031
+#: colorsettings.ui:781
 msgid "Disabled intensity effect amount"
 msgstr "అచేతనమైన ఇంటెన్సిటి ప్రాభావపు ఎమౌంట్"
 
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: colorsettings.ui:813 colorsettings.ui:1063
+msgid "Color:"
+msgstr "రంగు:"
+
 #. i18n: ectx: property (toolTip), widget (QComboBox, disabledColorBox)
-#: colorsettings.ui:1073
+#: colorsettings.ui:823
 msgid "Disabled color effect type"
 msgstr "అచేతనమై రంగు ప్రాభావపు రకము"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
-#: colorsettings.ui:1077
+#: colorsettings.ui:827
 #, fuzzy
 #| msgid "None"
 msgctxt "no disabled color effect"
@@ -692,7 +561,7 @@ msgid "None"
 msgstr "ఏదీకాదు"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
-#: colorsettings.ui:1082
+#: colorsettings.ui:832
 #, fuzzy
 #| msgid "Desaturate"
 msgctxt "disabled color effect"
@@ -700,7 +569,7 @@ msgid "Desaturate"
 msgstr "డీసాట్యురేట్"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
-#: colorsettings.ui:1087
+#: colorsettings.ui:837
 #, fuzzy
 #| msgid "Fade"
 msgctxt "disabled color effect"
@@ -708,7 +577,7 @@ msgid "Fade"
 msgstr "ఫేడ్"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
-#: colorsettings.ui:1092
+#: colorsettings.ui:842
 #, fuzzy
 #| msgid "Tint"
 msgctxt "disabled color effect"
@@ -716,22 +585,28 @@ msgid "Tint"
 msgstr "టింట్"
 
 #. i18n: ectx: property (toolTip), widget (QSlider, disabledColorSlider)
-#: colorsettings.ui:1103
+#: colorsettings.ui:853
 msgid "Disabled color effect amount"
 msgstr "అచేతనమైన రంగు ప్రభావపు ఎమౌంట్"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, disabledColorButton)
-#: colorsettings.ui:1122
+#: colorsettings.ui:872
 msgid "Disabled color"
 msgstr "అచేతనమైన రంగు"
 
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: colorsettings.ui:879 colorsettings.ui:1129
+msgid "Contrast:"
+msgstr "కాంట్రాస్ట్:"
+
 #. i18n: ectx: property (toolTip), widget (QComboBox, disabledContrastBox)
-#: colorsettings.ui:1139
+#: colorsettings.ui:889
 msgid "Disabled contrast type"
 msgstr "అచేతనమైన కాంట్రాస్ట్  రకము"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
-#: colorsettings.ui:1143
+#: colorsettings.ui:893
 #, fuzzy
 #| msgid "None"
 msgctxt "no disabled contrast"
@@ -739,7 +614,7 @@ msgid "None"
 msgstr "ఏదీకాదు"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
-#: colorsettings.ui:1148
+#: colorsettings.ui:898
 #, fuzzy
 #| msgid "Fade"
 msgctxt "disabled contrast"
@@ -747,7 +622,7 @@ msgid "Fade"
 msgstr "ఫేడ్"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
-#: colorsettings.ui:1153
+#: colorsettings.ui:903
 #, fuzzy
 #| msgid "Tint"
 msgctxt "disabled contrast"
@@ -755,9 +630,140 @@ msgid "Tint"
 msgstr "టింట్"
 
 #. i18n: ectx: property (toolTip), widget (QSlider, disabledContrastSlider)
-#: colorsettings.ui:1164
+#: colorsettings.ui:914
 msgid "Disabled contrast amount"
 msgstr "అచేతనమైన కాంట్రాస్ట్  ఎమౌంట్"
+
+#. i18n: ectx: attribute (title), widget (QWidget, pageInactive)
+#: colorsettings.ui:985
+#, fuzzy
+#| msgid "Inactive"
+msgctxt "@title:tab color transformations on inactive elements"
+msgid "Inactive"
+msgstr "క్రియాహీన"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, inactiveIntensityBox)
+#: colorsettings.ui:1001
+msgid "Inactive intensity effect type"
+msgstr "క్రియాహీన ఇంటెన్సిటి ప్రభావము రకము"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
+#: colorsettings.ui:1005
+#, fuzzy
+#| msgid "None"
+msgctxt "no inactive intensity effect"
+msgid "None"
+msgstr "ఏదీకాదు"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
+#: colorsettings.ui:1010
+#, fuzzy
+#| msgid "Shade"
+msgctxt "inactive intensity effect"
+msgid "Shade"
+msgstr "ఛాయ(షేడ్)"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
+#: colorsettings.ui:1015
+#, fuzzy
+#| msgid "Darken"
+msgctxt "inactive intensity effect"
+msgid "Darken"
+msgstr "చీకటిగా(డార్కెన్)"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
+#: colorsettings.ui:1020
+#, fuzzy
+#| msgid "Lighten"
+msgctxt "inactive intensity effect"
+msgid "Lighten"
+msgstr "వెలుగుగా(లైటెన్)"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, inactiveIntensitySlider)
+#: colorsettings.ui:1031
+msgid "Inactive intensity effect amount"
+msgstr "క్రియాహీన ఇంటెన్సిటి ప్రభావపు ఎమౌంట్"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, inactiveColorBox)
+#: colorsettings.ui:1073
+msgid "Inactive color effect type"
+msgstr "క్రియాహీన రంగు ప్రభావము రకము"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
+#: colorsettings.ui:1077
+#, fuzzy
+#| msgid "None"
+msgctxt "no inactive color effect"
+msgid "None"
+msgstr "ఏదీకాదు"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
+#: colorsettings.ui:1082
+#, fuzzy
+#| msgid "Desaturate"
+msgctxt "inactive color effect"
+msgid "Desaturate"
+msgstr "డీసాట్యురేట్"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
+#: colorsettings.ui:1087
+#, fuzzy
+#| msgid "Fade"
+msgctxt "inactive color effect"
+msgid "Fade"
+msgstr "ఫేడ్"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
+#: colorsettings.ui:1092
+#, fuzzy
+#| msgid "Tint"
+msgctxt "inactive color effect"
+msgid "Tint"
+msgstr "టింట్"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, inactiveColorSlider)
+#: colorsettings.ui:1103
+msgid "Inactive color amount"
+msgstr "క్రియాహీన రంగు ఎమౌంట్"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, inactiveColorButton)
+#: colorsettings.ui:1122
+msgid "Inactive color"
+msgstr "క్రియాహీన రంగు"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, inactiveContrastBox)
+#: colorsettings.ui:1139
+msgid "Inactive contrast effect type"
+msgstr "క్రియాహీన కాంట్రాస్ట్ ప్రభావపు రకము"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
+#: colorsettings.ui:1143
+#, fuzzy
+#| msgid "None"
+msgctxt "no inactive contrast effect"
+msgid "None"
+msgstr "ఏదీకాదు"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
+#: colorsettings.ui:1148
+#, fuzzy
+#| msgid "Fade"
+msgctxt "inactive contrast effect"
+msgid "Fade"
+msgstr "ఫేడ్"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
+#: colorsettings.ui:1153
+#, fuzzy
+#| msgid "Tint"
+msgctxt "inactive contrast effect"
+msgid "Tint"
+msgstr "టింట్"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, inactiveContrastSlider)
+#: colorsettings.ui:1164
+msgid "Inactive contrast effect amount"
+msgstr "క్రియాహీన కాంట్రాస్ట్ ప్రభావపు ఎమౌంట్"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #: preview.ui:29
