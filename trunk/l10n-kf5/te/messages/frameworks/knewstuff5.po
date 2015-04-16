@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-12 07:56+0000\n"
+"POT-Creation-Date: 2015-04-16 08:32+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -358,6 +358,118 @@ msgstr "కబొయో ఫ్యాన్ "
 #: ui/itemsviewdelegate.cpp:148
 msgid "Install"
 msgstr "స్థాపించు"
+
+#: kmoretools/kmoretools.cpp:590
+#, fuzzy
+#| msgctxt ""
+#| "@option:check An item in a list of resources that allows to query for "
+#| "more resources to put in the list"
+#| msgid "More..."
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "చాలా....."
+
+#: kmoretools/kmoretools.cpp:605
+#, fuzzy
+#| msgid "Installed"
+msgctxt "@action:inmenu"
+msgid "Not installed:"
+msgstr "స్థాపించబడిన"
+
+#: kmoretools/kmoretools.cpp:641
+#, fuzzy
+#| msgid "Confi&gure..."
+msgctxt "@action:inmenu"
+msgid "Configure..."
+msgstr "(&g) అమర్చు..."
+
+#: kmoretools/kmoretools_p.h:370
+#, fuzzy
+#| msgid "Visit contributor's homepage"
+msgctxt "@action:inmenu"
+msgid "Visit homepage"
+msgstr "కంట్రిభ్యూటర్స్ హొమ్ పుటను వీక్షించుట"
+
+#: kmoretools/kmoretools_p.h:377
+#, fuzzy
+#| msgid "There is no matching item available.\n"
+msgctxt "@action:inmenu"
+msgid "No further information available."
+msgstr "జతైన అంశము దొరకలేదు.\n"
+
+#: kmoretools/kmoretoolsconfigdialog_p.cpp:191
+#, fuzzy
+#| msgid "Configure"
+msgid "Configure menu"
+msgstr "అమర్చు"
+
+#: kmoretools/kmoretoolsconfigdialog_p.cpp:193
+#, fuzzy, kde-format
+#| msgid "&Configure %1..."
+msgid "Configure menu - %1"
+msgstr "(&C) %1 ను అమర్చు..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:25
+#, fuzzy
+#| msgid "Maintainer"
+msgid "Main section"
+msgstr "గురు"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveDown)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:58
+#, fuzzy
+#| msgid "Move &Down"
+msgid "Move down"
+msgstr "(&D) క్రిందకి జరపండి"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveUp)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:79
+#, fuzzy
+#| msgid "Move &Up"
+msgid "Move up"
+msgstr "(&U) పైకి జరపండి"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMain)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:100
+msgid "Move to Main section"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:121
+#, fuzzy
+#| msgid "More Actions"
+msgid "Move to More section"
+msgstr "మరిన్ని చర్యలు"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonReset)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:142
+msgid "Reset"
+msgstr "పునః అమర్పు"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMoreSection)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:161
+#, fuzzy
+#| msgid "More Actions"
+msgid "More section"
+msgstr "మరిన్ని చర్యలు"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:213
+msgid ""
+"For this menu there are some more tools suggested which are currently not "
+"installed:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:223
+#, fuzzy
+#| msgctxt ""
+#| "@option:check An item in a list of resources that allows to query for "
+#| "more resources to put in the list"
+#| msgid "More..."
+msgid "More tools..."
+msgstr "చాలా....."
 
 #: ui/entrydetailsdialog.cpp:91
 #, kde-format
@@ -3543,9 +3655,6 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgid "Configure S&hortcuts..."
 #~ msgstr "(&h) శీఘ్రమార్గాలను అమర్చు..."
 
-#~ msgid "&Configure %1..."
-#~ msgstr "(&C) %1 ను అమర్చు..."
-
 #~ msgid "Configure Tool&bars..."
 #~ msgstr "(&b) పనిముట్ల పట్టిలను అమర్చు..."
 
@@ -3737,9 +3846,6 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgctxt "Action to send an email to a contributor"
 #~ msgid "Email contributor"
 #~ msgstr "ఎలక్ట్రానిక్ఉత్తరం మిగిలిన దాతలు:"
-
-#~ msgid "Visit contributor's homepage"
-#~ msgstr "కంట్రిభ్యూటర్స్ హొమ్ పుటను వీక్షించుట"
 
 #~ msgctxt "Action to send an email to a contributor"
 #~ msgid ""
@@ -3981,9 +4087,6 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgid "Close Message"
 #~ msgstr "సందేశము మూసివేయుము"
 
-#~ msgid "Configure"
-#~ msgstr "అమర్చు"
-
 #~ msgid "Job"
 #~ msgstr "జాబ్"
 
@@ -4204,9 +4307,6 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgid "Reset Toolbars"
 #~ msgstr "పనిముట్లపట్టీలు పునఃఅమర్పు చేయుము"
 
-#~ msgid "Reset"
-#~ msgstr "పునః అమర్పు"
-
 #~ msgid "&Toolbar:"
 #~ msgstr "(&T) పనిముట్లపట్టీ:"
 
@@ -4342,9 +4442,6 @@ msgstr "ఎక్కించుట మొదలపె"
 
 #~ msgid "Delete"
 #~ msgstr "తొలగించు"
-
-#~ msgid "More Actions"
-#~ msgstr "మరిన్ని చర్యలు"
 
 #~ msgid "Save as Scheme Defaults"
 #~ msgstr "స్కీమా అప్రమేయాలలా భద్రపరచుము"
@@ -5516,9 +5613,6 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ "పూరణ సంగ్దిదమైనది, \n"
 #~ "ఒకటి కంటే ఎక్కువ జతలు కలవు.\n"
 
-#~ msgid "There is no matching item available.\n"
-#~ msgstr "జతైన అంశము దొరకలేదు.\n"
-
 #~ msgid "Backspace"
 #~ msgstr "Backspace"
 
@@ -5698,9 +5792,6 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgctxt "Verb"
 #~ msgid "&Insert"
 #~ msgstr "(&I) దూర్చు"
-
-#~ msgid "Confi&gure..."
-#~ msgstr "(&g) అమర్చు..."
 
 #~ msgid "Add"
 #~ msgstr "కలుపు"
@@ -6715,12 +6806,6 @@ msgstr "ఎక్కించుట మొదలపె"
 
 #~ msgid "&Remove"
 #~ msgstr "(&R) తొలగించు"
-
-#~ msgid "Move &Up"
-#~ msgstr "(&U) పైకి జరపండి"
-
-#~ msgid "Move &Down"
-#~ msgstr "(&D) క్రిందకి జరపండి"
 
 #~ msgid "&Help"
 #~ msgstr "(&H) సహాయము"
@@ -9138,9 +9223,6 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgid "Sebastian Trüg"
 #~ msgstr "సెబాస్టియన్  ట్ర"
 
-#~ msgid "Maintainer"
-#~ msgstr "గురు"
-
 #~ msgid "Tobias Koenig"
 #~ msgstr "టొబియాస్ కొయిని"
 
@@ -9302,12 +9384,6 @@ msgstr "ఎక్కించుట మొదలపె"
 
 #~ msgid "After"
 #~ msgstr "తరువా"
-
-#~ msgctxt ""
-#~ "@option:check An item in a list of resources that allows to query for "
-#~ "more resources to put in the list"
-#~ msgid "More..."
-#~ msgstr "చాలా....."
 
 #~ msgctxt "@option:check A filter on file type"
 #~ msgid "Documents"
