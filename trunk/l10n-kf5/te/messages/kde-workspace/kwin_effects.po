@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_effects\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-04-08 08:29+0000\n"
+"POT-Creation-Date: 2015-04-18 09:11+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -437,7 +437,6 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: desktopgrid/desktopgrid_config.cpp:77 flipswitch/flipswitch_config.ui:125
-#: mouseclick/mouseclick.cpp:60
 msgid "Right"
 msgstr ""
 
@@ -456,7 +455,6 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: desktopgrid/desktopgrid_config.cpp:81 flipswitch/flipswitch_config.ui:105
-#: mouseclick/mouseclick.cpp:58
 msgid "Left"
 msgstr ""
 
@@ -1071,8 +1069,19 @@ msgstr ""
 msgid "Toggle Mouse Click Effect"
 msgstr "విలోమ ప్రభావమును మార్చుము"
 
+#: mouseclick/mouseclick.cpp:58
+msgctxt "Left mouse button"
+msgid "Left"
+msgstr ""
+
 #: mouseclick/mouseclick.cpp:59
+msgctxt "Middle mouse button"
 msgid "Middle"
+msgstr ""
+
+#: mouseclick/mouseclick.cpp:60
+msgctxt "Right mouse button"
+msgid "Right"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, basic_tab)
