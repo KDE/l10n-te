@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-04-18 09:00+0000\n"
+"POT-Creation-Date: 2015-05-03 08:53+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -359,7 +359,7 @@ msgstr "కబొయో ఫ్యాన్ "
 msgid "Install"
 msgstr "స్థాపించు"
 
-#: kmoretools/kmoretools.cpp:628
+#: kmoretools/kmoretools.cpp:637
 #, fuzzy
 #| msgctxt ""
 #| "@option:check An item in a list of resources that allows to query for "
@@ -369,14 +369,14 @@ msgctxt "@action:inmenu"
 msgid "More"
 msgstr "చాలా....."
 
-#: kmoretools/kmoretools.cpp:643
+#: kmoretools/kmoretools.cpp:652
 #, fuzzy
 #| msgid "Installed"
 msgctxt "@action:inmenu"
 msgid "Not installed:"
 msgstr "స్థాపించబడిన"
 
-#: kmoretools/kmoretools.cpp:679
+#: kmoretools/kmoretools.cpp:688
 #, fuzzy
 #| msgid "Confi&gure..."
 msgctxt "@action:inmenu"
@@ -408,6 +408,21 @@ msgstr "అమర్చు"
 #| msgid "&Configure %1..."
 msgid "Configure menu - %1"
 msgstr "(&C) %1 ను అమర్చు..."
+
+#: kmoretools/kmoretoolsmenufactory.cpp:110
+msgctxt "@action:inmenu"
+msgid "$GenericName - current folder"
+msgstr ""
+
+#: kmoretools/kmoretoolsmenufactory.cpp:118
+msgctxt "@action:inmenu"
+msgid "$GenericName - current device"
+msgstr ""
+
+#: kmoretools/kmoretoolsmenufactory.cpp:133
+msgctxt "@action:inmenu"
+msgid "$GenericName - all devices"
+msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
 #: kmoretools/ui/kmoretoolsconfigwidget.ui:25
