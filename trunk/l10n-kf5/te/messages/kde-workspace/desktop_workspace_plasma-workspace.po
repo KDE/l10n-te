@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-04-28 12:21+0000\n"
+"POT-Creation-Date: 2015-05-11 09:29+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -210,7 +210,6 @@ msgid "Monitor the load of the CPUs"
 msgstr ""
 
 #: applets/systemmonitor/diskactivity/metadata.desktop:3
-#: applets/system-monitor/plasma-applet-sm_hdd_activity.desktop:3
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "A battery charge monitor"
@@ -219,25 +218,21 @@ msgid "Hard Disk I/O Monitor"
 msgstr "బ్యాటరి మార్పుదల మానిటర్"
 
 #: applets/systemmonitor/diskactivity/metadata.desktop:52
-#: applets/system-monitor/plasma-applet-sm_hdd_activity.desktop:53
 msgctxt "Comment"
 msgid "An applet that monitors hard disk throughput and input/output"
 msgstr ""
 
 #: applets/systemmonitor/diskusage/metadata.desktop:3
-#: applets/system-monitor/plasma-applet-sm_hdd.desktop:3
 msgctxt "Name"
 msgid "Hard Disk Space Usage"
 msgstr ""
 
 #: applets/systemmonitor/diskusage/metadata.desktop:51
-#: applets/system-monitor/plasma-applet-sm_hdd.desktop:51
 msgctxt "Comment"
 msgid "An applet that monitors hard disk space usage and percentage"
 msgstr ""
 
 #: applets/systemmonitor/memory/metadata.desktop:3
-#: applets/system-monitor/plasma-applet-sm_ram.desktop:3
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Samba Status"
@@ -246,7 +241,6 @@ msgid "Memory Status"
 msgstr "సాంబా స్థితి"
 
 #: applets/systemmonitor/memory/metadata.desktop:64
-#: applets/system-monitor/plasma-applet-sm_ram.desktop:64
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "A battery charge monitor"
@@ -255,7 +249,6 @@ msgid "A RAM usage monitor"
 msgstr "బ్యాటరి మార్పుదల మానిటర్"
 
 #: applets/systemmonitor/net/metadata.desktop:3
-#: applets/system-monitor/plasma-applet-sm_net.desktop:3
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Network Tool"
@@ -264,69 +257,12 @@ msgid "Network Monitor"
 msgstr "నెట్వర్‍క్  సాధనం"
 
 #: applets/systemmonitor/net/metadata.desktop:66
-#: applets/system-monitor/plasma-applet-sm_net.desktop:66
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "A battery charge monitor"
 msgctxt "Comment"
 msgid "A network usage monitor"
 msgstr "బ్యాటరి మార్పుదల మానిటర్"
-
-#: applets/system-monitor/plasma-applet-sm_cpu.desktop:3
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "A battery charge monitor"
-msgctxt "Name"
-msgid "CPU Monitor"
-msgstr "బ్యాటరి మార్పుదల మానిటర్"
-
-#: applets/system-monitor/plasma-applet-sm_cpu.desktop:65
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "A battery charge monitor"
-msgctxt "Comment"
-msgid "A CPU usage monitor"
-msgstr "బ్యాటరి మార్పుదల మానిటర్"
-
-#: applets/system-monitor/plasma-applet-sm_hwinfo.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Hardware"
-msgctxt "Name"
-msgid "Hardware Info"
-msgstr "హార్డువేర్"
-
-#: applets/system-monitor/plasma-applet-sm_hwinfo.desktop:65
-msgctxt "Comment"
-msgid "Show hardware info"
-msgstr "హార్డువేర్ సమాచారమును చూపుము"
-
-#: applets/system-monitor/plasma-applet-sm_temperature.desktop:3
-msgctxt "Name"
-msgid "Hardware Temperature"
-msgstr ""
-
-#: applets/system-monitor/plasma-applet-sm_temperature.desktop:64
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "A battery charge monitor"
-msgctxt "Comment"
-msgid "A system temperature monitor"
-msgstr "బ్యాటరి మార్పుదల మానిటర్"
-
-#: applets/system-monitor/plasma-applet-system-monitor.desktop:2
-#: dataengines/systemmonitor/plasma-dataengine-systemmonitor.desktop:3
-msgctxt "Name"
-msgid "System Monitor"
-msgstr "సిస్టమ్ మానిటర్"
-
-#: applets/system-monitor/plasma-applet-system-monitor.desktop:85
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "System Monitor"
-msgctxt "Comment"
-msgid "System monitoring applet"
-msgstr "సిస్టమ్ మానిటర్"
 
 #: applets/systemtray/package/metadata.desktop:2
 msgctxt "Name"
@@ -901,6 +837,11 @@ msgid ""
 "Engine for applications' status information, based on the Status Notifier "
 "protocol."
 msgstr ""
+
+#: dataengines/systemmonitor/plasma-dataengine-systemmonitor.desktop:3
+msgctxt "Name"
+msgid "System Monitor"
+msgstr "సిస్టమ్ మానిటర్"
 
 #: dataengines/systemmonitor/plasma-dataengine-systemmonitor.desktop:86
 #, fuzzy
@@ -2199,6 +2140,45 @@ msgstr "చిత్రాలు"
 msgctxt "Name"
 msgid "Slideshow"
 msgstr "సాలిడ్"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "A battery charge monitor"
+#~ msgctxt "Name"
+#~ msgid "CPU Monitor"
+#~ msgstr "బ్యాటరి మార్పుదల మానిటర్"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "A battery charge monitor"
+#~ msgctxt "Comment"
+#~ msgid "A CPU usage monitor"
+#~ msgstr "బ్యాటరి మార్పుదల మానిటర్"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Hardware"
+#~ msgctxt "Name"
+#~ msgid "Hardware Info"
+#~ msgstr "హార్డువేర్"
+
+#~ msgctxt "Comment"
+#~ msgid "Show hardware info"
+#~ msgstr "హార్డువేర్ సమాచారమును చూపుము"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "A battery charge monitor"
+#~ msgctxt "Comment"
+#~ msgid "A system temperature monitor"
+#~ msgstr "బ్యాటరి మార్పుదల మానిటర్"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "System Monitor"
+#~ msgctxt "Comment"
+#~ msgid "System monitoring applet"
+#~ msgstr "సిస్టమ్ మానిటర్"
 
 #, fuzzy
 #~| msgctxt "Name"
