@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-29 08:08+0000\n"
+"POT-Creation-Date: 2015-06-20 09:58+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -19,19 +19,19 @@ msgstr ""
 "4;\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: contents/ui/main.qml:54
+#: contents/ui/main.qml:86
 msgctxt "a verb"
 msgid "Open"
 msgstr ""
 
-#: contents/ui/main.qml:55
+#: contents/ui/main.qml:87
 #, fuzzy
 #| msgid "Trash"
 msgctxt "a verb"
 msgid "Empty"
 msgstr "ట్రాష్"
 
-#: contents/ui/main.qml:73
+#: contents/ui/main.qml:116
 #, fuzzy
 #| msgid "Trash"
 msgid ""
@@ -39,7 +39,7 @@ msgid ""
 "Empty"
 msgstr "ట్రాష్"
 
-#: contents/ui/main.qml:73 contents/ui/main.qml:85
+#: contents/ui/main.qml:116
 #, kde-format
 msgid ""
 "Trash\n"
@@ -53,30 +53,31 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: contents/ui/main.qml:84
+#: contents/ui/main.qml:124
 msgid "Trash"
 msgstr "ట్రాష్"
 
-#: contents/ui/main.qml:85
-msgid ""
-"Trash \n"
-" Empty"
-msgstr ""
-
-#: contents/ui/main.qml:93 contents/ui/main.qml:95
+#: contents/ui/main.qml:125
 #, fuzzy
-#| msgctxt "@action:button"
-#| msgid "Empty Trash"
-msgid "Empty Trash"
-msgstr "ఖాళీ ట్రాష్"
+#| msgid "Trash"
+msgid "Empty"
+msgstr "ట్రాష్"
 
-#: contents/ui/main.qml:94
-msgid "Do you really want to empty the trash ? All the items will be deleted."
-msgstr ""
+#: contents/ui/main.qml:125
+#, kde-format
+msgid "One item"
+msgid_plural "%1 items"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
-#: contents/ui/main.qml:96
-msgid "Cancel"
-msgstr ""
+#, fuzzy
+#~| msgctxt "@action:button"
+#~| msgid "Empty Trash"
+#~ msgid "Empty Trash"
+#~ msgstr "ఖాళీ ట్రాష్"
 
 #, fuzzy
 #~| msgctxt "@action:button"
