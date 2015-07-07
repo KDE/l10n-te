@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-02 09:07+0000\n"
+"POT-Creation-Date: 2015-07-07 11:57+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -40,37 +40,45 @@ msgstr ""
 msgid "About %1"
 msgstr "%1 గురించి"
 
-#: kaboutapplicationdialog.cpp:99
-#, kde-format
-msgid ""
-"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
-msgstr ""
-"<html><font size=\"5\">%1</font><br /><b>వివరణం %2</b><br />&nbsp;</html>"
-
-#: kaboutapplicationdialog.cpp:103
+#: kaboutapplicationdialog.cpp:98
 #, fuzzy, kde-format
 #| msgid ""
-#| "<html><font size=\"5\">%1</font><br/><b>version %2</b><br/>Using KDE %3</"
-#| "html>"
-msgctxt ""
-"Program name, version and KDE platform version; do not translate "
-"'Development Platform'"
-msgid ""
-"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
-"Frameworks %3</html>"
+#| "<html><font size=\"5\">KDE - Be Free!</font><br /><b>Platform Version %1</"
+#| "b></html>"
+msgid "<html><font size=\"5\">%1</font></html>"
 msgstr ""
-"<html><font size=\"5\">%1</font><br/><b>వివరణం %2</b><br/>కెడిఈ %3వాడుతు</html>"
+"<html><font size=\"5\">KDE రంగస్థల పరియావరణ స్వేచ్ఛగ</font><br /><b>వివరణ %1</b></"
+"html>"
 
-#: kaboutapplicationdialog.cpp:142
+#: kaboutapplicationdialog.cpp:136
 #, kde-format
 msgid "License: %1"
 msgstr "లెసెన్సు: %1"
 
-#: kaboutapplicationdialog.cpp:154
+#: kaboutapplicationdialog.cpp:148
 msgid "&About"
 msgstr "(&A) గురించి"
 
-#: kaboutapplicationdialog.cpp:174
+#: kaboutapplicationdialog.cpp:153
+#, fuzzy, kde-format
+#| msgid "<br />Version: %1"
+msgid "<b>Version %1</b>"
+msgstr "<br />వివరణం: %1"
+
+#: kaboutapplicationdialog.cpp:158
+#, kde-format
+msgid ""
+"Using:<ul><li>KDE Frameworks %1</li><li>Qt %2 (built against %3)</li><li>The "
+"<em>%4</em> windowing system</li></ul>"
+msgstr ""
+
+#: kaboutapplicationdialog.cpp:168
+#, fuzzy
+#| msgid "Version:"
+msgid "&Version"
+msgstr "వివరణం:"
+
+#: kaboutapplicationdialog.cpp:188
 msgid ""
 "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to report "
 "bugs.\n"
@@ -78,28 +86,28 @@ msgstr ""
 "తప్పులను తెలియచేయుటకు <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> "
 "నివాడండి.\n"
 
-#: kaboutapplicationdialog.cpp:178 kaboutapplicationdialog.cpp:182
+#: kaboutapplicationdialog.cpp:192 kaboutapplicationdialog.cpp:196
 #, kde-format
 msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
 msgstr "తప్పులను <a href=\"mailto:%1\">%2</a>కు తెలియచేయండి\n"
 
-#: kaboutapplicationdialog.cpp:209
+#: kaboutapplicationdialog.cpp:223
 msgid "A&uthor"
 msgstr "(&u) మూలకర్త"
 
-#: kaboutapplicationdialog.cpp:209
+#: kaboutapplicationdialog.cpp:223
 msgid "A&uthors"
 msgstr "(&u) మూలకర్తలు"
 
-#: kaboutapplicationdialog.cpp:236
+#: kaboutapplicationdialog.cpp:250
 msgid "&Thanks To"
 msgstr "(&T) ధన్యవాదములు"
 
-#: kaboutapplicationdialog.cpp:275
+#: kaboutapplicationdialog.cpp:289
 msgid "T&ranslation"
 msgstr "(&r) అనువాదము"
 
-#: kaboutapplicationdialog.cpp:307
+#: kaboutapplicationdialog.cpp:321
 msgid "License Agreement"
 msgstr "లైసెన్సు ఒప్పందం"
 
@@ -1265,6 +1273,25 @@ msgstr "(&S) అమరికలు"
 #: ui_standards.rc:194
 msgid "Main Toolbar"
 msgstr "ప్రధాన పనిముట్ల పట్టీ"
+
+#~ msgid ""
+#~ "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
+#~ msgstr ""
+#~ "<html><font size=\"5\">%1</font><br /><b>వివరణం %2</b><br />&nbsp;</html>"
+
+#, fuzzy
+#~| msgid ""
+#~| "<html><font size=\"5\">%1</font><br/><b>version %2</b><br/>Using KDE %3</"
+#~| "html>"
+#~ msgctxt ""
+#~ "Program name, version and KDE platform version; do not translate "
+#~ "'Development Platform'"
+#~ msgid ""
+#~ "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
+#~ "Frameworks %3</html>"
+#~ msgstr ""
+#~ "<html><font size=\"5\">%1</font><br/><b>వివరణం %2</b><br/>కెడిఈ %3వాడుతు</"
+#~ "html>"
 
 #~ msgid "Print"
 #~ msgstr "ప్రచురణ"
@@ -8254,9 +8281,6 @@ msgstr "ప్రధాన పనిముట్ల పట్టీ"
 
 #~ msgid "<br />Provider: %1"
 #~ msgstr "<br />సిద్దంచేసేవారు: %1"
-
-#~ msgid "<br />Version: %1"
-#~ msgstr "<br />వివరణం: %1"
 
 #~ msgid "Provider information"
 #~ msgstr "సిద్దంచేసేవారి సమాచారం"
