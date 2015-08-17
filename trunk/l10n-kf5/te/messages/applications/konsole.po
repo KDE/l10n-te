@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-15 08:34+0000\n"
+"POT-Creation-Date: 2015-08-17 08:20+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -401,34 +401,38 @@ msgstr[4] ""
 msgid "Select Initial Directory"
 msgstr "ప్రాధమిక డెరెక్టరీను ఎంపికచేయుము"
 
-#: EditProfileDialog.cpp:592
+#: EditProfileDialog.cpp:594
 #, fuzzy, kde-format
 #| msgid "%1"
 msgid "%1"
 msgstr "%1"
 
-#: EditProfileDialog.cpp:780
+#: EditProfileDialog.cpp:782
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
 msgstr "ఈ రంగు స్కీము మీ డెస్కుటాపు మద్దతీయనటువంటి పారదర్శ బ్యాక్‌గ్రౌండును వుపయోగిస్తోంది"
 
-#: EditProfileDialog.cpp:785
+#: EditProfileDialog.cpp:787
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: EditProfileDialog.cpp:889 EditProfileDialog.cpp:899
+#: EditProfileDialog.cpp:891 EditProfileDialog.cpp:901
 msgid "New Key Binding List"
 msgstr "కొత్త కీ బైండింగ్ జాబితా"
 
-#: EditProfileDialog.cpp:891
+#: EditProfileDialog.cpp:893
 msgid "Edit Key Binding List"
 msgstr "కీ బైండింగ్ జాబితా సరికూర్చు"
 
-#: EditProfileDialog.cpp:1221
+#: EditProfileDialog.cpp:1223
 msgid "Select Fixed Width Font"
+msgstr ""
+
+#: EditProfileDialog.cpp:1271
+msgid "AaZz09..."
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, generalTab)
@@ -1123,10 +1127,12 @@ msgctxt "@info:status"
 msgid ""
 "When using this option, the scrollback data will be written unencrypted to "
 "temporary files. Those temporary files will be deleted automatically when "
-"Konsole is closed in a normal manner."
+"Konsole is closed in a normal manner.\n"
+"Use Settings->Configure Konsole->File Location to select the location of the "
+"temporary files."
 msgstr ""
 
-#: HistorySizeWidget.cpp:60
+#: HistorySizeWidget.cpp:62
 #, fuzzy
 #| msgid "lines"
 msgctxt "Unit of scrollback"
@@ -1765,54 +1771,54 @@ msgctxt "@info:credit"
 msgid "Thanks to many others.\n"
 msgstr "ఇంకా చాలామందికి కృతజ్ఞతలు.\n"
 
-#: MainWindow.cpp:293
+#: MainWindow.cpp:294
 #, fuzzy
 #| msgid "New &Tab"
 msgctxt "@action:inmenu"
 msgid "&New Tab"
 msgstr "(&T) కొత్త టాబ్"
 
-#: MainWindow.cpp:303
+#: MainWindow.cpp:304
 #, fuzzy
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "&Clone Tab"
 msgstr "(&C) టాబ్ ను మూసివెయి"
 
-#: MainWindow.cpp:310
+#: MainWindow.cpp:311
 #, fuzzy
 #| msgid "New &Window"
 msgctxt "@action:inmenu"
 msgid "New &Window"
 msgstr "(&W) కొత్త విండొ"
 
-#: MainWindow.cpp:317
+#: MainWindow.cpp:318
 #, fuzzy
 #| msgid "Konsole"
 msgctxt "@action:inmenu"
 msgid "Close Window"
 msgstr "కాన్సోల్"
 
-#: MainWindow.cpp:322
+#: MainWindow.cpp:323
 #, fuzzy
 #| msgid "&Bookmarks"
 msgctxt "@title:menu"
 msgid "&Bookmarks"
 msgstr "(&B) పేజీ గుర్తులు"
 
-#: MainWindow.cpp:340
+#: MainWindow.cpp:341
 #, fuzzy
 #| msgid "Manage Profiles"
 msgctxt "@action:inmenu"
 msgid "Manage Profiles..."
 msgstr "ప్రొఫైల్సును నిర్వహించుము"
 
-#: MainWindow.cpp:346
+#: MainWindow.cpp:347
 msgctxt "@item"
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:570
+#: MainWindow.cpp:571
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have multiple tabs in this window, are you sure you want to quit?"
@@ -1831,38 +1837,45 @@ msgstr[3] ""
 msgstr[4] ""
 "ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా నిష్క్రమించుదామని అనుకొనుచున్నారా?"
 
-#: MainWindow.cpp:576
+#: MainWindow.cpp:577
 #, fuzzy
 #| msgid "Confirm Close"
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr "ముసివేత నిర్ధారించు"
 
-#: MainWindow.cpp:577
+#: MainWindow.cpp:578
 #, fuzzy
 #| msgid "Konsole"
 msgctxt "@action:button"
 msgid "Close &Window"
 msgstr "కాన్సోల్"
 
-#: MainWindow.cpp:578
+#: MainWindow.cpp:579
 #, fuzzy
 #| msgid "Close Current Tab"
 msgctxt "@action:button"
 msgid "Close Current &Tab"
 msgstr "ప్రస్తుత టాబ్ మూసివేయి"
 
-#: MainWindow.cpp:675
+#: MainWindow.cpp:676
 #, fuzzy
 #| msgid "General"
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "సాధారణ"
 
-#: MainWindow.cpp:680
+#: MainWindow.cpp:681
 msgctxt "@title Preferences page name"
 msgid "TabBar"
 msgstr ""
+
+#: MainWindow.cpp:686
+#, fuzzy
+#| msgid "Paste Selection"
+msgctxt "@title Preferences page name"
+msgid "File Location"
+msgstr "ఎంచుకొన్న దానిని అతికించు"
 
 #: ManageProfilesDialog.cpp:53
 #, fuzzy
@@ -2453,6 +2466,44 @@ msgctxt "@item:intable The session title"
 msgid "Title"
 msgstr "శీర్షిక"
 
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, ButtonGroup1)
+#: settings/FileLocationSettings.ui:23
+msgid ""
+"<b>Scrollback File Location</b><p>Use this groupbox to determine where "
+"Konsole will store the scrollback files.</p>"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, ButtonGroup1)
+#: settings/FileLocationSettings.ui:26
+#, fuzzy
+#| msgid "Scrollback Options"
+msgid "Scrollback File Location"
+msgstr "స్క్రాల్‌బ్యాక్ ఐచ్చికాలు"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings/FileLocationSettings.ui:32
+msgid ""
+"These settings only apply when Profile->Scrolling->Unlimited scrollback is "
+"selected."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_scrollbackUseSystemLocation)
+#: settings/FileLocationSettings.ui:42
+#, fuzzy
+#| msgid "Paste Selection"
+msgid "Use system &location"
+msgstr "ఎంచుకొన్న దానిని అతికించు"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_scrollbackUseUsersHomeLocation)
+#: settings/FileLocationSettings.ui:85
+msgid "Use user's ho&me location"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settings/FileLocationSettings.ui:133
+msgid "For any changes to take effect, quit Konsole and restart."
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_1)
 #: settings/GeneralSettings.ui:28
 #, fuzzy
@@ -2574,6 +2625,16 @@ msgstr ""
 #. i18n: ectx: label, entry (NewTabBehavior), group (TabBar)
 #: settings/konsole.kcfg:74
 msgid "Control where to put the new tab"
+msgstr ""
+
+#. i18n: ectx: label, entry (scrollbackUseSystemLocation), group (FileLocation)
+#: settings/konsole.kcfg:94
+msgid "For scrollback files, use system-wide folder location"
+msgstr ""
+
+#. i18n: ectx: label, entry (scrollbackUseUsersHomeLocation), group (FileLocation)
+#: settings/konsole.kcfg:98
+msgid "For scrollback files, use user's home folder location"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_1)
@@ -2733,7 +2794,7 @@ msgstr "పరిమాణం: XXX x XXX"
 msgid "Size: %1 x %2"
 msgstr "పరిమాణం: %1 x %2"
 
-#: TerminalDisplay.cpp:2796
+#: TerminalDisplay.cpp:2801
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
@@ -2743,13 +2804,13 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: TerminalDisplay.cpp:2799
+#: TerminalDisplay.cpp:2804
 #, fuzzy
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "ముసివేత నిర్ధారించు"
 
-#: TerminalDisplay.cpp:2988
+#: TerminalDisplay.cpp:2993
 #, fuzzy
 #| msgid ""
 #| "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
@@ -2762,13 +2823,13 @@ msgstr ""
 "<qt>అవుట్పుట్ Ctrl+S వత్తుట ద్వారా <a href=\"http://en.wikipedia.org/wiki/"
 "Flow_control\">suspended</a> అయింది.  తిరిగికొనసాగించుటకు <b>Ctrl+Q</b> వత్తుము.</qt>"
 
-#: TerminalDisplay.cpp:3256
+#: TerminalDisplay.cpp:3261
 #, fuzzy
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "ఎంచుకొన్న దానిని అతికించు"
 
-#: TerminalDisplay.cpp:3273
+#: TerminalDisplay.cpp:3278
 msgid "Change &Directory To"
 msgstr ""
 
@@ -3022,9 +3083,6 @@ msgstr "(&S) ఆపు"
 #~| msgid "&Paste"
 #~ msgid "&Paste as text"
 #~ msgstr "(&P) అతికించు"
-
-#~ msgid "Scrollback Options"
-#~ msgstr "స్క్రాల్‌బ్యాక్ ఐచ్చికాలు"
 
 #~ msgid "&Change Profile"
 #~ msgstr "(&C) ప్రొఫైల్ మార్చుము"
