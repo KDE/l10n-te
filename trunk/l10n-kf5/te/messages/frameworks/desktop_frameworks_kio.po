@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-09-26 09:24+0000\n"
+"POT-Creation-Date: 2015-10-06 10:38+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -524,6 +524,66 @@ msgstr ""
 msgctxt "Comment"
 msgid "There was an error executing the proxy configuration script"
 msgstr "అక్కడ ఒక ముఖ్యమైన దోషము ప్రోగ్రామ్ బహిష్కరణకు కారణమౌతున్నది"
+
+#: src/new_file_templates/Directory.desktop:2
+msgctxt "Name"
+msgid "Folder..."
+msgstr "ఫొల్డర్..."
+
+#: src/new_file_templates/Directory.desktop:92
+msgctxt "Comment"
+msgid "Enter folder name:"
+msgstr "ఫొల్డర్ పేరును వ్రాయండి:"
+
+#: src/new_file_templates/HTMLFile.desktop:2
+msgctxt "Name"
+msgid "HTML File..."
+msgstr "హెచ్ టి ఎం ఎల్ దస్త్రం..."
+
+#: src/new_file_templates/HTMLFile.desktop:92
+msgctxt "Comment"
+msgid "Enter HTML filename:"
+msgstr "హెచ్ టి ఎం ఎల్ దస్త్రం పేరును వ్రాయండి:"
+
+#: src/new_file_templates/linkPath.desktop:2
+msgctxt "Name"
+msgid "Basic link to file or directory..."
+msgstr ""
+
+#: src/new_file_templates/linkPath.desktop:70
+msgctxt "Comment"
+msgid "Enter path of file or directory:"
+msgstr ""
+
+#: src/new_file_templates/linkProgram.desktop:2
+msgctxt "Name"
+msgid "Link to Application..."
+msgstr "అనువర్తనంకు లింకు..."
+
+#: src/new_file_templates/linkProgram.desktop:84
+msgctxt "Comment"
+msgid "New Link to Application"
+msgstr "అనువర్తనంకు కొత్త లింకు"
+
+#: src/new_file_templates/linkURL.desktop:2
+msgctxt "Name"
+msgid "Link to Location (URL)..."
+msgstr "స్థానము(URL) కు లింకు..."
+
+#: src/new_file_templates/linkURL.desktop:91
+msgctxt "Comment"
+msgid "Enter link to location (URL):"
+msgstr "స్థానము (URL)కు లింకును ప్రవేశపెట్టండి:"
+
+#: src/new_file_templates/TextFile.desktop:2
+msgctxt "Name"
+msgid "Text File..."
+msgstr "వచన దస్త్రం..."
+
+#: src/new_file_templates/TextFile.desktop:89
+msgctxt "Comment"
+msgid "Enter text filename:"
+msgstr "వచన దస్త్రం పేరును వ్రాయండి:"
 
 #: src/urifilters/fixhost/fixhosturifilter.desktop:3
 msgctxt "Name"
@@ -2236,6 +2296,14 @@ msgstr "Konqueror పాప్అప్ మెనూకొరకు ప్లగ
 #| msgid "Plugin for the Konqueror Popup Menu"
 msgctxt "Comment"
 msgid "Plugin for the KIO Drag-and-drop Popup Menu"
+msgstr "Konqueror పాప్అప్ మెనూకొరకు ప్లగ్ఇన్"
+
+#: src/widgets/konqpopupmenuplugin.desktop:4
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Plugin for the Konqueror Popup Menu"
+msgctxt "Comment"
+msgid "Plugin for the Konqueror Popup Menu"
 msgstr "Konqueror పాప్అప్ మెనూకొరకు ప్లగ్ఇన్"
 
 #: src/widgets/kpropertiesdialogplugin.desktop:4
@@ -6410,28 +6478,12 @@ msgstr "టాబ్ బ్రౌజింగ్"
 #~ msgid "Eject"
 #~ msgstr "ఎజెక్ట్"
 
-#~ msgctxt "Name"
-#~ msgid "Folder..."
-#~ msgstr "ఫొల్డర్..."
-
-#~ msgctxt "Comment"
-#~ msgid "Enter folder name:"
-#~ msgstr "ఫొల్డర్ పేరును వ్రాయండి:"
-
 #, fuzzy
 #~| msgctxt "Name"
 #~| msgid "Format"
 #~ msgctxt "Name|Starts a program to format a floppy drive"
 #~ msgid "Format"
 #~ msgstr "ఫార్మెట్"
-
-#~ msgctxt "Name"
-#~ msgid "HTML File..."
-#~ msgstr "హెచ్ టి ఎం ఎల్ దస్త్రం..."
-
-#~ msgctxt "Comment"
-#~ msgid "Enter HTML filename:"
-#~ msgstr "హెచ్ టి ఎం ఎల్ దస్త్రం పేరును వ్రాయండి:"
 
 #~ msgctxt "Name"
 #~ msgid "Camera Device..."
@@ -6498,36 +6550,12 @@ msgstr "టాబ్ బ్రౌజింగ్"
 #~ msgstr "కొత్త ఎన్ ఎఫ్ ఎస్ లింక్"
 
 #~ msgctxt "Name"
-#~ msgid "Link to Application..."
-#~ msgstr "అనువర్తనంకు లింకు..."
-
-#~ msgctxt "Comment"
-#~ msgid "New Link to Application"
-#~ msgstr "అనువర్తనంకు కొత్త లింకు"
-
-#~ msgctxt "Name"
-#~ msgid "Link to Location (URL)..."
-#~ msgstr "స్థానము(URL) కు లింకు..."
-
-#~ msgctxt "Comment"
-#~ msgid "Enter link to location (URL):"
-#~ msgstr "స్థానము (URL)కు లింకును ప్రవేశపెట్టండి:"
-
-#~ msgctxt "Name"
 #~ msgid "ZIP Device..."
 #~ msgstr "జిప్ పరికరం..."
 
 #~ msgctxt "Comment"
 #~ msgid "New ZIP Device"
 #~ msgstr "కొత్త జిప్ పరికరం"
-
-#~ msgctxt "Name"
-#~ msgid "Text File..."
-#~ msgstr "వచన దస్త్రం..."
-
-#~ msgctxt "Comment"
-#~ msgid "Enter text filename:"
-#~ msgstr "వచన దస్త్రం పేరును వ్రాయండి:"
 
 #~ msgctxt "Name"
 #~ msgid "Plugins"
