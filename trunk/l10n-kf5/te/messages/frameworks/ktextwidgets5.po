@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-06-10 09:04+0000\n"
+"POT-Creation-Date: 2015-10-13 10:10+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -578,23 +578,29 @@ msgctxt "@action"
 msgid "Superscript"
 msgstr "సూపర్‌స్క్రిప్‍ట్"
 
-#: widgets/ktextedit.cpp:164
+#: widgets/ktextedit.cpp:166
 msgid "Nothing to spell check."
 msgstr "అచ్చుతప్పులు సరిదిద్దుటకు ఏమీలేదు."
 
-#: widgets/ktextedit.cpp:559
+#: widgets/ktextedit.cpp:561
 msgid "Check Spelling..."
 msgstr "అచ్చుతప్పులు సరిచూడు..."
 
-#: widgets/ktextedit.cpp:563
+#: widgets/ktextedit.cpp:567
+#, fuzzy
+#| msgid "Spell Checking"
+msgid "Spell Checking Language"
+msgstr "అచ్చుతప్పులు సరిచూడు"
+
+#: widgets/ktextedit.cpp:593
 msgid "Auto Spell Check"
 msgstr "స్వయంచాలకంగా అచ్చుతప్పులు సరిచూడు"
 
-#: widgets/ktextedit.cpp:568
+#: widgets/ktextedit.cpp:598
 msgid "Allow Tabulations"
 msgstr "టాబ్యులేషన్లను అనుమతించుము"
 
-#: widgets/ktextedit.cpp:601
+#: widgets/ktextedit.cpp:631
 msgid "Speak Text"
 msgstr "వచనము పలుకుము"
 
@@ -1267,9 +1273,6 @@ msgstr "వచనము పలుకుము"
 #~ msgid "Too many misspelled words. As-you-type spell checking disabled."
 #~ msgstr ""
 #~ "చాలా అచ్చుతప్పులుగల పదములు. మీరు-టైపు-చేసినట్లు అచ్చుతప్పులు సరిచూడుట అచేతనపరచబడింది."
-
-#~ msgid "Spell Checking"
-#~ msgstr "అచ్చుతప్పులు సరిచూడు"
 
 #~ msgid "&Back"
 #~ msgstr "(&B) వెనుకకు"
