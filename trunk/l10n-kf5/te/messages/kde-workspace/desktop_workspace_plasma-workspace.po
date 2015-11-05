@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-11-03 14:20+0000\n"
+"POT-Creation-Date: 2015-11-05 10:01+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -49,12 +49,12 @@ msgctxt "Name"
 msgid "Battery and Brightness"
 msgstr "ప్రదర్శన అమరికలు"
 
-#: applets/batterymonitor/package/metadata.desktop:36
+#: applets/batterymonitor/package/metadata.desktop:37
 msgctxt "Comment"
 msgid "See the power status of your battery"
 msgstr "మీ బ్యాటరీ యొక్క పవర్ స్థితిని చూడుము"
 
-#: applets/batterymonitor/package/metadata.desktop:109
+#: applets/batterymonitor/package/metadata.desktop:110
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Power Management Backend"
@@ -80,7 +80,7 @@ msgctxt "Name"
 msgid "Clipboard"
 msgstr "క్లిప్ బోర్డ్ పనిముట్టు"
 
-#: applets/clipboard/metadata.desktop:41
+#: applets/clipboard/metadata.desktop:42
 msgctxt "Comment"
 msgid "Provides access to the clipboard history."
 msgstr ""
@@ -191,7 +191,7 @@ msgctxt "Name"
 msgid "CPU Load Monitor"
 msgstr "బ్యాటరి మార్పుదల మానిటర్"
 
-#: applets/systemmonitor/cpu/metadata.desktop:37
+#: applets/systemmonitor/cpu/metadata.desktop:38
 msgctxt "Comment"
 msgid "Monitor the load of the CPUs"
 msgstr ""
@@ -1002,7 +1002,7 @@ msgctxt "Name"
 msgid "Directory Watcher"
 msgstr ""
 
-#: kioslave/desktop/desktopnotifier.desktop:40
+#: kioslave/desktop/desktopnotifier.desktop:41
 msgctxt "Comment"
 msgid "Monitors directories for changes"
 msgstr ""
@@ -1012,7 +1012,7 @@ msgctxt "Name"
 msgid "Trash"
 msgstr ""
 
-#: kioslave/desktop/./directory.trash:34
+#: kioslave/desktop/./directory.trash:35
 msgctxt "Comment"
 msgid "Contains removed files"
 msgstr ""
@@ -1022,7 +1022,7 @@ msgctxt "Name"
 msgid "Home"
 msgstr ""
 
-#: kioslave/desktop/Home.desktop:33
+#: kioslave/desktop/Home.desktop:34
 msgctxt "GenericName"
 msgid "Personal Files"
 msgstr ""
@@ -1035,7 +1035,7 @@ msgctxt "Name"
 msgid "Remote URL Change Notifier"
 msgstr "కొత్త పరికరంను తెలుపునది"
 
-#: kioslave/remote/kdedmodule/remotedirnotify.desktop:43
+#: kioslave/remote/kdedmodule/remotedirnotify.desktop:44
 msgctxt "Comment"
 msgid "Provides change notification for network folders"
 msgstr ""
@@ -1147,7 +1147,7 @@ msgctxt "Comment"
 msgid "A cut & paste history utility"
 msgstr "కత్తిరించు & అతికించు చరిత్ర సౌలభ్యం"
 
-#: klipper/plasma-dataengine-clipboard.desktop:41
+#: klipper/plasma-dataengine-clipboard.desktop:42
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Clipboard Tool"
@@ -1159,88 +1159,6 @@ msgstr "క్లిప్ బోర్డ్ పనిముట్టు"
 msgctxt "Name"
 msgid "KRunner"
 msgstr ""
-
-#: ksmserver/screenlocker/greeter/themes/org.kde.passworddialog/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Password caching support"
-msgctxt "Name"
-msgid "Password dialog"
-msgstr "సంకేతపదం క్యాచింగ్ మద్దతు"
-
-#: ksmserver/screenlocker/greeter/themes/org.kde.passworddialog/metadata.desktop:51
-msgctxt "Comment"
-msgid ""
-"Screen locker that provides a password dialog and an interface to switch the "
-"current user"
-msgstr ""
-
-#: ksmserver/screenlocker/kcm/package/metadata.desktop:2
-#: ksmserver/screenlocker/kcm/screenlocker.desktop:13
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
-msgctxt "Name"
-msgid "Screen Locking"
-msgstr "స్క్రీన్ సేవర్"
-
-#: ksmserver/screenlocker/kcm/package/metadata.desktop:41
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
-msgctxt "Comment"
-msgid "Screen Locking Themes"
-msgstr "స్క్రీన్ సేవర్"
-
-#: ksmserver/screenlocker/kcm/screenlocker.desktop:52
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
-msgctxt "Comment"
-msgid "Screen Locking Timeouts"
-msgstr "స్క్రీన్ సేవర్"
-
-#: ksmserver/screenlocker/kcm/screenlocker.desktop:90
-msgctxt "X-KDE-Keywords"
-msgid "lock,resume, screensaver, screenlock"
-msgstr ""
-
-#: ksmserver/screenlocker/kscreenlocker.notifyrc:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
-msgctxt "Comment"
-msgid "Screen Saver"
-msgstr "స్క్రీన్ సేవర్"
-
-#: ksmserver/screenlocker/kscreenlocker.notifyrc:68
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
-msgctxt "Name"
-msgid "Screen locked"
-msgstr "స్క్రీన్ సేవర్"
-
-#: ksmserver/screenlocker/kscreenlocker.notifyrc:135
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "A modifier key has been locked"
-msgctxt "Comment"
-msgid "The screen has been locked"
-msgstr "సవరింపు కీ అప్రవేశంగా ఉంది"
-
-#: ksmserver/screenlocker/kscreenlocker.notifyrc:205
-msgctxt "Name"
-msgid "Screen unlocked"
-msgstr ""
-
-#: ksmserver/screenlocker/kscreenlocker.notifyrc:272
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "A modifier key has been locked"
-msgctxt "Comment"
-msgid "The screen has been unlocked"
-msgstr "సవరింపు కీ అప్రవేశంగా ఉంది"
 
 #: ksmserver/themes/contour/metadata.desktop:3
 msgctxt "Name"
@@ -1289,12 +1207,12 @@ msgid "KDE's Progress Info UI server"
 msgstr "KDE యొక్క పురోగతి సమాచార UI సేవిక"
 
 #: lookandfeel/contents/loginmanager/metadata.desktop:2
-#: lookandfeel/metadata.desktop:74
+#: lookandfeel/metadata.desktop:76
 msgctxt "Name"
 msgid "Breeze"
 msgstr ""
 
-#: lookandfeel/contents/loginmanager/metadata.desktop:41
+#: lookandfeel/contents/loginmanager/metadata.desktop:42
 msgctxt "Description"
 msgid "Breeze Theme"
 msgstr ""
@@ -1307,7 +1225,7 @@ msgctxt "Comment"
 msgid "Breeze Desktop Design Language by the KDE VDG"
 msgstr "డెస్‍క్ టాప్ భాగములు"
 
-#: lookandfeel/metadata.desktop:40
+#: lookandfeel/metadata.desktop:41
 msgctxt "Keywords"
 msgid ""
 "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;"
@@ -1508,7 +1426,7 @@ msgctxt "Name"
 msgid "Desktop"
 msgstr "రంగస్ఠలం"
 
-#: menu/desktop/kf5-utilities-desktop.directory:48
+#: menu/desktop/kf5-utilities-desktop.directory:49
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Desktop"
@@ -1524,7 +1442,7 @@ msgctxt "Name"
 msgid "Utilities"
 msgstr "క్రియాశీలత పట్టీ"
 
-#: menu/desktop/kf5-utilities.directory:48
+#: menu/desktop/kf5-utilities.directory:49
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Activity Bar"
@@ -1540,7 +1458,7 @@ msgctxt "Name"
 msgid "File"
 msgstr "వచన దస్త్రం"
 
-#: menu/desktop/kf5-utilities-file.directory:49
+#: menu/desktop/kf5-utilities-file.directory:50
 #, fuzzy
 #| msgctxt "Description"
 #| msgid "Text File"
@@ -1576,7 +1494,7 @@ msgctxt "Name"
 msgid "X-Utilities"
 msgstr "క్రియాశీలత పట్టీ"
 
-#: menu/desktop/kf5-utilities-xutils.directory:46
+#: menu/desktop/kf5-utilities-xutils.directory:47
 msgctxt "Comment"
 msgid "X Window Utilities"
 msgstr "ఎక్స్ విండొ సౌలభ్యాలు"
@@ -1602,12 +1520,12 @@ msgctxt "Name"
 msgid "Application"
 msgstr "కార్యక్రమాలు"
 
-#: phonon/platform_kde/phonon.notifyrc:116
+#: phonon/platform_kde/phonon.notifyrc:117
 msgctxt "Name"
 msgid "Audio Output Device Changed"
 msgstr ""
 
-#: phonon/platform_kde/phonon.notifyrc:180
+#: phonon/platform_kde/phonon.notifyrc:181
 msgctxt "Comment"
 msgid "Notification when audio output device has automatically changed"
 msgstr ""
@@ -1617,7 +1535,7 @@ msgctxt "Name"
 msgid "Plasma"
 msgstr ""
 
-#: plasma.desktop.cmake:46
+#: plasma.desktop.cmake:47
 msgctxt "Comment"
 msgid "Plasma by KDE"
 msgstr ""
@@ -1630,7 +1548,7 @@ msgctxt "Name"
 msgid "Plasma Windowed"
 msgstr "ప్లాస్మా రంగస్థల పనిప్రదేశము"
 
-#: plasma-windowed/plasma-windowed.desktop:40
+#: plasma-windowed/plasma-windowed.desktop:41
 msgctxt "Comment"
 msgid "Run Plasmoids as simple applications"
 msgstr ""
@@ -1659,7 +1577,7 @@ msgctxt "Name"
 msgid "Desktop Search"
 msgstr "డెస్‍క్ టాప్ భాగములు"
 
-#: runners/baloo/plasma-runner-baloosearch.desktop:42
+#: runners/baloo/plasma-runner-baloosearch.desktop:43
 msgctxt "Comment"
 msgid "Runner which searches through files, emails and contacts"
 msgstr ""
@@ -1886,7 +1804,7 @@ msgctxt "Name"
 msgid "Hardware Detection"
 msgstr "హార్డువేర్"
 
-#: soliduiserver/soliduiserver.desktop:49
+#: soliduiserver/soliduiserver.desktop:50
 msgctxt "Comment"
 msgid "Provides a user interface for hardware events"
 msgstr ""
@@ -1909,7 +1827,7 @@ msgctxt "Name"
 msgid "KSysguard"
 msgstr ""
 
-#: systemmonitor/ksysguard.desktop:51
+#: systemmonitor/ksysguard.desktop:52
 msgctxt "Comment"
 msgid "Launches KSysguard on Ctrl + Escape"
 msgstr ""
@@ -2162,6 +2080,62 @@ msgstr "సాలిడ్"
 msgctxt "Name"
 msgid "XembedSniProxy"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Password caching support"
+#~ msgctxt "Name"
+#~ msgid "Password dialog"
+#~ msgstr "సంకేతపదం క్యాచింగ్ మద్దతు"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Screen Saver"
+#~ msgctxt "Name"
+#~ msgid "Screen Locking"
+#~ msgstr "స్క్రీన్ సేవర్"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Screen Saver"
+#~ msgctxt "Comment"
+#~ msgid "Screen Locking Themes"
+#~ msgstr "స్క్రీన్ సేవర్"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Screen Saver"
+#~ msgctxt "Comment"
+#~ msgid "Screen Locking Timeouts"
+#~ msgstr "స్క్రీన్ సేవర్"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Screen Saver"
+#~ msgctxt "Comment"
+#~ msgid "Screen Saver"
+#~ msgstr "స్క్రీన్ సేవర్"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Screen Saver"
+#~ msgctxt "Name"
+#~ msgid "Screen locked"
+#~ msgstr "స్క్రీన్ సేవర్"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "A modifier key has been locked"
+#~ msgctxt "Comment"
+#~ msgid "The screen has been locked"
+#~ msgstr "సవరింపు కీ అప్రవేశంగా ఉంది"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "A modifier key has been locked"
+#~ msgctxt "Comment"
+#~ msgid "The screen has been unlocked"
+#~ msgstr "సవరింపు కీ అప్రవేశంగా ఉంది"
 
 #~ msgctxt "Name"
 #~ msgid "Quicklaunch"
