@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-10 07:26+0000\n"
+"POT-Creation-Date: 2016-02-14 07:17+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -665,12 +665,12 @@ msgstr "%1 కలిగివుండుము, అప్పుడు %2 నె
 msgid "&Help"
 msgstr "(&H) సహాయము"
 
-#: kkeysequencewidget.cpp:133
+#: kkeysequencewidget.cpp:135
 #, kde-format
 msgid "Shortcut '%1' in Application %2 for action %3\n"
 msgstr "అనువర్తనం %2 నందు చర్య %3 కొరకు శీఘ్రమార్గము '%1'\n"
 
-#: kkeysequencewidget.cpp:143
+#: kkeysequencewidget.cpp:145
 #, kde-format
 msgctxt ""
 "%1 is the number of conflicts (hidden), %2 is the key sequence of the "
@@ -684,7 +684,7 @@ msgstr[2] "శీఘ్రమార్గము '%2' క్రింది క�
 msgstr[3] "శీఘ్రమార్గము '%2' క్రింది కీ సమ్మేళములతో విభేదించింది:\n"
 msgstr[4] "శీఘ్రమార్గము '%2' క్రింది కీ సమ్మేళములతో విభేదించింది:\n"
 
-#: kkeysequencewidget.cpp:149
+#: kkeysequencewidget.cpp:151
 msgctxt "%1 is the number of shortcuts with which there is a conflict"
 msgid "Conflict with Registered Global Shortcut"
 msgid_plural "Conflict with Registered Global Shortcuts"
@@ -694,13 +694,13 @@ msgstr[2] "నియంత్రిత వసుదైక శీఘ్రమా�
 msgstr[3] "నియంత్రిత వసుదైక శీఘ్రమార్గంతొ విభేదలు"
 msgstr[4] "నియంత్రిత వసుదైక శీఘ్రమార్గంతొ విభేదలు"
 
-#: kkeysequencewidget.cpp:151 kkeysequencewidget.cpp:239
-#: kkeysequencewidget.cpp:630 kshortcutseditor.cpp:635
+#: kkeysequencewidget.cpp:153 kkeysequencewidget.cpp:241
+#: kkeysequencewidget.cpp:632 kshortcutseditor.cpp:635
 #: kshortcutseditor.cpp:653
 msgid "Reassign"
 msgstr "మళ్లి నియమించు"
 
-#: kkeysequencewidget.cpp:220
+#: kkeysequencewidget.cpp:222
 msgctxt "%1 is the number of conflicts"
 msgid "Shortcut Conflict"
 msgid_plural "Shortcut Conflicts"
@@ -710,12 +710,12 @@ msgstr[2] "శీఘ్ర మార్గం విభేదలు"
 msgstr[3] "శీఘ్ర మార్గం విభేదలు"
 msgstr[4] "శీఘ్ర మార్గం విభేదలు"
 
-#: kkeysequencewidget.cpp:224
+#: kkeysequencewidget.cpp:226
 #, kde-format
 msgid "Shortcut '%1' for action '%2'\n"
 msgstr "చర్య '%1'కొరకు శీఘ్రమార్గము(లు) '%2'\n"
 
-#: kkeysequencewidget.cpp:229
+#: kkeysequencewidget.cpp:231
 #, kde-format
 msgctxt "%1 is the number of ambigious shortcut clashes (hidden)"
 msgid ""
@@ -732,39 +732,39 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: kkeysequencewidget.cpp:248
+#: kkeysequencewidget.cpp:250
 msgid "Shortcut conflict"
 msgstr "శీఘ్ర మార్గం విభేదము"
 
-#: kkeysequencewidget.cpp:249
+#: kkeysequencewidget.cpp:251
 #, kde-format
 msgid ""
 "<qt>The '%1' key combination is already used by the <b>%2</b> action."
 "<br>Please select a different one.</qt>"
 msgstr ""
 
-#: kkeysequencewidget.cpp:279
+#: kkeysequencewidget.cpp:281
 msgid ""
 "Click on the button, then enter the shortcut like you would in the program.\n"
 "Example for Ctrl+A: hold the Ctrl key and press A."
 msgstr ""
 
-#: kkeysequencewidget.cpp:471
+#: kkeysequencewidget.cpp:473
 msgid "Reserved Shortcut"
 msgstr "నిలిపిఉంచి శీఘ్ర మార్గము"
 
-#: kkeysequencewidget.cpp:472
+#: kkeysequencewidget.cpp:474
 msgid ""
 "The F12 key is reserved on Windows, so cannot be used for a global "
 "shortcut.\n"
 "Please choose another one."
 msgstr ""
 
-#: kkeysequencewidget.cpp:624
+#: kkeysequencewidget.cpp:626
 msgid "Conflict with Standard Application Shortcut"
 msgstr "ప్రామాణిక కార్యక్రమ శీఘ్రమార్గంతొ ఘర్షణ"
 
-#: kkeysequencewidget.cpp:625
+#: kkeysequencewidget.cpp:627
 #, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -772,22 +772,22 @@ msgid ""
 "Do you really want to use it as a global shortcut as well?"
 msgstr ""
 
-#: kkeysequencewidget.cpp:670
+#: kkeysequencewidget.cpp:672
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "ఇన్పుట్"
 
-#: kkeysequencewidget.cpp:677 kshortcuteditwidget.cpp:66
+#: kkeysequencewidget.cpp:679 kshortcuteditwidget.cpp:66
 #: kshortcuteditwidget.cpp:69
 msgctxt "No shortcut defined"
 msgid "None"
 msgstr "ఏదీ వద్దు"
 
-#: kkeysequencewidget.cpp:723
+#: kkeysequencewidget.cpp:725
 msgid "The key you just pressed is not supported by Qt."
 msgstr "మీరు వాడిన మీట qt సహాయము తీసుకోలేదు"
 
-#: kkeysequencewidget.cpp:724
+#: kkeysequencewidget.cpp:726
 msgid "Unsupported Key"
 msgstr "మద్దతు చేయని కీ"
 
@@ -865,57 +865,59 @@ msgstr "అప్రమేయం:"
 msgid "Custom:"
 msgstr "నిర్దేశితమైన:"
 
-#: kshortcutschemeseditor.cpp:43
+#: kshortcutschemeseditor.cpp:44
 msgid "Shortcut Schemes"
 msgstr "శీఘ్ర మార్గాల స్కీములు"
 
-#: kshortcutschemeseditor.cpp:62
+#: kshortcutschemeseditor.cpp:65
 msgid "Current scheme:"
 msgstr "ప్రస్తుత స్కీము:"
 
-#: kshortcutschemeseditor.cpp:72
+#: kshortcutschemeseditor.cpp:81
 msgid "New..."
 msgstr "కొత్త..."
 
-#: kshortcutschemeseditor.cpp:75
+#: kshortcutschemeseditor.cpp:84
 msgid "Delete"
 msgstr "తొలగించు"
 
-#: kshortcutschemeseditor.cpp:78
+#: kshortcutschemeseditor.cpp:87
 msgid "More Actions"
 msgstr "మరిన్ని చర్యలు"
 
-#: kshortcutschemeseditor.cpp:82
-msgid "Save as Scheme Defaults"
-msgstr "స్కీమా అప్రమేయాలలా భద్రపరచుము"
+#: kshortcutschemeseditor.cpp:91
+#, fuzzy
+#| msgid "Shortcut Schemes"
+msgid "Save shortcuts to scheme"
+msgstr "శీఘ్ర మార్గాల స్కీములు"
 
-#: kshortcutschemeseditor.cpp:84
+#: kshortcutschemeseditor.cpp:93
 msgid "Export Scheme..."
 msgstr "స్కీమును ఎగుమతి చేయుము..."
 
-#: kshortcutschemeseditor.cpp:86
+#: kshortcutschemeseditor.cpp:95
 #, fuzzy
 #| msgid "Export Scheme..."
 msgid "Import Scheme..."
 msgstr "స్కీమును ఎగుమతి చేయుము..."
 
-#: kshortcutschemeseditor.cpp:102
+#: kshortcutschemeseditor.cpp:111
 msgid "Name for New Scheme"
 msgstr "కొత్త స్కీమా కొరకు పేరు"
 
-#: kshortcutschemeseditor.cpp:103
+#: kshortcutschemeseditor.cpp:112
 msgid "Name for new scheme:"
 msgstr "కొత్త స్కీమా కొరకు నామము:"
 
-#: kshortcutschemeseditor.cpp:103
+#: kshortcutschemeseditor.cpp:112
 msgid "New Scheme"
 msgstr "కొత్త స్కీమా"
 
-#: kshortcutschemeseditor.cpp:109
+#: kshortcutschemeseditor.cpp:118
 msgid "A scheme with this name already exists."
 msgstr "ఈ పేరుతో వొక స్కీమా యిప్పటికే వుంది."
 
-#: kshortcutschemeseditor.cpp:138
+#: kshortcutschemeseditor.cpp:148
 #, kde-format
 msgid ""
 "Do you really want to delete the scheme %1?\n"
@@ -924,23 +926,33 @@ msgstr ""
 "మీరు నిజంగా ఈ స్కీమా %1ను తొలగించుదామని అనుకొనుచున్నారా?\n"
 "ఇది సిస్టమ్ వ్యాప్తి శీఘ్రమార్గ స్కీమాలను తొలగించదని గమనించండి."
 
-#: kshortcutschemeseditor.cpp:168
+#: kshortcutschemeseditor.cpp:178
 #, fuzzy
 #| msgid "Shortcuts"
 msgid "Export Shortcuts"
 msgstr "శీఘ్ర మార్గాలు"
 
-#: kshortcutschemeseditor.cpp:168 kshortcutschemeseditor.cpp:179
+#: kshortcutschemeseditor.cpp:178 kshortcutschemeseditor.cpp:189
 #, fuzzy
 #| msgid "Shortcut Conflict(s)"
 msgid "Shortcuts (*.shortcuts)"
 msgstr "శీఘ్రమార్గ విభేదము(లు)"
 
-#: kshortcutschemeseditor.cpp:179
+#: kshortcutschemeseditor.cpp:189
 #, fuzzy
 #| msgid "Shortcuts"
 msgid "Import Shortcuts"
 msgstr "శీఘ్ర మార్గాలు"
+
+#: kshortcutschemeseditor.cpp:200
+#, fuzzy
+#| msgid "The removal request was successfully registered."
+msgid "Shortcut scheme successfully saved."
+msgstr "తొలగింపు అభ్యర్ధన సమర్ధవంతంగా నమోదైంది."
+
+#: kshortcutschemeseditor.cpp:203
+msgid "Error saving the shortcut scheme."
+msgstr ""
 
 #: kshortcutsdialog.cpp:85
 msgid ""
@@ -948,11 +960,13 @@ msgid ""
 "one?"
 msgstr "ప్రస్తుత శీఘ్రమార్గ స్కీము సవరించబడింది. మరియొక దానికి మారుటకు ముందుగా భద్రపరచవలెనా?"
 
-#: kshortcutsdialog.cpp:130 kshortcutsdialog.cpp:165
-msgid "&Details"
-msgstr "(&D) వివరములు"
+#: kshortcutsdialog.cpp:135
+#, fuzzy
+#| msgid "New Scheme"
+msgid "Manage &Schemes"
+msgstr "కొత్త స్కీమా"
 
-#: kshortcutsdialog.cpp:149
+#: kshortcutsdialog.cpp:154
 msgid "Configure Shortcuts"
 msgstr "శీఘ్రమార్గాలను అమర్చండి"
 
@@ -1291,6 +1305,12 @@ msgstr "(&S) అమరికలు"
 #: ui_standards.rc:194
 msgid "Main Toolbar"
 msgstr "ప్రధాన పనిముట్ల పట్టీ"
+
+#~ msgid "Save as Scheme Defaults"
+#~ msgstr "స్కీమా అప్రమేయాలలా భద్రపరచుము"
+
+#~ msgid "&Details"
+#~ msgstr "(&D) వివరములు"
 
 #~ msgid "Export to Location"
 #~ msgstr "స్థానమునకు ఎగుమతిచేయుము"
@@ -8407,9 +8427,6 @@ msgstr "ప్రధాన పనిముట్ల పట్టీ"
 
 #~ msgid "Version: %1"
 #~ msgstr "వివరణం: %1"
-
-#~ msgid "The removal request was successfully registered."
-#~ msgstr "తొలగింపు అభ్యర్ధన సమర్ధవంతంగా నమోదైంది."
 
 #~ msgid "Removal of entry"
 #~ msgstr "దఖలు తోలగించండి"
