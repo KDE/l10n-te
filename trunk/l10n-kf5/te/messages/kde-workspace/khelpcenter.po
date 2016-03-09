@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-29 09:05+0000\n"
+"POT-Creation-Date: 2016-03-09 07:26+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -31,12 +31,10 @@ msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 msgid "Documentation to open"
 msgstr ""
 
-#: application.cpp:83 navigator.cpp:462
-msgid "KDE Help Center"
-msgstr ""
-
-#: application.cpp:85 khc_indexbuilder.cpp:155
-msgid "The KDE Help Center"
+#: application.cpp:83 application.cpp:85 khc_indexbuilder.cpp:155
+#, fuzzy
+#| msgid "The KDE Help Center"
+msgid "Help Center"
 msgstr "కెడిఈ సహాయ కేంద్రం"
 
 #: application.cpp:87
@@ -343,7 +341,7 @@ msgid "KHelpCenter Index Builder"
 msgstr ""
 
 #: khc_indexbuilder.cpp:157
-msgid "(c) 2003, The KHelpCenter developers"
+msgid "2003 KDE"
 msgstr ""
 
 #: khc_indexbuilder.cpp:159
@@ -467,6 +465,10 @@ msgstr ""
 
 #: navigator.cpp:461
 msgid "Start Page"
+msgstr ""
+
+#: navigator.cpp:462
+msgid "KDE Help Center"
 msgstr ""
 
 #: navigator.cpp:551

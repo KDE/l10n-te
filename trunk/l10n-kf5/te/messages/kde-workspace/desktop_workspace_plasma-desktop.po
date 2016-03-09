@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-27 07:53+0000\n"
+"POT-Creation-Date: 2016-03-09 07:42+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -481,19 +481,6 @@ msgstr ""
 "మీ అప్రమేయ టెర్మినల్ ఎమ్యులేటర్‌ను ఆకృతీకరించుటకు ఈ సేవ అనుమతిస్తుంది. టెర్మినల్ ఎమ్యులేటర్‌ అప్లికేషన్‌ను "
 "ప్రేరేపించే ఏ KDE అనువర్తనాలైనా ఈ అమర్పును సమ్మతిస్తాయి."
 
-#: kcms/componentchooser/componentservices/kcm_wm.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Task Manager"
-msgctxt "Name|standard desktop component"
-msgid "Window Manager"
-msgstr "కర్తవ్య నిర్వాహకి"
-
-#: kcms/componentchooser/componentservices/kcm_wm.desktop:52
-msgctxt "Comment"
-msgid "Here you can select the window manager to be run in your KDE session."
-msgstr "విండో నిర్వాహిక మీ KDE సెషన్‌నందు నడుచునట్లు మీరు యిక్కడ యెంచుకొనగలరు."
-
 #: kcms/componentchooser/EXAMPLE.desktop:1
 msgctxt "Name"
 msgid "A nice name you have chosen for your interface"
@@ -503,28 +490,6 @@ msgstr "మీ ఇంటర్‌ఫేస్ కొరకు ఒక మంచ�
 msgctxt "Comment"
 msgid "A helpful description of the interface for the top right info box"
 msgstr "పైన కుడప్రక్కనగల సమాచార పెట్టె ఇంటర్‌పేస్ యొక్క సహాయకర వివరణ"
-
-#: kcms/componentchooser/windowmanagers/compiz-custom.desktop:2
-msgctxt "Name"
-msgid ""
-"Compiz custom (create wrapper script 'compiz-kde-launcher' to launch it)"
-msgstr ""
-"Compiz custom (దానిని దించుటకు వ్రాపర్ స్క్రిప్‍ట్‌ 'compiz-kde-launcher' ను సృష్టించుము)"
-
-#: kcms/componentchooser/windowmanagers/compiz.desktop:2
-msgctxt "Name"
-msgid "Compiz"
-msgstr "Compiz"
-
-#: kcms/componentchooser/windowmanagers/metacity.desktop:2
-msgctxt "Name"
-msgid "Metacity (GNOME)"
-msgstr "మెటాసిటి (GNOME)"
-
-#: kcms/componentchooser/windowmanagers/openbox.desktop:2
-msgctxt "Name"
-msgid "Openbox"
-msgstr "ఒపెన్ బాక్స్"
 
 #: kcms/cursortheme/cursortheme.desktop:13
 #, fuzzy
@@ -1612,6 +1577,36 @@ msgstr "ప్లాస్మా రంగస్థల పనిప్రదే�
 msgctxt "Name"
 msgid "Panel toolbox"
 msgstr "నెట్వర్‍క్  సాధనం"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Task Manager"
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "Window Manager"
+#~ msgstr "కర్తవ్య నిర్వాహకి"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Here you can select the window manager to be run in your KDE session."
+#~ msgstr "విండో నిర్వాహిక మీ KDE సెషన్‌నందు నడుచునట్లు మీరు యిక్కడ యెంచుకొనగలరు."
+
+#~ msgctxt "Name"
+#~ msgid ""
+#~ "Compiz custom (create wrapper script 'compiz-kde-launcher' to launch it)"
+#~ msgstr ""
+#~ "Compiz custom (దానిని దించుటకు వ్రాపర్ స్క్రిప్‍ట్‌ 'compiz-kde-launcher' ను సృష్టించుము)"
+
+#~ msgctxt "Name"
+#~ msgid "Compiz"
+#~ msgstr "Compiz"
+
+#~ msgctxt "Name"
+#~ msgid "Metacity (GNOME)"
+#~ msgstr "మెటాసిటి (GNOME)"
+
+#~ msgctxt "Name"
+#~ msgid "Openbox"
+#~ msgstr "ఒపెన్ బాక్స్"
 
 #~ msgctxt "Name"
 #~ msgid "System Bell"
