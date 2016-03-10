@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmusb\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-10 08:41+0000\n"
+"POT-Creation-Date: 2016-03-10 11:21+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -219,35 +219,37 @@ msgstr "అమ్మకందారి ప్రత్యేకమైన సబ�
 msgid "Vendor specific"
 msgstr "అమ్మకందారి ప్రత్యేకమైన"
 
-#: kcmusb.cpp:36
+#: kcmusb.cpp:35
 msgid "This module allows you to see the devices attached to your USB bus(es)."
 msgstr "ఈ మాడ్యూల్ మీ USB బస్(ల)కు అనుభందించబడివున్న పరికరములను మీరు చూడుటకు అనుమతిస్తుంది."
 
-#: kcmusb.cpp:50
+#: kcmusb.cpp:49
 msgid "Device"
 msgstr "పరికరం"
 
-#: kcmusb.cpp:70
+#: kcmusb.cpp:69
 msgid "kcmusb"
 msgstr "kcmusb"
 
-#: kcmusb.cpp:70
-msgid "KDE USB Viewer"
-msgstr "KDE USB వీక్షణి"
+#: kcmusb.cpp:69
+#, fuzzy
+#| msgid "Device"
+msgid "USB Devices"
+msgstr "పరికరం"
 
-#: kcmusb.cpp:72
+#: kcmusb.cpp:71
 msgid "(c) 2001 Matthias Hoelzer-Kluepfel"
 msgstr "(c) 2001 మాథియాస్ హోల్జెర్-క్లుఫెల్"
 
-#: kcmusb.cpp:74
+#: kcmusb.cpp:73
 msgid "Matthias Hoelzer-Kluepfel"
 msgstr "మథయాస్ హొయెల్జర్-క్లూప్ఫెల్"
 
-#: kcmusb.cpp:75
+#: kcmusb.cpp:74
 msgid "Leo Savernik"
 msgstr "లియో సావెర్నిక్"
 
-#: kcmusb.cpp:75
+#: kcmusb.cpp:74
 msgid "Live Monitoring of USB Bus"
 msgstr "USB బస్ యొక్క లైవ్ మానిటరింగ్"
 
@@ -347,3 +349,6 @@ msgid ""
 "Could not open one or more USB controller. Make sure, you have read access "
 "to all USB controllers that should be listed here."
 msgstr ""
+
+#~ msgid "KDE USB Viewer"
+#~ msgstr "KDE USB వీక్షణి"
