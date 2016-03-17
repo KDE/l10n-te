@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-25 08:03+0000\n"
+"POT-Creation-Date: 2016-03-17 08:06+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -54,6 +54,26 @@ msgstr ""
 #: compositingprefs.cpp:117
 msgid "GLX/OpenGL and XRender/XFixes are not available."
 msgstr ""
+
+#: debug_console.cpp:434
+msgid "X11 Client Windows"
+msgstr ""
+
+#: debug_console.cpp:436
+msgid "X11 Unmanaged Windows"
+msgstr ""
+
+#: debug_console.cpp:438
+#, fuzzy
+#| msgid "Windows"
+msgid "Wayland Windows"
+msgstr "విండోలు"
+
+#: debug_console.cpp:440
+#, fuzzy
+#| msgid "Windows"
+msgid "Internal Windows"
+msgstr "విండోలు"
 
 #: killer/killer.cpp:44
 msgid "Window Manager"
@@ -933,9 +953,6 @@ msgstr ""
 #~ msgid "System"
 #~ msgstr "వ్యవస్థ"
 
-#~ msgid "Windows"
-#~ msgstr "విండోలు"
-
 #~ msgid "Miscellaneous"
 #~ msgstr "ఇతరత్రా"
 
@@ -943,12 +960,6 @@ msgstr ""
 #~| msgid "Windows"
 #~ msgctxt "Floating layout, windows aren't tiled at all"
 #~ msgid "Floating"
-#~ msgstr "విండోలు"
-
-#, fuzzy
-#~| msgid "Windows"
-#~ msgctxt "When in tiling mode, toggle's the window's floating/tiled state"
-#~ msgid "&Float Window"
 #~ msgstr "విండోలు"
 
 #~ msgid "Ad&vanced"
