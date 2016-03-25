@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-09 10:39+0000\n"
+"POT-Creation-Date: 2016-03-25 11:49+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -18,50 +18,39 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 
-#: htmlsearch/htmlsearch.desktop:12
-msgctxt "Name"
-msgid "Index"
-msgstr "సూచిక"
-
-#: htmlsearch/htmlsearch.desktop:104
-msgctxt "Comment"
-msgid "Index generation"
-msgstr "సూచిక ను తయారుచెయుట"
-
-#: htmlsearch/htmlsearch.desktop:195
-msgctxt "X-KDE-Keywords"
-msgid "Help,HTML,Search,Index,htdig,htsearch,htmerge,Scope,Language"
-msgstr ""
-
-#: kcmhelpcenter.desktop:12
-msgctxt "Name"
-msgid "Help Index"
-msgstr "సహాయ సూచిక"
-
-#: kcmhelpcenter.desktop:103
-msgctxt "Comment"
-msgid "Help center search index configuration and generation"
-msgstr "సహాయ కేంద్ర అన్వెషణ సూచి అమరిక మరయూ తయారుచెయుట"
-
-#: kcmhelpcenter.desktop:191
-msgctxt "X-KDE-Keywords"
-msgid "khelpcenter,help,index,search"
-msgstr ""
-
 #: khelpcenter.desktop:2
 msgctxt "Name"
 msgid "KHelpCenter"
 msgstr "కెసహాయ కేంద్రం"
 
 #: khelpcenter.desktop:93
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "More Applications"
 msgctxt "Comment"
-msgid "The KDE Help Center"
-msgstr "కెడిఈ సహాయ కేంద్రం"
+msgid "Help for applications"
+msgstr "మరికొన్ని కార్యక్రమములు"
 
 #: org.kde.Help.desktop:9
 msgctxt "Name"
 msgid "Help"
 msgstr "సహాయం"
+
+#: org.kde.Help.desktop:102
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KHelpCenter"
+msgctxt "GenericName"
+msgid "Help Center"
+msgstr "కెసహాయ కేంద్రం"
+
+#: org.kde.Help.desktop:103
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Browser Identification"
+msgctxt "Comment"
+msgid "Browse and search documentation"
+msgstr "అన్వేషణి గుర్తింపు"
 
 #: plugins/Applications/.directory:3
 msgctxt "Name"
@@ -86,7 +75,7 @@ msgstr "దస్త్ర అభికర్త - సూపర్ యూజర�
 #| msgctxt "Name"
 #| msgid "Demo ShiftWorkspaceUp"
 msgctxt "Name"
-msgid "KDE Fundamentals"
+msgid "Fundamentals"
 msgstr "డెమో ShiftWorkspaceUp"
 
 #: plugins/info.desktop:2
@@ -200,6 +189,26 @@ msgstr "ప్లాజ్మా మేన్యువల్"
 msgctxt "Name"
 msgid "Scrollkeeper"
 msgstr "స్క్రాల్‌కీపర్"
+
+#~ msgctxt "Name"
+#~ msgid "Index"
+#~ msgstr "సూచిక"
+
+#~ msgctxt "Comment"
+#~ msgid "Index generation"
+#~ msgstr "సూచిక ను తయారుచెయుట"
+
+#~ msgctxt "Name"
+#~ msgid "Help Index"
+#~ msgstr "సహాయ సూచిక"
+
+#~ msgctxt "Comment"
+#~ msgid "Help center search index configuration and generation"
+#~ msgstr "సహాయ కేంద్ర అన్వెషణ సూచి అమరిక మరయూ తయారుచెయుట"
+
+#~ msgctxt "Comment"
+#~ msgid "The KDE Help Center"
+#~ msgstr "కెడిఈ సహాయ కేంద్రం"
 
 #~ msgctxt "Name"
 #~ msgid "Quickstart Guide"
@@ -4091,10 +4100,6 @@ msgstr "స్క్రాల్‌కీపర్"
 #~ msgstr "కెడిఈ పట్టీ"
 
 #~ msgctxt "Name"
-#~ msgid "More Applications"
-#~ msgstr "మరికొన్ని కార్యక్రమములు"
-
-#~ msgctxt "Name"
 #~ msgid "Multimedia"
 #~ msgstr "బహుళ మాద్యమం"
 
@@ -5349,10 +5354,6 @@ msgstr "స్క్రాల్‌కీపర్"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Wget 1.11.4)"
 #~ msgstr "UADescription (Wget 1.5.3)"
-
-#~ msgctxt "Name"
-#~ msgid "Browser Identification"
-#~ msgstr "అన్వేషణి గుర్తింపు"
 
 #~ msgctxt "Comment"
 #~ msgid "Configure the way Konqueror reports itself"
