@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-27 07:27+0000\n"
+"POT-Creation-Date: 2016-05-13 08:01+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Discharging"
 msgstr ""
 
-#: package/contents/code/logic.js:26 package/contents/ui/batterymonitor.qml:58
+#: package/contents/code/logic.js:26 package/contents/ui/batterymonitor.qml:62
 msgid "Fully Charged"
 msgstr ""
 
@@ -83,41 +83,45 @@ msgstr ""
 msgid "No Batteries Available"
 msgstr ""
 
-#: package/contents/ui/batterymonitor.qml:63
-#, kde-format
-msgid "%1%. Charging"
-msgstr ""
-
-#: package/contents/ui/batterymonitor.qml:65
-#, kde-format
-msgid "%1%. Plugged in, not Charging"
+#: package/contents/ui/batterymonitor.qml:60
+msgid "Battery and Brightness"
 msgstr ""
 
 #: package/contents/ui/batterymonitor.qml:67
 #, kde-format
-msgid "%1%. Plugged in"
+msgid "%1%. Charging"
+msgstr ""
+
+#: package/contents/ui/batterymonitor.qml:69
+#, kde-format
+msgid "%1%. Plugged in, not Charging"
 msgstr ""
 
 #: package/contents/ui/batterymonitor.qml:71
+#, kde-format
+msgid "%1%. Plugged in"
+msgstr ""
+
+#: package/contents/ui/batterymonitor.qml:75
 #, kde-format
 msgctxt "%1 is remaining time, %2 is percentage"
 msgid "%1 Remaining (%2%)"
 msgstr ""
 
-#: package/contents/ui/batterymonitor.qml:75
+#: package/contents/ui/batterymonitor.qml:79
 #, kde-format
 msgid "%1% Battery Remaining"
 msgstr ""
 
-#: package/contents/ui/batterymonitor.qml:79
+#: package/contents/ui/batterymonitor.qml:83
 msgid "Power management is disabled"
 msgstr ""
 
-#: package/contents/ui/batterymonitor.qml:125
+#: package/contents/ui/batterymonitor.qml:129
 msgid "&Configure Power Saving..."
 msgstr ""
 
-#: package/contents/ui/batterymonitor.qml:229
+#: package/contents/ui/batterymonitor.qml:233
 msgid "The battery applet has enabled system-wide inhibition"
 msgstr ""
 
