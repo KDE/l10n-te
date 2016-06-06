@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-01 07:49+0000\n"
+"POT-Creation-Date: 2016-06-06 09:05+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -26,7 +26,9 @@ msgctxt "Name"
 msgid "Icons-only Task Manager"
 msgstr "కర్తవ్య నిర్వాహకి"
 
-#: applets/icontasks/metadata.desktop:48
+#: applets/icontasks/metadata.desktop:47
+#: applets/legacyicontasks/metadata.desktop:48
+#: applets/legacytaskmanager/package/metadata.desktop:83
 #: applets/taskmanager/package/metadata.desktop:83
 msgctxt "Comment"
 msgid "Switch between running applications"
@@ -69,6 +71,22 @@ msgstr ""
 msgctxt "Keywords"
 msgid "Input;IM;"
 msgstr ""
+
+#: applets/legacyicontasks/metadata.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Task Manager"
+msgctxt "Name"
+msgid "Icons-only Task Manager (Old backend)"
+msgstr "కర్తవ్య నిర్వాహకి"
+
+#: applets/legacytaskmanager/package/metadata.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Task Manager"
+msgctxt "Name"
+msgid "Task Manager (Old backend)"
+msgstr "కర్తవ్య నిర్వాహకి"
 
 #: applets/pager/package/metadata.desktop:2
 msgctxt "Name"
@@ -1496,7 +1514,7 @@ msgctxt "Name"
 msgid "KWin"
 msgstr ""
 
-#: runners/kwin/plasma-runner-kwin.desktop:28
+#: runners/kwin/plasma-runner-kwin.desktop:29
 msgctxt "Comment"
 msgid "Interact with the Plasma Compositor"
 msgstr ""
