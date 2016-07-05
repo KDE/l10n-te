@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_autostart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-21 08:32+0000\n"
+"POT-Creation-Date: 2016-07-05 08:20+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -144,34 +144,34 @@ msgid ""
 "Only files with “.sh” extensions are allowed for setting up the environment."
 msgstr "ఎన్విరాన్మెంటును అమర్చుటకు KDE అనునది sh పొడిగింపులతో వున్న ఫైళ్ళను మాత్రమే చదువుతుంది."
 
-#. i18n: ectx: property (text), widget (QPushButton, btnAddProgram)
-#: autostartconfig.ui:26
-msgid "Add Program..."
-msgstr "ప్రోగ్రామ్‌ను జతచేయుము..."
-
-#. i18n: ectx: property (text), widget (QPushButton, btnAddScript)
-#: autostartconfig.ui:33
-msgid "Add Script..."
-msgstr "స్క్రిప్టును జతచేయుము..."
-
-#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
-#: autostartconfig.ui:40
-msgid "&Remove"
-msgstr "(&R) తీసివేయి"
-
 #. i18n: ectx: property (text), widget (QPushButton, btnProperties)
-#: autostartconfig.ui:47
+#: autostartconfig.ui:17
 #, fuzzy
 #| msgid "&Properties"
 msgid "&Properties..."
 msgstr "(&P) గుణములు"
 
+#. i18n: ectx: property (text), widget (QPushButton, btnAddScript)
+#: autostartconfig.ui:24
+msgid "Add Script..."
+msgstr "స్క్రిప్టును జతచేయుము..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
+#: autostartconfig.ui:46
+msgid "&Remove"
+msgstr "(&R) తీసివేయి"
+
 #. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
-#: autostartconfig.ui:74
+#: autostartconfig.ui:53
 #, fuzzy
 #| msgid "Advanced"
 msgid "Advanced..."
 msgstr "ఆధునాతన"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAddProgram)
+#: autostartconfig.ui:60
+msgid "Add Program..."
+msgstr "ప్రోగ్రామ్‌ను జతచేయుము..."
 
 #~ msgid "Shutdown"
 #~ msgstr "మూసివేయి"

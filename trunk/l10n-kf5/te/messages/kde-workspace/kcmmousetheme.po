@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-25 08:04+0000\n"
+"POT-Creation-Date: 2016-07-05 08:20+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -54,39 +54,39 @@ msgctxt "@item:inlistbox size"
 msgid "Resolution dependent"
 msgstr ""
 
-#: xcursor/themepage.cpp:319
+#: xcursor/themepage.cpp:317
 #, fuzzy
 #| msgid "You have to restart KDE for these changes to take effect."
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
 msgstr "ఈ మార్పులు ప్రభావితం అగుటకు మీరు KDEను పునఃప్రారంభించవలసి వుంటుంది."
 
-#: xcursor/themepage.cpp:320
+#: xcursor/themepage.cpp:318
 msgid "Cursor Settings Changed"
 msgstr "కర్సర్ అమర్పులు మార్చబడినవి"
 
-#: xcursor/themepage.cpp:438
+#: xcursor/themepage.cpp:436
 msgid "Drag or Type Theme URL"
 msgstr "థీమ్ URLను లాక్కోనితెమ్ము లేదా టైపు చేయుము"
 
-#: xcursor/themepage.cpp:449
+#: xcursor/themepage.cpp:447
 #, kde-format
 msgid "Unable to find the cursor theme archive %1."
 msgstr "కర్సర్ థీమ్ ఆర్చివ్‌ను %1 కనుగొనలేక పోయింది."
 
-#: xcursor/themepage.cpp:452
+#: xcursor/themepage.cpp:450
 #, kde-format
 msgid ""
 "Unable to download the cursor theme archive; please check that the address "
 "%1 is correct."
 msgstr "కర్సర్ థీమ్ ఆర్చివ్‌ను డౌనులోడు చేయలేక పోయింది, చిరునామా %1 సరైనదేనేమో దయచేసి పరిశీలించండి."
 
-#: xcursor/themepage.cpp:461
+#: xcursor/themepage.cpp:459
 #, kde-format
 msgid "The file %1 does not appear to be a valid cursor theme archive."
 msgstr "ఫైలు %1 చెల్లునటువంటి కర్సర్ థీమ్ ఆర్చివ్ వలె అనిపించుటలేదు."
 
-#: xcursor/themepage.cpp:476
+#: xcursor/themepage.cpp:474
 msgid ""
 "<qt>You cannot delete the theme you are currently using.<br />You have to "
 "switch to another theme first.</qt>"
@@ -94,7 +94,7 @@ msgstr ""
 "<qt>మీరు ప్రస్తుతం వుపయోగిస్తున్న థీమ్‌ను మీరు తొలగించలేరు.<br />మీరు ముందు వేరొక థీమ్‌కు మారాలి.</"
 "qt>"
 
-#: xcursor/themepage.cpp:482
+#: xcursor/themepage.cpp:480
 #, kde-format
 msgid ""
 "<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
@@ -103,11 +103,11 @@ msgstr ""
 "<qt>మీరు ఖచ్చితంగా <i>%1</i> కర్సర్ థీమ్‌ను తీసివేద్దామని అనుకొనుచున్నారా?<br />ఈ థీమ్ ద్వారా "
 "సంస్థాపించబడిన అన్ని ఫైళ్ళను తొలగిస్తుంది.</qt>"
 
-#: xcursor/themepage.cpp:488
+#: xcursor/themepage.cpp:486
 msgid "Confirmation"
 msgstr "నిర్ధారణ"
 
-#: xcursor/themepage.cpp:545
+#: xcursor/themepage.cpp:543
 #, kde-format
 msgid ""
 "A theme named %1 already exists in your icon theme folder. Do you want "
@@ -116,46 +116,40 @@ msgstr ""
 "%1 నామముతో వున్న థీమ్ యిప్పటికే మీ ప్రతిమ థీమ్ ఫోల్డర్‌లో వుంది. మీరు దానిని దీనితో పునఃస్థాపించుదామని "
 "అనుకొనుచున్నారా?"
 
-#: xcursor/themepage.cpp:549
+#: xcursor/themepage.cpp:547
 msgid "Overwrite Theme?"
 msgstr "థీమ్‌ను వోవర్‌రైట్ చేయాలా?"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: xcursor/themepage.ui:17
+#: xcursor/themepage.ui:33
 msgid "Select the cursor theme you want to use (hover preview to test cursor):"
 msgstr ""
 "మీరు వుపయోగించాలని అనుకొనుచున్న కర్సర్ థీమ్‌ను యెంపికచేయుము (కర్సర్‌ను పరీక్షించుటకు hover "
 "ముందస్తు వీక్షణం):"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, installKnsButton)
-#: xcursor/themepage.ui:56
+#: xcursor/themepage.ui:40
 msgid "Get new color schemes from the Internet"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, installKnsButton)
-#: xcursor/themepage.ui:59
+#: xcursor/themepage.ui:43
 #, fuzzy
 #| msgid "Install New Theme..."
 msgid "Get New Theme..."
 msgstr "కొత్త థీమ్‌ను సంస్థాపించుము..."
 
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: xcursor/themepage.ui:50
+msgid "Remove Theme"
+msgstr "థీమ్‌ను తీసివేయి"
+
 #. i18n: ectx: property (text), widget (QPushButton, installButton)
-#: xcursor/themepage.ui:66
+#: xcursor/themepage.ui:92
 #, fuzzy
 #| msgid "Install New Theme..."
 msgid "Install From File..."
 msgstr "కొత్త థీమ్‌ను సంస్థాపించుము..."
-
-#. i18n: ectx: property (text), widget (QPushButton, removeButton)
-#: xcursor/themepage.ui:73
-msgid "Remove Theme"
-msgstr "థీమ్‌ను తీసివేయి"
-
-#. i18n: ectx: property (text), widget (QLabel, sizeLabel)
-#: xcursor/themepage.ui:99
-msgctxt "@label:listbox cursor size"
-msgid "Size:"
-msgstr ""
 
 #: xcursor/xcursortheme.cpp:77
 #, kde-format
