@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-07-06 07:37+0000\n"
+"POT-Creation-Date: 2016-07-12 09:52+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -197,7 +197,9 @@ msgstr "ఇంటర్నెట్ నుండి కొత్త రంగు
 
 #. i18n: ectx: property (text), widget (QPushButton, schemeKnsButton)
 #: colorsettings.ui:58
-msgid "Get &New Schemes..."
+#, fuzzy
+#| msgid "Get &New Schemes..."
+msgid "Get &New Scheme"
 msgstr "(&N) కొత్త స్కీమాలను పొందుము..."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, schemeImportButton)
@@ -207,8 +209,8 @@ msgstr "ఫైలునుండి రంగు స్కీమాను ది
 
 #. i18n: ectx: property (text), widget (QPushButton, schemeImportButton)
 #: colorsettings.ui:68
-msgid "Import Scheme..."
-msgstr "స్కీమాను దిగుమతి చేయుము..."
+msgid "&Install from File"
+msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsUploadButton)
 #: colorsettings.ui:78
@@ -221,7 +223,7 @@ msgstr "ఇంటర్నెట్ నుండి కొత్త రంగు
 #: colorsettings.ui:81
 #, fuzzy
 #| msgid "Import Scheme..."
-msgid "&Upload Scheme..."
+msgid "Upload Scheme"
 msgstr "స్కీమాను దిగుమతి చేయుము..."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
@@ -240,7 +242,9 @@ msgstr "ప్రస్తుత రంగు స్కీమాను దాయ
 
 #. i18n: ectx: property (text), widget (QPushButton, schemeSaveButton)
 #: colorsettings.ui:135
-msgid "Save Scheme..."
+#, fuzzy
+#| msgid "Save Scheme..."
+msgid "Save Scheme"
 msgstr "స్కీమాను దాయుము..."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, schemeRemoveButton)
@@ -772,8 +776,40 @@ msgstr "టింట్"
 msgid "Inactive contrast effect amount"
 msgstr "క్రియాహీన కాంట్రాస్ట్ ప్రభావపు ఎమౌంట్"
 
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#: preview.ui:29
+#, fuzzy
+#| msgid "Window Background"
+msgid "Window text on Window Background"
+msgstr "విండో బ్యాక్‌గ్రౌండ్"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: preview.ui:32
+#, fuzzy
+#| msgid "Window text"
+msgctxt "color-kcm-preview"
+msgid "Window text"
+msgstr "విండో వచనము"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, pushButton)
+#: preview.ui:39
+#, fuzzy
+#| msgid "Button Background"
+msgid "Button text on Button Background"
+msgstr "బటన్ బ్యాక్‌గ్రౌండ్"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QPushButton, pushButton)
+#: preview.ui:42
+#, fuzzy
+#| msgid "Push Button"
+msgctxt "color-kcm-preview"
+msgid "Push Button"
+msgstr "నెట్టు బటన్"
+
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection0)
-#: preview.ui:74
+#: preview.ui:139
 #, fuzzy
 #| msgid "Normal Background"
 msgid "Selection Normal Text against Selection Normal Background"
@@ -781,7 +817,7 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelSelection0)
-#: preview.ui:77
+#: preview.ui:142
 #, fuzzy
 #| msgid "Selected text"
 msgctxt "color-kcm-preview"
@@ -789,7 +825,7 @@ msgid "Selected text"
 msgstr "ఎంపికచేసిన వచనము"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection3)
-#: preview.ui:89
+#: preview.ui:154
 #, fuzzy
 #| msgid "Normal Background"
 msgid "Selection Link Text against Selection Normal Background"
@@ -799,7 +835,7 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelSelection3)
 #. i18n: ectx: property (text), widget (QLabel, labelView3)
-#: preview.ui:92 preview.ui:216
+#: preview.ui:157 preview.ui:281
 #, fuzzy
 #| msgid "link"
 msgctxt "color-kcm-preview"
@@ -807,7 +843,7 @@ msgid "link"
 msgstr "లింకు"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection4)
-#: preview.ui:104
+#: preview.ui:169
 #, fuzzy
 #| msgid "Normal Background"
 msgid "Selection Visited Text against Selection Normal Background"
@@ -817,7 +853,7 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelSelection4)
 #. i18n: ectx: property (text), widget (QLabel, labelView4)
-#: preview.ui:107 preview.ui:231
+#: preview.ui:172 preview.ui:296
 #, fuzzy
 #| msgid "visited"
 msgctxt "color-kcm-preview"
@@ -825,7 +861,7 @@ msgid "visited"
 msgstr "వీక్షించిన"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection2)
-#: preview.ui:114
+#: preview.ui:179
 #, fuzzy
 #| msgid "Normal Background"
 msgid "Selection Active Text against Selection Normal Background"
@@ -835,7 +871,7 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelSelection2)
 #. i18n: ectx: property (text), widget (QLabel, labelView2)
-#: preview.ui:117 preview.ui:241
+#: preview.ui:182 preview.ui:306
 #, fuzzy
 #| msgctxt "active (abbreviate)"
 #| msgid "a"
@@ -844,7 +880,7 @@ msgid "a"
 msgstr "a"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection1)
-#: preview.ui:124
+#: preview.ui:189
 #, fuzzy
 #| msgid "Normal Background"
 msgid "Selection Inactive Text against Selection Normal Background"
@@ -854,7 +890,7 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelSelection1)
 #. i18n: ectx: property (text), widget (QLabel, labelView1)
-#: preview.ui:127 preview.ui:251
+#: preview.ui:192 preview.ui:316
 #, fuzzy
 #| msgctxt "inactive (abbreviate)"
 #| msgid "i"
@@ -863,7 +899,7 @@ msgid "i"
 msgstr "i"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection5)
-#: preview.ui:134
+#: preview.ui:199
 #, fuzzy
 #| msgid "Normal Background"
 msgid "Selection Negative Text against Selection Normal Background"
@@ -873,7 +909,7 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelSelection5)
 #. i18n: ectx: property (text), widget (QLabel, labelView5)
-#: preview.ui:137 preview.ui:261
+#: preview.ui:202 preview.ui:326
 #, fuzzy
 #| msgid "!"
 msgctxt "color-kcm-preview"
@@ -881,7 +917,7 @@ msgid "!"
 msgstr "!"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection6)
-#: preview.ui:144
+#: preview.ui:209
 #, fuzzy
 #| msgid "Normal Background"
 msgid "Selection Neutral Text against Selection Normal Background"
@@ -891,7 +927,7 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelSelection6)
 #. i18n: ectx: property (text), widget (QLabel, labelView6)
-#: preview.ui:147 preview.ui:271
+#: preview.ui:212 preview.ui:336
 #, fuzzy
 #| msgid "="
 msgctxt "color-kcm-preview"
@@ -899,7 +935,7 @@ msgid "="
 msgstr "="
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection7)
-#: preview.ui:154
+#: preview.ui:219
 #, fuzzy
 #| msgid "Normal Background"
 msgid "Selection Positive Text against Selection Normal Background"
@@ -909,7 +945,7 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelSelection7)
 #. i18n: ectx: property (text), widget (QLabel, labelView7)
-#: preview.ui:157 preview.ui:281
+#: preview.ui:222 preview.ui:346
 #, fuzzy
 #| msgid "+"
 msgctxt "color-kcm-preview"
@@ -917,7 +953,7 @@ msgid "+"
 msgstr "+"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView0)
-#: preview.ui:198
+#: preview.ui:263
 #, fuzzy
 #| msgid "Normal Background"
 msgid "View Normal Text against View Normal Background"
@@ -925,7 +961,7 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelView0)
-#: preview.ui:201
+#: preview.ui:266
 #, fuzzy
 #| msgid "Normal text"
 msgctxt "color-kcm-preview"
@@ -933,85 +969,53 @@ msgid "Normal text"
 msgstr "సాదారణ వచనము"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView3)
-#: preview.ui:213
+#: preview.ui:278
 #, fuzzy
 #| msgid "Normal Background"
 msgid "View Link Text against View Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView4)
-#: preview.ui:228
+#: preview.ui:293
 #, fuzzy
 #| msgid "Normal Background"
 msgid "View Visited Text against View Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView2)
-#: preview.ui:238
+#: preview.ui:303
 #, fuzzy
 #| msgid "Normal Background"
 msgid "View Active Text against View Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView1)
-#: preview.ui:248
+#: preview.ui:313
 #, fuzzy
 #| msgid "Normal Background"
 msgid "View Inactive Text against View Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView5)
-#: preview.ui:258
+#: preview.ui:323
 #, fuzzy
 #| msgid "Normal Background"
 msgid "View Negative Text against View Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView6)
-#: preview.ui:268
+#: preview.ui:333
 #, fuzzy
 #| msgid "Normal Background"
 msgid "View Neutral Text against View Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView7)
-#: preview.ui:278
+#: preview.ui:343
 #, fuzzy
 #| msgid "Normal Background"
 msgid "View Positive Text against View Normal Background"
 msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, label)
-#: preview.ui:294
-#, fuzzy
-#| msgid "Window Background"
-msgid "Window text on Window Background"
-msgstr "విండో బ్యాక్‌గ్రౌండ్"
-
-#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: preview.ui:297
-#, fuzzy
-#| msgid "Window text"
-msgctxt "color-kcm-preview"
-msgid "Window text"
-msgstr "విండో వచనము"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, pushButton)
-#: preview.ui:304
-#, fuzzy
-#| msgid "Button Background"
-msgid "Button text on Button Background"
-msgstr "బటన్ బ్యాక్‌గ్రౌండ్"
-
-#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
-#. i18n: ectx: property (text), widget (QPushButton, pushButton)
-#: preview.ui:307
-#, fuzzy
-#| msgid "Push Button"
-msgctxt "color-kcm-preview"
-msgid "Push Button"
-msgstr "నెట్టు బటన్"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore0)
 #. i18n: ectx: property (toolTip), widget (QLabel, labelBack0)
@@ -1251,6 +1255,9 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 msgctxt "color-kcm-set-preview"
 msgid "focus"
 msgstr "ఫోకస్"
+
+#~ msgid "Import Scheme..."
+#~ msgstr "స్కీమాను దిగుమతి చేయుము..."
 
 #~ msgid "Contrast used for 3D objects"
 #~ msgstr "3D ఆబ్జక్టులకు వుపయోగించిన కాంట్రాస్టు"
