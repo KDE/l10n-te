@@ -1,0 +1,145 @@
+# translation of kdebugdialog.po to Telugu
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdebugdialog\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-10-05 04:53+0200\n"
+"PO-Revision-Date: 2009-01-16 22:16+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "కృష్ణబాబు కె , విజయ్ కిరణ్ కముజు"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "k.meetme@gmail.com,infyquest@gmail.com"
+
+#: kdebugdialog.cpp:42 klistdebugdialog.cpp:36
+msgid "Debug Settings"
+msgstr "అమరికలను డీబగ్ చేయుము"
+
+#: kdebugdialog.cpp:57
+msgid "File"
+msgstr "దస్త్రం"
+
+#: kdebugdialog.cpp:58
+msgid "Message Box"
+msgstr "సందేశ బాక్స్"
+
+#: kdebugdialog.cpp:59
+msgid "Shell"
+msgstr "షెల్"
+
+#: kdebugdialog.cpp:60
+msgid "Syslog"
+msgstr "సిస్‌లాగ్"
+
+#: kdebugdialog.cpp:61
+msgid "None"
+msgstr "ఏదీకాదు"
+
+#. i18n: ectx: property (title), widget (QGroupBox, pInfoGroup)
+#: kdebugdialog.ui:48
+msgid "Information"
+msgstr "సమాచారం"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: kdebugdialog.ui:54 kdebugdialog.ui:89 kdebugdialog.ui:151
+#: kdebugdialog.ui:186
+msgid "Output to:"
+msgstr "అవట్‌పుట్ దీనికి:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: kdebugdialog.ui:67 kdebugdialog.ui:102 kdebugdialog.ui:164
+#: kdebugdialog.ui:199
+msgid "Filename:"
+msgstr "ఫైలుపేరు:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, pErrorGroup)
+#: kdebugdialog.ui:83
+msgid "Error"
+msgstr "దోషము"
+
+#. i18n: ectx: property (text), widget (QCheckBox, pAbortFatal)
+#: kdebugdialog.ui:118
+msgid "Abort on fatal errors"
+msgstr "ఫాటల్ దోషములపై ఎబార్టు అవ్వుము"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_disableAll2)
+#: kdebugdialog.ui:138 klistdebugdialog.cpp:76
+msgid "Disable all debug output"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, pWarnGroup)
+#: kdebugdialog.ui:145
+msgid "Warning"
+msgstr "హెచ్చరిక"
+
+#. i18n: ectx: property (title), widget (QGroupBox, pFatalGroup)
+#: kdebugdialog.ui:180
+msgid "Fatal Error"
+msgstr "ఫాటల్ దోషము"
+
+#: klistdebugdialog.cpp:67
+msgid "&Select All"
+msgstr "(&S) అన్నిటిని ఎంచుకొనుము"
+
+#: klistdebugdialog.cpp:68
+msgid "&Deselect All"
+msgstr "(&D) అన్నిటిని ఎంపికతీసివేయుము"
+
+#: main.cpp:98
+msgid "KDebugDialog"
+msgstr "KDebugDialog"
+
+#: main.cpp:99
+msgid "A dialog box for setting preferences for debug output"
+msgstr "డీబగ్ అవుట్‌పుట్‌కు అభీష్టాలను అమర్చుటకు వొక డైలాగ్ బాక్స్"
+
+#: main.cpp:100
+#, fuzzy
+#| msgid "Copyright 1999-2000, David Faure <email>faure@kde.org</email>"
+msgid "Copyright 1999-2009, David Faure <email>faure@kde.org</email>"
+msgstr "కాపీరైట్ 1999-2000, డేవిడ్ ఫౌర్ <email>faure@kde.org</email>"
+
+#: main.cpp:101
+msgid "David Faure"
+msgstr "డెవిడ్ ఫారె"
+
+#: main.cpp:101
+msgid "Maintainer"
+msgstr "సంరక్షకుడు"
+
+#: main.cpp:106
+msgid "Show the fully-fledged dialog instead of the default list dialog"
+msgstr "అప్రమేయ జాబితా డైలాగును చూపుటకు బదులుగా పూర్తిగా-ఫ్లెడ్జిచేసిన డైలాగును చూపుము"
+
+#: main.cpp:107
+msgid "Turn area on"
+msgstr "ప్రాంతమును ఆన్ చేయుము"
+
+#: main.cpp:108
+msgid "Turn area off"
+msgstr "ప్రాంతమును ఆఫ్ చేయుము"
+
+#~ msgid "Debug area:"
+#~ msgstr "డీబగ్ ప్రాంతము:"
