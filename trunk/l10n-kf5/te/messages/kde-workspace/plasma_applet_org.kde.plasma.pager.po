@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-14 08:39+0000\n"
+"POT-Creation-Date: 2016-09-07 07:18+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -23,51 +23,47 @@ msgstr ""
 msgid "General"
 msgstr "సాధారణ"
 
-#: package/contents/ui/configGeneral.qml:82
+#: package/contents/ui/configGeneral.qml:85
 msgid "Display:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:88
+#: package/contents/ui/configGeneral.qml:91
+msgid "Activity number"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:91
 msgid "Desktop number"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:99
+#: package/contents/ui/configGeneral.qml:102
+msgid "Activity name"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:102
 msgid "Desktop name"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:105
+#: package/contents/ui/configGeneral.qml:108
 msgid "No text"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:116
+#: package/contents/ui/configGeneral.qml:119
 msgid "Icons"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:120
+#: package/contents/ui/configGeneral.qml:123
 msgid "Selecting current desktop:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:126
+#: package/contents/ui/configGeneral.qml:129
 msgid "Does nothing"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:137
+#: package/contents/ui/configGeneral.qml:140
 msgid "Shows desktop"
 msgstr ""
 
-#: package/contents/ui/main.qml:87
-msgid "Add Virtual Desktop"
-msgstr ""
-
-#: package/contents/ui/main.qml:88
-msgid "Remove Virtual Desktop"
-msgstr ""
-
-#: package/contents/ui/main.qml:93
-msgid "Configure Desktops..."
-msgstr ""
-
-#: package/contents/ui/main.qml:146
+#: package/contents/ui/main.qml:231
 #, kde-format
 msgid "...and %1 other window"
 msgid_plural "...and %1 other windows"
@@ -77,7 +73,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: package/contents/ui/main.qml:168
+#: package/contents/ui/main.qml:253
 #, kde-format
 msgid "%1 Window:"
 msgid_plural "%1 Windows:"
@@ -87,7 +83,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: package/contents/ui/main.qml:177
+#: package/contents/ui/main.qml:262
 #, kde-format
 msgid "%1 Minimized Window:"
 msgid_plural "%1 Minimized Windows:"
@@ -96,3 +92,19 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
+
+#: package/contents/ui/main.qml:434
+msgid "Show Activity Manager..."
+msgstr ""
+
+#: package/contents/ui/main.qml:437
+msgid "Add Virtual Desktop"
+msgstr ""
+
+#: package/contents/ui/main.qml:438
+msgid "Remove Virtual Desktop"
+msgstr ""
+
+#: package/contents/ui/main.qml:443
+msgid "Configure Desktops..."
+msgstr ""
