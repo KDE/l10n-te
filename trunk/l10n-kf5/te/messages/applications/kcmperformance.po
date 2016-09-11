@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmperformance\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-03 07:04+0000\n"
+"POT-Creation-Date: 2016-09-11 07:05+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -43,30 +43,6 @@ msgstr ""
 
 #: konqueror.cpp:34
 msgid ""
-"Disables the minimization of memory usage and allows you to make each "
-"browsing activity independent from the others"
-msgstr ""
-
-#: konqueror.cpp:37
-msgid ""
-"<p>With this option activated, only one instance of Konqueror used for file "
-"browsing will exist in the memory of your computer at any moment, no matter "
-"how many file browsing windows you open, thus reducing resource requirements."
-"</p><p>Be aware that this also means that, if something goes wrong, all your "
-"file browsing windows will be closed simultaneously</p>"
-msgstr ""
-
-#: konqueror.cpp:45
-msgid ""
-"<p>With this option activated, only one instance of Konqueror will exist in "
-"the memory of your computer at any moment, no matter how many browsing "
-"windows you open, thus reducing resource requirements.</p><p>Be aware that "
-"this also means that, if something goes wrong, all your browsing windows "
-"will be closed simultaneously.</p>"
-msgstr ""
-
-#: konqueror.cpp:57
-msgid ""
 "<p>If non-zero, this option allows keeping Konqueror instances in memory "
 "after all their windows have been closed, up to the number specified in this "
 "option.</p><p>When a new Konqueror instance is needed, one of these "
@@ -74,7 +50,7 @@ msgid ""
 "expense of the memory required by the preloaded instances.</p>"
 msgstr ""
 
-#: konqueror.cpp:66
+#: konqueror.cpp:43
 msgid ""
 "<p>If enabled, an instance of Konqueror will be preloaded after the ordinary "
 "KDE startup sequence.</p><p>This will make the first Konqueror window open "
@@ -83,7 +59,7 @@ msgid ""
 "longer).</p>"
 msgstr ""
 
-#: konqueror.cpp:72
+#: konqueror.cpp:49
 msgid ""
 "<p>If enabled, KDE will always try to have one preloaded Konqueror instance "
 "ready; preloading a new instance in the background whenever there is not one "
@@ -92,43 +68,25 @@ msgid ""
 "performance.</p>"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, reuse_group)
-#: konqueror_ui.ui:16
-msgid "Minimize Memory Usage"
-msgstr "మెమొరీ వుపయోగమును తక్కువచేయుము"
-
-#. i18n: ectx: property (text), widget (QRadioButton, rb_never_reuse)
-#: konqueror_ui.ui:22
-msgid "&Never"
-msgstr "(&N) ఎప్పటికికాదు"
-
-#. i18n: ectx: property (text), widget (QRadioButton, rb_file_browsing_reuse)
-#: konqueror_ui.ui:29
-msgid "For &file browsing only (recommended)"
-msgstr "(&f) ఫైలు బ్రౌంజింగుకు మాత్రమే (సిఫార్సుచేయబడిన)"
-
-#. i18n: ectx: property (text), widget (QRadioButton, rb_always_reuse)
-#: konqueror_ui.ui:36
-msgid "Alwa&ys (use with care)"
-msgstr "(&y) ఎల్లప్పుడు (జాగ్రత్తతో వుపయోగించుము)"
-
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: konqueror_ui.ui:46
+#: konqueror_ui.ui:17
 msgid "Preloading"
 msgstr "ముందుగాలోడుచేసిన"
 
 #. i18n: ectx: property (text), widget (QLabel, lb_preload_count)
-#: konqueror_ui.ui:57
-msgid "Maximum number of instances kept &preloaded:"
+#: konqueror_ui.ui:37
+#, fuzzy
+#| msgid "Maximum number of instances kept &preloaded:"
+msgid "&Maximum number of instances kept preloaded:"
 msgstr "(&p) ముందుగాలోడుచేసి వుంచిన ఇస్టాన్సెస్ యొక్క గరిష్ట సంఖ్య:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_preload_on_startup)
-#: konqueror_ui.ui:91
+#: konqueror_ui.ui:71
 msgid "Preload an instance after KDE startup"
 msgstr "KDE ప్రారంభము తర్వాత ఒక ఇస్టాన్సును ముందుగాలోడు చేయుము"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_always_have_preloaded)
-#: konqueror_ui.ui:98
+#: konqueror_ui.ui:78
 msgid "Always try to have at least one preloaded instance"
 msgstr "ఎల్లప్పడు ఒక ముందుగాలోడు చేసిన ఇస్టాన్సును కలిగివుండుటకు ప్రయత్నించుము"
 
@@ -167,3 +125,15 @@ msgid ""
 msgstr ""
 "ఈ ఐచ్చికం కొన్ని అరుదైన సందర్భములలో వివిధ సమస్యలకు దారితీయవచ్చు. వివరముల కొరకు ఇది ఏమిటి (Shift"
 "+F1) సహాయమును సంప్రదించండి."
+
+#~ msgid "Minimize Memory Usage"
+#~ msgstr "మెమొరీ వుపయోగమును తక్కువచేయుము"
+
+#~ msgid "&Never"
+#~ msgstr "(&N) ఎప్పటికికాదు"
+
+#~ msgid "For &file browsing only (recommended)"
+#~ msgstr "(&f) ఫైలు బ్రౌంజింగుకు మాత్రమే (సిఫార్సుచేయబడిన)"
+
+#~ msgid "Alwa&ys (use with care)"
+#~ msgstr "(&y) ఎల్లప్పుడు (జాగ్రత్తతో వుపయోగించుము)"
