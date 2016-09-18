@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-11 07:05+0000\n"
+"POT-Creation-Date: 2016-09-18 06:59+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1143,27 +1143,27 @@ msgstr ""
 msgid "Uncheck this box to prevent being prompted to save website passwords"
 msgstr ""
 
-#: javaopts.cpp:80
+#: javaopts.cpp:79
 msgid "Enable Ja&va globally"
 msgstr "(&v) జావాను సార్వత్రికముగా చేతనముచేయుము"
 
-#: javaopts.cpp:95
+#: javaopts.cpp:94
 msgid "Java Runtime Settings"
 msgstr "జావా రన్‌టైమ్ అమరికలు"
 
-#: javaopts.cpp:99
+#: javaopts.cpp:98
 msgid "&Use security manager"
 msgstr "(&U) సురక్షితా నిర్వాహికను వుపయోగించుము"
 
-#: javaopts.cpp:103
+#: javaopts.cpp:102
 msgid "Use &KIO"
 msgstr "&KIO వుపయోగించుము"
 
-#: javaopts.cpp:107
+#: javaopts.cpp:106
 msgid "Shu&tdown applet server when inactive for more than"
 msgstr "ఇంతకన్నా ఎక్కువ ఆప్లెట్ సెర్వర్ క్రియాహీనముగా వుంటే మూసివేయుము"
 
-#: javaopts.cpp:114
+#: javaopts.cpp:113
 #, fuzzy
 #| msgid " sec"
 msgid " second"
@@ -1174,22 +1174,22 @@ msgstr[2] " సెకను"
 msgstr[3] " సెకను"
 msgstr[4] " సెకను"
 
-#: javaopts.cpp:120
+#: javaopts.cpp:119
 msgid "&Path to Java executable, or 'java':"
 msgstr "(&P) జావా యెగ్జిక్యూటబుల్‌కు దారి, లేదా 'java':"
 
-#: javaopts.cpp:124
+#: javaopts.cpp:123
 msgid "Additional Java a&rguments:"
 msgstr "(&r) అదనపు జావా ఆర్గుమెంట్లు:"
 
-#: javaopts.cpp:129
+#: javaopts.cpp:128
 msgid ""
 "Enables the execution of scripts written in Java that can be contained in "
 "HTML pages. Note that, as with any browser, enabling active contents can be "
 "a security problem."
 msgstr ""
 
-#: javaopts.cpp:132
+#: javaopts.cpp:131
 msgid ""
 "<p>This box contains the domains and hosts you have set a specific Java "
 "policy for. This policy will be used instead of the default policy for "
@@ -1197,20 +1197,20 @@ msgid ""
 "p><p>Select a policy and use the controls on the right to modify it.</p>"
 msgstr ""
 
-#: javaopts.cpp:139
+#: javaopts.cpp:138
 msgid ""
 "Click this button to choose the file that contains the Java policies. These "
 "policies will be merged with the existing ones. Duplicate entries are "
 "ignored."
 msgstr ""
 
-#: javaopts.cpp:142
+#: javaopts.cpp:141
 msgid ""
 "Click this button to save the Java policy to a zipped file. The file, named "
 "<b>java_policy.tgz</b>, will be saved to a location of your choice."
 msgstr ""
 
-#: javaopts.cpp:146
+#: javaopts.cpp:145
 msgid ""
 "Here you can set specific Java policies for any particular host or domain. "
 "To add a new policy, simply click the <i>New...</i> button and supply the "
@@ -1221,7 +1221,7 @@ msgid ""
 "domain."
 msgstr ""
 
-#: javaopts.cpp:159
+#: javaopts.cpp:158
 msgid ""
 "Enabling the security manager will cause the jvm to run with a Security "
 "Manager in place. This will keep applets from being able to read and write "
@@ -1231,11 +1231,11 @@ msgid ""
 "utility to give code downloaded from certain sites more permissions."
 msgstr ""
 
-#: javaopts.cpp:167
+#: javaopts.cpp:166
 msgid "Enabling this will cause the jvm to use KIO for network transport "
 msgstr "దీనిని చేతనపరచుట వలన jvm అనునది KIOను నెట్వర్కు మద్దతుకొరకు వుపయోగించుటకు కారణమౌతుంది"
 
-#: javaopts.cpp:169
+#: javaopts.cpp:168
 msgid ""
 "Enter the path to the java executable. If you want to use the jre in your "
 "path, simply leave it as 'java'. If you need to use a different jre, enter "
@@ -1243,14 +1243,14 @@ msgid ""
 "the directory that contains 'bin/java' (e.g. /opt/IBMJava2-13)."
 msgstr ""
 
-#: javaopts.cpp:174
+#: javaopts.cpp:173
 msgid ""
 "If you want special arguments to be passed to the virtual machine, enter "
 "them here."
 msgstr ""
 "మీరు ప్రత్యేకమైన ఆర్గుమెంట్లు వర్చ్యువల్ మిషన్‌కు పాస్ చేయాలి అనుకుంటే, వాటిని యిక్కడ ప్రవేశపెట్టుము."
 
-#: javaopts.cpp:176
+#: javaopts.cpp:175
 msgid ""
 "When all the applets have been destroyed, the applet server should shut "
 "down. However, starting the jvm takes a lot of time. If you would like to "
@@ -1260,30 +1260,30 @@ msgid ""
 "checkbox unchecked."
 msgstr ""
 
-#: javaopts.cpp:289
+#: javaopts.cpp:284
 msgctxt "@title:group"
 msgid "Doma&in-Specific"
 msgstr "(&i) డొమైన్-ప్రత్యేకమైన"
 
-#: javaopts.cpp:324
+#: javaopts.cpp:319
 #, fuzzy
 #| msgid "New Java Policy"
 msgctxt "@title:window"
 msgid "New Java Policy"
 msgstr "కొత్త జావా విధానము"
 
-#: javaopts.cpp:327
+#: javaopts.cpp:322
 #, fuzzy
 #| msgid "Change Java Policy"
 msgctxt "@title:window"
 msgid "Change Java Policy"
 msgstr "జావా విదానమును మార్చుము"
 
-#: javaopts.cpp:331
+#: javaopts.cpp:326
 msgid "&Java policy:"
 msgstr "(&J) జావా విధానము:"
 
-#: javaopts.cpp:332
+#: javaopts.cpp:327
 msgid "Select a Java policy for the above host or domain."
 msgstr "పై హోస్టు లేదా డొమైన్‌కు జావా విధానమును యెంపికచేయుము."
 
