@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-07-12 09:52+0000\n"
+"POT-Creation-Date: 2016-10-04 08:11+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -60,28 +60,28 @@ msgid "Icons"
 msgstr "ప్రతిమలు"
 
 #. i18n: ectx: property (text), widget (QRadioButton, doubleClick)
-#: kmousedlg.ui:111
+#: kmousedlg.ui:114
 msgid "Dou&ble-click to open files and folders (select icons on first click)"
 msgstr ""
 "(&b) ఫైళ్ళను మరియు ఫోల్డర్లను తెరువుటకు రెండుసార్లు-నొక్కుము (మొదటి ట్రాక్‌పై ప్రతిమలను యెంపికచేయుము)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, singleClick)
-#: kmousedlg.ui:121
+#: kmousedlg.ui:124
 msgid "&Single-click to open files and folders"
 msgstr "(&S) ఫైళ్ళను మరియు ఫోల్డర్లను తెరువుటకు వొకే-నొక్కు"
 
-#: mouse.cpp:95
+#: mouse.cpp:90
 msgid ""
 "<h1>Mouse</h1> This module allows you to choose various options for the way "
 "in which your pointing device works. Your pointing device may be a mouse, "
 "trackball, or some other hardware that performs a similar function."
 msgstr ""
 
-#: mouse.cpp:114
+#: mouse.cpp:107
 msgid "&General"
 msgstr "(&G) సాదారణ"
 
-#: mouse.cpp:124
+#: mouse.cpp:117
 msgid ""
 "If you are left-handed, you may prefer to swap the functions of the left and "
 "right buttons on your pointing device by choosing the 'left-handed' option. "
@@ -90,7 +90,7 @@ msgid ""
 "button mouse, the middle button is unaffected."
 msgstr ""
 
-#: mouse.cpp:134
+#: mouse.cpp:127
 msgid ""
 "The default behavior in KDE is to select and activate icons with a single "
 "click of the left button on your pointing device. This behavior is "
@@ -99,23 +99,23 @@ msgid ""
 "with a double click, check this option."
 msgstr ""
 
-#: mouse.cpp:142
+#: mouse.cpp:135
 msgid "Activates and opens a file or folder with a single click."
 msgstr "ఒకే నొక్కుతో ఫైలును లేదా ఫోల్డరును క్రియాశీలము చేస్తుంది మరియు తెరుస్తుంది."
 
-#: mouse.cpp:166
+#: mouse.cpp:158
 msgid "Advanced"
 msgstr "ఆధునాతన"
 
-#: mouse.cpp:171
+#: mouse.cpp:168
 msgid " x"
 msgstr " x"
 
-#: mouse.cpp:172
+#: mouse.cpp:171
 msgid "Pointer acceleration:"
 msgstr "సూచకి త్వరుణం:"
 
-#: mouse.cpp:175
+#: mouse.cpp:174
 msgid ""
 "<p>This option allows you to change the relationship between the distance "
 "that the mouse pointer moves on the screen and the relative movement of the "
@@ -127,11 +127,11 @@ msgid ""
 "control.</p>"
 msgstr ""
 
-#: mouse.cpp:190
+#: mouse.cpp:191
 msgid "Pointer threshold:"
 msgstr "సూచకి త్రెష్‌హోల్డ్:"
 
-#: mouse.cpp:195
+#: mouse.cpp:196
 msgid ""
 "<p>The threshold is the smallest distance that the mouse pointer must move "
 "on the screen before acceleration has any effect. If the movement is smaller "
@@ -142,15 +142,15 @@ msgid ""
 "move the mouse pointer rapidly to different areas on the screen.</p>"
 msgstr ""
 
-#: mouse.cpp:210 mouse.cpp:225 mouse.cpp:271 mouse.cpp:276 mouse.cpp:281
+#: mouse.cpp:211 mouse.cpp:228 mouse.cpp:288 mouse.cpp:295 mouse.cpp:302
 msgid " msec"
 msgstr " msec"
 
-#: mouse.cpp:212
+#: mouse.cpp:215
 msgid "Double click interval:"
 msgstr "రెండు నొక్కుల విరామం:"
 
-#: mouse.cpp:215
+#: mouse.cpp:218
 msgid ""
 "The double click interval is the maximal time (in milliseconds) between two "
 "mouse clicks which turns them into a double click. If the second click "
@@ -158,31 +158,31 @@ msgid ""
 "recognized as two separate clicks."
 msgstr ""
 
-#: mouse.cpp:227
+#: mouse.cpp:232
 msgid "Drag start time:"
 msgstr "లాగునప్పటి ప్రారంభ సమయం:"
 
-#: mouse.cpp:230
+#: mouse.cpp:235
 msgid ""
 "If you click with the mouse (e.g. in a multi-line editor) and begin to move "
 "the mouse within the drag start time, a drag operation will be initiated."
 msgstr ""
 
-#: mouse.cpp:238
+#: mouse.cpp:245
 msgid "Drag start distance:"
 msgstr "లాగునప్పటి ప్రారంభ దూరము:"
 
-#: mouse.cpp:243
+#: mouse.cpp:250
 msgid ""
 "If you click with the mouse and begin to move the mouse at least the drag "
 "start distance, a drag operation will be initiated."
 msgstr ""
 
-#: mouse.cpp:251
+#: mouse.cpp:260
 msgid "Mouse wheel scrolls by:"
 msgstr "ఇన్నిటికి మౌస్ వీలు స్క్రాలు అవుతుంది:"
 
-#: mouse.cpp:256
+#: mouse.cpp:265
 msgid ""
 "If you use the wheel of a mouse, this value determines the number of lines "
 "to scroll for each wheel movement. Note that if this number exceeds the "
@@ -190,81 +190,81 @@ msgid ""
 "handled as a page up/down movement."
 msgstr ""
 
-#: mouse.cpp:262
+#: mouse.cpp:277
 #, fuzzy
 #| msgid "Mouse Navigation"
 msgid "Keyboard Navigation"
 msgstr "మౌస్ నావిగేషన్"
 
-#: mouse.cpp:266
+#: mouse.cpp:282
 msgid "&Move pointer with keyboard (using the num pad)"
 msgstr "(&M) సూచకిని కీబోర్డ్‌తో కదుపుము (నమ్ పాడ్ వుపయోగించి)"
 
-#: mouse.cpp:272
+#: mouse.cpp:290
 msgid "&Acceleration delay:"
 msgstr "(&A) త్వరుణం ఆలస్యము:"
 
-#: mouse.cpp:277
+#: mouse.cpp:297
 msgid "R&epeat interval:"
 msgstr "(&e) విరామంను పునరావృతము చేయుము:"
 
-#: mouse.cpp:282
+#: mouse.cpp:304
 msgid "Acceleration &time:"
 msgstr "(&t) త్వరుణం సమయం:"
 
-#: mouse.cpp:286
+#: mouse.cpp:309
 msgid " pixel/sec"
 msgstr " పిగ్జెల్/సెకను"
 
-#: mouse.cpp:287
+#: mouse.cpp:311
 msgid "Ma&ximum speed:"
 msgstr "(&x) గరిష్ట వేగము:"
 
-#: mouse.cpp:291
+#: mouse.cpp:317
 msgid "Acceleration &profile:"
 msgstr "(&p) త్వరుణం ప్రొఫైల్:"
 
-#: mouse.cpp:304
+#: mouse.cpp:333
 msgid "Mouse"
 msgstr "మౌస్"
 
-#: mouse.cpp:305
+#: mouse.cpp:336
 msgid "(c) 1997 - 2005 Mouse developers"
 msgstr "(c) 1997 - 2005 మౌస్ అభివృద్దికారులు"
 
-#: mouse.cpp:306
+#: mouse.cpp:337
 msgid "Patrick Dowler"
 msgstr "పాట్రిక్ డౌలర్"
 
-#: mouse.cpp:307
+#: mouse.cpp:338
 msgid "Dirk A. Mueller"
 msgstr "డిర్క్ ఎ. ముల్లర్"
 
-#: mouse.cpp:308
+#: mouse.cpp:339
 msgid "David Faure"
 msgstr "డెవిడ్ ఫారె"
 
-#: mouse.cpp:309
+#: mouse.cpp:340
 msgid "Bernd Gehrmann"
 msgstr "బెరన్డ్ గెర్మాన్"
 
-#: mouse.cpp:310
+#: mouse.cpp:341
 msgid "Rik Hemsley"
 msgstr "రిక్ హెమ్‌స్లి"
 
-#: mouse.cpp:311
+#: mouse.cpp:342
 msgid "Brad Hughes"
 msgstr "బ్రాడ్ హగ్స్"
 
-#: mouse.cpp:312
+#: mouse.cpp:343
 msgid "Ralf Nolden"
 msgstr "రాల్ఫ్ నోల్డెన్"
 
-#: mouse.cpp:313
+#: mouse.cpp:344
 msgid "Brad Hards"
 msgstr "బ్రాడ్ హార్డ్స్"
 
-#: mouse.cpp:596 mouse.cpp:601
+#: mouse.cpp:622 mouse.cpp:627
 msgid " pixel"
 msgid_plural " pixels"
 msgstr[0] " పిగ్జల్"
@@ -273,7 +273,7 @@ msgstr[2] " పిగ్జల్"
 msgstr[3] " పిగ్జల్"
 msgstr[4] " పిగ్జల్"
 
-#: mouse.cpp:606
+#: mouse.cpp:632
 msgid " line"
 msgid_plural " lines"
 msgstr[0] " వరుస"
