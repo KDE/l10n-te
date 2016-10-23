@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-10-21 06:54+0000\n"
+"POT-Creation-Date: 2016-10-23 06:55+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -266,8 +266,7 @@ msgstr "సాధారణ"
 msgid "Feature"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, gbDetails)
-#: about/konq_aboutpage.cpp:239 sidebar/history_module/history_dlg.ui:128
+#: about/konq_aboutpage.cpp:239
 msgid "Details"
 msgstr "వివరాలు"
 
@@ -422,436 +421,6 @@ msgstr ""
 msgid "<td>Mime Type</td><td>Description</td><td>Suffixes</td><td>Plugin</td>"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, gbLimits)
-#: sidebar/history_module/history_dlg.ui:16
-msgid "Limits"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, cbExpire)
-#: sidebar/history_module/history_dlg.ui:38
-msgid "URLs e&xpire after"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, lEntries)
-#: sidebar/history_module/history_dlg.ui:48
-msgid "Maximum &number of URLs:"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, gbFonts)
-#: sidebar/history_module/history_dlg.ui:67
-msgid "Custom Fonts For"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, lbNewer)
-#: sidebar/history_module/history_dlg.ui:82
-msgid "URLs newer than"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, btnFontOlder)
-#. i18n: ectx: property (text), widget (QPushButton, btnFontNewer)
-#: sidebar/history_module/history_dlg.ui:98
-#: sidebar/history_module/history_dlg.ui:118
-msgid "Choose Font..."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, lbOlder)
-#: sidebar/history_module/history_dlg.ui:105
-msgid "URLs older than"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, cbDetailedTips)
-#: sidebar/history_module/history_dlg.ui:134
-msgid ""
-"Shows the number of times visited and the dates of the first and last "
-"visits, in addition to the URL"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, cbDetailedTips)
-#: sidebar/history_module/history_dlg.ui:137
-msgid "Detailed tooltips"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, btnClearHistory)
-#: sidebar/history_module/history_dlg.ui:149
-msgid "Clear History"
-msgstr ""
-
-#: sidebar/history_module/history_module.cpp:126
-msgctxt "@action:inmenu Add"
-msgid "History Sidebar Module"
-msgstr ""
-
-#: sidebar/history_module/history_module.cpp:149
-msgctxt "@title:tab"
-msgid "History"
-msgstr ""
-
-#: sidebar/history_module/kcmhistory.cpp:68
-msgid "days"
-msgstr ""
-
-#: sidebar/history_module/kcmhistory.cpp:74
-#: sidebar/history_module/kcmhistory.cpp:79
-#: sidebar/history_module/kcmhistory.cpp:212
-#: sidebar/history_module/kcmhistory.cpp:225
-msgid "Minute"
-msgid_plural "Minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-
-#: sidebar/history_module/kcmhistory.cpp:76
-#: sidebar/history_module/kcmhistory.cpp:81
-#: sidebar/history_module/kcmhistory.cpp:210
-#: sidebar/history_module/kcmhistory.cpp:223
-msgid "Day"
-msgid_plural "Days"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-
-#: sidebar/history_module/kcmhistory.cpp:195
-msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
-msgstr ""
-
-#: sidebar/history_module/kcmhistory.cpp:257 src/konqhistoryview.cpp:171
-msgid "Do you really want to clear the entire history?"
-msgstr ""
-
-#: sidebar/history_module/kcmhistory.cpp:259 src/konqhistoryview.cpp:172
-msgctxt "@title:window"
-msgid "Clear History?"
-msgstr ""
-
-#: sidebar/places_module/places_module.cpp:116
-msgctxt "@action:inmenu Add"
-msgid "Places Sidebar Module"
-msgstr ""
-
-#: sidebar/places_module/places_module.cpp:139
-msgctxt "@title:tab"
-msgid "Places"
-msgstr ""
-
-#: sidebar/sidebar_part.cpp:34
-msgid "Extended Sidebar"
-msgstr ""
-
-#: sidebar/sidebar_part.cpp:35 src/konqfactory.cpp:269
-msgid "Joseph Wenninger"
-msgstr "జోసెఫ్ వెనిన్‌గర్"
-
-#: sidebar/sidebar_part.cpp:36 src/konqfactory.cpp:236
-msgid "David Faure"
-msgstr "డెవిడ్ ఫారె"
-
-#: sidebar/sidebar_widget.cpp:98
-msgid "Rollback to System Default"
-msgstr ""
-
-#: sidebar/sidebar_widget.cpp:159 sidebar/sidebar_widget.cpp:428
-msgid "Configure Sidebar"
-msgstr ""
-
-#: sidebar/sidebar_widget.cpp:161
-msgid "Add New"
-msgstr ""
-
-#: sidebar/sidebar_widget.cpp:165
-msgid "Multiple Views"
-msgstr ""
-
-#: sidebar/sidebar_widget.cpp:167 sidebar/sidebar_widget.cpp:280
-msgid "Show Tabs Left"
-msgstr ""
-
-#: sidebar/sidebar_widget.cpp:168
-msgid "Show Configuration Button"
-msgstr ""
-
-#: sidebar/sidebar_widget.cpp:171
-#, fuzzy
-#| msgid "&Close Tab"
-msgid "Close Sidebar"
-msgstr "(&C) టాబ్ ను మూసివెయి"
-
-#: sidebar/sidebar_widget.cpp:228
-msgid "This entry already exists."
-msgstr ""
-
-#: sidebar/sidebar_widget.cpp:238
-msgid ""
-"<qt>This removes all your entries from the sidebar and adds the system "
-"default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
-"proceed?</qt>"
-msgstr ""
-
-#: sidebar/sidebar_widget.cpp:280
-msgid "Show Tabs Right"
-msgstr ""
-
-#: sidebar/sidebar_widget.cpp:290
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@title:window"
-msgid "Set Name"
-msgstr "పేరు:"
-
-#: sidebar/sidebar_widget.cpp:290
-msgid "Enter the name:"
-msgstr ""
-
-#: sidebar/sidebar_widget.cpp:307
-msgid "Enter a URL:"
-msgstr ""
-
-#: sidebar/sidebar_widget.cpp:329
-#, kde-format
-msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
-msgstr ""
-
-#: sidebar/sidebar_widget.cpp:370
-msgid ""
-"You have hidden the sidebar configuration button. To make it visible again, "
-"click the right mouse button on any of the sidebar buttons and select \"Show "
-"Configuration Button\"."
-msgstr ""
-
-#: sidebar/sidebar_widget.cpp:537
-msgid "Set Name..."
-msgstr ""
-
-#: sidebar/sidebar_widget.cpp:538
-msgid "Set URL..."
-msgstr ""
-
-#: sidebar/sidebar_widget.cpp:539
-msgid "Set Icon..."
-msgstr ""
-
-#: sidebar/sidebar_widget.cpp:541
-msgid "Remove"
-msgstr "తొలగించు"
-
-#: sidebar/sidebar_widget.cpp:840
-msgid "Web module"
-msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:75
-msgid "&Create New Folder"
-msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:79
-#: sidebar/trees/konq_sidebartree.cpp:197
-msgid "Delete Folder"
-msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:83
-msgid "Delete Bookmark"
-msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:87
-#: sidebar/trees/konq_sidebartree.cpp:214
-msgid "Properties"
-msgstr "గుణాలు"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:91
-#: sidebar/trees/konq_sidebartree.cpp:218
-msgid "Open in New Window"
-msgstr "కొత్త విండోనందు తెరువుము"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:95
-#: sidebar/trees/konq_sidebartree.cpp:222 src/konqhistoryview.cpp:67
-msgid "Open in New Tab"
-msgstr "కొత్త టాబ్‌నందు తెరువుము"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:99
-msgid "Open Folder in Tabs"
-msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:103
-#: sidebar/trees/konq_sidebartree.cpp:226
-msgid "Copy Link Address"
-msgstr "లింకు చిరునామాను నకలుచెయి "
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:323
-#, fuzzy
-#| msgid "Bookmark Toolbar"
-msgctxt "@title:window"
-msgid "Create New Bookmark Folder"
-msgstr "సాధనపట్టీని ఇష్టాంశముచేయుము"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:324
-#, fuzzy
-#| msgid "Home Folder"
-msgid "New folder:"
-msgstr "ఇంటి ఫొల్డర్"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:348
-#, kde-format
-msgid ""
-"Are you sure you wish to remove the bookmark folder\n"
-"\"%1\"?"
-msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:349
-#, kde-format
-msgid ""
-"Are you sure you wish to remove the bookmark\n"
-"\"%1\"?"
-msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:350
-#, fuzzy
-#| msgid "Bookmark Toolbar"
-msgctxt "@title:window"
-msgid "Bookmark Folder Deletion"
-msgstr "సాధనపట్టీని ఇష్టాంశముచేయుము"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:351
-#, fuzzy
-#| msgid "&Bookmarks"
-msgctxt "@title:window"
-msgid "Bookmark Deletion"
-msgstr "(&B) పేజీ గుర్తులు"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:396
-#, fuzzy
-#| msgid "Properties"
-msgctxt "@title:window"
-msgid "Bookmark Properties"
-msgstr "గుణాలు"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:582
-msgid "&Update"
-msgstr "(&U) నవీకరణ"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:590
-msgid "Name:"
-msgstr "పేరు:"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:598
-msgid "Location:"
-msgstr "స్థానము:"
-
-#: sidebar/trees/bookmark_module/bookmark_module.h:86
-#, fuzzy
-#| msgid "&Bookmarks"
-msgctxt "@title:window"
-msgid "Add Bookmark"
-msgstr "(&B) పేజీ గుర్తులు"
-
-#: sidebar/trees/dirtree_module/dirtree_module.cpp:407
-#, kde-format
-msgid "Cannot find parent item %1 in the tree. Internal error."
-msgstr ""
-
-#: sidebar/trees/konq_sidebartree.cpp:193
-msgid "&Create New Folder..."
-msgstr ""
-
-#: sidebar/trees/konq_sidebartree.cpp:201
-msgid "Move to Trash"
-msgstr ""
-
-#: sidebar/trees/konq_sidebartree.cpp:205
-msgid "Rename"
-msgstr "పునఃనామకరణము"
-
-#: sidebar/trees/konq_sidebartree.cpp:210
-msgid "Delete Link"
-msgstr ""
-
-#: sidebar/trees/konq_sidebartree.cpp:933
-msgid "New Folder"
-msgstr ""
-
-#: sidebar/trees/konq_sidebartree.cpp:936
-msgctxt "@title:window"
-msgid "Create New Folder"
-msgstr ""
-
-#: sidebar/trees/konq_sidebartree.cpp:937
-msgid "Enter folder name:"
-msgstr "ఫొల్డర్ పేరును వ్రాయండి:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:184
-#: sidebar/web_module/web_module.cpp:298
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@label"
-msgid "Name:"
-msgstr "పేరు:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:184
-#: sidebar/web_module/web_module.cpp:298
-msgctxt "@label"
-msgid "Path or URL:"
-msgstr ""
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:185
-msgctxt "@title:window"
-msgid "Add folder sidebar module"
-msgstr ""
-
-#: sidebar/web_module/web_module.cpp:55
-msgid "&Open Link"
-msgstr ""
-
-#: sidebar/web_module/web_module.cpp:59 src/konqhistoryview.cpp:62
-#: src/konqmainwindow.cpp:4524
-msgid "Open in New &Window"
-msgstr ""
-
-#: sidebar/web_module/web_module.cpp:65 src/konqmainwindow.cpp:3673
-msgid "&Reload"
-msgstr ""
-
-#: sidebar/web_module/web_module.cpp:70
-msgid "Set &Automatic Reload"
-msgstr ""
-
-#: sidebar/web_module/web_module.cpp:134
-msgctxt "@title:window"
-msgid "Set Refresh Timeout (0 disables)"
-msgstr ""
-
-#: sidebar/web_module/web_module.cpp:142
-#, fuzzy
-#| msgid " min"
-msgid " minute"
-msgid_plural " minutes"
-msgstr[0] " ని"
-msgstr[1] " ని"
-msgstr[2] " ని"
-msgstr[3] " ని"
-msgstr[4] " ని"
-
-#: sidebar/web_module/web_module.cpp:145
-#, fuzzy
-#| msgid " sec"
-msgid " second"
-msgid_plural " seconds"
-msgstr[0] " సెకను"
-msgstr[1] " సెకను"
-msgstr[2] " సెకను"
-msgstr[3] " సెకను"
-msgstr[4] " సెకను"
-
-#: sidebar/web_module/web_module.cpp:278
-msgctxt "@action:inmenu Add"
-msgid "Web Sidebar Module"
-msgstr ""
-
-#: sidebar/web_module/web_module.cpp:299
-msgctxt "@title:window"
-msgid "Add web sidebar module"
-msgstr ""
-
 #: src/konq_statusbarmessagelabel.cpp:82
 #, fuzzy
 #| msgid "&Close Tab"
@@ -906,6 +475,10 @@ msgstr ""
 #: src/konqfactory.cpp:235
 msgid "http://konqueror.kde.org"
 msgstr ""
+
+#: src/konqfactory.cpp:236
+msgid "David Faure"
+msgstr "డెవిడ్ ఫారె"
 
 #: src/konqfactory.cpp:236
 msgid "Developer (framework, parts, JavaScript, I/O library) and maintainer"
@@ -1122,6 +695,10 @@ msgid "KFM author"
 msgstr ""
 
 #: src/konqfactory.cpp:269
+msgid "Joseph Wenninger"
+msgstr "జోసెఫ్ వెనిన్‌గర్"
+
+#: src/konqfactory.cpp:269
 msgid "Developer (navigation panel framework)"
 msgstr ""
 
@@ -1202,6 +779,14 @@ msgstr ""
 msgid "Miscellaneous"
 msgstr "ఇతరత్రా"
 
+#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4524
+msgid "Open in New &Window"
+msgstr ""
+
+#: src/konqhistoryview.cpp:67
+msgid "Open in New Tab"
+msgstr "కొత్త టాబ్‌నందు తెరువుము"
+
 #: src/konqhistoryview.cpp:71
 #, fuzzy
 #| msgid "Copy Link Address"
@@ -1230,6 +815,15 @@ msgstr ""
 
 #: src/konqhistoryview.cpp:111
 msgid "Search in history"
+msgstr ""
+
+#: src/konqhistoryview.cpp:171
+msgid "Do you really want to clear the entire history?"
+msgstr ""
+
+#: src/konqhistoryview.cpp:172
+msgctxt "@title:window"
+msgid "Clear History?"
 msgstr ""
 
 #: src/konqmain.cpp:62
@@ -1537,6 +1131,10 @@ msgstr ""
 
 #: src/konqmainwindow.cpp:3655
 msgid "Dump Debug Info"
+msgstr ""
+
+#: src/konqmainwindow.cpp:3673
+msgid "&Reload"
 msgstr ""
 
 #: src/konqmainwindow.cpp:3678 src/konqtabs.cpp:334
@@ -2213,6 +1811,105 @@ msgstr "హెచ్చరిక"
 #: src/konqview.cpp:1251
 msgid "Resend"
 msgstr ""
+
+#, fuzzy
+#~| msgid "&Close Tab"
+#~ msgid "Close Sidebar"
+#~ msgstr "(&C) టాబ్ ను మూసివెయి"
+
+#, fuzzy
+#~| msgid "Name:"
+#~ msgctxt "@title:window"
+#~ msgid "Set Name"
+#~ msgstr "పేరు:"
+
+#~ msgid "Remove"
+#~ msgstr "తొలగించు"
+
+#~ msgid "Properties"
+#~ msgstr "గుణాలు"
+
+#~ msgid "Open in New Window"
+#~ msgstr "కొత్త విండోనందు తెరువుము"
+
+#~ msgid "Copy Link Address"
+#~ msgstr "లింకు చిరునామాను నకలుచెయి "
+
+#, fuzzy
+#~| msgid "Bookmark Toolbar"
+#~ msgctxt "@title:window"
+#~ msgid "Create New Bookmark Folder"
+#~ msgstr "సాధనపట్టీని ఇష్టాంశముచేయుము"
+
+#, fuzzy
+#~| msgid "Home Folder"
+#~ msgid "New folder:"
+#~ msgstr "ఇంటి ఫొల్డర్"
+
+#, fuzzy
+#~| msgid "Bookmark Toolbar"
+#~ msgctxt "@title:window"
+#~ msgid "Bookmark Folder Deletion"
+#~ msgstr "సాధనపట్టీని ఇష్టాంశముచేయుము"
+
+#, fuzzy
+#~| msgid "&Bookmarks"
+#~ msgctxt "@title:window"
+#~ msgid "Bookmark Deletion"
+#~ msgstr "(&B) పేజీ గుర్తులు"
+
+#, fuzzy
+#~| msgid "Properties"
+#~ msgctxt "@title:window"
+#~ msgid "Bookmark Properties"
+#~ msgstr "గుణాలు"
+
+#~ msgid "&Update"
+#~ msgstr "(&U) నవీకరణ"
+
+#~ msgid "Name:"
+#~ msgstr "పేరు:"
+
+#~ msgid "Location:"
+#~ msgstr "స్థానము:"
+
+#, fuzzy
+#~| msgid "&Bookmarks"
+#~ msgctxt "@title:window"
+#~ msgid "Add Bookmark"
+#~ msgstr "(&B) పేజీ గుర్తులు"
+
+#~ msgid "Rename"
+#~ msgstr "పునఃనామకరణము"
+
+#~ msgid "Enter folder name:"
+#~ msgstr "ఫొల్డర్ పేరును వ్రాయండి:"
+
+#, fuzzy
+#~| msgid "Name:"
+#~ msgctxt "@label"
+#~ msgid "Name:"
+#~ msgstr "పేరు:"
+
+#, fuzzy
+#~| msgid " min"
+#~ msgid " minute"
+#~ msgid_plural " minutes"
+#~ msgstr[0] " ని"
+#~ msgstr[1] " ని"
+#~ msgstr[2] " ని"
+#~ msgstr[3] " ని"
+#~ msgstr[4] " ని"
+
+#, fuzzy
+#~| msgid " sec"
+#~ msgid " second"
+#~ msgid_plural " seconds"
+#~ msgstr[0] " సెకను"
+#~ msgstr[1] " సెకను"
+#~ msgstr[2] " సెకను"
+#~ msgstr[3] " సెకను"
+#~ msgstr[4] " సెకను"
 
 #, fuzzy
 #~| msgid "File Management"
