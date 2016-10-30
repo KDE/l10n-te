@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-10-23 06:55+0000\n"
+"POT-Creation-Date: 2016-10-30 06:46+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -469,7 +469,7 @@ msgid "Web browser, file manager and document viewer."
 msgstr ""
 
 #: src/konqfactory.cpp:233
-msgid "(C) 1999-2008, The Konqueror developers"
+msgid "(C) 1999-2016, The Konqueror developers"
 msgstr ""
 
 #: src/konqfactory.cpp:235
@@ -1455,50 +1455,50 @@ msgstr "పునఃనామకరణము"
 msgid "&Open"
 msgstr ""
 
-#: src/konqsessiondlg.cpp:177
+#: src/konqsessiondlg.cpp:178
 #, fuzzy
 #| msgid "Rename"
 msgctxt "@title:window"
 msgid "Rename Session"
 msgstr "పునఃనామకరణము"
 
-#: src/konqsessiondlg.cpp:224
+#: src/konqsessiondlg.cpp:225
 #, fuzzy
 #| msgid "Rename"
 msgctxt "@title:window"
 msgid "Save Session"
 msgstr "పునఃనామకరణము"
 
-#: src/konqsessiondlg.cpp:250
+#: src/konqsessiondlg.cpp:251
 #, kde-format
 msgid ""
 "A session with the name '%1' already exists, do you want to overwrite it?"
 msgstr ""
 
-#: src/konqsessiondlg.cpp:251
+#: src/konqsessiondlg.cpp:252
 msgctxt "@title:window"
 msgid "Session exists. Overwrite?"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (KPushButton, m_pNewButton)
+#. i18n: ectx: property (text), widget (QPushButton, m_pNewButton)
 #: src/konqsessiondlg_base.ui:25
 msgctxt "@action:button New session"
 msgid "New..."
 msgstr "కొత్త..."
 
-#. i18n: ectx: property (text), widget (KPushButton, m_pSaveCurrentButton)
+#. i18n: ectx: property (text), widget (QPushButton, m_pSaveCurrentButton)
 #: src/konqsessiondlg_base.ui:32
 msgctxt "@action:button Save current session"
 msgid "Save Current"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (KPushButton, m_pRenameButton)
+#. i18n: ectx: property (text), widget (QPushButton, m_pRenameButton)
 #: src/konqsessiondlg_base.ui:39
 msgctxt "@action:button Rename session"
 msgid "Rename..."
 msgstr "పునఃనామకరణ..."
 
-#. i18n: ectx: property (text), widget (KPushButton, m_pDeleteButton)
+#. i18n: ectx: property (text), widget (QPushButton, m_pDeleteButton)
 #: src/konqsessiondlg_base.ui:46
 msgctxt "@action:button Delete session"
 msgid "Delete"
@@ -1510,49 +1510,49 @@ msgstr "తొలగించుము"
 msgid "Open tabs inside current window"
 msgstr ""
 
-#: src/konqsessionmanager.cpp:100
+#: src/konqsessionmanager.cpp:98
 #, fuzzy
 #| msgid "Rename"
 msgctxt "@title:window"
 msgid "Restore Session?"
 msgstr "పునఃనామకరణము"
 
-#: src/konqsessionmanager.cpp:103
+#: src/konqsessionmanager.cpp:101
 #, fuzzy
 #| msgid "Rename"
 msgctxt "@action:button yes"
 msgid "Restore Session"
 msgstr "పునఃనామకరణము"
 
-#: src/konqsessionmanager.cpp:104
+#: src/konqsessionmanager.cpp:102
 msgctxt "@action:button no"
 msgid "Do Not Restore"
 msgstr ""
 
-#: src/konqsessionmanager.cpp:105
+#: src/konqsessionmanager.cpp:103
 msgctxt "@action:button ask later"
 msgid "Ask Me Later"
 msgstr ""
 
-#: src/konqsessionmanager.cpp:133
+#: src/konqsessionmanager.cpp:131
 msgid ""
 "Konqueror did not close correctly. Would you like to restore these previous "
 "sessions?"
 msgstr ""
 
-#: src/konqsessionmanager.cpp:147
+#: src/konqsessionmanager.cpp:145
 msgctxt "@tooltip:session list"
 msgid "Uncheck the sessions you do not want to be restored"
 msgstr ""
 
-#: src/konqsessionmanager.cpp:180
+#: src/konqsessionmanager.cpp:178
 #, fuzzy, kde-format
 #| msgid "&Window"
 msgctxt "@item:treewidget"
 msgid "Window %1"
 msgstr "(&W) విండో"
 
-#: src/konqsessionmanager.cpp:221
+#: src/konqsessionmanager.cpp:219
 msgid "Do not ask again"
 msgstr ""
 
