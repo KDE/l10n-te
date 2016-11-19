@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-20 05:22+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -27,12 +27,14 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 "కృష్ణబాబు కె \n"
 " విజయ్ కిరణ్ కముజు"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
@@ -41,89 +43,109 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, GbViewStyle)
 #: app/configDialog.ui:17
+#, kde-format
 msgid "View Style"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ChTooltips)
 #: app/configDialog.ui:24
+#, kde-format
 msgid "Show detailed tooltips"
 msgstr ""
 
 #: app/main.cpp:36 classic/CategoryList.cpp:38
+#, kde-format
 msgid "System Settings"
 msgstr "సిస్టమ్ అమర్పులు"
 
 #: app/main.cpp:36
+#, kde-format
 msgid "Central configuration center for KDE."
 msgstr ""
 
 #: app/main.cpp:36 classic/ClassicMode.cpp:70 icons/IconMode.cpp:64
+#, kde-format
 msgid "(c) 2009, Ben Cooksley"
 msgstr ""
 
 #: app/main.cpp:37 classic/ClassicMode.cpp:71 icons/IconMode.cpp:65
+#, kde-format
 msgid "Ben Cooksley"
 msgstr ""
 
 #: app/main.cpp:37
+#, kde-format
 msgid "Maintainer"
 msgstr ""
 
 #: app/main.cpp:38 classic/ClassicMode.cpp:72 icons/IconMode.cpp:66
+#, kde-format
 msgid "Mathias Soeken"
 msgstr ""
 
 #: app/main.cpp:38 classic/ClassicMode.cpp:72 icons/IconMode.cpp:66
+#, kde-format
 msgid "Developer"
 msgstr ""
 
 #: app/main.cpp:39
+#, kde-format
 msgid "Will Stephenson"
 msgstr ""
 
 #: app/main.cpp:39
+#, kde-format
 msgid "Internal module representation, internal module model"
 msgstr ""
 
 #: app/SettingsBase.cpp:58
+#, kde-format
 msgctxt "Search through a list of control modules"
 msgid "Search"
 msgstr ""
 
 #: app/SettingsBase.cpp:130
+#, kde-format
 msgid "Configure"
 msgstr "ఆకృతీకరించుము"
 
 #: app/SettingsBase.cpp:156
+#, kde-format
 msgid "Help"
 msgstr ""
 
 #: app/SettingsBase.cpp:161 app/SettingsBase.cpp:350
+#, kde-format
 msgid "About Active Module"
 msgstr ""
 
 #: app/SettingsBase.cpp:175
+#, kde-format
 msgctxt "General config for System Settings"
 msgid "General"
 msgstr ""
 
 #: app/SettingsBase.cpp:262
+#, kde-format
 msgid ""
 "System Settings was unable to find any views, and hence nothing is available "
 "to configure."
 msgstr ""
 
 #: app/SettingsBase.cpp:262 app/SettingsBase.cpp:300
+#, kde-format
 msgid "No views found"
 msgstr ""
 
 #: app/SettingsBase.cpp:300
+#, kde-format
 msgid ""
 "System Settings was unable to find any views, and hence has nothing to "
 "display."
 msgstr ""
 
 #: app/SettingsBase.cpp:332
+#, kde-format
 msgid "About Active View"
 msgstr ""
 
@@ -134,17 +156,19 @@ msgstr ""
 
 #. i18n: ectx: label, entry (ShowToolTips), group (Main)
 #: app/systemsettings.kcfg:9
+#, kde-format
 msgid "Determines whether detailed tooltips should be used"
 msgstr ""
 
 #. i18n: ectx: label, entry (ActiveView), group (Main)
 #: app/systemsettings.kcfg:13
+#, kde-format
 msgid "Internal name for the view used"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: app/systemsettingsui.rc:16
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "System Settings"
 msgid "About System Settings"
 msgstr "సిస్టమ్ అమర్పులు"
@@ -157,31 +181,36 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: classic/CategoryList.cpp:39
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Configure"
 msgid "Configure your system"
 msgstr "ఆకృతీకరించుము"
 
 #: classic/CategoryList.cpp:40
+#, kde-format
 msgid ""
 "Welcome to \"System Settings\", a central place to configure your computer "
 "system."
 msgstr ""
 
 #: classic/ClassicMode.cpp:68 classic/ClassicMode.cpp:242
+#, kde-format
 msgid "Tree View"
 msgstr ""
 
 #: classic/ClassicMode.cpp:69
+#, kde-format
 msgid "Provides a classic tree-based view of control modules."
 msgstr ""
 
 #: classic/ClassicMode.cpp:71 icons/IconMode.cpp:65
+#, kde-format
 msgid "Author"
 msgstr "మూలకర్త"
 
 #. i18n: ectx: property (text), widget (QCheckBox, CbExpand)
 #: classic/configClassic.ui:17
+#, kde-format
 msgid "Expand the first level automatically"
 msgstr ""
 
@@ -197,34 +226,40 @@ msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ExternalModule)
 #: core/externalModule.ui:14
+#, kde-format
 msgid "Dialog"
 msgstr ""
 
 #: core/ModuleView.cpp:83
+#, kde-format
 msgid "Reset all current changes to previous values"
 msgstr ""
 
 #: core/ModuleView.cpp:238
+#, kde-format
 msgid ""
 "The settings of the current module have changed.\n"
 "Do you want to apply the changes or discard them?"
 msgstr ""
 
 #: core/ModuleView.cpp:240
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "System Settings"
 msgid "Apply Settings"
 msgstr "సిస్టమ్ అమర్పులు"
 
 #: icons/IconMode.cpp:62
+#, kde-format
 msgid "Icon View"
 msgstr ""
 
 #: icons/IconMode.cpp:63
+#, kde-format
 msgid "Provides a categorized icons view of control modules."
 msgstr ""
 
 #: icons/IconMode.cpp:70
+#, kde-format
 msgid "Overview"
 msgstr ""
 

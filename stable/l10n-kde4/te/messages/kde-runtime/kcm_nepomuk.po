@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-04 01:42+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -19,31 +19,38 @@ msgstr ""
 "4;\n"
 "X-Generator: KBabel 1.11.4\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "కృష్ణబాబు కె , విజయ్ కిరణ్ కముజు"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 
 #: detailswidget.cpp:36 detailswidget.cpp:59
+#, kde-format
 msgid "Desktop Search Details"
 msgstr ""
 
 #: detailswidget.cpp:38
+#, kde-format
 msgid "Refresh"
 msgstr ""
 
 #: detailswidget.cpp:53
+#, kde-format
 msgid "Files"
 msgstr ""
 
 #: detailswidget.cpp:54
+#, kde-format
 msgid "Emails"
 msgstr ""
 
 #: detailswidget.cpp:92 detailswidget.cpp:93
+#, kde-format
 msgid "Calculating"
 msgstr ""
 
@@ -53,6 +60,7 @@ msgid "%1"
 msgstr ""
 
 #: excludefilterselectiondialog.cpp:27
+#, kde-format
 msgctxt ""
 "@title:window Referring to the folders which will be searched for files to "
 "index for desktop search"
@@ -61,21 +69,25 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: excludefilterselectiondialog.ui:10
+#, kde-format
 msgid "Exclude Mime Type"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: excludefilterselectiondialog.ui:16
+#, kde-format
 msgid "Select the mimetypes that should be excluded from indexing"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: excludefilterselectiondialog.ui:32
+#, kde-format
 msgid "Index Exclude Filters"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: excludefilterselectiondialog.ui:38
+#, kde-format
 msgid ""
 "Select expressions to exclude files from indexing by matching their filenames"
 msgstr ""
@@ -103,6 +115,7 @@ msgid ""
 msgstr ""
 
 #: indexfolderselectiondialog.cpp:63
+#, kde-format
 msgctxt ""
 "@title:window Referring to the folders which will be searched for files to "
 "index for desktop search"
@@ -111,6 +124,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: indexfolderselectionwidget.ui:24
+#, kde-format
 msgid ""
 "Select the local folders that contain files to be indexed for fast desktop "
 "searches"
@@ -118,26 +132,31 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkShowHiddenFolders)
 #: indexfolderselectionwidget.ui:37
+#, kde-format
 msgid "Check to be able to select hidden folders"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkShowHiddenFolders)
 #: indexfolderselectionwidget.ui:40
+#, kde-format
 msgid "Show hidden folders"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: nepomukconfigwidget.ui:25
+#, kde-format
 msgid "Basic Settings"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: nepomukconfigwidget.ui:31
+#, kde-format
 msgid "Nepomuk Semantic Desktop"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: nepomukconfigwidget.ui:37
+#, kde-format
 msgid ""
 "Nepomuk Semantic Desktop enables tagging and rating of files integrated with "
 "the Desktop Search."
@@ -145,21 +164,25 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableNepomuk)
 #: nepomukconfigwidget.ui:51
+#, kde-format
 msgid "Enable Nepomuk Semantic Desktop"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KUrlLabel, m_buttonDetails)
 #: nepomukconfigwidget.ui:100
+#, kde-format
 msgid "Details..."
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: nepomukconfigwidget.ui:112
+#, kde-format
 msgid "Nepomuk Desktop File Indexer"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: nepomukconfigwidget.ui:118
+#, kde-format
 msgid ""
 "Nepomuk desktop search allows searching for files by content instead of just "
 "by name."
@@ -167,6 +190,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableFileIndexer)
 #: nepomukconfigwidget.ui:128
+#, kde-format
 msgid "Enable Nepomuk File Indexer"
 msgstr ""
 
@@ -174,16 +198,19 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_emailIndexerSuspendResumeButtom)
 #: nepomukconfigwidget.ui:173 nepomukconfigwidget.ui:249
 #: nepomukserverkcm.cpp:564
+#, kde-format
 msgid "Suspend"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_emailIndexingBox)
 #: nepomukconfigwidget.ui:191
+#, kde-format
 msgid "PIM Data Indexing"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #: nepomukconfigwidget.ui:197
+#, kde-format
 msgid ""
 "PIM data indexing allows full text search in events, contacts, email and "
 "their attachments."
@@ -191,72 +218,86 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableEmailIndexer)
 #: nepomukconfigwidget.ui:204
+#, kde-format
 msgid "Enable PIM Data Indexer"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: nepomukconfigwidget.ui:278
+#, kde-format
 msgid "Indexing"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_7)
 #: nepomukconfigwidget.ui:284
+#, kde-format
 msgid "File Indexing"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: nepomukconfigwidget.ui:290
+#, kde-format
 msgid "Customize the files and folders to be indexed"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkboxDocuments)
 #: nepomukconfigwidget.ui:297
+#, kde-format
 msgid "Index Documents"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkboxAudio)
 #: nepomukconfigwidget.ui:304
+#, kde-format
 msgid "Index Audio"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkboxImage)
 #: nepomukconfigwidget.ui:311
+#, kde-format
 msgid "Index Images"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkboxVideo)
 #: nepomukconfigwidget.ui:318
+#, kde-format
 msgid "Index Videos"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkboxSourceCode)
 #: nepomukconfigwidget.ui:325
+#, kde-format
 msgid "Index Source Code"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonAdvancedFileIndexing)
 #: nepomukconfigwidget.ui:347
+#, kde-format
 msgid "Advanced"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonCustomizeIndexFolders)
 #: nepomukconfigwidget.ui:354
+#, kde-format
 msgid "Customize Folders"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #: nepomukconfigwidget.ui:365
+#, kde-format
 msgid "Removable media handling:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, m_comboRemovableMediaHandling)
 #: nepomukconfigwidget.ui:381
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Indexing of files on removable media"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, m_comboRemovableMediaHandling)
 #: nepomukconfigwidget.ui:387
+#, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>Nepomuk can index files on removable devices like USB keys or external "
@@ -274,31 +315,37 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_comboRemovableMediaHandling)
 #: nepomukconfigwidget.ui:391
+#, kde-format
 msgid "Ignore all removable media"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_comboRemovableMediaHandling)
 #: nepomukconfigwidget.ui:396
+#, kde-format
 msgid "Index files on all removable devices"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_comboRemovableMediaHandling)
 #: nepomukconfigwidget.ui:401
+#, kde-format
 msgid "Ask individually when newly mounted"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: nepomukconfigwidget.ui:428
+#, kde-format
 msgid "Backup"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: nepomukconfigwidget.ui:434
+#, kde-format
 msgid "Automatic Backups"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: nepomukconfigwidget.ui:440
+#, kde-format
 msgctxt "@info"
 msgid ""
 "Nepomuk can perform regular automatic backups of all data that could not be "
@@ -308,98 +355,118 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: nepomukconfigwidget.ui:452
+#, kde-format
 msgid "Backup frequency:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, m_comboBackupFrequency)
 #: nepomukconfigwidget.ui:462
+#, kde-format
 msgid "How often should a backup of the Nepomuk database be created"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: nepomukconfigwidget.ui:469
+#, kde-format
 msgid "Backup Time:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QTimeEdit, m_editBackupTime)
 #: nepomukconfigwidget.ui:484
+#, kde-format
 msgid "When should the backup be created"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #: nepomukconfigwidget.ui:493
+#, kde-format
 msgid "Max number of backups:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, m_spinBackupMax)
 #: nepomukconfigwidget.ui:505
+#, kde-format
 msgid "How many previous backups should be kept"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #: nepomukconfigwidget.ui:535
+#, kde-format
 msgid "Tools"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KPushButton, m_buttonManualBackup)
 #: nepomukconfigwidget.ui:541
+#, kde-format
 msgid "Manual Backup..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KPushButton, m_buttonRestoreBackup)
 #: nepomukconfigwidget.ui:548
+#, kde-format
 msgid "Restore Backup..."
 msgstr ""
 
 #: nepomukserverkcm.cpp:104
+#, kde-format
 msgid "Desktop Search Configuration Module"
 msgstr ""
 
 #: nepomukserverkcm.cpp:106
+#, kde-format
 msgid "Copyright 2007-2010 Sebastian Trüg"
 msgstr ""
 
 #: nepomukserverkcm.cpp:107
+#, kde-format
 msgid "Sebastian Trüg"
 msgstr ""
 
 #: nepomukserverkcm.cpp:166
+#, kde-format
 msgctxt "@item:inlistbox"
 msgid "Disable Automatic Backups"
 msgstr ""
 
 #: nepomukserverkcm.cpp:167
+#, kde-format
 msgctxt "@item:inlistbox"
 msgid "Daily Backup"
 msgstr ""
 
 #: nepomukserverkcm.cpp:168
+#, kde-format
 msgctxt "@item:inlistbox"
 msgid "Weekly Backup"
 msgstr ""
 
 #: nepomukserverkcm.cpp:199
+#, kde-format
 msgid ""
 "The Nepomuk installation is not complete. No desktop search settings can be "
 "provided."
 msgstr ""
 
 #: nepomukserverkcm.cpp:413
+#, kde-format
 msgid ""
 "Failed to start the desktop search service (Nepomuk). The settings have been "
 "saved and will be used the next time the server is started."
 msgstr ""
 
 #: nepomukserverkcm.cpp:415
+#, kde-format
 msgid "Desktop search service not running"
 msgstr ""
 
 #: nepomukserverkcm.cpp:453
+#, kde-format
 msgctxt "@info:status"
 msgid "Desktop search services are active"
 msgstr ""
 
 #: nepomukserverkcm.cpp:456
+#, kde-format
 msgctxt "@info:status"
 msgid "Desktop search services are disabled"
 msgstr ""
@@ -411,6 +478,7 @@ msgid "Failed to contact File Indexer service (%1)"
 msgstr ""
 
 #: nepomukserverkcm.cpp:488
+#, kde-format
 msgctxt "@info:status"
 msgid ""
 "File indexing service failed to initialize, most likely due to an "
@@ -418,16 +486,19 @@ msgid ""
 msgstr ""
 
 #: nepomukserverkcm.cpp:493
+#, kde-format
 msgctxt "@info:status"
 msgid "File indexing service not running."
 msgstr ""
 
 #: nepomukserverkcm.cpp:500
+#, kde-format
 msgctxt "Resumes the Nepomuk file indexing service."
 msgid "Resume"
 msgstr ""
 
 #: nepomukserverkcm.cpp:504
+#, kde-format
 msgctxt "Suspends the Nepomuk file indexing service."
 msgid "Suspend"
 msgstr ""
@@ -445,16 +516,19 @@ msgid "Failed to contact PIM Data Indexer service (%1)"
 msgstr ""
 
 #: nepomukserverkcm.cpp:549
+#, kde-format
 msgctxt "@info:status"
 msgid "PIM Data Indexing service is suspended"
 msgstr ""
 
 #: nepomukserverkcm.cpp:553
+#, kde-format
 msgctxt "@info:status"
 msgid "PIM Data indexing service not running."
 msgstr ""
 
 #: nepomukserverkcm.cpp:560
+#, kde-format
 msgid "Resume"
 msgstr ""
 

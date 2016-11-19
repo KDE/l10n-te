@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-05 11:50+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -29,71 +29,77 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, components_label)
 #: export_scheme_dialog.ui:17
+#, kde-format
 msgid "Select the Components to Export"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, components)
 #: export_scheme_dialog.ui:27
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "KDE component:"
 msgid "Components"
 msgstr "KDE కాంపోనెంటు:"
 
 #: globalshortcuts.cpp:67
+#, kde-format
 msgid "You are about to reset all shortcuts to their default values."
 msgstr ""
 
 #: globalshortcuts.cpp:68
+#, kde-format
 msgid "Reset to defaults"
 msgstr ""
 
 #: globalshortcuts.cpp:69
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "KDE component:"
 msgid "Current Component"
 msgstr "KDE కాంపోనెంటు:"
 
 #: globalshortcuts.cpp:70
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "KDE component:"
 msgid "All Components"
 msgstr "KDE కాంపోనెంటు:"
 
 #: kglobalshortcutseditor.cpp:168
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Import Scheme..."
 msgid "Import Scheme..."
 msgstr "స్కీమాను దిగుమతి చేయుము..."
 
 #: kglobalshortcutseditor.cpp:169
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Export Scheme..."
 msgid "Export Scheme..."
 msgstr "ఎగుమతి స్కీమా..."
 
 #: kglobalshortcutseditor.cpp:170
+#, kde-format
 msgid "Set All Shortcuts to None"
 msgstr ""
 
 #: kglobalshortcutseditor.cpp:171
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "KDE component:"
 msgid "Remove Component"
 msgstr "KDE కాంపోనెంటు:"
 
 #: kglobalshortcutseditor.cpp:343
+#, kde-format
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
 "this one"
 msgstr "దీనిని దాయుటకు ముందుగా మీరు వేరొక స్కీమాను లోడచేస్తే మీ ప్రస్తుత మార్పులు కొల్పోతాయి"
 
 #: kglobalshortcutseditor.cpp:344
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Load Shortcurt Scheme"
 msgid "Load Shortcut Scheme"
 msgstr "శీఘ్రమార్గ స్కీమాను లోడుచేయుము"
 
 #: kglobalshortcutseditor.cpp:345
+#, kde-format
 msgid "Load"
 msgstr "లోడుచేయి"
 
@@ -112,6 +118,7 @@ msgstr ""
 "దోషము: %2"
 
 #: kglobalshortcutseditor.cpp:391 kglobalshortcutseditor.cpp:414
+#, kde-format
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "KDE సార్వత్రిక శీఘ్రమార్గల డెమోన్‌ను సంప్రదించుటకు విఫలమైంది\n"
 
@@ -125,7 +132,7 @@ msgid ""
 msgstr ""
 
 #: kglobalshortcutseditor.cpp:524 kglobalshortcutseditor.cpp:534
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "KDE component:"
 msgid "Remove component"
 msgstr "KDE కాంపోనెంటు:"
@@ -140,37 +147,44 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: kglobalshortcutseditor.ui:19
+#, kde-format
 msgid "KDE component:"
 msgstr "KDE కాంపోనెంటు:"
 
 #. i18n: ectx: property (text), widget (QPushButton, menu_button)
 #: kglobalshortcutseditor.ui:36
+#, kde-format
 msgid "File"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (KDialog, SelectSchemeDialog)
 #. i18n: ectx: property (clickMessage), widget (KUrlRequester, m_url)
 #: select_scheme_dialog.ui:15 select_scheme_dialog.ui:123
+#, kde-format
 msgid "Select Shortcut Scheme"
 msgstr "శీఘ్రమార్గ స్కీమాను యెంపికచేయుము"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label)
 #: select_scheme_dialog.ui:39
+#, kde-format
 msgid "Select one of the standard KDE shortcut schemes"
 msgstr "KDE శీఘ్రమార్గ స్కీమాలలో వొకదానిని యెంపికచేయుము"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: select_scheme_dialog.ui:42
+#, kde-format
 msgid "&Standard scheme:"
 msgstr "(&S) ప్రామాణిక స్కీమా:"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
 #: select_scheme_dialog.ui:92
+#, kde-format
 msgid "Select a shortcut scheme file"
 msgstr "శీఘ్రమార్గ స్కీమా ఫైలును యెంపికచేయుము"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: select_scheme_dialog.ui:95
+#, kde-format
 msgid "&Path:"
 msgstr "(&P) దారి:"
 

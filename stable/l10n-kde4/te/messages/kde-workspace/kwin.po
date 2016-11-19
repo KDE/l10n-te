@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-31 05:47+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -27,12 +27,14 @@ msgstr ""
 "\n"
 "\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 "కృష్ణబాబు కె \n"
 " విజయ్ కిరణ్ కముజు"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
@@ -47,6 +49,7 @@ msgid ""
 msgstr ""
 
 #: compositingprefs.cpp:96
+#, kde-format
 msgid ""
 "<b>OpenGL compositing (the default) has crashed KWin in the past.</"
 "b><br>This was most likely due to a driver bug.<p>If you think that you have "
@@ -56,54 +59,67 @@ msgid ""
 msgstr ""
 
 #: compositingprefs.cpp:103
+#, kde-format
 msgid "Required X extensions (XComposite and XDamage) are not available."
 msgstr ""
 
 #: compositingprefs.cpp:107
+#, kde-format
 msgid "GLX/OpenGL are not available and only OpenGL support is compiled."
 msgstr ""
 
 #: compositingprefs.cpp:111
+#, kde-format
 msgid "GLX/OpenGL and XRender/XFixes are not available."
 msgstr ""
 
 #: decorations.cpp:59
+#, kde-format
 msgid "KWin: "
 msgstr ""
 
 #: killer/killer.cpp:43
+#, kde-format
 msgid "Window Manager"
 msgstr ""
 
 #: killer/killer.cpp:44
+#, kde-format
 msgid "KWin helper utility"
 msgstr "KWin సహాయకి వుపలభ్యము"
 
 #: killer/killer.cpp:47
+#, kde-format
 msgid "PID of the application to terminate"
 msgstr ""
 
 #: killer/killer.cpp:48
+#, kde-format
 msgid "Hostname on which the application is running"
 msgstr ""
 
 #: killer/killer.cpp:49
+#, kde-format
 msgid "Caption of the window to be terminated"
 msgstr ""
 
 #: killer/killer.cpp:50
+#, kde-format
 msgid "Name of the application to be terminated"
 msgstr ""
 
 #: killer/killer.cpp:51
+#, kde-format
 msgid "ID of resource belonging to the application"
 msgstr ""
 
 #: killer/killer.cpp:52
+#, kde-format
 msgid "Time of user action causing termination"
 msgstr ""
 
 #: killer/killer.cpp:69
+#, kde-format
 msgid "This helper utility is not supposed to be called directly."
 msgstr "ఈ సహాయక వుపలభ్యము నేరుగా పిలువబడ కూడదు."
 
@@ -130,6 +146,7 @@ msgid ""
 msgstr ""
 
 #: killer/killer.cpp:86
+#, kde-format
 msgctxt "@info"
 msgid ""
 "<para>Do you want to terminate this application?</"
@@ -143,190 +160,237 @@ msgid "&Terminate Application %1"
 msgstr ""
 
 #: killer/killer.cpp:91
+#, kde-format
 msgid "Wait Longer"
 msgstr ""
 
 #: kwinbindings.cpp:48
+#, kde-format
 msgid "System"
 msgstr "వ్యవస్థ"
 
 #: kwinbindings.cpp:51
+#, kde-format
 msgid "Navigation"
 msgstr ""
 
 #: kwinbindings.cpp:52
+#, kde-format
 msgid "Walk Through Window Tabs"
 msgstr ""
 
 #: kwinbindings.cpp:53
+#, kde-format
 msgid "Walk Through Window Tabs (Reverse)"
 msgstr ""
 
 #: kwinbindings.cpp:54
+#, kde-format
 msgid "Remove Window From Group"
 msgstr ""
 
 #: kwinbindings.cpp:57
+#, kde-format
 msgid "Windows"
 msgstr "విండోలు"
 
 #: kwinbindings.cpp:58
+#, kde-format
 msgid "Window Operations Menu"
 msgstr ""
 
 #: kwinbindings.cpp:60
+#, kde-format
 msgid "Close Window"
 msgstr ""
 
 #: kwinbindings.cpp:62
+#, kde-format
 msgid "Maximize Window"
 msgstr ""
 
 #: kwinbindings.cpp:64
+#, kde-format
 msgid "Maximize Window Vertically"
 msgstr ""
 
 #: kwinbindings.cpp:66
+#, kde-format
 msgid "Maximize Window Horizontally"
 msgstr ""
 
 #: kwinbindings.cpp:68
+#, kde-format
 msgid "Minimize Window"
 msgstr ""
 
 #: kwinbindings.cpp:70
+#, kde-format
 msgid "Shade Window"
 msgstr ""
 
 #: kwinbindings.cpp:72
+#, kde-format
 msgid "Move Window"
 msgstr ""
 
 #: kwinbindings.cpp:74
+#, kde-format
 msgid "Resize Window"
 msgstr ""
 
 #: kwinbindings.cpp:76
+#, kde-format
 msgid "Raise Window"
 msgstr ""
 
 #: kwinbindings.cpp:78
+#, kde-format
 msgid "Lower Window"
 msgstr ""
 
 #: kwinbindings.cpp:80
+#, kde-format
 msgid "Toggle Window Raise/Lower"
 msgstr ""
 
 #: kwinbindings.cpp:82
+#, kde-format
 msgid "Make Window Fullscreen"
 msgstr ""
 
 #: kwinbindings.cpp:84
+#, kde-format
 msgid "Hide Window Border"
 msgstr ""
 
 #: kwinbindings.cpp:86
+#, kde-format
 msgid "Keep Window Above Others"
 msgstr ""
 
 #: kwinbindings.cpp:88
+#, kde-format
 msgid "Keep Window Below Others"
 msgstr ""
 
 #: kwinbindings.cpp:90
+#, kde-format
 msgid "Activate Window Demanding Attention"
 msgstr ""
 
 #: kwinbindings.cpp:92
+#, kde-format
 msgid "Setup Window Shortcut"
 msgstr ""
 
 #: kwinbindings.cpp:94
+#, kde-format
 msgid "Pack Window to the Right"
 msgstr ""
 
 #: kwinbindings.cpp:96
+#, kde-format
 msgid "Pack Window to the Left"
 msgstr ""
 
 #: kwinbindings.cpp:98
+#, kde-format
 msgid "Pack Window Up"
 msgstr ""
 
 #: kwinbindings.cpp:100
+#, kde-format
 msgid "Pack Window Down"
 msgstr ""
 
 #: kwinbindings.cpp:102
+#, kde-format
 msgid "Pack Grow Window Horizontally"
 msgstr ""
 
 #: kwinbindings.cpp:104
+#, kde-format
 msgid "Pack Grow Window Vertically"
 msgstr ""
 
 #: kwinbindings.cpp:106
+#, kde-format
 msgid "Pack Shrink Window Horizontally"
 msgstr ""
 
 #: kwinbindings.cpp:108
+#, kde-format
 msgid "Pack Shrink Window Vertically"
 msgstr ""
 
 #: kwinbindings.cpp:110
+#, kde-format
 msgid "Quick Tile Window to the Left"
 msgstr ""
 
 #: kwinbindings.cpp:112
+#, kde-format
 msgid "Quick Tile Window to the Right"
 msgstr ""
 
 #: kwinbindings.cpp:114
+#, kde-format
 msgid "Quick Tile Window to the Top Left"
 msgstr ""
 
 #: kwinbindings.cpp:116
+#, kde-format
 msgid "Quick Tile Window to the Bottom Left"
 msgstr ""
 
 #: kwinbindings.cpp:118
+#, kde-format
 msgid "Quick Tile Window to the Top Right"
 msgstr ""
 
 #: kwinbindings.cpp:120
+#, kde-format
 msgid "Quick Tile Window to the Bottom Right"
 msgstr ""
 
 #: kwinbindings.cpp:122
+#, kde-format
 msgid "Switch to Window Above"
 msgstr ""
 
 #: kwinbindings.cpp:124
+#, kde-format
 msgid "Switch to Window Below"
 msgstr ""
 
 #: kwinbindings.cpp:126
+#, kde-format
 msgid "Switch to Window to the Right"
 msgstr ""
 
 #: kwinbindings.cpp:128
+#, kde-format
 msgid "Switch to Window to the Left"
 msgstr ""
 
 #: kwinbindings.cpp:130
+#, kde-format
 msgid "Increase Opacity of Active Window by 5 %"
 msgstr ""
 
 #: kwinbindings.cpp:132
+#, kde-format
 msgid "Decrease Opacity of Active Window by 5 %"
 msgstr ""
 
 #: kwinbindings.cpp:136
+#, kde-format
 msgid "Window & Desktop"
 msgstr ""
 
 #: kwinbindings.cpp:137
+#, kde-format
 msgid "Keep Window on All Desktops"
 msgstr ""
 
@@ -337,26 +401,32 @@ msgid "Window to Desktop %1"
 msgstr "రంగస్థలము %1"
 
 #: kwinbindings.cpp:143
+#, kde-format
 msgid "Window to Next Desktop"
 msgstr ""
 
 #: kwinbindings.cpp:144
+#, kde-format
 msgid "Window to Previous Desktop"
 msgstr ""
 
 #: kwinbindings.cpp:145
+#, kde-format
 msgid "Window One Desktop to the Right"
 msgstr ""
 
 #: kwinbindings.cpp:146
+#, kde-format
 msgid "Window One Desktop to the Left"
 msgstr ""
 
 #: kwinbindings.cpp:147
+#, kde-format
 msgid "Window One Desktop Up"
 msgstr ""
 
 #: kwinbindings.cpp:148
+#, kde-format
 msgid "Window One Desktop Down"
 msgstr ""
 
@@ -366,15 +436,17 @@ msgid "Window to Screen %1"
 msgstr ""
 
 #: kwinbindings.cpp:153
+#, kde-format
 msgid "Window to Next Screen"
 msgstr ""
 
 #: kwinbindings.cpp:154
+#, kde-format
 msgid "Window to Previous Screen"
 msgstr ""
 
 #: kwinbindings.cpp:155
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "To &Desktop"
 msgid "Show Desktop"
 msgstr "(&D) రంగస్థలానికి"
@@ -385,36 +457,44 @@ msgid "Switch to Screen %1"
 msgstr ""
 
 #: kwinbindings.cpp:161
+#, kde-format
 msgid "Switch to Next Screen"
 msgstr ""
 
 #: kwinbindings.cpp:162
+#, kde-format
 msgid "Switch to Previous Screen"
 msgstr ""
 
 #: kwinbindings.cpp:165
+#, kde-format
 msgid "Miscellaneous"
 msgstr "ఇతరత్రా"
 
 #: kwinbindings.cpp:166
+#, kde-format
 msgid "Kill Window"
 msgstr ""
 
 #: kwinbindings.cpp:167
+#, kde-format
 msgid "Suspend Compositing"
 msgstr ""
 
 #: kwinbindings.cpp:168
+#, kde-format
 msgid "Invert Screen Colors"
 msgstr ""
 
 #: main.cpp:246
+#, kde-format
 msgid ""
 "kwin: it looks like there's already a window manager running. kwin not "
 "started.\n"
 msgstr ""
 
 #: main.cpp:274
+#, kde-format
 msgid ""
 "KWin is unstable.\n"
 "It seems to have crashed several times in a row.\n"
@@ -422,60 +502,74 @@ msgid ""
 msgstr ""
 
 #: main.cpp:331
+#, kde-format
 msgid ""
 "kwin: unable to claim manager selection, another wm running? (try using --"
 "replace)\n"
 msgstr ""
 
 #: main.cpp:460
+#, kde-format
 msgid "KDE window manager"
 msgstr ""
 
 #: main.cpp:541
+#, kde-format
 msgid "KWin"
 msgstr "KWin"
 
 #: main.cpp:545
+#, kde-format
 msgid "(c) 1999-2008, The KDE Developers"
 msgstr ""
 
 #: main.cpp:546
+#, kde-format
 msgid "Matthias Ettrich"
 msgstr "మథయాస్ ఎట్ట్రిచ్"
 
 #: main.cpp:547
+#, kde-format
 msgid "Cristian Tibirna"
 msgstr "క్రిస్టియన్ టిబిర్నా"
 
 #: main.cpp:548
+#, kde-format
 msgid "Daniel M. Duley"
 msgstr ""
 
 #: main.cpp:549
+#, kde-format
 msgid "Luboš Luňák"
 msgstr ""
 
 #: main.cpp:550
+#, kde-format
 msgid "Martin Gräßlin"
 msgstr ""
 
 #: main.cpp:550
+#, kde-format
 msgid "Maintainer"
 msgstr "సంరక్షకుడు"
 
 #: main.cpp:555
+#, kde-format
 msgid "Disable configuration options"
 msgstr ""
 
 #: main.cpp:556
+#, kde-format
 msgid "Replace already-running ICCCM2.0-compliant window manager"
 msgstr ""
 
 #: main.cpp:557
+#, kde-format
 msgid "Indicate that KWin has recently crashed n times"
 msgstr ""
 
 #: scene_opengl.cpp:358
+#, kde-format
 msgid "Desktop effects were restarted due to a graphics reset"
 msgstr ""
 
@@ -490,6 +584,7 @@ msgid ""
 msgstr ""
 
 #: scene_opengl.cpp:572
+#, kde-format
 msgid ""
 "The demanded resolution exceeds the GL_MAX_VIEWPORT_DIMS limitation of your "
 "GPU and is therefore not compatible with the OpenGL compositor.<br>XRender "
@@ -507,6 +602,7 @@ msgid ""
 msgstr ""
 
 #: scene_opengl.cpp:603
+#, kde-format
 msgid ""
 "The demanded resolution exceeds the GL_MAX_TEXTURE_SIZE limitation of your "
 "GPU, thus windows of that size cannot be assigned to textures and will be "
@@ -516,57 +612,69 @@ msgid ""
 msgstr ""
 
 #: tabbox/tabbox.cpp:354
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "To &Desktop"
 msgctxt "Special entry in alt+tab list for minimizing all windows"
 msgid "Show Desktop"
 msgstr "(&D) రంగస్థలానికి"
 
 #: tabbox/tabbox.cpp:509
+#, kde-format
 msgid "Walk Through Windows"
 msgstr ""
 
 #: tabbox/tabbox.cpp:510
+#, kde-format
 msgid "Walk Through Windows (Reverse)"
 msgstr ""
 
 #: tabbox/tabbox.cpp:511
+#, kde-format
 msgid "Walk Through Windows Alternative"
 msgstr ""
 
 #: tabbox/tabbox.cpp:512
+#, kde-format
 msgid "Walk Through Windows Alternative (Reverse)"
 msgstr ""
 
 #: tabbox/tabbox.cpp:513
+#, kde-format
 msgid "Walk Through Windows of Current Application"
 msgstr ""
 
 #: tabbox/tabbox.cpp:514
+#, kde-format
 msgid "Walk Through Windows of Current Application (Reverse)"
 msgstr ""
 
 #: tabbox/tabbox.cpp:515
+#, kde-format
 msgid "Walk Through Windows of Current Application Alternative"
 msgstr ""
 
 #: tabbox/tabbox.cpp:516
+#, kde-format
 msgid "Walk Through Windows of Current Application Alternative (Reverse)"
 msgstr ""
 
 #: tabbox/tabbox.cpp:517
+#, kde-format
 msgid "Walk Through Desktops"
 msgstr ""
 
 #: tabbox/tabbox.cpp:518
+#, kde-format
 msgid "Walk Through Desktops (Reverse)"
 msgstr ""
 
 #: tabbox/tabbox.cpp:519
+#, kde-format
 msgid "Walk Through Desktop List"
 msgstr ""
 
 #: tabbox/tabbox.cpp:520
+#, kde-format
 msgid "Walk Through Desktop List (Reverse)"
 msgstr ""
 
@@ -589,46 +697,57 @@ msgid ""
 msgstr ""
 
 #: useractions.cpp:273
+#, kde-format
 msgid "&Move"
 msgstr "(&M)జరుపు"
 
 #: useractions.cpp:281
+#, kde-format
 msgid "Re&size"
 msgstr ""
 
 #: useractions.cpp:287
+#, kde-format
 msgid "Keep &Above Others"
 msgstr "(&A) వేరేవాటి పైన పెట్టండి"
 
 #: useractions.cpp:295
+#, kde-format
 msgid "Keep &Below Others"
 msgstr "(&B) వేరేవాటి క్రింద పెట్టండి"
 
 #: useractions.cpp:303
+#, kde-format
 msgid "&Fullscreen"
 msgstr "(&F) పూర్తి తెర"
 
 #: useractions.cpp:311
+#, kde-format
 msgid "Sh&ade"
 msgstr ""
 
 #: useractions.cpp:318
+#, kde-format
 msgid "&No Border"
 msgstr ""
 
 #: useractions.cpp:327
+#, kde-format
 msgid "Window &Shortcut..."
 msgstr ""
 
 #: useractions.cpp:334
+#, kde-format
 msgid "&Special Window Settings..."
 msgstr ""
 
 #: useractions.cpp:338
+#, kde-format
 msgid "S&pecial Application Settings..."
 msgstr ""
 
 #: useractions.cpp:345
+#, kde-format
 msgctxt ""
 "Entry in context menu of window decoration to open the configuration module "
 "of KWin"
@@ -636,80 +755,93 @@ msgid "Window &Manager Settings..."
 msgstr ""
 
 #: useractions.cpp:350
+#, kde-format
 msgid "Mi&nimize"
 msgstr "(&n) చిన్నగా చేయి"
 
 #: useractions.cpp:356
+#, kde-format
 msgid "Ma&ximize"
 msgstr "(&x) పెద్దగా చేయి"
 
 #: useractions.cpp:367
+#, kde-format
 msgid "&Untab"
 msgstr ""
 
 #: useractions.cpp:373
+#, kde-format
 msgid "Close Entire &Group"
 msgstr ""
 
 #: useractions.cpp:386
+#, kde-format
 msgid "&More Actions"
 msgstr ""
 
 #: useractions.cpp:390
+#, kde-format
 msgid "&Close"
 msgstr "(&C) మూసివేయి"
 
 #: useractions.cpp:469
+#, kde-format
 msgid "&Extensions"
 msgstr ""
 
 #: useractions.cpp:523
+#, kde-format
 msgctxt "Switch to tab -> Previous"
 msgid "Previous"
 msgstr ""
 
 #: useractions.cpp:524
+#, kde-format
 msgctxt "Switch to tab -> Next"
 msgid "Next"
 msgstr ""
 
 #: useractions.cpp:562
+#, kde-format
 msgctxt "There's no window available to be attached as tab to this one"
 msgid "None available"
 msgstr ""
 
 #: useractions.cpp:571
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "To &Desktop"
 msgid "Switch to Tab"
 msgstr "(&D) రంగస్థలానికి"
 
 #: useractions.cpp:583
+#, kde-format
 msgid "&Attach as tab to"
 msgstr ""
 
 #: useractions.cpp:608
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "To &Desktop"
 msgid "Move To &Desktop"
 msgstr "(&D) రంగస్థలానికి"
 
 #: useractions.cpp:625
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "To &Desktop"
 msgid "Move To &Screen"
 msgstr "(&D) రంగస్థలానికి"
 
 #: useractions.cpp:643
+#, kde-format
 msgid "Ac&tivities"
 msgstr ""
 
 #: useractions.cpp:654
+#, kde-format
 msgid "&All Desktops"
 msgstr "(&A)అన్ని రంగస్థలాలు"
 
 #: useractions.cpp:680
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "To &Desktop"
 msgctxt "Create a new desktop and move there the window"
 msgid "&New Desktop"
@@ -722,6 +854,7 @@ msgid "Screen &%1"
 msgstr ""
 
 #: useractions.cpp:717
+#, kde-format
 msgid "&All Activities"
 msgstr ""
 
@@ -743,6 +876,7 @@ msgid "Activate Window (%1)"
 msgstr ""
 
 #: useractions.cpp:1416
+#, kde-format
 msgid ""
 "The window manager is configured to consider the screen with the mouse on it "
 "as active one.\n"
@@ -755,30 +889,37 @@ msgid "Desktop %1"
 msgstr "రంగస్థలము %1"
 
 #: virtualdesktops.cpp:424
+#, kde-format
 msgid "Desktop Switching"
 msgstr ""
 
 #: virtualdesktops.cpp:427
+#, kde-format
 msgid "Switch to Next Desktop"
 msgstr ""
 
 #: virtualdesktops.cpp:428
+#, kde-format
 msgid "Switch to Previous Desktop"
 msgstr ""
 
 #: virtualdesktops.cpp:429
+#, kde-format
 msgid "Switch One Desktop to the Right"
 msgstr ""
 
 #: virtualdesktops.cpp:430
+#, kde-format
 msgid "Switch One Desktop to the Left"
 msgstr ""
 
 #: virtualdesktops.cpp:431
+#, kde-format
 msgid "Switch One Desktop Up"
 msgstr ""
 
 #: virtualdesktops.cpp:432
+#, kde-format
 msgid "Switch One Desktop Down"
 msgstr ""
 
@@ -789,6 +930,7 @@ msgid "Switch to Desktop %1"
 msgstr "(&D) రంగస్థలానికి"
 
 #: workspace.cpp:1373
+#, kde-format
 msgctxt "Introductory text shown in the support information."
 msgid ""
 "KWin Support Information:\n"

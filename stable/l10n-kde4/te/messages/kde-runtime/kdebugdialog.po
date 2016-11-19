@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdebugdialog\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-05 04:53+0200\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -19,40 +19,49 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "కృష్ణబాబు కె , విజయ్ కిరణ్ కముజు"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 
 #: kdebugdialog.cpp:42 klistdebugdialog.cpp:36
+#, kde-format
 msgid "Debug Settings"
 msgstr "అమరికలను డీబగ్ చేయుము"
 
 #: kdebugdialog.cpp:57
+#, kde-format
 msgid "File"
 msgstr "దస్త్రం"
 
 #: kdebugdialog.cpp:58
+#, kde-format
 msgid "Message Box"
 msgstr "సందేశ బాక్స్"
 
 #: kdebugdialog.cpp:59
+#, kde-format
 msgid "Shell"
 msgstr "షెల్"
 
 #: kdebugdialog.cpp:60
+#, kde-format
 msgid "Syslog"
 msgstr "సిస్‌లాగ్"
 
 #: kdebugdialog.cpp:61
+#, kde-format
 msgid "None"
 msgstr "ఏదీకాదు"
 
 #. i18n: ectx: property (title), widget (QGroupBox, pInfoGroup)
 #: kdebugdialog.ui:48
+#, kde-format
 msgid "Information"
 msgstr "సమాచారం"
 
@@ -62,6 +71,7 @@ msgstr "సమాచారం"
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: kdebugdialog.ui:54 kdebugdialog.ui:89 kdebugdialog.ui:151
 #: kdebugdialog.ui:186
+#, kde-format
 msgid "Output to:"
 msgstr "అవట్‌పుట్ దీనికి:"
 
@@ -71,73 +81,88 @@ msgstr "అవట్‌పుట్ దీనికి:"
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: kdebugdialog.ui:67 kdebugdialog.ui:102 kdebugdialog.ui:164
 #: kdebugdialog.ui:199
+#, kde-format
 msgid "Filename:"
 msgstr "ఫైలుపేరు:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, pErrorGroup)
 #: kdebugdialog.ui:83
+#, kde-format
 msgid "Error"
 msgstr "దోషము"
 
 #. i18n: ectx: property (text), widget (QCheckBox, pAbortFatal)
 #: kdebugdialog.ui:118
+#, kde-format
 msgid "Abort on fatal errors"
 msgstr "ఫాటల్ దోషములపై ఎబార్టు అవ్వుము"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_disableAll2)
 #: kdebugdialog.ui:138 klistdebugdialog.cpp:76
+#, kde-format
 msgid "Disable all debug output"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, pWarnGroup)
 #: kdebugdialog.ui:145
+#, kde-format
 msgid "Warning"
 msgstr "హెచ్చరిక"
 
 #. i18n: ectx: property (title), widget (QGroupBox, pFatalGroup)
 #: kdebugdialog.ui:180
+#, kde-format
 msgid "Fatal Error"
 msgstr "ఫాటల్ దోషము"
 
 #: klistdebugdialog.cpp:67
+#, kde-format
 msgid "&Select All"
 msgstr "(&S) అన్నిటిని ఎంచుకొనుము"
 
 #: klistdebugdialog.cpp:68
+#, kde-format
 msgid "&Deselect All"
 msgstr "(&D) అన్నిటిని ఎంపికతీసివేయుము"
 
 #: main.cpp:98
+#, kde-format
 msgid "KDebugDialog"
 msgstr "KDebugDialog"
 
 #: main.cpp:99
+#, kde-format
 msgid "A dialog box for setting preferences for debug output"
 msgstr "డీబగ్ అవుట్‌పుట్‌కు అభీష్టాలను అమర్చుటకు వొక డైలాగ్ బాక్స్"
 
 #: main.cpp:100
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Copyright 1999-2000, David Faure <email>faure@kde.org</email>"
 msgid "Copyright 1999-2009, David Faure <email>faure@kde.org</email>"
 msgstr "కాపీరైట్ 1999-2000, డేవిడ్ ఫౌర్ <email>faure@kde.org</email>"
 
 #: main.cpp:101
+#, kde-format
 msgid "David Faure"
 msgstr "డెవిడ్ ఫారె"
 
 #: main.cpp:101
+#, kde-format
 msgid "Maintainer"
 msgstr "సంరక్షకుడు"
 
 #: main.cpp:106
+#, kde-format
 msgid "Show the fully-fledged dialog instead of the default list dialog"
 msgstr "అప్రమేయ జాబితా డైలాగును చూపుటకు బదులుగా పూర్తిగా-ఫ్లెడ్జిచేసిన డైలాగును చూపుము"
 
 #: main.cpp:107
+#, kde-format
 msgid "Turn area on"
 msgstr "ప్రాంతమును ఆన్ చేయుము"
 
 #: main.cpp:108
+#, kde-format
 msgid "Turn area off"
 msgstr "ప్రాంతమును ఆఫ్ చేయుము"
 

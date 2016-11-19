@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmbackground\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-05 11:50+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -28,6 +28,7 @@ msgstr ""
 "\n"
 
 #: bgadvanced.cpp:53
+#, kde-format
 msgid "Advanced Background Settings"
 msgstr "అధునాతన బ్యాక్‌గ్రౌండ్ అమరికలు"
 
@@ -37,12 +38,14 @@ msgid "%1 min."
 msgstr "%1 ని."
 
 #: bgadvanced.cpp:247
+#, kde-format
 msgid ""
 "Unable to remove the program: the program is global and can only be removed "
 "by the system administrator."
 msgstr "ప్రోగ్రామ్‌ను తీసివేయలేము: ప్రోగ్రామ్ సార్వత్రికమైనది మరియు సిస్టమ్ నిర్వహణాధికారి చేతనే తీసివేయబడుతుంది."
 
 #: bgadvanced.cpp:249
+#, kde-format
 msgid "Cannot Remove Program"
 msgstr "ప్రోగ్రామ్‌ను తీసివేయలేము"
 
@@ -52,47 +55,58 @@ msgid "Are you sure you want to remove the program `%1'?"
 msgstr "మీరు నిజంగా ప్రోగ్రామ్‌ను తీసివేద్దామని అనుకొనుచున్నారా `%1'?"
 
 #: bgadvanced.cpp:255
+#, kde-format
 msgid "Remove Background Program"
 msgstr "బ్యాక్‌గ్రౌండ్ ప్రోగ్రామ్‌ను తీసివేయుము"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
 #: bgadvanced.cpp:256 bgadvanced_ui.ui:47 bgwallpaper_ui.ui:115
+#, kde-format
 msgid "&Remove"
 msgstr "(&R) తీసివేయి"
 
 #: bgadvanced.cpp:339
+#, kde-format
 msgid "Configure Background Program"
 msgstr "బ్యాక్‌గ్రౌండ్ ప్రోగ్రామ్‌ను ఆకృతీకరించుము"
 
 #: bgadvanced.cpp:350
+#, kde-format
 msgid "&Name:"
 msgstr "(&N) పేరు:"
 
 #: bgadvanced.cpp:356
+#, kde-format
 msgid "Co&mment:"
 msgstr "(&m) వ్యాఖ్యానము:"
 
 #: bgadvanced.cpp:362
+#, kde-format
 msgid "Comman&d:"
 msgstr "(&d) ఆదేశము:"
 
 #: bgadvanced.cpp:368
+#, kde-format
 msgid "&Preview cmd:"
 msgstr "(&P) cmd ముందస్తు వీక్షణం:"
 
 #: bgadvanced.cpp:374
+#, kde-format
 msgid "&Executable:"
 msgstr "(&E) నిర్వర్తించదగిన:"
 
 #: bgadvanced.cpp:380
+#, kde-format
 msgid "&Refresh time:"
 msgstr "(&R) రీఫ్రెష్ సమయం"
 
 #: bgadvanced.cpp:385
+#, kde-format
 msgid " min"
 msgstr " ని"
 
 #: bgadvanced.cpp:392
+#, kde-format
 msgid "New Command"
 msgstr "కొత్త ఆదేశము"
 
@@ -102,6 +116,7 @@ msgid "New Command <%1>"
 msgstr "కొత్త ఆదేశము <%1>"
 
 #: bgadvanced.cpp:422
+#, kde-format
 msgid ""
 "You did not fill in the `Name' field.\n"
 "This is a required field."
@@ -119,10 +134,12 @@ msgstr ""
 "మీరు దానిని వోవర్‌రైట్ చేద్దామని అనుకొంటున్నారా?"
 
 #: bgadvanced.cpp:431
+#, kde-format
 msgid "Overwrite"
 msgstr "ఓవర్‌రైట్"
 
 #: bgadvanced.cpp:437
+#, kde-format
 msgid ""
 "You did not fill in the `Executable' field.\n"
 "This is a required field."
@@ -131,6 +148,7 @@ msgstr ""
 "ఇది అవసరమైన క్షేత్రము."
 
 #: bgadvanced.cpp:442
+#, kde-format
 msgid ""
 "You did not fill in the `Command' field.\n"
 "This is a required field."
@@ -140,11 +158,13 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_groupProgram)
 #: bgadvanced_ui.ui:16
+#, kde-format
 msgid "Background Program"
 msgstr "బ్యాక్‌గ్రౌండ్ ప్రోగ్రామ్"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonAdd)
 #: bgadvanced_ui.ui:31
+#, kde-format
 msgid ""
 "<qt>\n"
 "<p>Click here if you want to add a program to the listbox. This button opens "
@@ -159,11 +179,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonAdd)
 #: bgadvanced_ui.ui:34 bgwallpaper_ui.ui:92
+#, kde-format
 msgid "&Add..."
 msgstr "(&A) జతచేయుము..."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonRemove)
 #: bgadvanced_ui.ui:44
+#, kde-format
 msgid ""
 "Click here to remove programs from this list. Please note that it does not "
 "remove the program from your system, it only removes it from the available "
@@ -172,6 +194,7 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonModify)
 #: bgadvanced_ui.ui:59
+#, kde-format
 msgid ""
 "<qt>\n"
 "<p>Click here to modify the programs options. You usually can get the "
@@ -182,11 +205,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonModify)
 #: bgadvanced_ui.ui:62
+#, kde-format
 msgid "&Modify..."
 msgstr "(&M) సవరించుము..."
 
 #. i18n: ectx: property (whatsThis), widget (QTreeWidget, m_listPrograms)
 #: bgadvanced_ui.ui:101
+#, kde-format
 msgid ""
 "<qt>\n"
 "<p>Select from this listbox the program you want to use to draw your desktop "
@@ -205,21 +230,25 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QTreeWidget, m_listPrograms)
 #: bgadvanced_ui.ui:105
+#, kde-format
 msgid "Program"
 msgstr "ప్రోగ్రామ్"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, m_listPrograms)
 #: bgadvanced_ui.ui:110
+#, kde-format
 msgid "Comment"
 msgstr "వ్యాఖ్యానము"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, m_listPrograms)
 #: bgadvanced_ui.ui:115
+#, kde-format
 msgid "Refresh"
 msgstr "రీఫ్రెష్"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_cbProgram)
 #: bgadvanced_ui.ui:123
+#, kde-format
 msgid ""
 "Check here if you want to allow a program to draw your desktop background. "
 "Below you can find the list of programs currently available for drawing the "
@@ -229,17 +258,20 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_cbProgram)
 #: bgadvanced_ui.ui:126
+#, kde-format
 msgid "Use the following program for drawing the background:"
 msgstr "బ్యాక్‌గ్రౌండును గీయుటకు క్రింది ప్రోగ్రామ్‌ను వుపయోగించండి:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_groupCache)
 #: bgadvanced_ui.ui:136
+#, kde-format
 msgid "Memory Usage"
 msgstr "మెమోరీ వినియోగం"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, m_lblCache)
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, m_spinCache)
 #: bgadvanced_ui.ui:142 bgadvanced_ui.ui:155
+#, kde-format
 msgid ""
 "In this box you can enter how much memory KDE should use for caching the "
 "background(s). If you have different backgrounds for the different desktops "
@@ -249,19 +281,23 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_lblCache)
 #: bgadvanced_ui.ui:145
+#, kde-format
 msgid "Size of background cache:"
 msgstr "బ్యాక్‌గ్రౌండ్ క్యాచీ పరిమాణము:"
 
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, m_spinCache)
 #: bgadvanced_ui.ui:158
+#, kde-format
 msgid " KiB"
 msgstr ""
 
 #: bgdialog.cpp:110
+#, kde-format
 msgid "Open file dialog"
 msgstr "ఫైలు డైలాగును తెరువుము"
 
 #: bgdialog.cpp:334
+#, kde-format
 msgid ""
 "<p><h1>Background</h1> This module allows you to control the appearance of "
 "the virtual desktops. KDE offers a variety of options for customization, "
@@ -286,121 +322,150 @@ msgid "Screen %1"
 msgstr "తెర %1"
 
 #: bgdialog.cpp:389
+#, kde-format
 msgid "Single Color"
 msgstr "ఒంటరి రంగు"
 
 #: bgdialog.cpp:390
+#, kde-format
 msgid "Horizontal Gradient"
 msgstr "హారిజాంటల్ గ్రేడియంట్"
 
 #: bgdialog.cpp:391
+#, kde-format
 msgid "Vertical Gradient"
 msgstr "వెర్టికల్ గ్రేడియంట్"
 
 #: bgdialog.cpp:392
+#, kde-format
 msgid "Pyramid Gradient"
 msgstr "పిరమిడ్ గ్రేడియంట్"
 
 #: bgdialog.cpp:393
+#, kde-format
 msgid "Pipecross Gradient"
 msgstr "పైప్‌క్రాస్ గ్రేడియంట్"
 
 #: bgdialog.cpp:394
+#, kde-format
 msgid "Elliptic Gradient"
 msgstr "ఎల్లిప్టిక్ గ్రేడియంట్"
 
 #: bgdialog.cpp:408
+#, kde-format
 msgid "Centered"
 msgstr "సెంటర్డ్"
 
 #: bgdialog.cpp:409
+#, kde-format
 msgid "Tiled"
 msgstr "టైల్డ్"
 
 #: bgdialog.cpp:410
+#, kde-format
 msgid "Center Tiled"
 msgstr "సెంటర్ టైల్డ్"
 
 #: bgdialog.cpp:411
+#, kde-format
 msgid "Centered Maxpect"
 msgstr "సెంటర్డ్ మాక్స్‌పెక్ట్"
 
 #: bgdialog.cpp:412
+#, kde-format
 msgid "Tiled Maxpect"
 msgstr "టైల్డ్ మాక్స్‌పెక్ట్"
 
 #: bgdialog.cpp:413
+#, kde-format
 msgid "Scaled"
 msgstr "స్కేల్డ్"
 
 #: bgdialog.cpp:414
+#, kde-format
 msgid "Centered Auto Fit"
 msgstr "సెంటర్డ్ ఆటో ఫిట్"
 
 #: bgdialog.cpp:415
+#, kde-format
 msgid "Scale & Crop"
 msgstr "స్కేల్ & క్రాప్"
 
 #: bgdialog.cpp:418
+#, kde-format
 msgid "No Blending"
 msgstr "బ్లెండింగ్ లేదు"
 
 #: bgdialog.cpp:419
+#, kde-format
 msgid "Flat"
 msgstr "సమతల"
 
 #: bgdialog.cpp:420
+#, kde-format
 msgid "Horizontal"
 msgstr "హారిజాంటల్"
 
 #: bgdialog.cpp:421
+#, kde-format
 msgid "Vertical"
 msgstr "వెర్టికల్"
 
 #: bgdialog.cpp:422
+#, kde-format
 msgid "Pyramid"
 msgstr "పిరమిడ్"
 
 #: bgdialog.cpp:423
+#, kde-format
 msgid "Pipecross"
 msgstr "పైప్‌క్రాస్"
 
 #: bgdialog.cpp:424
+#, kde-format
 msgid "Elliptic"
 msgstr "ఎల్లిప్టిక్"
 
 #: bgdialog.cpp:425
+#, kde-format
 msgid "Intensity"
 msgstr "ఇంటెన్సిటి"
 
 #: bgdialog.cpp:426
+#, kde-format
 msgid "Saturation"
 msgstr "సాట్యురేషన్"
 
 #: bgdialog.cpp:427
+#, kde-format
 msgid "Contrast"
 msgstr "కాంట్రాస్ట్"
 
 #: bgdialog.cpp:428
+#, kde-format
 msgid "Hue Shift"
 msgstr "హ్యూ షిఫ్ట్"
 
 #: bgdialog.cpp:563
+#, kde-format
 msgid "Select Wallpaper"
 msgstr "వాల్‌పేపర్‌ను యెంపికచేయుము"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonIdentifyScreens)
 #: bgdialog_ui.ui:80
+#, kde-format
 msgid "Click this button to show the identifying number for each screen."
 msgstr "ప్రతి తెరకు గుర్తించిన సంఖ్యను చూపుటకు ఈ బటన్‌ను నొక్కుము."
 
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonIdentifyScreens)
 #: bgdialog_ui.ui:83
+#, kde-format
 msgid "Identify Screens"
 msgstr "తెరలను గుర్తించు"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonAdvanced)
 #: bgdialog_ui.ui:132
+#, kde-format
 msgid ""
 "Click this button to set the icon text colors and shadow, set up a program "
 "to run for the background picture or control the size of the background "
@@ -409,11 +474,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonAdvanced)
 #: bgdialog_ui.ui:135
+#, kde-format
 msgid "Advanced Options"
 msgstr "అధునాతన ఐచ్చికములు"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonGetNew)
 #: bgdialog_ui.ui:184
+#, kde-format
 msgid ""
 "Click this button to give you a list of new wallpapers to download from the "
 "Internet."
@@ -421,17 +488,20 @@ msgstr "ఇంటర్నెట్ నుండి డౌన్‌లోడ్ 
 
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonGetNew)
 #: bgdialog_ui.ui:187
+#, kde-format
 msgid "Get New Wallpapers"
 msgstr "కొత్త వాల్‌పేపర్లను పొందుము"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
 #: bgdialog_ui.ui:232
+#, kde-format
 msgid "Options"
 msgstr "ఐచ్చికములు"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, m_lblWallpaperPos)
 #. i18n: ectx: property (whatsThis), widget (QComboBox, m_comboWallpaperPos)
 #: bgdialog_ui.ui:247 bgdialog_ui.ui:438
+#, kde-format
 msgid ""
 "<qt>You can choose here how a background picture is shown on the desktop:\n"
 "<ul>\n"
@@ -456,11 +526,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_lblWallpaperPos)
 #: bgdialog_ui.ui:250
+#, kde-format
 msgid "Posi&tion:"
 msgstr "(&P) స్థానము:"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, m_comboBlend)
 #: bgdialog_ui.ui:266
+#, kde-format
 msgid ""
 "If you have selected to use a background picture you can choose various "
 "methods of blending the background colors with the picture. The default "
@@ -470,11 +542,13 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, m_colorPrimary)
 #: bgdialog_ui.ui:275
+#, kde-format
 msgid "Click to choose the primary background color."
 msgstr "ప్రాధమిక బ్యాక్‌గ్రౌండు రంగును యెంచుకొనుటకు నొక్కుము."
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, m_colorSecondary)
 #: bgdialog_ui.ui:285
+#, kde-format
 msgid ""
 "Click to choose the secondary background color. If no secondary color is "
 "required by the pattern selected this button will be disabled."
@@ -482,17 +556,20 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_lblColors)
 #: bgdialog_ui.ui:297
+#, kde-format
 msgid "Co&lors:"
 msgstr "(&l) రంగులు:"
 
 #. i18n: ectx: property (text), widget (QLabel, m_lblBlending)
 #: bgdialog_ui.ui:313
+#, kde-format
 msgid "&Blending:"
 msgstr "(&B) బ్లెండింగ్:"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, m_lblBlendBalance)
 #. i18n: ectx: property (whatsThis), widget (QSlider, m_sliderBlend)
 #: bgdialog_ui.ui:331 bgdialog_ui.ui:347
+#, kde-format
 msgid ""
 "You can use this slider to control the degree of blending. You can "
 "experiment by moving the slider and looking at the effects in the preview "
@@ -503,11 +580,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_lblBlendBalance)
 #: bgdialog_ui.ui:334
+#, kde-format
 msgid "Balance:"
 msgstr "సమతుల్యం:"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_cbBlendReverse)
 #: bgdialog_ui.ui:374
+#, kde-format
 msgid ""
 "For some types of blending, you can reverse the role of the background and "
 "the picture by checking this option."
@@ -515,36 +594,43 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_cbBlendReverse)
 #: bgdialog_ui.ui:377
+#, kde-format
 msgid "Reverse roles"
 msgstr "వ్యతిరేక రోల్సు"
 
 #. i18n: ectx: property (title), widget (KButtonGroup, m_buttonGroupBackground)
 #: bgdialog_ui.ui:448
+#, kde-format
 msgid "Background"
 msgstr "బ్యాక్‌గ్రౌండు"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, m_radioNoPicture)
 #: bgdialog_ui.ui:454
+#, kde-format
 msgid "No picture, color only"
 msgstr "చిత్రపటము లేదు, రంగు మాత్రమే"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioNoPicture)
 #: bgdialog_ui.ui:457
+#, kde-format
 msgid "&No picture"
 msgstr "(&N) చిత్రపటము లేదు"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioSlideShow)
 #: bgdialog_ui.ui:464
+#, kde-format
 msgid "&Slide show:"
 msgstr "(&S) స్లైడ్ షో:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioPicture)
 #: bgdialog_ui.ui:471
+#, kde-format
 msgid "&Picture:"
 msgstr "(&P) చిత్రపటము:"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonSetupWallpapers)
 #: bgdialog_ui.ui:497
+#, kde-format
 msgid ""
 "Click this button to select a set of images to be used as background "
 "pictures. One picture at a time will be shown for a specified amount of "
@@ -554,26 +640,31 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonSetupWallpapers)
 #: bgdialog_ui.ui:500
+#, kde-format
 msgid "Set&up..."
 msgstr "(&u) అమర్పు..."
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, m_comboScreen)
 #: bgdialog_ui.ui:558
+#, kde-format
 msgid ""
 "Choose the screen you wish to configure the background for from this list."
 msgstr "మీరు బ్యాక్‌గ్రౌండును ఆకృతీకరించ దలచిన తెరను ఈ జాబితానుండి యెంచుకొనుము."
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_comboScreen)
 #: bgdialog_ui.ui:562
+#, kde-format
 msgid "Across All Screens"
 msgstr "అన్ని తెరల నుండి"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_comboScreen)
 #: bgdialog_ui.ui:567
+#, kde-format
 msgid "On Each Screen"
 msgstr "ప్రతి స్క్రీన్ పైనా"
 
 #: bgmonitor.cpp:51
+#, kde-format
 msgid ""
 "This picture of a monitor contains a preview of what the current settings "
 "will look like on your desktop."
@@ -582,11 +673,12 @@ msgstr ""
 "వీక్షణం యిస్తుంది."
 
 #: bgwallpaper.cpp:108
+#, kde-format
 msgid "Setup Slide Show"
 msgstr "స్లైడ్ షో‌ను అమర్చుము"
 
 #: bgwallpaper.cpp:116
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid " min"
 msgid " minute"
 msgid_plural " minutes"
@@ -594,31 +686,37 @@ msgstr[0] " ని"
 msgstr[1] " ని"
 
 #: bgwallpaper.cpp:164
+#, kde-format
 msgid "Select Image"
 msgstr "చిత్రమును యెంపికచేయుము"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: bgwallpaper_ui.ui:19
+#, kde-format
 msgid "Show the following pictures:"
 msgstr "క్రింది చిత్రపటములను చూపుము:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_cbRandom)
 #: bgwallpaper_ui.ui:29
+#, kde-format
 msgid "&Show pictures in random order"
 msgstr "(&S) చిత్రపటములను యాధృశ్చిక(రాండమ్) క్రమములో చూపుము"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: bgwallpaper_ui.ui:38
+#, kde-format
 msgid "Change &picture after:"
 msgstr "(&p) చిత్రపటమును తర్వాత మార్చుము:"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonMoveDown)
 #: bgwallpaper_ui.ui:122
+#, kde-format
 msgid "Move &Down"
 msgstr "(&D) క్రిందికి కదుపు"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonMoveUp)
 #: bgwallpaper_ui.ui:129
+#, kde-format
 msgid "Move &Up"
 msgstr "(&U) పైకి కదుపుము"
 
