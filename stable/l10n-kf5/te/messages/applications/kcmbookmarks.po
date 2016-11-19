@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-12 13:39+0000\n"
+"POT-Creation-Date: 2016-11-19 22:45+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -20,6 +20,7 @@ msgstr ""
 "4;\n"
 
 #: bookmarks.cpp:104
+#, kde-format
 msgid ""
 "<h1>My Bookmarks</h1><p>This module lets you configure the bookmarks home "
 "page.</p><p>The bookmarks home page is accessible at <a href=\"bookmarks:/"
@@ -28,11 +29,13 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: bookmarks.ui:16
+#, kde-format
 msgid "Bookmarks"
 msgstr "పేజి గుర్తులు"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbShowRoot)
 #: bookmarks.ui:23
+#, kde-format
 msgid ""
 "If this option is unchecked, bookmarks at the root of the hierarchy (not in "
 "a folder) are not displayed.\n"
@@ -41,11 +44,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowRoot)
 #: bookmarks.ui:26
+#, kde-format
 msgid "&Show bookmarks without folder"
 msgstr "(&S) ఫోల్డరు లేకుండా బుక్‌మార్క్స్‌ను చూపుము"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbFlattenTree)
 #: bookmarks.ui:37
+#, kde-format
 msgid ""
 "Sub-folders are shown within their parent by default. If you activate this "
 "option, sub-folders are displayed on their own.\n"
@@ -55,11 +60,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbFlattenTree)
 #: bookmarks.ui:40
+#, kde-format
 msgid "&Flatten bookmarks tree"
 msgstr "(&F) ఫ్లాటెన్ బుక్‌మార్క్స్ ట్రీ"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbShowPlaces)
 #: bookmarks.ui:47
+#, kde-format
 msgid ""
 "Show a box with KDE places (Home, Network, ...). Useful if you use konqueror "
 "as a file manager."
@@ -69,16 +76,19 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowPlaces)
 #: bookmarks.ui:50
+#, kde-format
 msgid "Show system &places"
 msgstr "(&p) సిస్టమ్ స్థలములను చూపుము"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: bookmarks.ui:63
+#, kde-format
 msgid "General Settings"
 msgstr "సాదారణ అమర్పులు"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label)
 #: bookmarks.ui:71
+#, kde-format
 msgid ""
 "Folders are automatically distributed in several columns. The optimal number "
 "of columns depends on the width of the konqueror window and the number of "
@@ -87,48 +97,56 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: bookmarks.ui:74
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Number of columns to show"
 msgid "Number of columns to show:"
 msgstr "చూపించవలసిన నిలువువరుసల సంఖ్య"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbShowBackgrounds)
 #: bookmarks.ui:109
+#, kde-format
 msgid "Disable it on slow system to disable background images."
 msgstr "నిదానమైన సిస్టమ్‌నందు బ్యాక్‌గ్రౌండు చిత్రములను అచేతనము చేయుటకు దీనిని అచేతనము చేయుము."
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowBackgrounds)
 #: bookmarks.ui:112
+#, kde-format
 msgid "Show folder &backgrounds"
 msgstr "(&b) ఫోల్డరు బ్యాక్‌గ్రౌండ్సును చూపుము"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox_3)
 #: bookmarks.ui:138
+#, kde-format
 msgid "How much disk space is used to cache the pixmaps"
 msgstr "పిక్స్‌మాప్స్‌ను క్యాచీ చేయుటకు యెంత డిస్కు జాగా వుపయోగించబడింది"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: bookmarks.ui:141
+#, kde-format
 msgid "Pixmap Cache"
 msgstr "పిక్స్‌మాప్ క్యాచి"
 
 #. i18n: ectx: property (text), widget (QLabel, lbMaxCacheSize)
 #: bookmarks.ui:150
+#, kde-format
 msgid "Disk cache size:"
 msgstr "డిస్కు క్యాచి పరిమాణము:"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbCacheSize)
 #: bookmarks.ui:163
+#, kde-format
 msgid " kB"
 msgstr " kB"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, clearCacheButton)
 #: bookmarks.ui:173
+#, kde-format
 msgid "Clear the pixmap cache"
 msgstr "పిక్స్‌మాప్ క్యాచీని శుభ్రముచేయుము"
 
 #. i18n: ectx: property (text), widget (QPushButton, clearCacheButton)
 #: bookmarks.ui:176
+#, kde-format
 msgid "&Clear Cache"
 msgstr "(&C) క్యాచీని శుభ్రముచేయుము"
 

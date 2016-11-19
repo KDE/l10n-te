@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsamba\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-09 07:26+0000\n"
+"POT-Creation-Date: 2016-11-19 22:52+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -19,27 +19,33 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "కృష్ణబాబు కె , విజయ్ కిరణ్ కముజు"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 
 #: kcmsambaimports.cpp:42 ksmbstatus.cpp:53
+#, kde-format
 msgid "Type"
 msgstr "రకము"
 
 #: kcmsambaimports.cpp:42
+#, kde-format
 msgid "Resource"
 msgstr "వనరు"
 
 #: kcmsambaimports.cpp:42
+#, kde-format
 msgid "Mounted Under"
 msgstr "దీనిక్రింద మౌంటైన"
 
 #: kcmsambaimports.cpp:44
+#, kde-format
 msgid ""
 "This list shows the Samba and NFS shared resources mounted on your system "
 "from other hosts. The \"Type\" column tells you whether the mounted resource "
@@ -50,30 +56,37 @@ msgid ""
 msgstr ""
 
 #: kcmsambalog.cpp:40
+#, kde-format
 msgid "Samba log file: "
 msgstr "సాంబా లాగ్ ఫైలు: "
 
 #: kcmsambalog.cpp:40
+#, kde-format
 msgid "Show opened connections"
 msgstr "తెరిచిన అనుసంధానములను చూపుము"
 
 #: kcmsambalog.cpp:40
+#, kde-format
 msgid "Show closed connections"
 msgstr "మూసిన అనుసంధానములను చూపుము"
 
 #: kcmsambalog.cpp:41
+#, kde-format
 msgid "Show opened files"
 msgstr "తెరిచిన ఫైళ్ళను చూపుము"
 
 #: kcmsambalog.cpp:41
+#, kde-format
 msgid "Show closed files"
 msgstr "మూసిన ఫైళ్ళను చూపుము"
 
 #: kcmsambalog.cpp:41
+#, kde-format
 msgid "&Update"
 msgstr "(&U) నవీకరణ"
 
 #: kcmsambalog.cpp:60
+#, kde-format
 msgid ""
 "This page presents the contents of your samba log file in a friendly layout. "
 "Check that the correct log file for your computer is listed here. If you "
@@ -82,6 +95,7 @@ msgid ""
 msgstr ""
 
 #: kcmsambalog.cpp:65
+#, kde-format
 msgid ""
 "Check this option if you want to view the details for connections opened to "
 "your computer."
@@ -89,12 +103,14 @@ msgstr ""
 "మీ కంప్యూటరుకు తెరిచిన అనుసంధానముల వివరములను మీరు వీక్షించాలని కొరుకుంటే ఈ ఐచ్చికాన్ని చెక్ చేయుము."
 
 #: kcmsambalog.cpp:68
+#, kde-format
 msgid ""
 "Check this option if you want to view the events when connections to your "
 "computer were closed."
 msgstr ""
 
 #: kcmsambalog.cpp:71
+#, kde-format
 msgid ""
 "Check this option if you want to see the files which were opened on your "
 "computer by remote users. Note that file open/close events are not logged "
@@ -103,6 +119,7 @@ msgid ""
 msgstr ""
 
 #: kcmsambalog.cpp:77
+#, kde-format
 msgid ""
 "Check this option if you want to see the events when files opened by remote "
 "users were closed. Note that file open/close events are not logged unless "
@@ -111,28 +128,34 @@ msgid ""
 msgstr ""
 
 #: kcmsambalog.cpp:83
+#, kde-format
 msgid ""
 "Click here to refresh the information on this page. The log file (shown "
 "above) will be read to obtain the events logged by samba."
 msgstr ""
 
 #: kcmsambalog.cpp:91 kcmsambalog.cpp:92
+#, kde-format
 msgid "Date & Time"
 msgstr "తేది & సమయం"
 
 #: kcmsambalog.cpp:91 kcmsambalog.cpp:92 kcmsambastatistics.cpp:70
+#, kde-format
 msgid "Event"
 msgstr "ఘటన"
 
 #: kcmsambalog.cpp:91 kcmsambalog.cpp:93 kcmsambastatistics.cpp:70
+#, kde-format
 msgid "Service/File"
 msgstr "సేవ/ఫైలు"
 
 #: kcmsambalog.cpp:92 kcmsambalog.cpp:93 kcmsambastatistics.cpp:70
+#, kde-format
 msgid "Host/User"
 msgstr "హోస్టు/వినియోగదారి"
 
 #: kcmsambalog.cpp:96
+#, kde-format
 msgid ""
 "<p>This list shows details of the events logged by samba. Note that events "
 "at the file level are not logged unless you have configured the log level "
@@ -144,18 +167,22 @@ msgid ""
 msgstr ""
 
 #: kcmsambalog.cpp:207 kcmsambastatistics.cpp:153 kcmsambastatistics.cpp:218
+#, kde-format
 msgid "CONNECTION OPENED"
 msgstr "అనుసంధానము తెరువబడింది"
 
 #: kcmsambalog.cpp:211
+#, kde-format
 msgid "CONNECTION CLOSED"
 msgstr "అనుసంధానము మూయబడింది"
 
 #: kcmsambalog.cpp:216
+#, kde-format
 msgid "            FILE OPENED"
 msgstr "            ఫైలు తెరువబడింది"
 
 #: kcmsambalog.cpp:222
+#, kde-format
 msgid "            FILE CLOSED"
 msgstr "            ఫైలు మూయబడింది"
 
@@ -165,54 +192,67 @@ msgid "Could not open file %1"
 msgstr "ఫైలు %1ను తెరువలేక పోయింది"
 
 #: kcmsambastatistics.cpp:45
+#, kde-format
 msgid "Connections: 0"
 msgstr "అనుసంధానములు: 0"
 
 #: kcmsambastatistics.cpp:47
+#, kde-format
 msgid "File accesses: 0"
 msgstr "ఫైల్ యాక్సెస్: 0"
 
 #: kcmsambastatistics.cpp:50
+#, kde-format
 msgid "Event: "
 msgstr "ఘటన: "
 
 #: kcmsambastatistics.cpp:54
+#, kde-format
 msgid "Service/File:"
 msgstr "సేవ/ఫైలు:"
 
 #: kcmsambastatistics.cpp:58
+#, kde-format
 msgid "Host/User:"
 msgstr "హోస్టు/వినియోగదారి:"
 
 #: kcmsambastatistics.cpp:61
+#, kde-format
 msgid "&Search"
 msgstr "(&S) శోధించు"
 
 #: kcmsambastatistics.cpp:62
+#, kde-format
 msgid "Clear Results"
 msgstr "ఫలితాలను శుభ్రముచేయుము"
 
 #: kcmsambastatistics.cpp:63
+#, kde-format
 msgid "Show expanded service info"
 msgstr "విస్తరించిన సేవ సమాచారమును చూపుము"
 
 #: kcmsambastatistics.cpp:64
+#, kde-format
 msgid "Show expanded host info"
 msgstr "విస్తరించిన హోస్టు సమాచారమును చూపుము"
 
 #: kcmsambastatistics.cpp:70
+#, kde-format
 msgid "Nr"
 msgstr "Nr"
 
 #: kcmsambastatistics.cpp:70
+#, kde-format
 msgid "Hits"
 msgstr "హిట్స్"
 
 #: kcmsambastatistics.cpp:74 kcmsambastatistics.cpp:141
+#, kde-format
 msgid "Connection"
 msgstr "అనుసంధానము"
 
 #: kcmsambastatistics.cpp:75
+#, kde-format
 msgid "File Access"
 msgstr "ఫైలు యాక్సెస్"
 
@@ -227,30 +267,37 @@ msgid "File accesses: %1"
 msgstr "ఫైల్ యాక్సెస్: %1"
 
 #: kcmsambastatistics.cpp:166 kcmsambastatistics.cpp:221
+#, kde-format
 msgid "FILE OPENED"
 msgstr "ఫైలు తెరువబడింది"
 
 #: ksmbstatus.cpp:53
+#, kde-format
 msgid "Service"
 msgstr "సేవ"
 
 #: ksmbstatus.cpp:53
+#, kde-format
 msgid "Accessed From"
 msgstr "యాక్సెస్‌చేసిన ఫాం"
 
 #: ksmbstatus.cpp:54
+#, kde-format
 msgid "UID"
 msgstr "UID"
 
 #: ksmbstatus.cpp:54
+#, kde-format
 msgid "GID"
 msgstr "GID"
 
 #: ksmbstatus.cpp:54
+#, kde-format
 msgid "PID"
 msgstr "PID"
 
 #: ksmbstatus.cpp:54
+#, kde-format
 msgid "Open Files"
 msgstr "తెరిచిన ఫైళ్ళు"
 
@@ -261,26 +308,32 @@ msgid "Error run smbstatus: %1"
 msgstr "దోషము: smbstatusను నడుపలేక పోయింది"
 
 #: ksmbstatus.cpp:176
+#, kde-format
 msgid "Error: Unable to open configuration file \"smb.conf\""
 msgstr "దోషము: ఆకృతీకరణ ఫైలు \"smb.conf\" తెరువలేక పోయింది"
 
 #: main.cpp:58
+#, kde-format
 msgid "&Exports"
 msgstr "(&E) ఎగుమతులు"
 
 #: main.cpp:59
+#, kde-format
 msgid "&Imports"
 msgstr "(&I) దిగుమతులు"
 
 #: main.cpp:60
+#, kde-format
 msgid "&Log"
 msgstr "(&L) లాగ్"
 
 #: main.cpp:61
+#, kde-format
 msgid "&Statistics"
 msgstr "(&S) గణాంకాలు"
 
 #: main.cpp:65
+#, kde-format
 msgid ""
 "<p>The Samba and NFS Status Monitor is a front end to the programs "
 "<em>smbstatus</em> and <em>showmount</em>. Smbstatus reports on current "
@@ -292,39 +345,47 @@ msgid ""
 msgstr ""
 
 #: main.cpp:73
+#, kde-format
 msgid "kcmsamba"
 msgstr "kcmsamba"
 
 #: main.cpp:74
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "KDE Panel System Information Control Module"
 msgid "System Information Control Module"
 msgstr "KDE ప్యానల్ సిస్టమ్ సమాచార నింయత్రణ మాడ్యూల్"
 
 #: main.cpp:76
+#, kde-format
 msgid "(c) 2002 KDE Information Control Module Samba Team"
 msgstr "(c) 2002 KDE సమాచార నియంత్రణ మాడ్యూల్ సాంబా టీము"
 
 #: main.cpp:77
+#, kde-format
 msgid "Michael Glauche"
 msgstr "మైఖేల్ గ్లౌచి"
 
 #: main.cpp:78
+#, kde-format
 msgid "Matthias Hoelzer"
 msgstr "మాథియాస్ హెయెల్జర్"
 
 #: main.cpp:79
+#, kde-format
 msgid "David Faure"
 msgstr "డెవిడ్ ఫారె"
 
 #: main.cpp:80
+#, kde-format
 msgid "Harald Koschinski"
 msgstr "హరాల్డ్ కొస్చిన్‌స్కి"
 
 #: main.cpp:81
+#, kde-format
 msgid "Wilco Greven"
 msgstr "విల్కో గ్రెవెన్"
 
 #: main.cpp:82
+#, kde-format
 msgid "Alexander Neundorf"
 msgstr "Alexander Neundorf"

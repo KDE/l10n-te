@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-27 11:44+0000\n"
+"POT-Creation-Date: 2016-11-19 22:53+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -21,53 +21,58 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, components_label)
 #: export_scheme_dialog.ui:17
+#, kde-format
 msgid "Select the Components to Export"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, components)
 #: export_scheme_dialog.ui:27
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "KDE component:"
 msgid "Components"
 msgstr "KDE కాంపోనెంటు:"
 
 #: globalshortcuts.cpp:67
+#, kde-format
 msgid "You are about to reset all shortcuts to their default values."
 msgstr ""
 
 #: globalshortcuts.cpp:68
+#, kde-format
 msgid "Reset to defaults"
 msgstr ""
 
 #: globalshortcuts.cpp:69
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "KDE component:"
 msgid "Current Component"
 msgstr "KDE కాంపోనెంటు:"
 
 #: globalshortcuts.cpp:70
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "KDE component:"
 msgid "All Components"
 msgstr "KDE కాంపోనెంటు:"
 
 #: kglobalshortcutseditor.cpp:232
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Import Scheme..."
 msgid "Import Scheme..."
 msgstr "స్కీమాను దిగుమతి చేయుము..."
 
 #: kglobalshortcutseditor.cpp:233
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Export Scheme..."
 msgid "Export Scheme..."
 msgstr "ఎగుమతి స్కీమా..."
 
 #: kglobalshortcutseditor.cpp:234
+#, kde-format
 msgid "Set All Shortcuts to None"
 msgstr ""
 
 #: kglobalshortcutseditor.cpp:242
+#, kde-format
 msgid "Applications"
 msgstr ""
 
@@ -86,7 +91,7 @@ msgid ""
 msgstr ""
 
 #: kglobalshortcutseditor.cpp:331 kglobalshortcutseditor.cpp:341
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "KDE component:"
 msgid "Remove component"
 msgstr "KDE కాంపోనెంటు:"
@@ -100,28 +105,31 @@ msgid ""
 msgstr ""
 
 #: kglobalshortcutseditor.cpp:451
+#, kde-format
 msgid "Application Launchers"
 msgstr ""
 
 #: kglobalshortcutseditor.cpp:454
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Shortcuts:"
 msgid "Other Shortcuts"
 msgstr "శీఘ్రమార్గాలు:"
 
 #: kglobalshortcutseditor.cpp:559
+#, kde-format
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
 "this one"
 msgstr "దీనిని దాయుటకు ముందుగా మీరు వేరొక స్కీమాను లోడచేస్తే మీ ప్రస్తుత మార్పులు కొల్పోతాయి"
 
 #: kglobalshortcutseditor.cpp:560
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Load Shortcurt Scheme"
 msgid "Load Shortcut Scheme"
 msgstr "శీఘ్రమార్గ స్కీమాను లోడుచేయుము"
 
 #: kglobalshortcutseditor.cpp:561
+#, kde-format
 msgid "Load"
 msgstr "లోడుచేయి"
 
@@ -140,67 +148,77 @@ msgstr ""
 "దోషము: %2"
 
 #: kglobalshortcutseditor.cpp:607 kglobalshortcutseditor.cpp:630
+#, kde-format
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "KDE సార్వత్రిక శీఘ్రమార్గల డెమోన్‌ను సంప్రదించుటకు విఫలమైంది\n"
 
 #. i18n: ectx: property (text), widget (QLabel, componentLabel)
 #: kglobalshortcutseditor.ui:25
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "KDE component:"
 msgid "Component:"
 msgstr "KDE కాంపోనెంటు:"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, addButton)
 #: kglobalshortcutseditor.ui:62
+#, kde-format
 msgid "Add a new shortcut to an Application..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, addButton)
 #. i18n: ectx: property (text), widget (QToolButton, removeButton)
 #: kglobalshortcutseditor.ui:65 kglobalshortcutseditor.ui:75
+#, kde-format
 msgid "..."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, removeButton)
 #: kglobalshortcutseditor.ui:72
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "KDE component:"
 msgid "Remove the selected component"
 msgstr "KDE కాంపోనెంటు:"
 
 #. i18n: ectx: property (text), widget (QPushButton, menu_button)
 #: kglobalshortcutseditor.ui:95
+#, kde-format
 msgid "File"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, SelectApplicationDialog)
 #: select_application.ui:14
+#, kde-format
 msgid "Select Application"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, SelectSchemeDialog)
 #. i18n: ectx: property (clickMessage), widget (KUrlRequester, m_url)
 #: select_scheme_dialog.ui:15 select_scheme_dialog.ui:123
+#, kde-format
 msgid "Select Shortcut Scheme"
 msgstr "శీఘ్రమార్గ స్కీమాను యెంపికచేయుము"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label)
 #: select_scheme_dialog.ui:39
+#, kde-format
 msgid "Select one of the standard KDE shortcut schemes"
 msgstr "KDE శీఘ్రమార్గ స్కీమాలలో వొకదానిని యెంపికచేయుము"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: select_scheme_dialog.ui:42
+#, kde-format
 msgid "&Standard scheme:"
 msgstr "(&S) ప్రామాణిక స్కీమా:"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
 #: select_scheme_dialog.ui:92
+#, kde-format
 msgid "Select a shortcut scheme file"
 msgstr "శీఘ్రమార్గ స్కీమా ఫైలును యెంపికచేయుము"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: select_scheme_dialog.ui:95
+#, kde-format
 msgid "&Path:"
 msgstr "(&P) దారి:"
 
