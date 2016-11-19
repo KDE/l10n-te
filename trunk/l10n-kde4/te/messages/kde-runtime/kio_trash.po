@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-14 02:01+0000\n"
+"POT-Creation-Date: 2016-11-19 11:45+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -20,6 +20,7 @@ msgstr ""
 "4;\n"
 
 #: kcmtrash.cpp:158 kcmtrash.cpp:266
+#, kde-format
 msgid " day"
 msgid_plural " days"
 msgstr[0] ""
@@ -29,12 +30,14 @@ msgstr[3] ""
 msgstr[4] ""
 
 #: kcmtrash.cpp:220
+#, kde-format
 msgid ""
 "<para>KDE's wastebin is configured to use the <b>Finder</b>'s Trash.<br></"
 "para>"
 msgstr ""
 
 #: kcmtrash.cpp:222
+#, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>Emptying KDE's wastebin will remove only KDE's trash items, "
@@ -44,10 +47,12 @@ msgid ""
 msgstr ""
 
 #: kcmtrash.cpp:257
+#, kde-format
 msgid "Delete files older than:"
 msgstr ""
 
 #: kcmtrash.cpp:259
+#, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>Check this box to allow <b>automatic deletion</b> of files that are "
@@ -56,6 +61,7 @@ msgid ""
 msgstr ""
 
 #: kcmtrash.cpp:268
+#, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>Set the number of days that files can remain in the trash. Any files "
@@ -63,10 +69,12 @@ msgid ""
 msgstr ""
 
 #: kcmtrash.cpp:276
+#, kde-format
 msgid "Limit to maximum size"
 msgstr ""
 
 #: kcmtrash.cpp:278
+#, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>Check this box to limit the trash to the maximum amount of disk space "
@@ -74,6 +82,7 @@ msgid ""
 msgstr ""
 
 #: kcmtrash.cpp:296
+#, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>This is the maximum percent of disk space that will be used for the "
@@ -81,6 +90,7 @@ msgid ""
 msgstr ""
 
 #: kcmtrash.cpp:301
+#, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>This is the calculated amount of disk space that will be allowed for "
@@ -88,26 +98,32 @@ msgid ""
 msgstr ""
 
 #: kcmtrash.cpp:304
+#, kde-format
 msgid "Maximum size:"
 msgstr ""
 
 #: kcmtrash.cpp:306
+#, kde-format
 msgid "When limit reached:"
 msgstr ""
 
 #: kcmtrash.cpp:310
+#, kde-format
 msgid "Warn Me"
 msgstr ""
 
 #: kcmtrash.cpp:311
+#, kde-format
 msgid "Delete Oldest Files From Trash"
 msgstr ""
 
 #: kcmtrash.cpp:312
+#, kde-format
 msgid "Delete Biggest Files From Trash"
 msgstr ""
 
 #: kcmtrash.cpp:314
+#, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>When the size limit is reached, it will prefer to delete the type of "
@@ -131,22 +147,27 @@ msgid ""
 msgstr ""
 
 #: kio_trash.cpp:140 kio_trash_win.cpp:228
+#, kde-format
 msgid "This file is already in the trash bin."
 msgstr ""
 
 #: kio_trash.cpp:228 kio_trash_win.cpp:252
+#, kde-format
 msgid "Internal error in copyOrMove, should never happen"
 msgstr ""
 
 #: kio_trash_win.cpp:241
+#, kde-format
 msgid "not supported"
 msgstr ""
 
 #: ktrash.cpp:32
+#, kde-format
 msgid "ktrash"
 msgstr ""
 
 #: ktrash.cpp:34
+#, kde-format
 msgid ""
 "Helper program to handle the KDE trash can\n"
 "Note: to move files to the trash, do not use ktrash, but \"kioclient move "
@@ -154,23 +175,28 @@ msgid ""
 msgstr ""
 
 #: ktrash.cpp:38
+#, kde-format
 msgid "Empty the contents of the trash"
 msgstr ""
 
 #: ktrash.cpp:40
+#, kde-format
 msgid "Restore a trashed file to its original location"
 msgstr ""
 
 #: ktrash.cpp:42
+#, kde-format
 msgid "Ignored"
 msgstr ""
 
 #: trashimpl.cpp:1255
+#, kde-format
 msgid ""
 "The trash has reached its maximum size!\n"
 "Cleanup the trash manually."
 msgstr ""
 
 #: trashimpl.cpp:1266
+#, kde-format
 msgid "The file is too large to be trashed."
 msgstr ""
