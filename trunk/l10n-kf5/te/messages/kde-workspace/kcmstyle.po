@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-08 08:40+0000\n"
+"POT-Creation-Date: 2016-11-19 20:21+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -19,17 +19,19 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "కృష్ణబాబు కె , విజయ్ కిరణ్ కముజు"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: finetuning.ui:17
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "@option:check"
 #| msgid "Sho&w icons on buttons"
 msgid "Show icons on buttons:"
@@ -37,7 +39,7 @@ msgstr "(&w) బటన్స్  పైన ప్రతిమలను చూప
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: finetuning.ui:37
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "@option:check"
 #| msgid "Sho&w icons on buttons"
 msgid "Show icons in menus:"
@@ -45,30 +47,34 @@ msgstr "(&w) బటన్స్  పైన ప్రతిమలను చూప
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: finetuning.ui:70
+#, kde-format
 msgid "Toolbars"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: finetuning.ui:76
+#, kde-format
 msgid "Main toolbar text:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
 #: finetuning.ui:90 finetuning.ui:127
+#, kde-format
 msgid "No Text"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
 #: finetuning.ui:95 finetuning.ui:132
+#, kde-format
 msgid "Text Only"
 msgstr "వచనము మాత్రమే"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
 #: finetuning.ui:100 finetuning.ui:137
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Text Alongside Icons"
 msgid "Text Beside Icons"
 msgstr "ప్రతిమల ప్రక్కన వచనము"
@@ -76,118 +82,142 @@ msgstr "ప్రతిమల ప్రక్కన వచనము"
 #. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
 #: finetuning.ui:105 finetuning.ui:142
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Text Under Icons"
 msgid "Text Below Icons"
 msgstr "ప్రతిమల క్రిందన వచనము"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: finetuning.ui:113
+#, kde-format
 msgid "Secondary toolbar text:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, menubarBox)
 #: finetuning.ui:166
+#, kde-format
 msgid "Menubar"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelMenubarStyle)
 #: finetuning.ui:172
+#, kde-format
 msgid "Menubar style:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
 #: finetuning.ui:186
+#, kde-format
 msgid "In application"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
 #: finetuning.ui:191
+#, kde-format
 msgid "Title bar button"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
 #: finetuning.ui:196
+#, kde-format
 msgid "Top screen menubar"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
 #: finetuning.ui:201
+#, kde-format
 msgid "Only export"
 msgstr ""
 
 #: kcmstyle.cpp:161
+#, kde-format
 msgid ""
 "<h1>Style</h1>This module allows you to modify the visual appearance of user "
 "interface elements, such as the widget style and effects."
 msgstr ""
 
 #: kcmstyle.cpp:173
+#, kde-format
 msgid "KDE Style Module"
 msgstr "KDE శైలి మాడ్యూల్"
 
 #: kcmstyle.cpp:175
+#, kde-format
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr "(c) 2002 కరోల్ స్జ్వెడ్, డానియల్ మాల్కెన్‌టిన్"
 
 #: kcmstyle.cpp:177
+#, kde-format
 msgid "Karol Szwed"
 msgstr "కారల్ స్జ్వెడ్"
 
 #: kcmstyle.cpp:178
+#, kde-format
 msgid "Daniel Molkentin"
 msgstr "డానియల్ మాల్కెన్టిన్"
 
 #: kcmstyle.cpp:179
+#, kde-format
 msgid "Ralf Nolden"
 msgstr "రాల్ఫ్ నోల్డెన్"
 
 #: kcmstyle.cpp:204
+#, kde-format
 msgid "Widget style:"
 msgstr "విడ్జట్ శైలి:"
 
 #: kcmstyle.cpp:214
+#, kde-format
 msgid "Con&figure..."
 msgstr "(&f) ఆకృతీకరించు..."
 
 #: kcmstyle.cpp:223
+#, kde-format
 msgid "Preview"
 msgstr "ముందస్తు వీక్షణం"
 
 #: kcmstyle.cpp:256
+#, kde-format
 msgctxt "@title:tab"
 msgid "&Applications"
 msgstr ""
 
 #: kcmstyle.cpp:257
+#, kde-format
 msgctxt "@title:tab"
 msgid "&Fine Tuning"
 msgstr "(&F) ఫైన్ ట్యూనింగ్"
 
 #: kcmstyle.cpp:287 kcmstyle.cpp:298
+#, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr "ఈ శైలి కొరకు ఆకృతీకరణ డైలాగును లోడుచేయుటలో వొక దోషము వుంది."
 
 #: kcmstyle.cpp:289 kcmstyle.cpp:300
+#, kde-format
 msgid "Unable to Load Dialog"
 msgstr "డైలాగును లోడు చేయలేకపోయింది"
 
 #: kcmstyle.cpp:372
+#, kde-format
 msgid ""
 "<p>Changes to the visibility of menu icons will only affect newly started "
 "applications.</p>"
 msgstr ""
 
 #: kcmstyle.cpp:373
+#, kde-format
 msgctxt "@title:window"
 msgid "Menu Icons Changed"
 msgstr ""
 
 #: kcmstyle.cpp:414
+#, kde-format
 msgid "Settings changes will take effect only on application restart"
 msgstr ""
 
 #: kcmstyle.cpp:580 kcmstyle.cpp:691
+#, kde-format
 msgid "No description available."
 msgstr "ఎటువంటి వివరణ అందుబాటులోలేదు."
 
@@ -197,6 +227,7 @@ msgid "Description: %1"
 msgstr "వివరణ: %1"
 
 #: kcmstyle.cpp:802
+#, kde-format
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
 "buttons are drawn) which may or may not be combined with a theme (additional "
@@ -204,16 +235,19 @@ msgid ""
 msgstr ""
 
 #: kcmstyle.cpp:806
+#, kde-format
 msgid ""
 "This area shows a preview of the currently selected style without having to "
 "apply it to the whole desktop."
 msgstr ""
 
 #: kcmstyle.cpp:809
+#, kde-format
 msgid "This page allows you to choose details about the widget style options"
 msgstr ""
 
 #: kcmstyle.cpp:810
+#, kde-format
 msgid ""
 "<p><b>No Text:</b> Shows only icons on toolbar buttons. Best option for low "
 "resolutions.</p><p><b>Text Only: </b>Shows only text on toolbar buttons.</"
@@ -223,13 +257,14 @@ msgid ""
 msgstr ""
 
 #: kcmstyle.cpp:817
+#, kde-format
 msgid ""
 "If you enable this option, KDE Applications will show small icons alongside "
 "some important buttons."
 msgstr ""
 
 #: kcmstyle.cpp:819
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "If you enable this option, KDE Applications will run internal animations."
 msgid ""
@@ -244,37 +279,44 @@ msgstr "ఆకృతీకరించుము %1"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: stylepreview.ui:19
+#, kde-format
 msgid "Tab 1"
 msgstr "టాబ్ 1"
 
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
 #: stylepreview.ui:29
+#, kde-format
 msgid "Group Box"
 msgstr "గ్రూప్ బాక్స్"
 
 #. i18n: ectx: property (text), widget (QRadioButton, RadioButton1)
 #. i18n: ectx: property (text), widget (QRadioButton, RadioButton2)
 #: stylepreview.ui:35 stylepreview.ui:45
+#, kde-format
 msgid "Radio button"
 msgstr "రేడియో బటన్"
 
 #. i18n: ectx: property (text), widget (QCheckBox, CheckBox1)
 #: stylepreview.ui:62
+#, kde-format
 msgid "Checkbox"
 msgstr "చెక్‌బాక్స్"
 
 #. i18n: ectx: property (text), widget (QPushButton, PushButton1)
 #: stylepreview.ui:115
+#, kde-format
 msgid "Button"
 msgstr "బటన్"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, ComboBox1)
 #: stylepreview.ui:125
+#, kde-format
 msgid "Combobox"
 msgstr "కాంబోబాక్స్"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: stylepreview.ui:155
+#, kde-format
 msgid "Tab 2"
 msgstr "టాబ్ 2"
 

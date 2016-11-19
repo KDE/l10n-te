@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-28 07:40+0000\n"
+"POT-Creation-Date: 2016-11-19 20:11+0100\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -25,10 +25,12 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "విజయ్ కిరణ్ కముజు,కృష్ణబాబు కె, భువన్ కృష్ణ, జి వి యస్ గిరి, శ్రీ కళ్యన్న్, ననిన్"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
@@ -53,6 +55,7 @@ msgid "The module %1 is disabled."
 msgstr "%1 మాడ్యూల్ అచేతనంచేయబడింది."
 
 #: kcmoduleloader.cpp:83
+#, kde-format
 msgid ""
 "<qt><p>Either the hardware/software the module configures is not available "
 "or the module has been disabled by the administrator.</p></qt>"
@@ -71,6 +74,7 @@ msgid ""
 msgstr "<qt>కారణనిర్ణయం:<br />%1 రంగస్థల దస్త్రం లో లైబ్రరి ఇవ్వబడలేదు.</qt>"
 
 #: kcmoduleloader.cpp:156
+#, kde-format
 msgid ""
 "<qt><p>Possible reasons:<ul><li>An error occurred during your last KDE "
 "upgrade leaving an orphaned control module</li><li>You have old third party "
@@ -86,36 +90,43 @@ msgid "This configuration section is already opened in %1"
 msgstr "ఈ రూపకరణ విభాగంలో ఇప్పటికే %1 లో తెరిచివుంది"
 
 #: kcmultidialog.cpp:57
+#, kde-format
 msgid ""
 "The settings of the current module have changed.\n"
 "Do you want to apply the changes or discard them?"
 msgstr "మార్పులను  లేక విస్మరించనా?"
 
 #: kcmultidialog.cpp:59
+#, kde-format
 msgid "Apply Settings"
 msgstr "అమరికలు "
 
 #: kcmultidialog.cpp:206
+#, kde-format
 msgid "Configure"
 msgstr "అమర్చు"
 
 #. i18n: ectx: label, entry, group (DesktopIcons)
 #: kdeglobals.kcfg:9
+#, kde-format
 msgid "Distance between desktop icons"
 msgstr "రంగస్థల ప్రతిమల మధ్యన దూరము"
 
 #. i18n: ectx: whatsthis, entry, group (DesktopIcons)
 #: kdeglobals.kcfg:10
+#, kde-format
 msgid "The distance between icons specified in pixels."
 msgstr "పిగ్జెల్సులో తెలిపిన ప్రతిమల మధ్యన దూరము."
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:23
+#, kde-format
 msgid "Widget style to use"
 msgstr "వాడుటకు విడ్జెట్ శైలి"
 
 #. i18n: ectx: whatsthis, entry, group (General)
 #: kdeglobals.kcfg:24
+#, kde-format
 msgid ""
 "The name of the widget style, for example \"keramik\" or \"plastik\". "
 "Without quotes."
@@ -123,11 +134,13 @@ msgstr "విడ్జట్ శైలి యొక్క నామము, వ�
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:30
+#, kde-format
 msgid "Use the PC speaker"
 msgstr "PC స్పీకర్‌ను వుపయోగించుము"
 
 #. i18n: ectx: whatsthis, entry, group (General)
 #: kdeglobals.kcfg:31
+#, kde-format
 msgid ""
 "Whether the ordinary PC speaker should be used instead of KDE's own "
 "notifications system."
@@ -135,11 +148,13 @@ msgstr "KDE యొక్క స్వంత ప్రకటనల వ్యవ�
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:35
+#, kde-format
 msgid "What terminal application to use"
 msgstr "ఏ టెర్మినల్ కార్యక్రమమును వుపయోగించాలి"
 
 #. i18n: ectx: whatsthis, entry, group (General)
 #: kdeglobals.kcfg:37
+#, kde-format
 msgid ""
 "Whenever a terminal application is launched this terminal emulator program "
 "will be used.\n"
@@ -148,11 +163,13 @@ msgstr ""
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:41
+#, kde-format
 msgid "Fixed width font"
 msgstr "నిర్ధిష్ట వెడల్పు అక్షరరూపము"
 
 #. i18n: ectx: whatsthis, entry, group (General)
 #: kdeglobals.kcfg:43
+#, kde-format
 msgid ""
 "This font is used when a fixed font is needed. A fixed font has a constant "
 "width.\n"
@@ -162,41 +179,49 @@ msgstr ""
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:46
+#, kde-format
 msgid "System wide font"
 msgstr "సిస్టమ్ వ్యాప్తంగా అక్షరరూపము"
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:49
+#, kde-format
 msgid "Font for menus"
 msgstr "మెనూల కొరకు అక్షరరూపము"
 
 #. i18n: ectx: whatsthis, entry, group (General)
 #: kdeglobals.kcfg:50
+#, kde-format
 msgid "What font to use for menus in applications."
 msgstr "కార్యక్రమములనందు మెనూలకొరకు ఏ అక్షరరూపమును వుపయోగించాలి."
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:53
+#, kde-format
 msgid "Color for links"
 msgstr "లింకుల కొరకు రంగు"
 
 #. i18n: ectx: whatsthis, entry, group (General)
 #: kdeglobals.kcfg:54
+#, kde-format
 msgid "What color links should be that have not yet been clicked on"
 msgstr "ఇప్పటికి వరకు నొక్కబడని లింకులు ఏ రంగువి అయివుండాలి"
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:57
+#, kde-format
 msgid "Color for visited links"
 msgstr "వీక్షించిన లింకులకు రంగు"
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:60
+#, kde-format
 msgid "Font for the taskbar"
 msgstr "టాస్కుబార్ కొరకు అక్షరరూపము"
 
 #. i18n: ectx: whatsthis, entry, group (General)
 #: kdeglobals.kcfg:61
+#, kde-format
 msgid ""
 "What font to use for the panel at the bottom of the screen, where the "
 "currently running applications are."
@@ -206,56 +231,67 @@ msgstr ""
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:64
+#, kde-format
 msgid "Fonts for toolbars"
 msgstr "పనిముట్ల పట్టీల కొరకు అక్షరరూపములు"
 
 #. i18n: ectx: label, entry (Desktop Screenshot), group (Global Shortcuts)
 #: kdeglobals.kcfg:73
+#, kde-format
 msgid "Shortcut for taking screenshot"
 msgstr "తెరపట్టును తీసుకొనుటకు శీఘ్రమార్గము"
 
 #. i18n: ectx: label, entry (Enable/Disable Clipboard Actions), group (Global Shortcuts)
 #: kdeglobals.kcfg:78
+#, kde-format
 msgid "Shortcut for toggling Clipboard Actions on and off"
 msgstr "క్లిప్‌బోర్డు చర్యలను ఆన్ మరియు ఆఫ్ చేయుటకు శీఘ్రమార్గము"
 
 #. i18n: ectx: label, entry (Halt without Confirmation), group (Global Shortcuts)
 #: kdeglobals.kcfg:83
+#, kde-format
 msgid "Shortcut for shutting down the computer without confirmation"
 msgstr "నిర్ధారించకుండా కంప్యూటరును మూసివేయుటకు శీఘ్రమార్గము"
 
 #. i18n: ectx: label, entry (Sort directories first), group (KFileDialog Settings)
 #: kdeglobals.kcfg:380
+#, kde-format
 msgid "Show directories first"
 msgstr "డెరెక్టరీలను ముందుగా చూపుము"
 
 #. i18n: ectx: whatsthis, entry (Sort directories first), group (KFileDialog Settings)
 #: kdeglobals.kcfg:381
+#, kde-format
 msgid "Whether directories should be placed at the top when displaying files"
 msgstr "దస్త్రములను ప్రదర్శించునప్పుడు డైరెక్టరీలను పైన వుంచాలా"
 
 #. i18n: ectx: label, entry (Recent URLs), group (KFileDialog Settings)
 #: kdeglobals.kcfg:389
+#, kde-format
 msgid "The URLs recently visited"
 msgstr "ఇటీవల వీక్షించిన URLలు"
 
 #. i18n: ectx: whatsthis, entry (Recent URLs), group (KFileDialog Settings)
 #: kdeglobals.kcfg:390
+#, kde-format
 msgid "Used for auto-completion in file dialogs, for example"
 msgstr "దస్త్రపు డైలాగులనందు స్వయంచాలక-మూగింపు కొరకు వుపయోగించబడుతుంది, ఉదాహరణకు"
 
 #. i18n: ectx: label, entry (Show Preview), group (KFileDialog Settings)
 #: kdeglobals.kcfg:394
+#, kde-format
 msgid "Show file preview in file dialog"
 msgstr "దస్త్రపు ముందస్తువీక్షణంను దస్త్రపు డైలాగునందు చూపుము"
 
 #. i18n: ectx: label, entry (Show hidden files), group (KFileDialog Settings)
 #: kdeglobals.kcfg:399
+#, kde-format
 msgid "Show hidden files"
 msgstr "దాచిన దస్త్రాలను చూపుము"
 
 #. i18n: ectx: whatsthis, entry (Show hidden files), group (KFileDialog Settings)
 #: kdeglobals.kcfg:400
+#, kde-format
 msgid ""
 "Whether files starting with a dot (convention for hidden files) should be "
 "shown"
@@ -263,22 +299,26 @@ msgstr "డాట్ (దాచిన దస్త్రాల తీరు)త�
 
 #. i18n: ectx: label, entry (Show Speedbar), group (KFileDialog Settings)
 #: kdeglobals.kcfg:405
+#, kde-format
 msgid "Show speedbar"
 msgstr "స్పీడ్‌బార్ చూపుము"
 
 #. i18n: ectx: whatsthis, entry (Show Speedbar), group (KFileDialog Settings)
 #: kdeglobals.kcfg:406
+#, kde-format
 msgid ""
 "Whether the shortcut icons to the left in the file dialog should be shown"
 msgstr "దస్త్రపు డైలాగ్ నందలి ఎడమవైపు శీఘ్రమార్గ ప్రతిమలు చూపవలెనా"
 
 #. i18n: ectx: label, entry, group (Locale)
 #: kdeglobals.kcfg:425
+#, kde-format
 msgid "What country"
 msgstr "ఎ దేశం"
 
 #. i18n: ectx: whatsthis, entry, group (Locale)
 #: kdeglobals.kcfg:426
+#, kde-format
 msgid ""
 "Used to determine how to display numbers, currency and time/date, for example"
 msgstr ""
@@ -286,76 +326,91 @@ msgstr ""
 
 #. i18n: ectx: label, entry, group (Locale)
 #: kdeglobals.kcfg:430
+#, kde-format
 msgid "What language to use to display text"
 msgstr "వచనమును ప్రదర్శించుటకు ఏ భాషను వుపయోగించాలి"
 
 #. i18n: ectx: label, entry, group (Locale)
 #: kdeglobals.kcfg:433
+#, kde-format
 msgid "Character used for indicating positive numbers"
 msgstr "ధన సంఖ్యలను సూచించుటకు వుపయోగించు అక్షరము"
 
 #. i18n: ectx: whatsthis, entry, group (Locale)
 #: kdeglobals.kcfg:434
+#, kde-format
 msgid "Most countries have no character for this"
 msgstr "చాలా దేశములు దీనికొరకు ఏ అక్షరమును కలిగిలేవు"
 
 #. i18n: ectx: label, entry, group (Paths)
 #: kdeglobals.kcfg:439
+#, kde-format
 msgid "Path to the autostart directory"
 msgstr "స్వయంచాలక డైరెక్టరీకు దారి"
 
 #. i18n: ectx: whatsthis, entry, group (Paths)
 #: kdeglobals.kcfg:440
+#, kde-format
 msgid "Path to the directory containing executables to be run on session login"
 msgstr "సెషన్ లాగిన్‌నందు నడుపుటకు ఎగ్జిక్యూటబుల్సును కలిగివున్న డైరెక్టరీకు దారి"
 
 #. i18n: ectx: label, entry, group (Socks)
 #: kdeglobals.kcfg:487
+#, kde-format
 msgid "Enable SOCKS support"
 msgstr "SOCKS మద్దతును చేతనపరచుము"
 
 #. i18n: ectx: whatsthis, entry, group (Socks)
 #: kdeglobals.kcfg:488
+#, kde-format
 msgid "Whether SOCKS version 4 and 5 should be enabled in KDE's sub systems"
 msgstr "KDEయొక్క వుప వ్యవస్థలనందు SOCKS వర్షన్ 4 మరియు 5 చేతనపరచవలెనా"
 
 #. i18n: ectx: label, entry, group (Socks)
 #: kdeglobals.kcfg:492
+#, kde-format
 msgid "Path to custom SOCKS library"
 msgstr "నిర్దేశిత SCOKS లైబ్రరీకు మార్గము"
 
 #. i18n: ectx: label, entry, group (Toolbar style)
 #: kdeglobals.kcfg:498
+#, kde-format
 msgid "Highlight toolbar buttons on mouse over"
 msgstr "మౌస్ వుంచగానే పనిముట్ల పట్టీ బటన్లను వుద్దీపనం(హైలైట్) చేయుము"
 
 #. i18n: ectx: label, entry, group (Toolbar style)
 #: kdeglobals.kcfg:502
+#, kde-format
 msgid "Show text on toolbar icons "
 msgstr "పనిముట్లపట్టీ ప్రతిమలపై వచనమును చూపుము"
 
 #. i18n: ectx: whatsthis, entry, group (Toolbar style)
 #: kdeglobals.kcfg:503
+#, kde-format
 msgid "Whether text should be shown in addition to icons on toolbar icons"
 msgstr "పనిముట్లపట్టీ ప్రతిమల పైనగల ప్రతిమలకు అదనముగా వచనము చూపవలెనా"
 
 #. i18n: ectx: label, entry (EchoMode), group (Passwords)
 #: kdeglobals.kcfg:524
+#, kde-format
 msgid "Password echo type"
 msgstr "సంకేతపదము echo రకము"
 
 #. i18n: ectx: label, entry (Dialog Size), group (KKeyDialog Settings)
 #: kdeglobals.kcfg:534
+#, kde-format
 msgid "The size of the dialog"
 msgstr "డైలాగ్ పరిమాణం"
 
 #: kpluginselector.cpp:140
+#, kde-format
 msgid ""
 "Automatic changes have been performed due to plugin dependencies. Click here "
 "for further information"
 msgstr "స్వయంచాలక మార్పులు ప్లగిన్ ఆధారప నిర్వహించారు. ఇక్కడ క్లిక్ చేయండితదుపరి సమాచారం కోసం"
 
 #: kpluginselector.cpp:209
+#, kde-format
 msgid ""
 "Automatic changes have been performed in order to satisfy plugin "
 "dependencies:\n"
@@ -382,6 +437,7 @@ msgstr ""
 "  %1 ప్లగ్ ఇన్ ఎందుకంటే ఆధారపడ  యొక్క స్వయంచాలకంగా ఎంపిక తొలగించబడి ఉంది%2 ప్లగ్ ఇన్"
 
 #: kpluginselector.cpp:217
+#, kde-format
 msgid "Dependency Check"
 msgstr "తనిఖీ ఆధారపడి"
 
@@ -396,6 +452,7 @@ msgstr[3] "స్వయంచాలన కారణంగా ప్లగి ఇ
 msgstr[4] "స్వయంచాలన కారణంగా ప్లగి ఇన్ సమన్వయాలు జోడించిన %1 ప్లగ్  ఇన్లు"
 
 #: kpluginselector.cpp:238
+#, kde-format
 msgid ", "
 msgstr ", "
 
@@ -410,6 +467,7 @@ msgstr[3] "స్వయంచాలన కారణంగా ప్లగి ఇ
 msgstr[4] "స్వయంచాలన కారణంగా ప్లగి ఇన్ సమన్వయాలు  తొలగించబడింది %1 ప్లగ్ ఇన్లు"
 
 #: kpluginselector.cpp:263
+#, kde-format
 msgid "Search Plugins"
 msgstr "శోధన ప్లగ్‌యిన్లు"
 
@@ -420,10 +478,12 @@ msgid "About %1"
 msgstr "%1 గురించి "
 
 #: ksettings/componentsdialog.cpp:55
+#, kde-format
 msgid "Select Components"
 msgstr "అంశాలను ఎంచుకొనుము"
 
 #: ksettings/dialog.cpp:231
+#, kde-format
 msgid "Enable component"
 msgstr "కాంపోనెంట్ చేతనంచేయి"
 
@@ -925,9 +985,9 @@ msgstr "కాంపోనెంట్ చేతనంచేయి"
 #~ msgstr ""
 #~ "<qt>\n"
 #~ "<p>ఇక్కడ వచన ప్రతిభాశాలి (టెక్స్టు ఎక్సుపర్టు) తెలియని పదమును దాని సందర్భములో చూపించు "
-#~ "చూడవచ్చు. తెలియని పదమును సరైనదానితో వుంచుటకు ఈ సమాచారము సరిపోకపోతే, మీరు సరిదిద్దుతున్న"
-#~ "(ప్రూఫింగ్) పత్రముపై నొక్కవచ్చు, వచనముయొక్క పెద్దభాగమును చదివి అప్పుడు యిక్కడకు తిరిగివచ్చి "
-#~ "ప్రూఫింగ్ కొనసాగించవచ్చు.</p>\n"
+#~ "చూడవచ్చు. తెలియని పదమును సరైనదానితో వుంచుటకు ఈ సమాచారము సరిపోకపోతే, మీరు "
+#~ "సరిదిద్దుతున్న(ప్రూఫింగ్) పత్రముపై నొక్కవచ్చు, వచనముయొక్క పెద్దభాగమును చదివి అప్పుడు యిక్కడకు "
+#~ "తిరిగివచ్చి ప్రూఫింగ్ కొనసాగించవచ్చు.</p>\n"
 #~ "</qt>"
 
 #~ msgid "... the <b>misspelled</b> word shown in context ..."

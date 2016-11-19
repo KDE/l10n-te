@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 03:13+0000\n"
+"POT-Creation-Date: 2016-11-19 20:06+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -19,16 +19,19 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "కృష్ణబాబు కె , విజయ్ కిరణ్ కముజు"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pShowMMBInTabs)
 #: advancedTabOptions.ui:21
+#, kde-format
 msgid ""
 "This will open a new tab instead of a new window in various situations, such "
 "as choosing a link or a folder with the middle mouse button."
@@ -36,11 +39,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pShowMMBInTabs)
 #: advancedTabOptions.ui:24
+#, kde-format
 msgid "Open &links in new tab instead of in new window"
 msgstr "(&l) కొత్త విండోకు బదులుగా కొత్త టాబునందు లింకులను తెరుస్తుంది"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pPopupsWithinTabs)
 #: advancedTabOptions.ui:31
+#, kde-format
 msgid ""
 "Whether or not JavaScript popups if allowed shall open in a new tab or in a "
 "new window."
@@ -48,11 +53,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pPopupsWithinTabs)
 #: advancedTabOptions.ui:34
+#, kde-format
 msgid "Open pop&ups in new tab instead of in new window"
 msgstr "కొత్త విండోకు బదులుగా పాపప్స్‌ను కొత్త టాబునందు తెరువుము"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pKonquerorTabforExternalURL)
 #: advancedTabOptions.ui:41
+#, kde-format
 msgid ""
 "When you click a URL in another KDE program or call kfmclient to open a URL, "
 "the current desktop will be searched for a non-minimized Konqueror and, if "
@@ -62,23 +69,26 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pKonquerorTabforExternalURL)
 #: advancedTabOptions.ui:44
+#, kde-format
 msgid "Open as tab in existing Konqueror when URL is called externally"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pNewTabsInBackground)
 #: advancedTabOptions.ui:51
+#, kde-format
 msgid ""
 "This will open a new tab in the background, instead of in the foreground."
 msgstr "ఇది ఫోర్‌గ్రౌండుకు బదులుగా, కొత్త టాబ్‌ను బ్యాక్‌గ్రౌండు నందు తెరుస్తుంది."
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pNewTabsInBackground)
 #: advancedTabOptions.ui:54
+#, kde-format
 msgid "O&pen new tabs in the background"
 msgstr "(&p) బ్యాక్‌గ్రౌండు నందు కొత్త టాబ్లను తెరువుము"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pOpenAfterCurrentPage)
 #: advancedTabOptions.ui:61
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "This will open a new tab in the background, instead of in the foreground."
 msgid ""
@@ -88,11 +98,13 @@ msgstr "ఇది ఫోర్‌గ్రౌండుకు బదులుగ�
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pOpenAfterCurrentPage)
 #: advancedTabOptions.ui:64
+#, kde-format
 msgid "Open &new tab after current tab"
 msgstr "(&n) ప్రస్తుత టాబు తర్వాత కొత్త టాబును తెరువుము"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pDynamicTabbarHide)
 #: advancedTabOptions.ui:71
+#, kde-format
 msgid ""
 "This will display the tab bar only if there are two or more tabs. Otherwise "
 "it will always be displayed."
@@ -100,21 +112,25 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pDynamicTabbarHide)
 #: advancedTabOptions.ui:74
+#, kde-format
 msgid "Hide the tab bar when only one tab is open"
 msgstr "ఒక టాబ్ మాత్రమే తెరిచివున్నప్పుడు టాబ్ బార్‌ను మరుగున పెట్టుము"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pPermanentCloseButton)
 #: advancedTabOptions.ui:81
+#, kde-format
 msgid "This will display close buttons inside each tab."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pPermanentCloseButton)
 #: advancedTabOptions.ui:84
+#, kde-format
 msgid "&Show close button on tabs"
 msgstr "(&S) టాబ్ల పైన మూయు బటన్‌ను చూపుము"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pMiddleClickClose)
 #: advancedTabOptions.ui:91
+#, kde-format
 msgid ""
 "When you click on a tab using the middle mouse button or mouse wheel, it "
 "will close that tab."
@@ -122,11 +138,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pMiddleClickClose)
 #: advancedTabOptions.ui:94
+#, kde-format
 msgid "Middle-click on a tab to close it"
 msgstr "టాబ్‌ పైన మధ్య-నొక్కు నొక్కుము దానిని మూయుటకు"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pTabConfirm)
 #: advancedTabOptions.ui:101
+#, kde-format
 msgid ""
 "This will ask you whether you are sure you want to close a window when it "
 "has multiple tabs opened in it."
@@ -134,11 +152,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pTabConfirm)
 #: advancedTabOptions.ui:104
+#, kde-format
 msgid "Confirm &when closing windows with multiple tabs"
 msgstr "(&w) విండోలను బహుళ టాబులతో మూయుచున్నప్పుడు నిర్ధారించుము"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pTabCloseActivatePrevious)
 #: advancedTabOptions.ui:111
+#, kde-format
 msgid ""
 "When checking this the previous used or opened tab will be activated when "
 "you close the current active tab instead of the one right to the current tab."
@@ -146,34 +166,41 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pTabCloseActivatePrevious)
 #: advancedTabOptions.ui:114
+#, kde-format
 msgid "Activate previously used tab when closing the current tab"
 msgstr "ప్రస్తుత టాబును మూయుచున్నప్పుడు గతంలో వుపయోగించిన టాబును క్రియాశీలము చేయుము"
 
 #: appearance.cpp:44
+#, kde-format
 msgctxt "@title:tab"
 msgid "General"
 msgstr "సాధారణ"
 
 #: appearance.cpp:45
+#, kde-format
 msgctxt "@title:tab"
 msgid "Fonts"
 msgstr "ఫాంట్‍స్"
 
 #: appearance.cpp:46
+#, kde-format
 msgctxt "@title:tab"
 msgid "Stylesheets"
 msgstr "స్టైల్‌షీట్స్‍"
 
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox3_2)
 #: appearance.cpp:54 css/csscustom.ui:761
+#, kde-format
 msgid "Images"
 msgstr "చిత్రాలు"
 
 #: appearance.cpp:58
+#, kde-format
 msgid "A&utomatically load images"
 msgstr "స్వయంచాలకంగా చిత్రములను లోడుచేయుము"
 
 #: appearance.cpp:59
+#, kde-format
 msgid ""
 "<html>If this box is checked, Konqueror will automatically load any images "
 "that are embedded in a web page. Otherwise, it will display placeholders for "
@@ -183,10 +210,12 @@ msgid ""
 msgstr ""
 
 #: appearance.cpp:69
+#, kde-format
 msgid "Dra&w frame around not completely loaded images"
 msgstr "(&w) పుర్తిగా లోడవ్వని చిత్రములచుట్టూ చట్రమును గీయుము"
 
 #: appearance.cpp:70
+#, kde-format
 msgid ""
 "<html>If this box is checked, Konqueror will draw a frame as a placeholder "
 "around images embedded in a web page that are not yet fully loaded.<br />You "
@@ -195,20 +224,24 @@ msgid ""
 msgstr ""
 
 #: appearance.cpp:80
+#, kde-format
 msgctxt "animations"
 msgid "Enabled"
 msgstr "చేతనమైన"
 
 #: appearance.cpp:81
+#, kde-format
 msgctxt "animations"
 msgid "Disabled"
 msgstr "అచేతనమైన"
 
 #: appearance.cpp:82
+#, kde-format
 msgid "Show Only Once"
 msgstr "ఒకసారి మాత్రమే చూపుము"
 
 #: appearance.cpp:83
+#, kde-format
 msgid ""
 "<html>Controls how Konqueror shows animated images:<br /><ul><li><b>Enabled</"
 "b>: Show all animations completely.</li><li><b>Disabled</b>: Never show "
@@ -217,33 +250,40 @@ msgid ""
 msgstr ""
 
 #: appearance.cpp:88
+#, kde-format
 msgid "A&nimations:"
 msgstr "(&n) యానిమేషన్లు:"
 
 #: appearance.cpp:91 htmlopts.cpp:116
+#, kde-format
 msgctxt "@title:group"
 msgid "Miscellaneous"
 msgstr "ఇతరత్రా"
 
 #: appearance.cpp:96
+#, kde-format
 msgctxt "underline"
 msgid "Enabled"
 msgstr "చేతనమైన"
 
 #: appearance.cpp:97
+#, kde-format
 msgctxt "underline"
 msgid "Disabled"
 msgstr "అచేతనమైన"
 
 #: appearance.cpp:98
+#, kde-format
 msgid "Only on Hover"
 msgstr "హోవర్ నందు మాత్రమే"
 
 #: appearance.cpp:99
+#, kde-format
 msgid "Und&erline links:"
 msgstr "(&e) క్రిందిగీత లింకులు:"
 
 #: appearance.cpp:102
+#, kde-format
 msgid ""
 "<html>Controls how Konqueror handles underlining hyperlinks:<br /"
 "><ul><li><b>Enabled</b>: Always underline links</li><li><b>Disabled</b>: "
@@ -253,24 +293,29 @@ msgid ""
 msgstr ""
 
 #: appearance.cpp:111
+#, kde-format
 msgid "When Efficient"
 msgstr "ప్రభావశాలి అయినప్పుడు"
 
 #: appearance.cpp:112
+#, kde-format
 msgctxt "smooth scrolling"
 msgid "Always"
 msgstr "ఎల్లప్పుడు"
 
 #: appearance.cpp:113
+#, kde-format
 msgctxt "soft scrolling"
 msgid "Never"
 msgstr "ఎప్పటికికాదు"
 
 #: appearance.cpp:114
+#, kde-format
 msgid "S&mooth scrolling:"
 msgstr "(&m) స్మూత్ స్క్రాలింగ్:"
 
 #: appearance.cpp:116
+#, kde-format
 msgid ""
 "<html>Determines whether Konqueror should use smooth steps to scroll HTML "
 "pages, or whole steps:<br /><ul><li><b>Always</b>: Always use smooth steps "
@@ -281,24 +326,29 @@ msgid ""
 msgstr ""
 
 #: appearance.cpp:125
+#, kde-format
 msgid ""
 "<h1>Konqueror Fonts</h1>On this page, you can configure which fonts "
 "Konqueror should use to display the web pages you view."
 msgstr ""
 
 #: appearance.cpp:137
+#, kde-format
 msgid "Font Si&ze"
 msgstr "(&z) ఫాంటు పరిమాణము"
 
 #: appearance.cpp:140 appearance.cpp:158
+#, kde-format
 msgid "This is the relative font size Konqueror uses to display web sites."
 msgstr "వెబ్ సైటులను ప్రదర్శించుటకు కాంక్వెరర్ వుపయోగించే సారూప్యమైన ఫాంటు పరిమాణము."
 
 #: appearance.cpp:144
+#, kde-format
 msgid "M&inimum font size:"
 msgstr "(&i) కనిష్ట ఫాంటు పరిమాణము:"
 
 #: appearance.cpp:148
+#, kde-format
 msgid ""
 "Konqueror will never display text smaller than this size,<br />overriding "
 "any other settings."
@@ -307,80 +357,98 @@ msgstr ""
 "చేస్తోంది."
 
 #: appearance.cpp:153
+#, kde-format
 msgid "&Medium font size:"
 msgstr "(&M) మధ్యమ ఫాంటు పరిమాణము:"
 
 #: appearance.cpp:166
+#, kde-format
 msgid "S&tandard font:"
 msgstr "(&t) ప్రామాణిక ఫాంటు:"
 
 #: appearance.cpp:167
+#, kde-format
 msgid "This is the font used to display normal text in a web page."
 msgstr "ఇది వెబ్ పేజీనందు సాదారణ వచనమును ప్రదర్శించుటకు వుపయోగించే ఫాంటు."
 
 #: appearance.cpp:172
+#, kde-format
 msgid "&Fixed font:"
 msgstr "(&F) నిర్ధిష్ట ఫాంటు:"
 
 #: appearance.cpp:173
+#, kde-format
 msgid ""
 "This is the font used to display fixed-width (i.e. non-proportional) text."
 msgstr "ఇది నిర్ధిష్ట-వెడల్పు (అంటే నాన్-ప్రోపోర్షనల్) వచనమును ప్రదర్శించుటకు వుపయోగించే ఫాంటు."
 
 #: appearance.cpp:178
+#, kde-format
 msgid "S&erif font:"
 msgstr "(&e) సెరీఫ్ ఫాంటు:"
 
 #: appearance.cpp:179
+#, kde-format
 msgid "This is the font used to display text that is marked up as serif."
 msgstr "ఇది సెరిఫ్ లాగా గుర్తుంచిన వచనమును ప్రదర్శించుటకు వుపయోగించే ఫాంటు."
 
 #: appearance.cpp:185
+#, kde-format
 msgid "Sa&ns serif font:"
 msgstr "(&n) సాన్స్ సెరిఫ్ ఫాంటు:"
 
 #: appearance.cpp:186
+#, kde-format
 msgid "This is the font used to display text that is marked up as sans-serif."
 msgstr "ఇది సాన్స్-సెరిఫ్‌లా గుర్తుంచిన వచనమును ప్రదర్శించుటకు వుపయోగించే ఫాంటు."
 
 #: appearance.cpp:191
+#, kde-format
 msgid "C&ursive font:"
 msgstr "(&u) కర్సివ్ ఫాంటు:"
 
 #: appearance.cpp:192
+#, kde-format
 msgid "This is the font used to display text that is marked up as italic."
 msgstr "ఇది ఇటాలిక్‌లా గుర్తుంచిన వచనమును ప్రదర్శించుటకు వుపయోగించే ఫాంటు."
 
 #: appearance.cpp:197
+#, kde-format
 msgid "Fantas&y font:"
 msgstr "(&y) ఫాంటసీ ఫాంటు:"
 
 #: appearance.cpp:198
+#, kde-format
 msgid ""
 "This is the font used to display text that is marked up as a fantasy font."
 msgstr "ఇది ఫాంటసీ ఫాంటులా గుర్తుంచిన వచనమును ప్రదర్శించుటకు వుపయోగించే ఫాంటు."
 
 #: appearance.cpp:209
+#, kde-format
 msgid "Font &size adjustment for this encoding:"
 msgstr "(&s) ఈ ఎన్కోడింగుకు ఫాంటు పరిమాణపు సర్దుబాటు:"
 
 #: appearance.cpp:219 appearance.cpp:416
+#, kde-format
 msgid "Use Language Encoding"
 msgstr "భాషా ఎన్కోడింగును వుపయోగించుము"
 
 #: appearance.cpp:221
+#, kde-format
 msgid "Default encoding:"
 msgstr "అప్రమేయ ఎన్కోడింగ్:"
 
 #: appearance.cpp:223
+#, kde-format
 msgid ""
 "Select the default encoding to be used; normally, you will be fine with 'Use "
 "language encoding' and should not have to change this."
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QWidget, CSSConfigWidget)
 #. i18n: ectx: property (whatsThis), widget (QWidget, CSSCustomDialog)
+#. i18n: ectx: property (whatsThis), widget (QWidget, CSSConfigWidget)
 #: css/cssconfig.ui:5 css/csscustom.ui:13
+#, kde-format
 msgid ""
 "<b>Stylesheets</b><p>See http://www.w3.org/Style/CSS for further information "
 "on cascading style sheets.</p>"
@@ -390,6 +458,7 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, ButtonGroup1)
 #: css/cssconfig.ui:17
+#, kde-format
 msgid ""
 "<b>Stylesheets</b><p>Use this groupbox to determine how Konqueror will "
 "render style sheets.</p>"
@@ -399,12 +468,13 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, ButtonGroup1)
 #: css/cssconfig.ui:20
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Stylesheets"
 msgstr "స్టైల్‌షీట్స్‍"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, useDefault)
 #: css/cssconfig.ui:26
+#, kde-format
 msgid ""
 "<b>Use default stylesheet</b><p>Select this option to use the default "
 "stylesheet.</p>"
@@ -414,11 +484,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, useDefault)
 #: css/cssconfig.ui:29
+#, kde-format
 msgid "Us&e default stylesheet"
 msgstr "(&e) అప్రమేయ స్టైల్‌షీట్‌ను వుపయోగించుము"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, useUser)
 #: css/cssconfig.ui:39
+#, kde-format
 msgid ""
 "<b>Use user-defined stylesheet</b><p>If this box is checked, Konqueror will "
 "try to load a user-defined style sheet as specified in the location below. "
@@ -430,11 +502,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, useUser)
 #: css/cssconfig.ui:42
+#, kde-format
 msgid "Use &user-defined stylesheet"
 msgstr "(&u) వినియోగదారి-నిర్వచించిన స్టైల్‌షీట్‌ను వుపయోగించుము"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, useAccess)
 #: css/cssconfig.ui:94
+#, kde-format
 msgid ""
 "<b>Use accessibility stylesheet</b><p>Selecting this option will allow you "
 "to define a default font, font size, and font color with a few simple clicks "
@@ -444,16 +518,19 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, useAccess)
 #: css/cssconfig.ui:97
+#, kde-format
 msgid "U&se accessibility stylesheet"
 msgstr "(&s) యాక్సెస్‌బిలిటి స్టైల్‌షీట్‌ను వుపయోగించుము"
 
 #. i18n: ectx: property (text), widget (QPushButton, customize)
 #: css/cssconfig.ui:137
+#, kde-format
 msgid "Custom&ize..."
 msgstr "(&i) మలచుకొనుము..."
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox7)
 #: css/csscustom.ui:21
+#, kde-format
 msgid ""
 "<b>Font family</b><p>A font family is a group of fonts that resemble one "
 "another, with family members that are e.g. bold, italic, or any number of "
@@ -462,180 +539,213 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox7)
 #: css/csscustom.ui:24
+#, kde-format
 msgid "Font Family"
 msgstr "ఫాంటు కుటుంబము"
 
 #. i18n: ectx: property (text), widget (QLabel, txtBaseFontFamily)
 #: css/csscustom.ui:30
+#, kde-format
 msgid "Base family:"
 msgstr "ఆధార కుటుంబము:"
 
 #. i18n: ectx: property (whatsThis), widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:37
+#, kde-format
 msgid "<p>This is the currently selected font family</p>"
 msgstr "<p>యిది ప్రస్తుతము యెంపికకాబడిన ఫాంటు కుటుంబము</p>"
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:41 css/csscustom.ui:196 css/csscustom.ui:351
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Sa&ns serif font:"
 msgid "Sans Serif"
 msgstr "(&n) సాన్స్ సెరిఫ్ ఫాంటు:"
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:46 css/csscustom.ui:201 css/csscustom.ui:356
+#, kde-format
 msgid "Serif"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:51 css/csscustom.ui:206 css/csscustom.ui:361
+#, kde-format
 msgid "Monospace"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:56 css/csscustom.ui:211 css/csscustom.ui:366
+#, kde-format
 msgid "Bitstream Charter"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:61 css/csscustom.ui:216 css/csscustom.ui:371
+#, kde-format
 msgid "Bitstream Vera Sans"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:66 css/csscustom.ui:221 css/csscustom.ui:376
+#, kde-format
 msgid "Bitstream Vera Sans Mono"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:71 css/csscustom.ui:226 css/csscustom.ui:381
+#, kde-format
 msgid "Bitstream Vera Serif"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:76 css/csscustom.ui:231 css/csscustom.ui:386
+#, kde-format
 msgid "Century Schoolbook L"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:81 css/csscustom.ui:236 css/csscustom.ui:391
+#, kde-format
 msgid "Courier 10 Pitch"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:86 css/csscustom.ui:241 css/csscustom.ui:396
+#, kde-format
 msgid "DejaVu Sans"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:91 css/csscustom.ui:246 css/csscustom.ui:401
+#, kde-format
 msgid "DejaVu Sans Mono"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:96 css/csscustom.ui:251 css/csscustom.ui:406
+#, kde-format
 msgid "DejaVu Serif"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:101 css/csscustom.ui:256 css/csscustom.ui:411
+#, kde-format
 msgid "Delphine"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:106 css/csscustom.ui:261 css/csscustom.ui:416
+#, kde-format
 msgid "Dingbats"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:111 css/csscustom.ui:266 css/csscustom.ui:421
+#, kde-format
 msgid "FreeMono"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:116 css/csscustom.ui:271 css/csscustom.ui:426
+#, kde-format
 msgid "FreeSans"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:121 css/csscustom.ui:276 css/csscustom.ui:431
+#, kde-format
 msgid "FreeSerif"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:126 css/csscustom.ui:281 css/csscustom.ui:436
+#, kde-format
 msgid "Liberation Mono"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:131 css/csscustom.ui:286 css/csscustom.ui:441
+#, kde-format
 msgid "Liberation Sans"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:136 css/csscustom.ui:291 css/csscustom.ui:446
+#, kde-format
 msgid "Liberation Serif"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:141 css/csscustom.ui:296 css/csscustom.ui:451
+#, kde-format
 msgid "Nimbus Mono L"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:146 css/csscustom.ui:301 css/csscustom.ui:456
+#, kde-format
 msgid "Nimbus Roman No9 L"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:151 css/csscustom.ui:306 css/csscustom.ui:461
+#, kde-format
 msgid "Nimbus Sans L"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:156 css/csscustom.ui:311 css/csscustom.ui:466
+#, kde-format
 msgid "OpenSymbol"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:161 css/csscustom.ui:316 css/csscustom.ui:471
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "S&tandard font:"
 msgid "Standard Symbols L"
 msgstr "(&t) ప్రామాణిక ఫాంటు:"
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:166 css/csscustom.ui:321 css/csscustom.ui:476
+#, kde-format
 msgid "Steve"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:171 css/csscustom.ui:326 css/csscustom.ui:481
+#, kde-format
 msgid "Terminus"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:176 css/csscustom.ui:331 css/csscustom.ui:486
+#, kde-format
 msgid "URW Bookman L"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:181 css/csscustom.ui:336 css/csscustom.ui:491
+#, kde-format
 msgid "URW Chancery L"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:186 css/csscustom.ui:341 css/csscustom.ui:496
+#, kde-format
 msgid "URW Gothic L"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:191 css/csscustom.ui:346 css/csscustom.ui:501
+#, kde-format
 msgid "URW Palladio L"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, sameFamily)
 #: css/csscustom.ui:509
+#, kde-format
 msgid ""
 "<b>Use same family for all text</b><p>Select this option to override custom "
 "fonts everywhere in favor of the base font.</p>"
@@ -645,89 +755,103 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, sameFamily)
 #: css/csscustom.ui:512
+#, kde-format
 msgid "Use same family for all text"
 msgstr "ఒకే కుటుంబమును వచనము నంతటికి వుపయోగించుము"
 
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox3)
 #: css/csscustom.ui:522
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Font Size"
 msgstr "(&z) ఫాంటు పరిమాణము"
 
 #. i18n: ectx: property (text), widget (QLabel, txtFontsize)
 #: css/csscustom.ui:528
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Base font si&ze:"
 msgstr "(&M) మధ్యమ ఫాంటు పరిమాణము:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, basefontsize)
 #: css/csscustom.ui:545
+#, kde-format
 msgid "7"
 msgstr "7"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, basefontsize)
 #: css/csscustom.ui:550
+#, kde-format
 msgid "8"
 msgstr "8"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, basefontsize)
 #: css/csscustom.ui:555
+#, kde-format
 msgid "9"
 msgstr "9"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, basefontsize)
 #: css/csscustom.ui:560
+#, kde-format
 msgid "10"
 msgstr "10"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, basefontsize)
 #: css/csscustom.ui:565
+#, kde-format
 msgid "11"
 msgstr "11"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, basefontsize)
 #: css/csscustom.ui:570
+#, kde-format
 msgid "12"
 msgstr "12"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, basefontsize)
 #: css/csscustom.ui:575
+#, kde-format
 msgid "14"
 msgstr "14"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, basefontsize)
 #: css/csscustom.ui:580
+#, kde-format
 msgid "16"
 msgstr "16"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, basefontsize)
 #: css/csscustom.ui:585
+#, kde-format
 msgid "20"
 msgstr "20"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, basefontsize)
 #: css/csscustom.ui:590
+#, kde-format
 msgid "24"
 msgstr "24"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, basefontsize)
 #: css/csscustom.ui:595
+#, kde-format
 msgid "32"
 msgstr "32"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, basefontsize)
 #: css/csscustom.ui:600
+#, kde-format
 msgid "48"
 msgstr "48"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, basefontsize)
 #: css/csscustom.ui:605
+#, kde-format
 msgid "64"
 msgstr "64"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, dontScale)
 #: css/csscustom.ui:613
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "<b>Use same family for all text</b><p>Select this option to override "
 #| "custom fonts everywhere in favor of the base font.</p>"
@@ -741,37 +865,43 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, dontScale)
 #: css/csscustom.ui:616
+#, kde-format
 msgid "&Use same size for all elements"
 msgstr "(&U) అన్ని యెలిమెంట్సుకు వొకే పరిమాణమును వుపయోగించుము"
 
 #. i18n: ectx: property (title), widget (QGroupBox, ButtonGroup2)
 #: css/csscustom.ui:626
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Colors"
 msgstr "ఫోల్డర్లు"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, blackOnWhite)
 #: css/csscustom.ui:648
+#, kde-format
 msgid "<b>Black on White</b><p>This is what you normally see.</p>"
 msgstr "<b>తెలుపు పైన నలుపు</b><p>మీరు సాదారణముగా చూసేది యిదే.</p>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, blackOnWhite)
 #: css/csscustom.ui:651
+#, kde-format
 msgid "&Black on white"
 msgstr "(&B) తెలుపు పైన నలుపు"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, whiteOnBlack)
 #: css/csscustom.ui:661
+#, kde-format
 msgid "<b>White on Black</b><p>This is your classic inverse color scheme.</p>"
 msgstr "<b>నలుపు పైన తెలుపు</b><p>ఇది మీ క్లాసిక్ విలోమ స్కీమా.</p>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, whiteOnBlack)
 #: css/csscustom.ui:664
+#, kde-format
 msgid "&White on black"
 msgstr "(&W) నలుపు పైన తెలుపు"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, customColor)
 #: css/csscustom.ui:671
+#, kde-format
 msgid ""
 "<b>Custom</b><p>Select this option to define a custom color for the default "
 "font.</p>"
@@ -781,11 +911,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, customColor)
 #: css/csscustom.ui:674
+#, kde-format
 msgid "Cus&tom"
 msgstr "(&t) మలచుకొనిన"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, txtBackground)
 #: css/csscustom.ui:684
+#, kde-format
 msgid ""
 "<b>Background</b><p>This background color is the one displayed behind the "
 "text by default. A background image will override this.</p>"
@@ -793,11 +925,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, txtBackground)
 #: css/csscustom.ui:687
+#, kde-format
 msgid "Bac&kground:"
 msgstr "(&k) బ్యాక్‌గ్రౌండ్:"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, backgroundColorButton)
 #: css/csscustom.ui:703
+#, kde-format
 msgid ""
 "<b>Background</b><p>Behind this door lays the ability to choose a custom "
 "default background.</p>"
@@ -805,7 +939,7 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, sameColor)
 #: css/csscustom.ui:713
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "<b>Use same family for all text</b><p>Select this option to override "
 #| "custom fonts everywhere in favor of the base font.</p>"
@@ -819,12 +953,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, sameColor)
 #: css/csscustom.ui:716
+#, kde-format
 msgid "Use same color for all text"
 msgstr "ఒకే రంగును వచనము మొత్తముకు వుపయోగించుము"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, txtForeground)
 #. i18n: ectx: property (whatsThis), widget (KColorButton, foregroundColorButton)
 #: css/csscustom.ui:726 css/csscustom.ui:745
+#, kde-format
 msgid ""
 "<b>Foreground color</b><p>The foreground color is the color that the text is "
 "drawn in.</p>"
@@ -832,17 +968,19 @@ msgstr "<b>ఫోర్‌గ్రౌండ్ రంగు</b><p>ఫోర్�
 
 #. i18n: ectx: property (text), widget (QLabel, txtForeground)
 #: css/csscustom.ui:729
+#, kde-format
 msgid "&Foreground:"
 msgstr "(&F) ఫోర్‌గ్రౌండు:"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox3_2)
 #: css/csscustom.ui:758
-#, fuzzy
+#, fuzzy, kde-format
 msgid "<b>Images</b>"
 msgstr "చిత్రాలు"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, hideImages)
 #: css/csscustom.ui:767
+#, kde-format
 msgid ""
 "<b>Suppress images</b><p>Selecting this will prevent Konqueror from loading "
 "images.</p>"
@@ -852,11 +990,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, hideImages)
 #: css/csscustom.ui:770
+#, kde-format
 msgid "&Suppress images"
 msgstr "(&S) చిత్రములను సప్రెస్‌చేయుము"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, hideBackground)
 #: css/csscustom.ui:777
+#, kde-format
 msgid ""
 "<b>Suppress background images</b><p>Selecting this option will prevent "
 "Konqueror from loading background images.</p>"
@@ -866,15 +1006,19 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, hideBackground)
 #: css/csscustom.ui:780
+#, kde-format
 msgid "Suppress background images"
 msgstr "బ్యాక్‌గ్రౌండు చిత్రములను సప్రెస్‌చేయుము"
 
 #. i18n: ectx: property (title), widget (QGroupBox, previewBox)
 #: css/csscustom.ui:812
+#, kde-format
 msgid "Preview"
 msgstr "ముందస్తు వీక్షణం"
 
+#. i18n("<h1>Konqueror Stylesheets</h1> This module allows you to apply your own color"
 #: css/kcmcss.cpp:53
+#, kde-format
 msgid ""
 "<h1>Konqueror Stylesheets</h1> This module allows you to apply your own "
 "color and font settings to Konqueror by using stylesheets (CSS). You can "
@@ -933,44 +1077,54 @@ msgstr ""
 "</html>\n"
 
 #: domainlistview.cpp:50
+#, kde-format
 msgid "Host/Domain"
 msgstr "హోస్ట్/డొమైన్"
 
 #: domainlistview.cpp:50
+#, kde-format
 msgid "Policy"
 msgstr "విధానము"
 
 #: domainlistview.cpp:58
+#, kde-format
 msgid "&New..."
 msgstr "(&N) కొత్త..."
 
 #: domainlistview.cpp:62
+#, kde-format
 msgid "Chan&ge..."
 msgstr "(&g) మార్చు..."
 
 #: domainlistview.cpp:66
+#, kde-format
 msgid "De&lete"
 msgstr "(&l) తొలగించుము"
 
 #: domainlistview.cpp:70
+#, kde-format
 msgid "&Import..."
 msgstr "(&I) దిగుమతి..."
 
 #: domainlistview.cpp:76
+#, kde-format
 msgid "&Export..."
 msgstr "(&E) ఎగుమతి..."
 
 #: domainlistview.cpp:84
+#, kde-format
 msgid "Click on this button to manually add a host or domain specific policy."
 msgstr "హోస్టు లేదా డొమైన్ ప్రత్యేకమైన విధానమును మాన్యువల్‌గా జతచేయుటకు ఈ బటన్ నొక్కుము."
 
 #: domainlistview.cpp:86
+#, kde-format
 msgid ""
 "Click on this button to change the policy for the host or domain selected in "
 "the list box."
 msgstr "జాబితా పెట్టెనందు యెంపికకాబడిన హోస్టు లేదా డొమైన్ కొరకు విధానమును మార్చుటకు ఈ బటన్ పైన నొక్కుము."
 
 #: domainlistview.cpp:88
+#, kde-format
 msgid ""
 "Click on this button to delete the policy for the host or domain selected in "
 "the list box."
@@ -978,58 +1132,70 @@ msgstr ""
 "జాబితా పెట్టెనందు యెంపికకాబడిన హోస్టు లేదా డొమైన్ కొరకు విధానమును తొలగించుటకు ఈ బటన్ పైన నొక్కుము."
 
 #: domainlistview.cpp:135
+#, kde-format
 msgid "You must first select a policy to be changed."
 msgstr "మార్చుట కొరకు మీరు ముందుగా వొక విధానమును యెంపికచేయాలి."
 
 #: domainlistview.cpp:162
+#, kde-format
 msgid "You must first select a policy to delete."
 msgstr "తొలగించుట కొరకు మీరు ముందుగా వొక విధానమును యెంపికచేయాలి."
 
 #: domainlistview.cpp:200 policydlg.cpp:59
+#, kde-format
 msgid "Use Global"
 msgstr "సార్వత్రికం వుపయోగించుము"
 
 #: domainlistview.cpp:202 policydlg.cpp:59
+#, kde-format
 msgid "Accept"
 msgstr "ఆమోదించు"
 
 #: domainlistview.cpp:204 policydlg.cpp:59
+#, kde-format
 msgid "Reject"
 msgstr "తిరస్కరించు"
 
 #: filteropts.cpp:63
+#, kde-format
 msgid "Enable filters"
 msgstr "ఫిల్టర్లను చేతనముచేయుము"
 
 #: filteropts.cpp:66
+#, kde-format
 msgid "Hide filtered images"
 msgstr "ఫల్టర్డు సందేశములను మరుగునవుంచుము"
 
 #: filteropts.cpp:73
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Enable filters"
 msgid "Manual Filter"
 msgstr "ఫిల్టర్లను చేతనముచేయుము"
 
 #: filteropts.cpp:91
+#, kde-format
 msgid "Search:"
 msgstr ""
 
 #: filteropts.cpp:99
+#, kde-format
 msgid ""
 "<qt>Filter expression (e.g. <tt>http://www.example.com/ad/*</tt>, <a href="
 "\"filterhelp\">more information</a>):"
 msgstr ""
 
 #: filteropts.cpp:115
+#, kde-format
 msgid "Automatic Filter"
 msgstr ""
 
 #: filteropts.cpp:124
+#, kde-format
 msgid "Automatic update interval:"
 msgstr ""
 
 #: filteropts.cpp:129
+#, kde-format
 msgid " day"
 msgid_plural " days"
 msgstr[0] ""
@@ -1039,50 +1205,60 @@ msgstr[3] ""
 msgstr[4] ""
 
 #: filteropts.cpp:135
+#, kde-format
 msgid "Insert"
 msgstr "ఇన్సర్‍ట్ (చేర్చుము)"
 
 #: filteropts.cpp:138
+#, kde-format
 msgid "Update"
 msgstr "నవీకరించుము"
 
 #: filteropts.cpp:141
+#, kde-format
 msgid "Remove"
 msgstr "తొలగించు"
 
 #: filteropts.cpp:145
+#, kde-format
 msgid "Import..."
 msgstr "దిగుమతిచేయి..."
 
 #: filteropts.cpp:148
+#, kde-format
 msgid "Export..."
 msgstr "ఎగుమతిచేయి..."
 
 #: filteropts.cpp:155
+#, kde-format
 msgid ""
 "<qt>More information on <a href=\"importhelp\">import format</a>, <a href="
 "\"exporthelp\">export format</a>"
 msgstr ""
 
 #: filteropts.cpp:169
+#, kde-format
 msgid ""
 "Enable or disable AdBlocK filters. When enabled, a set of URL expressions "
 "should be defined in the filter list for blocking to take effect."
 msgstr ""
 
 #: filteropts.cpp:171
+#, kde-format
 msgid ""
 "When enabled blocked images will be removed from the page completely, "
 "otherwise a placeholder 'blocked' image will be used."
 msgstr ""
 
 #: filteropts.cpp:178
+#, kde-format
 msgid ""
 "This is the list of URL filters that will be applied to all embedded images "
 "and media objects."
 msgstr ""
 
 #: filteropts.cpp:182
+#, kde-format
 msgid ""
 "<qt><p>Enter an expression to filter. Filters can be defined as either:"
 "<ul><li>a shell-style wildcard, e.g. <tt>http://www.example.com/ads*</tt>, "
@@ -1094,6 +1270,7 @@ msgid ""
 msgstr ""
 
 #: filteropts.cpp:198
+#, kde-format
 msgid ""
 "<qt><p>The filter import format is a plain text file. Blank lines, comment "
 "lines starting with '<tt>!</tt>' and the header line <tt>[AdBlock]</tt> are "
@@ -1101,6 +1278,7 @@ msgid ""
 msgstr ""
 
 #: filteropts.cpp:203
+#, kde-format
 msgid ""
 "<qt><p>The filter export format is a plain text file. The file begins with a "
 "header line <tt>[AdBlock]</tt>, then all of the filters follow each on a "
@@ -1108,6 +1286,7 @@ msgid ""
 msgstr ""
 
 #: filteropts.cpp:451
+#, kde-format
 msgid ""
 "<h1>Konqueror AdBlocK</h1> Konqueror AdBlocK allows you to create a list of "
 "filters that are checked against linked images and frames. URL's that match "
@@ -1115,29 +1294,34 @@ msgid ""
 msgstr ""
 
 #: filteropts.cpp:573
+#, kde-format
 msgid "Name"
 msgstr ""
 
 #: filteropts.cpp:574
+#, kde-format
 msgid "URL"
 msgstr ""
 
 #: generalopts.cpp:59
+#, kde-format
 msgid "Tabbed Browsing"
 msgstr "టాబ్ బ్రౌజింగ్"
 
 #: generalopts.cpp:85
+#, kde-format
 msgctxt "@label:listbox"
 msgid "When &Konqueror starts:"
 msgstr "(&K) కాంక్వెరర్ ప్రారంభమైనప్పుడు:"
 
 #: generalopts.cpp:94
+#, kde-format
 msgctxt "@item:inlistbox"
 msgid "Show Introduction Page"
 msgstr "పరిచయ పేజీను చూపుము"
 
 #: generalopts.cpp:95
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "@item:inlistbox"
 #| msgid "Show My Home Page"
 msgctxt "@item:inlistbox"
@@ -1145,48 +1329,55 @@ msgid "Show My Start Page"
 msgstr "నా నివాస పేజీను చూపుము"
 
 #: generalopts.cpp:96
+#, kde-format
 msgctxt "@item:inlistbox"
 msgid "Show Blank Page"
 msgstr "ఖాళీ పేజీను చూపుము"
 
 #: generalopts.cpp:97
+#, kde-format
 msgctxt "@item:inlistbox"
 msgid "Show My Bookmarks"
 msgstr "నా ఇష్టాంశములను చూపుము"
 
 #: generalopts.cpp:103
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Select Home Page"
 msgctxt "@title:window"
 msgid "Select Start Page"
 msgstr "నివాస పేజీను యెంపికచేయుము"
 
 #: generalopts.cpp:107
+#, kde-format
 msgid "This is the URL of the web page Konqueror will show when starting."
 msgstr ""
 
 #: generalopts.cpp:117
+#, kde-format
 msgid "Home page:"
 msgstr "నివాస పేజీ:"
 
 #: generalopts.cpp:120
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Select Home Page"
 msgctxt "@title:window"
 msgid "Select Home Page"
 msgstr "నివాస పేజీను యెంపికచేయుము"
 
 #: generalopts.cpp:125
+#, kde-format
 msgid ""
 "This is the URL of the web page where Konqueror will jump to when the \"Home"
 "\" button is pressed."
 msgstr ""
 
 #: generalopts.cpp:133
+#, kde-format
 msgid "Default web browser engine:"
 msgstr ""
 
 #: htmlopts.cpp:42
+#, kde-format
 msgid ""
 "<h1>Konqueror Browser</h1> Here you can configure Konqueror's browser "
 "functionality. Please note that the file manager functionality has to be "
@@ -1196,14 +1387,17 @@ msgid ""
 msgstr ""
 
 #: htmlopts.cpp:50
+#, kde-format
 msgid "Boo&kmarks"
 msgstr "(&k) ఇష్టాంశములు"
 
 #: htmlopts.cpp:53
+#, kde-format
 msgid "Ask for name and folder when adding bookmarks"
 msgstr "ఇష్టాంశములను జతచేయునప్పుడు పేరు మరియు ఫోల్డరు కొరకు అడుగుము"
 
 #: htmlopts.cpp:56
+#, kde-format
 msgid ""
 "If this box is checked, Konqueror will allow you to change the title of the "
 "bookmark and choose a folder in which to store it when you add a new "
@@ -1211,63 +1405,76 @@ msgid ""
 msgstr ""
 
 #: htmlopts.cpp:62
+#, kde-format
 msgid "Show only marked bookmarks in bookmark toolbar"
 msgstr "ఇష్టాంశము పనిముట్టుపట్టీ నందు గుర్తుంచిన ఇంష్టాంశములను మాత్రమే చూపుము"
 
 #: htmlopts.cpp:64
+#, kde-format
 msgid ""
 "If this box is checked, Konqueror will show only those bookmarks in the "
 "bookmark toolbar which you have marked to do so in the bookmark editor."
 msgstr ""
 
 #: htmlopts.cpp:71
+#, kde-format
 msgid "Form Com&pletion"
 msgstr "(&p) ముగింపు నుండి"
 
 #: htmlopts.cpp:75
+#, kde-format
 msgid ""
 "If this box is checked, Konqueror will remember the data you enter in web "
 "forms and suggest it in similar fields for all forms."
 msgstr ""
 
 #: htmlopts.cpp:81
+#, kde-format
 msgid "&Maximum completions:"
 msgstr "(&M) గరిష్ట ముగింపులు:"
 
 #: htmlopts.cpp:83
+#, kde-format
 msgid ""
 "Here you can select how many values Konqueror will remember for a form field."
 msgstr ""
 
 #: htmlopts.cpp:90
+#, kde-format
 msgid "Mouse Beha&vior"
 msgstr "(&v) మౌస్ ప్రవర్తన"
 
 #: htmlopts.cpp:93
+#, kde-format
 msgid "Chan&ge cursor over links"
 msgstr "(&g) లింకుల నందు కర్సర్‌ను మార్చుము"
 
 #: htmlopts.cpp:95
+#, kde-format
 msgid ""
 "If this option is set, the shape of the cursor will change (usually to a "
 "hand) if it is moved over a hyperlink."
 msgstr ""
 
 #: htmlopts.cpp:99
+#, kde-format
 msgid "M&iddle click opens URL in selection"
 msgstr "(&i) ఎంపికనందు వున్న URLను మద్యనొక్కు తెరుస్తుంది"
 
 #: htmlopts.cpp:102
+#, kde-format
 msgid ""
 "If this box is checked, you can open the URL in the selection by middle "
 "clicking on a Konqueror view."
 msgstr ""
 
 #: htmlopts.cpp:106
+#, kde-format
 msgid "Right click goes &back in history"
 msgstr "(&b) కుడి నొక్కు చరిత్రనందు వెనుకకు వెళుతుంది"
 
 #: htmlopts.cpp:109
+#, kde-format
 msgid ""
 "If this box is checked, you can go back in history by right clicking on a "
 "Konqueror view. To access the context menu, press the right mouse button and "
@@ -1275,22 +1482,25 @@ msgid ""
 msgstr ""
 
 #: htmlopts.cpp:119
+#, kde-format
 msgid "Allow automatic delayed &reloading/redirecting"
 msgstr "(&r) స్వయంచాలకంగా ఆలస్యమగు రీలోడింగును/రీడైరెక్టింగును అనుమతించుము"
 
 #: htmlopts.cpp:120
+#, kde-format
 msgid ""
 "Some web pages request an automatic reload or redirection after a certain "
 "period of time. By unchecking this box Konqueror will ignore these requests."
 msgstr ""
 
 #: htmlopts.cpp:126
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Enable/disable Access Ke&y activation with Ctrl key"
 msgid "Enable Access Ke&y activation with Ctrl key"
 msgstr "యాక్సెస్ కీ క్రియాశీలతను Ctrl కీతో చేతనము/అచేతనము చేయుము"
 
 #: htmlopts.cpp:127
+#, kde-format
 msgid ""
 "Pressing the Ctrl key when viewing webpages activates Access Keys. "
 "Unchecking this box will disable this accessibility feature. (Konqueror "
@@ -1298,45 +1508,54 @@ msgid ""
 msgstr ""
 
 #: htmlopts.cpp:131
+#, kde-format
 msgid "Send the DNT header to tell web sites you do not want to be tracked"
 msgstr ""
 
 #: htmlopts.cpp:132
+#, kde-format
 msgid ""
 "Check this box if you want to inform a web site that you do not want your "
 "web browsing habits tracked."
 msgstr ""
 
 #: htmlopts.cpp:136
+#, kde-format
 msgid "Offer to save website passwords"
 msgstr ""
 
 #: htmlopts.cpp:137
+#, kde-format
 msgid "Uncheck this box to prevent being prompted to save website passwords"
 msgstr ""
 
 #: javaopts.cpp:78
+#, kde-format
 msgid "Enable Ja&va globally"
 msgstr "(&v) జావాను సార్వత్రికముగా చేతనముచేయుము"
 
 #: javaopts.cpp:93
+#, kde-format
 msgid "Java Runtime Settings"
 msgstr "జావా రన్‌టైమ్ అమరికలు"
 
 #: javaopts.cpp:97
+#, kde-format
 msgid "&Use security manager"
 msgstr "(&U) సురక్షితా నిర్వాహికను వుపయోగించుము"
 
 #: javaopts.cpp:101
+#, kde-format
 msgid "Use &KIO"
 msgstr "&KIO వుపయోగించుము"
 
 #: javaopts.cpp:105
+#, kde-format
 msgid "Shu&tdown applet server when inactive for more than"
 msgstr "ఇంతకన్నా ఎక్కువ ఆప్లెట్ సెర్వర్ క్రియాహీనముగా వుంటే మూసివేయుము"
 
 #: javaopts.cpp:115
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid " sec"
 msgid " second"
 msgid_plural " seconds"
@@ -1347,14 +1566,17 @@ msgstr[3] " సెకను"
 msgstr[4] " సెకను"
 
 #: javaopts.cpp:121
+#, kde-format
 msgid "&Path to Java executable, or 'java':"
 msgstr "(&P) జావా యెగ్జిక్యూటబుల్‌కు దారి, లేదా 'java':"
 
 #: javaopts.cpp:125
+#, kde-format
 msgid "Additional Java a&rguments:"
 msgstr "(&r) అదనపు జావా ఆర్గుమెంట్లు:"
 
 #: javaopts.cpp:130
+#, kde-format
 msgid ""
 "Enables the execution of scripts written in Java that can be contained in "
 "HTML pages. Note that, as with any browser, enabling active contents can be "
@@ -1362,6 +1584,7 @@ msgid ""
 msgstr ""
 
 #: javaopts.cpp:133
+#, kde-format
 msgid ""
 "<p>This box contains the domains and hosts you have set a specific Java "
 "policy for. This policy will be used instead of the default policy for "
@@ -1370,6 +1593,7 @@ msgid ""
 msgstr ""
 
 #: javaopts.cpp:140
+#, kde-format
 msgid ""
 "Click this button to choose the file that contains the Java policies. These "
 "policies will be merged with the existing ones. Duplicate entries are "
@@ -1377,12 +1601,14 @@ msgid ""
 msgstr ""
 
 #: javaopts.cpp:143
+#, kde-format
 msgid ""
 "Click this button to save the Java policy to a zipped file. The file, named "
 "<b>java_policy.tgz</b>, will be saved to a location of your choice."
 msgstr ""
 
 #: javaopts.cpp:147
+#, kde-format
 msgid ""
 "Here you can set specific Java policies for any particular host or domain. "
 "To add a new policy, simply click the <i>New...</i> button and supply the "
@@ -1394,6 +1620,7 @@ msgid ""
 msgstr ""
 
 #: javaopts.cpp:160
+#, kde-format
 msgid ""
 "Enabling the security manager will cause the jvm to run with a Security "
 "Manager in place. This will keep applets from being able to read and write "
@@ -1404,10 +1631,12 @@ msgid ""
 msgstr ""
 
 #: javaopts.cpp:168
+#, kde-format
 msgid "Enabling this will cause the jvm to use KIO for network transport "
 msgstr "దీనిని చేతనపరచుట వలన jvm అనునది KIOను నెట్వర్కు మద్దతుకొరకు వుపయోగించుటకు కారణమౌతుంది"
 
 #: javaopts.cpp:170
+#, kde-format
 msgid ""
 "Enter the path to the java executable. If you want to use the jre in your "
 "path, simply leave it as 'java'. If you need to use a different jre, enter "
@@ -1416,6 +1645,7 @@ msgid ""
 msgstr ""
 
 #: javaopts.cpp:175
+#, kde-format
 msgid ""
 "If you want special arguments to be passed to the virtual machine, enter "
 "them here."
@@ -1423,6 +1653,7 @@ msgstr ""
 "మీరు ప్రత్యేకమైన ఆర్గుమెంట్లు వర్చ్యువల్ మిషన్‌కు పాస్ చేయాలి అనుకుంటే, వాటిని యిక్కడ ప్రవేశపెట్టుము."
 
 #: javaopts.cpp:177
+#, kde-format
 msgid ""
 "When all the applets have been destroyed, the applet server should shut "
 "down. However, starting the jvm takes a lot of time. If you would like to "
@@ -1433,37 +1664,42 @@ msgid ""
 msgstr ""
 
 #: javaopts.cpp:286
+#, kde-format
 msgctxt "@title:group"
 msgid "Doma&in-Specific"
 msgstr "(&i) డొమైన్-ప్రత్యేకమైన"
 
 #: javaopts.cpp:321
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "New Java Policy"
 msgctxt "@title:window"
 msgid "New Java Policy"
 msgstr "కొత్త జావా విధానము"
 
 #: javaopts.cpp:324
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Change Java Policy"
 msgctxt "@title:window"
 msgid "Change Java Policy"
 msgstr "జావా విదానమును మార్చుము"
 
 #: javaopts.cpp:328
+#, kde-format
 msgid "&Java policy:"
 msgstr "(&J) జావా విధానము:"
 
 #: javaopts.cpp:329
+#, kde-format
 msgid "Select a Java policy for the above host or domain."
 msgstr "పై హోస్టు లేదా డొమైన్‌కు జావా విధానమును యెంపికచేయుము."
 
 #: jsopts.cpp:50
+#, kde-format
 msgid "Ena&ble JavaScript globally"
 msgstr "(&b) జావాస్క్రిప్టును సార్వత్రికముగా చేతనముచేయుము"
 
 #: jsopts.cpp:51
+#, kde-format
 msgid ""
 "Enables the execution of scripts written in ECMA-Script (also known as "
 "JavaScript) that can be contained in HTML pages. Note that, as with any "
@@ -1471,27 +1707,33 @@ msgid ""
 msgstr ""
 
 #: jsopts.cpp:59
+#, kde-format
 msgid "Debugging"
 msgstr "డీబగ్గింగ్"
 
 #: jsopts.cpp:63
+#, kde-format
 msgid "Enable debu&gger"
 msgstr "(&g) డీబగ్గరును చేతనముచేయుము"
 
 #: jsopts.cpp:64
+#, kde-format
 msgid "Enables builtin JavaScript debugger."
 msgstr "బుల్టిన్ జావాస్క్రిప్టు డీబగ్గరును చేతనముచేస్తుంది."
 
 #: jsopts.cpp:68
+#, kde-format
 msgid "Report &errors"
 msgstr "(&e) దోషములను తెలుపుము"
 
 #: jsopts.cpp:69
+#, kde-format
 msgid ""
 "Enables the reporting of errors that occur when JavaScript code is executed."
 msgstr "జావాస్క్రిప్టు కోడ్ నిర్వర్తించబడేటప్పుడు యెదురయ్యే దోషములు తెలుపుటను చేతనపరుస్తుంది."
 
 #: jsopts.cpp:79
+#, kde-format
 msgid ""
 "Here you can set specific JavaScript policies for any particular host or "
 "domain. To add a new policy, simply click the <i>New...</i> button and "
@@ -1505,6 +1747,7 @@ msgid ""
 msgstr ""
 
 #: jsopts.cpp:89
+#, kde-format
 msgid ""
 "<p>This box contains the domains and hosts you have set a specific "
 "JavaScript policy for. This policy will be used instead of the default "
@@ -1514,6 +1757,7 @@ msgid ""
 msgstr ""
 
 #: jsopts.cpp:96
+#, kde-format
 msgid ""
 "Click this button to choose the file that contains the JavaScript policies. "
 "These policies will be merged with the existing ones. Duplicate entries are "
@@ -1521,6 +1765,7 @@ msgid ""
 msgstr ""
 
 #: jsopts.cpp:99
+#, kde-format
 msgid ""
 "Click this button to save the JavaScript policy to a zipped file. The file, "
 "named <b>javascript_policy.tgz</b>, will be saved to a location of your "
@@ -1528,90 +1773,107 @@ msgid ""
 msgstr ""
 
 #: jsopts.cpp:105
+#, kde-format
 msgid "Global JavaScript Policies"
 msgstr "సార్వత్రిక జావాస్క్రిప్టు విదానములు"
 
 #: jsopts.cpp:173
+#, kde-format
 msgctxt "@title:group"
 msgid "Do&main-Specific"
 msgstr "(&m) డొమైన్-ప్రత్యేకమైన"
 
 #: jsopts.cpp:212
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "New JavaScript Policy"
 msgctxt "@title:window"
 msgid "New JavaScript Policy"
 msgstr "కొత్త జావాస్క్రిప్టు విధానము"
 
 #: jsopts.cpp:215
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Change JavaScript Policy"
 msgctxt "@title:window"
 msgid "Change JavaScript Policy"
 msgstr "జావాస్క్రిప్టు విధానమును మార్చుము"
 
 #: jsopts.cpp:219
+#, kde-format
 msgid "JavaScript policy:"
 msgstr "జావాస్క్రిప్టు విధానము:"
 
 #: jsopts.cpp:220
+#, kde-format
 msgid "Select a JavaScript policy for the above host or domain."
 msgstr "జావాస్క్రిప్టు విధానమును పై హోస్టు లేదా డొమైన్ కొరకు యెంపికచేయుము."
 
 #: jsopts.cpp:222
+#, kde-format
 msgid "Domain-Specific JavaScript Policies"
 msgstr "డొమైన్-ప్రత్యేక జావాస్క్రిప్టు విధానములు"
 
 #: jspolicies.cpp:156
+#, kde-format
 msgid "Open new windows:"
 msgstr "కొత్త విండోలను తెరువుము:"
 
 #: jspolicies.cpp:164 jspolicies.cpp:218 jspolicies.cpp:255 jspolicies.cpp:292
 #: jspolicies.cpp:332
+#, kde-format
 msgid "Use global"
 msgstr "సార్వత్రికం వుపయోగించుము"
 
 #: jspolicies.cpp:165 jspolicies.cpp:219 jspolicies.cpp:256 jspolicies.cpp:293
 #: jspolicies.cpp:333
+#, kde-format
 msgid "Use setting from global policy."
 msgstr "సార్వత్రిక విధానమునుండి అమరికను వుపయోగించుము."
 
 #: jspolicies.cpp:171 jspolicies.cpp:225 jspolicies.cpp:262 jspolicies.cpp:299
 #: jspolicies.cpp:339
+#, kde-format
 msgid "Allow"
 msgstr "అనుమతించు"
 
 #: jspolicies.cpp:172
+#, kde-format
 msgid "Accept all popup window requests."
 msgstr "అన్ని పాపప్ విండో అభ్యర్ధనలను ఆమోదించుము.్"
 
 #: jspolicies.cpp:177
+#, kde-format
 msgid "Ask"
 msgstr "అడుగు"
 
 #: jspolicies.cpp:178
+#, kde-format
 msgid "Prompt every time a popup window is requested."
 msgstr "పాపప్ విండో అభ్యర్ధించబడిన ప్రతిసారి ప్రాంప్టు చేయుము."
 
 #: jspolicies.cpp:183
+#, kde-format
 msgid "Deny"
 msgstr "అనంగీకారము"
 
 #: jspolicies.cpp:184
+#, kde-format
 msgid "Reject all popup window requests."
 msgstr "అన్ని పాపప్ విండో అభ్యర్ధనలను తిరస్కరించుము"
 
 #: jspolicies.cpp:189
+#, kde-format
 msgid "Smart"
 msgstr "స్మార్ట్"
 
 #: jspolicies.cpp:190
+#, kde-format
 msgid ""
 "Accept popup window requests only when links are activated through an "
 "explicit mouse click or keyboard operation."
 msgstr ""
 
 #: jspolicies.cpp:197
+#, kde-format
 msgid ""
 "If you disable this, Konqueror will stop interpreting the <i>window.open()</"
 "i> JavaScript command. This is useful if you regularly visit sites that make "
@@ -1621,45 +1883,54 @@ msgid ""
 msgstr ""
 
 #: jspolicies.cpp:211
+#, kde-format
 msgid "Resize window:"
 msgstr "విండోను పునఃపరిమాణం చేయుము:"
 
 #: jspolicies.cpp:226
+#, kde-format
 msgid "Allow scripts to change the window size."
 msgstr "స్క్రిప్టులు విండో పరిమాణము మార్చుటకు అనుమతించుము:"
 
 #: jspolicies.cpp:231 jspolicies.cpp:268 jspolicies.cpp:305 jspolicies.cpp:345
+#, kde-format
 msgid "Ignore"
 msgstr "విస్మరించు"
 
 #: jspolicies.cpp:232
+#, kde-format
 msgid ""
 "Ignore attempts of scripts to change the window size. The web page will "
 "<i>think</i> it changed the size but the actual window is not affected."
 msgstr ""
 
 #: jspolicies.cpp:239
+#, kde-format
 msgid ""
-"Some websites change the window size on their own by using <i>window.resizeBy"
-"()</i> or <i>window.resizeTo()</i>. This option specifies the treatment of "
-"such attempts."
+"Some websites change the window size on their own by using <i>window."
+"resizeBy()</i> or <i>window.resizeTo()</i>. This option specifies the "
+"treatment of such attempts."
 msgstr ""
 
 #: jspolicies.cpp:248
+#, kde-format
 msgid "Move window:"
 msgstr "విండోను కదుపుము:"
 
 #: jspolicies.cpp:263
+#, kde-format
 msgid "Allow scripts to change the window position."
 msgstr "విండో స్థానమును మార్చుటకు స్క్రిప్టులను అనుమతించుము."
 
 #: jspolicies.cpp:269
+#, kde-format
 msgid ""
 "Ignore attempts of scripts to change the window position. The web page will "
 "<i>think</i> it moved the window but the actual position is not affected."
 msgstr ""
 
 #: jspolicies.cpp:276
+#, kde-format
 msgid ""
 "Some websites change the window position on their own by using <i>window."
 "moveBy()</i> or <i>window.moveTo()</i>. This option specifies the treatment "
@@ -1667,14 +1938,17 @@ msgid ""
 msgstr ""
 
 #: jspolicies.cpp:285
+#, kde-format
 msgid "Focus window:"
 msgstr "విండోపై దృష్టివుంచుము:"
 
 #: jspolicies.cpp:300
+#, kde-format
 msgid "Allow scripts to focus the window."
 msgstr "విండోపై దృష్టివుంచుటకు స్క్రిప్టులను అనుమతించుము."
 
 #: jspolicies.cpp:306
+#, kde-format
 msgid ""
 "Ignore attempts of scripts to focus the window. The web page will <i>think</"
 "i> it brought the focus to the window but the actual focus will remain "
@@ -1682,6 +1956,7 @@ msgid ""
 msgstr ""
 
 #: jspolicies.cpp:314
+#, kde-format
 msgid ""
 "Some websites set the focus to their browser window on their own by using "
 "<i>window.focus()</i>. This usually leads to the window being moved to the "
@@ -1690,20 +1965,24 @@ msgid ""
 msgstr ""
 
 #: jspolicies.cpp:325
+#, kde-format
 msgid "Modify status bar text:"
 msgstr "స్థితి పట్టీ వచనమును సవరించుము:"
 
 #: jspolicies.cpp:340
+#, kde-format
 msgid "Allow scripts to change the text of the status bar."
 msgstr "స్థితి పట్టీయొక్క వచనమును మార్చుటకు స్క్రిప్టులను అనుమతించుము."
 
 #: jspolicies.cpp:346
+#, kde-format
 msgid ""
 "Ignore attempts of scripts to change the status bar text. The web page will "
 "<i>think</i> it changed the text but the actual text will remain unchanged."
 msgstr ""
 
 #: jspolicies.cpp:354
+#, kde-format
 msgid ""
 "Some websites change the status bar text by setting <i>window.status</i> or "
 "<i>window.defaultStatus</i>, thus sometimes preventing displaying the real "
@@ -1711,54 +1990,67 @@ msgid ""
 msgstr ""
 
 #: khttpoptdlg.cpp:27
+#, kde-format
 msgid "Accept languages:"
 msgstr "భాషలను ఆమోదించుము:"
 
 #: khttpoptdlg.cpp:35
+#, kde-format
 msgid "Accept character sets:"
 msgstr "అక్షర సమితులను ఆమోదించుము:"
 
 #: main.cpp:64
+#, kde-format
 msgid "Konqueror Browsing Control Module"
 msgstr "కాంక్వెరర్ బ్రౌజింగ్ నియంత్రణ మాడ్యూల్"
 
 #: main.cpp:66
+#, kde-format
 msgid "(c) 1999 - 2001 The Konqueror Developers"
 msgstr "(c) 1999 - 2001 కాంక్వెరర్ అభివృద్దికారులు"
 
 #: main.cpp:68
+#, kde-format
 msgid "Waldo Bastian"
 msgstr "వాల్డొ బాస్టియన్"
 
 #: main.cpp:69
+#, kde-format
 msgid "David Faure"
 msgstr "డెవిడ్ ఫారె"
 
 #: main.cpp:70
+#, kde-format
 msgid "Matthias Kalle Dalheimer"
 msgstr "మాథియాస్ కెల్లే డాల్హైమర్"
 
 #: main.cpp:71
+#, kde-format
 msgid "Lars Knoll"
 msgstr "లార్స్ క్నొల్"
 
 #: main.cpp:72
+#, kde-format
 msgid "Dirk Mueller"
 msgstr "డిర్క్ ముల్లర్"
 
 #: main.cpp:73
+#, kde-format
 msgid "Daniel Molkentin"
 msgstr "డానియల్ మాల్కెన్టిన్"
 
 #: main.cpp:74
+#, kde-format
 msgid "Wynn Wilkes"
 msgstr "విన్ వైక్స్"
 
 #: main.cpp:76
+#, kde-format
 msgid "Leo Savernik"
 msgstr "లియో సావెర్నిక్"
 
 #: main.cpp:76
+#, kde-format
 msgid ""
 "JavaScript access controls\n"
 "Per-domain policies extensions"
@@ -1767,14 +2059,17 @@ msgstr ""
 "ప్రీ-డొమైన్ విధానాల పొడిగింపులు"
 
 #: main.cpp:88
+#, kde-format
 msgid "&Java"
 msgstr "(&J) జావా"
 
 #: main.cpp:92
+#, kde-format
 msgid "Java&Script"
 msgstr "(&S) జావా స్క్రిప్టు"
 
 #: main.cpp:132
+#, kde-format
 msgid ""
 "<h2>JavaScript</h2>On this page, you can configure whether JavaScript "
 "programs embedded in web pages should be allowed to be executed by Konqueror."
@@ -1788,72 +2083,87 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, NSConfigWidget)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: nsconfigwidget.ui:14 nsconfigwidget.ui:122 pluginopts.cpp:173
+#, kde-format
 msgid "Plugins"
 msgstr "ప్లగిన్లు"
 
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
 #: nsconfigwidget.ui:26
+#, kde-format
 msgid "Folders"
 msgstr "ఫోల్డర్లు"
 
 #. i18n: ectx: property (text), widget (QPushButton, dirRemove)
 #: nsconfigwidget.ui:51
+#, kde-format
 msgid "&Remove"
 msgstr "(&R) తీసివేయి"
 
 #. i18n: ectx: property (text), widget (QPushButton, dirNew)
 #: nsconfigwidget.ui:58
+#, kde-format
 msgid "&New"
 msgstr "(&N) కొత్తది"
 
 #. i18n: ectx: property (text), widget (QPushButton, dirDown)
 #: nsconfigwidget.ui:75
+#, kde-format
 msgid "Do&wn"
 msgstr "(&w) క్రిందకు"
 
 #. i18n: ectx: property (text), widget (QPushButton, dirUp)
 #: nsconfigwidget.ui:85
+#, kde-format
 msgid "&Up"
 msgstr "(&U) పైకి"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, scanButton)
 #: nsconfigwidget.ui:102
+#, kde-format
 msgid "Click here to scan for newly installed Netscape plugins now."
 msgstr "కొత్త సంస్థాపించిన నెట్‌స్కేపు ప్లగ్‌యిన్లను స్కానుచేయుటకు యిక్కడ నొక్కుము"
 
 #. i18n: ectx: property (text), widget (QPushButton, scanButton)
 #: nsconfigwidget.ui:105
+#, kde-format
 msgid "&Scan for Plugins"
 msgstr "(&S) ప్లగ్‌యిన్ల కొరకు స్కాన్ చేయుము"
 
 #. i18n: ectx: property (whatsThis), widget (QTreeWidget, pluginList)
 #: nsconfigwidget.ui:128
+#, kde-format
 msgid "Here you can see a list of the Netscape plugins KDE has found."
 msgstr "ఇక్కడ మీరు KDE ప్లగ్‌యిన్ కనుగొన్నటువంటి నెట్‌స్కేపు ప్లగ్‌యిన్ల జాబితాను చూడవచ్చు."
 
 #. i18n: ectx: property (text), widget (QTreeWidget, pluginList)
 #: nsconfigwidget.ui:135
+#, kde-format
 msgid "Information"
 msgstr "సమాచారం"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, pluginList)
 #: nsconfigwidget.ui:140
+#, kde-format
 msgid "Value"
 msgstr "విలువ"
 
 #: pluginopts.cpp:77
+#, kde-format
 msgid "Global Settings"
 msgstr "సార్వత్రిక అమరికలు"
 
 #: pluginopts.cpp:82
+#, kde-format
 msgid "&Enable plugins globally"
 msgstr "(&E) ప్లగ్‌యిన్సును సార్వత్రికంగా చేతనపర్చుము"
 
 #: pluginopts.cpp:83
+#, kde-format
 msgid "Only allow &HTTP and HTTPS URLs for plugins"
 msgstr "ప్లగ్‌యిన్స్ కొరకు &HTTP మరియు HTTPS URLలను మాత్రమే అనుమతించుము."
 
 #: pluginopts.cpp:84
+#, kde-format
 msgid "&Load plugins on demand only"
 msgstr "(&L) డిమాండుపై మాత్రమే ప్లగ్‌యిన్సును లోడుచేయుము"
 
@@ -1863,17 +2173,19 @@ msgid "CPU priority for plugins: %1"
 msgstr "ప్లగ్‌యిన్సు కొరకు CPU ప్రాముఖ్యత: %1"
 
 #: pluginopts.cpp:113
+#, kde-format
 msgid "Domain-Specific Settin&gs"
 msgstr "(&g) డొమైన్-స్పెసిఫిక్ అమరికలు"
 
 #: pluginopts.cpp:126 pluginopts.cpp:629
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Domain-Specific Policies"
 msgctxt "@title:window"
 msgid "Domain-Specific Policies"
 msgstr "డొమైన్-స్పెసిఫిక్ విధానములు"
 
 #: pluginopts.cpp:141
+#, kde-format
 msgid ""
 "Enables the execution of plugins that can be contained in HTML pages, e.g. "
 "Macromedia Flash. Note that, as with any browser, enabling active contents "
@@ -1881,6 +2193,7 @@ msgid ""
 msgstr ""
 
 #: pluginopts.cpp:145
+#, kde-format
 msgid ""
 "<p>This box contains the domains and hosts you have set a specific plugin "
 "policy for. This policy will be used instead of the default policy for "
@@ -1889,6 +2202,7 @@ msgid ""
 msgstr ""
 
 #: pluginopts.cpp:151
+#, kde-format
 msgid ""
 "Click this button to choose the file that contains the plugin policies. "
 "These policies will be merged with the existing ones. Duplicate entries are "
@@ -1896,12 +2210,14 @@ msgid ""
 msgstr ""
 
 #: pluginopts.cpp:154
+#, kde-format
 msgid ""
 "Click this button to save the plugin policy to a zipped file. The file, "
 "named <b>plugin_policy.tgz</b>, will be saved to a location of your choice."
 msgstr ""
 
 #: pluginopts.cpp:157
+#, kde-format
 msgid ""
 "Here you can set specific plugin policies for any particular host or domain. "
 "To add a new policy, simply click the <i>New...</i> button and supply the "
@@ -1913,31 +2229,37 @@ msgid ""
 msgstr ""
 
 #: pluginopts.cpp:195
+#, kde-format
 msgctxt "lowest priority"
 msgid "lowest"
 msgstr "అతితక్కువ"
 
 #: pluginopts.cpp:197
+#, kde-format
 msgctxt "low priority"
 msgid "low"
 msgstr "తక్కువ"
 
 #: pluginopts.cpp:199
+#, kde-format
 msgctxt "medium priority"
 msgid "medium"
 msgstr "మధ్యమ"
 
 #: pluginopts.cpp:201
+#, kde-format
 msgctxt "high priority"
 msgid "high"
 msgstr "అధిక"
 
 #: pluginopts.cpp:203
+#, kde-format
 msgctxt "highest priority"
 msgid "highest"
 msgstr "అత్యధిక"
 
 #: pluginopts.cpp:294
+#, kde-format
 msgid ""
 "<h1>Konqueror Plugins</h1> The Konqueror web browser can use Netscape "
 "plugins to show special content, just like the Navigator does. Please note "
@@ -1947,79 +2269,92 @@ msgid ""
 msgstr ""
 
 #: pluginopts.cpp:322
+#, kde-format
 msgid ""
 "Do you want to apply your changes before the scan? Otherwise the changes "
 "will be lost."
 msgstr "మీరు మీ మార్పులను స్కానుకు ముందుగా ఆపాదించుదామని అనుకొనుచున్నారా? లేకపోతే మార్పులు కొల్పాతాయి."
 
 #: pluginopts.cpp:341
+#, kde-format
 msgid ""
 "The nspluginscan executable cannot be found. Netscape plugins will not be "
 "scanned."
 msgstr "nspluginscan నిర్వర్తని కనుగొన బడలేదు. నెట్‌స్కేప్ ప్లగ్‌యిన్స్ స్కాన్ కాబడవు."
 
 #: pluginopts.cpp:348
+#, kde-format
 msgid "Scanning for plugins"
 msgstr "ప్లగ్‌యిన్స్ కొరకు స్కానింగ్"
 
 #: pluginopts.cpp:392
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Select Plugin Scan Folder"
 msgctxt "@title:window"
 msgid "Select Plugin Scan Folder"
 msgstr "ప్లగ్‌యిన్ స్కాన్ ఫోల్డరును యెంపికచేయుము"
 
 #: pluginopts.cpp:555
+#, kde-format
 msgid "Netscape Plugins"
 msgstr "నెట్‌స్కేప్ ప్లగ్‌యిన్స్"
 
 #: pluginopts.cpp:578
+#, kde-format
 msgid "Plugin"
 msgstr "ప్లగ్‌యిన్"
 
 #: pluginopts.cpp:604
+#, kde-format
 msgid "MIME type"
 msgstr "MIME రకము"
 
 #: pluginopts.cpp:607
+#, kde-format
 msgid "Description"
 msgstr "వర్ణన"
 
 #: pluginopts.cpp:610
+#, kde-format
 msgid "Suffixes"
 msgstr "సఫిక్సెస్"
 
 #: pluginopts.cpp:667
+#, kde-format
 msgid "Doma&in-Specific"
 msgstr "(&i) డొమైన్-ప్రత్యేకమైన"
 
 #: pluginopts.cpp:682
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "New Plugin Policy"
 msgctxt "@title:window"
 msgid "New Plugin Policy"
 msgstr "కొత్త ప్లగ్‌యిన్ విధానము"
 
 #: pluginopts.cpp:685
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Change Plugin Policy"
 msgctxt "@title:window"
 msgid "Change Plugin Policy"
 msgstr "ప్లగ్‌యిన్ విధానమును మార్చుము"
 
 #: pluginopts.cpp:689
+#, kde-format
 msgid "&Plugin policy:"
 msgstr "(&P) ప్లగ్‌యిన్ విధానము:"
 
 #: pluginopts.cpp:690
+#, kde-format
 msgid "Select a plugin policy for the above host or domain."
 msgstr "పై హోస్టు లేదా డొమైన్‌ కొరకు ప్లగ్‌యిన్ విధానమును యెంపికచేయుము."
 
 #: policydlg.cpp:42
+#, kde-format
 msgid "&Host or domain name:"
 msgstr "(&H) హోస్టు లేదా డొమైన్ పేరు:"
 
 #: policydlg.cpp:51
+#, kde-format
 msgid ""
 "Enter the name of a host (like www.kde.org) or a domain, starting with a dot "
 "(like .kde.org or .org)"
@@ -2028,6 +2363,7 @@ msgstr ""
 "ప్రవేశపెట్టుము."
 
 #: policydlg.cpp:131
+#, kde-format
 msgid "You must first enter a domain name."
 msgstr "మీరు ముందు తప్పక డొమైన్ పేరును ప్రవేశపెట్టవలెను."
 

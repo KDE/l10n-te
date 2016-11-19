@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-27 20:58+0000\n"
+"POT-Creation-Date: 2016-11-19 20:12+0100\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -46,10 +46,12 @@ msgid "library only takes 1 argument, not %1."
 msgstr "గ్రంధాలయం మాత్రమే 1 వాదనను తీసుకుంటుంది, కాదు%1."
 
 #: kjsembed/builtins.cpp:137
+#, kde-format
 msgid "Alert"
 msgstr "హెచ్చరిక"
 
 #: kjsembed/builtins.cpp:147
+#, kde-format
 msgid "Confirm"
 msgstr "నిర్ధారించు"
 
@@ -69,6 +71,7 @@ msgid "Could not open file '%1'"
 msgstr "'%1' దస్త్రాన్ని తెరువలేకపోయాను"
 
 #: kjsembed/fileio.cpp:106
+#, kde-format
 msgid "Could not create temporary file."
 msgstr "తాత్కాలిక దస్త్రాన్ని సృష్టించలేను."
 
@@ -83,14 +86,17 @@ msgid "%1 is not an Object type"
 msgstr "%1 ఆబ్జక్టు రకము కాదు"
 
 #: kjsembed/qaction_binding.cpp:57
+#, kde-format
 msgid "Action takes 2 args."
 msgstr "చర్య 2 వాదనల తీసుకుంటుంది."
 
 #: kjsembed/qaction_binding.cpp:79
+#, kde-format
 msgid "ActionGroup takes 2 args."
 msgstr "చర్య గుంపు 2 వాదనల తీసుకుంటుంది."
 
 #: kjsembed/qaction_binding.cpp:84
+#, kde-format
 msgid "Must supply a valid parent."
 msgstr "ఒక వర్తించు మూల తప్పక సరఫరాచేయలి"
 
@@ -105,6 +111,7 @@ msgid "Could not read file '%1'"
 msgstr "'%1' దస్త్రాన్ని చదువలేను."
 
 #: kjsembed/qformbuilder_binding.cpp:67 kjsembed/quiloader_binding.cpp:124
+#, kde-format
 msgid "Must supply a filename."
 msgstr "తప్పక ఫైలుపేరును అందివ్వాలి."
 
@@ -114,18 +121,22 @@ msgid "'%1' is not a valid QLayout."
 msgstr "'%1' సరైన Qకూర్పు కాదు."
 
 #: kjsembed/qlayout_binding.cpp:93
+#, kde-format
 msgid "Must supply a layout name."
 msgstr "తప్పక కూర్పు పేరును అందివ్వాలి."
 
 #: kjsembed/qobject_binding.cpp:141
+#, kde-format
 msgid "Wrong object type."
 msgstr "సరికాని ఆబ్జక్టు రకము."
 
 #: kjsembed/qobject_binding.cpp:148
+#, kde-format
 msgid "First argument must be a QObject."
 msgstr "మొదటి ఆర్గుమెంటు తప్పక Qఆబ్జక్టు అయివుండాలి."
 
 #: kjsembed/qobject_binding.cpp:182
+#, kde-format
 msgid "Incorrect number of arguments."
 msgstr "సరికాని అర్గుమెంట్ల సంఖ్య."
 
@@ -178,34 +189,42 @@ msgid "Call to '%1' failed."
 msgstr "'%1' కొరకు కాల్ విఫలము."
 
 #: kjsembed/qobject_binding.cpp:793
+#, kde-format
 msgid "Could not construct value"
 msgstr "విలువ ను తయరు చెయలెకపొయాను."
 
 #: kjsembed/quiloader_binding.cpp:49
+#, kde-format
 msgid "Not enough arguments."
 msgstr "చాలినంత వాదనలు లేదు."
 
 #: kjsembed/quiloader_binding.cpp:68
+#, kde-format
 msgid "Failed to create Action."
 msgstr "చర్యను సృష్టించుటకు విఫలమైంది."
 
 #: kjsembed/quiloader_binding.cpp:82
+#, kde-format
 msgid "Failed to create ActionGroup."
 msgstr "చర్యాసమూహంను సృష్టించుటకు విఫలమైంది."
 
 #: kjsembed/quiloader_binding.cpp:90
+#, kde-format
 msgid "No classname specified"
 msgstr "ఏ క్లాస్‌పేరు తెలుపబడిలేదు"
 
 #: kjsembed/quiloader_binding.cpp:98
+#, kde-format
 msgid "Failed to create Layout."
 msgstr "కూర్పు సృష్టించుటకు విఫలమైంది."
 
 #: kjsembed/quiloader_binding.cpp:107
+#, kde-format
 msgid "No classname specified."
 msgstr "ఏ క్లాస్‌పేరు తెలుపబడిలేదు."
 
 #: kjsembed/quiloader_binding.cpp:115
+#, kde-format
 msgid "Failed to create Widget."
 msgstr "విడ్జట్ సృష్టించుటకు విఫలమైంది."
 
@@ -225,6 +244,7 @@ msgid "'%1' is not a valid QWidget."
 msgstr "%1 ఇది చేల్లుబాటు కన్ని Q విడ్జెట్ "
 
 #: kjsembed/qwidget_binding.cpp:170
+#, kde-format
 msgid "Must supply a widget name."
 msgstr "ఒక విడ్జెట్ పేరు తప్పకుండ సరఫరాచేయు  "
 
@@ -746,9 +766,9 @@ msgstr "%1 స్లాట్ నుండి %2:%3%4 పిలువుటల�
 #~ msgstr ""
 #~ "<qt>\n"
 #~ "<p>ఇక్కడ వచన ప్రతిభాశాలి (టెక్స్టు ఎక్సుపర్టు) తెలియని పదమును దాని సందర్భములో చూపించు "
-#~ "చూడవచ్చు. తెలియని పదమును సరైనదానితో వుంచుటకు ఈ సమాచారము సరిపోకపోతే, మీరు సరిదిద్దుతున్న"
-#~ "(ప్రూఫింగ్) పత్రముపై నొక్కవచ్చు, వచనముయొక్క పెద్దభాగమును చదివి అప్పుడు యిక్కడకు తిరిగివచ్చి "
-#~ "ప్రూఫింగ్ కొనసాగించవచ్చు.</p>\n"
+#~ "చూడవచ్చు. తెలియని పదమును సరైనదానితో వుంచుటకు ఈ సమాచారము సరిపోకపోతే, మీరు "
+#~ "సరిదిద్దుతున్న(ప్రూఫింగ్) పత్రముపై నొక్కవచ్చు, వచనముయొక్క పెద్దభాగమును చదివి అప్పుడు యిక్కడకు "
+#~ "తిరిగివచ్చి ప్రూఫింగ్ కొనసాగించవచ్చు.</p>\n"
 #~ "</qt>"
 
 #~ msgid "... the <b>misspelled</b> word shown in context ..."
