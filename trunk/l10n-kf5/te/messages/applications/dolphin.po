@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-01-13 03:38+0100\n"
+"POT-Creation-Date: 2017-01-15 03:59+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -41,7 +41,7 @@ msgctxt "@action:inmenu"
 msgid "Restore"
 msgstr "తిరిగివుంచుము"
 
-#: dolphincontextmenu.cpp:218 dolphinmainwindow.cpp:979
+#: dolphincontextmenu.cpp:218 dolphinmainwindow.cpp:983
 #, kde-format
 msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
@@ -186,25 +186,25 @@ msgctxt "@action:inmenu"
 msgid "Help"
 msgstr ""
 
-#: dolphinmainwindow.cpp:987
+#: dolphinmainwindow.cpp:991
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "New &Window"
 msgstr "(&W) కొత్త విండొ"
 
-#: dolphinmainwindow.cpp:993
+#: dolphinmainwindow.cpp:997
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "New Tab"
 msgstr "కొత్త టాబ్"
 
-#: dolphinmainwindow.cpp:999
+#: dolphinmainwindow.cpp:1003
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Close Tab"
 msgstr "టాబ్‌ను మూయుము"
 
-#: dolphinmainwindow.cpp:1022
+#: dolphinmainwindow.cpp:1026
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
@@ -212,31 +212,31 @@ msgctxt "@action:inmenu Edit"
 msgid "Paste"
 msgstr "అతికించుము"
 
-#: dolphinmainwindow.cpp:1027
+#: dolphinmainwindow.cpp:1031
 #, kde-format
 msgctxt "@action:inmenu Edit"
 msgid "Select All"
 msgstr "అన్నిటిని ఎంపికచేయుము"
 
-#: dolphinmainwindow.cpp:1032 dolphinpart.cpp:191
+#: dolphinmainwindow.cpp:1036 dolphinpart.cpp:191
 #, kde-format
 msgctxt "@action:inmenu Edit"
 msgid "Invert Selection"
 msgstr "విలోమ యెంపిక"
 
-#: dolphinmainwindow.cpp:1044
+#: dolphinmainwindow.cpp:1048
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Reload"
 msgstr "తిరిగిలోడ్‌చేయి"
 
-#: dolphinmainwindow.cpp:1050
+#: dolphinmainwindow.cpp:1054
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Stop"
 msgstr "ఆపుము"
 
-#: dolphinmainwindow.cpp:1051
+#: dolphinmainwindow.cpp:1055
 #, fuzzy, kde-format
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -244,19 +244,19 @@ msgctxt "@info"
 msgid "Stop loading"
 msgstr "వరుసక్రమము:"
 
-#: dolphinmainwindow.cpp:1056
+#: dolphinmainwindow.cpp:1060
 #, kde-format
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Editable Location"
 msgstr "సరికూర్చదగిన స్థానము"
 
-#: dolphinmainwindow.cpp:1061
+#: dolphinmainwindow.cpp:1065
 #, kde-format
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Replace Location"
 msgstr "స్థానమును పునఃస్థాపించుము"
 
-#: dolphinmainwindow.cpp:1081
+#: dolphinmainwindow.cpp:1085
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu File"
 #| msgid "Close Tab"
@@ -264,19 +264,19 @@ msgctxt "@action:inmenu File"
 msgid "Undo close tab"
 msgstr "టాబ్‌ను మూయుము"
 
-#: dolphinmainwindow.cpp:1096
+#: dolphinmainwindow.cpp:1100
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Show Filter Bar"
 msgstr "ఫిల్టర్ బార్‌ను చూపుము"
 
-#: dolphinmainwindow.cpp:1102
+#: dolphinmainwindow.cpp:1106
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Compare Files"
 msgstr "ఫైళ్ళను పోల్చిచూడుము"
 
-#: dolphinmainwindow.cpp:1109
+#: dolphinmainwindow.cpp:1113
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Tools"
 #| msgid "Open &Terminal"
@@ -284,7 +284,7 @@ msgctxt "@action:inmenu Tools"
 msgid "Open Terminal"
 msgstr "(&T) టెర్మినల్‌ను తెరువుము"
 
-#: dolphinmainwindow.cpp:1129
+#: dolphinmainwindow.cpp:1133
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "New Tab"
@@ -292,13 +292,13 @@ msgctxt "@action:inmenu"
 msgid "Next Tab"
 msgstr "కొత్త టాబ్"
 
-#: dolphinmainwindow.cpp:1130
+#: dolphinmainwindow.cpp:1134
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Activate Next Tab"
 msgstr "తరువాతి టాబ్‌ను క్రియాశీలంచేయుము"
 
-#: dolphinmainwindow.cpp:1136
+#: dolphinmainwindow.cpp:1140
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Activate Previous Tab"
@@ -306,19 +306,19 @@ msgctxt "@action:inmenu"
 msgid "Previous Tab"
 msgstr "గత టాబ్‌ను క్రియాశీలంచేయుము"
 
-#: dolphinmainwindow.cpp:1137
+#: dolphinmainwindow.cpp:1141
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Activate Previous Tab"
 msgstr "గత టాబ్‌ను క్రియాశీలంచేయుము"
 
-#: dolphinmainwindow.cpp:1144
+#: dolphinmainwindow.cpp:1148
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in New Tab"
 msgstr "కొత్త టాబ్‌నందు తెరువుము"
 
-#: dolphinmainwindow.cpp:1149
+#: dolphinmainwindow.cpp:1153
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Open in New Tab"
@@ -326,13 +326,13 @@ msgctxt "@action:inmenu"
 msgid "Open in New Tabs"
 msgstr "కొత్త టాబ్‌నందు తెరువుము"
 
-#: dolphinmainwindow.cpp:1154
+#: dolphinmainwindow.cpp:1158
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in New Window"
 msgstr "కొత్త విండోనందు తెరువుము"
 
-#: dolphinmainwindow.cpp:1164
+#: dolphinmainwindow.cpp:1168
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Panels"
@@ -340,7 +340,7 @@ msgctxt "@action:inmenu Panels"
 msgid "Unlock Panels"
 msgstr "ప్యానల్స్"
 
-#: dolphinmainwindow.cpp:1166
+#: dolphinmainwindow.cpp:1170
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Panels"
@@ -348,31 +348,31 @@ msgctxt "@action:inmenu Panels"
 msgid "Lock Panels"
 msgstr "ప్యానల్స్"
 
-#: dolphinmainwindow.cpp:1172
+#: dolphinmainwindow.cpp:1176
 #, kde-format
 msgctxt "@title:window"
 msgid "Information"
 msgstr "సమాచారం"
 
-#: dolphinmainwindow.cpp:1193
+#: dolphinmainwindow.cpp:1197
 #, kde-format
 msgctxt "@title:window"
 msgid "Folders"
 msgstr "ఫోల్డర్లు"
 
-#: dolphinmainwindow.cpp:1217
+#: dolphinmainwindow.cpp:1221
 #, kde-format
 msgctxt "@title:window Shell terminal"
 msgid "Terminal"
 msgstr "టెర్మినల్"
 
-#: dolphinmainwindow.cpp:1249
+#: dolphinmainwindow.cpp:1253
 #, kde-format
 msgctxt "@title:window"
 msgid "Places"
 msgstr "స్థలములు"
 
-#: dolphinmainwindow.cpp:1278
+#: dolphinmainwindow.cpp:1282
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Panels"
@@ -380,43 +380,43 @@ msgctxt "@action:inmenu View"
 msgid "Panels"
 msgstr "ప్యానల్స్"
 
-#: dolphinmainwindow.cpp:1348
+#: dolphinmainwindow.cpp:1352
 #, kde-format
 msgctxt "@action"
 msgid "Control"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1461
+#: dolphinmainwindow.cpp:1466
 #, kde-format
 msgctxt "@action:intoolbar Close left view"
 msgid "Close"
 msgstr "మూయి"
 
-#: dolphinmainwindow.cpp:1462
+#: dolphinmainwindow.cpp:1467
 #, kde-format
 msgctxt "@info"
 msgid "Close left view"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1465
+#: dolphinmainwindow.cpp:1470
 #, kde-format
 msgctxt "@action:intoolbar Close right view"
 msgid "Close"
 msgstr "మూయి"
 
-#: dolphinmainwindow.cpp:1466
+#: dolphinmainwindow.cpp:1471
 #, kde-format
 msgctxt "@info"
 msgid "Close right view"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1470
+#: dolphinmainwindow.cpp:1475
 #, kde-format
 msgctxt "@action:intoolbar Split view"
 msgid "Split"
 msgstr "విభజించు"
 
-#: dolphinmainwindow.cpp:1471
+#: dolphinmainwindow.cpp:1476
 #, fuzzy, kde-format
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"
@@ -2335,15 +2335,23 @@ msgstr ""
 msgid "Should the full path be shown inside the location bar"
 msgstr "స్థానపు పట్టీ లోపల పూర్తి పాత్ చూపవలెను"
 
-#. i18n: ectx: label, entry (Version), group (General)
+#. i18n: ectx: label, entry (ShowFullPathInTitlebar), group (General)
 #: settings/dolphin_generalsettings.kcfg:26
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Should the full path be shown inside the location bar"
+msgid "Should the full path be shown in the title bar"
+msgstr "స్థానపు పట్టీ లోపల పూర్తి పాత్ చూపవలెను"
+
+#. i18n: ectx: label, entry (Version), group (General)
+#: settings/dolphin_generalsettings.kcfg:30
 #, kde-format
 msgid ""
 "Internal version of Dolphin, containing 3 digits for major, minor, bugfix"
 msgstr ""
 
 #. i18n: ectx: label, entry (ModifiedStartupSettings), group (General)
-#: settings/dolphin_generalsettings.kcfg:30
+#: settings/dolphin_generalsettings.kcfg:34
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Is the application started the first time"
@@ -2353,7 +2361,7 @@ msgid ""
 msgstr "అనువర్తనము మొదటి సారి ప్రారంభమైనదా"
 
 #. i18n: ectx: label, entry (HomeUrl), group (General)
-#: settings/dolphin_generalsettings.kcfg:34
+#: settings/dolphin_generalsettings.kcfg:38
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Home URL"
@@ -2361,7 +2369,7 @@ msgid "Home URL"
 msgstr "నివాస URL"
 
 #. i18n: ectx: label, entry (SplitView), group (General)
-#: settings/dolphin_generalsettings.kcfg:38
+#: settings/dolphin_generalsettings.kcfg:42
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Split the view into two panes"
@@ -2369,7 +2377,7 @@ msgid "Split the view into two panes"
 msgstr "వీక్షణమును రెండు పేన్స్  లోనికి విభజించుము"
 
 #. i18n: ectx: label, entry (FilterBar), group (General)
-#: settings/dolphin_generalsettings.kcfg:42
+#: settings/dolphin_generalsettings.kcfg:46
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Should the filter bar be shown"
@@ -2377,7 +2385,7 @@ msgid "Should the filter bar be shown"
 msgstr "ఫిల్టర్ బార్ చూపవలెను"
 
 #. i18n: ectx: label, entry (GlobalViewProps), group (General)
-#: settings/dolphin_generalsettings.kcfg:46
+#: settings/dolphin_generalsettings.kcfg:50
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Should the view properties be used for all directories"
@@ -2385,7 +2393,7 @@ msgid "Should the view properties be used for all folders"
 msgstr "వీక్షణ గుణములు అన్ని డైరెక్టరీలకు వుపయోగించబడాలా"
 
 #. i18n: ectx: label, entry (BrowseThroughArchives), group (General)
-#: settings/dolphin_generalsettings.kcfg:50
+#: settings/dolphin_generalsettings.kcfg:54
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Browse through archives"
@@ -2393,13 +2401,13 @@ msgid "Browse through archives"
 msgstr "ఆర్చీవ్సు ద్వారా బ్రౌజ్ చేయి"
 
 #. i18n: ectx: label, entry (ConfirmClosingMultipleTabs), group (General)
-#: settings/dolphin_generalsettings.kcfg:54
+#: settings/dolphin_generalsettings.kcfg:58
 #, kde-format
 msgid "Ask for confirmation when closing windows with multiple tabs."
 msgstr ""
 
 #. i18n: ectx: label, entry (RenameInline), group (General)
-#: settings/dolphin_generalsettings.kcfg:58
+#: settings/dolphin_generalsettings.kcfg:62
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Rename inline"
@@ -2407,7 +2415,7 @@ msgid "Rename inline"
 msgstr "ఇన్‌లైన్‌ను పునఃనామకరణ చేయుము"
 
 #. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
-#: settings/dolphin_generalsettings.kcfg:62
+#: settings/dolphin_generalsettings.kcfg:66
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show selection toggle"
@@ -2415,13 +2423,13 @@ msgid "Show selection toggle"
 msgstr "ఎంపిక టోగుల్‌ను చూపుము"
 
 #. i18n: ectx: label, entry (UseTabForSwitchingSplitView), group (General)
-#: settings/dolphin_generalsettings.kcfg:66
+#: settings/dolphin_generalsettings.kcfg:70
 #, kde-format
 msgid "Use tab for switching between right and left split"
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowToolTips), group (General)
-#: settings/dolphin_generalsettings.kcfg:70
+#: settings/dolphin_generalsettings.kcfg:74
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show tooltips"
@@ -2429,7 +2437,7 @@ msgid "Show tooltips"
 msgstr "పనిముట్టుచిట్కాను చూపుము"
 
 #. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
-#: settings/dolphin_generalsettings.kcfg:74
+#: settings/dolphin_generalsettings.kcfg:78
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show 'Copy To' and 'Move To' commands in context menu"
@@ -2437,7 +2445,7 @@ msgid "Show 'Copy To' and 'Move To' commands in context menu"
 msgstr "కాన్టెక్స్టు మెనూనందు 'ఇక్కడకు నకలుతీయి' మరియు 'ఇక్కడకు కదుపు' ఆదేశములను చూపుము"
 
 #. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
-#: settings/dolphin_generalsettings.kcfg:78
+#: settings/dolphin_generalsettings.kcfg:82
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Timestamp since when the view properties are valid"
@@ -2445,7 +2453,7 @@ msgid "Timestamp since when the view properties are valid"
 msgstr "వీక్షణ గుణాలు చెల్లునప్పటినుండి టైమ్‌స్టాంప్"
 
 #. i18n: ectx: label, entry (AutoExpandFolders), group (General)
-#: settings/dolphin_generalsettings.kcfg:81
+#: settings/dolphin_generalsettings.kcfg:85
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Use auto-expanding folders for all view types"
@@ -2453,7 +2461,7 @@ msgid "Use auto-expanding folders for all view types"
 msgstr "అన్ని వీక్షణ రకములకు స్వయంచాలక-విస్తరింపు ఫోల్డర్లను వుపయోగించుము"
 
 #. i18n: ectx: label, entry (ShowZoomSlider), group (General)
-#: settings/dolphin_generalsettings.kcfg:85
+#: settings/dolphin_generalsettings.kcfg:89
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show zoom slider in the statusbar"
@@ -2461,7 +2469,7 @@ msgid "Show zoom slider in the statusbar"
 msgstr "స్థితిపట్టీనందు జూమ్ స్లైడర్‌ను చూపుము"
 
 #. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
-#: settings/dolphin_generalsettings.kcfg:89
+#: settings/dolphin_generalsettings.kcfg:93
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show the space information in the statusbar"
@@ -2469,19 +2477,19 @@ msgid "Show the space information in the statusbar"
 msgstr "స్థితిపట్టీనందు జాగా సమాచారమును చూపుము"
 
 #. i18n: ectx: label, entry (LockPanels), group (General)
-#: settings/dolphin_generalsettings.kcfg:93
+#: settings/dolphin_generalsettings.kcfg:97
 #, kde-format
 msgid "Lock the layout of the panels"
 msgstr ""
 
 #. i18n: ectx: label, entry (EnlargeSmallPreviews), group (General)
-#: settings/dolphin_generalsettings.kcfg:97
+#: settings/dolphin_generalsettings.kcfg:101
 #, kde-format
 msgid "Enlarge Small Previews"
 msgstr ""
 
 #. i18n: ectx: label, entry (SortingChoice), group (General)
-#: settings/dolphin_generalsettings.kcfg:106
+#: settings/dolphin_generalsettings.kcfg:110
 #, kde-format
 msgid ""
 "Choose Natural, Case Sensitive, or Case Insensitive order of sorting the "
@@ -2817,19 +2825,19 @@ msgctxt "@item:inmenu"
 msgid "%1: %2"
 msgstr "%1 (%2)"
 
-#: settings/startup/startupsettingspage.cpp:58
+#: settings/startup/startupsettingspage.cpp:59
 #, kde-format
 msgctxt "@title:group"
 msgid "Home Folder"
 msgstr "ఇంటి ఫొల్డర్"
 
-#: settings/startup/startupsettingspage.cpp:65
+#: settings/startup/startupsettingspage.cpp:66
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Location:"
 msgstr "స్థానము:"
 
-#: settings/startup/startupsettingspage.cpp:75
+#: settings/startup/startupsettingspage.cpp:76
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Navigation Bar"
 #| msgid "Replace Location"
@@ -2837,43 +2845,51 @@ msgctxt "@action:button"
 msgid "Select Home Location"
 msgstr "స్థానమును పునఃస్థాపించుము"
 
-#: settings/startup/startupsettingspage.cpp:85
+#: settings/startup/startupsettingspage.cpp:86
 #, kde-format
 msgctxt "@action:button"
 msgid "Use Current Location"
 msgstr "ప్రస్తుత స్థానమును వుపయోగించుము"
 
-#: settings/startup/startupsettingspage.cpp:89
+#: settings/startup/startupsettingspage.cpp:90
 #, kde-format
 msgctxt "@action:button"
 msgid "Use Default Location"
 msgstr "అప్రమేయ స్థానమును వుపయోగించుము"
 
-#: settings/startup/startupsettingspage.cpp:99
+#: settings/startup/startupsettingspage.cpp:100
 #, kde-format
 msgctxt "@option:check Startup Settings"
 msgid "Split view mode"
 msgstr "వీక్షణ తీరును విభజించుము"
 
-#: settings/startup/startupsettingspage.cpp:101
+#: settings/startup/startupsettingspage.cpp:102
 #, kde-format
 msgctxt "@option:check Startup Settings"
 msgid "Editable location bar"
 msgstr "సరికూర్చ దగిన స్థానపు పట్టీ"
 
-#: settings/startup/startupsettingspage.cpp:103
+#: settings/startup/startupsettingspage.cpp:104
 #, kde-format
 msgctxt "@option:check Startup Settings"
 msgid "Show full path inside location bar"
 msgstr "స్థానపు పట్టీ లొపలవైపు పూర్తి పాత్‌ను చూపుము"
 
-#: settings/startup/startupsettingspage.cpp:105
+#: settings/startup/startupsettingspage.cpp:106
 #, kde-format
 msgctxt "@option:check Startup Settings"
 msgid "Show filter bar"
 msgstr "ఫిల్టర్ బార్‌ను చూపుము"
 
-#: settings/startup/startupsettingspage.cpp:137
+#: settings/startup/startupsettingspage.cpp:108
+#, fuzzy, kde-format
+#| msgctxt "@option:check Startup Settings"
+#| msgid "Show full path inside location bar"
+msgctxt "@option:check Startup Settings"
+msgid "Show full path in title bar"
+msgstr "స్థానపు పట్టీ లొపలవైపు పూర్తి పాత్‌ను చూపుము"
+
+#: settings/startup/startupsettingspage.cpp:141
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "The location for the home folder is invalid and will not be applied."
@@ -3547,7 +3563,7 @@ msgctxt "@action:inmenu View"
 msgid "Adjust View Properties..."
 msgstr "వీక్షణ గుణాలను సర్దుము..."
 
-#: views/dolphinviewactionhandler.cpp:497
+#: views/dolphinviewactionhandler.cpp:503
 #, fuzzy, kde-format
 #| msgctxt "@title:tab"
 #| msgid "Icons"
@@ -3555,7 +3571,7 @@ msgctxt "@action:inmenu View Mode"
 msgid "Icons"
 msgstr "ప్రతిమలు"
 
-#: views/dolphinviewactionhandler.cpp:498
+#: views/dolphinviewactionhandler.cpp:504
 #, fuzzy, kde-format
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"
@@ -3563,13 +3579,13 @@ msgctxt "@info"
 msgid "Icons view mode"
 msgstr "వీక్షణ తీరును విభజించుము"
 
-#: views/dolphinviewactionhandler.cpp:508
+#: views/dolphinviewactionhandler.cpp:514
 #, kde-format
 msgctxt "@action:inmenu View Mode"
 msgid "Compact"
 msgstr ""
 
-#: views/dolphinviewactionhandler.cpp:509
+#: views/dolphinviewactionhandler.cpp:515
 #, fuzzy, kde-format
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"
@@ -3577,7 +3593,7 @@ msgctxt "@info"
 msgid "Compact view mode"
 msgstr "వీక్షణ తీరును విభజించుము"
 
-#: views/dolphinviewactionhandler.cpp:519
+#: views/dolphinviewactionhandler.cpp:525
 #, fuzzy, kde-format
 #| msgctxt "@title:tab"
 #| msgid "Details"
@@ -3585,7 +3601,7 @@ msgctxt "@action:inmenu View Mode"
 msgid "Details"
 msgstr "వివరాలు"
 
-#: views/dolphinviewactionhandler.cpp:520
+#: views/dolphinviewactionhandler.cpp:526
 #, fuzzy, kde-format
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"
