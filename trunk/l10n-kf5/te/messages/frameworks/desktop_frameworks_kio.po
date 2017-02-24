@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-06 03:13+0000\n"
+"POT-Creation-Date: 2017-02-24 03:18+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -39,6 +39,19 @@ msgstr "ఎస్ ఎఫ్ టి పి కొరకు ఐఒ బానిస
 #: src/ioslaves/protocols/mms.protocol:10
 msgctxt "Description"
 msgid "Microsoft Media Server Protocol"
+msgstr ""
+
+#: src/ioslaves/remote/kdedmodule/remotedirnotify.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDED Remote Base URL Notifier"
+msgctxt "Name"
+msgid "Remote URL Change Notifier"
+msgstr "KDED దూరస్థ సంభంద URL గమనిక"
+
+#: src/ioslaves/remote/kdedmodule/remotedirnotify.desktop:48
+msgctxt "Comment"
+msgid "Provides change notification for network folders"
 msgstr ""
 
 #: src/ioslaves/telnet/ktelnetservice5.desktop:10
@@ -2854,13 +2867,6 @@ msgstr "టాబ్ బ్రౌజింగ్"
 #~ msgctxt "Comment"
 #~ msgid "Monitors \"Recent Documents\" folder for changes"
 #~ msgstr "ఇటీవలి పత్రములు"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDED Remote Base URL Notifier"
-#~ msgctxt "Name"
-#~ msgid "Remote URL Change Notifier"
-#~ msgstr "KDED దూరస్థ సంభంద URL గమనిక"
 
 #~ msgctxt "Name"
 #~ msgid "Samba Shares"
