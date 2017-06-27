@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-06-26 02:57+0200\n"
+"POT-Creation-Date: 2017-06-27 03:05+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1828,7 +1828,7 @@ msgctxt "@title"
 msgid "Konsole"
 msgstr "కాన్సోల్"
 
-#: main.cpp:99 tests/demo_konsolepart/src/main.cpp:41
+#: main.cpp:99
 #, fuzzy, kde-format
 #| msgid "Terminal emulator"
 msgctxt "@title"
@@ -3437,19 +3437,6 @@ msgstr "ఎంచుకొన్న దానిని అతికించు"
 msgid "Change &Directory To"
 msgstr ""
 
-#: tests/demo_konsolepart/src/main.cpp:39
-#, fuzzy, kde-format
-#| msgid "Konsole"
-msgctxt "@title"
-msgid "Demo KonsolePart"
-msgstr "కాన్సోల్"
-
-#: tests/demo_konsolepart/src/main.cpp:43
-#, kde-format
-msgctxt "@info:credit"
-msgid "(c) 2017, The Konsole Developers"
-msgstr ""
-
 #: ViewContainer.cpp:300
 #, fuzzy, kde-format
 #| msgid "&Detach View"
@@ -3612,6 +3599,12 @@ msgstr ""
 #, kde-format
 msgid "&Stop"
 msgstr "(&S) ఆపు"
+
+#, fuzzy
+#~| msgid "Konsole"
+#~ msgctxt "@title"
+#~ msgid "Demo KonsolePart"
+#~ msgstr "కాన్సోల్"
 
 #, fuzzy
 #~| msgid "Show in Menu"
