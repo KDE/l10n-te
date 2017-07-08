@@ -520,42 +520,42 @@ msgid "%1 YiB"
 msgstr "%1 yఐ"
 
 #. @item:intext Duration format minutes, seconds and milliseconds
-#: lib/util/kformatprivate.cpp:205
+#: lib/util/kformatprivate.cpp:211
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1m%2.%3s"
 msgstr ""
 
 #. @item:intext Duration format minutes and seconds
-#: lib/util/kformatprivate.cpp:210
+#: lib/util/kformatprivate.cpp:216
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1m%2s"
 msgstr ""
 
 #. @item:intext Duration format hours and minutes
-#: lib/util/kformatprivate.cpp:214
+#: lib/util/kformatprivate.cpp:220
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1h%2m"
 msgstr ""
 
 #. @item:intext Duration format hours, minutes, seconds, milliseconds
-#: lib/util/kformatprivate.cpp:218
+#: lib/util/kformatprivate.cpp:224
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1h%2m%3.%4s"
 msgstr ""
 
 #. @item:intext Duration format hours, minutes, seconds
-#: lib/util/kformatprivate.cpp:224
+#: lib/util/kformatprivate.cpp:230
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1h%2m%3s"
 msgstr ""
 
 #. @item:intext Duration format minutes, seconds and milliseconds
-#: lib/util/kformatprivate.cpp:234
+#: lib/util/kformatprivate.cpp:240
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1:%2.%3"
@@ -564,28 +564,28 @@ msgstr ""
 #. @item:intext Duration format minutes and seconds
 #. ----------
 #. @item:intext Duration format hours and minutes
-#: lib/util/kformatprivate.cpp:239 lib/util/kformatprivate.cpp:243
+#: lib/util/kformatprivate.cpp:245 lib/util/kformatprivate.cpp:249
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1:%2"
 msgstr ""
 
 #. @item:intext Duration format hours, minutes, seconds, milliseconds
-#: lib/util/kformatprivate.cpp:247
+#: lib/util/kformatprivate.cpp:253
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1:%2:%3.%4"
 msgstr ""
 
 #. @item:intext Duration format hours, minutes, seconds
-#: lib/util/kformatprivate.cpp:253
+#: lib/util/kformatprivate.cpp:259
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1:%2:%3"
 msgstr ""
 
 #. @item:intext %1 is a real number, e.g. 1.23 days
-#: lib/util/kformatprivate.cpp:268
+#: lib/util/kformatprivate.cpp:274
 #, fuzzy, qt-format
 #| msgctxt "@item:intext %1 is a real number, e.g. 1.23 days"
 #| msgid "%1 days"
@@ -594,7 +594,7 @@ msgid "%1 days"
 msgstr "%1 రొజు"
 
 #. @item:intext %1 is a real number, e.g. 1.23 hours
-#: lib/util/kformatprivate.cpp:271
+#: lib/util/kformatprivate.cpp:277
 #, fuzzy, qt-format
 #| msgctxt "@item:intext %1 is a real number, e.g. 1.23 hours"
 #| msgid "%1 hours"
@@ -603,7 +603,7 @@ msgid "%1 hours"
 msgstr "%1 గంట"
 
 #. @item:intext %1 is a real number, e.g. 1.23 minutes
-#: lib/util/kformatprivate.cpp:274
+#: lib/util/kformatprivate.cpp:280
 #, fuzzy, qt-format
 #| msgctxt "@item:intext %1 is a real number, e.g. 1.23 minutes"
 #| msgid "%1 minutes"
@@ -612,7 +612,7 @@ msgid "%1 minutes"
 msgstr "%1 నిమిష"
 
 #. @item:intext %1 is a real number, e.g. 1.23 seconds
-#: lib/util/kformatprivate.cpp:277
+#: lib/util/kformatprivate.cpp:283
 #, fuzzy, qt-format
 #| msgctxt "@item:intext %1 is a real number, e.g. 1.23 seconds"
 #| msgid "%1 seconds"
@@ -621,7 +621,7 @@ msgid "%1 seconds"
 msgstr "%1 సెక"
 
 #. @item:intext %1 is a whole number
-#: lib/util/kformatprivate.cpp:282
+#: lib/util/kformatprivate.cpp:288
 #, fuzzy, qt-format
 #| msgctxt "@item:intext"
 #| msgid "%1 millisecond"
@@ -631,7 +631,7 @@ msgid "%n millisecond(s)"
 msgstr "%1 మిల్లిసెకనుడు"
 
 #. @item:intext %n is a whole number
-#: lib/util/kformatprivate.cpp:300
+#: lib/util/kformatprivate.cpp:306
 #, fuzzy, qt-format
 #| msgctxt "@item:intext %1 is a real number, e.g. 1.23 days"
 #| msgid "%1 days"
@@ -640,7 +640,7 @@ msgid "%n day(s)"
 msgstr "%1 రొజు"
 
 #. @item:intext %n is a whole number
-#: lib/util/kformatprivate.cpp:305
+#: lib/util/kformatprivate.cpp:311
 #, fuzzy, qt-format
 #| msgctxt "@item:intext %1 is a real number, e.g. 1.23 hours"
 #| msgid "%1 hours"
@@ -649,7 +649,7 @@ msgid "%n hour(s)"
 msgstr "%1 గంట"
 
 #. @item:intext %n is a whole number
-#: lib/util/kformatprivate.cpp:310
+#: lib/util/kformatprivate.cpp:316
 #, fuzzy, qt-format
 #| msgctxt "@item:intext %1 is a real number, e.g. 1.23 minutes"
 #| msgid "%1 minutes"
@@ -658,7 +658,7 @@ msgid "%n minute(s)"
 msgstr "%1 నిమిష"
 
 #. @item:intext %n is a whole number
-#: lib/util/kformatprivate.cpp:315
+#: lib/util/kformatprivate.cpp:321
 #, fuzzy, qt-format
 #| msgctxt "@item:intext %1 is a real number, e.g. 1.23 seconds"
 #| msgid "%1 seconds"
@@ -671,8 +671,8 @@ msgstr "%1 సెక"
 #. @item:intext hours and minutes. This uses the previous item:intext messages. If this does not fit the grammar of your language please contact the i18n team to solve the problem
 #. ----------
 #. @item:intext minutes and seconds. This uses the previous item:intext messages. If this does not fit the grammar of your language please contact the i18n team to solve the problem
-#: lib/util/kformatprivate.cpp:340 lib/util/kformatprivate.cpp:347
-#: lib/util/kformatprivate.cpp:354
+#: lib/util/kformatprivate.cpp:346 lib/util/kformatprivate.cpp:353
+#: lib/util/kformatprivate.cpp:360
 #, fuzzy, qt-format
 #| msgctxt ""
 #| "@item:intext days and hours. This uses the previous item:intext messages. "
@@ -683,7 +683,7 @@ msgctxt "KFormat|"
 msgid "%1 and %2"
 msgstr "%1 మరియు %2"
 
-#: lib/util/kformatprivate.cpp:366
+#: lib/util/kformatprivate.cpp:372
 #, fuzzy
 #| msgid "Invalid item."
 msgctxt ""
@@ -692,7 +692,7 @@ msgctxt ""
 msgid "Invalid date"
 msgstr "వస్తువు నిస్సారం"
 
-#: lib/util/kformatprivate.cpp:376
+#: lib/util/kformatprivate.cpp:382
 #, fuzzy
 #| msgctxt "@option tomorrow"
 #| msgid "Tomorrow"
@@ -700,21 +700,21 @@ msgctxt "KFormat|"
 msgid "Tomorrow"
 msgstr "మరుసటిరో"
 
-#: lib/util/kformatprivate.cpp:378
+#: lib/util/kformatprivate.cpp:384
 #, fuzzy
 #| msgid "Today"
 msgctxt "KFormat|"
 msgid "Today"
 msgstr "ఈరొజు"
 
-#: lib/util/kformatprivate.cpp:380
+#: lib/util/kformatprivate.cpp:386
 #, fuzzy
 #| msgid "Yesterday"
 msgctxt "KFormat|"
 msgid "Yesterday"
 msgstr "నిన్న"
 
-#: lib/util/kformatprivate.cpp:386
+#: lib/util/kformatprivate.cpp:392
 #, fuzzy
 #| msgctxt "@option last month"
 #| msgid "Last Month"
@@ -722,49 +722,49 @@ msgctxt "KFormat|most recent such day before today"
 msgid "Last Monday"
 msgstr "చివరి నె"
 
-#: lib/util/kformatprivate.cpp:388
+#: lib/util/kformatprivate.cpp:394
 #, fuzzy
 #| msgid "Tuesday"
 msgctxt "KFormat|most recent such day before today"
 msgid "Last Tuesday"
 msgstr "మంగళవారం"
 
-#: lib/util/kformatprivate.cpp:390
+#: lib/util/kformatprivate.cpp:396
 #, fuzzy
 #| msgid "Wednesday"
 msgctxt "KFormat|most recent such day before today"
 msgid "Last Wednesday"
 msgstr "బుధవారం"
 
-#: lib/util/kformatprivate.cpp:392
+#: lib/util/kformatprivate.cpp:398
 #, fuzzy
 #| msgid "Thursday"
 msgctxt "KFormat|most recent such day before today"
 msgid "Last Thursday"
 msgstr "గురువారం"
 
-#: lib/util/kformatprivate.cpp:394
+#: lib/util/kformatprivate.cpp:400
 #, fuzzy
 #| msgid "Friday"
 msgctxt "KFormat|most recent such day before today"
 msgid "Last Friday"
 msgstr "శుక్రవారం"
 
-#: lib/util/kformatprivate.cpp:396
+#: lib/util/kformatprivate.cpp:402
 #, fuzzy
 #| msgid "Saturday"
 msgctxt "KFormat|most recent such day before today"
 msgid "Last Saturday"
 msgstr "శనివారం"
 
-#: lib/util/kformatprivate.cpp:398
+#: lib/util/kformatprivate.cpp:404
 #, fuzzy
 #| msgid "Sunday"
 msgctxt "KFormat|most recent such day before today"
 msgid "Last Sunday"
 msgstr "ఆదివారం"
 
-#: lib/util/kformatprivate.cpp:403
+#: lib/util/kformatprivate.cpp:409
 #, fuzzy
 #| msgctxt "@option next month"
 #| msgid "Next Month"
@@ -772,42 +772,42 @@ msgctxt "KFormat|the next such day after today"
 msgid "Next Monday"
 msgstr "వచ్చే  నెల"
 
-#: lib/util/kformatprivate.cpp:405
+#: lib/util/kformatprivate.cpp:411
 #, fuzzy
 #| msgid "Tuesday"
 msgctxt "KFormat|the next such day after today"
 msgid "Next Tuesday"
 msgstr "మంగళవారం"
 
-#: lib/util/kformatprivate.cpp:407
+#: lib/util/kformatprivate.cpp:413
 #, fuzzy
 #| msgid "Wednesday"
 msgctxt "KFormat|the next such day after today"
 msgid "Next Wednesday"
 msgstr "బుధవారం"
 
-#: lib/util/kformatprivate.cpp:409
+#: lib/util/kformatprivate.cpp:415
 #, fuzzy
 #| msgid "Thursday"
 msgctxt "KFormat|the next such day after today"
 msgid "Next Thursday"
 msgstr "గురువారం"
 
-#: lib/util/kformatprivate.cpp:411
+#: lib/util/kformatprivate.cpp:417
 #, fuzzy
 #| msgid "Friday"
 msgctxt "KFormat|the next such day after today"
 msgid "Next Friday"
 msgstr "శుక్రవారం"
 
-#: lib/util/kformatprivate.cpp:413
+#: lib/util/kformatprivate.cpp:419
 #, fuzzy
 #| msgid "Saturday"
 msgctxt "KFormat|the next such day after today"
 msgid "Next Saturday"
 msgstr "శనివారం"
 
-#: lib/util/kformatprivate.cpp:415
+#: lib/util/kformatprivate.cpp:421
 #, fuzzy
 #| msgid "Sunday"
 msgctxt "KFormat|the next such day after today"
@@ -815,7 +815,7 @@ msgid "Next Sunday"
 msgstr "ఆదివారం"
 
 #. relative datetime with %1 result of formatReleativeDate() and %2 the formatted time If this does not fit the grammar of your language please contact the i18n team to solve the problem
-#: lib/util/kformatprivate.cpp:430
+#: lib/util/kformatprivate.cpp:436
 #, fuzzy, qt-format
 #| msgctxt "City, Country"
 #| msgid "%1, %2"
