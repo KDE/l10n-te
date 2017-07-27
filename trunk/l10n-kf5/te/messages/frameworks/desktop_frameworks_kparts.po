@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-13 08:00+0000\n"
+"POT-Creation-Date: 2017-07-27 01:38+0000\n"
 "PO-Revision-Date: 2005-12-20 15:48+0530\n"
 "Last-Translator: Vijay Kiran Kamuju <infyquest@gmail.com>\n"
 "Language-Team: TELUGU <kde-i18n-doc@kde.org>\n"
@@ -23,6 +23,29 @@ msgstr "అన్వేషి వీక్షణం"
 msgctxt "Comment"
 msgid "KDE Component"
 msgstr "కెడిఈ అంశం"
+
+#: templates/kpartsapp/kpartsapp.kdevtemplate:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application"
+msgctxt "Name"
+msgid "KParts Application"
+msgstr "కార్యక్రమం"
+
+#: templates/kpartsapp/kpartsapp.kdevtemplate:4
+msgctxt "Comment"
+msgid "Generate an application built on the KParts framwork. using CMake."
+msgstr ""
+
+#: templates/kpartsapp/src/part/%{APPNAMELC}part.desktop:3
+msgctxt "Name"
+msgid "%{APPNAME}Part"
+msgstr ""
+
+#: templates/kpartsapp/src/shell/%{APPNAMELC}.desktop:3
+msgctxt "Name"
+msgid "%{APPNAME}"
+msgstr ""
 
 #~ msgctxt "Name"
 #~ msgid "Notepad (example)"
@@ -877,10 +900,6 @@ msgstr "కెడిఈ అంశం"
 #~ msgctxt "Name"
 #~ msgid "Embeddable Component for multipart/mixed"
 #~ msgstr "మల్టిపార్ట్/మిక్స్డ్ కొరకు పొదిగిన అంశం"
-
-#~ msgctxt "Name"
-#~ msgid "Application"
-#~ msgstr "కార్యక్రమం"
 
 #~ msgctxt "Description"
 #~ msgid "A kioslave for data URIs (rfc2397)"
