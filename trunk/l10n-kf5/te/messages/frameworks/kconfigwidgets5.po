@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-01-30 03:49+0100\n"
+"POT-Creation-Date: 2017-08-10 03:23+0200\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -586,16 +586,15 @@ msgstr "(&K) కెడిఈ గురించి"
 
 #: kstandardaction_p.h:116
 #, fuzzy, kde-format
-#| msgid "&Delete"
-msgid "&Delete File"
-msgstr "(&D) తొలగించు"
+#| msgid "Delete"
+msgid "&Delete"
+msgstr "తొలగించు"
 
 #: kstandardaction_p.h:117
 #, fuzzy, kde-format
-#| msgid "&Send File"
-#| msgid_plural "&Send Files"
-msgid "&Rename File"
-msgstr "(&S)దస్త్రం పంపు"
+#| msgid "&Replace..."
+msgid "&Rename..."
+msgstr "(&R) ప్రతిస్థాపించుము..."
 
 #: kstandardaction_p.h:118
 #, kde-format
@@ -641,6 +640,17 @@ msgstr "(&P) ముందు"
 msgctxt "@action:button Goes to next tip, opposite to previous"
 msgid "&Next"
 msgstr "(&N) తరువాత"
+
+#, fuzzy
+#~| msgid "&Delete"
+#~ msgid "&Delete File"
+#~ msgstr "(&D) తొలగించు"
+
+#, fuzzy
+#~| msgid "&Send File"
+#~| msgid_plural "&Send Files"
+#~ msgid "&Rename File"
+#~ msgstr "(&S)దస్త్రం పంపు"
 
 #~ msgid "Name"
 #~ msgstr "పేరు"
@@ -3950,9 +3960,6 @@ msgstr "(&N) తరువాత"
 
 #~ msgid "New..."
 #~ msgstr "కొత్త..."
-
-#~ msgid "Delete"
-#~ msgstr "తొలగించు"
 
 #~ msgid "More Actions"
 #~ msgstr "మరిన్ని చర్యలు"
