@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-08-10 03:24+0200\n"
+"POT-Creation-Date: 2017-08-17 03:21+0200\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -760,12 +760,12 @@ msgstr "%1 కలిగివుండుము, అప్పుడు %2 నె
 msgid "&Help"
 msgstr "(&H) సహాయము"
 
-#: kkeysequencewidget.cpp:135
+#: kkeysequencewidget.cpp:128
 #, kde-format
 msgid "Shortcut '%1' in Application %2 for action %3\n"
 msgstr "అనువర్తనం %2 నందు చర్య %3 కొరకు శీఘ్రమార్గము '%1'\n"
 
-#: kkeysequencewidget.cpp:145
+#: kkeysequencewidget.cpp:138
 #, kde-format
 msgctxt ""
 "%1 is the number of conflicts (hidden), %2 is the key sequence of the "
@@ -779,7 +779,7 @@ msgstr[2] "శీఘ్రమార్గము '%2' క్రింది క�
 msgstr[3] "శీఘ్రమార్గము '%2' క్రింది కీ సమ్మేళములతో విభేదించింది:\n"
 msgstr[4] "శీఘ్రమార్గము '%2' క్రింది కీ సమ్మేళములతో విభేదించింది:\n"
 
-#: kkeysequencewidget.cpp:151
+#: kkeysequencewidget.cpp:144
 #, kde-format
 msgctxt "%1 is the number of shortcuts with which there is a conflict"
 msgid "Conflict with Registered Global Shortcut"
@@ -790,13 +790,13 @@ msgstr[2] "నియంత్రిత వసుదైక శీఘ్రమా�
 msgstr[3] "నియంత్రిత వసుదైక శీఘ్రమార్గంతొ విభేదలు"
 msgstr[4] "నియంత్రిత వసుదైక శీఘ్రమార్గంతొ విభేదలు"
 
-#: kkeysequencewidget.cpp:153 kkeysequencewidget.cpp:241
-#: kkeysequencewidget.cpp:632 kshortcutseditor.cpp:635 kshortcutseditor.cpp:653
+#: kkeysequencewidget.cpp:146 kkeysequencewidget.cpp:234
+#: kkeysequencewidget.cpp:625 kshortcutseditor.cpp:635 kshortcutseditor.cpp:653
 #, kde-format
 msgid "Reassign"
 msgstr "మళ్లి నియమించు"
 
-#: kkeysequencewidget.cpp:222
+#: kkeysequencewidget.cpp:215
 #, kde-format
 msgctxt "%1 is the number of conflicts"
 msgid "Shortcut Conflict"
@@ -807,12 +807,12 @@ msgstr[2] "శీఘ్ర మార్గం విభేదలు"
 msgstr[3] "శీఘ్ర మార్గం విభేదలు"
 msgstr[4] "శీఘ్ర మార్గం విభేదలు"
 
-#: kkeysequencewidget.cpp:226
+#: kkeysequencewidget.cpp:219
 #, kde-format
 msgid "Shortcut '%1' for action '%2'\n"
 msgstr "చర్య '%1'కొరకు శీఘ్రమార్గము(లు) '%2'\n"
 
-#: kkeysequencewidget.cpp:231
+#: kkeysequencewidget.cpp:224
 #, kde-format
 msgctxt "%1 is the number of ambigious shortcut clashes (hidden)"
 msgid ""
@@ -829,31 +829,31 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: kkeysequencewidget.cpp:250
+#: kkeysequencewidget.cpp:243
 #, kde-format
 msgid "Shortcut conflict"
 msgstr "శీఘ్ర మార్గం విభేదము"
 
-#: kkeysequencewidget.cpp:251
+#: kkeysequencewidget.cpp:244
 #, kde-format
 msgid ""
 "<qt>The '%1' key combination is already used by the <b>%2</b> action."
 "<br>Please select a different one.</qt>"
 msgstr ""
 
-#: kkeysequencewidget.cpp:281
+#: kkeysequencewidget.cpp:274
 #, kde-format
 msgid ""
 "Click on the button, then enter the shortcut like you would in the program.\n"
 "Example for Ctrl+A: hold the Ctrl key and press A."
 msgstr ""
 
-#: kkeysequencewidget.cpp:473
+#: kkeysequencewidget.cpp:466
 #, kde-format
 msgid "Reserved Shortcut"
 msgstr "నిలిపిఉంచి శీఘ్ర మార్గము"
 
-#: kkeysequencewidget.cpp:474
+#: kkeysequencewidget.cpp:467
 #, kde-format
 msgid ""
 "The F12 key is reserved on Windows, so cannot be used for a global "
@@ -861,12 +861,12 @@ msgid ""
 "Please choose another one."
 msgstr ""
 
-#: kkeysequencewidget.cpp:626
+#: kkeysequencewidget.cpp:619
 #, kde-format
 msgid "Conflict with Standard Application Shortcut"
 msgstr "ప్రామాణిక కార్యక్రమ శీఘ్రమార్గంతొ ఘర్షణ"
 
-#: kkeysequencewidget.cpp:627
+#: kkeysequencewidget.cpp:620
 #, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -874,36 +874,36 @@ msgid ""
 "Do you really want to use it as a global shortcut as well?"
 msgstr ""
 
-#: kkeysequencewidget.cpp:675
+#: kkeysequencewidget.cpp:668
 #, kde-format
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "ఇన్పుట్"
 
-#: kkeysequencewidget.cpp:682 kshortcuteditwidget.cpp:66
+#: kkeysequencewidget.cpp:675 kshortcuteditwidget.cpp:66
 #: kshortcuteditwidget.cpp:69
 #, kde-format
 msgctxt "No shortcut defined"
 msgid "None"
 msgstr "ఏదీ వద్దు"
 
-#: kkeysequencewidget.cpp:728
+#: kkeysequencewidget.cpp:721
 #, kde-format
 msgid "The key you just pressed is not supported by Qt."
 msgstr "మీరు వాడిన మీట qt సహాయము తీసుకోలేదు"
 
-#: kkeysequencewidget.cpp:729
+#: kkeysequencewidget.cpp:722
 #, kde-format
 msgid "Unsupported Key"
 msgstr "మద్దతు చేయని కీ"
 
-#: kmainwindow.cpp:246
+#: kmainwindow.cpp:244
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "విజయ్ కిరణ్ కముజు,కృష్ణబాబు కె, భువన్ కృష్ణ, జి వి యస్ గిరి, శ్రీ కళ్యన్న్, ననిన్"
 
-#: kmainwindow.cpp:247
+#: kmainwindow.cpp:245
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
