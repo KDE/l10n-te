@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmfonts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-09-16 03:34+0200\n"
+"POT-Creation-Date: 2017-10-20 03:10+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -221,7 +221,12 @@ msgid ""
 "should be used or configuration of font hinting should be checked.</p>"
 msgstr ""
 
-#: fonts.cpp:833
+#: fonts.cpp:685
+#, kde-format
+msgid "This property has no effect on this platform"
+msgstr ""
+
+#: fonts.cpp:838
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>Some changes such as anti-aliasing will only affect newly started "
@@ -232,12 +237,12 @@ msgid ""
 msgstr ""
 "<p>యాంటీ-ఎలియాసింగ్ వంటి కొన్ని మార్పులు కొత్తగా ప్రారంభించిన అనువర్తనములను మాత్రమే ప్రాభావితం చేస్తాయి.</p>"
 
-#: fonts.cpp:834 fonts.cpp:844
+#: fonts.cpp:839 fonts.cpp:849
 #, kde-format
 msgid "Font Settings Changed"
 msgstr "ఫాంటు అమర్పులు మార్చబడినవి"
 
-#: fonts.cpp:843
+#: fonts.cpp:848
 #, kde-format
 msgid ""
 "<p>Some changes such as DPI will only affect newly started applications.</p>"
