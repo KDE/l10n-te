@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-09-29 03:32+0200\n"
+"POT-Creation-Date: 2017-10-24 03:18+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -20,7 +20,6 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 
 #: package/contents/config/config.qml:29
-#: package/contents/ui/ConfigLocation.qml:79
 #, fuzzy
 #| msgctxt ""
 #| "Title of the page that lets the user choose which location should the "
@@ -270,47 +269,56 @@ msgstr ""
 msgid "More Preview Options..."
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:97
+#: package/contents/ui/ConfigLocation.qml:93
+#, fuzzy
+#| msgctxt ""
+#| "Title of the page that lets the user choose which location should the "
+#| "folderview show"
+#| msgid "Location"
+msgid "Location:"
+msgstr "స్థానం"
+
+#: package/contents/ui/ConfigLocation.qml:101
 msgid "Show the Desktop folder"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:104
+#: package/contents/ui/ConfigLocation.qml:113
 msgid "Show files linked to the current activity"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:129
+#: package/contents/ui/ConfigLocation.qml:123
 msgid "Show a place:"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:173
+#: package/contents/ui/ConfigLocation.qml:171
 msgid "Specify a folder:"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:185
+#: package/contents/ui/ConfigLocation.qml:182
 msgid "Type a path or a URL here"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:228
-msgid "Title"
+#: package/contents/ui/ConfigLocation.qml:232
+msgid "Title:"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:238
+#: package/contents/ui/ConfigLocation.qml:244
 msgid "None"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:238
+#: package/contents/ui/ConfigLocation.qml:244
 msgid "Default"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:238
+#: package/contents/ui/ConfigLocation.qml:244
 msgid "Full path"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:238
+#: package/contents/ui/ConfigLocation.qml:244
 msgid "Custom title"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:248
+#: package/contents/ui/ConfigLocation.qml:257
 msgid "Enter custom title here"
 msgstr ""
 
