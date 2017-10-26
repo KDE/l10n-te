@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-10-24 03:19+0200\n"
+"POT-Creation-Date: 2017-10-26 03:21+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -96,7 +96,7 @@ msgctxt "Search through a list of control modules"
 msgid "Search"
 msgstr ""
 
-#: app/SettingsBase.cpp:137 sidebar/package/contents/ui/CategoriesPage.qml:52
+#: app/SettingsBase.cpp:137
 #, kde-format
 msgid "Configure"
 msgstr "ఆకృతీకరించుము"
@@ -159,7 +159,7 @@ msgid "Internal name for the view used"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: app/systemsettingsui.rc:16 sidebar/package/contents/ui/CategoriesPage.qml:62
+#: app/systemsettingsui.rc:16
 #, fuzzy, kde-format
 #| msgid "System Settings"
 msgid "About System Settings"
@@ -265,23 +265,12 @@ msgstr "సిస్టమ్ అమర్పులు"
 msgid "Keyboard Shortcut: %1"
 msgstr ""
 
-#: sidebar/package/contents/ui/CategoriesPage.qml:57
-#, fuzzy, kde-format
-#| msgid "System Settings"
-msgid "System Settings Handbook"
-msgstr "సిస్టమ్ అమర్పులు"
-
-#: sidebar/package/contents/ui/CategoriesPage.qml:67
-#, kde-format
-msgid "About KDE"
-msgstr ""
-
-#: sidebar/package/contents/ui/CategoriesPage.qml:79
+#: sidebar/package/contents/ui/CategoriesPage.qml:59
 #, kde-format
 msgid "Search..."
 msgstr ""
 
-#: sidebar/package/contents/ui/CategoriesPage.qml:123
+#: sidebar/package/contents/ui/CategoriesPage.qml:103
 #, kde-format
 msgctxt "A search yelded no results"
 msgid "No items matching your search"
@@ -322,12 +311,12 @@ msgstr ""
 msgid "Marco Martin"
 msgstr ""
 
-#: sidebar/SidebarMode.cpp:454
+#: sidebar/SidebarMode.cpp:462
 #, kde-format
 msgid "Sidebar"
 msgstr ""
 
-#: sidebar/SidebarMode.cpp:489
+#: sidebar/SidebarMode.cpp:497
 #, kde-format
 msgid "Most Used"
 msgstr ""
@@ -341,6 +330,11 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
+
+#, fuzzy
+#~| msgid "System Settings"
+#~ msgid "System Settings Handbook"
+#~ msgstr "సిస్టమ్ అమర్పులు"
 
 #~ msgid "Unsaved Changes"
 #~ msgstr "దాచని మార్పులు"
