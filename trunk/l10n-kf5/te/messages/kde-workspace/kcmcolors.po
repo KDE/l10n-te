@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-10-26 03:21+0200\n"
+"POT-Creation-Date: 2017-11-08 06:27+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -930,15 +930,16 @@ msgstr "అచేతనమైన కాంట్రాస్ట్  ఎమౌం
 
 #. i18n: ectx: property (text), widget (QCheckBox, useInactiveEffects)
 #: scmeditoroptions.ui:17
-#, kde-format
-msgid "Apply inactive window color &effects"
+#, fuzzy, kde-format
+#| msgid "Apply inactive window color &effects"
+msgid "Apply &effects to inactive windows"
 msgstr "(&e) క్రియాహీన విండో రంగు ప్రభావాలను ఆపాదించుము"
 
 #. i18n: ectx: property (text), widget (QCheckBox, inactiveSelectionEffect)
 #: scmeditoroptions.ui:24
 #, kde-format
-msgid "In&active selection changes color"
-msgstr "(&a) క్రియాహీన ఎంపిక రంగును మార్చుతుంది"
+msgid "Use different colors for in&active selections"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, shadeSortedColumn)
 #: scmeditoroptions.ui:31
@@ -1221,6 +1222,9 @@ msgstr "సాదారణ బ్యాక్‌గ్రౌండ్"
 msgctxt "color-kcm-set-preview"
 msgid "focus"
 msgstr "ఫోకస్"
+
+#~ msgid "In&active selection changes color"
+#~ msgstr "(&a) క్రియాహీన ఎంపిక రంగును మార్చుతుంది"
 
 #~ msgid "Selecting another scheme will discard any changes you have made"
 #~ msgstr "వేరే స్కీము యెంచుకొనుట మీరు చేసిన మార్పులను తీసివేస్తుంది"
