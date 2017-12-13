@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-12-04 03:13+0100\n"
+"POT-Creation-Date: 2017-12-13 05:20+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -34,7 +34,7 @@ msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 #, fuzzy, kde-format
 #| msgctxt "@option:check"
 #| msgid "Sho&w icons on buttons"
-msgid "Show icons in buttons:"
+msgid "Show icons in b&uttons:"
 msgstr "(&w) బటన్స్  పైన ప్రతిమలను చూపుము"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -46,7 +46,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: finetuning.ui:63
 #, kde-format
-msgid "Main toolbar text location:"
+msgid "Main &toolbar text location:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
@@ -82,41 +82,11 @@ msgstr "ప్రతిమల క్రిందన వచనము"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: finetuning.ui:100
 #, kde-format
-msgid "Secondary toolbar text location:"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, menubarBox)
-#: finetuning.ui:153
-#, kde-format
-msgid "Menubar"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labelMenubarStyle)
-#: finetuning.ui:159
-#, kde-format
-msgid "Menubar style:"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
-#: finetuning.ui:173
-#, kde-format
-msgid "In application"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
-#: finetuning.ui:178
-#, kde-format
-msgid "Title bar button"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
-#: finetuning.ui:183
-#, kde-format
-msgid "Global Menu widget"
+msgid "Secondary toolbar text &location:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: finetuning.ui:207
+#: finetuning.ui:153
 #, fuzzy, kde-format
 #| msgctxt "@option:check"
 #| msgid "Sho&w icons on buttons"
@@ -170,44 +140,39 @@ msgstr "(&f) ఆకృతీకరించు..."
 msgid "Preview"
 msgstr "ముందస్తు వీక్షణం"
 
-#: kcmstyle.cpp:252
+#: kcmstyle.cpp:249
 #, kde-format
 msgctxt "@title:tab"
 msgid "&Applications"
 msgstr ""
 
-#: kcmstyle.cpp:253
+#: kcmstyle.cpp:250
 #, kde-format
 msgctxt "@title:tab"
 msgid "&Fine Tuning"
 msgstr "(&F) ఫైన్ ట్యూనింగ్"
 
-#: kcmstyle.cpp:283 kcmstyle.cpp:294
+#: kcmstyle.cpp:280 kcmstyle.cpp:291
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr "ఈ శైలి కొరకు ఆకృతీకరణ డైలాగును లోడుచేయుటలో వొక దోషము వుంది."
 
-#: kcmstyle.cpp:285 kcmstyle.cpp:296
+#: kcmstyle.cpp:282 kcmstyle.cpp:293
 #, kde-format
 msgid "Unable to Load Dialog"
 msgstr "డైలాగును లోడు చేయలేకపోయింది"
 
-#: kcmstyle.cpp:420
-#, kde-format
-msgid "Your changes will take effect only on application restart."
-msgstr ""
-
-#: kcmstyle.cpp:561 kcmstyle.cpp:672
+#: kcmstyle.cpp:513 kcmstyle.cpp:624
 #, kde-format
 msgid "No description available."
 msgstr "ఎటువంటి వివరణ అందుబాటులోలేదు."
 
-#: kcmstyle.cpp:672
+#: kcmstyle.cpp:624
 #, kde-format
 msgid "Description: %1"
 msgstr "వివరణ: %1"
 
-#: kcmstyle.cpp:779
+#: kcmstyle.cpp:727
 #, kde-format
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
@@ -215,19 +180,19 @@ msgid ""
 "information like a marble texture or a gradient)."
 msgstr ""
 
-#: kcmstyle.cpp:783
+#: kcmstyle.cpp:731
 #, kde-format
 msgid ""
 "This area shows a preview of the currently selected style without having to "
 "apply it to the whole desktop."
 msgstr ""
 
-#: kcmstyle.cpp:786
+#: kcmstyle.cpp:734
 #, kde-format
 msgid "This page allows you to choose details about the widget style options"
 msgstr ""
 
-#: kcmstyle.cpp:787
+#: kcmstyle.cpp:735
 #, kde-format
 msgid ""
 "<p><b>No Text:</b> Shows only icons on toolbar buttons. Best option for low "
@@ -237,14 +202,14 @@ msgid ""
 "and text on toolbar buttons. Text is aligned below the icon."
 msgstr ""
 
-#: kcmstyle.cpp:794
+#: kcmstyle.cpp:742
 #, kde-format
 msgid ""
 "If you enable this option, KDE Applications will show small icons alongside "
 "some important buttons."
 msgstr ""
 
-#: kcmstyle.cpp:796
+#: kcmstyle.cpp:744
 #, fuzzy, kde-format
 #| msgid ""
 #| "If you enable this option, KDE Applications will run internal animations."
