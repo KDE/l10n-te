@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmfonts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-01-24 03:35+0100\n"
+"POT-Creation-Date: 2018-01-25 03:29+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -129,6 +129,117 @@ msgctxt "full hinting"
 msgid "Full"
 msgstr "పూర్తిగా"
 
+#: package/contents/ui/FontWidget.qml:54
+#, kde-format
+msgid "Choose..."
+msgstr ""
+
+#: package/contents/ui/main.qml:30
+#, kde-format
+msgid "Fonts"
+msgstr ""
+
+#: package/contents/ui/main.qml:39
+#, fuzzy, kde-format
+#| msgid "Ad&just All Fonts..."
+msgid "&Adjust All Fonts..."
+msgstr "(&j) అన్ని ఫాంట్లను సర్దుము..."
+
+#: package/contents/ui/main.qml:46
+#, fuzzy, kde-format
+#| msgid "General"
+msgid "General:"
+msgstr "సాధారణ"
+
+#: package/contents/ui/main.qml:51
+#, fuzzy, kde-format
+#| msgid "Fixed width"
+msgid "Fixed width:"
+msgstr "నిర్ధిష్ట వెడల్పు"
+
+#: package/contents/ui/main.qml:56
+#, fuzzy, kde-format
+#| msgid "Small"
+msgid "Small:"
+msgstr "చిన్న"
+
+#: package/contents/ui/main.qml:61
+#, fuzzy, kde-format
+#| msgid "Toolbar"
+msgid "Toolbar:"
+msgstr "పనిముట్టుపట్టీ"
+
+#: package/contents/ui/main.qml:66
+#, fuzzy, kde-format
+#| msgid "Menu"
+msgid "Menu:"
+msgstr "మెనూ"
+
+#: package/contents/ui/main.qml:71
+#, fuzzy, kde-format
+#| msgid "Window title"
+msgid "Window title:"
+msgstr "విండో శీర్షిక"
+
+#: package/contents/ui/main.qml:83
+#, fuzzy, kde-format
+#| msgid "Use a&nti-aliasing:"
+msgid "Use anti-aliasing:"
+msgstr "(&n) యాంటీ-యెలియాసింగ్ వుపయోగించుము:"
+
+#: package/contents/ui/main.qml:85
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "Enabled"
+msgid "Enabled"
+msgstr "చేతనమైన"
+
+#: package/contents/ui/main.qml:85
+#, kde-format
+msgid "Vendor Default"
+msgstr ""
+
+#: package/contents/ui/main.qml:85
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "Disabled"
+msgid "Disabled"
+msgstr "అచేతనమైన"
+
+#: package/contents/ui/main.qml:95
+#, kde-format
+msgid "Exclude range from anti-aliasing"
+msgstr ""
+
+#: package/contents/ui/main.qml:108 package/contents/ui/main.qml:122
+#, kde-format
+msgid "%1 pt"
+msgstr ""
+
+#: package/contents/ui/main.qml:115
+#, fuzzy, kde-format
+#| msgid " to "
+msgid "to"
+msgstr " to "
+
+#: package/contents/ui/main.qml:135
+#, fuzzy, kde-format
+#| msgid "&Use sub-pixel rendering:"
+msgid "Sub-pixel rendering type:"
+msgstr "(&U) వుప-పిగ్జెల్ రెండరింగ్‌ను వుపయోగించుము:"
+
+#: package/contents/ui/main.qml:146
+#, fuzzy, kde-format
+#| msgid "Hinting style: "
+msgid "Hinting style:"
+msgstr "హింటింగ్ శైలి: "
+
+#: package/contents/ui/main.qml:158
+#, fuzzy, kde-format
+#| msgid "Force fonts DPI:"
+msgid "Force Fonts DPI:"
+msgstr "ఫాంట్ల DPIను పెంచుము:"
+
 #~ msgid "Configure Anti-Alias Settings"
 #~ msgstr "యాంటీ-యెలియాస్ అమర్పులను ఆకృతీకరించుము"
 
@@ -140,9 +251,6 @@ msgstr "పూర్తిగా"
 #~ msgctxt "abbreviation for unit of points"
 #~ msgid " pt"
 #~ msgstr " pt"
-
-#~ msgid " to "
-#~ msgstr " to "
 
 #~ msgid ""
 #~ "<p>If you have a TFT or LCD screen you can further improve the quality of "
@@ -162,52 +270,6 @@ msgstr "పూర్తిగా"
 #~ "composed of three sub-pixels, red, green and blue. Most displays have a "
 #~ "linear ordering of RGB sub-pixel, some have BGR.<br /> This feature does "
 #~ "not work with CRT monitors.</p>"
-
-#, fuzzy
-#~| msgid "&Use sub-pixel rendering:"
-#~ msgid "Sub-pixel rendering type:"
-#~ msgstr "(&U) వుప-పిగ్జెల్ రెండరింగ్‌ను వుపయోగించుము:"
-
-#, fuzzy
-#~| msgid "Hinting style: "
-#~ msgid "Hinting style:"
-#~ msgstr "హింటింగ్ శైలి: "
-
-#, fuzzy
-#~| msgid "General"
-#~ msgctxt "font usage"
-#~ msgid "General"
-#~ msgstr "సాధారణ"
-
-#, fuzzy
-#~| msgid "Fixed width"
-#~ msgctxt "font usage"
-#~ msgid "Fixed width"
-#~ msgstr "నిర్ధిష్ట వెడల్పు"
-
-#, fuzzy
-#~| msgid "Small"
-#~ msgctxt "font usage"
-#~ msgid "Small"
-#~ msgstr "చిన్న"
-
-#, fuzzy
-#~| msgid "Toolbar"
-#~ msgctxt "font usage"
-#~ msgid "Toolbar"
-#~ msgstr "పనిముట్టుపట్టీ"
-
-#, fuzzy
-#~| msgid "Menu"
-#~ msgctxt "font usage"
-#~ msgid "Menu"
-#~ msgstr "మెనూ"
-
-#, fuzzy
-#~| msgid "Window title"
-#~ msgctxt "font usage"
-#~ msgid "Window title"
-#~ msgstr "విండో శీర్షిక"
 
 #~ msgid "Used for normal text (e.g. button labels, list items)."
 #~ msgstr "సాదారణ వచనము కొరకు వుపయోగించబడుతుంది (ఉ.దా. బటన్ లేబుల్స్, జాబితా అంశములు)."
@@ -231,35 +293,18 @@ msgstr "పూర్తిగా"
 #~ msgid "%1: "
 #~ msgstr "%1: "
 
-#~ msgid "Ad&just All Fonts..."
-#~ msgstr "(&j) అన్ని ఫాంట్లను సర్దుము..."
-
 #~ msgid "Click to change all fonts"
 #~ msgstr "అన్ని ఫాంట్లను మార్చుటకు నొక్కుము"
-
-#~ msgid "Use a&nti-aliasing:"
-#~ msgstr "(&n) యాంటీ-యెలియాసింగ్ వుపయోగించుము:"
-
-#~ msgctxt "Use anti-aliasing"
-#~ msgid "Enabled"
-#~ msgstr "చేతనమైన"
 
 #~ msgctxt "Use anti-aliasing"
 #~ msgid "System Settings"
 #~ msgstr "సిస్టమ్ అమర్పులు"
-
-#~ msgctxt "Use anti-aliasing"
-#~ msgid "Disabled"
-#~ msgstr "అచేతనమైన"
 
 #, fuzzy
 #~| msgid ""
 #~| "If this option is selected, KDE will smooth the edges of curves in fonts."
 #~ msgid "Select this option to smooth the edges of curves in fonts."
 #~ msgstr "ఈ ఐచ్చికం ఎంపిక కాబడితే, KDE ఫాంట్సునందలి వంపులయొక్క అంచులను స్మూత్‌ చేస్తుంది."
-
-#~ msgid "Force fonts DPI:"
-#~ msgstr "ఫాంట్ల DPIను పెంచుము:"
 
 #, fuzzy
 #~| msgctxt "Use anti-aliasing"
