@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-01-27 03:11+0100\n"
+"POT-Creation-Date: 2018-02-02 03:16+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -426,41 +426,41 @@ msgctxt "@item:intable palette"
 msgid "Color 8 (Faint)"
 msgstr "రంగు 8 (ఇన్టెన్‍స్)"
 
-#: ColorScheme.cpp:365
+#: ColorScheme.cpp:377
 #, fuzzy, kde-format
 #| msgid "Un-named Color Scheme"
 msgctxt "@item"
 msgid "Un-named Color Scheme"
 msgstr "పేరు-లేని రంగు స్కీము"
 
-#: ColorSchemeEditor.cpp:121
+#: ColorSchemeEditor.cpp:125
 #, fuzzy, kde-format
 #| msgid "Name"
 msgctxt "@label:listbox Column header text for color names"
 msgid "Name"
 msgstr "పేరు"
 
-#: ColorSchemeEditor.cpp:122
+#: ColorSchemeEditor.cpp:126
 #, fuzzy, kde-format
 #| msgid "Color"
 msgctxt "@label:listbox Column header text for the actual colors"
 msgid "Color"
 msgstr "రంగు"
 
-#: ColorSchemeEditor.cpp:123
+#: ColorSchemeEditor.cpp:127
 #, kde-format
 msgctxt "@label:listbox Column header text for the actual intense colors"
 msgid "Intense color"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:124
+#: ColorSchemeEditor.cpp:128
 #, fuzzy, kde-format
 #| msgid "Linux Colors"
 msgctxt "@label:listbox Column header text for the actual faint colors"
 msgid "Faint color"
 msgstr "లినక్స్ రంగులు"
 
-#: ColorSchemeEditor.cpp:153
+#: ColorSchemeEditor.cpp:157
 #, fuzzy, kde-format
 #| msgid ""
 #| "The background transparency setting will not be used because your desktop "
@@ -473,45 +473,45 @@ msgstr ""
 "బ్యాక్‌గ్రౌండు పారదర్శత అమరిక వుపయోగించబడదు యెందుచేతనంటే మీ డెస్కుటాపు పారదర్శ విండోల మద్దతును "
 "కలిగివున్నట్లు లేదు."
 
-#: ColorSchemeEditor.cpp:209
+#: ColorSchemeEditor.cpp:213
 #, kde-format
 msgctxt "@title:window"
 msgid "Select wallpaper image file"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:212
+#: ColorSchemeEditor.cpp:216
 #, kde-format
 msgctxt "@label:textbox Filter in file open dialog"
 msgid "Supported Images"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:265
+#: ColorSchemeEditor.cpp:274
 #, fuzzy, kde-format
 #| msgid "New Color Scheme"
 msgctxt "@title:window"
 msgid "New Color Scheme"
 msgstr "కొత్త రంగు స్కీము"
 
-#: ColorSchemeEditor.cpp:268
+#: ColorSchemeEditor.cpp:277
 #, fuzzy, kde-format
 #| msgid "Edit Color Scheme"
 msgctxt "@title:window"
 msgid "Edit Color Scheme"
 msgstr "రంగు స్కీమును సరికూర్చు"
 
-#: ColorSchemeEditor.cpp:301
+#: ColorSchemeEditor.cpp:313
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Click to choose color"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:307
+#: ColorSchemeEditor.cpp:319
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Click to choose intense color"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:312
+#: ColorSchemeEditor.cpp:324
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Click to choose Faint color"
@@ -530,34 +530,41 @@ msgstr "వర్ణన:"
 msgid "Vary the background color for each tab"
 msgstr "ప్రతి టాబ్‌కు బ్యాక్‌గ్రౌండు రంగును వేరుగావుంచుము"
 
+#. i18n: ectx: property (text), widget (QCheckBox, blurCheckBox)
+#: ColorSchemeEditor.ui:47
+#, fuzzy, kde-format
+#| msgid "Background"
+msgid "Blur background"
+msgstr "బ్యాక్‌గ్రౌండు"
+
 #. i18n: ectx: property (text), widget (QLabel, transparencyLabel)
-#: ColorSchemeEditor.ui:49
+#: ColorSchemeEditor.ui:56
 #, kde-format
 msgid "Background transparency:"
 msgstr "బ్యాక్‌గ్రౌండు పారదృశ్యత:"
 
 #. i18n: ectx: property (text), widget (QLabel, transparencyPercentLabel)
-#: ColorSchemeEditor.ui:69
+#: ColorSchemeEditor.ui:76
 #, kde-format
 msgid "Percent"
 msgstr "శాతము"
 
 #. i18n: ectx: property (text), widget (QLabel, wallpaperLabel)
-#: ColorSchemeEditor.ui:83
+#: ColorSchemeEditor.ui:90
 #, fuzzy, kde-format
 #| msgid "Background"
 msgid "Background image:"
 msgstr "బ్యాక్‌గ్రౌండు"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, wallpaperPath)
-#: ColorSchemeEditor.ui:90
+#: ColorSchemeEditor.ui:97
 #, fuzzy, kde-format
 #| msgid "Color Scheme && Background"
 msgid "Edit the path of the background image"
 msgstr "రంగు స్కీము && బ్యాక్‌గ్రౌండు"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, wallpaperSelectButton)
-#: ColorSchemeEditor.ui:97
+#: ColorSchemeEditor.ui:104
 #, fuzzy, kde-format
 #| msgid "Color Scheme && Background"
 msgid "Choose the background image"
@@ -565,7 +572,7 @@ msgstr "రంగు స్కీము && బ్యాక్‌గ్రౌం�
 
 #. i18n: ectx: property (text), widget (QToolButton, wallpaperSelectButton)
 #. i18n: ectx: property (text), widget (QToolButton, dirSelectButton)
-#: ColorSchemeEditor.ui:100 EditProfileDialog.ui:174
+#: ColorSchemeEditor.ui:107 EditProfileDialog.ui:174
 #, kde-format
 msgid "..."
 msgstr "..."
@@ -2176,55 +2183,55 @@ msgctxt "@info:credit"
 msgid "Thanks to many others.\n"
 msgstr "ఇంకా చాలామందికి కృతజ్ఞతలు.\n"
 
-#: MainWindow.cpp:312
+#: MainWindow.cpp:317
 #, fuzzy, kde-format
 #| msgid "New &Tab"
 msgctxt "@action:inmenu"
 msgid "&New Tab"
 msgstr "(&T) కొత్త టాబ్"
 
-#: MainWindow.cpp:322
+#: MainWindow.cpp:327
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "&Clone Tab"
 msgstr "(&C) టాబ్ ను మూసివెయి"
 
-#: MainWindow.cpp:329
+#: MainWindow.cpp:334
 #, fuzzy, kde-format
 #| msgid "New &Window"
 msgctxt "@action:inmenu"
 msgid "New &Window"
 msgstr "(&W) కొత్త విండొ"
 
-#: MainWindow.cpp:336
+#: MainWindow.cpp:341
 #, fuzzy, kde-format
 #| msgid "Konsole"
 msgctxt "@action:inmenu"
 msgid "Close Window"
 msgstr "కాన్సోల్"
 
-#: MainWindow.cpp:341
+#: MainWindow.cpp:346
 #, fuzzy, kde-format
 #| msgid "&Bookmarks"
 msgctxt "@title:menu"
 msgid "&Bookmarks"
 msgstr "(&B) పేజీ గుర్తులు"
 
-#: MainWindow.cpp:360
+#: MainWindow.cpp:365
 #, fuzzy, kde-format
 #| msgid "Manage Profiles"
 msgctxt "@action:inmenu"
 msgid "Manage Profiles..."
 msgstr "ప్రొఫైల్సును నిర్వహించుము"
 
-#: MainWindow.cpp:366
+#: MainWindow.cpp:371
 #, kde-format
 msgctxt "@item"
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:605
+#: MainWindow.cpp:610
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have multiple tabs in this window, are you sure you want to quit?"
@@ -2243,28 +2250,28 @@ msgstr[3] ""
 msgstr[4] ""
 "ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా నిష్క్రమించుదామని అనుకొనుచున్నారా?"
 
-#: MainWindow.cpp:611 MainWindow.cpp:626
+#: MainWindow.cpp:616 MainWindow.cpp:631
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr "ముసివేత నిర్ధారించు"
 
-#: MainWindow.cpp:613 MainWindow.cpp:627
+#: MainWindow.cpp:618 MainWindow.cpp:632
 #, fuzzy, kde-format
 #| msgid "Konsole"
 msgctxt "@action:button"
 msgid "Close &Window"
 msgstr "కాన్సోల్"
 
-#: MainWindow.cpp:616 MainWindow.cpp:630
+#: MainWindow.cpp:621 MainWindow.cpp:635
 #, fuzzy, kde-format
 #| msgid "Close Current Tab"
 msgctxt "@action:button"
 msgid "Close Current &Tab"
 msgstr "ప్రస్తుత టాబ్ మూసివేయి"
 
-#: MainWindow.cpp:623
+#: MainWindow.cpp:628
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have multiple tabs in this window, are you sure you want to quit?"
@@ -2272,27 +2279,27 @@ msgctxt "@info"
 msgid "There are %1 open tabs in this window. Do you still want to quit?"
 msgstr "ఈ విండోనందు మీరు వివిధ టాబ్లను కలిగివున్నారు, మీరు ఖచ్చితంగా నిష్క్రమించుదామని అనుకొనుచున్నారా?"
 
-#: MainWindow.cpp:733
+#: MainWindow.cpp:738
 #, fuzzy, kde-format
 #| msgid "General"
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "సాధారణ"
 
-#: MainWindow.cpp:739 Part.cpp:290
+#: MainWindow.cpp:744 Part.cpp:290
 #, fuzzy, kde-format
 #| msgid "New Profile"
 msgctxt "@title Preferences page name"
 msgid "Profiles"
 msgstr "కొత్త ప్రొఫైల్"
 
-#: MainWindow.cpp:744
+#: MainWindow.cpp:749
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "TabBar"
 msgstr ""
 
-#: MainWindow.cpp:749
+#: MainWindow.cpp:754
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgctxt "@title Preferences page name"
