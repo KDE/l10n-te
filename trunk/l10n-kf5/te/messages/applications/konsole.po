@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-20 03:11+0100\n"
+"POT-Creation-Date: 2018-02-25 03:13+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -2559,7 +2559,7 @@ msgstr "ప్రోగ్రామ్ '%1' క్రాష్ అయినద�
 msgid "Program '%1' exited with status %2."
 msgstr "ప్రోగ్రామ్ '%1' స్థితి %2తో నిష్క్రమించినది."
 
-#: Session.cpp:1311
+#: Session.cpp:1316
 #, kde-format
 msgid "ZModem Progress"
 msgstr "ZModem పురోగతి"
@@ -3243,56 +3243,62 @@ msgid "New Profile"
 msgstr "కొత్త ప్రొఫైల్..."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, newProfileButton)
-#: settings/ProfileSettings.ui:20
+#: settings/ProfileSettings.ui:39
 #, kde-format
 msgid "Create a new profile based upon the selected profile"
 msgstr "ఎంపికచేసిన ప్రొఫైల్ పైన ఆధారపడి కొత్త ప్రొఫైలును సృష్టించుము"
 
 #. i18n: ectx: property (text), widget (QPushButton, newProfileButton)
-#: settings/ProfileSettings.ui:23
+#: settings/ProfileSettings.ui:42
 #, fuzzy, kde-format
 #| msgid "New Profile..."
 msgid "&New Profile..."
 msgstr "కొత్త ప్రొఫైల్..."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, editProfileButton)
-#: settings/ProfileSettings.ui:33
+#: settings/ProfileSettings.ui:52
 #, kde-format
 msgid "Edit the selected profile(s)"
 msgstr "ఎంపికచేసిన ప్రొఫైలు(ల)ను సరికూర్చుము"
 
 #. i18n: ectx: property (text), widget (QPushButton, editProfileButton)
-#: settings/ProfileSettings.ui:36
+#: settings/ProfileSettings.ui:55
 #, fuzzy, kde-format
 #| msgid "Edit Profile..."
 msgid "&Edit Profile..."
 msgstr "ప్రొఫైల్ ను మార్చు..."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, deleteProfileButton)
-#: settings/ProfileSettings.ui:46
+#: settings/ProfileSettings.ui:65
 #, kde-format
 msgid "Delete the selected profile(s)"
 msgstr "ఎంపికచేసిన ప్రొఫైలు(ల)ను తొలగించుము"
 
 #. i18n: ectx: property (text), widget (QPushButton, deleteProfileButton)
-#: settings/ProfileSettings.ui:49
+#: settings/ProfileSettings.ui:68
 #, fuzzy, kde-format
 #| msgid "Delete Profile"
 msgid "&Delete Profile"
 msgstr "ప్రొఫైల్ తొలగించు"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, setAsDefaultButton)
-#: settings/ProfileSettings.ui:59
+#: settings/ProfileSettings.ui:78
 #, kde-format
 msgid "Set the selected profile as the default for new terminal sessions"
 msgstr "ఎంపికచేసిన ప్రొఫైలు కొత్త టెర్మినల్ సెషన్లకు అప్రమేయంగా అమర్చుము"
 
 #. i18n: ectx: property (text), widget (QPushButton, setAsDefaultButton)
-#: settings/ProfileSettings.ui:62
+#: settings/ProfileSettings.ui:81
 #, fuzzy, kde-format
 #| msgid "Set as Default"
 msgid "&Set as Default"
 msgstr "అప్రమేయం చెయి"
+
+#. i18n: ectx: property (text), widget (QLabel, shortcutInfoLabel)
+#: settings/ProfileSettings.ui:101
+#, kde-format
+msgid "The 'Show' column must be checked for these shortcuts to work."
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: settings/TabBarSettings.ui:23
