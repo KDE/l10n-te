@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-20 03:18+0100\n"
+"POT-Creation-Date: 2018-03-21 06:14+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -2501,19 +2501,19 @@ msgstr "లినక్స్ కన్సోల్"
 msgid "Solaris console"
 msgstr "సొలారిస్ కన్సోల్"
 
-#: Session.cpp:362
+#: Session.cpp:358
 #, kde-format
 msgid "Could not find binary: "
 msgstr "బైనరీను కనుగొనలేక పోయింది: "
 
-#: Session.cpp:371
+#: Session.cpp:367
 #, fuzzy, kde-format
 #| msgid "Warning: "
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "హెచ్చరిక:"
 
-#: Session.cpp:429
+#: Session.cpp:425
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
@@ -2521,32 +2521,32 @@ msgid ""
 msgstr ""
 "'%1'ను కనుగొనలేక పోయింది, బదులుగా '%2'ను ప్రారంభిస్తోంది.  దయచేసి మీ ప్రొఫైల్ అమరికలను పరిశీలించుము."
 
-#: Session.cpp:432
+#: Session.cpp:428
 #, kde-format
 msgid "Could not find an interactive shell to start."
 msgstr "ప్రారంభమునందు యింటరాక్టివ్ షెల్‌ను కనుగొనలేక పోయింది."
 
-#: Session.cpp:470
+#: Session.cpp:466
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "ప్రోగ్రామ్ '%1'ను ఆర్గుమెంట్లు '%2'తో ప్రారంభించలేక పోయింది."
 
-#: Session.cpp:612
+#: Session.cpp:608
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "%1 సెషన్ లో నిశబ్దం"
 
-#: Session.cpp:661
+#: Session.cpp:657
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "%1 సెషన్ లో గంట"
 
-#: Session.cpp:674
+#: Session.cpp:670
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "సెషన్ '%1'నందు క్రియాశీలత"
 
-#: Session.cpp:881
+#: Session.cpp:869
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -2555,24 +2555,24 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: Session.cpp:908
+#: Session.cpp:896
 #, fuzzy, kde-format
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "ముగిసింది"
 
-#: Session.cpp:922 Session.cpp:935
+#: Session.cpp:910 Session.cpp:923
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "ప్రోగ్రామ్ '%1' క్రాష్ అయినది."
 
-#: Session.cpp:924
+#: Session.cpp:912
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "ప్రోగ్రామ్ '%1' స్థితి %2తో నిష్క్రమించినది."
 
-#: Session.cpp:1351
+#: Session.cpp:1331
 #, kde-format
 msgid "ZModem Progress"
 msgstr "ZModem పురోగతి"
@@ -2582,17 +2582,17 @@ msgstr "ZModem పురోగతి"
 msgid "Konsole"
 msgstr "కాన్సోల్"
 
-#: SessionController.cpp:347
+#: SessionController.cpp:346
 #, kde-format
 msgid "Konsole does not know how to open the bookmark: "
 msgstr ""
 
-#: SessionController.cpp:407
+#: SessionController.cpp:406
 #, kde-format
 msgid "Search for '%1' with"
 msgstr ""
 
-#: SessionController.cpp:421
+#: SessionController.cpp:420
 #, fuzzy, kde-format
 #| msgid "Manage Profiles..."
 msgid "Configure Web Shortcuts..."
@@ -2675,17 +2675,17 @@ msgstr "ప్రస్తుత ప్రొఫైలును సరికూ�
 msgid "Switch Profile"
 msgstr "ప్రొఫైల్ సరికూర్చు"
 
-#: SessionController.cpp:651
-#, fuzzy, kde-format
-#| msgid "Encoding"
-msgid "Set &Encoding"
-msgstr "ఎన్కోడింగ్"
-
-#: SessionController.cpp:659
+#: SessionController.cpp:640
 #, kde-format
 msgctxt "@item:inmenu A read only (locked) session"
 msgid "Read-only"
 msgstr ""
+
+#: SessionController.cpp:657
+#, fuzzy, kde-format
+#| msgid "Encoding"
+msgid "Set &Encoding"
+msgstr "ఎన్కోడింగ్"
 
 #: SessionController.cpp:670
 #, kde-format
@@ -2836,12 +2836,12 @@ msgstr ""
 msgid "Print Shell"
 msgstr "షెల్"
 
-#: SessionController.cpp:1729
+#: SessionController.cpp:1697
 #, kde-format
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1739
+#: SessionController.cpp:1707
 #, kde-format
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
@@ -2849,35 +2849,35 @@ msgid ""
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1751
+#: SessionController.cpp:1719
 #, kde-format
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1762
+#: SessionController.cpp:1730
 #, kde-format
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1768
+#: SessionController.cpp:1736
 #, kde-format
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1829
+#: SessionController.cpp:1797
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1నుండి అవుట్పుట్‌ను భద్రపరచుము"
 
-#: SessionController.cpp:1841
+#: SessionController.cpp:1809
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 చెల్లని URL, అవుట్పుట్ భద్రపరచబడలేదు."
 
-#: SessionController.cpp:1917
+#: SessionController.cpp:1885
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -3496,17 +3496,17 @@ msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "రిమోట్ టాబ్ శీర్షిక రూపము:"
 
-#: TerminalDisplay.cpp:1364 TerminalDisplay.cpp:1365
+#: TerminalDisplay.cpp:1363 TerminalDisplay.cpp:1364
 #, kde-format
 msgid "Size: XXX x XXX"
 msgstr "పరిమాణం: XXX x XXX"
 
-#: TerminalDisplay.cpp:1376
+#: TerminalDisplay.cpp:1375
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "పరిమాణం: %1 x %2"
 
-#: TerminalDisplay.cpp:3152
+#: TerminalDisplay.cpp:3151
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
@@ -3516,13 +3516,13 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: TerminalDisplay.cpp:3155
+#: TerminalDisplay.cpp:3154
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "ముసివేత నిర్ధారించు"
 
-#: TerminalDisplay.cpp:3363
+#: TerminalDisplay.cpp:3362
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
@@ -3535,18 +3535,18 @@ msgstr ""
 "<qt>అవుట్పుట్ Ctrl+S వత్తుట ద్వారా <a href=\"http://en.wikipedia.org/wiki/"
 "Flow_control\">suspended</a> అయింది.  తిరిగికొనసాగించుటకు <b>Ctrl+Q</b> వత్తుము.</qt>"
 
-#: TerminalDisplay.cpp:3401
+#: TerminalDisplay.cpp:3397
 #, kde-format
 msgid "This terminal is read-only."
 msgstr ""
 
-#: TerminalDisplay.cpp:3691
+#: TerminalDisplay.cpp:3685
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "ఎంచుకొన్న దానిని అతికించు"
 
-#: TerminalDisplay.cpp:3708
+#: TerminalDisplay.cpp:3702
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
@@ -3565,7 +3565,7 @@ msgctxt "@action:inmenu"
 msgid "&Rename Tab..."
 msgstr "(&R) టాబ్‌కు మరలాపేరు..."
 
-#: ViewContainer.cpp:329
+#: ViewContainer.cpp:328
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
