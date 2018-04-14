@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-12 03:21+0200\n"
+"POT-Creation-Date: 2018-04-14 03:16+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -208,25 +208,25 @@ msgstr "మెయిన్ పనిముట్లపట్టీ"
 msgid "Search for %1"
 msgstr "మెయిన్ పనిముట్లపట్టీ"
 
-#: dolphinmainwindow.cpp:1073
+#: dolphinmainwindow.cpp:1072
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "New &Window"
 msgstr "(&W) కొత్త విండొ"
 
-#: dolphinmainwindow.cpp:1079
+#: dolphinmainwindow.cpp:1076
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "New Tab"
 msgstr "కొత్త టాబ్"
 
-#: dolphinmainwindow.cpp:1085
+#: dolphinmainwindow.cpp:1082
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Close Tab"
 msgstr "టాబ్‌ను మూయుము"
 
-#: dolphinmainwindow.cpp:1104
+#: dolphinmainwindow.cpp:1099
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
@@ -234,43 +234,31 @@ msgctxt "@action:inmenu Edit"
 msgid "Paste"
 msgstr "అతికించుము"
 
-#: dolphinmainwindow.cpp:1109
-#, kde-format
-msgctxt "@action:inmenu Edit"
-msgid "Select All"
-msgstr "అన్నిటిని ఎంపికచేయుము"
-
-#: dolphinmainwindow.cpp:1115 dolphinpart.cpp:190
+#: dolphinmainwindow.cpp:1106 dolphinpart.cpp:190
 #, kde-format
 msgctxt "@action:inmenu Edit"
 msgid "Invert Selection"
 msgstr "విలోమ యెంపిక"
 
-#: dolphinmainwindow.cpp:1129
+#: dolphinmainwindow.cpp:1120
 #, kde-format
 msgctxt "@action:intoolbar Stash"
 msgid "Stash"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1130
+#: dolphinmainwindow.cpp:1121
 #, kde-format
 msgctxt "@info"
 msgid "Opens the stash virtual directory in a split window"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1137
-#, kde-format
-msgctxt "@action:inmenu View"
-msgid "Reload"
-msgstr "తిరిగిలోడ్‌చేయి"
-
-#: dolphinmainwindow.cpp:1143
+#: dolphinmainwindow.cpp:1130
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Stop"
 msgstr "ఆపుము"
 
-#: dolphinmainwindow.cpp:1144
+#: dolphinmainwindow.cpp:1131
 #, fuzzy, kde-format
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -278,19 +266,19 @@ msgctxt "@info"
 msgid "Stop loading"
 msgstr "వరుసక్రమము:"
 
-#: dolphinmainwindow.cpp:1149
+#: dolphinmainwindow.cpp:1136
 #, kde-format
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Editable Location"
 msgstr "సరికూర్చదగిన స్థానము"
 
-#: dolphinmainwindow.cpp:1154
+#: dolphinmainwindow.cpp:1141
 #, kde-format
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Replace Location"
 msgstr "స్థానమును పునఃస్థాపించుము"
 
-#: dolphinmainwindow.cpp:1174
+#: dolphinmainwindow.cpp:1161
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu File"
 #| msgid "Close Tab"
@@ -298,19 +286,19 @@ msgctxt "@action:inmenu File"
 msgid "Undo close tab"
 msgstr "టాబ్‌ను మూయుము"
 
-#: dolphinmainwindow.cpp:1189
+#: dolphinmainwindow.cpp:1176
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Show Filter Bar"
 msgstr "ఫిల్టర్ బార్‌ను చూపుము"
 
-#: dolphinmainwindow.cpp:1195
+#: dolphinmainwindow.cpp:1182
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Compare Files"
 msgstr "ఫైళ్ళను పోల్చిచూడుము"
 
-#: dolphinmainwindow.cpp:1203
+#: dolphinmainwindow.cpp:1190
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Tools"
 #| msgid "Open &Terminal"
@@ -318,7 +306,7 @@ msgctxt "@action:inmenu Tools"
 msgid "Open Terminal"
 msgstr "(&T) టెర్మినల్‌ను తెరువుము"
 
-#: dolphinmainwindow.cpp:1224
+#: dolphinmainwindow.cpp:1211
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "New Tab"
@@ -326,13 +314,13 @@ msgctxt "@action:inmenu"
 msgid "Next Tab"
 msgstr "కొత్త టాబ్"
 
-#: dolphinmainwindow.cpp:1225
+#: dolphinmainwindow.cpp:1212
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Activate Next Tab"
 msgstr "తరువాతి టాబ్‌ను క్రియాశీలంచేయుము"
 
-#: dolphinmainwindow.cpp:1231
+#: dolphinmainwindow.cpp:1218
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Activate Previous Tab"
@@ -340,13 +328,13 @@ msgctxt "@action:inmenu"
 msgid "Previous Tab"
 msgstr "గత టాబ్‌ను క్రియాశీలంచేయుము"
 
-#: dolphinmainwindow.cpp:1232
+#: dolphinmainwindow.cpp:1219
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Activate Previous Tab"
 msgstr "గత టాబ్‌ను క్రియాశీలంచేయుము"
 
-#: dolphinmainwindow.cpp:1239
+#: dolphinmainwindow.cpp:1226
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show tooltips"
@@ -354,13 +342,13 @@ msgctxt "@action:inmenu"
 msgid "Show Target"
 msgstr "పనిముట్టుచిట్కాను చూపుము"
 
-#: dolphinmainwindow.cpp:1245
+#: dolphinmainwindow.cpp:1232
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in New Tab"
 msgstr "కొత్త టాబ్‌నందు తెరువుము"
 
-#: dolphinmainwindow.cpp:1250
+#: dolphinmainwindow.cpp:1237
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Open in New Tab"
@@ -368,13 +356,13 @@ msgctxt "@action:inmenu"
 msgid "Open in New Tabs"
 msgstr "కొత్త టాబ్‌నందు తెరువుము"
 
-#: dolphinmainwindow.cpp:1255
+#: dolphinmainwindow.cpp:1242
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in New Window"
 msgstr "కొత్త విండోనందు తెరువుము"
 
-#: dolphinmainwindow.cpp:1265
+#: dolphinmainwindow.cpp:1252
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Panels"
@@ -382,7 +370,7 @@ msgctxt "@action:inmenu Panels"
 msgid "Unlock Panels"
 msgstr "ప్యానల్స్"
 
-#: dolphinmainwindow.cpp:1267
+#: dolphinmainwindow.cpp:1254
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Panels"
@@ -390,31 +378,31 @@ msgctxt "@action:inmenu Panels"
 msgid "Lock Panels"
 msgstr "ప్యానల్స్"
 
-#: dolphinmainwindow.cpp:1273
+#: dolphinmainwindow.cpp:1260
 #, kde-format
 msgctxt "@title:window"
 msgid "Information"
 msgstr "సమాచారం"
 
-#: dolphinmainwindow.cpp:1294
+#: dolphinmainwindow.cpp:1281
 #, kde-format
 msgctxt "@title:window"
 msgid "Folders"
 msgstr "ఫోల్డర్లు"
 
-#: dolphinmainwindow.cpp:1318
+#: dolphinmainwindow.cpp:1305
 #, kde-format
 msgctxt "@title:window Shell terminal"
 msgid "Terminal"
 msgstr "టెర్మినల్"
 
-#: dolphinmainwindow.cpp:1351
+#: dolphinmainwindow.cpp:1338
 #, kde-format
 msgctxt "@title:window"
 msgid "Places"
 msgstr "స్థలములు"
 
-#: dolphinmainwindow.cpp:1383
+#: dolphinmainwindow.cpp:1370
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Panels"
@@ -422,43 +410,43 @@ msgctxt "@action:inmenu View"
 msgid "Panels"
 msgstr "ప్యానల్స్"
 
-#: dolphinmainwindow.cpp:1453
+#: dolphinmainwindow.cpp:1440
 #, kde-format
 msgctxt "@action"
 msgid "Control"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1569
+#: dolphinmainwindow.cpp:1556
 #, kde-format
 msgctxt "@action:intoolbar Close left view"
 msgid "Close"
 msgstr "మూయి"
 
-#: dolphinmainwindow.cpp:1570
+#: dolphinmainwindow.cpp:1557
 #, kde-format
 msgctxt "@info"
 msgid "Close left view"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1573
+#: dolphinmainwindow.cpp:1560
 #, kde-format
 msgctxt "@action:intoolbar Close right view"
 msgid "Close"
 msgstr "మూయి"
 
-#: dolphinmainwindow.cpp:1574
+#: dolphinmainwindow.cpp:1561
 #, kde-format
 msgctxt "@info"
 msgid "Close right view"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1578
+#: dolphinmainwindow.cpp:1565
 #, kde-format
 msgctxt "@action:intoolbar Split view"
 msgid "Split"
 msgstr "విభజించు"
 
-#: dolphinmainwindow.cpp:1579
+#: dolphinmainwindow.cpp:1566
 #, fuzzy, kde-format
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"
@@ -532,19 +520,19 @@ msgctxt "@action:inmenu Tools"
 msgid "Find File..."
 msgstr "ఫైలును కనుగొనుము..."
 
-#: dolphinpart.cpp:229
+#: dolphinpart.cpp:226
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Open &Terminal"
 msgstr "(&T) టెర్మినల్‌ను తెరువుము"
 
-#: dolphinpart.cpp:299
+#: dolphinpart.cpp:296
 #, kde-format
 msgctxt "@title"
 msgid "Dolphin Part"
 msgstr "డాల్ఫిన్ పార్టు"
 
-#: dolphinpart.cpp:493
+#: dolphinpart.cpp:490
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Edit"
 #| msgid "Select All"
@@ -552,18 +540,18 @@ msgctxt "@title:window"
 msgid "Select"
 msgstr "అన్నిటిని ఎంపికచేయుము"
 
-#: dolphinpart.cpp:494
+#: dolphinpart.cpp:491
 #, kde-format
 msgid "Select all items matching this pattern:"
 msgstr ""
 
-#: dolphinpart.cpp:500
+#: dolphinpart.cpp:497
 #, kde-format
 msgctxt "@title:window"
 msgid "Unselect"
 msgstr ""
 
-#: dolphinpart.cpp:501
+#: dolphinpart.cpp:498
 #, kde-format
 msgid "Unselect all items matching this pattern:"
 msgstr ""
@@ -3698,6 +3686,14 @@ msgstr "(# ఆరోహణ సంఖ్యలచేత పునఃస్థా�
 msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "అదనపు సమాచారము"
+
+#~ msgctxt "@action:inmenu Edit"
+#~ msgid "Select All"
+#~ msgstr "అన్నిటిని ఎంపికచేయుము"
+
+#~ msgctxt "@action:inmenu View"
+#~ msgid "Reload"
+#~ msgstr "తిరిగిలోడ్‌చేయి"
 
 #, fuzzy
 #~| msgctxt "@title:group"
