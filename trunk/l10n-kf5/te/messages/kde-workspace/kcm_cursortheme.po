@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-01 03:29+0100\n"
+"POT-Creation-Date: 2018-04-25 03:47+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -29,97 +29,69 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 
-#: kcmcursortheme.cpp:71
+#: kcmcursortheme.cpp:73
 #, fuzzy, kde-format
 #| msgid "&Cursor Theme"
 msgid "Cursor Theme"
 msgstr "(&C) కర్సర్ థీమ్"
 
-#: kcmcursortheme.cpp:72
+#: kcmcursortheme.cpp:74
 #, fuzzy, kde-format
 #| msgid "&Cursor Theme"
 msgid "Mouse Cursor Theme settings"
 msgstr "(&C) కర్సర్ థీమ్"
 
-#: kcmcursortheme.cpp:72
+#: kcmcursortheme.cpp:74
 #, kde-format
 msgid "(c) 2003-2007 Fredrik Höglund"
 msgstr ""
 
-#: kcmcursortheme.cpp:73
+#: kcmcursortheme.cpp:75
 #, kde-format
 msgid "Fredrik Höglund"
 msgstr ""
 
-#: kcmcursortheme.cpp:74
+#: kcmcursortheme.cpp:76
 #, kde-format
 msgid "Marco Martin"
 msgstr ""
 
-#: kcmcursortheme.cpp:233
+#: kcmcursortheme.cpp:235
 #, kde-format
 msgctxt "@item:inlistbox size"
 msgid "Resolution dependent"
 msgstr ""
 
-#: kcmcursortheme.cpp:363
+#: kcmcursortheme.cpp:364
 #, fuzzy, kde-format
 #| msgid "You have to restart KDE for these changes to take effect."
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
 msgstr "ఈ మార్పులు ప్రభావితం అగుటకు మీరు KDEను పునఃప్రారంభించవలసి వుంటుంది."
 
-#: kcmcursortheme.cpp:364
+#: kcmcursortheme.cpp:466
 #, kde-format
-msgid "Cursor Settings Changed"
-msgstr "కర్సర్ అమర్పులు మార్చబడినవి"
+msgid "Unable to create a temporary file."
+msgstr ""
 
-#: kcmcursortheme.cpp:460
-#, kde-format
-msgid "Drag or Type Theme URL"
-msgstr "థీమ్ URLను లాక్కోనితెమ్ము లేదా టైపు చేయుము"
-
-#: kcmcursortheme.cpp:470
-#, kde-format
-msgid "Unable to find the cursor theme archive %1."
+#: kcmcursortheme.cpp:477
+#, fuzzy, kde-format
+#| msgid "Unable to find the cursor theme archive %1."
+msgid "Unable to download the icon theme archive: %1"
 msgstr "కర్సర్ థీమ్ ఆర్చివ్‌ను %1 కనుగొనలేక పోయింది."
 
-#: kcmcursortheme.cpp:473
-#, kde-format
-msgid ""
-"Unable to download the cursor theme archive; please check that the address "
-"%1 is correct."
-msgstr "కర్సర్ థీమ్ ఆర్చివ్‌ను డౌనులోడు చేయలేక పోయింది, చిరునామా %1 సరైనదేనేమో దయచేసి పరిశీలించండి."
-
-#: kcmcursortheme.cpp:483
-#, kde-format
-msgid "The file %1 does not appear to be a valid cursor theme archive."
+#: kcmcursortheme.cpp:507
+#, fuzzy, kde-format
+#| msgid "The file %1 does not appear to be a valid cursor theme archive."
+msgid "The file is not a valid icon theme archive."
 msgstr "ఫైలు %1 చెల్లునటువంటి కర్సర్ థీమ్ ఆర్చివ్ వలె అనిపించుటలేదు."
-
-#: kcmcursortheme.cpp:502
-#, kde-format
-msgid ""
-"<qt>You cannot delete the theme you are currently using.<br />You have to "
-"switch to another theme first.</qt>"
-msgstr ""
-"<qt>మీరు ప్రస్తుతం వుపయోగిస్తున్న థీమ్‌ను మీరు తొలగించలేరు.<br />మీరు ముందు వేరొక థీమ్‌కు మారాలి.</"
-"qt>"
-
-#: kcmcursortheme.cpp:508
-#, kde-format
-msgid ""
-"<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
-"will delete all the files installed by this theme.</qt>"
-msgstr ""
-"<qt>మీరు ఖచ్చితంగా <i>%1</i> కర్సర్ థీమ్‌ను తీసివేద్దామని అనుకొనుచున్నారా?<br />ఈ థీమ్ ద్వారా "
-"సంస్థాపించబడిన అన్ని ఫైళ్ళను తొలగిస్తుంది.</qt>"
 
 #: kcmcursortheme.cpp:514
 #, kde-format
-msgid "Confirmation"
-msgstr "నిర్ధారణ"
+msgid "Failed to create 'icons' folder."
+msgstr ""
 
-#: kcmcursortheme.cpp:571
+#: kcmcursortheme.cpp:522
 #, kde-format
 msgid ""
 "A theme named %1 already exists in your icon theme folder. Do you want "
@@ -128,37 +100,76 @@ msgstr ""
 "%1 నామముతో వున్న థీమ్ యిప్పటికే మీ ప్రతిమ థీమ్ ఫోల్డర్‌లో వుంది. మీరు దానిని దీనితో పునఃస్థాపించుదామని "
 "అనుకొనుచున్నారా?"
 
-#: kcmcursortheme.cpp:575
+#: kcmcursortheme.cpp:526
 #, kde-format
 msgid "Overwrite Theme?"
 msgstr "థీమ్‌ను వోవర్‌రైట్ చేయాలా?"
+
+#: kcmcursortheme.cpp:552
+#, kde-format
+msgid "Theme installed successfully."
+msgstr ""
+
+#: kcmcursortheme.cpp:568
+#, kde-format
+msgid ""
+"<qt>You cannot delete the theme you are currently using.<br />You have to "
+"switch to another theme first.</qt>"
+msgstr ""
+"<qt>మీరు ప్రస్తుతం వుపయోగిస్తున్న థీమ్‌ను మీరు తొలగించలేరు.<br />మీరు ముందు వేరొక థీమ్‌కు మారాలి.</"
+"qt>"
+
+#: kcmcursortheme.cpp:574
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
+"will delete all the files installed by this theme.</qt>"
+msgstr ""
+"<qt>మీరు ఖచ్చితంగా <i>%1</i> కర్సర్ థీమ్‌ను తీసివేద్దామని అనుకొనుచున్నారా?<br />ఈ థీమ్ ద్వారా "
+"సంస్థాపించబడిన అన్ని ఫైళ్ళను తొలగిస్తుంది.</qt>"
+
+#: kcmcursortheme.cpp:580
+#, kde-format
+msgid "Confirmation"
+msgstr "నిర్ధారణ"
 
 #: package/contents/ui/Delegate.qml:57
 #, kde-format
 msgid "Remove Theme"
 msgstr "థీమ్‌ను తీసివేయి"
 
-#: package/contents/ui/main.qml:31
+#: package/contents/ui/main.qml:30
 #, kde-format
 msgid "This module lets you configure the mouse cursor theme used."
 msgstr ""
 
-#: package/contents/ui/main.qml:58
+#: package/contents/ui/main.qml:95
 #, kde-format
 msgid "Size:"
 msgstr ""
 
-#: package/contents/ui/main.qml:76
+#: package/contents/ui/main.qml:138
 #, fuzzy, kde-format
 #| msgid "Install New Theme..."
 msgid "&Install From File..."
 msgstr "కొత్త థీమ్‌ను సంస్థాపించుము..."
 
-#: package/contents/ui/main.qml:82
+#: package/contents/ui/main.qml:144
 #, fuzzy, kde-format
 #| msgid "Install New Theme..."
 msgid "&Get New Theme..."
 msgstr "కొత్త థీమ్‌ను సంస్థాపించుము..."
+
+#: package/contents/ui/main.qml:165
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Open Theme"
+msgstr "థీమ్‌ను తీసివేయి"
+
+#: package/contents/ui/main.qml:167
+#, kde-format
+msgid "Cursor Theme Files (*.tar.gz *.tar.bz2)"
+msgstr ""
 
 #: xcursor/thememodel.cpp:83
 #, kde-format
@@ -177,6 +188,17 @@ msgctxt ""
 "'Available sizes: 24' or 'Available sizes: 24, 36, 48'"
 msgid "(Available sizes: %1)"
 msgstr ""
+
+#~ msgid "Cursor Settings Changed"
+#~ msgstr "కర్సర్ అమర్పులు మార్చబడినవి"
+
+#~ msgid "Drag or Type Theme URL"
+#~ msgstr "థీమ్ URLను లాక్కోనితెమ్ము లేదా టైపు చేయుము"
+
+#~ msgid ""
+#~ "Unable to download the cursor theme archive; please check that the "
+#~ "address %1 is correct."
+#~ msgstr "కర్సర్ థీమ్ ఆర్చివ్‌ను డౌనులోడు చేయలేక పోయింది, చిరునామా %1 సరైనదేనేమో దయచేసి పరిశీలించండి."
 
 #~ msgid ""
 #~ "Select the cursor theme you want to use (hover preview to test cursor):"

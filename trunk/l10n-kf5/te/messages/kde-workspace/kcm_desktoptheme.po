@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_desktopthemedetails\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-18 03:46+0200\n"
+"POT-Creation-Date: 2018-04-25 03:47+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -29,30 +29,31 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 
-#: kcm.cpp:55
+#: kcm.cpp:57
 #, fuzzy, kde-format
 #| msgid "Remove Desktop Theme"
 msgid "Configure Desktop Theme"
 msgstr "డెస్కుటాప్ థీమ్‌ను తీసివేయుము"
 
-#: kcm.cpp:57
+#: kcm.cpp:59
 #, kde-format
 msgid "David Rosca"
 msgstr ""
 
-#: kcm.cpp:125
-#, kde-format
-msgid "Theme installed successfully."
-msgstr ""
+#: kcm.cpp:130
+#, fuzzy, kde-format
+#| msgid "How to Change Desktop Theme"
+msgid "Download New Desktop Themes"
+msgstr "రంగస్థల థీమ్‌ను యెలా మార్చాలి"
 
-#: kcm.cpp:128 kcm.cpp:135
+#: kcm.cpp:158 kcm.cpp:166
 #, kde-format
 msgid "Theme installation failed."
 msgstr ""
 
-#: kcm.cpp:282 kcm.cpp:290
+#: kcm.cpp:310
 #, kde-format
-msgid "Theme removal failed."
+msgid "Removing theme failed: %1"
 msgstr ""
 
 #: package/contents/ui/main.qml:29
@@ -60,35 +61,41 @@ msgstr ""
 msgid "This module lets you configure the desktop theme."
 msgstr ""
 
-#: package/contents/ui/main.qml:65
+#: package/contents/ui/main.qml:80
 #, fuzzy, kde-format
 #| msgid "Theme Item"
 msgid "Edit Theme"
 msgstr "థీమ్ అంశము"
 
-#: package/contents/ui/main.qml:71
+#: package/contents/ui/main.qml:87
 #, kde-format
 msgid "Remove Theme"
 msgstr "థీమ్‌ను తీసివేయి"
 
-#: package/contents/ui/main.qml:109
+#: package/contents/ui/main.qml:94
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Restore Theme"
+msgstr "థీమ్‌ను తీసివేయి"
+
+#: package/contents/ui/main.qml:132
 #, kde-format
 msgid "Install from File..."
 msgstr ""
 
-#: package/contents/ui/main.qml:115
+#: package/contents/ui/main.qml:138
 #, fuzzy, kde-format
 #| msgid "Get New Theme..."
 msgid "Get New Themes..."
 msgstr "కొత్త థీమ్‌ను పొందుము..."
 
-#: package/contents/ui/main.qml:127
+#: package/contents/ui/main.qml:149
 #, fuzzy, kde-format
 #| msgid "Theme Item"
 msgid "Open Theme"
 msgstr "థీమ్ అంశము"
 
-#: package/contents/ui/main.qml:129
+#: package/contents/ui/main.qml:151
 #, kde-format
 msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
 msgstr ""
@@ -280,9 +287,6 @@ msgstr ""
 #~ msgstr ""
 #~ "మీ రంగస్థల థీమ్‌ను \"%1\"కు మార్చుటకు, \n"
 #~ "రంగస్థల అమరికలను తెరిచి \"%2\"ను డ్రాప్‌లిస్టు నుండి యెంపికచేయుము."
-
-#~ msgid "How to Change Desktop Theme"
-#~ msgstr "రంగస్థల థీమ్‌ను యెలా మార్చాలి"
 
 #, fuzzy
 #~| msgid "Removal of the default KDE theme is not allowed."
