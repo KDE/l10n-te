@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_desktopthemedetails\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-25 03:47+0200\n"
+"POT-Creation-Date: 2018-04-26 03:38+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -46,12 +46,17 @@ msgstr ""
 msgid "Download New Desktop Themes"
 msgstr "రంగస్థల థీమ్‌ను యెలా మార్చాలి"
 
-#: kcm.cpp:158 kcm.cpp:166
+#: kcm.cpp:156
+#, kde-format
+msgid "Theme installed successfully."
+msgstr ""
+
+#: kcm.cpp:159 kcm.cpp:167
 #, kde-format
 msgid "Theme installation failed."
 msgstr ""
 
-#: kcm.cpp:310
+#: kcm.cpp:311
 #, kde-format
 msgid "Removing theme failed: %1"
 msgstr ""
