@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmfonts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 22:53+0100\n"
+"POT-Creation-Date: 2018-01-24 05:54+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -19,27 +19,29 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 
-#: fonts.cpp:251
+#: fonts.cpp:234
 #, kde-format
 msgid "Configure Anti-Alias Settings"
 msgstr "యాంటీ-యెలియాస్ అమర్పులను ఆకృతీకరించుము"
 
-#: fonts.cpp:259
+#: fonts.cpp:241
 #, kde-format
 msgid "E&xclude range:"
 msgstr "(&x) వ్యాప్తిని విసర్జించుము:"
 
-#: fonts.cpp:262 fonts.cpp:267
-#, kde-format
+#: fonts.cpp:249 fonts.cpp:260
+#, fuzzy, kde-format
+#| msgid " pt"
+msgctxt "abbreviation for unit of points"
 msgid " pt"
 msgstr " pt"
 
-#: fonts.cpp:264
+#: fonts.cpp:252
 #, kde-format
 msgid " to "
 msgstr " to "
 
-#: fonts.cpp:271
+#: fonts.cpp:265
 #, kde-format
 msgid ""
 "<p>If you have a TFT or LCD screen you can further improve the quality of "
@@ -60,151 +62,153 @@ msgstr ""
 "sub-pixel, some have BGR.<br /> This feature does not work with CRT monitors."
 "</p>"
 
-#: fonts.cpp:282
+#: fonts.cpp:276
 #, fuzzy, kde-format
 #| msgid "&Use sub-pixel rendering:"
-msgid "Sub-pixel rendering type: "
+msgid "Sub-pixel rendering type:"
 msgstr "(&U) వుప-పిగ్జెల్ రెండరింగ్‌ను వుపయోగించుము:"
 
-#: fonts.cpp:295
-#, kde-format
-msgid "Hinting style: "
+#: fonts.cpp:289
+#, fuzzy, kde-format
+#| msgid "Hinting style: "
+msgid "Hinting style:"
 msgstr "హింటింగ్ శైలి: "
 
-#: fonts.cpp:303
+#: fonts.cpp:297
 #, kde-format
 msgid ""
 "Hinting is a process used to enhance the quality of fonts at small sizes."
 msgstr ""
 
-#: fonts.cpp:520
+#: fonts.cpp:531
 #, fuzzy, kde-format
 #| msgid "General"
 msgctxt "font usage"
 msgid "General"
 msgstr "సాధారణ"
 
-#: fonts.cpp:521
+#: fonts.cpp:532
 #, fuzzy, kde-format
 #| msgid "Fixed width"
 msgctxt "font usage"
 msgid "Fixed width"
 msgstr "నిర్ధిష్ట వెడల్పు"
 
-#: fonts.cpp:522
+#: fonts.cpp:533
 #, fuzzy, kde-format
 #| msgid "Small"
 msgctxt "font usage"
 msgid "Small"
 msgstr "చిన్న"
 
-#: fonts.cpp:523
+#: fonts.cpp:534
 #, fuzzy, kde-format
 #| msgid "Toolbar"
 msgctxt "font usage"
 msgid "Toolbar"
 msgstr "పనిముట్టుపట్టీ"
 
-#: fonts.cpp:524
+#: fonts.cpp:535
 #, fuzzy, kde-format
 #| msgid "Menu"
 msgctxt "font usage"
 msgid "Menu"
 msgstr "మెనూ"
 
-#: fonts.cpp:525
+#: fonts.cpp:536
 #, fuzzy, kde-format
 #| msgid "Window title"
 msgctxt "font usage"
 msgid "Window title"
 msgstr "విండో శీర్షిక"
 
-#: fonts.cpp:562
+#: fonts.cpp:578
 #, kde-format
 msgid "Used for normal text (e.g. button labels, list items)."
 msgstr "సాదారణ వచనము కొరకు వుపయోగించబడుతుంది (ఉ.దా. బటన్ లేబుల్స్, జాబితా అంశములు)."
 
-#: fonts.cpp:563
+#: fonts.cpp:579
 #, kde-format
 msgid "A non-proportional font (i.e. typewriter font)."
 msgstr "నాన్-ప్రపోర్షనల్ ఫాంటు (అంటే టైపువ్రైటర్ ఫాంటు)."
 
-#: fonts.cpp:564
+#: fonts.cpp:580
 #, kde-format
 msgid "Smallest font that is still readable well."
 msgstr "బాగా చిన్న ఫాంటు అయినా యింకా చదవుగలిగే ఫాంటు."
 
-#: fonts.cpp:565
+#: fonts.cpp:581
 #, kde-format
 msgid "Used to display text beside toolbar icons."
 msgstr "పనిముట్లపట్టీ ప్రతిమల ప్రక్కన వచనమును ప్రదర్శించుటకు వుపయోగించబడింది."
 
-#: fonts.cpp:566
+#: fonts.cpp:582
 #, kde-format
 msgid "Used by menu bars and popup menus."
 msgstr "మెనూ పట్టీలు మరియు పాపప్ మెనూల చేత వుపయోగించబడింది."
 
-#: fonts.cpp:567
+#: fonts.cpp:583
 #, kde-format
 msgid "Used by the window titlebar."
 msgstr "విండో శీర్షికపట్టీ చేత వుపయోగించబడింది."
 
-#: fonts.cpp:605
+#: fonts.cpp:621
 #, kde-format
 msgctxt "Font role"
 msgid "%1: "
 msgstr "%1: "
 
-#: fonts.cpp:618
+#: fonts.cpp:636
 #, kde-format
 msgid "Ad&just All Fonts..."
 msgstr "(&j) అన్ని ఫాంట్లను సర్దుము..."
 
-#: fonts.cpp:619
+#: fonts.cpp:637
 #, kde-format
 msgid "Click to change all fonts"
 msgstr "అన్ని ఫాంట్లను మార్చుటకు నొక్కుము"
 
-#: fonts.cpp:630
+#: fonts.cpp:648
 #, kde-format
 msgid "Use a&nti-aliasing:"
 msgstr "(&n) యాంటీ-యెలియాసింగ్ వుపయోగించుము:"
 
-#: fonts.cpp:634
+#: fonts.cpp:652
 #, kde-format
 msgctxt "Use anti-aliasing"
 msgid "Enabled"
 msgstr "చేతనమైన"
 
-#: fonts.cpp:635
+#: fonts.cpp:653
 #, kde-format
 msgctxt "Use anti-aliasing"
 msgid "System Settings"
 msgstr "సిస్టమ్ అమర్పులు"
 
-#: fonts.cpp:636
+#: fonts.cpp:654
 #, kde-format
 msgctxt "Use anti-aliasing"
 msgid "Disabled"
 msgstr "అచేతనమైన"
 
-#: fonts.cpp:637
-#, kde-format
-msgid ""
-"If this option is selected, KDE will smooth the edges of curves in fonts."
+#: fonts.cpp:655
+#, fuzzy, kde-format
+#| msgid ""
+#| "If this option is selected, KDE will smooth the edges of curves in fonts."
+msgid "Select this option to smooth the edges of curves in fonts."
 msgstr "ఈ ఐచ్చికం ఎంపిక కాబడితే, KDE ఫాంట్సునందలి వంపులయొక్క అంచులను స్మూత్‌ చేస్తుంది."
 
-#: fonts.cpp:638
+#: fonts.cpp:656
 #, kde-format
 msgid "Configure..."
 msgstr "ఆకృతీకరించుము..."
 
-#: fonts.cpp:649
+#: fonts.cpp:666
 #, kde-format
 msgid "Force fonts DPI:"
 msgstr "ఫాంట్ల DPIను పెంచుము:"
 
-#: fonts.cpp:655
+#: fonts.cpp:672
 #, kde-format
 msgid ""
 "<p>This option forces a specific DPI value for fonts. It may be useful when "
@@ -213,12 +217,16 @@ msgid ""
 "values other than 96 or 120 DPI.</p><p>The use of this option is generally "
 "discouraged. For selecting proper DPI value a better option is explicitly "
 "configuring it for the whole X server if possible (e.g. DisplaySize in xorg."
-"conf or adding <i>-dpi value</i> to ServerLocalArgs= in $KDEDIR/share/config/"
-"kdm/kdmrc). When fonts do not render properly with real DPI value better "
-"fonts should be used or configuration of font hinting should be checked.</p>"
+"conf). When fonts do not render properly with real DPI value better fonts "
+"should be used or configuration of font hinting should be checked.</p>"
 msgstr ""
 
-#: fonts.cpp:812
+#: fonts.cpp:683
+#, kde-format
+msgid "This property has no effect on this platform"
+msgstr ""
+
+#: fonts.cpp:836
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>Some changes such as anti-aliasing will only affect newly started "
@@ -229,12 +237,12 @@ msgid ""
 msgstr ""
 "<p>యాంటీ-ఎలియాసింగ్ వంటి కొన్ని మార్పులు కొత్తగా ప్రారంభించిన అనువర్తనములను మాత్రమే ప్రాభావితం చేస్తాయి.</p>"
 
-#: fonts.cpp:813 fonts.cpp:823
+#: fonts.cpp:837 fonts.cpp:847
 #, kde-format
 msgid "Font Settings Changed"
 msgstr "ఫాంటు అమర్పులు మార్చబడినవి"
 
-#: fonts.cpp:822
+#: fonts.cpp:846
 #, kde-format
 msgid ""
 "<p>Some changes such as DPI will only affect newly started applications.</p>"
