@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-01 03:25+0200\n"
+"POT-Creation-Date: 2018-06-03 03:23+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -657,20 +657,25 @@ msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "ఖాళీ ట్రాష్"
 
-#: dolphinviewcontainer.cpp:389 search/dolphinsearchbox.cpp:307
+#: dolphinviewcontainer.cpp:115
+#, kde-format
+msgid "Running Dolphin as root can be dangerous. Please be careful."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:397 search/dolphinsearchbox.cpp:307
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Main Toolbar"
 msgid "Search for %1 in %2"
 msgstr "మెయిన్ పనిముట్లపట్టీ"
 
-#: dolphinviewcontainer.cpp:459
+#: dolphinviewcontainer.cpp:467
 #, kde-format
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "ఫోల్డరును లోడుచేస్తోంది..."
 
-#: dolphinviewcontainer.cpp:467
+#: dolphinviewcontainer.cpp:475
 #, fuzzy, kde-format
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -678,31 +683,31 @@ msgctxt "@info:progress"
 msgid "Sorting..."
 msgstr "వరుసక్రమము:"
 
-#: dolphinviewcontainer.cpp:478
+#: dolphinviewcontainer.cpp:486
 #, kde-format
 msgctxt "@info"
 msgid "Searching..."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:498
+#: dolphinviewcontainer.cpp:506
 #, kde-format
 msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:605
+#: dolphinviewcontainer.cpp:613
 #, kde-format
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "డాల్ఫన్ వెబ్ పేజీలను మద్దతీయదు, వెబ్ "
 
-#: dolphinviewcontainer.cpp:619
+#: dolphinviewcontainer.cpp:627
 #, kde-format
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr "ప్రోటోకాల్ డాల్ఫిన్ చేత మద్దతీయబడదు, కాన్క్వెరర్ ప్రారంభించబడింది"
 
-#: dolphinviewcontainer.cpp:627
+#: dolphinviewcontainer.cpp:635
 #, kde-format
 msgctxt "@info:status"
 msgid "Invalid protocol"
