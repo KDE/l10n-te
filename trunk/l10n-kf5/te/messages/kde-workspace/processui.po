@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: processui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-05-25 03:46+0200\n"
+"POT-Creation-Date: 2018-07-16 03:32+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "4;\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: ksysguardprocesslist.cpp:202 ksysguardprocesslist.cpp:459
+#: ksysguardprocesslist.cpp:206 ksysguardprocesslist.cpp:534
 #, kde-format
 msgid "Set Priority..."
 msgid_plural "Set Priority..."
@@ -29,27 +29,27 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: ksysguardprocesslist.cpp:204 ksysguardprocesslist.cpp:552
+#: ksysguardprocesslist.cpp:208 ksysguardprocesslist.cpp:627
 #, kde-format
 msgid "Jump to Parent Process"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:206
+#: ksysguardprocesslist.cpp:210
 #, kde-format
 msgid "Jump to Process Debugging This One"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:207
+#: ksysguardprocesslist.cpp:211
 #, kde-format
 msgid "Show Application Window"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:208
+#: ksysguardprocesslist.cpp:212
 #, kde-format
 msgid "Resume Stopped Process"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:209
+#: ksysguardprocesslist.cpp:213
 #, kde-format
 msgid "End Process"
 msgid_plural "End Processes"
@@ -59,7 +59,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: ksysguardprocesslist.cpp:212 ksysguardprocesslist.cpp:460
+#: ksysguardprocesslist.cpp:216 ksysguardprocesslist.cpp:535
 #, kde-format
 msgid "Forcibly Kill Process"
 msgid_plural "Forcibly Kill Processes"
@@ -69,61 +69,74 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: ksysguardprocesslist.cpp:216
+#: ksysguardprocesslist.cpp:220
 #, kde-format
 msgid "Suspend (STOP)"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:217
+#: ksysguardprocesslist.cpp:221
 #, kde-format
 msgid "Continue (CONT)"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:218
+#: ksysguardprocesslist.cpp:222
 #, kde-format
 msgid "Hangup (HUP)"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:219
+#: ksysguardprocesslist.cpp:223
 #, kde-format
 msgid "Interrupt (INT)"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:220
+#: ksysguardprocesslist.cpp:224
 #, kde-format
 msgid "Terminate (TERM)"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:221
+#: ksysguardprocesslist.cpp:225
 #, kde-format
 msgid "Kill (KILL)"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:222
+#: ksysguardprocesslist.cpp:226
 #, kde-format
 msgid "User 1 (USR1)"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:223
+#: ksysguardprocesslist.cpp:227
 #, kde-format
 msgid "User 2 (USR2)"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:226
+#: ksysguardprocesslist.cpp:230
 #, kde-format
 msgid "Focus on Quick Search"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:381
+#: ksysguardprocesslist.cpp:387
 #, kde-format
 msgid ""
 "<qt>End the selected process. Warning - you may lose unsaved work.<br>Right "
 "click on a process to send other signals.<br>See What's This for technical "
-"information.<br>To target a specific window to kill, press Ctrl+Alt+Esc at "
-"any time."
+"information."
 msgstr ""
 
-#: ksysguardprocesslist.cpp:461
+#: ksysguardprocesslist.cpp:422
+#, fuzzy, kde-format
+#| msgctxt "process heading"
+#| msgid "Command"
+msgctxt "@action:inmenu"
+msgid "Run Command"
+msgstr "ఆదేశము"
+
+#: ksysguardprocesslist.cpp:439
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Kill a Window"
+msgstr ""
+
+#: ksysguardprocesslist.cpp:536
 #, kde-format
 msgctxt "Context menu"
 msgid "End Process"
@@ -134,145 +147,145 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: ksysguardprocesslist.cpp:497
+#: ksysguardprocesslist.cpp:572
 #, kde-format
 msgid "Send Signal"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:515
+#: ksysguardprocesslist.cpp:590
 #, kde-format
 msgid "Jump to Parent Process (%1)"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:653
+#: ksysguardprocesslist.cpp:728
 #, kde-format
 msgid "Hide Column '%1'"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:669
+#: ksysguardprocesslist.cpp:744
 #, kde-format
 msgid "Show Column '%1'"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:697
+#: ksysguardprocesslist.cpp:772
 #, kde-format
 msgid "Display Units"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:701
+#: ksysguardprocesslist.cpp:776
 #, kde-format
 msgid "Mixed"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:707
+#: ksysguardprocesslist.cpp:782
 #, kde-format
 msgid "Kilobytes per second"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:707
+#: ksysguardprocesslist.cpp:782
 #, kde-format
 msgid "Kilobytes"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:713
+#: ksysguardprocesslist.cpp:788
 #, kde-format
 msgid "Megabytes per second"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:713
+#: ksysguardprocesslist.cpp:788
 #, kde-format
 msgid "Megabytes"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:719
+#: ksysguardprocesslist.cpp:794
 #, kde-format
 msgid "Gigabytes per second"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:719
+#: ksysguardprocesslist.cpp:794
 #, kde-format
 msgid "Gigabytes"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:728
+#: ksysguardprocesslist.cpp:803
 #, kde-format
 msgid "Percentage"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:757
+#: ksysguardprocesslist.cpp:832
 #, kde-format
 msgid "Display command line options"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:764
+#: ksysguardprocesslist.cpp:839
 #, kde-format
 msgid "Divide CPU usage by number of CPUs"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:771
+#: ksysguardprocesslist.cpp:846
 #, kde-format
 msgid "Displayed Information"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:774
+#: ksysguardprocesslist.cpp:849
 #, kde-format
 msgid "Characters read/written"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:779
+#: ksysguardprocesslist.cpp:854
 #, kde-format
 msgid "Number of Read/Write operations"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:784
+#: ksysguardprocesslist.cpp:859
 #, kde-format
 msgid "Bytes actually read/written"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:790
+#: ksysguardprocesslist.cpp:865
 #, kde-format
 msgid "Show I/O rate"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:817
+#: ksysguardprocesslist.cpp:892
 #, kde-format
 msgid "Show Tooltips"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1078
+#: ksysguardprocesslist.cpp:1153
 #, kde-format
 msgid ""
 "You do not have the permission to renice the process and there was a problem "
 "trying to run as root.  Error %1 %2"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1106 ksysguardprocesslist.cpp:1331
+#: ksysguardprocesslist.cpp:1181 ksysguardprocesslist.cpp:1406
 #, kde-format
 msgid "You must select a process first."
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1242
+#: ksysguardprocesslist.cpp:1317
 #, kde-format
 msgid ""
 "You do not have the permission to change the I/O priority of the process and "
 "there was a problem trying to run as root.  Error %1 %2"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1272
+#: ksysguardprocesslist.cpp:1347
 #, kde-format
 msgid ""
 "You do not have the permission to change the CPU Scheduler for the process "
 "and there was a problem trying to run as root.  Error %1 %2"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1302
+#: ksysguardprocesslist.cpp:1377
 #, kde-format
 msgid ""
 "You do not have the permission to kill the process and there was a problem "
 "trying to run as root.  Error %1 %2"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1340
+#: ksysguardprocesslist.cpp:1415
 #, kde-format
 msgid ""
 "Are you sure you want to end this process?  Any unsaved work may be lost."
@@ -285,7 +298,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: ksysguardprocesslist.cpp:1343
+#: ksysguardprocesslist.cpp:1418
 #, kde-format
 msgctxt "Dialog title"
 msgid "End Process"
@@ -296,12 +309,12 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: ksysguardprocesslist.cpp:1345
+#: ksysguardprocesslist.cpp:1420
 #, kde-format
 msgid "End"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1347
+#: ksysguardprocesslist.cpp:1422
 #, kde-format
 msgid ""
 "<qt>Are you sure you want to <b>immediately and forcibly kill</b> this "
@@ -315,7 +328,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: ksysguardprocesslist.cpp:1350
+#: ksysguardprocesslist.cpp:1425
 #, kde-format
 msgctxt "Dialog title"
 msgid "Forcibly Kill Process"
@@ -326,7 +339,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: ksysguardprocesslist.cpp:1352
+#: ksysguardprocesslist.cpp:1427
 #, kde-format
 msgid "Kill"
 msgstr ""
@@ -1213,6 +1226,12 @@ msgstr ""
 #: ProcessWidgetUI.ui:133
 #, kde-format
 msgid "Programs Only"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, btnTools)
+#: ProcessWidgetUI.ui:141
+#, kde-format
+msgid "Tools"
 msgstr ""
 
 #: ReniceDlg.cpp:43
