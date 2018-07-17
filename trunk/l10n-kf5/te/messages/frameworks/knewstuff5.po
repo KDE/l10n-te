@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-26 03:26+0200\n"
+"POT-Creation-Date: 2018-07-17 03:37+0200\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -248,12 +248,12 @@ msgstr ""
 "<qt><i>జిపిజి</i> మొదలుపెట్టలేను మరయూ దస్త్రాన్ని సంతకం చేయ లెకపొయాను.<i>జిపిజి</i> స్థాపించబడి "
 "వునట్టు చూసుకోండి, లెకపొయిన డౌన్ లోడ్ చెయబడిన వనరుల సరిచూడలేము.</qt>"
 
-#: downloaddialog.cpp:83 downloadwidget.cpp:220
+#: downloaddialog.cpp:83 downloadwidget.cpp:222
 #, kde-format
 msgid "Get Hot New Stuff"
 msgstr "కొత్తవాటిని తెచ్చుకో!"
 
-#: downloaddialog.cpp:98
+#: downloaddialog.cpp:101
 #, kde-format
 msgctxt "Program name followed by 'Add On Installer'"
 msgid "%1 Add-On Installer"
@@ -264,53 +264,53 @@ msgstr "%1 యాడ్-ఆన్ సంస్థాపకి"
 msgid "Timeout. Check Internet connection."
 msgstr "సమయం అయిపోయింది. అంతర్జాల అనుసంధానము పరిశీలించుము!"
 
-#: downloadwidget.cpp:192
+#: downloadwidget.cpp:194
 #, kde-format
 msgid "Server: %1"
 msgstr "సెర్వర్: %1"
 
-#: downloadwidget.cpp:193
+#: downloadwidget.cpp:195
 #, kde-format
 msgid "<br />Provider: %1"
 msgstr "<br />సిద్దంచేసేవారు: %1"
 
-#: downloadwidget.cpp:194
+#: downloadwidget.cpp:196
 #, kde-format
 msgid "<br />Version: %1"
 msgstr "<br />వివరణం: %1"
 
-#: downloadwidget.cpp:198
+#: downloadwidget.cpp:200
 #, kde-format
 msgid "Provider information"
 msgstr "సిద్దంచేసేవారి సమాచారం"
 
-#: downloadwidget.cpp:209
+#: downloadwidget.cpp:211
 #, kde-format
 msgid "Could not install %1"
 msgstr "%1ను సంస్థాపించలేక పోయింది"
 
-#: downloadwidget.cpp:210
+#: downloadwidget.cpp:212
 #, kde-format
 msgid "Get Hot New Stuff!"
 msgstr "కొత్తవాటిని తెచ్చుకో!"
 
-#: downloadwidget.cpp:264
+#: downloadwidget.cpp:267
 #, kde-format
 msgid "Icons view mode"
 msgstr "ప్రతిమ వీక్షణ విధం"
 
-#: downloadwidget.cpp:266
+#: downloadwidget.cpp:269
 #, kde-format
 msgid "Details view mode"
 msgstr "వివరాలు వీక్షణ విధం"
 
-#: downloadwidget.cpp:281
+#: downloadwidget.cpp:284
 #, fuzzy, kde-format
 #| msgid "All Providers"
 msgid "All Providers"
 msgstr "సింద్దంచేయునది: %1  "
 
-#: downloadwidget.cpp:288
+#: downloadwidget.cpp:291
 #, kde-format
 msgid "All Categories"
 msgstr "అన్నీ రకా"
@@ -329,17 +329,17 @@ msgstr "ప్రొవైడ"
 msgid "Category:"
 msgstr "రక"
 
-#. i18n: ectx: property (text), widget (QRadioButton, newestRadio)
-#: downloadwidget.ui:90
-#, kde-format
-msgid "Newest"
-msgstr "కొత్తదై"
-
 #. i18n: ectx: property (text), widget (QRadioButton, ratingRadio)
-#: downloadwidget.ui:103
+#: downloadwidget.ui:90
 #, kde-format
 msgid "Rating"
 msgstr "రేటిం"
+
+#. i18n: ectx: property (text), widget (QRadioButton, newestRadio)
+#: downloadwidget.ui:103
+#, kde-format
+msgid "Newest"
+msgstr "కొత్తదై"
 
 #. i18n: ectx: property (text), widget (QRadioButton, mostDownloadsRadio)
 #: downloadwidget.ui:110
