@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: filetypes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-07-13 03:38+0200\n"
+"POT-Creation-Date: 2018-07-19 03:39+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -77,7 +77,7 @@ msgid ""
 "text files."
 msgstr ""
 
-#: filetypedetails.cpp:98 filetypesview.cpp:119 kservicelistwidget.cpp:118
+#: filetypedetails.cpp:98 filetypesview.cpp:119 kservicelistwidget.cpp:120
 #, kde-format
 msgid "Add..."
 msgstr "కలుపు..."
@@ -87,7 +87,7 @@ msgstr "కలుపు..."
 msgid "Add a new pattern for the selected file type."
 msgstr "ఎంపికచేసిన ఫైలు రకమునకు కొత్త మాదిరిని జతచేయుము."
 
-#: filetypedetails.cpp:106 kservicelistwidget.cpp:134
+#: filetypedetails.cpp:106 kservicelistwidget.cpp:136
 #, kde-format
 msgid "Remove"
 msgstr "తొలగించు"
@@ -324,17 +324,17 @@ msgstr "కొత్త ఫైలు రకము %1ను సృష్టిం
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: kservicelistwidget.cpp:61
+#: kservicelistwidget.cpp:63
 #, kde-format
 msgid "Application Preference Order"
 msgstr "అనువర్తనము అభీష్ట క్రమము"
 
-#: kservicelistwidget.cpp:62
+#: kservicelistwidget.cpp:64
 #, kde-format
 msgid "Services Preference Order"
 msgstr "సేవల అభీష్ట క్రమము"
 
-#: kservicelistwidget.cpp:74
+#: kservicelistwidget.cpp:76
 #, kde-format
 msgid ""
 "This is a list of applications associated with files of the selected file "
@@ -344,7 +344,7 @@ msgid ""
 "precedence over the others."
 msgstr ""
 
-#: kservicelistwidget.cpp:79
+#: kservicelistwidget.cpp:81
 #, kde-format
 msgid ""
 "This is a list of services associated with files of the selected file type. "
@@ -354,12 +354,12 @@ msgid ""
 "precedence over the others."
 msgstr ""
 
-#: kservicelistwidget.cpp:91
+#: kservicelistwidget.cpp:93
 #, kde-format
 msgid "Move &Up"
 msgstr "(&U) పైకి కదుపుము"
 
-#: kservicelistwidget.cpp:98
+#: kservicelistwidget.cpp:100
 #, kde-format
 msgid ""
 "Assigns a higher priority to the selected\n"
@@ -372,7 +372,7 @@ msgstr ""
 "వొకటికన్నా యెక్కువ అనువర్తనములతో సంభందించివుంటే మాత్రమే\n"
 "యిది ఎంపికచేసిన అనువర్తనమును ప్రభావితం చేస్తుంది."
 
-#: kservicelistwidget.cpp:102
+#: kservicelistwidget.cpp:104
 #, kde-format
 msgid ""
 "Assigns a higher priority to the selected\n"
@@ -381,12 +381,12 @@ msgstr ""
 "ఎంపికచేసిన సేవకు అదిక ప్రాముఖ్యతను యిస్తుంది, దానిని\n"
 "జాబితానందు పైకి కదుపుతుంది."
 
-#: kservicelistwidget.cpp:105
+#: kservicelistwidget.cpp:107
 #, kde-format
 msgid "Move &Down"
 msgstr "(&D) క్రిందికి కదుపు"
 
-#: kservicelistwidget.cpp:111
+#: kservicelistwidget.cpp:113
 #, kde-format
 msgid ""
 "Assigns a lower priority to the selected\n"
@@ -399,7 +399,7 @@ msgstr ""
 "వొకటికన్నా యెక్కువ అనువర్తనములతో సంభందించివుంటే మాత్రమే\n"
 "యిది ఎంపికచేసిన అనువర్తనమును ప్రభావితం చేస్తుంది."
 
-#: kservicelistwidget.cpp:115
+#: kservicelistwidget.cpp:117
 #, kde-format
 msgid ""
 "Assigns a lower priority to the selected\n"
@@ -408,33 +408,33 @@ msgstr ""
 "ఎంపికచేసిన సేవకు తక్కువ ప్రాముఖ్యతను యిస్తుంది, దానిని\n"
 "జాబితానందు క్రిందికి కదుపుతుంది."
 
-#: kservicelistwidget.cpp:123
+#: kservicelistwidget.cpp:125
 #, kde-format
 msgid "Add a new application for this file type."
 msgstr "ఈ ఫైలు రకముకు కొత్త అనువర్తనమును జతచేయుము."
 
-#: kservicelistwidget.cpp:126
+#: kservicelistwidget.cpp:128
 #, kde-format
 msgid "Edit..."
 msgstr "మార్చు..."
 
-#: kservicelistwidget.cpp:131
+#: kservicelistwidget.cpp:133
 #, kde-format
 msgid "Edit command line of the selected application."
 msgstr "ఎంపికచేసిన అనువర్తనముయొక్క ఆదేశ వరుసను సరికూర్చుము."
 
-#: kservicelistwidget.cpp:139
+#: kservicelistwidget.cpp:141
 #, kde-format
 msgid "Remove the selected application from the list."
 msgstr "ఎంపికచేసిన అనువర్తనమును జాబితానుండి తొలగించుము."
 
-#: kservicelistwidget.cpp:163
+#: kservicelistwidget.cpp:165
 #, kde-format
 msgctxt "No applications associated with this file type"
 msgid "None"
 msgstr "ఏదీకాదు"
 
-#: kservicelistwidget.cpp:165
+#: kservicelistwidget.cpp:167
 #, kde-format
 msgctxt "No components associated with this file type"
 msgid "None"
