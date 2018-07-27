@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_phonon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 20:21+0100\n"
+"POT-Creation-Date: 2018-07-27 03:45+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -29,76 +29,6 @@ msgstr "విజయ్ కిరణ్ కముజు"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "infyquest@gmail.com"
-
-#: audiosetup.cpp:561
-#, kde-format
-msgid "Playback (%1)"
-msgstr ""
-
-#: audiosetup.cpp:565
-#, kde-format
-msgid "Recording (%1)"
-msgstr ""
-
-#: audiosetup.cpp:623
-#, kde-format
-msgid "Independent Devices"
-msgstr ""
-
-#: audiosetup.cpp:652
-#, kde-format
-msgid "KDE Audio Hardware Setup"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, hardwareGroupBox)
-#: audiosetup.ui:18
-#, kde-format
-msgid "Hardware"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, profileLabel)
-#: audiosetup.ui:44
-#, fuzzy, kde-format
-#| msgid "Prefer"
-msgid "Profile"
-msgstr "అభీష్ట"
-
-#. i18n: ectx: property (text), widget (QLabel, cardLabel)
-#: audiosetup.ui:54
-#, kde-format
-msgid "Sound Card"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, deviceGroupBox)
-#: audiosetup.ui:67
-#, kde-format
-msgid "Device Configuration"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, portLabel)
-#: audiosetup.ui:83
-#, kde-format
-msgid "Connector"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, deviceLabel)
-#: audiosetup.ui:103
-#, fuzzy, kde-format
-#| msgid "Show Advanced Devices"
-msgid "Sound Device"
-msgstr "ఆధునిక పరికరాలు చూపు"
-
-#. i18n: ectx: property (title), widget (QGroupBox, outputGroupBox)
-#: audiosetup.ui:144
-#, kde-format
-msgid "Speaker Placement and Testing"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, inputGroupBox)
-#: audiosetup.ui:181
-#, kde-format
-msgid "Input Levels"
-msgstr ""
 
 #: backendselection.cpp:74
 #, kde-format
@@ -302,105 +232,45 @@ msgstr "ఎంపికచేసిన పరికరమును అభీష�
 msgid "no preference for the selected device"
 msgstr "ఎంపికచేసిన పరికరముకు యెటువంటి అభీష్టములేదు"
 
-#: main.cpp:43
+#: main.cpp:40
 #, kde-format
 msgid "Phonon Configuration Module"
 msgstr "ఫోనాన్ ఆకృతీకరణ మాడ్యూల్"
 
-#: main.cpp:45
+#: main.cpp:42
 #, kde-format
 msgid "Copyright 2006 Matthias Kretz"
 msgstr "కాపీ రైట్ 2006 మథైయాస్ క్రెట్జ్"
 
-#: main.cpp:46
+#: main.cpp:43
 #, kde-format
 msgid "Matthias Kretz"
 msgstr "మథైయాస్ క్రెట్జ్"
 
-#: main.cpp:47
+#: main.cpp:44
 #, kde-format
 msgid "Colin Guthrie"
 msgstr ""
 
-#: main.cpp:58
+#: main.cpp:55
 #, kde-format
 msgid "Device Preference"
 msgstr "పరికరము పనితనము"
 
-#: main.cpp:60
+#: main.cpp:57
 #, kde-format
 msgid "Backend"
 msgstr "బేక్ ఎండ్"
 
-#: main.cpp:96
-#, kde-format
-msgid "Audio Hardware Setup"
-msgstr ""
+#, fuzzy
+#~| msgid "Prefer"
+#~ msgid "Profile"
+#~ msgstr "అభీష్ట"
 
-#: testspeakerwidget.cpp:148
-#, kde-format
-msgid "Front Left"
-msgstr ""
-
-#: testspeakerwidget.cpp:150
-#, kde-format
-msgid "Front Left of Center"
-msgstr ""
-
-#: testspeakerwidget.cpp:152
-#, kde-format
-msgid "Front Center"
-msgstr ""
-
-#: testspeakerwidget.cpp:154
-#, kde-format
-msgid "Mono"
-msgstr ""
-
-#: testspeakerwidget.cpp:156
-#, kde-format
-msgid "Front Right of Center"
-msgstr ""
-
-#: testspeakerwidget.cpp:158
-#, kde-format
-msgid "Front Right"
-msgstr ""
-
-#: testspeakerwidget.cpp:160
-#, kde-format
-msgid "Side Left"
-msgstr ""
-
-#: testspeakerwidget.cpp:162
-#, kde-format
-msgid "Side Right"
-msgstr ""
-
-#: testspeakerwidget.cpp:164
-#, kde-format
-msgid "Rear Left"
-msgstr ""
-
-#: testspeakerwidget.cpp:166
-#, kde-format
-msgid "Rear Center"
-msgstr ""
-
-#: testspeakerwidget.cpp:168
-#, kde-format
-msgid "Rear Right"
-msgstr ""
-
-#: testspeakerwidget.cpp:170
-#, kde-format
-msgid "Subwoofer"
-msgstr ""
-
-#: testspeakerwidget.cpp:174
-#, kde-format
-msgid "Unknown Channel"
-msgstr ""
+#, fuzzy
+#~| msgid "Show Advanced Devices"
+#~ msgid "Sound Device"
+#~ msgstr "ఆధునిక పరికరాలు చూపు"
 
 #~ msgid "Audio Output"
 #~ msgstr "ఆడియో అవట్‌పుట్"
