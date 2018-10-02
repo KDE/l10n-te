@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner_sessions\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-16 09:16+0200\n"
+"POT-Creation-Date: 2018-10-02 03:59+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -32,8 +32,8 @@ msgstr ""
 
 #: sessionrunner.cpp:45 sessionrunner.cpp:101
 #, kde-format
-msgctxt "shutdown computer command"
-msgid "shutdown"
+msgctxt "shut down computer command"
+msgid "shut down"
 msgstr ""
 
 #: sessionrunner.cpp:46
@@ -41,7 +41,7 @@ msgstr ""
 msgid "Turns off the computer"
 msgstr ""
 
-#: sessionrunner.cpp:50 sessionrunner.cpp:109
+#: sessionrunner.cpp:50 sessionrunner.cpp:110
 #, kde-format
 msgctxt "lock screen command"
 msgid "lock"
@@ -88,7 +88,7 @@ msgid ""
 "sessions if :q: is not provided"
 msgstr ""
 
-#: sessionrunner.cpp:63 sessionrunner.cpp:154
+#: sessionrunner.cpp:63 sessionrunner.cpp:155
 #, kde-format
 msgid "switch user"
 msgstr ""
@@ -98,7 +98,7 @@ msgstr ""
 msgid "Starts a new session as a different user"
 msgstr ""
 
-#: sessionrunner.cpp:65 sessionrunner.cpp:155
+#: sessionrunner.cpp:65 sessionrunner.cpp:156
 #, kde-format
 msgid "new session"
 msgstr ""
@@ -124,33 +124,39 @@ msgstr "లాగ్అవుట్"
 msgid "Restart the computer"
 msgstr ""
 
-#: sessionrunner.cpp:103
+#: sessionrunner.cpp:102
 #, kde-format
-msgid "Shutdown the computer"
+msgctxt "shut down computer command"
+msgid "shutdown"
 msgstr ""
 
-#: sessionrunner.cpp:112
+#: sessionrunner.cpp:104
+#, kde-format
+msgid "Shut down the computer"
+msgstr ""
+
+#: sessionrunner.cpp:113
 #, kde-format
 msgid "Lock the screen"
 msgstr ""
 
-#: sessionrunner.cpp:138
+#: sessionrunner.cpp:139
 #, kde-format
 msgctxt "User sessions"
 msgid "sessions"
 msgstr ""
 
-#: sessionrunner.cpp:164
+#: sessionrunner.cpp:165
 #, kde-format
 msgid "New Session"
 msgstr ""
 
-#: sessionrunner.cpp:248
+#: sessionrunner.cpp:249
 #, kde-format
 msgid "Warning - New Session"
 msgstr ""
 
-#: sessionrunner.cpp:249
+#: sessionrunner.cpp:250
 #, kde-format
 msgid ""
 "<p>You have chosen to open another desktop session.<br />The current session "
