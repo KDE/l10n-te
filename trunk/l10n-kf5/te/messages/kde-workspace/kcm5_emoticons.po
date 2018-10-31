@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_emoticons\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-28 03:51+0200\n"
+"POT-Creation-Date: 2018-10-31 04:05+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -102,121 +102,20 @@ msgstr "సృష్టించుటకు ఎమోటికాన్ థీ�
 msgid "Emoticons Manager"
 msgstr "ఎమోటికాన్స్ నిర్వాహిక"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, btEdit)
-#: emoticonslist.ui:20
-#, kde-format
-msgid "Modify the selected emoticon icon or text "
-msgstr "ఎంపికచేసిన ఎమోటికాన్ ప్రతిమ లేదా వచనమును సవరించుము"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btEdit)
-#: emoticonslist.ui:23
-#, kde-format
-msgid "Edit the selected emoticon to change its icon or its text"
-msgstr "ఎంపిక చేసిన ఎమోటికాన్ ప్రతిమను లేదా వచనమును మార్చుటకు సరికూర్చుము"
-
-#. i18n: ectx: property (text), widget (QPushButton, btEdit)
-#: emoticonslist.ui:26
-#, kde-format
-msgid "Edit..."
-msgstr "మార్చు..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btAdd)
-#: emoticonslist.ui:33
-#, kde-format
-msgid "Create a new emoticon"
-msgstr "కొత్త ఎమోటికాన్స్‌ను సృష్టించుము"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btAdd)
-#: emoticonslist.ui:36
-#, kde-format
-msgid "Create a new emoticon by assigning it an icon and some text"
-msgstr "కొత్త ఎమోటికాన్‌ను దానికి ప్రతిమను మరియు కొంత వచనమును చేర్చుట ద్వారా సృష్టించుము"
-
-#. i18n: ectx: property (text), widget (QPushButton, btAdd)
-#: emoticonslist.ui:39
-#, kde-format
-msgid "Add..."
-msgstr "కలుపు..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btGetNew)
-#: emoticonslist.ui:66
-#, fuzzy, kde-format
-#| msgid "Get new themes from the Internet"
-msgid "Get new icon themes from the Internet"
-msgstr "ఇంటర్నెట్‌నుండి కొత్త థీమ్స్‌ను పొందుము"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btGetNew)
-#: emoticonslist.ui:69
-#, kde-format
-msgid ""
-"You need to be connected to the Internet to use this action. A dialog will "
-"display a list of emoticon themes from the http://www.kde-look.org website. "
-"Clicking the Install button associated with a theme will install this theme "
-"locally."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, btGetNew)
-#: emoticonslist.ui:72
-#, fuzzy, kde-format
-#| msgid "Get New Themes..."
-msgid "Get new Theme"
-msgstr "కొత్త థీమ్సును పొందుము..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btInstall)
-#: emoticonslist.ui:79
-#, kde-format
-msgid "Install a theme archive file you already have locally"
-msgstr "మీరు యిప్పటికే స్థానికంగా కలిగిన థీమ్ అర్చివ్ ఫైలును సంస్థాపించుము"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btInstall)
-#: emoticonslist.ui:82
-#, kde-format
-msgid ""
-"If you already have an emoticon theme archive locally, this button will "
-"unpack it and make it available for KDE applications"
-msgstr ""
-"మీరు యిప్పటికే ఎమోటికాన్ థీమ్ అర్చివ్‌ను స్థానికంగా కలిగివుంటే, ఈ బటన్ దానిని అన్‌పాక్ చేస్తుంది మరియు దానిని KDE "
-"అనువర్తనములకు అందుబాటు చేస్తుంది."
-
-#. i18n: ectx: property (text), widget (QPushButton, btInstall)
-#: emoticonslist.ui:85
-#, fuzzy, kde-format
-#| msgid "Install Theme File..."
-msgid "Install from File"
-msgstr "థీమ్ పైలు సంస్థాపించుము..."
-
 #. i18n: ectx: property (text), widget (QCheckBox, cbStrict)
-#: emoticonslist.ui:92
+#: emoticonslist.ui:40
 #, kde-format
 msgid "Require spaces around emoticons"
 msgstr "ఎమోటికాన్సు చుట్టూ ఖాళీలు అవసరము"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveTheme)
-#: emoticonslist.ui:99
-#, kde-format
-msgid "Remove the selected theme from your disk"
-msgstr "ఎంపికచేసిన థీమ్‌ను డిస్కునుండి తీసివేయుము"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveTheme)
-#: emoticonslist.ui:102
-#, kde-format
-msgid "This will remove the selected theme from your disk."
-msgstr "ఇది ఎంపికచేసిన థీమ్‌ను మీ డిస్కునుండి తీసివేస్తుంది."
-
-#. i18n: ectx: property (text), widget (QPushButton, btRemoveTheme)
-#: emoticonslist.ui:105
-#, kde-format
-msgid "Remove Theme"
-msgstr "థీమ్‌ను తీసివేయి"
-
 #. i18n: ectx: property (toolTip), widget (QPushButton, btNew)
-#: emoticonslist.ui:125
+#: emoticonslist.ui:47
 #, kde-format
 msgid "Design a new emoticon theme"
 msgstr "కొత్త ఎమోటికాన్ థీమ్‌ను రూపొందించుము"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btNew)
-#: emoticonslist.ui:128
+#: emoticonslist.ui:50
 #, kde-format
 msgid ""
 "Start a new theme by assigning it a name. Then use the Add button on the "
@@ -226,26 +125,132 @@ msgstr ""
 "జతచేయి బటన్‌ను వుపయోగించుము."
 
 #. i18n: ectx: property (text), widget (QPushButton, btNew)
-#: emoticonslist.ui:131
+#: emoticonslist.ui:53
 #, fuzzy, kde-format
 #| msgid "New Theme..."
 msgid "New Theme"
 msgstr "కొత్త థీమ్..."
 
+#. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:60
+#, kde-format
+msgid "Remove the selected theme from your disk"
+msgstr "ఎంపికచేసిన థీమ్‌ను డిస్కునుండి తీసివేయుము"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:63
+#, kde-format
+msgid "This will remove the selected theme from your disk."
+msgstr "ఇది ఎంపికచేసిన థీమ్‌ను మీ డిస్కునుండి తీసివేస్తుంది."
+
+#. i18n: ectx: property (text), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:66
+#, kde-format
+msgid "Remove Theme"
+msgstr "థీమ్‌ను తీసివేయి"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btAdd)
+#: emoticonslist.ui:86
+#, kde-format
+msgid "Create a new emoticon"
+msgstr "కొత్త ఎమోటికాన్స్‌ను సృష్టించుము"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btAdd)
+#: emoticonslist.ui:89
+#, kde-format
+msgid "Create a new emoticon by assigning it an icon and some text"
+msgstr "కొత్త ఎమోటికాన్‌ను దానికి ప్రతిమను మరియు కొంత వచనమును చేర్చుట ద్వారా సృష్టించుము"
+
+#. i18n: ectx: property (text), widget (QPushButton, btAdd)
+#: emoticonslist.ui:92
+#, kde-format
+msgid "Add..."
+msgstr "కలుపు..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btEdit)
+#: emoticonslist.ui:99
+#, kde-format
+msgid "Modify the selected emoticon icon or text "
+msgstr "ఎంపికచేసిన ఎమోటికాన్ ప్రతిమ లేదా వచనమును సవరించుము"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btEdit)
+#: emoticonslist.ui:102
+#, kde-format
+msgid "Edit the selected emoticon to change its icon or its text"
+msgstr "ఎంపిక చేసిన ఎమోటికాన్ ప్రతిమను లేదా వచనమును మార్చుటకు సరికూర్చుము"
+
+#. i18n: ectx: property (text), widget (QPushButton, btEdit)
+#: emoticonslist.ui:105
+#, kde-format
+msgid "Edit..."
+msgstr "మార్చు..."
+
 #. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveEmoticon)
-#: emoticonslist.ui:138
+#: emoticonslist.ui:112
 #, kde-format
 msgid "Remove the selected emoticon"
 msgstr "ఎంపికచేసిన ఎమోటికాన్‌ను తీసివేయుము"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveEmoticon)
-#: emoticonslist.ui:141
+#: emoticonslist.ui:115
 #, kde-format
 msgid "Remove the selected emoticon from your disk"
 msgstr "మీ డిస్కునుండి ఎంపికచేసిన ఎమోటికాన్‌ను తీసివేయుము"
 
 #. i18n: ectx: property (text), widget (QPushButton, btRemoveEmoticon)
-#: emoticonslist.ui:144
+#: emoticonslist.ui:118
 #, kde-format
 msgid "Remove"
 msgstr "తొలగించు"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btInstall)
+#: emoticonslist.ui:138
+#, kde-format
+msgid "Install a theme archive file you already have locally"
+msgstr "మీరు యిప్పటికే స్థానికంగా కలిగిన థీమ్ అర్చివ్ ఫైలును సంస్థాపించుము"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btInstall)
+#: emoticonslist.ui:141
+#, kde-format
+msgid ""
+"If you already have an emoticon theme archive locally, this button will "
+"unpack it and make it available for KDE applications"
+msgstr ""
+"మీరు యిప్పటికే ఎమోటికాన్ థీమ్ అర్చివ్‌ను స్థానికంగా కలిగివుంటే, ఈ బటన్ దానిని అన్‌పాక్ చేస్తుంది మరియు దానిని KDE "
+"అనువర్తనములకు అందుబాటు చేస్తుంది."
+
+#. i18n: ectx: property (text), widget (QPushButton, btInstall)
+#: emoticonslist.ui:144
+#, fuzzy, kde-format
+#| msgid "Install Theme File..."
+msgid "Install from File..."
+msgstr "థీమ్ పైలు సంస్థాపించుము..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:151
+#, fuzzy, kde-format
+#| msgid "Get new themes from the Internet"
+msgid "Get new icon themes from the Internet"
+msgstr "ఇంటర్నెట్‌నుండి కొత్త థీమ్స్‌ను పొందుము"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:154
+#, kde-format
+msgid ""
+"You need to be connected to the Internet to use this action. A dialog will "
+"display a list of emoticon themes from the http://www.kde-look.org website. "
+"Clicking the Install button associated with a theme will install this theme "
+"locally."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:157
+#, fuzzy, kde-format
+#| msgid "Create a new emoticon"
+msgid "Get New Emoticons..."
+msgstr "కొత్త ఎమోటికాన్స్‌ను సృష్టించుము"
+
+#, fuzzy
+#~| msgid "Get New Themes..."
+#~ msgid "Get new Theme"
+#~ msgstr "కొత్త థీమ్సును పొందుము..."
