@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-11-03 03:47+0100\n"
+"POT-Creation-Date: 2018-11-05 03:40+0100\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 
-#: kaboutapplicationdialog.cpp:81 khelpmenu.cpp:281
+#: kaboutapplicationdialog.cpp:81 khelpmenu.cpp:283
 #, kde-format
 msgid "About %1"
 msgstr "%1 గురించి"
@@ -568,42 +568,42 @@ msgstr ""
 msgid "Close Message"
 msgstr "సందేశము మూసివేయుము"
 
-#: kcheckaccelerators.cpp:231
+#: kcheckaccelerators.cpp:232
 #, kde-format
 msgctxt "@title:window"
 msgid "Dr. Klash' Accelerator Diagnosis"
 msgstr "డా. క్లాష్ వారి ఎక్సెలరెటర్ కారణనిర్ణయం"
 
-#: kcheckaccelerators.cpp:238
+#: kcheckaccelerators.cpp:239
 #, kde-format
 msgctxt "@option:check"
 msgid "Disable automatic checking"
 msgstr "స్వయం తనఖి చెయకు"
 
-#: kcheckaccelerators.cpp:282
+#: kcheckaccelerators.cpp:283
 #, kde-format
 msgid "<h2>Accelerators changed</h2>"
 msgstr "<h2>ఎక్సెలరెటర్లు మార్చబడినవి</h2>"
 
-#: kcheckaccelerators.cpp:284 kcheckaccelerators.cpp:295
+#: kcheckaccelerators.cpp:285 kcheckaccelerators.cpp:296
 #, fuzzy, kde-format
 #| msgid "Find Text"
 msgid "Old Text"
 msgstr "వచనం కనుగొనుట"
 
-#: kcheckaccelerators.cpp:286 kcheckaccelerators.cpp:304
+#: kcheckaccelerators.cpp:287 kcheckaccelerators.cpp:305
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Show Text"
 msgid "New Text"
 msgstr "పాటాన్ని  చూపుము"
 
-#: kcheckaccelerators.cpp:293
+#: kcheckaccelerators.cpp:294
 #, kde-format
 msgid "<h2>Accelerators removed</h2>"
 msgstr "<h2>ఎక్సెలరెటర్లు తీసివేయబడినవి</h2>"
 
-#: kcheckaccelerators.cpp:302
+#: kcheckaccelerators.cpp:303
 #, kde-format
 msgid "<h2>Accelerators added (just for your info)</h2>"
 msgstr "<h2>ఎక్సెలరెటర్లు కలపడినవి (మీ సమాచారం కొరకు)</h2>"
@@ -628,12 +628,12 @@ msgstr "లింకు పాట:"
 msgid "&Hide text when toolbar shows text alongside icons"
 msgstr "(&H)పనిముట్ల పట్టా పాఠచిహ్నం తొ ఉంటే పాఠం అదృశ్యమొతుంది"
 
-#: kedittoolbar.cpp:602
+#: kedittoolbar.cpp:603
 #, kde-format
 msgid "Configure Toolbars"
 msgstr "పనిముట్ల పట్టీలను ఆకృతీకరించుము"
 
-#: kedittoolbar.cpp:665
+#: kedittoolbar.cpp:666
 #, kde-format
 msgid ""
 "Do you really want to reset all toolbars of this application to their "
@@ -642,17 +642,17 @@ msgstr ""
 "మీరు ఈ అప్లికేషన్ యొక్క ఉపకరణ పట్టీని యదావిధిగా రీసెట్ చెయ్యాలి అనుకుంటున్నారా? మార్పులు వెంటనే "
 "అమలుచేయబడును."
 
-#: kedittoolbar.cpp:665
+#: kedittoolbar.cpp:666
 #, kde-format
 msgid "Reset Toolbars"
 msgstr "పనిముట్లపట్టీలు పునఃఅమర్పు చేయుము"
 
-#: kedittoolbar.cpp:665
+#: kedittoolbar.cpp:666
 #, kde-format
 msgid "Reset"
 msgstr "పునః అమర్పు"
 
-#: kedittoolbar.cpp:988
+#: kedittoolbar.cpp:989
 #, kde-format
 msgid "&Toolbar:"
 msgstr "(&T) పనిముట్లపట్టీ:"
@@ -664,72 +664,72 @@ msgstr "(&T) పనిముట్లపట్టీ:"
 #. del_toolbar->setPixmap(BarIcon("edit-delete", KIconLoader::SizeSmall));
 #. del_toolbar->setEnabled(false); // disabled until implemented
 #. our list of inactive actions
-#: kedittoolbar.cpp:1003
+#: kedittoolbar.cpp:1004
 #, kde-format
 msgid "A&vailable actions:"
 msgstr "(&v) అందుబాటులో వున్న చర్యలు:"
 
-#: kedittoolbar.cpp:1018 kedittoolbar.cpp:1037
+#: kedittoolbar.cpp:1019 kedittoolbar.cpp:1038
 #, kde-format
 msgid "Filter"
 msgstr "వడపో"
 
-#: kedittoolbar.cpp:1021
+#: kedittoolbar.cpp:1022
 #, kde-format
 msgid "Curr&ent actions:"
 msgstr "(&e) ఇప్పటి చర్యలు:"
 
-#: kedittoolbar.cpp:1040
+#: kedittoolbar.cpp:1041
 #, kde-format
 msgid "Change &Icon..."
 msgstr "(&I) ప్రతిమను మార్చు..."
 
-#: kedittoolbar.cpp:1048
+#: kedittoolbar.cpp:1049
 #, kde-format
 msgid "Change Te&xt..."
 msgstr "(&I) పాటము మార్చు..."
 
-#: kedittoolbar.cpp:1200
+#: kedittoolbar.cpp:1201
 #, kde-format
 msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
 msgstr "%1"
 
-#: kedittoolbar.cpp:1220
+#: kedittoolbar.cpp:1221
 #, kde-format
 msgid ""
 "This element will be replaced with all the elements of an embedded component."
 msgstr "ఈ అంశం ఈ భాగానికి అనుసంధానించి ఉన్న అన్ని అంశాలను భర్తీ చేయును."
 
-#: kedittoolbar.cpp:1222
+#: kedittoolbar.cpp:1223
 #, kde-format
 msgid "<Merge>"
 msgstr "<కలుపు>"
 
-#: kedittoolbar.cpp:1224
+#: kedittoolbar.cpp:1225
 #, kde-format
 msgid "<Merge %1>"
 msgstr "<కలుపు %1>"
 
-#: kedittoolbar.cpp:1230
+#: kedittoolbar.cpp:1231
 #, kde-format
 msgid ""
 "This is a dynamic list of actions. You can move it, but if you remove it you "
 "will not be able to re-add it."
 msgstr ""
 
-#: kedittoolbar.cpp:1231
+#: kedittoolbar.cpp:1232
 #, kde-format
 msgid "ActionList: %1"
 msgstr "చర్యలజాబితా: %1"
 
-#: kedittoolbar.cpp:1330 kedittoolbar.cpp:1357
+#: kedittoolbar.cpp:1331 kedittoolbar.cpp:1358
 #, kde-format
 msgctxt "@label Action tooltip in toolbar editor, below the action list"
 msgid "%1"
 msgstr "%1"
 
-#: kedittoolbar.cpp:1584
+#: kedittoolbar.cpp:1585
 #, kde-format
 msgid "Change Icon"
 msgstr "ప్రతిమను మార్చు..."
@@ -767,7 +767,7 @@ msgid "Hold %1, then push %2"
 msgstr "%1 కలిగివుండుము, అప్పుడు %2 నెట్టుము"
 
 #. i18n: ectx: Menu (help)
-#: khelpmenu.cpp:174 ui_standards.rc:177
+#: khelpmenu.cpp:175 ui_standards.rc:177
 #, kde-format
 msgid "&Help"
 msgstr "(&H) సహాయము"
@@ -928,7 +928,7 @@ msgstr ""
 msgid "Add to Toolbar"
 msgstr "పనిముట్లపట్టీకు జతచేయుము"
 
-#: kmenumenuhandler_p.cpp:232
+#: kmenumenuhandler_p.cpp:233
 #, kde-format
 msgid "Configure Shortcut..."
 msgstr "శీఘ్రమార్గంను అమర్చు..."
@@ -1263,41 +1263,41 @@ msgid ""
 "contain a proper translation."
 msgstr "సరైన తర్జుమ లేకా పొతె మరియోక  భాషను జతపరిచి వడుతది."
 
-#: kswitchlanguagedialog_p.cpp:294 kswitchlanguagedialog_p.cpp:316
+#: kswitchlanguagedialog_p.cpp:295 kswitchlanguagedialog_p.cpp:317
 #, kde-format
 msgid ""
 "The language for this application has been changed. The change will take "
 "effect the next time the application is started."
 msgstr "ఈ కార్యక్షేత్రం భాష మరింది. తదుపరి సమయంలొ కార్యక్షేత్రం ప్రారంభంయెనపుడు ప్రభావం మరుతుంది  "
 
-#: kswitchlanguagedialog_p.cpp:295 kswitchlanguagedialog_p.cpp:317
+#: kswitchlanguagedialog_p.cpp:296 kswitchlanguagedialog_p.cpp:318
 #, kde-format
 msgid "Application Language Changed"
 msgstr "కార్యక్రమపు భాష మార్చబడింది"
 
-#: kswitchlanguagedialog_p.cpp:405
+#: kswitchlanguagedialog_p.cpp:406
 #, kde-format
 msgid "Primary language:"
 msgstr "ప్రాధమిక భాష:"
 
-#: kswitchlanguagedialog_p.cpp:405
+#: kswitchlanguagedialog_p.cpp:406
 #, kde-format
 msgid "Fallback language:"
 msgstr "ఫాల్‌బ్యాక్ భాష:"
 
-#: kswitchlanguagedialog_p.cpp:424
+#: kswitchlanguagedialog_p.cpp:421
 #, kde-format
 msgid "Remove"
 msgstr "తొలగించు"
 
-#: kswitchlanguagedialog_p.cpp:435
+#: kswitchlanguagedialog_p.cpp:428
 #, kde-format
 msgid ""
 "This is the main application language which will be used first, before any "
 "other languages."
 msgstr "ఇది మీరు మొదటిగ ఉపయోగిచే "
 
-#: kswitchlanguagedialog_p.cpp:436
+#: kswitchlanguagedialog_p.cpp:429
 #, kde-format
 msgid ""
 "This is the language which will be used if any previous languages do not "
@@ -1427,7 +1427,7 @@ msgstr "సరిచేయు"
 msgid "No text"
 msgstr "వచనము లేదు"
 
-#: kxmlguiwindow.cpp:430
+#: kxmlguiwindow.cpp:432
 #, kde-format
 msgid ""
 "There are two actions (%1, %2) that want to use the same shortcut (%3). This "
@@ -1435,7 +1435,7 @@ msgid ""
 "org'>bugs.kde.org</a>"
 msgstr ""
 
-#: kxmlguiwindow.cpp:430
+#: kxmlguiwindow.cpp:432
 #, fuzzy, kde-format
 #| msgid "Ambiguous shortcut detected"
 msgid "Ambiguous Shortcuts"
