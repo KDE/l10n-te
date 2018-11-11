@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-08 06:48+0200\n"
+"POT-Creation-Date: 2018-11-09 03:46+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -29,7 +29,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 
-#: dolphincontextmenu.cpp:144 panels/places/placespanel.cpp:198
+#: dolphincontextmenu.cpp:144 panels/places/placespanel.cpp:210
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
@@ -47,7 +47,7 @@ msgctxt "@action:inmenu Add selected folder to places"
 msgid "Add to Places"
 msgstr "స్థలములకు జతచేయుము"
 
-#: dolphincontextmenu.cpp:230 dolphinmainwindow.cpp:1066
+#: dolphincontextmenu.cpp:230 dolphinmainwindow.cpp:1032
 #, kde-format
 msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
@@ -77,61 +77,61 @@ msgctxt "@action:inmenu"
 msgid "Open Path in New Tab"
 msgstr "కొత్త టాబ్‌నందు తెరువుము"
 
-#: dolphincontextmenu.cpp:359
+#: dolphincontextmenu.cpp:364
 #, kde-format
 msgctxt "@action:inmenu Add current folder to places"
 msgid "Add to Places"
 msgstr "స్థలములకు జతచేయుము"
 
-#: dolphinmainwindow.cpp:203
+#: dolphinmainwindow.cpp:201
 #, kde-format
 msgctxt "@info:status"
 msgid "Successfully copied."
 msgstr ""
 
-#: dolphinmainwindow.cpp:206
+#: dolphinmainwindow.cpp:204
 #, kde-format
 msgctxt "@info:status"
 msgid "Successfully moved."
 msgstr ""
 
-#: dolphinmainwindow.cpp:209
+#: dolphinmainwindow.cpp:207
 #, kde-format
 msgctxt "@info:status"
 msgid "Successfully linked."
 msgstr ""
 
-#: dolphinmainwindow.cpp:212
+#: dolphinmainwindow.cpp:210
 #, kde-format
 msgctxt "@info:status"
 msgid "Successfully moved to trash."
 msgstr ""
 
-#: dolphinmainwindow.cpp:215
+#: dolphinmainwindow.cpp:213
 #, kde-format
 msgctxt "@info:status"
 msgid "Successfully renamed."
 msgstr ""
 
-#: dolphinmainwindow.cpp:219
+#: dolphinmainwindow.cpp:217
 #, kde-format
 msgctxt "@info:status"
 msgid "Created folder."
 msgstr "ఫోల్డరు సృష్టించబడింది."
 
-#: dolphinmainwindow.cpp:292
+#: dolphinmainwindow.cpp:290
 #, kde-format
 msgctxt "@info"
 msgid "Go back"
 msgstr ""
 
-#: dolphinmainwindow.cpp:298
+#: dolphinmainwindow.cpp:296
 #, kde-format
 msgctxt "@info"
 msgid "Go forward"
 msgstr ""
 
-#: dolphinmainwindow.cpp:372
+#: dolphinmainwindow.cpp:370
 #, fuzzy, kde-kuit-format
 #| msgctxt "@label:textbox"
 #| msgid "Rename the item <filename>%1</filename> to:"
@@ -139,7 +139,7 @@ msgctxt "@info"
 msgid "Could not access <filename>%1</filename>."
 msgstr "అంశము <filename>%1</filename>ను దీనికి పునఃనామరణ చేయుము:"
 
-#: dolphinmainwindow.cpp:402
+#: dolphinmainwindow.cpp:400
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Information"
@@ -147,31 +147,31 @@ msgctxt "@title:window"
 msgid "Confirmation"
 msgstr "సమాచారం"
 
-#: dolphinmainwindow.cpp:405
+#: dolphinmainwindow.cpp:403
 #, kde-format
 msgctxt "@action:button 'Quit Dolphin' button"
 msgid "&Quit %1"
 msgstr ""
 
-#: dolphinmainwindow.cpp:406
+#: dolphinmainwindow.cpp:404
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Close Tab"
 msgid "C&lose Current Tab"
 msgstr "టాబ్‌ను మూయుము"
 
-#: dolphinmainwindow.cpp:415
+#: dolphinmainwindow.cpp:413
 #, kde-format
 msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr ""
 
-#: dolphinmainwindow.cpp:417
+#: dolphinmainwindow.cpp:415
 #, kde-format
 msgid "Do not ask again"
 msgstr ""
 
-#: dolphinmainwindow.cpp:894
+#: dolphinmainwindow.cpp:898
 #, fuzzy, kde-format
 #| msgctxt "@label:textbox"
 #| msgid "Location:"
@@ -179,14 +179,14 @@ msgctxt "@action:inmenu"
 msgid "Location Bar"
 msgstr "స్థానము:"
 
-#: dolphinmainwindow.cpp:902
+#: dolphinmainwindow.cpp:906
 #, fuzzy, kde-format
 #| msgid "&Go"
 msgctxt "@action:inmenu"
 msgid "Go"
 msgstr "(&G) వెళ్ళు"
 
-#: dolphinmainwindow.cpp:911
+#: dolphinmainwindow.cpp:915
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Tools"
@@ -194,39 +194,25 @@ msgctxt "@action:inmenu"
 msgid "Tools"
 msgstr "పనిముట్లు"
 
-#: dolphinmainwindow.cpp:1030
-#, fuzzy, kde-format
-#| msgctxt "@title:menu"
-#| msgid "Main Toolbar"
-msgid "Search"
-msgstr "మెయిన్ పనిముట్లపట్టీ"
-
-#: dolphinmainwindow.cpp:1032
-#, fuzzy, kde-format
-#| msgctxt "@title:menu"
-#| msgid "Main Toolbar"
-msgid "Search for %1"
-msgstr "మెయిన్ పనిముట్లపట్టీ"
-
-#: dolphinmainwindow.cpp:1073
+#: dolphinmainwindow.cpp:1039
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "New &Window"
 msgstr "(&W) కొత్త విండొ"
 
-#: dolphinmainwindow.cpp:1077
+#: dolphinmainwindow.cpp:1043
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "New Tab"
 msgstr "కొత్త టాబ్"
 
-#: dolphinmainwindow.cpp:1083
+#: dolphinmainwindow.cpp:1049
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Close Tab"
 msgstr "టాబ్‌ను మూయుము"
 
-#: dolphinmainwindow.cpp:1100
+#: dolphinmainwindow.cpp:1065
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
@@ -234,31 +220,31 @@ msgctxt "@action:inmenu Edit"
 msgid "Paste"
 msgstr "అతికించుము"
 
-#: dolphinmainwindow.cpp:1107 dolphinpart.cpp:190
+#: dolphinmainwindow.cpp:1072 dolphinpart.cpp:190
 #, kde-format
 msgctxt "@action:inmenu Edit"
 msgid "Invert Selection"
 msgstr "విలోమ యెంపిక"
 
-#: dolphinmainwindow.cpp:1121
+#: dolphinmainwindow.cpp:1086
 #, kde-format
 msgctxt "@action:intoolbar Stash"
 msgid "Stash"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1122
+#: dolphinmainwindow.cpp:1087
 #, kde-format
 msgctxt "@info"
 msgid "Opens the stash virtual directory in a split window"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1131
+#: dolphinmainwindow.cpp:1096
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Stop"
 msgstr "ఆపుము"
 
-#: dolphinmainwindow.cpp:1132
+#: dolphinmainwindow.cpp:1097
 #, fuzzy, kde-format
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -266,19 +252,19 @@ msgctxt "@info"
 msgid "Stop loading"
 msgstr "వరుసక్రమము:"
 
-#: dolphinmainwindow.cpp:1137
+#: dolphinmainwindow.cpp:1102
 #, kde-format
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Editable Location"
 msgstr "సరికూర్చదగిన స్థానము"
 
-#: dolphinmainwindow.cpp:1142
+#: dolphinmainwindow.cpp:1107
 #, kde-format
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Replace Location"
 msgstr "స్థానమును పునఃస్థాపించుము"
 
-#: dolphinmainwindow.cpp:1162
+#: dolphinmainwindow.cpp:1127
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu File"
 #| msgid "Close Tab"
@@ -286,19 +272,19 @@ msgctxt "@action:inmenu File"
 msgid "Undo close tab"
 msgstr "టాబ్‌ను మూయుము"
 
-#: dolphinmainwindow.cpp:1177
+#: dolphinmainwindow.cpp:1142
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Show Filter Bar"
 msgstr "ఫిల్టర్ బార్‌ను చూపుము"
 
-#: dolphinmainwindow.cpp:1183
+#: dolphinmainwindow.cpp:1148
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Compare Files"
 msgstr "ఫైళ్ళను పోల్చిచూడుము"
 
-#: dolphinmainwindow.cpp:1191
+#: dolphinmainwindow.cpp:1156
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Tools"
 #| msgid "Open &Terminal"
@@ -306,7 +292,7 @@ msgctxt "@action:inmenu Tools"
 msgid "Open Terminal"
 msgstr "(&T) టెర్మినల్‌ను తెరువుము"
 
-#: dolphinmainwindow.cpp:1212
+#: dolphinmainwindow.cpp:1177
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "New Tab"
@@ -314,13 +300,13 @@ msgctxt "@action:inmenu"
 msgid "Next Tab"
 msgstr "కొత్త టాబ్"
 
-#: dolphinmainwindow.cpp:1213
+#: dolphinmainwindow.cpp:1178
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Activate Next Tab"
 msgstr "తరువాతి టాబ్‌ను క్రియాశీలంచేయుము"
 
-#: dolphinmainwindow.cpp:1219
+#: dolphinmainwindow.cpp:1184
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Activate Previous Tab"
@@ -328,13 +314,13 @@ msgctxt "@action:inmenu"
 msgid "Previous Tab"
 msgstr "గత టాబ్‌ను క్రియాశీలంచేయుము"
 
-#: dolphinmainwindow.cpp:1220
+#: dolphinmainwindow.cpp:1185
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Activate Previous Tab"
 msgstr "గత టాబ్‌ను క్రియాశీలంచేయుము"
 
-#: dolphinmainwindow.cpp:1227
+#: dolphinmainwindow.cpp:1192
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show tooltips"
@@ -342,13 +328,13 @@ msgctxt "@action:inmenu"
 msgid "Show Target"
 msgstr "పనిముట్టుచిట్కాను చూపుము"
 
-#: dolphinmainwindow.cpp:1233
+#: dolphinmainwindow.cpp:1198
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in New Tab"
 msgstr "కొత్త టాబ్‌నందు తెరువుము"
 
-#: dolphinmainwindow.cpp:1238
+#: dolphinmainwindow.cpp:1203
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Open in New Tab"
@@ -356,13 +342,13 @@ msgctxt "@action:inmenu"
 msgid "Open in New Tabs"
 msgstr "కొత్త టాబ్‌నందు తెరువుము"
 
-#: dolphinmainwindow.cpp:1243
+#: dolphinmainwindow.cpp:1208
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in New Window"
 msgstr "కొత్త విండోనందు తెరువుము"
 
-#: dolphinmainwindow.cpp:1253
+#: dolphinmainwindow.cpp:1218
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Panels"
@@ -370,7 +356,7 @@ msgctxt "@action:inmenu Panels"
 msgid "Unlock Panels"
 msgstr "ప్యానల్స్"
 
-#: dolphinmainwindow.cpp:1255
+#: dolphinmainwindow.cpp:1220
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Panels"
@@ -378,31 +364,31 @@ msgctxt "@action:inmenu Panels"
 msgid "Lock Panels"
 msgstr "ప్యానల్స్"
 
-#: dolphinmainwindow.cpp:1261
+#: dolphinmainwindow.cpp:1226
 #, kde-format
 msgctxt "@title:window"
 msgid "Information"
 msgstr "సమాచారం"
 
-#: dolphinmainwindow.cpp:1282
+#: dolphinmainwindow.cpp:1250
 #, kde-format
 msgctxt "@title:window"
 msgid "Folders"
 msgstr "ఫోల్డర్లు"
 
-#: dolphinmainwindow.cpp:1306
+#: dolphinmainwindow.cpp:1274
 #, kde-format
 msgctxt "@title:window Shell terminal"
 msgid "Terminal"
 msgstr "టెర్మినల్"
 
-#: dolphinmainwindow.cpp:1339
+#: dolphinmainwindow.cpp:1307
 #, kde-format
 msgctxt "@title:window"
 msgid "Places"
 msgstr "స్థలములు"
 
-#: dolphinmainwindow.cpp:1371
+#: dolphinmainwindow.cpp:1339
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Panels"
@@ -410,43 +396,43 @@ msgctxt "@action:inmenu View"
 msgid "Panels"
 msgstr "ప్యానల్స్"
 
-#: dolphinmainwindow.cpp:1441
+#: dolphinmainwindow.cpp:1411
 #, kde-format
 msgctxt "@action"
 msgid "Control"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1557
+#: dolphinmainwindow.cpp:1527
 #, kde-format
 msgctxt "@action:intoolbar Close left view"
 msgid "Close"
 msgstr "మూయి"
 
-#: dolphinmainwindow.cpp:1558
+#: dolphinmainwindow.cpp:1528
 #, kde-format
 msgctxt "@info"
 msgid "Close left view"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1561
+#: dolphinmainwindow.cpp:1531
 #, kde-format
 msgctxt "@action:intoolbar Close right view"
 msgid "Close"
 msgstr "మూయి"
 
-#: dolphinmainwindow.cpp:1562
+#: dolphinmainwindow.cpp:1532
 #, kde-format
 msgctxt "@info"
 msgid "Close right view"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1566
+#: dolphinmainwindow.cpp:1536
 #, kde-format
 msgctxt "@action:intoolbar Split view"
 msgid "Split"
 msgstr "విభజించు"
 
-#: dolphinmainwindow.cpp:1567
+#: dolphinmainwindow.cpp:1537
 #, fuzzy, kde-format
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"
@@ -651,31 +637,45 @@ msgctxt "@title:menu"
 msgid "Main Toolbar"
 msgstr "మెయిన్ పనిముట్లపట్టీ"
 
-#: dolphinviewcontainer.cpp:93
+#: dolphinviewcontainer.cpp:95
 #, kde-format
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "ఖాళీ ట్రాష్"
 
-#: dolphinviewcontainer.cpp:115
+#: dolphinviewcontainer.cpp:117
 #, kde-format
 msgid "Running Dolphin as root can be dangerous. Please be careful."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:392 search/dolphinsearchbox.cpp:311
+#: dolphinviewcontainer.cpp:396 search/dolphinsearchbox.cpp:311
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Main Toolbar"
 msgid "Search for %1 in %2"
 msgstr "మెయిన్ పనిముట్లపట్టీ"
 
-#: dolphinviewcontainer.cpp:462
+#: dolphinviewcontainer.cpp:434
+#, fuzzy, kde-format
+#| msgctxt "@title:menu"
+#| msgid "Main Toolbar"
+msgid "Search"
+msgstr "మెయిన్ పనిముట్లపట్టీ"
+
+#: dolphinviewcontainer.cpp:436
+#, fuzzy, kde-format
+#| msgctxt "@title:menu"
+#| msgid "Main Toolbar"
+msgid "Search for %1"
+msgstr "మెయిన్ పనిముట్లపట్టీ"
+
+#: dolphinviewcontainer.cpp:513
 #, kde-format
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "ఫోల్డరును లోడుచేస్తోంది..."
 
-#: dolphinviewcontainer.cpp:470
+#: dolphinviewcontainer.cpp:521
 #, fuzzy, kde-format
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -683,31 +683,31 @@ msgctxt "@info:progress"
 msgid "Sorting..."
 msgstr "వరుసక్రమము:"
 
-#: dolphinviewcontainer.cpp:481
+#: dolphinviewcontainer.cpp:532
 #, kde-format
 msgctxt "@info"
 msgid "Searching..."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:501
+#: dolphinviewcontainer.cpp:552
 #, kde-format
 msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:608
+#: dolphinviewcontainer.cpp:659
 #, kde-format
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "డాల్ఫన్ వెబ్ పేజీలను మద్దతీయదు, వెబ్ "
 
-#: dolphinviewcontainer.cpp:622
+#: dolphinviewcontainer.cpp:673
 #, kde-format
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr "ప్రోటోకాల్ డాల్ఫిన్ చేత మద్దతీయబడదు, కాన్క్వెరర్ ప్రారంభించబడింది"
 
-#: dolphinviewcontainer.cpp:630
+#: dolphinviewcontainer.cpp:681
 #, kde-format
 msgctxt "@info:status"
 msgid "Invalid protocol"
@@ -1362,7 +1362,7 @@ msgstr "(C) 2006-2008 పీటర్ పెంజ్"
 #: main.cpp:76
 #, kde-format
 msgctxt "@info:credit"
-msgid "Emmanuel Pescosta"
+msgid "Elvis Angelaccio"
 msgstr ""
 
 #: main.cpp:77
@@ -1370,13 +1370,13 @@ msgstr ""
 #| msgctxt "@info:credit"
 #| msgid "Maintainer and developer"
 msgctxt "@info:credit"
-msgid "Maintainer (since 2014) and developer"
+msgid "Maintainer (since 2018) and developer"
 msgstr "నిర్వాహకుడు మరియు అభివృద్దికారుడు"
 
 #: main.cpp:79
 #, kde-format
 msgctxt "@info:credit"
-msgid "Frank Reininghaus"
+msgid "Emmanuel Pescosta"
 msgstr ""
 
 #: main.cpp:80
@@ -1384,16 +1384,30 @@ msgstr ""
 #| msgctxt "@info:credit"
 #| msgid "Maintainer and developer"
 msgctxt "@info:credit"
-msgid "Maintainer (2012-2014) and developer"
+msgid "Maintainer (2014-2018) and developer"
 msgstr "నిర్వాహకుడు మరియు అభివృద్దికారుడు"
 
 #: main.cpp:82
 #, kde-format
 msgctxt "@info:credit"
+msgid "Frank Reininghaus"
+msgstr ""
+
+#: main.cpp:83
+#, fuzzy, kde-format
+#| msgctxt "@info:credit"
+#| msgid "Maintainer and developer"
+msgctxt "@info:credit"
+msgid "Maintainer (2012-2014) and developer"
+msgstr "నిర్వాహకుడు మరియు అభివృద్దికారుడు"
+
+#: main.cpp:85
+#, kde-format
+msgctxt "@info:credit"
 msgid "Peter Penz"
 msgstr "పీటర్ పెంజ్"
 
-#: main.cpp:83
+#: main.cpp:86
 #, fuzzy, kde-format
 #| msgctxt "@info:credit"
 #| msgid "Maintainer and developer"
@@ -1401,86 +1415,86 @@ msgctxt "@info:credit"
 msgid "Maintainer and developer (2006-2012)"
 msgstr "నిర్వాహకుడు మరియు అభివృద్దికారుడు"
 
-#: main.cpp:85
+#: main.cpp:88
 #, kde-format
 msgctxt "@info:credit"
 msgid "Sebastian Trüg"
 msgstr ""
 
-#: main.cpp:86 main.cpp:89 main.cpp:92 main.cpp:95 main.cpp:98 main.cpp:101
-#: main.cpp:104
+#: main.cpp:89 main.cpp:92 main.cpp:95 main.cpp:98 main.cpp:101 main.cpp:104
+#: main.cpp:107
 #, kde-format
 msgctxt "@info:credit"
 msgid "Developer"
 msgstr "డెవలపర్"
 
-#: main.cpp:88
+#: main.cpp:91
 #, kde-format
 msgctxt "@info:credit"
 msgid "David Faure"
 msgstr "డెవిడ్ ఫారె"
 
-#: main.cpp:91
+#: main.cpp:94
 #, kde-format
 msgctxt "@info:credit"
 msgid "Aaron J. Seigo"
 msgstr "ఆరన్ జె. సీగొ"
 
-#: main.cpp:94
+#: main.cpp:97
 #, kde-format
 msgctxt "@info:credit"
 msgid "Rafael Fernández López"
 msgstr "రాఫెల్ ఫెర్నాండెజ్ లోఫెజ్"
 
-#: main.cpp:97
+#: main.cpp:100
 #, kde-format
 msgctxt "@info:credit"
 msgid "Kevin Ottens"
 msgstr "కెవిన్ ఆటెన్స్"
 
-#: main.cpp:100
+#: main.cpp:103
 #, kde-format
 msgctxt "@info:credit"
 msgid "Holger Freyther"
 msgstr "హాల్గెర్ ఫ్రేథర్"
 
-#: main.cpp:103
+#: main.cpp:106
 #, kde-format
 msgctxt "@info:credit"
 msgid "Max Blazejak"
 msgstr "మాక్స్  బ్లాజెక్"
 
-#: main.cpp:106
+#: main.cpp:109
 #, kde-format
 msgctxt "@info:credit"
 msgid "Michael Austin"
 msgstr "మైకేల్ ఆస్టిన్"
 
-#: main.cpp:107
+#: main.cpp:110
 #, kde-format
 msgctxt "@info:credit"
 msgid "Documentation"
 msgstr "పత్రికీకరణ"
 
-#: main.cpp:119
+#: main.cpp:122
 #, kde-format
 msgctxt "@info:shell"
 msgid "The files and folders passed as arguments will be selected."
 msgstr ""
 
-#: main.cpp:121
+#: main.cpp:124
 #, kde-format
 msgctxt "@info:shell"
 msgid "Dolphin will get started with a split view."
 msgstr ""
 
-#: main.cpp:122
+#: main.cpp:125
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Dolphin Daemon (only required for DBus Interface)"
 msgstr ""
 
-#: main.cpp:123
+#: main.cpp:126
 #, kde-format
 msgctxt "@info:shell"
 msgid "Document to open"
@@ -1558,7 +1572,7 @@ msgctxt "@action:inmenu"
 msgid "Automatic Scrolling"
 msgstr ""
 
-#: panels/folders/treeviewcontextmenu.cpp:147
+#: panels/folders/treeviewcontextmenu.cpp:147 panels/places/placespanel.cpp:220
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
@@ -1578,19 +1592,19 @@ msgstr "ముందస్తు వీక్షణం"
 msgid "Date display format"
 msgstr ""
 
-#: panels/information/filemetadataconfigurationdialog.cpp:43
+#: panels/information/filemetadataconfigurationdialog.cpp:39
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Shown Data"
 msgstr ""
 
-#: panels/information/filemetadataconfigurationdialog.cpp:55
+#: panels/information/filemetadataconfigurationdialog.cpp:51
 #, kde-format
 msgctxt "@label::textbox"
 msgid "Select which data should be shown:"
 msgstr ""
 
-#: panels/information/informationpanelcontent.cpp:235
+#: panels/information/informationpanelcontent.cpp:226
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "%1 item selected"
@@ -1604,7 +1618,7 @@ msgstr[2] "%1 అంశము యెంపికకాబడింది"
 msgstr[3] "%1 అంశము యెంపికకాబడింది"
 msgstr[4] "%1 అంశము యెంపికకాబడింది"
 
-#: panels/information/informationpanelcontent.cpp:280
+#: panels/information/informationpanelcontent.cpp:271
 #, fuzzy, kde-format
 #| msgctxt "@action:intoolbar"
 #| msgid "Preview"
@@ -1612,7 +1626,7 @@ msgctxt "@action:inmenu"
 msgid "Preview"
 msgstr "ముందస్తు వీక్షణం"
 
-#: panels/information/informationpanelcontent.cpp:285
+#: panels/information/informationpanelcontent.cpp:276
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Change Tags..."
@@ -1620,13 +1634,13 @@ msgctxt "@action:inmenu"
 msgid "Configure..."
 msgstr "టాగ్సును మార్చుము..."
 
-#: panels/information/informationpanelcontent.cpp:289
+#: panels/information/informationpanelcontent.cpp:279
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Condensed Date"
 msgstr ""
 
-#: panels/information/informationpanelcontent.cpp:313
+#: panels/information/informationpanelcontent.cpp:303
 #, kde-format
 msgctxt "@label::textbox"
 msgid "Select which data should be shown in the information panel:"
@@ -1681,7 +1695,7 @@ msgstr ""
 msgid "&Only show when using this application (%1)"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:212
+#: panels/places/placesitemmodel.cpp:199
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Add Comment..."
@@ -1689,7 +1703,7 @@ msgctxt "@item"
 msgid "Eject"
 msgstr "వ్యాఖ్యానమును జతచేయుము..."
 
-#: panels/places/placesitemmodel.cpp:247
+#: panels/places/placesitemmodel.cpp:234
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Reload"
@@ -1697,7 +1711,7 @@ msgctxt "@item"
 msgid "Release"
 msgstr "తిరిగిలోడ్‌చేయి"
 
-#: panels/places/placesitemmodel.cpp:249
+#: panels/places/placesitemmodel.cpp:236
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Reload"
@@ -1705,7 +1719,7 @@ msgctxt "@item"
 msgid "Safely Remove"
 msgstr "తిరిగిలోడ్‌చేయి"
 
-#: panels/places/placesitemmodel.cpp:252
+#: panels/places/placesitemmodel.cpp:239
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Reload"
@@ -1713,25 +1727,33 @@ msgctxt "@item"
 msgid "Unmount"
 msgstr "తిరిగిలోడ్‌చేయి"
 
-#: panels/places/placesitemmodel.cpp:274
+#: panels/places/placesitemmodel.cpp:261
 #, kde-format
 msgctxt "@info"
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:505
+#: panels/places/placesitemmodel.cpp:492
 #, kde-format
 msgctxt "@info"
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:509
+#: panels/places/placesitemmodel.cpp:496
 #, kde-format
 msgctxt "@info"
 msgid "An error occurred while accessing '%1'"
 msgstr ""
 
-#: panels/places/placespanel.cpp:204
+#: panels/places/placespanel.cpp:202
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu View"
+#| msgid "Reload"
+msgctxt "@action:inmenu"
+msgid "Mount"
+msgstr "తిరిగిలోడ్‌చేయి"
+
+#: panels/places/placespanel.cpp:216
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Open in New Window"
@@ -1739,7 +1761,7 @@ msgctxt "@item:inmenu"
 msgid "Open in New Window"
 msgstr "కొత్త విండోనందు తెరువుము"
 
-#: panels/places/placespanel.cpp:205
+#: panels/places/placespanel.cpp:217
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Open in New Tab"
@@ -1747,7 +1769,7 @@ msgctxt "@item:inmenu"
 msgid "Open in New Tab"
 msgstr "కొత్త టాబ్‌నందు తెరువుము"
 
-#: panels/places/placespanel.cpp:211
+#: panels/places/placespanel.cpp:227
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Add Comment..."
@@ -1755,7 +1777,7 @@ msgctxt "@item:inmenu"
 msgid "Edit..."
 msgstr "వ్యాఖ్యానమును జతచేయుము..."
 
-#: panels/places/placespanel.cpp:216
+#: panels/places/placespanel.cpp:232
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Reload"
@@ -1763,13 +1785,13 @@ msgctxt "@item:inmenu"
 msgid "Remove"
 msgstr "తిరిగిలోడ్‌చేయి"
 
-#: panels/places/placespanel.cpp:219
+#: panels/places/placespanel.cpp:235
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hide"
 msgstr ""
 
-#: panels/places/placespanel.cpp:266
+#: panels/places/placespanel.cpp:288
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Add Comment..."
@@ -1777,7 +1799,7 @@ msgctxt "@item:inmenu"
 msgid "Add Entry..."
 msgstr "వ్యాఖ్యానమును జతచేయుము..."
 
-#: panels/places/placespanel.cpp:270
+#: panels/places/placespanel.cpp:292
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show tooltips"
@@ -1785,7 +1807,7 @@ msgctxt "@item:inmenu"
 msgid "Show All Entries"
 msgstr "పనిముట్టుచిట్కాను చూపుము"
 
-#: panels/places/placespanel.cpp:277
+#: panels/places/placespanel.cpp:299
 #, fuzzy, kde-format
 #| msgctxt "@title:group"
 #| msgid "Icon Size"
@@ -1793,37 +1815,37 @@ msgctxt "@item:inmenu"
 msgid "Icon Size"
 msgstr "ప్రతిమ పరిమాణము"
 
-#: panels/places/placespanel.cpp:288
+#: panels/places/placespanel.cpp:310
 #, kde-format
 msgctxt "Small icon size"
 msgid "Small (%1x%2)"
 msgstr ""
 
-#: panels/places/placespanel.cpp:289
+#: panels/places/placespanel.cpp:311
 #, kde-format
 msgctxt "Medium icon size"
 msgid "Medium (%1x%2)"
 msgstr ""
 
-#: panels/places/placespanel.cpp:290
+#: panels/places/placespanel.cpp:312
 #, kde-format
 msgctxt "Large icon size"
 msgid "Large (%1x%2)"
 msgstr ""
 
-#: panels/places/placespanel.cpp:291
+#: panels/places/placespanel.cpp:313
 #, kde-format
 msgctxt "Huge icon size"
 msgid "Huge (%1x%2)"
 msgstr ""
 
-#: panels/places/placespanel.cpp:337
+#: panels/places/placespanel.cpp:359
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hide Section '%1'"
 msgstr ""
 
-#: panels/places/placespanel.cpp:452
+#: panels/places/placespanel.cpp:474
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Add current folder to places"
 #| msgid "Add to Places"
@@ -1831,7 +1853,7 @@ msgctxt "@title:window"
 msgid "Add Places Entry"
 msgstr "స్థలములకు జతచేయుము"
 
-#: panels/places/placespanel.cpp:467
+#: panels/places/placespanel.cpp:489
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Places Entry"
@@ -2645,25 +2667,26 @@ msgctxt "@title:group"
 msgid "Sorting mode: "
 msgstr "వరుసక్రమము:"
 
-#: settings/general/behaviorsettingspage.cpp:82
+#: settings/general/behaviorsettingspage.cpp:83
 #, kde-format
 msgctxt "@option:check"
 msgid "Show tooltips"
 msgstr "పనిముట్టుచిట్కాను చూపుము"
 
-#: settings/general/behaviorsettingspage.cpp:83
+#: settings/general/behaviorsettingspage.cpp:84
+#: settings/general/behaviorsettingspage.cpp:92
 #, kde-format
 msgctxt "@title:group"
 msgid "Miscellaneous: "
 msgstr ""
 
-#: settings/general/behaviorsettingspage.cpp:86
+#: settings/general/behaviorsettingspage.cpp:88
 #, kde-format
 msgctxt "@option:check"
 msgid "Show selection marker"
 msgstr "ఎంపిక గుర్తింపును చూపుము"
 
-#: settings/general/behaviorsettingspage.cpp:90
+#: settings/general/behaviorsettingspage.cpp:96
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Rename inline"
@@ -2671,7 +2694,7 @@ msgctxt "option:check"
 msgid "Rename inline"
 msgstr "ఇన్‌లైన్‌ను పునఃనామకరణ చేయుము"
 
-#: settings/general/behaviorsettingspage.cpp:94
+#: settings/general/behaviorsettingspage.cpp:100
 #, kde-format
 msgctxt "option:check"
 msgid "Switch between split views with tab key"
@@ -2773,7 +2796,7 @@ msgstr "స్థితి పట్టీ"
 #| msgctxt "@label"
 #| msgid "Show preview"
 msgctxt "@title:group"
-msgid "Show previews for:"
+msgid "Show previews in the view for:"
 msgstr "ముందస్తు వీక్షణం జరిపించుము"
 
 #: settings/general/previewssettingspage.cpp:69
@@ -3128,7 +3151,7 @@ msgid "Folders:"
 msgstr "ఫోల్డర్లు"
 
 #: settings/viewmodes/viewsettingstab.cpp:258
-#: statusbar/dolphinstatusbar.cpp:323
+#: statusbar/dolphinstatusbar.cpp:328
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Size: 1 pixel"
@@ -3330,7 +3353,7 @@ msgctxt "@tooltip"
 msgid "Stop loading"
 msgstr "వరుసక్రమము:"
 
-#: statusbar/dolphinstatusbar.cpp:261
+#: statusbar/dolphinstatusbar.cpp:266
 #, fuzzy, kde-format
 #| msgctxt "@option:check"
 #| msgid "Show zoom slider"
@@ -3338,7 +3361,7 @@ msgctxt "@action:inmenu"
 msgid "Show Zoom Slider"
 msgstr "జూమ్ స్లైడర్‌ను చూపుము"
 
-#: statusbar/dolphinstatusbar.cpp:265
+#: statusbar/dolphinstatusbar.cpp:270
 #, fuzzy, kde-format
 #| msgctxt "@option:check"
 #| msgid "Show space information"
@@ -3346,17 +3369,27 @@ msgctxt "@action:inmenu"
 msgid "Show Space Information"
 msgstr "జాగా సమాచారమును చూపుము"
 
-#: statusbar/statusbarspaceinfo.cpp:93
+#: statusbar/statusbarspaceinfo.cpp:100
 #, kde-format
 msgctxt "@info:status"
 msgid "Unknown size"
 msgstr "తెలియని పరిమాణము"
 
-#: statusbar/statusbarspaceinfo.cpp:101
+#: statusbar/statusbarspaceinfo.cpp:108
 #, kde-format
 msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr "%1 ఖాళీ"
+
+#: trash/dolphintrash.cpp:70
+#, kde-format
+msgid "Trash Emptied"
+msgstr ""
+
+#: trash/dolphintrash.cpp:71
+#, kde-format
+msgid "The Trash was emptied."
+msgstr ""
 
 #: views/dolphinremoteencoding.cpp:51
 #, kde-format
@@ -3377,7 +3410,7 @@ msgstr "తిరిగిలోడ్‌చేయి"
 msgid "Default"
 msgstr "అప్రమేయ:"
 
-#: views/dolphinview.cpp:534
+#: views/dolphinview.cpp:536
 #, fuzzy, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -3388,7 +3421,7 @@ msgstr[2] "1 ఫోల్డరు ఎంపిక కాబడినది"
 msgstr[3] "1 ఫోల్డరు ఎంపిక కాబడినది"
 msgstr[4] "%1 ఫోల్డర్లు ఎంపిక కాబడినది"
 
-#: views/dolphinview.cpp:535
+#: views/dolphinview.cpp:537
 #, fuzzy, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
@@ -3399,7 +3432,7 @@ msgstr[2] "1 ఫైలు ఎంపిక కాబడినది"
 msgstr[3] "1 ఫైలు ఎంపిక కాబడినది"
 msgstr[4] "%1 ఫైలు ఎంపిక కాబడినది"
 
-#: views/dolphinview.cpp:539
+#: views/dolphinview.cpp:541
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Folder"
@@ -3412,7 +3445,7 @@ msgstr[2] "ఫొల్డర్"
 msgstr[3] "ఫొల్డర్"
 msgstr[4] "ఫొల్డర్"
 
-#: views/dolphinview.cpp:540
+#: views/dolphinview.cpp:542
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File"
@@ -3423,19 +3456,19 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: views/dolphinview.cpp:544
+#: views/dolphinview.cpp:546
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr "%1, %2 (%3)"
 
-#: views/dolphinview.cpp:548
+#: views/dolphinview.cpp:550
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: views/dolphinview.cpp:554
+#: views/dolphinview.cpp:556
 #, fuzzy, kde-format
 #| msgctxt "@title:group Size"
 #| msgid "Folders"
@@ -3443,7 +3476,7 @@ msgctxt "@info:status"
 msgid "0 Folders, 0 Files"
 msgstr "ఫోల్డర్లు"
 
-#: views/dolphinview.cpp:835
+#: views/dolphinview.cpp:837
 #, kde-format
 msgid "Are you sure you want to open 1 item?"
 msgid_plural "Are you sure you want to open %1 items?"
@@ -3453,7 +3486,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: views/dolphinview.cpp:945
+#: views/dolphinview.cpp:947
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Column width"
@@ -3461,7 +3494,7 @@ msgctxt "@action:inmenu"
 msgid "Automatic Column Widths"
 msgstr "నిలువువరుస వెడల్పు"
 
-#: views/dolphinview.cpp:950
+#: views/dolphinview.cpp:952
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Column width"
@@ -3469,7 +3502,7 @@ msgctxt "@action:inmenu"
 msgid "Custom Column Widths"
 msgstr "నిలువువరుస వెడల్పు"
 
-#: views/dolphinview.cpp:1451
+#: views/dolphinview.cpp:1457
 #, fuzzy, kde-format
 #| msgctxt "@info:status"
 #| msgid "Move to trash operation completed."
@@ -3477,19 +3510,55 @@ msgctxt "@info:status"
 msgid "Trash operation completed."
 msgstr "ట్రాష్‌కు కదుల్చు కార్యము పుర్తైనది."
 
-#: views/dolphinview.cpp:1460
+#: views/dolphinview.cpp:1466
 #, kde-format
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "తొలగింపు కార్యము పూర్తైనది."
 
-#: views/dolphinview.cpp:1605
+#: views/dolphinview.cpp:1582
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Rename inline"
+msgctxt "@action:button"
+msgid "Rename and Hide"
+msgstr "ఇన్‌లైన్‌ను పునఃనామకరణ చేయుము"
+
+#: views/dolphinview.cpp:1585
+#, kde-format
+msgid ""
+"Adding a dot to the beginning of this file's name will hide it from view.\n"
+"Do you still want to rename it?"
+msgstr ""
+
+#: views/dolphinview.cpp:1587
+#, kde-format
+msgid ""
+"Adding a dot to the beginning of this folder's name will hide it from view.\n"
+"Do you still want to rename it?"
+msgstr ""
+
+#: views/dolphinview.cpp:1589
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Show Hidden Files"
+msgid "Hide this File?"
+msgstr "మరుగునవున్న ఫైళ్ళను చూపుము"
+
+#: views/dolphinview.cpp:1589
+#, fuzzy, kde-format
+#| msgctxt "@title:group"
+#| msgid "Home Folder"
+msgid "Hide this Folder?"
+msgstr "ఇంటి ఫొల్డర్"
+
+#: views/dolphinview.cpp:1634
 #, kde-format
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "స్థానము ఖాళీగావుంది"
 
-#: views/dolphinview.cpp:1607
+#: views/dolphinview.cpp:1636
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -3733,10 +3802,6 @@ msgstr "అదనపు సమాచారము"
 #~ msgctxt "@option:check"
 #~ msgid "Use these view properties as default"
 #~ msgstr "అన్ని ఫోల్డర్లకు ఉమ్మడి వీక్షణ గుణాలను వుపయోగించుము"
-
-#~ msgctxt "@title:group"
-#~ msgid "Home Folder"
-#~ msgstr "ఇంటి ఫొల్డర్"
 
 #~ msgctxt "@label:textbox"
 #~ msgid "Location:"

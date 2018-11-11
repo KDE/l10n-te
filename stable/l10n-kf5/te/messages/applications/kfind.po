@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-20 03:38+0200\n"
+"POT-Creation-Date: 2018-10-23 03:45+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -26,14 +26,44 @@ msgctxt "@title:window"
 msgid "Find Files/Folders"
 msgstr "దస్త్రాలు/ఫొల్డర్లను వెతుకు"
 
-#: kfinddlg.cpp:69 kfinddlg.cpp:197
+#: kfinddlg.cpp:66 kfinddlg.cpp:215
 #, kde-format
 msgctxt "the application is currently idle, there is no active search"
 msgid "Idle."
 msgstr ""
 
 #. i18n as below
-#: kfinddlg.cpp:133 kfinddlg.cpp:228 kfinddlg.cpp:252
+#: kfinddlg.cpp:151
+#, kde-format
+msgid "0 items found"
+msgstr ""
+
+#: kfinddlg.cpp:190
+#, kde-format
+msgid "Searching..."
+msgstr ""
+
+#: kfinddlg.cpp:217
+#, kde-format
+msgid "Canceled."
+msgstr ""
+
+#: kfinddlg.cpp:219 kfinddlg.cpp:222 kfinddlg.cpp:225
+#, kde-format
+msgid "Error."
+msgstr ""
+
+#: kfinddlg.cpp:220
+#, kde-format
+msgid "Please specify an absolute path in the \"Look in\" box."
+msgstr ""
+
+#: kfinddlg.cpp:223
+#, kde-format
+msgid "Could not find the specified folder."
+msgstr ""
+
+#: kfinddlg.cpp:246 kfinddlg.cpp:270
 #, kde-format
 msgid "one item found"
 msgid_plural "%1 items found"
@@ -43,176 +73,151 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: kfinddlg.cpp:172
-#, kde-format
-msgid "Searching..."
-msgstr ""
-
-#: kfinddlg.cpp:199
-#, kde-format
-msgid "Canceled."
-msgstr ""
-
-#: kfinddlg.cpp:201 kfinddlg.cpp:204 kfinddlg.cpp:207
-#, kde-format
-msgid "Error."
-msgstr ""
-
-#: kfinddlg.cpp:202
-#, kde-format
-msgid "Please specify an absolute path in the \"Look in\" box."
-msgstr ""
-
-#: kfinddlg.cpp:205
-#, kde-format
-msgid "Could not find the specified folder."
-msgstr ""
-
-#: kfindtreeview.cpp:54
+#: kfindtreeview.cpp:51
 #, kde-format
 msgid "Read-write"
 msgstr ""
 
-#: kfindtreeview.cpp:55
+#: kfindtreeview.cpp:52
 #, kde-format
 msgid "Read-only"
 msgstr ""
 
-#: kfindtreeview.cpp:56
+#: kfindtreeview.cpp:53
 #, kde-format
 msgid "Write-only"
 msgstr ""
 
-#: kfindtreeview.cpp:57
+#: kfindtreeview.cpp:54
 #, kde-format
 msgid "Inaccessible"
 msgstr ""
 
-#: kfindtreeview.cpp:77
+#: kfindtreeview.cpp:74
 #, fuzzy, kde-format
 #| msgid "Name"
 msgctxt "file name column"
 msgid "Name"
 msgstr "పేరు"
 
-#: kfindtreeview.cpp:79
+#: kfindtreeview.cpp:76
 #, kde-format
 msgctxt "name of the containing folder"
 msgid "In Subfolder"
 msgstr ""
 
-#: kfindtreeview.cpp:81
+#: kfindtreeview.cpp:78
 #, fuzzy, kde-format
 #| msgid "Size"
 msgctxt "file size column"
 msgid "Size"
 msgstr "పరిమాణము"
 
-#: kfindtreeview.cpp:83
+#: kfindtreeview.cpp:80
 #, kde-format
 msgctxt "modified date column"
 msgid "Modified"
 msgstr ""
 
-#: kfindtreeview.cpp:85
+#: kfindtreeview.cpp:82
 #, fuzzy, kde-format
 #| msgid "Permissions"
 msgctxt "file permissions column"
 msgid "Permissions"
 msgstr "అనుమతులు"
 
-#: kfindtreeview.cpp:87
+#: kfindtreeview.cpp:84
 #, kde-format
 msgctxt "first matching line of the query string in this file"
 msgid "First Matching Line"
 msgstr ""
 
-#: kfindtreeview.cpp:350
+#: kfindtreeview.cpp:346
 #, kde-format
 msgid "&Open containing folder(s)"
 msgstr ""
 
-#: kfindtreeview.cpp:354
+#: kfindtreeview.cpp:350
 #, fuzzy, kde-format
 #| msgid "Delete"
 msgid "&Delete"
 msgstr "తొలగించుము"
 
-#: kfindtreeview.cpp:358
+#: kfindtreeview.cpp:354
 #, kde-format
 msgid "&Move to Trash"
 msgstr ""
 
-#: kfindtreeview.cpp:435
+#: kfindtreeview.cpp:431
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Results As"
 msgstr ""
 
-#: kfindtreeview.cpp:460
+#: kfindtreeview.cpp:456
 #, kde-format
 msgid "Unable to save results."
 msgstr ""
 
-#: kfindtreeview.cpp:475
+#: kfindtreeview.cpp:471
 #, kde-format
 msgid "KFind Results File"
 msgstr ""
 
-#: kfindtreeview.cpp:490
+#: kfindtreeview.cpp:486
 #, kde-format
 msgctxt "%1=filename"
 msgid "Results were saved to: %1"
 msgstr ""
 
-#: kfindtreeview.cpp:578 kftabdlg.cpp:447
+#: kfindtreeview.cpp:574 kftabdlg.cpp:437
 #, kde-format
 msgid "&Properties"
 msgstr "(&P) గుణములు"
 
-#: kftabdlg.cpp:85
+#: kftabdlg.cpp:82
 #, fuzzy, kde-format
 #| msgid "Name"
 msgctxt "this is the label for the name textfield"
 msgid "&Named:"
 msgstr "పేరు"
 
-#: kftabdlg.cpp:88
+#: kftabdlg.cpp:85
 #, kde-format
 msgid "You can use wildcard matching and \";\" for separating multiple names"
 msgstr ""
 
-#: kftabdlg.cpp:94
+#: kftabdlg.cpp:91
 #, kde-format
 msgid "Look &in:"
 msgstr ""
 
-#: kftabdlg.cpp:97
+#: kftabdlg.cpp:94
 #, kde-format
 msgid "Include &subfolders"
 msgstr ""
 
-#: kftabdlg.cpp:98
+#: kftabdlg.cpp:95
 #, kde-format
 msgid "Case s&ensitive search"
 msgstr ""
 
-#: kftabdlg.cpp:99
+#: kftabdlg.cpp:96
 #, kde-format
 msgid "&Browse..."
 msgstr ""
 
-#: kftabdlg.cpp:100
+#: kftabdlg.cpp:97
 #, kde-format
 msgid "&Use files index"
 msgstr ""
 
-#: kftabdlg.cpp:101
+#: kftabdlg.cpp:98
 #, kde-format
 msgid "Show &hidden files"
 msgstr ""
 
-#: kftabdlg.cpp:120
+#: kftabdlg.cpp:117
 #, kde-format
 msgid ""
 "<qt>Enter the filename you are looking for. <br />Alternatives may be "
@@ -227,7 +232,7 @@ msgid ""
 "li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:141
+#: kftabdlg.cpp:138
 #, kde-format
 msgid ""
 "<qt>This lets you use the files' index created by the <i>slocate</i> package "
@@ -235,58 +240,58 @@ msgid ""
 "(using <i>updatedb</i>).</qt>"
 msgstr ""
 
-#: kftabdlg.cpp:187
+#: kftabdlg.cpp:182
 #, kde-format
 msgid "Find all files created or &modified:"
 msgstr ""
 
-#: kftabdlg.cpp:189
+#: kftabdlg.cpp:184
 #, kde-format
 msgid "&between"
 msgstr ""
 
-#: kftabdlg.cpp:191
+#: kftabdlg.cpp:186
 #, kde-format
 msgid "and"
 msgstr ""
 
-#: kftabdlg.cpp:213
+#: kftabdlg.cpp:208
 #, kde-format
 msgid "File &size is:"
 msgstr ""
 
-#: kftabdlg.cpp:226
+#: kftabdlg.cpp:221
 #, kde-format
 msgid "Files owned by &user:"
 msgstr ""
 
-#: kftabdlg.cpp:231
+#: kftabdlg.cpp:226
 #, kde-format
 msgid "Owned by &group:"
 msgstr ""
 
-#: kftabdlg.cpp:234
+#: kftabdlg.cpp:229
 #, kde-format
 msgctxt "file size isn't considered in the search"
 msgid "(none)"
 msgstr ""
 
-#: kftabdlg.cpp:235
+#: kftabdlg.cpp:230
 #, kde-format
 msgid "At Least"
 msgstr ""
 
-#: kftabdlg.cpp:236
+#: kftabdlg.cpp:231
 #, kde-format
 msgid "At Most"
 msgstr ""
 
-#: kftabdlg.cpp:237
+#: kftabdlg.cpp:232
 #, kde-format
 msgid "Equal To"
 msgstr ""
 
-#: kftabdlg.cpp:239 kftabdlg.cpp:899
+#: kftabdlg.cpp:234 kftabdlg.cpp:889
 #, fuzzy, kde-format
 #| msgid "Bytes"
 msgid "Byte"
@@ -297,33 +302,33 @@ msgstr[2] "బైట్లు"
 msgstr[3] "బైట్లు"
 msgstr[4] "బైట్లు"
 
-#: kftabdlg.cpp:240
+#: kftabdlg.cpp:235
 #, kde-format
 msgid "KiB"
 msgstr ""
 
-#: kftabdlg.cpp:241
+#: kftabdlg.cpp:236
 #, kde-format
 msgid "MiB"
 msgstr ""
 
-#: kftabdlg.cpp:242
+#: kftabdlg.cpp:237
 #, kde-format
 msgid "GiB"
 msgstr ""
 
-#: kftabdlg.cpp:308
+#: kftabdlg.cpp:300
 #, kde-format
 msgctxt "label for the file type combobox"
 msgid "File &type:"
 msgstr ""
 
-#: kftabdlg.cpp:313
+#: kftabdlg.cpp:305
 #, kde-format
 msgid "C&ontaining text:"
 msgstr ""
 
-#: kftabdlg.cpp:319
+#: kftabdlg.cpp:311
 #, kde-format
 msgid ""
 "<qt>If specified, only files that contain this text are found. Note that not "
@@ -331,106 +336,106 @@ msgid ""
 "documentation for a list of supported file types.</qt>"
 msgstr ""
 
-#: kftabdlg.cpp:327
+#: kftabdlg.cpp:319
 #, kde-format
 msgid "Case s&ensitive"
 msgstr ""
 
-#: kftabdlg.cpp:328
+#: kftabdlg.cpp:320
 #, kde-format
 msgid "Include &binary files"
 msgstr ""
 
-#: kftabdlg.cpp:329
+#: kftabdlg.cpp:321
 #, kde-format
 msgid "Regular e&xpression"
 msgstr ""
 
-#: kftabdlg.cpp:332
+#: kftabdlg.cpp:324
 #, kde-format
 msgid ""
 "<qt>This lets you search in any type of file, even those that usually do not "
 "contain text (for example program files and images).</qt>"
 msgstr ""
 
-#: kftabdlg.cpp:340
+#: kftabdlg.cpp:332
 #, kde-format
 msgid "&Edit..."
 msgstr ""
 
-#: kftabdlg.cpp:346
+#: kftabdlg.cpp:338
 #, kde-format
 msgctxt "as in search for"
 msgid "fo&r:"
 msgstr ""
 
-#: kftabdlg.cpp:348
+#: kftabdlg.cpp:340
 #, kde-format
 msgid "Search &metainfo sections:"
 msgstr ""
 
-#: kftabdlg.cpp:352
+#: kftabdlg.cpp:344
 #, kde-format
 msgid "All Files & Folders"
 msgstr ""
 
-#: kftabdlg.cpp:353
+#: kftabdlg.cpp:345
 #, kde-format
 msgid "Files"
 msgstr ""
 
-#: kftabdlg.cpp:354
+#: kftabdlg.cpp:346
 #, kde-format
 msgid "Folders"
 msgstr "ఫోల్డర్లు"
 
-#: kftabdlg.cpp:355
+#: kftabdlg.cpp:347
 #, kde-format
 msgid "Symbolic Links"
 msgstr ""
 
-#: kftabdlg.cpp:356
+#: kftabdlg.cpp:348
 #, kde-format
 msgid "Special Files (Sockets, Device Files, ...)"
 msgstr ""
 
-#: kftabdlg.cpp:357
+#: kftabdlg.cpp:349
 #, kde-format
 msgid "Executable Files"
 msgstr ""
 
-#: kftabdlg.cpp:358
+#: kftabdlg.cpp:350
 #, kde-format
 msgid "SUID Executable Files"
 msgstr ""
 
-#: kftabdlg.cpp:359
+#: kftabdlg.cpp:351
 #, kde-format
 msgid "All Images"
 msgstr ""
 
-#: kftabdlg.cpp:360
+#: kftabdlg.cpp:352
 #, kde-format
 msgid "All Video"
 msgstr ""
 
-#: kftabdlg.cpp:361
+#: kftabdlg.cpp:353
 #, kde-format
 msgid "All Sounds"
 msgstr ""
 
-#: kftabdlg.cpp:445
+#: kftabdlg.cpp:435
 #, kde-format
 msgid "Name/&Location"
 msgstr ""
 
-#: kftabdlg.cpp:446
+#: kftabdlg.cpp:436
 #, kde-format
 msgctxt "tab name: search by contents"
 msgid "C&ontents"
 msgstr ""
 
-#: kftabdlg.cpp:451
+#: kftabdlg.cpp:441
 #, kde-format
 msgid ""
 "<qt>Search within files' specific comments/metainfo<br />These are some "
@@ -439,7 +444,7 @@ msgid ""
 "resolution, comment...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:459
+#: kftabdlg.cpp:449
 #, kde-format
 msgid ""
 "<qt>If specified, search only in this field<br /><ul><li><b>Audio files "
@@ -447,47 +452,47 @@ msgid ""
 "Search only in Resolution, Bitdepth...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:617
+#: kftabdlg.cpp:607
 #, kde-format
 msgid "Unable to search within a period which is less than a minute."
 msgstr ""
 
-#: kftabdlg.cpp:628
+#: kftabdlg.cpp:618
 #, kde-format
 msgid "The date is not valid."
 msgstr ""
 
-#: kftabdlg.cpp:630
+#: kftabdlg.cpp:620
 #, kde-format
 msgid "Invalid date range."
 msgstr ""
 
-#: kftabdlg.cpp:632
+#: kftabdlg.cpp:622
 #, kde-format
 msgid "Unable to search dates in the future."
 msgstr ""
 
-#: kftabdlg.cpp:704
+#: kftabdlg.cpp:694
 #, kde-format
 msgid "Size is too big. Set maximum size value?"
 msgstr ""
 
-#: kftabdlg.cpp:704
+#: kftabdlg.cpp:694
 #, kde-format
 msgid "Error"
 msgstr "దోషము"
 
-#: kftabdlg.cpp:704
+#: kftabdlg.cpp:694
 #, kde-format
 msgid "Set"
 msgstr ""
 
-#: kftabdlg.cpp:704
+#: kftabdlg.cpp:694
 #, kde-format
 msgid "Do Not Set"
 msgstr ""
 
-#: kftabdlg.cpp:889
+#: kftabdlg.cpp:879
 #, kde-format
 msgctxt ""
 "during the previous minute(s)/hour(s)/...; dynamic context 'type': 'i' "
@@ -500,7 +505,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: kftabdlg.cpp:890
+#: kftabdlg.cpp:880
 #, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "minute"
@@ -511,7 +516,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: kftabdlg.cpp:891
+#: kftabdlg.cpp:881
 #, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "hour"
@@ -522,7 +527,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: kftabdlg.cpp:892
+#: kftabdlg.cpp:882
 #, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "day"
@@ -533,7 +538,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: kftabdlg.cpp:893
+#: kftabdlg.cpp:883
 #, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "month"
@@ -544,7 +549,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: kftabdlg.cpp:894
+#: kftabdlg.cpp:884
 #, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "year"
@@ -555,7 +560,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: kquery.cpp:589
+#: kquery.cpp:601
 #, kde-format
 msgctxt "@title:window"
 msgid "Error while using locate"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-05-20 01:45+0000\n"
+"POT-Creation-Date: 2018-10-11 02:02+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 
-#: activities/fileitemplugin/kactivitymanagerd_fileitem_linking_plugin.desktop:4
+#: activities/fileitemplugin/kactivitymanagerd_fileitem_linking_plugin.desktop:3
 msgctxt "Name"
 msgid "Link Files to Activities"
 msgstr ""
@@ -31,7 +31,7 @@ msgctxt "Name"
 msgid "Search Folder Updater"
 msgstr "శోధన మాదిరి సరిపోలింది"
 
-#: filenamesearch/kded/filenamesearchmodule.desktop:50
+#: filenamesearch/kded/filenamesearchmodule.desktop:49
 msgctxt "Comment"
 msgid "Allows automatic updates of Search Folders"
 msgstr ""
@@ -46,7 +46,7 @@ msgctxt "Comment"
 msgid "Embeddable Troff Viewer"
 msgstr "పొదగదగ్గ ట్రాఫ్ వీక్షిణి"
 
-#: man/kmanpart.desktop:94
+#: man/kmanpart.desktop:93
 msgctxt "Name"
 msgid "KManPart"
 msgstr "కెమేన్ భాగం"
@@ -89,7 +89,7 @@ msgctxt "Name"
 msgid "Network Watcher"
 msgstr "నెట్వర్క్ ను పరిశీలించె కార్యక్రమం"
 
-#: network/kded/networkwatcher.desktop:80
+#: network/kded/networkwatcher.desktop:79
 msgctxt "Comment"
 msgid ""
 "Keeps track of the network and updates directory listings of the network:/ "
@@ -104,7 +104,7 @@ msgctxt "Name"
 msgid "Recent Document Watcher"
 msgstr "ఇటీవలి పత్రములు"
 
-#: recentdocuments/recentdocumentsnotifier.desktop:71
+#: recentdocuments/recentdocumentsnotifier.desktop:70
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Recent Documents"
@@ -122,7 +122,15 @@ msgctxt "Name"
 msgid "Shared Folders (SMB)"
 msgstr ""
 
-#: thumbnail/audiothumbnail.desktop:4
+#: thumbnail/appimagethumbnail.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Images"
+msgctxt "Name"
+msgid "AppImage"
+msgstr "చిత్రాలు"
+
+#: thumbnail/audiothumbnail.desktop:3
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Audio Mixer"
@@ -130,7 +138,7 @@ msgctxt "Name"
 msgid "Audio files"
 msgstr "శబ్దాలను కలిపే కార్యక్రమం"
 
-#: thumbnail/comicbookthumbnail.desktop:4
+#: thumbnail/comicbookthumbnail.desktop:3
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Comoros"
@@ -169,11 +177,6 @@ msgctxt "Name"
 msgid "EXR Images"
 msgstr "ఈఎక్స్ ఆర్ చిత్రాలు"
 
-#: thumbnail/htmlthumbnail.desktop:3
-msgctxt "Name"
-msgid "HTML Files"
-msgstr "హెచ్ టి ఎం ఎల్ దస్త్రాలు"
-
 #: thumbnail/imagethumbnail.desktop:3
 msgctxt "Name"
 msgid "Images (GIF, PNG, BMP, ...)"
@@ -195,6 +198,11 @@ msgctxt "Name"
 msgid "Krita Documents"
 msgstr "Qt3 ఆన్‌లైన్ పత్రికీకరణ"
 
+#: thumbnail/opendocumentthumbnail.desktop:3
+msgctxt "Name"
+msgid "Office Documents (Open Document Files)"
+msgstr ""
+
 #: thumbnail/svgthumbnail.desktop:3
 #, fuzzy
 #| msgctxt "Name"
@@ -213,15 +221,19 @@ msgctxt "Comment"
 msgid "Thumbnail Handler"
 msgstr "Thumbnail సంభాలిక"
 
-#: thumbnail/windowsexethumbnail.desktop:4
+#: thumbnail/windowsexethumbnail.desktop:3
 msgctxt "Name"
 msgid "Microsoft Windows Executables"
 msgstr ""
 
-#: thumbnail/windowsimagethumbnail.desktop:4
+#: thumbnail/windowsimagethumbnail.desktop:3
 msgctxt "Name"
 msgid "Microsoft Windows Images"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "HTML Files"
+#~ msgstr "హెచ్ టి ఎం ఎల్ దస్త్రాలు"
 
 #, fuzzy
 #~| msgctxt "Name"
@@ -9696,13 +9708,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Color"
 #~ msgstr "రంగు"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Images"
-#~ msgctxt "Name"
-#~ msgid "Image"
-#~ msgstr "చిత్రాలు"
 
 #, fuzzy
 #~| msgctxt "Name"
