@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-09-28 03:54+0200\n"
+"POT-Creation-Date: 2018-11-13 04:11+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1119,8 +1119,7 @@ msgid "Timer Interval"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_timerInterval)
-#: SensorDisplayLib/SensorLoggerDlgWidget.ui:59 TimerSettings.cpp:57
-#: WorkSheetSettings.cpp:111
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:59 WorkSheetSettings.cpp:111
 #, kde-format
 msgid " sec"
 msgstr " సెకను"
@@ -1207,26 +1206,6 @@ msgstr ""
 #: SystemLoad2.sgrd:14
 #, kde-format
 msgid "Sending"
-msgstr ""
-
-#: TimerSettings.cpp:37
-#, kde-format
-msgid "Timer Settings"
-msgstr ""
-
-#: TimerSettings.cpp:47
-#, kde-format
-msgid "Use update interval of worksheet"
-msgstr ""
-
-#: TimerSettings.cpp:50 WorkSheetSettings.cpp:104
-#, kde-format
-msgid "Update interval:"
-msgstr ""
-
-#: TimerSettings.cpp:60 WorkSheetSettings.cpp:117
-#, kde-format
-msgid "All displays of the sheet are updated at the rate specified here."
 msgstr ""
 
 #: WorkSheet.cpp:87
@@ -1329,6 +1308,16 @@ msgstr ""
 #: WorkSheetSettings.cpp:102
 #, kde-format
 msgid "Enter the number of columns the sheet should have."
+msgstr ""
+
+#: WorkSheetSettings.cpp:104
+#, kde-format
+msgid "Update interval:"
+msgstr ""
+
+#: WorkSheetSettings.cpp:117
+#, kde-format
+msgid "All displays of the sheet are updated at the rate specified here."
 msgstr ""
 
 #: WorkSheetSettings.cpp:118
