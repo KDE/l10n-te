@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-11-23 02:50+0100\n"
+"POT-Creation-Date: 2018-12-01 02:54+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -3528,17 +3528,17 @@ msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "రిమోట్ టాబ్ శీర్షిక రూపము:"
 
-#: TerminalDisplay.cpp:1470 TerminalDisplay.cpp:1471
+#: TerminalDisplay.cpp:1465 TerminalDisplay.cpp:1466
 #, kde-format
 msgid "Size: XXX x XXX"
 msgstr "పరిమాణం: XXX x XXX"
 
-#: TerminalDisplay.cpp:1482
+#: TerminalDisplay.cpp:1477
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "పరిమాణం: %1 x %2"
 
-#: TerminalDisplay.cpp:3290
+#: TerminalDisplay.cpp:3285
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
@@ -3548,13 +3548,13 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: TerminalDisplay.cpp:3293
+#: TerminalDisplay.cpp:3288
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "ముసివేత నిర్ధారించు"
 
-#: TerminalDisplay.cpp:3505
+#: TerminalDisplay.cpp:3500
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
@@ -3567,37 +3567,37 @@ msgstr ""
 "<qt>అవుట్పుట్ Ctrl+S వత్తుట ద్వారా <a href=\"http://en.wikipedia.org/wiki/"
 "Flow_control\">suspended</a> అయింది.  తిరిగికొనసాగించుటకు <b>Ctrl+Q</b> వత్తుము.</qt>"
 
-#: TerminalDisplay.cpp:3543
+#: TerminalDisplay.cpp:3538
 #, kde-format
 msgid "This terminal is read-only."
 msgstr ""
 
-#: TerminalDisplay.cpp:3843
+#: TerminalDisplay.cpp:3838
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "ఎంచుకొన్న దానిని అతికించు"
 
-#: TerminalDisplay.cpp:3860
+#: TerminalDisplay.cpp:3855
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
 
-#: ViewContainer.cpp:113
+#: ViewContainer.cpp:116
 #, fuzzy, kde-format
 #| msgid "&Detach View"
 msgctxt "@action:inmenu"
 msgid "&Detach Tab"
 msgstr "(&D) వీక్షణం వేరుచేయి"
 
-#: ViewContainer.cpp:121
+#: ViewContainer.cpp:124
 #, fuzzy, kde-format
 #| msgid "&Rename Tab..."
 msgctxt "@action:inmenu"
 msgid "&Rename Tab..."
 msgstr "(&R) టాబ్‌కు మరలాపేరు..."
 
-#: ViewContainer.cpp:128
+#: ViewContainer.cpp:131
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
@@ -3625,71 +3625,83 @@ msgctxt "@action Shortcut entry"
 msgid "Switch to Last Tab"
 msgstr "టాబ్ %1కు మారుము"
 
-#: ViewManager.cpp:136
+#: ViewManager.cpp:135
+#, kde-format
+msgctxt "@action Shortcut entry"
+msgid "Last Used Tabs"
+msgstr ""
+
+#: ViewManager.cpp:137
+#, kde-format
+msgctxt "@action Shortcut entry"
+msgid "Last Used Tabs (Reverse)"
+msgstr ""
+
+#: ViewManager.cpp:139
 #, fuzzy, kde-format
 #| msgid "Next View Container"
 msgctxt "@action Shortcut entry"
 msgid "Next View Container"
 msgstr "తరువాతి వీక్షణం కలిగివున్నది"
 
-#: ViewManager.cpp:138
+#: ViewManager.cpp:141
 #, fuzzy, kde-format
 #| msgid "Move View Left"
 msgctxt "@action Shortcut entry"
 msgid "Move Tab Left"
 msgstr "వీక్షణం ఎడమకు కదుపుము"
 
-#: ViewManager.cpp:140
+#: ViewManager.cpp:143
 #, fuzzy, kde-format
 #| msgid "Move View Right"
 msgctxt "@action Shortcut entry"
 msgid "Move Tab Right"
 msgstr "వీక్షణం కుడికు కదుపుము"
 
-#: ViewManager.cpp:148
+#: ViewManager.cpp:151
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View Left/Right"
 msgstr "వీక్షణం ఎడమ/కుడికు విభజించుము"
 
-#: ViewManager.cpp:156
+#: ViewManager.cpp:159
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View Top/Bottom"
 msgstr "వీక్షణం పైనకు/క్రిందకు విభజించుము"
 
-#: ViewManager.cpp:161
+#: ViewManager.cpp:164
 #, kde-format
 msgctxt "@action:inmenu Close Active View"
 msgid "Close Active"
 msgstr "క్రియాశీలమైంది మూయుము"
 
-#: ViewManager.cpp:172
+#: ViewManager.cpp:175
 #, kde-format
 msgctxt "@action:inmenu Close Other Views"
 msgid "Close Others"
 msgstr "ఇతరులను మూసివేయి"
 
-#: ViewManager.cpp:182
+#: ViewManager.cpp:185
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Expand View"
 msgstr "వీక్షణం విస్తరించుము"
 
-#: ViewManager.cpp:192
+#: ViewManager.cpp:195
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Shrink View"
 msgstr "వీక్షణం కుదించుము"
 
-#: ViewManager.cpp:207
+#: ViewManager.cpp:210
 #, fuzzy, kde-format
 #| msgid "Close Current Tab"
 msgctxt "@action:inmenu"
 msgid "D&etach Current Tab"
 msgstr "ప్రస్తుత టాబ్ మూసివేయి"
 
-#: ViewManager.cpp:228
+#: ViewManager.cpp:233
 #, fuzzy, kde-format
 #| msgid "Switch to Tab %1"
 msgctxt "@action Shortcut entry"
