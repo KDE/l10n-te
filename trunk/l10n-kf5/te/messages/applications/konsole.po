@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-12-29 03:27+0100\n"
+"POT-Creation-Date: 2018-12-30 02:46+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -967,7 +967,7 @@ msgstr "విండొ"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showTerminalSizeHintButton)
 #. i18n: ectx: tooltip, entry (ShowTerminalSizeHint), group (KonsoleWindow)
-#: EditProfileAppearancePage.ui:609 settings/konsole.kcfg:25
+#: EditProfileAppearancePage.ui:609 settings/konsole.kcfg:29
 #, kde-format
 msgid ""
 "Show terminal size in columns and lines in the center of window after "
@@ -978,7 +978,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, showTerminalSizeHintButton)
 #. i18n: ectx: label, entry (ShowTerminalSizeHint), group (KonsoleWindow)
 #: EditProfileAppearancePage.ui:612 settings/GeneralSettings.ui:53
-#: settings/konsole.kcfg:24
+#: settings/konsole.kcfg:28
 #, kde-format
 msgid "Show hint for terminal size after resizing"
 msgstr ""
@@ -2397,14 +2397,14 @@ msgstr "అవుట్పుట్"
 
 #. i18n: ectx: property (text), widget (QCheckBox, printerFriendly)
 #. i18n: ectx: label, entry (PrinterFriendly), group (PrintOptions)
-#: PrintOptions.ui:39 settings/konsole.kcfg:109
+#: PrintOptions.ui:39 settings/konsole.kcfg:113
 #, kde-format
 msgid "Printer &friendly mode (black text, no background)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, scaleOutput)
 #. i18n: ectx: label, entry (ScaleOutput), group (PrintOptions)
-#: PrintOptions.ui:46 settings/konsole.kcfg:113
+#: PrintOptions.ui:46 settings/konsole.kcfg:117
 #, kde-format
 msgid "&Scale output"
 msgstr ""
@@ -3037,41 +3037,48 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SaveGeometryOnExit)
 #. i18n: ectx: label, entry (SaveGeometryOnExit), group (KonsoleWindow)
-#: settings/GeneralSettings.ui:69 settings/konsole.kcfg:29
+#: settings/GeneralSettings.ui:69 settings/konsole.kcfg:33
 #, kde-format
 msgid "Use current window size on next startup"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_UseSingleInstance)
 #. i18n: ectx: tooltip, entry (UseSingleInstance), group (KonsoleWindow)
-#: settings/GeneralSettings.ui:82 settings/konsole.kcfg:35
+#: settings/GeneralSettings.ui:82 settings/konsole.kcfg:39
 #, kde-format
 msgid "When launching Konsole re-use existing process if possible"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseSingleInstance)
 #. i18n: ectx: label, entry (UseSingleInstance), group (KonsoleWindow)
-#: settings/GeneralSettings.ui:85 settings/konsole.kcfg:34
+#: settings/GeneralSettings.ui:85 settings/konsole.kcfg:38
 #, kde-format
 msgid "Run all Konsole windows in a single process"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowMenuAccelerators)
 #. i18n: ectx: label, entry (AllowMenuAccelerators), group (KonsoleWindow)
-#: settings/GeneralSettings.ui:98 settings/konsole.kcfg:19
+#: settings/GeneralSettings.ui:98 settings/konsole.kcfg:23
 #, kde-format
 msgid "Enable menu accelerators"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowWindowTitleOnTitleBar)
 #. i18n: ectx: label, entry (ShowWindowTitleOnTitleBar), group (KonsoleWindow)
-#: settings/GeneralSettings.ui:111 settings/konsole.kcfg:14
+#: settings/GeneralSettings.ui:111 settings/konsole.kcfg:18
 #, kde-format
 msgid "Show window title on the titlebar"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RemoveWindowTitleBarAndFrame)
+#. i18n: ectx: label, entry (RemoveWindowTitleBarAndFrame), group (KonsoleWindow)
+#: settings/GeneralSettings.ui:118 settings/konsole.kcfg:14
+#, kde-format
+msgid "Remove window titlebar and frame"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: settings/GeneralSettings.ui:128
+#: settings/GeneralSettings.ui:135
 #, fuzzy, kde-format
 #| msgid "Default character encoding:"
 msgid "Default Search Settings"
@@ -3079,7 +3086,7 @@ msgstr "అప్రమేయ కారెక్టర్ ఎన్కోడి�
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SearchCaseSensitive)
 #. i18n: ectx: label, entry (SearchCaseSensitive), group (SearchSettings)
-#: settings/GeneralSettings.ui:140 settings/konsole.kcfg:41
+#: settings/GeneralSettings.ui:147 settings/konsole.kcfg:45
 #, fuzzy, kde-format
 #| msgid "Sets whether the search is case sensitive"
 msgid "Search is case sensitive"
@@ -3087,7 +3094,7 @@ msgstr "శోధన చిన్నపెద్ద అక్షరతేడా�
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SearchCaseSensitive)
 #. i18n: ectx: tooltip, entry (SearchCaseSensitive), group (SearchSettings)
-#: settings/GeneralSettings.ui:143 settings/konsole.kcfg:42
+#: settings/GeneralSettings.ui:150 settings/konsole.kcfg:46
 #, fuzzy, kde-format
 #| msgid "Sets whether the search is case sensitive"
 msgid "Sets whether the search is case sensitive"
@@ -3095,7 +3102,7 @@ msgstr "శోధన చిన్నపెద్ద అక్షరతేడా�
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SearchRegExpression)
 #. i18n: ectx: label, entry (SearchRegExpression), group (SearchSettings)
-#: settings/GeneralSettings.ui:156 settings/konsole.kcfg:46
+#: settings/GeneralSettings.ui:163 settings/konsole.kcfg:50
 #, fuzzy, kde-format
 #| msgid "Match regular expression"
 msgid "Match using regular expressions"
@@ -3103,7 +3110,7 @@ msgstr "సాదారణ సమీకరణం సరిపోల్చుమ�
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SearchHighlightMatches)
 #. i18n: ectx: label, entry (SearchHighlightMatches), group (SearchSettings)
-#: settings/GeneralSettings.ui:169 settings/konsole.kcfg:50
+#: settings/GeneralSettings.ui:176 settings/konsole.kcfg:54
 #, fuzzy, kde-format
 #| msgid "Highlight all"
 msgid "Highlight all search matches"
@@ -3111,32 +3118,32 @@ msgstr "అన్నిటిని హైలైట్ చేయుము"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SearchReverseSearch)
 #. i18n: ectx: label, entry (SearchReverseSearch), group (SearchSettings)
-#: settings/GeneralSettings.ui:182 settings/konsole.kcfg:55
+#: settings/GeneralSettings.ui:189 settings/konsole.kcfg:59
 #, kde-format
 msgid "Search backwards"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SearchReverseSearch)
 #. i18n: ectx: tooltip, entry (SearchReverseSearch), group (SearchSettings)
-#: settings/GeneralSettings.ui:185 settings/konsole.kcfg:56
+#: settings/GeneralSettings.ui:192 settings/konsole.kcfg:60
 #, kde-format
 msgid "Sets whether search should start from the bottom"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: settings/GeneralSettings.ui:203
+#: settings/GeneralSettings.ui:210
 #, kde-format
 msgid "Notifications"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, enableAllMessagesButton)
-#: settings/GeneralSettings.ui:228
+#: settings/GeneralSettings.ui:235
 #, kde-format
 msgid "All dialogs will be shown again"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, enableAllMessagesButton)
-#: settings/GeneralSettings.ui:231
+#: settings/GeneralSettings.ui:238
 #, kde-format
 msgid "Enable all \"Don't Ask Again\" messages"
 msgstr ""
@@ -3149,99 +3156,99 @@ msgid "Show menubar by default in each Konsole window"
 msgstr "కొత్త విండోలనందు మెనూబార్‌ను చూపుము"
 
 #. i18n: ectx: tooltip, entry (ShowWindowTitleOnTitleBar), group (KonsoleWindow)
-#: settings/konsole.kcfg:15
+#: settings/konsole.kcfg:19
 #, kde-format
 msgid "Show window title set by escape sequence on the titlebar"
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (AllowMenuAccelerators), group (KonsoleWindow)
-#: settings/konsole.kcfg:20
+#: settings/konsole.kcfg:24
 #, kde-format
 msgid "Allow users to access top menu through Alt+Key combination"
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (SaveGeometryOnExit), group (KonsoleWindow)
-#: settings/konsole.kcfg:30
+#: settings/konsole.kcfg:34
 #, kde-format
 msgid "The window size will be saved upon exiting Konsole"
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (SearchHighlightMatches), group (SearchSettings)
-#: settings/konsole.kcfg:51
+#: settings/konsole.kcfg:55
 #, fuzzy, kde-format
 #| msgid "Sets whether matching text should be highlighted"
 msgid "Sets whether matching text should be highlighted"
 msgstr "సరిజోడీ వచనము హైలైట్ కావాలోలేదో అమర్చుము"
 
 #. i18n: ectx: label, entry (TabBarVisibility), group (TabBar)
-#: settings/konsole.kcfg:62
+#: settings/konsole.kcfg:66
 #, kde-format
 msgid "Control the visibility of the whole tab bar"
 msgstr ""
 
 #. i18n: ectx: label, entry (TabBarPosition), group (TabBar)
-#: settings/konsole.kcfg:71
+#: settings/konsole.kcfg:75
 #, kde-format
 msgid "Control the position of the tab bar"
 msgstr ""
 
 #. i18n: ectx: label, entry (TabBarStyleSheet), group (TabBar)
-#: settings/konsole.kcfg:79
+#: settings/konsole.kcfg:83
 #, kde-format
 msgid "Control the visual style of the tab bar"
 msgstr ""
 
 #. i18n: ectx: label, entry (TabBarUseUserStyleSheet), group (TabBar)
-#: settings/konsole.kcfg:83
+#: settings/konsole.kcfg:87
 #, fuzzy, kde-format
 #| msgid "Use a custom, fixed color for the cursor"
 msgid "Use a user-defined .css file for the tab bar"
 msgstr "కర్సరు కొరకు మలుచుకొనిన, నిర్ధారిత రంగును వుపయోగించుము"
 
 #. i18n: ectx: label, entry (TabBarUserStyleSheetFile), group (TabBar)
-#: settings/konsole.kcfg:87
+#: settings/konsole.kcfg:91
 #, kde-format
 msgid "The .css file to use for the tab bar style"
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowQuickButtons), group (TabBar)
-#: settings/konsole.kcfg:91
+#: settings/konsole.kcfg:95
 #, kde-format
 msgid "Control the visibility of quick buttons on the tab bar"
 msgstr ""
 
 #. i18n: ectx: label, entry (NewTabBehavior), group (TabBar)
-#: settings/konsole.kcfg:95
+#: settings/konsole.kcfg:99
 #, kde-format
 msgid "Control where to put the new tab"
 msgstr ""
 
 #. i18n: ectx: label, entry (ExpandTabWidth), group (TabBar)
-#: settings/konsole.kcfg:103
+#: settings/konsole.kcfg:107
 #, kde-format
 msgid "Expand the tab widths (Qt5.9+ uses the full window width)"
 msgstr ""
 
 #. i18n: ectx: label, entry (scrollbackUseSystemLocation), group (FileLocation)
-#: settings/konsole.kcfg:119
+#: settings/konsole.kcfg:123
 #, kde-format
 msgid "For scrollback files, use system-wide folder location"
 msgstr ""
 
 #. i18n: ectx: label, entry (scrollbackUseCacheLocation), group (FileLocation)
-#: settings/konsole.kcfg:123
+#: settings/konsole.kcfg:127
 #, kde-format
 msgid "For scrollback files, use user's specific folder location"
 msgstr ""
 
 #. i18n: ectx: label, entry (scrollbackUseSpecifiedLocation), group (FileLocation)
-#: settings/konsole.kcfg:127
+#: settings/konsole.kcfg:131
 #, kde-format
 msgid "For scrollback files, use specified folder location"
 msgstr ""
 
 #. i18n: ectx: label, entry (scrollbackUseSpecifiedLocationDirectory), group (FileLocation)
-#: settings/konsole.kcfg:131
+#: settings/konsole.kcfg:135
 #, kde-format
 msgid "For scrollback files, use this folder"
 msgstr ""
@@ -3542,7 +3549,7 @@ msgstr "పరిమాణం: XXX x XXX"
 msgid "Size: %1 x %2"
 msgstr "పరిమాణం: %1 x %2"
 
-#: TerminalDisplay.cpp:3413
+#: TerminalDisplay.cpp:3419
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
@@ -3552,86 +3559,86 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: TerminalDisplay.cpp:3416
+#: TerminalDisplay.cpp:3422
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "ముసివేత నిర్ధారించు"
 
-#: TerminalDisplay.cpp:3430
+#: TerminalDisplay.cpp:3436
 #, kde-format
 msgid "^C Interrupt: May abort the current process"
 msgstr ""
 
-#: TerminalDisplay.cpp:3433
+#: TerminalDisplay.cpp:3439
 #, kde-format
 msgid "^D End of transmission: May exit the current process"
 msgstr ""
 
-#: TerminalDisplay.cpp:3436
+#: TerminalDisplay.cpp:3442
 #, kde-format
 msgid "^G Bell: Will try to emit an audible warning"
 msgstr ""
 
-#: TerminalDisplay.cpp:3439
+#: TerminalDisplay.cpp:3445
 #, kde-format
 msgid "^H Backspace"
 msgstr ""
 
-#: TerminalDisplay.cpp:3442
+#: TerminalDisplay.cpp:3448
 #, kde-format
 msgid "^S Scroll lock: Locks terminal output"
 msgstr ""
 
-#: TerminalDisplay.cpp:3445
+#: TerminalDisplay.cpp:3451
 #, kde-format
 msgid "^Z Suspend: Stops current process"
 msgstr ""
 
-#: TerminalDisplay.cpp:3448
+#: TerminalDisplay.cpp:3454
 #, kde-format
 msgid "ESC: Used for special commands to the current process"
 msgstr ""
 
-#: TerminalDisplay.cpp:3451
+#: TerminalDisplay.cpp:3457
 #, kde-format
 msgid "Other unprintable character (\\x%1)"
 msgstr ""
 
-#: TerminalDisplay.cpp:3461
+#: TerminalDisplay.cpp:3467
 #, kde-format
 msgid ""
 "The text you're trying to paste contains hidden unprintable characters, do "
 "you want to filter them out?"
 msgstr ""
 
-#: TerminalDisplay.cpp:3464
+#: TerminalDisplay.cpp:3470
 #, fuzzy, kde-format
 #| msgid "Filter:"
 msgctxt "@title"
 msgid "Filter"
 msgstr "గలని:"
 
-#: TerminalDisplay.cpp:3466
+#: TerminalDisplay.cpp:3472
 #, kde-format
 msgctxt "@action:button"
 msgid "&Remove unprintable"
 msgstr ""
 
-#: TerminalDisplay.cpp:3469
+#: TerminalDisplay.cpp:3475
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgctxt "@action:button"
 msgid "Confirm &paste"
 msgstr "ముసివేత నిర్ధారించు"
 
-#: TerminalDisplay.cpp:3472
+#: TerminalDisplay.cpp:3478
 #, kde-format
 msgctxt "@action:button"
 msgid "&Cancel paste"
 msgstr ""
 
-#: TerminalDisplay.cpp:3699
+#: TerminalDisplay.cpp:3705
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
@@ -3644,18 +3651,18 @@ msgstr ""
 "<qt>అవుట్పుట్ Ctrl+S వత్తుట ద్వారా <a href=\"http://en.wikipedia.org/wiki/"
 "Flow_control\">suspended</a> అయింది.  తిరిగికొనసాగించుటకు <b>Ctrl+Q</b> వత్తుము.</qt>"
 
-#: TerminalDisplay.cpp:3737
+#: TerminalDisplay.cpp:3743
 #, kde-format
 msgid "This terminal is read-only."
 msgstr ""
 
-#: TerminalDisplay.cpp:4043
+#: TerminalDisplay.cpp:4049
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "ఎంచుకొన్న దానిని అతికించు"
 
-#: TerminalDisplay.cpp:4060
+#: TerminalDisplay.cpp:4066
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
