@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwinrules\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-13 03:57+0200\n"
+"POT-Creation-Date: 2019-01-01 03:11+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -235,44 +235,45 @@ msgstr "గుర్తుంచుకొనుటకు అంతర్గత �
 msgid "Internal setting for remembering"
 msgstr "గుర్తుంచుకొనుటకు అంతర్గత అమరిక"
 
-#: main.cpp:150
+#: main.cpp:138
 #, kde-format
 msgid "Application settings for %1"
 msgstr "%1 కొరకు అనువర్తనపు అమరికలు"
 
-#: main.cpp:170
+#: main.cpp:158
 #, kde-format
 msgid "Window settings for %1"
 msgstr "%1 కొరకు విండో అమరికలు"
 
-#: main.cpp:222
+#: main.cpp:210
 #, fuzzy, kde-format
 #| msgid "Edit Window-Specific Settings"
 msgctxt "Window caption for the application wide rules dialog"
 msgid "Edit Application-Specific Settings"
 msgstr "విండో-ప్రత్యేక అమరికలను సరికూర్చుము"
 
-#: main.cpp:253
+#: main.cpp:240
 #, kde-format
 msgid "KWin"
 msgstr "KWin"
 
-#: main.cpp:261
+#: main.cpp:247
 #, kde-format
 msgid "KWin helper utility"
 msgstr "KWin సహాయకి వుపలభ్యము"
 
-#: main.cpp:262
-#, kde-format
-msgid "WId of the window for special window settings."
+#: main.cpp:248
+#, fuzzy, kde-format
+#| msgid "WId of the window for special window settings."
+msgid "KWin id of the window for special window settings."
 msgstr "ప్రత్యేక విండో అమరికల కొరకు విండో యొక్క WId."
 
-#: main.cpp:263
+#: main.cpp:249
 #, kde-format
 msgid "Whether the settings should affect all windows of the application."
 msgstr "అమరిక అనునది అనువర్తనము యొక్క అన్ని విండోలనూ ప్రాభావితం చేయాలా."
 
-#: main.cpp:271
+#: main.cpp:258
 #, kde-format
 msgid "This helper utility is not supposed to be called directly."
 msgstr "ఈ సహాయక వుపలభ్యము నేరుగా పిలువబడ కూడదు."
@@ -334,14 +335,14 @@ msgstr ""
 msgid "&Export"
 msgstr ""
 
-#: ruleswidget.cpp:68
+#: ruleswidget.cpp:67
 #, kde-format
 msgid ""
 "Enable this checkbox to alter this window property for the specified "
 "window(s)."
 msgstr "ఈ విండో గుణమును తెలుపబడిన విండో(ల)కు మార్చుటకు ఈ చెక్‌బాక్సును చెతనము చేయుము."
 
-#: ruleswidget.cpp:70
+#: ruleswidget.cpp:69
 #, kde-format
 msgid ""
 "Specify how the window property should be affected:<ul><li><em>Do Not Affect:"
@@ -360,7 +361,7 @@ msgid ""
 "is hidden).</li></ul>"
 msgstr ""
 
-#: ruleswidget.cpp:85
+#: ruleswidget.cpp:84
 #, kde-format
 msgid ""
 "Specify how the window property should be affected:<ul><li><em>Do Not Affect:"
@@ -372,27 +373,27 @@ msgid ""
 "(this action will be deleted after the window is hidden).</li></ul>"
 msgstr ""
 
-#: ruleswidget.cpp:153
+#: ruleswidget.cpp:152
 #, kde-format
 msgid "All Desktops"
 msgstr "అన్ని రంగస్థలములు"
 
-#: ruleswidget.cpp:347
+#: ruleswidget.cpp:346
 #, kde-format
 msgid "All Activities"
 msgstr ""
 
-#: ruleswidget.cpp:831
+#: ruleswidget.cpp:791
 #, kde-format
 msgid "Settings for %1"
 msgstr "%1 కొరకు అమరికలు"
 
-#: ruleswidget.cpp:833
+#: ruleswidget.cpp:793
 #, kde-format
 msgid "Unnamed entry"
 msgstr "పేరులేని ప్రవేశము"
 
-#: ruleswidget.cpp:843
+#: ruleswidget.cpp:803
 #, kde-format
 msgid ""
 "You have specified the window class as unimportant.\n"
@@ -402,12 +403,12 @@ msgid ""
 "types."
 msgstr ""
 
-#: ruleswidget.cpp:874
+#: ruleswidget.cpp:832
 #, kde-format
 msgid "Edit Window-Specific Settings"
 msgstr "విండో-ప్రత్యేక అమరికలను సరికూర్చుము"
 
-#: ruleswidget.cpp:904
+#: ruleswidget.cpp:864
 #, kde-format
 msgid ""
 "This configuration dialog allows altering settings only for the selected "
@@ -416,12 +417,12 @@ msgid ""
 "affected and to which value."
 msgstr ""
 
-#: ruleswidget.cpp:908
+#: ruleswidget.cpp:868
 #, kde-format
 msgid "Consult the documentation for more details."
 msgstr "ఎక్కువ వివరముల కొరకు పత్రికీకరణను సంప్రదించండి."
 
-#: ruleswidget.cpp:947
+#: ruleswidget.cpp:907
 #, kde-format
 msgid "Edit Shortcut"
 msgstr "శీఘ్రమార్గమును సరికూర్చుము"

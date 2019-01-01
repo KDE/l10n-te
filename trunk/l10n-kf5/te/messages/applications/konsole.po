@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-12-31 02:45+0100\n"
+"POT-Creation-Date: 2019-01-01 02:50+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -3724,71 +3724,77 @@ msgctxt "@action Shortcut entry"
 msgid "Last Used Tabs (Reverse)"
 msgstr ""
 
-#: ViewManager.cpp:142
+#: ViewManager.cpp:141
+#, kde-format
+msgctxt "@action Shortcut entry"
+msgid "Toggle Between Two Tabs"
+msgstr ""
+
+#: ViewManager.cpp:143
 #, fuzzy, kde-format
 #| msgid "Next View Container"
 msgctxt "@action Shortcut entry"
 msgid "Next View Container"
 msgstr "తరువాతి వీక్షణం కలిగివున్నది"
 
-#: ViewManager.cpp:144
+#: ViewManager.cpp:145
 #, fuzzy, kde-format
 #| msgid "Move View Left"
 msgctxt "@action Shortcut entry"
 msgid "Move Tab Left"
 msgstr "వీక్షణం ఎడమకు కదుపుము"
 
-#: ViewManager.cpp:146
+#: ViewManager.cpp:147
 #, fuzzy, kde-format
 #| msgid "Move View Right"
 msgctxt "@action Shortcut entry"
 msgid "Move Tab Right"
 msgstr "వీక్షణం కుడికు కదుపుము"
 
-#: ViewManager.cpp:154
+#: ViewManager.cpp:155
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View Left/Right"
 msgstr "వీక్షణం ఎడమ/కుడికు విభజించుము"
 
-#: ViewManager.cpp:162
+#: ViewManager.cpp:163
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View Top/Bottom"
 msgstr "వీక్షణం పైనకు/క్రిందకు విభజించుము"
 
-#: ViewManager.cpp:167
+#: ViewManager.cpp:168
 #, kde-format
 msgctxt "@action:inmenu Close Active View"
 msgid "Close Active"
 msgstr "క్రియాశీలమైంది మూయుము"
 
-#: ViewManager.cpp:178
+#: ViewManager.cpp:179
 #, kde-format
 msgctxt "@action:inmenu Close Other Views"
 msgid "Close Others"
 msgstr "ఇతరులను మూసివేయి"
 
-#: ViewManager.cpp:188
+#: ViewManager.cpp:189
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Expand View"
 msgstr "వీక్షణం విస్తరించుము"
 
-#: ViewManager.cpp:198
+#: ViewManager.cpp:199
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Shrink View"
 msgstr "వీక్షణం కుదించుము"
 
-#: ViewManager.cpp:213
+#: ViewManager.cpp:214
 #, fuzzy, kde-format
 #| msgid "Close Current Tab"
 msgctxt "@action:inmenu"
 msgid "D&etach Current Tab"
 msgstr "ప్రస్తుత టాబ్ మూసివేయి"
 
-#: ViewManager.cpp:236
+#: ViewManager.cpp:238
 #, fuzzy, kde-format
 #| msgid "Switch to Tab %1"
 msgctxt "@action Shortcut entry"
