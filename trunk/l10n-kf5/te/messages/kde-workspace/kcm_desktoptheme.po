@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_desktopthemedetails\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-31 04:05+0100\n"
+"POT-Creation-Date: 2019-01-15 03:16+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -30,10 +30,9 @@ msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 
 #: kcm.cpp:57
-#, fuzzy, kde-format
-#| msgid "Remove Desktop Theme"
-msgid "Configure Desktop Theme"
-msgstr "డెస్కుటాప్ థీమ్‌ను తీసివేయుము"
+#, kde-format
+msgid "Choose the Plasma theme"
+msgstr ""
 
 #: kcm.cpp:59
 #, kde-format
@@ -63,7 +62,7 @@ msgstr ""
 
 #: package/contents/ui/main.qml:30
 #, kde-format
-msgid "This module lets you configure the desktop theme."
+msgid "This module lets you choose the Plasma theme."
 msgstr ""
 
 #: package/contents/ui/main.qml:81
@@ -91,7 +90,7 @@ msgstr ""
 #: package/contents/ui/main.qml:139
 #, fuzzy, kde-format
 #| msgid "Get New Theme..."
-msgid "Get New Desktop Themes..."
+msgid "Get New Plasma Themes..."
 msgstr "కొత్త థీమ్‌ను పొందుము..."
 
 #: package/contents/ui/main.qml:151
@@ -104,6 +103,11 @@ msgstr "థీమ్ అంశము"
 #, kde-format
 msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Remove Desktop Theme"
+#~ msgid "Configure Desktop Theme"
+#~ msgstr "డెస్కుటాప్ థీమ్‌ను తీసివేయుము"
 
 #, fuzzy
 #~| msgid "Export Desktop Theme"
