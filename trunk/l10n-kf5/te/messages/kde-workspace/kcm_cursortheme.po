@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-31 04:05+0100\n"
+"POT-Creation-Date: 2019-01-16 03:31+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -32,14 +32,13 @@ msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 #: kcmcursortheme.cpp:73
 #, fuzzy, kde-format
 #| msgid "&Cursor Theme"
-msgid "Cursor Theme"
+msgid "Cursors"
 msgstr "(&C) కర్సర్ థీమ్"
 
 #: kcmcursortheme.cpp:74
-#, fuzzy, kde-format
-#| msgid "&Cursor Theme"
-msgid "Mouse Cursor Theme settings"
-msgstr "(&C) కర్సర్ థీమ్"
+#, kde-format
+msgid "Choose the mouse cursor theme"
+msgstr ""
 
 #: kcmcursortheme.cpp:74
 #, kde-format
@@ -140,7 +139,7 @@ msgstr "థీమ్‌ను తీసివేయి"
 
 #: package/contents/ui/main.qml:31
 #, kde-format
-msgid "This module lets you configure the mouse cursor theme used."
+msgid "This module lets you choose the mouse cursor theme."
 msgstr ""
 
 #: package/contents/ui/main.qml:96
@@ -188,6 +187,11 @@ msgctxt ""
 "'Available sizes: 24' or 'Available sizes: 24, 36, 48'"
 msgid "(Available sizes: %1)"
 msgstr ""
+
+#, fuzzy
+#~| msgid "&Cursor Theme"
+#~ msgid "Mouse Cursor Theme settings"
+#~ msgstr "(&C) కర్సర్ థీమ్"
 
 #~ msgid "Cursor Settings Changed"
 #~ msgstr "కర్సర్ అమర్పులు మార్చబడినవి"

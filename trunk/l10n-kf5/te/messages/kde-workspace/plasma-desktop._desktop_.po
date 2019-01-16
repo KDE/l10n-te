@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-15 02:22+0000\n"
+"POT-Creation-Date: 2019-01-16 02:37+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -567,29 +567,6 @@ msgstr "పైన కుడప్రక్కనగల సమాచార పె
 
 #: kcms/cursortheme/kcm_cursortheme.desktop:13
 #: kcms/cursortheme/package/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Cursor Files"
-msgctxt "Name"
-msgid "Cursor Theme"
-msgstr "ములుకు దస్త్రాలు"
-
-#: kcms/cursortheme/kcm_cursortheme.desktop:75
-#: kcms/cursortheme/package/metadata.desktop:63
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Cursor Files"
-msgctxt "Comment"
-msgid "Mouse Cursor Theme"
-msgstr "ములుకు దస్త్రాలు"
-
-#: kcms/cursortheme/kcm_cursortheme.desktop:122
-msgctxt "X-KDE-Keywords"
-msgid ""
-"Mouse,Cursor,Theme,Cursor Appearance,Cursor Color,Cursor Theme,Mouse Theme,"
-"Mouse Appearance,Mouse Skins,Pointer Colors,Pointer Appearance"
-msgstr ""
-
 #: kcms/cursortheme/xcursor/xcursor.knsrc:2
 #, fuzzy
 #| msgctxt "Name"
@@ -597,6 +574,22 @@ msgstr ""
 msgctxt "Name"
 msgid "Cursors"
 msgstr "ములుకు దస్త్రాలు"
+
+#: kcms/cursortheme/kcm_cursortheme.desktop:75
+#: kcms/cursortheme/package/metadata.desktop:63
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Customize individual desktop theme items"
+msgctxt "Comment"
+msgid "Choose the mouse cursor theme"
+msgstr "మలచుకొనిన స్వతంత్ర రంగస్థల థీమ్ అంశములు"
+
+#: kcms/cursortheme/kcm_cursortheme.desktop:122
+msgctxt "X-KDE-Keywords"
+msgid ""
+"Mouse,Cursor,Theme,Cursor Appearance,Cursor Color,Cursor Theme,Mouse Theme,"
+"Mouse Appearance,Mouse Skins,Pointer Colors,Pointer Appearance"
+msgstr ""
 
 #: kcms/dateandtime/clock.desktop:16
 msgctxt "Name"
@@ -664,8 +657,8 @@ msgctxt "Name"
 msgid "Plasma Theme"
 msgstr ""
 
-#: kcms/desktoptheme/kcm_desktoptheme.desktop:77
-#: kcms/desktoptheme/package/metadata.desktop:66
+#: kcms/desktoptheme/kcm_desktoptheme.desktop:14
+#: kcms/desktoptheme/package/metadata.desktop:3
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Customize individual desktop theme items"
@@ -673,7 +666,7 @@ msgctxt "Comment"
 msgid "Choose the Plasma theme"
 msgstr "మలచుకొనిన స్వతంత్ర రంగస్థల థీమ్ అంశములు"
 
-#: kcms/desktoptheme/kcm_desktoptheme.desktop:123
+#: kcms/desktoptheme/kcm_desktoptheme.desktop:15
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Desktop Sphere"
@@ -967,9 +960,12 @@ msgstr ""
 
 #: kcms/ksplash/kcm_splashscreen.desktop:60
 #: kcms/ksplash/package/metadata.desktop:47
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Customize individual desktop theme items"
 msgctxt "Comment"
-msgid "Splash Screen Theme"
-msgstr ""
+msgid "Choose the splash screen theme"
+msgstr "మలచుకొనిన స్వతంత్ర రంగస్థల థీమ్ అంశములు"
 
 #: kcms/ksplash/kcm_splashscreen.desktop:103
 msgctxt "X-KDE-Keywords"
@@ -1016,7 +1012,7 @@ msgctxt "Comment"
 msgid "Choose the Look and Feel theme"
 msgstr ""
 
-#: kcms/lookandfeel/kcm_lookandfeel.desktop:54
+#: kcms/lookandfeel/kcm_lookandfeel.desktop:60
 msgctxt "X-KDE-Keywords"
 msgid "theme, look, feel"
 msgstr ""
@@ -1696,6 +1692,20 @@ msgstr "నెట్వర్‍క్  సాధనం"
 
 #, fuzzy
 #~| msgctxt "Name"
+#~| msgid "Cursor Files"
+#~ msgctxt "Name"
+#~ msgid "Cursor Theme"
+#~ msgstr "ములుకు దస్త్రాలు"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Cursor Files"
+#~ msgctxt "Comment"
+#~ msgid "Mouse Cursor Theme"
+#~ msgstr "ములుకు దస్త్రాలు"
+
+#, fuzzy
+#~| msgctxt "Name"
 #~| msgid "Desktop Sphere"
 #~ msgctxt "Name"
 #~ msgid "Desktop Theme"
@@ -1877,13 +1887,6 @@ msgstr "నెట్వర్‍క్  సాధనం"
 #~ msgctxt "Comment"
 #~ msgid "Customize KDE Icons"
 #~ msgstr "KDE ప్రతిమలను ఇష్టానుసారంవుంచుము"
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Customize individual desktop theme items"
-#~ msgctxt "Comment"
-#~ msgid "Customize the mouse cursor appearance"
-#~ msgstr "మలచుకొనిన స్వతంత్ర రంగస్థల థీమ్ అంశములు"
 
 #, fuzzy
 #~| msgctxt "GenericName"
