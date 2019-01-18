@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-10 03:17+0100\n"
+"POT-Creation-Date: 2019-01-18 03:32+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -44,19 +44,19 @@ msgstr ""
 msgid "Open popup when new device is plugged in"
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:181
+#: package/contents/ui/DeviceItem.qml:190
 #, kde-format
 msgid ""
 "It is currently <b>not safe</b> to remove this device: applications may be "
 "accessing it. Click the eject button to safely remove this device."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:183
+#: package/contents/ui/DeviceItem.qml:192
 #, kde-format
 msgid "This device is currently accessible."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:188
+#: package/contents/ui/DeviceItem.qml:197
 #, kde-format
 msgid ""
 "It is currently <b>not safe</b> to remove this device: applications may be "
@@ -64,23 +64,23 @@ msgid ""
 "other volumes to safely remove this device."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:190
+#: package/contents/ui/DeviceItem.qml:199
 #, kde-format
 msgid "It is currently safe to remove this device."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:193
+#: package/contents/ui/DeviceItem.qml:202
 #, kde-format
 msgid "This device is not currently accessible."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:236
+#: package/contents/ui/DeviceItem.qml:245
 #, kde-format
 msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:262
+#: package/contents/ui/DeviceItem.qml:271
 #, kde-format
 msgid "1 action for this device"
 msgid_plural "%1 actions for this device"
@@ -90,7 +90,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: package/contents/ui/DeviceItem.qml:267
+#: package/contents/ui/DeviceItem.qml:276
 #, kde-format
 msgctxt ""
 "Accessing is a less technical word for Mounting; translation should be short "
@@ -98,7 +98,7 @@ msgctxt ""
 msgid "Accessing..."
 msgstr ""
 
-#: package/contents/ui/DeviceItem.qml:269
+#: package/contents/ui/DeviceItem.qml:278
 #, kde-format
 msgctxt ""
 "Removing is a less technical word for Unmounting; translation should be "
@@ -106,34 +106,44 @@ msgctxt ""
 msgid "Removing..."
 msgstr ""
 
-#: package/contents/ui/devicenotifier.qml:60
+#: package/contents/ui/devicenotifier.qml:62
 #: package/contents/ui/FullRepresentation.qml:44
 #, kde-format
 msgid "No Devices Available"
 msgstr ""
 
-#: package/contents/ui/devicenotifier.qml:60
+#: package/contents/ui/devicenotifier.qml:62
 #, kde-format
 msgid "Most Recent Device"
 msgstr ""
 
-#: package/contents/ui/devicenotifier.qml:216
+#: package/contents/ui/devicenotifier.qml:236
 #, kde-format
 msgctxt "Open auto mounter kcm"
 msgid "Configure Removable Devices"
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:189
+#: package/contents/ui/FullRepresentation.qml:121
+#, kde-format
+msgid "Click to safely remove all devices"
+msgstr ""
+
+#: package/contents/ui/FullRepresentation.qml:122
+#, kde-format
+msgid "Remove all"
+msgstr ""
+
+#: package/contents/ui/FullRepresentation.qml:199
 #, kde-format
 msgid "Click to access this device from other applications."
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:191
+#: package/contents/ui/FullRepresentation.qml:201
 #, kde-format
 msgid "Click to eject this disc."
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:193
+#: package/contents/ui/FullRepresentation.qml:203
 #, kde-format
 msgid "Click to safely remove this device."
 msgstr ""
