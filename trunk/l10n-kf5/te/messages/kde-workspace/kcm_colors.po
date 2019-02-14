@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-26 03:18+0100\n"
+"POT-Creation-Date: 2019-02-14 03:17+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -29,11 +29,10 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 
-#: colors.cpp:62
-#, fuzzy, kde-format
-#| msgid "Save the current color scheme"
-msgid "Choose the color scheme"
-msgstr "ప్రస్తుత రంగు స్కీమాను దాయుము"
+#: colors.cpp:62 editor/scmeditordialog.cpp:80
+#, kde-format
+msgid "Colors"
+msgstr "రంగులు"
 
 #: colors.cpp:64
 #, kde-format
@@ -206,11 +205,6 @@ msgstr "హోవర్ అలంకరణ"
 msgid "Options"
 msgstr "ఐచ్చికములు"
 
-#: editor/scmeditordialog.cpp:80
-#, kde-format
-msgid "Colors"
-msgstr "రంగులు"
-
 #: editor/scmeditordialog.cpp:81
 #, fuzzy, kde-format
 #| msgid "Disabled"
@@ -366,6 +360,11 @@ msgstr "రంగు స్కీమాను దాయుము"
 #, kde-format
 msgid "Color Scheme Files (*.colors)"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Save the current color scheme"
+#~ msgid "Choose the color scheme"
+#~ msgstr "ప్రస్తుత రంగు స్కీమాను దాయుము"
 
 #~ msgid "(c) 2007 Matthew Woehlke"
 #~ msgstr "(c) 2007 మాథ్యూ వోయెల్కె"
