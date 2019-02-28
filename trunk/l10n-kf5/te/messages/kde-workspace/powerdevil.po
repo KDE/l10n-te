@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-02-20 03:32+0100\n"
+"POT-Creation-Date: 2019-02-28 03:25+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -103,7 +103,8 @@ msgstr ""
 #: actions/bundled/handlebuttoneventsconfig.cpp:99
 #: actions/bundled/suspendsessionconfig.cpp:82
 #, kde-format
-msgid "Suspend"
+msgctxt "Suspend to RAM"
+msgid "Sleep"
 msgstr ""
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:102
@@ -113,9 +114,8 @@ msgid "Hibernate"
 msgstr ""
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:105
-#: actions/bundled/suspendsessionconfig.cpp:88
 #, kde-format
-msgid "Hybrid suspend"
+msgid "Hybrid sleep"
 msgstr ""
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:107
@@ -195,6 +195,11 @@ msgstr ""
 #: actions/bundled/runscriptconfig.cpp:96
 #, kde-format
 msgid "Run script"
+msgstr ""
+
+#: actions/bundled/suspendsessionconfig.cpp:88
+#, kde-format
+msgid "Hybrid suspend"
 msgstr ""
 
 #: actions/bundled/wirelesspowersavingconfig.cpp:75
