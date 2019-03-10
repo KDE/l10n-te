@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-03-05 02:56+0100\n"
+"POT-Creation-Date: 2019-03-10 02:57+0100\n"
 "PO-Revision-Date: 2007-03-09 14:17+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -103,43 +103,43 @@ msgstr ""
 msgid "&Color Theme"
 msgstr ""
 
-#: kateconfigdialog.cpp:56
+#: kateconfigdialog.cpp:58
 #, kde-format
 msgid "Configure"
 msgstr ""
 
-#: kateconfigdialog.cpp:65
+#: kateconfigdialog.cpp:67
 #, kde-format
 msgid "Application"
 msgstr ""
 
-#: kateconfigdialog.cpp:67
+#: kateconfigdialog.cpp:69
 #, fuzzy, kde-format
 #| msgid "Application Not Found!"
 msgid "Application Options"
 msgstr "అప్లికేషన్ దొరకలేదు!"
 
-#: kateconfigdialog.cpp:74
+#: kateconfigdialog.cpp:76
 #, kde-format
 msgid "General"
 msgstr ""
 
-#: kateconfigdialog.cpp:75
+#: kateconfigdialog.cpp:77
 #, kde-format
 msgid "General Options"
 msgstr ""
 
-#: kateconfigdialog.cpp:83
+#: kateconfigdialog.cpp:85
 #, kde-format
 msgid "&Behavior"
 msgstr ""
 
-#: kateconfigdialog.cpp:89
+#: kateconfigdialog.cpp:91
 #, kde-format
 msgid "Wa&rn about files modified by foreign processes"
 msgstr ""
 
-#: kateconfigdialog.cpp:92
+#: kateconfigdialog.cpp:94
 #, kde-format
 msgid ""
 "If enabled, when Kate receives focus you will be asked what to do with files "
@@ -148,29 +148,29 @@ msgid ""
 "that file is tried to be saved."
 msgstr ""
 
-#: kateconfigdialog.cpp:102
+#: kateconfigdialog.cpp:104
 #, kde-format
 msgid "Close Kate entirely when the last file is closed"
 msgstr ""
 
-#: kateconfigdialog.cpp:105
+#: kateconfigdialog.cpp:107
 #, kde-format
 msgid ""
 "If enabled, Kate will shutdown when the last file being edited is closed, "
 "otherwise a blank page will open so that you can start a new file."
 msgstr ""
 
-#: kateconfigdialog.cpp:113
+#: kateconfigdialog.cpp:115
 #, kde-format
 msgid "Meta-Information"
 msgstr "మెటా-సమాచరం"
 
-#: kateconfigdialog.cpp:119
+#: kateconfigdialog.cpp:121
 #, kde-format
 msgid "Keep &meta-information past sessions"
 msgstr ""
 
-#: kateconfigdialog.cpp:122
+#: kateconfigdialog.cpp:124
 #, kde-format
 msgid ""
 "Check this if you want document configuration like for example bookmarks to "
@@ -178,18 +178,18 @@ msgid ""
 "document has not changed when reopened."
 msgstr ""
 
-#: kateconfigdialog.cpp:134
+#: kateconfigdialog.cpp:136
 #, kde-format
 msgid "&Delete unused meta-information after:"
 msgstr ""
 
-#: kateconfigdialog.cpp:138
+#: kateconfigdialog.cpp:140
 #, kde-format
 msgctxt "The special case of 'Delete unused meta-information after'"
 msgid "(never)"
 msgstr ""
 
-#: kateconfigdialog.cpp:139
+#: kateconfigdialog.cpp:141
 #, fuzzy, kde-format
 #| msgid " day(s)"
 msgctxt "The suffix of 'Delete unused meta-information after'"
@@ -201,32 +201,54 @@ msgstr[2] "రోఙు(లు)"
 msgstr[3] "రోఙు(లు)"
 msgstr[4] "రోఙు(లు)"
 
+#: kateconfigdialog.cpp:152 katemainwindow.cpp:254
+#, fuzzy, kde-format
+#| msgid "New Session"
+msgid "&Quick Open"
+msgstr "కొత్త సెషన్"
+
 #: kateconfigdialog.cpp:154
+#, kde-format
+msgid "&Match Mode:"
+msgstr ""
+
+#: kateconfigdialog.cpp:159 katemwmodonhddialog.cpp:93
+#, kde-format
+msgid "Filename"
+msgstr "దస్త్రం పేరు"
+
+#: kateconfigdialog.cpp:160
+#, fuzzy, kde-format
+#| msgid "Filename"
+msgid "Filepath"
+msgstr "దస్త్రం పేరు"
+
+#: kateconfigdialog.cpp:171
 #, kde-format
 msgid "Sessions"
 msgstr "సెషన్లు"
 
-#: kateconfigdialog.cpp:155
+#: kateconfigdialog.cpp:172
 #, kde-format
 msgid "Session Management"
 msgstr ""
 
-#: kateconfigdialog.cpp:191
+#: kateconfigdialog.cpp:208
 #, kde-format
 msgid "Plugins"
 msgstr "ప్లగిన్లు"
 
-#: kateconfigdialog.cpp:192
+#: kateconfigdialog.cpp:209
 #, kde-format
 msgid "Plugin Manager"
 msgstr ""
 
-#: kateconfigdialog.cpp:204
+#: kateconfigdialog.cpp:221
 #, kde-format
 msgid "Editor Component"
 msgstr ""
 
-#: kateconfigdialog.cpp:206
+#: kateconfigdialog.cpp:223
 #, kde-format
 msgid "Editor Component Options"
 msgstr ""
@@ -279,12 +301,12 @@ msgstr ""
 msgid "Save As"
 msgstr "(&A) ఇలా దాచు..."
 
-#: katedocmanager.cpp:366 katemainwindow.cpp:528
+#: katedocmanager.cpp:366 katemainwindow.cpp:529
 #, kde-format
 msgid "New file opened while trying to close Kate, closing aborted."
 msgstr ""
 
-#: katedocmanager.cpp:367 katemainwindow.cpp:529
+#: katedocmanager.cpp:367 katemainwindow.cpp:530
 #, kde-format
 msgid "Closing Aborted"
 msgstr ""
@@ -331,357 +353,351 @@ msgstr "తీసివేసిన"
 msgid "File \"%1\" could not be deleted."
 msgstr ""
 
-#: katemainwindow.cpp:222
+#: katemainwindow.cpp:223
 #, kde-format
 msgid "Use this command to show or hide the view's statusbar"
 msgstr ""
 
-#: katemainwindow.cpp:225
+#: katemainwindow.cpp:226
 #, kde-format
 msgid "Show &Tabs"
 msgstr ""
 
-#: katemainwindow.cpp:228
+#: katemainwindow.cpp:229
 #, kde-format
 msgid "Use this command to show or hide the tabs for the views"
 msgstr ""
 
-#: katemainwindow.cpp:230
+#: katemainwindow.cpp:231
 #, kde-format
 msgid "Sho&w Path in Titlebar"
 msgstr ""
 
-#: katemainwindow.cpp:233
+#: katemainwindow.cpp:234
 #, kde-format
 msgid "Show the complete document path in the window caption"
 msgstr ""
 
-#: katemainwindow.cpp:239
+#: katemainwindow.cpp:240
 #, fuzzy, kde-format
 #| msgid "&Document"
 msgid "&Previous Tab"
 msgstr "(&D) పత్రం"
 
-#: katemainwindow.cpp:240
+#: katemainwindow.cpp:241
 #, kde-format
 msgid "Focus the previous tab."
 msgstr ""
 
-#: katemainwindow.cpp:245
+#: katemainwindow.cpp:246
 #, kde-format
 msgid "&Next Tab"
 msgstr ""
 
-#: katemainwindow.cpp:246
+#: katemainwindow.cpp:247
 #, kde-format
 msgid "Focus the next tab."
 msgstr ""
 
-#: katemainwindow.cpp:253
-#, fuzzy, kde-format
-#| msgid "New Session"
-msgid "&Quick Open"
-msgstr "కొత్త సెషన్"
-
-#: katemainwindow.cpp:256
+#: katemainwindow.cpp:257
 #, fuzzy, kde-format
 #| msgid "Close all open documents."
 msgid "Open a form to quick open documents."
 msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
-#: katemainwindow.cpp:289
+#: katemainwindow.cpp:290
 #, kde-format
 msgid "Create a new document"
 msgstr ""
 
-#: katemainwindow.cpp:291
+#: katemainwindow.cpp:292
 #, kde-format
 msgid "Open an existing document for editing"
 msgstr "ఉన్న పత్రాన్ని మార్చటానికి తెరవండి"
 
-#: katemainwindow.cpp:296
+#: katemainwindow.cpp:297
 #, kde-format
 msgid ""
 "This lists files which you have opened recently, and allows you to easily "
 "open them again."
 msgstr ""
 
-#: katemainwindow.cpp:300
+#: katemainwindow.cpp:301
 #, kde-format
 msgid "Save A&ll"
 msgstr "(&l) అన్ని దాచండి"
 
-#: katemainwindow.cpp:303
+#: katemainwindow.cpp:304
 #, kde-format
 msgid "Save all open, modified documents to disk."
 msgstr ""
 
-#: katemainwindow.cpp:306
+#: katemainwindow.cpp:307
 #, kde-format
 msgid "&Reload All"
 msgstr ""
 
-#: katemainwindow.cpp:308
+#: katemainwindow.cpp:309
 #, fuzzy, kde-format
 #| msgid "Close all open documents."
 msgid "Reload all open documents."
 msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
-#: katemainwindow.cpp:312
+#: katemainwindow.cpp:313
 #, fuzzy, kde-format
 #| msgid "Filename"
 msgid "Copy File &Path"
 msgstr "దస్త్రం పేరు"
 
-#: katemainwindow.cpp:318 katemainwindow.cpp:328
+#: katemainwindow.cpp:319 katemainwindow.cpp:329
 #, fuzzy, kde-format
 #| msgid "Close the current document."
 msgid "Copies the file path of the current file to clipboard."
 msgstr "ఉన్న పత్రాన్ని ని మూయండి"
 
-#: katemainwindow.cpp:322
+#: katemainwindow.cpp:323
 #, kde-format
 msgid "&Open Containing Folder"
 msgstr ""
 
-#: katemainwindow.cpp:332
+#: katemainwindow.cpp:333
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Rename..."
 msgstr ""
 
-#: katemainwindow.cpp:338
+#: katemainwindow.cpp:339
 #, fuzzy, kde-format
 #| msgid "Close the current document."
 msgid "Renames the file belonging to the current document."
 msgstr "ఉన్న పత్రాన్ని ని మూయండి"
 
-#: katemainwindow.cpp:342
+#: katemainwindow.cpp:343
 #, fuzzy, kde-format
 #| msgid "Deleted"
 msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr "తీసివేసిన"
 
-#: katemainwindow.cpp:348 katemainwindow.cpp:358
+#: katemainwindow.cpp:349 katemainwindow.cpp:359
 #, fuzzy, kde-format
 #| msgid "Close the current document."
 msgid "Deletes the file belonging to the current document."
 msgstr "ఉన్న పత్రాన్ని ని మూయండి"
 
-#: katemainwindow.cpp:352
+#: katemainwindow.cpp:353
 #, kde-format
 msgid "Properties"
 msgstr ""
 
-#: katemainwindow.cpp:361 katemainwindow.cpp:364
+#: katemainwindow.cpp:362 katemainwindow.cpp:365
 #, kde-format
 msgid "Compare"
 msgstr ""
 
-#: katemainwindow.cpp:364
+#: katemainwindow.cpp:365
 #, kde-format
 msgid "Use the Tabbar context menu to compare two documents"
 msgstr ""
 
-#: katemainwindow.cpp:366
+#: katemainwindow.cpp:367
 #, fuzzy, kde-format
 #| msgid "Close all open documents."
 msgid "Shows a hint how to compare documents."
 msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
-#: katemainwindow.cpp:369
+#: katemainwindow.cpp:370
 #, kde-format
 msgid "Close Orphaned"
 msgstr ""
 
-#: katemainwindow.cpp:371
+#: katemainwindow.cpp:372
 #, kde-format
 msgid ""
 "Close all documents in the file list that could not be reopened, because "
 "they are not accessible anymore."
 msgstr ""
 
-#: katemainwindow.cpp:375
+#: katemainwindow.cpp:376
 #, kde-format
 msgid "Close the current document."
 msgstr "ఉన్న పత్రాన్ని ని మూయండి"
 
-#: katemainwindow.cpp:378
+#: katemainwindow.cpp:379
 #, kde-format
 msgid "Close Other"
 msgstr ""
 
-#: katemainwindow.cpp:380
+#: katemainwindow.cpp:381
 #, fuzzy, kde-format
 #| msgid "Close all open documents."
 msgid "Close other open documents."
 msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
-#: katemainwindow.cpp:383
+#: katemainwindow.cpp:384
 #, kde-format
 msgid "Clos&e All"
 msgstr "(&l) అన్ని మూయండి"
 
-#: katemainwindow.cpp:385
+#: katemainwindow.cpp:386
 #, kde-format
 msgid "Close all open documents."
 msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
-#: katemainwindow.cpp:390
+#: katemainwindow.cpp:391
 #, kde-format
 msgid "Close this window"
 msgstr "ఈ విండో ని మూయండి"
 
-#: katemainwindow.cpp:394
+#: katemainwindow.cpp:395
 #, fuzzy, kde-format
 #| msgid "&Window"
 msgid "&New Window"
 msgstr "(&W) విండొ"
 
-#: katemainwindow.cpp:396
+#: katemainwindow.cpp:397
 #, kde-format
 msgid "Create a new Kate view (a new window with the same document list)."
 msgstr ""
 
-#: katemainwindow.cpp:402
+#: katemainwindow.cpp:403
 #, kde-format
 msgid "Open W&ith"
 msgstr "(&i) దీనితో తెరువు"
 
-#: katemainwindow.cpp:404
+#: katemainwindow.cpp:405
 #, kde-format
 msgid ""
 "Open the current document using another application registered for its file "
 "type, or an application of your choice."
 msgstr ""
 
-#: katemainwindow.cpp:409
+#: katemainwindow.cpp:410
 #, kde-format
 msgid "Configure the application's keyboard shortcut assignments."
 msgstr ""
 
-#: katemainwindow.cpp:412
+#: katemainwindow.cpp:413
 #, kde-format
 msgid "Configure which items should appear in the toolbar(s)."
 msgstr ""
 
-#: katemainwindow.cpp:415
+#: katemainwindow.cpp:416
 #, kde-format
 msgid ""
 "Configure various aspects of this application and the editing component."
 msgstr ""
 
-#: katemainwindow.cpp:419
+#: katemainwindow.cpp:420
 #, kde-format
 msgid "&Plugins Handbook"
 msgstr ""
 
-#: katemainwindow.cpp:421
+#: katemainwindow.cpp:422
 #, kde-format
 msgid "This shows help files for various available plugins."
 msgstr ""
 
-#: katemainwindow.cpp:425
+#: katemainwindow.cpp:426
 #, kde-format
 msgid "&About Editor Component"
 msgstr ""
 
-#: katemainwindow.cpp:443
+#: katemainwindow.cpp:444
 #, kde-format
 msgctxt "Menu entry Session->New"
 msgid "&New"
 msgstr ""
 
-#: katemainwindow.cpp:448
+#: katemainwindow.cpp:449
 #, fuzzy, kde-format
 #| msgid "&Save session"
 msgid "&Save Session"
 msgstr "(&S) సెషన్ను దాచు"
 
-#: katemainwindow.cpp:452
+#: katemainwindow.cpp:453
 #, fuzzy, kde-format
 #| msgid "Save Session?"
 msgid "Save Session &As..."
 msgstr "సెషన్ను దాచు?"
 
-#: katemainwindow.cpp:456
+#: katemainwindow.cpp:457
 #, fuzzy, kde-format
 #| msgid "&Save session"
 msgid "&Manage Sessions..."
 msgstr "(&S) సెషన్ను దాచు"
 
-#: katemainwindow.cpp:461
+#: katemainwindow.cpp:462
 #, fuzzy, kde-format
 #| msgid "New Session"
 msgid "&Quick Open Session"
 msgstr "కొత్త సెషన్"
 
-#: katemainwindow.cpp:468
+#: katemainwindow.cpp:469
 #, kde-format
 msgid "This will close all open documents. Are you sure you want to continue?"
 msgstr ""
 
-#: katemainwindow.cpp:469
+#: katemainwindow.cpp:470
 #, fuzzy, kde-format
 #| msgid "Close all open documents."
 msgid "Close all documents"
 msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
-#: katemainwindow.cpp:482
+#: katemainwindow.cpp:483
 #, kde-format
 msgid ""
 "This will close all open documents beside the current one. Are you sure you "
 "want to continue?"
 msgstr ""
 
-#: katemainwindow.cpp:483
+#: katemainwindow.cpp:484
 #, fuzzy, kde-format
 #| msgid "Close all open documents."
 msgid "Close all documents beside current one"
 msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
-#: katemainwindow.cpp:660
+#: katemainwindow.cpp:663
 #, kde-format
 msgid ""
 "This will hide the menu bar completely. You can show it again by typing %1."
 msgstr ""
 
-#: katemainwindow.cpp:662
+#: katemainwindow.cpp:665
 #, kde-format
 msgid "Hide menu bar"
 msgstr ""
 
-#: katemainwindow.cpp:786
+#: katemainwindow.cpp:789
 #, kde-format
 msgid ""
 "You dropped the directory %1 into Kate. Do you want to load all files "
 "contained in it ?"
 msgstr ""
 
-#: katemainwindow.cpp:788
+#: katemainwindow.cpp:791
 #, kde-format
 msgid "Load files recursively?"
 msgstr ""
 
-#: katemainwindow.cpp:916
+#: katemainwindow.cpp:919
 #, kde-format
 msgid "&Other..."
 msgstr ""
 
-#: katemainwindow.cpp:939
+#: katemainwindow.cpp:942
 #, fuzzy, kde-format
 #| msgid "Application '%1' not found!"
 msgid "Application '%1' not found."
 msgstr "'%1' అప్లికేషన్ దొరకలేదు"
 
-#: katemainwindow.cpp:939
+#: katemainwindow.cpp:942
 #, fuzzy, kde-format
 #| msgid "Application Not Found!"
 msgid "Application not found"
 msgstr "అప్లికేషన్ దొరకలేదు!"
 
-#: katemainwindow.cpp:1047
+#: katemainwindow.cpp:1050
 #, kde-format
 msgid " [read only]"
 msgstr ""
@@ -767,11 +783,6 @@ msgid ""
 "<qt>The documents listed below have changed on disk.<p>Select one or more at "
 "once, and press an action button until the list is empty.</p></qt>"
 msgstr ""
-
-#: katemwmodonhddialog.cpp:93
-#, kde-format
-msgid "Filename"
-msgstr "దస్త్రం పేరు"
 
 #: katemwmodonhddialog.cpp:93
 #, kde-format
@@ -863,7 +874,7 @@ msgstr ""
 msgid "Diff Output"
 msgstr ""
 
-#: katequickopen.cpp:64
+#: katequickopen.cpp:65
 #, fuzzy, kde-format
 #| msgid "New Session"
 msgid "Quick Open Search"
