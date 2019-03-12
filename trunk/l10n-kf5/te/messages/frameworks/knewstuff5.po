@@ -22,8 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.5\n"
-"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
-"4;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: attica/atticaprovider.cpp:166
 #, fuzzy, kde-format
@@ -137,7 +136,7 @@ msgid "Re: %1"
 msgstr "పునరాచరణ: %1"
 
 #: core/engine.cpp:644
-#, kde-format
+#, fuzzy, kde-format
 msgid "Loading one preview"
 msgid_plural "Loading %1 previews"
 msgstr[0] "%1 వీక్షణం  లోడుచేస్తోంది"
@@ -598,7 +597,7 @@ msgid "Make a donation"
 msgstr "విరాళం ఇవ్వు"
 
 #: ui/entrydetailsdialog.cpp:118
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "A link to the knowledgebase (like a forum) (opens a web browser)"
 msgid "Knowledgebase (no entries)"
 msgid_plural "Knowledgebase (%1 entries)"
@@ -635,7 +634,7 @@ msgid "By <i>%1</i>"
 msgstr "<i>%1</i>"
 
 #: ui/itemsgridviewdelegate.cpp:187 ui/itemsviewdelegate.cpp:260
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "fan as in supporter"
 msgid "1 fan"
 msgid_plural "%1 fans"
@@ -646,7 +645,7 @@ msgstr[3] "%1 ఫ్యాస్న్ "
 msgstr[4] "%1 ఫ్యాస్న్ "
 
 #: ui/itemsgridviewdelegate.cpp:190 ui/itemsviewdelegate.cpp:263
-#, kde-format
+#, fuzzy, kde-format
 msgid "1 download"
 msgid_plural "%1 downloads"
 msgstr[0] "1 దిగుమతి"
@@ -779,7 +778,7 @@ msgid "Upload Failed"
 msgstr "ఎక్కించుట విఫలం అయిం"
 
 #: uploaddialog.cpp:574
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "The server does not recognize the category %2 to which you are trying to "
 "upload."

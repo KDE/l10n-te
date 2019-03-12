@@ -22,8 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.5\n"
-"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
-"4;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -442,7 +441,7 @@ msgid "Dependency Check"
 msgstr "తనిఖీ ఆధారపడి"
 
 #: kpluginselector.cpp:233
-#, kde-format
+#, fuzzy, kde-format
 msgid "%1 plugin automatically added due to plugin dependencies"
 msgid_plural "%1 plugins automatically added due to plugin dependencies"
 msgstr[0] "స్వయంచాలన కారణంగా ప్లగి ఇన్ సమన్వయాలు జోడించిన %1 ప్లగ్  ఇన్"
@@ -457,7 +456,7 @@ msgid ", "
 msgstr ", "
 
 #: kpluginselector.cpp:241
-#, kde-format
+#, fuzzy, kde-format
 msgid "%1 plugin automatically removed due to plugin dependencies"
 msgid_plural "%1 plugins automatically removed due to plugin dependencies"
 msgstr[0] "స్వయంచాలన కారణంగా ప్లగి ఇన్ సమన్వయాలు  తొలగించబడింది %1 ప్లగ్ ఇన్"

@@ -22,8 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.5\n"
-"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
-"4;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: kjsembed/builtins.cpp:83 kjsembed/builtins.cpp:117
 #, kde-format
@@ -141,7 +140,7 @@ msgid "Incorrect number of arguments."
 msgstr "సరికాని అర్గుమెంట్ల సంఖ్య."
 
 #: kjsembed/qobject_binding.cpp:410
-#, kde-format
+#, fuzzy, kde-format
 msgid "The slot asked for %1 argument"
 msgid_plural "The slot asked for %1 arguments"
 msgstr[0] "%1 క్రమానుగత సంకేతం నుండి స్లాట్ అగాండి"
@@ -151,7 +150,7 @@ msgstr[3] "%1 క్రమానుగత సంకేతలు నుండి 
 msgstr[4] "%1 క్రమానుగత సంకేతలు నుండి స్లాట్ అగాండి"
 
 #: kjsembed/qobject_binding.cpp:411
-#, kde-format
+#, fuzzy, kde-format
 msgid "but there is only %1 available"
 msgid_plural "but there are only %1 available"
 msgstr[0] "కాని %1 మాత్రమే అంధుబాటులో ఉంది"

@@ -22,8 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.5\n"
-"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
-"4;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: dialogs/klinkdialog.cpp:52
 #, kde-format
@@ -51,7 +50,7 @@ msgid "<qt>Find next occurrence of '<b>%1</b>'?</qt>"
 msgstr "<qt>'<b>%1</b>' కొరకు తరువాతి సంభవాన్ని కనుగొనవలెనా?</qt>"
 
 #: findreplace/kfind.cpp:622 findreplace/kfind.cpp:641
-#, kde-format
+#, fuzzy, kde-format
 msgid "1 match found."
 msgid_plural "%1 matches found."
 msgstr[0] "1 జత కనపడింది."
@@ -391,7 +390,7 @@ msgid "No text was replaced."
 msgstr "వచనం ప్రతిస్థాపించబడలేదు."
 
 #: findreplace/kreplace.cpp:179 findreplace/kreplace.cpp:383
-#, kde-format
+#, fuzzy, kde-format
 msgid "1 replacement done."
 msgid_plural "%1 replacements done."
 msgstr[0] "1 ప్రతిస్థాపణ జరిగినది."
@@ -428,7 +427,7 @@ msgid "Your replacement string is referencing a capture greater than '\\%1', "
 msgstr "మీరు ప్రతిస్థాపించిన స్ట్రింగు '\\%1'కన్నా పెద్దదైన కాప్చరును విచారిస్తోంది , "
 
 #: findreplace/kreplacedialog.cpp:151
-#, kde-format
+#, fuzzy, kde-format
 msgid "but your pattern only defines 1 capture."
 msgid_plural "but your pattern only defines %1 captures."
 msgstr[0] "అయితే మీ మాదిరి 1 కాప్చరును మాత్రమే నిర్వచిస్తోంది"

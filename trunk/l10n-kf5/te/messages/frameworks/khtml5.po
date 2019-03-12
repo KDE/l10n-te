@@ -22,8 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.5\n"
-"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
-"4;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -342,7 +341,7 @@ msgid "Send Confirmation"
 msgstr "అనుమతి పంపించు"
 
 #: html/html_formimpl.cpp:438
-#, kde-format
+#, fuzzy, kde-format
 msgid "&Send File"
 msgid_plural "&Send Files"
 msgstr[0] "(&S)దస్త్రం పంపు"
@@ -1105,7 +1104,7 @@ msgid "Page loaded."
 msgstr "పుట ఎక్కించబడినది."
 
 #: khtml_part.cpp:2405
-#, kde-format
+#, fuzzy, kde-format
 msgid "%1 Image of %2 loaded."
 msgid_plural "%1 Images of %2 loaded."
 msgstr[0] "%1 చిత్రంలో %2 ఎక్కించబడింది."
@@ -1135,7 +1134,7 @@ msgid "%1 (Link)"
 msgstr "%1 (లింకు)"
 
 #: khtml_part.cpp:3759
-#, kde-format
+#, fuzzy, kde-format
 msgid "%2 (%1 byte)"
 msgid_plural "%2 (%1 bytes)"
 msgstr[0] "%2 (%1 బైట్) "
@@ -1371,7 +1370,7 @@ msgid ""
 msgstr ""
 
 #: khtml_part.cpp:7653
-#, kde-format
+#, fuzzy, kde-format
 msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
 msgstr[0] "(&S) ఆపివేయబడిన పాప్ అప్ విండొను చూపు"
