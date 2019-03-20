@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwincompositing\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-09 03:28+0100\n"
+"POT-Creation-Date: 2019-03-20 03:42+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -226,73 +226,51 @@ msgstr ""
 msgid "Allow applications to block compositing"
 msgstr ""
 
-#: main.cpp:83
+#: main.cpp:55
 #, kde-format
 msgid "Re-enable OpenGL detection"
 msgstr ""
 
-#: main.cpp:148
+#: main.cpp:120
 #, kde-format
 msgid ""
 "\"Only when cheap\" only prevents tearing for full screen changes like a "
 "video."
 msgstr ""
 
-#: main.cpp:152
+#: main.cpp:124
 #, kde-format
 msgid "\"Full screen repaints\" can cause performance problems."
 msgstr ""
 
-#: main.cpp:156
+#: main.cpp:128
 #, kde-format
 msgid ""
 "\"Re-use screen content\" causes severe performance problems on MESA drivers."
 msgstr ""
 
-#: qml/Effect.qml:112
-#, kde-format
-msgid ""
-"Author: %1\n"
-"License: %2"
-msgstr ""
+#~ msgid ""
+#~ "Hint: To find out or configure how to activate an effect, look at the "
+#~ "effect's settings."
+#~ msgstr ""
+#~ "మెళకువ: ప్రభావాన్ని యెలా క్రియాశీలపరచాలి అనేది కనుగొనుటకు లేదా ఆకృతీకరించుటకు, ప్రభావాల "
+#~ "అమర్పులనందు చూడుము."
 
-#: qml/EffectView.qml:47
-#, kde-format
-msgid ""
-"Hint: To find out or configure how to activate an effect, look at the "
-"effect's settings."
-msgstr ""
-"మెళకువ: ప్రభావాన్ని యెలా క్రియాశీలపరచాలి అనేది కనుగొనుటకు లేదా ఆకృతీకరించుటకు, ప్రభావాల అమర్పులనందు "
-"చూడుము."
+#, fuzzy
+#~| msgid "Texture filter:"
+#~ msgid "Configure filter"
+#~ msgstr "టెక్స్‌చెర్ ఫిల్టర్:"
 
-#: qml/EffectView.qml:55
-#, kde-format
-msgid "Search..."
-msgstr ""
+#, fuzzy
+#~| msgctxt "@option:check"
+#~| msgid "Enable desktop effects"
+#~ msgid "Exclude internal Desktop Effects"
+#~ msgstr "రంగస్థల ప్రభావాలను చేతనముచేయుము"
 
-#: qml/EffectView.qml:64
-#, fuzzy, kde-format
-#| msgid "Texture filter:"
-msgid "Configure filter"
-msgstr "టెక్స్‌చెర్ ఫిల్టర్:"
-
-#: qml/EffectView.qml:72
-#, kde-format
-msgid "Exclude Desktop Effects not supported by the Compositor"
-msgstr ""
-
-#: qml/EffectView.qml:80
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Enable desktop effects"
-msgid "Exclude internal Desktop Effects"
-msgstr "రంగస్థల ప్రభావాలను చేతనముచేయుము"
-
-#: qml/EffectView.qml:169
-#, fuzzy, kde-format
-#| msgid "No Effect"
-msgid "Get New Desktop Effects..."
-msgstr "ప్రభావము లేదు"
+#, fuzzy
+#~| msgid "No Effect"
+#~ msgid "Get New Desktop Effects..."
+#~ msgstr "ప్రభావము లేదు"
 
 #~ msgctxt "NAME OF TRANSLATORS"
 #~ msgid "Your names"
