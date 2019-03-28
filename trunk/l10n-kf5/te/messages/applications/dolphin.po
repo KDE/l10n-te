@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-03-27 03:00+0100\n"
+"POT-Creation-Date: 2019-03-28 02:56+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1231,6 +1231,24 @@ msgid "Release Year"
 msgstr "తిరిగిలోడ్‌చేయి"
 
 #: kitemviews/kfileitemmodel.cpp:2325
+#, kde-format
+msgctxt "@label"
+msgid "Aspect Ratio"
+msgstr ""
+
+#: kitemviews/kfileitemmodel.cpp:2325 kitemviews/kfileitemmodel.cpp:2326
+#, kde-format
+msgctxt "@label"
+msgid "Video"
+msgstr ""
+
+#: kitemviews/kfileitemmodel.cpp:2326
+#, kde-format
+msgctxt "@label"
+msgid "Frame Rate"
+msgstr ""
+
+#: kitemviews/kfileitemmodel.cpp:2327
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
@@ -1238,10 +1256,10 @@ msgctxt "@label"
 msgid "Path"
 msgstr "అతికించుము"
 
-#: kitemviews/kfileitemmodel.cpp:2325 kitemviews/kfileitemmodel.cpp:2326
 #: kitemviews/kfileitemmodel.cpp:2327 kitemviews/kfileitemmodel.cpp:2328
 #: kitemviews/kfileitemmodel.cpp:2329 kitemviews/kfileitemmodel.cpp:2330
-#: kitemviews/kfileitemmodel.cpp:2331
+#: kitemviews/kfileitemmodel.cpp:2331 kitemviews/kfileitemmodel.cpp:2332
+#: kitemviews/kfileitemmodel.cpp:2333
 #, fuzzy, kde-format
 #| msgctxt "@title:group Name"
 #| msgid "Others"
@@ -1249,7 +1267,7 @@ msgctxt "@label"
 msgid "Other"
 msgstr "ఇతరములు"
 
-#: kitemviews/kfileitemmodel.cpp:2326
+#: kitemviews/kfileitemmodel.cpp:2328
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Edit"
 #| msgid "Invert Selection"
@@ -1257,7 +1275,7 @@ msgctxt "@label"
 msgid "Deletion Time"
 msgstr "విలోమ యెంపిక"
 
-#: kitemviews/kfileitemmodel.cpp:2327
+#: kitemviews/kfileitemmodel.cpp:2329
 #, fuzzy, kde-format
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -1265,13 +1283,13 @@ msgctxt "@label"
 msgid "Link Destination"
 msgstr "పత్రికీకరణ"
 
-#: kitemviews/kfileitemmodel.cpp:2328
+#: kitemviews/kfileitemmodel.cpp:2330
 #, kde-format
 msgctxt "@label"
 msgid "Downloaded From"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:2329
+#: kitemviews/kfileitemmodel.cpp:2331
 #, fuzzy, kde-format
 #| msgctxt "@option:check Additional Information"
 #| msgid "Permissions"
@@ -1279,7 +1297,7 @@ msgctxt "@label"
 msgid "Permissions"
 msgstr "అనుమతులు"
 
-#: kitemviews/kfileitemmodel.cpp:2330
+#: kitemviews/kfileitemmodel.cpp:2332
 #, fuzzy, kde-format
 #| msgctxt "@option:check Additional Information"
 #| msgid "Owner"
@@ -1287,7 +1305,7 @@ msgctxt "@label"
 msgid "Owner"
 msgstr "యజమాని"
 
-#: kitemviews/kfileitemmodel.cpp:2331
+#: kitemviews/kfileitemmodel.cpp:2333
 #, fuzzy, kde-format
 #| msgctxt "@option:check Additional Information"
 #| msgid "Group"
@@ -2550,8 +2568,7 @@ msgstr "ట్రాష్"
 #: settings/dolphinsettingsdialog.cpp:163
 #, kde-format
 msgid ""
-"You have have unsaved changes. Do you want to apply the changes or discard "
-"them?"
+"You have unsaved changes. Do you want to apply the changes or discard them?"
 msgstr ""
 
 #: settings/dolphinsettingsdialog.cpp:164
