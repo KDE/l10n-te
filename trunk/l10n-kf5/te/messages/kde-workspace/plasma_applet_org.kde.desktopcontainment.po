@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-04-03 03:46+0200\n"
+"POT-Creation-Date: 2019-04-09 03:48+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -28,7 +28,7 @@ msgid "Location"
 msgstr "స్థానం"
 
 #: package/contents/config/config.qml:36
-#: package/contents/ui/ConfigIcons.qml:222
+#: package/contents/ui/ConfigIcons.qml:223
 #: package/contents/ui/FolderViewLayer.qml:422
 msgid "Icons"
 msgstr "ప్రతిమలు"
@@ -97,15 +97,15 @@ msgstr "అన్నిటిని ఎంపికచేయుము"
 msgid "Deselect All"
 msgstr "అన్నిటి యెంపిక తీసివేయుము"
 
-#: package/contents/ui/ConfigIcons.qml:77
+#: package/contents/ui/ConfigIcons.qml:78
 msgid "Panel button:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:83
+#: package/contents/ui/ConfigIcons.qml:84
 msgid "Use a custom icon"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:117
+#: package/contents/ui/ConfigIcons.qml:118
 #, fuzzy
 #| msgctxt "@title:menu in Copy To or Move To submenu"
 #| msgid "Browse..."
@@ -113,48 +113,48 @@ msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose..."
 msgstr "బ్రౌజ్‌చేయి..."
 
-#: package/contents/ui/ConfigIcons.qml:123
+#: package/contents/ui/ConfigIcons.qml:124
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:142
+#: package/contents/ui/ConfigIcons.qml:143
 msgid "Arrangement:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:144
+#: package/contents/ui/ConfigIcons.qml:145
 #: plugins/folder/viewpropertiesmenu.cpp:34
 #, kde-format
 msgid "Rows"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:144
+#: package/contents/ui/ConfigIcons.qml:145
 #: plugins/folder/viewpropertiesmenu.cpp:38
 #, kde-format
 msgid "Columns"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:151
+#: package/contents/ui/ConfigIcons.qml:152
 msgid "Align Left"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:151
+#: package/contents/ui/ConfigIcons.qml:152
 msgid "Align Right"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:166
+#: package/contents/ui/ConfigIcons.qml:167
 msgid "Lock in place"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:179
+#: package/contents/ui/ConfigIcons.qml:180
 msgid "Sorting:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:187
+#: package/contents/ui/ConfigIcons.qml:188
 msgid "Manual"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:187
+#: package/contents/ui/ConfigIcons.qml:188
 #: plugins/folder/viewpropertiesmenu.cpp:62
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
@@ -162,7 +162,7 @@ msgstr ""
 msgid "Name"
 msgstr "పేరు ద్వారా"
 
-#: package/contents/ui/ConfigIcons.qml:187
+#: package/contents/ui/ConfigIcons.qml:188
 #: plugins/folder/viewpropertiesmenu.cpp:66
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
@@ -170,7 +170,7 @@ msgstr "పేరు ద్వారా"
 msgid "Size"
 msgstr "పరిమాణము ద్వారా"
 
-#: package/contents/ui/ConfigIcons.qml:187
+#: package/contents/ui/ConfigIcons.qml:188
 #: plugins/folder/viewpropertiesmenu.cpp:70
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
@@ -178,7 +178,7 @@ msgstr "పరిమాణము ద్వారా"
 msgid "Type"
 msgstr "రకము ద్వారా"
 
-#: package/contents/ui/ConfigIcons.qml:187
+#: package/contents/ui/ConfigIcons.qml:188
 #: plugins/folder/viewpropertiesmenu.cpp:74
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
@@ -186,71 +186,89 @@ msgstr "రకము ద్వారా"
 msgid "Date"
 msgstr "తేదీ ద్వారా"
 
-#: package/contents/ui/ConfigIcons.qml:198
+#: package/contents/ui/ConfigIcons.qml:199
 #: plugins/folder/viewpropertiesmenu.cpp:79
 #, kde-format
 msgid "Descending"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:206
+#: package/contents/ui/ConfigIcons.qml:207
 msgid "Folders first"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:220
+#: package/contents/ui/ConfigIcons.qml:221
 msgctxt "whether to use icon or list view"
 msgid "View mode:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:222
+#: package/contents/ui/ConfigIcons.qml:223
 msgid "List"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:231
+#: package/contents/ui/ConfigIcons.qml:232
 #, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "By Size"
-msgid "Size:"
+msgid "Icon size:"
 msgstr "పరిమాణము ద్వారా"
 
-#: package/contents/ui/ConfigIcons.qml:246
+#: package/contents/ui/ConfigIcons.qml:247
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Small"
 msgstr "చిన్న"
 
-#: package/contents/ui/ConfigIcons.qml:255
+#: package/contents/ui/ConfigIcons.qml:256
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Large"
 msgstr "పెద్ద"
 
-#: package/contents/ui/ConfigIcons.qml:263
+#: package/contents/ui/ConfigIcons.qml:264
+msgid "Label width:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:267
+msgid "Narrow"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:268
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Medium"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:269
+msgid "Wide"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:277
 msgid "Text lines:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:279
+#: package/contents/ui/ConfigIcons.qml:293
 msgid "Features:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:281
+#: package/contents/ui/ConfigIcons.qml:295
 msgid "Tooltips"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:288
+#: package/contents/ui/ConfigIcons.qml:302
 #, fuzzy
 #| msgid "Select All"
 msgid "Selection markers"
 msgstr "అన్నిటిని ఎంపికచేయుము"
 
-#: package/contents/ui/ConfigIcons.qml:295
+#: package/contents/ui/ConfigIcons.qml:309
 msgid "Folder preview popups"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:301
+#: package/contents/ui/ConfigIcons.qml:315
 msgid "Preview thumbnails"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:307
+#: package/contents/ui/ConfigIcons.qml:321
 msgid "More Preview Options..."
 msgstr ""
 
@@ -447,11 +465,6 @@ msgstr ""
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
-msgid "Medium"
-msgstr ""
-
-#: plugins/folder/viewpropertiesmenu.cpp:88
-#, kde-format
 msgid "Huge"
 msgstr ""
 
@@ -464,6 +477,12 @@ msgstr ""
 #, kde-format
 msgid "Locked"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Sort icons"
+#~| msgid "By Size"
+#~ msgid "Size:"
+#~ msgstr "పరిమాణము ద్వారా"
 
 #, fuzzy
 #~| msgid "Create New"
