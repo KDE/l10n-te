@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-03 03:25+0200\n"
+"POT-Creation-Date: 2019-07-04 03:09+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -246,8 +246,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info/rich"
 msgid ""
-"Then, enter your username and password and press the Login button. You can "
-"use this login to directly access the KDE bug tracking system later."
+"Then, enter your e-mail address and password and press the Login button. You "
+"can use this login to directly access the KDE bug tracking system later."
 msgstr ""
 
 #: aboutbugreportingdialog.cpp:136
@@ -623,20 +623,20 @@ msgid ""
 "the <interface>Reload</interface> button.</strong>"
 msgstr ""
 
-#: backtracewidget.cpp:368
+#: backtracewidget.cpp:366
 #, kde-format
 msgctxt "@title:window"
 msgid "Error during the installation of debug symbols"
 msgstr ""
 
-#: backtracewidget.cpp:400
+#: backtracewidget.cpp:398
 #, kde-format
 msgid ""
 "The packages containing debug information for the following application and "
 "libraries are missing:"
 msgstr ""
 
-#: backtracewidget.cpp:409
+#: backtracewidget.cpp:407
 #, kde-format
 msgctxt "messagebox title"
 msgid "Missing debug information packages"
@@ -939,8 +939,8 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"Use this button to login to the KDE bug tracking system using the provided "
-"username and password."
+"Use this button to login to the KDE bug tracking system using the provided e-"
+"mail address and password."
 msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:97
@@ -968,14 +968,14 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:286
 #, kde-format
-msgctxt "@info:status '1' is a url, '2' the username"
+msgctxt "@info:status '1' is a url, '2' the e-mail address"
 msgid "Performing login at %1 as %2..."
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:319
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:320
 #, kde-format
 msgctxt "@info:status"
-msgid "<b>Error: Invalid username or password</b>"
+msgid "<b>Error: Invalid e-mail address or password</b>"
 msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:368
@@ -1284,14 +1284,14 @@ msgid ""
 "submit a bug against DrKonqi."
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:790 drkonqi.cpp:172
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:790 drkonqi.cpp:163
 #, fuzzy, kde-format
 #| msgid "Select Filename"
 msgctxt "@title:window"
 msgid "Select Filename"
 msgstr "ఫైల్‌ పేరును ఎంపికచేయుము"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:813 drkonqi.cpp:198
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:813 drkonqi.cpp:189
 #, fuzzy, kde-kuit-format
 #| msgid "Cannot open file <filename>%1</filename> for writing."
 msgctxt "@info"
@@ -2154,8 +2154,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, m_userLabel)
 #: bugzillaintegration/ui/assistantpage_bugzilla_login.ui:38
 #, kde-format
-msgctxt "@label:textbox bugzilla account username"
-msgid "Username:"
+msgctxt "@label:textbox bugzilla account email"
+msgid "E-mail Address:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_passwordLabel)
@@ -2265,14 +2265,14 @@ msgid ""
 "packages."
 msgstr ""
 
-#: drkonqi.cpp:162
+#: drkonqi.cpp:153
 #, fuzzy, kde-kuit-format
 #| msgid "Backtrace saved to <filename>%1</filename>."
 msgctxt "@info"
 msgid "Report saved to <filename>%1</filename>."
 msgstr "బ్యాక్‌ట్రేస్ <filename>%1</filename> కు దాయబడింది."
 
-#: drkonqi.cpp:165
+#: drkonqi.cpp:156
 #, fuzzy, kde-format
 #| msgid "Cannot create a file to save the backtrace in"
 msgctxt "@info"
@@ -2400,11 +2400,6 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu 1 is the debugger name"
 msgid "Debug in %1"
-msgstr ""
-
-#: findconfigdatajob.cpp:62
-#, kde-format
-msgid "Failed to retrieve the config data."
 msgstr ""
 
 #: main.cpp:52
@@ -2576,7 +2571,7 @@ msgctxt "Notification action button, keep short"
 msgid "Report Bug"
 msgstr ""
 
-#: statusnotifier.cpp:127
+#: statusnotifier.cpp:125
 #, kde-format
 msgctxt "Notification action button, keep short"
 msgid "Restart App"
