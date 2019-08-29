@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-29 07:24+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -28,8 +28,8 @@ msgid "Location"
 msgstr "స్థానం"
 
 #: package/contents/config/config.qml:36
-#: package/contents/ui/ConfigIcons.qml:220
-#: package/contents/ui/FolderViewLayer.qml:422
+#: package/contents/ui/ConfigIcons.qml:299
+#: package/contents/ui/FolderViewLayer.qml:409
 msgid "Icons"
 msgstr "ప్రతిమలు"
 
@@ -57,59 +57,55 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
-#: package/contents/ui/ConfigFilter.qml:76
-msgid "Files:"
+#: package/contents/ui/ConfigFilter.qml:84
+msgid "Show All Files"
 msgstr ""
 
-#: package/contents/ui/ConfigFilter.qml:77
-msgid "Show all"
+#: package/contents/ui/ConfigFilter.qml:84
+msgid "Show Files Matching"
 msgstr ""
 
-#: package/contents/ui/ConfigFilter.qml:77
-msgid "Show matching"
-msgstr ""
-
-#: package/contents/ui/ConfigFilter.qml:77
-msgid "Hide matching"
-msgstr ""
-
-#: package/contents/ui/ConfigFilter.qml:82
-msgid "File name pattern:"
-msgstr ""
-
-#: package/contents/ui/ConfigFilter.qml:88
-msgid "File types:"
+#: package/contents/ui/ConfigFilter.qml:84
+msgid "Hide Files Matching"
 msgstr ""
 
 #: package/contents/ui/ConfigFilter.qml:90
-msgid "Search..."
+msgid "File name pattern:"
 msgstr ""
 
-#: package/contents/ui/ConfigFilter.qml:188
-msgid "File type"
+#: package/contents/ui/ConfigFilter.qml:104
+msgid "File types:"
 msgstr ""
 
-#: package/contents/ui/ConfigFilter.qml:197
-msgid "Description"
+#: package/contents/ui/ConfigFilter.qml:114
+msgid "Search file type..."
 msgstr ""
 
 #: package/contents/ui/ConfigFilter.qml:211
+msgid "File type"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:219
+msgid "Description"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:237
 msgid "Select All"
 msgstr "అన్నిటిని ఎంపికచేయుము"
 
-#: package/contents/ui/ConfigFilter.qml:222
+#: package/contents/ui/ConfigFilter.qml:248
 msgid "Deselect All"
 msgstr "అన్నిటి యెంపిక తీసివేయుము"
 
-#: package/contents/ui/ConfigIcons.qml:75
+#: package/contents/ui/ConfigIcons.qml:72
 msgid "Panel button:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:81
+#: package/contents/ui/ConfigIcons.qml:83
 msgid "Use a custom icon"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:115
+#: package/contents/ui/ConfigIcons.qml:125
 #, fuzzy
 #| msgctxt "@title:menu in Copy To or Move To submenu"
 #| msgid "Browse..."
@@ -117,48 +113,68 @@ msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose..."
 msgstr "బ్రౌజ్‌చేయి..."
 
-#: package/contents/ui/ConfigIcons.qml:121
+#: package/contents/ui/ConfigIcons.qml:131
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:140
+#: package/contents/ui/ConfigIcons.qml:151
 msgid "Arrangement:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:142
+#: package/contents/ui/ConfigIcons.qml:158
+msgid "Arrange in"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:168
 #: plugins/folder/viewpropertiesmenu.cpp:34
 #, kde-format
 msgid "Rows"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:142
+#: package/contents/ui/ConfigIcons.qml:168
 #: plugins/folder/viewpropertiesmenu.cpp:38
 #, kde-format
 msgid "Columns"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:149
-msgid "Align left"
+#: package/contents/ui/ConfigIcons.qml:176
+#: plugins/folder/viewpropertiesmenu.cpp:43
+#, kde-format
+msgid "Align"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:149
-msgid "Align right"
+#: package/contents/ui/ConfigIcons.qml:186
+#: plugins/folder/viewpropertiesmenu.cpp:46
+#, kde-format
+msgid "Left"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:164
+#: package/contents/ui/ConfigIcons.qml:186
+#: plugins/folder/viewpropertiesmenu.cpp:50
+#, kde-format
+msgid "Right"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:198
 msgid "Lock in place"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:177
+#: package/contents/ui/ConfigIcons.qml:213
 msgid "Sorting:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:185
-msgid "Manual"
+#: package/contents/ui/ConfigIcons.qml:220
+msgid "Sort by"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:185
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:58
+#, kde-format
+msgid "Unsorted"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:236
 #: plugins/folder/viewpropertiesmenu.cpp:62
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
@@ -166,7 +182,8 @@ msgstr ""
 msgid "Name"
 msgstr "పేరు ద్వారా"
 
-#: package/contents/ui/ConfigIcons.qml:185
+#: package/contents/ui/ConfigIcons.qml:236
+#: package/contents/ui/ConfigIcons.qml:309
 #: plugins/folder/viewpropertiesmenu.cpp:66
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
@@ -174,7 +191,7 @@ msgstr "పేరు ద్వారా"
 msgid "Size"
 msgstr "పరిమాణము ద్వారా"
 
-#: package/contents/ui/ConfigIcons.qml:185
+#: package/contents/ui/ConfigIcons.qml:236
 #: plugins/folder/viewpropertiesmenu.cpp:70
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
@@ -182,7 +199,7 @@ msgstr "పరిమాణము ద్వారా"
 msgid "Type"
 msgstr "రకము ద్వారా"
 
-#: package/contents/ui/ConfigIcons.qml:185
+#: package/contents/ui/ConfigIcons.qml:236
 #: plugins/folder/viewpropertiesmenu.cpp:74
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
@@ -190,158 +207,143 @@ msgstr "రకము ద్వారా"
 msgid "Date"
 msgstr "తేదీ ద్వారా"
 
-#: package/contents/ui/ConfigIcons.qml:196
+#: package/contents/ui/ConfigIcons.qml:251
 #: plugins/folder/viewpropertiesmenu.cpp:79
 #, kde-format
 msgid "Descending"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:204
+#: package/contents/ui/ConfigIcons.qml:263
 msgid "Folders first"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:218
-msgctxt "whether to use icon or list view"
-msgid "View mode:"
+#: package/contents/ui/ConfigIcons.qml:278
+msgid "Appearance:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:220
+#: package/contents/ui/ConfigIcons.qml:287
+msgctxt "whether to use icon or list view"
+msgid "View mode"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:299
 msgid "List"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:231
-#, fuzzy
-#| msgctxt "Sort icons"
-#| msgid "By Size"
-msgid "Icon size:"
-msgstr "పరిమాణము ద్వారా"
-
-#: package/contents/ui/ConfigIcons.qml:246
+#: package/contents/ui/ConfigIcons.qml:334
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Small"
 msgstr "చిన్న"
 
-#: package/contents/ui/ConfigIcons.qml:255
+#: package/contents/ui/ConfigIcons.qml:344
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Large"
 msgstr "పెద్ద"
 
-#: package/contents/ui/ConfigIcons.qml:263
-msgid "Label width:"
+#: package/contents/ui/ConfigIcons.qml:354
+msgid "Text lines"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:266
-msgid "Narrow"
-msgstr ""
-
-#: package/contents/ui/ConfigIcons.qml:267
-#: plugins/folder/viewpropertiesmenu.cpp:88
-#, kde-format
-msgid "Medium"
-msgstr ""
-
-#: package/contents/ui/ConfigIcons.qml:268
-msgid "Wide"
-msgstr ""
-
-#: package/contents/ui/ConfigIcons.qml:276
-msgid "Text lines:"
-msgstr ""
-
-#: package/contents/ui/ConfigIcons.qml:292
+#: package/contents/ui/ConfigIcons.qml:382
 msgid "Features:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:294
-msgid "Tooltips"
+#: package/contents/ui/ConfigIcons.qml:391
+msgid "Tool tips"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:301
+#: package/contents/ui/ConfigIcons.qml:403
 #, fuzzy
 #| msgid "Select All"
 msgid "Selection markers"
 msgstr "అన్నిటిని ఎంపికచేయుము"
 
-#: package/contents/ui/ConfigIcons.qml:308
+#: package/contents/ui/ConfigIcons.qml:415
 msgid "Folder preview popups"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:314
+#: package/contents/ui/ConfigIcons.qml:425
 msgid "Preview thumbnails"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:321
-msgid "Configure Preview Plugins..."
+#: package/contents/ui/ConfigIcons.qml:434
+msgid "More Preview Options..."
 msgstr ""
 
 #: package/contents/ui/ConfigLocation.qml:93
-msgid "Show:"
-msgstr ""
-
-#: package/contents/ui/ConfigLocation.qml:95
-#, fuzzy
-#| msgid "Select All"
-msgid "Desktop folder"
-msgstr "అన్నిటిని ఎంపికచేయుము"
-
-#: package/contents/ui/ConfigLocation.qml:102
-msgid "Files linked to the current activity"
-msgstr ""
-
-#: package/contents/ui/ConfigLocation.qml:109
-msgid "Places panel item:"
-msgstr ""
-
-#: package/contents/ui/ConfigLocation.qml:142
 #, fuzzy
 #| msgctxt ""
 #| "Title of the page that lets the user choose which location should the "
 #| "folderview show"
 #| msgid "Location"
-msgid "Custom location:"
+msgid "Location:"
 msgstr "స్థానం"
 
-#: package/contents/ui/ConfigLocation.qml:150
-msgid "Type path or URL..."
+#: package/contents/ui/ConfigLocation.qml:101
+#, fuzzy
+#| msgid "Select All"
+msgid "Show the Desktop folder"
+msgstr "అన్నిటిని ఎంపికచేయుము"
+
+#: package/contents/ui/ConfigLocation.qml:113
+msgid "Show files linked to the current activity"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:191
+#: package/contents/ui/ConfigLocation.qml:123
+msgid "Show a place:"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:171
+#, fuzzy
+#| msgid "Select All"
+msgid "Specify a folder:"
+msgstr "అన్నిటిని ఎంపికచేయుము"
+
+#: package/contents/ui/ConfigLocation.qml:182
+msgid "Type a path or a URL here"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:232
 msgid "Title:"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:193
+#: package/contents/ui/ConfigLocation.qml:244
 msgid "None"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:193
+#: package/contents/ui/ConfigLocation.qml:244
 msgid "Default"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:193
+#: package/contents/ui/ConfigLocation.qml:244
 msgid "Full path"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:193
+#: package/contents/ui/ConfigLocation.qml:244
 msgid "Custom title"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:208
-msgid "Enter custom title..."
+#: package/contents/ui/ConfigLocation.qml:257
+msgid "Enter custom title here"
 msgstr ""
 
-#: package/contents/ui/ConfigTweaks.qml:43
-msgid ""
-"With the Desktop Toolbox hidden, right-click on the desktop and choose "
-"'Configure Desktop...' to access this configuration window in the future"
-msgstr ""
+#: package/contents/ui/ConfigTweaks.qml:42
+#, fuzzy
+#| msgid "Select All"
+msgid "Desktop Layout"
+msgstr "అన్నిటిని ఎంపికచేయుము"
 
-#: package/contents/ui/ConfigTweaks.qml:54
+#: package/contents/ui/ConfigTweaks.qml:51
 msgid "Show the desktop toolbox"
 msgstr ""
 
-#: package/contents/ui/ConfigTweaks.qml:72
+#: package/contents/ui/ConfigTweaks.qml:59
+msgid "Widget Handling"
+msgstr ""
+
+#: package/contents/ui/ConfigTweaks.qml:69
 msgid "Press and hold widgets to move them and reveal their handles"
 msgstr ""
 
@@ -357,20 +359,20 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: package/contents/ui/main.qml:382
+#: package/contents/ui/main.qml:362
 msgid "Widgets unlocked"
 msgstr ""
 
-#: package/contents/ui/main.qml:383
+#: package/contents/ui/main.qml:363
 msgid "You can press and hold widgets to move them and reveal their handles."
 msgstr ""
 
-#: package/contents/ui/main.qml:384
+#: package/contents/ui/main.qml:364
 msgid "Got it"
 msgstr ""
 
-#: package/contents/ui/main.qml:597
-msgid "Configure Desktop..."
+#: package/contents/ui/main.qml:576
+msgid "Configure Desktop"
 msgstr ""
 
 #: plugins/folder/directorypicker.cpp:45
@@ -379,38 +381,43 @@ msgstr ""
 msgid "Select Folder"
 msgstr "అన్నిటిని ఎంపికచేయుము"
 
-#: plugins/folder/foldermodel.cpp:402
+#: plugins/folder/foldermodel.cpp:400
 #, kde-format
 msgid "&Refresh Desktop"
 msgstr ""
 
-#: plugins/folder/foldermodel.cpp:402 plugins/folder/foldermodel.cpp:1609
+#: plugins/folder/foldermodel.cpp:400 plugins/folder/foldermodel.cpp:1559
 #, kde-format
 msgid "&Refresh View"
 msgstr ""
 
-#: plugins/folder/foldermodel.cpp:1616
+#: plugins/folder/foldermodel.cpp:1556
 #, kde-format
-msgid "&Empty Trash"
+msgid "&Reload"
 msgstr ""
 
-#: plugins/folder/foldermodel.cpp:1619
+#: plugins/folder/foldermodel.cpp:1565
+#, kde-format
+msgid "&Empty Trash Bin"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1568
 #, kde-format
 msgctxt "Restore from trash"
 msgid "Restore"
 msgstr ""
 
-#: plugins/folder/foldermodel.cpp:1624
+#: plugins/folder/foldermodel.cpp:1573
 #, kde-format
 msgid "&Open"
 msgstr ""
 
-#: plugins/folder/foldermodel.cpp:1740
+#: plugins/folder/foldermodel.cpp:1646
 #, kde-format
 msgid "&Paste"
 msgstr "(&P) అతికించు"
 
-#: plugins/folder/foldermodel.cpp:1848
+#: plugins/folder/foldermodel.cpp:1779
 #, kde-format
 msgid "&Properties"
 msgstr "(&P) గుణములు"
@@ -420,29 +427,9 @@ msgstr "(&P) గుణములు"
 msgid "Arrange In"
 msgstr ""
 
-#: plugins/folder/viewpropertiesmenu.cpp:43
-#, kde-format
-msgid "Align"
-msgstr ""
-
-#: plugins/folder/viewpropertiesmenu.cpp:46
-#, kde-format
-msgid "Left"
-msgstr ""
-
-#: plugins/folder/viewpropertiesmenu.cpp:50
-#, kde-format
-msgid "Right"
-msgstr ""
-
 #: plugins/folder/viewpropertiesmenu.cpp:55
 #, kde-format
 msgid "Sort By"
-msgstr ""
-
-#: plugins/folder/viewpropertiesmenu.cpp:58
-#, kde-format
-msgid "Unsorted"
 msgstr ""
 
 #: plugins/folder/viewpropertiesmenu.cpp:81
@@ -469,18 +456,32 @@ msgstr ""
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
+msgid "Medium"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
 msgid "Huge"
 msgstr ""
 
 #: plugins/folder/viewpropertiesmenu.cpp:97
 #, kde-format
-msgid "Show Previews"
-msgstr ""
-
-#: plugins/folder/viewpropertiesmenu.cpp:100
-#, kde-format
 msgid "Locked"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Sort icons"
+#~| msgid "By Size"
+#~ msgid "Icon size:"
+#~ msgstr "పరిమాణము ద్వారా"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "Title of the page that lets the user choose which location should the "
+#~| "folderview show"
+#~| msgid "Location"
+#~ msgid "Custom location:"
+#~ msgstr "స్థానం"
 
 #, fuzzy
 #~| msgctxt "Sort icons"

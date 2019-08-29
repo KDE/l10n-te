@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 05:50+0000\n"
+"POT-Creation-Date: 2019-08-29 05:30+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -22,10 +22,18 @@ msgctxt "Name"
 msgid "KDE Write Daemon"
 msgstr "KDE వ్రాయు డెమోన్"
 
-#: kwrited-autostart.desktop:91
+#: kwrited-autostart.desktop:91 kwrited.desktop:64
 msgctxt "Comment"
 msgid "Watch for messages from local users sent with write(1) or wall(1)"
 msgstr "స్థానిక వినియోగదారులనుండి write(1) లేదా wall(1) తో పంపబడిన సందేశాలనకొరకు గమనించండి"
+
+#: kwrited.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDE Write Daemon"
+msgctxt "Name"
+msgid "Write Daemon"
+msgstr "KDE వ్రాయు డెమోన్"
 
 #: kwrited.notifyrc:3
 msgctxt "Comment"
@@ -41,10 +49,3 @@ msgstr "కొత్త సందేశము స్వీకరించబడ�
 msgctxt "Comment"
 msgid "The daemon received a new message sent with wall(1) or write(1)"
 msgstr "wall(1) లేదా write(1)తో పంపబడిన కొత్త సందేశమును డెమోన్ స్వీకరించినది"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE Write Daemon"
-#~ msgctxt "Name"
-#~ msgid "Write Daemon"
-#~ msgstr "KDE వ్రాయు డెమోన్"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-08 05:30+0000\n"
+"POT-Creation-Date: 2019-08-29 05:30+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -366,8 +366,8 @@ msgid ""
 "video settings,graphical effects,desktop effects,animation speed"
 msgstr ""
 
-#: kcmkwin/kwindecoration/kwindecoration.desktop:14
-#: kcmkwin/kwindecoration/package/metadata.desktop:17
+#: kcmkwin/kwindecoration/kwindecoration.desktop:16
+#: kcmkwin/kwindecoration/package/metadata.desktop:18
 #: kcmkwin/kwindecoration/window-decorations.knsrc:2
 #, fuzzy
 #| msgctxt "Name"
@@ -376,8 +376,8 @@ msgctxt "Name"
 msgid "Window Decorations"
 msgstr "సమాచారం"
 
-#: kcmkwin/kwindecoration/kwindecoration.desktop:75
-#: kcmkwin/kwindecoration/package/metadata.desktop:77
+#: kcmkwin/kwindecoration/kwindecoration.desktop:77
+#: kcmkwin/kwindecoration/package/metadata.desktop:78
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the window behavior"
@@ -385,7 +385,7 @@ msgctxt "Comment"
 msgid "Configure window titlebars and borders"
 msgstr "విండో ప్రవర్తనను ఆకృతీకరించుము"
 
-#: kcmkwin/kwindecoration/kwindecoration.desktop:102
+#: kcmkwin/kwindecoration/kwindecoration.desktop:104
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,border,style,theme,look,feel,layout,button,handle,edge,"
@@ -404,17 +404,17 @@ msgstr "రంగస్ఠలం"
 #: kcmkwin/kwindesktop/kcm_kwin_virtualdesktops.desktop:78
 #: kcmkwin/kwindesktop/package/metadata.desktop:65
 msgctxt "Comment"
-msgid "Navigation, Number and Layout of Virtual Desktops"
+msgid "Configure navigation, number and layout of virtual desktops"
 msgstr ""
 
-#: kcmkwin/kwindesktop/kcm_kwin_virtualdesktops.desktop:121
+#: kcmkwin/kwindesktop/kcm_kwin_virtualdesktops.desktop:100
 msgctxt "X-KDE-Keywords"
 msgid ""
 "desktop,desktops,number,virtual desktop,multiple desktops,pager,pager widget,"
 "pager applet,pager settings"
 msgstr ""
 
-#: kcmkwin/kwineffects/kcm_kwin_effects.desktop:15
+#: kcmkwin/kwineffects/kcm_kwin_effects.desktop:17
 #: kcmkwin/kwineffects/package/metadata.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -423,7 +423,7 @@ msgctxt "Name"
 msgid "Desktop Effects"
 msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
 
-#: kcmkwin/kwineffects/kcm_kwin_effects.desktop:61
+#: kcmkwin/kwineffects/kcm_kwin_effects.desktop:63
 #: kcmkwin/kwineffects/package/metadata.desktop:49
 #, fuzzy
 #| msgctxt "Name"
@@ -432,7 +432,7 @@ msgctxt "Comment"
 msgid "Desktop Effects"
 msgstr "‍డెస్‍క్ టాప్ క్యూబ్"
 
-#: kcmkwin/kwineffects/kcm_kwin_effects.desktop:107
+#: kcmkwin/kwineffects/kcm_kwin_effects.desktop:109
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,effect,3D effects,2D effects,graphical effects,desktop "
@@ -589,11 +589,14 @@ msgid "Screen Edges"
 msgstr "స్క్రీన్ సేవర్"
 
 #: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:83
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure web cache settings"
 msgctxt "Comment"
-msgid "Active Screen Corners and Edges"
-msgstr ""
+msgid "Configure active screen corners and edges"
+msgstr "వెబ్ క్యాచి అమరికలను ఆకృతీకరించుము"
 
-#: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:126
+#: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:106
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,effect,corner,edge,border,action,switch,desktop,kwin "
@@ -607,11 +610,14 @@ msgid "Touch Screen"
 msgstr ""
 
 #: kcmkwin/kwinscreenedges/kwintouchscreen.desktop:51
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure web cache settings"
 msgctxt "Comment"
-msgid "Touch screen swipe gestures"
-msgstr ""
+msgid "Configure touch screen swipe gestures"
+msgstr "వెబ్ క్యాచి అమరికలను ఆకృతీకరించుము"
 
-#: kcmkwin/kwinscreenedges/kwintouchscreen.desktop:87
+#: kcmkwin/kwinscreenedges/kwintouchscreen.desktop:74
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,effect,edge,border,action,switch,desktop,desktop edges,"
@@ -793,19 +799,6 @@ msgctxt "Comment"
 msgid "An on screen display indicating the desktop change"
 msgstr ""
 
-#: scripts/enforcedeco/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Information"
-msgctxt "Name"
-msgid "Enforces Window Decorations on GTK+ window"
-msgstr "సమాచారం"
-
-#: scripts/enforcedeco/metadata.desktop:45
-msgctxt "Comment"
-msgid "Fixes functional deficits for client side decorated windows."
-msgstr ""
-
 #: scripts/minimizeall/metadata.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -861,6 +854,13 @@ msgstr "విండొమెకర్"
 msgctxt "Comment"
 msgid "KWin Window Switcher Layout"
 msgstr "విండొమెకర్"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Information"
+#~ msgctxt "Name"
+#~ msgid "Enforces Window Decorations on GTK+ window"
+#~ msgstr "సమాచారం"
 
 #, fuzzy
 #~| msgctxt "Comment"
@@ -958,13 +958,6 @@ msgstr "విండొమెకర్"
 #~ msgctxt "Comment"
 #~ msgid "Configure settings specifically for a window"
 #~ msgstr "ప్రత్యేకంగా విండో కొరకు అమర్పులను ఆకృతీకరించుము"
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure web cache settings"
-#~ msgctxt "Comment"
-#~ msgid "Configure active screen edges"
-#~ msgstr "వెబ్ క్యాచి అమరికలను ఆకృతీకరించుము"
 
 #, fuzzy
 #~| msgctxt "Comment"
