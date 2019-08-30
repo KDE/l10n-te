@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-29 07:24+0200\n"
+"POT-Creation-Date: 2019-08-30 07:51+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -124,160 +124,199 @@ msgstr ""
 msgid "e.g. ssh -l root remote.host.org ksysguardd"
 msgstr ""
 
-#: ksysguard.cpp:74
+#: ksysguard.cpp:76
 #, kde-format
 msgid "KDE System Monitor"
 msgstr ""
 
-#: ksysguard.cpp:161 ksysguard.cpp:536
+#: ksysguard.cpp:159
+#, kde-format
+msgid ""
+"This will hide the menu bar completely. You can show it again by typing %1."
+msgstr ""
+
+#: ksysguard.cpp:161
+#, kde-format
+msgid "Hide menu bar"
+msgstr ""
+
+#: ksysguard.cpp:179 ksysguard.cpp:571
 #, kde-format
 msgid "System Monitor"
 msgstr "సిస్టమ్ మానిటర్"
 
-#: ksysguard.cpp:162
+#: ksysguard.cpp:180
 #, kde-format
 msgid "&Refresh Tab"
 msgstr ""
 
-#: ksysguard.cpp:163
+#: ksysguard.cpp:181
 #, kde-format
 msgid "&New Tab..."
 msgstr ""
 
-#: ksysguard.cpp:164
+#: ksysguard.cpp:182
 #, kde-format
 msgid "Import Tab Fr&om File..."
 msgstr ""
 
-#: ksysguard.cpp:165
+#: ksysguard.cpp:183
 #, kde-format
 msgid "Save Tab &As..."
 msgstr ""
 
-#: ksysguard.cpp:166
+#: ksysguard.cpp:184
 #, kde-format
 msgid "&Close Tab"
 msgstr "(&C) టాబ్ ను మూసివెయి"
 
-#: ksysguard.cpp:167
+#: ksysguard.cpp:185
 #, kde-format
 msgid "Monitor &Remote Machine..."
 msgstr ""
 
-#: ksysguard.cpp:168
+#: ksysguard.cpp:186
 #, kde-format
 msgid "&Download New Tabs..."
 msgstr ""
 
-#: ksysguard.cpp:169
+#: ksysguard.cpp:187
 #, kde-format
 msgid "&Upload Current Tab..."
 msgstr ""
 
-#: ksysguard.cpp:171
+#: ksysguard.cpp:189
 #, kde-format
 msgid "Tab &Properties"
 msgstr ""
 
-#: ksysguard.cpp:366
+#: ksysguard.cpp:386
 #, fuzzy, kde-format
 #| msgid "Properties"
-msgid "1 process1"
-msgid_plural "%1 processes%1"
+msgid "1 process"
+msgid_plural "%1 processes"
 msgstr[0] "గుణాలు"
 msgstr[1] "గుణాలు"
 msgstr[2] "గుణాలు"
 msgstr[3] "గుణాలు"
 msgstr[4] "గుణాలు"
 
-#: ksysguard.cpp:445
+#: ksysguard.cpp:467
 #, kde-format
-msgid "CPU: %1%%1%"
+msgid "CPU: %1%"
 msgstr ""
 
-#: ksysguard.cpp:460
+#: ksysguard.cpp:467
+#, kde-format
+msgctxt "This is the shorter version of CPU: %1%"
+msgid "%1%"
+msgstr ""
+
+#: ksysguard.cpp:486
 #, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
-msgid "Memory: %1 / %2Mem: %1 / %2Mem: %1%1"
+msgid "Memory: %1 / %2"
 msgstr ""
 
-#: ksysguard.cpp:487
+#: ksysguard.cpp:488
+#, kde-format
+msgctxt ""
+"Arguments are formatted byte sizes (used/total) This should be a shorter "
+"version of the previous Memory: %1 / %2"
+msgid "Mem: %1 / %2"
+msgstr ""
+
+#: ksysguard.cpp:490
+#, kde-format
+msgctxt ""
+"Arguments is formatted byte sizes (used) This should be a shorter version of "
+"the previous Mem: %1 / %2"
+msgid "Mem: %1"
+msgstr ""
+
+#: ksysguard.cpp:518
 #, kde-format
 msgid " No swap space available "
 msgstr ""
 
-#: ksysguard.cpp:489
+#: ksysguard.cpp:522
 #, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
-msgid "Swap: %1 / %2Swap: %1%1"
+msgid "Swap: %1 / %2"
 msgstr ""
 
-#: ksysguard.cpp:538
+#: ksysguard.cpp:524
+#, kde-format
+msgctxt "Arguments is formatted byte sizes (used)"
+msgid "Swap: %1"
+msgstr ""
+
+#: ksysguard.cpp:573
 #, kde-format
 msgid "(c) 1996-2016 The KDE System Monitor Developers"
 msgstr ""
 
-#: ksysguard.cpp:540
+#: ksysguard.cpp:575
 #, kde-format
 msgid "John Tapsell"
 msgstr ""
 
-#: ksysguard.cpp:540
+#: ksysguard.cpp:575
 #, kde-format
 msgid "Current Maintainer"
 msgstr "ప్రస్తుత సంరక్షకుడు"
 
-#: ksysguard.cpp:541
+#: ksysguard.cpp:576
 #, kde-format
 msgid "Chris Schlaeger"
 msgstr ""
 
-#: ksysguard.cpp:541
+#: ksysguard.cpp:576
 #, kde-format
 msgid "Previous Maintainer"
 msgstr "ముందటి సంరక్షకుడు"
 
-#: ksysguard.cpp:542
+#: ksysguard.cpp:577
 #, kde-format
 msgid "Greg Martyn"
 msgstr ""
 
-#: ksysguard.cpp:543
+#: ksysguard.cpp:578
 #, kde-format
 msgid "Tobias Koenig"
 msgstr "టొబియాస్ కొయింగ్"
 
-#: ksysguard.cpp:544
+#: ksysguard.cpp:579
 #, kde-format
 msgid "Nicolas Leclercq"
 msgstr ""
 
-#: ksysguard.cpp:545
+#: ksysguard.cpp:580
 #, kde-format
 msgid "Alex Sanda"
 msgstr ""
 
-#: ksysguard.cpp:546
+#: ksysguard.cpp:581
 #, kde-format
 msgid "Bernd Johannes Wuebben"
 msgstr ""
 
-#: ksysguard.cpp:547
+#: ksysguard.cpp:582
 #, kde-format
 msgid "Ralf Mueller"
 msgstr ""
 
-#: ksysguard.cpp:548
+#: ksysguard.cpp:583
 #, kde-format
 msgid "Hamish Rodda"
 msgstr ""
 
-#: ksysguard.cpp:549
+#: ksysguard.cpp:584
 #, kde-format
 msgid "Torsten Kasch"
 msgstr ""
 
-#: ksysguard.cpp:549
+#: ksysguard.cpp:584
 #, kde-format
 msgid ""
 "Solaris Support\n"
@@ -285,7 +324,7 @@ msgid ""
 "module of William LeFebvre's \"top\" utility."
 msgstr ""
 
-#: ksysguard.cpp:558
+#: ksysguard.cpp:593
 #, kde-format
 msgid "Optional worksheet files to load"
 msgstr ""
@@ -577,7 +616,7 @@ msgstr ""
 
 #: SensorDisplayLib/FancyPlotter.cpp:597
 #, kde-format
-msgid "%1 of %2%1"
+msgid "%1 of %2"
 msgstr ""
 
 #: SensorDisplayLib/FancyPlotter.cpp:625
@@ -989,12 +1028,12 @@ msgstr ""
 msgid "Bac&kground color:"
 msgstr "బ్యాక్‌గ్రౌండ్ రంగు:"
 
-#: SensorDisplayLib/SensorDisplay.cpp:116 SensorDisplayLib/SensorLogger.cpp:597
+#: SensorDisplayLib/SensorDisplay.cpp:116 SensorDisplayLib/SensorLogger.cpp:588
 #, kde-format
 msgid "&Properties"
 msgstr "(&P) గుణములు"
 
-#: SensorDisplayLib/SensorDisplay.cpp:121 SensorDisplayLib/SensorLogger.cpp:602
+#: SensorDisplayLib/SensorDisplay.cpp:121 SensorDisplayLib/SensorLogger.cpp:593
 #, kde-format
 msgid "&Remove Display"
 msgstr ""
@@ -1008,59 +1047,59 @@ msgid ""
 "p>%1</qt>"
 msgstr ""
 
-#: SensorDisplayLib/SensorLogger.cpp:137
+#: SensorDisplayLib/SensorLogger.cpp:133
 #, kde-format
 msgctxt "@title:column"
 msgid "Logging"
 msgstr ""
 
-#: SensorDisplayLib/SensorLogger.cpp:140
+#: SensorDisplayLib/SensorLogger.cpp:135
 #, kde-format
 msgctxt "@title:column"
 msgid "Timer Interval"
 msgstr ""
 
-#: SensorDisplayLib/SensorLogger.cpp:143
+#: SensorDisplayLib/SensorLogger.cpp:137
 #, kde-format
 msgctxt "@title:column"
 msgid "Sensor Name"
 msgstr ""
 
-#: SensorDisplayLib/SensorLogger.cpp:146
+#: SensorDisplayLib/SensorLogger.cpp:139
 #, kde-format
 msgctxt "@title:column"
 msgid "Host Name"
 msgstr ""
 
-#: SensorDisplayLib/SensorLogger.cpp:149
+#: SensorDisplayLib/SensorLogger.cpp:141
 #, fuzzy, kde-format
 #| msgid "File"
 msgctxt "@title:column"
 msgid "Log File"
 msgstr "దస్త్రం"
 
-#: SensorDisplayLib/SensorLogger.cpp:428
+#: SensorDisplayLib/SensorLogger.cpp:419
 #: SensorDisplayLib/SensorLoggerDlg.cpp:30
 #, kde-format
 msgid "Sensor Logger"
 msgstr ""
 
-#: SensorDisplayLib/SensorLogger.cpp:607
+#: SensorDisplayLib/SensorLogger.cpp:598
 #, kde-format
 msgid "&Remove Sensor"
 msgstr ""
 
-#: SensorDisplayLib/SensorLogger.cpp:612
+#: SensorDisplayLib/SensorLogger.cpp:603
 #, kde-format
 msgid "&Edit Sensor..."
 msgstr ""
 
-#: SensorDisplayLib/SensorLogger.cpp:620
+#: SensorDisplayLib/SensorLogger.cpp:611
 #, kde-format
 msgid "St&op Logging"
 msgstr ""
 
-#: SensorDisplayLib/SensorLogger.cpp:623
+#: SensorDisplayLib/SensorLogger.cpp:614
 #, kde-format
 msgid "S&tart Logging"
 msgstr ""
@@ -1079,8 +1118,7 @@ msgid "Timer Interval"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_timerInterval)
-#: SensorDisplayLib/SensorLoggerDlgWidget.ui:59 TimerSettings.cpp:57
-#: WorkSheetSettings.cpp:111
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:59 WorkSheetSettings.cpp:111
 #, kde-format
 msgid " sec"
 msgstr " సెకను"
@@ -1096,27 +1134,27 @@ msgstr ""
 msgid "Alarm color:"
 msgstr ""
 
-#: SensorDisplayLib/SensorModel.cpp:166
+#: SensorDisplayLib/SensorModel.cpp:161
 #, kde-format
 msgid "Host"
 msgstr ""
 
-#: SensorDisplayLib/SensorModel.cpp:169
+#: SensorDisplayLib/SensorModel.cpp:163
 #, kde-format
 msgid "Sensor"
 msgstr ""
 
-#: SensorDisplayLib/SensorModel.cpp:172
+#: SensorDisplayLib/SensorModel.cpp:165
 #, kde-format
 msgid "Unit"
 msgstr ""
 
-#: SensorDisplayLib/SensorModel.cpp:175
+#: SensorDisplayLib/SensorModel.cpp:167
 #, kde-format
 msgid "Status"
 msgstr "స్థితి"
 
-#: SensorDisplayLib/SensorModel.cpp:178
+#: SensorDisplayLib/SensorModel.cpp:169
 #, kde-format
 msgid "Label"
 msgstr "లేబుల్"
@@ -1169,94 +1207,74 @@ msgstr ""
 msgid "Sending"
 msgstr ""
 
-#: TimerSettings.cpp:37
-#, kde-format
-msgid "Timer Settings"
-msgstr ""
-
-#: TimerSettings.cpp:47
-#, kde-format
-msgid "Use update interval of worksheet"
-msgstr ""
-
-#: TimerSettings.cpp:50 WorkSheetSettings.cpp:104
-#, kde-format
-msgid "Update interval:"
-msgstr ""
-
-#: TimerSettings.cpp:60 WorkSheetSettings.cpp:117
-#, kde-format
-msgid "All displays of the sheet are updated at the rate specified here."
-msgstr ""
-
-#: WorkSheet.cpp:83
+#: WorkSheet.cpp:87
 #, kde-format
 msgid "Cannot open the file %1."
 msgstr ""
 
-#: WorkSheet.cpp:91
+#: WorkSheet.cpp:95
 #, kde-format
 msgid "The file %1 does not contain valid XML."
 msgstr ""
 
-#: WorkSheet.cpp:98
+#: WorkSheet.cpp:102
 #, kde-format
 msgid ""
 "The file %1 does not contain a valid worksheet definition, which must have a "
 "document type 'KSysGuardWorkSheet'."
 msgstr ""
 
-#: WorkSheet.cpp:110
+#: WorkSheet.cpp:114
 #, kde-format
 msgid "The file %1 has an invalid worksheet size."
 msgstr ""
 
-#: WorkSheet.cpp:235
+#: WorkSheet.cpp:239
 #, kde-format
 msgid "Cannot save file %1"
 msgstr ""
 
-#: WorkSheet.cpp:281
+#: WorkSheet.cpp:285
 #, kde-format
 msgid "The clipboard does not contain a valid display description."
 msgstr ""
 
-#: WorkSheet.cpp:381
+#: WorkSheet.cpp:385
 #, kde-format
 msgid "Select Display Type"
 msgstr ""
 
-#: WorkSheet.cpp:382
+#: WorkSheet.cpp:386
 #, kde-format
 msgid "&Line graph"
 msgstr ""
 
-#: WorkSheet.cpp:383
+#: WorkSheet.cpp:387
 #, kde-format
 msgid "&Digital display"
 msgstr ""
 
-#: WorkSheet.cpp:384
+#: WorkSheet.cpp:388
 #, kde-format
 msgid "&Bar graph"
 msgstr ""
 
-#: WorkSheet.cpp:385
+#: WorkSheet.cpp:389
 #, kde-format
 msgid "Log to a &file"
 msgstr ""
 
-#: WorkSheet.cpp:541
+#: WorkSheet.cpp:545
 #, kde-format
 msgid "Remove this display?"
 msgstr ""
 
-#: WorkSheet.cpp:542
+#: WorkSheet.cpp:546
 #, kde-format
 msgid "Remove Display"
 msgstr ""
 
-#: WorkSheet.cpp:583
+#: WorkSheet.cpp:587
 #, kde-format
 msgid "Dummy"
 msgstr ""
@@ -1289,6 +1307,16 @@ msgstr ""
 #: WorkSheetSettings.cpp:102
 #, kde-format
 msgid "Enter the number of columns the sheet should have."
+msgstr ""
+
+#: WorkSheetSettings.cpp:104
+#, kde-format
+msgid "Update interval:"
+msgstr ""
+
+#: WorkSheetSettings.cpp:117
+#, kde-format
+msgid "All displays of the sheet are updated at the rate specified here."
 msgstr ""
 
 #: WorkSheetSettings.cpp:118

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-29 07:24+0200\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -69,7 +69,14 @@ msgstr "..."
 msgid "Unknown"
 msgstr "తెలియని"
 
-#: componentchooser.cpp:150
+#: componentchooser.cpp:151
+#, kde-format
+msgid ""
+"Choose from the list below which component should be used by default for the "
+"%1 service."
+msgstr "సేవ %1 కొరకు యే కాంపోనెంటు వుపయోగించబడాలో క్రింది జాబితానుండి యెంచుకొనుము"
+
+#: componentchooser.cpp:183
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -78,17 +85,10 @@ msgstr ""
 "<qt>మీరు మీ యెంపిక యొక్క అప్రమేయ కాంపోనెంటును మార్చినారు, మీరు ఆ మార్పును దాయవలెనని అనుకొనుచున్నారా?</"
 "qt>"
 
-#: componentchooser.cpp:154
+#: componentchooser.cpp:188
 #, kde-format
 msgid "No description available"
 msgstr "ఎటువంటి వివరణ అందుబాటులో లేదు"
-
-#: componentchooser.cpp:165 componentchooser.cpp:170
-#, kde-format
-msgid ""
-"Choose from the list below which component should be used by default for the "
-"%1 service."
-msgstr "సేవ %1 కొరకు యే కాంపోనెంటు వుపయోగించబడాలో క్రింది జాబితానుండి యెంచుకొనుము"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox1)
 #: componentchooser_ui.ui:26
@@ -129,12 +129,12 @@ msgstr ""
 msgid "Select preferred Web browser application:"
 msgstr "అభీష్ట వెబ్ బ్రౌజర్ అనువర్తనమును యెంపికచేయుము:"
 
-#: componentchooseremail.cpp:83
+#: componentchooseremail.cpp:86
 #, kde-format
 msgid "Select preferred email client:"
 msgstr "అభీష్ట ఈమెయిల్ క్లైంటును యెంపికచేయుము:"
 
-#: componentchooserterminal.cpp:103
+#: componentchooserterminal.cpp:104
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "అభీష్ట టెర్మినల్ అనువర్తనమును యెంపికచేయుము:"
@@ -244,16 +244,6 @@ msgstr "(c), 2002 జోసెఫ్ వెనిన్‌గర్"
 msgid "Joseph Wenninger"
 msgstr "జోసెఫ్ వెనిన్‌గర్"
 
-#: ktimerdialog.cpp:163
-#, fuzzy, kde-format
-msgid "1 second remaining:"
-msgid_plural "%1 seconds remaining:"
-msgstr[0] "1 సెకను మిగిలివుంది:"
-msgstr[1] "1 సెకను మిగిలివుంది:"
-msgstr[2] "1 సెకను మిగిలివుంది:"
-msgstr[3] "1 సెకను మిగిలివుంది:"
-msgstr[4] "%1 సెకను మిగిలివుంది:"
-
 #. i18n: ectx: property (text), widget (QRadioButton, terminalCB)
 #: terminalemulatorconfig_ui.ui:12
 #, kde-format
@@ -281,6 +271,15 @@ msgstr ""
 #, kde-format
 msgid "Click here to browse for terminal program."
 msgstr "టెర్మినల్ ప్రోగ్రామ్ కొరకు బ్రౌజ్ చేయుటకు యిక్కడ నొక్కుము."
+
+#, fuzzy
+#~ msgid "1 second remaining:"
+#~ msgid_plural "%1 seconds remaining:"
+#~ msgstr[0] "1 సెకను మిగిలివుంది:"
+#~ msgstr[1] "1 సెకను మిగిలివుంది:"
+#~ msgstr[2] "1 సెకను మిగిలివుంది:"
+#~ msgstr[3] "1 సెకను మిగిలివుంది:"
+#~ msgstr[4] "%1 సెకను మిగిలివుంది:"
 
 #, fuzzy
 #~| msgid ""
