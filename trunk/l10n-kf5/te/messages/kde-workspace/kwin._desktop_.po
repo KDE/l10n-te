@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-01 01:23+0000\n"
+"POT-Creation-Date: 2019-09-10 01:19+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -461,17 +461,20 @@ msgid "Window Manager Effects"
 msgstr "విండొమెకర్"
 
 #: kcmkwin/kwinoptions/kwinactions.desktop:12
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Information"
 msgctxt "Name"
-msgid "Actions"
-msgstr "చర్యలు"
+msgid "Window Actions"
+msgstr "సమాచారం"
 
 #: kcmkwin/kwinoptions/kwinactions.desktop:102
 #, fuzzy
 #| msgctxt "Comment"
-#| msgid "Configure Hotkey settings"
+#| msgid "Configure web cache settings"
 msgctxt "Comment"
-msgid "Mouse Actions on Windows"
-msgstr "హాట్‌కీల అమరికలను ఆకృతీకరించుము."
+msgid "Configure mouse actions for windows and titlebars"
+msgstr "వెబ్ క్యాచి అమరికలను ఆకృతీకరించుము"
 
 #: kcmkwin/kwinoptions/kwinactions.desktop:147
 msgctxt "X-KDE-Keywords"
@@ -481,56 +484,68 @@ msgid ""
 msgstr ""
 
 #: kcmkwin/kwinoptions/kwinadvanced.desktop:11
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Behavior"
 msgctxt "Name"
-msgid "Advanced"
-msgstr "ఆధునాతన"
+msgid "Advanced Window Behavior"
+msgstr "విండో ప్రవర్తన"
 
 #: kcmkwin/kwinoptions/kwinadvanced.desktop:101
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure advanced window management features"
 msgctxt "Comment"
-msgid "Advanced Window Management Features"
+msgid "Configure advanced window management options"
 msgstr "అధునాతన విండో నిర్వహణ సౌలభ్యాలను ఆకృతీకరించుము"
 
 #: kcmkwin/kwinoptions/kwinadvanced.desktop:146
 msgctxt "X-KDE-Keywords"
 msgid ""
-"shading,border,hover,active borders,tiling,tabs,tabbing,window tabbing,"
-"window grouping,window tiling,window placement,placement of windows,window "
-"advanced behavior"
+"unshade,unshading,shade,shading,border,hover,active borders,tiling,tabs,"
+"tabbing,window,window tabbing,window grouping,window tiling,placement,window "
+"placement,placement of windows,window advanced behavior"
 msgstr ""
 
 #: kcmkwin/kwinoptions/kwinfocus.desktop:11
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Behavior"
 msgctxt "Name"
-msgid "Focus"
-msgstr "దృష్టి"
+msgid "Window Focus Behavior"
+msgstr "విండో ప్రవర్తన"
 
 #: kcmkwin/kwinoptions/kwinfocus.desktop:99
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure the window focus policy"
 msgctxt "Comment"
-msgid "Active Window Policy"
-msgstr ""
+msgid "Configure window activation policy"
+msgstr "విండో దృష్టి విధానంను ఆకృతీకరించుము"
 
 #: kcmkwin/kwinoptions/kwinfocus.desktop:142
 msgctxt "X-KDE-Keywords"
 msgid ""
-"focus,placement,auto raise,raise,click raise,keyboard,CDE,alt-tab,all "
-"desktop,focus follows mouse,focus prevention,focus stealing,focus policy,"
-"window focus behavior,window screen behavior"
+"focus,auto raise,raise,click raise,keyboard,CDE,alt-tab,all desktop,focus "
+"follows mouse,focus prevention,focus stealing,focus policy,window focus "
+"behavior,window screen behavior"
 msgstr ""
 
 #: kcmkwin/kwinoptions/kwinmoving.desktop:12
-msgctxt "Name"
-msgid "Moving"
-msgstr "కదుపు"
-
-#: kcmkwin/kwinoptions/kwinmoving.desktop:100
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Information"
-msgctxt "Comment"
-msgid "Window Moving"
+msgctxt "Name"
+msgid "Window Movement"
 msgstr "సమాచారం"
+
+#: kcmkwin/kwinoptions/kwinmoving.desktop:100
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure the window focus policy"
+msgctxt "Comment"
+msgid "Configure window movement options"
+msgstr "విండో దృష్టి విధానంను ఆకృతీకరించుము"
 
 #: kcmkwin/kwinoptions/kwinmoving.desktop:145
 msgctxt "X-KDE-Keywords"
@@ -547,7 +562,7 @@ msgstr "విండో ప్రవర్తన"
 #| msgctxt "Name"
 #| msgid "Window Behavior"
 msgctxt "Comment"
-msgid "Window Actions and Behavior"
+msgid "Configure window actions and behavior"
 msgstr "విండో ప్రవర్తన"
 
 #: kcmkwin/kwinoptions/kwinoptions.desktop:148
@@ -855,6 +870,29 @@ msgctxt "Comment"
 msgid "KWin Window Switcher Layout"
 msgstr "విండొమెకర్"
 
+#~ msgctxt "Name"
+#~ msgid "Actions"
+#~ msgstr "చర్యలు"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure Hotkey settings"
+#~ msgctxt "Comment"
+#~ msgid "Mouse Actions on Windows"
+#~ msgstr "హాట్‌కీల అమరికలను ఆకృతీకరించుము."
+
+#~ msgctxt "Name"
+#~ msgid "Advanced"
+#~ msgstr "ఆధునాతన"
+
+#~ msgctxt "Name"
+#~ msgid "Focus"
+#~ msgstr "దృష్టి"
+
+#~ msgctxt "Name"
+#~ msgid "Moving"
+#~ msgstr "కదుపు"
+
 #, fuzzy
 #~| msgctxt "Name"
 #~| msgid "Information"
@@ -946,10 +984,6 @@ msgstr "విండొమెకర్"
 #~ msgctxt "Comment"
 #~ msgid "You can configure how many virtual desktops there are."
 #~ msgstr "అక్కడ ఎన్ని వర్చ్యువల్ డెస్‍క్ టాప్‍స్  ఉన్నాయో మీరు ఆకృతీకరించవచ్చు."
-
-#~ msgctxt "Comment"
-#~ msgid "Configure the window focus policy"
-#~ msgstr "విండో దృష్టి విధానంను ఆకృతీకరించుము"
 
 #~ msgctxt "Comment"
 #~ msgid "Configure the way that windows are moved"
