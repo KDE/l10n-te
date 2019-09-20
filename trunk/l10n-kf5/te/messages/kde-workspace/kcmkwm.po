@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-15 03:21+0200\n"
+"POT-Creation-Date: 2019-09-20 03:31+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -558,20 +558,23 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
 #: advanced.ui:80
-#, kde-format
-msgid "Smart"
-msgstr "స్మార్ట్"
+#, fuzzy, kde-format
+#| msgid "Snap windows onl&y when overlapping"
+msgid "Minimal Overlapping"
+msgstr "(&y) విండోలు వొకదానిపై వొకటి వున్నప్పుడు మాత్రమే స్నాప్ చేయుము"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
 #: advanced.ui:85
-#, kde-format
-msgid "Maximizing"
-msgstr "పెద్దదిచేసిన"
+#, fuzzy, kde-format
+#| msgid "Maximize"
+msgid "Maximized"
+msgstr "పెద్దదిచేయి"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
 #: advanced.ui:90
-#, kde-format
-msgid "Cascade"
+#, fuzzy, kde-format
+#| msgid "Cascade"
+msgid "Cascaded"
 msgstr "కాస్కేడ్"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
@@ -588,10 +591,9 @@ msgstr "సెంటర్డ్"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
 #: advanced.ui:105
-#, fuzzy, kde-format
-#| msgid "Zero-Cornered"
-msgid "Zero-cornered"
-msgstr "జోరో-కార్నర్డ్"
+#, kde-format
+msgid "In Top-Left Corner"
+msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
 #: advanced.ui:110
@@ -1315,6 +1317,17 @@ msgid ""
 "\" font-style:italic;\">Focus follows mouse (mouse precedence)</span> "
 "instead!</p></body></html>"
 msgstr ""
+
+#~ msgid "Smart"
+#~ msgstr "స్మార్ట్"
+
+#~ msgid "Maximizing"
+#~ msgstr "పెద్దదిచేసిన"
+
+#, fuzzy
+#~| msgid "Zero-Cornered"
+#~ msgid "Zero-cornered"
+#~ msgstr "జోరో-కార్నర్డ్"
 
 #, fuzzy
 #~| msgctxt "@title:group"
