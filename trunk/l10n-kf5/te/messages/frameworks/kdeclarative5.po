@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-09 02:54+0200\n"
+"POT-Creation-Date: 2019-10-09 02:44+0200\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -106,6 +106,17 @@ msgstr "మీరు వాడిన మీట qt సహాయము తీస�
 #, kde-format
 msgid "Unsupported Key"
 msgstr "మద్దతు చేయని కీ"
+
+#: quickaddons/configmodule.cpp:173
+#, fuzzy, kde-format
+#| msgid "Invalid item."
+msgid "Invalid KPackage"
+msgstr "వస్తువు నిస్సారం"
+
+#: quickaddons/configmodule.cpp:179
+#, kde-format
+msgid "No QML file provided"
+msgstr ""
 
 #, fuzzy
 #~| msgctxt "No shortcut defined"
@@ -8176,9 +8187,6 @@ msgstr "మద్దతు చేయని కీ"
 
 #~ msgid "Installing"
 #~ msgstr "నెలకొల్పుతుం"
-
-#~ msgid "Invalid item."
-#~ msgstr "వస్తువు నిస్సారం"
 
 #~ msgid "Download of item failed: no download URL for \"%1\"."
 #~ msgstr "వస్తువు యొక్క దిగుమతి  విఫలమైంది: దిగుమతిలొ URL కోసం \"%1\"."
