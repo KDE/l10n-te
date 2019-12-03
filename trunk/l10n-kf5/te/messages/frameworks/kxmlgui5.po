@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-02 02:58+0100\n"
+"POT-Creation-Date: 2019-12-03 02:58+0100\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -731,38 +731,6 @@ msgstr "%1"
 msgid "Change Icon"
 msgstr "ప్రతిమను మార్చు..."
 
-#: kgesture.cpp:502
-#, kde-format
-msgctxt "left mouse button"
-msgid "left button"
-msgstr "ఎడమ బటన్"
-
-#: kgesture.cpp:504
-#, kde-format
-msgctxt "middle mouse button"
-msgid "middle button"
-msgstr "మద్య బటన్"
-
-#: kgesture.cpp:506
-#, kde-format
-msgctxt "right mouse button"
-msgid "right button"
-msgstr "కుడి బటన్"
-
-#: kgesture.cpp:508
-#, kde-format
-msgctxt "a nonexistent value of mouse button"
-msgid "invalid button"
-msgstr "సరికాని బటన్"
-
-#: kgesture.cpp:521
-#, kde-format
-msgctxt ""
-"a kind of mouse gesture: hold down one mouse button, then press another "
-"button"
-msgid "Hold %1, then push %2"
-msgstr "%1 కలిగివుండుము, అప్పుడు %2 నెట్టుము"
-
 #. i18n: ectx: Menu (help)
 #: khelpmenu.cpp:172 ui_standards.rc:177
 #, kde-format
@@ -800,7 +768,7 @@ msgstr[3] "నియంత్రిత వసుదైక శీఘ్రమా�
 msgstr[4] "నియంత్రిత వసుదైక శీఘ్రమార్గంతొ విభేదలు"
 
 #: kkeysequencewidget.cpp:147 kkeysequencewidget.cpp:235
-#: kkeysequencewidget.cpp:626 kshortcutseditor.cpp:637 kshortcutseditor.cpp:655
+#: kkeysequencewidget.cpp:626
 #, kde-format
 msgid "Reassign"
 msgstr "మళ్లి నియమించు"
@@ -1173,70 +1141,51 @@ msgstr "మౌస్ బటన్ గెస్ట్యూర్"
 msgid "Mouse Shape Gesture"
 msgstr "మౌస్ షేప్ గెస్ట్యూర్"
 
-#: kshortcutseditor.cpp:632 kshortcutseditor.cpp:650
-#, kde-format
-msgid "Key Conflict"
-msgstr "ముఖ్యమైన ఘర్షణ"
-
-#: kshortcutseditor.cpp:633
-#, kde-format
-msgid ""
-"The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-
-#: kshortcutseditor.cpp:651
-#, kde-format
-msgid ""
-"The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-
-#: kshortcutseditor.cpp:698
+#: kshortcutseditor.cpp:562
 #, kde-format
 msgctxt "header for an applications shortcut list"
 msgid "Shortcuts for %1"
 msgstr "%1 కొరకు శీఘ్రమార్గాలు"
 
 #. i18n: ectx: property (text), widget (QLabel, priLabel)
-#: kshortcutseditor.cpp:716 kshortcutwidget.ui:22
+#: kshortcutseditor.cpp:580 kshortcutwidget.ui:22
 #, kde-format
 msgid "Main:"
 msgstr "ముఖ్యమైన:"
 
 #. i18n: ectx: property (text), widget (QLabel, altLabel)
-#: kshortcutseditor.cpp:717 kshortcutwidget.ui:52
+#: kshortcutseditor.cpp:581 kshortcutwidget.ui:52
 #, kde-format
 msgid "Alternate:"
 msgstr "ప్రత్యామ్నాయము:"
 
-#: kshortcutseditor.cpp:718
+#: kshortcutseditor.cpp:582
 #, kde-format
 msgid "Global:"
 msgstr "సార్వత్రిక:"
 
-#: kshortcutseditor.cpp:719
+#: kshortcutseditor.cpp:583
 #, fuzzy, kde-format
 #| msgid "Global Alternate"
 msgid "Global alternate:"
 msgstr "సార్వత్రిక ప్రత్యామ్నాయం"
 
-#: kshortcutseditor.cpp:735
+#: kshortcutseditor.cpp:599
 #, kde-format
 msgid "Action Name"
 msgstr "చర్యా నామము"
 
-#: kshortcutseditor.cpp:739
+#: kshortcutseditor.cpp:603
 #, kde-format
 msgid "Shortcuts"
 msgstr "శీఘ్ర మార్గాలు"
 
-#: kshortcutseditor.cpp:743
+#: kshortcutseditor.cpp:607
 #, kde-format
 msgid "Description"
 msgstr "వర్ణన"
 
-#: kshortcutseditoritem.cpp:54
+#: kshortcutseditoritem.cpp:46
 #, kde-format
 msgctxt "@item:intable Action name in shortcuts configuration"
 msgid "%1"
@@ -1502,6 +1451,31 @@ msgstr "(&S) అమరికలు"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "ప్రధాన పనిముట్ల పట్టీ"
+
+#~ msgctxt "left mouse button"
+#~ msgid "left button"
+#~ msgstr "ఎడమ బటన్"
+
+#~ msgctxt "middle mouse button"
+#~ msgid "middle button"
+#~ msgstr "మద్య బటన్"
+
+#~ msgctxt "right mouse button"
+#~ msgid "right button"
+#~ msgstr "కుడి బటన్"
+
+#~ msgctxt "a nonexistent value of mouse button"
+#~ msgid "invalid button"
+#~ msgstr "సరికాని బటన్"
+
+#~ msgctxt ""
+#~ "a kind of mouse gesture: hold down one mouse button, then press another "
+#~ "button"
+#~ msgid "Hold %1, then push %2"
+#~ msgstr "%1 కలిగివుండుము, అప్పుడు %2 నెట్టుము"
+
+#~ msgid "Key Conflict"
+#~ msgstr "ముఖ్యమైన ఘర్షణ"
 
 #~ msgid "A&uthor"
 #~ msgstr "(&u) మూలకర్త"
