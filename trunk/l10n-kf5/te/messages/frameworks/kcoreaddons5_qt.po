@@ -699,92 +699,36 @@ msgid "Invalid date"
 msgstr "చెల్లని తేదీ"
 
 #: lib/util/kformatprivate.cpp:519
+#, fuzzy
+#| msgctxt "KFormat|"
+#| msgid "%n day(s)"
+#| msgid_plural "%n day(s)"
+msgctxt "KFormat|"
+msgid "In two days"
+msgstr "%n రోజు"
+
+#: lib/util/kformatprivate.cpp:521
 msgctxt "KFormat|"
 msgid "Tomorrow"
 msgstr "రేపు"
 
-#: lib/util/kformatprivate.cpp:521
+#: lib/util/kformatprivate.cpp:523
 msgctxt "KFormat|"
 msgid "Today"
 msgstr "ఈరొజు"
 
-#: lib/util/kformatprivate.cpp:523
+#: lib/util/kformatprivate.cpp:525
 msgctxt "KFormat|"
 msgid "Yesterday"
 msgstr "నిన్న"
 
-#: lib/util/kformatprivate.cpp:529
-msgctxt "KFormat|most recent such day before today"
-msgid "Last Monday"
-msgstr "పోయిన సోమవారం"
-
-#: lib/util/kformatprivate.cpp:531
-msgctxt "KFormat|most recent such day before today"
-msgid "Last Tuesday"
-msgstr "పోయిన మంగళవారం"
-
-#: lib/util/kformatprivate.cpp:533
-msgctxt "KFormat|most recent such day before today"
-msgid "Last Wednesday"
-msgstr "పోయిన బుధవారం"
-
-#: lib/util/kformatprivate.cpp:535
-msgctxt "KFormat|most recent such day before today"
-msgid "Last Thursday"
-msgstr "పోయిన గురువారం"
-
-#: lib/util/kformatprivate.cpp:537
-msgctxt "KFormat|most recent such day before today"
-msgid "Last Friday"
-msgstr "పోయిన శుక్రవారం"
-
-#: lib/util/kformatprivate.cpp:539
-msgctxt "KFormat|most recent such day before today"
-msgid "Last Saturday"
-msgstr "పోయిన శనివారం"
-
-#: lib/util/kformatprivate.cpp:541
-msgctxt "KFormat|most recent such day before today"
-msgid "Last Sunday"
-msgstr "పోయిన ఆదివారం"
-
-#: lib/util/kformatprivate.cpp:546
-msgctxt "KFormat|the next such day after today"
-msgid "Next Monday"
-msgstr "వచ్చే నెల"
-
-#: lib/util/kformatprivate.cpp:548
-msgctxt "KFormat|the next such day after today"
-msgid "Next Tuesday"
-msgstr "వచ్చే మంగళవారం"
-
-#: lib/util/kformatprivate.cpp:550
-msgctxt "KFormat|the next such day after today"
-msgid "Next Wednesday"
-msgstr "వచ్చే బుధవారం"
-
-#: lib/util/kformatprivate.cpp:552
-msgctxt "KFormat|the next such day after today"
-msgid "Next Thursday"
-msgstr "వచ్చే గురువారం"
-
-#: lib/util/kformatprivate.cpp:554
-msgctxt "KFormat|the next such day after today"
-msgid "Next Friday"
-msgstr "వచ్చే శుక్రవారం"
-
-#: lib/util/kformatprivate.cpp:556
-msgctxt "KFormat|the next such day after today"
-msgid "Next Saturday"
-msgstr "వచ్చే శనివారం"
-
-#: lib/util/kformatprivate.cpp:558
-msgctxt "KFormat|the next such day after today"
-msgid "Next Sunday"
-msgstr "వచ్చే ఆదివారం"
+#: lib/util/kformatprivate.cpp:527
+msgctxt "KFormat|"
+msgid "Two days ago"
+msgstr ""
 
 #. relative datetime with %1 result of formatReleativeDate() and %2 the formatted time If this does not fit the grammar of your language please contact the i18n team to solve the problem
-#: lib/util/kformatprivate.cpp:573
+#: lib/util/kformatprivate.cpp:541
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1, %2"
@@ -807,6 +751,62 @@ msgstr ""
 msgctxt "QObject|"
 msgid "KListOpenFilesJob is not supported on Windows"
 msgstr ""
+
+#~ msgctxt "KFormat|most recent such day before today"
+#~ msgid "Last Monday"
+#~ msgstr "పోయిన సోమవారం"
+
+#~ msgctxt "KFormat|most recent such day before today"
+#~ msgid "Last Tuesday"
+#~ msgstr "పోయిన మంగళవారం"
+
+#~ msgctxt "KFormat|most recent such day before today"
+#~ msgid "Last Wednesday"
+#~ msgstr "పోయిన బుధవారం"
+
+#~ msgctxt "KFormat|most recent such day before today"
+#~ msgid "Last Thursday"
+#~ msgstr "పోయిన గురువారం"
+
+#~ msgctxt "KFormat|most recent such day before today"
+#~ msgid "Last Friday"
+#~ msgstr "పోయిన శుక్రవారం"
+
+#~ msgctxt "KFormat|most recent such day before today"
+#~ msgid "Last Saturday"
+#~ msgstr "పోయిన శనివారం"
+
+#~ msgctxt "KFormat|most recent such day before today"
+#~ msgid "Last Sunday"
+#~ msgstr "పోయిన ఆదివారం"
+
+#~ msgctxt "KFormat|the next such day after today"
+#~ msgid "Next Monday"
+#~ msgstr "వచ్చే నెల"
+
+#~ msgctxt "KFormat|the next such day after today"
+#~ msgid "Next Tuesday"
+#~ msgstr "వచ్చే మంగళవారం"
+
+#~ msgctxt "KFormat|the next such day after today"
+#~ msgid "Next Wednesday"
+#~ msgstr "వచ్చే బుధవారం"
+
+#~ msgctxt "KFormat|the next such day after today"
+#~ msgid "Next Thursday"
+#~ msgstr "వచ్చే గురువారం"
+
+#~ msgctxt "KFormat|the next such day after today"
+#~ msgid "Next Friday"
+#~ msgstr "వచ్చే శుక్రవారం"
+
+#~ msgctxt "KFormat|the next such day after today"
+#~ msgid "Next Saturday"
+#~ msgstr "వచ్చే శనివారం"
+
+#~ msgctxt "KFormat|the next such day after today"
+#~ msgid "Next Sunday"
+#~ msgstr "వచ్చే ఆదివారం"
 
 #, fuzzy
 #~| msgctxt "@option last week"
