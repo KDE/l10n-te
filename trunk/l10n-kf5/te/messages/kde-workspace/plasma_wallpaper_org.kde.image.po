@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-29 03:38+0100\n"
+"POT-Creation-Date: 2020-01-11 03:42+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -132,48 +132,64 @@ msgstr ""
 
 #: imagepackage/contents/ui/config.qml:219
 #, kde-format
-msgid "Hours"
-msgstr ""
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] ""
+msgstr[1] ""
 
-#: imagepackage/contents/ui/config.qml:230
+#: imagepackage/contents/ui/config.qml:234
 #, kde-format
-msgid "Minutes"
-msgstr ""
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] ""
+msgstr[1] ""
 
-#: imagepackage/contents/ui/config.qml:241
+#: imagepackage/contents/ui/config.qml:249
 #, kde-format
-msgid "Seconds"
-msgstr ""
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] ""
+msgstr[1] ""
 
-#: imagepackage/contents/ui/config.qml:246
+#: imagepackage/contents/ui/config.qml:258
 #, fuzzy, kde-format
 #| msgid "Images"
 msgid "Folders"
 msgstr "చిత్రాలు"
 
-#: imagepackage/contents/ui/config.qml:268
+#: imagepackage/contents/ui/config.qml:280
 #, fuzzy, kde-format
 #| msgid "Images"
 msgid "Remove Folder"
 msgstr "చిత్రాలు"
 
-#: imagepackage/contents/ui/config.qml:273
+#: imagepackage/contents/ui/config.qml:285
 #, kde-format
 msgid "Open Folder"
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:299
+#: imagepackage/contents/ui/config.qml:330
+#, kde-format
+msgid "There are no wallpaper locations configured"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:344
 #, kde-format
 msgid "Add Folder..."
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:305
-#: imagepackage/contents/ui/config.qml:389
+#: imagepackage/contents/ui/config.qml:350
+#: imagepackage/contents/ui/config.qml:448
 #, kde-format
 msgid "Get New Wallpapers..."
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:384
+#: imagepackage/contents/ui/config.qml:402
+#, kde-format
+msgid "There are no wallpapers in this slideshow"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:443
 #, kde-format
 msgid "Add Image..."
 msgstr ""
