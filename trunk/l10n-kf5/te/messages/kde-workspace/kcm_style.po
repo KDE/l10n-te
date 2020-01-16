@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-20 03:36+0100\n"
+"POT-Creation-Date: 2020-01-16 03:41+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -28,38 +28,53 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 
-#: kcmstyle.cpp:89
+#: gtkpage.cpp:86
+#, kde-format
+msgid "Download New GNOME/GTK2 Application Styles"
+msgstr ""
+
+#: gtkpage.cpp:96
+#, kde-format
+msgid "Download New GNOME/GTK3 Application Styles"
+msgstr ""
+
+#: gtkpage.cpp:118
+#, kde-format
+msgid "%1 is not a valid GTK Theme archive."
+msgstr ""
+
+#: kcmstyle.cpp:92
 #, kde-format
 msgid "Application Style"
 msgstr ""
 
-#: kcmstyle.cpp:91
+#: kcmstyle.cpp:94
 #, fuzzy, kde-format
 #| msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin, (c) 2019 Kai Uwe Broulik"
 msgstr "(c) 2002 కరోల్ స్జ్వెడ్, డానియల్ మాల్కెన్‌టిన్"
 
-#: kcmstyle.cpp:93
+#: kcmstyle.cpp:96
 #, kde-format
 msgid "Karol Szwed"
 msgstr "కారల్ స్జ్వెడ్"
 
-#: kcmstyle.cpp:94
+#: kcmstyle.cpp:97
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "డానియల్ మాల్కెన్టిన్"
 
-#: kcmstyle.cpp:95
+#: kcmstyle.cpp:98
 #, kde-format
 msgid "Kai Uwe Broulik"
 msgstr ""
 
-#: kcmstyle.cpp:172 kcmstyle.cpp:179
+#: kcmstyle.cpp:181 kcmstyle.cpp:188
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr "ఈ శైలి కొరకు ఆకృతీకరణ డైలాగును లోడుచేయుటలో వొక దోషము వుంది."
 
-#: kcmstyle.cpp:255
+#: kcmstyle.cpp:283
 #, kde-format
 msgid "Failed to apply selected style '%1'."
 msgstr ""
@@ -115,6 +130,58 @@ msgstr "ప్రతిమల క్రిందన వచనము"
 msgid "Secondary toolbar label:"
 msgstr ""
 
+#: package/contents/ui/GtkStylePage.qml:31
+#, kde-format
+msgid "GNOME/GTK Application Style"
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:57
+#, kde-format
+msgid "GTK2 theme:"
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:89
+#: package/contents/ui/GtkStylePage.qml:128
+#, fuzzy, kde-format
+#| msgid "Preview"
+msgid "Preview..."
+msgstr "ముందస్తు వీక్షణం"
+
+#: package/contents/ui/GtkStylePage.qml:96
+#, kde-format
+msgid "GTK3 theme:"
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:148
+#, kde-format
+msgid "Install from File..."
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:154
+#, kde-format
+msgid "Get New GNOME/GTK Application Styles..."
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:162
+#, kde-format
+msgid "Get New GNOME/GTK2 Application Styles..."
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:170
+#, kde-format
+msgid "Get New GNOME/GTK3 Application Styles..."
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:185
+#, kde-format
+msgid "Select GTK Theme Archive"
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:187
+#, kde-format
+msgid "GTK Theme Archive (*.tar.xz *.tar.gz *.tar.bz2)"
+msgstr ""
+
 #: package/contents/ui/main.qml:31
 #, kde-format
 msgid ""
@@ -122,16 +189,22 @@ msgid ""
 "interface elements."
 msgstr ""
 
-#: package/contents/ui/main.qml:103
+#: package/contents/ui/main.qml:107
 #, fuzzy, kde-format
 #| msgid "Con&figure..."
 msgid "Configure Style..."
 msgstr "(&f) ఆకృతీకరించు..."
 
-#: package/contents/ui/main.qml:119
+#: package/contents/ui/main.qml:124
 #, kde-format
 msgid "Configure Icons and Toolbars"
 msgstr ""
+
+#: package/contents/ui/main.qml:137
+#, fuzzy, kde-format
+#| msgid "Con&figure..."
+msgid "Configure GNOME/GTK Application Style..."
+msgstr "(&f) ఆకృతీకరించు..."
 
 #: styleconfdialog.cpp:33
 #, kde-format
@@ -176,9 +249,6 @@ msgstr "రేడియో బటన్"
 #, kde-format
 msgid "Tab 2"
 msgstr "టాబ్ 2"
-
-#~ msgid "Preview"
-#~ msgstr "ముందస్తు వీక్షణం"
 
 #~ msgid "Unable to Load Dialog"
 #~ msgstr "డైలాగును లోడు చేయలేకపోయింది"
