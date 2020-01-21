@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-11 03:41+0100\n"
+"POT-Creation-Date: 2020-01-21 03:50+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -27,42 +27,6 @@ msgstr "కృష్ణబాబు కె , విజయ్ కిరణ్ క
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: browserconfig_ui.ui:29
-#, kde-format
-msgid "<qt>Open <b>http</b> and <b>https</b> URLs</qt>"
-msgstr "<qt><b>http</b> మరియు <b>https</b> URLలను తెరువుము</qt>"
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioKIO)
-#: browserconfig_ui.ui:36
-#, kde-format
-msgid "in an application based on the contents of the URL"
-msgstr "URL యొక్క సారములపై ఆధారపడి వొక అనువర్తనము నందు"
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioService)
-#: browserconfig_ui.ui:46
-#, fuzzy, kde-format
-#| msgid "in the following browser:"
-msgid "in the following application:"
-msgstr "క్రింది బ్రౌజర్ నందు:"
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
-#: browserconfig_ui.ui:80
-#, fuzzy, kde-format
-#| msgid "in the following browser:"
-msgid "with the following command:"
-msgstr "క్రింది బ్రౌజర్ నందు:"
-
-#. i18n: ectx: property (text), widget (QToolButton, btnSelectApplication)
-#. i18n: ectx: property (text), widget (QToolButton, btnSelectEmail)
-#. i18n: ectx: property (text), widget (QToolButton, btnSelectFileManager)
-#. i18n: ectx: property (text), widget (QToolButton, btnSelectTerminal)
-#: browserconfig_ui.ui:115 emailclientconfig_ui.ui:69
-#: filemanagerconfig_ui.ui:41 terminalemulatorconfig_ui.ui:60
-#, kde-format
-msgid "..."
-msgstr "..."
 
 #: componentchooser.cpp:145
 #, kde-format
@@ -90,7 +54,7 @@ msgstr ""
 msgid "No description available"
 msgstr "ఎటువంటి వివరణ అందుబాటులో లేదు"
 
-#. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox1)
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, headerGroupBox)
 #: componentchooser_ui.ui:26
 #, kde-format
 msgid ""
@@ -102,7 +66,7 @@ msgid ""
 "programs these components are."
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#. i18n: ectx: property (title), widget (QGroupBox, headerGroupBox)
 #: componentchooser_ui.ui:29
 #, kde-format
 msgid "Default Component"
@@ -124,110 +88,22 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: componentchooserbrowser.cpp:171
+#: componentchooserbrowser.cpp:115 componentchooseremail.cpp:126
+#: componentchooserfilemanager.cpp:119 componentchooserterminal.cpp:97
 #, kde-format
-msgid "Select preferred Web browser application:"
-msgstr "అభీష్ట వెబ్ బ్రౌజర్ అనువర్తనమును యెంపికచేయుము:"
+msgid "Other..."
+msgstr ""
 
-#: componentchooseremail.cpp:93
-#, kde-format
-msgid "Select preferred email client:"
+#: componentchooserfilemanager.cpp:58
+#, fuzzy, kde-format
+#| msgid "Select preferred email client:"
+msgid "Select preferred file manager:"
 msgstr "అభీష్ట ఈమెయిల్ క్లైంటును యెంపికచేయుము:"
 
-#: componentchooserterminal.cpp:101
+#: componentchooserterminal.cpp:122
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "అభీష్ట టెర్మినల్ అనువర్తనమును యెంపికచేయుము:"
-
-#. i18n: ectx: property (whatsThis), widget (QRadioButton, kmailCB)
-#: emailclientconfig_ui.ui:12
-#, fuzzy, kde-format
-#| msgid "Kmail is the standard Mail program for the KDE desktop."
-msgid "Kmail is the standard Mail program for the Plasma desktop."
-msgstr "KDE రంగస్థలమునకు Kmail ప్రామాణిక మెయిల్ ప్రోగ్రామ్."
-
-#. i18n: ectx: property (text), widget (QRadioButton, kmailCB)
-#: emailclientconfig_ui.ui:15
-#, kde-format
-msgid "&Use KMail as preferred email client"
-msgstr "(&U) KMailను అభీష్ట మెయిల్ క్లైంట్‌గా వుపయోగించుము."
-
-#. i18n: ectx: property (whatsThis), widget (QRadioButton, otherCB)
-#: emailclientconfig_ui.ui:22
-#, kde-format
-msgid "Select this option if you want to use any other mail program."
-msgstr "మీరు ఏదైనా యితర మెయిల్ ప్రోగ్రామ్‌ను వుపయోగించాలని అనుకుంటే ఈ ఐచ్చికాన్ని యెంపికచేసుకోండి."
-
-#. i18n: ectx: property (text), widget (QRadioButton, otherCB)
-#: emailclientconfig_ui.ui:25
-#, kde-format
-msgid "Use a different &email client:"
-msgstr "(&e) వేరే ఈమెయిల్ క్లైంటును వుపయోగించుము:"
-
-#. i18n: ectx: property (toolTip), widget (KLineEdit, txtEMailClient)
-#: emailclientconfig_ui.ui:53
-#, fuzzy, no-c-format, kde-format
-#| msgid ""
-#| "<ul> <li>%t: Recipient's address</li> <li>%s: Subject</li> <li>%c: Carbon "
-#| "Copy (CC)</li> <li>%b: Blind Carbon Copy (BCC)</li> <li>%B: Template body "
-#| "text</li> <li>%A: Attachment </li> <li>%u: Full mailto: URL </li></ul>"
-msgid ""
-"Optional placeholders: <ul> <li>%t: Recipient's address</li> <li>%s: "
-"Subject</li> <li>%c: Carbon Copy (CC)</li> <li>%b: Blind Carbon Copy (BCC)</"
-"li> <li>%B: Template body text</li> <li>%A: Attachment </li> <li>%u: Full "
-"mailto: URL </li></ul>"
-msgstr ""
-"<ul> <li>%t: స్వీకరించువాని చిరునామా</li> <li>%s: సంగతి</li> <li>%c: కార్బన్ కాపీ (CC)</"
-"li> <li>%b: బ్లైండ్ కార్బన్ కాపీ (BCC)</li> <li>%B: టెంప్లేట్ బాడీ వచనము </li> <li>%A: "
-"అనుభందము </li> <li>%u: పూర్తి మెయిల్: URL </li></ul>"
-
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, txtEMailClient)
-#: emailclientconfig_ui.ui:56
-#, no-c-format, kde-format
-msgid ""
-"Press this button to select your favorite email client. Please note that the "
-"file you select has to have the executable attribute set in order to be "
-"accepted.<br/> You can also use several placeholders which will be replaced "
-"with the actual values when the email client is called:<ul> <li>%t: "
-"Recipient's address</li> <li>%s: Subject</li> <li>%c: Carbon Copy (CC)</li> "
-"<li>%b: Blind Carbon Copy (BCC)</li> <li>%B: Template body text</li> <li>%A: "
-"Attachment </li> </ul>"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QToolButton, btnSelectEmail)
-#: emailclientconfig_ui.ui:66
-#, kde-format
-msgid "Click here to browse for the mail program file."
-msgstr "మెయిల్ ప్రోగ్రామ్ పైలు కొరకు బ్రౌజ్ చేయుటకు యిక్కడ నొక్కుము."
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkRunTerminal)
-#: emailclientconfig_ui.ui:99
-#, kde-format
-msgid ""
-"Activate this option if you want the selected email client to be executed in "
-"a terminal (e.g. <em>Konsole</em>)."
-msgstr ""
-"ఎంపికచేసిన ఈమెయిల్ క్లైంట్ టెర్మినల్ నందు నిర్వర్తించబడాలని మీరు కోరుకుంటే ఈ ఐచ్చికాన్ని క్రియాశీలము చేయండి "
-"(ఉ.దా. <em>Konsole</em>)."
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkRunTerminal)
-#: emailclientconfig_ui.ui:102
-#, kde-format
-msgid "&Run in terminal"
-msgstr "(&R) టెర్మినల్ నందు నడుపుము"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: filemanagerconfig_ui.ui:12
-#, fuzzy, kde-format
-#| msgid "Browse directories using the following file manager "
-msgid "Browse directories using the following file manager:"
-msgstr "ఈ క్రింది ఫైలు నిర్వాహికను వుపయోగించి డైరెక్టరీలను బ్రౌజ్ చేయుము"
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
-#: filemanagerconfig_ui.ui:24
-#, kde-format
-msgid "Other: click Add... in the dialog shown here:"
-msgstr "ఇతర: జతచేయుము నొక్కుము... ఇక్కడ చూయించిన డైలాగునందు:"
 
 #: kcm_componentchooser.cpp:43
 #, kde-format
@@ -244,33 +120,87 @@ msgstr "(c), 2002 జోసెఫ్ వెనిన్‌గర్"
 msgid "Joseph Wenninger"
 msgstr "జోసెఫ్ వెనిన్‌గర్"
 
-#. i18n: ectx: property (text), widget (QRadioButton, terminalCB)
-#: terminalemulatorconfig_ui.ui:12
-#, kde-format
-msgid "&Use Konsole as terminal application"
-msgstr "(&U) కన్సోలును టెర్మినల్ అనువర్తనము వలె వుపయోగించుము"
+#~ msgid "<qt>Open <b>http</b> and <b>https</b> URLs</qt>"
+#~ msgstr "<qt><b>http</b> మరియు <b>https</b> URLలను తెరువుము</qt>"
 
-#. i18n: ectx: property (text), widget (QRadioButton, otherCB)
-#: terminalemulatorconfig_ui.ui:19
-#, kde-format
-msgid "Use a different &terminal program:"
-msgstr "(&t) వేరే టెర్మినల్ ప్రోగ్రామును వుపయోగించుము:"
+#~ msgid "in an application based on the contents of the URL"
+#~ msgstr "URL యొక్క సారములపై ఆధారపడి వొక అనువర్తనము నందు"
 
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, terminalLE)
-#: terminalemulatorconfig_ui.ui:47
-#, kde-format
-msgid ""
-"Press this button to select your favorite terminal client. Please note that "
-"the file you select has to have the executable attribute set in order to be "
-"accepted.<br/> Also note that some programs that utilize Terminal Emulator "
-"will not work if you add command line arguments (Example: konsole -ls)."
-msgstr ""
+#, fuzzy
+#~| msgid "in the following browser:"
+#~ msgid "in the following application:"
+#~ msgstr "క్రింది బ్రౌజర్ నందు:"
 
-#. i18n: ectx: property (whatsThis), widget (QToolButton, btnSelectTerminal)
-#: terminalemulatorconfig_ui.ui:57
-#, kde-format
-msgid "Click here to browse for terminal program."
-msgstr "టెర్మినల్ ప్రోగ్రామ్ కొరకు బ్రౌజ్ చేయుటకు యిక్కడ నొక్కుము."
+#, fuzzy
+#~| msgid "in the following browser:"
+#~ msgid "with the following command:"
+#~ msgstr "క్రింది బ్రౌజర్ నందు:"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Select preferred Web browser application:"
+#~ msgstr "అభీష్ట వెబ్ బ్రౌజర్ అనువర్తనమును యెంపికచేయుము:"
+
+#, fuzzy
+#~| msgid "Kmail is the standard Mail program for the KDE desktop."
+#~ msgid "Kmail is the standard Mail program for the Plasma desktop."
+#~ msgstr "KDE రంగస్థలమునకు Kmail ప్రామాణిక మెయిల్ ప్రోగ్రామ్."
+
+#~ msgid "&Use KMail as preferred email client"
+#~ msgstr "(&U) KMailను అభీష్ట మెయిల్ క్లైంట్‌గా వుపయోగించుము."
+
+#~ msgid "Select this option if you want to use any other mail program."
+#~ msgstr "మీరు ఏదైనా యితర మెయిల్ ప్రోగ్రామ్‌ను వుపయోగించాలని అనుకుంటే ఈ ఐచ్చికాన్ని యెంపికచేసుకోండి."
+
+#~ msgid "Use a different &email client:"
+#~ msgstr "(&e) వేరే ఈమెయిల్ క్లైంటును వుపయోగించుము:"
+
+#, fuzzy
+#~| msgid ""
+#~| "<ul> <li>%t: Recipient's address</li> <li>%s: Subject</li> <li>%c: "
+#~| "Carbon Copy (CC)</li> <li>%b: Blind Carbon Copy (BCC)</li> <li>%B: "
+#~| "Template body text</li> <li>%A: Attachment </li> <li>%u: Full mailto: "
+#~| "URL </li></ul>"
+#~ msgid ""
+#~ "Optional placeholders: <ul> <li>%t: Recipient's address</li> <li>%s: "
+#~ "Subject</li> <li>%c: Carbon Copy (CC)</li> <li>%b: Blind Carbon Copy "
+#~ "(BCC)</li> <li>%B: Template body text</li> <li>%A: Attachment </li> <li>"
+#~ "%u: Full mailto: URL </li></ul>"
+#~ msgstr ""
+#~ "<ul> <li>%t: స్వీకరించువాని చిరునామా</li> <li>%s: సంగతి</li> <li>%c: కార్బన్ కాపీ (CC)</"
+#~ "li> <li>%b: బ్లైండ్ కార్బన్ కాపీ (BCC)</li> <li>%B: టెంప్లేట్ బాడీ వచనము </li> <li>%A: "
+#~ "అనుభందము </li> <li>%u: పూర్తి మెయిల్: URL </li></ul>"
+
+#~ msgid "Click here to browse for the mail program file."
+#~ msgstr "మెయిల్ ప్రోగ్రామ్ పైలు కొరకు బ్రౌజ్ చేయుటకు యిక్కడ నొక్కుము."
+
+#~ msgid ""
+#~ "Activate this option if you want the selected email client to be executed "
+#~ "in a terminal (e.g. <em>Konsole</em>)."
+#~ msgstr ""
+#~ "ఎంపికచేసిన ఈమెయిల్ క్లైంట్ టెర్మినల్ నందు నిర్వర్తించబడాలని మీరు కోరుకుంటే ఈ ఐచ్చికాన్ని క్రియాశీలము "
+#~ "చేయండి (ఉ.దా. <em>Konsole</em>)."
+
+#~ msgid "&Run in terminal"
+#~ msgstr "(&R) టెర్మినల్ నందు నడుపుము"
+
+#, fuzzy
+#~| msgid "Browse directories using the following file manager "
+#~ msgid "Browse directories using the following file manager:"
+#~ msgstr "ఈ క్రింది ఫైలు నిర్వాహికను వుపయోగించి డైరెక్టరీలను బ్రౌజ్ చేయుము"
+
+#~ msgid "Other: click Add... in the dialog shown here:"
+#~ msgstr "ఇతర: జతచేయుము నొక్కుము... ఇక్కడ చూయించిన డైలాగునందు:"
+
+#~ msgid "&Use Konsole as terminal application"
+#~ msgstr "(&U) కన్సోలును టెర్మినల్ అనువర్తనము వలె వుపయోగించుము"
+
+#~ msgid "Use a different &terminal program:"
+#~ msgstr "(&t) వేరే టెర్మినల్ ప్రోగ్రామును వుపయోగించుము:"
+
+#~ msgid "Click here to browse for terminal program."
+#~ msgstr "టెర్మినల్ ప్రోగ్రామ్ కొరకు బ్రౌజ్ చేయుటకు యిక్కడ నొక్కుము."
 
 #, fuzzy
 #~ msgid "1 second remaining:"
