@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_pci\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-07 03:49+0100\n"
+"POT-Creation-Date: 2020-01-23 08:41+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -68,804 +68,804 @@ msgstr ""
 "ఈ ప్రదర్శన మీ కంప్యూటర్ యొక్క PCI స్లాట్స్ మరియు సంభందిత అనుసంధానిత పరికరముల గురించిన సమాచారాన్ని "
 "చూపుతుంది."
 
-#: kpci.cpp:63
+#: kpci.cpp:64
 #, kde-format
 msgid "Device Class"
 msgstr "పరికరము క్లాస్"
 
-#: kpci.cpp:64
+#: kpci.cpp:65
 #, kde-format
 msgid "Device Subclass"
 msgstr "పరికరము సబ్‌క్లాస్"
 
-#: kpci.cpp:65
+#: kpci.cpp:66
 #, kde-format
 msgid "Device Programming Interface"
 msgstr "పరికరము ప్రోగ్రామింగ్ ఇంటర్‌ఫేస్"
 
-#: kpci.cpp:67
+#: kpci.cpp:68
 #, kde-format
 msgid "Master IDE Device"
 msgstr "మాస్టర్ IDE పరికరము"
 
-#: kpci.cpp:68
+#: kpci.cpp:69
 #, kde-format
 msgid "Secondary programmable indicator"
 msgstr "ద్వితీయ ప్రోగ్రామబుల్ సూచకి"
 
-#: kpci.cpp:69
+#: kpci.cpp:70
 #, kde-format
 msgid "Secondary operating mode"
 msgstr "ద్వితీయ ఆపరేటింగ్ రీతి"
 
-#: kpci.cpp:70
+#: kpci.cpp:71
 #, kde-format
 msgid "Primary programmable indicator"
 msgstr "ప్రాధమిక ప్రోగ్రామబుల్ సూచకి"
 
-#: kpci.cpp:71
+#: kpci.cpp:72
 #, kde-format
 msgid "Primary operating mode"
 msgstr "ప్రాధమిక ఆపరేటింగ్ రీతి"
 
-#: kpci.cpp:99 kpci.cpp:123
+#: kpci.cpp:100 kpci.cpp:124
 #, kde-format
 msgid "Vendor"
 msgstr "అమ్మకందారి (వెండార్)"
 
-#: kpci.cpp:106 kpci.cpp:125
+#: kpci.cpp:107 kpci.cpp:126
 #, kde-format
 msgid "Device"
 msgstr "పరికరం"
 
-#: kpci.cpp:115 kpci.cpp:134 kpci.cpp:137 kpci.cpp:141
+#: kpci.cpp:116 kpci.cpp:135 kpci.cpp:138 kpci.cpp:142
 #, kde-format
 msgid "Subsystem"
 msgstr "ఉపసిస్టమ్"
 
-#: kpci.cpp:134
+#: kpci.cpp:135
 #, kde-format
 msgid " - device:"
 msgstr " - పరికరము:"
 
-#: kpci.cpp:151 kpci.cpp:171
+#: kpci.cpp:152 kpci.cpp:172
 #, kde-format
 msgid "Interrupt"
 msgstr "ఇంటరప్ట్"
 
-#: kpci.cpp:152
+#: kpci.cpp:153
 #, kde-format
 msgid "IRQ"
 msgstr "ఐ ఆర్ క్యూ"
 
-#: kpci.cpp:153
+#: kpci.cpp:154
 #, kde-format
 msgid "Pin"
 msgstr "పిన్"
 
-#: kpci.cpp:160
+#: kpci.cpp:161
 #, kde-format
 msgid "Control"
 msgstr "నియంత్రణ"
 
-#: kpci.cpp:161
+#: kpci.cpp:162
 #, kde-format
 msgid "Response in I/O space"
 msgstr "I/P స్పేస్ నందు స్పందన"
 
-#: kpci.cpp:162
+#: kpci.cpp:163
 #, kde-format
 msgid "Response in memory space"
 msgstr "మెమొరీ స్పేస్‌నందు స్పందన"
 
-#: kpci.cpp:163
+#: kpci.cpp:164
 #, kde-format
 msgid "Bus mastering"
 msgstr "బస్ మాస్టరింగ్"
 
-#: kpci.cpp:164
+#: kpci.cpp:165
 #, kde-format
 msgid "Response to special cycles"
 msgstr "ప్రత్యేక సైకిల్స్‌కు స్పందన"
 
-#: kpci.cpp:165
+#: kpci.cpp:166
 #, kde-format
 msgid "Memory write and invalidate"
 msgstr ""
 
-#: kpci.cpp:166
+#: kpci.cpp:167
 #, kde-format
 msgid "Palette snooping"
 msgstr "పాలెట్ స్నూపింగ్"
 
-#: kpci.cpp:167
+#: kpci.cpp:168
 #, kde-format
 msgid "Parity checking"
 msgstr "పారిటి చెకింగ్"
 
-#: kpci.cpp:168
+#: kpci.cpp:169
 #, kde-format
 msgid "Address/data stepping"
 msgstr "చిరునామా/డాటా స్టెప్పింగ్"
 
-#: kpci.cpp:169
+#: kpci.cpp:170
 #, kde-format
 msgid "System error"
 msgstr "సిస్టమ్ దోషము"
 
-#: kpci.cpp:170
+#: kpci.cpp:171
 #, kde-format
 msgid "Back-to-back writes"
 msgstr "బ్యాక్-టు-బ్యాక్ వ్రైట్స్"
 
-#: kpci.cpp:177 kpci.cpp:421 kpci.cpp:520 kpci.cpp:545
+#: kpci.cpp:178 kpci.cpp:422 kpci.cpp:521 kpci.cpp:546
 #, kde-format
 msgid "Status"
 msgstr "స్థితి"
 
-#: kpci.cpp:178 kpci.cpp:337 kpci.cpp:352
+#: kpci.cpp:179 kpci.cpp:338 kpci.cpp:353
 #, kde-format
 msgid "Interrupt status"
 msgstr "ఆటంకము స్థితి"
 
-#: kpci.cpp:179 kpci.cpp:338 kpci.cpp:353
+#: kpci.cpp:180 kpci.cpp:339 kpci.cpp:354
 #, kde-format
 msgid "Capability list"
 msgstr "కాపబిలిటి జాబితా"
 
-#: kpci.cpp:180 kpci.cpp:339 kpci.cpp:354
+#: kpci.cpp:181 kpci.cpp:340 kpci.cpp:355
 #, kde-format
 msgid "66 MHz PCI 2.1 bus"
 msgstr "66 MHz PCI 2.1 bus"
 
-#: kpci.cpp:181 kpci.cpp:340 kpci.cpp:355
+#: kpci.cpp:182 kpci.cpp:341 kpci.cpp:356
 #, kde-format
 msgid "User-definable features"
 msgstr "వినియోగదారి-నిర్విచించదగు సౌలభ్యములు"
 
-#: kpci.cpp:182 kpci.cpp:341 kpci.cpp:356
+#: kpci.cpp:183 kpci.cpp:342 kpci.cpp:357
 #, kde-format
 msgid "Accept fast back-to-back"
 msgstr "ఫాస్ట్ బ్యాక్-టు-బ్యాక్‌ను ఆమోదించుము"
 
-#: kpci.cpp:183 kpci.cpp:342 kpci.cpp:357
+#: kpci.cpp:184 kpci.cpp:343 kpci.cpp:358
 #, kde-format
 msgid "Data parity error"
 msgstr "డాటా పారిటి దోషము"
 
-#: kpci.cpp:184 kpci.cpp:343 kpci.cpp:358
+#: kpci.cpp:185 kpci.cpp:344 kpci.cpp:359
 #, kde-format
 msgid "Device selection timing"
 msgstr "పరికరము యెంపిక టైమింగ్"
 
-#: kpci.cpp:185 kpci.cpp:344 kpci.cpp:359
+#: kpci.cpp:186 kpci.cpp:345 kpci.cpp:360
 #, kde-format
 msgid "Signaled target abort"
 msgstr "సంకేతించిన లక్ష్యపు ఎబార్ట్"
 
-#: kpci.cpp:186 kpci.cpp:345 kpci.cpp:360
+#: kpci.cpp:187 kpci.cpp:346 kpci.cpp:361
 #, kde-format
 msgid "Received target abort"
 msgstr "స్వీకరించిన లక్ష్యపు ఎబార్ట్"
 
-#: kpci.cpp:187 kpci.cpp:346 kpci.cpp:361
+#: kpci.cpp:188 kpci.cpp:347 kpci.cpp:362
 #, kde-format
 msgid "Received master abort"
 msgstr "స్వీకరించిన మాస్టర్ ఎబార్ట్"
 
-#: kpci.cpp:188 kpci.cpp:347 kpci.cpp:362
+#: kpci.cpp:189 kpci.cpp:348 kpci.cpp:363
 #, kde-format
 msgid "Signaled system error"
 msgstr "సంకేతించిన సిస్టమ్ దోషము"
 
-#: kpci.cpp:189 kpci.cpp:348 kpci.cpp:363
+#: kpci.cpp:190 kpci.cpp:349 kpci.cpp:364
 #, kde-format
 msgid "Parity error"
 msgstr "పారిటి దోషము"
 
-#: kpci.cpp:195
+#: kpci.cpp:196
 #, kde-format
 msgid "Latency"
 msgstr "లేటెన్సీ"
 
-#: kpci.cpp:198 kpci.cpp:201
+#: kpci.cpp:199 kpci.cpp:202
 #, kde-format
 msgid "MIN_GNT"
 msgstr "MIN_GNT"
 
-#: kpci.cpp:198 kpci.cpp:204
+#: kpci.cpp:199 kpci.cpp:205
 #, kde-format
 msgid "No major requirements (0x00)"
 msgstr "మేజర్ అవసరములు లేవు (0x00)"
 
-#: kpci.cpp:204 kpci.cpp:207
+#: kpci.cpp:205 kpci.cpp:208
 #, kde-format
 msgid "MAX_LAT"
 msgstr "MAX_LAT"
 
-#: kpci.cpp:215
+#: kpci.cpp:216
 #, kde-format
 msgid "Header"
 msgstr "హెడర్"
 
-#: kpci.cpp:216 kpci.cpp:279 kpci.cpp:450
+#: kpci.cpp:217 kpci.cpp:280 kpci.cpp:451
 #, kde-format
 msgid "Type"
 msgstr "రకము"
 
-#: kpci.cpp:217
+#: kpci.cpp:218
 #, kde-format
 msgid "Multifunctional"
 msgstr "మల్టీఫంక్షనల్"
 
-#: kpci.cpp:223
+#: kpci.cpp:224
 #, kde-format
 msgid "Build-in self test"
 msgstr "బుల్ట్-ఇన్ సెల్ఫ్ పరీక్ష"
 
-#: kpci.cpp:224
+#: kpci.cpp:225
 #, kde-format
 msgid "BIST Capable"
 msgstr "BIST సామర్ధ్యంగల"
 
-#: kpci.cpp:226
+#: kpci.cpp:227
 #, kde-format
 msgid "BIST Start"
 msgstr "BIST ప్రారంభము"
 
-#: kpci.cpp:227
+#: kpci.cpp:228
 #, kde-format
 msgid "Completion code"
 msgstr "ముగింపు కోడ్"
 
-#: kpci.cpp:234 kpci.cpp:237 kpci.cpp:240 kpci.cpp:246 kpci.cpp:249
-#: kpci.cpp:252 kpci.cpp:257 kpci.cpp:287 kpci.cpp:303 kpci.cpp:424
+#: kpci.cpp:235 kpci.cpp:238 kpci.cpp:241 kpci.cpp:247 kpci.cpp:250
+#: kpci.cpp:253 kpci.cpp:258 kpci.cpp:288 kpci.cpp:304 kpci.cpp:425
 #, kde-format
 msgid "Size"
 msgstr "పరిమాణము"
 
-#: kpci.cpp:268
+#: kpci.cpp:269
 #, kde-format
 msgid "Address mappings"
 msgstr "చిరునామా మాపింగ్సు"
 
-#: kpci.cpp:276
+#: kpci.cpp:277
 #, kde-format
 msgid "Mapping %1"
 msgstr "మాపింగ్ %1"
 
-#: kpci.cpp:277
+#: kpci.cpp:278
 #, kde-format
 msgid "Space"
 msgstr "స్పేస్"
 
-#: kpci.cpp:277
+#: kpci.cpp:278
 #, kde-format
 msgid "I/O"
 msgstr "I/O"
 
-#: kpci.cpp:277
+#: kpci.cpp:278
 #, kde-format
 msgid "Memory"
 msgstr "మెమొరి"
 
-#: kpci.cpp:280 kpci.cpp:443
+#: kpci.cpp:281 kpci.cpp:444
 #, kde-format
 msgid "Prefetchable"
 msgstr "ముందుగాఫెచ్‌చేయగల"
 
-#: kpci.cpp:286 kpci.cpp:290 kpci.cpp:295 kpci.cpp:302 kpci.cpp:306
-#: kpci.cpp:423 kpci.cpp:427 kpci.cpp:614 kpci.cpp:622
+#: kpci.cpp:287 kpci.cpp:291 kpci.cpp:296 kpci.cpp:303 kpci.cpp:307
+#: kpci.cpp:424 kpci.cpp:428 kpci.cpp:615 kpci.cpp:623
 #, kde-format
 msgid "Address"
 msgstr "చిరునామా"
 
-#: kpci.cpp:286 kpci.cpp:302 kpci.cpp:423
+#: kpci.cpp:287 kpci.cpp:303 kpci.cpp:424
 #, fuzzy, kde-format
 #| msgid "Unassigned"
 msgctxt "unassigned address"
 msgid "Unassigned"
 msgstr "అప్పగించని"
 
-#: kpci.cpp:287 kpci.cpp:303 kpci.cpp:424
+#: kpci.cpp:288 kpci.cpp:304 kpci.cpp:425
 #, fuzzy, kde-format
 #| msgid "Unassigned"
 msgctxt "unassigned size"
 msgid "Unassigned"
 msgstr "అప్పగించని"
 
-#: kpci.cpp:317 kpci.cpp:324
+#: kpci.cpp:318 kpci.cpp:325
 #, kde-format
 msgid "Bus"
 msgstr "బస్"
 
-#: kpci.cpp:318 kpci.cpp:325
+#: kpci.cpp:319 kpci.cpp:326
 #, kde-format
 msgid "Primary bus number"
 msgstr "ప్రాధమిక బస్ సంఖ్య"
 
-#: kpci.cpp:319
+#: kpci.cpp:320
 #, kde-format
 msgid "Secondary bus number"
 msgstr "రెండవ బస్ సంఖ్య"
 
-#: kpci.cpp:320 kpci.cpp:327
+#: kpci.cpp:321 kpci.cpp:328
 #, kde-format
 msgid "Subordinate bus number"
 msgstr "సబ్‌రొటీన్ బస్ సంఖ్య"
 
-#: kpci.cpp:321
+#: kpci.cpp:322
 #, kde-format
 msgid "Secondary latency timer"
 msgstr "రెండవ లాటెన్సి టైమర్"
 
-#: kpci.cpp:326
+#: kpci.cpp:327
 #, kde-format
 msgid "CardBus number"
 msgstr "కార్డ్‌బస్ సంఖ్య"
 
-#: kpci.cpp:328
+#: kpci.cpp:329
 #, kde-format
 msgid "CardBus latency timer"
 msgstr "కార్డ్‌బస్ లేటెన్సి టైమర్"
 
-#: kpci.cpp:336 kpci.cpp:351
+#: kpci.cpp:337 kpci.cpp:352
 #, kde-format
 msgid "Secondary status"
 msgstr "రెండవ స్థితి"
 
-#: kpci.cpp:371
+#: kpci.cpp:372
 #, kde-format
 msgid "I/O behind bridge"
 msgstr "I/O బిహైండ్ బ్రిడ్జ్"
 
-#: kpci.cpp:372 kpci.cpp:450
+#: kpci.cpp:373 kpci.cpp:451
 #, kde-format
 msgid "32-bit"
 msgstr "32-bit"
 
-#: kpci.cpp:374 kpci.cpp:378 kpci.cpp:382 kpci.cpp:387 kpci.cpp:391
-#: kpci.cpp:444 kpci.cpp:452 kpci.cpp:456
+#: kpci.cpp:375 kpci.cpp:379 kpci.cpp:383 kpci.cpp:388 kpci.cpp:392
+#: kpci.cpp:445 kpci.cpp:453 kpci.cpp:457
 #, kde-format
 msgid "Base"
 msgstr "బేస్"
 
-#: kpci.cpp:375 kpci.cpp:379 kpci.cpp:383 kpci.cpp:388 kpci.cpp:392
-#: kpci.cpp:445 kpci.cpp:453 kpci.cpp:457
+#: kpci.cpp:376 kpci.cpp:380 kpci.cpp:384 kpci.cpp:389 kpci.cpp:393
+#: kpci.cpp:446 kpci.cpp:454 kpci.cpp:458
 #, kde-format
 msgid "Limit"
 msgstr "పరిమితి"
 
-#: kpci.cpp:381
+#: kpci.cpp:382
 #, kde-format
 msgid "Memory behind bridge"
 msgstr "మెమొరి బిహైండ్ బ్రిడ్జ్"
 
-#: kpci.cpp:384
+#: kpci.cpp:385
 #, kde-format
 msgid "Prefetchable memory behind bridge"
 msgstr "బ్రిడ్జ్ వెనుక ముందుగాఫెచ్‌చేయగలిగిన మెమొరి"
 
-#: kpci.cpp:385
+#: kpci.cpp:386
 #, kde-format
 msgid "64-bit"
 msgstr "64-bit"
 
-#: kpci.cpp:401
+#: kpci.cpp:402
 #, kde-format
 msgid "Bridge control"
 msgstr "బ్రిడ్జ్ నియంత్రణ"
 
-#: kpci.cpp:402 kpci.cpp:469
+#: kpci.cpp:403 kpci.cpp:470
 #, kde-format
 msgid "Secondary parity checking"
 msgstr "రెండవ పారిటి పరిశీలన"
 
-#: kpci.cpp:403 kpci.cpp:470
+#: kpci.cpp:404 kpci.cpp:471
 #, kde-format
 msgid "Secondary system error"
 msgstr "రెండవ సిస్టమ్ దోషము"
 
-#: kpci.cpp:404 kpci.cpp:471
+#: kpci.cpp:405 kpci.cpp:472
 #, kde-format
 msgid "ISA ports forwarding"
 msgstr "ISA పోర్ట్స్ ఫార్వార్డింగ్"
 
-#: kpci.cpp:405 kpci.cpp:472
+#: kpci.cpp:406 kpci.cpp:473
 #, kde-format
 msgid "VGA forwarding"
 msgstr "VGA ఫార్వార్డింగ్"
 
-#: kpci.cpp:406 kpci.cpp:473
+#: kpci.cpp:407 kpci.cpp:474
 #, kde-format
 msgid "Master abort"
 msgstr "మాస్టర్ ఎబార్ట్"
 
-#: kpci.cpp:407
+#: kpci.cpp:408
 #, kde-format
 msgid "Secondary bus reset"
 msgstr "రెండవ బస్ తిరిగివుంచుము"
 
-#: kpci.cpp:408
+#: kpci.cpp:409
 #, kde-format
 msgid "Secondary back-to-back writes"
 msgstr "రెండవ బ్యాక్-టు-బ్యాక్ వ్రైట్స్"
 
-#: kpci.cpp:409
+#: kpci.cpp:410
 #, kde-format
 msgid "Primary discard timer counts"
 msgstr "ప్రాధమిక నిరాకరించు టైమర్ కౌంట్స్"
 
-#: kpci.cpp:409 kpci.cpp:410
+#: kpci.cpp:410 kpci.cpp:411
 #, kde-format
 msgid "2e10 PCI clocks"
 msgstr "2e10 PCI clocks"
 
-#: kpci.cpp:409 kpci.cpp:410
+#: kpci.cpp:410 kpci.cpp:411
 #, kde-format
 msgid "2e15 PCI clocks"
 msgstr "2e15 PCI clocks"
 
-#: kpci.cpp:410
+#: kpci.cpp:411
 #, kde-format
 msgid "Secondary discard timer counts"
 msgstr "రెండవ నిరాకరించు టైమర్ కౌంట్స్"
 
-#: kpci.cpp:411
+#: kpci.cpp:412
 #, kde-format
 msgid "Discard timer error"
 msgstr "నిరాకరించు టైమర్ దోషము"
 
-#: kpci.cpp:412
+#: kpci.cpp:413
 #, kde-format
 msgid "Discard timer system error"
 msgstr "నిరాకరించు టైమర్ సిస్టమ్ దోషము"
 
-#: kpci.cpp:420
+#: kpci.cpp:421
 #, kde-format
 msgid "Expansion ROM"
 msgstr "ఎక్స్‌పాన్షన్ ROM"
 
-#: kpci.cpp:439
+#: kpci.cpp:440
 #, kde-format
 msgid "Memory windows"
 msgstr "మెమొరీ విండోలు"
 
-#: kpci.cpp:442 kpci.cpp:449
+#: kpci.cpp:443 kpci.cpp:450
 #, kde-format
 msgid "Window %1"
 msgstr "విండో %1"
 
-#: kpci.cpp:447
+#: kpci.cpp:448
 #, kde-format
 msgid "I/O windows"
 msgstr "I/O విండోలు"
 
-#: kpci.cpp:450
+#: kpci.cpp:451
 #, kde-format
 msgid "16-bit"
 msgstr "16-bit"
 
-#: kpci.cpp:460
+#: kpci.cpp:461
 #, kde-format
 msgid "16-bit legacy interface ports"
 msgstr "16-bit లెగసి ఇంటర్‌ఫేస్ పోర్ట్స్"
 
-#: kpci.cpp:468
+#: kpci.cpp:469
 #, kde-format
 msgid "CardBus control"
 msgstr "కార్డ్‌బస్ నియంత్రణ"
 
-#: kpci.cpp:474
+#: kpci.cpp:475
 #, kde-format
 msgid "Interrupts for 16-bit cards"
 msgstr "16-bit కార్డ్స్ కొరకు ఆటంకములు"
 
-#: kpci.cpp:475
+#: kpci.cpp:476
 #, kde-format
 msgid "Window 0 prefetchable memory"
 msgstr "విండో 0 ముందుగాఫెచ్‌చేయగలిగిన మెమొరీ"
 
-#: kpci.cpp:476
+#: kpci.cpp:477
 #, kde-format
 msgid "Window 1 prefetchable memory"
 msgstr "విండో 1 ముందుగాఫేచ్‌చేయగలిగిన మెమొరీ"
 
-#: kpci.cpp:477
+#: kpci.cpp:478
 #, kde-format
 msgid "Post writes"
 msgstr "పోస్ట్ వ్రైట్స్"
 
-#: kpci.cpp:485
+#: kpci.cpp:486
 #, kde-format
 msgid "Raw PCI config space"
 msgstr "ముడి PCI ఆకృతీకరణ జాగా"
 
-#: kpci.cpp:506 kpci.cpp:664 kpci.cpp:695
+#: kpci.cpp:507 kpci.cpp:665 kpci.cpp:696
 #, kde-format
 msgid "Capabilities"
 msgstr "సామర్ధ్యములు"
 
-#: kpci.cpp:507
+#: kpci.cpp:508
 #, kde-format
 msgid "Version"
 msgstr "వర్షన్"
 
-#: kpci.cpp:508
+#: kpci.cpp:509
 #, kde-format
 msgid "Clock required for PME generation"
 msgstr "PME వుద్భావనకు గడియారం అవసరము"
 
-#: kpci.cpp:509
+#: kpci.cpp:510
 #, kde-format
 msgid "Device-specific initialization required"
 msgstr "పరికరము-ప్రత్యేక సిద్దీకరణ అవసరము"
 
-#: kpci.cpp:510
+#: kpci.cpp:511
 #, kde-format
 msgid "Maximum auxiliary current required in D3 cold"
 msgstr "D3 కొల్డ్ నందు గరిష్ట ఆక్సిలరీ కరెంట్ అవసరము"
 
-#: kpci.cpp:511
+#: kpci.cpp:512
 #, kde-format
 msgid "D1 support"
 msgstr "D1 మద్దతు"
 
-#: kpci.cpp:512
+#: kpci.cpp:513
 #, kde-format
 msgid "D2 support"
 msgstr "D2 మద్దతు"
 
-#: kpci.cpp:513
+#: kpci.cpp:514
 #, kde-format
 msgid "Power management events"
 msgstr "పవర్ నిర్వహణా ఘటనలు"
 
-#: kpci.cpp:514 kpci_private.h:809
+#: kpci.cpp:515 kpci_private.h:809
 #, kde-format
 msgid "D0"
 msgstr "D0"
 
-#: kpci.cpp:515 kpci_private.h:810
+#: kpci.cpp:516 kpci_private.h:810
 #, kde-format
 msgid "D1"
 msgstr "D1"
 
-#: kpci.cpp:516 kpci_private.h:811
+#: kpci.cpp:517 kpci_private.h:811
 #, kde-format
 msgid "D2"
 msgstr "D2"
 
-#: kpci.cpp:517 kpci_private.h:812
+#: kpci.cpp:518 kpci_private.h:812
 #, kde-format
 msgid "D3 hot"
 msgstr "D3 హాట్"
 
-#: kpci.cpp:518
+#: kpci.cpp:519
 #, kde-format
 msgid "D3 cold"
 msgstr "D3 కోల్డ్"
 
-#: kpci.cpp:521
+#: kpci.cpp:522
 #, kde-format
 msgid "Power state"
 msgstr "పవర్ స్థితి"
 
-#: kpci.cpp:522 kpci_private.h:725
+#: kpci.cpp:523 kpci_private.h:725
 #, kde-format
 msgid "Power management"
 msgstr "పవర్ నిర్వహణ"
 
-#: kpci.cpp:523
+#: kpci.cpp:524
 #, kde-format
 msgid "Data select"
 msgstr "డాటా ఎంపిక"
 
-#: kpci.cpp:524
+#: kpci.cpp:525
 #, kde-format
 msgid "Data scale"
 msgstr "డాటా స్కేల్"
 
-#: kpci.cpp:525
+#: kpci.cpp:526
 #, kde-format
 msgid "Power management status"
 msgstr "పవర్ నిర్వహణ స్థితి"
 
-#: kpci.cpp:528
+#: kpci.cpp:529
 #, kde-format
 msgid "Bridge status"
 msgstr "బ్రిడ్జ్ స్థితి"
 
-#: kpci.cpp:529
+#: kpci.cpp:530
 #, kde-format
 msgid "Secondary bus state in D3 hot"
 msgstr "D3 హాట్‌నందు ద్వితీయ బస్ స్థితి"
 
-#: kpci.cpp:529
+#: kpci.cpp:530
 #, kde-format
 msgid "B2"
 msgstr "B2"
 
-#: kpci.cpp:529
+#: kpci.cpp:530
 #, kde-format
 msgid "B3"
 msgstr "B3"
 
-#: kpci.cpp:530
+#: kpci.cpp:531
 #, kde-format
 msgid "Secondary bus power & clock control"
 msgstr "రెండవ బస్ పవర్ & గడియార నియంత్రణ"
 
-#: kpci.cpp:533 kpci.cpp:593 kpci.cpp:615 kpci.cpp:623 kpci.cpp:639
-#: kpci.cpp:651
+#: kpci.cpp:534 kpci.cpp:594 kpci.cpp:616 kpci.cpp:624 kpci.cpp:640
+#: kpci.cpp:652
 #, kde-format
 msgid "Data"
 msgstr "డాటా"
 
 #. i18n("Revision"),QString::asprintf("%i.%i",infoAgp.revMaior,infoAgp.revMinor));
-#: kpci.cpp:544 kpci.cpp:742
+#: kpci.cpp:545 kpci.cpp:754
 #, kde-format
 msgid "Revision"
 msgstr "రివిజన్"
 
-#: kpci.cpp:546 kpci.cpp:567
+#: kpci.cpp:547 kpci.cpp:568
 #, kde-format
 msgid "Rate"
 msgstr "రేట్"
 
-#: kpci.cpp:547
+#: kpci.cpp:548
 #, kde-format
 msgid "AGP 3.0 mode"
 msgstr "AGP 3.0 రీతి"
 
-#: kpci.cpp:548 kpci.cpp:568
+#: kpci.cpp:549 kpci.cpp:569
 #, kde-format
 msgid "Fast Writes"
 msgstr "ఫాస్ట్ వ్రైట్స్"
 
-#: kpci.cpp:549 kpci.cpp:570
+#: kpci.cpp:550 kpci.cpp:571
 #, kde-format
 msgid "Address over 4 GiB"
 msgstr "4GiB పై చిరునామా"
 
-#: kpci.cpp:551
+#: kpci.cpp:552
 #, kde-format
 msgid "Translation of host processor access"
 msgstr "హోస్ట్ ప్రోసెసర్ యాక్సెస్ యొక్క అనువాదము"
 
-#: kpci.cpp:552 kpci.cpp:571
+#: kpci.cpp:553 kpci.cpp:572
 #, kde-format
 msgid "64-bit GART"
 msgstr "64-bit GART"
 
-#: kpci.cpp:553
+#: kpci.cpp:554
 #, kde-format
 msgid "Cache Coherency"
 msgstr "క్యాచి కొహెరెన్సి"
 
-#: kpci.cpp:555 kpci.cpp:574
+#: kpci.cpp:556 kpci.cpp:575
 #, kde-format
 msgid "Side-band addressing"
 msgstr "సైడ్-బాండ్ ఎడ్రెస్సింగ్"
 
-#: kpci.cpp:557 kpci.cpp:576
+#: kpci.cpp:558 kpci.cpp:577
 #, kde-format
 msgid "Calibrating cycle"
 msgstr "కాలిబ్రేటింగ్ సైకిల్"
 
-#: kpci.cpp:561 kpci.cpp:580
+#: kpci.cpp:562 kpci.cpp:581
 #, kde-format
 msgid "Optimum asynchronous request size"
 msgstr "ఆప్టిమమ్ ఎసింక్రనస్ అభ్యర్ధన పరిమాణము"
 
-#: kpci.cpp:562
+#: kpci.cpp:563
 #, kde-format
 msgid "Isochronous transactions"
 msgstr "ఐసోక్రోనస్ వ్యవహారములు"
 
-#: kpci.cpp:564 kpci.cpp:582
+#: kpci.cpp:565 kpci.cpp:583
 #, kde-format
 msgid "Maximum number of AGP command"
 msgstr "AGP ఆదేశము యొక్క గరిష్ట సంఖ్య"
 
-#: kpci.cpp:566
+#: kpci.cpp:567
 #, kde-format
 msgid "Configuration"
 msgstr "ఆకృతీకరణ"
 
-#: kpci.cpp:573 kpci_private.h:726
+#: kpci.cpp:574 kpci_private.h:726
 #, kde-format
 msgid "AGP"
 msgstr "AGP"
 
-#: kpci.cpp:591
+#: kpci.cpp:592
 #, kde-format
 msgid "Data address"
 msgstr "డాటా చిరునామా"
 
-#: kpci.cpp:592
+#: kpci.cpp:593
 #, kde-format
 msgid "Transfer completed"
 msgstr "బదిలీకరణ పూర్తైనది"
 
-#: kpci.cpp:604
+#: kpci.cpp:605
 #, kde-format
 msgid "Message control"
 msgstr "సందేశ నియంత్రణ"
 
-#: kpci.cpp:605 kpci_private.h:729
+#: kpci.cpp:606 kpci_private.h:729
 #, kde-format
 msgid "Message signaled interrupts"
 msgstr "సందేశం సంకేతిత ఆటంకములు"
 
-#: kpci.cpp:606
+#: kpci.cpp:607
 #, kde-format
 msgid "Multiple message capable"
 msgstr "బహుళ సందేశ సామర్థ్యంగల"
 
-#: kpci.cpp:607
+#: kpci.cpp:608
 #, kde-format
 msgid "Multiple message enable"
 msgstr "బహుళ సందేశము చేతనమైవున్న"
 
-#: kpci.cpp:608
+#: kpci.cpp:609
 #, kde-format
 msgid "64-bit address"
 msgstr "64-bit చిరునామా"
 
-#: kpci.cpp:609
+#: kpci.cpp:610
 #, kde-format
 msgid "Per vector masking"
 msgstr "ప్రతి వెక్టార్ మాస్కింగ్"
 
-#: kpci.cpp:617 kpci.cpp:625
+#: kpci.cpp:618 kpci.cpp:626
 #, kde-format
 msgid "Mask"
 msgstr "మాస్క్"
 
-#: kpci.cpp:618 kpci.cpp:626
+#: kpci.cpp:619 kpci.cpp:627
 #, kde-format
 msgid "Pending"
 msgstr "వాయిదావున్న"
 
-#: kpci.cpp:636
+#: kpci.cpp:637
 #, kde-format
 msgid "Length"
 msgstr "పొడవు"
 
-#: kpci.cpp:639
+#: kpci.cpp:640
 #, fuzzy, kde-format
 #| msgid "None"
 msgctxt "no data"
 msgid "None"
 msgstr "ఏదీకాదు"
 
-#: kpci.cpp:668
+#: kpci.cpp:669
 #, kde-format
 msgid "Next"
 msgstr "తరువాత"
 
-#: kpci.cpp:668 kpci.cpp:695
+#: kpci.cpp:669 kpci.cpp:696
 #, kde-format
 msgid "0x00 (None)"
 msgstr "0x00 (ఏదీకాదు)"
 
-#: kpci.cpp:691
+#: kpci.cpp:692
 #, kde-format
 msgid "Root only"
 msgstr "Root మాత్రమే"
 
-#: kpci.cpp:704
+#: kpci.cpp:713
 #, kde-format
 msgid "Information"
 msgstr "సమాచారం"
 
-#: kpci.cpp:704
+#: kpci.cpp:713
 #, kde-format
 msgid "Value"
 msgstr "విలువ"
 
-#: kpci.cpp:751
+#: kpci.cpp:763
 #, kde-format
 msgid "Cache line size"
 msgstr "క్యాచీ గీత పరిమాణము"
