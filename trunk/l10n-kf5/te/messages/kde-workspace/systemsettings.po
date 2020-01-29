@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-23 03:51+0100\n"
+"POT-Creation-Date: 2020-01-29 03:23+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -40,105 +40,118 @@ msgstr ""
 msgid "Show detailed tooltips"
 msgstr ""
 
-#: app/main.cpp:48 app/SettingsBase.cpp:56
+#: app/main.cpp:61 app/SettingsBase.cpp:68
+#, kde-format
+msgid "Info Center"
+msgstr ""
+
+#: app/main.cpp:61
+#, kde-format
+msgid "Centralized and convenient overview of system information."
+msgstr ""
+
+#: app/main.cpp:61 app/main.cpp:67 icons/IconMode.cpp:61
+#, kde-format
+msgid "(c) 2009, Ben Cooksley"
+msgstr ""
+
+#: app/main.cpp:62 app/main.cpp:68 icons/IconMode.cpp:62
+#: sidebar/SidebarMode.cpp:288
+#, kde-format
+msgid "Ben Cooksley"
+msgstr ""
+
+#: app/main.cpp:62 app/main.cpp:68
+#, kde-format
+msgid "Maintainer"
+msgstr ""
+
+#: app/main.cpp:63 app/main.cpp:69 icons/IconMode.cpp:63
+#: sidebar/SidebarMode.cpp:289
+#, kde-format
+msgid "Mathias Soeken"
+msgstr ""
+
+#: app/main.cpp:63 app/main.cpp:69 icons/IconMode.cpp:63
+#: sidebar/SidebarMode.cpp:289
+#, kde-format
+msgid "Developer"
+msgstr ""
+
+#: app/main.cpp:64 app/main.cpp:70
+#, kde-format
+msgid "Will Stephenson"
+msgstr ""
+
+#: app/main.cpp:64 app/main.cpp:70
+#, kde-format
+msgid "Internal module representation, internal module model"
+msgstr ""
+
+#: app/main.cpp:67 app/SettingsBase.cpp:71
 #: sidebar/package/contents/ui/introPage.qml:75
 #, kde-format
 msgid "System Settings"
 msgstr "సిస్టమ్ అమర్పులు"
 
-#: app/main.cpp:48
+#: app/main.cpp:67
 #, kde-format
 msgid "Central configuration center by KDE."
 msgstr ""
 
-#: app/main.cpp:48 icons/IconMode.cpp:61
-#, kde-format
-msgid "(c) 2009, Ben Cooksley"
-msgstr ""
-
-#: app/main.cpp:49 icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:288
-#, kde-format
-msgid "Ben Cooksley"
-msgstr ""
-
-#: app/main.cpp:49
-#, kde-format
-msgid "Maintainer"
-msgstr ""
-
-#: app/main.cpp:50 icons/IconMode.cpp:63 sidebar/SidebarMode.cpp:289
-#, kde-format
-msgid "Mathias Soeken"
-msgstr ""
-
-#: app/main.cpp:50 icons/IconMode.cpp:63 sidebar/SidebarMode.cpp:289
-#, kde-format
-msgid "Developer"
-msgstr ""
-
-#: app/main.cpp:51
-#, kde-format
-msgid "Will Stephenson"
-msgstr ""
-
-#: app/main.cpp:51
-#, kde-format
-msgid "Internal module representation, internal module model"
-msgstr ""
-
-#: app/SettingsBase.cpp:63
+#: app/SettingsBase.cpp:62
 #, kde-format
 msgctxt "Search through a list of control modules"
 msgid "Search"
 msgstr ""
 
-#: app/SettingsBase.cpp:143
+#: app/SettingsBase.cpp:161
 #, fuzzy, kde-format
 #| msgid "Configure"
 msgid "Configure..."
 msgstr "ఆకృతీకరించుము"
 
-#: app/SettingsBase.cpp:169
+#: app/SettingsBase.cpp:188
 #, kde-format
 msgid "Help"
 msgstr ""
 
-#: app/SettingsBase.cpp:174 app/SettingsBase.cpp:369
+#: app/SettingsBase.cpp:193 app/SettingsBase.cpp:409
 #, kde-format
 msgid "About Active Module"
 msgstr ""
 
-#: app/SettingsBase.cpp:188
+#: app/SettingsBase.cpp:207
 #, kde-format
 msgctxt "General config for System Settings"
 msgid "General"
 msgstr ""
 
-#: app/SettingsBase.cpp:280
+#: app/SettingsBase.cpp:318
 #, kde-format
 msgid ""
 "System Settings was unable to find any views, and hence nothing is available "
 "to configure."
 msgstr ""
 
-#: app/SettingsBase.cpp:280 app/SettingsBase.cpp:318
+#: app/SettingsBase.cpp:318 app/SettingsBase.cpp:356
 #, kde-format
 msgid "No views found"
 msgstr ""
 
-#: app/SettingsBase.cpp:318
+#: app/SettingsBase.cpp:356
 #, kde-format
 msgid ""
 "System Settings was unable to find any views, and hence has nothing to "
 "display."
 msgstr ""
 
-#: app/SettingsBase.cpp:351
+#: app/SettingsBase.cpp:389
 #, kde-format
 msgid "About Active View"
 msgstr ""
 
-#: app/SettingsBase.cpp:419
+#: app/SettingsBase.cpp:459
 #, kde-format
 msgid "About %1"
 msgstr ""
@@ -188,19 +201,19 @@ msgstr ""
 msgid "Dialog"
 msgstr ""
 
-#: core/ModuleView.cpp:91
+#: core/ModuleView.cpp:92
 #, kde-format
 msgid "Reset all current changes to previous values"
 msgstr ""
 
-#: core/ModuleView.cpp:245
+#: core/ModuleView.cpp:246
 #, kde-format
 msgid ""
 "The settings of the current module have changed.\n"
 "Do you want to apply the changes or discard them?"
 msgstr ""
 
-#: core/ModuleView.cpp:247
+#: core/ModuleView.cpp:248
 #, fuzzy, kde-format
 #| msgid "System Settings"
 msgid "Apply Settings"
@@ -289,12 +302,12 @@ msgstr ""
 msgid "Marco Martin"
 msgstr ""
 
-#: sidebar/SidebarMode.cpp:625
+#: sidebar/SidebarMode.cpp:646
 #, kde-format
 msgid "Sidebar"
 msgstr ""
 
-#: sidebar/SidebarMode.cpp:665
+#: sidebar/SidebarMode.cpp:686
 #, kde-format
 msgid "Most Used"
 msgstr ""
