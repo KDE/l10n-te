@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmicons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-16 03:41+0100\n"
+"POT-Creation-Date: 2020-01-29 08:17+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -58,7 +58,7 @@ msgstr "ప్యానల్"
 msgid "Dialogs"
 msgstr ""
 
-#: main.cpp:80 package/contents/ui/main.qml:256
+#: main.cpp:80
 #, kde-format
 msgid "Icons"
 msgstr "ప్రతిమలు"
@@ -166,6 +166,12 @@ msgstr ""
 msgid "Install from File..."
 msgstr "థీమ్ పైలు సంస్థాపించుము..."
 
+#: package/contents/ui/main.qml:256
+#, fuzzy, kde-format
+#| msgid "Get New Themes..."
+msgid "Get New Icons..."
+msgstr "కొత్త థీమ్సును పొందుము..."
+
 #: package/contents/ui/main.qml:277
 #, fuzzy, kde-format
 #| msgid "Remove Theme"
@@ -176,11 +182,6 @@ msgstr "థీమ్‌ను తీసివేయి"
 #, kde-format
 msgid "Theme Files (*.tar.gz *.tar.bz2)"
 msgstr ""
-
-#, fuzzy
-#~| msgid "Get New Themes..."
-#~ msgid "Get New Icons..."
-#~ msgstr "కొత్త థీమ్సును పొందుము..."
 
 #~ msgid "Use of Icon"
 #~ msgstr "ప్రతిమ యొక్క వుపయోగము"
