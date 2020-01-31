@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-30 03:38+0100\n"
+"POT-Creation-Date: 2020-01-31 08:33+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "స్థానం"
 
 #: package/contents/config/config.qml:36
 #: package/contents/ui/ConfigIcons.qml:220
-#: package/contents/ui/FolderViewLayer.qml:422
+#: package/contents/ui/FolderViewLayer.qml:412
 msgid "Icons"
 msgstr "ప్రతిమలు"
 
@@ -111,13 +111,13 @@ msgid "Arrangement:"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:142
-#: plugins/folder/viewpropertiesmenu.cpp:34
+#: plugins/folder/viewpropertiesmenu.cpp:76
 #, kde-format
 msgid "Rows"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:142
-#: plugins/folder/viewpropertiesmenu.cpp:38
+#: plugins/folder/viewpropertiesmenu.cpp:80
 #, kde-format
 msgid "Columns"
 msgstr ""
@@ -143,7 +143,7 @@ msgid "Manual"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:185
-#: plugins/folder/viewpropertiesmenu.cpp:62
+#: plugins/folder/viewpropertiesmenu.cpp:38
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "By Name"
@@ -151,7 +151,7 @@ msgid "Name"
 msgstr "పేరు ద్వారా"
 
 #: package/contents/ui/ConfigIcons.qml:185
-#: plugins/folder/viewpropertiesmenu.cpp:66
+#: plugins/folder/viewpropertiesmenu.cpp:42
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "By Size"
@@ -159,7 +159,7 @@ msgid "Size"
 msgstr "పరిమాణము ద్వారా"
 
 #: package/contents/ui/ConfigIcons.qml:185
-#: plugins/folder/viewpropertiesmenu.cpp:70
+#: plugins/folder/viewpropertiesmenu.cpp:46
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "By Type"
@@ -167,7 +167,7 @@ msgid "Type"
 msgstr "రకము ద్వారా"
 
 #: package/contents/ui/ConfigIcons.qml:185
-#: plugins/folder/viewpropertiesmenu.cpp:74
+#: plugins/folder/viewpropertiesmenu.cpp:50
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "By Date"
@@ -175,7 +175,7 @@ msgid "Date"
 msgstr "తేదీ ద్వారా"
 
 #: package/contents/ui/ConfigIcons.qml:196
-#: plugins/folder/viewpropertiesmenu.cpp:79
+#: plugins/folder/viewpropertiesmenu.cpp:55
 #, kde-format
 msgid "Descending"
 msgstr ""
@@ -201,13 +201,13 @@ msgid "Icon size:"
 msgstr "పరిమాణము ద్వారా"
 
 #: package/contents/ui/ConfigIcons.qml:246
-#: plugins/folder/viewpropertiesmenu.cpp:88
+#: plugins/folder/viewpropertiesmenu.cpp:64
 #, kde-format
 msgid "Small"
 msgstr "చిన్న"
 
 #: package/contents/ui/ConfigIcons.qml:255
-#: plugins/folder/viewpropertiesmenu.cpp:88
+#: plugins/folder/viewpropertiesmenu.cpp:64
 #, kde-format
 msgid "Large"
 msgstr "పెద్ద"
@@ -221,7 +221,7 @@ msgid "Narrow"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:268
-#: plugins/folder/viewpropertiesmenu.cpp:88
+#: plugins/folder/viewpropertiesmenu.cpp:64
 #, kde-format
 msgid "Medium"
 msgstr ""
@@ -395,59 +395,59 @@ msgstr "(&P) గుణములు"
 
 #: plugins/folder/viewpropertiesmenu.cpp:31
 #, kde-format
-msgid "Arrange In"
-msgstr ""
-
-#: plugins/folder/viewpropertiesmenu.cpp:43
-#, kde-format
-msgid "Align"
-msgstr ""
-
-#: plugins/folder/viewpropertiesmenu.cpp:46
-#, kde-format
-msgid "Left"
-msgstr ""
-
-#: plugins/folder/viewpropertiesmenu.cpp:50
-#, kde-format
-msgid "Right"
-msgstr ""
-
-#: plugins/folder/viewpropertiesmenu.cpp:55
-#, kde-format
 msgid "Sort By"
 msgstr ""
 
-#: plugins/folder/viewpropertiesmenu.cpp:58
+#: plugins/folder/viewpropertiesmenu.cpp:34
 #, kde-format
 msgid "Unsorted"
 msgstr ""
 
-#: plugins/folder/viewpropertiesmenu.cpp:81
+#: plugins/folder/viewpropertiesmenu.cpp:57
 #, kde-format
 msgid "Folders First"
 msgstr ""
 
-#: plugins/folder/viewpropertiesmenu.cpp:84
+#: plugins/folder/viewpropertiesmenu.cpp:60
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "By Size"
 msgid "Icon Size"
 msgstr "పరిమాణము ద్వారా"
 
-#: plugins/folder/viewpropertiesmenu.cpp:88
+#: plugins/folder/viewpropertiesmenu.cpp:64
 #, kde-format
 msgid "Tiny"
 msgstr ""
 
-#: plugins/folder/viewpropertiesmenu.cpp:88
+#: plugins/folder/viewpropertiesmenu.cpp:64
 #, kde-format
 msgid "Small Medium"
 msgstr ""
 
-#: plugins/folder/viewpropertiesmenu.cpp:88
+#: plugins/folder/viewpropertiesmenu.cpp:64
 #, kde-format
 msgid "Huge"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:73
+#, kde-format
+msgid "Arrange In"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:85
+#, kde-format
+msgid "Align"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Left"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:92
+#, kde-format
+msgid "Right"
 msgstr ""
 
 #: plugins/folder/viewpropertiesmenu.cpp:97
