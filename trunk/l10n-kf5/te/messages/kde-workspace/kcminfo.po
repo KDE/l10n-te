@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminfo\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-24 03:45+0100\n"
+"POT-Creation-Date: 2020-01-31 03:37+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -27,26 +27,6 @@ msgstr "కృష్ణబాబు కె , విజయ్ కిరణ్ క
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com"
-
-#: ../base/info_aix.cpp:68 ../base/info_wayland.cpp:88
-#, kde-format
-msgid "Name"
-msgstr ""
-
-#: ../base/info_aix.cpp:69
-#, kde-format
-msgid "Status"
-msgstr ""
-
-#: ../base/info_aix.cpp:70
-#, kde-format
-msgid "Location"
-msgstr ""
-
-#: ../base/info_aix.cpp:71
-#, kde-format
-msgid "Description"
-msgstr ""
 
 #: ../base/info_fbsd.cpp:89
 #, kde-format
@@ -68,17 +48,6 @@ msgstr ""
 #: ../base/info_fbsd.cpp:124
 #, kde-format
 msgid "The PCI subsystem could not be queried, this may need root privileges."
-msgstr ""
-
-#: ../base/info_hpux.cpp:128
-#, fuzzy, kde-format
-#| msgid "Processor(s)"
-msgid "PA-RISC Processor"
-msgstr "ప్రోసెసర్(లు)"
-
-#: ../base/info_hpux.cpp:130
-#, kde-format
-msgid "PA-RISC Revision"
 msgstr ""
 
 #: ../base/info_linux.cpp:102 main.cpp:51
@@ -150,6 +119,11 @@ msgstr ""
 #: ../base/info_wayland.cpp:83
 #, kde-format
 msgid "Seat"
+msgstr ""
+
+#: ../base/info_wayland.cpp:88
+#, kde-format
+msgid "Name"
 msgstr ""
 
 #: ../base/info_wayland.cpp:94
@@ -558,9 +532,8 @@ msgstr ""
 msgid "Image Byte Order"
 msgstr ""
 
-#: ../base/os_current.h:57 ../base/os_current.h:66 ../base/os_current.h:86
-#: ../base/os_current.h:95 ../base/os_current.h:104 ../base/os_current.h:114
-#: ../base/os_current.h:123 ../base/os_current.h:132
+#: ../base/os_current.h:56 ../base/os_current.h:65 ../base/os_current.h:74
+#: ../base/os_current.h:83
 #, kde-format
 msgid "This system may not be completely supported yet."
 msgstr ""
@@ -627,6 +600,11 @@ msgstr "ఎక్స్-సెర్వర్"
 #, kde-format
 msgid "Wayland"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Processor(s)"
+#~ msgid "PA-RISC Processor"
+#~ msgstr "ప్రోసెసర్(లు)"
 
 #~ msgid "SCSI"
 #~ msgstr "SCSI"
