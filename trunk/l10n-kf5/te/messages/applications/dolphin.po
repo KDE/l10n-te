@@ -3,30 +3,31 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Krishna Babu K <kkrothap@redhat.com>, 2009.
+# Sripath Roy Koganti <sripathroy@swecha.net>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-03-20 02:33+0100\n"
-"PO-Revision-Date: 2009-01-16 22:16+0530\n"
-"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
-"Language-Team: Telugu <en@li.org>\n"
+"PO-Revision-Date: 2020-03-27 00:52+0530\n"
+"Last-Translator: Sripath Roy Koganti <sripathroy@swecha.net>\n"
+"Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
 "Language: te\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 19.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "కృష్ణబాబు కె , విజయ్ కిరణ్ కముజు"
+msgstr "కృష్ణబాబు కె , విజయ్ కిరణ్ కముజు , శ్రీపత్ రాయ్ కోగంటి "
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "k.meetme@gmail.com,infyquest@gmail.com"
+msgstr "k.meetme@gmail.com,infyquest@gmail.com,sripathroy@swecha.net"
 
 #: dolphincontextmenu.cpp:148 panels/places/placespanel.cpp:179
 #, kde-format
@@ -110,7 +111,7 @@ msgstr "ఫోల్డరు సృష్టించబడింది."
 #, kde-format
 msgctxt "@info"
 msgid "Go back"
-msgstr ""
+msgstr "వెనక్కి"
 
 #: dolphinmainwindow.cpp:345
 #, kde-format
@@ -119,10 +120,10 @@ msgid "Return to the previously viewed folder."
 msgstr ""
 
 #: dolphinmainwindow.cpp:351
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "@info"
 msgid "Go forward"
-msgstr ""
+msgstr "ముందుకు"
 
 #: dolphinmainwindow.cpp:353
 #, kde-kuit-format
@@ -1398,9 +1399,6 @@ msgid "%1 item"
 msgid_plural "%1 items"
 msgstr[0] "%1 అంశము యెంపికకాబడింది"
 msgstr[1] "%1 అంశము యెంపికకాబడింది"
-msgstr[2] "%1 అంశము యెంపికకాబడింది"
-msgstr[3] "%1 అంశము యెంపికకాబడింది"
-msgstr[4] "%1 అంశము యెంపికకాబడింది"
 
 #: kitemviews/kfileitemmodel.cpp:1954
 #, kde-format
@@ -2263,9 +2261,6 @@ msgid "%1 item selected"
 msgid_plural "%1 items selected"
 msgstr[0] "%1 అంశము యెంపికకాబడింది"
 msgstr[1] "%1 అంశము యెంపికకాబడింది"
-msgstr[2] "%1 అంశము యెంపికకాబడింది"
-msgstr[3] "%1 అంశము యెంపికకాబడింది"
-msgstr[4] "%1 అంశము యెంపికకాబడింది"
 
 #: panels/information/phononwidget.cpp:167
 #, kde-format
@@ -2826,7 +2821,8 @@ msgid ""
 "When this option is enabled hidden files, such as those starting with a '.', "
 "will be shown in the file view."
 msgstr ""
-"'.'తో ప్రారంభించబడునటువంటి, మరుగునవున్న ఫైళ్ళను ఈ ఐచ్చికం చేతనపరుస్తున్నప్పుడు, ఫైలు "
+"'.'తో ప్రారంభించబడునటువంటి, మరుగునవున్న ఫైళ్ళను ఈ ఐచ్చికం"
+" చేతనపరుస్తున్నప్పుడు, ఫైలు "
 "వీక్షణంనందు చూపించబడతాయి."
 
 #. i18n: ectx: label, entry (Version), group (Dolphin)
@@ -2860,7 +2856,8 @@ msgid ""
 "This option controls the style of the view. Currently supported values "
 "include icons (0), details (1) and column (2) views."
 msgstr ""
-"ఈ ఐచ్చికం వీక్షణం యొక్క శైలిని నియంత్రిస్తుంది. ప్రస్తుతం మద్దతిస్తున్న విలువలు ప్రతిమలు (0), "
+"ఈ ఐచ్చికం వీక్షణం యొక్క శైలిని నియంత్రిస్తుంది. ప్రస్తుతం మద్దతిస్తున్న"
+" విలువలు ప్రతిమలు (0), "
 "వివరములు (1) మరియు నిలువువరుస (2) వీక్షణములు."
 
 #. i18n: ectx: label, entry (PreviewsShown), group (Dolphin)
@@ -2880,7 +2877,8 @@ msgid ""
 "When this option is enabled, a preview of the file content is shown as an "
 "icon."
 msgstr ""
-"ఈ ఐచ్చికం చేతనం చేయబడివున్నప్పుడు, ఫైలు సారముయొక్క ముందస్తు వీక్షణం ప్రతిమవలె చూపబడుతుంది."
+"ఈ ఐచ్చికం చేతనం చేయబడివున్నప్పుడు, ఫైలు సారముయొక్క ముందస్తు వీక్షణం ప్రతిమవలె"
+" చూపబడుతుంది."
 
 #. i18n: ectx: label, entry (GroupedSorting), group (Dolphin)
 #: settings/dolphin_directoryviewpropertysettings.kcfg:37
@@ -2901,7 +2899,9 @@ msgstr "వర్గీకరించిన వరుసక్రమము"
 msgctxt "@info:whatsthis"
 msgid ""
 "When this option is enabled, the sorted items are categorized into groups."
-msgstr "ఈ ఐచ్చికం చేతనమైనప్పుడు, వరుసక్రమపు అంశములు వాటి వర్గముద్వారా సంక్షిప్తము చేయబడతాయి."
+msgstr ""
+"ఈ ఐచ్చికం చేతనమైనప్పుడు, వరుసక్రమపు అంశములు వాటి వర్గముద్వారా సంక్షిప్తము"
+" చేయబడతాయి."
 
 #. i18n: ectx: label, entry (SortRole), group (Dolphin)
 #: settings/dolphin_directoryviewpropertysettings.kcfg:43
@@ -2922,7 +2922,8 @@ msgid ""
 "This option defines which attribute (text, size, date, etc.) sorting is "
 "performed on."
 msgstr ""
-"ఈ ఐచ్చికము ఏ విధమైన వరుసక్రమము యాట్రిబ్యూట్ (పేరు, పరిమామము, తేదీ, మొదలగునవి)తో జరుగవలెనో "
+"ఈ ఐచ్చికము ఏ విధమైన వరుసక్రమము యాట్రిబ్యూట్ (పేరు, పరిమామము, తేదీ,"
+" మొదలగునవి)తో జరుగవలెనో "
 "నిర్వచిస్తుంది."
 
 #. i18n: ectx: label, entry (SortOrder), group (Dolphin)
@@ -3131,7 +3132,9 @@ msgstr "పనిముట్టుచిట్కాను చూపుము"
 #| msgctxt "@label"
 #| msgid "Show 'Copy To' and 'Move To' commands in context menu"
 msgid "Show 'Copy To' and 'Move To' commands in context menu"
-msgstr "కాన్టెక్స్టు మెనూనందు 'ఇక్కడకు నకలుతీయి' మరియు 'ఇక్కడకు కదుపు' ఆదేశములను చూపుము"
+msgstr ""
+"కాన్టెక్స్టు మెనూనందు 'ఇక్కడకు నకలుతీయి' మరియు 'ఇక్కడకు కదుపు' ఆదేశములను"
+" చూపుము"
 
 #. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
 #: settings/dolphin_generalsettings.kcfg:94
@@ -3852,9 +3855,6 @@ msgid "Size: 1 pixel"
 msgid_plural "Size: %1 pixels"
 msgstr[0] "పరిమాణము: 1 పిగ్జెల్"
 msgstr[1] "పరిమాణము: 1 పిగ్జెల్"
-msgstr[2] "పరిమాణము: 1 పిగ్జెల్"
-msgstr[3] "పరిమాణము: 1 పిగ్జెల్"
-msgstr[4] "పరిమాణము: %1 పిగ్జెల్సు"
 
 #: settings/viewpropertiesdialog.cpp:71
 #, kde-format
@@ -3994,14 +3994,18 @@ msgctxt "@info"
 msgid ""
 "The view properties of all sub-folders will be changed. Do you want to "
 "continue?"
-msgstr "అన్ని వుప ఫోల్డర్ల యొక్క వీక్షణ గుణములు మార్చబడతాయి. మీరు కొనసాగిద్దామని అనుకొనుచున్నారా?"
+msgstr ""
+"అన్ని వుప ఫోల్డర్ల యొక్క వీక్షణ గుణములు మార్చబడతాయి. మీరు కొనసాగిద్దామని"
+" అనుకొనుచున్నారా?"
 
 #: settings/viewpropertiesdialog.cpp:398
 #, kde-format
 msgctxt "@info"
 msgid ""
 "The view properties of all folders will be changed. Do you want to continue?"
-msgstr "అన్ని ఫోల్డర్ల యొక్క వీక్షణ గుణములు మార్చబడతాయి. మీరు కొనసాగించుదామని అనుకొనుచున్నారా?"
+msgstr ""
+"అన్ని ఫోల్డర్ల యొక్క వీక్షణ గుణములు మార్చబడతాయి. మీరు కొనసాగించుదామని"
+" అనుకొనుచున్నారా?"
 
 #: settings/viewpropsprogressinfo.cpp:50
 #, kde-format
@@ -4124,9 +4128,6 @@ msgid "1 Folder selected"
 msgid_plural "%1 Folders selected"
 msgstr[0] "1 ఫోల్డరు ఎంపిక కాబడినది"
 msgstr[1] "1 ఫోల్డరు ఎంపిక కాబడినది"
-msgstr[2] "1 ఫోల్డరు ఎంపిక కాబడినది"
-msgstr[3] "1 ఫోల్డరు ఎంపిక కాబడినది"
-msgstr[4] "%1 ఫోల్డర్లు ఎంపిక కాబడినది"
 
 #: views/dolphinview.cpp:540
 #, fuzzy, kde-format
@@ -4135,9 +4136,6 @@ msgid "1 File selected"
 msgid_plural "%1 Files selected"
 msgstr[0] "1 ఫైలు ఎంపిక కాబడినది"
 msgstr[1] "1 ఫైలు ఎంపిక కాబడినది"
-msgstr[2] "1 ఫైలు ఎంపిక కాబడినది"
-msgstr[3] "1 ఫైలు ఎంపిక కాబడినది"
-msgstr[4] "%1 ఫైలు ఎంపిక కాబడినది"
 
 #: views/dolphinview.cpp:544
 #, fuzzy, kde-format
@@ -4148,9 +4146,6 @@ msgid "1 Folder"
 msgid_plural "%1 Folders"
 msgstr[0] "ఫొల్డర్"
 msgstr[1] "ఫొల్డర్"
-msgstr[2] "ఫొల్డర్"
-msgstr[3] "ఫొల్డర్"
-msgstr[4] "ఫొల్డర్"
 
 #: views/dolphinview.cpp:545
 #, kde-format
@@ -4159,9 +4154,6 @@ msgid "1 File"
 msgid_plural "%1 Files"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
 
 #: views/dolphinview.cpp:549
 #, kde-format
@@ -4201,9 +4193,6 @@ msgid "Are you sure you want to open 1 item?"
 msgid_plural "Are you sure you want to open %1 items?"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
 
 #: views/dolphinview.cpp:1001
 #, fuzzy, kde-format
