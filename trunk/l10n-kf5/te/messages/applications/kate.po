@@ -2,19 +2,20 @@
 #
 # pavithran <pavithran.s@gmail.com>, 2007.
 # విజయ్ కిరణ్ కముజు <infyquest@gmail.com, 2007.
+# Sripath Roy Koganti <sripathroy@swecha.net>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-02-29 02:31+0100\n"
-"PO-Revision-Date: 2007-03-09 14:17+0530\n"
-"Last-Translator: pavithran <pavithran.s@gmail.com>\n"
+"PO-Revision-Date: 2020-03-30 15:20+0530\n"
+"Last-Translator: Sripath Roy Koganti <sripathroy@swecha.net>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
 "Language: te\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 19.12.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #, kde-format
@@ -22,17 +23,16 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 "పవిత్రన్ శాఖమూరి\n"
-"విజయ్ కిరణ్ కముజు"
+"విజయ్ కిరణ్ కముజు,  శ్రీపత్ రాయ్ కోగంటి"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "pavithran.s@gmail.cominfyquest@gmail.com"
+msgstr "pavithran.s@gmail.com, infyquest@gmail.com, sripathroy@swecha.net"
 
 #. i18n: ectx: Menu (file)
 #: data/kateui.rc:6
 #, fuzzy, kde-format
-#| msgid "Files:"
 msgid "&File"
 msgstr "దస్త్రాలు:"
 
@@ -40,18 +40,17 @@ msgstr "దస్త్రాలు:"
 #: data/kateui.rc:40
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "సరిచేయు"
 
 #. i18n: ectx: Menu (view)
 #: data/kateui.rc:51
 #, kde-format
 msgid "&View"
-msgstr ""
+msgstr "దర్శనం"
 
 #. i18n: ectx: Menu (view-split)
 #: data/kateui.rc:62
 #, fuzzy, kde-format
-#| msgid "Split Ve&rtical"
 msgid "Split View"
 msgstr "(&r) నిలువుగా విడగొట్టు"
 
@@ -59,7 +58,7 @@ msgstr "(&r) నిలువుగా విడగొట్టు"
 #: data/kateui.rc:89
 #, kde-format
 msgid "&Tools"
-msgstr ""
+msgstr "పనిముట్లు"
 
 #. i18n: ectx: Menu (sessions)
 #: data/kateui.rc:97
@@ -71,13 +70,13 @@ msgstr "(&i) సెషన్లు"
 #: data/kateui.rc:106
 #, kde-format
 msgid "&Settings"
-msgstr ""
+msgstr "అమరికలు"
 
 #. i18n: ectx: Menu (help)
 #: data/kateui.rc:112
 #, kde-format
 msgid "&Help"
-msgstr ""
+msgstr "సహాయం"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: data/kateui.rc:117
@@ -89,7 +88,7 @@ msgstr ""
 #: data/kateui.rc:147
 #, kde-format
 msgid "&Status Bar Items"
-msgstr ""
+msgstr "సుస్థితి పట్టీ"
 
 #: kateapp.cpp:245 kateapp.cpp:366
 #, kde-format
@@ -114,7 +113,6 @@ msgstr ""
 
 #: kateconfigdialog.cpp:70
 #, fuzzy, kde-format
-#| msgid "Application Not Found!"
 msgid "Application Options"
 msgstr "అప్లికేషన్ దొరకలేదు!"
 
@@ -190,19 +188,14 @@ msgstr ""
 
 #: kateconfigdialog.cpp:140
 #, fuzzy, kde-format
-#| msgid " day(s)"
 msgctxt "The suffix of 'Delete unused meta-information after'"
 msgid " day"
 msgid_plural " days"
 msgstr[0] "రోఙు(లు)"
 msgstr[1] "రోఙు(లు)"
-msgstr[2] "రోఙు(లు)"
-msgstr[3] "రోఙు(లు)"
-msgstr[4] "రోఙు(లు)"
 
 #: kateconfigdialog.cpp:151 katemainwindow.cpp:261
 #, fuzzy, kde-format
-#| msgid "New Session"
 msgid "&Quick Open"
 msgstr "కొత్త సెషన్"
 
@@ -218,13 +211,11 @@ msgstr "దస్త్రం పేరు"
 
 #: kateconfigdialog.cpp:162
 #, fuzzy, kde-format
-#| msgid "Filename"
 msgid "Filepath"
 msgstr "దస్త్రం పేరు"
 
 #: kateconfigdialog.cpp:173
 #, fuzzy, kde-format
-#| msgid "Split Ve&rtical"
 msgid "&List Mode:"
 msgstr "(&r) నిలువుగా విడగొట్టు"
 
@@ -235,7 +226,6 @@ msgstr ""
 
 #: kateconfigdialog.cpp:179
 #, fuzzy, kde-format
-#| msgid "Projects"
 msgid "All Projects Files"
 msgstr "ప్రాజెక్టులు"
 
@@ -311,7 +301,6 @@ msgstr ""
 
 #: katedocmanager.cpp:243
 #, fuzzy, kde-format
-#| msgid "Deleted"
 msgid "Delete File?"
 msgstr "తీసివేసిన"
 
@@ -329,7 +318,6 @@ msgstr ""
 
 #: katedocmanager.cpp:360
 #, fuzzy, kde-format
-#| msgid "Save &As..."
 msgid "Save As"
 msgstr "(&A) ఇలా దాచు..."
 
@@ -360,7 +348,6 @@ msgstr ""
 
 #: katefileactions.cpp:79
 #, fuzzy, kde-format
-#| msgid "Filename"
 msgid "New file name"
 msgstr "దస్త్రం పేరు"
 
@@ -376,7 +363,6 @@ msgstr ""
 
 #: katefileactions.cpp:131
 #, fuzzy, kde-format
-#| msgid "Deleted"
 msgid "Delete file"
 msgstr "తీసివేసిన"
 
@@ -412,7 +398,6 @@ msgstr ""
 
 #: katemainwindow.cpp:247
 #, fuzzy, kde-format
-#| msgid "&Document"
 msgid "&Previous Tab"
 msgstr "(&D) పత్రం"
 
@@ -433,7 +418,6 @@ msgstr ""
 
 #: katemainwindow.cpp:264
 #, fuzzy, kde-format
-#| msgid "Close all open documents."
 msgid "Open a form to quick open documents."
 msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
@@ -471,19 +455,16 @@ msgstr ""
 
 #: katemainwindow.cpp:314
 #, fuzzy, kde-format
-#| msgid "Close all open documents."
 msgid "Reload all open documents."
 msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
 #: katemainwindow.cpp:318
 #, fuzzy, kde-format
-#| msgid "Filename"
 msgid "Copy File &Path"
 msgstr "దస్త్రం పేరు"
 
 #: katemainwindow.cpp:323 katemainwindow.cpp:332
 #, fuzzy, kde-format
-#| msgid "Close the current document."
 msgid "Copies the file path of the current file to clipboard."
 msgstr "ఉన్న పత్రాన్ని ని మూయండి"
 
@@ -500,20 +481,17 @@ msgstr ""
 
 #: katemainwindow.cpp:341
 #, fuzzy, kde-format
-#| msgid "Close the current document."
 msgid "Renames the file belonging to the current document."
 msgstr "ఉన్న పత్రాన్ని ని మూయండి"
 
 #: katemainwindow.cpp:345
 #, fuzzy, kde-format
-#| msgid "Deleted"
 msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr "తీసివేసిన"
 
 #: katemainwindow.cpp:350 katemainwindow.cpp:359
 #, fuzzy, kde-format
-#| msgid "Close the current document."
 msgid "Deletes the file belonging to the current document."
 msgstr "ఉన్న పత్రాన్ని ని మూయండి"
 
@@ -534,7 +512,6 @@ msgstr ""
 
 #: katemainwindow.cpp:364
 #, fuzzy, kde-format
-#| msgid "Close all open documents."
 msgid "Shows a hint how to compare documents."
 msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
@@ -562,7 +539,6 @@ msgstr ""
 
 #: katemainwindow.cpp:378
 #, fuzzy, kde-format
-#| msgid "Close all open documents."
 msgid "Close other open documents."
 msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
@@ -583,7 +559,6 @@ msgstr "ఈ విండో ని మూయండి"
 
 #: katemainwindow.cpp:392
 #, fuzzy, kde-format
-#| msgid "&Window"
 msgid "&New Window"
 msgstr "(&W) విండొ"
 
@@ -643,25 +618,21 @@ msgstr ""
 
 #: katemainwindow.cpp:446
 #, fuzzy, kde-format
-#| msgid "&Save session"
 msgid "&Save Session"
 msgstr "(&S) సెషన్ను దాచు"
 
 #: katemainwindow.cpp:450
 #, fuzzy, kde-format
-#| msgid "Save Session?"
 msgid "Save Session &As..."
 msgstr "సెషన్ను దాచు?"
 
 #: katemainwindow.cpp:454
 #, fuzzy, kde-format
-#| msgid "&Save session"
 msgid "&Manage Sessions..."
 msgstr "(&S) సెషన్ను దాచు"
 
 #: katemainwindow.cpp:459
 #, fuzzy, kde-format
-#| msgid "New Session"
 msgid "&Quick Open Session"
 msgstr "కొత్త సెషన్"
 
@@ -672,7 +643,6 @@ msgstr ""
 
 #: katemainwindow.cpp:467
 #, fuzzy, kde-format
-#| msgid "Close all open documents."
 msgid "Close all documents"
 msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
@@ -685,7 +655,6 @@ msgstr ""
 
 #: katemainwindow.cpp:479
 #, fuzzy, kde-format
-#| msgid "Close all open documents."
 msgid "Close all documents beside current one"
 msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
@@ -719,13 +688,11 @@ msgstr ""
 
 #: katemainwindow.cpp:936
 #, fuzzy, kde-format
-#| msgid "Application '%1' not found!"
 msgid "Application '%1' not found."
 msgstr "'%1' అప్లికేషన్ దొరకలేదు"
 
 #: katemainwindow.cpp:936
 #, fuzzy, kde-format
-#| msgid "Application Not Found!"
 msgid "Application not found"
 msgstr "అప్లికేషన్ దొరకలేదు!"
 
@@ -871,7 +838,6 @@ msgstr ""
 
 #: katemwmodonhddialog.cpp:138
 #, fuzzy, kde-format
-#| msgid "Close all open documents."
 msgid "Reload selected documents from disk"
 msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
@@ -908,7 +874,6 @@ msgstr ""
 
 #: katequickopen.cpp:65
 #, fuzzy, kde-format
-#| msgid "New Session"
 msgid "Quick Open Search"
 msgstr "కొత్త సెషన్"
 
@@ -978,7 +943,6 @@ msgstr ""
 
 #: kateviewmanager.cpp:146
 #, fuzzy, kde-format
-#| msgid "Close the current document."
 msgid "Close the currently active split view"
 msgstr "ఉన్న పత్రాన్ని ని మూయండి"
 
@@ -1009,7 +973,6 @@ msgstr ""
 
 #: kateviewmanager.cpp:167
 #, fuzzy, kde-format
-#| msgid "Close the current document."
 msgid "Toggles the orientation of the current split view"
 msgstr "ఉన్న పత్రాన్ని ని మూయండి"
 
@@ -1117,25 +1080,19 @@ msgid_plural ""
 "switch to the Quick Open view by clicking here."
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
 
 #: kateviewspace.cpp:590
 #, fuzzy, kde-format
-#| msgid "Close all open documents."
 msgid "&Close Document"
 msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
 #: kateviewspace.cpp:591
 #, fuzzy, kde-format
-#| msgid "Close all open documents."
 msgid "Close Other &Documents"
 msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
 #: kateviewspace.cpp:600
 #, fuzzy, kde-format
-#| msgid "Close the current document."
 msgid "Compare with active document"
 msgstr "ఉన్న పత్రాన్ని ని మూయండి"
 
@@ -1161,7 +1118,6 @@ msgstr ""
 
 #: main.cpp:129
 #, fuzzy, kde-format
-#| msgid "(c) 2000-2005 The Kate Authors"
 msgid "(c) 2000-2019 The Kate Authors"
 msgstr "(c) 2000-2005 కేట్ మూలకర్తలు"
 
@@ -1332,7 +1288,6 @@ msgstr ""
 
 #: main.cpp:164
 #, fuzzy, kde-format
-#| msgid "Plugins"
 msgid "Python Plugin Developer"
 msgstr "ప్లగిన్లు"
 
@@ -1473,7 +1428,6 @@ msgstr ""
 
 #: main.cpp:203
 #, fuzzy, kde-format
-#| msgid "Sessions"
 msgid "session"
 msgstr "సెషన్లు"
 
@@ -1551,7 +1505,6 @@ msgstr ""
 
 #: main.cpp:246
 #, fuzzy, kde-format
-#| msgid "Documents"
 msgid "Documents to open."
 msgstr "పత్రాలు"
 
@@ -1583,7 +1536,6 @@ msgstr ""
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, m_filterBox)
 #: session/katesessionmanagedialog.ui:30
 #, fuzzy, kde-format
-#| msgid "Sessions"
 msgid "Filter Sessions"
 msgstr "సెషన్లు"
 
@@ -1597,7 +1549,6 @@ msgstr "సెషన్ పేరు"
 #. i18n: ectx: property (text), widget (QTreeWidget, m_sessionList)
 #: session/katesessionmanagedialog.ui:60
 #, fuzzy, kde-format
-#| msgid "Files:"
 msgid "Files"
 msgstr "దస్త్రాలు:"
 
@@ -1646,14 +1597,12 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_deleteButton)
 #: session/katesessionmanagedialog.ui:162
 #, fuzzy, kde-format
-#| msgid "Deleted"
 msgid "Delete"
 msgstr "తీసివేసిన"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_closeButton)
 #: session/katesessionmanagedialog.ui:184
 #, fuzzy, kde-format
-#| msgid "Clos&e All"
 msgid "Close"
 msgstr "(&l) అన్ని మూయండి"
 
@@ -1677,7 +1626,6 @@ msgstr ""
 
 #: session/katesessionmanager.cpp:319
 #, fuzzy, kde-format
-#| msgid "Session name:"
 msgid "Session Renaming"
 msgstr "సెషన్ పేరు:"
 
@@ -1700,7 +1648,6 @@ msgstr ""
 
 #: session/katesessionmanager.cpp:489
 #, fuzzy, kde-format
-#| msgid "Default Session"
 msgid "Specify a name for this session"
 msgstr "అప్రమేయ సెషన్"
 
@@ -1712,7 +1659,6 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, gbElements)
 #: ui/sessionconfigwidget.ui:29
 #, fuzzy, kde-format
-#| msgid "Session Name"
 msgid "Session Elements"
 msgstr "సెషన్ పేరు"
 
@@ -1760,7 +1706,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, loadLastUserSessionRadioButton)
 #: ui/sessionconfigwidget.ui:101
 #, fuzzy, kde-format
-#| msgid "&Do not save session"
 msgid "&Load last used session"
 msgstr "(&D) సెషన్ను దాచవద్దు"
 
@@ -1771,45 +1716,37 @@ msgid "&Manually choose a session"
 msgstr ""
 
 #, fuzzy
-#~| msgid "Deleted"
 #~ msgid "Overwrite File?"
 #~ msgstr "తీసివేసిన"
 
 #, fuzzy
-#~| msgid "Deleted"
 #~ msgctxt "@action:inmenu"
 #~ msgid "Delete File"
 #~ msgstr "తీసివేసిన"
 
 #, fuzzy
-#~| msgid "Meta-Information"
 #~ msgctxt "@title:window"
 #~ msgid "Confirmation"
 #~ msgstr "మెటా-సమాచరం"
 
 #, fuzzy
-#~| msgid "Close the current document."
 #~ msgid "C&lose Current Document"
 #~ msgstr "ఉన్న పత్రాన్ని ని మూయండి"
 
 #, fuzzy
-#~| msgid "New Session"
 #~ msgid "&Open Session"
 #~ msgstr "కొత్త సెషన్"
 
 #, fuzzy
-#~| msgid "Save Documents"
 #~ msgctxt "The number of open documents"
 #~ msgid "Open Documents"
 #~ msgstr "పత్రాలను దాచు"
 
 #, fuzzy
-#~| msgid "Document Name"
 #~ msgid "Show Document Name"
 #~ msgstr "పత్రం పేరు"
 
 #, fuzzy
-#~| msgid " INS "
 #~ msgid " LINE "
 #~ msgstr " INS "
 
@@ -1817,7 +1754,6 @@ msgstr ""
 #~ msgstr " INS "
 
 #, fuzzy
-#~| msgid " BLK "
 #~ msgid " BLOCK "
 #~ msgstr " BLK "
 
@@ -1825,108 +1761,87 @@ msgstr ""
 #~ msgstr "పత్రం పేరు"
 
 #, fuzzy
-#~| msgid "Document Name"
 #~ msgid "Sort by Document Name"
 #~ msgstr "పత్రం పేరు"
 
 #, fuzzy
-#~| msgid "Document List"
 #~ msgid "Document Path"
 #~ msgstr "పత్రాల జాబితా"
 
 #, fuzzy
-#~| msgid "Open W&ith"
 #~ msgid "Open With"
 #~ msgstr "(&i) దీనితో తెరువు"
 
 #, fuzzy
-#~| msgid "Document Name"
 #~ msgid "Document Tree"
 #~ msgstr "పత్రం పేరు"
 
 #, fuzzy
-#~| msgid "Save Documents"
 #~ msgid "Configure Documents"
 #~ msgstr "పత్రాలను దాచు"
 
 #, fuzzy
-#~| msgid "&Document"
 #~ msgid "Next Document"
 #~ msgstr "(&D) పత్రం"
 
 #, fuzzy
-#~| msgid "Documents"
 #~ msgctxt "@item:inmenu"
 #~ msgid "Documentation"
 #~ msgstr "పత్రాలు"
 
 #, fuzzy
-#~| msgid "Name"
 #~ msgid "Name:"
 #~ msgstr "పేరు"
 
 #, fuzzy
-#~| msgid "Plugins"
 #~ msgid "Reload Plugins"
 #~ msgstr "ప్లగిన్లు"
 
 #, fuzzy
-#~| msgid "Plugins"
 #~ msgid "Python Plugins"
 #~ msgstr "ప్లగిన్లు"
 
 #, fuzzy
-#~| msgid "Filename"
 #~ msgid "Transform Filenames"
 #~ msgstr "దస్త్రం పేరు"
 
 #, fuzzy
-#~| msgid "Sessions"
 #~ msgid "Settings..."
 #~ msgstr "సెషన్లు"
 
 #, fuzzy
-#~| msgid "Document List"
 #~ msgid "Drop List"
 #~ msgstr "పత్రాల జాబితా"
 
 #, fuzzy
-#~| msgid "&Window"
 #~ msgid "New Line"
 #~ msgstr "(&W) విండొ"
 
 #, fuzzy
-#~| msgid "Name"
 #~ msgid "Full Name:"
 #~ msgstr "పేరు"
 
 #, fuzzy
-#~| msgid "Close all open documents."
 #~ msgid "Cannot go to the document"
 #~ msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
 #, fuzzy
-#~| msgid "Save &As..."
 #~ msgid "Save Session as &Default..."
 #~ msgstr "(&A) ఇలా దాచు..."
 
 #, fuzzy
-#~| msgid "Plugins"
 #~ msgid "GDB Plugin"
 #~ msgstr "ప్లగిన్లు"
 
 #, fuzzy
-#~| msgid "Name"
 #~ msgid "Frame"
 #~ msgstr "పేరు"
 
 #, fuzzy
-#~| msgid "Deleted"
 #~ msgid "Save Selected"
 #~ msgstr "తీసివేసిన"
 
 #, fuzzy
-#~| msgid "Close all open documents."
 #~ msgid "Save selected open documents."
 #~ msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
@@ -1934,22 +1849,18 @@ msgstr ""
 #~ msgstr "యూ ఆర్ ఎల్"
 
 #, fuzzy
-#~| msgid "Plugins"
 #~ msgid "Tabify Plugin"
 #~ msgstr "ప్లగిన్లు"
 
 #, fuzzy
-#~| msgid "Plugins"
 #~ msgid "TabifyPlugin"
 #~ msgstr "ప్లగిన్లు"
 
 #, fuzzy
-#~| msgid "&New..."
 #~ msgid "&Open..."
 #~ msgstr "(&N) కొత్త..."
 
 #, fuzzy
-#~| msgid "&Save:"
 #~ msgid "&Save"
 #~ msgstr "(&S) దాచు:"
 
