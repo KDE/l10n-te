@@ -44,6 +44,10 @@ msgstr "వినబడే బెల్"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, gestures)
 #: accessibility.ui:33 accessibility.ui:576
 #, fuzzy, kde-format
+#| msgid ""
+#| "If this option is checked, the default system bell will be used. See the "
+#| "\"System Bell\" control module for how to customize the system bell. "
+#| "Normally, this is just a \"beep\"."
 msgid ""
 "If this option is checked, the default system bell will be used. Usually, "
 "this is just a \"beep\"."
@@ -99,6 +103,7 @@ msgstr "బ్రౌజ్‌చేయి..."
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: accessibility.ui:106
 #, fuzzy, kde-format
+#| msgid "Visible Bell"
 msgid "Visual Bell"
 msgstr "కనిపించు బెల్‌"
 
@@ -114,6 +119,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, visibleBell)
 #: accessibility.ui:115
 #, fuzzy, kde-format
+#| msgid "&Use visible bell"
 msgid "&Use visual bell"
 msgstr "(&U) కనిపించు బెల్‌ను వుపయోగించుము"
 
@@ -154,6 +160,7 @@ msgstr "\"ఫ్లాష్ తెర\" కనిపించు బెల్�
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: accessibility.ui:165
 #, fuzzy, kde-format
+#| msgid "Duration:"
 msgid "&Duration:"
 msgstr "నిడివి:"
 
@@ -184,12 +191,14 @@ msgstr " msec"
 #. i18n: ectx: attribute (title), widget (QWidget, tabModifier)
 #: accessibility.ui:224
 #, fuzzy, kde-format
+#| msgid "&Modifier Keys"
 msgid "&Modifier Keys"
 msgstr "(&M) సవరణి కీలు"
 
 #. i18n: ectx: property (title), widget (QGroupBox, sticky)
 #: accessibility.ui:230
 #, fuzzy, kde-format
+#| msgid "S&ticky Keys"
 msgid "Sticky Keys"
 msgstr "(&t) స్టికీ కీలు"
 
@@ -232,6 +241,9 @@ msgstr "కీ లాకింగ్ చేయుట క్రియాశీల
 #. i18n: ectx: property (text), widget (QCheckBox, kNotifyModifiers)
 #: accessibility.ui:304
 #, fuzzy, kde-format
+#| msgid ""
+#| "Use KDE's system notification mechanism whenever a modifier or locking "
+#| "key changes its state"
 msgid ""
 "Use Plasma's notification mechanism for modifier or locking key state changes"
 msgstr ""
@@ -301,6 +313,7 @@ msgstr "కీ తిరస్కరించబడినప్పుడు స�
 #. i18n: ectx: attribute (title), widget (QWidget, tabActivationGestures)
 #: accessibility.ui:564
 #, fuzzy, kde-format
+#| msgid "Activation Gestures"
 msgid "Activation &Gestures"
 msgstr "క్రియాశీలపు జెస్టర్స్"
 
@@ -338,6 +351,9 @@ msgstr "నో‍టీసు"
 #. i18n: ectx: property (text), widget (QCheckBox, accessxBeep)
 #: accessibility.ui:663
 #, fuzzy, kde-format
+#| msgid ""
+#| "Use the system bell whenever a gesture is used to turn an accessibility "
+#| "feature on or off"
 msgid ""
 "Use the system bell whenever a gesture is used to toggle an accessibility "
 "feature"
@@ -357,6 +373,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, gestureConfirmation)
 #: accessibility.ui:674
 #, fuzzy, kde-format
+#| msgid ""
+#| "Show a confirmation dialog whenever a keyboard accessibility feature is "
+#| "turned on or off"
 msgid ""
 "Show a confirmation dialog whenever a keyboard accessibility feature is "
 "toggled"
@@ -365,6 +384,9 @@ msgstr "కీబోర్డు యాక్సెస్‌బిలిటి �
 #. i18n: ectx: property (text), widget (QCheckBox, kNotifyAccess)
 #: accessibility.ui:681
 #, fuzzy, kde-format
+#| msgid ""
+#| "Use KDE's system notification mechanism whenever a keyboard accessibility "
+#| "feature is turned on or off"
 msgid ""
 "Use Plasma's notification mechanism whenever a keyboard accessibility "
 "feature is toggled"
@@ -387,6 +409,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: accessibility.ui:782
 #, fuzzy, kde-format
+#| msgid "Acceptance dela&y:"
 msgid "&Acceleration delay:"
 msgstr "(&y) అమోదముకు ఆలస్యము:"
 
@@ -558,6 +581,7 @@ msgid "Error: Could not launch \"orca --setup\""
 msgstr ""
 
 #, fuzzy
+#~| msgid "Activation Gestures"
 #~ msgid "&Activation Gestures"
 #~ msgstr "క్రియాశీలపు జెస్టర్స్"
 

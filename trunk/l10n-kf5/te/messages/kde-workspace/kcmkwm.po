@@ -31,6 +31,7 @@ msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_1)
 #: actions.ui:17
 #, fuzzy, kde-format
+#| msgid "Inactive Inner Window"
 msgid "Inactive Inner Window Actions"
 msgstr "క్రియాహీన అంతర్గత విండో"
 
@@ -38,12 +39,16 @@ msgstr "క్రియాహీన అంతర్గత విండో"
 #. i18n: ectx: property (text), widget (QLabel, label_1)
 #: actions.ui:26 mouse.ui:177
 #, fuzzy, kde-format
+#| msgid "&Titlebar double-click:"
 msgid "&Left click:"
 msgstr "(&T) శీర్షికపట్టీ రెండు-నొక్కులు"
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_CommandWindow1)
 #: actions.ui:39
 #, fuzzy, kde-format
+#| msgid ""
+#| "Here you can customize mouse click behavior when clicking on an inactive "
+#| "inner window ('inner' means: not titlebar, not frame)."
 msgid ""
 "In this row you can customize left click behavior when clicking into an "
 "inactive inner window ('inner' means: not titlebar, not frame)."
@@ -56,6 +61,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CommandWindow3)
 #: actions.ui:43 actions.ui:83 actions.ui:123
 #, fuzzy, kde-format
+#| msgid "Activate, Raise & Pass Click"
 msgid "Activate, raise and pass click"
 msgstr "క్రియాశీలముచేయి, పెంచు & పాస్ నొక్కు"
 
@@ -64,6 +70,7 @@ msgstr "క్రియాశీలముచేయి, పెంచు & పా�
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CommandWindow3)
 #: actions.ui:48 actions.ui:88 actions.ui:128
 #, fuzzy, kde-format
+#| msgid "Activate & Pass Click"
 msgid "Activate and pass click"
 msgstr "క్రియాశీలముచేయి & పాస్ నొక్కు"
 
@@ -88,6 +95,7 @@ msgstr "క్రియాశీలముచేయి"
 #: actions.ui:58 actions.ui:98 actions.ui:138 mouse.ui:283 mouse.ui:398
 #: mouse.ui:513
 #, fuzzy, kde-format
+#| msgid "Activate & Raise"
 msgid "Activate and raise"
 msgstr "క్రియాశీలముచేయి & పెంచు"
 
@@ -95,12 +103,16 @@ msgstr "క్రియాశీలముచేయి & పెంచు"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: actions.ui:66 mouse.ui:200
 #, fuzzy, kde-format
+#| msgid "&Titlebar double-click:"
 msgid "&Middle click:"
 msgstr "(&T) శీర్షికపట్టీ రెండు-నొక్కులు"
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_CommandWindow2)
 #: actions.ui:79
 #, fuzzy, kde-format
+#| msgid ""
+#| "Here you can customize mouse click behavior when clicking on an inactive "
+#| "inner window ('inner' means: not titlebar, not frame)."
 msgid ""
 "In this row you can customize middle click behavior when clicking into an "
 "inactive inner window ('inner' means: not titlebar, not frame)."
@@ -118,6 +130,9 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_CommandWindow3)
 #: actions.ui:119
 #, fuzzy, kde-format
+#| msgid ""
+#| "Here you can customize mouse click behavior when clicking on an inactive "
+#| "inner window ('inner' means: not titlebar, not frame)."
 msgid ""
 "In this row you can customize right click behavior when clicking into an "
 "inactive inner window ('inner' means: not titlebar, not frame)."
@@ -129,12 +144,16 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: actions.ui:146 mouse.ui:88
 #, fuzzy, kde-format
+#| msgid "Mouse wheel:"
 msgid "Mouse &wheel:"
 msgstr "మౌస్ వీలు:"
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_CommandWindowWheel)
 #: actions.ui:159
 #, fuzzy, kde-format
+#| msgid ""
+#| "Here you can customize mouse click behavior when clicking on an inactive "
+#| "inner window ('inner' means: not titlebar, not frame)."
 msgid ""
 "In this row you can customize behavior when scrolling into an inactive inner "
 "window ('inner' means: not titlebar, not frame)."
@@ -151,24 +170,28 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CommandWindowWheel)
 #: actions.ui:168
 #, fuzzy, kde-format
+#| msgid "Activate & Lower"
 msgid "Activate and scroll"
 msgstr "క్రియాశీలముచేయి & తగ్గించు"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CommandWindowWheel)
 #: actions.ui:173
 #, fuzzy, kde-format
+#| msgid "Activate, Raise and Move"
 msgid "Activate, raise and scroll"
 msgstr "క్రియాశీలముచేయి, పెంచు మరియు కదుల్చు"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: actions.ui:184
 #, fuzzy, kde-format
+#| msgid "Inner Window, Titlebar && Frame"
 msgid "Inner Window, Titlebar and Frame Actions"
 msgstr "అంతర్గత విండో, శీర్షికపట్టీ && చట్రము"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: actions.ui:195
 #, fuzzy, kde-format
+#| msgid "Modifier key:"
 msgid "Mo&difier key:"
 msgstr "మాడిఫైర్ కీ:"
 
@@ -202,12 +225,16 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: actions.ui:248 mouse.ui:601
 #, fuzzy, kde-format
+#| msgid "&Titlebar double-click:"
 msgid "L&eft click:"
 msgstr "(&T) శీర్షికపట్టీ రెండు-నొక్కులు"
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_CommandAll1)
 #: actions.ui:261
 #, fuzzy, kde-format
+#| msgid ""
+#| "Here you can customize mouse click behavior when clicking on an inactive "
+#| "inner window ('inner' means: not titlebar, not frame)."
 msgid ""
 "In this row you can customize left click behavior when clicking into the "
 "titlebar or the frame."
@@ -228,6 +255,7 @@ msgstr "కదుపు"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CommandAll3)
 #: actions.ui:270 actions.ui:340 actions.ui:410
 #, fuzzy, kde-format
+#| msgid "Activate, Raise and Move"
 msgid "Activate, raise and move"
 msgstr "క్రియాశీలముచేయి, పెంచు మరియు కదుల్చు"
 
@@ -243,6 +271,7 @@ msgstr "క్రియాశీలముచేయి, పెంచు మరి
 #: actions.ui:275 actions.ui:345 actions.ui:415 mouse.ui:246 mouse.ui:308
 #: mouse.ui:361 mouse.ui:423 mouse.ui:476 mouse.ui:538
 #, fuzzy, kde-format
+#| msgid "Toggle Raise & Lower"
 msgid "Toggle raise and lower"
 msgstr "పెంచు & తగ్గించు అటుయిటు మార్చుము"
 
@@ -308,6 +337,7 @@ msgstr "చిన్నదిచేయి"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CommandAll3)
 #: actions.ui:300 actions.ui:370 actions.ui:440
 #, fuzzy, kde-format
+#| msgid "Change Opacity"
 msgid "Decrease opacity"
 msgstr "ఓపాసిటీని మార్చుము"
 
@@ -316,6 +346,7 @@ msgstr "ఓపాసిటీని మార్చుము"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CommandAll3)
 #: actions.ui:305 actions.ui:375 actions.ui:445
 #, fuzzy, kde-format
+#| msgid "Change Opacity"
 msgid "Increase opacity"
 msgstr "ఓపాసిటీని మార్చుము"
 
@@ -336,18 +367,23 @@ msgstr "ఓపాసిటీని మార్చుము"
 #: mouse.ui:132 mouse.ui:271 mouse.ui:333 mouse.ui:386 mouse.ui:448
 #: mouse.ui:501 mouse.ui:563
 #, fuzzy, kde-format
+#| msgid "Nothing"
 msgid "Do nothing"
 msgstr "ఏదీకాదు"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: actions.ui:318
 #, fuzzy, kde-format
+#| msgid "Middle button:"
 msgid "Middle &click:"
 msgstr "మద్య బటన్:"
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_CommandAll2)
 #: actions.ui:331
 #, fuzzy, kde-format
+#| msgid ""
+#| "Here you can customize mouse click behavior when clicking on an inactive "
+#| "inner window ('inner' means: not titlebar, not frame)."
 msgid ""
 "In this row you can customize middle click behavior when clicking into the "
 "titlebar or the frame."
@@ -365,6 +401,9 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_CommandAll3)
 #: actions.ui:401
 #, fuzzy, kde-format
+#| msgid ""
+#| "Here you can customize mouse click behavior when clicking on an inactive "
+#| "inner window ('inner' means: not titlebar, not frame)."
 msgid ""
 "In this row you can customize right click behavior when clicking into the "
 "titlebar or the frame."
@@ -375,12 +414,16 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #: actions.ui:458
 #, fuzzy, kde-format
+#| msgid "Mouse wheel:"
 msgid "Mo&use wheel:"
 msgstr "మౌస్ వీలు:"
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_CommandAllWheel)
 #: actions.ui:471
 #, fuzzy, kde-format
+#| msgid ""
+#| "Here you can customize mouse click behavior when clicking on an inactive "
+#| "inner window ('inner' means: not titlebar, not frame)."
 msgid ""
 "Here you can customize KDE's behavior when scrolling with the mouse wheel in "
 "a window while pressing the modifier key."
@@ -392,6 +435,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CommandAllWheel)
 #: actions.ui:475 mouse.ui:102
 #, fuzzy, kde-format
+#| msgid "Raise/Lower"
 msgid "Raise/lower"
 msgstr "పెంచు/తగ్గించు"
 
@@ -399,6 +443,7 @@ msgstr "పెంచు/తగ్గించు"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CommandAllWheel)
 #: actions.ui:480 mouse.ui:107
 #, fuzzy, kde-format
+#| msgid "Shade/Unshade"
 msgid "Shade/unshade"
 msgstr "షేడ్‌చేయి/షేడ్‌తీయి"
 
@@ -406,6 +451,7 @@ msgstr "షేడ్‌చేయి/షేడ్‌తీయి"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CommandAllWheel)
 #: actions.ui:485 mouse.ui:112
 #, fuzzy, kde-format
+#| msgid "Maximize/Restore"
 msgid "Maximize/restore"
 msgstr "పెద్దదిచేయి/తిరిగివుంచు"
 
@@ -413,6 +459,7 @@ msgstr "పెద్దదిచేయి/తిరిగివుంచు"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CommandAllWheel)
 #: actions.ui:490 mouse.ui:117
 #, fuzzy, kde-format
+#| msgid "Keep Above/Below"
 msgid "Keep above/below"
 msgstr "పైకి/క్రిందకు వుంచు"
 
@@ -420,6 +467,7 @@ msgstr "పైకి/క్రిందకు వుంచు"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CommandAllWheel)
 #: actions.ui:495 mouse.ui:122
 #, fuzzy, kde-format
+#| msgid "Move to Previous/Next Desktop"
 msgid "Move to previous/next desktop"
 msgstr "మునుపటి/తరువాతి రంగస్థలమునకు కదులుము"
 
@@ -427,12 +475,15 @@ msgstr "మునుపటి/తరువాతి రంగస్థలము�
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CommandAllWheel)
 #: actions.ui:500 mouse.ui:127
 #, fuzzy, kde-format
+#| msgid "Change Opacity"
 msgid "Change opacity"
 msgstr "ఓపాసిటీని మార్చుము"
 
 #. i18n: ectx: property (text), widget (QLabel, shadeHoverLabel)
 #: advanced.ui:20
 #, fuzzy, kde-format
+#| msgctxt "@title:group"
+#| msgid "Window Switching"
 msgid "Window &unshading:"
 msgstr "విండో మార్పిడి"
 
@@ -508,18 +559,21 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Placement)
 #: advanced.ui:80
 #, fuzzy, kde-format
+#| msgid "Snap windows onl&y when overlapping"
 msgid "Minimal Overlapping"
 msgstr "(&y) విండోలు వొకదానిపై వొకటి వున్నప్పుడు మాత్రమే స్నాప్ చేయుము"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Placement)
 #: advanced.ui:85
 #, fuzzy, kde-format
+#| msgid "Maximize"
 msgid "Maximized"
 msgstr "పెద్దదిచేయి"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Placement)
 #: advanced.ui:90
 #, fuzzy, kde-format
+#| msgid "Cascade"
 msgid "Cascaded"
 msgstr "కాస్కేడ్"
 
@@ -544,12 +598,14 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Placement)
 #: advanced.ui:110
 #, fuzzy, kde-format
+#| msgid "Focus Under Mouse"
 msgid "Under mouse"
 msgstr "మౌస్ క్రిందన ఫోకస్"
 
 #. i18n: ectx: property (text), widget (QLabel, specialWindowsLabel)
 #: advanced.ui:118
 #, fuzzy, kde-format
+#| msgid "Windows"
 msgid "&Special windows:"
 msgstr "విండోలు"
 
@@ -584,6 +640,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicyCombo)
 #: focus.ui:36
 #, fuzzy, kde-format
+#| msgid "Click to Focus"
 msgctxt "sassa asas"
 msgid "Click to focus"
 msgstr "ఫోకస్ కొరకు నొక్కండి"
@@ -597,6 +654,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicyCombo)
 #: focus.ui:46
 #, fuzzy, kde-format
+#| msgid "Focus Follows Mouse"
 msgid "Focus follows mouse"
 msgstr "ఫోకస్ మౌస్‌ను అనుసరిస్తుంది"
 
@@ -609,18 +667,21 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicyCombo)
 #: focus.ui:56
 #, fuzzy, kde-format
+#| msgid "Focus Under Mouse"
 msgid "Focus under mouse"
 msgstr "మౌస్ క్రిందన ఫోకస్"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicyCombo)
 #: focus.ui:61
 #, fuzzy, kde-format
+#| msgid "Focus Strictly Under Mouse"
 msgid "Focus strictly under mouse"
 msgstr "ఫోకస్ నిష్కర్షగా మౌస్ క్రిందన"
 
 #. i18n: ectx: property (text), widget (QLabel, delayFocusOnLabel)
 #: focus.ui:69
 #, fuzzy, kde-format
+#| msgid "Delay focus by:"
 msgid "&Delay focus by:"
 msgstr "ఆలస్యం దీనిచేత ఫోకస్ కావాలి:"
 
@@ -635,6 +696,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, focusStealingLabel)
 #: focus.ui:101
 #, fuzzy, kde-format
+#| msgid "Focus stealing prevention level:"
 msgid "Focus &stealing prevention:"
 msgstr "స్టీలింగ్ నిరోధన స్థాయిపై దృష్టివుంచండి:"
 
@@ -681,6 +743,8 @@ msgstr ""
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_CenterSnapZone)
 #: focus.ui:118 moving.ui:53 moving.ui:75 moving.ui:97
 #, fuzzy, kde-format
+#| msgctxt "Focus Stealing Prevention Level"
+#| msgid "None"
 msgid "None"
 msgstr "ఏదీకాదు"
 
@@ -688,6 +752,8 @@ msgstr "ఏదీకాదు"
 #. i18n: ectx: property (text), item, widget (KComboBox, focusStealing)
 #: focus.ui:123
 #, fuzzy, kde-format
+#| msgctxt "Focus Stealing Prevention Level"
+#| msgid "Low"
 msgid "Low"
 msgstr "తక్కువ"
 
@@ -702,6 +768,8 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, focusStealing)
 #: focus.ui:133
 #, fuzzy, kde-format
+#| msgctxt "Focus Stealing Prevention Level"
+#| msgid "High"
 msgid "High"
 msgstr "అధిక"
 
@@ -709,12 +777,15 @@ msgstr "అధిక"
 #. i18n: ectx: property (text), item, widget (KComboBox, focusStealing)
 #: focus.ui:138
 #, fuzzy, kde-format
+#| msgctxt "Focus Stealing Prevention Level"
+#| msgid "Extreme"
 msgid "Extreme"
 msgstr "అత్యధిక"
 
 #. i18n: ectx: property (text), widget (QLabel, raisingWindowsLabel)
 #: focus.ui:146
 #, fuzzy, kde-format
+#| msgid "Windows"
 msgid "Raising windows:"
 msgstr "విండోలు"
 
@@ -730,6 +801,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, clickRaiseOn)
 #: focus.ui:156
 #, fuzzy, kde-format
+#| msgid "C&lick raises active window"
 msgid "&Click raises active window"
 msgstr "(&l) రైజ్రైజ్ అయిన క్రియాశీల విండోను నొక్కుము"
 
@@ -789,6 +861,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, separateScreenFocus)
 #: focus.ui:216
 #, fuzzy, kde-format
+#| msgid "S&eparate screen focus"
 msgid "&Separate screen focus"
 msgstr "(&e) తెర ఫోకస్‌ను వేరుచేయుము"
 
@@ -799,11 +872,13 @@ msgstr "(&F) ఫోకస్"
 
 #: main.cpp:83
 #, fuzzy, kde-format
+#| msgid "&Titlebar Actions"
 msgid "Titlebar A&ctions"
 msgstr "(&T) శీర్షికపట్టీ చర్యలు"
 
 #: main.cpp:89
 #, fuzzy, kde-format
+#| msgid "Window Actio&ns"
 msgid "W&indow Actions"
 msgstr "(&n) విండో చర్యలు"
 
@@ -814,6 +889,7 @@ msgstr ""
 
 #: main.cpp:101
 #, fuzzy, kde-format
+#| msgid "Ad&vanced"
 msgid "Adva&nced"
 msgstr "(&v)ఆధునికమైన"
 
@@ -897,6 +973,7 @@ msgstr "(&n) విండో చర్యలు"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TitlebarDoubleClickCommand)
 #: mouse.cpp:161 mouse.ui:40
 #, fuzzy, kde-format
+#| msgid "Maximize"
 msgid "Maximize"
 msgstr "పెద్దదిచేయి"
 
@@ -917,12 +994,14 @@ msgstr "పెద్దదిచేయి (అడ్డముగా మాత్
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_1)
 #: mouse.ui:17
 #, fuzzy, kde-format
+#| msgid "&Titlebar Actions"
 msgid "Titlebar Actions"
 msgstr "(&T) శీర్షికపట్టీ చర్యలు"
 
 #. i18n: ectx: property (text), widget (QLabel, label_1)
 #: mouse.ui:26
 #, fuzzy, kde-format
+#| msgid "&Titlebar double-click:"
 msgid "&Double-click:"
 msgstr "(&T) శీర్షికపట్టీ రెండు-నొక్కులు"
 
@@ -964,18 +1043,21 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TitlebarDoubleClickCommand)
 #: mouse.ui:75
 #, fuzzy, kde-format
+#| msgid "On All Desktops"
 msgid "Show on all desktops"
 msgstr "అన్ని రంగస్థలముల పైనా"
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_CommandTitlebarWheel)
 #: mouse.ui:98
 #, fuzzy, kde-format
+#| msgid "Behavior on <em>double</em> click into the titlebar."
 msgid "Behavior on <em>mouse wheel</em> scroll over the titlebar."
 msgstr "శీర్షకపట్టీ పైన <em>రెండు</em> నొక్కులు నొక్కినప్పుడు ప్రవర్తన."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: mouse.ui:143
 #, fuzzy, kde-format
+#| msgid "&Titlebar Actions"
 msgid "Titlebar and Frame Actions"
 msgstr "(&T) శీర్షికపట్టీ చర్యలు"
 
@@ -996,6 +1078,7 @@ msgstr "క్రియాహీన"
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_CommandActiveTitlebar3)
 #: mouse.ui:232 mouse.ui:347 mouse.ui:462
 #, fuzzy, kde-format
+#| msgid "Behavior on <em>double</em> click into the titlebar."
 msgid ""
 "Behavior on <em>left</em> click into the titlebar or frame of an <em>active</"
 "em> window."
@@ -1010,6 +1093,7 @@ msgstr "శీర్షకపట్టీ పైన <em>రెండు</em> న
 #: mouse.ui:266 mouse.ui:328 mouse.ui:381 mouse.ui:443 mouse.ui:496
 #: mouse.ui:558
 #, fuzzy, kde-format
+#| msgid "Operations Menu"
 msgid "Show actions menu"
 msgstr "కార్యముల మెనూ"
 
@@ -1018,6 +1102,7 @@ msgstr "కార్యముల మెనూ"
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_CommandInactiveTitlebar3)
 #: mouse.ui:279 mouse.ui:394 mouse.ui:509
 #, fuzzy, kde-format
+#| msgid "Behavior on <em>double</em> click into the titlebar."
 msgid ""
 "Behavior on <em>left</em> click into the titlebar or frame of an "
 "<em>inactive</em> window."
@@ -1028,12 +1113,14 @@ msgstr "శీర్షకపట్టీ పైన <em>రెండు</em> న
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CommandInactiveTitlebar3)
 #: mouse.ui:288 mouse.ui:403 mouse.ui:518
 #, fuzzy, kde-format
+#| msgid "Activate & Lower"
 msgid "Activate and lower"
 msgstr "క్రియాశీలముచేయి & తగ్గించు"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: mouse.ui:589
 #, fuzzy, kde-format
+#| msgid "Maximize Button"
 msgid "Maximize Button Actions"
 msgstr "బటన్ పెద్దదిచేయి"
 
@@ -1054,6 +1141,7 @@ msgstr "పెద్దదిచేసిన బటన్ పైన <em>మధ�
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: mouse.ui:627
 #, fuzzy, kde-format
+#| msgid "Middle button:"
 msgid "Middle c&lick:"
 msgstr "మద్య బటన్:"
 
@@ -1082,12 +1170,14 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_GeometryTip)
 #: moving.ui:33
 #, fuzzy, kde-format
+#| msgid "Display window &geometry when moving or resizing"
 msgid "Display when moving or resizing"
 msgstr "విండో జియోమెట్రీని కదుల్చుచున్నప్పుడు లేదా పునఃపరిమాణము చేయుచున్నప్పుడు ప్రదర్శించుము"
 
 #. i18n: ectx: property (text), widget (QLabel, borderSnapLabel)
 #: moving.ui:40
 #, fuzzy, kde-format
+#| msgid "&Border snap zone:"
 msgid "Screen &edge snap zone:"
 msgstr "(&B) సరిహద్దు స్నాప్ జోన్:"
 
@@ -1104,6 +1194,8 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_CenterSnapZone)
 #: moving.ui:56 moving.ui:78 moving.ui:100
 #, fuzzy, kde-format
+#| msgid " pixel"
+#| msgid_plural " pixels"
 msgid " px"
 msgstr " పిగ్జల్"
 
@@ -1137,6 +1229,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SnapOnlyWhenOverlapping)
 #: moving.ui:116
 #, fuzzy, kde-format
+#| msgid "Snap windows onl&y when overlapping"
 msgid "Only when overlapping"
 msgstr "(&y) విండోలు వొకదానిపై వొకటి వున్నప్పుడు మాత్రమే స్నాప్ చేయుము"
 
@@ -1155,6 +1248,7 @@ msgstr "(&C) కేంద్ర స్నాప్ జోన్:"
 #. i18n: ectx: property (text), widget (QLabel, OverlapSnapLabel)
 #: moving.ui:143
 #, fuzzy, kde-format
+#| msgid "Windows"
 msgid "&Snap windows:"
 msgstr "విండోలు"
 
@@ -1221,34 +1315,44 @@ msgstr ""
 #~ msgstr "పెద్దదిచేసిన"
 
 #, fuzzy
+#~| msgid "Zero-Cornered"
 #~ msgid "Zero-cornered"
 #~ msgstr "జోరో-కార్నర్డ్"
 
 #, fuzzy
+#~| msgctxt "@title:group"
+#~| msgid "Window Switching"
 #~ msgid "Window tabbing:"
 #~ msgstr "విండో మార్పిడి"
 
 #, fuzzy
+#~| msgctxt "@title:group"
+#~| msgid "Window Switching"
 #~ msgid "Start window tab drag"
 #~ msgstr "విండో మార్పిడి"
 
 #, fuzzy
+#~| msgid "Right button:"
 #~ msgid "Ri&ght button:"
 #~ msgstr "కుడి బటన్:"
 
 #, fuzzy
+#~| msgid "Left button:"
 #~ msgid "&Left button:"
 #~ msgstr "ఎడమ బటన్:"
 
 #, fuzzy
+#~| msgid "Right button:"
 #~ msgid "&Right button:"
 #~ msgstr "కుడి బటన్:"
 
 #, fuzzy
+#~| msgid "Middle button:"
 #~ msgid "M&iddle button:"
 #~ msgstr "మద్య బటన్:"
 
 #, fuzzy
+#~| msgid "Left button:"
 #~ msgid "Left &button"
 #~ msgstr "ఎడమ బటన్:"
 
@@ -1262,6 +1366,7 @@ msgstr ""
 #~ msgstr "(&E) హోవర్‌ను చేతనముచేయుము"
 
 #, fuzzy
+#~| msgid "&Policy:"
 #~ msgid "Policy"
 #~ msgstr "(&P) విధానము:"
 
@@ -1269,6 +1374,7 @@ msgstr ""
 #~ msgstr "(&M) కదులుచున్న"
 
 #, fuzzy
+#~| msgid "Titlebar wheel event:"
 #~ msgid "Wheel event:"
 #~ msgstr "శీర్షికపట్టీ వీల్ ఘటన:"
 
@@ -1282,6 +1388,7 @@ msgstr ""
 #~ msgstr "మద్య బటన్:"
 
 #, fuzzy
+#~| msgid "Behavior on <em>double</em> click into the titlebar."
 #~ msgid ""
 #~ "Behavior on <em>middle</em> click into the titlebar or frame of an "
 #~ "<em>active</em> window."
@@ -1291,28 +1398,34 @@ msgstr ""
 #~ msgstr "కుడి బటన్:"
 
 #, fuzzy
+#~| msgid "Behavior on <em>right</em> click onto the maximize button."
 #~ msgid ""
 #~ "Behavior on <em>right</em> click into the titlebar or frame of an "
 #~ "<em>active</em> window."
 #~ msgstr "పెద్దదిచేసిన బటన్ పైన <em>కుడి</em> నొక్కు ప్రవర్తన."
 
 #, fuzzy
+#~| msgid "Titlebar && Frame"
 #~ msgid "Titlebar & Frame"
 #~ msgstr "శీర్షికపట్టీ && చట్రము"
 
 #, fuzzy
+#~| msgid "&Titlebar Actions"
 #~ msgid "Titlebar"
 #~ msgstr "(&T) శీర్షికపట్టీ చర్యలు"
 
 #, fuzzy
+#~| msgid "&Center snap zone:"
 #~ msgid "no center snap zone"
 #~ msgstr "(&C) కేంద్ర స్నాప్ జోన్:"
 
 #, fuzzy
+#~| msgid "&Window snap zone:"
 #~ msgid "no window snap zone"
 #~ msgstr "(&W) విండో స్నాప్ జోన్:"
 
 #, fuzzy
+#~| msgid "&Border snap zone:"
 #~ msgid "no border snap zone"
 #~ msgstr "(&B) సరిహద్దు స్నాప్ జోన్:"
 
@@ -1329,10 +1442,12 @@ msgstr ""
 #~ msgstr "(&R) క్రింది ఆలస్యముతో, పెంచుము:"
 
 #, fuzzy
+#~| msgid "Display content in &resizing windows"
 #~ msgid "Display borders on &maximized windows"
 #~ msgstr "(&r) విండోలను పునఃపరిమాణము చేయుటలో సారమును ప్రదర్శించుము"
 
 #, fuzzy
+#~| msgid "Minimize"
 #~ msgctxt "@item:inlistbox behavior on double click"
 #~ msgid "Minimize"
 #~ msgstr "చిన్నదిచేయి"
@@ -1342,21 +1457,25 @@ msgstr ""
 #~ msgstr "పెద్దదిచేసిన బటన్ పైన నొక్కినప్పుడు దాని ప్రవర్తనను మీరు యిక్కడ మలచుకొనవచ్చు."
 
 #, fuzzy
+#~| msgid "none"
 #~ msgctxt "no border snap zone"
 #~ msgid "none"
 #~ msgstr "ఏదీకాదు"
 
 #, fuzzy
+#~| msgid "none"
 #~ msgctxt "no window snap zone"
 #~ msgid "none"
 #~ msgstr "ఏదీకాదు"
 
 #, fuzzy
+#~| msgid "none"
 #~ msgctxt "no center snap zone"
 #~ msgid "none"
 #~ msgstr "ఏదీకాదు"
 
 #, fuzzy
+#~| msgid "Nothing"
 #~ msgctxt "Floating layout, windows aren't tiled at all"
 #~ msgid "Floating"
 #~ msgstr "ఏదీకాదు"

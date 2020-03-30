@@ -26,6 +26,7 @@ msgstr ""
 
 #: attica/atticaprovider.cpp:174
 #, fuzzy, kde-format
+#| msgid "All Categories"
 msgid "All categories are missing"
 msgstr "అన్నీ రకా"
 
@@ -64,6 +65,7 @@ msgstr "మీరు ఇప్పుడు ఒక ఫ్యాన్."
 
 #: attica/atticaprovider.cpp:525
 #, fuzzy, kde-format
+#| msgid "Network error. (%1)"
 msgid "Network error %1: %2"
 msgstr "నేట్ వర్క్ లొపం. (%1)"
 
@@ -91,6 +93,7 @@ msgstr "కొత్త వాటిని సమాచారదిగుమ"
 
 #: core/commentsmodel.cpp:185
 #, fuzzy, kde-format
+#| msgid "Unknown socket error"
 msgctxt ""
 "The value returned for an unknown role when requesting data from the model."
 msgid "Unknown CommentsModel role"
@@ -103,6 +106,7 @@ msgstr "స్థాపించు "
 
 #: core/engine.cpp:140
 #, fuzzy, kde-format
+#| msgid "Configuration file not found: \"%1\""
 msgid "Configuration file exists, but cannot be opened: \"%1\""
 msgstr "ఆకృతీకరణ  దస్త్రాలు కనుపడటలేదు :\"%1\""
 
@@ -223,6 +227,7 @@ msgstr ""
 
 #: core/installation.cpp:540
 #, fuzzy, kde-format
+#| msgid "Overwrite File?"
 msgid "Overwrite File"
 msgstr "దస్త్రాలను త్రిగి వ్రాయి?"
 
@@ -332,6 +337,7 @@ msgstr "వివరాలు వీక్షణ విధం"
 
 #: downloadwidget.cpp:284
 #, fuzzy, kde-format
+#| msgid "All Providers"
 msgid "All Providers"
 msgstr "సింద్దంచేయునది: %1  "
 
@@ -405,6 +411,7 @@ msgstr "మూలకర్త:"
 #. i18n: ectx: property (text), widget (QLabel, homepageLabel)
 #: downloadwidget.ui:390
 #, fuzzy, kde-format
+#| msgid "<a href=\"http://opendesktop.org\">Homepage</a>"
 msgid "<a href=\"https://opendesktop.org\">Homepage</a>"
 msgstr "<a href=\"http://opendesktop.org\">నివాస పుట</a>"
 
@@ -439,52 +446,64 @@ msgstr "స్థాపించు"
 
 #: kmoretools/kmoretools.cpp:570
 #, fuzzy, kde-format
+#| msgid "Installed"
 msgctxt "@action:inmenu"
 msgid "Not installed:"
 msgstr "స్థాపించబడిన"
 
 #: kmoretools/kmoretools.cpp:670
 #, fuzzy, kde-format
+#| msgctxt ""
+#| "@option:check An item in a list of resources that allows to query for "
+#| "more resources to put in the list"
+#| msgid "More..."
 msgctxt "@action:inmenu"
 msgid "More"
 msgstr "చాలా....."
 
 #: kmoretools/kmoretools.cpp:708
 #, fuzzy, kde-format
+#| msgid "Confi&gure..."
 msgctxt "@action:inmenu"
 msgid "Configure..."
 msgstr "(&g) అమర్చు..."
 
 #: kmoretools/kmoretools_p.h:386
 #, fuzzy, kde-format
+#| msgid "Visit contributor's homepage"
 msgctxt "@action:inmenu"
 msgid "Visit homepage"
 msgstr "కంట్రిభ్యూటర్స్ హొమ్ పుటను వీక్షించుట"
 
 #: kmoretools/kmoretools_p.h:398
 #, fuzzy, kde-format
+#| msgid "Install"
 msgctxt "@action:inmenu"
 msgid "Install"
 msgstr "స్థాపించు"
 
 #: kmoretools/kmoretools_p.h:406
 #, fuzzy, kde-format
+#| msgid "There is no matching item available.\n"
 msgctxt "@action:inmenu"
 msgid "No further information available."
 msgstr "జతైన అంశము దొరకలేదు.\n"
 
 #: kmoretools/kmoretoolsconfigdialog_p.cpp:186
 #, fuzzy, kde-format
+#| msgid "Configure"
 msgid "Configure menu"
 msgstr "అమర్చు"
 
 #: kmoretools/kmoretoolsconfigdialog_p.cpp:188
 #, fuzzy, kde-format
+#| msgid "&Configure %1..."
 msgid "Configure menu - %1"
 msgstr "(&C) %1 ను అమర్చు..."
 
 #: kmoretools/kmoretoolsmenufactory.cpp:185
 #, fuzzy, kde-format
+#| msgid "Path to documents folder"
 msgctxt "@action:inmenu %1=\"$GenericName\""
 msgid "%1 - current folder"
 msgstr "పత్రముల ఫోల్డర్‌కు దారి"
@@ -504,18 +523,21 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
 #: kmoretools/ui/kmoretoolsconfigwidget.ui:25
 #, fuzzy, kde-format
+#| msgid "Maintainer"
 msgid "Main section"
 msgstr "గురు"
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonMoveDown)
 #: kmoretools/ui/kmoretoolsconfigwidget.ui:58
 #, fuzzy, kde-format
+#| msgid "Move &Down"
 msgid "Move down"
 msgstr "(&D) క్రిందకి జరపండి"
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonMoveUp)
 #: kmoretools/ui/kmoretoolsconfigwidget.ui:79
 #, fuzzy, kde-format
+#| msgid "Move &Up"
 msgid "Move up"
 msgstr "(&U) పైకి జరపండి"
 
@@ -528,6 +550,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
 #: kmoretools/ui/kmoretoolsconfigwidget.ui:121
 #, fuzzy, kde-format
+#| msgid "More Actions"
 msgid "Move to More section"
 msgstr "మరిన్ని చర్యలు"
 
@@ -540,6 +563,7 @@ msgstr "పునః అమర్పు"
 #. i18n: ectx: property (title), widget (QGroupBox, gbMoreSection)
 #: kmoretools/ui/kmoretoolsconfigwidget.ui:161
 #, fuzzy, kde-format
+#| msgid "More Actions"
 msgid "More section"
 msgstr "మరిన్ని చర్యలు"
 
@@ -554,11 +578,16 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
 #: kmoretools/ui/kmoretoolsconfigwidget.ui:223
 #, fuzzy, kde-format
+#| msgctxt ""
+#| "@option:check An item in a list of resources that allows to query for "
+#| "more resources to put in the list"
+#| msgid "More..."
 msgid "More tools..."
 msgstr "చాలా....."
 
 #: qtquick/categoriesmodel.cpp:79
 #, fuzzy, kde-format
+#| msgid "All Categories"
 msgctxt ""
 "The first entry in the category selection list (also the default value)"
 msgid "Show All Categories"
@@ -566,6 +595,7 @@ msgstr "అన్నీ రకా"
 
 #: qtquick/categoriesmodel.cpp:108
 #, fuzzy, kde-format
+#| msgid "Unknown error"
 msgctxt ""
 "The string passed back in the case the requested category is not known"
 msgid "Unknown Category"
@@ -585,17 +615,20 @@ msgstr ""
 
 #: qtquick/qml/Button.qml:59
 #, fuzzy, kde-format
+#| msgid "Download New %1"
 msgid "Download New %1..."
 msgstr "కొత్తవి డౌన్ లోడ్ చేయుము %1"
 
 #: qtquick/qml/Dialog.qml:56
 #, fuzzy, kde-format
+#| msgid "Download New %1"
 msgctxt "The dialog title when we know which type of stuff is being requested"
 msgid "Download New %1"
 msgstr "కొత్తవి డౌన్ లోడ్ చేయుము %1"
 
 #: qtquick/qml/Dialog.qml:56
 #, fuzzy, kde-format
+#| msgid "Download New Stuff"
 msgctxt ""
 "A placeholder title used in the dialog when there is no better title "
 "available"
@@ -618,6 +651,7 @@ msgstr ""
 
 #: qtquick/qml/EntryDetails.qml:63
 #, fuzzy, kde-format
+#| msgid "Installing"
 msgctxt ""
 "A passive notification shown when installation of an item is initiated"
 msgid "Installing %1 from %2"
@@ -662,6 +696,7 @@ msgstr ""
 #: qtquick/qml/private/entrygriddelegates/ThumbDelegate.qml:57
 #: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:65
 #, fuzzy, kde-format
+#| msgid "Install"
 msgctxt ""
 "Request installation of this item, available when there is exactly one "
 "downloadable item"
@@ -673,6 +708,7 @@ msgstr "స్థాపించు"
 #: qtquick/qml/private/entrygriddelegates/ThumbDelegate.qml:57
 #: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:65
 #, fuzzy, kde-format
+#| msgid "Install"
 msgctxt ""
 "Show installation options, where there is more than one downloadable item"
 msgid "Install..."
@@ -683,6 +719,7 @@ msgstr "స్థాపించు"
 #: qtquick/qml/private/entrygriddelegates/ThumbDelegate.qml:72
 #: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:80
 #, fuzzy, kde-format
+#| msgid "Update"
 msgctxt "Request updating of this item"
 msgid "Update"
 msgstr "కొత్త మార్పులు"
@@ -690,6 +727,7 @@ msgstr "కొత్త మార్పులు"
 #: qtquick/qml/EntryDetails.qml:119 qtquick/qml/NewStuffItem.qml:51
 #: qtquick/qml/Page.qml:77
 #, fuzzy, kde-format
+#| msgid "Uninstall"
 msgctxt "Request uninstallation of this item"
 msgid "Uninstall"
 msgstr "తొలగించు"
@@ -701,6 +739,7 @@ msgstr ""
 
 #: qtquick/qml/EntryDetails.qml:177
 #, fuzzy, kde-format
+#| msgid "View Comments"
 msgctxt ""
 "A link which, when clicked, opens a new sub page with comments (comments "
 "with or without ratings) for this entry"
@@ -709,11 +748,13 @@ msgstr "వ్యాఖ్యలను వీక్షించుము"
 
 #: qtquick/qml/EntryDetails.qml:182
 #, fuzzy, kde-format
+#| msgid "Rating: "
 msgid "Rating:"
 msgstr "రేటింగు: "
 
 #: qtquick/qml/EntryDetails.qml:186
 #, fuzzy, kde-format
+#| msgid "Homepage"
 msgid "Homepage:"
 msgstr "హొమ్ పేజ్"
 
@@ -741,6 +782,7 @@ msgstr ""
 
 #: qtquick/qml/NewStuffItem.qml:37
 #, fuzzy, kde-format
+#| msgid "Install"
 msgctxt "Request installation of this item"
 msgid "Install"
 msgstr "స్థాపించు"
@@ -753,6 +795,7 @@ msgstr ""
 
 #: qtquick/qml/NewStuffList.qml:84 qtquick/qml/Page.qml:180
 #, fuzzy, kde-format
+#| msgid "Install"
 msgctxt ""
 "List option which will set the filter so only installed items are shown"
 msgid "Installed Only"
@@ -768,6 +811,7 @@ msgstr ""
 
 #: qtquick/qml/NewStuffList.qml:97 qtquick/qml/Page.qml:193
 #, fuzzy, kde-format
+#| msgid "Show directories first"
 msgctxt ""
 "List option which will set the sort order to based on when items were most "
 "recently updated"
@@ -784,12 +828,14 @@ msgstr ""
 
 #: qtquick/qml/NewStuffList.qml:99 qtquick/qml/Page.qml:195
 #, fuzzy, kde-format
+#| msgid "Show directories first"
 msgctxt "List option which will set the sort order to based on user ratings"
 msgid "Show highest rated first"
 msgstr "డెరెక్టరీలను ముందుగా చూపుము"
 
 #: qtquick/qml/NewStuffList.qml:100 qtquick/qml/Page.qml:196
 #, fuzzy, kde-format
+#| msgid "Most downloads"
 msgctxt ""
 "List option which will set the sort order to based on number of downloads"
 msgid "Show most downloaded first"
@@ -805,11 +851,13 @@ msgstr ""
 
 #: qtquick/qml/Page.qml:146
 #, fuzzy, kde-format
+#| msgid "Search"
 msgid "Search..."
 msgstr "(&S) అన్వెషణ "
 
 #: qtquick/qml/Page.qml:243
 #, fuzzy, kde-format
+#| msgid "Loading Preview"
 msgctxt ""
 "A text shown beside a busy indicator suggesting that data is being fetched"
 msgid "Loading more..."
@@ -817,6 +865,8 @@ msgstr "ముందస్తు వీక్షణం లోడుచేస్�
 
 #: qtquick/qml/private/EntryCommentDelegate.qml:125
 #, fuzzy, kde-format
+#| msgctxt "@note/rich"
+#| msgid "<i>Note</i>: %1"
 msgctxt ""
 "Placeholder title for when a comment has no subject, but does have a rating"
 msgid "<i>(no title)</i>"
@@ -838,6 +888,7 @@ msgstr ""
 
 #: qtquick/qml/private/EntryCommentsPage.qml:45
 #, fuzzy, kde-format
+#| msgid "All Categories"
 msgctxt "Title for the item which is checked when all comments should be shown"
 msgid "Show All Comments"
 msgstr "అన్నీ రకా"
@@ -868,6 +919,8 @@ msgstr "1 దిగుమతి"
 #: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:168
 #: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:180
 #, fuzzy, kde-format
+#| msgctxt "Show the author of this item in a list"
+#| msgid "By <i>%1</i>"
 msgctxt ""
 "Subheading for the tile view, located immediately underneath the name of the "
 "item"
@@ -876,12 +929,14 @@ msgstr "<i>%1</i>"
 
 #: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:59
 #, fuzzy, kde-format
+#| msgid "Installing"
 msgctxt "Label for the busy indicator showing an item is being installed"
 msgid "Installing..."
 msgstr "నెలకొల్పుతుం"
 
 #: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:61
 #, fuzzy, kde-format
+#| msgid "Updating"
 msgctxt ""
 "Label for the busy indicator showing an item is in the process of being "
 "updated"
@@ -901,18 +956,22 @@ msgstr ""
 
 #: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:76
 #, fuzzy, kde-format
+#| msgid "Installing"
 msgctxt "Label for the busy indicator showing an item is installing"
 msgid "Installing..."
 msgstr "నెలకొల్పుతుం"
 
 #: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:94
 #, fuzzy, kde-format
+#| msgid "Details"
 msgctxt "Show a page with details for this item"
 msgid "Details..."
 msgstr "వివరములు"
 
 #: qtquick/qml/private/GridTileDelegate.qml:113
 #, fuzzy, kde-format
+#| msgctxt "No border line"
+#| msgid "None"
 msgid "None"
 msgstr "ఏదీ వద్దు"
 
@@ -928,6 +987,7 @@ msgstr ""
 
 #: qtquick/quickitemsmodel.cpp:432
 #, fuzzy, kde-format
+#| msgid "loading %1"
 msgid "Using %1"
 msgstr "లోడ్ అవుతుంది %1"
 
@@ -979,6 +1039,7 @@ msgstr "రేటింగు: %1%"
 
 #: ui/itemsgridviewdelegate.cpp:138
 #, fuzzy, kde-format
+#| msgid "<br />Provider: %1"
 msgctxt "Show the size of the file in a list"
 msgid "<br />Size: %1"
 msgstr "<br />సిద్దంచేసేవారు: %1"
@@ -1039,6 +1100,7 @@ msgstr ""
 
 #: ui/itemsviewdelegate.cpp:230
 #, fuzzy, kde-format
+#| msgid "<p>Downloads: %1</p>\n"
 msgctxt "Show the size of the file in a list"
 msgid "<p>Size: %1</p>"
 msgstr "<p>సమాచార దిగుబ: %1</p>\n"
@@ -1056,6 +1118,7 @@ msgstr "ముగింపు"
 
 #: uploaddialog.cpp:180
 #, fuzzy, kde-format
+#| msgid "Provider information"
 msgid "Fetching provider information..."
 msgstr "సిద్దంచేసేవారి సమాచారం"
 
@@ -1071,6 +1134,7 @@ msgstr "సర్వర్ నుండి విశయ్య దత్తాం
 
 #: uploaddialog.cpp:269
 #, fuzzy, kde-format
+#| msgid "Provider information"
 msgid "Could not fetch provider information."
 msgstr "సిద్దంచేసేవారి సమాచారం"
 
@@ -1367,6 +1431,7 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgstr "మూసివెయుము"
 
 #, fuzzy
+#~| msgid "No Preview"
 #~ msgctxt ""
 #~ "A link which, when clicked, opens a new sub page with reviews (comments) "
 #~ "for this entry"
@@ -10062,44 +10127,56 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgstr "(&T) ఇది ఎమిటి"
 
 #, fuzzy
+#~| msgid "Next year"
 #~ msgctxt "@option next week"
 #~ msgid "Next week"
 #~ msgstr "వచ్చే సంవత్సరము"
 
 #, fuzzy
+#~| msgid "&Last Page"
 #~ msgctxt "@option last week"
 #~ msgid "Last week"
 #~ msgstr "(&L) చివరి పుట"
 
 #, fuzzy
+#~| msgid "Today"
 #~ msgctxt "@info/plain"
 #~ msgid "today"
 #~ msgstr "ఈరొజు"
 
 #, fuzzy
+#~| msgid "Show &Menubar"
 #~ msgid "Hide Menubar"
 #~ msgstr "(&M) సూచన పట్టి చూపుము"
 
 #, fuzzy
+#~| msgctxt "@action"
+#~| msgid "Show Statusbar"
 #~ msgid "Hide Statusbar"
 #~ msgstr "స్థితి పట్టీ చూపుము"
 
 #, fuzzy
+#~| msgid "File"
 #~ msgctxt "option:check A filter on resource type"
 #~ msgid "Files"
 #~ msgstr "దస్త్రం"
 
 #, fuzzy
+#~| msgctxt "@application/plain"
+#~| msgid "%1"
 #~ msgctxt "@item Author name in about dialog"
 #~ msgid "%1"
 #~ msgstr "%1"
 
 #, fuzzy
+#~| msgctxt "keyboard-key-name"
+#~| msgid "Meta"
 #~ msgctxt "option:check A filter on file type - media files"
 #~ msgid "Media"
 #~ msgstr "మెటా"
 
 #, fuzzy
+#~| msgid "HTML Toolbar"
 #~ msgid "Hide Toolbar"
 #~ msgstr "హెచ్ టిఎంఎల్ పనిముట్ల పట్టీ"
 
@@ -10164,14 +10241,18 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgstr "సాన్నెట్ ఆకృతీకరణ"
 
 #, fuzzy
+#~| msgid "Ignore"
 #~ msgid "I agree"
 #~ msgstr "విస్మరించు"
 
 #, fuzzy
+#~| msgid "Download"
 #~ msgid "Upload Your Own Files..."
 #~ msgstr "డౌన్ లోడ్"
 
 #, fuzzy
+#~| msgctxt "KCharselect unicode block name"
+#~| msgid "Devanagari"
 #~ msgctxt "digit set"
 #~ msgid "Devenagari"
 #~ msgstr "దేవనాగరి"
@@ -10220,73 +10301,90 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgstr "కొత్త హోస్ట్ పేరు"
 
 #, fuzzy
+#~| msgid "Description"
 #~ msgid "description"
 #~ msgstr "వర్ణన"
 
 #, fuzzy
+#~| msgid "Action Name"
 #~ msgid "Autor Name"
 #~ msgstr "చర్యా నామము"
 
 #, fuzzy
+#~| msgid "Could not construct value"
 #~ msgid "Could not get account balance."
 #~ msgstr "విలువ ను తయరు చెయలెకపొయాను."
 
 #, fuzzy
+#~| msgid "Download"
 #~ msgid "Voting failed."
 #~ msgstr "డౌన్ లోడ్"
 
 #, fuzzy
+#~| msgid "Could not create temporary file."
 #~ msgid "Could not make you a fan."
 #~ msgstr "తాత్కాలిక దస్త్రాన్ని సృష్టించలేను."
 
 #, fuzzy
+#~| msgid "Comment"
 #~ msgid "Community"
 #~ msgstr "వ్యాఖ్య"
 
 #, fuzzy
+#~| msgid "No Preview"
 #~ msgid "Preview"
 #~ msgstr "ముందస్తు వీక్షణం లేదు"
 
 #, fuzzy
+#~| msgid "BSD"
 #~ msgid "USD"
 #~ msgstr "బిఎస్డి"
 
 #, fuzzy
+#~| msgid "Loading Preview"
 #~ msgid "Uploading preview image and content..."
 #~ msgstr "ముందస్తు వీక్షణం లోడుచేస్తోంది"
 
 #, fuzzy
+#~| msgid "Server: %1"
 #~ msgid "Server:"
 #~ msgstr "సెర్వర్: %1"
 
 #, fuzzy
+#~| msgid "&Replace..."
 #~ msgid "Upload..."
 #~ msgstr "(&R) ప్రతిస్థాపించుము..."
 
 #, fuzzy
+#~| msgid "The rating could not be submitted."
 #~ msgid "Provider could not be initialized."
 #~ msgstr "రేటింగ్ అందించ లేకపోయాను."
 
 #, fuzzy
+#~| msgid "Clear the input in the edit field"
 #~ msgid "Please fill out the name field."
 #~ msgstr "ఎడిట్ ఫీల్ద్ లొవున్న మూలాంశమును చెరిపివేయుము"
 
 #, fuzzy
+#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^40 bytes"
 #~ msgid "%1 PB"
 #~ msgstr "%1 బి"
 
 #, fuzzy
+#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^50 bytes"
 #~ msgid "%1 EB"
 #~ msgstr "%1 బి"
 
 #, fuzzy
+#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^60 bytes"
 #~ msgid "%1 ZB"
 #~ msgstr "%1 బి"
 
 #, fuzzy
+#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^70 bytes"
 #~ msgid "%1 YB"
 #~ msgstr "%1 బి"
@@ -10335,6 +10433,7 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgstr "ఆకృతీకరణ సమాచారం సఫలంగా మళ్లి ఎక్కించడమైనది."
 
 #, fuzzy
+#~| msgid "From:"
 #~ msgid "Form"
 #~ msgstr "ఇట్లు:"
 
@@ -10560,156 +10659,206 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgstr "ఆదివారం"
 
 #, fuzzy
+#~| msgctxt "of Shahrivar short"
+#~| msgid "of Sha"
 #~ msgctxt "Indian National month 1 - ShortNamePossessive"
 #~ msgid "of Cha"
 #~ msgstr "షబాన్"
 
 #, fuzzy
+#~| msgctxt "of Farvardin short"
+#~| msgid "of Far"
 #~ msgctxt "Indian National month 2 - ShortNamePossessive"
 #~ msgid "of Vai"
 #~ msgstr "ఫార్"
 
 #, fuzzy
+#~| msgctxt "of January"
+#~| msgid "of Jan"
 #~ msgctxt "Indian National month 3 - ShortNamePossessive"
 #~ msgid "of Jya"
 #~ msgstr "జనవరి"
 
 #, fuzzy
+#~| msgctxt "of Khordad short"
+#~| msgid "of Kho"
 #~ msgctxt "Indian National month 4 - ShortNamePossessive"
 #~ msgid "of Āsh"
 #~ msgstr "ఖో"
 
 #, fuzzy
+#~| msgctxt "of Shahrivar short"
+#~| msgid "of Sha"
 #~ msgctxt "Indian National month 5 - ShortNamePossessive"
 #~ msgid "of Shr"
 #~ msgstr "షబాన్"
 
 #, fuzzy
+#~| msgctxt "of Bahman short"
+#~| msgid "of Bah"
 #~ msgctxt "Indian National month 6 - ShortNamePossessive"
 #~ msgid "of Bhā"
 #~ msgstr "బాహ్"
 
 #, fuzzy
+#~| msgctxt "of Esfand short"
+#~| msgid "of Esf"
 #~ msgctxt "Indian National month 7 - ShortNamePossessive"
 #~ msgid "of Āsw"
 #~ msgstr "ఎస్ఫ్"
 
 #, fuzzy
+#~| msgctxt "of Farvardin short"
+#~| msgid "of Far"
 #~ msgctxt "Indian National month 8 - ShortNamePossessive"
 #~ msgid "of Kār"
 #~ msgstr "ఫార్"
 
 #, fuzzy
+#~| msgctxt "of April"
+#~| msgid "of Apr"
 #~ msgctxt "Indian National month 9 - ShortNamePossessive"
 #~ msgid "of Agr"
 #~ msgstr "ఏప్రిల్"
 
 #, fuzzy
+#~| msgid "of Tamuz"
 #~ msgctxt "Indian National month 10 - ShortNamePossessive"
 #~ msgid "of Pau"
 #~ msgstr "తముజ్"
 
 #, fuzzy
+#~| msgctxt "of Mordad short"
+#~| msgid "of Mor"
 #~ msgctxt "Indian National month 11 - ShortNamePossessive"
 #~ msgid "of Māg"
 #~ msgstr "మొర్"
 
 #, fuzzy
+#~| msgctxt "of Khordad short"
+#~| msgid "of Kho"
 #~ msgctxt "Indian National month 12 - ShortNamePossessive"
 #~ msgid "of Phā"
 #~ msgstr "ఖో"
 
 #, fuzzy
+#~| msgid "of Muharram"
 #~ msgctxt "Indian National month 1 - LongNamePossessive"
 #~ msgid "of Chaitra"
 #~ msgstr "మొహరం యొక్క"
 
 #, fuzzy
+#~| msgid "of Nisan"
 #~ msgctxt "Indian National month 3 - LongNamePossessive"
 #~ msgid "of Jyaishtha"
 #~ msgstr "నిసాన్"
 
 #, fuzzy
+#~| msgid "of Shvat"
 #~ msgctxt "Indian National month 5 - LongNamePossessive"
 #~ msgid "of Shrāvana"
 #~ msgstr "ష్వాట్"
 
 #, fuzzy
+#~| msgid "of Khordad"
 #~ msgctxt "Indian National month 6 - LongNamePossessive"
 #~ msgid "of Bhādrapad"
 #~ msgstr "ఖోర్దాద్"
 
 #, fuzzy
+#~| msgid "of Heshvan"
 #~ msgctxt "Indian National month 7 - LongNamePossessive"
 #~ msgid "of Āshwin"
 #~ msgstr "హెష్వాన్"
 
 #, fuzzy
+#~| msgid "of Bahman"
 #~ msgctxt "Indian National month 9 - LongNamePossessive"
 #~ msgid "of Agrahayana"
 #~ msgstr "బహ్మాన్"
 
 #, fuzzy
+#~| msgctxt "of Bahman short"
+#~| msgid "of Bah"
 #~ msgctxt "Indian National month 10 - LongNamePossessive"
 #~ msgid "of Paush"
 #~ msgstr "బాహ్"
 
 #, fuzzy
+#~| msgctxt "of Mehr short"
+#~| msgid "of Meh"
 #~ msgctxt "Indian National month 11 - LongNamePossessive"
 #~ msgid "of Māgh"
 #~ msgstr "మెహ్"
 
 #, fuzzy
+#~| msgid "Kha"
 #~ msgctxt "Indian National month 1 - ShortName"
 #~ msgid "Cha"
 #~ msgstr "ఖా"
 
 #, fuzzy
+#~| msgctxt "January"
+#~| msgid "Jan"
 #~ msgctxt "Indian National month 3 - ShortName"
 #~ msgid "Jya"
 #~ msgstr "జనవరి"
 
 #, fuzzy
+#~| msgctxt "Shahrivar short"
+#~| msgid "Sha"
 #~ msgctxt "Indian National month 5 - ShortName"
 #~ msgid "Shr"
 #~ msgstr "ష"
 
 #, fuzzy
+#~| msgid "Arb"
 #~ msgctxt "Indian National month 9 - ShortName"
 #~ msgid "Agr"
 #~ msgstr "అర్బ్"
 
 #, fuzzy
+#~| msgid "Pause"
 #~ msgctxt "Indian National month 10 - ShortName"
 #~ msgid "Pau"
 #~ msgstr "పాజ్"
 
 #, fuzzy
+#~| msgctxt "KCharselect unicode block name"
+#~| msgid "Thaana"
 #~ msgctxt "Indian National month 9 - LongName"
 #~ msgid "Agrahayana"
 #~ msgstr "తానా"
 
 #, fuzzy
+#~| msgid "Pause"
 #~ msgctxt "Indian National month 10 - LongName"
 #~ msgid "Paush"
 #~ msgstr "పాజ్"
 
 #, fuzzy
+#~| msgctxt "Jumee short"
+#~| msgid "Jom"
 #~ msgctxt "Indian National weekday 1 - ShortDayName"
 #~ msgid "Som"
 #~ msgstr "జాం"
 
 #, fuzzy
+#~| msgctxt "KCharselect unicode block name"
+#~| msgid "Buhid"
 #~ msgctxt "Indian National weekday 3 - ShortDayName"
 #~ msgid "Bud"
 #~ msgstr "బుహిద్"
 
 #, fuzzy
+#~| msgctxt "Sunday"
+#~| msgid "Sun"
 #~ msgctxt "Indian National weekday 5 - ShortDayName"
 #~ msgid "Suk"
 #~ msgstr "ఆది"
 
 #, fuzzy
+#~| msgid "Sivan"
 #~ msgctxt "Indian National weekday 6 - ShortDayName"
 #~ msgid "San"
 #~ msgstr "శివన్"
@@ -11170,11 +11319,15 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgstr "అదార్ II"
 
 #, fuzzy
+#~| msgctxt "KCharselect unicode block name"
+#~| msgid "Coptic"
 #~ msgctxt "@item Calendar system"
 #~ msgid "Coptic"
 #~ msgstr "కాప్టిక్"
 
 #, fuzzy
+#~| msgctxt "KCharselect unicode block name"
+#~| msgid "Ethiopic"
 #~ msgctxt "@item Calendar system"
 #~ msgid "Ethiopian"
 #~ msgstr "ఇథియోపిక్"
@@ -11184,6 +11337,8 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgstr "జార్జియన్"
 
 #, fuzzy
+#~| msgctxt "@item Calendar system"
+#~| msgid "Gregorian"
 #~ msgctxt "@item Calendar system"
 #~ msgid "Gregorian (Proleptic)"
 #~ msgstr "జార్జియన్"
@@ -11201,6 +11356,8 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgstr "జలాలి"
 
 #, fuzzy
+#~| msgctxt "January"
+#~| msgid "Jan"
 #~ msgctxt "@item Calendar system"
 #~ msgid "Julian"
 #~ msgstr "జనవరి"
@@ -11210,551 +11367,710 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgstr "సరికాని కెలెండర్ రకం"
 
 #, fuzzy
+#~| msgctxt "of Khordad short"
+#~| msgid "of Kho"
 #~ msgctxt "Coptic month 1 - ShortNamePossessive"
 #~ msgid "of Tho"
 #~ msgstr "ఖో"
 
 #, fuzzy
+#~| msgid "of Tamuz"
 #~ msgctxt "Coptic month 2 - ShortNamePossessive"
 #~ msgid "of Pao"
 #~ msgstr "తముజ్"
 
 #, fuzzy
+#~| msgid "of Shvat"
 #~ msgctxt "Coptic month 3 - ShortNamePossessive"
 #~ msgid "of Hat"
 #~ msgstr "ష్వాట్"
 
 #, fuzzy
+#~| msgid "of Nisan"
 #~ msgctxt "Coptic month 4 - ShortNamePossessive"
 #~ msgid "of Kia"
 #~ msgstr "నిసాన్"
 
 #, fuzzy
+#~| msgctxt "of February"
+#~| msgid "of Feb"
 #~ msgctxt "Coptic month 5 - ShortNamePossessive"
 #~ msgid "of Tob"
 #~ msgstr "ఫిభ్రవరి"
 
 #, fuzzy
+#~| msgctxt "of Mehr short"
+#~| msgid "of Meh"
 #~ msgctxt "Coptic month 6 - ShortNamePossessive"
 #~ msgid "of Mes"
 #~ msgstr "మెహ్"
 
 #, fuzzy
+#~| msgctxt "of March"
+#~| msgid "of Mar"
 #~ msgctxt "Coptic month 7 - ShortNamePossessive"
 #~ msgid "of Par"
 #~ msgstr "మార్చి"
 
 #, fuzzy
+#~| msgid "of Tamuz"
 #~ msgctxt "Coptic month 8 - ShortNamePossessive"
 #~ msgid "of Pam"
 #~ msgstr "తముజ్"
 
 #, fuzzy
+#~| msgctxt "of Bahman short"
+#~| msgid "of Bah"
 #~ msgctxt "Coptic month 9 - ShortNamePossessive"
 #~ msgid "of Pas"
 #~ msgstr "బాహ్"
 
 #, fuzzy
+#~| msgctxt "of January"
+#~| msgid "of Jan"
 #~ msgctxt "Coptic month 10 - ShortNamePossessive"
 #~ msgid "of Pan"
 #~ msgstr "జనవరి"
 
 #, fuzzy
+#~| msgctxt "of February"
+#~| msgid "of Feb"
 #~ msgctxt "Coptic month 11 - ShortNamePossessive"
 #~ msgid "of Epe"
 #~ msgstr "ఫిభ్రవరి"
 
 #, fuzzy
+#~| msgctxt "of Mordad short"
+#~| msgid "of Mor"
 #~ msgctxt "Coptic month 12 - ShortNamePossessive"
 #~ msgid "of Meo"
 #~ msgstr "మొర్"
 
 #, fuzzy
+#~| msgctxt "of Khordad short"
+#~| msgid "of Kho"
 #~ msgctxt "Coptic month 13 - ShortNamePossessive"
 #~ msgid "of Kou"
 #~ msgstr "ఖో"
 
 #, fuzzy
+#~| msgctxt "of Khordad short"
+#~| msgid "of Kho"
 #~ msgctxt "Coptic month 1 - LongNamePossessive"
 #~ msgid "of Thoout"
 #~ msgstr "ఖో"
 
 #, fuzzy
+#~| msgid "of Tamuz"
 #~ msgctxt "Coptic month 2 - LongNamePossessive"
 #~ msgid "of Paope"
 #~ msgstr "తముజ్"
 
 #, fuzzy
+#~| msgid "of Hijjah"
 #~ msgctxt "Coptic month 3 - LongNamePossessive"
 #~ msgid "of Hathor"
 #~ msgstr "హిజాహ్ యొక్క"
 
 #, fuzzy
+#~| msgctxt "of Khordad short"
+#~| msgid "of Kho"
 #~ msgctxt "Coptic month 4 - LongNamePossessive"
 #~ msgid "of Kiahk"
 #~ msgstr "ఖో"
 
 #, fuzzy
+#~| msgid "of October"
 #~ msgctxt "Coptic month 5 - LongNamePossessive"
 #~ msgid "of Tobe"
 #~ msgstr "అక్టోబరు"
 
 #, fuzzy
+#~| msgid "of Mehr"
 #~ msgctxt "Coptic month 6 - LongNamePossessive"
 #~ msgid "of Meshir"
 #~ msgstr "మెహర్"
 
 #, fuzzy
+#~| msgid "of Tamuz"
 #~ msgctxt "Coptic month 8 - LongNamePossessive"
 #~ msgid "of Parmoute"
 #~ msgstr "తముజ్"
 
 #, fuzzy
+#~| msgctxt "of Bahman short"
+#~| msgid "of Bah"
 #~ msgctxt "Coptic month 9 - LongNamePossessive"
 #~ msgid "of Pashons"
 #~ msgstr "బాహ్"
 
 #, fuzzy
+#~| msgctxt "of January"
+#~| msgid "of Jan"
 #~ msgctxt "Coptic month 10 - LongNamePossessive"
 #~ msgid "of Paone"
 #~ msgstr "జనవరి"
 
 #, fuzzy
+#~| msgctxt "of September"
+#~| msgid "of Sep"
 #~ msgctxt "Coptic month 11 - LongNamePossessive"
 #~ msgid "of Epep"
 #~ msgstr "సెప్టెంబరు"
 
 #, fuzzy
+#~| msgctxt "of Mordad short"
+#~| msgid "of Mor"
 #~ msgctxt "Coptic month 12 - LongNamePossessive"
 #~ msgid "of Mesore"
 #~ msgstr "మొర్"
 
 #, fuzzy
+#~| msgid "Thl"
 #~ msgctxt "Coptic month 1 - ShortName"
 #~ msgid "Tho"
 #~ msgstr "థి"
 
 #, fuzzy
+#~| msgid "Pause"
 #~ msgctxt "Coptic month 2 - ShortName"
 #~ msgid "Pao"
 #~ msgstr "పాజ్"
 
 #, fuzzy
+#~| msgctxt "Saturday"
+#~| msgid "Sat"
 #~ msgctxt "Coptic month 3 - ShortName"
 #~ msgid "Hat"
 #~ msgstr "శని"
 
 #, fuzzy
+#~| msgid "Kha"
 #~ msgctxt "Coptic month 4 - ShortName"
 #~ msgid "Kia"
 #~ msgstr "ఖా"
 
 #, fuzzy
+#~| msgid "Job"
 #~ msgctxt "Coptic month 5 - ShortName"
 #~ msgid "Tob"
 #~ msgstr "జాబ్"
 
 #, fuzzy
+#~| msgid "Yes"
 #~ msgctxt "Coptic month 6 - ShortName"
 #~ msgid "Mes"
 #~ msgstr "ఔను"
 
 #, fuzzy
+#~| msgctxt "March"
+#~| msgid "Mar"
 #~ msgctxt "Coptic month 7 - ShortName"
 #~ msgid "Par"
 #~ msgstr "మార్చి"
 
 #, fuzzy
+#~| msgid "am"
 #~ msgctxt "Coptic month 8 - ShortName"
 #~ msgid "Pam"
 #~ msgstr "పూర్వాహ్నము"
 
 #, fuzzy
+#~| msgid "Pages"
 #~ msgctxt "Coptic month 9 - ShortName"
 #~ msgid "Pas"
 #~ msgstr "పేజీలు"
 
 #, fuzzy
+#~| msgctxt "January"
+#~| msgid "Jan"
 #~ msgctxt "Coptic month 10 - ShortName"
 #~ msgid "Pan"
 #~ msgstr "జనవరి"
 
 #, fuzzy
+#~| msgid "Escape"
 #~ msgctxt "Coptic month 11 - ShortName"
 #~ msgid "Epe"
 #~ msgstr "ఎస్కేప్"
 
 #, fuzzy
+#~| msgctxt "Monday"
+#~| msgid "Mon"
 #~ msgctxt "Coptic month 12 - ShortName"
 #~ msgid "Meo"
 #~ msgstr "సోమ"
 
 #, fuzzy
+#~| msgctxt "Khordad short"
+#~| msgid "Kho"
 #~ msgctxt "Coptic month 13 - ShortName"
 #~ msgid "Kou"
 #~ msgstr "ఖో"
 
 #, fuzzy
+#~| msgctxt "Thursday"
+#~| msgid "Thu"
 #~ msgctxt "Coptic month 1 - LongName"
 #~ msgid "Thoout"
 #~ msgstr "గురు"
 
 #, fuzzy
+#~| msgid "Property"
 #~ msgctxt "Coptic month 2 - LongName"
 #~ msgid "Paope"
 #~ msgstr "గుణము"
 
 #, fuzzy
+#~| msgid "Author"
 #~ msgctxt "Coptic month 3 - LongName"
 #~ msgid "Hathor"
 #~ msgstr "మూలకర్త"
 
 #, fuzzy
+#~| msgid "Mehr"
 #~ msgctxt "Coptic month 6 - LongName"
 #~ msgid "Meshir"
 #~ msgstr "మెహర్"
 
 #, fuzzy
+#~| msgid "Parameter"
 #~ msgctxt "Coptic month 7 - LongName"
 #~ msgid "Paremhotep"
 #~ msgstr "పెరామీటరు"
 
 #, fuzzy
+#~| msgid "Parameter"
 #~ msgctxt "Coptic month 8 - LongName"
 #~ msgid "Parmoute"
 #~ msgstr "పెరామీటరు"
 
 #, fuzzy
+#~| msgid "Pause"
 #~ msgctxt "Coptic month 9 - LongName"
 #~ msgid "Pashons"
 #~ msgstr "పాజ్"
 
 #, fuzzy
+#~| msgctxt "No border line"
+#~| msgid "None"
 #~ msgctxt "Coptic month 10 - LongName"
 #~ msgid "Paone"
 #~ msgstr "ఏదీ వద్దు"
 
 #, fuzzy
+#~| msgid "Escape"
 #~ msgctxt "Coptic month 11 - LongName"
 #~ msgid "Epep"
 #~ msgstr "ఎస్కేప్"
 
 #, fuzzy
+#~| msgid "Pages"
 #~ msgctxt "Coptic weekday 1 - ShortDayName"
 #~ msgid "Pes"
 #~ msgstr "పేజీలు"
 
 #, fuzzy
+#~| msgid "Pause"
 #~ msgctxt "Coptic weekday 2 - ShortDayName"
 #~ msgid "Psh"
 #~ msgstr "పాజ్"
 
 #, fuzzy
+#~| msgid "Pause"
 #~ msgctxt "Coptic weekday 6 - ShortDayName"
 #~ msgid "Psa"
 #~ msgstr "పాజ్"
 
 #, fuzzy
+#~| msgid "Pause"
 #~ msgctxt "Coptic weekday 1 - LongDayName"
 #~ msgid "Pesnau"
 #~ msgstr "పాజ్"
 
 #, fuzzy
+#~| msgid "Comment"
 #~ msgctxt "Coptic weekday 2 - LongDayName"
 #~ msgid "Pshoment"
 #~ msgstr "వ్యాఖ్య"
 
 #, fuzzy
+#~| msgctxt "of Mehr short"
+#~| msgid "of Meh"
 #~ msgctxt "Ethiopian month 1 - ShortNamePossessive"
 #~ msgid "of Mes"
 #~ msgstr "మెహ్"
 
 #, fuzzy
+#~| msgid "of Tevet"
 #~ msgctxt "Ethiopian month 2 - ShortNamePossessive"
 #~ msgid "of Teq"
 #~ msgstr "తెవెట్"
 
 #, fuzzy
+#~| msgctxt "of February"
+#~| msgid "of Feb"
 #~ msgctxt "Ethiopian month 3 - ShortNamePossessive"
 #~ msgid "of Hed"
 #~ msgstr "ఫిభ్రవరి"
 
 #, fuzzy
+#~| msgctxt "of Bahman short"
+#~| msgid "of Bah"
 #~ msgctxt "Ethiopian month 4 - ShortNamePossessive"
 #~ msgid "of Tah"
 #~ msgstr "బాహ్"
 
 #, fuzzy
+#~| msgctxt "of Tir short"
+#~| msgid "of Tir"
 #~ msgctxt "Ethiopian month 5 - ShortNamePossessive"
 #~ msgid "of Ter"
 #~ msgstr "తిర్"
 
 #, fuzzy
+#~| msgctxt "of January"
+#~| msgid "of Jan"
 #~ msgctxt "Ethiopian month 6 - ShortNamePossessive"
 #~ msgid "of Yak"
 #~ msgstr "జనవరి"
 
 #, fuzzy
+#~| msgctxt "of March"
+#~| msgid "of Mar"
 #~ msgctxt "Ethiopian month 7 - ShortNamePossessive"
 #~ msgid "of Mag"
 #~ msgstr "మార్చి"
 
 #, fuzzy
+#~| msgctxt "of May short"
+#~| msgid "of May"
 #~ msgctxt "Ethiopian month 8 - ShortNamePossessive"
 #~ msgid "of Miy"
 #~ msgstr "మే"
 
 #, fuzzy
+#~| msgctxt "of January"
+#~| msgid "of Jan"
 #~ msgctxt "Ethiopian month 9 - ShortNamePossessive"
 #~ msgid "of Gen"
 #~ msgstr "జనవరి"
 
 #, fuzzy
+#~| msgctxt "of September"
+#~| msgid "of Sep"
 #~ msgctxt "Ethiopian month 10 - ShortNamePossessive"
 #~ msgid "of Sen"
 #~ msgstr "సెప్టెంబరు"
 
 #, fuzzy
+#~| msgid "of Tamuz"
 #~ msgctxt "Ethiopian month 11 - ShortNamePossessive"
 #~ msgid "of Ham"
 #~ msgstr "తముజ్"
 
 #, fuzzy
+#~| msgctxt "of Mehr short"
+#~| msgid "of Meh"
 #~ msgctxt "Ethiopian month 12 - ShortNamePossessive"
 #~ msgid "of Neh"
 #~ msgstr "మెహ్"
 
 #, fuzzy
+#~| msgid "of Tamuz"
 #~ msgctxt "Ethiopian month 13 - ShortNamePossessive"
 #~ msgid "of Pag"
 #~ msgstr "తముజ్"
 
 #, fuzzy
+#~| msgid "of Mehr"
 #~ msgctxt "Ethiopian month 1 - LongNamePossessive"
 #~ msgid "of Meskerem"
 #~ msgstr "మెహర్"
 
 #, fuzzy
+#~| msgid "of Tevet"
 #~ msgctxt "Ethiopian month 2 - LongNamePossessive"
 #~ msgid "of Tequemt"
 #~ msgstr "తెవెట్"
 
 #, fuzzy
+#~| msgid "of Adar"
 #~ msgctxt "Ethiopian month 3 - LongNamePossessive"
 #~ msgid "of Hedar"
 #~ msgstr "అదార్"
 
 #, fuzzy
+#~| msgid "of Bahman"
 #~ msgctxt "Ethiopian month 4 - LongNamePossessive"
 #~ msgid "of Tahsas"
 #~ msgstr "బహ్మాన్"
 
 #, fuzzy
+#~| msgctxt "of Tir short"
+#~| msgid "of Tir"
 #~ msgctxt "Ethiopian month 5 - LongNamePossessive"
 #~ msgid "of Ter"
 #~ msgstr "తిర్"
 
 #, fuzzy
+#~| msgctxt "of Farvardin short"
+#~| msgid "of Far"
 #~ msgctxt "Ethiopian month 6 - LongNamePossessive"
 #~ msgid "of Yakatit"
 #~ msgstr "ఫార్"
 
 #, fuzzy
+#~| msgid "of Rajab"
 #~ msgctxt "Ethiopian month 7 - LongNamePossessive"
 #~ msgid "of Magabit"
 #~ msgstr "రజబ్ యొక్క"
 
 #, fuzzy
+#~| msgctxt "of May short"
+#~| msgid "of May"
 #~ msgctxt "Ethiopian month 8 - LongNamePossessive"
 #~ msgid "of Miyazya"
 #~ msgstr "మే"
 
 #, fuzzy
+#~| msgctxt "of February"
+#~| msgid "of Feb"
 #~ msgctxt "Ethiopian month 9 - LongNamePossessive"
 #~ msgid "of Genbot"
 #~ msgstr "ఫిభ్రవరి"
 
 #, fuzzy
+#~| msgctxt "of September"
+#~| msgid "of Sep"
 #~ msgctxt "Ethiopian month 10 - LongNamePossessive"
 #~ msgid "of Sene"
 #~ msgstr "సెప్టెంబరు"
 
 #, fuzzy
+#~| msgid "of Tamuz"
 #~ msgctxt "Ethiopian month 11 - LongNamePossessive"
 #~ msgid "of Hamle"
 #~ msgstr "తముజ్"
 
 #, fuzzy
+#~| msgctxt "of Shahrivar short"
+#~| msgid "of Sha"
 #~ msgctxt "Ethiopian month 12 - LongNamePossessive"
 #~ msgid "of Nehase"
 #~ msgstr "షబాన్"
 
 #, fuzzy
+#~| msgid "of Tamuz"
 #~ msgctxt "Ethiopian month 13 - LongNamePossessive"
 #~ msgid "of Pagumen"
 #~ msgstr "తముజ్"
 
 #, fuzzy
+#~| msgid "Yes"
 #~ msgctxt "Ethiopian month 1 - ShortName"
 #~ msgid "Mes"
 #~ msgstr "ఔను"
 
 #, fuzzy
+#~| msgctxt "Tuesday"
+#~| msgid "Tue"
 #~ msgctxt "Ethiopian month 2 - ShortName"
 #~ msgid "Teq"
 #~ msgstr "మంగళ"
 
 #, fuzzy
+#~| msgctxt "Wednesday"
+#~| msgid "Wed"
 #~ msgctxt "Ethiopian month 3 - ShortName"
 #~ msgid "Hed"
 #~ msgstr "బుధ"
 
 #, fuzzy
+#~| msgid "Thl"
 #~ msgctxt "Ethiopian month 4 - ShortName"
 #~ msgid "Tah"
 #~ msgstr "థి"
 
 #, fuzzy
+#~| msgctxt "Tuesday"
+#~| msgid "Tue"
 #~ msgctxt "Ethiopian month 5 - ShortName"
 #~ msgid "Ter"
 #~ msgstr "మంగళ"
 
 #, fuzzy
+#~| msgctxt "March"
+#~| msgid "Mar"
 #~ msgctxt "Ethiopian month 7 - ShortName"
 #~ msgid "Mag"
 #~ msgstr "మార్చి"
 
 #, fuzzy
+#~| msgctxt "May short"
+#~| msgid "May"
 #~ msgctxt "Ethiopian month 8 - ShortName"
 #~ msgid "Miy"
 #~ msgstr "మే"
 
 #, fuzzy
+#~| msgid "Green:"
 #~ msgctxt "Ethiopian month 9 - ShortName"
 #~ msgid "Gen"
 #~ msgstr "పచ్చ:"
 
 #, fuzzy
+#~| msgid "&Send"
 #~ msgctxt "Ethiopian month 10 - ShortName"
 #~ msgid "Sen"
 #~ msgstr "(&S) పంపు"
 
 #, fuzzy
+#~| msgid "am"
 #~ msgctxt "Ethiopian month 11 - ShortName"
 #~ msgid "Ham"
 #~ msgstr "పూర్వాహ్నము"
 
 #, fuzzy
+#~| msgctxt "Mehr short"
+#~| msgid "Meh"
 #~ msgctxt "Ethiopian month 12 - ShortName"
 #~ msgid "Neh"
 #~ msgstr "మెహ్"
 
 #, fuzzy
+#~| msgid "Pages"
 #~ msgctxt "Ethiopian month 13 - ShortName"
 #~ msgid "Pag"
 #~ msgstr "పేజీలు"
 
 #, fuzzy
+#~| msgid "Tevet"
 #~ msgctxt "Ethiopian month 2 - LongName"
 #~ msgid "Tequemt"
 #~ msgstr "తెవెట్"
 
 #, fuzzy
+#~| msgid "Adar"
 #~ msgctxt "Ethiopian month 3 - LongName"
 #~ msgid "Hedar"
 #~ msgstr "ఆదార్"
 
 #, fuzzy
+#~| msgid "Task"
 #~ msgctxt "Ethiopian month 4 - LongName"
 #~ msgid "Tahsas"
 #~ msgstr "పని"
 
 #, fuzzy
+#~| msgctxt "Tuesday"
+#~| msgid "Tue"
 #~ msgctxt "Ethiopian month 5 - LongName"
 #~ msgid "Ter"
 #~ msgstr "మంగళ"
 
 #, fuzzy
+#~| msgid "&Send"
 #~ msgctxt "Ethiopian month 10 - LongName"
 #~ msgid "Sene"
 #~ msgstr "(&S) పంపు"
 
 #, fuzzy
+#~| msgid "Name"
 #~ msgctxt "Ethiopian month 11 - LongName"
 #~ msgid "Hamle"
 #~ msgstr "పేరు"
 
 #, fuzzy
+#~| msgid "Name"
 #~ msgctxt "Ethiopian month 12 - LongName"
 #~ msgid "Nehase"
 #~ msgstr "పేరు"
 
 #, fuzzy
+#~| msgid "Pages"
 #~ msgctxt "Ethiopian month 13 - LongName"
 #~ msgid "Pagumen"
 #~ msgstr "పేజీలు"
 
 #, fuzzy
+#~| msgctxt "September"
+#~| msgid "Sep"
 #~ msgctxt "Ethiopian weekday 1 - ShortDayName"
 #~ msgid "Seg"
 #~ msgstr "సెప్టెంబరు"
 
 #, fuzzy
+#~| msgctxt "March"
+#~| msgid "Mar"
 #~ msgctxt "Ethiopian weekday 2 - ShortDayName"
 #~ msgid "Mak"
 #~ msgstr "మార్చి"
 
 #, fuzzy
+#~| msgid "Job"
 #~ msgctxt "Ethiopian weekday 3 - ShortDayName"
 #~ msgid "Rob"
 #~ msgstr "జాబ్"
 
 #, fuzzy
+#~| msgid "am"
 #~ msgctxt "Ethiopian weekday 4 - ShortDayName"
 #~ msgid "Ham"
 #~ msgstr "పూర్వాహ్నము"
 
 #, fuzzy
+#~| msgid "Arb"
 #~ msgctxt "Ethiopian weekday 5 - ShortDayName"
 #~ msgid "Arb"
 #~ msgstr "అర్బ్"
 
 #, fuzzy
+#~| msgctxt "Wednesday"
+#~| msgid "Wed"
 #~ msgctxt "Ethiopian weekday 6 - ShortDayName"
 #~ msgid "Qed"
 #~ msgstr "బుధ"
 
 #, fuzzy
+#~| msgctxt "Thursday"
+#~| msgid "Thu"
 #~ msgctxt "Ethiopian weekday 7 - ShortDayName"
 #~ msgid "Ehu"
 #~ msgstr "గురు"
 
 #, fuzzy
+#~| msgid "&Send"
 #~ msgctxt "Ethiopian weekday 1 - LongDayName"
 #~ msgid "Segno"
 #~ msgstr "(&S) పంపు"
 
 #, fuzzy
+#~| msgid "Job"
 #~ msgctxt "Ethiopian weekday 3 - LongDayName"
 #~ msgid "Rob"
 #~ msgstr "జాబ్"
 
 #, fuzzy
+#~| msgid "Pause"
 #~ msgctxt "Ethiopian weekday 4 - LongDayName"
 #~ msgid "Hamus"
 #~ msgstr "పాజ్"
 
 #, fuzzy
+#~| msgid "Arb"
 #~ msgctxt "Ethiopian weekday 5 - LongDayName"
 #~ msgid "Arb"
 #~ msgstr "అర్బ్"
 
 #, fuzzy
+#~| msgid "Name"
 #~ msgctxt "Ethiopian weekday 6 - LongDayName"
 #~ msgid "Qedame"
 #~ msgstr "పేరు"
 
 #, fuzzy
+#~| msgid "Most Downloads"
 #~ msgctxt "Sorting order of the list of items in get hot new stuff"
 #~ msgid "Most Downloads"
 #~ msgstr "చాలా డౌన్ లోడ్లు"
@@ -11792,6 +12108,7 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgstr "శీఘ్రమార్గ విభేదము(లు)"
 
 #, fuzzy
+#~| msgid "Unlock Toolbars"
 #~ msgid "Unlock Toolbar Positions"
 #~ msgstr "పనిముట్లపట్టీలు అన్‌లాక్ చేయుము"
 
@@ -11800,23 +12117,29 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgstr "భారతియ స్క్రిప్ట్లు"
 
 #, fuzzy
+#~| msgctxt "@action"
+#~| msgid "Save"
 #~ msgid "Save"
 #~ msgstr "దాచు"
 
 #, fuzzy
+#~| msgid "Action"
 #~ msgid "Long Action"
 #~ msgstr "చర్య"
 
 #, fuzzy
+#~| msgid "Open"
 #~ msgctxt "The open file menu entry"
 #~ msgid "Open"
 #~ msgstr "తెరువండి"
 
 #, fuzzy
+#~| msgid "Test"
 #~ msgid "KIdleTest"
 #~ msgstr "పరీక్ష"
 
 #, fuzzy
+#~| msgid "David Faure"
 #~ msgid "Dario Freddi"
 #~ msgstr "డెవిడ్ ఫావ్రె"
 
@@ -11877,15 +12200,18 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgstr "యుఎస్"
 
 #, fuzzy
+#~| msgid "Do Not Store"
 #~ msgid "Do &Not Store"
 #~ msgstr "దాచవద్దు"
 
 #, fuzzy
+#~| msgid "Back"
 #~ msgctxt "Goes to previous character"
 #~ msgid "Back"
 #~ msgstr "వెనుకకు"
 
 #, fuzzy
+#~| msgid "Forward"
 #~ msgctxt "Goes to next character"
 #~ msgid "Forward"
 #~ msgstr "ముందుకు"

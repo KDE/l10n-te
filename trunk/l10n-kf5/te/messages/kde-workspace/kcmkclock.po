@@ -37,6 +37,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, setDateTimeAuto)
 #: dateandtime.ui:30
 #, fuzzy, kde-format
+#| msgid "Set date and time &automatically:"
 msgid "Set date and time &automatically"
 msgstr "తేదీ మరియు సమయంను స్వయంచాలకంగా అమర్చు:"
 
@@ -55,18 +56,21 @@ msgstr "మీరు యిక్కడ సిస్టమ్ తేదీయొ
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: dateandtime.ui:122
 #, fuzzy, kde-format
+#| msgid "Time zone Error"
 msgid "Time Zone"
 msgstr "సమయ క్షేత్రపు దోషము"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: dateandtime.ui:128
 #, fuzzy, kde-format
+#| msgid "To change the local time zone, select your area from the list below"
 msgid "To change the local time zone, select your area from the list below."
 msgstr "స్థానిక సమయ క్షేత్రమును మార్చుటకు, మీ ప్రాంతమును క్రింది జాబితానుండి యెంపికచేయుము"
 
 #. i18n: ectx: property (text), widget (QLabel, m_local)
 #: dateandtime.ui:151
 #, fuzzy, kde-format
+#| msgid "Current local time zone: %1 (%2)"
 msgid "Current local time zone:"
 msgstr "ప్రస్తుత స్థానిక సమయ క్షేత్రము: %1 (%2)"
 
@@ -93,18 +97,23 @@ msgstr ""
 
 #: dtime.cpp:131
 #, fuzzy, kde-format
+#| msgid "Current local time zone: %1 (%2)"
 msgctxt "%1 is name of time zone"
 msgid "Current local time zone: %1"
 msgstr "ప్రస్తుత స్థానిక సమయ క్షేత్రము: %1 (%2)"
 
 #: dtime.cpp:135
 #, fuzzy, kde-format
+#| msgid "Current local time zone: %1 (%2)"
 msgctxt "%1 is name of time zone, %2 is its abbreviation"
 msgid "Current local time zone: %1 (%2)"
 msgstr "ప్రస్తుత స్థానిక సమయ క్షేత్రము: %1 (%2)"
 
 #: dtime.cpp:217
 #, fuzzy, kde-format
+#| msgid ""
+#| "Public Time Server (pool.ntp.org),asia.pool.ntp.org,europe.pool.ntp.org,"
+#| "north-america.pool.ntp.org,oceania.pool.ntp.org"
 msgid ""
 "Public Time Server (pool.ntp.org),        asia.pool.ntp.org,        europe."
 "pool.ntp.org,        north-america.pool.ntp.org,        oceania.pool.ntp.org"
@@ -205,11 +214,13 @@ msgstr ""
 
 #: main.cpp:155
 #, fuzzy, kde-format
+#| msgid "Unable to contact time server: %1."
 msgid "Unable to set current time"
 msgstr "టైమ్ సెర్వర్‌ను సంప్రదించలేక పోయింది: %1"
 
 #: main.cpp:165
 #, fuzzy, kde-format
+#| msgid "Unable to contact time server: %1."
 msgid "Unable to set timezone"
 msgstr "టైమ్ సెర్వర్‌ను సంప్రదించలేక పోయింది: %1"
 
