@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-03-20 03:42+0100\n"
+"POT-Creation-Date: 2020-03-31 03:55+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -511,8 +511,8 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_ShadeHoverInterval)
-#. i18n: ectx: property (suffix), widget (QSpinBox, delayFocus)
-#. i18n: ectx: property (suffix), widget (QSpinBox, autoRaise)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_DelayFocusInterval)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_AutoRaiseInterval)
 #: advanced.ui:45 focus.ui:85 focus.ui:178
 #, kde-format
 msgid " ms"
@@ -631,13 +631,13 @@ msgstr "క్రియాహీన అనువర్తనములకు వ�
 msgid "Window &activation policy:"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QComboBox, windowFocusPolicyCombo)
+#. i18n: ectx: property (whatsThis), widget (QComboBox, windowFocusPolicy)
 #: focus.ui:32
 #, kde-format
 msgid "With this option you can specify how and when windows will be focused."
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicyCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicy)
 #: focus.ui:36
 #, fuzzy, kde-format
 #| msgid "Click to Focus"
@@ -645,33 +645,33 @@ msgctxt "sassa asas"
 msgid "Click to focus"
 msgstr "ఫోకస్ కొరకు నొక్కండి"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicyCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicy)
 #: focus.ui:41
 #, kde-format
 msgid "Click to focus (mouse precedence)"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicyCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicy)
 #: focus.ui:46
 #, fuzzy, kde-format
 #| msgid "Focus Follows Mouse"
 msgid "Focus follows mouse"
 msgstr "ఫోకస్ మౌస్‌ను అనుసరిస్తుంది"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicyCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicy)
 #: focus.ui:51
 #, kde-format
 msgid "Focus follows mouse (mouse precedence)"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicyCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicy)
 #: focus.ui:56
 #, fuzzy, kde-format
 #| msgid "Focus Under Mouse"
 msgid "Focus under mouse"
 msgstr "మౌస్ క్రిందన ఫోకస్"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicyCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicy)
 #: focus.ui:61
 #, fuzzy, kde-format
 #| msgid "Focus Strictly Under Mouse"
@@ -685,7 +685,7 @@ msgstr "ఫోకస్ నిష్కర్షగా మౌస్ క్రి
 msgid "&Delay focus by:"
 msgstr "ఆలస్యం దీనిచేత ఫోకస్ కావాలి:"
 
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, delayFocus)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_DelayFocusInterval)
 #: focus.ui:82
 #, kde-format
 msgid ""
@@ -700,7 +700,7 @@ msgstr ""
 msgid "Focus &stealing prevention:"
 msgstr "స్టీలింగ్ నిరోధన స్థాయిపై దృష్టివుంచండి:"
 
-#. i18n: ectx: property (whatsThis), widget (KComboBox, focusStealing)
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_FocusStealingPreventionLevel)
 #: focus.ui:114
 #, kde-format
 msgid ""
@@ -737,7 +737,7 @@ msgid ""
 msgstr ""
 
 #. i18n: Focus Stealing Prevention Level
-#. i18n: ectx: property (text), item, widget (KComboBox, focusStealing)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_FocusStealingPreventionLevel)
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_BorderSnapZone)
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_WindowSnapZone)
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_CenterSnapZone)
@@ -749,7 +749,7 @@ msgid "None"
 msgstr "ఏదీకాదు"
 
 #. i18n: Focus Stealing Prevention Level
-#. i18n: ectx: property (text), item, widget (KComboBox, focusStealing)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_FocusStealingPreventionLevel)
 #: focus.ui:123
 #, fuzzy, kde-format
 #| msgctxt "Focus Stealing Prevention Level"
@@ -758,14 +758,14 @@ msgid "Low"
 msgstr "తక్కువ"
 
 #. i18n: Focus Stealing Prevention Level
-#. i18n: ectx: property (text), item, widget (KComboBox, focusStealing)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_FocusStealingPreventionLevel)
 #: focus.ui:128
 #, kde-format
 msgid "Medium"
 msgstr ""
 
 #. i18n: Focus Stealing Prevention Level
-#. i18n: ectx: property (text), item, widget (KComboBox, focusStealing)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_FocusStealingPreventionLevel)
 #: focus.ui:133
 #, fuzzy, kde-format
 #| msgctxt "Focus Stealing Prevention Level"
@@ -774,7 +774,7 @@ msgid "High"
 msgstr "అధిక"
 
 #. i18n: Focus Stealing Prevention Level
-#. i18n: ectx: property (text), item, widget (KComboBox, focusStealing)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_FocusStealingPreventionLevel)
 #: focus.ui:138
 #, fuzzy, kde-format
 #| msgctxt "Focus Stealing Prevention Level"
@@ -789,7 +789,7 @@ msgstr "అత్యధిక"
 msgid "Raising windows:"
 msgstr "విండోలు"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, clickRaiseOn)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ClickRaise)
 #: focus.ui:153
 #, kde-format
 msgid ""
@@ -798,14 +798,14 @@ msgid ""
 "windows, you need to change the settings in the Actions tab."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, clickRaiseOn)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ClickRaise)
 #: focus.ui:156
 #, fuzzy, kde-format
 #| msgid "C&lick raises active window"
 msgid "&Click raises active window"
 msgstr "(&l) రైజ్రైజ్ అయిన క్రియాశీల విండోను నొక్కుము"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, autoRaiseOn)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoRaise)
 #: focus.ui:165
 #, kde-format
 msgid ""
@@ -813,13 +813,13 @@ msgid ""
 "come to the front when the mouse pointer has been over it for some time."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, autoRaiseOn)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoRaise)
 #: focus.ui:168
 #, kde-format
 msgid "&Raise on hover, delayed by:"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, autoRaise)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_AutoRaiseInterval)
 #: focus.ui:175
 #, kde-format
 msgid ""
@@ -833,7 +833,7 @@ msgstr ""
 msgid "Multiscreen behavior:"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, activeMouseScreen)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ActiveMouseScreen)
 #: focus.ui:203
 #, kde-format
 msgid ""
@@ -844,13 +844,13 @@ msgid ""
 "for other focus policies."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, activeMouseScreen)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ActiveMouseScreen)
 #: focus.ui:206
 #, kde-format
 msgid "Active screen follows &mouse"
 msgstr "(&m) క్రియాశీల తెర మౌస్‌ను అనుసరిస్తుంది"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, separateScreenFocus)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_SeparateScreenFocus)
 #: focus.ui:213
 #, kde-format
 msgid ""
@@ -858,97 +858,97 @@ msgid ""
 "Xinerama screen"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, separateScreenFocus)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SeparateScreenFocus)
 #: focus.ui:216
 #, fuzzy, kde-format
 #| msgid "S&eparate screen focus"
 msgid "&Separate screen focus"
 msgstr "(&e) తెర ఫోకస్‌ను వేరుచేయుము"
 
-#: main.cpp:78
+#: main.cpp:79
 #, kde-format
 msgid "&Focus"
 msgstr "(&F) ఫోకస్"
 
-#: main.cpp:83
+#: main.cpp:89
 #, fuzzy, kde-format
 #| msgid "&Titlebar Actions"
 msgid "Titlebar A&ctions"
 msgstr "(&T) శీర్షికపట్టీ చర్యలు"
 
-#: main.cpp:89
+#: main.cpp:95
 #, fuzzy, kde-format
 #| msgid "Window Actio&ns"
 msgid "W&indow Actions"
 msgstr "(&n) విండో చర్యలు"
 
-#: main.cpp:95
+#: main.cpp:101
 #, kde-format
 msgid "Mo&vement"
 msgstr ""
 
-#: main.cpp:101
+#: main.cpp:107
 #, fuzzy, kde-format
 #| msgid "Ad&vanced"
 msgid "Adva&nced"
 msgstr "(&v)ఆధునికమైన"
 
-#: main.cpp:106
+#: main.cpp:112
 #, kde-format
 msgid "Window Behavior Configuration Module"
 msgstr "విండో ప్రవర్తన ఆకృతీకరణ మాడ్యూల్"
 
-#: main.cpp:108
+#: main.cpp:114
 #, kde-format
 msgid "(c) 1997 - 2002 KWin and KControl Authors"
 msgstr "(c) 1997 - 2002 KWin మరియు KControl మూలకర్తలు"
 
-#: main.cpp:110
+#: main.cpp:116
 #, kde-format
 msgid "Matthias Ettrich"
 msgstr "మథయాస్ ఎట్ట్రిచ్"
 
-#: main.cpp:111
+#: main.cpp:117
 #, kde-format
 msgid "Waldo Bastian"
 msgstr "వాల్డొ బాస్టియన్"
 
-#: main.cpp:112
+#: main.cpp:118
 #, kde-format
 msgid "Cristian Tibirna"
 msgstr "క్రిస్టియన్ టిబిర్నా"
 
-#: main.cpp:113
+#: main.cpp:119
 #, kde-format
 msgid "Matthias Kalle Dalheimer"
 msgstr "మాథియాస్ కెల్లే డాల్హైమర్"
 
-#: main.cpp:114
+#: main.cpp:120
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "డానియల్ మాల్కెన్టిన్"
 
-#: main.cpp:115
+#: main.cpp:121
 #, kde-format
 msgid "Wynn Wilkes"
 msgstr "విన్ వైక్స్"
 
-#: main.cpp:116
+#: main.cpp:122
 #, kde-format
 msgid "Pat Dowler"
 msgstr "పాట్ డౌలర్"
 
-#: main.cpp:117
+#: main.cpp:123
 #, kde-format
 msgid "Bernd Wuebben"
 msgstr "బెరన్ట్ వుబెన్"
 
-#: main.cpp:118
+#: main.cpp:124
 #, kde-format
 msgid "Matthias Hoelzer-Kluepfel"
 msgstr "మథయాస్ హొయెల్జర్-క్లూప్ఫెల్"
 
-#: main.cpp:168
+#: main.cpp:169
 #, kde-format
 msgid ""
 "<p><h1>Window Behavior</h1> Here you can customize the way windows behave "
@@ -959,19 +959,19 @@ msgid ""
 "documentation for how to customize window behavior.</p>"
 msgstr ""
 
-#: main.cpp:188
+#: main.cpp:189
 #, kde-format
 msgid "&Titlebar Actions"
 msgstr "(&T) శీర్షికపట్టీ చర్యలు"
 
-#: main.cpp:194
+#: main.cpp:195
 #, kde-format
 msgid "Window Actio&ns"
 msgstr "(&n) విండో చర్యలు"
 
 #. i18n: @item:inlistbox behavior on double click
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TitlebarDoubleClickCommand)
-#: mouse.cpp:161 mouse.ui:40
+#: mouse.cpp:162 mouse.ui:40
 #, fuzzy, kde-format
 #| msgid "Maximize"
 msgid "Maximize"
@@ -979,14 +979,14 @@ msgstr "పెద్దదిచేయి"
 
 #. i18n: @item:inlistbox behavior on double click
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TitlebarDoubleClickCommand)
-#: mouse.cpp:162 mouse.ui:45
+#: mouse.cpp:163 mouse.ui:45
 #, kde-format
 msgid "Maximize (vertical only)"
 msgstr "పెద్దదిచేయి (నిలువుగా మాత్రమే)"
 
 #. i18n: @item:inlistbox behavior on double click
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TitlebarDoubleClickCommand)
-#: mouse.cpp:163 mouse.ui:50
+#: mouse.cpp:164 mouse.ui:50
 #, kde-format
 msgid "Maximize (horizontal only)"
 msgstr "పెద్దదిచేయి (అడ్డముగా మాత్రమే)"
@@ -1252,14 +1252,14 @@ msgstr "(&C) కేంద్ర స్నాప్ జోన్:"
 msgid "&Snap windows:"
 msgstr "విండోలు"
 
-#: windows.cpp:155
+#: windows.cpp:93
 #, kde-format
 msgid ""
 "<em>Click to focus:</em> A window becomes active when you click into it. "
 "This behavior is common on other operating systems and likely what you want."
 msgstr ""
 
-#: windows.cpp:158
+#: windows.cpp:97
 #, kde-format
 msgid ""
 "<em>Click to focus (mouse precedence):</em> Mostly the same as <em>Click to "
@@ -1269,7 +1269,7 @@ msgid ""
 "em>."
 msgstr ""
 
-#: windows.cpp:161
+#: windows.cpp:102
 #, kde-format
 msgid ""
 "<em>Focus follows mouse:</em> Moving the mouse onto a window will activate "
@@ -1278,7 +1278,7 @@ msgid ""
 "to focus</em> just without having to actually click."
 msgstr ""
 
-#: windows.cpp:164
+#: windows.cpp:106
 #, kde-format
 msgid ""
 "This is mostly the same as <em>Focus follows mouse</em>. If an active window "
@@ -1287,7 +1287,7 @@ msgid ""
 "if you want a hover controlled focus."
 msgstr ""
 
-#: windows.cpp:167
+#: windows.cpp:111
 #, kde-format
 msgid ""
 "<em>Focus under mouse:</em> The focus always remains on the window under the "
@@ -1297,7 +1297,7 @@ msgid ""
 "precedence)</em> instead!"
 msgstr ""
 
-#: windows.cpp:170
+#: windows.cpp:115
 #, kde-format
 msgid ""
 "<em>Focus strictly under mouse:</em> The focus is always on the window under "
