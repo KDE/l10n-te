@@ -25,6 +25,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "X-Qt-Contexts: true\n"
 
+#. Job name, e.g. Copying has failed
+#: knotificationjobuidelegate.cpp:39
+#, fuzzy, qt-format
+#| msgid "%1 (Link)"
+msgctxt "KNotificationJobUiDelegate|"
+msgid "%1 (Failed)"
+msgstr "%1 (లింకు)"
+
 #: knotificationrestrictions.cpp:192
 #, fuzzy
 #| msgid "Unknown Application"
@@ -7073,9 +7081,6 @@ msgstr "సిస్టమ్ ట్రే నుండి విరమింప
 
 #~ msgid "Symbolic Link"
 #~ msgstr "చిహ్నమైన లింకు"
-
-#~ msgid "%1 (Link)"
-#~ msgstr "%1 (లింకు)"
 
 #~ msgid "%2 (%1 byte)"
 #~ msgid_plural "%2 (%1 bytes)"
