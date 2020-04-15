@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-04-14 02:35+0200\n"
+"POT-Creation-Date: 2020-04-15 02:39+0200\n"
 "PO-Revision-Date: 2020-03-27 00:52+0530\n"
 "Last-Translator: Sripath Roy Koganti <sripathroy@swecha.net>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -1301,27 +1301,27 @@ msgstr ""
 msgid "Search for %1 in %2"
 msgstr "మెయిన్ పనిముట్లపట్టీ"
 
-#: dolphinviewcontainer.cpp:470
+#: dolphinviewcontainer.cpp:456
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Main Toolbar"
 msgid "Search"
 msgstr "మెయిన్ పనిముట్లపట్టీ"
 
-#: dolphinviewcontainer.cpp:472
+#: dolphinviewcontainer.cpp:458
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Main Toolbar"
 msgid "Search for %1"
 msgstr "మెయిన్ పనిముట్లపట్టీ"
 
-#: dolphinviewcontainer.cpp:550
+#: dolphinviewcontainer.cpp:551
 #, kde-format
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "ఫోల్డరును లోడుచేస్తోంది..."
 
-#: dolphinviewcontainer.cpp:558
+#: dolphinviewcontainer.cpp:559
 #, fuzzy, kde-format
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -1329,25 +1329,25 @@ msgctxt "@info:progress"
 msgid "Sorting..."
 msgstr "వరుసక్రమము:"
 
-#: dolphinviewcontainer.cpp:569
+#: dolphinviewcontainer.cpp:570
 #, kde-format
 msgctxt "@info"
 msgid "Searching..."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:590
+#: dolphinviewcontainer.cpp:591
 #, kde-format
 msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:697
+#: dolphinviewcontainer.cpp:698
 #, kde-format
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "డాల్ఫన్ వెబ్ పేజీలను మద్దతీయదు, వెబ్ "
 
-#: dolphinviewcontainer.cpp:701
+#: dolphinviewcontainer.cpp:702
 #, fuzzy, kde-format
 #| msgctxt "@info:status"
 #| msgid "Protocol not supported by Dolphin, Konqueror has been launched"
@@ -1356,7 +1356,7 @@ msgid ""
 "Protocol not supported by Dolphin, default application has been launched"
 msgstr "ప్రోటోకాల్ డాల్ఫిన్ చేత మద్దతీయబడదు, కాన్క్వెరర్ ప్రారంభించబడింది"
 
-#: dolphinviewcontainer.cpp:708
+#: dolphinviewcontainer.cpp:709
 #, kde-format
 msgctxt "@info:status"
 msgid "Invalid protocol"
@@ -3539,13 +3539,13 @@ msgctxt "@label:textbox"
 msgid "Select which services should be shown in the context menu:"
 msgstr ""
 
-#: settings/services/servicessettingspage.cpp:76
+#: settings/services/servicessettingspage.cpp:77
 #, kde-format
 msgctxt "@action:button"
 msgid "Download New Services..."
 msgstr ""
 
-#: settings/services/servicessettingspage.cpp:134
+#: settings/services/servicessettingspage.cpp:135
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -3553,7 +3553,7 @@ msgid ""
 "settings."
 msgstr ""
 
-#: settings/services/servicessettingspage.cpp:166
+#: settings/services/servicessettingspage.cpp:167
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Delete"
@@ -3561,7 +3561,7 @@ msgctxt "@option:check"
 msgid "Delete"
 msgstr "తొలగించుము"
 
-#: settings/services/servicessettingspage.cpp:172
+#: settings/services/servicessettingspage.cpp:173
 #, fuzzy, kde-format
 #| msgctxt "@option:check"
 #| msgid "Show 'Copy To' and 'Move To' commands"
@@ -3569,7 +3569,7 @@ msgctxt "@option:check"
 msgid "'Copy To' and 'Move To' commands"
 msgstr "'ఇక్కడకు నకలుతీయి' మరియు 'ఇక్కడకు కదుపు' ఆదేశములను చూపుము"
 
-#: settings/services/servicessettingspage.cpp:207
+#: settings/services/servicessettingspage.cpp:208
 #, fuzzy, kde-format
 #| msgctxt "@info:status files (size)"
 #| msgid "%1 (%2)"
@@ -4192,7 +4192,7 @@ msgctxt "@action:inmenu"
 msgid "Custom Column Widths"
 msgstr "నిలువువరుస వెడల్పు"
 
-#: views/dolphinview.cpp:1526
+#: views/dolphinview.cpp:1540
 #, fuzzy, kde-format
 #| msgctxt "@info:status"
 #| msgid "Move to trash operation completed."
@@ -4200,13 +4200,13 @@ msgctxt "@info:status"
 msgid "Trash operation completed."
 msgstr "ట్రాష్‌కు కదుల్చు కార్యము పుర్తైనది."
 
-#: views/dolphinview.cpp:1535
+#: views/dolphinview.cpp:1549
 #, kde-format
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "తొలగింపు కార్యము పూర్తైనది."
 
-#: views/dolphinview.cpp:1651
+#: views/dolphinview.cpp:1665
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Rename inline"
@@ -4214,41 +4214,41 @@ msgctxt "@action:button"
 msgid "Rename and Hide"
 msgstr "ఇన్‌లైన్‌ను పునఃనామకరణ చేయుము"
 
-#: views/dolphinview.cpp:1654
+#: views/dolphinview.cpp:1668
 #, kde-format
 msgid ""
 "Adding a dot to the beginning of this file's name will hide it from view.\n"
 "Do you still want to rename it?"
 msgstr ""
 
-#: views/dolphinview.cpp:1656
+#: views/dolphinview.cpp:1670
 #, kde-format
 msgid ""
 "Adding a dot to the beginning of this folder's name will hide it from view.\n"
 "Do you still want to rename it?"
 msgstr ""
 
-#: views/dolphinview.cpp:1658
+#: views/dolphinview.cpp:1672
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Show Hidden Files"
 msgid "Hide this File?"
 msgstr "మరుగునవున్న ఫైళ్ళను చూపుము"
 
-#: views/dolphinview.cpp:1658
+#: views/dolphinview.cpp:1672
 #, fuzzy, kde-format
 #| msgctxt "@title:group"
 #| msgid "Home Folder"
 msgid "Hide this Folder?"
 msgstr "ఇంటి ఫొల్డర్"
 
-#: views/dolphinview.cpp:1703
+#: views/dolphinview.cpp:1717
 #, kde-format
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "స్థానము ఖాళీగావుంది"
 
-#: views/dolphinview.cpp:1705
+#: views/dolphinview.cpp:1719
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
