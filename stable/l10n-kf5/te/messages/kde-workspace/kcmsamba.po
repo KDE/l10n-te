@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsamba\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-09 08:26+0100\n"
+"POT-Creation-Date: 2020-02-13 03:40+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -98,14 +98,18 @@ msgid "Harald Sitter"
 msgstr ""
 
 #: main.cpp:52
-#, kde-format
-msgid "&Exports"
+#, fuzzy, kde-format
+#| msgid "&Exports"
+msgctxt "@title/group"
+msgid "Exported Shares"
 msgstr "(&E) ఎగుమతులు"
 
 #: main.cpp:54
-#, kde-format
-msgid "&Imports"
-msgstr "(&I) దిగుమతులు"
+#, fuzzy, kde-format
+#| msgid "Mounted Under"
+msgctxt "@title/group"
+msgid "Mounted Shares"
+msgstr "దీనిక్రింద మౌంటైన"
 
 #: smbmountmodel.cpp:49
 #, kde-format
@@ -124,6 +128,9 @@ msgctxt ""
 "@title:column whether a samba share is accessible locally (i.e. mounted)"
 msgid "Accessible"
 msgstr "యాక్సెస్‌చేసిన ఫాం"
+
+#~ msgid "&Imports"
+#~ msgstr "(&I) దిగుమతులు"
 
 #~ msgid "Type"
 #~ msgstr "రకము"

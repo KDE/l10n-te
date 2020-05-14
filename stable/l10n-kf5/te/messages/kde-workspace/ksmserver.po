@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-02 03:32+0100\n"
+"POT-Creation-Date: 2020-04-30 03:50+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: logout.cpp:408
+#: logout.cpp:371
 #, kde-format
 msgid "Logout canceled by '%1'"
 msgstr ""
@@ -26,7 +26,7 @@ msgstr ""
 #: main.cpp:52
 #, kde-format
 msgid ""
-"The reliable KDE session manager that talks the standard X11R6 \n"
+"The reliable Plasma session manager that talks the standard X11R6 \n"
 "session management protocol (XSMP)."
 msgstr ""
 
@@ -86,7 +86,7 @@ msgstr ""
 #, kde-format
 msgid ""
 "The following installation problem was detected\n"
-"while trying to start KDE:"
+"while trying to start Plasma:"
 msgstr ""
 
 #: main.cpp:218
@@ -94,7 +94,7 @@ msgstr ""
 msgid ""
 "\n"
 "\n"
-"KDE is unable to start.\n"
+"Plasma is unable to start.\n"
 msgstr ""
 
 #: main.cpp:225
@@ -109,49 +109,42 @@ msgstr ""
 
 #: main.cpp:270
 #, kde-format
-msgid ""
-"Starts <wm> in case no other window manager is \n"
-"participating in the session. Default is 'kwin'"
-msgstr ""
-
-#: main.cpp:271
-#, kde-format
-msgid "wm"
-msgstr ""
-
-#: main.cpp:275
-#, kde-format
 msgid "Also allow remote connections"
 msgstr ""
 
-#: main.cpp:279
+#: main.cpp:274
 #, kde-format
 msgid "Starts the session in locked mode"
 msgstr ""
 
-#: main.cpp:283
+#: main.cpp:278
 #, kde-format
 msgid ""
 "Starts without lock screen support. Only needed if other component provides "
 "the lock screen."
 msgstr ""
 
-#: server.cpp:1004
+#: server.cpp:951
+#, kde-format
+msgid "Session Management"
+msgstr ""
+
+#: server.cpp:954
 #, kde-format
 msgid "Log Out"
 msgstr ""
 
-#: server.cpp:1009
+#: server.cpp:959
 #, kde-format
 msgid "Log Out Without Confirmation"
 msgstr ""
 
-#: server.cpp:1014
+#: server.cpp:964
 #, kde-format
 msgid "Halt Without Confirmation"
 msgstr ""
 
-#: server.cpp:1019
+#: server.cpp:969
 #, kde-format
 msgid "Reboot Without Confirmation"
 msgstr ""

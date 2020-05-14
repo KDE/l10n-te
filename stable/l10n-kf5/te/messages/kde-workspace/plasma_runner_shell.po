@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner_shellrunner\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:26+0200\n"
+"POT-Creation-Date: 2020-04-07 03:59+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -18,73 +18,17 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#. i18n: ectx: property (whatsThis), widget (QLabel, lbUsername)
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, leUsername)
-#: shellOptions.ui:61 shellOptions.ui:134
-#, kde-format
-msgid "Enter the user you want to run the application as here."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, lbUsername)
-#: shellOptions.ui:64
-#, kde-format
-msgid "User&name:"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, lePassword)
-#. i18n: ectx: property (whatsThis), widget (QLabel, lbPassword)
-#: shellOptions.ui:83 shellOptions.ui:102
-#, kde-format
-msgid "Enter the password here for the user you specified above."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, lbPassword)
-#: shellOptions.ui:105
-#, kde-format
-msgid "Pass&word:"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbRunInTerminal)
-#: shellOptions.ui:115
-#, kde-format
-msgid ""
-"Check this option if the application you want to run is a text mode "
-"application. The application will then be run in a terminal emulator window."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, cbRunInTerminal)
-#: shellOptions.ui:118
-#, kde-format
-msgid "Run in &terminal window"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbRunAsOther)
-#: shellOptions.ui:141
-#, kde-format
-msgid ""
-"Check this option if you want to run the application with a different user "
-"id. Every process has a user id associated with it. This id code determines "
-"file access and other permissions. The password of the user is required to "
-"do this."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, cbRunAsOther)
-#: shellOptions.ui:144
-#, kde-format
-msgid "Run as a different &user"
-msgstr ""
-
-#: shellrunner.cpp:49
+#: shellrunner.cpp:41
 #, kde-format
 msgid "Finds commands that match :q:, using common shell syntax"
 msgstr ""
 
-#: shellrunner.cpp:50
+#: shellrunner.cpp:44
 #, kde-format
 msgid "Run in Terminal Window"
 msgstr ""
 
-#: shellrunner.cpp:70
+#: shellrunner.cpp:63
 #, kde-format
 msgid "Run %1"
 msgstr ""

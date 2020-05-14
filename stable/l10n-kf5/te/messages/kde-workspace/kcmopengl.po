@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmopengl\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-04-04 09:30+0200\n"
+"POT-Creation-Date: 2020-04-04 04:04+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -236,9 +236,12 @@ msgid "Kernel module"
 msgstr "కెర్నల్ మాడ్యూల్"
 
 #: opengl.cpp:625 opengl.cpp:637
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "3D Accelerator"
 msgid "3D Accelerator"
-msgstr "3D త్వరుణి"
+msgid_plural "3D Accelerators"
+msgstr[0] "3D త్వరుణి"
+msgstr[1] "3D త్వరుణి"
 
 #: opengl.cpp:637
 #, kde-format
