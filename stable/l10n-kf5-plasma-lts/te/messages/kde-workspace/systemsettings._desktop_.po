@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-29 07:12+0000\n"
+"POT-Creation-Date: 2020-01-12 02:53+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,7 +25,7 @@ msgctxt "GenericName"
 msgid "KDE System Settings"
 msgstr "సిస్టమ్ అమర్పులు"
 
-#: app/kdesystemsettings.desktop:64
+#: app/kdesystemsettings.desktop:67
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "System Settings"
@@ -33,7 +33,7 @@ msgctxt "Name"
 msgid "KDE System Settings"
 msgstr "సిస్టమ్ అమర్పులు"
 
-#: app/kdesystemsettings.desktop:120 app/systemsettings.desktop:175
+#: app/kdesystemsettings.desktop:126 app/systemsettings.desktop:177
 msgctxt "Comment"
 msgid "Configuration tools for your computer"
 msgstr ""
@@ -43,10 +43,15 @@ msgctxt "GenericName"
 msgid "System Settings"
 msgstr "సిస్టమ్ అమర్పులు"
 
-#: app/systemsettings.desktop:90
+#: app/systemsettings.desktop:91
 msgctxt "Name"
 msgid "System Settings"
 msgstr "సిస్టమ్ అమర్పులు"
+
+#: categories/hidden.desktop:7
+msgctxt "Name"
+msgid "Hidden"
+msgstr ""
 
 #: categories/old/settings-account-details.desktop:8
 #: categories/settings-personalization-accountdetails.desktop:9
@@ -93,7 +98,7 @@ msgctxt "Name"
 msgid "Workspace Appearance"
 msgstr "అనువర్తనం దించునది"
 
-#: categories/old/settings-desktop-appearance.desktop:72
+#: categories/old/settings-desktop-appearance.desktop:74
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Customize individual desktop theme items"
@@ -110,8 +115,8 @@ msgctxt "Name"
 msgid "Display and Monitor"
 msgstr "దస్త్ర నిర్వహణ"
 
-#: categories/old/settings-display.desktop:70
-#: categories/settings-hardware-display.desktop:71
+#: categories/old/settings-display.desktop:72
+#: categories/settings-hardware-display.desktop:73
 msgctxt "Comment"
 msgid "Display Settings"
 msgstr "ప్రదర్శన అమరికలు"
@@ -204,14 +209,6 @@ msgctxt "Name"
 msgid "Startup and Shutdown"
 msgstr ""
 
-#: categories/old/settings-system-administration.desktop:9
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "SAM System-Administration"
-msgctxt "Name"
-msgid "System Administration"
-msgstr "SAM సిస్టమ్-నిర్వహణ"
-
 #: categories/old/settings-window-behaviour.desktop:8
 msgctxt "Name"
 msgid "Window Behavior"
@@ -226,6 +223,7 @@ msgid "Workspace Appearance and Behavior"
 msgstr "అనువర్తనం దించునది"
 
 #: categories/old/settings-workspace-behavior.desktop:8
+#: categories/settings-workspace-desktopbehavior.desktop:9
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Web Behavior"
@@ -263,14 +261,6 @@ msgstr ""
 msgctxt "Name"
 msgid "Icons"
 msgstr ""
-
-#: categories/settings-appearance-workspacetheme.desktop:9
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Application Launcher"
-msgctxt "Name"
-msgid "Workspace Theme"
-msgstr "అనువర్తనం దించునది"
 
 #: categories/settings-hardware-peripherals.desktop:9
 msgctxt "Name"
@@ -346,20 +336,20 @@ msgctxt "Name"
 msgid "Regional Settings"
 msgstr "నెట్వర్‍క్   అమర్పులు"
 
+#: categories/settings-system-administration.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "SAM System-Administration"
+msgctxt "Name"
+msgid "System Administration"
+msgstr "SAM సిస్టమ్-నిర్వహణ"
+
 #: categories/settings-workspace.desktop:9
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Web Behavior"
 msgctxt "Name"
 msgid "Workspace"
-msgstr "వెబ్ ప్రవర్తన"
-
-#: categories/settings-workspace-desktopbehavior.desktop:9
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Web Behavior"
-msgctxt "Name"
-msgid "Desktop Behavior"
 msgstr "వెబ్ ప్రవర్తన"
 
 #: categories/settings-workspace-search.desktop:9
@@ -385,25 +375,6 @@ msgctxt "Name"
 msgid "System Settings Category"
 msgstr "సిస్టమ్ అమరికల వర్గము"
 
-#: classic/settings-classic-view.desktop:7 icons/settings-icon-view.desktop:7
-#: sidebar/settings-sidebar-view.desktop:7
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "System Settings"
-msgctxt "X-KDE-Keywords"
-msgid "System Settings"
-msgstr "సిస్టమ్ అమర్పులు"
-
-#: classic/settings-classic-view.desktop:64
-msgctxt "Name"
-msgid "Tree View"
-msgstr ""
-
-#: classic/settings-classic-view.desktop:102
-msgctxt "Comment"
-msgid "A Classic KDE 3 KControl style system settings view."
-msgstr ""
-
 #: core/systemsettingsexternalapp.desktop:4
 #, fuzzy
 #| msgctxt "Name"
@@ -420,7 +391,15 @@ msgctxt "Name"
 msgid "System Settings View"
 msgstr "సిస్టమ్ అమర్పులు"
 
-#: icons/settings-icon-view.desktop:64
+#: icons/settings-icon-view.desktop:7 sidebar/settings-sidebar-view.desktop:7
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "System Settings"
+msgctxt "X-KDE-Keywords"
+msgid "System Settings"
+msgstr "సిస్టమ్ అమర్పులు"
+
+#: icons/settings-icon-view.desktop:67
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Font Viewer"
@@ -428,21 +407,35 @@ msgctxt "Name"
 msgid "Icon View"
 msgstr "ఫాంట్ వీక్షణి"
 
-#: icons/settings-icon-view.desktop:141
+#: icons/settings-icon-view.desktop:145
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
 
-#: sidebar/package/metadata.desktop:2 sidebar/settings-sidebar-view.desktop:64
+#: sidebar/package/metadata.desktop:2 sidebar/settings-sidebar-view.desktop:67
 msgctxt "Name"
 msgid "Sidebar View"
 msgstr ""
 
-#: sidebar/package/metadata.desktop:42
-#: sidebar/settings-sidebar-view.desktop:104
+#: sidebar/package/metadata.desktop:46
+#: sidebar/settings-sidebar-view.desktop:111
 msgctxt "Comment"
 msgid "Categorized sidebar style"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Application Launcher"
+#~ msgctxt "Name"
+#~ msgid "Workspace Theme"
+#~ msgstr "అనువర్తనం దించునది"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Web Behavior"
+#~ msgctxt "Name"
+#~ msgid "Desktop Behavior"
+#~ msgstr "వెబ్ ప్రవర్తన"
 
 #, fuzzy
 #~| msgctxt "Name"

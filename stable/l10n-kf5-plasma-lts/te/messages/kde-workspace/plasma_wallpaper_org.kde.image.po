@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 09:39+0200\n"
+"POT-Creation-Date: 2020-02-14 08:47+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -18,34 +18,29 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: image.cpp:222
+#: image.cpp:251
 #, kde-format
 msgid "Recommended wallpaper file"
 msgstr ""
 
-#: image.cpp:345
+#: image.cpp:414
 #, kde-format
 msgid "Directory with the wallpaper to show slides from"
 msgstr ""
 
-#: image.cpp:605
-#, kde-format
-msgid "Download Wallpapers"
-msgstr ""
-
-#: image.cpp:659
+#: image.cpp:716
 #, fuzzy, kde-format
 #| msgid "Images"
 msgid "Open Image"
 msgstr "చిత్రాలు"
 
-#: image.cpp:661
+#: image.cpp:718
 #, fuzzy, kde-format
 #| msgid "Images"
 msgid "Image Files"
 msgstr "చిత్రాలు"
 
-#: imagepackage/contents/ui/config.qml:85
+#: imagepackage/contents/ui/config.qml:91
 #, kde-format
 msgid "Positioning:"
 msgstr ""
@@ -75,98 +70,178 @@ msgstr "సెంటర్డ్"
 msgid "Tiled"
 msgstr "టైల్డ్"
 
-#: imagepackage/contents/ui/config.qml:142
+#: imagepackage/contents/ui/config.qml:133
+#, kde-format
+msgid "Order:"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:136
+#, kde-format
+msgid "Random"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:140
+#, kde-format
+msgid "A to Z"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:144
+#, kde-format
+msgid "Z to A"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:148
+#, kde-format
+msgid "Date modified (newest first)"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:152
+#, kde-format
+msgid "Date modified (oldest first)"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:175
 #, kde-format
 msgid "Background:"
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:146
+#: imagepackage/contents/ui/config.qml:176
 #, kde-format
 msgid "Blur"
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:155
-#, kde-format
-msgid "Select Background Color"
-msgstr ""
-
-#: imagepackage/contents/ui/config.qml:167
+#: imagepackage/contents/ui/config.qml:185
 #, kde-format
 msgid "Solid color"
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:205
+#: imagepackage/contents/ui/config.qml:191
+#, kde-format
+msgid "Select Background Color"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:209
 #, kde-format
 msgid "Change every:"
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:220
+#: imagepackage/contents/ui/config.qml:219
 #, kde-format
-msgid "Hours"
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: imagepackage/contents/ui/config.qml:234
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: imagepackage/contents/ui/config.qml:249
+#, kde-format
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: imagepackage/contents/ui/config.qml:258
+#, fuzzy, kde-format
+#| msgid "Images"
+msgid "Folders"
+msgstr "చిత్రాలు"
+
+#: imagepackage/contents/ui/config.qml:280
+#, fuzzy, kde-format
+#| msgid "Images"
+msgid "Remove Folder"
+msgstr "చిత్రాలు"
+
+#: imagepackage/contents/ui/config.qml:285
+#, kde-format
+msgid "Open Folder"
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:238
+#: imagepackage/contents/ui/config.qml:330
 #, kde-format
-msgid "Minutes"
+msgid "There are no wallpaper locations configured"
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:256
-#, kde-format
-msgid "Seconds"
-msgstr ""
-
-#: imagepackage/contents/ui/config.qml:392
+#: imagepackage/contents/ui/config.qml:344
 #, kde-format
 msgid "Add Folder..."
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:398
+#: imagepackage/contents/ui/config.qml:350
+#: imagepackage/contents/ui/config.qml:449
+#, fuzzy, kde-format
+#| msgid "Images"
+msgid "Get New Wallpapers..."
+msgstr "చిత్రాలు"
+
+#: imagepackage/contents/ui/config.qml:402
+#, kde-format
+msgid "There are no wallpapers in this slideshow"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:443
 #, kde-format
 msgid "Add Image..."
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:403
-#, kde-format
-msgid "Get New Wallpapers..."
-msgstr ""
-
-#: imagepackage/contents/ui/main.qml:178
+#: imagepackage/contents/ui/main.qml:63
 #, fuzzy, kde-format
 #| msgid "Images"
 msgid "Open Wallpaper Image"
 msgstr "చిత్రాలు"
 
-#: imagepackage/contents/ui/main.qml:179
+#: imagepackage/contents/ui/main.qml:64
 #, kde-format
 msgid "Next Wallpaper Image"
 msgstr ""
 
-#: imagepackage/contents/ui/WallpaperDelegate.qml:115
-#: imagepackage/platformcontents/phone/ui/WallpaperDelegate.qml:89
+#: imagepackage/contents/ui/WallpaperDelegate.qml:38
 #, kde-format
-msgid "Remove wallpaper"
+msgctxt "<image> by <author>"
+msgid "By %1"
 msgstr ""
 
-#: imagepackage/contents/ui/WallpaperDelegate.qml:140
+#: imagepackage/contents/ui/WallpaperDelegate.qml:45
 #, kde-format
 msgid "Open Containing Folder"
 msgstr ""
 
-#: imagepackage/contents/ui/WallpaperDelegate.qml:159
+#: imagepackage/contents/ui/WallpaperDelegate.qml:51
 #, kde-format
 msgid "Restore wallpaper"
 msgstr ""
 
-#: imagepackage/contents/ui/WallpaperDelegate.qml:197
-#: imagepackage/platformcontents/phone/ui/WallpaperDelegate.qml:119
-#, kde-format
-msgid "%1 by %2"
-msgstr ""
+#: imagepackage/contents/ui/WallpaperDelegate.qml:56
+#, fuzzy, kde-format
+#| msgid "Images"
+msgid "Remove Wallpaper"
+msgstr "చిత్రాలు"
 
 #: imagepackage/platformcontents/phone/ui/config.qml:80
 #, kde-format
 msgid "Add Custom Wallpaper"
 msgstr ""
+
+#: imagepackage/platformcontents/phone/ui/WallpaperDelegate.qml:89
+#, kde-format
+msgid "Remove wallpaper"
+msgstr ""
+
+#: imagepackage/platformcontents/phone/ui/WallpaperDelegate.qml:119
+#, kde-format
+msgid "%1 by %2"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Images"
+#~ msgid "Wallpapers"
+#~ msgstr "చిత్రాలు"
 
 #, fuzzy
 #~| msgid "..."
