@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-09 02:17+0200\n"
+"POT-Creation-Date: 2020-06-10 02:25+0200\n"
 "PO-Revision-Date: 2020-03-27 00:52+0530\n"
 "Last-Translator: Sripath Roy Koganti <sripathroy@swecha.net>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -3532,7 +3532,7 @@ msgctxt "@title:tab Status Bar settings"
 msgid "Status Bar"
 msgstr "స్థితి పట్టీ"
 
-#: settings/general/previewssettingspage.cpp:53
+#: settings/general/previewssettingspage.cpp:55
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show preview"
@@ -3540,7 +3540,14 @@ msgctxt "@title:group"
 msgid "Show previews in the view for:"
 msgstr "ముందస్తు వీక్షణం జరిపించుము"
 
-#: settings/general/previewssettingspage.cpp:71
+#: settings/general/previewssettingspage.cpp:73
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Sort files by"
+msgid "Skip previews for local files above:"
+msgstr "ఫైళ్ళను యిలా వరుసక్రమముచేయుము"
+
+#: settings/general/previewssettingspage.cpp:86
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Sort files by"
