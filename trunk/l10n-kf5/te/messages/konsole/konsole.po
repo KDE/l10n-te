@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-16 02:28+0200\n"
+"POT-Creation-Date: 2020-06-20 02:17+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1119,25 +1119,23 @@ msgstr "ప్రొఫైల్ \"%1\" సరికూర్చు"
 
 #: EditProfileDialog.cpp:455
 #, kde-format
-msgctxt "Suffix of the number of columns (N columns)"
+msgctxt ""
+"Suffix of the number of columns (N columns). The leading space is needed to "
+"separate it from the number value."
 msgid " column"
 msgid_plural " columns"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
 
 #: EditProfileDialog.cpp:456
 #, kde-format
-msgctxt "Suffix of the number of rows (N rows)"
+msgctxt ""
+"Suffix of the number of rows (N rows). The leading space is needed to "
+"separate it from the number value."
 msgid " row"
 msgid_plural " rows"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
 
 #: EditProfileDialog.cpp:508
 #, kde-format
@@ -2487,9 +2485,10 @@ msgid "Profile #%1"
 msgstr "ప్రొఫైల్ \"%1\" సరికూర్చు"
 
 #: RenameTabDialog.cpp:38
-#, kde-format
-msgid "Rename Tab"
-msgstr "టాబ్‌కు మరలాపేరు"
+#, fuzzy, kde-format
+#| msgid "Default character encoding:"
+msgid "Current Tab Settings"
+msgstr "అప్రమేయ కారెక్టర్ ఎన్కోడింగ్:"
 
 #: RenameTabWidget.cpp:47
 #, fuzzy, kde-format
@@ -2816,8 +2815,8 @@ msgstr ""
 
 #: SessionController.cpp:719
 #, kde-format
-msgid "&Rename Tab..."
-msgstr "(&R) టాబ్‌కు మరలాపేరు..."
+msgid "&Current Tab Settings..."
+msgstr ""
 
 #: SessionController.cpp:725
 #, kde-format
@@ -3924,11 +3923,10 @@ msgid "&Detach Tab"
 msgstr "(&D) వీక్షణం వేరుచేయి"
 
 #: ViewContainer.cpp:122
-#, fuzzy, kde-format
-#| msgid "&Rename Tab..."
+#, kde-format
 msgctxt "@action:inmenu"
-msgid "&Rename Tab..."
-msgstr "(&R) టాబ్‌కు మరలాపేరు..."
+msgid "&Current Tab Settings..."
+msgstr ""
 
 #: ViewContainer.cpp:129
 #, fuzzy, kde-format
@@ -4082,6 +4080,18 @@ msgstr ""
 "ఎటువంటి కీబోర్డు అనువాదకి అందుబాటులో లేదు.  కీ వత్తులను ఆక్షరాలలోకి మార్చి టెర్మినల్‌కు పంపుటకు "
 "అవసరమైన సమాచారము తప్పిపోయినది."
 
+#~ msgid "Rename Tab"
+#~ msgstr "టాబ్‌కు మరలాపేరు"
+
+#~ msgid "&Rename Tab..."
+#~ msgstr "(&R) టాబ్‌కు మరలాపేరు..."
+
+#, fuzzy
+#~| msgid "&Rename Tab..."
+#~ msgctxt "@action:inmenu"
+#~ msgid "&Rename Tab..."
+#~ msgstr "(&R) టాబ్‌కు మరలాపేరు..."
+
 #, fuzzy
 #~| msgid "Open Link"
 #~ msgid "Open File"
@@ -4127,11 +4137,6 @@ msgstr ""
 #~| msgid "Konsole"
 #~ msgid "Konsole Window"
 #~ msgstr "కాన్సోల్"
-
-#, fuzzy
-#~| msgid "Default character encoding:"
-#~ msgid "Default Search Settings"
-#~ msgstr "అప్రమేయ కారెక్టర్ ఎన్కోడింగ్:"
 
 #, fuzzy
 #~| msgid "Name"
