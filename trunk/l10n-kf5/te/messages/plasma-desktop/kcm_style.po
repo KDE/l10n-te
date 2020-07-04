@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-23 03:49+0100\n"
+"POT-Creation-Date: 2020-07-04 02:14+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -255,6 +255,41 @@ msgstr "రేడియో బటన్"
 msgid "Tab 2"
 msgstr "టాబ్ 2"
 
+#. i18n: ectx: label, entry (widgetStyle), group (KDE)
+#: stylesettings.kcfg:9
+#, fuzzy, kde-format
+#| msgid "Con&figure..."
+msgid "Application style"
+msgstr "(&f) ఆకృతీకరించు..."
+
+#. i18n: ectx: label, entry (iconsOnButtons), group (KDE)
+#: stylesettings.kcfg:13
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Sho&w icons on buttons"
+msgid "Show icons on buttons"
+msgstr "(&w) బటన్స్  పైన ప్రతిమలను చూపుము"
+
+#. i18n: ectx: label, entry (iconsInMenus), group (KDE)
+#: stylesettings.kcfg:17
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Sho&w icons on buttons"
+msgid "Show icons in menus"
+msgstr "(&w) బటన్స్  పైన ప్రతిమలను చూపుము"
+
+#. i18n: ectx: label, entry (toolButtonStyle), group (Toolbar style)
+#: stylesettings.kcfg:23
+#, kde-format
+msgid "Main toolbar label"
+msgstr ""
+
+#. i18n: ectx: label, entry (toolButtonStyleOtherToolbars), group (Toolbar style)
+#: stylesettings.kcfg:27
+#, kde-format
+msgid "Secondary toolbar label"
+msgstr ""
+
 #~ msgid "Unable to Load Dialog"
 #~ msgstr "డైలాగును లోడు చేయలేకపోయింది"
 
@@ -276,12 +311,6 @@ msgstr "టాబ్ 2"
 #~ "If you enable this option, applications will show small icons alongside "
 #~ "most menu items."
 #~ msgstr "మీరు ఈ ఐచ్చికమును చేతనపరచినట్లైతే, KDE అనువర్తనములు అంతర్గత యానిమేషన్లను నడుపుతాయి."
-
-#, fuzzy
-#~| msgctxt "@option:check"
-#~| msgid "Sho&w icons on buttons"
-#~ msgid "Show icons in b&uttons:"
-#~ msgstr "(&w) బటన్స్  పైన ప్రతిమలను చూపుము"
 
 #, fuzzy
 #~| msgid "Widget style:"
