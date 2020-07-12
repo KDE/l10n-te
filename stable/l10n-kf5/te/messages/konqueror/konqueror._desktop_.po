@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-25 00:27+0000\n"
+"POT-Creation-Date: 2020-07-12 06:13+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -46,7 +46,7 @@ msgctxt "GenericName"
 msgid "Web Browser, File Manager and Viewer"
 msgstr ""
 
-#: org.kde.konqueror.desktop:130
+#: org.kde.konqueror.desktop:129
 msgctxt "Comment"
 msgid "KDE File Manager & Web Browser"
 msgstr "కెడిఈ దస్త్ర అభికర్త & వెబ్ బ్రౌజర్"
@@ -268,7 +268,7 @@ msgid "Allows the detected UserAgent to be modified"
 msgstr ""
 
 #: settings/bookmarks/bookmarks.desktop:12
-#: sidebar/default_entries/bookmarks.desktop:12
+#: sidebar/default_entries/bookmarks.desktop:5
 #: sidebar/trees/init/bookmarks_module.desktop:5
 msgctxt "Name"
 msgid "Bookmarks"
@@ -462,54 +462,36 @@ msgctxt "X-KDE-Keywords"
 msgid "performance,speed,memory,improve"
 msgstr ""
 
-#: sidebar/bookmarks_module/konqsidebar_bookmarks.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Web SideBar Module"
-msgctxt "Name"
-msgid "Bookmarks SideBar Module"
-msgstr "వెబ్ సైడ్‌బార్ మాడ్యూల్"
-
-#: sidebar/default_entries/bookmarks.desktop:104
+#: sidebar/default_entries/bookmarks.desktop:97
 #: sidebar/trees/init/bookmarks_module.desktop:97
 msgctxt "Comment"
 msgid "This is the list of your bookmarks, for a faster access"
 msgstr "వేగవంతమైన వాడుకకొరకు, ఇది మీ ఇష్టాంశముల జాబితా"
 
-#: sidebar/default_entries/fonts.desktop:11
-msgctxt "Name"
-msgid "Fonts"
-msgstr "ఫాంట్‍స్"
-
-#: sidebar/default_entries/fonts.desktop:87
-msgctxt "Comment"
-msgid "Personal and System fonts list."
-msgstr ""
-
-#: sidebar/default_entries/history.desktop:8
+#: sidebar/default_entries/history.desktop:5
 #: sidebar/history_module/kcmhistory.desktop:11
 msgctxt "Name"
 msgid "History"
 msgstr "చరిత్ర"
 
-#: sidebar/default_entries/history.desktop:101
+#: sidebar/default_entries/history.desktop:98
 msgctxt "Comment"
 msgid ""
 "This is the history of the URLs you have recently visited. You can sort them "
 "in many ways."
 msgstr "మీరు ఇటీవల దర్శించిన URLs యొక్క చరిత్ర. మీరు వాటిని చాలావిధాలుగా క్రమముచేయవచ్చు."
 
-#: sidebar/default_entries/home.desktop:9
+#: sidebar/default_entries/home.desktop:5
 msgctxt "Name"
 msgid "Home Folder"
 msgstr "ఇంటి ఫొల్డర్"
 
-#: sidebar/default_entries/home.desktop:101
+#: sidebar/default_entries/home.desktop:97
 msgctxt "Comment"
 msgid "This folder contains your personal files"
 msgstr "ఈ సంచయం మీ వ్యక్తిగత దస్త్రములను కలిగివుంది"
 
-#: sidebar/default_entries/places.desktop:9
+#: sidebar/default_entries/places.desktop:4
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Faces"
@@ -517,7 +499,7 @@ msgctxt "Name"
 msgid "Places"
 msgstr "ఫెసెస్"
 
-#: sidebar/default_entries/places.desktop:85
+#: sidebar/default_entries/places.desktop:80
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "This is the root of the filesystem"
@@ -525,43 +507,27 @@ msgctxt "Comment"
 msgid "This is the list of places."
 msgstr "ఇది ఫైల్‌సిస్టమ్ యొక్క root"
 
-#: sidebar/default_entries/remote.desktop:11
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Remote Access"
+#: sidebar/default_entries/remote.desktop:2
+#: sidebar/trees/init/remote/.directory:2
 msgctxt "Name"
-msgid "Remote"
-msgstr "సుదూర ప్రవేశము"
+msgid "Network"
+msgstr "నెట్ వర్క్"
 
-#: sidebar/default_entries/root.desktop:10
+#: sidebar/default_entries/root.desktop:5
 msgctxt "Name"
 msgid "Root Folder"
 msgstr "రూట్ ఫొల్డర్"
 
-#: sidebar/default_entries/root.desktop:101
+#: sidebar/default_entries/root.desktop:96
 msgctxt "Comment"
 msgid "This is the root of the filesystem"
 msgstr "ఇది ఫైల్‌సిస్టమ్ యొక్క root"
 
-#: sidebar/default_entries/services.desktop:10
+#: sidebar/default_entries/services.desktop:4
 #: sidebar/trees/init/services/.directory:3
 msgctxt "Name"
 msgid "Services"
 msgstr "సేవలు"
-
-#: sidebar/default_entries/settings.desktop:11
-#: sidebar/trees/init/services/settings.desktop:5
-msgctxt "Name"
-msgid "Settings"
-msgstr "అమరికలు"
-
-#: sidebar/default_entries/settings.desktop:103
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "System Settings"
-msgctxt "Comment"
-msgid "System settings options."
-msgstr "సిస్టమ్ అమర్పులు"
 
 #: sidebar/history_module/kcmhistory.desktop:104
 msgctxt "Comment"
@@ -581,7 +547,7 @@ msgctxt "Name"
 msgid "History SideBar Module"
 msgstr "చరిత్ర సైడ్‌బార్"
 
-#: sidebar/konq_sidebartng.desktop:16
+#: sidebar/konq_sidebartng.desktop:4
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Solid"
@@ -589,7 +555,7 @@ msgctxt "Name"
 msgid "Sidebar"
 msgstr "సాలిడ్"
 
-#: sidebar/places_module/konqsidebar_places.desktop:3
+#: sidebar/places_module/konqsidebar_places.desktop:4
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Web SideBar Module"
@@ -597,24 +563,11 @@ msgctxt "Name"
 msgid "Places SideBar Module"
 msgstr "వెబ్ సైడ్‌బార్ మాడ్యూల్"
 
-#: sidebar/tree_module/konqsidebar_tree.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Web SideBar Module"
-msgctxt "Name"
-msgid "Tree SideBar Module"
-msgstr "వెబ్ సైడ్‌బార్ మాడ్యూల్"
-
 #: sidebar/trees/init/dirtree_module.desktop:5
 #: sidebar/trees/konqsidebar_tree.desktop:4
 msgctxt "Name"
 msgid "Folder"
 msgstr "ఫొల్డర్"
-
-#: sidebar/trees/init/remote/.directory:2
-msgctxt "Name"
-msgid "Network"
-msgstr "నెట్ వర్క్"
 
 #: sidebar/trees/init/remote/ftp/.directory:2
 msgctxt "Name"
@@ -661,6 +614,11 @@ msgctxt "Name"
 msgid "Print System Browser"
 msgstr "ప్రచురణ వ్యవస్థ బ్రౌజర్"
 
+#: sidebar/trees/init/services/settings.desktop:5
+msgctxt "Name"
+msgid "Settings"
+msgstr "అమరికలు"
+
 #: sidebar/web_module/konqsidebar_web.desktop:4
 msgctxt "Name"
 msgid "Web SideBar Module"
@@ -683,6 +641,38 @@ msgstr ""
 msgctxt "Name"
 msgid "WebEngine"
 msgstr "శోధన యంత్రము"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Web SideBar Module"
+#~ msgctxt "Name"
+#~ msgid "Bookmarks SideBar Module"
+#~ msgstr "వెబ్ సైడ్‌బార్ మాడ్యూల్"
+
+#~ msgctxt "Name"
+#~ msgid "Fonts"
+#~ msgstr "ఫాంట్‍స్"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Remote Access"
+#~ msgctxt "Name"
+#~ msgid "Remote"
+#~ msgstr "సుదూర ప్రవేశము"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "System Settings"
+#~ msgctxt "Comment"
+#~ msgid "System settings options."
+#~ msgstr "సిస్టమ్ అమర్పులు"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Web SideBar Module"
+#~ msgctxt "Name"
+#~ msgid "Tree SideBar Module"
+#~ msgstr "వెబ్ సైడ్‌బార్ మాడ్యూల్"
 
 #, fuzzy
 #~| msgctxt "Name"
