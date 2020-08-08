@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-26 02:14+0200\n"
+"POT-Creation-Date: 2020-08-08 02:16+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -90,13 +90,13 @@ msgstr ""
 msgid "Show %1"
 msgstr ""
 
-#: src/konqhistorydialog.cpp:51
+#: src/konqhistorydialog.cpp:53
 #, kde-format
 msgctxt "@title:window"
 msgid "History"
 msgstr ""
 
-#: src/konqhistorydialog.cpp:65 src/konqhistoryview.cpp:147
+#: src/konqhistorydialog.cpp:69 src/konqhistoryview.cpp:153
 #, kde-format
 msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
 msgid "Sort"
@@ -129,48 +129,54 @@ msgstr ""
 msgid "Open in New Tab"
 msgstr "కొత్త టాబ్‌నందు తెరువుము"
 
-#: src/konqhistoryview.cpp:75
+#: src/konqhistoryview.cpp:76
+#, fuzzy, kde-format
+#| msgid "Open in New Tab"
+msgid "Open in Current Tab"
+msgstr "కొత్త టాబ్‌నందు తెరువుము"
+
+#: src/konqhistoryview.cpp:80
 #, fuzzy, kde-format
 #| msgid "Copy Link Address"
 msgid "&Copy Link Address"
 msgstr "లింకు చిరునామాను నకలుచెయి "
 
-#: src/konqhistoryview.cpp:80
+#: src/konqhistoryview.cpp:85
 #, kde-format
 msgid "&Remove Entry"
 msgstr ""
 
-#: src/konqhistoryview.cpp:87
+#: src/konqhistoryview.cpp:92
 #, kde-format
 msgid "C&lear History"
 msgstr ""
 
-#: src/konqhistoryview.cpp:92
+#: src/konqhistoryview.cpp:97
 #, kde-format
 msgid "&Preferences..."
 msgstr ""
 
-#: src/konqhistoryview.cpp:99
+#: src/konqhistoryview.cpp:104
 #, kde-format
 msgid "By &Name"
 msgstr ""
 
-#: src/konqhistoryview.cpp:105
+#: src/konqhistoryview.cpp:110
 #, kde-format
 msgid "By &Date"
 msgstr ""
 
-#: src/konqhistoryview.cpp:115
+#: src/konqhistoryview.cpp:120
 #, kde-format
 msgid "Search in history"
 msgstr ""
 
-#: src/konqhistoryview.cpp:175
+#: src/konqhistoryview.cpp:181
 #, kde-format
 msgid "Do you really want to clear the entire history?"
 msgstr ""
 
-#: src/konqhistoryview.cpp:176
+#: src/konqhistoryview.cpp:182
 #, kde-format
 msgctxt "@title:window"
 msgid "Clear History?"
