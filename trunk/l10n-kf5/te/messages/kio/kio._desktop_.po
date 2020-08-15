@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-14 00:37+0000\n"
+"POT-Creation-Date: 2020-08-15 00:35+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -490,23 +490,26 @@ msgid "User Agent,Browser,Internet,WWW,Network,agent,bindings,server,login"
 msgstr ""
 
 #: src/kcms/webshortcuts/webshortcuts.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "SearchKeywordsFilter"
 msgctxt "Name"
-msgid "Web Shortcuts"
-msgstr "వెబ్ లఘువులు"
+msgid "Web Search Keywords"
+msgstr "SearchKeywordsFilter"
 
 #: src/kcms/webshortcuts/webshortcuts.desktop:102
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure web cache settings"
 msgctxt "Comment"
-msgid "Configure web shortcuts"
+msgid "Configure web search keywords"
 msgstr "వెబ్ క్యాచి అమరికలను ఆకృతీకరించుము"
 
 #: src/kcms/webshortcuts/webshortcuts.desktop:149
 msgctxt "X-KDE-Keywords"
 msgid ""
-"Web Shortcuts,Browsing,WWW,Internet,Internet Filters,Network,Search Engines,"
-"Shortcuts"
+"Web Search Keywords,Web Search,Search,Keyword,Web Shortcuts,Browsing,WWW,"
+"Internet,Internet Filters,Network,Search Engines,Shortcuts"
 msgstr ""
 
 #: src/kpac/proxyscout.notifyrc:3
@@ -2388,6 +2391,10 @@ msgid "Enhanced Browsing Plugin"
 msgstr "టాబ్ బ్రౌజింగ్"
 
 #~ msgctxt "Name"
+#~ msgid "Web Shortcuts"
+#~ msgstr "వెబ్ లఘువులు"
+
+#~ msgctxt "Name"
 #~ msgid "KDE Bug Database Fulltext Search"
 #~ msgstr "KDE బగ్ డాటాబేస్ పూర్తిపాఠ్యము శోధన"
 
@@ -2500,10 +2507,6 @@ msgstr "టాబ్ బ్రౌజింగ్"
 #~ msgctxt "Name"
 #~ msgid "InternetKeywordsFilter"
 #~ msgstr "InternetKeywordsFilter"
-
-#~ msgctxt "Name"
-#~ msgid "SearchKeywordsFilter"
-#~ msgstr "SearchKeywordsFilter"
 
 #~ msgctxt "Name"
 #~ msgid "LocalDomainFilter"
