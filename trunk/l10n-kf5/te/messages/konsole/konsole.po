@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-09-29 02:31+0200\n"
+"POT-Creation-Date: 2020-10-04 02:35+0200\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1231,7 +1231,7 @@ msgstr ""
 msgid "&Scale output"
 msgstr ""
 
-#: profile/Profile.cpp:165
+#: profile/Profile.cpp:166
 #, fuzzy, kde-format
 #| msgid "Set as Default"
 msgctxt "Name of the default/builtin profile"
@@ -1388,19 +1388,19 @@ msgstr "సొలారిస్ కన్సోల్"
 msgid "Bell in session '%1'"
 msgstr "%1 సెషన్ లో గంట"
 
-#: session/Session.cpp:411
+#: session/Session.cpp:412
 #, kde-format
 msgid "Could not find binary: "
 msgstr "బైనరీను కనుగొనలేక పోయింది: "
 
-#: session/Session.cpp:420
+#: session/Session.cpp:421
 #, fuzzy, kde-format
 #| msgid "Warning: "
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "హెచ్చరిక:"
 
-#: session/Session.cpp:478
+#: session/Session.cpp:479
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
@@ -1408,22 +1408,22 @@ msgid ""
 msgstr ""
 "'%1'ను కనుగొనలేక పోయింది, బదులుగా '%2'ను ప్రారంభిస్తోంది.  దయచేసి మీ ప్రొఫైల్ అమరికలను పరిశీలించుము."
 
-#: session/Session.cpp:481
+#: session/Session.cpp:482
 #, kde-format
 msgid "Could not find an interactive shell to start."
 msgstr "ప్రారంభమునందు యింటరాక్టివ్ షెల్‌ను కనుగొనలేక పోయింది."
 
-#: session/Session.cpp:519
+#: session/Session.cpp:520
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "ప్రోగ్రామ్ '%1'ను ఆర్గుమెంట్లు '%2'తో ప్రారంభించలేక పోయింది."
 
-#: session/Session.cpp:659
+#: session/Session.cpp:660
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "%1 సెషన్ లో నిశబ్దం"
 
-#: session/Session.cpp:928
+#: session/Session.cpp:929
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -1432,29 +1432,29 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: session/Session.cpp:964
+#: session/Session.cpp:965
 #, fuzzy, kde-format
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "ముగిసింది"
 
-#: session/Session.cpp:978 session/Session.cpp:991
+#: session/Session.cpp:979 session/Session.cpp:992
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "ప్రోగ్రామ్ '%1' క్రాష్ అయినది."
 
-#: session/Session.cpp:980
+#: session/Session.cpp:981
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "ప్రోగ్రామ్ '%1' స్థితి %2తో నిష్క్రమించినది."
 
-#: session/Session.cpp:1423
+#: session/Session.cpp:1424
 #, kde-format
 msgid "ZModem Progress"
 msgstr "ZModem పురోగతి"
 
-#: session/Session.cpp:1739
+#: session/Session.cpp:1740
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "సెషన్ '%1'నందు క్రియాశీలత"
@@ -2739,6 +2739,12 @@ msgstr "బై-డైరెక్షనల్ టెక్స్టు రెం
 #, kde-format
 msgid "Default character encoding:"
 msgstr "అప్రమేయ కారెక్టర్ ఎన్కోడింగ్:"
+
+#. i18n: ectx: property (text), widget (QLabel, peekPrimaryLabel)
+#: widgets/EditProfileAdvancedPage.ui:276
+#, kde-format
+msgid "Shortcut for peeking the primary screen:"
+msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, colorSchemeTab)
 #: widgets/EditProfileAppearancePage.ui:33
@@ -4162,12 +4168,12 @@ msgstr ""
 msgid "This terminal is read-only."
 msgstr ""
 
-#: widgets/TerminalDisplay.cpp:3754
+#: widgets/TerminalDisplay.cpp:3760
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
 
-#: widgets/TerminalDisplay.cpp:3786
+#: widgets/TerminalDisplay.cpp:3792
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"
