@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-15 02:37+0100\n"
+"POT-Creation-Date: 2020-11-18 02:48+0100\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -4077,11 +4077,10 @@ msgstr "ప్రస్తుతం శోధిస్తున్న పదమ�
 msgid "Print Shell"
 msgstr "షెల్"
 
-#: widgets/RenameTabWidget.cpp:34
-#, fuzzy, kde-format
-#| msgid "New Color Scheme"
-msgid "Color from theme"
-msgstr "కొత్త రంగు స్కీము"
+#: widgets/RenameTabWidget.cpp:37
+#, kde-format
+msgid "None"
+msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, remoteTabTitleEdit)
 #: widgets/RenameTabWidget.ui:41
@@ -4261,6 +4260,11 @@ msgstr "(&R) టాబ్‌కు మరలాపేరు..."
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "(&C) టాబ్ ను మూసివెయి"
+
+#, fuzzy
+#~| msgid "New Color Scheme"
+#~ msgid "Color from theme"
+#~ msgstr "కొత్త రంగు స్కీము"
 
 #, fuzzy
 #~| msgid "Edit Profile \"%1\""
