@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-24 02:39+0100\n"
+"POT-Creation-Date: 2020-12-28 02:32+0100\n"
 "PO-Revision-Date: 2020-03-27 00:52+0530\n"
 "Last-Translator: Sripath Roy Koganti <sripathroy@swecha.net>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -1121,13 +1121,18 @@ msgctxt "@action:inmenu Tools"
 msgid "Defocus Terminal Panel"
 msgstr ""
 
-#: dolphinnavigatorswidgetaction.cpp:238
+#: dolphinnavigatorswidgetaction.cpp:224
+#, kde-format
+msgid "Enter server URL (e.g. smb://[ip address])"
+msgstr ""
+
+#: dolphinnavigatorswidgetaction.cpp:251
 #, kde-format
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "ఖాళీ ట్రాష్"
 
-#: dolphinnavigatorswidgetaction.cpp:269
+#: dolphinnavigatorswidgetaction.cpp:282
 #, fuzzy, kde-format
 #| msgctxt "@label:textbox"
 #| msgid "Location:"
@@ -4895,7 +4900,7 @@ msgctxt "Sort ascending"
 msgid "Ascending"
 msgstr "ఆరోహణ"
 
-#: views/versioncontrol/versioncontrolobserver.cpp:229
+#: views/versioncontrol/versioncontrolobserver.cpp:228
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Additional information"
