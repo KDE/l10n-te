@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-11 02:20+0100\n"
+"POT-Creation-Date: 2021-01-05 02:14+0100\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -206,22 +206,22 @@ msgid ""
 "%2"
 msgstr "%1' దస్త్రాన్ని ఎక్కించలేకపొయాను"
 
-#: core/installation.cpp:206
+#: core/installation.cpp:212
 #, kde-format
 msgid "Invalid item."
 msgstr "వస్తువు నిస్సారం"
 
-#: core/installation.cpp:213
+#: core/installation.cpp:219
 #, kde-format
 msgid "Download of item failed: no download URL for \"%1\"."
 msgstr "వస్తువు యొక్క దిగుమతి  విఫలమైంది: దిగుమతిలొ URL కోసం \"%1\"."
 
-#: core/installation.cpp:242
+#: core/installation.cpp:248
 #, kde-format
 msgid "Download of \"%1\" failed, error: %2"
 msgstr "\"%1\" యొక్క దిగుమతి విఫలమైంది, లోపం: %2"
 
-#: core/installation.cpp:252
+#: core/installation.cpp:259
 #, kde-format
 msgid ""
 "The downloaded file is a html file. This indicates a link to a website "
@@ -229,39 +229,39 @@ msgid ""
 "browser instead?"
 msgstr ""
 
-#: core/installation.cpp:253
+#: core/installation.cpp:260
 #, kde-format
 msgid "Possibly bad download link"
 msgstr "సమాచారదిగుమతి లింకు బాగాలే"
 
-#: core/installation.cpp:256
+#: core/installation.cpp:263
 #, kde-format
 msgid "Downloaded file was a HTML file. Opened in browser."
 msgstr "దిగుమతి దస్త్రం అది ఒక HTML దస్త్రం. అన్వేషిలొ తెరిచింది. "
 
-#: core/installation.cpp:292
+#: core/installation.cpp:301
 #, kde-format
 msgid "Could not install \"%1\": file not found."
 msgstr "%1ను సంస్థాపించలేక పోయింది:దస్త్రం కనిపించలే"
 
-#: core/installation.cpp:322
+#: core/installation.cpp:331
 #, fuzzy, kde-format
 #| msgid "Failed to open scriptfile \"%1\""
 msgid "Failed to execute install script"
 msgstr "\"%1\" స్క్రిప్ట్ దస్త్రం తెరువలేక పొయాను."
 
-#: core/installation.cpp:466
+#: core/installation.cpp:480
 #, kde-format
 msgid "The installation of %1 failed to create the expected new directory %2"
 msgstr ""
 
-#: core/installation.cpp:486 core/installation.cpp:758
+#: core/installation.cpp:500 core/installation.cpp:776
 #, fuzzy, kde-format
 #| msgid "Installing"
 msgid "Installation of %1 failed: %2"
 msgstr "నెలకొల్పుతుం"
 
-#: core/installation.cpp:494
+#: core/installation.cpp:508
 #, kde-format
 msgid ""
 "The installation of %1 failed, as the service type %2 was not accepted by "
@@ -269,39 +269,39 @@ msgid ""
 "type of package?)"
 msgstr ""
 
-#: core/installation.cpp:500
+#: core/installation.cpp:514
 #, kde-format
 msgid ""
 "The installation of %1 failed, as the downloaded package does not contain a "
 "correct KPackage structure."
 msgstr ""
 
-#: core/installation.cpp:506
+#: core/installation.cpp:520
 #, kde-format
 msgid ""
 "The installation of %1 failed, as the downloaded package does not list a "
 "service type."
 msgstr ""
 
-#: core/installation.cpp:512
+#: core/installation.cpp:526
 #, kde-format
 msgid ""
 "The installation of %1 failed, as the downloaded package does not contain "
 "any useful meta information, which means it is not a valid KPackage."
 msgstr ""
 
-#: core/installation.cpp:543
+#: core/installation.cpp:557
 #, kde-format
 msgid "Could not determine the type of archive of the downloaded file %1"
 msgstr ""
 
-#: core/installation.cpp:554
+#: core/installation.cpp:568
 #, fuzzy, kde-format
 #| msgid "Unable to open temporary file. Error was: %1."
 msgid "Failed to open the archive file %1. The reported error was: %2"
 msgstr "తాత్కాలిక దస్త్రాన్ని తెరువలేకపొయాను. ఇది దోషం:  %1."
 
-#: core/installation.cpp:633
+#: core/installation.cpp:651
 #, kde-format
 msgid ""
 "This file already exists on disk (possibly due to an earlier failed download "
@@ -309,18 +309,18 @@ msgid ""
 "existing file?"
 msgstr ""
 
-#: core/installation.cpp:634
+#: core/installation.cpp:652
 #, fuzzy, kde-format
 #| msgid "Overwrite File?"
 msgid "Overwrite File"
 msgstr "దస్త్రాలను త్రిగి వ్రాయి?"
 
-#: core/installation.cpp:650
+#: core/installation.cpp:668
 #, kde-format
 msgid "Unable to move the file %1 to the intended destination %2"
 msgstr ""
 
-#: core/installation.cpp:673
+#: core/installation.cpp:691
 #, kde-format
 msgid ""
 "The installation failed while attempting to run the command:\n"
@@ -330,7 +330,7 @@ msgid ""
 "%2"
 msgstr ""
 
-#: core/installation.cpp:676
+#: core/installation.cpp:694
 #, kde-format
 msgid ""
 "The installation failed with code %1 while attempting to run the command:\n"
@@ -340,14 +340,14 @@ msgid ""
 "%3"
 msgstr ""
 
-#: core/installation.cpp:764
+#: core/installation.cpp:782
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the installed package does not contain a "
 "correct KPackage structure."
 msgstr ""
 
-#: core/installation.cpp:768
+#: core/installation.cpp:786
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the installed package is not a supported type "
@@ -355,21 +355,21 @@ msgid ""
 "package?)"
 msgstr ""
 
-#: core/installation.cpp:772
+#: core/installation.cpp:790
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the installed package does not contain any "
 "useful meta information, which means it is not a valid KPackage."
 msgstr ""
 
-#: core/installation.cpp:811
+#: core/installation.cpp:829
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the downloaded file %2 could not be "
 "automatically removed."
 msgstr ""
 
-#: core/installation.cpp:815
+#: core/installation.cpp:833
 #, kde-format
 msgid ""
 "The removal of %1 failed, due to the installed file not being a KPackage. "
@@ -377,14 +377,14 @@ msgid ""
 "you are certain that it is not needed."
 msgstr ""
 
-#: core/installation.cpp:819
+#: core/installation.cpp:837
 #, kde-format
 msgid ""
 "The removal of %1 failed, as there seems to somehow be more than one thing "
 "installed, which is not supposed to be possible for KPackage based entries."
 msgstr ""
 
-#: core/installation.cpp:850
+#: core/installation.cpp:868
 #, kde-format
 msgid ""
 "The uninstallation process failed to successfully run the command %1\n"
