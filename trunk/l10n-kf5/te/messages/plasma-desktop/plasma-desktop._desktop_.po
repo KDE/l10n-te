@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-05 01:52+0000\n"
+"POT-Creation-Date: 2021-01-06 02:25+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -438,102 +438,26 @@ msgctxt "Comment"
 msgid "Configure the File Indexer"
 msgstr "స్పెల్ చెకర్‌ను ఆకృతీకరించుము"
 
-#: kcms/componentchooser/componentchooser.desktop:13
+#: kcms/componentchooser/package/metadata.desktop:2
 msgctxt "Name"
 msgid "Default Applications"
 msgstr "అప్రమెయ కార్యక్షేత్రాలు"
 
-#: kcms/componentchooser/componentchooser.desktop:99
+#: kcms/componentchooser/package/metadata.desktop:3
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Default Applications"
 msgctxt "Comment"
-msgid "Default Applications"
+msgid "Choose default Applications"
 msgstr "అప్రమెయ కార్యక్షేత్రాలు"
 
-#: kcms/componentchooser/componentchooser.desktop:152
+#: kcms/componentchooser/package/metadata.desktop:13
 msgctxt "X-KDE-Keywords"
 msgid ""
-"default applications,components,component chooser,resources,e-mail,email "
-"client,text editor,instant messenger,terminal emulator,web browser,URL,"
-"hyperlinks"
+"default applications,components,component chooser,resources,web browser,"
+"browser,internet,file manager,dolphin,email,e-mail,email client,terminal,"
+"terminal emulator,konsole"
 msgstr ""
-
-#: kcms/componentchooser/componentservices/kcm_browser.desktop:4
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Web Browser"
-msgctxt "Name|standard desktop component"
-msgid "Web Browser"
-msgstr "వెబ్ బ్రౌజర్"
-
-#: kcms/componentchooser/componentservices/kcm_browser.desktop:77
-msgctxt "Comment"
-msgid ""
-"Here you can configure your default web browser. All KDE applications in "
-"which you can select hyperlinks should honor this setting."
-msgstr ""
-"ఇక్కడ మీరు మీ అప్రమేయ అన్వేషణిని ఆకృతీకరించగలరు. ఏ KDE అనువర్తనాలలోనైనామీరు హైపర్‌లింక్‍స్‌ను "
-"నొక్కినప్పుడు అవి ఈ అమర్పును సమ్మతిస్తాయి."
-
-#: kcms/componentchooser/componentservices/kcm_filemanager.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Task Manager"
-msgctxt "Name|standard desktop component"
-msgid "File Manager"
-msgstr "కర్తవ్య నిర్వాహకి"
-
-#: kcms/componentchooser/componentservices/kcm_filemanager.desktop:56
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid ""
-#| "Here you can configure your default web browser. All KDE applications in "
-#| "which you can select hyperlinks should honor this setting."
-msgctxt "Comment"
-msgid ""
-"Here you can configure your default file manager. The entries in the K menu "
-"and all KDE applications in which you can open folders will use this file "
-"manager."
-msgstr ""
-"ఇక్కడ మీరు మీ అప్రమేయ అన్వేషణిని ఆకృతీకరించగలరు. ఏ KDE అనువర్తనాలలోనైనామీరు హైపర్‌లింక్‍స్‌ను "
-"నొక్కినప్పుడు అవి ఈ అమర్పును సమ్మతిస్తాయి."
-
-#: kcms/componentchooser/componentservices/kcm_kemail.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Email Client"
-msgctxt "Name|standard desktop component"
-msgid "Email Client"
-msgstr "ఈమెయిల్ క్లైంట్"
-
-#: kcms/componentchooser/componentservices/kcm_kemail.desktop:77
-msgctxt "Comment"
-msgid ""
-"This service allows you to configure your default email client. All KDE "
-"applications which need access to an email client application should honor "
-"this setting."
-msgstr ""
-"మీ అప్రమేయ ఈమెయిల్ క్లైంట్‌ను ఆకృతీకరించుటకు ఈ సేవ అనుమతిస్తుంది. ఈమెయిల్ క్లైంట్ అనువర్తనం "
-"అవసరంవున్న ఏ KDE అనువర్తనాలైనా ఈ అమర్పును సమ్మతిస్తాయి."
-
-#: kcms/componentchooser/componentservices/kcm_terminal.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Terminal Emulator"
-msgctxt "Name|standard desktop component"
-msgid "Terminal Emulator"
-msgstr "టెర్మినల్ ఎములేటర్"
-
-#: kcms/componentchooser/componentservices/kcm_terminal.desktop:77
-msgctxt "Comment"
-msgid ""
-"This service allows you to configure your default terminal emulator. All KDE "
-"applications which invoke a terminal emulator application should honor this "
-"setting."
-msgstr ""
-"మీ అప్రమేయ టెర్మినల్ ఎమ్యులేటర్‌ను ఆకృతీకరించుటకు ఈ సేవ అనుమతిస్తుంది. టెర్మినల్ ఎమ్యులేటర్‌ అప్లికేషన్‌ను "
-"ప్రేరేపించే ఏ KDE అనువర్తనాలైనా ఈ అమర్పును సమ్మతిస్తాయి."
 
 #: kcms/dateandtime/clock.desktop:15
 msgctxt "Name"
@@ -1450,6 +1374,74 @@ msgstr "ప్లాస్మా రంగస్థల పనిప్రదే�
 msgctxt "Name"
 msgid "Panel toolbox"
 msgstr "నెట్వర్‍క్  సాధనం"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Web Browser"
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "Web Browser"
+#~ msgstr "వెబ్ బ్రౌజర్"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Here you can configure your default web browser. All KDE applications in "
+#~ "which you can select hyperlinks should honor this setting."
+#~ msgstr ""
+#~ "ఇక్కడ మీరు మీ అప్రమేయ అన్వేషణిని ఆకృతీకరించగలరు. ఏ KDE అనువర్తనాలలోనైనామీరు హైపర్‌లింక్‍స్‌ను "
+#~ "నొక్కినప్పుడు అవి ఈ అమర్పును సమ్మతిస్తాయి."
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Task Manager"
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "File Manager"
+#~ msgstr "కర్తవ్య నిర్వాహకి"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid ""
+#~| "Here you can configure your default web browser. All KDE applications in "
+#~| "which you can select hyperlinks should honor this setting."
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Here you can configure your default file manager. The entries in the K "
+#~ "menu and all KDE applications in which you can open folders will use this "
+#~ "file manager."
+#~ msgstr ""
+#~ "ఇక్కడ మీరు మీ అప్రమేయ అన్వేషణిని ఆకృతీకరించగలరు. ఏ KDE అనువర్తనాలలోనైనామీరు హైపర్‌లింక్‍స్‌ను "
+#~ "నొక్కినప్పుడు అవి ఈ అమర్పును సమ్మతిస్తాయి."
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Email Client"
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "Email Client"
+#~ msgstr "ఈమెయిల్ క్లైంట్"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "This service allows you to configure your default email client. All KDE "
+#~ "applications which need access to an email client application should "
+#~ "honor this setting."
+#~ msgstr ""
+#~ "మీ అప్రమేయ ఈమెయిల్ క్లైంట్‌ను ఆకృతీకరించుటకు ఈ సేవ అనుమతిస్తుంది. ఈమెయిల్ క్లైంట్ అనువర్తనం "
+#~ "అవసరంవున్న ఏ KDE అనువర్తనాలైనా ఈ అమర్పును సమ్మతిస్తాయి."
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Terminal Emulator"
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "Terminal Emulator"
+#~ msgstr "టెర్మినల్ ఎములేటర్"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "This service allows you to configure your default terminal emulator. All "
+#~ "KDE applications which invoke a terminal emulator application should "
+#~ "honor this setting."
+#~ msgstr ""
+#~ "మీ అప్రమేయ టెర్మినల్ ఎమ్యులేటర్‌ను ఆకృతీకరించుటకు ఈ సేవ అనుమతిస్తుంది. టెర్మినల్ ఎమ్యులేటర్‌ "
+#~ "అప్లికేషన్‌ను ప్రేరేపించే ఏ KDE అనువర్తనాలైనా ఈ అమర్పును సమ్మతిస్తాయి."
 
 #~ msgctxt "Name"
 #~ msgid "KDE Accessibility Tool"
