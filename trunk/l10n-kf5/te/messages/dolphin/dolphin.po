@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-07 02:50+0100\n"
+"POT-Creation-Date: 2021-01-10 02:57+0100\n"
 "PO-Revision-Date: 2020-03-27 00:52+0530\n"
 "Last-Translator: Sripath Roy Koganti <sripathroy@swecha.net>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -1121,18 +1121,26 @@ msgctxt "@action:inmenu Tools"
 msgid "Defocus Terminal Panel"
 msgstr ""
 
-#: dolphinnavigatorswidgetaction.cpp:197
+#: dolphinnavigatorswidgetaction.cpp:208
 #, kde-format
 msgid "Enter server URL (e.g. smb://[ip address])"
 msgstr ""
 
-#: dolphinnavigatorswidgetaction.cpp:224
+#: dolphinnavigatorswidgetaction.cpp:235
 #, kde-format
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "ఖాళీ ట్రాష్"
 
-#: dolphinnavigatorswidgetaction.cpp:255
+#: dolphinnavigatorswidgetaction.cpp:261
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu Go"
+#| msgid "&Network Folders"
+msgctxt "@action:button"
+msgid "Add Network Folder"
+msgstr "నెట్వర్కు ఫోల్డర్లు (&N)"
+
+#: dolphinnavigatorswidgetaction.cpp:296
 #, fuzzy, kde-format
 #| msgctxt "@label:textbox"
 #| msgid "Location:"
