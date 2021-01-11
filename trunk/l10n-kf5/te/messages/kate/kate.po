@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-09 03:01+0100\n"
+"POT-Creation-Date: 2021-01-11 02:58+0100\n"
 "PO-Revision-Date: 2007-03-09 14:17+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -1514,11 +1514,32 @@ msgstr "పత్రాలు"
 msgid "[urls...]"
 msgstr ""
 
-#: quickopen/katequickopen.cpp:217
+#: quickopen/katequickopenlineedit.cpp:19
+#, kde-format
+msgid "Quick Open Search (configure via context menu)"
+msgstr ""
+
+#: quickopen/katequickopenlineedit.cpp:38
 #, fuzzy, kde-format
-#| msgid "New Session"
-msgid "Quick Open Search"
-msgstr "కొత్త సెషన్"
+#| msgid "Filename"
+msgid "Filter By Path"
+msgstr "దస్త్రం పేరు"
+
+#: quickopen/katequickopenlineedit.cpp:45
+#, kde-format
+msgid "Filter By Name"
+msgstr ""
+
+#: quickopen/katequickopenlineedit.cpp:69
+#, fuzzy, kde-format
+#| msgid "Projects"
+msgid "All Projects"
+msgstr "ప్రాజెక్టులు"
+
+#: quickopen/katequickopenlineedit.cpp:79
+#, kde-format
+msgid "Current Project"
+msgstr ""
 
 #: session/katesessionmanagedialog.cpp:27
 #, kde-format
@@ -1774,6 +1795,11 @@ msgid "Delete unused meta-information after:"
 msgstr ""
 
 #, fuzzy
+#~| msgid "New Session"
+#~ msgid "Quick Open Search"
+#~ msgstr "కొత్త సెషన్"
+
+#, fuzzy
 #~| msgid "Filename"
 #~ msgid "Filepath"
 #~ msgstr "దస్త్రం పేరు"
@@ -1782,11 +1808,6 @@ msgstr ""
 #~| msgid "Split Ve&rtical"
 #~ msgid "&List Mode:"
 #~ msgstr "(&r) నిలువుగా విడగొట్టు"
-
-#, fuzzy
-#~| msgid "Projects"
-#~ msgid "All Projects Files"
-#~ msgstr "ప్రాజెక్టులు"
 
 #~ msgid "Meta-Information"
 #~ msgstr "మెటా-సమాచరం"
