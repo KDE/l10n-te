@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-22 02:30+0100\n"
+"POT-Creation-Date: 2021-03-07 02:21+0100\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -64,21 +64,21 @@ msgctxt "@info:credit"
 msgid "David Faure"
 msgstr "డెవిడ్ ఫావ్రె"
 
-#: kbuildsycoca/kbuildsycoca_main.cpp:53 kbuildsycoca/kbuildsycoca_main.cpp:56
+#: kbuildsycoca/kbuildsycoca_main.cpp:52 kbuildsycoca/kbuildsycoca_main.cpp:53
 #, fuzzy, kde-format
 #| msgid "Author"
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "మూలకర్త"
 
-#: kbuildsycoca/kbuildsycoca_main.cpp:55
+#: kbuildsycoca/kbuildsycoca_main.cpp:53
 #, fuzzy, kde-format
 #| msgid "Waldo Bastian"
 msgctxt "@info:credit"
 msgid "Waldo Bastian"
 msgstr "వాల్డొ బాస్టియన్"
 
-#: kbuildsycoca/kbuildsycoca_main.cpp:64
+#: kbuildsycoca/kbuildsycoca_main.cpp:60
 #, fuzzy, kde-format
 #| msgid "Disable checking files (dangerous)"
 msgctxt "@info:shell command-line option"
@@ -87,47 +87,47 @@ msgid ""
 "effect)"
 msgstr "దస్త్రాలను తనఖిచేయకు (ప్రమాదకరం)"
 
-#: kbuildsycoca/kbuildsycoca_main.cpp:67
+#: kbuildsycoca/kbuildsycoca_main.cpp:62
 #, fuzzy, kde-format
 #| msgid "Disable incremental update, re-read everything"
 msgctxt "@info:shell command-line option"
 msgid "Disable incremental update, re-read everything"
 msgstr "పురోగమన నవీకరణను అచేతనపరచుము, ప్రతిదానిని తిరిగి-చదువుము"
 
-#: kbuildsycoca/kbuildsycoca_main.cpp:70
+#: kbuildsycoca/kbuildsycoca_main.cpp:64
 #, kde-format
 msgctxt "@info:shell command-line option"
 msgid "Check file timestamps (deprecated, no longer having any effect)"
 msgstr ""
 
-#: kbuildsycoca/kbuildsycoca_main.cpp:73
+#: kbuildsycoca/kbuildsycoca_main.cpp:66
 #, fuzzy, kde-format
 #| msgid "Disable checking files (dangerous)"
 msgctxt "@info:shell command-line option"
 msgid "Disable checking files (deprecated, no longer having any effect)"
 msgstr "దస్త్రాలను తనఖిచేయకు (ప్రమాదకరం)"
 
-#: kbuildsycoca/kbuildsycoca_main.cpp:76
+#: kbuildsycoca/kbuildsycoca_main.cpp:67
 #, fuzzy, kde-format
 #| msgid "Perform menu generation test run only"
 msgctxt "@info:shell command-line option"
 msgid "Perform menu generation test run only"
 msgstr "పట్టి సృష్టి పరీక్ష మాత్రమే నిర్వహించు"
 
-#: kbuildsycoca/kbuildsycoca_main.cpp:79
+#: kbuildsycoca/kbuildsycoca_main.cpp:69
 #, fuzzy, kde-format
 #| msgid "Track menu id for debug purposes"
 msgctxt "@info:shell command-line option"
 msgid "Track menu id for debug purposes"
 msgstr "డీబగ్ ప్రయొజనాల కొరకు పట్టి ఐడి ని వెంబడించు"
 
-#: kbuildsycoca/kbuildsycoca_main.cpp:83
+#: kbuildsycoca/kbuildsycoca_main.cpp:71
 #, kde-format
 msgctxt "@info:shell command-line option"
 msgid "Switch QStandardPaths to test mode, for unit tests only"
 msgstr ""
 
-#: kdeinit/ktoolinvocation.cpp:58
+#: kdeinit/ktoolinvocation.cpp:60
 #, kde-format
 msgid "Function must be called from the main thread."
 msgstr "ప్రమేయం తప్పక ముఖ్య తంతినుండి కాల్ చేయబడాలి."
@@ -150,7 +150,7 @@ msgstr ""
 "KLauncher అనునది D-Bus ద్వారా చేరుకోబడలేదు. దీనిని కాల్ చేస్తున్నప్పుడు దోషము %1:\n"
 "%2\n"
 
-#: kdeinit/ktoolinvocation_x11.cpp:228
+#: kdeinit/ktoolinvocation_x11.cpp:232
 #, kde-format
 msgid ""
 "Could not launch the mail client:\n"
@@ -161,7 +161,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdeinit/ktoolinvocation_x11.cpp:229
+#: kdeinit/ktoolinvocation_x11.cpp:233
 #, kde-format
 msgid "Could not launch Mail Client"
 msgstr "తపా క్లైంటు ని ప్రారంభించలేకపొయాను"
@@ -169,8 +169,8 @@ msgstr "తపా క్లైంటు ని ప్రారంభించల
 #. i18n("Could not launch %1:\n\n%2", exe, error),
 #. i18n("Could not launch %1:\n\n%2", htmlApp->exec(), error),
 #. i18n("Could not launch %1:\n\n%2", exe, error),
-#: kdeinit/ktoolinvocation_x11.cpp:279 kdeinit/ktoolinvocation_x11.cpp:304
-#: kdeinit/ktoolinvocation_x11.cpp:323
+#: kdeinit/ktoolinvocation_x11.cpp:282 kdeinit/ktoolinvocation_x11.cpp:307
+#: kdeinit/ktoolinvocation_x11.cpp:326
 #, kde-format
 msgid ""
 "Could not launch the browser:\n"
@@ -181,13 +181,13 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdeinit/ktoolinvocation_x11.cpp:280 kdeinit/ktoolinvocation_x11.cpp:305
-#: kdeinit/ktoolinvocation_x11.cpp:324
+#: kdeinit/ktoolinvocation_x11.cpp:283 kdeinit/ktoolinvocation_x11.cpp:308
+#: kdeinit/ktoolinvocation_x11.cpp:327
 #, kde-format
 msgid "Could not launch Browser"
 msgstr "అన్వేషన  ప్రారంభించలేకపొయాను"
 
-#: kdeinit/ktoolinvocation_x11.cpp:346
+#: kdeinit/ktoolinvocation_x11.cpp:347
 #, kde-format
 msgid ""
 "Could not launch the terminal client:\n"
@@ -198,7 +198,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdeinit/ktoolinvocation_x11.cpp:347
+#: kdeinit/ktoolinvocation_x11.cpp:348
 #, kde-format
 msgid "Could not launch Terminal Client"
 msgstr "అగ్రం  క్లైంటు ని ప్రారంభించలేకపొయాను"
@@ -208,12 +208,12 @@ msgstr "అగ్రం  క్లైంటు ని ప్రారంభి�
 msgid "No service implementing %1"
 msgstr ""
 
-#: services/kservice.cpp:1055
+#: services/kservice.cpp:1040
 #, kde-format
 msgid "The provided service is not valid"
 msgstr "ఈ  సేవ సరి అయినది కాదు లేదా చెల్లుబాటు కా"
 
-#: services/kservice.cpp:1059
+#: services/kservice.cpp:1044
 #, kde-format
 msgid "The service '%1' provides no library or the Library key is missing"
 msgstr ""
