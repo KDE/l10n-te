@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-28 02:21+0100\n"
+"POT-Creation-Date: 2021-03-31 00:15+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -77,6 +77,32 @@ msgstr "శీఘ్ర మార్గాల స్కీములు"
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "అమర్చు"
+
+#: khamburgermenu.cpp:126
+#, fuzzy, kde-format
+#| msgctxt "keyboard-key-name"
+#| msgid "Menu"
+msgctxt "@action:inmenu General purpose menu"
+msgid "&Menu"
+msgstr "పట్టీ"
+
+#: khamburgermenu.cpp:337
+#, fuzzy, kde-format
+#| msgid "Shortcut '%1' for action '%2'\n"
+msgctxt "@action:inmenu A menu text advertising its contents (more features)."
+msgid "For %1 more action:"
+msgid_plural "For %1 more actions:"
+msgstr[0] "చర్య '%1'కొరకు శీఘ్రమార్గము(లు) '%2'\n"
+msgstr[1] "చర్య '%1'కొరకు శీఘ్రమార్గము(లు) '%2'\n"
+
+#: khamburgermenu.cpp:340
+#, kde-format
+msgctxt ""
+"@action:inmenu A section heading advertising the contents of the menu bar"
+msgid "%1 Menu Bar Exclusive Action"
+msgid_plural "%1 Menu Bar Exclusive Actions"
+msgstr[0] ""
+msgstr[1] ""
 
 #: krecentfilesaction.cpp:68
 #, kde-format
@@ -615,6 +641,12 @@ msgstr ""
 #, kde-format
 msgid "&Donate"
 msgstr ""
+
+#: kstandardaction_p.h:114
+#, fuzzy, kde-format
+#| msgid "Open &Recent"
+msgid "Open &Menu"
+msgstr "(&R) ఇటీవలివి తెరువండి"
 
 #: ktipdialog.cpp:217
 #, fuzzy, kde-format
@@ -2627,10 +2659,6 @@ msgstr "(&N) తరువాత"
 #~ msgctxt "keyboard-key-name"
 #~ msgid "Left"
 #~ msgstr "ఎడమ"
-
-#~ msgctxt "keyboard-key-name"
-#~ msgid "Menu"
-#~ msgstr "పట్టీ"
 
 #~ msgctxt "keyboard-key-name"
 #~ msgid "Meta"
@@ -6373,9 +6401,6 @@ msgstr "(&N) తరువాత"
 #~ msgstr[2] "శీఘ్ర మార్గం విభేదలు"
 #~ msgstr[3] "శీఘ్ర మార్గం విభేదలు"
 #~ msgstr[4] "శీఘ్ర మార్గం విభేదలు"
-
-#~ msgid "Shortcut '%1' for action '%2'\n"
-#~ msgstr "చర్య '%1'కొరకు శీఘ్రమార్గము(లు) '%2'\n"
 
 #~ msgid "Shortcut conflict"
 #~ msgstr "శీఘ్ర మార్గం విభేదము"
