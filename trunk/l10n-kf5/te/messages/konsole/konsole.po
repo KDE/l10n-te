@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-28 16:14+0000\n"
+"POT-Creation-Date: 2021-04-01 00:20+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -1486,8 +1486,9 @@ msgid "Solaris console"
 msgstr "సొలారిస్ కన్సోల్"
 
 #: session/Session.cpp:121
-#, kde-format
-msgid "Bell in session '%1'"
+#, fuzzy, kde-format
+#| msgid "Bell in session '%1'"
+msgid "Bell in '%1' (Session '%2')"
 msgstr "%1 సెషన్ లో గంట"
 
 #: session/Session.cpp:406
@@ -1521,8 +1522,9 @@ msgid "Could not start program '%1' with arguments '%2'."
 msgstr "ప్రోగ్రామ్ '%1'ను ఆర్గుమెంట్లు '%2'తో ప్రారంభించలేక పోయింది."
 
 #: session/Session.cpp:658
-#, kde-format
-msgid "Silence in session '%1'"
+#, fuzzy, kde-format
+#| msgid "Silence in session '%1'"
+msgid "Silence in '%1' (Session '%2')"
 msgstr "%1 సెషన్ లో నిశబ్దం"
 
 #: session/Session.cpp:929
@@ -1557,8 +1559,9 @@ msgid "ZModem Progress"
 msgstr "ZModem పురోగతి"
 
 #: session/Session.cpp:1744
-#, kde-format
-msgid "Activity in session '%1'"
+#, fuzzy, kde-format
+#| msgid "Activity in session '%1'"
+msgid "Activity in '%1' (Session '%2')"
 msgstr "సెషన్ '%1'నందు క్రియాశీలత"
 
 #: session/SessionController.cpp:134
