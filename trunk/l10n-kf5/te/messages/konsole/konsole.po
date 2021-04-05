@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-03 00:22+0000\n"
+"POT-Creation-Date: 2021-04-05 00:20+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -601,7 +601,7 @@ msgstr "రంగు స్కీము && బ్యాక్‌గ్రౌం�
 
 #. i18n: ectx: property (text), widget (QToolButton, wallpaperSelectButton)
 #. i18n: ectx: property (text), widget (QToolButton, dirSelectButton)
-#: colorscheme/ColorSchemeEditor.ui:120 widgets/EditProfileGeneralPage.ui:148
+#: colorscheme/ColorSchemeEditor.ui:120 widgets/EditProfileGeneralPage.ui:152
 #, kde-format
 msgid "..."
 msgstr "..."
@@ -648,7 +648,7 @@ msgstr ""
 msgid "Copy Location"
 msgstr "ఇన్పుట్ యిచటకు నకలుతీయి..."
 
-#: filterHotSpots/FileFilterHotspot.cpp:190 session/SessionController.cpp:1813
+#: filterHotSpots/FileFilterHotspot.cpp:190 session/SessionController.cpp:1815
 #, kde-format
 msgid "open with"
 msgstr ""
@@ -1266,7 +1266,7 @@ msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "సాధారణ"
 
-#: MainWindow.cpp:779 Part.cpp:313
+#: MainWindow.cpp:779 Part.cpp:312
 #, fuzzy, kde-format
 #| msgid "New Profile"
 msgctxt "@title Preferences page name"
@@ -1291,7 +1291,7 @@ msgctxt "@title Preferences page name"
 msgid "Thumbnails"
 msgstr ""
 
-#: Part.cpp:319
+#: Part.cpp:318
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Part Info"
@@ -1795,14 +1795,14 @@ msgstr ""
 msgid "User Signal &2"
 msgstr ""
 
-#: session/SessionController.cpp:989
+#: session/SessionController.cpp:991
 #, kde-format
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "ఈ సెషన్‌నందు వొక పోగ్రామ్ యిప్పటికే నుడుస్తోంది.  మీరు దానిని ఖచ్చితంగా మూసివేద్దామని అనుకొంటున్నారా?"
 
-#: session/SessionController.cpp:992
+#: session/SessionController.cpp:994
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -1810,12 +1810,12 @@ msgid ""
 msgstr ""
 "పొగ్రామ్ '%1' ప్రస్తుతం ఈ సెషన్‌నందు నడుస్తోంది.  మీరు ఖచ్చితంగా దీనిని మూసివేద్దామని అనుకొంటున్నారా?"
 
-#: session/SessionController.cpp:998 session/SessionController.cpp:1028
+#: session/SessionController.cpp:1000 session/SessionController.cpp:1030
 #, kde-format
 msgid "Confirm Close"
 msgstr "ముసివేత నిర్ధారించు"
 
-#: session/SessionController.cpp:1021
+#: session/SessionController.cpp:1023
 #, fuzzy, kde-format
 #| msgid ""
 #| "A program is currently running in this session.  Are you sure you want to "
@@ -1825,7 +1825,7 @@ msgid ""
 "by force?"
 msgstr "ఈ సెషన్‌నందు వొక పోగ్రామ్ యిప్పటికే నుడుస్తోంది.  మీరు దానిని ఖచ్చితంగా మూసివేద్దామని అనుకొంటున్నారా?"
 
-#: session/SessionController.cpp:1024
+#: session/SessionController.cpp:1026
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program '%1' is currently running in this session.  Are you sure you "
@@ -1836,12 +1836,12 @@ msgid ""
 msgstr ""
 "పొగ్రామ్ '%1' ప్రస్తుతం ఈ సెషన్‌నందు నడుస్తోంది.  మీరు ఖచ్చితంగా దీనిని మూసివేద్దామని అనుకొంటున్నారా?"
 
-#: session/SessionController.cpp:1854
+#: session/SessionController.cpp:1856
 #, kde-format
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: session/SessionController.cpp:1864
+#: session/SessionController.cpp:1866
 #, kde-format
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
@@ -1849,20 +1849,20 @@ msgid ""
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: session/SessionController.cpp:1875
+#: session/SessionController.cpp:1877
 #, kde-format
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: session/SessionController.cpp:1885
+#: session/SessionController.cpp:1887
 #, kde-format
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: session/SessionController.cpp:1891
+#: session/SessionController.cpp:1893
 #, kde-format
 msgid "Select Files for ZModem Upload"
 msgstr ""
@@ -2597,18 +2597,18 @@ msgstr ""
 msgid "Activation:"
 msgstr "వర్ణన:"
 
-#: terminalDisplay/TerminalDisplay.cpp:705
-#: terminalDisplay/TerminalDisplay.cpp:706
+#: terminalDisplay/TerminalDisplay.cpp:697
+#: terminalDisplay/TerminalDisplay.cpp:698
 #, kde-format
 msgid "Size: XXX x XXX"
 msgstr "పరిమాణం: XXX x XXX"
 
-#: terminalDisplay/TerminalDisplay.cpp:717
+#: terminalDisplay/TerminalDisplay.cpp:709
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "పరిమాణం: %1 x %2"
 
-#: terminalDisplay/TerminalDisplay.cpp:2123
+#: terminalDisplay/TerminalDisplay.cpp:2115
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
@@ -2618,87 +2618,87 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2126
+#: terminalDisplay/TerminalDisplay.cpp:2118
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "ముసివేత నిర్ధారించు"
 
-#: terminalDisplay/TerminalDisplay.cpp:2158
+#: terminalDisplay/TerminalDisplay.cpp:2150
 #, kde-format
 msgid "End Of Text/Interrupt: may exit the current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2159
+#: terminalDisplay/TerminalDisplay.cpp:2151
 #, kde-format
 msgid "End Of Transmission: may exit the current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2160
+#: terminalDisplay/TerminalDisplay.cpp:2152
 #, kde-format
 msgid "Bell: will try to emit an audible warning"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2161
+#: terminalDisplay/TerminalDisplay.cpp:2153
 #, kde-format
 msgid "Backspace"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2162
+#: terminalDisplay/TerminalDisplay.cpp:2154
 #, kde-format
 msgid "Device Control Three/XOFF: suspends output"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2163
+#: terminalDisplay/TerminalDisplay.cpp:2155
 #, kde-format
 msgid "Substitute/Suspend: may suspend current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2164
+#: terminalDisplay/TerminalDisplay.cpp:2156
 #, kde-format
 msgid "Escape: used for manipulating terminal state"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2165
+#: terminalDisplay/TerminalDisplay.cpp:2157
 #, kde-format
 msgid "File Separator/Quit: may abort the current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2187
+#: terminalDisplay/TerminalDisplay.cpp:2179
 #, kde-format
 msgid ""
 "The text you're trying to paste contains hidden control characters, do you "
 "want to filter them out?"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2190
+#: terminalDisplay/TerminalDisplay.cpp:2182
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgctxt "@title"
 msgid "Confirm Paste"
 msgstr "ముసివేత నిర్ధారించు"
 
-#: terminalDisplay/TerminalDisplay.cpp:2192
+#: terminalDisplay/TerminalDisplay.cpp:2184
 #, fuzzy, kde-format
 #| msgid "Set cursor color to match current character"
 msgctxt "@action:button"
 msgid "Paste &without control characters"
 msgstr "ప్రస్తుత అక్షరముకు సరిపోలునట్లు కర్సర్ రంగును అమర్చుము"
 
-#: terminalDisplay/TerminalDisplay.cpp:2195
+#: terminalDisplay/TerminalDisplay.cpp:2187
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgctxt "@action:button"
 msgid "&Paste everything"
 msgstr "ఎంచుకొన్న దానిని అతికించు"
 
-#: terminalDisplay/TerminalDisplay.cpp:2198
+#: terminalDisplay/TerminalDisplay.cpp:2190
 #, kde-format
 msgctxt "@action:button"
 msgid "&Cancel"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2429
+#: terminalDisplay/TerminalDisplay.cpp:2421
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
@@ -2711,17 +2711,17 @@ msgstr ""
 "<qt>అవుట్పుట్ Ctrl+S వత్తుట ద్వారా <a href=\"http://en.wikipedia.org/wiki/"
 "Flow_control\">suspended</a> అయింది.  తిరిగికొనసాగించుటకు <b>Ctrl+Q</b> వత్తుము.</qt>"
 
-#: terminalDisplay/TerminalDisplay.cpp:2470
+#: terminalDisplay/TerminalDisplay.cpp:2462
 #, kde-format
 msgid "This terminal is read-only."
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2727
+#: terminalDisplay/TerminalDisplay.cpp:2719
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2759
+#: terminalDisplay/TerminalDisplay.cpp:2751
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"
@@ -3010,7 +3010,7 @@ msgstr "ఎంపికచేసిన రంగు స్కీమును స
 #. i18n: ectx: property (text), widget (QPushButton, textEditorCustomBtn)
 #. i18n: ectx: property (text), widget (QPushButton, editColorSchemeButton)
 #: widgets/EditProfileAppearancePage.ui:79
-#: widgets/EditProfileGeneralPage.ui:189 widgets/EditProfileKeyboardPage.ui:85
+#: widgets/EditProfileGeneralPage.ui:193 widgets/EditProfileKeyboardPage.ui:85
 #: widgets/EditProfileMousePage.ui:310
 #, kde-format
 msgid "Edit..."
@@ -3340,26 +3340,28 @@ msgctxt "@title:tab Complex options"
 msgid "Advanced"
 msgstr "ఆధునాతన"
 
-#: widgets/EditProfileDialog.cpp:294
-#, kde-format
+#: widgets/EditProfileDialog.cpp:302
+#, kde-kuit-format
+msgctxt "@info"
 msgid ""
-"<p>Konsole does not have permission to save this profile to:<br /> \"%1\"</"
-"p><p>To be able to save settings you can either change the permissions of "
-"the profile configuration file or change the profile name to save the "
-"settings to a new profile.</p>"
+"Insufficient permissions to save settings to: <filename>%1</filename>.<nl/"
+">Either change the permissions of that file or set a different name to save "
+"the settings to a new profile."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:315
+#: widgets/EditProfileDialog.cpp:321
 #, kde-format
-msgid "<p>Each profile must have a name before it can be saved into disk.</p>"
+msgctxt "@info"
+msgid "Profile Name was empty; please set a name to be able to save settings."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:323
+#: widgets/EditProfileDialog.cpp:330
 #, kde-format
-msgid "<p>A profile with this name already exists.</p>"
+msgctxt "@info"
+msgid "A profile with this name, '%1', already exists."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:357
+#: widgets/EditProfileDialog.cpp:366
 #, fuzzy, kde-format
 #| msgid "Edit Profile \"%1\""
 msgid "Editing profile: %2"
@@ -3370,12 +3372,18 @@ msgstr[2] "ప్రొఫైల్ \"%1\" సరికూర్చు"
 msgstr[3] "ప్రొఫైల్ \"%1\" సరికూర్చు"
 msgstr[4] "ప్రొఫైల్ \"%1\" సరికూర్చు"
 
-#: widgets/EditProfileDialog.cpp:362
+#: widgets/EditProfileDialog.cpp:372
+#, fuzzy, kde-format
+#| msgid "New Profile..."
+msgid "Create New Profile"
+msgstr "కొత్త ప్రొఫైల్..."
+
+#: widgets/EditProfileDialog.cpp:374
 #, kde-format
 msgid "Edit Profile \"%1\""
 msgstr "ప్రొఫైల్ \"%1\" సరికూర్చు"
 
-#: widgets/EditProfileDialog.cpp:451
+#: widgets/EditProfileDialog.cpp:468
 #, kde-format
 msgctxt ""
 "Suffix of the number of columns (N columns). The leading space is needed to "
@@ -3385,7 +3393,7 @@ msgid_plural " columns"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/EditProfileDialog.cpp:452
+#: widgets/EditProfileDialog.cpp:469
 #, kde-format
 msgctxt ""
 "Suffix of the number of rows (N rows). The leading space is needed to "
@@ -3395,39 +3403,39 @@ msgid_plural " rows"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/EditProfileDialog.cpp:463
+#: widgets/EditProfileDialog.cpp:480
 #, kde-format
 msgid "System Bell"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:463
+#: widgets/EditProfileDialog.cpp:480
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "System Notifications"
 msgstr "ఎంచుకొన్న దానిని అతికించు"
 
-#: widgets/EditProfileDialog.cpp:464
+#: widgets/EditProfileDialog.cpp:481
 #, fuzzy, kde-format
 #| msgid "Visual effects"
 msgid "Visual Bell"
 msgstr "దృశ్య ప్రభావాలు"
 
-#: widgets/EditProfileDialog.cpp:464
+#: widgets/EditProfileDialog.cpp:481
 #, kde-format
 msgid "Ignore Bell Events"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:515
+#: widgets/EditProfileDialog.cpp:532
 #, kde-format
 msgid "Edit Environment"
 msgstr "ఎన్విరాన్మెంటు సరికూర్చు"
 
-#: widgets/EditProfileDialog.cpp:516
+#: widgets/EditProfileDialog.cpp:533
 #, kde-format
 msgid "One environment variable per line"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:550
+#: widgets/EditProfileDialog.cpp:567
 #, kde-format
 msgctxt "Unit of time"
 msgid " second"
@@ -3438,32 +3446,32 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: widgets/EditProfileDialog.cpp:643
+#: widgets/EditProfileDialog.cpp:660
 #, kde-format
 msgid "Select Initial Directory"
 msgstr "ప్రాధమిక డెరెక్టరీను ఎంపికచేయుము"
 
-#: widgets/EditProfileDialog.cpp:1179
+#: widgets/EditProfileDialog.cpp:1196
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Scheme <resource>%1</resource> failed to load."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1364
+#: widgets/EditProfileDialog.cpp:1381
 #, kde-format
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
 msgstr "ఈ రంగు స్కీము మీ డెస్కుటాపు మద్దతీయనటువంటి పారదర్శ బ్యాక్‌గ్రౌండును వుపయోగిస్తోంది"
 
-#: widgets/EditProfileDialog.cpp:1370
+#: widgets/EditProfileDialog.cpp:1387
 #, kde-format
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1777
+#: widgets/EditProfileDialog.cpp:1794
 #, kde-format
 msgid ""
 "The format is e.g. 'editorExec PATH:LINE:COLUMN'\n"
@@ -3480,25 +3488,25 @@ msgid ""
 "editor."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1790
+#: widgets/EditProfileDialog.cpp:1807
 #, kde-format
 msgid "Text Editor Custom Command"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, iconSelectButton)
-#: widgets/EditProfileGeneralPage.ui:55
+#: widgets/EditProfileGeneralPage.ui:59
 #, kde-format
 msgid "Select the icon displayed on tabs using this profile"
 msgstr "ఈ ప్రొఫైల్‌ను వుపయోగించి టాబ్సుపైన ప్రదర్శించబడిన ప్రతిమను యెంపికచేయుము"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, profileNameEdit)
-#: widgets/EditProfileGeneralPage.ui:71
+#: widgets/EditProfileGeneralPage.ui:75
 #, kde-format
 msgid "A descriptive name for the profile"
 msgstr "ప్రొఫైల్ కొరకు వొక వివరణాత్మకమైన పేరు"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, profileNameEdit)
-#: widgets/EditProfileGeneralPage.ui:74
+#: widgets/EditProfileGeneralPage.ui:78
 #, fuzzy, kde-format
 #| msgid "Profile name:"
 msgctxt "@label:textbox"
@@ -3506,13 +3514,13 @@ msgid "Profile name"
 msgstr "ప్రొఫైల్ పేరు:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: widgets/EditProfileGeneralPage.ui:87
+#: widgets/EditProfileGeneralPage.ui:91
 #, kde-format
 msgid "Command:"
 msgstr "ఆదేశము:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, commandEdit)
-#: widgets/EditProfileGeneralPage.ui:100
+#: widgets/EditProfileGeneralPage.ui:104
 #, kde-format
 msgid ""
 "The command to execute when new terminal sessions are created using this "
@@ -3521,65 +3529,65 @@ msgstr ""
 "ఈ ప్రొఫైలును వుపయోగించి కొత్త టెర్మినల్ సెషన్సును సృష్టిస్తున్నప్పుడు ఎగ్జిక్యూట్ చేయుటకు ఆదేశము."
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, commandEdit)
-#: widgets/EditProfileGeneralPage.ui:106
+#: widgets/EditProfileGeneralPage.ui:110
 #, kde-format
 msgid "/bin/sh"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: widgets/EditProfileGeneralPage.ui:119
+#: widgets/EditProfileGeneralPage.ui:123
 #, kde-format
 msgid "Initial directory:"
 msgstr "ప్రాధమిక డైరెక్టరీ:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, initialDirEdit)
-#: widgets/EditProfileGeneralPage.ui:132
+#: widgets/EditProfileGeneralPage.ui:136
 #, kde-format
 msgid ""
 "The initial working directory for new terminal sessions using this profile"
 msgstr "ఈ ప్రొఫైలును వుపయోగించే కొత్త టెర్మినల్ సెషన్సుకొరకు ప్రాధమిక పని డైరెక్టరీ"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, initialDirEdit)
-#: widgets/EditProfileGeneralPage.ui:138
+#: widgets/EditProfileGeneralPage.ui:142
 #, kde-format
 msgid "/home/username"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, dirSelectButton)
-#: widgets/EditProfileGeneralPage.ui:145
+#: widgets/EditProfileGeneralPage.ui:149
 #, fuzzy, kde-format
 #| msgid "Browse for initial directory"
 msgid "Choose the initial directory"
 msgstr "ప్రాధమిక డైరెక్టరీకొరకు అన్వేషించుము"
 
 #. i18n: ectx: property (text), widget (QCheckBox, startInSameDirButton)
-#: widgets/EditProfileGeneralPage.ui:155
+#: widgets/EditProfileGeneralPage.ui:159
 #, fuzzy, kde-format
 #| msgid "Start in same directory as current tab"
 msgid "Start in same directory as current session"
 msgstr "ప్రస్తుత టాబువలె యిదే డెరెక్టరీనందు ప్రారంభించుము"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: widgets/EditProfileGeneralPage.ui:168
+#: widgets/EditProfileGeneralPage.ui:172
 #, kde-format
 msgid "Environment:"
 msgstr "ఎన్విరాన్మెంట్:"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, environmentEditButton)
-#: widgets/EditProfileGeneralPage.ui:186
+#: widgets/EditProfileGeneralPage.ui:190
 #, kde-format
 msgid "Edit the list of environment variables and associated values"
 msgstr "ఎన్విరాన్మెంట్ వేరియబుల్సు మరియు సంభందిత విలువల జాబితాను సరికూర్చుము"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: widgets/EditProfileGeneralPage.ui:233
+#: widgets/EditProfileGeneralPage.ui:237
 #, fuzzy, kde-format
 #| msgid "Terminal Features"
 msgid "Initial terminal size:"
 msgstr "టెర్మినల్ సౌలభ్యాలు"
 
 #. i18n: ectx: property (text), widget (QLabel, useCurrentWindowSizeNote)
-#: widgets/EditProfileGeneralPage.ui:308
+#: widgets/EditProfileGeneralPage.ui:312
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -3589,7 +3597,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, terminalBellLabel)
-#: widgets/EditProfileGeneralPage.ui:321
+#: widgets/EditProfileGeneralPage.ui:325
 #, fuzzy, kde-format
 #| msgid "Terminal emulator"
 msgid "Terminal bell mode:"
@@ -4446,12 +4454,6 @@ msgstr "(&R) టాబ్‌కు మరలాపేరు..."
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "(&C) టాబ్ ను మూసివెయి"
-
-#, fuzzy
-#~| msgid "New Profile..."
-#~ msgctxt "@item This will be used as part of the file name"
-#~ msgid "New Profile"
-#~ msgstr "కొత్త ప్రొఫైల్..."
 
 #, fuzzy
 #~| msgid "Set as Default"
