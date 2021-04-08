@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-07 00:22+0000\n"
+"POT-Creation-Date: 2021-04-08 00:21+0000\n"
 "PO-Revision-Date: 2020-03-27 00:52+0530\n"
 "Last-Translator: Sripath Roy Koganti <sripathroy@swecha.net>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -3354,8 +3354,16 @@ msgstr "వీక్షణ గుణాలు చెల్లునప్పట�
 msgid "Use auto-expanding folders for all view types"
 msgstr "అన్ని వీక్షణ రకములకు స్వయంచాలక-విస్తరింపు ఫోల్డర్లను వుపయోగించుము"
 
-#. i18n: ectx: label, entry (ShowZoomSlider), group (General)
+#. i18n: ectx: label, entry (ShowStatusBar), group (General)
 #: settings/dolphin_generalsettings.kcfg:105
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Show zoom slider in the statusbar"
+msgid "Show the statusbar"
+msgstr "స్థితిపట్టీనందు జూమ్ స్లైడర్‌ను చూపుము"
+
+#. i18n: ectx: label, entry (ShowZoomSlider), group (General)
+#: settings/dolphin_generalsettings.kcfg:109
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show zoom slider in the statusbar"
@@ -3363,7 +3371,7 @@ msgid "Show zoom slider in the statusbar"
 msgstr "స్థితిపట్టీనందు జూమ్ స్లైడర్‌ను చూపుము"
 
 #. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
-#: settings/dolphin_generalsettings.kcfg:109
+#: settings/dolphin_generalsettings.kcfg:113
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show the space information in the statusbar"
@@ -3371,19 +3379,19 @@ msgid "Show the space information in the statusbar"
 msgstr "స్థితిపట్టీనందు జాగా సమాచారమును చూపుము"
 
 #. i18n: ectx: label, entry (LockPanels), group (General)
-#: settings/dolphin_generalsettings.kcfg:113
+#: settings/dolphin_generalsettings.kcfg:117
 #, kde-format
 msgid "Lock the layout of the panels"
 msgstr ""
 
 #. i18n: ectx: label, entry (EnlargeSmallPreviews), group (General)
-#: settings/dolphin_generalsettings.kcfg:117
+#: settings/dolphin_generalsettings.kcfg:121
 #, kde-format
 msgid "Enlarge Small Previews"
 msgstr ""
 
 #. i18n: ectx: label, entry (SortingChoice), group (General)
-#: settings/dolphin_generalsettings.kcfg:126
+#: settings/dolphin_generalsettings.kcfg:130
 #, kde-format
 msgid ""
 "Choose Natural, Case Sensitive, or Case Insensitive order of sorting the "
@@ -3732,13 +3740,21 @@ msgstr "ఫైళ్ళను యిలా వరుసక్రమముచే�
 msgid "No previews"
 msgstr "ముందస్తు వీక్షణం జరిపించుము"
 
-#: settings/general/statusbarsettingspage.cpp:21
+#: settings/general/statusbarsettingspage.cpp:22
+#, fuzzy, kde-format
+#| msgctxt "@title:group"
+#| msgid "Status Bar"
+msgctxt "@option:check"
+msgid "Show status bar"
+msgstr "స్థితి పట్టీ"
+
+#: settings/general/statusbarsettingspage.cpp:23
 #, kde-format
 msgctxt "@option:check"
 msgid "Show zoom slider"
 msgstr "జూమ్ స్లైడర్‌ను చూపుము"
 
-#: settings/general/statusbarsettingspage.cpp:22
+#: settings/general/statusbarsettingspage.cpp:24
 #, kde-format
 msgctxt "@option:check"
 msgid "Show space information"
