@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-25 00:21+0000\n"
+"POT-Creation-Date: 2021-04-26 00:23+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -163,13 +163,13 @@ msgstr ""
 msgid "KFind Results File"
 msgstr ""
 
-#: kfindtreeview.cpp:516
+#: kfindtreeview.cpp:510
 #, kde-format
 msgctxt "%1=filename"
 msgid "Results were saved to: %1"
 msgstr ""
 
-#: kfindtreeview.cpp:608 kftabdlg.cpp:426
+#: kfindtreeview.cpp:600 kftabdlg.cpp:426
 #, kde-format
 msgid "&Properties"
 msgstr "(&P) గుణములు"
@@ -290,7 +290,7 @@ msgstr ""
 msgid "Equal To"
 msgstr ""
 
-#: kftabdlg.cpp:223 kftabdlg.cpp:884
+#: kftabdlg.cpp:223 kftabdlg.cpp:879
 #, fuzzy, kde-format
 #| msgid "Bytes"
 msgid "Byte"
@@ -491,7 +491,7 @@ msgstr ""
 msgid "Do Not Set"
 msgstr ""
 
-#: kftabdlg.cpp:874
+#: kftabdlg.cpp:869
 #, kde-format
 msgctxt ""
 "during the previous minute(s)/hour(s)/...; dynamic context 'type': 'i' "
@@ -504,7 +504,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: kftabdlg.cpp:875
+#: kftabdlg.cpp:870
 #, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "minute"
@@ -515,7 +515,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: kftabdlg.cpp:876
+#: kftabdlg.cpp:871
 #, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "hour"
@@ -526,7 +526,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: kftabdlg.cpp:877
+#: kftabdlg.cpp:872
 #, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "day"
@@ -537,7 +537,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: kftabdlg.cpp:878
+#: kftabdlg.cpp:873
 #, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "month"
@@ -548,7 +548,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: kftabdlg.cpp:879
+#: kftabdlg.cpp:874
 #, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "year"
@@ -559,7 +559,7 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: kquery.cpp:591
+#: kquery.cpp:587
 #, kde-format
 msgctxt "@title:window"
 msgid "Error while using locate"
