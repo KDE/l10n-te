@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-30 00:15+0000\n"
+"POT-Creation-Date: 2021-05-13 00:15+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -304,36 +304,31 @@ msgctxt "@title:tab"
 msgid "&Support KDE"
 msgstr "(&S) కెడిఈ కి సహాయంచెయండి"
 
-#: kabstractaboutdialog_p.cpp:35
+#: kabstractaboutdialog_p.cpp:36
 #, fuzzy, kde-format
-#| msgid ""
-#| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
-msgid "<html><font size=\"5\">%1</font><br />Version %2</html>"
-msgstr ""
-"<html><font size=\"5\">%1</font><br /><b>వివరణం %2</b><br />&nbsp;</html>"
+#| msgid "Version %1"
+msgctxt "Version version-number"
+msgid "Version %1"
+msgstr "వివరణం %1"
 
 #: kabstractaboutdialog_p.cpp:79
 #, kde-format
 msgid "License: %1"
 msgstr "లెసెన్సు: %1"
 
-#: kabstractaboutdialog_p.cpp:111
+#: kabstractaboutdialog_p.cpp:112
 #, fuzzy, kde-format
-#| msgid ""
-#| "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to "
-#| "report bugs.\n"
-msgid ""
-"Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
-"report bugs.\n"
-msgstr ""
-"తప్పులను తెలియచేయుటకు <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> "
-"నివాడండి.\n"
+#| msgid "Please use http://bugs.kde.org to report bugs.\n"
+msgctxt "Reference to website"
+msgid "Please use %1 to report bugs.\n"
+msgstr "తప్పులను తెలియచేయుటకు http://bugs.kde.orgని వాడండి.\n"
 
-#: kabstractaboutdialog_p.cpp:117
+#: kabstractaboutdialog_p.cpp:120
 #, fuzzy, kde-format
-#| msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
-msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
-msgstr "తప్పులను <a href=\"mailto:%1\">%2</a>కు తెలియచేయండి\n"
+#| msgid "Please report bugs to %1.\n"
+msgctxt "Reference to email address"
+msgid "Please report bugs to %1.\n"
+msgstr "%1 కు తప్పులను తెలియచేయండి.\n"
 
 #: kactionconflictdetector.cpp:38
 #, fuzzy, kde-format
@@ -1591,6 +1586,30 @@ msgstr "(&S) అమరికలు"
 msgid "Main Toolbar"
 msgstr "ప్రధాన పనిముట్ల పట్టీ"
 
+#, fuzzy
+#~| msgid ""
+#~| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</"
+#~| "html>"
+#~ msgid "<html><font size=\"5\">%1</font><br />Version %2</html>"
+#~ msgstr ""
+#~ "<html><font size=\"5\">%1</font><br /><b>వివరణం %2</b><br />&nbsp;</html>"
+
+#, fuzzy
+#~| msgid ""
+#~| "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to "
+#~| "report bugs.\n"
+#~ msgid ""
+#~ "Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
+#~ "report bugs.\n"
+#~ msgstr ""
+#~ "తప్పులను తెలియచేయుటకు <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> "
+#~ "నివాడండి.\n"
+
+#, fuzzy
+#~| msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
+#~ msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
+#~ msgstr "తప్పులను <a href=\"mailto:%1\">%2</a>కు తెలియచేయండి\n"
+
 #~ msgid "The key you just pressed is not supported by Qt."
 #~ msgstr "మీరు వాడిన మీట qt సహాయము తీసుకోలేదు"
 
@@ -2833,12 +2852,6 @@ msgstr "ప్రధాన పనిముట్ల పట్టీ"
 #~ msgid ""
 #~ "This application was written by somebody who wants to remain anonymous."
 #~ msgstr "ఈ కార్యక్రమాన్ని వ్రాసినవారు అజ్ఞాతంగా వుండదలచుకున్నారు"
-
-#~ msgid "Please use http://bugs.kde.org to report bugs.\n"
-#~ msgstr "తప్పులను తెలియచేయుటకు http://bugs.kde.orgని వాడండి.\n"
-
-#~ msgid "Please report bugs to %1.\n"
-#~ msgstr "%1 కు తప్పులను తెలియచేయండి.\n"
 
 #~ msgid "Unexpected argument '%1'."
 #~ msgstr "'%1' ఊహించని ఆర్గ్యుమెంట్."
@@ -8827,9 +8840,6 @@ msgstr "ప్రధాన పనిముట్ల పట్టీ"
 
 #~ msgid "This operation requires authentication."
 #~ msgstr "కార్యానికి దృవీకరణ అవసరము."
-
-#~ msgid "Version %1"
-#~ msgstr "వివరణం %1"
 
 #~ msgid "Leave a comment"
 #~ msgstr "వ్యాఖ్యానమును వదులుము"
