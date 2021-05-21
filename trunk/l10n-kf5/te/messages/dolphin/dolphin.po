@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-18 00:21+0000\n"
+"POT-Creation-Date: 2021-05-21 00:19+0000\n"
 "PO-Revision-Date: 2020-03-27 00:52+0530\n"
 "Last-Translator: Sripath Roy Koganti <sripathroy@swecha.net>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -29,7 +29,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com,sripathroy@swecha.net"
 
-#: dolphincontextmenu.cpp:147 panels/places/placespanel.cpp:192
+#: dolphincontextmenu.cpp:147 panels/places/placespanel.cpp:194
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
@@ -819,7 +819,7 @@ msgctxt "@title:window"
 msgid "Places"
 msgstr "స్థలములు"
 
-#: dolphinmainwindow.cpp:1939 panels/places/placespanel.cpp:306
+#: dolphinmainwindow.cpp:1939 panels/places/placespanel.cpp:317
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Show Hidden Files"
@@ -2259,7 +2259,7 @@ msgctxt "@action:inmenu"
 msgid "Automatic Scrolling"
 msgstr ""
 
-#: panels/folders/treeviewcontextmenu.cpp:136 panels/places/placespanel.cpp:201
+#: panels/folders/treeviewcontextmenu.cpp:136 panels/places/placespanel.cpp:203
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
@@ -2419,7 +2419,7 @@ msgctxt "@info"
 msgid "An error occurred while accessing '%1'"
 msgstr ""
 
-#: panels/places/placespanel.cpp:197
+#: panels/places/placespanel.cpp:199
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Open in New Tab"
@@ -2427,7 +2427,7 @@ msgctxt "@item:inmenu"
 msgid "Open in New Tab"
 msgstr "కొత్త టాబ్‌నందు తెరువుము"
 
-#: panels/places/placespanel.cpp:198
+#: panels/places/placespanel.cpp:200
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Open in New Window"
@@ -2435,7 +2435,7 @@ msgctxt "@item:inmenu"
 msgid "Open in New Window"
 msgstr "కొత్త విండోనందు తెరువుము"
 
-#: panels/places/placespanel.cpp:231
+#: panels/places/placespanel.cpp:233
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Reload"
@@ -2443,7 +2443,15 @@ msgctxt "@action:inmenu"
 msgid "Mount"
 msgstr "తిరిగిలోడ్‌చేయి"
 
-#: panels/places/placespanel.cpp:240
+#: panels/places/placespanel.cpp:242
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Change Tags..."
+msgctxt "@action:inmenu"
+msgid "Configure Trash..."
+msgstr "టాగ్సును మార్చుము..."
+
+#: panels/places/placespanel.cpp:246
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Add Comment..."
@@ -2451,7 +2459,7 @@ msgctxt "@item:inmenu"
 msgid "Edit..."
 msgstr "వ్యాఖ్యానమును జతచేయుము..."
 
-#: panels/places/placespanel.cpp:245
+#: panels/places/placespanel.cpp:251
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Reload"
@@ -2459,13 +2467,13 @@ msgctxt "@item:inmenu"
 msgid "Remove"
 msgstr "తిరిగిలోడ్‌చేయి"
 
-#: panels/places/placespanel.cpp:248
+#: panels/places/placespanel.cpp:254
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hide"
 msgstr ""
 
-#: panels/places/placespanel.cpp:304
+#: panels/places/placespanel.cpp:315
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Add Comment..."
@@ -2473,7 +2481,7 @@ msgctxt "@item:inmenu"
 msgid "Add Entry..."
 msgstr "వ్యాఖ్యానమును జతచేయుము..."
 
-#: panels/places/placespanel.cpp:314
+#: panels/places/placespanel.cpp:325
 #, fuzzy, kde-format
 #| msgctxt "@title:group"
 #| msgid "Icon Size"
@@ -2481,31 +2489,31 @@ msgctxt "@item:inmenu"
 msgid "Icon Size"
 msgstr "ప్రతిమ పరిమాణము"
 
-#: panels/places/placespanel.cpp:325
+#: panels/places/placespanel.cpp:336
 #, kde-format
 msgctxt "Small icon size"
 msgid "Small (%1x%2)"
 msgstr ""
 
-#: panels/places/placespanel.cpp:326
+#: panels/places/placespanel.cpp:337
 #, kde-format
 msgctxt "Medium icon size"
 msgid "Medium (%1x%2)"
 msgstr ""
 
-#: panels/places/placespanel.cpp:327
+#: panels/places/placespanel.cpp:338
 #, kde-format
 msgctxt "Large icon size"
 msgid "Large (%1x%2)"
 msgstr ""
 
-#: panels/places/placespanel.cpp:328
+#: panels/places/placespanel.cpp:339
 #, kde-format
 msgctxt "Huge icon size"
 msgid "Huge (%1x%2)"
 msgstr ""
 
-#: panels/places/placespanel.cpp:375
+#: panels/places/placespanel.cpp:386
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hide Section '%1'"
