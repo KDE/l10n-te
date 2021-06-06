@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-18 00:16+0000\n"
+"POT-Creation-Date: 2021-06-06 00:15+0000\n"
 "PO-Revision-Date: 2007-07-19 15:17+0530\n"
 "Last-Translator: V Naresh Kumar <cyan_00391@yahoo.co.in>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -44,9 +44,11 @@ msgid "Red"
 msgstr "ఎరుపు"
 
 #: chatdlg.cpp:32
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Chat"
+msgctxt "@title:window"
 msgid "Chat Dlg"
-msgstr ""
+msgstr "చాట్"
 
 #: chatdlg.cpp:47
 #, kde-format
@@ -107,6 +109,7 @@ msgstr "కెవిన్4 : ఇద్దరు ఆటగాళ్ల నెట
 #: kchatdialog.cpp:80
 #, fuzzy, kde-format
 #| msgid "Configure..."
+msgctxt "@title:window"
 msgid "Configure Chat"
 msgstr "అమర్చు..."
 
@@ -211,6 +214,7 @@ msgstr ""
 
 #: kgamedebugdialog.cpp:119
 #, kde-format
+msgctxt "@title:window"
 msgid "KGame Debug Dialog"
 msgstr ""
 
