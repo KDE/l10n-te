@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-04 00:25+0000\n"
+"POT-Creation-Date: 2021-06-08 00:20+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -2617,18 +2617,18 @@ msgstr ""
 msgid "Activation:"
 msgstr "వర్ణన:"
 
+#: terminalDisplay/TerminalDisplay.cpp:692
 #: terminalDisplay/TerminalDisplay.cpp:693
-#: terminalDisplay/TerminalDisplay.cpp:694
 #, kde-format
 msgid "Size: XXX x XXX"
 msgstr "పరిమాణం: XXX x XXX"
 
-#: terminalDisplay/TerminalDisplay.cpp:705
+#: terminalDisplay/TerminalDisplay.cpp:704
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "పరిమాణం: %1 x %2"
 
-#: terminalDisplay/TerminalDisplay.cpp:2103
+#: terminalDisplay/TerminalDisplay.cpp:2111
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
@@ -2638,87 +2638,87 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2106
+#: terminalDisplay/TerminalDisplay.cpp:2114
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "ముసివేత నిర్ధారించు"
 
-#: terminalDisplay/TerminalDisplay.cpp:2138
+#: terminalDisplay/TerminalDisplay.cpp:2146
 #, kde-format
 msgid "End Of Text/Interrupt: may exit the current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2139
+#: terminalDisplay/TerminalDisplay.cpp:2147
 #, kde-format
 msgid "End Of Transmission: may exit the current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2140
+#: terminalDisplay/TerminalDisplay.cpp:2148
 #, kde-format
 msgid "Bell: will try to emit an audible warning"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2141
+#: terminalDisplay/TerminalDisplay.cpp:2149
 #, kde-format
 msgid "Backspace"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2142
+#: terminalDisplay/TerminalDisplay.cpp:2150
 #, kde-format
 msgid "Device Control Three/XOFF: suspends output"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2143
+#: terminalDisplay/TerminalDisplay.cpp:2151
 #, kde-format
 msgid "Substitute/Suspend: may suspend current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2144
+#: terminalDisplay/TerminalDisplay.cpp:2152
 #, kde-format
 msgid "Escape: used for manipulating terminal state"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2145
+#: terminalDisplay/TerminalDisplay.cpp:2153
 #, kde-format
 msgid "File Separator/Quit: may abort the current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2167
+#: terminalDisplay/TerminalDisplay.cpp:2175
 #, kde-format
 msgid ""
 "The text you're trying to paste contains hidden control characters, do you "
 "want to filter them out?"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2170
+#: terminalDisplay/TerminalDisplay.cpp:2178
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgctxt "@title"
 msgid "Confirm Paste"
 msgstr "ముసివేత నిర్ధారించు"
 
-#: terminalDisplay/TerminalDisplay.cpp:2172
+#: terminalDisplay/TerminalDisplay.cpp:2180
 #, fuzzy, kde-format
 #| msgid "Set cursor color to match current character"
 msgctxt "@action:button"
 msgid "Paste &without control characters"
 msgstr "ప్రస్తుత అక్షరముకు సరిపోలునట్లు కర్సర్ రంగును అమర్చుము"
 
-#: terminalDisplay/TerminalDisplay.cpp:2175
+#: terminalDisplay/TerminalDisplay.cpp:2183
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgctxt "@action:button"
 msgid "&Paste everything"
 msgstr "ఎంచుకొన్న దానిని అతికించు"
 
-#: terminalDisplay/TerminalDisplay.cpp:2178
+#: terminalDisplay/TerminalDisplay.cpp:2186
 #, kde-format
 msgctxt "@action:button"
 msgid "&Cancel"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2409
+#: terminalDisplay/TerminalDisplay.cpp:2417
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
@@ -2731,17 +2731,17 @@ msgstr ""
 "<qt>అవుట్పుట్ Ctrl+S వత్తుట ద్వారా <a href=\"http://en.wikipedia.org/wiki/"
 "Flow_control\">suspended</a> అయింది.  తిరిగికొనసాగించుటకు <b>Ctrl+Q</b> వత్తుము.</qt>"
 
-#: terminalDisplay/TerminalDisplay.cpp:2450
+#: terminalDisplay/TerminalDisplay.cpp:2458
 #, kde-format
 msgid "This terminal is read-only."
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2707
+#: terminalDisplay/TerminalDisplay.cpp:2715
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2739
+#: terminalDisplay/TerminalDisplay.cpp:2747
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"
@@ -2936,7 +2936,7 @@ msgstr ""
 msgid "Open File"
 msgstr "లింకును తెరువు"
 
-#: Vt102Emulation.cpp:1241
+#: Vt102Emulation.cpp:1250
 #, kde-format
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
