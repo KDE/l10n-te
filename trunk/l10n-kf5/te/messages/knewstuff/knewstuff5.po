@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-19 00:13+0000\n"
+"POT-Creation-Date: 2021-08-03 00:14+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -24,13 +24,13 @@ msgstr ""
 "X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: attica/atticaprovider.cpp:165
+#: attica/atticaprovider.cpp:167
 #, fuzzy, kde-format
 #| msgid "All Categories"
 msgid "All categories are missing"
 msgstr "అన్నీ రకా"
 
-#: attica/atticaprovider.cpp:443
+#: attica/atticaprovider.cpp:479
 #, kde-format
 msgctxt ""
 "the price of a download item, parameter 1 is the currency, 2 is the price"
@@ -41,7 +41,7 @@ msgstr ""
 "ఈ వస్తువు ఖర్చులు %1 %2.\n"
 "మీరు కొందం అనుకుంటున్నారా?"
 
-#: attica/atticaprovider.cpp:457
+#: attica/atticaprovider.cpp:493
 #, kde-format
 msgid ""
 "Your account balance is too low:\n"
@@ -52,43 +52,43 @@ msgstr ""
 "మీ సమతుల్యం: %1\n"
 "ధర: %2"
 
-#: attica/atticaprovider.cpp:500
+#: attica/atticaprovider.cpp:536
 #, kde-format
 msgctxt "voting for an item (good/bad)"
 msgid "Your vote was recorded."
 msgstr "మీ వోటు నమోదు కాలే."
 
-#: attica/atticaprovider.cpp:515
+#: attica/atticaprovider.cpp:551
 #, kde-format
 msgid "You are now a fan."
 msgstr "మీరు ఇప్పుడు ఒక ఫ్యాన్."
 
-#: attica/atticaprovider.cpp:543 core/engine.cpp:373 opds/opdsprovider.cpp:284
+#: attica/atticaprovider.cpp:579 core/engine.cpp:388 opds/opdsprovider.cpp:284
 #, kde-format
 msgid ""
 "The service is currently undergoing maintenance and is expected to be back "
 "in %1."
 msgstr ""
 
-#: attica/atticaprovider.cpp:548
+#: attica/atticaprovider.cpp:584
 #, fuzzy, kde-format
 #| msgid "Network error. (%1)"
 msgid "Network error %1: %2"
 msgstr "నేట్ వర్క్ లొపం. (%1)"
 
-#: attica/atticaprovider.cpp:554
+#: attica/atticaprovider.cpp:590
 #, kde-format
 msgid "Too many requests to server. Please try again in a few minutes."
 msgstr "సర్వర్ కి ఎక్కువ అభ్యర్థనలు వస్తునయి. కొన్ని నిమిషాల్లో మళ్ళీ ప్రయత్నించండి."
 
-#: attica/atticaprovider.cpp:557
+#: attica/atticaprovider.cpp:593
 #, kde-format
 msgid ""
 "The Open Collaboration Services instance %1 does not support the attempted "
 "function."
 msgstr ""
 
-#: attica/atticaprovider.cpp:561
+#: attica/atticaprovider.cpp:597
 #, kde-format
 msgid "Unknown Open Collaboration Service API error. (%1)"
 msgstr "తెలియని కలయికలొ తెరువు సేవా API లోపం. (%1)"
@@ -106,84 +106,84 @@ msgctxt ""
 msgid "Unknown CommentsModel role"
 msgstr "తెలియని సాకె దోషము"
 
-#: core/engine.cpp:167
+#: core/engine.cpp:168
 #, kde-format
 msgid ""
 "An error occurred during the installation process:\n"
 "%1"
 msgstr ""
 
-#: core/engine.cpp:202
+#: core/engine.cpp:203
 #, kde-format
 msgid "Initializing"
 msgstr "స్థాపించు "
 
-#: core/engine.cpp:226
+#: core/engine.cpp:239
 #, fuzzy, kde-format
 #| msgid "Configuration file not found: \"%1\""
 msgid "Configuration file exists, but cannot be opened: \"%1\""
 msgstr "ఆకృతీకరణ  దస్త్రాలు కనుపడటలేదు :\"%1\""
 
-#: core/engine.cpp:239
+#: core/engine.cpp:252
 #, kde-format
 msgid "Configuration file is invalid: \"%1\""
 msgstr "ఆకృతీకరణ దస్త్రాలు నిస్సారమైనది:\"%1\""
 
-#: core/engine.cpp:248
+#: core/engine.cpp:261
 #, kde-format
 msgid "Use"
 msgstr ""
 
-#: core/engine.cpp:263
+#: core/engine.cpp:278
 #, kde-format
 msgid ""
 "Could not initialise the installation handler for %1\n"
 "This is a critical error and should be reported to the application author"
 msgstr ""
 
-#: core/engine.cpp:338
+#: core/engine.cpp:353
 #, kde-format
 msgid "Loading provider information"
 msgstr "ప్రొవైడ సమాచారం  చూపుము"
 
-#: core/engine.cpp:399
+#: core/engine.cpp:414
 #, kde-format
 msgid "Could not load get hot new stuff providers from file: %1"
 msgstr "దస్త్రం నుండి వేడిగా కొత్త అంశాలు సరఫరానుంచి పొందుటకు లోడ్ చేయబడలేదు: %1"
 
-#: core/engine.cpp:429
+#: core/engine.cpp:444
 #, kde-format
 msgid "Error initializing provider."
 msgstr "సరఫరా సంసిద్ధసు లోపం."
 
-#: core/engine.cpp:433 core/engine.cpp:999
+#: core/engine.cpp:448 core/engine.cpp:1016
 #, kde-format
 msgid "Loading data"
 msgstr "సమాచారం  ఎక్కుతోం"
 
-#: core/engine.cpp:473
+#: core/engine.cpp:490
 #, kde-format
 msgid "Loading data from provider"
 msgstr "దత్తాంశం నుండి సరఫరా లొడింగ్"
 
-#: core/engine.cpp:478
+#: core/engine.cpp:495
 #, kde-format
 msgid "Loading of providers from file: %1 failed"
 msgstr "దస్త్రం యోక్క సరఫరాదారులు నుండి  లోడింగ్ : %1 విఫలమైంది"
 
-#: core/engine.cpp:726
+#: core/engine.cpp:743
 #, kde-format
 msgid ""
 "Could not perform an installation of the entry %1 as it does not have any "
 "downloadable items defined. Please contact the author so they can fix this."
 msgstr ""
 
-#: core/engine.cpp:849
+#: core/engine.cpp:866
 #, kde-format
 msgid "Pick Update Item"
 msgstr ""
 
-#: core/engine.cpp:851
+#: core/engine.cpp:868
 #, kde-format
 msgid ""
 "Please pick the item from the list below which should be used to apply this "
@@ -191,25 +191,25 @@ msgid ""
 "original item, which was named %1"
 msgstr ""
 
-#: core/engine.cpp:870
+#: core/engine.cpp:887
 #, kde-format
 msgid ""
 "We failed to identify a good link for updating %1, and are unable to perform "
 "the update"
 msgstr ""
 
-#: core/engine.cpp:949
+#: core/engine.cpp:966
 #, kde-format
 msgid "Re: %1"
 msgstr "పునరాచరణ: %1"
 
-#: core/engine.cpp:991 ui/itemsgridviewdelegate.cpp:329
+#: core/engine.cpp:1008 ui/itemsgridviewdelegate.cpp:329
 #: ui/itemsviewdelegate.cpp:117
 #, kde-format
 msgid "Installing"
 msgstr "నెలకొల్పుతుం"
 
-#: core/engine.cpp:995
+#: core/engine.cpp:1012
 #, fuzzy, kde-format
 msgid "Loading one preview"
 msgid_plural "Loading %1 previews"
@@ -219,7 +219,7 @@ msgstr[2] "%1 వీక్షణలు లోడుచేస్తోంది"
 msgstr[3] "%1 వీక్షణలు లోడుచేస్తోంది"
 msgstr[4] "%1 వీక్షణలు లోడుచేస్తోంది"
 
-#: core/engine.cpp:1192
+#: core/engine.cpp:1214
 #, fuzzy, kde-format
 #| msgid "Failed to load file '%1'"
 msgid ""
@@ -551,16 +551,14 @@ msgstr "సింద్దంచేయునది: %1  "
 msgid "All Categories"
 msgstr "అన్నీ రకా"
 
-#. i18n: ectx: property (text), widget (QLabel, label_9)
 #. i18n: ectx: property (text), widget (QLabel, m_providerLabel)
-#: downloadwidget.ui:54 uploaddialog.ui:127
+#: downloadwidget.ui:54
 #, kde-format
 msgid "Provider:"
 msgstr "ప్రొవైడ"
 
-#. i18n: ectx: property (text), widget (QLabel, mCategoryLabel)
 #. i18n: ectx: property (text), widget (QLabel, m_categoryLabel)
-#: downloadwidget.ui:71 qtquick/qml/Page.qml:390 uploaddialog.ui:304
+#: downloadwidget.ui:71 qtquick/qml/Page.qml:411
 #, kde-format
 msgid "Category:"
 msgstr "రక"
@@ -578,13 +576,13 @@ msgid "Newest"
 msgstr "కొత్తదై"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ratingRadio)
-#: downloadwidget.ui:110 qtquick/qml/Page.qml:289
+#: downloadwidget.ui:110 qtquick/qml/Page.qml:299
 #, kde-format
 msgid "Rating"
 msgstr "రేటిం"
 
 #. i18n: ectx: property (text), widget (QRadioButton, installedRadio)
-#: downloadwidget.ui:117 qtquick/qml/Page.qml:238
+#: downloadwidget.ui:117 qtquick/qml/Page.qml:248
 #, kde-format
 msgid "Installed"
 msgstr "స్థాపించబడిన"
@@ -602,7 +600,7 @@ msgid "Search:"
 msgstr "అన్వేషణ:"
 
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, m_searchEdit)
-#: downloadwidget.ui:217 qtquick/qml/Page.qml:348 qtquick/qml/Page.qml:354
+#: downloadwidget.ui:217 qtquick/qml/Page.qml:368 qtquick/qml/Page.qml:375
 #, fuzzy, kde-format
 #| msgid "Search"
 msgid "Search..."
@@ -621,10 +619,9 @@ msgstr "మూలకర్త:"
 msgid "<a href=\"https://opendesktop.org\">Homepage</a>"
 msgstr "<a href=\"http://opendesktop.org\">నివాస పుట</a>"
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioUpdate)
 #. i18n: ectx: property (text), widget (QPushButton, updateButton)
 #: downloadwidget.ui:572 ui/itemsgridviewdelegate.cpp:324
-#: ui/itemsviewdelegate.cpp:112 uploaddialog.ui:171
+#: ui/itemsviewdelegate.cpp:112
 #, kde-format
 msgid "Update"
 msgstr "కొత్త మార్పులు"
@@ -841,6 +838,12 @@ msgctxt ""
 msgid "Download New Stuff"
 msgstr "కొత్త వాటిని డౌన్ లోడ్ చెయి"
 
+#: qtquick/qml/Dialog.qml:128
+#, fuzzy, kde-format
+#| msgid "Continue operation"
+msgid "Contribute your own..."
+msgstr "చర్య కొనసాగించు"
+
 #: qtquick/qml/DownloadItemsSheet.qml:31
 #, kde-format
 msgid "Pick Your Installation Option"
@@ -931,7 +934,7 @@ msgid "Update"
 msgstr "కొత్త మార్పులు"
 
 #: qtquick/qml/EntryDetails.qml:109 qtquick/qml/NewStuffItem.qml:36
-#: qtquick/qml/Page.qml:144
+#: qtquick/qml/Page.qml:154
 #, fuzzy, kde-format
 #| msgid "Uninstall"
 msgctxt "Request uninstallation of this item"
@@ -1047,7 +1050,7 @@ msgctxt ""
 msgid "Show most downloaded first"
 msgstr "చాలా సార్లు చెసిన దిగుమతి సమాచారం "
 
-#: qtquick/qml/Page.qml:122
+#: qtquick/qml/Page.qml:132
 #, kde-format
 msgctxt ""
 "A message which is shown when the user attempts to display a specific entry "
@@ -1057,68 +1060,68 @@ msgid ""
 "not be found."
 msgstr ""
 
-#: qtquick/qml/Page.qml:191
+#: qtquick/qml/Page.qml:201
 #, fuzzy, kde-format
 #| msgctxt "@option:check Do filter on type - show only files"
 #| msgid "Files"
 msgid "Tiles"
 msgstr "దస్త్రా"
 
-#: qtquick/qml/Page.qml:193
+#: qtquick/qml/Page.qml:203
 #, kde-format
 msgid "Icons"
 msgstr "ప్రతిమలు"
 
-#: qtquick/qml/Page.qml:195
+#: qtquick/qml/Page.qml:205
 #, fuzzy, kde-format
 #| msgid "No Preview"
 msgid "Preview"
 msgstr "ముందస్తు వీక్షణం లేదు"
 
-#: qtquick/qml/Page.qml:210
+#: qtquick/qml/Page.qml:220
 #, fuzzy, kde-format
 #| msgid "Details view mode"
 msgid "Detailed Tiles View Mode"
 msgstr "వివరాలు వీక్షణ విధం"
 
-#: qtquick/qml/Page.qml:218
+#: qtquick/qml/Page.qml:228
 #, fuzzy, kde-format
 #| msgid "Icons view mode"
 msgid "Icons Only View Mode"
 msgstr "ప్రతిమ వీక్షణ విధం"
 
-#: qtquick/qml/Page.qml:226
+#: qtquick/qml/Page.qml:236
 #, fuzzy, kde-format
 #| msgid "Details view mode"
 msgid "Large Preview View Mode"
 msgstr "వివరాలు వీక్షణ విధం"
 
-#: qtquick/qml/Page.qml:236
+#: qtquick/qml/Page.qml:246
 #, kde-format
 msgid "Everything"
 msgstr ""
 
-#: qtquick/qml/Page.qml:240
+#: qtquick/qml/Page.qml:250
 #, fuzzy, kde-format
 #| msgid "Update"
 msgid "Updateable"
 msgstr "కొత్త మార్పులు"
 
-#: qtquick/qml/Page.qml:259
+#: qtquick/qml/Page.qml:269
 #, fuzzy, kde-format
 #| msgid "All Categories"
 msgctxt "List option which will set the filter to show everything"
 msgid "Show All Entries"
 msgstr "అన్నీ రకా"
 
-#: qtquick/qml/Page.qml:267
+#: qtquick/qml/Page.qml:277
 #, kde-format
 msgctxt ""
 "List option which will set the filter so only installed items are shown"
 msgid "Show Only Installed Entries"
 msgstr ""
 
-#: qtquick/qml/Page.qml:275
+#: qtquick/qml/Page.qml:285
 #, kde-format
 msgctxt ""
 "List option which will set the filter so only installed items with updates "
@@ -1126,25 +1129,25 @@ msgctxt ""
 msgid "Show Only Updateable Entries"
 msgstr ""
 
-#: qtquick/qml/Page.qml:285
+#: qtquick/qml/Page.qml:295
 #, fuzzy, kde-format
 #| msgctxt "@action"
 #| msgid "Open Recent"
 msgid "Recent"
 msgstr "ఇటీవలివి తెరువండి"
 
-#: qtquick/qml/Page.qml:287
+#: qtquick/qml/Page.qml:297
 #, kde-format
 msgid "Alphabetical"
 msgstr ""
 
-#: qtquick/qml/Page.qml:291
+#: qtquick/qml/Page.qml:301
 #, fuzzy, kde-format
 #| msgid "Download"
 msgid "Downloads"
 msgstr "డౌన్ లోడ్"
 
-#: qtquick/qml/Page.qml:310
+#: qtquick/qml/Page.qml:320
 #, fuzzy, kde-format
 #| msgid "Show directories first"
 msgctxt ""
@@ -1153,7 +1156,7 @@ msgctxt ""
 msgid "Show Most Recent First"
 msgstr "డెరెక్టరీలను ముందుగా చూపుము"
 
-#: qtquick/qml/Page.qml:318
+#: qtquick/qml/Page.qml:328
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to be alphabetical based on the "
@@ -1161,14 +1164,14 @@ msgctxt ""
 msgid "Sort Alphabetically By Name"
 msgstr ""
 
-#: qtquick/qml/Page.qml:326
+#: qtquick/qml/Page.qml:336
 #, fuzzy, kde-format
 #| msgid "Show directories first"
 msgctxt "List option which will set the sort order to based on user ratings"
 msgid "Show Highest Rated First"
 msgstr "డెరెక్టరీలను ముందుగా చూపుము"
 
-#: qtquick/qml/Page.qml:334
+#: qtquick/qml/Page.qml:344
 #, fuzzy, kde-format
 #| msgid "Most downloads"
 msgctxt ""
@@ -1176,13 +1179,24 @@ msgctxt ""
 msgid "Show Most Downloaded First"
 msgstr "చాలా సార్లు చెసిన దిగుమతి సమాచారం "
 
-#: qtquick/qml/Page.qml:342
+#: qtquick/qml/Page.qml:353
+#, fuzzy, kde-format
+#| msgid "&Replace..."
+msgid "Upload..."
+msgstr "(&R) ప్రతిస్థాపించుము..."
+
+#: qtquick/qml/Page.qml:354
+#, kde-format
+msgid "Learn how to add your own hot new stuff to this list"
+msgstr ""
+
+#: qtquick/qml/Page.qml:362
 #, fuzzy, kde-format
 #| msgid "&Go To..."
 msgid "Go to..."
 msgstr "(&G) వెళ్ళు..."
 
-#: qtquick/qml/Page.qml:469
+#: qtquick/qml/Page.qml:496
 #, fuzzy, kde-format
 #| msgid "Loading Preview"
 msgctxt ""
@@ -1190,7 +1204,7 @@ msgctxt ""
 msgid "Loading more..."
 msgstr "ముందస్తు వీక్షణం లోడుచేస్తోంది"
 
-#: qtquick/qml/Page.qml:480
+#: qtquick/qml/Page.qml:507
 #, kde-format
 msgctxt ""
 "A message shown when there are no entries in the list, and when it is not "
@@ -1317,6 +1331,77 @@ msgctxt ""
 "A text representation of the rating, shown as a fraction of the max value"
 msgid "(%1/%2)"
 msgstr "(%1/s)"
+
+#: qtquick/qml/UploadPage.qml:51
+#, fuzzy, kde-format
+#| msgid "Download New Stuff"
+msgctxt "@knewstuff5"
+msgid "Upload New Stuff: %1"
+msgstr "కొత్త వాటిని డౌన్ లోడ్ చెయి"
+
+#: qtquick/qml/UploadPage.qml:83
+#, fuzzy, kde-format
+#| msgid "Billing information:"
+msgctxt ""
+"A text shown beside a busy indicator suggesting that data is being fetched"
+msgid "Updating information..."
+msgstr "బిల్లింగ్ సమాచారము:"
+
+#: qtquick/qml/UploadPage.qml:95
+#, fuzzy, kde-format
+#| msgid "&Store"
+msgctxt "The name of the KDE Store"
+msgid "KDE Store"
+msgstr "&దాచు"
+
+#: qtquick/qml/UploadPage.qml:101
+#, fuzzy, kde-format
+#| msgid "Provider:"
+msgctxt "An unnamed provider"
+msgid "Your Provider"
+msgstr "ప్రొవైడ"
+
+#: qtquick/qml/UploadPage.qml:109
+#, fuzzy, kde-format
+#| msgctxt "@label:button"
+#| msgid "&Open with %1"
+msgctxt ""
+"Text for an action which causes the specified website to be opened using the "
+"user's system default browser"
+msgid "Open Website: %1"
+msgstr "&దీనితో తెరువండి '%1'"
+
+#: qtquick/qml/UploadPage.qml:114
+#, fuzzy, kde-format
+#| msgid "&Send Email"
+msgctxt ""
+"Text for an action which will attempt to send an email using the user's "
+"system default email client"
+msgid "Send Email To: %1"
+msgstr "(&S) ఈమెయిల్ పంపించు"
+
+#: qtquick/qml/UploadPage.qml:121
+#, kde-format
+msgctxt "A description of how to upload content to a generic provider"
+msgid ""
+"To upload new entries, or to add content to an existing entry on the KDE "
+"Store, please open the website and log in. Once you have done this, you will "
+"be able to find the My Products entry in the menu which pops up when you "
+"click your user icon. Click on this entry to go to the product management "
+"system, where you can work on your products ."
+msgstr ""
+
+#: qtquick/qml/UploadPage.qml:122
+#, kde-format
+msgctxt "A description of how to upload content to the KDE Store specifically"
+msgid ""
+"To upload new entries, or to add content to an existing entry, please open "
+"the provider's website and follow the instructions there. You will likely "
+"need to create a user and log in to a product management system, where you "
+"will need to follow the instructions for how to add. Alternatively, you "
+"might be required to contact the managers of the site directly to get new "
+"content added."
+msgstr ""
 
 #: qtquick/quickengine.cpp:177
 #, kde-format
@@ -1445,8 +1530,7 @@ msgstr ""
 msgid "Details for %1"
 msgstr "%1సమాచారము కొర"
 
-#. i18n: ectx: property (text), widget (QLabel, priceLabel_2)
-#: ui/entrydetailsdialog.cpp:100 uploaddialog.ui:230
+#: ui/entrydetailsdialog.cpp:100
 #, kde-format
 msgid "Changelog:"
 msgstr " నమొదుల మా"
@@ -1549,327 +1633,186 @@ msgctxt "Show the size of the file in a list"
 msgid "<p>Size: %1</p>"
 msgstr "<p>సమాచార దిగుబ: %1</p>\n"
 
-#: uploaddialog.cpp:53
-#, kde-format
-msgctxt "Opposite to Back"
-msgid "Next"
-msgstr "తరువాత"
+#~ msgctxt "Opposite to Back"
+#~ msgid "Next"
+#~ msgstr "తరువాత"
 
-#: uploaddialog.cpp:58
-#, kde-format
-msgid "Finish"
-msgstr "ముగింపు"
+#~ msgid "Finish"
+#~ msgstr "ముగింపు"
 
-#: uploaddialog.cpp:170
-#, fuzzy, kde-format
-#| msgid "Provider information"
-msgid "Fetching provider information..."
-msgstr "సిద్దంచేసేవారి సమాచారం"
+#, fuzzy
+#~| msgid "Provider information"
+#~ msgid "Fetching provider information..."
+#~ msgstr "సిద్దంచేసేవారి సమాచారం"
 
-#: uploaddialog.cpp:177
-#, kde-format
-msgid "Fetching license data from server..."
-msgstr "సర్వర్ నుండి అనుజ్ఞాపత్రము దత్తాంశం తేలుసుకొండి  "
+#~ msgid "Fetching license data from server..."
+#~ msgstr "సర్వర్ నుండి అనుజ్ఞాపత్రము దత్తాంశం తేలుసుకొండి  "
 
-#: uploaddialog.cpp:184
-#, kde-format
-msgid "Fetching content data from server..."
-msgstr "సర్వర్ నుండి విశయ్య దత్తాంశం తేలుసుకొండి..."
+#~ msgid "Fetching content data from server..."
+#~ msgstr "సర్వర్ నుండి విశయ్య దత్తాంశం తేలుసుకొండి..."
 
-#: uploaddialog.cpp:259
-#, fuzzy, kde-format
-#| msgid "Provider information"
-msgid "Could not fetch provider information."
-msgstr "సిద్దంచేసేవారి సమాచారం"
+#, fuzzy
+#~| msgid "Provider information"
+#~ msgid "Could not fetch provider information."
+#~ msgstr "సిద్దంచేసేవారి సమాచారం"
 
-#: uploaddialog.cpp:283
-#, kde-format
-msgid "Register a new account"
-msgstr "ఒక కొత్త ఖాతా నమోదు చేసుకొం"
+#~ msgid "Register a new account"
+#~ msgstr "ఒక కొత్త ఖాతా నమోదు చేసుకొం"
 
-#: uploaddialog.cpp:307
-#, kde-format
-msgid "Checking login..."
-msgstr "లాగిన్ సరిచూచు ..."
+#~ msgid "Checking login..."
+#~ msgstr "లాగిన్ సరిచూచు ..."
 
-#: uploaddialog.cpp:329
-#, kde-format
-msgid "Fetching your previously updated content..."
-msgstr "ముందస్తు  తాజాపరిచిన   సమాచారాన్ని   బయటకుతీస్తుం"
+#~ msgid "Fetching your previously updated content..."
+#~ msgstr "ముందస్తు  తాజాపరిచిన   సమాచారాన్ని   బయటకుతీస్తుం"
 
-#: uploaddialog.cpp:332
-#, kde-format
-msgid "Could not verify login, please try again."
-msgstr "లాగిన్  పరిక్షించడం కుదరదు ,మళ్ళి ప్రయత్నించం"
+#~ msgid "Could not verify login, please try again."
+#~ msgstr "లాగిన్  పరిక్షించడం కుదరదు ,మళ్ళి ప్రయత్నించం"
 
-#: uploaddialog.cpp:351
-#, kde-format
-msgid "Fetching your previously updated content finished."
-msgstr "మీరు మునుపటిలో నవీకరించబడింది విషయాన్ని తెలుసుకొడం ముగిసింసది."
+#~ msgid "Fetching your previously updated content finished."
+#~ msgstr "మీరు మునుపటిలో నవీకరించబడింది విషయాన్ని తెలుసుకొడం ముగిసింసది."
 
-#: uploaddialog.cpp:368
-#, kde-format
-msgid "Fetching content data from server finished."
-msgstr "సర్వర్ నుండి విషయ దత్తాంశం తెలుసుకోడం ముగిసింది. "
+#~ msgid "Fetching content data from server finished."
+#~ msgstr "సర్వర్ నుండి విషయ దత్తాంశం తెలుసుకోడం ముగిసింది. "
 
-#: uploaddialog.cpp:391 uploaddialog.cpp:833
-#, kde-format
-msgctxt "A link to the website where the get hot new stuff upload can be seen"
-msgid "Visit website"
-msgstr "వెబ్ సైట్ సందర్శించండి"
+#~ msgctxt ""
+#~ "A link to the website where the get hot new stuff upload can be seen"
+#~ msgid "Visit website"
+#~ msgstr "వెబ్ సైట్ సందర్శించండి"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, UploadDialog)
-#: uploaddialog.cpp:439 uploaddialog.ui:14
-#, kde-format
-msgid "Share Hot New Stuff"
-msgstr "కొత్తవాటిని పంచుకో"
+#~ msgid "Share Hot New Stuff"
+#~ msgstr "కొత్తవాటిని పంచుకో"
 
-#: uploaddialog.cpp:461
-#, kde-format
-msgctxt "Program name followed by 'Add On Uploader'"
-msgid "%1 Add-On Uploader"
-msgstr "%1 యాడ్-ఆన్  సంస్థాపకి"
+#~ msgctxt "Program name followed by 'Add On Uploader'"
+#~ msgid "%1 Add-On Uploader"
+#~ msgstr "%1 యాడ్-ఆన్  సంస్థాపకి"
 
-#: uploaddialog.cpp:479 uploaddialog.cpp:759
-#, kde-format
-msgid "File not found: %1"
-msgstr "దస్త్రం కనపడలేదు : %1"
+#~ msgid "File not found: %1"
+#~ msgstr "దస్త్రం కనపడలేదు : %1"
 
-#: uploaddialog.cpp:479 uploaddialog.cpp:607 uploaddialog.cpp:759
-#, kde-format
-msgid "Upload Failed"
-msgstr "ఎక్కించుట విఫలం అయిం"
+#~ msgid "Upload Failed"
+#~ msgstr "ఎక్కించుట విఫలం అయిం"
 
-#: uploaddialog.cpp:559
-#, fuzzy, kde-format
-msgid ""
-"The server does not recognize the category %2 to which you are trying to "
-"upload."
-msgid_plural ""
-"The server does not recognize any of the categories to which you are trying "
-"to upload: %2"
-msgstr[0] "%2 ఏ అప్లోడ్ ఐతే మీరు ప్రయత్నిస్తున్నారో అ సర్వర్ వర్గం గుర్తించడం లేదు. "
-msgstr[1] "%2 ఏ అప్లోడ్ ఐతే మీరు ప్రయత్నిస్తున్నారో అ సర్వర్ ఏ యొక్క వర్గం గుర్తించడం లేదు. "
-msgstr[2] "%2 ఏ అప్లోడ్ ఐతే మీరు ప్రయత్నిస్తున్నారో అ సర్వర్ ఏ యొక్క వర్గం గుర్తించడం లేదు. "
-msgstr[3] "%2 ఏ అప్లోడ్ ఐతే మీరు ప్రయత్నిస్తున్నారో అ సర్వర్ ఏ యొక్క వర్గం గుర్తించడం లేదు. "
-msgstr[4] "%2 ఏ అప్లోడ్ ఐతే మీరు ప్రయత్నిస్తున్నారో అ సర్వర్ ఏ యొక్క వర్గం గుర్తించడం లేదు. "
+#, fuzzy
+#~ msgid ""
+#~ "The server does not recognize the category %2 to which you are trying to "
+#~ "upload."
+#~ msgid_plural ""
+#~ "The server does not recognize any of the categories to which you are "
+#~ "trying to upload: %2"
+#~ msgstr[0] "%2 ఏ అప్లోడ్ ఐతే మీరు ప్రయత్నిస్తున్నారో అ సర్వర్ వర్గం గుర్తించడం లేదు. "
+#~ msgstr[1] "%2 ఏ అప్లోడ్ ఐతే మీరు ప్రయత్నిస్తున్నారో అ సర్వర్ ఏ యొక్క వర్గం గుర్తించడం లేదు. "
+#~ msgstr[2] "%2 ఏ అప్లోడ్ ఐతే మీరు ప్రయత్నిస్తున్నారో అ సర్వర్ ఏ యొక్క వర్గం గుర్తించడం లేదు. "
+#~ msgstr[3] "%2 ఏ అప్లోడ్ ఐతే మీరు ప్రయత్నిస్తున్నారో అ సర్వర్ ఏ యొక్క వర్గం గుర్తించడం లేదు. "
+#~ msgstr[4] "%2 ఏ అప్లోడ్ ఐతే మీరు ప్రయత్నిస్తున్నారో అ సర్వర్ ఏ యొక్క వర్గం గుర్తించడం లేదు. "
 
-#: uploaddialog.cpp:563
-#, kde-format
-msgid "Error"
-msgstr "దోషం"
+#~ msgid "Error"
+#~ msgstr "దోషం"
 
-#: uploaddialog.cpp:607
-#, kde-format
-msgid "The selected category \"%1\" is invalid."
-msgstr "ఎంచుకున్న వర్గం \"%1\" చెల్లదు."
+#~ msgid "The selected category \"%1\" is invalid."
+#~ msgstr "ఎంచుకున్న వర్గం \"%1\" చెల్లదు."
 
-#: uploaddialog.cpp:657 uploaddialog.cpp:672 uploaddialog.cpp:686
-#, kde-format
-msgid "Select preview image"
-msgstr "ఉపదర్సన చిత్రాన్ని ఎంచుకొం"
+#~ msgid "Select preview image"
+#~ msgstr "ఉపదర్సన చిత్రాన్ని ఎంచుకొం"
 
-#: uploaddialog.cpp:701
-#, kde-format
-msgid "There was a network error."
-msgstr "ఒక నెట్వర్క్  లోపం ఏర్పడింది."
+#~ msgid "There was a network error."
+#~ msgstr "ఒక నెట్వర్క్  లోపం ఏర్పడింది."
 
-#: uploaddialog.cpp:701 uploaddialog.cpp:706
-#, kde-format
-msgid "Uploading Failed"
-msgstr "ఎక్కించుట విఫలం అయింది "
+#~ msgid "Uploading Failed"
+#~ msgstr "ఎక్కించుట విఫలం అయింది "
 
-#: uploaddialog.cpp:706
-#, kde-format
-msgid "Authentication error."
-msgstr "ప్రామాణీకరణ  దోషము"
+#~ msgid "Authentication error."
+#~ msgstr "ప్రామాణీకరణ  దోషము"
 
-#: uploaddialog.cpp:716
-#, kde-format
-msgid "Upload failed: %1"
-msgstr "ఎక్కించుట విఫలం :%1"
+#~ msgid "Upload failed: %1"
+#~ msgstr "ఎక్కించుట విఫలం :%1"
 
-#. i18n: ectx: property (text), widget (QLabel, label_11)
-#: uploaddialog.ui:89
-#, kde-format
-msgid "Password:"
-msgstr "సంకేతపదము:"
+#~ msgid "Password:"
+#~ msgstr "సంకేతపదము:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: uploaddialog.ui:105
-#, kde-format
-msgid "Username:"
-msgstr "యూజర్ పేరు:"
+#~ msgid "Username:"
+#~ msgstr "యూజర్ పేరు:"
 
-#. i18n: ectx: property (text), widget (QLabel, uploadFileLabel)
-#: uploaddialog.ui:148
-#, kde-format
-msgid "File to upload:"
-msgstr "దస్రం  ఎక్కించబడినది."
+#~ msgid "File to upload:"
+#~ msgstr "దస్రం  ఎక్కించబడినది."
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioNewUpload)
-#: uploaddialog.ui:158
-#, kde-format
-msgid "New Upload"
-msgstr "కొత్త  ఎక్కించు"
+#~ msgid "New Upload"
+#~ msgstr "కొత్త  ఎక్కించు"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, mLicenseCombo)
-#: uploaddialog.ui:196
-#, kde-format
-msgid "GPL"
-msgstr "జిపిఎల్"
+#~ msgid "GPL"
+#~ msgstr "జిపిఎల్"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, mLicenseCombo)
-#: uploaddialog.ui:201
-#, kde-format
-msgid "LGPL"
-msgstr "ఎల్జిపిఎల్"
+#~ msgid "LGPL"
+#~ msgstr "ఎల్జిపిఎల్"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, mLicenseCombo)
-#: uploaddialog.ui:206
-#, kde-format
-msgid "BSD"
-msgstr "బిఎస్డి"
+#~ msgid "BSD"
+#~ msgstr "బిఎస్డి"
 
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: uploaddialog.ui:214
-#, kde-format
-msgid "Description:"
-msgstr "వర్ణన:"
+#~ msgid "Description:"
+#~ msgstr "వర్ణన:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: uploaddialog.ui:240
-#, kde-format
-msgid "Version:"
-msgstr "వివరణం:"
+#~ msgid "Version:"
+#~ msgstr "వివరణం:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: uploaddialog.ui:253
-#, kde-format
-msgid "License:"
-msgstr "లైసెన్స్:"
+#~ msgid "License:"
+#~ msgstr "లైసెన్స్:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_12)
-#: uploaddialog.ui:266
-#, kde-format
-msgid "Please fill out the information about your upload in English."
-msgstr "దయచేసి మీరు ఎక్కించేదాని  గురించి కొంత సమాచారము ఆంగ్లము ల లొ యివ్వండి."
+#~ msgid "Please fill out the information about your upload in English."
+#~ msgstr "దయచేసి మీరు ఎక్కించేదాని  గురించి కొంత సమాచారము ఆంగ్లము ల లొ యివ్వండి."
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: uploaddialog.ui:282
-#, kde-format
-msgid "Title:"
-msgstr "శీర్షిక:"
+#~ msgid "Title:"
+#~ msgstr "శీర్షిక:"
 
-#. i18n: ectx: property (toolTip), widget (QLineEdit, mNameEdit)
-#: uploaddialog.ui:317
-#, kde-format
-msgid "Name of the file as it will appear on the website"
-msgstr "ఇది వెబ్ సైట్ లో కనిపించే దస్త్రం యొక్క పేరు"
+#~ msgid "Name of the file as it will appear on the website"
+#~ msgstr "ఇది వెబ్ సైట్ లో కనిపించే దస్త్రం యొక్క పేరు"
 
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, mNameEdit)
-#: uploaddialog.ui:320
-#, kde-format
-msgid ""
-"This should clearly describe the file content. It can be the same text as "
-"the title of the kvtml file."
-msgstr ""
-"ఇది దస్త్ర విషయన్ని తప్పకుండ స్పష్టంగా వివరింస్తుంది. ఇది kvtml దస్త్రం యొక్క శీర్షిక ఐతే అదే పాఠం. "
+#~ msgid ""
+#~ "This should clearly describe the file content. It can be the same text as "
+#~ "the title of the kvtml file."
+#~ msgstr ""
+#~ "ఇది దస్త్ర విషయన్ని తప్పకుండ స్పష్టంగా వివరింస్తుంది. ఇది kvtml దస్త్రం యొక్క శీర్షిక ఐతే అదే "
+#~ "పాఠం. "
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: uploaddialog.ui:334
-#, kde-format
-msgid "Preview Images"
-msgstr "ఉపదర్శనం చిత్రా"
+#~ msgid "Preview Images"
+#~ msgstr "ఉపదర్శనం చిత్రా"
 
-#. i18n: ectx: property (text), widget (QPushButton, changePreview1Button)
-#. i18n: ectx: property (text), widget (QPushButton, changePreview3Button)
-#. i18n: ectx: property (text), widget (QPushButton, changePreview2Button)
-#: uploaddialog.ui:343 uploaddialog.ui:350 uploaddialog.ui:357
-#, kde-format
-msgid "Select Preview..."
-msgstr "ఉపదర్శనాల  ఎంచుకొనుము..."
+#~ msgid "Select Preview..."
+#~ msgstr "ఉపదర్శనాల  ఎంచుకొనుము..."
 
-#. i18n: ectx: property (text), widget (QCheckBox, priceCheckBox)
-#: uploaddialog.ui:433
-#, kde-format
-msgid "Set a price for this item"
-msgstr " ఈ  వస్తువుకి ఒక ధర ను నిర్దారించండి"
+#~ msgid "Set a price for this item"
+#~ msgstr " ఈ  వస్తువుకి ఒక ధర ను నిర్దారించండి"
 
-#. i18n: ectx: property (title), widget (QGroupBox, priceGroupBox)
-#: uploaddialog.ui:443
-#, kde-format
-msgid "Price"
-msgstr "ధ"
+#~ msgid "Price"
+#~ msgstr "ధ"
 
-#. i18n: ectx: property (text), widget (QLabel, priceLabel)
-#: uploaddialog.ui:452
-#, kde-format
-msgid "Price:"
-msgstr "ధర:"
+#~ msgid "Price:"
+#~ msgstr "ధర:"
 
-#. i18n: ectx: property (text), widget (QLabel, priceReasonLabel)
-#: uploaddialog.ui:479
-#, kde-format
-msgid "Reason for price:"
-msgstr "ధర పెట్టినందుకు కారణం:"
+#~ msgid "Reason for price:"
+#~ msgstr "ధర పెట్టినందుకు కారణం:"
 
-#. i18n: ectx: property (text), widget (QLabel, contentWebsiteLinkLabel)
-#: uploaddialog.ui:596
-#, kde-format
-msgid "Fetch content link from server"
-msgstr "సర్వర్ నుండి విషయాం జోడి పొందు"
+#~ msgid "Fetch content link from server"
+#~ msgstr "సర్వర్ నుండి విషయాం జోడి పొందు"
 
-#. i18n: ectx: property (text), widget (QLabel, creatingContentLabel)
-#: uploaddialog.ui:609
-#, kde-format
-msgid "Create content on server"
-msgstr "సర్వర్ విషయాన్ని సృష్టించు "
+#~ msgid "Create content on server"
+#~ msgstr "సర్వర్ విషయాన్ని సృష్టించు "
 
-#. i18n: ectx: property (text), widget (QLabel, creatingContentLabel_2)
-#: uploaddialog.ui:622
-#, kde-format
-msgid "Upload content"
-msgstr "ఎక్కీంచే సమాచారము "
+#~ msgid "Upload content"
+#~ msgstr "ఎక్కీంచే సమాచారము "
 
-#. i18n: ectx: property (text), widget (QLabel, uploadPreview1Label)
-#: uploaddialog.ui:635
-#, kde-format
-msgid "Upload first preview"
-msgstr "ముందస్తు  ఉపదర్శనాన్ని ఎక్కిం"
+#~ msgid "Upload first preview"
+#~ msgstr "ముందస్తు  ఉపదర్శనాన్ని ఎక్కిం"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: uploaddialog.ui:665
-#, kde-format
-msgid "Note: You can edit, update and delete your content on the website."
-msgstr "గమనిక: మీరు వెబ్ సైట్ లో మీ సమచర, సవరించడానికి నవీకరించడానికి మరియు తొలగించవచ్చు."
+#~ msgid "Note: You can edit, update and delete your content on the website."
+#~ msgstr "గమనిక: మీరు వెబ్ సైట్ లో మీ సమచర, సవరించడానికి నవీకరించడానికి మరియు తొలగించవచ్చు."
 
-#. i18n: ectx: property (text), widget (QLabel, uploadPreview2Label)
-#: uploaddialog.ui:681
-#, kde-format
-msgid "Upload second preview"
-msgstr "రెండొవ ఉపదర్శనాన్ని ఎక్కించడం "
+#~ msgid "Upload second preview"
+#~ msgstr "రెండొవ ఉపదర్శనాన్ని ఎక్కించడం "
 
-#. i18n: ectx: property (text), widget (QLabel, uploadPreview3Label)
-#: uploaddialog.ui:694
-#, kde-format
-msgid "Upload third preview"
-msgstr "మూడవ ఉపదర్శనాన్ని  ఎక్కించు "
+#~ msgid "Upload third preview"
+#~ msgstr "మూడవ ఉపదర్శనాన్ని  ఎక్కించు "
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: uploaddialog.ui:739
-#, kde-format
-msgid ""
-"I ensure that this content does not violate any existing copyright, law or "
-"trademark. I agree for my IP address to be logged. (Distributing content "
-"without the permission of the copyright holder is illegal.)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, uploadButton)
-#: uploaddialog.ui:764
-#, kde-format
-msgid "Start Upload"
-msgstr "ఎక్కించుట మొదలపె"
+#~ msgid "Start Upload"
+#~ msgstr "ఎక్కించుట మొదలపె"
 
 #, fuzzy
 #~| msgid "Failed to open scriptfile \"%1\""
@@ -5170,9 +5113,6 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgid "Scheduled printing:"
 #~ msgstr "ప్రణాళికైన ముద్రణ: "
 
-#~ msgid "Billing information:"
-#~ msgstr "బిల్లింగ్ సమాచారము:"
-
 #~ msgid "Job priority:"
 #~ msgstr "జాబ్  ప్రాముఖ్యత:"
 
@@ -6821,9 +6761,6 @@ msgstr "ఎక్కించుట మొదలపె"
 
 #~ msgid "C&ontinue"
 #~ msgstr "(&o) కొనసాగించుము"
-
-#~ msgid "Continue operation"
-#~ msgstr "చర్య కొనసాగించు"
 
 #~ msgid "&Delete"
 #~ msgstr "(&D) తొలగించు"
@@ -8923,9 +8860,6 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ "ఈ సైటు ఫాం డాటాను ఈమెయిల్ ద్వారా అప్పగించుటకు ప్రయత్నిస్తోంది.\n"
 #~ "మీరు కొనసాగించాలని అనుకొనుచున్నారా?"
 
-#~ msgid "&Send Email"
-#~ msgstr "(&S) ఈమెయిల్ పంపించు"
-
 #~ msgid ""
 #~ "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
 #~ "filesystem.<br />Do you want to submit the form?</qt>"
@@ -9189,9 +9123,6 @@ msgstr "ఎక్కించుట మొదలపె"
 
 #~ msgid "Do you want to store this password for %1?"
 #~ msgstr "మీరు రహస్యపదాన్ని  %1 కోసం దాచలనుకుంటున్నారా?"
-
-#~ msgid "&Store"
-#~ msgstr "&దాచు"
 
 #~ msgid "Ne&ver store for this site"
 #~ msgstr "(&v) ఈ  సైటుకు ఎప్పుడు వద్దు"
@@ -9781,10 +9712,6 @@ msgstr "ఎక్కించుట మొదలపె"
 #~ msgctxt "@label:checkbox"
 #~ msgid "Remember action for files of this type"
 #~ msgstr "ఈ  పనిని ఈ రకమైన దస్త్రాలకు వాడటం గుర్తుంచు"
-
-#~ msgctxt "@label:button"
-#~ msgid "&Open with %1"
-#~ msgstr "&దీనితో తెరువండి '%1'"
 
 #~ msgctxt "@action:inmenu"
 #~ msgid "Open &with %1"
@@ -10784,11 +10711,6 @@ msgstr "ఎక్కించుట మొదలపె"
 #~| msgid "Server: %1"
 #~ msgid "Server:"
 #~ msgstr "సెర్వర్: %1"
-
-#, fuzzy
-#~| msgid "&Replace..."
-#~ msgid "Upload..."
-#~ msgstr "(&R) ప్రతిస్థాపించుము..."
 
 #, fuzzy
 #~| msgid "The rating could not be submitted."
