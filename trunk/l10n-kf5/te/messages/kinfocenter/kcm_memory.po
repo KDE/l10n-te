@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_memory\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-01 00:20+0000\n"
+"POT-Creation-Date: 2021-09-03 00:18+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -28,37 +28,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 
-#: chartWidget.cpp:57 chartWidget.cpp:58 memory.cpp:266
+#: chartWidget.cpp:51 chartWidget.cpp:52 memory.cpp:240
 #, kde-format
 msgid "Not available."
 msgstr "అందుబాటులో లేదు."
 
-#: chartWidget.cpp:111
+#: chartWidget.cpp:105
 #, kde-format
 msgid "%1 free"
 msgstr "%1 ఖాళీ"
 
-#: memory.cpp:58
+#: memory.cpp:43
 #, kde-format
 msgid "kcm_memory"
 msgstr "kcm_memory"
 
-#: memory.cpp:59
+#: memory.cpp:44
 #, kde-format
 msgid "KDE Panel Memory Information Control Module"
 msgstr "KDE ప్యానల్ మెమొరి సమాచార నియంత్రణ మాడ్యూల్"
 
-#: memory.cpp:63
+#: memory.cpp:48
 #, kde-format
 msgid "(c) 1998 - 2002 Helge Deller"
 msgstr "(c) 1998 - 2002 హెల్గె డెల్లర్"
 
-#: memory.cpp:65
+#: memory.cpp:50
 #, kde-format
 msgid "Helge Deller"
 msgstr "హెల్గె డెల్లర్"
 
-#: memory.cpp:100
+#: memory.cpp:83
 #, kde-format
 msgid ""
 "This display shows you the current memory usage of your system. The values "
@@ -66,79 +66,69 @@ msgid ""
 "virtual memory being used."
 msgstr ""
 
-#: memory.cpp:107
+#: memory.cpp:90
 #, kde-format
 msgid "Memory"
 msgstr "మెమొరి"
 
-#: memory.cpp:125
+#: memory.cpp:108
 #, kde-format
 msgid "Total physical memory:"
 msgstr "మొత్తం భౌతిక మెమొరి:"
 
-#: memory.cpp:128
+#: memory.cpp:111
 #, kde-format
 msgid "Free physical memory:"
 msgstr "ఖాళీ భౌతిక మెమొరి:"
 
-#: memory.cpp:132
+#: memory.cpp:114
 #, kde-format
 msgid "Shared memory:"
 msgstr "భాగస్వామ్య మెమొరి:"
 
-#: memory.cpp:135
+#: memory.cpp:117
 #, kde-format
 msgid "Disk buffers:"
 msgstr "డిస్క్ బఫర్స్:"
 
-#: memory.cpp:139
-#, kde-format
-msgid "Active memory:"
-msgstr "క్రియాశీల మెమొరీ:"
-
-#: memory.cpp:142
-#, kde-format
-msgid "Inactive memory:"
-msgstr "క్రియాహీన మెమొరీ:"
-
-#: memory.cpp:146
+#: memory.cpp:120
 #, kde-format
 msgid "Disk cache:"
 msgstr "డిస్క్ క్యాచీ:"
 
-#: memory.cpp:150
+#: memory.cpp:124
 #, kde-format
 msgid "Total swap memory:"
 msgstr "మొత్తం స్వాప్ మెమొరీ:"
 
-#: memory.cpp:153
+#: memory.cpp:127
 #, kde-format
 msgid "Free swap memory:"
 msgstr "ఖాళీ స్వాప్ మెమొరీ:"
 
-#: memory.cpp:193
+#: memory.cpp:167
 #, kde-format
 msgid "Charts"
 msgstr "చార్టులు"
 
-#: memory.cpp:201
+#: memory.cpp:175
 #, kde-format
 msgid "Total Memory"
 msgstr "మొత్తం మెమొరీ"
 
-#: memory.cpp:202
+#: memory.cpp:176
 #, kde-format
 msgid ""
 "This graph gives you an overview of the <b>total sum of physical and virtual "
 "memory</b> in your system."
 msgstr ""
 
-#: memory.cpp:211
+#: memory.cpp:185
 #, kde-format
 msgid "Physical Memory"
 msgstr "భౌతిక మెమొరీ"
 
-#: memory.cpp:212
+#: memory.cpp:186
 #, kde-format
 msgid ""
 "This graph gives you an overview of the <b>usage of physical memory</b> in "
@@ -149,12 +139,12 @@ msgid ""
 "your system is well configured.</p>"
 msgstr ""
 
-#: memory.cpp:228
+#: memory.cpp:202
 #, kde-format
 msgid "Swap Space"
 msgstr "స్వాప్ స్పేస్"
 
-#: memory.cpp:229
+#: memory.cpp:203
 #, kde-format
 msgid ""
 "<p>The swap space is the <b>virtual memory</b> available to the system.</p> "
@@ -162,7 +152,7 @@ msgid ""
 "partitions and/or swap files.</p>"
 msgstr ""
 
-#: memory.cpp:260
+#: memory.cpp:234
 #, fuzzy, kde-format
 #| msgid "%1 bytes ="
 msgid "1 byte ="
@@ -173,45 +163,51 @@ msgstr[2] "%1 bytes ="
 msgstr[3] "%1 bytes ="
 msgstr[4] "%1 bytes ="
 
-#: physicalMemoryChart.cpp:48
+#: physicalMemoryChart.cpp:40
 #, kde-format
 msgid "Free Physical Memory"
 msgstr "ఖాళీ భౌతిక మెమొరీ"
 
-#: physicalMemoryChart.cpp:50
+#: physicalMemoryChart.cpp:42
 #, kde-format
 msgid "Disk Cache"
 msgstr "డిస్కు క్యాచీ"
 
-#: physicalMemoryChart.cpp:52
+#: physicalMemoryChart.cpp:44
 #, kde-format
 msgid "Disk Buffers"
 msgstr "డిస్కు బఫర్స్"
 
-#: physicalMemoryChart.cpp:54
+#: physicalMemoryChart.cpp:46
 #, kde-format
 msgid "Application Data"
 msgstr "అనువర్తనము డాటా"
 
-#: swapMemoryChart.cpp:46
+#: swapMemoryChart.cpp:40
 #, kde-format
 msgid "Free Swap"
 msgstr "ఖాళీ స్వాప్"
 
-#: swapMemoryChart.cpp:48 totalMemoryChart.cpp:43
+#: swapMemoryChart.cpp:42 totalMemoryChart.cpp:37
 #, kde-format
 msgid "Used Swap"
 msgstr "వుపయోగించిన స్వాప్"
 
-#: totalMemoryChart.cpp:41
+#: totalMemoryChart.cpp:35
 #, kde-format
 msgid "Total Free Memory"
 msgstr "మొత్తం ఖాళీ మెమొరీ"
 
-#: totalMemoryChart.cpp:45
+#: totalMemoryChart.cpp:39
 #, kde-format
 msgid "Used Physical Memory"
 msgstr "వుపయోగించిన భౌతిక మెమొరీ"
+
+#~ msgid "Active memory:"
+#~ msgstr "క్రియాశీల మెమొరీ:"
+
+#~ msgid "Inactive memory:"
+#~ msgstr "క్రియాహీన మెమొరీ:"
 
 #~ msgid "%1 GiB"
 #~ msgstr "%1 GiB"
