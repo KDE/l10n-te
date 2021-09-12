@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-14 00:14+0000\n"
+"POT-Creation-Date: 2021-09-12 00:15+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -24,35 +24,65 @@ msgstr ""
 "X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: kaboutapplicationdialog.cpp:59 kaboutplugindialog.cpp:65
+#: kaboutapplicationcomponentlistdelegate_p.cpp:52
+#, fuzzy, kde-format
+#| msgid "Visit contributor's homepage"
+msgid "Visit component's homepage"
+msgstr "కంట్రిభ్యూటర్స్ హొమ్ పుటను వీక్షించుట"
+
+#: kaboutapplicationcomponentlistdelegate_p.cpp:100
+#, fuzzy, kde-format
+#| msgid ""
+#| "Visit contributor's homepage\n"
+#| "%1"
+msgctxt "@info:tooltip"
+msgid ""
+"Visit components's homepage\n"
+"%1"
+msgstr "దాత హొమ్ పేజ్ వీక్షించుట%1"
+
+#: kaboutapplicationcomponentlistdelegate_p.cpp:141
+#, fuzzy, kde-format
+#| msgctxt "@item Contributor name in about dialog."
+#| msgid "%1"
+msgctxt "@item Component name in about dialog."
+msgid "%1"
+msgstr "%1 "
+
+#: kaboutapplicationcomponentlistdelegate_p.cpp:144
+#, fuzzy, kde-format
+#| msgid "Version %1"
+msgid "Version %1"
+msgstr "వివరణం %1"
+
+#: kaboutapplicationcomponentlistdelegate_p.cpp:153
+#: kabstractaboutdialog_p.cpp:85
+#, kde-format
+msgid "License: %1"
+msgstr "లెసెన్సు: %1"
+
+#: kaboutapplicationdialog.cpp:60 kaboutplugindialog.cpp:65
 #, fuzzy, kde-format
 #| msgid "About %1"
 msgctxt "@title:window"
 msgid "About %1"
 msgstr "%1 గురించి"
 
-#: kaboutapplicationdialog.cpp:97 kaboutplugindialog.cpp:83
+#: kaboutapplicationdialog.cpp:98 kaboutplugindialog.cpp:83
 #, fuzzy, kde-format
 #| msgid "&About"
 msgctxt "@title:tab"
 msgid "About"
 msgstr "(&A) గురించి"
 
-#: kaboutapplicationdialog.cpp:103
-#, kde-format
-msgid ""
-"<ul><li>KDE Frameworks %1</li><li>Qt %2 (built against %3)</li><li>The <em>"
-"%4</em> windowing system</li></ul>"
-msgstr ""
-
-#: kaboutapplicationdialog.cpp:111
+#: kaboutapplicationdialog.cpp:104
 #, fuzzy, kde-format
-#| msgid "Libraries"
+#| msgid "Comments"
 msgctxt "@title:tab"
-msgid "Libraries"
-msgstr "లైబ్రరీలు"
+msgid "Components"
+msgstr "వ్యాఖ్యలు"
 
-#: kaboutapplicationdialog.cpp:123 kaboutplugindialog.cpp:91
+#: kaboutapplicationdialog.cpp:117 kaboutplugindialog.cpp:91
 #, fuzzy, kde-format
 #| msgid "Author"
 msgctxt "@title:tab"
@@ -61,14 +91,14 @@ msgid_plural "Authors"
 msgstr[0] "మూలకర్త"
 msgstr[1] "మూలకర్త"
 
-#: kaboutapplicationdialog.cpp:130 kaboutplugindialog.cpp:98
+#: kaboutapplicationdialog.cpp:124 kaboutplugindialog.cpp:98
 #, fuzzy, kde-format
 #| msgid "&Thanks To"
 msgctxt "@title:tab"
 msgid "Thanks To"
 msgstr "(&T) ధన్యవాదములు"
 
-#: kaboutapplicationdialog.cpp:137 kaboutplugindialog.cpp:104
+#: kaboutapplicationdialog.cpp:131 kaboutplugindialog.cpp:104
 #, fuzzy, kde-format
 #| msgid "Translation"
 msgctxt "@title:tab"
@@ -252,37 +282,52 @@ msgctxt "@title:tab"
 msgid "&Support KDE"
 msgstr "(&S) కెడిఈ కి సహాయంచెయండి"
 
-#: kabstractaboutdialog_p.cpp:38
+#: kabstractaboutdialog_p.cpp:42
 #, fuzzy, kde-format
 #| msgid "Version %1"
 msgctxt "Version version-number"
 msgid "Version %1"
 msgstr "వివరణం %1"
 
-#: kabstractaboutdialog_p.cpp:81
+#: kabstractaboutdialog_p.cpp:107
 #, kde-format
-msgid "License: %1"
-msgstr "లెసెన్సు: %1"
+msgid "The <em>%1</em> windowing system"
+msgstr ""
 
-#: kabstractaboutdialog_p.cpp:101
+#: kabstractaboutdialog_p.cpp:108
+#, kde-format
+msgid "Qt"
+msgstr "క్యూటి"
+
+#: kabstractaboutdialog_p.cpp:108
+#, kde-format
+msgid "%1 (built against %2)"
+msgstr ""
+
+#: kabstractaboutdialog_p.cpp:109
+#, kde-format
+msgid "KDE Frameworks"
+msgstr ""
+
+#: kabstractaboutdialog_p.cpp:130
 #, fuzzy, kde-format
 #| msgid "Show author information"
 msgid "Show author photos"
 msgstr "మూలకర్త సమాచారం చూపుము"
 
-#: kabstractaboutdialog_p.cpp:102
+#: kabstractaboutdialog_p.cpp:131
 #, kde-format
 msgid "Enabling this will fetch images from an online location"
 msgstr ""
 
-#: kabstractaboutdialog_p.cpp:141
+#: kabstractaboutdialog_p.cpp:170
 #, fuzzy, kde-format
 #| msgid "Please use http://bugs.kde.org to report bugs.\n"
 msgctxt "Reference to website"
 msgid "Please use %1 to report bugs.\n"
 msgstr "తప్పులను తెలియచేయుటకు http://bugs.kde.orgని వాడండి.\n"
 
-#: kabstractaboutdialog_p.cpp:149
+#: kabstractaboutdialog_p.cpp:178
 #, fuzzy, kde-format
 #| msgid "Please report bugs to %1.\n"
 msgctxt "Reference to email address"
@@ -1569,6 +1614,12 @@ msgid "Main Toolbar"
 msgstr "ప్రధాన పనిముట్ల పట్టీ"
 
 #, fuzzy
+#~| msgid "Libraries"
+#~ msgctxt "@title:tab"
+#~ msgid "Libraries"
+#~ msgstr "లైబ్రరీలు"
+
+#, fuzzy
 #~| msgid ""
 #~| "Visit contributor's page\n"
 #~| "%1"
@@ -2837,9 +2888,6 @@ msgstr "ప్రధాన పనిముట్ల పట్టీ"
 
 #~ msgid "KDE Application"
 #~ msgstr "కెడిఈ అప్లికేషన్:"
-
-#~ msgid "Qt"
-#~ msgstr "క్యూటి"
 
 #~ msgid "KDE"
 #~ msgstr "కెడిఈ"
@@ -8780,9 +8828,6 @@ msgstr "ప్రధాన పనిముట్ల పట్టీ"
 
 #~ msgid "Loading Preview"
 #~ msgstr "ముందస్తు వీక్షణం లోడుచేస్తోంది"
-
-#~ msgid "Comments"
-#~ msgstr "వ్యాఖ్యలు"
 
 #~ msgid "Changelog"
 #~ msgstr "మార్పుల చీటి"
