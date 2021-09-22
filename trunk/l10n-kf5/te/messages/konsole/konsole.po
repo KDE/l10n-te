@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-21 00:19+0000\n"
+"POT-Creation-Date: 2021-09-22 00:21+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -228,7 +228,7 @@ msgctxt "@info:shell"
 msgid "Arguments passed to command"
 msgstr "ఆదేశమునకు పంపబడిన ఆర్గుమెంట్లు"
 
-#: Application.cpp:525
+#: Application.cpp:514
 #, fuzzy, kde-format
 #| msgid "Background (Intense)"
 msgctxt "@item"
@@ -1513,6 +1513,12 @@ msgstr "ఎస్ జి ఐ పొర్ట్"
 msgid "Cancel"
 msgstr ""
 
+#: pluginsystem/PluginManager.cpp:66
+#, fuzzy, kde-format
+#| msgid "No profiles available"
+msgid "No plugins available"
+msgstr "ఏ ప్రొఫైల్సు అందుబాటులోలేవు"
+
 #. i18n: ectx: property (windowTitle), widget (QWidget, PrintOptions)
 #. i18n: ectx: property (title), widget (QGroupBox, OutputOptions)
 #: PrintOptions.ui:14 PrintOptions.ui:20
@@ -1548,12 +1554,12 @@ msgstr "అప్రమేయం చెయి"
 msgid "Default profile"
 msgstr "ప్రొఫైల్ తొలగించు"
 
-#: profile/ProfileManager.cpp:274
+#: profile/ProfileManager.cpp:296
 #, kde-format
 msgid "Konsole does not have permission to save this profile to %1"
 msgstr ""
 
-#: profile/ProfileManager.cpp:306
+#: profile/ProfileManager.cpp:331
 #, kde-format
 msgid ""
 "The name \"Default\" is reserved for the built-in fallback profile;\n"
@@ -5141,9 +5147,6 @@ msgstr "(&C) టాబ్ ను మూసివెయి"
 #~| msgid "Set the selected profile as the default for new terminal sessions"
 #~ msgid "Move the selected profile down in the menu list"
 #~ msgstr "ఎంపికచేసిన ప్రొఫైలు కొత్త టెర్మినల్ సెషన్లకు అప్రమేయంగా అమర్చుము"
-
-#~ msgid "No profiles available"
-#~ msgstr "ఏ ప్రొఫైల్సు అందుబాటులోలేవు"
 
 #~ msgid "Word characters for double-click selection: "
 #~ msgstr "రెండు-నొక్కుల యెంపికకు పదము అక్షరములు: "
