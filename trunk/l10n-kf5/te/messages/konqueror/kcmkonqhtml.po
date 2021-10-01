@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-28 16:10+0000\n"
+"POT-Creation-Date: 2021-10-01 00:18+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -253,7 +253,7 @@ msgstr ""
 msgid "A&nimations:"
 msgstr "(&n) యానిమేషన్లు:"
 
-#: appearance.cpp:85 htmlopts.cpp:111
+#: appearance.cpp:85 htmlopts.cpp:110
 #, kde-format
 msgctxt "@title:group"
 msgid "Miscellaneous"
@@ -886,54 +886,54 @@ msgstr ""
 "\n"
 "</html>\n"
 
-#: domainlistview.cpp:50
+#: domainlistview.cpp:37
 #, kde-format
 msgid "Host/Domain"
 msgstr "హోస్ట్/డొమైన్"
 
-#: domainlistview.cpp:50
+#: domainlistview.cpp:37
 #, kde-format
 msgid "Policy"
 msgstr "విధానము"
 
-#: domainlistview.cpp:58
+#: domainlistview.cpp:45
 #, kde-format
 msgid "&New..."
 msgstr "(&N) కొత్త..."
 
-#: domainlistview.cpp:62
+#: domainlistview.cpp:49
 #, kde-format
 msgid "Chan&ge..."
 msgstr "(&g) మార్చు..."
 
-#: domainlistview.cpp:66
+#: domainlistview.cpp:53
 #, kde-format
 msgid "De&lete"
 msgstr "(&l) తొలగించుము"
 
-#: domainlistview.cpp:70
+#: domainlistview.cpp:57
 #, kde-format
 msgid "&Import..."
 msgstr "(&I) దిగుమతి..."
 
-#: domainlistview.cpp:76
+#: domainlistview.cpp:63
 #, kde-format
 msgid "&Export..."
 msgstr "(&E) ఎగుమతి..."
 
-#: domainlistview.cpp:84
+#: domainlistview.cpp:71
 #, kde-format
 msgid "Click on this button to manually add a host or domain specific policy."
 msgstr "హోస్టు లేదా డొమైన్ ప్రత్యేకమైన విధానమును మాన్యువల్‌గా జతచేయుటకు ఈ బటన్ నొక్కుము."
 
-#: domainlistview.cpp:86
+#: domainlistview.cpp:73
 #, kde-format
 msgid ""
 "Click on this button to change the policy for the host or domain selected in "
 "the list box."
 msgstr "జాబితా పెట్టెనందు యెంపికకాబడిన హోస్టు లేదా డొమైన్ కొరకు విధానమును మార్చుటకు ఈ బటన్ పైన నొక్కుము."
 
-#: domainlistview.cpp:88
+#: domainlistview.cpp:75
 #, kde-format
 msgid ""
 "Click on this button to delete the policy for the host or domain selected in "
@@ -941,70 +941,70 @@ msgid ""
 msgstr ""
 "జాబితా పెట్టెనందు యెంపికకాబడిన హోస్టు లేదా డొమైన్ కొరకు విధానమును తొలగించుటకు ఈ బటన్ పైన నొక్కుము."
 
-#: domainlistview.cpp:135
+#: domainlistview.cpp:122
 #, kde-format
 msgid "You must first select a policy to be changed."
 msgstr "మార్చుట కొరకు మీరు ముందుగా వొక విధానమును యెంపికచేయాలి."
 
-#: domainlistview.cpp:162
+#: domainlistview.cpp:149
 #, kde-format
 msgid "You must first select a policy to delete."
 msgstr "తొలగించుట కొరకు మీరు ముందుగా వొక విధానమును యెంపికచేయాలి."
 
-#: domainlistview.cpp:200 policydlg.cpp:63
+#: domainlistview.cpp:187 policydlg.cpp:63
 #, kde-format
 msgid "Use Global"
 msgstr "సార్వత్రికం వుపయోగించుము"
 
-#: domainlistview.cpp:202 policydlg.cpp:63
+#: domainlistview.cpp:189 policydlg.cpp:63
 #, kde-format
 msgid "Accept"
 msgstr "ఆమోదించు"
 
-#: domainlistview.cpp:204 policydlg.cpp:63
+#: domainlistview.cpp:191 policydlg.cpp:63
 #, kde-format
 msgid "Reject"
 msgstr "తిరస్కరించు"
 
-#: filteropts.cpp:60
+#: filteropts.cpp:48
 #, kde-format
 msgid "Enable filters"
 msgstr "ఫిల్టర్లను చేతనముచేయుము"
 
-#: filteropts.cpp:63
+#: filteropts.cpp:51
 #, kde-format
 msgid "Hide filtered images"
 msgstr "ఫల్టర్డు సందేశములను మరుగునవుంచుము"
 
-#: filteropts.cpp:70
+#: filteropts.cpp:58
 #, fuzzy, kde-format
 #| msgid "Enable filters"
 msgid "Manual Filter"
 msgstr "ఫిల్టర్లను చేతనముచేయుము"
 
-#: filteropts.cpp:88
+#: filteropts.cpp:76
 #, kde-format
 msgid "Search:"
 msgstr ""
 
-#: filteropts.cpp:96
+#: filteropts.cpp:84
 #, kde-format
 msgid ""
 "<qt>Filter expression (e.g. <tt>http://www.example.com/ad/*</tt>, <a href="
 "\"filterhelp\">more information</a>):"
 msgstr ""
 
-#: filteropts.cpp:112
+#: filteropts.cpp:100
 #, kde-format
 msgid "Automatic Filter"
 msgstr ""
 
-#: filteropts.cpp:121
+#: filteropts.cpp:109
 #, kde-format
 msgid "Automatic update interval:"
 msgstr ""
 
-#: filteropts.cpp:126
+#: filteropts.cpp:114
 #, kde-format
 msgid " day"
 msgid_plural " days"
@@ -1014,60 +1014,60 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: filteropts.cpp:132
+#: filteropts.cpp:120
 #, kde-format
 msgid "Insert"
 msgstr "ఇన్సర్‍ట్ (చేర్చుము)"
 
-#: filteropts.cpp:135
+#: filteropts.cpp:123
 #, kde-format
 msgid "Update"
 msgstr "నవీకరించుము"
 
-#: filteropts.cpp:138
+#: filteropts.cpp:126
 #, kde-format
 msgid "Remove"
 msgstr "తొలగించు"
 
-#: filteropts.cpp:142
+#: filteropts.cpp:130
 #, kde-format
 msgid "Import..."
 msgstr "దిగుమతిచేయి..."
 
-#: filteropts.cpp:145
+#: filteropts.cpp:133
 #, kde-format
 msgid "Export..."
 msgstr "ఎగుమతిచేయి..."
 
-#: filteropts.cpp:152
+#: filteropts.cpp:140
 #, kde-format
 msgid ""
 "<qt>More information on <a href=\"importhelp\">import format</a>, <a href="
 "\"exporthelp\">export format</a>"
 msgstr ""
 
-#: filteropts.cpp:166
+#: filteropts.cpp:154
 #, kde-format
 msgid ""
 "Enable or disable AdBlocK filters. When enabled, a set of URL expressions "
 "should be defined in the filter list for blocking to take effect."
 msgstr ""
 
-#: filteropts.cpp:168
+#: filteropts.cpp:156
 #, kde-format
 msgid ""
 "When enabled blocked images will be removed from the page completely, "
 "otherwise a placeholder 'blocked' image will be used."
 msgstr ""
 
-#: filteropts.cpp:175
+#: filteropts.cpp:163
 #, kde-format
 msgid ""
 "This is the list of URL filters that will be applied to all embedded images "
 "and media objects."
 msgstr ""
 
-#: filteropts.cpp:179
+#: filteropts.cpp:167
 #, kde-format
 msgid ""
 "<qt><p>Enter an expression to filter. Filters can be defined as either:"
@@ -1079,7 +1079,7 @@ msgid ""
 "filter."
 msgstr ""
 
-#: filteropts.cpp:195
+#: filteropts.cpp:183
 #, kde-format
 msgid ""
 "<qt><p>The filter import format is a plain text file. Blank lines, comment "
@@ -1087,7 +1087,7 @@ msgid ""
 "ignored. Any other line is added as a filter expression."
 msgstr ""
 
-#: filteropts.cpp:200
+#: filteropts.cpp:188
 #, kde-format
 msgid ""
 "<qt><p>The filter export format is a plain text file. The file begins with a "
@@ -1095,18 +1095,18 @@ msgid ""
 "separate line."
 msgstr ""
 
-#: filteropts.cpp:268
+#: filteropts.cpp:256
 #, kde-format
 msgid "Import Filters"
 msgstr ""
 
-#: filteropts.cpp:313
+#: filteropts.cpp:301
 #, fuzzy, kde-format
 #| msgid "URL Expressions to Filter"
 msgid "Export Filters"
 msgstr "ఫిల్టర్ చేయుటకు URL ఎక్స్‌ప్రెషన్స్"
 
-#: filteropts.cpp:448
+#: filteropts.cpp:436
 #, kde-format
 msgid ""
 "<h1>Konqueror AdBlocK</h1> Konqueror AdBlocK allows you to create a list of "
@@ -1114,34 +1114,34 @@ msgid ""
 "are either discarded or replaced with a placeholder image. "
 msgstr ""
 
-#: filteropts.cpp:570
+#: filteropts.cpp:558
 #, kde-format
 msgid "Name"
 msgstr ""
 
-#: filteropts.cpp:571
+#: filteropts.cpp:559
 #, kde-format
 msgid "URL"
 msgstr ""
 
-#: generalopts.cpp:52
+#: generalopts.cpp:51
 #, kde-format
 msgid "Tabbed Browsing"
 msgstr "టాబ్ బ్రౌజింగ్"
 
-#: generalopts.cpp:78
+#: generalopts.cpp:77
 #, kde-format
 msgctxt "@label:listbox"
 msgid "When &Konqueror starts:"
 msgstr "(&K) కాంక్వెరర్ ప్రారంభమైనప్పుడు:"
 
-#: generalopts.cpp:87
+#: generalopts.cpp:86
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Show Introduction Page"
 msgstr "పరిచయ పేజీను చూపుము"
 
-#: generalopts.cpp:88
+#: generalopts.cpp:87
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox"
 #| msgid "Show My Home Page"
@@ -1149,70 +1149,70 @@ msgctxt "@item:inlistbox"
 msgid "Show My Start Page"
 msgstr "నా నివాస పేజీను చూపుము"
 
-#: generalopts.cpp:89
+#: generalopts.cpp:88
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Show Blank Page"
 msgstr "ఖాళీ పేజీను చూపుము"
 
-#: generalopts.cpp:90
+#: generalopts.cpp:89
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Show My Bookmarks"
 msgstr "నా ఇష్టాంశములను చూపుము"
 
-#: generalopts.cpp:96
+#: generalopts.cpp:95
 #, fuzzy, kde-format
 #| msgid "Select Home Page"
 msgctxt "@title:window"
 msgid "Select Start Page"
 msgstr "నివాస పేజీను యెంపికచేయుము"
 
-#: generalopts.cpp:100
+#: generalopts.cpp:99
 #, kde-format
 msgid "This is the URL of the web page Konqueror will show when starting."
 msgstr ""
 
-#: generalopts.cpp:110
+#: generalopts.cpp:109
 #, kde-format
 msgid "Home page:"
 msgstr "నివాస పేజీ:"
 
-#: generalopts.cpp:113
+#: generalopts.cpp:112
 #, fuzzy, kde-format
 #| msgid "Select Home Page"
 msgctxt "@title:window"
 msgid "Select Home Page"
 msgstr "నివాస పేజీను యెంపికచేయుము"
 
-#: generalopts.cpp:118
+#: generalopts.cpp:117
 #, kde-format
 msgid ""
 "This is the URL of the web page where Konqueror will jump to when the \"Home"
 "\" button is pressed."
 msgstr ""
 
-#: generalopts.cpp:126
+#: generalopts.cpp:125
 #, kde-format
 msgid "Default web browser engine:"
 msgstr ""
 
-#: generalopts.cpp:135
+#: generalopts.cpp:134
 #, kde-format
 msgid "When splitting a view"
 msgstr ""
 
-#: generalopts.cpp:139
+#: generalopts.cpp:138
 #, kde-format
 msgid "Always duplicate current view"
 msgstr ""
 
-#: generalopts.cpp:140
+#: generalopts.cpp:139
 #, kde-format
 msgid "Duplicate current view only for local files"
 msgstr ""
 
-#: htmlopts.cpp:37
+#: htmlopts.cpp:36
 #, kde-format
 msgid ""
 "<h1>Konqueror Browser</h1> Here you can configure Konqueror's browser "
@@ -1222,17 +1222,17 @@ msgid ""
 "loads. It is usually not necessary to change anything here."
 msgstr ""
 
-#: htmlopts.cpp:45
+#: htmlopts.cpp:44
 #, kde-format
 msgid "Boo&kmarks"
 msgstr "(&k) ఇష్టాంశములు"
 
-#: htmlopts.cpp:48
+#: htmlopts.cpp:47
 #, kde-format
 msgid "Ask for name and folder when adding bookmarks"
 msgstr "ఇష్టాంశములను జతచేయునప్పుడు పేరు మరియు ఫోల్డరు కొరకు అడుగుము"
 
-#: htmlopts.cpp:51
+#: htmlopts.cpp:50
 #, kde-format
 msgid ""
 "If this box is checked, Konqueror will allow you to change the title of the "
@@ -1240,76 +1240,76 @@ msgid ""
 "bookmark."
 msgstr ""
 
-#: htmlopts.cpp:57
+#: htmlopts.cpp:56
 #, kde-format
 msgid "Show only marked bookmarks in bookmark toolbar"
 msgstr "ఇష్టాంశము పనిముట్టుపట్టీ నందు గుర్తుంచిన ఇంష్టాంశములను మాత్రమే చూపుము"
 
-#: htmlopts.cpp:59
+#: htmlopts.cpp:58
 #, kde-format
 msgid ""
 "If this box is checked, Konqueror will show only those bookmarks in the "
 "bookmark toolbar which you have marked to do so in the bookmark editor."
 msgstr ""
 
-#: htmlopts.cpp:66
+#: htmlopts.cpp:65
 #, kde-format
 msgid "Form Com&pletion"
 msgstr "(&p) ముగింపు నుండి"
 
-#: htmlopts.cpp:70
+#: htmlopts.cpp:69
 #, kde-format
 msgid ""
 "If this box is checked, Konqueror will remember the data you enter in web "
 "forms and suggest it in similar fields for all forms."
 msgstr ""
 
-#: htmlopts.cpp:76
+#: htmlopts.cpp:75
 #, kde-format
 msgid "&Maximum completions:"
 msgstr "(&M) గరిష్ట ముగింపులు:"
 
-#: htmlopts.cpp:78
+#: htmlopts.cpp:77
 #, kde-format
 msgid ""
 "Here you can select how many values Konqueror will remember for a form field."
 msgstr ""
 
-#: htmlopts.cpp:85
+#: htmlopts.cpp:84
 #, kde-format
 msgid "Mouse Beha&vior"
 msgstr "(&v) మౌస్ ప్రవర్తన"
 
-#: htmlopts.cpp:88
+#: htmlopts.cpp:87
 #, kde-format
 msgid "Chan&ge cursor over links"
 msgstr "(&g) లింకుల నందు కర్సర్‌ను మార్చుము"
 
-#: htmlopts.cpp:90
+#: htmlopts.cpp:89
 #, kde-format
 msgid ""
 "If this option is set, the shape of the cursor will change (usually to a "
 "hand) if it is moved over a hyperlink."
 msgstr ""
 
-#: htmlopts.cpp:94
+#: htmlopts.cpp:93
 #, kde-format
 msgid "M&iddle click opens URL in selection"
 msgstr "(&i) ఎంపికనందు వున్న URLను మద్యనొక్కు తెరుస్తుంది"
 
-#: htmlopts.cpp:97
+#: htmlopts.cpp:96
 #, kde-format
 msgid ""
 "If this box is checked, you can open the URL in the selection by middle "
 "clicking on a Konqueror view."
 msgstr ""
 
-#: htmlopts.cpp:101
+#: htmlopts.cpp:100
 #, kde-format
 msgid "Right click goes &back in history"
 msgstr "(&b) కుడి నొక్కు చరిత్రనందు వెనుకకు వెళుతుంది"
 
-#: htmlopts.cpp:104
+#: htmlopts.cpp:103
 #, kde-format
 msgid ""
 "If this box is checked, you can go back in history by right clicking on a "
@@ -1317,25 +1317,25 @@ msgid ""
 "move."
 msgstr ""
 
-#: htmlopts.cpp:114
+#: htmlopts.cpp:113
 #, kde-format
 msgid "Allow automatic delayed &reloading/redirecting"
 msgstr "(&r) స్వయంచాలకంగా ఆలస్యమగు రీలోడింగును/రీడైరెక్టింగును అనుమతించుము"
 
-#: htmlopts.cpp:115
+#: htmlopts.cpp:114
 #, kde-format
 msgid ""
 "Some web pages request an automatic reload or redirection after a certain "
 "period of time. By unchecking this box Konqueror will ignore these requests."
 msgstr ""
 
-#: htmlopts.cpp:121
+#: htmlopts.cpp:120
 #, fuzzy, kde-format
 #| msgid "Enable/disable Access Ke&y activation with Ctrl key"
 msgid "Enable Access Ke&y activation with Ctrl key"
 msgstr "యాక్సెస్ కీ క్రియాశీలతను Ctrl కీతో చేతనము/అచేతనము చేయుము"
 
-#: htmlopts.cpp:122
+#: htmlopts.cpp:121
 #, kde-format
 msgid ""
 "Pressing the Ctrl key when viewing webpages activates Access Keys. "
@@ -1343,34 +1343,34 @@ msgid ""
 "needs to be restarted for this change to take effect.)"
 msgstr ""
 
-#: htmlopts.cpp:126
+#: htmlopts.cpp:125
 #, kde-format
 msgid "Send the DNT header to tell web sites you do not want to be tracked"
 msgstr ""
 
-#: htmlopts.cpp:127
+#: htmlopts.cpp:126
 #, kde-format
 msgid ""
 "Check this box if you want to inform a web site that you do not want your "
 "web browsing habits tracked."
 msgstr ""
 
-#: htmlopts.cpp:131
+#: htmlopts.cpp:130
 #, kde-format
 msgid "Offer to save website passwords"
 msgstr ""
 
-#: htmlopts.cpp:132
+#: htmlopts.cpp:131
 #, kde-format
 msgid "Uncheck this box to prevent being prompted to save website passwords"
 msgstr ""
 
-#: htmlopts.cpp:137
+#: htmlopts.cpp:136
 #, kde-format
 msgid "Display online PDF files using WebEngine"
 msgstr ""
 
-#: htmlopts.cpp:138
+#: htmlopts.cpp:137
 #, kde-format
 msgid ""
 "Uncheck this box to display online PDF files as configured in System Settings"
@@ -1659,67 +1659,67 @@ msgstr "జావాస్క్రిప్టు విధానమును �
 msgid "Domain-Specific JavaScript Policies"
 msgstr "డొమైన్-ప్రత్యేక జావాస్క్రిప్టు విధానములు"
 
-#: jspolicies.cpp:145
+#: jspolicies.cpp:132
 #, kde-format
 msgid "Open new windows:"
 msgstr "కొత్త విండోలను తెరువుము:"
 
-#: jspolicies.cpp:153 jspolicies.cpp:207 jspolicies.cpp:244 jspolicies.cpp:281
-#: jspolicies.cpp:321
+#: jspolicies.cpp:140 jspolicies.cpp:194 jspolicies.cpp:231 jspolicies.cpp:268
+#: jspolicies.cpp:308
 #, kde-format
 msgid "Use global"
 msgstr "సార్వత్రికం వుపయోగించుము"
 
-#: jspolicies.cpp:154 jspolicies.cpp:208 jspolicies.cpp:245 jspolicies.cpp:282
-#: jspolicies.cpp:322
+#: jspolicies.cpp:141 jspolicies.cpp:195 jspolicies.cpp:232 jspolicies.cpp:269
+#: jspolicies.cpp:309
 #, kde-format
 msgid "Use setting from global policy."
 msgstr "సార్వత్రిక విధానమునుండి అమరికను వుపయోగించుము."
 
-#: jspolicies.cpp:160 jspolicies.cpp:214 jspolicies.cpp:251 jspolicies.cpp:288
-#: jspolicies.cpp:328
+#: jspolicies.cpp:147 jspolicies.cpp:201 jspolicies.cpp:238 jspolicies.cpp:275
+#: jspolicies.cpp:315
 #, kde-format
 msgid "Allow"
 msgstr "అనుమతించు"
 
-#: jspolicies.cpp:161
+#: jspolicies.cpp:148
 #, kde-format
 msgid "Accept all popup window requests."
 msgstr "అన్ని పాపప్ విండో అభ్యర్ధనలను ఆమోదించుము.్"
 
-#: jspolicies.cpp:166
+#: jspolicies.cpp:153
 #, kde-format
 msgid "Ask"
 msgstr "అడుగు"
 
-#: jspolicies.cpp:167
+#: jspolicies.cpp:154
 #, kde-format
 msgid "Prompt every time a popup window is requested."
 msgstr "పాపప్ విండో అభ్యర్ధించబడిన ప్రతిసారి ప్రాంప్టు చేయుము."
 
-#: jspolicies.cpp:172
+#: jspolicies.cpp:159
 #, kde-format
 msgid "Deny"
 msgstr "అనంగీకారము"
 
-#: jspolicies.cpp:173
+#: jspolicies.cpp:160
 #, kde-format
 msgid "Reject all popup window requests."
 msgstr "అన్ని పాపప్ విండో అభ్యర్ధనలను తిరస్కరించుము"
 
-#: jspolicies.cpp:178
+#: jspolicies.cpp:165
 #, kde-format
 msgid "Smart"
 msgstr "స్మార్ట్"
 
-#: jspolicies.cpp:179
+#: jspolicies.cpp:166
 #, kde-format
 msgid ""
 "Accept popup window requests only when links are activated through an "
 "explicit mouse click or keyboard operation."
 msgstr ""
 
-#: jspolicies.cpp:186
+#: jspolicies.cpp:173
 #, kde-format
 msgid ""
 "If you disable this, Konqueror will stop interpreting the <i>window.open()</"
@@ -1729,29 +1729,29 @@ msgid ""
 "open()</i> for proper operation. Use this feature carefully."
 msgstr ""
 
-#: jspolicies.cpp:200
+#: jspolicies.cpp:187
 #, kde-format
 msgid "Resize window:"
 msgstr "విండోను పునఃపరిమాణం చేయుము:"
 
-#: jspolicies.cpp:215
+#: jspolicies.cpp:202
 #, kde-format
 msgid "Allow scripts to change the window size."
 msgstr "స్క్రిప్టులు విండో పరిమాణము మార్చుటకు అనుమతించుము:"
 
-#: jspolicies.cpp:220 jspolicies.cpp:257 jspolicies.cpp:294 jspolicies.cpp:334
+#: jspolicies.cpp:207 jspolicies.cpp:244 jspolicies.cpp:281 jspolicies.cpp:321
 #, kde-format
 msgid "Ignore"
 msgstr "విస్మరించు"
 
-#: jspolicies.cpp:221
+#: jspolicies.cpp:208
 #, kde-format
 msgid ""
 "Ignore attempts of scripts to change the window size. The web page will "
 "<i>think</i> it changed the size but the actual window is not affected."
 msgstr ""
 
-#: jspolicies.cpp:228
+#: jspolicies.cpp:215
 #, kde-format
 msgid ""
 "Some websites change the window size on their own by using <i>window."
@@ -1759,24 +1759,24 @@ msgid ""
 "treatment of such attempts."
 msgstr ""
 
-#: jspolicies.cpp:237
+#: jspolicies.cpp:224
 #, kde-format
 msgid "Move window:"
 msgstr "విండోను కదుపుము:"
 
-#: jspolicies.cpp:252
+#: jspolicies.cpp:239
 #, kde-format
 msgid "Allow scripts to change the window position."
 msgstr "విండో స్థానమును మార్చుటకు స్క్రిప్టులను అనుమతించుము."
 
-#: jspolicies.cpp:258
+#: jspolicies.cpp:245
 #, kde-format
 msgid ""
 "Ignore attempts of scripts to change the window position. The web page will "
 "<i>think</i> it moved the window but the actual position is not affected."
 msgstr ""
 
-#: jspolicies.cpp:265
+#: jspolicies.cpp:252
 #, kde-format
 msgid ""
 "Some websites change the window position on their own by using <i>window."
@@ -1784,17 +1784,17 @@ msgid ""
 "of such attempts."
 msgstr ""
 
-#: jspolicies.cpp:274
+#: jspolicies.cpp:261
 #, kde-format
 msgid "Focus window:"
 msgstr "విండోపై దృష్టివుంచుము:"
 
-#: jspolicies.cpp:289
+#: jspolicies.cpp:276
 #, kde-format
 msgid "Allow scripts to focus the window."
 msgstr "విండోపై దృష్టివుంచుటకు స్క్రిప్టులను అనుమతించుము."
 
-#: jspolicies.cpp:295
+#: jspolicies.cpp:282
 #, kde-format
 msgid ""
 "Ignore attempts of scripts to focus the window. The web page will <i>think</"
@@ -1802,7 +1802,7 @@ msgid ""
 "unchanged."
 msgstr ""
 
-#: jspolicies.cpp:303
+#: jspolicies.cpp:290
 #, kde-format
 msgid ""
 "Some websites set the focus to their browser window on their own by using "
@@ -1811,24 +1811,24 @@ msgid ""
 "This option specifies the treatment of such attempts."
 msgstr ""
 
-#: jspolicies.cpp:314
+#: jspolicies.cpp:301
 #, kde-format
 msgid "Modify status bar text:"
 msgstr "స్థితి పట్టీ వచనమును సవరించుము:"
 
-#: jspolicies.cpp:329
+#: jspolicies.cpp:316
 #, kde-format
 msgid "Allow scripts to change the text of the status bar."
 msgstr "స్థితి పట్టీయొక్క వచనమును మార్చుటకు స్క్రిప్టులను అనుమతించుము."
 
-#: jspolicies.cpp:335
+#: jspolicies.cpp:322
 #, kde-format
 msgid ""
 "Ignore attempts of scripts to change the status bar text. The web page will "
 "<i>think</i> it changed the text but the actual text will remain unchanged."
 msgstr ""
 
-#: jspolicies.cpp:343
+#: jspolicies.cpp:330
 #, kde-format
 msgid ""
 "Some websites change the status bar text by setting <i>window.status</i> or "
@@ -1836,57 +1836,57 @@ msgid ""
 "URLs of hyperlinks. This option specifies the treatment of such attempts."
 msgstr ""
 
-#: main.cpp:63
+#: main.cpp:51
 #, kde-format
 msgid "Konqueror Browsing Control Module"
 msgstr "కాంక్వెరర్ బ్రౌజింగ్ నియంత్రణ మాడ్యూల్"
 
-#: main.cpp:65
+#: main.cpp:53
 #, kde-format
 msgid "(c) 1999 - 2001 The Konqueror Developers"
 msgstr "(c) 1999 - 2001 కాంక్వెరర్ అభివృద్దికారులు"
 
-#: main.cpp:67
+#: main.cpp:55
 #, kde-format
 msgid "Waldo Bastian"
 msgstr "వాల్డొ బాస్టియన్"
 
-#: main.cpp:68
+#: main.cpp:56
 #, kde-format
 msgid "David Faure"
 msgstr "డెవిడ్ ఫారె"
 
-#: main.cpp:69
+#: main.cpp:57
 #, kde-format
 msgid "Matthias Kalle Dalheimer"
 msgstr "మాథియాస్ కెల్లే డాల్హైమర్"
 
-#: main.cpp:70
+#: main.cpp:58
 #, kde-format
 msgid "Lars Knoll"
 msgstr "లార్స్ క్నొల్"
 
-#: main.cpp:71
+#: main.cpp:59
 #, kde-format
 msgid "Dirk Mueller"
 msgstr "డిర్క్ ముల్లర్"
 
-#: main.cpp:72
+#: main.cpp:60
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "డానియల్ మాల్కెన్టిన్"
 
-#: main.cpp:73
+#: main.cpp:61
 #, kde-format
 msgid "Wynn Wilkes"
 msgstr "విన్ వైక్స్"
 
-#: main.cpp:75
+#: main.cpp:63
 #, kde-format
 msgid "Leo Savernik"
 msgstr "లియో సావెర్నిక్"
 
-#: main.cpp:75
+#: main.cpp:63
 #, kde-format
 msgid ""
 "JavaScript access controls\n"
@@ -1895,17 +1895,17 @@ msgstr ""
 "జావాస్క్రిప్టు యాక్సెస్ నియంత్రణలు\n"
 "ప్రీ-డొమైన్ విధానాల పొడిగింపులు"
 
-#: main.cpp:87
+#: main.cpp:75
 #, kde-format
 msgid "&Java"
 msgstr "(&J) జావా"
 
-#: main.cpp:91
+#: main.cpp:79
 #, kde-format
 msgid "Java&Script"
 msgstr "(&S) జావా స్క్రిప్టు"
 
-#: main.cpp:131
+#: main.cpp:119
 #, kde-format
 msgid ""
 "<h2>JavaScript</h2>On this page, you can configure whether JavaScript "
