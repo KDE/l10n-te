@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-26 00:20+0000\n"
+"POT-Creation-Date: 2021-10-27 00:23+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -130,22 +130,23 @@ msgctxt "@info:shell"
 msgid "Do not close the initial session automatically when it ends."
 msgstr "ప్రాధమిక సెషన్ ముగిసినప్పుడు దానిని స్వయంచాలకంగా మూయవద్దు."
 
-#: Application.cpp:58
+#: Application.cpp:59
 #, fuzzy, kde-format
 #| msgid ""
 #| "Create a new tab in an existing window rather than creating a new window"
 msgctxt "@info:shell"
 msgid ""
-"Create a new tab in an existing window rather than creating a new window"
+"Create a new tab in an existing window rather than creating a new window "
+"('Run all Konsole windows in a single process' must be enabled)"
 msgstr "కొత్త విండోను సృష్టించుటకన్నా వున్న విండోనందు కొత్త టాబ్‌ను సృష్టించుము"
 
-#: Application.cpp:59
+#: Application.cpp:60
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create tabs as specified in given tabs configuration file"
 msgstr ""
 
-#: Application.cpp:61
+#: Application.cpp:62
 #, fuzzy, kde-format
 #| msgid ""
 #| "Start Konsole in the background and bring to the front when the F12 key "
@@ -156,70 +157,70 @@ msgid ""
 "(by default) is pressed"
 msgstr "F12 కీ వత్తినప్పుడు కన్సోలును బ్యాక్‌గ్రౌండునందు ప్రారంభించి ముందుకు తీసుకొనిరండి"
 
-#: Application.cpp:62
+#: Application.cpp:63
 #, kde-format
 msgctxt "@info:shell"
 msgid "Run in a separate process"
 msgstr ""
 
-#: Application.cpp:63
+#: Application.cpp:64
 #, kde-format
 msgctxt "@info:shell"
 msgid "Show the menubar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:64
+#: Application.cpp:65
 #, kde-format
 msgctxt "@info:shell"
 msgid "Hide the menubar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:65
+#: Application.cpp:66
 #, kde-format
 msgctxt "@info:shell"
 msgid "Show the tabbar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:66
+#: Application.cpp:67
 #, kde-format
 msgctxt "@info:shell"
 msgid "Hide the tabbar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:67
+#: Application.cpp:68
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Konsole in fullscreen mode"
 msgstr ""
 
-#: Application.cpp:68
+#: Application.cpp:69
 #, fuzzy, kde-format
 #| msgid "Disable transparent backgrounds, even if the system supports them."
 msgctxt "@info:shell"
 msgid "Disable transparent backgrounds, even if the system supports them."
 msgstr "సిస్టమ్ మద్దతిచ్చినా కూడా, పారదృశ్య బ్యాక్‌గ్రౌండులను అచేతనము చేయుము."
 
-#: Application.cpp:69
+#: Application.cpp:70
 #, fuzzy, kde-format
 #| msgid "List the available profiles"
 msgctxt "@info:shell"
 msgid "List the available profiles"
 msgstr "అందుబాటులోని ప్రొఫైల్సును జాబితాచేయుము"
 
-#: Application.cpp:70
+#: Application.cpp:71
 #, kde-format
 msgctxt "@info:shell"
 msgid "List all the profile properties names and their type (for use with -p)"
 msgstr ""
 
-#: Application.cpp:71
+#: Application.cpp:72
 #, fuzzy, kde-format
 #| msgid "Change the value of a profile property."
 msgctxt "@info:shell"
 msgid "Change the value of a profile property."
 msgstr "ప్రొఫైల్ లక్షణంయొక్క విలువను మార్చుము."
 
-#: Application.cpp:73
+#: Application.cpp:74
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
@@ -227,14 +228,14 @@ msgid ""
 "it as the last option."
 msgstr ""
 
-#: Application.cpp:79
+#: Application.cpp:80
 #, fuzzy, kde-format
 #| msgid "Arguments passed to command"
 msgctxt "@info:shell"
 msgid "Arguments passed to command"
 msgstr "ఆదేశమునకు పంపబడిన ఆర్గుమెంట్లు"
 
-#: Application.cpp:513
+#: Application.cpp:514
 #, fuzzy, kde-format
 #| msgid "Background (Intense)"
 msgctxt "@item"
