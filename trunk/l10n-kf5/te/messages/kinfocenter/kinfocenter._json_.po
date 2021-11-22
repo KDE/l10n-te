@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-17 00:36+0000\n"
+"POT-Creation-Date: 2021-11-22 00:39+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -17,70 +17,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: Categories/basicinformation.desktop:8
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Information"
-msgctxt "Name"
-msgid "Basic Information"
-msgstr "సమాచారం"
-
-#: Categories/detailedinformation.desktop:8
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Information"
-msgctxt "Name"
-msgid "Detailed Information"
-msgstr "సమాచారం"
-
-#: Categories/deviceinfocategory.desktop:8
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "USB Devices"
-msgctxt "Name"
-msgid "Devices"
-msgstr "యూ ఎస్ బి పరికరాలు"
-
-#: Categories/graphicalinfocategory.desktop:8
-msgctxt "Name"
-msgid "Graphics"
-msgstr ""
-
-#: Categories/kinfocentercategory.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "KInfoCenter"
-msgctxt "Name"
-msgid "KInfoCenter Category"
-msgstr "కెఇన్ఫొసెంటర్"
-
-#: Categories/lostfoundcategory.desktop:8
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Lost & Found"
-msgctxt "Name"
-msgid "Lost And Found"
-msgstr "పోయినవి & దొరికినవి"
-
-#: Categories/networkinfocategory.desktop:8
-msgctxt "Name"
-msgid "Network"
-msgstr ""
-
-#: kcontrol/menus/kinfocenter.directory:3
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "PCI information"
-msgctxt "Name"
-msgid "Information"
-msgstr "పి సి ఐ సమాచారం"
-
-#: Modules/about-distro/src/about-distro.desktop:12
-msgctxt "X-KDE-Keywords"
-msgid "about,info,information,distribution,distro,system,kernel,qt,kde"
-msgstr ""
-
-#: Modules/about-distro/src/about-distro.desktop:52
+#: Modules/about-distro/src/about-distro.json
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Info about files and directories for Plasmoids"
@@ -88,33 +25,12 @@ msgctxt "Name"
 msgid "About this System"
 msgstr "Plasmoids కొరకు ఫైళ్ళు మరియు సంచయంల గురించి సమాచారం"
 
-#: Modules/about-distro/src/about-distro.desktop:80
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Info about files and directories for Plasmoids"
-msgctxt "Comment"
-msgid "Information About This System"
-msgstr "Plasmoids కొరకు ఫైళ్ళు మరియు సంచయంల గురించి సమాచారం"
-
-#: Modules/cpu/kcm_cpu.desktop:15
+#: Modules/cpu/kcm_cpu.json
 msgctxt "Name"
 msgid "CPU"
 msgstr ""
 
-#: Modules/cpu/kcm_cpu.desktop:42
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Information"
-msgctxt "Comment"
-msgid "Advanced CPU Information"
-msgstr "సమాచారం"
-
-#: Modules/cpu/kcm_cpu.desktop:69
-msgctxt "X-KDE-Keywords"
-msgid "cpu,amd,intel,arm,instructions,cores,architecture,byte order"
-msgstr ""
-
-#: Modules/devinfo/devinfo.desktop:13
+#: Modules/devinfo/devinfo.json
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Picture Viewer"
@@ -122,20 +38,7 @@ msgctxt "Name"
 msgid "Device Viewer"
 msgstr "చిత్ర వీక్షిణి"
 
-#: Modules/devinfo/devinfo.desktop:78
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Picture Viewer"
-msgctxt "Comment"
-msgid "Device Viewer"
-msgstr "చిత్ర వీక్షిణి"
-
-#: Modules/devinfo/devinfo.desktop:143
-msgctxt "X-KDE-Keywords"
-msgid "device,devices,disk,drive,processor,cpu"
-msgstr ""
-
-#: Modules/egl/kcm_egl.desktop:14
+#: Modules/egl/kcm_egl.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "OpenGL"
@@ -143,35 +46,12 @@ msgctxt "Name"
 msgid "OpenGL (EGL)"
 msgstr "ఓపెన్ జిఎల్"
 
-#: Modules/egl/kcm_egl.desktop:39
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "OpenGL information"
-msgctxt "Comment"
-msgid "EGL information"
-msgstr "ఓపెన్ జిఎల్ సమాచారం"
-
-#: Modules/egl/kcm_egl.desktop:64
-msgctxt "X-KDE-Keywords"
-msgid "OpenGL,DRI,3D,VideoCard,Hardware Acceleration,Graphics,EGL"
-msgstr ""
-
-#: Modules/energy/kcm_energyinfo.desktop:11
+#: Modules/energy/kcm_energyinfo.json
 msgctxt "Name"
 msgid "Energy"
 msgstr ""
 
-#: Modules/energy/kcm_energyinfo.desktop:47
-msgctxt "Comment"
-msgid "Energy Consumption Statistics"
-msgstr ""
-
-#: Modules/energy/kcm_energyinfo.desktop:95
-msgctxt "X-KDE-Keywords"
-msgid "Battery,Energy,Statistics,History,Power"
-msgstr ""
-
-#: Modules/glx/kcm_glx.desktop:14
+#: Modules/glx/kcm_glx.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "OpenGL"
@@ -179,113 +59,37 @@ msgctxt "Name"
 msgid "OpenGL (GLX)"
 msgstr "ఓపెన్ జిఎల్"
 
-#: Modules/glx/kcm_glx.desktop:39
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "OpenGL information"
-msgctxt "Comment"
-msgid "GLX information"
-msgstr "ఓపెన్ జిఎల్ సమాచారం"
-
-#: Modules/glx/kcm_glx.desktop:64
-msgctxt "X-KDE-Keywords"
-msgid ""
-"OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,X-"
-"Server,XFree86,Display"
-msgstr ""
-
-#: Modules/interrupts/kcm_interrupts.desktop:14
+#: Modules/interrupts/kcm_interrupts.json
 msgctxt "Name"
 msgid "Interrupts"
 msgstr "ఇంటెరప్టులు"
 
-#: Modules/interrupts/kcm_interrupts.desktop:107
-msgctxt "Comment"
-msgid "Interrupt information"
-msgstr "ఇంటెరప్ట్ సమాచారం"
-
-#: Modules/interrupts/kcm_interrupts.desktop:200
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Interrupt information"
-msgctxt "X-KDE-Keywords"
-msgid "Interrupts,IRQ,System Information"
-msgstr "ఇంటెరప్ట్ సమాచారం"
-
-#: Modules/nics/kcm_nic.desktop:11
+#: Modules/nics/kcm_nic.json
 msgctxt "Name"
 msgid "Network Interfaces"
 msgstr "నెట్వర్క్ ఇంటర్ ఫెస్"
 
-#: Modules/nics/kcm_nic.desktop:105
-msgctxt "Comment"
-msgid "Network interface information"
-msgstr "నెట్వర్క్ ఇంటర్ ఫెస్ సమాచారం"
-
-#: Modules/pci/kcm_pci.desktop:14
+#: Modules/pci/kcm_pci.json
 msgctxt "Name"
 msgid "PCI"
 msgstr "పి సి ఐ"
 
-#: Modules/pci/kcm_pci.desktop:108
-msgctxt "Comment"
-msgid "PCI information"
-msgstr "పి సి ఐ సమాచారం"
-
-#: Modules/pci/kcm_pci.desktop:201
-msgctxt "X-KDE-Keywords"
-msgid "PCI,PCI-Devices,PCI-Bus,System Information"
-msgstr ""
-
-#: Modules/samba/smbstatus.desktop:12
+#: Modules/samba/smbstatus.json
 msgctxt "Name"
 msgid "Samba Status"
 msgstr "సాంబా స్థితి"
 
-#: Modules/samba/smbstatus.desktop:106
-msgctxt "Comment"
-msgid "Samba status monitor"
-msgstr "సాంబా స్థితి మానిటర్"
-
-#: Modules/samba/smbstatus.desktop:199
-msgctxt "X-KDE-Keywords"
-msgid "SMB,SAMBA,Windows network,LAN,System Information"
-msgstr ""
-
-#: Modules/usbview/kcmusb.desktop:12
+#: Modules/usbview/kcmusb.json
 msgctxt "Name"
 msgid "USB Devices"
 msgstr "యూ ఎస్ బి పరికరాలు"
 
-#: Modules/usbview/kcmusb.desktop:106
-msgctxt "Comment"
-msgid "USB devices attached to this computer"
-msgstr "ఈ కంప్యూటర్‌కు అనుసంధానించబడివున్న USB పరికరములు"
-
-#: Modules/usbview/kcmusb.desktop:191
-msgctxt "X-KDE-Keywords"
-msgid "USB,devices,viewer,control"
-msgstr ""
-
-#: Modules/vulkan/kcm_vulkan.desktop:15
+#: Modules/vulkan/kcm_vulkan.json
 msgctxt "Name"
 msgid "Vulkan"
 msgstr ""
 
-#: Modules/vulkan/kcm_vulkan.desktop:42
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Processor Information"
-msgctxt "Comment"
-msgid "Vulkan graphics API information"
-msgstr "ప్రాసెసర్ సమాచారం"
-
-#: Modules/vulkan/kcm_vulkan.desktop:69
-msgctxt "X-KDE-Keywords"
-msgid "Vulkan,VideoCard,Hardware Acceleration,Graphics"
-msgstr ""
-
-#: Modules/wayland/kcm_wayland.desktop:15
+#: Modules/wayland/kcm_wayland.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Thailand"
@@ -293,51 +97,186 @@ msgctxt "Name"
 msgid "Wayland"
 msgstr "థాయిలండ్"
 
-#: Modules/wayland/kcm_wayland.desktop:64
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Info about files and directories for Plasmoids"
-msgctxt "Comment"
-msgid "Information about the Wayland Compositor"
-msgstr "Plasmoids కొరకు ఫైళ్ళు మరియు సంచయంల గురించి సమాచారం"
-
-#: Modules/wayland/kcm_wayland.desktop:113
-msgctxt "X-KDE-Keywords"
-msgid "Wayland,Compositor,Display,System Information"
-msgstr ""
-
-#: Modules/xserver/kcm_xserver.desktop:15
+#: Modules/xserver/kcm_xserver.json
 msgctxt "Name"
 msgid "X-Server"
 msgstr "ఎక్స్-సెర్వర్"
 
-#: Modules/xserver/kcm_xserver.desktop:109
-msgctxt "Comment"
+#: Modules/about-distro/src/about-distro.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Info about files and directories for Plasmoids"
+msgctxt "Description"
+msgid "Information About This System"
+msgstr "Plasmoids కొరకు ఫైళ్ళు మరియు సంచయంల గురించి సమాచారం"
+
+#: Modules/cpu/kcm_cpu.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Information"
+msgctxt "Description"
+msgid "Advanced CPU Information"
+msgstr "సమాచారం"
+
+#: Modules/devinfo/devinfo.json
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Picture Viewer"
+msgctxt "Description"
+msgid "Device Viewer"
+msgstr "చిత్ర వీక్షిణి"
+
+#: Modules/egl/kcm_egl.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "OpenGL information"
+msgctxt "Description"
+msgid "EGL information"
+msgstr "ఓపెన్ జిఎల్ సమాచారం"
+
+#: Modules/energy/kcm_energyinfo.json
+msgctxt "Description"
+msgid "Energy Consumption Statistics"
+msgstr ""
+
+#: Modules/glx/kcm_glx.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "OpenGL information"
+msgctxt "Description"
+msgid "GLX information"
+msgstr "ఓపెన్ జిఎల్ సమాచారం"
+
+#: Modules/interrupts/kcm_interrupts.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Interrupt information"
+msgctxt "Description"
+msgid "Interrupt information"
+msgstr "ఇంటెరప్ట్ సమాచారం"
+
+#: Modules/nics/kcm_nic.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Network interface information"
+msgctxt "Description"
+msgid "Network interface information"
+msgstr "నెట్వర్క్ ఇంటర్ ఫెస్ సమాచారం"
+
+#: Modules/pci/kcm_pci.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "PCI information"
+msgctxt "Description"
+msgid "PCI information"
+msgstr "పి సి ఐ సమాచారం"
+
+#: Modules/samba/smbstatus.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Samba status monitor"
+msgctxt "Description"
+msgid "Samba status monitor"
+msgstr "సాంబా స్థితి మానిటర్"
+
+#: Modules/usbview/kcmusb.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "USB devices attached to this computer"
+msgctxt "Description"
+msgid "USB devices attached to this computer"
+msgstr "ఈ కంప్యూటర్‌కు అనుసంధానించబడివున్న USB పరికరములు"
+
+#: Modules/vulkan/kcm_vulkan.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Processor Information"
+msgctxt "Description"
+msgid "Vulkan graphics API information"
+msgstr "ప్రాసెసర్ సమాచారం"
+
+#: Modules/wayland/kcm_wayland.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Info about files and directories for Plasmoids"
+msgctxt "Description"
+msgid "Information about the Wayland Compositor"
+msgstr "Plasmoids కొరకు ఫైళ్ళు మరియు సంచయంల గురించి సమాచారం"
+
+#: Modules/xserver/kcm_xserver.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "X-Server information"
+msgctxt "Description"
 msgid "X-Server information"
 msgstr "ఎక్స్-సెర్వర్ సమాచారం"
 
-#: Modules/xserver/kcm_xserver.desktop:202
-msgctxt "X-KDE-Keywords"
-msgid "X,X-Server,XServer,XFree86,Display,VideoCard,System Information"
-msgstr ""
-
-#: org.kde.kinfocenter.desktop:9
 #, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Info Center"
-msgctxt "Name"
-msgid "Info Center"
-msgstr "సమాచార కేంద్రం"
+#~| msgctxt "Name"
+#~| msgid "Information"
+#~ msgctxt "Name"
+#~ msgid "Basic Information"
+#~ msgstr "సమాచారం"
 
-#: org.kde.kinfocenter.desktop:55
-msgctxt "GenericName"
-msgid "Info Center"
-msgstr "సమాచార కేంద్రం"
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Information"
+#~ msgctxt "Name"
+#~ msgid "Detailed Information"
+#~ msgstr "సమాచారం"
 
-#: org.kde.kinfocenter.desktop:147
-msgctxt "Comment"
-msgid "Centralized and convenient overview of system information"
-msgstr ""
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "USB Devices"
+#~ msgctxt "Name"
+#~ msgid "Devices"
+#~ msgstr "యూ ఎస్ బి పరికరాలు"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "KInfoCenter"
+#~ msgctxt "Name"
+#~ msgid "KInfoCenter Category"
+#~ msgstr "కెఇన్ఫొసెంటర్"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Lost & Found"
+#~ msgctxt "Name"
+#~ msgid "Lost And Found"
+#~ msgstr "పోయినవి & దొరికినవి"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "PCI information"
+#~ msgctxt "Name"
+#~ msgid "Information"
+#~ msgstr "పి సి ఐ సమాచారం"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Picture Viewer"
+#~ msgctxt "Comment"
+#~ msgid "Device Viewer"
+#~ msgstr "చిత్ర వీక్షిణి"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Interrupt information"
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "Interrupts,IRQ,System Information"
+#~ msgstr "ఇంటెరప్ట్ సమాచారం"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Info Center"
+#~ msgctxt "Name"
+#~ msgid "Info Center"
+#~ msgstr "సమాచార కేంద్రం"
+
+#~ msgctxt "GenericName"
+#~ msgid "Info Center"
+#~ msgstr "సమాచార కేంద్రం"
 
 #, fuzzy
 #~| msgctxt "Comment"
