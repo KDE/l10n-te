@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-02 00:46+0000\n"
+"POT-Creation-Date: 2021-12-03 00:46+0000\n"
 "PO-Revision-Date: 2020-03-27 00:52+0530\n"
 "Last-Translator: Sripath Roy Koganti <sripathroy@swecha.net>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -376,7 +376,7 @@ msgstr "గలని:"
 #| msgctxt "@action:inmenu Tools"
 #| msgid "Show Filter Bar"
 msgctxt "@info:tooltip"
-msgid "Toggle Filter Bar"
+msgid "Show Filter Bar"
 msgstr "ఫిల్టర్ బార్‌ను చూపుము"
 
 #: dolphinmainwindow.cpp:1484
@@ -1369,34 +1369,34 @@ msgstr ""
 msgid "Running Dolphin as root can be dangerous. Please be careful."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:446 search/dolphinsearchbox.cpp:292
+#: dolphinviewcontainer.cpp:452 search/dolphinsearchbox.cpp:292
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Main Toolbar"
 msgid "Search for %1 in %2"
 msgstr "మెయిన్ పనిముట్లపట్టీ"
 
-#: dolphinviewcontainer.cpp:482
+#: dolphinviewcontainer.cpp:488
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Main Toolbar"
 msgid "Search"
 msgstr "మెయిన్ పనిముట్లపట్టీ"
 
-#: dolphinviewcontainer.cpp:484
+#: dolphinviewcontainer.cpp:490
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Main Toolbar"
 msgid "Search for %1"
 msgstr "మెయిన్ పనిముట్లపట్టీ"
 
-#: dolphinviewcontainer.cpp:568
+#: dolphinviewcontainer.cpp:574
 #, kde-format
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "ఫోల్డరును లోడుచేస్తోంది..."
 
-#: dolphinviewcontainer.cpp:576
+#: dolphinviewcontainer.cpp:582
 #, fuzzy, kde-format
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -1404,25 +1404,25 @@ msgctxt "@info:progress"
 msgid "Sorting..."
 msgstr "వరుసక్రమము:"
 
-#: dolphinviewcontainer.cpp:587
+#: dolphinviewcontainer.cpp:593
 #, kde-format
 msgctxt "@info"
 msgid "Searching..."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:608
+#: dolphinviewcontainer.cpp:614
 #, kde-format
 msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:719
+#: dolphinviewcontainer.cpp:725
 #, kde-format
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "డాల్ఫన్ వెబ్ పేజీలను మద్దతీయదు, వెబ్ "
 
-#: dolphinviewcontainer.cpp:723
+#: dolphinviewcontainer.cpp:729
 #, fuzzy, kde-format
 #| msgctxt "@info:status"
 #| msgid "Protocol not supported by Dolphin, Konqueror has been launched"
@@ -1431,7 +1431,7 @@ msgid ""
 "Protocol not supported by Dolphin, default application has been launched"
 msgstr "ప్రోటోకాల్ డాల్ఫిన్ చేత మద్దతీయబడదు, కాన్క్వెరర్ ప్రారంభించబడింది"
 
-#: dolphinviewcontainer.cpp:730
+#: dolphinviewcontainer.cpp:736
 #, kde-format
 msgctxt "@info:status"
 msgid "Invalid protocol"
@@ -5163,6 +5163,13 @@ msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "అదనపు సమాచారము"
 
+#, fuzzy
+#~| msgctxt "@action:inmenu Tools"
+#~| msgid "Show Filter Bar"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Toggle Filter Bar"
+#~ msgstr "ఫిల్టర్ బార్‌ను చూపుము"
+
 #~ msgctxt "@title:window"
 #~ msgid "Dolphin Preferences"
 #~ msgstr "డాల్ఫిన్ అభీష్టాలు"
@@ -5181,10 +5188,6 @@ msgstr "అదనపు సమాచారము"
 #~ msgctxt "@title"
 #~ msgid "Dolphin Part"
 #~ msgstr "డాల్ఫిన్ పార్టు"
-
-#~ msgctxt "@action:inmenu Tools"
-#~ msgid "Show Filter Bar"
-#~ msgstr "ఫిల్టర్ బార్‌ను చూపుము"
 
 #, fuzzy
 #~| msgctxt "@title:menu"
