@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-26 00:24+0000\n"
+"POT-Creation-Date: 2021-12-18 00:40+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -85,12 +85,41 @@ msgid ""
 "Please choose another one."
 msgstr ""
 
-#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:171
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:142
+#, kde-format
+msgid "Global Shortcut Shadowing"
+msgstr ""
+
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:145
+#, fuzzy, kde-format
+#| msgid ""
+#| "The '%1' key combination is registered by application %2 for action %3:"
+msgid "The '%1' key combination is shadowed by following global actions:\n"
+msgstr "'%1' కీ సమ్మేళనం అనువర్తనము %2 ద్వారా చర్య %3 కొరకు నమోదు కాబడింది:"
+
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:147
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:153
+#, fuzzy, kde-format
+#| msgid "In context '%1' for action '%2'\n"
+msgid "Action '%1' in context '%2'\n"
+msgstr "సందర్భం '%1' నందు చర్య '%2' కొరకు\n"
+
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:151
+#, fuzzy, kde-format
+#| msgid ""
+#| "The '%1' key combination is registered by application %2.\n"
+#| "%3"
+msgid "The '%1' key combination shadows following global actions:\n"
+msgstr ""
+"'%1' కీ సమ్మేళనము అనువర్తనము %2 చేత నమోదు కాబడింది.\n"
+"%3"
+
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:190
 #, kde-format
 msgid "Conflict with Standard Application Shortcut"
 msgstr "ప్రామాణిక కార్యక్రమ శీఘ్రమార్గంతొ ఘర్షణ"
 
-#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:173
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:192
 #, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -98,7 +127,7 @@ msgid ""
 "Do you really want to use it as a global shortcut as well?"
 msgstr ""
 
-#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:179
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:198
 #, kde-format
 msgid "Reassign"
 msgstr "మళ్లి నియమించు"
@@ -4561,20 +4590,6 @@ msgstr ""
 #~ msgstr ""
 #~ "'%1' కీ సమ్మేళనం సార్వత్రిక చర్య \"%2\"కు యిప్పటికే %3నందు కేటాయించబడింది.\n"
 #~ "మీరు దానిని ఆ చర్యనుండి ప్రస్తుత దానికి తిరిగి అప్పగించాలని అనుకొనుచున్నారా?"
-
-#~ msgid ""
-#~ "The '%1' key combination is registered by application %2 for action %3:"
-#~ msgstr "'%1' కీ సమ్మేళనం అనువర్తనము %2 ద్వారా చర్య %3 కొరకు నమోదు కాబడింది:"
-
-#~ msgid "In context '%1' for action '%2'\n"
-#~ msgstr "సందర్భం '%1' నందు చర్య '%2' కొరకు\n"
-
-#~ msgid ""
-#~ "The '%1' key combination is registered by application %2.\n"
-#~ "%3"
-#~ msgstr ""
-#~ "'%1' కీ సమ్మేళనము అనువర్తనము %2 చేత నమోదు కాబడింది.\n"
-#~ "%3"
 
 #~ msgid "Conflict With Registered Global Shortcut"
 #~ msgstr "నియంత్రిత వసుదైక శీఘ్రమార్గంతొ ఘర్షణ"
