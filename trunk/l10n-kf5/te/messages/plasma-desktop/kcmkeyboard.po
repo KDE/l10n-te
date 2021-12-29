@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-07 00:45+0000\n"
+"POT-Creation-Date: 2021-12-29 00:50+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -293,33 +293,33 @@ msgstr ""
 msgid "Advanced"
 msgstr "ఆధునాతన"
 
-#. i18n: ectx: property (text), widget (QCheckBox, configureKeyboardOptionsChk)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_resetOldXkbOptions)
 #: kcm_keyboard.ui:418
 #, fuzzy, kde-format
 #| msgid "&Enable keyboard repeat"
 msgid "&Configure keyboard options"
 msgstr "(&E) కీబోర్డు పునరావృతమును చేతనము చేయుము"
 
-#: kcm_keyboard_widget.cpp:210
+#: kcm_keyboard_widget.cpp:208
 #, kde-format
 msgctxt "unknown keyboard model vendor"
 msgid "Unknown"
 msgstr ""
 
-#: kcm_keyboard_widget.cpp:212
+#: kcm_keyboard_widget.cpp:210
 #, kde-format
 msgctxt "vendor | keyboard model"
 msgid "%1 | %2"
 msgstr ""
 
-#: kcm_keyboard_widget.cpp:637
+#: kcm_keyboard_widget.cpp:640
 #, fuzzy, kde-format
 #| msgid "None"
 msgctxt "no shortcuts defined"
 msgid "None"
 msgstr "ఏదీకాదు"
 
-#: kcm_keyboard_widget.cpp:651
+#: kcm_keyboard_widget.cpp:654
 #, kde-format
 msgid "%1 shortcut"
 msgid_plural "%1 shortcuts"
