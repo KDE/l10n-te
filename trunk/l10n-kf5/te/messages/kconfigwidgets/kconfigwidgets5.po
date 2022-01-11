@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-26 00:40+0000\n"
+"POT-Creation-Date: 2022-01-11 00:41+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -83,7 +83,7 @@ msgctxt "@title:window"
 msgid "Configure"
 msgstr "అమర్చు"
 
-#: khamburgermenu.cpp:126
+#: khamburgermenu.cpp:128
 #, fuzzy, kde-format
 #| msgctxt "keyboard-key-name"
 #| msgid "Menu"
@@ -91,23 +91,30 @@ msgctxt "@action:inmenu General purpose menu"
 msgid "&Menu"
 msgstr "పట్టీ"
 
-#: khamburgermenu.cpp:342
+#: khamburgermenu.cpp:334
 #, fuzzy, kde-format
-#| msgid "Shortcut '%1' for action '%2'\n"
-msgctxt "@action:inmenu A menu text advertising its contents (more features)."
-msgid "For %1 more action:"
-msgid_plural "For %1 more actions:"
-msgstr[0] "చర్య '%1'కొరకు శీఘ్రమార్గము(లు) '%2'\n"
-msgstr[1] "చర్య '%1'కొరకు శీఘ్రమార్గము(లు) '%2'\n"
+#| msgid "Show all options"
+msgctxt "@action:inmenu A menu item that advertises and enables the menubar"
+msgid "Show &Menubar with All Actions"
+msgstr "అన్ని ఐచ్చికములు చూపుము"
 
-#: khamburgermenu.cpp:345
-#, kde-format
+#: khamburgermenu.cpp:362
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@option:check An item in a list of resources that allows to query for "
+#| "more resources to put in the list"
+#| msgid "More..."
+msgctxt "@action:inmenu A menu text advertising its contents (more features)."
+msgid "More"
+msgstr "చాలా....."
+
+#: khamburgermenu.cpp:363
+#, fuzzy, kde-format
+#| msgid "More Actions"
 msgctxt ""
 "@action:inmenu A section heading advertising the contents of the menu bar"
-msgid "%1 Menu Bar Exclusive Action"
-msgid_plural "%1 Menu Bar Exclusive Actions"
-msgstr[0] ""
-msgstr[1] ""
+msgid "More Actions"
+msgstr "మరిన్ని చర్యలు"
 
 #: krecentfilesaction.cpp:68
 #, kde-format
@@ -598,6 +605,15 @@ msgstr "(&P) ముందు"
 msgctxt "@action:button Goes to next tip, opposite to previous"
 msgid "&Next"
 msgstr "(&N) తరువాత"
+
+#, fuzzy
+#~| msgid "Shortcut '%1' for action '%2'\n"
+#~ msgctxt ""
+#~ "@action:inmenu A menu text advertising its contents (more features)."
+#~ msgid "For %1 more action:"
+#~ msgid_plural "For %1 more actions:"
+#~ msgstr[0] "చర్య '%1'కొరకు శీఘ్రమార్గము(లు) '%2'\n"
+#~ msgstr[1] "చర్య '%1'కొరకు శీఘ్రమార్గము(లు) '%2'\n"
 
 #~ msgid "Switch Application &Language..."
 #~ msgstr "(&L) అనువర్తనము భాషను మార్చు..."
@@ -1808,9 +1824,6 @@ msgstr "(&N) తరువాత"
 
 #~ msgid "Show %1 specific options"
 #~ msgstr "%1 విశెష ఐచ్ఛికములు చూపుము"
-
-#~ msgid "Show all options"
-#~ msgstr "అన్ని ఐచ్చికములు చూపుము"
 
 #~ msgid "Show author information"
 #~ msgstr "మూలకర్త సమాచారం చూపుము"
@@ -3917,9 +3930,6 @@ msgstr "(&N) తరువాత"
 
 #~ msgid "New..."
 #~ msgstr "కొత్త..."
-
-#~ msgid "More Actions"
-#~ msgstr "మరిన్ని చర్యలు"
 
 #~ msgid "Save as Scheme Defaults"
 #~ msgstr "స్కీమా అప్రమేయాలలా భద్రపరచుము"
@@ -9276,12 +9286,6 @@ msgstr "(&N) తరువాత"
 
 #~ msgid "After"
 #~ msgstr "తరువా"
-
-#~ msgctxt ""
-#~ "@option:check An item in a list of resources that allows to query for "
-#~ "more resources to put in the list"
-#~ msgid "More..."
-#~ msgstr "చాలా....."
 
 #~ msgctxt "@option:check A filter on file type"
 #~ msgid "Documents"
