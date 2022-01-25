@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-19 00:47+0000\n"
+"POT-Creation-Date: 2022-01-25 00:47+0000\n"
 "PO-Revision-Date: 2007-03-09 14:17+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -340,34 +340,34 @@ msgstr ""
 msgid "Reopening files from the last session..."
 msgstr ""
 
-#: katefileactions.cpp:64
+#: katefileactions.cpp:65
 #, kde-format
 msgid "Rename file"
 msgstr ""
 
-#: katefileactions.cpp:65
+#: katefileactions.cpp:66
 #, fuzzy, kde-format
 #| msgid "Filename"
 msgid "New file name"
 msgstr "దస్త్రం పేరు"
 
-#: katefileactions.cpp:96
+#: katefileactions.cpp:97
 #, kde-format
 msgid "File \"%1\" could not be moved to \"%2\""
 msgstr ""
 
-#: katefileactions.cpp:117
+#: katefileactions.cpp:118
 #, kde-format
 msgid "Do you really want to delete file \"%1\"?"
 msgstr ""
 
-#: katefileactions.cpp:118
+#: katefileactions.cpp:119
 #, fuzzy, kde-format
 #| msgid "Deleted"
 msgid "Delete file"
 msgstr "తీసివేసిన"
 
-#: katefileactions.cpp:135
+#: katefileactions.cpp:136
 #, kde-format
 msgid "File \"%1\" could not be deleted."
 msgstr ""
@@ -796,49 +796,49 @@ msgid ""
 "with the assigned shortcuts.</qt>"
 msgstr ""
 
-#: katemwmodonhddialog.cpp:59
+#: katemwmodonhddialog.cpp:61
 #, kde-format
 msgid "Documents Modified on Disk"
 msgstr ""
 
-#: katemwmodonhddialog.cpp:75
+#: katemwmodonhddialog.cpp:77
 #, kde-format
 msgid ""
 "<qt>The documents listed below have changed on disk.<p>Select one or more at "
 "once, and press an action button until the list is empty.</p></qt>"
 msgstr ""
 
-#: katemwmodonhddialog.cpp:85
+#: katemwmodonhddialog.cpp:87
 #, kde-format
 msgid "Filename"
 msgstr "దస్త్రం పేరు"
 
-#: katemwmodonhddialog.cpp:85
+#: katemwmodonhddialog.cpp:87
 #, kde-format
 msgid "Status on Disk"
 msgstr ""
 
-#: katemwmodonhddialog.cpp:90
+#: katemwmodonhddialog.cpp:92
 #, kde-format
 msgid "Modified"
 msgstr "మార్చిన"
 
-#: katemwmodonhddialog.cpp:90
+#: katemwmodonhddialog.cpp:92
 #, kde-format
 msgid "Created"
 msgstr "సృష్టించిన"
 
-#: katemwmodonhddialog.cpp:90
+#: katemwmodonhddialog.cpp:92
 #, kde-format
 msgid "Deleted"
 msgstr "తీసివేసిన"
 
-#: katemwmodonhddialog.cpp:105
+#: katemwmodonhddialog.cpp:107
 #, kde-format
 msgid "&View Difference"
 msgstr ""
 
-#: katemwmodonhddialog.cpp:107
+#: katemwmodonhddialog.cpp:109
 #, kde-format
 msgid ""
 "Calculates the difference between the editor contents and the disk file for "
@@ -846,33 +846,33 @@ msgid ""
 "application. Requires diff(1)."
 msgstr ""
 
-#: katemwmodonhddialog.cpp:117
+#: katemwmodonhddialog.cpp:120
 #, kde-format
 msgid "&Ignore Changes"
 msgstr ""
 
-#: katemwmodonhddialog.cpp:118
+#: katemwmodonhddialog.cpp:121
 #, kde-format
 msgid "Remove modified flag from selected documents"
 msgstr ""
 
-#: katemwmodonhddialog.cpp:124
+#: katemwmodonhddialog.cpp:127
 #, kde-format
 msgid "Overwrite selected documents, discarding disk changes"
 msgstr ""
 
-#: katemwmodonhddialog.cpp:128
+#: katemwmodonhddialog.cpp:131
 #, kde-format
 msgid "&Reload"
 msgstr ""
 
-#: katemwmodonhddialog.cpp:130
+#: katemwmodonhddialog.cpp:133
 #, fuzzy, kde-format
 #| msgid "Close all open documents."
 msgid "Reload selected documents from disk"
 msgstr "అన్నీ తెరిచిన పత్రాలని మూయండి"
 
-#: katemwmodonhddialog.cpp:196
+#: katemwmodonhddialog.cpp:199
 #, kde-format
 msgid ""
 "Could not save the document \n"
@@ -881,24 +881,24 @@ msgstr ""
 "%1\n"
 "పత్రాన్ని దాచలేక పోయాను"
 
-#: katemwmodonhddialog.cpp:328
+#: katemwmodonhddialog.cpp:332
 #, kde-format
 msgid ""
 "The diff command failed. Please make sure that diff(1) is installed and in "
 "your PATH."
 msgstr ""
 
-#: katemwmodonhddialog.cpp:330
+#: katemwmodonhddialog.cpp:334
 #, kde-format
 msgid "Error Creating Diff"
 msgstr ""
 
-#: katemwmodonhddialog.cpp:337
+#: katemwmodonhddialog.cpp:341
 #, kde-format
 msgid "Ignoring amount of white space changed, the files are identical."
 msgstr ""
 
-#: katemwmodonhddialog.cpp:337
+#: katemwmodonhddialog.cpp:341
 #, kde-format
 msgid "Diff Output"
 msgstr ""
@@ -1191,12 +1191,12 @@ msgstr "అన్నీ తెరిచిన పత్రాలని మూయ
 msgid "Compare with active document"
 msgstr "ఉన్న పత్రాన్ని ని మూయండి"
 
-#: kateviewspace.cpp:738
+#: kateviewspace.cpp:741
 #, kde-format
 msgid "Could not start program"
 msgstr ""
 
-#: kateviewspace.cpp:739
+#: kateviewspace.cpp:742
 #, kde-format
 msgid "The selected program could not be started. Maybe it is not installed."
 msgstr ""
