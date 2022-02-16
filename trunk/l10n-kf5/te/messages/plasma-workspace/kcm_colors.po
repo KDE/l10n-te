@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-13 00:45+0000\n"
+"POT-Creation-Date: 2022-02-16 00:47+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -888,39 +888,53 @@ msgstr "(&e) క్రియాహీన విండో రంగు ప్ర�
 msgid "Use different colors for in&active selections"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, shadeSortedColumn)
+#. i18n: ectx: property (text), widget (QCheckBox, accentActiveTitlebar)
 #: editor/scmeditoroptions.ui:31
+#, fuzzy, kde-format
+#| msgid "Apply inactive window color &effects"
+msgid "Apply a&ccent color to active window titlebars"
+msgstr "(&e) క్రియాహీన విండో రంగు ప్రభావాలను ఆపాదించుము"
+
+#. i18n: ectx: property (text), widget (QCheckBox, accentInactiveTitlebar)
+#: editor/scmeditoroptions.ui:38
+#, fuzzy, kde-format
+#| msgid "Apply inactive window color &effects"
+msgid "Apply acce&nt color to inactive window titlebars"
+msgstr "(&e) క్రియాహీన విండో రంగు ప్రభావాలను ఆపాదించుము"
+
+#. i18n: ectx: property (text), widget (QCheckBox, shadeSortedColumn)
+#: editor/scmeditoroptions.ui:45
 #, kde-format
 msgid "Shade sorted column &in lists"
 msgstr "(&i) జాబితాల నందు వరుసక్రమ నిలువువరుసను షేడ్ చేయుము"
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox_5)
-#: editor/scmeditoroptions.ui:38
+#: editor/scmeditoroptions.ui:52
 #, kde-format
 msgid "Shading of frames and lighting (\"3D\") effects"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
-#: editor/scmeditoroptions.ui:41
+#: editor/scmeditoroptions.ui:55
 #, fuzzy, kde-format
 #| msgid "Shade"
 msgid "Shading"
 msgstr "ఛాయ(షేడ్)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: editor/scmeditoroptions.ui:53
+#: editor/scmeditoroptions.ui:67
 #, kde-format
 msgid "Minimum"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: editor/scmeditoroptions.ui:73
+#: editor/scmeditoroptions.ui:87
 #, kde-format
 msgid "Maximum"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: editor/scmeditoroptions.ui:80
+#: editor/scmeditoroptions.ui:94
 #, kde-format
 msgid "Contrast"
 msgstr "కాంట్రాస్ట్"
@@ -1220,92 +1234,92 @@ msgstr ""
 msgid "Choose custom accent color"
 msgstr ""
 
-#: package/contents/ui/main.qml:325
+#: package/contents/ui/main.qml:324
 #, fuzzy, kde-format
 #| msgid "Window Text"
 msgid "Window Title"
 msgstr "విండో వచనము"
 
-#: package/contents/ui/main.qml:347
+#: package/contents/ui/main.qml:346
 #, fuzzy, kde-format
 #| msgid "Window text"
 msgid "Window text"
 msgstr "విండో వచనము"
 
-#: package/contents/ui/main.qml:354
+#: package/contents/ui/main.qml:353
 #, fuzzy, kde-format
 #| msgid "Button"
 msgid "Button"
 msgstr "బటన్"
 
-#: package/contents/ui/main.qml:388
+#: package/contents/ui/main.qml:387
 #, fuzzy, kde-format
 #| msgid "link"
 msgctxt "Hyperlink"
 msgid "link"
 msgstr "లింకు"
 
-#: package/contents/ui/main.qml:390
+#: package/contents/ui/main.qml:389
 #, fuzzy, kde-format
 #| msgid "visited"
 msgctxt "Visited hyperlink"
 msgid "visited"
 msgstr "వీక్షించిన"
 
-#: package/contents/ui/main.qml:397
+#: package/contents/ui/main.qml:396
 #, fuzzy, kde-format
 #| msgid "Normal text"
 msgid "Normal text"
 msgstr "సాదారణ వచనము"
 
-#: package/contents/ui/main.qml:405
+#: package/contents/ui/main.qml:404
 #, fuzzy, kde-format
 #| msgid "Visited Text"
 msgid "Highlighted text"
 msgstr "వీక్షించిన వచనము"
 
-#: package/contents/ui/main.qml:412
+#: package/contents/ui/main.qml:411
 #, fuzzy, kde-format
 #| msgid "Disabled"
 msgid "Disabled text"
 msgstr "అచేతనమైన"
 
-#: package/contents/ui/main.qml:430
+#: package/contents/ui/main.qml:429
 #, fuzzy, kde-format
 #| msgid "Import Scheme..."
 msgid "Edit Color Scheme…"
 msgstr "స్కీమాను దిగుమతి చేయుము..."
 
-#: package/contents/ui/main.qml:436
+#: package/contents/ui/main.qml:435
 #, fuzzy, kde-format
 #| msgid "Save Color Scheme"
 msgid "Remove Color Scheme"
 msgstr "రంగు స్కీమాను దాయుము"
 
-#: package/contents/ui/main.qml:443
+#: package/contents/ui/main.qml:442
 #, fuzzy, kde-format
 #| msgid "Import Color Scheme"
 msgid "Restore Color Scheme"
 msgstr "రంగు స్కీమాను దిగుమతిచేయుము"
 
-#: package/contents/ui/main.qml:487
+#: package/contents/ui/main.qml:486
 #, kde-format
 msgid "Install from File…"
 msgstr ""
 
-#: package/contents/ui/main.qml:492
+#: package/contents/ui/main.qml:491
 #, fuzzy, kde-format
 #| msgid "Get &New Schemes..."
 msgid "Get New Color Schemes…"
 msgstr "(&N) కొత్త స్కీమాలను పొందుము..."
 
-#: package/contents/ui/main.qml:510
+#: package/contents/ui/main.qml:509
 #, fuzzy, kde-format
 #| msgid "Save Color Scheme"
 msgid "Open Color Scheme"
 msgstr "రంగు స్కీమాను దాయుము"
 
-#: package/contents/ui/main.qml:512
+#: package/contents/ui/main.qml:511
 #, kde-format
 msgid "Color Scheme Files (*.colors)"
 msgstr ""
