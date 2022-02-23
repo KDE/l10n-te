@@ -2818,6 +2818,13 @@ msgid "Launch the MIME type editor"
 msgstr ""
 
 #: kmimetypeeditor.cpp:27
+#, fuzzy
+#| msgid "Could not find '%1' executable."
+msgctxt "QObject|"
+msgid "Could not find the \"keditfiletype5\" executable in PATH."
+msgstr "'%1' కార్యక్రమం కనపడలేదు"
+
+#: kmimetypeeditor.cpp:37
 msgctxt "QObject|"
 msgid ""
 "Could not start the \"keditfiletype5\" executable, please check your "
@@ -9591,9 +9598,6 @@ msgstr "గవాక్షమును పూర్తి తెర లొ చ�
 
 #~ msgid "XML parsing error"
 #~ msgstr "ఎక్స్ఎంఎల్ అన్వయ దోషం"
-
-#~ msgid "Could not find '%1' executable."
-#~ msgstr "'%1' కార్యక్రమం కనపడలేదు"
 
 #~ msgid ""
 #~ "Could not open library '%1'.\n"
