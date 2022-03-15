@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-06 00:47+0000\n"
+"POT-Creation-Date: 2022-03-15 00:46+0000\n"
 "PO-Revision-Date: 2007-03-09 14:17+0530\n"
 "Last-Translator: pavithran <pavithran.s@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
@@ -42,45 +42,51 @@ msgstr "దస్త్రాలు:"
 msgid "&Edit"
 msgstr ""
 
+#. i18n: ectx: Menu (edit_goto)
+#: data/kateui.rc:49
+#, kde-format
+msgid "Go To"
+msgstr ""
+
 #. i18n: ectx: Menu (view)
-#: data/kateui.rc:51
+#: data/kateui.rc:57
 #, kde-format
 msgid "&View"
 msgstr ""
 
 #. i18n: ectx: Menu (view-split)
-#: data/kateui.rc:64
+#: data/kateui.rc:70
 #, fuzzy, kde-format
 #| msgid "Split Ve&rtical"
 msgid "Split View"
 msgstr "(&r) నిలువుగా విడగొట్టు"
 
 #. i18n: ectx: Menu (tools)
-#: data/kateui.rc:91
+#: data/kateui.rc:97
 #, kde-format
 msgid "&Tools"
 msgstr ""
 
 #. i18n: ectx: Menu (sessions)
-#: data/kateui.rc:99
+#: data/kateui.rc:105
 #, kde-format
 msgid "Sess&ions"
 msgstr "(&i) సెషన్లు"
 
 #. i18n: ectx: Menu (settings)
-#: data/kateui.rc:108
+#: data/kateui.rc:114
 #, kde-format
 msgid "&Settings"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: data/kateui.rc:116
+#: data/kateui.rc:122
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""
 
 #. i18n: ectx: Menu (viewspace_popup_statusbar)
-#: data/kateui.rc:149
+#: data/kateui.rc:155
 #, kde-format
 msgid "&Status Bar Items"
 msgstr ""
@@ -700,12 +706,12 @@ msgstr "కొత్త సెషన్"
 
 #: katemainwindow.cpp:475
 #, kde-format
-msgid "Go back"
+msgid "Go to Previous Location"
 msgstr ""
 
 #: katemainwindow.cpp:483
 #, kde-format
-msgid "Go forward"
+msgid "Go to Next Location"
 msgstr ""
 
 #: katemainwindow.cpp:494
