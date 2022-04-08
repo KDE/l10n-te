@@ -2205,85 +2205,7 @@ msgctxt "KColorCombo|@item:inlistbox Custom color"
 msgid "Custom..."
 msgstr "నిర్దేశితమైన..."
 
-#: kdatecombobox.cpp:153
-#, fuzzy
-#| msgctxt "@option next year"
-#| msgid "Next Year"
-msgctxt "KDateComboBox|@option next year"
-msgid "Next Year"
-msgstr "వచ్చే  సంవత్సరము"
-
-#: kdatecombobox.cpp:154
-#, fuzzy
-#| msgctxt "@option next month"
-#| msgid "Next Month"
-msgctxt "KDateComboBox|@option next month"
-msgid "Next Month"
-msgstr "వచ్చే  నెల"
-
-#: kdatecombobox.cpp:155
-#, fuzzy
-#| msgctxt "@option next week"
-#| msgid "Next Week"
-msgctxt "KDateComboBox|@option next week"
-msgid "Next Week"
-msgstr "వచ్చే వార"
-
-#: kdatecombobox.cpp:156
-#, fuzzy
-#| msgctxt "@option tomorrow"
-#| msgid "Tomorrow"
-msgctxt "KDateComboBox|@option tomorrow"
-msgid "Tomorrow"
-msgstr "మరుసటిరో"
-
-#: kdatecombobox.cpp:157
-#, fuzzy
-#| msgid "Today"
-msgctxt "KDateComboBox|@option today"
-msgid "Today"
-msgstr "ఈరొజు"
-
-#: kdatecombobox.cpp:158
-#, fuzzy
-#| msgid "Yesterday"
-msgctxt "KDateComboBox|@option yesterday"
-msgid "Yesterday"
-msgstr "నిన్న"
-
-#: kdatecombobox.cpp:159
-#, fuzzy
-#| msgctxt "@option last week"
-#| msgid "Last Week"
-msgctxt "KDateComboBox|@option last week"
-msgid "Last Week"
-msgstr "చివరి వార"
-
-#: kdatecombobox.cpp:160
-#, fuzzy
-#| msgctxt "@option last month"
-#| msgid "Last Month"
-msgctxt "KDateComboBox|@option last month"
-msgid "Last Month"
-msgstr "చివరి నె"
-
-#: kdatecombobox.cpp:161
-#, fuzzy
-#| msgctxt "@option last year"
-#| msgid "Last Year"
-msgctxt "KDateComboBox|@option last year"
-msgid "Last Year"
-msgstr "చివరి  సంవత్సరం "
-
-#: kdatecombobox.cpp:163
-#, fuzzy
-#| msgctxt "@option do not specify a date"
-#| msgid "No Date"
-msgctxt "KDateComboBox|@option do not specify a date"
-msgid "No Date"
-msgstr "తారీఖు లే"
-
-#: kdatecombobox.cpp:290
+#: kdatecombobox.cpp:190
 #, fuzzy
 #| msgctxt "@info"
 #| msgid "The date you entered is invalid"
@@ -2291,7 +2213,7 @@ msgctxt "KDateComboBox|@info"
 msgid "The date you entered is invalid"
 msgstr "మీరు ఇచ్చిన తేది సరి అయినది కాదు"
 
-#: kdatecombobox.cpp:293
+#: kdatecombobox.cpp:193
 #, fuzzy, qt-format
 #| msgctxt "@info"
 #| msgid "Date cannot be earlier than %1"
@@ -2299,7 +2221,7 @@ msgctxt "KDateComboBox|@info"
 msgid "Date cannot be earlier than %1"
 msgstr "మీరు ఇవ్వు తేదీ ముందుగా ఉండరాదు %1"
 
-#: kdatecombobox.cpp:300
+#: kdatecombobox.cpp:200
 #, fuzzy, qt-format
 #| msgctxt "@info"
 #| msgid "Date cannot be later than %1"
@@ -2376,6 +2298,84 @@ msgstr "నేటి తేదిని ఎంచుకొనుము"
 msgctxt "KDatePicker|@action:button"
 msgid "Close"
 msgstr "మూసివెయుము"
+
+#: kdatepickerpopup.cpp:96
+#, fuzzy
+#| msgctxt "@option next year"
+#| msgid "Next Year"
+msgctxt "KDatePickerPopup|@option next year"
+msgid "Next Year"
+msgstr "వచ్చే  సంవత్సరము"
+
+#: kdatepickerpopup.cpp:97
+#, fuzzy
+#| msgctxt "@option next month"
+#| msgid "Next Month"
+msgctxt "KDatePickerPopup|@option next month"
+msgid "Next Month"
+msgstr "వచ్చే  నెల"
+
+#: kdatepickerpopup.cpp:98
+#, fuzzy
+#| msgctxt "@option next week"
+#| msgid "Next Week"
+msgctxt "KDatePickerPopup|@option next week"
+msgid "Next Week"
+msgstr "వచ్చే వార"
+
+#: kdatepickerpopup.cpp:99
+#, fuzzy
+#| msgctxt "@option tomorrow"
+#| msgid "Tomorrow"
+msgctxt "KDatePickerPopup|@option tomorrow"
+msgid "Tomorrow"
+msgstr "మరుసటిరో"
+
+#: kdatepickerpopup.cpp:100
+#, fuzzy
+#| msgid "Today"
+msgctxt "KDatePickerPopup|@option today"
+msgid "Today"
+msgstr "ఈరొజు"
+
+#: kdatepickerpopup.cpp:101
+#, fuzzy
+#| msgid "Yesterday"
+msgctxt "KDatePickerPopup|@option yesterday"
+msgid "Yesterday"
+msgstr "నిన్న"
+
+#: kdatepickerpopup.cpp:102
+#, fuzzy
+#| msgctxt "@option last week"
+#| msgid "Last Week"
+msgctxt "KDatePickerPopup|@option last week"
+msgid "Last Week"
+msgstr "చివరి వార"
+
+#: kdatepickerpopup.cpp:103
+#, fuzzy
+#| msgctxt "@option last month"
+#| msgid "Last Month"
+msgctxt "KDatePickerPopup|@option last month"
+msgid "Last Month"
+msgstr "చివరి నె"
+
+#: kdatepickerpopup.cpp:104
+#, fuzzy
+#| msgctxt "@option last year"
+#| msgid "Last Year"
+msgctxt "KDatePickerPopup|@option last year"
+msgid "Last Year"
+msgstr "చివరి  సంవత్సరం "
+
+#: kdatepickerpopup.cpp:123
+#, fuzzy
+#| msgctxt "@option do not specify a date"
+#| msgid "No Date"
+msgctxt "KDatePickerPopup|@option do not specify a date"
+msgid "No Date"
+msgstr "తారీఖు లే"
 
 #: kdatetimeedit.cpp:171
 #, fuzzy
