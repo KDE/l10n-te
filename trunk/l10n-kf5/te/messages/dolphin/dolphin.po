@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-03 00:53+0000\n"
+"POT-Creation-Date: 2022-04-21 00:47+0000\n"
 "PO-Revision-Date: 2020-03-27 00:52+0530\n"
 "Last-Translator: Sripath Roy Koganti <sripathroy@swecha.net>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -1921,7 +1921,7 @@ msgid "Title"
 msgstr "శీర్షిక:"
 
 #: kitemviews/kfileitemmodel.cpp:2615 kitemviews/kfileitemmodel.cpp:2616
-#: kitemviews/kfileitemmodel.cpp:2617
+#: kitemviews/kfileitemmodel.cpp:2617 kitemviews/kfileitemmodel.cpp:2618
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -1931,32 +1931,37 @@ msgstr "పత్రికీకరణ"
 
 #: kitemviews/kfileitemmodel.cpp:2616
 msgctxt "@label"
-msgid "Word Count"
+msgid "Author"
 msgstr ""
 
 #: kitemviews/kfileitemmodel.cpp:2617
 msgctxt "@label"
-msgid "Line Count"
+msgid "Word Count"
 msgstr ""
 
 #: kitemviews/kfileitemmodel.cpp:2618
 msgctxt "@label"
+msgid "Line Count"
+msgstr ""
+
+#: kitemviews/kfileitemmodel.cpp:2619
+msgctxt "@label"
 msgid "Date Photographed"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:2618 kitemviews/kfileitemmodel.cpp:2619
-#: kitemviews/kfileitemmodel.cpp:2620 kitemviews/kfileitemmodel.cpp:2621
-#: kitemviews/kfileitemmodel.cpp:2622
+#: kitemviews/kfileitemmodel.cpp:2619 kitemviews/kfileitemmodel.cpp:2620
+#: kitemviews/kfileitemmodel.cpp:2621 kitemviews/kfileitemmodel.cpp:2622
+#: kitemviews/kfileitemmodel.cpp:2623
 msgctxt "@label"
 msgid "Image"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:2619
+#: kitemviews/kfileitemmodel.cpp:2620
 msgctxt "@label width x height"
 msgid "Dimensions"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:2620
+#: kitemviews/kfileitemmodel.cpp:2621
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Width:"
@@ -1964,12 +1969,12 @@ msgctxt "@label"
 msgid "Width"
 msgstr "వెడల్పు:"
 
-#: kitemviews/kfileitemmodel.cpp:2621
+#: kitemviews/kfileitemmodel.cpp:2622
 msgctxt "@label"
 msgid "Height"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:2622
+#: kitemviews/kfileitemmodel.cpp:2623
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -1977,7 +1982,7 @@ msgctxt "@label"
 msgid "Orientation"
 msgstr "పత్రికీకరణ"
 
-#: kitemviews/kfileitemmodel.cpp:2623
+#: kitemviews/kfileitemmodel.cpp:2624
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Artist:"
@@ -1985,15 +1990,15 @@ msgctxt "@label"
 msgid "Artist"
 msgstr "కళాకారుడు:"
 
-#: kitemviews/kfileitemmodel.cpp:2623 kitemviews/kfileitemmodel.cpp:2624
-#: kitemviews/kfileitemmodel.cpp:2625 kitemviews/kfileitemmodel.cpp:2626
-#: kitemviews/kfileitemmodel.cpp:2627 kitemviews/kfileitemmodel.cpp:2628
-#: kitemviews/kfileitemmodel.cpp:2629
+#: kitemviews/kfileitemmodel.cpp:2624 kitemviews/kfileitemmodel.cpp:2625
+#: kitemviews/kfileitemmodel.cpp:2626 kitemviews/kfileitemmodel.cpp:2627
+#: kitemviews/kfileitemmodel.cpp:2628 kitemviews/kfileitemmodel.cpp:2629
+#: kitemviews/kfileitemmodel.cpp:2630
 msgctxt "@label"
 msgid "Audio"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:2624
+#: kitemviews/kfileitemmodel.cpp:2625
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Genre:"
@@ -2001,7 +2006,7 @@ msgctxt "@label"
 msgid "Genre"
 msgstr "Genre:"
 
-#: kitemviews/kfileitemmodel.cpp:2625
+#: kitemviews/kfileitemmodel.cpp:2626
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Album:"
@@ -2009,7 +2014,7 @@ msgctxt "@label"
 msgid "Album"
 msgstr "ఆల్బమ్:"
 
-#: kitemviews/kfileitemmodel.cpp:2626
+#: kitemviews/kfileitemmodel.cpp:2627
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -2017,12 +2022,12 @@ msgctxt "@label"
 msgid "Duration"
 msgstr "పత్రికీకరణ"
 
-#: kitemviews/kfileitemmodel.cpp:2627
+#: kitemviews/kfileitemmodel.cpp:2628
 msgctxt "@label"
 msgid "Bitrate"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:2628
+#: kitemviews/kfileitemmodel.cpp:2629
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Track:"
@@ -2030,7 +2035,7 @@ msgctxt "@label"
 msgid "Track"
 msgstr "ట్రాక్:"
 
-#: kitemviews/kfileitemmodel.cpp:2629
+#: kitemviews/kfileitemmodel.cpp:2630
 #, fuzzy
 #| msgctxt "@action:inmenu View"
 #| msgid "Reload"
@@ -2038,22 +2043,22 @@ msgctxt "@label"
 msgid "Release Year"
 msgstr "తిరిగిలోడ్‌చేయి"
 
-#: kitemviews/kfileitemmodel.cpp:2630
+#: kitemviews/kfileitemmodel.cpp:2631
 msgctxt "@label"
 msgid "Aspect Ratio"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:2630 kitemviews/kfileitemmodel.cpp:2631
+#: kitemviews/kfileitemmodel.cpp:2631 kitemviews/kfileitemmodel.cpp:2632
 msgctxt "@label"
 msgid "Video"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:2631
+#: kitemviews/kfileitemmodel.cpp:2632
 msgctxt "@label"
 msgid "Frame Rate"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:2632
+#: kitemviews/kfileitemmodel.cpp:2633
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
@@ -2061,10 +2066,10 @@ msgctxt "@label"
 msgid "Path"
 msgstr "అతికించుము"
 
-#: kitemviews/kfileitemmodel.cpp:2632 kitemviews/kfileitemmodel.cpp:2633
-#: kitemviews/kfileitemmodel.cpp:2634 kitemviews/kfileitemmodel.cpp:2635
-#: kitemviews/kfileitemmodel.cpp:2636 kitemviews/kfileitemmodel.cpp:2637
-#: kitemviews/kfileitemmodel.cpp:2638
+#: kitemviews/kfileitemmodel.cpp:2633 kitemviews/kfileitemmodel.cpp:2634
+#: kitemviews/kfileitemmodel.cpp:2635 kitemviews/kfileitemmodel.cpp:2636
+#: kitemviews/kfileitemmodel.cpp:2637 kitemviews/kfileitemmodel.cpp:2638
+#: kitemviews/kfileitemmodel.cpp:2639
 #, fuzzy
 #| msgctxt "@title:group Name"
 #| msgid "Others"
@@ -2072,7 +2077,7 @@ msgctxt "@label"
 msgid "Other"
 msgstr "ఇతరములు"
 
-#: kitemviews/kfileitemmodel.cpp:2633
+#: kitemviews/kfileitemmodel.cpp:2634
 #, fuzzy
 #| msgctxt "@action:inmenu Edit"
 #| msgid "Invert Selection"
@@ -2080,7 +2085,7 @@ msgctxt "@label"
 msgid "Deletion Time"
 msgstr "విలోమ యెంపిక"
 
-#: kitemviews/kfileitemmodel.cpp:2634
+#: kitemviews/kfileitemmodel.cpp:2635
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -2088,12 +2093,12 @@ msgctxt "@label"
 msgid "Link Destination"
 msgstr "పత్రికీకరణ"
 
-#: kitemviews/kfileitemmodel.cpp:2635
+#: kitemviews/kfileitemmodel.cpp:2636
 msgctxt "@label"
 msgid "Downloaded From"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:2636
+#: kitemviews/kfileitemmodel.cpp:2637
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Permissions"
@@ -2101,7 +2106,7 @@ msgctxt "@label"
 msgid "Permissions"
 msgstr "అనుమతులు"
 
-#: kitemviews/kfileitemmodel.cpp:2637
+#: kitemviews/kfileitemmodel.cpp:2638
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Owner"
@@ -2109,7 +2114,7 @@ msgctxt "@label"
 msgid "Owner"
 msgstr "యజమాని"
 
-#: kitemviews/kfileitemmodel.cpp:2638
+#: kitemviews/kfileitemmodel.cpp:2639
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Group"
@@ -2117,7 +2122,7 @@ msgctxt "@label"
 msgid "User Group"
 msgstr "సమూహము"
 
-#: kitemviews/kfileitemmodel.cpp:2737
+#: kitemviews/kfileitemmodel.cpp:2738
 #, fuzzy, kde-format
 #| msgctxt "@info:status"
 #| msgid "Unknown size"
