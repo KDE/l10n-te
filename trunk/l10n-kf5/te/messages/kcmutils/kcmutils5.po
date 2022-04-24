@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-30 00:41+0000\n"
+"POT-Creation-Date: 2022-04-24 00:40+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -118,7 +118,7 @@ msgstr "మార్పులను  లేక విస్మరించనా
 msgid "Apply Settings"
 msgstr "అమరికలు "
 
-#: kcmultidialog.cpp:258 kpluginselector.cpp:809 kpluginwidget.cpp:365
+#: kcmultidialog.cpp:258 kpluginselector.cpp:809 kpluginwidget.cpp:327
 #, kde-format
 msgid "Configure"
 msgstr "అమర్చు"
@@ -187,13 +187,13 @@ msgstr[2] "స్వయంచాలన కారణంగా ప్లగి ఇ
 msgstr[3] "స్వయంచాలన కారణంగా ప్లగి ఇన్ సమన్వయాలు  తొలగించబడింది %1 ప్లగ్ ఇన్లు"
 msgstr[4] "స్వయంచాలన కారణంగా ప్లగి ఇన్ సమన్వయాలు  తొలగించబడింది %1 ప్లగ్ ఇన్లు"
 
-#: kpluginselector.cpp:264 kpluginwidget.cpp:57
+#: kpluginselector.cpp:264 kpluginwidget.cpp:59
 #, fuzzy, kde-format
 #| msgid "Search"
 msgid "Search..."
 msgstr "(&S) అన్వెషణ "
 
-#: kpluginselector.cpp:804 kpluginwidget.cpp:360
+#: kpluginselector.cpp:804 kpluginwidget.cpp:322
 #, fuzzy, kde-format
 #| msgid "&About"
 msgid "About"
@@ -203,6 +203,73 @@ msgstr "(&A) గురించి"
 #, kde-format
 msgid "Enable component"
 msgstr "కాంపోనెంట్ చేతనంచేయి"
+
+#: qml/components/KPluginDelegate.qml:45
+#, fuzzy, kde-format
+#| msgid "&About"
+msgctxt "@info:tooltip"
+msgid "About"
+msgstr "(&A) గురించి"
+
+#: qml/components/KPluginDelegate.qml:56
+#, fuzzy, kde-format
+#| msgid "Confi&gure..."
+msgctxt "@info:tooltip"
+msgid "Configure..."
+msgstr "(&g) అమర్చు..."
+
+#: qml/components/KPluginSelector.qml:78
+#, kde-format
+msgid "No matches"
+msgstr ""
+
+#: qml/components/KPluginSelector.qml:78
+#, fuzzy, kde-format
+#| msgid "Not found"
+msgid "No plugins found"
+msgstr "కనబడలేదు"
+
+#: qml/components/private/AboutPlugin.qml:42
+#, fuzzy, kde-format
+#| msgctxt "concatenation of dates and time"
+#| msgid "%1 %2"
+msgctxt "Plugin name and plugin version"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: qml/components/private/AboutPlugin.qml:64
+#, fuzzy, kde-format
+#| msgid "Copy"
+msgid "Copyright"
+msgstr "నకలు"
+
+#: qml/components/private/AboutPlugin.qml:81
+#, kde-format
+msgid "License:"
+msgstr "లైసెన్స్:"
+
+#: qml/components/private/AboutPlugin.qml:100
+#, fuzzy, kde-format
+#| msgid "A&uthors"
+msgid "Authors"
+msgstr "(&u) మూలకర్తలు"
+
+#: qml/components/private/AboutPlugin.qml:117
+#, kde-format
+msgid "Credits"
+msgstr ""
+
+#: qml/components/private/AboutPlugin.qml:134
+#, fuzzy, kde-format
+#| msgid "Translation"
+msgid "Translators"
+msgstr "అనువాదము"
+
+#: qml/components/private/AboutPlugin.qml:161
+#, fuzzy, kde-format
+#| msgid "&Send Email"
+msgid "Send an email to %1"
+msgstr "(&S) ఈమెయిల్ పంపించు"
 
 #~ msgid "Distance between desktop icons"
 #~ msgstr "రంగస్థల ప్రతిమల మధ్యన దూరము"
@@ -464,9 +531,6 @@ msgstr "కాంపోనెంట్ చేతనంచేయి"
 
 #~ msgid "A&uthor"
 #~ msgstr "(&u) మూలకర్త"
-
-#~ msgid "A&uthors"
-#~ msgstr "(&u) మూలకర్తలు"
 
 #~ msgid ""
 #~ "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to "
@@ -2033,10 +2097,6 @@ msgstr "కాంపోనెంట్ చేతనంచేయి"
 #~ msgid "Yesterday"
 #~ msgstr "నిన్న"
 
-#~ msgctxt "concatenation of dates and time"
-#~ msgid "%1 %2"
-#~ msgstr "%1 %2"
-
 #~ msgctxt "concatenation of date/time and time zone"
 #~ msgid "%1 %2"
 #~ msgstr "%1 %2"
@@ -3570,9 +3630,6 @@ msgstr "కాంపోనెంట్ చేతనంచేయి"
 
 #~ msgid "Wishlist"
 #~ msgstr "కోరికల జాబితా"
-
-#~ msgid "Translation"
-#~ msgstr "అనువాదము"
 
 #~ msgid "S&ubject: "
 #~ msgstr "(&u) విషయము:"
@@ -5207,9 +5264,6 @@ msgstr "కాంపోనెంట్ చేతనంచేయి"
 #~ msgid "Front"
 #~ msgstr "ముందర"
 
-#~ msgid "Copy"
-#~ msgstr "నకలు"
-
 #~ msgid "Open"
 #~ msgstr "తెరువండి"
 
@@ -5353,9 +5407,6 @@ msgstr "కాంపోనెంట్ చేతనంచేయి"
 #~ msgctxt "Verb"
 #~ msgid "&Insert"
 #~ msgstr "(&I) దూర్చు"
-
-#~ msgid "Confi&gure..."
-#~ msgstr "(&g) అమర్చు..."
 
 #~ msgid "Add"
 #~ msgstr "కలుపు"
@@ -7458,9 +7509,6 @@ msgstr "కాంపోనెంట్ చేతనంచేయి"
 #~ "ఈ సైటు ఫాం డాటాను ఈమెయిల్ ద్వారా అప్పగించుటకు ప్రయత్నిస్తోంది.\n"
 #~ "మీరు కొనసాగించాలని అనుకొనుచున్నారా?"
 
-#~ msgid "&Send Email"
-#~ msgstr "(&S) ఈమెయిల్ పంపించు"
-
 #~ msgid ""
 #~ "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
 #~ "filesystem.<br />Do you want to submit the form?</qt>"
@@ -7709,9 +7757,6 @@ msgstr "కాంపోనెంట్ చేతనంచేయి"
 
 #~ msgid "Find &links only"
 #~ msgstr "లింకులు వ్రాస్తుండగా  వెతుకు"
-
-#~ msgid "Not found"
-#~ msgstr "కనబడలేదు"
 
 #~ msgid "F&ind:"
 #~ msgstr "(&i) కనుగొనుము:"
@@ -8344,9 +8389,6 @@ msgstr "కాంపోనెంట్ చేతనంచేయి"
 
 #~ msgid "Email address:"
 #~ msgstr "ఈమెయిల్ చిరునామా:"
-
-#~ msgid "License:"
-#~ msgstr "లైసెన్స్:"
 
 #~ msgid "GPL"
 #~ msgstr "జిపిఎల్"
