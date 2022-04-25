@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: joystick\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-11 00:19+0000\n"
+"POT-Creation-Date: 2022-04-25 00:48+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -28,7 +28,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "k.meetme@gmail.com,infyquest@gmail.com"
 
-#: caldialog.cpp:26 joywidget.cpp:337
+#: caldialog.cpp:26 joywidget.cpp:335
 #, kde-format
 msgid "Calibration"
 msgstr "కాలిబరేషన్"
@@ -80,7 +80,7 @@ msgid ""
 "button to continue with the next step.</qt>"
 msgstr ""
 
-#: caldialog.cpp:160 joywidget.cpp:327 joywidget.cpp:363
+#: caldialog.cpp:160 joywidget.cpp:325 joywidget.cpp:361
 #, kde-format
 msgid "Communication Error"
 msgstr "సంప్రదింపు దోషము"
@@ -90,7 +90,7 @@ msgstr "సంప్రదింపు దోషము"
 msgid "You have successfully calibrated your device"
 msgstr "మీరు మీ పరికరమును సమర్ధవంతంగా కాలిబరేట్ చేసినారు"
 
-#: caldialog.cpp:164 joywidget.cpp:365
+#: caldialog.cpp:164 joywidget.cpp:363
 #, kde-format
 msgid "Calibration Success"
 msgstr "కాలిబరేషన్ సఫలమైంది"
@@ -189,53 +189,53 @@ msgid ""
 "can check your Linux source/Documentation/input/joystick.txt)"
 msgstr ""
 
-#: joywidget.cpp:33
-#, kde-format
-msgid "PRESSED"
-msgstr "PRESSED"
-
-#: joywidget.cpp:69
+#: joywidget.cpp:67
 #, kde-format
 msgid "Device:"
 msgstr "పరికరము:"
 
-#: joywidget.cpp:86
+#: joywidget.cpp:84
 #, kde-format
 msgctxt "Cue for deflection of the stick"
 msgid "Position:"
 msgstr "స్థానము:"
 
-#: joywidget.cpp:89
+#: joywidget.cpp:87
 #, kde-format
 msgid "Show trace"
 msgstr "ట్రేస్‌ను చూపుము"
 
-#: joywidget.cpp:100
+#: joywidget.cpp:96 joywidget.cpp:300
+#, kde-format
+msgid "PRESSED"
+msgstr "PRESSED"
+
+#: joywidget.cpp:98
 #, kde-format
 msgid "Buttons:"
 msgstr "బటన్స్:"
 
-#: joywidget.cpp:104
+#: joywidget.cpp:102
 #, kde-format
 msgid "State"
 msgstr "స్థితి"
 
-#: joywidget.cpp:112
+#: joywidget.cpp:110
 #, kde-format
 msgid "Axes:"
 msgstr "అక్షము:"
 
-#: joywidget.cpp:116
+#: joywidget.cpp:114
 #, kde-format
 msgid "Value"
 msgstr "విలువ"
 
-#: joywidget.cpp:129
+#: joywidget.cpp:127
 #, kde-format
 msgid "Calibrate"
 msgstr "కాలిబరేట్"
 
-#: joywidget.cpp:192
+#: joywidget.cpp:190
 #, kde-format
 msgid ""
 "No joystick device automatically found on this computer.<br />Checks were "
@@ -246,7 +246,7 @@ msgstr ""
 "మరియు /dev/input/js[0-4] నందు పరిశీలనలు జరిగినవి<br /> ఒకవేళ మీరు వొకటి అనుబందించబడి "
 "వుందని తెలిస్తే, దయచేసి సరైన పరికరపు ఫైలును ప్రవేశపెట్టుము."
 
-#: joywidget.cpp:228
+#: joywidget.cpp:226
 #, kde-format
 msgid ""
 "The given device name is invalid (does not contain /dev).\n"
@@ -257,27 +257,27 @@ msgstr ""
 "దయచేసి పరికరమును జాబితానుండి యెంచుకొనుము లేదా\n"
 "పరికరము ఫైలును ప్రవేశపెట్టుము, /dev/js0 వలె."
 
-#: joywidget.cpp:231
+#: joywidget.cpp:229
 #, kde-format
 msgid "Unknown Device"
 msgstr "తెలియని పరికరము"
 
-#: joywidget.cpp:249
+#: joywidget.cpp:247
 #, kde-format
 msgid "Device Error"
 msgstr "పరికరపు దోషము"
 
-#: joywidget.cpp:267
+#: joywidget.cpp:265
 #, kde-format
 msgid "1(x)"
 msgstr "1(x)"
 
-#: joywidget.cpp:268
+#: joywidget.cpp:266
 #, kde-format
 msgid "2(y)"
 msgstr "2(y)"
 
-#: joywidget.cpp:333
+#: joywidget.cpp:331
 #, kde-format
 msgid ""
 "<qt>Calibration is about to check the precision.<br /><br /><b>Please move "
@@ -288,7 +288,7 @@ msgstr ""
 "స్థానమునకు కదుపుము మరియు యిక జాయ్‌స్టిక్‌ను అంటుకొనవద్దు.</b><br /><br />కాలిబరేషన్ "
 "ప్రారంభించుటకు సరే నొక్కండి.</qt>"
 
-#: joywidget.cpp:365
+#: joywidget.cpp:363
 #, kde-format
 msgid "Restored all calibration values for joystick device %1."
 msgstr "జాయ్‌స్టిక్ పరికరము %1 కొరకు అన్ని కాలిబరేషన్ విలువలను తిరిగివుంచబడినవి."
