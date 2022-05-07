@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-10 02:21+0000\n"
+"POT-Creation-Date: 2022-05-07 02:17+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -48,10 +48,10 @@ msgctxt "Name"
 msgid "Search"
 msgstr "పి హెచ్ పి అన్వెషణ"
 
-#: data/defaults.khotkeys:310 data/kde32b1.khotkeys:518
-#: data/kde32b1.khotkeys:756 data/kde32b1.khotkeys:1010
-#: data/kde32b1.khotkeys:1505 data/kde32b1.khotkeys:1917
-#: data/kde32b1.khotkeys:3292
+#: data/defaults.khotkeys:311 data/kde32b1.khotkeys:518
+#: data/kde32b1.khotkeys:757 data/kde32b1.khotkeys:1011
+#: data/kde32b1.khotkeys:1510 data/kde32b1.khotkeys:1923
+#: data/kde32b1.khotkeys:3304
 msgctxt "Comment"
 msgid "Simple_action"
 msgstr "సాదారణ_చర్య"
@@ -129,22 +129,22 @@ msgstr ""
 "(colon)                                  Shift+;\\n' "
 "'  (space)                              Space"
 
-#: data/kde32b1.khotkeys:663
+#: data/kde32b1.khotkeys:664
 msgctxt "Name"
 msgid "Type 'Hello'"
 msgstr "'Hello' టైపుచేయుము"
 
-#: data/kde32b1.khotkeys:839
+#: data/kde32b1.khotkeys:840
 msgctxt "Comment"
 msgid "This action runs Konsole, after pressing Ctrl+Alt+T."
 msgstr "Ctrl+Alt+T వత్తిన తర్వాత, ఈ చర్య Konsole ను నడుపుతుంది."
 
-#: data/kde32b1.khotkeys:915
+#: data/kde32b1.khotkeys:916
 msgctxt "Name"
 msgid "Run Konsole"
 msgstr "రన్ కన్సోల్"
 
-#: data/kde32b1.khotkeys:1093
+#: data/kde32b1.khotkeys:1094
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -190,17 +190,17 @@ msgstr ""
 "ఎల్లప్పుడు 'Qt Designer by Trolltech' శీర్షికను కలిగేవుంటుంది, అందుకని నియమం ఆశీర్షికకలిగిన "
 "క్రియాశీల విండో కొరకు పరిశీలిస్తుంది."
 
-#: data/kde32b1.khotkeys:1144
+#: data/kde32b1.khotkeys:1146
 msgctxt "Name"
 msgid "Remap Ctrl+W to Ctrl+F4 in Qt Designer"
 msgstr "Qt రూపకరణినందు Ctrl+W ను Ctrl+F4 కు తిరిగి మాప్‌చేయుము"
 
-#: data/kde32b1.khotkeys:1235
+#: data/kde32b1.khotkeys:1237
 msgctxt "Comment"
 msgid "Qt Designer"
 msgstr "Qt డిజైనర్"
 
-#: data/kde32b1.khotkeys:1324
+#: data/kde32b1.khotkeys:1326
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Qt Designer"
@@ -208,7 +208,7 @@ msgctxt "Title"
 msgid "Qt Designer by Trolltech"
 msgstr "Qt డిజైనర్"
 
-#: data/kde32b1.khotkeys:1370
+#: data/kde32b1.khotkeys:1373
 msgctxt "Comment"
 msgid ""
 "By pressing Alt+Ctrl+W a D-Bus call will be performed that will show the "
@@ -218,12 +218,12 @@ msgstr ""
 "Alt+Ctrl+W ను వత్తుటద్వారా D-Bus కాల్ జరుపబడుతుంది అది minicli ను చూపుతుంది. మీరు "
 "ఏరకమైన D-Bus కాల్‌నైనా ఉపయోగించవచ్చు, కమాండ్‌లైన్ సాధనం 'qdbus' ను ఉపయోగించినట్లుగా."
 
-#: data/kde32b1.khotkeys:1435
+#: data/kde32b1.khotkeys:1439
 msgctxt "Name"
 msgid "Perform D-Bus call 'qdbus org.kde.krunner /App display'"
 msgstr ""
 
-#: data/kde32b1.khotkeys:1588
+#: data/kde32b1.khotkeys:1593
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -255,22 +255,22 @@ msgstr ""
 "\\n('xprop' నడుపుము మరియు XMMS విండో పైన నొక్కుము మరియు 'XMMS_Player' ను చూడుటకు "
 "WM_CLASS కొరకు శోధించుము)."
 
-#: data/kde32b1.khotkeys:1646
+#: data/kde32b1.khotkeys:1652
 msgctxt "Name"
 msgid "Next in XMMS"
 msgstr "XMMS నందు తరువాత"
 
-#: data/kde32b1.khotkeys:1738
+#: data/kde32b1.khotkeys:1744
 msgctxt "Comment"
 msgid "XMMS window"
 msgstr "XMMS విండో"
 
-#: data/kde32b1.khotkeys:1826
+#: data/kde32b1.khotkeys:1832
 msgctxt "Comment"
 msgid "XMMS Player window"
 msgstr "XMMS ప్లేయర్ విండో"
 
-#: data/kde32b1.khotkeys:2000
+#: data/kde32b1.khotkeys:2006
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -341,64 +341,64 @@ msgstr ""
 "gestures are defined in this group. All these gestures are active only if "
 "the active window is Konqueror (class contains 'konqueror')."
 
-#: data/kde32b1.khotkeys:2037
+#: data/kde32b1.khotkeys:2044
 msgctxt "Name"
 msgid "Konqi Gestures"
 msgstr "Konqi గెస్‍ట్‌రెస్"
 
-#: data/kde32b1.khotkeys:2117 data/konqueror_gestures_kde321.khotkeys:166
+#: data/kde32b1.khotkeys:2124 data/konqueror_gestures_kde321.khotkeys:167
 msgctxt "Comment"
 msgid "Konqueror window"
 msgstr "Konqueror విండో"
 
-#: data/kde32b1.khotkeys:2206 data/kde32b1.khotkeys:2295
-#: data/konqueror_gestures_kde321.khotkeys:255
-#: data/konqueror_gestures_kde321.khotkeys:344
+#: data/kde32b1.khotkeys:2213 data/kde32b1.khotkeys:2302
+#: data/konqueror_gestures_kde321.khotkeys:256
+#: data/konqueror_gestures_kde321.khotkeys:345
 msgctxt "Comment"
 msgid "Konqueror"
 msgstr "Konqueror"
 
-#: data/kde32b1.khotkeys:2389 data/konqueror_gestures_kde321.khotkeys:546
+#: data/kde32b1.khotkeys:2396 data/konqueror_gestures_kde321.khotkeys:548
 msgctxt "Name"
 msgid "Back"
 msgstr "వెనుకకు"
 
-#: data/kde32b1.khotkeys:2490 data/kde32b1.khotkeys:2677
-#: data/kde32b1.khotkeys:2864 data/kde32b1.khotkeys:3050
-#: data/konqueror_gestures_kde321.khotkeys:804
-#: data/konqueror_gestures_kde321.khotkeys:1050
-#: data/konqueror_gestures_kde321.khotkeys:1283
-#: data/konqueror_gestures_kde321.khotkeys:1535
-#: data/konqueror_gestures_kde321.khotkeys:1786
-#: data/konqueror_gestures_kde321.khotkeys:1874
-#: data/konqueror_gestures_kde321.khotkeys:2122
-#: data/konqueror_gestures_kde321.khotkeys:2370
-#: data/konqueror_gestures_kde321.khotkeys:2624
-#: data/konqueror_gestures_kde321.khotkeys:2878
-#: data/konqueror_gestures_kde321.khotkeys:3128
-#: data/konqueror_gestures_kde321.khotkeys:3377
-#: data/konqueror_gestures_kde321.khotkeys:3634
-#: data/konqueror_gestures_kde321.khotkeys:3887
+#: data/kde32b1.khotkeys:2497 data/kde32b1.khotkeys:2685
+#: data/kde32b1.khotkeys:2873 data/kde32b1.khotkeys:3060
+#: data/konqueror_gestures_kde321.khotkeys:806
+#: data/konqueror_gestures_kde321.khotkeys:1053
+#: data/konqueror_gestures_kde321.khotkeys:1287
+#: data/konqueror_gestures_kde321.khotkeys:1540
+#: data/konqueror_gestures_kde321.khotkeys:1792
+#: data/konqueror_gestures_kde321.khotkeys:1881
+#: data/konqueror_gestures_kde321.khotkeys:2130
+#: data/konqueror_gestures_kde321.khotkeys:2379
+#: data/konqueror_gestures_kde321.khotkeys:2634
+#: data/konqueror_gestures_kde321.khotkeys:2889
+#: data/konqueror_gestures_kde321.khotkeys:3140
+#: data/konqueror_gestures_kde321.khotkeys:3390
+#: data/konqueror_gestures_kde321.khotkeys:3648
+#: data/konqueror_gestures_kde321.khotkeys:3902
 msgctxt "Comment"
 msgid "Gesture_triggers"
 msgstr "Gesture_triggers"
 
-#: data/kde32b1.khotkeys:2576 data/konqueror_gestures_kde321.khotkeys:2523
+#: data/kde32b1.khotkeys:2584 data/konqueror_gestures_kde321.khotkeys:2533
 msgctxt "Name"
 msgid "Forward"
 msgstr "ముందుకు"
 
-#: data/kde32b1.khotkeys:2763 data/konqueror_gestures_kde321.khotkeys:949
+#: data/kde32b1.khotkeys:2772 data/konqueror_gestures_kde321.khotkeys:952
 msgctxt "Name"
 msgid "Up"
 msgstr "పైకి"
 
-#: data/kde32b1.khotkeys:2950 data/konqueror_gestures_kde321.khotkeys:3787
+#: data/kde32b1.khotkeys:2960 data/konqueror_gestures_kde321.khotkeys:3802
 msgctxt "Name"
 msgid "Reload"
 msgstr "తిరిగిలోడ్‌చేయి"
 
-#: data/kde32b1.khotkeys:3134
+#: data/kde32b1.khotkeys:3145
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -414,7 +414,7 @@ msgstr ""
 "Win+E (Tux+E) వత్తిన తర్వాత, WWW అన్వేషణి పారంభింపబడుతుంది మరియు http://www.kde.org ను "
 "తెరుస్తుంది. మీరు అన్ని విధములైన ఆదేశాలను నడుపవచ్చు మీరు minicli (Alt+F2) నందు నడుపవచ్చు."
 
-#: data/kde32b1.khotkeys:3198
+#: data/kde32b1.khotkeys:3210
 msgctxt "Name"
 msgid "Go to KDE Website"
 msgstr "KDE వెబ్‌సైట్‌కు వెళ్ళుము"
@@ -424,12 +424,12 @@ msgctxt "Comment"
 msgid "Basic Konqueror gestures."
 msgstr "ప్రాధమిక Konqueror గెస్‍ట్‌రెస్."
 
-#: data/konqueror_gestures_kde321.khotkeys:84
+#: data/konqueror_gestures_kde321.khotkeys:85
 msgctxt "Name"
 msgid "Konqueror Gestures"
 msgstr "Konqueror గెస్‍ట్‌రెస్"
 
-#: data/konqueror_gestures_kde321.khotkeys:430
+#: data/konqueror_gestures_kde321.khotkeys:431
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Konqueror"
@@ -437,12 +437,12 @@ msgctxt "Title"
 msgid "file:/ - Konqueror"
 msgstr "Konqueror"
 
-#: data/konqueror_gestures_kde321.khotkeys:468
+#: data/konqueror_gestures_kde321.khotkeys:470
 msgctxt "Comment"
 msgid "Press, move left, release."
 msgstr "వత్తుము, ఎడమకు కదుపు, విడువుము."
 
-#: data/konqueror_gestures_kde321.khotkeys:635
+#: data/konqueror_gestures_kde321.khotkeys:637
 msgctxt "Comment"
 msgid ""
 "Opera-style: Press, move up, release.\\nNOTE: Conflicts with 'New Tab', and "
@@ -451,12 +451,12 @@ msgstr ""
 "Opera-శైలి: వత్తుము, పైకికదుపుము, వదులుము.\\nగమనిక: 'కొత్త టాబ్' తో విభేదాలు, అది అప్రమేయంగా "
 "అచేతనం చేయబడినకారణంగా."
 
-#: data/konqueror_gestures_kde321.khotkeys:707
+#: data/konqueror_gestures_kde321.khotkeys:709
 msgctxt "Name"
 msgid "Stop Loading"
 msgstr "లోడింగ్ ఆపుము"
 
-#: data/konqueror_gestures_kde321.khotkeys:880
+#: data/konqueror_gestures_kde321.khotkeys:883
 msgctxt "Comment"
 msgid ""
 "Going up in URL/directory structure.\\nMozilla-style: Press, move up, move "
@@ -465,7 +465,7 @@ msgstr ""
 "URL/సంచయం ఆకృతినందు పైకి వెళుతోంది.\\nమొజిల్లా-శైలి:వత్తుము, పైకి కదుపుము, ఎడమకు కదుపుము, "
 "పైకి కదుపుము, వదులుము."
 
-#: data/konqueror_gestures_kde321.khotkeys:1126
+#: data/konqueror_gestures_kde321.khotkeys:1130
 msgctxt "Comment"
 msgid ""
 "Going up in URL/directory structure.\\nOpera-style: Press, move up, move "
@@ -476,57 +476,57 @@ msgstr ""
 "కదుపుము, వదులుము.\\nNOTE:  \"గత టాబ్‌ను క్రియాశీలంచేయుము\" తో విభేదాలు, అది అప్రమేయంగా "
 "అచేతనంగా ఉన్నకారణంగా."
 
-#: data/konqueror_gestures_kde321.khotkeys:1192
+#: data/konqueror_gestures_kde321.khotkeys:1196
 msgctxt "Name"
 msgid "Up #2"
 msgstr "పైకి #2"
 
-#: data/konqueror_gestures_kde321.khotkeys:1359
+#: data/konqueror_gestures_kde321.khotkeys:1364
 msgctxt "Comment"
 msgid "Press, move up, move right, release."
 msgstr "వత్తుము, పైకి కదుపుము, కుడికి కదుపుము, వదులుము."
 
-#: data/konqueror_gestures_kde321.khotkeys:1436
+#: data/konqueror_gestures_kde321.khotkeys:1441
 msgctxt "Name"
 msgid "Activate Next Tab"
 msgstr "తరువాతి టాబ్‌ను క్రియాశీలంచేయుము"
 
-#: data/konqueror_gestures_kde321.khotkeys:1611
+#: data/konqueror_gestures_kde321.khotkeys:1617
 msgctxt "Comment"
 msgid "Press, move up, move left, release."
 msgstr "వత్తుము, పైకి కదుపుము, ఎడముకు కదుపుము, వదులుము."
 
-#: data/konqueror_gestures_kde321.khotkeys:1688
+#: data/konqueror_gestures_kde321.khotkeys:1694
 msgctxt "Name"
 msgid "Activate Previous Tab"
 msgstr "గత టాబ్‌ను క్రియాశీలంచేయుము"
 
-#: data/konqueror_gestures_kde321.khotkeys:1950
+#: data/konqueror_gestures_kde321.khotkeys:1958
 msgctxt "Comment"
 msgid "Press, move down, move up, move down, release."
 msgstr "వత్తుము, క్రిందికి కదుపుము, పైకి కదుపుము, క్రిందికి కదుపుము, వదులుము."
 
-#: data/konqueror_gestures_kde321.khotkeys:2027
+#: data/konqueror_gestures_kde321.khotkeys:2035
 msgctxt "Name"
 msgid "Duplicate Tab"
 msgstr "నకిలీ టాబ్"
 
-#: data/konqueror_gestures_kde321.khotkeys:2198
+#: data/konqueror_gestures_kde321.khotkeys:2207
 msgctxt "Comment"
 msgid "Press, move down, move up, release."
 msgstr "వత్తుము, క్రిందికి కదుపుము, పైకి కదుపుము, వదులుము."
 
-#: data/konqueror_gestures_kde321.khotkeys:2275
+#: data/konqueror_gestures_kde321.khotkeys:2284
 msgctxt "Name"
 msgid "Duplicate Window"
 msgstr "నకిలి విండో"
 
-#: data/konqueror_gestures_kde321.khotkeys:2446
+#: data/konqueror_gestures_kde321.khotkeys:2456
 msgctxt "Comment"
 msgid "Press, move right, release."
 msgstr "వత్తుము, కుడికి కదుపుము, వదులుము."
 
-#: data/konqueror_gestures_kde321.khotkeys:2700
+#: data/konqueror_gestures_kde321.khotkeys:2711
 msgctxt "Comment"
 msgid ""
 "Press, move down, move half up, move right, move down, release.\\n(Drawing a "
@@ -535,12 +535,12 @@ msgstr ""
 "వత్తుము, క్రిందికి కదుపుము, సంగంపైకి కదుపుము, కుడికి కదుపుము, క్రిందికి కదుపుము, వదులుము."
 "\\n(చిన్నబడి 'h' ను గీయుము.)"
 
-#: data/konqueror_gestures_kde321.khotkeys:2772
+#: data/konqueror_gestures_kde321.khotkeys:2783
 msgctxt "Name"
 msgid "Home"
 msgstr "ఇల్లు"
 
-#: data/konqueror_gestures_kde321.khotkeys:2958
+#: data/konqueror_gestures_kde321.khotkeys:2970
 msgctxt "Comment"
 msgid ""
 "Press, move right, move down, move right, release.\\nMozilla-style: Press, "
@@ -549,12 +549,12 @@ msgstr ""
 "వత్తుము, కుడికి కదుపుము, క్రిందికి కదుపుము, కుడికి కదుపుము, వదులుము.\\nమొజిల్లా-శైలి: "
 "వత్తుము, క్రిందికి కదుపుము, కుడికి కదుపుము, వదులుము."
 
-#: data/konqueror_gestures_kde321.khotkeys:3030
+#: data/konqueror_gestures_kde321.khotkeys:3042
 msgctxt "Name"
 msgid "Close Tab"
 msgstr "టాబ్‌ను మూయుము"
 
-#: data/konqueror_gestures_kde321.khotkeys:3208
+#: data/konqueror_gestures_kde321.khotkeys:3221
 msgctxt "Comment"
 msgid ""
 "Press, move up, release.\\nConflicts with Opera-style 'Up #2', which is "
@@ -563,22 +563,22 @@ msgstr ""
 "వత్తుము, పైకి కదుపుము,వదులుము.\\nఒపెరా-శైలి 'పైకి #2' తో విభేదాలు, అది అప్రమేయంగా అచేతనంగా "
 "వుంటుందిగనుక."
 
-#: data/konqueror_gestures_kde321.khotkeys:3279
+#: data/konqueror_gestures_kde321.khotkeys:3292
 msgctxt "Name"
 msgid "New Tab"
 msgstr "కొత్త టాబ్"
 
-#: data/konqueror_gestures_kde321.khotkeys:3453
+#: data/konqueror_gestures_kde321.khotkeys:3467
 msgctxt "Comment"
 msgid "Press, move down, release."
 msgstr "వత్తుము,క్రిందికి కదుపుము, వదులుము."
 
-#: data/konqueror_gestures_kde321.khotkeys:3530
+#: data/konqueror_gestures_kde321.khotkeys:3544
 msgctxt "Name"
 msgid "New Window"
 msgstr "కొత్త విండో"
 
-#: data/konqueror_gestures_kde321.khotkeys:3710
+#: data/konqueror_gestures_kde321.khotkeys:3725
 msgctxt "Comment"
 msgid "Press, move up, move down, release."
 msgstr "వత్తుము, పైకి కదుపుము, క్రిందికి కదుపుము, వదులుము."
