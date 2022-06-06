@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-09 00:42+0000\n"
+"POT-Creation-Date: 2022-06-06 00:41+0000\n"
 "PO-Revision-Date: 2013-11-04 23:55+0630\n"
 "Last-Translator: Bhuvan Krishna <bhuvan@swecha.org>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -185,7 +185,6 @@ msgstr "సంబంధం"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #: ecma/debugger/localvariabledock.cpp:52 htmlpageinfo.ui:219
-#: java/kjavaappletviewer.cpp:146
 #, kde-format
 msgid "Value"
 msgstr "విలువ"
@@ -557,111 +556,6 @@ msgstr "హెచ్ టిటిపి  హెడర్లు"
 #, kde-format
 msgid "Property"
 msgstr "గుణము"
-
-#: java/kjavaapplet.cpp:227
-#, kde-format
-msgid "Initializing Applet \"%1\"..."
-msgstr "అప్లెట్ \"%1\"ను ప్రారంభిస్తున్నాము..."
-
-#: java/kjavaapplet.cpp:233
-#, kde-format
-msgid "Starting Applet \"%1\"..."
-msgstr "అప్లెట్ \"%1\"ను మొదలుపెడుతున్నాము..."
-
-#: java/kjavaapplet.cpp:240
-#, kde-format
-msgid "Applet \"%1\" started"
-msgstr "అప్లెట్ \"%1\" మొదలుపెట్టబడినది"
-
-#: java/kjavaapplet.cpp:246
-#, kde-format
-msgid "Applet \"%1\" stopped"
-msgstr "అప్లెట్ \"%1\" ఆపివేయబడినది"
-
-#: java/kjavaappletserver.cpp:143
-#, kde-format
-msgid "Loading Applet"
-msgstr "అప్లెట్ ను ఎక్కిస్తున్నా"
-
-#: java/kjavaappletserver.cpp:146
-#, kde-format
-msgid "Error: java executable not found"
-msgstr "దోషం: జావా కార్యక్రమం కనబడుటలేదు"
-
-#: java/kjavaappletserver.cpp:673
-#, kde-format
-msgid "Signed by (validation: %1)"
-msgstr "సంతకం చేసింది (నిరూపణ: %1)"
-
-#: java/kjavaappletserver.cpp:675
-#, kde-format
-msgid "Certificate (validation: %1)"
-msgstr "ధృవ పత్ర (నిరూపణ: %1)"
-
-#: java/kjavaappletserver.cpp:811 khtml_part.cpp:7047
-#, kde-format
-msgid "Security Alert"
-msgstr "భద్రతా హెచ్చరిక"
-
-#: java/kjavaappletserver.cpp:816
-#, kde-format
-msgid "Do you grant Java applet with certificate(s):"
-msgstr "ధృవపత్రాలతొ కూడిన జావా అప్లెట్ ను అనుమతించమంటారా:"
-
-#: java/kjavaappletserver.cpp:818
-#, kde-format
-msgid "the following permission"
-msgstr "ఈ క్రింది అనుమతి"
-
-#: java/kjavaappletserver.cpp:827
-#, kde-format
-msgid "&No"
-msgstr "(&N) కాదు"
-
-#: java/kjavaappletserver.cpp:832
-#, kde-format
-msgid "&Reject All"
-msgstr "(&R) అన్ని తిరస్కరించు"
-
-#: java/kjavaappletserver.cpp:836
-#, kde-format
-msgid "&Yes"
-msgstr "(&Y) ఔను"
-
-#: java/kjavaappletserver.cpp:840
-#, kde-format
-msgid "&Grant All"
-msgstr "(&G) అన్నిఅనుమతించు"
-
-#: java/kjavaappletviewer.cpp:55
-#, kde-format
-msgid "KDE Java Applet Plugin"
-msgstr "కెడిఈ జావా ఎపలెట్ ప్లగిన్"
-
-#: java/kjavaappletviewer.cpp:137
-#, kde-format
-msgid "Applet Parameters"
-msgstr "అప్లెట్ పెరామీటర్లు"
-
-#: java/kjavaappletviewer.cpp:145
-#, kde-format
-msgid "Parameter"
-msgstr "పెరామీటరు"
-
-#: java/kjavaappletviewer.cpp:149
-#, kde-format
-msgid "Class"
-msgstr "క్లాసు"
-
-#: java/kjavaappletviewer.cpp:155
-#, kde-format
-msgid "Base URL"
-msgstr "మూల యూఆర్ఎల్"
-
-#: java/kjavaappletviewer.cpp:161
-#, kde-format
-msgid "Archives"
-msgstr "ఆర్కైవ్లు"
 
 #. i18n: ectx: Menu (edit)
 #: khtml.rc:4 khtml_browser.rc:11
@@ -1326,6 +1220,11 @@ msgstr "భద్రతా హెచ్చరిక"
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr "<qt>అవిశ్వనీయ పుటనుండి <br /><b>%1</b><br />కు యాక్సెస్ తిరస్కరించబడింది.</qt>"
 
+#: khtml_part.cpp:7047
+#, kde-format
+msgid "Security Alert"
+msgstr "భద్రతా హెచ్చరిక"
+
 #: khtml_part.cpp:7417
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
@@ -1784,6 +1683,66 @@ msgstr "హానికరమైన అన్వయ దోషం: %2 వరు�
 #, kde-format
 msgid "XML parsing error"
 msgstr "ఎక్స్ఎంఎల్ అన్వయ దోషం"
+
+#~ msgid "Initializing Applet \"%1\"..."
+#~ msgstr "అప్లెట్ \"%1\"ను ప్రారంభిస్తున్నాము..."
+
+#~ msgid "Starting Applet \"%1\"..."
+#~ msgstr "అప్లెట్ \"%1\"ను మొదలుపెడుతున్నాము..."
+
+#~ msgid "Applet \"%1\" started"
+#~ msgstr "అప్లెట్ \"%1\" మొదలుపెట్టబడినది"
+
+#~ msgid "Applet \"%1\" stopped"
+#~ msgstr "అప్లెట్ \"%1\" ఆపివేయబడినది"
+
+#~ msgid "Loading Applet"
+#~ msgstr "అప్లెట్ ను ఎక్కిస్తున్నా"
+
+#~ msgid "Error: java executable not found"
+#~ msgstr "దోషం: జావా కార్యక్రమం కనబడుటలేదు"
+
+#~ msgid "Signed by (validation: %1)"
+#~ msgstr "సంతకం చేసింది (నిరూపణ: %1)"
+
+#~ msgid "Certificate (validation: %1)"
+#~ msgstr "ధృవ పత్ర (నిరూపణ: %1)"
+
+#~ msgid "Do you grant Java applet with certificate(s):"
+#~ msgstr "ధృవపత్రాలతొ కూడిన జావా అప్లెట్ ను అనుమతించమంటారా:"
+
+#~ msgid "the following permission"
+#~ msgstr "ఈ క్రింది అనుమతి"
+
+#~ msgid "&No"
+#~ msgstr "(&N) కాదు"
+
+#~ msgid "&Reject All"
+#~ msgstr "(&R) అన్ని తిరస్కరించు"
+
+#~ msgid "&Yes"
+#~ msgstr "(&Y) ఔను"
+
+#~ msgid "&Grant All"
+#~ msgstr "(&G) అన్నిఅనుమతించు"
+
+#~ msgid "KDE Java Applet Plugin"
+#~ msgstr "కెడిఈ జావా ఎపలెట్ ప్లగిన్"
+
+#~ msgid "Applet Parameters"
+#~ msgstr "అప్లెట్ పెరామీటర్లు"
+
+#~ msgid "Parameter"
+#~ msgstr "పెరామీటరు"
+
+#~ msgid "Class"
+#~ msgstr "క్లాసు"
+
+#~ msgid "Base URL"
+#~ msgstr "మూల యూఆర్ఎల్"
+
+#~ msgid "Archives"
+#~ msgstr "ఆర్కైవ్లు"
 
 #~ msgid "Overwrite"
 #~ msgstr "తిరిగి వ్రాయు"
