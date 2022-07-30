@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-24 00:57+0000\n"
+"POT-Creation-Date: 2022-07-30 00:59+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -16,6 +16,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: applets/activitypager/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Activity Bar"
+msgctxt "Name"
+msgid "Activity Pager"
+msgstr "క్రియాశీలత పట్టీ"
 
 #: applets/icontasks/metadata.json
 #, fuzzy
@@ -347,6 +355,14 @@ msgctxt "Name"
 msgid "Panel Toolbox"
 msgstr "నెట్వర్‍క్  సాధనం"
 
+#: applets/activitypager/metadata.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Switch between virtual desktops"
+msgctxt "Description"
+msgid "Switch between activities"
+msgstr "వర్చ్యువల్ రంగస్థలముల మధ్యన మారుము"
+
 #: applets/icontasks/metadata.json
 msgctxt "Description"
 msgid "Modern dock-style window switcher displaying only icons"
@@ -675,6 +691,14 @@ msgctxt "Description"
 msgid "Manage Plasma panel"
 msgstr "ప్లాజ్మా మేన్యువల్"
 
+#: applets/activitypager/metadata.json applets/pager/package/metadata.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Customize individual desktop theme items"
+msgctxt "Authors Name"
+msgid "The Plasma Team"
+msgstr "మలచుకొనిన స్వతంత్ర రంగస్థల థీమ్ అంశములు"
+
 #: applets/icontasks/metadata.json applets/kicker/package/metadata.json
 #: applets/taskmanager/package/metadata.json applets/window-list/metadata.json
 #: containments/desktop/package/metadata.json containments/folder/metadata.json
@@ -713,14 +737,6 @@ msgstr ""
 msgctxt "Authors Name"
 msgid "Sebastian Kügler"
 msgstr ""
-
-#: applets/pager/package/metadata.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Customize individual desktop theme items"
-msgctxt "Authors Name"
-msgid "The Plasma Team"
-msgstr "మలచుకొనిన స్వతంత్ర రంగస్థల థీమ్ అంశములు"
 
 #: applets/showActivityManager/package/metadata.json
 msgctxt "Authors Name"
@@ -786,13 +802,6 @@ msgstr "వెతుకు భాగం"
 #~ msgctxt "Description"
 #~ msgid "Switch between running applications"
 #~ msgstr "నడుస్తున్న అనువర్తనముల మద్యన మారుము"
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Switch between virtual desktops"
-#~ msgctxt "Description"
-#~ msgid "Switch between tasks"
-#~ msgstr "వర్చ్యువల్ రంగస్థలముల మధ్యన మారుము"
 
 #~ msgctxt "Comment"
 #~ msgid "Accessibility"
