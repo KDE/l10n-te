@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-31 01:00+0000\n"
+"POT-Creation-Date: 2022-09-13 00:57+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -68,6 +68,11 @@ msgstr "ఓపెన్ జిఎల్"
 msgctxt "Name"
 msgid "Interrupts"
 msgstr "ఇంటెరప్టులు"
+
+#: Modules/kwinsupportinfo/kcm_kwinsupportinfo.json
+msgctxt "Name"
+msgid "Window Manager"
+msgstr ""
 
 #: Modules/nics/kcm_nic.json
 msgctxt "Name"
@@ -167,6 +172,14 @@ msgstr "ఓపెన్ జిఎల్ సమాచారం"
 msgctxt "Description"
 msgid "Interrupt information"
 msgstr "ఇంటెరప్ట్ సమాచారం"
+
+#: Modules/kwinsupportinfo/kcm_kwinsupportinfo.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "IO-port information"
+msgctxt "Description"
+msgid "KWin Support information"
+msgstr "ఐఓ-పోర్టుల సమాచారం"
 
 #: Modules/nics/kcm_nic.json
 #, fuzzy
@@ -302,10 +315,6 @@ msgstr "ఎక్స్-సెర్వర్ సమాచారం"
 #~ msgctxt "Name"
 #~ msgid "IO-Ports"
 #~ msgstr "ఐఓ-పోర్టులు"
-
-#~ msgctxt "Comment"
-#~ msgid "IO-port information"
-#~ msgstr "ఐఓ-పోర్టుల సమాచారం"
 
 #~ msgctxt "Name"
 #~ msgid "IEEE 1394 Devices"
