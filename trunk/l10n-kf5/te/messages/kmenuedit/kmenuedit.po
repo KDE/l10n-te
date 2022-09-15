@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmenuedit\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-18 00:46+0000\n"
+"POT-Creation-Date: 2022-09-15 00:46+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -45,10 +45,17 @@ msgstr ""
 
 #: basictab.cpp:74
 #, kde-format
-msgid "Co&mmand:"
+msgctxt "@label:textbox the name or path to a command-line program"
+msgid "Program:"
 msgstr ""
 
-#: basictab.cpp:79
+#: basictab.cpp:81
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Command-Line Arguments:"
+msgstr ""
+
+#: basictab.cpp:85
 #, kde-format
 msgid ""
 "Following the command, you can have several place holders which will be "
@@ -65,57 +72,57 @@ msgid ""
 "%c - the caption"
 msgstr ""
 
-#: basictab.cpp:94
+#: basictab.cpp:100
 #, kde-format
 msgid "Enable &launch feedback"
 msgstr ""
 
-#: basictab.cpp:98
+#: basictab.cpp:104
 #, kde-format
 msgid "Only show when logged into a Plasma session"
 msgstr ""
 
-#: basictab.cpp:102
+#: basictab.cpp:108
 #, kde-format
 msgid "Hidden entry"
 msgstr ""
 
-#: basictab.cpp:114 preferencesdlg.cpp:63
+#: basictab.cpp:120 preferencesdlg.cpp:63
 #, kde-format
 msgid "General"
 msgstr "సాధారణ"
 
-#: basictab.cpp:126
+#: basictab.cpp:132
 #, kde-format
 msgid "&Work path:"
 msgstr ""
 
-#: basictab.cpp:138
+#: basictab.cpp:144
 #, kde-format
 msgid "Run in term&inal"
 msgstr ""
 
-#: basictab.cpp:143
+#: basictab.cpp:149
 #, kde-format
 msgid "Terminal &options:"
 msgstr ""
 
-#: basictab.cpp:157
+#: basictab.cpp:163
 #, kde-format
 msgid "&Run as a different user"
 msgstr ""
 
-#: basictab.cpp:162
+#: basictab.cpp:168
 #, kde-format
 msgid "&Username:"
 msgstr "(&U) యూజర్ పేరు:"
 
-#: basictab.cpp:176
+#: basictab.cpp:182
 #, kde-format
 msgid "Current shortcut &key:"
 msgstr ""
 
-#: basictab.cpp:187
+#: basictab.cpp:193
 #, kde-format
 msgid "Advanced"
 msgstr "ఆధునాతన"
