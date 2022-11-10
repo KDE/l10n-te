@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-02 00:59+0000\n"
+"POT-Creation-Date: 2022-11-10 02:36+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -147,6 +147,38 @@ msgstr "సున్నా-కాని స్థితితో సెషన్
 msgctxt "Comment"
 msgid "A session has exited with non-zero status"
 msgstr "సున్నా-కాని స్థితితో ఒక సెషన్ నిష్క్రమించింది."
+
+#: desktop/konsole.notifyrc:1151
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Silence in Monitored Session"
+msgctxt "Name"
+msgid "Process Triggered a Notification in a Focused Session"
+msgstr "మానిటర్‌చేయబడిన సెషన్‌నందలి నిశబ్దత"
+
+#: desktop/konsole.notifyrc:1152
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Bell emitted within a visible session"
+msgctxt "Comment"
+msgid "Notification emitted by a process in a focused session"
+msgstr "కనిపించు సెషన్‌లో విడుదలైన బెల్"
+
+#: desktop/konsole.notifyrc:1156
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Silence in Monitored Session"
+msgctxt "Name"
+msgid "Process Triggered a Notification in a Non-Focused Session"
+msgstr "మానిటర్‌చేయబడిన సెషన్‌నందలి నిశబ్దత"
+
+#: desktop/konsole.notifyrc:1157
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Bell emitted within a non-visible session"
+msgctxt "Comment"
+msgid "Notification emitted by a process in a non-focused session"
+msgstr "కనిపించని సెషన్ లో విడుదలైన బెల్"
 
 #: desktop/konsolepart.desktop:15 desktop/terminalemulator.desktop:6
 msgctxt "Name"
