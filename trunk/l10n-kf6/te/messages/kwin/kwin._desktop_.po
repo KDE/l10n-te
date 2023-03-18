@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-11 01:05+0000\n"
+"POT-Creation-Date: 2023-03-18 02:37+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -16,11 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-
-#: src/effects/kwineffect.desktop:5
-msgctxt "Comment"
-msgid "KWin Effect"
-msgstr "KWin ప్రభావం"
 
 #: src/kcms/effects/kwineffect.knsrc:2
 #, fuzzy
@@ -98,14 +93,6 @@ msgctxt "Comment"
 msgid "Xwayland has crashed"
 msgstr ""
 
-#: src/plugins/kdecorations/aurorae/src/kwindecoration.desktop:5
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Information"
-msgctxt "Comment"
-msgid "KWin Window Decoration"
-msgstr "సమాచారం"
-
 #: src/plugins/krunner-integration/kwin-runner-windows.desktop:3
 #, fuzzy
 #| msgctxt "Name"
@@ -130,29 +117,37 @@ msgid ""
 "Lists all other desktops and allows to switch to them."
 msgstr ""
 
-#: src/scripting/kwinscript.desktop:5
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "CGI Scripts"
-msgctxt "Comment"
-msgid "KWin Script"
-msgstr "సిజిఐ స్క్రిప్ట్లు"
+#~ msgctxt "Comment"
+#~ msgid "KWin Effect"
+#~ msgstr "KWin ప్రభావం"
 
-#: src/tabbox/kwindesktopswitcher.desktop:5
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "WindowMaker"
-msgctxt "Comment"
-msgid "KWin Desktop Switcher Layout"
-msgstr "విండొమెకర్"
+#~| msgctxt "Name"
+#~| msgid "Information"
+#~ msgctxt "Comment"
+#~ msgid "KWin Window Decoration"
+#~ msgstr "సమాచారం"
 
-#: src/tabbox/kwinwindowswitcher.desktop:5
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "WindowMaker"
-msgctxt "Comment"
-msgid "KWin Window Switcher Layout"
-msgstr "విండొమెకర్"
+#~| msgctxt "Name"
+#~| msgid "CGI Scripts"
+#~ msgctxt "Comment"
+#~ msgid "KWin Script"
+#~ msgstr "సిజిఐ స్క్రిప్ట్లు"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "WindowMaker"
+#~ msgctxt "Comment"
+#~ msgid "KWin Desktop Switcher Layout"
+#~ msgstr "విండొమెకర్"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "WindowMaker"
+#~ msgctxt "Comment"
+#~ msgid "KWin Window Switcher Layout"
+#~ msgstr "విండొమెకర్"
 
 #, fuzzy
 #~| msgctxt "Name"
