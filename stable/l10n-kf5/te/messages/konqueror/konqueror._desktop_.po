@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-28 00:55+0000\n"
+"POT-Creation-Date: 2023-07-27 02:32+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -355,7 +355,8 @@ msgctxt "Comment"
 msgid "Configure the use of Cache"
 msgstr "స్పెల్ చెకర్‌ను ఆకృతీకరించుము"
 
-#: settings/konqhtml/cache/khtml_cache.desktop:115
+#: settings/konqhtml/cache/khtml_cache.desktop:116
+#: settings/konqhtml/useragent/khtml_useragent.desktop:13
 msgctxt "X-KDE-Keywords"
 msgid "konqueror,browser,html,web,www"
 msgstr ""
@@ -457,6 +458,19 @@ msgstr "Java మరియు JavaScript యొక్క ప్రవర్తన
 msgctxt "X-KDE-Keywords"
 msgid "konqueror,kfm,browser,html,web,www,java,javascript"
 msgstr ""
+
+#: settings/konqhtml/useragent/khtml_useragent.desktop:10
+msgctxt "Name"
+msgid "Browser Identification"
+msgstr "అన్వేషణి గుర్తింపు"
+
+#: settings/konqhtml/useragent/khtml_useragent.desktop:12
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure Hotkey settings"
+msgctxt "Comment"
+msgid "Configure the user agent string"
+msgstr "హాట్‌కీల అమరికలను ఆకృతీకరించుము."
 
 #: settings/performance/kcmkonqyperformance.desktop:9
 msgctxt "Name"
@@ -1237,10 +1251,6 @@ msgstr "శోధన యంత్రము"
 #~ msgid "UADescription (Wget 1.11.4)"
 #~ msgstr "UADescription (Wget 1.5.3)"
 
-#~ msgctxt "Name"
-#~ msgid "Browser Identification"
-#~ msgstr "అన్వేషణి గుర్తింపు"
-
 #~ msgctxt "Comment"
 #~ msgid "Configure the way Konqueror reports itself"
 #~ msgstr "Konqueror దానంతటదే ఎలానివేదిస్తుంతో ఆకృతీకరించుము"
@@ -1980,13 +1990,6 @@ msgstr "శోధన యంత్రము"
 #~ msgctxt "Comment"
 #~ msgid "This service allows configuration of the trash."
 #~ msgstr "డాల్ఫిన్ వీక్షణిల యొక్క ఆకృతీకరణను ఈ సేవ అనుమతిస్తుంది."
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure Hotkey settings"
-#~ msgctxt "Comment"
-#~ msgid "Configure trash settings"
-#~ msgstr "హాట్‌కీల అమరికలను ఆకృతీకరించుము."
 
 #~ msgctxt "ExtraNames"
 #~ msgid "Original Path,Deletion Date"
