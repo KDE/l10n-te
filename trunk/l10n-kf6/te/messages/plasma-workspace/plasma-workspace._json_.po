@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-07-31 02:43+0000\n"
+"POT-Creation-Date: 2023-09-15 01:59+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -310,11 +310,6 @@ msgctxt "Name"
 msgid "Pointer Position"
 msgstr "సూచకి స్థానము"
 
-#: dataengines/mpris2/plasma-dataengine-mpris2.json
-msgctxt "Name"
-msgid "MPRIS2"
-msgstr ""
-
 #: dataengines/notifications/plasma-dataengine-notifications.json
 #, fuzzy
 #| msgctxt "Name"
@@ -550,6 +545,14 @@ msgstr "KDE సమయ క్షేత్ర డెమోన్"
 msgctxt "Name"
 msgid "Automatic Location for Night Color"
 msgstr ""
+
+#: libkmpris/kded/mprisservice.json
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Multimedia Player"
+msgctxt "Name"
+msgid "Media Controller"
+msgstr "బహుళమాధ్యమ ప్లేయర్"
 
 #: lookandfeel/org.kde.breezedark/metadata.json
 msgctxt "Name"
@@ -978,11 +981,6 @@ msgctxt "Description"
 msgid "Mouse position and cursor"
 msgstr ""
 
-#: dataengines/mpris2/plasma-dataengine-mpris2.json
-msgctxt "Description"
-msgid "Provides information from and control over media players via MPRIS2"
-msgstr ""
-
 #: dataengines/notifications/plasma-dataengine-notifications.json
 msgctxt "Description"
 msgid "Passive visual notifications for the user."
@@ -1202,6 +1200,11 @@ msgstr ""
 #: libcolorcorrect/kded/colorcorrectlocationupdater.json
 msgctxt "Description"
 msgid "Provides location updates for Night Color"
+msgstr ""
+
+#: libkmpris/kded/mprisservice.json
+msgctxt "Description"
+msgid "Controls media players using global keyboard shortcuts"
 msgstr ""
 
 #: lookandfeel/org.kde.breezedark/metadata.json
