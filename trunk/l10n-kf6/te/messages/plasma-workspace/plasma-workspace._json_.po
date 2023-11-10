@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-21 01:45+0000\n"
+"POT-Creation-Date: 2023-11-10 01:54+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -655,6 +655,14 @@ msgstr ""
 msgctxt "Name"
 msgid "Hardware Detection"
 msgstr "హార్డువేర్"
+
+#: startkde/session-shortcuts/sessionshortcuts.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Web Shortcuts"
+msgctxt "Name"
+msgid "Session Shortcuts"
+msgstr "వెబ్ లఘువులు"
 
 #: statusnotifierwatcher/statusnotifierwatcher.json
 #, fuzzy
@@ -1309,6 +1317,11 @@ msgstr ""
 #: soliduiserver/soliduiserver.json
 msgctxt "Description"
 msgid "Provides a user interface for hardware events"
+msgstr ""
+
+#: startkde/session-shortcuts/sessionshortcuts.json
+msgctxt "Description"
+msgid "Provides shortcuts for common session actions"
 msgstr ""
 
 #: statusnotifierwatcher/statusnotifierwatcher.json
@@ -2089,13 +2102,6 @@ msgstr ""
 #~ msgctxt "Name|plasma runner"
 #~ msgid "Windows"
 #~ msgstr "విండోలు"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Web Shortcuts"
-#~ msgctxt "Name|plasma runner"
-#~ msgid "Web Shortcuts"
-#~ msgstr "వెబ్ లఘువులు"
 
 #, fuzzy
 #~| msgctxt "Comment"
