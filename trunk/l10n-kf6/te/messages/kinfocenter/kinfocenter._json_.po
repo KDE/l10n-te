@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-30 01:06+0000\n"
+"POT-Creation-Date: 2024-01-16 00:45+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -25,18 +25,18 @@ msgctxt "Name"
 msgid "About this System"
 msgstr "Plasmoids కొరకు ఫైళ్ళు మరియు సంచయంల గురించి సమాచారం"
 
+#: Modules/block_devices/kcm_block_devices.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "USB Devices"
+msgctxt "Name"
+msgid "Block Devices"
+msgstr "యూ ఎస్ బి పరికరాలు"
+
 #: Modules/cpu/kcm_cpu.json
 msgctxt "Name"
 msgid "CPU"
 msgstr ""
-
-#: Modules/devinfo/devinfo.json
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Picture Viewer"
-msgctxt "Name"
-msgid "Device Viewer"
-msgstr "చిత్ర వీక్షిణి"
 
 #: Modules/egl/kcm_egl.json
 #, fuzzy
@@ -125,6 +125,14 @@ msgctxt "Description"
 msgid "Information About This System"
 msgstr "Plasmoids కొరకు ఫైళ్ళు మరియు సంచయంల గురించి సమాచారం"
 
+#: Modules/block_devices/kcm_block_devices.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "USB Devices"
+msgctxt "Description"
+msgid "Block Devices"
+msgstr "యూ ఎస్ బి పరికరాలు"
+
 #: Modules/cpu/kcm_cpu.json
 #, fuzzy
 #| msgctxt "Name"
@@ -132,14 +140,6 @@ msgstr "Plasmoids కొరకు ఫైళ్ళు మరియు సంచ�
 msgctxt "Description"
 msgid "Advanced CPU Information"
 msgstr "సమాచారం"
-
-#: Modules/devinfo/devinfo.json
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Picture Viewer"
-msgctxt "Description"
-msgid "Device Viewer"
-msgstr "చిత్ర వీక్షిణి"
 
 #: Modules/egl/kcm_egl.json
 #, fuzzy
@@ -249,6 +249,20 @@ msgstr "Plasmoids కొరకు ఫైళ్ళు మరియు సంచ�
 msgctxt "Description"
 msgid "X-Server information"
 msgstr "ఎక్స్-సెర్వర్ సమాచారం"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Picture Viewer"
+#~ msgctxt "Name"
+#~ msgid "Device Viewer"
+#~ msgstr "చిత్ర వీక్షిణి"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Picture Viewer"
+#~ msgctxt "Description"
+#~ msgid "Device Viewer"
+#~ msgstr "చిత్ర వీక్షిణి"
 
 #, fuzzy
 #~| msgctxt "Name"
