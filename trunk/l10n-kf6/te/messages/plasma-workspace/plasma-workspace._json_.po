@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-11 00:47+0000\n"
+"POT-Creation-Date: 2024-06-25 00:46+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -31,22 +31,6 @@ msgstr "ఎనలాగ్ గడియారం"
 msgctxt "Name"
 msgid "Global Menu"
 msgstr ""
-
-#: applets/batterymonitor/package/metadata.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Power Management Backend"
-msgctxt "Name"
-msgid "Power and Battery"
-msgstr "పవర్ నిర్వహణా బ్యాక్ఎండ్"
-
-#: applets/brightness/package/metadata.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Color"
-msgctxt "Name"
-msgid "Brightness and Color"
-msgstr "రంగు"
 
 #: applets/calendar/package/metadata.json
 #, fuzzy
@@ -587,14 +571,6 @@ msgctxt "Name"
 msgid "Locations"
 msgstr "స్థానములు"
 
-#: runners/powerdevil/plasma-runner-powerdevil.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "PowerDevil"
-msgctxt "Name"
-msgid "Power"
-msgstr "PowerDevil"
-
 #: runners/recentdocuments/plasma-runner-recentdocuments.json
 #, fuzzy
 #| msgctxt "Description"
@@ -697,20 +673,6 @@ msgstr ""
 #: applets/appmenu/package/metadata.json
 msgctxt "Description"
 msgid "Global menubar in your Plasma Desktop"
-msgstr ""
-
-#: applets/batterymonitor/package/metadata.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "See the power status of your battery"
-msgctxt "Description"
-msgid ""
-"Control power management settings and see the power status of your battery"
-msgstr "మీ బ్యాటరీ యొక్క పవర్ స్థితిని చూడుము"
-
-#: applets/brightness/package/metadata.json
-msgctxt "Description"
-msgid "Control brightness and color of your screens and keyboards"
 msgstr ""
 
 #: applets/calendar/package/metadata.json
@@ -1225,14 +1187,6 @@ msgctxt "Description"
 msgid "Open devices and folder bookmarks"
 msgstr "పేజిగుర్తులను కనుగొనుము మరియు తెరువుము"
 
-#: runners/powerdevil/plasma-runner-powerdevil.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Power Management Backend"
-msgctxt "Description"
-msgid "Basic Power Management Operations"
-msgstr "పవర్ నిర్వహణా బ్యాక్ఎండ్"
-
 #: runners/services/plasma-runner-services.json
 #, fuzzy
 #| msgctxt "Comment"
@@ -1327,8 +1281,6 @@ msgid "Marco Martin"
 msgstr ""
 
 #: applets/appmenu/package/metadata.json
-#: applets/batterymonitor/package/metadata.json
-#: applets/brightness/package/metadata.json
 #: applets/notifications/package/metadata.json
 #: applets/systemmonitor/coreusage/metadata.json
 #: applets/systemmonitor/cpu/metadata.json
@@ -1337,18 +1289,11 @@ msgctxt "Authors Name"
 msgid "Kai Uwe Broulik"
 msgstr ""
 
-#: applets/batterymonitor/package/metadata.json
-#: applets/brightness/package/metadata.json
 #: applets/calendar/package/metadata.json
 #: applets/mediacontroller/package/metadata.json
 #: runners/recentdocuments/plasma-runner-recentdocuments.json
 msgctxt "Authors Name"
 msgid "Sebastian Kügler"
-msgstr ""
-
-#: applets/brightness/package/metadata.json
-msgctxt "Authors Name"
-msgid "Natalie Clarius"
 msgstr ""
 
 #: applets/cameraindicator/package/metadata.json
@@ -1473,11 +1418,6 @@ msgctxt "Authors Name"
 msgid "David Edmundson"
 msgstr ""
 
-#: runners/powerdevil/plasma-runner-powerdevil.json
-msgctxt "Authors Name"
-msgid "Dario Freddi"
-msgstr ""
-
 #: runners/webshortcuts/plasma-runner-webshortcuts.json
 msgctxt "Authors Name"
 msgid "Teemu Rytilahti"
@@ -1487,6 +1427,42 @@ msgstr ""
 msgctxt "Authors Name"
 msgid "Julius Zint"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Power Management Backend"
+#~ msgctxt "Name"
+#~ msgid "Power and Battery"
+#~ msgstr "పవర్ నిర్వహణా బ్యాక్ఎండ్"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Color"
+#~ msgctxt "Name"
+#~ msgid "Brightness and Color"
+#~ msgstr "రంగు"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "PowerDevil"
+#~ msgctxt "Name"
+#~ msgid "Power"
+#~ msgstr "PowerDevil"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "See the power status of your battery"
+#~ msgctxt "Description"
+#~ msgid ""
+#~ "Control power management settings and see the power status of your battery"
+#~ msgstr "మీ బ్యాటరీ యొక్క పవర్ స్థితిని చూడుము"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Power Management Backend"
+#~ msgctxt "Description"
+#~ msgid "Basic Power Management Operations"
+#~ msgstr "పవర్ నిర్వహణా బ్యాక్ఎండ్"
 
 #, fuzzy
 #~| msgctxt "GenericName"
