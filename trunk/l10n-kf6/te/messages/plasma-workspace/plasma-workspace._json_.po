@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-25 00:46+0000\n"
+"POT-Creation-Date: 2024-08-27 00:48+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -256,14 +256,6 @@ msgctxt "Name"
 msgid "Geolocation"
 msgstr "స్థానములు"
 
-#: dataengines/hotplug/plasma-dataengine-hotplug.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Hotplug Event Data Engine"
-msgctxt "Name"
-msgid "Hotplug Events"
-msgstr "హాట్‌ప్లగ్ ఘటన డాటా ఇంజన్"
-
 #: dataengines/mouse/plasma-dataengine-mouse.json
 msgctxt "Name"
 msgid "Pointer Position"
@@ -298,14 +290,6 @@ msgstr "ఫెసెస్"
 msgctxt "Name"
 msgid "Power Management"
 msgstr "పవర్ నిర్వహణా బ్యాక్ఎండ్"
-
-#: dataengines/soliddevice/plasma-dataengine-soliddevice.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Information"
-msgctxt "Name"
-msgid "Device Information"
-msgstr "సమాచారం"
 
 #: dataengines/time/plasma-dataengine-time.json
 #, fuzzy
@@ -882,11 +866,6 @@ msgctxt "Description"
 msgid "Geolocation Data Engine"
 msgstr "పదకోశం డాటా ఇంజన్"
 
-#: dataengines/hotplug/plasma-dataengine-hotplug.json
-msgctxt "Description"
-msgid "Tracks hot-pluggable devices as they appear and disappear."
-msgstr ""
-
 #: dataengines/mouse/plasma-dataengine-mouse.json
 msgctxt "Description"
 msgid "Mouse position and cursor"
@@ -914,14 +893,6 @@ msgstr ""
 msgctxt "Description"
 msgid "Battery, AC, sleep and PowerDevil information."
 msgstr ""
-
-#: dataengines/soliddevice/plasma-dataengine-soliddevice.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "SolidDevice data for Plasmoids"
-msgctxt "Description"
-msgid "Device data via Solid"
-msgstr "Plasmoids కొరకు సాలిడ్‌డివైజ్ డాటా"
 
 #: dataengines/time/plasma-dataengine-time.json
 #, fuzzy
@@ -1318,8 +1289,6 @@ msgid "Martin Klapetek"
 msgstr ""
 
 #: applets/icon/package/metadata.json applets/panelspacer/package/metadata.json
-#: dataengines/hotplug/plasma-dataengine-hotplug.json
-#: dataengines/soliddevice/plasma-dataengine-soliddevice.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Plasma Desktop Workspace"
@@ -1427,6 +1396,27 @@ msgstr ""
 msgctxt "Authors Name"
 msgid "Julius Zint"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Hotplug Event Data Engine"
+#~ msgctxt "Name"
+#~ msgid "Hotplug Events"
+#~ msgstr "హాట్‌ప్లగ్ ఘటన డాటా ఇంజన్"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Information"
+#~ msgctxt "Name"
+#~ msgid "Device Information"
+#~ msgstr "సమాచారం"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "SolidDevice data for Plasmoids"
+#~ msgctxt "Description"
+#~ msgid "Device data via Solid"
+#~ msgstr "Plasmoids కొరకు సాలిడ్‌డివైజ్ డాటా"
 
 #, fuzzy
 #~| msgctxt "Comment"
