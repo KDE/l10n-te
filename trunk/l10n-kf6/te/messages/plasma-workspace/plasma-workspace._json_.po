@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-09-29 00:48+0000\n"
+"POT-Creation-Date: 2024-10-06 00:48+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -16,6 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: appiumtests/applets/systemtraytest/org.kde.testdbusactivation/metadata.json
+msgctxt "Name"
+msgid "Do not translate Test only"
+msgstr ""
 
 #: applets/activitybar/metadata.json
 msgctxt "Name"
@@ -232,14 +237,6 @@ msgctxt "Name"
 msgid "Run Commands"
 msgstr "పెంగ్విన్ కమాండ్"
 
-#: dataengines/favicons/plasma-dataengine-favicons.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Icons"
-msgctxt "Name"
-msgid "Favicons"
-msgstr "ప్రతిమలు"
-
 #: dataengines/filebrowser/plasma-dataengine-filebrowser.json
 #, fuzzy
 #| msgctxt "Name"
@@ -248,19 +245,6 @@ msgctxt "Name"
 msgid "Files and Directories"
 msgstr "ఫైల్ మరియు సంచయం అన్వేషణి ఇంజన్"
 
-#: dataengines/geolocation/plasma-dataengine-geolocation.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Locations"
-msgctxt "Name"
-msgid "Geolocation"
-msgstr "స్థానములు"
-
-#: dataengines/mouse/plasma-dataengine-mouse.json
-msgctxt "Name"
-msgid "Pointer Position"
-msgstr "సూచకి స్థానము"
-
 #: dataengines/notifications/plasma-dataengine-notifications.json
 #, fuzzy
 #| msgctxt "Name"
@@ -268,11 +252,6 @@ msgstr "సూచకి స్థానము"
 msgctxt "Name"
 msgid "Application Notifications"
 msgstr "నోటీసులు"
-
-#: dataengines/packagekit/plasma-dataengine-packagekit.json
-msgctxt "Name"
-msgid "PackageKit"
-msgstr ""
 
 #: dataengines/places/plasma-dataengine-places.json
 #: runners/places/plasma-runner-places.json
@@ -839,14 +818,6 @@ msgctxt "Description"
 msgid "Run Executable Data Engine"
 msgstr "పరిశీలనా డాటా ఇంజన్"
 
-#: dataengines/favicons/plasma-dataengine-favicons.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Data Engine for getting favicons of web sites"
-msgctxt "Description"
-msgid "Data Engine for getting favicons of web sites"
-msgstr "వెబ్ సైటులయొక్క ఫెవికాన్లను(ఫేవరేట్ఐకాన్‍స్) పొందుటకొరకు డాటా యింజన్"
-
 #: dataengines/filebrowser/plasma-dataengine-filebrowser.json
 #, fuzzy
 #| msgctxt "Comment"
@@ -855,31 +826,10 @@ msgctxt "Description"
 msgid "Information about files and directories."
 msgstr "Plasmoids కొరకు ఫైళ్ళు మరియు సంచయంల గురించి సమాచారం"
 
-#: dataengines/geolocation/plasma-dataengine-geolocation.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Dictionary Data Engine"
-msgctxt "Description"
-msgid "Geolocation Data Engine"
-msgstr "పదకోశం డాటా ఇంజన్"
-
-#: dataengines/mouse/plasma-dataengine-mouse.json
-msgctxt "Description"
-msgid "Mouse position and cursor"
-msgstr ""
-
 #: dataengines/notifications/plasma-dataengine-notifications.json
 msgctxt "Description"
 msgid "Passive visual notifications for the user."
 msgstr ""
-
-#: dataengines/packagekit/plasma-dataengine-packagekit.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "JavaScript Runner"
-msgctxt "Description"
-msgid "PackageKit Data Engine"
-msgstr "జావాస్క్రిప్‍ట్ నడుపునది"
 
 #: dataengines/places/plasma-dataengine-places.json
 msgctxt "Description"
@@ -1320,16 +1270,6 @@ msgctxt "Authors Name"
 msgid "Chani Armitage"
 msgstr ""
 
-#: dataengines/geolocation/plasma-dataengine-geolocation.json
-msgctxt "Authors Name"
-msgid "Petri Damstén"
-msgstr ""
-
-#: dataengines/packagekit/plasma-dataengine-packagekit.json
-msgctxt "Authors Name"
-msgid "Gregor Taetzner"
-msgstr ""
-
 #: dataengines/places/plasma-dataengine-places.json
 msgctxt "Authors Name"
 msgid "Alex Merry"
@@ -1518,6 +1458,45 @@ msgstr ""
 msgctxt "X-KDE-Keywords"
 msgid "wallpaper,desktop"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Icons"
+#~ msgctxt "Name"
+#~ msgid "Favicons"
+#~ msgstr "ప్రతిమలు"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Locations"
+#~ msgctxt "Name"
+#~ msgid "Geolocation"
+#~ msgstr "స్థానములు"
+
+#~ msgctxt "Name"
+#~ msgid "Pointer Position"
+#~ msgstr "సూచకి స్థానము"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Data Engine for getting favicons of web sites"
+#~ msgctxt "Description"
+#~ msgid "Data Engine for getting favicons of web sites"
+#~ msgstr "వెబ్ సైటులయొక్క ఫెవికాన్లను(ఫేవరేట్ఐకాన్‍స్) పొందుటకొరకు డాటా యింజన్"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Dictionary Data Engine"
+#~ msgctxt "Description"
+#~ msgid "Geolocation Data Engine"
+#~ msgstr "పదకోశం డాటా ఇంజన్"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "JavaScript Runner"
+#~ msgctxt "Description"
+#~ msgid "PackageKit Data Engine"
+#~ msgstr "జావాస్క్రిప్‍ట్ నడుపునది"
 
 #, fuzzy
 #~| msgctxt "Comment"
