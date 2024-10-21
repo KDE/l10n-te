@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-15 00:48+0000\n"
+"POT-Creation-Date: 2024-10-21 00:48+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -205,28 +205,12 @@ msgctxt "Name"
 msgid "Switch Window"
 msgstr "కొత్త విండో"
 
-#: dataengines/activities/plasma-dataengine-activities.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Activity Bar"
-msgctxt "Name"
-msgid "Activities Engine"
-msgstr "క్రియాశీలత పట్టీ"
-
 #: dataengines/applicationjobs/plasma-dataengine-applicationjobs.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Notifications"
 msgctxt "Name"
 msgid "Application Job Information"
-msgstr "నోటీసులు"
-
-#: dataengines/apps/plasma-dataengine-apps.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Notifications"
-msgctxt "Name"
-msgid "Application Information"
 msgstr "నోటీసులు"
 
 #: dataengines/executable/plasma-dataengine-executable.json
@@ -783,22 +767,9 @@ msgctxt "Description"
 msgid "Show a list of windows to switch to"
 msgstr ""
 
-#: dataengines/activities/plasma-dataengine-activities.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Info about files and directories for Plasmoids"
-msgctxt "Description"
-msgid "Information on Plasma Activities"
-msgstr "Plasmoids కొరకు ఫైళ్ళు మరియు సంచయంల గురించి సమాచారం"
-
 #: dataengines/applicationjobs/plasma-dataengine-applicationjobs.json
 msgctxt "Description"
 msgid "Application job updates (via kuiserver)"
-msgstr ""
-
-#: dataengines/apps/plasma-dataengine-apps.json
-msgctxt "Description"
-msgid "Information and launching of all applications in the app menu."
 msgstr ""
 
 #: dataengines/executable/plasma-dataengine-executable.json
@@ -1238,14 +1209,8 @@ msgstr ""
 #: containmentactions/switchactivity/plasma-containmentactions-switchactivity.json
 #: containmentactions/switchdesktop/plasma-containmentactions-switchdesktop.json
 #: containmentactions/switchwindow/plasma-containmentactions-switchwindow.json
-#: dataengines/apps/plasma-dataengine-apps.json
 msgctxt "Authors Name"
 msgid "Chani"
-msgstr ""
-
-#: dataengines/activities/plasma-dataengine-activities.json
-msgctxt "Authors Name"
-msgid "Chani Armitage"
 msgstr ""
 
 #: dataengines/time/plasma-dataengine-time.json
@@ -1431,6 +1396,27 @@ msgstr ""
 msgctxt "X-KDE-Keywords"
 msgid "wallpaper,desktop"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Activity Bar"
+#~ msgctxt "Name"
+#~ msgid "Activities Engine"
+#~ msgstr "క్రియాశీలత పట్టీ"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Notifications"
+#~ msgctxt "Name"
+#~ msgid "Application Information"
+#~ msgstr "నోటీసులు"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Info about files and directories for Plasmoids"
+#~ msgctxt "Description"
+#~ msgid "Information on Plasma Activities"
+#~ msgstr "Plasmoids కొరకు ఫైళ్ళు మరియు సంచయంల గురించి సమాచారం"
 
 #, fuzzy
 #~| msgctxt "Name"
