@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-26 00:48+0000\n"
+"POT-Creation-Date: 2025-02-27 00:47+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -558,7 +558,7 @@ msgctxt "Name"
 msgid "DuckDuckGo"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/duckduckgo.desktop:23
+#: src/urifilters/ikws/searchproviders/duckduckgo.desktop:26
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://dx.doi.org/\\\\{@}"
@@ -636,7 +636,7 @@ msgstr "WordReference.com అనువాదము: ఇంగ్లీష్ న
 #| msgctxt "Query"
 #| msgid "http://www.wordreference.com/fr/Translation.asp?enfr=\\\\{@}"
 msgctxt "Query"
-msgid "https://www.wordreference.com/fr/Translation.asp?enfr=\\\\{@}"
+msgid "https://www.wordreference.com/enfr/\\\\{@}"
 msgstr "http://www.wordreference.com/fr/Translation.asp?enfr=\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/en2it.desktop:5
@@ -645,11 +645,12 @@ msgid "WordReference.com Translation: English to Italian"
 msgstr "WordReference.com అనువాదము: ఇంగ్లీష్ నుండి ఇటాలియన్"
 
 #: src/urifilters/ikws/searchproviders/en2it.desktop:99
+#: src/urifilters/ikws/searchproviders/it2en.desktop:99
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.wordreference.com/it/translation.asp?enit=\\\\{@}"
 msgctxt "Query"
-msgid "https://www.wordreference.com/it/translation.asp?enit=\\\\{@}"
+msgid "https://www.wordreference.com/iten/\\\\{@}"
 msgstr "http://www.wordreference.com/it/translation.asp?enit=\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/es2en.desktop:5
@@ -680,6 +681,19 @@ msgstr "ఫెసెస్"
 msgctxt "Query"
 msgid "https://www.facebook.com/search/?q=\\\\{@}&init=quick"
 msgstr "http://info.alexa.com/search?q=\\\\{@}"
+
+#: src/urifilters/ikws/searchproviders/fedora.desktop:2
+msgctxt "Name"
+msgid "Fedora Packages"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/fedora.desktop:5
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "http://directory.fsf.org/search/?query=\\\\{@}"
+msgctxt "Query"
+msgid "https://packages.fedoraproject.org/search?query=\\\\{@}"
+msgstr "http://directory.fsf.org/search/?query=\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/feedster.desktop:3
 msgctxt "Name"
@@ -763,10 +777,10 @@ msgstr "WordReference.com అనువాదము: ఫ్రెంచ్ ను
 #: src/urifilters/ikws/searchproviders/fr2en.desktop:99
 #, fuzzy
 #| msgctxt "Query"
-#| msgid "http://www.wordreference.com/fr/en/translation.asp?fren=\\\\{@}"
+#| msgid "http://www.wordreference.com/fr/Translation.asp?enfr=\\\\{@}"
 msgctxt "Query"
-msgid "https://www.wordreference.com/fr/en/translation.asp?fren=\\\\{@}"
-msgstr "http://www.wordreference.com/fr/en/translation.asp?fren=\\\\{@}"
+msgid "https://www.wordreference.com/fren/\\\\{@}"
+msgstr "http://www.wordreference.com/fr/Translation.asp?enfr=\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/freecode.desktop:3
 #, fuzzy
@@ -1147,14 +1161,6 @@ msgstr "http://dict.leo.org/?search=\\\\{@}"
 msgctxt "Name"
 msgid "WordReference.com Translation: Italian to English"
 msgstr "WordReference.com అనువాదము: ఇటాలియన్ నుండి ఇంగ్లీష్"
-
-#: src/urifilters/ikws/searchproviders/it2en.desktop:99
-#, fuzzy
-#| msgctxt "Query"
-#| msgid "http://www.wordreference.com/it/en/translation.asp?iten=\\\\{@}"
-msgctxt "Query"
-msgid "https://www.wordreference.com/it/en/translation.asp?iten=\\\\{@}"
-msgstr "http://www.wordreference.com/it/en/translation.asp?iten=\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/jamendo.desktop:5
 #, fuzzy
@@ -2071,7 +2077,7 @@ msgctxt "Name"
 msgid "Wikipedia"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/wikipedia.desktop:23
+#: src/urifilters/ikws/searchproviders/wikipedia.desktop:26
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://en.wikipedia.org/wiki/Special:Search?search=\\\\{@}&go=Go"
@@ -2243,6 +2249,20 @@ msgstr ""
 msgctxt "Comment"
 msgid "KIO Worker Template"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Query"
+#~| msgid "http://www.wordreference.com/fr/en/translation.asp?fren=\\\\{@}"
+#~ msgctxt "Query"
+#~ msgid "https://www.wordreference.com/fr/en/translation.asp?fren=\\\\{@}"
+#~ msgstr "http://www.wordreference.com/fr/en/translation.asp?fren=\\\\{@}"
+
+#, fuzzy
+#~| msgctxt "Query"
+#~| msgid "http://www.wordreference.com/it/en/translation.asp?iten=\\\\{@}"
+#~ msgctxt "Query"
+#~ msgid "https://www.wordreference.com/it/en/translation.asp?iten=\\\\{@}"
+#~ msgstr "http://www.wordreference.com/it/en/translation.asp?iten=\\\\{@}"
 
 #~ msgctxt "Name"
 #~ msgid "Wikipedia - The Free Encyclopedia"
