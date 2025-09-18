@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-05 02:37+0000\n"
+"POT-Creation-Date: 2025-08-28 00:45+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -135,25 +135,25 @@ msgstr ""
 msgid "No description available"
 msgstr ""
 
-#: app/ModuleView.cpp:184
+#: app/ModuleView.cpp:186
 #, kde-format
 msgid "Reset all current changes to previous values"
 msgstr ""
 
-#: app/ModuleView.cpp:276
+#: app/ModuleView.cpp:279
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Scrollable area"
 msgstr ""
 
-#: app/ModuleView.cpp:365
+#: app/ModuleView.cpp:368
 #, kde-format
 msgid ""
 "The current page has unsaved changes.\n"
 "Apply the changes or discard them?"
 msgstr ""
 
-#: app/ModuleView.cpp:370
+#: app/ModuleView.cpp:373
 #, fuzzy, kde-format
 #| msgid "System Settings"
 msgid "Apply Settings"
@@ -180,17 +180,24 @@ msgstr ""
 msgid "Highlight Changed Settings"
 msgstr ""
 
-#: app/SettingsBase.cpp:147
+#: app/SettingsBase.cpp:144
+#, kde-format
+msgctxt ""
+"@option:check the pages being referred to here are System Settings KCMs"
+msgid "Show Inapplicable Pages"
+msgstr ""
+
+#: app/SettingsBase.cpp:155
 #, kde-format
 msgid "Report a Bug in the Current Page…"
 msgstr ""
 
-#: app/SidebarMode.cpp:588
+#: app/SidebarMode.cpp:595
 #, kde-format
 msgid "Sidebar"
 msgstr ""
 
-#: app/SidebarMode.cpp:657
+#: app/SidebarMode.cpp:664
 #, kde-format
 msgid "Most Used"
 msgstr ""
