@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-01 00:51+0000\n"
+"POT-Creation-Date: 2026-06-20 00:51+0000\n"
 "PO-Revision-Date: 2009-01-16 22:16+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -212,13 +212,12 @@ msgid "Terminal Emulator"
 msgstr "టెర్మినల్ ఎములేటర్"
 
 #: desktop/konsolepart.desktop:107 desktop/org.kde.konsole.desktop:243
-#: desktop/terminalemulator.desktop:98
 #, fuzzy
 #| msgctxt "Name"
-#| msgid "Command Line"
+#| msgid "Shell Command Plugin"
 msgctxt "Comment"
-msgid "Command line access"
-msgstr "ఆదేశ వరుస"
+msgid "Use the command line"
+msgstr "షెల్ ఆదేశం ప్లగ్ఇన్"
 
 #: desktop/konsolerun.desktop:13
 #, fuzzy
@@ -240,7 +239,7 @@ msgstr "రన్ కన్సోల్"
 msgctxt "Keywords"
 msgid ""
 "terminal;console;script;run;execute;command;command-line;commandline;cli;"
-"bash;sh;shell;zsh;cmd;command prompt"
+"bash;sh;shell;zsh;cmd;command prompt;xterm;tty;pty;fish;konsole"
 msgstr ""
 
 #: desktop/org.kde.konsole.desktop:61
@@ -258,7 +257,7 @@ msgstr "టెర్మినల్"
 #| msgctxt "Name"
 #| msgid "New Window"
 msgctxt "Name"
-msgid "Open a New Window"
+msgid "Open New Window"
 msgstr "కొత్త విండో"
 
 #: desktop/org.kde.konsole.desktop:363
@@ -266,8 +265,16 @@ msgstr "కొత్త విండో"
 #| msgctxt "Name"
 #| msgid "New Window"
 msgctxt "Name"
-msgid "Open a New Tab"
+msgid "Open New Tab"
 msgstr "కొత్త విండో"
+
+#: desktop/terminalemulator.desktop:98
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Command Line"
+msgctxt "Comment"
+msgid "Command line access"
+msgstr "ఆదేశ వరుస"
 
 #~ msgctxt "Name"
 #~ msgid "Open Terminal Here"
@@ -976,10 +983,6 @@ msgstr "కొత్త విండో"
 #~ msgctxt "Comment"
 #~ msgid "Configure settings that can improve KDE performance"
 #~ msgstr "KDE పనితనంను మెరుగుపరిచే అమరికలను ఆకృతీకరించుము"
-
-#~ msgctxt "Name"
-#~ msgid "Shell Command Plugin"
-#~ msgstr "షెల్ ఆదేశం ప్లగ్ఇన్"
 
 #~ msgctxt "Comment"
 #~ msgid "Shell Command Plugin for Konqueror"
