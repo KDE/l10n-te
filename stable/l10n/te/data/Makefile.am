@@ -1,4 +1,0 @@
-
-TOPLEVEL_LANG = te
-SUBDIRS = $(AUTODIRS)
-
